@@ -1,0 +1,151 @@
+# Canonical sources used across ingestion. Each has a stable `key` referenced
+# from events/claims. Era classifies reliability tier (primary/classical/modern).
+sources:
+  - key: wikidata
+    name: Wikidata
+    url: https://www.wikidata.org/
+    era: tertiary
+    notes: Structured data graph. Multi-statement P570 captures date disputes.
+
+  - key: openiti
+    name: OpenITI (Open Islamicate Texts Initiative)
+    url: https://openiti.org/
+    era: modern_academic
+    notes: Machine-readable author metadata. Hijri death year in AuthorID.
+
+  - key: quran
+    name: Qur'an
+    era: primary
+    notes: Highest authority for revelation context and Prophetic-era events.
+
+  - key: bukhari_sahih
+    name: Sahih al-Bukhari
+    author: Muhammad ibn Isma'il al-Bukhari
+    work_title: al-Jami' al-Sahih
+    era: classical
+    url: https://sunnah.com/bukhari
+
+  - key: muslim_sahih
+    name: Sahih Muslim
+    author: Muslim ibn al-Hajjaj al-Naysaburi
+    work_title: al-Musnad al-Sahih
+    era: classical
+    url: https://sunnah.com/muslim
+
+  - key: ibn_ishaq_sira
+    name: Sirat Rasul Allah
+    author: Ibn Ishaq (recension of Ibn Hisham)
+    era: classical
+    notes: Earliest surviving prophetic biography.
+
+  - key: ibn_hisham_sira
+    name: al-Sira al-Nabawiyya
+    author: Ibn Hisham
+    era: classical
+
+  - key: ibn_sad_tabaqat
+    name: Kitab al-Tabaqat al-Kabir
+    author: Ibn Sa'd
+    era: classical
+    notes: Biographical dictionary of Companions and early generations.
+
+  - key: tabari_tarikh
+    name: Tarikh al-Rusul wa'l-Muluk
+    author: al-Tabari
+    era: classical
+    notes: Most comprehensive early Islamic history.
+
+  - key: ibn_kathir_bidaya
+    name: al-Bidaya wa'l-Nihaya
+    author: Ibn Kathir
+    era: classical
+
+  - key: ibn_athir_kamil
+    name: al-Kamil fi al-Tarikh
+    author: Ibn al-Athir
+    era: classical
+
+  - key: dhahabi_siyar
+    name: Siyar A'lam al-Nubala'
+    author: al-Dhahabi
+    era: classical
+    notes: Biographical dictionary covering ~30,000 figures over 700 years.
+
+  - key: dhahabi_tarikh_islam
+    name: Tarikh al-Islam
+    author: al-Dhahabi
+    era: classical
+
+  - key: ibn_khallikan_wafayat
+    name: Wafayat al-A'yan
+    author: Ibn Khallikan
+    era: classical
+    notes: "Deaths of notable figures — explicit wafayat literature with date focus."
+
+  - key: ibn_hajar_isaba
+    name: al-Isaba fi Tamyiz al-Sahaba
+    author: Ibn Hajar al-Asqalani
+    era: classical
+
+  - key: ibn_hajar_durar
+    name: al-Durar al-Kamina fi Aʿyan al-Miʾa al-Thamina
+    author: Ibn Hajar al-Asqalani
+    era: classical
+    notes: Biographical dictionary of notables of the 8th AH century; major source for Mamluk-era muḥadditha women including Zaynab bint Makkī and Sittī al-Wuzarāʾ.
+
+  - key: ibn_imad_shadharat
+    name: Shadharat al-Dhahab fi Akhbar man Dhahab
+    author: Ibn al-ʿImad al-Hanbali
+    era: classical
+    notes: Year-by-year biographical chronicle covering through 1000 AH; useful for late-Mamluk/early-Ottoman scholars including Maryam al-Adhurbayjaniyya.
+
+  - key: suyuti_tarikh_khulafa
+    name: Tarikh al-Khulafa'
+    author: al-Suyuti
+    era: classical
+
+  - key: ei2
+    name: Encyclopaedia of Islam, Second Edition
+    era: modern_academic
+    url: https://referenceworks.brill.com/display/package/eio
+    notes: Paywalled but gold-standard secondary reference.
+
+  - key: juvayni_tarikh
+    name: Tarikh-i Jahangushay
+    author: Ata-Malik Juvayni
+    era: classical
+    notes: Persian chronicle of the Mongol conquests under Hulegu; primary source for the Battle of Kose Dag.
+
+  - key: ottoman_chronicles
+    name: Ottoman chronicles (Ashipashazade, Nesri, etc.)
+    era: classical
+    notes: 15th-century Sunni Ottoman chronicle tradition; principal classical source for early Ottoman political history.
+
+  - key: ibn_khaldun_tarikh
+    name: Kitab al-Ibar
+    author: Ibn Khaldun
+    era: classical
+    notes: Universal history of the Maghrib and al-Andalus; principal source for dynastic history of the Nasrids and Marinids.
+
+  - key: al_maqrizi_suluk
+    name: Kitab al-Suluk li-Ma'rifat Duwal al-Muluk
+    author: al-Maqrizi
+    era: classical
+    notes: Detailed annalistic history of the Mamluk state; principal classical source for Bahri and Burji political and administrative history.
+
+  - key: al_maqqari_nafh
+    name: Nafh al-Tib min Ghusn al-Andalus al-Ratib
+    author: al-Maqqari
+    era: classical
+    notes: Biographical and historical compilation on al-Andalus; principal classical source for Nasrid cultural and political history.
+
+  - key: baladhuri_futuh
+    name: Kitab Futuh al-Buldan
+    author: al-Baladhuri
+    era: classical
+    notes: Principal classical source for the early Islamic conquests of Persia, Central Asia, and the Maghrib.
+
+  - key: editorial
+    name: Editorial compilation
+    era: editorial
+    notes: Summary text composed for the app, cross-checked against cited sources above.

@@ -1,0 +1,290 @@
+# Wave 84 of curated event additions (2026-04-29).
+# Bahri Mamlūks expanded — the pre-Burji period from the founding of the
+# dynasty under Aybak (655 AH) through the death of al-Nāṣir Muḥammad
+# (741 AH), the longest-reigning and most consequential Bahri sultan.
+#
+# Already in dataset (NOT duplicated here):
+#   - death-of-qutuz (658 AH) — file 18
+#   - death-of-baybars (676 AH) — file 18
+#   - death-of-qalawun (689 AH) — file 18
+#   - battle-of-wadi-al-khaznadar (702 AH) — file 67
+#   - liberation-of-acre (690 AH) — file 28
+#
+# Sources: al-Maqrīzī, Kitāb al-Sulūk (principal Mamlūk annalist);
+# al-Dhahabī, Tārīkh al-Islām (year-by-year obituary); Ibn Kathīr,
+# al-Bidāya wa-l-Nihāya (chronicle); EI2 for modern academic cross-check.
+# Where day-precision is firmly attested across multiple classical sources
+# it is used; otherwise year- or month-precision per the date-uncertainty
+# protocol. Trilingual en/ar/fr throughout.
+
+events:
+  # =====================================================================
+  # FOUNDERS OF THE BAHRID STATE
+  # =====================================================================
+
+  - slug: death-of-aybak
+    category: ruler_death
+    title_en: Assassination of al-Muʿizz Aybak — Founder of the Bahri Mamlūk Sultanate
+    title_ar: اغتيال المعز أيبك — مؤسس سلطنة المماليك البحرية
+    title_fr: Assassinat d'al-Muʿizz Aybak — fondateur du Sultanat mamelouk bahrite
+    description_en: |
+      al-Malik al-Muʿizz ʿIzz al-Dīn Aybak al-Turkumānī, the
+      Mamlūk commander who ended the Ayyūbid dynasty in Egypt
+      and founded the Bahri Mamlūk state, was assassinated in
+      655 AH (~1257 CE) by a faction of his own officers. al-
+      Maqrīzī records the assassination under the events of
+      655 AH and describes Aybak as the amīr who had married
+      Shajarat al-Durr (the widow of al-Ṣāliḥ Ayyūb), taken
+      the title al-Malik al-Muʿizz, and laid the political
+      foundations of the Mamlūk sultanate that would rule
+      Egypt and Syria for nearly three centuries. His death
+      was followed within weeks by the murder of Shajarat al-
+      Durr, consolidating the military junta that would
+      elevate Quṭuz and then Baybars to the throne.
+    description_ar: |
+      اغتيل الملك المعز عز الدين أيبك التركماني — القائد
+      المملوكي الذي أنهى دولة الأيوبيين في مصر وأنشأ دولة
+      المماليك البحرية — سنة ٦٥٥ هـ (~١٢٥٧ م) على يد فئة
+      من ضباطه. يدون المقريزي الاغتيال في حوادث سنة ٦٥٥ هـ،
+      ويصف أيبك بأنه الأمير الذي تزوج شجر الدر (أرملة
+      الصالح أيوب) واتخذ لقب الملك المعز ورسم الأسس
+      السياسية للسلطنة المملوكية التي حكمت مصر والشام
+      قرابة ثلاثة قرون. وتبع مقتلُه خلال أسابيع مقتلُ
+      شجر الدر، مما رسّخ حكم العسكر الذين رفعوا قطز ثم
+      بيبرس إلى العرش.
+    description_fr: |
+      al-Malik al-Muʿizz ʿIzz al-Dīn Aybak al-Turkumānī, le
+      commandant mamelouk qui mit fin à la dynastie ayyoubide
+      en Égypte et fonda l'État mamelouk bahrite, fut
+      assassiné en 655 H (~1257 EC) par une faction de ses
+      propres officiers. al-Maqrīzī consigne l'assassinat sous
+      les événements de 655 H et décrit Aybak comme l'émir
+      qui avait épousé Shajarat al-Durr (la veuve d'al-Ṣāliḥ
+      Ayyūb), pris le titre d'al-Malik al-Muʿizz, et posé les
+      fondements politiques du sultanat mamelouk qui régnerait
+      sur l'Égypte et la Syrie pendant près de trois siècles.
+      Sa mort fut suivie en quelques semaines par le meurtre
+      de Shajarat al-Durr, consolidant la junte militaire qui
+      élèverait Quṭuz puis Baybars au trône.
+    canonical_hijri: {year: 655, precision: year}
+    canonical_gregorian: {date: 1257-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: al_maqrizi_suluk
+        is_canonical: true
+        notes: "al-Maqrizi records Aybak's assassination under 655 AH by his own officers."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabi enters the obituary under 655 AH and notes the founding of the Bahri state."
+      - source_key: ei2
+        notes: "EI2 article 'Aybak' confirms the 655 AH date and the political significance of his reign."
+    people: [[aybak, died]]
+    tags: [mamluk, bahri, egypt, cairo, founder, assassination, ayyubid-end]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-shajarat-al-durr
+    category: ruler_death
+    title_en: Death of Shajarat al-Durr — First Female Monarch in Islamic History
+    title_ar: وفاة شجر الدر — أول ملكة في التاريخ الإسلامي
+    title_fr: Mort de Shajarat al-Durr — première souveraine de l'histoire islamique
+    description_en: |
+      Shajarat al-Durr, the former slave-concubine of al-Ṣāliḥ
+      Ayyūb who became the effective ruler of Egypt upon her
+      husband's death in 647 AH and later the wife of Aybak,
+      was killed in 655 AH (~1257 CE) by the servants of
+      Aybak's first wife or by Aybak's Mamlūk officers,
+      according to al-Maqrīzī and Ibn Kathīr. She had briefly
+      borne the title al-Malikah ʿIṣmat al-Dīn — the only
+      woman in Islamic history to be proclaimed sultan in her
+      own right — before being forced to marry Aybak and
+      relinquish formal power. al-Maqrīzī describes her death
+      as the elimination of the last Ayyūbid-linked political
+      figure and the consolidation of pure Mamlūk military
+      rule. Her mausoleum in Cairo still stands as the oldest
+      surviving Mamlūk funerary monument.
+    description_ar: |
+      قُتلت شجر الدر — الجارية-سرية الصالح أيوب التي صارت
+      الحاكمة الفعلية لمصر عند وفاة زوجها سنة ٦٤٧ هـ ثم
+      زوجة أيبك — سنة ٦٥٥ هـ (~١٢٥٧ م) على يد خدم زوجة
+      أيبك الأولى أو ضباطه المملوكيين بحسب المقريزي وابن
+      كثير. وقد حملت لفترة لقب الملكة عصمة الدين — وهي
+      المرأة الوحيدة في التاريخ الإسلامي التي أُعلنت
+      سلطانة باسمها الخاص — قبل أن تُكره على الزواج من
+      أيبك والتنازل عن السلطة الصورية. يصف المقريزي
+      وفاتها بأنها إزالة آخر رمز سياسي أيوبي وترسيخ
+      الحكم العسكري المملوكي الصرف. ولا يزال ضريحها
+      بالقاهرة أقدم نصب جنائزي مماليكي باقٍ.
+    description_fr: |
+      Shajarat al-Durr, l'ancienne esclave-concubine d'al-Ṣāliḥ
+      Ayyūb qui devint souveraine effective de l'Égypte à la
+      mort de son mari en 647 H et ensuite l'épouse d'Aybak,
+      fut tuée en 655 H (~1257 EC) par les servantes de la
+      première femme d'Aybak ou par les officiers mamelouks
+      d'Aybak, selon al-Maqrīzī et Ibn Kathīr. Elle avait
+      brièvement porté le titre d'al-Malikah ʿIṣmat al-Dīn —
+      la seule femme de l'histoire islamique à avoir été
+      proclamée sultan en son nom propre — avant d'être
+      contrainte d'épouser Aybak et d'abandonner le pouvoir
+      formel. al-Maqrīzī décrit sa mort comme l'élimination
+      du dernier symbole politique ayyoubide et la
+      consolidation du pur gouvernement militaire mamelouk.
+      Son mausolée au Caire subsiste comme le plus ancien
+      monument funéraire mamelouk conservé.
+    canonical_hijri: {year: 655, precision: year}
+    canonical_gregorian: {date: 1257-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: al_maqrizi_suluk
+        is_canonical: true
+        notes: "al-Maqrizi records Shajarat al-Durr's death under 655 AH and describes her as the only female sultan in Islamic history."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathir confirms the 655 AH date and the circumstances of her death."
+      - source_key: ei2
+        notes: "EI2 article 'Shadjarat al-Durr' confirms the 655 AH date and her unique status as female monarch."
+    people: [[shajarat-al-durr, died]]
+    tags: [mamluk, bahri, egypt, cairo, female-ruler, assassination, ayyubid]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: detail
+
+  # =====================================================================
+  # THE QALAWUNID LINE — AL-ASHRAF KHALIL AND AL-NASIR MUHAMMAD
+  # =====================================================================
+
+  - slug: death-of-al-ashraf-khalil
+    category: ruler_death
+    title_en: Assassination of al-Ashraf Khalīl — Conqueror of Acre
+    title_ar: اغتيال الأشرف خليل — فاتح عكا
+    title_fr: Assassinat d'al-Ashraf Khalīl — conquérant d'Acre
+    description_en: |
+      al-Malik al-Ashraf Ṣalāḥ al-Dīn Khalīl ibn Qalāwūn,
+      the Mamlūk sultan who completed his father Qalāwūn's
+      Crusader war by capturing Acre in 690 AH and ending
+      the Crusader Kingdom of Jerusalem, was assassinated in
+      693 AH (~1293 CE) by a group of emirs led by his
+      own vice-sultan Baydara. al-Maqrīzī records the
+      assassination under the events of 693 AH and describes
+      al-Ashraf Khalīl as the most militarily successful of
+      the early Bahri sultans: in addition to Acre, he had
+      taken Tyre, Sidon, Beirut, and Ḥaifā, and had begun
+      construction of the Mamlūk naval arsenal at Alexandria
+      to challenge Crusader sea power. His death at age
+      twenty-nine ended the first Qalawunid succession and
+      brought his nine-year-old brother al-Nāṣir Muḥammad
+      to the throne.
+    description_ar: |
+      اغتيل الملك الأشرف صلاح الدين خليل بن قلاوون — السلطان
+      المملوكي الذي أكمل حرب والده قلاوون ضد الصليبيين
+      بفتح عكا سنة ٦٩٠ هـ وإنهاء مملكة بيت المقدس
+      الصليبية — سنة ٦٩٣ هـ (~١٢٩٣ م) على يد جماعة من
+      الأمراء بقيادة نائب سلطنته بايدارا. يدون المقريزي
+      الاغتيال في حوادث سنة ٦٩٣ هـ، ويصف الأشرف خليل
+      بأنه أنجح سلاطين المماليك البحرية عسكرياً: فإلى
+      جانب عكا كان قد استولى على صور وصيدا وبيروت وحيفا،
+      وشرع في بناء ترسانة بحرية مماليكية في الإسكندرية
+      لتحدي القوة البحرية الصليبية. وأدت وفاته وهو في
+      التاسعة والعشرين من عمره إلى انتهاء أولى خلافة
+      آل قلاوون وصعود أخيه الناصر محمد التاسع من عمره
+      إلى العرش.
+    description_fr: |
+      al-Malik al-Ashraf Ṣalāḥ al-Dīn Khalīl ibn Qalāwūn,
+      le sultan mamelouk qui acheva la guerre croisée de son
+      père Qalāwūn en prenant Acre en 690 H et mettant fin au
+      Royaume croisé de Jérusalem, fut assassiné en 693 H
+      (~1293 EC) par un groupe d'émir conduits par son propre
+      vice-sultan Baydara. al-Maqrīzī consigne l'assassinat
+      sous les événements de 693 H et décrit al-Ashraf Khalīl
+      comme le plus militairement victorieux des premiers
+      sultans bahrites : outre Acre, il avait pris Tyr, Sidon,
+      Beyrouth et Haïfa, et avait commencé la construction de
+      l'arsenal naval mamelouk à Alexandrie pour défier la
+      puissance maritime croisée. Sa mort à l'âge de vingt-neuf
+      ans mit fin à la première succession qalawunide et
+      porta son jeune frère al-Nāṣir Muḥammad sur le trône.
+    canonical_hijri: {year: 693, precision: year}
+    canonical_gregorian: {date: 1293-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: al_maqrizi_suluk
+        is_canonical: true
+        notes: "al-Maqrizi records al-Ashraf Khalil's assassination under 693 AH by Baydara and his faction."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabi enters the obituary under 693 AH and notes the conquest of Acre."
+      - source_key: ei2
+        notes: "EI2 article 'al-Ashraf Khalil' confirms the 693 AH date and the Acre campaign."
+    people: [[al-ashraf-khalil, died]]
+    tags: [mamluk, bahri, egypt, cairo, assassination, acre, crusades]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-nasir-muhammad
+    category: ruler_death
+    title_en: Death of al-Nāṣir Muḥammad ibn Qalāwūn — The Longest-Reigning Bahri Sultan
+    title_ar: وفاة الناصر محمد بن قلاوون — أطول سلاطين المماليك البحرية حكماً
+    title_fr: Mort d'al-Nāṣir Muḥammad ibn Qalāwūn — le sultan bahrite au plus long règne
+    description_en: |
+      al-Malik al-Nāṣir Nāṣir al-Dīn Muḥammad ibn Qalāwūn,
+      the third and longest-reigning sultan of the Bahri
+      Mamlūk dynasty, died in 741 AH (~1341 CE) after a
+      reign of nearly forty-two years (spread across three
+      separate periods: 693–694, 698–708, and 709–741 AH).
+      al-Maqrīzī records his death under the events of 741 AH
+      and describes his final reign as the apogee of Bahri
+      power: the Mamlūk state reached its territorial maximum,
+      the Cairo citadel was rebuilt in stone, and the sultan
+      presided over a flourishing Sunni cultural life that
+      patronised Ibn Taymiyya (in Damascus), al-Subkī, and
+      the great Mamlūk architectural programme of madrasas
+      and khānqāhs. His death was followed by a decade of
+      palace coups and the rapid turnover of twelve sultans
+      before the restoration of order under al-Manṣūr Lāǧīn.
+    description_ar: |
+      توفي الملك الناصر ناصر الدين محمد بن قلاوون — ثالث
+      سلاطين المماليك البحرية وأطولهم مدةً — سنة ٧٤١ هـ
+      (~١٣٤١ م) بعد ولاية امتدت نحو إثنين وأربعين عاماً
+      (موزعة على ثلاث فترات: ٦٩٣–٦٩٤، ٦٩٨–٧٠٨، و٧٠٩–٧٤١
+      هـ). يدون المقريزي الوفاة في حوادث سنة ٧٤١ هـ، ويصف
+      سلطنته الأخيرة بأنها ذروة قوة المماليك البحرية:
+      فقد بلغت الدولة مماليكية أقصى امتداد إقليمي، وأُعيد
+      بناء قلعة القاهرة بالحجر، وترأس السلطان حياةً سنية
+      ثقافيةً مزدهرة رعت ابن تيمية (بدمشق) والسبكي
+      والبرنامج المعماري المملوكي العظيم من المدارس
+      والخانقات. وتبعت وفاته عقدٌ من الانقلابات القصرية
+      وتداول اثني عشر سلطاناً سريعاً قبل استعادة النظام
+      على يد المنصور لاجين.
+    description_fr: |
+      al-Malik al-Nāṣir Nāṣir al-Dīn Muḥammad ibn Qalāwūn,
+      troisième et plus long règnant des sultans de la
+      dynastie mamelouke bahrite, mourut en 741 H (~1341 EC)
+      après un règne de près de quarante-deux ans (réparti en
+      trois périodes distinctes : 693–694, 698–708 et
+      709–741 H). al-Maqrīzī consigne sa mort sous les
+      événements de 741 H et décrit son dernier règne comme
+      l'apogée de la puissance bahrite : l'État mamelouk
+      atteignit son extension territoriale maximale, la
+      citadelle du Caire fut reconstruite en pierre, et le
+      sultan présida une vie culturelle sunnie florissante
+      qui patronna Ibn Taymiyya (à Damas), al-Subkī et le
+      grand programme architectural mamelouk de madrasas et
+      de khānqāhs. Sa mort fut suivie d'une décennie de
+      coups de palais et d'une rotation rapide de douze
+      sultans avant la restauration de l'ordre sous al-
+      Manṣūr Lāǧīn.
+    canonical_hijri: {year: 741, precision: year}
+    canonical_gregorian: {date: 1341-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: al_maqrizi_suluk
+        is_canonical: true
+        notes: "al-Maqrizi records al-Nasir Muhammad's death under 741 AH and describes his reign as the apogee of Bahri power."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabi enters the obituary under 741 AH and notes the three reigns totaling forty-two years."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathir confirms the 741 AH date and the succession crisis that followed."
+      - source_key: ei2
+        notes: "EI2 article 'al-Nasir Muhammad' confirms the 741 AH date and the territorial/cultural achievements."
+    people: [[al-nasir-muhammad-ibn-qalawun, died]]
+    tags: [mamluk, bahri, egypt, cairo, qalawunid, architecture, ibn-taymiyya-patron]
+    importance: major
+    verified: true
+    verification_status: cross_verified

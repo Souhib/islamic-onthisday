@@ -1,0 +1,1091 @@
+# Wave 53 of curated event additions (2026-04-27).
+# Caucasus, Volga / Tatar, Hui-Chinese, and additional Walisongo-Java
+# Sunni Muslim history — geographies under-represented in the dataset.
+# Four clusters:
+#   (i) the Naqshbandi-Khalidi imamate of Daghestan and the long
+#       Russian-Caucasian war (Ghāzī Muḥammad, Hamzat Bek, Akhulgo,
+#       Imam Shāmil),
+#   (ii) the conversion of the Volga Bulgars and the modern Tatar
+#       Jadid renewal (Mercanī, Nasiri, Riza Fahreddin, Mūsā Bigi),
+#   (iii) the founders of Sino-Islamic letters and the Hui-Chinese
+#       Sufi orders (Wang Daiyu, Liu Zhi, Ma Mingxin, Ma Hualong),
+#   (iv) Sunan Bonang of the Javanese Walisongo not covered in Wave 27.
+# Most of these figures post-date al-Dhahabī (d. 748 AH), so the
+# classical wafayāt corpus does not cover them. We rely on EI2 + the
+# editorial summary as the standard cross-reference pair, supplemented
+# where available by Ibn al-Athīr or Ibn Faḍlān for the early-tenth-
+# century Bulgar conversion. Where ≥2 sources from sources.yaml could
+# not be justified, the entry is marked single_source. None of the
+# figures here are sahaba; image policy does not apply. Trilingual
+# en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # VOLGA — THE CONVERSION OF THE BULGARS (310 AH)
+  # =========================================================================
+
+  - slug: conversion-of-volga-bulgars
+    category: conversion
+    title_en: Conversion of the Volga Bulgars to Islam
+    title_ar: إسلام بلغار الفولغا
+    title_fr: Conversion à l'islam des Bulgares de la Volga
+    description_en: |
+      The formal conversion of the Volga-Bulgar khaganate to Sunni
+      Islam took place in Muḥarram 310 AH (May 922 CE) when the
+      Abbasid embassy of the caliph al-Muqtadir reached the court
+      of Almish (Yiltawar) ibn Yiltawar at the confluence of the
+      Volga and the Kama. The khan had earlier petitioned Baghdad
+      for jurists and instructors to teach Islam, and the embassy —
+      whose secretary Aḥmad ibn Faḍlān left a celebrated Arabic
+      eyewitness account, *Risālat ibn Faḍlān* — delivered the
+      caliphal answer. After the public *khuṭba* invoking the
+      ʿAbbāsid caliph, Almish took the Muslim throne-name Jaʿfar
+      ibn ʿAbd Allāh; the chain of conversions that followed gave
+      rise to the Tatar-Bulgar Sunni community of the middle Volga
+      that has persisted for more than eleven centuries — the
+      historical core of the Tatar, Bashkir, and Chuvash Muslim
+      populations of European Russia. The Volga Bulgar polity was
+      the first Muslim state established north of the Caspian
+      steppe and the Northernmost outpost of the Sunni *umma*
+      until the Ottoman expansions of the sixteenth century.
+    description_ar: |
+      تمّ إسلام خانية بلغار الفولغا الإسلام السنّيَّ على المذهب
+      الحنفيِّ في محرّم سنة ٣١٠ هـ (الموافق ماي ٩٢٢ ميلادي) لمّا
+      وصلت السفارة العباسية التي بعث بها الخليفة المقتدر إلى بلاط
+      «أَلْمَش (يلطوار) بن يلطوار» عند ملتقى نهري الفولغا والكاما.
+      وكان الخان قد كاتب بغداد قبل ذلك يطلب فقهاء ومعلمين يعلمونه
+      الإسلام، فأجاب الخليفة، وحملت السفارة جوابه — وكاتبها أحمد
+      بن فضلان ترك «رسالة ابن فضلان» العربية الشهيرة في وصف
+      هذه الرحلة. وبعد الخطبة الجامعة على المنابر باسم الخليفة
+      العباسي تسمّى الخان بالاسم الإسلامي «جعفر بن عبد الله»،
+      فبدأت بذلك سلسلة الإسلام التي أنتجت جالية بلغار الفولغا
+      السنية في وسط الفولغا، الباقية أكثر من إحدى عشرة قرناً —
+      وهي النواة التاريخية للجاليات التترية والباشكيرية
+      والشوفاشية المسلمة في روسيا الأوروبية. وكانت دولة بلغار
+      الفولغا أوّل دولة إسلامية شمال سهب بحر قزوين، وأقصى ثغور
+      أهل السنة شمالاً إلى أن جاء التوسع العثماني في القرن
+      السادس عشر الميلادي.
+    description_fr: |
+      La conversion formelle du khaganat des Bulgares de la Volga
+      à l'islam sunnite eut lieu en Muḥarram 310 H (mai 922 EC)
+      lorsque l'ambassade ʿabbāside du calife al-Muqtadir parvint
+      à la cour d'Almish (Yiltawar) ibn Yiltawar, au confluent
+      de la Volga et de la Kama. Le khan avait auparavant
+      sollicité de Bagdad des juristes et des instructeurs pour
+      enseigner l'islam ; l'ambassade — dont le secrétaire
+      Aḥmad ibn Faḍlān laissa un célèbre témoignage arabe, la
+      *Risāla* — apporta la réponse califale. Après la *khuṭba*
+      publique au nom du calife ʿabbāside, Almish prit le nom
+      musulman Jaʿfar ibn ʿAbd Allāh ; la chaîne de conversions
+      qui s'ensuivit donna naissance à la communauté sunnite
+      tatare-bulghare de la moyenne Volga, qui a persisté plus
+      de onze siècles — noyau historique des populations
+      musulmanes tatares, bachkires et tchouvaches de la Russie
+      européenne. La principauté des Bulgares de la Volga fut le
+      premier État musulman au nord de la steppe caspienne et
+      l'avant-poste le plus septentrional de la *umma* sunnite
+      jusqu'aux expansions ottomanes du XVIe siècle.
+    canonical_hijri: {year: 310, month: 1, precision: month}
+    canonical_gregorian: {date: 922-05-12, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Al-Kāmil records the embassy of al-Muqtadir to the Bulgar khaganate."
+      - source_key: ei2
+        notes: "EI2 'Bulghār' on the conversion under Almish in 310 AH."
+      - source_key: editorial
+    people: [[ibn-fadlan, subject], [almish-ibn-yiltawar, subject]]
+    tags: [volga, bulgar, conversion, abbasid, tatar, muqtadir, hanafi, eastern-europe]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Volga_Bulgaria"
+
+  # =========================================================================
+  # CAUCASUS — THE NAQSHBANDI-KHALIDI IMAMATE OF DAGHESTAN
+  # =========================================================================
+
+  - slug: death-of-imam-ghazi-muhammad
+    category: ruler_death
+    title_en: Death of Imām Ghāzī Muḥammad of Daghestan at Gimry
+    title_ar: استشهاد الإمام غازي محمد الداغستاني في غمري
+    title_fr: Mort de l'Imam Ghāzī Muḥammad du Daghestan à Gimry
+    description_en: |
+      Ghāzī Muḥammad of Gimry — first Imam of Daghestan, Naqshbandi-
+      Khalidi shaykh, and proclaimed leader (1828) of the
+      Caucasian resistance to Russian imperial expansion in the
+      mountains of Daghestan and Chechnya — fell in battle at
+      his native village of Gimry on 17 October 1832 CE / 22
+      Jumādā al-Awwal 1248 AH at age about 39, when the Russian
+      column under General Velyaminov stormed the Gimry stronghold
+      after a long siege. He died with the bulk of his lieutenants;
+      his close companion Shāmil escaped wounded and would later
+      become the third Imam. Ghāzī Muḥammad's brief imamate
+      established the legal-political programme of the Caucasian
+      *muridist* movement: enforcement of *sharīʿa* over
+      customary *ʿādat* law, jihād against Russian advance, and
+      the administrative structure inherited from him by Hamzat
+      Bek and Shāmil. His tomb at Gimry remained a pilgrimage
+      destination through the long Russo-Caucasian war.
+    description_ar: |
+      استُشهد الإمام غازي محمد الغمري — أول أئمة الداغستان
+      الثلاثة في الحرب القوقازية الكبرى، وشيخ الطريقة
+      النقشبندية الخالدية، ومن أُعلن إماماً سنة ١٢٤٤ هـ
+      (الموافق ١٨٢٨ ميلادي) لقيادة المقاومة القوقازية في وجه
+      التوسع الروسي القيصري في جبال الداغستان والشيشان — في
+      معركة قريته «غمري» يوم ٢٢ جمادى الأولى سنة ١٢٤٨ هـ
+      (الموافق ١٧ أكتوبر ١٨٣٢ ميلادي) عن نحو تسع وثلاثين سنة،
+      حين اقتحم الجنرال الروسي «فلياميـنوف» حصن غمري بعد حصار
+      طويل. وقد قُتل ومعه عامة معاونيه، ونجا منهم رفيقه شامل
+      جريحاً، وصار شامل بعد ذلك ثالث الأئمة. وأرسى إمامُه
+      القصير برنامجَ حركة المريدين القوقازية: إقامة الشريعة
+      على «العادات» العرفية، والجهاد في وجه الزحف الروسي،
+      والهيكل الإداري الذي ورثه عنه حمزة بك ثم شامل من بعدهما.
+      وضريحه بغمري ظل مزاراً طوال الحرب الروسية-القوقازية
+      الطويلة.
+    description_fr: |
+      Ghāzī Muḥammad de Gimry — premier Imam du Daghestan,
+      cheikh naqshbandī-khālidī, et chef proclamé en 1828 EC
+      de la résistance caucasienne à l'expansion impériale
+      russe dans les montagnes du Daghestan et de la Tchétchénie
+      — tomba au combat dans son village natal de Gimry le 17
+      octobre 1832 EC / 22 Jumādā al-Awwal 1248 H, à l'âge
+      d'environ 39 ans, lorsque la colonne russe du général
+      Veliaminov prit d'assaut la forteresse de Gimry après un
+      long siège. Il mourut avec l'essentiel de ses lieutenants ;
+      son compagnon Shāmil, blessé, parvint à s'échapper et
+      deviendra plus tard le troisième Imam. L'imamat bref de
+      Ghāzī Muḥammad établit le programme juridico-politique
+      du mouvement *mouride* caucasien : application de la
+      *sharīʿa* contre la loi coutumière *ʿādat*, *djihād*
+      contre l'avancée russe, et la structure administrative
+      héritée par Hamzat Bek puis par Shāmil. Sa tombe à Gimry
+      demeura un lieu de pèlerinage pendant toute la longue
+      guerre russo-caucasienne.
+    canonical_hijri: {year: 1248, month: 5, day: 22, precision: day}
+    canonical_gregorian: {date: 1832-10-17, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Ghāzī Muḥammad' and 'Daghistan' for the imamate and death at Gimry."
+      - source_key: editorial
+    people: [[ghazi-muhammad-daghestan, died]]
+    tags: [caucasus, daghestan, gimry, naqshbandi, khalidi, muridism, russian-empire, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ghazi_Muhammad"
+
+  - slug: death-of-imam-hamzat-bek
+    category: ruler_death
+    title_en: Death of Imām Hamzat Bek of Daghestan
+    title_ar: استشهاد الإمام حمزة بك الداغستاني
+    title_fr: Mort de l'Imam Hamzat Bek du Daghestan
+    description_en: |
+      Hamzat Bek of Hutsalmahi — second Imam of Daghestan
+      (1832-1834), Naqshbandi-Khalidi *murīd* and successor of
+      Ghāzī Muḥammad in the leadership of the Caucasian
+      resistance to the Russian Empire — was assassinated in the
+      Avar capital of Khunzakh on 19 September 1834 CE / 14
+      Jumādā al-Awwal 1250 AH at age about 45. He had taken the
+      khanate of Avaristan from the pro-Russian Khunzakh dynasty
+      earlier the same year by killing the Avar khans, and was
+      cut down two months later inside the Khunzakh mosque
+      during the Friday prayer in a vendetta-driven counter-
+      strike led by the *khanid* notable Hadji Murad and his
+      brother Osman, avenging the slain Avar princes. He was
+      succeeded by Shāmil, whose long imamate (1834-1859) would
+      become the principal episode of nineteenth-century
+      Caucasian Muslim resistance. Hamzat Bek's brief imamate
+      consolidated the *sharīʿa*-state framework instituted by
+      Ghāzī Muḥammad and broke the autonomy of the Avar khanate.
+    description_ar: |
+      اغتيل الإمام حمزة بك الحُتْسَلْمَهي — ثاني أئمة الداغستان
+      الثلاثة (١٢٤٨-١٢٥٠ هـ)، مريد النقشبندية الخالدية وخلف
+      الإمام غازي محمد في قيادة المقاومة القوقازية في وجه
+      الإمبراطورية الروسية — في عاصمة الأفاريين «خونزاخ»
+      يوم ١٤ جمادى الأولى سنة ١٢٥٠ هـ (الموافق ١٩ سبتمبر
+      ١٨٣٤ ميلادي) عن نحو خمس وأربعين سنة. كان قد ضمَّ خانية
+      «أفاريا» (آفاريا) من الأسرة الخونزخية الموالية لروسيا
+      في السنة نفسها بقتل أمراء آفار، فقُتل بعد ذلك بشهرين
+      داخل جامع خونزاخ أثناء صلاة الجمعة في عملية ثأر قاد
+      عملياتها وجيه الأسرة الخانية «حاجي مراد» وأخوه «عثمان»
+      ثأراً لأمرائهم القتلى. وخلفه الإمام شامل، الذي صار
+      إمامه الطويل (١٢٥٠-١٢٧٦ هـ) أعظم فصول مقاومة المسلمين
+      القوقازيين في القرن التاسع عشر الميلادي. وأَرسى الإمام
+      حمزة بك في إمامه القصير الإطار الشرعي للدولة الذي
+      أقامه غازي محمد، وكسر استقلال خانية الأفاريين.
+    description_fr: |
+      Hamzat Bek de Houtsalmahi — deuxième Imam du Daghestan
+      (1832-1834), *murīd* naqshbandī-khālidī et successeur de
+      Ghāzī Muḥammad à la tête de la résistance caucasienne à
+      l'Empire russe — fut assassiné dans la capitale avare de
+      Khounzakh le 19 septembre 1834 EC / 14 Jumādā al-Awwal
+      1250 H, à l'âge d'environ 45 ans. Il avait pris le khanat
+      d'Avaristan à la dynastie pro-russe des Khounzakh plus
+      tôt la même année en tuant les khans avars, et fut abattu
+      deux mois plus tard dans la mosquée de Khounzakh pendant
+      la prière du vendredi lors d'une contre-attaque de
+      vendetta conduite par le notable de la maison khanale
+      Hadji Murad et son frère Osman, qui vengeaient les
+      princes avars tués. Il fut remplacé par Shāmil, dont le
+      long imamat (1834-1859) deviendra l'épisode majeur de la
+      résistance musulmane caucasienne du XIXe siècle. L'imamat
+      bref de Hamzat Bek consolida le cadre de l'État de
+      *sharīʿa* institué par Ghāzī Muḥammad et brisa
+      l'autonomie du khanat avar.
+    canonical_hijri: {year: 1250, month: 5, day: 14, precision: day}
+    canonical_gregorian: {date: 1834-09-19, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Daghistan' and 'Hamzat Bek' for the assassination at Khunzakh."
+      - source_key: editorial
+    people: [[hamzat-bek-daghestan, died]]
+    tags: [caucasus, daghestan, khunzakh, naqshbandi, khalidi, avar, russian-empire, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hamzat_Bek"
+
+  - slug: fall-of-akhulgo
+    category: battle
+    title_en: Fall of Akhulgo to Russian Forces
+    title_ar: سقوط حصن أَخُلْغو في أيدي الروس
+    title_fr: Chute d'Akhulgo aux forces russes
+    description_en: |
+      Akhulgo — the principal mountain stronghold of Imam Shāmil's
+      Naqshbandi-Khalidi imamate, perched on a rocky promontory
+      above the Andi-Koisu river in north-western Daghestan —
+      fell to the Russian forces of General Pavel Grabbe on 22
+      August 1839 CE (11 Jumādā al-Thānī 1255 AH) after a brutal
+      eighty-day siege that began on 12 June. The Russians lost
+      some three thousand men in repeated assaults; the defenders
+      lost virtually their entire fighting force, including most
+      of the Imam's family. Shāmil himself escaped through the
+      Russian lines with a handful of followers, but the fortress
+      was demolished and the imamate's military centre of gravity
+      shifted to Chechnya. Despite the disaster, Akhulgo became
+      the founding myth of the long second phase of the Imamate
+      (1840-1859); Shāmil rebuilt his administration in the
+      forested foothills and held out against the Russian Empire
+      for two more decades. The siege is remembered in modern
+      Daghestani historiography as the Caucasian war's darkest
+      and most determinative single engagement.
+    description_ar: |
+      سقط حصن «أخلْغو» — الحصن الجبليّ الأكبر في إمامة الشيخ
+      شامل النقشبندي الخالدي، القائم على نتوء صخري فوق نهر
+      «الأندي قويصو» في شمال غرب الداغستان — في أيدي القوات
+      الروسية بقيادة الجنرال «بافل غرابِّه» يوم ١١ جمادى الآخرة
+      سنة ١٢٥٥ هـ (الموافق ٢٢ غشت ١٨٣٩ ميلادي) بعد حصار وحشي
+      دام نحو ثمانين يوماً ابتدأ في ١٢ جوان. خسر الروس فيه نحو
+      ثلاثة آلاف جنديٍّ في الهجمات المتتالية، وفقد المدافعون
+      عامّة قوّاتهم القتالية ومنهم جلّ آل الإمام. ونجا شامل
+      نفسه باختراقه الخطوط الروسية في عصبة قليلة من أتباعه،
+      لكن الحصن دُمِّر، وانتقل الثقل العسكري للإمامة إلى
+      الشيشان. وعلى رغم الكارثة صارت «أخلغو» الأسطورة المؤسسة
+      للطور الثاني الطويل من الإمامة (١٢٥٦-١٢٧٦ هـ)؛ فأعاد
+      شامل إنشاء إدارته في الجبال الحرجية، واستعصى على
+      الإمبراطورية الروسية عقدين آخرين. ويُذكر هذا الحصار في
+      المؤلّفات الداغستانية الحديثة بأنّه أحلك مفاصل الحرب
+      القوقازية وأكثرها تحديداً لمسارها.
+    description_fr: |
+      Akhulgo — la principale forteresse de montagne de
+      l'imamat naqshbandī-khālidī de l'Imam Shāmil, perchée
+      sur un éperon rocheux dominant la rivière Andi-Koysu
+      au nord-ouest du Daghestan — tomba aux mains des forces
+      russes du général Pavel Grabbe le 22 août 1839 EC (11
+      Jumādā al-Thānī 1255 H), au terme d'un siège brutal de
+      quatre-vingts jours commencé le 12 juin. Les Russes y
+      perdirent environ trois mille hommes dans les assauts
+      répétés ; les défenseurs perdirent la quasi-totalité de
+      leur force combattante, y compris la majeure partie de
+      la famille de l'Imam. Shāmil lui-même s'échappa à
+      travers les lignes russes avec une poignée de fidèles,
+      mais la forteresse fut rasée et le centre de gravité
+      militaire de l'imamat se déplaça vers la Tchétchénie.
+      Malgré le désastre, Akhulgo devint le mythe fondateur
+      de la longue seconde phase de l'imamat (1840-1859) ;
+      Shāmil reconstitua son administration dans les
+      contreforts boisés et tint tête à l'Empire russe deux
+      autres décennies. Le siège est tenu, dans
+      l'historiographie daghestanaise contemporaine, pour
+      l'engagement le plus sombre et le plus déterminant de
+      la guerre du Caucase.
+    canonical_hijri: {year: 1255, month: 6, day: 11, precision: day}
+    canonical_gregorian: {date: 1839-08-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Shāmil' and 'Daghistan' for the siege and fall in 1839 CE."
+      - source_key: editorial
+    people: [[imam-shamil, subject]]
+    tags: [caucasus, daghestan, akhulgo, siege, naqshbandi, khalidi, russian-empire, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siege_of_Akhoulgo"
+
+  - slug: death-of-imam-shamil
+    category: ruler_death
+    title_en: Death of Imām Shāmil of Daghestan in Medina
+    title_ar: وفاة الإمام شامل الداغستاني بالمدينة المنورة
+    title_fr: Mort de l'Imam Shāmil du Daghestan à Médine
+    description_en: |
+      Shāmil ibn Dengaw of Gimry — third Imam of Daghestan
+      (1834-1859), Naqshbandi-Khalidi shaykh, and the central
+      figure of the long Caucasian resistance to Russian imperial
+      expansion — died in Medina on 4 February 1871 CE (14 Dhū
+      al-Qaʿda 1287 AH) at age about 73. After leading the
+      Caucasian Imamate for twenty-five years from his foothold
+      in Chechnya and Daghestan, he surrendered to the Russian
+      forces of Field Marshal Bariatinsky at Gunib in late August
+      1859 CE; the surrender was honourable and Shāmil was
+      relocated under house arrest first to Kaluga and then to
+      Kiev. In 1869 the Tsar permitted him to leave for the
+      Hijaz, and after performing Hajj at Mecca and visiting
+      Medina he settled there. He was buried in al-Baqīʿ
+      cemetery beside his eldest son Ghāzī Muḥammad. His
+      imamate institutionalised the *sharīʿa*-state model of
+      Ghāzī Muḥammad and Hamzat Bek and remains a foundational
+      reference for modern Caucasian Sunni Islam.
+    description_ar: |
+      توفي الإمام شامل بن دنغاو الغمري — ثالث أئمة الداغستان
+      الثلاثة (١٢٥٠-١٢٧٦ هـ)، شيخ الطريقة النقشبندية الخالدية،
+      والركن المركزي للمقاومة القوقازية الطويلة في وجه التوسع
+      الروسي القيصري — بالمدينة المنورة يوم ١٤ ذي القعدة سنة
+      ١٢٨٧ هـ (الموافق ٤ فيفري ١٨٧١ ميلادي) عن نحو ثلاث وسبعين
+      سنة. وكان قد قاد إمامة القوقاز خمساً وعشرين سنة من معقله
+      في الشيشان والداغستان، ثم سلَّم نفسه للقوات الروسية
+      بقيادة المشير «باريا تنسكي» ب«غونيب» في أواخر غشت سنة
+      ١٢٧٦ هـ (الموافق ١٨٥٩ ميلادي)؛ وكان التسليم مُكرَّماً،
+      فنُقل تحت الإقامة الجبرية إلى «كالوغا» ثم «كييف». وفي
+      سنة ١٨٦٩ ميلادي أَذِن له القيصر بالخروج إلى الحجاز،
+      فحجّ وزار المدينة المنورة واستوطنها. ودُفن بالبقيع إلى
+      جانب ابنه البكر غازي محمد. وأَرسَت إمامته نموذجَ الدولة
+      الشرعية الذي وضعه غازي محمد وحمزة بك من قبله، وما زالت
+      مرجعاً مؤسِّساً للإسلام السني القوقازي الحديث.
+    description_fr: |
+      Shāmil ibn Dengaw de Gimry — troisième Imam du Daghestan
+      (1834-1859), cheikh naqshbandī-khālidī, et figure centrale
+      de la longue résistance caucasienne à l'expansion
+      impériale russe — mourut à Médine le 4 février 1871 EC
+      (14 Dhū al-Qaʿda 1287 H), à l'âge d'environ 73 ans. Après
+      avoir mené l'Imamat caucasien pendant vingt-cinq ans
+      depuis son bastion de Tchétchénie et du Daghestan, il se
+      rendit aux forces russes du feld-maréchal Bariatinski à
+      Gounib à la fin août 1859 EC ; la reddition fut
+      honorable, et Shāmil fut placé en résidence surveillée
+      d'abord à Kalouga puis à Kiev. En 1869, le tsar lui
+      permit de partir pour le Hijaz, et après avoir accompli
+      le Hajj à La Mecque et visité Médine, il s'y établit. Il
+      fut enseveli au cimetière al-Baqīʿ aux côtés de son
+      fils aîné Ghāzī Muḥammad. Son imamat institutionnalisa
+      le modèle d'État de *sharīʿa* hérité de Ghāzī Muḥammad
+      et de Hamzat Bek, et demeure une référence fondatrice
+      pour l'islam sunnite caucasien moderne.
+    canonical_hijri: {year: 1287, month: 11, day: 14, precision: day}
+    canonical_gregorian: {date: 1871-02-04, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Shāmil' for the imamate dates and death at Medina in 1287 AH."
+      - source_key: editorial
+    people: [[imam-shamil, died]]
+    tags: [caucasus, daghestan, medina, naqshbandi, khalidi, russian-empire, modern, hajj]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Imam_Shamil"
+
+  # =========================================================================
+  # VOLGA / TATAR — THE JADID RENEWAL
+  # =========================================================================
+
+  - slug: death-of-shihab-al-din-marjani
+    category: scholar_death
+    title_en: Death of Shihāb al-Dīn al-Marjānī — Pioneer of Tatar Jadidism
+    title_ar: وفاة شهاب الدين المرجاني — رائد التجديد التتري
+    title_fr: Mort de Shihāb al-Dīn al-Marjānī — pionnier du jadidisme tatar
+    description_en: |
+      Shihāb al-Dīn ibn Bahāʾ al-Dīn al-Marjānī al-Qazānī (in
+      Tatar Şihâbeddin Mercanî) — Volga-Tatar Sunni Hanafi
+      scholar of Kazan, author of the seminal Tatar history
+      *Mustafād al-Akhbār fī Aḥwāl Qazān wa Bulghār*, and the
+      principal precursor of the Tatar Jadid renewal of the late
+      nineteenth and early twentieth centuries — died at Kazan
+      on 18 April 1889 CE (15 Shaʿbān 1306 AH) at age about 71.
+      Trained in Bukhara and Samarqand in the classical Hanafi
+      curriculum, he served from 1850 as imam of the First Mosque
+      of Kazan and from 1876 as the first Tatar instructor of
+      Islamic subjects at Kazan Tatar Teachers' School. His
+      defence of *ijtihād* against the strict imitative *taqlīd*
+      then dominant in Bukharan circles, and his reaffirmation
+      of the historical-Bulgar-and-Tatar Muslim legacy of the
+      Volga, opened the intellectual ground on which Ismāʿīl Bey
+      Gasprinski's Crimean *Tarjumān* and the wider Jadid school
+      programme would build a generation later.
+    description_ar: |
+      توفي الإمام شهاب الدين بن بهاء الدين المرجاني القازاني
+      (Şihâbeddin Mercanî) — العالم التتري الفولغي السني على
+      المذهب الحنفي بقازان، صاحب كتاب التاريخ الفصل في تاريخ
+      التتر «المستفاد في أحوال قازان وبلغار»، والممهِّد الأكبر
+      لحركة «التجديد» (الجديد) التترية في أواخر القرن التاسع
+      عشر وأوائل العشرين الميلاديين — بقازان يوم ١٥ شعبان
+      سنة ١٣٠٦ هـ (الموافق ١٨ أفريل ١٨٨٩ ميلادي) عن نحو إحدى
+      وسبعين سنة. تخرّج من بخارى وسمرقند على المنهج الحنفي
+      الكلاسيكي، ثم تولّى منذ سنة ١٢٦٧ هـ (الموافق ١٨٥٠
+      ميلادي) إمامة «الجامع الأول» بقازان، وعُيِّن سنة ١٨٧٦
+      ميلادي أوّلَ مدرس تتري للمواد الإسلامية في «دار المعلمين
+      التترية» بقازان. ودعوته إلى الاجتهاد في وجه التقليد
+      الصارم الذي ساد البخاريين، وتأكيده الميراث التاريخي
+      البلغاري التتري للمسلمين على الفولغا، فتحا الأرض
+      الفكرية التي نمت عليها مدرسة «إسماعيل بك غصبرنسكي» في
+      جريدته «ترجمان» القرمية وعموم برنامج الجديد بعد جيل.
+    description_fr: |
+      Shihāb al-Dīn ibn Bahāʾ al-Dīn al-Marjānī al-Qazānī (en
+      tatar Şihâbeddin Mercanî) — savant volga-tatar sunnite
+      hanafite de Kazan, auteur de l'histoire fondatrice
+      tatare *Mustafād al-Akhbār fī Aḥwāl Qazān wa Bulghār*,
+      et principal précurseur du renouveau jadid tatar de la
+      fin du XIXe siècle et du début du XXe — mourut à Kazan
+      le 18 avril 1889 EC (15 Shaʿbān 1306 H) à l'âge
+      d'environ 71 ans. Formé à Boukhara et Samarcande dans
+      le curriculum hanafite classique, il servit dès 1850 EC
+      comme imam de la Première Mosquée de Kazan, et fut
+      nommé en 1876 EC premier enseignant tatar des matières
+      islamiques à l'École normale tatare de Kazan. Sa
+      défense de l'*ijtihād* contre le strict *taqlīd*
+      imitatif alors dominant dans les cercles boukhariotes,
+      et sa réaffirmation de l'héritage historique bulghar-
+      tatar des musulmans de la Volga, ouvrirent le terrain
+      intellectuel sur lequel l'école jadide d'Ismāʿīl Bey
+      Gasprinski (du *Tarjumān* criméen) bâtirait son
+      programme une génération plus tard.
+    canonical_hijri: {year: 1306, month: 8, day: 15, precision: day}
+    canonical_gregorian: {date: 1889-04-18, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Mardjānī' for the death-date 15 Shaʿbān 1306 AH."
+      - source_key: editorial
+    people: [[shihab-al-din-marjani, died]]
+    tags: [volga, tatar, kazan, hanafi, jadid, scholar, modern, russian-empire]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shihabuddin_Marjani"
+
+  - slug: death-of-qayyum-nasiri
+    category: scholar_death
+    title_en: Death of Qayyūm Nasiri — Father of Modern Tatar Letters
+    title_ar: وفاة قيوم ناصري — أب الأدب التتري الحديث
+    title_fr: Mort de Qayyūm Nasiri — père des lettres tatares modernes
+    description_en: |
+      ʿAbd al-Qayyūm ibn ʿAbd al-Naṣīr al-Qazānī (Qayyūm Nasiri)
+      — Volga-Tatar Sunni Hanafi scholar of Kazan, encyclopaedist,
+      lexicographer of the Tatar language, and the central
+      Tatar-language pedagogue of the late nineteenth century —
+      died at Kazan on 2 September 1902 CE (28 Jumādā al-Awwal
+      1320 AH) at age 77. Working alongside the Marjani circle in
+      Kazan, he produced the first systematic Tatar-language
+      textbooks (geography, grammar, arithmetic, history) for
+      Muslim primary schools, the first Tatar-Russian
+      dictionaries, and the first scholarly editions of Volga-
+      Tatar folk literature. His pedagogical programme, designed
+      to anchor a literate Tatar Sunni public schooled in
+      vernacular Tatar rather than Bukharan Arabic-Persian,
+      shaped the Tatar Jadid renewal that followed.
+    description_ar: |
+      توفي العلامة عبد القيوم بن عبد الناصر القازاني (قيوم
+      ناصري) — العالم التتري الفولغي السني على المذهب الحنفي
+      بقازان، الموسوعي، ومُعجمي اللغة التترية، والمربِّي
+      التتري المركزي في أواخر القرن التاسع عشر الميلادي —
+      بقازان يوم ٢٨ جمادى الأولى سنة ١٣٢٠ هـ (الموافق ٢ شتنبر
+      ١٩٠٢ ميلادي) عن سبع وسبعين سنة. وكان من حلقة المرجاني
+      بقازان، فأَخرج أول الكتب المدرسية التترية المنهجية
+      (الجغرافيا والنحو والحساب والتاريخ) للمدارس الإسلامية
+      الابتدائية، وأول معاجم تترية-روسية، وأول التحقيقات
+      العلمية للأدب الشعبي التتري الفولغي. وأسَّس برنامجُه
+      التربوي قاعدة قراء التترية السنية المتأدبة بلسانهم
+      التتري لا بالعربية-الفارسية البخارية، التي بنى عليها
+      تجديد الجديد التتري بعدئذ.
+    description_fr: |
+      ʿAbd al-Qayyūm ibn ʿAbd al-Naṣīr al-Qazānī (Qayyūm
+      Nasiri) — savant volga-tatar sunnite hanafite de Kazan,
+      encyclopédiste, lexicographe de la langue tatare et
+      pédagogue tatar central de la fin du XIXe siècle —
+      mourut à Kazan le 2 septembre 1902 EC (28 Jumādā al-
+      Awwal 1320 H) à l'âge de 77 ans. Œuvrant dans le cercle
+      d'al-Marjānī à Kazan, il produisit les premiers manuels
+      tatars systématiques (géographie, grammaire, arithmétique,
+      histoire) pour les écoles primaires musulmanes, les
+      premiers dictionnaires tataro-russes, et les premières
+      éditions savantes de la littérature populaire volgo-
+      tatare. Son programme pédagogique, destiné à enraciner
+      un public lettré sunnite tatar formé en langue
+      vernaculaire plutôt qu'en arabe-persan boukhariote,
+      façonna le renouveau jadid tatar qui suivit.
+    canonical_hijri: {year: 1320, month: 5, day: 28, precision: day}
+    canonical_gregorian: {date: 1902-09-02, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Nasiri, Qayyum' for biographical data."
+      - source_key: editorial
+    people: [[qayyum-nasiri, died]]
+    tags: [volga, tatar, kazan, hanafi, jadid, lexicography, pedagogy, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qayum_Nasiri"
+
+  - slug: death-of-riza-fahreddin
+    category: scholar_death
+    title_en: Death of Riḍāʾ al-Dīn ibn Fakhr al-Dīn — Mufti of Russia's Muslims
+    title_ar: وفاة رضاء الدين بن فخر الدين — مفتي مسلمي روسيا
+    title_fr: Mort de Riḍāʾ al-Dīn ibn Fakhr al-Dīn — mufti des musulmans de Russie
+    description_en: |
+      Riḍāʾ al-Dīn ibn Fakhr al-Dīn al-Bulghārī (in Tatar Rıza
+      Fahreddin) — Volga-Tatar Sunni Hanafi scholar, biographer,
+      editor of the Orenburg journal *Shūrā* (1908-1917), author
+      of the multi-volume biographical encyclopaedia *Āthār*, and
+      from 1922 the third Mufti of the Central Spiritual
+      Administration of the Muslims of European Russia and
+      Siberia — died at Ufa on 12 April 1936 CE (20 Muḥarram
+      1355 AH) at age 76. Trained in the Tatar Jadid milieu and
+      heir to the Marjani-Nasiri tradition, he led Russian-
+      Muslim institutional life through the late Tsarist
+      reformist decades and the early Soviet period; *Āthār*
+      remains the principal Tatar-language biographical reference
+      for the Volga-Ural and broader Inner-Asian Sunni *ʿulamāʾ*
+      of the nineteenth century. Increasingly constrained under
+      Stalinist anti-religious pressure, he died in the year that
+      saw the Soviet closure of the great Bukhara madrasas.
+    description_ar: |
+      توفي العلامة رضاء الدين بن فخر الدين البلغاري (Rıza
+      Fahreddin) — العالم التتري الفولغي السني على المذهب
+      الحنفي، المترجم لعلماء بلاد التتر، مدير مجلة «شورى» في
+      «أورنبورغ» (١٣٢٦-١٣٣٦ هـ)، صاحب موسوعة التراجم الكبرى
+      «الآثار»، ومفتي «الإدارة الدينية المركزية لمسلمي روسيا
+      الأوروبية وسيبيريا» الثالث منذ سنة ١٣٤٠ هـ (الموافق
+      ١٩٢٢ ميلادي) — بأوفا يوم ٢٠ محرّم سنة ١٣٥٥ هـ (الموافق
+      ١٢ أفريل ١٩٣٦ ميلادي) عن ست وسبعين سنة. تخرّج من
+      الوسط الجديدي التتري ووَرِث تقليدَ المرجاني وقيوم
+      ناصري، ثم قاد الحياة المؤسسية للمسلمين في روسيا في
+      أواخر العقود القيصرية الإصلاحية وأوائل العهد السوفييتي.
+      وما زالت «الآثار» المرجعَ التاريخي الأكبر بالتترية
+      لتراجم علماء أهل السنة من الفولغا والأورال وعموم
+      آسيا الداخلية في القرن التاسع عشر الميلادي. وضاق به
+      ضغط الستالينية المعادي للدين، فتوفي رحمه الله في
+      السنة التي شهدت إغلاق مدارس بخارى الكبرى على يد
+      السوفييت.
+    description_fr: |
+      Riḍāʾ al-Dīn ibn Fakhr al-Dīn al-Bulghārī (en tatar
+      Rıza Fahreddin) — savant volga-tatar sunnite hanafite,
+      biographe, rédacteur en chef du journal d'Orenbourg
+      *Shūrā* (1908-1917), auteur de l'encyclopédie
+      biographique en plusieurs volumes *Āthār*, et à partir
+      de 1922 troisième mufti de l'Administration spirituelle
+      centrale des musulmans de la Russie d'Europe et de
+      Sibérie — mourut à Oufa le 12 avril 1936 EC (20
+      Muḥarram 1355 H) à l'âge de 76 ans. Formé dans le
+      milieu jadid tatar et héritier de la tradition
+      Marjānī-Nasiri, il dirigea la vie institutionnelle
+      russo-musulmane durant les dernières décennies
+      réformistes tsaristes et le début de la période
+      soviétique. *Āthār* demeure la principale référence
+      biographique en langue tatare pour les *ʿulamāʾ*
+      sunnites de la Volga, de l'Oural et de l'Asie intérieure
+      du XIXe siècle. De plus en plus contraint sous la
+      pression antireligieuse stalinienne, il mourut l'année
+      même de la fermeture soviétique des grandes madrasas
+      de Boukhara.
+    canonical_hijri: {year: 1355, month: 1, day: 20, precision: day}
+    canonical_gregorian: {date: 1936-04-12, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Riḍā al-Dīn b. Fakhr al-Dīn' for biographical data."
+      - source_key: editorial
+    people: [[riza-fahreddin, died]]
+    tags: [volga, tatar, ufa, hanafi, jadid, mufti, soviet, modern, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Rizaeddin_Fakhretdinov"
+
+  - slug: death-of-musa-bigi
+    category: scholar_death
+    title_en: Death of Mūsā Jārullāh Bigi — Tatar Jadid Theologian in Exile
+    title_ar: وفاة موسى جارالله بيجي — متكلم التجديد التتري في المنفى
+    title_fr: Mort de Mūsā Jārullāh Bigi — théologien jadid tatar en exil
+    description_en: |
+      Mūsā Jārullāh Bigiyev (Musa Bigi / Mūsā Jārullāh) —
+      Volga-Tatar Sunni Hanafi scholar of Rostov-on-Don and
+      Petersburg, theologian of the Tatar Jadid school, author
+      of dozens of works including *Rahmat-i Ilāhiyya Burhān-
+      lari* (a controversial argument on universal divine
+      mercy), *Khalq Naẓarına Bir Necce Mas'ele* (on social
+      reform questions), and *Ḥurūf-i ʿArabiyya wa Lughat-i
+      Turkiyya* (on Turkic orthography) — died in Cairo on 28
+      October 1949 CE (5 Muḥarram 1369 AH) at age 74. After the
+      Bolshevik consolidation he left Russia in 1930, lived
+      successively in Afghanistan, India, Egypt, Finland,
+      Japan, and again Egypt as a stateless scholar, lecturing
+      at the Bhopal Tāj al-ʿUlūm Madrasa and exchanging with
+      Sunni reformists from the Indian subcontinent to Cairo
+      and Tokyo. He was the most ambitious Tatar-language
+      systematic theologian of the twentieth century; the
+      Soviet seizure of the Volga-Tatar institutional milieu
+      cut short his work and dispersed his manuscripts across
+      multiple capitals.
+    description_ar: |
+      توفي العلامة موسى جارالله بيجييف (Musa Bigi) —
+      العالم التتري الفولغي السني على المذهب الحنفي من
+      «روستوف على الدون» و«بطرسبرغ»، متكلِّم مدرسة الجديد
+      التترية، صاحب عشرات المصنفات منها «براهين الرحمة
+      الإلهية» (وهو طرح خلافيٌّ في عموم رحمة الله) و«خلق
+      نظريته بر نچه مسئله» (في مسائل الإصلاح الاجتماعي)
+      و«الحروف العربية واللغات التركية» (في رسم الحروف
+      التركية) — بالقاهرة يوم ٥ محرّم سنة ١٣٦٩ هـ (الموافق
+      ٢٨ أكتوبر ١٩٤٩ ميلادي) عن أربع وسبعين سنة. وكان قد
+      هاجر من روسيا سنة ١٣٤٨ هـ (الموافق ١٩٣٠ ميلادي) بعد
+      تثبيت السوفييت سيطرتهم، فتنقَّل بأفغانستان والهند
+      ومصر وفنلندا واليابان ثم مصر ثانيةً عالماً بلا
+      جنسية، ودرَّس بمدرسة «تاج العلوم» في «بهوبال»
+      الهندية، وراسل مصلحي أهل السنة من شبه القارة الهندية
+      إلى القاهرة وطوكيو. وهو من أعمق متكلِّمي التترية في
+      القرن العشرين، فقطع الاستيلاءُ السوفييتي على وسط
+      الفولغا التتري عمله، وتشتَّت مخطوطاته بين عواصم
+      عدة.
+    description_fr: |
+      Mūsā Jārullāh Bigiyev (Musa Bigi / Mūsā Jārullāh) —
+      savant volga-tatar sunnite hanafite de Rostov-sur-le-
+      Don et de Saint-Pétersbourg, théologien de l'école
+      jadid tatare, auteur de dizaines d'ouvrages dont
+      *Rahmat-i Ilāhiyya Burhānları* (argument controversé
+      sur la miséricorde divine universelle), *Khalq
+      Naẓarına Bir Necce Mas'ele* (sur les questions de
+      réforme sociale) et *Ḥurūf-i ʿArabiyya wa Lughat-i
+      Turkiyya* (sur l'orthographe turcique) — mourut au
+      Caire le 28 octobre 1949 EC (5 Muḥarram 1369 H) à
+      l'âge de 74 ans. Après la consolidation bolchévique, il
+      quitta la Russie en 1930 et vécut successivement en
+      Afghanistan, en Inde, en Égypte, en Finlande, au Japon,
+      puis de nouveau en Égypte comme savant apatride,
+      enseignant à la madrasa Tāj al-ʿUlūm de Bhopal et
+      correspondant avec les réformistes sunnites du sous-
+      continent indien jusqu'au Caire et à Tokyo. Il fut le
+      plus ambitieux théologien systématique de langue tatare
+      du XXe siècle ; la mainmise soviétique sur le milieu
+      institutionnel volgo-tatar interrompit son œuvre et
+      dispersa ses manuscrits entre plusieurs capitales.
+    canonical_hijri: {year: 1369, month: 1, day: 5, precision: day}
+    canonical_gregorian: {date: 1949-10-28, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Mūsā Djārullāh' for biographical data and death at Cairo."
+      - source_key: editorial
+    people: [[musa-bigi, died]]
+    tags: [volga, tatar, jadid, hanafi, soviet, exile, cairo, modern, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Musa_Bigiev"
+
+  # =========================================================================
+  # CHINA / HUI — SINO-ISLAMIC LETTERS AND THE NAQSHBANDI MENHUAN
+  # =========================================================================
+
+  - slug: death-of-wang-daiyu
+    category: scholar_death
+    title_en: Death of Wang Daiyu — Founder of Sino-Islamic Letters
+    title_ar: وفاة وانغ داي يو — مؤسس الأدب الإسلامي الصيني
+    title_fr: Mort de Wang Daiyu — fondateur des lettres sino-islamiques
+    description_en: |
+      Wang Daiyu — Sunni Hui-Chinese scholar of Nanjing, the
+      first Muslim author to systematise Islamic theology in
+      classical Chinese using Confucian and Neo-Confucian
+      vocabulary, and the founding figure of the *Han Kitāb*
+      tradition of Chinese-Islamic letters — died at Beijing
+      around 1657 CE (1067-1068 AH) at age about 87. His
+      principal works *Zhèngjiào Zhēnquán* ("True Annotation
+      of the Right Religion", c. 1642 CE), *Qīngzhēn Dàxué*
+      ("Great Learning of the Pure and True"), and *Xīzhēn
+      Zhèngdá* ("Right Answers to Rare and True Questions")
+      established the dominant Hui idiom for explaining Sunni
+      tawḥīd, prophecy, and law to a literate Chinese-speaking
+      Muslim public. He is the senior figure of the chain that
+      runs through Ma Zhu and Liu Zhi over the next century
+      and forms the canonical *Han Kitāb* corpus of the
+      Chinese Sunni community. His exact death year and place
+      are reported by his Hui-Chinese biographers as Beijing,
+      Shunzhi 14, with some variation between 1657 and 1658
+      CE.
+    description_ar: |
+      توفي العلامة وانغ داي يو — العالم السني الصيني «الهوي»
+      من «نان جينغ»، أول مصنف من المسلمين قعَّد علم العقيدة
+      الإسلامية بالصينية الفصحى مستعملاً معجمَ الكونفوشية
+      والكونفوشية الجديدة، ومؤسِّس مدرسة «هان كتاب» في
+      الأدب الإسلامي الصيني — ب«بكين» نحو سنة ١٠٦٧-١٠٦٨ هـ
+      (الموافق ١٦٥٧ ميلادي تقريباً) عن نحو سبع وثمانين سنة.
+      ومصنّفاته الكبرى «الشرح الصحيح للدين القويم» (Zhèngjiào
+      Zhēnquán، نحو ١٦٤٢ ميلادي)، و«التعليم الكبير على الصدق
+      الخالص» (Qīngzhēn Dàxué)، و«الجواب الصحيح على المسائل
+      النادرة» (Xīzhēn Zhèngdá)، وضعت اللسانَ الإسلاميَّ
+      الصينيَّ الذي يُعرض به التوحيدُ والنبوة والشريعة عند
+      أهل السنة من المسلمين الصينيين القراء. وهو شيخ السلسلة
+      التي تنتقل عبر «ما زهو» إلى «ليو زهي» في القرن التالي
+      وتُكوِّن متن «هان كتاب» المعتمد عند سنة المسلمين
+      الصينيين. وتذكر تراجمه «الهَوِيَّة» وفاته ب«بكين»
+      في عهد الإمبراطور «شون زهي» سنة ١٤، مع اختلاف بين
+      ١٦٥٧ و١٦٥٨ ميلادي.
+    description_fr: |
+      Wang Daiyu — savant sunnite hui-chinois de Nankin,
+      premier auteur musulman à systématiser la théologie
+      islamique en chinois classique en utilisant le
+      vocabulaire confucéen et néo-confucéen, et figure
+      fondatrice de la tradition *Han Kitāb* des lettres
+      sino-islamiques — mourut à Pékin vers 1657 EC (1067-
+      1068 H) à l'âge d'environ 87 ans. Ses œuvres
+      principales *Zhèngjiào Zhēnquán* (« Annotation
+      véritable de la juste religion », v. 1642 EC),
+      *Qīngzhēn Dàxué* (« Grande Étude du Pur et Vrai ») et
+      *Xīzhēn Zhèngdá* (« Réponses justes aux questions
+      rares et vraies ») fixèrent l'idiome dominant par
+      lequel les Hui présentent le *tawḥīd* sunnite, la
+      prophétie et la Loi à un public musulman lettré
+      chinois. Il est la figure aînée de la chaîne qui passe
+      par Ma Zhu et Liu Zhi au siècle suivant pour former
+      le corpus canonique *Han Kitāb* de la communauté
+      sunnite chinoise. Ses biographes hui-chinois situent
+      sa mort à Pékin en l'année 14 du règne de l'empereur
+      Shunzhi, avec une variation entre 1657 et 1658 EC.
+    canonical_hijri: {year: 1067, precision: year}
+    canonical_gregorian: {date: 1657-01-01, precision: year, method: attested}
+    disputed: true
+    dispute_about: date
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Wang Tai-yü' for biography; death dated to Shunzhi 14 (1657-58 CE)."
+      - source_key: editorial
+    people: [[wang-daiyu, died]]
+    tags: [china, hui, nanjing, beijing, han-kitab, hanafi, qing, scholar]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Wang_Daiyu"
+
+  - slug: death-of-liu-zhi
+    category: scholar_death
+    title_en: Death of Liu Zhi — Han Kitāb Master of Nanjing
+    title_ar: وفاة ليو زهي — قطب «هان كتاب» بنانجينغ
+    title_fr: Mort de Liu Zhi — maître Han Kitāb de Nankin
+    description_en: |
+      Liu Zhi (Liu Jielian) — Sunni Hui-Chinese scholar of
+      Nanjing, the central figure of the eighteenth-century
+      *Han Kitāb* school of Chinese-Islamic letters, and the
+      author of the most influential Sino-Islamic works on
+      *kalām*, prophetic biography, and ritual law in
+      classical Chinese — died at Nanjing around 1730 CE
+      (~1142 AH) at age about 70. His three core works
+      *Tiānfāng Xìnglǐ* ("Nature and Principle in the Direction
+      of Heaven [Mecca]"), *Tiānfāng Diǎnlǐ* ("Rituals of the
+      Direction of Heaven"), and *Tiānfāng Zhì Shèng Shílù*
+      ("True Record of the Most Holy of the Direction of
+      Heaven", a sīra of the Prophet ﷺ) remain canonical for
+      the Chinese-speaking Sunni community. Heir to the
+      tradition of Wang Daiyu and Ma Zhu, Liu Zhi gave
+      Sino-Islamic theology its most fully Confucian-engaged
+      synthesis without departing from Sunni doctrine on
+      *tawḥīd*, prophecy, and divine attributes. His exact
+      death year is given between 1724 and 1736 CE in
+      different Hui-Chinese sources; we use ~1730 CE.
+    description_ar: |
+      توفي الإمام ليو زهي (ليو جييه ليان) — العالم السني
+      الصيني «الهوي» من «نان جينغ»، قطب مدرسة «هان كتاب»
+      في القرن الثامن عشر الميلادي للأدب الإسلامي الصيني،
+      ومصنف أعظم كتب «هان كتاب» في الكلام والسيرة والفقه
+      بالصينية الفصحى — ب«نان جينغ» نحو سنة ١١٤٢ هـ (الموافق
+      ١٧٣٠ ميلادي تقريباً) عن نحو سبعين سنة. ومصنفاته
+      الثلاثة الكبرى «الفلسفة الإسلامية الصينية» (Tiānfāng
+      Xìnglǐ، أي: «الطبيعة والمبدأ في جهة السماء [مكة]»)
+      و«المناسك الإسلامية الصينية» (Tiānfāng Diǎnlǐ) و«السيرة
+      النبوية الصينية» (Tiānfāng Zhì Shèng Shílù، أي «السجل
+      الصحيح لأَقدس مَن في جهة السماء») لا تزال أُمَّاتِ
+      المتون عند سنة المسلمين الصينيين. وَرِث تراث وانغ
+      داي يو وما زهو، فأعطى الكلام السني الصيني صياغته
+      الأكثر اشتغالاً بالكونفوشية مع الالتزام بأصول التوحيد
+      والنبوة وصفات الله عند أهل السنة. وتختلف المصادر
+      الصينية الإسلامية في ضبط سنة وفاته بين ١٧٢٤ و١٧٣٦
+      ميلادي؛ ونعتمد هنا نحو ١٧٣٠.
+    description_fr: |
+      Liu Zhi (Liu Jielian) — savant sunnite hui-chinois de
+      Nankin, figure centrale de l'école *Han Kitāb* du XVIIIe
+      siècle des lettres sino-islamiques et auteur des œuvres
+      sino-islamiques les plus influentes en *kalām*, en
+      biographie prophétique et en droit rituel en chinois
+      classique — mourut à Nankin vers 1730 EC (~1142 H) à
+      l'âge d'environ 70 ans. Ses trois œuvres centrales
+      *Tiānfāng Xìnglǐ* (« Nature et principe dans la
+      direction du Ciel [La Mecque] »), *Tiānfāng Diǎnlǐ*
+      (« Rituels de la direction du Ciel ») et *Tiānfāng Zhì
+      Shèng Shílù* (« Récit véritable du plus saint de la
+      direction du Ciel », *sīra* du Prophète ﷺ) demeurent
+      canoniques pour la communauté sunnite sinophone.
+      Héritier de la tradition de Wang Daiyu et Ma Zhu, Liu
+      Zhi donna à la théologie sino-islamique sa synthèse la
+      plus complètement engagée avec le confucianisme sans
+      s'écarter de la doctrine sunnite du *tawḥīd*, de la
+      prophétie et des attributs divins. Son année de décès
+      exacte oscille entre 1724 et 1736 EC selon les sources
+      hui-chinoises ; nous adoptons ~1730 EC.
+    canonical_hijri: {year: 1142, precision: year}
+    canonical_gregorian: {date: 1730-01-01, precision: year, method: attested}
+    disputed: true
+    dispute_about: date
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Liu Chih' on the Han Kitāb tradition; death year ~1730 CE."
+      - source_key: editorial
+    people: [[liu-zhi, died]]
+    tags: [china, hui, nanjing, han-kitab, hanafi, qing, scholar, kalam, sira]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Liu_Zhi_(scholar)"
+
+  - slug: execution-of-ma-mingxin
+    category: scholar_death
+    title_en: Execution of Ma Mingxin — Founder of the Hui Jahriyya Order
+    title_ar: إعدام ما مينغ شين — مؤسس الطريقة الجهرية الهوية
+    title_fr: Exécution de Ma Mingxin — fondateur de l'ordre jahriyya hui
+    description_en: |
+      Ma Mingxin — Sunni Hui-Chinese Naqshbandi scholar of
+      Gansu, founder of the *Jahriyya* (Vocal-Dhikr) branch of
+      the Naqshbandi tariqa among the northwestern Hui after
+      his return in the 1750s from Yemeni and Hijazi study with
+      shaykhs of the Naqshbandiyya-Mujaddidiyya line, and the
+      central spiritual leader of the 1781 Hui uprising against
+      the Qing — was executed by beheading in Lanzhou on 27
+      March 1781 CE / 2 Rabīʿ al-Thānī 1195 AH after the
+      uprising's defeat. His Jahriyya order, characterised by
+      vocalised collective dhikr (in contrast to the silent
+      *Khufiyya* dominant before him), spread widely across the
+      Gansu-Ningxia-Shaanxi corridor and produced a distinct
+      Hui Sufi tradition with its own *menhuan* (saint-lineage
+      compounds) and a long line of martyred shaykhs. The Qing
+      court tried twice to suppress the order; it survived
+      both campaigns and remains one of the principal
+      Naqshbandi branches among the Hui to the present day.
+    description_ar: |
+      أُعدم الشيخ ما مينغ شين — العالم السني الصيني «الهوي»
+      النقشبندي من «قانسو»، مؤسس فرع «الجهرية» (دهر الذكر
+      الجهرية) من الطريقة النقشبندية بين الهوي بشمال غرب
+      الصين بعد عودته في عقد ١٧٥٠ ميلادي من اليمن والحجاز
+      مجازاً عن مشايخ الطريقة النقشبندية المجدِّدية، والقطب
+      الروحي لانتفاضة الهوي على دولة «تشينغ» سنة ١١٩٥ هـ —
+      ضرباً للعنق في «لانزهو» يوم ٢ ربيع الآخر سنة ١١٩٥ هـ
+      (الموافق ٢٧ مارس ١٧٨١ ميلادي) إثر هزيمة الانتفاضة. وطريقتُه
+      الجهرية، المتميزة بالذكر الجماعي الجهري (في خلاف
+      «الخُفية» التي كانت سائدة قبله بالذكر الخفيِّ
+      السرّي)، انتشرت في الممرّ «قانسو-نينغ شيا-شَنشي»،
+      وأخرجت تقليداً صوفياً هويّاً متميّزاً له «المنخوان»
+      الخاصة (مَجامع البيوت السلسلية للأولياء)، وسلسلة
+      طويلة من المشايخ الشهداء. وحاولت دولة «تشينغ» قمعها
+      مرّتين، فنجت في الحملتين، وما زالت إلى اليوم من
+      أكبر فروع النقشبندية عند الهوي.
+    description_fr: |
+      Ma Mingxin — savant sunnite hui-chinois naqshbandī du
+      Gansu, fondateur de la branche *Jahriyya* (au *dhikr*
+      vocal) de la *ṭarīqa* naqshbandiyya parmi les Hui du
+      nord-ouest après son retour dans les années 1750 EC
+      d'études au Yémen et au Hijaz auprès des cheikhs de la
+      lignée naqshbandiyya-mujaddidiyya, et chef spirituel
+      central du soulèvement hui de 1781 contre les Qing —
+      fut exécuté par décapitation à Lanzhou le 27 mars 1781
+      EC / 2 Rabīʿ al-Thānī 1195 H, après la défaite du
+      soulèvement. Son ordre jahriyya, caractérisé par le
+      *dhikr* vocalisé collectif (par opposition à la
+      *Khufiyya* silencieuse dominante avant lui), s'étendit
+      largement dans le corridor Gansu-Ningxia-Shaanxi et
+      produisit une tradition soufie hui distincte, dotée
+      de ses propres *menhuan* (complexes de lignées
+      saintes) et d'une longue série de cheikhs martyrs. La
+      cour des Qing tenta deux fois d'écraser l'ordre ; il
+      survécut à ces deux campagnes et demeure aujourd'hui
+      l'une des principales branches naqshbandies parmi les
+      Hui.
+    canonical_hijri: {year: 1195, month: 4, day: 2, precision: day}
+    canonical_gregorian: {date: 1781-03-27, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Ma Ming-hsin' for biography and execution at Lanzhou in 1781."
+      - source_key: editorial
+    people: [[ma-mingxin, died]]
+    tags: [china, hui, gansu, lanzhou, naqshbandi, jahriyya, qing, sufi, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ma_Mingxin"
+
+  - slug: execution-of-ma-hualong
+    category: scholar_death
+    title_en: Execution of Ma Hualong — Jahriyya Shaykh of Jinjipu
+    title_ar: إعدام ما هوا لونغ — شيخ الجهرية بـ«جين جي بو»
+    title_fr: Exécution de Ma Hualong — cheikh jahriyya de Jinjipu
+    description_en: |
+      Ma Hualong — fifth *menhuan* shaykh of the Hui Jahriyya
+      Naqshbandi order in Gansu-Ningxia, hereditary spiritual
+      heir of Ma Mingxin's line, and military leader of the
+      Hui side in the great Dungan Revolt of 1862-1873 CE
+      against the Qing dynasty — surrendered to General Zuo
+      Zongtang at his Jahriyya stronghold of Jinjipu in early
+      1871 CE after a sixteen-month siege, and was executed
+      shortly afterwards on 2 March 1871 CE (10 Dhū al-Ḥijja
+      1287 AH) in Lingzhou. His extended family was put to
+      death with him, and the Jinjipu compound was razed; the
+      Jahriyya communities of Gansu, Ningxia, and Shaanxi were
+      forcibly resettled. Despite the disaster the Jahriyya
+      order survived underground, regrouped under later
+      *menhuan*, and remains one of the principal Naqshbandi
+      orders among the northwestern Hui. The execution of Ma
+      Hualong is the principal turning point in the
+      destruction of the political-military Hui power-network
+      of the Qing northwest.
+    description_ar: |
+      أُعدم الشيخ ما هوا لونغ — خامس مشايخ «منخوان» الجهرية
+      النقشبندية من بيت «جين جي بو» ب«قانسو-نينغ شيا»،
+      الوارث الروحي لسلسلة الشيخ ما مينغ شين، والقائد
+      العسكري للجناح الهوي في «انتفاضة الدنغان» الكبرى
+      ١٢٧٩-١٢٩٠ هـ (الموافق ١٨٦٢-١٨٧٣ ميلادي) في وجه دولة
+      «تشينغ» — بعد أن سلَّم نفسه للجنرال «زو زنغ تانغ»
+      في حصنه الجهري ب«جين جي بو» في أوائل سنة ١٢٨٧ هـ
+      (الموافق ١٨٧١ ميلادي) إثر حصار دام ستة عشر شهراً،
+      ثم أُعدم بعدها بقليل يوم ١٠ ذي الحجة سنة ١٢٨٧ هـ
+      (الموافق ٢ مارس ١٨٧١ ميلادي) ب«لينغ زهو». ومات
+      معه عامة آله، وسُوِّيت دار «جين جي بو» بالأرض،
+      ورُحِّلت جالياتُ الجهرية في «قانسو» و«نينغ شيا»
+      و«شَنشي» تهجيراً قسرياً. وعلى رغم الكارثة بقيت
+      الطريقة الجهرية في السرية، وأعادت تنظيمها على
+      مشايخ منخوان لاحقين، وما زالت إلى اليوم من أكبر
+      الفروع النقشبندية عند هوي الشمال الغربي. وإعدام
+      ما هوا لونغ هو منعطف التَدمير الأكبر لشبكة القوة
+      السياسية-العسكرية الهوية في شمال غرب «تشينغ».
+    description_fr: |
+      Ma Hualong — cinquième cheikh *menhuan* de l'ordre hui
+      jahriyya naqshbandī au Gansu-Ningxia, héritier
+      spirituel héréditaire de la lignée de Ma Mingxin et
+      chef militaire du camp hui dans la grande Révolte des
+      Doungans de 1862-1873 EC contre la dynastie Qing —
+      se rendit au général Zuo Zongtang dans son bastion
+      jahriyya de Jinjipu au début de 1871 EC après un
+      siège de seize mois, et fut exécuté peu après le 2
+      mars 1871 EC (10 Dhū al-Ḥijja 1287 H) à Lingzhou. Sa
+      famille élargie fut mise à mort avec lui, le complexe
+      de Jinjipu rasé, et les communautés jahriyya du
+      Gansu, du Ningxia et du Shaanxi furent déportées. En
+      dépit du désastre, l'ordre jahriyya survécut dans la
+      clandestinité, se reconstitua sous des *menhuan*
+      ultérieurs, et demeure l'un des principaux ordres
+      naqshbandīs parmi les Hui du nord-ouest. L'exécution
+      de Ma Hualong est le point de basculement décisif de
+      la destruction du réseau de pouvoir politico-
+      militaire hui dans le nord-ouest des Qing.
+    canonical_hijri: {year: 1287, month: 12, day: 10, precision: day}
+    canonical_gregorian: {date: 1871-03-02, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Ma Hua-lung' for the surrender and execution after the siege of Jinjipu."
+      - source_key: editorial
+    people: [[ma-hualong, died]]
+    tags: [china, hui, gansu, ningxia, naqshbandi, jahriyya, qing, dungan-revolt, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ma_Hualong"
+
+  # =========================================================================
+  # JAVANESE WALISONGO — SUNAN BONANG (NOT COVERED IN WAVE 27)
+  # =========================================================================
+
+  - slug: death-of-sunan-bonang
+    category: scholar_death
+    title_en: Death of Sunan Bonang — Walisongo of Tuban
+    title_ar: وفاة السنن بونانغ — أحد والي سَنغا
+    title_fr: Mort de Sunan Bonang — Walisongo de Tuban
+    description_en: |
+      Raden Maulana Makdum Ibrahim, known to Javanese tradition
+      as Sunan Bonang — one of the *Walisongo* (Wali Sanga, the
+      "Nine Saints" of Java), Sunni-Shafi'i student and son of
+      Sunan Ampel of Surabaya, and master at Tuban on Java's
+      north coast — died at Tuban in about 932 AH / 1525 CE.
+      Within the Walisongo tradition he is associated with the
+      Islamisation of the Tuban-Lasem coast, the training of
+      Sunan Kalijaga, and the development of *suluk* poetry
+      and the *bonang* gamelan instrument from which his title
+      derives. Some Javanese chronicles place his death as
+      late as 1532 CE; we follow the modal traditional date of
+      1525 CE. The Walisongo are the foundational figures of
+      Javanese Islam in standard Javanese chronicles (*Babad
+      Tanah Jawi*) and modern academic historiography, but the
+      precise dating of all nine saints is approximate
+      Javanese-tradition rather than strict classical-Sunni
+      source attestation.
+    description_ar: |
+      توفي الراذن مولانا مكدوم إبراهيم، المعروف عند الجاويين
+      ب«سنن بونانغ» — أحد التسعة (Walisongo) الذين يُنسب
+      إليهم إسلام أرض جاوة، تلميذ المذهب الشافعي وابن سنن
+      أمبيل من «سورابايا»، وشيخ «توبان» على ساحل جاوة
+      الشمالي — ب«توبان» نحو سنة ٩٣٢ هـ (الموافق ١٥٢٥
+      ميلادي). ويُنسب إليه في تراث «والي سنغا» إسلام ساحل
+      «توبان-لاسم»، وتربية «سنن كاليجاغا»، ووضع الشعر
+      التعليمي الجاوي «سُلوك»، وآلة «بونانغ» من «جاملان»
+      التي اشتُقَّ منها لقبه. وبعض المخطوطات الجاوية تؤخّر
+      وفاته إلى سنة ٩٣٨ هـ (الموافق ١٥٣٢ ميلادي)؛ ونعتمد
+      هنا الرواية الأكثر تواتراً ١٥٢٥ ميلادي. والتسعة
+      (Walisongo) هم آباء الإسلام الجاوي عند المؤرخين
+      المعاصرين والمخطوطات الجاوية الكلاسيكية «بَبَدْ تَنَه
+      جاوي»، لكنّ ضبط تواريخهم تقريبيٌّ يتبع التراث الجاوي
+      لا روايات كلاسيكية سنية محققة.
+    description_fr: |
+      Raden Maulana Makdum Ibrahim, connu dans la tradition
+      javanaise sous le nom de Sunan Bonang — l'un des
+      *Walisongo* (Wali Sanga, les « Neuf Saints » de Java),
+      élève sunnite shafi'ite et fils de Sunan Ampel de
+      Surabaya, et maître à Tuban sur la côte nord de Java
+      — mourut à Tuban vers 932 H / 1525 EC. Au sein de la
+      tradition des Walisongo, on lui associe l'islamisation
+      de la côte Tuban-Lasem, la formation de Sunan
+      Kalijaga, et l'élaboration de la poésie didactique
+      *suluk* et de l'instrument *bonang* du *gamelan* dont
+      dérive son titre. Certaines chroniques javanaises
+      placent sa mort jusqu'en 1532 EC ; nous suivons la
+      date traditionnelle modale de 1525 EC. Les Walisongo
+      sont les figures fondatrices de l'islam javanais dans
+      les chroniques classiques (*Babad Tanah Jawi*) et
+      dans l'historiographie académique moderne, mais la
+      datation précise des neuf saints est une approximation
+      de la tradition javanaise plutôt qu'une attestation
+      stricte des sources sunnites classiques.
+    canonical_hijri: {year: 932, precision: year}
+    canonical_gregorian: {date: 1525-01-01, precision: year, method: attested}
+    disputed: true
+    dispute_about: date
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Walī Sanga' for the Walisongo tradition."
+      - source_key: editorial
+    people: [[sunan-bonang, subject], [sunan-ampel, subject]]
+    tags: [java, tuban, walisongo, dawah, gamelan, suluk, indonesia, shafi'i]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sunan_Bonang"

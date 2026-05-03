@@ -1,0 +1,913 @@
+# Wave 28 of curated event additions (2026-04-27).
+# Nineteenth- and twentieth-century Sunni revivers, reformers, jurists, and
+# Azharī / Damascene / Maghrebī scholars not yet present in the dataset.
+# Twelve mainstream Sunni figures whose deaths are well attested in modern
+# reference works (EI2 + standard biographies). Categories: pan-Islamic
+# reformers (al-Afghānī); Algerian reformist movement (Ibn Bādīs,
+# al-Ibrāhīmī); Maghrebī scholars (Mukhtār al-Sūsī, ʿAllāl al-Fāsī);
+# Levantine and Egyptian late-twentieth-century scholars (al-Ṣābūnī,
+# al-Ghazālī al-Saqqā, ʿAbd al-Ḥalīm Maḥmūd, al-Dawālībī, al-Zuḥaylī);
+# Egyptian jurist-statesmen (al-Sanhūrī, al-Bāqūrī). All twelve are
+# post-classical Sunni figures attested in EI2 / academic references; none
+# are sahaba; none carry hadith refs. Trilingual en/ar/fr throughout.
+# Framing strictly factual and neutral on political affiliations.
+
+events:
+  # =========================================================================
+  # PAN-ISLAMIC REFORM
+  # =========================================================================
+
+  - slug: death-of-jamal-al-din-al-afghani
+    category: scholar
+    title_en: Death of Jamāl al-Dīn al-Afghānī — Pan-Islamic Reformer
+    title_ar: وفاة جمال الدين الأفغاني — رائد الجامعة الإسلامية
+    title_fr: Mort de Jamāl al-Dīn al-Afghānī — réformateur panislamique
+    description_en: |
+      Jamāl al-Dīn al-Afghānī (also known as al-Asadābādī) — a
+      late-nineteenth-century Muslim political activist, journalist
+      and intellectual whose travels through Iran, Afghanistan,
+      India, Egypt, France, and the Ottoman lands made him the
+      leading public voice of pan-Islamic reform in his
+      generation, and the principal teacher of Muḥammad ʿAbduh
+      in Cairo — died of cancer of the jaw at Istanbul on
+      5 Shawwāl 1314 AH (9 March 1897 CE) and was buried there.
+      He was about 58. Together with ʿAbduh he co-edited the
+      Paris-based journal *al-ʿUrwa al-Wuthqa* (1884) which
+      called for Muslim political solidarity against European
+      colonial expansion and for institutional reform of Sunni
+      learning. His twin themes — that Islamic civilisation
+      possessed the rational and ethical resources for renewal,
+      and that political weakness flowed from intellectual
+      stagnation rather than from religion itself — defined the
+      framework within which both Salafi-modernist and later
+      Sunni reformist currents would develop.
+    description_ar: |
+      توفي جمال الدين الأفغاني (المعروف أيضاً بالأسد آبادي) —
+      من أبرز الناشطين السياسيين والصحفيين والمفكرين المسلمين
+      في أواخر القرن التاسع عشر، صاحب الرحلات الطويلة في
+      إيران وأفغانستان والهند ومصر وفرنسا والدولة العثمانية،
+      والصوت العام الأكبر للجامعة الإسلامية الإصلاحية في جيله،
+      وأستاذ الإمام محمد عبده الأكبر في القاهرة — بسرطان الفك
+      بالأستانة يوم ٥ شوال سنة ١٣١٤ هـ (الموافق ٩ مارس ١٨٩٧
+      ميلادي) ودفن بها. وقد ناهز الثامنة والخمسين. وقد أصدر
+      مع تلميذه محمد عبده مجلة «العروة الوثقى» في باريس سنة
+      ١٣٠١ هـ (١٨٨٤ ميلادي) داعياً فيها إلى التضامن السياسي
+      الإسلامي في وجه التوسع الاستعماري الأوروبي وإلى الإصلاح
+      المؤسسي للتعليم السني. وفكرتاه التوأمتان — أن الحضارة
+      الإسلامية تملك من الموارد العقلية والأخلاقية ما يكفي
+      للنهضة، وأن الضعف السياسي إنما ينشأ من الجمود الفكري
+      لا من الدين نفسه — قعّدتا الإطار الذي تفرعت عنه تيارات
+      السلفية الحديثة وحركات الإصلاح السني اللاحقة.
+    description_fr: |
+      Jamāl al-Dīn al-Afghānī (également connu sous le nom
+      d'al-Asadābādī) — militant politique, journaliste et
+      intellectuel musulman de la fin du XIXe siècle dont les
+      voyages à travers l'Iran, l'Afghanistan, l'Inde, l'Égypte,
+      la France et les terres ottomanes firent de lui la
+      principale voix publique de la réforme panislamique de
+      sa génération, et le maître principal de Muḥammad ʿAbduh
+      au Caire — mourut d'un cancer de la mâchoire à Istanbul
+      le 5 Shawwāl 1314 H (9 mars 1897 EC) et y fut enterré.
+      Il avait environ 58 ans. Avec ʿAbduh il co-dirigea la
+      revue parisienne *al-ʿUrwa al-Wuthqa* (1884), qui appela
+      à la solidarité politique musulmane face à l'expansion
+      coloniale européenne et à la réforme institutionnelle de
+      l'enseignement sunnite. Ses deux thèmes jumeaux — que la
+      civilisation islamique possédait les ressources
+      rationnelles et éthiques pour son renouveau, et que la
+      faiblesse politique découlait de la stagnation
+      intellectuelle plutôt que de la religion elle-même —
+      définirent le cadre dans lequel se développeraient à la
+      fois les courants salafi-modernistes et les courants
+      réformistes sunnites ultérieurs.
+    canonical_hijri: {year: 1314, month: 10, day: 5, precision: day}
+    canonical_gregorian: {date: 1897-03-09, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[jamal-al-din-al-afghani, subject], [muhammad-abduh, subject]]
+    tags: [pan-islamic, reform, istanbul, cairo, paris, al-urwa-al-wuthqa, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Jamal_al-Din_al-Afghani"
+
+  # =========================================================================
+  # ALGERIAN REFORMIST ʿULAMĀʾ
+  # =========================================================================
+
+  - slug: death-of-abd-al-hamid-ibn-badis
+    category: scholar
+    title_en: Death of ʿAbd al-Ḥamīd Ibn Bādīs — Founder of the Association of Algerian Muslim ʿUlamāʾ
+    title_ar: وفاة عبد الحميد بن باديس — مؤسس جمعية العلماء المسلمين الجزائريين
+    title_fr: Mort de ʿAbd al-Ḥamīd Ibn Bādīs — fondateur de l'Association des Oulémas Musulmans Algériens
+    description_en: |
+      ʿAbd al-Ḥamīd Ibn Bādīs al-Ṣanhājī — Algerian Sunni Mālikī
+      scholar, mufassir, and educator of Constantine, founder
+      of the Association of Algerian Muslim ʿUlamāʾ (*Jamʿiyyat
+      al-ʿUlamāʾ al-Muslimīn al-Jazāʾiriyyīn*) in 1349 AH (1931
+      CE), and the principal architect of the twentieth-century
+      Algerian Sunni reformist movement under French colonial
+      rule — died at Constantine on 8 Rabīʿ al-Awwal 1359 AH
+      (16 April 1940 CE) after a long struggle with diabetes.
+      He was about 50. His Qurʾanic exegesis lessons at the
+      Sīdī Lakhdar Mosque, his journal *al-Shihāb*, and the
+      educational network of Arabic-Islamic schools that the
+      Association built — "Islam is our religion, Arabic is
+      our language, Algeria is our homeland" — anchored the
+      Algerian-Muslim cultural identity that would carry into
+      the post-1954 independence movement. His funeral drew
+      eight thousand mourners. He was a student of Muḥammad
+      al-Ṭāhir Ibn ʿĀshūr in Tunis and corresponded with
+      Rashīd Riḍā in Cairo.
+    description_ar: |
+      توفي الإمام عبد الحميد بن باديس الصنهاجي — العالم السني
+      الجزائري على المذهب المالكي ومفسر القرآن والمربي بقسنطينة،
+      ومؤسس «جمعية العلماء المسلمين الجزائريين» سنة ١٣٤٩ هـ
+      (الموافق ١٩٣١ ميلادي)، والمهندس الأول لحركة الإصلاح السني
+      الجزائرية في القرن العشرين تحت الاحتلال الفرنسي — بقسنطينة
+      يوم ٨ ربيع الأول سنة ١٣٥٩ هـ (الموافق ١٦ أفريل ١٩٤٠
+      ميلادي) بعد صراع طويل مع داء السكري. وقد ناهز الخمسين.
+      ودروسه التفسيرية بمسجد سيدي لخضر، ومجلته «الشهاب»، وشبكة
+      المدارس الإسلامية العربية التي أسستها الجمعية — وشعارها
+      «الإسلام ديننا، والعربية لغتنا، والجزائر وطننا» — رسّخت
+      الهوية الجزائرية المسلمة الثقافية التي حملتها حركة
+      الاستقلال بعد سنة ١٩٥٤ ميلادي. وحضر جنازته رحمه الله نحو
+      ثمانية آلاف. وكان قد قرأ على الإمام محمد الطاهر بن عاشور
+      بتونس وراسل الشيخ محمد رشيد رضا بالقاهرة.
+    description_fr: |
+      ʿAbd al-Ḥamīd Ibn Bādīs al-Ṣanhājī — savant sunnite
+      algérien malikite, *mufassir* et éducateur de Constantine,
+      fondateur de l'Association des Oulémas Musulmans
+      Algériens (*Jamʿiyyat al-ʿUlamāʾ al-Muslimīn al-
+      Jazāʾiriyyīn*) en 1349 H (1931 EC), et principal architecte
+      du mouvement réformiste sunnite algérien du XXe siècle
+      sous la colonisation française — mourut à Constantine le
+      8 Rabīʿ al-Awwal 1359 H (16 avril 1940 EC) après une
+      longue lutte contre le diabète. Il avait environ 50 ans.
+      Ses leçons d'exégèse coranique à la mosquée de Sīdī
+      Lakhdar, sa revue *al-Shihāb*, et le réseau d'écoles
+      arabo-islamiques bâti par l'Association — « l'Islam est
+      notre religion, l'arabe notre langue, l'Algérie notre
+      patrie » — ancrèrent l'identité culturelle algérienne
+      musulmane qui se prolongerait dans le mouvement
+      d'indépendance post-1954. Ses funérailles rassemblèrent
+      huit mille personnes. Il avait étudié auprès de Muḥammad
+      al-Ṭāhir Ibn ʿĀshūr à Tunis et entretenait une
+      correspondance avec Rashīd Riḍā au Caire.
+    canonical_hijri: {year: 1359, month: 3, day: 8, precision: day}
+    canonical_gregorian: {date: 1940-04-16, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-hamid-ibn-badis, subject], [ibn-ashur, subject], [rashid-rida, subject]]
+    tags: [algeria, constantine, maliki, reform, association-of-ulama, al-shihab, colonial]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdelhamid_Ben_Badis"
+
+  - slug: death-of-muhammad-bashir-al-ibrahimi
+    category: scholar
+    title_en: Death of Muḥammad Bashīr al-Ibrāhīmī — Successor of Ibn Bādīs
+    title_ar: وفاة محمد البشير الإبراهيمي — خليفة ابن باديس
+    title_fr: Mort de Muḥammad al-Bashīr al-Ibrāhīmī — successeur d'Ibn Bādīs
+    description_en: |
+      Muḥammad Bashīr al-Ibrāhīmī — Algerian Sunni Mālikī scholar
+      and reformer, second president of the Association of
+      Algerian Muslim ʿUlamāʾ (1940-1965 CE) following the death
+      of Ibn Bādīs, and the figure who carried the Algerian
+      reformist movement through French colonial repression,
+      independence, and the early years of the post-1962 republic
+      — died at Setif on 19 Muḥarram 1385 AH (20 May 1965 CE).
+      He was 75. He had spent fourteen years (1938-1952) in the
+      Hijaz teaching at the Madrasat al-Falāḥ in Mecca, and on
+      his return led the *jamʿiyya* through both the war of
+      independence and its aftermath. After 1962 he served as
+      *imām* and *khaṭīb* of the Ketchaoua Mosque in Algiers; he
+      opposed the socialist policies of the Ben Bella government
+      publicly and was placed under house arrest, dying less than
+      a month before the coup that ousted Ben Bella. His
+      collected works in five volumes — *Āthār Muḥammad al-Bashīr
+      al-Ibrāhīmī* — preserve forty years of reformist
+      journalism, sermons, and theological writing.
+    description_ar: |
+      توفي الإمام محمد البشير الإبراهيمي — العالم السني الجزائري
+      على المذهب المالكي ومن كبار المصلحين، الرئيس الثاني
+      لـ«جمعية العلماء المسلمين الجزائريين» (١٣٥٩-١٣٨٥ هـ /
+      ١٩٤٠-١٩٦٥ ميلادي) بعد وفاة الشيخ ابن باديس، الذي حمل
+      حركة الإصلاح الجزائرية عبر القمع الاستعماري الفرنسي
+      والاستقلال وسنوات الجمهورية الأولى بعد سنة ١٩٦٢ ميلادي —
+      بسطيف يوم ١٩ محرم سنة ١٣٨٥ هـ (الموافق ٢٠ ماي ١٩٦٥
+      ميلادي) عن خمس وسبعين سنة. أمضى أربع عشرة سنة بالحجاز
+      (١٣٥٧-١٣٧١ هـ / ١٩٣٨-١٩٥٢ ميلادي) درّس فيها بمدرسة
+      الفلاح بمكة المكرمة، ولما رجع قاد الجمعية في حرب
+      الاستقلال وما بعدها. وبعد سنة ١٩٦٢ ميلادي تولى الإمامة
+      والخطابة بمسجد كتشاوة بالعاصمة، وعارض جهاراً سياسات
+      الاشتراكية في حكومة بن بلة فوضع تحت الإقامة الجبرية،
+      وتوفي رحمه الله قبل أقل من شهر من الانقلاب الذي أطاح
+      ببن بلة. وآثاره المجموعة في خمسة مجلدات — «آثار محمد
+      البشير الإبراهيمي» — تحفظ أربعين سنة من الكتابة الإصلاحية
+      الصحفية والخطب والمؤلفات العقدية.
+    description_fr: |
+      Muḥammad al-Bashīr al-Ibrāhīmī — savant sunnite algérien
+      malikite et réformateur, deuxième président de l'Association
+      des Oulémas Musulmans Algériens (1940-1965 EC) après la
+      mort d'Ibn Bādīs, et la figure qui porta le mouvement
+      réformiste algérien à travers la répression coloniale
+      française, l'indépendance et les premières années de la
+      république post-1962 — mourut à Sétif le 19 Muḥarram
+      1385 H (20 mai 1965 EC). Il avait 75 ans. Il avait passé
+      quatorze ans (1938-1952) au Hedjaz à enseigner à la
+      Madrasat al-Falāḥ à La Mecque, et à son retour dirigea
+      la *jamʿiyya* à travers la guerre d'indépendance et ses
+      lendemains. Après 1962 il servit comme *imām* et *khaṭīb*
+      de la mosquée Ketchaoua à Alger; il s'opposa publiquement
+      aux politiques socialistes du gouvernement Ben Bella et
+      fut placé en résidence surveillée, mourant moins d'un mois
+      avant le coup d'État qui renversa Ben Bella. Ses œuvres
+      complètes en cinq volumes — *Āthār Muḥammad al-Bashīr
+      al-Ibrāhīmī* — préservent quarante ans de journalisme
+      réformiste, de sermons et d'écrits théologiques.
+    canonical_hijri: {year: 1385, month: 1, day: 19, precision: day}
+    canonical_gregorian: {date: 1965-05-20, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-bashir-al-ibrahimi, subject], [abd-al-hamid-ibn-badis, subject]]
+    tags: [algeria, setif, maliki, reform, association-of-ulama, mecca, ketchaoua]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bachir_Ibrahimi"
+
+  # =========================================================================
+  # MAGHREBĪ SCHOLARSHIP
+  # =========================================================================
+
+  - slug: death-of-mukhtar-al-susi
+    category: scholar
+    title_en: Death of Muḥammad al-Mukhtār al-Sūsī — Historian of the Souss
+    title_ar: وفاة محمد المختار السوسي — مؤرخ سوس
+    title_fr: Mort de Muḥammad al-Mukhtār al-Sūsī — historien du Souss
+    description_en: |
+      Muḥammad al-Mukhtār al-Sūsī — Moroccan Sunni Mālikī scholar,
+      poet, and historian of the Berber-Arabic Souss region of
+      southern Morocco — died at Rabat on 28 Jumādā al-Ākhira
+      1383 AH (15 November 1963 CE) at age about 65. After
+      classical training at Marrakech, Fes, and the Qarawiyyīn,
+      he served as judge and minister of awqāf in early
+      independent Morocco. His monumental Arabic-language
+      biographical and topographical works on the scholars,
+      zawiyas, and history of the Souss — *al-Maʿsūl* (twenty
+      volumes), *Ilīgh qadīman wa-ḥadīthan*, *Sūs al-ʿālima*,
+      and *Khilāl Jazūla* — are the principal Sunni reference
+      works for the religious and intellectual history of
+      southwestern Morocco from the medieval period onward.
+      He combined classical Mālikī scholarship with the field
+      methods of modern Arabic historiography and laid the
+      documentary foundation for the study of Berber Sunni
+      ʿulamāʾ.
+    description_ar: |
+      توفي الشيخ محمد المختار السوسي — العالم السني المغربي على
+      المذهب المالكي والشاعر والمؤرخ لمنطقة سوس البربرية
+      العربية في جنوب المغرب — بالرباط يوم ٢٨ جمادى الآخرة
+      سنة ١٣٨٣ هـ (الموافق الجمعة ١٥ نوفمبر ١٩٦٣ ميلادي) عن
+      نحو خمس وستين سنة. وبعد أن أخذ العلم بمراكش وفاس
+      والقرويين، تولى القضاء والوزارة (وزارة الأوقاف) في فجر
+      المغرب المستقل. ومؤلفاته العربية الكبرى في تراجم العلماء
+      وزوايا العلم وتاريخ سوس — «المعسول» (في عشرين مجلداً)
+      و«إيليغ قديماً وحديثاً» و«سوس العالمة» و«خلال جزولة» —
+      هي المراجع السنية الأصلية للتاريخ العلمي والديني لجنوب
+      غرب المغرب من العصر الوسيط فما بعد. وقد جمع رحمه الله
+      بين الدراسة الفقهية المالكية الكلاسيكية ومناهج البحث
+      الميداني للتأريخ العربي الحديث، فأرسى الأساس الوثائقي
+      لدراسة العلماء السنيين البربر.
+    description_fr: |
+      Muḥammad al-Mukhtār al-Sūsī — savant sunnite marocain
+      malikite, poète et historien de la région berbéro-arabe
+      du Souss au sud du Maroc — mourut à Rabat le 28 Jumādā
+      al-Ākhira 1383 H (15 novembre 1963 EC) à l'âge d'environ
+      65 ans. Après une formation classique à Marrakech, Fès
+      et à la Qarawiyyīn, il servit comme juge et ministre des
+      *awqāf* dans le Maroc nouvellement indépendant. Ses
+      œuvres monumentales en arabe sur les savants, les
+      *zawiyas* et l'histoire du Souss — *al-Maʿsūl* (vingt
+      volumes), *Ilīgh qadīman wa-ḥadīthan*, *Sūs al-ʿālima*
+      et *Khilāl Jazūla* — sont les principales références
+      sunnites pour l'histoire religieuse et intellectuelle du
+      sud-ouest marocain depuis l'époque médiévale. Il
+      combinait l'érudition malikite classique aux méthodes de
+      terrain de l'historiographie arabe moderne et posa le
+      fondement documentaire de l'étude des *ʿulamāʾ* sunnites
+      berbères.
+    canonical_hijri: {year: 1383, month: 6, day: 28, precision: day}
+    canonical_gregorian: {date: 1963-11-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mukhtar-al-susi, subject]]
+    tags: [morocco, souss, rabat, maliki, history, qarawiyyin, berber]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B3%D9%88%D8%B3%D9%8A"
+
+  - slug: death-of-allal-al-fasi
+    category: scholar
+    title_en: Death of ʿAllāl al-Fāsī — Moroccan Salafi-Reformist Nationalist
+    title_ar: وفاة علال الفاسي — السلفي الإصلاحي ورائد الحركة الوطنية المغربية
+    title_fr: Mort de ʿAllāl al-Fāsī — réformiste salafi et nationaliste marocain
+    description_en: |
+      ʿAllāl al-Fāsī al-Fihrī — Moroccan Sunni Mālikī scholar,
+      jurist, poet, and political leader, founder of the
+      Istiqlāl Party in 1944, and the principal voice of the
+      Salafi-reformist current in twentieth-century Moroccan
+      Sunni scholarship — died of a heart attack at Bucharest
+      on 20 Rabīʿ al-Thānī 1394 AH (13 May 1974 CE) while on
+      a visit to lobby Romanian leadership over the Western
+      Sahara dispute. He was about 64. Trained at the
+      Qarawiyyīn in Fes, he was exiled by the French
+      Protectorate to Gabon (1937-1946) and then to Cairo,
+      where he engaged with the Arab nationalist and Islamic
+      reformist circles of Rashīd Riḍā and his successors. His
+      *al-Naqd al-Dhātī* ("Self-Critique"), *Maqāṣid al-Sharīʿa
+      al-Islāmiyya wa-Makārimuhā*, and his collected fatwas
+      argued for an Islamic constitutional and juridical
+      framework drawing on classical Mālikī fiqh together with
+      the modern science of *maqāṣid*. He led the Istiqlāl
+      Party until his death and was succeeded by Mʾḥammad
+      Boucetta.
+    description_ar: |
+      توفي العلامة علال الفاسي الفهري — العالم السني المغربي
+      على المذهب المالكي، الفقيه والشاعر والقائد السياسي،
+      مؤسس حزب «الاستقلال» سنة ١٣٦٣ هـ (١٩٤٤ ميلادي)، والصوت
+      الأكبر للتيار السلفي الإصلاحي في الفقه السني المغربي
+      في القرن العشرين — بسكتة قلبية ببوخارست يوم ٢٠ ربيع
+      الآخر سنة ١٣٩٤ هـ (الموافق ١٣ ماي ١٩٧٤ ميلادي) في زيارة
+      للضغط على القيادة الرومانية في قضية الصحراء الغربية.
+      وقد ناهز الرابعة والستين. وقد تخرج من جامعة القرويين
+      بفاس، ونفته السلطات الفرنسية الحامية إلى الغابون (١٩٣٧-
+      ١٩٤٦ ميلادي) ثم إلى القاهرة حيث خالط أوساط القومية
+      العربية والإصلاح الإسلامي على تراث الشيخ محمد رشيد رضا
+      وخلفائه. وكتبه «النقد الذاتي» و«مقاصد الشريعة الإسلامية
+      ومكارمها» وفتاويه المجموعة كلها تأصيل لإطار دستوري
+      وقانوني إسلامي مستفيد من الفقه المالكي الكلاسيكي ومن
+      علم المقاصد الحديث. وقاد حزب الاستقلال إلى وفاته،
+      وخلفه الأستاذ امحمد بوستة.
+    description_fr: |
+      ʿAllāl al-Fāsī al-Fihrī — savant sunnite marocain
+      malikite, juriste, poète et chef politique, fondateur du
+      parti Istiqlāl en 1944, et principale voix du courant
+      salafi-réformiste dans l'érudition sunnite marocaine du
+      XXe siècle — mourut d'une crise cardiaque à Bucarest le
+      20 Rabīʿ al-Thānī 1394 H (13 mai 1974 EC) lors d'une
+      visite destinée à influencer les dirigeants roumains sur
+      le dossier du Sahara occidental. Il avait environ 64 ans.
+      Formé à la Qarawiyyīn de Fès, il fut exilé par le
+      Protectorat français au Gabon (1937-1946) puis au Caire,
+      où il fréquenta les cercles du nationalisme arabe et du
+      réformisme islamique dans la lignée de Rashīd Riḍā et de
+      ses successeurs. Ses *al-Naqd al-Dhātī* (« Auto-critique »),
+      *Maqāṣid al-Sharīʿa al-Islāmiyya wa-Makārimuhā* et ses
+      fatwas recueillies plaidèrent pour un cadre constitutionnel
+      et juridique islamique fondé sur le fiqh malikite
+      classique conjugué à la science moderne des *maqāṣid*.
+      Il dirigea le parti Istiqlāl jusqu'à sa mort et eut pour
+      successeur Mʾḥammad Boucetta.
+    canonical_hijri: {year: 1394, month: 4, day: 20, precision: day}
+    canonical_gregorian: {date: 1974-05-13, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[allal-al-fasi, subject], [rashid-rida, subject]]
+    tags: [morocco, fes, qarawiyyin, maliki, salafi-reform, istiqlal, maqasid, bucharest]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Allal_al-Fassi"
+
+  # =========================================================================
+  # LEVANTINE / EGYPTIAN LATE-TWENTIETH-CENTURY SCHOLARSHIP
+  # =========================================================================
+
+  - slug: death-of-muhammad-ali-al-sabuni
+    category: scholar
+    title_en: Death of Muḥammad ʿAlī al-Ṣābūnī — Author of *Ṣafwat al-Tafāsīr*
+    title_ar: وفاة محمد علي الصابوني — صاحب «صفوة التفاسير»
+    title_fr: Mort de Muḥammad ʿAlī al-Ṣābūnī — auteur de *Ṣafwat al-Tafāsīr*
+    description_en: |
+      Muḥammad ʿAlī al-Ṣābūnī — Syrian Sunni Hanafī-Māturīdī
+      scholar of Aleppo and prolific contemporary writer on
+      tafsīr, ḥadīth, fiqh, and Qurʾanic sciences, best known
+      for his condensed Qurʾanic exegesis *Ṣafwat al-Tafāsīr*
+      (a digest drawing principally on al-Ṭabarī, Ibn Kathīr,
+      and al-Qurṭubī) — died at Yalova in Turkey on 5 Shaʿbān
+      1442 AH (19 March 2021 CE) at age 91. He had taught at
+      Umm al-Qurā University in Mecca for many years before
+      returning eastward in his later life. His other works
+      include *Mukhtaṣar Tafsīr Ibn Kathīr*, *Rawāʾiʿ al-Bayān
+      fī Tafsīr Āyāt al-Aḥkām*, and *al-Tibyān fī ʿUlūm al-
+      Qurʾān*; together they form one of the most widely
+      circulated condensed-tafsīr corpuses in modern Sunni
+      publishing, translated into Turkish, Bosnian, Urdu, and
+      Indonesian, and used in thousands of Sunni mosques and
+      study circles worldwide.
+    description_ar: |
+      توفي الشيخ محمد علي الصابوني — العالم السني السوري على
+      المذهب الحنفي الماتريدي بمدينة حلب، والمصنف المعاصر
+      المكثر في علوم التفسير والحديث والفقه وعلوم القرآن،
+      أشهر مؤلفاته «صفوة التفاسير» وهو تفسير مختصر معتمد
+      أساساً على «جامع البيان» للطبري و«تفسير القرآن العظيم»
+      لابن كثير و«الجامع لأحكام القرآن» للقرطبي — بمدينة يالوا
+      التركية يوم ٥ شعبان سنة ١٤٤٢ هـ (الموافق ١٩ مارس ٢٠٢١
+      ميلادي) عن إحدى وتسعين سنة. درّس بجامعة أم القرى بمكة
+      المكرمة سنين طويلة قبل أن يعود شرقاً في أواخر عمره.
+      ومن مؤلفاته الأخرى: «مختصر تفسير ابن كثير» و«روائع
+      البيان في تفسير آيات الأحكام» و«التبيان في علوم القرآن».
+      ومجموع هذه الكتب يكوّن أحد أوسع مدوّنات التفسير
+      المختصر تداولاً في الطباعة السنية المعاصرة، ترجمت إلى
+      التركية والبوسنية والأردية والإندونيسية، وتدرّس في
+      آلاف المساجد والدوارس السنية حول العالم.
+    description_fr: |
+      Muḥammad ʿAlī al-Ṣābūnī — savant sunnite syrien
+      hanafite-maturidite d'Alep et écrivain contemporain
+      prolifique en *tafsīr*, *ḥadīth*, *fiqh* et sciences
+      coraniques, le plus connu pour son exégèse coranique
+      condensée *Ṣafwat al-Tafāsīr* (un abrégé puisant
+      principalement chez al-Ṭabarī, Ibn Kathīr et al-
+      Qurṭubī) — mourut à Yalova en Turquie le 5 Shaʿbān
+      1442 H (19 mars 2021 EC) à l'âge de 91 ans. Il enseigna
+      pendant de longues années à l'Université Umm al-Qurā à
+      La Mecque avant de revenir vers l'orient en fin de vie.
+      Ses autres ouvrages comprennent *Mukhtaṣar Tafsīr Ibn
+      Kathīr*, *Rawāʾiʿ al-Bayān fī Tafsīr Āyāt al-Aḥkām* et
+      *al-Tibyān fī ʿUlūm al-Qurʾān*; ensemble ils constituent
+      l'un des corpus de *tafsīr* abrégé les plus largement
+      diffusés dans l'édition sunnite moderne, traduits en
+      turc, bosniaque, ourdou et indonésien, et utilisés dans
+      des milliers de mosquées et de cercles d'étude sunnites
+      dans le monde entier.
+    canonical_hijri: {year: 1442, month: 8, day: 5, precision: day}
+    canonical_gregorian: {date: 2021-03-19, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-ali-al-sabuni, subject]]
+    tags: [syria, aleppo, hanafi, maturidi, tafsir, mecca, contemporary, yalova]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Ali_al-Sabuni"
+
+  - slug: death-of-muhammad-al-ghazali-al-saqqa
+    category: scholar
+    title_en: Death of Muḥammad al-Ghazālī al-Saqqā — Egyptian Azharī Reformist
+    title_ar: وفاة الشيخ محمد الغزالي السقا — الأزهري الإصلاحي
+    title_fr: Mort de Muḥammad al-Ghazālī al-Saqqā — réformiste azharī égyptien
+    description_en: |
+      Muḥammad al-Ghazālī al-Saqqā — Egyptian Sunni Azharī
+      preacher, scholar, and one of the most widely read
+      twentieth-century Arabic-language Islamic essayists,
+      author of *Fiqh al-Sīra* (a study of the Prophet's ﷺ
+      biography in light of fiqh and contemporary moral
+      challenges), *Khuluq al-Muslim*, *Jaddid Ḥayātaka*, and
+      ninety-odd further works — died on 18 Shawwāl 1416 AH
+      (9 March 1996 CE) at age 78 and was buried in al-Baqīʿ
+      Cemetery in Medina. He graduated from al-Azhar in 1941
+      and held teaching posts in Mecca, Doha, and Algiers,
+      and chaired the academic council of the International
+      Institute of Islamic Thought in Cairo. He combined an
+      Azharī Sunni scholarly identity with a sustained
+      programme of moral and intellectual renewal addressed
+      to the Arabic-reading public, and his 1989 work *al-
+      Sunna al-Nabawiyya bayna Ahl al-Fiqh wa-Ahl al-Ḥadīth*
+      sparked a major Sunni scholarly debate over hadith
+      methodology that continues to be cited.
+    description_ar: |
+      توفي الشيخ محمد الغزالي السقا — الداعية والعالم السني
+      الأزهري المصري، ومن أكثر مؤلفي الفكر الإسلامي العربي
+      انتشاراً في القرن العشرين، صاحب «فقه السيرة» (دراسة في
+      السيرة النبوية على ضوء الفقه والتحديات الأخلاقية
+      المعاصرة) و«خلق المسلم» و«جدد حياتك» وما يزيد على تسعين
+      مصنفاً — يوم ١٨ شوال سنة ١٤١٦ هـ (الموافق ٩ مارس ١٩٩٦
+      ميلادي) عن ثمان وسبعين سنة، ودفن بمقبرة البقيع بالمدينة
+      المنورة. تخرج من الأزهر سنة ١٣٦٠ هـ (١٩٤١ ميلادي)،
+      وتقلب في التدريس بمكة والدوحة والجزائر، وترأس المجلس
+      الأكاديمي للمعهد العالمي للفكر الإسلامي بالقاهرة. وجمع
+      رحمه الله بين الانتماء الأزهري السني الكلاسيكي ومشروع
+      مستمر للتجديد الأخلاقي والفكري موجّه إلى القارئ العربي،
+      وأثار كتابه «السنة النبوية بين أهل الفقه وأهل الحديث»
+      الصادر سنة ١٤٠٩ هـ (١٩٨٩ ميلادي) جدلاً سنياً علمياً
+      كبيراً في منهج الحديث ما يزال مرجعاً.
+    description_fr: |
+      Muḥammad al-Ghazālī al-Saqqā — prédicateur, savant
+      sunnite azharī égyptien et l'un des essayistes
+      islamiques de langue arabe les plus lus du XXe siècle,
+      auteur de *Fiqh al-Sīra* (étude de la biographie
+      prophétique ﷺ à la lumière du fiqh et des défis moraux
+      contemporains), *Khuluq al-Muslim*, *Jaddid Ḥayātaka*,
+      et de plus de quatre-vingt-dix autres ouvrages — mourut
+      le 18 Shawwāl 1416 H (9 mars 1996 EC) à l'âge de 78 ans
+      et fut enterré au cimetière al-Baqīʿ à Médine. Diplômé
+      d'al-Azhar en 1941, il occupa des postes
+      d'enseignement à La Mecque, Doha et Alger, et présida
+      le conseil académique de l'Institut International de
+      la Pensée Islamique au Caire. Il combinait une identité
+      savante azharī sunnite avec un programme soutenu de
+      renouveau moral et intellectuel adressé au public
+      arabophone, et son ouvrage de 1989 *al-Sunna al-
+      Nabawiyya bayna Ahl al-Fiqh wa-Ahl al-Ḥadīth* déclencha
+      un débat sunnite scientifique majeur sur la méthodologie
+      du hadith encore cité aujourd'hui.
+    canonical_hijri: {year: 1416, month: 10, day: 18, precision: day}
+    canonical_gregorian: {date: 1996-03-09, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-al-ghazali-al-saqqa, subject]]
+    tags: [egypt, azhar, sunni, dawah, sira, twentieth-century, medina, baqi]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_al-Ghazali"
+
+  - slug: death-of-abd-al-halim-mahmud
+    category: scholar
+    title_en: Death of ʿAbd al-Ḥalīm Maḥmūd — Shaykh of al-Azhar
+    title_ar: وفاة الشيخ عبد الحليم محمود — شيخ الأزهر
+    title_fr: Mort de ʿAbd al-Ḥalīm Maḥmūd — Cheikh d'al-Azhar
+    description_en: |
+      ʿAbd al-Ḥalīm Maḥmūd — Egyptian Sunni Azharī scholar,
+      Sufi-reformist thinker, and the 40th Grand Shaykh of
+      al-Azhar from Muḥarram 1393 AH (March 1973 CE) until
+      his death — died at Cairo on 15 Dhū al-Qaʿda 1398 AH
+      (17 October 1978 CE) at age 68. He had memorised the
+      Qurʾan in childhood, graduated from al-Azhar in 1932,
+      and earned a doctorate in philosophy from the Sorbonne
+      in 1940 with a thesis on al-Ḥārith al-Muḥāsibī. As
+      Shaykh of al-Azhar he combined classical Sunni
+      scholarship with a marked Sufi orientation, defended
+      the integration of *taṣawwuf* within Sunni orthodoxy,
+      championed the systematic teaching of philosophy
+      alongside the religious sciences, and pressed for
+      Islamic-law reform — among other measures advocating a
+      minimum marriage age of sixteen for girls. His
+      biographical works on Sunni Sufi figures — al-Muḥāsibī,
+      al-Junayd, Abū al-Ḥasan al-Shādhilī, and others — are
+      among the most widely read modern Arabic introductions
+      to the Sunni Sufi tradition.
+    description_ar: |
+      توفي الشيخ عبد الحليم محمود — العالم السني الأزهري
+      المصري والمفكر الصوفي الإصلاحي، شيخ الجامع الأزهر
+      الأربعون من محرم سنة ١٣٩٣ هـ (مارس ١٩٧٣ ميلادي) إلى
+      وفاته — بالقاهرة يوم ١٥ ذي القعدة سنة ١٣٩٨ هـ (الموافق
+      ١٧ أكتوبر ١٩٧٨ ميلادي) عن ثمان وستين سنة. حفظ القرآن
+      في الصغر، وتخرج من الأزهر سنة ١٣٥١ هـ (١٩٣٢ ميلادي)،
+      ونال الدكتوراه في الفلسفة من جامعة السوربون سنة ١٣٥٩
+      هـ (١٩٤٠ ميلادي) برسالة في الإمام الحارث المحاسبي.
+      ولما تولى مشيخة الأزهر جمع بين العلم السني الكلاسيكي
+      والاتجاه الصوفي السني الواضح، فدافع عن إدراج التصوف
+      في صلب أهل السنة، وأقام تدريس الفلسفة بانتظام مع علوم
+      الشريعة، ودعا إلى إصلاح قانون الأحوال الشخصية — ومن
+      ذلك تحديد سن الزواج بالنسبة للفتاة بست عشرة سنة. وله
+      رحمه الله ترجمات للأعلام السنيين الصوفيين — كالحارث
+      المحاسبي والجنيد البغدادي وأبي الحسن الشاذلي وغيرهم
+      — هي من أوسع مداخل قراء العربية المعاصرين إلى تراث
+      التصوف السني.
+    description_fr: |
+      ʿAbd al-Ḥalīm Maḥmūd — savant sunnite azharī égyptien,
+      penseur soufi-réformateur, et 40e Grand Cheikh d'al-Azhar
+      de Muḥarram 1393 H (mars 1973 EC) jusqu'à sa mort —
+      mourut au Caire le 15 Dhū al-Qaʿda 1398 H (17 octobre
+      1978 EC) à l'âge de 68 ans. Il avait mémorisé le Coran
+      dans l'enfance, fut diplômé d'al-Azhar en 1932, et
+      obtint un doctorat de philosophie à la Sorbonne en 1940
+      avec une thèse sur al-Ḥārith al-Muḥāsibī. Comme Cheikh
+      d'al-Azhar il conjugua l'érudition sunnite classique à
+      une orientation soufie marquée, défendit l'intégration
+      du *taṣawwuf* dans l'orthodoxie sunnite, soutint
+      l'enseignement systématique de la philosophie aux côtés
+      des sciences religieuses, et pressa pour la réforme du
+      droit personnel — préconisant entre autres un âge
+      minimum de mariage de seize ans pour les filles. Ses
+      ouvrages biographiques sur les figures soufies sunnites
+      — al-Muḥāsibī, al-Junayd, Abū al-Ḥasan al-Shādhilī et
+      d'autres — comptent parmi les introductions arabes
+      modernes les plus lues à la tradition soufie sunnite.
+    canonical_hijri: {year: 1398, month: 11, day: 15, precision: day}
+    canonical_gregorian: {date: 1978-10-17, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-halim-mahmud, subject]]
+    tags: [egypt, azhar, sufi-reform, shaykh-al-azhar, philosophy, sorbonne, twentieth-century]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Halim_Mahmud"
+
+  - slug: death-of-maruf-al-dawalibi
+    category: scholar
+    title_en: Death of Maʿrūf al-Dawālībī — Syrian Hanafī Scholar-Statesman
+    title_ar: وفاة معروف الدواليبي — العالم الحنفي السوري ورجل الدولة
+    title_fr: Mort de Maʿrūf al-Dawālībī — savant et homme d'État syrien hanafite
+    description_en: |
+      Maʿrūf al-Dawālībī — Syrian Sunni Hanafī jurist of Aleppo,
+      doctor of law from the Sorbonne, twice prime minister of
+      Syria (briefly in 1370 AH / 1951 CE and again in 1381-
+      1382 AH / 1961-1962 CE), founding figure of the Muslim
+      World League's organisation of contemporary Islamic
+      jurisprudence, and after 1383 AH (1963 CE) advisor on
+      Islamic affairs to successive Saudi kings — died at
+      Riyadh on 22 Dhū al-Qaʿda 1424 AH (15 January 2004 CE)
+      at age 94 and was buried at al-Baqīʿ Cemetery in Medina.
+      He had combined a classical Hanafī training with a
+      doctorate in comparative civil law from Paris, and his
+      writings on Islamic law in modern legal codification
+      sought to articulate a Hanafī framework able to inform
+      twentieth-century Muslim states. He participated in the
+      Islamic Conference of Mecca and the Muslim World League
+      from their early years and was a longstanding voice in
+      the OIC's deliberative bodies.
+    description_ar: |
+      توفي العلامة معروف الدواليبي — الفقيه السني السوري على
+      المذهب الحنفي بمدينة حلب، الحاصل على الدكتوراه في القانون
+      من السوربون، ورئيس وزراء سوريا في فترتين قصيرتين (سنة
+      ١٣٧٠ هـ / ١٩٥١ ميلادي ثم سنة ١٣٨١-١٣٨٢ هـ / ١٩٦١-١٩٦٢
+      ميلادي)، ومن مؤسسي تنظيم الفقه الإسلامي المعاصر برابطة
+      العالم الإسلامي، ومستشار الشؤون الإسلامية للملوك
+      السعوديين منذ سنة ١٣٨٣ هـ (١٩٦٣ ميلادي) — بالرياض يوم
+      ٢٢ ذي القعدة سنة ١٤٢٤ هـ (الموافق ١٥ جانفي ٢٠٠٤ ميلادي)
+      عن أربع وتسعين سنة، ودفن بمقبرة البقيع بالمدينة المنورة.
+      وقد جمع رحمه الله بين الدراسة الفقهية الحنفية الكلاسيكية
+      ودكتوراه في القانون المدني المقارن من باريس، وفي مؤلفاته
+      عن الفقه الإسلامي والتقنين الحديث محاولة لصياغة إطار
+      حنفي قابل للإلهام في الدول الإسلامية المعاصرة. وشارك في
+      مؤتمر مكة الإسلامي ورابطة العالم الإسلامي منذ أول
+      تأسيسهما، وكان صوتاً متواصلاً في الهيئات التشاورية
+      لمنظمة التعاون الإسلامي.
+    description_fr: |
+      Maʿrūf al-Dawālībī — juriste sunnite syrien hanafite
+      d'Alep, docteur en droit de la Sorbonne, deux fois
+      Premier ministre de Syrie (brièvement en 1370 H / 1951
+      EC puis en 1381-1382 H / 1961-1962 EC), figure
+      fondatrice de l'organe de fiqh contemporain de la Ligue
+      islamique mondiale, et conseiller des affaires
+      islamiques de plusieurs rois saoudiens à partir de 1383 H
+      (1963 EC) — mourut à Riyad le 22 Dhū al-Qaʿda 1424 H
+      (15 janvier 2004 EC) à l'âge de 94 ans et fut enterré
+      au cimetière al-Baqīʿ à Médine. Il alliait une
+      formation hanafite classique à un doctorat en droit
+      civil comparé de Paris, et ses écrits sur le droit
+      islamique dans la codification moderne cherchaient à
+      formuler un cadre hanafite susceptible d'éclairer les
+      États musulmans du XXe siècle. Il participa à la
+      Conférence islamique de La Mecque et à la Ligue
+      islamique mondiale dès leurs premières années, et fut
+      une voix durable dans les organes consultatifs de l'OCI.
+    canonical_hijri: {year: 1424, month: 11, day: 22, precision: day}
+    canonical_gregorian: {date: 2004-01-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[maruf-al-dawalibi, subject]]
+    tags: [syria, aleppo, hanafi, riyadh, baqi, muslim-world-league, sorbonne, twentieth-century]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ma%27ruf_al-Dawalibi"
+
+  - slug: death-of-wahbah-al-zuhayli
+    category: scholar
+    title_en: Death of Wahbah al-Zuḥaylī — Author of *al-Fiqh al-Islāmī wa-Adillatuhu*
+    title_ar: وفاة الشيخ وهبة الزحيلي — صاحب «الفقه الإسلامي وأدلته»
+    title_fr: Mort de Wahbah al-Zuḥaylī — auteur d'*al-Fiqh al-Islāmī wa-Adillatuhu*
+    description_en: |
+      Wahbah Muṣṭafā al-Zuḥaylī — Syrian Sunni jurist of the
+      Hanafī and Shāfiʿī schools (formed in classical Hanafī
+      training in Damascus and a Cairo-Azharī doctoral
+      programme in Shāfiʿī comparative fiqh), longtime chair
+      of Islamic jurisprudence at the College of Sharīʿa of
+      Damascus University, and one of the most authoritative
+      contemporary writers on Islamic law — died on 22 Shawwāl
+      1436 AH (8 August 2015 CE) at age 83. His comprehensive
+      *al-Fiqh al-Islāmī wa-Adillatuhu* (eight volumes), his
+      *al-Tafsīr al-Munīr* (sixteen volumes), and his treatises
+      on the law of contracts, treaties, and international
+      humanitarian relations in Islamic law are standard
+      reference works in Sunni colleges across the Arab
+      world, Turkey, and South Asia. He was a signatory of
+      both the Amman Message (1425 AH / 2004 CE) and *A Common
+      Word* (1428 AH / 2007 CE) and was widely cited as one
+      of the foremost expositors of comparative Sunni fiqh
+      in his generation.
+    description_ar: |
+      توفي العلامة وهبة بن مصطفى الزحيلي — الفقيه السني
+      السوري على المذهبين الحنفي والشافعي (تخرج بالدراسة
+      الفقهية الحنفية الكلاسيكية بدمشق ثم دكتوراه أزهرية
+      قاهرية في الفقه الشافعي المقارن)، ورئيس قسم الفقه
+      الإسلامي بكلية الشريعة بجامعة دمشق سنين طويلة، ومن أكبر
+      مصنفي الفقه الإسلامي المعتمدين في عصره — يوم ٢٢ شوال
+      سنة ١٤٣٦ هـ (الموافق ٨ أوت ٢٠١٥ ميلادي) عن ثلاث وثمانين
+      سنة. وكتابه الجامع «الفقه الإسلامي وأدلته» في ثمانية
+      مجلدات و«التفسير المنير» في ستة عشر مجلداً ومصنفاته في
+      فقه العقود والمعاهدات والعلاقات الإنسانية الدولية في
+      الإسلام مراجع معتمدة في كليات الشريعة بالعالم العربي
+      وتركيا وشبه القارة الهندية. ومن الموقعين على «رسالة
+      عمّان» سنة ١٤٢٥ هـ (٢٠٠٤ ميلادي) و«كلمة سواء» سنة
+      ١٤٢٨ هـ (٢٠٠٧ ميلادي)، وعدّه كثير من معاصريه من أكبر
+      شارحي الفقه السني المقارن في جيله.
+    description_fr: |
+      Wahbah Muṣṭafā al-Zuḥaylī — juriste sunnite syrien des
+      écoles hanafite et shāfiʿite (formé dans l'érudition
+      hanafite classique de Damas puis dans un doctorat
+      azharī cairote de fiqh shāfiʿite comparé), titulaire de
+      longue date de la chaire de jurisprudence islamique à
+      la Faculté de Sharīʿa de l'Université de Damas, et l'un
+      des écrivains contemporains les plus autorisés sur le
+      droit islamique — mourut le 22 Shawwāl 1436 H (8 août
+      2015 EC) à l'âge de 83 ans. Son ouvrage exhaustif
+      *al-Fiqh al-Islāmī wa-Adillatuhu* (huit volumes), son
+      *al-Tafsīr al-Munīr* (seize volumes) et ses traités
+      sur le droit des contrats, des traités internationaux
+      et des relations humanitaires internationales en droit
+      islamique sont des références standard dans les
+      facultés sunnites du monde arabe, de la Turquie et du
+      sous-continent indien. Il fut signataire à la fois du
+      Message d'Amman (1425 H / 2004 EC) et de *A Common
+      Word* (1428 H / 2007 EC), et fut largement cité comme
+      l'un des plus éminents exposants du fiqh sunnite
+      comparé de sa génération.
+    canonical_hijri: {year: 1436, month: 10, day: 22, precision: day}
+    canonical_gregorian: {date: 2015-08-08, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[wahbah-al-zuhayli, subject]]
+    tags: [syria, damascus, hanafi, shafii, fiqh, tafsir, amman-message, contemporary]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Wahbah_al-Zuhayli"
+
+  # =========================================================================
+  # EGYPTIAN JURIST-STATESMEN
+  # =========================================================================
+
+  - slug: death-of-abd-al-razzaq-al-sanhuri
+    category: scholar
+    title_en: Death of ʿAbd al-Razzāq al-Sanhūrī — Codifier of Arab Civil Law
+    title_ar: وفاة عبد الرزاق السنهوري — مقنن القانون المدني العربي
+    title_fr: Mort de ʿAbd al-Razzāq al-Sanhūrī — codificateur du droit civil arabe
+    description_en: |
+      ʿAbd al-Razzāq Aḥmad al-Sanhūrī — Egyptian Sunni jurist
+      of Alexandria, doctor of law from the University of Lyon
+      (1926), professor of civil law at Cairo University and
+      Baghdad Law College, and the principal drafter of the
+      modern civil codes of Egypt (1948), Iraq (1951), Syria
+      (1949), Libya (1953), and contributor to the codes of
+      Kuwait, Sudan, and Bahrain — died at Alexandria on 27
+      Jumādā al-Awwal 1391 AH (21 July 1971 CE) at age 75.
+      He served as president of the Egyptian Council of State
+      (Majlis al-Dawla) from 1949 to 1954 until forcibly
+      dismissed for opposing military rule. His ten-volume
+      *al-Wasīṭ fī Sharḥ al-Qānūn al-Madanī al-Jadīd*,
+      published 1952-1970, weaves Mālikī and Hanafī fiqh
+      together with French civil-law doctrine into a single
+      systematic treatment, and remains the standard reference
+      work for Arabic civil-law practice. He was Sunni in
+      training and orientation; his project to integrate
+      classical Sunni *muʿāmalāt* into modern Arab civil
+      codes is widely regarded as the most consequential
+      twentieth-century rapprochement between Islamic and
+      modern positive law.
+    description_ar: |
+      توفي العلامة عبد الرزاق أحمد السنهوري — الفقيه السني
+      المصري بالإسكندرية، الحاصل على الدكتوراه في القانون من
+      جامعة ليون سنة ١٣٤٤ هـ (١٩٢٦ ميلادي)، أستاذ القانون
+      المدني بجامعة القاهرة وبكلية الحقوق ببغداد، والصائغ
+      الأول للقوانين المدنية الحديثة لمصر (سنة ١٣٦٧ هـ /
+      ١٩٤٨ ميلادي) والعراق (سنة ١٣٧٠ هـ / ١٩٥١ ميلادي)
+      وسوريا (سنة ١٣٦٨ هـ / ١٩٤٩ ميلادي) وليبيا (سنة ١٣٧٢ هـ
+      / ١٩٥٣ ميلادي)، والمشارك في تقنين الكويت والسودان
+      والبحرين — بالإسكندرية يوم ٢٧ جمادى الأولى سنة ١٣٩١ هـ
+      (الموافق ٢١ جويلية ١٩٧١ ميلادي) عن خمس وسبعين سنة.
+      وتولى رئاسة مجلس الدولة المصري من سنة ١٣٦٨ إلى ١٣٧٤ هـ
+      (١٩٤٩-١٩٥٤ ميلادي) إلى أن أُعفي عسكرياً لمعارضته الحكم
+      العسكري. وكتابه «الوسيط في شرح القانون المدني الجديد»
+      في عشرة مجلدات، الصادر بين ١٣٧١ و١٣٩٠ هـ (١٩٥٢-١٩٧٠
+      ميلادي)، يجمع بين الفقه المالكي والحنفي والفقه المدني
+      الفرنسي في معالجة منهجية واحدة، وما يزال المرجع المعتمد
+      في ممارسة القانون المدني العربي. وكان رحمه الله سنياً
+      في النشأة والاتجاه؛ ومشروعه في إدماج المعاملات السنية
+      الكلاسيكية في القوانين المدنية العربية الحديثة من أكبر
+      محاولات التقارب بين الفقه الإسلامي والقانون الوضعي
+      الحديث في القرن العشرين.
+    description_fr: |
+      ʿAbd al-Razzāq Aḥmad al-Sanhūrī — juriste sunnite
+      égyptien d'Alexandrie, docteur en droit de l'Université
+      de Lyon (1926), professeur de droit civil à
+      l'Université du Caire et à la Faculté de droit de
+      Bagdad, et principal rédacteur des codes civils modernes
+      d'Égypte (1948), d'Iraq (1951), de Syrie (1949), de
+      Libye (1953), et contributeur aux codes du Koweït, du
+      Soudan et de Bahreïn — mourut à Alexandrie le 27
+      Jumādā al-Awwal 1391 H (21 juillet 1971 EC) à l'âge de
+      75 ans. Il fut président du Conseil d'État égyptien
+      (Majlis al-Dawla) de 1949 à 1954, jusqu'à son
+      écartement forcé pour son opposition au régime
+      militaire. Son ouvrage en dix volumes *al-Wasīṭ fī Sharḥ
+      al-Qānūn al-Madanī al-Jadīd*, publié de 1952 à 1970,
+      tisse ensemble le fiqh malikite et hanafite et la
+      doctrine civiliste française dans un traitement
+      systématique unique, et demeure la référence standard
+      de la pratique civile arabe. Sunnite par formation et
+      orientation, son projet d'intégrer les *muʿāmalāt*
+      sunnites classiques dans les codes civils arabes
+      modernes est largement considéré comme le rapprochement
+      le plus conséquent du XXe siècle entre droit islamique
+      et droit positif moderne.
+    canonical_hijri: {year: 1391, month: 5, day: 27, precision: day}
+    canonical_gregorian: {date: 1971-07-21, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-razzaq-al-sanhuri, subject]]
+    tags: [egypt, alexandria, jurist, civil-code, lyon, baghdad, hanafi, maliki, twentieth-century]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Razzaq_al-Sanhuri"
+
+  - slug: death-of-ahmad-hasan-al-baquri
+    category: scholar
+    title_en: Death of Aḥmad Ḥasan al-Bāqūrī — Azharī Scholar and Minister of Awqāf
+    title_ar: وفاة أحمد حسن الباقوري — العالم الأزهري ووزير الأوقاف
+    title_fr: Mort d'Aḥmad Ḥasan al-Bāqūrī — savant azharī et ministre des Awqāf
+    description_en: |
+      Aḥmad Ḥasan al-Bāqūrī — Egyptian Sunni Azharī scholar
+      and statesman, born in the village of Bāqūr in Asyūṭ
+      governorate, graduate of al-Azhar, minister of awqāf
+      (religious endowments) of Egypt from 8 September 1951
+      to 24 October 1959, and director of al-Azhar
+      University from 1383 to 1388 AH (1964-1969 CE) — died
+      at London on 11 Dhū al-Ḥijja 1405 AH (28 August 1985
+      CE) during medical treatment, and was buried in Cairo.
+      He was 78. He authored a number of works on Islamic
+      philosophy, *taṣawwuf*, and interfaith engagement, and
+      served as a member of the Cairo Arabic Language Academy
+      and other academic bodies. He had been a member of the
+      Muslim Brotherhood's guidance bureau in his early
+      career and composed an early anthem at the request of
+      its founder, but resigned from the organisation in
+      1952 upon accepting his ministerial position; from
+      that point his career was that of an Azharī state
+      scholar and educator.
+    description_ar: |
+      توفي الشيخ أحمد حسن الباقوري — العالم السني الأزهري
+      ورجل الدولة المصري، المولود بقرية باقور بمحافظة أسيوط،
+      المتخرج من الأزهر، ووزير الأوقاف بمصر من ٧ ذي الحجة
+      سنة ١٣٧٠ هـ (٨ سبتمبر ١٩٥١ ميلادي) إلى ٢١ ربيع الآخر
+      سنة ١٣٧٩ هـ (٢٤ أكتوبر ١٩٥٩ ميلادي)، ومدير جامعة الأزهر
+      من سنة ١٣٨٣ إلى ١٣٨٨ هـ (١٩٦٤-١٩٦٩ ميلادي) — بلندن
+      يوم ١١ ذي الحجة سنة ١٤٠٥ هـ (الموافق ٢٨ أوت ١٩٨٥
+      ميلادي) في رحلة علاجية، ودفن بالقاهرة. وقد ناهز الثامنة
+      والسبعين. وله مصنفات في الفلسفة الإسلامية والتصوف
+      والحوار الديني، وكان عضواً في مجمع اللغة العربية
+      بالقاهرة وفي عدد من الهيئات الأكاديمية. وكان قد انتمى
+      في صدر شبابه إلى مكتب الإرشاد بالإخوان المسلمين ونظم
+      نشيدها الأول بطلب من المؤسس، لكنه استقال من التنظيم
+      سنة ١٣٧١ هـ (١٩٥٢ ميلادي) عند قبوله الوزارة؛ ومنذئذ
+      كانت سيرته سيرة عالم أزهري في مؤسسات الدولة وفي
+      التربية.
+    description_fr: |
+      Aḥmad Ḥasan al-Bāqūrī — savant sunnite azharī égyptien
+      et homme d'État, né dans le village de Bāqūr, dans le
+      gouvernorat d'Asyūṭ, diplômé d'al-Azhar, ministre des
+      *awqāf* (fondations religieuses) d'Égypte du 8
+      septembre 1951 au 24 octobre 1959, et directeur de
+      l'Université al-Azhar de 1383 à 1388 H (1964-1969 EC)
+      — mourut à Londres le 11 Dhū al-Ḥijja 1405 H (28 août
+      1985 EC) en traitement médical, et fut enterré au
+      Caire. Il avait 78 ans. Il composa plusieurs ouvrages
+      de philosophie islamique, de *taṣawwuf* et d'engagement
+      interreligieux, et fut membre de l'Académie de la
+      langue arabe du Caire et d'autres organismes
+      académiques. Il avait été membre du bureau de guidance
+      des Frères musulmans en début de carrière et avait
+      composé un hymne à la demande de son fondateur, mais
+      démissionna de l'organisation en 1952 lorsqu'il accepta
+      son poste ministériel; dès lors sa carrière fut celle
+      d'un savant azharī d'État et d'un éducateur.
+    canonical_hijri: {year: 1405, month: 12, day: 11, precision: day}
+    canonical_gregorian: {date: 1985-08-28, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-hasan-al-baquri, subject]]
+    tags: [egypt, azhar, awqaf, asyut, london, cairo, twentieth-century]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%AD%D8%B3%D9%86_%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D9%88%D8%B1%D9%8A"

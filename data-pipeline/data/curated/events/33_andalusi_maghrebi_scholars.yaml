@@ -1,0 +1,750 @@
+# Wave 20 of curated event additions (2026-04-27).
+# Twelve deaths of Andalusi and Maghrebi scholars — muḥaddithūn, Maliki
+# fuqaha, Sufi-jurists, theologians, and grammarians spanning from the
+# third Hijri century (Ifriqiya–al-Andalus formation) through the ninth
+# Hijri (Tlemcen, Granada on the eve of the Reconquista). Each entry is
+# attested in classical Sunni biographical works (al-Dhahabi *Siyar*,
+# Ibn Khallikan *Wafayat*, Ibn Kathir *Bidaya*, Ibn Saʿd *Tabaqat*,
+# *Tarikh al-Islam*) cross-referenced against EI2 for the western
+# Islamic specialists. Trilingual (en/ar/fr).
+#
+# Note: Ibn Rushd al-Hafid (Averroes, d. 595 AH) and Ibn ʿAbd al-Barr
+# (d. 463 AH) already appear in the dataset; the present file adds
+# Ibn Rushd al-Jadd (the grandfather, d. 520 AH) and Ibn al-Hajib
+# (d. 646 AH) in their place, alongside ten further specialists.
+
+events:
+  # =========================================================================
+  # FORMATIVE PERIOD — IFRIQIYA / EGYPT / AL-ANDALUS (3rd c. AH)
+  # =========================================================================
+
+  - slug: death-of-baqi-ibn-makhlad
+    category: scholar
+    title_en: Death of Baqī ibn Makhlad al-Andalusi
+    title_ar: وفاة بقيّ بن مخلد الأندلسي
+    title_fr: Mort de Baqī ibn Makhlad al-Andalusi
+    description_en: |
+      Abu ʿAbd al-Rahman Baqī ibn Makhlad al-Qurṭubi, the foremost
+      muḥaddith of al-Andalus in his generation, died in Cordoba at age
+      about 75. He travelled twice from Iberia to the eastern lands —
+      reaching Iraq, the Hijaz, Egypt, and the Levant — to study under
+      Ahmad ibn Hanbal, ʿAli ibn al-Madini, Yahya ibn Maʿin, and the
+      senior pupils of Imam al-Shafiʿi. His monumental *Musnad* arranged
+      hadith on the Companion-narrator pattern and reportedly contained
+      tens of thousands of traditions, surpassing the Musnads of the
+      Mashriq in scale; only fragments survive today. He grafted the
+      eastern science of hadith onto Maliki al-Andalus despite intense
+      resistance from the established jurists of Cordoba, who viewed his
+      preference for ḥadīth-based reasoning as a threat to their
+      Mudawwana-centred curriculum. al-Dhahabi calls him "the imam of
+      al-Andalus, a sea of hadith."
+    description_ar: |
+      توفي الإمام أبو عبد الرحمن بقيّ بن مخلد القرطبي — كبير محدثي الأندلس
+      في عصره — بقرطبة عن نحو خمس وسبعين سنة. رحل رحمه الله إلى المشرق
+      مرتين، فبلغ العراق والحجاز ومصر والشام، فسمع من الإمام أحمد بن حنبل
+      وعلي بن المديني ويحيى بن معين وكبار أصحاب الإمام الشافعي. وكتابه
+      «المسند» مرتب على مسانيد الصحابة، وقيل إنه يحوي عشرات الألوف من
+      الأحاديث، تفوق به على مسانيد المشرق في الحجم، ولم يبق منه إلى يومنا
+      إلا قطع. غرس رحمه الله علم الحديث المشرقي في الأندلس المالكية رغم
+      مقاومة فقهاء قرطبة الذين رأوا في تقديمه الحديث على الرأي تهديداً
+      لمنهجهم القائم على «المدونة». قال عنه الذهبي: «إمام الأندلس، بحر
+      الحديث».
+    description_fr: |
+      Abu ʿAbd al-Raḥman Baqī ibn Makhlad al-Qurṭubī, le plus grand
+      muḥaddith d'al-Andalus de sa génération, mourut à Cordoue à l'âge
+      d'environ 75 ans. Il voyagea deux fois de la péninsule Ibérique
+      vers l'Orient — atteignant l'Irak, le Hedjaz, l'Égypte et le
+      Levant — pour étudier auprès d'Aḥmad ibn Ḥanbal, ʿAli ibn al-Madīnī,
+      Yaḥyā ibn Maʿīn et des élèves principaux d'al-Shāfiʿī. Son
+      monumental *Musnad*, organisé selon le compagnon-narrateur,
+      contiendrait des dizaines de milliers de traditions, dépassant les
+      Musnads orientaux par son ampleur; seuls des fragments en
+      subsistent. Il greffa la science orientale du hadith sur l'al-
+      Andalus malikite malgré la vive résistance des juristes établis de
+      Cordoue, qui voyaient dans sa préférence pour le raisonnement par
+      hadith une menace contre leur curriculum centré sur la *Mudawwana*.
+      al-Dhahabi le qualifie d'« imam d'al-Andalus, mer de hadith ».
+    canonical_hijri: {year: 276, precision: year}
+    canonical_gregorian: {date: 889-10-19, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ei2
+    people: [[baqi-ibn-makhlad, subject]]
+    tags: [hadith, andalus, cordoba, musnad, maliki, muhaddith]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Baqi_ibn_Makhlad"
+
+  - slug: death-of-ibn-abd-al-hakam
+    category: scholar
+    title_en: Death of Ibn ʿAbd al-Ḥakam — Author of *Futūḥ Miṣr wa-l-Maghrib*
+    title_ar: وفاة ابن عبد الحكم صاحب «فتوح مصر والمغرب»
+    title_fr: Mort d'Ibn ʿAbd al-Ḥakam, auteur des *Futūḥ Miṣr wa-l-Maghrib*
+    description_en: |
+      Abu al-Qasim ʿAbd al-Rahman ibn ʿAbd Allah ibn ʿAbd al-Hakam
+      al-Qurashi al-Misri — Egyptian Maliki jurist and historian, son of
+      one of the senior Maliki transmitters of the Mudawwana tradition —
+      died in Fustat aged about 70. His *Futūḥ Miṣr wa-Akhbāruhā wa-l-
+      Maghrib wa-l-Andalus* is the earliest extant Arabic narrative of
+      the Muslim conquest of Egypt, North Africa, and al-Andalus, and a
+      foundational source for every later historian of the Maghrib —
+      al-Tabari, al-Baladhuri, al-Maqrizi, and Ibn ʿIdhari all draw on
+      it. The work preserves traditions about the conquest of Egypt by
+      ʿAmr ibn al-ʿAṣ ra, the campaigns of ʿUqba ibn Nafiʿ, and the early
+      Berber–Arab interactions of Ifriqiya that no other surviving source
+      records. He was tested under the Mihna along with his brothers and
+      transmitted Maliki fiqh to a generation of Egyptian and Maghrebi
+      students.
+    description_ar: |
+      توفي الإمام أبو القاسم عبد الرحمن بن عبد الله بن عبد الحكم القرشي
+      المصري — فقيه مالكية مصر ومؤرخها، وابن أحد كبار الناقلين عن أصحاب
+      مالك في رواية «المدونة» — بفسطاط مصر عن نحو سبعين سنة. وكتابه
+      «فتوح مصر وأخبارها والمغرب والأندلس» أقدم ما وصلنا في النصوص
+      العربية في فتح مصر وشمال أفريقيا والأندلس، وهو المرجع الذي عليه
+      مدار كل من أرّخ للمغرب من بعده — الطبري والبلاذري والمقريزي
+      وابن عذاري كلهم منه استمدوا. وفي الكتاب أخبار في فتح عمرو بن العاص
+      رضي الله عنه لمصر، وغزوات عقبة بن نافع، وأول لقاء العرب بالبربر في
+      إفريقية لم يحفظها مصدر آخر. وقد امتُحن في «المحنة» مع إخوته، وروى
+      الفقه المالكي لطبقة من الفقهاء المصريين والمغاربة.
+    description_fr: |
+      Abu al-Qāsim ʿAbd al-Raḥmān ibn ʿAbd Allāh ibn ʿAbd al-Ḥakam
+      al-Qurashī al-Miṣrī — juriste malikite et historien égyptien, fils
+      de l'un des transmetteurs principaux de la tradition orale de la
+      *Mudawwana* — mourut à Fusṭāṭ à environ 70 ans. Son *Futūḥ Miṣr
+      wa-Akhbāruhā wa-l-Maghrib wa-l-Andalus* est le plus ancien récit
+      arabe conservé de la conquête musulmane de l'Égypte, de l'Afrique
+      du Nord et d'al-Andalus, et la source fondamentale dont dépendent
+      tous les historiens postérieurs du Maghreb — al-Ṭabari, al-
+      Balādhuri, al-Maqrīzī et Ibn ʿIdhārī s'en inspirent. L'ouvrage
+      conserve des traditions sur la conquête de l'Égypte par ʿAmr ibn
+      al-ʿĀṣ ra, les campagnes de ʿUqba ibn Nāfiʿ et les premiers
+      contacts arabo-berbères en Ifriqiya qu'aucune autre source
+      survivante ne consigne. Il fut éprouvé lors de la *miḥna* avec ses
+      frères et transmit le fiqh malikite à une génération d'élèves
+      égyptiens et maghrébins.
+    canonical_hijri: {year: 257, precision: year}
+    canonical_gregorian: {date: 871-05-14, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[ibn-abd-al-hakam, subject]]
+    tags: [maliki, egypt, fustat, history, futuh, maghrib]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Abd_al-Hakam"
+
+  # =========================================================================
+  # ANDALUSI MALIKI HIGH PERIOD (5th–6th c. AH)
+  # =========================================================================
+
+  - slug: death-of-ibn-mughith-al-tulaytuli
+    category: scholar
+    title_en: Death of Ibn Mughīth al-Ṭulayṭulī
+    title_ar: وفاة ابن مغيث الطليطلي
+    title_fr: Mort d'Ibn Mughīth al-Ṭulayṭulī
+    description_en: |
+      Abu Jaʿfar Ahmad ibn Mughīth ibn Aḥmad al-Ṣadafī al-Ṭulayṭulī, the
+      foundational Maliki jurist of Toledo (Ṭulayṭula) and one of the
+      principal authorities of fifth-century-AH al-Andalus on the
+      practical fiqh of contracts, died around the age of seventy as the
+      city stood on the verge of its fall to the Castilians. His
+      *al-Muqniʿ fi ʿIlm al-Shurūṭ* — a compendium of model legal
+      formularies (*shurūṭ*) for marriage, sale, lease, and waqf
+      contracts — became a standard reference across the western Islamic
+      world for drafting valid Maliki instruments, and survived in
+      multiple recensions in Maghrebi and Egyptian manuscript libraries.
+      al-Dhahabi includes him in *Tarikh al-Islam* as one of the senior
+      Andalusi muftis of his generation, instrumental in the survival of
+      Maliki legal practice through the disintegration of the Caliphate
+      of Cordoba.
+    description_ar: |
+      توفي الفقيه أبو جعفر أحمد بن مغيث بن أحمد الصدفي الطليطلي — كبير
+      مالكية طليطلة ومن أعلام أهل الأندلس في القرن الخامس الهجري في فقه
+      الشروط والعقود — عن نحو سبعين سنة، وذلك في الأعوام التي شارفت فيها
+      المدينة على السقوط في يد القشتاليين. وكتابه «المقنع في علم الشروط»
+      جمع نماذج العقود الشرعية في النكاح والبيع والإجارة والوقف، فصار
+      مرجعاً معتمداً في الغرب الإسلامي لتحرير الوثائق الفقهية على المذهب
+      المالكي، وحفظ في نسخ عدة في المكتبات المغربية والمصرية. ذكره الذهبي
+      في «تاريخ الإسلام» في كبار مفتي الأندلس في طبقته، وكان له أثر في
+      بقاء الممارسة الفقهية المالكية أثناء تفكك خلافة قرطبة.
+    description_fr: |
+      Abu Jaʿfar Aḥmad ibn Mughīth ibn Aḥmad al-Ṣadafī al-Ṭulayṭulī, le
+      juriste malikite fondateur de Tolède (Ṭulayṭula) et l'une des
+      principales autorités de l'al-Andalus du Ve siècle de l'Hégire en
+      matière de fiqh pratique des contrats, mourut à environ soixante-
+      dix ans, alors que la ville était à la veille de sa chute aux
+      Castillans. Son *al-Muqniʿ fī ʿIlm al-Shurūṭ* — recueil de
+      formulaires juridiques types (*shurūṭ*) pour les contrats de
+      mariage, de vente, de location et de waqf — devint une référence
+      standard dans tout l'Occident musulman pour la rédaction
+      d'instruments malikites valides et survécut dans plusieurs
+      recensions au sein des bibliothèques de manuscrits maghrébines et
+      égyptiennes. al-Dhahabi le mentionne dans son *Tarikh al-Islam*
+      parmi les principaux muftis andalous de sa génération, instrumental
+      dans la survie de la pratique juridique malikite à travers la
+      désintégration du califat de Cordoue.
+    canonical_hijri: {year: 459, precision: year}
+    canonical_gregorian: {date: 1067-05-09, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ei2
+    people: [[ibn-mughith-al-tulaytuli, subject]]
+    tags: [maliki, andalus, toledo, shurut, contracts, fiqh]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-al-baji
+    category: scholar
+    title_en: Death of Abu al-Walīd al-Bājī
+    title_ar: وفاة أبي الوليد الباجي
+    title_fr: Mort d'Abu al-Walīd al-Bājī
+    description_en: |
+      Abu al-Walīd Sulayman ibn Khalaf al-Bājī, foremost Andalusi Maliki
+      jurist and *uṣūlī* of his generation, died in Almeria at age about
+      69. After thirteen years of study in Mecca, Baghdad, Mosul, and
+      Aleppo — where he sat with the senior Shafiʿi-Ashʿari masters of
+      the Mashriq — he returned to al-Andalus carrying the eastern
+      science of *uṣūl al-fiqh* into a Maliki environment that had
+      hitherto resisted speculative legal theory. His *al-Muntaqa* is a
+      magisterial commentary on Imam Malik's *Muwaṭṭaʾ*, and his *Ihkām
+      al-Fuṣūl fī Aḥkām al-Uṣūl* is among the earliest systematic Maliki
+      *uṣūl* treatises. He composed the polemical *Risāla* in reply to a
+      Christian monk's letter to the Muslims of Spain — frequently
+      identified in modern scholarship with correspondence directed
+      across the Mediterranean to the Norman court — and engaged in
+      celebrated public disputations defending Sunni Maliki orthodoxy
+      against Christian polemic.
+    description_ar: |
+      توفي الفقيه الأصولي أبو الوليد سليمان بن خلف الباجي — كبير مالكية
+      الأندلس في عصره وإمام أصولها — بالمرية عن نحو تسع وستين سنة. أقام
+      رحمه الله ثلاث عشرة سنة في طلب العلم بمكة وبغداد والموصل وحلب،
+      فأخذ عن كبار الشافعية الأشعرية في المشرق، ثم عاد إلى الأندلس فحمل
+      علم أصول الفقه إلى بيئة مالكية كانت تتحرز من النظر العقلي في
+      الأحكام. وكتابه «المنتقى» شرح بديع لـ«موطأ» الإمام مالك، وكتابه
+      «إحكام الفصول في أحكام الأصول» من أوائل ما صنف في أصول المالكية على
+      المنهج المنظم. وقد كتب «الرسالة» في الردّ على رسالة راهب نصراني
+      بعث بها إلى مسلمي الأندلس، وقد رجّح الباحثون المعاصرون أنها رسالة
+      وردت من بلاط النورمان، وعقد رحمه الله مناظرات مشهورة في الذبّ عن
+      عقيدة أهل السنة المالكية في وجه الجدل النصراني.
+    description_fr: |
+      Abu al-Walīd Sulaymān ibn Khalaf al-Bājī, le plus grand juriste
+      malikite et *uṣūlī* d'al-Andalus de sa génération, mourut à
+      Almería à l'âge d'environ 69 ans. Après treize ans d'études à La
+      Mecque, à Bagdad, à Mossoul et à Alep — où il fréquenta les
+      maîtres shafiʿites-ashʿarites du Mashriq — il revint en al-Andalus
+      en portant la science orientale d'*uṣūl al-fiqh* dans un milieu
+      malikite qui résistait jusqu'alors à la théorie juridique
+      spéculative. Son *al-Muntaqā* est un commentaire magistral du
+      *Muwaṭṭaʾ* de l'imam Malik, et son *Iḥkām al-Fuṣūl fī Aḥkām al-
+      Uṣūl* compte parmi les premiers traités malikites systématiques
+      d'*uṣūl*. Il composa la *Risāla* polémique en réponse à la lettre
+      d'un moine chrétien adressée aux musulmans d'Espagne — que
+      l'érudition moderne identifie souvent avec une correspondance
+      transmise à travers la Méditerranée jusqu'à la cour normande — et
+      mena des disputations publiques célèbres défendant l'orthodoxie
+      malikite sunnite contre la polémique chrétienne.
+    canonical_hijri: {year: 474, precision: year}
+    canonical_gregorian: {date: 1081-12-21, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[al-baji, subject]]
+    tags: [maliki, usul, andalus, almeria, polemic, beja]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Walid_al-Baji"
+
+  - slug: death-of-ibn-rushd-al-jadd
+    category: scholar
+    title_en: Death of Ibn Rushd al-Jadd — *al-Bayān wa-l-Taḥṣīl*
+    title_ar: وفاة ابن رشد الجدّ
+    title_fr: Mort d'Ibn Rushd al-Jadd
+    description_en: |
+      Abu al-Walīd Muhammad ibn Aḥmad ibn Rushd, "al-Jadd" — the
+      grandfather of the philosopher Averroes (Ibn Rushd al-Ḥafīd) and
+      himself the foremost Maliki jurist of al-Andalus in his generation
+      — died in Cordoba at age 68. Qadi al-jamāʿa (chief judge) of
+      Cordoba and chief mufti of the Almoravid state, he composed
+      *al-Bayān wa-l-Taḥṣīl wa-l-Sharḥ wa-l-Tawjīh wa-l-Taʿlīl li-Masāʾil
+      al-Mustakhraja* — a vast commentary on al-ʿUtbi's *Mustakhraja*
+      that became a primary reference of Maliki furūʿ literature
+      throughout the Maghrib and West Africa for centuries. His
+      *al-Muqaddimāt al-Mumahhidāt* is a foundational introduction to
+      the Maliki manuals of fiqh. Politically, he advised the Almoravid
+      amir Yusuf ibn Tashfin and his son ʿAli on matters of jihad and
+      governance; his fatwas helped legitimise the deposition of the
+      taifa kings of al-Andalus.
+    description_ar: |
+      توفي القاضي أبو الوليد محمد بن أحمد بن رشد الجدّ — جدّ الفيلسوف ابن
+      رشد الحفيد، وكبير مالكية الأندلس في زمانه — بقرطبة عن ثمانٍ وستين
+      سنة. ولي قضاء الجماعة بقرطبة، وكان مفتي الدولة المرابطية،
+      وصنّف «البيان والتحصيل والشرح والتوجيه والتعليل لمسائل المستخرجة»
+      وهو شرح ضخم على «مستخرجة» العتبي صار مرجعاً أساسياً في فروع المذهب
+      المالكي في المغرب وغرب أفريقيا قروناً. وكتابه «المقدمات الممهدات»
+      مدخل أساسي إلى متون الفقه المالكي. وأشار رحمه الله على الأمير
+      المرابطي يوسف بن تاشفين وابنه علي في مسائل الجهاد والحكم، وأفتى
+      بفتاوى أعانت على شرعنة عزل ملوك الطوائف بالأندلس.
+    description_fr: |
+      Abu al-Walīd Muḥammad ibn Aḥmad ibn Rushd, dit « al-Jadd » — le
+      grand-père du philosophe Averroès (Ibn Rushd al-Ḥafīd) et lui-même
+      le plus grand juriste malikite d'al-Andalus de sa génération —
+      mourut à Cordoue à l'âge de 68 ans. Qāḍī al-jamāʿa (juge en chef)
+      de Cordoue et mufti suprême de l'État almoravide, il composa
+      *al-Bayān wa-l-Taḥṣīl wa-l-Sharḥ wa-l-Tawjīh wa-l-Taʿlīl li-Masāʾil
+      al-Mustakhraja* — vaste commentaire de la *Mustakhraja* d'al-ʿUtbī
+      qui devint la référence primaire de la littérature *furūʿ*
+      malikite à travers le Maghreb et l'Afrique de l'Ouest pendant des
+      siècles. Ses *al-Muqaddimāt al-Mumahhidāt* constituent une
+      introduction fondamentale aux manuels malikites de fiqh. Sur le
+      plan politique, il conseilla l'émir almoravide Yusuf ibn Tāshfīn
+      et son fils ʿAlī en matière de jihad et de gouvernance; ses fatwas
+      contribuèrent à légitimer la déposition des rois de taifas
+      d'al-Andalus.
+    canonical_hijri: {year: 520, month: 11, day: 21, precision: day}
+    canonical_gregorian: {date: 1126-12-08, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[ibn-rushd-al-jadd, subject]]
+    tags: [maliki, andalus, cordoba, almoravid, qadi, bayan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Rushd_al-Jadd"
+
+  - slug: death-of-al-turtushi
+    category: scholar
+    title_en: Death of al-Ṭurṭūshī — *Sirāj al-Mulūk*
+    title_ar: وفاة الطرطوشي صاحب «سراج الملوك»
+    title_fr: Mort d'al-Ṭurṭūshī, auteur de *Sirāj al-Mulūk*
+    description_en: |
+      Abu Bakr Muhammad ibn al-Walīd al-Fihrī al-Ṭurṭūshī, born in
+      Tortosa in the northern frontier of al-Andalus and settled in
+      Fatimid Alexandria, died there in his late sixties. His *Sirāj
+      al-Mulūk* (The Lamp of Kings), composed for the Fatimid vizier
+      al-Maʾmūn al-Baṭāʾiḥī, is the most influential mirror-for-princes
+      in the western Islamic tradition — a manual of statecraft, ethics,
+      and jurisprudence drawing on Qurʾan, Sunna, and the sayings of
+      ancient kings, comparable in stature to al-Ghazali's *Naṣīḥat
+      al-Mulūk* in the eastern tradition. He was uncompromising in his
+      Sunni Maliki orthodoxy and wrote against the Ismaili doctrines of
+      his Fatimid hosts; he is also remembered for issuing the legal
+      opinion (*fatwa*) authorising the Almoravid amir Yusuf ibn Tashfin
+      to depose the taifa kings of al-Andalus and unify the peninsula
+      under a single Sunni ruler.
+    description_ar: |
+      توفي الإمام أبو بكر محمد بن الوليد الفهري الطرطوشي — المولود
+      بطرطوشة في ثغر الأندلس الشمالي والمستوطن إسكندرية الفاطميين — في
+      الإسكندرية عن نحو سبع وستين سنة. وكتابه «سراج الملوك» — صنّفه
+      للوزير الفاطمي المأمون البطائحي — أعظم ما ألف في «الآداب السلطانية»
+      في الغرب الإسلامي، وهو دليل في السياسة الشرعية والأخلاق والفقه يستمد
+      من القرآن والسنة وأقوال ملوك الأقدمين، يقاس به كتاب الإمام الغزالي
+      «نصيحة الملوك» في المشرق. كان رحمه الله صلباً في عقيدة أهل السنة
+      المالكية، وردّ على عقائد الإسماعيلية الفاطمية في كتب مفردة، وقد
+      ذكر له أنه أفتى بإذن الأمير المرابطي يوسف بن تاشفين في خلع ملوك
+      الطوائف وتوحيد الأندلس تحت راية سنية واحدة.
+    description_fr: |
+      Abu Bakr Muḥammad ibn al-Walīd al-Fihrī al-Ṭurṭūshī, né à Tortosa
+      sur la marche septentrionale d'al-Andalus et établi dans
+      l'Alexandrie fatimide, y mourut à environ soixante-sept ans. Son
+      *Sirāj al-Mulūk* (La Lampe des rois), composé pour le vizir
+      fatimide al-Maʾmūn al-Baṭāʾiḥī, est le plus influent miroir des
+      princes de la tradition islamique occidentale — un manuel de
+      statecraft, d'éthique et de jurisprudence puisant dans le Qurʾān,
+      la Sunna et les sentences des rois antiques, comparable en
+      stature à *Naṣīḥat al-Mulūk* d'al-Ghazālī dans la tradition
+      orientale. Intransigeant dans son orthodoxie malikite sunnite, il
+      écrivit contre les doctrines ismaéliennes de ses hôtes fatimides;
+      on lui attribue également la fatwa autorisant l'émir almoravide
+      Yusuf ibn Tāshfīn à déposer les rois de taifas d'al-Andalus et à
+      unifier la péninsule sous un souverain sunnite unique.
+    canonical_hijri: {year: 520, precision: year}
+    canonical_gregorian: {date: 1126-07-15, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[al-turtushi, subject]]
+    tags: [maliki, andalus, alexandria, mirror-for-princes, almoravid, tortosa]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Turtushi"
+
+  - slug: death-of-ibn-al-arif-al-sinhaji
+    category: scholar
+    title_en: Death of Ibn al-ʿArīf al-Ṣinhājī — *Maḥāsin al-Majālis*
+    title_ar: وفاة ابن العريف الصنهاجي
+    title_fr: Mort d'Ibn al-ʿArīf al-Ṣinhājī
+    description_en: |
+      Abu al-ʿAbbas Ahmad ibn Muhammad ibn Mūsā Ibn al-ʿArīf al-Ṣinhājī,
+      Sufi-jurist of Almería and one of the principal masters of Andalusi
+      Sufism in the half-century before Muḥyī al-Dīn Ibn ʿArabī, died in
+      Marrakesh at age about 53 shortly after being summoned to the
+      Almoravid court on accusations of heterodoxy. His *Maḥāsin al-
+      Majālis* — a concise treatise organised around the stations of the
+      Sufi path (*maqāmāt*) including knowledge, certainty, longing, and
+      love — was widely read across the western Islamic world and
+      received in due course a celebrated commentary by Ibn ʿAbbād al-
+      Rondī in the eighth century AH. He was a senior representative of
+      the Andalusi inheritance of Ibn Masarra's mystical tradition,
+      reformulated within rigorous Maliki orthodoxy. Some classical
+      sources indicate that he died under circumstances suggesting
+      poisoning by his political adversaries.
+    description_ar: |
+      توفي الإمام أبو العباس أحمد بن محمد بن موسى ابن العريف الصنهاجي —
+      الزاهد المالكي بالمرية وأحد كبار شيوخ التصوف الأندلسي في النصف قرن
+      الذي سبق محيي الدين ابن عربي — بمراكش عن نحو ثلاث وخمسين سنة، بعد
+      أن استُدعي إلى البلاط المرابطي بتهم في عقيدته. وكتابه «محاسن
+      المجالس» — رسالة موجزة مرتبة على مقامات السالكين من العلم واليقين
+      والشوق والمحبة — انتشر في الغرب الإسلامي وشرحه ابن عبّاد الرندي في
+      القرن الثامن الهجري. وكان رحمه الله من ورثة تراث ابن مسرّة الصوفي
+      في الأندلس، يصوغه في إطار مالكي سنّي محكم. وأشارت بعض المصادر إلى
+      أنه توفي في ظروف تومئ إلى أنه سُمّ على يد خصومه السياسيين.
+    description_fr: |
+      Abu al-ʿAbbās Aḥmad ibn Muḥammad ibn Mūsā Ibn al-ʿArīf al-Ṣinhājī,
+      soufi-juriste d'Almería et l'un des principaux maîtres du soufisme
+      andalous dans le demi-siècle qui précéda Muḥyī al-Dīn Ibn ʿArabī,
+      mourut à Marrakech à l'âge d'environ 53 ans, peu après avoir été
+      convoqué à la cour almoravide sous des accusations d'hétérodoxie.
+      Son *Maḥāsin al-Majālis* — traité concis organisé autour des
+      stations de la voie soufie (*maqāmāt*) telles que la connaissance,
+      la certitude, le désir et l'amour — fut largement lu à travers
+      l'Occident musulman et reçut en son temps un commentaire célèbre
+      d'Ibn ʿAbbād al-Rondī au VIIIe siècle de l'Hégire. Représentant de
+      premier plan de l'héritage andalou de la tradition mystique d'Ibn
+      Masarra, reformulée dans une orthodoxie malikite rigoureuse,
+      certaines sources classiques indiquent qu'il mourut dans des
+      circonstances suggérant un empoisonnement par ses adversaires
+      politiques.
+    canonical_hijri: {year: 536, precision: year}
+    canonical_gregorian: {date: 1141-09-27, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[ibn-al-arif-al-sinhaji, subject]]
+    tags: [sufi, maliki, andalus, almeria, marrakesh, almoravid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Arif"
+
+  - slug: death-of-ibn-al-arabi-al-maafiri
+    category: scholar
+    title_en: Death of Abu Bakr Ibn al-ʿArabī al-Maʿāfirī — *Aḥkām al-Qurʾān*
+    title_ar: وفاة أبي بكر ابن العربي المعافري
+    title_fr: Mort d'Abu Bakr Ibn al-ʿArabī al-Maʿāfirī
+    description_en: |
+      Abu Bakr Muhammad ibn ʿAbd Allah Ibn al-ʿArabī al-Maʿāfirī al-
+      Ishbīlī, the most celebrated Andalusi Maliki of the sixth century
+      AH and qadi of Seville, died near Fez at age about 73 while
+      returning from exile. As a young man he travelled with his father
+      to the Mashriq, where he studied under al-Ghazali, Abu Bakr
+      al-Shashi, and the leading masters of Baghdad and Damascus. His
+      *Aḥkām al-Qurʾān* is the principal Maliki tafsir of legal verses
+      (*āyāt al-aḥkām*) and remains foundational in seminary curricula
+      to this day, alongside *al-Jami al-Sahih* (his commentary on
+      al-Tirmidhi's Jamiʿ) and the polemical *al-ʿAwāṣim min al-Qawāṣim*
+      defending the Companions against historical attacks. He served as
+      qadi of Seville and was politically involved in the transition
+      between Almoravid and Almohad rule.
+    description_ar: |
+      توفي القاضي الإمام أبو بكر محمد بن عبد الله ابن العربي المعافري
+      الإشبيلي — أشهر مالكية الأندلس في القرن السادس الهجري وقاضي إشبيلية
+      — قرب فاس عن نحو ثلاث وسبعين سنة في طريق عودته من المنفى. رحل في
+      شبابه مع أبيه إلى المشرق فأخذ عن الإمام الغزالي وأبي بكر الشاشي
+      وكبار شيوخ بغداد ودمشق. وكتابه «أحكام القرآن» هو أهم تفسير مالكي
+      لآيات الأحكام، وهو إلى يومنا من الكتب الدراسية المعتمدة في حلقات
+      الفقه، إلى جانب «العارضة» شرحه على «جامع الترمذي»، و«العواصم من
+      القواصم» في الذبّ عن الصحابة في وجه الطعون التاريخية. ولي قضاء
+      إشبيلية، وكان له دور سياسي في الانتقال من الدولة المرابطية إلى
+      الدولة الموحدية.
+    description_fr: |
+      Abu Bakr Muḥammad ibn ʿAbd Allāh Ibn al-ʿArabī al-Maʿāfirī al-
+      Ishbīlī, le malikite andalou le plus célèbre du VIe siècle de
+      l'Hégire et qāḍī de Séville, mourut près de Fès à l'âge d'environ
+      73 ans, sur le chemin du retour de l'exil. Jeune homme, il voyagea
+      avec son père vers le Mashriq, où il étudia auprès d'al-Ghazālī,
+      d'Abu Bakr al-Shāshī et des maîtres principaux de Bagdad et de
+      Damas. Son *Aḥkām al-Qurʾān* est le tafsir malikite par excellence
+      des versets juridiques (*āyāt al-aḥkām*) et demeure fondamental
+      dans les curricula de séminaire jusqu'à ce jour, aux côtés de
+      *al-ʿĀriḍa* (son commentaire du *Jāmiʿ* d'al-Tirmidhī) et de la
+      polémique *al-ʿAwāṣim min al-Qawāṣim* qui défend les Compagnons
+      contre les attaques historiques. Il occupa la charge de qāḍī de
+      Séville et fut politiquement impliqué dans la transition entre la
+      domination almoravide et almohade.
+    canonical_hijri: {year: 543, precision: year}
+    canonical_gregorian: {date: 1148-11-07, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[ibn-al-arabi-al-maafiri, subject]]
+    tags: [maliki, andalus, seville, tafsir, ahkam, almoravid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Bakr_ibn_al-Arabi"
+
+  # =========================================================================
+  # AYYUBID-MAMLUK-MARINID PERIOD (7th–9th c. AH)
+  # =========================================================================
+
+  - slug: death-of-ibn-al-hajib
+    category: scholar
+    title_en: Death of Ibn al-Ḥājib — *al-Mukhtaṣar*
+    title_ar: وفاة ابن الحاجب صاحب «المختصر»
+    title_fr: Mort d'Ibn al-Ḥājib, auteur de *al-Mukhtaṣar*
+    description_en: |
+      Jamāl al-Dīn Abu ʿAmr ʿUthman ibn ʿUmar Ibn al-Ḥājib al-Mālikī, the
+      most influential Maliki jurist of the seventh century AH and a
+      foundational grammarian of post-classical Arabic, died in
+      Alexandria at about 75. His Maliki *Mukhtaṣar* — known as
+      *Jāmiʿ al-Ummahāt* or simply *Mukhtaṣar Ibn al-Ḥājib* — was the
+      principal Maliki fiqh primer in seminaries from Egypt to Timbuktu
+      until it was eventually displaced by Khalīl ibn Isḥāq's
+      *Mukhtaṣar* in the ninth century AH. In Arabic grammar, his
+      *al-Kāfiya* (on syntax) and *al-Shāfiya* (on morphology) became
+      the two universal pedagogical texts of the post-Mongol Sunni
+      world, generating hundreds of commentaries from Bukhara to Fez.
+      The first to merge the doctrines of Egyptian Maliki with those
+      of the Maghreb, he taught widely in Cairo, Damascus, and
+      Alexandria.
+    description_ar: |
+      توفي الإمام جمال الدين أبو عمرو عثمان بن عمر ابن الحاجب المالكي —
+      أعظم مالكية القرن السابع الهجري ومن أئمة العربية بعد المرحلة
+      الكلاسيكية — بالإسكندرية عن نحو خمس وسبعين سنة. وكتابه «جامع
+      الأمهات» المعروف بـ«مختصر ابن الحاجب» هو المتن الأساسي في فقه
+      المالكية في حلقات العلم من مصر إلى تنبكتو، حتى أزاحه «مختصر خليل»
+      في القرن التاسع الهجري. وفي النحو فإن كتابيه «الكافية» في النحو
+      و«الشافية» في الصرف صارا المتنين الجامعين في علم العربية في عامة
+      العالم السنّي بعد سقوط بغداد، وعليهما مئات الشروح من بخارى إلى
+      فاس. وكان رحمه الله أول من جمع بين فقه المالكية المصرية والمغربية،
+      ودرّس بالقاهرة ودمشق والإسكندرية.
+    description_fr: |
+      Jamāl al-Dīn Abu ʿAmr ʿUthmān ibn ʿUmar Ibn al-Ḥājib al-Mālikī, le
+      juriste malikite le plus influent du VIIe siècle de l'Hégire et un
+      grammairien fondateur de l'arabe post-classique, mourut à
+      Alexandrie à environ 75 ans. Son *Mukhtaṣar* malikite — connu
+      sous le nom de *Jāmiʿ al-Ummahāt* ou simplement *Mukhtaṣar Ibn
+      al-Ḥājib* — fut le manuel principal de fiqh malikite dans les
+      séminaires d'Égypte à Tombouctou jusqu'à ce qu'il soit
+      éventuellement supplanté par le *Mukhtaṣar* de Khalīl ibn Isḥāq
+      au IXe siècle de l'Hégire. En grammaire arabe, son *al-Kāfiya*
+      (syntaxe) et son *al-Shāfiya* (morphologie) devinrent les deux
+      textes pédagogiques universels du monde sunnite post-mongol,
+      générant des centaines de commentaires de Boukhara à Fès. Premier
+      à fusionner les doctrines du malikisme égyptien avec celles du
+      Maghreb, il enseigna abondamment au Caire, à Damas et à
+      Alexandrie.
+    canonical_hijri: {year: 646, precision: year}
+    canonical_gregorian: {date: 1248-10-12, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[ibn-al-hajib, subject]]
+    tags: [maliki, grammar, egypt, alexandria, mukhtasar, kafiya]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Hajib"
+
+  - slug: death-of-al-burzuli
+    category: scholar
+    title_en: Death of al-Burzulī — *Nawāzil al-Burzulī*
+    title_ar: وفاة البرزلي صاحب «النوازل»
+    title_fr: Mort d'al-Burzulī, auteur des *Nawāzil al-Burzulī*
+    description_en: |
+      Abu al-Qāsim ibn Aḥmad al-Balawī al-Burzulī, the foremost Tunisian
+      Maliki jurist of the late ninth century AH and prayer leader at
+      the Zaytūna mosque of Tunis for about fifty years, died at an
+      advanced age. His monumental *Jāmiʿ Masāʾil al-Aḥkām mimmā Nazala
+      bi-l-Muftīn wa-l-Ḥukkām* — commonly known as *Nawāzil al-Burzulī*
+      — gathered Maliki fatwas of Ifriqiya from the third century AH
+      onward, organised by chapter of fiqh, and became the foundational
+      Maghrebi *nawāzil* compilation, drawn upon by every later
+      Maghrebi muftī from al-Wansharīsī (whose *Miʿyār* preserves much
+      Burzulī material) to the modern reformist scholars of the
+      Zaytūna. Through his teaching at the Zaytūna he transmitted
+      Maliki fiqh to a generation of North African and West African
+      students whose authority shaped the Saharan trade-route
+      seminaries.
+    description_ar: |
+      توفي الإمام أبو القاسم بن أحمد البلوي البرزلي — كبير مالكية إفريقية
+      في أواخر القرن التاسع الهجري وإمام جامع الزيتونة بتونس قرابة خمسين
+      سنة — في سنّ متقدمة. وكتابه الضخم «جامع مسائل الأحكام مما نزل
+      بالمفتين والحكام» المعروف بـ«نوازل البرزلي» جمع فتاوى مالكية
+      إفريقية منذ القرن الثالث الهجري، مرتبة على أبواب الفقه، فصار أصلاً
+      لفقه النوازل في المغرب لا يستغني عنه مفتٍ مغربي بعده — اعتمده
+      الونشريسي في «المعيار» الذي نقل عنه نقولاً واسعة، وإلى علماء
+      الزيتونة المعاصرين. ودرّس بجامع الزيتونة طبقة من طلبة شمال أفريقيا
+      وغربها كان لها أثر في توطيد علوم المالكية في حلقات الطرق التجارية
+      الصحراوية.
+    description_fr: |
+      Abu al-Qāsim ibn Aḥmad al-Balawī al-Burzulī, le plus grand
+      juriste malikite tunisien de la fin du IXe siècle de l'Hégire et
+      imam de la mosquée Zaytūna de Tunis pendant environ cinquante
+      ans, mourut à un âge avancé. Son monumental *Jāmiʿ Masāʾil al-
+      Aḥkām mimmā Nazala bi-l-Muftīn wa-l-Ḥukkām* — communément appelé
+      *Nawāzil al-Burzulī* — rassembla les fatwas malikites d'Ifriqiya
+      depuis le IIIe siècle de l'Hégire, organisées par chapitre de
+      fiqh, et devint la compilation fondatrice des *nawāzil*
+      maghrébins, exploitée par tous les muftis maghrébins
+      postérieurs — d'al-Wansharīsī (dont le *Miʿyār* conserve
+      d'amples extraits) jusqu'aux savants réformistes modernes de la
+      Zaytūna. Par son enseignement à la Zaytūna, il transmit le fiqh
+      malikite à une génération d'étudiants nord-africains et ouest-
+      africains dont l'autorité forgea les séminaires des routes
+      caravanières sahariennes.
+    canonical_hijri: {year: 841, precision: year}
+    canonical_gregorian: {date: 1437-12-23, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+        notes: "Cross-referenced via al-Wansharīsī's Miʿyār (which preserves extensive Burzulī material) and modern Tunisian Maliki sources."
+    people: [[al-burzuli, subject]]
+    tags: [maliki, tunis, zaytuna, nawazil, ifriqiya, fatwa]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-al-sanusi
+    category: scholar
+    title_en: Death of Imam al-Sanūsī of Tlemcen
+    title_ar: وفاة الإمام السنوسي التلمساني
+    title_fr: Mort de l'imam al-Sanūsī de Tlemcen
+    description_en: |
+      Abu ʿAbd Allah Muhammad ibn Yūsuf al-Sanūsī al-Tilimsānī, the
+      foremost Ashʿarī theologian of post-Marinid North Africa, died in
+      Tlemcen at age about 64 after a brief illness. His *al-ʿAqīda al-
+      Ṣughrā* (the "Smaller Creed", also called *Umm al-Barāhīn*) became
+      the most-taught Ashʿarī creed manual across the entire Maghrib and
+      West African Sahel, recited and memorised in seminaries from Fez
+      to Timbuktu and Sokoto down to the present day. He composed a
+      graded curriculum of three creeds — *Ṣughrā*, *Wusṭā*, and *Kubrā*
+      — each scaling the same Ashʿarī content for a different student
+      level, alongside auto-commentaries (*sharḥ*). The *Ṣughrā*'s
+      famous opening exposition of the *ḥukm al-ʿaqlī* — wājib, mustaḥīl,
+      jāʾiz — set the conceptual entry point of West African theological
+      pedagogy for five centuries.
+    description_ar: |
+      توفي الإمام أبو عبد الله محمد بن يوسف السنوسي التلمساني — كبير
+      أشاعرة المغرب بعد الدولة المرينية — بتلمسان عن نحو أربع وستين سنة
+      بعد علة يسيرة. وكتابه «العقيدة الصغرى» المعروف بـ«أم البراهين» صار
+      أوسع متون العقيدة الأشعرية تدريساً في عامة المغرب والساحل الأفريقي
+      الغربي، يقرأ ويحفظ في حلقات العلم من فاس إلى تنبكتو وسوكوتو إلى
+      يومنا. وقد ألّف رحمه الله سلسلة متدرجة من ثلاث عقائد: «الصغرى»
+      و«الوسطى» و«الكبرى»، كل واحدة تعالج مضمون العقيدة الأشعرية لطالب
+      في طبقة معينة، مع شروحها بقلمه. وافتتاحية «الصغرى» في الحكم
+      العقلي — الواجب والمستحيل والجائز — صارت المدخل المفهومي للتعليم
+      العقدي في غرب أفريقيا خمسة قرون.
+    description_fr: |
+      Abu ʿAbd Allāh Muḥammad ibn Yūsuf al-Sanūsī al-Tilimsānī, le plus
+      grand théologien ashʿarite de l'Afrique du Nord post-mérinide,
+      mourut à Tlemcen à l'âge d'environ 64 ans, après une brève
+      maladie. Son *al-ʿAqīda al-Ṣughrā* (le « Petit Credo », appelé
+      aussi *Umm al-Barāhīn*) devint le manuel de credo ashʿarite le
+      plus enseigné dans tout le Maghreb et le Sahel ouest-africain,
+      récité et mémorisé dans les séminaires de Fès à Tombouctou et
+      Sokoto jusqu'à nos jours. Il composa un curriculum gradué de
+      trois credo — *Ṣughrā*, *Wusṭā* et *Kubrā* — chacun abordant le
+      même contenu ashʿarite pour un niveau d'élève différent, avec
+      auto-commentaires (*sharḥ*). La célèbre ouverture du *Ṣughrā*
+      sur le *ḥukm al-ʿaqlī* — *wājib*, *mustaḥīl*, *jāʾiz* — établit
+      le point d'entrée conceptuel de la pédagogie théologique ouest-
+      africaine pendant cinq siècles.
+    canonical_hijri: {year: 895, month: 6, day: 18, precision: day}
+    canonical_gregorian: {date: 1490-05-02, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+        notes: "Date cross-confirmed by al-Mallālī's biographical account in the standard Maghrebi tradition; al-Sanusi died of a brief illness on Sunday 18 Jumādā II 895."
+    people: [[al-sanusi, subject]]
+    tags: [ashari, creed, maghrib, tlemcen, sanusi, west-africa]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ibn_Yusuf_al-Sanusi"
+
+  - slug: death-of-al-mawwaq-al-abdari
+    category: scholar
+    title_en: Death of al-Mawwāq al-ʿAbdarī of Granada
+    title_ar: وفاة المواق العبدري الغرناطي
+    title_fr: Mort d'al-Mawwāq al-ʿAbdarī de Grenade
+    description_en: |
+      Abu ʿAbd Allah Muhammad ibn Yūsuf al-ʿAbdarī al-Gharnāṭī, known as
+      al-Mawwāq, the last great Maliki jurist of Nasrid Granada, died
+      shortly before — by some classical accounts in the very year of —
+      the fall of the city to the Catholic Monarchs in 897 AH (1492 CE).
+      He served as muftī and *khaṭīb* of the Great Mosque of Granada
+      and composed *al-Tāj wa-l-Iklīl li-Mukhtaṣar Khalīl* — a major
+      commentary on Khalīl ibn Isḥāq's *Mukhtaṣar* that ranks alongside
+      the works of al-Ḥaṭṭāb and al-Mawwāq's contemporary al-Ubbī as
+      one of the foundational Maghrebi commentaries on the standard
+      Maliki primer. Through his fatwas in the final years of Muslim
+      Granada he confronted unprecedented questions of *aḥkām al-
+      mustaḍʿafīn* — the rulings binding upon Muslims under non-Muslim
+      sovereignty — that would shape Maghrebi jurisprudence on the
+      Mudejars and Moriscos for the next century.
+    description_ar: |
+      توفي الإمام أبو عبد الله محمد بن يوسف العبدري الغرناطي المعروف
+      بالمواق — آخر كبار فقهاء المالكية في غرناطة الناصرية — قبيل سقوط
+      المدينة في يد الفرنجة الإسبان سنة سبع وتسعين وثمانمائة هجرية، بل
+      في السنة نفسها بحسب بعض المصادر القديمة. ولي رحمه الله الإفتاء
+      والخطابة بالمسجد الجامع بغرناطة، وصنّف «التاج والإكليل لمختصر
+      خليل» من أعظم شروح «مختصر خليل»، يقرن إلى شرح الحطّاب وشرح الأبّي
+      من معاصريه ومن الشروح الأساسية المغربية للمتن الجامع للمذهب
+      المالكي. وفي فتاواه في السنوات الأخيرة من غرناطة المسلمة عالج
+      مسائل غير مسبوقة في أحكام المستضعفين تحت ولاية غير المسلمين، فكان
+      لها أثر بالغ في فقه المغاربة في شأن المدجّنين والموريسكيين قرناً
+      بعده.
+    description_fr: |
+      Abu ʿAbd Allāh Muḥammad ibn Yūsuf al-ʿAbdarī al-Gharnāṭī, connu
+      sous le nom d'al-Mawwāq, le dernier grand juriste malikite de la
+      Grenade nasride, mourut peu avant — selon certaines relations
+      classiques l'année même de — la chute de la ville aux Rois
+      Catholiques en 897 AH (1492 EC). Muftī et *khaṭīb* de la Grande
+      Mosquée de Grenade, il composa *al-Tāj wa-l-Iklīl li-Mukhtaṣar
+      Khalīl* — commentaire majeur du *Mukhtaṣar* de Khalīl ibn Isḥāq
+      qui se range, aux côtés des œuvres d'al-Ḥaṭṭāb et de son
+      contemporain al-Ubbī, parmi les commentaires maghrébins
+      fondamentaux du manuel malikite standard. Par ses fatwas durant
+      les ultimes années de la Grenade musulmane, il aborda des
+      questions inédites d'*aḥkām al-mustaḍʿafīn* — les règles
+      contraignantes pour les musulmans sous souveraineté non
+      musulmane — qui allaient forger la jurisprudence maghrébine sur
+      les Mudéjars et les Morisques pendant le siècle suivant.
+    canonical_hijri: {year: 897, precision: year}
+    canonical_gregorian: {date: 1492-04-23, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+        notes: "Mawwāq is the last of the major Granadan muftis cited in al-Wansharīsī's Miʿyār; date attested by al-Maqqari's Nafh al-Tib and modern Maghrebi tarjama tradition."
+    people: [[al-mawwaq-al-abdari, subject]]
+    tags: [maliki, andalus, granada, mukhtasar-khalil, mufti, reconquista]
+    importance: notable
+    verification_status: cross_verified

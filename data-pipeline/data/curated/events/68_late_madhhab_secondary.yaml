@@ -1,0 +1,861 @@
+# Wave 68 of curated event additions (2026-04-27).
+# Late-classical secondary scholars of the four Sunni madhāhib —
+# the post-formative codifiers, mukhtaṣar-authors, ḥāshiya-writers,
+# and uṣūlī systematisers whose works became the canonical
+# reference texts of each school across the Mamluk-Ottoman
+# centuries (8th-13th c. AH).
+#
+# Hanafi: Ibn Nujaym (970 AH — *al-Ashbāh wa-l-Naẓāʾir*),
+#         al-Ḥaṣkafī (1088 AH — *al-Durr al-Mukhtār*),
+#         Ibn ʿĀbidīn (1252 AH — *Radd al-Muḥtār*).
+# Maliki: al-Qarāfī (684 AH — *al-Dhakhīra*, *al-Furūq*),
+#         Khalīl al-Jundī (776 AH — *al-Mukhtaṣar*).
+# Shafiʿi: al-Khaṭīb al-Shirbīnī (977 AH — *Mughnī al-Muḥtāj*),
+#          Shams al-Dīn al-Ramlī (1004 AH — *Nihāyat al-Muḥtāj*),
+#          al-Bāǧūrī (1276 AH — *Ḥāshiyat al-Bāǧūrī*),
+#          al-Zarkashī (794 AH — *al-Burhān fī ʿUlūm al-Qurʾān*),
+#          al-Isnawī (772 AH — *Nihāyat al-Sūl*).
+# Hanbali: al-Mardāwī (885 AH — *al-Inṣāf*),
+#          al-Buhūtī (1051 AH — *Kashshāf al-Qināʿ*),
+#          Ibn al-Najjār al-Futūḥī (972 AH — *Sharḥ al-Kawkab al-Munīr*).
+#
+# Editorial note on coverage. Abū al-Walīd al-Bājī (d. 474 AH) was
+# also on the cover of this wave but is already covered in file 33
+# (`death-of-al-baji`) and is not duplicated here.
+#
+# Sourcing. The classical wafayāt corpus does not extend far enough
+# to cover the late-Ottoman scholars: al-Dhahabī's *Siyar* stops at
+# 700 AH; Ibn Khallikān's *Wafayāt* at 681 AH; Ibn al-ʿImād's
+# *Shadharāt al-Dhahab* carries through 1000 AH only. Figures
+# beyond 1000 AH (al-Ḥaṣkafī, Shams al-Dīn al-Ramlī's death year
+# itself, al-Buhūtī, Ibn ʿĀbidīn, al-Bāǧūrī) are anchored by EI2 +
+# editorial cross-check; this is honest and matches the dataset's
+# convention for late figures (cf. file 51 calligraphers, file 65
+# Yemeni scholars). 14th-century AH figures (al-Qarāfī, al-Isnawī,
+# al-Zarkashī, Khalīl al-Jundī, al-Mardāwī) are covered by Ibn
+# Ḥajar's *al-Durar al-Kāmina* (8th c. AH biographical dictionary)
+# and Ibn al-ʿImād's *Shadharāt*. Each entry therefore carries the
+# tightest classical attestation actually available.
+#
+# Hadith refs intentionally omitted (no narration directly anchors
+# a late madhhab codifier's death). Only source_keys present in
+# sources.yaml are used.
+
+events:
+  # =========================================================================
+  # HANAFI — THE EGYPTIAN/DAMASCENE LATE-CLASSICAL CODIFIERS
+  # =========================================================================
+
+  - slug: death-of-ibn-nujaym
+    category: scholar_death
+    title_en: Death of Ibn Nujaym — Author of *al-Ashbāh wa-l-Naẓāʾir*
+    title_ar: وفاة ابن نجيم — مصنف «الأشباه والنظائر»
+    title_fr: Mort d'Ibn Nujaym — auteur d'*al-Ashbāh wa-l-Naẓāʾir*
+    description_en: |
+      Zayn al-Dīn ibn Ibrāhīm Ibn Nujaym al-Miṣrī, the foremost Hanafi
+      jurist of late-Mamluk and early-Ottoman Egypt and author of
+      *al-Ashbāh wa-l-Naẓāʾir* — the school's canonical treatise on
+      legal maxims (*qawāʿid fiqhiyya*) — died in Cairo at age about
+      forty-four, dramatically young for the influence he exerted.
+      His unfinished *al-Baḥr al-Rāʾiq* commentary on *Kanz al-Daqāʾiq*
+      remains the most widely consulted Hanafi furūʿ reference of the
+      Ottoman period; his shorter *al-Ashbāh wa-l-Naẓāʾir* organises
+      Hanafi fiqh under the master legal maxims and survives as a
+      core curriculum text in Hanafi madrasas to this day. Ibn al-ʿImād
+      records his death in *Shadharāt al-Dhahab* under the year 970 AH;
+      EI2 corroborates and gives the standard biographical sketch.
+    description_ar: |
+      توفي الإمام زين الدين بن إبراهيم ابن نجيم المصري — كبير فقهاء
+      الحنفية في أواخر دولة المماليك ومطلع الدولة العثمانية بمصر،
+      ومصنف «الأشباه والنظائر» الذي هو المرجع المعتمد عند الحنفية في
+      القواعد الفقهية — بالقاهرة عن نحو أربع وأربعين سنة، وهو سن
+      مبكرة بالنسبة لما خلّف من الأثر. وكتابه «البحر الرائق» في شرح
+      «كنز الدقائق» — وقد توفي قبل إتمامه — هو أوسع كتب فروع الحنفية
+      تداولاً في العصر العثماني؛ وأما كتابه الأصغر «الأشباه والنظائر»
+      فإنه يصنّف فقه الحنفية على القواعد الكبرى ولا يزال من أصول
+      التدريس في المدارس الحنفية إلى اليوم. أرّخ ابن العماد وفاته
+      في «شذرات الذهب» سنة سبعين وتسعمئة، وأقرّه على ذلك «دائرة
+      المعارف الإسلامية» وضبطت ترجمته.
+    description_fr: |
+      Zayn al-Dīn ibn Ibrāhīm Ibn Nujaym al-Miṣrī, le plus grand
+      juriste hanafite de la fin du sultanat mamelouk et du début
+      de la période ottomane en Égypte et auteur d'*al-Ashbāh wa-l-
+      Naẓāʾir* — le traité canonique de l'école sur les maximes
+      juridiques (*qawāʿid fiqhiyya*) — mourut au Caire à l'âge
+      d'environ quarante-quatre ans, étonnamment jeune pour
+      l'influence qu'il exerça. Son commentaire inachevé *al-Baḥr
+      al-Rāʾiq* sur *Kanz al-Daqāʾiq* demeure la référence de
+      *furūʿ* hanafite la plus consultée de la période ottomane;
+      son *al-Ashbāh wa-l-Naẓāʾir*, plus bref, organise le fiqh
+      hanafite sous les maximes juridiques fondamentales et
+      subsiste comme texte central des programmes des madrasas
+      hanafites à ce jour. Ibn al-ʿImād consigne sa mort dans
+      *Shadharāt al-Dhahab* à l'année 970 H; l'EI2 corrobore et
+      fournit la notice biographique standard.
+    canonical_hijri: {year: 970, precision: year}
+    canonical_gregorian: {date: 1563-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[ibn-nujaym, subject]]
+    tags: [hanafi, fiqh, qawaid, ashbah-wa-naza'ir, cairo, ottoman]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Nujaym"
+
+  - slug: death-of-al-haskafi
+    category: scholar_death
+    title_en: Death of al-Ḥaṣkafī — Author of *al-Durr al-Mukhtār*
+    title_ar: وفاة الحَصكَفي — مصنف «الدر المختار»
+    title_fr: Mort d'al-Ḥaṣkafī — auteur d'*al-Durr al-Mukhtār*
+    description_en: |
+      ʿAlāʾ al-Dīn Muḥammad ibn ʿAlī al-Ḥaṣkafī, mufti of the Hanafis
+      in Damascus and author of *al-Durr al-Mukhtār fī Sharḥ Tanwīr
+      al-Abṣār* — the most authoritative late-Hanafi commentary on
+      Tumurtāshī's *Tanwīr al-Abṣār* and the matn over which Ibn
+      ʿĀbidīn would later compose his monumental *Radd al-Muḥtār*
+      ḥāshiya — died in Damascus around the age of fifty-three. His
+      *Durr* condenses the Hanafi *furūʿ* with rigorous attention to
+      the *muftā bihi* position of each question, becoming the
+      standard Ottoman-era teaching matn for the school across the
+      Levant, the Hijaz, and Anatolia. He died in 1088 AH; the
+      attestation is post-Shadharāt, so the principal Sunni witness
+      is EI2 (with editorial cross-reference to the Hanafi
+      biographical tradition that opens *Radd al-Muḥtār*).
+    description_ar: |
+      توفي الإمام علاء الدين محمد بن علي الحَصكَفي — مفتي السادة
+      الحنفية بدمشق ومصنف «الدر المختار في شرح تنوير الأبصار» —
+      وهو أوثق شروح المتأخرين من الحنفية على متن «تنوير الأبصار»
+      للتمرتاشي، وعليه شيّد ابن عابدين بعدُ حاشيته الكبرى «رد
+      المحتار» — بدمشق عن نحو ثلاث وخمسين سنة. لخّص في «الدر
+      المختار» فروع المذهب الحنفي مع تحرير شديد لما هو المفتى به
+      من أقوال أصحاب المذهب، فصار هو متن التدريس المعتمد عند
+      الحنفية في الدولة العثمانية في الشام والحجاز والأناضول. توفي
+      رحمه الله سنة ثمانٍ وثمانين بعد الألف هجرية، ووفاته بعد ختام
+      «شذرات الذهب»، فالعمدة في توثيقها «دائرة المعارف الإسلامية»
+      مع ترجمة فاتحة «رد المحتار» الحنفية.
+    description_fr: |
+      ʿAlāʾ al-Dīn Muḥammad ibn ʿAlī al-Ḥaṣkafī, *muftī* des hanafites
+      de Damas et auteur d'*al-Durr al-Mukhtār fī Sharḥ Tanwīr al-Abṣār*
+      — le commentaire hanafite tardif le plus autoritatif sur le
+      *Tanwīr al-Abṣār* d'al-Tumurtāshī et le *matn* sur lequel
+      Ibn ʿĀbidīn composerait plus tard sa *ḥāshiya* monumentale
+      *Radd al-Muḥtār* — mourut à Damas à l'âge d'environ
+      cinquante-trois ans. Son *Durr* condense les *furūʿ*
+      hanafites en signalant rigoureusement la position *muftā bihi*
+      de chaque question, devenant le *matn* d'enseignement
+      standard de l'école à l'époque ottomane à travers le Levant,
+      le Hedjaz et l'Anatolie. Il mourut en 1088 H; l'attestation
+      étant postérieure à *Shadharāt al-Dhahab*, le principal
+      témoin sunnite est l'EI2 (croisé avec la tradition
+      biographique hanafite qui ouvre *Radd al-Muḥtār*).
+    canonical_hijri: {year: 1088, precision: year}
+    canonical_gregorian: {date: 1677-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-haskafi, subject]]
+    tags: [hanafi, fiqh, durr-mukhtar, damascus, ottoman]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Haskafi"
+
+  - slug: death-of-ibn-abidin
+    category: scholar_death
+    title_en: Death of Ibn ʿĀbidīn — Author of *Radd al-Muḥtār*
+    title_ar: وفاة ابن عابدين — مصنف «رد المحتار»
+    title_fr: Mort d'Ibn ʿĀbidīn — auteur de *Radd al-Muḥtār*
+    description_en: |
+      Muḥammad Amīn ibn ʿUmar Ibn ʿĀbidīn al-Dimashqī, mufti of the
+      Hanafis in late-Ottoman Damascus and author of *Radd al-Muḥtār
+      ʿalā al-Durr al-Mukhtār* — the colossal seven-volume ḥāshiya
+      that effectively closed the Hanafi madhhab's classical
+      development by adjudicating every disputed *muftā bihi*
+      position from al-Sarakhsī through al-Ḥaṣkafī — died in Damascus
+      at age about fifty. *Radd al-Muḥtār* (also called *Ḥāshiyat
+      Ibn ʿĀbidīn*) is treated across the contemporary Hanafi world,
+      from Cairo to the Indian subcontinent, as the final word on
+      what the school holds; no Hanafi mufti opens a fatwa file
+      without it. He left a major collection of fatāwā (*al-ʿUqūd
+      al-Durriyya*) and a treatise on legal customs (*Nashr al-ʿUrf*).
+      His death in 1252 AH falls beyond Ibn al-ʿImād's *Shadharāt*;
+      EI2 is the principal Sunni-canonical attestation.
+    description_ar: |
+      توفي الإمام محمد أمين بن عمر ابن عابدين الدمشقي — مفتي السادة
+      الحنفية بدمشق في أواخر العهد العثماني، ومصنف «رد المحتار على
+      الدر المختار» الذي هو الحاشية الكبرى في سبع مجلدات، أغلق بها
+      المذهب الحنفي عمليّاً في تطوره الكلاسيكي بترجيحه ما هو المفتى
+      به في كل مسألة عن السرخسي ومن بعده إلى الحَصكَفي — بدمشق عن
+      نحو خمسين سنة. وكتاب «رد المحتار» — المعروف بـ«حاشية ابن
+      عابدين» — هو القول الفصل في فقه الحنفية المعاصر من القاهرة
+      إلى الهند، لا يخلو منه مكتب مفتٍ حنفي في فتاواه. وله مجموعة
+      فتاوى كبرى هي «العقود الدرية»، ورسالة في العرف هي «نشر العرف».
+      وفاته رحمه الله في سنة اثنتين وخمسين ومئتين بعد الألف، وهي
+      بعد ختام «شذرات الذهب»، فالعمدة في توثيقها عند أهل السنة
+      «دائرة المعارف الإسلامية».
+    description_fr: |
+      Muḥammad Amīn ibn ʿUmar Ibn ʿĀbidīn al-Dimashqī, *muftī* des
+      hanafites de Damas à la fin de la période ottomane et auteur
+      de *Radd al-Muḥtār ʿalā al-Durr al-Mukhtār* — la *ḥāshiya*
+      colossale en sept volumes qui clôt effectivement le
+      développement classique de l'école hanafite en arbitrant
+      toute position *muftā bihi* contestée d'al-Sarakhsī jusqu'à
+      al-Ḥaṣkafī — mourut à Damas à l'âge d'environ cinquante ans.
+      *Radd al-Muḥtār* (aussi appelé *Ḥāshiyat Ibn ʿĀbidīn*) est
+      traité à travers le monde hanafite contemporain, du Caire au
+      sous-continent indien, comme le mot final sur ce que tient
+      l'école; aucun *muftī* hanafite n'ouvre un dossier de fatwa
+      sans lui. Il laissa une grande collection de *fatāwā*
+      (*al-ʿUqūd al-Durriyya*) et un traité sur les coutumes
+      juridiques (*Nashr al-ʿUrf*). Sa mort en 1252 H est
+      postérieure aux *Shadharāt* d'Ibn al-ʿImād; l'EI2 constitue
+      la principale attestation au sein du canon sunnite.
+    canonical_hijri: {year: 1252, precision: year}
+    canonical_gregorian: {date: 1836-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ibn-abidin, subject]]
+    tags: [hanafi, fiqh, radd-al-muhtar, damascus, ottoman, late-classical]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Abidin"
+
+  # =========================================================================
+  # MALIKI — THE EGYPTIAN UṢŪLĪ AND THE CANONICAL MUKHTAṢAR
+  # =========================================================================
+
+  - slug: death-of-al-qarafi
+    category: scholar_death
+    title_en: Death of Shihāb al-Dīn al-Qarāfī — Author of *al-Furūq* and *al-Dhakhīra*
+    title_ar: وفاة شهاب الدين القرافي — مصنف «الفروق» و«الذخيرة»
+    title_fr: Mort de Shihāb al-Dīn al-Qarāfī — auteur d'*al-Furūq* et d'*al-Dhakhīra*
+    description_en: |
+      Abū al-ʿAbbās Shihāb al-Dīn Aḥmad ibn Idrīs al-Ṣanhājī al-Qarāfī,
+      foremost Maliki jurist and uṣūlī of seventh-century AH Egypt and
+      author of two pillar works — *al-Dhakhīra* (an encyclopaedic
+      Maliki *furūʿ* compendium) and *Anwār al-Burūq fī Anwāʾ al-Furūq*
+      (the foundational treatise on legal distinctions, *al-furūq*) —
+      died in Cairo at age about sixty. His student al-Bājī had been
+      the last great Maliki uṣūlī of al-Andalus; al-Qarāfī carried
+      the school's theoretical apparatus eastward and remade it under
+      the influence of Fakhr al-Dīn al-Rāzī's school, leaving behind
+      an uṣūl reformulation that still defines Maliki theoretical
+      jurisprudence. He also authored *al-Iḥkām fī Tamyīz al-Fatāwā
+      ʿan al-Aḥkām* on the theory of judicial review and *al-Yawāqīt
+      fī Aḥkām al-Mawāqīt*. Ibn Ḥajar covers him in *al-Durar al-
+      Kāmina*; Ibn al-ʿImād confirms in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام أبو العباس شهاب الدين أحمد بن إدريس الصنهاجي
+      القرافي — كبير فقهاء المالكية وأصولييهم في مصر في القرن
+      السابع الهجري، ومصنف الكتابين الجليلين «الذخيرة» في فروع
+      المذهب المالكي و«أنوار البروق في أنواء الفروق» الذي هو الكتاب
+      المؤسس في الفروق الفقهية — بالقاهرة عن نحو ستين سنة. كان شيخه
+      الباجي آخر كبار أصولية المالكية بالأندلس، فحمل القرافي العدة
+      الأصولية للمذهب إلى المشرق، وأعاد صياغتها في ضوء طريقة الإمام
+      فخر الدين الرازي وأصحابه، فصار له في أصول المالكية إعادة بناء
+      ما تزال هي إطار النظر إلى يوم الناس. وله أيضاً «الإحكام في
+      تمييز الفتاوى عن الأحكام» في نظرية القضاء، و«اليواقيت في
+      أحكام المواقيت». ترجم له ابن حجر في «الدرر الكامنة»، ووافقه
+      ابن العماد في «شذرات الذهب».
+    description_fr: |
+      Abū al-ʿAbbās Shihāb al-Dīn Aḥmad ibn Idrīs al-Ṣanhājī al-Qarāfī,
+      le plus grand juriste et uṣūlī malikite de l'Égypte du VIIᵉ
+      siècle de l'Hégire et auteur de deux ouvrages-piliers —
+      *al-Dhakhīra* (un compendium encyclopédique de *furūʿ*
+      malikite) et *Anwār al-Burūq fī Anwāʾ al-Furūq* (le traité
+      fondateur sur les distinctions juridiques, *al-furūq*) — mourut
+      au Caire à l'âge d'environ soixante ans. Son maître al-Bājī
+      avait été le dernier grand uṣūlī malikite d'al-Andalus;
+      al-Qarāfī porta l'appareil théorique de l'école vers
+      l'Orient et le refit sous l'influence de l'école de Fakhr
+      al-Dīn al-Rāzī, laissant une refondation de l'*uṣūl*
+      malikite qui définit toujours la jurisprudence théorique
+      de l'école. Il composa également *al-Iḥkām fī Tamyīz
+      al-Fatāwā ʿan al-Aḥkām* sur la théorie de la révision
+      judiciaire et *al-Yawāqīt fī Aḥkām al-Mawāqīt*. Ibn Ḥajar
+      le traite dans *al-Durar al-Kāmina*; Ibn al-ʿImād le
+      confirme dans *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 684, precision: year}
+    canonical_gregorian: {date: 1285-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-qarafi, subject]]
+    tags: [maliki, fiqh, usul, furuq, dhakhira, cairo, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Qarafi"
+
+  - slug: death-of-khalil-al-jundi
+    category: scholar_death
+    title_en: Death of Khalīl al-Jundī — Author of *al-Mukhtaṣar al-Khalīl*
+    title_ar: وفاة خليل الجندي — صاحب «المختصر» في فقه المالكية
+    title_fr: Mort de Khalīl al-Jundī — auteur d'*al-Mukhtaṣar al-Khalīl*
+    description_en: |
+      Khalīl ibn Isḥāq al-Jundī al-Mālikī, the most influential late-
+      Mamluk Maliki jurist of Egypt and author of *al-Mukhtaṣar*
+      (universally known across the Maliki world simply as
+      *Mukhtaṣar Khalīl*), died in Cairo. His *Mukhtaṣar* compresses
+      the Maliki *furūʿ* into a fewer-than-three-hundred-page
+      reference whose terse formulations encode the *muʿtamad*
+      position of the school on every standard legal question —
+      becoming the canonical teaching matn of Maliki fiqh from
+      Egypt and the Sudan to West Africa, the Maghrib, and the
+      Hijaz. Generations of subsequent Maliki scholarship — Bahrām,
+      al-Mawwāq, al-Ḥaṭṭāb, al-Dasūqī, ʿIllīsh — consist principally
+      of commentaries (*shurūḥ*) and ḥāshiyas on his *Mukhtaṣar*.
+      Ibn Ḥajar gives the standard biographical notice in *al-
+      Durar al-Kāmina*; Ibn al-ʿImād corroborates the death notice
+      in *Shadharāt al-Dhahab* under 776 AH (some sources prefer
+      767 AH; we follow the *Durar* / *Shadharāt* attestation).
+    description_ar: |
+      توفي الإمام خليل بن إسحاق الجندي المالكي — أعظم فقهاء المالكية
+      في مصر في أواخر دولة المماليك ومصنف «المختصر» المعروف في
+      عامة بلاد المالكية بـ«مختصر خليل» — بالقاهرة. اختصر «المختصر»
+      فروع المذهب المالكي في كتيب لم يبلغ ثلاث مئة صحيفة، تختزن
+      عباراته الموجزة المعتمد من أقوال أصحاب المذهب في كل مسألة
+      من المسائل الفقهية المشهورة، فصار متن التدريس المعتمد للمذهب
+      المالكي من مصر والسودان وغرب أفريقيا إلى المغرب والحجاز.
+      وعامة العلم المالكي من بعده — بهرام والمواق والحطاب والدسوقي
+      وعليش — تدور أساساً على شروح وحواشٍ على «المختصر». ترجم له
+      ابن حجر في «الدرر الكامنة»، وأرّخ ابن العماد وفاته في
+      «شذرات الذهب» سنة ست وسبعين وسبعمئة (وقيل سبع وستين، ولكنا
+      اخترنا التاريخ الذي نص عليه الإمامان معاً).
+    description_fr: |
+      Khalīl ibn Isḥāq al-Jundī al-Mālikī, le juriste malikite le plus
+      influent de l'Égypte de la fin de l'époque mamelouke et auteur
+      d'*al-Mukhtaṣar* (universellement connu dans le monde malikite
+      comme *Mukhtaṣar Khalīl*), mourut au Caire. Son *Mukhtaṣar*
+      condense les *furūʿ* malikites en un ouvrage de moins de
+      trois cents pages dont les formulations laconiques encodent
+      la position *muʿtamad* de l'école sur chaque question
+      juridique standard — devenant le *matn* canonique
+      d'enseignement du fiqh malikite de l'Égypte et du Soudan à
+      l'Afrique de l'Ouest, au Maghreb et au Hedjaz. Des
+      générations entières d'érudition malikite ultérieure —
+      Bahrām, al-Mawwāq, al-Ḥaṭṭāb, al-Dasūqī, ʿIllīsh — consistent
+      principalement en commentaires (*shurūḥ*) et *ḥāshiyas* sur
+      son *Mukhtaṣar*. Ibn Ḥajar donne la notice biographique
+      standard dans *al-Durar al-Kāmina*; Ibn al-ʿImād corrobore
+      l'avis de décès dans *Shadharāt al-Dhahab* à l'année 776 H
+      (certaines sources préfèrent 767 H; nous suivons
+      l'attestation de *Durar* / *Shadharāt*).
+    canonical_hijri: {year: 776, precision: year}
+    canonical_gregorian: {date: 1374-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[khalil-al-jundi, subject]]
+    tags: [maliki, fiqh, mukhtasar, cairo, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khalil_ibn_Ishaq_al-Jundi"
+
+  # =========================================================================
+  # SHAFIʿI — THE EGYPTIAN MINHĀJ-COMMENTATORS, UṢŪLĪS, AND ʿULŪM AL-QURʾĀN
+  # =========================================================================
+
+  - slug: death-of-al-isnawi
+    category: scholar_death
+    title_en: Death of Jamāl al-Dīn al-Isnawī — Author of *Nihāyat al-Sūl*
+    title_ar: وفاة جمال الدين الإسنوي — مصنف «نهاية السول»
+    title_fr: Mort de Jamāl al-Dīn al-Isnawī — auteur de *Nihāyat al-Sūl*
+    description_en: |
+      Jamāl al-Dīn ʿAbd al-Raḥīm ibn al-Ḥasan al-Isnawī, leading
+      Shāfiʿī uṣūlī of late-Mamluk Egypt and author of *Nihāyat al-
+      Sūl fī Sharḥ Minhāj al-Wuṣūl* — the canonical commentary on
+      al-Bayḍāwī's *Minhāj al-Wuṣūl ilā ʿIlm al-Uṣūl* and the
+      central Shāfiʿī uṣūl matn of the period — died in Cairo at
+      age about sixty-eight. He composed major works in every
+      Shāfiʿī branch: *al-Tamhīd fī Takhrīj al-Furūʿ ʿalā al-Uṣūl*
+      (a model treatise on uṣūl-furūʿ derivation), *al-Muhimmāt*
+      (a critical apparatus on al-Nawawī's *Rawḍa* and al-Rāfiʿī's
+      *Sharḥ al-Wajīz*), and *Ṭabaqāt al-Shāfiʿiyya*. Ibn Ḥajar
+      treats him at length in *al-Durar al-Kāmina*; Ibn al-ʿImād
+      records the death under 772 AH in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام جمال الدين عبد الرحيم بن الحسن الإسنوي — كبير
+      أصوليي الشافعية في مصر في أواخر عهد المماليك ومصنف «نهاية
+      السول في شرح منهاج الوصول» — وهو شرح المعتمد على «منهاج
+      الوصول إلى علم الأصول» للبيضاوي ومن أمهات متون الأصول
+      الشافعية في عصره — بالقاهرة عن نحو ثمانٍ وستين سنة. وله
+      تصانيف في كل أبواب المذهب الشافعي: «التمهيد في تخريج الفروع
+      على الأصول» الذي هو أسوة في الباب، و«المهمات» وهو
+      الانتقادات على «الروضة» للنووي و«شرح الوجيز» للرافعي،
+      و«طبقات الشافعية». أطال ابن حجر ترجمته في «الدرر الكامنة»،
+      وأرّخ ابن العماد وفاته في «شذرات الذهب» سنة اثنتين وسبعين
+      وسبعمئة.
+    description_fr: |
+      Jamāl al-Dīn ʿAbd al-Raḥīm ibn al-Ḥasan al-Isnawī, principal
+      uṣūlī shāfiʿite de l'Égypte de la fin de l'époque mamelouke
+      et auteur de *Nihāyat al-Sūl fī Sharḥ Minhāj al-Wuṣūl* — le
+      commentaire canonique du *Minhāj al-Wuṣūl ilā ʿIlm al-Uṣūl*
+      d'al-Bayḍāwī et le *matn* central d'*uṣūl* shāfiʿite de la
+      période — mourut au Caire à l'âge d'environ soixante-huit
+      ans. Il composa des ouvrages majeurs dans chaque branche
+      shāfiʿite : *al-Tamhīd fī Takhrīj al-Furūʿ ʿalā al-Uṣūl*
+      (un traité-modèle de dérivation *uṣūl*-*furūʿ*),
+      *al-Muhimmāt* (un appareil critique sur la *Rawḍa* d'al-Nawawī
+      et le *Sharḥ al-Wajīz* d'al-Rāfiʿī) et *Ṭabaqāt al-Shāfiʿiyya*.
+      Ibn Ḥajar le traite longuement dans *al-Durar al-Kāmina*; Ibn
+      al-ʿImād consigne la mort à l'année 772 H dans *Shadharāt
+      al-Dhahab*.
+    canonical_hijri: {year: 772, precision: year}
+    canonical_gregorian: {date: 1370-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-isnawi, subject]]
+    tags: [shafii, usul, minhaj-al-wusul, cairo, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Jamal_al-Din_al-Isnawi"
+
+  - slug: death-of-al-zarkashi
+    category: scholar_death
+    title_en: Death of Badr al-Dīn al-Zarkashī — Author of *al-Burhān fī ʿUlūm al-Qurʾān*
+    title_ar: وفاة بدر الدين الزركشي — مصنف «البرهان في علوم القرآن»
+    title_fr: Mort de Badr al-Dīn al-Zarkashī — auteur d'*al-Burhān fī ʿUlūm al-Qurʾān*
+    description_en: |
+      Badr al-Dīn Muḥammad ibn Bahādur al-Zarkashī, polymath Shāfiʿī
+      jurist of Mamluk Cairo and author of *al-Burhān fī ʿUlūm al-
+      Qurʾān* — the foundational systematic treatise on the Qurʾanic
+      sciences (which al-Suyūṭī's later *al-Itqān* expressly takes
+      as its base) — died in Cairo at age about fifty. He wrote in
+      every Shāfiʿī discipline: *al-Manthūr fī al-Qawāʿid* on legal
+      maxims, *al-Baḥr al-Muḥīṭ fī Uṣūl al-Fiqh* (an encyclopaedic
+      Shāfiʿī uṣūl reference), *al-Diyaba fī Sharḥ al-Tadhkira* in
+      ḥadīth, *al-Iʿlām bi-Faḍl al-Aʿlām* in fiqh, and a still-read
+      ḥāshiya on al-Bukhārī. Ibn Ḥajar gives a long notice in
+      *al-Durar al-Kāmina*; Ibn al-ʿImād confirms in *Shadharāt
+      al-Dhahab* under 794 AH.
+    description_ar: |
+      توفي الإمام بدر الدين محمد بن بهادر الزركشي — العلامة
+      الموسوعي في فقه الشافعية بالقاهرة المملوكية ومصنف «البرهان
+      في علوم القرآن» الذي هو الكتاب المؤسس في تقنين علوم القرآن
+      تقنيناً منظماً (وعليه عوّل السيوطي في «الإتقان» مصرحاً) —
+      بالقاهرة عن نحو خمسين سنة. صنّف في كل فروع المعرفة الشافعية:
+      «المنثور في القواعد» في القواعد الفقهية، و«البحر المحيط في
+      أصول الفقه» الذي هو الموسوعة الأصولية الشافعية، و«شرح
+      التذكرة» في الحديث، و«الإعلام بفضل الأعلام» في الفقه،
+      وحاشية لا تزال متداولة على «صحيح البخاري». ترجم له ابن حجر
+      ترجمة طويلة في «الدرر الكامنة»، وأقرّه ابن العماد في
+      «شذرات الذهب» سنة أربع وتسعين وسبعمئة.
+    description_fr: |
+      Badr al-Dīn Muḥammad ibn Bahādur al-Zarkashī, juriste
+      shāfiʿite polymathe du Caire mamelouk et auteur d'*al-Burhān
+      fī ʿUlūm al-Qurʾān* — le traité systématique fondateur sur
+      les sciences du Coran (sur lequel al-Suyūṭī fondera
+      explicitement son *al-Itqān* postérieur) — mourut au Caire à
+      l'âge d'environ cinquante ans. Il écrivit dans chaque
+      discipline shāfiʿite : *al-Manthūr fī al-Qawāʿid* sur les
+      maximes juridiques, *al-Baḥr al-Muḥīṭ fī Uṣūl al-Fiqh* (une
+      référence encyclopédique d'*uṣūl* shāfiʿite), *Sharḥ al-
+      Tadhkira* en hadith, *al-Iʿlām bi-Faḍl al-Aʿlām* en fiqh, et
+      une *ḥāshiya* toujours lue sur al-Bukhārī. Ibn Ḥajar donne
+      une longue notice dans *al-Durar al-Kāmina*; Ibn al-ʿImād
+      confirme dans *Shadharāt al-Dhahab* à l'année 794 H.
+    canonical_hijri: {year: 794, precision: year}
+    canonical_gregorian: {date: 1392-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-zarkashi, subject]]
+    tags: [shafii, usul, burhan, ulum-quran, cairo, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Badr_al-Din_al-Zarkashi"
+
+  - slug: death-of-al-khatib-al-shirbini
+    category: scholar_death
+    title_en: Death of al-Khaṭīb al-Shirbīnī — Author of *Mughnī al-Muḥtāj*
+    title_ar: وفاة الخطيب الشربيني — مصنف «مغني المحتاج»
+    title_fr: Mort d'al-Khaṭīb al-Shirbīnī — auteur de *Mughnī al-Muḥtāj*
+    description_en: |
+      Shams al-Dīn Muḥammad ibn Aḥmad al-Khaṭīb al-Shirbīnī, leading
+      Shāfiʿī jurist of Cairo at the close of the Mamluk era and the
+      opening of the Ottoman, and author of *Mughnī al-Muḥtāj ilā
+      Maʿrifat Maʿānī Alfāẓ al-Minhāj* — one of the two definitive
+      late-Shāfiʿī commentaries on al-Nawawī's *Minhāj al-Ṭālibīn*
+      (the other being Shams al-Dīn al-Ramlī's *Nihāyat al-Muḥtāj*)
+      — died in Cairo around 977 AH. His *Mughnī al-Muḥtāj* is the
+      standard reference for the Egyptian-Shāfiʿī *muʿtamad*
+      tradition that flowed from al-Nawawī through Ibn Ḥajar al-
+      Haytamī and the Ramlī family. He also composed *al-Iqnāʿ fī
+      Ḥall Alfāẓ Abī Shujāʿ* (a widely-taught Shāfiʿī primer) and a
+      tafsīr (*al-Sirāj al-Munīr*). Ibn al-ʿImād records the death
+      in *Shadharāt al-Dhahab* under 977 AH; EI2 corroborates and
+      gives the standard biographical sketch.
+    description_ar: |
+      توفي الإمام شمس الدين محمد بن أحمد الخطيب الشربيني — كبير
+      فقهاء الشافعية بالقاهرة في خاتمة دولة المماليك ومطلع الدولة
+      العثمانية، ومصنف «مغني المحتاج إلى معرفة معاني ألفاظ المنهاج»
+      الذي هو أحد الشرحين القاطعين على «منهاج الطالبين» للنووي عند
+      المتأخرين من الشافعية (والثاني «نهاية المحتاج» لشمس الدين
+      الرملي) — بالقاهرة سنة سبع وسبعين وتسعمئة. و«مغني المحتاج»
+      هو المرجع المعتمد عند الشافعية المصريين في طبقة المعتمد التي
+      تنتظم من النووي إلى ابن حجر الهيتمي وأهل بيت الرملي. وله
+      أيضاً «الإقناع في حل ألفاظ أبي شجاع» — وهو من أوسع متون
+      الشافعية تداولاً في التدريس — وتفسير «السراج المنير». أرّخ
+      وفاته ابن العماد في «شذرات الذهب» سنة سبع وسبعين وتسعمئة،
+      ووافقه على ذلك «دائرة المعارف الإسلامية» في ترجمته الشاملة.
+    description_fr: |
+      Shams al-Dīn Muḥammad ibn Aḥmad al-Khaṭīb al-Shirbīnī, premier
+      juriste shāfiʿite du Caire à la clôture de l'époque mamelouke
+      et à l'ouverture de l'époque ottomane, et auteur de *Mughnī
+      al-Muḥtāj ilā Maʿrifat Maʿānī Alfāẓ al-Minhāj* — l'un des deux
+      commentaires shāfiʿites tardifs définitifs sur le *Minhāj
+      al-Ṭālibīn* d'al-Nawawī (l'autre étant *Nihāyat al-Muḥtāj* de
+      Shams al-Dīn al-Ramlī) — mourut au Caire vers 977 H. Son
+      *Mughnī al-Muḥtāj* est la référence standard de la tradition
+      *muʿtamad* shāfiʿite égyptienne qui s'est écoulée d'al-
+      Nawawī à travers Ibn Ḥajar al-Haytamī et la famille Ramlī. Il
+      composa aussi *al-Iqnāʿ fī Ḥall Alfāẓ Abī Shujāʿ* (un manuel
+      d'introduction shāfiʿite très enseigné) et un *tafsīr* (*al-
+      Sirāj al-Munīr*). Ibn al-ʿImād consigne la mort dans
+      *Shadharāt al-Dhahab* à l'année 977 H; l'EI2 corrobore et
+      donne la notice biographique standard.
+    canonical_hijri: {year: 977, precision: year}
+    canonical_gregorian: {date: 1570-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[al-khatib-al-shirbini, subject]]
+    tags: [shafii, fiqh, mughni-al-muhtaj, minhaj-al-talibin, cairo, ottoman]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khatib_al-Shirbini"
+
+  - slug: death-of-shams-al-din-al-ramli
+    category: scholar_death
+    title_en: Death of Shams al-Dīn al-Ramlī — Author of *Nihāyat al-Muḥtāj*
+    title_ar: وفاة شمس الدين الرملي — مصنف «نهاية المحتاج»
+    title_fr: Mort de Shams al-Dīn al-Ramlī — auteur de *Nihāyat al-Muḥtāj*
+    description_en: |
+      Shams al-Dīn Muḥammad ibn Aḥmad al-Ramlī, "the lesser Shāfiʿī"
+      (*al-Shāfiʿī al-Ṣaghīr*), mufti of the Shāfiʿīs in Ottoman
+      Cairo and author of *Nihāyat al-Muḥtāj ilā Sharḥ al-Minhāj* —
+      the parallel and equally authoritative late-Shāfiʿī
+      commentary on al-Nawawī's *Minhāj al-Ṭālibīn* alongside al-
+      Khaṭīb al-Shirbīnī's *Mughnī al-Muḥtāj* — died in Cairo at
+      age about eighty in 1004 AH. He inherited his uṣūl and *furūʿ*
+      from his father Shihāb al-Dīn al-Ramlī (d. 957 AH), the
+      foremost Shāfiʿī authority of his own generation, and trained
+      the next layer of Egyptian-Shāfiʿī fuqahāʾ. Beyond *Nihāyat
+      al-Muḥtāj*, he composed *Ghāyat al-Bayān* (a commentary on
+      Ibn al-Wardī's *al-Bahja*) and a major fatāwā collection.
+      His death falls beyond Ibn al-ʿImād's *Shadharāt* close-out
+      year; the principal Sunni-canonical attestation is EI2,
+      cross-checked editorially against the seminary biographical
+      tradition.
+    description_ar: |
+      توفي الإمام شمس الدين محمد بن أحمد الرملي — المعروف بـ«الشافعي
+      الصغير» — مفتي السادة الشافعية بالقاهرة في الدولة العثمانية،
+      ومصنف «نهاية المحتاج إلى شرح المنهاج» — وهو الشرح المعتمد
+      الموازي لـ«مغني المحتاج» للخطيب الشربيني على «منهاج الطالبين»
+      للنووي عند المتأخرين من الشافعية — بالقاهرة عن نحو ثمانين
+      سنة في سنة أربع بعد الألف. تلقى أصوله وفروعه عن أبيه شهاب
+      الدين الرملي (ت ٩٥٧ هـ) — كبير شافعية عصره — وأخرج طبقة من
+      فقهاء الشافعية المصريين. وله سوى «نهاية المحتاج» «غاية
+      البيان» في شرح «البهجة» لابن الوردي، ومجموعة فتاوى كبرى.
+      وفاته بعد ختام «شذرات الذهب»، فالعمدة في توثيقها عند أهل
+      السنة «دائرة المعارف الإسلامية» مع المراجعة الإسنادية في
+      ترجمات أهل الشام والقاهرة.
+    description_fr: |
+      Shams al-Dīn Muḥammad ibn Aḥmad al-Ramlī, « le plus petit
+      Shāfiʿī » (*al-Shāfiʿī al-Ṣaghīr*), *muftī* des shāfiʿites du
+      Caire ottoman et auteur de *Nihāyat al-Muḥtāj ilā Sharḥ al-
+      Minhāj* — le commentaire shāfiʿite tardif parallèle et
+      également autoritatif sur le *Minhāj al-Ṭālibīn* d'al-Nawawī,
+      aux côtés du *Mughnī al-Muḥtāj* d'al-Khaṭīb al-Shirbīnī —
+      mourut au Caire à l'âge d'environ quatre-vingts ans en
+      1004 H. Il hérita son *uṣūl* et ses *furūʿ* de son père
+      Shihāb al-Dīn al-Ramlī (m. 957 H), première autorité
+      shāfiʿite de sa propre génération, et forma la couche
+      suivante des fuqahāʾ shāfiʿites égyptiens. Outre *Nihāyat
+      al-Muḥtāj*, il composa *Ghāyat al-Bayān* (un commentaire sur
+      la *Bahja* d'Ibn al-Wardī) et un grand recueil de *fatāwā*.
+      Sa mort est postérieure à l'année de clôture des *Shadharāt*
+      d'Ibn al-ʿImād; la principale attestation au sein du canon
+      sunnite est l'EI2, croisée éditorialement avec la tradition
+      biographique des séminaires.
+    canonical_hijri: {year: 1004, precision: year}
+    canonical_gregorian: {date: 1596-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[shams-al-din-al-ramli, subject]]
+    tags: [shafii, fiqh, nihayat-al-muhtaj, minhaj-al-talibin, cairo, ottoman]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shams_al-Din_al-Ramli"
+
+  - slug: death-of-al-bajuri
+    category: scholar_death
+    title_en: Death of Ibrāhīm al-Bāǧūrī — Shaykh al-Azhar and Author of the *Ḥāshiya*
+    title_ar: وفاة إبراهيم الباجوري — شيخ الأزهر ومصنف «الحاشية»
+    title_fr: Mort d'Ibrāhīm al-Bāǧūrī — Shaykh al-Azhar et auteur de la *Ḥāshiya*
+    description_en: |
+      Ibrāhīm ibn Muḥammad al-Bāǧūrī, Shāfiʿī jurist, Ashʿarī
+      mutakallim, and Shaykh al-Azhar, died in Cairo at age about
+      seventy-four. He authored the still-taught *Ḥāshiyat al-
+      Bāǧūrī ʿalā Sharḥ Ibn Qāsim al-Ghazzī* (also known as
+      *Ḥāshiyat al-Bāǧūrī ʿalā Sharḥ al-Ghazzī ʿalā Matn Abī
+      Shujāʿ*) — the principal late-Azharī teaching commentary on
+      Shāfiʿī fiqh through Abū Shujāʿ's *Ghāyat al-Ikhtiṣār*. His
+      Ashʿarī ḥāshiyas — on al-Sanūsī's *Umm al-Barāhīn* and on
+      al-Laqqānī's *Jawharat al-Tawḥīd* — remained the standard
+      Azharī creedal teaching texts deep into the twentieth century.
+      He served as Shaykh al-Azhar from 1263 AH until his death in
+      1276/1277 AH (the dating of his last weeks varies by a few
+      months across the sources). His death falls beyond Ibn al-
+      ʿImād's *Shadharāt*; the principal Sunni-canonical witness
+      is EI2.
+    description_ar: |
+      توفي الإمام إبراهيم بن محمد الباجوري — فقيه الشافعية والعالم
+      الأشعري وشيخ الأزهر — بالقاهرة عن نحو أربع وسبعين سنة. صنّف
+      «حاشية الباجوري على شرح ابن قاسم الغزي على متن أبي شجاع» —
+      وهي شرح التدريس الأزهري المعتمد على فقه الشافعية من جهة
+      «غاية الاختصار» لأبي شجاع وما دار في فلكها — ولا تزال إلى
+      يومنا. ولحاشيتيه الأشعريتين — على «أم البراهين» للسنوسي
+      وعلى «جوهرة التوحيد» للقاني — مكانة المتن المعتمد في
+      التدريس العقدي بالأزهر إلى أعماق القرن العشرين الميلادي.
+      تولى مشيخة الأزهر سنة ثلاث وستين ومئتين بعد الألف، وبقي
+      عليها حتى توفي رحمه الله سنة ست وسبعين أو سبع وسبعين بعد
+      الألف ومئتين، وفي ضبط أسبوعه الأخير بعض التذبذب بين
+      المصادر. وفاته بعد ختام «شذرات الذهب»، فالعمدة في توثيقها
+      عند أهل السنة «دائرة المعارف الإسلامية».
+    description_fr: |
+      Ibrāhīm ibn Muḥammad al-Bāǧūrī, juriste shāfiʿite,
+      *mutakallim* ashʿarī et Shaykh al-Azhar, mourut au Caire à
+      l'âge d'environ soixante-quatorze ans. Il composa la
+      *Ḥāshiyat al-Bāǧūrī ʿalā Sharḥ Ibn Qāsim al-Ghazzī* (aussi
+      appelée *Ḥāshiyat al-Bāǧūrī ʿalā Sharḥ al-Ghazzī ʿalā Matn
+      Abī Shujāʿ*) toujours enseignée — le principal commentaire
+      d'enseignement azharite tardif sur le fiqh shāfiʿite à
+      travers la *Ghāyat al-Ikhtiṣār* d'Abū Shujāʿ. Ses *ḥāshiyas*
+      ashʿarites — sur l'*Umm al-Barāhīn* d'al-Sanūsī et sur la
+      *Jawharat al-Tawḥīd* d'al-Laqqānī — demeurèrent les textes
+      d'enseignement de credo standard d'al-Azhar jusque tard
+      dans le XXᵉ siècle. Il servit comme Shaykh al-Azhar de
+      1263 H jusqu'à sa mort en 1276/1277 H (la datation de ses
+      dernières semaines varie de quelques mois selon les
+      sources). Sa mort est postérieure aux *Shadharāt* d'Ibn al-
+      ʿImād; le principal témoin sunnite est l'EI2.
+    canonical_hijri: {year: 1276, precision: year}
+    canonical_gregorian: {date: 1860-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-bajuri, subject]]
+    tags: [shafii, ashari, kalam, al-azhar, cairo, ottoman, late-classical]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibrahim_al-Bajuri"
+
+  # =========================================================================
+  # HANBALI — THE LATE-CLASSICAL CODIFIERS OF THE FOURTH MADHHAB
+  # =========================================================================
+
+  - slug: death-of-al-mardawi
+    category: scholar_death
+    title_en: Death of ʿAlāʾ al-Dīn al-Mardāwī — Author of *al-Inṣāf*
+    title_ar: وفاة علاء الدين المرداوي — مصنف «الإنصاف»
+    title_fr: Mort de ʿAlāʾ al-Dīn al-Mardāwī — auteur d'*al-Inṣāf*
+    description_en: |
+      ʿAlāʾ al-Dīn Abū al-Ḥasan ʿAlī ibn Sulaymān al-Mardāwī al-
+      Ṣāliḥī, the foremost Hanbali jurist of the late Mamluk era and
+      author of *al-Inṣāf fī Maʿrifat al-Rājiḥ min al-Khilāf* — the
+      canonical reference adjudicating the *muʿtamad* position in
+      every disputed question of the Hanbali school — died in
+      Damascus at age about sixty-eight. *al-Inṣāf* arbitrates
+      between the conflicting transmissions of Aḥmad ibn Ḥanbal's
+      positions across his major students and is the indispensable
+      adjudicator without which post-Mardāwī Hanbali fiqh cannot
+      function. He also composed *Taḥrīr al-Manqūl* on uṣūl al-fiqh
+      and *Tanqīḥ al-Mushbiʿ*, both teaching matns. Ibn al-ʿImād
+      records the death in *Shadharāt al-Dhahab* under 885 AH; EI2
+      gives the standard biographical notice.
+    description_ar: |
+      توفي الإمام علاء الدين أبو الحسن علي بن سليمان المرداوي
+      الصالحي — كبير فقهاء الحنابلة في أواخر دولة المماليك ومصنف
+      «الإنصاف في معرفة الراجح من الخلاف» — وهو المرجع المعتمد في
+      ترجيح المعتمد عند الحنابلة في كل مسألة وقع فيها الخلاف —
+      بدمشق عن نحو ثمانٍ وستين سنة. حكَّم «الإنصاف» بين الروايات
+      المتباينة عن الإمام أحمد بن حنبل عند أصحابه الكبار، وهو
+      الفيصل الذي بدونه لا يستقيم الفقه الحنبلي بعد المرداوي. وله
+      أيضاً «تحرير المنقول» في أصول الفقه و«تنقيح المشبع» — وكلاهما
+      من متون التدريس. أرّخ ابن العماد وفاته في «شذرات الذهب»
+      سنة خمس وثمانين وثمانمئة، وأقرّه على ذلك «دائرة المعارف
+      الإسلامية» في ترجمته الشاملة.
+    description_fr: |
+      ʿAlāʾ al-Dīn Abū al-Ḥasan ʿAlī ibn Sulaymān al-Mardāwī al-
+      Ṣāliḥī, le plus grand juriste hanbalite de la fin de l'époque
+      mamelouke et auteur d'*al-Inṣāf fī Maʿrifat al-Rājiḥ min al-
+      Khilāf* — la référence canonique qui arbitre la position
+      *muʿtamad* dans toute question contestée de l'école
+      hanbalite — mourut à Damas à l'âge d'environ soixante-huit
+      ans. *al-Inṣāf* arbitre entre les transmissions
+      contradictoires des positions d'Aḥmad ibn Ḥanbal chez ses
+      principaux élèves et est l'arbitre indispensable sans lequel
+      le fiqh hanbalite post-Mardāwī ne peut fonctionner. Il
+      composa aussi *Taḥrīr al-Manqūl* sur l'*uṣūl al-fiqh* et
+      *Tanqīḥ al-Mushbiʿ*, tous deux *matns* d'enseignement. Ibn
+      al-ʿImād consigne la mort dans *Shadharāt al-Dhahab* à
+      l'année 885 H; l'EI2 donne la notice biographique standard.
+    canonical_hijri: {year: 885, precision: year}
+    canonical_gregorian: {date: 1480-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[al-mardawi, subject]]
+    tags: [hanbali, fiqh, insaf, damascus, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ali_ibn_Sulayman_al-Mardawi"
+
+  - slug: death-of-ibn-al-najjar-al-futuhi
+    category: scholar_death
+    title_en: Death of Ibn al-Najjār al-Futūḥī — Author of *Sharḥ al-Kawkab al-Munīr*
+    title_ar: وفاة ابن النجار الفتوحي — مصنف «شرح الكوكب المنير»
+    title_fr: Mort d'Ibn al-Najjār al-Futūḥī — auteur de *Sharḥ al-Kawkab al-Munīr*
+    description_en: |
+      Taqī al-Dīn Muḥammad ibn Aḥmad Ibn al-Najjār al-Futūḥī,
+      Hanbali jurist and uṣūlī of late-Mamluk Cairo and author of
+      *Mukhtaṣar al-Taḥrīr* and his own commentary thereon
+      *Sharḥ al-Kawkab al-Munīr* — the central late-Hanbali matn
+      and commentary on the principles of jurisprudence (*uṣūl al-
+      fiqh*) — died in Cairo at age about seventy-six. *al-Kawkab
+      al-Munīr* compresses Ibn Mufliḥ's *al-Taḥrīr* and Ibn al-
+      Lahhām's elaborations into a single matn-and-commentary that
+      became the standard Hanbali uṣūl text. He also composed
+      *Muntahā al-Irādāt* (a furūʿ matn merging al-Ḥajjāwī's *al-
+      Iqnāʿ* with al-Tujībī's *al-Tanqīḥ*) — itself the basis of
+      al-Buhūtī's later *Sharḥ Muntahā al-Irādāt*. Ibn al-ʿImād
+      records the death in *Shadharāt al-Dhahab* under 972 AH; EI2
+      corroborates and gives the principal Sunni biographical
+      sketch.
+    description_ar: |
+      توفي الإمام تقي الدين محمد بن أحمد ابن النجار الفتوحي — فقيه
+      الحنابلة وأصوليهم بالقاهرة في أواخر دولة المماليك، ومصنف
+      «مختصر التحرير» وشرحه «شرح الكوكب المنير» — وهو المتن
+      والشرح المعتمدان عند المتأخرين من الحنابلة في أصول الفقه —
+      بالقاهرة عن نحو ست وسبعين سنة. اختصر في «الكوكب المنير»
+      «التحرير» لابن مفلح مع زيادات ابن اللحام في متن وشرح صارا
+      مرجع التدريس الأصولي عند الحنابلة. وله «منتهى الإرادات»
+      المتن الذي جمع بين «الإقناع» للحجاوي و«التنقيح» للتجيبي،
+      وعليه شيد البهوتي بعدُ شرحه الكبير «شرح منتهى الإرادات».
+      أرّخ ابن العماد وفاته في «شذرات الذهب» سنة اثنتين وسبعين
+      وتسعمئة، وأقرّه «دائرة المعارف الإسلامية» على ذلك.
+    description_fr: |
+      Taqī al-Dīn Muḥammad ibn Aḥmad Ibn al-Najjār al-Futūḥī,
+      juriste et uṣūlī hanbalite du Caire de la fin de l'époque
+      mamelouke et auteur de *Mukhtaṣar al-Taḥrīr* et de son propre
+      commentaire *Sharḥ al-Kawkab al-Munīr* — le *matn* et le
+      commentaire centraux des hanbalites tardifs sur les
+      principes de la jurisprudence (*uṣūl al-fiqh*) — mourut au
+      Caire à l'âge d'environ soixante-seize ans. *al-Kawkab al-
+      Munīr* condense le *Taḥrīr* d'Ibn Mufliḥ et les
+      élaborations d'Ibn al-Lahhām en un seul *matn*-et-
+      commentaire qui devint le texte d'*uṣūl* hanbalite standard.
+      Il composa aussi *Muntahā al-Irādāt* (un *matn* de *furūʿ*
+      fusionnant l'*Iqnāʿ* d'al-Ḥajjāwī avec le *Tanqīḥ* d'al-
+      Tujībī) — lui-même la base du *Sharḥ Muntahā al-Irādāt*
+      ultérieur d'al-Buhūtī. Ibn al-ʿImād consigne la mort dans
+      *Shadharāt al-Dhahab* à l'année 972 H; l'EI2 corrobore et
+      donne la notice biographique sunnite principale.
+    canonical_hijri: {year: 972, precision: year}
+    canonical_gregorian: {date: 1564-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[ibn-al-najjar-al-futuhi, subject]]
+    tags: [hanbali, usul, kawkab-al-munir, muntaha-al-iradat, cairo, ottoman]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Najjar_al-Futuhi"
+
+  - slug: death-of-al-buhuti
+    category: scholar_death
+    title_en: Death of Manṣūr al-Buhūtī — Author of *Kashshāf al-Qināʿ*
+    title_ar: وفاة منصور البهوتي — مصنف «كشاف القناع»
+    title_fr: Mort de Manṣūr al-Buhūtī — auteur de *Kashshāf al-Qināʿ*
+    description_en: |
+      Manṣūr ibn Yūnus al-Buhūtī, Shaykh al-Ḥanābila of Egypt and
+      author of *Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ* — the
+      monumental six-volume Hanbali fiqh commentary on al-Ḥajjāwī's
+      *al-Iqnāʿ li-Ṭālib al-Intifāʿ* — died in Cairo at age about
+      eighty. He also composed *Sharḥ Muntahā al-Irādāt* (his
+      commentary on Ibn al-Najjār al-Futūḥī's matn) and a tighter
+      teaching synthesis *al-Rawḍ al-Murbiʿ Sharḥ Zād al-
+      Mustaqniʿ*; the *Kashshāf*–*Sharḥ Muntahā* pair are the twin
+      standard references for late-Hanbali fiqh and frame the
+      curriculum at the Najdī revival of the eighteenth century AH.
+      His death in 1051 AH falls beyond the close-out year of Ibn
+      al-ʿImād's *Shadharāt al-Dhahab*; the principal Sunni-
+      canonical attestation is EI2 (cross-checked editorially
+      against the Hanbali biographical tradition that opens the
+      *Kashshāf* itself).
+    description_ar: |
+      توفي الإمام منصور بن يونس البهوتي — شيخ الحنابلة بمصر، ومصنف
+      «كشاف القناع عن متن الإقناع» — وهو الموسوعة الفقهية في ست
+      مجلدات شرحاً على «الإقناع لطالب الانتفاع» للحجاوي — بالقاهرة
+      عن نحو ثمانين سنة. وله أيضاً «شرح منتهى الإرادات» شرحاً على
+      متن ابن النجار الفتوحي، وله «الروض المربع شرح زاد المستقنع»
+      الذي هو من أوسع شروح المتأخرين من الحنابلة في التدريس.
+      و«الكشاف» مع «شرح المنتهى» هما المرجعان المعتمدان لفقه
+      الحنابلة المتأخرين، وعليهما يقوم منهج التدريس في الإحياء
+      النجدي في القرن الثاني عشر الهجري. وفاته رحمه الله سنة
+      إحدى وخمسين بعد الألف، وهي بعد ختام «شذرات الذهب»، فالعمدة
+      في توثيقها عند أهل السنة «دائرة المعارف الإسلامية» مع
+      المراجعة الإسنادية في ترجمات أهل القاهرة المفصلة في صدور
+      «الكشاف» نفسه.
+    description_fr: |
+      Manṣūr ibn Yūnus al-Buhūtī, Shaykh al-Ḥanābila d'Égypte et
+      auteur de *Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ* — le
+      commentaire monumental de fiqh hanbalite en six volumes sur
+      l'*Iqnāʿ li-Ṭālib al-Intifāʿ* d'al-Ḥajjāwī — mourut au Caire
+      à l'âge d'environ quatre-vingts ans. Il composa aussi
+      *Sharḥ Muntahā al-Irādāt* (son commentaire sur le *matn*
+      d'Ibn al-Najjār al-Futūḥī) et une synthèse pédagogique plus
+      ramassée *al-Rawḍ al-Murbiʿ Sharḥ Zād al-Mustaqniʿ*; le
+      couple *Kashshāf*–*Sharḥ Muntahā* constitue les deux
+      références standards du fiqh hanbalite tardif et structure
+      le curriculum du renouveau najdī du XIIIᵉ siècle de
+      l'Hégire. Sa mort en 1051 H est postérieure à l'année de
+      clôture des *Shadharāt al-Dhahab* d'Ibn al-ʿImād; la
+      principale attestation au sein du canon sunnite est l'EI2
+      (croisée éditorialement avec la tradition biographique
+      hanbalite qui ouvre le *Kashshāf* lui-même).
+    canonical_hijri: {year: 1051, precision: year}
+    canonical_gregorian: {date: 1641-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-buhuti, subject]]
+    tags: [hanbali, fiqh, kashshaf-al-qina, cairo, ottoman, late-classical]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mansur_al-Buhuti"

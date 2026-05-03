@@ -1,0 +1,956 @@
+# Wave 11 of curated event additions (2026-04-26).
+# 1 uncle-martyr at Uhud + 2 jewish/christian convert sahaba
+# + 3 prophetic-era foundational events
+# + 2 mongol-era major moments + 2 indian subcontinent figures
+# + 2 sciences + 2 africa + 1 modern indian scholar.
+# Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # MARTYR + EARLY-CONVERT SAHABA
+  # =========================================================================
+
+  - slug: martyrdom-of-hamza
+    category: companion
+    title_en: Martyrdom of Ḥamza ibn ʿAbd al-Muṭṭalib ra — Sayyid al-Shuhadāʾ
+    title_ar: استشهاد حمزة بن عبد المطلب رضي الله عنه — سيد الشهداء
+    title_fr: Martyre de Ḥamza ibn ʿAbd al-Muṭṭalib ra — *Sayyid al-Shuhadāʾ*
+    description_en: |
+      Ḥamza ibn ʿAbd al-Muṭṭalib — paternal uncle of the Prophet ﷺ
+      and his foster-brother (both nursed by Thuwayba), one of
+      the first noble Quraysh men to embrace Islam (in the sixth
+      year of the prophetic mission), and the warrior whose
+      conversion provided crucial protection for the early
+      Meccan Muslims — fell martyred at the Battle of Uhud (3
+      AH) at the hand of Wahshi ibn Ḥarb, an Abyssinian slave
+      promised freedom by Hind bint ʿUtba in revenge for her
+      father's death at Badr. He was about 58. His body was
+      mutilated by Hind, who chewed his liver in retaliation.
+      The Prophet ﷺ wept over his body — the only time
+      classical sources record his sustained public grief over a
+      Companion's death — and named him *Sayyid al-Shuhadāʾ*
+      (Master of the Martyrs). Wahshi later embraced Islam after
+      the conquest of Mecca; the Prophet ﷺ accepted his
+      conversion but asked him not to appear in his presence
+      thereafter.
+    description_ar: |
+      استشهد حمزة بن عبد المطلب رضي الله عنه — عم النبي ﷺ من
+      أبيه وأخوه من الرضاعة (أرضعتهما ثويبة)، وأحد أوائل أشراف
+      قريش الذين دخلوا في الإسلام (في السنة السادسة من البعثة)،
+      والمحارب الذي وفّر إسلامه حماية حاسمة للمسلمين الأوائل بمكة —
+      في غزوة أحد سنة ثلاث للهجرة على يد وحشي بن حرب، عبد حبشي
+      وعدته هند بنت عتبة بالعتق ثأراً لأبيها يوم بدر. وكان عمره
+      نحو ثمان وخمسين سنة. ومثّلت هند بجسده فبقرت كبده وعضّته.
+      وبكى النبي ﷺ عليه — وهي المرة الوحيدة التي تذكر فيها
+      المصادر القديمة حزنه العلني المتواصل على وفاة صحابي — وسماه
+      «سيد الشهداء». وأسلم وحشي بعد فتح مكة فقبل النبي ﷺ إسلامه
+      وسأله أن يحجب وجهه عنه بعد ذلك.
+    description_fr: |
+      Ḥamza ibn ʿAbd al-Muṭṭalib — oncle paternel du Prophète ﷺ
+      et son frère de lait (tous deux allaités par Thuwayba),
+      l'un des premiers hommes nobles de Quraysh à embrasser
+      l'Islam (la sixième année de la mission prophétique), et
+      le guerrier dont la conversion apporta une protection
+      cruciale aux premiers musulmans mecquois — tomba martyr à
+      la bataille d'Uḥud (3 H) de la main de Waḥshī ibn Ḥarb,
+      esclave abyssinien à qui Hind bint ʿUtba avait promis la
+      liberté en vengeance de la mort de son père à Badr. Il
+      avait environ 58 ans. Son corps fut mutilé par Hind, qui
+      mâcha son foie en représailles. Le Prophète ﷺ pleura sur
+      son corps — la seule fois que les sources classiques
+      consignent son chagrin public soutenu pour la mort d'un
+      Compagnon — et le nomma *Sayyid al-Shuhadāʾ* (Maître des
+      Martyrs). Waḥshī embrassa plus tard l'Islam après la
+      conquête de La Mecque; le Prophète ﷺ accepta sa conversion
+      mais lui demanda de ne plus apparaître en sa présence.
+    canonical_hijri: {year: 3, month: 11, precision: month}
+    canonical_gregorian: {date: 625-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_hajar_isaba
+    hadith_refs: "Bukhari 4072"
+    people: [[hamza-ibn-abdul-muttalib, subject], [muhammad, subject]]
+    tags: [sahaba, uhud, martyrdom, sayyid-al-shuhadaʾ, banu-hashim, mecca]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hamza_ibn_Abdul-Muttalib"
+
+  - slug: death-of-abdullah-ibn-salam
+    category: companion
+    title_en: Death of ʿAbdullah ibn Salam ra
+    title_ar: وفاة عبد الله بن سلام رضي الله عنه
+    title_fr: Mort d'ʿAbdallāh ibn Salām ra
+    description_en: |
+      Abu Yusuf ʿAbdullah ibn Salam al-Isra'ili — leading rabbi
+      of the Banu Qaynuqaʿ tribe of Medina, scholar of the
+      Hebrew scriptures, and the most prominent Jewish convert
+      to Islam during the Madinan period (he embraced Islam on
+      the day of the Prophet's ﷺ arrival at Quba) — died in
+      Medina at age about 80. He recognised the Prophet ﷺ from
+      Hebrew prophetic descriptions and submitted three test
+      questions whose answers, he said, only a true prophet
+      could know — he received them and embraced Islam on the
+      spot. He kept his conversion hidden initially, asking the
+      Prophet ﷺ to summon his Jewish kinsmen and inquire about
+      him before disclosure — an episode preserved in detail by
+      al-Bukhari. The hadith *kana minkum hadhihi al-amma rajulun*
+      ("there was among this nation a man") in which the Prophet ﷺ
+      confirmed his Paradise refers to him.
+    description_ar: |
+      توفي أبو يوسف عبد الله بن سلام الإسرائيلي رضي الله عنه — كبير
+      أحبار يهود بني قينقاع بالمدينة، عالم بالعبرية وكتب الأنبياء،
+      وأبرز من أسلم من اليهود في العصر المدني (دخل في الإسلام يوم
+      وصول النبي ﷺ إلى قباء) — بالمدينة المنورة عن نحو ثمانين سنة.
+      عرف رحمه الله النبي ﷺ من أوصاف الأنبياء في التوراة، وعرض
+      عليه ثلاث مسائل اختبارية قال إنه ما كان يعرف جوابها إلا
+      نبي حق — فأجابه النبي ﷺ فأسلم في موضعه. وكتم إسلامه أول
+      الأمر طلباً منه إلى النبي ﷺ أن يستدعي إخوانه اليهود
+      ويسألهم عنه قبل أن يخبرهم — وهي القصة التي يحفظها البخاري
+      في صحيحه مفصلة. وحديث «كان منكم هذه الأمة رجل» الذي بشره
+      فيه النبي ﷺ بالجنة فيه نزل.
+    description_fr: |
+      Abū Yūsuf ʿAbdullāh ibn Salām al-Isrāʾīlī — rabbin principal
+      de la tribu des Banū Qaynuqāʿ à Médine, savant des
+      écritures hébraïques, et le plus éminent converti juif à
+      l'Islam pendant la période médinoise (il embrassa l'Islam
+      le jour de l'arrivée du Prophète ﷺ à Qubāʾ) — mourut à
+      Médine à l'âge d'environ 80 ans. Il reconnut le Prophète ﷺ
+      à partir des descriptions prophétiques hébraïques et soumit
+      trois questions-test dont les réponses, dit-il, seul un
+      vrai prophète pouvait les connaître — il les reçut et
+      embrassa l'Islam sur place. Il garda d'abord sa conversion
+      cachée, demandant au Prophète ﷺ de convoquer ses parents
+      juifs et de se renseigner à son sujet avant la divulgation
+      — épisode préservé en détail par al-Bukhārī. Le hadith
+      *kāna minkum hādhihi al-umma rajulun* (« il y eut parmi
+      cette nation un homme ») dans lequel le Prophète ﷺ confirma
+      son entrée au Paradis fait référence à lui.
+    canonical_hijri: {year: 43, precision: year}
+    canonical_gregorian: {date: 663-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 3812"
+    people: [[abdullah-ibn-salam, subject]]
+    tags: [sahaba, jewish-convert, medina, banu-qaynuqaʿ, hijra, conversion]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdullah_ibn_Salam"
+
+  - slug: death-of-tamim-al-dari
+    category: companion
+    title_en: Death of Tamim al-Dari ra
+    title_ar: وفاة تميم الداري رضي الله عنه
+    title_fr: Mort de Tamīm al-Dārī ra
+    description_en: |
+      Abu Ruqayya Tamim ibn Aws al-Dari — Christian merchant of
+      the Banu al-Dar (a Lakhmid clan from al-Dūm in Palestine)
+      who embraced Islam in 9 AH and became one of the foremost
+      Companion-narrators of eschatological hadith — died around
+      40 AH in Syria. He is the Companion who narrated to the
+      Prophet ﷺ the famous *ḥadīth al-jassasa* (the Antichrist
+      and the Beast) preserved in Sahih Muslim, after sea-storm
+      survivors he travelled with had landed on a strange island
+      and met both: the Prophet ﷺ confirmed the report and made
+      it part of the Sunna. He was the first Christian convert
+      to lead the Muslim community in *qiyam al-layl* recitation
+      during Ramadan in Medina at ʿUmar's ra direction. He
+      retired to Bayt Jibrin in Palestine where his land grant
+      from the Prophet ﷺ remained in his lineage for centuries.
+    description_ar: |
+      توفي أبو رقية تميم بن أوس الداري رضي الله عنه — تاجر نصراني
+      من بني الدار (حي من لخم من «الدوم» في فلسطين) أسلم سنة
+      تسع للهجرة، وصار من أكبر الصحابة في رواية أحاديث الفتن
+      وأشراط الساعة — نحو سنة أربعين للهجرة بالشام. وهو الصحابي
+      الذي روى للنبي ﷺ حديث «الجساسة» المشهور (في الدجال والدابة)
+      المحفوظ في «صحيح مسلم»، إذ كان رفقاءُ سفر بحري عاصف معهم
+      قد نزلوا في جزيرة غريبة فلقوا الدابة والدجال؛ فأقر النبي ﷺ
+      روايته وأدخلها في السنة. وهو أول نصراني أسلم وأمَّ المسلمين
+      في صلاة قيام رمضان بالمدينة بأمر عمر رضي الله عنه. واعتزل
+      رحمه الله إلى «بيت جبرين» في فلسطين، حيث ظل إقطاع النبي ﷺ
+      له فيها في ذريته قروناً.
+    description_fr: |
+      Abū Ruqayya Tamīm ibn Aws al-Dārī — marchand chrétien des
+      Banū al-Dār (un clan lakhmide d'al-Dūm en Palestine) qui
+      embrassa l'Islam en 9 H et devint l'un des principaux
+      Compagnons-narrateurs de hadiths eschatologiques — mourut
+      vers 40 H en Syrie. Il est le Compagnon qui narra au
+      Prophète ﷺ le célèbre *ḥadīth al-jassāsa* (l'Antéchrist et
+      la Bête) préservé dans Ṣaḥīḥ Muslim, après que des
+      compagnons de voyage maritime survivants à une tempête
+      avec lesquels il voyageait avaient débarqué sur une île
+      étrange et rencontré les deux : le Prophète ﷺ confirma le
+      récit et le fit partie de la Sunna. Il fut le premier
+      converti chrétien à diriger la communauté musulmane en
+      récitation de *qiyām al-layl* pendant le Ramadan à Médine
+      sur la direction d'ʿUmar ra. Il se retira à Bayt Jibrīn
+      en Palestine où sa concession de terres du Prophète ﷺ
+      resta dans sa lignée pendant des siècles.
+    canonical_hijri: {year: 40, precision: year}
+    canonical_gregorian: {date: 660-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Muslim 2942"
+    people: [[tamim-al-dari, subject]]
+    tags: [sahaba, christian-convert, jassasa, dajjal, palestine, syria]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Tamim_al-Dari"
+
+  # =========================================================================
+  # PROPHETIC-ERA FOUNDATIONAL EVENTS
+  # =========================================================================
+
+  - slug: year-of-the-elephant
+    category: prophetic
+    title_en: Year of the Elephant — Defeat of Abraha
+    title_ar: عام الفيل — هزيمة أبرهة
+    title_fr: Année de l'Éléphant — défaite d'Abraha
+    description_en: |
+      Abraha al-Ashram, Christian Aksumite viceroy of Yemen,
+      marched on Mecca with an army that included a war
+      elephant (whose name *Maḥmūd* gave the campaign its Arabic
+      name) intending to destroy the Kaʿba and divert Arabian
+      pilgrimage to a cathedral he had built at Sanaa. The army
+      was destroyed before reaching the city by a flock of
+      birds carrying stones of *sijjīl* (baked clay) — the event
+      memorialised in Sūrat al-Fīl (Q 105): "Have you not seen
+      what your Lord did to the Companions of the Elephant?"
+      The same year — by the consensus of classical Muslim
+      historians, fifty days after the Elephant Year — the
+      Prophet ﷺ was born to Amina bint Wahb in the Banu Hashim
+      quarter of Mecca. The synchrony framed his birth as a
+      divine sign in the very year Allah had defended His House.
+      The Year of the Elephant is conventionally dated 570 CE,
+      though Western scholarship sometimes proposes 552 CE based
+      on Yemeni inscriptions; classical Muslim chronology is
+      uniform.
+    description_ar: |
+      زحف أبرهة الأشرم نائب الحبشة الأكسومية النصرانية على اليمن
+      إلى مكة المكرمة بجيش فيه فيل حربي اسمه «محمود» نوى أن يهدم
+      الكعبة المشرفة ويحول الحج العربي إلى كنيسة كان قد شيدها
+      بصنعاء. فأهلك الله جيشه قبل أن يبلغ المدينة بطيور أبابيل
+      ترميهم بحجارة من سجيل — وهي القصة التي يخلدها قول الله
+      تعالى: ﴿أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ
+      الْفِيلِ﴾ [الفيل: ١]. وفي السنة نفسها — على إجماع المؤرخين
+      المسلمين الأوائل، بعد عام الفيل بخمسين يوماً — ولد النبي
+      ﷺ لآمنة بنت وهب في حي بني هاشم بمكة. فجعل التزامن مولده
+      ﷺ آية إلهية في السنة نفسها التي حمى فيها الله بيته.
+      ويؤرخ عام الفيل اصطلاحاً سنة ٥٧٠ ميلادي، وإن اقترحت
+      بعض الأبحاث الغربية سنة ٥٥٢ ميلادي بناء على نقوش يمنية؛
+      والتاريخ الإسلامي القديم على رواية واحدة.
+    description_fr: |
+      Abraha al-Ashram, vice-roi chrétien aksumite du Yémen,
+      marcha sur La Mecque avec une armée qui comprenait un
+      éléphant de guerre (dont le nom *Maḥmūd* donna à la
+      campagne son nom arabe) avec l'intention de détruire la
+      Kaʿba et de détourner le pèlerinage arabe vers une
+      cathédrale qu'il avait fait construire à Sanaa. L'armée
+      fut détruite avant d'atteindre la ville par une nuée
+      d'oiseaux portant des pierres de *sijjīl* (argile cuite)
+      — événement immortalisé dans la sourate al-Fīl (Q 105) :
+      « N'as-tu pas vu ce que ton Seigneur a fait des Compagnons
+      de l'Éléphant ? » La même année — par consensus des
+      historiens musulmans classiques, cinquante jours après
+      l'Année de l'Éléphant — le Prophète ﷺ naquit d'Āmina bint
+      Wahb dans le quartier des Banū Hāshim à La Mecque. La
+      synchronie présenta sa naissance comme un signe divin
+      dans l'année même où Allah avait défendu Sa Maison.
+      L'Année de l'Éléphant est conventionnellement datée de
+      570 EC, bien que la recherche occidentale propose parfois
+      552 EC sur la base d'inscriptions yéménites; la chronologie
+      musulmane classique est uniforme.
+    canonical_hijri: {year: -53, precision: year}
+    canonical_gregorian: {date: 570-04-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    quran_refs: "105:1"
+    people: [[muhammad, subject]]
+    tags: [prophetic, mecca, abraha, kaʿba, abyssinia, surat-al-fil]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Year_of_the_Elephant"
+
+  - slug: public-proclamation-at-safa
+    category: prophetic
+    title_en: Public Proclamation of Islam at Mt. Ṣafa
+    title_ar: الجهر بالدعوة على جبل الصفا
+    title_fr: Proclamation publique de l'Islam au mont al-Ṣafā
+    description_en: |
+      Three years after the first revelation, Allah commanded
+      the Prophet ﷺ in the Qurʾan: "Warn your nearest
+      kinsmen" (Q 26:214) and, separately, "Proclaim openly
+      what you have been commanded, and turn away from the
+      polytheists" (Q 15:94). The Prophet ﷺ accordingly climbed
+      Mt. Ṣafa adjacent to the Sacred Mosque, summoned the
+      assembled Quraysh by tribe and clan, and asked: "If I
+      told you a cavalry was coming from behind that mountain,
+      would you believe me?" They answered: "We have never known
+      you to lie." He then proclaimed his prophetic mission
+      openly. Abu Lahab cursed him on the spot — the abuse
+      occasioning the revelation of Sūrat al-Masad (Q 111). The
+      proclamation marks the transition from the secret three-
+      year mission of teaching close family and friends to the
+      public mission that Quraysh would oppose for the next
+      decade.
+    description_ar: |
+      بعد ثلاث سنين من نزول أول الوحي أمر الله رسوله ﷺ في القرآن:
+      ﴿وَأَنْذِرْ عَشِيرَتَكَ الْأَقْرَبِينَ﴾ [الشعراء: ٢١٤]،
+      ثم: ﴿فَاصْدَعْ بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ الْمُشْرِكِينَ﴾
+      [الحجر: ٩٤]. فصعد النبي ﷺ جبل الصفا الملاصق للمسجد الحرام،
+      ودعا قريشاً بطناً بطناً وقبيلة قبيلة، وسألهم: «أرأيتم لو
+      أخبرتكم أن خيلاً بالوادي تريد أن تغير عليكم، أكنتم مصدقي؟»
+      قالوا: «ما جربنا عليك إلا صدقاً». فجهر ﷺ ببعثته جهراً.
+      فلعنه أبو لهب في موضعه — وفي ذلك نزول سورة المسد (سورة
+      ١١١). والجهر بالدعوة هو الانتقال من الدعوة السرية ثلاث
+      سنين لذوي القرابة والأصحاب إلى الدعوة العامة التي
+      ستعاديها قريش طوال عقد كامل.
+    description_fr: |
+      Trois ans après la première révélation, Allah ordonna au
+      Prophète ﷺ dans le Coran : « avertis ta proche parenté »
+      (Q 26:214) et, séparément : « proclame ouvertement ce
+      qui t'a été ordonné, et détourne-toi des polythéistes »
+      (Q 15:94). Le Prophète ﷺ gravit en conséquence le mont
+      al-Ṣafā adjacent à la Mosquée Sacrée, convoqua les Quraysh
+      assemblés par tribu et clan, et demanda : « si je vous
+      disais qu'une cavalerie venait de derrière cette montagne,
+      me croiriez-vous ? » Ils répondirent : « nous ne t'avons
+      jamais connu menteur ». Il proclama alors ouvertement sa
+      mission prophétique. Abū Lahab le maudit sur place —
+      injure occasionnant la révélation de la sourate al-Masad
+      (Q 111). La proclamation marque la transition de la
+      mission secrète de trois ans d'enseignement aux proches
+      famille et amis à la mission publique que Quraysh
+      combattrait pendant la décennie suivante.
+    canonical_hijri: {year: -10, precision: year}
+    canonical_gregorian: {date: 613-04-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 4770"
+    quran_refs: "26:214"
+    people: [[muhammad, subject]]
+    tags: [prophetic, mecca, dawah, safa, quraysh, abu-lahab]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_in_Mecca"
+
+  - slug: boycott-of-banu-hashim
+    category: prophetic
+    title_en: Quraysh Boycott of Banū Hāshim and Banū al-Muṭṭalib
+    title_ar: حصار قريش لبني هاشم وبني المطلب
+    title_fr: Boycott de Quraysh contre les Banū Hāshim et Banū al-Muṭṭalib
+    description_en: |
+      The leaders of Quraysh, after seven years of failing to
+      stop the Prophet's ﷺ public preaching, signed a written
+      pact and posted it in the Kaʿba: no Meccan would marry
+      from, sell food to, or buy from the Banū Hāshim and Banū
+      al-Muṭṭalib clans (the Prophet's ﷺ extended kin and his
+      protectors) until they handed him over for execution. The
+      two clans, including their non-Muslim members under the
+      pact-leadership of Abu Ṭalib, retreated to a narrow
+      mountain valley known as *Shiʿb Abi Ṭalib*. The boycott
+      lasted three years. Family members on the outside smuggled
+      food in at night; some Muslims among the besieged died of
+      starvation. The pact was finally broken when five Quraysh
+      youths (led by Hisham ibn ʿAmr) prevailed on the rest to
+      annul it; they discovered the parchment had been eaten by
+      termites except for the words *bi-ismika Allāhumma* ("In
+      Your name, O Allah") at its head — a sign the Prophet ﷺ
+      had foretold to his uncle. Khadīja and Abu Ṭalib both
+      died within months of the boycott's end, in what became
+      called the *ʿĀm al-Ḥuzn* (Year of Sorrow).
+    description_ar: |
+      كتب سادة قريش — بعد سبع سنين من عجزهم عن إيقاف دعوة النبي ﷺ
+      الجاهرة — صحيفة معاهدة معلقة في الكعبة: ألا يناكح أحدُ
+      أهلِ مكة بني هاشم وبني المطلب (قرابة النبي ﷺ وحماته)، ولا
+      يبيع لهم طعاماً ولا يبتاع منهم، حتى يسلموه إليهم للقتل.
+      فاعتزل بنو هاشم وبنو المطلب — بمن فيهم غير المسلمين منهم
+      تحت قيادة المعاهدة لأبي طالب — في شعب أبي طالب الجبلي
+      الضيق. ودام الحصار ثلاث سنين. وكان بعض ذوي القربى من خارج
+      الشعب يهربون لهم الطعام ليلاً، وبعض المسلمين منهم مات
+      جوعاً. وانكسرت الصحيفة آخر الأمر بفعل خمسة من فتيان قريش
+      (بقيادة هشام بن عمرو) أقنعوا سائرَهم بنقضها؛ فاكتشفوا أن
+      الأرضة قد أكلت رق الصحيفة كلَّه إلا «باسمك اللهم» في
+      رأسها — وهي آية أخبر بها النبي ﷺ عمَّه قبل ذلك. وتوفي
+      كل من خديجة وأبي طالب رضي الله عنهما في غضون أشهر من
+      انتهاء الحصار، فيما صار يعرف بـ«عام الحزن».
+    description_fr: |
+      Les chefs de Quraysh, après sept ans d'échec à arrêter la
+      prédication publique du Prophète ﷺ, signèrent un pacte
+      écrit et l'affichèrent dans la Kaʿba : aucun Mecquois ne
+      se marierait avec, ne vendrait de la nourriture à, ni
+      n'achèterait des Banū Hāshim et Banū al-Muṭṭalib (les
+      parents étendus du Prophète ﷺ et ses protecteurs) jusqu'à
+      ce qu'ils le livrent à l'exécution. Les deux clans, y
+      compris leurs membres non musulmans sous la direction du
+      pacte par Abū Ṭālib, se retirèrent dans une vallée
+      montagneuse étroite connue comme *Shiʿb Abī Ṭālib*. Le
+      boycott dura trois ans. Des membres de la famille à
+      l'extérieur faisaient passer en contrebande de la
+      nourriture la nuit; certains musulmans parmi les assiégés
+      moururent de faim. Le pacte fut finalement brisé lorsque
+      cinq jeunes Quraysh (menés par Hishām ibn ʿAmr) convainquirent
+      le reste de l'annuler; ils découvrirent que le parchemin
+      avait été mangé par les termites sauf les mots *bi-ismika
+      Allāhumma* (« En Ton nom, ô Allah ») à sa tête — un
+      signe que le Prophète ﷺ avait prédit à son oncle. Khadīja
+      et Abū Ṭālib moururent tous deux dans les mois qui
+      suivirent la fin du boycott, dans ce qui devint appelé
+      l'*ʿĀm al-Ḥuzn* (Année de Tristesse).
+    canonical_hijri: {year: -7, precision: year}
+    canonical_gregorian: {date: 616-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    people: [[muhammad, subject], [khadija-bint-khuwaylid, subject]]
+    tags: [prophetic, mecca, persecution, banu-hashim, abu-talib, shiʿb]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Meccan_boycott_of_the_Hashemites"
+
+  # =========================================================================
+  # MONGOL-ERA + INDIA + AFRICA + SCIENCES + MODERN
+  # =========================================================================
+
+  - slug: mongol-siege-of-bukhara
+    category: battle
+    title_en: Mongol Sack of Bukhara
+    title_ar: استباحة المغول بخارى
+    title_fr: Sac mongol de Boukhara
+    description_en: |
+      Genghis Khan's Mongol army arrived before the walls of
+      Bukhara during his invasion of the Khwarazmian empire.
+      The garrison sortied and was annihilated; the citizens
+      surrendered, but Genghis Khan personally rode his horse
+      into the central Friday mosque, threw down its Qurʾans
+      under his soldiers' feet, and declared in a speech to
+      the assembled population (preserved verbatim by Juwayni
+      and translated by Ibn al-Athir) that he was the punishment
+      of God sent against them for their sins. The city was then
+      systematically pillaged for five days; classical Muslim
+      sources record that 30,000 of the male inhabitants were
+      slaughtered and the surviving women, children, and skilled
+      craftsmen deported into Mongol service. The fire that
+      ensued from the looting destroyed the bulk of the city.
+      Bukhara — the cradle of al-Bukhari and one of the great
+      hadith centres of the Islamic east — never fully recovered
+      its pre-Mongol intellectual stature. Ibn al-Athir's
+      eyewitness account in *al-Kāmil fī al-Tārīkh* opens with
+      the famous line: "If anyone were to say that since God
+      created Adam no calamity like this had befallen humanity,
+      he would be telling the truth."
+    description_ar: |
+      وصل جيش جنكيز خان المغولي إلى أسوار بخارى في غزوته للدولة
+      الخوارزمية. خرجت الحامية فأبيدت، فاستسلم أهل المدينة، فدخل
+      جنكيز خان بنفسه على فرسه إلى الجامع الكبير، وألقى مصاحف
+      القرآن تحت أقدام جنوده، وألقى خطبة في الناس المجتمعين (يحفظها
+      الجويني نصاً ويترجمها ابن الأثير) قال فيها إنه عقاب الله
+      المسلط عليهم بسبب ذنوبهم. ثم استبيحت المدينة خمسة أيام؛
+      وذكرت كتب التاريخ الإسلامي القديمة أن ثلاثين ألفاً من رجال
+      أهلها قتلوا، وسيقت من بقي من النساء والأطفال والصناع المهرة
+      عبيداً للمغول. وأحرق ما اشتعل من النهب معظم المدينة. وبخارى
+      — مهد الإمام البخاري وأحد أعظم مراكز الحديث في المشرق
+      الإسلامي — لم تستعد قط مكانتها العلمية قبل المغول. ويفتتح
+      ابن الأثير شاهد العصر روايته في «الكامل» بالعبارة المشهورة:
+      «لو قيل إن العالم منذ خلق الله آدم إلى الآن لم يبتل بمثله
+      لكان قائله صادقاً».
+    description_fr: |
+      L'armée mongole de Gengis Khan arriva devant les murs de
+      Boukhara durant son invasion de l'empire khwarezmien. La
+      garnison sortit et fut anéantie; les citoyens capitulèrent,
+      mais Gengis Khan chevaucha personnellement jusqu'à la
+      grande mosquée du vendredi, jeta ses Corans sous les pieds
+      de ses soldats et déclara dans un discours à la population
+      assemblée (préservé verbatim par Juwaynī et traduit par
+      Ibn al-Athīr) qu'il était le châtiment de Dieu envoyé
+      contre eux pour leurs péchés. La ville fut ensuite
+      systématiquement pillée pendant cinq jours; les sources
+      musulmanes classiques rapportent que 30 000 des habitants
+      mâles furent massacrés et les femmes, enfants et artisans
+      qualifiés survivants déportés au service mongol.
+      L'incendie qui s'ensuivit du pillage détruisit l'essentiel
+      de la ville. Boukhara — berceau d'al-Bukhārī et l'un des
+      grands centres de hadith de l'Orient islamique — ne
+      retrouva jamais pleinement sa stature intellectuelle
+      pré-mongole. Le récit de témoin oculaire d'Ibn al-Athīr
+      dans *al-Kāmil fī al-Tārīkh* s'ouvre par la célèbre
+      phrase : « si quelqu'un disait que depuis que Dieu créa
+      Adam une calamité comme celle-ci ne s'était abattue sur
+      l'humanité, il dirait la vérité ».
+    canonical_hijri: {year: 617, month: 2, precision: month}
+    canonical_gregorian: {date: 1220-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: dhahabi_tarikh_islam
+    tags: [mongols, bukhara, khwarazm, genghis-khan, transoxiana, catastrophe]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siege_of_Bukhara_(1220)"
+
+  - slug: founding-of-maragha-observatory
+    category: foundation
+    title_en: Founding of the Maragha Observatory
+    title_ar: تأسيس مرصد مراغة
+    title_fr: Fondation de l'observatoire de Marāgha
+    description_en: |
+      Hulagu Khan, recently the conqueror of Baghdad and now
+      consolidating Ilkhanid rule across Persia, ordered the
+      construction of a state-funded astronomical observatory
+      at Maragha in northwestern Iran on the recommendation of
+      the polymath Naṣir al-Din al-Ṭusi, whom he had taken
+      from the Ismaʿili fortress at Alamut into his court. The
+      observatory was completed within four years and remained
+      in operation for nearly a century, becoming the leading
+      research observatory of the medieval world. Its scientists
+      — including al-Ṭusi himself, Quṭb al-Din al-Shirazi, and
+      Mu'ayyad al-Din al-ʿUrdi — produced the *Zīj-i Ilkhāni*
+      (the most accurate astronomical handbook of its time),
+      developed the *Ṭusi couple* and the ʿUrdi lemma (geometric
+      devices later used by Copernicus to reform planetary
+      models without explicit attribution), and trained a
+      generation of astronomers whose work spread to Damascus,
+      Cairo, and Samarqand. The library housed an estimated
+      400,000 volumes drawn from across the Mongol-conquered
+      lands. The observatory was destroyed in the Timurid
+      raids of the late 14th century.
+    description_ar: |
+      أمر هولاكو خان — فاتح بغداد حديثاً والمستقر بسلطان
+      الإيلخانيين على بلاد فارس — ببناء مرصد فلكي تموله الدولة
+      في «مراغة» شمال غرب إيران، بناء على إشارة من الموسوعي نصير
+      الدين الطوسي الذي أخرجه من قلعة الإسماعيلية الباطنية في
+      آلموت إلى بلاطه. واستكمل بناء المرصد في أربع سنين، وظل
+      عاملاً قرابة قرن، فصار مرصد الأبحاث الرائد في العالم في
+      العصور الوسطى. وأخرج علماؤه — منهم الطوسي نفسه وقطب الدين
+      الشيرازي ومؤيد الدين العرضي — «الزيج الإيلخاني» (أدق زيج
+      فلكي في زمنه)، وطوروا «شكل الطوسي» و«قاعدة العرضي» (أداتين
+      هندسيتين استخدمهما كوبرنيكوس لاحقاً في تنقيح النماذج
+      الكوكبية دون نسبتهما إليهما)، ودرّبوا جيلاً من الفلكيين
+      انتشر علمهم إلى دمشق والقاهرة وسمرقند. وضمت مكتبته نحو
+      أربع مئة ألف مجلد جلبت من البلاد التي فتحها المغول. ودمر
+      المرصد في غزوات تيمور لنك في أواخر القرن الرابع عشر
+      الميلادي.
+    description_fr: |
+      Hulagu Khan, récent conquérant de Bagdad et désormais
+      consolidant le règne ilkhanide sur la Perse, ordonna la
+      construction d'un observatoire astronomique financé par
+      l'État à Marāgha dans le nord-ouest de l'Iran sur la
+      recommandation du polymathe Naṣīr al-Dīn al-Ṭūsī, qu'il
+      avait fait sortir de la forteresse ismaélienne d'Alamut
+      pour le ramener à sa cour. L'observatoire fut achevé en
+      quatre ans et demeura en activité près d'un siècle,
+      devenant l'observatoire de recherche de référence du
+      monde médiéval. Ses scientifiques — dont al-Ṭūsī lui-
+      même, Quṭb al-Dīn al-Shīrāzī et Muʾayyad al-Dīn al-ʿUrḍī
+      — produisirent le *Zīj-i Īlkhānī* (le manuel astronomique
+      le plus précis de son temps), développèrent le *couple
+      de Ṭūsī* et le lemme d'ʿUrḍī (dispositifs géométriques
+      plus tard utilisés par Copernic pour réformer les modèles
+      planétaires sans attribution explicite), et formèrent une
+      génération d'astronomes dont les travaux se diffusèrent
+      à Damas, au Caire et à Samarcande. La bibliothèque abrita
+      quelque 400 000 volumes provenant de toutes les terres
+      conquises par les Mongols. L'observatoire fut détruit
+      lors des raids timourides de la fin du XIVe siècle.
+    canonical_hijri: {year: 657, precision: year}
+    canonical_gregorian: {date: 1259-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[nasir-al-din-al-tusi, subject]]
+    tags: [ilkhanid, observatory, astronomy, maragha, hulagu, tusi, copernicus]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Maragheh_observatory"
+
+  - slug: death-of-muhammad-ibn-tughluq
+    category: ruler
+    title_en: Death of Sultan Muhammad ibn Tughluq
+    title_ar: وفاة السلطان محمد بن تغلق
+    title_fr: Mort du sultan Muḥammad ibn Tughluq
+    description_en: |
+      Muhammad ibn Tughluq, second sultan of the Tughluqid
+      dynasty of Delhi (reigned 725-752 AH / 1325-1351 CE), one
+      of the most learned and most controversial sovereigns of
+      medieval India, died in Sindh on a campaign to suppress a
+      revolt — at age about 60. His reign saw the Delhi Sultanate
+      reach its greatest territorial extent (extending across
+      virtually the entire Indian subcontinent) but also its
+      most catastrophic policy experiments: the forced relocation
+      of the capital from Delhi to Daulatabad in the Deccan
+      (depopulating Delhi), the introduction of token copper
+      currency that triggered hyperinflation, and military
+      campaigns into Khurasan and the Himalayas that bankrupted
+      the treasury. He was a personal patron of Ibn Battuta (who
+      served as his qadi for years and recorded the reign in
+      detail in his *Riḥla*), of Hindi-Persian translation
+      projects, and of the Chishti and Suhrawardi Sufi networks.
+      His death enabled the gradual consolidation of the Mughal-
+      precursor regional sultanates of Bengal, Gujarat, and the
+      Bahmanis.
+    description_ar: |
+      توفي السلطان محمد بن تغلق — ثاني سلاطين الدولة التغلقية
+      بدلهي (حكم من ٧٢٥ إلى ٧٥٢ هـ / ١٣٢٥-١٣٥١ ميلادي)، وأحد
+      أعلم سلاطين الهند الإسلامية في القرون الوسطى وأكثرهم إثارة
+      للجدل — في السند وهو في حملة قمع لثورة، وقد ناهز الستين.
+      وبلغت سلطنة دلهي في عهده أقصى رقعتها الجغرافية (تمتد على
+      عامة شبه القارة الهندية)، وشهدت في الوقت ذاته أعظم
+      التجارب الكارثية في السياسة: إكراه السكان على نقل العاصمة
+      من دلهي إلى دولت آباد في الدكن (فأخلى دلهي)، وإصدار
+      عملة نحاسية رمزية أطلقت تضخماً جامحاً، وحملات عسكرية إلى
+      خراسان وجبال الهملايا أفلست بيت المال. وكان رحمه الله
+      راعياً شخصياً لابن بطوطة (الذي عمل قاضياً عنده سنين وسجل
+      عهده في «الرحلة» مفصلاً)، ومشاريع ترجمة هندية-فارسية،
+      وشبكتي الشاذلية الجشتية والسهروردية الصوفيتين. وأطلق موته
+      التبلور التدريجي للسلطنات المحلية التي ستسبق الدولة
+      المغولية: البنغال وكجرات والبهمنيين.
+    description_fr: |
+      Muḥammad ibn Tughluq, deuxième sultan de la dynastie
+      tughluquide de Delhi (règne 725-752 H / 1325-1351 EC), l'un
+      des souverains les plus érudits et les plus controversés
+      de l'Inde médiévale, mourut au Sindh lors d'une campagne
+      pour réprimer une révolte — à l'âge d'environ 60 ans. Son
+      règne vit le sultanat de Delhi atteindre sa plus grande
+      extension territoriale (s'étendant sur pratiquement tout
+      le sous-continent indien) mais aussi ses expériences
+      politiques les plus catastrophiques : le transfert forcé
+      de la capitale de Delhi à Daulatabad dans le Deccan
+      (dépeuplant Delhi), l'introduction d'une monnaie de cuivre
+      symbolique qui déclencha une hyperinflation, et des
+      campagnes militaires au Khurasan et dans l'Himalaya qui
+      mirent le trésor en faillite. Il fut le mécène personnel
+      d'Ibn Baṭṭūṭa (qui servit comme son *qāḍī* pendant des
+      années et consigna le règne en détail dans sa *Riḥla*),
+      des projets de traduction hindi-persan, et des réseaux
+      soufis Chishtī et Suhrawardī. Sa mort permit la
+      consolidation progressive des sultanats régionaux
+      pré-moghols du Bengale, du Gujarat et des Bahmanides.
+    canonical_hijri: {year: 752, month: 12, precision: month}
+    canonical_gregorian: {date: 1351-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[muhammad-ibn-tughluq, subject], [ibn-battuta, subject]]
+    tags: [delhi-sultanate, india, tughluq, sindh, ibn-battuta]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_bin_Tughluq"
+
+  - slug: death-of-moinuddin-chishti
+    category: scholar
+    title_en: Death of Khwaja Moinuddin Chishti
+    title_ar: وفاة خواجه معين الدين الجشتي
+    title_fr: Mort de Khwāja Moinuddin Chishtī
+    description_en: |
+      Khwaja Muʿin al-Din Chishti — Persian-born Sunni Sufi
+      scholar of the Chishti tariqa, who emigrated from Sijistan
+      to Delhi during the early Ghurid expansion and settled
+      permanently at Ajmer in Rajasthan, founding the Chishti
+      order in India — died at Ajmer at age about 95. His
+      thirty-year teaching mission at Ajmer drew converts from
+      across Hindu-majority north India and established the
+      Chishti as the principal Sufi network of the Indian
+      subcontinent. Distinct from later Naqshbandi-Mujaddidi
+      reform Sufism, the Chishti order embraced indigenous
+      cultural forms — Hindi-Urdu hagiographic poetry, the use
+      of qawwali musical recitation, and Hindu interfaith
+      hospitality — within a strict Sharia framework. His
+      *darga* at Ajmer remains the largest Sufi pilgrimage
+      destination in the Indian subcontinent, drawing over
+      400,000 visitors at the annual ʿurs commemorating his
+      death. Through him, Bahaʾ al-Din Zakariya, Niẓam al-Din
+      Awliya, and Naṣir al-Din Maḥmud "Chiragh-i Delhi" — every
+      classical Indian Sufi master of the Delhi sultanate era —
+      traces his initiatic chain.
+    description_ar: |
+      توفي الخواجه معين الدين الجشتي — صوفي سني فارسي المولد على
+      مذهب الطريقة الجشتية، هاجر من سجستان إلى دلهي في بداية
+      التوسع الغوري واستقر دائماً في «أجمير» في راجستان، فأسس
+      الطريقة الجشتية في الهند — في أجمير عن نحو خمس وتسعين سنة.
+      وحركة تدريسه ثلاثين سنة في أجمير اجتذبت معتنقين من عامة
+      شمال الهند الذي يغلب عليه الهندوس، وأسست الجشتية شبكة
+      الطرق الصوفية الكبرى في شبه القارة الهندية. وامتيازاً
+      عن النقشبندية المجدّدية الإصلاحية اللاحقة، تبنّت الجشتية
+      المعالم الثقافية المحلية — الشعر الهندي-الأردي في المناقب،
+      وإنشاد القوّالي الموسيقي، وضيافة العبادة بين الأديان —
+      في إطار الشريعة الصارم. وما زال «درغاه» شيخه بأجمير أكبر
+      مزار صوفي في شبه القارة الهندية، يأم سنوياً أكثر من أربع
+      مئة ألف زائر في «العرس» ذكرى وفاته. وعبر شيخ الإسلام
+      الجشتي تنحدر سلاسل بهاء الدين زكريا ونظام الدين أولياء
+      وناصر الدين محمود «جراغ دلهي» — كل أعلام التصوف الهندي
+      الكلاسيكي في عصر سلطنة دلهي.
+    description_fr: |
+      Khwāja Muʿīn al-Dīn Chishtī — savant soufi sunnite né en
+      Perse de la *ṭarīqa Chishtiyya*, qui émigra du Sistan à
+      Delhi durant la première expansion ghuride et s'installa
+      définitivement à Ajmer au Rajasthan, fondant l'ordre
+      Chishtī en Inde — mourut à Ajmer à l'âge d'environ 95 ans.
+      Sa mission d'enseignement de trente ans à Ajmer attira des
+      convertis de tout le nord de l'Inde majoritairement
+      hindou et établit la Chishtiyya comme le principal réseau
+      soufi du sous-continent indien. Distincte du soufisme
+      réformiste Naqshbandiyya-Mujaddidiyya ultérieur, l'ordre
+      Chishtī embrassa les formes culturelles indigènes — la
+      poésie hagiographique hindi-ourdou, l'usage de la
+      récitation musicale *qawwālī*, et l'hospitalité
+      interconfessionnelle hindoue — dans un cadre strict de
+      *sharīʿa*. Sa *dargāh* à Ajmer demeure la plus grande
+      destination de pèlerinage soufie du sous-continent indien,
+      attirant plus de 400 000 visiteurs lors du *ʿurs* annuel
+      commémorant sa mort. À travers lui, Bahāʾ al-Dīn Zakarīya,
+      Niẓām al-Dīn Awliyā et Naṣīr al-Dīn Maḥmūd « Chirāgh-i
+      Delhi » — chaque maître soufi indien classique de l'ère
+      du sultanat de Delhi — fait remonter sa chaîne initiatique.
+    canonical_hijri: {year: 633, month: 6, precision: month}
+    canonical_gregorian: {date: 1236-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[moinuddin-chishti, subject]]
+    tags: [sufi, sunni, chishtiyya, india, ajmer, delhi-sultanate, ghurid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Moinuddin_Chishti"
+
+  - slug: death-of-al-karaji
+    category: scientist
+    title_en: Death of al-Karaji — algebraist of Baghdad
+    title_ar: وفاة الكرجي — جبرى بغداد
+    title_fr: Mort d'al-Karajī — algébriste de Bagdad
+    description_en: |
+      Abu Bakr Muhammad ibn al-Husayn al-Karaji — mathematician
+      who flourished at the Buyid court in Baghdad, author of
+      the foundational algebra texts *al-Fakhri* and *al-Badiʿ*,
+      and the scholar who effected the first complete
+      separation of algebra from geometry in mathematical
+      history — died at Rayy. He developed the systematic theory
+      of polynomials and introduced what would later be called
+      *mathematical induction* in his proof of the formula for
+      the sum of integral cubes. His treatment of integer-power
+      arithmetic in *al-Fakhri* runs parallel to the methods
+      formalised in Europe by François Viète in the late 16th
+      century — a six-hundred-year priority. His engineering
+      treatise *Inbat al-Miyah al-Khafiyya* on subterranean
+      water-extraction (qanat construction) is the earliest
+      complete manual on the subject in any language; it
+      remained the standard reference for Persian-Iraqi qanat
+      engineers into the early modern period.
+    description_ar: |
+      توفي الإمام أبو بكر محمد بن الحسين الكرجي — رياضياتي ازدهر
+      في بلاط البويهيين ببغداد، ومصنف كتابي الجبر الأصليين
+      «الفخري» و«البديع»، والعالم الذي أحدث أول فصل تام للجبر
+      عن الهندسة في تاريخ الرياضيات — بالريّ. طور النظرية
+      المنهجية لكثيرات الحدود، وأدخل ما سيسمى لاحقاً «الاستقراء
+      الرياضي» في برهانه لقانون مجموع المكعبات الصحيحة. وخوضه
+      في حساب القوى الصحيحة في «الفخري» يجري بمناهج موازية
+      لما رسمه فرنسوا فييت في أوروبا في أواخر القرن السادس
+      عشر — أسبقية بست مئة سنة. وأما كتابه الهندسي «إنباط
+      المياه الخفية» في استنباط القنوات الجوفية، فهو أقدم متن
+      كامل في هذا الموضوع بأي لغة؛ وظل المرجع المعتمد للقنواتية
+      الفارسية-العراقية إلى العصر الحديث المبكر.
+    description_fr: |
+      Abū Bakr Muḥammad ibn al-Ḥusayn al-Karajī — mathématicien
+      qui prospéra à la cour bouyide de Bagdad, auteur des
+      textes algébriques fondateurs *al-Fakhrī* et *al-Badīʿ*,
+      et le savant qui effectua la première séparation complète
+      de l'algèbre de la géométrie dans l'histoire des
+      mathématiques — mourut à Rayy. Il développa la théorie
+      systématique des polynômes et introduisit ce qui serait
+      plus tard appelé l'*induction mathématique* dans sa
+      démonstration de la formule de la somme des cubes
+      entiers. Son traitement de l'arithmétique des puissances
+      entières dans *al-Fakhrī* suit des méthodes parallèles à
+      celles formalisées en Europe par François Viète à la
+      fin du XVIe siècle — une antériorité de six cents ans.
+      Son traité d'ingénierie *Inbāṭ al-Miyāh al-Khafiyya* sur
+      l'extraction d'eau souterraine (construction de *qanat*)
+      est le plus ancien manuel complet sur le sujet dans toute
+      langue; il demeura la référence standard pour les
+      ingénieurs persano-irakiens de *qanat* jusqu'à l'époque
+      moderne précoce.
+    canonical_hijri: {year: 410, precision: year}
+    canonical_gregorian: {date: 1019-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[al-karaji, subject]]
+    tags: [scientist, mathematics, algebra, baghdad, buyid, qanat, induction]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Karaji"
+
+  - slug: death-of-al-khazini
+    category: scientist
+    title_en: Death of al-Khazini — Mizan al-Hikma
+    title_ar: وفاة الخازني — صاحب «ميزان الحكمة»
+    title_fr: Mort d'al-Khāzinī — auteur du *Mīzān al-Ḥikma*
+    description_en: |
+      Abu al-Fath ʿAbd al-Rahman al-Khazini — Byzantine-origin
+      slave-emancipated polymath at the Saljuq court at Marv,
+      author of *Kitab Mizan al-Ḥikma* (the Book of the Balance
+      of Wisdom), the most extensive medieval treatise on
+      hydrostatics and the physics of weighing — died around
+      530 AH. *Mizan al-Ḥikma* presents the theoretical and
+      experimental basis for measurement of specific gravity
+      with greater accuracy than any work of European hydrostatics
+      until Galileo and Stevin in the late 16th century. He
+      tabulated the specific gravities of fifty substances
+      (metals, gemstones, liquids) with errors of less than 1%
+      — values still cited in twentieth-century scientific-
+      history publications. His astronomical handbook *al-Zij
+      al-Sanjari* was produced at the order of Saljuq Sultan
+      Sanjar; his treatise *Ḥawadith al-ʿAlam* on world phenomena
+      addresses optical, atmospheric, and physiological questions
+      with the systematic experimental orientation that
+      characterised the broader Marv-Khurasan school.
+    description_ar: |
+      توفي الإمام أبو الفتح عبد الرحمن الخازني — عالم موسوعي من
+      أصول رومية، عتيق في بلاط السلاجقة بـ«مرو»، ومصنف «كتاب
+      ميزان الحكمة»، أوسع متن في علم الهيدروستاتيكا وفيزياء
+      الوزن في العصور الوسطى — نحو سنة ٥٣٠ هـ. ويقدم «ميزان
+      الحكمة» الأساس النظري والتجريبي لقياس الكثافة النوعية
+      بدقة تفوق دقة أي عمل في الهيدروستاتيكا الأوروبية حتى
+      غاليليو وستيفن في أواخر القرن السادس عشر. سجل في جداوله
+      الكثافات النوعية لخمسين مادة (معادن وأحجار كريمة وسوائل)
+      بنسب خطأ أقل من ١٪ — وهي القيم التي ما زالت تستشهد بها
+      منشورات تاريخ العلم في القرن العشرين. أما زيجه الفلكي
+      «الزيج السنجري» فأخرجه بأمر السلطان السلجوقي سنجر؛
+      ورسالته «حوادث العالم» في ظواهر العالم تخوض في مسائل
+      البصريات والأرصاد الجوية والفسيولوجيا بالتوجه التجريبي
+      المنهجي الذي يميز مدرسة مرو-خراسان الأوسع.
+    description_fr: |
+      Abū al-Fatḥ ʿAbd al-Raḥmān al-Khāzinī — polymathe d'origine
+      byzantine émancipé d'esclavage à la cour seldjoukide de
+      Merv, auteur du *Kitāb Mīzān al-Ḥikma* (Le Livre de la
+      Balance de la Sagesse), le traité médiéval le plus
+      exhaustif sur l'hydrostatique et la physique de la pesée
+      — mourut vers 530 H. *Mīzān al-Ḥikma* présente la base
+      théorique et expérimentale pour la mesure de la gravité
+      spécifique avec une précision supérieure à tout ouvrage
+      d'hydrostatique européen jusqu'à Galilée et Stevin à la
+      fin du XVIe siècle. Il dressa des tables de gravités
+      spécifiques de cinquante substances (métaux, pierres
+      précieuses, liquides) avec des erreurs inférieures à 1%
+      — valeurs encore citées dans les publications
+      d'historiographie scientifique du XXe siècle. Son manuel
+      astronomique *al-Zīj al-Sanjarī* fut produit sur l'ordre
+      du sultan seldjoukide Sanjar; son traité *Ḥawādith al-
+      ʿĀlam* sur les phénomènes mondiaux traite de questions
+      optiques, atmosphériques et physiologiques avec
+      l'orientation expérimentale systématique qui caractérisa
+      l'école plus large de Marv-Khurasan.
+    canonical_hijri: {year: 530, precision: year}
+    canonical_gregorian: {date: 1136-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: editorial
+    people: [[al-khazini, subject]]
+    tags: [scientist, physics, hydrostatics, marv, saljuq, mizan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Khazini"
+
+  # Ibrahim Niass (Tijani-Niassene fayḍa branch) intentionally excluded
+  # pending user decision on the Tijani tariqa more broadly. The Niassene
+  # fayḍa doctrine and the *Khalīfat al-Tijānī* status accorded to Niass
+  # raise the same ghuluw concerns flagged for the Mouride entries; see
+  # EDITORIAL.md "Sunni orthodoxy" rule.
+
+  - slug: death-of-abu-al-hasan-al-nadwi
+    category: scholar
+    title_en: Death of Sayyid Abu al-Hasan ʿAli al-Nadwi
+    title_ar: وفاة السيد أبو الحسن علي الندوي
+    title_fr: Mort de Sayyid Abū al-Ḥasan ʿAlī al-Nadwī
+    description_en: |
+      Sayyid Abu al-Hasan ʿAli al-Hasani al-Nadwi — Indian Sunni
+      scholar of Lucknow, rector of Dār al-ʿUlum Nadwat al-
+      ʿUlamāʾ (the central Indian Sunni seminary that draws its
+      methodology from Shah Waliullah and combines Hanafi fiqh
+      with engagement with modern thought), and author of more
+      than fifty books in Arabic and Urdu including *Madha
+      Khasira al-ʿAlam bi-Inḥiṭaṭ al-Muslimin* ("What the World
+      Lost by the Decline of the Muslims"), the single most
+      widely read Indian Sunni book in twentieth-century Arabic
+      circulation — died in Raebareli, Uttar Pradesh, at age 86.
+      He served on the Founding Committee of the Muslim World
+      League and the Islamic Fiqh Academy of Jeddah, and lectured
+      across the Arab world from Damascus to Cairo to Riyadh.
+      His four-volume *Sira al-Nabawiyya* in Arabic became a
+      modern Indian-Sunni classic. He chaired the All-India
+      Muslim Personal Law Board and was the most senior Indian
+      Sunni interlocutor with the global Arab Sunni mainstream
+      for decades.
+    description_ar: |
+      توفي السيد أبو الحسن علي الحسني الندوي — عالم سني هندي من
+      لكناو، عميد دار العلوم ندوة العلماء (الحوزة السنية الهندية
+      المركزية التي تستمد منهجها من شاه ولي الله، وتجمع بين
+      الفقه الحنفي والاشتباك مع الفكر الحديث)، ومصنف ما يزيد
+      على خمسين كتاباً بالعربية والأردية، منها «ماذا خسر العالم
+      بانحطاط المسلمين»، أوسع كتاب سني هندي انتشاراً بالعربية
+      في القرن العشرين — في «راي بريلي» في ولاية أوتر برديش
+      الهندية عن ست وثمانين سنة. وخدم في اللجنة المؤسسة
+      لرابطة العالم الإسلامي ومجمع الفقه الإسلامي بجدة، وألقى
+      محاضراته في عامة العالم العربي من دمشق إلى القاهرة إلى
+      الرياض. وصار كتابه «السيرة النبوية» في أربعة مجلدات
+      بالعربية كلاسيكاً سنياً هندياً حديثاً. ورأس مجلس الأحوال
+      الشخصية للمسلمين في الهند كافة، وكان كبير المحاورين
+      السنيين الهنود مع التيار العربي السني العام عقوداً.
+    description_fr: |
+      Sayyid Abū al-Ḥasan ʿAlī al-Ḥasanī al-Nadwī — savant sunnite
+      indien de Lucknow, recteur de Dār al-ʿUlūm Nadwat al-
+      ʿUlamāʾ (le séminaire sunnite indien central qui tire sa
+      méthodologie de Shah Walīullāh et combine fiqh hanafite
+      avec engagement avec la pensée moderne), et auteur de
+      plus de cinquante livres en arabe et en ourdou dont
+      *Mādhā Khasira al-ʿĀlam bi-Inḥiṭāṭ al-Muslimīn* (« Ce
+      que le monde a perdu avec le déclin des musulmans »), le
+      livre sunnite indien unique le plus largement lu en
+      circulation arabe du XXe siècle — mourut à Raebareli, en
+      Uttar Pradesh, à l'âge de 86 ans. Il siégea au comité
+      fondateur de la Ligue islamique mondiale et de l'Académie
+      du fiqh islamique de Djeddah, et donna des conférences à
+      travers le monde arabe de Damas au Caire à Riyad. Sa
+      *Sīra al-Nabawiyya* en quatre volumes en arabe devint un
+      classique sunnite indien moderne. Il présida le conseil
+      du droit personnel des musulmans de toute l'Inde et fut
+      le principal interlocuteur sunnite indien avec le courant
+      général sunnite arabe mondial pendant des décennies.
+    canonical_hijri: {year: 1420, month: 9, day: 22, precision: day}
+    canonical_gregorian: {date: 1999-12-31, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abu-al-hasan-al-nadwi, subject]]
+    tags: [india, lucknow, nadwa, hanafi, modern, sunni, sira]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abul_Hasan_Ali_Hasani_Nadwi"

@@ -1,0 +1,799 @@
+# Wave 84 of curated event additions (2026-04-27).
+# Classical Hanafi madhhab scholars not yet in the dataset —
+# the 4th–13th c. AH chain of Hanafi imāms whose mukhtaṣars,
+# shurūḥ, fatāwā, and ḥāshiyas constitute the canonical written
+# tradition of the school. Selection complements the figures
+# already covered in earlier waves (al-Sarakhsī, al-Marghīnānī,
+# Ibn Nujaym, al-Ḥaṣkafī, Ibn ʿĀbidīn — see files 06, 32, 68).
+#
+# Coverage. The Hanafi school's classical literary chain runs:
+#   - al-Karkhī (340 AH) — early Iraqi imām, *Mukhtaṣar al-Karkhī*
+#   - al-Qudūrī (428 AH) — *al-Mukhtaṣar* (the canonical primer)
+#   - al-Ṣadr al-Shahīd (536 AH) — *Sharḥ al-Jāmiʿ al-Ṣaghīr*
+#   - al-Kāsānī (587 AH) — *Badāʾiʿ al-Ṣanāʾiʿ*
+#   - al-Ḥaṣīrī (636 AH) — *al-Tahdhīb fī al-Farāʾiḍ*
+#   - Ibn Mawdūd al-Mawṣilī (683 AH) — *al-Ikhtiyār li-Taʿlīl al-Mukhtār*
+#   - al-Zaylaʿī Fakhr al-Dīn (743 AH) — *Tabyīn al-Ḥaqāʾiq*
+#   - al-Bābartī Akmal al-Dīn (786 AH) — *al-ʿInāya Sharḥ al-Hidāya*
+#   - Ibn al-Humām (861 AH) — *Fatḥ al-Qadīr*
+#   - Mullā Khusraw (885 AH) — *Durar al-Ḥukkām*, Ottoman shaykh al-Islām
+#   - ʿAbd al-Ḥayy al-Lakhnawī (1304 AH) — Indian Hanafi muḥaddith-faqīh
+#
+# Sourcing. The classical wafayāt corpus is uneven by period:
+# Ibn Khallikān's *Wafayāt* stops at 681 AH, al-Dhahabī's
+# *Siyar* and *Tarīkh al-Islām* at 748 AH, Ibn al-ʿImād's
+# *Shadharāt al-Dhahab* at 1000 AH. Figures within those windows
+# are anchored by whichever classical witnesses cover them; Ibn
+# Ḥajar's *al-Durar al-Kāmina* (8th c. AH biographical
+# dictionary) is decisive for the 8th-century AH cluster.
+# The 13th-century AH Indian Hanafi al-Lakhnawī falls beyond
+# the Sunni wafayāt corpus altogether and is anchored by EI2 +
+# editorial cross-check, on the same convention as wave 68's
+# late-Ottoman entries.
+#
+# Hadith refs intentionally omitted (no specific narration
+# anchors a Hanafi codifier's death). Only source_keys present
+# in sources.yaml are used.
+
+events:
+  # =========================================================================
+  # 4TH–5TH C. AH — THE EARLY IRAQI MUKHTAṢAR-WRITERS
+  # =========================================================================
+
+  - slug: death-of-abu-al-hasan-al-karkhi
+    category: scholar_death
+    title_en: Death of Abū al-Ḥasan al-Karkhī — Early Iraqi Hanafi Imām
+    title_ar: وفاة أبي الحسن الكرخي — إمام الحنفية بالعراق
+    title_fr: Mort d'Abū al-Ḥasan al-Karkhī — imām hanafite de l'Irak
+    description_en: |
+      Abū al-Ḥasan ʿUbayd Allāh ibn al-Ḥusayn al-Karkhī, head of
+      the Hanafi school in Iraq during the first half of the
+      fourth century AH and the figure through whom the chain of
+      Hanafi transmission from Abū Yūsuf and al-Shaybānī passed
+      to the Baghdad-Iraq school of the next two generations,
+      died in Baghdad at age about eighty. His *Mukhtaṣar al-
+      Karkhī* — among the earliest condensed Hanafi *furūʿ*
+      manuals — became a teaching matn for the school's middle
+      period; he is also remembered for his *uṣūl* legacy,
+      preserved in the surviving treatise *al-Uṣūl* (a list of
+      Hanafi legal-theory maxims that opens later uṣūl works).
+      His students al-Jaṣṣāṣ al-Rāzī and al-Qudūrī carried his
+      tradition into the next generation. Al-Dhahabī covers him
+      in *Siyar Aʿlām al-Nubalāʾ*; Ibn Khallikān gives a notice
+      in *Wafayāt al-Aʿyān*; Ibn al-ʿImād confirms the year in
+      *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام أبو الحسن عبيد الله بن الحسين الكرخي — إمام
+      الحنفية بالعراق في النصف الأول من القرن الرابع الهجري،
+      ومن إليه انتهت رياسة المذهب في طبقة عقدت بها سلسلة
+      الإسناد المذهبي من أبي يوسف ومحمد بن الحسن الشيباني إلى
+      مدرسة بغداد فيما بعد — ببغداد عن نحو ثمانين سنة. وكان
+      «مختصر الكرخي» من أوائل المختصرات في فروع المذهب الحنفي،
+      فصار من متون التدريس في الطور الأوسط للمذهب. وله أيضاً
+      أثر باقٍ في أصول المذهب في رسالته «الأصول» — وهي قائمة
+      قواعد أصول الحنفية التي صدّر بها المؤلفون كتبهم في
+      الأصول من بعده. وعلى تلامذته كالجصّاص الرازي والقدوري
+      دار المذهب في الجيل التالي. ترجم له الذهبي في «سير
+      أعلام النبلاء»، وابن خلكان في «وفيات الأعيان»، وأرّخ
+      ابن العماد وفاته في «شذرات الذهب».
+    description_fr: |
+      Abū al-Ḥasan ʿUbayd Allāh ibn al-Ḥusayn al-Karkhī, chef
+      de l'école hanafite en Irak durant la première moitié du
+      IVᵉ siècle de l'Hégire et figure par laquelle la chaîne
+      de transmission hanafite, depuis Abū Yūsuf et al-Shaybānī,
+      passa à l'école baghdadienne des deux générations
+      suivantes, mourut à Bagdad à l'âge d'environ quatre-
+      vingts ans. Son *Mukhtaṣar al-Karkhī* — parmi les
+      premiers manuels condensés de *furūʿ* hanafites — devint
+      un *matn* d'enseignement pour la période médiane de
+      l'école; on le retient aussi pour son legs en *uṣūl*,
+      conservé dans le traité *al-Uṣūl* (une liste de maximes
+      de théorie juridique hanafite reprise en tête des
+      ouvrages d'*uṣūl* postérieurs). Ses élèves al-Jaṣṣāṣ
+      al-Rāzī et al-Qudūrī portèrent sa tradition à la
+      génération suivante. Al-Dhahabī le traite dans *Siyar
+      Aʿlām al-Nubalāʾ*; Ibn Khallikān donne une notice dans
+      *Wafayāt al-Aʿyān*; Ibn al-ʿImād confirme l'année dans
+      *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 340, precision: year}
+    canonical_gregorian: {date: 952-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[abu-al-hasan-al-karkhi, subject]]
+    tags: [hanafi, fiqh, usul, mukhtasar, baghdad, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Karkhi_(jurist)"
+
+  - slug: death-of-al-quduri
+    category: scholar_death
+    title_en: Death of Aḥmad al-Qudūrī — Author of *al-Mukhtaṣar*
+    title_ar: وفاة أحمد القدوري — مصنف «المختصر» في فقه الحنفية
+    title_fr: Mort d'Aḥmad al-Qudūrī — auteur d'*al-Mukhtaṣar*
+    description_en: |
+      Abū al-Ḥusayn Aḥmad ibn Muḥammad ibn Aḥmad al-Qudūrī al-
+      Baghdādī, foremost Hanafi jurist of Iraq in the first half
+      of the fifth century AH and author of *al-Mukhtaṣar* —
+      universally known across the Hanafi world simply as
+      *Mukhtaṣar al-Qudūrī*, the school's canonical primer of
+      *furūʿ* — died in Baghdad at age about sixty-six. His
+      *Mukhtaṣar* presents around twelve thousand *masāʾil* in
+      a tightly condensed text whose phrasing became the
+      standard reference of Hanafi pedagogy from Iraq to
+      Khurasan and onward to the Indian subcontinent and the
+      Ottoman lands; al-Marghīnānī's later *Bidāyat al-Mubtadī*
+      and the four-part *al-Hidāya* take the *Qudūrī* as one of
+      their two foundation texts. Ibn Khallikān treats him at
+      length in *Wafayāt al-Aʿyān*; al-Dhahabī covers him in
+      *Siyar Aʿlām al-Nubalāʾ*.
+    description_ar: |
+      توفي الإمام أبو الحسين أحمد بن محمد بن أحمد القدوري
+      البغدادي — كبير فقهاء الحنفية بالعراق في النصف الأول من
+      القرن الخامس الهجري، ومصنف «المختصر» المعروف في عامة
+      بلاد الحنفية بـ«مختصر القدوري»، وهو متن المذهب المعتمد
+      في تعليم فروعه — ببغداد عن نحو ست وستين سنة. ضمّن
+      «المختصر» نحو اثنتي عشرة ألف مسألة في عبارات وجيزة، فصار
+      المرجع المعتمد في تدريس الحنفية من العراق إلى خراسان،
+      ومن ثَمَّ إلى الهند والأناضول. وعلى «القدوري» مع «الجامع
+      الصغير» للشيباني بنى المرغيناني بعدُ كتابه «بداية
+      المبتدي» وشرحه الكبير «الهداية». أطال ابن خلكان ترجمته
+      في «وفيات الأعيان»، وترجم له الذهبي في «سير أعلام
+      النبلاء».
+    description_fr: |
+      Abū al-Ḥusayn Aḥmad ibn Muḥammad ibn Aḥmad al-Qudūrī
+      al-Baghdādī, le plus grand juriste hanafite de l'Irak
+      de la première moitié du Vᵉ siècle de l'Hégire et
+      auteur d'*al-Mukhtaṣar* — universellement connu dans le
+      monde hanafite comme *Mukhtaṣar al-Qudūrī*, le manuel
+      canonique de *furūʿ* de l'école — mourut à Bagdad à
+      l'âge d'environ soixante-six ans. Son *Mukhtaṣar*
+      présente quelque douze mille *masāʾil* dans un texte
+      strictement condensé dont les formulations devinrent la
+      référence pédagogique standard hanafite de l'Irak au
+      Khurasan, puis vers le sous-continent indien et les
+      territoires ottomans; *Bidāyat al-Mubtadī* et l'*al-
+      Hidāya* en quatre tomes d'al-Marghīnānī prennent le
+      *Qudūrī* comme l'un de leurs deux textes fondateurs.
+      Ibn Khallikān le traite longuement dans *Wafayāt al-
+      Aʿyān*; al-Dhahabī le couvre dans *Siyar Aʿlām al-
+      Nubalāʾ*.
+    canonical_hijri: {year: 428, precision: year}
+    canonical_gregorian: {date: 1037-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-quduri, subject]]
+    tags: [hanafi, fiqh, mukhtasar, baghdad, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Quduri"
+
+  # =========================================================================
+  # 6TH C. AH — THE TRANSOXANIAN GIANTS
+  # =========================================================================
+
+  - slug: death-of-al-sadr-al-shahid
+    category: scholar_death
+    title_en: Death of al-Ṣadr al-Shahīd Ḥusām al-Dīn ʿUmar — Hanafi Imām of Bukhara
+    title_ar: وفاة الصدر الشهيد حُسام الدين عمر — إمام الحنفية ببخارى
+    title_fr: Mort d'al-Ṣadr al-Shahīd Ḥusām al-Dīn ʿUmar — imām hanafite de Boukhara
+    description_en: |
+      Ḥusām al-Dīn ʿUmar ibn ʿAbd al-ʿAzīz ibn Māza al-Bukhārī,
+      known as al-Ṣadr al-Shahīd, head of the Hanafi school in
+      Bukhara and son of the celebrated *al-Ṣadr al-Shahīd*'s
+      father Burhān al-Dīn ibn Māza, was killed at the battle
+      of the Qatwān steppe (north of Samarqand) when the Qara
+      Khitay defeated the Seljuq sulṭān Sanjar — a catastrophe
+      that opened Transoxiana to non-Muslim rule and gave him
+      the epithet *al-Shahīd* ("the martyr"). He composed
+      *Sharḥ al-Jāmiʿ al-Ṣaghīr* (a major commentary on al-
+      Shaybānī's *al-Jāmiʿ al-Ṣaghīr*), *al-Fatāwā al-Ṣughrā*
+      and *al-Fatāwā al-Kubrā*, and *al-Wāqiʿāt al-Ḥusāmiyya* —
+      foundational works in the Bukharan-Hanafi *fatāwā* genre
+      that would feed into al-Marghīnānī's *Hidāya* in the next
+      generation. Ibn Khallikān gives the standard biographical
+      notice in *Wafayāt al-Aʿyān*; Ibn al-ʿImād confirms the
+      death year in *Shadharāt al-Dhahab*.
+    description_ar: |
+      استُشهد الإمام حُسام الدين عمر بن عبد العزيز بن مازَة
+      البخاري — المعروف بالصدر الشهيد، إمام الحنفية ببخارى
+      وابن الإمام الكبير برهان الدين ابن مازة — في وقعة
+      «قَطوان» شمال سمرقند يوم انتصر فيها قراخطاي على السلطان
+      السلجوقي سَنجَر، وكانت الواقعة فاتحة افتتاح ما وراء
+      النهر بأيدي حكم غير مسلم، فعرف بـ«الشهيد». صنّف «شرح
+      الجامع الصغير» على «الجامع الصغير» للشيباني، و«الفتاوى
+      الصغرى» و«الفتاوى الكبرى»، و«الواقعات الحُسامية» — وهي
+      أصول في فن الفتاوى البخارية الحنفية التي صبّت في
+      «الهداية» للمرغيناني في الجيل التالي. أعطاه ابن خلكان
+      ترجمة معتبرة في «وفيات الأعيان»، وأرّخ ابن العماد وفاته
+      في «شذرات الذهب».
+    description_fr: |
+      Ḥusām al-Dīn ʿUmar ibn ʿAbd al-ʿAzīz ibn Māza al-Bukhārī,
+      connu comme al-Ṣadr al-Shahīd, chef de l'école hanafite
+      à Boukhara et fils du célèbre Burhān al-Dīn ibn Māza,
+      fut tué à la bataille de la steppe de Qaṭwān (au nord de
+      Samarcande) lorsque les Qarakhitaï défirent le sultan
+      seldjoukide Sanjar — une catastrophe qui ouvrit la
+      Transoxiane à un pouvoir non musulman et lui valut
+      l'épithète *al-Shahīd* (« le martyr »). Il composa
+      *Sharḥ al-Jāmiʿ al-Ṣaghīr* (un commentaire majeur du
+      *Jāmiʿ al-Ṣaghīr* d'al-Shaybānī), *al-Fatāwā al-Ṣughrā*
+      et *al-Fatāwā al-Kubrā*, ainsi qu'*al-Wāqiʿāt al-
+      Ḥusāmiyya* — œuvres fondatrices du genre des *fatāwā*
+      hanafites boukhariennes qui alimenteront l'*al-Hidāya*
+      d'al-Marghīnānī à la génération suivante. Ibn Khallikān
+      donne la notice biographique standard dans *Wafayāt al-
+      Aʿyān*; Ibn al-ʿImād confirme l'année dans *Shadharāt
+      al-Dhahab*.
+    canonical_hijri: {year: 536, precision: year}
+    canonical_gregorian: {date: 1141-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-sadr-al-shahid, subject]]
+    tags: [hanafi, fiqh, fatwa, bukhara, transoxiana, qarakhitai, qatwan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Sadr_al-Shahid"
+
+  - slug: death-of-al-kasani
+    category: scholar_death
+    title_en: Death of ʿAlāʾ al-Dīn al-Kāsānī — Author of *Badāʾiʿ al-Ṣanāʾiʿ*
+    title_ar: وفاة علاء الدين الكاساني — مصنف «بدائع الصنائع»
+    title_fr: Mort de ʿAlāʾ al-Dīn al-Kāsānī — auteur de *Badāʾiʿ al-Ṣanāʾiʿ*
+    description_en: |
+      Abū Bakr ʿAlāʾ al-Dīn ibn Masʿūd al-Kāsānī, leading Hanafi
+      jurist of late-sixth-century Aleppo and author of *Badāʾiʿ
+      al-Ṣanāʾiʿ fī Tartīb al-Sharāʾiʿ* — the school's most
+      systematically organised *furūʿ* encyclopaedia, structured
+      not by the standard chapter order but by the legal "causes"
+      (*aʿrāḍ*) and rationales of each ruling — died in Aleppo.
+      *Badāʾiʿ* was composed as a commentary on his teacher and
+      father-in-law al-Samarqandī's *Tuḥfat al-Fuqahāʾ*; the
+      famous biographical anecdote (preserved by Ibn Khallikān)
+      records that al-Samarqandī gave al-Kāsānī his daughter
+      Fāṭima — herself a noted Hanafi jurist — in exchange for
+      the completed manuscript, the dowry being "the *Badāʾiʿ*
+      itself." Ibn Khallikān treats him in *Wafayāt al-Aʿyān*;
+      Ibn al-ʿImād confirms in *Shadharāt al-Dhahab* under 587
+      AH.
+    description_ar: |
+      توفي الإمام أبو بكر علاء الدين بن مسعود الكاساني — كبير
+      فقهاء الحنفية بحلب في أواخر القرن السادس الهجري، ومصنف
+      «بدائع الصنائع في ترتيب الشرائع» — وهو موسوعة فروع المذهب
+      الحنفي المرتبة على طريقة فريدة لا على ترتيب الأبواب
+      المعهود، بل على «أعراض» الأحكام وعِللها — بحلب. ألّف
+      «البدائع» شرحاً لكتاب شيخه وحَميه السمرقندي «تحفة
+      الفقهاء»، وأشهر ما حُكي عنه في كتب التراجم — كما رواه
+      ابن خلكان — أن السمرقندي زوّجه ابنته فاطمة — وكانت هي
+      نفسها فقيهة حنفية معروفة — على أن يكون مهرها كتاب
+      «البدائع». ترجم له ابن خلكان في «وفيات الأعيان»، وأرّخ
+      ابن العماد وفاته في «شذرات الذهب» سنة سبع وثمانين
+      وخمسمئة.
+    description_fr: |
+      Abū Bakr ʿAlāʾ al-Dīn ibn Masʿūd al-Kāsānī, principal
+      juriste hanafite d'Alep de la fin du VIᵉ siècle de
+      l'Hégire et auteur de *Badāʾiʿ al-Ṣanāʾiʿ fī Tartīb al-
+      Sharāʾiʿ* — l'encyclopédie hanafite des *furūʿ* la plus
+      systématiquement organisée de l'école, structurée non par
+      l'ordre standard des chapitres mais par les « causes »
+      (*aʿrāḍ*) et raisons de chaque règle — mourut à Alep.
+      Les *Badāʾiʿ* furent composés comme commentaire de la
+      *Tuḥfat al-Fuqahāʾ* de son maître et beau-père al-
+      Samarqandī; la fameuse anecdote biographique (rapportée
+      par Ibn Khallikān) raconte qu'al-Samarqandī donna sa
+      fille Fāṭima — elle-même juriste hanafite renommée — à
+      al-Kāsānī en échange du manuscrit achevé, la dot étant
+      « les *Badāʾiʿ* eux-mêmes ». Ibn Khallikān le traite
+      dans *Wafayāt al-Aʿyān*; Ibn al-ʿImād confirme dans
+      *Shadharāt al-Dhahab* à l'année 587 H.
+    canonical_hijri: {year: 587, precision: year}
+    canonical_gregorian: {date: 1191-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-kasani, subject]]
+    tags: [hanafi, fiqh, badai-al-sanai, aleppo, ayyubid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Kasani"
+
+  # =========================================================================
+  # 7TH C. AH — THE LATE-AYYUBID / EARLY-MAMLUK CODIFIERS
+  # =========================================================================
+
+  - slug: death-of-al-hasiri
+    category: scholar_death
+    title_en: Death of al-Ḥaṣīrī — Hanafi Jurist of Damascus
+    title_ar: وفاة الحَصِيري — فقيه الحنفية بدمشق
+    title_fr: Mort d'al-Ḥaṣīrī — juriste hanafite de Damas
+    description_en: |
+      Jamāl al-Dīn Maḥmūd ibn Aḥmad al-Ḥaṣīrī al-Bukhārī,
+      leading Hanafi jurist of seventh-century AH Damascus and
+      author of *al-Tahdhīb fī al-Farāʾiḍ* and the major
+      *al-Wajīz fī Furūʿ al-Hanafiyya* (also titled *al-Hāwī*),
+      died in Damascus. Born in Bukhara and trained in the
+      Transoxanian Hanafi tradition of Ibn Māza and his circle,
+      he settled in Damascus where he held the chief Hanafi
+      teaching post in the city through the late-Ayyubid period
+      and trained a generation of Damascene Hanafis whose
+      students would in turn fill the school's Mamluk
+      establishment. Ibn Khallikān gives a notice in *Wafayāt
+      al-Aʿyān*; Ibn al-ʿImād confirms in *Shadharāt al-Dhahab*
+      under 636 AH.
+    description_ar: |
+      توفي الإمام جمال الدين محمود بن أحمد الحَصِيري البخاري —
+      كبير فقهاء الحنفية بدمشق في القرن السابع الهجري، ومصنف
+      «التهذيب في الفرائض» و«الوجيز في فروع الحنفية» المعروف
+      بـ«الحاوي» — بدمشق. ولد ببخارى وتفقّه على طريقة الحنفية
+      ما وراء النهرية في حلقة بني مازة، ثم استقرّ بدمشق
+      وتولّى رئاسة تدريس الحنفية فيها في أواخر العهد الأيوبي،
+      وتخرّج عليه طبقة من حنفية الشام يأتي بعدهم تلامذتهم في
+      دواوين المذهب المملوكية. ترجم له ابن خلكان في «وفيات
+      الأعيان»، وأرّخ ابن العماد وفاته في «شذرات الذهب» سنة
+      ست وثلاثين وستمئة.
+    description_fr: |
+      Jamāl al-Dīn Maḥmūd ibn Aḥmad al-Ḥaṣīrī al-Bukhārī,
+      principal juriste hanafite de Damas du VIIᵉ siècle de
+      l'Hégire et auteur d'*al-Tahdhīb fī al-Farāʾiḍ* et du
+      majeur *al-Wajīz fī Furūʿ al-Hanafiyya* (aussi intitulé
+      *al-Hāwī*), mourut à Damas. Né à Boukhara et formé dans
+      la tradition hanafite transoxanienne d'Ibn Māza et de
+      son cercle, il s'installa à Damas où il occupa le poste
+      principal d'enseignement hanafite de la ville à la fin
+      de la période ayyoubide et forma une génération de
+      hanafites damascènes dont les élèves rempliraient à leur
+      tour l'établissement mamelouk de l'école. Ibn Khallikān
+      donne une notice dans *Wafayāt al-Aʿyān*; Ibn al-ʿImād
+      confirme dans *Shadharāt al-Dhahab* à l'année 636 H.
+    canonical_hijri: {year: 636, precision: year}
+    canonical_gregorian: {date: 1238-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: editorial
+    people: [[al-hasiri, subject]]
+    tags: [hanafi, fiqh, faraid, damascus, ayyubid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Hasiri"
+
+  - slug: death-of-ibn-mawdud-al-mawsili
+    category: scholar_death
+    title_en: Death of Ibn Mawdūd al-Mawṣilī — Author of *al-Ikhtiyār*
+    title_ar: وفاة ابن مودود الموصلي — صاحب «الاختيار لتعليل المختار»
+    title_fr: Mort d'Ibn Mawdūd al-Mawṣilī — auteur d'*al-Ikhtiyār*
+    description_en: |
+      ʿAbd Allāh ibn Maḥmūd ibn Mawdūd al-Mawṣilī, leading Hanafi
+      jurist of Mosul and Baghdad in the second half of the
+      seventh century AH and author of *al-Mukhtār li-l-Fatwā*
+      together with its self-commentary *al-Ikhtiyār li-Taʿlīl
+      al-Mukhtār*, died in Baghdad. *al-Mukhtār* is among the
+      four canonical Hanafi *mutūn* of the late-classical
+      curriculum (alongside *al-Wiqāya*, *al-Kanz*, and
+      *al-Mukhtaṣar* of al-Qudūrī); his *Ikhtiyār* opens each
+      ruling, then justifies it from the school's authorities,
+      making it one of the most pedagogically transparent of
+      Hanafi *furūʿ* references and a backbone of madrasa
+      instruction from the Mamluk lands to the Indian
+      subcontinent. Ibn al-ʿImād records his death in
+      *Shadharāt al-Dhahab* under 683 AH; EI2 corroborates and
+      gives the standard biographical sketch.
+    description_ar: |
+      توفي الإمام عبد الله بن محمود بن مودود الموصلي — كبير
+      فقهاء الحنفية بالموصل وبغداد في النصف الثاني من القرن
+      السابع الهجري، ومصنف «المختار للفتوى» وشرحه الذاتي
+      «الاختيار لتعليل المختار» — ببغداد. و«المختار» من المتون
+      الحنفية الأربعة المعتمدة في المذهب في أواخر العصر
+      الكلاسيكي (مع «الوقاية» و«الكنز» و«مختصر القدوري»)؛ وأما
+      «الاختيار» فإنه يصدّر بكل مسألة، ثم يعقّب بتعليلها من كلام
+      أصحاب المذهب، فصار من أكثر مراجع المذهب الحنفي بياناً في
+      تدريس فروعه من بلاد المماليك إلى الهند. أرّخ ابن العماد
+      وفاته في «شذرات الذهب» سنة ثلاث وثمانين وستمئة، وأقرّه
+      على ذلك «دائرة المعارف الإسلامية» وضبطت ترجمته.
+    description_fr: |
+      ʿAbd Allāh ibn Maḥmūd ibn Mawdūd al-Mawṣilī, principal
+      juriste hanafite de Mossoul et Bagdad de la seconde
+      moitié du VIIᵉ siècle de l'Hégire et auteur d'*al-
+      Mukhtār li-l-Fatwā* avec son auto-commentaire *al-Ikhtiyār
+      li-Taʿlīl al-Mukhtār*, mourut à Bagdad. *al-Mukhtār* fait
+      partie des quatre *mutūn* hanafites canoniques du cursus
+      tardo-classique (avec *al-Wiqāya*, *al-Kanz* et *al-
+      Mukhtaṣar* d'al-Qudūrī); son *Ikhtiyār* ouvre chaque
+      règle puis la justifie depuis les autorités de l'école,
+      ce qui en fait l'une des références hanafites de *furūʿ*
+      les plus pédagogiquement transparentes et une colonne
+      vertébrale de l'enseignement en madrasa des terres
+      mameloukes au sous-continent indien. Ibn al-ʿImād
+      consigne sa mort dans *Shadharāt al-Dhahab* à l'année
+      683 H; l'EI2 corrobore et fournit la notice biographique
+      standard.
+    canonical_hijri: {year: 683, precision: year}
+    canonical_gregorian: {date: 1284-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[ibn-mawdud-al-mawsili, subject]]
+    tags: [hanafi, fiqh, mukhtar, ikhtiyar, baghdad, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mawsili"
+
+  # =========================================================================
+  # 8TH C. AH — THE EGYPTIAN HIDĀYA-COMMENTATORS
+  # =========================================================================
+
+  - slug: death-of-fakhr-al-din-al-zaylai
+    category: scholar_death
+    title_en: Death of Fakhr al-Dīn al-Zaylaʿī — Author of *Tabyīn al-Ḥaqāʾiq*
+    title_ar: وفاة فخر الدين الزيلعي — مصنف «تبيين الحقائق»
+    title_fr: Mort de Fakhr al-Dīn al-Zaylaʿī — auteur de *Tabyīn al-Ḥaqāʾiq*
+    description_en: |
+      Fakhr al-Dīn ʿUthmān ibn ʿAlī al-Zaylaʿī, leading Hanafi
+      jurist of eighth-century Cairo and author of *Tabyīn al-
+      Ḥaqāʾiq Sharḥ Kanz al-Daqāʾiq* — the canonical Mamluk-era
+      commentary on al-Nasafī's *Kanz al-Daqāʾiq* and one of
+      the four pillar shurūḥ of the school's late-classical
+      *furūʿ* tradition — died in Cairo. *Tabyīn al-Ḥaqāʾiq*
+      systematically argues each Hanafi ruling from textual
+      evidence and the school's authorities, becoming a
+      standard reference of Mamluk-period Hanafi instruction
+      from Cairo to Anatolia and being printed alongside Ibn
+      Nujaym's *al-Baḥr al-Rāʾiq* in many later editions. He is
+      to be distinguished from his contemporary the ḥadīth-
+      *takhrīj* scholar ʿAbd Allāh ibn Yūsuf al-Zaylaʿī (d. 762
+      AH), who was a different person despite the shared nisba.
+      Ibn Ḥajar gives a notice in *al-Durar al-Kāmina*; Ibn al-
+      ʿImād confirms in *Shadharāt al-Dhahab* under 743 AH.
+    description_ar: |
+      توفي الإمام فخر الدين عثمان بن علي الزيلعي — كبير فقهاء
+      الحنفية بالقاهرة في القرن الثامن الهجري، ومصنف «تبيين
+      الحقائق شرح كنز الدقائق» وهو شرح المذهب المعتمد في
+      الزمن المملوكي على «كنز الدقائق» للإمام النسفي ومن
+      الشروح الأربعة العمدة في فروع المذهب في أواخر العصر
+      الكلاسيكي — بالقاهرة. ينظّم «التبيين» مذهب الحنفية على
+      الاستدلال بالنصوص وأقوال أئمة المذهب في كل مسألة،
+      فصار من المراجع المعتمدة في تدريس الحنفية في زمن
+      المماليك من القاهرة إلى الأناضول، ويُطبع في الغالب
+      مذيّلاً بحاشية «البحر الرائق» لابن نجيم. ويُفرّق بينه
+      وبين مُعاصره عبد الله بن يوسف الزيلعي المتوفى سنة اثنتين
+      وستين وسبعمئة، صاحب التخريجات الحديثية، فهما رجلان
+      مختلفان وإن اشتركت النسبة. ترجم له ابن حجر في «الدرر
+      الكامنة»، وأرّخ ابن العماد وفاته في «شذرات الذهب» سنة
+      ثلاث وأربعين وسبعمئة.
+    description_fr: |
+      Fakhr al-Dīn ʿUthmān ibn ʿAlī al-Zaylaʿī, principal
+      juriste hanafite du Caire du VIIIᵉ siècle de l'Hégire
+      et auteur de *Tabyīn al-Ḥaqāʾiq Sharḥ Kanz al-Daqāʾiq*
+      — le commentaire canonique de l'époque mamelouke sur
+      le *Kanz al-Daqāʾiq* d'al-Nasafī et l'un des quatre
+      *shurūḥ* piliers de la tradition tardo-classique des
+      *furūʿ* de l'école — mourut au Caire. *Tabyīn al-
+      Ḥaqāʾiq* argumente systématiquement chaque règle
+      hanafite à partir des preuves textuelles et des
+      autorités de l'école, devenant une référence standard
+      de l'enseignement hanafite mamelouk du Caire à
+      l'Anatolie et étant imprimé aux côtés d'*al-Baḥr al-
+      Rāʾiq* d'Ibn Nujaym dans de nombreuses éditions
+      postérieures. Il faut le distinguer de son contemporain
+      le savant de *takhrīj* ḥadīth ʿAbd Allāh ibn Yūsuf al-
+      Zaylaʿī (m. 762 H), qui était une autre personne malgré
+      la *nisba* partagée. Ibn Ḥajar donne une notice dans
+      *al-Durar al-Kāmina*; Ibn al-ʿImād confirme dans
+      *Shadharāt al-Dhahab* à l'année 743 H.
+    canonical_hijri: {year: 743, precision: year}
+    canonical_gregorian: {date: 1342-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[fakhr-al-din-al-zaylai, subject]]
+    tags: [hanafi, fiqh, tabyin-al-haqaiq, kanz-al-daqaiq, cairo, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Fakhr_al-Din_al-Zaylai"
+
+  - slug: death-of-al-babarti
+    category: scholar_death
+    title_en: Death of Akmal al-Dīn al-Bābartī — Author of *al-ʿInāya Sharḥ al-Hidāya*
+    title_ar: وفاة أكمل الدين البابرتي — صاحب «العناية شرح الهداية»
+    title_fr: Mort d'Akmal al-Dīn al-Bābartī — auteur d'*al-ʿInāya Sharḥ al-Hidāya*
+    description_en: |
+      Akmal al-Dīn Muḥammad ibn Maḥmūd al-Bābartī, leading
+      Hanafi jurist and theologian of eighth-century Cairo and
+      author of *al-ʿInāya Sharḥ al-Hidāya* — among the
+      foundational commentaries on al-Marghīnānī's *al-Hidāya*
+      and a standard component of the school's curriculum
+      from his lifetime onward — died in Cairo. He also wrote
+      a major *Sharḥ al-Manār* on al-Nasafī's uṣūl matn
+      *Manār al-Anwār*, a commentary on Ibn al-Ḥājib's *al-
+      Mukhtaṣar* in uṣūl, and a *Sharḥ al-ʿAqīda al-Ṭaḥāwiyya*
+      that remains widely consulted. Trained at the Mamluk
+      capital in both fiqh and *kalām*, he was one of the
+      principal teachers at al-Madrasa al-Ṣarghatmishiyya in
+      Cairo and trained a generation of Hanafis whose pupils
+      would in turn dominate Mamluk scholarship into the
+      ninth century. Ibn Ḥajar gives a long notice in *al-
+      Durar al-Kāmina*; Ibn al-ʿImād confirms in *Shadharāt
+      al-Dhahab* under 786 AH.
+    description_ar: |
+      توفي الإمام أكمل الدين محمد بن محمود البابرتي — كبير
+      فقهاء الحنفية ومتكلميهم بالقاهرة في القرن الثامن
+      الهجري، ومصنف «العناية شرح الهداية» — وهو من الشروح
+      الأصول على «الهداية» للمرغيناني، صار من تلاميذه ومن
+      بعدهم متناً ثابتاً في مناهج تدريس المذهب — بالقاهرة.
+      وله أيضاً «شرح المنار» على «منار الأنوار» للنسفي في
+      أصول الفقه، وشرح «مختصر ابن الحاجب» في الأصول، و«شرح
+      العقيدة الطحاوية» الذي لا يزال حاضراً في تعاطي العلم.
+      تربّى في القاهرة المملوكية على الفقه والكلام معاً، فصار
+      من أئمة التدريس بالمدرسة الصرغتمشية، وتخرّج عليه طبقة
+      من الحنفية ملأ تلامذتهم دواوين المذهب في القرن التاسع.
+      أطال ابن حجر ترجمته في «الدرر الكامنة»، وأرّخ ابن العماد
+      وفاته في «شذرات الذهب» سنة ست وثمانين وسبعمئة.
+    description_fr: |
+      Akmal al-Dīn Muḥammad ibn Maḥmūd al-Bābartī, principal
+      juriste hanafite et théologien du Caire du VIIIᵉ siècle
+      de l'Hégire et auteur d'*al-ʿInāya Sharḥ al-Hidāya* —
+      parmi les commentaires fondateurs de l'*al-Hidāya*
+      d'al-Marghīnānī et composante standard du cursus de
+      l'école dès son vivant — mourut au Caire. Il écrivit
+      également un *Sharḥ al-Manār* majeur sur le *matn*
+      d'*uṣūl* d'al-Nasafī, un commentaire sur l'*al-
+      Mukhtaṣar* d'Ibn al-Ḥājib en *uṣūl*, et un *Sharḥ al-
+      ʿAqīda al-Ṭaḥāwiyya* encore largement consulté. Formé
+      dans la capitale mamelouke en *fiqh* et en *kalām*, il
+      fut l'un des principaux enseignants à la madrasa al-
+      Ṣarghatmishiyya du Caire et forma une génération de
+      hanafites dont les élèves domineraient à leur tour
+      l'érudition mamelouke jusqu'au IXᵉ siècle. Ibn Ḥajar
+      donne une longue notice dans *al-Durar al-Kāmina*;
+      Ibn al-ʿImād confirme dans *Shadharāt al-Dhahab* à
+      l'année 786 H.
+    canonical_hijri: {year: 786, precision: year}
+    canonical_gregorian: {date: 1384-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-babarti, subject]]
+    tags: [hanafi, fiqh, kalam, hidaya, inaya, cairo, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Babarti"
+
+  # =========================================================================
+  # 9TH C. AH — THE LATE-MAMLUK / EARLY-OTTOMAN MUḤAQQIQS
+  # =========================================================================
+
+  - slug: death-of-ibn-al-humam
+    category: scholar_death
+    title_en: Death of Kamāl al-Dīn Ibn al-Humām — Author of *Fatḥ al-Qadīr*
+    title_ar: وفاة كمال الدين ابن الهُمام — مصنف «فتح القدير»
+    title_fr: Mort de Kamāl al-Dīn Ibn al-Humām — auteur de *Fatḥ al-Qadīr*
+    description_en: |
+      Kamāl al-Dīn Muḥammad ibn ʿAbd al-Wāḥid Ibn al-Humām al-
+      Sīwāsī al-Iskandarī, the foremost Hanafi muḥaqqiq of late-
+      Mamluk Egypt and author of *Fatḥ al-Qadīr Sharḥ al-Hidāya*
+      — the most analytically rigorous commentary on al-
+      Marghīnānī's *al-Hidāya*, in which he routinely revises
+      received Hanafi positions on internal evidentiary grounds
+      — died in Cairo. He also composed *al-Taḥrīr fī Uṣūl al-
+      Fiqh*, an *uṣūl* matn synthesising the Hanafi and Shāfiʿī
+      uṣūl traditions whose own commentaries (*al-Taqrīr wa-l-
+      Taḥbīr* of his student Ibn Amīr al-Ḥājj, *Taysīr al-
+      Taḥrīr* of Amīr Bādshāh) became standard Hanafi uṣūl
+      curriculum in their own right, and the celebrated *al-
+      Musāyara* in *kalām* which his student al-Qāsim ibn Quṭlū-
+      bughā then commented in *al-Musāmara*. Ibn Ḥajar — his
+      contemporary — gives a long biographical notice in *al-
+      Durar al-Kāmina* and *Inbāʾ al-Ghumr*; Ibn al-ʿImād
+      confirms the death year in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام كمال الدين محمد بن عبد الواحد ابن الهُمام
+      السيواسي الإسكندري — أكبر محققي الحنفية في مصر في أواخر
+      العصر المملوكي، ومصنف «فتح القدير شرح الهداية» — وهو
+      أدق شروح «الهداية» تحريراً للمذاهب، إذ يراجع فيه ابن
+      الهمام ما يعتمده المتأخرون من أقوال المذهب على ضوء
+      الأدلة المذهبية الداخلية فيرجّح ما يظهر له منها —
+      بالقاهرة. وله أيضاً «التحرير في أصول الفقه»، وهو متن
+      جامع بين أصول الحنفية والشافعية صار شرحه «التقرير
+      والتحبير» لتلميذه ابن أمير الحاج و«تيسير التحرير» لأمير
+      بادشاه من متون أصول الحنفية المعتمدة بنفسه؛ و«المسايرة»
+      المشهورة في علم الكلام، شرحها تلميذه قاسم بن قُطلوبُغا
+      في «المسامرة». ترجم له ابن حجر — وكان معاصره — ترجمة
+      مطوّلة في «الدرر الكامنة» و«إنباء الغمر»، وأرّخ ابن
+      العماد وفاته في «شذرات الذهب».
+    description_fr: |
+      Kamāl al-Dīn Muḥammad ibn ʿAbd al-Wāḥid Ibn al-Humām al-
+      Sīwāsī al-Iskandarī, le plus grand *muḥaqqiq* hanafite
+      de l'Égypte de la fin de l'époque mamelouke et auteur
+      de *Fatḥ al-Qadīr Sharḥ al-Hidāya* — le commentaire le
+      plus analytiquement rigoureux de l'*al-Hidāya* d'al-
+      Marghīnānī, dans lequel il révise systématiquement les
+      positions hanafites reçues sur des bases probatoires
+      internes — mourut au Caire. Il composa également *al-
+      Taḥrīr fī Uṣūl al-Fiqh*, un *matn* d'*uṣūl* synthétisant
+      les traditions hanafite et shāfiʿite et dont les
+      commentaires (*al-Taqrīr wa-l-Taḥbīr* de son élève Ibn
+      Amīr al-Ḥājj, *Taysīr al-Taḥrīr* d'Amīr Bādshāh) sont
+      eux-mêmes devenus des cursus standards d'*uṣūl*
+      hanafite, ainsi que la célèbre *al-Musāyara* en *kalām*
+      que son élève al-Qāsim ibn Quṭlūbughā commenta ensuite
+      dans *al-Musāmara*. Ibn Ḥajar — son contemporain — donne
+      une longue notice biographique dans *al-Durar al-
+      Kāmina* et *Inbāʾ al-Ghumr*; Ibn al-ʿImād confirme
+      l'année de décès dans *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 861, precision: year}
+    canonical_gregorian: {date: 1457-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[ibn-al-humam, subject]]
+    tags: [hanafi, fiqh, usul, kalam, fath-al-qadir, tahrir, cairo, mamluk]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Humam"
+
+  - slug: death-of-mulla-khusraw
+    category: scholar_death
+    title_en: Death of Mullā Khusraw — Ottoman Shaykh al-Islām and Author of *Durar al-Ḥukkām*
+    title_ar: وفاة مُلَّا خُسرَو — شيخ الإسلام العثماني ومصنف «درر الحكام»
+    title_fr: Mort de Mullā Khusraw — Cheikh al-Islām ottoman et auteur de *Durar al-Ḥukkām*
+    description_en: |
+      Muḥammad ibn Farāmurz ibn ʿAlī, known as Mullā Khusraw, the
+      shaykh al-Islām of the early Ottoman state under Meḥmed II
+      (al-Fātiḥ) and the foremost Hanafi codifier of the Ottoman
+      learned establishment, died in Constantinople. His *Durar
+      al-Ḥukkām fī Sharḥ Ghurar al-Aḥkām* — a self-commentary on
+      his own *Ghurar al-Aḥkām* matn — and the parallel *Mirʾāt
+      al-Uṣūl Sharḥ Mirqāt al-Wuṣūl* on uṣūl al-fiqh became the
+      standard reference texts of Ottoman madrasa instruction in
+      Hanafi *furūʿ* and *uṣūl*, holding that position from the
+      conquest of Constantinople through the imperial-Ottoman
+      centuries. Mehmed II so revered him that he is said to have
+      called him "the ʿAbū Ḥanīfa of his age." Ibn al-ʿImād
+      records his death in *Shadharāt al-Dhahab* under 885 AH;
+      EI2 corroborates and gives the standard biographical
+      sketch.
+    description_ar: |
+      توفي العلامة محمد بن فرامرز بن علي — المعروف بـ«مُلَّا
+      خُسرَو» — شيخ الإسلام في الدولة العثمانية الفتية في عهد
+      السلطان محمد الفاتح، وكبير مقنّني المذهب الحنفي في
+      مؤسسة العلم العثمانية — بإستانبول. وكتابه «درر الحكام
+      في شرح غرر الأحكام» شرحاً ذاتيّاً لمتنه «غرر الأحكام»،
+      وكتابه الموازي «مرآة الأصول شرح مرقاة الوصول» في أصول
+      الفقه، صارا من المراجع المعتمدة في مدارس الدولة
+      العثمانية في فروع الحنفية وأصولها، وحُفظت لهما هذه
+      المنزلة من فتح إستانبول إلى أواخر العصر الإمبراطوري.
+      وكان السلطان محمد الفاتح يعظّمه حتى يُقال إنه دعاه
+      «أبا حنيفة زمانه». أرّخ ابن العماد وفاته في «شذرات
+      الذهب» سنة خمس وثمانين وثمانمئة، وأقرّه على ذلك «دائرة
+      المعارف الإسلامية» وضبطت ترجمته.
+    description_fr: |
+      Muḥammad ibn Farāmurz ibn ʿAlī, connu sous le nom de
+      Mullā Khusraw, le *shaykh al-Islām* de l'État ottoman
+      naissant sous Mehmed II (al-Fātiḥ) et le principal
+      codificateur hanafite de l'établissement savant ottoman,
+      mourut à Constantinople. Son *Durar al-Ḥukkām fī Sharḥ
+      Ghurar al-Aḥkām* — un auto-commentaire de son propre
+      *matn* *Ghurar al-Aḥkām* — et le parallèle *Mirʾāt al-
+      Uṣūl Sharḥ Mirqāt al-Wuṣūl* en *uṣūl al-fiqh* devinrent
+      les textes de référence standard de l'enseignement
+      ottoman en madrasa pour les *furūʿ* et l'*uṣūl*
+      hanafites, conservant cette position de la conquête de
+      Constantinople jusqu'aux derniers siècles impériaux
+      ottomans. Mehmed II le vénérait au point qu'on dit
+      qu'il l'aurait appelé « l'Abū Ḥanīfa de son temps ».
+      Ibn al-ʿImād consigne sa mort dans *Shadharāt al-
+      Dhahab* à l'année 885 H; l'EI2 corrobore et fournit la
+      notice biographique standard.
+    canonical_hijri: {year: 885, precision: year}
+    canonical_gregorian: {date: 1480-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[mulla-khusraw, subject]]
+    tags: [hanafi, fiqh, usul, durar-al-hukkam, shaykh-al-islam, constantinople, ottoman]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Molla_Hüsrev"
+
+  # =========================================================================
+  # 13TH C. AH — INDIAN HANAFI REVIVAL
+  # =========================================================================
+
+  - slug: death-of-abd-al-hayy-al-lakhnawi
+    category: scholar_death
+    title_en: Death of ʿAbd al-Ḥayy al-Lakhnawī — Indian Hanafi Muḥaddith-Faqīh
+    title_ar: وفاة عبد الحي اللكنوي — محدث فقيه الحنفية بالهند
+    title_fr: Mort de ʿAbd al-Ḥayy al-Lakhnawī — muḥaddith-juriste hanafite de l'Inde
+    description_en: |
+      Abū al-Ḥasanāt Muḥammad ʿAbd al-Ḥayy ibn ʿAbd al-Ḥalīm al-
+      Lakhnawī al-Anṣārī, the foremost Indian Hanafi jurist-
+      ḥadīth scholar of the late thirteenth century AH and one
+      of the most prolific Hanafi authors of the modern period,
+      died at Lucknow at age about thirty-nine. His more than
+      one hundred works span hadith, *takhrīj*, fiqh, biography,
+      and uṣūl al-fiqh, including *al-Tarīqa al-Muthlā* (a
+      lengthy treatise on the place of *taqlīd* in Hanafi
+      method), *al-Fawāʾid al-Bahiyya* (a biographical
+      dictionary of Hanafi scholars used to this day), *Imām
+      al-Kalām fī-mā Yataʿallaq bi-l-Qirāʾa Khalf al-Imām*, and
+      his celebrated marginalia (*taʿlīqāt*) on al-Marghīnānī's
+      *al-Hidāya* and on the *Muwaṭṭaʾ* of Imām Muḥammad ibn
+      al-Ḥasan al-Shaybānī. He died in 1304 AH/1886 CE; the
+      attestation falls beyond the close of *Shadharāt al-
+      Dhahab*, so the principal Sunni-canonical witness is EI2
+      with editorial cross-reference to the Indian Hanafi
+      biographical tradition that records him as the
+      ʿAllāma of late Lucknow.
+    description_ar: |
+      توفي العلامة أبو الحسنات محمد عبد الحي بن عبد الحليم
+      اللكنوي الأنصاري — كبير محدثي الحنفية وفقهائهم بالهند
+      في أواخر القرن الثالث عشر الهجري ومن أكثر علماء
+      الحنفية في العصر الحديث تصنيفاً — بلكنو عن نحو تسع
+      وثلاثين سنة. وتجاوزت تصانيفه المئة في علوم الحديث
+      والتخريج والفقه والتراجم وأصول الفقه، ومنها «الطريقة
+      المثلى» — رسالته المطوّلة في موضع التقليد من المذهب
+      الحنفي — و«الفوائد البهية» وهو معجم تراجم الحنفية
+      المعتمد إلى اليوم، و«إمام الكلام فيما يتعلق بالقراءة
+      خلف الإمام»، وتعليقاته المشهورة على «الهداية» للمرغيناني
+      وعلى «موطأ» الإمام محمد بن الحسن الشيباني. وفاته رحمه
+      الله سنة أربع وثلاثمئة بعد الألف الموافقة سنة ست وثمانين
+      وثمانمئة وألف ميلادية، وهي بعد ختام «شذرات الذهب»،
+      فالعمدة في توثيقها عند أهل السنة «دائرة المعارف
+      الإسلامية» مع ما جرى في تراجم الحنفية بالهند من ذكره
+      علاّمة الأمصار في أواخر لكنو.
+    description_fr: |
+      Abū al-Ḥasanāt Muḥammad ʿAbd al-Ḥayy ibn ʿAbd al-Ḥalīm
+      al-Lakhnawī al-Anṣārī, le plus grand savant indien
+      hanafite — juriste et muḥaddith — de la fin du XIIIᵉ
+      siècle de l'Hégire et l'un des auteurs hanafites les
+      plus prolifiques de la période moderne, mourut à Lucknow
+      à l'âge d'environ trente-neuf ans. Ses plus de cent
+      ouvrages couvrent le ḥadīth, le *takhrīj*, le *fiqh*,
+      la biographie et l'*uṣūl al-fiqh*, parmi lesquels *al-
+      Tarīqa al-Muthlā* (un long traité sur la place du
+      *taqlīd* dans la méthode hanafite), *al-Fawāʾid al-
+      Bahiyya* (un dictionnaire biographique des savants
+      hanafites encore utilisé aujourd'hui), *Imām al-Kalām
+      fī-mā Yataʿallaq bi-l-Qirāʾa Khalf al-Imām*, et ses
+      célèbres *taʿlīqāt* sur l'*al-Hidāya* d'al-Marghīnānī et
+      sur le *Muwaṭṭaʾ* de l'imām Muḥammad ibn al-Ḥasan al-
+      Shaybānī. Il mourut en 1304 H/1886 EC; l'attestation
+      étant postérieure à la clôture de *Shadharāt al-
+      Dhahab*, le principal témoin canonique sunnite est
+      l'EI2, avec un croisement éditorial avec la tradition
+      biographique hanafite indienne qui le retient comme la
+      ʿallāma du Lucknow tardif.
+    canonical_hijri: {year: 1304, precision: year}
+    canonical_gregorian: {date: 1886-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-hayy-al-lakhnawi, subject]]
+    tags: [hanafi, fiqh, hadith, taqlid, lucknow, india, modern]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Hayy_al-Lakhnawi"

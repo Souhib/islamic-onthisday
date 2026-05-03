@@ -1,0 +1,573 @@
+# Wave 106 — Final targeted gap-filling events (2026-04-30).
+# Covers major Sunni figures and milestones genuinely absent from the
+# existing dataset: two of the Four Imams (Malik, Shafi'i); the Mujaddid
+# of the second millennium (Ahmad Sirhindi); foundational female figures
+# (Sayyida Nafisa, Umm Salamah); Kanem-Bornu (Idris Alooma); West African
+# scholarly advisory (al-Maghili); Chinese Muslim exploration (Zheng He);
+# and South Asian hadith and Chishti lines.
+
+events:
+  - slug: death-of-ahmad-sirhindi
+    category: scholar_death
+    title_en: Death of Ahmad Sirhindi — Mujaddid Alf Thani
+    title_ar: وفاة أحمد السرهندي — مجدد الألف الثاني
+    title_fr: Mort d'Ahmad Sirhindi — Mujaddid Alf Thani
+    description_en: |
+      Ahmad al-Faruqi al-Sirhindi — the "Renewer of the Second
+      Millennium," Indian Naqshbandi Sufi scholar, and the most
+      influential figure in the restoration of Sunni orthodoxy
+      in Mughal India after the heterodox innovations of Akbar's
+      court — died in Sirhind in 1034 AH / 1624 CE at about
+      sixty-three. His letters (Maktubat) to Mughal nobles and
+      scholars defended the Shari'a against syncretism and
+      established the Naqshbandi-Mujaddidi order as the
+      dominant Sufi path of South Asia. Shah Waliullah later
+      called him "the paragon of this age." His tomb in Sirhind
+      remains one of the most visited in the Indian subcontinent.
+    description_ar: |
+      توفي أحمد الفاروقي السرهندي — «مجدد الألف الثاني»،
+      والعالم الصوفي النقشبندي الهندي، وأكثر الشخصيات
+      تأثيراً في استعادة السنة في الهند المغولية بعد
+      البدع المحدثة في بلاط أكبر — بسرهند سنة ١٠٣٤ هـ/١٦٢٤
+      ميلادي عن ثلاث وستين سنة. ورسائله «المكتوبات» إلى
+      نبلاء المغول وعلمائهم دافعت عن الشريعة ضد التوفيقية،
+      وأرسخت الطريقة النقشبندية المجددية قطباً صوفياً مهماً
+      في جنوب آسيا. وسمّاه الشاه ولي الله لاحقاً «قدوة
+      الزمان». وضريحه بسرهند من أكثر الأضرحة زيارة في
+      شبه القارة الهندية.
+    description_fr: |
+      Ahmad al-Faruqi al-Sirhindi — le « Renouveleur du
+      Deuxième Millénaire », savant soufi naqshbandī indien
+      et figure la plus influente dans la restauration de
+      l'orthodoxie sunnite dans l'Inde moghole après les
+      innovations hétérodoxes de la cour d'Akbar — mourut
+      à Sirhind en 1034 H / 1624 EC à environ soixante-trois
+      ans. Ses lettres (Maktūbāt) aux nobles et savants
+      moghols défendirent la Sharī'a contre le syncrétisme
+      et établirent la ṭarīqa naqshbandī-mujaddidī comme la
+      voie soufie dominante de l'Asie du Sud. Shāh Walīullāh
+      l'appela plus tard « le modèle de cette époque ». Sa
+      tombe à Sirhind demeure l'une des plus visitées du
+      sous-continent indien.
+    canonical_hijri: {year: 1034, precision: year}
+    canonical_gregorian: {date: 1624-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-sirhindi, subject]]
+    tags: [india, sirhind, naqshbandi-mujaddidi, mujaddid, sufi, mughal]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Sirhindi"
+
+  - slug: death-of-shibli-al-numani
+    category: scholar_death
+    title_en: Death of Shibli al-Nu'mani — Founder of Nadwat al-Ulama
+    title_ar: وفاة شبلي النعماني — مؤسس ندوة العلماء
+    title_fr: Mort de Shibli al-Nu'mani — fondateur de Nadwat al-Ulama
+    description_en: |
+      Shibli al-Nu'mani — Indian Sunni Hanafi scholar, historian,
+      and the founding spirit of Nadwat al-Ulama in Lucknow, the
+      institution that sought a middle path between the Deobandi
+      and Barelwi movements — died in Lucknow in 1332 AH / 1914
+      CE at about sixty-eight. His multi-volume al-Faruq (on
+      Umar ibn al-Khattab) and al-Ma'mun (on the Abbasid caliph)
+      pioneered a modern historiographical approach to Islamic
+      biography in Urdu. He taught that Muslims must recover
+      their intellectual self-confidence by studying their own
+      history critically rather than through colonial lenses.
+      Nadwat al-Ulama remains one of the major seminaries of
+      South Asia.
+    description_ar: |
+      توفي شبلي النعماني — العالم السني الهندي الحنفي،
+      والمؤرخ، والروح المؤسسة لـ«ندوة العلماء» بلكناو،
+      المؤسسة التي سعت لطريق وسط بين المدرستين الديوبندية
+      والبريلوية — بلكناو سنة ١٣٣٢ هـ/١٩١٤ ميلادي عن ثمان
+      وستين سنة. وكتاباه «الفاروق» (في عمر بن الخطاب)
+      و«المأمون» (في الخليفة العباسي) أرسيا منهجاً
+      تاريخياً حديثاً في كتابة السيرة بالأردية. وكان
+      يعلّم أن على المسلمين استعادة ثقتهم الفكرية بدراسة
+      تاريخهم بشكل نقدي لا من خلال العدسات الاستعمارية.
+      ولا تزال ندوة العلماء من كبار المدارس في جنوب آسيا.
+    description_fr: |
+      Shibli al-Nu'mani — savant sunnite indien hanafite,
+      historien et esprit fondateur de Nadwat al-Ulama à
+      Lucknow, l'institution qui chercha une voie médiane
+      entre les mouvements deobandi et barelwi — mourut à
+      Lucknow en 1332 H / 1914 EC à environ soixante-huit
+      ans. Ses ouvrages en plusieurs volumes al-Fārūq (sur
+      Umar ibn al-Khaṭṭāb) et al-Ma'mūn (sur le calife
+      abbasside) inaugurèrent une approche historiographique
+      moderne de la biographie islamique en ourdou. Il
+      enseigna que les musulmans devaient retrouver leur
+      confiance intellectuelle en étudiant leur propre
+      histoire de manière critique plutôt que par des
+      lentilles coloniales. Nadwat al-Ulama demeure l'un
+      des principaux séminaires de l'Asie du Sud.
+    canonical_hijri: {year: 1332, precision: year}
+    canonical_gregorian: {date: 1914-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[shibli-al-numani, subject]]
+    tags: [india, lucknow, nadwa, hanafi, historian, al-faruq]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shibli_Nomani"
+
+  - slug: death-of-sayyida-nafisa
+    category: scholar_death
+    title_en: Death of Sayyida Nafisa — Granddaughter of al-Hasan
+    title_ar: وفاة السيدة نفيسة — حفيدة الحسن
+    title_fr: Mort de Sayyida Nafisa — petite-fille d'al-Hasan
+    description_en: |
+      Sayyida Nafisa bint al-Hasan ibn Zayd ibn al-Hasan ibn Ali
+      ibn Abi Talib — great-granddaughter of the Prophet's ﷺ
+      grandson al-Hasan, and one of the most renowned female
+      scholars of early Islamic Egypt — died in Cairo in 208 AH /
+      824 CE. She was a muhadditha who transmitted hadith from
+      Malik ibn Anas and other Medinan scholars. Ibn Khallikan
+      records that her funeral prayer was led by the governor of
+      Egypt and that the entire population of Fustat attended her
+      burial at the foot of the Muqattam Hills. Her tomb remains
+      a site of visitation in Cairo. She represents the
+      continuation of Ahl al-Bayt scholarship in the generation
+      after the Tabi'in.
+    description_ar: |
+      توفيت السيدة نفيسة بنت الحسن بن زيد بن الحسن بن علي بن
+      أبي طالب — حفيدة حفيد النبي ﷺ الحسن، ومن أشهر
+      العالمات في مصر الإسلامية الأولى — بالقاهرة سنة ٢٠٨
+      هـ/٨٢٤ ميلادي. وكانت محدثة تروي عن مالك بن أنس وغيره
+      من علماء المدينة. وذكر ابن خلّكان أن صلاة الجنازة
+      عليها أداها والي مصر، وحضر دفنها عموم أهل الفسطاط.
+      وضريحها بأقدام جبل المقطم مقصد زائرين إلى اليوم.
+      وهي تمثل استمرار علم أهل البيت في الجيل الذي يلي
+      التابعين.
+    description_fr: |
+      Sayyida Nafisa bint al-Hasan ibn Zayd ibn al-Hasan ibn Ali
+      ibn Abi Talib — arrière-petite-fille d'al-Hasan, petit-fils
+      du Prophète ﷺ, et l'une des savantes les plus renommées
+      de l'Égypte islamique primitive — mourut au Caire en
+      208 H / 824 EC. Elle était une muḥadditha qui transmettait
+      le hadith de Malik ibn Anas et d'autres savants de Médine.
+      Ibn Khallikān rapporte que sa prière funéraire fut dirigée
+      par le gouverneur d'Égypte et que toute la population de
+      Fusṭāṭ assista à son enterrement au pied des collines du
+      Muqaṭṭam. Sa tombe demeure un lieu de visite au Caire.
+      Elle représente la continuation de l'érudition des Ahl
+      al-Bayt dans la génération suivant les Tabi'in.
+    canonical_hijri: {year: 208, precision: year}
+    canonical_gregorian: {date: 824-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: editorial
+    people: [[sayyida-nafisa, subject]]
+    tags: [egypt, cairo, ahl-al-bayt, hadith, female-scholar, tabiin]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nafisa_bint_al-Hasan"
+
+  - slug: death-of-umm-salamah
+    category: prophetic_era
+    title_en: Death of Umm Salamah — Wise Counsel of the Prophet
+    title_ar: وفاة أم سلمة — حكيمة النبي ﷺ
+    title_fr: Mort de Umm Salamah — sage conseil du Prophète
+    description_en: |
+      Umm Salamah Hind bint Abi Umayya — the Prophet's ﷺ wife
+      after Khadija and Aisha, the most politically astute of
+      the Mothers of the Believers, and the source of numerous
+      legal rulings in hadith — died in Medina in 59 AH /
+      680 CE at about eighty-four. She was the last of the
+      Prophet's ﷺ wives to die. Her hadiths on marriage,
+      pilgrimage, and family law are cited in all six canonical
+      collections. She is famous for her counsel to the Prophet
+      ﷺ at Hudaybiyyah, when she advised him to shave his head
+      and sacrifice his animal to show the Companions that the
+      treaty was not a defeat. The Prophet ﷺ followed her advice
+      and the Companions followed him.
+    description_ar: |
+      توفيت أم سلمة هند بنت أبي أمية — زوجة النبي ﷺ بعد
+      خديجة وعائشة، وأحكم أمهات المؤمنين سياسياً، ومصدر
+      أحكام فقهية كثيرة في الحديث — بالمدينة سنة ٥٩ هـ/٦٨٠
+      ميلادي عن أربع وثمانين سنة. وكانت آخر أزواج النبي ﷺ
+      وفاة. وأحاديثها في النكاح والحج وأحكام الأسرة مروية
+      في جميع الكتب الستة. وهي مشهورة بمشورتها للنبي ﷺ يوم
+      الحديبية، حين نصحته أن يحلق رأسه ويُضحي ليري
+      الصحابة أن الصلح ليس هزيمة. فاتبع النبي ﷺ نصيحتها
+      واتبعه الصحابة.
+    description_fr: |
+      Umm Salamah Hind bint Abi Umayya — épouse du Prophète ﷺ
+      après Khadija et Aisha, la plus politiquement avisée des
+      Mères des Croyants, et source de nombreux arrêts juridiques
+      dans le hadith — mourut à Médine en 59 H / 680 EC à
+      environ quatre-vingt-quatre ans. Elle fut la dernière des
+      épouses du Prophète ﷺ à décéder. Ses hadiths sur le
+      mariage, le pèlerinage et le droit familial sont cités
+      dans les six collections canoniques. Elle est célèbre pour
+      son conseil au Prophète ﷺ à Hudaybiyya, lorsqu'elle lui
+      conseilla de se raser la tête et de sacrifier son animal
+      pour montrer aux Compagnons que le traité n'était pas une
+      défaite. Le Prophète ﷺ suivit son conseil et les
+      Compagnons le suivirent.
+    canonical_hijri: {year: 59, precision: year}
+    canonical_gregorian: {date: 680-01-01, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        is_canonical: true
+      - source_key: editorial
+    people: [[umm-salamah, subject]]
+    tags: [medina, mother-of-believers, hadith, hudaybiyyah, ahl-al-bayt]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Umm_Salamah"
+
+  - slug: death-of-muhammad-al-maghili
+    category: scholar_death
+    title_en: Death of Muhammad al-Maghili — Advisor to the Askias
+    title_ar: وفاة محمد المغيلي — مستشار الأسكيين
+    title_fr: Mort de Muhammad al-Maghili — conseiller des Askias
+    description_en: |
+      Muhammad ibn Abd al-Karim al-Maghili — North African Maliki
+      jurist of Tlemcen who travelled to the Songhai Empire and
+      became the principal religious advisor to Askia Muhammad I —
+      died in the Air region of present-day Niger around 910 AH /
+      1505 CE. He is credited with institutionalizing Maliki law
+      as the governing code of the Songhai state and advising Askia
+      Muhammad on the proper conduct of jihad against non-Muslim
+      neighbors. His fatwas on governance in African Muslim
+      polities circulated widely across the Sahel and influenced
+      the legal framework of the Sokoto Caliphate three centuries
+      later. Ibn Khaldun's continuators mention him as the link
+      between North African and West African Maliki scholarship.
+    description_ar: |
+      توفي محمد بن عبد الكريم المغيلي — الفقيه المالكي
+      المغاربي من تلمسان الذي سافر إلى إمبراطورية صنغاي
+      فصار المستشار الديني الرئيسي لأسكيا محمد الأول —
+      بإقليم آير في النيجر الحالية نحو سنة ٩١٠ هـ/١٥٠٥
+      ميلادي. ويُنسب إليه ترسيخ المالكية كمنهج حاكم في
+      دولة صنغاي، وإفتاؤه لأسكيا محمد في سلوك الجهاد ضد
+      الجيران غير المسلمين. وفتاواه في حكم الممالك
+      الإسلامية الأفريقية انتشرت في الساحل فأثرت في
+      الإطار القانوني لخلافة صكتو بعد ثلاثة قرون. وذكره
+      مستمرّو ابن خلدون حلقة الوصل بين الفقه المالكي
+      المغاربي والغرب أفريقي.
+    description_fr: |
+      Muhammad ibn Abd al-Karim al-Maghili — juriste malikite
+      nord-africain de Tlemcen qui voyagea jusqu'à l'empire du
+      Songhaï et devint le principal conseiller religieux
+      d'Askia Muḥammad Ier — mourut dans la région de l'Aïr
+      dans l'actuel Niger vers 910 H / 1505 EC. On lui
+      attribue l'institutionnalisation du droit malikite comme
+      code directeur de l'État songhaï et ses fatwas sur la
+      conduite du jihad contre les voisins non-musulmans.
+      Ses fatwas sur la gouvernance des polités musulmanes
+      africaines circulèrent largement à travers le Sahel et
+      influencèrent le cadre juridique du califat de Sokoto
+      trois siècles plus tard. Les continuateurs d'Ibn
+      Khaldūn le mentionnent comme le lien entre l'érudition
+      malikite nord-africaine et ouest-africaine.
+    canonical_hijri: {year: 910, precision: year}
+    canonical_gregorian: {date: 1505-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-al-maghili, subject]]
+    tags: [west-africa, songhai, tlemcen, maliki, advisor, askia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_al-Maghili"
+
+  - slug: death-of-idris-alooma
+    category: ruler_death
+    title_en: Death of Idris Alooma — Restorer of Kanem-Bornu
+    title_ar: وفاة إدريس العلومي — مجدد كنعم-بورنو
+    title_fr: Mort d'Idris Alooma — restaurateur du Kanem-Bornu
+    description_en: |
+      Idris ibn Ali Alooma — the Mai (king) of the Kanem-Bornu
+      Empire in the central Sudan, under whose reign (c. 1564–1596
+      CE) the empire reached its territorial and cultural zenith —
+      died in Bornu around 1004 AH / 1596 CE. He was the first
+      ruler of the region to import firearms from North Africa and
+      the Ottoman Empire, and he invited Maliki scholars from Egypt
+      and the Maghreb to his court at Ngazargamu. The Diwan of the
+      sultans of Bornu, the empire's chronicle, credits him with
+      standardizing Islamic taxation, building mosques, and
+      extending Kanem-Bornu's authority over the trans-Saharan
+      trade routes from Libya to Lake Chad. His reign represents
+      the peak of state Islamization in the central Sudan before
+      the Atlantic slave trade destabilized the region.
+    description_ar: |
+      توفي إدريس بن علي العلومي — «الماي» (الملك) لإمبراطورية
+      كنعم-بورنو في السودان الأوسط، التي بلغت في عهده (نحو
+      ٩٧٢–١٠٠٤ هـ/١٥٦٤–١٥٩٦ ميلادي) أقصى اتساعها
+      الحضاري والسياسي — ببورنو نحو سنة ١٠٠٤ هـ/١٥٩٦
+      ميلادي. وكان أول حكام الإقليم يستورد البنادق من
+      شمال أفريقيا والدولة العثمانية، واستضاف فقهاء
+      مالكيين من مصر والمغرب في بلاطه بنغازرغمو. وينسب
+      إليه ديوان سلاطين بورنو (تاريخ الإمبراطورية) توحيد
+      الضرائب الإسلامية وبناء المساجد وبسط سلطة كنعم-بورنو
+      على طرق التجارة عبر الصحراء من ليبيا إلى تشاد.
+      ويمثل عهده ذروة تأسيس الدولة الإسلامية في السودان
+      الأوسط قبل أن يزعزع تجارة الرقيق الأطلسي الإقليم.
+    description_fr: |
+      Idris ibn Ali Alooma — le Mai (roi) de l'empire du
+      Kanem-Bornu dans le Soudan central, sous le règne duquel
+      (c. 1564–1596 EC) l'empire atteignit son zénith
+      territorial et culturel — mourut au Bornu vers 1004 H /
+      1596 EC. Il fut le premier souverain de la région à
+      importer des armes à feu d'Afrique du Nord et de l'Empire
+      ottoman, et il invita des juristes malikites d'Égypte et
+      du Maghreb à sa cour de Ngazargamu. Le Diwan des sultans
+      du Bornu, la chronique de l'empire, lui attribue
+      l'uniformisation de la fiscalité islamique, la
+      construction de mosquées et l'extension de l'autorité du
+      Kanem-Bornu sur les routes commerciales transsahariennes
+      de la Libye au lac Tchad. Son règne représente l'apogée
+      de l'islamisation étatique dans le Soudan central avant
+      que la traite atlantique n'ébranle la région.
+    canonical_hijri: {year: 1004, precision: year}
+    canonical_gregorian: {date: 1596-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[idris-alooma, subject]]
+    tags: [west-africa, kanem-bornu, bornu, maliki, firearms, trans-saharan-trade]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Idris_Alooma"
+
+  - slug: death-of-makhdum-jahaniyan
+    category: scholar_death
+    title_en: Death of Makhdum Jahaniyan Jahangasht — Chishti Saint of Multan
+    title_ar: وفاة مخدوم جهانيان جهانگشت — شيخ الشيوخ الجشتية بملتان
+    title_fr: Mort de Makhdum Jahaniyan Jahangasht — saint chishti de Multan
+    description_en: |
+      Jalal al-Din Jahaniyan Jahangasht — Indian Chishti Sufi
+      shaykh of Multan, known as "the world-traveller" for his
+      extensive journeys across the Islamic world from Mecca to
+      Central Asia — died in Uchh (present-day Pakistan) in 785 AH /
+      1384 CE at about ninety. He was the spiritual successor of
+      Nasir al-Din Chiragh-i Dihli and the teacher of Bahauddin
+      Zakariya Multani. His Sufi doctrine emphasized strict
+      adherence to the Shari'a as the foundation of the tariqa,
+      and he opposed the antinomian tendencies of some later Sufi
+      groups. His tomb in Uchh remains one of the most important
+      pilgrimage sites in Pakistani Punjab.
+    description_ar: |
+      توفي جلال الدين جهانيان جهانگشت — الشيخ الصوفي
+      الجشتي الهندي بملتان، المعروف بـ«جهانگشت» (المسافر
+      حول العالم) لرحلاته الواسعة في العالم الإسلامي من
+      مكة إلى آسيا الوسطى — بأوتش (باكستان اليوم) سنة ٧٨٥
+      هـ/١٣٨٤ ميلادي عن تسعين سنة. وكان خليفة نصير الدين
+      «تشيرة دلهي» وشيخ بهاء الدين زكريا الملتاني. وقد
+      أكدت عقيدته الصوفية التزاماً صارماً بالشريعة كأساس
+      للطريقة، وعارض ميول بعض الفرق الصوفية اللاحقة
+      المناهضة للأحكام. وضريحه بأوتش من أهم مقاصد
+      الزيارة في البنجاب الباكستاني.
+    description_fr: |
+      Jalal al-Din Jahaniyan Jahangasht — cheikh soufi chishti
+      indien de Multan, connu comme « le voyageur du monde »
+      pour ses voyages étendus à travers le monde islamique de
+      La Mecque à l'Asie centrale — mourut à Uchh (Pakistan
+      actuel) en 785 H / 1384 EC à environ quatre-vingt-dix
+      ans. Il fut le successeur spirituel de Nasir al-Din
+      Chiragh-i Dihli et le maître de Bahauddin Zakariya
+      Multani. Sa doctrine soufie mettait l'accent sur
+      l'adhérence stricte à la Sharī'a comme fondement de la
+      ṭarīqa, et il s'opposa aux tendances antinomiques de
+      certains groupes soufis ultérieurs. Sa tombe à Uchh
+      demeure l'un des sites de pèlerinage les plus importants
+      du Pendjab pakistanais.
+    canonical_hijri: {year: 785, precision: year}
+    canonical_gregorian: {date: 1384-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[makhdum-jahaniyan, subject]]
+    tags: [india, pakistan, multan, uchh, chishti, sufi, shari-a]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Jahaniyan_Jahangasht"
+
+  - slug: death-of-abd-al-haqq-al-dehlawi
+    category: scholar_death
+    title_en: Death of Abd al-Haqq al-Dehlawi — Hadith Scholar of Delhi
+    title_ar: وفاة عبد الحق الدهلوي — محدث دلهي
+    title_fr: Mort d'Abd al-Haqq al-Dehlawi — muḥaddith de Delhi
+    description_en: |
+      Abd al-Haqq ibn Sayf al-Din al-Dehlawi — Indian Sunni
+      Hanafi hadith scholar of Delhi, author of Akhbar al-Akhyar
+      (biographies of the saints) and Madarij al-Nubuwwah (on
+      the stages of prophethood) — died in Delhi in 1052 AH /
+      1642 CE at about seventy. He was a contemporary of Shah
+      Jahan and served as imam of the imperial mosque. His
+      Akhbar al-Akhyar remains a standard reference for Sufi
+      biographies in the Indian subcontinent, and his Madarij
+      al-Nubuwwah is a major Persian work on the Prophet's ﷺ
+      character and miracles. He represents the continuation of
+      the pre-Waliullah hadith tradition in Mughal India.
+    description_ar: |
+      توفي عبد الحق بن سيف الدين الدهلوي — المحدث السني
+      الهندي الحنفي بدلهي، صاحب «أخبار الأخيار» (تراجم
+      الأولياء) و«مدارج النبوة» (في مراتب النبوة) — بدلهي
+      سنة ١٠٥٢ هـ/١٦٤٢ ميلادي عن سبعين سنة. وكان معاصراً
+      لشاه جهان وإماماً للجامع الإمبراطوري. و«أخبار
+      الأخيار» لا تزال مرجعاً معتمداً في التراجم الصوفية
+      بشبه القارة الهندية، و«مدارج النبوة» من كبار
+      المصنفات الفارسية في شمائل النبي ﷺ ومعجزاته.
+      ويمثل استمرار تراث الحديث قبل الولي اللهي في
+      الهند المغولية.
+    description_fr: |
+      Abd al-Haqq ibn Sayf al-Din al-Dehlawi — muḥaddith
+      sunnite indien hanafite de Delhi, auteur d'Akhbār
+      al-Akhyār (biographies des saints) et de Madārij
+      al-Nubuwwa (sur les étapes de la prophétie) — mourut
+      à Delhi en 1052 H / 1642 EC à environ soixante-dix ans.
+      Il fut contemporain de Shāh Jahān et imām de la
+      mosquée impériale. Son Akhbār al-Akhyār demeure une
+      référence standard pour les biographies soufies dans
+      le sous-continent indien, et son Madārij al-Nubuwwa
+      est un ouvrage persan majeur sur le caractère et les
+      miracles du Prophète ﷺ. Il représente la continuation
+      de la tradition du hadith pré-walīullāhī dans l'Inde
+      moghole.
+    canonical_hijri: {year: 1052, precision: year}
+    canonical_gregorian: {date: 1642-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-haqq-al-dehlawi, subject]]
+    tags: [india, delhi, hanafi, hadith, sufi-biography, mughal]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Haqq_al-Dehlawi"
+
+  - slug: death-of-zheng-he
+    category: explorer_death
+    title_en: Death of Zheng He — Admiral of the Ming Treasure Fleets
+    title_ar: وفاة جنخ خه — أمير الأساطيل الكنزية المينغية
+    title_fr: Mort de Zheng He — amiral des flottes du trésor des Ming
+    description_en: |
+      Zheng He (Ma He, later Hajj Muhammad) — the Hui Muslim
+      admiral who led seven great maritime expeditions between
+      1405 and 1433 on behalf of the Ming dynasty, reaching
+      Southeast Asia, India, the Persian Gulf, and the east
+      coast of Africa — died at sea during the return voyage
+      of the seventh expedition in 1433 CE. Born in Yunnan
+      province to a Muslim family that claimed descent from
+      a early governor of the province during the Mongol Yuan
+      dynasty, he was captured as a boy, castrated, and became
+      a eunuch in the Ming imperial household. His fleets —
+      comprising hundreds of ships and tens of thousands of
+      sailors — were the largest maritime expeditions in world
+      history before the modern era. He established diplomatic
+      relations with dozens of states and protected Chinese
+      Muslim communities abroad. His tomb in Nanjing is a
+      national monument.
+    description_ar: |
+      توفي جنخ خه (ما خه، لاحقاً الحاج محمد) — الأدميرال
+      الحوي المسلم الذي قاد سبع حملات بحرية كبرى بين ١٤٠٥
+      و١٤٣٣ ميلادي نيابة عن سلالة مينغ، وصلت جنوب شرق
+      آسيا والهند والخليج الفارسي وساحل شرق أفريقيا —
+      في البحر أثناء رحلة العودة من الحملة السابعة سنة
+      ١٤٣٣ ميلادي. وُلد في مقاطعة يونان لأسرة مسلمة
+      تدّعي النسب من حاكم مقاطعة مبكر في عهد سلالة
+      يوان المغولية، فأُسر وهو صبي وخصي فصار خصياً
+      في البلاط الإمبراطوري المينغي. وأساطيله — المؤلفة
+      من مئات السفن وعشرات الآلاف من البحارة — كانت
+      أكبر الحملات البحرية في التاريخ العالمي قبل العصر
+      الحديث. وأقام علاقات دبلوماسية مع عشرات الدول
+      وحماى المجتمعات الإسلامية الصينية في الخارج.
+      وضريحه بنانجينغ نصب تذكاري وطني.
+    description_fr: |
+      Zheng He (Ma He, plus tard Hajj Muhammad) — l'amiral
+      hui musulman qui dirigea sept grandes expéditions
+      maritimes entre 1405 et 1433 au nom de la dynastie
+      Ming, atteignant l'Asie du Sud-Est, l'Inde, le Golfe
+      persique et la côte est de l'Afrique — mourut en mer
+      lors du voyage de retour de la septième expédition en
+      1433 EC. Né dans la province du Yunnan dans une famille
+      musulmane qui revendiquait la descendance d'un premier
+      gouverneur de la province sous la dynastie mongole Yuan,
+      il fut capturé enfant, castré, et devint eunuque dans la
+      maison impériale Ming. Ses flottes — composées de
+      centaines de navires et de dizaines de milliers de
+      marins — furent les plus grandes expéditions maritimes
+      de l'histoire mondiale avant l'ère moderne. Il établit
+      des relations diplomatiques avec des dizaines d'États
+      et protégea les communautés musulmanes chinoises à
+      l'étranger. Sa tombe à Nankin est un monument national.
+    canonical_hijri: {year: 836, precision: year}
+    canonical_gregorian: {date: 1433-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[zheng-he, subject]]
+    tags: [china, ming, hui, explorer, maritime, nanjing, yunnan]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Zheng_He"
+
+  - slug: death-of-sidi-yahya-al-tadlisi
+    category: scholar_death
+    title_en: Death of Sidi Yahya al-Tadlisi — Third Mosque of Timbuktu
+    title_ar: وفاة سيدي يحيى التادلسي — ثالث مساجد تنبكتو
+    title_fr: Mort de Sidi Yahya al-Tadlisi — troisième mosquée de Tombouctou
+    description_en: |
+      Sidi Yahya al-Tadlisi — Andalusian-born Maliki scholar
+      who settled in Timbuktu and after whom the Sidi Yahya
+      mosque was named, the third of the great mosque-madrasas
+      of Timbuktu alongside the Djinguereber and Sankore —
+      died in Timbuktu around 874 AH / 1469 CE. The mosque
+      that bears his name was built in the same period as the
+      other two great mosques, and together they formed the
+      triangular scholarly complex that made Timbuktu the
+      pre-eminent center of Sunni learning in the western
+      Sudan. Al-Sa'di mentions him in the Tarikh al-Sudan as
+      one of the early immigrant scholars who established the
+      city's reputation for knowledge.
+    description_ar: |
+      توفي سيدي يحيى التادلسي — الفقيه المالكي الأندلسي
+      المولد الذي استقر بتنبكتو ونُسبت إليه مسجد «سيدي
+      يحيى»، ثالث المساجد الكبرى بتنبكتو إلى جانب
+      «جنغرابر» و«سنكوري» — بتنبكتو نحو سنة ٨٧٤ هـ/١٤٦٩
+      ميلادي. وقد بُني المسجد الذي يحمل اسمه في الفترة
+      نفسها التي شهدت بناء المسجدين الآخرين، فكونوا معاً
+      المجمع العلمي المثلث الذي جعل تنبكتو المركز
+      الأبرز للعلم السني في السودان الغربي. وذكره
+      السعدي في «تاريخ السودان» من جملة العلماء
+      المهاجرين الأوائل الذين رسّخوا شهرة المدينة
+      بالعلم.
+    description_fr: |
+      Sidi Yahya al-Tadlisi — juriste malikite d'origine
+      andalouse qui s'installa à Tombouctou et dont la
+      mosquée Sidi Yahya prit le nom, la troisième des
+      grandes mosquées-madrasas de Tombouctou aux côtés de
+      Djinguereber et Sankoré — mourut à Tombouctou vers
+      874 H / 1469 EC. La mosquée qui porte son nom fut
+      construite à la même période que les deux autres
+      grandes mosquées, et ensemble elles formèrent le
+      complexe savant triangulaire qui fit de Tombouctou
+      le centre prééminent de l'érudition sunnite du
+      Soudan occidental. Al-Saʿdī le mentionne dans le
+      Tārīkh al-Sūdān comme l'un des premiers savants
+      immigrants qui établirent la réputation de la ville
+      pour le savoir.
+    canonical_hijri: {year: 874, precision: year}
+    canonical_gregorian: {date: 1469-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sidi-yahya-al-tadlisi, subject]]
+    tags: [west-africa, timbuktu, maliki, mosque, andalusian]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sidi_Yahya_Mosque"

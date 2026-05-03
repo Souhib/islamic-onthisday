@@ -1,0 +1,794 @@
+# Wave 56 of curated event additions (2026-04-27).
+# The Graeco-Arabic translation movement of 8th-10th century Baghdad —
+# the scholars who, under ʿAbbāsid caliphal patronage from al-Manṣūr to
+# the Buwayhids, rendered the Greek scientific and philosophical corpus
+# (and a Pahlavi/Sanskrit/Syriac sub-stream) into Arabic, generating the
+# textual foundation on which falsafa, ḥikma, and the Islamic exact
+# sciences were built. Many of these figures were Arab Christians
+# (Mattā ibn Yūnus, Yaḥyā ibn ʿAdī, Qusṭā ibn Lūqā, ʿAbd al-Masīḥ
+# al-Ḥimṣī, Yaḥyā ibn al-Biṭrīq) or Sabians (the Banū Thābit lineage —
+# Sinān ibn Thābit) working under Muslim patronage; their work became
+# canonical input to Islamic intellectual history. We frame each
+# entry by what they translated and how those translations entered
+# the Arabic scholarly mainstream, without religious-affiliation
+# extrapolation. There is precedent for this scope in the wave-43
+# physician entries (Ibn Jumayʿ — Jewish; Yūḥannā ibn Māsawayh —
+# Christian).
+#
+# Date precision: most translation-movement scholars are attested only
+# at year-precision in the classical Sunni biographical sources (Ibn
+# Khallikān, al-Dhahabī, Ibn Kathīr) — and several are at "approximate
+# year" only (Qusṭā ibn Lūqā, ʿAbd al-Masīḥ, al-Ḥajjāj ibn Maṭar). We
+# preserve that precision honestly. The only day-precise entry here is
+# the death of Ibn al-Muqaffaʿ (executed by order of al-Manṣūr) which
+# is itself contested — set as year-precision with disputed flag.
+#
+# Source-key inventory check (against sources.yaml as of 2026-04-27):
+# we use ibn_khallikan_wafayat, dhahabi_siyar, dhahabi_tarikh_islam,
+# ibn_kathir_bidaya, ibn_athir_kamil, tabari_tarikh, ei2, editorial.
+# (Ibn al-Nadīm's Fihrist and Ibn Abī Uṣaybiʿa's ʿUyūn al-Anbāʾ are the
+# native sources for translator biography but are not yet entries in
+# sources.yaml; their content is folded into the EI2 + editorial
+# claims here. When/if those source-keys are added, claims should be
+# updated.)
+#
+# Trilingual en/ar/fr throughout. Hadith refs intentionally omitted —
+# no narration directly anchors a translation event.
+
+events:
+  # =========================================================================
+  # EARLY ʿABBĀSID PRECURSORS (2nd c. AH / 8th c. CE)
+  # =========================================================================
+
+  - slug: death-of-ibn-al-muqaffa
+    category: scholar_death
+    title_en: Death of Ibn al-Muqaffaʿ — Translator of Kalīla wa-Dimna
+    title_ar: مقتل ابن المقفَّع — مترجم «كليلة ودمنة»
+    title_fr: Mort d'Ibn al-Muqaffaʿ — traducteur de Kalīla wa-Dimna
+    description_en: |
+      Abū Muḥammad ʿAbd Allāh ibn al-Muqaffaʿ — Persian secretary
+      and prose stylist of the early ʿAbbāsid chancery, born a
+      Zoroastrian under the name Rūzbih and converted to Islam in
+      adulthood — was put to death by order of the caliph
+      al-Manṣūr around 139 AH (~756-759 CE), at the instigation of
+      the governor of Baṣra Sufyān ibn Muʿāwiya al-Muhallabī.
+      Classical sources disagree on the exact year (Ibn Khallikān
+      gives c.142 AH; Ibn al-Athīr 139 AH); we record the cluster
+      as 139 AH and flag the dispute. Ibn al-Muqaffaʿ rendered the
+      Pahlavi *Karīrak ud Damanak* — itself a Middle-Persian
+      translation of the Sanskrit *Pañcatantra* — into the Arabic
+      *Kalīla wa-Dimna*, founding Arabic adab prose and seeding
+      every later mirror-for-princes literature. He also translated
+      the *Khwadāy-Nāmag* (Sasanian royal chronicle) and
+      Aristotle's *Categories*, *On Interpretation*, and *Prior
+      Analytics* (likely from Pahlavi intermediaries) — the first
+      Aristotelian logic texts to circulate in Arabic.
+    description_ar: |
+      قُتل أبو محمد عبد الله بن المقفَّع — كاتب الديوان العباسي
+      المبكِّر وأديب النثر العربي، وُلِد مجوسياً باسم رُوزْبِه
+      وأسلم في كهولته — بأمر الخليفة المنصور نحو سنة ١٣٩ هـ
+      (~٧٥٦-٧٥٩ م)، بسعيٍ من والي البصرة سفيان بن معاوية
+      المهلَّبي. واختلفت المصادر القديمة في تاريخ مقتله: ضبطه
+      ابن خلكان نحو ١٤٢ هـ، وابن الأثير ١٣٩ هـ؛ وأخذنا بتاريخ
+      ١٣٩ هـ مع الإشارة إلى الخلاف. ونقل ابن المقفَّع كتاب
+      «كَرِيرَك أُد دَمَنَك» الفارسي البهلويّ — وهو ذاته ترجمة
+      وسطية فارسية لـ«پنجَتَنترا» السنسكريتي — إلى العربية في
+      كتاب «كليلة ودمنة»، فأسّس النثر الأدبي العربي وقدَّم النموذج
+      الذي أَلهَم كل أدب «نصائح الملوك» اللاحق. كما ترجم «خداي-
+      نامه» (السجلّ الملكي الساسانيّ)، و«المقولات» و«العبارة»
+      و«التحليلات الأولى» لأرسطو (يرجَّح عن وسطية بهلوية) —
+      وهي أوّل ما تُداول من نصوص المنطق الأرسطي في العربية.
+    description_fr: |
+      Abū Muḥammad ʿAbd Allāh ibn al-Muqaffaʿ — secrétaire persan
+      et prosateur de la chancellerie ʿabbāside des débuts, né
+      zoroastrien sous le nom de Rūzbih et converti à l'islam à
+      l'âge adulte — fut mis à mort sur ordre du calife al-Manṣūr
+      vers 139 H (~756-759 EC), à l'instigation du gouverneur de
+      Baṣra, Sufyān ibn Muʿāwiya al-Muhallabī. Les sources
+      classiques divergent sur l'année exacte : Ibn Khallikān
+      donne ~142 H ; Ibn al-Athīr 139 H ; nous retenons 139 H en
+      signalant la divergence. Ibn al-Muqaffaʿ rendit le moyen-
+      perse *Karīrak ud Damanak* — lui-même version pehlevie du
+      sanskrit *Pañcatantra* — en l'arabe *Kalīla wa-Dimna*,
+      fondant la prose adab arabe et fournissant le modèle de
+      toute la littérature « miroir des princes » ultérieure. Il
+      traduisit aussi le *Khwadāy-Nāmag* (chronique royale
+      sassanide) et les *Catégories*, *De l'interprétation* et
+      les *Premiers analytiques* d'Aristote (vraisemblablement par
+      des intermédiaires pehlevis) — les premiers textes de
+      logique aristotélicienne à circuler en arabe.
+    canonical_hijri: {year: 139, precision: year}
+    canonical_gregorian: {date: 757-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Year 139 AH for execution by order of al-Manṣūr at Baṣra."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt entry; gives c.142 AH (alternative)."
+      - source_key: tabari_tarikh
+        notes: "Notice within the events of al-Manṣūr's reign."
+      - source_key: ei2
+    people: [[ibn-al-muqaffa, died], [al-mansur-abbasid, leader]]
+    tags: [abbasid, scholar, translator, adab, persian, baghdad, basra, translation-movement, kalila-wa-dimna]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Muqaffa%27"
+
+  - slug: death-of-yahya-ibn-al-bitriq
+    category: scholar_death
+    title_en: Death of Yaḥyā ibn al-Biṭrīq — Translator under al-Maʾmūn
+    title_ar: وفاة يحيى بن البطريق — مترجم عصر المأمون
+    title_fr: Mort de Yaḥyā ibn al-Biṭrīq — traducteur sous al-Maʾmūn
+    description_en: |
+      Yaḥyā (or Yūḥannā) ibn al-Biṭrīq — Christian-Arab translator
+      of the early ninth-century ʿAbbāsid court, attached to the
+      caliph al-Maʾmūn's translation circle in Baghdad — died
+      around 200 AH (~815 CE), with the year only approximately
+      attested. He produced the first Arabic versions of Plato's
+      *Timaeus*, Aristotle's *Meteorology*, *On the Soul*, and
+      *On the Heavens*, working from Syriac intermediaries; his
+      translations were criticised by Ḥunayn ibn Isḥāq a generation
+      later as overly literal but remained foundational because
+      they constituted the first textual access. He is also
+      credited with the Arabic version of the pseudo-Aristotelian
+      *Sirr al-Asrār* (*Secretum Secretorum*), the most-copied work
+      of medieval Latin Europe through later translation.
+    description_ar: |
+      توفي يحيى (أو يوحنا) بن البطريق — مترجمٌ عربيٌّ نصرانيٌّ
+      من بلاط المأمون العباسي في أوائل القرن الثالث الهجري،
+      ومن حلقة الترجمة ببغداد — نحو سنة ٢٠٠ هـ (~٨١٥ م)، ولم
+      تُحفظ السنة إلا على وجه التقريب. أنتج أوّلَ ترجماتٍ عربيةٍ
+      لـ«طيماوس» أفلاطون، و«الآثار العلوية» لأرسطو، و«النفس»،
+      و«السماء والعالم» — مقتفياً وسائط سريانية. وانتقد حُنين
+      بن إسحاق ترجماته في الجيل التالي بأنها حرفية مفرطة، غير
+      أنها بقيت أساساً لكونها أوّلَ منفذٍ نصّي. ويُنسب إليه أيضاً
+      تعريب «سرّ الأسرار» المنحول إلى أرسطو — الذي صار من أكثر
+      كتب أوروبا اللاتينية الوسيطية تداولاً عبر ترجماتٍ لاحقة.
+    description_fr: |
+      Yaḥyā (ou Yūḥannā) ibn al-Biṭrīq — traducteur arabe chrétien
+      de la cour ʿabbāside du début du IXe siècle, rattaché au
+      cercle de traduction du calife al-Maʾmūn à Bagdad — mourut
+      vers 200 H (~815 EC), l'année n'étant attestée
+      qu'approximativement. Il produisit les premières versions
+      arabes du *Timée* de Platon, des *Météorologiques*, du *De
+      Anima*, et du *De Caelo* d'Aristote, à partir
+      d'intermédiaires syriaques ; ses traductions furent
+      critiquées par Ḥunayn ibn Isḥāq une génération plus tard
+      comme trop littérales, mais demeurèrent fondatrices comme
+      premier accès textuel. On lui attribue aussi la version
+      arabe du pseudo-aristotélicien *Sirr al-Asrār* (*Secretum
+      Secretorum*), l'œuvre la plus copiée de l'Europe latine
+      médiévale par ses traductions ultérieures.
+    canonical_hijri: {year: 200, precision: year}
+    canonical_gregorian: {date: 815-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Floruit early 3rd c. AH at the court of al-Maʾmūn; death c.200 AH."
+      - source_key: editorial
+        notes: "Approximate year; classical wafayāt do not preserve a precise date."
+    people: [[yahya-ibn-al-bitriq, died]]
+    tags: [abbasid, scholar, translator, christian, baghdad, translation-movement, aristotle]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Yahya_ibn_al-Bitriq"
+
+  - slug: death-of-al-hajjaj-ibn-matar
+    category: scholar_death
+    title_en: Death of al-Ḥajjāj ibn Yūsuf ibn Maṭar — First Arabic Euclid
+    title_ar: وفاة الحجّاج بن يوسف بن مَطَر — أوّل مُعرِّبٍ لإقليدس
+    title_fr: Mort d'al-Ḥajjāj ibn Yūsuf ibn Maṭar — premier traducteur arabe d'Euclide
+    description_en: |
+      Abū Muḥammad al-Ḥajjāj ibn Yūsuf ibn Maṭar — translator
+      attached to the courts of the ʿAbbāsid caliphs Hārūn al-Rashīd
+      and al-Maʾmūn — died early in the third century AH, with a
+      death-date attested only loosely (c.210 AH / ~825 CE). He
+      produced the first complete Arabic translation of Euclid's
+      *Elements* (*Kitāb al-Uṣūl fī al-Handasa*), in two recensions:
+      a Hārūnian version (the *al-Hārūnī*) and a revised Maʾmūnian
+      version (the *al-Maʾmūnī*). His translations of Ptolemy's
+      *Almagest* (the first Arabic version, predating the
+      Isḥāq-Thābit recension by a generation) underlay all
+      subsequent Arabic Ptolemaic astronomy. Al-Ḥajjāj's *Elements*
+      remained the Arabic mathematical mainstream until the
+      Isḥāq–Thābit ibn Qurra revision around 290 AH/900 CE
+      superseded it.
+    description_ar: |
+      توفي أبو محمد الحجّاج بن يوسف بن مَطَر — مترجمٌ من حلقة
+      الخليفتين العباسيَّين هارون الرشيد والمأمون — في أوائل
+      القرن الثالث الهجري، ولم تُحفظ سنةُ وفاته إلا على وجه
+      التقدير (نحو ٢١٠ هـ / ~٨٢٥ م). أنتج أوّلَ ترجمةٍ عربيةٍ
+      كاملةٍ لـ«أصول» إقليدس («كتاب الأصول في الهندسة») في
+      نسختَين: الهارونية («الهاروني») والمأمونية المنقَّحة
+      («المأموني»). وكانت ترجمته لـ«المجسطي» لبطليموس أوّلَ
+      نسخةٍ عربيةٍ، تسبق تنقيح إسحاق-ثابت بجيل، فبُنيت عليها
+      كلُّ علم الفلك البطلميّ العربيّ اللاحق. وبقيت ترجمته لـ
+      «الأصول» العمدةَ الرياضيةَ العربيةَ حتى نقّحها إسحاق
+      ابن حُنين وثابت بن قرة نحو ٢٩٠ هـ/٩٠٠ م.
+    description_fr: |
+      Abū Muḥammad al-Ḥajjāj ibn Yūsuf ibn Maṭar — traducteur
+      attaché aux cours des califes ʿabbāsides Hārūn al-Rashīd
+      puis al-Maʾmūn — mourut au début du IIIe siècle de l'hégire,
+      la date étant attestée seulement de manière approchée
+      (~210 H / ~825 EC). Il produisit la première traduction
+      arabe complète des *Éléments* d'Euclide (*Kitāb al-Uṣūl fī
+      al-Handasa*), en deux recensions : une version hārūnienne
+      (*al-Hārūnī*) et une version maʾmūnienne révisée
+      (*al-Maʾmūnī*). Sa traduction de l'*Almageste* de Ptolémée
+      (la première version arabe, antérieure d'une génération à
+      la recension Isḥāq-Thābit) servit de fondement à toute
+      l'astronomie ptolémaïque arabe ultérieure. Les *Éléments*
+      d'al-Ḥajjāj demeurèrent la référence mathématique arabe
+      jusqu'à la révision Isḥāq-Thābit ibn Qurra autour de 290 H
+      / 900 EC.
+    canonical_hijri: {year: 210, precision: year}
+    canonical_gregorian: {date: 825-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Floruit under al-Rashīd and al-Maʾmūn; death c.210 AH approximate."
+      - source_key: editorial
+        notes: "Death year is loose; Ibn al-Nadīm preserves bibliography but no precise wafāh."
+    people: [[al-hajjaj-ibn-matar, died]]
+    tags: [abbasid, scholar, translator, mathematics, astronomy, baghdad, translation-movement, euclid, ptolemy]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Al-Hajjaj_ibn_Yusuf_ibn_Matar"
+
+  - slug: death-of-abd-al-masih-al-himsi
+    category: scholar_death
+    title_en: Death of ʿAbd al-Masīḥ ibn Nāʿima al-Ḥimṣī — Translator of the Theology of Aristotle
+    title_ar: وفاة عبد المسيح بن ناعمة الحمصي — مترجم «أثولوجيا أرسطوطاليس»
+    title_fr: Mort de ʿAbd al-Masīḥ ibn Nāʿima al-Ḥimṣī — traducteur de la Théologie d'Aristote
+    description_en: |
+      ʿAbd al-Masīḥ ibn ʿAbd Allāh ibn Nāʿima al-Ḥimṣī — Christian-
+      Arab translator of Ḥimṣ active at Baghdad in the early third
+      century AH, attached to the circle of al-Kindī — died in the
+      first half of the third century, with the year only loosely
+      attested (c.220 AH / ~835 CE). He produced the Arabic
+      paraphrase of books IV-VI of Plotinus's *Enneads* under the
+      title *Uthūlūjiyā Arisṭū-ṭālīs* (*Theology of Aristotle*) —
+      a paraphrase wrongly attributed to Aristotle that became the
+      principal channel of Neoplatonic metaphysics into Arabic
+      falsafa. Through this misattribution, the entire al-Kindī
+      tradition, then al-Fārābī and Ibn Sīnā, read Plotinus as
+      Aristotle, fundamentally shaping classical Islamic
+      metaphysics. His Arabic version of the *Sophistical
+      Refutations* (*Kitāb al-Mughālaṭāt*) preceded the Mattā ibn
+      Yūnus recension.
+    description_ar: |
+      توفي عبد المسيح بن عبد الله بن ناعمة الحمصيّ — مترجمٌ
+      عربيٌّ نصرانيٌّ من حمص، اشتغل ببغداد في أوائل القرن الثالث
+      الهجري في حلقة الكِنْدي — في النصف الأول من ذلك القرن،
+      ولم تُحفظ السنة إلا على وجه التقدير (نحو ٢٢٠ هـ / ~٨٣٥
+      م). أنتج العربيةَ المتسامحةَ للمقالات الرابعة إلى السادسة
+      من «التاسوعات» لأفلوطين تحت اسم «أثولوجيا أرسطوطاليس»
+      («لاهوت أرسطو») — وهي مفارقةٌ شارحةٌ نُسبت خطأً إلى أرسطو
+      فصارت القناةَ الأهمّ التي دخلت بها ميتافيزيقا الأفلاطونية
+      المحدَثة إلى الفلسفة العربية. وبسبب هذه النسبة الخاطئة
+      قرأت تقليديةُ الكِنْدي بأكملها ثم الفارابي وابن سينا أفلوطينَ
+      على أنه أرسطو، فتحدّدت بذلك المعالم الميتافيزيقيّة للفلسفة
+      الإسلامية الكلاسيكية. وسبَقت ترجمتُه لـ«المغالطات» نسخةَ
+      متى بن يونس.
+    description_fr: |
+      ʿAbd al-Masīḥ ibn ʿAbd Allāh ibn Nāʿima al-Ḥimṣī — traducteur
+      arabe chrétien de Ḥimṣ, actif à Bagdad au début du IIIe
+      siècle de l'hégire, rattaché au cercle d'al-Kindī — mourut
+      dans la première moitié du IIIe siècle, l'année n'étant
+      attestée qu'approximativement (~220 H / ~835 EC). Il produisit
+      la paraphrase arabe des livres IV-VI des *Ennéades* de Plotin
+      sous le titre *Uthūlūjiyā Arisṭū-ṭālīs* (*Théologie
+      d'Aristote*) — paraphrase faussement attribuée à Aristote,
+      qui devint le principal canal d'entrée de la métaphysique
+      néoplatonicienne dans la falsafa arabe. Par cette
+      mésattribution, toute la tradition d'al-Kindī, puis al-Fārābī
+      et Ibn Sīnā, lurent Plotin comme Aristote, façonnant en
+      profondeur la métaphysique islamique classique. Sa version
+      arabe des *Réfutations sophistiques* (*Kitāb al-Mughālaṭāt*)
+      précéda la recension de Mattā ibn Yūnus.
+    canonical_hijri: {year: 220, precision: year}
+    canonical_gregorian: {date: 835-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Floruit early 3rd c. AH at Baghdad in al-Kindī's circle; death year approximate."
+      - source_key: editorial
+        notes: "No classical wafayāt entry preserves a precise death-date; precision: year."
+    people: [[abd-al-masih-al-himsi, died]]
+    tags: [abbasid, scholar, translator, christian, hims, baghdad, translation-movement, plotinus, neoplatonism, falsafa]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Theology_of_Aristotle"
+
+  # =========================================================================
+  # 3rd c. AH / 9th c. CE — THE BANŪ MŪSĀ AND THE MATURE TRANSLATION CIRCLE
+  # =========================================================================
+
+  - slug: death-of-muhammad-ibn-musa-banu-shakir
+    category: scholar_death
+    title_en: Death of Muḥammad ibn Mūsā ibn Shākir — Eldest of the Banū Mūsā
+    title_ar: وفاة محمد بن موسى بن شاكر — كبير بني موسى
+    title_fr: Mort de Muḥammad ibn Mūsā ibn Shākir — l'aîné des Banū Mūsā
+    description_en: |
+      Abū Jaʿfar Muḥammad ibn Mūsā ibn Shākir — eldest of the three
+      Banū Mūsā brothers (Muḥammad, Aḥmad, and al-Ḥasan), wealthy
+      ʿAbbāsid courtiers and the chief private patrons of the
+      translation movement — died at Baghdad in 259 AH (873 CE).
+      Together with his brothers he subsidised Ḥunayn ibn Isḥāq's
+      translation workshop (paying him 500 gold dinars a month
+      according to Ibn Abī Uṣaybiʿa), commissioned the missions
+      that recovered Greek manuscripts from Byzantium, and
+      personally co-authored the *Kitāb al-Ḥiyal* (Book of Ingenious
+      Devices) — a treatise of about a hundred mechanical
+      contrivances (siphons, automata, valves, conical valves) that
+      transmitted Hellenistic engineering to the Arabic and later
+      Latin tradition. Muḥammad's own contributions concentrated
+      on geometry and astronomy; he supervised the geodetic
+      measurement of a degree of the meridian commissioned by
+      al-Maʾmūn near Sinjār. Ibn Khallikān gives 259 AH at Baghdad.
+    description_ar: |
+      توفي أبو جعفر محمد بن موسى بن شاكر — كبيرُ بني موسى
+      الثلاثة (محمد وأحمد والحسن)، وأعيانُ الحاشية العباسية،
+      وكبارُ الرعاة الخاصّين لحركة الترجمة — ببغداد سنة ٢٥٩ هـ
+      (٨٧٣ م). تكفّل مع أخوَيه بنفقة حلقة حُنين بن إسحاق في
+      الترجمة (يُعطيه خمسَ مئة دينار ذهب في الشهر بحسب ابن
+      أبي أصيبعة)، وأرسلوا البعثات التي استجلبت المخطوطات
+      اليونانية من بلاد الروم، وشاركوا بأنفسهم في تأليف «كتاب
+      الحِيَل» — رسالةً تحوي نحو مئة آلةٍ ميكانيكية (سيفونات
+      وآلاتٍ ذاتية الحركة وصمامات بشكل مخروط) فنقل بذلك
+      الهندسةَ الميكانيكيةَ الهلِّينستيةَ إلى التراث العربي ثمّ
+      اللاتيني. واختصّ محمدٌ نفسه بالهندسة والفلك؛ وأشرف على
+      قياس درجةٍ من خطّ الزوال قرب سنجار بأمر المأمون. ضبط ابن
+      خلكان وفاته سنة ٢٥٩ هـ ببغداد.
+    description_fr: |
+      Abū Jaʿfar Muḥammad ibn Mūsā ibn Shākir — aîné des trois
+      frères Banū Mūsā (Muḥammad, Aḥmad et al-Ḥasan), riches
+      courtisans ʿabbāsides et principaux mécènes privés du
+      mouvement de traduction — mourut à Bagdad en 259 H (873
+      EC). Avec ses frères, il subventionna l'atelier de traduction
+      de Ḥunayn ibn Isḥāq (lui versant 500 dinars d'or par mois
+      selon Ibn Abī Uṣaybiʿa), commandita les missions qui
+      ramenèrent de Byzance des manuscrits grecs, et co-rédigea
+      personnellement le *Kitāb al-Ḥiyal* (Livre des dispositifs
+      ingénieux) — traité d'une centaine de mécanismes (siphons,
+      automates, vannes coniques) qui transmit l'ingénierie
+      hellénistique à la tradition arabe puis latine. Les
+      contributions propres de Muḥammad portèrent sur la géométrie
+      et l'astronomie ; il supervisa la mesure géodésique d'un
+      degré du méridien près de Sinjār commanditée par al-Maʾmūn.
+      Ibn Khallikān donne 259 H à Bagdad.
+    canonical_hijri: {year: 259, precision: year}
+    canonical_gregorian: {date: 873-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Year 259 AH at Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 259 AH wafayāt notice."
+      - source_key: ei2
+    people: [[muhammad-ibn-musa-banu-shakir, died]]
+    tags: [abbasid, scholar, translator, mathematics, mechanics, engineering, baghdad, translation-movement, banu-musa]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Banu_Musa"
+
+  - slug: death-of-ali-ibn-yahya-al-munajjim
+    category: scholar_death
+    title_en: Death of ʿAlī ibn Yaḥyā al-Munajjim — Astronomer-Courtier of the Banū al-Munajjim
+    title_ar: وفاة علي بن يحيى المنجِّم — فلكي البلاط من بني المنجِّم
+    title_fr: Mort de ʿAlī ibn Yaḥyā al-Munajjim — astronome de cour des Banū al-Munajjim
+    description_en: |
+      Abū al-Ḥasan ʿAlī ibn Yaḥyā ibn Abī Manṣūr al-Munajjim —
+      ʿAbbāsid courtier-astrologer of Persian descent and the most
+      visible figure of the Banū al-Munajjim dynasty of court
+      astrologers and translators (his father Yaḥyā had directed
+      al-Maʾmūn's astronomical observations at Shammāsiyya) — died
+      at Sāmarrā in 275 AH (888 CE). His Baghdad library, the *Khizāna
+      al-Ḥikma*, drew Greek manuscripts and translators alike; he
+      was the patron and friend of al-Kindī and the host of the
+      famous Christian-Muslim *risāla*-exchange between his cousin
+      al-Hāshimī and ʿAbd al-Masīḥ al-Kindī. The Banū al-Munajjim
+      family produced four generations of astrological-literary
+      court figures attached to the caliphs from al-Maʾmūn to
+      al-Muktafī. Al-Dhahabī notices ʿAlī ibn Yaḥyā within the
+      year 275 AH.
+    description_ar: |
+      توفي أبو الحسن علي بن يحيى بن أبي منصور المنجِّم —
+      منجِّمٌ من حاشية الخلافة العباسية، فارسيُّ الأصل، وأبرزُ
+      أعلام أسرة بني المنجِّم من منجِّمي البلاط ومترجميه (كان
+      أبوه يحيى قد أشرف على أرصاد المأمون في الشمَّاسية) —
+      بسامرّاء سنة ٢٧٥ هـ (٨٨٨ م). جذبت مكتبته «خزانة الحكمة»
+      ببغداد المخطوطاتِ اليونانيةَ والمترجمين معاً؛ وكان راعياً
+      للكِنْدي وصديقَه، ومضيفَ المراسلة الشهيرة («الرسالة») بين
+      ابن عمه الهاشمي وعبد المسيح الكِنْدي النصرانيّ. وأنجبت
+      أسرة بني المنجِّم أربعةَ أجيال من رجال البلاط في التنجيم
+      والأدب، اتّصلوا بالخلفاء من المأمون إلى المكتفي. وذكر
+      الذهبيُّ علي بن يحيى في وفيات سنة ٢٧٥ هـ.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn Yaḥyā ibn Abī Manṣūr al-Munajjim —
+      astrologue de cour ʿabbāside d'origine persane et la figure
+      la plus visible de la dynastie des Banū al-Munajjim,
+      astrologues et traducteurs de cour (son père Yaḥyā avait
+      dirigé les observations astronomiques d'al-Maʾmūn à
+      Shammāsiyya) — mourut à Sāmarrāʾ en 275 H (888 EC). Sa
+      bibliothèque bagdadienne, la *Khizānat al-Ḥikma*, attira à
+      la fois les manuscrits grecs et les traducteurs ; il fut
+      mécène et ami d'al-Kindī, et hôte du célèbre échange de
+      *risāla* islamo-chrétien entre son cousin al-Hāshimī et
+      ʿAbd al-Masīḥ al-Kindī. La famille Banū al-Munajjim donna
+      quatre générations de courtisans-lettrés rattachés aux
+      califes d'al-Maʾmūn jusqu'à al-Muktafī. Al-Dhahabī mentionne
+      ʿAlī ibn Yaḥyā dans les wafayāt de 275 H.
+    canonical_hijri: {year: 275, precision: year}
+    canonical_gregorian: {date: 888-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "Wafayāt notice in year 275 AH."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafāh in 275 AH at Sāmarrāʾ."
+      - source_key: ei2
+    people: [[ali-ibn-yahya-al-munajjim, died]]
+    tags: [abbasid, scholar, translator, astrologer, baghdad, samarra, translation-movement, banu-al-munajjim, persian]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Banu_al-Munajjim"
+
+  # =========================================================================
+  # 4th c. AH / 10th c. CE — THE NEXT-GENERATION TRANSLATORS
+  # =========================================================================
+
+  - slug: death-of-ishaq-ibn-hunayn
+    category: scholar_death
+    title_en: Death of Isḥāq ibn Ḥunayn — Translator of Aristotle
+    title_ar: وفاة إسحاق بن حُنين — مترجم أرسطو
+    title_fr: Mort d'Isḥāq ibn Ḥunayn — traducteur d'Aristote
+    description_en: |
+      Abū Yaʿqūb Isḥāq ibn Ḥunayn ibn Isḥāq al-ʿIbādī — Christian-
+      Arab translator and physician of Baghdad, son of Ḥunayn ibn
+      Isḥāq — died on Friday in Rabīʿ al-Ākhir 298 AH (December 910
+      CE), with sources giving the year unanimously and the day
+      attested only by Ibn Abī Uṣaybiʿa. While his father had
+      specialised in Galenic medicine, Isḥāq concentrated on
+      Aristotelian philosophy, producing the Arabic versions of
+      Aristotle's *Metaphysics*, *Physics*, *On the Heavens*, *On
+      Generation and Corruption*, *On the Soul*, *Nicomachean
+      Ethics*, and *Topics* that became the canonical translations
+      used by al-Fārābī, Ibn Sīnā, and the Baghdad Peripatetics.
+      With Thābit ibn Qurra he revised the Arabic *Almagest* to
+      what became the standard recension. He also translated
+      Euclid's *Data*, the Pseudo-Aristotelian *De Plantis*, and
+      Themistius's paraphrases. Ibn Khallikān gives the year of
+      death; al-Dhahabī notices him in *Tārīkh al-Islām* under 298 AH.
+    description_ar: |
+      توفي أبو يعقوب إسحاق بن حُنين بن إسحاق العباديّ — مترجمٌ
+      عربيٌّ نصرانيٌّ وطبيبٌ ببغداد، ابنُ حُنين بن إسحاق — يومَ
+      الجمعة في ربيع الآخر سنة ٢٩٨ هـ (ديسمبر ٩١٠ م)، وأجمعت
+      المصادر على السنة، ولم يضبط اليوم إلا ابن أبي أصيبعة.
+      اختصّ أبوه بطبّ جالينوس، فاختصّ هو بفلسفة أرسطو، فأنتج
+      الترجماتِ العربيةَ لـ«ما بعد الطبيعة» و«الطبيعيات» و«السماء»
+      و«الكون والفساد» و«النفس» و«الأخلاق إلى نيقوماخوس»
+      و«الجدل» — التي صارت النسخَ الكلاسيكيةَ التي اعتمدها
+      الفارابي وابن سينا وحلقة بغداد المشّائية. وراجع مع ثابت
+      ابن قرة «المجسطي» العربيَّ في النسخة التي صارت المعتمدة.
+      وترجم كذلك «المعطيات» لإقليدس، و«النبات» المنحول إلى أرسطو،
+      وشروحَ ثاميسطيوس. وضبط ابن خلكان السنة؛ وأَلمَّ به الذهبيُّ
+      في «تاريخ الإسلام» في وفيات سنة ٢٩٨ هـ.
+    description_fr: |
+      Abū Yaʿqūb Isḥāq ibn Ḥunayn ibn Isḥāq al-ʿIbādī — traducteur
+      arabe chrétien et médecin de Bagdad, fils de Ḥunayn ibn
+      Isḥāq — mourut un vendredi de Rabīʿ al-Ākhir 298 H
+      (décembre 910 EC), les sources s'accordant sur l'année et le
+      jour n'étant attesté que par Ibn Abī Uṣaybiʿa. Tandis que
+      son père s'était spécialisé dans la médecine galénique,
+      Isḥāq se consacra à la philosophie aristotélicienne,
+      produisant les versions arabes de la *Métaphysique*, de la
+      *Physique*, du *De Caelo*, du *De la génération et de la
+      corruption*, du *De Anima*, de l'*Éthique à Nicomaque* et des
+      *Topiques* d'Aristote — qui devinrent les traductions
+      canoniques utilisées par al-Fārābī, Ibn Sīnā et les
+      péripatéticiens bagdadiens. Avec Thābit ibn Qurra il révisa
+      l'*Almageste* arabe dans la recension qui devint la
+      référence. Il traduisit aussi les *Données* d'Euclide, le
+      *De Plantis* pseudo-aristotélicien, et les paraphrases de
+      Thémistius. Ibn Khallikān donne l'année ; al-Dhahabī le
+      mentionne dans *Tārīkh al-Islām* sous 298 H.
+    canonical_hijri: {year: 298, month: 4, precision: month}
+    canonical_gregorian: {date: 910-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh in Rabīʿ al-Ākhir 298 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 298 AH wafayāt entry."
+      - source_key: ei2
+    people: [[ishaq-ibn-hunayn, died]]
+    tags: [abbasid, scholar, translator, physician, christian, baghdad, translation-movement, aristotle, falsafa]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ishaq_ibn_Hunayn"
+
+  - slug: death-of-qusta-ibn-luqa
+    category: scholar_death
+    title_en: Death of Qusṭā ibn Lūqā al-Baʿlabakkī — Translator-Physician
+    title_ar: وفاة قُسطا بن لوقا البعلبكّي — المترجم الطبيب
+    title_fr: Mort de Qusṭā ibn Lūqā al-Baʿlabakkī — traducteur et médecin
+    description_en: |
+      Qusṭā ibn Lūqā al-Baʿlabakkī — Christian-Arab polymath of
+      Greek descent born at Baʿlabakk and active at Baghdad and
+      later at the Armenian court of King Sanḥarib — died in
+      Armenia around 300 AH (~912 CE), with the year approximate
+      and the place of death debated. He worked across philosophy,
+      medicine, mathematics, and astronomy: he translated several
+      Greek mathematical and mechanical works (Hero's *Mechanics*,
+      Diophantus's *Arithmetica* in part, Aristarchus, Autolycus,
+      Theodosius), and authored the original treatise *On the
+      Difference between the Soul and the Spirit* (*Risāla fī al-
+      Farq bayna al-Nafs wa-l-Rūḥ*) translated into Latin under
+      the title *De Differentia Spiritus et Animae*, where it
+      became one of the four texts prescribed in the Paris
+      Faculty of Arts in 1255 (alongside three Aristotelian
+      treatises). His medical compendium influenced Ibn Sīnā's
+      *Qānūn*. Year-precision is retained because classical Sunni
+      sources do not converge on month or day.
+    description_ar: |
+      توفي قُسطا بن لوقا البعلبكّيّ — موسوعيٌّ عربيٌّ نصرانيٌّ
+      ذو أصل يونانيّ، وُلد ببعلبك واشتغل ببغداد ثم انتقل إلى بلاط
+      الملك سنحاريب الأرمنيّ — في أرمينيا نحو سنة ٣٠٠ هـ (~٩١٢ م)،
+      والسنة تقريبية، ومكان الوفاة محلُّ خلاف. عمل في الفلسفة
+      والطب والرياضيات والفلك معاً: ترجم عدداً من المؤلَّفات
+      اليونانية الرياضية والميكانيكية (كتاب «الحيل» لهيرون،
+      وأجزاء من «الحساب» لديوفنطس، وأرسطرخس، وأوطولوقس،
+      وثاوذوسيوس)، وألَّف «رسالة في الفرق بين النفس والروح» التي
+      تُرجمت إلى اللاتينية تحت اسم *De Differentia Spiritus et
+      Animae*، فصارت من النصوص الأربعة المقرَّرة في كلية الآداب
+      بباريس سنة ١٢٥٥ م (إلى جانب ثلاث رسائل أرسطية). وأثَّرت
+      موسوعتُه الطبية في «القانون» لابن سينا. وتُكتَفى دقّة السنة
+      هنا، إذ لا تتفق مصادر أهل السنة الكلاسيكية على شهرٍ ولا يوم.
+    description_fr: |
+      Qusṭā ibn Lūqā al-Baʿlabakkī — polymathe arabe chrétien
+      d'origine grecque, né à Baʿlabakk et actif à Bagdad puis à
+      la cour du roi arménien Sanḥarib — mourut en Arménie vers
+      300 H (~912 EC), l'année étant approximative et le lieu
+      du décès débattu. Il travailla simultanément la philosophie,
+      la médecine, les mathématiques et l'astronomie : il traduisit
+      plusieurs œuvres grecques mathématiques et mécaniques (la
+      *Mécanique* de Héron, des parties de l'*Arithmétique* de
+      Diophante, Aristarque, Autolycus, Théodose), et rédigea le
+      *Risāla fī al-Farq bayna al-Nafs wa-l-Rūḥ* (Sur la différence
+      entre l'âme et l'esprit), traduit en latin sous le titre *De
+      Differentia Spiritus et Animae* — il devint l'un des quatre
+      textes prescrits à la Faculté des arts de Paris en 1255 (à
+      côté de trois traités aristotéliciens). Son compendium
+      médical influença le *Qānūn* d'Ibn Sīnā. La précision
+      annuelle est retenue car les sources sunnites classiques ne
+      convergent ni sur le mois ni sur le jour.
+    canonical_hijri: {year: 300, precision: year}
+    canonical_gregorian: {date: 912-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death c.300 AH / 912 CE in Armenia; year approximate."
+      - source_key: editorial
+        notes: "Classical wafayāt do not converge on a precise date; year-only."
+    people: [[qusta-ibn-luqa, died]]
+    tags: [abbasid, scholar, translator, physician, christian, baalbek, baghdad, armenia, translation-movement, latin-reception]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Qusta_ibn_Luqa"
+
+  - slug: death-of-matta-ibn-yunus
+    category: scholar_death
+    title_en: Death of Mattā ibn Yūnus al-Qunnāʾī — Founder of the Baghdad Peripatetic School
+    title_ar: وفاة متّى بن يونس القُنَّائي — مؤسس مدرسة بغداد المشّائية
+    title_fr: Mort de Mattā ibn Yūnus al-Qunnāʾī — fondateur de l'école péripatéticienne de Bagdad
+    description_en: |
+      Abū Bishr Mattā ibn Yūnus (Yūnān) al-Qunnāʾī — Nestorian
+      Christian-Arab logician of Baghdad, head of the Baghdad
+      Peripatetic school and teacher of al-Fārābī — died at Baghdad
+      in 328 AH (940 CE). He produced the canonical Arabic
+      translations of Aristotle's *Posterior Analytics* and
+      *Poetics*, and a fresh recension of the *Sophistical
+      Refutations*; his glosses on Porphyry's *Isagoge* and on
+      Alexander of Aphrodisias's commentaries shaped the Baghdad
+      logical curriculum. He is the central figure of the famous
+      330 AH Baghdad debate on logic versus grammar, where the
+      grammarian Abū Saʿīd al-Sīrāfī argued (against Mattā) that
+      Greek logic could not be lifted out of Greek grammar — a
+      foundational episode for Arabic philosophy of language.
+      Al-Fārābī inherited Mattā's chair, Yaḥyā ibn ʿAdī succeeded
+      al-Fārābī, and the lineage continued for two centuries. Ibn
+      Khallikān places his death in 328 AH.
+    description_ar: |
+      توفي أبو بشر متّى بن يونس (يونان) القُنَّائي — منطقيٌّ
+      عربيٌّ نسطوريٌّ ببغداد، رأسُ مدرسة بغداد المشّائية، وأستاذُ
+      الفارابي — ببغداد سنة ٣٢٨ هـ (٩٤٠ م). أنتج الترجمات
+      العربية المعتمَدة لـ«التحليلات الأُخَر» و«الشعر» لأرسطو،
+      ونسخةً مجدَّدةً من «المغالطات»؛ وحواشيه على «إيساغوجي»
+      فرفريوس وعلى شروح الإسكندر الأفروديسيّ هي التي رسمت منهج
+      المنطق ببغداد. وهو محور المناظرة الشهيرة في بغداد سنة
+      ٣٣٠ هـ في «المنطق والنحو»، إذ احتجَّ النحويُّ أبو سعيد
+      السيرافيُّ (ضدّ متّى) أن المنطق اليوناني لا يُنزع من نحوه
+      اليونانيّ — وهي حادثةٌ تأسيسية في فلسفة اللغة العربية.
+      ورث الفارابي مجلسَ متّى، وخلَف الفارابيَّ يحيى بن عدي،
+      فاستمرّ السندُ قرنين. وضبط ابن خلكان وفاته سنة ٣٢٨ هـ.
+    description_fr: |
+      Abū Bishr Mattā ibn Yūnus (Yūnān) al-Qunnāʾī — logicien
+      arabe chrétien nestorien de Bagdad, chef de l'école
+      péripatéticienne bagdadienne et maître d'al-Fārābī — mourut
+      à Bagdad en 328 H (940 EC). Il produisit les traductions
+      arabes canoniques des *Seconds Analytiques* et de la
+      *Poétique* d'Aristote, ainsi qu'une nouvelle recension des
+      *Réfutations sophistiques* ; ses gloses sur l'*Isagoge* de
+      Porphyre et les commentaires d'Alexandre d'Aphrodise
+      façonnèrent le curriculum logique de Bagdad. Il est la
+      figure centrale du célèbre débat de Bagdad de 330 H sur la
+      logique et la grammaire, où le grammairien Abū Saʿīd
+      al-Sīrāfī soutint (contre Mattā) que la logique grecque ne
+      saurait être détachée de la grammaire grecque — épisode
+      fondateur pour la philosophie arabe du langage. Al-Fārābī
+      hérita de la chaire de Mattā ; Yaḥyā ibn ʿAdī succéda à
+      al-Fārābī, et la lignée se poursuivit deux siècles. Ibn
+      Khallikān situe sa mort en 328 H.
+    canonical_hijri: {year: 328, precision: year}
+    canonical_gregorian: {date: 940-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Year 328 AH at Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 328 AH wafayāt notice."
+      - source_key: ei2
+    people: [[matta-ibn-yunus, died]]
+    tags: [abbasid, scholar, translator, logician, christian, baghdad, translation-movement, aristotle, falsafa, peripatetic]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Bishr_Matta_ibn_Yunus"
+
+  - slug: death-of-sinan-ibn-thabit
+    category: scholar_death
+    title_en: Death of Sinān ibn Thābit — Court Physician and Mathematician
+    title_ar: وفاة سنان بن ثابت — طبيب البلاط والرياضي
+    title_fr: Mort de Sinān ibn Thābit — médecin de cour et mathématicien
+    description_en: |
+      Abū Saʿīd Sinān ibn Thābit ibn Qurra al-Ḥarrānī — son of the
+      mathematician-translator Thābit ibn Qurra, Sabian by descent
+      (later converted to Islam under caliphal pressure), chief
+      physician (*raʾīs al-aṭibbāʾ*) of Baghdad under the ʿAbbāsid
+      caliphs al-Muqtadir, al-Qāhir, and al-Rāḍī — died at Baghdad
+      in 331 AH (943 CE). As chief physician he organised the
+      Baghdad hospital system, instituted the first systematic
+      examination of physicians (in 319 AH / 931 CE, after a
+      patient's death prompted al-Muqtadir to act), and supervised
+      a mobile prison-clinic. His mathematical work continued his
+      father's: a treatise on the elements of geometry, a history
+      of the Sabian community, and astronomical observations
+      coordinated with the Baghdad scientific milieu. His son
+      Thābit ibn Sinān continued the family historiography
+      tradition. Ibn Khallikān gives 331 AH.
+    description_ar: |
+      توفي أبو سعيد سنان بن ثابت بن قرّة الحرّاني — ابن المترجم
+      الرياضي ثابت بن قرة، صابئيُّ الأصل (ثم أسلم تحت ضغط
+      الخلافة)، ورئيسُ الأطباء ببغداد في خلافة المقتدر والقاهر
+      والراضي — ببغداد سنة ٣٣١ هـ (٩٤٣ م). نظَّم بصفته رئيسَ
+      الأطباء أمرَ مستشفيات بغداد، واستحدث أوّلَ نظامٍ لامتحان
+      الأطباء (سنة ٣١٩ هـ / ٩٣١ م، بعد وفاة مريضٍ دفعت المقتدرَ
+      إلى التحرّك)، وأشرف على عيادةٍ متنقّلة للسجون. واستأنف
+      الإنتاجَ الرياضيّ عن أبيه: رسالةً في عناصر الهندسة،
+      وتاريخاً للصابئة، ورصداً فلكياً منسَّقاً مع الوسط العلمي
+      ببغداد. وخلَفه ابنه ثابت بن سنان فاستمرَّت الأسرةُ في
+      التأريخ. ضبط ابن خلكان وفاته سنة ٣٣١ هـ.
+    description_fr: |
+      Abū Saʿīd Sinān ibn Thābit ibn Qurra al-Ḥarrānī — fils du
+      mathématicien-traducteur Thābit ibn Qurra, sabéen d'origine
+      (plus tard converti à l'islam sous pression califale),
+      médecin en chef (*raʾīs al-aṭibbāʾ*) de Bagdad sous les
+      califes ʿabbāsides al-Muqtadir, al-Qāhir et al-Rāḍī —
+      mourut à Bagdad en 331 H (943 EC). Comme médecin en chef,
+      il organisa le système hospitalier de Bagdad, institua le
+      premier examen systématique des médecins (en 319 H / 931
+      EC, après que la mort d'un patient eut poussé al-Muqtadir à
+      agir), et supervisa une clinique-prison mobile. Son œuvre
+      mathématique prolongea celle de son père : un traité sur
+      les éléments de la géométrie, une histoire de la
+      communauté sabéenne, et des observations astronomiques
+      coordonnées avec le milieu scientifique bagdadien. Son fils
+      Thābit ibn Sinān continua la tradition historiographique
+      de la famille. Ibn Khallikān donne 331 H.
+    canonical_hijri: {year: 331, precision: year}
+    canonical_gregorian: {date: 943-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Year 331 AH at Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 331 AH wafayāt notice within the Thābit-Sinān family entries."
+      - source_key: ei2
+    people: [[sinan-ibn-thabit, died]]
+    tags: [abbasid, scholar, physician, mathematician, sabian, baghdad, translation-movement, hospital-organisation]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sinan_ibn_Thabit"
+
+  - slug: death-of-yahya-ibn-adi-al-mantiqi
+    category: scholar_death
+    title_en: Death of Yaḥyā ibn ʿAdī al-Manṭiqī — Successor of al-Fārābī
+    title_ar: وفاة يحيى بن عدي المنطقي — خليفة الفارابي
+    title_fr: Mort de Yaḥyā ibn ʿAdī al-Manṭiqī — successeur d'al-Fārābī
+    description_en: |
+      Abū Zakariyyāʾ Yaḥyā ibn ʿAdī al-Manṭiqī al-Takrītī —
+      Jacobite Christian-Arab logician of Baghdad, student of
+      Mattā ibn Yūnus and al-Fārābī, who succeeded al-Fārābī as
+      head of the Baghdad Peripatetic school — died at Baghdad on
+      Friday in Dhū al-Qaʿda 363 AH (August 974 CE), aged 81. He
+      revised, copied, or translated nearly the whole Aristotelian
+      organon and a substantial part of the Greek philosophical
+      corpus available in Baghdad in the fourth century AH; his
+      surviving treatise *Tahdhīb al-Akhlāq* (Refinement of
+      Character) is the earliest Arabic systematic treatise on
+      moral psychology in the Aristotelian tradition. He composed
+      defences of the Christian Trinity in Arabic philosophical
+      idiom (replying to al-Kindī's polemic and to Abū ʿĪsā
+      al-Warrāq) and tutored two generations of Muslim and
+      Christian students alike — including Abū Sulaymān al-Sijistānī
+      and Ibn al-Khammār. Ibn Khallikān gives 363 AH at Baghdad.
+    description_ar: |
+      توفي أبو زكريا يحيى بن عدي المنطقي التكريتي — منطقيٌّ
+      عربيٌّ نصرانيٌّ يعقوبيٌّ ببغداد، تلميذُ متّى بن يونس
+      والفارابي، وخليفةُ الفارابي على مجلس مشّائية بغداد —
+      ببغداد يومَ الجمعة في ذي القعدة سنة ٣٦٣ هـ (أغسطس ٩٧٤ م)
+      عن إحدى وثمانين سنة. راجع أو نسخ أو ترجم كلَّ المنطق
+      الأرسطيّ تقريباً، وقسماً وافياً ممّا تيسّر في بغداد من
+      الفلسفة اليونانية في القرن الرابع الهجري؛ ورسالته الباقية
+      «تهذيب الأخلاق» هي أقدمُ تأليفٍ عربيٍّ منهجيٍّ في علم
+      النفس الأخلاقيّ على المنهج الأرسطي. وكتب رسائلَ في
+      الدفاع عن التثليث النصرانيّ بلغة الفلسفة العربية (يردّ
+      على ردود الكِنْدي وعلى أبي عيسى الورّاق)، وعلَّم جيلَين
+      من تلاميذ المسلمين والنصارى معاً — منهم أبو سليمان
+      السجستانيّ وابن الخمَّار. ضبط ابن خلكان وفاته سنة ٣٦٣ هـ
+      ببغداد.
+    description_fr: |
+      Abū Zakariyyāʾ Yaḥyā ibn ʿAdī al-Manṭiqī al-Takrītī —
+      logicien arabe chrétien jacobite de Bagdad, élève de Mattā
+      ibn Yūnus et d'al-Fārābī, qui succéda à al-Fārābī à la tête
+      de l'école péripatéticienne bagdadienne — mourut à Bagdad
+      un vendredi de Dhū al-Qaʿda 363 H (août 974 EC), à 81 ans.
+      Il révisa, copia ou traduisit la quasi-totalité de l'*Organon*
+      aristotélicien et une part substantielle du corpus
+      philosophique grec disponible à Bagdad au IVe siècle de
+      l'hégire ; son traité conservé *Tahdhīb al-Akhlāq*
+      (Raffinement du caractère) est le plus ancien traité
+      systématique arabe de psychologie morale aristotélicienne.
+      Il composa des défenses de la Trinité chrétienne en idiome
+      philosophique arabe (en réponse à la polémique d'al-Kindī
+      et à Abū ʿĪsā al-Warrāq) et forma deux générations
+      d'élèves musulmans et chrétiens — dont Abū Sulaymān
+      al-Sijistānī et Ibn al-Khammār. Ibn Khallikān donne 363 H
+      à Bagdad.
+    canonical_hijri: {year: 363, month: 11, precision: month}
+    canonical_gregorian: {date: 974-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh in Dhū al-Qaʿda 363 AH at Baghdad, age 81."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 363 AH wafayāt notice."
+      - source_key: ei2
+    people: [[yahya-ibn-adi-al-mantiqi, died]]
+    tags: [abbasid, scholar, logician, translator, christian, baghdad, takrit, translation-movement, falsafa, peripatetic, ethics]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yahya_ibn_Adi"

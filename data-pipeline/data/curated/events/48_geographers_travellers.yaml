@@ -1,0 +1,835 @@
+# Wave 27 of curated event additions (2026-04-27).
+# Major Muslim geographers, travellers, cartographers, and historical-
+# geographers whose deaths or principal works constitute well-attested
+# anchors in the history of Islamic geography. Already covered elsewhere
+# in the dataset and not repeated here: al-Idrīsī, Ibn Baṭṭūṭa, Ibn
+# Jubayr, al-Bīrūnī (in 09_scientists_polymaths / 13_cities_works /
+# 23_linguists_poets_travelers_polymaths), al-Masʿūdī (in
+# 20_uncle_martyrs_andalus_ottomans), Ibn Faḍlān's Volga embassy (in
+# 23_linguists_poets_travelers_polymaths).
+#
+# This file covers: al-Yaʿqūbī, Ibn Khurradādhbih, al-Iṣṭakhrī,
+# Ibn Ḥawqal, al-Muqaddasī al-Bashshārī, al-Bakrī al-Andalusī,
+# Yāqūt al-Ḥamawī (death + Muʿjam al-Buldān completion),
+# Zakariyāʾ al-Qazwīnī, Abū al-Fidāʾ (death + Taqwīm al-Buldān
+# completion), and the completion of al-Yaʿqūbī's Kitāb al-Buldān.
+# Piri Reis (d. 962/1553) and Evliya Çelebi (d. ~1093/1682) were
+# considered but dropped — Ottoman-era chronicles outside the
+# wafayāt / siyar mainstream are not represented in sources.yaml,
+# and our editorial bar (≥1 classical Sunni source for single_source
+# or ≥2 for cross_verified) cannot be honoured for either figure
+# from the source-keys available. Trilingual en/ar/fr throughout.
+# No hadith refs (no narration anchors a geographical event in this
+# corpus).
+
+events:
+  # =========================================================================
+  # ʿABBĀSID-ERA FIRST-GENERATION GEOGRAPHERS (3rd c. AH)
+  # =========================================================================
+
+  - slug: completion-of-kitab-al-buldan-al-yaqubi
+    category: book_completion
+    title_en: Completion of al-Yaʿqūbī's *Kitāb al-Buldān*
+    title_ar: إتمام «كتاب البلدان» لليعقوبي
+    title_fr: Achèvement du *Kitāb al-Buldān* d'al-Yaʿqūbī
+    description_en: |
+      Aḥmad ibn Abī Yaʿqūb ibn Wāḍiḥ al-Yaʿqūbī — ʿAbbāsid
+      historian-administrator who served the Ṭāhirids in Khurāsān
+      and the Ṭūlūnids in Egypt — completed his *Kitāb al-Buldān*
+      ("Book of Countries") in 278 AH (891 CE). The work is the
+      earliest surviving general geography in Arabic: a route-
+      and-province description of the four quarters of the
+      Caliphate organised around the road network from Baghdad,
+      with population, fiscal, and ethnographic detail drawn
+      from his own travels through Armenia, Khurāsān, India, and
+      North Africa. Together with his world-history *Tārīkh
+      al-Yaʿqūbī*, the *Buldān* anchored the descriptive-
+      geography genre that would culminate in al-Iṣṭakhrī, Ibn
+      Ḥawqal, and al-Muqaddasī. Internal dating in the manuscript
+      (the work refers to events of 278 AH and to the reigning
+      caliph al-Muʿtaḍid) is the basis for the year; classical
+      biographers preserve no narrower precision.
+    description_ar: |
+      أتمَّ أحمد بن أبي يعقوب بن واضح اليعقوبيُّ — المؤرخ والكاتب
+      العباسي الذي خدم الطاهريين بخراسان والطولونيين بمصر — كتابَه
+      «البلدان» سنة ثمانٍ وسبعين ومئتين للهجرة (٨٩١ م). والكتاب
+      أقدمُ ما بقي من الجغرافيا العامة بالعربية: وصفٌ للطرق
+      والكور في الأرباع الأربعة للخلافة، مرتَّبٌ حول شبكة طرق
+      بغداد، يجمع تفاصيل سكانية وخراجية وإثنوغرافية استقاها
+      من رحلاته في أرمينيا وخراسان والهند وشمال أفريقيا. وقد
+      أرسى «البلدان» مع كتابه التاريخي «تاريخ اليعقوبي» تقليدَ
+      الجغرافيا الوصفية الذي سيتوّج عند الإصطخري وابن حوقل
+      والمقدسي. والمصدر في تاريخ التأليف هو إشارات الكتاب نفسه
+      إلى أحداث سنة ٢٧٨ هـ وإلى الخليفة المعتضد بالله؛ ولم تحفظ
+      المصادر القديمة دقّةً أضيق من ذلك.
+    description_fr: |
+      Aḥmad ibn Abī Yaʿqūb ibn Wāḍiḥ al-Yaʿqūbī — historien-
+      administrateur ʿabbāside au service des Ṭāhirides au
+      Khurāsān et des Ṭūlūnides en Égypte — acheva son *Kitāb
+      al-Buldān* ("Livre des Pays") en 278 H (891 EC). L'ouvrage
+      est la plus ancienne géographie générale en arabe qui nous
+      soit parvenue : une description par routes et par provinces
+      des quatre quartiers du califat, organisée autour du réseau
+      routier de Bagdad, avec des détails démographiques, fiscaux
+      et ethnographiques tirés de ses propres voyages en Arménie,
+      au Khurāsān, en Inde et en Afrique du Nord. Avec son
+      histoire universelle *Tārīkh al-Yaʿqūbī*, le *Buldān* a
+      ancré le genre de la géographie descriptive qui culminera
+      avec al-Iṣṭakhrī, Ibn Ḥawqal et al-Muqaddasī. La datation
+      repose sur les références internes du manuscrit (le texte
+      cite des événements de 278 H et le calife régnant al-
+      Muʿtaḍid) ; les biographes classiques ne conservent pas de
+      précision plus étroite.
+    canonical_hijri: {year: 278, precision: year}
+    canonical_gregorian: {date: 891-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'al-Yaʿḳūbī' dates the *Kitāb al-Buldān* to 278 AH from internal references to al-Muʿtaḍid and to events of that year."
+      - source_key: editorial
+        notes: "Cross-checked against the Leiden edition (de Goeje, *Bibliotheca Geographorum Arabicorum* VII, 1892) and the introduction to Gaston Wiet's French translation (Cairo, 1937)."
+    people: [[al-yaqubi-geographer, author]]
+    tags: [abbasid, geography, baghdad, masalik, encyclopedia, route-description]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Al-Yaqubi"
+
+  - slug: death-of-al-yaqubi-geographer
+    category: scholar_death
+    title_en: Death of al-Yaʿqūbī — Earliest Surviving Arabic Geographer
+    title_ar: وفاة اليعقوبي — أقدم جغرافيي العرب الباقين
+    title_fr: Mort d'al-Yaʿqūbī — le plus ancien géographe arabe conservé
+    description_en: |
+      Aḥmad ibn Abī Yaʿqūb ibn Wāḍiḥ al-Yaʿqūbī — author of
+      *Kitāb al-Buldān* and *Tārīkh al-Yaʿqūbī*, the earliest
+      surviving Arabic descriptive geography and one of the
+      earliest surviving universal histories in the language —
+      died in or about 284 AH (897-898 CE), most likely in Egypt
+      where he had served the Ṭūlūnid administration. Classical
+      Sunni biographers do not preserve a narrower date; the year
+      is reconstructed from the absence of further dated work in
+      his bibliography after this point and from the testimony of
+      the *Fihrist* of Ibn al-Nadīm. He shaped the route-and-
+      province genre that al-Iṣṭakhrī, Ibn Ḥawqal, and al-
+      Muqaddasī would refine over the following century. We
+      retain year-precision because no source converges on a
+      month or a day.
+    description_ar: |
+      توفي أحمد بن أبي يعقوب بن واضح اليعقوبيُّ — مصنفُ «كتاب
+      البلدان» و«تاريخ اليعقوبي»، أقدمِ جغرافيا وصفية عربية
+      باقية وأحد أقدم تواريخ العالم العربية الباقية — في حدود
+      سنة أربعٍ وثمانين ومئتين للهجرة (٨٩٧-٨٩٨ م)، والأرجح أن
+      وفاته كانت بمصر التي خدم فيها الإدارة الطولونية. ولم تحفظ
+      المصادرُ السنية الكلاسيكية تاريخاً أدقّ من ذلك؛ والسنة
+      مستنبطة من انقطاع أعماله المؤرَّخة بعد ذلك التاريخ ومن
+      شهادة «الفهرست» لابن النديم. وقد رسَخَ تقليدَ المسالك
+      والممالك الذي صقَله الإصطخريُّ وابنُ حوقل والمقدسيُّ في
+      القرن التالي. ويُكتفى هنا بدقّة السنة لعدم اتفاق المصادر
+      على شهر أو يوم.
+    description_fr: |
+      Aḥmad ibn Abī Yaʿqūb ibn Wāḍiḥ al-Yaʿqūbī — auteur du
+      *Kitāb al-Buldān* et du *Tārīkh al-Yaʿqūbī*, la plus
+      ancienne géographie descriptive arabe conservée et l'une
+      des plus anciennes histoires universelles dans cette langue
+      qui nous soient parvenues — mourut vers 284 H (897-898 EC),
+      probablement en Égypte où il avait servi l'administration
+      ṭūlūnide. Les biographes sunnites classiques ne conservent
+      pas de date plus précise ; l'année est reconstruite à
+      partir de l'absence d'œuvres datées après ce point dans sa
+      bibliographie et du témoignage du *Fihrist* d'Ibn al-
+      Nadīm. Il a façonné le genre des routes-et-provinces que
+      al-Iṣṭakhrī, Ibn Ḥawqal et al-Muqaddasī raffineront au
+      siècle suivant. Précision annuelle conservée — aucune
+      source ne converge sur un mois ou un jour.
+    canonical_hijri: {year: 284, precision: year}
+    canonical_gregorian: {date: 897-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'al-Yaʿḳūbī' gives c. 284/897-898; year-precision only."
+      - source_key: editorial
+        notes: "Date reconstructed from Ibn al-Nadīm's *Fihrist* and the absence of later dated work."
+    people: [[al-yaqubi-geographer, died]]
+    tags: [abbasid, geographer, historian, baghdad, egypt, tulunid, masalik]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Al-Yaqubi"
+
+  - slug: death-of-ibn-khurradadhbih
+    category: scholar_death
+    title_en: Death of Ibn Khurradādhbih — Master of the Postal-Geography
+    title_ar: وفاة ابن خرداذبه — صاحب «المسالك والممالك»
+    title_fr: Mort d'Ibn Khurradādhbih — maître de la géographie postale
+    description_en: |
+      Abū al-Qāsim ʿUbayd Allāh ibn ʿAbd Allāh ibn Khurradādhbih —
+      Persian convert from a Zoroastrian noble family who rose to
+      direct the ʿAbbāsid postal-and-intelligence service (*dīwān
+      al-barīd wa-l-khabar*) under the caliphs al-Wāthiq and al-
+      Muʿtamid — died in or about 300 AH (911 CE) in Iraq. His
+      *Kitāb al-Masālik wa-l-Mamālik* ("Book of Routes and
+      Realms"), composed from official postal-service records, is
+      the earliest surviving Arabic systematic geography and the
+      foundational text of the *masālik wa mamālik* genre that
+      every later geographer down to Yāqūt would adapt. He
+      preserves the earliest Arabic notice of the maritime route
+      to China via the Persian Gulf and the Indian Ocean. The
+      classical sources retain year-precision only; the *Fihrist*
+      of Ibn al-Nadīm dates the death within the first decade of
+      the 4th century AH.
+    description_ar: |
+      توفي أبو القاسم عبيد الله بن عبد الله بن خرداذبه — الفارسي
+      المسلم من بيتٍ مجوسيٍّ نبيل، ارتفع إلى رئاسة ديوان البريد
+      والخبر العباسي في خلافتَي الواثق والمعتمد — في حدود سنة
+      ثلاثمئة للهجرة (٩١١ م) بالعراق. وكتابه «المسالك والممالك»
+      الذي ألَّفه من سجلات البريد الرسمية أقدمُ ما بقي من
+      الجغرافيا العربية المنهجية وأصلُ فنّ المسالك والممالك الذي
+      اقتفاه كلُّ من جاء بعده إلى ياقوت. وفيه أقدمُ خبر عربي عن
+      الطريق البحري إلى الصين عبر الخليج الفارسي والمحيط الهندي.
+      ولم تحفظ المصادر القديمة سوى دقّة السنة؛ ويؤرّخ «الفهرست»
+      لابن النديم وفاتَه في العقد الأول من القرن الرابع الهجري.
+    description_fr: |
+      Abū al-Qāsim ʿUbayd Allāh ibn ʿAbd Allāh ibn Khurradādhbih —
+      converti persan d'une famille noble zoroastrienne, parvenu
+      à diriger le service postal et de renseignement ʿabbāside
+      (*dīwān al-barīd wa-l-khabar*) sous les califes al-Wāthiq
+      et al-Muʿtamid — mourut vers 300 H (911 EC) en Irak. Son
+      *Kitāb al-Masālik wa-l-Mamālik* ("Livre des Routes et des
+      Royaumes"), composé à partir des registres officiels du
+      service postal, est la plus ancienne géographie arabe
+      systématique conservée et le texte fondateur du genre
+      *masālik wa mamālik* que tous les géographes ultérieurs,
+      jusqu'à Yāqūt, adapteront. Il conserve la première mention
+      arabe de la route maritime vers la Chine par le golfe
+      Persique et l'océan Indien. Les sources classiques ne
+      retiennent que la précision annuelle ; le *Fihrist* d'Ibn
+      al-Nadīm date le décès dans la première décennie du IVe
+      siècle de l'Hégire.
+    canonical_hijri: {year: 300, precision: year}
+    canonical_gregorian: {date: 911-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Ibn Khurradādhbih' gives c. 300/911."
+      - source_key: editorial
+        notes: "Cross-checked against Ibn al-Nadīm, *Fihrist*, and de Goeje's introduction to *Bibliotheca Geographorum Arabicorum* VI."
+    people: [[ibn-khurradadhbih, died]]
+    tags: [abbasid, geographer, postal-service, masalik, baghdad, persia]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Khordadbeh"
+
+  # =========================================================================
+  # 4th c. AH "BALKHĪ SCHOOL" GEOGRAPHERS
+  # =========================================================================
+
+  - slug: death-of-al-istakhri-geographer
+    category: scholar_death
+    title_en: Death of al-Iṣṭakhrī — Author of *al-Masālik wa-l-Mamālik*
+    title_ar: وفاة الإصطخري — صاحب «المسالك والممالك»
+    title_fr: Mort d'al-Iṣṭakhrī — auteur d'*al-Masālik wa-l-Mamālik*
+    description_en: |
+      Abū Isḥāq Ibrāhīm ibn Muḥammad al-Fārisī al-Iṣṭakhrī —
+      geographer of the Persian city of Iṣṭakhr (near Persepolis)
+      and second pillar of the so-called Balkhī school after Abū
+      Zayd al-Balkhī (d. 322 AH, whose lost geographical work he
+      revised) — died in or about 346 AH (957 CE). His *Kitāb
+      al-Masālik wa-l-Mamālik* — also called *Ṣuwar al-Aqālīm* —
+      organised the inhabited world into twenty climates and
+      paired the descriptive text with twenty regional maps,
+      making it the first Arabic geography to integrate
+      cartography fully with prose description. The work was
+      enlarged and revised by his pupil and successor Ibn
+      Ḥawqal. The exact day and month of death are not preserved
+      in the classical sources; the year is reconstructed from
+      Ibn Ḥawqal's biographical preface and the *Fihrist*.
+    description_ar: |
+      توفي أبو إسحاق إبراهيم بن محمد الفارسي الإصطخري — جغرافيُّ
+      مدينة إصطخر الفارسية (قرب برسبوليس)، والركنُ الثاني من
+      «المدرسة البلخية» بعد أبي زيد البلخي (المتوفى سنة ٣٢٢ هـ
+      الذي راجع كتابه الجغرافي المفقود) — في حدود سنة ست
+      وأربعين وثلاثمئة للهجرة (٩٥٧ م). ورتَّب كتابه «المسالك
+      والممالك» — ويسمَّى أيضاً «صور الأقاليم» — معمورةَ الأرض
+      على عشرين إقليماً، وقرن النصَّ الوصفيَّ بعشرين خريطة
+      إقليمية، فكان أوّل كتابٍ جغرافي عربي يُدمج فيه الرسم
+      الكارتوغرافي بالوصف النصي إدماجاً تامّاً. وقد وسَّعه
+      تلميذه وخليفته ابن حوقل وراجعه. ولم تحفظ المصادرُ القديمة
+      اليومَ ولا الشهر؛ والسنةُ مستنبطة من مقدمة ابن حوقل
+      البيوغرافية ومن «الفهرست».
+    description_fr: |
+      Abū Isḥāq Ibrāhīm ibn Muḥammad al-Fārisī al-Iṣṭakhrī —
+      géographe de la ville persane d'Iṣṭakhr (près de Persépolis)
+      et second pilier de la dite école balkhīenne après Abū
+      Zayd al-Balkhī (m. 322 H, dont il révisa l'ouvrage
+      géographique perdu) — mourut vers 346 H (957 EC). Son
+      *Kitāb al-Masālik wa-l-Mamālik* — aussi appelé *Ṣuwar al-
+      Aqālīm* — organise le monde habité en vingt climats et
+      apparie le texte descriptif à vingt cartes régionales,
+      faisant de l'œuvre la première géographie arabe à intégrer
+      pleinement la cartographie à la description en prose.
+      L'ouvrage fut élargi et révisé par son disciple et
+      successeur Ibn Ḥawqal. Le jour et le mois exacts du décès
+      ne sont pas conservés dans les sources classiques ;
+      l'année est reconstruite à partir de la préface
+      biographique d'Ibn Ḥawqal et du *Fihrist*.
+    canonical_hijri: {year: 346, precision: year}
+    canonical_gregorian: {date: 957-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'al-Iṣṭakhrī' gives c. 346/957; year-precision only."
+      - source_key: editorial
+        notes: "Cross-checked against the introduction to de Goeje's *Bibliotheca Geographorum Arabicorum* I and Ibn Ḥawqal's preface to *Ṣūrat al-Arḍ*."
+    people: [[al-istakhri, died]]
+    tags: [buyid, geographer, cartography, persia, masalik, balkhi-school]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Estakhri"
+
+  - slug: death-of-ibn-hawqal
+    category: scholar_death
+    title_en: Death of Ibn Ḥawqal — Author of *Ṣūrat al-Arḍ*
+    title_ar: وفاة ابن حوقل — صاحب «صورة الأرض»
+    title_fr: Mort d'Ibn Ḥawqal — auteur de *Ṣūrat al-Arḍ*
+    description_en: |
+      Abū al-Qāsim Muḥammad ibn ʿAlī ibn Ḥawqal al-Naṣībī — Mosul-
+      born merchant-traveller turned geographer and (it appears
+      from his eastern provinces) Fāṭimid intelligence operative
+      — died after 367 AH (after 977 CE), with the year
+      sometimes given as 367 AH and sometimes c. 380 AH. He spent
+      thirty years (331-362 AH / 943-973 CE) traversing the lands
+      of Islam from Andalus and the Maghrib through Egypt, Iraq,
+      Khurāsān and Sind, before fixing his observations in
+      *Kitāb Ṣūrat al-Arḍ* — a thoroughgoing revision and
+      expansion of al-Iṣṭakhrī, with new maps and especially rich
+      eyewitness material on Sicily, the Maghrib, and Khazaria.
+      Year-precision is retained because the classical sources do
+      not converge on a date.
+    description_ar: |
+      توفي أبو القاسم محمد بن علي بن حوقل النصيبيُّ — تاجرٌ
+      رحَّالٌ من أهل الموصل، انقلب جغرافيّاً ومخبراً للفاطميين
+      على ما يلوح من أخباره في المشرق — بعد سنة سبعٍ وستين
+      وثلاثمئة للهجرة (بعد ٩٧٧ م)، وقد قيل في وفاته سنة ٣٦٧ هـ
+      وقيل نحو ٣٨٠ هـ. وقد قضى ثلاثين سنة (٣٣١–٣٦٢ هـ /
+      ٩٤٣–٩٧٣ م) في الترحال بين بلاد الإسلام من الأندلس والمغرب
+      إلى مصر والعراق وخراسان والسند، ثم سَطَّر مشاهداته في
+      «كتاب صورة الأرض» — مراجعة شاملة لكتاب الإصطخري وتوسعة
+      له، بخرائط جديدة ومادة مشاهدةٍ غزيرةٍ خاصةً في صقلية
+      والمغرب وبلاد الخزر. ويُكتفى بدقّة السنة لعدم اتفاق
+      المصادر على تاريخ.
+    description_fr: |
+      Abū al-Qāsim Muḥammad ibn ʿAlī ibn Ḥawqal al-Naṣībī —
+      marchand-voyageur originaire de Mossoul devenu géographe
+      et (il apparaît à la lecture de ses provinces orientales)
+      agent de renseignement fāṭimide — mourut après 367 H
+      (après 977 EC), l'année étant donnée tantôt à 367 H tantôt
+      vers 380 H. Il passa trente ans (331-362 H / 943-973 EC)
+      à parcourir les pays d'Islam, de l'Andalus et du Maghreb à
+      l'Égypte, l'Irak, le Khurāsān et le Sind, avant de fixer
+      ses observations dans son *Kitāb Ṣūrat al-Arḍ* — révision
+      et expansion approfondies d'al-Iṣṭakhrī, avec de nouvelles
+      cartes et un matériel d'observation particulièrement riche
+      sur la Sicile, le Maghreb et la Khazarie. Précision
+      annuelle conservée — les sources classiques ne convergent
+      pas sur une date.
+    canonical_hijri: {year: 367, precision: year}
+    canonical_gregorian: {date: 977-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Ibn Ḥawḳal' gives 'after 367/977', following the testimony of Ibn al-Nadīm; some later sources place the death c. 380/990 — year-precision retained because no classical source converges."
+      - source_key: editorial
+        notes: "Alternative date c. 380/990 noted in Kramers' introduction to the second Leiden edition (1938-39)."
+    people: [[ibn-hawqal, died]]
+    tags: [fatimid, geographer, cartography, mosul, masalik, balkhi-school, sicily]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Hawqal"
+
+  - slug: completion-of-ahsan-al-taqasim
+    category: book_completion
+    title_en: Completion of al-Muqaddasī's *Aḥsan al-Taqāsīm*
+    title_ar: إتمام «أحسن التقاسيم» للمقدسي
+    title_fr: Achèvement d'*Aḥsan al-Taqāsīm* d'al-Muqaddasī
+    description_en: |
+      Abū ʿAbd Allāh Muḥammad ibn Aḥmad al-Muqaddasī — known also
+      as al-Bashshārī, born at al-Quds (Jerusalem) c. 335 AH,
+      grandson of an architect of the city's walls — completed
+      his *Aḥsan al-Taqāsīm fī Maʿrifat al-Aqālīm* ("Best
+      Divisions for Knowledge of the Provinces") in 375 AH (985-
+      986 CE). The work is the methodological masterpiece of the
+      Balkhī school: a fourteen-province survey of the Islamic
+      world built on twenty years of personal travel, written in
+      a self-reflective prose that distinguishes what the author
+      saw, what he was told, and what he read — a discipline
+      anticipating modern source-criticism. al-Muqaddasī describes
+      Mecca, Medina, Jerusalem, Baghdad, Cairo, Cordoba, Bukhārā
+      and Samarqand from autopsy. The work is dated by the
+      author's own statement that he composed it under the
+      Sāmānid amīr Nūḥ ibn Manṣūr (regn. 365-387 AH).
+    description_ar: |
+      أتمَّ أبو عبد الله محمد بن أحمد المقدسيُّ — المعروف
+      أيضاً بالبشَّاري، المولود ببيت المقدس نحو سنة ٣٣٥ هـ،
+      وحفيد أحد بنّائي سور المدينة — كتابَه «أحسن التقاسيم
+      في معرفة الأقاليم» سنة خمسٍ وسبعين وثلاثمئة للهجرة
+      (٩٨٥–٩٨٦ م). والكتاب درّةُ المنهج عند المدرسة البلخية:
+      مَسْحٌ لأقاليم العالم الإسلامي الأربعة عشر، بُني على
+      عشرين سنة من الترحال الشخصي، بنثرٍ تأملي يميّز فيه
+      المؤلفُ ما رآه عيناً مما سمعه ومما قرأه — منهجٌ يستبق
+      نقدَ المصادر الحديث. ويصف المقدسي مكةَ والمدينةَ والقدسَ
+      وبغدادَ والقاهرةَ وقرطبةَ وبخارى وسمرقند مشاهدةً. ومستندُ
+      التاريخ تصريحُ المؤلف بأنه ألّفه في عهد الأمير الساماني
+      نوح بن منصور (٣٦٥–٣٨٧ هـ).
+    description_fr: |
+      Abū ʿAbd Allāh Muḥammad ibn Aḥmad al-Muqaddasī — dit aussi
+      al-Bashshārī, né à al-Quds (Jérusalem) vers 335 H, petit-
+      fils d'un architecte des remparts de la ville — acheva son
+      *Aḥsan al-Taqāsīm fī Maʿrifat al-Aqālīm* ("Meilleures
+      Divisions pour la connaissance des provinces") en 375 H
+      (985-986 EC). L'ouvrage est le chef-d'œuvre méthodologique
+      de l'école balkhīenne : un relevé en quatorze provinces du
+      monde islamique fondé sur vingt années de voyages
+      personnels, rédigé dans une prose réflexive qui distingue
+      ce que l'auteur a vu, ce qu'on lui a rapporté et ce qu'il
+      a lu — une discipline qui anticipe la critique des sources
+      moderne. al-Muqaddasī décrit La Mecque, Médine, Jérusalem,
+      Bagdad, Le Caire, Cordoue, Boukhārā et Samarcande
+      d'autopsie. La datation repose sur la déclaration même de
+      l'auteur, qui affirme avoir composé l'ouvrage sous l'émir
+      sāmānide Nūḥ ibn Manṣūr (r. 365-387 H).
+    canonical_hijri: {year: 375, precision: year}
+    canonical_gregorian: {date: 985-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'al-Muḳaddasī' dates *Aḥsan al-Taqāsīm* to 375/985-86 from internal references."
+      - source_key: editorial
+        notes: "Cross-checked against Basil Anthony Collins' English translation (1994) and André Miquel's *La géographie humaine du monde musulman* (Paris-The Hague, 1967-88) IV.103-9."
+    people: [[al-muqaddasi-al-bashshari, author]]
+    tags: [samanid, geographer, jerusalem, masalik, balkhi-school, encyclopedia, methodology]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Al-Muqaddasi"
+
+  # =========================================================================
+  # ANDALUS — al-BAKRĪ
+  # =========================================================================
+
+  - slug: death-of-al-bakri-al-andalusi
+    category: scholar_death
+    title_en: Death of al-Bakrī — Geographer of Muslim Spain and the Maghrib
+    title_ar: وفاة البكري الأندلسي — جغرافيُّ الأندلس والمغرب
+    title_fr: Mort d'al-Bakrī — géographe de l'Espagne musulmane et du Maghreb
+    description_en: |
+      Abū ʿUbayd ʿAbd Allāh ibn ʿAbd al-ʿAzīz al-Bakrī — Andalusi
+      historian-geographer of the Ṭāʾifa period, son of the
+      ruler of Huelva and Saltés, lived between Almería, Cordoba
+      and Seville under the patronage of the ʿAbbādids — died at
+      Cordoba in Shawwāl 487 AH (October-November 1094 CE). His
+      *Kitāb al-Masālik wa-l-Mamālik* is the principal Arabic
+      source for the early history of West Africa, the Mali-
+      Senegal trans-Saharan trade routes, and the Almoravid
+      conquest of the Sahel; though he never travelled himself,
+      he compiled the work from merchant testimony, embassy
+      reports, and the lost works of earlier geographers. His
+      *Muʿjam mā Istaʿjam* — a dictionary of Arabian place names
+      keyed to the pre-Islamic poetic corpus — anchored the study
+      of the *jāhiliyya* geographical layer that later toponymic
+      scholarship would refine. Ibn Khallikān gives the month and
+      year precisely; al-Dhahabī notices him in *Tārīkh al-Islām*
+      under year 487 AH.
+    description_ar: |
+      توفي أبو عبيد عبد الله بن عبد العزيز البكريُّ — مؤرخٌ
+      جغرافيٌّ أندلسي من عصر الطوائف، ابن صاحب وَلْبَة وشَلْطِيش،
+      عاش بين المريّة وقرطبة وإشبيليّة في كنف بني عبَّاد — بقرطبة
+      في شوال سنة سبع وثمانين وأربعمئة للهجرة (أكتوبر–نوفمبر
+      ١٠٩٤ م). وكتابه «المسالك والممالك» المصدرُ العربي الأول
+      لتاريخ غرب أفريقيا الباكر وطرق التجارة عبر الصحراء بين
+      مالي والسنغال، وفتح المرابطين للساحل؛ ومع أنه لم يرحل بنفسه
+      فقد جمع كتابه من شهادة التجار وتقارير السفارات وأعمال
+      الجغرافيين السابقين المفقودة. وأرسى «معجم ما استعجم» —
+      وهو معجمٌ لأسماء أماكن الجزيرة العربية مفهرَسٌ على شعر
+      الجاهلية — دراسةَ الطبقة الجغرافية الجاهلية التي
+      صقلتها بحوث المواضع التالية. ضبط ابن خلكان شهرَ الوفاة
+      وسنتها؛ وأَلمَّ به الذهبيُّ في «تاريخ الإسلام» في
+      وفيات سنة ٤٨٧ هـ.
+    description_fr: |
+      Abū ʿUbayd ʿAbd Allāh ibn ʿAbd al-ʿAzīz al-Bakrī —
+      historien-géographe andalou de la période des taifas, fils
+      du souverain de Huelva et de Saltés, vécut entre Almería,
+      Cordoue et Séville sous le patronage des ʿAbbādides —
+      mourut à Cordoue en Shawwāl 487 H (octobre-novembre 1094
+      EC). Son *Kitāb al-Masālik wa-l-Mamālik* est la principale
+      source arabe pour l'histoire ancienne de l'Afrique de
+      l'Ouest, les routes commerciales transsahariennes Mali-
+      Sénégal et la conquête almoravide du Sahel ; bien qu'il
+      n'ait jamais voyagé lui-même, il composa l'ouvrage à
+      partir de témoignages de marchands, de rapports
+      d'ambassade et des œuvres perdues de géographes antérieurs.
+      Son *Muʿjam mā Istaʿjam* — dictionnaire des toponymes
+      arabes indexé sur le corpus poétique préislamique — ancra
+      l'étude de la strate géographique *jāhilī* que la
+      lexicographie toponymique ultérieure raffinera. Ibn
+      Khallikān donne précisément le mois et l'année ; al-Dhahabī
+      le mentionne dans *Tārīkh al-Islām* aux décès de l'année
+      487 H.
+    canonical_hijri: {year: 487, month: 10, precision: month}
+    canonical_gregorian: {date: 1094-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: Shawwāl 487 AH at Cordoba, in the entry on Abū ʿUbayd al-Bakrī."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 487 AH wafayāt entry."
+      - source_key: ei2
+    people: [[al-bakri-al-andalusi, died]]
+    tags: [andalus, taifa, geographer, cordoba, west-africa, mali, ghana, masalik]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Bakri"
+
+  # =========================================================================
+  # AYYŪBID-ERA — YĀQŪT al-ḤAMAWĪ
+  # =========================================================================
+
+  - slug: completion-of-mujam-al-buldan
+    category: book_completion
+    title_en: Completion of Yāqūt al-Ḥamawī's *Muʿjam al-Buldān*
+    title_ar: إتمام «معجم البلدان» لياقوت الحموي
+    title_fr: Achèvement du *Muʿjam al-Buldān* de Yāqūt al-Ḥamawī
+    description_en: |
+      Yāqūt ibn ʿAbd Allāh al-Ḥamawī al-Rūmī — Greek-born
+      manumitted slave of a Baghdad merchant, turned scholar and
+      bookseller, and one of the most relentless collectors of
+      written knowledge in the medieval Islamic world — completed
+      the first redaction of his *Muʿjam al-Buldān* ("Dictionary
+      of Countries") at Mosul in 621 AH (1224 CE). The work is
+      the most comprehensive Arabic geographical dictionary of
+      its era: an alphabetical encyclopedia of more than ten
+      thousand toponyms covering every named place in the lands
+      of Islam (and a great many beyond), each with etymology,
+      coordinates, history, biographies of associated scholars,
+      and verses of poetry. Yāqūt revised the work continuously
+      until 625 AH; the dating of the first redaction is
+      established by the author's own colophons and confirmed by
+      Ibn Khallikān in his biographical notice.
+    description_ar: |
+      أتمَّ ياقوت بن عبد الله الحمويُّ الروميُّ — رومي المولد
+      مولىً مُعتَقٌ لتاجر بغدادي، انقلب عالماً ووَرَّاقاً، وكان
+      من أشدّ جامعي العلم المكتوب في العالم الإسلامي الوسيط —
+      التحرير الأوّل من «معجم البلدان» بالموصل سنة إحدى وعشرين
+      وستمئة للهجرة (١٢٢٤ م). والكتاب أوسعُ معجم جغرافي عربي في
+      عصره: موسوعةٌ أبجدية لأكثر من عشرة آلاف اسم موضع، تشمل
+      كلَّ موضع مسمَّى في بلاد الإسلام (وأماكن كثيرة خارجها)،
+      مع اشتقاق الاسم وإحداثياته وتاريخه وتراجم علمائه وأبيات
+      شعر فيه. وراجعه ياقوت متواصلاً حتى سنة ٦٢٥ هـ؛ وتاريخُ
+      التحرير الأول من نصوص المؤلف نفسه يؤيّده ابنُ خلكان
+      في ترجمته.
+    description_fr: |
+      Yāqūt ibn ʿAbd Allāh al-Ḥamawī al-Rūmī — esclave d'origine
+      grecque affranchi d'un marchand bagdadien, devenu savant et
+      libraire, et l'un des plus opiniâtres collecteurs de
+      savoir écrit du monde islamique médiéval — acheva la
+      première rédaction de son *Muʿjam al-Buldān* ("Dictionnaire
+      des Pays") à Mossoul en 621 H (1224 EC). L'ouvrage est le
+      plus exhaustif dictionnaire géographique arabe de son
+      époque : une encyclopédie alphabétique de plus de dix
+      mille toponymes couvrant chaque lieu nommé des pays
+      d'Islam (et beaucoup au-delà), avec étymologie,
+      coordonnées, histoire, biographies des savants associés et
+      vers de poésie pour chacun. Yāqūt révisa l'œuvre sans
+      relâche jusqu'en 625 H ; la datation de la première
+      rédaction repose sur les colophons mêmes de l'auteur et
+      est confirmée par Ibn Khallikān dans sa notice
+      biographique.
+    canonical_hijri: {year: 621, precision: year}
+    canonical_gregorian: {date: 1224-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Biographical entry on Yāqūt records the first Mosul redaction at 621 AH."
+      - source_key: ei2
+        notes: "EI2 article 'Yāḳūt al-Rūmī' confirms the 621/1224 first-redaction date."
+      - source_key: editorial
+        notes: "Yāqūt's own colophons attest 621 AH."
+    people: [[yaqut-al-hamawi, author]]
+    tags: [ayyubid, geographer, lexicographer, mosul, encyclopedia, mujam, baghdad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yaqut_al-Hamawi"
+
+  - slug: death-of-yaqut-al-hamawi
+    category: scholar_death
+    title_en: Death of Yāqūt al-Ḥamawī at Aleppo
+    title_ar: وفاة ياقوت الحموي بحلب
+    title_fr: Mort de Yāqūt al-Ḥamawī à Alep
+    description_en: |
+      Yāqūt ibn ʿAbd Allāh al-Ḥamawī al-Rūmī — author of the
+      *Muʿjam al-Buldān* (the most comprehensive Arabic
+      geographical dictionary of its era) and the *Muʿjam al-
+      Udabāʾ* (a parallel biographical dictionary of literary
+      scholars) — died at Aleppo on 20 Ramaḍān 626 AH
+      (12 August 1229 CE) at the home of the Ayyūbid amīr ʿIzz
+      al-Dīn ibn Shaddād. He had fled the Mongol advance from
+      Marv across northern Syria the previous year and never
+      recovered his Khurāsānian library. His two great
+      *muʿjams* between them preserve much of the geography and
+      literary biography of the lands the Mongols would shortly
+      destroy — Yāqūt's work is one of the principal channels
+      through which knowledge of pre-Mongol Khurāsān reached
+      later centuries. Ibn Khallikān, who knew him, gives the day
+      precisely; al-Dhahabī confirms the date in *Siyar Aʿlām al-
+      Nubalāʾ*.
+    description_ar: |
+      توفي ياقوت بن عبد الله الحمويُّ الرومي — مصنفُ «معجم
+      البلدان» (أوسعِ معجمٍ جغرافي عربي في عصره) و«معجم الأدباء»
+      (المعجم البيوغرافي الموازي لعلماء الأدب) — بحلب يوم
+      العشرين من رمضان سنة ست وعشرين وستمئة للهجرة (الموافق ١٢
+      أغسطس ١٢٢٩ م) في دار الأمير الأيوبي عزّ الدين بن شدّاد.
+      وكان قد فرّ في السنة السابقة من زحف المغول على مرو فعبر
+      شمالَ الشام، ولم يستردّ مكتبته الخراسانية. ومعجماه الكبيران
+      حفظا كثيراً من جغرافيا البلاد التي كان المغول على وشك
+      تخريبها وترجماتِ أدبائها — وعمل ياقوت من أكبر القنوات
+      التي وصلت بها معرفة خراسان قبل المغول إلى القرون التالية.
+      ضبط ابن خلكان — وقد عرفه — تاريخَ الوفاة بدقة، وأكّده
+      الذهبيُّ في «سير أعلام النبلاء».
+    description_fr: |
+      Yāqūt ibn ʿAbd Allāh al-Ḥamawī al-Rūmī — auteur du *Muʿjam
+      al-Buldān* (le plus exhaustif dictionnaire géographique
+      arabe de son époque) et du *Muʿjam al-Udabāʾ* (le
+      dictionnaire biographique parallèle des savants littéraires)
+      — mourut à Alep le 20 Ramaḍān 626 H (12 août 1229 EC), au
+      domicile de l'émir ayyūbide ʿIzz al-Dīn ibn Shaddād. Il
+      avait fui l'avance mongole depuis Marv à travers la Syrie
+      du Nord l'année précédente et ne récupéra jamais sa
+      bibliothèque khurāsānienne. Ses deux grands *muʿjams*
+      préservent à eux deux une part considérable de la
+      géographie et de la biographie littéraire des contrées que
+      les Mongols allaient bientôt détruire — l'œuvre de Yāqūt
+      est l'un des principaux canaux par lesquels la connaissance
+      du Khurāsān prémongol parvint aux siècles ultérieurs. Ibn
+      Khallikān, qui le connaissait, donne le jour avec
+      précision ; al-Dhahabī confirme la date dans *Siyar Aʿlām
+      al-Nubalāʾ*.
+    canonical_hijri: {year: 626, month: 9, day: 20, precision: day}
+    canonical_gregorian: {date: 1229-08-12, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: 20 Ramaḍān 626 AH at Aleppo, in the home of Ibn Shaddād — Ibn Khallikān had personal acquaintance with the deceased."
+      - source_key: dhahabi_siyar
+        notes: "Confirms date and location in the entry on Yāqūt."
+      - source_key: ei2
+    people: [[yaqut-al-hamawi, died]]
+    tags: [ayyubid, geographer, lexicographer, aleppo, mongols, mujam, marv, baghdad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yaqut_al-Hamawi"
+
+  # =========================================================================
+  # ĪLKHĀNID-ERA — ZAKARIYĀʾ al-QAZWĪNĪ
+  # =========================================================================
+
+  - slug: death-of-zakariya-al-qazwini
+    category: scholar_death
+    title_en: Death of Zakariyāʾ al-Qazwīnī — Author of *ʿAjāʾib al-Makhlūqāt*
+    title_ar: وفاة زكريا القزويني — صاحب «عجائب المخلوقات»
+    title_fr: Mort de Zakariyāʾ al-Qazwīnī — auteur d'*ʿAjāʾib al-Makhlūqāt*
+    description_en: |
+      Zakariyāʾ ibn Muḥammad ibn Maḥmūd al-Qazwīnī — Persian
+      qāḍī of Wāsiṭ and al-Ḥilla under the early Īlkhānid
+      administration of Iraq, and author of two of the most
+      widely copied works of late-medieval Arabic natural
+      history — died in 682 AH (1283 CE). His *ʿAjāʾib al-
+      Makhlūqāt wa-Gharāʾib al-Mawjūdāt* ("Wonders of Creation
+      and Marvels of Existence") is a cosmography arranged
+      ascending from minerals through plants and animals to
+      angels and the celestial spheres; his *Āthār al-Bilād wa-
+      Akhbār al-ʿIbād* ("Monuments of the Lands and Histories of
+      Their Inhabitants") is an alphabetical geographical
+      dictionary that complements Yāqūt with stronger emphasis
+      on cultural and natural marvels. Both circulated for
+      centuries in lavishly illustrated manuscripts across the
+      Persian, Turkish, and Arab worlds. Year-precision is
+      retained because the day is not preserved.
+    description_ar: |
+      توفي زكريا بن محمد بن محمود القزويني — قاضي واسط والحلة في
+      الإدارة الإيلخانية الأولى للعراق، ومصنفُ كتابَين من أوسع
+      ما اشتهر من كتب التاريخ الطبيعي العربية في أواخر العصر
+      الوسيط — سنة اثنتين وثمانين وستمئة للهجرة (١٢٨٣ م). وكتابه
+      «عجائب المخلوقات وغرائب الموجودات» موسوعة كونية مرتَّبة
+      صعوداً من المعادن إلى النبات إلى الحيوان فإلى الملائكة
+      والأفلاك السماوية؛ وكتابه «آثار البلاد وأخبار العباد»
+      معجمٌ جغرافي مرتَّب على حروف المعجم، يكمّل ياقوتَ بإيلاء
+      أوسعَ للعجائب الثقافية والطبيعية. وقد دار الكتابان في
+      القرون التالية في نسخٍ مزخرفة الرسوم في العالم الفارسي
+      والتركي والعربي. ويُكتفى بدقّة السنة لعدم حفظ اليوم.
+    description_fr: |
+      Zakariyāʾ ibn Muḥammad ibn Maḥmūd al-Qazwīnī — qāḍī persan
+      de Wāsiṭ et d'al-Ḥilla sous l'administration īlkhānide
+      première de l'Irak, auteur de deux des œuvres d'histoire
+      naturelle arabes les plus copiées de la fin du Moyen Âge —
+      mourut en 682 H (1283 EC). Ses *ʿAjāʾib al-Makhlūqāt wa-
+      Gharāʾib al-Mawjūdāt* ("Merveilles de la Création et
+      Étrangetés de l'Existence") sont une cosmographie organisée
+      de manière ascendante, des minéraux aux végétaux aux
+      animaux jusqu'aux anges et aux sphères célestes ; ses
+      *Āthār al-Bilād wa-Akhbār al-ʿIbād* ("Monuments des Pays
+      et Histoires de leurs Habitants") forment un dictionnaire
+      géographique alphabétique qui complète Yāqūt avec une
+      emphase plus marquée sur les merveilles culturelles et
+      naturelles. Les deux œuvres ont circulé pendant des siècles
+      en manuscrits richement illustrés à travers les mondes
+      persan, turc et arabe. Précision annuelle conservée — le
+      jour n'est pas préservé.
+    canonical_hijri: {year: 682, precision: year}
+    canonical_gregorian: {date: 1283-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "Year 682 AH wafayāt entry."
+      - source_key: ei2
+        notes: "EI2 article 'al-Ḳazwīnī, Zakariyyāʾ b. Muḥammad' gives 682/1283."
+      - source_key: editorial
+    people: [[zakariya-al-qazwini, died]]
+    tags: [ilkhanid, geographer, cosmography, wasit, hilla, qadi, ajaib, encyclopedia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Zakariya_al-Qazwini"
+
+  # =========================================================================
+  # MAMLŪK-ERA — ABŪ al-FIDĀʾ
+  # =========================================================================
+
+  - slug: completion-of-taqwim-al-buldan
+    category: book_completion
+    title_en: Completion of Abū al-Fidāʾ's *Taqwīm al-Buldān*
+    title_ar: إتمام «تقويم البلدان» لأبي الفداء
+    title_fr: Achèvement du *Taqwīm al-Buldān* d'Abū al-Fidāʾ
+    description_en: |
+      al-Malik al-Muʾayyad Ismāʿīl ibn ʿAlī ibn Maḥmūd Abū al-
+      Fidāʾ al-Ayyūbī — Ayyūbid prince of Hama under Mamlūk
+      suzerainty, historian, and geographer — completed his
+      *Taqwīm al-Buldān* ("The Sketch of Countries") in 721 AH
+      (1321 CE). The work is a tabular world geography giving
+      latitude, longitude, climate, and short prose entries for
+      every important city of the inhabited world, organised by
+      the seven Ptolemaic climates. Abū al-Fidāʾ synthesised
+      Ibn Ḥawqal, al-Idrīsī, Yāqūt, and Ibn Saʿīd al-Maghribī
+      into a single coordinate-based reference; the work was
+      partly translated into Latin by John Greaves in the
+      seventeenth century and into French by Joseph Reinaud and
+      Stanislas Guyard in the nineteenth — the first major
+      Arabic geographical work to enter the European
+      Orientalist canon. Internal references to events of 721 AH
+      establish the date.
+    description_ar: |
+      أتمَّ الملك المؤيد إسماعيل بن علي بن محمود أبو الفداء
+      الأيوبيُّ — أمير حماة الأيوبي تحت سيادة المماليك،
+      المؤرخُ والجغرافي — كتابَه «تقويم البلدان» سنة إحدى وعشرين
+      وسبعمئة للهجرة (١٣٢١ م). والكتاب جغرافيا عالمية مرتَّبة في
+      جداول، يضع عرضَ كلِّ مدينة وطولَها ومناخَها ومدخلاً نثرياً
+      موجزاً عنها، مرتَّبةً على الأقاليم البطلمية السبعة. وقد
+      مزج أبو الفداء ابنَ حوقل والإدريسيَّ وياقوتَ وابنَ سعيد
+      المغربي في مرجع واحد قائم على الإحداثيات؛ وتُرجم الكتاب
+      جزئياً إلى اللاتينية على يد جون غريفز في القرن السابع عشر،
+      وإلى الفرنسية على يد جوزيف رينو وستانيسلاس غيار في القرن
+      التاسع عشر — وكان أوّل عمل جغرافي عربي كبير يدخل المدوّنة
+      الاستشراقية الأوروبية. والإشارات الداخلية إلى أحداث
+      سنة ٧٢١ هـ هي مستندُ التاريخ.
+    description_fr: |
+      al-Malik al-Muʾayyad Ismāʿīl ibn ʿAlī ibn Maḥmūd Abū al-
+      Fidāʾ al-Ayyūbī — prince ayyūbide de Hama sous suzeraineté
+      mamelouke, historien et géographe — acheva son *Taqwīm
+      al-Buldān* ("Tableau des Pays") en 721 H (1321 EC).
+      L'ouvrage est une géographie mondiale tabulaire qui donne
+      la latitude, la longitude, le climat et une notice en
+      prose brève pour chaque ville importante du monde habité,
+      organisée selon les sept climats ptolémaïques. Abū al-Fidāʾ
+      synthétisa Ibn Ḥawqal, al-Idrīsī, Yāqūt et Ibn Saʿīd al-
+      Maghribī en une référence unique fondée sur les coordonnées ;
+      l'œuvre fut partiellement traduite en latin par John
+      Greaves au XVIIe siècle et en français par Joseph Reinaud
+      et Stanislas Guyard au XIXe — la première œuvre
+      géographique arabe majeure à entrer dans le canon
+      orientaliste européen. Les références internes à des
+      événements de 721 H établissent la date.
+    canonical_hijri: {year: 721, precision: year}
+    canonical_gregorian: {date: 1321-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Abū al-Fidāʾ' dates *Taqwīm al-Buldān* to 721/1321."
+      - source_key: editorial
+        notes: "Cross-checked against Reinaud-Guyard, *Géographie d'Aboulféda*, Paris 1848-83, vol. I introduction."
+    people: [[abu-al-fida, author]]
+    tags: [mamluk, ayyubid, geographer, hama, taqwim, ptolemy, encyclopedia, latin-reception]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Fida"
+
+  - slug: death-of-abu-al-fida
+    category: scholar_death
+    title_en: Death of Abū al-Fidāʾ — Prince-Historian of Hama
+    title_ar: وفاة أبي الفداء — الملك المؤرخ صاحب حماة
+    title_fr: Mort d'Abū al-Fidāʾ — prince-historien de Hama
+    description_en: |
+      al-Malik al-Muʾayyad Ismāʿīl ibn ʿAlī ibn Maḥmūd Abū al-
+      Fidāʾ al-Ayyūbī — last Ayyūbid sovereign of Hama (under
+      Mamlūk suzerainty), historian of *al-Mukhtaṣar fī Akhbār
+      al-Bashar* (a universal history continuing Ibn al-Athīr to
+      his own day), and author of the geographical *Taqwīm al-
+      Buldān* — died at Hama on 23 Muḥarram 732 AH (27 October
+      1331 CE) at the age of 60. His historical work was
+      continued by his son al-Afḍal Muḥammad and circulated
+      widely in the Mamlūk world; portions reached Europe via
+      sixteenth- and seventeenth-century Latin translations and
+      shaped the early Orientalist understanding of Islamic
+      history. Ibn Kathīr records the death in *al-Bidāya wa-l-
+      Nihāya* under year 732; al-Dhahabī notices him in his
+      late *Tārīkh al-Islām* dhayl. The day is preserved in
+      Mamlūk-era biographical sources.
+    description_ar: |
+      توفي الملك المؤيد إسماعيل بن علي بن محمود أبو الفداء
+      الأيوبيُّ — آخرُ سلاطين بني أيوب بحماة تحت سيادة المماليك،
+      صاحبُ كتاب «المختصر في أخبار البشر» (تاريخ عام يصل تاريخَ
+      ابن الأثير بزمنه) ومصنف «تقويم البلدان» الجغرافي — بحماة
+      يوم الثالث والعشرين من محرم سنة اثنتين وثلاثين وسبعمئة
+      للهجرة (الموافق ٢٧ أكتوبر ١٣٣١ م) عن ستين سنة. واصَلَ
+      تاريخَه ابنُه الأفضل محمد، ودار الكتاب في عالم المماليك
+      دوراناً واسعاً؛ ووصلت أجزاء منه إلى أوروبا في ترجماتٍ
+      لاتينية في القرنين السادس عشر والسابع عشر، فصاغت فهمَ
+      الاستشراق الأوّل لتاريخ الإسلام. وأَلمَّ بوفاته ابنُ
+      كثير في «البداية والنهاية» في وفيات سنة ٧٣٢ هـ، وذكره
+      الذهبيُّ في ذيل «تاريخ الإسلام». واليومُ محفوظٌ في
+      المصادر البيوغرافية المملوكية.
+    description_fr: |
+      al-Malik al-Muʾayyad Ismāʿīl ibn ʿAlī ibn Maḥmūd Abū al-
+      Fidāʾ al-Ayyūbī — dernier souverain ayyūbide de Hama (sous
+      suzeraineté mamelouke), historien d'*al-Mukhtaṣar fī
+      Akhbār al-Bashar* (histoire universelle prolongeant celle
+      d'Ibn al-Athīr jusqu'à son propre temps) et auteur de la
+      géographie *Taqwīm al-Buldān* — mourut à Hama le 23
+      Muḥarram 732 H (27 octobre 1331 EC), à l'âge de 60 ans.
+      Son œuvre historique fut continuée par son fils al-Afḍal
+      Muḥammad et circula largement dans le monde mamelouk ; des
+      portions parvinrent en Europe par des traductions latines
+      des XVIe et XVIIe siècles et façonnèrent la compréhension
+      orientaliste primitive de l'histoire islamique. Ibn Kathīr
+      consigne le décès dans *al-Bidāya wa-l-Nihāya* aux décès
+      de l'année 732 ; al-Dhahabī le mentionne dans le *dhayl*
+      tardif de son *Tārīkh al-Islām*. Le jour est conservé dans
+      les sources biographiques d'époque mamelouke.
+    canonical_hijri: {year: 732, month: 1, day: 23, precision: day}
+    canonical_gregorian: {date: 1331-10-27, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Wafayāt of year 732 AH; al-Bidāya records 23 Muḥarram at Hama."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Late dhayl of Tārīkh al-Islām (al-Dhahabī d. 748) records the death of his contemporary Abū al-Fidāʾ in 732 AH."
+      - source_key: ei2
+    people: [[abu-al-fida, died]]
+    tags: [mamluk, ayyubid, ruler, historian, geographer, hama, taqwim, mukhtasar]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Fida"

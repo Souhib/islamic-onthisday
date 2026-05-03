@@ -1,0 +1,50 @@
+# Local-dev Docker Compose. Boots the backend + web together so a fresh
+# checkout can be running in two commands. The pipeline is *not* in here
+# because it's a one-shot batch step — run it once before `docker compose up`
+# (`cd data-pipeline && uv run python -m pipeline.build`) and the backend
+# will see the produced SQLite via the bind mount.
+#
+# Production deployment is via Dokploy (see Souhib's other repos for the
+# Dokploy-specific compose file pattern).
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: iotd-backend
+    ports:
+      - "5111:5111"
+    environment:
+      IOTD_ENV: development
+      HOST: 0.0.0.0
+      PORT: 5111
+      LOG_LEVEL: DEBUG
+      LOG_SERIALIZE: "false"
+      CORS_ORIGINS: http://localhost:3000,http://127.0.0.1:3000
+    volumes:
+      # Mount the pipeline output read-only so the backend always sees the
+      # latest SQLite without rebuilding the image.
+      - ./data-pipeline/data/output:/opt/data-pipeline/data/output:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/health').read()"]
+      interval: 30s
+      timeout: 5s
+      start_period: 10s
+      retries: 3
+
+  web:
+    image: oven/bun:1
+    container_name: iotd-web
+    working_dir: /app
+    command: sh -c "bun install && bun run dev --host 0.0.0.0"
+    ports:
+      - "3000:3000"
+    environment:
+      VITE_API_URL: http://localhost:5111
+    volumes:
+      - ./web:/app
+      - /app/node_modules
+    depends_on:
+      backend:
+        condition: service_healthy

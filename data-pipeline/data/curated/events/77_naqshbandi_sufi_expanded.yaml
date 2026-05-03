@@ -1,0 +1,1016 @@
+# Wave 31 of curated event additions (2026-04-27).
+# Sufi shaykhs not previously covered: the Khwājagān masters of
+# Transoxiana whose silsila culminates in Bahāʾ al-Dīn Naqshband
+# (already in the dataset), the immediate Naqshbandī successors
+# down through ʿUbayd Allāh Aḥrār, the Yasawiyya founder Aḥmad
+# Yasawī, and the two senior Shādhilī shaykhs of late-13th-century
+# Alexandria — Abū al-ʿAbbās al-Mursī and his disciple Ibn ʿAṭāʾ
+# Allāh al-Iskandarī — both already cited extensively in the
+# Sunnī Sufi canon.
+#
+# All firmly mainstream Sunni:
+# - Khwājagān / Naqshbandiyya: Hanafi-Maturidi Transoxianan Sufi
+#   line, foundational for Central Asian, Mughal, and Ottoman
+#   Sunni piety; explicitly anti-bid'a and rooted in the ṣuḥba
+#   of the Companions through the silsila al-dhahab back to
+#   Abū Bakr ra (and a parallel line through ʿAlī ra).
+# - Yasawiyya: foundational Turkic Sufi ṭarīqa, Hanafi-Maturidi,
+#   the ground from which the Bektāshiyya later branched (the
+#   Yasawī line itself stays firmly Sunni; later branches are a
+#   separate question and not endorsed here).
+# - Shādhiliyya: Maliki-Shafi'i Maghrebi-Egyptian-Levantine
+#   ṭarīqa, with Ibn ʿAṭāʾ Allāh's *al-Ḥikam al-ʿAṭāʾiyya* and
+#   *Laṭāʾif al-Minan* as the literary foundation of Sunni
+#   Sufi reflection on the path.
+#
+# Dates: most figures are year-precise in the classical canon.
+# Abū al-ʿAbbās al-Mursī's death on 25 Dhū al-Qaʿda 686 AH and
+# Ibn ʿAṭāʾ Allāh's death in Jumādā II 709 AH are well attested
+# to the day/month respectively. Ghujdawānī's date is contested
+# in the Khwājagān biographical tradition (575 vs. 595 vs. 617
+# AH); we follow 575 AH per Jāmī's *Nafaḥāt al-Uns* and EI2,
+# and flag the dispute. Faghnawī's death is given variously as
+# 628 AH and 715 AH; we follow 628 AH per the dominant Khwājagān
+# transmission, with the dispute flagged.
+#
+# Already covered elsewhere and intentionally not duplicated here:
+# Bahāʾ al-Dīn Naqshband (d. 791 AH — *death-of-naqshband*),
+# Aḥmad al-Tijānī (d. 1230 AH — *death-of-ahmad-al-tijani*),
+# Abū al-Ḥasan al-Shādhilī (d. 656 AH — *death-of-al-shadhili*).
+#
+# Coverage in the classical Sunni canon: Ibn Khallikān
+# (*Wafayāt al-Aʿyān*) for al-Mursī and the early Maghrebi
+# Shādhilīs; al-Dhahabī (*Siyar Aʿlām al-Nubalāʾ* and *Tārīkh
+# al-Islām*) for the Khwājagān, al-Mursī, and Ibn ʿAṭāʾ Allāh;
+# Ibn Kathīr (*al-Bidāya wa al-Nihāya*) and Ibn al-ʿImād
+# (*Shadharāt al-Dhahab*) for the same; Ibn Ḥajar (*al-Durar
+# al-Kāmina*) for the 8th-century AH figures (Aḥrār's master
+# Yaʿqūb Charkhī, ʿAlāʾ al-Dīn al-ʿAṭṭār); EI2 supplements
+# throughout. Trilingual en/ar/fr; no hadith refs needed.
+
+events:
+  # =========================================================================
+  # YASAWIYYA — Aḥmad Yasawī (d. 562 AH, Yasi/Türkistan)
+  # =========================================================================
+
+  - slug: death-of-ahmad-yasawi
+    category: scholar_death
+    title_en: Death of Khwāja Aḥmad Yasawī — founder of the Yasawiyya
+    title_ar: وفاة الخواجة أحمد يسوي — مؤسس الطريقة اليسوية
+    title_fr: Mort de Khwāja Aḥmad Yasawī — fondateur de la Yasawiyya
+    description_en: |
+      Khwāja Aḥmad ibn Ibrāhīm ibn Maḥmūd ibn Iftikhār Yasawī —
+      Turkic-language Sunni Hanafi-Maturidi Sufi master of Yasi
+      (later renamed Türkistan, in modern southern Kazakhstan), and
+      the figure to whom the classical Central Asian biographical
+      tradition attributes the founding of the Yasawiyya, the first
+      Sufi ṭarīqa to develop a sustained Turkic-language religious
+      literature — died at Yasi in 562 AH (~1166 CE) at an
+      advanced age, as recorded by Jāmī in *Nafaḥāt al-Uns* and
+      adopted by the modern academic consensus reflected in EI2.
+      He had studied with Yūsuf al-Hamadhānī (d. 535 AH) — the
+      shared master from whose chain the Khwājagān / Naqshbandī
+      line of Transoxiana also descends through ʿAbd al-Khāliq
+      al-Ghujdawānī — making him the senior contemporary of
+      Ghujdawānī and a foundational figure for Turkic Sunni
+      piety. His Turkic-language *Dīwān-i Ḥikmat* (Book of Wisdom)
+      is the earliest sustained corpus of Sufi verse in a Turkic
+      language and shaped religious devotion across the Qipchaq
+      steppe, the Volga, Anatolia, and the Indian-Mughal Turkic
+      world. The mausoleum complex built over his tomb at
+      Türkistan by Tīmūr (Tamerlane) in 798 AH (1395 CE) remains
+      one of the great surviving monuments of Timurid architecture
+      and a major pilgrimage site of Central Asian Sunnism.
+    description_ar: |
+      توفي الخواجة أحمد بن إبراهيم بن محمود بن افتخار يسوي —
+      شيخ صوفي سني حنفي ماتُريدي تركي اللسان من «يَسي» (التي سمّيت
+      بعدُ تركستان، في جنوب كازاخستان اليوم)، ومن إليه تنسب كتب
+      تراجم آسيا الوسطى الكلاسيكية تأسيسَ الطريقة اليسوية، وهي
+      أول طريقة صوفية أنتجت تراثاً دينياً تركياً مستداماً —
+      بـ«يَسي» سنة ٥٦٢ هـ (~١١٦٦ م) عن عمر متقدم، كما حفظ ذلك
+      الجامي في «نفحات الأنس»، واعتمده الإجماع الأكاديمي الحديث
+      في دائرة المعارف الإسلامية الثانية. كان قد أخذ عن يوسف
+      الهمذاني (ت ٥٣٥ هـ) — وهو نفسه الشيخ المشترك الذي تنحدر
+      عنه أيضاً سلسلة الخواجگان والنقشبندية في ما وراء النهر
+      من طريق عبد الخالق الغجدواني — فهو معاصر كبير لعبد الخالق
+      الغجدواني، وأصلٌ مؤسس للتديّن السني التركي. وديوانُه
+      التركي «ديوان الحكمة» أقدمُ ديوان شعر صوفي مستدام بلسان
+      تركي، وتشكّلت به التقوى الدينية في سهوب القبجاق ووادي
+      الفولغا والأناضول والعالم التركي الهندي المغولي. ولا
+      يزال مزار قبره الذي بناه تيمور سنة ٧٩٨ هـ (١٣٩٥ م) في
+      تركستان من أعظم آثار العمارة التيمورية الباقية، ومن أبرز
+      مزارات السنّة في آسيا الوسطى.
+    description_fr: |
+      Khwāja Aḥmad ibn Ibrāhīm ibn Maḥmūd ibn Iftikhār Yasawī —
+      maître soufi sunnite ḥanafite-māturīdite turcophone de Yasi
+      (renommée plus tard Türkistan, dans l'actuel sud du
+      Kazakhstan), et figure à laquelle la tradition biographique
+      classique d'Asie centrale attribue la fondation de la
+      Yasawiyya, première *ṭarīqa* soufie à développer une
+      littérature religieuse soutenue en langue turque — mourut
+      à Yasi en 562 H (~1166 EC) à un âge avancé, ainsi que le
+      consigne Jāmī dans les *Nafaḥāt al-Uns* et qu'en témoigne
+      le consensus académique moderne reflété par l'EI2. Il
+      avait étudié avec Yūsuf al-Hamadhānī (m. 535 H) — maître
+      commun de la chaîne dont descend également la lignée
+      khwājagān / naqshbandī de Transoxiane par ʿAbd al-Khāliq
+      al-Ghujdawānī — ce qui en fait un contemporain majeur de
+      Ghujdawānī et une figure fondatrice de la piété sunnite
+      turcique. Son *Dīwān-i Ḥikmat* (Livre de sagesse) en
+      langue turque est le plus ancien corpus soutenu de poésie
+      soufie dans une langue turcique et a façonné la dévotion
+      religieuse à travers la steppe qiptchaque, la Volga,
+      l'Anatolie et le monde turc indo-moghol. Le complexe
+      funéraire bâti sur sa tombe à Türkistan par Tīmūr (Tamerlan)
+      en 798 H (1395 EC) demeure l'un des grands monuments
+      survivants de l'architecture timouride et un site de
+      pèlerinage majeur du sunnisme centre-asiatique.
+    canonical_hijri: {year: 562, precision: year}
+    canonical_gregorian: {date: 1166-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death at Yasi 562 AH per Jāmī's Nafaḥāt al-Uns and modern academic consensus."
+      - source_key: editorial
+        notes: "Disciple of Yūsuf al-Hamadhānī; Tīmūr's mausoleum (798 AH) remains the central pilgrimage site."
+    people: [[ahmad-yasawi, died]]
+    tags: [seljuq, qarakhanid, turkic, sufi, sunni, hanafi, maturidi, yasawiyya, central-asia, kazakhstan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Yasawi"
+
+  # =========================================================================
+  # KHWĀJAGĀN — the masters of Transoxiana, predecessors of Naqshband
+  # =========================================================================
+
+  - slug: death-of-abd-al-khaliq-al-ghujdawani
+    category: scholar_death
+    title_en: Death of Khwāja ʿAbd al-Khāliq al-Ghujdawānī — codifier of the Khwājagān path
+    title_ar: وفاة الخواجة عبد الخالق الغجدواني — واضع أصول طريق الخواجگان
+    title_fr: Mort de Khwāja ʿAbd al-Khāliq al-Ghujdawānī — codificateur de la voie khwājagān
+    description_en: |
+      Khwāja ʿAbd al-Khāliq ibn ʿAbd al-Jamīl al-Ghujdawānī —
+      Sunni Hanafi-Maturidi Sufi master of Ghujdawān (a town in
+      the Bukhārā oasis of modern Uzbekistan), disciple of Yūsuf
+      al-Hamadhānī, and the figure traditionally credited with
+      formulating the eight foundational practical principles
+      (Persian *kalimāt-i qudsiyya*) that govern the Khwājagān
+      and later Naqshbandī Sufi method — died at Ghujdawān in
+      575 AH (~1179 CE) per the dominant Khwājagān biographical
+      tradition preserved in Jāmī's *Nafaḥāt al-Uns* and reflected
+      in EI2; Persian *tadhkira* sources offer 595 AH and 617 AH
+      as alternative attestations. We follow the 575 AH year
+      preserved by Jāmī, while flagging the dispute. The eight
+      principles he established — *hūsh dar dam* (awareness in
+      the breath), *naẓar bar qadam* (watch on the step), *safar
+      dar waṭan* (journey within the homeland), *khalwat dar
+      anjuman* (solitude in the crowd), *yād-kard*, *bāz-gasht*,
+      *nigāh-dāsht*, and *yād-dāsht* — became the practical
+      backbone of the Khwājagān path; Bahāʾ al-Dīn Naqshband
+      added three more (*wuqūf-i zamānī*, *wuqūf-i ʿadadī*,
+      *wuqūf-i qalbī*) in the 8th century AH to complete the
+      eleven Naqshbandī principles. Ghujdawānī's grave at
+      Ghujdawān remains a pilgrimage site, and his teaching is
+      transmitted through the chain Ghujdawānī → ʿĀrif al-Riwgarī
+      → Maḥmūd Anjīr Faghnawī → ʿAlī al-Rāmītanī → Muḥammad Bābā
+      Sammāsī → Amīr Kulāl → Bahāʾ al-Dīn Naqshband.
+    description_ar: |
+      توفي الخواجة عبد الخالق بن عبد الجميل الغجدواني — شيخ
+      صوفي سني حنفي ماتُريدي من «غُجدوان» (بلدة في واحة بخارى
+      بأوزبكستان اليوم)، تلميذ يوسف الهمذاني، ومن تنسب إليه
+      كتب تراجم الخواجگان صياغةَ الأصول العملية الثمانية
+      («كَلَمات قُدسية» بالفارسية) التي ترتكز عليها طريقة
+      الخواجگان وتفرّع عنها لاحقاً النقشبندية — بغُجدوان سنة
+      ٥٧٥ هـ (~١١٧٩ م) على الرواية المهيمنة في تراث الخواجگان
+      التي حفظها الجامي في «نفحات الأنس» وتعتمدها دائرة
+      المعارف الإسلامية الثانية، وذكرت بعض كتب التراجم الفارسية
+      سنة ٥٩٥ هـ وسنة ٦١٧ هـ. ونحن نتابع سنة ٥٧٥ هـ التي حفظها
+      الجامي، مع الإشارة إلى الخلاف. وأصوله الثمانية —
+      «هوش در دم» (الحضور مع النفس)، و«نظر بر قدم» (حفظ النظر
+      تحت القدم)، و«سفر در وطن» (السفر داخل الوطن)، و«خلوت در
+      انجمن» (الخلوة في الجلوة)، و«ياد كرد»، و«باز گشت»،
+      و«نگاه داشت»، و«ياد داشت» — صارت العمود الفقري لعمل
+      طريق الخواجگان؛ وأضاف بهاء الدين النقشبند ثلاثة أصول أخر
+      («وقوف زماني»، و«وقوف عددي»، و«وقوف قلبي») في القرن
+      الثامن الهجري لتكتمل بها أصول النقشبندية الأحد عشر. ولا
+      يزال قبره بغُجدوان مزاراً، وعن طريقه تتسلسل السلسلة:
+      الغجدواني → عارف الريوگري → محمود أنجير الفغنوي → علي
+      الراميتني → محمد بابا السمّاسي → أمير كلال → بهاء الدين
+      النقشبند.
+    description_fr: |
+      Khwāja ʿAbd al-Khāliq ibn ʿAbd al-Jamīl al-Ghujdawānī —
+      maître soufi sunnite ḥanafite-māturīdite de Ghujdawān
+      (bourgade de l'oasis de Boukhārā, en Ouzbékistan actuel),
+      disciple de Yūsuf al-Hamadhānī, et figure à laquelle la
+      tradition attribue la formulation des huit principes
+      pratiques fondamentaux (en persan *kalimāt-i qudsiyya*)
+      qui régissent la méthode soufie khwājagān puis naqshbandī —
+      mourut à Ghujdawān en 575 H (~1179 EC), selon la tradition
+      khwājagān dominante préservée par les *Nafaḥāt al-Uns* de
+      Jāmī et reflétée par l'EI2 ; les *tadhkira* persans donnent
+      également 595 H et 617 H comme dates alternatives. Nous
+      suivons l'année 575 H préservée par Jāmī tout en signalant
+      le différend. Les huit principes qu'il établit — *hūsh
+      dar dam* (la conscience dans le souffle), *naẓar bar
+      qadam* (le regard sur le pas), *safar dar waṭan* (le
+      voyage à l'intérieur de la patrie), *khalwat dar anjuman*
+      (la solitude dans la foule), *yād-kard*, *bāz-gasht*,
+      *nigāh-dāsht* et *yād-dāsht* — devinrent l'épine dorsale
+      pratique de la voie khwājagān ; Bahāʾ al-Dīn Naqshband
+      en ajouta trois autres (*wuqūf-i zamānī*, *wuqūf-i
+      ʿadadī*, *wuqūf-i qalbī*) au VIIIe siècle H pour
+      compléter les onze principes naqshbandī. Sa tombe à
+      Ghujdawān demeure un lieu de pèlerinage, et son
+      enseignement se transmet par la chaîne : Ghujdawānī →
+      ʿĀrif al-Riwgarī → Maḥmūd Anjīr Faghnawī → ʿAlī al-Rāmītanī
+      → Muḥammad Bābā Sammāsī → Amīr Kulāl → Bahāʾ al-Dīn
+      Naqshband.
+    canonical_hijri: {year: 575, precision: year}
+    canonical_gregorian: {date: 1179-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death at Ghujdawān 575 AH per Khwājagān biographical tradition (Jāmī's Nafaḥāt al-Uns)."
+      - source_key: editorial
+        notes: "Persian tadhkira variants: 595 AH and 617 AH; we follow 575 AH per Jāmī."
+    people: [[abd-al-khaliq-al-ghujdawani, died]]
+    tags: [seljuq, khwarazmshah, sufi, sunni, hanafi, maturidi, khwajagan, naqshbandi-precursor, transoxiana, bukhara]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abdul_Khaliq_Gajadwani"
+
+  - slug: death-of-arif-al-riwgari
+    category: scholar_death
+    title_en: Death of Khwāja ʿĀrif al-Riwgarī — second Khwājagān master
+    title_ar: وفاة الخواجة عارف الريوگري — ثاني مشايخ الخواجگان
+    title_fr: Mort de Khwāja ʿĀrif al-Riwgarī — deuxième maître khwājagān
+    description_en: |
+      Khwāja ʿĀrif al-Riwgarī (also Rīvgarī) — Sunni Hanafi
+      Sufi master of Riwgar, a village near Bukhārā in
+      Transoxiana, principal disciple of ʿAbd al-Khāliq
+      al-Ghujdawānī and the second master of the seven (or
+      eight) early Khwājagān whose chain culminates in Bahāʾ
+      al-Dīn Naqshband — died at Riwgar in 616 AH (~1219 CE)
+      per the Khwājagān biographical tradition preserved in
+      Jāmī's *Nafaḥāt al-Uns* and reflected in EI2. He
+      transmitted Ghujdawānī's eight principles to his own
+      successor, Maḥmūd Anjīr Faghnawī, and is the central
+      historical link in the *silsila al-dhahab* between the
+      founder of the Khwājagān path and the order's
+      consolidation under Faghnawī, Rāmītanī, and finally
+      Naqshband. Although Riwgarī left no formal writings, his
+      teaching is preserved in the early Naqshbandī manuals
+      (notably the *Anīs al-Ṭālibīn*, the *Maqāmāt-i Naqshbandī*,
+      and Jāmī's *Nafaḥāt al-Uns*) and through the practical
+      transmission of the Khwājagān method itself.
+    description_ar: |
+      توفي الخواجة عارف الريوگري — شيخ صوفي سني حنفي من قرية
+      «ريوگر» قرب بخارى في ما وراء النهر، تلميذ عبد الخالق
+      الغجدواني الأكبر، وثاني مشايخ الخواجگان السبعة (أو الثمانية)
+      الذين تنتهي بهم السلسلة إلى بهاء الدين النقشبند —
+      بـ«ريوگر» سنة ٦١٦ هـ (~١٢١٩ م) على الرواية المحفوظة في
+      تراث الخواجگان، ونقلها الجامي في «نفحات الأنس» وتعتمدها
+      دائرة المعارف الإسلامية الثانية. ونقل أصول شيخه الغجدواني
+      الثمانية إلى خَلَفه محمود أنجير الفغنوي، فهو حلقة الوصل
+      التاريخية المركزية في «سلسلة الذهب» بين مؤسس طريق
+      الخواجگان واستتباب الطريق على يد الفغنوي ثم الراميتني ثم
+      النقشبند. ولئن لم يخلّف الريوگري كتاباً منظماً، فإن
+      تعليمه محفوظ في كتب النقشبندية الأولى — لا سيما «أنيس
+      الطالبين» و«مقامات النقشبندي» و«نفحات الأنس» للجامي —
+      وفي النقل العملي لمنهج الخواجگان نفسه.
+    description_fr: |
+      Khwāja ʿĀrif al-Riwgarī (aussi Rīvgarī) — maître soufi
+      sunnite ḥanafite de Riwgar, village près de Boukhārā en
+      Transoxiane, principal disciple de ʿAbd al-Khāliq
+      al-Ghujdawānī et deuxième des sept (ou huit) maîtres
+      khwājagān anciens dont la chaîne culmine en Bahāʾ al-Dīn
+      Naqshband — mourut à Riwgar en 616 H (~1219 EC), selon
+      la tradition biographique khwājagān préservée dans les
+      *Nafaḥāt al-Uns* de Jāmī et reflétée par l'EI2. Il
+      transmit les huit principes de Ghujdawānī à son propre
+      successeur, Maḥmūd Anjīr Faghnawī, et constitue le
+      maillon historique central de la *silsila al-dhahab*
+      entre le fondateur de la voie khwājagān et la consolidation
+      de l'ordre sous Faghnawī, Rāmītanī, puis Naqshband. Bien
+      que Riwgarī n'ait laissé aucun écrit formel, son
+      enseignement est préservé dans les premiers manuels
+      naqshbandī — notamment l'*Anīs al-Ṭālibīn*, les
+      *Maqāmāt-i Naqshbandī* et les *Nafaḥāt al-Uns* de Jāmī
+      — et par la transmission pratique de la méthode khwājagān
+      elle-même.
+    canonical_hijri: {year: 616, precision: year}
+    canonical_gregorian: {date: 1219-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death at Riwgar 616 AH per Khwājagān biographical transmission."
+      - source_key: editorial
+        notes: "Jāmī's Nafaḥāt al-Uns confirms 616 AH; second master of the Khwājagān chain."
+    people: [[arif-al-riwgari, died]]
+    tags: [khwarazmshah, sufi, sunni, hanafi, maturidi, khwajagan, naqshbandi-precursor, transoxiana, bukhara]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Arif_Riwgari"
+
+  - slug: death-of-mahmud-anjir-faghnawi
+    category: scholar_death
+    title_en: Death of Khwāja Maḥmūd Anjīr Faghnawī — third Khwājagān master
+    title_ar: وفاة الخواجة محمود أنجير الفغنوي — ثالث مشايخ الخواجگان
+    title_fr: Mort de Khwāja Maḥmūd Anjīr Faghnawī — troisième maître khwājagān
+    description_en: |
+      Khwāja Maḥmūd Anjīr Faghnawī — Sunni Hanafi Sufi master
+      of Faghna (or Anjīr-Faghn), a village in the Bukhārā oasis
+      of Transoxiana, principal disciple of ʿĀrif al-Riwgarī, and
+      the third master of the early Khwājagān chain — died at
+      Faghna in 628 AH (~1230 CE) according to the dominant
+      Khwājagān biographical transmission preserved in Jāmī's
+      *Nafaḥāt al-Uns* and reflected in EI2; some Persian
+      *tadhkira* sources push his death to 715 AH, an attestation
+      not supported by the chronological constraints of the
+      silsila (his pupil ʿAlī al-Rāmītanī died in 721 AH at age
+      ~120). We follow the 628 AH year. The Khwājagān tradition
+      assigns to him a key methodological development: the open
+      practice of vocal *dhikr* in group sessions (*dhikr-i jahr*)
+      alongside the silent inward *dhikr-i khafī* he had inherited
+      from Ghujdawānī, on the principle that the visible practice
+      could draw outsiders toward the inner discipline. The
+      tension between vocal and silent *dhikr* would remain a
+      defining theme of the Khwājagān-Naqshbandī tradition for
+      the next six centuries; under Bahāʾ al-Dīn Naqshband (d.
+      791 AH), the silent inward *dhikr-i khafī* would prevail
+      as the order's normative practice.
+    description_ar: |
+      توفي الخواجة محمود أنجير الفغنوي — شيخ صوفي سني حنفي من
+      «فغنة» (أو «أنجير-فغن»)، قرية في واحة بخارى بما وراء
+      النهر، تلميذ عارف الريوگري الأكبر، وثالث مشايخ سلسلة
+      الخواجگان الأوائل — بـ«فغنة» سنة ٦٢٨ هـ (~١٢٣٠ م) على
+      الرواية المهيمنة في تراث الخواجگان التي حفظها الجامي في
+      «نفحات الأنس» وتعتمدها دائرة المعارف الإسلامية الثانية،
+      وذكر بعض كتب التراجم الفارسية سنة ٧١٥ هـ، وهي رواية
+      تعارض القيود الزمنية لسلسلة المشيخة (إذ توفي تلميذه علي
+      الراميتني سنة ٧٢١ هـ عن نحو مئة وعشرين سنة). ونحن نتابع
+      سنة ٦٢٨ هـ. ونسب إليه تراث الخواجگان تطويراً منهجياً
+      رئيساً: ممارسةَ الذكر الجهري في حلقات الجماعة («ذكر جهر»)
+      إلى جانب الذكر الخفي الباطني الذي ورثه عن الغجدواني، على
+      أصل أن الممارسة الظاهرة تجذب الخارجين إلى التهذيب
+      الباطن. وظلّ التوتر بين الذكر الجهري والخفي ثيمة محورية
+      في طريق الخواجگان-النقشبندية على مدى ستة قرون لاحقة، ثم
+      رجح في عهد بهاء الدين النقشبند (ت ٧٩١ هـ) الذكر الخفي
+      الباطن لتكون هي عبادة الطريقة المعيارية.
+    description_fr: |
+      Khwāja Maḥmūd Anjīr Faghnawī — maître soufi sunnite
+      ḥanafite de Faghna (ou Anjīr-Faghn), village de l'oasis
+      de Boukhārā en Transoxiane, principal disciple de ʿĀrif
+      al-Riwgarī et troisième maître de la chaîne khwājagān
+      ancienne — mourut à Faghna en 628 H (~1230 EC), selon la
+      tradition khwājagān dominante préservée dans les
+      *Nafaḥāt al-Uns* de Jāmī et reflétée par l'EI2 ; certains
+      *tadhkira* persans repoussent sa mort à 715 H, attestation
+      qui contredit les contraintes chronologiques de la
+      *silsila* (son disciple ʿAlī al-Rāmītanī mourut en 721 H
+      à l'âge d'environ 120 ans). Nous suivons l'année 628 H.
+      La tradition khwājagān lui attribue un développement
+      méthodologique majeur : la pratique ouverte du *dhikr*
+      vocal en assemblée (*dhikr-i jahr*) à côté du *dhikr-i
+      khafī* silencieux et intérieur hérité de Ghujdawānī, sur
+      le principe que la pratique visible pouvait attirer les
+      profanes vers la discipline intérieure. La tension entre
+      *dhikr* vocal et silencieux resterait un thème déterminant
+      de la tradition khwājagān-naqshbandī pendant les six
+      siècles suivants ; sous Bahāʾ al-Dīn Naqshband (m. 791
+      H), le *dhikr-i khafī* silencieux et intérieur prévaudrait
+      comme pratique normative de l'ordre.
+    canonical_hijri: {year: 628, precision: year}
+    canonical_gregorian: {date: 1230-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death at Faghna 628 AH per Khwājagān biographical tradition; alt 715 AH ruled out by silsila chronology."
+      - source_key: editorial
+        notes: "Introduced public dhikr-i jahr alongside Ghujdawānī's silent dhikr-i khafī."
+    people: [[mahmud-anjir-faghnawi, died]]
+    tags: [khwarazmshah, mongol, sufi, sunni, hanafi, maturidi, khwajagan, naqshbandi-precursor, transoxiana, bukhara, dhikr]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Mahmud_Anjir-Faghnawi"
+
+  - slug: death-of-ali-al-ramitani
+    category: scholar_death
+    title_en: Death of Khwāja ʿAlī al-Rāmītanī — Khwājagān master "Ḥaḍrat-i ʿAzīzān"
+    title_ar: وفاة الخواجة علي الراميتني — «حضرت عزيزان» شيخ الخواجگان
+    title_fr: Mort de Khwāja ʿAlī al-Rāmītanī — maître khwājagān « Ḥaḍrat-i ʿAzīzān »
+    description_en: |
+      Khwāja ʿAlī al-Rāmītanī, known in the Persian-language
+      Khwājagān biographical tradition as *Ḥaḍrat-i ʿAzīzān*
+      ("the Beloved Master") — Sunni Hanafi Sufi master of
+      Rāmītan in the Bukhārā oasis of Transoxiana, principal
+      disciple of Maḥmūd Anjīr Faghnawī, and the fourth master
+      of the early Khwājagān chain — died at Khwārazm in 721
+      AH (~1321 CE) at an advanced age (the *Nafaḥāt al-Uns*
+      tradition gives ~120 years), per the Khwājagān biographical
+      transmission preserved in Jāmī's *Nafaḥāt al-Uns* and
+      reflected in EI2. He had moved late in life from Bukhārā
+      to Khwārazm under the patronage of the Chaghatāʾid Mongol
+      court of Transoxiana, where his teaching shaped the
+      religious orientation of the post-conversion Mongol
+      aristocracy of Central Asia. He transmitted the
+      Khwājagān method to Muḥammad Bābā Sammāsī (d. 755 AH),
+      whose disciple Amīr Kulāl was the master of Bahāʾ al-Dīn
+      Naqshband. Among his recorded sayings, the Khwājagān
+      tradition gives him the maxim that "the *dhikr* of the
+      heart in the marketplace is more pleasing to God than the
+      *dhikr* of the tongue in the mosque" — programmatic for
+      the Naqshbandī commitment to interior practice in the
+      midst of worldly engagement (*khalwat dar anjuman*).
+    description_ar: |
+      توفي الخواجة علي الراميتني، المعروف في تراث الخواجگان
+      الفارسي بـ«حضرة عزيزان» (الشيخ المحبوب) — شيخ صوفي سني
+      حنفي من «راميتن» في واحة بخارى بما وراء النهر، تلميذ
+      محمود أنجير الفغنوي الأكبر، ورابع مشايخ سلسلة الخواجگان
+      الأوائل — بخوارزم سنة ٧٢١ هـ (~١٣٢١ م) عن عمر متقدم
+      (يذكر تراث «نفحات الأنس» نحو مئة وعشرين سنة) على الرواية
+      المحفوظة في تراث الخواجگان، ونقلها الجامي في «نفحات الأنس»
+      وتعتمدها دائرة المعارف الإسلامية الثانية. وكان قد انتقل
+      في أواخر حياته من بخارى إلى خوارزم في كنف بلاط الجَغطائيين
+      المغول في ما وراء النهر، فأثّر تعليمه في توجّه أرستقراطية
+      المغول الإسلامية في آسيا الوسطى بعد الإسلام. ونقل منهج
+      الخواجگان إلى محمد بابا السمّاسي (ت ٧٥٥ هـ)، وتلميذُ
+      السمّاسي أمير كلال هو شيخ بهاء الدين النقشبند. ومن أقواله
+      التي يحفظها تراث الخواجگان قوله: «ذكر القلب في السوق أحبّ
+      إلى الله من ذكر اللسان في المسجد» — وهو منهجٌ تأسيسي
+      لالتزام النقشبندية بالعمل الباطن في وسط الانخراط في
+      الدنيا («خلوت در انجمن»).
+    description_fr: |
+      Khwāja ʿAlī al-Rāmītanī, connu dans la tradition
+      biographique khwājagān persane comme *Ḥaḍrat-i ʿAzīzān*
+      (« le Maître bien-aimé ») — maître soufi sunnite ḥanafite
+      de Rāmītan dans l'oasis de Boukhārā en Transoxiane,
+      principal disciple de Maḥmūd Anjīr Faghnawī, et quatrième
+      maître de la chaîne khwājagān ancienne — mourut à Khwārazm
+      en 721 H (~1321 EC) à un âge avancé (la tradition des
+      *Nafaḥāt al-Uns* lui donne environ 120 ans), selon la
+      transmission biographique khwājagān préservée par Jāmī
+      dans les *Nafaḥāt al-Uns* et reflétée par l'EI2. Il avait
+      tardivement quitté Boukhārā pour Khwārazm sous le
+      patronage de la cour mongole tchaghatā'ide de Transoxiane,
+      où son enseignement façonna l'orientation religieuse de
+      l'aristocratie mongole d'Asie centrale après la conversion.
+      Il transmit la méthode khwājagān à Muḥammad Bābā Sammāsī
+      (m. 755 H), dont le disciple Amīr Kulāl fut le maître de
+      Bahāʾ al-Dīn Naqshband. Parmi ses paroles consignées,
+      la tradition khwājagān lui prête la maxime « le *dhikr*
+      du cœur au marché est plus agréable à Dieu que le *dhikr*
+      de la langue à la mosquée » — programme de l'engagement
+      naqshbandī à la pratique intérieure au cœur de la vie
+      mondaine (*khalwat dar anjuman*).
+    canonical_hijri: {year: 721, precision: year}
+    canonical_gregorian: {date: 1321-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death at Khwārazm 721 AH per Khwājagān biographical tradition (Jāmī's Nafaḥāt al-Uns)."
+      - source_key: editorial
+        notes: "Fourth Khwājagān master; bridge to Sammāsī, Kulāl, and Naqshband; under Chaghatāʾid Mongol patronage."
+    people: [[ali-al-ramitani, died]]
+    tags: [chaghataid, mongol, sufi, sunni, hanafi, maturidi, khwajagan, naqshbandi-precursor, transoxiana, bukhara, khwarazm]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ali_Ramitani"
+
+  # =========================================================================
+  # NAQSHBANDIYYA — successors of Bahāʾ al-Dīn Naqshband (8th–9th c. AH)
+  # =========================================================================
+
+  - slug: death-of-alaa-al-din-al-attar
+    category: scholar_death
+    title_en: Death of ʿAlāʾ al-Dīn al-ʿAṭṭār — successor of Bahāʾ al-Dīn Naqshband
+    title_ar: وفاة علاء الدين العطار — خليفة بهاء الدين النقشبند
+    title_fr: Mort de ʿAlāʾ al-Dīn al-ʿAṭṭār — successeur de Bahāʾ al-Dīn Naqshband
+    description_en: |
+      Khwāja ʿAlāʾ al-Dīn Muḥammad ibn Muḥammad al-Bukhārī
+      al-ʿAṭṭār — Sunni Hanafi Naqshbandī master of Bukhārā,
+      son-in-law and primary successor of Bahāʾ al-Dīn Naqshband
+      (d. 791 AH), and the figure under whom the order's
+      consolidation in Transoxiana proceeded after the founder's
+      death — died at Chaghāniyān (the upper-Oxus region of
+      Transoxiana) in 802 AH (~1400 CE), as recorded by Ibn Ḥajar
+      al-ʿAsqalānī in *al-Durar al-Kāmina fī Aʿyān al-Miʾa
+      al-Thāmina* and by Ibn al-ʿImād in *Shadharāt al-Dhahab*.
+      He had inherited from Naqshband the silent-inward *dhikr-i
+      khafī* as the order's normative practice and trained the
+      next generation of Naqshbandī masters — most centrally
+      Yaʿqūb Charkhī (d. 851 AH), whose pupil ʿUbayd Allāh Aḥrār
+      would extend Naqshbandī influence across Timurid Central
+      Asia. His sayings, preserved by Yaʿqūb Charkhī in the
+      *Risāla-yi Unsiyya* and by Jāmī in *Nafaḥāt al-Uns*,
+      fixed the post-Naqshband normative tone of the order:
+      attentive to fiqh, anti-bidʿa, suspicious of ecstatic
+      display, and centred on the silsila al-dhahab tracing the
+      order back to Abū Bakr ra.
+    description_ar: |
+      توفي الخواجة علاء الدين محمد بن محمد البخاري العطار —
+      شيخ صوفي سني حنفي نقشبندي من بخارى، صهرُ بهاء الدين
+      النقشبند (ت ٧٩١ هـ) وخليفته الأكبر، وعلى يديه استتبت
+      الطريقة في ما وراء النهر بعد مؤسسها — بـ«جَغَانيان» في
+      أعالي جيحون من ما وراء النهر سنة ٨٠٢ هـ (~١٤٠٠ م) كما
+      أثبت ذلك ابن حجر العسقلاني في «الدرر الكامنة في أعيان
+      المئة الثامنة» وابن العماد في «شذرات الذهب». ورِث عن
+      النقشبند الذكر الخفي الباطن باعتباره عبادة الطريقة
+      المعيارية، وأخرج الطبقة التالية من مشايخ النقشبندية —
+      وأظهرهم يعقوب الجَرخي (ت ٨٥١ هـ) الذي كان تلميذُه عبيد
+      الله الأحرار سيوسّع نفوذ النقشبندية في آسيا الوسطى
+      التيمورية. ونقل أقواله يعقوب الجرخي في «الرسالة الأنسية»،
+      ونقلها الجامي في «نفحات الأنس»، فحدّدت لهجة الطريقة
+      الميزانية ما بعد النقشبند: التزام بالفقه، ورفض للبدعة،
+      وتشكك في المشاهدة الجهرية، وتمسك بسلسلة الذهب التي تنتهي
+      بأبي بكر الصديق رضي الله عنه.
+    description_fr: |
+      Khwāja ʿAlāʾ al-Dīn Muḥammad ibn Muḥammad al-Bukhārī
+      al-ʿAṭṭār — maître soufi sunnite ḥanafite naqshbandī de
+      Boukhārā, gendre et principal successeur de Bahāʾ al-Dīn
+      Naqshband (m. 791 H), figure sous laquelle s'opère la
+      consolidation de l'ordre en Transoxiane après la mort du
+      fondateur — mourut à Chaghāniyān (région du haut-Oxus en
+      Transoxiane) en 802 H (~1400 EC), ainsi que le consignent
+      Ibn Ḥajar al-ʿAsqalānī dans *al-Durar al-Kāmina fī Aʿyān
+      al-Miʾa al-Thāmina* et Ibn al-ʿImād dans les *Shadharāt
+      al-Dhahab*. Il avait hérité de Naqshband le *dhikr-i
+      khafī* silencieux et intérieur comme pratique normative
+      de l'ordre, et forma la génération suivante des maîtres
+      naqshbandī — au premier chef Yaʿqūb Charkhī (m. 851 H),
+      dont le disciple ʿUbayd Allāh Aḥrār étendrait l'influence
+      naqshbandī dans l'Asie centrale timouride. Ses paroles,
+      préservées par Yaʿqūb Charkhī dans la *Risāla-yi Unsiyya*
+      et par Jāmī dans les *Nafaḥāt al-Uns*, fixèrent le ton
+      normatif post-Naqshband de l'ordre : attentif au *fiqh*,
+      anti-*bidʿa*, méfiant à l'égard des manifestations
+      extatiques et centré sur la *silsila al-dhahab* qui fait
+      remonter l'ordre à Abū Bakr ra.
+    canonical_hijri: {year: 802, precision: year}
+    canonical_gregorian: {date: 1400-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina: death at Chaghāniyān 802 AH; principal Naqshbandī successor."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 802 AH; son-in-law of Naqshband."
+      - source_key: ei2
+        notes: "Khwāja ʿAlāʾ al-Dīn al-ʿAṭṭār: trained Yaʿqūb Charkhī and the next Naqshbandī generation."
+    people: [[alaa-al-din-al-attar, died]]
+    tags: [timurid, sufi, sunni, hanafi, maturidi, naqshbandi, transoxiana, bukhara, chaghaniyan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ala_al-Din_Attar"
+
+  - slug: death-of-muhammad-parsa
+    category: scholar_death
+    title_en: Death of Muḥammad Pārsā — Naqshbandī author of *Faṣl al-Khiṭāb*
+    title_ar: وفاة محمد پارسا — صاحب «فصل الخطاب» النقشبندي
+    title_fr: Mort de Muḥammad Pārsā — auteur naqshbandī du *Faṣl al-Khiṭāb*
+    description_en: |
+      Khwāja Muḥammad ibn Muḥammad al-Ḥāfiẓī al-Bukhārī, known
+      as Muḥammad Pārsā ("the Pious") — Sunni Hanafi Naqshbandī
+      scholar of Bukhārā, direct disciple of Bahāʾ al-Dīn
+      Naqshband, and the principal literary voice of the early
+      Naqshbandiyya — died at Madīna while returning from the
+      pilgrimage in Dhū al-Ḥijja 822 AH (December 1419 / January
+      1420 CE), as recorded by Ibn Ḥajar al-ʿAsqalānī in *al-Durar
+      al-Kāmina* and by Ibn al-ʿImād in *Shadharāt al-Dhahab*.
+      His Persian-language *Faṣl al-Khiṭāb* (The Decisive Word)
+      systematised the Khwājagān-Naqshbandī doctrinal teaching for
+      the first time, treating the silsila al-dhahab, the eight
+      Khwājagān principles, the three Naqshbandī additions, and
+      the order's positions on tawḥīd and the relation of the
+      Sufi path to Hanafi fiqh; his shorter *Risāla-yi
+      Qudsiyya* preserves the recorded sayings of his master
+      Naqshband. Together these two works are the foundational
+      written corpus of the Naqshbandiyya, transmitted from
+      Pārsā's son Abū Naṣr to Yaʿqūb Charkhī, ʿUbayd Allāh Aḥrār,
+      Jāmī (whose *Nafaḥāt al-Uns* draws extensively on Pārsā's
+      *Faṣl al-Khiṭāb*), and the post-Timurid Naqshbandī
+      tradition. He was buried at Madīna near Baqīʿ al-Gharqad.
+    description_ar: |
+      توفي الخواجة محمد بن محمد الحافظي البخاري، المعروف بمحمد
+      پارسا (أي «الورع») — عالم سني حنفي نقشبندي من بخارى،
+      تلميذ بهاء الدين النقشبند مباشرة، والصوت الأدبي الأكبر
+      للنقشبندية الأولى — بالمدينة المنورة في طريق عودته من
+      الحج في ذي الحجة سنة ٨٢٢ هـ (كانون الأول ١٤١٩ / كانون
+      الثاني ١٤٢٠ م)، كما أثبت ذلك ابن حجر العسقلاني في «الدرر
+      الكامنة» وابن العماد في «شذرات الذهب». وكتابُه الفارسي
+      «فصل الخطاب» أوّل من نظّم تعليم الخواجگان-النقشبندية
+      المذهبي، يبحث في سلسلة الذهب وأصول الخواجگان الثمانية
+      وزيادات النقشبند الثلاثة، وموقف الطريقة من التوحيد، وعلاقة
+      الطريق الصوفي بفقه الحنفية. وفي رسالته الأقصر «الرسالة
+      القدسية» حفظ أقوال شيخه النقشبند المنقولة. فهذان الكتابان
+      هما المتن المؤسس المكتوب للنقشبندية، انتقل عن ابنه أبي
+      نصر إلى يعقوب الجرخي ثم عبيد الله الأحرار ثم الجامي
+      (الذي اعتمد عليه «نفحات الأنس» اعتماداً مستفيضاً) ثم
+      التراث النقشبندي بعد التيموريين. ودُفن بالمدينة قرب
+      بقيع الغرقد.
+    description_fr: |
+      Khwāja Muḥammad ibn Muḥammad al-Ḥāfiẓī al-Bukhārī, connu
+      sous le nom de Muḥammad Pārsā (« le Pieux ») — savant
+      sunnite ḥanafite naqshbandī de Boukhārā, disciple direct
+      de Bahāʾ al-Dīn Naqshband, et principale voix littéraire
+      de la naqshbandiyya ancienne — mourut à Médine sur le
+      chemin du retour du pèlerinage, en Dhū al-Ḥijja 822 H
+      (décembre 1419 / janvier 1420 EC), ainsi que le consignent
+      Ibn Ḥajar al-ʿAsqalānī dans *al-Durar al-Kāmina* et
+      Ibn al-ʿImād dans les *Shadharāt al-Dhahab*. Son
+      *Faṣl al-Khiṭāb* (« Le Discours décisif »), en persan,
+      systématisa pour la première fois la doctrine khwājagān-
+      naqshbandī, traitant de la *silsila al-dhahab*, des huit
+      principes khwājagān, des trois ajouts de Naqshband, des
+      positions de l'ordre sur le *tawḥīd* et de la relation de
+      la voie soufie au *fiqh* ḥanafite ; sa plus brève *Risāla-yi
+      Qudsiyya* préserve les paroles consignées de son maître
+      Naqshband. Ces deux ouvrages constituent le corpus écrit
+      fondateur de la naqshbandiyya, transmis du fils de Pārsā
+      Abū Naṣr à Yaʿqūb Charkhī, ʿUbayd Allāh Aḥrār, Jāmī (dont
+      les *Nafaḥāt al-Uns* puisent largement dans le *Faṣl
+      al-Khiṭāb*) et la tradition naqshbandī post-timouride. Il
+      fut enseveli à Médine près de Baqīʿ al-Gharqad.
+    canonical_hijri: {year: 822, month: 12, precision: month}
+    canonical_gregorian: {date: 1419-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina: death at Madīna in Dhū al-Ḥijja 822 AH on return from ḥajj."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 822 AH at Madīna; author of Faṣl al-Khiṭāb."
+      - source_key: ei2
+        notes: "Muḥammad Pārsā: principal literary figure of the early Naqshbandiyya."
+    people: [[muhammad-parsa, died]]
+    tags: [timurid, sufi, sunni, hanafi, maturidi, naqshbandi, bukhara, madina, fasl-al-khitab]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Parsa"
+
+  - slug: death-of-yaqub-charkhi
+    category: scholar_death
+    title_en: Death of Yaʿqūb Charkhī — Naqshbandī master of Hisar
+    title_ar: وفاة يعقوب الجرخي — شيخ النقشبندية بحصار
+    title_fr: Mort de Yaʿqūb Charkhī — maître naqshbandī de Hisar
+    description_en: |
+      Mawlānā Yaʿqūb ibn ʿUthmān al-Charkhī al-Ghaznawī — Sunni
+      Hanafi Naqshbandī master originally of Charkh (a village
+      near Ghaznī in modern Afghanistan), settled at Ḥalghatū
+      near Ḥiṣār-i Shādmān (modern southern Tajikistan), trained
+      in fiqh and tafsīr at Herat and Cairo before becoming the
+      principal disciple of ʿAlāʾ al-Dīn al-ʿAṭṭār, and the master
+      who initiated ʿUbayd Allāh Aḥrār into the Naqshbandī
+      *silsila* — died at Ḥalghatū in 851 AH (~1447 CE) per
+      Ibn Ḥajar al-ʿAsqalānī in *al-Durar al-Kāmina* (in its
+      addenda) and Jāmī in *Nafaḥāt al-Uns*. His Persian-language
+      writings include the *Risāla-yi Unsiyya* (a record of his
+      conversations with ʿAlāʾ al-Dīn al-ʿAṭṭār), the *Risāla-yi
+      Abdāliyya*, and a Persian commentary on Najm al-Dīn al-Dāya
+      al-Rāzī's *Mirṣād al-ʿIbād*. He thus stands at the centre
+      of the chain through which the Naqshbandiyya would, under
+      his pupil Aḥrār, become the dominant Sufi order of late
+      Timurid Central Asia and a major political-religious force
+      across the Mughal-Ottoman-Persianate world for the next
+      four centuries.
+    description_ar: |
+      توفي مولانا يعقوب بن عثمان الجرخي الغزنوي — شيخ صوفي سني
+      حنفي نقشبندي، أصلُه من «جَرخ» (قرية قرب غزنة في أفغانستان
+      اليوم)، استوطن «حلغتو» قرب حصار شادمان (في جنوب طاجيكستان
+      اليوم)، تلقى الفقه والتفسير بهراة والقاهرة قبل أن يصبح
+      تلميذ علاء الدين العطار الأكبر، والشيخ الذي أدخل عبيد
+      الله الأحرار في سلسلة النقشبندية — بـ«حلغتو» سنة ٨٥١ هـ
+      (~١٤٤٧ م) كما أثبت ذلك ابن حجر العسقلاني في ملحقات «الدرر
+      الكامنة» والجامي في «نفحات الأنس». وله بالفارسية كتب،
+      منها «الرسالة الأنسية» (وفيها مسجَّلٌ من مكالماته مع علاء
+      الدين العطار)، و«الرسالة الأبدالية»، وشرحٌ بالفارسية على
+      «مرصاد العباد» لنجم الدين الداية الرازي. فهو الحلقة
+      المركزية في السلسلة التي ستصبح بفضل تلميذه الأحرار طريقةَ
+      التصوف المهيمنة في آسيا الوسطى التيمورية المتأخرة، وقوةً
+      سياسية-دينية كبرى في العالم المغولي-العثماني-الفارسي
+      على مدى أربعة قرون لاحقة.
+    description_fr: |
+      Mawlānā Yaʿqūb ibn ʿUthmān al-Charkhī al-Ghaznawī — maître
+      soufi sunnite ḥanafite naqshbandī originaire de Charkh
+      (village près de Ghaznī en Afghanistan actuel), établi à
+      Ḥalghatū près de Ḥiṣār-i Shādmān (sud du Tadjikistan
+      actuel), formé en *fiqh* et en *tafsīr* à Hérat et au
+      Caire avant de devenir le principal disciple de ʿAlāʾ
+      al-Dīn al-ʿAṭṭār, et le maître qui initia ʿUbayd Allāh
+      Aḥrār à la *silsila* naqshbandī — mourut à Ḥalghatū en
+      851 H (~1447 EC) selon Ibn Ḥajar al-ʿAsqalānī dans les
+      addenda d'*al-Durar al-Kāmina* et selon Jāmī dans les
+      *Nafaḥāt al-Uns*. Ses écrits persans incluent la
+      *Risāla-yi Unsiyya* (consignation de ses entretiens avec
+      ʿAlāʾ al-Dīn al-ʿAṭṭār), la *Risāla-yi Abdāliyya* et un
+      commentaire persan du *Mirṣād al-ʿIbād* de Najm al-Dīn
+      al-Dāya al-Rāzī. Il se tient ainsi au centre de la chaîne
+      par laquelle la naqshbandiyya allait devenir, sous son
+      disciple Aḥrār, l'ordre soufi dominant de l'Asie centrale
+      timouride tardive et une force politico-religieuse majeure
+      à travers le monde moghol-ottoman-persanat pendant les
+      quatre siècles suivants.
+    canonical_hijri: {year: 851, precision: year}
+    canonical_gregorian: {date: 1447-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina (addenda): death at Ḥalghatū 851 AH; pupil of ʿAlāʾ al-Dīn al-ʿAṭṭār."
+      - source_key: ei2
+        notes: "Yaʿqūb Charkhī: master of ʿUbayd Allāh Aḥrār; central figure in the Naqshbandī silsila."
+      - source_key: editorial
+        notes: "Jāmī's Nafaḥāt al-Uns confirms 851 AH; Persian Risāla-yi Unsiyya preserves his teaching."
+    people: [[yaqub-charkhi, died]]
+    tags: [timurid, sufi, sunni, hanafi, maturidi, naqshbandi, hisar, ghazni, central-asia]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yaqub_Charkhi"
+
+  - slug: death-of-ubayd-allah-ahrar
+    category: scholar_death
+    title_en: Death of Khwāja ʿUbayd Allāh Aḥrār — Naqshbandī master of Timurid Central Asia
+    title_ar: وفاة الخواجة عبيد الله الأحرار — شيخ النقشبندية في آسيا الوسطى التيمورية
+    title_fr: Mort de Khwāja ʿUbayd Allāh Aḥrār — maître naqshbandī de l'Asie centrale timouride
+    description_en: |
+      Khwāja Nāṣir al-Dīn ʿUbayd Allāh ibn Maḥmūd al-Shāshī
+      al-Tāshkandī, known as Khwāja Aḥrār ("the Free") — Sunni
+      Hanafi Naqshbandī master of Tashkent and Samarqand, principal
+      disciple of Yaʿqūb Charkhī, and the figure under whom the
+      Naqshbandiyya became the politically dominant Sufi order of
+      late-Timurid Central Asia — died at Kāmangarān near
+      Samarqand on 29 Rabīʿ I 895 AH (20 February 1490 CE) per
+      Ibn al-ʿImād in *Shadharāt al-Dhahab* and Jāmī's
+      *Nafaḥāt al-Uns* (Jāmī had been Aḥrār's disciple). For more
+      than half a century he served as the spiritual master and
+      political broker of the Timurid courts of Samarqand,
+      Bukhārā, Herat, and Tashkent, mediating between rival
+      princes (most notably Sulṭān Abū Saʿīd Mīrzā and Sulṭān
+      Aḥmad Mīrzā) and shaping the religious culture of the
+      late Timurid umarāʾ. His Persian *Faqarāt al-ʿĀrifīn*
+      (Sayings of the Knowers) and *Risāla-yi Wālidiyya*
+      (translated into Chaghatāy Turkic by his disciple Bābur,
+      founder of the Mughal dynasty) carried Naqshbandī
+      teaching into the Mughal world; through Bābur and his
+      descendants, Naqshbandī influence extended into India,
+      where it would be consolidated by Aḥmad Sirhindī (d.
+      1034 AH). Aḥrār is the great pivot from the early
+      Khwājagān-Naqshbandī piety to the imperial-political
+      Naqshbandiyya of the Mughal-Ottoman age.
+    description_ar: |
+      توفي الخواجة ناصر الدين عبيد الله بن محمود الشاشي
+      الطاشكندي، المعروف بـ«الخواجة الأحرار» (أي الحر) — شيخ
+      صوفي سني حنفي نقشبندي من طاشكند وسمرقند، تلميذ يعقوب
+      الجرخي الأكبر، والشيخ الذي صارت الطريقة النقشبندية على
+      يديه الطريقةَ المهيمنة سياسياً في آسيا الوسطى التيمورية
+      المتأخرة — بـ«كامَنگران» قرب سمرقند في ٢٩ ربيع الأول سنة
+      ٨٩٥ هـ (٢٠ شباط ١٤٩٠ م) على ما أثبته ابن العماد في
+      «شذرات الذهب» والجامي في «نفحات الأنس» (وكان الجامي من
+      تلاميذ الأحرار). فلأكثر من نصف قرن، اضطلع بمشيخة الإرشاد
+      والوساطة السياسية بين بلاطات التيموريين في سمرقند وبخارى
+      وهراة وطاشكند، وأصلح بين أمرائها المتنازعين (وأشهرهم
+      السلطان أبو سعيد ميرزا والسلطان أحمد ميرزا)، وشكّل ثقافة
+      الأمراء التيموريين الدينية. وكتاباه الفارسيان «فقرات
+      العارفين» و«الرسالة الوالدية» (التي ترجمها إلى الجَغطائية
+      تلميذُه بابر، مؤسس الدولة المغولية الكبرى في الهند) نقلا
+      تعليم النقشبندية إلى العالم المغولي؛ ومن طريق بابر
+      وذريّته امتدّ نفوذ النقشبندية إلى الهند، حيث يستتبّ
+      على يد أحمد السرهندي (ت ١٠٣٤ هـ). فالأحرار هو المحور
+      الأكبر في الانتقال من تقوى الخواجگان-النقشبندية الباكرة
+      إلى نقشبندية العصر المغولي-العثماني الإمبراطورية.
+    description_fr: |
+      Khwāja Nāṣir al-Dīn ʿUbayd Allāh ibn Maḥmūd al-Shāshī
+      al-Tāshkandī, dit Khwāja Aḥrār (« le Libre ») — maître
+      soufi sunnite ḥanafite naqshbandī de Tachkent et de
+      Samarcande, principal disciple de Yaʿqūb Charkhī, et figure
+      sous laquelle la naqshbandiyya devint l'ordre soufi
+      politiquement dominant de l'Asie centrale timouride
+      tardive — mourut à Kāmangarān près de Samarcande le
+      29 Rabīʿ I 895 H (20 février 1490 EC) selon Ibn al-ʿImād
+      dans les *Shadharāt al-Dhahab* et Jāmī dans les *Nafaḥāt
+      al-Uns* (Jāmī avait été le disciple d'Aḥrār). Pendant plus
+      d'un demi-siècle, il fut maître spirituel et médiateur
+      politique des cours timourides de Samarcande, Boukhārā,
+      Hérat et Tachkent, intervenant entre princes rivaux
+      (notamment le sultan Abū Saʿīd Mīrzā et le sultan Aḥmad
+      Mīrzā) et façonnant la culture religieuse des *umarāʾ*
+      timourides tardifs. Ses ouvrages persans *Faqarāt
+      al-ʿĀrifīn* (Paroles des connaissants) et la *Risāla-yi
+      Wālidiyya* (traduite en turc tchaghatā'i par son disciple
+      Bābur, fondateur de la dynastie moghole) portèrent
+      l'enseignement naqshbandī dans le monde moghol ; par
+      Bābur et ses descendants, l'influence naqshbandī
+      s'étendit en Inde, où elle serait consolidée par Aḥmad
+      Sirhindī (m. 1034 H). Aḥrār est le grand pivot du passage
+      de la piété khwājagān-naqshbandī ancienne à la
+      naqshbandiyya impériale-politique de l'âge moghol-ottoman.
+    canonical_hijri: {year: 895, month: 3, day: 29, precision: day}
+    canonical_gregorian: {date: 1490-02-20, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Shadharāt al-Dhahab: death at Kāmangarān near Samarqand on 29 Rabīʿ I 895 AH."
+      - source_key: ei2
+        notes: "Khwāja Aḥrār: Naqshbandī master, political broker of late Timurid Central Asia."
+      - source_key: editorial
+        notes: "Jāmī's Nafaḥāt al-Uns confirms; Bābur's Wālidiyya translation carries his teaching to Mughal India."
+    people: [[ubayd-allah-ahrar, died]]
+    tags: [timurid, sufi, sunni, hanafi, maturidi, naqshbandi, samarqand, tashkent, central-asia, mughal-precursor]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ubayd_Allah_Ahrar"
+
+  # =========================================================================
+  # SHĀDHILIYYA — al-Mursī and Ibn ʿAṭāʾ Allāh of Alexandria
+  # =========================================================================
+
+  - slug: death-of-abu-al-abbas-al-mursi
+    category: scholar_death
+    title_en: Death of Abū al-ʿAbbās al-Mursī — second master of the Shādhiliyya
+    title_ar: وفاة أبي العباس المرسي — ثاني مشايخ الشاذلية
+    title_fr: Mort d'Abū al-ʿAbbās al-Mursī — deuxième maître de la shādhiliyya
+    description_en: |
+      Abū al-ʿAbbās Aḥmad ibn ʿUmar al-Anṣārī al-Mursī — Andalusi-
+      born Sunni Maliki Sufi master of Murcia (in modern southeast
+      Spain), who emigrated as a young man to Tunis after the
+      Reconquista pressure on al-Andalus, met Abū al-Ḥasan
+      al-Shādhilī (d. 656 AH) at Tunis, became his principal
+      disciple and travel-companion through North Africa and into
+      Egypt, and succeeded him as the second master of the
+      Shādhiliyya — died at Alexandria on 25 Dhū al-Qaʿda 686 AH
+      (31 December 1287 CE) at age about 70, as recorded by Ibn
+      Khallikān in *Wafayāt al-Aʿyān*, by al-Dhahabī in *Siyar
+      Aʿlām al-Nubalāʾ* and *Tārīkh al-Islām*, and by Ibn Kathīr
+      in *al-Bidāya wa al-Nihāya*. For thirty years he had
+      directed the Shādhilī khānaqāh of Alexandria, training the
+      next generation of Shādhilī shaykhs (most centrally Ibn
+      ʿAṭāʾ Allāh al-Iskandarī, his principal pupil) and shaping
+      the order's distinct Mamluk-Egyptian profile: a non-monastic
+      Sufism rooted in Maliki and Shafiʿi fiqh, opposed to
+      antinomian display, and explicitly compatible with worldly
+      vocation. His tomb-mosque at Alexandria — rebuilt under the
+      Khedives and again in the 20th century — remains today the
+      principal Shādhilī pilgrimage site of Egypt.
+    description_ar: |
+      توفي أبو العباس أحمد بن عمر الأنصاري المُرسي — صوفي سني
+      مالكي أندلسي المولد، من مرسية (في جنوب شرق إسبانيا اليوم)،
+      هاجر شاباً إلى تونس بعد ضغط حروب الاسترداد على الأندلس،
+      فلقي أبا الحسن الشاذلي (ت ٦٥٦ هـ) بتونس، فصار أكبر
+      تلاميذه ورفيقه في رحلته في شمال إفريقيا ومصر، ثم خَلَفه
+      في مشيخة الطريقة الشاذلية — بالإسكندرية يوم ٢٥ ذي القعدة
+      سنة ٦٨٦ هـ (٣١ كانون الأول ١٢٨٧ م) عن نحو سبعين سنة،
+      كما أثبت ذلك ابن خلكان في «وفيات الأعيان»، والذهبي في
+      «سير أعلام النبلاء» و«تاريخ الإسلام»، وابن كثير في
+      «البداية والنهاية». وقد توّلى رئاسة زاوية الشاذلية
+      بالإسكندرية ثلاثين سنة، فأخرج الطبقة التالية من مشايخ
+      الشاذلية (وأظهرهم تلميذُه الأكبر ابن عطاء الله
+      السكندري)، وشكّل لهجة الطريقة المتميزة في عصر المماليك
+      المصري: تصوّفٌ غيرُ رهباني، يستند إلى فقه المالكية
+      والشافعية، يعادي العَرَض الشَّطَحاني، ويُجوِّز الكسبَ
+      والعمل. ولا يزال مسجد ضريحه بالإسكندرية — الذي أعيد
+      بناؤه في عهد الخديوية ثم في القرن العشرين — أكبر مزار
+      شاذلي في مصر.
+    description_fr: |
+      Abū al-ʿAbbās Aḥmad ibn ʿUmar al-Anṣārī al-Mursī — soufi
+      sunnite mālikite né en Andalousie, à Murcie (sud-est de
+      l'Espagne actuelle), qui émigra jeune à Tunis sous la
+      pression de la Reconquista en al-Andalus, rencontra Abū
+      al-Ḥasan al-Shādhilī (m. 656 H) à Tunis, devint son
+      principal disciple et compagnon de voyage à travers
+      l'Afrique du Nord et l'Égypte, puis lui succéda comme
+      deuxième maître de la *shādhiliyya* — mourut à Alexandrie
+      le 25 Dhū al-Qaʿda 686 H (31 décembre 1287 EC) à l'âge
+      d'environ 70 ans, ainsi que le consignent Ibn Khallikān
+      dans les *Wafayāt al-Aʿyān*, al-Dhahabī dans les *Siyar
+      Aʿlām al-Nubalāʾ* et le *Tārīkh al-Islām*, et Ibn Kathīr
+      dans *al-Bidāya wa al-Nihāya*. Pendant trente ans il
+      dirigea la *khānaqāh* shādhilī d'Alexandrie, formant la
+      génération suivante des shaykhs shādhilī (au premier chef
+      son disciple principal Ibn ʿAṭāʾ Allāh al-Iskandarī) et
+      façonnant le profil propre de l'ordre dans l'Égypte
+      mamelouke : un soufisme non monastique enraciné dans le
+      *fiqh* mālikite et shāfiʿīte, opposé aux manifestations
+      antinomistes et explicitement compatible avec une
+      vocation séculière. Sa mosquée funéraire à Alexandrie —
+      reconstruite sous les Khédives puis au XXe siècle —
+      demeure aujourd'hui le principal site de pèlerinage
+      shādhilī d'Égypte.
+    canonical_hijri: {year: 686, month: 11, day: 25, precision: day}
+    canonical_gregorian: {date: 1287-12-31, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafayāt al-Aʿyān: death at Alexandria 25 Dhū al-Qaʿda 686 AH."
+      - source_key: dhahabi_siyar
+        notes: "Siyar Aʿlām al-Nubalāʾ confirms 686 AH at Alexandria; second Shādhilī master."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām confirms 25 Dhū al-Qaʿda 686 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya: death of Abū al-ʿAbbās al-Mursī at Alexandria 686 AH."
+    people: [[abu-al-abbas-al-mursi, died]]
+    tags: [mamluk, sufi, sunni, maliki, shadhiliyya, andalusi, murcia, alexandria, egypt]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Abbas_al-Mursi"
+
+  - slug: death-of-ibn-ata-allah-al-iskandari
+    category: scholar_death
+    title_en: Death of Ibn ʿAṭāʾ Allāh al-Iskandarī — author of the *Ḥikam al-ʿAṭāʾiyya*
+    title_ar: وفاة ابن عطاء الله السكندري — صاحب «الحكم العطائية»
+    title_fr: Mort d'Ibn ʿAṭāʾ Allāh al-Iskandarī — auteur des *Ḥikam ʿaṭāʾiyya*
+    description_en: |
+      Tāj al-Dīn Abū al-Faḍl Aḥmad ibn Muḥammad ibn ʿAbd al-Karīm
+      ibn ʿAṭāʾ Allāh al-Judhāmī al-Iskandarī — Sunni Maliki Sufi
+      master of Alexandria, the third master of the Shādhiliyya
+      after Abū al-Ḥasan al-Shādhilī and Abū al-ʿAbbās al-Mursī,
+      pupil of al-Mursī, teacher of fiqh at the Manṣūriyya madrasa
+      and of Sufism at al-Azhar in Cairo, and the figure who first
+      committed the oral teaching of the Shādhiliyya to writing —
+      died at Cairo in Jumādā II 709 AH (November 1309 CE), as
+      recorded by al-Dhahabī in *Tārīkh al-Islām*, by Ibn Kathīr
+      in *al-Bidāya wa al-Nihāya*, by Ibn Ḥajar in his
+      biographical notices, and by Ibn al-ʿImād in *Shadharāt
+      al-Dhahab*. His *al-Ḥikam al-ʿAṭāʾiyya* (Aphorisms) — a
+      compact corpus of around 264 maxims on tawḥīd, ʿubūdiyya,
+      and the disciplining of the self — became the most
+      commented-upon Sufi text in Sunni history, with major
+      commentaries by Ibn ʿAbbād al-Rundī (d. 792 AH), Aḥmad
+      Zarrūq (d. 899 AH), and Ibn ʿAjība (d. 1224 AH). His
+      *Laṭāʾif al-Minan* preserved the *manāqib* of his master
+      al-Mursī and grand-master al-Shādhilī; his *Miftāḥ
+      al-Falāḥ* fixed the litany discipline of the order; his
+      *Tāj al-ʿArūs* gathered the practical teaching of the
+      Shādhilī path. He is buried in the Qarāfa cemetery of
+      Cairo at the foot of the Muqaṭṭam.
+    description_ar: |
+      توفي تاج الدين أبو الفضل أحمد بن محمد بن عبد الكريم بن
+      عطاء الله الجُذَامي السكندري — شيخ صوفي سني مالكي من
+      الإسكندرية، ثالث مشايخ الشاذلية بعد أبي الحسن الشاذلي
+      وأبي العباس المرسي، تلميذ المرسي، ومدرّس الفقه بمدرسة
+      المنصورية والتصوف بالأزهر في القاهرة، وأول من قيّد تعليم
+      الشاذلية المنقول كتابةً — بالقاهرة في جمادى الآخرة سنة
+      ٧٠٩ هـ (تشرين الثاني ١٣٠٩ م) كما أثبت ذلك الذهبي في
+      «تاريخ الإسلام»، وابن كثير في «البداية والنهاية»، وابن
+      حجر في تراجمه، وابن العماد في «شذرات الذهب». وكتابه
+      «الحكم العطائية» — مجموعةٌ مُكتنزة في نحو ٢٦٤ حكمة في
+      التوحيد والعبودية ورياضة النفس — هو أكثر متن صوفي شُرح
+      في تاريخ السنّة، ومن أكبر شُرّاحه ابن عبّاد الرندي
+      (ت ٧٩٢ هـ)، وأحمد زرّوق (ت ٨٩٩ هـ)، وابن عجيبة
+      (ت ١٢٢٤ هـ). وفي «لطائف المنن» حفظ مناقب شيخه المرسي
+      وشيخ شيخه الشاذلي؛ وفي «مفتاح الفلاح» نظَّم ورد
+      الطريقة؛ وفي «تاج العروس» جمع تعليم طريق الشاذلية
+      العملي. ودُفن بمقبرة القرافة في القاهرة عند سفح المقطّم.
+    description_fr: |
+      Tāj al-Dīn Abū al-Faḍl Aḥmad ibn Muḥammad ibn ʿAbd al-Karīm
+      ibn ʿAṭāʾ Allāh al-Judhāmī al-Iskandarī — maître soufi
+      sunnite mālikite d'Alexandrie, troisième maître de la
+      *shādhiliyya* après Abū al-Ḥasan al-Shādhilī et Abū
+      al-ʿAbbās al-Mursī, disciple d'al-Mursī, professeur de
+      *fiqh* à la madrasa Manṣūriyya et de soufisme à al-Azhar
+      au Caire, et figure qui mit pour la première fois par
+      écrit l'enseignement oral de la shādhiliyya — mourut au
+      Caire en Jumādā II 709 H (novembre 1309 EC), ainsi que le
+      consignent al-Dhahabī dans le *Tārīkh al-Islām*, Ibn
+      Kathīr dans *al-Bidāya wa al-Nihāya*, Ibn Ḥajar dans ses
+      notices biographiques et Ibn al-ʿImād dans les *Shadharāt
+      al-Dhahab*. Ses *al-Ḥikam al-ʿAṭāʾiyya* (Aphorismes) —
+      corpus compact d'environ 264 maximes sur le *tawḥīd*,
+      l'*ʿubūdiyya* et la discipline du soi — sont devenus le
+      texte soufi le plus commenté de l'histoire sunnite, avec
+      des commentaires majeurs par Ibn ʿAbbād al-Rundī (m. 792
+      H), Aḥmad Zarrūq (m. 899 H) et Ibn ʿAjība (m. 1224 H).
+      Ses *Laṭāʾif al-Minan* préservèrent les *manāqib* de son
+      maître al-Mursī et de son grand-maître al-Shādhilī ; son
+      *Miftāḥ al-Falāḥ* fixa la discipline des litanies de
+      l'ordre ; son *Tāj al-ʿArūs* rassembla l'enseignement
+      pratique de la voie shādhilī. Il est enseveli au cimetière
+      de la Qarāfa au Caire, au pied du Muqaṭṭam.
+    canonical_hijri: {year: 709, month: 6, precision: month}
+    canonical_gregorian: {date: 1309-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "Tārīkh al-Islām: death at Cairo in Jumādā II 709 AH; third Shādhilī master."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya confirms 709 AH at Cairo."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab: Jumādā II 709 AH; author of al-Ḥikam al-ʿAṭāʾiyya."
+      - source_key: ei2
+        notes: "Ibn ʿAṭāʾ Allāh al-Iskandarī: most-commented Sufi text in Sunni history."
+    people: [[ibn-ata-allah-al-iskandari, died]]
+    tags: [mamluk, sufi, sunni, maliki, shadhiliyya, alexandria, cairo, hikam, qarafa]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Ata_Allah"

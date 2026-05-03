@@ -1,0 +1,391 @@
+# Additional events from the Prophetic era (1-11 AH / 622-632 CE).
+# Existing events in 00_legacy.yaml cover: Hijra, Badr, Uhud, Khandaq,
+# Hudaybiyyah, Conquest of Makkah, Farewell Pilgrimage, Death of the Prophet ﷺ.
+# This file adds other well-attested events from the same era.
+
+events:
+  - slug: first-revelation-iqra
+    category: revelation
+    title_en: The First Revelation (Iqra') in Cave Hira'
+    title_ar: بَدْء الوَحْي في غار حِراء
+    title_fr: La première Révélation (Iqra') dans la grotte de Ḥirāʾ
+    description_en: |
+      The Prophet Muhammad ﷺ, then forty years old, was in spiritual retreat
+      (tahannuth) in the Cave of Hira' on Jabal al-Nur above Makkah when the
+      angel Jibril appeared to him and commanded: "Iqra'!" (Recite!). After a
+      threefold embrace, the first five verses of Surah al-'Alaq were revealed
+      — "Recite in the name of your Lord who created…" (Qur'an 96:1-5). The
+      Prophet ﷺ returned to Khadija ra trembling, who comforted him and took
+      him to her cousin Waraqa ibn Nawfal, who recognised this as the same
+      revelation that had come to Musa ﷺ. Tradition places the event on a
+      Monday night in the last ten of Ramadan in the Year 13 BH (610 CE).
+    description_ar: |
+      كان النبيُّ محمَّد ﷺ، وهو في الأربعين من عمره، يَتَحَنَّثُ في غار
+      حِراء بجبل النور فوق مكَّة، إذ جاءه المَلَكُ جبريل عليه السلام
+      وقال له: «اقْرَأْ». فبعد ثلاثِ ضَمَّاتٍ شديدة، نزلت عليه أوائلُ
+      سورة العلق: «اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ» (العلق ١-٥).
+      رجع النبيُّ ﷺ إلى خديجة رضي الله عنها يَرْجُفُ فؤادُه، فطمأنته،
+      وذهبت به إلى ابن عمِّها وَرَقَة بن نَوْفَل، فعرف أنَّه الناموسُ
+      الذي نزل على موسى عليه السلام. وجاء في الأثر أنَّ ذلك كان ليلةً
+      من ليالي العَشْرِ الأواخر من رمضان من السنة الثالثة عشرة قبل
+      الهجرة (٦١٠م).
+    description_fr: |
+      Le Prophète Muhammad ﷺ, alors âgé de quarante ans, se trouvait en
+      retraite spirituelle (taḥannuth) dans la grotte de Ḥirāʾ, sur le
+      Jabal al-Nūr surplombant La Mecque, lorsque l'ange Jibrīl lui
+      apparut et lui ordonna : « Iqraʾ ! » (Récite !). Après une triple
+      étreinte, les cinq premiers versets de la sourate al-ʿAlaq furent
+      révélés : « Récite, au nom de ton Seigneur qui a créé... » (Coran
+      96:1-5). Le Prophète ﷺ revint auprès de Khadīja (raḍiya Allāhu
+      ʿanhā) tout tremblant ; elle le rassura et le conduisit chez son
+      cousin Waraqa ibn Nawfal, qui reconnut là la même révélation
+      qu'avait reçue Mūsā (ʿalayhi al-salām). La tradition situe
+      l'événement une nuit du lundi, durant les dix dernières nuits de
+      Ramaḍān, en l'an 13 avant l'Hégire (610 EC).
+    canonical_hijri: {year: -13, precision: year}
+    canonical_gregorian: {date: 610-08-10, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Sahih al-Bukhari 3: Hadith of 'Aisha ra describing the event."
+        is_canonical: true
+      - source_key: muslim_sahih
+      - source_key: ibn_hisham_sira
+      - source_key: quran
+        notes: "Surah al-'Alaq 96:1-5."
+    hadith_refs: "Bukhari 3"
+    quran_refs: "96:1-5"
+    source_url: https://sunnah.com/bukhari:3
+    people: [[muhammad, subject], [khadija-bint-khuwaylid, participant]]
+    tags: [prophetic-era, revelation, ramadan, makkah, hira, quran-referenced]
+    verified: true
+
+  - slug: year-of-sorrow
+    category: prophetic_era
+    title_en: The Year of Sorrow — Deaths of Khadija ra and Abu Talib
+    title_ar: عامُ الحُزْن — وفاةُ خديجة رضي الله عنها وأبي طالب
+    title_fr: L'Année de la tristesse — décès de Khadīja (raḍiya Allāhu ʿanhā) et d'Abū Ṭālib
+    description_en: |
+      In the tenth year of prophethood (10 BH / 619 CE), the Prophet ﷺ lost
+      within a short interval his uncle Abu Talib — his lifelong protector
+      against the Quraysh — and his beloved wife Khadija ra, his first
+      believer, mother of most of his children, and the one who had comforted
+      him the night of the first revelation. Without Abu Talib's protection
+      the Quraysh intensified their persecution; within a year the Prophet ﷺ
+      would travel to Ta'if seeking allies, be rejected, and then — as a
+      consolation from his Lord — experience the Night Journey and Ascent.
+    description_ar: |
+      في السنة العاشرة من البعثة (١٠ قبل الهجرة / ٦١٩م)، فقد النبيُّ ﷺ
+      في فترةٍ وجيزة عمَّه أبا طالب الذي كان حِصنَه ومانعَه من قريش
+      طوال حياته، ثمَّ زوجَه الحبيبة خديجة رضي الله عنها، أوَّلَ من
+      آمن به، وأمَّ أكثر أولاده، والتي طمأنته ليلةَ نزول الوحي.
+      وبزوال حماية أبي طالب اشتدَّ أذى قريش، فخرج النبيُّ ﷺ بعد ذلك
+      بيسير إلى الطائف يلتمس النصرة فلم يُجَب، ثمَّ كانت رحلةُ
+      الإسراء والمعراج تسليةً له من ربِّه عزَّ وجلَّ.
+    description_fr: |
+      Lors de la dixième année de la prophétie (10 av. H. / 619 EC), le
+      Prophète ﷺ perdit en peu de temps son oncle Abū Ṭālib — son
+      protecteur de toujours face aux Quraysh — puis son épouse bien
+      aimée Khadīja (raḍiya Allāhu ʿanhā), première croyante, mère de
+      la plupart de ses enfants, et celle qui l'avait réconforté la
+      nuit de la première Révélation. Privé de la protection d'Abū
+      Ṭālib, le Prophète ﷺ vit la persécution des Quraysh s'intensifier ;
+      en l'espace d'une année, il se rendit à al-Ṭāʾif pour y chercher
+      des alliés, en fut chassé, puis vécut — en consolation de son
+      Seigneur — le Voyage nocturne et l'Ascension.
+    canonical_hijri: {year: -10, precision: year}
+    canonical_gregorian: {date: 619-06-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+    source_url: https://en.wikipedia.org/wiki/Year_of_Sorrow
+    people: [[muhammad, subject], [khadija-bint-khuwaylid, died]]
+    tags: [prophetic-era, makkah, khadija, abu-talib]
+    verified: true
+
+  - slug: isra-wal-miraj
+    category: prophetic_era
+    title_en: The Night Journey and Ascension (al-Isra' wal-Mi'raj)
+    title_ar: الإسراء والمِعْراج
+    title_fr: Le Voyage nocturne et l'Ascension (al-Isrāʾ wa-l-Miʿrāj)
+    description_en: |
+      One night, the Prophet ﷺ was taken by Jibril from the Masjid al-Haram
+      in Makkah to the Masjid al-Aqsa in Jerusalem upon the Buraq (al-Isra'),
+      and from there ascended through the seven heavens to the Sidrat
+      al-Muntaha (al-Mi'raj). He led the prophets in prayer at al-Aqsa, met
+      Adam, 'Isa, Yahya, Yusuf, Idris, Harun, Musa, and Ibrahim ﷺ in the
+      heavens, and received the command of the five daily prayers. Surah
+      al-Isra' 17:1 and Surah al-Najm 53:1-18 reference the journey.
+      The exact date is genuinely contested in Sunni scholarship — Ibn
+      Kathir's al-Bidaya wa'l-Nihaya explicitly notes that NO authentic
+      hadith fixes 27 Rajab as the date, and al-Zurqani lists six
+      competing classical proposals. The popular observance on 27 Rajab
+      is a later traditional designation, not a prophetically attested
+      fact. Classical proposals span Rabi al-Awwal, Ramadan, Shawwal, and
+      Rajab in years from 5 BH to 1 BH. We record this as year-precision
+      (~621 CE) per Sunni rigour.
+    description_ar: |
+      أُسرِيَ بالنبيِّ ﷺ ليلةً واحدة من المسجد الحرام بمكَّة إلى المسجد
+      الأقصى ببيت المقدس على البُراق (الإسراء)، ثم عُرِجَ به من هناك
+      عبر السماوات السبع إلى سِدرة المنتهى (المعراج). صلَّى بالأنبياء
+      إماماً في المسجد الأقصى، ولقي في السماوات آدم وعيسى ويحيى ويوسف
+      وإدريس وهارون وموسى وإبراهيم عليهم السلام، وفُرِضَت عليه الصلواتُ
+      الخمس. وقد أشارت إلى هذه الرحلة سورةُ الإسراء (١٧:١) وسورةُ النجم
+      (٥٣:١-١٨). أمَّا تاريخُها بالضبط فهو موضعُ خلافٍ حقيقي بين علماء
+      أهل السنَّة؛ فقد نصَّ ابن كثير في «البداية والنهاية» على أنَّه
+      لا يثبت حديثٌ صحيح يُعيِّن ليلةَ السابع والعشرين من رجب، وذكر
+      الزُّرقاني ستَّةَ أقوالٍ كلاسيكية في تحديد التاريخ. والاحتفالُ
+      الشائع في ٢٧ رجب تخصيصٌ متأخر، لا أصلَ له في الحديث الصحيح.
+      تمتدُّ الأقوال الكلاسيكية بين ربيع الأوَّل ورمضان وشوَّال ورجب،
+      في سنواتٍ تتراوح بين ٥ و١ قبل الهجرة. لذلك نُثبتها بدقَّة سنة
+      (نحو ٦٢١م) التزاماً بالضبط السنِّي.
+      
+      Classical sira tradition records multiple competing dates: 27 Rajab is the most widely-received popular tradition (preserved across Maghrebi, Levantine and Indian observance); other sira reports give 17 Rabīʿ al-Awwal or 17 Ramaḍān before the Hijra. We follow 27 Rajab as the dominant classical practice without claiming definitive certainty.
+      
+      تورد كتب السيرة عدة روايات متنافسة في التاريخ: السابع والعشرون من رجب هو الأشهر في التقليد الشعبي المعتمد في المغرب والشام والهند؛ وقالت روايات أخرى من السيرة بسابع عشر ربيع الأول أو سابع عشر رمضان قبل الهجرة. ونتبع هنا السابع والعشرين من رجب باعتباره العمل الشائع عند أهل السنة دون ادعاء قطع.
+    description_fr: |
+      Une nuit, le Prophète ﷺ fut emmené par Jibrīl de la Mosquée
+      sacrée (al-Masjid al-Ḥarām) à La Mecque jusqu'à la Mosquée
+      al-Aqṣā à Jérusalem sur la monture al-Burāq (al-Isrāʾ), puis il
+      s'éleva de là à travers les sept cieux jusqu'à Sidrat al-Muntahā
+      (al-Miʿrāj). Il dirigea la prière des prophètes à al-Aqṣā,
+      rencontra dans les cieux Ādam, ʿĪsā, Yaḥyā, Yūsuf, Idrīs, Hārūn,
+      Mūsā et Ibrāhīm (ʿalayhim al-salām), et reçut l'ordre des cinq
+      prières quotidiennes. La sourate al-Isrāʾ (17:1) et la sourate
+      al-Najm (53:1-18) font référence à ce voyage. La date exacte est
+      véritablement contestée dans l'érudition sunnite : Ibn Kathīr
+      dans al-Bidāya wa-l-Nihāya souligne explicitement qu'aucun hadith
+      authentique ne fixe le 27 Rajab comme date, et al-Zurqānī
+      recense six propositions classiques concurrentes. La célébration
+      populaire du 27 Rajab est une désignation traditionnelle
+      tardive, et non un fait prophétiquement attesté. Les propositions
+      classiques s'étendent sur Rabīʿ al-Awwal, Ramaḍān, Shawwāl et
+      Rajab, dans des années allant de 5 av. H. à 1 av. H. Nous le
+      retenons donc avec une précision d'année (~621 EC), par rigueur
+      sunnite.
+    canonical_hijri: {year: -1, precision: year}
+    canonical_gregorian: {date: 621-01-01, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Multiple narrations across Kitab al-Salat and Kitab al-Anbiya' (e.g. Bukhari 349 — Anas's narration of the lifting of the heavens)."
+        is_canonical: true
+        hijri_year: -1
+        hijri_precision: year
+      - source_key: muslim_sahih
+        notes: "Sahih Muslim 162 (Kitab al-Iman) — full Anas narration of the Mi'raj."
+        hijri_year: -1
+        hijri_precision: year
+      - source_key: ibn_hisham_sira
+        notes: "Ibn Hisham relays the conventional placement in late Rajab/early Ramadan in the year preceding the Hijra."
+        hijri_year: -1
+        hijri_precision: year
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathir surveys multiple proposed dates spanning years 5 BH to 1 BH (Rabi' al-Awwal, Ramadan, Shawwal, Rajab) and rejects any specific 27 Rajab fixation as unauthenticated."
+        hijri_year: -3
+        hijri_precision: year
+      - source_key: quran
+        notes: "Surah al-Isra' 17:1 and Surah al-Najm 53."
+    quran_refs: "17:1, 53:1-18"
+    hadith_refs: "Bukhari 349, Muslim 162"
+    source_url: https://sunnah.com/bukhari:349
+    people: [[muhammad, subject]]
+    tags: [prophetic-era, isra-miraj, al-aqsa, quran-referenced]
+    disputed: true
+    dispute_about: date
+    verified: true
+
+  - slug: second-pledge-of-aqaba
+    category: prophetic_era
+    title_en: The Second Pledge of al-'Aqaba
+    title_ar: بيعةُ العَقَبة الثانية
+    title_fr: Le second Serment d'al-ʿAqaba
+    description_en: |
+      Seventy-three men and two women of the Aws and Khazraj tribes of Yathrib
+      (later Madinah) met the Prophet ﷺ secretly at al-'Aqaba near Mina during
+      the Hajj season. They pledged to protect him as they would protect their
+      own wives and children, and to believe in him — binding themselves to
+      the defense of Islam. This pledge opened the path for the Hijra, which
+      followed within three months.
+    description_ar: |
+      التقى ثلاثةٌ وسبعون رجلاً وامرأتان من الأوس والخزرج أهلِ يَثْرِب
+      (المدينة فيما بعد) بالنبيِّ ﷺ سرًّا عند العَقَبة قُرْبَ مِنى في
+      موسم الحج. بايعوه على أن يمنعوه ممَّا يمنعون منه نساءَهم وأبناءَهم،
+      وعلى الإيمان به، فالتزموا بذلك نُصرةَ الإسلام والذَّوْدَ عنه.
+      وقد فتحت هذه البيعةُ الطريقَ للهجرة النبويَّة التي وقعت بعدها
+      بنحو ثلاثة أشهر.
+    description_fr: |
+      Soixante-treize hommes et deux femmes des tribus des Aws et des
+      Khazraj de Yathrib (la future Médine) rencontrèrent secrètement
+      le Prophète Muhammad ﷺ à al-ʿAqaba, près de Minā, durant la
+      saison du pèlerinage. Ils s'engagèrent à le protéger comme ils
+      protégeaient leurs propres épouses et enfants, et à croire en
+      lui, se liant ainsi à la défense de l'Islam. Ce serment ouvrit
+      la voie à l'Hégire, qui suivit dans les trois mois.
+    canonical_hijri: {year: -1, month: 12, precision: month}
+    canonical_gregorian: {date: 622-06-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+    people: [[muhammad, subject]]
+    tags: [prophetic-era, ansar, aqaba, hijra-prelude]
+    verified: true
+
+  - slug: battle-of-mutah
+    category: battle
+    title_en: Battle of Mu'tah — Martyrdom of Ja'far, Zayd, and ibn Rawaha
+    title_ar: غزوةُ مُؤْتة — استشهادُ جعفر وزيد وابن رواحة
+    title_fr: La bataille de Muʾta — martyre de Jaʿfar, Zayd et Ibn Rawāḥa
+    description_en: |
+      Three thousand Muslims faced a much larger Byzantine-Ghassanid army
+      (traditional reports give 100,000–200,000; modern estimates are closer
+      to 10,000) at the village of Mu'tah south of the Dead Sea. The three
+      commanders appointed by the Prophet ﷺ — Zayd ibn Haritha, Ja'far ibn
+      Abi Talib, and Abdullah ibn Rawaha — were all martyred in sequence.
+      Khalid ibn al-Walid took up the standard and conducted a tactical
+      withdrawal that saved the army; for this he was called Sayf Allah
+      al-Maslul ("the Drawn Sword of Allah"). Ja'far ibn Abi Talib's arms
+      were severed holding the banner, and tradition records that Allah
+      replaced them with two wings in Jannah, earning him the title
+      at-Tayyar ("the Flyer").
+    description_ar: |
+      التقى ثلاثةُ آلافٍ من المسلمين بجيشٍ بيزنطيٍّ غسَّانيٍّ يفوقهم
+      كثرةً (تذكر الروايات التقليدية مئةَ ألفٍ إلى مئتي ألف، بينما
+      تقدِّر الدراسات الحديثة العدد بنحو عشرة آلاف) في قرية مُؤْتة
+      جنوبي البحر الميِّت. استُشهِدَ القادةُ الثلاثة الذين اختارهم
+      النبيُّ ﷺ — زيد بن حارثة، ثمَّ جعفر بن أبي طالب، ثمَّ عبد الله
+      بن رواحة — على التَّتالي، فأخذ خالد بن الوليد الرايةَ وانسحب
+      بالجيش انسحاباً تكتيكيًّا أنقذه من الهلاك، فسمَّاه النبيُّ ﷺ
+      «سَيْفَ اللَّهِ المسلول». وقد قُطِعَت ذراعا جعفرٍ وهو يحمل
+      اللواء، وجاء في الأثر أنَّ الله أبدله بهما جناحين يطير بهما في
+      الجنَّة، فلُقِّبَ بـ«الطَّيَّار».
+    description_fr: |
+      Trois mille musulmans firent face à une armée byzantino-ghassanide
+      bien plus nombreuse (les sources traditionnelles évoquent 100 000
+      à 200 000 hommes ; les estimations modernes sont plus proches de
+      10 000) au village de Muʾta, au sud de la mer Morte. Les trois
+      commandants désignés par le Prophète ﷺ — Zayd ibn Ḥāritha, Jaʿfar
+      ibn Abī Ṭālib et ʿAbdullāh ibn Rawāḥa — furent tous martyrisés
+      successivement. Khālid ibn al-Walīd reprit l'étendard et mena un
+      retrait tactique qui sauva l'armée ; c'est pour cela qu'il fut
+      surnommé Sayf Allāh al-Maslūl (« le Sabre dégainé d'Allāh »).
+      Jaʿfar ibn Abī Ṭālib eut les deux bras tranchés en tenant la
+      bannière, et la tradition rapporte qu'Allāh les lui remplaça par
+      deux ailes au Paradis, lui valant le titre d'al-Ṭayyār
+      (« le Volant »).
+    canonical_hijri: {year: 8, month: 5, precision: month}
+    canonical_gregorian: {date: 629-09-15, precision: month, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Sahih al-Bukhari 4261-4265 (Kitab al-Maghazi) — Anas's narration of Zayd, Ja'far, ibn Rawaha, then Khalid."
+        is_canonical: true
+      - source_key: ibn_hisham_sira
+      - source_key: tabari_tarikh
+    hadith_refs: "Bukhari 4261, Bukhari 4262, Bukhari 4265"
+    source_url: https://sunnah.com/bukhari:4261
+    people: [[muhammad, leader], [khalid-ibn-al-walid, participant]]
+    tags: [prophetic-era, battle, mutah, martyrdom, byzantine]
+    verified: true
+
+  - slug: battle-of-khaybar
+    category: battle
+    title_en: Battle of Khaybar
+    title_ar: غزوةُ خَيْبَر
+    title_fr: La bataille de Khaybar
+    description_en: |
+      The Muslim army marched on the fortified oasis of Khaybar, stronghold
+      of tribes that had plotted the confederate siege of Madinah. After the
+      successive capture of the fortresses, the Prophet ﷺ gave the banner on
+      the final day to Ali ibn Abi Talib, saying: "Tomorrow I will give the
+      standard to a man who loves Allah and His Messenger, and whom Allah and
+      His Messenger love. He will not turn back until Allah gives victory
+      through his hands." Ali captured the fortress of al-Qamus by that
+      evening. The event produced the famous hadith of love for Ali's
+      character.
+    description_ar: |
+      سار جيشُ المسلمين إلى واحة خَيْبَر المحصَّنة، معقلِ القبائل التي
+      دبَّرت غزوةَ الأحزاب على المدينة. وبعد فتح الحصون تباعاً، أعطى
+      النبيُّ ﷺ الرايةَ في اليوم الأخير لعليِّ بن أبي طالب، وقال:
+      «لأعطيَنَّ الرايةَ غداً رجلاً يحبُّ الله ورسوله ويحبُّه الله
+      ورسولُه، لا يرجع حتى يفتح الله على يديه». ففتح عليٌّ حِصنَ
+      القَموص في ذلك المساء. وفي هذه الغزوة جاء الحديثُ المشهورُ في
+      فضل عليٍّ رضي الله عنه.
+    description_fr: |
+      L'armée musulmane marcha sur l'oasis fortifiée de Khaybar,
+      bastion des tribus qui avaient comploté le siège des coalisés
+      sur Médine. Après la prise successive des forteresses, le
+      Prophète ﷺ remit l'étendard, le dernier jour, à ʿAlī ibn Abī
+      Ṭālib, en disant : « Demain, je donnerai l'étendard à un homme
+      qui aime Allāh et Son Messager, et qu'Allāh et Son Messager
+      aiment. Il ne reculera pas jusqu'à ce qu'Allāh accorde la
+      victoire par ses mains. » ʿAlī s'empara de la forteresse
+      d'al-Qamūṣ ce soir-là. Cet événement donna lieu au célèbre
+      hadith authentique sur l'amour porté à ʿAlī.
+    canonical_hijri: {year: 7, month: 1, precision: month}
+    canonical_gregorian: {date: 628-05-15, precision: month, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Sahih al-Bukhari 2942 (Kitab al-Jihad) — banner-of-Khaybar hadith."
+        is_canonical: true
+      - source_key: muslim_sahih
+        notes: "Sahih Muslim 2406 — parallel narration."
+      - source_key: ibn_hisham_sira
+    hadith_refs: "Bukhari 2942, Muslim 2406"
+    source_url: https://sunnah.com/bukhari:2942
+    people: [[muhammad, leader], [ali-ibn-abi-talib, participant]]
+    tags: [prophetic-era, battle, khaybar, ali]
+    verified: true
+
+  - slug: battle-of-hunayn
+    category: battle
+    title_en: Battle of Hunayn
+    title_ar: غزوة حنين
+    description_en: |
+      Two weeks after the conquest of Makkah, the Prophet ﷺ led twelve
+      thousand Muslims — the largest force yet assembled — against the
+      Hawazin and Thaqif tribes at the valley of Hunayn. The Muslim army was
+      initially routed by a surprise ambush. The Prophet ﷺ stood firm with a
+      small group of Ansar, called the Muslims back by calling out, "To me,
+      O servants of Allah! I am the Messenger of Allah, I am Muhammad ibn
+      Abdullah," and turned the battle into a decisive victory. Surah
+      al-Tawba 9:25-26 describes this reversal.
+    canonical_hijri: {year: 8, month: 10, day: 10, precision: day}
+    canonical_gregorian: {date: 630-01-31, precision: day, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Narrations on the initial retreat and the Prophet's ﷺ stand."
+        is_canonical: true
+      - source_key: ibn_hisham_sira
+      - source_key: quran
+        notes: "Surah al-Tawba 9:25-26."
+    people: [[muhammad, leader]]
+    tags: [prophetic-era, battle, hunayn, shawwal, quran-referenced]
+    verified: true
+
+  - slug: expedition-of-tabuk
+    category: prophetic_era
+    title_en: Expedition of Tabuk
+    title_ar: غزوة تبوك
+    description_en: |
+      The last expedition led personally by the Prophet ﷺ. Responding to
+      reports of Byzantine preparations for an attack on northern Arabia, he
+      marched a Muslim army of thirty thousand across the desert in the
+      extreme heat of summer to Tabuk. No battle took place — the Byzantine
+      forces dispersed — but the Prophet ﷺ received the submission of several
+      frontier towns and returned without loss. The story of the three
+      Companions, including Ka'b ibn Malik, who failed to join the expedition
+      and were boycotted until Allah accepted their repentance is recorded in
+      Surah al-Tawba 9:118 and narrated at length by Ka'b himself in Sahih
+      al-Bukhari.
+    canonical_hijri: {year: 9, month: 7, precision: month}
+    canonical_gregorian: {date: 630-10-15, precision: month, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Kitab al-Maghazi — the hadith of Ka'b ibn Malik."
+        is_canonical: true
+      - source_key: ibn_hisham_sira
+      - source_key: quran
+        notes: "Surah al-Tawba 9:117-118."
+    people: [[muhammad, leader]]
+    tags: [prophetic-era, expedition, tabuk, rajab, quran-referenced]
+    verified: true

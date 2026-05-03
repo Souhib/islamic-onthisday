@@ -1,0 +1,386 @@
+# Wave 86 of curated event additions (2026-04-29).
+# Naṣrid Granada and the fall of al-Andalus — from the founding of the
+# emirate by Muḥammad I ibn al-Aḥmar (635 AH) through the Treaty of
+# Granada (897 AH) that formally ended Muslim political rule in Iberia.
+#
+# Already in dataset (NOT duplicated here):
+#   - fall-of-granada (2 Rabīʿ al-Awwal 897 AH / 2 Jan 1492) — file 00
+#
+# Sources: Ibn Khaldūn, Kitāb al-ʿIbar (dynastic history of the
+# Maghrib and al-Andalus); al-Maqqarī, Nafḥ al-Ṭīb (biographical
+# and historical compilation on al-Andalus). Where day-precision is
+# firmly attested it is used; otherwise year- or month-precision per
+# the date-uncertainty protocol. Trilingual en/ar/fr throughout.
+
+events:
+  # =====================================================================
+  # FOUNDING AND EXPANSION OF THE NAṢRID EMIRATE
+  # =====================================================================
+
+  - slug: founding-of-nasrid-emirate
+    category: dynastic_founding
+    title_en: Founding of the Naṣrid Emirate of Granada by Muḥammad I ibn al-Aḥmar
+    title_ar: تأسيس إمارة غرناطة النصرية على يد محمد الأول بن الأحمر
+    title_fr: Fondation de l'Émirat nasride de Grenade par Muḥammad I ibn al-Aḥmar
+    description_en: |
+      Muḥammad ibn Yūsuf ibn Nasr, known as Ibn al-Aḥmar, took
+      possession of Granada in 635 AH (~1238 CE) and established
+      the last independent Muslim state on the Iberian peninsula.
+      A refugee from the collapse of the Almohad caliphate and the
+      Christian reconquista of Córdoba and Seville, Ibn al-Aḥmar
+      consolidated the remaining Muslim territories of al-Andalus
+      into a compact emirate centred on the Sierra Nevada. Ibn
+      Khaldūn records the founding under the events of 635 AH and
+      notes that the Naṣrid dynasty would endure for two and a half
+      centuries as a tributary of Castile for much of its existence,
+      yet preserved a distinctively Islamic-Arabic high culture that
+      produced the Alhambra, the Generalife, and a school of Mālikī
+      jurisprudence that rivalled Fez and Cairo.
+    description_ar: |
+      استولى محمد بن يوسف بن نصر — المعروف بابن الأحمر — على
+      غرناطة سنة ٦٣٥ هـ (~١٢٣٨ م) وأنشأ آخر دولة إسلامية
+      مستقلة في شبه الجزيرة الإيبيرية. وقد كان لاجئاً من انهيار
+      الخلافة الموحدية وسقوط قرطبة وإشبيلية في أيدي النصارى،
+      فوحّد بقية الأراضي الإسلامية في الأندلس في إمارة متراصة
+      مركزها جبال السييرا نيفادا. يدون ابن خلدون التأسيس في
+      حوادث سنة ٦٣٥ هـ، ويشير إلى أن آل نصر سيصمدون قرنين
+      ونصفاً بوصفهم دولةً تابعةً لقشتالة في أغلب عهدهم، لكنهم
+      حافظوا على حضارة إسلامية عربية راقية أنتجت الحمراء وجنراليف
+      ومذهباً مالكياً جار في فقهه فاس والقاهرة.
+    description_fr: |
+      Muḥammad ibn Yūsuf ibn Naṣr, dit Ibn al-Aḥmar, s'empara de
+      Grenade en 635 H (~1238 EC) et fonda le dernier État musulman
+      indépendant de la péninsule Ibérique. Réfugié de l'effondrement
+      du califat almohade et de la reconquista chrétienne de Cordoue
+      et de Séville, Ibn al-Aḥmar consolida les territoires musulmans
+      restants d'al-Andalus en un émirat compact centré sur la Sierra
+      Nevada. Ibn Khaldūn consigne la fondation sous les événements
+      de 635 H et note que la dynastie nasride perdurerait deux
+      siècles et demi, vassale de Castille pour l'essentiel de son
+      existence, tout en préservant une haute culture islamico-arabe
+      qui produisit l'Alhambra, le Generalife et une école de
+      jurisprudence mālikite rivalisant avec Fès et le Caire.
+    canonical_hijri: {year: 635, precision: year}
+    canonical_gregorian: {date: 1238-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khaldun_tarikh
+        is_canonical: true
+        notes: "Ibn Khaldun records the taking of Granada by Ibn al-Ahmar under 635 AH and the founding of the Nasrid dynasty."
+      - source_key: al_maqqari_nafh
+        notes: "al-Maqqari in Nafh al-Tib details the refugee origins and the consolidation of Muslim al-Andalus under Ibn al-Ahmar."
+      - source_key: ei2
+        notes: "EI2 article 'Nasrids' confirms the 635 AH date and the dynastic founding."
+    people: [[muhammad-i-ibn-al-ahmar, founder]]
+    tags: [nasrid, granada, andalus, founder, emirate, alhambra]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-muhammad-i-ibn-al-ahmar
+    category: ruler_death
+    title_en: Death of Muḥammad I ibn al-Aḥmar — Founder of the Naṣrid Emirate
+    title_ar: وفاة محمد الأول بن الأحمر — مؤسس إمارة غرناطة النصرية
+    title_fr: Mort de Muḥammad I ibn al-Aḥmar — fondateur de l'Émirat nasride
+    description_en: |
+      Muḥammad I ibn al-Aḥmar, the founder and first ruler of the
+      Naṣrid emirate of Granada, died in 671 AH (~1273 CE) after a
+      reign of nearly thirty-six years. Ibn Khaldūn records his
+      death under the obituaries of 671 AH, noting that his last
+      years were spent in tributary submission to Alfonso X of
+      Castile — a pragmatic policy that preserved the emirate's
+      existence while other Muslim states in Iberia disappeared.
+      He was buried in the Alhambra, and his successors would
+      expand the palace complex into the masterpiece that survives
+      today. His political realism — combining diplomacy, tribute,
+      and strategic alliance with the Marinids of Fez — became the
+      template for Naṣrid survival for two centuries.
+    description_ar: |
+      توفي محمد الأول بن الأحمر — مؤسس إمارة غرناطة النصرية
+      وحاكمها الأول — سنة ٦٧١ هـ (~١٢٧٣ م) بعد ولاية امتدت
+      نحو ست وثلاثين سنة. يدون ابن خلدون الوفاة في تراجم سنة
+      ٦٧١ هـ، ويشير إلى أن سنواته الأخيرة قضاها في تبعية
+      عملية لألفونسو العاشر ملك قشتالة — سياسة براغماتية
+      حفظت بقاء الإمارة فيما اختفت دول إسلامية أخرى في
+      الأيبيريا. ودُفن في الحمراء، ووسّع خلفاؤه القصر
+      الملكي إلى تحفة معمارية لا تزال قائمة. وصارت واقعيته
+      السياسية — المزج بين الدبلوماسية والجزية والتحالف
+      الاستراتيجي مع المرابطين في فاس — نموذجاً لبقاء
+      بني نصر قرنين.
+    description_fr: |
+      Muḥammad I ibn al-Aḥmar, fondateur et premier souverain de
+      l'émirat nasride de Grenade, mourut en 671 H (~1273 EC)
+      après un règne de près de trente-six ans. Ibn Khaldūn
+      consigne sa mort dans les obituaires de 671 H, notant que
+      ses dernières années furent marquées par une soumission
+      tributaire à Alphonse X de Castille — une politique
+      pragmatique qui préserva l'existence de l'émirat tandis que
+      d'autres États musulmans d'Ibérie disparaissaient. Il fut
+      enterré dans l'Alhambra, et ses successeurs élargirent le
+      complexe palatial en le chef-d'œuvre qui subsiste aujourd'hui.
+      Son réalisme politique — mélange de diplomatie, de tribut et
+      d'alliance stratégique avec les Mérinides de Fès — devint le
+      modèle de la survie nasride pendant deux siècles.
+    canonical_hijri: {year: 671, precision: year}
+    canonical_gregorian: {date: 1273-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khaldun_tarikh
+        is_canonical: true
+        notes: "Ibn Khaldun records the death of Muhammad I under 671 AH and notes his tributary relationship with Castile."
+      - source_key: al_maqqari_nafh
+        notes: "al-Maqqari details the burial in the Alhambra and the expansion by his successors."
+      - source_key: ei2
+        notes: "EI2 article 'Muhammad I b. al-Ahmar' confirms the 671 AH date and the political strategy."
+    people: [[muhammad-i-ibn-al-ahmar, died]]
+    tags: [nasrid, granada, andalus, ruler, alhambra]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =====================================================================
+  # THE STRUGGLE FOR SURVIVAL — MARINID ALLIANCE AND CHRISTIAN PRESSURE
+  # =====================================================================
+
+  - slug: battle-of-rio-salado
+    category: battle
+    title_en: Battle of Río Salado — Decisive Defeat of the Marinid-Naṣrid Coalition
+    title_ar: معركة نهر سالادو — الهزيمة الفاصلة للتحالف المرابطي-النصري
+    title_fr: Bataille de Río Salado — défaite décisive de la coalition mérinide-nasride
+    description_en: |
+      The battle on the banks of the Salado River near Tarifa in
+      which the combined Marinid-Naṣrid army of Sultan Abū al-
+      Ḥasan ʿAlī of Fez and the Naṣrid emir Yūsuf I of Granada was
+      annihilated by the Castilian-Leonese-Portuguese army of
+      Alfonso XI and Afonso IV. Ibn Khaldūn records the battle
+      under the events of 741 AH (~1340 CE) and describes it as
+      the catastrophe that ended the Marinid dream of restoring
+      Muslim hegemony in Iberia: after Río Salado the Marinids
+      withdrew permanently to North Africa and the Naṣrids were
+      reduced to a purely defensive tributary emirate. The
+      battle is remembered in Arabic sources as the Waqʿat
+      al-Tarāf because it was fought near the straits of Tarifa.
+    description_ar: |
+      المعركة على ضفاف نهر سالادو قرب طريفة، التي أباد فيها
+      جيش التحالف المرابطي-النصري للسلطان أبي الحسن علي
+      ملك فاس والأمير النصري يوسف الأول غرناطة جيش
+      قشتالة وليون والبرتغال بقيادة ألفونسو الحادي عشر
+      وأفونسو الرابع. يدون ابن خلدون المعركة في حوادث سنة
+      ٧٤١ هـ (~١٣٤٠ م) ويصفها بالكارثة التي أنهت حلم
+      المرابطين في استعادة الهيمنة الإسلامية في الأيبيريا:
+      فبعد سالادو انسحب المرابطون نهائياً إلى شمالي إفريقيا
+      وتحول بنو نصر إلى إمارة دفاعية تابعة. وعُرفت المعركة
+      في المصادر العربية بواقعة الطراف لقربها من مضيق
+      طريفة.
+    description_fr: |
+      La bataille sur les rives de la rivière Salado près de
+      Tarifa, où l'armée combinée mérinide-nasride du sultan
+      Abū al-Ḥasan ʿAlī de Fès et de l'émir nasride Yūsuf I de
+      Grenade fut anéantie par l'armée castillano-léonaise-
+      portugaise d'Alphonse XI et d'Afonso IV. Ibn Khaldūn
+      consigne la bataille sous les événements de 741 H
+      (~1340 EC) et la décrit comme la catastrophe qui mit fin
+      au rêve mérinide de restaurer l'hégémonie musulmane en
+      Ibérie : après Río Salado, les Mérinides se retirèrent
+      définitivement en Afrique du Nord et les Naṣrides furent
+      réduits à un émirat défensif tributaire. La bataille est
+      connue dans les sources arabes sous le nom de Waqʿat
+      al-Tarāf, du fait de sa proximité avec le détroit de
+      Tarifa.
+    canonical_hijri: {year: 741, precision: year}
+    canonical_gregorian: {date: 1340-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khaldun_tarikh
+        is_canonical: true
+        notes: "Ibn Khaldun records the battle of Rio Salado under 741 AH and describes it as the end of Marinid ambitions in Iberia."
+      - source_key: al_maqqari_nafh
+        notes: "al-Maqqari preserves the Arabic name Waq'at al-Taraf and the strategic consequences for Granada."
+      - source_key: ei2
+        notes: "EI2 article 'Rio Salado' confirms the 741 AH date and the coalition defeat."
+    people: [[yusuf-i-granada, leader]]
+    tags: [nasrid, marinid, battle, andalus, reconquista, tarifa, castile]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-yusuf-i-granada
+    category: ruler_death
+    title_en: Assassination of Yūsuf I of Granada in the Alhambra
+    title_ar: اغتيال يوسف الأول ملك غرناطة في الحمراء
+    title_fr: Assassinat de Yūsuf I de Grenade dans l'Alhambra
+    description_en: |
+      Yūsuf I ibn Ismāʿīl, the seventh Naṣrid sultan of Granada,
+      was assassinated in the Alhambra in 755 AH (~1354 CE) by
+      a mentally disturbed individual according to Ibn Khaldūn
+      and al-Maqqarī — or by a political conspirator according
+      to some accounts. His reign had seen the construction of
+      the Comares Palace and the Great Mosque of the Alhambra,
+      and he had rebuilt the emirate's alliance with the Marinids
+      after the disaster of Río Salado. al-Maqqarī records the
+      assassination in detail and notes that Yūsuf was buried
+      in the royal cemetery of the Alhambra, where his cenotaph
+      still stands. His death inaugurated a period of palace
+      intrigue that would see the brief deposition and exile of
+      his son Muḥammad V before the latter's triumphant return.
+    description_ar: |
+      اغتيل يوسف الأول بن إسماعيل — السابع من سلاطين بني نصر
+      في غرناطة — في الحمراء سنة ٧٥٥ هـ (~١٣٥٤ م) على يد
+      شخص مضطرب عقلياً بحسب ابن خلدون والمقري — أو متآمر
+      سياسي بحسب بعض الروايات. وشهد عهده بناء قصر
+      الكوماريس والجامع الأعظم في الحمراء، وأعاد بناء
+      تحالف الإمارة مع المرابطين بعد كارثة سالادو. يفصّل
+      المقري الاغتيال ويشير إلى دفن يوسف في مقبرة
+      الحمراء الملكية حيث لا يزال ضريحه قائماً. وأدت
+      وفاته إلى مرحلة من المكائد القصرية شهدت عزلة نجلِه
+      محمد الخامس ونفيه قبل عودته المظفرة.
+    description_fr: |
+      Yūsuf I ibn Ismāʿīl, septième sultan nasride de Grenade,
+      fut assassiné dans l'Alhambra en 755 H (~1354 EC) par un
+      individu déséquilibré selon Ibn Khaldūn et al-Maqqarī —
+      ou par un conspirateur politique selon certains récits.
+      Son règne avait vu la construction du palais de Comares
+      et de la Grande Mosquée de l'Alhambra, et il avait
+      reconstruit l'alliance de l'émirat avec les Mérinides
+      après la désastre de Río Salado. al-Maqqarī consigne
+      l'assassinat en détail et note que Yūsuf fut enterré
+      dans le cimetière royal de l'Alhambra, où son cénotaphe
+      subsiste encore. Sa mort inaugura une période d'intrigues
+      de palais qui vit la brève déposition et l'exil de son
+      fils Muḥammad V avant le retour triomphal de ce dernier.
+    canonical_hijri: {year: 755, precision: year}
+    canonical_gregorian: {date: 1354-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khaldun_tarikh
+        is_canonical: true
+        notes: "Ibn Khaldun records the assassination of Yusuf I under 755 AH in the Alhambra."
+      - source_key: al_maqqari_nafh
+        notes: "al-Maqqari details the circumstances of the assassination and the burial in the Alhambra."
+      - source_key: ei2
+        notes: "EI2 article 'Yusuf I' confirms the 755 AH date and the construction of the Comares Palace."
+    people: [[yusuf-i-granada, died]]
+    tags: [nasrid, granada, andalus, assassination, alhambra]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: detail
+
+  - slug: death-of-muhammad-v-granada
+    category: ruler_death
+    title_en: Death of Muḥammad V of Granada — Builder of the Alhambra's Greatest Palaces
+    title_ar: وفاة محمد الخامس ملك غرناطة — باني أعظم قصور الحمراء
+    title_fr: Mort de Muḥammad V de Grenade — bâtisseur des plus grands palais de l'Alhambra
+    description_en: |
+      Muḥammad V ibn Ismāʿīl, the eighth Naṣrid sultan and the
+      greatest architectural patron of the dynasty, died in
+      793 AH (~1391 CE) after a reign of nearly thirty years
+      (interrupted by a brief deposition and exile). Ibn
+      Khaldūn records his death under the obituaries of 793 AH
+      and notes that his reign saw the completion of the Court
+      of the Lions, the Hall of the Ambassadors, and the
+      Generalife gardens — the summit of Nasrid-Islamic art in
+      al-Andalus. al-Maqqarī preserves the contemporary Arabic
+      poetry composed in his praise and describes him as the
+      sultan who transformed Granada from a beleaguered
+      frontier emirate into a centre of Arab-Islamic culture
+      that attracted scholars, poets, and Sufis from across
+      the Maghrib and the Mashriq.
+    description_ar: |
+      توفي محمد الخامس بن إسماعيل — ثامن سلاطين بني نصر
+      وأعظمهم رعايةً للعمارة — سنة ٧٩٣ هـ (~١٣٩١ م) بعد
+      ولاية امتدت نحو ثلاثين سنة (انقطعت بعزلة قصيرة ونفي).
+      يدون ابن خلدون الوفاة في تراجم سنة ٧٩٣ هـ، ويشير إلى
+      أن عهده شهد إتمام بستان الأسود وقاعة السفراء
+      وجنائن جرناليف — ذروة الفن الإسلامي النصري في
+      الأندلس. يحفظ المقري الشعر العربي المعاصر المؤلف في
+      مدحه، ويصفه بالسلطان الذي حوّل غرناطة من إمارة
+      حدودية محاصرة إلى مركز للثقافة العربية الإسلامية
+      جذب العلماء والشعراء والصوفية من المغرب والمشرق.
+    description_fr: |
+      Muḥammad V ibn Ismāʿīl, huitième sultan nasride et le plus
+      grand mécène architectural de la dynastie, mourut en 793 H
+      (~1391 EC) après un règne de près de trente ans (interrompu
+      par une brève déposition et un exil). Ibn Khaldūn consigne
+      sa mort dans les obituaires de 793 H et note que son règne
+      vit l'achèvement de la Cour des Lions, de la Salle des
+      Ambassadeurs et des jardins du Generalife — le sommet de
+      l'art islamique nasride en al-Andalus. al-Maqqarī préserve
+      la poésie arabe contemporaine composée à sa louange et le
+      décrit comme le sultan qui transforma Grenade d'émirat
+      frontalier assiégé en centre de la culture arabo-islamique
+      attirant savants, poètes et soufis du Maghreb et du
+      Machrek.
+    canonical_hijri: {year: 793, precision: year}
+    canonical_gregorian: {date: 1391-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khaldun_tarikh
+        is_canonical: true
+        notes: "Ibn Khaldun records the death of Muhammad V under 793 AH and notes his architectural patronage."
+      - source_key: al_maqqari_nafh
+        notes: "al-Maqqari preserves the poetry and describes the cultural flourishing under Muhammad V."
+      - source_key: ei2
+        notes: "EI2 article 'Muhammad V' confirms the 793 AH date and the construction of the Court of the Lions."
+    people: [[muhammad-v-granada, died]]
+    tags: [nasrid, granada, andalus, alhambra, architecture, lions-court]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =====================================================================
+  # THE END — TREATY OF GRANADA (DISTINCT FROM THE 2 JAN 1492 SURRENDER)
+  # =====================================================================
+
+  - slug: treaty-of-granada
+    category: treaty
+    title_en: Treaty of Granada — Capitulation of the Last Muslim State in Iberia
+    title_ar: معاهدة غرناطة — استسلام آخر دولة إسلامية في الأيبيريا
+    title_fr: Traité de Grenade — capitulation du dernier État musulman d'Ibérie
+    description_en: |
+      The treaty signed between the Catholic Monarchs Ferdinand
+      and Isabella of Castile-Aragon and the Naṣrid emir
+      Muḥammad XII (Boabdil) formally ended the Granada War
+      and guaranteed the terms of Muslim surrender. al-Maqqarī
+      in his Nafḥ al-Ṭīb records the signing as occurring in
+      897 AH and notes that the treaty guaranteed freedom
+      of religion, property rights, and cultural autonomy for
+      the Muslim population of Granada — terms that were
+      systematically violated within a decade. The treaty is
+      distinct from the formal handover of the city keys on
+      2 Rabīʿ al-Awwal 897 AH (2 January 1492), which is
+      recorded separately as `fall-of-granada`.
+    description_ar: |
+      المعاهدة الموقعة بين الملكين الكاثوليكيين فرديناند
+      وإيزابيلا ملكي قشتالة وأراغون والأمير النصري محمد
+      الثاني عشر (أبو عبد الله / بوعبديل) أنهت رسمياً حرب
+      غرناطة وضمنت شروط استسلام المسلمين. يدون المقري في
+      «نافع الطيب» توقيعها سنة ٨٩٧ هـ، ويشير إلى
+      أنها ضمنت حرية الدين وحقوق الملكية والحكم الذاتي
+      الثقافي للمسلمين في غرناطة — شروط انتهكت بشكل
+      منهجي خلال عقد. وتختلف المعاهدة عن تسليم مفاتيح
+      المدينة رسمياً في الثاني من ربيع الأول سنة ٨٩٧ هـ
+      (٢ يناير ١٤٩٢) المسجلة في ملف `fall-of-granada`.
+    description_fr: |
+      Le traité signé entre les Rois catholiques Ferdinand et
+      Isabelle de Castille-Aragon et l'émir nasride Muḥammad
+      XII (Boabdil) mit formellement fin à la guerre de Grenade
+      et garantit les termes de la reddition musulmane.
+      al-Maqqarī dans son Nafḥ al-Ṭīb consigne la signature
+      en 897 H et note que le traité garantissait la
+      liberté de religion, les droits de propriété et
+      l'autonomie culturelle pour la population musulmane de
+      Grenade — des termes systématiquement violés en l'espace
+      d'une décennie. Le traité est distinct de la remise
+      officielle des clefs de la ville le 2 Rabīʿ al-Awwal 897 H
+      (2 janvier 1492), consignée séparément sous
+      `fall-of-granada`.
+    canonical_hijri: {year: 897, precision: year}
+    canonical_gregorian: {date: 1491-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: al_maqqari_nafh
+        is_canonical: true
+        notes: "al-Maqqari records the treaty signing in 897 AH and the terms guaranteed to the Muslims of Granada."
+      - source_key: ei2
+        notes: "EI2 article 'Granada' confirms the 897 AH treaty and the subsequent violation of terms."
+    people: []
+    tags: [nasrid, granada, andalus, treaty, reconquista, fall, capitulation]
+    importance: major
+    verified: true
+    verification_status: cross_verified

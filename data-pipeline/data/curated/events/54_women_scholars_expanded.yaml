@@ -1,0 +1,775 @@
+# Wave 54 of curated event additions (2026-04-27).
+# Notable Muslim women scholars beyond the Mothers of the Believers and
+# beyond the sahabiyat (already covered in waves 7 and 29). This file
+# fills out the post-Companion line of female muḥadditha, faqīhāt,
+# calligraphers, and ʿālimāt across the central Islamic lands and the
+# wider Muslim world: from Sutayta al-Maḥāmilī (mathematician of late
+# 4th-AH-century Baghdad) and Asmāʾ bint Asad ibn al-Furāt of Mālikī
+# Qayrawān, through the great trans-regional muḥadditha of the 5th–7th
+# AH centuries — Karīma al-Marwaziyya of Mecca (whose recension of
+# Bukhārī's *Ṣaḥīḥ* dominates later transmission), Shuhda al-Kātiba of
+# Baghdad, Zaynab al-Shaʿriyya of Nishapur, Zaynab bint Makkī of
+# Damascus (Ibn Taymiyya's teacher), Maryam al-Ṣāliḥiyya of Mt Qāsiyūn,
+# Sittī al-Wuzarāʾ al-Tanūkhiyya — to the late-Mamluk Maryam al-
+# Ādhurbayjāniyya, the Egyptian Umm Hāniʾ al-ʿAbdarī, and the Mughal
+# scholar-poet Bāyī Khānum of Akbar's circle. Cross-verification leans
+# on Ibn Khallikān (where the figure predates 681 AH), al-Dhahabī's
+# Siyar / Tārīkh al-Islām, Ibn Kathīr's Bidāya, and Ibn Ḥajar's *Durar
+# al-Kāmina* (the principal classical biographical dictionary of the
+# 8th AH century, where many of these women's notices survive).
+# Ibn al-ʿImād's *Shadharāt al-Dhahab* fills the late-Mamluk gap.
+# Trilingual en/ar/fr throughout. No hadith refs (no specific
+# narration anchors a biographical death-notice). Date precision
+# strictly year-only unless a classical source attests the day.
+
+events:
+  # =========================================================================
+  # 4th–5th CENTURY AH — EARLY POST-COMPANION FEMALE LEARNING
+  # =========================================================================
+
+  - slug: death-of-sutayta-al-mahamili
+    category: scholar_death
+    title_en: Death of Sutayta al-Maḥāmilī — Jurist and Mathematician of Baghdad
+    title_ar: وفاة ستيتة بنت المحاملي — فقيهةُ بغداد ومحسوبةُ الفرائض
+    title_fr: Mort de Sutayta al-Maḥāmilī — juriste et mathématicienne de Bagdad
+    description_en: |
+      Sutayta bint al-Ḥusayn ibn Ismāʿīl al-Maḥāmilī al-Baghdādiyya
+      — daughter of the prominent Shāfiʿī judge and ḥadīth scholar
+      Abū ʿAbd Allāh al-Maḥāmilī (d. 330 AH) and remembered as one
+      of the most learned women of late ʿAbbāsid Baghdad — died in
+      377 AH (987 CE). Trained by her father and by leading
+      Baghdadi traditionists, she mastered Shāfiʿī fiqh, the
+      arithmetic of the Islamic inheritance shares (*ʿilm al-
+      farāʾiḍ*) and Arabic literature; al-Khaṭīb al-Baghdādī
+      preserves the report that Baghdadi notables consulted her
+      on inheritance computations and that she contributed novel
+      solutions to standard problems. Al-Dhahabī notices her in
+      the *Siyar* among the wafayāt of 377 and praises her piety
+      and intellect; we follow his year as the standard report.
+    description_ar: |
+      توفيت ستيتة بنت الحسين بن إسماعيل المحامليِّ البغداديةِ
+      — ابنةُ القاضي الشافعيِّ المحدِّث أبي عبد الله المحامليِّ
+      المتوفى سنة ٣٣٠ هـ، ومن أعلم نساء أواخر العصر العباسي
+      ببغداد — سنة سبع وسبعين وثلاثمئة للهجرة (الموافق ٩٨٧ م).
+      تتلمذت على أبيها وعلى كبار محدِّثي بغداد، فأتقنت الفقه
+      الشافعيَّ وحساب الفرائض والأدبَ العربيَّ. وقد حفظ الخطيبُ
+      البغداديُّ في «تاريخ بغداد» أنَّ أعيان أهل العاصمة كانوا
+      يستفتونها في المسائل الحسابية للمواريث، وأنَّها أتت في
+      الفرائض بحلولٍ جديدة على مشكلاتها المعهودة. ذكرها الذهبيُّ
+      في «السير» ضمن وفيات سنة ٣٧٧ وأثنى على ديانتها وعلمها؛
+      ونحن نتبع سنته بوصفها الرواية المعتمدة.
+    description_fr: |
+      Sutayta bint al-Ḥusayn ibn Ismāʿīl al-Maḥāmilī al-Baghdādiyya
+      — fille du juge shāfiʿite et traditionniste Abū ʿAbd Allāh
+      al-Maḥāmilī (m. 330 H) et tenue pour l'une des femmes les
+      plus savantes du Bagdad ʿabbāside tardif — mourut en 377 H
+      (987 EC). Formée par son père et par les principaux
+      traditionnistes bagdadiens, elle maîtrisait le fiqh shāfiʿite,
+      l'arithmétique des parts coraniques d'héritage (*ʿilm al-
+      farāʾiḍ*) et la littérature arabe ; al-Khaṭīb al-Baghdādī
+      rapporte que les notables de la capitale la consultaient
+      sur les calculs successoraux et qu'elle apporta des solutions
+      nouvelles à des problèmes standard. Al-Dhahabī la mentionne
+      dans les *Siyar* parmi les wafayāt de 377 et loue sa piété
+      et son intellect ; nous retenons son année comme rapport
+      standard.
+    canonical_hijri: {year: 377, precision: year}
+    canonical_gregorian: {date: 987-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Wafayāt notice for 377 AH; daughter of al-Maḥāmilī, expert in fiqh and farāʾiḍ."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 377 AH wafayāt entry confirming her death."
+      - source_key: editorial
+        notes: "al-Khaṭīb al-Baghdādī, Tārīkh Baghdād, preserves the report on her farāʾiḍ expertise."
+    people: [[sutayta-al-mahamili, died]]
+    tags: [abbasid, scholar, jurist, mathematician, baghdad, fiqh, women-scholars, shafii]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-asma-bint-asad-ibn-al-furat
+    category: scholar_death
+    title_en: Death of Asmāʾ bint Asad ibn al-Furāt — Jurist of Mālikī Qayrawān
+    title_ar: وفاة أسماء بنت أسد بن الفرات — فقيهةُ القيروان المالكية
+    title_fr: Mort d'Asmāʾ bint Asad ibn al-Furāt — juriste de Qayrawān malikite
+    description_en: |
+      Asmāʾ bint Asad ibn al-Furāt — daughter of the conqueror of
+      Sicily Asad ibn al-Furāt (d. 213 AH), the Aghlabid qāḍī and
+      pupil of Mālik ibn Anas whose *Asadiyya* lies behind Saḥnūn's
+      *Mudawwana* — died in Qayrawān in the mid-third Islamic
+      century. Raised in the household of one of Mālikī fiqh's
+      formative authorities, she transmitted from her father and
+      was sought out by Qayrawānī women for instruction in fiqh
+      and adab. Qāḍī ʿIyāḍ in *Tartīb al-Madārik* and the
+      Mālikī biographical tradition preserve her notice as one
+      of the early female bearers of the Mālikī school in
+      Ifrīqiya; precise death year is not recorded in the
+      classical sources, so we anchor at c. 250 AH (864 CE) and
+      retain year-precision only.
+    description_ar: |
+      توفيت أسماءُ بنت أسد بن الفرات — ابنةُ فاتح صقلِّيَّةَ
+      أسدِ بن الفرات المتوفى سنة ٢١٣ هـ، قاضي الأغالبة وتلميذ
+      مالك بن أنس الذي تقوم «الأسديَّةُ» منه خلف «المدوَّنة»
+      السحنونيَّة — بالقيروان في منتصف القرن الثالث الهجري.
+      نشأت في بيت أحد مؤسِّسي الفقه المالكيِّ، فحدَّثت عن أبيها،
+      وقصدتها نساءُ القيروان لتعلُّم الفقه والأدب. حفظ القاضي
+      عياض في «ترتيب المدارك» والتراجمُ المالكية ترجمتها بوصفها
+      من أوائل نساء حملة المذهب المالكيِّ بإفريقية. لم تثبت في
+      المصادر الكلاسيكية سنةُ وفاتها بدقّة، فنرجِّحها نحو
+      ٢٥٠ هـ (٨٦٤ م) ونلتزم بدقة السنة لا غير.
+    description_fr: |
+      Asmāʾ bint Asad ibn al-Furāt — fille du conquérant de la
+      Sicile Asad ibn al-Furāt (m. 213 H), qāḍī aghlabide et
+      disciple de Mālik ibn Anas dont l'*Asadiyya* est à
+      l'arrière-plan de la *Mudawwana* de Saḥnūn — mourut à
+      Qayrawān au milieu du IIIe siècle de l'Hégire. Élevée
+      dans la maison de l'une des autorités formatrices du fiqh
+      mālikite, elle transmit de son père et fut consultée par
+      les femmes de Qayrawān pour l'enseignement du fiqh et de
+      l'adab. Qāḍī ʿIyāḍ dans son *Tartīb al-Madārik* et la
+      tradition biographique mālikite conservent sa notice
+      parmi les premières femmes porteuses du madhhab en
+      Ifrīqiya ; l'année précise du décès n'étant pas attestée
+      dans les sources classiques, nous l'ancrons vers 250 H
+      (864 EC) et nous nous limitons à la précision à l'année.
+    canonical_hijri: {year: 250, precision: year}
+    canonical_gregorian: {date: 864-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Approximate year (mid-3rd century AH) drawn from Qāḍī ʿIyāḍ's *Tartīb al-Madārik*; classical sources preserve her notice but no precise wafāt year."
+    people: [[asma-bint-asad-ibn-al-furat, died]]
+    tags: [aghlabid, scholar, jurist, qayrawan, ifriqiya, maliki, women-scholars]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-karima-al-marwaziyya
+    category: scholar_death
+    title_en: Death of Karīma al-Marwaziyya — Female Transmitter of Ṣaḥīḥ al-Bukhārī
+    title_ar: وفاة كريمة بنت أحمد المروزية — راويةُ صحيح البخاريِّ بمكة
+    title_fr: Mort de Karīma al-Marwaziyya — transmettrice du Ṣaḥīḥ d'al-Bukhārī
+    description_en: |
+      Karīma bint Aḥmad ibn Muḥammad al-Marwaziyya — Khurāsānian
+      muḥadditha who settled in Mecca for life and from whom an
+      entire generation of pilgrim-scholars from Andalus, the
+      Maghrib, Iraq, Egypt, and Khurāsān received Ṣaḥīḥ al-
+      Bukhārī through the recension of al-Kushmīhanī ← al-
+      Firabrī ← al-Bukhārī — died at Mecca in 463 AH (1071 CE).
+      Al-Dhahabī describes her in the *Siyar* as "one of the
+      Mothers" of the great audition-chains of the *Ṣaḥīḥ*; her
+      students include al-Khaṭīb al-Baghdādī, who heard her in
+      Mecca during his pilgrimage, and many of the figures who
+      brought the *Ṣaḥīḥ* westward into Andalus. She lived an
+      austere unmarried life in the Sacred Precinct, devoting
+      her years to teaching ḥadīth. Ibn Khallikān fixes her
+      death in 463 AH; Ibn Kathīr in the *Bidāya* records the
+      same year.
+    description_ar: |
+      توفيت كريمةُ بنتُ أحمدَ بن محمد المروزيةُ — محدِّثةُ
+      خراسان التي اختارت جوار البيت الحرام بمكة، وعن طريقها
+      تلقَّى جيلٌ كاملٌ من علماء الحاجِّ من الأندلس والمغرب
+      والعراق ومصر وخراسان «صحيحَ البخاريِّ» برواية الكشميهنيِّ
+      عن الفربريِّ عن البخاريِّ — بمكة سنة ثلاث وستين وأربعمئة
+      للهجرة (الموافق ١٠٧١ م). وصفها الذهبيُّ في «السير» بأنها
+      «من أمَّهات» إسناد سماع «الصحيح»؛ ومن تلامذتها الخطيبُ
+      البغداديُّ سمع منها بمكة في حجِّه، وكثيرٌ من الذين أدخلوا
+      «الصحيحَ» إلى الأندلس. عاشت زاهدةً عزباءَ في الحرم وقفاً
+      على تعليم الحديث. أثبت ابنُ خلكان وفاتها سنة ٤٦٣ هـ،
+      وعليه ابنُ كثير في «البداية».
+    description_fr: |
+      Karīma bint Aḥmad ibn Muḥammad al-Marwaziyya — muḥadditha
+      khurāsānienne qui s'établit à La Mecque pour le reste de
+      sa vie et auprès de qui une génération entière de
+      savants-pèlerins venus d'al-Andalus, du Maghreb, d'Irak,
+      d'Égypte et du Khurāsān reçut le Ṣaḥīḥ d'al-Bukhārī par
+      la recension d'al-Kushmīhanī ← al-Firabrī ← al-Bukhārī
+      — mourut à La Mecque en 463 H (1071 EC). Al-Dhahabī la
+      décrit dans les *Siyar* comme « l'une des mères » des
+      grandes chaînes d'audition du *Ṣaḥīḥ* ; parmi ses élèves
+      figurent al-Khaṭīb al-Baghdādī, qui la fréquenta lors de
+      son pèlerinage, et beaucoup de ceux qui portèrent le
+      *Ṣaḥīḥ* vers l'Occident andalou. Elle vécut célibataire
+      et ascétique dans l'enceinte sacrée, vouant ses années
+      à l'enseignement du hadith. Ibn Khallikān fixe son décès
+      en 463 H ; Ibn Kathīr dans la *Bidāya* note la même année.
+    canonical_hijri: {year: 463, precision: year}
+    canonical_gregorian: {date: 1071-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 463 AH at Mecca; central transmitter of the Ṣaḥīḥ via the Kushmīhanī recension."
+      - source_key: dhahabi_siyar
+        notes: "Praised as one of the foundational female chains for Ṣaḥīḥ al-Bukhārī."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year 463 AH wafayāt notice."
+    people: [[karima-al-marwaziyya, died]]
+    tags: [abbasid, seljuk, scholar, muhadditha, mecca, bukhari, women-scholars, isnad]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # 6th CENTURY AH — BAGHDAD AND NISHAPUR
+  # =========================================================================
+
+  - slug: death-of-shuhda-al-katiba
+    category: scholar_death
+    title_en: Death of Shuhda al-Kātiba — Fakhr al-Nisāʾ of Baghdad
+    title_ar: وفاة شهدة الكاتبة — فخر النساء ببغداد
+    title_fr: Mort de Shuhda al-Kātiba — Fakhr al-Nisāʾ de Bagdad
+    description_en: |
+      Shuhda bint Abī Naṣr Aḥmad ibn al-Faraj al-Ibrī al-Dīnawarī,
+      known as al-Kātiba ("the calligrapher") and styled Fakhr
+      al-Nisāʾ ("Pride of Women") — Baghdadi muḥadditha and
+      master of the Arabic scribal hand whose audience-sessions
+      under the great qubba of the Niẓāmiyya quarter were attended
+      by ḥadīth students from across the eastern Islamic lands —
+      died at Baghdad in Muḥarram 574 AH (June 1178 CE), having
+      lived close to a hundred lunar years. Married to the
+      ʿAbbāsid notable Thiqat al-Dawla Abū al-Ḥasan ibn al-
+      Anbārī, she received a long ijāza-chain from her father and
+      from the leading Baghdadi traditionists of the late fifth
+      century, becoming one of the principal women through whom
+      the late ʿAbbāsid generation transmitted classical ḥadīth.
+      Ibn Khallikān fixes her death year and place; al-Dhahabī
+      notices her in the *Siyar* with the wafayāt of 574.
+    description_ar: |
+      توفيت شهدةُ بنت أبي نصر أحمد بن الفرج الإبريِّ الدِّينَوريِّ،
+      المعروفة بالكاتبة، الملقَّبة بفخر النساء — محدِّثةُ بغداد
+      وإمامةُ الخطِّ العربيِّ التي كان مجلسُ سماعها تحت قُبَّة
+      المدرسة النظامية يقصده طلَّابُ الحديث من المشرق الإسلاميِّ
+      كلِّه — ببغداد في محرَّم سنة أربع وسبعين وخمسمئة للهجرة
+      (الموافق يونيو ١١٧٨ م)، وقد قاربت المئة من عمرها. تزوَّجت
+      بثقة الدولة أبي الحسن بن الأنباريِّ من أعيان الدولة
+      العباسية، وتلقَّت إجازاتٍ طويلة الإسناد عن أبيها وعن
+      كبار محدِّثي بغداد في أواخر القرن الخامس، فصارت من أهم
+      النساء اللواتي حمل الجيلُ المتأخِّر في العصر العباسي عن
+      طريقهنَّ روايةَ الحديث الكلاسيكية. أثبت ابن خلكان وفاتَها
+      سنةً ومكاناً؛ وذكرها الذهبيُّ في «السير» في وفيات ٥٧٤ هـ.
+    description_fr: |
+      Shuhda bint Abī Naṣr Aḥmad ibn al-Faraj al-Ibrī al-Dīnawarī,
+      dite al-Kātiba (« la calligraphe ») et titrée Fakhr al-
+      Nisāʾ (« Fierté des femmes ») — muḥadditha bagdadienne et
+      maître de l'écriture arabe dont les séances d'audition
+      sous la grande coupole du quartier niẓāmite étaient
+      fréquentées par des étudiants en hadith venus de tout
+      l'Orient islamique — mourut à Bagdad en muḥarram 574 H
+      (juin 1178 EC), ayant vécu près de cent années lunaires.
+      Mariée au notable ʿabbāside Thiqat al-Dawla Abū al-Ḥasan
+      ibn al-Anbārī, elle reçut une longue chaîne d'ijāzas de
+      son père et des principaux traditionnistes bagdadiens de
+      la fin du Ve siècle, devenant l'une des principales femmes
+      par qui la génération ʿabbāside tardive transmit le hadith
+      classique. Ibn Khallikān fixe son année et son lieu de
+      décès ; al-Dhahabī la mentionne dans les *Siyar* parmi
+      les wafayāt de 574.
+    canonical_hijri: {year: 574, precision: year}
+    canonical_gregorian: {date: 1178-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated Muḥarram 574 AH at Baghdad; Fakhr al-Nisāʾ titled, master calligrapher and muḥadditha."
+      - source_key: dhahabi_siyar
+        notes: "Notice in the Siyar among wafayāt of 574 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year 574 AH wafayāt notice in the Bidāya."
+    people: [[shuhda-al-katiba, died]]
+    tags: [abbasid, seljuk, scholar, muhadditha, calligraphy, baghdad, women-scholars]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-zaynab-al-shariyya
+    category: scholar_death
+    title_en: Death of Zaynab al-Shaʿriyya — Muḥadditha of Nishapur
+    title_ar: وفاة زينب الشعرية — محدِّثةُ نيسابور
+    title_fr: Mort de Zaynab al-Shaʿriyya — muḥadditha de Nishapur
+    description_en: |
+      Zaynab bint ʿAbd al-Raḥmān ibn al-Ḥasan al-Shaʿrī al-
+      Naysabūriyya — muḥadditha of late-Saljūq Nishapur whose
+      ijāza was sought by traveling ḥadīth students passing
+      through Khurāsān on their way to or from Baghdad and
+      Mecca — died in 615 AH (1218 CE) on the eve of the Mongol
+      catastrophe that would destroy her city. She heard from
+      ʿAbd al-Ghāfir al-Fārisī and the late-fifth-century
+      Naysabūrī chains, and her notebooks preserved high-isnād
+      copies of works that vanished a generation later. Al-
+      Dhahabī notices her in the *Siyar* among wafayāt of 615
+      and praises her uprightness and the breadth of her
+      audition-record.
+    description_ar: |
+      توفيت زينبُ بنت عبد الرحمن بن الحسن الشعريِّ النيسابوريَّةُ
+      — محدِّثةُ نيسابور في أواخر العصر السلجوقيِّ، التي كان
+      الرحَّالةُ من طلَّاب الحديث يقصدون إجازتها وهم في طريقهم
+      إلى بغداد ومكة أو منهما — سنة خمس عشرة وستمئة للهجرة
+      (الموافق ١٢١٨ م)، وذلك على عتبة النكبة المغولية التي
+      دمَّرت مدينتها. سمعت من عبد الغافر الفارسيِّ ومن أسانيد
+      نيسابور في أواخر القرن الخامس، وحفظت كرَّاساتها نسخاً
+      عاليةَ الإسناد لكتبٍ ضاعت بعدها بجيل. ذكرها الذهبيُّ في
+      «السير» في وفيات ٦١٥ هـ وأثنى على صلاحها وسعة سماعها.
+    description_fr: |
+      Zaynab bint ʿAbd al-Raḥmān ibn al-Ḥasan al-Shaʿrī al-
+      Naysabūriyya — muḥadditha de la Nishapur saljūqide
+      tardive dont l'ijāza était recherchée par les étudiants
+      itinérants en hadith passant par le Khurāsān en route
+      vers Bagdad et La Mecque ou en revenant — mourut en 615 H
+      (1218 EC), à la veille de la catastrophe mongole qui
+      détruirait sa ville. Elle entendit ʿAbd al-Ghāfir al-Fārisī
+      et les chaînes nishapuriennes de la fin du Ve siècle, et
+      ses cahiers conservaient des copies à isnād élevé d'œuvres
+      qui disparurent une génération plus tard. Al-Dhahabī la
+      mentionne dans les *Siyar* parmi les wafayāt de 615 et
+      loue sa droiture et l'ampleur de son répertoire
+      d'auditions.
+    canonical_hijri: {year: 615, precision: year}
+    canonical_gregorian: {date: 1218-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Wafayāt notice for 615 AH; Naysabūrī muḥadditha praised for her isnāds."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 615 AH wafayāt entry confirming her death."
+    people: [[zaynab-al-shariyya, died]]
+    tags: [seljuk, khwarazm, scholar, muhadditha, nishapur, khurasan, women-scholars]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # 7th CENTURY AH — DAMASCUS, THE GREAT FEMALE TRANSMITTERS
+  # =========================================================================
+
+  - slug: death-of-zaynab-bint-makki
+    category: scholar_death
+    title_en: Death of Zaynab bint Makkī — Damascene Muḥadditha and Teacher of Ibn Taymiyya
+    title_ar: وفاة زينب بنت مكي الحرّانية — شيخةُ ابن تيمية بدمشق
+    title_fr: Mort de Zaynab bint Makkī — muḥadditha de Damas, maîtresse d'Ibn Taymiyya
+    description_en: |
+      Zaynab bint Makkī ibn ʿAlī al-Ḥarrānī al-Dimashqiyya —
+      Damascene muḥadditha whose long life made her the *musnida*
+      of Syria in her old age, and whose audition-circle in the
+      Banū ʿAsākir quarter included the young Taqī al-Dīn Ibn
+      Taymiyya, the historian al-Birzālī, the imām al-Mizzī, and
+      al-Dhahabī himself, who later filled the *Siyar* with her
+      notice — died in Dhū al-Ḥijja 688 AH (December 1289 CE) at
+      Damascus, having reached approximately ninety-four lunar
+      years. Born in Ḥarrān around 595 AH, she heard from many
+      of the principal Damascene and Ḥarrānī shaykhs of the
+      early seventh century and held some of the highest ijāza-
+      chains in Syria when she died; her notebooks underlie the
+      sevent-century isnāds that Ibn Taymiyya cites in his fatāwā
+      and rasāʾil. Al-Dhahabī fixes her death in 688 AH and
+      praises her piety and probity at length.
+    description_ar: |
+      توفيت زينبُ بنت مكيِّ بن عليٍّ الحرَّانيَّةُ الدمشقيَّةُ
+      — محدِّثةُ دمشق التي بلغ بها العمرُ أن صارت مسندةَ
+      الشام، وكان مجلسُ سماعها بحارة بني عساكر يحضره الشابُّ
+      تقيُّ الدين ابنُ تيميَّةَ، والمؤرِّخُ البرزاليُّ، والمزِّيُّ
+      إمامُ الجرح والتعديل، والذهبيُّ نفسُه الذي سيُفصِّل
+      ترجمتَها لاحقاً في «السير» — في ذي الحجة سنة ثمان
+      وثمانين وستمئة للهجرة (الموافق ديسمبر ١٢٨٩ م) بدمشق،
+      وقد بلغت نحواً من أربع وتسعين سنة قمرية. وُلدت بحرَّان
+      نحو سنة ٥٩٥ هـ، وسمعت من كثيرٍ من شيوخ دمشق وحرَّان
+      في أوائل القرن السابع، وكانت إذ ماتت من أعلى الناس
+      إسناداً بالشام؛ وعن طريقها يأتي كثيرٌ من إسناد ابن
+      تيميَّةَ في فتاويه ورسائله إلى رجال القرن السابع. أثبت
+      الذهبيُّ وفاتَها سنة ٦٨٨ هـ وأطنب في الثناء على ديانتها
+      وأمانتها.
+    description_fr: |
+      Zaynab bint Makkī ibn ʿAlī al-Ḥarrānī al-Dimashqiyya —
+      muḥadditha damascène dont la longévité fit la *musnida*
+      de la Syrie au soir de sa vie, et dont le cercle
+      d'audition dans le quartier des Banū ʿAsākir comptait le
+      jeune Taqī al-Dīn Ibn Taymiyya, l'historien al-Birzālī,
+      l'imām al-Mizzī et al-Dhahabī lui-même, qui remplirait
+      plus tard les *Siyar* de sa notice — mourut en dhū al-
+      ḥijja 688 H (décembre 1289 EC) à Damas, ayant atteint
+      environ quatre-vingt-quatorze années lunaires. Née à
+      Ḥarrān vers 595 H, elle entendit nombre des principaux
+      shaykhs damascènes et ḥarrāniens du début du VIIe siècle
+      et détenait à sa mort certaines des chaînes d'ijāza les
+      plus élevées de Syrie ; c'est par elle que passent
+      beaucoup des isnāds du VIIe siècle que cite Ibn Taymiyya
+      dans ses fatwās et épîtres. Al-Dhahabī fixe son décès
+      en 688 H et fait son éloge longuement.
+    canonical_hijri: {year: 688, month: 12, precision: month}
+    canonical_gregorian: {date: 1289-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death dated Dhū al-Ḥijja 688 AH at Damascus; teacher of Ibn Taymiyya, al-Mizzī, al-Birzālī, and al-Dhahabī."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 688 AH wafayāt entry confirming the month and place."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya year 688 AH wafayāt notice; musnida of Syria."
+    people: [[zaynab-bint-makki, died]]
+    tags: [mamluk, scholar, muhadditha, damascus, harran, ibn-taymiyya, women-scholars, isnad]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-sitti-al-wuzara
+    category: scholar_death
+    title_en: Death of Sittī al-Wuzarāʾ — Damascene Muḥadditha
+    title_ar: وفاة ستِّ الوزراء التَّنوخية — محدِّثةُ دمشق
+    title_fr: Mort de Sittī al-Wuzarāʾ — muḥadditha de Damas
+    description_en: |
+      Sittī al-Wuzarāʾ bint ʿUmar ibn Asʿad al-Tanūkhiyya al-
+      Dimashqiyya — Damascene muḥadditha and one of the late-
+      seventh-century female *musnidāt* of Syria, who held a
+      direct samāʿ from Ibn al-Zabīdī of the *Ṣaḥīḥ* and was
+      sought out for ijāza by the Mamlūk-era ḥadīth scholars
+      of Damascus and Cairo — died at Damascus on 5 Dhū al-
+      Qaʿda 716 AH (19 January 1317 CE), aged about ninety-
+      two. She is one of the principal women in al-Dhahabī's
+      ʿulūʾ-isnād chains for the *Ṣaḥīḥ*. Ibn Ḥajar in *al-
+      Durar al-Kāmina* gives day and place precisely; al-
+      Dhahabī notices her in *Tārīkh al-Islām* with year 716,
+      and Ibn Kathīr in the *Bidāya* records the same.
+    description_ar: |
+      توفيت ستُّ الوزراء بنت عمر بن أسعد التنوخيَّةُ الدمشقيَّةُ
+      — محدِّثةُ دمشق ومن مسنِدات الشام في أواخر القرن السابع
+      الهجري، التي تحمل سماعَ «صحيح البخاري» مباشرةً عن ابن
+      الزَّبيديِّ، وكان أعلامُ الحديث في عصر المماليك بدمشق
+      والقاهرة يقصدون إجازتها — بدمشق في الخامس من ذي القعدة
+      سنة ست عشرة وسبعمئة للهجرة (الموافق ١٩ يناير ١٣١٧ م)،
+      عن نحو اثنتين وتسعين سنة. وهي من أهم النساء في إسناد
+      الذهبيِّ العالي لـ«الصحيح». ضبط ابنُ حجر في «الدرر
+      الكامنة» يومَ وفاتها ومكانَها بدقة؛ وذكرها الذهبيُّ في
+      «تاريخ الإسلام» في وفيات ٧١٦ هـ، وعليه ابنُ كثير في
+      «البداية».
+    description_fr: |
+      Sittī al-Wuzarāʾ bint ʿUmar ibn Asʿad al-Tanūkhiyya al-
+      Dimashqiyya — muḥadditha damascène et l'une des
+      *musnidāt* féminines de la fin du VIIe siècle de
+      l'Hégire en Syrie, qui détenait l'audition directe du
+      *Ṣaḥīḥ* d'al-Bukhārī auprès d'Ibn al-Zabīdī et dont les
+      savants mamlūks du hadith de Damas et du Caire
+      sollicitaient l'ijāza — mourut à Damas le 5 dhū al-
+      qaʿda 716 H (19 janvier 1317 EC), âgée d'environ quatre-
+      vingt-douze ans. Elle est l'une des principales femmes
+      des chaînes à isnād élevé d'al-Dhahabī pour le *Ṣaḥīḥ*.
+      Ibn Ḥajar dans *al-Durar al-Kāmina* donne le jour et le
+      lieu avec précision ; al-Dhahabī la mentionne dans
+      *Tārīkh al-Islām* à l'année 716, et Ibn Kathīr dans la
+      *Bidāya* note la même.
+    canonical_hijri: {year: 716, month: 11, day: 5, precision: day}
+    canonical_gregorian: {date: 1317-01-19, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Death dated 5 Dhū al-Qaʿda 716 AH at Damascus; samāʿ of the Ṣaḥīḥ from Ibn al-Zabīdī."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 716 AH wafayāt notice."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya year 716 AH wafayāt entry."
+    people: [[sitti-al-wuzara, died]]
+    tags: [mamluk, scholar, muhadditha, damascus, women-scholars, isnad, bukhari]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-maryam-al-salihiyya
+    category: scholar_death
+    title_en: Death of Maryam al-Ṣāliḥiyya — Fakhr al-Nisāʾ of Mt Qāsiyūn
+    title_ar: وفاة فخر النساء مريم بنت أحمد الصالحية — مسنِدةُ قاسيون
+    title_fr: Mort de Maryam al-Ṣāliḥiyya — Fakhr al-Nisāʾ du mont Qāsiyūn
+    description_en: |
+      Fakhr al-Nisāʾ Maryam bint Aḥmad ibn Muḥammad al-
+      Maqdisiyya al-Ṣāliḥiyya — Damascene muḥadditha settled
+      in the Ḥanbalī Maqdisī community on the slope of Mount
+      Qāsiyūn (al-Ṣāliḥiyya), one of the late-Mamlūk female
+      bearers of the family-isnād established by the
+      descendants of the Banū Qudāma — died at al-Ṣāliḥiyya
+      in 805 AH (1402 CE). She heard from the Maqdisī women
+      and men of the previous generation and gave ijāza to
+      the leading Damascene and Cairene ḥadīth students of
+      her time. Ibn Ḥajar in *al-Durar al-Kāmina* notices
+      her in the wafayāt of 805 AH; the entry shows the
+      transmission lineage.
+    description_ar: |
+      توفيت فخر النساء مريم بنت أحمد بن محمد المقدسيَّةُ
+      الصالحيَّةُ — محدِّثةُ دمشق المقيمةُ في الجماعة
+      الحنبليَّة المقدسيَّة بسفح جبل قاسيون (الصالحيَّة)، ومن
+      حملة إسناد آل قُدامة في النساء في أواخر العصر المملوكي
+      — بالصالحيَّة سنة خمس وثمانمئة للهجرة (الموافق ١٤٠٢ م).
+      سمعت من نساء المقادسة ورجالهم في الجيل الذي سبقها،
+      وأجازت أعلامَ الحديث في دمشق والقاهرة في عصرها. ذكرها
+      ابنُ حجر في «الدرر الكامنة» في وفيات ٨٠٥ هـ، ويظهر في
+      ترجمتها سندُ الرواية الأسريِّ.
+    description_fr: |
+      Fakhr al-Nisāʾ Maryam bint Aḥmad ibn Muḥammad al-
+      Maqdisiyya al-Ṣāliḥiyya — muḥadditha damascène établie
+      dans la communauté ḥanbalite maqdisite du flanc du mont
+      Qāsiyūn (al-Ṣāliḥiyya), l'une des porteuses féminines de
+      l'isnād familial constitué par les descendants des Banū
+      Qudāma à la fin de l'époque mamlūke — mourut à al-
+      Ṣāliḥiyya en 805 H (1402 EC). Elle entendit les femmes
+      et les hommes maqdisites de la génération précédente et
+      donna l'ijāza aux principaux étudiants de hadith
+      damascènes et cairotes de son temps. Ibn Ḥajar la
+      mentionne dans *al-Durar al-Kāmina* parmi les wafayāt
+      de 805 H ; sa notice montre la chaîne de transmission.
+    canonical_hijri: {year: 805, precision: year}
+    canonical_gregorian: {date: 1402-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Wafayāt notice for 805 AH; Maqdisī family-isnād transmitter at al-Ṣāliḥiyya."
+      - source_key: ibn_imad_shadharat
+        notes: "Year 805 AH entry confirming her death and lineage."
+    people: [[maryam-al-salihiyya, died]]
+    tags: [mamluk, scholar, muhadditha, damascus, salihiyya, hanbali, women-scholars]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-umm-al-khayr-al-hijaziyya
+    category: scholar_death
+    title_en: Death of Umm al-Khayr al-Ḥijāziyya — Damascene Muḥadditha
+    title_ar: وفاة أمِّ الخير الحجازيَّة — محدِّثة دمشق
+    title_fr: Mort d'Umm al-Khayr al-Ḥijāziyya — muḥadditha de Damas
+    description_en: |
+      Umm al-Khayr Saʿīda bint Aḥmad al-Dimashqiyya, known as
+      al-Ḥijāziyya for her long sojourn in the Sacred Precinct
+      where she received high-isnād samāʿ — Damascene muḥadditha
+      of the eighth Islamic century whose ijāza-chains were
+      sought by Mamlūk-era pilgrims and ḥadīth students who
+      crossed Syria on their way to or from Mecca — died at
+      Damascus in the eighth century AH. She held audition-
+      certificates from a number of the late-seventh-century
+      Damascene shaykhs and was, with Sittī al-Wuzarāʾ and
+      Maryam al-Ṣāliḥiyya, one of the women whose family
+      isnāds the late-Mamlūk muḥaddithūn relied on. Ibn Ḥajar
+      in *al-Durar al-Kāmina* preserves her notice; the
+      classical sources do not record a specific year, so we
+      anchor at c. 770 AH (1369 CE).
+    description_ar: |
+      توفيت أمُّ الخير سعيدةُ بنت أحمد الدمشقيَّةُ، الملقَّبةُ
+      بالحجازيَّة لطول إقامتها بالحرم الشريف وسماعها فيه
+      الإسنادَ العالي — محدِّثةُ دمشق في القرن الثامن الهجري،
+      التي كان حجَّاج الشام وطلَّاب الحديث في عصر المماليك
+      يلتمسون إجازتها وهم في طريقهم إلى مكة أو منها —
+      بدمشق في القرن الثامن الهجري. حملت أسانيد سماعٍ من
+      جملة من شيوخ دمشق في أواخر القرن السابع، وكانت مع
+      ستِّ الوزراء ومريم الصالحيَّة من النساء اللواتي اعتمد
+      عليهنَّ محدِّثو أواخر العصر المملوكي في إسناد الأسرة.
+      حفظ ابنُ حجر في «الدرر الكامنة» ترجمتَها؛ ولم تُذكر في
+      المصادر الكلاسيكية سنةُ الوفاة بدقَّة، فنرجِّحها نحو
+      ٧٧٠ هـ (١٣٦٩ م).
+    description_fr: |
+      Umm al-Khayr Saʿīda bint Aḥmad al-Dimashqiyya, dite
+      al-Ḥijāziyya en raison de son long séjour dans
+      l'enceinte sacrée où elle reçut un samāʿ à isnād élevé
+      — muḥadditha damascène du VIIIe siècle de l'Hégire dont
+      les chaînes d'ijāza étaient sollicitées par les pèlerins
+      mamlūks et les étudiants de hadith qui traversaient la
+      Syrie en route vers La Mecque ou en revenant — mourut à
+      Damas au VIIIe siècle de l'Hégire. Elle détenait des
+      certificats d'audition d'un certain nombre de shaykhs
+      damascènes de la fin du VIIe siècle et figurait, avec
+      Sittī al-Wuzarāʾ et Maryam al-Ṣāliḥiyya, parmi les femmes
+      dont les muḥaddithūn de la fin de l'époque mamlūke
+      tiraient les isnāds familiaux. Ibn Ḥajar dans *al-Durar
+      al-Kāmina* en conserve la notice ; les sources classiques
+      ne consignent pas d'année précise, et nous l'ancrons
+      vers 770 H (1369 EC).
+    canonical_hijri: {year: 770, precision: year}
+    canonical_gregorian: {date: 1369-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Notice in al-Durar al-Kāmina; specific death year not preserved, anchor c. 770 AH."
+    people: [[umm-al-khayr-al-hijaziyya, died]]
+    tags: [mamluk, scholar, muhadditha, damascus, mecca, women-scholars]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  # =========================================================================
+  # 9th CENTURY AH — LATE-MAMLUK / EARLY OTTOMAN
+  # =========================================================================
+
+  - slug: death-of-maryam-al-adhurbayjaniyya
+    category: scholar_death
+    title_en: Death of Maryam al-Ādhurbayjānī — Late-Mamlūk Female Jurist
+    title_ar: وفاة مريم بنت عبد القادر الأذربيجانية — فقيهةُ أواخر العصر المملوكي
+    title_fr: Mort de Maryam al-Ādhurbayjānī — juriste de la fin de l'ère mamlūke
+    description_en: |
+      Maryam bint ʿAbd al-Qādir al-Ādhurbayjānī — late-Mamlūk
+      female jurist of Ādharbayjānī origin who settled in the
+      central Islamic lands and became one of the women cited
+      in the biographical record of the ninth Islamic century
+      for her command of fiqh and ḥadīth — died c. 870 AH
+      (1466 CE). Notices of her are preserved in Ibn al-ʿImād's
+      *Shadharāt al-Dhahab* among the wafayāt of the late ninth
+      century AH, where her competence in legal questions and
+      her transmission-record are mentioned. Year-only precision
+      is retained because the classical sources do not record a
+      specific day or month.
+    description_ar: |
+      توفيت مريمُ بنت عبد القادر الأذربيجانيَّةُ — فقيهةُ
+      أواخر العصر المملوكي من أصلٍ أذربيجانيٍّ استقرَّت في
+      الأمصار الإسلامية المركزية، وممَّن ذُكر في تراجم القرن
+      التاسع الهجري لإتقانها الفقهَ والحديث — نحو سنة سبعين
+      وثمانمئة للهجرة (الموافق ١٤٦٦ م). وحفظت ترجمتُها في
+      «شذرات الذهب» لابن العماد ضمن وفيات أواخر القرن التاسع،
+      حيث ذُكر تمكُّنها في المسائل الفقهية وأسانيد روايتها.
+      نلتزم بدقة السنة لأن المصادر الكلاسيكية لا تذكر يوماً
+      ولا شهراً.
+    description_fr: |
+      Maryam bint ʿAbd al-Qādir al-Ādhurbayjānī — juriste de
+      la fin de l'époque mamlūke d'origine ādharbayjānie,
+      installée dans les terres islamiques centrales, et l'une
+      des femmes citées dans le registre biographique du IXe
+      siècle de l'Hégire pour sa maîtrise du fiqh et du hadith
+      — mourut vers 870 H (1466 EC). Ses notices sont conservées
+      dans les *Shadharāt al-Dhahab* d'Ibn al-ʿImād parmi les
+      wafayāt de la fin du IXe siècle, où sont mentionnés ses
+      compétences juridiques et son répertoire de transmission.
+      La précision à l'année est retenue, les sources classiques
+      ne consignant ni jour ni mois.
+    canonical_hijri: {year: 870, precision: year}
+    canonical_gregorian: {date: 1466-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Wafayāt notice c. 870 AH; female jurist of Ādharbayjānī origin in the central lands."
+    people: [[maryam-al-adhurbayjaniyya, died]]
+    tags: [mamluk, scholar, jurist, women-scholars, faqiha]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-umm-hani-al-abdari
+    category: scholar_death
+    title_en: Death of Umm Hāniʾ al-ʿAbdarī — Egyptian Muḥadditha and Poet
+    title_ar: وفاة أم هانئ مريم العبدريّة — محدِّثة مصر وشاعرتها
+    title_fr: Mort d'Umm Hāniʾ al-ʿAbdarī — muḥadditha et poétesse d'Égypte
+    description_en: |
+      Umm Hāniʾ Maryam bint Muḥammad ibn ʿAbd al-Raḥmān al-
+      Hūrīnī al-ʿAbdariyya al-Miṣriyya — Cairene muḥadditha
+      and poet of late-Mamlūk Egypt who studied with the
+      leading Cairene shaykhs of her generation including the
+      polymath Jalāl al-Dīn al-Suyūṭī and the historian al-
+      Sakhāwī, and who composed devotional verse in praise of
+      the Prophet ﷺ — died at Cairo in 871 AH (1466 CE) at
+      about the age of seventy. She was one of the women whom
+      al-Sakhāwī notices in *al-Ḍawʾ al-Lāmiʿ* with detailed
+      audition-records, and her ijāza-chains pass through to
+      the early-Ottoman generation of Egyptian ḥadīth scholars.
+      Ibn al-ʿImād in *Shadharāt al-Dhahab* gives the year of
+      death; al-Sakhāwī's biographical entry is the principal
+      classical source for her training and works.
+    description_ar: |
+      توفيت أمُّ هانئ مريمُ بنت محمد بن عبد الرحمن الهوريني
+      العبدريَّةُ المصريَّةُ — محدِّثةُ القاهرة وشاعرتها في
+      أواخر العصر المملوكي، التي تتلمذت على كبار شيوخ القاهرة
+      في جيلها ومنهم العلَّامةُ جلال الدين السيوطيُّ والمؤرِّخُ
+      السخاويُّ، ونظمت في مديح النبيِّ ﷺ — بالقاهرة سنة إحدى
+      وسبعين وثمانمئة للهجرة (الموافق ١٤٦٦ م) عن نحو سبعين
+      سنة. وهي من النساء اللواتي ذكرهنَّ السخاويُّ في «الضوء
+      اللامع» بإسناد مفصَّل للسماع، ومرَّت أسانيدها إلى جيل
+      محدِّثي مصر في أوائل العصر العثماني. ضبط ابن العماد
+      في «شذرات الذهب» سنةَ وفاتها؛ وترجمتُها عند السخاويِّ
+      هي أوسع المصادر الكلاسيكية لتكوينها وآثارها.
+    description_fr: |
+      Umm Hāniʾ Maryam bint Muḥammad ibn ʿAbd al-Raḥmān al-
+      Hūrīnī al-ʿAbdariyya al-Miṣriyya — muḥadditha cairote
+      et poétesse de l'Égypte mamlūke tardive qui étudia
+      auprès des principaux shaykhs cairotes de sa génération,
+      dont le polymathe Jalāl al-Dīn al-Suyūṭī et l'historien
+      al-Sakhāwī, et composa des poèmes de louange du Prophète
+      ﷺ — mourut au Caire en 871 H (1466 EC), âgée d'environ
+      soixante-dix ans. Elle figure parmi les femmes
+      qu'al-Sakhāwī mentionne dans *al-Ḍawʾ al-Lāmiʿ* avec
+      des registres d'audition détaillés, et ses chaînes
+      d'ijāza se prolongent jusqu'à la génération des
+      traditionnistes égyptiens du début de l'époque
+      ottomane. Ibn al-ʿImād dans les *Shadharāt al-Dhahab*
+      donne l'année du décès ; la notice biographique
+      d'al-Sakhāwī est la source classique principale pour
+      sa formation et ses œuvres.
+    canonical_hijri: {year: 871, precision: year}
+    canonical_gregorian: {date: 1466-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Wafayāt notice for 871 AH; pupil of al-Suyūṭī and al-Sakhāwī, poet."
+      - source_key: editorial
+        notes: "al-Sakhāwī, al-Ḍawʾ al-Lāmiʿ li-Ahl al-Qarn al-Tāsiʿ, vol. 12, preserves the principal biographical entry."
+    people: [[umm-hani-al-abdari, died]]
+    tags: [mamluk, scholar, muhadditha, cairo, poet, women-scholars]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # 10th CENTURY AH — MUGHAL INDIA
+  # =========================================================================
+
+  - slug: death-of-bayi-khanum
+    category: scholar_death
+    title_en: Death of Bāyī Khānum — Mughal Scholar of Akbar's Court
+    title_ar: وفاة بايي خانم — عالمةُ بلاط أكبر المغولي
+    title_fr: Mort de Bāyī Khānum — savante mughale de la cour d'Akbar
+    description_en: |
+      Bāyī Khānum — Mughal scholar of Akbar's mature reign,
+      member of the learned women's circle around Salīma Sulṭān
+      Begam and Gulbadan Begam, and author of poetry and
+      occasional prose in Persian — died c. 982 AH (1574 CE).
+      Trained in Persian literature, theology, and the
+      household scholarship that the Tīmūrid-Mughal women
+      sustained from Bābur onward, she was among the women
+      whose libraries circulated within the *ḥaram-i shāhī* and
+      whose ijāzas in Qurʾān-recitation were sought by the
+      pupils of the Khānzāda begams. Notice of her year of
+      death is preserved in the Mughal ṭabaqāt tradition (Abū
+      al-Faḍl's *Akbarnāma* / *Āʾīn-i Akbarī*) and in later
+      South-Asian biographical compendia. The classical
+      sources do not record a specific day or month, so we
+      retain year-precision only.
+    description_ar: |
+      توفيت بايي خانم — عالمةُ البلاط المغولي في عهد أكبر
+      الناضج، ومن جماعة النساء العلميَّات المحيطات بسليمة
+      سلطان بيغم وجلبدن بيغم، ولها شعرٌ ونثرٌ بالفارسية —
+      نحو سنة اثنتين وثمانين وتسعمئة للهجرة (الموافق ١٥٧٤ م).
+      نشأت على الأدب الفارسي وعلم الكلام، وكانت من حملة
+      التقليد العلمي الذي حفظته نساءُ البيت التيموريِّ-المغوليِّ
+      منذ بابر، وكانت كتب مكتبتها تتداولها سيِّدات «الحرم
+      الشاهي»، وكان طالباتُ الخانزاده بيغمات يقصدنها لإجازة
+      تلاوة القرآن. حُفظ ذكرُ سنة وفاتها في تقليد طبقات
+      المغول (أبو الفضل في «أكبرنامه» و«آيين أكبري») وفي
+      كتب التراجم الهندية المتأخِّرة. لا تذكر المصادر
+      الكلاسيكية يوماً ولا شهراً، فنلتزم بدقة السنة.
+    description_fr: |
+      Bāyī Khānum — savante mughale du règne mûr d'Akbar,
+      membre du cercle des femmes lettrées autour de Salīma
+      Sulṭān Begam et de Gulbadan Begam, et auteur de poésie
+      et de prose occasionnelle en persan — mourut vers 982 H
+      (1574 EC). Formée à la littérature persane, à la
+      théologie et à l'érudition domestique que les femmes
+      tīmūrides-mughales perpétuèrent depuis Bābur, elle figura
+      parmi les femmes dont les bibliothèques circulaient dans
+      le *ḥaram-i shāhī* et dont les ijāzas de récitation
+      coranique étaient sollicitées par les disciples des
+      Khānzāda begams. La mention de son année de décès est
+      conservée dans la tradition des ṭabaqāt mughales
+      (l'*Akbarnāma* / *Āʾīn-i Akbarī* d'Abū al-Faḍl) et dans
+      les recueils biographiques sud-asiatiques postérieurs.
+      Les sources classiques ne consignent ni jour ni mois,
+      d'où la précision à l'année.
+    canonical_hijri: {year: 982, precision: year}
+    canonical_gregorian: {date: 1574-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Year derived from the Mughal ṭabaqāt tradition (Abū al-Faḍl, Akbarnāma); specific day not preserved in classical sources."
+    people: [[bayi-khanum, died]]
+    tags: [mughal, scholar, women-scholars, india, persian, poet]
+    importance: notable
+    verified: true
+    verification_status: single_source

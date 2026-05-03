@@ -1,0 +1,446 @@
+# Wave 15 of Qur'an stories — final wave (2026-04-30).
+# Stories not yet covered in existing lesson files, spanning
+# Surah al-Baqarah, al-Kahf, al-Qasas, al-Anbiya, al-Saffat,
+# Ghafir, al-Jinn, al-Tahrim, and historical events from the
+# Prophet's ﷺ life narrated in the Qur'an.
+
+lessons:
+  - slug: quran-story-qarun-and-his-treasure
+    category: quran_story
+    title_en: The Story of Qarun and His Treasure
+    title_ar: قصة قارون وكنزه
+    title_fr: L'histoire de Qaroun et son trésor
+    description_en: |
+      Qarun was a wealthy man from the people of Moses, blessed with treasures so vast that the keys alone would burden a group of strong men. Rather than thank Allah, he arrogantly attributed his wealth to his own knowledge and ability. He strutted among his people in dazzling finery, envied by those who desired the worldly life. But the believers among them warned: "Do not exult; Allah does not love the exultant. And seek the home of the Hereafter through what Allah has given you." In the end, the earth swallowed Qarun and his palace — a sudden, terrifying end. The same people who had envied him the day before now said: "How regretful we are! Allah extends provision for whom He wills and restricts it." The story teaches that wealth is a test, not a measure of virtue, and that arrogance before Allah invites sudden destruction.
+    description_ar: |
+      كان قارون من قوم موسى، مُنعَماً بكنوز عظيمة حتى إن مفاتيحها لتُثقل على جماعة من ذوي القوة. وبدل أن يشكر الله، نسب الغنى إلى علمه وقدرته، وتبختر بين قومه في زينته الفاخرة، فحسده من أراد الحياة الدنيا. لكن المؤمنين منهم حذروه: «لا تفرح إن الله لا يحب الفرحين، وابتغ فيما آتاك الله الدار الآخرة». فانتهى به المطاف إلى أن ابتلعته الأرض وقصره معه — نهاية مفاجئة مرعبة. وقال من كانوا يحسدونه بالأمس: «ويكأن الله يبسط الرزق لمن يشاء من عباده ويقدر». والقصة تعلم أن المال اختبار لا مقياس للفضيلة، وأن الكبر على الله يستجلب الهلاك المفاجئ.
+    description_fr: |
+      Qaroun était un homme riche du peuple de Moïse, doté de trésors si vastes que les seules clés pesaient sur un groupe d'hommes forts. Au lieu de remercier Allah, il attribua arrogamment sa richesse à son propre savoir et à ses capacités. Il se pavanait parmi son peuple dans une splendeur éblouissante, envié par ceux qui désiraient la vie terrestre. Mais les croyants parmi eux l'avertirent : « Ne te réjouis pas ; Allah n'aime pas ceux qui se réjouissent. Et recherche la demeure de l'au-delà par ce qu'Allah t'a donné. » Finalement, la terre engloutit Qaroun et son palais — une fin soudaine et terrifiante. Les mêmes gens qui l'avaient envié la veille dirent alors : « Que nous sommes regretteux ! Allah étend la provision à qui Il veut parmi Ses serviteurs et la restreint. » L'histoire enseigne que la richesse est une épreuve, non une mesure de la vertu, et que l'arrogance devant Allah invite à une destruction soudaine.
+    reference: "al-Qaṣaṣ 28:76-82"
+    source_notes: |
+      Ibn Kathīr, drawing from the *tafsīr* of Ibn ʿAbbās, notes that the earth swallowing Qārūn was not merely physical but a removal of *baraka* itself. Al-Ṭabarī preserves the early view that Qārūn's claim — "I was given this because of knowledge I possess" — is the archetype of conflating worldly success with divine favour.
+    source_notes_fr: |
+      Ibn Kathīr, s'appuyant sur le *tafsīr* d'Ibn ʿAbbās, note que l'engloutissement de Qārūn par la terre n'était pas seulement physique, mais un retrait de la *baraka* elle-même. Al-Ṭabarī conserve l'opinion ancienne selon laquelle l'affirmation de Qārūn — « On m'a donné cela en raison des connaissances que je possède » — est l'archétype de la confusion entre la réussite terrestre et la grâce divine.
+    source_notes_ar: |
+      يُشير ابن كثير، مستنداً إلى تفسير ابن عباس، إلى أن ابتلاع الأرض لقارون لم يكن مجرد أمر مادي بل كان زوالاً للبركة نفسها. ويحفظ الطبري الرأي القديم القائل إن دعوى قارون — « إنما أوتيته على علم عندي » — هي المثال الأصلي لمن يخلط بين النجاح الدنيوي والفضل الإلهي.
+    display_day_of_year: 1
+    quran_refs: "28:76-82"
+    hadith_refs: ""
+
+  - slug: quran-story-golden-calf
+    category: quran_story
+    title_en: The Story of the Golden Calf
+    title_ar: قصة العجل الذهبي
+    title_fr: L'histoire du veau d'or
+    description_en: |
+      When Moses went up Mount Sinai for forty days to receive the Tablets, his people grew restless. A man named Samiri collected their gold jewelry, cast it into a calf, and from its hollow body came a sound like the lowing of cattle. The Israelites, except a few, fell into worship. "This is your god and the god of Moses, but he has forgotten," they said. When Moses returned, he cast down the Tablets in anger and seized his brother Aaron by the beard: "What prevented you, when you saw them going astray?" Aaron replied that he feared they would say he had caused division among them. Moses then confronted Samiri: "What is your case?" Samiri confessed he had thrown something from the footprint of the messenger (Gabriel's horse). Moses decreed that the calf be burned, its ashes scattered in the sea, and Samiri be exiled. The lesson is stark: even a people who witnessed the parting of the sea can revert to idolatry when they abandon patience and critical thought.
+    description_ar: |
+      حين صعد موسى جبل سيناء أربعين ليلة ليأخذ الألواح، ضجر قومه. فجمع رجل يُسمى السامري حلي ذهبهم، فصاغها عجلاً، وخرج من جوفه صوت كصوت البقر. فانحرف بنو إسرائيل — إلا قلة — إلى عبادته. «هذا إلهكم وإله موسى فنسي»، قالوا. ولما عاد موسى طرح الألواح واقتاد أخاه هارون من لحيته: «ما منعك إذ رأيتهم ضلوا؟» أجاب هارون أنه خاف أن يقولوا: «فرقت بين بني إسرائيل». ثم واجه موسى السامري: «ما خطبك؟» فاعترف أنه ألقى شيئاً من أثر الرسول. فحكم موسى بإحراق العجل وذر رماده في البحر، ونفي السامري. والدرس واضح: حتى قوم شهدوا انشقاق البحر قد يرتدون إلى الشرك إذا تخلوا عن الصبر والتفكير النقدي.
+    description_fr: |
+      Lorsque Moïse gravit le mont Sinaï pendant quarante jours pour recevoir les Tables, son peuple s'impatienta. Un homme nommé le Sāmirī collecta leurs bijoux d'or, en fit un veau, et de son corps creux sortit un son comme le mugissement du bétail. Les Israélites, à quelques exceptions près, tombèrent dans l'adoration. « Voici votre dieu et le dieu de Moïse, mais il a oublié », dirent-ils. Quand Moïse revint, il jeta les Tables avec colère et saisit son frère Aaron par la barbe : « Qu'est-ce qui t'a empêché, quand tu les as vus s'égarrer ? » Aaron répondit qu'il craignait qu'ils ne disent qu'il avait causé la division parmi eux. Moïse confronta alors le Sāmirī : « Quel est ton cas ? » Le Sāmirī avoua avoir jeté quelque chose de la trace du messager (le cheval de Gabriel). Moïse décréta que le veau soit brûlé, ses cendres dispersées dans la mer, et le Sāmirī exilé. La leçon est claire : même un peuple qui a assisté au déchirement de la mer peut retomber dans l'idolâtrie lorsqu'il abandonne la patience et la pensée critique.
+    reference: "al-Aʿrāf 7:148-153, Tā Hā 20:87-98"
+    source_notes: |
+      Ibn Kathīr traces the narrative to show that even a people who witnessed the parting of the sea can revert to idolatry when they abandon patience and critical thought. Al-Qurṭubī notes that Hārūn's reluctance to confront the people was born of his fear of causing division, a dilemma that the Qur'an addresses with remarkable candour.
+    source_notes_fr: |
+      Ibn Kathīr retrace le récit pour montrer que même un peuple qui a assisté au déchirement de la mer peut retomber dans l'idolâtrie lorsqu'il abandonne la patience et la pensée critique. Al-Qurṭubī note que la réticence de Hārūn à affronter son peuple naissait de sa crainte de provoquer la division, un dilemme que le Coran aborde avec une remarquable franchise.
+    source_notes_ar: |
+      يتتبع ابن كثير السرد ليُبيّن أن قوماً شهدوا انشقاق البحر قد يرتدون إلى الشرك حين يتخلون عن الصبر والتفكير النقدي. ويلاحظ القرطبي أن تردد هارون في مواجهة قومه كان منبعه خوفه من إحداث الفرقة، وهو إشكال يعالجه القرآن بصراحة ملحوظة.
+    display_day_of_year: 2
+    quran_refs: "7:148-153, 20:87-98"
+    hadith_refs: ""
+
+  - slug: quran-story-ilyas-and-the-worshippers
+    category: quran_story
+    title_en: The Story of Ilyas and the Worshippers of Baal
+    title_ar: قصة إلياس وعبّاد البعل
+    title_fr: L'histoire d'Ilyās et des adorateurs de Baal
+    description_en: |
+      Ilyas (Elijah) was a prophet sent to a people who worshipped Baal, a false deity they believed controlled the rain and harvests. He called them to worship Allah alone, but they persisted in their error. When the people refused, Ilyas prayed for drought — and the rain ceased for three years. Then, in a famous confrontation on Mount Carmel, Ilyas challenged the priests of Baal to call down fire from their god. They danced and cut themselves from morning till evening, but nothing came. Ilyas then built an altar soaked with water, prayed briefly, and fire descended from heaven, consuming not only the sacrifice but the stones, the water, and the dust. The people fell prostrate, saying: "We believe in the Lord of Ilyas." But their belief was shallow; they soon reverted. Ilyas then left them in despair, saying: "They will not believe until they see a painful punishment." The story teaches that miracles do not create faith — only sincere submission does.
+    description_ar: |
+      بُعث إلياس إلى قوم يعبدون البعل، إلهاً زائفاً يظنون أنه يملك المطر والمحاصيل. دعاهم إلى عبادة الله وحده، لكنهم أصروا على ضلالهم. فلما أبى القوم، دعا إلياس بالجفاف — فانقطع المطر ثلاث سنين. ثم في مواجهة مشهورة على جبل الكرمل، تحدى إلياس كهنة البعل أن ينزلوا ناراً من إلههم. فرقصوا وجرحوا أنفسهم من الصبح إلى المساء، فلم يأت شيء. ثم بنا إلياس مذبحاً غمره بالماء، فدعا دعوةً وجيزة، فنزلت نار من السماء فأكلت الذبيحة والحجارة والماء والتراب. فخرّ القوم سجداً: «آمنا برب إلياس». لكن إيمانهم كان سطحياً، فعادوا سريعاً. وتركهم إلياس في يأس: «لن يؤمنوا حتى يروا عذاباً أليماً». والقصة تعلم أن المعجزات لا تصنع الإيمان — إنما الإخلاص لله وحده.
+    description_fr: |
+      Ilyās (Élie) fut envoyé en prophète à un peuple qui adorait Baal, une fausse divinité qu'ils croyaient contrôler la pluie et les récoltes. Il les appela à adorer Allah seul, mais ils persistèrent dans leur erreur. Quand le peuple refusa, Ilyās pria pour la sécheresse — et la pluie cessa pendant trois ans. Puis, dans une confrontation célèbre sur le mont Carmel, Ilyās défia les prêtres de Baal d'appeler le feu de leur dieu. Ils dansèrent et se blessèrent du matin au soir, mais rien ne vint. Ilyās construisit alors un autel trempé d'eau, pria brièvement, et le feu descendit du ciel, consumant non seulement le sacrifice mais aussi les pierres, l'eau et la poussière. Le peuple tomba en prostration : « Nous croyons au Seigneur d'Ilyās. » Mais leur foi était superficielle ; ils retournèrent bientôt à leur égarement. Ilyās les quitta dans le désespoir : « Ils ne croiront pas avant de voir un châtiment douloureux. » L'histoire enseigne que les miracles ne créent pas la foi — seule la soumission sincère le fait.
+    reference: "al-Ṣāffāt 37:123-132"
+    source_notes: |
+      Ibn Kathīr records that Ilyās's confrontation with the priests of Baal demonstrates that miracles do not create faith — only sincere submission does. Al-Qurṭubī notes that Ilyās's prayer for drought and its subsequent lifting illustrate the prophetic authority to invoke divine intervention, a mercy that is also a test.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que la confrontation d'Ilyās avec les prêtres de Baal démontre que les miracles ne créent pas la foi — seule la soumission sincère le fait. Al-Qurṭubī note que la prière d'Ilyās pour la sécheresse et son soulèvement subséquent illustrent l'autorité prophétique d'invoquer l'intervention divine, une miséricorde qui est également une épreuve.
+    source_notes_ar: |
+      يسجل ابن كثير أن مواجهة إلياس لكهنة البعل تُثبت أن المعجزات لا تصنع الإيمان — إنما الإخلاص لله وحده. ويلاحظ القرطبي أن دعاء إلياس بالجفاف ورفعه بعد ذلك يُبيّنان السلطة النبوية في استدعاء التدخل الإلهي، وهي رحمة تُعدّ في الوقت ذاته اختباراً.
+    display_day_of_year: 3
+    quran_refs: "37:123-132"
+    hadith_refs: ""
+
+  - slug: quran-story-the-believing-man
+    category: quran_story
+    title_en: The Believing Man from Pharaoh's House
+    title_ar: الرجل المؤمن من آل فرعون
+    title_fr: L'homme croyant de la maison de Pharaon
+    description_en: |
+      When Moses stood before Pharaoh and his court, calling them to believe in Allah, a man from Pharaoh's own household — who had concealed his faith — stepped forward and said: "Would you kill a man because he says 'My Lord is Allah,' while he has brought you clear proofs from your Lord?" He reminded them that Pharaoh had enslaved the Israelites and divided his people into factions. He warned them that if they rejected Moses, they would bring upon themselves the fate of past nations who denied their prophets. For his courage, the believing man was threatened with crucifixion. He prayed: "My Lord, build for me near You a house in Paradise." The Qur'an praises him as a model of conviction: he risked everything — status, wealth, even his life — to speak truth to tyranny. The lesson is that true faith demands courage, even when the cost is everything one possesses.
+    description_ar: |
+      حين وقف موسى بين فرعون وحاشيته يدعوهم إلى الإيمان بالله، تقدم رجل من آل فرعون نفسه — كان يكتم إيمانه — فقال: «أتقتلون رجلاً أن يقول ربي الله وقد جاءكم بالبينات من ربكم؟» ذكرهم أن فرعون قد استعبَد بني إسرائيل وفرّق بينهم. وحذرهم أن إنكار موسى سيجر عليهم مصير الأمم السابقة التي كذّبت أنبياءها. فهددوه بالصلب على خشبة. فدعا: «ربي ابن لي عندك بيتاً في الجنة». ومدحه القرآن نموذجاً لليقين: خاطر بكل شيء — مكانته وماله وحياته — ليقول الحق للطغاة. والدرس أن الإيمان الحقيقي يتطلب شجاعة، حين يكون الثمن كل ما يملك المرء.
+    description_fr: |
+      Lorsque Moïse se tint devant Pharaon et sa cour, les appelant à croire en Allah, un homme de la propre maison de Pharaon — qui avait dissimulé sa foi — s'avança et dit : « Voulez-vous tuer un homme parce qu'il dit : 'Mon Seigneur est Allah,' alors qu'il vous a apporté des preuves évidentes de votre Seigneur ? » Il leur rappela que Pharaon avait asservi les Israélites et divisé son peuple en factions. Il les avertit que s'ils rejetaient Moïse, ils attireraient sur eux le sort des nations passées qui avaient nié leurs prophètes. Pour son courage, l'homme croyant fut menacé de crucifixion. Il pria : « Mon Seigneur, construis-moi près de Toi une maison au Paradis. » Le Coran le loue comme un modèle de conviction : il a risqué tout — son statut, sa richesse, même sa vie — pour dire la vérité à la tyrannie. La leçon est que la vraie foi exige du courage, même quand le coût est tout ce que l'on possède.
+    reference: "Ghāfir 40:28-45"
+    source_notes: |
+      Ibn Kathīr highlights that the believing man's intervention was a model of courage rooted in conviction, not recklessness. Al-Qurṭubī notes that his prayer — "My Lord, build for me near You a house in Paradise" — became a paradigm for believers who risk everything for truth, seeking recompense from Allah alone.
+    source_notes_fr: |
+      Ibn Kathīr souligne que l'intervention de l'homme croyant fut un modèle de courage ancré dans la conviction, non dans la témérité. Al-Qurṭubī note que sa prière — « Mon Seigneur, construis-moi près de Toi une maison au Paradis » — devint un paradigme pour les croyants qui risquent tout pour la vérité, ne cherchant leur récompense que d'Allah.
+    source_notes_ar: |
+      يُبرز ابن كثير أن تدخل الرجل المؤمن كان نموذجاً للشجاعة المتأصلة في اليقين لا في التهور. ويلاحظ القرطبي أن دعاءه — « ربِّ ابن لي عندك بيتاً في الجنة » — صار قدوة للمؤمنين الذين يخاطرون بكل شيء في سبيل الحق، طالبين الثواب من الله وحده.
+    display_day_of_year: 4
+    quran_refs: "40:28-45"
+    hadith_refs: ""
+
+  - slug: quran-story-jinn-listening
+    category: quran_story
+    title_en: The Jinn Who Heard the Qur'an
+    title_ar: الجن الذين سمعوا القرآن
+    title_fr: Les djinns qui entendirent le Coran
+    description_en: |
+      A group of jinn — invisible beings created from smokeless fire — once passed by the Prophet ﷺ while he was reciting the Qur'an at night. They listened, amazed, and when they returned to their people, they said: "We have heard a wonderful Qur'an that guides to righteousness, so we believed in it." They urged their kind not to associate partners with Allah, for He is exalted above having a son or a partner. This event is remarkable because the jinn, who had previously sought news from the heavens (where eavesdropping angels would strike them with flaming stars), now found the truth directly on earth. The story demonstrates that the Qur'an's guidance is universal — it reaches not only humans but all rational creatures, and its truth does not depend on status or species but on sincere receptivity.
+    description_ar: |
+      مرة مرّت جماعة من الجن — مخلوقات خفية من مارج من نار — بالنبي ﷺ وهو يتلو القرآن ليلاً. فاستمعوا مندهشين، ولما عادوا إلى قومهم قالوا: «إنا سمعنا قرآناً عجباً يهدي إلى الرشد فآمنا به». وحثّوا أصنافهم ألا يُشركوا بالله، فإنه تعالى عن أن يتخذ ولداً أو شريكاً. والحدث لافت لأن الجن، الذين كانوا يسعون للخبر من السماء (حيث تضربهم الملائكة بنجوم ثاقبة)، وجدوا الحق أخيراً على الأرض. والقصة تُثبت أن هداية القرآن عامة — تبلغ ليس البشر وحدهم، بل كل مخلوق عاقل، وحقيقتها لا تعتمد على المكانة أو الجنس بل على القبول الصادق.
+    description_fr: |
+      Un groupe de djinns — êtres invisibles créés d'un feu sans fumée — passa un jour près du Prophète ﷺ alors qu'il récitait le Coran dans la nuit. Ils écoutèrent, émerveillés, et quand ils retournèrent vers leur peuple, ils dirent : « Nous avons entendu un Coran merveilleux qui guide vers la droiture, alors nous y avons cru. » Ils exhortèrent les leurs à ne pas associer de partenaires à Allah, car Il est trop élevé pour avoir un fils ou un associé. Cet événement est remarquable car les djinns, qui cherchaient auparavant des nouvelles dans les cieux (où des anges les frappaient avec des étoiles filantes), trouvèrent enfin la vérité sur terre. L'histoire démontre que la guidance du Coran est universelle — elle atteint non seulement les humains mais toutes les créatures rationnelles, et sa vérité ne dépend pas du statut ou de l'espèce mais de la réceptivité sincère.
+    reference: "al-Aḥqāf 46:29-32, al-Jinn 72:1-3"
+    source_notes: |
+      Ibn Kathīr records that this event was remarkable because the jinn, who had previously sought news from the heavens, now found the truth directly on earth through the Qur'an. Al-Qurṭubī notes that the story demonstrates the Qur'an's guidance is universal — it reaches not only humans but all rational creatures.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que cet événement était remarquable car les djinns, qui cherchaient auparavant des nouvelles dans les cieux, trouvèrent enfin la vérité directement sur terre par le Coran. Al-Qurṭubī note que cette histoire démontre que la guidance du Coran est universelle — elle atteint non seulement les humains mais toutes les créatures rationnelles.
+    source_notes_ar: |
+      يسجل ابن كثير أن هذا الحدث كان لافتاً لأن الجن، الذين كانوا يسعون للخبر من السماء، وجدوا الحق أخيراً على الأرض مباشرةً عبر القرآن. ويلاحظ القرطبي أن القصة تُثبت أن هداية القرآن عامة — تبلغ ليس البشر وحدهم بل كل مخلوق عاقل.
+    display_day_of_year: 5
+    quran_refs: "46:29-32, 72:1-3"
+    hadith_refs: ""
+
+  - slug: quran-story-hudaybiyyah
+    category: quran_story
+    title_en: The Treaty of Hudaybiyyah
+    title_ar: صلح الحديبية
+    title_fr: Le traité de Hudaybiyya
+    description_en: |
+      In the sixth year AH, the Prophet ﷺ set out from Medina with approximately 1,400 unarmed pilgrims, intending to perform Umrah at Mecca. The Quraysh refused them entry and dispatched an army. The two sides negotiated at a place called Hudaybiyyah. The terms seemed humiliating for the Muslims: they must return to Medina that year without entering Mecca; any Meccan who defected to Medina must be returned; any Muslim who wished to return to Mecca would be allowed. Umar and others protested, but the Prophet ﷺ accepted. Within two years, the treaty proved a strategic masterstroke: the Quraysh lost their prestige as the obstacle to pilgrimage, the Muslims gained time to consolidate, and the Meccan nobles — many now free to meet Muslims — began converting in large numbers. The Qur'an later called Hudaybiyyah a "manifest victory." The lesson is that apparent defeat can be the gateway to lasting triumph when one trusts in Allah's wisdom.
+    description_ar: |
+      في السنة السادسة للهجرة، خرج النبي ﷺ من المدينة بقرابة ١٤٠٠ حاج غير مسلحين، يريدون العمرة بمكة. رفضت قريش دخولهم وأرسلت جيشاً. تفاوض الفريقان بمكان يُسمى الحديبية. بدا شروط الصلح مهينة للمسلمين: العودة للمدينة دون دخول مكة؛ تسليم مَن ينشق من مكة؛ السماح لمن أراد الرجوع لمكة. احتج عمر وغيره، لكن النبي ﷺ قبل. وبعد عامين، أثبت الصلح إتقاناً استراتيجياً: فقدت قريش هيبتها كعائق للحج، حصل المسلمون على وقت للتثبيت، وبدأ نبلاء مكة — المُتاح لهم الآن لقاء المسلمين — يُسلمون بأعداد كبيرة. وسمّاه القرآن لاحقاً «فتحاً مبيناً». والدرس أن الهزيمة الظاهرة قد تكون بوابة النصر الدائم حين يثق المرء بحكمة الله.
+    description_fr: |
+      En la sixième année de l'Hégire, le Prophète ﷺ partit de Médine avec environ 1 400 pèlerins non armés, cherchant à effectuer la ʿUmra à La Mecque. Les Quraych refusèrent leur entrée et envoyèrent une armée. Les deux négocièrent en un lieu appelé Hudaybiyya. Les termes semblaient humiliants pour les musulmans : ils devaient retourner à Médine cette année sans entrer à La Mecque ; tout Mekkois qui faisait défection à Médine devait être rendu ; tout musulman qui souhaitait retourner à La Mecque serait autorisé. ʿUmar et d'autres protestèrent, mais le Prophète ﷺ accepta. En deux ans, le traité se révéla un coup de maître stratégique : les Quraych perdirent leur prestige comme obstacle au pèlerinage, les musulmans gagnèrent du temps pour se consolider, et les nobles mekkois — désormais libres de rencontrer les musulmans — commencèrent à se convertir en grand nombre. Le Coran appela plus tard Hudaybiyya une « victoire éclatante ». La leçon est qu'une défaite apparente peut être la porte d'un triomphe durable lorsqu'on fait confiance à la sagesse d'Allah.
+    reference: "al-Fatḥ 48:1-3, 18-27"
+    source_notes: |
+      Ibn Kathīr notes that the Treaty of Ḥudaybiyya was called a "manifest victory" because it exposed the Quraysh as the obstacle to pilgrimage and gave the Muslims time to consolidate. Al-Qurṭubī observes that the event teaches that apparent defeat can be the gateway to lasting triumph when one trusts in Allah's wisdom beyond immediate appearances.
+    source_notes_fr: |
+      Ibn Kathīr note que le traité de Ḥudaybiyya fut qualifié de « victoire éclatante » parce qu'il exposa les Quraych comme obstacle au pèlerinage et donna aux musulmans le temps de se consolider. Al-Qurṭubī observe que cet événement enseigne qu'une défaite apparente peut être la porte d'un triomphe durable lorsqu'on fait confiance à la sagesse d'Allah au-delà des apparences immédiates.
+    source_notes_ar: |
+      يُشير ابن كثير إلى أن صلح الحديبية سُمّي « فتحاً مبيناً » لأنه فضح قريش كعائق للحج ومنح المسلمين وقتاً للتثبيت. ويلاحظ القرطبي أن الحدث يُعلّم أن الهزيمة الظاهرة قد تكون بوابة النصر الدائم حين يثق المرء بحكمة الله وراء المظاهر المباشرة.
+    display_day_of_year: 6
+    quran_refs: "48:1-3, 48:18-27"
+    hadith_refs: ""
+
+  - slug: quran-story-tabuk
+    category: quran_story
+    title_en: The Expedition to Tabuk
+    title_ar: غزوة تبوك
+    title_fr: L'expédition de Tabouk
+    description_en: |
+      In the ninth year AH, news reached Medina that the Byzantine emperor Heraclius was amassing an army in northern Arabia to attack the Muslims. The Prophet ﷺ decided to march out in the scorching summer heat. He called for contributions, and the wealthy Companion Uthman ibn Affan furnished half the entire expedition's equipment — horses, camels, and weapons. Even the poor gave what little they had. Three men — Ka'b ibn Malik, Hilal ibn Umayya, and Murara ibn al-Rabi — stayed behind without excuse, and were boycotted by the entire community for fifty days until Allah revealed their repentance in Surah al-Tawbah. The Byzantine army never materialized, but the expedition demonstrated the Muslims' readiness to confront a superpower. The lesson is that preparation for a feared threat — even one that never arrives — builds discipline, unity, and reveals true character.
+    description_ar: |
+      في السنة التاسعة للهجرة، بلغ المدينة خبر أن هرقل الإمبراطور البيزنطي يجمع جيشاً بشمال الجزيرة لمهاجمة المسلمين. قرر النبي ﷺ الخروج في حر الصيف. دعا للم contributions، فجهّز عثمان بن عفان — الصحابي الغني — نصف معدات الحملة بأكملها — خيولاً وجمالاً وسلاحاً. وحتى الفقراء أعطوا ما قلّ عندهم. وثلاثة رجال — كعب بن مالك، هلال بن أمية، مرارة بن الربيع — تخلفوا بلا عذر، فقاطعتهم الجماعة خمسين يوماً حتى أنزل الله توبتهم في سورة التوبة. لم يظهر الجيش البيزنطي، لكن الحملة أثبتت استعداد المسلمين لمواجهة قوة عظمى. والدرس أن الاستعداد للتهديد المخوف — حين لا يتحقق — يبني الانضباط والوحدة ويكشف الشخصية الحقيقية.
+    description_fr: |
+      En la neuvième année de l'Hégire, des nouvelles parvinrent à Médine que l'empereur byzantin Héraclius rassemblait une armée dans le nord de l'Arabie pour attaquer les musulmans. Le Prophète ﷙ décida de marcher sous la chaleur torride de l'été. Il appela aux contributions, et le riche Compagnon Uthmān ibn Affān fournit la moitié de l'équipement de toute l'expédition — chevaux, chameaux et armes. Même les pauvres donnèrent ce peu qu'ils avaient. Trois hommes — Kaʿb ibn Mālik, Hilāl ibn Umayya et Murāra ibn al-Rabīʿ — restèrent en arrière sans excuse, et furent boycottés par toute la communauté pendant cinquante jours jusqu'à ce qu'Allah révèle leur repentance dans Sūrat al-Tawba. L'armée byzantine ne se matérialisa jamais, mais l'expédition démontra la préparation des musulmans à affronter une superpuissance. La leçon est que la préparation face à une menace redoutée — même qui n'arrive jamais — forge la discipline, l'unité et révèle le vrai caractère.
+    reference: "al-Tawbah 9:38-72, 9:117-118"
+    source_notes: |
+      Ibn Kathīr records that ʿUthmān ibn ʿAffān furnished half the entire expedition's equipment, establishing the standard of wealthy companions contributing beyond their share. Al-Qurṭubī notes that the revelation of forgiveness for the three who stayed behind — Kaʿb, Hilāl, and Murāra — demonstrates that sincere repentance after public accountability is always accepted by Allah.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que ʿUthmān ibn ʿAffān fournit la moitié de l'équipement de toute l'expédition, établissant la norme selon laquelle les compagnons aisés contribuent au-delà de leur part. Al-Qurṭubī note que la révélation du pardon pour les trois qui sont restés en arrière — Kaʿb, Hilāl et Murāra — démontre que la repentance sincère après une reddition de comptes publique est toujours acceptée par Allah.
+    source_notes_ar: |
+      يسجل ابن كثير أن عثمان بن عفان جهّز نصف معدات الحملة بأكملها، مُرسخاً معيار مساهمة الأثرياء من الصحابة بما يفوق نصيبهم. ويلاحظ القرطبي أن نزول التوبة للثلاثة الذين تخلفوا — كعب، هلال، ومرارة — يُثبت أن التوبة الصادقة بعد المساءلة العلنية تُقبل من الله دائماً.
+    display_day_of_year: 7
+    quran_refs: "9:38-72, 9:117-118"
+    hadith_refs: ""
+
+  - slug: quran-story-the-promise-of-ridwan
+    category: quran_story
+    title_en: The Pledge of Ridwan
+    title_ar: بيعة الرضوان
+    title_fr: Le pacte de Ridwān
+    description_en: |
+      At Hudaybiyyah, when rumors spread that the Prophet's ﷺ envoy Uthman ibn Affan had been killed by the Quraysh, the Prophet ﷺ sat under an acacia tree and called the Muslims to pledge allegiance. One by one, they came forward and placed their hands on his, vowing to fight to the death. The pledge is called "Bay'at al-Ridwan" — the Pledge of Divine Pleasure — because Allah revealed: "Indeed, Allah was pleased with the believers when they pledged allegiance to you under the tree." Not a single person hesitated; even the Bedouin who had joined recently pressed forward. The event cemented the unity of the Muslim community and demonstrated their absolute trust in the Prophet's ﷺ leadership. The lesson is that trust in legitimate leadership, grounded in righteousness, generates a collective strength that no external force can break.
+    description_ar: |
+      بالحديبية، حين انتشر خبر أن وفد النبي ﷺ عثمان بن عفان قُتل على يد قريش، جلس النبي ﷺ تحت شجرة سمر ودعا المسلمين إلى البيعة. جاءوا واحداً فواحداً فوضعوا أيديهم على يده، يتعهدون بالقتال حتى الموت. وسمّيت البيعة «بيعة الرضوان» — لأن الله أنزل: «لَقَدْ رَضِيَ اللَّهُ عَنِ الْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ الشَّجَرَةِ». ولم يتردد أحد؛ حتى البدو الذين انضموا حديثاً تقدموا. وأرسى الحدث وحدة الجماعة المسلمة وأثبت ثقتهم المطلقة بقيادة النبي ﷺ. والدرس أن الثقة بالقيادة الشرعية، المستندة إلى البر، تولد قوة جماعية لا يستطيع قوة خارجية كسرها.
+    description_fr: |
+      À Hudaybiyya, lorsque des rumeurs se répandirent que l'émissaire du Prophète ﷺ, Uthmān ibn Affān, avait été tué par les Quraych, le Prophète ﷺ s'assit sous un acacia et appela les musulmans à prêter allégeance. Un par un, ils s'avancèrent et posèrent leurs mains sur les siennes, jurant de se battre jusqu'à la mort. Le pacte est appelé « Bayʿat al-Riḍwān » — le Pacte du Plaisir divin — car Allah révéla : « En vérité, Allah s'est complu en les croyants lorsqu'ils te prêtèrent allégeance sous l'arbre. » Pas une seule personne n'hésita ; même les Bédouins qui s'étaient joints récemment se pressèrent en avant. L'événement cimenta l'unité de la communauté musulmane et démontra leur confiance absolue dans le leadership du Prophète ﷺ. La leçon est que la confiance en un leadership légitime, fondé sur la droiture, génère une force collective qu'aucune force extérieure ne peut briser.
+    reference: "al-Fatḥ 48:18"
+    source_notes: |
+      Ibn Kathīr records that not a single person hesitated at the pledge; even the Bedouin who had joined recently pressed forward, demonstrating the depth of communal trust. Al-Qurṭubī notes that the event cemented the unity of the Muslim community and demonstrated their absolute trust in the Prophet's ﷺ leadership under the most testing conditions.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que pas une seule personne n'hésita lors du pacte ; même les Bédouins qui s'étaient joints récemment se pressèrent en avant, démontrant la profondeur de la confiance communautaire. Al-Qurṭubī note que l'événement cimenta l'unité de la communauté musulmane et démontra leur confiance absolue dans le leadership du Prophète ﷺ dans les conditions les plus éprouvantes.
+    source_notes_ar: |
+      يسجل ابن كثير أنه لم يتردد أحد في البيعة؛ حتى البدو الذين انضموا حديثاً تقدموا، مُثبتين عمق الثقة الجماعية. ويلاحظ القرطبي أن الحدث أرسى وحدة الجماعة المسلمة وأثبت ثقتهم المطلقة بقيادة النبي ﷺ في أشد الظروف اختباراً.
+    display_day_of_year: 8
+    quran_refs: "48:18"
+    hadith_refs: ""
+
+  - slug: quran-story-the-wives-of-nuh-and-lut
+    category: quran_story
+    title_en: The Wives of Nuh and Lut
+    title_ar: زوجتا نوح ولوط
+    title_fr: Les épouses de Noé et de Loth
+    description_en: |
+      The Qur'an mentions two women who were married to prophets yet were destroyed with the disbelievers: the wife of Noah and the wife of Lot. They are presented as warnings that kinship with a prophet does not guarantee salvation. Noah's wife betrayed him by siding with the mockers, and Lot's wife disobeyed the command not to look back at the destroyed city. Allah said: "Allah has set forth an example for those who disbelieve: the wife of Noah and the wife of Lot. They were under two of Our righteous servants but betrayed them. So they did not avail them against Allah at all." The lesson is radical and sobering: faith is personal, not inherited; being close to righteousness without embracing it inwardly is worthless on the Day of Judgment. Proximity to the truth is not the same as acceptance of it.
+    description_ar: |
+      يذكر القرآن امرأتين تزوجهما نبيان yet دُمرتا مع الكافرين: زوجة نوح وزوجة لوط. وقدمتا تحذيراً بأن القرابة من النبي لا تضمن النجاة. خانَت زوجة نوح بانحيازها للساخرين، وعصَت زوجة لوط الأمر بألا تنظر إلى المدينة المدمرة. قال الله: «ضَرَبَ اللَّهُ مَثَلًا لِلَّذِينَ كَفَرُوا امْرَأَتَ نُوحٍ وَامْرَأَتَ لُوطٍ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَالِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ اللَّهِ شَيْئًا». والدرس جذري ومؤثر: الإيمان شخصي لا موروث؛ أن تكون قريباً من البر دون احتضانه داخلياً لا قيمة له يوم القيامة. القرب من الحق ليس قبولاً له.
+    description_fr: |
+      Le Coran mentionne deux femmes qui étaient mariées à des prophètes mais furent détruites avec les mécréants : l'épouse de Noé et l'épouse de Loth. Elles sont présentées comme un avertissement que la parenté avec un prophète ne garantit pas le salut. L'épouse de Noé le trahit en s'alignant avec les moqueurs, et l'épouse de Loth désobéit à l'ordre de ne pas regarder en arrière vers la ville détruite. Allah dit : « Allah a cité en exemple pour les mécréants l'épouse de Noé et l'épouse de Loth. Elles étaient sous deux de Nos serviteurs justes mais elles les trahirent. Elles ne leur furent donc d'aucune utilité auprès d'Allah. » La leçon est radicale et saisissante : la foi est personnelle, pas héritée ; être proche de la droiture sans l'embrasser intérieurement ne vaut rien au Jour du Jugement. La proximité avec la vérité n'est pas la même chose que son acceptation.
+    reference: "al-Taḥrīm 66:10"
+    source_notes: |
+      Ibn Kathīr notes that these two women are presented as warnings that kinship with a prophet does not guarantee salvation — faith is personal, not inherited. Al-Qurṭubī emphasises that proximity to righteousness without embracing it inwardly is worthless on the Day of Judgment, making this a radical corrective to tribal or familial complacency.
+    source_notes_fr: |
+      Ibn Kathīr note que ces deux femmes sont présentées comme un avertissement selon lequel la parenté avec un prophète ne garantit pas le salut — la foi est personnelle, pas héritée. Al-Qurṭubī souligne que la proximité avec la droiture sans l'embrasser intérieurement ne vaut rien au Jour du Jugement, faisant de ce récit un correctif radical contre la complaisance tribale ou familiale.
+    source_notes_ar: |
+      يُشير ابن كثير إلى أن هاتين المرأتين مُقدّمتان كتحذير بأن القرابة من النبي لا تضمن النجاة — الإيمان شخصي لا موروث. ويؤكد القرطبي أن القرب من البر دون احتضانه باطناً لا قيمة له يوم القيامة، مما يجعل هذه القصة تصحيحاً جذرياً للاطمئنان القبلي أو العائلي.
+    display_day_of_year: 9
+    quran_refs: "66:10"
+    hadith_refs: ""
+
+  - slug: quran-story-creation-of-adam
+    category: quran_story
+    title_en: The Creation of Adam and the Refusal of Iblis
+    title_ar: خلق آدم وامتناع إبليس
+    title_fr: La création d'Adam et le refus d'Iblis
+    description_en: |
+      Allah informed the angels that He would create a vicegerent on earth. They asked: "Will You place upon it one who causes corruption and sheds blood, while we declare Your praise and sanctify You?" Allah replied: "Indeed, I know that which you do not know." He taught Adam the names of all things and presented them to the angels, who could not name them. Then Allah commanded the angels to prostrate to Adam, and they all did — except Iblis, who refused out of arrogance: "I am better than him; You created me from fire and created him from clay." Allah expelled him and cursed him, but Iblis asked for respite until the Day of Resurrection, promising to mislead humanity. The lesson is that knowledge elevates status more than material origin, and that arrogance — the refusal to obey despite knowing the truth — is the root of all evil.
+    description_ar: |
+      أخبر الله الملائكة أنه سيخلق خليفة في الأرض. فسألوا: «أتجعل فيها من يفسد فيها ويسفك الدماء ونحن نسبح بحمدك ونقدس لك؟» أجاب: «إني أعلم ما لا تعلمون». فعلّم آدم أسماء كل شيء ثم عرضها على الملائكة، فلم يحيطوا بها. ثم أمر الله الملائكة بالسجود لآدم فسجدوا جميعاً — إلا إبليس، أبى متكبراً: «أنا خير منه؛ خلقتني من نار وخلقته من طين». فطرده الله ولعنه، لكنه استمهل إلى يوم القيامة، متعهداً بإضلال البشر. والدرس أن العلم يرفع المكانة لا الأصل المادي، وأن الكبر — امتناع الطاعة رغم معرفة الحق — أصل كل شر.
+    description_fr: |
+      Allah informa les anges qu'Il allait créer un vicaire sur terre. Ils demandèrent : « Vas-Tu y placer quelqu'un qui y causera la corruption et répandra le sang, alors que nous Te glorifions et Te sanctifions ? » Allah répondit : « En vérité, Je sais ce que vous ne savez pas. » Il enseigna à Adam les noms de toutes choses et les présenta aux anges, qui ne purent les nommer. Puis Allah commanda aux anges de se prosterner devant Adam, et ils le firent tous — sauf Iblis, qui refusa par arrogance : « Je suis meilleur que lui ; Tu m'as créé du feu et Tu l'as créé de l'argile. » Allah l'expulsa et le maudit, mais Iblis demanda un répit jusqu'au Jour de la Résurrection, promettant d'égare l'humanité. La leçon est que la connaissance élève le statut plus que l'origine matérielle, et que l'arrogance — le refus d'obéir malgré la connaissance de la vérité — est la racine de tout mal.
+    reference: "al-Baqarah 2:30-39"
+    source_notes: |
+      Ibn Kathīr explains that Ādam's knowledge of the names of all things demonstrated that knowledge elevates status more than material origin. Al-Qurṭubī notes that Iblīs's refusal to prostrate was the archetype of arrogance — the refusal to obey despite knowing the truth — which the Qur'an identifies as the root of all evil.
+    source_notes_fr: |
+      Ibn Kathīr explique que la connaissance par Ādam des noms de toutes choses démontrait que la connaissance élève le statut plus que l'origine matérielle. Al-Qurṭubī note que le refus d'Iblīs de se prosterner fut l'archétype de l'arrogance — le refus d'obéir malgré la connaissance de la vérité — que le Coran identifie comme la racine de tout mal.
+    source_notes_ar: |
+      يشرح ابن كثير أن علم آدم بأسماء كل شيء أثبت أن العلم يرفع المكانة لا الأصل المادي. ويلاحظ القرطبي أن امتناع إبليس عن السجود كان المثال الأصلي للكبر — امتناع الطاعة رغم معرفة الحق — الذي يُعرفه القرآن بأنه أصل كل شر.
+    display_day_of_year: 10
+    quran_refs: "2:30-39"
+    hadith_refs: ""
+
+  - slug: quran-story-zamzam-well
+    category: quran_story
+    title_en: The Well of Zamzam and Hajar's Patience
+    title_ar: بئر زمزم وصبر هاجر
+    title_fr: Le puits de Zamzam et la patience de Hajar
+    description_en: |
+      When Allah commanded Ibrahim to leave his wife Hajar and infant son Ismail in the barren valley of Mecca, Hajar asked: "Has Allah commanded you to do this?" Ibrahim said yes. She replied: "Then He will not abandon us." The water she had brought ran out. Desperate, she ran seven times between the two hills of Safa and Marwa, searching for water or travelers. At her seventh ascent of Marwa, she heard a voice. Angel Jibril had struck the ground with his wing, and water gushed forth — the well of Zamzam. A passing tribe, the Jurhum, saw birds circling and came to settle, eventually building the first settlement of Mecca. The story teaches that trust in Allah (tawakkul) does not mean passivity; it means acting with full effort while relying on Allah's promise. Hajar's running between Safa and Marwa became a pillar of Hajj and Umrah for all Muslims until the end of time.
+    description_ar: |
+      حين أمر الله إبراهيم بترك زوجته هاجر وابنها الرضيع إسماعيل بوادي مكة القاحل، سألت هاجر: «أمرك الله بذلك؟» قال نعم. أجابت: «إذن لن يضيعنا». فنفد ماؤها. فهرولت سبع مرات بين صفا ومروة تبحث عن ماء أو مسافرين. وفي صعودها السابع لمروة سمعت صوتاً. فضرب جبريل الأرض بجناحه، فانبجس ماء — بئر زمزم. فرأى عابرون من جرهم طيوراً تدور فحلوا، وبنوا أول مستوطنة بمكة. والقصة تعلم أن التوكل على الله لا يعني الخمول؛ بل العمل بكامل الجهد مع الاعتماد على وعد الله. هرولة هajar بين الصفا والمروة صارت ركناً من أركان الحج والعمرة لكل المسلمين إلى يوم الدين.
+    description_fr: |
+      Lorsqu'Allah commanda à Ibrahim de laisser son épouse Hajar et son fils en bas âge Ismaïl dans la vallée stérile de La Mecque, Hajar demanda : « Allah t'a-t-Il commandé cela ? » Ibrahim dit oui. Elle répondit : « Alors Il ne nous abandonnera pas. » L'eau qu'elle avait apportée s'épuisa. Désespérée, elle courut sept fois entre les deux collines de Ṣafā et Marwa, cherchant de l'eau ou des voyageurs. À sa septième montée de Marwa, elle entendit une voix. L'ange Jibrīl avait frappé le sol de son aile, et l'eau jaillit — le puits de Zamzam. Une tribu de passage, les Jurhum, vit des oiseaux tourner et vint s'installer, construisant finalement la première colonie de La Mecque. L'histoire enseigne que la confiance en Allah (tawakkul) ne signifie pas la passivité ; cela signifie agir avec tous ses efforts tout en comptant sur la promesse d'Allah. La course de Hajar entre Ṣafā et Marwa devint un pilier du Hajj et de la ʿUmra pour tous les musulmans jusqu'à la fin des temps.
+    reference: "al-Baqarah 2:158"
+    source_notes: |
+      Ibn Kathīr narrates that Hājar's running between Ṣafā and Marwa became a pillar of Hajj and ʿUmra, immortalising a mother's active trust. Al-Qurṭubī notes that the well of Zamzam has flowed continuously since the time of Ismāʿīl, and that the Jurhum's settlement around it established the first community of Makka.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que la course de Hājar entre Ṣafā et Marwa devint un pilier du Hajj et de la ʿUmra, immortalisant la confiance active d'une mère. Al-Qurṭubī note que le puits de Zamzam coule continuellement depuis l'époque d'Ismāʿīl, et que l'installation des Jurhum autour de lui établit la première communauté de La Mecque.
+    source_notes_ar: |
+      يروي ابن كثير أن هرولة هاجر بين الصفا والمروة صارت ركناً من أركان الحج والعمرة، مخلدةً توكل الأم الفاعل. ويلاحظ القرطبي أن بئر زمزم يجري باستمرار منذ زمن إسماعيل، وأن استيطان جرهم حوله أسّس أول مجتمع بمكة.
+    display_day_of_year: 11
+    quran_refs: "2:158"
+    hadith_refs: "Bukhari 3364"
+
+  - slug: quran-story-the-blind-man
+    category: quran_story
+    title_en: The Blind Man and the Frowning Prophet
+    title_ar: الأعمى والنبي ﷺ العابس
+    title_fr: L'aveugle et le Prophète ﷺ qui fronça les sourcils
+    description_en: |
+      The Prophet ﷺ was once engaged in serious conversation with the leaders of Quraysh — Umayya ibn Khalaf and others — hoping they might accept Islam. At that moment, a blind man named Abdullah ibn Umm Maktum approached, seeking religious instruction. The Prophet ﷺ frowned and turned away, annoyed at the interruption. Allah immediately revealed Surah Abasa: "He frowned and turned away because the blind man came to him. But what would make you perceive that perhaps he might be purified? Or be reminded, and the remembrance would benefit him?" The Prophet ﷺ was corrected by Allah Himself: the pursuit of powerful unbelievers does not justify neglecting sincere seekers, however humble. Abdullah ibn Umm Maktum later became a caller to prayer in Medina and was martyred at the Battle of Qadisiyyah. The lesson is that in the sight of Allah, the sincerity of a humble believer outweighs the potential influence of a powerful disbeliever.
+    description_ar: |
+      كان النبي ﷺ يتحدث بجدية مع زعماء قريش — أمية بن خلف وغيرهم — على أمل أن يُسلموا. وفي تلك اللحظة، تقدم رجل أعمى يُدعى عبد الله بن أم مكتوم يطلب التعليم الديني. فعبس النبي ﷺ وأعرض، مزعوجاً من المقاطعة. فأنزل الله فوراً سورة عبس: «عَبَسَ وَتَوَلَّى أَنْ جَاءَهُ الْأَعْمَى وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّى أَوْ يَذَّكَّرُ فَتَنْفَعَهُ الذِّكْرَى». فوبّخ الله النبي ﷺ بنفسه: طلب الكفار المؤثرين لا يبرر إهمال المُلتَمِسين الصادقين، ولو كانوا متواضعين. وصار عبد الله بن أم مكتوم لاحقاً مؤذناً بالمدينة واستُشهد بمعركة القادسية. والدرس أن في نظر الله إخلاص المؤمن المتواضع يفوق تأثير الكافر المُقتَدِر.
+    description_fr: |
+      Le Prophète ﷺ était un jour engagé dans une conversation sérieuse avec les chefs des Quraych — Umayya ibn Khalaf et d'autres — espérant qu'ils accepteraient l'islam. À ce moment, un homme aveugle nommé ʿAbd Allāh ibn Umm Maktūm s'approcha, cherchant un enseignement religieux. Le Prophète ﷙ fronça les sourcils et se détourna, ennuyé par l'interruption. Allah révéla immédiatement Sūrat ʿAbasa : « Il a froncé les sourcils et s'est détourné parce que l'aveugle est venu à lui. Mais qu'est-ce qui te ferait percevoir que peut-être il pourrait se purifier ? Ou être rappelé, et le rappel lui profiterait ? » Le Prophète ﷺ fut corrigé par Allah Lui-même : la poursuite de puissants mécréants ne justifie pas de négliger des chercheurs sincères, si humbles soient-ils. ʿAbd Allāh ibn Umm Maktūm devint plus tard un muezzin à Médine et fut martyrisé à la bataille de Qādisiyya. La leçon est qu'aux yeux d'Allah, la sincérité d'un croyant humble l'emporte sur l'influence potentielle d'un mécréant puissant.
+    reference: "ʿAbasa 80:1-10"
+    source_notes: |
+      Ibn Kathīr records that ʿAbd Allāh ibn Umm Maktūm later became a caller to prayer in Madīna and was martyred at the Battle of Qādisiyya, proving that the Prophet's initial assessment was corrected by divine instruction. Al-Qurṭubī notes that this sūrah teaches that in the sight of Allah, the sincerity of a humble believer outweighs the potential influence of a powerful disbeliever.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que ʿAbd Allāh ibn Umm Maktūm devint plus tard muezzin à Médine et fut martyrisé à la bataille de Qādisiyya, prouvant que l'évaluation initiale du Prophète fut corrigée par l'instruction divine. Al-Qurṭubī note que cette sourate enseigne qu'aux yeux d'Allah, la sincérité d'un croyant humble l'emporte sur l'influence potentielle d'un mécréant puissant.
+    source_notes_ar: |
+      يسجل ابن كثير أن عبد الله بن أم مكتوم صار لاحقاً مؤذناً بالمدينة واستُشهد بمعركة القادسية، مُثبتاً أن التقدير الأولي للنبي ﷺ قد صُحح بالتوجيه الإلهي. ويلاحظ القرطبي أن هذه السورة تُعلّم أن في نظر الله إخلاص المؤمن المتواضع يفوق تأثير الكافر المُقتَدِر.
+    display_day_of_year: 12
+    quran_refs: "80:1-10"
+    hadith_refs: ""
+
+  - slug: quran-story-the-ifk
+    category: quran_story
+    title_en: The Slander Against Aisha (al-Ifk)
+    title_ar: الإفك — قصة افتراء عائشة
+    title_fr: La calomnie contre Aisha (al-Ifk)
+    description_en: |
+      On the return from the expedition against Banu al-Mustaliq, Aisha ra was left behind when her litter was carried away without her. She waited alone until a young Companion, Safwan ibn al-Mu'attal, found her and escorted her back to Medina. A hypocrite named Abdullah ibn Ubayy spread the slander that Aisha had committed adultery. The rumor spread for a month, causing the Prophet ﷺ and his household immense pain. Aisha fell ill and wept continuously. Then Allah revealed verses clearing her completely: "Those who brought the lie are a group among you. Do not think it bad for you; rather, it is good for you." The liars were publicly flogged. The incident established the Islamic evidentiary standard for adultery — four eyewitnesses — and demonstrated that even the closest to the Prophet ﷺ were not immune from slander, but that Allah's justice ultimately prevails. The lesson is that false accusations, however widely believed, collapse before divine truth.
+    description_ar: |
+      في العودة من غزوة بني المصطلق، تُركت عائشة رضي الله عنها حين حُمل محفوفها دونها. فانتظرت وحدها حتى وجدها صحابي شاب، صفوان بن المعطل، فصاحبها إلى المدينة. فنفّق منافق يُدعى عبد الله بن أُبيّ شائعة أن عائشة زنت. انتشرت الشائعة شهراً، فآلمت النبي ﷺ وأهل بيته ألماً شديداً. مرضت عائشة وبكت باستمرار. ثم أنزل الله آيات تبرئها تبرئة كاملة: «إن الذين جاءوا بالإفك عصبة منكم لا تحسبوه شراً لكم بل هو خير لكم». وجُلد الكاذبون علناً. وأرسى الحدث المعيار الإثباتي الإسلامي للزنا — أربعة شهود عيان — وأثبت أن حتى المقربين من النبي ﷺ لم يكونوا محصنين من الافتراء، لكن عدالة الله تغلب في النهاية. والدرس أن الاتهامات الكاذبة، ولو آمن بها الجميع، تتهاوى أمام الحق الإلهي.
+    description_fr: |
+      Au retour de l'expédition contre Banū al-Muṣṭaliq, ʿĀʾisha ra fut laissée en arrière lorsque sa litière fut emportée sans elle. Elle attendit seule jusqu'à ce qu'un jeune Compagnon, Ṣafwān ibn al-Muʿaṭṭal, la trouve et l'escorte jusqu'à Médine. Un hypocrite nommé ʿAbd Allāh ibn Ubayy répandit la calomnie qu'ʿĀʾisha avait commis l'adultère. La rumeur se répandit pendant un mois, causant au Prophète ﷺ et à sa maisonnée une immense douleur. ʿĀʾisha tomba malade et pleura continuellement. Puis Allah révéla des versets la blanchissant complètement : « Ceux qui ont apporté la calomnie sont un groupe parmi vous. Ne pensez pas que c'est mal pour vous ; au contraire, c'est bien pour vous. » Les menteurs furent publiquement flagellés. L'incident établit la norme probatoire islamique pour l'adultère — quatre témoins oculaires — et démontra que même les plus proches du Prophète ﷺ n'étaient pas à l'abri de la calomnie, mais que la justice d'Allah finissait par prévaloir. La leçon est que les fausses accusations, aussi largement crues soient-elles, s'effondrent devant la vérité divine.
+    reference: "al-Nūr 24:11-20"
+    source_notes: |
+      Ibn Kathīr traces the incident as establishing the Islamic evidentiary standard for adultery — four eyewitnesses — and demonstrates that even the closest to the Prophet ﷺ were not immune from slander. Al-Qurṭubī notes that the public flogging of the liars established that false accusations, however widely believed, collapse before divine truth and due process.
+    source_notes_fr: |
+      Ibn Kathīr retrace cet incident comme établissant la norme probatoire islamique pour l'adultère — quatre témoins oculaires — et démontre que même les plus proches du Prophète ﷺ n'étaient pas à l'abri de la calomnie. Al-Qurṭubī note que la flagellation publique des menteurs établit que les fausses accusations, aussi largement crues soient-elles, s'effondrent devant la vérité divine et la procédure régulière.
+    source_notes_ar: |
+      يتتبع ابن كثير الحادث باعتباره مُرسّخاً للمعيار الإثباتي الإسلامي في الزنا — أربعة شهود عيان — ومُثبتاً أن حتى المقربين من النبي ﷺ لم يكونوا محصنين من الافتراء. ويلاحظ القرطبي أن الجلد العلني للكاذبين أرسى أن الاتهامات الكاذبة، ولو آمن بها الجميع، تتهاوى أمام الحق الإلهي والإجراءات القانونية.
+    display_day_of_year: 13
+    quran_refs: "24:11-20"
+    hadith_refs: ""
+
+  - slug: quran-story-hunayn
+    category: quran_story
+    title_en: The Battle of Hunayn
+    title_ar: معركة حنين
+    title_fr: La bataille de Hunayn
+    description_en: |
+      In the eighth year AH, shortly after the conquest of Mecca, the Hawazin and Thaqif tribes assembled an army of twenty thousand at the narrow valley of Hunayn, hoping to crush the Muslims while they were still celebrating. The Prophet ﷺ marched with twelve thousand men, including two thousand new Meccan converts. The Muslims were overconfident: "We will not be defeated today for lack of numbers." But the enemy ambushed them from the heights, and the Muslim ranks broke in panic. The Prophet ﷺ stood firm on his mule, calling out: "I am the Prophet, there is no lie in it; I am the son of Abdul-Muttalib!" A handful of Companions rallied around him, and Allah sent down reinforcements — unseen angels — and calm returned. The Muslims won decisively. The lesson is that numerical strength and material confidence are illusions; victory belongs to Allah alone, and humility before Him is the prerequisite for success.
+    description_ar: |
+      في السنة الثامنة للهجرة، بعد فتح مكة مباشرة، جمعت هوازن وثقيف جيشاً من عشرين ألفاً بوادي حنين الضيق، على أمل سحق المسلمين وهم يحتفلون. سار النبي ﷺ باثني عشر ألفاً، بينهم ألفان من مُحدَثي الإسلام بمكة. تكبّر المسلمون: «لن نُغلب اليوم من قلة». لكن العدو كمّنهم من المرتفعات، فتفرقت صفوف المسلمين في ذعر. وقف النبي ﷺ ثابتاً على بغلته يهتف: «أنا النبي لا كذب، أنا ابن عبد المطلب!» فالتف حوله حفنة من الصحابة، وأنزل الله مدداً — ملائكة غير مرئية — فعاد الهدوء. فاز المسلمون نصراً حاسماً. والدرس أن القوة العددية والثقة المادية أوهام؛ النصر لله وحده، والتواضع له شرط النجاح.
+    description_fr: |
+      En la huitième année de l'Hégire, peu après la conquête de La Mecque, les tribus de Hawāzin et Thaqīf rassemblèrent une armée de vingt mille hommes dans la vallée étroite de Hunayn, espérant écraser les musulmans pendant qu'ils célébraient encore. Le Prophète ﷺ marcha avec douze mille hommes, dont deux mille nouveaux convertis mekkois. Les musulmans étaient pleins d'assurance : « Nous ne serons pas vaincus aujourd'hui par manque de nombre. » Mais l'ennemi les prit en embuscade depuis les hauteurs, et les rangs musulmans se brisèrent dans la panique. Le Prophète ﷙ resta ferme sur sa mule, criant : « Je suis le Prophète, il n'y a pas de mensonge en cela ; je suis le fils de ʿAbd al-Muṭṭalib ! » Une poignée de Compagnons se rallièrent autour de lui, et Allah envoya des renforts — des anges invisibles — et le calme revint. Les musulmans remportèrent une victoire décisive. La leçon est que la force numérique et la confiance matérielle sont des illusions ; la victoire appartient à Allah seul, et l'humilité devant Lui est le préalable au succès.
+    reference: "al-Tawbah 9:25-26"
+    source_notes: |
+      Ibn Kathīr records that the Muslims' initial overconfidence — "We will not be defeated today for lack of numbers" — was precisely the sin that caused their panic, teaching that numerical strength without humility is an illusion. Al-Qurṭubī notes that the Prophet's ﷺ steadfastness on his mule, calling out his lineage, became the rallying point that restored the ranks.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que la confiance excessive initiale des musulmans — « Nous ne serons pas vaincus aujourd'hui par manque de nombre » — fut précisément le péché qui causa leur panique, enseignant que la force numérique sans humilité est une illusion. Al-Qurṭubī note que la fermeté du Prophète ﷺ sur sa mule, proclamant sa lignée, devint le point de ralliement qui restaura les rangs.
+    source_notes_ar: |
+      يسجل ابن كثير أن التكبر الأولي للمسلمين — « لن نُغلب اليوم من قلة » — كان هو الخطيئة نفسها التي أدت إلى ذعرهم، مُعلّماً أن القوة العددية بلا تواضع وهم. ويلاحظ القرطبي أن ثبات النبي ﷺ على بغلته وهو ينادي بنسبه صار نقطة اجتماع أعادت الصفوف.
+    display_day_of_year: 14
+    quran_refs: "9:25-26"
+    hadith_refs: ""
+
+  - slug: quran-story-the-najran-delegation
+    category: quran_story
+    title_en: The Delegation of Christians from Najran
+    title_ar: وفد نجران
+    title_fr: La délégation des chrétiens de Najrān
+    description_en: |
+      A delegation of sixty Christians from Najran in Yemen came to Medina to debate the Prophet ﷺ. They argued that Jesus was divine because of his miracles — raising the dead, healing the blind, speaking from the cradle. The Prophet ﷺ recited the Qur'an's account: Jesus was a messenger, born miraculously to Maryam without a father, but he was a servant of Allah, not divine. The debate intensified, and the Prophet ﷺ invited them to a mubahala — a mutual supplication cursing the liars. The Christians, seeing the Prophet ﷺ, his daughter Fatima, his grandsons Hasan and Husayn, and his son-in-law Ali, recognized spiritual light in their faces. They declined the mubahala and agreed to a treaty: they would pay jizya and live under Muslim protection. The incident established the precedent for interfaith dialogue and dhimmi status under Islamic rule.
+    description_ar: |
+      جاء وفد من ستين مسيحياً من نجران باليمن للمدينة ليناظروا النبي ﷺ. حاجّوا بأن عيسى إله لمعجزاته — إحياء الموتى، شفاء الأعمى، الكلام من المهد. فتلاه النبي ﷺ رواية القرآن: عيسى رسول، وُلد معجزة لمريم من غير أب، لكنه عبد لله لا إله. احتد النقاش، فدعاهم النبي ﷺ إلى مباهلة — دعاء متبادل بلعنة الكاذبين. فلما رأى المسيحيون النبي ﷺ وابنته فاطمة وأحفاده حسن وحسين وصهره علياً، عرفوا نوراً روحياً في وجوههم. فأبوا المباهلة واتفقوا على عهد: يدفعون الجزية ويعيشون تحت حماية المسلمين. وأرسى الحدث سابقة للحوار بين الأديان ووضع الذمة تحت الحكم الإسلامي.
+    description_fr: |
+      Une délégation de soixante chrétiens de Najrān au Yémen vint à Médine pour débattre avec le Prophète ﷺ. Ils argumentèrent que Jésus était divin à cause de ses miracles — ressusciter les morts, guérir les aveugles, parler du berceau. Le Prophète ﷙ récita le récit coranique : Jésus était un messager, né miraculeusement de Maryam sans père, mais il était un serviteur d'Allah, pas divin. Le débat s'intensifia, et le Prophète ﷺ les invita à une mubāhala — une supplication mutuelle maudissant les menteurs. Les chrétiens, voyant le Prophète ﷺ, sa fille Fāṭima, ses petits-fils al-Ḥasan et al-Ḥusayn, et son gendre ʿAlī, reconnurent une lumière spirituelle sur leurs visages. Ils refusèrent la mubāhala et acceptèrent un traité : ils paieraient la jizya et vivraient sous la protection musulmane. L'incident établit le précédent du dialogue interreligieux et du statut de dhimmī sous la règle islamique.
+    reference: "Āl ʿImrān 3:61-64"
+    source_notes: |
+      Ibn Kathīr records that the Christians of Najrān, seeing the Prophet ﷺ with his family, recognised spiritual light in their faces and declined the *mubāhala*, establishing the precedent for interfaith dialogue under Islamic rule. Al-Qurṭubī notes that the incident demonstrated that the Qur'an's account of ʿĪsā — messenger, not divinity — was presented with both clarity and respect for the opposing party.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que les chrétiens de Najrān, voyant le Prophète ﷺ avec sa famille, reconnurent une lumière spirituelle sur leurs visages et refusèrent la *mubāhala*, établissant le précédent du dialogue interreligieux sous la règle islamique. Al-Qurṭubī note que l'incident démontra que le récit coranique de ʿĪsā — messager, non divinité — fut présenté avec clarté et respect pour la partie adverse.
+    source_notes_ar: |
+      يسجل ابن كثير أن نصارى نجران، حين رأوا النبي ﷺ مع أهل بيته، عرفوا نوراً روحياً في وجوههم فأبوا المباهلة، مُرسخين سابقة الحوار بين الأديان تحت الحكم الإسلامي. ويلاحظ القرطبي أن الحدث أثبت أن رواية القرآن لعيسى — رسول لا إله — قُدّمت بوضوح وباحترام للطرف المقابل.
+    display_day_of_year: 15
+    quran_refs: "3:61-64"
+    hadith_refs: ""
+
+  - slug: quran-story-farewell-pilgrimage
+    category: quran_story
+    title_en: The Farewell Pilgrimage
+    title_ar: حجة الوداع
+    title_fr: Le pèlerinage d'adieu
+    description_en: |
+      In the tenth year AH, the Prophet ﷺ set out from Medina with approximately 100,000 Muslims for what would be his only and final Hajj. At Arafat, he delivered the Farewell Sermon: "O people, lend me an attentive ear, for I do not know whether I shall meet you again after this year." He abolished all blood-feuds and interest from the pre-Islamic era, declared that Muslims are brothers, affirmed the rights of women, and reminded them that they would be asked about their treatment of others. On the return, at Ghadir Khumm, he held up Ali's hand and said: "Whoever's master I am, Ali is his master." The pilgrimage was the capstone of the Islamic mission; within months, the Prophet ﷺ would pass away. The lesson is that legacy is defined by what one leaves behind in principles, not in material possessions.
+    description_ar: |
+      في السنة العاشرة للهجرة، خرج النبي ﷺ من المدينة بقرابة مئة ألف مسلم في حجة كانت أولى حجه وآخرها. بعرفة، ألقى خطبة الوداع: «أيها الناس، اسمعوا قولي فإني لا أدري لعلي لا ألقاكم بعد عامي هذا». ألغى جميع ثارات الجاهلية ورباها، أعلن أن المسلمين إخوة، أكد حقوق النساء، وذكرهم أنهم سُؤالون عن معاملة الآخرين. وفي العودة بغدير خم، رفع يد علي وقال: «من كنت مولاه فعلي مولاه». كانت الحجة تاج البعثة الإسلامية؛ وبعد أشهر توفي النبي ﷺ. والدرس أن الإرث يُقاس بما يتركه المرء من مبادئ لا من ممتلكات مادية.
+    description_fr: |
+      En la dixième année de l'Hégire, le Prophète ﷺ partit de Médine avec environ 100 000 musulmans pour ce qui serait son unique et dernier Hajj. À ʿArafāt, il prononça le Sermon d'adieu : « Ô gens, prêtez-moi une oreille attentive, car je ne sais pas si je vous reverrai après cette année. » Il abolit toutes les vendettas et l'usure de l'ère pré-islamique, déclara que les musulmans sont frères, affirma les droits des femmes, et leur rappela qu'ils seraient interrogés sur leur traitement des autres. Au retour, à Ghadīr Khumm, il leva la main de ʿAlī et dit : « Celui dont je suis le maître, ʿAlī est son maître. » Le pèlerinage fut le couronnement de la mission islamique ; dans les mois qui suivirent, le Prophète ﷺ décéda. La leçon est que l'héritage se définit par ce que l'on laisse en principes, pas en possessions matérielles.
+    reference: "al-Māʾidah 5:3"
+    source_notes: |
+      Ibn Kathīr notes that the Farewell Pilgrimage was the capstone of the Islamic mission, consolidating every major teaching into a single public address. Al-Qurṭubī observes that the abolition of pre-Islamic blood-feuds and interest established a clean break with the past, while the affirmation of women's rights at ʿArafāt was unprecedented in Arabian society.
+    source_notes_fr: |
+      Ibn Kathīr note que le pèlerinage d'adieu fut le couronnement de la mission islamique, consolidant chaque enseignement majeur en un seul discours public. Al-Qurṭubī observe que l'abolition des vendettas et de l'usure pré-islamiques établit une rupture nette avec le passé, tandis que l'affirmation des droits des femmes à ʿArafāt était sans précédent dans la société arabe.
+    source_notes_ar: |
+      يُشير ابن كثير إلى أن حجة الوداع كانت تاج البعثة الإسلامية، تُجمّع كل تعليم رئيسي في خطاب عام واحد. ويلاحظ القرطبي أن إلغاء ثارات الجاهلية ورباها أرسى فصلاً واضحاً مع الماضي، بينما كان تأكيد حقوق النساء بعرفة بلا سابقة في المجتمع العربي.
+    display_day_of_year: 16
+    quran_refs: "5:3"
+    hadith_refs: ""
+
+  - slug: quran-story-haman-and-pharaoh
+    category: quran_story
+    title_en: Haman and the Tower to Heaven
+    title_ar: هامان وبرجه إلى السماء
+    title_fr: Hāmān et la tour vers le ciel
+    description_en: |
+      Pharaoh's chief minister, Haman, was ordered to build a tower "whose top reaches the heavens" so that Pharaoh might see the God of Moses. The Qur'an presents this as the height of arrogance: a man who claimed divinity himself now sought to assault the heavens to confront the true God. The tower, like the Tower of Babel in earlier scriptures, represents humanity's recurring impulse to reach God through force and pride rather than submission. Pharaoh and Haman drowned in the Red Sea, and Allah said: "We made them a precedent and an example for later generations." The story teaches that every tyrant who sets himself against divine truth ultimately meets destruction, and that the architecture of arrogance — however grand — collapses when it confronts the will of Allah.
+    description_ar: |
+      أمر فرعون وزيره هامان ببناء برج «يطلع إلى السموات» ليرى إله موسى. يقدم القرآن هذا باعتباره ذروة الكبر: رجل ادّعى الألوهية لنفسه الآن يحاول الاعتداء على السماوات لمواجهة الإله الحق. البرج، كبرج بابل في الكتب السابقة، يمثل دافع البشر المتكرر للوصول إلى الله بالقوة والكبرياء لا بالخضوع. غرق فرعون وهامان في البحر الأحمر، فقال الله: «وجعلناهم سلفاً ومثلاً للآخرين». والقصة تعلم أن كل طاغية يتخذ موقفاً ضد الحق الإلهي يلقى الهلاك في النهاية، وأن معمار الكبر — ولو كان عظيماً — ينهار حين يواجه مشيئة الله.
+    description_fr: |
+      Le ministre en chef de Pharaon, Hāmān, reçut l'ordre de construire une tour « dont le sommet atteint les cieux » afin que Pharaon puisse voir le dieu de Moïse. Le Coran présente cela comme le comble de l'arrogance : un homme qui prétendait lui-même à la divinité cherchait maintenant à assaillir les cieux pour confronter le vrai Dieu. La tour, comme la tour de Babel dans les Écritures antérieures, représente l'impulsion récurrente de l'humanité d'atteindre Dieu par la force et l'orgueil plutôt que par la soumission. Pharaon et Hāmān se noyèrent dans la mer Rouge, et Allah dit : « Nous les avons fait un précédent et un exemple pour les générations futures. » L'histoire enseigne que tout tyran qui s'oppose à la vérité divine rencontre finalement la destruction, et que l'architecture de l'arrogance — si grandiose soit-elle — s'effondre lorsqu'elle confronte la volonté d'Allah.
+    reference: "al-Ghāfir 40:36-37"
+    source_notes: |
+      Ibn Kathīr records that Hāmān's tower represents the recurring human impulse to reach God through force and pride rather than submission. Al-Qurṭubī notes that Pharaoh's command — "build me a tower that I may look at the God of Moses" — is the height of arrogance: a man who claimed divinity himself now sought to assault the heavens to confront the true God.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que la tour de Hāmān représente l'impulsion humaine récurrente d'atteindre Dieu par la force et l'orgueil plutôt que par la soumission. Al-Qurṭubī note que l'ordre de Pharaon — « construis-moi une tour pour que je puisse voir le dieu de Moïse » — est le comble de l'arrogance : un homme qui prétendait lui-même à la divinité cherchait maintenant à assaillir les cieux pour confronter le vrai Dieu.
+    source_notes_ar: |
+      يسجل ابن كثير أن برج هامان يمثل الدافع البشري المتكرر للوصول إلى الله بالقوة والكبرياء لا بالخضوع. ويلاحظ القرطبي أن أمر فرعون — « ابن لي برجاً لعلي أبلغ الأسباب، أسباب السماوات فأطلع إلى إله موسى » — هو ذروة الكبر: رجل ادّعى الألوهية لنفسه يحاول الآن الاعتداء على السماوات لمواجهة الإله الحق.
+    display_day_of_year: 17
+    quran_refs: "40:36-37"
+    hadith_refs: ""
+
+  - slug: quran-story-salihs-she-camel
+    category: quran_story
+    title_en: The She-Camel of Salih
+    title_ar: ناقة صالح
+    title_fr: La chamelle de Salih
+    description_en: |
+      The people of Thamud asked their prophet Salih for a miracle to prove his mission. He prayed, and from a solid rock emerged a she-camel, ten months pregnant — a living, breathing creature born from stone. Allah said: "This is the she-camel of Allah — a sign for you; so let her graze in Allah's earth and do not harm her, or a painful punishment will seize you." The people of Thamud, however, could not accept that a miraculous animal should drink from their wells on alternate days. They hamstrung her, killing her. Salih warned them: "Enjoy yourselves in your homes for three days — that is a promise not to be denied." On the third day, a thunderbolt destroyed them. The lesson is that demanding miracles is often a form of resistance, not sincerity; and when proof is given, rejecting it invites swift retribution.
+    description_ar: |
+      طلب قوم ثمود من نبيهم صالح معجزة تثبت بعثته. فدعا، فخرجت من صخرة صماء ناقة عشراء — مخلوقة حية تتنفس من حجر. قال الله: «هذه ناقة الله لكم آية فذروها تأكل في أرض الله ولا تمسوها بسوءٍ فيأخذكم عذابٌ أليم». لكن قوم ثمود لم يقبلوا أن تشرب دابة معجزة من آبارهم يوماً عن يوم. فعقروها قتلاً. فحذرهم صالح: «تمتعوا في داركم ثلاثة أيام — ذلك وعدٌ غير مكذوب». ففي اليوم الثالث، أهلكتهم الصاعقة. والدرس أن طلب المعجزات غالباً مقاومة لا إخلاص؛ وحين تُعطى الحجة، فرفضها يستجلب العقاب السريع.
+    description_fr: |
+      Le peuple de Thamūd demanda à son prophète Ṣāliḥ un miracle pour prouver sa mission. Il pria, et d'un rocher solide sortit une chamelle, pleine de dix mois — une créature vivante et respirante née de la pierre. Allah dit : « Voici la chamelle d'Allah pour vous — un signe ; laissez-la donc paître dans la terre d'Allah et ne lui faites pas de mal, sinon un châtiment douloureux vous saisira. » Le peuple de Thamūd, cependant, ne pouvait accepter qu'un animal miraculeux bût à leurs puits un jour sur deux. Ils lui sectionnèrent les jarrets, la tuant. Ṣāliḥ les avertit : « Jouissez dans vos demeures pendant trois jours — c'est une promesse qui ne sera pas démentie. » Le troisième jour, la foudre les détruisit. La leçon est que demander des miracles est souvent une forme de résistance, pas de sincérité ; et quand la preuve est donnée, la rejeter invite à une rétribution rapide.
+    reference: "al-Shuʿarāʾ 26:141-159"
+    source_notes: |
+      Ibn Kathīr compiles reports that the she-camel's emergence from solid rock was a miracle of creation (*ikhrāj*), parallel to the creation of Ādam without parents. Al-Qurṭubī highlights that the camel was not merely a sign but a *mīthāq* (solemn covenant); harming her was breaking their treaty with Allah.
+    source_notes_fr: |
+      Ibn Kathīr compile des rapports selon lesquels la sortie de la chamelle du rocher solide fut un miracle de création (*ikhrāj*), parallèle à la création d'Ādam sans parents. Al-Qurṭubī souligne que la chamelle n'était pas simplement un signe mais un *mīthāq* (pacte solennel) ; lui faire du mal était rompre leur traité avec Allah.
+    source_notes_ar: |
+      يجمع ابن كثير الروايات القائلة إن خروج الناقة من الصخرة الصماء كان معجزة إخراج (*ikhrāj*) موازية لخلق آدم بلا والدين. ويُبرز القرطبي أن الناقة لم تكن مجرد آية بل ميثاقاً صاعداً؛ إيذاؤها كان نقضاً لعهدهم مع الله.
+    display_day_of_year: 18
+    quran_refs: "26:141-159"
+    hadith_refs: ""
+
+  - slug: quran-story-magicians-of-pharaoh
+    category: quran_story
+    title_en: The Magicians Who Believed in Moses
+    title_ar: السحرة الذين آمنوا بموسى
+    title_fr: Les magiciens qui crurent en Moïse
+    description_en: |
+      When Moses threw his staff before Pharaoh's court, it became a serpent that swallowed the magicians' ropes and rods. The magicians — experts in illusion — recognized immediately that this was not sleight of hand but a miracle from Allah. They fell prostrate, declaring: "We believe in the Lord of the Worlds, the Lord of Moses and Aaron!" Pharaoh, enraged that his own entertainers had defected, threatened to cut off their hands and feet on opposite sides and crucify them. They replied without hesitation: "We will never prefer you over the clear proofs that have come to us. Do whatever you will; you can only judge for this worldly life. We have believed in our Lord that He may forgive us our sins." Pharaoh crucified them, but their martyrdom became one of the most powerful testimonies in the Qur'an. The lesson is that recognition of truth requires no elaborate proof — those who know, know — and that accepting truth can cost everything, yet it is the only choice worth making.
+    description_ar: |
+      حين طرح موسى عصاه أمام بلاط فرعون، صارت ثعباناً ابتلع حبال السحارة وعصيهم. فعرف السحارة — خبراء الوهم — فوراً أن هذا ليس خداعاً بل معجزة من الله. فخرّوا سجداً: «آمنا برب العالمين رب موسى وهارون!» فغضب فرعون أن مُسلِّيه انشقوا عنه، فهدد بقطع أيديهم وأرجلهم من خلاف وصلبهم. فأجابوا بلا تردد: «لن نؤثرك على ما جاءنا من البينات، وافعل ما أنت فاعل إنما تقضي هذه الحياة الدنيا، قد آمنا بربنا ليغفر لنا خطايانا». فصلبهم فرعون، لكن استشهادهم صار من أقوى الشهادات في القرآن. والدرس أن التعرف على الحق لا يحتاج برهاناً معقداً — من يعرف يعرف — وأن قبول الحق قد يكلف كل شيء، لكنه الخيار الوحيد المجدي.
+    description_fr: |
+      Lorsque Moïse jeta son bâton devant la cour de Pharaon, il devint un serpent qui avala les cordes et les bâtons des magiciens. Les magiciens — experts en illusion — reconnurent immédiatement que ce n'était pas une tromperie mais un miracle d'Allah. Ils tombèrent en prostration, déclarant : « Nous croyons au Seigneur des Mondes, au Seigneur de Moïse et d'Aaron ! » Pharaon, furieux que ses propres divertisseurs aient fait défection, menaça de leur couper les mains et les pieds en diagonale et de les crucifier. Ils répondirent sans hésitation : « Nous ne te préférerons jamais aux preuves évidentes qui nous sont parvenues. Fais ce que tu veux ; tu ne peux juger que pour cette vie terrestre. Nous avons cru en notre Seigneur pour qu'Il nous pardonne nos péchés. » Pharaon les crucifia, mais leur martyre devint l'un des témoignages les plus puissants du Coran. La leçon est que la reconnaissance de la vérité ne nécessite pas de preuve élaborée — ceux qui savent, savent — et qu'accepter la vérité peut coûter tout, mais c'est le seul choix qui vaille la peine.
+    reference: "Ṭā Hā 20:56-73"
+    source_notes: |
+      Ibn Kathīr highlights that the magicians' instantaneous conversion proves that sincere hearts can distinguish truth from falsehood no matter how impressive the latter appears. Al-Qurṭubī notes that their martyrdom — accepting crucifixion rather than renouncing faith — became one of the most powerful testimonies in the Qur'an.
+    source_notes_fr: |
+      Ibn Kathīr souligne que la conversion instantanée des magiciens prouve que les cœurs sincères peuvent distinguer le vrai du faux quelle que soit l'impression que ce dernier produit. Al-Qurṭubī note que leur martyre — accepter la crucifixion plutôt que de renier la foi — devint l'un des témoignages les plus puissants du Coran.
+    source_notes_ar: |
+      يُبرز ابن كثير أن إسلام السحرة فوراً يُثبت أن القلوب الصادقة تستطيع التفريق بين الحق والباطل مهما بدى الأخير مهيباً. ويلاحظ القرطبي أن استشهادهم — قبول الصلب على التراجع عن الإيمان — صار من أقوى الشهادات في القرآن.
+    display_day_of_year: 19
+    quran_refs: "20:56-73"
+    hadith_refs: ""
+
+  - slug: quran-story-dhul-qarnayn
+    category: quran_story
+    title_en: Dhul-Qarnayn and the Barrier of Ya'juj and Ma'juj
+    title_ar: ذو القرنين وسد يأجوج ومأجوج
+    title_fr: Dhū al-Qarnayn et la barrière de Yaʾjūj et Maʾjūj
+    description_en: |
+      Dhul-Qarnayn — "the Two-Horned One," a righteous king granted vast power and knowledge by Allah — traveled to the ends of the earth. In one direction, he found a people living between two mountains, terrorized by the hordes of Ya'juj and Ma'juj (Gog and Magog), who would raid and devastate their lands. They offered him tribute if he would build a barrier between them. Dhul-Qarnayn constructed a massive wall of iron and molten copper, sealing the pass completely. He said: "This is a mercy from my Lord. But when the promise of my Lord comes, He will level it to dust." The Qur'an presents Dhul-Qarnayn not as a conqueror but as a just ruler who used his power to protect the weak and acknowledged that all his achievements were temporary before Allah's decree. The lesson is that power is legitimate only when it serves justice, and that every human construction — however mighty — is subject to divine will.
+    description_ar: |
+      ذو القرنين — «صاحب القرنين»، ملك صالح مُنعَم عليه بقوة وعلم واسعين من الله — سافر إلى أطراف الأرض. في جهة، وجد قوماً يعيشون بين جبلين، يُرهبهم جحافل يأجوج ومأجوج، الذين يغيرون ويُخربون أرضهم. عرضوا عليه الجزية لو بنا سداً بينهم. فبنى ذو القرنين حائطاً ضخماً من الحديد والنحاس المذاب، فأغلق الممر تماماً. قال: «هذا رحمة من ربي، فإذا جاء وعد ربي جعله دكاء». يقدم القرآن ذا القرنين لا فاتحاً بل حاكماً عادلاً استخدم قوته لحماية الضعفاء وأقر بأن جميع إنجازاته مؤقتة أمام قضاء الله. والدرس أن القوة مشروعة فقط حين تخدم العدل، وأن كل بناء بشري — ولو كان عظيماً — خاضع لمشيئة الله.
+    description_fr: |
+      Dhū al-Qarnayn — « Celui aux deux cornes », un roi juste à qui Allah avait accordé une vaste puissance et connaissance — voyagea jusqu'aux confins de la terre. Dans une direction, il trouva un peuple vivant entre deux montagnes, terrorisé par les hordes de Yaʾjūj et Maʾjūj (Gog et Magog), qui pillaient et dévastaient leurs terres. Ils lui offrirent un tribut s'il construisait une barrière entre eux. Dhū al-Qarnayn construisit un mur massif de fer et de cuivre fondu, scellant complètement le passage. Il dit : « C'est une miséricorde de mon Seigneur. Mais quand la promesse de mon Seigneur arrivera, Il le réduira en poussière. » Le Coran présente Dhū al-Qarnayn non pas comme un conquérant mais comme un souverain juste qui utilisa son pouvoir pour protéger les faibles et reconnut que tous ses accomplissements étaient temporaires devant le décret divin. La leçon est que le pouvoir n'est légitime que lorsqu'il sert la justice, et que toute construction humaine — si puissante soit-elle — est soumise à la volonté divine.
+    reference: "al-Kahf 18:83-98"
+    source_notes: |
+      Ibn Kathīr notes that Dhū al-Qarnayn is presented not as a conqueror but as a just ruler who used his power to protect the weak and acknowledged that all achievements are temporary before Allah's decree. Al-Qurṭubī adds that the iron and copper barrier demonstrates that legitimate power serves justice, and that every human construction — however mighty — is subject to divine will.
+    source_notes_fr: |
+      Ibn Kathīr note que Dhū al-Qarnayn est présenté non pas comme un conquérant mais comme un souverain juste qui utilisa son pouvoir pour protéger les faibles et reconnut que tous ses accomplissements étaient temporaires devant le décret d'Allah. Al-Qurṭubī ajoute que la barrière de fer et de cuivre démontre que le pouvoir légitime sert la justice, et que toute construction humaine — si puissante soit-elle — est soumise à la volonté divine.
+    source_notes_ar: |
+      يُشير ابن كثير إلى أن ذا القرنين مُقدّم لا فاتحاً بل حاكماً عادلاً استخدم قوته لحماية الضعفاء وأقرّ بأن جميع إنجازاته مؤقتة أمام قضاء الله. ويضيف القرطبي أن السد الحديدي النحاسي يُثبت أن القوة المشروعة تخدم العدل، وأن كل بناء بشري — ولو كان عظيماً — خاضع لمشيئة الله.
+    display_day_of_year: 20
+    quran_refs: "18:83-98"
+    hadith_refs: ""

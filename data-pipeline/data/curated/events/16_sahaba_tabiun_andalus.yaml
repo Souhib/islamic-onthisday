@@ -1,0 +1,817 @@
+# Wave 3 of curated event additions (2026-04-26).
+# 4 senior sahaba (incl. al-Hasan ra ahl al-bayt) + 3 tabi'un mufassirun
+# + 3 andalusi polymaths + 1 muhaddith + 1 ash'ari + 1 umayyad caliph
+# + 2 conquests / battles. Each event attested in classical Sunni sources.
+# Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # SENIOR SAHABA (incl. Ahl al-Bayt)
+  # =========================================================================
+
+  - slug: death-of-al-hasan-ibn-ali
+    category: ahl_al_bayt
+    title_en: Death of al-Ḥasan ibn ʿAli ra
+    title_ar: وفاة الحسن بن علي رضي الله عنهما
+    title_fr: Mort d'al-Ḥasan ibn ʿAli ra
+    description_en: |
+      al-Ḥasan ibn ʿAli, eldest grandson of the Prophet ﷺ through Fatima
+      ra, sayyid shabab ahl al-Janna ("master of the youth of Paradise")
+      by the Prophet's ﷺ own naming, and the Caliph who voluntarily
+      abdicated to Muʿawiya ra in 41 AH so that Muslim blood would not
+      be shed — the year remembered as ʿĀm al-Jamāʿa, "the Year of the
+      Community" — died in Medina at age about 47. The Prophet ﷺ had
+      said of him from the pulpit: "This son of mine is a master, and
+      perhaps Allah will make peace through him between two great
+      factions of the Muslims" (Bukhari) — a prophecy fulfilled by his
+      abdication. Classical sources differ on whether he was poisoned
+      by his wife Jaʿda bint al-Ashʿath; al-Tabari and Ibn Kathir
+      record the report without endorsing it.
+    description_ar: |
+      توفي الحسن بن علي رضي الله عنهما — الحفيد الأكبر للنبي ﷺ من
+      ابنته فاطمة رضي الله عنها، و«سيد شباب أهل الجنة» كما سمّاه جده ﷺ،
+      وأمير المؤمنين الذي تنازل عن الخلافة لمعاوية رضي الله عنه سنة
+      إحدى وأربعين للهجرة حقناً لدماء المسلمين، وهي السنة التي سُميت
+      «عام الجماعة» — بالمدينة المنورة عن نحو سبع وأربعين سنة. قال فيه
+      النبي ﷺ على المنبر: «إن ابني هذا سيد، ولعل الله أن يصلح به بين
+      فئتين عظيمتين من المسلمين» (البخاري)، وقد تحققت النبوة
+      بتنازله. واختلفت كتب التاريخ في كونه سُمّ بدسٍّ من زوجته جعدة
+      بنت الأشعث، فأوردها الطبري وابن كثير دون تصحيح.
+    description_fr: |
+      al-Ḥasan ibn ʿAli, petit-fils aîné du Prophète ﷺ par Fatima ra,
+      *sayyid shabab ahl al-Janna* (« maître de la jeunesse du Paradis »)
+      selon le nom même que lui donna le Prophète ﷺ, et le calife qui
+      abdiqua volontairement en faveur de Muʿawiya ra en 41 H afin que
+      le sang musulman ne soit pas versé — l'année que l'on retient comme
+      *ʿĀm al-Jamāʿa*, « l'année de la Communauté » — mourut à Médine
+      à l'âge d'environ 47 ans. Le Prophète ﷺ avait dit de lui depuis
+      le minbar : « ce fils mien est un maître, et peut-être Allah
+      réconciliera-t-il par lui deux grandes factions des musulmans »
+      (Bukhari) — prophétie accomplie par son abdication. Les sources
+      classiques divergent sur la question de son empoisonnement par
+      son épouse Jaʿda bint al-Ashʿath; al-Tabari et Ibn Kathir
+      rapportent l'information sans la valider.
+    canonical_hijri: {year: 50, month: 9, precision: month}
+    canonical_gregorian: {date: 670-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_athir_kamil
+      - source_key: dhahabi_siyar
+    hadith_refs: "Bukhari 2704"
+    people: [[hasan-ibn-ali, subject], [muawiya-ibn-abi-sufyan, subject]]
+    tags: [ahl-al-bayt, sahaba, am-al-jamaa, abdication, medina, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hasan_ibn_Ali"
+
+  - slug: death-of-ubayy-ibn-kab
+    category: companion
+    title_en: Death of Ubayy ibn Kaʿb ra — Sayyid al-Qurraʾ
+    title_ar: وفاة أبي بن كعب رضي الله عنه — سيد القراء
+    title_fr: Mort d'Ubayy ibn Kaʿb ra — Sayyid al-Qurraʾ
+    description_en: |
+      Ubayy ibn Kaʿb al-Anṣari — chief reciter (sayyid al-qurraʾ) of
+      the Companions, scribe of revelation for the Prophet ﷺ, and one
+      of the four Companions to whom the Prophet ﷺ explicitly ordered
+      the Muslims to "take the Qurʾan from" (Bukhari) — died in Medina
+      during the caliphate of ʿUthman ra. The Prophet ﷺ recited Surat
+      al-Bayyina (Q 98) to him directly and said "Allah commanded me
+      to recite to you" — at which Ubayy wept. He was the lead reciter
+      of Tarāwīḥ during ʿUmar's ra organisation of communal night
+      prayer. Classical sources record his death between 30 and 32 AH;
+      Ibn Hajar al-ʿAsqalani in *al-Iṣāba* surveys the disagreement.
+    description_ar: |
+      توفي أبيّ بن كعب الأنصاري رضي الله عنه — سيد القراء من الصحابة،
+      وكاتب الوحي لرسول الله ﷺ، وأحد الأربعة الذين أمر النبي ﷺ
+      المسلمين أن يأخذوا القرآن منهم (رواه البخاري) — بالمدينة المنورة
+      في خلافة عثمان رضي الله عنه. قرأ النبي ﷺ عليه سورة البينة
+      (سورة ٩٨) مباشرة وقال له: «إن الله أمرني أن أقرأ عليك» فبكى أبيّ.
+      وكان إمام الناس في صلاة التراويح حين جمعهم عمر رضي الله عنه على
+      قارئ واحد. واختلفت المصادر القديمة في سنة وفاته بين الثلاثين
+      والاثنتين والثلاثين، واستوعب الخلاف ابن حجر في «الإصابة».
+    description_fr: |
+      Ubayy ibn Kaʿb al-Anṣari — récitateur en chef (*sayyid al-qurraʾ*)
+      des Compagnons, scribe de la révélation pour le Prophète ﷺ, et
+      l'un des quatre Compagnons à qui le Prophète ﷺ ordonna explicitement
+      aux musulmans de « prendre le Coran » (Bukhari) — mourut à Médine
+      durant le califat d'ʿUthman ra. Le Prophète ﷺ lui récita en
+      personne la sourate al-Bayyina (Q 98) en lui disant « Allah m'a
+      ordonné de te la réciter » — à quoi Ubayy pleura. Il dirigeait
+      les *Tarāwīḥ* lorsque ʿUmar ra organisa la prière nocturne en
+      assemblée. Les sources classiques placent sa mort entre 30 et 32 H;
+      Ibn Ḥajar al-ʿAsqalānī dans *al-Iṣāba* recense le désaccord.
+    canonical_hijri: {year: 30, precision: year}
+    canonical_gregorian: {date: 650-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 4960"
+    people: [[ubayy-ibn-kab, subject], [uthman-ibn-affan, subject]]
+    tags: [sahaba, ansar, qurra, scribe-of-revelation, medina, rashidun]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Ubayy_ibn_Ka%27b"
+
+  - slug: death-of-zayd-ibn-thabit
+    category: companion
+    title_en: Death of Zayd ibn Thabit ra — Compiler of the Muṣḥaf
+    title_ar: وفاة زيد بن ثابت رضي الله عنه — جامع المصحف
+    title_fr: Mort de Zayd ibn Thabit ra — compilateur du Muṣḥaf
+    description_en: |
+      Zayd ibn Thabit al-Anṣari, the foremost scribe of revelation for
+      the Prophet ﷺ in Medina, the Companion entrusted by Abu Bakr ra
+      with the first compilation (jamʿ) of the Qurʾan after the deaths
+      at Yamāma, and head of the committee under ʿUthman ra that
+      produced the standard Muṣḥaf — died in Medina at age about 56.
+      He was twenty-one when the Prophet ﷺ died. Beyond Qurʾanic
+      service he was the leading authority on the laws of inheritance
+      (farāʾiḍ); the Prophet ﷺ said: "the most knowledgeable of you
+      regarding inheritance is Zayd ibn Thabit" (Tirmidhi). ʿUmar ra
+      delegated the affairs of Medina to him during the latter's
+      pilgrimages. Sources record his death between 45 and 56 AH.
+    description_ar: |
+      توفي زيد بن ثابت الأنصاري رضي الله عنه — كبير كتاب الوحي للنبي ﷺ
+      بالمدينة المنورة، والصحابي الذي كلفه أبو بكر الصديق رضي الله عنه
+      بأول جمع للقرآن الكريم بعد استشهاد القراء يوم اليمامة، ورئيس
+      اللجنة في عهد عثمان رضي الله عنه التي أخرجت المصحف الإمام —
+      بالمدينة عن نحو ست وخمسين سنة. كان عمره يوم وفاة النبي ﷺ إحدى
+      وعشرين سنة. وفضلاً عن خدمته للقرآن كان أعلم الناس بالفرائض، قال
+      النبي ﷺ: «أفرضكم زيد بن ثابت» (الترمذي). وكان عمر رضي الله عنه
+      يستخلفه على المدينة إذا حج. واختلف المؤرخون في سنة وفاته بين
+      الخمس والأربعين والست والخمسين.
+    description_fr: |
+      Zayd ibn Thabit al-Anṣari, principal scribe de la révélation pour
+      le Prophète ﷺ à Médine, le Compagnon que confia Abu Bakr ra de
+      la première compilation (*jamʿ*) du Coran après les morts à
+      Yamāma, et chef du comité sous ʿUthman ra qui produisit le
+      *Muṣḥaf* canonique — mourut à Médine à l'âge d'environ 56 ans.
+      Il avait vingt-et-un ans à la mort du Prophète ﷺ. Outre son
+      service coranique, il était la première autorité en matière de
+      droit successoral (*farāʾiḍ*); le Prophète ﷺ a dit : « le plus
+      savant d'entre vous en matière d'héritage est Zayd ibn Thabit »
+      (Tirmidhi). ʿUmar ra lui déléguait les affaires de Médine lors
+      de ses pèlerinages. Les sources placent sa mort entre 45 et 56 H.
+    canonical_hijri: {year: 45, precision: year}
+    canonical_gregorian: {date: 665-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Tirmidhi 3790"
+    people: [[zayd-ibn-thabit, subject], [abu-bakr-as-siddiq, subject], [uthman-ibn-affan, subject]]
+    tags: [sahaba, ansar, scribe-of-revelation, mushaf, faraid, medina]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Zayd_ibn_Thabit"
+
+  - slug: death-of-hudhayfa-ibn-al-yaman
+    category: companion
+    title_en: Death of Ḥudhayfa ibn al-Yaman ra
+    title_ar: وفاة حذيفة بن اليمان رضي الله عنه
+    title_fr: Mort de Ḥudhayfa ibn al-Yaman ra
+    description_en: |
+      Ḥudhayfa ibn al-Yaman al-ʿAbsi, the Companion to whom the Prophet ﷺ
+      confided the names of the hypocrites (*ṣaḥib sirr rasul Allah ﷺ*),
+      veteran of every major Muslim engagement from Uḥud onward, and
+      governor of al-Madaʾin under ʿUmar and ʿUthman ra — died at
+      al-Madaʾin in 36 AH, only forty days after the assassination of
+      ʿUthman ra. He had famously declined to disclose any name on the
+      list of munāfiqūn even when ʿUmar pressed him about himself.
+      During the great fitna over ʿUthman's killing, his last counsel
+      to those around him was to keep their swords sheathed against
+      their fellow Muslims. He is the principal narrator of many
+      hadiths concerning the end times, including the hadith of the
+      "good and evil" recorded in the two Ṣaḥīḥs.
+    description_ar: |
+      توفي حذيفة بن اليمان العبسي رضي الله عنه — صاحب سر رسول الله ﷺ في
+      أسماء المنافقين، وشاهد كل غزوة منذ غزوة أحد، ووالي المدائن في
+      خلافتي عمر وعثمان رضي الله عنهما — بالمدائن سنة ست وثلاثين
+      للهجرة بعد أربعين يوماً من استشهاد عثمان رضي الله عنه. اشتهر بأنه
+      أبى أن يفشي اسماً واحداً مما عنده من أسماء المنافقين حتى لما
+      ألح عليه عمر رضي الله عنه في نفسه. وفي الفتنة الكبرى أوصى من
+      حوله أن يمسكوا سيوفهم عن إخوانهم المسلمين. وهو الراوي الأصلي
+      للكثير من أحاديث الفتن والملاحم، ومنها حديث «الخير والشر»
+      المتفق عليه.
+    description_fr: |
+      Ḥudhayfa ibn al-Yaman al-ʿAbsi, le Compagnon à qui le Prophète ﷺ
+      confia les noms des hypocrites (*ṣāḥib sirr rasūl Allāh ﷺ*),
+      vétéran de toutes les grandes campagnes musulmanes depuis Uḥud,
+      et gouverneur d'al-Madāʾin sous ʿUmar et ʿUthman ra — mourut à
+      al-Madāʾin en 36 H, seulement quarante jours après l'assassinat
+      d'ʿUthman ra. Il était célèbre pour avoir refusé de divulguer
+      le moindre nom sur la liste des *munāfiqūn* même lorsque ʿUmar
+      l'interrogea sur lui-même. Durant la grande *fitna* qui suivit
+      le meurtre d'ʿUthman, son dernier conseil à ceux qui l'entouraient
+      fut de garder leurs épées au fourreau face à leurs frères
+      musulmans. Il est le narrateur principal de nombreux hadiths sur
+      la fin des temps, dont le hadith du « bien et du mal » consigné
+      dans les deux *Ṣaḥīḥ*.
+    canonical_hijri: {year: 36, precision: year}
+    canonical_gregorian: {date: 656-08-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_hajar_isaba
+      - source_key: dhahabi_siyar
+    hadith_refs: "Bukhari 3606, Muslim 1847"
+    people: [[hudhayfa-ibn-al-yaman, subject]]
+    tags: [sahaba, hypocrites, fitna, al-madaʾin, end-times]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hudhayfah_ibn_al-Yaman"
+
+  # =========================================================================
+  # TABI'UN — MUFASSIRUN AND JURISTS OF THE SECOND GENERATION
+  # =========================================================================
+
+  - slug: death-of-mujahid-ibn-jabr
+    category: scholar
+    title_en: Death of Mujahid ibn Jabr — Pillar of Tafsir
+    title_ar: وفاة مجاهد بن جبر — عماد علم التفسير
+    title_fr: Mort de Mujāhid ibn Jabr — pilier du tafsir
+    description_en: |
+      Mujahid ibn Jabr al-Makki, foremost student of Ibn ʿAbbas ra,
+      and the single most-cited tabiʿi authority in classical
+      Qurʾanic commentary — died in Mecca at age about 83. He famously
+      said: "I went through the Muṣḥaf with Ibn ʿAbbas three times,
+      stopping at every verse to ask him about it." His positions
+      occupy more isnads in al-Tabari's *Jamiʿ al-Bayān* than any
+      other tabiʿi mufassir. The classical maxim runs: *idhā jāʾaka
+      al-tafsīr ʿan Mujāhid fa-ḥasbuk* — "if a tafsir reaches you on
+      Mujahid's authority, that is enough for you." Sources also place
+      him among the seven jurists of Mecca alongside ʿAṭāʾ ibn Abī
+      Rabāḥ.
+    description_ar: |
+      توفي الإمام مجاهد بن جبر المكي — أعلم تلاميذ ابن عباس رضي الله
+      عنهما، وأكثر التابعين رواية في كتب التفسير الكلاسيكية — بمكة
+      المكرمة عن نحو ثلاث وثمانين سنة. ومن قوله المشهور: «عرضت المصحف
+      على ابن عباس ثلاث عرضات، أقفه عند كل آية أسأله عنها». ولا يفوقه
+      تابعي في كثرة الأسانيد المعتمدة في «جامع البيان» للطبري. وفي
+      أصول التفسير عند المتقدمين: «إذا جاءك التفسير عن مجاهد فحسبك».
+      ويعدّه بعض المؤرخين ضمن فقهاء مكة السبعة مع عطاء بن أبي رباح.
+    description_fr: |
+      Mujāhid ibn Jabr al-Makki, le plus éminent élève d'Ibn ʿAbbas ra
+      et l'autorité tabiʿi la plus citée du commentaire coranique
+      classique — mourut à La Mecque à l'âge d'environ 83 ans. Il
+      disait : « j'ai parcouru le Muṣḥaf avec Ibn ʿAbbas trois fois,
+      m'arrêtant à chaque verset pour l'interroger ». Ses positions
+      occupent plus de chaînes de transmission dans le *Jamiʿ al-Bayān*
+      d'al-Ṭabari qu'aucun autre mufassir tabiʿi. La maxime classique
+      dit : *idhā jāʾaka al-tafsīr ʿan Mujāhid fa-ḥasbuk* — « si un
+      tafsir te parvient par Mujāhid, cela te suffit ». Les sources le
+      placent également parmi les sept jurisconsultes de La Mecque aux
+      côtés d'ʿAṭāʾ ibn Abī Rabāḥ.
+    canonical_hijri: {year: 104, precision: year}
+    canonical_gregorian: {date: 722-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[mujahid-ibn-jabr, subject], [abdullah-ibn-abbas, subject]]
+    tags: [tabi'un, tafsir, mecca, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mujahid_ibn_Jabr"
+
+  - slug: death-of-ata-ibn-abi-rabah
+    category: scholar
+    title_en: Death of ʿAṭaʾ ibn Abi Rabah — Mufti of Mecca
+    title_ar: وفاة عطاء بن أبي رباح — مفتي مكة
+    title_fr: Mort de ʿAṭāʾ ibn Abi Rabaḥ — mufti de La Mecque
+    description_en: |
+      ʿAṭaʾ ibn Abi Rabaḥ — son of an Abyssinian freedman, leading
+      tabiʿi mufti of Mecca for nearly fifty years, and one of the
+      seven jurists of Mecca — died there at age about 88. The Caliph
+      Hisham ibn ʿAbd al-Malik instructed his children: "Take from
+      ʿAṭaʾ — for as long as he lives, no one in al-Ḥaram al-Makki
+      surpasses him." Imam Abu Hanifa said: "I never saw anyone better
+      than ʿAṭaʾ." During Hajj season the Umayyad authorities had
+      criers proclaim that nobody should issue a fatwā in Mecca except
+      him. He combined deep knowledge with renowned asceticism and
+      did not own a house of his own.
+    description_ar: |
+      توفي الإمام عطاء بن أبي رباح — وهو ابن مولى حبشي — كبير مفتي
+      مكة من التابعين قرابة خمسين سنة، وأحد فقهاء مكة السبعة، رحمه الله
+      عن نحو ثمانٍ وثمانين سنة. أوصى هشام بن عبد الملك أولاده فقال:
+      «خذوا عن عطاء؛ فإنه ما دام عطاء حياً، فلا يعدله بمكة أحد». وقال
+      الإمام أبو حنيفة: «ما رأيت أفضل من عطاء». وكان الأمراء الأمويون
+      ينادون في الموسم: «ألا لا يفتي بمكة إلا عطاء بن أبي رباح». جمع
+      رحمه الله بين سعة العلم والورع المشهور، ولم يملك في حياته داراً.
+    description_fr: |
+      ʿAṭāʾ ibn Abi Rabaḥ — fils d'un affranchi abyssinien, principal
+      mufti tabiʿi de La Mecque pendant près de cinquante ans et l'un
+      des sept jurisconsultes de La Mecque — y mourut à l'âge d'environ
+      88 ans. Le calife Hishām ibn ʿAbd al-Malik dit à ses enfants :
+      « apprenez d'ʿAṭāʾ — tant qu'il vit, personne au Ḥaram de La
+      Mecque ne le surpasse ». L'imam Abu Hanifa dit : « je n'ai jamais
+      vu meilleur qu'ʿAṭāʾ ». Pendant le pèlerinage, les autorités
+      omeyyades faisaient proclamer par les hérauts que nul ne devait
+      émettre une *fatwā* à La Mecque sinon lui. Il alliait science
+      profonde et ascétisme proverbial, et ne possédait pas de maison.
+    canonical_hijri: {year: 114, precision: year}
+    canonical_gregorian: {date: 732-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[ata-ibn-abi-rabah, subject]]
+    tags: [tabi'un, fuqaha-al-sabʿa, mecca, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ata_ibn_Abi_Rabah"
+
+  - slug: death-of-amir-al-shabi
+    category: scholar
+    title_en: Death of ʿAmir al-Shaʿbi
+    title_ar: وفاة عامر الشعبي
+    title_fr: Mort de ʿAmir al-Shaʿbi
+    description_en: |
+      ʿAmir ibn Sharaḥil al-Shaʿbi, foremost tabiʿi jurist and
+      muḥaddith of Kufa, court counsellor to ʿAbd al-Malik ibn Marwan,
+      and one of the four pillars of fiqh in his generation alongside
+      Saʿid ibn al-Musayyib (Medina), al-Ḥasan al-Baṣri (Basra), and
+      Ibrahim al-Nakhaʿi (Kufa) — died at about 80. He claimed to have
+      met five hundred Companions and was famed for the prodigious
+      memory by which he asserted: "I have not written a single
+      narration; nor have I asked anyone to repeat one to me." His
+      legal opinions stood as a primary input to the Iraqi school
+      that later became the Ḥanafi madhhab.
+    description_ar: |
+      توفي عامر بن شراحيل الشعبي — كبير فقهاء التابعين ومحدثيهم بالكوفة،
+      ومستشار الخليفة عبد الملك بن مروان في بلاطه، وأحد فقهاء الأمصار
+      الأربعة في طبقته مع سعيد بن المسيب بالمدينة والحسن البصري بالبصرة
+      وإبراهيم النخعي بالكوفة — رحمه الله عن نحو ثمانين سنة. كان يقول
+      إنه لقي خمس مئة من الصحابة، واشتهر بقوة الحفظ حتى قال: «ما كتبت
+      حديثاً قط، ولا سألت رجلاً عن حديث إلا حفظته». وكانت اجتهاداته من
+      أصول مدرسة فقه أهل العراق التي صارت أساساً للمذهب الحنفي.
+    description_fr: |
+      ʿAmir ibn Sharāḥīl al-Shaʿbi, principal juriste et muḥaddith
+      tabiʿi de Koufa, conseiller à la cour d'ʿAbd al-Malik ibn Marwan,
+      et l'un des quatre piliers du fiqh de sa génération aux côtés de
+      Saʿid ibn al-Musayyib (Médine), al-Ḥasan al-Baṣri (Bassora) et
+      Ibrahim al-Nakhaʿi (Koufa) — mourut à l'âge d'environ 80 ans. Il
+      affirmait avoir rencontré cinq cents Compagnons et était célèbre
+      pour la mémoire prodigieuse qui lui faisait dire : « je n'ai
+      jamais écrit une seule narration; ni demandé à quiconque de me
+      la répéter ». Ses avis juridiques constituèrent un apport
+      primordial à l'école irakienne qui devint plus tard le madhhab
+      ḥanafite.
+    canonical_hijri: {year: 104, precision: year}
+    canonical_gregorian: {date: 723-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[amir-al-shabi, subject], [abd-al-malik-ibn-marwan, subject]]
+    tags: [tabi'un, kufa, umayyad, fiqh]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MUHADDITH + ASH'ARI THEOLOGIAN
+  # =========================================================================
+
+  - slug: death-of-ibn-khuzayma
+    category: scholar
+    title_en: Death of Ibn Khuzayma — Imam al-Aʾimma
+    title_ar: وفاة ابن خزيمة — إمام الأئمة
+    title_fr: Mort d'Ibn Khuzayma — Imam al-Aʾimma
+    description_en: |
+      Muhammad ibn Isḥāq ibn Khuzayma al-Naysaburi — *Imam al-Aʾimma*,
+      "Imam of the Imams", and author of *al-Ṣaḥiḥ* (commonly *Ṣaḥiḥ
+      Ibn Khuzayma*) — died in Naysabur at age about 88. His Ṣaḥīḥ
+      applies criteria as exacting as al-Bukhari's; al-Subki and others
+      classed it as the fourth Ṣaḥīḥ alongside the three already
+      received. He was the master of al-Ḥakim al-Naysaburi and a
+      teacher of al-Ṭabarani and Ibn Ḥibban — making him a node through
+      which much of the eastern Islamic muḥaddith network passes.
+      He famously said of the divine attributes: "We affirm what Allah
+      affirmed for Himself, in the manner He affirmed it, without
+      modality or comparison."
+    description_ar: |
+      توفي الإمام محمد بن إسحاق بن خزيمة النيسابوري — «إمام الأئمة»،
+      وصاحب «الصحيح» المعروف بـ«صحيح ابن خزيمة» — بنيسابور عن نحو
+      ثمانٍ وثمانين سنة. كان شرطه في صحيحه قريباً من شرط البخاري، حتى
+      عدّه السبكي وغيره الصحيح الرابع بعد الصحاح الثلاثة المعروفة.
+      وكان شيخ الحاكم النيسابوري ومن شيوخ الطبراني وابن حبان، فهو عقدة
+      من عقد إسناد المحدثين في المشرق الإسلامي. ومن قوله المشهور في
+      الصفات: «نثبت ما أثبته الله لنفسه على ما أثبته بلا تكييف ولا
+      تمثيل».
+    description_fr: |
+      Muḥammad ibn Isḥāq ibn Khuzayma al-Naysabūri — *Imām al-Aʾimma*,
+      « l'imam des imams », et auteur d'*al-Ṣaḥīḥ* (communément *Ṣaḥīḥ
+      Ibn Khuzayma*) — mourut à Naysabur à l'âge d'environ 88 ans. Son
+      *Ṣaḥīḥ* applique des critères aussi exigeants que ceux d'al-Bukhari;
+      al-Subki et d'autres le classèrent comme le quatrième *Ṣaḥīḥ*
+      aux côtés des trois déjà reçus. Il fut le maître d'al-Ḥākim
+      al-Naysabūri et l'un des professeurs d'al-Ṭabarani et Ibn Ḥibban
+      — ce qui en fait un nœud par lequel passe une grande partie du
+      réseau muḥaddith oriental. Il disait des attributs divins : « nous
+      affirmons ce qu'Allah a affirmé pour Lui-même, comme Il l'a
+      affirmé, sans modalité ni comparaison ».
+    canonical_hijri: {year: 311, precision: year}
+    canonical_gregorian: {date: 924-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-khuzayma, subject]]
+    tags: [hadith, sahih, naysabur, abbasid, attributes]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Khuzaymah"
+
+  - slug: death-of-al-baqillani
+    category: scholar
+    title_en: Death of al-Qaḍi Abu Bakr al-Baqillani
+    title_ar: وفاة القاضي أبي بكر الباقلاني
+    title_fr: Mort du qāḍī Abu Bakr al-Baqillani
+    description_en: |
+      Abu Bakr Muhammad ibn al-Ṭayyib al-Baqillani, foremost Ashʿari
+      mutakallim of his generation, defender of Sunni creed against
+      Muʿtazila and Imami Shia opponents at the courts of the Buyid
+      and Byzantine emperors, and author of *Iʿjāz al-Qurʾān* and
+      *al-Tamhid* — died in Baghdad at about age 65. As an envoy of
+      the Caliph al-Qādir to Constantinople he reportedly made the
+      Byzantine emperor lower his head before granting audience. His
+      systematisation of Ashʿari kalam — particularly the doctrines
+      of divine speech and the inimitability (*iʿjāz*) of the Qurʾan
+      — set the framework received by al-Juwayni and al-Ghazali after
+      him. He is buried near the grave of Imam Ahmad ibn Ḥanbal in
+      Baghdad.
+    description_ar: |
+      توفي القاضي أبو بكر محمد بن الطيب الباقلاني — كبير متكلمي
+      الأشاعرة في عصره، والمدافع عن عقائد أهل السنة في وجه المعتزلة
+      والإمامية في بلاطي البويهيين والروم، ومصنف «إعجاز القرآن»
+      و«التمهيد» — ببغداد عن نحو خمس وستين سنة. أُرسل سفيراً للخليفة
+      القادر إلى القسطنطينية فأخضع — على ما تواتر في الحكاية — قيصر
+      الروم لأن يحني رأسه قبل المثول. ومنهجه في تنظيم علم الكلام
+      الأشعري — لا سيما في مسائل كلام الله وإعجاز القرآن — هو
+      الإطار الذي تلقاه عنه إمام الحرمين الجويني وأبو حامد الغزالي
+      من بعده. ودفن إلى جوار الإمام أحمد بن حنبل ببغداد.
+    description_fr: |
+      Abu Bakr Muḥammad ibn al-Ṭayyib al-Bāqillāni, plus grand
+      *mutakallim* ashʿarite de sa génération, défenseur du credo
+      sunnite contre les Muʿtazilites et les opposants imāmites aux
+      cours des Bouyides et des empereurs byzantins, et auteur d'*Iʿjāz
+      al-Qurʾān* et *al-Tamhīd* — mourut à Bagdad à l'âge d'environ
+      65 ans. Envoyé du calife al-Qādir à Constantinople, il aurait
+      contraint l'empereur byzantin à baisser la tête avant l'audience.
+      Sa systématisation du *kalām* ashʿarite — en particulier les
+      doctrines de la parole divine et de l'inimitabilité (*iʿjāz*)
+      du Coran — a fixé le cadre reçu après lui par al-Juwayni et
+      al-Ghazāli. Il est enterré près de la tombe de l'imam Aḥmad ibn
+      Ḥanbal à Bagdad.
+    canonical_hijri: {year: 403, precision: year}
+    canonical_gregorian: {date: 1013-06-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-baqillani, subject]]
+    tags: [ashari, kalam, ijaz, baghdad, abbasid, buyid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Baqillani"
+
+  # =========================================================================
+  # ANDALUSI POLYMATHS
+  # =========================================================================
+
+  - slug: death-of-ibn-bajja
+    category: scholar
+    title_en: Death of Ibn Bajja (Avempace)
+    title_ar: وفاة ابن باجة
+    title_fr: Mort d'Ibn Bājja (Avempace)
+    description_en: |
+      Abu Bakr Muhammad ibn Yaḥya ibn Bājja — known to medieval Latin
+      Europe as *Avempace*, foremost philosopher of al-Andalus before
+      Ibn Rushd, polymath in physics, astronomy, music, and politics,
+      and chief vizier to the Almoravid governor of Saragossa Abu Bakr
+      ibn Ibrāhīm — died in Fes, reportedly poisoned by an envious rival.
+      His *Tadbīr al-Mutawaḥḥid* ("Regimen of the Solitary") was the
+      direct philosophical predecessor of Ibn Ṭufayl's *Ḥayy ibn
+      Yaqẓān*. He critiqued the Aristotelian theory of motion in a way
+      that would influence Galileo through transmissions via Averroes.
+      Sources differ on the year of his death: 530 AH (al-Maqqari) or
+      533 AH (Ibn Khallikan).
+    description_ar: |
+      توفي أبو بكر محمد بن يحيى ابن باجة — المعروف عند أوروبا اللاتينية
+      الوسيطة بـ«أفمباس»، وهو كبير فلاسفة الأندلس قبل ابن رشد، وعالم
+      موسوعي في الفيزياء والفلك والموسيقى والسياسة، ووزير لأبي بكر بن
+      إبراهيم والي سرقسطة في الدولة المرابطية — بفاس، وذكر بعض
+      المؤرخين أنه قتل بالسم على يد منافس حسود. وكتابه «تدبير
+      المتوحد» هو السلف الفلسفي المباشر لـ«حي بن يقظان» لابن طفيل.
+      نقد نظرية أرسطو في الحركة نقداً سيؤثر في غاليليو لاحقاً عبر
+      ترجمات ابن رشد. واختلف المؤرخون في سنة وفاته: قال المقري ٥٣٠ هـ
+      وقال ابن خلكان ٥٣٣ هـ.
+    description_fr: |
+      Abu Bakr Muḥammad ibn Yaḥyā ibn Bājja — connu de l'Europe latine
+      médiévale sous le nom d'*Avempace*, plus grand philosophe d'al-
+      Andalus avant Ibn Rushd, polymathe en physique, astronomie,
+      musique et politique, et vizir en chef du gouverneur almoravide
+      de Saragosse Abu Bakr ibn Ibrāhīm — mourut à Fès, empoisonné
+      selon les sources par un rival envieux. Son *Tadbīr al-Mutawaḥḥid*
+      (« Régime du Solitaire ») fut le prédécesseur philosophique direct
+      du *Ḥayy ibn Yaqẓān* d'Ibn Ṭufayl. Il critiqua la théorie
+      aristotélicienne du mouvement d'une manière qui influencera
+      Galilée par les transmissions d'Averroès. Les sources divergent
+      sur l'année de sa mort : 530 H (al-Maqqari) ou 533 H (Ibn Khallikan).
+    canonical_hijri: {year: 533, precision: year}
+    canonical_gregorian: {date: 1139-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-bajja, subject]]
+    tags: [andalus, philosophy, polymath, almoravid, fes]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Avempace"
+
+  - slug: death-of-ibn-tufayl
+    category: scholar
+    title_en: Death of Ibn Ṭufayl — author of Ḥayy ibn Yaqẓan
+    title_ar: وفاة ابن طفيل — صاحب «حي بن يقظان»
+    title_fr: Mort d'Ibn Ṭufayl — auteur de Ḥayy ibn Yaqẓān
+    description_en: |
+      Abu Bakr Muhammad ibn Ṭufayl al-Qaysi al-Andalusi — Almohad court
+      philosopher, vizier and physician to the Caliph Abu Yaʿqub Yusuf,
+      mentor and patron of Ibn Rushd (whom he introduced to the caliph
+      and proposed for the project of commenting on Aristotle), and
+      author of the philosophical novel *Ḥayy ibn Yaqẓān* — died in
+      Marrakesh at about 75. *Ḥayy ibn Yaqẓān* — the autobiography of
+      a self-taught man stranded alone on an island who reasons his
+      way to natural philosophy, then to certainty of God's existence
+      — was translated into Latin by Edward Pococke in 1671 and
+      circulated as one of the most influential Arab works in early
+      modern European thought.
+    description_ar: |
+      توفي أبو بكر محمد بن طفيل القيسي الأندلسي — فيلسوف بلاط الموحدين
+      ووزير الخليفة أبي يعقوب يوسف وطبيبه، ومُوصل ابن رشد إلى الخليفة
+      ومقترح عليه أن يتولى شرح كلام أرسطو، ومصنف القصة الفلسفية
+      «حي بن يقظان» — بمراكش عن نحو خمس وسبعين سنة. وقصة «حي بن يقظان»
+      — وهي ترجمة الإنسان العصامي يلقى وحيداً في جزيرة فيستدل بعقله
+      على الفلسفة الطبيعية ثم على وجود الله ووحدانيته — ترجمها إدوارد
+      بوكوك إلى اللاتينية سنة ١٦٧١ ميلادي، فدارت في أوروبا الحديثة
+      المبكرة من أكثر النصوص العربية تأثيراً في فكرها.
+    description_fr: |
+      Abu Bakr Muḥammad ibn Ṭufayl al-Qaysi al-Andalusi — philosophe de
+      cour almohade, vizir et médecin du calife Abu Yaʿqūb Yusuf,
+      mentor et protecteur d'Ibn Rushd (qu'il présenta au calife et
+      proposa pour le projet de commenter Aristote), et auteur du roman
+      philosophique *Ḥayy ibn Yaqẓān* — mourut à Marrakech à l'âge
+      d'environ 75 ans. *Ḥayy ibn Yaqẓān* — autobiographie d'un homme
+      autodidacte échoué seul sur une île qui parvient par la raison
+      à la philosophie naturelle, puis à la certitude de l'existence
+      de Dieu — fut traduit en latin par Edward Pococke en 1671 et
+      circula comme l'un des textes arabes les plus influents de la
+      pensée européenne moderne précoce.
+    canonical_hijri: {year: 581, precision: year}
+    canonical_gregorian: {date: 1185-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: dhahabi_siyar
+    people: [[ibn-tufayl, subject]]
+    tags: [andalus, philosophy, almohad, marrakesh, hayy-ibn-yaqzan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Tufail"
+
+  - slug: death-of-ibn-al-khatib
+    category: scholar
+    title_en: Death of Lisan al-Din ibn al-Khaṭib
+    title_ar: وفاة لسان الدين ابن الخطيب
+    title_fr: Mort de Lisan al-Din ibn al-Khaṭib
+    description_en: |
+      Lisan al-Din Muhammad ibn ʿAbdallah ibn al-Khaṭib — vizier of the
+      Naṣrid sultan Muḥammad V of Granada, polymath historian, poet,
+      physician, and the foremost prose stylist of the late Islamic
+      West — died in Fes at age about 63, strangled in his prison cell
+      after a political fall and a charge of heresy fabricated by his
+      enemies. His monumental *al-Iḥāṭa fi Akhbār Gharnāṭa* preserves
+      the cultural memory of late al-Andalus; *Aʿmāl al-Aʿlām* surveys
+      the dynasties of the Islamic West. Verses by him are still
+      inscribed on the walls of the Alhambra. He was rehabilitated by
+      his student al-Maqqari, who memorialised him at length in
+      *Nafḥ al-Ṭib*.
+    description_ar: |
+      توفي لسان الدين محمد بن عبد الله ابن الخطيب — وزير السلطان
+      الناصري محمد الخامس بغرناطة، والمؤرخ الموسوعي والشاعر والطبيب،
+      وكبير أدباء النثر في المغرب الإسلامي المتأخر — بفاس عن نحو ثلاث
+      وستين سنة، خنقاً في محبسه بعد سقوطه السياسي وتهمة بالزندقة
+      ألصقها به أعداؤه. وفي «الإحاطة في أخبار غرناطة» سجل ضخم لذاكرة
+      الأندلس المتأخرة، و«أعمال الأعلام» تأريخ لدول المغرب الإسلامي.
+      ولا تزال أبياته منقوشة على جدران قصر الحمراء. وتلميذه المقري
+      أعاد اعتبار شيخه فأطال في ترجمته في «نفح الطيب».
+    description_fr: |
+      Lisan al-Din Muḥammad ibn ʿAbdallāh ibn al-Khaṭib — vizir du
+      sultan naṣride Muḥammad V de Grenade, historien polymathe, poète,
+      médecin, et plus grand prosateur de l'Occident islamique tardif
+      — mourut à Fès à l'âge d'environ 63 ans, étranglé dans sa cellule
+      après une chute politique et une accusation d'hérésie fabriquée
+      par ses ennemis. Son monumental *al-Iḥāṭa fī Akhbār Gharnāṭa*
+      préserve la mémoire culturelle de l'al-Andalus tardif; *Aʿmāl
+      al-Aʿlām* dresse le tableau des dynasties de l'Occident islamique.
+      Des vers de lui sont encore gravés sur les murs de l'Alhambra.
+      Il fut réhabilité par son élève al-Maqqari, qui lui consacra de
+      longues pages dans *Nafḥ al-Ṭīb*.
+    canonical_hijri: {year: 776, precision: year}
+    canonical_gregorian: {date: 1374-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: dhahabi_tarikh_islam
+    people: [[ibn-al-khatib, subject]]
+    tags: [andalus, granada, nasrid, vizier, polymath, fes]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Khatib"
+
+  # =========================================================================
+  # UMAYYAD CALIPH + EARLY NAVAL VICTORY
+  # =========================================================================
+
+  - slug: death-of-al-walid-i
+    category: caliph
+    title_en: Death of al-Walid I — Builder of the Umayyad Mosque
+    title_ar: وفاة الوليد بن عبد الملك — باني الجامع الأموي
+    title_fr: Mort d'al-Walid Ier — bâtisseur de la Grande Mosquée des Omeyyades
+    description_en: |
+      al-Walid I ibn ʿAbd al-Malik, sixth Umayyad caliph (reigned 86-96
+      AH), under whom the Muslim conquests reached their greatest
+      territorial extent — Sindh in the east, the conquest of Hispania
+      under Tāriq ibn Ziyād and Mūsā ibn Nuṣayr in the west, and the
+      consolidation of Transoxiana under Qutayba ibn Muslim — died at
+      Dayr Murran outside Damascus at age about 45. His reign saw the
+      construction of the Great Umayyad Mosque of Damascus, the
+      reconstruction of the Prophet's ﷺ Mosque in Medina (incorporating
+      the apartments of his wives, including the burial chamber), and
+      the al-Aqṣa Mosque on the Ḥaram in Jerusalem. Sources praise his
+      civic patronage of the disabled and elderly.
+    description_ar: |
+      توفي الوليد الأول بن عبد الملك — سادس الخلفاء الأمويين (حكم من
+      ٨٦ إلى ٩٦ هـ)، الذي بلغت في عصره الفتوح الإسلامية أوسع رقعة لها:
+      السند شرقاً بقيادة محمد بن القاسم، والأندلس غرباً بقيادة طارق
+      بن زياد وموسى بن نصير، وتثبيت ما وراء النهر بقيادة قتيبة بن
+      مسلم — بدير مرّان قرب دمشق عن نحو خمس وأربعين سنة. شهد عهده بناء
+      الجامع الأموي الكبير بدمشق، وإعادة بناء المسجد النبوي بالمدينة
+      (وأدخل في توسعته حجرات أمهات المؤمنين بما فيها الحجرة النبوية)،
+      والمسجد الأقصى ضمن الحرم القدسي. وأثنى المؤرخون على رعايته
+      للزمنى والمسنين والعميان من بيت المال.
+    description_fr: |
+      al-Walid Ier ibn ʿAbd al-Malik, sixième calife omeyyade (règne
+      86-96 H), sous lequel les conquêtes musulmanes atteignirent
+      leur plus grande extension territoriale — le Sindh à l'est, la
+      conquête de l'Hispanie sous Ṭāriq ibn Ziyād et Mūsā ibn Nuṣayr à
+      l'ouest, et la consolidation de la Transoxiane sous Qutayba ibn
+      Muslim — mourut à Dayr Murrān près de Damas à l'âge d'environ
+      45 ans. Son règne vit la construction de la Grande Mosquée des
+      Omeyyades de Damas, la reconstruction de la Mosquée du Prophète ﷺ
+      à Médine (intégrant les appartements de ses épouses, dont la
+      chambre funéraire), et la mosquée al-Aqṣā sur le Ḥaram de
+      Jérusalem. Les sources louent son mécénat civique pour les
+      handicapés, les aveugles et les personnes âgées.
+    canonical_hijri: {year: 96, month: 6, precision: month}
+    canonical_gregorian: {date: 715-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+      - source_key: suyuti_tarikh_khulafa
+    people: [[al-walid-i, subject], [tariq-ibn-ziyad, subject]]
+    tags: [umayyad, caliph, damascus, conquest, andalus, sindh]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Walid_I"
+
+  - slug: battle-of-dhat-al-sawari
+    category: battle
+    title_en: Battle of Dhat al-Ṣawari — first Muslim naval victory
+    title_ar: معركة ذات الصواري — أول نصر بحري إسلامي
+    title_fr: Bataille de Dhāt al-Ṣawārī — première victoire navale musulmane
+    description_en: |
+      Off the coast of Lycia (modern southwestern Turkey), the Muslim
+      fleet under ʿAbdullah ibn Saʿd ibn Abi Sarḥ — appointed by
+      Caliph ʿUthman ra over Egypt — defeated a vastly larger Byzantine
+      fleet personally led by Emperor Constans II. Both fleets bound
+      their ships together to fight as floating platforms — hence the
+      Arabic name *Dhāt al-Ṣawārī* ("the one of the masts"). The
+      victory shattered Byzantine naval supremacy in the eastern
+      Mediterranean and opened the sea lanes to subsequent expeditions
+      against Cyprus, Rhodes, and ultimately Constantinople. Constans
+      himself escaped only by exchanging clothes with a sailor.
+    description_ar: |
+      عند سواحل ليكيا (جنوب غرب تركيا الحديثة) هزم الأسطول الإسلامي
+      بقيادة عبد الله بن سعد بن أبي سرح — والي عثمان بن عفان رضي الله
+      عنه على مصر — أسطولاً بيزنطياً ضخماً يقوده الإمبراطور قنسطانز
+      الثاني بنفسه. ربط كل من الأسطولين سفنه بعضها ببعض ليقاتل عليها
+      كمنصات عائمة، فسميت المعركة «ذات الصواري». وقضى هذا النصر على
+      السيادة البحرية البيزنطية في شرق المتوسط وفتح طرق البحر للمعارك
+      اللاحقة على قبرص ورودس ثم القسطنطينية. ولم ينج قنسطانز إلا
+      بتبادل ثيابه مع بعض الجنود ليتنكر.
+    description_fr: |
+      Au large des côtes de Lycie (sud-ouest de l'actuelle Turquie),
+      la flotte musulmane sous ʿAbdullāh ibn Saʿd ibn Abī Sarḥ —
+      nommé par le calife ʿUthman ra sur l'Égypte — vainquit une
+      flotte byzantine bien plus nombreuse menée personnellement par
+      l'empereur Constant II. Les deux flottes attachèrent leurs
+      navires les uns aux autres pour combattre en plateformes
+      flottantes — d'où le nom arabe *Dhāt al-Ṣawārī* (« celle des
+      mâts »). La victoire brisa la suprématie navale byzantine en
+      Méditerranée orientale et ouvrit les voies maritimes aux
+      expéditions ultérieures contre Chypre, Rhodes et finalement
+      Constantinople. Constant lui-même n'en réchappa qu'en échangeant
+      ses habits avec un marin.
+    canonical_hijri: {year: 34, precision: year}
+    canonical_gregorian: {date: 655-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[uthman-ibn-affan, subject]]
+    tags: [rashidun, naval, byzantium, mediterranean, egypt, lycia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_the_Masts"
+
+  - slug: death-of-sad-ibn-ubada
+    category: companion
+    title_en: Death of Saʿd ibn ʿUbada ra — Chief of the Khazraj
+    title_ar: وفاة سعد بن عبادة رضي الله عنه — سيد الخزرج
+    title_fr: Mort de Saʿd ibn ʿUbada ra — chef des Khazraj
+    description_en: |
+      Saʿd ibn ʿUbada al-Anṣari, chief (sayyid) of the Khazraj and the
+      Companion who hosted the Prophet ﷺ at the second pledge of
+      ʿAqaba — and the candidate the Anṣar gathered around at the
+      Saqīfa of Banu Sāʿida the day after the Prophet's ﷺ death,
+      before the bayʿa was concluded for Abu Bakr ra — died in Ḥawran
+      in southern Syria around 14 AH. Saʿd had withdrawn from Medina
+      after refusing to give bayʿa to Abu Bakr, but he never broke the
+      community: he simply left and remained loyal, neither aiding
+      faction nor opposing the caliphate. Classical sources transmit
+      that he was found dead with arrow-wounds attributed to the
+      jinn — a wonder narrative *al-Tabari* and *Ibn Hisham* convey
+      without endorsing.
+    description_ar: |
+      توفي سعد بن عبادة الأنصاري رضي الله عنه — سيد الخزرج، والصحابي
+      الذي استضاف رسول الله ﷺ في بيعة العقبة الثانية، والذي اجتمع
+      الأنصار حوله في سقيفة بني ساعدة غداة وفاة النبي ﷺ قبل أن تنعقد
+      البيعة لأبي بكر الصديق رضي الله عنه — بحوران من بلاد الشام نحو
+      سنة أربع عشرة من الهجرة. كان سعد قد اعتزل المدينة بعد امتناعه
+      عن البيعة لأبي بكر، إلا أنه لم يخالف الجماعة فلم يدع إلى نفسه
+      ولا قاتل الخلافة. ونقلت كتب التاريخ خبر وجوده ميتاً وبه أثر
+      رماية نُسبت إلى الجن، وهو خبر يرويه الطبري وابن هشام دون
+      توثيق.
+    description_fr: |
+      Saʿd ibn ʿUbada al-Anṣari, chef (*sayyid*) des Khazraj et le
+      Compagnon qui accueillit le Prophète ﷺ lors du deuxième serment
+      d'ʿAqaba — et le candidat autour duquel les Anṣār se rassemblèrent
+      à la *Saqīfa* des Banū Sāʿida le lendemain de la mort du Prophète ﷺ,
+      avant que la *bayʿa* ne fût scellée pour Abu Bakr ra — mourut à
+      Ḥawran dans le sud de la Syrie vers 14 H. Saʿd s'était retiré
+      de Médine après avoir refusé de prêter allégeance à Abu Bakr,
+      mais il ne rompit jamais avec la communauté : il s'en alla
+      simplement et resta loyal, ni n'aidant aucune faction ni ne
+      s'opposant au califat. Les sources classiques rapportent qu'on
+      le retrouva mort avec des blessures par flèches attribuées aux
+      djinns — narration prodigieuse qu'*al-Ṭabari* et *Ibn Hishām*
+      consignent sans la valider.
+    canonical_hijri: {year: 14, precision: year}
+    canonical_gregorian: {date: 635-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_hajar_isaba
+    people: [[sad-ibn-ubada, subject], [abu-bakr-as-siddiq, subject]]
+    tags: [sahaba, ansar, khazraj, saqifa, hawran, rashidun]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sa%27d_ibn_Ubadah"

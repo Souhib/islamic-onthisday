@@ -1,0 +1,570 @@
+# Women of Islam — standalone events for the Mothers of the Believers, major
+# Sahabiyat, and later women scholars. All dates verified against classical
+# biographical dictionaries (Ibn Sa'd's Tabaqat, al-Dhahabi's Siyar, Ibn al-Athir's
+# Usd al-Ghaba, Ibn Hajar's al-Isaba).
+
+events:
+  - slug: death-of-khadija
+    category: prophetic_era
+    title_en: Passing of Khadija bint Khuwaylid (First Believer)
+    title_ar: وفاة أم المؤمنين خديجة بنت خويلد رضي الله عنها
+    title_fr: Décès de Khadija bint Khuwaylid ra (la première croyante)
+    description_en: |
+      The first of the believers, the first wife of the Prophet ﷺ, and the
+      mother of most of his children. She was the one who comforted him at
+      the first revelation and who bore twenty-five years of marriage in
+      which he took no other wife. She passed away in Makkah in Ramadan,
+      the tenth year of prophethood — three years before the Hijra —
+      shortly after Abu Talib, the year accordingly called the Year of
+      Sorrow ('Am al-Huzn). The Prophet ﷺ buried her with his own hands at
+      al-Hajun cemetery. He never ceased to speak of her with love for the
+      remainder of his life, and 'A'isha ra reported: "I did not envy any
+      of the wives of the Prophet ﷺ as I envied Khadija, even though I
+      never met her."
+    description_ar: |
+      أوّل المؤمنين، وأوّل زوجات النبي ﷺ، وأمّ أكثر أولاده. هي التي
+      ثبّتته عند نزول الوحي الأوّل، وعاشت معه خمساً وعشرين سنة لم يتزوّج
+      عليها. توفّيت بمكّة في رمضان من السنة العاشرة من البعثة — أي قبل
+      الهجرة بثلاث سنين — بعد وفاة أبي طالب بمدّة قصيرة، فسُمّي ذلك العام
+      "عام الحُزن". دفنها النبي ﷺ بيده في مقبرة الحَجون. ولم يزل يذكرها
+      بالخير حتى آخر حياته. قالت عائشة رضي الله عنها: "ما غِرتُ على امرأة
+      من نساء النبي ﷺ ما غِرتُ على خديجة، وما رأيتُها قط".
+    description_fr: |
+      Première des croyants, première épouse du Prophète ﷺ et mère de la
+      plupart de ses enfants. C'est elle qui le rassura lors de la
+      première révélation, et avec qui il vécut vingt-cinq années sans
+      prendre d'autre épouse. Elle décéda à La Mecque au mois de Ramadan
+      de la dixième année de la prophétie — soit trois ans avant l'Hégire —
+      peu après Abu Talib ; cette année fut nommée "l'Année de la Tristesse"
+      ('Am al-Huzn). Le Prophète ﷺ la mit en terre de ses propres mains
+      au cimetière d'al-Hajun. Il ne cessa d'évoquer son souvenir avec
+      tendresse jusqu'à la fin de sa vie. ʿĀʾisha ra rapporta : "Je
+      n'enviai jamais une femme du Prophète ﷺ comme j'enviai Khadija, et
+      pourtant je ne l'ai jamais rencontrée."
+    canonical_hijri: {year: -3, month: 9, precision: month}
+    canonical_gregorian: {date: 619-11-15, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Sahih al-Bukhari 3818 — hadith of Aisha on Khadija's station before Allah."
+        is_canonical: true
+      - source_key: ibn_hisham_sira
+      - source_key: ibn_sad_tabaqat
+    people: [[khadija-bint-khuwaylid, died], [muhammad, subject]]
+    tags: [prophetic-era, sahabiya, makkah, year-of-sorrow]
+    importance: major
+    verification_status: cross_verified
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Khadija_bint_Khuwaylid
+    hadith_refs: "Bukhari 3818"
+
+  - slug: martyrdom-of-sumayya
+    category: prophetic_era
+    title_en: Martyrdom of Sumayya bint Khayyat — First Martyr of Islam
+    title_ar: استشهاد سُمَيّة بنت خَيّاط رضي الله عنها — أوّل شهيدة في الإسلام
+    title_fr: Martyre de Sumayya bint Khayyat ra — première martyre de l'islam
+    description_en: |
+      Sumayya, the mother of 'Ammar ibn Yasir, was tortured by Abu Jahl
+      for refusing to renounce Islam and killed with a spear in his hand —
+      becoming the first martyr of this community. The Prophet ﷺ passed
+      by the Yasir family undergoing torture and said: "Patience, O family
+      of Yasir — your appointment is Paradise." Her martyrdom took place
+      in Makkah, approximately seven years before the Hijra.
+    description_ar: |
+      سُمَيّة بنت خَيّاط، أمّ عَمّار بن ياسر، عذّبها أبو جهل لرفضها
+      التبرّؤ من الإسلام، وطعنها بحربةٍ في يده فقتلها، فكانت أوّل شهيدة
+      في هذه الأمّة. ومرّ النبي ﷺ بآل ياسر وهم يُعذَّبون فقال: "صبراً
+      آل ياسر، فإنّ موعدكم الجنّة". كان استشهادها بمكّة قبل الهجرة بنحو
+      سبع سنوات.
+    description_fr: |
+      Sumayya, mère de ʿAmmar ibn Yasir, fut torturée par Abu Jahl pour
+      avoir refusé de renier l'islam, et il la transperça d'une lance —
+      devenant ainsi la première martyre de cette communauté. Le Prophète
+      ﷺ passa près de la famille de Yasir alors qu'ils subissaient les
+      tortures et dit : "Patience, ô famille de Yasir, votre rendez-vous
+      est le Paradis." Son martyre eut lieu à La Mecque, environ sept ans
+      avant l'Hégire.
+    canonical_hijri: {year: -7, precision: year}
+    canonical_gregorian: {date: 615-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+    people: [[sumayya-bint-khayyat, killed]]
+    tags: [prophetic-era, sahabiya, martyr, makkah, first-martyr]
+    importance: major
+    verification_status: cross_verified
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Sumayyah_bint_Khabbat
+
+  - slug: death-of-fatima-az-zahra
+    category: prophetic_era
+    title_en: Passing of Fatima az-Zahra ra
+    title_ar: وفاة فاطمة الزهراء رضي الله عنها
+    title_fr: Décès de Fatima az-Zahra ra
+    description_en: |
+      The daughter of the Prophet ﷺ, mother of al-Hasan and al-Husayn, and
+      wife of Ali ibn Abi Talib, passed away in Madinah approximately six
+      months after her father — fulfilling his private words to her that
+      she would be the first of his family to follow him. Classical
+      sources diverge sharply on the precise date within 11 AH: Sahih
+      al-Bukhari's narration of "six months after the Prophet ﷺ" (3 Jumada
+      al-Akhirah 11 AH per Sunni majority calculation) is the most
+      commonly cited figure; other Sunni narrations give 3 Ramadan,
+      8 Ramadan, or 14 Jumada al-Akhirah. We record month-precision as
+      "Jumada al-Akhirah 11 AH" since the day is genuinely contested. She
+      is buried in the Baqi' cemetery in Madinah. The Prophet ﷺ had called
+      her "the leader of the women of Paradise."
+    description_ar: |
+      ابنة النبي ﷺ، وأمّ الحسن والحسين، وزوجة عليّ بن أبي طالب رضي الله
+      عنه. توفّيت بالمدينة بعد أبيها بنحو ستّة أشهر، تصديقاً لما أسرّ
+      إليها أنّها أوّل أهله لحوقاً به. اختلفت المصادر السنّية الكلاسيكية
+      في تحديد اليوم بدقّة من سنة 11هـ: فحديث البخاري "عاشت بعد النبي ﷺ
+      ستّة أشهر" هو الأشهر، ويُحسب بـ 3 جمادى الآخرة 11هـ عند جمهور
+      السنّة؛ وثمّة روايات سنّية أخرى تذكر 3 رمضان أو 8 رمضان أو 14 جمادى
+      الآخرة. نسجّل هنا "جمادى الآخرة 11هـ" بدقّة الشهر لأنّ اليوم متنازع
+      فيه. دُفنت في البقيع بالمدينة. وقد قال عنها النبي ﷺ إنّها "سيّدة
+      نساء أهل الجنّة".
+      
+      ʿĀʾisha ra's narration in al-Bukhārī gives six months after the Prophet's ﷺ death; other classical accounts record three months or 75 days; we follow the dominant six-month tradition.
+      
+      روت عائشة رضي الله عنها في «صحيح البخاري» أنها توفيت بعد ستة أشهر من وفاة النبي ﷺ؛ وروايات أخرى ذكرت ثلاثة أشهر أو خمسة وسبعين يوماً؛ ونتبع هنا الرواية المشهورة بستة أشهر.
+    description_fr: |
+      Fille du Prophète ﷺ, mère d'al-Hasan et al-Husayn, et épouse de
+      ʿAli ibn Abi Talib ra. Elle décéda à Médine environ six mois après
+      son père — accomplissant sa parole intime selon laquelle elle
+      serait la première de sa famille à le rejoindre. Les sources
+      classiques divergent fortement sur la date précise au sein de
+      l'an 11 H : la narration de Sahih al-Bukhari de "six mois après le
+      Prophète ﷺ" (3 Jumada al-Akhirah 11 H selon le calcul majoritaire
+      sunnite) est la plus citée ; d'autres narrations sunnites donnent
+      3 ou 8 Ramadan, ou 14 Jumada al-Akhirah. Nous enregistrons "Jumada
+      al-Akhirah 11 H" avec une précision au mois, le jour étant réellement
+      contesté. Elle est enterrée au cimetière de Baqi' à Médine. Le
+      Prophète ﷺ l'avait nommée "la maîtresse des femmes du Paradis".
+    canonical_hijri: {year: 11, month: 6, precision: month}
+    canonical_gregorian: {date: 632-08-15, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Sahih al-Bukhari 3624 — 'she lived six months after the Prophet ﷺ', the basis for Jumada al-Akhirah dating."
+        is_canonical: true
+      - source_key: muslim_sahih
+        notes: "Sahih Muslim 2450 — same narration tradition."
+      - source_key: ibn_sad_tabaqat
+        hijri: {year: 11, month: 9, day: 3, precision: day}
+        notes: "One Sunni narration giving 3 Ramadan 11 AH."
+    people: [[fatima-az-zahra, died]]
+    tags: [prophetic-era, ahl-al-bayt, madinah, baqi]
+    importance: major
+    verification_status: cross_verified
+    verified: true
+    disputed: true
+    dispute_about: date
+    source_url: https://en.wikipedia.org/wiki/Fatimah
+    hadith_refs: "Bukhari 3624, Muslim 2450"
+
+  - slug: death-of-aisha
+    category: rashidun
+    title_en: Passing of 'A'isha bint Abi Bakr ra — Mother of the Believers
+    title_ar: وفاة أمّ المؤمنين عائشة بنت أبي بكر رضي الله عنها
+    title_fr: Décès de ʿĀʾisha bint Abi Bakr ra — Mère des croyants
+    description_en: |
+      The beloved wife of the Prophet ﷺ and the daughter of Abu Bakr,
+      'A'isha ra narrated over 2,210 hadith — more than any other of the
+      Mothers of the Believers. She was a teacher of the Companions and
+      Tabi'un; Masruq said of her: "I saw the great Companions of the
+      Prophet ﷺ — including Abu Bakr and 'Umar — asking her about the
+      obligations (fara'id)." She died in Madinah on the 17th of Ramadan,
+      58 AH, at age 66, and was buried in the Baqi' cemetery by night.
+    description_ar: |
+      زوجة النبي ﷺ المحبوبة، وابنة أبي بكر الصدّيق رضي الله عنه. روت
+      عائشة رضي الله عنها أكثر من 2210 حديثاً — أكثر من أيّ أمّ من أمّهات
+      المؤمنين. وكانت معلّمةً للصحابة والتابعين؛ قال عنها مسروق: "لقد
+      رأيتُ مشيخة أصحاب النبي ﷺ الأكابر — أبا بكر وعمر — يسألونها عن
+      الفرائض". توفّيت بالمدينة في 17 رمضان سنة 58هـ عن ستٍّ وستّين سنة،
+      ودُفنت بالبقيع ليلاً.
+    description_fr: |
+      Épouse bien-aimée du Prophète ﷺ et fille d'Abu Bakr ra, ʿĀʾisha ra
+      rapporta plus de 2 210 hadiths — plus qu'aucune autre des Mères des
+      croyants. Elle fut une enseignante des Compagnons et des Tâbi'un ;
+      Masruq dit d'elle : "J'ai vu les grands Compagnons du Prophète ﷺ —
+      dont Abu Bakr et ʿUmar — lui poser des questions sur les obligations
+      (fara'id)." Elle décéda à Médine le 17 Ramadan 58 H, à l'âge de 66
+      ans, et fut enterrée de nuit au cimetière de Baqi'.
+    canonical_hijri: {year: 58, month: 9, day: 17, precision: day}
+    canonical_gregorian: {date: 678-07-16, precision: day, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    people: [[aisha-bint-abi-bakr, died]]
+    tags: [sahabiya, mother-of-the-believers, madinah, baqi]
+    importance: major
+    verification_status: cross_verified
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Aisha
+    hadith_refs: "Bukhari 3815, Muslim 2442"
+
+  - slug: death-of-umm-salama
+    category: umayyad
+    title_en: Passing of Umm Salama ra — Last Mother of the Believers
+    title_ar: وفاة أمّ سلمة هند بنت أبي أميّة رضي الله عنها — آخر أمّهات المؤمنين
+    title_fr: Décès d'Umm Salama ra — dernière des Mères des croyants
+    description_en: |
+      Hind bint Abi Umayya — "Umm Salama" — was the longest-lived of the
+      Mothers of the Believers, dying in Madinah at age 84. She was the
+      wife of Abu Salama (one of the first emigrants to Abyssinia) before
+      her marriage to the Prophet ﷺ. She narrated 378 hadiths and was a
+      major authority in Madinan scholarly circles. She was the last of
+      the Ummahat al-Mu'minin to pass. Most classical Sunni sources place
+      her death in 62 AH (others propose 61 or 64 AH); we record with
+      year-precision since the day is not securely attested.
+    description_ar: |
+      هند بنت أبي أميّة، المعروفة بـ "أمّ سلمة"، كانت أطول أمّهات المؤمنين
+      عمراً، توفّيت بالمدينة عن أربعٍ وثمانين سنة. كانت زوج أبي سلمة (من
+      أوائل المهاجرين إلى الحبشة) قبل زواجها من النبي ﷺ. روت 378 حديثاً،
+      وكانت من كبار فقهاء المدينة وعلمائها. وهي آخر من توفّي من أمّهات
+      المؤمنين. أكثر المصادر السنّية الكلاسيكية تذكر وفاتها سنة 62هـ
+      (وقيل 61 أو 64هـ)، فنسجّلها بدقّة السنة لعدم تثبّت اليوم.
+      
+      Sources record her death between 59 and 62 AH; we follow Ibn Saʿd's *Ṭabaqāt* with 59 AH as the most-cited classical attestation, while Ibn Ḥajar's *Iṣāba* records 61 AH.
+      
+      ذكرت المصادر وفاتها بين سنتي ٥٩ و٦٢ هـ؛ ونتبع هنا «طبقات» ابن سعد بسنة ٥٩ هـ أكثر التواريخ استشهاداً، مع إيراد ابن حجر العسقلاني سنة ٦١ هـ في «الإصابة».
+    description_fr: |
+      Hind bint Abi Umayya — "Umm Salama" — fut la plus longévive des
+      Mères des croyants, décédée à Médine à l'âge de 84 ans. Elle était
+      l'épouse d'Abu Salama (l'un des premiers émigrés en Abyssinie)
+      avant son mariage avec le Prophète ﷺ. Elle rapporta 378 hadiths et
+      fut une autorité majeure dans les cercles savants médinois. Elle
+      fut la dernière des Mères des croyants à s'éteindre. La plupart
+      des sources classiques sunnites situent sa mort en 62 H (d'autres
+      proposent 61 ou 64 H) ; nous l'enregistrons avec une précision à
+      l'année, le jour n'étant pas attesté de façon sûre.
+    canonical_hijri: {year: 62, precision: year}
+    canonical_gregorian: {date: 681-09-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+        notes: "Ibn Sa'd's Tabaqat — Dhu al-Qa'da 62 AH."
+      - source_key: dhahabi_siyar
+        notes: "Al-Dhahabi notes the dispute (61, 62 or 64 AH)."
+    people: [[umm-salama, died]]
+    tags: [sahabiya, mother-of-the-believers, madinah, baqi]
+    importance: notable
+    verification_status: cross_verified
+    verified: true
+    disputed: true
+    dispute_about: date
+    source_url: https://en.wikipedia.org/wiki/Umm_Salama
+
+  - slug: death-of-hafsa
+    category: rashidun
+    title_en: Passing of Hafsa bint 'Umar ra
+    title_ar: وفاة حفصة بنت عمر بن الخطّاب رضي الله عنها
+    title_fr: Décès de Hafsa bint ʿUmar ra
+    description_en: |
+      The daughter of Caliph 'Umar ibn al-Khattab and wife of the Prophet
+      ﷺ. After her widowhood (she was first married to Khunays ibn
+      Hudhafa), her marriage to the Prophet ﷺ placed her among the Mothers
+      of the Believers. She was the custodian of the first complete
+      written mushaf of the Qur'an, which her father had received from
+      Abu Bakr — it remained with her until 'Uthman requested it for the
+      standardised codex. She died in Madinah in Sha'ban 45 AH; the day
+      is not securely attested.
+    description_ar: |
+      ابنة الخليفة عمر بن الخطّاب رضي الله عنه، وزوج النبي ﷺ. بعد ترمّلها
+      (كانت قبل ذلك زوج خُنَيس بن حُذافة)، تزوّجها النبي ﷺ، فصارت من
+      أمّهات المؤمنين. وكانت في حوزتها أوّل مصحف مكتوب جامع للقرآن، الذي
+      تسلّمه أبوها من أبي بكر، فبقي عندها حتى طلبه عثمان لينسخ منه المصحف
+      الإمام. توفّيت بالمدينة في شعبان سنة 45هـ، واليوم لم يثبت بدقّة.
+    description_fr: |
+      Fille du calife ʿUmar ibn al-Khattab ra et épouse du Prophète ﷺ.
+      Après son veuvage (elle avait d'abord épousé Khunays ibn Hudhafa),
+      son mariage avec le Prophète ﷺ la plaça parmi les Mères des
+      croyants. Elle fut la dépositaire du premier mushaf complet du
+      Coran, que son père avait reçu d'Abu Bakr ; il resta entre ses
+      mains jusqu'à ce que ʿUthman le réclame pour la recension
+      standard. Elle décéda à Médine en Sha'ban 45 H ; le jour précis
+      n'est pas solidement attesté.
+    canonical_hijri: {year: 45, month: 8, precision: month}
+    canonical_gregorian: {date: 665-10-15, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+        notes: "Ibn Sa'd, Tabaqat vol. 8 — Sha'ban 45 AH."
+      - source_key: dhahabi_siyar
+    people: [[hafsa-bint-umar, died]]
+    tags: [sahabiya, mother-of-the-believers, madinah, mushaf]
+    importance: notable
+    verification_status: cross_verified
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Hafsa_bint_Umar
+
+  - slug: nusayba-at-uhud
+    category: battle
+    title_en: Nusayba bint Ka'b Defends the Prophet ﷺ at Uhud
+    title_ar: نسيبة بنت كعب الأنصاريّة رضي الله عنها تدافع عن النبي ﷺ في أُحُد
+    title_fr: Nusayba bint Kaʿb ra défend le Prophète ﷺ à Uhud
+    description_en: |
+      Nusayba bint Ka'b al-Ansariyya (Umm 'Umara) went to Uhud to bring
+      water and care for the wounded. When the battle turned and most
+      defenders fell back, she stepped forward with a sword and shield to
+      defend the Prophet ﷺ directly, taking at least twelve wounds. The
+      Prophet ﷺ said: "I did not look left or right without seeing her
+      fighting for me." She would later participate in the campaigns
+      against Musaylima at Yamama — losing a hand in the battle — and die
+      at a great age.
+    description_ar: |
+      نسيبة بنت كعب الأنصاريّة، المعروفة بأمّ عمارة رضي الله عنها، خرجت
+      إلى أُحُد لتسقي الجرحى وتداويهم. فلمّا اضطرب الناس وانكشفوا، تقدّمت
+      بسيفها وترسها تذود عن النبي ﷺ مباشرةً، حتى أُصيبت باثنتي عشرة جراحة
+      على الأقل. قال النبي ﷺ: "ما التفتُّ يميناً ولا شمالاً يوم أُحُد إلاّ
+      وأنا أراها تقاتل دوني". وشاركت من بعدُ في حرب اليمامة ضدّ مُسَيلمة
+      الكذّاب — فقُطعت يدها فيها — وعاشت حتى بلغت سنّاً عالية.
+    description_fr: |
+      Nusayba bint Kaʿb al-Ansariyya (Umm ʿUmara) ra se rendit à Uhud
+      pour apporter de l'eau et soigner les blessés. Quand le cours de
+      la bataille bascula et que la plupart des défenseurs reculèrent,
+      elle s'avança avec une épée et un bouclier pour défendre directement
+      le Prophète ﷺ, recevant au moins douze blessures. Le Prophète ﷺ
+      dit : "Je ne regardais ni à droite ni à gauche sans la voir
+      combattre pour moi." Elle participa plus tard aux campagnes contre
+      Musaylima à Yamama — y perdant une main — et vécut jusqu'à un âge
+      avancé.
+    canonical_hijri: {year: 3, month: 10, day: 7, precision: day}
+    canonical_gregorian: {date: 625-03-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: ibn_hisham_sira
+    people: [[nusayba-bint-kab, participant], [muhammad, subject]]
+    tags: [prophetic-era, battle, uhud, sahabiya, warrior]
+    importance: notable
+    verification_status: cross_verified
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Nusaybah_bint_Ka%27ab
+
+  - slug: death-of-rabi-a-al-adawiyya
+    category: scholar_death
+    title_en: Death of Rabi'a al-'Adawiyya — The Ascetic of Basra
+    title_ar: وفاة رابعة العدويّة — زاهدة البصرة
+    title_fr: Décès de Rabiʿa al-ʿAdawiyya — l'ascète de Basra
+    description_en: |
+      A freed slave of Basra who became one of the most influential early
+      Muslim ascetics. Her teachings on the love of Allah as an end in
+      itself — neither from fear of the Fire nor hope of Paradise —
+      shaped later Sufi literature on mahabba. She never married, and
+      her supplications and aphorisms are preserved by al-Sulami,
+      al-Qushayri, and al-Ghazali. She died in Basra (most sources give
+      185 AH / 801 CE; some report ~180 AH) and is buried there.
+    description_ar: |
+      جارية معتوقة من البصرة، صارت من أعظم زهّاد المسلمين في صدر
+      الإسلام. أثّر تعليمها في محبّة الله لذاته — لا خوفاً من النار ولا
+      طمعاً في الجنّة — في الأدب الصوفي اللاحق في باب المحبّة. لم
+      تتزوّج قطّ، وقد حفظ السلمي والقشيري والغزالي أدعيتها وحِكمها.
+      توفّيت بالبصرة (أكثر المصادر على 185هـ / 801م، وبعضها على نحو
+      180هـ) ودُفنت بها.
+    description_fr: |
+      Esclave affranchie de Basra qui devint l'une des plus influentes
+      ascètes des débuts de l'islam. Son enseignement sur l'amour
+      d'Allah comme fin en soi — sans crainte du Feu ni espoir du Paradis —
+      marqua durablement la littérature soufie sur la mahabba. Elle ne
+      se maria jamais, et ses invocations et aphorismes sont préservés
+      par al-Sulami, al-Qushayri et al-Ghazali. Elle décéda à Basra (la
+      plupart des sources donnent 185 H / 801 EC ; certaines ~180 H) et
+      y fut enterrée.
+    canonical_hijri: {year: 185, precision: year}
+    canonical_gregorian: {date: 801-06-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+    people: [[rabi-a-al-adawiyya, died]]
+    tags: [abbasid, scholar, basra, ascetic, sufi]
+    importance: notable
+    verification_status: single_source
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Rabia_of_Basra
+
+  - slug: death-of-aisha-al-bauniyya
+    category: scholar_death
+    title_en: Death of 'A'isha al-Ba'uniyya — Mamluk-Era Scholar and Poet
+    title_ar: وفاة عائشة الباعونيّة — عالمة العصر المملوكي وشاعرته
+    title_fr: Décès de ʿĀʾisha al-Baʿuniyya — savante et poétesse de l'ère mamelouke
+    description_en: |
+      The most prolific Muslim woman author of the pre-modern period,
+      'A'isha al-Ba'uniyya of Damascus composed more than a dozen
+      surviving works on Sufism, theology, and poetry — including her
+      "al-Muntakhab fi Usul al-Rutab fi 'Ilm al-Tasawwuf." She was
+      granted ijaza to teach in the Ba'uniyya school in Damascus, and her
+      poetic madih (praise) of the Prophet ﷺ circulated widely in her
+      lifetime. She died in Damascus on 16 Dhu al-Qa'da 922 AH (December
+      1517 CE), in the early Ottoman period.
+    description_ar: |
+      أغزر النساء المسلمات تأليفاً قبل العصر الحديث. عائشة الباعونيّة
+      الدمشقيّة، صنّفت أكثر من عشرة كتب باقية في التصوّف والعقيدة
+      والشعر — منها "المنتخب في أصول الرتب في علم التصوّف". أُجيزت
+      للتدريس في المدرسة الباعونيّة بدمشق، وانتشرت قصائدها في مدح النبي ﷺ
+      في حياتها. توفّيت بدمشق في 16 ذي القَعْدة سنة 922هـ (ديسمبر 1517م)
+      في أوائل العصر العثماني.
+    description_fr: |
+      Auteure musulmane la plus prolifique de la période pré-moderne,
+      ʿĀʾisha al-Baʿuniyya de Damas composa plus d'une dizaine d'ouvrages
+      préservés sur le soufisme, la théologie et la poésie — dont
+      "al-Muntakhab fi Usul al-Rutab fi ʿIlm al-Tasawwuf". Elle reçut
+      l'ijaza pour enseigner à l'école Baʿuniyya de Damas, et ses
+      poèmes en éloge du Prophète ﷺ (madih) circulèrent largement de son
+      vivant. Elle décéda à Damas le 16 Dhu al-Qaʿda 922 H (décembre
+      1517 EC), au début de l'époque ottomane.
+    canonical_hijri: {year: 922, month: 11, day: 16, precision: day}
+    canonical_gregorian: {date: 1517-12-11, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Th. Emil Homerin, 'Aisha al-Ba'uniyya: A Life in Praise of Love' (Oneworld, 2014)."
+    people: [[aisha-al-bauniyya, died]]
+    tags: [mamluk, ottoman, scholar, damascus, poet, sufi]
+    importance: notable
+    verification_status: single_source
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/'A'isha_al-Ba'uniyya
+
+  - slug: umm-sulaym-and-prophet
+    category: prophetic_era
+    title_en: Umm Sulaym and the Patience of the Believers
+    title_ar: أمّ سُلَيم رضي الله عنها وصبر المؤمنين
+    title_fr: Umm Sulaym ra et la patience des croyants
+    description_en: |
+      Umm Sulaym bint Milhan al-Ansariyya was among the earliest of the
+      Ansar to embrace Islam. When her son's death came while her husband
+      Abu Talha was away, she prepared food and composed herself, telling
+      him only after he had eaten — with the famous words: "What do you
+      say about one who took a loan and returns it to its owner when
+      asked?" The Prophet ﷺ smiled at her report and prayed for blessing
+      in that night. Anas ibn Malik — nine of whose siblings came from
+      this union — is the most prolific hadith narrator of the Ansar
+      because of his service to the Prophet ﷺ, which Umm Sulaym
+      arranged.
+    description_ar: |
+      أمّ سُلَيم بنت مِلْحان الأنصاريّة رضي الله عنها كانت من أوائل
+      الأنصار إسلاماً. لمّا توفّي ابنها وزوجها أبو طلحة غائب، هيّأت
+      الطعام وتجمّلت، فلم تخبره حتى أكل وفرغ، ثم قالت كلمتها المشهورة:
+      "ما تقول في قومٍ أعاروا قوماً عاريةً، فلمّا طُلبت منهم منعوها؟"
+      فتبسّم النبي ﷺ من خبرها ودعا لهما بالبركة في ليلتهما. وأنس بن مالك —
+      الذي وُلد له تسعة من إخوته من هذا الاقتران — هو أكثر الأنصار رواية
+      للحديث، بفضل خدمته للنبي ﷺ التي أوصلتها إليها أمّه أمّ سُلَيم.
+    description_fr: |
+      Umm Sulaym bint Milhan al-Ansariyya ra fut parmi les premiers des
+      Ansar à embrasser l'islam. Quand son fils mourut alors que son
+      époux Abu Talha était absent, elle prépara le repas, se composa,
+      et ne lui annonça la nouvelle qu'après qu'il eut mangé — avec ces
+      mots célèbres : "Que dis-tu de gens qui ont prêté quelque chose à
+      d'autres, et que ces derniers refusent de la rendre ?" Le Prophète
+      ﷺ sourit en entendant le récit et invoqua la bénédiction sur leur
+      nuit. Anas ibn Malik ra — duquel naquirent neuf frères et sœurs
+      de cette union — est le plus prolifique narrateur de hadiths parmi
+      les Ansar, grâce à son service auprès du Prophète ﷺ qu'avait
+      arrangé sa mère Umm Sulaym.
+    canonical_hijri: {year: 1, precision: year}
+    canonical_gregorian: {date: 622-07-19, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        is_canonical: true
+        notes: Sahih al-Bukhari 1301 — narration of Anas ibn Malik on Abu Talha and his wife (Umm Sulaym).
+      - source_key: muslim_sahih
+        notes: Sahih Muslim — Book of Virtues of the Companions, hadith on Umm Sulaym and Abu Talha.
+    people: [[umm-sulaym, subject], [muhammad, subject]]
+    tags: [prophetic-era, sahabiya, madinah, patience]
+    importance: notable
+    verification_status: cross_verified
+    verified: true
+    source_url: https://sunnah.com/bukhari:1301
+    hadith_refs: "Bukhari 1301, Muslim 2144"
+
+  - slug: rufayda-first-muslim-nurse
+    category: prophetic_era
+    title_en: Rufayda al-Aslamiyya — The First Muslim Field Nurse
+    title_ar: رُفَيْدة الأسلميّة رضي الله عنها — أوّل ممرّضة في الإسلام
+    title_fr: Rufayda al-Aslamiyya ra — la première infirmière de campagne en islam
+    description_en: |
+      Rufayda al-Aslamiyya is recorded as the first Muslim woman to
+      practise medicine and nursing as a systematic profession. During
+      the Battle of Khandaq (5 AH) she set up a field tent at the mosque
+      of the Prophet ﷺ in Madinah to treat the wounded — the recognised
+      starting point of Muslim medical nursing. When Sa'd ibn Mu'adh was
+      struck by an arrow, the Prophet ﷺ instructed that he be brought
+      to Rufayda's tent for care. Her example established Muslim women's
+      participation in the medical arts as a recognised vocation.
+    description_ar: |
+      تُذكر رُفَيدة الأسلميّة رضي الله عنها بوصفها أوّل امرأة مسلمة
+      مارست الطبّ والتمريض مهنةً منظَّمة. في غزوة الخندق (سنة 5هـ)،
+      نصبت خيمةً عند مسجد النبي ﷺ بالمدينة لمعالجة الجرحى — وهو ما يُعدّ
+      نقطة انطلاق التمريض الطبّي في الحضارة الإسلامية. ولمّا أُصيب سعد
+      بن معاذ رضي الله عنه بسهم، أمر النبي ﷺ أن يُحمل إلى خيمة رُفَيدة
+      ليُعالَج. وقد أرسى مثالها مشاركة المرأة المسلمة في الطبّ مهنةً
+      معترفاً بها.
+    description_fr: |
+      Rufayda al-Aslamiyya ra est rapportée comme la première femme
+      musulmane à exercer la médecine et le soin infirmier comme
+      profession organisée. Lors de la bataille du Khandaq (5 H), elle
+      installa une tente de campagne près de la mosquée du Prophète ﷺ
+      à Médine pour soigner les blessés — point de départ reconnu du
+      soin infirmier médical musulman. Lorsque Saʿd ibn Muʿadh ra fut
+      atteint d'une flèche, le Prophète ﷺ ordonna qu'il soit porté à la
+      tente de Rufayda pour y être soigné. Son exemple établit la
+      participation des femmes musulmanes aux arts médicaux comme une
+      vocation reconnue.
+    canonical_hijri: {year: 5, month: 10, precision: month}
+    canonical_gregorian: {date: 627-03-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+    people: [[rufayda-al-aslamiyya, subject]]
+    tags: [prophetic-era, sahabiya, medicine, madinah, khandaq]
+    importance: notable
+    verification_status: cross_verified
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Rufaida_Al-Aslamia
+
+  - slug: death-of-fatima-al-fihri
+    category: scholar_death
+    title_en: Death of Fatima bint Muhammad al-Fihri — Founder of al-Qarawiyyin
+    title_ar: وفاة فاطمة بنت محمد الفِهريّة — مؤسِّسة جامعة القرويّين
+    title_fr: Décès de Fatima bint Muhammad al-Fihri — fondatrice d'al-Qarawiyyin
+    description_en: |
+      The Tunisian-born Fatima al-Fihri, who had inherited a substantial
+      estate from her father, endowed the mosque and teaching complex at
+      Fez that became al-Qarawiyyin — continuously operating since 245 AH
+      (859 CE) and recognised by UNESCO as the oldest existing university.
+      She died in Fez circa 880 CE, having seen the institution take
+      root. The traditional account of her foundation is preserved
+      principally in Ibn Abi Zar' (14th c., "Rawd al-Qirtas").
+    description_ar: |
+      وُلدت فاطمة الفِهريّة في القيروان بتونس، وورثت عن أبيها ثروةً
+      كبيرة. أوقفت بمدينة فاس مسجداً ومجمَّعاً تعليميّاً صار جامعةَ
+      القرويّين — التي تعمل بلا انقطاع منذ سنة 245هـ (859م)، وتعترف بها
+      اليونسكو بوصفها أقدم جامعة قائمة في العالم. توفّيت بفاس نحو سنة
+      880م، بعد أن رأت مؤسّستها قد ترسّخت. والرواية التقليديّة عن
+      تأسيسها محفوظة أساساً في "الروض القرطاس" لابن أبي زرع (القرن
+      الثامن الهجري).
+    description_fr: |
+      Née à Kairouan en Tunisie, Fatima al-Fihri hérita d'une fortune
+      considérable de son père. Elle fonda et dota à Fès une mosquée et
+      un complexe d'enseignement qui devint al-Qarawiyyin — en
+      fonctionnement continu depuis 245 H (859 EC) et reconnue par
+      l'UNESCO comme la plus ancienne université existante au monde.
+      Elle décéda à Fès vers 880 EC, ayant vu son institution
+      s'enraciner. Le récit traditionnel de sa fondation est
+      principalement préservé dans le "Rawd al-Qirtas" d'Ibn Abi Zar'
+      (XIVe siècle).
+    canonical_hijri: {year: 265, precision: year}
+    canonical_gregorian: {date: 880-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Ibn Abi Zar', Rawd al-Qirtas (14th c.) is the principal classical source for Fatima's biography."
+    people: [[fatima-bint-al-fihri, died]]
+    tags: [north-africa, morocco, fez, qarawiyyin, founding]
+    importance: notable
+    verification_status: single_source
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Fatima_al-Fihri

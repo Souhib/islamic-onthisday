@@ -1,0 +1,911 @@
+# Wave 23 of curated event additions (2026-04-27).
+# Mughal and Ottoman secondary figures: 6 Mughal emperors / consorts / nobles
+# (Sher Shah Sūrī, ʿAbd al-Raḥīm Khān-i-Khānān, Dārā Shikōh, Mumtāz Maḥall,
+# Nūr Jahān, Bahādur Shāh I) + 6 Ottoman sultans and grand viziers (Bāyezīd II,
+# Sokollu Mehmed Pasha, Selīm II, Köprülü Mehmed Pasha, Köprülü Fāḍil Aḥmad
+# Pasha, Maḥmūd II). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # MUGHAL SECONDARY FIGURES
+  # =========================================================================
+
+  - slug: death-of-sher-shah-suri
+    category: ruler
+    title_en: Death of Sher Shāh Sūrī
+    title_ar: وفاة شير شاه السوري
+    title_fr: Mort de Sher Shāh Sūrī
+    description_en: |
+      Farīd al-Dīn Shēr Shāh Sūrī — Pashtun emperor of north India
+      who interrupted the Mughal era by driving Humāyūn into exile
+      (947 AH / 1540 CE) and ruling the subcontinent from Delhi for
+      five years — died at Kalinjar fort in modern-day Uttar Pradesh
+      from the explosion of a powder magazine during the siege of
+      the Hindu fortress. He was about 73. Born in Sasaram (Bihar)
+      to a Sūr Pashtun *jagirdar* family, he rose through Afghan
+      service to defeat Humāyūn at Chausa (946 AH / 1539 CE) and
+      Kannauj (947 AH / 1540 CE). His five-year Sūrī sultanate
+      rationalised the land revenue system into a measured *zabt*
+      assessment (later inherited and refined by Akbar's *dīwān*
+      Todar Mal), built the imperial postal *dāk* relay, struck
+      the standardised silver *rupiya* (the precursor of the modern
+      rupee), and rebuilt the Grand Trunk Road from Sonargaon
+      (Bengal) to Kabul with caravanserais and shade trees every
+      *kos*. His mausoleum at Sasaram in the middle of an
+      artificial lake is the masterpiece of Indo-Afghan architecture
+      and the architectural bridge between the Lodi and Mughal
+      styles. His son Islām Shāh continued the dynasty briefly;
+      Humāyūn returned in 962 AH (1555 CE) to reclaim Delhi.
+    description_ar: |
+      توفي السلطان فريد الدين شير شاه السوري — الإمبراطور الباشتوني
+      الذي قطع عهد الدولة المغولية الإسلامية بإخراجه همايون إلى
+      المنفى سنة ٩٤٧ هـ (١٥٤٠ ميلادي) فحكم شبه القارة الهندية من
+      دلهي خمس سنين — في حصن «كالنجار» بأوتر برديش الحديثة من انفجار
+      مخزن البارود في حصاره للقلعة الهندوسية. وقد ناهز الثالثة
+      والسبعين. وُلد في «ساساران» ببهار من أسرة باشتونية سورية من
+      أصحاب الإقطاعات، فتدرج في الخدمة الأفغانية حتى هزم همايون في
+      «جوسا» سنة ٩٤٦ هـ (١٥٣٩ ميلادي) و«كنوج» سنة ٩٤٧ هـ (١٥٤٠
+      ميلادي). ورتبت سلطنته القصيرة نظام خراج الأرض في تقدير محدد
+      (ضبط) ورثه أكبر بعده ونقحه ديوانه «تودر مال»، وأسس بريد الدولة
+      المنقول (داك)، وضرب «الروبية» الفضية الموحدة (سلف الروبية
+      الحديثة)، وأعاد بناء «الطريق العظيم» (Grand Trunk Road) من
+      «سُنَرغاون» في البنغال إلى كابل مع الخانات وأشجار الظل في كل
+      «كوس». وضريحه في «ساساران» وسط بحيرة صناعية هو رائعة العمارة
+      الهندية-الأفغانية والجسر المعماري بين الطرازين اللوديي
+      والمغولي. وخلفه ابنه إسلام شاه قليلاً ثم عاد همايون سنة ٩٦٢ هـ
+      (١٥٥٥ ميلادي) ليستعيد دلهي.
+    description_fr: |
+      Farīd al-Dīn Sher Shāh Sūrī — empereur pachtoune du nord de
+      l'Inde qui interrompit l'ère moghole en chassant Humāyūn en
+      exil (947 H / 1540 EC) et gouverna le sous-continent depuis
+      Delhi pendant cinq ans — mourut à la forteresse de Kalinjar,
+      dans l'actuel Uttar Pradesh, de l'explosion d'une poudrière
+      lors du siège de la forteresse hindoue. Il avait environ
+      73 ans. Né à Sasaram (Bihar) dans une famille pachtoune
+      sūrī de *jagīrdārs*, il s'éleva par le service afghan jusqu'à
+      vaincre Humāyūn à Chausa (946 H / 1539 EC) et Kannauj (947 H
+      / 1540 EC). Son sultanat sūrī de cinq ans rationalisa le
+      système des revenus fonciers en une évaluation *zabt* mesurée
+      (héritée et raffinée plus tard par le *dīwān* d'Akbar Todar
+      Mal), bâtit le service postal impérial à relais (*dāk*),
+      frappa la *rupiya* d'argent normalisée (précurseur de la
+      roupie moderne), et reconstruisit la Grand Trunk Road de
+      Sonargaon (Bengale) à Kaboul avec des caravansérails et des
+      arbres d'ombrage à chaque *kos*. Son mausolée à Sasaram, au
+      milieu d'un lac artificiel, est le chef-d'œuvre de
+      l'architecture indo-afghane et le pont architectural entre
+      les styles lodī et moghol. Son fils Islām Shāh continua
+      brièvement la dynastie; Humāyūn revint en 962 H (1555 EC)
+      reconquérir Delhi.
+    canonical_hijri: {year: 952, month: 2, day: 29, precision: day}
+    canonical_gregorian: {date: 1545-05-22, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sher-shah-suri, subject], [humayun, subject]]
+    tags: [mughal, sur-dynasty, india, delhi, pashtun, grand-trunk-road, sasaram]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sher_Shah_Suri"
+
+  - slug: death-of-abd-al-rahim-khan-i-khanan
+    category: scholar
+    title_en: Death of ʿAbd al-Raḥīm Khān-i-Khānān
+    title_ar: وفاة عبد الرحيم خان خانان
+    title_fr: Mort de ʿAbd al-Raḥīm Khān-i-Khānān
+    description_en: |
+      Khānzāda Mīrzā Khān ʿAbd al-Raḥīm — son of Akbar's regent
+      Bayrām Khān, one of the *Navaratna* (nine gems) of Akbar's
+      court, *khān-i-khānān* (commander-in-chief) under Akbar and
+      Jahāngīr, and the great trilingual poet of the Mughal court
+      who composed in Persian, Hindi, and Sanskrit — died in Delhi
+      and was buried in his own tomb on Mathura Road near the
+      mausoleum of Humāyūn. He was about 70. Militarily he
+      conquered Gujarat for Akbar, suppressed the Khandesh and
+      Deccan campaigns, and led the Sindh expedition. As a man of
+      letters he translated his grand-uncle Bābur's Chagatai
+      *Bāburnāma* into Persian — the standard text by which Mughal
+      historiography accessed its founder's memoir — and composed
+      the *Rahīm dohe*, Hindi couplets that entered the Indian
+      vernacular canon and remain a staple of school literature.
+      His patronage of Hindi poets including the blind devotee
+      Sūrdās is part of the Mughal cultural confluence under
+      Akbar-Jahāngīr.
+    description_ar: |
+      توفي خانزاده ميرزا خان عبد الرحيم — ابن وصي أكبر «بيرام
+      خان»، وأحد «النَّوارَتنا» (الجواهر التسعة) في بلاط أكبر،
+      «خان الخانان» (قائد القواد) تحت أكبر وجهانكير، والشاعر
+      المغولي المتقن ثلاث لغات (الفارسية والهندية والسنسكريتية) —
+      بدلهي ودفن في مقبرة من بنائه على «طريق ماثورا» قرب ضريح
+      همايون. وقد ناهز السبعين. غزا في عسكره ولاية غجرات لأكبر،
+      وأخمد حملات «خاندِش» والديكان، وقاد بعثة السند. وكتاباً
+      ترجم مذكرات جده الكبير بابر الجاغطائية «بابرنامه» إلى
+      الفارسية — النص المعتمد الذي قرأت به التواريخ المغولية
+      مذكرات مؤسس دولتهم — ونظم «دوهات رحيم» وهي أبيات هندية
+      ثنائية دخلت في الذاكرة الهندية الشعبية وما زالت من ركائز
+      أدب المدارس. ومن جوانب تلاقح الثقافات في عصري أكبر-جهانكير
+      رعايته للشعراء الهنود ومنهم الضرير «سُور داس».
+    description_fr: |
+      Khānzāda Mīrzā Khān ʿAbd al-Raḥīm — fils du régent d'Akbar
+      Bayrām Khān, l'un des *Navaratna* (neuf gemmes) de la cour
+      d'Akbar, *khān-i-khānān* (commandant en chef) sous Akbar et
+      Jahāngīr, et le grand poète trilingue de la cour moghole
+      qui composa en persan, en hindi et en sanskrit — mourut à
+      Delhi et fut inhumé dans son propre mausolée sur Mathura
+      Road, près du tombeau de Humāyūn. Il avait environ 70 ans.
+      Militairement, il conquit le Gujarat pour Akbar, réprima
+      les campagnes du Khandesh et du Deccan, et mena l'expédition
+      du Sindh. Comme homme de lettres, il traduisit le *Bāburnāma*
+      en chagatai de son grand-oncle Bābur en persan — le texte
+      standard par lequel l'historiographie moghole accédait aux
+      mémoires de son fondateur — et composa les *Rahīm dohe*,
+      distiques hindis entrés dans le canon vernaculaire indien
+      et qui restent un classique de la littérature scolaire. Son
+      mécénat des poètes hindis, dont le dévot aveugle Sūrdās,
+      illustre la confluence culturelle moghole sous Akbar-Jahāngīr.
+    canonical_hijri: {year: 1037, month: 1, day: 20, precision: day}
+    canonical_gregorian: {date: 1627-10-01, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-rahim-khan-i-khanan, subject]]
+    tags: [mughal, india, delhi, akbar, jahangir, poet, baburnama, navaratna]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdul_Rahim_Khan-i-Khanan"
+
+  - slug: death-of-dara-shikoh
+    category: ruler
+    title_en: Execution of Dārā Shikōh
+    title_ar: مقتل دارا شكوه
+    title_fr: Exécution de Dārā Shikōh
+    description_en: |
+      Muhammad Dārā Shikōh — eldest son of Shāh Jahān and Mumtāz
+      Mahal, designated heir, Qādirī Sufi disciple of Miyān Mīr and
+      Mullā Shāh Badakhshī, and the most controversial of the
+      Mughal princes for his syncretist intellectual programme —
+      was executed in Delhi at age 44 by the order of his younger
+      brother Aurangzeb after losing the war of succession at
+      Sāmūgarh (1068 AH / 1658 CE) and being captured in flight to
+      the Persian frontier. He was paraded through Delhi in chains
+      and convicted of *takfīr*-grade *ilḥād* (apostasy/heresy) by
+      a panel of *ʿulamāʾ* on the basis of his works. His scholarly
+      output included *Majmaʿ al-Baḥrayn* (the Confluence of the
+      Two Seas), arguing that Vedānta and Sufism agree at the
+      meta­physical core, and *Sirr al-Akbar* (1067 AH / 1657 CE),
+      his Persian translation of fifty Upanishads — a project that
+      drew from Hindu and Muslim *ʿulamāʾ* together at Banaras and
+      that William Jones, Anquetil-Duperron, and Schopenhauer would
+      later read in European translation. Sunni orthodoxy regarded
+      his theology as heterodox; the Aurangzeb succession sealed
+      the line of Mughal religious-political reorientation toward
+      Sharia-conservative governance.
+    description_ar: |
+      أُعدم الأمير محمد دارا شكوه — أكبر أبناء شاه جهان وممتاز محل،
+      ولي العهد المعين، والمريد القادري للشيخ ميان مير والملا شاه
+      البدخشي، وأشد أبناء الأسرة المغولية إثارة للجدل لمشروعه
+      الفكري التوفيقي — بدلهي عن أربع وأربعين سنة بأمر أخيه أصغره
+      أورنجزيب بعد هزيمته في حرب الخلافة في «سامُوجَر» سنة ١٠٦٨
+      هـ (١٦٥٨ ميلادي) واعتقاله في فراره إلى الحدود الفارسية. وطيف
+      به مكبلاً في دلهي ثم أدانته هيئة من العلماء بالردة-الإلحاد
+      على أساس مصنفاته. ومن إنتاجه العلمي «مجمع البحرين» يحاجج فيه
+      أن «الفيدانتا» والتصوف يتفقان في صميمهما الميتافيزيقي،
+      و«سر الأكبر» سنة ١٠٦٧ هـ (١٦٥٧ ميلادي) ترجمته الفارسية لخمسين
+      «أوبانيشاد» — مشروع شارك فيه علماء من الهندوس والمسلمين معاً
+      في «بنارس»، وقرأه فيما بعد ويليام جونز وأنكوتيل-دوبيرون
+      وشوبنهاور بالترجمات الأوروبية. واعتبرت السنة عقيدته منحرفة؛
+      وحسمت خلافة أورنجزيب التحول الديني-السياسي المغولي نحو حكم
+      شرعي تقليدي.
+    description_fr: |
+      Muḥammad Dārā Shikōh — fils aîné de Shāh Jahān et de Mumtāz
+      Maḥall, héritier désigné, disciple soufi qādirī de Miyān
+      Mīr et de Mullā Shāh Badakhshī, et le plus controversé des
+      princes moghols pour son programme intellectuel syncrétiste —
+      fut exécuté à Delhi à l'âge de 44 ans sur ordre de son frère
+      cadet Aurangzeb après la défaite de la guerre de succession
+      à Sāmūgaṛh (1068 H / 1658 EC) et sa capture lors de sa fuite
+      vers la frontière perse. Il fut promené dans Delhi enchaîné
+      et condamné pour *ilḥād* (apostasie/hérésie) par un panel
+      d'*ʿulamāʾ* sur la base de ses œuvres. Sa production
+      savante incluait le *Majmaʿ al-Baḥrayn* (la Confluence des
+      Deux Mers), soutenant que le Vedānta et le soufisme
+      concordent dans leur noyau métaphysique, et le *Sirr al-Akbar*
+      (1067 H / 1657 EC), sa traduction persane de cinquante
+      Upanishads — un projet qui réunit des *ʿulamāʾ* hindous et
+      musulmans à Bénarès, lu plus tard par William Jones,
+      Anquetil-Duperron et Schopenhauer en traductions européennes.
+      L'orthodoxie sunnite tint sa théologie pour hétérodoxe; la
+      succession d'Aurangzeb scella la réorientation religio-
+      politique moghole vers une gouvernance sharī ʿa-conservatrice.
+    canonical_hijri: {year: 1069, month: 12, day: 11, precision: day}
+    canonical_gregorian: {date: 1659-08-30, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[dara-shikoh, subject], [shah-jahan, subject]]
+    tags: [mughal, india, delhi, aurangzeb, succession, qadiri, upanishads, syncretism]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Dara_Shikoh"
+
+  - slug: death-of-mumtaz-mahal
+    category: ruler
+    title_en: Death of Mumtāz Maḥall
+    title_ar: وفاة ممتاز محل
+    title_fr: Mort de Mumtāz Maḥall
+    description_en: |
+      Arjumand Bānū Bēgum, titled Mumtāz Maḥal (the Chosen of the
+      Palace) — chief consort of Shāh Jahān, niece of Nūr Jahān,
+      and the first lady of the Mughal court at the height of its
+      cultural prestige — died at Burhanpur in the Deccan from
+      postpartum haemorrhage after thirty hours of labour with her
+      fourteenth child. She was 38. Her three-year tenure as
+      *malika* (1037-1040 AH / 1628-1631 CE) had been one of
+      unusual political intimacy: Shāh Jahān entrusted her with the
+      imperial seal *muhr-i-uẓmā* and consulted her on state
+      matters, and contemporary chroniclers including ʿAbd al-Ḥamīd
+      Lāhōrī describe her as his closest counsellor. Upon her
+      death he is said to have observed three months of mourning
+      and to have aged visibly from grief. Her body, temporarily
+      buried at Burhanpur, was transferred to Agra after six
+      months and laid in the foundation chamber of the mausoleum
+      that became the Tāj Maḥal — the most extensive monument-of-
+      love programme in pre-modern Islamic architecture, completed
+      twenty-two years later under the architect Ustād Aḥmad Lāhawrī.
+    description_ar: |
+      توفيت أرجمند بانو بيگم الملقبة بـ«ممتاز محل» (مختارة القصر)
+      — زوج شاه جهان الكبرى، وابنة أخي نور جهان، وسيدة بلاط الدولة
+      المغولية في أوج ازدهارها — في «برهانبور» بالديكان من نزيف ما
+      بعد الولادة بعد ثلاثين ساعة من المخاض بمولودها الرابع عشر.
+      وقد ناهزت الثامنة والثلاثين. وكان عهدها ملكةً ثلاث سنين
+      (١٠٣٧-١٠٤٠ هـ / ١٦٢٨-١٦٣١ ميلادي) من أبرز ما عرفه البلاط
+      المغولي شخصية: ائتمنها شاه جهان على «المهر العظم» وشاورها
+      في شؤون الدولة، ووصفها معاصروها ومنهم عبد الحميد اللاهوري
+      بأنها أقرب وزرائه. ويروى أنه أعلن الحداد ثلاثة أشهر بعد
+      وفاتها وشاب من الأسى. ودفنت في «برهانبور» مؤقتاً ثم نقلت
+      بعد ستة أشهر إلى أكره ووضعت في غرفة قاعدة الضريح الذي صار
+      «تاج محل» — أكبر مشروع معماري ترجم الحب في تاريخ العمارة
+      الإسلامية ما قبل الحديث، استكمل بعد اثنتين وعشرين سنة على
+      يد المعمار «أستاد أحمد اللاهوري».
+    description_fr: |
+      Arjumand Bānū Bēgum, titrée Mumtāz Maḥall (l'Élue du Palais)
+      — épouse principale de Shāh Jahān, nièce de Nūr Jahān, et
+      première dame de la cour moghole à l'apogée de son prestige
+      culturel — mourut à Burhānpūr dans le Deccan d'une hémorragie
+      post-partum après trente heures de travail à son quatorzième
+      enfant. Elle avait 38 ans. Son règne de trois ans en tant
+      que *malika* (1037-1040 H / 1628-1631 EC) avait été d'une
+      intimité politique inhabituelle : Shāh Jahān lui confia le
+      sceau impérial *muhr-i-uẓmā* et la consultait sur les
+      affaires d'État, et les chroniqueurs contemporains, dont
+      ʿAbd al-Ḥamīd Lāhōrī, la décrivent comme sa conseillère la
+      plus proche. À sa mort il aurait observé trois mois de deuil
+      et vieilli visiblement de chagrin. Son corps, inhumé
+      temporairement à Burhānpūr, fut transféré à Agra après six
+      mois et déposé dans la chambre de fondation du mausolée
+      devenu le Tāj Maḥal — le plus vaste programme monumental
+      d'amour de l'architecture islamique pré-moderne, achevé
+      vingt-deux ans plus tard sous l'architecte Ustād Aḥmad
+      Lāhawrī.
+    canonical_hijri: {year: 1040, month: 11, day: 17, precision: day}
+    canonical_gregorian: {date: 1631-06-17, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mumtaz-mahal, subject], [shah-jahan, subject]]
+    tags: [mughal, india, deccan, agra, taj-mahal, shah-jahan, burhanpur]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mumtaz_Mahal"
+
+  - slug: death-of-nur-jahan
+    category: ruler
+    title_en: Death of Nūr Jahān
+    title_ar: وفاة نور جهان
+    title_fr: Mort de Nūr Jahān
+    description_en: |
+      Mihr al-Nisāʾ Bēgum, titled Nūr Jahān (Light of the World) —
+      twentieth and final wife of Emperor Jahāngīr, *de facto*
+      regent during the last decade of his reign as opium and
+      illness reduced him, and the only Mughal empress to have
+      coinage struck in her name — died in Lahore at age 68 and
+      was buried in her own tomb at Shāhdara Bāgh beside the
+      mausoleum of Jahāngīr. After Jahāngīr's death in 1037 AH
+      (1627 CE) she had backed her son-in-law Shahryār against
+      Shāh Jahān; her brother Āṣaf Khān (Mumtāz Maḥall's father)
+      sided with Shāh Jahān, and Nūr Jahān spent her remaining
+      eighteen years in dignified retirement on a state pension.
+      Her architectural programme included the Tomb of Iʿtimād al-
+      Dawla (her father's mausoleum at Agra, 1031-1037 AH /
+      1622-1628 CE) — the inlaid marble *parchin kārī* of which
+      anticipated the Tāj Maḥal — together with gardens and
+      caravanserais along the Mughal trunk roads. She is the
+      principal female political figure of the Indian Muslim
+      seventeenth century.
+    description_ar: |
+      توفيت السيدة مهر النساء بيگم الملقبة بـ«نور جهان» (نور
+      العالم) — العشرون والأخيرة من زوجات الإمبراطور جهانكير،
+      الحاكمة فعلاً في العقد الأخير من حكمه إذ هد قواه الأفيون
+      والمرض، والإمبراطورة المغولية الوحيدة التي ضربت العملة
+      باسمها — في لاهور عن ثمان وستين سنة ودفنت في ضريح من
+      بنائها بـ«شاهدرة باغ» إلى جوار ضريح جهانكير. وكانت قد
+      تحالفت بعد وفاة جهانكير سنة ١٠٣٧ هـ (١٦٢٧ ميلادي) مع
+      صهرها «شهريار» في وجه شاه جهان؛ ولكن أخاها «آصف خان»
+      (والد ممتاز محل) انحاز إلى شاه جهان، فقضت نور جهان السنوات
+      الثماني عشرة الباقية من عمرها في تقاعد كريم على راتب
+      دولة. ومن آثارها العمارة ضريح «اعتماد الدولة» (مقبرة أبيها
+      بأكره ١٠٣١-١٠٣٧ هـ / ١٦٢٢-١٦٢٨ ميلادي) — وما رصع به من
+      الرخام بـ«پرچن كاري» ميز الأسلوب الذي استلهمه «تاج محل» —
+      مع البساتين والخانات على طرق الدولة المغولية الكبرى. وهي
+      الشخصية السياسية النسائية الأبرز في القرن السابع عشر
+      الإسلامي بشبه القارة الهندية.
+    description_fr: |
+      Mihr al-Nisāʾ Bēgum, titrée Nūr Jahān (Lumière du Monde) —
+      vingtième et dernière épouse de l'empereur Jahāngīr, régente
+      *de facto* pendant la dernière décennie de son règne alors
+      que l'opium et la maladie le diminuaient, et seule
+      impératrice moghole à avoir fait frapper monnaie à son nom —
+      mourut à Lahore à 68 ans et fut inhumée dans son propre
+      mausolée à Shāhdara Bāgh, à côté du tombeau de Jahāngīr.
+      Après la mort de Jahāngīr en 1037 H (1627 EC), elle avait
+      soutenu son gendre Shahryār contre Shāh Jahān; son frère
+      Āṣaf Khān (père de Mumtāz Maḥall) prit le parti de Shāh
+      Jahān, et Nūr Jahān passa ses dix-huit dernières années en
+      retraite digne sur pension d'État. Son programme architectural
+      incluait le tombeau d'Iʿtimād al-Dawla (mausolée de son père
+      à Agra, 1031-1037 H / 1622-1628 EC) — dont le marbre incrusté
+      en *parchīn kārī* anticipa le Tāj Maḥal — ainsi que des
+      jardins et caravansérails le long des grandes routes
+      mogholes. Elle est la principale figure politique féminine
+      de l'Inde musulmane du XVIIe siècle.
+    canonical_hijri: {year: 1055, month: 10, day: 28, precision: day}
+    canonical_gregorian: {date: 1645-12-17, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[nur-jahan, subject]]
+    tags: [mughal, india, lahore, jahangir, shah-jahan, regent, architecture]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nur_Jahan"
+
+  - slug: death-of-bahadur-shah-i
+    category: ruler
+    title_en: Death of Bahādur Shāh I
+    title_ar: وفاة بهادر شاه الأول
+    title_fr: Mort de Bahādur Shāh Ier
+    description_en: |
+      Qutb al-Dīn Muḥammad Muʿaẓẓam Shāh ʿĀlam Bahādur Shāh — son
+      and successor of Aurangzeb, seventh Mughal emperor, who
+      acceded at age 63 after winning the war of succession against
+      his brother Aʿẓam Shāh at Jajau (1119 AH / 1707 CE) — died
+      in Lahore at age 68 after a five-year reign. He inherited an
+      empire formally at its territorial maximum but already strained
+      from forty-nine years of Aurangzeb's Deccan campaigns; his
+      reign managed Sikh resistance under Banda Singh Bahādur, the
+      Marathas, and a Rajput crisis with the Kachhwāhā and Rāṭhōr
+      houses. Conciliatory toward the Sikhs, he was the first Mughal
+      ruler to attempt rapprochement after the executions of the
+      Sikh Gurus and made *jāgīr* concessions to Banda. His sudden
+      death at Lahore set off a Mughal succession war among his
+      four sons, decisively breaking imperial unity. Historians of
+      the *Riyāḍ al-Salāṭīn* tradition mark his reign as the start
+      of the Mughal political decline that culminated in the
+      eighteenth-century regional successor states (the Hyderabad
+      Niẓāmat, Awadh, the Marathas, and Bengal).
+    description_ar: |
+      توفي قطب الدين محمد معظم شاه عالم بهادر شاه — ابن أورنجزيب
+      وخليفته، سابع أباطرة الدولة المغولية الإسلامية، الذي ولي
+      الملك عن ثلاث وستين سنة بعد انتصاره في حرب الخلافة على
+      أخيه أعظم شاه في «جاجوُ» سنة ١١١٩ هـ (١٧٠٧ ميلادي) — في
+      لاهور عن ثمان وستين سنة بعد عهد امتد خمس سنين. ورث دولة
+      كانت رسماً في أوج اتساعها الجغرافي لكنها أنهكت بعد تسع
+      وأربعين سنة من حملات أورنجزيب على الديكان؛ وكان عهده يديرُ
+      مقاومة السيخ تحت «باندا سنغ بهادر»، وهجوم الماراتها، وأزمة
+      الراجبوت من بيوت «كاتشواها» و«راتور». وكان مصالحاً للسيخ،
+      وأول حاكم مغولي حاول التقارب معهم بعد إعدام «قرناء» السيخ،
+      ومنح «باندا» إقطاعات. ومن وفاته المفاجئة بلاهور أشعلت حرب
+      خلافة بين أبنائه الأربعة فحطمت وحدة الدولة. ويعد مؤرخو
+      «رياض السلاطين» عهده بدء التراجع السياسي المغولي الذي بلغ
+      ذروته في الدول الإقليمية الخلف للقرن الثامن عشر (نظامة
+      حيدر آباد، وأود، والماراتها، والبنغال).
+    description_fr: |
+      Quṭb al-Dīn Muḥammad Muʿaẓẓam Shāh ʿĀlam Bahādur Shāh — fils
+      et successeur d'Aurangzeb, septième empereur moghol,
+      monté sur le trône à 63 ans après avoir gagné la guerre de
+      succession contre son frère Aʿẓam Shāh à Jajau (1119 H /
+      1707 EC) — mourut à Lahore à 68 ans après un règne de cinq
+      ans. Il hérita d'un empire formellement à son extension
+      territoriale maximale mais déjà éprouvé par quarante-neuf
+      ans des campagnes d'Aurangzeb au Deccan; son règne gérait
+      la résistance sikh sous Banda Singh Bahādur, les Marathes,
+      et une crise rajpoute avec les maisons Kachhwāhā et Rāṭhōr.
+      Conciliateur envers les sikhs, il fut le premier souverain
+      moghol à tenter un rapprochement après les exécutions des
+      Gurus sikhs et fit des concessions de *jāgīr* à Banda. Sa
+      mort soudaine à Lahore déclencha une guerre de succession
+      entre ses quatre fils, brisant définitivement l'unité
+      impériale. Les historiens de la tradition *Riyāḍ al-Salāṭīn*
+      marquent son règne comme le début du déclin politique
+      moghol qui culmina dans les États successeurs régionaux du
+      XVIIIe siècle (le Niẓāmat de Hyderabad, l'Awadh, les
+      Marathes, et le Bengale).
+    canonical_hijri: {year: 1124, month: 1, day: 19, precision: day}
+    canonical_gregorian: {date: 1712-02-27, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[bahadur-shah-i, subject]]
+    tags: [mughal, india, lahore, aurangzeb, sikh, decline, succession]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bahadur_Shah_I"
+
+  # =========================================================================
+  # OTTOMAN SULTANS AND GRAND VIZIERS
+  # =========================================================================
+
+  - slug: death-of-bayezid-ii
+    category: ruler
+    title_en: Death of Sultan Bāyezīd II
+    title_ar: وفاة السلطان بايزيد الثاني
+    title_fr: Mort du sultan Bāyezīd II
+    description_en: |
+      Bāyezīd II ibn Meḥmed al-Fātiḥ — eighth Ottoman sultan and
+      son of the conqueror of Constantinople, called *al-ʿAdlī*
+      (the Just) and *Ṣūfī* for his pious temperament — died at
+      Havsa in Thrace one month after abdicating the throne in
+      favour of his son Selīm I (the future *Yāvuz*) on 17 Ṣafar
+      918 (25 April 1512 CE). He was 64. His thirty-one-year reign
+      (886-918 AH / 1481-1512 CE) consolidated the conquests of
+      Meḥmed II rather than expanding them: he codified the *qānūn*
+      law that became the standard secular complement to Sharia in
+      Ottoman administration, fought the Mamluks of Egypt to a
+      stalemate (894-896 AH), conquered the Peloponnese from
+      Venice (904-907 AH / 1499-1502 CE), and had to suppress the
+      Qizilbāsh uprising of Şāh-qulu (917 AH / 1511 CE) backed
+      from Tabriz by the new Safavid Shāh Ismāʿīl. In 897 AH
+      (1492 CE) he ordered the Ottoman navy under Kemāl Reʾīs to
+      ferry Sephardic Jews and Andalusi Muslims expelled from
+      Spain to Ottoman ports, a humanitarian programme that
+      transformed Salonica and Istanbul demographically. He was
+      the leading Ottoman patron of the *ʿulamāʾ* and built the
+      Bāyezīd II mosque complex at Istanbul, Edirne, and Amasya.
+    description_ar: |
+      توفي السلطان بايزيد الثاني بن محمد الفاتح — ثامن سلاطين
+      الدولة العثمانية وابن فاتح القسطنطينية، الملقب بـ«العدلي»
+      وبـ«الصوفي» لتقواه — في «هَفسا» بتراقيا بعد شهر من تنازله
+      عن العرش لابنه سليم الأول (الذي صار «ياووز» القاطع) في ١٧
+      صفر ٩١٨ (٢٥ أبريل ١٥١٢ ميلادي). وقد ناهز الرابعة والستين.
+      رسخ عهده الذي امتد إحدى وثلاثين سنة (٨٨٦-٩١٨ هـ / ١٤٨١-١٥١٢
+      ميلادي) فتوحات والده محمد الفاتح ولم يتوسع كثيراً: قنن
+      «القانون» السلطاني الذي صار التكميل العلماني الشريعة في
+      الإدارة العثمانية، ووقف للمماليك ندّاً (٨٩٤-٨٩٦ هـ)، وافتتح
+      «بيلوبونيز» من البندقية (٩٠٤-٩٠٧ هـ / ١٤٩٩-١٥٠٢ ميلادي)،
+      واضطر إلى قمع ثورة القزلباش لـ«شاه قُلي» (٩١٧ هـ / ١٥١١
+      ميلادي) المدعومة من تبريز من الشاه الصفوي الناشئ إسماعيل.
+      وفي سنة ٨٩٧ هـ (١٤٩٢ ميلادي) أمر الأسطول العثماني تحت كمال
+      ريس بنقل اليهود السفارديم والمسلمين الأندلسيين المطرودين
+      من إسبانيا إلى موانئ الدولة، وهو عمل إنساني غير ديموغرافياً
+      مدينتي «سالونيك» وإسطنبول. وكان أبرز سلاطين بني عثمان رعاية
+      للعلماء، وبنى مجمع جامع بايزيد الثاني بإسطنبول وأدرنة
+      وأماسيا.
+    description_fr: |
+      Bāyezīd II ibn Meḥmed al-Fātiḥ — huitième sultan ottoman et
+      fils du conquérant de Constantinople, surnommé *al-ʿAdlī*
+      (le Juste) et *Ṣūfī* pour son tempérament pieux — mourut à
+      Havsa en Thrace un mois après avoir abdiqué le trône en
+      faveur de son fils Selīm Ier (le futur *Yāvuz*) le 17 Ṣafar
+      918 (25 avril 1512 EC). Il avait 64 ans. Son règne de
+      trente et un ans (886-918 H / 1481-1512 EC) consolida les
+      conquêtes de Meḥmed II plutôt que de les étendre : il
+      codifia la loi *qānūn* qui devint le complément séculier
+      standard de la Sharia dans l'administration ottomane, fit
+      face à l'Égypte mamelouke en un statu quo (894-896 H),
+      conquit le Péloponnèse à Venise (904-907 H / 1499-1502 EC),
+      et dut réprimer le soulèvement qizilbāsh de Şāh-qulu (917 H
+      / 1511 EC) appuyé depuis Tabriz par le nouveau Shāh safavide
+      Ismāʿīl. En 897 H (1492 EC) il ordonna à la flotte ottomane
+      sous Kemāl Reʾīs d'évacuer les Juifs séfarades et les
+      Musulmans andalous expulsés d'Espagne vers les ports
+      ottomans, programme humanitaire qui transforma
+      démographiquement Salonique et Istanbul. Il fut le grand
+      mécène ottoman des *ʿulamāʾ* et bâtit le complexe de la
+      mosquée Bāyezīd II à Istanbul, Edirne et Amasya.
+    canonical_hijri: {year: 918, month: 2, day: 29, precision: day}
+    canonical_gregorian: {date: 1512-05-26, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[bayezid-ii, subject], [mehmed-ii, subject]]
+    tags: [ottoman, sultan, istanbul, sephardic, andalus, qanun, qizilbash, safavid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bayezid_II"
+
+  - slug: death-of-selim-ii
+    category: ruler
+    title_en: Death of Sultan Selīm II
+    title_ar: وفاة السلطان سليم الثاني
+    title_fr: Mort du sultan Selīm II
+    description_en: |
+      Selīm II ibn Süleymān al-Qānūnī — eleventh Ottoman sultan
+      and son of Süleymān the Magnificent and Ḥurrem Sultan, the
+      first sultan of the Ottoman dynasty to leave the personal
+      command of campaigns to his grand vizier — died at the Topkapı
+      palace in Istanbul at age 50 from a fall on the marble floor
+      of the *ḥarem* hammam. His eight-year reign (974-982 AH /
+      1566-1574 CE) was administratively dominated by the grand
+      vizier Sokollu Meḥmed Pasha, who managed the empire with
+      virtual sovereignty: Cyprus was annexed from Venice (978-979
+      AH / 1570-1571 CE), Tunis was taken from the Spanish (981 AH
+      / 1574 CE), and the Ottoman fleet was destroyed at Lepanto
+      by the Holy League (979 AH / 1571 CE) only to be rebuilt
+      within a single shipbuilding season. Selīm patronised the
+      architect Sinān, whose Selīmīye mosque at Edirne — the
+      culminating work of classical Ottoman architecture, completed
+      in 982 AH (1574 CE) — was commissioned during his reign.
+      He was succeeded by his son Murād III.
+    description_ar: |
+      توفي السلطان سليم الثاني بن سليمان القانوني — حادي عشر
+      سلاطين الدولة العثمانية وابن سليمان القانوني وحرّم سلطان،
+      وأول سلاطين بني عثمان في توكيل قيادة الحملات إلى صدره
+      الأعظم — في قصر «طوبقابي» بإسطنبول عن خمسين سنة من سقطة على
+      رخام حمام الحرم. وكان عهده الذي امتد ثماني سنين (٩٧٤-٩٨٢ هـ
+      / ١٥٦٦-١٥٧٤ ميلادي) إدارياً بقيادة الصدر الأعظم «صوقللي
+      محمد باشا» الذي ساس الدولة بسلطان شبه مطلق: ضمت قبرص من
+      البندقية (٩٧٨-٩٧٩ هـ / ١٥٧٠-١٥٧١ ميلادي)، وفُتحت تونس من
+      الإسبان (٩٨١ هـ / ١٥٧٤ ميلادي)، ودمر الأسطول العثماني في
+      «ليبانتو» على يد التحالف المقدس (٩٧٩ هـ / ١٥٧١ ميلادي) ثم
+      أعيد بناؤه في موسم بناء سفن واحد. ورعى سليم المعمار «سنان»،
+      وكلفت في عهده بناية «جامع السليمية» في أدرنة — ذروة العمارة
+      العثمانية الكلاسيكية، اكتملت سنة ٩٨٢ هـ (١٥٧٤ ميلادي).
+      وخلفه ابنه مراد الثالث.
+    description_fr: |
+      Selīm II ibn Süleymān al-Qānūnī — onzième sultan ottoman
+      et fils de Süleymān le Magnifique et de Ḥurrem Sultan,
+      premier sultan de la dynastie ottomane à laisser le
+      commandement personnel des campagnes à son grand vizir —
+      mourut au palais de Topkapı à Istanbul à 50 ans d'une chute
+      sur le marbre du hammam du *ḥarem*. Son règne de huit ans
+      (974-982 H / 1566-1574 EC) fut administrativement dominé
+      par le grand vizir Sokollu Meḥmed Pasha, qui dirigea
+      l'empire avec une souveraineté virtuelle : Chypre fut
+      annexée à Venise (978-979 H / 1570-1571 EC), Tunis fut
+      prise aux Espagnols (981 H / 1574 EC), et la flotte
+      ottomane fut détruite à Lépante par la Sainte Ligue (979 H
+      / 1571 EC) avant d'être reconstruite en une seule saison
+      de chantier naval. Selīm fit construire par l'architecte
+      Sinān la mosquée Selīmīye d'Edirne — œuvre culminante de
+      l'architecture ottomane classique, achevée en 982 H (1574
+      EC) — commandée sous son règne. Son fils Murād III lui
+      succéda.
+    canonical_hijri: {year: 982, month: 8, day: 20, precision: day}
+    canonical_gregorian: {date: 1574-12-15, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[selim-ii, subject]]
+    tags: [ottoman, sultan, istanbul, lepanto, cyprus, sinan, sokollu, edirne]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Selim_II"
+
+  - slug: death-of-sokollu-mehmed-pasha
+    category: ruler
+    title_en: Death of Sokollu Meḥmed Pasha
+    title_ar: وفاة صوقللي محمد باشا
+    title_fr: Mort de Sokollu Meḥmed Pasha
+    description_en: |
+      Sokollu Meḥmed Pasha — Ottoman grand vizier of Bosnian Serb
+      origin, recruited as a child through the *devşirme* system
+      from Sokolovići (modern-day Bosnia and Herzegovina), and
+      grand vizier under three sultans (Süleymān al-Qānūnī, Selīm
+      II, and Murād III) for fourteen years and three months,
+      the longest single tenure in Ottoman history — was assassinated
+      at the Imperial Council (*Dīvān-i Hümāyūn*) in Istanbul by a
+      dagger-wielding dervish petitioner. He was about 73. From his
+      first appointment in 972 AH (1565 CE) until his death he was
+      the de facto manager of the empire, conducting the Cyprus
+      campaign (978 AH / 1570 CE), rebuilding the Ottoman fleet
+      after Lepanto in a single winter, taking Tunis from the
+      Spanish (981 AH / 1574 CE), and integrating Yemen and the
+      Hejaz under direct administration. His patronage of the
+      architect Sinān produced a series of complexes including
+      the Sokollu Meḥmed Pasha mosques at Kadırga (Istanbul), Lüleburgaz,
+      and the bridge at Drina at Višegrad in his Bosnian homeland —
+      the bridge that would later inspire Ivo Andrić's Nobel-prize
+      novel. He represents the Ottoman peak of *devşirme*-class
+      governance.
+    description_ar: |
+      اغتيل الصدر الأعظم صوقللي محمد باشا — صدر الدولة العثمانية
+      من أصول صربية بوسنية، التحق وهو طفل بنظام «الدفشيرمة» من
+      «صوقولوفيتشي» (في البوسنة والهرسك الحديثة)، والصدر الأعظم
+      تحت ثلاثة سلاطين (سليمان القانوني وسليم الثاني ومراد الثالث)
+      أربع عشرة سنة وثلاثة أشهر، أطول صدارة عظمى في تاريخ بني
+      عثمان — في مجلس الديوان الهمايوني بإسطنبول على يد درويش
+      رافع رقعة طاعن بخنجر. وقد ناهز الثالثة والسبعين. ومن تعيينه
+      أول مرة سنة ٩٧٢ هـ (١٥٦٥ ميلادي) إلى وفاته كان مدير الدولة
+      الفعلي، فقاد حملة قبرص (٩٧٨ هـ / ١٥٧٠ ميلادي)، وأعاد بناء
+      الأسطول بعد «ليبانتو» في شتاء واحد، وفتح تونس من الإسبان
+      (٩٨١ هـ / ١٥٧٤ ميلادي)، وأدمج اليمن والحجاز في الإدارة
+      المباشرة. ورعايته للمعمار «سنان» أنتجت سلسلة من المجمعات
+      منها جامع صوقللي محمد باشا في «قاضي رغة» بإسطنبول و«لُوله
+      برغاز» وجسر «درينا» في «فيشيغراد» بمسقط رأسه البوسني — الجسر
+      الذي ألهم فيما بعد رواية «إيفو أندريتش» الحائزة على جائزة
+      نوبل. وهو يمثل ذروة الإدارة الدفشيرمية في الدولة العثمانية.
+    description_fr: |
+      Sokollu Meḥmed Pasha — grand vizir ottoman d'origine serbo-
+      bosniaque, recruté enfant par le système *devşirme* depuis
+      Sokolovići (Bosnie-Herzégovine actuelle), et grand vizir
+      sous trois sultans (Süleymān al-Qānūnī, Selīm II et Murād
+      III) pendant quatorze ans et trois mois, la plus longue
+      durée à ce poste dans l'histoire ottomane — fut assassiné
+      au Conseil impérial (*Dīvān-i Hümāyūn*) à Istanbul par un
+      derviche pétitionnaire armé d'un poignard. Il avait environ
+      73 ans. Depuis sa première nomination en 972 H (1565 EC)
+      jusqu'à sa mort, il fut le gestionnaire de fait de l'empire,
+      menant la campagne de Chypre (978 H / 1570 EC), reconstruisant
+      la flotte ottomane après Lépante en un seul hiver, prenant
+      Tunis aux Espagnols (981 H / 1574 EC), et intégrant le Yémen
+      et le Hijaz à l'administration directe. Son mécénat de
+      l'architecte Sinān produisit une série de complexes dont les
+      mosquées Sokollu Meḥmed Pasha à Kadırga (Istanbul) et
+      Lüleburgaz, et le pont sur la Drina à Višegrad, dans sa
+      Bosnie natale — pont qui inspirerait plus tard le roman
+      d'Ivo Andrić, prix Nobel. Il représente l'apogée de la
+      gouvernance ottomane par la classe *devşirme*.
+    canonical_hijri: {year: 987, month: 8, day: 9, precision: day}
+    canonical_gregorian: {date: 1579-10-11, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sokollu-mehmed-pasha, subject], [selim-ii, subject]]
+    tags: [ottoman, grand-vizier, istanbul, devshirme, bosnia, sinan, lepanto, cyprus]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sokollu_Mehmed_Pasha"
+
+  - slug: death-of-koprulu-mehmed-pasha
+    category: ruler
+    title_en: Death of Köprülü Meḥmed Pasha
+    title_ar: وفاة كوبريلي محمد باشا
+    title_fr: Mort de Köprülü Meḥmed Pasha
+    description_en: |
+      Köprülü Meḥmed Pasha — Albanian-origin grand vizier under
+      Sultan Meḥmed IV, the founder of the Köprülü dynasty of
+      grand viziers that would dominate Ottoman government for
+      half a century — died at Edirne after five years in office.
+      He was about 86. Appointed in Şawwāl 1066 AH (September 1656
+      CE) at the depths of the mid-seventeenth-century Ottoman
+      crisis — Venetian blockade of the Dardanelles, Janissary
+      revolts in Istanbul, fiscal collapse, and the Köprülü family
+      legend that the elderly statesman accepted office only on the
+      condition of *tafwīḍ muṭlaq* (absolute and unappealable
+      authority) — he restored Ottoman state capacity through
+      ruthless executions of corrupt officials, broke the Venetian
+      blockade by recapturing Tenedos and Lemnos (1067 AH /
+      1657 CE), suppressed the Abaza Ḥasan Pasha revolt in
+      Anatolia (1068-1069 AH / 1658-1659 CE), and reasserted
+      central control over Transylvania and the Crimea. His son
+      Fāḍil Aḥmad Pasha succeeded him, and his nephew Kara Muṣṭafā
+      Pasha would later besiege Vienna in 1094 AH (1683 CE).
+      Ottoman historiography credits him with extending the empire's
+      life by a century.
+    description_ar: |
+      توفي الصدر الأعظم كوبريلي محمد باشا — صدر السلطان محمد
+      الرابع من أصول ألبانية، ومؤسس آل كوبريلي من الصدور العظام
+      الذين هيمنوا على إدارة الدولة العثمانية نصف قرن — في أدرنة
+      بعد خمس سنين في الصدارة. وقد ناهز السادسة والثمانين. عُيّن
+      في شوال ١٠٦٦ هـ (سبتمبر ١٦٥٦ ميلادي) في أحرج لحظات أزمة
+      منتصف القرن السابع عشر العثمانية — حصار البندقية للدردنيل،
+      وثورات الإنكشارية في إسطنبول، والإفلاس المالي، ورواية آل
+      كوبريلي الشهيرة أن الشيخ ما قبل الصدارة إلا بشرط «تفويض
+      مطلق» (سلطة لا تنازع) — فأعاد للدولة قدرتها بإعدامات حازمة
+      للفاسدين، وكسر حصار البندقية باسترداد «تيندوس» و«ليمنوس»
+      (١٠٦٧ هـ / ١٦٥٧ ميلادي)، وقمع ثورة «أبزة حسن باشا» في
+      الأناضول (١٠٦٨-١٠٦٩ هـ / ١٦٥٨-١٦٥٩ ميلادي)، وأعاد السيطرة
+      المركزية على ترانسلفانيا والقريم. وخلفه ابنه «فاضل أحمد
+      باشا»، وابن أخيه «قره مصطفى باشا» سيحاصر فيينا فيما بعد
+      سنة ١٠٩٤ هـ (١٦٨٣ ميلادي). ويعد المؤرخون العثمانيون أنه
+      مدّ في عمر الدولة قرناً.
+    description_fr: |
+      Köprülü Meḥmed Pasha — grand vizir d'origine albanaise sous
+      le sultan Meḥmed IV, fondateur de la dynastie Köprülü des
+      grands vizirs qui dominerait le gouvernement ottoman un
+      demi-siècle — mourut à Edirne après cinq ans à ce poste. Il
+      avait environ 86 ans. Nommé en Shawwāl 1066 H (septembre
+      1656 EC) au plus profond de la crise ottomane du milieu du
+      XVIIe siècle — blocus vénitien des Dardanelles, révoltes
+      janissaires à Istanbul, effondrement fiscal, et la légende
+      des Köprülü selon laquelle le vieil homme d'État n'accepta
+      la charge qu'à condition d'un *tafwīḍ muṭlaq* (autorité
+      absolue et sans appel) — il rétablit la capacité étatique
+      ottomane par d'impitoyables exécutions de fonctionnaires
+      corrompus, brisa le blocus vénitien en reprenant Ténédos
+      et Lemnos (1067 H / 1657 EC), réprima la révolte d'Abaza
+      Ḥasan Pasha en Anatolie (1068-1069 H / 1658-1659 EC), et
+      réaffirma le contrôle central sur la Transylvanie et la
+      Crimée. Son fils Fāḍil Aḥmad Pasha lui succéda, et son
+      neveu Kara Muṣṭafā Pasha assiégerait plus tard Vienne en
+      1094 H (1683 EC). L'historiographie ottomane lui attribue
+      d'avoir prolongé la vie de l'empire d'un siècle.
+    canonical_hijri: {year: 1072, month: 3, day: 7, precision: day}
+    canonical_gregorian: {date: 1661-10-31, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[koprulu-mehmed-pasha, subject]]
+    tags: [ottoman, grand-vizier, edirne, albanian, koprulu, mehmed-iv, restoration]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/K%C3%B6pr%C3%BCl%C3%BC_Mehmed_Pasha"
+
+  - slug: death-of-koprulu-fazil-ahmad-pasha
+    category: ruler
+    title_en: Death of Köprülü Fāḍil Aḥmad Pasha
+    title_ar: وفاة كوبريلي فاضل أحمد باشا
+    title_fr: Mort de Köprülü Fāḍil Aḥmad Pasha
+    description_en: |
+      Köprülü Fāḍil Aḥmad Pasha — son and successor of Köprülü
+      Meḥmed Pasha, second of the Köprülü grand viziers, lettered
+      *muḥaddith*-trained scholar (hence his epithet *fāḍil*, the
+      learned) and the longest-serving fully empowered grand vizier
+      of the Ottoman seventeenth century — died at his estate in
+      Çorlu near Istanbul after fifteen years in office. He was
+      about 41 and his health had been broken by nine years on
+      campaign. Appointed at his father's death in 1072 AH (1661
+      CE), he conducted the Austro-Turkish War of 1073-1075 AH
+      (1663-1664 CE) culminating in Ottoman victory at the
+      capture of Nové Zámky and the Treaty of Vasvár, completed
+      the long siege of Candia by capturing the Venetian stronghold
+      after twenty-four years of intermittent operations (1080 AH
+      / 1669 CE) thus ending Crete's status as the last Christian
+      island of the eastern Mediterranean, and led the Polish-
+      Ottoman War of 1083-1087 AH (1672-1676 CE) including the
+      capture of Kamianets-Podilskyi. He was the last Ottoman
+      statesman to expand the empire on three fronts simultaneously;
+      the catastrophic Vienna campaign under his successor and
+      cousin Kara Muṣṭafā Pasha would reverse much of his work.
+    description_ar: |
+      توفي الصدر الأعظم كوبريلي فاضل أحمد باشا — ابن كوبريلي محمد
+      باشا وخليفته، ثاني صدور آل كوبريلي، عالم أديب درس الحديث
+      الشريف (ومن ثم نُعت بـ«فاضل»)، وأطول الصدور العظام تمكيناً
+      من السلطة في القرن السابع عشر العثماني — في ضيعته بـ«تشورلو»
+      قرب إسطنبول بعد خمس عشرة سنة في الصدارة. وقد ناهز الواحدة
+      والأربعين، وقد أنهك جسده تسع سنين في الحملات. عُيّن عند
+      وفاة أبيه سنة ١٠٧٢ هـ (١٦٦١ ميلادي)، وقاد الحرب النمساوية-
+      التركية لسنوات ١٠٧٣-١٠٧٥ هـ (١٦٦٣-١٦٦٤ ميلادي) المنتهية
+      بانتصار العثمانيين بفتح «نوفي زامكي» ومعاهدة «فاسفار»،
+      وأكمل حصار «كنديا» بفتح المعقل البندقي بعد أربع وعشرين
+      سنة من العمليات المتقطعة (١٠٨٠ هـ / ١٦٦٩ ميلادي) فأنهى به
+      مكانة كريت آخر جزيرة مسيحية في شرق المتوسط، وقاد الحرب
+      البولندية-العثمانية لسنوات ١٠٨٣-١٠٨٧ هـ (١٦٧٢-١٦٧٦ ميلادي)
+      منها فتح «كاميانتس بودولسكي». وهو آخر ساسة الدولة العثمانية
+      في توسيعها على ثلاث جبهات في آن واحد؛ وستعكس حملة فيينا
+      الكارثية بقيادة خليفته وابن عمه «قره مصطفى باشا» جل عمله.
+    description_fr: |
+      Köprülü Fāḍil Aḥmad Pasha — fils et successeur de Köprülü
+      Meḥmed Pasha, deuxième des grands vizirs Köprülü, savant
+      lettré formé à la science du hadith (d'où son épithète
+      *fāḍil*, le savant) et le grand vizir pleinement autonomé
+      le plus longtemps en poste du XVIIe siècle ottoman — mourut
+      dans son domaine de Çorlu près d'Istanbul après quinze ans
+      à ce poste. Il avait environ 41 ans, et sa santé avait été
+      brisée par neuf années de campagne. Nommé à la mort de son
+      père en 1072 H (1661 EC), il mena la guerre austro-turque
+      de 1073-1075 H (1663-1664 EC) culminant en victoire ottomane
+      à la prise de Nové Zámky et au traité de Vasvár, acheva le
+      long siège de Candie en prenant le bastion vénitien après
+      vingt-quatre ans d'opérations intermittentes (1080 H /
+      1669 EC) mettant ainsi fin au statut de la Crète comme
+      dernière île chrétienne de la Méditerranée orientale, et
+      mena la guerre polono-ottomane de 1083-1087 H (1672-1676
+      EC) incluant la prise de Kamianets-Podilskyi. Il fut le
+      dernier homme d'État ottoman à étendre l'empire sur trois
+      fronts simultanément; la campagne catastrophique de Vienne
+      sous son successeur et cousin Kara Muṣṭafā Pasha en
+      renverserait l'essentiel de l'œuvre.
+    canonical_hijri: {year: 1087, month: 8, day: 26, precision: day}
+    canonical_gregorian: {date: 1676-11-03, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[koprulu-fazil-ahmad-pasha, subject], [koprulu-mehmed-pasha, subject]]
+    tags: [ottoman, grand-vizier, koprulu, mehmed-iv, candia, crete, hungary, vasvar]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Fazıl_Ahmed_Pasha"
+
+  - slug: death-of-mahmud-ii
+    category: ruler
+    title_en: Death of Sultan Maḥmūd II
+    title_ar: وفاة السلطان محمود الثاني
+    title_fr: Mort du sultan Maḥmūd II
+    description_en: |
+      Sultan Maḥmūd II ibn ʿAbd al-Ḥamīd I — thirtieth Ottoman
+      sultan and the architect of the empire's nineteenth-century
+      reconstruction, often compared by contemporaries and later
+      historians to Peter the Great of Russia for the depth of
+      his institutional reforms — died of tuberculosis at Çamlıca
+      in Istanbul. He was 53. His thirty-one-year reign (1223-1255
+      AH / 1808-1839 CE) effected the *Vakʿa-yi Ḫayrīye* (the
+      Auspicious Incident) of 15 Dhū al-Qiʿda 1241 (15 June 1826
+      CE) abolishing the Janissary corps after they revolted, and
+      replacing them with the Western-modelled *Asākir-i Manṣūre-yi
+      Muḥammadīye*. His subsequent administrative reforms — the
+      first Ottoman ministries, the first government gazette
+      *Taqwīm-i Veqāyiʿ* (1247 AH / 1831 CE), the first European-
+      style census, the first Imperial School of Medicine and the
+      Imperial Military Academy, and the structured curtailment of
+      the *ʿulamāʾ*'s administrative role — set the institutional
+      foundations of the Tanzimat era under his son ʿAbd al-Majīd I.
+      During his reign Greece was lost to the Greek War of
+      Independence (1244-1245 AH / 1828-1830 CE) and Algeria fell
+      to French invasion (1246 AH / 1830 CE) — the territorial
+      cost of the empire's slow internal modernisation.
+    description_ar: |
+      توفي السلطان محمود الثاني بن عبد الحميد الأول — ثلاثون
+      سلاطين الدولة العثمانية ومهندس إعادة بنائها في القرن التاسع
+      عشر، كثيراً ما قارنه معاصروه ومن بعدهم بـ«بطرس الأكبر» في
+      روسيا لعمق إصلاحاته المؤسسية — من السل في «جاملي جا»
+      بإسطنبول. وقد ناهز الثالثة والخمسين. وحقق عهده الذي امتد
+      إحدى وثلاثين سنة (١٢٢٣-١٢٥٥ هـ / ١٨٠٨-١٨٣٩ ميلادي)
+      «الواقعة الخيرية» في ١٥ ذي القعدة ١٢٤١ (١٥ يونيو ١٨٢٦
+      ميلادي) بإلغاء جيش الإنكشارية بعد ثورتهم وإحلال «العساكر
+      المنصورة المحمدية» على الطراز الأوروبي محلهم. وأسست
+      إصلاحاته الإدارية اللاحقة — أوائل الوزارات العثمانية،
+      وجريدة الدولة «تقويم وقايع» (١٢٤٧ هـ / ١٨٣١ ميلادي)، وأول
+      تعداد على الطريقة الأوروبية، والمدرسة الإمبراطورية للطب،
+      والأكاديمية العسكرية الإمبراطورية، وتقليص دور العلماء في
+      الإدارة بحدود مرسومة — البنية التحتية المؤسسية لعهد
+      «التنظيمات» الذي أعقبه على يد ابنه عبد المجيد الأول. وفي
+      عهده ذهبت اليونان بحرب الاستقلال اليونانية (١٢٤٤-١٢٤٥ هـ /
+      ١٨٢٨-١٨٣٠ ميلادي) وسقطت الجزائر للغزو الفرنسي (١٢٤٦ هـ /
+      ١٨٣٠ ميلادي) — ثمن إقليمي للحداثة الداخلية البطيئة للدولة.
+    description_fr: |
+      Sultan Maḥmūd II ibn ʿAbd al-Ḥamīd Ier — trentième sultan
+      ottoman et architecte de la reconstruction de l'empire au
+      XIXe siècle, souvent comparé par ses contemporains et les
+      historiens postérieurs à Pierre le Grand de Russie pour la
+      profondeur de ses réformes institutionnelles — mourut de la
+      tuberculose à Çamlıca à Istanbul. Il avait 53 ans. Son
+      règne de trente et un ans (1223-1255 H / 1808-1839 EC)
+      réalisa la *Vakʿa-yi Ḫayrīye* (l'Heureux Événement) du
+      15 Dhū al-Qiʿda 1241 (15 juin 1826 EC) en abolissant le
+      corps des janissaires après leur révolte et en les
+      remplaçant par les *Asākir-i Manṣūre-yi Muḥammadīye* sur
+      le modèle occidental. Ses réformes administratives ultérieures
+      — premiers ministères ottomans, premier journal officiel
+      *Taqwīm-i Veqāyiʿ* (1247 H / 1831 EC), premier recensement
+      à l'européenne, première École impériale de médecine et
+      Académie militaire impériale, et la limitation structurée du
+      rôle administratif des *ʿulamāʾ* — posèrent les fondations
+      institutionnelles de l'ère des Tanzimat sous son fils ʿAbd
+      al-Majīd Ier. Durant son règne la Grèce fut perdue à la
+      guerre d'indépendance grecque (1244-1245 H / 1828-1830 EC)
+      et l'Algérie tomba à l'invasion française (1246 H /
+      1830 EC) — le coût territorial de la modernisation
+      intérieure lente de l'empire.
+    canonical_hijri: {year: 1255, month: 4, day: 18, precision: day}
+    canonical_gregorian: {date: 1839-07-01, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mahmud-ii, subject]]
+    tags: [ottoman, sultan, istanbul, janissaries, tanzimat, reform, greece, algeria]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mahmud_II"

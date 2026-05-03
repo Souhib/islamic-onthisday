@@ -1,0 +1,980 @@
+# Wave 8 of curated event additions (2026-04-26).
+# 5 sahaba/tabi'un (Ibn al-Zubayr family + 7 Medinan fuqaha)
+# + 3 sufi tariqa founders (sunni mainstream)
+# + 3 modern revivalist scholars
+# + 4 major historical events (early hijra, civil-war battles, naval).
+# Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # IBN AL-ZUBAYR FAMILY + 7 FUQAHA OF MEDINA + IBN ʿABBAS PUPIL
+  # =========================================================================
+
+  - slug: death-of-abdullah-ibn-al-zubayr
+    category: companion
+    title_en: Martyrdom of ʿAbdullah ibn al-Zubayr ra
+    title_ar: استشهاد عبد الله بن الزبير رضي الله عنه
+    title_fr: Martyre de ʿAbdallāh ibn al-Zubayr ra
+    description_en: |
+      ʿAbdullah ibn al-Zubayr — first Muslim child born after the
+      Hijra (in 1 AH at Quba), grandson of Abu Bakr ra through his
+      mother Asma, nephew of ʿAʾisha ra, and the Companion who
+      held the caliphate at Mecca for nine years (64-73 AH) in
+      contention with the Umayyads of Damascus — was killed during
+      the second Umayyad siege of Mecca by al-Hajjaj ibn Yusuf's
+      forces. He was about 72. He had refused to give bayʿa to
+      Yazid ibn Muʿawiya at Yazid's accession; after the
+      catastrophe of Karbala (61 AH) and the sack of Medina at
+      al-Ḥarra (63 AH), he was acknowledged caliph by the Hijaz,
+      Iraq, Egypt, and parts of Syria. al-Hajjaj catapulted the
+      Kaʿba and the Sacred Mosque from Abu Qubays during the siege.
+      Ibn al-Zubayr fought to the end, his last words: "Indeed
+      Allah's promise is true, and we are most worthy of receiving it."
+      His mother Asma viewed his crucified body and said: "Has the
+      time not come for this rider to dismount?"
+    description_ar: |
+      استشهد عبد الله بن الزبير رضي الله عنه — أول مولود في الإسلام
+      بعد الهجرة (سنة ١ هـ بقباء)، حفيد أبي بكر الصديق رضي الله
+      عنه من ابنته أسماء، وابن أخت عائشة رضي الله عنها، والصحابي
+      الذي قام بالخلافة في مكة تسع سنين (٦٤-٧٣ هـ) منازعاً لبني
+      أمية بدمشق — في حصار مكة الثاني الأموي بقيادة الحجاج بن يوسف
+      الثقفي، وقد ناهز الاثنتين والسبعين. كان قد امتنع عن البيعة
+      ليزيد بن معاوية لما تولى، وبعد كارثة كربلاء (٦١ هـ) وواقعة
+      الحرة (٦٣ هـ) بايعه أهل الحجاز والعراق ومصر وأطراف الشام.
+      ورمى الحجاج الكعبة والمسجد الحرام بالمنجنيق من جبل أبي قبيس
+      في الحصار. وقاتل ابن الزبير حتى آخر رمق، وكان من آخر كلماته:
+      «إن وعد الله حق، وإنا لأحقّ من أدركه». ولما رأت أمه أسماء
+      جثته مصلوبة قالت: «أما آن لهذا الراكب أن ينزل؟».
+    description_fr: |
+      ʿAbdallāh ibn al-Zubayr — premier enfant musulman né après la
+      Hijra (en 1 H à Qubāʾ), petit-fils d'Abu Bakr ra par sa mère
+      Asmāʾ, neveu d'ʿĀʾisha ra, et le Compagnon qui détint le
+      califat à La Mecque pendant neuf ans (64-73 H) en concurrence
+      avec les Omeyyades de Damas — fut tué durant le second siège
+      omeyyade de La Mecque par les forces d'al-Ḥajjāj ibn Yūsuf.
+      Il avait environ 72 ans. Il avait refusé la *bayʿa* à
+      Yazīd ibn Muʿāwiya lors de son accession; après la catastrophe
+      de Kerbala (61 H) et le sac de Médine à al-Ḥarra (63 H), il
+      fut reconnu calife par le Hedjaz, l'Irak, l'Égypte et des
+      parties de la Syrie. al-Ḥajjāj catapulta la Kaʿba et la
+      Mosquée Sacrée depuis Abū Qubays durant le siège. Ibn al-
+      Zubayr combattit jusqu'à la fin, ses dernières paroles
+      furent : « certes la promesse d'Allah est vraie, et nous
+      en sommes les plus dignes destinataires ». Sa mère Asmāʾ
+      contempla son corps crucifié et dit : « le moment n'est-il
+      pas venu pour ce cavalier de mettre pied à terre ? »
+    canonical_hijri: {year: 73, month: 4, day: 17, precision: day}
+    canonical_gregorian: {date: 692-10-04, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_hajar_isaba
+    people: [[abdullah-ibn-al-zubayr, subject], [asma-bint-abi-bakr, subject]]
+    tags: [sahaba, mecca, fitna, umayyad, hajjaj, kaʿba]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdullah_ibn_al-Zubayr"
+
+  - slug: death-of-asma-bint-abi-bakr
+    category: companion
+    title_en: Death of Asmaʾ bint Abi Bakr ra — Dhat al-Niṭaqayn
+    title_ar: وفاة أسماء بنت أبي بكر رضي الله عنها — ذات النطاقين
+    title_fr: Mort d'Asmāʾ bint Abī Bakr ra — Dhāt al-Niṭāqayn
+    description_en: |
+      Asmaʾ bint Abi Bakr al-Ṣiddiq, elder sister of ʿAʾisha ra,
+      wife of al-Zubayr ibn al-ʿAwwam ra, and mother of ʿAbdullah
+      ibn al-Zubayr — died in Mecca at age about 100, only days
+      after the killing of her son. She is the Companion who tore
+      her waist-belt in two to fasten the Prophet's ﷺ provisions
+      at the cave of Thawr during the Hijra, earning the lasting
+      epithet *Dhat al-Niṭaqayn* ("She of the Two Belts"). At
+      the death of her son, when the Umayyad governor crucified
+      his body, she went to him and recited: "to Allah we belong
+      and to Him we return." al-Hajjaj asked her: "How did you
+      see Allah's enemy?" She replied: "I saw him as one who has
+      ruined his world for his next; you have ruined yours for
+      his." She narrated 58 hadith in the Six Books and was the
+      last of the Muhajirat to die.
+    description_ar: |
+      توفيت أسماء بنت أبي بكر الصديق رضي الله عنها — أخت عائشة رضي
+      الله عنها، وزوجة الزبير بن العوام رضي الله عنه، وأم عبد
+      الله بن الزبير — بمكة المكرمة عن نحو مئة سنة، بعد أيام من
+      مقتل ابنها. وهي الصحابية التي شقّت نطاقها نصفين لتربط
+      بأحدهما زاد رسول الله ﷺ في غار ثور يوم الهجرة، فلقبت
+      بـ«ذات النطاقين». ولما قتل ابنها وصُلبت جثته جاءت إليه فقالت:
+      «إنا لله وإنا إليه راجعون». فقال لها الحجاج: «كيف رأيت
+      عدو الله؟»، فقالت له: «رأيته أفسد دنياه لأخراه، وأفسدتَ أنت
+      أخراك لدنياه». روت ثمانية وخمسين حديثاً في الكتب الستة، وهي
+      آخر المهاجرات وفاة.
+    description_fr: |
+      Asmāʾ bint Abī Bakr al-Ṣiddīq, sœur aînée d'ʿĀʾisha ra,
+      épouse d'al-Zubayr ibn al-ʿAwwām ra et mère d'ʿAbdallāh ibn
+      al-Zubayr — mourut à La Mecque à l'âge d'environ 100 ans,
+      quelques jours seulement après le meurtre de son fils. Elle
+      est la Compagne qui déchira sa ceinture en deux pour fixer
+      les provisions du Prophète ﷺ à la grotte de Thawr durant la
+      Hijra, méritant l'épithète durable *Dhāt al-Niṭāqayn*
+      (« Celle aux Deux Ceintures »). À la mort de son fils,
+      lorsque le gouverneur omeyyade crucifia son corps, elle
+      s'approcha et récita : « à Allah nous appartenons et à Lui
+      nous retournons ». al-Ḥajjāj lui demanda : « Comment as-tu
+      vu l'ennemi d'Allah ? » Elle répondit : « je l'ai vu comme
+      celui qui a ruiné son monde pour son au-delà; toi, tu as
+      ruiné ton au-delà pour son monde ». Elle rapporta 58 hadiths
+      dans les Six Livres et fut la dernière des Muhājirāt à mourir.
+    canonical_hijri: {year: 73, precision: year}
+    canonical_gregorian: {date: 692-12-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 3905"
+    people: [[asma-bint-abi-bakr, subject], [abdullah-ibn-al-zubayr, subject]]
+    tags: [sahaba, women, hijra, mecca, dhat-al-nitaqayn, umayyad, fitna]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Asma_bint_Abi_Bakr"
+
+  - slug: death-of-urwa-ibn-al-zubayr
+    category: scholar
+    title_en: Death of ʿUrwa ibn al-Zubayr — One of the Seven Jurists of Medina
+    title_ar: وفاة عروة بن الزبير — أحد فقهاء المدينة السبعة
+    title_fr: Mort d'ʿUrwa ibn al-Zubayr — l'un des Sept Jurisconsultes de Médine
+    description_en: |
+      ʿUrwa ibn al-Zubayr ibn al-ʿAwwam — son of al-Zubayr and
+      Asma bint Abi Bakr, full brother of the caliph ʿAbdullah,
+      grand-nephew of ʿAʾisha ra (his student in fiqh and hadith),
+      and one of the seven jurists of Medina (*al-fuqahaʾ al-
+      sabʿa*) — died in Medina at age about 71. ʿUrwa took the
+      opposite political path from his brother: he never gave bayʿa
+      to a counter-caliph, devoting himself instead to scholarship
+      under both Umayyad and Zubayrid regimes. He was the principal
+      conduit through whom ʿAʾisha's hadith reached later
+      generations and the first systematic chronicler of the
+      Prophetic *maghazi* — his lost *Maghazi Rasul Allah* underlies
+      every later sira (Ibn Isḥaq, al-Ṭabari) directly or through
+      his student al-Zuhri. al-Walid I had him buried beside the
+      Companions in al-Baqiʿ.
+    description_ar: |
+      توفي الإمام عروة بن الزبير بن العوام — ابن الزبير وأسماء بنت
+      أبي بكر، شقيق الخليفة عبد الله، وابن أخت عائشة رضي الله عنها
+      (وتلميذها في الفقه والحديث)، وأحد فقهاء المدينة السبعة —
+      بالمدينة عن نحو إحدى وسبعين سنة. سلك عروة عكس مسلك أخيه
+      السياسي: لم يبايع منازعاً قط، بل تفرغ للعلم في عهدي بني أمية
+      وابن الزبير معاً. وهو القناة الرئيسية التي وصلت بها أحاديث
+      عائشة رضي الله عنها إلى الأجيال التالية، وأول من سجل المغازي
+      النبوية تسجيلاً منهجياً — كتابه «مغازي رسول الله» المفقود
+      أصل كل سيرة لاحقة (ابن إسحاق والطبري) إما مباشرة أو عبر
+      تلميذه الزهري. ودفنه الوليد الأول إلى جوار الصحابة بالبقيع.
+    description_fr: |
+      ʿUrwa ibn al-Zubayr ibn al-ʿAwwām — fils d'al-Zubayr et
+      d'Asmāʾ bint Abī Bakr, frère germain du calife ʿAbdallāh,
+      petit-neveu d'ʿĀʾisha ra (son élève en fiqh et en hadith) et
+      l'un des sept jurisconsultes de Médine (*al-fuqahāʾ al-
+      sabʿa*) — mourut à Médine à l'âge d'environ 71 ans. ʿUrwa
+      emprunta le chemin politique opposé à celui de son frère :
+      il ne prêta jamais *bayʿa* à un calife rival, se consacrant
+      à l'érudition sous les régimes omeyyade et zubayride. Il
+      fut le principal canal par lequel les hadiths d'ʿĀʾisha
+      parvinrent aux générations ultérieures et le premier
+      chroniqueur systématique des *maghāzī* prophétiques — son
+      *Maghāzī Rasūl Allāh* perdu sous-tend toute *sīra* ultérieure
+      (Ibn Isḥāq, al-Ṭabarī) directement ou via son élève al-Zuhrī.
+      al-Walīd Ier le fit enterrer aux côtés des Compagnons à
+      al-Baqīʿ.
+    canonical_hijri: {year: 94, precision: year}
+    canonical_gregorian: {date: 712-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[urwa-ibn-al-zubayr, subject], [aisha-bint-abi-bakr, subject]]
+    tags: [tabi'un, fuqaha-al-sabʿa, medina, maghazi, zuhri, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Urwa_ibn_al-Zubayr"
+
+  - slug: death-of-al-qasim-ibn-muhammad
+    category: scholar
+    title_en: Death of al-Qasim ibn Muhammad ibn Abi Bakr
+    title_ar: وفاة القاسم بن محمد بن أبي بكر
+    title_fr: Mort d'al-Qāsim ibn Muḥammad ibn Abī Bakr
+    description_en: |
+      al-Qasim ibn Muhammad ibn Abi Bakr al-Ṣiddiq — grandson of
+      Abu Bakr ra through his father Muhammad, raised in the
+      household of his aunt ʿAʾisha ra, and one of the seven
+      jurists of Medina — died at Quba on the Hajj road at age
+      about 70. Imam Malik narrated extensively from him; the
+      foundation of much of *al-Muwaṭṭaʾ* in Medinan ijmaʿ runs
+      back to his rulings. ʿUmar ibn ʿAbd al-ʿAziz, when offered
+      possible candidates for the caliphate, said: "I find no one
+      more deserving of this matter than al-Qasim ibn Muhammad."
+      He was the master of the hadith methodology that prized
+      direct Madinan precedent over speculative reasoning — the
+      seedbed of what would become the Maliki madhhab. His
+      father Muhammad ibn Abi Bakr had been killed in the chaos
+      of the first fitna in Egypt at age 28.
+    description_ar: |
+      توفي الإمام القاسم بن محمد بن أبي بكر الصديق — حفيد أبي بكر
+      رضي الله عنه من أبيه محمد، تربى في بيت عمته عائشة رضي الله
+      عنها، وأحد فقهاء المدينة السبعة — بقباء في طريق الحج عن نحو
+      سبعين سنة. روى عنه الإمام مالك بن أنس كثيراً، وكثير من إجماع
+      أهل المدينة في «الموطأ» يرجع إلى أقواله. ولما عرض على عمر بن
+      عبد العزيز رضي الله عنه أسماء يصلح ولي عهدها، قال: «ما أعلم
+      أحداً أحق بهذا الأمر من القاسم بن محمد». وكان رحمه الله رأس
+      المنهج الحديثي الذي يقدم العمل المدني الموصول على الرأي،
+      وهي البذرة التي صار بها مذهب الإمام مالك. وكان أبوه محمد بن
+      أبي بكر قد قُتل في فتنة الجمل وما تلاها بمصر عن ثمان وعشرين
+      سنة.
+    description_fr: |
+      al-Qāsim ibn Muḥammad ibn Abī Bakr al-Ṣiddīq — petit-fils
+      d'Abu Bakr ra par son père Muḥammad, élevé dans la maison
+      de sa tante ʿĀʾisha ra et l'un des sept jurisconsultes de
+      Médine — mourut à Qubāʾ sur la route du Ḥajj à l'âge
+      d'environ 70 ans. L'imam Mālik rapporta abondamment de lui;
+      le fondement d'une grande partie d'*al-Muwaṭṭaʾ* dans
+      l'*ijmāʿ* médinois remonte à ses sentences. ʿUmar ibn ʿAbd
+      al-ʿAzīz, à qui on présenta des candidats possibles pour le
+      califat, dit : « je ne trouve nul plus digne de cette affaire
+      qu'al-Qāsim ibn Muḥammad ». Il fut le maître de la
+      méthodologie de hadith qui privilégiait le précédent
+      médinois direct sur le raisonnement spéculatif — le terreau
+      de ce qui deviendrait le madhhab malikite. Son père Muḥammad
+      ibn Abī Bakr avait été tué dans le chaos de la première
+      *fitna* en Égypte à 28 ans.
+    canonical_hijri: {year: 107, precision: year}
+    canonical_gregorian: {date: 725-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-qasim-ibn-muhammad, subject], [aisha-bint-abi-bakr, subject], [malik-ibn-anas, subject]]
+    tags: [tabi'un, fuqaha-al-sabʿa, medina, abu-bakr, maliki, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Qasim_ibn_Muhammad_ibn_Abi_Bakr"
+
+  - slug: death-of-ikrimah-mawla-ibn-abbas
+    category: scholar
+    title_en: Death of ʿIkrimah mawla Ibn ʿAbbas
+    title_ar: وفاة عكرمة مولى ابن عباس
+    title_fr: Mort de ʿIkrimah mawlā Ibn ʿAbbās
+    description_en: |
+      ʿIkrimah ibn ʿAbdallah al-Barbari — Berber-origin freedman
+      of ʿAbdullah ibn ʿAbbas ra, foremost transmitter of Ibn
+      ʿAbbas's tafsir alongside Mujahid ibn Jabr, and one of the
+      most-cited tabiʿi mufassirun in al-Ṭabari's *Jamiʿ al-Bayan*
+      — died in Medina around 104 AH, on the same day as the
+      famous poet Kuthayyir ʿAzza. ʿIkrimah's *tafsir* dictation
+      to his students became the substrate of the Ibn ʿAbbas-
+      based commentary tradition that runs through al-Ṭabari and
+      ultimately Ibn Kathir. Although later Maliki scholars
+      criticised aspects of his transmission (some accusing him of
+      Khariji sympathies), the muḥaddithun of the Six Books accepted
+      his hadith: al-Bukhari narrated some 270 reports from him.
+      Ibn Ḥajar reconciled the disputes in *Tahdhib al-Tahdhib* with
+      a finding of overall reliability.
+    description_ar: |
+      توفي الإمام عكرمة بن عبد الله البربري — مولى عبد الله بن عباس
+      رضي الله عنهما من أصول أمازيغية، وكبير ناقلي تفسير ابن عباس
+      مع مجاهد بن جبر، وأحد أكثر التابعين رواية في «جامع البيان»
+      للطبري — بالمدينة المنورة نحو سنة ١٠٤ هـ، في اليوم نفسه الذي
+      توفي فيه الشاعر كثيّر عزّة. وإملاءات عكرمة في التفسير صارت
+      أصل تراث التفسير الراجع إلى ابن عباس الذي مر بالطبري ووصل
+      إلى ابن كثير. ومع أن متأخري المالكية انتقدوا بعض جوانب
+      روايته (وبعضهم نسب إليه ميلاً للخوارج)، فإن محدثي الكتب
+      الستة قبلوا حديثه: روى البخاري نحو ٢٧٠ خبراً عنه. وقد رفع
+      ابن حجر العسقلاني الخلاف في «تهذيب التهذيب» إلى توثيق إجمالي.
+    description_fr: |
+      ʿIkrimah ibn ʿAbdallāh al-Barbarī — affranchi d'origine berbère
+      d'ʿAbdullāh ibn ʿAbbās ra, principal transmetteur du tafsir
+      d'Ibn ʿAbbās aux côtés de Mujāhid ibn Jabr, et l'un des
+      mufassirūn tabiʿūn les plus cités dans le *Jamiʿ al-Bayān*
+      d'al-Ṭabarī — mourut à Médine vers 104 H, le même jour que
+      le célèbre poète Kuthayyir ʿAzza. La dictée de tafsir de
+      ʿIkrimah à ses élèves devint le substrat de la tradition
+      exégétique fondée sur Ibn ʿAbbās qui passa par al-Ṭabarī et
+      finalement Ibn Kathīr. Bien que les savants malikites tardifs
+      aient critiqué certains aspects de sa transmission (certains
+      l'accusant de sympathies kharidjites), les muḥaddithūn des
+      Six Livres acceptèrent son hadith : al-Bukhārī rapporta
+      quelque 270 récits de lui. Ibn Ḥajar concilia les
+      controverses dans *Tahdhīb al-Tahdhīb* en concluant à une
+      fiabilité globale.
+    canonical_hijri: {year: 104, precision: year}
+    canonical_gregorian: {date: 723-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[ikrimah-mawla-ibn-abbas, subject], [abdullah-ibn-abbas, subject]]
+    tags: [tabi'un, tafsir, medina, ibn-abbas, umayyad]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SUNNI-MAINSTREAM SUFI TARIQA FOUNDERS
+  # =========================================================================
+
+  - slug: death-of-abu-madyan
+    category: scholar
+    title_en: Death of Abu Madyan al-Maghribi
+    title_ar: وفاة أبي مدين المغربي
+    title_fr: Mort d'Abu Madyan al-Maghribi
+    description_en: |
+      Abu Madyan Shuʿayb ibn al-Husayn al-Anṣari — Andalusian-born
+      Maliki Sufi who emigrated to the Maghreb and became the
+      foundational master of the *Madyaniyya* lineage from which
+      almost every later Maghrebi-North African Sufi tariqa
+      descends — died at ʿUbbad outside Tlemcen at age about 78,
+      while travelling to Marrakesh under summons by the Almohad
+      caliph Yaʿqub al-Manṣur. His sayings, preserved in the
+      *Bidayat al-Ṭalibin* and the *Wasiyya al-Kubra*, became the
+      reference points for Maghrebi Sufi adab. al-Shadhili (whose
+      *Shadhiliyya* is the largest North African tariqa) takes
+      his initiatic chain through Abu Madyan; Ibn ʿArabi
+      al-Andalusi met him in his youth and venerated him by the
+      title *al-Ghawth*. His shrine at ʿUbbad-Tlemcen is one of
+      the principal Maghrebi pilgrimage centres to this day.
+    description_ar: |
+      توفي الإمام أبو مدين شعيب بن الحسين الأنصاري — أندلسي المولد
+      هاجر إلى المغرب فصار شيخ سلسلة «المدينية» التي تنحدر منها
+      عامة الطرق الصوفية المغربية والشمال أفريقية تقريباً — في
+      «العباد» قرب تلمسان عن نحو ثمانٍ وسبعين سنة، وهو في طريقه
+      إلى مراكش باستدعاء من الخليفة الموحدي يعقوب المنصور. وأقواله
+      المحفوظة في «بداية الطالبين» و«الوصية الكبرى» صارت مراجع
+      الأدب الصوفي المغربي. والشيخ أبو الحسن الشاذلي (مؤسس الطريقة
+      الشاذلية، أكبر طرق شمال أفريقيا) يأخذ سند طريقته عن أبي
+      مدين؛ ولقيه ابن عربي الأندلسي صبياً فعظمه ولقبه «الغوث».
+      ومزاره في «العباد» قرب تلمسان من أكبر مزارات المغرب إلى اليوم.
+    description_fr: |
+      Abu Madyan Shuʿayb ibn al-Ḥusayn al-Anṣārī — soufi malikite
+      d'origine andalouse qui émigra au Maghreb et devint le
+      maître fondateur de la lignée *Madyaniyya* dont descend
+      presque toute *ṭarīqa* maghrébine et nord-africaine
+      ultérieure — mourut à ʿUbbād près de Tlemcen à l'âge
+      d'environ 78 ans, alors qu'il se rendait à Marrakech sur
+      convocation du calife almohade Yaʿqūb al-Manṣūr. Ses
+      paroles, préservées dans la *Bidāyat al-Ṭālibīn* et la
+      *Waṣiyya al-Kubrā*, devinrent les points de référence de
+      l'*adab* soufi maghrébin. al-Shādhilī (dont la *Shādhiliyya*
+      est la plus grande *ṭarīqa* nord-africaine) prend sa chaîne
+      initiatique par Abū Madyan; Ibn ʿArabī al-Andalusī le
+      rencontra dans sa jeunesse et le vénéra sous le titre de
+      *al-Ghawth*. Son sanctuaire à ʿUbbād-Tlemcen est l'un des
+      principaux centres de pèlerinage maghrébins à ce jour.
+    canonical_hijri: {year: 594, precision: year}
+    canonical_gregorian: {date: 1198-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[abu-madyan, subject]]
+    tags: [sufi, sunni, maghreb, tlemcen, almohad, andalus]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Madyan"
+
+  - slug: death-of-al-shadhili
+    category: scholar
+    title_en: Death of Abu al-Hasan al-Shadhili
+    title_ar: وفاة أبي الحسن الشاذلي
+    title_fr: Mort d'Abū al-Ḥasan al-Shādhilī
+    description_en: |
+      Abu al-Hasan ʿAli al-Shadhili al-Maghribi al-Maliki —
+      Moroccan-born Maliki scholar and founder of the Shadhili
+      tariqa, the largest Sufi order in North Africa, Egypt, and
+      across the Sunni Maghreb — died at Humaythira in the Eastern
+      Desert of Egypt while travelling on the Hajj route. He was
+      about 63. His tariqa is distinct in classical Sunni Sufism
+      for its lack of formal initiation rites, its embrace of
+      lay social life over monastic withdrawal, and the
+      prominence of his daily *aḥzab* (litanies, especially
+      *Ḥizb al-Baḥr* and *Ḥizb al-Barr*) which remain in active
+      recitation across the Muslim world. He left no formal
+      writings of his own; his sayings were preserved by his
+      successor Ibn ʿAṭaʾillah al-Iskandari in *Laṭaʾif al-Minan*
+      and the *Hikam*. The Shadhili tariqa later branched into
+      sub-orders including the Darqawiyya (West Africa), the
+      ʿAlawiyya (Algeria), and the Yashruṭiyya (Levant).
+    description_ar: |
+      توفي الإمام أبو الحسن علي الشاذلي المغربي المالكي — مغربي
+      المولد، عالم على مذهب الإمام مالك، ومؤسس الطريقة الشاذلية،
+      أكبر الطرق الصوفية في شمال أفريقيا ومصر وعموم المغرب الإسلامي
+      السني — بـ«حميثرة» في الصحراء الشرقية بمصر وهو في طريق الحج
+      عن نحو ثلاث وستين سنة. وتمتاز طريقته في التراث الصوفي السني
+      الكلاسيكي بعدم اشتراطها طقوس انتساب رسمية، وقبولها للحياة
+      الاجتماعية اللائقة على مفاصلتها، وبأذكاره وأحزابه اليومية
+      (لا سيما «حزب البحر» و«حزب البر») التي ما زالت تتداول
+      بالقراءة في عامة العالم الإسلامي. لم يصنف رحمه الله كتاباً،
+      وحفظ أقواله خليفته ابن عطاء الله الإسكندري في «لطائف المنن»
+      و«الحكم». وتفرعت الشاذلية لاحقاً إلى طرق منها الدرقاوية
+      (المغرب وأفريقيا الغربية) والعلاوية (الجزائر) واليشرطية
+      (الشام).
+    description_fr: |
+      Abū al-Ḥasan ʿAlī al-Shādhilī al-Maghribī al-Mālikī — savant
+      malikite marocain et fondateur de la *ṭarīqa Shādhiliyya*,
+      le plus grand ordre soufi d'Afrique du Nord, d'Égypte et du
+      Maghreb sunnite tout entier — mourut à Ḥumaythira dans le
+      Désert oriental d'Égypte alors qu'il voyageait sur la route
+      du Ḥajj. Il avait environ 63 ans. Sa *ṭarīqa* se distingue
+      dans le soufisme sunnite classique par l'absence de rites
+      d'initiation formels, son adoption de la vie sociale
+      ordinaire sur le retrait monastique, et la prééminence de
+      ses *aḥzāb* quotidiens (litanies, en particulier *Ḥizb
+      al-Baḥr* et *Ḥizb al-Barr*) qui demeurent en récitation
+      active à travers le monde musulman. Il ne laissa aucun écrit
+      formel; ses paroles furent préservées par son successeur
+      Ibn ʿAṭāʾillāh al-Iskandarī dans *Laṭāʾif al-Minan* et les
+      *Ḥikam*. La *ṭarīqa Shādhiliyya* se ramifia plus tard en
+      sous-ordres incluant la Darqāwiyya (Maghreb), l'ʿAlāwiyya
+      (Algérie) et la Yashruṭiyya (Levant).
+    canonical_hijri: {year: 656, precision: year}
+    canonical_gregorian: {date: 1258-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-shadhili, subject]]
+    tags: [sufi, sunni, maghreb, egypt, ayyubid, shadhiliyya, maliki]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Hasan_al-Shadhili"
+
+  - slug: death-of-naqshband
+    category: scholar
+    title_en: Death of Bahaʾ al-Din Naqshband
+    title_ar: وفاة بهاء الدين نقشبند
+    title_fr: Mort de Bahāʾ al-Dīn Naqshband
+    description_en: |
+      Bahaʾ al-Din Muhammad ibn Muhammad al-Bukhari, known as
+      *Naqshband* — eponymous founder of the Naqshbandi tariqa,
+      among the most widespread and rigorously Sunni-Sharia-bound
+      of the major Sufi orders, with extensive presence today in
+      Central Asia, the Indian subcontinent, Turkey, the Caucasus,
+      and the Levant — died at Qaṣr al-ʿArifan near Bukhara at
+      age about 73. The Naqshbandi tariqa is distinctive in
+      Sufi history for its insistence on *dhikr khafi* (silent
+      remembrance) over vocal *dhikr*, its refusal of music and
+      ecstatic practice, and its principle that the disciple
+      remain fully embedded in worldly trade and family life
+      while pursuing the inward path — *khalwat dar anjuman*
+      ("solitude in the crowd"). Its eight founding principles,
+      formulated by his predecessor ʿAbd al-Khaliq al-Ghujdawani,
+      he augmented with three more. The order's later sub-branches
+      include the Mujaddidi (through Sirhindi) and the Khalidi.
+    description_ar: |
+      توفي الشيخ بهاء الدين محمد بن محمد البخاري المعروف بـ«نقشبند»
+      — مؤسس الطريقة النقشبندية، من أكثر الطرق الصوفية انتشاراً
+      ومن أصرمها التزاماً بالشريعة على منهج أهل السنة، حضورها
+      اليوم واسع في آسيا الوسطى وشبه القارة الهندية وتركيا والقوقاز
+      والشام — في «قصر العارفان» قرب بخارى عن نحو ثلاث وسبعين سنة.
+      وتمتاز الطريقة النقشبندية في تاريخ التصوف بإصرارها على «الذكر
+      الخفي» على الذكر الجهري، ورفضها السماع والوجد، وأصلها أن
+      يبقى السالك متلبساً بشؤون التجارة والأسرة في العالم وهو
+      يسلك إلى الله — قاعدة «خلوت در أنجمن» (الخلوة في الجمع).
+      وأصول الطريقة الثمانية التي صاغها سلفه عبد الخالق الغجدواني
+      زاد عليها بهاء الدين ثلاثة أصول أخرى. وفيما بعد تفرعت
+      الطريقة إلى المجددية (عبر السرهندي) والخالدية.
+    description_fr: |
+      Bahāʾ al-Dīn Muḥammad ibn Muḥammad al-Bukhārī, connu sous
+      le nom de *Naqshband* — fondateur éponyme de la *ṭarīqa
+      Naqshbandiyya*, parmi les plus répandues et les plus
+      rigoureusement liées à la *sharīʿa* sunnite des grands
+      ordres soufis, avec une présence étendue aujourd'hui en
+      Asie centrale, dans le sous-continent indien, en Turquie,
+      au Caucase et au Levant — mourut à Qaṣr al-ʿĀrifān près de
+      Boukhara à l'âge d'environ 73 ans. La *ṭarīqa Naqshbandiyya*
+      est distinctive dans l'histoire soufie pour son insistance
+      sur le *dhikr khafī* (rappel silencieux) plutôt que vocal,
+      son refus de la musique et de la pratique extatique, et son
+      principe selon lequel le disciple demeure pleinement engagé
+      dans le commerce mondain et la vie de famille tout en
+      poursuivant la voie intérieure — *khalwat dar anjuman*
+      (« la solitude dans la foule »). Aux huit principes
+      fondateurs formulés par son prédécesseur ʿAbd al-Khāliq
+      al-Ghujdawānī, il en ajouta trois autres. Les sous-branches
+      ultérieures de l'ordre incluent la Mujaddidiyya (par
+      Sirhindī) et la Khālidiyya.
+    canonical_hijri: {year: 791, month: 3, precision: month}
+    canonical_gregorian: {date: 1389-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[naqshband, subject]]
+    tags: [sufi, sunni, bukhara, central-asia, naqshbandiyya, dhikr]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Baha-ud-Din_Naqshband_Bukhari"
+
+  # =========================================================================
+  # MODERN/SOUTH ASIAN SUNNI REVIVERS
+  # =========================================================================
+
+  # death-of-sirhindi intentionally excluded — qayyūmiyya claim contested in mainstream Sunni circles.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+
+  - slug: death-of-rashid-rida
+    category: scholar
+    title_en: Death of Muhammad Rashid Riḍa
+    title_ar: وفاة محمد رشيد رضا
+    title_fr: Mort de Muḥammad Rashīd Riḍā
+    description_en: |
+      Muhammad Rashid Riḍa al-Husayni — Syrian-born Sunni reformer,
+      principal student of Muhammad ʿAbduh in Cairo, founder and
+      editor of the journal *al-Manar* (1898-1935 CE) which spread
+      Salafi-modernist thought across the Arab world for thirty-
+      seven years, and author of *Tafsir al-Manar* (a Qurʾan
+      commentary continuing ʿAbduh's lectures) and *al-Khilafa*
+      (a 1922 treatise on the caliphate written in the wake of
+      Mustafa Kemal's abolition) — died on the road from Suez to
+      Cairo, returning from accompanying King ʿAbd al-ʿAziz Al
+      Saʿud during a state visit. He was about 70. He was the
+      principal twentieth-century relay of pre-modern Sunni revival
+      currents (especially Ibn Taymiyya and Muhammad ibn ʿAbd
+      al-Wahhab) into the Arab modernist mainstream; modern Salafi,
+      Muslim Brotherhood, and Islamist reformist currents all trace
+      direct lines through him.
+    description_ar: |
+      توفي الشيخ محمد رشيد رضا الحسيني — مصلح سني سوري المنشأ،
+      وكبير تلاميذ الإمام محمد عبده بالقاهرة، ومؤسس ومحرر مجلة
+      «المنار» (١٨٩٨-١٩٣٥ ميلادي) التي نشرت الفكر السلفي الإصلاحي
+      في عامة الوطن العربي سبعاً وثلاثين سنة، ومصنف «تفسير المنار»
+      (تابعاً لدروس الإمام محمد عبده) و«الخلافة» (رسالة سنة ١٩٢٢
+      ميلادي في الخلافة في أعقاب إلغائها على يد مصطفى كمال) —
+      على طريق السويس-القاهرة، عائداً من توديع الملك عبد العزيز
+      آل سعود في زيارة رسمية. وقد ناهز السبعين. وكان رحمه الله
+      الجسر الأكبر في القرن العشرين بين تيارات الإحياء السني قبل
+      الحداثة (لا سيما تراث ابن تيمية ومحمد بن عبد الوهاب) والوسط
+      الحداثي العربي؛ وتيارات السلفية والإخوان المسلمين والحركات
+      الإسلامية الإصلاحية الحديثة كلها تنحدر منه عبر خطوط واضحة.
+    description_fr: |
+      Muḥammad Rashīd Riḍā al-Ḥusaynī — réformateur sunnite
+      syrien, principal élève de Muḥammad ʿAbduh au Caire,
+      fondateur et rédacteur en chef du journal *al-Manār*
+      (1898-1935 EC) qui diffusa la pensée salafi-moderniste à
+      travers le monde arabe pendant trente-sept ans, et auteur
+      de *Tafsīr al-Manār* (un commentaire coranique poursuivant
+      les conférences d'ʿAbduh) et d'*al-Khilāfa* (un traité de
+      1922 sur le califat rédigé dans le sillage de l'abolition
+      par Mustafa Kemal) — mourut sur la route de Suez au Caire
+      en revenant d'avoir accompagné le roi ʿAbd al-ʿAzīz Āl Saʿūd
+      lors d'une visite d'État. Il avait environ 70 ans. Il fut
+      le principal relais du XXe siècle des courants de renaissance
+      sunnite pré-moderne (surtout Ibn Taymiyya et Muḥammad ibn
+      ʿAbd al-Wahhāb) vers le courant moderniste arabe; les
+      mouvements salafi, frères musulmans et islamistes
+      réformistes modernes tracent tous des lignes directes à
+      travers lui.
+    canonical_hijri: {year: 1354, month: 5, day: 23, precision: day}
+    canonical_gregorian: {date: 1935-08-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[rashid-rida, subject], [muhammad-abduh, subject]]
+    tags: [modern, salafi, manar, cairo, syria, reform]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Rashid_Rida"
+
+  - slug: death-of-ahmad-shakir
+    category: scholar
+    title_en: Death of Aḥmad Muḥammad Shakir
+    title_ar: وفاة أحمد محمد شاكر
+    title_fr: Mort d'Aḥmad Muḥammad Shākir
+    description_en: |
+      Aḥmad Muḥammad Shakir — Egyptian Sunni hadith scholar,
+      Azhari-trained jurist of Shafiʿi madhhab who eventually
+      embraced ijtihad-style methodology, and the editor whose
+      monumental editions of *Musnad Aḥmad ibn Ḥanbal* (the first
+      published critical edition with hadith-by-hadith grading),
+      *al-Risala* of al-Shafiʿi, *Sunan al-Tirmidhi*, and Ibn
+      Ḥazm's *al-Muḥalla* set the modern critical-edition
+      methodology for classical Sunni texts — died in Cairo at
+      age 66. He served as a state qadi until political differences
+      forced his retirement; thereafter he devoted himself
+      entirely to text editing, hadith authentication, and
+      advocacy for return to the primary sources. His brother
+      Maḥmud Shakir was an equally influential editor of classical
+      Arabic literary texts, and his student al-Albani would
+      become the most prominent twentieth-century Sunni hadith
+      grader.
+    description_ar: |
+      توفي الإمام أحمد محمد شاكر — محدث سني مصري، شافعي المذهب
+      أزهري التخريج ثم انتقل إلى منهج الاجتهاد، ومن مرجعه إلى
+      تحقيقاته الكبرى لـ«مسند الإمام أحمد بن حنبل» (أول طبعة
+      نقدية منشورة بتخريج الأحاديث وتصحيحها واحداً واحداً) و«الرسالة»
+      للشافعي و«سنن الترمذي» و«المحلى» لابن حزم، التي أرست منهج
+      التحقيق النقدي الحديث للنصوص السنية الكلاسيكية — بالقاهرة عن
+      ست وستين سنة. عمل قاضياً للدولة حتى أجبرته الخلافات السياسية
+      على الاعتزال، فتفرغ بعد ذلك للتحقيق وتخريج الحديث والدعوة
+      إلى الرجوع إلى المصادر الأصلية. وكان أخوه محمود شاكر محققاً
+      موازياً في النصوص الأدبية العربية الكلاسيكية، وصار تلميذه
+      الألباني أبرز محدث سني في تخريج الأحاديث في القرن العشرين.
+    description_fr: |
+      Aḥmad Muḥammad Shākir — savant sunnite égyptien du hadith,
+      juriste shafiʿite formé à al-Azhar qui adopta finalement une
+      méthodologie d'*ijtihād*, et l'éditeur dont les éditions
+      monumentales du *Musnad Aḥmad ibn Ḥanbal* (la première
+      édition critique publiée avec gradation hadith par hadith),
+      d'*al-Risāla* d'al-Shāfiʿī, des *Sunan al-Tirmidhī* et
+      d'*al-Muḥallā* d'Ibn Ḥazm posèrent la méthodologie moderne
+      d'édition critique pour les textes sunnites classiques —
+      mourut au Caire à l'âge de 66 ans. Il servit comme *qāḍī*
+      d'État jusqu'à ce que des désaccords politiques le forcent
+      à la retraite; par la suite il se consacra entièrement à
+      l'édition de textes, à l'authentification du hadith et à
+      la défense du retour aux sources primaires. Son frère
+      Maḥmūd Shākir fut un éditeur tout aussi influent de textes
+      littéraires arabes classiques, et son élève al-Albānī
+      deviendrait le plus éminent gradateur de hadith sunnite du
+      XXe siècle.
+    canonical_hijri: {year: 1377, month: 12, day: 6, precision: day}
+    canonical_gregorian: {date: 1958-06-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-shakir, subject]]
+    tags: [modern, hadith, cairo, shafii, ijtihad, musnad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Muhammad_Shakir"
+
+  - slug: death-of-al-maraghi
+    category: scholar
+    title_en: Death of Mustafa al-Maraghi — Shaykh of al-Azhar
+    title_ar: وفاة مصطفى المراغي — شيخ الأزهر
+    title_fr: Mort de Muṣṭafā al-Marāghī — Shaykh d'al-Azhar
+    description_en: |
+      Mustafa al-Maraghi — Egyptian Sunni jurist and grand Shaykh
+      of al-Azhar (twice: 1928-1929 and 1935-1945), modernist
+      reformer in the lineage of his teacher Muhammad ʿAbduh, and
+      author of an influential Qurʾan commentary (*Tafsir al-
+      Maraghi*) in ten volumes addressing the Qurʾan in modern
+      Arabic accessible to non-specialists — died at his home in
+      Cairo at age about 64. As Shaykh of al-Azhar he led the
+      institutional modernisation of the Sunni world's oldest
+      university: he established faculties of theology, sharia,
+      and Arabic literature with formal degrees, broke the
+      monopoly of pre-modern teaching circles, and admitted the
+      first women to study at al-Azhar's affiliated institutes.
+      His brother ʿAbdullah al-Maraghi served as his deputy and
+      his sons established a continuing scholarly lineage in
+      twentieth-century Egyptian Sunni academia.
+    description_ar: |
+      توفي الشيخ مصطفى المراغي — فقيه سني مصري وشيخ الجامع الأزهر
+      مرتين (١٩٢٨-١٩٢٩ ثم ١٩٣٥-١٩٤٥)، ومجدد على نهج شيخه الإمام
+      محمد عبده، ومصنف تفسير قرآني كبير الأثر («تفسير المراغي» في
+      عشرة مجلدات) باللغة العربية الحديثة الميسرة لغير المتخصصين —
+      في داره بالقاهرة عن نحو أربع وستين سنة. وقاد بصفته شيخاً
+      للأزهر التحديث المؤسسي لأقدم جامعة في العالم السني: فأسس
+      كليات أصول الدين والشريعة واللغة العربية بشهادات رسمية،
+      وكسر احتكار حلقات التدريس قبل الحداثة، وقبل لأول مرة دخول
+      النساء معاهد الأزهر التابعة. وكان أخوه عبد الله المراغي
+      نائباً له، وأنشأ أبناؤه سلسلة علمية متواصلة في الأكاديميا
+      السنية المصرية في القرن العشرين.
+    description_fr: |
+      Muṣṭafā al-Marāghī — juriste sunnite égyptien et grand
+      cheikh d'al-Azhar (à deux reprises : 1928-1929 et 1935-1945),
+      réformateur moderniste dans la lignée de son maître Muḥammad
+      ʿAbduh, et auteur d'un commentaire coranique influent
+      (*Tafsīr al-Marāghī*) en dix volumes traitant du Coran en
+      arabe moderne accessible aux non-spécialistes — mourut à
+      son domicile au Caire à l'âge d'environ 64 ans. En tant que
+      cheikh d'al-Azhar il dirigea la modernisation institutionnelle
+      de la plus ancienne université du monde sunnite : il créa
+      les facultés de théologie, de sharīʿa et de littérature
+      arabe avec diplômes formels, brisa le monopole des cercles
+      d'enseignement pré-modernes et admit pour la première fois
+      des femmes dans les instituts affiliés à al-Azhar. Son frère
+      ʿAbdallāh al-Marāghī servit comme adjoint, et ses fils
+      établirent une lignée savante continue dans l'académie
+      sunnite égyptienne du XXe siècle.
+    canonical_hijri: {year: 1364, month: 9, day: 19, precision: day}
+    canonical_gregorian: {date: 1945-08-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-maraghi, subject]]
+    tags: [modern, azhar, egypt, tafsir, reform, women-education]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mustafa_al-Maraghi"
+
+  # =========================================================================
+  # MAJOR EARLY-ISLAMIC EVENTS
+  # =========================================================================
+
+  - slug: first-hijra-to-abyssinia
+    category: prophetic
+    title_en: First Hijra to Abyssinia
+    title_ar: الهجرة الأولى إلى الحبشة
+    title_fr: Première Hijra en Abyssinie
+    description_en: |
+      Approximately twelve men and four women among the early
+      Muslims of Mecca, fleeing escalating Quraysh persecution,
+      crossed the Red Sea to take refuge with the Christian
+      Negus of Abyssinia (al-Najashi) at the Prophet's ﷺ
+      direction — the first organised migration of Muslims out of
+      Mecca, five years before the Hijra to Medina. The party
+      included ʿUthman ibn ʿAffan ra and his wife Ruqayya bint
+      Muhammad ﷺ, ʿUthman ibn Maẓʿun ra, and the senior leader
+      of the second wave Jaʿfar ibn Abi Talib ra. When Quraysh
+      sent ʿAmr ibn al-ʿAṣ (then still pre-conversion) to demand
+      their extradition, Jaʿfar's address to the Negus — recorded
+      verbatim in Aḥmad's *Musnad* — recited Surat Maryam (Q 19),
+      moving the Negus to tears and securing the Muslims'
+      asylum. The Prophet ﷺ later said of him: "Allah has placed
+      al-Najashi in his place upon a noble seat."
+    description_ar: |
+      هاجر نحو اثني عشر رجلاً وأربع نسوة من أوائل مسلمي مكة هرباً
+      من اضطهاد قريش المتصاعد، فعبروا البحر الأحمر إلى ملك الحبشة
+      المسيحي النجاشي بأمر رسول الله ﷺ — وهي أول هجرة منظمة
+      للمسلمين خارج مكة، قبل الهجرة إلى المدينة بخمس سنين. وكان من
+      المهاجرين عثمان بن عفان رضي الله عنه وزوجه رقية بنت محمد ﷺ،
+      وعثمان بن مظعون رضي الله عنه، وكبير الموجة الثانية جعفر بن
+      أبي طالب رضي الله عنه. ولما بعثت قريش عمرو بن العاص (وكان
+      يومئذ مشركاً) إلى النجاشي يطلب تسليم المسلمين، خطب جعفر بين
+      يديه الخطبة المحفوظة في «مسند» الإمام أحمد، ثم تلا أول سورة
+      مريم (سورة ١٩)، فبكى النجاشي وأمن المسلمين على دينهم. وقال
+      النبي ﷺ فيه لاحقاً: «وضعه الله في مقام كريم».
+    description_fr: |
+      Environ douze hommes et quatre femmes parmi les premiers
+      musulmans de La Mecque, fuyant la persécution croissante de
+      Quraysh, traversèrent la mer Rouge pour se réfugier auprès
+      du Négus chrétien d'Abyssinie (al-Najāshī) sur instruction
+      du Prophète ﷺ — la première migration organisée de musulmans
+      hors de La Mecque, cinq ans avant la Hijra vers Médine. Le
+      groupe comprenait ʿUthmān ibn ʿAffān ra et son épouse Ruqayya
+      bint Muḥammad ﷺ, ʿUthmān ibn Maẓʿūn ra, et le chef de la
+      seconde vague Jaʿfar ibn Abī Ṭālib ra. Lorsque Quraysh
+      envoya ʿAmr ibn al-ʿĀṣ (alors encore pré-conversion) pour
+      exiger leur extradition, l'allocution de Jaʿfar au Négus —
+      consignée verbatim dans le *Musnad* d'Aḥmad — récita la
+      sourate Maryam (Q 19), émut le Négus aux larmes et obtint
+      l'asile des musulmans. Le Prophète ﷺ dit plus tard de lui :
+      « Allah a placé al-Najāshī à sa place sur un noble siège ».
+    canonical_hijri: {year: -5, precision: year}
+    canonical_gregorian: {date: 615-04-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_sad_tabaqat
+    quran_refs: "19:1"
+    people: [[muhammad, subject], [jafar-ibn-abi-talib, leader], [uthman-ibn-affan, subject]]
+    tags: [prophetic, hijra, abyssinia, persecution, mecca, najashi]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Migration_to_Abyssinia"
+
+  - slug: battle-of-al-harra
+    category: battle
+    title_en: Battle of al-Ḥarra — Sack of Medina
+    title_ar: واقعة الحرة — استباحة المدينة
+    title_fr: Bataille d'al-Ḥarra — sac de Médine
+    description_en: |
+      Yazid ibn Muʿawiya, the Umayyad caliph, dispatched an army
+      under Muslim ibn ʿUqba al-Murri against Medina after its
+      population had withdrawn allegiance from him in the wake of
+      Karbala. The Madinans were defeated at the volcanic plain
+      east of the city (al-Ḥarra al-Sharqiyya), and Muslim ibn
+      ʿUqba's men were granted three days of license over the
+      city. Classical sources (al-Ṭabari, Ibn Kathir) record
+      grave excesses including the killing of an estimated seven
+      hundred Companions and tabiʿun, the desecration of the
+      Prophet's ﷺ Mosque, and the forced re-pledge of allegiance
+      to Yazid as if the Madinans were his slaves rather than his
+      free Muslim subjects. The Madinan general ʿAbdullah ibn
+      Ḥanẓala — son of the *Ghasil al-Malaʾika* (the Companion
+      whom angels washed at Uhud) — was killed leading the
+      defence. The event is one of the great catastrophes of the
+      Umayyad era; al-Bukhari narrates several hadiths bearing on
+      it under chapters of fitna.
+    description_ar: |
+      أرسل يزيد بن معاوية الخليفة الأموي جيشاً بقيادة مسلم بن عقبة
+      المرّي إلى المدينة المنورة بعد أن خلع أهلها بيعته في أعقاب
+      كارثة كربلاء. هزم أهل المدينة في الحرة الشرقية شرق المدينة،
+      فأباح مسلم بن عقبة جيشه ثلاثة أيام في المدينة. وتسجل المصادر
+      القديمة (الطبري وابن كثير) أهوالاً عظيمة منها قتل نحو سبع
+      مئة من الصحابة والتابعين، وانتهاك المسجد النبوي، وإكراه
+      أهل المدينة على البيعة ليزيد على أنهم عبيد وليسوا مسلمين
+      أحراراً. وقتل قائد المدينة عبد الله بن حنظلة — ابن «غسيل
+      الملائكة» يوم أحد — وهو يقود الدفاع. وهذه الواقعة من أعظم
+      مصائب الأمة في عصر بني أمية، ويروي البخاري في صحيحه أحاديث
+      تتعلق بها في أبواب الفتن.
+    description_fr: |
+      Yazīd ibn Muʿāwiya, le calife omeyyade, dépêcha une armée
+      sous Muslim ibn ʿUqba al-Murrī contre Médine après que sa
+      population eut retiré son allégeance dans le sillage de
+      Kerbala. Les Médinois furent défaits sur la plaine volcanique
+      à l'est de la ville (al-Ḥarra al-Sharqiyya), et les hommes
+      de Muslim ibn ʿUqba reçurent trois jours de licence sur la
+      ville. Les sources classiques (al-Ṭabarī, Ibn Kathīr)
+      consignent de graves excès, dont le meurtre d'environ
+      sept cents Compagnons et *tābiʿūn*, la profanation de la
+      Mosquée du Prophète ﷺ, et le serment d'allégeance forcé à
+      Yazīd comme si les Médinois étaient ses esclaves plutôt que
+      ses sujets musulmans libres. Le général médinois ʿAbdallāh
+      ibn Ḥanẓala — fils du *Ghasīl al-Malāʾika* (le Compagnon
+      que les anges lavèrent à Uḥud) — fut tué en menant la
+      défense. L'événement est l'une des grandes catastrophes de
+      l'ère omeyyade; al-Bukhārī rapporte plusieurs hadiths qui
+      s'y rapportent dans les chapitres de *fitna*.
+    canonical_hijri: {year: 63, month: 12, day: 28, precision: day}
+    canonical_gregorian: {date: 683-08-26, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[yazid-ibn-muawiya, subject]]
+    tags: [umayyad, fitna, medina, harra, yazid, sahaba]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_al-Harrah"
+
+  - slug: muslim-conquest-of-cyprus
+    category: conquest
+    title_en: Muslim Conquest of Cyprus — first Muslim naval expedition
+    title_ar: فتح قبرص — أول حملة بحرية إسلامية
+    title_fr: Conquête musulmane de Chypre — première expédition navale musulmane
+    description_en: |
+      The first Muslim naval expedition departed from the Levantine
+      coast under the command of Muʿawiya ibn Abi Sufyan, governor
+      of Syria, with ʿUbada ibn al-Ṣamit ra and his wife Umm
+      Ḥaram bint Milḥan ra (the Companion whose dream of becoming
+      "the first soldier of the sea" had been blessed by the
+      Prophet ﷺ in a famous hadith of Bukhari). The expedition
+      crossed to Cyprus, defeated the local Byzantine garrison,
+      and imposed an annual tribute on the island, beginning a
+      pattern of Levantine maritime power that would shape
+      Mediterranean naval politics for centuries. Umm Ḥaram fell
+      from her mount and died on the island; her tomb at Hala
+      Sultan Tekke near Larnaca remains the only surviving Muslim
+      shrine of a sahabia outside the central Islamic lands. The
+      campaign was the first of three Cypriot expeditions in the
+      same decade.
+    description_ar: |
+      انطلقت أول حملة بحرية إسلامية من سواحل الشام بقيادة معاوية بن
+      أبي سفيان والي الشام، ومعه عبادة بن الصامت رضي الله عنه
+      وزوجه أم حرام بنت ملحان رضي الله عنها — وهي الصحابية التي
+      سمى لها النبي ﷺ في حلمها أن تكون «من أول من يركب البحر»
+      كما في حديث البخاري المتفق على صحته. وعبرت الحملة إلى قبرص
+      فهزمت الحامية الرومية فيها، وفرضت عليها جزية سنوية، فأطلقت
+      عصراً من القوة البحرية الشامية الذي صاغ سياسات بحر المتوسط
+      البحرية قروناً. وسقطت أم حرام رضي الله عنها عن دابتها فماتت
+      في قبرص، وما زال قبرها في «هلا سلطان تكية» قرب لارناكا
+      المزار الوحيد الباقي لصحابية خارج البلاد الإسلامية الأصلية.
+      وكانت تلك أولى ثلاث حملات على قبرص في العقد نفسه.
+    description_fr: |
+      La première expédition navale musulmane partit des côtes
+      levantines sous le commandement de Muʿāwiya ibn Abī Sufyān,
+      gouverneur de Syrie, avec ʿUbāda ibn al-Ṣāmit ra et son
+      épouse Umm Ḥarām bint Milḥān ra (la Compagne dont le rêve
+      de devenir « le premier soldat de la mer » avait été béni
+      par le Prophète ﷺ dans un hadith célèbre de Bukhārī).
+      L'expédition traversa vers Chypre, défit la garnison
+      byzantine locale et imposa un tribut annuel à l'île,
+      entamant un schéma de puissance maritime levantine qui
+      façonnerait la politique navale méditerranéenne pendant
+      des siècles. Umm Ḥarām tomba de sa monture et mourut sur
+      l'île; sa tombe à Hala Sultan Tekke près de Larnaca demeure
+      le seul sanctuaire musulman survivant d'une *ṣaḥābiyya* en
+      dehors des terres islamiques centrales. La campagne fut la
+      première de trois expéditions chypriotes dans la même
+      décennie.
+    canonical_hijri: {year: 28, precision: year}
+    canonical_gregorian: {date: 649-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 2877"
+    people: [[muawiya-ibn-abi-sufyan, leader], [uthman-ibn-affan, subject]]
+    tags: [rashidun, naval, byzantium, cyprus, mediterranean, umm-haram]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muslim_conquest_of_Cyprus"
+
+  - slug: death-of-yazid-ibn-muawiya
+    category: caliph
+    title_en: Death of Yazid ibn Muʿawiya
+    title_ar: وفاة يزيد بن معاوية
+    title_fr: Mort de Yazīd ibn Muʿāwiya
+    description_en: |
+      Yazid ibn Muʿawiya — second Umayyad caliph (reigned 60-64
+      AH), whose three-year reign produced the three foundational
+      catastrophes of the second Islamic generation: the killing
+      of al-Ḥusayn ibn ʿAli ra at Karbala (61 AH), the sack of
+      Medina at al-Ḥarra (63 AH), and the catapulting of the
+      Sacred Mosque at the first siege of Mecca (64 AH) — died at
+      Ḥuwwarin in Syria of unknown cause at age 38, two months
+      before the Mecca siege ended. Classical Sunni assessment of
+      him is uniformly severe. Imam Aḥmad ibn Ḥanbal explicitly
+      withheld blessing for him; al-Ghazali in *Iḥyaʾ ʿUlum
+      al-Din* permitted naming him as a transgressor but reserved
+      direct cursing. al-Tabari and Ibn Kathir record his
+      catastrophic record neutrally, leaving the moral assessment
+      to the reader. His son Muʿawiya II succeeded him for forty
+      days before dying without an heir, ending the Sufyanid line.
+    description_ar: |
+      توفي يزيد بن معاوية — ثاني خلفاء بني أمية (حكم من ٦٠ إلى ٦٤
+      هـ)، الذي شهد عهده القصير ثلاث سنوات الكوارث الثلاث الكبرى
+      للجيل الإسلامي الثاني: مقتل الحسين بن علي رضي الله عنه
+      بكربلاء (٦١ هـ)، وواقعة الحرة استباحة المدينة (٦٣ هـ)، ورمي
+      المسجد الحرام بالمنجنيق في الحصار الأول لمكة (٦٤ هـ) — في
+      «حوارين» بالشام بسبب غير معروف عن ثمانٍ وثلاثين سنة، قبل
+      انتهاء حصار مكة بشهرين. وحكم أهل السنة عليه شديد. فالإمام
+      أحمد بن حنبل امتنع عن الترضي عليه، والغزالي في «الإحياء»
+      أجاز تسميته بالفاسق وامتنع عن لعنه عيناً. وأورد الطبري وابن
+      كثير سجله الكارثي بحياد، تاركين الحكم الأخلاقي للقارئ. وخلفه
+      ابنه معاوية الثاني أربعين يوماً ثم مات دون عقب، فانطفأ خط
+      السفيانيين.
+    description_fr: |
+      Yazīd ibn Muʿāwiya — deuxième calife omeyyade (règne 60-64
+      H), dont le règne de trois ans produisit les trois
+      catastrophes fondatrices de la seconde génération islamique :
+      le meurtre d'al-Ḥusayn ibn ʿAlī ra à Kerbala (61 H), le sac
+      de Médine à al-Ḥarra (63 H), et la catapultation de la
+      Mosquée Sacrée lors du premier siège de La Mecque (64 H) —
+      mourut à Ḥuwwārīn en Syrie de cause inconnue à l'âge de
+      38 ans, deux mois avant la fin du siège de La Mecque. Le
+      jugement sunnite classique sur lui est uniformément sévère.
+      L'imam Aḥmad ibn Ḥanbal s'abstint explicitement de
+      bénédiction sur lui; al-Ghazālī dans l'*Iḥyāʾ ʿUlūm al-Dīn*
+      permit de le nommer transgresseur mais s'abstint de
+      malédiction directe. al-Ṭabarī et Ibn Kathīr consignent
+      son bilan catastrophique avec neutralité, laissant le
+      jugement moral au lecteur. Son fils Muʿāwiya II lui succéda
+      pendant quarante jours avant de mourir sans héritier,
+      éteignant la lignée sufyanide.
+    canonical_hijri: {year: 64, month: 3, day: 14, precision: day}
+    canonical_gregorian: {date: 683-11-11, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+      - source_key: suyuti_tarikh_khulafa
+    people: [[yazid-ibn-muawiya, subject]]
+    tags: [umayyad, caliph, fitna, karbala, harra, syria]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yazid_I"

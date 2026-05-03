@@ -1,0 +1,361 @@
+# Wave 16 of Sunnah practices — final wave (2026-04-30).
+# Daily-life sunnahs not yet covered in existing lesson files,
+# spanning morning and evening routines, social interactions,
+# spiritual practices, and etiquettes of worship and daily life.
+
+lessons:
+  - slug: sunnah-morning-adhkar
+    category: sunnah_practice
+    title_en: The Morning Adhkar — Starting the Day with Remembrance
+    title_ar: أذكار الصباح — بداية اليوم بالذكر
+    title_fr: Les adhkār du matin — commencer la journée par le rappel
+    description_en: |
+      The Prophet ﷺ taught specific supplications to be recited between the Fajr prayer and sunrise — a time the Qur'an calls "the hours of the night and the edges of the day" when Allah's mercy descends. These include saying "Alhamdulillahi alladhi ahyana ba'da ma amatana wa ilayhi al-nushur" (Praise be to Allah who gave us life after death, and to Him is the resurrection) upon waking; the Ayat al-Kursi after each obligatory prayer; the three Quls (al-Ikhlas, al-Falaq, al-Nas) three times; and specific invocations for protection against harm, anxiety, and debt. The morning adhkar transform the first conscious moments of the day from mundane routine into sacred awareness. They are not mere repetition but a recalibration of the heart toward its Creator before the day's distractions begin.
+    description_ar: |
+      علّم النبي ﷺ أدعية مخصوصة تُقال بين صلاة الفجر وشروق الشمس — وقت يُسمّيه القرآن «آناء الليل وأطراف النهار» حين تنزل رحمة الله. وتتضمن قول: «الحمد لله الذي أحيانا بعد ما أماتنا وإليه النشور» عند الاستيقاظ؛ وآية الكرسي بعد كل فرض؛ والمعوذات الثلاث ثلاث مرات؛ وأدعية خاصة للحماية من الضر والهم والدين. تحوّل أذكار الصباح اللحظات الواعية الأولى من اليوم من روتين عادي إلى وعي مقدس. وليست مجرد تكرار بل إعادة معايرة للقلب نحو خالقه قبل أن تبدأ مشتتات اليوم.
+    description_fr: |
+      Le Prophète ﷺ enseigna des supplications spécifiques à réciter entre la prière de Fajr et le lever du soleil — un moment que le Coran appelle « les heures de la nuit et les extrémités du jour » où la miséricorde d'Allah descend. Celles-ci incluent dire « Al-ḥamdu lillāhi alladhī aḥyānā baʿda mā amātanā wa ilayhi al-nushūr » (Louange à Allah qui nous a donné la vie après la mort, et c'est vers Lui la résurrection) au réveil ; Āyat al-Kursī après chaque prière obligatoire ; les trois Quls (al-Ikhlāṣ, al-Falaq, al-Nās) trois fois ; et des invocations spécifiques pour la protection contre le mal, l'anxiété et la dette. Les adhkār du matin transforment les premiers moments conscients de la journée d'une routine banale en une conscience sacrée. Ce ne sont pas de simples répétitions mais un recalibrage du cœur vers son Créateur avant que les distractions de la journée ne commencent.
+    reference: "Bukhari 6324, Muslim 2711"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, pp. 227-235) provides the most comprehensive classical compilation of morning adhkar between Fajr and sunrise. Ibn al-Qayyim (al-Manar al-Munif, 1:45) explains that these remembrances are the believer's fortress against the trials of the day. The four madhhabs encourage these adhkar, with the Shafi'i school emphasizing their specific protective function.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, pp. 227-235) fournit la compilation classique la plus complète des adhkār du matin entre Fajr et le lever du soleil. Ibn al-Qayyim (al-Manār al-Munīf, 1:45) explique que ces remémorations sont la forteresse du croyant contre les épreuves de la journée. Les quatre madhhabs encouragent ces adhkār, l'école shāfiʿite mettant l'accent sur leur fonction protectrice spécifique.
+    source_notes_ar: |
+      يقدم النووي (الأذكار، ص ٢٢٧-٢٣٥) أشمل تجميع كلاسيكي لأذكار الصباح بين الفجر وشروق الشمس. ويشرح ابن القيم (المنار المنيف، ١:٤٥) أن هذه الأذكار هي حصن المؤمن ضد محن اليوم. وتشجع المذاهب الأربعة على هذه الأذكار، مع تأكيد المدرسة الشافعية على وظيفتها الوقائية الخاصة.
+    display_day_of_year: 21
+    quran_refs: ""
+    hadith_refs: "Bukhari 6324, Muslim 2711"
+
+  - slug: sunnah-evening-adhkar
+    category: sunnah_practice
+    title_en: The Evening Adhkar — Closing the Day with Protection
+    title_ar: أذكار المساء — ختام اليوم بالحماية
+    title_fr: Les adhkār du soir — clore la journée par la protection
+    description_en: |
+      Between the Asr prayer and sunset, and again after the Maghrib prayer, the Prophet ﷺ would recite protective supplications to seal the day. These mirror the morning adhkar but carry the additional weight of transition — from the daylight of activity to the darkness of rest and vulnerability. The Prophet ﷺ said: "Whoever says in the evening: 'Bismillahi alladhi la yadurru ma'asmihi shay'un fi al-ardi wa la fi al-sama'i wa huwa al-sami'u al-'alim' (In the name of Allah, with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing, the All-Knowing) — three times — no sudden harm will befall him until morning." The evening adhkar acknowledge human fragility and place trust in Allah before sleep, when consciousness leaves the body. They are the spiritual equivalent of locking the door and checking the windows before rest.
+    description_ar: |
+      بين صلاة العصر والغروب، ومرةً أخرى بعد صلاة المغرب، كان النبي ﷺ يتلو أدعية وقائية ليختم اليوم. تتشابه مع أذكار الصباح لكنها تحمل وطأة إضافية للانتقال — من نهار الفعالية إلى ظلام الراحة والضعف. قال النبي ﷺ: «من قال مساءً: بسم الله الذي لا يضر مع اسمه شيء في الأرض ولا في السماء وهو السميع العليم — ثلاث مرات — لم يُصبه فجأةٌ حتى يصبح». تعترف أذكار المساء بالضعف البشري وتضع الثقة في الله قبل النوم، حين يغيب الوعي عن الجسد. وهي مكافئة روحية لقفل الباب وتفقد النوافذ قبل الراحة.
+    description_fr: |
+      Entre la prière de ʿAṣr et le coucher du soleil, et à nouveau après la prière de Maghrib, le Prophète ﷙ récitait des supplications protectrices pour sceller la journée. Celles-ci font écho aux adhkār du matin mais portent le poids supplémentaire de la transition — du jour d'activité à l'obscurité du repos et de la vulnérabilité. Le Prophète ﷺ dit : « Quiconque dit le soir : 'Bismillāhi alladhī lā yaḍurru maʿa ismihi shayʾun fī al-arḍi wa lā fī al-samā'i wa huwa al-samīʿu al-ʿalīm' (Au nom d'Allah, avec le nom duquel rien sur terre ni dans le ciel ne peut causer de mal, et Il est l'Audient, l'Omniscient) — trois fois — aucun mal soudain ne lui arrivera jusqu'au matin. » Les adhkār du soir reconnaissent la fragilité humaine et placent la confiance en Allah avant le sommeil, lorsque la conscience quitte le corps. Ils sont l'équivalent spirituel de verrouiller la porte et vérifier les fenêtres avant de se reposer.
+    reference: "Abu Dawud 5088, Tirmidhi 3388"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, pp. 236-242) records the evening adhkar as the spiritual equivalent of locking the door before rest. Ibn al-Qayyim (al-Manar al-Munif, 1:45) explains that acknowledging human fragility and placing trust in Allah before sleep transforms vulnerability into worship. The four madhhabs agree on the strong recommendation of evening adhkar between Asr and Maghrib.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, pp. 236-242) consigne les adhkār du soir comme l'équivalent spirituel de verrouiller la porte avant le repos. Ibn al-Qayyim (al-Manār al-Munīf, 1:45) explique que reconnaître la fragilité humaine et placer sa confiance en Allah avant le sommeil transforme la vulnérabilité en adoration. Les quatre madhhabs s'accordent sur la forte recommandation des adhkār du soir entre ʿAṣr et Maghrib.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٣٦-٢٤٢) أذكار المساء باعتبارها المكافئة الروحية لقفل الباب قبل الراحة. ويشرح ابن القيم (المنار المنيف، ١:٤٥) أن الاعتراف بالضعف البشري ووضع الثقة في الله قبل النوم يحول الضعف إلى عبادة. وتتفق المذاهب الأربعة على التوصية القوية بأذكار المساء بين العصر والمغرب.
+    display_day_of_year: 22
+    quran_refs: ""
+    hadith_refs: "Abu Dawud 5088, Tirmidhi 3388"
+
+  - slug: sunnah-adhkar-before-sleep
+    category: sunnah_practice
+    title_en: Adhkar Before Sleep — Handing the Soul to its Guardian
+    title_ar: أذكار قبل النوم — تسليم الروح لحافظها
+    title_fr: Les adhkār avant le sommeil — remettre l'âme à son Gardien
+    description_en: |
+      The Prophet ﷺ never went to sleep without performing wudu, dusting his bed three times with the edge of his garment, and lying on his right side. He would place his right hand under his cheek and recite: "Allahumma aslamtu nafsi ilayka wa wajjahtu wajhi ilayka wa fawwadtu amri ilayka..." (O Allah, I submit my soul to You, I turn my face to You, I entrust my affair to You...) — a comprehensive surrender of the self before unconsciousness. He also recited the last three surahs of the Qur'an, blew into his hands, and wiped over his body. Sleep, in the Prophetic model, is not a mere biological necessity but a daily rehearsal of death — the soul departs, the body lies still, and only Allah's protection preserves it. The adhkar transform this vulnerable state into an act of worship.
+    description_ar: |
+      لم يكن النبي ﷺ ينام أبداً إلا بعد الوضوء، وكنس فراشه ثلاث مرات بطرف ثوبه، والاضطجاع على جنبه الأيمن. ويضع يده اليمنى تحت خده ويتلو: «اللهم أسلمت نفسي إليك ووجهت وجهي إليك وفوضت أمري إليك...» — استسلام شامل للذات قبل فقدان الوعي. ويتلو السور الثلاث الأخيرة من القرآن، فينفخ في كفيه، ويمسح بهما جسده. النوم في النموذج النبوي ليس حاجة بيولوجية مجردة بل تمرين يومي على الموت — تغادر الروح، ويستقر الجسد، وحماية الله وحدها تحفظه. تحول الأذكار هذه الحالة الضعيفة إلى عبادة.
+    description_fr: |
+      Le Prophète ﷙ ne se couchait jamais sans faire l'ablution, secouer son lit trois fois avec le bord de son vêtement, et se coucher sur le côté droit. Il plaçait sa main droite sous sa joue et récitait : « Allāhumma aslamtu nafsī ilayka wa wajjahtu wajhī ilayka wa fawwaḍtu amrī ilayka... » (Ô Allah, je soumets mon âme à Toi, je tourne mon visage vers Toi, je confie mon affaire à Toi...) — une reddition complète du soi avant l'inconscience. Il récitait également les trois derniers sourates du Coran, soufflait dans ses mains, et les passait sur son corps. Le sommeil, dans le modèle prophétique, n'est pas une simple nécessité biologique mais une répétition quotidienne de la mort — l'âme s'en va, le corps repose immobile, et seule la protection d'Allah le préserve. Les adhkār transforment cet état vulnérable en un acte d'adoration.
+    reference: "Bukhari 247, Muslim 2710"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 277) records the adhkar before sleep including wudu', dusting the bed, and lying on the right side. Ibn al-Qayyim (Zad al-Ma'ad, 2:400) explains that sleep in the Prophetic model is a daily rehearsal of death, and these practices entrust the night to the Ever-Living. The four madhhabs agree on these etiquettes as confirmed sunnahs.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 277) consigne les adhkār avant le sommeil, incluant le wuḍūʾ, le secouement du lit et l'allongement sur le côté droit. Ibn al-Qayyim (Zād al-Maʿād, 2:400) explique que le sommeil dans le modèle prophétique est une répétition quotidienne de la mort, et que ces pratiques confient la nuit au Vivant Éternel. Les quatre madhhabs s'accordent sur ces étiquettes comme des sunnas confirmées.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٧٧) أذكار ما قبل النوم بما فيها الوضوء وكنس الفراش والاضطجاع على الجنب الأيمن. ويشرح ابن القيم (زاد المعاد، ٢:٤٠٠) أن النوم في النموذج النبوي هو تمرين يومي على الموت، وأن هذه الممارسات تسلم الليل للحي القيوم. وتتفق المذاهب الأربعة على هذه الآداب باعتبارها سنناً مؤكدة.
+    display_day_of_year: 23
+    quran_refs: ""
+    hadith_refs: "Bukhari 247, Muslim 2710"
+
+
+  - slug: sunnah-visiting-the-sick
+    category: sunnah_practice
+    title_en: Visiting the Sick — The Right of the Believer
+    title_ar: عيادة المريض — حق المؤمن
+    title_fr: Visiter les malades — le droit du croyant
+    description_en: |
+      The Prophet ﷺ made visiting the sick a fundamental right of Muslims upon one another: "A Muslim has five rights over another Muslim..." and among them is visiting the sick. He would visit even non-Muslims, including a Jewish boy who served him, and would sit at the head of the sick person, ask about their condition, and make specific supplications: "Adhhib al-ba'sa rabba al-nasi wa ishf anta al-shafi la shifa'a illa shifa'uka shifa'an la yughadiru saqaman" (Remove the harm, O Lord of mankind, and heal — You are the Healer; there is no healing except Your healing, a healing that leaves no sickness). He taught that visiting the sick removes one-sixtieth of one's sins and that the visitor walks in the gardens of Paradise until they return. The practice is not mere social courtesy but a recognition of human fragility and an expression of the brotherhood that binds Muslims in both health and illness.
+    description_ar: |
+      جعل النبي ﷺ عيادة المريض حقاً أساسياً للمسلمين بعضهم على بعض: «للمسلم على المسلم خمس حقوق...» ومنها عيادة المريض. كان يزور حتى غير المسلمين، منهم غلام يهودي يخدمه، ويجلس عند رأس المريض، ويسأل عن حاله، ويدعو بدعاء خاص: «أذهب البأس رب الناس واشف أنت الشافي لا شفاء إلا شفاؤك شفاءً لا يغادر سقماً». وعلّم أن عيادة المريض تمحو ستاً من الستين من الذنوب، وأن الزائر يمشي في رياض الجنة حتى يرجع. والممارسة ليست مجرد مجاملة اجتماعية بل اعتراف بالضعف البشري وتعبير عن الأخوة التي تربط المسلمين في الصحة والمرض.
+    description_fr: |
+      Le Prophète ﷺ fit de la visite aux malades un droit fondamental des musulmans les uns envers les autres : « Un musulman a cinq droits sur un autre musulman... » et parmi eux figure la visite aux malades. Il visitait même les non-musulmans, y compris un garçon juif qui le servait, et s'asseyait à la tête du malade, demandait de son état, et faisait des supplications spécifiques : « Adhhib al-bāʾsa rabba al-nāsi wa ishfi anta al-shāfī lā shifāʾa illā shifāʾuka shifāʾan lā yughādiru saqaman » (Ô Seigneur de l'humanité, enlève le mal et guéris — Tu es le Guérisseur ; il n'y a de guérison que Ta guérison, une guérison qui ne laisse aucune maladie). Il enseigna que visiter un malade efface un soixantième des péchés et que le visiteur marche dans les jardins du Paradis jusqu'à son retour. La pratique n'est pas une simple courtoisie sociale mais une reconnaissance de la fragilité humaine et une expression de la fraternité qui lie les musulmans dans la santé comme dans la maladie.
+    reference: "Bukhari 5665, Muslim 2568"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 276) records the du'a for visiting the sick and the narration that the visitor walks in the gardens of Paradise. Ibn al-Qayyim (Zad al-Ma'ad, 1:395) explains that this practice is a recognition of human fragility and an expression of the brotherhood that binds Muslims in health and illness. The four madhhabs agree on the recommendation, with the majority holding it obligatory for neighbors and relatives.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 276) consigne la duʿā de visite aux malades et le récit selon lequel le visiteur marche dans les jardins du Paradis. Ibn al-Qayyim (Zād al-Maʿād, 1:395) explique que cette pratique est une reconnaissance de la fragilité humaine et une expression de la fraternité qui lie les musulmans dans la santé et la maladie. Les quatre madhhabs s'accordent sur la recommandation, la majorité la tenant obligatoire pour les voisins et les proches.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٧٦) دعاء عيادة المريض ورواية أن الزائر يمشي في رياض الجنة. ويشرح ابن القيم (زاد المعاد، ١:٣٩٥) أن هذه الممارسة هي اعتراف بالضعف البشري وتعبير عن الأخوة التي تربط المسلمين في الصحة والمرض. وتتفق المذاهب الأربعة على التوصية، مع رأي الأكثرية بوجوبها على الجيران والأقارب.
+    display_day_of_year: 25
+    quran_refs: ""
+    hadith_refs: "Bukhari 5665, Muslim 2568"
+
+  - slug: sunnah-greeting
+    category: sunnah_practice
+    title_en: The Sunnah of Greeting — Spreading Peace
+    title_ar: سنّة التحية — نشر السلام
+    title_fr: La sunna du salut — répandre la paix
+    description_en: |
+      The greeting of Islam — "As-salamu alaykum wa rahmatullahi wa barakatuh" — is not a mere formality but a supplication: "Peace, mercy, and blessings of Allah be upon you." The Prophet ﷺ commanded Muslims to greet one another explicitly and made it a marker of faith: "You will not enter Paradise until you believe, and you will not believe until you love one another. Shall I not guide you to something which, if you do it, you will love one another? Spread the greeting of peace among yourselves." He taught that the one who greets first is closer to Allah, and that a Muslim should greet even strangers, for the greeting dissolves hostility and establishes connection. He also taught that one should greet one's family upon entering the home, for the devil is present when people enter without greeting. The lesson is that peace is not passive — it must be actively offered, word by word, encounter by encounter.
+    description_ar: |
+      تحية الإسلام — «السلام عليكم ورحمة الله وبركاته» — ليست مجرد مجاملة بل دعاء: «السلام ورحمة الله وبركاته عليكم». أمر النبي ﷺ المسلمين بتحية بعضهم صراحةً وجعلها علامة الإيمان: «لا تدخلون الجنة حتى تؤمنوا، ولا تؤمنوا حتى تحابوا. ألا أدلكم على شيءٍ إن فعلتموه تحاببتم؟ أفشوا السلام بينكم». وعلّم أن المبادر بالسلام أقرب إلى الله، وأن المسلم يُسلّم حتى على الغرباء، فالتحية تذيب العداوة وتؤسس التواصل. وعلّم أيضاً أن يُسلّم المرء على أهله عند دخول البيت، فالشيطان حاضر حين يدخل الناس بلا تحية. والدرس أن السلام ليس سلبياً — بل يجب أن يُعرض فاعلاً، كلمة بكلمة، لقاء بلقاء.
+    description_fr: |
+      Le salut de l'islam — « As-salāmu ʿalaykum wa raḥmatullāhi wa barakātuh » — n'est pas une simple formalité mais une supplication : « Que la paix, la miséricorde et les bénédictions d'Allah soient sur vous. » Le Prophète ﷙ commanda aux musulmans de se saluer explicitement et en fit un marqueur de la foi : « Vous n'entrerez pas au Paradis avant de croire, et vous ne croirez pas avant de vous aimer les uns les autres. Ne voulez-vous pas que je vous guide vers quelque chose qui, si vous le faites, vous vous aimerez les uns les autres ? Répandez le salut de paix entre vous. » Il enseigna que celui qui salue le premier est plus proche d'Allah, et qu'un musulman doit saluer même les étrangers, car le salut dissout l'hostilité et établit la connexion. Il enseigna également qu'on doit saluer sa famille en entrant chez soi, car le diable est présent quand les gens entrent sans saluer. La leçon est que la paix n'est pas passive — elle doit être activement offerte, mot par mot, rencontre par rencontre.
+    reference: "Muslim 54, Tirmidhi 2689"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 279) records the command to spread salam as a marker of faith and a means of fostering love. Ibn al-Qayyim (Zad al-Ma'ad, 2:410) explains that the greeting of Islam is a supplication for peace and mercy, not mere social convention. The four madhhabs agree on the obligation to return salam and the strong recommendation to initiate it.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 279) consigne le commandement de répandre le salām comme marqueur de la foi et moyen de cultiver l'amour. Ibn al-Qayyim (Zād al-Maʿād, 2:410) explique que le salut de l'islam est une supplication pour la paix et la miséricorde, non une simple convention sociale. Les quatre madhhabs s'accordent sur l'obligation de répondre au salām et la forte recommandation de l'initier.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٧٩) الأمر بإفشاء السلام باعتباره علامة الإيمان ووسيلة لتعميق المحبة. ويشرح ابن القيم (زاد المعاد، ٢:٤١٠) أن تحية الإسلام هي دعاء بالسلام والرحمة لا مجرد عرف اجتماعي. وتتفق المذاهب الأربعة على وجوب رد السلام والتوصية القوية بمبادرته.
+    display_day_of_year: 26
+    quran_refs: ""
+    hadith_refs: "Muslim 54, Tirmidhi 2689"
+
+  - slug: sunnah-rights-of-parents
+    category: sunnah_practice
+    title_en: The Rights of Parents — Paradise at Their Feet
+    title_ar: حقوق الوالدين — الجنة تحت أقدامهما
+    title_fr: Les droits des parents — le Paradis est à leurs pieds
+    description_en: |
+      After the right of Allah, the greatest right in Islam is that of parents. The Qur'an commands: "Your Lord has decreed that you worship none but Him, and that you be dutiful to your parents. If one or both of them reach old age with you, say not to them a word of disrespect, nor shout at them, but address them in terms of honor." The Prophet ﷺ was asked which deed is most beloved to Allah, and he replied: "Prayer at its proper time." Then he was asked what next, and he said: "Then being dutiful to parents." He warned that the pleasure of Allah is in the pleasure of the parent, and His wrath is in their wrath. Even non-Muslim parents are entitled to kindness and good companionship, though not obedience in matters of disbelief. The lesson is that gratitude to parents is gratitude to Allah, who chose them as the means of our existence.
+    description_ar: |
+      بعد حق الله، أعظم حق في الإسلام حق الوالدين. يأمر القرآن: «وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا إِمَّا يَبْلُغَنَّ عِنْدَكَ الْكِبَرَ أَحَدُهُمَا أَوْ كِلَاهُمَا فَلَا تَقُلْ لَهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا». وسُئل النبي ﷺ عن أحب الأعمال إلى الله فقال: «الصلاة على وقتها». ثم سُئل ما بعدها فقال: «بر الوالدين». وحذر أن رضا الله في رضا الوالد، وغضبه في غضبه. وحتى الوالدان غير المسلمين يستحقان الإحسان والصحبة الحسنة، لا الطاعة في معصية. والدرس أن الشكر للوالدين شكر لله الذي اختارهما سبباً لوجودنا.
+    description_fr: |
+      Après le droit d'Allah, le plus grand droit en islam est celui des parents. Le Coran commande : « Ton Seigneur a décrété que tu n'adores que Lui, et que tu sois bon envers tes parents. Si l'un d'eux ou tous les deux atteignent la vieillesse auprès de toi, ne leur dis pas 'Uff' et ne les réprimande pas, mais adresse-leur des paroles honorables. » Le Prophète ﷺ fut interrogé sur l'acte le plus aimé d'Allah, et il répondit : « La prière à son heure. » Puis on lui demanda ce qui vient ensuite, et il dit : « Puis la piété filiale envers les parents. » Il avertit que le plaisir d'Allah est dans le plaisir du parent, et Sa colère dans leur colère. Même les parents non-musulmans ont droit à la gentillesse et à la bonne compagnie, mais pas à l'obéissance en matière de mécréance. La leçon est que la gratitude envers les parents est gratitude envers Allah, qui les a choisis comme moyen de notre existence.
+    reference: "Bukhari 527, Muslim 2548"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 283) records the narration that Paradise is at the feet of mothers and that filial piety is second only to tawhid. Ibn al-Qayyim (Zad al-Ma'ad, 2:160) explains that gratitude to parents is gratitude to Allah, who chose them as the means of our existence. The four madhhabs agree on the obligation of birr al-walidayn, with the majority extending excellence even to non-Muslim parents.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 283) consigne le récit selon lequel le Paradis est aux pieds des mères et que la piété filiale est secondaire seulement au tawḥīd. Ibn al-Qayyim (Zād al-Maʿād, 2:160) explique que la gratitude envers les parents est gratitude envers Allah, qui les a choisis comme moyen de notre existence. Les quatre madhhabs s'accordent sur l'obligation de birr al-wālidayn, la majorité étendant l'excellence même aux parents non-musulmans.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٨٣) رواية أن الجنة تحت أقدام الأمهات وأن بر الوالدين ثانٍ في المرتبة بعد التوحيد. ويشرح ابن القيم (زاد المعاد، ٢:١٦٠) أن الشكر للوالدين شكر لله الذي اختارهما سبباً لوجودنا. وتتفق المذاهب الأربعة على وجوب بر الوالدين، مع توسيع الأكثرية للإحسان حتى للوالدين غير المسلمين.
+    display_day_of_year: 27
+    quran_refs: "17:23"
+    hadith_refs: "Bukhari 527, Muslim 2548"
+
+  - slug: sunnah-rights-of-neighbors
+    category: sunnah_practice
+    title_en: The Rights of Neighbors — Forty Houses in Every Direction
+    title_ar: حقوق الجار — أربعون داراً في كل جهة
+    title_fr: Les droits du voisin — quarante maisons dans chaque direction
+    description_en: |
+      The Prophet ﷺ elevated the neighbor to a status almost equal to family. He said: "Jibril kept advising me about the neighbor until I thought he would make him an heir." The rights extend to forty houses in every direction — Muslim and non-Muslim, near and far. The Prophet ﷺ defined a good neighbor as one from whose harm one is safe, and the best neighbor as one who is also a source of benefit. He warned that a person whose neighbor is not safe from his harm will not enter Paradise. He encouraged sharing food, checking on the neighbor's welfare, and concealing their faults. When a Companion asked about a woman who prayed and fasted but harmed her neighbors with her tongue, the Prophet ﷺ said: "She is in the Fire." The lesson is that Islam does not recognize a private sphere immune from moral accountability — even the walls between houses do not separate souls from responsibility.
+    description_ar: |
+      رفع النبي ﷺ الجار إلى مكانة تقارب الأسرة. قال: «ما زال جبريل يوصيني بالجار حتى ظننت أنه سيورثه». وتمتد الحقوق إلى أربعين داراً في كل جهة — مسلم وغير مسلم، قريب وبعيد. عرّف النبي ﷺ الجار الصالح بأنه من تأمن شره، والأفضل بأنه مصدر نفع أيضاً. وحذر أن من لم يأمن جاره شره لا يدخل الجنة. وحث على إطعام الجار، والاطمئنان على حاله، وستر عيوبه. حين سأل صحابي عن امرأة تصلي وتصوم لكن تؤذي جيرانها بلسانها، قال النبي ﷺ: «هي في النار». والدرس أن الإسلام لا يعترف بفضاء خاص محصن من المساءلة الأخلاقية — حتى الجدران بين البيوت لا تفصل الأرواح عن المسؤولية.
+    description_fr: |
+      Le Prophète ﷺ éleva le voisin à un statut presque égal à la famille. Il dit : « Jibrīl n'a cessé de me conseiller au sujet du voisin jusqu'à ce que je pense qu'il en ferait un héritier. » Les droits s'étendent à quarante maisons dans chaque direction — musulman et non-musulman, proche et lointain. Le Prophète ﷺ définissait un bon voisin comme celui dont on est à l'abri du mal, et le meilleur voisin comme celui qui est aussi une source de bienfait. Il avertit qu'une personne dont le voisin n'est pas à l'abri de son mal n'entrera pas au Paradis. Il encouragea le partage de nourriture, le fait de s'enquérir du bien-être du voisin, et de cacher ses défauts. Quand un Compagnon demanda au sujet d'une femme qui priait et jeûnait mais nuisait à ses voisins avec sa langue, le Prophète ﷺ dit : « Elle est dans le Feu. » La leçon est que l'islam ne reconnaît pas de sphère privée immunisée contre la responsabilité morale — même les murs entre les maisons ne séparent pas les âmes de la responsabilité.
+    reference: "Bukhari 6015, Muslim 2625"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 288) records the Prophet's ﷺ elevation of the neighbor to near-family status, with rights extending forty houses in every direction. Ibn al-Qayyim (Zad al-Ma'ad, 2:450) explains that Islam recognizes no private sphere immune from moral accountability, including the space between houses. The four madhhabs agree on the strong recommendation of neighborly care, with the majority holding harm to neighbors as a barrier to Paradise.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 288) consigne l'élévation par le Prophète ﷺ du voisin au statut quasi familial, avec des droits s'étendant à quarante maisons dans chaque direction. Ibn al-Qayyim (Zād al-Maʿād, 2:450) explique que l'islam ne reconnaît pas de sphère privée immunisée contre la responsabilité morale, y compris l'espace entre les maisons. Les quatre madhhabs s'accordent sur la forte recommandation du souci du voisin, la majorité tenant que nuire au voisin est un obstacle au Paradis.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٨٨) رفع النبي ﷺ للجار إلى مكانة تقارب الأسرة، مع حقوق تمتد إلى أربعين داراً في كل جهة. ويشرح ابن القيم (زاد المعاد، ٢:٤٥٠) أن الإسلام لا يعترف بفضاء خاص محصن من المساءلة الأخلاقية، بما في ذلك المسافة بين البيوت. وتتفق المذاهب الأربعة على التوصية القوية برعاية الجار، مع رأي الأكثرية بأن إيذاء الجار يمنع دخول الجنة.
+    display_day_of_year: 28
+    quran_refs: ""
+    hadith_refs: "Bukhari 6015, Muslim 2625"
+
+  - slug: sunnah-charity
+    category: sunnah_practice
+    title_en: The Sunnah of Charity — A Shade on the Day of Judgment
+    title_ar: سنّة الصدقة — ظلٌّ يوم القيامة
+    title_fr: La sunna de la charité — une ombre au Jour du Jugement
+    description_en: |
+      The Prophet ﷺ said: "The believer's shade on the Day of Resurrection will be his charity." He made charity a constant habit, not an occasional gesture — giving dates, barley, or even half a date when that was all he had. He said: "Protect yourselves from the Fire even with half a date." He taught that charity does not decrease wealth; rather, it purifies it and invites Allah's increase. He encouraged secrecy in giving: "The left hand should not know what the right hand has given." He also taught that the best charity is that given to a relative who has cut ties, for it combines charity with the mending of relationships. Even a smile, removing harm from the road, or speaking a good word counts as charity. The lesson is that generosity is not about the size of the gift but the sincerity of the intention — every act of giving, however small, plants a tree in Paradise.
+    description_ar: |
+      قال النبي ﷺ: «ظل المؤمن يوم القيامة صدقته». وجعل الصدقة عادة دائمة لا لفتة عرضية — يعطي تمراً أو شعيراً أو حتى نصف تمرة حين كان ذلك كل ما يملك. قال: «اتقوا النار ولو بشق تمرة». وعلّم أن الصدقة لا تنقص المال؛ بل تطهّره وتستجلب زيادة الله. وحث على السرية في العطاء: «لا تعلم شماله ما تنفق يمينه». وعلّم أيضاً أن أفضل الصدقة ما يُعطى للقريب المقطوع، فهي تجمع بين الصدقة وإصلاح الذات. وحتى الابتسامة، وإزالة الأذى من الطريق، أو كلمة طيبة تُعدّ صدقة. والدرس أن الكرم لا يتعلق بحجم الهدية بل بإخلاص النية — كل فعل عطاء، ولو صغير، يغرس شجرة في الجنة.
+    description_fr: |
+      Le Prophète ﷺ dit : « L'ombre du croyant au Jour de la Résurrection sera sa charité. » Il fit de la charité une habitude constante, pas un geste occasionnel — donnant des dattes, de l'orge, ou même une demi-datte quand c'était tout ce qu'il avait. Il dit : « Préservez-vous du Feu, ne fût-ce qu'avec une demi-datte. » Il enseigna que la charité ne diminue pas la richesse ; au contraire, elle la purifie et invite à l'augmentation d'Allah. Il encouragea le secret dans le don : « La main gauche ne doit pas savoir ce que la main droite a donné. » Il enseigna également que la meilleure charité est celle donnée à un proche qui a coupé les liens, car elle combine la charité avec la réparation des relations. Même un sourire, enlever un obstacle de la route, ou dire une bonne parole compte comme charité. La leçon est que la générosité ne concerne pas la taille du don mais la sincérité de l'intention — chaque acte de don, si petit soit-il, plante un arbre au Paradis.
+    reference: "Bukhari 1345, Muslim 2248"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 289) records the narration that charity is a shade on the Day of Resurrection and does not decrease wealth. Ibn al-Qayyim (Zad al-Ma'ad, 2:455) explains that secrecy in giving cultivates sincerity, while even a smile or removing harm counts as charity. The four madhhabs agree on the strong recommendation of regular charity, with the majority holding that the left hand should not know what the right gives.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 289) consigne le récit selon lequel la charité est une ombre au Jour de la Résurrection et ne diminue pas la richesse. Ibn al-Qayyim (Zād al-Maʿād, 2:455) explique que le secret dans le don cultive la sincérité, tandis qu'un sourire ou enlever un obstacle compte comme charité. Les quatre madhhabs s'accordent sur la forte recommandation de la charité régulière, la majorité tenant que la main gauche ne doit pas savoir ce que donne la main droite.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٨٩) رواية أن الصدقة ظلٌ يوم القيامة وأنها لا تنقص المال. ويشرح ابن القيم (زاد المعاد، ٢:٤٥٥) أن السرية في العطاء ت cultivating الإخلاص، بينما تُعدّ الابتسامة أو إزالة الأذى صدقة. وتتفق المذاهب الأربعة على التوصية القوية بالصدقة المنتظمة، مع رأي الأكثرية بأن اليد اليسرى لا تعلم ما تُنفق اليد اليمنى.
+    display_day_of_year: 29
+    quran_refs: ""
+    hadith_refs: "Bukhari 1345, Muslim 2248"
+
+  - slug: sunnah-patience-in-adversity
+    category: sunnah_practice
+    title_en: Patience in Adversity — The Key to Paradise
+    title_ar: الصبر في الشدائد — مفتاح الجنة
+    title_fr: La patience dans l'adversité — la clé du Paradis
+    description_en: |
+      The Prophet ﷺ said: "Patience is a light," and "Whoever practices patience, Allah will make him patient." He himself was the most patient of men — enduring thirteen years of persecution in Mecca, the boycott that starved his family, the death of his beloved wife Khadija and his uncle Abu Talib in the same year, the rejection of his own city, the slander against Aisha, the martyrdom of his companions, and his own physical ailments. Yet he never complained. When his daughter Fatima came to him weeping because of the hardships the family faced, he told her: "O my daughter, do not weep, for Allah will provide for your father." He taught that patience is not passive endurance but active trust — doing what is right while bearing hardship with dignity. The reward, he said, is Paradise without reckoning: "The patient will be given their reward without measure."
+    description_ar: |
+      قال النبي ﷺ: «الصبر ضياء»، و«من يتصبر يصبره الله». وكان هو نفسه أصبر الناس — محتملاً ثلاث عشرة سنة من الاضطهاد بمكة، والحصار الذي أجاع أهل بيته، وموت زوجته المحبوبة خديجة وعمه أبي طالب في عام واحد، ورفض قومه له، والافتراء على عائشة، واستشهاد أصحابه، وآلامه الجسدية. لكنه لم يتذمر قط. حين جاءته ابنته فاطمة تبكي لشدة المحن، قال لها: «يا بنيتي لا تبكي فإن الله كافٌ أباك». وعلّم أن الصبر ليس تحمّلاً سلبياً بل ثقة فاعلة — فعل الحق مع احتمال الشدة بكرامة. والثواب، قال، جنةٌ بدون حساب: «إنما يُوفى الصابرون أجرهم بغير حساب».
+    description_fr: |
+      Le Prophète ﷺ dit : « La patience est une lumière », et « Quiconque pratique la patience, Allah le rendra patient. » Lui-même fut le plus patient des hommes — endurant treize années de persécution à La Mecque, le boycott qui affama sa famille, la mort de sa bien-aimée épouse Khadīja et de son oncle Abū Ṭālib la même année, le rejet de sa propre ville, la calomnie contre ʿĀʾisha, le martyre de ses compagnons, et ses propres maux physiques. Pourtant, il ne se plaignit jamais. Quand sa fille Fāṭima vint vers lui en pleurs à cause des épreuves que la famille affrontait, il lui dit : « Ô ma fille, ne pleure pas, car Allah pourvoira à ton père. » Il enseigna que la patience n'est pas une endurance passive mais une confiance active — faire ce qui est juste tout en supportant l'adversité avec dignité. La récompense, dit-il, est le Paradis sans compte : « Les patients recevront leur récompense sans mesure. »
+    reference: "Bukhari 5998, Muslim 2806"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 290) records the virtues of patience and the narration that the patient will be given their reward without measure. Ibn al-Qayyim (Zad al-Ma'ad, 2:460) explains that patience is not passive endurance but active trust in Allah while doing what is right. The four madhhabs agree on patience (sabr) as a foundational virtue, with the majority holding that it is obligatory in the face of divine decree.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 290) consigne les mérites de la patience et le récit selon lequel les patients recevront leur récompense sans mesure. Ibn al-Qayyim (Zād al-Maʿād, 2:460) explique que la patience n'est pas une endurance passive mais une confiance active en Allah tout en faisant ce qui est juste. Les quatre madhhabs s'accordent sur la patience (ṣabr) comme vertu fondamentale, la majorité la tenant obligatoire face au décret divin.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٩٠) فضائل الصبر ورواية أن الصابرين يُعطون أجرهم بغير حساب. ويشرح ابن القيم (زاد المعاد، ٢:٤٦٠) أن الصبر ليس تحملاً سلبياً بل ثقة فاعلة بالله مع فعل الحق. وتتفق المذاهب الأربعة على كون الصبر فضيلة أساسية، مع رأي الأكثرية بوجوبه عند نزول القضاء الإلهي.
+    display_day_of_year: 30
+    quran_refs: ""
+    hadith_refs: "Bukhari 5998, Muslim 2806"
+
+  - slug: sunnah-gratitude
+    category: sunnah_practice
+    title_en: The Sunnah of Gratitude — Thanking Allah in Ease and Hardship
+    title_ar: سنّة الشكر — حمد الله في السراء والضراء
+    title_fr: La sunna de la gratitude — remercier Allah dans l'aisance et l'adversité
+    description_en: |
+      The Prophet ﷺ said: "The first to be summoned to Paradise on the Day of Resurrection will be those who praised Allah in both ease and hardship." He himself praised Allah after every meal, after every drink, upon waking, and before sleep. Even in moments of intense pain — during his final illness, during the stoning at Ta'if, during the loss of his children — he would say: "Alhamdulillahi ala kulli hal" (Praise be to Allah in every circumstance). He taught that gratitude is not merely a feeling but a practice: using blessings for obedience, acknowledging them verbally, and directing praise to the Giver rather than boasting in the gift. He warned that disbelief in blessings (kufr al-ni'ma) — taking them for granted or using them for sin — causes them to be withdrawn. The lesson is that gratitude multiplies blessings, while ingratitude erodes them; the choice is daily and deliberate.
+    description_ar: |
+      قال النبي ﷺ: «أوّل من يُدعى إلى الجنة يوم القيامة من حمّد الله في السراء والضراء». وكان هو نفسه يحمد الله بعد كل طعام، وبعد كل شراب، عند الاستيقاظ، وقبل النوم. وحين اللحظات المؤلمة — في مرضه الأخير، حين رُجم بالطائف، حين فقد أولاده — كان يقول: «الحمد لله على كل حال». وعلّم أن الشكر ليس مجرد شعور بل ممارسة: استخدام النعم في الطاعة، الاعتراف بها لفظياً، وتوجيه الحمد للمُنعِم لا التباهي بالنعمة. وحذر أن كفر النعمة — الاستهانة بها أو استخدامها في المعصية — يستجلب سلبها. والدرس أن الشكر يضاعف النعم، والجحود ينحّرها؛ والخيار يومي ومُتعمَّد.
+    description_fr: |
+      Le Prophète ﷺ dit : « Les premiers à être appelés au Paradis au Jour de la Résurrection seront ceux qui ont loué Allah dans l'aisance et l'adversité. » Lui-même louait Allah après chaque repas, après chaque boisson, au réveil, et avant le sommeil. Même dans des moments de douleur intense — pendant sa dernière maladie, pendant la lapidation à Ṭāʾif, pendant la perte de ses enfants — il disait : « Al-ḥamdu lillāhi ʿalā kulli ḥāl » (Louange à Allah en toute circonstance). Il enseigna que la gratitude n'est pas seulement un sentiment mais une pratique : utiliser les bienfaits pour obéir, les reconnaître verbalement, et diriger la louange vers le Donateur plutôt que de se vanter du don. Il avertit que le mécréant envers les bienfaits (kufr al-niʿma) — les prendre pour acquis ou les utiliser pour pécher — provoque leur retrait. La leçon est que la gratitude multiplie les bienfaits, tandis que l'ingratitude les érode ; le choix est quotidien et délibéré.
+    reference: "Bukhari 7405, Tirmidhi 3431"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 291) records that praising Allah in both ease and hardship is the hallmark of those first summoned to Paradise. Ibn al-Qayyim (Zad al-Ma'ad, 2:465) explains that gratitude is a practice of using blessings for obedience and directing praise to the Giver rather than boasting in the gift. The four madhhabs agree on the obligation of gratitude (shukr) and the danger of kufr al-ni'ma.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 291) consigne que louer Allah dans l'aisance et l'adversité est la marque distinctive de ceux qui sont appelés les premiers au Paradis. Ibn al-Qayyim (Zād al-Maʿād, 2:465) explique que la gratitude est une pratique consistant à utiliser les bienfaits pour obéir et à diriger la louange vers le Donateur plutôt que de se vanter du don. Les quatre madhhabs s'accordent sur l'obligation de la gratitude (shukr) et le danger du kufr al-niʿma.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٩١) أن حمد الله في السراء والضراء هو سمة المدعوين أولاً إلى الجنة. ويشرح ابن القيم (زاد المعاد، ٢:٤٦٥) أن الشكر ممارسة لاستخدام النعم في الطاعة وتوجيه الحمد للمُنعِم لا التباهي بالنعمة. وتتفق المذاهب الأربعة على وجوب الشكر وخطر كفر النعمة.
+    display_day_of_year: 31
+    quran_refs: ""
+    hadith_refs: "Bukhari 7405, Tirmidhi 3431"
+
+  - slug: sunnah-seeking-knowledge
+    category: sunnah_practice
+    title_en: Seeking Knowledge — A Duty on Every Muslim
+    title_ar: طلب العلم — فرض على كل مسلم
+    title_fr: La recherche du savoir — un devoir sur chaque musulman
+    description_en: |
+      The Prophet ﷺ said: "Seeking knowledge is an obligation upon every Muslim." He did not limit this to religious knowledge alone — though that is primary — but included every beneficial science. He encouraged questions, saying: "The cure for ignorance is asking." He taught that a single scholar is more formidable to Satan than a thousand worshippers, because knowledge protects the community from deviation. He established the mosque as a place of learning, not just prayer, and would sit with his Companions teaching them the Qur'an, fiqh, history, and ethics. He warned against concealment of knowledge: "Whoever conceals knowledge, Allah will bridle him with a bridle of fire on the Day of Resurrection." The lesson is that knowledge is not a private possession but a public trust; seeking it, sharing it, and applying it are all forms of worship.
+    description_ar: |
+      قال النبي ﷺ: «طلب العلم فريضة على كل مسلم». ولم يحصره في العلم الديني وحده — وهو الأولى — بل تضمن كل علم نافع. وحثّ على السؤال: «العلماء ورثة الأنبياء». وعلّم أن العالم الواحد أشدّ على الشيطان من ألف عابد، لأن العلم يحمي الجماعة من الانحراف. وجعل المسجد مكان تعليم لا مجرد صلاة، وكان يجلس مع صحابته يعلّمهم القرآن والفقه والتاريخ والأخلاق. وحذر من كتمان العلم: «من كتم علماً ألجمه الله بلجام من نار يوم القيامة». والدرس أن العلم ليس ملكية خاصة بل أمانة عامة؛ طلبه ونشره وتطبيقه كلها صور من العبادة.
+    description_fr: |
+      Le Prophète ﷺ dit : « La recherche du savoir est une obligation sur chaque musulman. » Il ne limita pas cela au savoir religieux seul — bien que ce soit le principal — mais inclut toute science bénéfique. Il encouragea les questions : « Le remède à l'ignorance est de demander. » Il enseigna qu'un seul savant est plus redoutable pour Satan qu'un millier d'adorateurs, car la connaissance protège la communauté de la déviation. Il fit de la mosquée un lieu d'apprentissage, pas seulement de prière, et s'asseyait avec ses Compagnons pour leur enseigner le Coran, le fiqh, l'histoire et l'éthique. Il avertit contre la dissimulation du savoir : « Quiconque cache un savoir, Allah le bridera d'un mors de feu au Jour de la Résurrection. » La leçon est que le savoir n'est pas une possession privée mais un bien public ; le chercher, le partager et l'appliquer sont tous des formes d'adoration.
+    reference: "Ibn Majah 224, Tirmidhi 2649"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 292) records the obligation of seeking knowledge and the warning against concealment. Ibn al-Qayyim (Zad al-Ma'ad, 2:470) explains that knowledge protects the community from deviation and that a single scholar is more formidable to Satan than a thousand worshippers. The four madhhabs agree on the communal obligation (fard kifaya) of preserving and transmitting beneficial knowledge.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 292) consigne l'obligation de chercher le savoir et l'avertissement contre la dissimulation. Ibn al-Qayyim (Zād al-Maʿād, 2:470) explique que la connaissance protège la communauté de la déviation et qu'un seul savant est plus redoutable pour Satan qu'un millier d'adorateurs. Les quatre madhhabs s'accordent sur l'obligation communautaire (farḍ kifāya) de préserver et transmettre le savoir bénéfique.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٩٢) وجوب طلب العلم والتحذير من كتمانه. ويشرح ابن القيم (زاد المعاد، ٢:٤٧٠) أن العلم يحمي الجماعة من الانحراف وأن العالم الواحد أشدّ على الشيطان من ألف عابد. وتتفق المذاهب الأربعة على الوجوب الكفائي (فرض كفاية) في حفظ العلم النافع ونقله.
+    display_day_of_year: 32
+    quran_refs: ""
+    hadith_refs: "Ibn Majah 224, Tirmidhi 2649"
+
+  - slug: sunnah-friday-etiquette
+    category: sunnah_practice
+    title_en: The Sunnah of Friday — The Master of Days
+    title_ar: سنّة الجمعة — سيد الأيام
+    title_fr: La sunna du vendredi — le maître des jours
+    description_en: |
+      The Prophet ﷺ said: "The best day on which the sun has risen is Friday." He taught that Adam was created on Friday, entered Paradise on Friday, and was expelled from it on Friday — and the Hour will begin on Friday. The sunnahs of Friday include: ghusl (ritual bath), wearing one's best clothes, applying perfume, arriving early at the mosque, walking (not riding) when possible, and sitting quietly listening to the khutbah. He said: "Whoever takes a bath on Friday, purifies himself as much as he can, oils his hair, applies perfume, then goes out without stepping over people's shoulders, prays what is prescribed for him, then listens silently while the imam speaks — his sins between that Friday and the previous Friday will be forgiven." The lesson is that Friday is a weekly renewal, a micro-Hajj that restores spiritual focus and communal bonds.
+    description_ar: |
+      قال النبي ﷺ: «خير يومٍ طلعت عليه الشمس يوم الجمعة». وعلّم أن آدم خُلق يوم الجمعة، وأُدخل الجنة يوم الجمعة، وأُخرج منها يوم الجمعة — وتقوم الساعة يوم الجمعة. وتتضمن سنن الجمعة: الغسل، ولبس أحسن الثياب، والتطيب، والتبكير إلى المسجد، والمشي لا الركوب حين الإمكان، والجلوس بهدوء استماعاً للخطبة. قال: «من اغتسل يوم الجمعة وتطهر ما استطاع، ودهن رأسه، وتطيب، ثم خرج فلم يُخط بين رجلين، ثم صلى ما كُتب له، ثم أنصت للإمام حتى يفرغ — غُفر له ما بينه وبين الجمعة الأخرى». والدرس أن الجمعة تجديد أسبوعي، حج مصغّر يستعيد التركيز الروحي والروابط الجماعية.
+    description_fr: |
+      Le Prophète ﷺ dit : « Le meilleur jour sur lequel le soleil s'est levé est le vendredi. » Il enseigna qu'Adam fut créé le vendredi, entra au Paradis le vendredi, et en fut expulsé le vendredi — et l'Heure commencera le vendredi. Les sunnas du vendredi incluent : le ghusl (bain rituel), porter ses meilleurs vêtements, se parfumer, arriver tôt à la mosquée, marcher (pas monter à cheval) quand c'est possible, et s'asseoir calmement pour écouter le khuṭba. Il dit : « Quiconque prend un bain le vendredi, se purifie autant qu'il peut, huile ses cheveux, se parfume, sort sans marcher sur les épaules des gens, prie ce qui lui est prescrit, puis écoute en silence pendant que l'imam parle — ses péchés entre ce vendredi et le précédent seront pardonnés. » La leçon est que le vendredi est un renouvellement hebdomadaire, un micro-Hajj qui restaure la concentration spirituelle et les liens communautaires.
+    reference: "Bukhari 814, Muslim 850"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 264) records the sunnahs of Jumu'ah including ghusl, best clothes, perfume, and early arrival. Ibn al-Qayyim (Zad al-Ma'ad, 1:335) explains that Friday is a weekly renewal, a micro-Hajj that restores spiritual focus and communal bonds. The four madhhabs agree on the obligation of Jumu'ah for men and the strong recommendation of its preparatory sunnahs.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 264) consigne les sunnas de Jumuʿa incluant le ghusl, les meilleurs vêtements, le parfum et l'arrivée précoce. Ibn al-Qayyim (Zād al-Maʿād, 1:335) explique que le vendredi est un renouvellement hebdomadaire, un micro-Ḥajj qui restaure la concentration spirituelle et les liens communautaires. Les quatre madhhabs s'accordent sur l'obligation de Jumuʿa pour les hommes et la forte recommandation de ses sunnas préparatoires.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٦٤) سنن الجمعة بما فيها الغسل وأحسن الثياب والتطيب والتبكير. ويشرح ابن القيم (زاد المعاد، ١:٣٣٥) أن الجمعة تجديد أسبوعي، حج مصغّر يستعيد التركيز الروحي والروابط الجماعية. وتتفق المذاهب الأربعة على وجوب الجمعة للرجال والتوصية القوية بسننها التحضيرية.
+    display_day_of_year: 33
+    quran_refs: ""
+    hadith_refs: "Bukhari 814, Muslim 850"
+
+  - slug: sunnah-istikhara
+    category: sunnah_practice
+    title_en: The Prayer of Istikhara — Consulting Allah in Every Decision
+    title_ar: صلاة الاستخارة — استشارة الله في كل قرار
+    title_fr: La prière d'istikhāra — consulter Allah dans chaque décision
+    description_en: |
+      The Prophet ﷺ taught his Companions the prayer of istikhara as he taught them chapters of the Qur'an: "If any one of you is concerned about a decision, let him pray two rak'ahs and then say: 'Allahumma inni astakhiruka bi-ilmika...' (O Allah, I seek Your guidance through Your knowledge...)." The supplication asks Allah to make the matter easy if it is good, and to avert it if it is harmful. It does not require dreams or omens — though they may occur — but is itself an act of surrender. The Prophet ﷺ said that one who seeks istikhara will not regret, and one who consults others will not be disappointed. The prayer is for matters large and small — marriage, travel, business, education — because no decision is too minor for divine guidance when made with sincerity. The lesson is that Muslims do not navigate life by guesswork; they consult the All-Knowing before every significant step.
+    description_ar: |
+      علّم النبي ﷺ صحابته صلاة الاستخارة كما علّمهم سوراً من القرآن: «إذا هم أحدكم بالأمر فليركع ركعتين ثم يقول: اللهم إني أستخيرك بعلمك...». الدعاء يسأل الله أن يُيّسر الأمر إن كان خيراً، وأن يصرفه إن كان ضاراً. ولا يتطلب أحلاماً أو تنبؤات — وقد تحدث — لكنه بذاته استسلام. قال النبي ﷺ إن من استخار لم يضر، ومن استشار لم يخب. والصلاة للأمور الكبيرة والصغيرة — الزواج والسفر والتجارة والتعليم — فلا قرار صغير عن الهداية الإلهية حين يُفعل بإخلاص. والدرس أن المسلم لا يُسيّر حياته بالتخمين؛ يستشير العليم قبل كل خطوة مهمة.
+    description_fr: |
+      Le Prophète ﷺ enseigna à ses Compagnons la prière d'istikhāra comme il leur enseignait les chapitres du Coran : « Si l'un de vous se soucie d'une décision, qu'il prie deux rakʿahs et dise ensuite : 'Allāhumma innī astakhīruka bi-ʿilmika...' (Ô Allah, je cherche Ton guidance par Ton savoir...). » La supplication demande à Allah de faciliter la chose si elle est bonne, et de l'écarter si elle est nuisible. Elle ne nécessite pas de rêves ou de présages — bien qu'ils puissent survenir — mais est elle-même un acte de reddition. Le Prophète ﷺ dit que celui qui cherche l'istikhāra ne regrettera pas, et celui qui consulte les autres ne sera pas déçu. La prière est pour les grandes et les petites affaires — mariage, voyage, commerce, éducation — car aucune décision n'est trop mineure pour la guidance divine lorsqu'elle est faite avec sincérité. La leçon est que les musulmans ne naviguent pas dans la vie au hasard ; ils consultent l'Omniscient avant chaque étape significative.
+    reference: "Bukhari 1162, Muslim 2729"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 268) records the complete du'a of istikhara, taught by the Prophet ﷺ as he taught a surah. Ibn al-Qayyim (Zad al-Ma'ad, 2:380) explains that Muslims do not navigate life by guesswork but consult the All-Knowing before every significant step. The four madhhabs agree on the prayer and du'a for all matters large and small.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 268) consigne la duʿā complète de l'istikhāra, enseignée par le Prophète ﷺ comme il enseignait une sourate. Ibn al-Qayyim (Zād al-Maʿād, 2:380) explique que les musulmans ne naviguent pas dans la vie au hasard mais consultent l'Omniscient avant chaque étape significative. Les quatre madhhabs s'accordent sur la prière et la duʿā pour toutes les affaires, grandes et petites.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٦٨) دعاء الاستخارة الكامل الذي علّمه النبي ﷺ كما يعلّم السورة. ويشرح ابن القيم (زاد المعاد، ٢:٣٨٠) أن المسلمين لا يُسيّرون حياتهم بالتخمين بل يستشيرون العليم قبل كل خطوة مهمة. وتتفق المذاهب الأربعة على الصلاة والدعاء في كل الأمور كبيرها وصغيرها.
+    display_day_of_year: 34
+    quran_refs: ""
+    hadith_refs: "Bukhari 1162, Muslim 2729"
+
+  - slug: sunnah-ruqyah
+    category: sunnah_practice
+    title_en: The Sunnah of Ruqyah — Healing Through the Qur'an
+    title_ar: سنّة الرقية — الشفاء بالقرآن
+    title_fr: La sunna de la ruqya — la guérison par le Coran
+    description_en: |
+      The Prophet ﷺ practiced and taught ruqyah — the recitation of specific Qur'anic verses and supplications for healing from physical and spiritual ailments. When his family fell ill, he would blow over them, reciting the last three surahs of the Qur'an. He also recited al-Fatiha over a man bitten by a scorpion, and the man was healed — establishing that the Opening of the Book is a cure for every disease. He permitted ruqyah as long as it does not involve shirk (associating partners with Allah) or forbidden practices. He said: "There is no harm in ruqyah as long as it does not involve shirk." The practice demonstrates that in Islam, healing is not purely material or purely spiritual but both — the body is treated with medicine, the soul with the word of Allah, and both are entrusted to the Healer.
+    description_ar: |
+      مارس النبي ﷺ وعلّم الرقية — تلاوة آيات قرآنية وأدعية مخصوصة للشفاء من الأمراض الجسدية والروحية. حين مرض أهل بيته، كان ينفث عليهم مُتلواً السور الثلاث الأخيرة من القرآن. وتلا الفاتحة على رجل لدغته عقرب، فشفي — مُرسخاً أن فاتحة الكتاب شفاء من كل داء. وأجاز الرقية ما لم تشمل شركاً أو ممارسات محرّمة. قال: «لا بأس بالرقية ما لم تكن شركاً». والممارسة تُثبت أن الشفاء في الإسلام ليس مادياً محضاً ولا روحياً محضاً بل كلاهما — الجسد يُعالج بالدواء، والروح بكلام الله، وكلاهما يُؤتمن على الشافي.
+    description_fr: |
+      Le Prophète ﷙ pratiqua et enseigna la ruqya — la récitation de versets coraniques spécifiques et de supplications pour la guérison des maux physiques et spirituels. Quand sa famille tombait malade, il soufflait sur eux en récitant les trois derniers sourates du Coran. Il récita également al-Fātiḥa sur un homme mordu par un scorpion, et l'homme fut guéri — établissant que l'Ouverture du Livre est un remède pour toute maladie. Il permit la ruqya tant qu'elle n'implique pas le shirk (l'association de partenaires à Allah) ou des pratiques interdites. Il dit : « Il n'y a pas de mal à la ruqya tant qu'elle n'implique pas le shirk. » La pratique démontre qu'en islam, la guérison n'est pas purement matérielle ou purement spirituelle mais les deux — le corps est traité avec la médecine, l'âme avec la parole d'Allah, et les deux sont confiés au Guérisseur.
+    reference: "Bukhari 5736, Muslim 2199"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 293) records the permissibility of ruqyah as long as it does not involve shirk. Ibn al-Qayyim (Zad al-Ma'ad, 2:475) explains that in Islam healing is both material and spiritual, treating the body with medicine and the soul with the word of Allah. The four madhhabs agree on the permissibility of Qur'anic ruqyah, with the majority requiring it to be in Arabic or known to the patient.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 293) consigne la permissibilité de la ruqya tant qu'elle n'implique pas le shirk. Ibn al-Qayyim (Zād al-Maʿād, 2:475) explique qu'en islam la guérison est à la fois matérielle et spirituelle, traitant le corps avec la médecine et l'âme avec la parole d'Allah. Les quatre madhhabs s'accordent sur la permissibilité de la ruqya coranique, la majorité exigeant qu'elle soit en arabe ou connue du patient.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٩٣) جواز الرقية ما لم تشمل شركاً. ويشرح ابن القيم (زاد المعاد، ٢:٤٧٥) أن الشفاء في الإسلام مادي وروحي معاً، يُعالج الجسد بالدواء والروح بكلام الله. وتتفق المذاهب الأربعة على جواز الرقية القرآنية، مع اشتراط الأكثرية أن تكون بالعربية أو معروفة للمريض.
+    display_day_of_year: 35
+    quran_refs: ""
+    hadith_refs: "Bukhari 5736, Muslim 2199"
+
+
+  - slug: sunnah-forgiveness
+    category: sunnah_practice
+    title_en: The Sunnah of Forgiveness — Pardoning Those Who Wrong You
+    title_ar: سنّة المغفرة — العفو عمن ظلمك
+    title_fr: La sunna du pardon — pardonner à ceux qui vous ont fait du tort
+    description_en: |
+      The Prophet ﷺ was the most wronged of men yet the most forgiving. When the people of Ta'if stoned him until his sandals filled with blood, he prayed for their guidance rather than their destruction. When he entered Mecca as a conqueror, he asked the Quraysh: "What do you think I will do with you?" They replied: "You are a generous brother, son of a generous brother." He said: "Go, for you are free." He taught that forgiveness is not weakness but strength — the strength to overcome the natural impulse for revenge and rise to a higher moral plane. He said: "Allah does not increase a servant by his pardoning others except in honor," and warned that on the Day of Judgment, those who forgave others would be forgiven first. The lesson is that forgiveness liberates the forgiver more than the forgiven; it breaks the chain of harm and opens the door to reconciliation.
+    description_ar: |
+      كان النبي ﷺ أكثر الناس ظلماً وأعفاهم. حين رجمه أهل الطائف حتى امتلأ نعلاه بالدم، دعا لهدايتهم لا لهلاكهم. وحين دخل مكة فاتحاً، سأل قريشاً: «ما ترون أني فاعلٌ بكم؟» أجابوا: «أخٌ كريم وابن أخٍ كريم». قال: «اذهبوا فأنتم الطلقاء». وعلّم أن العفو ليس ضعفاً بل قوة — قوة التغلب على الدافع الطبيعي للانتقام والصعود إلى مستوى أخلاقي أسمى. قال: «ما زاد الله عبداً بعفوه إلا عزاً»، وحذر أن يوم القيامة يُعفى عن المُعفِين أوّلاً. والدرس أن العفو يُحرّر العافي أكثر من المعفو عنه؛ يقطع سلسلة الأذى ويفتح باب المصالحة.
+    description_fr: |
+      Le Prophète ﷺ fut le plus lésé des hommes et pourtant le plus clément. Quand les gens de Ṭāʾif le lapidèrent jusqu'à ce que ses sandales se remplissent de sang, il pria pour leur guidance plutôt que pour leur destruction. Quand il entra à La Mecque en conquérant, il demanda aux Quraych : « Que pensez-vous que je vais faire de vous ? » Ils répondirent : « Tu es un frère généreux, fils d'un frère généreux. » Il dit : « Allez, vous êtes libres. » Il enseigna que le pardon n'est pas une faiblesse mais une force — la force de surmonter l'impulsion naturelle de vengeance et de s'élever à un plan moral supérieur. Il dit : « Allah n'augmente un serviteur par son pardon envers autrui qu'en honneur », et avertit qu'au Jour du Jugement, ceux qui avaient pardonné seraient pardonnés les premiers. La leçon est que le pardon libère celui qui pardonne plus que celui qui est pardonné ; il rompt la chaîne du mal et ouvre la porte à la réconciliation.
+    reference: "Bukhari 6405, Muslim 2581"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 294) records the narration that Allah increases a servant in honor through pardoning others. Ibn al-Qayyim (Zad al-Ma'ad, 2:480) explains that forgiveness liberates the forgiver more than the forgiven, breaking the chain of harm and opening the door to reconciliation. The four madhhabs agree on the strong recommendation of 'afw, with the majority holding that those who forgive will be forgiven first on the Day of Judgment.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 294) consigne le récit selon lequel Allah augmente un serviteur en honneur par le pardon envers autrui. Ibn al-Qayyim (Zād al-Maʿād, 2:480) explique que le pardon libère celui qui pardonne plus que celui qui est pardonné, rompant la chaîne du mal et ouvrant la porte à la réconciliation. Les quatre madhhabs s'accordent sur la forte recommandation du ʿafw, la majorité tenant que ceux qui pardonnent seront pardonnés les premiers au Jour du Jugement.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٩٤) رواية أن الله يزيد العبد عزاً بعفوه عن الناس. ويشرح ابن القيم (زاد المعاد، ٢:٤٨٠) أن العفو يُحرّر العافي أكثر من المعفو عنه، ويقطع سلسلة الأذى ويفتح باب المصالحة. وتتفق المذاهب الأربعة على التوصية القوية بالعفو، مع رأي الأكثرية بأن المعفين يُعفى عنهم أولاً يوم القيامة.
+    display_day_of_year: 37
+    quran_refs: ""
+    hadith_refs: "Bukhari 6405, Muslim 2581"
+
+
+  - slug: sunnah-right-hand
+    category: sunnah_practice
+    title_en: Using the Right Hand — The Sunnah of Preference
+    title_ar: استخدام اليد اليمنى — سنّة التفضيل
+    title_fr: Utiliser la main droite — la sunna de la préférence
+    description_en: |
+      The Prophet ﷺ consistently used his right hand for noble actions — eating, drinking, shaking hands, putting on clothes, and entering the mosque — and his left hand for actions considered less noble, such as removing dirt or cleaning after the toilet. He said: "When one of you eats, let him eat with his right hand, and when he drinks, let him drink with his right hand, for Satan eats with his left hand and drinks with his left hand." This is not superstition but a discipline of consciousness — training the body to align with goodness and to be mindful of even the smallest gestures. The right-hand preference permeates Islamic ritual: the right hand is raised in supplication, the right side is preferred in lying down, and the right foot is used to enter the mosque. The lesson is that Islam does not leave the body to habit but sanctifies every movement through conscious intention.
+    description_ar: |
+      كان النبي ﷺ يستخدم يمينه باستمرار للأفعال النبيلة — الأكل والشرب والمصافحة ولبس الثياب ودخول المسجد — ويساره للأفعال الأقل نبلاً، كإزالة الأوساخ أو التنظيف بعد الخلاء. قال: «إذا أكل أحدكم فليأكل بيمينه، وإذا شرب فليشرب بيمينه، فإن الشيطان يأكل بشماله ويشرب بشماله». وليست خرافة بل انضباط وعي — تدريب الجسد على التوافق مع الخير والانتباه حتى لأصغر الحركات. يتغلغل تفضيل اليمين في الشعائر الإسلامية: اليد اليمنى تُرفع في الدعاء، والجنب الأيمن يُفضّل في الاضطجاع، والقدم اليمنى تُستخدم لدخول المسجد. والدرس أن الإسلام لا يترك الجسد للعادة بل يُقدّس كل حركة بنية واعية.
+    description_fr: |
+      Le Prophète ﷙ utilisait constamment sa main droite pour les actions nobles — manger, boire, serrer la main, s'habiller, et entrer dans la mosquée — et sa main gauche pour les actions considérées comme moins nobles, comme enlever la saleté ou se nettoyer après les toilettes. Il dit : « Quand l'un de vous mange, qu'il mange de sa main droite, et quand il boit, qu'il boive de sa main droite, car Satan mange de sa main gauche et boit de sa main gauche. » Ce n'est pas une superstition mais une discipline de conscience — entraîner le corps à s'aligner avec le bien et à être attentif même aux plus petits gestes. La préférence pour la main droite imprègne le rituel islamique : la main droite est levée en supplication, le côté droit est préféré pour se coucher, et le pied droit est utilisé pour entrer dans la mosquée. La leçon est que l'islam ne laisse pas le corps à l'habitude mais sanctifie chaque mouvement par une intention consciente.
+    reference: "Muslim 2020, Ibn Majah 3258"
+    source_notes: |
+      Al-Nawawi (al-Adhkar, p. 284) records the sunnah of using the right hand for noble actions and the left for less noble ones. Ibn al-Qayyim (Zad al-Ma'ad, 2:435) explains that this trains the body in constant mindfulness, aligning even the smallest gestures with goodness. The four madhhabs agree on this etiquette as a confirmed sunnah, with the majority holding it applies to eating, drinking, dressing, and greeting.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, p. 284) consigne la sunna d'utiliser la main droite pour les actions nobles et la gauche pour les moins nobles. Ibn al-Qayyim (Zād al-Maʿād, 2:435) explique que cela entraîne le corps dans une conscience constante, alignant même les plus petits gestes avec le bien. Les quatre madhhabs s'accordent sur cette étiquette comme sunna confirmée, la majorité l'appliquant à manger, boire, s'habiller et saluer.
+    source_notes_ar: |
+      يسجل النووي (الأذكار، ص ٢٨٤) سنة استخدام اليد اليمنى للأفعال النبيلة واليسرى للأقل نبلاً. ويشرح ابن القيم (زاد المعاد، ٢:٤٣٥) أن ذلك يُدرب الجسد على اليقظة الدائمة، مواءمة أصغر الحركات مع الخير. وتتفق المذاهب الأربعة على هذا الأدب باعتباره سنة مؤكدة، مع رأي الأكثرية بأنه يشمل الأكل والشرب واللبس والتحية.
+    display_day_of_year: 39
+    quran_refs: ""
+    hadith_refs: "Muslim 2020, Ibn Majah 3258"
+

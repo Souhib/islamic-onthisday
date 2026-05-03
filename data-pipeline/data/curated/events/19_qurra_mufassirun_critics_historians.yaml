@@ -1,0 +1,896 @@
+# Wave 6 of curated event additions (2026-04-26).
+# 3 remaining major qurra' (completing the seven canonical readers)
+# + 3 mufassirun + 3 hadith critics (al-jarh wa-l-ta'dil masters)
+# + 3 historians + 1 senior sahabi + 1 astronomer + 1 anatolian sufi poet.
+# Each event attested in classical Sunni sources. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # REMAINING MAJOR QURRA' (THE SEVEN CANONICAL READERS)
+  # =========================================================================
+
+  - slug: death-of-ibn-kathir-al-makki
+    category: scholar
+    title_en: Death of Ibn Kathir al-Makki — qari of Mecca
+    title_ar: وفاة ابن كثير المكي — قارئ مكة
+    title_fr: Mort d'Ibn Kathīr al-Makki — récitateur de La Mecque
+    description_en: |
+      ʿAbdullah ibn Kathir al-Dari al-Makki — Persian-origin tabiʿi
+      and one of the seven canonical reciters (*al-qurraʾ al-sabʿa*),
+      qari of Mecca and the master from whose two students al-Bazzī
+      and Qunbul descend the readings of the Hijazi tradition — died
+      in Mecca at age about 75. Not to be confused with the much
+      later historian Ibn Kathīr al-Dimashqī (d. 774 AH) who
+      authored *al-Bidāya wa-l-Nihāya*. Ibn Kathir al-Makki took his
+      recitation from Mujāhid ibn Jabr and Darbās the freedman of
+      Ibn ʿAbbās, who had it directly from Ubayy ibn Kaʿb ra. al-
+      Shāfiʿi, who was raised in Mecca, used to read in his
+      transmission. The Bazzī and Qunbul recitations are preserved
+      in scholarly transmission today though not in standard
+      circulation.
+    description_ar: |
+      توفي الإمام عبد الله بن كثير الداري المكي — تابعي من أصول
+      فارسية وأحد القراء السبعة، وقارئ أهل مكة والإمام الذي أخرج
+      تلميذاه البزّي وقنبل روايتيه اللتين سادتا في قراءة أهل الحجاز
+      — بمكة المكرمة عن نحو خمس وسبعين سنة. ولا يُخلط بينه وبين ابن
+      كثير الدمشقي المتأخر (ت ٧٧٤ هـ) صاحب «البداية والنهاية». وأخذ
+      ابن كثير المكي القراءة عن مجاهد بن جبر وعن دِرباس مولى ابن
+      عباس عن أبيّ بن كعب رضي الله عنه. وكان الإمام الشافعي — وقد
+      نشأ بمكة — يقرأ بقراءته. ولا تزال روايتا البزي وقنبل محفوظتين
+      في الأسانيد المعتمدة وإن لم تكونا في الدوران العام.
+    description_fr: |
+      ʿAbdallāh ibn Kathīr al-Dāri al-Makki — tabiʿi d'origine
+      persane et l'un des sept récitateurs canoniques (*al-qurrāʾ
+      al-sabʿa*), récitateur de La Mecque et le maître dont les
+      deux élèves al-Bazzī et Qunbul firent descendre les lectures
+      de la tradition hedjazienne — mourut à La Mecque à l'âge
+      d'environ 75 ans. À ne pas confondre avec l'historien beaucoup
+      plus tardif Ibn Kathīr al-Dimashqī (m. 774 H) qui rédigea
+      *al-Bidāya wa-l-Nihāya*. Ibn Kathīr al-Makki prit sa
+      récitation de Mujāhid ibn Jabr et de Darbās l'affranchi d'Ibn
+      ʿAbbās, qui la tenaient directement d'Ubayy ibn Kaʿb ra.
+      al-Shāfiʿi, élevé à La Mecque, lisait dans sa transmission.
+      Les récitations al-Bazzī et Qunbul sont préservées aujourd'hui
+      dans la transmission savante, bien que non en circulation
+      standard.
+    canonical_hijri: {year: 120, precision: year}
+    canonical_gregorian: {date: 738-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-kathir-al-makki, subject]]
+    tags: [qurraʾ, qiraʾat, mecca, tabi'un, umayyad, hijaz]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-abu-amr-al-basri
+    category: scholar
+    title_en: Death of Abu ʿAmr al-Basri — qari and grammarian of Basra
+    title_ar: وفاة أبي عمرو البصري — قارئ البصرة وإمام النحو
+    title_fr: Mort d'Abu ʿAmr al-Baṣrī — récitateur et grammairien de Bassora
+    description_en: |
+      Abu ʿAmr ibn al-ʿAlaʾ al-Mazini al-Tamimi al-Basri — one of
+      the seven canonical reciters and the foremost master of
+      Arabic grammar in his generation — died in Kufa at age about
+      80. He was reckoned by classical philologists as the founder
+      of the Basran school of Arabic grammar, the rival tradition
+      to al-Khalil ibn Aḥmad's Kufan school; al-Aṣmaʿi and Yunus
+      ibn Habib were among his students. His recitation, transmitted
+      to us through al-Susi (d. 261 AH) and al-Duri (d. 246 AH),
+      remained in active liturgical use across parts of the Maghreb
+      into the modern era. Sources differ on the year of his death
+      between 154 and 157 AH.
+    description_ar: |
+      توفي الإمام أبو عمرو بن العلاء المازني التميمي البصري — أحد
+      القراء السبعة، وكبير علماء النحو في زمانه — بالكوفة عن نحو
+      ثمانين سنة. وعدّه أئمة اللغة الكلاسيكية مؤسس مدرسة البصرة
+      النحوية، التي كانت غريمة مدرسة الكوفة بقيادة الخليل بن أحمد؛
+      ومن تلامذته الأصمعي ويونس بن حبيب. ووصلت قراءته إلينا برواية
+      السوسي (ت ٢٦١ هـ) والدوري (ت ٢٤٦ هـ)، وظلت قراءته في
+      الاستخدام في بعض جهات المغرب إلى العصر الحديث. واختلف المصادر
+      في سنة وفاته بين ١٥٤ و١٥٧ هـ.
+    description_fr: |
+      Abu ʿAmr ibn al-ʿAlāʾ al-Māzinī al-Tamīmī al-Baṣrī — l'un des
+      sept récitateurs canoniques et le plus grand maître de la
+      grammaire arabe de sa génération — mourut à Koufa à l'âge
+      d'environ 80 ans. Il était considéré par les philologues
+      classiques comme le fondateur de l'école de grammaire arabe
+      de Bassora, la tradition rivale de l'école koufienne d'al-
+      Khalīl ibn Aḥmad; al-Aṣmaʿi et Yūnus ibn Ḥabīb comptaient
+      parmi ses élèves. Sa récitation, transmise jusqu'à nous par
+      al-Sūsī (m. 261 H) et al-Dūrī (m. 246 H), demeura en usage
+      liturgique actif dans certaines parties du Maghreb jusqu'à
+      l'époque moderne. Les sources divergent sur l'année de sa
+      mort entre 154 et 157 H.
+    canonical_hijri: {year: 154, precision: year}
+    canonical_gregorian: {date: 770-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[abu-amr-al-basri, subject]]
+    tags: [qurraʾ, qiraʾat, basra, grammar, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abu_%27Amr_ibn_al-%27Ala%27"
+
+  - slug: death-of-al-kisai
+    category: scholar
+    title_en: Death of al-Kisaʾi — qari and grammarian of Kufa
+    title_ar: وفاة الكسائي — قارئ الكوفة وإمام النحو
+    title_fr: Mort d'al-Kisāʾī — récitateur et grammairien de Koufa
+    description_en: |
+      ʿAli ibn Hamza al-Kisaʾi — last of the seven canonical
+      reciters in chronological order, leading representative of
+      the Kufan school of Arabic grammar (the rival of Abu ʿAmr's
+      Basran tradition), and tutor to the future Abbasid caliphs
+      al-Amin and al-Maʾmun — died at Rayy in the company of Caliph
+      Harun al-Rashid at age about 70. His recitation was the
+      preferred reading at the Abbasid court, transmitted to us
+      principally through Abu al-Harith al-Layth and al-Duri ʿan
+      al-Kisaʾi. The famous "debate of the slipper" (*masʾalat al-
+      naʿl*) at the court of Harun al-Rashid, in which al-Kisaʾi
+      and Sibawayhi clashed over a point of grammar with the
+      Bedouin arbiter siding with al-Kisaʾi, broke Sibawayhi's
+      Basran reputation and consolidated Kufan grammatical authority
+      for two generations.
+    description_ar: |
+      توفي الإمام علي بن حمزة الكسائي — آخر القراء السبعة في الترتيب
+      الزمني، وزعيم مدرسة الكوفة في النحو (غريمة مدرسة البصرة بقيادة
+      أبي عمرو)، ومؤدب الخلفاء العباسيين الأمين والمأمون — بالريّ
+      في صحبة الخليفة هارون الرشيد عن نحو سبعين سنة. كانت قراءته هي
+      القراءة المفضلة في البلاط العباسي، ووصلت إلينا أساساً برواية
+      أبي الحارث الليث والدوري عن الكسائي. و«مسألة الزنبور» (وقيل
+      «النعل») في مجلس هارون الرشيد، التي تنازع فيها الكسائي وسيبويه
+      في مسألة نحوية فحكم الأعرابي للكسائي، كسرت مكانة سيبويه ورسّخت
+      السلطة النحوية للكوفيين جيلين كاملين.
+    description_fr: |
+      ʿAli ibn Ḥamza al-Kisāʾī — dernier des sept récitateurs
+      canoniques par ordre chronologique, principal représentant de
+      l'école de grammaire arabe de Koufa (rivale de la tradition
+      basrienne d'Abu ʿAmr), et précepteur des futurs califes
+      abbassides al-Amīn et al-Maʾmūn — mourut à Rayy en compagnie
+      du calife Hārūn al-Rashīd à l'âge d'environ 70 ans. Sa
+      récitation était la lecture préférée à la cour abbasside,
+      transmise jusqu'à nous principalement par Abū al-Ḥārith
+      al-Layth et al-Dūrī ʿan al-Kisāʾī. Le célèbre « débat du
+      soulier » (*masʾalat al-naʿl*) à la cour de Hārūn al-Rashīd,
+      dans lequel al-Kisāʾī et Sībawayhi s'affrontèrent sur un point
+      de grammaire et où le bédouin arbitre trancha en faveur
+      d'al-Kisāʾī, brisa la réputation basrienne de Sībawayhi et
+      consolida l'autorité grammaticale koufienne pour deux
+      générations.
+    canonical_hijri: {year: 189, precision: year}
+    canonical_gregorian: {date: 805-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-kisai, subject], [harun-al-rashid, subject]]
+    tags: [qurraʾ, qiraʾat, kufa, grammar, abbasid, harun-al-rashid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Kisa%27i"
+
+  # =========================================================================
+  # MUFASSIRUN
+  # =========================================================================
+
+  - slug: death-of-al-wahidi
+    category: scholar
+    title_en: Death of al-Waḥidi — pioneer of Asbab al-Nuzul
+    title_ar: وفاة الواحدي — رائد علم أسباب النزول
+    title_fr: Mort d'al-Wāḥidī — pionnier d'Asbāb al-Nuzūl
+    description_en: |
+      Abu al-Hasan ʿAli ibn Aḥmad al-Wahidi al-Naysaburi — Shafiʿi
+      mufassir and grammarian of Naysabur, foremost student of the
+      lexicographer al-Thaʿlabi, and author of the foundational
+      work *Asbab al-Nuzul* (the standalone genre treating the
+      historical occasions of revelation of individual Qurʾanic
+      verses) — died in Naysabur at age about 70. Beyond *Asbab
+      al-Nuzul*, his three tafsir works (*al-Basit*, *al-Wasit*,
+      and *al-Wajiz*) became standard reading across the eastern
+      Sunni world, and *al-Wajiz* in particular was the basis on
+      which al-Ghazali later modeled his summary of fiqh of the
+      same title. His grammatical commentary on the *Diwan* of al-
+      Mutanabbi remained the standard reference for that text.
+    description_ar: |
+      توفي الإمام أبو الحسن علي بن أحمد الواحدي النيسابوري — مفسر
+      وعالم لغة على مذهب الشافعية بنيسابور، وكبير تلاميذ المعجمي
+      الثعلبي، ومصنف «أسباب النزول»، الكتاب الأول في علم أسباب
+      النزول مفرداً عن بقية علوم القرآن — بنيسابور عن نحو سبعين
+      سنة. وفضلاً عن «أسباب النزول» فإن تفاسيره الثلاثة («البسيط»
+      و«الوسيط» و«الوجيز») صارت من المقررات في عامة المشرق السني،
+      واتخذ الإمام الغزالي من «الوجيز» قالباً لكتابه الفقهي بنفس
+      الاسم. وشرحه النحوي على ديوان المتنبي ظل المرجع المعتمد
+      لذلك الديوان.
+    description_fr: |
+      Abu al-Ḥasan ʿAli ibn Aḥmad al-Wāḥidī al-Naysabūri — mufassir
+      et grammairien shāfiʿite de Naysabur, premier élève du
+      lexicographe al-Thaʿlabī, et auteur de l'œuvre fondatrice
+      *Asbāb al-Nuzūl* (le genre autonome traitant des circonstances
+      historiques de révélation des versets coraniques individuels)
+      — mourut à Naysabur à l'âge d'environ 70 ans. Outre *Asbāb
+      al-Nuzūl*, ses trois œuvres de tafsir (*al-Basīṭ*, *al-Wasīṭ*
+      et *al-Wajīz*) devinrent des lectures standard à travers tout
+      le monde sunnite oriental, et *al-Wajīz* en particulier servit
+      de modèle au résumé de fiqh du même titre par al-Ghazāli. Son
+      commentaire grammatical du *Dīwān* d'al-Mutanabbī demeura la
+      référence standard de ce texte.
+    canonical_hijri: {year: 468, precision: year}
+    canonical_gregorian: {date: 1076-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-wahidi, subject]]
+    tags: [tafsir, asbab-al-nuzul, naysabur, shafii, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Wahidi"
+
+  - slug: death-of-al-baghawi
+    category: scholar
+    title_en: Death of al-Baghawi — Muḥyi al-Sunna
+    title_ar: وفاة البغوي — مُحيي السنة
+    title_fr: Mort d'al-Baghawī — Muḥyi al-Sunna
+    description_en: |
+      Abu Muḥammad al-Husayn ibn Masʿud al-Baghawi — Shafiʿi jurist,
+      mufassir, and muḥaddith of Khurasan, honoured with the laqab
+      *Muḥyi al-Sunna* ("Reviver of the Sunna") and *Rukn al-Din*
+      ("Pillar of the Religion") — died at Marv al-Rudh at age
+      about 80. His tafsir *Maʿalim al-Tanzil* is the most-read
+      mid-length classical Sunni commentary, distilled from al-
+      Thaʿlabi's longer *al-Kashf wa-l-Bayan* and famously praised
+      by Ibn Taymiyya as "free of bidʿa, and of the lies that fill
+      al-Thaʿlabi and al-Wahidi." His *Sharḥ al-Sunna* in fifteen
+      volumes is a hadith manual organised by chapters of fiqh,
+      cited by every later Shafiʿi authority. *Maṣabiḥ al-Sunna*,
+      his hadith abridgement, became the basis of al-Tabrizi's
+      enormously influential *Mishkat al-Maṣabiḥ*.
+    description_ar: |
+      توفي الإمام أبو محمد الحسين بن مسعود البغوي — فقيه ومفسر ومحدث
+      الشافعية بخراسان، الملقب بـ«محيي السنة» و«ركن الدين» — بمرو
+      الروذ عن نحو ثمانين سنة. تفسيره «معالم التنزيل» أكثر تفاسير
+      أهل السنة المتوسطة الحجم انتشاراً، استخلصه من «الكشف والبيان»
+      للثعلبي، وأثنى عليه ابن تيمية فقال: «هو سالم من البدعة، ومن
+      الكذب الذي ملأ الثعلبي والواحدي تفسيريهما». وكتابه «شرح السنة»
+      في خمسة عشر مجلداً متن في الحديث مرتب على أبواب الفقه، يُعتمد
+      عليه عند كل المتأخرين الشافعية. ومختصره الحديثي «مصابيح
+      السنة» كان أصل كتاب التبريزي «مشكاة المصابيح» الواسع الانتشار.
+    description_fr: |
+      Abu Muḥammad al-Ḥusayn ibn Masʿūd al-Baghawī — juriste,
+      mufassir et muḥaddith shāfiʿite du Khurasan, honoré du laqab
+      *Muḥyi al-Sunna* (« Revivificateur de la Sunna ») et *Rukn
+      al-Dīn* (« Pilier de la Religion ») — mourut à Marv al-Rudh
+      à l'âge d'environ 80 ans. Son tafsir *Maʿālim al-Tanzīl* est
+      le commentaire sunnite classique de longueur moyenne le plus
+      lu, distillé du *al-Kashf wa-l-Bayān* d'al-Thaʿlabī et
+      célèbrement loué par Ibn Taymiyya comme « libre de *bidʿa* et
+      des mensonges dont al-Thaʿlabī et al-Wāḥidī remplissent leurs
+      tafsirs ». Son *Sharḥ al-Sunna* en quinze volumes est un
+      manuel de hadith organisé par chapitres de fiqh, cité par
+      toute autorité shāfiʿite ultérieure. *Maṣābīḥ al-Sunna*, son
+      abrégé de hadith, devint la base du *Mishkāt al-Maṣābīḥ*
+      énormément influent d'al-Tabrīzī.
+    canonical_hijri: {year: 516, precision: year}
+    canonical_gregorian: {date: 1122-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-baghawi, subject]]
+    tags: [tafsir, hadith, shafii, khurasan, marv]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Baghawi"
+
+  - slug: death-of-al-shawkani
+    category: scholar
+    title_en: Death of al-Shawkani — Yemeni reformer
+    title_ar: وفاة الشوكاني — مجتهد اليمن
+    title_fr: Mort d'al-Shawkani — réformateur du Yémen
+    description_en: |
+      Muhammad ibn ʿAli al-Shawkani al-Sanʿani — Yemeni jurist,
+      mufassir, muḥaddith, and chief qadi of Sanaa under three
+      Zaydi imams — died in Sanaa at age about 76. Born in the Zaydi
+      milieu, he ultimately rejected madhhab taqlid and called for
+      direct ijtihad from Qurʾan and authentic Sunna across the four
+      Sunni madhāhib equally; his tafsir *Fatḥ al-Qadīr* combines
+      *tafsīr bi-l-maʾthūr* and *tafsīr bi-l-raʾy*, and his hadith
+      handbook *Nayl al-Awṭar* (commentary on al-Majd ibn Taymiyya's
+      *Muntaqā al-Akhbar*) is one of the most-cited fiqh-cum-hadith
+      compendia of the late premodern Sunni tradition. Modern Salafi
+      reformers from Rashid Riḍa to al-Albani consistently invoke
+      his independence from madhhab boundaries as their precedent.
+    description_ar: |
+      توفي الإمام محمد بن علي الشوكاني الصنعاني — فقيه ومفسر ومحدث
+      اليمن، وقاضي قضاة صنعاء في عهد ثلاثة من أئمة الزيدية — بصنعاء
+      عن نحو ست وسبعين سنة. نشأ في الوسط الزيدي ثم انتهى إلى رفض
+      التقليد المذهبي ودعا إلى الاجتهاد المباشر من الكتاب والسنة
+      الصحيحة في حدود المذاهب السنية الأربعة على السواء؛ وتفسيره
+      «فتح القدير» يجمع بين التفسير بالمأثور والتفسير بالرأي،
+      وكتابه «نيل الأوطار» في الحديث (شرح «منتقى الأخبار» للمجد بن
+      تيمية) من أكثر المتون الفقهية-الحديثية إحالةً عليه في تراث
+      أهل السنة في أواخر العصر قبل الحديث. ومجتهدو السلفية المعاصرون
+      من رشيد رضا إلى الألباني يعدّون استقلاله عن التقيد بالمذاهب
+      سابقةً لاجتهادهم.
+    description_fr: |
+      Muḥammad ibn ʿAli al-Shawkānī al-Ṣanʿānī — juriste, mufassir,
+      muḥaddith yéménite et grand qāḍī de Sanaa sous trois imams
+      zaydites — mourut à Sanaa à l'âge d'environ 76 ans. Né dans
+      le milieu zaydite, il finit par rejeter le *taqlīd* madhhabite
+      et appela à l'*ijtihād* direct à partir du Coran et de la
+      Sunna authentique à travers les quatre madhāhib sunnites de
+      manière égale; son tafsir *Fatḥ al-Qadīr* combine *tafsīr
+      bi-l-maʾthūr* et *tafsīr bi-l-raʾy*, et son manuel de hadith
+      *Nayl al-Awṭār* (commentaire de *Muntaqā al-Akhbār* d'al-Majd
+      ibn Taymiyya) est l'un des compendiums fiqh-hadith les plus
+      cités de la tradition sunnite pré-moderne tardive. Les
+      réformateurs salafis modernes, de Rashīd Riḍā à al-Albānī,
+      invoquent constamment son indépendance des frontières
+      madhhabiques comme précédent.
+    canonical_hijri: {year: 1250, precision: year}
+    canonical_gregorian: {date: 1834-06-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-shawkani, subject]]
+    tags: [yemen, sanaa, ijtihad, fath-al-qadir, salafi, modern]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ash-Shawkani"
+
+  # =========================================================================
+  # HADITH CRITICS — MASTERS OF AL-JARH WA-L-TA'DIL
+  # =========================================================================
+
+  - slug: death-of-yahya-al-qattan
+    category: scholar
+    title_en: Death of Yaḥya ibn Saʿid al-Qaṭṭan — pioneer of hadith criticism
+    title_ar: وفاة يحيى بن سعيد القطان — رائد علم الجرح والتعديل
+    title_fr: Mort de Yaḥyā ibn Saʿid al-Qaṭṭān — pionnier de la critique du hadith
+    description_en: |
+      Yaḥya ibn Saʿid al-Qaṭṭan al-Tamimi — Basran muḥaddith and
+      the first scholar to systematically apply formal authentication
+      criteria to the chain of transmitters (*al-jarḥ wa-l-taʿdīl*)
+      as a freestanding discipline — died in Basra at age about 78.
+      He was the master of Aḥmad ibn Ḥanbal, ʿAli ibn al-Madini,
+      and Yaḥya ibn Maʿin (the trio whose verdicts ground the
+      science of rijal). Aḥmad ibn Ḥanbal said: "I have never seen
+      with my eyes the like of Yaḥya al-Qaṭṭan." His decisive
+      gradings of narrators set the framework that al-Bukhari and
+      Muslim would inherit two generations later when assembling
+      the two Ṣaḥīḥs. He prayed five hundred rakaʿat each night and
+      never missed a Friday prayer in fifty years.
+    description_ar: |
+      توفي الإمام يحيى بن سعيد القطان التميمي البصري — أول من قنن
+      علم الجرح والتعديل علماً مستقلاً، فطبق على رواة الحديث معايير
+      منهجية في التوثيق والتجريح — بالبصرة عن نحو ثمانٍ وسبعين سنة.
+      وهو شيخ الإمام أحمد بن حنبل وعلي بن المديني ويحيى بن معين،
+      وهم الثلاثة الذين قام عليهم علم الرجال. قال الإمام أحمد: «ما
+      رأت عيناي مثل يحيى بن سعيد القطان». وأحكامه الفاصلة في الرواة
+      هي الإطار الذي ورثه عنه البخاري ومسلم بعد جيلين عند إخراج
+      الصحيحين. وكان يصلي خمس مئة ركعة كل ليلة، ولم يفته جامع
+      الجمعة خمسين سنة.
+    description_fr: |
+      Yaḥyā ibn Saʿīd al-Qaṭṭān al-Tamīmī — muḥaddith de Bassora
+      et le premier savant à appliquer systématiquement des critères
+      formels d'authentification à la chaîne des transmetteurs
+      (*al-jarḥ wa-l-taʿdīl*) comme discipline autonome — mourut à
+      Bassora à l'âge d'environ 78 ans. Il fut le maître d'Aḥmad
+      ibn Ḥanbal, d'ʿAli ibn al-Madīnī et de Yaḥyā ibn Maʿīn (le
+      trio dont les verdicts fondent la science des *rijāl*). Aḥmad
+      ibn Ḥanbal dit : « je n'ai jamais vu de mes yeux le pareil
+      de Yaḥyā al-Qaṭṭān ». Ses appréciations décisives sur les
+      transmetteurs posèrent le cadre qu'al-Bukhari et Muslim
+      hériteraient deux générations plus tard pour réunir les deux
+      *Ṣaḥīḥ*. Il priait cinq cents rakʿats chaque nuit et ne
+      manqua pas une prière du vendredi en cinquante ans.
+    canonical_hijri: {year: 198, precision: year}
+    canonical_gregorian: {date: 813-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[yahya-al-qattan, subject], [ahmad-ibn-hanbal, subject]]
+    tags: [hadith, jarh-wa-tadil, basra, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yahya_ibn_Sa%27id_al-Qattan"
+
+  - slug: death-of-yahya-ibn-main
+    category: scholar
+    title_en: Death of Yaḥya ibn Maʿin
+    title_ar: وفاة يحيى بن معين
+    title_fr: Mort de Yaḥyā ibn Maʿīn
+    description_en: |
+      Abu Zakariyya Yaḥya ibn Maʿin al-Baghdadi — close companion
+      of Aḥmad ibn Ḥanbal and ʿAli ibn al-Madini, and the most
+      celebrated single critic of hadith narrators in the Sunni
+      tradition — died at Medina while on the Hajj, at age about
+      77. He was buried in al-Baqiʿ. Two of his works survive: a
+      *Tarīkh* and *Maʿrifat al-Rijāl*, both books of biographical
+      assessment of hadith transmitters, foundational to the entire
+      science of rijal. He famously said: "We wrote down hadith from
+      reliable men and from liars; we wrote from the liars so that
+      we might know what to reject." Aḥmad ibn Ḥanbal said: "Every
+      hadith Yaḥya doesn't know is not a hadith." During the Mihna
+      he was tried but, unlike his companion Aḥmad, did not endure
+      with full firmness — a regret he expressed for the rest of
+      his life.
+    description_ar: |
+      توفي الإمام أبو زكريا يحيى بن معين البغدادي — قرين الإمام أحمد
+      بن حنبل وعلي بن المديني، وأشهر ناقد للرواة على الإطلاق في
+      تراث أهل السنة — بالمدينة المنورة وهو في حجه عن نحو سبع
+      وسبعين سنة. ودفن في البقيع. وله من المصنفات «التاريخ» و«معرفة
+      الرجال»، كلاهما في أحوال رواة الحديث، وهما من أصول علم الرجال.
+      ومن قوله المشهور: «إنما كتبنا الحديث عن الثقات وعن الكذابين؛
+      كتبنا عن الكذابين لنعرف ما يُترك». وقال أحمد بن حنبل: «كل
+      حديث لا يعرفه يحيى فليس بحديث». وفي محنة خلق القرآن امتُحن
+      فلم يثبت ثبوت قرينه أحمد، وندم على ذلك ما عاش.
+    description_fr: |
+      Abu Zakariyyā Yaḥyā ibn Maʿīn al-Baghdādī — compagnon proche
+      d'Aḥmad ibn Ḥanbal et d'ʿAli ibn al-Madīnī, et le plus célèbre
+      critique unique de transmetteurs de hadith dans la tradition
+      sunnite — mourut à Médine alors qu'il accomplissait le Ḥajj,
+      à l'âge d'environ 77 ans. Il fut enterré à al-Baqīʿ. Deux de
+      ses œuvres ont survécu : un *Tārīkh* et *Maʿrifat al-Rijāl*,
+      tous deux livres d'évaluation biographique des transmetteurs
+      de hadith, fondateurs de toute la science des *rijāl*. Il
+      disait : « nous avons consigné les hadiths d'hommes fiables
+      et de menteurs; nous avons consigné des menteurs pour savoir
+      ce qu'il fallait rejeter ». Aḥmad ibn Ḥanbal dit : « tout
+      hadith que Yaḥyā ne connaît pas n'est pas un hadith ». Lors
+      de la *Miḥna*, il fut éprouvé mais, contrairement à son
+      compagnon Aḥmad, ne tint pas avec la fermeté pleine — un
+      regret qu'il exprima jusqu'à la fin de sa vie.
+    canonical_hijri: {year: 233, month: 12, precision: month}
+    canonical_gregorian: {date: 848-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[yahya-ibn-main, subject]]
+    tags: [hadith, jarh-wa-tadil, baghdad, medina, mihna, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yahya_ibn_Ma%27in"
+
+  - slug: death-of-ali-ibn-al-madini
+    category: scholar
+    title_en: Death of ʿAli ibn al-Madini
+    title_ar: وفاة علي بن المديني
+    title_fr: Mort de ʿAli ibn al-Madīnī
+    description_en: |
+      ʿAli ibn ʿAbdallah ibn al-Madini — third member of the
+      master-trio of hadith critics (with Yaḥya al-Qaṭṭan and
+      al-Bukhari), Aḥmad ibn Ḥanbal's foremost teacher in rijal
+      assessment, and the man whom al-Bukhari himself said: "I have
+      never seen myself small in the presence of any scholar except
+      ʿAli ibn al-Madini" — died at Samarra at age about 73. His
+      *al-ʿIlal* (the science of detecting hidden defects in chains)
+      established the genre and remains one of the most technical
+      books of classical hadith criticism. He yielded under
+      pressure during the Mihna; this concession, like Yaḥya ibn
+      Maʿin's, drew sharp public criticism from Aḥmad ibn Ḥanbal
+      who refused to associate with him for years afterwards.
+    description_ar: |
+      توفي الإمام علي بن عبد الله بن المديني — ثالث الحفاظ النقاد
+      الكبار (مع يحيى القطان والبخاري)، وكبير شيوخ أحمد بن حنبل في
+      الجرح والتعديل، والذي قال عنه البخاري: «ما استصغرت نفسي عند
+      أحد إلا عند علي بن المديني» — بسامراء عن نحو ثلاث وسبعين سنة.
+      وكتابه «العلل» في علم العلل (كشف ما خفي من علل الإسناد) أسس
+      هذا الفن وما زال من أعمق كتب نقد الحديث الكلاسيكي. ولان في
+      محنة خلق القرآن، فعابت عليه هذه الفلتة كما عيب على يحيى بن
+      معين، وقاطعه أحمد بن حنبل سنوات لذلك علناً.
+    description_fr: |
+      ʿAli ibn ʿAbdallāh ibn al-Madīnī — troisième membre du trio
+      maître des critiques de hadith (avec Yaḥyā al-Qaṭṭān et
+      al-Bukhārī), principal maître d'Aḥmad ibn Ḥanbal en évaluation
+      des *rijāl*, et l'homme dont al-Bukhārī lui-même dit : « je
+      ne me suis jamais vu petit en présence d'un savant sinon
+      ʿAli ibn al-Madīnī » — mourut à Samarra à l'âge d'environ
+      73 ans. Son *al-ʿIlal* (la science de détecter les défauts
+      cachés dans les chaînes) établit le genre et reste l'un des
+      livres les plus techniques de la critique classique du hadith.
+      Il céda sous la pression durant la *Miḥna*; cette concession,
+      comme celle de Yaḥyā ibn Maʿīn, valut une critique publique
+      tranchée d'Aḥmad ibn Ḥanbal qui refusa de s'associer à lui
+      pendant des années par la suite.
+    canonical_hijri: {year: 234, precision: year}
+    canonical_gregorian: {date: 849-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ali-ibn-al-madini, subject], [ahmad-ibn-hanbal, subject]]
+    tags: [hadith, ilal, samarra, mihna, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ali_ibn_al-Madini"
+
+  # =========================================================================
+  # HISTORIANS
+  # =========================================================================
+
+  - slug: death-of-al-waqidi
+    category: scholar
+    title_en: Death of al-Waqidi — early biographer of the Maghazi
+    title_ar: وفاة الواقدي — مؤرخ المغازي
+    title_fr: Mort d'al-Wāqidī — biographe ancien des Maghāzī
+    description_en: |
+      Muhammad ibn ʿUmar al-Waqidi — Madinan-born qadi of Baghdad
+      under al-Maʾmun and the most extensive early historian of
+      the Prophetic campaigns (*maghazi*) — died in Baghdad at age
+      about 78. His *Kitab al-Maghazi* — by far the most detailed
+      surviving early account of the Prophet's ﷺ military
+      expeditions — covers each event of the Medinan period in
+      meticulous chronology, with full geographical and prosopo-
+      graphical apparatus. Although the later muḥaddith critics
+      (al-Bukhari, al-Nasaʾi, Aḥmad ibn Ḥanbal) graded him weak in
+      isnad-criticism for his loose practice with chains — the
+      maghazi material itself is too rich and too well embedded in
+      the Madinan tradition to dismiss; al-Tabari draws on him
+      heavily, as do all later sira writers.
+    description_ar: |
+      توفي الإمام محمد بن عمر الواقدي — مدني المنشأ، قاضي بغداد في
+      عهد المأمون، وأوسع المؤرخين الأوائل في أخبار المغازي النبوية —
+      ببغداد عن نحو ثمانٍ وسبعين سنة. وكتابه «المغازي» أوسع ما وصلنا
+      من سير الغزوات النبوية، يستوفي أخبار العصر المدني في تواريخ
+      دقيقة مع جهازه الجغرافي والتراجمي الكامل. ومع أن متأخري نقاد
+      الحديث (البخاري والنسائي وأحمد) ضعفوه في النقل الإسنادي بسبب
+      تساهله في الأسانيد، فإن مادة المغازي عنده أوفر من أن تُترك
+      وأرسخ في تراث المدينة، فاعتمد عليه الطبري بكثرة، وكذلك كل
+      كتاب سيرة بعده.
+    description_fr: |
+      Muḥammad ibn ʿUmar al-Wāqidī — natif de Médine, qāḍī de Bagdad
+      sous al-Maʾmūn et l'historien ancien le plus exhaustif des
+      campagnes prophétiques (*maghāzī*) — mourut à Bagdad à l'âge
+      d'environ 78 ans. Son *Kitāb al-Maghāzī* — de loin le récit
+      ancien le plus détaillé survivant des expéditions militaires
+      du Prophète ﷺ — couvre chaque événement de la période
+      médinoise dans une chronologie méticuleuse, avec un appareil
+      géographique et prosopographique complet. Bien que les
+      critiques de hadith ultérieurs (al-Bukhārī, al-Nasāʾī, Aḥmad
+      ibn Ḥanbal) l'aient classé faible en critique d'*isnād* pour
+      sa pratique souple des chaînes — le matériau *maghāzī* lui-
+      même est trop riche et trop bien ancré dans la tradition
+      médinoise pour être écarté; al-Ṭabari y puise largement, de
+      même que tous les biographes ultérieurs du Prophète ﷺ.
+    canonical_hijri: {year: 207, month: 4, precision: month}
+    canonical_gregorian: {date: 822-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-waqidi, subject]]
+    tags: [history, maghazi, baghdad, medina, abbasid, sira]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Waqidi"
+
+  - slug: death-of-ibn-khallikan
+    category: scholar
+    title_en: Death of Ibn Khallikan — author of Wafayat al-Aʿyan
+    title_ar: وفاة ابن خلكان — صاحب «وفيات الأعيان»
+    title_fr: Mort d'Ibn Khallikān — auteur de Wafayāt al-Aʿyān
+    description_en: |
+      Shams al-Din Aḥmad ibn Muḥammad Ibn Khallikan — Shafiʿi
+      qadi of Damascus and author of *Wafayat al-Aʿyan wa-Anbaʾ
+      Abnaʾ al-Zaman*, the standard general biographical dictionary
+      of the medieval Sunni tradition — died in Damascus at age
+      about 73. *Wafayat al-Aʿyan* contains 855 entries on
+      historically prominent figures from the Companions to the
+      mid-7th century AH, deliberately organised by death-date
+      rather than by category to surface what each generation
+      collectively contributed; the work became the model imitated
+      by every later biographical dictionary in Arabic, including
+      al-Dhahabi's *Tarikh al-Islam* and Ibn Hajar's *Inbaʾ al-
+      Ghumr*. Ibn Khallikan studied with the family of Ibn al-Athir
+      historians at Mosul; his judgements are uniformly cited as
+      authoritative.
+    description_ar: |
+      توفي القاضي شمس الدين أحمد بن محمد ابن خلكان — قاضي قضاة
+      الشافعية بدمشق، ومصنف «وفيات الأعيان وأنباء أبناء الزمان»،
+      المعجم البيوغرافي العام المعتمد في تراث أهل السنة في العصور
+      الوسطى — بدمشق عن نحو ثلاث وسبعين سنة. ويضم «وفيات الأعيان»
+      ٨٥٥ ترجمة لأعلام الإسلام من الصحابة إلى منتصف القرن السابع
+      الهجري، ورتبه ابن خلكان عن قصد بحسب سنوات الوفاة لا
+      بالموضوعات ليبرز إسهام كل جيل مجتمعاً؛ فصار قالب كل المعاجم
+      البيوغرافية بالعربية بعده، ومنها «تاريخ الإسلام» للذهبي
+      و«إنباء الغمر» لابن حجر العسقلاني. وأخذ ابن خلكان عن آل ابن
+      الأثير المؤرخين بالموصل، وأحكامه يُحال إليها مرجعاً عند
+      المتأخرين.
+    description_fr: |
+      Shams al-Dīn Aḥmad ibn Muḥammad Ibn Khallikān — qāḍī shāfiʿite
+      de Damas et auteur de *Wafayāt al-Aʿyān wa-Anbāʾ Abnāʾ al-
+      Zamān*, le dictionnaire biographique général de référence de
+      la tradition sunnite médiévale — mourut à Damas à l'âge
+      d'environ 73 ans. *Wafayāt al-Aʿyān* contient 855 notices sur
+      des figures historiques éminentes depuis les Compagnons
+      jusqu'au milieu du VIIe siècle de l'Hégire, délibérément
+      organisées par date de décès plutôt que par catégorie afin de
+      faire émerger ce que chaque génération collectivement
+      apporta; l'œuvre devint le modèle imité par tout dictionnaire
+      biographique arabe ultérieur, y compris *Tārīkh al-Islām*
+      d'al-Dhahabī et *Inbāʾ al-Ghumr* d'Ibn Ḥajar. Ibn Khallikān
+      étudia auprès de la famille des historiens Ibn al-Athīr à
+      Mossoul; ses jugements sont uniformément cités comme faisant
+      autorité.
+    canonical_hijri: {year: 681, month: 11, precision: month}
+    canonical_gregorian: {date: 1282-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-khallikan, subject]]
+    tags: [history, biography, wafayat-al-ayan, damascus, mamluk, shafii]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Khallikan"
+
+  - slug: death-of-al-maqrizi
+    category: scholar
+    title_en: Death of al-Maqrizi — Egyptian historian
+    title_ar: وفاة المقريزي — مؤرخ مصر
+    title_fr: Mort d'al-Maqrīzī — historien d'Égypte
+    description_en: |
+      Taqi al-Din Aḥmad ibn ʿAli al-Maqrizi — Mamluk-era Egyptian
+      Shafiʿi qadi, polymath historian, and the foremost chronicler
+      of medieval Cairo — died in Cairo at age about 80. His *al-
+      Mawaʿiz wa-l-Iʿtibar bi-Dhikr al-Khiṭaṭ wa-l-Athar* (commonly
+      *al-Khiṭaṭ al-Maqrizīya*) is a topographical-historical
+      encyclopedia of Egypt and Cairo, recording every quarter,
+      mosque, madrasa, market, and waqf foundation in the city
+      with the historical events tied to each — the indispensable
+      source for medieval Cairene urbanism. His *al-Sulūk li-
+      Maʿrifat Duwal al-Mulūk* is the standard chronicle of the
+      Mamluk and Ayyubid periods. *Imtaʿ al-Asmaʿ* preserves a
+      detailed sira-tradition for the Prophet ﷺ. He was a frequent
+      victim of the political and economic crises of late Mamluk
+      Egypt, which his *Ighatha al-Umma bi-Kashf al-Ghumma* analyses
+      with rare economic acuity.
+    description_ar: |
+      توفي الإمام تقي الدين أحمد بن علي المقريزي — قاضي شافعية مصر
+      في عصر المماليك، والمؤرخ الموسوعي وكبير مؤرخي القاهرة الوسطى —
+      بالقاهرة عن نحو ثمانين سنة. وكتابه «المواعظ والاعتبار بذكر
+      الخطط والآثار» (المعروف بـ«الخطط المقريزية») موسوعة جغرافية-
+      تاريخية لمصر والقاهرة، يسجل كل حي ومسجد ومدرسة وسوق ووقف في
+      المدينة مع ما تعلق به من حوادث، وهو المرجع الذي لا غنى عنه
+      في عمران القاهرة في العصر الوسيط. وكتابه «السلوك لمعرفة دول
+      الملوك» التاريخ المعتمد للعصرين الأيوبي والمملوكي. وفي «إمتاع
+      الأسماع» سيرة نبوية مفصلة. وعانى رحمه الله أزمات مصر السياسية
+      والاقتصادية في أواخر المماليك، وحلل أزمتها الاقتصادية في
+      «إغاثة الأمة بكشف الغمة» تحليلاً اقتصادياً يندر مثله في عصره.
+    description_fr: |
+      Taqi al-Dīn Aḥmad ibn ʿAli al-Maqrīzī — qāḍī shāfiʿite
+      égyptien de l'ère mamelouke, historien polymathe et le plus
+      grand chroniqueur du Caire médiéval — mourut au Caire à l'âge
+      d'environ 80 ans. Son *al-Mawāʿiẓ wa-l-Iʿtibār bi-Dhikr al-
+      Khiṭaṭ wa-l-Āthār* (communément *al-Khiṭaṭ al-Maqrīzīya*)
+      est une encyclopédie topographique-historique de l'Égypte et
+      du Caire, consignant chaque quartier, mosquée, madrasa, marché
+      et fondation *waqf* de la ville avec les événements historiques
+      qui leur sont liés — la source indispensable pour l'urbanisme
+      cairote médiéval. Son *al-Sulūk li-Maʿrifat Duwal al-Mulūk*
+      est la chronique standard des périodes mamelouke et ayyoubide.
+      *Imtāʿ al-Asmāʿ* préserve une tradition *sīra* détaillée pour
+      le Prophète ﷺ. Il fut fréquemment victime des crises politiques
+      et économiques de la fin de l'Égypte mamelouke, que son
+      *Ighāthat al-Umma bi-Kashf al-Ghumma* analyse avec une acuité
+      économique rare.
+    canonical_hijri: {year: 845, month: 2, precision: month}
+    canonical_gregorian: {date: 1442-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[al-maqrizi, subject]]
+    tags: [history, cairo, mamluk, khitat, sulluk, shafii]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Maqrizi"
+
+  # =========================================================================
+  # SAHABI + ASTRONOMER + ANATOLIAN MYSTIC
+  # =========================================================================
+
+  - slug: death-of-khabbab-ibn-al-aratt
+    category: companion
+    title_en: Death of Khabbab ibn al-Aratt ra — early martyr of Mecca
+    title_ar: وفاة خباب بن الأرت رضي الله عنه — من أوائل المعذبين في الإسلام
+    title_fr: Mort de Khabbāb ibn al-Aratt ra — martyr ancien de La Mecque
+    description_en: |
+      Khabbāb ibn al-Aratt al-Tamimi, sixth man to embrace Islam in
+      Mecca and one of the most severely tortured Companions for
+      his faith — burning coals were laid on his back until they
+      were extinguished by the fat of his own flesh — died in Kufa
+      at age about 73. He was a smith by trade, a freedman of Umm
+      Anmār, and the narrator of the celebrated hadith in which the
+      Companions complained of Quraysh's persecution to the Prophet ﷺ
+      while he reclined on his cloak in the shadow of the Kaʿba,
+      and the Prophet ﷺ replied: "Among those before you a man
+      would be put in a pit and have a saw set to his head and be
+      cleaved in two, yet that would not turn him from his religion"
+      (Bukhari). ʿAli ra prayed over him, having stopped on his
+      way to Ṣiffīn to do so. He was the first Muslim to be buried
+      outside Medina or Mecca.
+    description_ar: |
+      توفي خباب بن الأرت التميمي رضي الله عنه — سادس من أسلم في
+      مكة، وأحد أشد الصحابة عذاباً في سبيل الله، فقد كانت قريش
+      تضع الجمر على ظهره حتى لا تطفئه إلا شحوم بدنه — بالكوفة عن
+      نحو ثلاث وسبعين سنة. كان حداداً قيناً، ومولى لأم أنمار، وراوي
+      الحديث المشهور الذي شكا فيه الصحابة عذاب قريش إلى رسول الله ﷺ
+      وهو متوسد بردة له في ظل الكعبة، فقال له ﷺ: «قد كان من قبلكم
+      ليؤخذ الرجل فيُحفر له في الأرض ثم يؤتى بالمنشار فيوضع على
+      رأسه فيشق باثنتين، ما يصده ذلك عن دينه» (رواه البخاري). وصلى
+      عليه علي رضي الله عنه، توقّف لذلك في طريقه إلى صفين. وهو أول
+      مسلم دُفن خارج مكة والمدينة.
+    description_fr: |
+      Khabbāb ibn al-Aratt al-Tamīmī, sixième homme à embrasser
+      l'Islam à La Mecque et l'un des Compagnons les plus
+      sévèrement torturés pour sa foi — des charbons ardents étaient
+      placés sur son dos jusqu'à ce qu'ils s'éteignent dans la
+      graisse même de sa chair — mourut à Koufa à l'âge d'environ
+      73 ans. Il était forgeron de métier, affranchi d'Umm Anmār,
+      et le narrateur du célèbre hadith dans lequel les Compagnons
+      se plaignirent de la persécution de Quraysh au Prophète ﷺ
+      alors qu'il reposait sur son manteau à l'ombre de la Kaʿba,
+      et le Prophète ﷺ répondit : « parmi ceux qui vous ont précédés,
+      un homme était placé dans une fosse et l'on posait une scie
+      sur sa tête et il était fendu en deux, et cela ne le détournait
+      pas de sa religion » (Bukhārī). ʿAli ra pria sur lui, s'étant
+      arrêté en chemin vers Ṣiffīn pour le faire. Il fut le premier
+      musulman à être enterré hors de Médine ou de La Mecque.
+    canonical_hijri: {year: 37, precision: year}
+    canonical_gregorian: {date: 657-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 3852"
+    people: [[khabbab-ibn-al-aratt, subject], [ali-ibn-abi-talib, subject]]
+    tags: [sahaba, mecca, persecution, kufa, siffin, fitna]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khabbab_ibn_al-Aratt"
+
+  - slug: death-of-ibn-al-shatir
+    category: scientist
+    title_en: Death of Ibn al-Shaṭir — astronomer of the Umayyad Mosque
+    title_ar: وفاة ابن الشاطر — فلكي الجامع الأموي
+    title_fr: Mort d'Ibn al-Shāṭir — astronome de la Grande Mosquée des Omeyyades
+    description_en: |
+      ʿAla al-Din ʿAli ibn al-Shaṭir — chief muwaqqit
+      (timekeeper) of the Umayyad Mosque in Damascus and the
+      foremost reformer of Ptolemaic planetary models in the
+      Mamluk era — died in Damascus at age about 73. His *Nihayat
+      al-Suʾl fi Taṣḥiḥ al-Uṣūl* presented planetary models that
+      eliminated the Ptolemaic equant and produced predictive
+      results matching observation more closely than Ptolemy's;
+      Copernicus's lunar and Mercury models in *De Revolutionibus*
+      are mathematically identical to Ibn al-Shaṭir's, transmitted
+      via Greek-Byzantine intermediaries — a finding established by
+      Owen Gingerich and Noel Swerdlow that fundamentally
+      reframed the historical relationship between Islamic
+      astronomy and the Copernican revolution. He also designed and
+      installed the magnificent sundial on the minaret of the
+      Umayyad Mosque, still functioning today.
+    description_ar: |
+      توفي علاء الدين علي بن الشاطر — موقّت الجامع الأموي بدمشق،
+      وأكبر مصلحي النماذج الفلكية البطلمية في عصر المماليك — بدمشق
+      عن نحو ثلاث وسبعين سنة. وكتابه «نهاية السؤل في تصحيح الأصول»
+      عرض نماذج للحركة الكوكبية تخلصت من «المعدّل» (equant) البطلمي،
+      وأخرجت تنبؤات أقرب إلى الرصد من بطليموس. ونماذج كوبرنيكوس
+      للقمر وعطارد في «حركات الأجرام السماوية» مطابقة رياضياً لنماذج
+      ابن الشاطر، انتقلت إليه عبر وسطاء بيزنطيين-إغريقيين — وهذا ما
+      أثبته أوين غينغريتش ونويل سويردلو، فأعاد ضبط العلاقة التاريخية
+      بين الفلك الإسلامي والثورة الكوبرنيكية. كما صمّم ابن الشاطر
+      وركّب المزولة الشمسية الباهرة على مئذنة الجامع الأموي، وما
+      تزال تعمل إلى اليوم.
+    description_fr: |
+      ʿAla al-Dīn ʿAli ibn al-Shāṭir — *muwaqqit* en chef
+      (chronométreur) de la Grande Mosquée des Omeyyades à Damas et
+      le principal réformateur des modèles planétaires ptoléméens à
+      l'ère mamelouke — mourut à Damas à l'âge d'environ 73 ans.
+      Son *Nihāyat al-Suʾl fī Taṣḥīḥ al-Uṣūl* présenta des modèles
+      planétaires qui éliminèrent l'*équant* ptoléméen et produisirent
+      des résultats prédictifs s'accordant avec l'observation plus
+      étroitement que ceux de Ptolémée; les modèles lunaires et de
+      Mercure de Copernic dans *De Revolutionibus* sont mathématiquement
+      identiques à ceux d'Ibn al-Shāṭir, transmis via des
+      intermédiaires gréco-byzantins — une découverte établie par
+      Owen Gingerich et Noel Swerdlow qui a fondamentalement
+      reformulé la relation historique entre l'astronomie islamique
+      et la révolution copernicienne. Il conçut et installa
+      également le magnifique cadran solaire sur le minaret de la
+      Grande Mosquée des Omeyyades, encore fonctionnel aujourd'hui.
+    canonical_hijri: {year: 777, precision: year}
+    canonical_gregorian: {date: 1375-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: editorial
+    people: [[ibn-al-shatir, subject]]
+    tags: [scientist, astronomy, damascus, mamluk, miqat, copernicus]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Shatir"
+
+  - slug: death-of-yunus-emre
+    category: scholar
+    title_en: Death of Yunus Emre — Anatolian Sufi poet
+    title_ar: وفاة يونس أمره — صوفي الأناضول وشاعرها
+    title_fr: Mort de Yunus Emre — poète soufi d'Anatolie
+    description_en: |
+      Yunus Emre — Sunni Anatolian Turkmen mystic poet, contemporary
+      of the Beylik period that preceded the rise of the Ottoman
+      state, and the founding voice of the Turkish-language Sufi
+      lyric tradition — died, by the consensus of the early
+      hagiographies, in Anatolia. He was about 82. Composing
+      almost exclusively in vernacular Turkish (rather than the
+      Persian and Arabic of court literature), he made the
+      classical themes of Sunni Sufism — *tawakkul*, *muhabba*,
+      love of the Prophet ﷺ, the transient nature of the world —
+      accessible to peasants, weavers, and dervishes for whom the
+      Persian poetry of Rumi was inaccessible. His *Divan* and
+      *Risaletü'n-Nushiyye* remain canonical texts of Turkish
+      literature, taught in every Turkish school. UNESCO declared
+      1991 the international Year of Yunus Emre.
+    description_ar: |
+      توفي يونس أمره — متصوف سني تركماني من أناضول البيليكات قبل
+      قيام الدولة العثمانية، والمؤسس الصوتي للأدب الصوفي باللغة
+      التركية — في الأناضول، كما اتفقت كتب المناقب الباكرة. وقد
+      ناهز الثانية والثمانين. نظم شعره كله تقريباً بالتركية الدارجة
+      لا بالفارسية والعربية اللتين كانتا لغتي البلاط، فأوصل المعاني
+      الكبرى للتصوف السني — التوكل والمحبة، ومحبة النبي ﷺ، وفناء
+      الدنيا — إلى الفلاحين والنساجين والدراويش الذين كانت فارسية
+      الرومي بعيدة عن أفهامهم. وما زال «ديوانه» و«رسالة النصيحة»
+      من أمهات نصوص الأدب التركي، مقررة في كل مدرسة تركية. وأعلنت
+      اليونسكو سنة ١٩٩١ ميلادي «سنة يونس أمره» العالمية.
+    description_fr: |
+      Yunus Emre — poète mystique sunnite turkmène anatolien,
+      contemporain de la période des beyliks qui précéda l'essor
+      de l'État ottoman, et la voix fondatrice de la tradition
+      lyrique soufie en langue turque — mourut, selon le consensus
+      des hagiographies anciennes, en Anatolie. Il avait environ
+      82 ans. Composant presque exclusivement en turc vernaculaire
+      (plutôt qu'en persan et en arabe des littératures de cour),
+      il rendit les thèmes classiques du soufisme sunnite — le
+      *tawakkul*, la *muhabba*, l'amour du Prophète ﷺ, la nature
+      éphémère du monde — accessibles aux paysans, tisserands et
+      derviches pour qui la poésie persane de Rūmī était
+      inaccessible. Son *Dīvān* et son *Risāletü'n-Nuṣḥiyye*
+      demeurent des textes canoniques de la littérature turque,
+      enseignés dans toutes les écoles turques. L'UNESCO déclara
+      1991 année internationale de Yunus Emre.
+    canonical_hijri: {year: 720, precision: year}
+    canonical_gregorian: {date: 1320-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[yunus-emre, subject]]
+    tags: [sufi, turkish, anatolia, beylik, poetry]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yunus_Emre"

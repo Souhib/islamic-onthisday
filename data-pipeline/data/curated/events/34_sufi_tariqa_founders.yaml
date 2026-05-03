@@ -1,0 +1,666 @@
+# Wave 21 of curated event additions (2026-04-27).
+# 12 deaths of foundational Sunni Sufi figures: tariqa founders, major shaykhs,
+# Naqshbandi precursors, early ascetics, and the metaphysician al-Jīlī.
+# All accepted in mainstream Sunni Sufi tradition. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # MAGHREBI SHAYKHS — al-Shādhilī's master + Tijāniyya founder
+  # =========================================================================
+
+  - slug: death-of-abd-al-salam-ibn-mashish
+    category: scholar
+    title_en: Death of ʿAbd al-Salām ibn Mashīsh — master of al-Shādhilī
+    title_ar: وفاة عبد السلام بن مشيش — شيخ الشاذلي
+    title_fr: Mort de ʿAbd al-Salām ibn Mashīsh — maître d'al-Shādhilī
+    description_en: |
+      ʿAbd al-Salam ibn Mashish al-ʿAlami al-Idrisi — Maghrebi shaykh
+      of the Jabal al-ʿAlam in northern Morocco, claimed descendant
+      of the Prophet ﷺ through al-Hasan ra, and the spiritual master
+      to whom Abu al-Ḥasan al-Shadhili traced the foundation of his
+      ṭarīqa — was killed at his mountain hermitage by a heretical
+      pretender. He was about 62. He left no formal writings, but
+      his short *al-Ṣalāt al-Mashīshiyya* — a celebrated litany of
+      blessing upon the Prophet ﷺ — remains in active recitation
+      across the Maghrebi Sufi tradition. Through his sole disciple
+      al-Shadhili, the Shadhili silsila and every later Maghrebi
+      Sufi chain (Darqawiyya, ʿAlawiyya, Yashruṭiyya, Madaniyya)
+      passes through him; he is therefore foundational for the
+      entire Maghrebi-Egyptian-Levantine Shadhili tradition. His
+      shrine at Jabal al-ʿAlam remains a major pilgrimage site for
+      Moroccan Sufis.
+    description_ar: |
+      قُتل الشيخ عبد السلام بن مشيش العَلَمي الإدريسي — شيخ المغرب
+      بجبل العَلَم بشمال المغرب، الحسني النسب من ذرية النبي ﷺ، والمربي
+      الذي أسند إليه أبو الحسن الشاذلي تأسيس طريقته — في خلوته بالجبل
+      على يد متنبئ متهلوس، وهو في نحو الثانية والستين من عمره. لم يصنف
+      كتاباً، غير أن ورده القصير «الصلاة المشيشية» في الصلاة على
+      النبي ﷺ لا يزال متداولاً قراءةً في عامة التصوف المغربي. وعن
+      طريق تلميذه الأوحد الشاذلي تتسلسل سلسلة الشاذلية وكل ما تفرع
+      عنها من طرق المغرب اللاحقة (الدرقاوية والعلاوية واليشرطية
+      والمدنية)، فهو أصل لتراث الشاذلية في المغرب ومصر والشام بعامته.
+      ولا يزال ضريحه في جبل العلم من أعظم مزارات الصوفية بالمغرب.
+    description_fr: |
+      ʿAbd al-Salām ibn Mashīsh al-ʿAlamī al-Idrīsī — shaykh maghrébin
+      du Jabal al-ʿAlam, dans le nord du Maroc, descendant revendiqué
+      du Prophète ﷺ par al-Ḥasan ra, et maître spirituel auquel
+      Abū al-Ḥasan al-Shādhilī fit remonter la fondation de sa
+      *ṭarīqa* — fut tué dans son ermitage de montagne par un
+      prétendant hérétique. Il avait environ 62 ans. Il ne laissa
+      aucun écrit formel, mais sa courte *al-Ṣalāt al-Mashīshiyya*
+      — célèbre litanie de bénédiction sur le Prophète ﷺ — demeure
+      en récitation active à travers toute la tradition soufie
+      maghrébine. Par son unique disciple al-Shādhilī, la *silsila*
+      shādhiliyya et toutes les chaînes soufies maghrébines
+      ultérieures (Darqāwiyya, ʿAlāwiyya, Yashruṭiyya, Madaniyya)
+      passent par lui; il est donc fondateur pour l'ensemble de la
+      tradition shādhiliyya maghrébo-égypto-levantine. Son sanctuaire
+      au Jabal al-ʿAlam demeure un site de pèlerinage majeur pour
+      les soufis marocains.
+    canonical_hijri: {year: 621, precision: year}
+    canonical_gregorian: {date: 1224-07-11, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: editorial
+    people: [[abd-al-salam-ibn-mashish, subject], [al-shadhili, subject]]
+    tags: [sufi, sunni, maghreb, morocco, shadhiliyya, sharifian]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Salam_ibn_Mashish_al-Alami"
+
+  # death-of-ahmad-al-tijani intentionally excluded — Tijaniyya — yaqẓa-vision of Prophet ﷺ, Salat al-Fātiḥ ≈ 6000 Qurʾān, khatm al-awliyāʾ.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+
+  - slug: death-of-abu-najib-al-suhrawardi
+    category: scholar
+    title_en: Death of Abu Najīb al-Suhrawardī
+    title_ar: وفاة أبي النجيب السهروردي
+    title_fr: Mort d'Abū al-Najīb al-Suhrawardī
+    description_en: |
+      Abu al-Najib ʿAbd al-Qahir al-Suhrawardi — Persian Shafiʿi
+      jurist trained in Baghdad, professor of Shafiʿi law at the
+      Niẓāmiyya madrasa, and the founder of the Suhrawardiyya
+      ṭarīqa whose final classical formalisation was completed by
+      his nephew ʿUmar — died in Baghdad at age about 71. His
+      *Ādab al-Murīdīn* ("Etiquette of the Spiritual Aspirants")
+      established a foundational genre in Sufi adab literature,
+      codifying the ethics, daily discipline, and spiritual rights
+      and duties of the path within strict Sunni-Shariʿa framing;
+      the work remained the model imitated by every later
+      Suhrawardiyya and Naqshbandiyya manual of conduct. Among his
+      direct disciples were Aḥmad al-Ghazali (younger brother of
+      the philosopher) and ʿAbd al-Qadir al-Jīlani's circle. He
+      lectured publicly at the Baghdad ribat he had founded on the
+      west bank of the Tigris.
+    description_ar: |
+      توفي الإمام أبو النجيب عبد القاهر السهروردي — العالم الفارسي
+      الشافعي المذهب، الذي تخرّج بمدارس بغداد ودرّس الفقه الشافعي
+      بالنظامية ببغداد، ومؤسس الطريقة السهروردية التي أنجز ابن
+      أخيه عمر تأطيرها الكلاسيكي النهائي — ببغداد عن نحو إحدى
+      وسبعين سنة. وقد أسس كتابه «آداب المريدين» جنساً أصلياً في
+      أدب التصوف، يقنن أخلاق السالكين وأوقات نظام يومهم وحقوقهم
+      وواجباتهم في إطار الشريعة السنية الصارم؛ وظل المتن الذي
+      تحاكيه عامة كتب الآداب اللاحقة في السهروردية والنقشبندية.
+      وأخذ عنه أحمد الغزالي شقيق الفيلسوف، وحلقة عبد القادر الجيلاني.
+      ودرّس علناً في رباطه الذي أسسه على الضفة الغربية من دجلة ببغداد.
+    description_fr: |
+      Abū al-Najīb ʿAbd al-Qāhir al-Suhrawardī — juriste shāfiʿite
+      d'origine perse formé à Bagdad, professeur de droit shāfiʿite
+      à la madrasa Niẓāmiyya, et fondateur de la *ṭarīqa
+      Suhrawardiyya* dont la formalisation classique définitive
+      sera achevée par son neveu ʿUmar — mourut à Bagdad à l'âge
+      d'environ 71 ans. Son *Ādāb al-Murīdīn* (« Convenances des
+      aspirants ») établit un genre fondateur dans la littérature
+      *adab* soufie, codifiant l'éthique, la discipline quotidienne
+      et les droits et devoirs spirituels de la voie dans un cadre
+      sunnite-charʿique strict; l'ouvrage demeura le modèle imité
+      par tous les manuels de conduite suhrawardiyya et
+      naqshbandiyya ultérieurs. Parmi ses disciples directs figurent
+      Aḥmad al-Ghazālī (frère cadet du philosophe) et le cercle
+      d'ʿAbd al-Qādir al-Jīlānī. Il enseigna publiquement au
+      *ribāṭ* qu'il avait fondé sur la rive ouest du Tigre à Bagdad.
+    canonical_hijri: {year: 563, precision: year}
+    canonical_gregorian: {date: 1168-04-03, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ei2
+    people: [[abu-najib-al-suhrawardi, subject]]
+    tags: [sufi, sunni, baghdad, suhrawardiyya, shafii, nizamiyya, persian]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Najib_Suhrawardi"
+
+  - slug: death-of-umar-al-suhrawardi
+    category: scholar
+    title_en: Death of ʿUmar al-Suhrawardī — author of ʿAwārif al-Maʿārif
+    title_ar: وفاة عمر السهروردي — صاحب «عوارف المعارف»
+    title_fr: Mort d'ʿUmar al-Suhrawardī — auteur des ʿAwārif al-Maʿārif
+    description_en: |
+      Shihab al-Din Abu Ḥafṣ ʿUmar ibn Muḥammad al-Suhrawardi —
+      Persian Shafiʿi jurist, nephew and successor of Abu al-Najib,
+      and the figure who completed the final classical formalisation
+      of the Suhrawardiyya ṭarīqa — died in Baghdad at age about
+      89. His *ʿAwārif al-Maʿārif* ("Bestowals of Gnoses") is the
+      single most influential Sufi manual of the entire Sunni
+      tradition: a synthesis of doctrine, ethics, and the practice
+      of the ṭarīqa across some sixty chapters that became the
+      curriculum text in Suhrawardi, Chishti, and Qadiri convents
+      from Anatolia to Bengal for the next seven centuries. He
+      served as official emissary for caliphs al-Nāṣir li-Dīn
+      Allah and al-Mustanṣir to Saljuq, Khwarazmshah, and Ayyubid
+      courts. His pupils included Saʿdi of Shiraz and Bahaʾ al-Din
+      Zakariyya Multani — through whom the Suhrawardiyya entered
+      the Indian subcontinent.
+    description_ar: |
+      توفي شهاب الدين أبو حفص عمر بن محمد السهروردي — العالم الفارسي
+      الشافعي، ابن أخي أبي النجيب وخليفته، الذي أنجز التأطير
+      الكلاسيكي النهائي للطريقة السهروردية — ببغداد عن نحو تسع
+      وثمانين سنة. وكتابه «عوارف المعارف» أعظم ما صنّف في التصوف
+      السني تأثيراً على الإطلاق: جامع للعقيدة والأخلاق وعمل الطريقة
+      في نحو ستين باباً، صار المنهج المعتمد في رباطات السهروردية
+      والشاذلية والقادرية والشيشتية من الأناضول إلى البنغال سبعة
+      قرون. وقد ندبه الخليفتان الناصر لدين الله والمستنصر سفيراً
+      رسمياً إلى بلاطات السلاجقة والخوارزمشاهية والأيوبية. وأخذ عنه
+      سعدي الشيرازي وبهاء الدين زكريا الملتاني الذي بطريقه دخلت
+      السهروردية شبه القارة الهندية.
+    description_fr: |
+      Shihāb al-Dīn Abū Ḥafṣ ʿUmar ibn Muḥammad al-Suhrawardī —
+      juriste shāfiʿite d'origine perse, neveu et successeur d'Abū
+      al-Najīb, et la figure qui acheva la formalisation classique
+      définitive de la *ṭarīqa Suhrawardiyya* — mourut à Bagdad à
+      l'âge d'environ 89 ans. Son *ʿAwārif al-Maʿārif* (« Dons des
+      Gnoses ») est le manuel soufi le plus influent de toute la
+      tradition sunnite : synthèse de doctrine, d'éthique et de
+      pratique de la *ṭarīqa* en quelque soixante chapitres,
+      devenue le texte du curriculum dans les couvents
+      Suhrawardiyya, Chishtiyya et Qādiriyya, de l'Anatolie au
+      Bengale durant sept siècles. Il servit d'émissaire officiel
+      pour les califes al-Nāṣir li-Dīn Allāh et al-Mustanṣir auprès
+      des cours saljūqides, khwārazmshāhs et ayyoubides. Parmi ses
+      élèves figurent Saʿdī de Shīrāz et Bahāʾ al-Dīn Zakariyyā
+      Multānī — par qui la Suhrawardiyya entra dans le sous-
+      continent indien.
+    canonical_hijri: {year: 632, month: 1, precision: month}
+    canonical_gregorian: {date: 1234-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ei2
+    people: [[umar-al-suhrawardi, subject]]
+    tags: [sufi, sunni, baghdad, suhrawardiyya, shafii, abbasid, awarif]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Hafs_Umar_al-Suhrawardi"
+
+  # =========================================================================
+  # CENTRAL ASIA — Naqshbandi precursor + Kubrawi founder
+  # =========================================================================
+
+  - slug: death-of-yusuf-al-hamadani
+    category: scholar
+    title_en: Death of Yūsuf al-Hamadānī — Khwajagan precursor
+    title_ar: وفاة يوسف الهمذاني — أصل سلسلة الخواجگان
+    title_fr: Mort de Yūsuf al-Hamadānī — précurseur des Khwājagān
+    description_en: |
+      Abu Yaʿqub Yusuf ibn Ayyub al-Hamadani — Persian Shafiʿi
+      jurist trained in Baghdad under Abu Isḥaq al-Shirazi, then
+      settled at Merv, and the first of the Central Asian masters
+      named *Khwājagān* ("the Masters") whose silsila would later
+      crystallise as the Naqshbandi ṭarīqa — died near Merv at age
+      about 95. His four named successors — ʿAbdullah Barqi, Ḥasan
+      al-Andaqi, Aḥmad Yasawi, and ʿAbd al-Khaliq al-Ghujdawani —
+      branched the Khwajagan into two great streams: the Yasawiyya
+      (through Yasawi, dominant later in the Turkic steppe) and
+      the Naqshbandiyya (through Ghujdawani, the line that would
+      reach Bahaʾ al-Din Naqshband). His reported teachings on
+      *suḥba* (companionship of a master) and *dhikr khafī* (silent
+      remembrance) became the two non-negotiable principles of
+      the Naqshbandi path two centuries later.
+    description_ar: |
+      توفي أبو يعقوب يوسف بن أيوب الهمذاني — العالم الفارسي الشافعي،
+      تلميذ أبي إسحاق الشيرازي ببغداد، استوطن مرو، وأول مشايخ آسيا
+      الوسطى الذين سُمّوا «الخواجگان» — كبار المشايخ — الذين تحولت
+      سلسلتهم لاحقاً إلى الطريقة النقشبندية — قرب مرو عن نحو خمس
+      وتسعين سنة. وقد أنجب أربعة من خلفائه: عبد الله البرقي والحسن
+      الأندقي وأحمد اليسوي وعبد الخالق الغجدواني، فتفرعت سلسلة
+      الخواجگان عند خليفتيه الأخيرين إلى تيارين عظيمين: اليسوية
+      (عبر اليسوي، فسادت في بادية الترك من بعد) والنقشبندية (عبر
+      الغجدواني، وهي السلسلة التي وصلت إلى بهاء الدين نقشبند).
+      وصارت تعاليمه المأثورة في الصحبة والذكر الخفي ركيزتين
+      أصليتين في الطريقة النقشبندية بعد نحو قرنين من وفاته.
+    description_fr: |
+      Abū Yaʿqūb Yūsuf ibn Ayyūb al-Hamadānī — juriste shāfiʿite
+      d'origine perse, formé à Bagdad sous Abū Isḥāq al-Shīrāzī,
+      puis établi à Merv, et le premier des maîtres centrasiatiques
+      appelés *Khwājagān* (« les Maîtres ») dont la *silsila* allait
+      cristalliser plus tard comme la *ṭarīqa Naqshbandiyya* —
+      mourut près de Merv à l'âge d'environ 95 ans. Ses quatre
+      successeurs nommés — ʿAbdallāh Barqī, Ḥasan al-Andaqī, Aḥmad
+      Yasawī et ʿAbd al-Khāliq al-Ghujdawānī — bifurquèrent les
+      Khwājagān en deux grands courants : la Yasawiyya (par Yasawī,
+      dominante plus tard dans la steppe turcique) et la
+      Naqshbandiyya (par Ghujdawānī, la lignée qui atteindrait
+      Bahāʾ al-Dīn Naqshband). Ses enseignements rapportés sur la
+      *ṣuḥba* (compagnie du maître) et le *dhikr khafī* (rappel
+      silencieux) devinrent les deux principes non négociables de
+      la voie naqshbandiyya deux siècles plus tard.
+    canonical_hijri: {year: 535, precision: year}
+    canonical_gregorian: {date: 1141-02-02, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ei2
+    people: [[yusuf-al-hamadani, subject]]
+    tags: [sufi, sunni, central-asia, khurasan, merv, khwajagan, naqshbandiyya, shafii]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yusuf_Hamadani"
+
+  - slug: death-of-najm-al-din-al-kubra
+    category: scholar
+    title_en: Martyrdom of Najm al-Dīn al-Kubrā at the Mongol siege of Khwārazm
+    title_ar: استشهاد نجم الدين الكبرى في حصار خوارزم المغولي
+    title_fr: Martyre de Najm al-Dīn al-Kubrā au siège mongol du Khwārazm
+    description_en: |
+      Aḥmad ibn ʿUmar Abu al-Jannab Najm al-Din al-Kubra — founder
+      of the Kubrawi ṭarīqa whose chain produced the Hamadani,
+      Naqshi, Nurbakhshi, and Dhahabi sub-orders that radiated
+      across Khurasan, Kashmir, and Mughal India — was killed at
+      the Mongol siege and sack of Konye-Urgench, capital of
+      Khwarazm, at age about 78. Unlike most of the urban Sufi
+      shaykhs of his era who fled before the Mongol advance,
+      al-Kubra refused to leave his city, took up arms, and (as
+      the standard Sufi-historical tradition records, reported in
+      Ibn al-Athir's eyewitness account of the Mongol invasion in
+      *al-Kāmil fī al-Tārīkh*) was killed in the hand-to-hand
+      defence of Khwarazm against the besieging army. His
+      *al-Uṣūl al-ʿAshara* ("The Ten Principles") and *Fawāʾiḥ
+      al-Jamāl* shape the doctrine of the Kubrawi line; through
+      his pupil Saʿd al-Din Hammuya and his pupil's pupil ʿAla'
+      al-Dawla Simnani his teaching reached the Persianate Sufi
+      tradition of the Ilkhanate.
+    description_ar: |
+      استشهد الشيخ أحمد بن عمر أبو الجناب نجم الدين الكبرى — مؤسس
+      الطريقة الكبروية التي تفرعت سلسلتها إلى الهمذانية والنقشية
+      والنوربخشية والذهبية، فانتشرت في خراسان وكشمير والهند المغولية
+      — في حصار المغول لـ«كنية أرغنج» عاصمة خوارزم وسقوطها، وهو
+      في نحو الثامنة والسبعين من عمره. وعلى خلاف عامة مشايخ التصوف
+      من أهل الحضر في عصره الذين فرّوا من زحف المغول، أبى الكبرى
+      الفرار من مدينته، وحمل السلاح، وكما يروى في تراث الصوفية
+      المؤرخ، وما رواه ابن الأثير شاهد عيان للغزو المغولي في
+      «الكامل في التاريخ»، استشهد في الدفاع المباشر عن خوارزم
+      مقاتلاً جنود الجيش المهاجم. ورسمت كتبه «الأصول العشرة»
+      و«فوائح الجمال» عقيدة السلسلة الكبروية؛ ومن طريق تلميذه
+      سعد الدين حمويه ثم تلميذ تلميذه علاء الدولة السمناني
+      وصلت تعاليمه إلى التصوف الفارسي في عهد الإيلخانيين.
+    description_fr: |
+      Aḥmad ibn ʿUmar Abū al-Jannāb Najm al-Dīn al-Kubrā —
+      fondateur de la *ṭarīqa Kubrawiyya* dont la chaîne produisit
+      les sous-ordres Hamadāniyya, Naqshiyya, Nūrbakhshiyya et
+      Dhahabiyya qui rayonnèrent à travers le Khurasan, le Cachemire
+      et l'Inde moghole — fut tué lors du siège mongol et du sac
+      de Konye-Urgench, capitale du Khwārazm, à l'âge d'environ
+      78 ans. Contrairement à la plupart des shaykhs soufis urbains
+      de son époque qui fuirent devant l'avance mongole, al-Kubrā
+      refusa de quitter sa cité, prit les armes et (comme le
+      rapporte la tradition historico-soufie standard, consignée
+      dans le récit de témoin oculaire d'Ibn al-Athīr sur l'invasion
+      mongole dans *al-Kāmil fī al-Tārīkh*) fut tué dans la défense
+      au corps à corps du Khwārazm contre l'armée assiégeante. Son
+      *al-Uṣūl al-ʿAshara* (« Les Dix Principes ») et ses *Fawāʾiḥ
+      al-Jamāl* façonnent la doctrine de la lignée kubrawiyya; par
+      son disciple Saʿd al-Dīn Ḥammūya et le disciple de celui-ci
+      ʿAlāʾ al-Dawla Simnānī, son enseignement atteignit la
+      tradition soufie persanophone de l'Ilkhanat.
+    canonical_hijri: {year: 618, month: 1, precision: month}
+    canonical_gregorian: {date: 1221-02-15, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+      - source_key: ei2
+    people: [[najm-al-din-al-kubra, subject]]
+    tags: [sufi, sunni, central-asia, khwarazm, mongols, kubrawiyya, martyr, khurasan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Najmuddin_Kubra"
+
+  # =========================================================================
+  # EGYPT — al-Badawī, al-Dasūqī, al-Shaʿrānī
+  # =========================================================================
+
+  - slug: death-of-ahmad-al-badawi
+    category: scholar
+    title_en: Death of Aḥmad al-Badawī — founder of the Badawiyya
+    title_ar: وفاة أحمد البدوي — مؤسس الطريقة البدوية
+    title_fr: Mort d'Aḥmad al-Badawī — fondateur de la Badawiyya
+    description_en: |
+      Aḥmad ibn ʿAli al-Badawi al-Sayyid — Fez-born shaykh of
+      claimed sharifian descent who settled at Tanta in the western
+      Nile Delta in 634 AH and made it the centre of the Badawiyya
+      ṭarīqa, today the largest indigenous Sufi order in Egypt and
+      among the most popular pilgrimage cults of the Sunni Arab
+      world — died at Tanta at age about 79. His annual *mawlid*
+      at Tanta draws between one and three million pilgrims yearly
+      and is the largest popular religious festival in the Arab
+      Sunni world after the Hajj itself. The Badawiyya is
+      distinctive for its emphasis on silent retreat (he is said
+      to have spent forty days motionless on the rooftop of his
+      Tanta zāwiya) and for the red-banner tradition of its
+      affiliates. His pupils included ʿAbd al-ʿAl, the second
+      master of the Badawiyya, through whom the order expanded
+      into Upper Egypt and the Sudan.
+    description_ar: |
+      توفي السيد أحمد بن علي البدوي الفاسي الأصل الحسيني النسب —
+      الذي استوطن طنطا بدلتا غرب النيل سنة ٦٣٤ هـ وجعلها مركز
+      الطريقة البدوية، أكبر الطرق الصوفية المصرية اليوم، وأكثر مزارات
+      الزيارة ذيوعاً في العالم العربي السني — بطنطا عن نحو تسع
+      وسبعين سنة. ومولده السنوي بطنطا يستقطب ما بين المليون والثلاثة
+      ملايين زائر كل عام، وهو أعظم حشد ديني شعبي في العالم العربي
+      السني بعد الحج. وتمتاز البدوية بتأكيدها الخلوة الصامتة، فيُروى
+      أن البدوي قضى أربعين يوماً ثابتاً لا يتحرك على سطح زاويته
+      بطنطا، وبعلامة الراية الحمراء التي يحملها أتباعها. وأخذ عنه
+      عبد العال شيخ الطريقة الثاني، الذي بطريقه اتسعت الطريقة في
+      صعيد مصر والسودان.
+    description_fr: |
+      Aḥmad ibn ʿAlī al-Badawī al-Sayyid — shaykh né à Fès, de
+      descendance sharifienne revendiquée, qui s'établit à Ṭanṭā
+      dans le Delta occidental du Nil en 634 H et en fit le centre
+      de la *ṭarīqa Badawiyya*, aujourd'hui le plus grand ordre
+      soufi indigène d'Égypte et parmi les cultes pèlerins les
+      plus populaires du monde arabe sunnite — mourut à Ṭanṭā à
+      l'âge d'environ 79 ans. Son *mawlid* annuel à Ṭanṭā attire
+      entre un et trois millions de pèlerins chaque année et est
+      la plus grande fête religieuse populaire du monde arabe
+      sunnite après le Ḥajj lui-même. La Badawiyya se distingue
+      par l'accent qu'elle place sur la retraite silencieuse (il
+      aurait passé quarante jours immobile sur le toit de sa
+      *zāwiya* de Ṭanṭā) et par la tradition de la bannière rouge
+      de ses affiliés. Parmi ses disciples figurait ʿAbd al-ʿĀl,
+      second maître de la Badawiyya, par qui l'ordre s'étendit en
+      Haute-Égypte et au Soudan.
+    canonical_hijri: {year: 675, precision: year}
+    canonical_gregorian: {date: 1276-12-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[ahmad-al-badawi, subject]]
+    tags: [sufi, sunni, egypt, mamluk, tanta, badawiyya, mawlid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_al-Badawi"
+
+  - slug: death-of-ibrahim-al-dasuqi
+    category: scholar
+    title_en: Death of Ibrāhīm al-Dasūqī — founder of the Burhāniyya/Dasūqiyya
+    title_ar: وفاة إبراهيم الدسوقي — مؤسس الطريقة البرهانية الدسوقية
+    title_fr: Mort d'Ibrāhīm al-Dasūqī — fondateur de la Burhāniyya/Dasūqiyya
+    description_en: |
+      Burhan al-Din Ibrahim ibn ʿAbd al-ʿAziz al-Dasuqi — Egyptian
+      shaykh born and resident at Dasuq in the western Nile Delta,
+      and the founder of the Burhāniyya (also called Dasūqiyya)
+      ṭarīqa, the fourth of the four "great qutb" Egyptian Sufi
+      orders alongside the Shadhiliyya, Aḥmadiyya (Badawiyya), and
+      Rifaʿiyya — died at Dasuq at age about 43. His brother Musa
+      Abu al-ʿImran was a celebrated Maliki jurist; al-Dasuqi
+      himself was trained in both Shafiʿi and Maliki fiqh and is
+      reputed to have memorised at remarkable speed all the major
+      texts of the Egyptian classical curriculum. His *Ḥizb al-
+      Dasuqi* and *Jawharat al-Taḥqīq* remain in active recitation
+      across the Burhaniyya. The order spread from Egypt into the
+      Sudan, where it remains one of the dominant Sufi traditions
+      under twentieth-century reformer Muḥammad ʿUthman ʿAbduh
+      al-Burhani. His shrine at Dasuq remains a major regional
+      pilgrimage site.
+    description_ar: |
+      توفي الشيخ برهان الدين إبراهيم بن عبد العزيز الدسوقي — الشيخ
+      المصري المولود المقيم بدسوق في غرب دلتا النيل، مؤسس الطريقة
+      البرهانية (المعروفة كذلك بالدسوقية)، رابعة الطرق المصرية
+      الكبرى مع الشاذلية والأحمدية البدوية والرفاعية — بدسوق عن نحو
+      ثلاث وأربعين سنة. وكان أخوه موسى أبو العمران فقيهاً مالكياً
+      مشهوراً، وقد تعلم الدسوقي الفقه على المذهبين الشافعي
+      والمالكي، وروي عنه ضبطه ضبطاً سريعاً فائقاً لأمهات نصوص المنهج
+      المصري الكلاسيكي. ولا يزال «حزب الدسوقي» و«جوهرة التحقيق»
+      من أوراده تتداول قراءةً في عامة البرهانية. وانتقلت الطريقة
+      من مصر إلى السودان، فهي اليوم من غالب طرق التصوف هناك بزعامة
+      المُجدد الشيخ محمد عثمان عبده البرهاني في القرن العشرين. ولا
+      يزال ضريحه بدسوق من أكبر مزارات الإقليم.
+    description_fr: |
+      Burhān al-Dīn Ibrāhīm ibn ʿAbd al-ʿAzīz al-Dasūqī — shaykh
+      égyptien né et résidant à Dasūq dans le Delta occidental du
+      Nil, et fondateur de la *ṭarīqa Burhāniyya* (aussi appelée
+      Dasūqiyya), quatrième des quatre grands ordres soufis
+      égyptiens « du *qutb* » aux côtés de la Shādhiliyya, de
+      l'Aḥmadiyya (Badawiyya) et de la Rifāʿiyya — mourut à Dasūq
+      à l'âge d'environ 43 ans. Son frère Mūsā Abū al-ʿImrān fut
+      un juriste malikite renommé; al-Dasūqī lui-même fut formé en
+      *fiqh* shāfiʿite et malikite, et la tradition rapporte qu'il
+      mémorisa à une vitesse remarquable tous les textes majeurs
+      du curriculum classique égyptien. Son *Ḥizb al-Dasūqī* et
+      sa *Jawharat al-Taḥqīq* demeurent en récitation active à
+      travers la Burhāniyya. L'ordre s'étendit de l'Égypte au
+      Soudan, où il demeure l'une des traditions soufies dominantes
+      sous le réformateur du XXe siècle Muḥammad ʿUthmān ʿAbduh
+      al-Burhānī. Son sanctuaire à Dasūq demeure un site de
+      pèlerinage régional majeur.
+    canonical_hijri: {year: 676, precision: year}
+    canonical_gregorian: {date: 1277-11-20, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[ibrahim-al-dasuqi, subject]]
+    tags: [sufi, sunni, egypt, mamluk, dasuq, burhaniyya, dasuqiyya, sudan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibrahim_al-Desouki"
+
+  - slug: death-of-abd-al-wahhab-al-sharaani
+    category: scholar
+    title_en: Death of ʿAbd al-Wahhāb al-Shaʿrānī
+    title_ar: وفاة عبد الوهاب الشعراني
+    title_fr: Mort de ʿAbd al-Wahhāb al-Shaʿrānī
+    description_en: |
+      ʿAbd al-Wahhab ibn Aḥmad al-Shaʿrani — Egyptian Shafiʿi
+      jurist, Ashʿari theologian, and Shadhili Sufi who founded
+      the Shaʿrawiyya sub-branch of the Shadhili ṭarīqa — died
+      in Cairo at age about 75. His *al-Ṭabaqāt al-Kubrā* —
+      strictly *Lawāqiḥ al-Anwār fī Ṭabaqāt al-Akhyār* — is the
+      single most important biographical dictionary of Sufi shaykhs
+      written within the late classical Sunni tradition: it
+      preserves the lives, sayings, and miracle-traditions of
+      hundreds of Sufi masters from al-Junayd to his own
+      contemporaries, with explicit reformist concern for
+      distinguishing genuine ṭarīqa figures from "frauds and
+      impostors posing as Sufis." His parallel *al-Mīzān al-
+      Kubrā* attempted a fiqh-level reconciliation of the four
+      Sunni madhāhib by harmonising their rulings on a graded
+      "lighter / heavier" scale. He left more than three hundred
+      works.
+    description_ar: |
+      توفي الإمام عبد الوهاب بن أحمد الشعراني — العالم المصري الفقيه
+      الشافعي، والمتكلم الأشعري، والصوفي الشاذلي الذي أسس فرع
+      الشعراوية من الشاذلية — بالقاهرة عن نحو خمس وسبعين سنة. وكتابه
+      «الطبقات الكبرى» — وهو على الحقيقة «لواقح الأنوار في طبقات
+      الأخيار» — من أعظم كتب الطبقات الصوفية في التراث السني
+      الكلاسيكي المتأخر تأثيراً: حفظ سير المئات من شيوخ التصوف
+      وأقوالهم وكراماتهم من لدن الجنيد إلى عصره، مع همّ إصلاحي
+      صريح في التمييز بين أهل الطريق المعتبرين و«المتشيخين
+      المزيّفين». ومن نظائره «الميزان الكبرى» الذي حاول فيه التوفيق
+      الفقهي بين المذاهب السنية الأربعة بترتيب الأحكام على ميزان
+      «الأخف فالأثقل». وترك ما يربو على ثلاثمئة مصنف.
+    description_fr: |
+      ʿAbd al-Wahhāb ibn Aḥmad al-Shaʿrānī — juriste shāfiʿite
+      égyptien, théologien ashʿarite et soufi shādhilī qui fonda
+      la sous-branche shaʿrāwiyya de la *ṭarīqa Shādhiliyya* —
+      mourut au Caire à l'âge d'environ 75 ans. Sa *al-Ṭabaqāt
+      al-Kubrā* — à proprement parler *Lawāqiḥ al-Anwār fī
+      Ṭabaqāt al-Akhyār* — est le dictionnaire biographique de
+      shaykhs soufis le plus important écrit dans la tradition
+      sunnite classique tardive : il préserve les vies, paroles
+      et traditions miraculeuses de centaines de maîtres soufis
+      d'al-Junayd à ses propres contemporains, avec un souci
+      réformiste explicite de distinguer les figures authentiques
+      de la *ṭarīqa* des « fraudeurs et imposteurs se faisant
+      passer pour soufis ». Sa *al-Mīzān al-Kubrā* parallèle
+      tenta une réconciliation au niveau du *fiqh* des quatre
+      *madhāhib* sunnites en harmonisant leurs décisions sur une
+      échelle graduée du « plus léger au plus lourd ». Il laissa
+      plus de trois cents ouvrages.
+    canonical_hijri: {year: 973, precision: year}
+    canonical_gregorian: {date: 1566-01-17, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-wahhab-al-sharaani, subject]]
+    tags: [sufi, sunni, egypt, ottoman, cairo, shadhiliyya, shafii, ashari, biographer]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Sha%27rani"
+
+  # =========================================================================
+  # METAPHYSICIAN OF AL-INSAN AL-KAMIL
+  # =========================================================================
+
+  # death-of-abd-al-karim-al-jili intentionally excluded — Akbarian school — *al-Insān al-Kāmil*, waḥdat al-wujūd.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+
+  - slug: death-of-habib-al-ajami
+    category: scholar
+    title_en: Death of Ḥabīb al-ʿAjamī — Basran ascetic
+    title_ar: وفاة حبيب العجمي — زاهد البصرة
+    title_fr: Mort de Ḥabīb al-ʿAjamī — l'ascète de Basra
+    description_en: |
+      Ḥabib ibn Muḥammad al-ʿAjami al-Basri — Persian-origin Basran
+      ascetic of the early ascetic-Sufi (*zuhd*) generation, pupil
+      of al-Ḥasan al-Baṣri, and master in turn of Dawud al-Ṭaʾi
+      from whom the early Iraqi ascetic chain runs forward to
+      al-Sirri al-Saqaṭi and al-Junayd al-Baghdadi — died at Basra.
+      The classical sources record his death year variously as 119,
+      120, 125, or 130 AH. He is consistently named in the early
+      *Ṭabaqāt al-Ṣūfiyya* literature as one of the foundational
+      transmitters of the Ḥasan al-Baṣri ascetic circle into the
+      formal Sufi silsila, appearing in the chains of the
+      Naqshbandi, Qadiri, Shadhili, and most other major Sunni
+      ṭuruq. Ibn Ḥajar in *Tahdhīb al-Tahdhīb* judges him a "ṣadūq"
+      hadith narrator; the early Sufi compilers (al-Sulami,
+      Abu Nuʿaym in *Ḥilyat al-Awliyāʾ*) preserve his sayings and
+      his celebrated repentance narrative.
+    description_ar: |
+      توفي الإمام حبيب بن محمد العجمي البصري — الزاهد البصري الفارسي
+      الأصل من جيل التصوف الزُّهدي الأول، تلميذ الإمام الحسن البصري،
+      وشيخ داود الطائي الذي تواصل به السلسلة الزُّهدية العراقية
+      الأولى إلى السري السقطي والجنيد البغدادي — بالبصرة. واختلف
+      أهل التراجم في سنة وفاته فقيل ١١٩ وقيل ١٢٠ وقيل ١٢٥ وقيل ١٣٠ هـ.
+      وهو مذكور في عامة كتب «طبقات الصوفية» الباكرة من نواقل دائرة
+      الحسن البصري الزُّهدية إلى التصوف الرسمي، يرد في أسانيد النقشبندية
+      والقادرية والشاذلية وعامة الطرق السنية الكبرى. وقد قال فيه
+      ابن حجر في «تهذيب التهذيب» إنه «صدوق»، وحفظ مؤلفو التصوف
+      الباكرون (السلمي وأبو نعيم في «حلية الأولياء») أقواله وقصة
+      توبته المشهورة.
+    description_fr: |
+      Ḥabīb ibn Muḥammad al-ʿAjamī al-Baṣrī — ascète basrien
+      d'origine perse de la première génération ascético-soufie
+      (*zuhd*), disciple d'al-Ḥasan al-Baṣrī et à son tour maître
+      de Dāwūd al-Ṭāʾī par qui la chaîne ascétique irakienne
+      ancienne se prolonge jusqu'à al-Sirrī al-Saqaṭī et al-Junayd
+      al-Baghdādī — mourut à Basra. Les sources classiques rapportent
+      diversement son année de mort comme 119, 120, 125 ou 130 H.
+      Il est constamment nommé dans la littérature précoce des
+      *Ṭabaqāt al-Ṣūfiyya* comme l'un des transmetteurs fondateurs
+      du cercle ascétique d'al-Ḥasan al-Baṣrī vers la *silsila*
+      soufie formelle, apparaissant dans les chaînes des Naqshbandiyya,
+      Qādiriyya, Shādhiliyya et la plupart des autres grandes
+      *ṭuruq* sunnites. Ibn Ḥajar, dans *Tahdhīb al-Tahdhīb*, le
+      juge comme un narrateur de hadith *ṣadūq* ; les compilateurs
+      soufis précoces (al-Sulamī, Abū Nuʿaym dans *Ḥilyat al-Awliyāʾ*)
+      préservent ses paroles et le récit célèbre de son repentir.
+    canonical_hijri: {year: 125, precision: year}
+    canonical_gregorian: {date: 743-04-19, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: editorial
+    people: [[habib-al-ajami, subject], [al-hasan-al-basri, subject]]
+    tags: [sufi, sunni, basra, zuhd, umayyad, persian, hasan-al-basri]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Habib_al-Ajami"
+
+  - slug: death-of-sahl-al-tustari
+    category: scholar
+    title_en: Death of Sahl al-Tustarī — early classical Sufi
+    title_ar: وفاة سهل التستري — من أعلام التصوف الكلاسيكي الباكر
+    title_fr: Mort de Sahl al-Tustarī — soufi classique ancien
+    description_en: |
+      Abu Muḥammad Sahl ibn ʿAbdullah al-Tustari — Persian Sunni
+      Sufi mystic, contemporary and senior of al-Junayd al-Baghdadi,
+      and the eponymous master of the Sālimiyya school of theology
+      — died in Basra at age about 80. He was raised in Tustar in
+      Khuzestan, settled later in Basra, and his short *Tafsīr* on
+      the Qurʾan — preserved through his pupil Ibn Sālim — is the
+      earliest substantial Sufi commentary on the Qurʾan and the
+      foundational text of the genre that would culminate in
+      al-Sulami's *Ḥaqāʾiq al-Tafsīr*. His doctrine of *nūr
+      Muḥammadi* ("the Muhammadan light"), of the primordial
+      pact and of *yaqīn* (certitude) shaped subsequent Sufi
+      psychology. His *Riʿāyat al-Ḥuqūq* on spiritual rights and
+      duties became a standard ascetic-ethical text. al-Hujwiri
+      in *Kashf al-Maḥjūb* and al-Qushayri in *al-Risāla* both
+      treat him as one of the cornerstones of the Sunni Sufi
+      foundation.
+    description_ar: |
+      توفي أبو محمد سهل بن عبد الله التستري — الفارسي السني الصوفي،
+      معاصر الجنيد البغدادي وأكبر منه سناً، وسلف الطائفة السالمية
+      في علم الكلام السني — بالبصرة عن نحو ثمانين سنة. ولد بتستر
+      من أرض خوزستان ثم استوطن البصرة، وله «تفسير» قصير على القرآن
+      رواه عنه تلميذه ابن سالم، وهو أقدم تفسير صوفي ضخم على القرآن،
+      والأصل في الجنس الذي بلغ ذروته في «حقائق التفسير» للسلمي.
+      ومذهبه في «النور المحمدي» والعهد الأزلي و«اليقين» شكّل علم
+      النفس الصوفي اللاحق. وكتابه «رعاية الحقوق» في الحقوق والواجبات
+      الروحية صار من أصول كتب الزهد والأخلاق. وقد عدّه الهجويري في
+      «كشف المحجوب» والقشيري في «الرسالة» من أركان أصول التصوف
+      السني.
+    description_fr: |
+      Abū Muḥammad Sahl ibn ʿAbdullāh al-Tustarī — mystique soufi
+      sunnite d'origine perse, contemporain et aîné d'al-Junayd
+      al-Baghdādī, et le maître éponyme de l'école théologique
+      sālimiyya — mourut à Basra à l'âge d'environ 80 ans. Élevé
+      à Tustar au Khūzestān, établi plus tard à Basra, son court
+      *Tafsīr* sur le Coran — préservé à travers son disciple
+      Ibn Sālim — est le plus ancien commentaire soufi substantiel
+      du Coran et le texte fondateur du genre qui culminera dans
+      les *Ḥaqāʾiq al-Tafsīr* d'al-Sulamī. Sa doctrine du *nūr
+      Muḥammadī* (« la lumière muḥammadienne »), du pacte primordial
+      et du *yaqīn* (certitude) façonna la psychologie soufie
+      ultérieure. Sa *Riʿāyat al-Ḥuqūq* sur les droits et devoirs
+      spirituels devint un texte ascético-éthique standard. al-Hujwīrī
+      dans *Kashf al-Maḥjūb* et al-Qushayrī dans *al-Risāla* le
+      traitent tous deux comme l'un des piliers de la fondation
+      soufie sunnite.
+    canonical_hijri: {year: 283, precision: year}
+    canonical_gregorian: {date: 896-02-25, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[sahl-al-tustari, subject], [al-junayd-al-baghdadi, subject]]
+    tags: [sufi, sunni, basra, tustar, abbasid, persian, salimiyya, tafsir]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sahl_al-Tustari"

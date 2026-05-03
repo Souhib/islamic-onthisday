@@ -1,0 +1,832 @@
+# Wave 46 of curated event additions (2026-04-27).
+# 13 dated events covering the remaining seven and ten qurra' masters,
+# their canonical narrators (Ḥafṣ, Shuʿba, Warsh, Qālūn, etc.), and the
+# codifiers of the Qira'at canon — Ibn Mujāhid (the seven), al-Dānī
+# (Taysīr), al-Shāṭibī (Shāṭibiyya), and Ibn al-Jazarī (Nashr / the ten).
+# Each event attested in classical Sunni sources. Trilingual (en/ar/fr).
+# Death-year disputes preserved per the Date Uncertainty Protocol.
+
+events:
+  # =========================================================================
+  # COMPLETING THE SEVEN: IBN ʿĀMIR + ḤAMZA
+  # =========================================================================
+
+  - slug: death-of-ibn-amir-al-shami
+    category: scholar
+    title_en: Death of Ibn ʿĀmir al-Shāmī — qari of Damascus
+    title_ar: وفاة ابن عامر الشامي — قارئ دمشق
+    title_fr: Mort d'Ibn ʿĀmir al-Shāmī — récitateur de Damas
+    description_en: |
+      ʿAbdallāh ibn ʿĀmir al-Yaḥṣubī al-Dimashqī — Tābiʿī, qāḍī of
+      Damascus under the Umayyad caliph al-Walīd ibn ʿAbd al-Malik,
+      and the only one of the seven canonical reciters from the
+      Levant — died in Damascus on ʿĀshūrāʾ (10 Muḥarram) 118 AH at
+      age about 87. His recitation, transmitted to us through Hishām
+      ibn ʿAmmār (d. 245 AH) and Ibn Dhakwān (d. 242 AH), preserves
+      the Quranic reading-tradition of Damascus going back through
+      Abū al-Dardāʾ and ʿUthmān ibn ʿAffān ra. He was reckoned the
+      most authoritative qāriʾ in Greater Syria of his generation
+      and led the prayer in the Umayyad Mosque after the death of
+      Abū al-Dardāʾ. Ibn Mujāhid (d. 324 AH) included him among the
+      seven canonical readers in his foundational *Kitāb al-Sabʿa*.
+    description_ar: |
+      توفي الإمام عبد الله بن عامر اليحصبي الدمشقي — تابعي وقاضي
+      دمشق في عهد الخليفة الأموي الوليد بن عبد الملك، وهو الوحيد من
+      القراء السبعة الذي كان من أهل الشام — بدمشق يوم عاشوراء (العاشر
+      من المحرم) سنة ١١٨ هـ عن نحو سبع وثمانين سنة. ورواية قراءته
+      وصلت إلينا برواية هشام بن عمار (ت ٢٤٥ هـ) وابن ذكوان (ت ٢٤٢ هـ)،
+      وهي تحفظ تراث قراءة أهل الشام راجعةً إلى أبي الدرداء وعثمان بن
+      عفان رضي الله عنهما. وعدّوه إمام القراءة في الشام في زمانه،
+      وأمَّ الناس في الجامع الأموي بعد أبي الدرداء. وأدرجه ابن مجاهد
+      (ت ٣٢٤ هـ) ضمن القراء السبعة في «كتاب السبعة» الذي قنّن قراءاتهم.
+    description_fr: |
+      ʿAbdallāh ibn ʿĀmir al-Yaḥṣubī al-Dimashqī — *tābiʿī*, *qāḍī*
+      de Damas sous le calife omeyyade al-Walīd ibn ʿAbd al-Malik, et
+      le seul des sept récitateurs canoniques originaire du Levant —
+      mourut à Damas le jour de ʿĀshūrāʾ (10 Muḥarram) 118 H à l'âge
+      d'environ 87 ans. Sa récitation, transmise jusqu'à nous par
+      Hishām ibn ʿAmmār (m. 245 H) et Ibn Dhakwān (m. 242 H),
+      conserve la tradition coranique de Damas remontant à Abū
+      al-Dardāʾ et ʿUthmān ibn ʿAffān ra. Il fut considéré comme le
+      *qāriʾ* le plus autoritaire de la Grande Syrie de sa génération
+      et dirigea la prière à la Grande Mosquée des Omeyyades après
+      la mort d'Abū al-Dardāʾ. Ibn Mujāhid (m. 324 H) l'inclut parmi
+      les sept lecteurs canoniques dans son *Kitāb al-Sabʿa* fondateur.
+    canonical_hijri: {year: 118, month: 1, day: 10, precision: day}
+    canonical_gregorian: {date: 736-01-30, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ entry — ʿĀshūrāʾ 118 AH"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 118"
+    people: [[ibn-amir-al-shami, subject]]
+    tags: [umayyad, qari, qiraat, damascus, sham, tabiun]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-hamza-al-zayyat
+    category: scholar
+    title_en: Death of Ḥamza al-Zayyāt — qari of Kufa
+    title_ar: وفاة حمزة الزيات — قارئ الكوفة
+    title_fr: Mort de Ḥamza al-Zayyāt — récitateur de Koufa
+    description_en: |
+      Abū ʿImāra Ḥamza ibn Ḥabīb al-Zayyāt al-Taymī al-Kūfī — one of
+      the seven canonical reciters and the great Kufan qāriʾ of his
+      generation — died at Ḥulwān in the year 156 AH at age about 76.
+      He was called *al-Zayyāt* ("the oil-merchant") because he
+      ferried oil between Kufa and Ḥulwān to support his family. His
+      recitation is distinguished by its extensive use of *madd*
+      (prolongation), *imāla* (vowel-fronting), and *idghām*
+      (assimilation), and was transmitted to us principally through
+      Khalaf al-Bazzār (d. 229 AH, also the tenth canonical reciter
+      in his own right) and Khallād ibn Khālid (d. 220 AH). Imam
+      al-Shāfiʿī (d. 204 AH) and Sufyān al-Thawrī (d. 161 AH)
+      praised his reading; al-Thawrī said: "Ḥamza al-Zayyāt is the
+      most knowledgeable of people in the Book of Allah and its laws
+      of inheritance." Sources agree on the year of his death.
+    description_ar: |
+      توفي الإمام أبو عمارة حمزة بن حبيب الزيات التيمي الكوفي — أحد
+      القراء السبعة، وكبير قراء الكوفة في عصره — بحلوان سنة ١٥٦ هـ
+      عن نحو ست وسبعين سنة. ولُقِّب بـ«الزيات» لأنه كان يحمل الزيت من
+      الكوفة إلى حلوان لإنفاقه على عياله. وتمتاز قراءته بإطالة المد
+      والإمالة والإدغام، ووصلت إلينا أساساً برواية خلف بن هشام البزار
+      (ت ٢٢٩ هـ، وهو القارئ العاشر بنفسه) وخلاد بن خالد (ت ٢٢٠ هـ).
+      وأثنى عليه الإمامان الشافعي (ت ٢٠٤ هـ) وسفيان الثوري (ت ١٦١ هـ)،
+      وقال الثوري: «حمزة الزيات أعلم الناس بكتاب الله وفرائضه». وقد
+      اتفقت المصادر على سنة وفاته.
+    description_fr: |
+      Abū ʿImāra Ḥamza ibn Ḥabīb al-Zayyāt al-Taymī al-Kūfī — l'un
+      des sept récitateurs canoniques et le grand *qāriʾ* koufien
+      de sa génération — mourut à Ḥulwān en l'an 156 H à l'âge
+      d'environ 76 ans. Il fut surnommé *al-Zayyāt* (« le marchand
+      d'huile ») parce qu'il transportait de l'huile entre Koufa et
+      Ḥulwān pour subvenir aux besoins de sa famille. Sa récitation
+      se distingue par son usage étendu du *madd* (prolongation), de
+      l'*imāla* (antériorisation des voyelles) et de l'*idghām*
+      (assimilation), et fut transmise jusqu'à nous principalement
+      par Khalaf al-Bazzār (m. 229 H, lui-même dixième récitateur
+      canonique) et Khallād ibn Khālid (m. 220 H). L'imam al-Shāfiʿī
+      (m. 204 H) et Sufyān al-Thawrī (m. 161 H) louèrent sa lecture;
+      al-Thawrī dit : « Ḥamza al-Zayyāt est le plus savant des gens
+      dans le Livre d'Allah et ses lois successorales ». Les sources
+      s'accordent sur l'année de sa mort.
+    canonical_hijri: {year: 156, precision: year}
+    canonical_gregorian: {date: 773-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — d. 156 AH at Ḥulwān"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 156"
+    people: [[hamza-al-zayyat, subject]]
+    tags: [abbasid, qari, qiraat, kufa, hulwan]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # THE ADDITIONAL THREE FOR THE TEN
+  # =========================================================================
+
+  - slug: death-of-abu-jafar-al-madani
+    category: scholar
+    title_en: Death of Abū Jaʿfar al-Madanī — qari of Medina (eighth of the ten)
+    title_ar: وفاة أبي جعفر المدني — قارئ المدينة (ثامن العشرة)
+    title_fr: Mort d'Abū Jaʿfar al-Madanī — récitateur de Médine (huitième des dix)
+    description_en: |
+      Yazīd ibn al-Qaʿqāʿ al-Makhzūmī al-Madanī, known as Abū Jaʿfar
+      — Tābiʿī, the senior qāriʾ of Medina before Nāfiʿ, and the
+      eighth of the ten canonical reciters in Ibn al-Jazarī's
+      enumeration (the additional three beyond Ibn Mujāhid's seven)
+      — died in Medina at age past one hundred. He had recited the
+      Qurʾān to Companions including Ibn ʿAbbās, Abū Hurayra, and
+      Ibn ʿAyyāsh ra, and was the teacher of Nāfiʿ al-Madanī
+      (d. 169 AH), who acknowledged him as his master. His
+      recitation is preserved through Ibn Wardān (d. 160 AH) and
+      Ibn Jammāz (d. 170 AH). Sources differ on his death-year
+      between 130 and 132 AH; we follow the majority position of
+      130 AH given by al-Dhahabī in *Siyar Aʿlām al-Nubalāʾ* and
+      Ibn Khallikān, while noting that Ibn al-Jazarī's *Ghāyat
+      al-Nihāya* records 132 AH from another tradition.
+    description_ar: |
+      توفي الإمام يزيد بن القعقاع المخزومي المدني، المعروف بأبي جعفر
+      — تابعي، وكبير قراء المدينة قبل نافع، وثامن العشرة في ترتيب ابن
+      الجزري للقراءات (الثلاثة الزائدة على سبعة ابن مجاهد) — بالمدينة
+      المنورة عن أكثر من مئة سنة. وقد قرأ على جماعة من الصحابة منهم
+      ابن عباس وأبو هريرة وابن عيّاش رضي الله عنهم، وكان شيخ نافع
+      المدني (ت ١٦٩ هـ) الذي قرّ له بالشيخية. ورواية قراءته محفوظة
+      عن ابن وردان (ت ١٦٠ هـ) وابن جمّاز (ت ١٧٠ هـ). واختلفت المصادر
+      في سنة وفاته بين ١٣٠ و١٣٢ هـ؛ وقد رجّحنا قول الأكثرين بـ ١٣٠ هـ
+      كما عند الذهبي في «سير أعلام النبلاء» وابن خلكان، مع الإشارة
+      إلى أن ابن الجزري في «غاية النهاية» أورد رواية بـ ١٣٢ هـ.
+    description_fr: |
+      Yazīd ibn al-Qaʿqāʿ al-Makhzūmī al-Madanī, connu sous le nom
+      d'Abū Jaʿfar — *tābiʿī*, principal *qāriʾ* de Médine avant
+      Nāfiʿ, et huitième des dix récitateurs canoniques dans
+      l'énumération d'Ibn al-Jazarī (les trois supplémentaires aux
+      sept d'Ibn Mujāhid) — mourut à Médine à un âge dépassant les
+      cent ans. Il avait récité le Coran à des Compagnons dont Ibn
+      ʿAbbās, Abū Hurayra et Ibn ʿAyyāsh ra, et fut le maître de
+      Nāfiʿ al-Madanī (m. 169 H), qui le reconnaissait pour tel.
+      Sa récitation est préservée par Ibn Wardān (m. 160 H) et Ibn
+      Jammāz (m. 170 H). Les sources divergent sur son année de
+      décès entre 130 et 132 H; nous suivons la position majoritaire
+      de 130 H donnée par al-Dhahabī dans *Siyar Aʿlām al-Nubalāʾ*
+      et Ibn Khallikān, en notant qu'Ibn al-Jazarī dans *Ghāyat
+      al-Nihāya* enregistre 132 H d'après une autre tradition.
+    canonical_hijri: {year: 130, precision: year}
+    canonical_gregorian: {date: 748-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — d. 130 AH (majority)"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān — confirms 130 AH"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya — 130 AH; alternative 132 AH noted"
+    people: [[abu-jafar-al-madani, subject]]
+    tags: [umayyad, qari, qiraat, medina, tabiun, ten-readers]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+
+  - slug: death-of-yaqub-al-hadrami
+    category: scholar
+    title_en: Death of Yaʿqūb al-Ḥaḍramī — qari of Basra (ninth of the ten)
+    title_ar: وفاة يعقوب الحضرمي — قارئ البصرة (تاسع العشرة)
+    title_fr: Mort de Yaʿqūb al-Ḥaḍramī — récitateur de Bassora (neuvième des dix)
+    description_en: |
+      Abū Muḥammad Yaʿqūb ibn Isḥāq al-Ḥaḍramī al-Baṣrī — qāriʾ of
+      Basra after Abū ʿAmr ibn al-ʿAlāʾ, leading recitation-master
+      of his generation, and the ninth of the ten canonical
+      reciters in Ibn al-Jazarī's enumeration — died in Basra in
+      205 AH at age about 88. His recitation is transmitted through
+      Ruwaysh (Muḥammad ibn al-Mutawakkil, d. 238 AH) and Rawḥ ibn
+      ʿAbd al-Muʾmin (d. 234 AH), the two canonical narrators of his
+      reading. Abū Ḥātim al-Sijistānī said of him: "Yaʿqūb is the
+      most knowledgeable person I have met in *qirāʾāt* and the
+      Arabic language." His mosque on the bank of the Tigris in
+      Basra was the centre of Qurʾanic study in the city for two
+      generations after his death.
+    description_ar: |
+      توفي الإمام أبو محمد يعقوب بن إسحاق الحضرمي البصري — قارئ
+      البصرة بعد أبي عمرو بن العلاء، وكبير المقرئين في عصره، وتاسع
+      العشرة في ترتيب ابن الجزري للقراءات — بالبصرة سنة ٢٠٥ هـ عن
+      نحو ثمانٍ وثمانين سنة. ووصلت قراءته إلينا برواية رويس (محمد بن
+      المتوكل، ت ٢٣٨ هـ) وروح بن عبد المؤمن (ت ٢٣٤ هـ)، وهما الراويان
+      المعتمدان عنه. وقال أبو حاتم السجستاني: «يعقوب أعلم من رأيت
+      بالقراءات وبالعربية». وكان مسجده على شاطئ دجلة بالبصرة قبلةَ
+      دراسة القرآن في المدينة جيلين بعده.
+    description_fr: |
+      Abū Muḥammad Yaʿqūb ibn Isḥāq al-Ḥaḍramī al-Baṣrī — *qāriʾ*
+      de Bassora après Abū ʿAmr ibn al-ʿAlāʾ, principal maître de
+      récitation de sa génération, et neuvième des dix récitateurs
+      canoniques dans l'énumération d'Ibn al-Jazarī — mourut à
+      Bassora en 205 H à l'âge d'environ 88 ans. Sa récitation est
+      transmise par Ruways (Muḥammad ibn al-Mutawakkil, m. 238 H)
+      et Rawḥ ibn ʿAbd al-Muʾmin (m. 234 H), les deux narrateurs
+      canoniques de sa lecture. Abū Ḥātim al-Sijistānī dit de lui :
+      « Yaʿqūb est l'homme le plus savant que j'aie rencontré en
+      *qirāʾāt* et en langue arabe ». Sa mosquée sur la rive du
+      Tigre à Bassora fut le centre de l'étude coranique dans la
+      ville pendant deux générations après sa mort.
+    canonical_hijri: {year: 205, precision: year}
+    canonical_gregorian: {date: 820-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — d. 205 AH at Basra"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 205"
+    people: [[yaqub-al-hadrami, subject]]
+    tags: [abbasid, qari, qiraat, basra, ten-readers]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-khalaf-al-ashir
+    category: scholar
+    title_en: Death of Khalaf al-ʿĀshir — qari of Baghdad (tenth of the ten)
+    title_ar: وفاة خلف العاشر — قارئ بغداد (عاشر القراء)
+    title_fr: Mort de Khalaf al-ʿĀshir — récitateur de Bagdad (dixième lecteur)
+    description_en: |
+      Abū Muḥammad Khalaf ibn Hishām al-Bazzār al-Baghdādī, called
+      *al-ʿĀshir* ("the Tenth") because of his place as the tenth
+      and last of the canonical reciters in Ibn al-Jazarī's *Kitāb
+      al-Nashr fī al-Qirāʾāt al-ʿAshr* — died in Baghdad in 229 AH
+      at age about 80. He had recited under Sulaym (the chief
+      transmitter of Ḥamza al-Zayyāt) and adopted from Ḥamza's
+      reading what he judged most defensible while differing from
+      him in about 120 places, producing his own complete and
+      independent canonical reading. His transmitters are Isḥāq
+      al-Warrāq (d. 286 AH) and Idrīs ibn ʿAbd al-Karīm al-Ḥaddād
+      (d. 292 AH). He was also a noted *muḥaddith* and an associate
+      of Aḥmad ibn Ḥanbal.
+    description_ar: |
+      توفي الإمام أبو محمد خلف بن هشام البزار البغدادي، الملقب بـ«العاشر»
+      لكونه عاشر القراء وآخرهم في ترتيب ابن الجزري في «كتاب النشر في
+      القراءات العشر» — ببغداد سنة ٢٢٩ هـ عن نحو ثمانين سنة. وكان قد
+      قرأ على سُليم (شيخ رواية حمزة الزيات الكبرى) فاختار من قراءة
+      حمزة ما رآه أبيَن، وانفرد عنه في نحو مئة وعشرين موضعاً، فأخرج
+      من ذلك قراءة مستقلة كاملة معتمدة. ورواه إسحاق الوراق (ت ٢٨٦ هـ)
+      وإدريس بن عبد الكريم الحداد (ت ٢٩٢ هـ). وكان أيضاً محدثاً
+      معروفاً ومن أصحاب الإمام أحمد بن حنبل.
+    description_fr: |
+      Abū Muḥammad Khalaf ibn Hishām al-Bazzār al-Baghdādī, surnommé
+      *al-ʿĀshir* (« le Dixième ») en raison de sa place de dixième
+      et dernier des récitateurs canoniques dans le *Kitāb al-Nashr
+      fī al-Qirāʾāt al-ʿAshr* d'Ibn al-Jazarī — mourut à Bagdad en
+      229 H à l'âge d'environ 80 ans. Il avait récité auprès de
+      Sulaym (le principal transmetteur de Ḥamza al-Zayyāt) et
+      retint de la lecture de Ḥamza ce qu'il jugea le plus
+      défendable tout en s'en écartant en environ 120 endroits,
+      produisant ainsi sa propre lecture canonique complète et
+      indépendante. Ses transmetteurs sont Isḥāq al-Warrāq (m. 286 H)
+      et Idrīs ibn ʿAbd al-Karīm al-Ḥaddād (m. 292 H). Il fut aussi
+      un *muḥaddith* renommé et un compagnon d'Aḥmad ibn Ḥanbal.
+    canonical_hijri: {year: 229, precision: year}
+    canonical_gregorian: {date: 844-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — d. 229 AH at Baghdad"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 229"
+    people: [[khalaf-al-ashir, subject]]
+    tags: [abbasid, qari, qiraat, baghdad, ten-readers]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # THE CANONICAL NARRATORS (RUWĀT) — ḤAFṢ, SHUʿBA, WARSH, QĀLŪN
+  # =========================================================================
+
+  - slug: death-of-hafs-ibn-sulayman
+    category: scholar
+    title_en: Death of Ḥafṣ ibn Sulaymān — narrator of the dominant Qurʾān reading
+    title_ar: وفاة حفص بن سليمان — راوي الرواية الكبرى
+    title_fr: Mort de Ḥafṣ ibn Sulaymān — narrateur de la lecture dominante
+    description_en: |
+      Abū ʿUmar Ḥafṣ ibn Sulaymān al-Asadī al-Kūfī — the canonical
+      narrator from ʿĀṣim al-Kūfī (d. 127 AH) whose transmission,
+      *Ḥafṣ ʿan ʿĀṣim*, is today the standard Qurʾān reading across
+      Egypt, the Levant, Iraq, Turkey, the Indian subcontinent,
+      Southeast Asia, and East Africa, and the version printed in
+      virtually every Muṣḥaf since the 1924 Egyptian standard
+      edition — died in Kufa in 180 AH at age about 90. He was the
+      stepson and closest student of ʿĀṣim, who entrusted him with
+      the recitation he had received from Abū ʿAbd al-Raḥmān al-
+      Sulamī. While Sunni hadith critics graded him weak in
+      *isnād*-criticism, his transmission of qirāʾa is universally
+      accepted by qirāʾa specialists — the two disciplines applying
+      different standards. Sources differ slightly on his death-year
+      between 180 and 190 AH; we follow the majority of 180 AH given
+      by al-Dhahabī.
+    description_ar: |
+      توفي الإمام أبو عمر حفص بن سليمان الأسدي الكوفي — راوي رواية
+      «حفص عن عاصم» التي هي اليوم النص الرسمي للقرآن في عامة المشرق
+      الإسلامي: مصر والشام والعراق وتركيا وشبه القارة الهندية وجنوب
+      شرق آسيا وأفريقيا الشرقية، وهي الرواية المعتمدة في كل المصاحف
+      المطبوعة منذ المصحف الأميري المصري سنة ١٩٢٤ ميلادي — بالكوفة
+      سنة ١٨٠ هـ عن نحو تسعين سنة. وكان ربيب عاصم وأخص تلامذته،
+      وأودعه عاصم القراءة التي تلقاها عن أبي عبد الرحمن السلمي.
+      ومع أن نقاد الحديث ضعّفوه في الرواية الإسنادية، فإن إقراءه
+      للقرآن مقبول قبولاً تاماً عند علماء القراءات، إذ المعياران
+      مختلفان. واختلفت المصادر في سنة وفاته بين ١٨٠ و١٩٠ هـ، وأخذنا
+      بقول الأكثرين عند الذهبي ١٨٠ هـ.
+    description_fr: |
+      Abū ʿUmar Ḥafṣ ibn Sulaymān al-Asadī al-Kūfī — narrateur
+      canonique d'après ʿĀṣim al-Kūfī (m. 127 H) dont la transmission,
+      *Ḥafṣ ʿan ʿĀṣim*, est aujourd'hui la récitation coranique
+      standard à travers l'Égypte, le Levant, l'Irak, la Turquie, le
+      sous-continent indien, l'Asie du Sud-Est et l'Afrique de l'Est,
+      et la version imprimée dans pratiquement chaque *Muṣḥaf* depuis
+      l'édition égyptienne standard de 1924 — mourut à Koufa en 180 H
+      à l'âge d'environ 90 ans. Il était le beau-fils et l'élève le
+      plus proche de ʿĀṣim, qui lui confia la récitation qu'il avait
+      reçue d'Abū ʿAbd al-Raḥmān al-Sulamī. Bien que les critiques
+      de hadith sunnites l'aient jugé faible en critique d'*isnād*,
+      sa transmission de la *qirāʾa* est universellement acceptée par
+      les spécialistes du domaine — les deux disciplines appliquant
+      des standards différents. Les sources divergent légèrement sur
+      son année de décès entre 180 et 190 H; nous suivons la majorité
+      de 180 H donnée par al-Dhahabī.
+    canonical_hijri: {year: 180, precision: year}
+    canonical_gregorian: {date: 796-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — d. 180 AH (majority)"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya — 180 AH; some sources give 190 AH"
+    people: [[hafs-ibn-sulayman, subject], [asim-al-kufi, subject]]
+    tags: [abbasid, qari, qiraat, kufa, hafs, narrator]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+
+  - slug: death-of-shuba-ibn-ayyash
+    category: scholar
+    title_en: Death of Shuʿba ibn ʿAyyāsh — second narrator of ʿĀṣim's reading
+    title_ar: وفاة شعبة بن عياش — الراوي الثاني عن عاصم
+    title_fr: Mort de Shuʿba ibn ʿAyyāsh — second narrateur de la lecture de ʿĀṣim
+    description_en: |
+      Abū Bakr Shuʿba ibn ʿAyyāsh al-Asadī al-Kūfī — the second
+      canonical narrator from ʿĀṣim al-Kūfī alongside Ḥafṣ, and one
+      of the senior fuqahāʾ and muḥaddiths of Kufa — died in Kufa
+      in Jumādā al-Ūlā 193 AH at age about 96. Unlike Ḥafṣ, he was
+      classed thoroughly reliable by the *jarḥ wa-taʿdīl* tradition
+      and his hadith narrations are in al-Bukhārī, Muslim, and the
+      Sunan collections. He was a close student of al-Aʿmash, ʿĀṣim,
+      Abū Isḥāq al-Sabīʿī, and other Kufan masters. His transmission
+      of ʿĀṣim's reading is preserved in scholarly study today
+      though Ḥafṣ's parallel transmission carries the modern liturgy.
+      Late in life he stopped issuing fatwas, saying: "I have not
+      met a man more cautious in fatwa than I was." Sufyān al-Thawrī
+      called him "the most God-fearing of the men of Kufa."
+    description_ar: |
+      توفي الإمام أبو بكر شعبة بن عياش الأسدي الكوفي — الراوي الثاني
+      عن عاصم الكوفي بجانب حفص، ومن كبار فقهاء الكوفة ومحدثيها — في
+      الكوفة في جمادى الأولى سنة ١٩٣ هـ عن نحو ست وتسعين سنة. وعلى
+      خلاف حفص فقد وثقه أئمة الجرح والتعديل، وروى عنه البخاري ومسلم
+      وأصحاب السنن. وكان من خواص الأعمش وعاصم وأبي إسحاق السبيعي
+      وغيرهم من شيوخ الكوفة. ورواية شعبة عن عاصم محفوظة في الأسانيد
+      المعتمدة وإن كانت رواية حفص عن عاصم هي السائدة في القراءة
+      اليوم. وامتنع شعبة في أواخر عمره عن الفتيا قائلاً: «ما رأيت
+      أحداً أتحفّظ مني». وقال عنه سفيان الثوري: «هو أتقى الكوفيين».
+    description_fr: |
+      Abū Bakr Shuʿba ibn ʿAyyāsh al-Asadī al-Kūfī — le second
+      narrateur canonique d'après ʿĀṣim al-Kūfī aux côtés de Ḥafṣ,
+      et l'un des grands *fuqahāʾ* et *muḥaddiths* de Koufa — mourut
+      à Koufa en Jumādā al-Ūlā 193 H à l'âge d'environ 96 ans.
+      Contrairement à Ḥafṣ, il fut jugé pleinement fiable par la
+      tradition du *jarḥ wa-taʿdīl* et ses transmissions de hadith
+      figurent chez al-Bukhārī, Muslim et les *Sunan*. Il fut un
+      élève proche d'al-Aʿmash, de ʿĀṣim, d'Abū Isḥāq al-Sabīʿī et
+      d'autres maîtres koufiens. Sa transmission de la lecture de
+      ʿĀṣim est préservée dans l'étude savante aujourd'hui bien que
+      la transmission parallèle de Ḥafṣ porte la liturgie moderne.
+      Vers la fin de sa vie, il cessa d'émettre des fatwas en disant :
+      « je n'ai pas rencontré un homme plus circonspect que moi en
+      *fatwa* ». Sufyān al-Thawrī l'appelait « le plus pieux des
+      gens de Koufa ».
+    canonical_hijri: {year: 193, month: 5, precision: month}
+    canonical_gregorian: {date: 809-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — Jumādā al-Ūlā 193 AH"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 193"
+    people: [[shuba-ibn-ayyash, subject], [asim-al-kufi, subject]]
+    tags: [abbasid, qari, qiraat, kufa, shuba, narrator, hadith]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-warsh
+    category: scholar
+    title_en: Death of Warsh — narrator of the dominant Maghrebi reading
+    title_ar: وفاة ورش — راوي قراءة المغرب
+    title_fr: Mort de Warsh — narrateur de la lecture maghrébine dominante
+    description_en: |
+      Abū Saʿīd ʿUthmān ibn Saʿīd al-Miṣrī al-Qibṭī, called *Warsh*
+      ("Warsh" was a nickname his master Nāfiʿ gave him because of
+      a kind of food he ate) — the canonical narrator from Nāfiʿ
+      al-Madanī (d. 169 AH) whose transmission, *Warsh ʿan Nāfiʿ*,
+      is today the standard Qurʾān reading across the entire Maghreb
+      (Morocco, Algeria, Tunisia, Mauritania) and West Africa from
+      Senegal to Niger — died in Egypt in Shawwāl 197 AH at age
+      about 87. He travelled to Medina to study with Nāfiʿ and
+      remained there several years until Nāfiʿ certified him as the
+      authoritative transmitter of his reading. He returned to Egypt
+      and became the leading qāriʾ of Fusṭāṭ; his transmission was
+      carried west with the Berber-Arab armies into Ifrīqiya and the
+      Maghreb, where it took permanent root. Warsh's reading is
+      distinguished in particular by its consistent *tafkhīm* of the
+      *rāʾ* and its full vocalisation of the *hamza*.
+    description_ar: |
+      توفي الإمام أبو سعيد عثمان بن سعيد المصري القبطي، الملقب بـ«ورش»
+      (لقبٌ ألقاه عليه شيخه نافع لطعام كان يأكله) — راوي قراءة
+      «ورش عن نافع» التي هي اليوم النص الرسمي للقرآن في عامة المغرب
+      الإسلامي: المغرب والجزائر وتونس وموريتانيا، وفي غرب أفريقيا
+      من السنغال إلى النيجر — في مصر في شوال سنة ١٩٧ هـ عن نحو سبع
+      وثمانين سنة. وكان قد رحل إلى المدينة فأخذ القراءة عن نافع وأقام
+      عنده سنين حتى أذن له نافع بالإقراء عنه. ثم رجع إلى مصر فصار
+      كبير قراء الفسطاط، وانتقلت روايته غرباً مع جيوش العرب والبربر
+      إلى إفريقية والمغرب فاستقرت بهما. وتمتاز قراءة ورش بتفخيم
+      الراءات وتحقيق الهمز.
+    description_fr: |
+      Abū Saʿīd ʿUthmān ibn Saʿīd al-Miṣrī al-Qibṭī, surnommé *Warsh*
+      (« Warsh » fut un sobriquet que son maître Nāfiʿ lui donna en
+      référence à un mets qu'il consommait) — narrateur canonique
+      d'après Nāfiʿ al-Madanī (m. 169 H) dont la transmission, *Warsh
+      ʿan Nāfiʿ*, est aujourd'hui la récitation coranique standard
+      dans tout le Maghreb (Maroc, Algérie, Tunisie, Mauritanie) et
+      l'Afrique de l'Ouest du Sénégal au Niger — mourut en Égypte
+      en Shawwāl 197 H à l'âge d'environ 87 ans. Il s'était rendu
+      à Médine pour étudier auprès de Nāfiʿ et y demeura plusieurs
+      années jusqu'à ce que Nāfiʿ le certifie comme transmetteur
+      autorisé de sa lecture. De retour en Égypte, il devint le
+      principal *qāriʾ* de Fusṭāṭ; sa transmission fut portée vers
+      l'ouest avec les armées arabo-berbères en Ifrīqiya et au
+      Maghreb, où elle s'enracina définitivement. La lecture de
+      Warsh se distingue notamment par son *tafkhīm* constant du
+      *rāʾ* et sa pleine vocalisation du *hamza*.
+    canonical_hijri: {year: 197, month: 10, precision: month}
+    canonical_gregorian: {date: 813-06-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — Shawwāl 197 AH at Egypt"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 197"
+    people: [[warsh, subject], [nafi-al-madani, subject]]
+    tags: [abbasid, qari, qiraat, egypt, maghreb, west-africa, warsh, narrator]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-qalun
+    category: scholar
+    title_en: Death of Qālūn — second narrator of Nāfiʿ's reading
+    title_ar: وفاة قالون — الراوي الثاني عن نافع
+    title_fr: Mort de Qālūn — second narrateur de la lecture de Nāfiʿ
+    description_en: |
+      Abū Mūsā ʿĪsā ibn Mīnāʾ al-Madanī, called *Qālūn* (a
+      nickname his master Nāfiʿ gave him meaning "good" in Greek,
+      praising his recitation) — the second canonical narrator
+      from Nāfiʿ al-Madanī alongside Warsh, and the qāriʾ of Medina
+      after his master — died in Medina in 220 AH at age about 100.
+      Nāfiʿ's stepson by marriage, he kept the recitation in
+      Medinan circulation while Warsh's parallel transmission
+      travelled west to dominate the Maghreb. The *Qālūn ʿan Nāfiʿ*
+      reading remains the standard Qurʾān recitation in Libya today
+      and is preserved across the qirāʾāt curriculum of every
+      classical Sunni institution. He was reportedly hard of hearing
+      yet the most exacting reciter of his generation; students
+      complained, and he answered: "I have not heard a wrong
+      reading from any of you in fifty years."
+    description_ar: |
+      توفي الإمام أبو موسى عيسى بن مينا المدني، الملقب بـ«قالون»
+      (لقبٌ ألقاه عليه شيخه نافع، ومعناه باليونانية الجيد، ثناءً
+      على قراءته) — الراوي الثاني عن نافع بجانب ورش، وقارئ المدينة
+      بعد شيخه — بالمدينة المنورة سنة ٢٢٠ هـ عن نحو مئة سنة. كان
+      ربيبَ نافع، فأبقى القراءة دائرة في المدينة بينما رحلت رواية
+      ورش غرباً فسادت بها المغاربة. ولا تزال رواية «قالون عن نافع»
+      هي النص المعتمد للقرآن في ليبيا، وهي محفوظة في مناهج علم
+      القراءات في كل المعاهد السنية الكلاسيكية. وكان قالون قد ضعف
+      سمعه، ومع ذلك كان أدقّ القراء في عصره؛ إذ يشكو إليه طلابه،
+      فيقول: «ما سمعت لحناً منكم في خمسين سنة».
+    description_fr: |
+      Abū Mūsā ʿĪsā ibn Mīnāʾ al-Madanī, surnommé *Qālūn* (un
+      sobriquet que son maître Nāfiʿ lui donna, signifiant « bon »
+      en grec, en éloge de sa récitation) — second narrateur
+      canonique d'après Nāfiʿ al-Madanī aux côtés de Warsh, et
+      *qāriʾ* de Médine après son maître — mourut à Médine en 220 H
+      à l'âge d'environ 100 ans. Beau-fils de Nāfiʿ par alliance, il
+      maintint la récitation en circulation médinoise tandis que la
+      transmission parallèle de Warsh voyageait vers l'ouest pour
+      dominer le Maghreb. La lecture *Qālūn ʿan Nāfiʿ* demeure
+      aujourd'hui la récitation coranique standard en Libye et est
+      préservée à travers le cursus des *qirāʾāt* dans toute
+      institution sunnite classique. Il était dit-on dur d'oreille,
+      pourtant le plus exigeant récitateur de sa génération; les
+      étudiants s'en plaignaient, il répondait : « je n'ai pas
+      entendu une mauvaise lecture de l'un d'entre vous en cinquante
+      ans ».
+    canonical_hijri: {year: 220, precision: year}
+    canonical_gregorian: {date: 835-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — d. 220 AH at Medina"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 220"
+    people: [[qalun, subject], [nafi-al-madani, subject]]
+    tags: [abbasid, qari, qiraat, medina, libya, qalun, narrator]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # CODIFIERS — IBN MUJĀHID, AL-DĀNĪ, AL-SHĀṬIBĪ, IBN AL-JAZARĪ
+  # =========================================================================
+
+  - slug: death-of-ibn-mujahid
+    category: scholar
+    title_en: Death of Ibn Mujāhid — codifier of the Seven Readings
+    title_ar: وفاة ابن مجاهد — مقنّن القراءات السبع
+    title_fr: Mort d'Ibn Mujāhid — codificateur des Sept Lectures
+    description_en: |
+      Abū Bakr Aḥmad ibn Mūsā ibn al-ʿAbbās ibn Mujāhid al-Tamīmī
+      al-Baghdādī — leading qāriʾ of Baghdad in his generation and
+      the scholar whose *Kitāb al-Sabʿa fī al-Qirāʾāt* fixed the
+      seven canonical readings (those of Nāfiʿ al-Madanī, Ibn
+      Kathīr al-Makkī, Abū ʿAmr al-Baṣrī, Ibn ʿĀmir al-Shāmī, ʿĀṣim
+      al-Kūfī, Ḥamza al-Zayyāt, and al-Kisāʾī) as the universally
+      accepted *al-qirāʾāt al-sabʿ* — died in Baghdad in 324 AH at
+      age about 79. Before his work, dozens of regional readings
+      circulated; *al-Sabʿa* was the consolidating editorial act
+      that produced the canon, and every later qirāʾāt manual
+      builds on it directly. His selection of one master per major
+      Muslim metropolis (Medina, Mecca, Basra, Damascus, Kufa) plus
+      two further Kufans (Ḥamza and al-Kisāʾī) established the
+      enduring framework. Ibn al-Jazarī's later expansion to ten
+      preserves Ibn Mujāhid's seven untouched and adds three further
+      readers as a completion rather than a revision.
+    description_ar: |
+      توفي الإمام أبو بكر أحمد بن موسى بن العباس بن مجاهد التميمي
+      البغدادي — كبير قراء بغداد في زمانه، والإمام الذي أحكم في
+      «كتاب السبعة في القراءات» القراءات السبع المعتمدة (وهي قراءات
+      نافع المدني وابن كثير المكي وأبي عمرو البصري وابن عامر الشامي
+      وعاصم الكوفي وحمزة الزيات والكسائي) فصارت هي المعتمدة عند
+      الكافة — ببغداد سنة ٣٢٤ هـ عن نحو تسع وسبعين سنة. وقبل عمله
+      كانت تشيع عشرات من القراءات الإقليمية؛ فكان «كتاب السبعة»
+      الفاصلَ التحريريَ الذي أخرج الكنّ، وعلى أساسه يبني كل من ألف
+      في القراءات بعده. واختياره عن كل مصر مصراً واحداً (المدينة
+      ومكة والبصرة والشام والكوفة) ثم اثنين آخرين من الكوفة (حمزة
+      والكسائي) هو الإطار الراسخ. وتوسع ابن الجزري بعده إلى العشرة
+      أبقى السبعة كما هي وضمّ إليها ثلاثةً إكمالاً لا مراجعةً.
+    description_fr: |
+      Abū Bakr Aḥmad ibn Mūsā ibn al-ʿAbbās ibn Mujāhid al-Tamīmī
+      al-Baghdādī — principal *qāriʾ* de Bagdad de sa génération et
+      le savant dont le *Kitāb al-Sabʿa fī al-Qirāʾāt* fixa les sept
+      lectures canoniques (celles de Nāfiʿ al-Madanī, Ibn Kathīr
+      al-Makkī, Abū ʿAmr al-Baṣrī, Ibn ʿĀmir al-Shāmī, ʿĀṣim al-Kūfī,
+      Ḥamza al-Zayyāt et al-Kisāʾī) comme les *al-qirāʾāt al-sabʿ*
+      universellement acceptées — mourut à Bagdad en 324 H à l'âge
+      d'environ 79 ans. Avant son œuvre, des dizaines de lectures
+      régionales circulaient; *al-Sabʿa* fut l'acte éditorial
+      consolidateur qui produisit le canon, et chaque manuel
+      ultérieur de *qirāʾāt* le prolonge directement. Sa sélection
+      d'un maître par grande métropole musulmane (Médine, La Mecque,
+      Bassora, Damas, Koufa) plus deux autres Koufiens (Ḥamza et
+      al-Kisāʾī) établit le cadre durable. L'extension ultérieure
+      d'Ibn al-Jazarī à dix préserve les sept d'Ibn Mujāhid
+      intactes et leur ajoute trois autres lecteurs comme
+      complément plutôt que comme révision.
+    canonical_hijri: {year: 324, precision: year}
+    canonical_gregorian: {date: 936-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — d. 324 AH at Baghdad"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 324"
+    people: [[ibn-mujahid, subject]]
+    tags: [abbasid, qari, qiraat, baghdad, sabah, codification]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-al-dani-qari
+    category: scholar
+    title_en: Death of al-Dānī — author of al-Taysīr fī al-Qirāʾāt al-Sabʿ
+    title_ar: وفاة الداني — صاحب «التيسير في القراءات السبع»
+    title_fr: Mort d'al-Dānī — auteur d'al-Taysīr fī al-Qirāʾāt al-Sabʿ
+    description_en: |
+      Abū ʿAmr ʿUthmān ibn Saʿīd al-Dānī al-Andalusī — Andalusi
+      master of the *qirāʾāt* sciences, qāriʾ of Denia (Daniya) on
+      the Levantine coast of al-Andalus, and author of *al-Taysīr
+      fī al-Qirāʾāt al-Sabʿ*, the systematic late-classical manual
+      of the seven readings that became the basis of all subsequent
+      western teaching of qirāʾāt — died in Denia in Shawwāl 444 AH
+      at age about 73. *al-Taysīr* re-presented Ibn Mujāhid's seven
+      readings with a precision and systematic transmission-tracking
+      that allowed students to learn each reading independently with
+      its narrators. Two generations later al-Shāṭibī would versify
+      *al-Taysīr* as *Ḥirz al-Amānī*, fixing the Dānī tradition into
+      memorable verse for every reciter. He also wrote *al-Muqniʿ
+      fī Rasm Maṣāḥif al-Amṣār*, the foundational work on Qurʾanic
+      orthography.
+    description_ar: |
+      توفي الإمام أبو عمرو عثمان بن سعيد الداني الأندلسي — كبير علماء
+      القراءات بالأندلس، وقارئ دانية في ساحل المشرق الأندلسي، ومصنف
+      «التيسير في القراءات السبع»، المتن المنظم في القراءات المعتمد
+      في عصره الذي قام عليه التدريس الغربي للقراءات بعده — بدانية
+      في شوال سنة ٤٤٤ هـ عن نحو ثلاث وسبعين سنة. وفي «التيسير» قدّم
+      الداني قراءات ابن مجاهد السبع تقديماً منهجياً دقيقاً يحفظ
+      أسانيدها، فيستطيع الطالب أن يحصّل كل قراءة برواتها مستقلة.
+      وبعد جيلين نظمه الشاطبي في «حرز الأماني» فصار التيسير محفوظاً
+      بنظمه عند كل القراء. وله أيضاً «المقنع في رسم مصاحف الأمصار»،
+      الكتاب الأم في علم الرسم العثماني.
+    description_fr: |
+      Abū ʿAmr ʿUthmān ibn Saʿīd al-Dānī al-Andalusī — maître
+      andalou des sciences des *qirāʾāt*, *qāriʾ* de Denia (*Dāniya*)
+      sur la côte levantine d'al-Andalus, et auteur d'*al-Taysīr fī
+      al-Qirāʾāt al-Sabʿ*, le manuel systématique de la fin de la
+      période classique consacré aux sept lectures qui devint le
+      fondement de tout enseignement occidental ultérieur des
+      *qirāʾāt* — mourut à Denia en Shawwāl 444 H à l'âge d'environ
+      73 ans. *al-Taysīr* présenta de nouveau les sept lectures
+      d'Ibn Mujāhid avec une précision et un suivi systématique des
+      transmissions qui permettaient aux étudiants d'apprendre
+      chaque lecture indépendamment avec ses narrateurs. Deux
+      générations plus tard, al-Shāṭibī versifia *al-Taysīr* en
+      *Ḥirz al-Amānī*, fixant la tradition dānienne en vers
+      mémorables pour tout récitateur. Il composa aussi *al-Muqniʿ
+      fī Rasm Maṣāḥif al-Amṣār*, l'ouvrage fondateur sur
+      l'orthographe coranique.
+    canonical_hijri: {year: 444, month: 10, precision: month}
+    canonical_gregorian: {date: 1053-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — Shawwāl 444 AH at Denia"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 444"
+    people: [[al-dani-qari, subject]]
+    tags: [andalus, qari, qiraat, taysir, denia, codification]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-al-shatibi-qari
+    category: scholar
+    title_en: Death of al-Shāṭibī al-Qāriʾ — author of al-Shāṭibiyya
+    title_ar: وفاة الشاطبي القارئ — صاحب «الشاطبية»
+    title_fr: Mort d'al-Shāṭibī al-Qāriʾ — auteur d'al-Shāṭibiyya
+    description_en: |
+      Abū al-Qāsim al-Qāsim ibn Fīrruh ibn Khalaf al-Ruʿaynī
+      al-Shāṭibī al-Andalusī — Andalusi master of the *qirāʾāt*
+      sciences, qāriʾ of Cairo in the Ayyubid era, and author of
+      *Ḥirz al-Amānī wa-Wajh al-Tahānī* (universally known as
+      *al-Shāṭibiyya*), the 1,173-verse rajaz versification of al-
+      Dānī's *al-Taysīr* that has been the standard pedagogical
+      text of the seven readings everywhere in the Sunni world from
+      his day to the present — died in Cairo at age about 52. He
+      was a disciple of the Andalusi qāriʾ Abū al-Ḥasan ibn Hudhayl
+      and migrated east in middle age, settling in Cairo where he
+      taught at al-Madrasa al-Fāḍiliyya (Saladin's vizier al-Qāḍī
+      al-Fāḍil's foundation). Every subsequent qāriʾ in the Sunni
+      tradition has memorised the *Shāṭibiyya*; commentaries on it
+      number in the dozens, including those of Abū Shāma al-
+      Maqdisī and al-Sakhāwī. He had been blind from birth.
+    description_ar: |
+      توفي الإمام أبو القاسم القاسم بن فيرّه بن خلف الرعيني الشاطبي
+      الأندلسي — كبير علماء القراءات بالأندلس، قارئ القاهرة في عصر
+      الأيوبيين، ومصنف «حرز الأماني ووجه التهاني» (المعروفة بـ«الشاطبية»)،
+      المنظومة الرجزية البالغة ١١٧٣ بيتاً، نظمَ بها «التيسير» للداني
+      فصارت المتن الدراسي المعتمد للقراءات السبع في كل بلاد أهل السنة
+      من عصره إلى اليوم — بالقاهرة عن نحو اثنتين وخمسين سنة. وكان قد
+      أخذ القراءة بالأندلس عن أبي الحسن بن هذيل، ثم رحل إلى المشرق
+      في كهولته فاستقر بالقاهرة فدرّس بالمدرسة الفاضلية (التي وقفها
+      وزير صلاح الدين القاضي الفاضل). ويحفظ «الشاطبية» كل قارئ بعده
+      من أهل السنة، وشروحها بالعشرات، منها شروح أبي شامة المقدسي
+      والسخاوي. وكان رحمه الله ضريراً منذ ولادته.
+    description_fr: |
+      Abū al-Qāsim al-Qāsim ibn Fīrruh ibn Khalaf al-Ruʿaynī
+      al-Shāṭibī al-Andalusī — maître andalou des sciences des
+      *qirāʾāt*, *qāriʾ* du Caire à l'époque ayyoubide, et auteur
+      d'*Ḥirz al-Amānī wa-Wajh al-Tahānī* (universellement connu sous
+      le nom d'*al-Shāṭibiyya*), la versification rajaz de 1 173
+      vers d'*al-Taysīr* d'al-Dānī qui a été le texte pédagogique
+      standard des sept lectures dans tout le monde sunnite depuis
+      son époque jusqu'à nos jours — mourut au Caire à l'âge
+      d'environ 52 ans. Il fut disciple du *qāriʾ* andalou Abū
+      al-Ḥasan ibn Hudhayl et émigra vers l'orient à l'âge mûr,
+      s'installant au Caire où il enseigna à al-Madrasa al-Fāḍiliyya
+      (la fondation du vizir de Saladin, al-Qāḍī al-Fāḍil). Chaque
+      *qāriʾ* sunnite ultérieur a mémorisé la *Shāṭibiyya*; ses
+      commentaires se comptent par dizaines, dont ceux d'Abū Shāma
+      al-Maqdisī et d'al-Sakhāwī. Il était aveugle de naissance.
+    canonical_hijri: {year: 590, month: 6, precision: month}
+    canonical_gregorian: {date: 1194-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ — Jumādā al-Ākhira 590 AH at Cairo"
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry"
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa-l-Nihāya year 590"
+    people: [[al-shatibi-qari, subject]]
+    tags: [andalus, ayyubid, qari, qiraat, shatibiyya, cairo, codification]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-ibn-al-jazari
+    category: scholar
+    title_en: Death of Ibn al-Jazarī — author of al-Nashr fī al-Qirāʾāt al-ʿAshr
+    title_ar: وفاة ابن الجزري — صاحب «النشر في القراءات العشر»
+    title_fr: Mort d'Ibn al-Jazarī — auteur d'al-Nashr fī al-Qirāʾāt al-ʿAshr
+    description_en: |
+      Shams al-Dīn Abū al-Khayr Muḥammad ibn Muḥammad ibn ʿAlī ibn
+      al-Jazarī — Damascene-Egyptian master of the *qirāʾāt*
+      sciences, chief qāriʾ of his age, and author of *al-Nashr fī
+      al-Qirāʾāt al-ʿAshr* (the comprehensive treatise on the ten
+      canonical readings, expanding Ibn Mujāhid's seven by adding
+      Abū Jaʿfar al-Madanī, Yaʿqūb al-Ḥaḍramī, and Khalaf al-ʿĀshir)
+      and *al-Ṭayyiba*, its 1,015-verse rajaz versification — died
+      in Shiraz in Rabīʿ al-Awwal 833 AH at age about 82. He was
+      *qāḍī al-quḍāt* and *shaykh al-qurrāʾ* under multiple Mamluk
+      and Timurid courts. His work fixed the canon of ten readings
+      that has held since: every classical recital tradition since
+      his day teaches from his framework. *Ghāyat al-Nihāya fī
+      Ṭabaqāt al-Qurrāʾ*, his biographical dictionary of qurrāʾ,
+      remains the indispensable reference for the history of the
+      Qurʾan recital tradition. He also founded madrasas for
+      qirāʾāt instruction in Damascus, Bursa, Shiraz, and elsewhere.
+    description_ar: |
+      توفي الإمام شمس الدين أبو الخير محمد بن محمد بن علي ابن الجزري
+      — كبير علماء القراءات في عصره، شيخ القراء بالشام ومصر، ومصنف
+      «النشر في القراءات العشر» (الكتاب الجامع في القراءات العشر، إذ
+      أضاف على سبعة ابن مجاهد ثلاثاً: أبا جعفر المدني ويعقوب الحضرمي
+      وخلف العاشر) و«الطيبة» منظومتها الرجزية البالغة ١٠١٥ بيتاً —
+      بشيراز في ربيع الأول سنة ٨٣٣ هـ عن نحو اثنتين وثمانين سنة.
+      وكان قاضي القضاة وشيخ القراء عند سلاطين المماليك وتيمور وأبنائه.
+      وحرّر بـ«النشر» كنّ القراءات العشر الذي ظل المعتمد منذ عصره؛
+      فكل المدارس الإقرائية الكلاسيكية بعده تعلّم على إطاره. وكتابه
+      «غاية النهاية في طبقات القراء» معجم تراجم القراء، وهو المرجع
+      الذي لا غنى عنه في تاريخ تراث القراءات. وأنشأ مدارس للإقراء
+      بدمشق وبروسة وشيراز وغيرها.
+    description_fr: |
+      Shams al-Dīn Abū al-Khayr Muḥammad ibn Muḥammad ibn ʿAlī Ibn
+      al-Jazarī — maître damascéno-égyptien des sciences des
+      *qirāʾāt*, principal *qāriʾ* de son temps, et auteur d'*al-
+      Nashr fī al-Qirāʾāt al-ʿAshr* (le traité exhaustif des dix
+      lectures canoniques, étendant les sept d'Ibn Mujāhid par
+      l'adjonction d'Abū Jaʿfar al-Madanī, Yaʿqūb al-Ḥaḍramī et
+      Khalaf al-ʿĀshir) et d'*al-Ṭayyiba*, sa versification rajaz
+      en 1 015 vers — mourut à Shiraz en Rabīʿ al-Awwal 833 H à
+      l'âge d'environ 82 ans. Il fut *qāḍī al-quḍāt* et *shaykh
+      al-qurrāʾ* sous plusieurs cours mameloukes et timourides. Son
+      œuvre fixa le canon des dix lectures qui s'est maintenu
+      depuis : chaque tradition de récitation classique depuis son
+      époque enseigne à partir de son cadre. *Ghāyat al-Nihāya fī
+      Ṭabaqāt al-Qurrāʾ*, son dictionnaire biographique des
+      *qurrāʾ*, demeure la référence indispensable pour l'histoire
+      de la tradition de récitation coranique. Il fonda aussi des
+      madrasas d'enseignement des *qirāʾāt* à Damas, Bursa, Shiraz
+      et ailleurs.
+    canonical_hijri: {year: 833, month: 3, precision: month}
+    canonical_gregorian: {date: 1429-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "al-Bidāya wa-l-Nihāya — Rabīʿ al-Awwal 833 AH at Shiraz"
+      - source_key: dhahabi_tarikh_islam
+        notes: "Dhahabī's Tarīkh continued by al-Sakhāwī — entry"
+      - source_key: ei2
+        notes: "EI2 entry on Ibn al-Jazarī"
+    people: [[ibn-al-jazari, subject]]
+    tags: [mamluk, timurid, qari, qiraat, nashr, ten-readers, codification, shiraz]
+    importance: notable
+    verification_status: cross_verified

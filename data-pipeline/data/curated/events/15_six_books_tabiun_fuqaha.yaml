@@ -1,0 +1,748 @@
+# Wave 2 of curated event additions (2026-04-26).
+# 3 muhaddithun of the Six Books + 2 hadith giants + 3 senior sahaba +
+# 3 tabi'un + 4 classical fuqaha. Each event attested in classical Sunni
+# sources (al-Dhahabi Siyar, Ibn Khallikan Wafayat al-A'yan, Ibn al-Athir
+# al-Kamil, Ibn Hajar Tahdhib, etc.). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # MUHADDITHUN OF THE SIX BOOKS + MAJOR HADITH SCHOLARS
+  # =========================================================================
+
+  - slug: death-of-abu-dawud
+    category: scholar
+    title_en: Death of Imam Abu Dawud al-Sijistani
+    title_ar: وفاة الإمام أبي داود السجستاني
+    title_fr: Mort de l'imam Abu Dawud al-Sijistani
+    description_en: |
+      Sulayman ibn al-Ash'ath al-Sijistani, compiler of the Sunan — the
+      third of the Six Books of Sunni hadith — died in Basra at age 73.
+      He travelled across Khurasan, Iraq, the Hijaz, Egypt, the Levant,
+      and the Jazira to gather some five hundred thousand traditions, of
+      which he selected 4,800 for his Sunan, focusing exclusively on
+      hadiths bearing on legal rulings (ahadith al-ahkam). His
+      letter-treatise to the people of Mecca explaining his methodology
+      remains a foundational text in hadith criticism.
+    description_ar: |
+      توفي الإمام سليمان بن الأشعث السجستاني — صاحب «السنن» التي هي ثالث
+      الكتب الستة عند أهل السنة — بالبصرة عن ثلاث وسبعين سنة. طاف
+      رحمه الله بلاد خراسان والعراق والحجاز ومصر والشام والجزيرة، فجمع
+      نحواً من خمس مئة ألف حديث، انتقى منها لكتابه «السنن» نحو أربعة
+      آلاف وثمان مئة حديث، اقتصر فيها على أحاديث الأحكام. ورسالته إلى
+      أهل مكة في وصف منهجه في كتابه من أصول علم مصطلح الحديث إلى يوم الناس.
+    description_fr: |
+      Sulayman ibn al-Ashʿath al-Sijistani, compilateur des *Sunan* — le
+      troisième des Six Livres du hadith sunnite — mourut à Bassora à
+      l'âge de 73 ans. Il parcourut le Khurasan, l'Irak, le Hedjaz,
+      l'Égypte, le Levant et la Jazira pour rassembler environ cinq cent
+      mille traditions, dont il retint 4 800 pour ses *Sunan*, en se
+      concentrant exclusivement sur les hadiths portant sur les règles
+      juridiques (*aḥādīth al-aḥkām*). Sa lettre-traité aux habitants
+      de La Mecque exposant sa méthodologie demeure un texte fondateur
+      de la critique du hadith.
+    canonical_hijri: {year: 275, month: 10, day: 16, precision: day}
+    canonical_gregorian: {date: 889-02-21, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[abu-dawud, subject]]
+    tags: [hadith, six-books, sunan, basra, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Dawood"
+
+  - slug: death-of-al-nasai
+    category: scholar
+    title_en: Death of Imam al-Nasaʾi
+    title_ar: وفاة الإمام النسائي
+    title_fr: Mort de l'imam al-Nasaʾi
+    description_en: |
+      Ahmad ibn Shuʿayb al-Nasaʾi, compiler of *al-Sunan al-Sughra*
+      (also known as *al-Mujtaba*) — the fifth of the Six Books — died
+      in his late eighties. The most stringent of the Six Books authors
+      after al-Bukhari and Muslim, his Sunan applies a finer sieve than
+      Abu Dawud or al-Tirmidhi: many later scholars rank him second only
+      to the two Sahihs. He died after being assaulted in Damascus for
+      his book *Khasaʾis ʿAli* defending the merits of ʿAli ra against
+      contemporary Umayyad partisans; some sources say he died in Ramla,
+      others in Mecca where he had asked to be carried.
+    description_ar: |
+      توفي الإمام أحمد بن شعيب النسائي — صاحب «السنن الصغرى» المعروفة
+      بـ«المجتبى»، خامس الكتب الستة — وقد ناهز التسعين. كان أشد أصحاب
+      الكتب الستة تشدداً في الرجال بعد البخاري ومسلم، حتى عد كثير من
+      المتأخرين «سننه» تالية للصحيحين في الرتبة. توفي رحمه الله بعد
+      أن أوذي بدمشق بسبب كتابه «خصائص علي» في فضائل أمير المؤمنين علي
+      رضي الله عنه ردّاً على من تنقصه من بقايا أهل الشام؛ فقيل توفي
+      بالرملة، وقيل: حُمل إلى مكة بناءً على طلبه فمات بها.
+    description_fr: |
+      Aḥmad ibn Shuʿayb al-Nasaʾi, compilateur d'*al-Sunan al-Ṣughra*
+      (également connu sous le nom d'*al-Mujtaba*) — cinquième des Six
+      Livres — mourut âgé de près de quatre-vingt-dix ans. C'est le plus
+      rigoureux des auteurs des Six Livres après al-Bukhari et Muslim;
+      ses *Sunan* appliquent un crible plus fin qu'Abu Dawud ou al-Tirmidhi,
+      au point que beaucoup de savants tardifs les placent immédiatement
+      après les deux *Ṣaḥīḥ*. Il mourut après avoir été agressé à Damas
+      à cause de son livre *Khaṣaʾiṣ ʿAli* défendant les mérites de
+      ʿAli ra contre les partisans omeyyades de son temps; certaines
+      sources le font mourir à Ramla, d'autres à La Mecque où il avait
+      demandé à être transporté.
+    canonical_hijri: {year: 303, precision: year}
+    canonical_gregorian: {date: 915-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[an-nasai, subject]]
+    tags: [hadith, six-books, sunan, mujtaba, ramla, mecca]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Nasa%27i"
+
+  - slug: death-of-ibn-majah
+    category: scholar
+    title_en: Death of Imam Ibn Majah
+    title_ar: وفاة الإمام ابن ماجه
+    title_fr: Mort de l'imam Ibn Majah
+    description_en: |
+      Muhammad ibn Yazid Ibn Majah al-Qazwini, compiler of the Sunan
+      that completes the Six Books, died in Qazvin at age 64. His
+      Sunan, organised by chapters of fiqh, contains roughly 4,300
+      hadiths; later critics noted that Ibn Majah included a small
+      number of weak narrations that the other compilers had
+      excluded — a fact transparently catalogued in al-Mizzi's *Tuhfat
+      al-Ashraf* and al-Dhahabi's *Mizan al-Iʿtidal*. The work was
+      formally added to the Six Books canon by Abu al-Fadl al-Maqdisi
+      (d. 507 AH).
+    description_ar: |
+      توفي الإمام محمد بن يزيد ابن ماجه القزويني — صاحب «السنن» التي
+      أكملت الكتب الستة — بقزوين عن أربع وستين سنة. كتابه «السنن»
+      مرتب على أبواب الفقه ويحتوي على نحو أربعة آلاف وثلاث مئة حديث،
+      وقد نبه المتأخرون إلى أن ابن ماجه أدخل في كتابه عدداً يسيراً من
+      الأحاديث الضعيفة التي تركها سائر أصحاب الكتب الستة، وهو أمر
+      موثق بشفافية في «تحفة الأشراف» للمزي و«ميزان الاعتدال» للذهبي.
+      وأدخل أبو الفضل المقدسي (ت ٥٠٧ هـ) كتابه رسمياً في عداد الكتب
+      الستة.
+    description_fr: |
+      Muḥammad ibn Yazid Ibn Majah al-Qazwini, compilateur des *Sunan*
+      qui complètent les Six Livres, mourut à Qazvin à l'âge de 64 ans.
+      Ses *Sunan*, organisées par chapitres de fiqh, contiennent environ
+      4 300 hadiths; les critiques tardifs ont relevé qu'Ibn Majah y
+      avait inclus un petit nombre de narrations faibles que les autres
+      compilateurs avaient exclues — fait transparent catalogué dans
+      *Tuḥfat al-Ashraf* d'al-Mizzi et *Mizan al-Iʿtidal* d'al-Dhahabi.
+      L'ouvrage fut formellement intégré au canon des Six Livres par
+      Abu al-Faḍl al-Maqdisi (m. 507 H).
+    canonical_hijri: {year: 273, month: 9, day: 22, precision: day}
+    canonical_gregorian: {date: 887-02-19, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-majah, subject]]
+    tags: [hadith, six-books, sunan, qazvin, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Majah"
+
+  - slug: death-of-al-tabarani
+    category: scholar
+    title_en: Death of al-Hafiz al-Tabarani
+    title_ar: وفاة الحافظ الطبراني
+    title_fr: Mort du ḥāfiẓ al-Ṭabarani
+    description_en: |
+      Sulayman ibn Ahmad al-Tabarani, the foremost hadith preserver of
+      his generation and author of the three monumental *Muʿjams* —
+      *al-Kabir*, *al-Awsat*, and *al-Saghir* — died in Isfahan at age
+      100. The *Muʿjam al-Kabir* arranges roughly 60,000 hadiths by
+      Companion narrator (a sahaba-keyed concordance still essential to
+      hadith research today). He travelled for thirty-three years
+      collecting traditions across Egypt, the Hijaz, Yemen, the Levant,
+      Iraq, and Persia. al-Dhahabi calls him "the Imam, the muhaddith
+      of the world" (*imam al-dunya*).
+    description_ar: |
+      توفي الحافظ سليمان بن أحمد الطبراني — حافظ زمانه ومصنف المعاجم
+      الثلاثة الكبرى: «الكبير» و«الأوسط» و«الصغير» — بأصبهان عن مئة سنة.
+      «المعجم الكبير» مرتب على مسانيد الصحابة ويضم نحواً من ستين ألف
+      حديث، وهو إلى يوم الناس مرجع لا غنى عنه في علم الحديث. طاف رحمه
+      الله ثلاثاً وثلاثين سنة في طلب الحديث ما بين مصر والحجاز واليمن
+      والشام والعراق وفارس. قال عنه الذهبي: «الإمام، محدث الإسلام، حافظ
+      الدنيا».
+    description_fr: |
+      Sulayman ibn Aḥmad al-Ṭabarani, le plus grand préservateur du
+      hadith de sa génération et auteur des trois monumentaux *Muʿjam*
+      — *al-Kabir*, *al-Awsaṭ* et *al-Ṣaghir* — mourut à Ispahan à
+      l'âge de 100 ans. Le *Muʿjam al-Kabir* organise environ 60 000
+      hadiths par compagnon narrateur (concordance par sahaba qui reste
+      indispensable à la recherche en hadith aujourd'hui). Il voyagea
+      trente-trois ans pour rassembler des traditions à travers l'Égypte,
+      le Hedjaz, le Yémen, le Levant, l'Irak et la Perse. al-Dhahabi le
+      qualifie de « l'imam, le muḥaddith du monde » (*imām al-dunyā*).
+    canonical_hijri: {year: 360, month: 11, day: 28, precision: day}
+    canonical_gregorian: {date: 971-09-17, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-tabarani, subject]]
+    tags: [hadith, mujam, isfahan, hafiz, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Tabarani"
+
+  - slug: death-of-ibn-hibban
+    category: scholar
+    title_en: Death of Ibn Ḥibban al-Busti
+    title_ar: وفاة ابن حبان البستي
+    title_fr: Mort d'Ibn Ḥibban al-Busti
+    description_en: |
+      Muhammad ibn Hibban al-Busti, qadi, polymath, and compiler of
+      *al-Ṣaḥiḥ* (commonly known as *Ṣaḥiḥ Ibn Ḥibban*) and the
+      foundational rijal work *al-Thiqat*, died in Bust (in present-day
+      Afghanistan). His *Ṣaḥiḥ* applies stricter authentication criteria
+      than the Sunan compilers and is widely treated as the third Ṣaḥiḥ
+      after al-Bukhari and Muslim. His critical apparatus on hadith
+      narrators in *al-Thiqat* and *al-Majruhin* shaped the later science
+      of jarh and taʿdil decisively. He served as qadi of Samarqand and
+      taught widely across Khurasan.
+    description_ar: |
+      توفي الإمام محمد بن حبان البستي — القاضي والمحدث الموسوعي وصاحب
+      «الصحيح» المعروف بـ«صحيح ابن حبان» وكتاب «الثقات» الذي هو من أصول
+      علم الرجال — في بست (في أفغانستان اليوم). شرط ابن حبان في صحيحه
+      أشد من شرط أصحاب السنن، حتى عدّه كثير من العلماء الصحيح الثالث
+      بعد صحيحي البخاري ومسلم. وكتاباه «الثقات» و«المجروحين» أثرا في
+      علم الجرح والتعديل تأثيراً عميقاً عند المتأخرين. وقد ولي قضاء
+      سمرقند ودرّس في عامة بلاد خراسان.
+    description_fr: |
+      Muḥammad ibn Ḥibban al-Busti, juge, polymathe et compilateur d'*al-
+      Ṣaḥīḥ* (communément appelé *Ṣaḥīḥ Ibn Ḥibban*) ainsi que de
+      l'ouvrage fondateur de critique des transmetteurs *al-Thiqāt*,
+      mourut à Bust (dans l'actuel Afghanistan). Son *Ṣaḥīḥ* applique des
+      critères d'authentification plus stricts que les compilateurs des
+      Sunan et est largement traité comme le troisième *Ṣaḥīḥ* après
+      al-Bukhari et Muslim. Son appareil critique sur les narrateurs de
+      hadith dans *al-Thiqāt* et *al-Majrūḥīn* a façonné de manière
+      décisive la science postérieure du *jarḥ* et du *taʿdīl*. Il fut
+      qāḍī de Samarcande et enseigna largement à travers le Khurasan.
+    canonical_hijri: {year: 354, month: 10, precision: month}
+    canonical_gregorian: {date: 965-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[ibn-hibban, subject]]
+    tags: [hadith, sahih, rijal, khurasan, bust, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Hibban"
+
+  # =========================================================================
+  # SENIOR SAHABA
+  # =========================================================================
+
+  - slug: death-of-al-zubayr-ibn-al-awwam
+    category: companion
+    title_en: Martyrdom of al-Zubayr ibn al-ʿAwwam ra
+    title_ar: استشهاد الزبير بن العوام رضي الله عنه
+    title_fr: Martyre d'al-Zubayr ibn al-ʿAwwam ra
+    description_en: |
+      al-Zubayr ibn al-ʿAwwam — first cousin of the Prophet ﷺ through
+      his aunt Safiyya, husband of Asma bint Abi Bakr, one of the ten
+      Companions promised Paradise (al-ʿasharatu al-mubashsharun bi-l-
+      jannah), and disciple of the Prophet ﷺ from the earliest days
+      of Mecca — was killed at the age of 64 after withdrawing from the
+      Battle of the Camel near Basra. He was struck down while praying
+      in the Wadi al-Sibaʿ by ʿAmr ibn Jurmuz; ʿAli ra, on hearing of
+      it, declared "give the killer of Ibn Safiyya tidings of Hellfire."
+      The Prophet ﷺ had named him *ḥawari rasul Allah* — the disciple
+      of the Messenger of Allah ﷺ.
+    description_ar: |
+      استشهد الزبير بن العوام رضي الله عنه — ابن عمة النبي ﷺ صفية بنت
+      عبد المطلب، وزوج أسماء بنت أبي بكر، وأحد العشرة المبشرين بالجنة،
+      وحواري رسول الله ﷺ، ومن السابقين الأولين في الإسلام — عن أربع
+      وستين سنة بعد انسحابه من معركة الجمل قرب البصرة. قتله غدراً عمرو
+      بن جرموز وهو يصلي في وادي السباع، فلما بلغ ذلك علياً رضي الله
+      عنه قال: «بشّر قاتل ابن صفية بالنار». وقد سمّاه النبي ﷺ
+      «حواريّ» في الحديث المتفق على صحته.
+    description_fr: |
+      al-Zubayr ibn al-ʿAwwam — cousin germain du Prophète ﷺ par sa
+      tante Ṣafiyya, époux d'Asma bint Abi Bakr, l'un des dix
+      compagnons à qui le Paradis fut promis (*al-ʿasharatu al-mubashsharun
+      bi-l-jannah*) et disciple du Prophète ﷺ depuis les premiers jours
+      de La Mecque — fut tué à 64 ans après s'être retiré de la bataille
+      du Chameau près de Bassora. Il fut frappé alors qu'il priait dans
+      le Wadi al-Sibaʿ par ʿAmr ibn Jurmuz; ʿAli ra, en l'apprenant,
+      déclara : « annoncez au tueur d'Ibn Ṣafiyya la nouvelle du Feu ».
+      Le Prophète ﷺ l'avait nommé *ḥawari rasul Allah* — le disciple du
+      Messager d'Allah ﷺ.
+    canonical_hijri: {year: 36, month: 6, precision: month}
+    canonical_gregorian: {date: 656-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_hajar_isaba
+      - source_key: ibn_sad_tabaqat
+    hadith_refs: "Bukhari 3719"
+    people: [[al-zubayr-ibn-al-awwam, subject], [ali-ibn-abi-talib, subject]]
+    tags: [sahaba, asharatu-al-mubashsharun, battle-of-camel, basra, fitna]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Zubayr_ibn_al-Awwam"
+
+  - slug: death-of-talha-ibn-ubaydullah
+    category: companion
+    title_en: Martyrdom of Ṭalḥa ibn ʿUbaydullah ra
+    title_ar: استشهاد طلحة بن عبيد الله رضي الله عنه
+    title_fr: Martyre de Ṭalḥa ibn ʿUbaydullah ra
+    description_en: |
+      Talha ibn ʿUbaydullah al-Taymi — one of the ten Companions
+      promised Paradise, eighth to embrace Islam, and the man whose
+      hand the Prophet ﷺ used as a shield at Uhud (sustaining injuries
+      that left it permanently maimed) — was killed at the Battle of
+      the Camel near Basra at age about sixty. He was hit by a stray
+      arrow in the leg and bled to death; some narrations name Marwan
+      ibn al-Hakam as the archer, settling an old grudge. The Prophet ﷺ
+      had named him *Talha al-Khayr* and *al-Fayyad* — Talha the Good
+      and the Generous — for his decisive bravery at Uhud.
+    description_ar: |
+      استشهد طلحة بن عبيد الله التيمي رضي الله عنه — أحد العشرة المبشرين
+      بالجنة، وثامن من أسلم في الإسلام، وصاحب اليد التي اتخذها رسول
+      الله ﷺ ترساً في غزوة أحد فأصيبت إصابة شلتها — في معركة الجمل قرب
+      البصرة وقد ناهز الستين. أصابه سهم طائش في رجله فنزف حتى مات؛ وفي
+      بعض الروايات أن الذي رماه مروان بن الحكم ثأراً قديماً. وقد سماه
+      النبي ﷺ «طلحة الخير» و«طلحة الفياض» لشجاعته الحاسمة يوم أحد.
+    description_fr: |
+      Ṭalḥa ibn ʿUbaydullah al-Taymi — l'un des dix compagnons promis
+      au Paradis, huitième à embrasser l'Islam, et celui dont la main
+      servit de bouclier au Prophète ﷺ à Uḥud (subissant des blessures
+      qui la laissèrent estropiée à vie) — fut tué à la bataille du
+      Chameau près de Bassora à l'âge d'environ soixante ans. Il fut
+      frappé par une flèche perdue à la jambe et mourut au sang; certaines
+      narrations désignent Marwan ibn al-Ḥakam comme l'archer, réglant
+      une vieille rancune. Le Prophète ﷺ l'avait nommé *Ṭalḥa al-Khayr*
+      et *al-Fayyāḍ* — Ṭalḥa le Bon et le Généreux — pour sa bravoure
+      décisive à Uḥud.
+    canonical_hijri: {year: 36, month: 6, precision: month}
+    canonical_gregorian: {date: 656-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_hajar_isaba
+      - source_key: ibn_sad_tabaqat
+    hadith_refs: "Bukhari 3724"
+    people: [[talha-ibn-ubaydullah, subject]]
+    tags: [sahaba, asharatu-al-mubashsharun, battle-of-camel, basra, uhud, fitna]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Talha"
+
+  - slug: death-of-sad-ibn-muadh
+    category: companion
+    title_en: Death of Saʿd ibn Muʿadh ra — "the Throne of the Most Merciful Shook"
+    title_ar: وفاة سعد بن معاذ رضي الله عنه
+    title_fr: Mort de Saʿd ibn Muʿadh ra — « le Trône du Tout-Miséricordieux a tremblé »
+    description_en: |
+      Saʿd ibn Muʿadh, chief of the Aws and one of the most beloved
+      companions of the Prophet ﷺ, died of an arrow wound from the
+      Battle of the Trench shortly after rendering the binding judgement
+      on Banu Qurayza. He was about 37. The Prophet ﷺ said at his
+      death: "The Throne of the Most Merciful shook for the death of
+      Saʿd ibn Muʿadh" (Bukhari and Muslim). His body was carried by
+      seventy thousand angels, and the Prophet ﷺ stood at his grave
+      and said his bier had been "constricted by the grave for an
+      instant, then released." Saʿd's conversion brought all of Banu
+      ʿAbd al-Ashhal into Islam in a single day.
+    description_ar: |
+      توفي سعد بن معاذ رضي الله عنه — سيد الأوس وأحب الناس إلى رسول
+      الله ﷺ — عن نحو سبع وثلاثين سنة، متأثراً بسهم أصابه يوم الخندق،
+      وذلك بعد أن حكم في بني قريظة الحكم الذي صادف حكم الله من فوق سبع
+      سماوات. قال النبي ﷺ يوم وفاته: «اهتزّ عرش الرحمن لموت سعد بن
+      معاذ» (متفق عليه). وشهد جنازته سبعون ألف ملك، ووقف النبي ﷺ على
+      قبره فقال: «لقد ضُمّ ضمّة ثم فُرّج عنه». وقد كان إسلامه سبباً
+      في إسلام بني عبد الأشهل جميعاً في يوم واحد.
+    description_fr: |
+      Saʿd ibn Muʿadh, chef des Aws et l'un des compagnons les plus
+      aimés du Prophète ﷺ, mourut d'une blessure par flèche reçue à la
+      bataille de la Tranchée, peu après avoir rendu le jugement
+      contraignant sur les Banu Qurayẓa. Il avait environ 37 ans. Le
+      Prophète ﷺ dit à sa mort : « le Trône du Tout-Miséricordieux a
+      tremblé pour la mort de Saʿd ibn Muʿadh » (Bukhari et Muslim).
+      Soixante-dix mille anges portèrent son corps, et le Prophète ﷺ
+      se tint sur sa tombe et dit que sa bière avait été « comprimée
+      par la tombe un instant, puis relâchée ». La conversion de Saʿd
+      avait amené tous les Banu ʿAbd al-Ashhal à l'Islam en un seul jour.
+    canonical_hijri: {year: 5, month: 11, precision: month}
+    canonical_gregorian: {date: 627-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_hajar_isaba
+    hadith_refs: "Bukhari 3803, Muslim 2466"
+    people: [[sad-ibn-muadh, subject]]
+    tags: [sahaba, ansar, aws, banu-qurayza, trench, medina]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sa%27d_ibn_Mu%27adh"
+
+  # =========================================================================
+  # TABI'UN
+  # =========================================================================
+
+  - slug: death-of-said-ibn-al-musayyib
+    category: scholar
+    title_en: Death of Saʿid ibn al-Musayyib
+    title_ar: وفاة سعيد بن المسيب
+    title_fr: Mort de Saʿid ibn al-Musayyib
+    description_en: |
+      Saʿid ibn al-Musayyib al-Makhzumi — foremost of the seven jurists
+      of Medina (*al-fuqaha al-sabʿa*), son-in-law of Abu Hurayra ra,
+      and the senior tabiʿi authority on hadith narration after the
+      generation of Companions — died in Medina at age about 79. He was
+      famous for his independence from court power: he refused to
+      pledge allegiance to ʿAbd al-Malik ibn Marwan's two sons as heirs
+      and was publicly flogged for it. ʿUmar ibn ʿAbd al-ʿAziz, then
+      governor of Medina, declined to enter Saʿid's mosque circle out
+      of deference. al-Zuhri called him "the most learned of the people"
+      among the tabiʿin.
+    description_ar: |
+      توفي سعيد بن المسيب المخزومي — أعلم أهل المدينة في عصره وسيد
+      الفقهاء السبعة، وزوج بنت أبي هريرة رضي الله عنه، وكبير التابعين
+      في رواية الحديث بعد جيل الصحابة — بالمدينة المنورة عن نحو تسع
+      وسبعين سنة. اشتهر باستقلاله عن السلطان، فلما بايع الناس لابنَي
+      عبد الملك بن مروان بولاية العهد أبى أن يبايع، فجلده الوالي
+      علناً. وكان عمر بن عبد العزيز — وهو يومئذ والي المدينة — يهاب
+      أن يدخل حلقة سعيد في المسجد إجلالاً له. قال عنه الزهري: «كان
+      أعلم الناس» يعني من التابعين.
+    description_fr: |
+      Saʿid ibn al-Musayyib al-Makhzumi — le plus éminent des sept
+      jurisconsultes de Médine (*al-fuqahāʾ al-sabʿa*), gendre d'Abu
+      Hurayra ra, et la plus haute autorité tabiʿi en matière de
+      transmission du hadith après la génération des Compagnons —
+      mourut à Médine à l'âge d'environ 79 ans. Il était célèbre pour
+      son indépendance vis-à-vis du pouvoir : il refusa de prêter
+      allégeance aux deux fils d'ʿAbd al-Malik ibn Marwan comme
+      héritiers et fut publiquement fouetté pour cela. ʿUmar ibn
+      ʿAbd al-ʿAziz, alors gouverneur de Médine, déclinait d'entrer
+      dans le cercle de Saʿid à la mosquée par déférence. al-Zuhri
+      le qualifia du « plus savant des hommes » parmi les tabiʿūn.
+    canonical_hijri: {year: 94, precision: year}
+    canonical_gregorian: {date: 712-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[said-ibn-al-musayyib, subject]]
+    tags: [tabi'un, fuqaha-al-sabʿa, medina, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sa%27id_ibn_al-Musayyib"
+
+  - slug: death-of-ibn-sirin
+    category: scholar
+    title_en: Death of Muhammad ibn Sirin
+    title_ar: وفاة محمد بن سيرين
+    title_fr: Mort de Muḥammad ibn Sirin
+    description_en: |
+      Muhammad ibn Sirin al-Basri — son of a freedman of Anas ibn
+      Malik ra, leading tabiʿi jurist and muḥaddith of Basra, and
+      proverbial master of the science of dream interpretation
+      (*taʿbir al-ruʾya*) in the Sunni tradition — died in Basra at
+      age about 77, around a hundred days after his contemporary and
+      counterpart Hasan al-Basri. He is the originator of the famous
+      principle "this knowledge is religion, so look at whom you take
+      your religion from" — the foundational maxim of isnad criticism.
+      The book *Tafsir al-Ahlam al-Kabir* attributed to him is in fact
+      a later compilation drawing on his teachings.
+    description_ar: |
+      توفي الإمام محمد بن سيرين البصري — مولى أنس بن مالك رضي الله عنه،
+      وكبير فقهاء التابعين ومحدثيهم في البصرة، والمضرب به المثل في
+      علم تعبير الرؤيا في تراث أهل السنة — بالبصرة عن نحو سبع وسبعين
+      سنة، وذلك بعد وفاة قرينه الحسن البصري بنحو مئة يوم. وعنه القاعدة
+      المشهورة في علم الإسناد: «إن هذا العلم دين، فانظروا عمن تأخذون
+      دينكم». وأما كتاب «تفسير الأحلام الكبير» المنسوب إليه فهو في
+      الحقيقة مجموع متأخر يجمع تعاليمه.
+    description_fr: |
+      Muḥammad ibn Sirin al-Baṣri — fils d'un affranchi d'Anas ibn
+      Malik ra, juriste et muḥaddith tabiʿi de premier plan à Bassora,
+      et maître proverbial de la science de l'interprétation des rêves
+      (*taʿbīr al-ruʾyā*) dans la tradition sunnite — mourut à Bassora
+      à l'âge d'environ 77 ans, une centaine de jours après son
+      contemporain et homologue Ḥasan al-Baṣri. C'est l'auteur du
+      célèbre principe « ce savoir est religion, regardez donc de qui
+      vous prenez votre religion » — maxime fondatrice de la critique
+      des chaînes de transmission. Le livre *Tafsir al-Aḥlam al-Kabīr*
+      qui lui est attribué est en réalité une compilation tardive
+      s'appuyant sur ses enseignements.
+    canonical_hijri: {year: 110, month: 10, precision: month}
+    canonical_gregorian: {date: 729-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[ibn-sirin, subject]]
+    tags: [tabi'un, basra, dream-interpretation, isnad, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Sirin"
+
+  - slug: death-of-al-zuhri
+    category: scholar
+    title_en: Death of Imam al-Zuhri (Ibn Shihab)
+    title_ar: وفاة الإمام الزهري (ابن شهاب)
+    title_fr: Mort de l'imam al-Zuhri (Ibn Shihab)
+    description_en: |
+      Muhammad ibn Muslim ibn Shihab al-Zuhri — the first scholar to
+      systematically codify hadith in writing under the official
+      patronage of the Umayyad caliph ʿUmar ibn ʿAbd al-ʿAziz ra, and
+      the linchpin tabiʿi-tabiʿi narrator through whom an enormous
+      portion of the canonical hadith corpus passes — died on his
+      estate at Shaghb-Bada outside Medina at age about 72. Malik
+      called him "the imam in hadith of his time"; al-Layth said
+      "I never saw a scholar more comprehensive than al-Zuhri." His
+      fixation of an organised hadith register at the caliph's
+      direction is a turning point in the history of the science.
+    description_ar: |
+      توفي الإمام محمد بن مسلم بن شهاب الزهري — أول من دوّن الحديث تدويناً
+      منهجياً بأمر الخليفة عمر بن عبد العزيز رضي الله عنه، وعمود إسناد
+      جل الكتب الستة في طبقة كبار التابعين — في ضيعته بـ«شغب وبدا» على
+      حدود الحجاز عن نحو اثنتين وسبعين سنة. قال عنه مالك بن أنس:
+      «إمام أهل الحديث في زمانه»، وقال الليث بن سعد: «ما رأيت عالماً
+      أجمع من ابن شهاب». وتقييده الديوان المنظم للحديث بأمر الخليفة
+      نقطة تحول في تاريخ هذا العلم.
+    description_fr: |
+      Muḥammad ibn Muslim ibn Shihab al-Zuhri — le premier savant à
+      codifier systématiquement le hadith par écrit sous le mécénat
+      officiel du calife omeyyade ʿUmar ibn ʿAbd al-ʿAziz ra, et le
+      narrateur tabiʿi-tabiʿi pivot par qui passe une part énorme du
+      corpus canonique du hadith — mourut sur son domaine de Shaghb-
+      Bada en dehors de Médine, à l'âge d'environ 72 ans. Malik
+      l'appela « l'imam du hadith de son temps »; al-Layth dit
+      « je n'ai jamais vu un savant plus exhaustif qu'al-Zuhri ». Sa
+      fixation d'un registre organisé du hadith sur ordre califal
+      constitue un tournant dans l'histoire de la science.
+    canonical_hijri: {year: 124, month: 9, precision: month}
+    canonical_gregorian: {date: 742-07-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-zuhri, subject], [umar-ibn-abd-al-aziz, subject]]
+    tags: [tabi'un, hadith, codification, umayyad, medina]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Shihab_al-Zuhri"
+
+  # =========================================================================
+  # CLASSICAL FUQAHA — HANAFI, MALIKI, CREEDAL
+  # =========================================================================
+
+  - slug: death-of-al-shaybani
+    category: scholar
+    title_en: Death of Muhammad ibn al-Hasan al-Shaybani
+    title_ar: وفاة محمد بن الحسن الشيباني
+    title_fr: Mort de Muḥammad ibn al-Ḥasan al-Shaybani
+    description_en: |
+      Muhammad ibn al-Hasan al-Shaybani, the senior student of Abu
+      Hanifa after Abu Yusuf and the chief codifier of the Hanafi
+      madhhab through his six "Books of the Apparent Narration"
+      (*Kutub Ẓahir al-Riwaya*) — *al-Mabsut*, *al-Jamiʿ al-Kabir*,
+      *al-Jamiʿ al-Saghir*, *al-Siyar al-Kabir*, *al-Siyar al-Saghir*,
+      and *al-Ziyadat* — died at Rayy in the company of the Caliph
+      Harun al-Rashid at age 58. His *al-Siyar al-Kabir* is the
+      foundational treatise of Islamic international law. Imam
+      al-Shafiʿi was his student in Iraq and credited him with shaping
+      his own juristic method: "I carried from Muhammad ibn al-Hasan
+      a camel-load of books."
+    description_ar: |
+      توفي الإمام محمد بن الحسن الشيباني — كبير أصحاب أبي حنيفة بعد
+      أبي يوسف، ومدوّن المذهب الحنفي عبر كتبه الستة المعروفة بـ«كتب
+      ظاهر الرواية»: «المبسوط» و«الجامع الكبير» و«الجامع الصغير»
+      و«السير الكبير» و«السير الصغير» و«الزيادات» — بالريّ في معسكر
+      الخليفة هارون الرشيد عن ثمانٍ وخمسين سنة. وكتابه «السير الكبير»
+      هو الأساس في فقه القانون الدولي الإسلامي. وقد قرأ عليه الإمام
+      الشافعي بالعراق فقال: «حملت عن محمد بن الحسن وقر بعير من الكتب».
+    description_fr: |
+      Muḥammad ibn al-Ḥasan al-Shaybani, l'élève principal d'Abu Hanifa
+      après Abu Yusuf et le codificateur en chef de l'école hanafite à
+      travers ses six « Livres de la Transmission Apparente »
+      (*Kutub Ẓāhir al-Riwāya*) — *al-Mabsūṭ*, *al-Jāmiʿ al-Kabīr*,
+      *al-Jāmiʿ al-Ṣaghīr*, *al-Siyar al-Kabīr*, *al-Siyar al-Ṣaghīr*
+      et *al-Ziyādāt* — mourut à Rayy dans l'entourage du calife Harun
+      al-Rashid à l'âge de 58 ans. Son *al-Siyar al-Kabīr* est le
+      traité fondateur du droit international islamique. L'imam
+      al-Shāfiʿi fut son élève en Irak et lui attribua la formation
+      de sa propre méthode juridique : « j'ai emporté de Muḥammad ibn
+      al-Ḥasan une charge de chameau de livres ».
+    canonical_hijri: {year: 189, precision: year}
+    canonical_gregorian: {date: 805-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-shaybani, subject], [abu-hanifa, subject], [harun-al-rashid, subject]]
+    tags: [hanafi, fiqh, codification, abbasid, rayy, siyar]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_al-Shaybani"
+
+  - slug: death-of-sahnun
+    category: scholar
+    title_en: Death of Saḥnun ibn Saʿid al-Tanukhi
+    title_ar: وفاة سحنون بن سعيد التنوخي
+    title_fr: Mort de Saḥnun ibn Saʿid al-Tanukhi
+    description_en: |
+      Saḥnun (ʿAbd al-Salam ibn Saʿid) al-Tanukhi, qadi of Ifriqiya
+      and author of *al-Mudawwana al-Kubra* — the second-most
+      authoritative reference in the Maliki madhhab after the *Muwattaʾ*
+      itself — died in Qayrawan at age about 80. *al-Mudawwana*
+      records the legal positions of Imam Malik as transmitted through
+      Ibn al-Qasim, with Saḥnun's own incorporations and refinements;
+      it became the canonical Maliki fiqh manual across North Africa
+      and al-Andalus for nearly a millennium. As qadi he was famed for
+      his unbending integrity, refusing the office until he had been
+      assured of full independence from political interference.
+    description_ar: |
+      توفي الإمام سحنون (عبد السلام بن سعيد) التنوخي — قاضي إفريقية
+      ومصنف «المدونة الكبرى» التي هي أعلى مرجع في المذهب المالكي
+      بعد «الموطأ» نفسه — بالقيروان عن نحو ثمانين سنة. سجلت «المدونة»
+      فقه الإمام مالك من رواية ابن القاسم مع زيادات سحنون وتنقيحاته،
+      فصارت المرجع الفقهي القانوني للمذهب المالكي في عامة شمال
+      أفريقيا والأندلس قرابة ألف سنة. وعرف رحمه الله في القضاء
+      بصلابته في الحق فلم يقبل القضاء حتى ضُمنت له السلطة المستقلة
+      عن السلطان.
+    description_fr: |
+      Saḥnun (ʿAbd al-Salam ibn Saʿid) al-Tanukhi, qāḍī d'Ifriqiya et
+      auteur d'*al-Mudawwana al-Kubrā* — la seconde référence la plus
+      autoritative dans l'école malikite après la *Muwaṭṭaʾ* elle-même
+      — mourut à Qayrawan à l'âge d'environ 80 ans. *al-Mudawwana*
+      consigne les positions juridiques de l'imam Malik telles que
+      transmises par Ibn al-Qāsim, avec les incorporations et
+      raffinements propres à Saḥnun; elle devint le manuel canonique
+      de fiqh malikite à travers l'Afrique du Nord et al-Andalus
+      pendant près de mille ans. Comme qāḍī il était célèbre pour son
+      intégrité inflexible, refusant la charge jusqu'à avoir l'assurance
+      d'une indépendance totale vis-à-vis de l'ingérence politique.
+    canonical_hijri: {year: 240, month: 7, precision: month}
+    canonical_gregorian: {date: 854-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[sahnun, subject], [malik-ibn-anas, subject]]
+    tags: [maliki, fiqh, mudawwana, qayrawan, ifriqiya, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sahnun"
+
+  - slug: death-of-al-tahawi
+    category: scholar
+    title_en: Death of Imam al-Ṭahawi
+    title_ar: وفاة الإمام الطحاوي
+    title_fr: Mort de l'imam al-Ṭahawi
+    description_en: |
+      Abu Jaʿfar Ahmad ibn Muhammad al-Tahawi, foremost Hanafi jurist
+      of his generation and author of *al-ʿAqida al-Ṭahawiyya* — the
+      single most widely studied creedal text in Sunni Islam, taught
+      across Hanafi, Shafiʿi, and Maliki seminaries to this day —
+      died in Egypt at age about 92. Originally trained Shafiʿi (his
+      maternal uncle was al-Muzani, al-Shafiʿi's senior pupil), he
+      transferred to the Hanafi madhhab as a young man. Beyond the
+      *ʿAqida*, his *Sharḥ Maʿani al-Athar* and *Sharḥ Mushkil al-Athar*
+      remain pillar references for hadith fiqh.
+    description_ar: |
+      توفي الإمام أبو جعفر أحمد بن محمد الطحاوي — كبير فقهاء الحنفية
+      في عصره وصاحب «العقيدة الطحاوية» التي هي أوسع متون العقيدة عند
+      أهل السنة انتشاراً وتدريساً، تُقرأ في حلقات الحنفية والشافعية
+      والمالكية إلى اليوم — بمصر عن نحو اثنتين وتسعين سنة. كان رحمه
+      الله شافعي النشأة، وخاله المزني كبير أصحاب الإمام الشافعي، ثم
+      انتقل إلى المذهب الحنفي شاباً. وفضلاً عن «العقيدة» فإن كتابيه
+      «شرح معاني الآثار» و«شرح مشكل الآثار» من أركان فقه الحديث.
+    description_fr: |
+      Abu Jaʿfar Aḥmad ibn Muḥammad al-Ṭahawi, le plus grand juriste
+      hanafite de sa génération et auteur d'*al-ʿAqīda al-Ṭaḥāwiyya*
+      — le texte de credo sunnite le plus étudié au monde, enseigné
+      à travers les madrasas hanafites, shafiʿites et malikites jusqu'à
+      ce jour — mourut en Égypte à l'âge d'environ 92 ans. D'abord
+      formé chafiʿite (son oncle maternel était al-Muzani, élève
+      principal d'al-Shāfiʿi), il passa à l'école hanafite jeune
+      homme. Outre la *ʿAqīda*, son *Sharḥ Maʿānī al-Āthār* et son
+      *Sharḥ Mushkil al-Āthār* demeurent des références piliers du
+      fiqh des hadiths.
+    canonical_hijri: {year: 321, month: 11, precision: month}
+    canonical_gregorian: {date: 933-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-tahawi, subject]]
+    tags: [hanafi, creed, aqida, egypt, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Tahawi"
+
+  - slug: death-of-al-qadi-iyad
+    category: scholar
+    title_en: Death of al-Qaḍi ʿIyaḍ
+    title_ar: وفاة القاضي عياض
+    title_fr: Mort d'al-Qaḍi ʿIyaḍ
+    description_en: |
+      Abu al-Faḍl ʿIyaḍ ibn Musa al-Yaḥṣubi, qadi of Ceuta and Granada,
+      foremost Maliki authority of the western Islamic world in his
+      generation, and author of *al-Shifa bi-Taʿrif Ḥuquq al-Muṣṭafa*
+      — the most widely circulated work of devotion to the Prophet ﷺ
+      in Sunni Islam — died in Marrakesh at age about 68. *al-Shifa*
+      was carried in saddlebags from Andalusia to Java; even today it
+      is recited communally during Mawlid gatherings across the Muslim
+      world. His *Tartib al-Madarik* is the canonical biographical
+      dictionary of Maliki scholars. He fell out of favour with the
+      Almohad regime over his loyalty to the deposed Almoravids; some
+      classical sources suggest he was poisoned in Marrakesh.
+    description_ar: |
+      توفي القاضي أبو الفضل عياض بن موسى اليحصبي — قاضي سبتة وغرناطة،
+      وكبير المالكية في الغرب الإسلامي في عصره، ومصنف «الشفا بتعريف
+      حقوق المصطفى» — وهو أوسع كتب التعظيم النبوي ﷺ انتشاراً عند أهل
+      السنة — بمراكش عن نحو ثمانٍ وستين سنة. حُمل «الشفا» في الخروج
+      من الأندلس إلى جاوة، وما زال يُقرأ في حلقات المولد في العالم
+      الإسلامي إلى يومنا. وكتابه «ترتيب المدارك» هو المرجع المعتمد
+      في تراجم علماء المالكية. وقد انقلب عليه الموحدون لولائه
+      للمرابطين المخلوعين، وفي بعض المصادر القديمة أنه سُمّ بمراكش.
+    description_fr: |
+      Abu al-Faḍl ʿIyāḍ ibn Mūsā al-Yaḥṣubi, qāḍī de Ceuta et de
+      Grenade, plus grande autorité malikite du monde islamique
+      occidental de sa génération et auteur d'*al-Shifāʾ bi-Taʿrīf
+      Ḥuqūq al-Muṣṭafā* — l'ouvrage de dévotion au Prophète ﷺ le plus
+      largement diffusé dans l'islam sunnite — mourut à Marrakech à
+      l'âge d'environ 68 ans. *al-Shifāʾ* fut porté en sacoches
+      d'al-Andalus jusqu'à Java; aujourd'hui encore il est récité en
+      assemblée lors des veillées du Mawlid à travers le monde
+      musulman. Son *Tartīb al-Madārik* est le dictionnaire
+      biographique canonique des savants malikites. Il tomba en
+      disgrâce auprès du régime almohade en raison de sa loyauté aux
+      Almoravides déchus; certaines sources classiques suggèrent qu'il
+      fut empoisonné à Marrakech.
+    canonical_hijri: {year: 544, month: 6, precision: month}
+    canonical_gregorian: {date: 1149-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-qadi-iyad, subject]]
+    tags: [maliki, andalus, ceuta, marrakesh, almohad, shifa]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qadi_Ayyad"

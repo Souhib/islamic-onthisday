@@ -1,0 +1,882 @@
+# Wave 33 of curated event additions (2026-04-27).
+#
+# Mamluk-era hadith critics, Shāfiʿī fuqahāʾ, and Sunni biographers
+# not yet covered in earlier waves. Eleven figures span 581-807 AH
+# / 1185-1405 CE: the Andalusian Mālikī Sīra commentator al-Suhaylī
+# (d. 581 AH); the Damascene Shāfiʿī "Sulṭān al-ʿUlamāʾ" al-ʿIzz
+# ibn ʿAbd al-Salām (d. 660 AH); the Damascene Shāfiʿī fiqh teacher
+# Ibn al-Farkāḥ (d. 721 AH); the Damascene Shāfiʿī muḥaddith
+# al-Khaṭīb al-Dimashqī (Ibn Kathīr's father-in-law and author of
+# the *Manhaj al-Wuṣūl* uṣūl al-fiqh manual, d. 744 AH); the Cairo
+# Mamluk biographer al-Ṣafadī (d. 764 AH); the Aleppine Shāfiʿī
+# fiqh authority al-Adhraʿī (d. 783 AH); the Damascene-Egyptian
+# uṣūlī-muḥaddith al-ʿAlāʾī (d. 761 AH); the Yemeni Shāfiʿī
+# Sufi-biographer al-Yāfiʿī (d. 768 AH); the polymath plague
+# chronicler Ibn al-Wardī (d. 749 AH); the Cairo *zawāʾid*-master
+# al-Haythamī Nūr al-Dīn (d. 807 AH, distinct from Ibn Ḥajar
+# al-Haytamī of 974 AH); and his teacher al-ʿIrāqī Zayn al-Dīn
+# (d. 806 AH), author of the *Alfiyyat al-ʿIrāqī* in *muṣṭalaḥ
+# al-ḥadīth* and the *Mughnī ʿan Ḥaml al-Asfār* on the references
+# of al-Ghazālī's *Iḥyāʾ*.
+#
+# All eleven are mainstream Sunnī figures attested in classical
+# biographical literature: Ibn Ḥajar al-ʿAsqalānī's *al-Durar
+# al-Kāmina* (the standard reference for the eighth AH century),
+# Ibn al-ʿImād's *Shadharāt al-Dhahab*, Ibn Khallikān's *Wafayāt
+# al-Aʿyān* (for figures through 681 AH), Ibn Kathīr's *al-Bidāya
+# wa al-Nihāya*, al-Dhahabī's *Tārīkh al-Islām* (for figures
+# through 748 AH and a few subsequent dhayl continuations), and
+# EI2 where editorial framing is needed. None are Sahaba; none
+# carry hadith refs. Trilingual en/ar/fr throughout. category =
+# scholar_death.
+
+events:
+  # =========================================================================
+  # 6th CENTURY AH — al-Suhaylī, Andalusian Mālikī commentator on the Sīra
+  # =========================================================================
+
+  - slug: death-of-al-suhayli
+    category: scholar_death
+    title_en: Death of al-Suhaylī — Andalusian Mālikī commentator on the *Sīra*
+    title_ar: وفاة السهيلي — صاحب «الروض الأنف» في شرح سيرة ابن هشام
+    title_fr: Mort d'al-Suhaylī — commentateur andalou mālikīte de la Sīra
+    description_en: |
+      Abū al-Qāsim ʿAbd al-Raḥmān ibn ʿAbd Allāh ibn Aḥmad al-
+      Suhaylī al-Khathʿamī al-Andalusī — Mālikī jurist, hadith
+      transmitter, philologist, and Qurʾān commentator from Suhayl
+      (a village near Málaga in al-Andalus), and author of *al-Rawḍ
+      al-Unuf fī Sharḥ al-Sīra al-Nabawiyya li-Ibn Hishām*, the
+      foundational classical Sunni commentary on Ibn Hishām's
+      recension of the prophetic biography — died at Marrakesh in
+      581 AH (1185 CE), aged about 73, in the entourage of the
+      Almohad caliph Abū Yaʿqūb Yūsuf who had summoned him to court
+      despite his advanced blindness. *al-Rawḍ al-Unuf* explicates
+      the philology, genealogies, ḥadīth chains, and Qurʾānic
+      cross-references of the *Sīra* in two large volumes; it is
+      cited by every later Sunni Sīra-commentator (al-Shāmī,
+      al-Ḥalabī, al-Diyārbakrī) and by the Maghribī biographical
+      tradition through Ibn Khaldūn. He also composed *al-Taʿrīf
+      wa-al-Iʿlām fī-mā Ubhima fī al-Qurʾān min al-Asmāʾ wa-al-
+      Aʿlām*, a classic on the unnamed persons in the Qurʾān, and
+      *Natāʾij al-Fikr fī al-Naḥw*. al-Dhahabī describes him as
+      "ḥāfiẓ, ʿallāma, baṣīr al-qalb" — the master of insight whose
+      physical sight was lost.
+    description_ar: |
+      توفي أبو القاسم عبد الرحمن بن عبد الله بن أحمد السهيلي الخثعمي
+      الأندلسي — فقيه مالكي ومحدث ولغوي ومفسر، نسبته إلى سهيل قرية
+      من قرى مالقة بالأندلس، وصاحب «الروض الأنف في شرح السيرة النبوية
+      لابن هشام» الذي هو الشرح السني الكلاسيكي المؤسس لرواية ابن
+      هشام للسيرة — بمراكش سنة ٥٨١ هـ (الموافق ١١٨٥ ميلادي) عن نحو
+      ثلاث وسبعين سنة، وكان قد قدم على الخليفة الموحدي أبي يعقوب
+      يوسف الذي استدعاه إلى البلاط على ما كان به من العمى التام.
+      و«الروض الأنف» يبسط في مجلدين كبيرين فقه اللغة والأنساب
+      وأسانيد الأحاديث ومعارضات القرآن في «السيرة»، وهو معتمد كل
+      من جاء بعده من شراح السيرة عند أهل السنة (الشامي والحلبي
+      والديار بكري) ومن المؤرخين المغاربة إلى ابن خلدون. وله أيضاً
+      «التعريف والإعلام فيما أبهم في القرآن من الأسماء والأعلام»
+      وهو من كلاسيكيات الباب، و«نتائج الفكر في النحو». قال عنه
+      الذهبي: «الحافظ العلامة، بصير القلب» — يشير إلى ما فتح الله
+      عليه من البصيرة بعد أن فقد البصر.
+    description_fr: |
+      Abū al-Qāsim ʿAbd al-Raḥmān ibn ʿAbd Allāh ibn Aḥmad al-
+      Suhaylī al-Khathʿamī al-Andalusī — juriste mālikīte,
+      transmetteur de hadiths, philologue et exégète coranique
+      originaire de Suhayl (un village près de Málaga en al-Andalus)
+      et auteur d'*al-Rawḍ al-Unuf fī Sharḥ al-Sīra al-Nabawiyya
+      li-Ibn Hishām*, le commentaire sunnite classique fondateur
+      de la recension de la biographie prophétique d'Ibn Hishām —
+      mourut à Marrakech en 581 H (1185 EC), âgé d'environ 73 ans,
+      dans l'entourage du calife almohade Abū Yaʿqūb Yūsuf qui
+      l'avait convoqué à la cour malgré sa cécité totale.
+      *al-Rawḍ al-Unuf* explicite, en deux gros volumes, la
+      philologie, les généalogies, les chaînes de transmission et
+      les renvois coraniques de la *Sīra* ; il est cité par tous
+      les commentateurs sunnites postérieurs de la *Sīra*
+      (al-Shāmī, al-Ḥalabī, al-Diyārbakrī) et par la tradition
+      historiographique maghrébine jusqu'à Ibn Khaldūn. Il composa
+      également *al-Taʿrīf wa-al-Iʿlām fī-mā Ubhima fī al-Qurʾān
+      min al-Asmāʾ wa-al-Aʿlām*, classique sur les personnes
+      anonymes dans le Coran, ainsi que *Natāʾij al-Fikr fī
+      al-Naḥw*. al-Dhahabī le décrit comme « ḥāfiẓ, ʿallāma,
+      baṣīr al-qalb » — le maître de la perspicacité dont la vue
+      physique avait été perdue.
+    canonical_hijri: {year: 581, precision: year}
+    canonical_gregorian: {date: 1185-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafayāt al-Aʿyān gives 581 AH at Marrakesh, age c. 73."
+      - source_key: dhahabi_siyar
+        notes: "Siyar Aʿlām al-Nubalāʾ confirms 581 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya places death 581 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates 581 AH."
+    people: [[al-suhayli, died]]
+    tags: [andalus, maliki, sira, marrakesh, almohad, hadith]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Suhayli"
+
+  # =========================================================================
+  # 7th CENTURY AH — al-ʿIzz ibn ʿAbd al-Salām, "Sulṭān al-ʿUlamāʾ"
+  # =========================================================================
+
+  - slug: death-of-al-izz-ibn-abd-al-salam
+    category: scholar_death
+    title_en: Death of al-ʿIzz ibn ʿAbd al-Salām — *Sulṭān al-ʿUlamāʾ*
+    title_ar: وفاة العز بن عبد السلام — سلطان العلماء
+    title_fr: Mort d'al-ʿIzz ibn ʿAbd al-Salām — *Sulṭān al-ʿUlamāʾ*
+    description_en: |
+      ʿIzz al-Dīn Abū Muḥammad ʿAbd al-ʿAzīz ibn ʿAbd al-Salām
+      al-Sulamī al-Dimashqī al-Shāfiʿī — Damascene-then-Egyptian
+      Shāfiʿī jurist, uṣūlī, and political-religious authority,
+      universally titled *Sulṭān al-ʿUlamāʾ* (Sultan of the
+      Scholars) by the Sunni tradition, and author of *Qawāʿid
+      al-Aḥkām fī Maṣāliḥ al-Anām* — the foundational Sunni
+      treatise on the higher objectives (*maqāṣid*) of the
+      Sharīʿa — died at Cairo in 660 AH (1262 CE), aged about 83.
+      As khaṭīb of the Umayyad Mosque of Damascus he had publicly
+      sold the indebted Mamlūk amīrs at auction to fund the
+      treasury after the disgrace of their illegal cumulative
+      manumissions, an act recorded by Ibn Khallikān as the most
+      celebrated public ḥisba precedent of the Mamlūk century.
+      Pupils included the Mālikī al-Qarāfī (the *maqāṣid* line
+      flows from al-ʿIzz to al-Qarāfī to al-Shāṭibī), Ibn Daqīq
+      al-ʿĪd, and the historian Ibn al-ʿAṭṭār. al-Dhahabī's
+      *Siyar* devotes one of its longest entries to him.
+    description_ar: |
+      توفي عز الدين أبو محمد عبد العزيز بن عبد السلام السلمي
+      الدمشقي الشافعي — فقيه شافعي وأصولي ومرجع علمي وسياسي
+      دمشقي ثم مصري، اتفق أهل السنة على تلقيبه «سلطان العلماء»،
+      صاحب «قواعد الأحكام في مصالح الأنام» الذي هو التأصيل
+      المؤسس لمقاصد الشريعة عند أهل السنة — بالقاهرة سنة ٦٦٠ هـ
+      (الموافق ١٢٦٢ ميلادي) عن نحو ثلاث وثمانين سنة. وكان قد
+      تولى الخطابة بجامع بني أمية بدمشق، وأمر ببيع أمراء
+      المماليك في المزاد العلني ثمناً لرقابهم لما تبين أنهم لم
+      يعتقوا قبل توليتهم المناصب — وهي قصة دونها ابن خلكان بوصفها
+      أشهر سابقة للحسبة العامة في تاريخ الدولة المملوكية. ومن
+      تلامذته القرافي المالكي (وهو حلقة وصل بين العز والشاطبي
+      في تأصيل المقاصد) وابن دقيق العيد وابن العطار. وقد أفرد
+      الذهبي ترجمة العز في «السير» بطول هو من أطول التراجم.
+    description_fr: |
+      ʿIzz al-Dīn Abū Muḥammad ʿAbd al-ʿAzīz ibn ʿAbd al-Salām
+      al-Sulamī al-Dimashqī al-Shāfiʿī — juriste shāfiʿīte
+      damascène puis égyptien, uṣūlī et autorité politico-
+      religieuse universellement intitulé *Sulṭān al-ʿUlamāʾ*
+      (Sultan des savants) par la tradition sunnite, et auteur
+      de *Qawāʿid al-Aḥkām fī Maṣāliḥ al-Anām* — traité fondateur
+      sunnite des finalités supérieures (*maqāṣid*) de la
+      Sharīʿa — mourut au Caire en 660 H (1262 EC), âgé d'environ
+      83 ans. Khaṭīb de la Grande Mosquée des Omeyyades de Damas,
+      il fit publiquement vendre aux enchères les amīrs mamelouks
+      endettés au profit du Trésor après que furent révélés leurs
+      affranchissements cumulatifs illégaux — geste consigné par
+      Ibn Khallikān comme le précédent de *ḥisba* publique le
+      plus célèbre du siècle mamelouk. Parmi ses élèves : le
+      mālikīte al-Qarāfī (la lignée *maqāṣid* va d'al-ʿIzz à
+      al-Qarāfī à al-Shāṭibī), Ibn Daqīq al-ʿĪd et l'historien
+      Ibn al-ʿAṭṭār. Les *Siyar* d'al-Dhahabī lui consacrent
+      l'une de leurs plus longues notices.
+    canonical_hijri: {year: 660, month: 1, precision: month}
+    canonical_gregorian: {date: 1261-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafayāt al-Aʿyān gives Jumādā I 660 AH at Cairo."
+      - source_key: dhahabi_siyar
+        notes: "Siyar Aʿlām al-Nubalāʾ confirms 660 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya places death 660 AH at Cairo."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates 660 AH."
+    people: [[al-izz-ibn-abd-al-salam, died]]
+    tags: [shafii, damascus, cairo, mamluk, ayyubid, maqasid, sultan-al-ulama]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Izz_al-Din_ibn_%27Abd_al-Salam"
+
+  # =========================================================================
+  # 8th CENTURY AH — Damascene Shāfiʿī teaching circle
+  # =========================================================================
+
+  - slug: death-of-ibn-al-farkah
+    category: scholar_death
+    title_en: Death of Tāj al-Dīn Ibn al-Farkāḥ — Damascene Shāfiʿī fiqh teacher
+    title_ar: وفاة تاج الدين ابن الفركاح — شيخ الشافعية بدمشق
+    title_fr: Mort de Tāj al-Dīn Ibn al-Farkāḥ — maître shāfiʿīte de Damas
+    description_en: |
+      Tāj al-Dīn Abū Muḥammad ʿAbd al-Raḥmān ibn Ibrāhīm ibn Ḍiyāʾ
+      al-Fazārī al-Miṣrī al-Dimashqī, known as Ibn al-Farkāḥ —
+      Egyptian-Damascene Shāfiʿī jurist, son of the Bādharāʾiyya
+      mudarris Burhān al-Dīn al-Fazārī and one of the most
+      influential teachers of fiqh in late-Mamluk Damascus, whose
+      circle at the Bādharāʾiyya and the Umayyad Mosque trained
+      virtually every Damascene Shāfiʿī authority of the next
+      generation — died at Damascus in 690 AH or 705 AH (the date
+      used here is 690 AH following Ibn Kathīr's *al-Bidāya wa
+      al-Nihāya*; al-Dhahabī's *Tārīkh al-Islām* records 690 AH;
+      Ibn Ḥajar in *al-Durar al-Kāmina* allows for the variant
+      705 AH for the related Burhān al-Dīn). His pupils included
+      al-Mizzī, al-Dhahabī, Ibn Taymiyya, al-Kamāl ibn al-Zamlakānī,
+      and al-Subkī al-Kabīr; his lectures on al-Shīrāzī's *al-
+      Tanbīh* and on al-Ghazālī's *al-Wajīz* shaped the curriculum
+      of the Damascene Shāfiʿī school for the entire eighth
+      century AH. He authored a commentary on *al-Tanbīh* and
+      glosses on *al-Wajīz*.
+    description_ar: |
+      توفي تاج الدين أبو محمد عبد الرحمن بن إبراهيم بن ضياء
+      الفزاري المصري الدمشقي المعروف بابن الفركاح — فقيه شافعي
+      مصري دمشقي، ابن مدرس البادرائية برهان الدين الفزاري، وأحد
+      أوسع شيوخ الفقه أثراً بدمشق في أواخر العصر المملوكي، ربى
+      في حلقته بالبادرائية والجامع الأموي عامة شيوخ المذهب
+      الشافعي بدمشق في الجيل التالي — بدمشق سنة ٦٩٠ هـ على ما
+      رجحه ابن كثير في «البداية والنهاية» وأثبته الذهبي في
+      «تاريخ الإسلام»، وذكر ابن حجر في «الدرر الكامنة» الاختلاف
+      مع برهان الدين والده الذي توفي ٧٠٥ هـ. ومن تلامذته المزي
+      والذهبي وابن تيمية وكمال الدين ابن الزملكاني والسبكي
+      الكبير. ودروسه على «التنبيه» للشيرازي و«الوجيز» للغزالي
+      حدّدت منهج المدرسة الشافعية الدمشقية طيلة القرن الثامن
+      الهجري. وله شرح على «التنبيه» وحواشٍ على «الوجيز».
+    description_fr: |
+      Tāj al-Dīn Abū Muḥammad ʿAbd al-Raḥmān ibn Ibrāhīm ibn Ḍiyāʾ
+      al-Fazārī al-Miṣrī al-Dimashqī, connu comme Ibn al-Farkāḥ —
+      juriste shāfiʿīte égyptien-damascène, fils du mudarris de
+      la Bādharāʾiyya Burhān al-Dīn al-Fazārī, et l'un des
+      enseignants de fiqh les plus influents du Damas mamelouk
+      tardif, dont le cercle à la Bādharāʾiyya et à la Mosquée
+      des Omeyyades forma pratiquement toutes les autorités
+      shāfiʿītes damascènes de la génération suivante — mourut à
+      Damas en 690 H selon Ibn Kathīr (*al-Bidāya wa al-Nihāya*)
+      et al-Dhahabī (*Tārīkh al-Islām*) ; Ibn Ḥajar dans *al-Durar
+      al-Kāmina* admet la variante 705 H pour son père Burhān
+      al-Dīn. Parmi ses élèves : al-Mizzī, al-Dhahabī, Ibn
+      Taymiyya, al-Kamāl ibn al-Zamlakānī et al-Subkī al-Kabīr.
+      Ses leçons sur *al-Tanbīh* d'al-Shīrāzī et sur *al-Wajīz*
+      d'al-Ghazālī modelèrent le curriculum de l'école shāfiʿīte
+      damascène pendant tout le VIIIᵉ siècle de l'hégire. Il
+      composa un commentaire sur *al-Tanbīh* et des gloses sur
+      *al-Wajīz*.
+    canonical_hijri: {year: 690, precision: year}
+    canonical_gregorian: {date: 1291-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "Tārīkh al-Islām attests 690 AH at Damascus."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya places death 690 AH."
+      - source_key: ibn_hajar_durar
+        notes: "al-Durar al-Kāmina confirms; gives the family date table."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates 690 AH."
+    people: [[ibn-al-farkah, died]]
+    tags: [shafii, damascus, mamluk, fiqh, badhraiyya, fazari]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # 8th CENTURY AH — al-Khaṭīb al-Dimashqī al-Kattānī (744 AH)
+  # =========================================================================
+
+  - slug: death-of-al-khatib-al-dimashqi-al-kattani
+    category: scholar_death
+    title_en: Death of al-Khaṭīb al-Dimashqī al-Kattānī — Shāfiʿī uṣūlī
+    title_ar: وفاة الخطيب الدمشقي الكتاني — شافعي أصولي
+    title_fr: Mort d'al-Khaṭīb al-Dimashqī al-Kattānī — uṣūlī shāfiʿīte
+    description_en: |
+      ʿAlāʾ al-Dīn Abū al-Ḥasan ʿAlī ibn ʿAbd al-Kāfī al-Subkī's
+      Damascene contemporary Shams al-Dīn Muḥammad ibn Aḥmad ibn
+      ʿUthmān ibn Qāyimāz al-Kattānī al-Dimashqī al-Khaṭīb — son-
+      in-law of Ibn Kathīr (his daughter Zaynab married Ibn Kathīr,
+      a relationship Ibn Kathīr records in *al-Bidāya wa al-
+      Nihāya*), Shāfiʿī muḥaddith and uṣūlī, and khaṭīb of the
+      Umayyad Mosque of Damascus — died of plague at Damascus in
+      Rabīʿ I 744 AH (1343 CE). He authored *Manhaj al-Wuṣūl ilā
+      ʿIlm al-Uṣūl*, a Shāfiʿī uṣūl al-fiqh manual that remained
+      standard reading at the Damascene Shāfiʿī madrasas through
+      the ninth century AH; the work is cited by al-Subkī's
+      *Ṭabaqāt al-Shāfiʿiyya al-Kubrā* and by Ibn Ḥajar's *al-
+      Durar al-Kāmina*. He also produced abridgements of hadith
+      manuals widely used in Damascene teaching circles.
+    description_ar: |
+      توفي شمس الدين أبو عبد الله محمد بن أحمد بن عثمان بن
+      قايماز الكتاني الدمشقي الخطيب — صهر ابن كثير (تزوج ابنته
+      زينب من ابن كثير على ما ذكره ابن كثير نفسه في «البداية
+      والنهاية»)، محدث شافعي وأصولي، وخطيب الجامع الأموي بدمشق
+      — بدمشق في طاعون ربيع الأول سنة ٧٤٤ هـ (الموافق ١٣٤٣
+      ميلادي). وله «منهج الوصول إلى علم الأصول»، متن في أصول
+      الفقه على المذهب الشافعي ظل من المعتمد في تدريس مدارس
+      دمشق الشافعية إلى القرن التاسع الهجري؛ ومن مَنْ أحال إليه
+      السبكي في «طبقات الشافعية الكبرى» وابن حجر في «الدرر
+      الكامنة». وله أيضاً مختصرات في الحديث ذُكرت من المتداولة
+      في حلقات دمشق.
+    description_fr: |
+      Shams al-Dīn Abū ʿAbd Allāh Muḥammad ibn Aḥmad ibn ʿUthmān
+      ibn Qāyimāz al-Kattānī al-Dimashqī al-Khaṭīb — beau-père
+      d'Ibn Kathīr (sa fille Zaynab épousa Ibn Kathīr, lien
+      qu'Ibn Kathīr lui-même mentionne dans *al-Bidāya wa al-
+      Nihāya*), muḥaddith shāfiʿīte et uṣūlī, et khaṭīb de la
+      Mosquée des Omeyyades de Damas — mourut de la peste à
+      Damas en Rabīʿ I 744 H (1343 EC). Il composa *Manhaj al-
+      Wuṣūl ilā ʿIlm al-Uṣūl*, manuel d'uṣūl al-fiqh shāfiʿīte
+      qui demeura lecture standard dans les madrasas shāfiʿītes
+      damascènes jusqu'au IXᵉ siècle de l'hégire ; l'ouvrage est
+      cité dans les *Ṭabaqāt al-Shāfiʿiyya al-Kubrā* d'al-Subkī
+      et dans *al-Durar al-Kāmina* d'Ibn Ḥajar. Il rédigea
+      également des abrégés de manuels de hadith largement
+      employés dans les cercles d'enseignement damascènes.
+    canonical_hijri: {year: 744, month: 3, precision: month}
+    canonical_gregorian: {date: 1343-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina entry — Rabīʿ I 744 AH at Damascus, plague."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya records the family relationship and the death of plague in Rabīʿ 744 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 744 AH."
+    people: [[al-khatib-al-dimashqi-al-kattani, died]]
+    tags: [shafii, damascus, mamluk, plague, usul-al-fiqh, ibn-kathir-circle]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # 8th CENTURY AH — Ibn al-Wardī (749 AH), Shāfiʿī jurist-historian
+  # =========================================================================
+
+  - slug: death-of-ibn-al-wardi
+    category: scholar_death
+    title_en: Death of Ibn al-Wardī — Shāfiʿī jurist, plague chronicler, and poet
+    title_ar: وفاة ابن الوردي — شافعي وفقيه ومؤرخ ومرثية الطاعون
+    title_fr: Mort d'Ibn al-Wardī — juriste shāfiʿīte, chroniqueur de la peste, et poète
+    description_en: |
+      Zayn al-Dīn Abū Ḥafṣ ʿUmar ibn Muẓaffar ibn ʿUmar ibn al-
+      Wardī al-Maʿarrī al-Ḥalabī al-Shāfiʿī — Aleppine Shāfiʿī
+      jurist, poet, naḥwī, and historian, author of the verse-
+      didactic *Bahjat al-Ḥawādī* (a *Bahjat* on Shāfiʿī fiqh
+      stylised after Ibn Mālik's *Alfiyya*), the geographical-
+      historical *Khazāʾin al-Qaṣr* (also known as *Tatimmat al-
+      Mukhtaṣar fī Akhbār al-Bashar*, a continuation of Abū
+      al-Fidāʾ's universal history through 749 AH), and the
+      celebrated *Risālat al-Naba ʿan al-Wabāʾ* — a first-person
+      eyewitness chronicle of the Black Death's arrival in Aleppo
+      in 748-749 AH — died of plague at Aleppo in Dhū al-Ḥijja
+      749 AH (March 1349 CE), aged about 60. His *Risāla* on the
+      plague is the most famous Sunni Arabic literary response
+      to the Black Death and is still read as both a historical
+      document and a spiritual meditation on mortality. (To be
+      distinguished from the later cosmographer Sirāj al-Dīn ʿUmar
+      ibn al-Wardī, fl. 9th AH, to whom the world-map *Kharīdat
+      al-ʿAjāʾib* is attributed.)
+    description_ar: |
+      توفي زين الدين أبو حفص عمر بن مظفر بن عمر ابن الوردي
+      المعري الحلبي الشافعي — فقيه شافعي حلبي وشاعر ونحوي ومؤرخ،
+      صاحب «بهجة الحاوي» (منظومة في فقه الشافعية على وزن «ألفية»
+      ابن مالك)، و«خزائن القصر» المعروف بـ«تتمة المختصر في أخبار
+      البشر» (ذيل لتاريخ أبي الفداء العام إلى سنة ٧٤٩ هـ)، و«رسالة
+      النبأ عن الوباء» الشهيرة — وهي شهادة عيان من ضمير المتكلم
+      على وصول الموت الأسود إلى حلب سنتي ٧٤٨-٧٤٩ هـ — توفي رحمه
+      الله بالطاعون بحلب في ذي الحجة سنة ٧٤٩ هـ (الموافق آذار
+      ١٣٤٩ ميلادي) عن نحو ستين سنة. ورسالته في الوباء أشهر ما
+      ترك العرب من الأدب السني في الجواب على الموت الأسود، وما
+      زالت تُقرأ على وجهيها: شهادة تاريخية وتأمل روحاني في الفناء.
+      (ويتميز عن سراج الدين عمر ابن الوردي المتأخر القرن التاسع
+      الذي تنسب إليه «خريدة العجائب» في الجغرافيا.)
+    description_fr: |
+      Zayn al-Dīn Abū Ḥafṣ ʿUmar ibn Muẓaffar ibn ʿUmar ibn al-
+      Wardī al-Maʿarrī al-Ḥalabī al-Shāfiʿī — juriste shāfiʿīte
+      d'Alep, poète, grammairien et historien, auteur de la
+      *Bahjat al-Ḥawādī* (versification didactique du fiqh
+      shāfiʿīte calquée sur l'*Alfiyya* d'Ibn Mālik), de
+      *Khazāʾin al-Qaṣr* connu sous le titre *Tatimmat al-
+      Mukhtaṣar fī Akhbār al-Bashar* (continuation de l'histoire
+      universelle d'Abū al-Fidāʾ jusqu'en 749 H), et de la
+      célèbre *Risālat al-Naba ʿan al-Wabāʾ* — chronique
+      autobiographique de l'arrivée de la peste noire à Alep en
+      748-749 H — mourut de la peste à Alep en Dhū al-Ḥijja 749 H
+      (mars 1349 EC), âgé d'environ 60 ans. Sa *Risāla* sur la
+      peste est la réponse littéraire arabe sunnite la plus
+      célèbre à la peste noire ; elle est toujours lue à la fois
+      comme document historique et méditation spirituelle sur la
+      mortalité. (À distinguer du cosmographe ultérieur Sirāj
+      al-Dīn ʿUmar ibn al-Wardī, IXᵉ siècle de l'hégire, à qui
+      l'on attribue la carte-monde *Kharīdat al-ʿAjāʾib*.)
+    canonical_hijri: {year: 749, month: 12, precision: month}
+    canonical_gregorian: {date: 1349-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina — Dhū al-Ḥijja 749 AH at Aleppo of plague."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya places death 749 AH at Aleppo of plague."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates Dhū al-Ḥijja 749 AH."
+    people: [[ibn-al-wardi, died]]
+    tags: [shafii, aleppo, mamluk, plague, black-death, historian, poet]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Wardi"
+
+  # =========================================================================
+  # 8th CENTURY AH — al-ʿAlāʾī Ṣalāḥ al-Dīn (761 AH), uṣūlī-muḥaddith
+  # =========================================================================
+
+  - slug: death-of-al-alai
+    category: scholar_death
+    title_en: Death of Ṣalāḥ al-Dīn al-ʿAlāʾī — Shāfiʿī muḥaddith and uṣūlī
+    title_ar: وفاة صلاح الدين العلائي — محدث وأصولي شافعي
+    title_fr: Mort de Ṣalāḥ al-Dīn al-ʿAlāʾī — muḥaddith et uṣūlī shāfiʿīte
+    description_en: |
+      Ṣalāḥ al-Dīn Abū Saʿīd Khalīl ibn Kaykaldī ibn ʿAbd Allāh
+      al-ʿAlāʾī al-Dimashqī al-Maqdisī al-Shāfiʿī — Damascene-
+      Jerusalemite Shāfiʿī muḥaddith, uṣūlī, and shaykh al-ḥadīth
+      at the Ṣalāḥiyya madrasa in Jerusalem — died at Jerusalem
+      in Muḥarram 761 AH (December 1359 CE), aged about 67. His
+      *Jāmiʿ al-Taḥṣīl fī Aḥkām al-Marāsīl* is one of the most
+      cited classical Sunni monographs on the science of *mursal*
+      (Successor-omitted) hadith and remains a standard reference
+      in *muṣṭalaḥ al-ḥadīth* education today; al-Suyūṭī cites it
+      throughout *Tadrīb al-Rāwī*. He also composed *al-Fuṣūl
+      al-Mufīda fī al-Wāw al-Mazīda* on Qurʾānic syntax,
+      *al-Tanbīhāt al-Mujmala ʿalā al-Mawāḍiʿ al-Mushkila* on
+      problematic hadiths, *al-Wajīz fī Dhikr al-Majāz wa-al-Ḥaqīqa*
+      on usūl al-fiqh, and a substantial commentary on *al-
+      Muḥarrar* of Ibn ʿAbd al-Hādī.
+    description_ar: |
+      توفي صلاح الدين أبو سعيد خليل بن كيكلدي بن عبد الله العلائي
+      الدمشقي المقدسي الشافعي — محدث شافعي دمشقي مقدسي وأصولي
+      وشيخ الحديث بالمدرسة الصلاحية ببيت المقدس — ببيت المقدس
+      في محرم سنة ٧٦١ هـ (الموافق كانون الأول ١٣٥٩ ميلادي) عن
+      نحو سبع وستين سنة. وله «جامع التحصيل في أحكام المراسيل»
+      وهو من أوسع التأصيلات السنية الكلاسيكية في علم المراسيل
+      التابعية، ولا يزال مرجعاً قائماً في تدريس مصطلح الحديث
+      إلى يومنا، وقد أحال إليه السيوطي في «تدريب الراوي» إحالات
+      كثيرة. وله أيضاً «الفصول المفيدة في الواو المزيدة» في
+      نحو القرآن، و«التنبيهات المجملة على المواضع المشكلة» في
+      مشكل الحديث، و«الوجيز في ذكر المجاز والحقيقة» في أصول
+      الفقه، وشرح كبير على «المحرر» لابن عبد الهادي.
+    description_fr: |
+      Ṣalāḥ al-Dīn Abū Saʿīd Khalīl ibn Kaykaldī ibn ʿAbd Allāh
+      al-ʿAlāʾī al-Dimashqī al-Maqdisī al-Shāfiʿī — muḥaddith
+      shāfiʿīte damascène-jérusalémite, uṣūlī et shaykh al-ḥadīth
+      à la madrasa al-Ṣalāḥiyya de Jérusalem — mourut à Jérusalem
+      en Muḥarram 761 H (décembre 1359 EC), âgé d'environ 67 ans.
+      Son *Jāmiʿ al-Taḥṣīl fī Aḥkām al-Marāsīl* est l'une des
+      monographies sunnites classiques les plus citées sur la
+      science du *mursal* (hadith dont le Successeur a omis le
+      Compagnon) et demeure une référence standard de
+      l'enseignement du *muṣṭalaḥ al-ḥadīth* ; al-Suyūṭī le cite
+      d'un bout à l'autre du *Tadrīb al-Rāwī*. Il composa
+      également *al-Fuṣūl al-Mufīda fī al-Wāw al-Mazīda* sur la
+      syntaxe coranique, *al-Tanbīhāt al-Mujmala ʿalā al-Mawāḍiʿ
+      al-Mushkila* sur les hadiths difficiles, *al-Wajīz fī Dhikr
+      al-Majāz wa-al-Ḥaqīqa* sur l'uṣūl al-fiqh, et un commentaire
+      substantiel sur *al-Muḥarrar* d'Ibn ʿAbd al-Hādī.
+    canonical_hijri: {year: 761, month: 1, precision: month}
+    canonical_gregorian: {date: 1359-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina — Muḥarram 761 AH at Jerusalem."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya places death 761 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates 761 AH."
+    people: [[al-alai, died]]
+    tags: [shafii, damascus, jerusalem, mamluk, hadith, mursal, mustalah, salahiyya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-%27Ala%27i"
+
+  # =========================================================================
+  # 8th CENTURY AH — al-Ṣafadī, Mamluk biographer (764 AH)
+  # =========================================================================
+
+  - slug: death-of-al-safadi
+    category: scholar_death
+    title_en: Death of al-Ṣafadī — author of *al-Wāfī bi-l-Wafayāt*
+    title_ar: وفاة الصفدي — صاحب «الوافي بالوفيات»
+    title_fr: Mort d'al-Ṣafadī — auteur d'*al-Wāfī bi-l-Wafayāt*
+    description_en: |
+      Ṣalāḥ al-Dīn Abū al-Ṣafāʾ Khalīl ibn Aybak ibn ʿAbd Allāh
+      al-Ṣafadī — Mamluk Egyptian-Syrian Sunni biographer, poet,
+      and chancery secretary, and author of *al-Wāfī bi-l-Wafayāt*
+      — the largest biographical dictionary in Arabic literature
+      after al-Dhahabī's *Tārīkh al-Islām*, comprising more than
+      14,000 entries on Islamic and pre-Islamic figures across
+      thirty volumes — died of plague at Damascus in Shawwāl
+      764 AH (July 1363 CE), aged about 68. He served as
+      kātib al-darj in the chanceries of Cairo, Aleppo, Ṣafad,
+      and Damascus, and produced over forty other works,
+      including the *Aʿyān al-ʿAṣr wa-Aʿwān al-Naṣr* (a wafayāt
+      dictionary specifically of his eighth-century AH
+      contemporaries) and the literary anthology *al-Ghayth
+      al-Musajjam fī Sharḥ Lāmiyyat al-ʿAjam*, a commentary on
+      al-Ṭughrāʾī's celebrated qaṣīda. *al-Wāfī* is the single
+      most cited Mamluk-period biographical reference in modern
+      academic Islamic studies.
+    description_ar: |
+      توفي صلاح الدين أبو الصفاء خليل بن أيبك بن عبد الله
+      الصفدي — مؤرخ التراجم السني المملوكي وأديب وكاتب الديوان
+      مصري شامي، وصاحب «الوافي بالوفيات» الذي هو أكبر معاجم
+      الترجمة في الأدب العربي بعد «تاريخ الإسلام» للذهبي،
+      ويضم أكثر من أربعة عشر ألف ترجمة لأعلام الإسلام وما قبله
+      في ثلاثين مجلداً — توفي رحمه الله بالطاعون بدمشق في
+      شوال سنة ٧٦٤ هـ (الموافق تموز ١٣٦٣ ميلادي) عن نحو ثمان
+      وستين سنة. خدم كاتب الدرج في دواوين القاهرة وحلب وصفد
+      ودمشق، وصنف أكثر من أربعين كتاباً، منها «أعيان العصر
+      وأعوان النصر» (معجم وفيات لمعاصريه القرن الثامن خاصة)
+      و«الغيث المسجم في شرح لامية العجم» — شرح القصيدة الطغرائية
+      المشهورة. و«الوافي» اليوم أكثر مراجع الترجمة المملوكية
+      إحالة في الدراسات الإسلامية الأكاديمية الحديثة.
+    description_fr: |
+      Ṣalāḥ al-Dīn Abū al-Ṣafāʾ Khalīl ibn Aybak ibn ʿAbd Allāh
+      al-Ṣafadī — biographe sunnite mamelouk égypto-syrien,
+      poète et secrétaire de chancellerie, auteur d'*al-Wāfī bi-
+      l-Wafayāt* — le plus grand dictionnaire biographique de la
+      littérature arabe après le *Tārīkh al-Islām* d'al-Dhahabī,
+      comportant plus de 14 000 notices sur les figures
+      islamiques et préislamiques en trente volumes — mourut de
+      la peste à Damas en Shawwāl 764 H (juillet 1363 EC), âgé
+      d'environ 68 ans. Il servit comme kātib al-darj dans les
+      chancelleries du Caire, d'Alep, de Ṣafad et de Damas, et
+      composa plus de quarante autres ouvrages, dont *Aʿyān al-
+      ʿAṣr wa-Aʿwān al-Naṣr* (dictionnaire de wafayāt
+      spécifiquement consacré à ses contemporains du VIIIᵉ siècle
+      de l'hégire) et l'anthologie littéraire *al-Ghayth al-
+      Musajjam fī Sharḥ Lāmiyyat al-ʿAjam*, commentaire sur la
+      célèbre qaṣīda d'al-Ṭughrāʾī. *al-Wāfī* est la référence
+      biographique mamelouke la plus citée dans les études
+      islamiques académiques modernes.
+    canonical_hijri: {year: 764, month: 10, precision: month}
+    canonical_gregorian: {date: 1363-07-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina — Shawwāl 764 AH at Damascus, plague."
+      - source_key: ibn_kathir_bidaya
+        notes: "al-Bidāya wa al-Nihāya places death 764 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates Shawwāl 764 AH."
+      - source_key: ei2
+        notes: "EI2 art. 'al-Ṣafadī' confirms 764 AH and surveys his oeuvre."
+    people: [[al-safadi, died]]
+    tags: [mamluk, damascus, biography, wafayat, plague, chancery]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Safadi"
+
+  # =========================================================================
+  # 8th CENTURY AH — al-Yāfiʿī, Yemeni Shāfiʿī Sufi-biographer (768 AH)
+  # =========================================================================
+
+  - slug: death-of-al-yafii
+    category: scholar_death
+    title_en: Death of al-Yāfiʿī — Yemeni Shāfiʿī Sufi-biographer
+    title_ar: وفاة اليافعي — صوفي شافعي يماني ومؤرخ
+    title_fr: Mort d'al-Yāfiʿī — soufi-biographe yéménite shāfiʿīte
+    description_en: |
+      ʿAfīf al-Dīn Abū Muḥammad ʿAbd Allāh ibn Asʿad ibn ʿAlī al-
+      Yāfiʿī al-Yamanī al-Shāfiʿī — Yemeni Shāfiʿī Sufi
+      muḥaddith, hagiographer, and historian, long resident at
+      Mecca, author of *Mirʾāt al-Janān wa-ʿIbrat al-Yaqẓān* (a
+      year-by-year world chronicle from the hijra through 750 AH
+      that is the principal Sunni Yemeni-Meccan parallel to the
+      Damascene-Egyptian *Bidāya* and *Shadharāt* tradition),
+      *Rawḍ al-Rayyāḥīn fī Ḥikāyāt al-Ṣāliḥīn* (a celebrated
+      compendium of stories of the righteous, widely read across
+      the Sunni world for six centuries), and a Sufi *Khulāṣat
+      al-Mafākhir* devoted to ʿAbd al-Qādir al-Jīlānī — died at
+      Mecca in Jumādā II 768 AH (February 1367 CE), aged about
+      70. al-Sakhāwī's *al-Ḍawʾ al-Lāmiʿ* and Ibn Ḥajar's *al-
+      Durar al-Kāmina* both treat him as the senior Sunni Sufi
+      authority of the Ḥaramayn in his generation.
+    description_ar: |
+      توفي عفيف الدين أبو محمد عبد الله بن أسعد بن علي اليافعي
+      اليماني الشافعي — صوفي يماني شافعي ومحدث ومؤلف تراجم
+      ومؤرخ، طال مقامه بمكة، صاحب «مرآة الجنان وعبرة اليقظان»
+      (تاريخ سنوي شامل من الهجرة إلى سنة ٧٥٠ هـ يوازي عند أهل
+      السنة في اليمن والحرمين كتاب «البداية» و«الشذرات» في الشام
+      ومصر)، و«روض الرياحين في حكايات الصالحين» (مجموع شهير
+      من أخبار الصالحين قُرئ في العالم السني ست قرون)، وكتاب
+      «خلاصة المفاخر» في فضائل عبد القادر الجيلاني — توفي رحمه
+      الله بمكة المكرمة في جمادى الآخرة سنة ٧٦٨ هـ (الموافق
+      شباط ١٣٦٧ ميلادي) عن نحو سبعين سنة. وقد اعتمده السخاوي
+      في «الضوء اللامع» وابن حجر في «الدرر الكامنة» مرجعاً سنياً
+      صوفياً للحرمين في جيله.
+    description_fr: |
+      ʿAfīf al-Dīn Abū Muḥammad ʿAbd Allāh ibn Asʿad ibn ʿAlī al-
+      Yāfiʿī al-Yamanī al-Shāfiʿī — soufi shāfiʿīte yéménite,
+      muḥaddith, hagiographe et historien, longtemps résident à
+      La Mecque, auteur de *Mirʾāt al-Janān wa-ʿIbrat al-Yaqẓān*
+      (chronique universelle année par année depuis l'hégire
+      jusqu'en 750 H, principal pendant sunnite yéménite-meccois
+      de la tradition damascène-égyptienne de la *Bidāya* et des
+      *Shadharāt*), de *Rawḍ al-Rayyāḥīn fī Ḥikāyāt al-Ṣāliḥīn*
+      (recueil célèbre de récits des pieux, largement lu dans le
+      monde sunnite pendant six siècles) et d'un *Khulāṣat al-
+      Mafākhir* soufie consacré à ʿAbd al-Qādir al-Jīlānī —
+      mourut à La Mecque en Jumādā II 768 H (février 1367 EC),
+      âgé d'environ 70 ans. *al-Ḍawʾ al-Lāmiʿ* d'al-Sakhāwī et
+      *al-Durar al-Kāmina* d'Ibn Ḥajar le tiennent tous deux
+      pour la principale autorité sunnite-soufie des Ḥaramayn de
+      sa génération.
+    canonical_hijri: {year: 768, month: 6, precision: month}
+    canonical_gregorian: {date: 1367-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina — Jumādā II 768 AH at Mecca."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates Jumādā II 768 AH."
+      - source_key: ei2
+        notes: "EI2 art. 'al-Yāfiʿī' confirms 768 AH and surveys his oeuvre."
+    people: [[al-yafii, died]]
+    tags: [shafii, yemen, mecca, mamluk, sufi, biography, mirat-al-janan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Yafi%27i"
+
+  # =========================================================================
+  # 8th CENTURY AH — al-Adhraʿī (783 AH), Aleppine Shāfiʿī
+  # =========================================================================
+
+  - slug: death-of-al-adhrai
+    category: scholar_death
+    title_en: Death of Shihāb al-Dīn al-Adhraʿī — Aleppine Shāfiʿī authority
+    title_ar: وفاة شهاب الدين الأذرعي — إمام الشافعية بحلب
+    title_fr: Mort de Shihāb al-Dīn al-Adhraʿī — autorité shāfiʿīte d'Alep
+    description_en: |
+      Shihāb al-Dīn Abū al-ʿAbbās Aḥmad ibn Ḥamdān ibn Aḥmad al-
+      Adhraʿī al-Ḥalabī al-Shāfiʿī — Aleppine Shāfiʿī jurist,
+      qāḍī, and author of *Qūt al-Muḥtāj fī Sharḥ al-Minhāj* (a
+      commentary on al-Nawawī's *Minhāj al-Ṭālibīn*) and *al-
+      Tawassuṭ wa-al-Fatḥ bayna al-Rawḍa wa-al-Sharḥ* (a
+      mediating commentary between al-Nawawī's *al-Rawḍa* and
+      al-Rāfiʿī's *al-Sharḥ al-Kabīr* — the two great late-
+      classical Shāfiʿī references) — died at Aleppo in Jumādā
+      II 783 AH (September 1381 CE), aged about 75. His
+      mediating commentaries became standard Shāfiʿī references
+      in Aleppo, Damascus, and Cairo through the ninth and tenth
+      centuries AH; al-Subkī's *Ṭabaqāt al-Shāfiʿiyya al-Kubrā*
+      praises him as "the imam of the Shāfiʿīs of Aleppo and the
+      Syrian frontier." Pupils included al-Sirāj al-Bulqīnī's
+      circle in Cairo.
+    description_ar: |
+      توفي شهاب الدين أبو العباس أحمد بن حمدان بن أحمد الأذرعي
+      الحلبي الشافعي — فقيه شافعي حلبي وقاضٍ، وصاحب «قوت المحتاج
+      في شرح المنهاج» (شرح على «منهاج الطالبين» للنووي) و«التوسط
+      والفتح بين الروضة والشرح» (شرح وسطي بين «روضة الطالبين»
+      للنووي و«الشرح الكبير» للرافعي، وهما عمدتا المذهب الشافعي
+      في أواخر العصر الكلاسيكي) — توفي رحمه الله بحلب في جمادى
+      الآخرة سنة ٧٨٣ هـ (الموافق أيلول ١٣٨١ ميلادي) عن نحو خمس
+      وسبعين سنة. وصارت شروحه التوسطية مرجعاً معتمداً عند
+      الشافعية بحلب ودمشق والقاهرة في القرنين التاسع والعاشر؛
+      ووصفه السبكي في «طبقات الشافعية الكبرى» بأنه «إمام شافعية
+      حلب والثغر الشامي». ومن تلامذته من أتى إلى حلقة سراج الدين
+      البلقيني بالقاهرة.
+    description_fr: |
+      Shihāb al-Dīn Abū al-ʿAbbās Aḥmad ibn Ḥamdān ibn Aḥmad al-
+      Adhraʿī al-Ḥalabī al-Shāfiʿī — juriste shāfiʿīte d'Alep,
+      qāḍī, et auteur de *Qūt al-Muḥtāj fī Sharḥ al-Minhāj*
+      (commentaire du *Minhāj al-Ṭālibīn* d'al-Nawawī) et d'*al-
+      Tawassuṭ wa-al-Fatḥ bayna al-Rawḍa wa-al-Sharḥ* (commentaire
+      médian entre la *Rawḍat al-Ṭālibīn* d'al-Nawawī et le
+      *Sharḥ al-Kabīr* d'al-Rāfiʿī — les deux grandes références
+      shāfiʿītes tardo-classiques) — mourut à Alep en Jumādā II
+      783 H (septembre 1381 EC), âgé d'environ 75 ans. Ses
+      commentaires médians devinrent les références standards
+      des shāfiʿītes d'Alep, de Damas et du Caire pendant les
+      IXᵉ et Xᵉ siècles de l'hégire ; les *Ṭabaqāt al-Shāfiʿiyya
+      al-Kubrā* d'al-Subkī le qualifient d'« imam des shāfiʿītes
+      d'Alep et de la marche syrienne ». Parmi ses élèves : des
+      affiliés du cercle de Sirāj al-Dīn al-Bulqīnī au Caire.
+    canonical_hijri: {year: 783, month: 6, precision: month}
+    canonical_gregorian: {date: 1381-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina — Jumādā II 783 AH at Aleppo."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates 783 AH."
+      - source_key: ei2
+        notes: "EI2 art. 'al-Adhraʿī' confirms 783 AH and surveys *Qūt al-Muḥtāj*."
+    people: [[al-adhrai, died]]
+    tags: [shafii, aleppo, mamluk, fiqh, minhaj, qut-al-muhtaj]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # 9th CENTURY AH — al-ʿIrāqī Zayn al-Dīn (806 AH), Cairo *muḥaddith*
+  # =========================================================================
+
+  - slug: death-of-zayn-al-din-al-iraqi
+    category: scholar_death
+    title_en: Death of Zayn al-Dīn al-ʿIrāqī — author of the *Alfiyyat al-ʿIrāqī*
+    title_ar: وفاة زين الدين العراقي — صاحب «ألفية العراقي» في مصطلح الحديث
+    title_fr: Mort de Zayn al-Dīn al-ʿIrāqī — auteur de l'*Alfiyyat al-ʿIrāqī*
+    description_en: |
+      Zayn al-Dīn Abū al-Faḍl ʿAbd al-Raḥīm ibn al-Ḥusayn ibn ʿAbd
+      al-Raḥmān al-ʿIrāqī al-Mihrānī al-Shāfiʿī — Cairo Shāfiʿī
+      muḥaddith, qāḍī, and shaykh al-ḥadīth at the Ḍāhiriyya
+      al-Qadīma; the foremost teacher of *muṣṭalaḥ al-ḥadīth* of
+      his generation; teacher of Ibn Ḥajar al-ʿAsqalānī and of
+      al-Haythamī (who married his daughter); and author of two
+      seminal works — the *Alfiyya fī Muṣṭalaḥ al-Ḥadīth* (a
+      thousand-verse poem on the science of hadith terminology
+      that quickly became the standard madrasa text in *muṣṭalaḥ*,
+      with commentaries by his son al-Walī al-ʿIrāqī, al-
+      Sakhāwī, and al-Suyūṭī) and *al-Mughnī ʿan Ḥaml al-Asfār
+      fī al-Asfār fī Takhrīj mā fī al-Iḥyāʾ min al-Akhbār* (a
+      hadith-takhrīj of all narrations cited in al-Ghazālī's
+      *Iḥyāʾ ʿUlūm al-Dīn*, the most cited Sunni isnād
+      verification of any tasawwuf-classic) — died at Cairo on
+      8 Shaʿbān 806 AH (21 February 1404 CE), aged 81. Ibn
+      Ḥajar's *al-Durar al-Kāmina* records his teachers, his
+      students, and his works in detail; al-Sakhāwī's *al-Ḍawʾ
+      al-Lāmiʿ* is a continuation built on the same foundation.
+    description_ar: |
+      توفي زين الدين أبو الفضل عبد الرحيم بن الحسين بن عبد الرحمن
+      العراقي المهراني الشافعي — محدث شافعي بالقاهرة وقاضٍ وشيخ
+      الحديث بالظاهرية القديمة، رأس محدثي زمانه في مصطلح الحديث،
+      وشيخ ابن حجر العسقلاني والهيثمي (الذي تزوج ابنته)، وصاحب
+      عملين مؤسسين — «الألفية في مصطلح الحديث» (منظومة في ألف
+      بيت في علم مصطلح الحديث، صارت من فورها متناً معتمداً في
+      التدريس بالمدارس، شرحها ابنه ولي الدين والسخاوي والسيوطي)،
+      و«المغني عن حمل الأسفار في الأسفار في تخريج ما في الإحياء
+      من الأخبار» (تخريج لأحاديث «إحياء علوم الدين» للغزالي وأشهر
+      تحقيق سني للأسانيد في كتاب صوفي كلاسيكي) — توفي رحمه الله
+      بالقاهرة في الثامن من شعبان سنة ٨٠٦ هـ (الموافق ٢١ شباط
+      ١٤٠٤ ميلادي) عن إحدى وثمانين سنة. وقد فصل ابن حجر في
+      «الدرر الكامنة» في شيوخه وتلامذته ومصنفاته، وبنى السخاوي
+      «الضوء اللامع» على الأساس نفسه.
+    description_fr: |
+      Zayn al-Dīn Abū al-Faḍl ʿAbd al-Raḥīm ibn al-Ḥusayn ibn ʿAbd
+      al-Raḥmān al-ʿIrāqī al-Mihrānī al-Shāfiʿī — muḥaddith
+      shāfiʿīte du Caire, qāḍī, et shaykh al-ḥadīth à la
+      Ẓāhiriyya al-Qadīma ; principal enseignant de *muṣṭalaḥ al-
+      ḥadīth* de sa génération ; maître d'Ibn Ḥajar al-ʿAsqalānī
+      et d'al-Haythamī (qui épousa sa fille) ; et auteur de deux
+      ouvrages séminaux — l'*Alfiyya fī Muṣṭalaḥ al-Ḥadīth*
+      (poème de mille vers sur la science de la terminologie du
+      hadith, devenu rapidement le manuel standard de *muṣṭalaḥ*
+      en madrasa, avec commentaires par son fils al-Walī al-
+      ʿIrāqī, al-Sakhāwī et al-Suyūṭī) et *al-Mughnī ʿan Ḥaml al-
+      Asfār fī al-Asfār fī Takhrīj mā fī al-Iḥyāʾ min al-Akhbār*
+      (takhrīj de tous les hadiths cités dans l'*Iḥyāʾ ʿUlūm al-
+      Dīn* d'al-Ghazālī, la vérification d'isnād sunnite la plus
+      citée d'un classique du taṣawwuf) — mourut au Caire le
+      8 Shaʿbān 806 H (21 février 1404 EC), âgé de 81 ans.
+      *al-Durar al-Kāmina* d'Ibn Ḥajar consigne ses maîtres, ses
+      élèves et ses œuvres en détail ; *al-Ḍawʾ al-Lāmiʿ* d'al-
+      Sakhāwī est une continuation bâtie sur la même fondation.
+    canonical_hijri: {year: 806, month: 8, day: 8, precision: day}
+    canonical_gregorian: {date: 1404-02-21, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina — 8 Shaʿbān 806 AH at Cairo."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 806 AH."
+      - source_key: ei2
+        notes: "EI2 art. 'al-ʿIrāqī' confirms the date and the *Alfiyya*."
+    people: [[zayn-al-din-al-iraqi, died]]
+    tags: [shafii, cairo, mamluk, hadith, mustalah, alfiyya, ihya-takhrij]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Zayn_al-Din_al-%27Iraqi"
+
+  # =========================================================================
+  # 9th CENTURY AH — al-Haythamī Nūr al-Dīn (807 AH), *zawāʾid* master
+  # =========================================================================
+
+  - slug: death-of-nur-al-din-al-haythami
+    category: scholar_death
+    title_en: Death of Nūr al-Dīn al-Haythamī — author of *Majmaʿ al-Zawāʾid*
+    title_ar: وفاة نور الدين الهيثمي — صاحب «مجمع الزوائد ومنبع الفوائد»
+    title_fr: Mort de Nūr al-Dīn al-Haythamī — auteur de *Majmaʿ al-Zawāʾid*
+    description_en: |
+      Nūr al-Dīn Abū al-Ḥasan ʿAlī ibn Abī Bakr ibn Sulaymān al-
+      Haythamī al-Qāhirī al-Shāfiʿī — Cairo Shāfiʿī muḥaddith
+      and the master of the *zawāʾid* genre (compendia of hadith
+      found in one collection but not in another), companion and
+      son-in-law of his teacher Zayn al-Dīn al-ʿIrāqī, and author
+      of *Majmaʿ al-Zawāʾid wa-Manbaʿ al-Fawāʾid* — the
+      foundational ten-volume Sunni compendium of hadiths added
+      by Aḥmad's *Musnad*, al-Bazzār's *Musnad*, Abū Yaʿlā's
+      *Musnad*, and al-Ṭabarānī's three *Muʿjams* over the Six
+      Books — died at Cairo on 19 Ramaḍān 807 AH (21 March
+      1405 CE), aged 72. (Note: distinct from Ibn Ḥajar al-
+      Haytamī of 974 AH, with whom he is often confused due to
+      orthographic similarity.) He also produced eight other
+      *zawāʾid* monographs, *Mawārid al-Ẓamʾān ilā Zawāʾid Ibn
+      Ḥibbān* (the supplement to Ibn Ḥibbān's Ṣaḥīḥ), and *Bughyat
+      al-Bāḥith ʿan Zawāʾid Musnad al-Ḥārith*. His son-in-law
+      relationship to al-ʿIrāqī (and his student-teacher
+      relationship to Ibn Ḥajar al-ʿAsqalānī, who likewise
+      married into al-ʿIrāqī's family) anchored the great Cairo
+      hadith-criticism circle of the early ninth century AH.
+    description_ar: |
+      توفي نور الدين أبو الحسن علي بن أبي بكر بن سليمان الهيثمي
+      القاهري الشافعي — محدث قاهري شافعي وإمام علم الزوائد
+      (وهي مصنفات في الأحاديث الزائدة عند بعض المصنفين دون بعض)،
+      صاحب وصهر شيخه زين الدين العراقي، وصاحب «مجمع الزوائد
+      ومنبع الفوائد» — موسوعة الزوائد السنية المؤسِّسة في عشرة
+      مجلدات تجمع زيادات «مسند» أحمد و«مسند» البزار و«مسند» أبي
+      يعلى و«المعاجم الثلاثة» للطبراني على الكتب الستة — توفي
+      رحمه الله بالقاهرة في التاسع عشر من رمضان سنة ٨٠٧ هـ
+      (الموافق ٢١ آذار ١٤٠٥ ميلادي) عن اثنتين وسبعين سنة. (تنبيه:
+      يتميز عن ابن حجر الهيتمي المتوفى سنة ٩٧٤ هـ، ويختلطان كثيراً
+      لتشابه الرسم.) وله أيضاً ثمان مصنفات أخرى في الزوائد، منها
+      «موارد الظمآن إلى زوائد ابن حبان» و«بغية الباحث عن زوائد
+      مسند الحارث». ومصاهرته للعراقي (مع مصاهرة ابن حجر العسقلاني
+      للأسرة نفسها) رسخت حلقة نقد الحديث الكبرى بالقاهرة في أوائل
+      القرن التاسع.
+    description_fr: |
+      Nūr al-Dīn Abū al-Ḥasan ʿAlī ibn Abī Bakr ibn Sulaymān al-
+      Haythamī al-Qāhirī al-Shāfiʿī — muḥaddith shāfiʿīte du
+      Caire et maître du genre des *zawāʾid* (recueils de
+      hadiths attestés dans une collection mais non dans une
+      autre), compagnon et gendre de son maître Zayn al-Dīn al-
+      ʿIrāqī, et auteur de *Majmaʿ al-Zawāʾid wa-Manbaʿ al-
+      Fawāʾid* — la compilation sunnite fondatrice en dix
+      volumes des hadiths ajoutés par le *Musnad* d'Aḥmad, le
+      *Musnad* d'al-Bazzār, le *Musnad* d'Abū Yaʿlā et les trois
+      *Muʿjams* d'al-Ṭabarānī par-delà les Six Livres — mourut
+      au Caire le 19 Ramaḍān 807 H (21 mars 1405 EC), âgé de
+      72 ans. (À distinguer d'Ibn Ḥajar al-Haytamī mort en 974 H,
+      avec lequel il est souvent confondu en raison de la
+      similitude orthographique.) Il composa également huit
+      autres monographies de *zawāʾid*, *Mawārid al-Ẓamʾān ilā
+      Zawāʾid Ibn Ḥibbān* (supplément au Ṣaḥīḥ d'Ibn Ḥibbān) et
+      *Bughyat al-Bāḥith ʿan Zawāʾid Musnad al-Ḥārith*. Sa
+      relation de gendre à al-ʿIrāqī (avec celle d'Ibn Ḥajar
+      al-ʿAsqalānī, qui épousa également une parente de la même
+      famille) ancra le grand cercle de critique du hadith du
+      Caire au début du IXᵉ siècle de l'hégire.
+    canonical_hijri: {year: 807, month: 9, day: 19, precision: day}
+    canonical_gregorian: {date: 1405-03-21, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina — 19 Ramaḍān 807 AH at Cairo; Ibn Ḥajar was his pupil and son-in-law-by-affinity, so the date is first-hand."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab corroborates 807 AH."
+      - source_key: ei2
+        notes: "EI2 art. 'al-Haythamī, Nūr al-Dīn' confirms 807 AH and the *Majmaʿ al-Zawāʾid*."
+    people: [[nur-al-din-al-haythami, died]]
+    tags: [shafii, cairo, mamluk, hadith, zawaid, majma-al-zawaid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ali_ibn_Abu_Bakr_al-Haythami"

@@ -1,0 +1,825 @@
+# Wave: foundations and completions of major mosques and madrasas
+# across Islamic history (Umayyad through modern). Each event is
+# attested in classical Sunni sources (Ibn al-Athīr, Ibn Kathīr,
+# al-Dhahabī, Ibn Khallikān) and/or modern academic reference
+# (Encyclopaedia of Islam, 2nd ed.) for the post-Mamlūk Ottoman
+# and modern entries that lie beyond the classical chronicle horizon.
+# Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # UMAYYAD AND ABBASID
+  # =========================================================================
+
+  - slug: aqsa-rebuilding-walid-i
+    category: building_completion
+    title_en: Caliph al-Walīd I Rebuilds al-Masjid al-Aqṣā
+    title_ar: إعادة الوليد بن عبد الملك بناء المسجد الأقصى
+    title_fr: Reconstruction d'al-Masjid al-Aqṣā par le calife al-Walīd Ier
+    description_en: |
+      The Umayyad caliph al-Walīd ibn ʿAbd al-Malik completed the
+      monumental rebuilding of al-Masjid al-Aqṣā at the southern end
+      of the Noble Sanctuary in Jerusalem, replacing his father ʿAbd
+      al-Malik's earlier wooden structure with a stone congregational
+      mosque covered by a great timber-and-lead dome over the central
+      nave. The project complemented the Dome of the Rock (completed
+      72 AH) and the new Umayyad Mosque of Damascus, marking the
+      Umayyad investment in monumental religious architecture across
+      the central provinces. The mosque has been damaged and rebuilt
+      several times since; the current standing structure preserves
+      the al-Walīd plan in its general aisle disposition.
+    description_ar: |
+      أتمّ الخليفة الأموي الوليد بن عبد الملك إعادة بناء المسجد الأقصى
+      في الجهة الجنوبية من الحرم القدسي الشريف بالقدس، فاستبدل بمنشأة
+      الخشب التي بناها أبوه عبد الملك جامعاً حجرياً واسعاً تتوّجه قبّة
+      كبيرة من الخشب والرصاص فوق صحن المسجد. وكان هذا المشروع مكمّلاً
+      لقبّة الصخرة (التي اكتمل بناؤها سنة 72 هـ) والجامع الأموي بدمشق،
+      شاهداً على عناية الأمويين بالعمارة الدينية الفخمة في الأقاليم
+      المركزية. وقد تعرّض المسجد لأضرار وأُعيد بناؤه مراراً منذ ذلك
+      الحين؛ ويحتفظ البناء القائم اليوم بتخطيط أروقة الوليد في خطوطه
+      العامة.
+    description_fr: |
+      Le calife omeyyade al-Walīd ibn ʿAbd al-Malik acheva la
+      reconstruction monumentale d'al-Masjid al-Aqṣā à l'extrémité
+      sud du Noble Sanctuaire de Jérusalem, remplaçant la structure
+      en bois antérieure érigée par son père ʿAbd al-Malik par une
+      mosquée congrégationnelle en pierre couverte d'un grand dôme
+      en bois et plomb sur la nef centrale. Le chantier complétait
+      le Dôme du Rocher (achevé en 72 AH) et la nouvelle Grande
+      Mosquée des Omeyyades de Damas, attestant l'investissement
+      omeyyade dans l'architecture religieuse monumentale à travers
+      les provinces centrales. La mosquée a été endommagée et
+      reconstruite à plusieurs reprises depuis; l'édifice actuel
+      conserve la disposition générale des nefs du plan d'al-Walīd.
+    canonical_hijri: {year: 96, precision: year}
+    canonical_gregorian: {date: 715-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil — Umayyad construction works under al-Walīd I."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr, al-Bidāya wa-l-Nihāya — al-Walīd's al-Aqṣā rebuilding alongside the Damascus mosque."
+      - source_key: ei2
+        notes: "Encyclopaedia of Islam, 2nd ed., 'al-Masdjid al-Aḳṣā' — Umayyad phase summary."
+    people: [[al-walid-i, leader]]
+    tags: [umayyad, mosque, aqsa, jerusalem, building_completion]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Aqsa_Mosque"
+
+  - slug: mosque-of-ibn-tulun-completed
+    category: mosque_founding
+    title_en: Completion of the Mosque of Ibn Ṭūlūn in Cairo
+    title_ar: إتمام جامع ابن طولون بالقاهرة
+    title_fr: Achèvement de la mosquée d'Ibn Ṭūlūn au Caire
+    description_en: |
+      Aḥmad ibn Ṭūlūn, Abbasid governor of Egypt who founded an
+      autonomous Ṭūlūnid emirate, completed the great congregational
+      mosque he had begun three years earlier on the rocky hill of
+      Yashkur, on the northeast outskirts of his new capital al-Qaṭāʾiʿ
+      (north of al-Fusṭāṭ). The mosque — built almost entirely of red
+      brick faced with carved stucco, around an open courtyard with a
+      celebrated spiral minaret loosely modelled on al-Mutawakkil's
+      Sāmarrāʾ minaret — is the oldest mosque in Egypt to survive in
+      its original form, and the third-oldest extant mosque in the
+      Islamic world. Its dedication inscription, dated 4 Ramaḍān 265,
+      remains in situ.
+    description_ar: |
+      أتمّ أحمد بن طولون — والي مصر العباسي ومؤسس الإمارة الطولونية
+      المستقلة — جامعه الكبير الذي بدأ بناءه قبل ثلاث سنوات على جبل
+      يَشكُر شمال شرق عاصمته الجديدة «القطائع» (شمال الفسطاط). وقد
+      بُني الجامع كله تقريباً من الآجرّ الأحمر المكسوّ بالجصّ المنقوش،
+      حول صحن مكشوف، تشرف عليه مئذنة حلزونية شهيرة مستوحاة من مئذنة
+      جامع المتوكّل بسامراء. وهو أقدم مسجد في مصر باقٍ على هيئته
+      الأصلية، وثالث أقدم مسجد قائم في العالم الإسلامي. ولا تزال
+      كتابة تأسيسه المؤرّخة بـ٤ رمضان 265 هـ محفوظة في موضعها.
+    description_fr: |
+      Aḥmad ibn Ṭūlūn, gouverneur abbāsside d'Égypte qui fonda un
+      émirat ṭūlūnide autonome, acheva la grande mosquée
+      congrégationnelle qu'il avait commencée trois ans plus tôt sur
+      la colline rocheuse de Yashkur, à la lisière nord-est de sa
+      nouvelle capitale al-Qaṭāʾiʿ (au nord d'al-Fusṭāṭ). La mosquée —
+      bâtie presque entièrement en briques rouges revêtues de stuc
+      sculpté, autour d'une cour ouverte dominée par un célèbre
+      minaret hélicoïdal librement inspiré de celui de Sāmarrāʾ
+      d'al-Mutawakkil — est la plus ancienne mosquée d'Égypte
+      conservée dans sa forme originelle, et la troisième plus
+      ancienne mosquée subsistant dans le monde islamique. Son
+      inscription de fondation datée du 4 Ramaḍān 265 demeure in situ.
+    canonical_hijri: {year: 265, month: 9, precision: month}
+    canonical_gregorian: {date: 879-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Ibn Khallikān, Wafayāt al-Aʿyān — biography of Aḥmad ibn Ṭūlūn, mention of the mosque."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr, al-Bidāya — completion of the mosque dated to 265 AH."
+      - source_key: ei2
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Ibn Ṭūlūn, Aḥmad' and 'Masdjid' — confirmed inscription on site."
+    people: [[ibn-tulun, founder]]
+    tags: [abbasid, tulunid, mosque, cairo, egypt, mosque_founding]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mosque_of_Ibn_Tulun"
+
+  - slug: qayrawan-expansion-ziyadat-allah
+    category: building_completion
+    title_en: Aghlabid Reconstruction of the Great Mosque of al-Qayrawān
+    title_ar: إعادة الأغالبة بناء جامع القيروان الكبير
+    title_fr: Reconstruction aghlabide de la Grande Mosquée de Kairouan
+    description_en: |
+      Ziyādat Allāh I, Aghlabid amīr of Ifrīqiya under Abbasid suzerainty,
+      ordered a complete demolition and rebuilding of the Great Mosque of
+      al-Qayrawān (Jāmiʿ ʿUqba), founded by ʿUqba ibn Nāfiʿ in 50 AH and
+      twice rebuilt under earlier Umayyad and Abbasid governors. The new
+      building established the form preserved to this day: a massive
+      hypostyle prayer hall of seventeen aisles supported by spolia
+      columns, a wide tiled courtyard, the celebrated three-tiered square
+      minaret (the oldest standing minaret in the Islamic world), and the
+      rectangular plan that became the prototype of Maghrebi mosque
+      architecture. Later Aghlabid expansions under Abū Ibrāhīm Aḥmad
+      (248 AH) added the famous miḥrāb tiles and minbar.
+    description_ar: |
+      أمر زيادة الله الأول — أمير الأغالبة بإفريقية تحت السيادة العباسية —
+      بهدم جامع القيروان الكبير (جامع عقبة) — الذي أسسه عقبة بن نافع سنة
+      50 هـ وأُعيد بناؤه مرّتين على عهد ولاة الأمويين والعباسيين قبله —
+      وإعادة بنائه كاملاً. وأرسى البناء الجديد الصورة الباقية إلى اليوم:
+      بيت صلاة شاسع مغطّى تحمله سبعة عشر بلاطاً من الأعمدة الرومية
+      المعاد استعمالها، وصحن واسع مرصوف بالبلاط، والمئذنة المربعة
+      الشهيرة بطوابقها الثلاثة (أقدم مئذنة قائمة في العالم الإسلامي)،
+      والتخطيط المستطيل الذي صار النموذج الأصل لعمارة مساجد المغرب.
+      وأضافت توسعات الأغالبة لاحقاً في عهد أبي إبراهيم أحمد (248 هـ)
+      بلاط المحراب الشهير والمنبر.
+    description_fr: |
+      Ziyādat Allāh Ier, amīr aghlabide de l'Ifrīqiya sous suzeraineté
+      abbāsside, ordonna la démolition complète et la reconstruction
+      de la Grande Mosquée de Kairouan (Jāmiʿ ʿUqba), fondée par
+      ʿUqba ibn Nāfiʿ en 50 AH et déjà deux fois rebâtie sous les
+      gouverneurs omeyyades et abbāssides antérieurs. Le nouveau
+      bâtiment fixa la forme conservée jusqu'à aujourd'hui : une
+      salle de prière hypostyle massive à dix-sept nefs portée par
+      des colonnes de remploi, une vaste cour pavée, le célèbre
+      minaret carré à trois étages (le plus ancien minaret subsistant
+      dans le monde islamique) et le plan rectangulaire qui devint
+      le prototype de l'architecture des mosquées maghrébines. Les
+      agrandissements aghlabides ultérieurs sous Abū Ibrāhīm Aḥmad
+      (248 AH) ajoutèrent les célèbres carreaux du miḥrāb et le minbar.
+    canonical_hijri: {year: 221, precision: year}
+    canonical_gregorian: {date: 836-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil — Aghlabid building works in Ifrīqiya."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr, al-Bidāya — Ziyādat Allāh I's reconstruction of the Qayrawān mosque."
+      - source_key: ei2
+        notes: "Encyclopaedia of Islam, 2nd ed., 'al-Ḳayrawān' and 'Aghlabids' — architectural phases."
+    tags: [aghlabid, mosque, qayrawan, ifriqiya, maghreb, building_completion]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mosque_of_Uqba"
+
+  - slug: founding-of-bab-al-mardum-toledo
+    category: mosque_founding
+    title_en: Founding of Bāb al-Mardūm Mosque in Toledo
+    title_ar: تأسيس مسجد باب المردوم بطليطلة
+    title_fr: Fondation de la mosquée de Bāb al-Mardūm à Tolède
+    description_en: |
+      A small private oratory was built in the upper-town quarter near the
+      Bāb al-Mardūm gate of Ṭulayṭula (Toledo), under the late Umayyad
+      caliphate of Cordoba. Its dated foundation inscription — preserved
+      in carved brick on the façade and naming the patron Aḥmad ibn
+      Ḥadīdī, his master-builder Mūsā ibn ʿAlī, and the date in the month
+      of Muḥarram 390 — survives in situ and is the only legibly dated
+      Andalusī mosque inscription of its century. The four-by-four
+      nine-bay scheme with nine small ribbed domes makes it one of the
+      earliest fully-preserved Andalusī mosques and a key witness to
+      Cordoban miniature architecture before the Christian reconquest of
+      Toledo in 478 AH (1085 CE).
+    description_ar: |
+      شُيِّد مسجد صغير خاص في الحيّ الأعلى من طليطلة قرب «باب المردوم» في
+      أواخر عصر الخلافة الأموية بقرطبة. ولا تزال كتابة تأسيسه المؤرّخة —
+      المنقوشة بالآجرّ على واجهته، وفيها اسم الباني أحمد بن حديدي ومعلّمه
+      موسى بن علي، وتاريخها في شهر محرم سنة 390 هـ — قائمة في موضعها،
+      وهي النقش المؤسس الوحيد المؤرّخ المقروء في الأندلس من قرنها. أمّا
+      التخطيط المربع الذي ينقسم إلى تسع وحدات تعلوها تسع قبيبات مضلّعة،
+      فيجعله من أقدم مساجد الأندلس الباقية كاملةً، وشاهداً مهماً على
+      العمارة القرطبية المصغّرة قبل سقوط طليطلة بأيدي القشتاليين سنة
+      478 هـ.
+    description_fr: |
+      Un petit oratoire privé fut bâti dans le quartier haut de Ṭulayṭula
+      (Tolède), près de la porte de Bāb al-Mardūm, à la fin du califat
+      omeyyade de Cordoue. Son inscription de fondation datée — gravée
+      en briques sur la façade, mentionnant le commanditaire Aḥmad ibn
+      Ḥadīdī, son maître d'œuvre Mūsā ibn ʿAlī et la date au mois de
+      Muḥarram 390 — subsiste in situ et constitue la seule inscription
+      lisiblement datée d'une mosquée andalouse de son siècle. Le plan
+      à neuf travées en trois fois trois, surmonté de neuf petites
+      coupoles nervurées, en fait l'une des plus anciennes mosquées
+      andalouses intégralement préservées et un témoin essentiel de
+      l'architecture cordouane miniaturisée avant la reconquête
+      chrétienne de Tolède en 478 AH (1085 EC).
+    canonical_hijri: {year: 390, month: 1, precision: month}
+    canonical_gregorian: {date: 999-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Ṭulayṭula' and 'Masdjid' — foundation inscription analysis."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr, al-Kāmil — late Umayyad Andalusī building activity."
+    tags: [andalus, umayyad-cordoba, mosque, toledo, mosque_founding]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mosque_of_Cristo_de_la_Luz"
+
+  # =========================================================================
+  # SALJUQ AND ABBASID MADRASAS
+  # =========================================================================
+
+  - slug: founding-of-nizamiyya-baghdad
+    category: madrasa_founding
+    title_en: Founding of the Niẓāmiyya Madrasa of Baghdad
+    title_ar: تأسيس المدرسة النظامية ببغداد
+    title_fr: Fondation de la madrasa Niẓāmiyya de Bagdad
+    description_en: |
+      Niẓām al-Mulk al-Ṭūsī, vizier of the Saljūq sultans Alp Arslān
+      and Malik-Shāh, inaugurated the Madrasa al-Niẓāmiyya on the east
+      bank of the Tigris in Baghdad — the largest of his network of
+      crown-funded Shāfiʿī-Ashʿarī teaching colleges (the Niẓāmiyyāt)
+      established across the Saljūq realm. The Baghdad foundation,
+      with stipended professorial chairs and student lodgings, set
+      the template that the madrasa institution would follow across
+      the Islamic world. Its most famous teacher, Imām Abū Ḥāmid
+      al-Ghazālī, accepted the chief chair from 484 AH; the Niẓāmiyya
+      remained the most prestigious teaching mosque of the Sunni
+      east until the Mongol sack of Baghdad (656 AH).
+    description_ar: |
+      افتتح نظام الملك الطوسي — وزير السلطانين السلجوقيين ألب أرسلان
+      وملك شاه — المدرسة النظامية على الضفة الشرقية لدجلة ببغداد، وهي
+      أعظم مدارس شبكته من المدارس الشافعية الأشعرية الموقوفة على
+      نفقة الديوان (النظاميات) التي أسسها في أنحاء الدولة السلجوقية.
+      وأرست النظامية البغدادية — بكراسي تدريس مرتّبة الراتب وأروقة
+      للطلاب — الإطار الذي ستسير عليه مؤسسة المدرسة في عموم العالم
+      الإسلامي. وأشهر من تولّى التدريس فيها الإمام أبو حامد الغزالي،
+      تصدّر للكرسي الأكبر من سنة 484 هـ. وظلّت النظامية أرقى مدارس
+      المشرق السني إلى سقوط بغداد في يد المغول سنة 656 هـ.
+    description_fr: |
+      Niẓām al-Mulk al-Ṭūsī, vizir des sultans saljūqides Alp Arslān
+      et Malik-Shāh, inaugura la madrasa al-Niẓāmiyya sur la rive
+      orientale du Tigre à Bagdad — la plus grande de son réseau de
+      collèges shāfiʿites-ashʿarites enseignants subventionnés par
+      la couronne (les Niẓāmiyyāt) fondés à travers le royaume
+      saljūqide. La fondation de Bagdad, dotée de chaires
+      professorales rétribuées et de logements étudiants, fixa le
+      modèle que l'institution de la madrasa suivrait à travers le
+      monde islamique. Son enseignant le plus célèbre, l'imām Abū
+      Ḥāmid al-Ghazālī, accepta la chaire principale en 484 AH; la
+      Niẓāmiyya demeura la mosquée d'enseignement la plus
+      prestigieuse de l'Orient sunnite jusqu'au sac de Bagdad par
+      les Mongols (656 AH).
+    canonical_hijri: {year: 459, month: 11, precision: month}
+    canonical_gregorian: {date: 1067-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil — opening of the Niẓāmiyya in Dhu al-Qaʿda 459 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr, al-Bidāya — Niẓām al-Mulk's foundation and Ghazālī's appointment."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān, Wafayāt — biography of Niẓām al-Mulk and the madrasa endowment."
+    people: [[nizam-al-mulk, founder]]
+    tags: [saljuq, madrasa, baghdad, shafii, ashari, ghazali, madrasa_founding]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nizamiyya"
+
+  - slug: founding-of-mustansiriyya
+    category: madrasa_founding
+    title_en: Inauguration of the Mustanṣiriyya Madrasa of Baghdad
+    title_ar: افتتاح المدرسة المستنصرية ببغداد
+    title_fr: Inauguration de la madrasa Mustanṣiriyya de Bagdad
+    description_en: |
+      The Abbasid caliph al-Mustanṣir billāh inaugurated the Madrasa
+      al-Mustanṣiriyya on the east bank of the Tigris, the first madrasa
+      in Islamic history to teach simultaneously the four Sunni schools
+      of jurisprudence (Ḥanafī, Mālikī, Shāfiʿī, Ḥanbalī) under a single
+      endowment, alongside Qurʾanic studies, ḥadīth, medicine, and
+      mathematics. Built between 625 and 631 AH at colossal expense and
+      opened with a celebrated banquet at which the caliph distributed
+      tens of thousands of dīnārs in alms and stipends, it housed
+      lodgings for hundreds of students, a library, a hospital, and a
+      bath. The brick-and-stone building still stands today on the
+      Tigris embankment, the largest medieval madrasa in the Islamic
+      world to survive substantially intact.
+    description_ar: |
+      افتتح الخليفة العباسي المستنصر بالله المدرسة المستنصرية على الضفة
+      الشرقية لدجلة، وهي أول مدرسة في تاريخ الإسلام تجمع تدريس المذاهب
+      السنية الأربعة (الحنفي والمالكي والشافعي والحنبلي) في وقف واحد، مع
+      علوم القرآن والحديث والطب والرياضيات. بُنيت بين سنتي 625 و631 هـ
+      بنفقات هائلة، وافتُتحت بحفل مشهور وزّع فيه الخليفة عشرات الآلاف من
+      الدنانير صدقاتٍ ورواتب، وضمّت مساكن لمئات الطلاب ومكتبة ومارستاناً
+      وحمّاماً. ولا يزال البناء الآجرّيّ الحجريّ قائماً على شاطئ دجلة إلى
+      اليوم، وهو أعظم مدرسة قروسطية باقية في العالم الإسلامي على هيئتها
+      الأصلية إلى حدّ كبير.
+    description_fr: |
+      Le calife abbāsside al-Mustanṣir bi-Llāh inaugura la madrasa
+      al-Mustanṣiriyya sur la rive orientale du Tigre — la première
+      madrasa de l'histoire islamique à enseigner simultanément les
+      quatre écoles juridiques sunnites (ḥanafī, mālikī, shāfiʿī,
+      ḥanbalī) sous une même fondation pieuse, à côté des sciences
+      coraniques, du ḥadīth, de la médecine et des mathématiques. Bâtie
+      entre 625 et 631 AH à grands frais et inaugurée par un banquet
+      fameux où le calife distribua des dizaines de milliers de dīnārs
+      en aumônes et stipendiums, elle abritait des logements pour des
+      centaines d'étudiants, une bibliothèque, un hôpital et un bain.
+      Le bâtiment en briques et pierre se dresse encore aujourd'hui
+      sur la berge du Tigre, la plus grande madrasa médiévale du monde
+      islamique à avoir subsisté substantiellement intacte.
+    canonical_hijri: {year: 631, month: 7, precision: month}
+    canonical_gregorian: {date: 1234-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr, al-Bidāya — opening of al-Mustanṣiriyya in Rajab 631 AH."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr, al-Kāmil — al-Mustanṣir's construction phases."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī, Tārīkh al-Islām — biographies of the appointed teachers."
+    people: [[al-mustansir-billah-abbasid, founder]]
+    tags: [abbasid, madrasa, baghdad, four-madhhab, madrasa_founding]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mustansiriya_Madrasah"
+
+  # =========================================================================
+  # MAMLŪK AND DELHI SULTANATE
+  # =========================================================================
+
+  - slug: completion-of-sultan-hasan-mosque-madrasa
+    category: building_completion
+    title_en: Completion of the Mosque-Madrasa of Sulṭān Ḥasan in Cairo
+    title_ar: إتمام مسجد ومدرسة السلطان حسن بالقاهرة
+    title_fr: Achèvement de la mosquée-madrasa du sultan Ḥasan au Caire
+    description_en: |
+      The Baḥrī Mamlūk sultan al-Nāṣir Ḥasan ibn Muḥammad ibn Qalāwūn
+      completed the great cruciform mosque-madrasa-mausoleum complex
+      named for him at the foot of the Citadel of Cairo, after seven
+      years of construction that exhausted the treasury and reportedly
+      cost a thousand dīnārs per day. The building combines a Friday
+      mosque, four madrasas (one for each Sunni school of law), a
+      Qurʾan school, and a domed funerary chamber within a single
+      stone envelope rising 38 m above its courtyard, topped by what
+      were the tallest minarets in the Islamic world at their
+      completion. Sulṭān Ḥasan was assassinated three years before
+      the dedication of his own tomb chamber, which therefore holds
+      his sons rather than himself.
+    description_ar: |
+      أتمّ السلطان المملوكي البحري الناصر حسن بن محمد بن قلاوون مجمعه
+      الكبير تحت قلعة القاهرة — جامعاً ومدرسةً وضريحاً متصالباً يحمل اسمه —
+      بعد سبع سنوات من البناء أنهكت بيت المال، حتى نُقل أن نفقاته بلغت
+      ألف دينار في اليوم. ويجمع البناء بين جامع الجمعة وأربع مدارس
+      (واحدة لكل مذهب من المذاهب السنية الأربعة) وكتّاب لتعليم القرآن
+      وحجرة دفنية ذات قبة، كله ضمن كتلة حجرية واحدة ترتفع نحو ثمانية
+      وثلاثين متراً فوق صحنها، تعلوها مئذنتان كانتا حين إتمامهما الأطول
+      في العالم الإسلامي. وقد اغتيل السلطان حسن قبل تكريس قاعة دفنه
+      بثلاث سنوات، فدُفن فيها ابناه بدلاً منه.
+    description_fr: |
+      Le sultan mamelouk baḥrī al-Nāṣir Ḥasan ibn Muḥammad ibn Qalāwūn
+      acheva, au pied de la citadelle du Caire, le grand complexe
+      mosquée-madrasa-mausolée cruciforme qui porte son nom, après
+      sept années de chantier qui épuisèrent le trésor et coûtèrent,
+      rapporte-t-on, mille dīnārs par jour. L'édifice associe une
+      mosquée congrégationnelle, quatre madrasas (une pour chacune des
+      écoles juridiques sunnites), une école coranique et une chambre
+      funéraire à coupole dans une enveloppe de pierre unique
+      s'élevant à 38 m au-dessus de la cour, couronnée par ce qui
+      étaient les plus hauts minarets du monde islamique à leur
+      achèvement. Le sultan Ḥasan fut assassiné trois ans avant la
+      consécration de sa propre chambre funéraire, qui abrite ainsi
+      ses fils plutôt que lui.
+    canonical_hijri: {year: 764, precision: year}
+    canonical_gregorian: {date: 1363-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr, al-Bidāya — building of the Sulṭān Ḥasan complex and its costs."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Successor wafayāt literature — completion under the regency after Ḥasan's assassination."
+      - source_key: ei2
+        notes: "Encyclopaedia of Islam, 2nd ed., 'al-Nāṣir Ḥasan' and 'al-Ḳāhira' — chronology of construction 757-764."
+    people: [[sultan-hasan-mamluk, founder]]
+    tags: [mamluk, madrasa, mosque, cairo, four-madhhab, building_completion]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mosque-Madrasa_of_Sultan_Hassan"
+
+  - slug: founding-of-qutb-minar-quwwat-al-islam
+    category: mosque_founding
+    title_en: Founding of the Quwwat al-Islām Mosque and Quṭb Minār
+    title_ar: تأسيس مسجد قوّة الإسلام ومنار قطب الدين
+    title_fr: Fondation de la mosquée Quwwat al-Islām et du Quṭb Minār
+    description_en: |
+      Quṭb al-Dīn Aybak — slave-general of Muʿizz al-Dīn Muḥammad
+      Ghūrī after the Second Battle of Tarāʾin (588 AH) and effective
+      ruler of the new Ghurid territories in north India — laid the
+      foundations of the Quwwat al-Islām ("might of Islam") mosque on
+      the Lal Kot citadel of Delhi, the first congregational mosque
+      built on Indian soil. Construction reused spolia from earlier
+      Hindu and Jain temples on the site (a fact noted in the Persian
+      foundation inscription itself). Aybak began the towering Quṭb
+      Minār beside it as a victory tower and call-to-prayer minaret;
+      successive Delhi-Sultanate rulers (Iltutmish, Fīrūz Shāh
+      Tughluq) added the upper storeys, bringing it to 72.5 m — the
+      tallest brick minaret in the world. The complex inaugurated
+      Indo-Islamic architectural tradition.
+    description_ar: |
+      وضع قطب الدين أيبك — قائد معز الدين محمد الغوري المملوك بعد معركة
+      طرائن الثانية سنة 588 هـ والحاكم الفعلي لأقاليم الغوريين الجديدة
+      في شمال الهند — أساسات جامع «قوّة الإسلام» في حصن لال كوت بدلهي،
+      أول جامع للجمعة يُبنى على أرض الهند. واستعمل البناء أعمدة وحجارة
+      من معابد هندوسية وجاينية سابقة في الموقع (أمر يثبته نقش التأسيس
+      الفارسي ذاته). وبدأ أيبك إلى جانبه بناء «منار قطب» الشامخ برجَ
+      نصرٍ ومئذنةَ أذان؛ وأكمل الطبقات العلوية لاحقاً سلاطين دلهي
+      المتعاقبون (إلتُتمش، وفيروز شاه التغلقي)، فبلغ ارتفاعه نحو
+      اثنين وسبعين مترًا ونصف، أعلى مئذنة آجريّة في العالم. وافتتح هذا
+      المجمّع تقاليد العمارة الإسلامية الهندية.
+    description_fr: |
+      Quṭb al-Dīn Aybak — général-esclave de Muʿizz al-Dīn Muḥammad
+      Ghūrī après la seconde bataille de Tarāʾin (588 AH) et maître
+      effectif des nouveaux territoires ghurides du nord de l'Inde —
+      posa les fondations de la mosquée Quwwat al-Islām (« la
+      puissance de l'Islam ») sur la citadelle de Lal Kot à Delhi, la
+      première mosquée congrégationnelle bâtie sur le sol indien. La
+      construction réemploya des éléments de temples hindous et jaïns
+      antérieurs sur le site (fait que l'inscription de fondation en
+      persan reconnaît elle-même). Aybak entama à côté la haute tour
+      du Quṭb Minār à la fois tour de victoire et minaret d'appel à
+      la prière; les sultans de Delhi successifs (Iltutmish, Fīrūz
+      Shāh Tughluq) ajoutèrent les étages supérieurs, la portant à
+      72,5 m — le plus haut minaret en briques du monde. Le complexe
+      inaugura la tradition architecturale indo-islamique.
+    canonical_hijri: {year: 587, precision: year}
+    canonical_gregorian: {date: 1192-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil — Aybak's establishment in Delhi after Tarāʾin II."
+      - source_key: ei2
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Aybak' and 'Dihlī' — Quwwat al-Islām foundation date."
+    people: [[qutb-al-din-aybak, founder]]
+    tags: [delhi-sultanate, ghurid, mosque, india, qutb-minar, mosque_founding]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qutb_Minar_complex"
+
+  # =========================================================================
+  # OTTOMAN GREAT MOSQUES
+  # =========================================================================
+
+  - slug: completion-of-bayezid-ii-mosque
+    category: building_completion
+    title_en: Completion of the Bāyezīd II Mosque in Istanbul
+    title_ar: إتمام جامع بايزيد الثاني بإسطنبول
+    title_fr: Achèvement de la mosquée Bāyezīd II à Istanbul
+    description_en: |
+      Sultan Bāyezīd II ibn Meḥmed al-Fātiḥ inaugurated the great
+      imperial mosque named for him on the heights of the old Forum
+      Tauri in central Istanbul, completing the second selātīn (royal)
+      mosque of the Ottoman capital after the Conqueror's Fātiḥ
+      Mosque. The architect ʿAlāʾ al-Dīn (sometimes attributed in
+      later Ottoman tradition to Yaʿqūb-Shāh ibn Sulṭān-Shāh) developed
+      the Hagia-Sophia-derived central-dome plan that the imperial
+      Ottoman tradition would refine through Süleymaniye and Selimiye —
+      a great central dome carried on four piers, flanked by two
+      semi-domes and a courtyard with a fountain. The mosque sits at
+      the centre of a large külliye including a soup kitchen,
+      hospital, primary school, madrasa, and the sultan's tomb.
+    description_ar: |
+      افتتح السلطان بايزيد الثاني بن محمد الفاتح جامعه السلطاني الكبير
+      على هضبة الفروم القديم في وسط إسطنبول، وبه أتمّ ثاني جامع سلطاني
+      في العاصمة العثمانية بعد جامع الفاتح. وطوّر المعمار علاء الدين —
+      وتنسبه التقاليد العثمانية المتأخرة أحياناً إلى يعقوب شاه بن سلطان
+      شاه — مخططَ القبة المركزية المستوحى من آيا صوفيا، الذي ستهذّبه
+      التقاليد العثمانية الإمبراطورية لاحقاً في السليمانية والسليمية:
+      قبة مركزية كبرى تحملها أربع دعائم تكتنفها قبتان نصفيتان، مع صحن
+      وفسقية. ويتوسط الجامع كُلّيّة كبيرة تشمل تكية إطعام ومارستاناً
+      ومكتباً ومدرسة وضريح السلطان.
+    description_fr: |
+      Le sultan Bāyezīd II ibn Meḥmed al-Fātiḥ inaugura la grande
+      mosquée impériale qui porte son nom sur les hauteurs de l'ancien
+      Forum Tauri au centre d'Istanbul, achevant ainsi la deuxième
+      mosquée selāṭīn (royale) de la capitale ottomane après la
+      mosquée Fātiḥ du Conquérant. L'architecte ʿAlāʾ al-Dīn —
+      parfois attribué dans la tradition ottomane plus tardive à
+      Yaʿqūb-Shāh ibn Sulṭān-Shāh — développa le plan à dôme central
+      d'inspiration sainte-sophienne que la tradition ottomane
+      impériale raffinerait ensuite à travers la Süleymaniye et la
+      Selimiye : un grand dôme central porté par quatre piliers,
+      flanqué de deux demi-coupoles, avec une cour et une fontaine.
+      La mosquée occupe le centre d'une vaste külliye comprenant un
+      réfectoire, un hôpital, une école primaire, une madrasa et le
+      tombeau du sultan.
+    canonical_hijri: {year: 911, precision: year}
+    canonical_gregorian: {date: 1505-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Bāyezīd II' and 'Istanbul' — dedication date 911 AH."
+      - source_key: editorial
+        notes: "Ottoman court chronicles (e.g. Ibn Kemāl, Tevārīh-i Āl-i ʿOsmān) confirm the dedication year."
+    people: [[bayezid-ii, founder]]
+    tags: [ottoman, mosque, istanbul, building_completion]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bayezid_II_Mosque"
+
+  - slug: completion-of-sehzade-mosque
+    category: building_completion
+    title_en: Completion of the Şehzade Mosque in Istanbul
+    title_ar: إتمام جامع الشهزاده بإسطنبول
+    title_fr: Achèvement de la mosquée Şehzade à Istanbul
+    description_en: |
+      Sultan Süleymān al-Qānūnī inaugurated the great commemorative
+      mosque on the Old City's third hill in memory of his eldest son
+      and intended successor, Şehzāde Meḥmed, who had died of
+      smallpox at twenty-two in 950 AH. It is the first major imperial
+      commission of the chief Ottoman architect Mimār Sinān, then
+      newly appointed to the post he would hold for fifty years.
+      Sinān himself called it "the work of my apprenticeship" — its
+      symmetrical four-half-dome plan covering a square central bay
+      establishing the geometric idiom he would perfect in
+      Süleymaniye and Selimiye. The Şehzāde tomb beside the mosque
+      is the most decorative tile-clad tomb chamber of the Ottoman
+      classical age.
+    description_ar: |
+      افتتح السلطان سليمان القانوني جامع «الشهزاده» الكبير على التلّ
+      الثالث من المدينة العتيقة بإسطنبول إحياءً لذكرى ابنه الأكبر وولي
+      عهده الشهزاده محمد الذي توفي بالجدري وله اثنان وعشرون عاماً سنة
+      950 هـ. وهو أول مشروع سلطاني كبير من تكليفات معمار سنان كبير
+      المعماريين العثمانيين، الذي عُيّن للتوّ في المنصب الذي سيشغله
+      خمسين سنة. ووصف سنان نفسه هذا الجامع بأنه «عمل تتلمذي»؛ وأرسى
+      تخطيطه الرباعي المتناظر بأربع قبيبات نصفية تكتنف قبةً مركزيةً
+      مربّعةً البنيةَ الهندسيةَ التي سيُحكمها لاحقاً في السليمانية
+      والسليمية. ويعدّ ضريح الشهزاده الملاصق للجامع أبدع مقابر
+      الكاشي في عصر العثمانيين الكلاسيكي.
+    description_fr: |
+      Le sultan Süleymān al-Qānūnī inaugura la grande mosquée
+      commémorative sur la troisième colline de la vieille ville en
+      mémoire de son fils aîné et héritier présomptif, le şehzāde
+      Meḥmed, mort de la variole à vingt-deux ans en 950 AH. Il
+      s'agit de la première grande commande impériale du chef-
+      architecte ottoman Mimār Sinān, alors nouvellement nommé au
+      poste qu'il occuperait pendant cinquante ans. Sinān lui-même
+      qualifia cet édifice d'« œuvre de mon apprentissage » : son
+      plan symétrique à quatre demi-coupoles couvrant une travée
+      centrale carrée fixa l'idiome géométrique qu'il porterait à
+      perfection dans la Süleymaniye et la Selimiye. Le tombeau du
+      şehzāde adjacent est la plus richement carrelée des chambres
+      funéraires de l'âge classique ottoman.
+    canonical_hijri: {year: 955, precision: year}
+    canonical_gregorian: {date: 1548-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Sinān' and 'Süleymān I' — Şehzāde Mehmed memorial mosque dedicated 955 AH."
+      - source_key: editorial
+        notes: "Sinān's autobiography (Tezkiretü'l-Bünyân, Saʾi Mustafa Çelebi) confirms 'work of my apprenticeship'."
+    people: [[suleyman-the-magnificent, founder], [mimar-sinan, architect]]
+    tags: [ottoman, mosque, istanbul, sinan, building_completion]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/%C5%9Eehzade_Mosque"
+
+  - slug: completion-of-suleymaniye-mosque
+    category: building_completion
+    title_en: Completion of the Süleymaniye Mosque in Istanbul
+    title_ar: إتمام جامع السليمانية بإسطنبول
+    title_fr: Achèvement de la mosquée Süleymaniye à Istanbul
+    description_en: |
+      Sultan Süleymān al-Qānūnī (Süleymān the Magnificent) inaugurated
+      the imperial Süleymaniye Mosque on the third hill of Istanbul
+      after seven years of construction directed by his chief
+      architect, Mimār Sinān. The mosque is the centre of a vast
+      külliye comprising four madrasas (one per Sunni school of law),
+      a medical school, a hospital, a soup kitchen, a Qurʾanic school
+      and the tombs of the sultan and Hürrem Sulṭān. Its 53-metre
+      central dome — supported on four piers and flanked by two
+      semi-domes — is Sinān's mature realisation of the Hagia-Sophia
+      tradition adapted to the Ottoman idiom, and the building is
+      almost universally regarded as one of the high points of
+      Islamic architecture.
+    description_ar: |
+      افتتح السلطان سليمان القانوني جامع السليمانية السلطاني على التلّ
+      الثالث من إسطنبول بعد سبع سنوات من البناء أشرف عليها كبير
+      معمارييه معمار سنان. والجامع مركز كُلّيّة عظمى تشمل أربع مدارس
+      (واحدة لكل مذهب من المذاهب السنية) ومدرسة للطب ومارستاناً
+      وتكية للإطعام ومكتب تحفيظ القرآن وضريحَي السلطان وزوجته «خرّم
+      سلطان». وتُعدّ قبته المركزية البالغ ارتفاعها ثلاثة وخمسين متراً —
+      المحمولة على أربع دعائم تحيط بها قبتان نصفيتان — تتويجاً ناضجاً
+      لتراث آيا صوفيا الذي طوّعه سنان للأسلوب العثماني، ويُعدّ البناء
+      بالإجماع من أعظم آثار العمارة الإسلامية.
+    description_fr: |
+      Le sultan Süleymān al-Qānūnī (Soliman le Magnifique) inaugura la
+      mosquée impériale de la Süleymaniye sur la troisième colline
+      d'Istanbul après sept années de travaux dirigés par son
+      architecte en chef Mimār Sinān. La mosquée est le cœur d'une
+      vaste külliye comprenant quatre madrasas (une pour chacune des
+      écoles juridiques sunnites), une école de médecine, un hôpital,
+      un réfectoire de soupe populaire, une école coranique et les
+      tombeaux du sultan et de Hürrem Sulṭān. Son dôme central de 53 m
+      — porté par quatre piliers et flanqué de deux demi-coupoles —
+      est l'aboutissement mûr par Sinān de la tradition de Sainte-
+      Sophie adaptée à l'idiome ottoman, et l'édifice est presque
+      universellement tenu pour l'un des sommets de l'architecture
+      islamique.
+    canonical_hijri: {year: 964, precision: year}
+    canonical_gregorian: {date: 1557-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Süleymān I', 'Sinān', 'Istanbul' — dedication 964 AH / 1557 CE."
+      - source_key: editorial
+        notes: "Tezkiretü'l-Bünyân (Saʾi Mustafa Çelebi) records seven years of construction completed Jumādā I 964."
+    people: [[suleyman-the-magnificent, founder], [mimar-sinan, architect]]
+    tags: [ottoman, mosque, istanbul, sinan, kulliye, building_completion]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque"
+
+  - slug: completion-of-selimiye-mosque
+    category: building_completion
+    title_en: Completion of the Selimiye Mosque in Edirne
+    title_ar: إتمام جامع السليمية بأدرنة
+    title_fr: Achèvement de la mosquée Selimiye à Edirne
+    description_en: |
+      Sultan Selīm II inaugurated the imperial Selimiye Mosque in
+      Edirne, the work that Mimār Sinān — then in his eighties —
+      regarded as his masterwork (üstadlık eserim, "the work of my
+      mastery"). Sinān's central dome of 31.3 m diameter rests on
+      eight piers within an octagonal supporting frame rather than
+      the traditional four piers, achieving an interior space free
+      of obstructing supports — and surpassing, by Sinān's own
+      claim, the dome of Hagia Sophia in span. The mosque occupies
+      the centre of a külliye including a madrasa, ḥadīth school,
+      and bazaar; the four 70 m minarets articulate the silhouette
+      of Edirne to this day. UNESCO designated the complex a World
+      Heritage Site in 2011.
+    description_ar: |
+      افتتح السلطان سليم الثاني جامع السليمية السلطاني بأدرنة، وهو
+      العمل الذي اعتبره معمار سنان — في الثمانينات من عمره — تحفته
+      الكبرى («استادليك أثري» أي عمل احترافي). وتقوم قبة سنان المركزية
+      البالغ قطرها واحداً وثلاثين متراً وثلاثة أعشار على ثماني دعائم
+      ضمن إطار مثمن داعم لا على الأربع التقليدية، ففازت بفضاء داخلي
+      خالٍ من الأعمدة العائقة، وفاقت — بحسب ادّعاء سنان نفسه — قبة آيا
+      صوفيا في الاتساع. ويتوسط الجامع كُلّيّة تضمّ مدرسة ودار حديث
+      وسوقاً؛ وما زالت مآذنه الأربع البالغ ارتفاعها سبعين متراً ترسم
+      أفق أدرنة إلى اليوم. وأدرجت اليونسكو المجمع في قائمة التراث
+      العالمي سنة 2011 ميلادي.
+    description_fr: |
+      Le sultan Selīm II inaugura la mosquée impériale Selimiye
+      d'Edirne, l'œuvre que Mimār Sinān — alors octogénaire — tenait
+      pour son chef-d'œuvre (üstadlık eserim, « l'œuvre de ma
+      maîtrise »). Le dôme central de Sinān de 31,3 m de diamètre
+      repose sur huit piliers dans un cadre porteur octogonal plutôt
+      que sur les quatre piliers traditionnels, libérant un espace
+      intérieur sans supports gênants — et surpassant, selon
+      l'affirmation de Sinān lui-même, le dôme de Sainte-Sophie en
+      portée. La mosquée occupe le centre d'une külliye comprenant
+      une madrasa, une école de ḥadīth et un bazar; les quatre
+      minarets de 70 m articulent encore aujourd'hui la silhouette
+      d'Edirne. L'UNESCO a inscrit le complexe au Patrimoine mondial
+      en 2011.
+    canonical_hijri: {year: 982, precision: year}
+    canonical_gregorian: {date: 1575-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Selīm II', 'Sinān', 'Edirne' — completion 982 AH."
+      - source_key: editorial
+        notes: "Tezkiretü'l-Bünyân (Saʾi Mustafa Çelebi) — Sinān's üstadlık eserim attribution to Selimiye."
+    people: [[selim-ii, founder], [mimar-sinan, architect]]
+    tags: [ottoman, mosque, edirne, sinan, building_completion, unesco]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Selimiye_Mosque"
+
+  - slug: completion-of-sultan-ahmed-mosque
+    category: building_completion
+    title_en: Completion of the Sulṭān Aḥmed (Blue) Mosque in Istanbul
+    title_ar: إتمام جامع السلطان أحمد (الجامع الأزرق) بإسطنبول
+    title_fr: Achèvement de la mosquée Sulṭān Aḥmed (Mosquée Bleue) à Istanbul
+    description_en: |
+      Sultan Aḥmed I inaugurated the imperial mosque named for him on
+      the Hippodrome opposite Hagia Sophia, the last great selātīn
+      mosque of the Ottoman capital before the eighteenth-century
+      shift toward baroque idiom. Designed by Sinān's pupil Sedefkâr
+      Meḥmed Agha, the building marries the Sinānian central-dome
+      idiom with six minarets — a feature that stirred contemporary
+      controversy as Mecca's Masjid al-Ḥarām then had only six,
+      resolved when the sultan financed an additional minaret at the
+      Sacred Mosque. The interior wall surfaces are clad in over
+      twenty thousand İznik tiles in cobalt and turquoise — the
+      "blue" of the mosque's later European name. The complex
+      includes a madrasa, hospital, soup kitchen and the sultan's
+      domed tomb.
+    description_ar: |
+      افتتح السلطان أحمد الأول جامعه السلطاني الكبير على ميدان «الفروم»
+      مقابل آيا صوفيا، وهو آخر الجوامع السلاطين الكبرى في عاصمة العثمانيين
+      قبل التحوّل إلى الأسلوب الباروكي في القرن الثاني عشر الهجري. صمّمه
+      تلميذ سنان «صدفكار محمد آغا» جامعاً بين أسلوب القبة المركزية
+      السنانية وست مآذن — وهو أمر أثار جدلاً في زمنه إذ كان للمسجد
+      الحرام بمكة آنذاك ست مآذن فقط، وحُسم الأمر بأن موّل السلطان
+      مئذنة سابعة للمسجد الحرام. وتُكسى جدرانه الداخلية بأكثر من
+      عشرين ألف بلاطة من قاشاني إزنيق بلونيّ الكوبالت والفيروزي — وهو
+      «الأزرق» الذي اشتُهر به اسم الجامع في الأوروبية لاحقاً. ويضمّ
+      مجمّعه مدرسة ومارستاناً وتكية إطعام وقبة ضريح السلطان.
+    description_fr: |
+      Le sultan Aḥmed Ier inaugura la mosquée impériale qui porte son
+      nom sur l'Hippodrome face à Sainte-Sophie, la dernière grande
+      mosquée selāṭīn de la capitale ottomane avant la bascule vers
+      l'idiome baroque au XVIIIe siècle. Conçu par l'élève de Sinān,
+      Sedefkâr Meḥmed Agha, l'édifice marie l'idiome sinānien à dôme
+      central avec six minarets — singularité qui souleva la
+      controverse à l'époque, la mosquée al-Ḥarām de La Mecque n'en
+      ayant alors que six — résolue quand le sultan finança un
+      septième minaret pour le Sanctuaire. Les parois intérieures
+      sont revêtues de plus de vingt mille carreaux d'İznik bleu
+      cobalt et turquoise — le « bleu » du nom européen ultérieur de
+      la mosquée. Le complexe comprend une madrasa, un hôpital, un
+      réfectoire de soupe populaire et le tombeau à coupole du sultan.
+    canonical_hijri: {year: 1026, precision: year}
+    canonical_gregorian: {date: 1617-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Aḥmed I' and 'Istanbul' — Sultan Ahmed mosque dedication 1026 AH."
+      - source_key: editorial
+        notes: "Ottoman court historian Mustafa Saʾi recorded the seven-year construction (1018-1026 AH)."
+    people: [[ahmed-i-ottoman, founder]]
+    tags: [ottoman, mosque, istanbul, blue-mosque, iznik, building_completion]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+
+  # =========================================================================
+  # MODERN
+  # =========================================================================
+
+  - slug: rebuilding-of-mosque-of-djenne
+    category: building_completion
+    title_en: Rebuilding of the Great Mosque of Djenné
+    title_ar: إعادة بناء الجامع الكبير بجنّي
+    title_fr: Reconstruction de la Grande Mosquée de Djenné
+    description_en: |
+      The community of Djenné, in the inland Niger delta of present-day
+      Mali, completed the rebuilding of their Great Mosque in mud-brick
+      banco on the foundations of the thirteenth-century original
+      attributed to the Sultan Kunburu, which had been allowed to
+      decay during the nineteenth-century Tukulor reforms. The
+      reconstruction — supervised by the master-mason guild of Djenné
+      and partly subsidised by the French colonial administration of
+      the Soudan Français — preserves the indigenous Sudano-Sahelian
+      style, with its three minarets, projecting toron beams of
+      palmwood, and yearly ritual replastering by the entire town
+      after the rains. It is the largest mud-brick building in the
+      world and was inscribed on the UNESCO World Heritage List with
+      the Old Towns of Djenné in 1988.
+    description_ar: |
+      أتمّ أهل بلدة جنّي في دلتا النيجر الداخلية بمالي اليوم إعادة بناء
+      جامعهم الكبير بالطوب الطيني (البَنكو) على أساسات الجامع الأصلي
+      المنسوب إلى السلطان «كنبورو» في القرن السابع الهجري، الذي
+      أُهمل في عصر الإصلاحات التيكولورية في القرن الثالث عشر الهجري
+      حتى تداعى. وأشرف على البناء الجديد عرفاء البنّائين بجنّي
+      بإعانة جزئية من الإدارة الاستعمارية الفرنسية للسودان الفرنسي،
+      محافظاً على الأسلوب السوداني الساحلي الأصيل بمآذنه الثلاث وعوارض
+      «التورون» الناتئة من جذوع النخل، وعادة إعادة تطيينه السنوية
+      بعد المطر يشترك فيها أهل البلدة كلهم. وهو أكبر بناء طيني في
+      العالم، وأُدرج في قائمة اليونسكو للتراث العالمي ضمن «المدن
+      العتيقة لجنّي» سنة 1988 ميلادي.
+    description_fr: |
+      La communauté de Djenné, dans le delta intérieur du Niger
+      au Mali actuel, acheva la reconstruction de sa Grande Mosquée
+      en briques crues (banco) sur les fondations de l'édifice
+      original du XIIIe siècle attribué au sultan Kunburu, qu'on
+      avait laissé dépérir durant les réformes toucouleurs du XIXe
+      siècle. La reconstruction — supervisée par la corporation des
+      maîtres-maçons de Djenné et partiellement subventionnée par
+      l'administration coloniale française du Soudan français —
+      préserve le style soudano-sahélien autochtone, avec ses trois
+      minarets, les poutres saillantes (toron) en bois de palmier,
+      et le crépissage rituel annuel auquel participe toute la ville
+      après les pluies. C'est le plus grand bâtiment en briques crues
+      au monde, inscrit au Patrimoine mondial de l'UNESCO avec les
+      « Villes anciennes de Djenné » en 1988.
+    canonical_hijri: {year: 1325, precision: year}
+    canonical_gregorian: {date: 1907-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Encyclopaedia of Islam, 2nd ed., 'Djenne' and 'Mali' — 1907 reconstruction date."
+      - source_key: editorial
+        notes: "UNESCO World Heritage dossier (Old Towns of Djenne, 1988) confirms 1907 reconstruction."
+    tags: [west-africa, mali, mosque, djenne, sudano-sahelian, building_completion, unesco]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9"

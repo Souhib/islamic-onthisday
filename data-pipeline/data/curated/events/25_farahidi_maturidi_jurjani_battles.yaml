@@ -1,0 +1,998 @@
+# Wave 12 of curated event additions (2026-04-26).
+# 3 senior sahaba (incl. last in Medina + 2nd-tier ten promised paradise)
+# + 1 grammar+lexicography pioneer + 1 maturidi creed founder
+# + 1 balagha founder + 1 lexicographer + 2 modern hanbali/maliki
+# + 2 sufi founders + 1 hanbali polymath
+# + 2 battles (Tarain II, Mansoura) + 1 hadith lexicographer.
+# Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # SENIOR SAHABA
+  # =========================================================================
+
+  - slug: death-of-said-ibn-zayd
+    category: companion
+    title_en: Death of Saʿid ibn Zayd ra — One of the Ten Promised Paradise
+    title_ar: وفاة سعيد بن زيد رضي الله عنه — أحد العشرة المبشرين بالجنة
+    title_fr: Mort de Saʿīd ibn Zayd ra — l'un des dix Compagnons promis au Paradis
+    description_en: |
+      Abu al-Aʿwar Saʿid ibn Zayd ibn ʿAmr ibn Nufayl al-ʿAdawi —
+      one of the ten Companions promised Paradise (*al-ʿasharatu
+      al-mubashsharun*), brother-in-law of ʿUmar ibn al-Khaṭṭab
+      ra (whose conversion he and his sister Fāṭima had instigated
+      by their reciting of Sūrat Ṭa-Hā), and one of the very
+      first Meccan converts (the eighth or ninth person to
+      embrace Islam) — died at his estate near Medina at age
+      about 70, in the same year as his close friend Saʿd ibn
+      Abi Waqqāṣ ra. His father Zayd ibn ʿAmr had been a
+      *ḥanīf* — a pre-Islamic Arabian monotheist who rejected
+      Quraysh's idolatry — and the Prophet ﷺ said of him:
+      "Zayd ibn ʿAmr will be raised on the Day of Resurrection
+      as a single nation by himself" (al-Bukhari). Saʿid ibn
+      Zayd was the last of the ten promised Paradise to die,
+      according to the dominant classical position.
+    description_ar: |
+      توفي أبو الأعور سعيد بن زيد بن عمرو بن نفيل العدوي رضي الله
+      عنه — أحد العشرة المبشرين بالجنة، وزوج فاطمة بنت الخطاب
+      رضي الله عنها (وقد كان إسلامه وإسلامها من أسباب إسلام
+      أخيها عمر بن الخطاب رضي الله عنه بقراءة سورة طه)، وأحد
+      أوائل من أسلم بمكة (وهو الثامن أو التاسع في الإسلام) —
+      في ضيعته قرب المدينة عن نحو سبعين سنة، في السنة نفسها التي
+      توفي فيها صديقه سعد بن أبي وقاص رضي الله عنه. وكان أبوه
+      زيد بن عمرو حنيفياً — من موحدي العرب قبل الإسلام رفض شرك
+      قريش — وقال فيه النبي ﷺ: «يبعث زيد بن عمرو يوم القيامة
+      أمة وحده» (رواه البخاري). وسعيد بن زيد آخر العشرة المبشرين
+      بالجنة وفاةً على الراجح من أقوال المؤرخين الأوائل.
+    description_fr: |
+      Abu al-Aʿwar Saʿīd ibn Zayd ibn ʿAmr ibn Nufayl al-ʿAdawī —
+      l'un des dix Compagnons promis au Paradis (*al-ʿasharatu
+      al-mubashsharūn*), beau-frère d'ʿUmar ibn al-Khaṭṭāb ra
+      (dont la conversion fut instiguée par lui et sa sœur
+      Fāṭima par leur récitation de la sourate Ṭā Hā), et l'un
+      des tout premiers convertis mecquois (huitième ou neuvième
+      personne à embrasser l'Islam) — mourut sur son domaine
+      près de Médine à l'âge d'environ 70 ans, la même année
+      que son ami proche Saʿd ibn Abī Waqqāṣ ra. Son père Zayd
+      ibn ʿAmr avait été un *ḥanīf* — un monothéiste arabe
+      préislamique qui rejetait l'idolâtrie de Quraysh — et le
+      Prophète ﷺ dit de lui : « Zayd ibn ʿAmr sera ressuscité
+      au Jour de la Résurrection comme une nation à lui seul »
+      (al-Bukhārī). Saʿīd ibn Zayd fut le dernier des dix promis
+      au Paradis à mourir, selon la position classique dominante.
+    canonical_hijri: {year: 51, precision: year}
+    canonical_gregorian: {date: 671-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 3828"
+    people: [[said-ibn-zayd, subject], [umar-ibn-al-khattab, subject]]
+    tags: [sahaba, asharatu-al-mubashsharun, medina, hanif, umar]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Said_ibn_Zayd"
+
+  - slug: death-of-sahl-ibn-sad
+    category: companion
+    title_en: Death of Sahl ibn Saʿd al-Saʿidi ra — Last Companion in Medina
+    title_ar: وفاة سهل بن سعد الساعدي رضي الله عنه — آخر صحابي بالمدينة
+    title_fr: Mort de Sahl ibn Saʿd al-Sāʿidī ra — dernier Compagnon à Médine
+    description_en: |
+      Abu al-ʿAbbas Sahl ibn Saʿd al-Anṣari al-Saʿidi — Madinan
+      Companion of the Khazraji clan of Banu Sāʿida, who took the
+      Prophet's ﷺ pledge as a teenager and lived through the
+      Rashidun, Umayyad, and Marwanid eras until the time of al-
+      Walid I — died at age 100, the last surviving Companion
+      to die in Medina. He narrated 188 hadiths preserved in
+      the Six Books, several of them legally foundational: his
+      report on the woman who came to the Prophet ﷺ and was
+      married to a man for the gift of "what you have memorised
+      of the Qurʾan" (Bukhari) is the principal hadith on the
+      legal validity of any small token as bridal *mahr*. He
+      is the Companion who narrated the Prophet's ﷺ statement:
+      "I and the one who cares for an orphan will be in Paradise
+      like this" — joining his index and middle fingers (Bukhari).
+      His grandson recorded that he was so tall that the
+      Marwanid governor's gate had to be enlarged for him to
+      enter standing.
+    description_ar: |
+      توفي أبو العباس سهل بن سعد الأنصاري الساعدي رضي الله عنه —
+      صحابي مدني من خزرج بني ساعدة، بايع رسول الله ﷺ غلاماً يافعاً،
+      وعاش عصور الراشدين وبني أمية والمروانيين إلى زمن الوليد
+      الأول — عن مئة سنة، آخر صحابي وفاةً بالمدينة المنورة. روى
+      ١٨٨ حديثاً في الكتب الستة، منها أصول فقهية: حديثه عن
+      المرأة التي جاءت النبي ﷺ فزوجها الرجل بصداق «ما معك من
+      القرآن» (متفق عليه) أصل في صحة المهر القليل في النكاح.
+      وهو الصحابي الذي روى عن النبي ﷺ: «أنا وكافل اليتيم في
+      الجنة هكذا» وأشار بإصبعيه السبابة والوسطى (متفق عليه).
+      وروى حفيده أنه كان طويل القامة جداً حتى احتيج إلى رفع
+      باب أمير المؤمنين المرواني ليدخل قائماً.
+    description_fr: |
+      Abū al-ʿAbbās Sahl ibn Saʿd al-Anṣārī al-Sāʿidī — Compagnon
+      médinois du clan khazradjite des Banū Sāʿida, qui prit le
+      serment du Prophète ﷺ adolescent et vécut à travers les
+      ères des Rashidun, des Omeyyades et des Marwanides jusqu'à
+      l'époque d'al-Walīd Ier — mourut à l'âge de 100 ans, le
+      dernier Compagnon survivant à mourir à Médine. Il narra
+      188 hadiths préservés dans les Six Livres, plusieurs
+      juridiquement fondateurs : son rapport sur la femme qui
+      vint au Prophète ﷺ et fut mariée à un homme pour le don
+      de « ce que tu as mémorisé du Coran » (Bukhārī) est le
+      hadith principal sur la validité juridique de tout petit
+      symbole comme *mahr* nuptial. Il est le Compagnon qui
+      narra la parole du Prophète ﷺ : « moi et celui qui prend
+      soin d'un orphelin serons au Paradis ainsi » — joignant
+      son index et son majeur (Bukhārī). Son petit-fils consigna
+      qu'il était si grand que la porte du gouverneur marwanide
+      dut être agrandie pour qu'il puisse entrer debout.
+    canonical_hijri: {year: 88, precision: year}
+    canonical_gregorian: {date: 707-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 5087"
+    people: [[sahl-ibn-sad, subject]]
+    tags: [sahaba, ansar, medina, last-sahabi, umayyad, mahr]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-suhayb-al-rumi
+    category: companion
+    title_en: Death of Suhayb al-Rumi ra
+    title_ar: وفاة صهيب الرومي رضي الله عنه
+    title_fr: Mort de Ṣuhayb al-Rūmī ra
+    description_en: |
+      Abu Yaḥya Ṣuhayb ibn Sinan al-Rumi — Companion of Byzantine
+      origin (born in northern Mesopotamia, captured as a child
+      by Byzantine raiders, raised in Constantinople, and ransomed
+      back through Mecca where he embraced Islam in the very
+      early Meccan period) — died in Medina at age about 73, in
+      the early reign of Muʿawiya ra. He was the Companion who,
+      on his Hijra, was overtaken by a Quraysh patrol that
+      demanded he relinquish his entire trading fortune; he
+      handed it over and continued to Medina, prompting the
+      revelation of Q 2:207: "Among men is one who sells his
+      soul seeking Allah's pleasure." The Prophet ﷺ said on his
+      arrival: "Profit indeed, Abu Yaḥya, profit indeed!" He led
+      the funeral prayer over ʿUmar ra at the latter's testamentary
+      request, and would have been the leader for the Shura
+      consultation that elected ʿUthman ra. His narration on
+      patient endurance — "wondrous is the affair of the believer"
+      (Muslim) — is one of the most-cited hadiths on faith and
+      hardship.
+    description_ar: |
+      توفي أبو يحيى صهيب بن سنان الرومي رضي الله عنه — صحابي من
+      أصل رومي (ولد في شمال الجزيرة، فأسرته غارات الروم طفلاً،
+      ونشأ بالقسطنطينية، وافتدته أسرته فدخل مكة فأسلم في أول
+      عصر بعثة النبي ﷺ) — بالمدينة المنورة عن نحو ثلاث وسبعين
+      سنة، في أوائل خلافة معاوية رضي الله عنه. وهو الصحابي الذي
+      اعترضه دورية قرشية في هجرته فطلبوا منه أن يدفع جميع ماله
+      من التجارة، فدفعه وأكمل إلى المدينة، فنزل فيه قول الله
+      تعالى: ﴿وَمِنَ النَّاسِ مَن يَشْرِي نَفْسَهُ ابْتِغَاءَ
+      مَرْضَاتِ اللَّهِ﴾ [البقرة: ٢٠٧]. وقال له النبي ﷺ يوم
+      وصوله: «ربح البيع يا أبا يحيى ربح البيع». وأمَّ الناس في
+      صلاة الجنازة على عمر رضي الله عنه بوصية منه، وكان مرشحاً
+      للإمامة في شورى عثمان رضي الله عنه. وحديثه في الصبر:
+      «عجباً لأمر المؤمن» (رواه مسلم) من أكثر الأحاديث استشهاداً
+      في الإيمان والصبر.
+    description_fr: |
+      Abu Yaḥyā Ṣuhayb ibn Sinān al-Rūmī — Compagnon d'origine
+      byzantine (né dans le nord de la Mésopotamie, capturé
+      enfant par des raiders byzantins, élevé à Constantinople,
+      et racheté par sa famille via La Mecque où il embrassa
+      l'Islam à la toute première période mecquoise) — mourut à
+      Médine à l'âge d'environ 73 ans, au début du règne de
+      Muʿāwiya ra. Il est le Compagnon qui, lors de sa Hijra,
+      fut dépassé par une patrouille de Quraysh qui exigea qu'il
+      remette toute sa fortune commerciale; il la livra et
+      continua vers Médine, suscitant la révélation de Q 2:207 :
+      « parmi les hommes il en est qui vend son âme cherchant
+      l'agrément d'Allah ». Le Prophète ﷺ dit à son arrivée :
+      « profit certes, Abū Yaḥyā, profit certes ! » Il dirigea
+      la prière funéraire sur ʿUmar ra à la demande testamentaire
+      de ce dernier, et aurait été le dirigeant pour la
+      consultation de Shūra qui élit ʿUthmān ra. Sa narration
+      sur l'endurance patiente — « étonnant est l'affaire du
+      croyant » (Muslim) — est l'un des hadiths les plus cités
+      sur la foi et l'épreuve.
+    canonical_hijri: {year: 38, precision: year}
+    canonical_gregorian: {date: 659-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Muslim 2999"
+    quran_refs: "2:207"
+    people: [[suhayb-al-rumi, subject], [umar-ibn-al-khattab, subject]]
+    tags: [sahaba, byzantine-convert, hijra, mecca, medina, sabr]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Suhayb_ar-Rumi"
+
+  # =========================================================================
+  # FOUNDATIONAL SCHOLARS
+  # =========================================================================
+
+  - slug: death-of-al-khalil-al-farahidi
+    category: scholar
+    title_en: Death of al-Khalil ibn Aḥmad al-Farahidi
+    title_ar: وفاة الخليل بن أحمد الفراهيدي
+    title_fr: Mort d'al-Khalīl ibn Aḥmad al-Farāhīdī
+    description_en: |
+      Abu ʿAbd al-Rahman al-Khalil ibn Aḥmad al-Farahidi al-Azdi
+      — Sunni Basran philologist, founder of the science of
+      Arabic prosody (*ʿarūḍ*), creator of the first Arabic
+      lexicographical methodology in his unfinished *Kitab al-
+      ʿAyn*, and the master of Sibawayhi (whose *al-Kitab*
+      preserves al-Khalil's grammatical positions throughout) —
+      died in Basra at age about 75. He systematised the
+      sixteen Arabic poetic metres into the framework still
+      used in classical Arabic prosody to this day; his
+      lexicography organised Arabic roots by phonetic place of
+      articulation rather than alphabetical order — a structural
+      innovation that, though later superseded by alphabetical
+      ordering in al-Jawhari and al-Fayruzabadi, remains a
+      foundational moment in linguistic methodology. He
+      reportedly devised the *abjad* numerical system. He lived
+      in voluntary poverty, declining gifts from the powerful;
+      al-Layth ibn Saʿd's annual stipend, sent against his
+      protests, was the principal source by which classical
+      sources note his survival.
+    description_ar: |
+      توفي الإمام أبو عبد الرحمن الخليل بن أحمد الفراهيدي الأزدي
+      — لغوي سني بصري، ومؤسس علم العروض، وأول من وضع منهجاً
+      معجمياً للعربية في كتابه «العين» (الذي لم يكتمل)، وشيخ
+      سيبويه الذي حفظ «كتابه» مسائل الخليل النحوية في عامة
+      مادته — بالبصرة عن نحو خمس وسبعين سنة. قنّن الخليل البحور
+      الستة عشر للشعر العربي في الإطار الذي ما زال يستخدم في
+      علم العروض الكلاسيكي إلى اليوم؛ ورتب معجمه الجذور العربية
+      على مخارج الحروف الصوتية لا على الحروف الأبجدية — وهو
+      ابتكار بنيوي وإن نسخه ترتيب الأبجدية لاحقاً في «صحاح»
+      الجوهري و«قاموس» الفيروزآبادي، يبقى لحظة مؤسسة في منهج
+      علم اللغة. ويذكر له ترتيب نظام «الأبجد» العددي. وعاش رحمه
+      الله في فقر طوعي، يرفض هدايا أصحاب السلطان؛ وكان الراتب
+      السنوي الذي يبعثه إليه الليث بن سعد رحمه الله رغم
+      احتجاجاته الأصل الذي تتنبه عليه المصادر القديمة في معاشه.
+    description_fr: |
+      Abu ʿAbd al-Raḥmān al-Khalīl ibn Aḥmad al-Farāhīdī al-Azdī
+      — philologue sunnite basrien, fondateur de la science de
+      la prosodie arabe (*ʿarūḍ*), créateur de la première
+      méthodologie lexicographique arabe dans son inachevé
+      *Kitāb al-ʿAyn*, et maître de Sibawayhi (dont *al-Kitāb*
+      préserve les positions grammaticales d'al-Khalīl tout du
+      long) — mourut à Bassora à l'âge d'environ 75 ans. Il
+      systématisa les seize mètres poétiques arabes dans le
+      cadre encore utilisé en prosodie arabe classique
+      aujourd'hui; sa lexicographie organisa les racines arabes
+      par lieu phonétique d'articulation plutôt que par ordre
+      alphabétique — une innovation structurale qui, bien que
+      plus tard supplantée par l'ordre alphabétique chez
+      al-Jawharī et al-Fayrūzābādī, demeure un moment fondateur
+      dans la méthodologie linguistique. Il aurait conçu le
+      système numérique *abjad*. Il vivait dans la pauvreté
+      volontaire, déclinant les cadeaux des puissants; la
+      stipendia annuelle d'al-Layth ibn Saʿd, envoyée contre
+      ses protestations, fut la source principale par laquelle
+      les sources classiques notent sa survie.
+    canonical_hijri: {year: 175, precision: year}
+    canonical_gregorian: {date: 791-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[al-khalil-al-farahidi, subject], [sibawayhi, subject]]
+    tags: [grammar, basra, abbasid, prosody, lexicography, abjad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Khalil_ibn_Ahmad_al-Farahidi"
+
+  - slug: death-of-al-maturidi
+    category: scholar
+    title_en: Death of Imam al-Maturidi — Founder of the Maturidi Creed
+    title_ar: وفاة الإمام الماتريدي — مؤسس العقيدة الماتريدية
+    title_fr: Mort de l'imam al-Māturīdī — fondateur du credo māturīdite
+    description_en: |
+      Abu Manṣur Muhammad ibn Muhammad al-Maturidi al-Samarqandi
+      — Hanafi jurist of Samarqand and the eponymous founder of
+      the Maturidi school of Sunni theology, the second of the
+      two great creedal schools (with the Ashʿari school of Abu
+      al-Hasan al-Ashʿari) accepted as orthodox across the entire
+      classical Sunni world — died at Samarqand at age about 80.
+      His major works include *Kitab al-Tawḥid* (the foundational
+      systematic Maturidi creedal treatise) and *Taʾwilat Ahl al-
+      Sunna* (a Qurʾan commentary). The Maturidi school became
+      the dominant creed of the Hanafi madhhab from the Saljuq
+      era onward and remains the official creed today across
+      Turkey, Central Asia, the Indian subcontinent (where the
+      Hanafi madhhab is dominant), and the Balkans. The
+      historical-doctrinal differences between Maturidism and
+      Ashʿarism are far smaller than the points of agreement;
+      al-Subki and other Sunni doxographers treat them as the
+      two recognised forms of orthodox Sunni kalam.
+    description_ar: |
+      توفي الإمام أبو منصور محمد بن محمد الماتريدي السمرقندي —
+      فقيه حنفي بسمرقند، ومؤسس المدرسة الماتريدية في علم العقيدة
+      عند أهل السنة، ثاني المدرستين العقديتين الكبيرتين (مع
+      مدرسة الإمام الأشعري) المقبولتين عقيدة سنية في عامة العالم
+      الإسلامي الكلاسيكي — بسمرقند عن نحو ثمانين سنة. ومن أبرز
+      مصنفاته: «كتاب التوحيد» (المتن المنهجي الأم في العقيدة
+      الماتريدية)، و«تأويلات أهل السنة» (تفسير قرآني). صارت
+      الماتريدية العقيدة السائدة في المذهب الحنفي من العصر
+      السلجوقي فصاعداً، ولا تزال العقيدة الرسمية اليوم في تركيا
+      وآسيا الوسطى وشبه القارة الهندية (حيث المذهب الحنفي هو
+      السائد) والبلقان. والفروق العقدية التاريخية بين الماتريدية
+      والأشعرية أقل بكثير من نقاط الاتفاق؛ ويعد السبكي وسائر
+      أصحاب الطبقات السنية المدرستين الشكلين المعترف بهما من
+      كلام أهل السنة.
+    description_fr: |
+      Abu Manṣūr Muḥammad ibn Muḥammad al-Māturīdī al-Samarqandī
+      — juriste hanafite de Samarcande et fondateur éponyme de
+      l'école māturīdite de la théologie sunnite, la seconde
+      des deux grandes écoles de credo (avec l'école ashʿarite
+      d'Abū al-Ḥasan al-Ashʿarī) acceptée comme orthodoxe à
+      travers tout le monde sunnite classique — mourut à
+      Samarcande à l'âge d'environ 80 ans. Ses œuvres majeures
+      incluent *Kitāb al-Tawḥīd* (le traité de credo systématique
+      fondateur māturīdite) et *Taʾwīlāt Ahl al-Sunna* (un
+      commentaire coranique). L'école māturīdite devint le credo
+      dominant du madhhab hanafite à partir de l'ère seldjoukide
+      et demeure le credo officiel aujourd'hui à travers la
+      Turquie, l'Asie centrale, le sous-continent indien (où le
+      madhhab hanafite est dominant), et les Balkans. Les
+      différences historico-doctrinales entre le māturīdisme et
+      l'ashʿarisme sont bien moindres que les points d'accord;
+      al-Subkī et autres doxographes sunnites les traitent comme
+      les deux formes reconnues du *kalām* sunnite orthodoxe.
+    canonical_hijri: {year: 333, precision: year}
+    canonical_gregorian: {date: 944-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: ibn_kathir_bidaya
+    people: [[al-maturidi, subject]]
+    tags: [hanafi, maturidi, creed, samarqand, abbasid, kalam]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Maturidi"
+
+  - slug: death-of-al-jurjani-balagha
+    category: scholar
+    title_en: Death of ʿAbd al-Qahir al-Jurjani — Founder of Balagha
+    title_ar: وفاة عبد القاهر الجرجاني — مؤسس علم البلاغة
+    title_fr: Mort d'ʿAbd al-Qāhir al-Jurjānī — fondateur de la *balāgha*
+    description_en: |
+      Abu Bakr ʿAbd al-Qahir ibn ʿAbd al-Rahman al-Jurjani —
+      Persian Sunni Shafiʿi-Ashʿari scholar of Jurjan in
+      northeastern Iran, and founder of the Arabic science of
+      literary theory and rhetoric (*ʿilm al-balagha*) through
+      his two foundational treatises *Asrar al-Balagha* (Secrets
+      of Eloquence) and *Dalaʾil al-Iʿjaz* (Indications of the
+      Inimitability of the Qurʾan) — died at Jurjan. His
+      revolutionary thesis — that the inimitability of the
+      Qurʾan lies not in its lexicon but in its *naẓm*, its
+      compositional structure that depends on the ordering and
+      governance relations within the sentence — established a
+      new science of literary criticism and the methodology of
+      Qurʾanic *iʿjaz* studies. *Dalaʾil al-Iʿjaz* is read at
+      al-Azhar to this day; the modern Arabic literary theory
+      of T. Hussein and ʿA. Mahmud Shakir traces its lineage
+      directly to al-Jurjani. He was a humble teacher whose
+      personal poverty was reportedly such that his students
+      shared their cloaks with him in winter.
+    description_ar: |
+      توفي الإمام أبو بكر عبد القاهر بن عبد الرحمن الجرجاني —
+      فقيه شافعي أشعري سني فارسي من «جرجان» شمال شرق إيران،
+      ومؤسس علم البلاغة العربية ونقده عبر متنيه الأصليين «أسرار
+      البلاغة» و«دلائل الإعجاز» — بجرجان. وأطروحته الثورية —
+      أن إعجاز القرآن ليس في معجمه وإنما في «نظمه»، أي بنيته
+      التأليفية القائمة على الترتيب وعلاقات العمل في الجملة —
+      أسست علم نقد الأدب الجديد ومنهج دراسة إعجاز القرآن. ولا
+      يزال «دلائل الإعجاز» يقرأ في الأزهر إلى اليوم؛ ونظرية
+      الأدب العربية الحديثة عند طه حسين وأ. م. شاكر ترفع نسبها
+      مباشرة إلى الجرجاني. وكان رحمه الله متواضعاً في التدريس،
+      حتى ذكرت المصادر أن طلبته كانوا يقتسمون معه عباءاتهم في
+      الشتاء.
+    description_fr: |
+      Abū Bakr ʿAbd al-Qāhir ibn ʿAbd al-Raḥmān al-Jurjānī —
+      savant sunnite chāfiʿite-ashʿarite persan de Jurjan dans
+      le nord-est de l'Iran, et fondateur de la science arabe de
+      la théorie littéraire et de la rhétorique (*ʿilm al-
+      balāgha*) à travers ses deux traités fondateurs *Asrār
+      al-Balāgha* (Secrets de l'Éloquence) et *Dalāʾil al-Iʿjāz*
+      (Indications de l'Inimitabilité du Coran) — mourut à
+      Jurjan. Sa thèse révolutionnaire — que l'inimitabilité
+      du Coran réside non dans son lexique mais dans son *naẓm*,
+      sa structure compositionnelle qui dépend de l'ordre et des
+      relations de régence à l'intérieur de la phrase — établit
+      une nouvelle science de la critique littéraire et la
+      méthodologie des études de l'*iʿjāz* coranique. *Dalāʾil
+      al-Iʿjāz* est lu à al-Azhar à ce jour; la théorie
+      littéraire arabe moderne de Ṭ. Ḥusayn et de ʿA. M. Shākir
+      trace sa lignée directement à al-Jurjānī. Il fut un
+      enseignant humble dont la pauvreté personnelle était
+      telle, dit-on, que ses élèves partageaient leurs manteaux
+      avec lui en hiver.
+    canonical_hijri: {year: 471, precision: year}
+    canonical_gregorian: {date: 1078-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[al-jurjani-balagha, subject]]
+    tags: [shafii, ashari, jurjan, balagha, iʿjaz, literary-theory]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Qahir_al-Jurjani"
+
+  - slug: death-of-al-maydani
+    category: scholar
+    title_en: Death of al-Maydani — Compiler of Arabic Proverbs
+    title_ar: وفاة الميداني — جامع أمثال العرب
+    title_fr: Mort d'al-Maydānī — compilateur des proverbes arabes
+    description_en: |
+      Abu al-Faḍl Aḥmad ibn Muhammad al-Maydani al-Naysaburi —
+      Persian Sunni philologist and grammarian of Naysabur,
+      author of *Majmaʿ al-Amthal* (the standard pre-modern
+      compilation of Arabic proverbs, comprising about 6,000
+      proverbs each with its narrative occasion and grammatical
+      analysis) — died in Naysabur. *Majmaʿ al-Amthal* was the
+      master compendium that displaced earlier proverb collections
+      (al-Mufaḍḍal al-Ḍabbi, al-Maydani's own teacher al-
+      Wahidi) and remained the canonical reference into the
+      modern era; it is the principal source for the cultural
+      history of pre-Islamic and early-Islamic Arab social
+      experience. His *al-Sami fi al-Asami* in three volumes is
+      a major Arabic-Persian thematic dictionary; his
+      *al-Anmuzaj fi al-Naḥw* an introductory grammar widely
+      taught in Khurasan. He was killed in a riot following a
+      faction-fight at Naysabur.
+    description_ar: |
+      توفي الإمام أبو الفضل أحمد بن محمد الميداني النيسابوري —
+      لغوي سني فارسي ونحوي بنيسابور، ومصنف «مجمع الأمثال» (أمهات
+      كتب أمثال العرب قبل الحديث، يضم نحو ستة آلاف مثل بمناسبتها
+      وتحليلها النحوي) — بنيسابور. و«مجمع الأمثال» المعجم الكبير
+      الذي نسخ مجاميع الأمثال السابقة (للمفضل الضبي ومعلم
+      الميداني نفسه الواحدي)، وظل المرجع المعتمد إلى العصر الحديث؛
+      وهو المصدر الأصلي في تاريخ الثقافة والعيش الاجتماعي العربي
+      الجاهلي والباكر. أما كتابه «السامي في الأسامي» في ثلاثة
+      مجلدات فمعجم عربي-فارسي موضوعي كبير؛ و«الأنموذج في النحو»
+      متن نحو تقدمي درّس على نطاق واسع في خراسان. وقتله رحمه
+      الله في فتنة طائفية بنيسابور.
+    description_fr: |
+      Abū al-Faḍl Aḥmad ibn Muḥammad al-Maydānī al-Naysabūrī —
+      philologue et grammairien sunnite persan de Naysabur,
+      auteur de *Majmaʿ al-Amthāl* (la compilation pré-moderne
+      standard des proverbes arabes, comprenant environ 6 000
+      proverbes chacun avec son occasion narrative et son analyse
+      grammaticale) — mourut à Naysabur. *Majmaʿ al-Amthāl* fut
+      le compendium maître qui supplanta les recueils de
+      proverbes antérieurs (al-Mufaḍḍal al-Ḍabbī, le maître
+      d'al-Maydānī lui-même al-Wāḥidī) et resta la référence
+      canonique jusqu'à l'époque moderne; c'est la source
+      principale de l'histoire culturelle de l'expérience
+      sociale arabe préislamique et islamique précoce. Son
+      *al-Sāmī fī al-Asāmī* en trois volumes est un dictionnaire
+      thématique arabe-persan majeur; son *al-Anmūdhaj fī al-
+      Naḥw* une grammaire introductive largement enseignée au
+      Khurasan. Il fut tué dans une émeute suite à une lutte
+      factionnelle à Naysabur.
+    canonical_hijri: {year: 518, month: 9, precision: month}
+    canonical_gregorian: {date: 1124-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_kathir_bidaya
+    people: [[al-maydani, subject]]
+    tags: [philology, naysabur, saljuq, proverbs, grammar]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Maydani"
+
+  # =========================================================================
+  # MODERN HANBALI + MAGHREBI MUHADDITH
+  # =========================================================================
+
+  - slug: death-of-al-sadi
+    category: scholar
+    title_en: Death of ʿAbd al-Raḥman al-Saʿdi
+    title_ar: وفاة عبد الرحمن السعدي
+    title_fr: Mort d'ʿAbd al-Raḥmān al-Saʿdī
+    description_en: |
+      ʿAbd al-Raḥman ibn Naṣir al-Saʿdi al-Tamimi — Saudi Najdi
+      Hanbali Sunni scholar of ʿUnayza and the foremost
+      contemporary Hanbali tafsir author, whose *Taysir al-
+      Karim al-Rahman fi Tafsir Kalam al-Mannan* (commonly
+      *Tafsir al-Saʿdi*) is among the most read modern Sunni
+      tafsirs in the Arabic-speaking world for its accessibility,
+      orthodoxy, and economy of style — died in ʿUnayza at age
+      about 70. He was the master of the next generation of
+      Saudi Hanbali scholars, including ʿAbd al-ʿAziz ibn Baz
+      and Muhammad ibn Ṣaliḥ al-ʿUthaymin (both of whom studied
+      under him directly). His *al-Qawaʿid al-Ḥisan li-Tafsir
+      al-Qurʾan* is a foundational work on the methodology of
+      Qurʾanic exegesis, and his *Bahjat Qulub al-Abrar* a
+      widely-circulated commentary on hadith of personal piety.
+    description_ar: |
+      توفي الإمام عبد الرحمن بن ناصر السعدي التميمي — عالم سني
+      نجدي حنبلي بعنيزة، وأكبر مفسري الحنابلة في العصر الحديث،
+      ومصنف «تيسير الكريم الرحمن في تفسير كلام المنان» (المعروف
+      بـ«تفسير السعدي») الذي يعد من أكثر تفاسير أهل السنة
+      الحديثة قراءة في العالم الناطق بالعربية بسبب يسر عبارته
+      ومتانة عقيدته واقتصاد أسلوبه — في عنيزة عن نحو سبعين
+      سنة. وكان شيخ الجيل التالي من علماء الحنابلة السعوديين،
+      منهم عبد العزيز بن باز ومحمد بن صالح العثيمين (وقد قرأ
+      كلاهما عليه مباشرة). و«القواعد الحسان لتفسير القرآن» متن
+      أصل في منهج التفسير، و«بهجة قلوب الأبرار» شرح حديثي في
+      آداب التقوى الفردية واسع الانتشار.
+    description_fr: |
+      ʿAbd al-Raḥmān ibn Nāṣir al-Saʿdī al-Tamīmī — savant
+      sunnite saoudien najdi hanbalite d'ʿUnayza et le principal
+      auteur contemporain de tafsir hanbalite, dont *Taysīr al-
+      Karīm al-Raḥmān fī Tafsīr Kalām al-Mannān* (communément
+      *Tafsīr al-Saʿdī*) figure parmi les tafsirs sunnites
+      modernes les plus lus dans le monde arabophone pour son
+      accessibilité, son orthodoxie et son économie stylistique
+      — mourut à ʿUnayza à l'âge d'environ 70 ans. Il fut le
+      maître de la génération suivante de savants hanbalites
+      saoudiens, dont ʿAbd al-ʿAzīz ibn Bāz et Muḥammad ibn
+      Ṣāliḥ al-ʿUthaymīn (tous deux ayant étudié directement
+      sous lui). Son *al-Qawāʿid al-Ḥisān li-Tafsīr al-Qurʾān*
+      est un ouvrage fondateur sur la méthodologie de l'exégèse
+      coranique, et son *Bahjat Qulūb al-Abrār* un commentaire
+      largement diffusé sur les hadiths de piété personnelle.
+    canonical_hijri: {year: 1376, month: 6, day: 24, precision: day}
+    canonical_gregorian: {date: 1957-01-26, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-sadi, subject], [bin-baz, subject], [al-uthaymeen, subject]]
+    tags: [hanbali, saudi, najd, ʿunayza, tafsir, modern]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Rahman_ibn_Nasir_al-Sa%27di"
+
+  - slug: death-of-al-kattani
+    category: scholar
+    title_en: Death of Muhammad ʿAbd al-Hayy al-Kattani
+    title_ar: وفاة محمد عبد الحي الكتاني
+    title_fr: Mort de Muḥammad ʿAbd al-Ḥayy al-Kattānī
+    description_en: |
+      Muhammad ʿAbd al-Hayy ibn ʿAbd al-Kabir al-Kattani — Maliki
+      Sunni Sufi muḥaddith of Fes, of Idrisi sharifian descent,
+      and the most extensive twentieth-century classical-style
+      Maghrebi hadith authority — died in Fes at age about 76.
+      His *Fihris al-Faharis wa-l-Athbat wa-Muʿjam al-Maʿajim
+      wa-l-Mashyakhat wa-l-Musalsalat*, completed in 1346 AH /
+      1928 CE, is a 1,200-entry catalogue of Sunni hadith
+      transmission chains running through the Maghrebi-Mashriqi
+      scholarly network of his era — the indispensable reference
+      for any modern study of the *isnad* tradition's continuity.
+      His *Niẓam al-Ḥukuma al-Nabawiyya* is an early modern
+      institutional history of the Prophet's ﷺ governance of
+      Medina, anticipating later studies in this area. He was
+      politically active in Moroccan-French negotiations of
+      the early Protectorate era and lived his final years in
+      voluntary exile in Egypt and Lebanon over disputes with
+      ʿAlawi sharifian rivals.
+    description_ar: |
+      توفي العلامة محمد عبد الحي بن عبد الكبير الكتاني — محدث
+      صوفي سني مالكي من فاس، من ذرية الإدريسيين الأشراف، وأوسع
+      علماء المغرب الحديث في رواية الحديث على المنهج الكلاسيكي —
+      بفاس عن نحو ست وسبعين سنة. وكتابه «فهرس الفهارس والأثبات
+      ومعجم المعاجم والمشيخات والمسلسلات» الذي أتمه سنة ١٣٤٦ هـ
+      / ١٩٢٨ ميلادي معجم في ١٢٠٠ ترجمة لأسانيد الحديث السنية
+      المارة عبر الشبكة العلمية المغربية-المشرقية في عصره — وهو
+      المرجع الذي لا غنى عنه في الدراسات الحديثة لاستمرار تراث
+      الإسناد. وكتابه «نظام الحكومة النبوية» تاريخ مؤسسي حديث
+      مبكر لإدارة النبي ﷺ للمدينة، استبق دراسات لاحقة في هذا
+      الباب. وكان نشطاً في المفاوضات المغربية-الفرنسية في عصر
+      الحماية المبكر، وقضى سنواته الأخيرة في منفى طوعي في مصر
+      ولبنان بسبب خلافات مع منافسيه من الأشراف العلويين.
+    description_fr: |
+      Muḥammad ʿAbd al-Ḥayy ibn ʿAbd al-Kabīr al-Kattānī —
+      muḥaddith soufi sunnite malikite de Fès, de descendance
+      idrisside chérifienne, et la plus grande autorité hadith
+      du Maghreb du XXe siècle dans le style classique — mourut
+      à Fès à l'âge d'environ 76 ans. Son *Fihris al-Fahāris
+      wa-l-Athbāt wa-Muʿjam al-Maʿājim wa-l-Mashyakhāt wa-l-
+      Musalsalāt*, achevé en 1346 H / 1928 EC, est un catalogue
+      de 1 200 entrées des chaînes de transmission de hadiths
+      sunnites passant par le réseau savant maghrébin-mashriqī
+      de son époque — la référence indispensable pour toute
+      étude moderne de la continuité de la tradition d'*isnād*.
+      Son *Niẓām al-Ḥukūma al-Nabawiyya* est une histoire
+      institutionnelle moderne précoce de la gouvernance du
+      Prophète ﷺ à Médine, anticipant des études ultérieures
+      dans ce domaine. Il fut politiquement actif dans les
+      négociations marocco-françaises du début de l'ère du
+      Protectorat et vécut ses dernières années en exil
+      volontaire en Égypte et au Liban pour des disputes avec
+      des rivaux chérifiens ʿalaouites.
+    canonical_hijri: {year: 1382, month: 9, day: 7, precision: day}
+    canonical_gregorian: {date: 1962-12-31, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-kattani, subject]]
+    tags: [maliki, morocco, fes, modern, isnad, hadith, idrisi]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_al-Kattani"
+
+  # =========================================================================
+  # SUFI FOUNDERS
+  # =========================================================================
+
+  # death-of-al-rifai intentionally excluded — Rifāʿiyya — body-piercing dhikr rituals critiqued by Ibn Taymiyya and by sober Sufi orders.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+
+  - slug: death-of-maruf-al-karkhi
+    category: scholar
+    title_en: Death of Maʿruf al-Karkhi — Early Baghdad Sufi
+    title_ar: وفاة معروف الكرخي — صوفي بغداد الأول
+    title_fr: Mort de Maʿrūf al-Karkhī — premier soufi de Bagdad
+    description_en: |
+      Abu Maḥfuz Maʿruf ibn Firuzan al-Karkhi — Sunni ascetic
+      and mystic of Karkh in Baghdad, master of al-Sirri al-
+      Saqaṭi (and through him grand-master of al-Junayd al-
+      Baghdadi), and the earliest of the Baghdad Sufi network
+      whose teachings entered the canonical Sufi tradition —
+      died in Baghdad. He was a freedman, of Persian descent,
+      whose conversion came under the master ʿAli al-Riḍa (the
+      eighth Shia Imam, also a transmitter of hadith for the
+      Sunni Imam Aḥmad ibn Ḥanbal); both Sunni and later
+      classical Sufi sources count him as the principal Sunni
+      Sufi authority of the second century AH. His sayings —
+      preserved by al-Sulami in *Ṭabaqat al-Ṣufiyya* and Abu
+      Nuʿaym in *Ḥilyat al-Awliyaʾ* — establish the early
+      ascetic-Sufi vocabulary of *zuhd*, *ridā*, *muhabba*, and
+      *yaqīn* that the Baghdad school would systematise in the
+      next two generations. His tomb on the west bank of the
+      Tigris was a popular Baghdadi pilgrimage site for over a
+      millennium.
+    description_ar: |
+      توفي الإمام أبو محفوظ معروف بن فيروزان الكرخي — زاهد
+      ومتصوف سني من «الكرخ» ببغداد، شيخ السري السقطي (وعن
+      السقطي شيخ الجنيد البغدادي)، وأول مَن دخل تعاليمه التراث
+      الصوفي السني الكلاسيكي من جيل بغداد — ببغداد. وكان
+      مولى من أصول فارسية، أسلم على يد الإمام علي الرضا
+      (الإمام الثامن عند الشيعة، ومن رواة الحديث للإمام أحمد
+      بن حنبل عند أهل السنة)؛ ويعدّه السنة وكتب التصوف
+      الكلاسيكية اللاحقة شيخاً سنياً صوفياً مرجعياً في القرن
+      الثاني للهجرة. وأقواله المحفوظة عند السلمي في «طبقات
+      الصوفية» وأبي نعيم في «حلية الأولياء» تؤسس مفردات الزهد
+      والصوفية الباكر في «الزهد» و«الرضا» و«المحبة» و«اليقين»،
+      التي ستنهجها مدرسة بغداد في الجيلين التاليين. وكان
+      قبره على الضفة الغربية من نهر دجلة مزاراً شعبياً ببغداد
+      أكثر من ألف سنة.
+    description_fr: |
+      Abu Maḥfūẓ Maʿrūf ibn Fīrūzān al-Karkhī — ascète et
+      mystique sunnite de Karkh à Bagdad, maître d'al-Sirrī
+      al-Saqaṭī (et par lui maître ultime d'al-Junayd al-
+      Baghdādī), et le plus ancien du réseau soufi bagdadien
+      dont les enseignements entrèrent dans la tradition
+      soufie canonique — mourut à Bagdad. C'était un affranchi,
+      de descendance persane, dont la conversion vint sous le
+      maître ʿAlī al-Riḍā (le huitième imam chiite, également
+      transmetteur de hadiths pour l'imam sunnite Aḥmad ibn
+      Ḥanbal); les sources sunnites et les sources soufies
+      classiques ultérieures le comptent comme la principale
+      autorité soufie sunnite du second siècle de l'Hégire.
+      Ses paroles — préservées par al-Sulamī dans *Ṭabaqāt
+      al-Ṣūfiyya* et Abū Nuʿaym dans *Ḥilyat al-Awliyāʾ* —
+      établissent le vocabulaire ascétique-soufi ancien de
+      *zuhd*, *riḍā*, *muḥabba* et *yaqīn* que l'école
+      bagdadienne systématiserait dans les deux générations
+      suivantes. Sa tombe sur la rive ouest du Tigre fut un
+      site de pèlerinage bagdadien populaire durant plus d'un
+      millénaire.
+    canonical_hijri: {year: 200, precision: year}
+    canonical_gregorian: {date: 815-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[maruf-al-karkhi, subject], [al-sirri-al-saqati, subject]]
+    tags: [sufi, sunni, baghdad, karkh, abbasid, zuhd]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Maruf_Karkhi"
+
+  # =========================================================================
+  # HANBALI POLYMATH + HADITH LEXICOGRAPHER
+  # =========================================================================
+
+  - slug: death-of-ibn-muflih
+    category: scholar
+    title_en: Death of Ibn Mufliḥ — Hanbali Polymath
+    title_ar: وفاة ابن مفلح — موسوعي الحنابلة
+    title_fr: Mort d'Ibn Mufliḥ — polymathe hanbalite
+    description_en: |
+      Shams al-Din Muhammad ibn Mufliḥ al-Maqdisi — leading
+      Hanbali jurist of Damascus in his generation, foremost
+      direct student of Ibn Taymiyya (whose hadith and fiqh
+      transmissions to later Damascene Hanbalis run through him),
+      and author of *al-Furuʿ* (the most-cited Hanbali fiqh
+      manual after Ibn Qudama's *al-Mughni*) — died in Damascus
+      at age about 53. *al-Furuʿ* in 11 volumes provides
+      systematic comparative fiqh across the Hanbali madhhab
+      with cross-references to the other three Sunni schools;
+      it became the operating reference of every later Hanbali
+      muḥaqqiq. His *al-Adab al-Sharʿiyya* — a systematic
+      treatise on Sunni etiquette and personal piety in three
+      volumes — is the most extensive single Sunni manual on
+      the subject and is widely read across madhhab boundaries.
+      Ibn Taymiyya famously said of him: "There is no person on
+      earth more learned in the school of Aḥmad than Ibn
+      Mufliḥ."
+    description_ar: |
+      توفي الإمام شمس الدين محمد بن مفلح المقدسي — كبير فقهاء
+      الحنابلة بدمشق في جيله، أعلم تلاميذ ابن تيمية مباشرة
+      (وعنه تنحدر أسانيد روايته في الحديث والفقه إلى متأخري
+      حنابلة دمشق)، ومصنف «الفروع» (أكثر متن فقه حنبلي إحالة
+      عليه بعد «المغني» لابن قدامة) — بدمشق عن نحو ثلاث
+      وخمسين سنة. ويقدم «الفروع» في أحد عشر مجلداً فقهاً مقارناً
+      منهجياً في المذهب الحنبلي مع إحالات على المذاهب السنية
+      الثلاثة الأخرى؛ وصار المرجع المعتمد عند كل محقق حنبلي
+      تالٍ. وكتابه «الآداب الشرعية» — متن منهجي في آداب
+      السنة وتقوى الفرد في ثلاثة مجلدات — هو أوسع متن سني
+      منفرد في الباب، يُقرأ على نطاق واسع عبر المذاهب. قال
+      عنه ابن تيمية: «ما تحت قبة الفلك أعلم بمذهب أحمد من ابن
+      مفلح».
+    description_fr: |
+      Shams al-Dīn Muḥammad ibn Mufliḥ al-Maqdisī — principal
+      juriste hanbalite de Damas de sa génération, premier élève
+      direct d'Ibn Taymiyya (dont les transmissions de hadith
+      et de fiqh aux hanbalites damascènes ultérieurs passent
+      par lui), et auteur d'*al-Furūʿ* (le manuel de fiqh
+      hanbalite le plus cité après *al-Mughnī* d'Ibn Qudāma) —
+      mourut à Damas à l'âge d'environ 53 ans. *al-Furūʿ* en
+      11 volumes fournit un fiqh comparatif systématique à
+      travers le madhhab hanbalite avec des références croisées
+      aux trois autres écoles sunnites; il devint la référence
+      opérationnelle de chaque *muḥaqqiq* hanbalite ultérieur.
+      Son *al-Ādāb al-Sharʿiyya* — un traité systématique sur
+      l'étiquette sunnite et la piété personnelle en trois
+      volumes — est le manuel sunnite unique le plus exhaustif
+      sur le sujet et est largement lu à travers les frontières
+      madhhabiques. Ibn Taymiyya dit célèbrement de lui :
+      « il n'y a personne sur terre plus savant dans l'école
+      d'Aḥmad qu'Ibn Mufliḥ ».
+    canonical_hijri: {year: 763, month: 9, day: 5, precision: day}
+    canonical_gregorian: {date: 1362-07-02, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+    people: [[ibn-muflih, subject], [ibn-taymiyya, subject]]
+    tags: [hanbali, fiqh, damascus, mamluk, ibn-taymiyya, furuʿ]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-majd-al-din-ibn-al-athir
+    category: scholar
+    title_en: Death of Majd al-Din Ibn al-Athir — al-Nihaya
+    title_ar: وفاة مجد الدين ابن الأثير — صاحب «النهاية»
+    title_fr: Mort de Majd al-Dīn Ibn al-Athīr — auteur d'al-Nihāya
+    description_en: |
+      Majd al-Din Abu al-Saʿadat al-Mubarak ibn Muhammad ibn al-
+      Athir al-Jazari — eldest of the three Ibn al-Athir
+      brothers (his brother ʿIzz al-Din the historian and his
+      brother Ḍiyaʾ al-Din the literary theorist), Shafiʿi
+      jurist and chief secretary at Mosul under the Zangid
+      atabeg, and author of *al-Nihaya fi Gharib al-Ḥadith wa-l-
+      Athar* (the foundational lexicon of difficult words in
+      hadith — the most cited Sunni hadith dictionary in
+      classical scholarship) — died in Mosul at age about 62.
+      *al-Nihaya* synthesises the prior philological work of
+      al-Harawi, al-Zamakhshari, and Ibn Faris on hadith
+      vocabulary into a single five-volume reference;
+      al-Suyuṭi later abridged it as *al-Durr al-Nathir*. His
+      *Jamiʿ al-Uṣul fi Aḥadith al-Rasul* combines the hadith
+      of the Six Books and the *Muwaṭṭaʾ* into a single
+      thematic compendium, the earliest such cross-collection
+      attempt and a model for many subsequent works.
+    description_ar: |
+      توفي الإمام مجد الدين أبو السعادات المبارك بن محمد ابن
+      الأثير الجزري — أكبر إخوة آل ابن الأثير الثلاثة (أخوه عز
+      الدين المؤرخ وأخوه ضياء الدين الأديب البلاغي)، فقيه
+      شافعي وكاتب السر بالموصل في إمارة أتابكة الزنكيين، ومصنف
+      «النهاية في غريب الحديث والأثر» (المعجم الأصلي في الحديث
+      للكلمات الغامضة — أكثر معاجم الحديث السنية إحالة عليها
+      في التراث) — بالموصل عن نحو اثنتين وستين سنة. ويجمع
+      «النهاية» بين أعمال أهل اللغة السابقين (الهروي والزمخشري
+      وابن فارس) في غريب الحديث في مرجع واحد في خمسة مجلدات؛
+      اختصره السيوطي بعد ذلك في «الدر النثير». وكتابه «جامع
+      الأصول في أحاديث الرسول» يجمع أحاديث الكتب الستة
+      و«الموطأ» في موسوعة موضوعية واحدة، وهي أقدم محاولة
+      للجمع بين هذه المجاميع، وقالب لكثير من الأعمال اللاحقة.
+    description_fr: |
+      Majd al-Dīn Abū al-Saʿādāt al-Mubārak ibn Muḥammad ibn al-
+      Athīr al-Jazarī — aîné des trois frères Ibn al-Athīr (son
+      frère ʿIzz al-Dīn l'historien et son frère Ḍiyāʾ al-Dīn
+      le théoricien littéraire), juriste shāfiʿite et secrétaire
+      en chef à Mossoul sous l'atabeg zangide, et auteur d'*al-
+      Nihāya fī Gharīb al-Ḥadīth wa-l-Athar* (le lexique
+      fondateur des mots difficiles dans le hadith — le
+      dictionnaire de hadith sunnite le plus cité dans
+      l'érudition classique) — mourut à Mossoul à l'âge
+      d'environ 62 ans. *al-Nihāya* synthétise les travaux
+      philologiques antérieurs d'al-Harawī, d'al-Zamakhsharī
+      et d'Ibn Fāris sur le vocabulaire du hadith en une
+      référence unique en cinq volumes; al-Suyūṭī l'abrégea
+      plus tard en *al-Durr al-Nathīr*. Son *Jāmiʿ al-Uṣūl fī
+      Aḥādīth al-Rasūl* combine les hadiths des Six Livres et
+      du *Muwaṭṭaʾ* en un compendium thématique unique, la
+      plus ancienne tentative de telle collection croisée et
+      un modèle pour de nombreuses œuvres ultérieures.
+    canonical_hijri: {year: 606, precision: year}
+    canonical_gregorian: {date: 1210-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[majd-al-din-ibn-al-athir, subject], [ibn-al-athir-historian, subject]]
+    tags: [shafii, mosul, zangid, hadith, lexicon, nihaya]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MAJOR BATTLES
+  # =========================================================================
+
+  - slug: second-battle-of-tarain
+    category: battle
+    title_en: Second Battle of Tarain — Founding of the Delhi Sultanate
+    title_ar: معركة طرائن الثانية — قيام سلطنة دلهي
+    title_fr: Seconde bataille de Tarāʾin — fondation du sultanat de Delhi
+    description_en: |
+      Muʿizz al-Din Muhammad of Ghor, brother of the Ghurid
+      sultan Ghiyath al-Din and viceroy of his eastern domains,
+      decisively defeated the Hindu Rajput coalition under
+      Prithviraj Chauhan III at the Second Battle of Tarain on
+      the plain of Karnal in northern India. The Muslim victory
+      reversed the loss of the previous year's First Tarain
+      and inaugurated four centuries of Indo-Muslim political
+      sovereignty over north India. Muʿizz al-Din placed his
+      slave-general Quṭb al-Din Aybak in administrative
+      command at Delhi, founding what would become the Delhi
+      Sultanate (later the Mamluk, Khalji, Tughluq, Sayyid, and
+      Lodi dynasties succeeded each other through 932 AH /
+      1526 CE). The strategic significance was civilisational:
+      a permanent Muslim political establishment in the Gangetic
+      heartland enabled the wide diffusion of Persianate Islamic
+      culture, the Chishti Sufi mission, and ultimately the
+      Mughal-era cultural synthesis from which the modern
+      Indian Muslim community largely descends.
+    description_ar: |
+      هزم معز الدين محمد الغوري — أخو السلطان غياث الدين الغوري
+      ونائبه على المشرق — تحالف الراجبوت الهندوسي بقيادة
+      «بريثفيراج تشوهان الثالث» هزيمة فاصلة في معركة طرائن
+      الثانية في سهل «كارنال» شمال الهند. وعكس النصر الإسلامي
+      هزيمة طرائن الأولى في السنة السابقة، وأطلق أربعة قرون من
+      السيادة السياسية الإسلامية الهندية على شمال الهند.
+      ووضع معز الدين قائده الغلام «قطب الدين أيبك» على ولاية
+      دلهي إدارياً، فأسس ما سيصبح سلطنة دلهي (وقد تعاقبت
+      عليها لاحقاً الدول المملوكية والخلجية والتغلقية والسيدية
+      واللودية إلى سنة ٩٣٢ هـ / ١٥٢٦ ميلادي). والأهمية
+      الاستراتيجية حضارية: ففتح الاستقرار السياسي الإسلامي
+      الدائم في قلب وادي الغانج باب نشر الثقافة الإسلامية
+      الفارسية على نطاق واسع، ومبعث الجشتية الصوفي، وفي نهاية
+      المطاف التركيب الثقافي المغولي الذي ينحدر منه عامة
+      المجتمع الهندي المسلم الحديث.
+    description_fr: |
+      Muʿizz al-Dīn Muḥammad de Ghor, frère du sultan ghuride
+      Ghiyāth al-Dīn et vice-roi de ses domaines orientaux,
+      défit de manière décisive la coalition hindoue rajput
+      sous Prithviraj Chauhan III à la seconde bataille de
+      Tarāʾin sur la plaine de Karnal dans le nord de l'Inde.
+      La victoire musulmane renversa la défaite de la première
+      Tarāʾin de l'année précédente et inaugura quatre siècles
+      de souveraineté politique indo-musulmane sur le nord de
+      l'Inde. Muʿizz al-Dīn plaça son général-esclave Quṭb al-
+      Dīn Aybak au commandement administratif à Delhi, fondant
+      ce qui deviendrait le sultanat de Delhi (les dynasties
+      mameloukes, khaldjie, tughluquides, sayyids et lodies se
+      succédèrent jusqu'à 932 H / 1526 EC). La signification
+      stratégique fut civilisationnelle : un établissement
+      politique musulman permanent au cœur de la vallée du
+      Gange permit la large diffusion de la culture islamique
+      persanate, la mission soufie Chishtī, et finalement la
+      synthèse culturelle de l'ère moghole dont la communauté
+      musulmane indienne moderne descend largement.
+    canonical_hijri: {year: 588, month: 10, precision: month}
+    canonical_gregorian: {date: 1192-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: ei2
+    people: [[muizz-al-din-ghuri, leader]]
+    tags: [ghurid, india, delhi, tarain, prithviraj, aybak]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Second_Battle_of_Tarain"
+
+  - slug: battle-of-mansoura
+    category: battle
+    title_en: Battle of Mansoura — Capture of King Louis IX
+    title_ar: معركة المنصورة — أسر الملك لويس التاسع
+    title_fr: Bataille de Mansourah — capture du roi Louis IX
+    description_en: |
+      The Egyptian forces of the dying Sultan al-Ṣaliḥ Najm al-
+      Din Ayyub — under the field command of his Turkish slave-
+      general Aybak and the Mamluk *baḥrī* corps led by
+      Baybars al-Bunduqdari — defeated the Crusader army of
+      King Louis IX of France at Mansoura in the Egyptian
+      Delta. The decisive engagement saw the Mamluks ambush
+      the Crusaders inside the city after the latter had
+      crossed the Nile branch and entered the streets, killing
+      thousands and capturing the king himself with most of his
+      surviving army. Louis IX was held for ransom and released
+      against payment of 400,000 livres tournois and the
+      surrender of the captured Damietta. The battle marked
+      the effective end of the Seventh Crusade, the destruction
+      of large-scale Crusader expeditions to the Levant, and
+      the beginning of the political ascendancy of the Mamluks
+      that would replace the Ayyubid dynasty within months.
+    description_ar: |
+      هزمت قوات السلطان الصالح نجم الدين أيوب المريض في عاصمته —
+      تحت قيادة قائده المملوك التركي «أيبك» وفرقة المماليك
+      البحرية بقيادة الظاهر بيبرس البندقداري — جيش الصليبيين
+      بقيادة الملك لويس التاسع ملك فرنسا في «المنصورة» في دلتا
+      مصر. وشهدت المواجهة الفاصلة كميناً مملوكياً للصليبيين داخل
+      المدينة بعد أن عبروا فرع النيل ودخلوا شوارعها، فقُتل منهم
+      آلاف وأُسر الملك نفسه ومعظم بقية جيشه. واحتُجز لويس التاسع
+      بفدية وأُفرج عنه في مقابل أربع مئة ألف ليفر فرنسي وتسليم
+      دمياط المفتتحة. وشكلت المعركة النهاية الفعلية للحملة
+      الصليبية السابعة، ونهاية الحملات الصليبية الكبرى على
+      الشام، وبداية الصعود السياسي للمماليك الذي سيستبدل دولة
+      بني أيوب في غضون أشهر.
+    description_fr: |
+      Les forces égyptiennes du sultan mourant al-Ṣāliḥ Najm
+      al-Dīn Ayyūb — sous le commandement sur le terrain de
+      son général-esclave turc Aybak et du corps mamelouk
+      *baḥrī* mené par Baybars al-Bunduqdārī — défirent l'armée
+      croisée du roi Louis IX de France à Mansourah dans le
+      delta égyptien. L'engagement décisif vit les Mamelouks
+      tendre une embuscade aux Croisés à l'intérieur de la
+      ville après que ces derniers eurent traversé le bras du
+      Nil et pénétré dans les rues, tuant des milliers et
+      capturant le roi lui-même avec la majeure partie de son
+      armée survivante. Louis IX fut détenu pour rançon et
+      libéré contre paiement de 400 000 livres tournois et la
+      reddition de Damiette capturée. La bataille marqua la
+      fin effective de la septième croisade, la destruction
+      des expéditions croisées de grande échelle vers le
+      Levant, et le début de l'ascendance politique des
+      Mamelouks qui remplacerait la dynastie ayyoubide en
+      l'espace de mois.
+    canonical_hijri: {year: 647, month: 12, day: 28, precision: day}
+    canonical_gregorian: {date: 1250-02-08, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: dhahabi_tarikh_islam
+    people: [[baybars, subject]]
+    tags: [ayyubid, mamluk, crusades, mansoura, louis-ix, egypt]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Mansurah"

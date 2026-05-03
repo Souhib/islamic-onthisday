@@ -1,0 +1,78 @@
+name: ci
+
+# Lint, type-check, and test every push to a feature branch and every PR
+# into main. Three jobs run in parallel — pipeline, backend, web — because
+# they're fully independent (each owns its own lockfile).
+
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pipeline:
+    name: pipeline (ruff)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: data-pipeline
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          version: latest
+      - name: uv sync
+        run: uv sync --frozen
+      - name: poe check
+        run: uv run poe check
+
+  backend:
+    name: backend (ruff + pytest)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          version: latest
+
+      # The backend tests hit the pipeline DB. Build it once before pytest
+      # so the conftest fixture has a real SQLite to read.
+      - name: build the pipeline DB
+        run: |
+          cd ../data-pipeline
+          uv sync --frozen
+          uv run python -m pipeline.build --skip-wikidata --skip-openiti
+
+      - name: uv sync
+        run: uv sync --frozen
+
+      - name: poe check
+        run: uv run poe check
+
+      - name: poe test
+        run: uv run poe test
+
+  web:
+    name: web (oxlint + tsc + vitest)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      - run: bun install --frozen-lockfile
+      - run: bun run typecheck
+      - run: bun run lint
+      - run: bun run format:check
+      - run: bun run test

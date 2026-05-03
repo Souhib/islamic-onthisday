@@ -1,0 +1,276 @@
+# Wave 101 of curated event additions (2026-04-29).
+# North African Sunni reformers — the Idrīsiyya and Sanūsiyya movements
+# and the Libyan resistance against Italian colonialism.
+# All figures are mainstream Sunni Mālikī-Ashʿarī or Mālikī-Sufi,
+# historically significant across the Maghrib, and pass the Ibn Battuta
+# test for educated Muslims.
+#
+# Already in dataset (NOT duplicated here):
+#   - death-of-al-sanusi (895 AH / 1490 CE) — the Tlemcen theologian,
+#     *not* the Sanūsiyya founder (different person, different century).
+#
+# Sources: EI2 articles on Sanūsiyya, Idrīsiyya, and ʿUmar al-Mukhtār;
+# modern biographical references for 20th-century figures. Where
+# day-precision is firmly attested in modern historical records it is
+# used; otherwise year-precision. Trilingual en/ar/fr throughout.
+
+events:
+  - slug: death-of-ahmad-ibn-idris-al-fasi
+    category: scholar_death
+    title_en: Death of Aḥmad ibn Idrīs al-Fāsī — Founder of the Idrīsiyya
+    title_ar: وفاة أحمد بن إدريس الفاسي — مؤسس الطريقة الإدريسية
+    title_fr: Mort d'Aḥmad ibn Idrīs al-Fāsī — fondateur de l'Idrīsiyya
+    description_en: |
+      Aḥmad ibn Idrīs al-Fāsī, the Moroccan-born Sunni Mālikī
+      scholar and Sufi shaykh who founded the Idrīsiyya tariqa
+      — a reformist Sufi movement that sought to restore direct
+      study of Qurʾān and hadith above taqlīd of later Sufi
+      authorities — died in 1252 AH (~1837 CE) at about age
+      sixty-five. Born near Fez around 1187 AH (1773 CE), he
+      studied Mālikī fiqh and Ashʿarī theology in the Qarawiyyīn
+      before travelling to Egypt, the Hijaz, and Yemen, where he
+      taught a circle of students who would carry his message
+      across the Muslim world. His disciples founded the
+      Khatmiyya in the Sudan, the Rashīdiyya in Somalia and the
+      Hijaz, and the Sanūsiyya in Libya — making his spiritual
+      network one of the most widely distributed Sunni reform
+      movements of the nineteenth century.
+    description_ar: |
+      توفي أحمد بن إدريس الفاسي — العالم السني المالكي
+      المغربي المولد والشيخ الصوفي الذي أسس الطريقة
+      الإدريسية — حركة صوفية إصلاحية سعت إلى إعادة
+      دراسة القرآن والحديث المباشرة فوق التقليد للسلف
+      الصوفي — سنة ١٢٥٢ هـ (~١٨٣٧ م) عن نحو خمس وستين
+      سنة. وُلد بفاس نحو سنة ١١٨٧ هـ (١٧٧٣ م)، وتتلمذ
+      على الفقه المالكي والكلام الأشعري بالقرويين
+      قبل أن يسافر إلى مصر والحجاز واليمن، حيث درّس حلقة
+      من الطلاب حملوا رسالته في أنحاء العالم الإسلامي.
+      فأسس تلامذته الختمية في السودان، والرشيدية في
+      الصومال والحجاز، والسنوسية في ليبيا — مما جعل
+      شبكته الروحية من أكثر الحركات الإصلاحية السنية
+      انتشاراً في القرن التاسع عشر.
+    description_fr: |
+      Aḥmad ibn Idrīs al-Fāsī, savant sunnite mālikite né au
+      Maroc et shaykh soufi qui fonda la ṭarīqa Idrīsiyya —
+      un mouvement soufi réformiste qui chercha à restaurer
+      l'étude directe du Coran et du hadith au-dessus du
+      taqlīd des autorités soufies ultérieures — mourut en
+      1252 H (~1837 EC) à l'âge d'environ soixante-cinq ans.
+      Né près de Fès vers 1187 H (1773 EC), il étudia le fiqh
+      mālikite et la théologie ashʿarite à la Qarawiyyīn avant
+      de voyager en Égypte, au Hijaz et au Yémen, où il
+      enseigna à un cercle d'étudiants qui porteraient son
+      message à travers le monde musulman. Ses disciples
+      fondèrent la Khatmiyya au Soudan, la Rashīdiyya en
+      Somalie et au Hijaz, et la Sanūsiyya en Libye — faisant
+      de son réseau spirituel l'un des mouvements de réforme
+      sunnite les plus largement répandus du 19e siècle.
+    canonical_hijri: {year: 1252, precision: year}
+    canonical_gregorian: {date: 1837-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Ahmad b. Idris' records his death in 1252 AH and the founding of the Idrisiyya."
+    people: [[ahmad-ibn-idris-al-fasi, died]]
+    tags: [modern, scholar, maliki, ashari, sufi, idrisiyya, morocco, fes, reform, nineteenth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-muhammad-bin-ali-al-sanusi
+    category: scholar_death
+    title_en: Death of Muḥammad ibn ʿAlī al-Sanūsī — Founder of the Sanūsiyya
+    title_ar: وفاة محمد بن علي السنوسي — مؤسس الطريقة السنوسية
+    title_fr: Mort de Muḥammad ibn ʿAlī al-Sanūsī — fondateur de la Sanūsiyya
+    description_en: |
+      Muḥammad ibn ʿAlī al-Sanūsī, the Algerian-born Sunni
+      Mālikī scholar who founded the Sanūsiyya tariqa in
+      Mecca in 1259 AH and later established its permanent
+      centre at Jaghbūb in the Libyan desert, died in 1276 AH
+      (~1859 CE) at about age seventy-five. Born near
+      Mustaghanim in Algeria around 1201 AH (1787 CE), he
+      studied with Aḥmad ibn Idrīs al-Fāsī in Mecca and
+      absorbed the Idrīsī reformist emphasis on direct
+      engagement with Qurʾān and Sunnah. The Sanūsiyya he
+      built became the dominant Sunni religious and political
+      force in Cyrenaica, establishing zāwiyas (lodges) across
+      the Sahara that combined religious education with trade
+      and tribal mediation. His grandson Muḥammad Idrīs would
+      become the first king of an independent Libya in 1951.
+    description_ar: |
+      توفي محمد بن علي السنوسي — العالم المالكي السني
+      الجزائري المولد الذي أسس الطريقة السنوسية بمكة
+      سنة ١٢٥٩ هـ ثم أنشأ مركزها الدائم بجغبوب في
+      الصحراء الليبية — سنة ١٢٧٦ هـ (~١٨٥٩ م) عن نحو
+      خمس وسبعين سنة. وُلد بقرب مستغانم بالجزائر نحو
+      سنة ١٢٠١ هـ (١٧٨٧ م)، وتتلمذ على أحمد بن إدريس
+      الفاسي بمكة واستوعب الإدريسي التأكيد الإصلاحي
+      على الاشتغال المباشر بالقرآن والسنة. وصارت
+      السنوسية التي بناها القوة الدينية والسياسية
+      السنية المهيمنة في برقة، إذ أنشأت زوايا في أنحاء
+      الصحراء جمعت بين التعليم الديني والتجارة
+      والوساطة القبلية. وصار حفيده محمد إدريس أول
+      ملك لليبيا المستقلة سنة ١٩٥١.
+    description_fr: |
+      Muḥammad ibn ʿAlī al-Sanūsī, savant mālikite sunnite né
+      en Algérie qui fonda la ṭarīqa Sanūsiyya à La Mecque
+      en 1259 H et établit ensuite son centre permanent à
+      Jaghbūb dans le désert libyen, mourut en 1276 H
+      (~1859 EC) à l'âge d'environ soixante-quinze ans. Né
+      près de Mostaganem en Algérie vers 1201 H (1787 EC),
+      il étudia auprès d'Aḥmad ibn Idrīs al-Fāsī à La Mecque
+      et absorba l'accent idrīsī réformiste sur l'engagement
+      direct avec le Coran et la Sunna. La Sanūsiyya qu'il
+      construisit devint la force religieuse et politique
+      sunnite dominante en Cyrénaïque, établissant des zāwiyas
+      à travers le Sahara qui combinaient éducation religieuse,
+      commerce et médiation tribale. Son petit-fils Muḥammad
+      Idrīs deviendrait le premier roi d'une Libye indépendante
+      en 1951.
+    canonical_hijri: {year: 1276, precision: year}
+    canonical_gregorian: {date: 1859-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Sanusiyya' records the death of Muhammad b. Ali al-Sanusi in 1276 AH and the founding of the order."
+    people: [[muhammad-bin-ali-al-sanusi, died]]
+    tags: [modern, scholar, maliki, ashari, sufi, sanusiyya, libya, algeria, reform, nineteenth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-muhammad-al-mahdi-al-sanusi
+    category: scholar_death
+    title_en: Death of Muḥammad al-Mahdī al-Sanūsī — Sanūsiyya Leader and North African Resistance
+    title_ar: وفاة محمد المهدي السنوسي — زعيم السنوسية والمقاومة في شمال أفريقيا
+    title_fr: Mort de Muḥammad al-Mahdī al-Sanūsī — chef de la Sanūsiyya et de la résistance nord-africaine
+    description_en: |
+      Muḥammad al-Mahdī ibn Muḥammad al-Sanūsī, the second
+      leader of the Sanūsiyya tariqa and the grandson of its
+      founder, died in 1320 AH (~1902 CE) after a reign of
+      forty-two years in which he transformed the order from a
+      regional Sufi network into a pan-Saharan political and
+      military power. Under his leadership the Sanūsiyya
+      established zāwiyas from Tripoli to Lake Chad and from
+      the Fezzan to the Sudanese border, creating a trade and
+      communication network that rivalled the Ottoman
+      administration in the region. When French expansion in
+      the Sahara and Italian colonisation of Libya threatened
+      Muslim autonomy, al-Mahdī organised armed resistance
+      from the desert strongholds, making the Sanūsiyya the
+      first modern Muslim movement to wage sustained guerrilla
+      war against European colonialism in Africa.
+    description_ar: |
+      توفي محمد المهدي بن محمد السنوسي — الزعيم الثاني
+      للطريقة السنوسية وحفيد مؤسسها — سنة ١٣٢٠ هـ
+      (~١٩٠٢ م) بعد قيادة امتدت اثنين وأربعين عاماً
+      حوّل فيها الزاوية من شبكة صوفية إقليمية إلى قوة
+      سياسية وعسكرية ساحلية صحراوية. وتحت قيادته أنشأت
+      السنوسية زوايا من طرابلس إلى تشاد ومن فزان إلى
+      الحدود السودانية، مؤسسة شبكة تجارة واتصالات نافست
+      الإدارة العثمانية في الإقليم. وعندما هدد التوسع
+      الفرنسي في الصحراء والاستعمار الإيطالي لليبيا
+      الاستقلال الإسلامي، نظّر المهدي المقاومة المسلحة
+      من معاقل الصحراء، مما جعل السنوسية أول حركة
+      إسلامية حديثة تشن حرب عصابات مستمرة ضد الاستعمار
+      الأوروبي في أفريقيا.
+    description_fr: |
+      Muḥammad al-Mahdī ibn Muḥammad al-Sanūsī, deuxième
+      chef de la ṭarīqa Sanūsiyya et petit-fils de son
+      fondateur, mourut en 1320 H (~1902 EC) après un règne
+      de quarante-deux ans au cours duquel il transforma
+      l'ordre d'un réseau soufi régional en une puissance
+      politique et militaire panafricaine sahélienne. Sous
+      son leadership, la Sanūsiyya établit des zāwiyas de
+      Tripoli au lac Tchad et du Fezzan à la frontière
+      soudanaise, créant un réseau de commerce et de
+      communication qui rivalisait avec l'administration
+      ottomane de la région. Lorsque l'expansion française
+      dans le Sahara et la colonisation italienne de la Libye
+      menacèrent l'autonomie musulmane, al-Mahdī organisa la
+      résistance armée depuis les bastions du désert, faisant
+      de la Sanūsiyya le premier mouvement musulman moderne
+      à mener une guérilla soutenue contre le colonialisme
+      européen en Afrique.
+    canonical_hijri: {year: 1320, precision: year}
+    canonical_gregorian: {date: 1902-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Sanusiyya' records al-Mahdi al-Sanusi's death in 1320 AH and the expansion of the order under his leadership."
+    people: [[muhammad-al-mahdi-al-sanusi, died]]
+    tags: [modern, scholar, maliki, sufi, sanusiyya, libya, resistance, colonialism, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-umar-al-mukhtar
+    category: scholar_death
+    title_en: Martyrdom of ʿUmar al-Mukhtār — Lion of the Desert
+    title_ar: استشهاد عمر المختار — أسد الصحراء
+    title_fr: Martyre de ʿUmar al-Mukhtār — le Lion du Désert
+    description_en: |
+      ʿUmar al-Mukhtār ibn Muḥammad al-Khaḍrāwī, the Libyan
+      Sanūsī shaykh and guerrilla commander who led the armed
+      resistance against Italian colonial occupation of Libya
+      for nearly twenty years, was captured and executed by
+      hanging at Solūq on 16 September 1931 CE (4 Rabīʿ al-
+      Awwal 1350 AH) at about age seventy-three. Born in the
+      town of Janzūr near Tobruk around 1277 AH (1861 CE), he
+      memorised the Qurʾān in childhood and studied at the
+      Sanūsī zāwiyas of Jaghbūb and Kufra before being
+      appointed shaykh of the al-Qardabiyya zāwiya. When
+      Italy invaded Libya in 1911 he took up arms, and for
+      two decades his band of horsemen harassed Italian
+      columns across the Cyrenaican desert, becoming a symbol
+      of Muslim resistance to European colonialism across the
+      Arab and African worlds. His final words before the
+      gallows — reported in Arabic and Italian sources alike —
+      were "We do not surrender, we win or we die."
+    description_ar: |
+      أُعدم شنقاً الشيخ السنوسي الليبي عمر المختار بن محمد
+      الخضراوي — قائد المقاومة المسلحة ضد الاحتلال
+      الإيطالي لليبيا قرابة عشرين عاماً — بسلوق يوم
+      ١٦ سبتمبر ١٩٣١ م (الموافق ٤ ربيع الأول سنة ١٣٥٠ هـ)
+      عن نحو ثلاث وسبعين سنة. وُلد ببلدة جنزور قرب طبرق
+      نحو سنة ١٢٧٧ هـ (١٨٦١ م)، وحفظ القرآن في الصغر
+      وتتلمذ في زوايا السنوسية بجغبوب والكفرة قبل أن
+      يُعين شيخاً لزاوية القرضابية. ولما غزت إيطاليا
+      ليبيا سنة ١٩١١ حمل السلاح، وطوال عقدين كان
+      فرسانه يضايقون الأعمدة الإيطالية في صحراء برقة،
+      فصار رمزاً للمقاومة الإسلامية ضد الاستعمار
+      الأوروبي في العالم العربي والأفريقي. وكانت كلماته
+      الأخيرة قبل المشنقة — كما وردت في المصادر
+      العربية والإيطالية على حد سواء — "لا نستسلم،
+      ننتصر أو نموت."
+    description_fr: |
+      ʿUmar al-Mukhtār ibn Muḥammad al-Khaḍrāwī, shaykh
+      sanūsī libyen et commandant de guérilla qui dirigea la
+      résistance armée contre l'occupation coloniale italienne
+      de la Libye pendant près de vingt ans, fut capturé et
+      exécuté par pendaison à Solūq le 16 septembre 1931 EC
+      (4 Rabīʿ al-Awwal 1350 H) à l'âge d'environ soixante-
+      treize ans. Né dans la ville de Janzūr près de Tobrouk
+      vers 1277 H (1861 EC), il mémorisa le Coran dans son
+      enfance et étudia dans les zāwiyas sanūsiyya de
+      Jaghbūb et Kufra avant d'être nommé shaykh de la
+      zāwiya al-Qardabiyya. Lorsque l'Italie envahit la
+      Libye en 1911, il prit les armes, et pendant deux
+      décennies sa troupe de cavaliers harcela les colonnes
+      italiennes à travers le désert de Cyrénaïque, devenant
+      un symbole de la résistance musulmane au colonialisme
+      européen dans les mondes arabe et africain. Ses
+      derniers mots avant la potence — rapportés dans les
+      sources arabes et italiennes — furent : « Nous ne nous
+      rendons pas, nous vainquons ou nous mourons. »
+    canonical_hijri: {year: 1350, month: 3, day: 4, precision: day}
+    canonical_gregorian: {date: 1931-09-16, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Umar al-Mukhtar' records his execution on 16 September 1931 CE at Suluq."
+    people: [[umar-al-mukhtar, died]]
+    tags: [modern, scholar, maliki, sufi, sanusiyya, libya, resistance, colonialism, martyr, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: single_source

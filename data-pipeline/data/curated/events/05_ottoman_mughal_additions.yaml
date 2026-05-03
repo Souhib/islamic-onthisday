@@ -1,0 +1,623 @@
+# Additional Ottoman and Mughal era events.
+# Sectarian framing follows the Sunni canon. Safavid encounters are framed
+# as state-vs-state events without partisan editorial colour.
+
+events:
+  - slug: death-of-mehmed-al-fatih
+    category: caliph_event
+    title_en: Death of Sultan Mehmed II al-Fatih
+    title_ar: وفاة السلطان محمد الفاتح
+    title_fr: Mort du sultan Mehmed II al-Fatih
+    description_en: |
+      The Conqueror of Constantinople died near Gebze in Anatolia at age 49,
+      reportedly at the start of a campaign whose destination he had kept
+      secret (later believed to have been the Italian peninsula). In his
+      thirty-year reign he had more than doubled Ottoman territory —
+      annexing the remaining Balkan principalities, Trebizond, the Crimean
+      Khanate, Albania, and the Karaman emirate. He is buried in the Fatih
+      Mosque complex in Istanbul, which he raised on the site of the
+      Byzantine Church of the Holy Apostles.
+    description_ar: |
+      توفي فاتح القسطنطينية السلطان محمد الثاني قرب مدينة غبزة في الأناضول
+      عن تسع وأربعين سنة، وذلك في مستهل حملة عسكرية كتم وجهتها (يُرجَّح أنها
+      كانت قاصدة إيطاليا). امتدّ حكمه ثلاثين سنة ضاعف فيها رقعة الدولة
+      العثمانية، فضمّ ما تبقى من إمارات البلقان وطرابزون وخانية القرم
+      وألبانيا وإمارة الكرامان. ودُفن في مجمّع جامع الفاتح بإسطنبول الذي
+      شيّده على موقع كنيسة الرسل القديسين البيزنطية.
+    description_fr: |
+      Le Conquérant de Constantinople mourut près de Gebze, en Anatolie, à
+      l'âge de quarante-neuf ans, alors qu'il entamait une campagne dont il
+      avait gardé la destination secrète (vraisemblablement l'Italie). En
+      trente ans de règne, il avait plus que doublé le territoire du
+      califat ottoman — annexant les dernières principautés balkaniques,
+      Trébizonde, le khanat de Crimée, l'Albanie et l'émirat de Karaman.
+      Il repose dans le complexe de la mosquée Fatih à Istanbul, qu'il
+      éleva sur l'emplacement de l'ancienne église byzantine des Saints-
+      Apôtres.
+    canonical_hijri: {year: 886, month: 3, day: 4, precision: day}
+    canonical_gregorian: {date: 1481-05-03, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[mehmed-ii, died]]
+    tags: [ottoman, sultan, istanbul, al-fatih]
+    source_url: https://en.wikipedia.org/wiki/Mehmed_II
+    verified: true
+    verification_status: single_source
+
+  - slug: battle-of-chaldiran
+    category: battle
+    title_en: Battle of Chaldiran — Selim I Defeats the Safavids
+    title_ar: معركة جالديران
+    title_fr: Bataille de Tchaldiran
+    description_en: |
+      Ottoman Sultan Selim I defeated the Safavid Shah Isma'il I at
+      Chaldiran in north-western Iran. Ottoman field artillery and
+      janissary firearms decisively overwhelmed the Safavid cavalry, which
+      went into battle without artillery of its own. The outcome fixed
+      the eastern frontier of Ottoman expansion in Anatolia, demonstrated
+      the supremacy of gunpowder warfare over traditional cavalry tactics,
+      and inaugurated two centuries of Ottoman–Safavid confrontation along
+      the borderlands of Mesopotamia and the Caucasus.
+    description_ar: |
+      انتصر السلطان العثماني سليم الأول على الشاه إسماعيل الصفوي في سهل
+      جالديران شمال غربي إيران. وكان لحدّة المدفعية الميدانية العثمانية
+      وأسلحة الإنكشارية النارية الأثر الحاسم في كسر الفرسان الصفويين الذين
+      خاضوا المعركة من دون مدفعية. ثبتت هذه المعركة الحدّ الشرقي للتوسّع
+      العثماني في الأناضول، وبيّنت تفوّق سلاح البارود على فنون الفروسية
+      التقليدية، وافتتحت قرنين من المواجهة العثمانية الصفوية على تخوم
+      الرافدين والقوقاز.
+    description_fr: |
+      Le sultan ottoman Selim I défit le chah safavide Ismaïl I dans la
+      plaine de Tchaldiran, au nord-ouest de la Perse. L'artillerie de
+      campagne ottomane et les armes à feu des janissaires écrasèrent la
+      cavalerie safavide, dépourvue de pièces d'artillerie. L'issue de la
+      bataille fixa la frontière orientale de l'expansion ottomane en
+      Anatolie, manifesta la suprématie de la guerre à poudre sur les
+      tactiques de cavalerie traditionnelles et inaugura deux siècles
+      d'affrontement ottomano-safavide aux confins de la Mésopotamie et
+      du Caucase.
+    canonical_hijri: {year: 920, month: 7, day: 2, precision: day}
+    canonical_gregorian: {date: 1514-08-23, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [ottoman, safavid, battle, selim, firearms]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Chaldiran
+    verified: true
+    verification_status: single_source
+
+  - slug: battle-of-marj-dabiq
+    category: battle
+    title_en: Battle of Marj Dabiq — Ottomans Defeat the Mamluks
+    title_ar: معركة مرج دابق
+    title_fr: Bataille de Marj Dabiq
+    description_en: |
+      Ottoman Sultan Selim I defeated the Mamluk Sultan Qansuh al-Ghawri
+      on the plain of Marj Dabiq north of Aleppo. The aged Mamluk sultan
+      collapsed and died on the field — classical accounts vary as to the
+      precise cause. The Ottoman victory, again decided largely by firearms
+      and field artillery, ended Mamluk rule in Syria and opened the road
+      to Egypt. Within four months Ottoman troops would enter Cairo and
+      the titular Abbasid caliphate of Cairo would pass to the Ottoman
+      sultans.
+    description_ar: |
+      انتصر السلطان العثماني سليم الأول على السلطان المملوكي قانصوه الغوري
+      في سهل مرج دابق شمال حلب. وسقط السلطان المملوكي المسنّ في أرض
+      المعركة وفارق الحياة، وتباينت روايات المؤرّخين في سبب وفاته. وكان
+      النصر العثماني — الذي حسمته الأسلحة النارية والمدفعية الميدانية —
+      إيذاناً بانتهاء الحكم المملوكي في الشام وفتح الطريق إلى مصر؛ فدخلت
+      الجيوش العثمانية القاهرة بعد أربعة أشهر، وانتقلت الخلافة العباسية
+      الاسمية من القاهرة إلى السلاطين العثمانيين.
+    description_fr: |
+      Le sultan ottoman Selim I défit le sultan mamelouk Qansuh al-Ghawri
+      dans la plaine de Marj Dabiq, au nord d'Alep. Le vieux sultan
+      mamelouk s'effondra et mourut sur le champ de bataille — les
+      chroniqueurs classiques divergent quant aux circonstances exactes
+      de son décès. La victoire ottomane, due une fois encore à la
+      supériorité des armes à feu et de l'artillerie, mit fin à la
+      domination mamelouke en Syrie et ouvrit la route de l'Égypte. Les
+      troupes ottomanes entrèrent au Caire quatre mois plus tard, et le
+      califat abbasside titulaire du Caire fut transmis aux sultans
+      ottomans.
+    canonical_hijri: {year: 922, month: 7, day: 25, precision: day}
+    canonical_gregorian: {date: 1516-08-24, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [ottoman, mamluk, battle, selim, aleppo]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Marj_Dabiq
+    verified: true
+    verification_status: single_source
+
+  - slug: battle-of-raydaniyya
+    category: conquest
+    title_en: Battle of Raydaniyya — Conquest of Egypt by Selim I
+    title_ar: معركة الريدانية
+    title_fr: Bataille de Raydaniyya — conquête de l'Égypte par Selim Ier
+    description_en: |
+      Ottoman Sultan Selim I defeated the last Mamluk sultan, Tuman Bay II,
+      at Raydaniyya north of Cairo. The subsequent entry of the Ottoman
+      army into Cairo ended two and a half centuries of Mamluk rule over
+      Egypt and transferred the titular Abbasid caliphate of Cairo to the
+      Ottoman sultans. With Cairo, the Ottomans took on the custodianship
+      of the Two Holy Sanctuaries of Makkah and Madinah, a role that
+      would shape Ottoman religious legitimacy for the following four
+      centuries.
+    description_ar: |
+      انتصر السلطان العثماني سليم الأول على آخر سلاطين المماليك طومان باي
+      الثاني في الريدانية شمال القاهرة. ثم دخل الجيش العثماني القاهرة
+      فأنهى قرنين ونصف القرن من الحكم المملوكي على مصر، وانتقلت الخلافة
+      العباسية الاسمية في القاهرة إلى السلاطين العثمانيين. وبدخول القاهرة
+      تولّى العثمانيون خدمة الحرمين الشريفين بمكة المكرّمة والمدينة
+      المنوّرة، وهي خدمة بقيت ركناً من أركان الشرعية الدينية للدولة
+      العثمانية على مدى أربعة قرون.
+    description_fr: |
+      Le sultan ottoman Selim I défit le dernier sultan mamelouk, Touman
+      Bay II, à Raydaniyya, au nord du Caire. L'entrée subséquente de
+      l'armée ottomane au Caire mit fin à deux siècles et demi de
+      domination mamelouke sur l'Égypte et transféra le califat abbasside
+      titulaire du Caire aux sultans ottomans. Avec le Caire, les
+      Ottomans assumèrent la garde des deux Lieux saints de La Mecque et
+      de Médine, charge qui devait fonder leur légitimité religieuse pour
+      les quatre siècles suivants.
+    canonical_hijri: {year: 923, month: 1, day: 29, precision: day}
+    canonical_gregorian: {date: 1517-01-22, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [ottoman, mamluk, conquest, egypt, cairo, caliphate-transfer]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Ridaniya
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-selim-i
+    category: caliph_event
+    title_en: Death of Sultan Selim I
+    title_ar: وفاة السلطان سليم الأول
+    title_fr: Mort du sultan Selim Ier
+    description_en: |
+      In eight years of rule Selim I (Yavuz, "the Stern") had tripled
+      Ottoman territory, defeating the Safavids, conquering the Mamluk
+      Sultanate, and assuming custody of Makkah and Madinah and the title
+      "Servant of the Two Sanctuaries" (Khadim al-Haramayn al-Sharifayn).
+      He died near Çorlu en route to a new campaign — possibly of an
+      infected carbuncle or of plague. His son Suleiman the Magnificent
+      inherited an empire transformed.
+    description_ar: |
+      في ثماني سنين من الحكم ضاعف السلطان سليم الأول (ياووز "العابس")
+      رقعة الدولة العثمانية ثلاث مرات؛ هزم الصفويين، وفتح دولة المماليك،
+      وتولّى خدمة مكة المكرّمة والمدينة المنوّرة، وحمل لقب "خادم الحرمين
+      الشريفين". وتوفي قرب جورلو وهو في طريقه إلى حملة جديدة، والأرجح أنه
+      هلك بداء جمرة متقيّحة أو طاعون. وورث ابنه سليمان القانوني دولةً قد
+      تبدّلت في صورتها.
+    description_fr: |
+      En huit années de règne, Selim I (Yavuz, « l'Inflexible ») avait
+      triplé le territoire du califat ottoman — défaisant les Safavides,
+      conquérant le sultanat mamelouk, assumant la garde de La Mecque et
+      de Médine, et endossant le titre de « Serviteur des deux Lieux
+      saints » (Khadim al-Haramayn al-Sharifayn). Il mourut près de
+      Çorlu, alors qu'il marchait vers une nouvelle campagne, des suites
+      d'un anthrax infecté ou d'une épidémie de peste. Son fils Soliman
+      le Magnifique hérita d'un empire transformé.
+    canonical_hijri: {year: 926, month: 10, day: 9, precision: day}
+    canonical_gregorian: {date: 1520-09-22, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "9 Shawwal 926 AH = 22 Sep 1520 CE per attested chronicles. Earlier draft erroneously gave Sha'ban; tabular conversion confirms Shawwal."
+    tags: [ottoman, sultan, selim, haramayn]
+    source_url: https://en.wikipedia.org/wiki/Selim_I
+    verified: true
+    verification_status: single_source
+
+  - slug: siege-of-vienna-1529
+    category: battle
+    title_en: First Siege of Vienna by Suleiman the Magnificent
+    title_ar: الحصار العثماني الأول لفيينا
+    title_fr: Premier siège de Vienne par Soliman le Magnifique
+    description_en: |
+      Sultan Suleiman I besieged Vienna with a reported army of around
+      one hundred and twenty thousand men, extending Ottoman power to
+      the deepest point it would reach in central Europe. Heavy autumn
+      rain bogged down the heavy artillery on the long march from
+      Istanbul, the besieging force lacked sufficient siege guns to
+      breach Vienna's walls, and the early onset of cold weather forced
+      a withdrawal after roughly three weeks of attacks. The siege
+      marked the high-water mark of Ottoman westward expansion until the
+      failed second siege of 1683.
+    description_ar: |
+      حاصر السلطان سليمان القانوني مدينة فيينا بجيش يُذكر أنه بلغ نحو
+      مئة وعشرين ألف مقاتل، فبلغت القوة العثمانية أبعد مدى وصلت إليه في
+      وسط أوروبا. غير أن الأمطار الخريفية الغزيرة أعاقت زحف المدفعية
+      الثقيلة في طريقها الطويل من إسطنبول، وافتقر الجيش المحاصر إلى
+      مدافع حصار كافية لاختراق أسوار المدينة، فاضطرّ مع حلول البرد إلى
+      الانسحاب بعد ثلاثة أسابيع من الهجمات. وكان هذا الحصار هو الذروة
+      الغربية للتوسّع العثماني، إلى أن فشل الحصار الثاني سنة 1683.
+    description_fr: |
+      Le sultan Soliman I assiégea Vienne avec une armée que les sources
+      évaluent à environ cent vingt mille hommes, portant la puissance
+      ottomane au point le plus avancé qu'elle atteignit en Europe
+      centrale. De fortes pluies d'automne entravèrent la marche de
+      l'artillerie lourde depuis Istanbul, l'armée assiégeante manquait
+      de pièces de siège suffisantes pour percer les murailles de Vienne,
+      et l'arrivée précoce du froid contraignit Soliman à lever le siège
+      au bout de trois semaines d'assauts. Cette campagne marqua l'apogée
+      de l'expansion ottomane vers l'ouest, jusqu'à l'échec du second
+      siège de 1683.
+    canonical_hijri: {year: 936, month: 4, day: 18, precision: day}
+    canonical_gregorian: {date: 1529-09-27, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Siege began 27 September 1529 (Wikipedia: 27 Sept – 15 Oct 1529). Hijri converted ~ 18 Rabi' al-Thani 936 AH."
+    people: [[suleiman-the-magnificent, leader]]
+    tags: [ottoman, battle, vienna, suleiman, europe]
+    source_url: https://en.wikipedia.org/wiki/Siege_of_Vienna_(1529)
+    verified: true
+    verification_status: single_source
+
+  - slug: battle-of-lepanto
+    category: battle
+    title_en: Battle of Lepanto
+    title_ar: معركة ليبانتو
+    title_fr: Bataille de Lépante
+    description_en: |
+      In the Gulf of Patras off western Greece, the Holy League fleet
+      (Spain, Venice, the Papal States, and several smaller allies) under
+      Don Juan of Austria decisively defeated the Ottoman fleet under
+      Müezzinzade Ali Pasha. It was the last major naval battle fought
+      primarily between galleys, and the first serious naval defeat the
+      Ottomans had suffered in the Mediterranean. The empire rebuilt
+      its fleet within a year, but the aura of Ottoman invincibility at
+      sea had been broken; Cervantes, who fought in the battle and lost
+      the use of his left hand, called it "the greatest occasion the
+      past or present ages have seen."
+    description_ar: |
+      في خليج باتراس قبالة غربي اليونان، انتصر أسطول العصبة المقدسة
+      (إسبانيا والبندقية والولايات البابوية وعدد من الحلفاء الصغار) بقيادة
+      دون خوان النمسوي انتصاراً حاسماً على الأسطول العثماني بقيادة
+      مؤذّن زاده علي باشا. وكانت آخر معركة بحرية كبرى تُخاض أساساً
+      بسفن المجاديف، وأوّل هزيمة بحرية كبرى للعثمانيين في المتوسّط.
+      أعادت الدولة بناء أسطولها في غضون عام، لكن هيبة العثمانيين على
+      البحار قد كُسرت. وقد وصفها سرفانتيس — الذي شارك في المعركة وفقد
+      فيها استعمال يده اليسرى — بأنها "أعظم مناسبة شهدتها العصور قديماً
+      وحديثاً".
+    description_fr: |
+      Dans le golfe de Patras, au large de la Grèce occidentale, la flotte
+      de la Sainte Ligue (Espagne, Venise, États pontificaux et plusieurs
+      alliés mineurs) commandée par Don Juan d'Autriche infligea une
+      défaite décisive à la flotte ottomane sous les ordres de
+      Müezzinzade Ali Pacha. Ce fut la dernière grande bataille navale
+      livrée principalement entre galères, et la première défaite
+      maritime sérieuse que subirent les Ottomans en Méditerranée.
+      L'empire reconstruisit sa flotte en moins d'un an, mais le prestige
+      d'invincibilité ottomane sur mer était brisé. Cervantès, qui prit
+      part au combat et y perdit l'usage de la main gauche, qualifia
+      Lépante de « la plus haute occasion qu'ont vue les siècles passés
+      et présents ».
+    canonical_hijri: {year: 979, month: 6, day: 17, precision: day}
+    canonical_gregorian: {date: 1571-10-07, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [ottoman, battle, naval, lepanto, greece]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Lepanto
+    verified: true
+    verification_status: single_source
+
+  - slug: second-siege-of-vienna-1683
+    category: battle
+    title_en: Second Siege of Vienna — The Turning Point
+    title_ar: حصار فيينا الثاني
+    title_fr: Second siège de Vienne — le tournant
+    description_en: |
+      Grand Vizier Kara Mustafa Pasha besieged Vienna with an army of
+      some hundred and fifty thousand. After two months the Ottoman
+      sappers had nearly broken through the city's defences, but a
+      relief army under the Polish king Jan III Sobieski — including
+      his famous winged hussars — arrived and routed the Ottomans at
+      the Battle of Kahlenberg on 12 September 1683. The failure of the
+      siege opened the long retreat of the Ottoman Empire from central
+      Europe, formalised in the Treaty of Karlowitz sixteen years later.
+      Kara Mustafa was executed on the sultan's orders the following
+      December.
+    description_ar: |
+      حاصر الصدر الأعظم قره مصطفى باشا فيينا بجيش يبلغ نحو مئة وخمسين
+      ألف مقاتل. وبعد شهرين كاد المهندسون العثمانيون أن يخترقوا تحصينات
+      المدينة، إلا أن جيش الإنقاذ بقيادة ملك بولندا يان الثالث سوبيسكي،
+      وفي صفوفه الفرسان البولنديون المجنّحون المشهورون، وصل ودحر
+      العثمانيين في معركة كاهلنبرغ في الثاني عشر من سبتمبر 1683م. كان
+      فشل هذا الحصار إيذاناً بطول التراجع العثماني عن وسط أوروبا، الذي
+      رُسّخ بمعاهدة كارلوفجة بعد ست عشرة سنة. وأُعدم قره مصطفى بأمر
+      السلطان في ديسمبر من العام نفسه.
+    description_fr: |
+      Le grand vizir Kara Mustafa Pacha assiégea Vienne avec une armée
+      d'environ cent cinquante mille hommes. Après deux mois, les sapeurs
+      ottomans étaient sur le point d'enfoncer les défenses de la ville
+      lorsqu'une armée de secours commandée par le roi de Pologne
+      Jean III Sobieski — comprenant ses fameux hussards ailés — arriva
+      et battit les Ottomans à la bataille de Kahlenberg, le 12 septembre
+      1683. L'échec du siège ouvrit le long repli du califat ottoman
+      hors de l'Europe centrale, scellé seize ans plus tard par le traité
+      de Karlowitz. Kara Mustafa fut exécuté en décembre suivant sur
+      ordre du sultan.
+    canonical_hijri: {year: 1094, month: 9, day: 20, precision: day}
+    canonical_gregorian: {date: 1683-09-12, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [ottoman, battle, vienna, europe, reversal]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Vienna
+    verified: true
+    verification_status: single_source
+
+  - slug: treaty-of-karlowitz
+    category: treaty
+    title_en: Treaty of Karlowitz
+    title_ar: معاهدة كارلوفجة
+    title_fr: Traité de Karlowitz
+    description_en: |
+      Signed between the Ottoman Empire and the Holy League (the Habsburg
+      Empire, Poland-Lithuania, Venice, and Russia) after years of
+      Ottoman defeats following the failed siege of Vienna. It was the
+      first treaty in which the Ottoman Empire ceded major territory
+      rather than receiving tribute — yielding Hungary and Transylvania
+      to the Habsburgs, most of Dalmatia and the Peloponnese to Venice,
+      and Podolia to Poland. Historians mark it as the formal beginning
+      of the imperial retreat of the Ottoman state from Europe.
+    description_ar: |
+      أُبرمت هذه المعاهدة بين الدولة العثمانية والعصبة المقدسة
+      (الإمبراطورية النمساوية وبولندا-ليتوانيا والبندقية وروسيا) بعد سنوات
+      من الهزائم العثمانية إثر فشل حصار فيينا. وكانت أوّل معاهدة تتنازل
+      فيها الدولة العثمانية عن مساحات شاسعة من أراضيها بدل أن تتلقّى
+      جزية، فسلّمت المجر وترانسلفانيا إلى آل هابسبورغ، ومعظم دالماسيا
+      والبيلوبونيز إلى البندقية، وبودولينيا إلى بولندا. ويعدّها المؤرّخون
+      بدايةً رسمية لتراجع الدولة العثمانية عن أوروبا.
+    description_fr: |
+      Signé entre le califat ottoman et la Sainte Ligue (l'Empire des
+      Habsbourg, la Pologne-Lituanie, Venise et la Russie) après plusieurs
+      années de défaites ottomanes consécutives à l'échec du siège de
+      Vienne. Ce fut le premier traité par lequel le califat ottoman cédait
+      de larges territoires au lieu d'en recevoir tribut — laissant la
+      Hongrie et la Transylvanie aux Habsbourg, la majeure partie de la
+      Dalmatie et du Péloponnèse à Venise, et la Podolie à la Pologne.
+      Les historiens le tiennent pour le commencement formel du repli
+      impérial ottoman hors d'Europe.
+    canonical_hijri: {year: 1110, month: 7, day: 24, precision: day}
+    canonical_gregorian: {date: 1699-01-26, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [ottoman, treaty, europe, retreat]
+    source_url: https://en.wikipedia.org/wiki/Treaty_of_Karlowitz
+    verified: true
+    verification_status: single_source
+
+  - slug: first-battle-of-panipat
+    category: battle
+    title_en: First Battle of Panipat — Babur Founds the Mughal Empire
+    title_ar: معركة بانيبات الأولى
+    title_fr: Première bataille de Pânipat — Bâbur fonde l'Empire moghol
+    description_en: |
+      Zahir al-Din Muhammad Babur, descendant of both Timur and Genghis
+      Khan, defeated the Lodi sultan of Delhi Ibrahim Lodi at Panipat
+      north of Delhi. Babur's decisive use of field artillery and the
+      tulghma envelopment tactic against a vastly larger Indian army
+      marked the introduction of gunpowder warfare to the Indian
+      subcontinent. The victory founded the Mughal dynasty, which would
+      rule India for over three centuries and become the wealthiest of
+      the early-modern Muslim states.
+    description_ar: |
+      هزم ظهير الدين محمد بابر — وهو من سلالة تيمور وجنكيز خان معاً —
+      السلطان إبراهيم لودي صاحب دلهي في بانيبات شمال دلهي. وكان لاستخدامه
+      الحاسم للمدفعية الميدانية وتكتيك التولغمة في مواجهة جيش هندي يفوقه
+      عدداً بكثير أثرٌ في إدخال حرب البارود إلى شبه القارة الهندية. وأسّس
+      هذا النصر الدولة المغولية الإسلامية في الهند، التي حكمت البلاد
+      أكثر من ثلاثة قرون، وأصبحت من أثرى الدول الإسلامية في العصور
+      الحديثة المبكّرة.
+    description_fr: |
+      Zahir al-Dîn Muhammad Bâbur, descendant à la fois de Tamerlan et
+      de Gengis Khan, défit le sultan Ibrâhîm Lôdî de Delhi à Pânipat,
+      au nord de Delhi. L'emploi décisif de l'artillerie de campagne et
+      de la manœuvre d'enveloppement dite tulghma face à une armée
+      indienne bien plus nombreuse marqua l'introduction de la guerre à
+      poudre dans le sous-continent indien. La victoire fonda la dynastie
+      moghole, qui devait régner sur l'Inde plus de trois siècles et
+      devenir l'un des États musulmans les plus riches de l'époque
+      moderne.
+    canonical_hijri: {year: 932, month: 7, day: 9, precision: day}
+    canonical_gregorian: {date: 1526-04-21, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [mughal, battle, india, babur, panipat, firearms]
+    source_url: https://en.wikipedia.org/wiki/First_Battle_of_Panipat
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-babur
+    category: caliph_event
+    title_en: Death of Emperor Babur
+    title_ar: وفاة الإمبراطور بابر
+    title_fr: Mort de l'empereur Bâbur
+    description_en: |
+      The founder of the Mughal Empire died at Agra at forty-seven, only
+      a few years after establishing his dynasty in India. His memoir —
+      the Bāburnāma, written in Chaghatai Turkish — is one of the great
+      autobiographies of the pre-modern world: candid, observational,
+      and rich in ethnographic detail. He had wished to be buried in his
+      beloved Kabul, and his body was moved there a few years after his
+      initial burial at Agra; his garden-tomb (Bagh-e Babur) remains in
+      the Afghan capital. The proleptic Gregorian date of his death is
+      5 January 1531, corresponding to 26 December 1530 in the Julian
+      calendar then in use.
+    description_ar: |
+      توفي مؤسّس الدولة المغولية الإسلامية في آغرا عن سبع وأربعين سنة،
+      بعد سنوات قليلة من تأسيس دولته في الهند. ومذكّراته المعروفة بـ
+      "بابرنامة" — وهي مكتوبة باللغة التركية الجغطائية — من أعظم السير
+      الذاتية في العالم قبل الحداثة، تجمع بين الصدق والملاحظة الدقيقة
+      والغنى الإثنوغرافي. كان قد أوصى أن يُدفن في كابل التي أحبّها،
+      فنُقل جثمانه إليها بعد سنوات من دفنه الأوّل في آغرا، ولا يزال
+      ضريحه في باغ بابر بعاصمة أفغانستان. ووفاته بحساب التقويم الميلادي
+      الاسترجاعي في 5 يناير 1531م، الموافق 26 ديسمبر 1530م بحسب التقويم
+      اليولياني المعمول به آنذاك.
+    description_fr: |
+      Le fondateur de l'Empire moghol mourut à Âgrâ à l'âge de
+      quarante-sept ans, quelques années seulement après avoir établi sa
+      dynastie en Inde. Son mémoire — le Bâburnâma, rédigé en turc
+      tchaghataï — figure parmi les grandes autobiographies du monde
+      pré-moderne : franc, observateur et riche en détails
+      ethnographiques. Bâbur souhaitait être inhumé dans sa chère Kaboul,
+      et son corps y fut transféré quelques années après une première
+      sépulture à Âgrâ ; son jardin-mausolée (Bâgh-e Bâbur) demeure dans
+      la capitale afghane. La date de sa mort dans le calendrier
+      grégorien proleptique est le 5 janvier 1531, correspondant au
+      26 décembre 1530 julien alors en vigueur.
+    canonical_hijri: {year: 937, month: 7, day: 6, precision: day}
+    canonical_gregorian: {date: 1531-01-05, precision: day, method: attested}
+    julian_date: {date: 1530-12-26, precision: day}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Wikipedia: '5 January [O.S. 26 December 1530] 1531'. Proleptic Gregorian per project convention is 5 Jan 1531; Julian 26 Dec 1530."
+    tags: [mughal, emperor, babur, agra, kabul]
+    source_url: https://en.wikipedia.org/wiki/Babur
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-akbar
+    category: caliph_event
+    title_en: Death of Emperor Akbar the Great
+    title_ar: وفاة الإمبراطور أكبر
+    title_fr: Mort de l'empereur Akbar le Grand
+    description_en: |
+      Jalal al-Din Muhammad Akbar, third Mughal emperor, died at
+      Fatehpur Sikri near Agra. His forty-nine-year reign expanded
+      Mughal territory to cover most of the Indian subcontinent,
+      consolidated the administrative and revenue systems that would
+      endure for two centuries, and pursued a religiously inclusive
+      court policy ("sulh-i kull") that remained controversial among
+      orthodox ulama. He was buried at Sikandra outside Agra in a tomb
+      designed during his own lifetime.
+    description_ar: |
+      توفي الإمبراطور المغولي الثالث جلال الدين محمد أكبر في فاتحبور
+      سيكري قرب آغرا. امتدّ حكمه تسعاً وأربعين سنة وسّع فيها رقعة
+      الإمبراطورية المغولية لتشمل معظم شبه القارة الهندية، ورسّخ النظم
+      الإدارية والمالية التي بقيت قرنين، وانتهج في بلاطه سياسة دينية
+      جامعة سُمّيت "صلح كل" بقيت موضع جدل بين العلماء. ودُفن في سيكاندرة
+      قرب آغرا في ضريح أُعدّ تصميمه في حياته.
+    description_fr: |
+      Jalâl al-Dîn Muhammad Akbar, troisième empereur moghol, mourut à
+      Fatehpur Sikri près d'Âgrâ. Ses quarante-neuf années de règne
+      étendirent le territoire moghol à la majeure partie du
+      sous-continent indien, consolidèrent les systèmes administratifs
+      et fiscaux qui devaient durer deux siècles, et instaurèrent à la
+      cour une politique religieuse inclusive (« sulh-i kull ») qui
+      demeura controversée parmi les oulémas orthodoxes. Il fut inhumé
+      à Sikandra, près d'Âgrâ, dans un mausolée dont il avait conçu les
+      plans de son vivant.
+    canonical_hijri: {year: 1014, month: 6, day: 13, precision: day}
+    canonical_gregorian: {date: 1605-10-27, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Britannica and Akbarnama-derived sources give 27 Oct 1605; some Wikipedia variants cite 26 Oct."
+    tags: [mughal, emperor, akbar, agra]
+    source_url: https://en.wikipedia.org/wiki/Akbar
+    verified: true
+    verification_status: single_source
+
+  - slug: taj-mahal-completion
+    category: founding
+    title_en: Completion of the Taj Mahal Mausoleum
+    title_ar: اكتمال بناء ضريح تاج محل
+    title_fr: Achèvement du mausolée du Taj Mahal
+    description_en: |
+      The central mausoleum of Emperor Shah Jahan's tomb for his wife
+      Mumtaz Mahal — begun in 1632 — was completed at Agra in 1648
+      after sixteen years of construction. The surrounding garden
+      complex (mosque, jawab, gateways, plinth) was finished some five
+      years later, around 1653. Designed under the architect Ustad
+      Ahmad Lahori, the monument is a masterpiece of Mughal Indo-
+      Islamic architecture and remains among the most recognisable
+      buildings in the world. Shah Jahan would later be buried beside
+      his wife in the central chamber.
+    description_ar: |
+      اكتمل بناء الضريح المركزي الذي شيّده الإمبراطور شاه جهان لزوجته
+      ممتاز محل في آغرا سنة 1648م، بعد ستّ عشرة سنة من العمل المتواصل
+      منذ بدء البناء سنة 1632م. أمّا المجمّع الحدائقي المحيط (المسجد
+      والجواب والبوّابات والمصطبة) فقد اكتمل بعد ذلك بنحو خمس سنين، أي
+      حوالى سنة 1653م. وأُنجز الصرح بإشراف المعمار أستاذ أحمد لاهوري،
+      وهو من روائع العمارة المغولية الهندية الإسلامية ومن أكثر مباني
+      العالم تميّزاً وشهرة. ثم دُفن شاه جهان لاحقاً إلى جوار زوجته في
+      الحجرة المركزية.
+    description_fr: |
+      Le mausolée central que l'empereur Shâh Jahân érigea à Âgrâ pour
+      son épouse Mumtâz Mahal — commencé en 1632 — fut achevé en 1648,
+      au terme de seize années de travaux. L'enceinte de jardins qui
+      l'entoure (mosquée, jawâb, portails, plate-forme) fut terminée
+      cinq ans plus tard, vers 1653. Conçu sous la direction de
+      l'architecte Ustâd Ahmad Lâhôrî, le monument est un chef-d'œuvre
+      de l'architecture indo-islamique moghole et compte parmi les
+      édifices les plus reconnaissables du monde. Shâh Jahân fut plus
+      tard inhumé auprès de son épouse dans la chambre centrale.
+    canonical_hijri: {year: 1058, precision: year}
+    canonical_gregorian: {date: 1648-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Per Wikipedia/UNESCO, mausoleum completed 1648; surrounding complex 1653. Earlier draft erroneously gave 1643 for the mausoleum."
+    tags: [mughal, architecture, agra, taj-mahal, shah-jahan]
+    source_url: https://en.wikipedia.org/wiki/Taj_Mahal
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-aurangzeb
+    category: caliph_event
+    title_en: Death of Emperor Aurangzeb
+    title_ar: وفاة الإمبراطور أورنكزيب
+    title_fr: Mort de l'empereur Aurangzeb
+    description_en: |
+      Muhi al-Din Muhammad Aurangzeb — titled Alamgir ("Seizer of the
+      World") — died at Bhingar near Ahmadnagar after a forty-nine-year
+      reign, the longest of any Mughal emperor. Under him the empire
+      reached its greatest territorial extent; his orthodox religious
+      policy and the great Hanafi juristic compilation known as al-
+      Fatawa al-Alamgiriyya reshaped the legal landscape of Muslim
+      India; and he personally copied two complete mushafs of the
+      Qur'an by hand. He requested burial in a simple open grave at
+      Khuldabad without dome or pavilion. His death is conventionally
+      taken as the start of the long Mughal decline.
+    description_ar: |
+      توفي الإمبراطور محيي الدين محمد أورنكزيب — الملقّب بعالمكير
+      "قابض العالم" — في بهنغار قرب أحمدنغر بعد تسع وأربعين سنة من
+      الحكم، وهي أطول فترة حكم لإمبراطور مغولي. وفي عهده بلغت الدولة
+      أقصى اتّساعها الجغرافي، وأعادت سياسته الدينية المتمسّكة بالمذهب
+      السني وكتابه الفقهي الحنفي الكبير "الفتاوى العالمكيرية" تشكيل
+      المنظومة الفقهية في الهند الإسلامية، ونسخ بيده الكريمة مصحفين
+      كاملين من القرآن الكريم. وأوصى بأن يُدفن في قبر مكشوف بسيط في
+      خلد آباد، من دون قبّة ولا فسقية. ويُعدّ موته تقليدياً بداية
+      الانحدار الطويل للدولة المغولية.
+    description_fr: |
+      Muhî al-Dîn Muhammad Aurangzeb — surnommé Alamgîr (« Conquérant
+      du monde ») — mourut à Bhingar, près d'Ahmadnagar, au terme d'un
+      règne de quarante-neuf années, le plus long de tous les empereurs
+      moghols. Sous son sceptre, l'empire atteignit sa plus grande
+      étendue territoriale ; sa politique religieuse orthodoxe et la
+      grande compilation juridique hanafite connue sous le nom d'al-
+      Fatâwâ al-'Âlamgîriyya remodelèrent le paysage juridique de
+      l'Inde musulmane ; et il copia de sa propre main deux mushafs
+      complets du Coran. Il demanda à être inhumé dans une tombe
+      simple, à ciel ouvert, à Khuldâbâd, sans dôme ni pavillon. Sa
+      mort est généralement considérée comme le commencement du long
+      déclin moghol.
+    canonical_hijri: {year: 1118, month: 12, day: 28, precision: day}
+    canonical_gregorian: {date: 1707-03-03, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [mughal, emperor, aurangzeb, fatawa-alamgiriyya]
+    source_url: https://en.wikipedia.org/wiki/Aurangzeb
+    verified: true
+    verification_status: single_source

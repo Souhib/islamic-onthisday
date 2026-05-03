@@ -1,0 +1,1061 @@
+# Wave 66 of curated event additions (2026-04-27).
+# 13 dated events of Fatimid political history (297-567 AH / 909-1171 CE).
+# Covers: deaths of the first three Fatimid caliphs (al-Mahdī, al-Qāʾim,
+# al-Manṣūr); the conquest of Egypt by Jawhar al-Ṣiqillī (358 AH);
+# deaths of al-Muʿizz, al-ʿAzīz, al-Ẓāhir, al-Mustanṣir; the disappearance
+# of al-Ḥākim; the Nizārī-Mustaʿlī schism (488 AH); the assassination of
+# al-Āmir; the abolition of the Fatimid khuṭba in Cairo by Saladin
+# (7 Muḥarram 567 AH); and the death of the last Fatimid caliph al-ʿĀḍid
+# (567 AH/1171). Editorial framing is Sunni-scope and factual: the
+# Fatimids were an Ismāʿīlī Shia caliphate whose political role in Egypt
+# is shared Islamic heritage. The dynasty's claim to ʿAlid descent through
+# Ismāʿīl ibn Jaʿfar is contested in Sunni heresiography (al-Maqrīzī
+# preserves both the Fatimid and the Sunni-rejectionist positions);
+# accordingly all Fatimid caliphs in this file carry is_ahl_al_bayt: false.
+# Saladin's restoration of the Sunni Abbasid khuṭba in Cairo is reported
+# as historical fact. Al-Ḥākim's disappearance is reported factually
+# without Druze-doctrinal framing. All events attested in classical Sunni
+# sources (Ibn al-Athīr al-Kāmil, Ibn Kathīr al-Bidāya wa-l-Nihāya, al-
+# Dhahabī Tārīkh al-Islām, Ibn Khallikān Wafayāt al-Aʿyān, Ibn al-ʿImād
+# Shadharāt al-Dhahab). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # FOUNDING-ERA CALIPHS (IFRĪQIYA, 297-341 AH)
+  # =========================================================================
+
+  - slug: death-of-al-mahdi-ubayd-allah-fatimid
+    category: ruler_death
+    title_en: Death of al-Mahdī ʿUbayd Allāh — First Fatimid Caliph
+    title_ar: وفاة المهدي عبيد الله — أول الخلفاء الفاطميين
+    title_fr: Mort d'al-Mahdī ʿUbayd Allāh — premier calife fātimide
+    description_en: |
+      Saʿīd ibn al-Ḥusayn, who took the regnal title al-Mahdī
+      bi-Allāh on his proclamation as caliph at Raqqāda in
+      Ifrīqiya in 297 AH, died at his new capital al-Mahdiyya
+      on the Tunisian coast at age about 63. His twenty-five-
+      year reign founded the Fatimid caliphate as a third
+      universal Islamic claim against the Sunni Abbasids of
+      Baghdad and the Sunni Umayyads of Cordoba: he had emerged
+      from concealment in Salamiyya in northern Syria, fled
+      across North Africa with his agent Abū ʿAbd Allāh al-Shīʿī,
+      defeated the Aghlabid emirs of Qayrawān, and built the
+      fortified port of al-Mahdiyya as a maritime capital. His
+      genealogical claim — descent from ʿAlī ibn Abī Ṭālib
+      through Ismāʿīl ibn Jaʿfar — was contested by Abbasid
+      jurists in a famous repudiation circulated under caliph
+      al-Qādir; classical Sunni heresiography (Ibn al-Athīr,
+      Ibn Khallikān, Ibn Kathīr) generally followed the
+      rejectionist view, while preserving the Fatimid self-
+      narrative. He was succeeded by his son al-Qāʾim.
+    description_ar: |
+      توفي سعيد بن الحسين الذي تلقّب بـ«المهدي بالله» يوم
+      مبايعته بالخلافة في «رَقّادة» بإفريقية سنة ٢٩٧ هـ —
+      عاصمته الجديدة «المهدية» على ساحل تونس عن نحو ثلاث
+      وستين سنة. وأسّس عهده الذي امتدّ خمساً وعشرين سنة
+      الخلافةَ الفاطمية دعوى عالمية ثالثة في مقابل الخلافة
+      العباسية السنّية ببغداد والخلافة الأموية السنّية
+      بقرطبة: خرج من سترته في «سَلَمية» بشمال الشام،
+      وفرّ عبر شمال أفريقيا مع داعيه أبي عبد الله الشيعي،
+      وأطاح بأمراء الأغالبة في القيروان، وبنى ميناء
+      «المهدية» المحصّن عاصمةً بحرية. وقد طعن الفقهاء
+      العباسيون في دعواه النسبية — وهي الانتساب إلى علي بن
+      أبي طالب عبر إسماعيل بن جعفر — في «المحضر القادري»
+      المشهور الذي صدر في عهد الخليفة القادر؛ ومالت كتب
+      المقالات السنّية الكلاسيكية (ابن الأثير وابن خلكان
+      وابن كثير) إلى ردّ النسب مع نقل الرواية الفاطمية
+      ذاتها. وخلفه ابنه القائم.
+    description_fr: |
+      Saʿīd ibn al-Ḥusayn, qui prit le titre régnal d'al-Mahdī
+      bi-Allāh lors de sa proclamation comme calife à Raqqāda
+      en Ifrīqiya en 297 H, mourut dans sa nouvelle capitale
+      al-Mahdiyya, sur la côte tunisienne, vers soixante-trois
+      ans. Son règne de vingt-cinq ans fonda le califat
+      fātimide comme troisième prétention islamique universelle
+      face au califat sunnite abbasside de Baghdād et au
+      califat sunnite umayyade de Cordoue : sorti de la
+      dissimulation à Salamiyya, en Syrie du Nord, il franchit
+      l'Afrique du Nord avec son dāʿī Abū ʿAbd Allāh al-Shīʿī,
+      renversa les émirs aghlabides de Qayrawān et bâtit le
+      port fortifié d'al-Mahdiyya comme capitale maritime. Sa
+      revendication généalogique — descendance d'ʿAlī ibn Abī
+      Ṭālib par Ismāʿīl ibn Jaʿfar — fut contestée par les
+      juristes abbassides dans la fameuse répudiation circulée
+      sous le calife al-Qādir; l'hérésiographie sunnite
+      classique (Ibn al-Athīr, Ibn Khallikān, Ibn Kathīr) suivit
+      en général la position négationniste tout en conservant
+      le récit fātimide lui-même. Lui succéda son fils al-Qāʾim.
+    canonical_hijri: {year: 322, month: 3, precision: month}
+    canonical_gregorian: {date: 934-03-04, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Mahdī ʿUbayd Allāh in Rabīʿ al-Awwal 322 AH; classical sources differ within that month on the day."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya places his death under 322 AH and discusses the contested genealogy."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the death of al-Mahdī under 322 AH."
+    people: [[ubayd-allah-al-mahdi, died]]
+    tags: [fatimid, caliph, ifriqiya, mahdiyya, ismaili]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-qaim-fatimid
+    category: ruler_death
+    title_en: Death of al-Qāʾim bi-Amr Allāh — Second Fatimid Caliph
+    title_ar: وفاة القائم بأمر الله — ثاني الخلفاء الفاطميين
+    title_fr: Mort d'al-Qāʾim bi-Amr Allāh — deuxième calife fātimide
+    description_en: |
+      Abū al-Qāsim Muḥammad al-Qāʾim bi-Amr Allāh, second
+      Fatimid caliph and son of al-Mahdī ʿUbayd Allāh, died at
+      al-Mahdiyya during the prolonged Khārijī revolt of Abū
+      Yazīd Makhlad ibn Kaydād — known as ṣāḥib al-ḥimār ("the
+      man on the donkey") — that had besieged the Fatimid
+      capital itself. His twelve-year reign saw the consolidation
+      of Fatimid administrative institutions in Ifrīqiya, an
+      abortive maritime expedition against Egypt, and the
+      Khārijī insurgency that very nearly destroyed the
+      dynasty before its outward expansion. Classical Sunni
+      historians treat the war against Abū Yazīd as one of the
+      most violent episodes of tenth-century North African
+      history; al-Qāʾim's death during the siege was concealed
+      by his son and successor al-Manṣūr until the rebellion
+      had been broken. He was succeeded by al-Manṣūr bi-Naṣr
+      Allāh.
+    description_ar: |
+      توفي أبو القاسم محمد «القائم بأمر الله» — ثاني الخلفاء
+      الفاطميين وابن المهدي عبيد الله — بالمهدية في خضمّ
+      ثورة الخارجي أبي يزيد مَخْلَد بن كَيْداد المعروف
+      بـ«صاحب الحمار» التي حاصرت العاصمة الفاطمية ذاتها.
+      وشهد عهده الذي امتدّ اثنتي عشرة سنة استحكام مؤسسات
+      الدولة الفاطمية الإدارية بإفريقية، وحملة بحرية مخفقة
+      على مصر، وفتنة الخوارج التي كادت تطيح بالدولة قبل
+      توسعها الخارجي. ويعدّ المؤرخون الكلاسيكيون من أهل
+      السنة حربَ أبي يزيد من أعنف فصول تاريخ شمال أفريقيا
+      في القرن الرابع الهجري؛ وكتم ابنُه وخلفه المنصور
+      وفاةَ القائم أثناء الحصار حتى انكسرت الفتنة. وخلفه
+      المنصور بنصر الله.
+    description_fr: |
+      Abū al-Qāsim Muḥammad al-Qāʾim bi-Amr Allāh, deuxième
+      calife fātimide et fils d'al-Mahdī ʿUbayd Allāh, mourut
+      à al-Mahdiyya en pleine révolte kharijite prolongée
+      d'Abū Yazīd Makhlad ibn Kaydād — surnommé ṣāḥib al-ḥimār
+      (« l'homme à l'âne ») — qui avait assiégé la capitale
+      fātimide même. Son règne de douze ans vit la consolidation
+      des institutions administratives fātimides en Ifrīqiya,
+      une expédition maritime avortée contre l'Égypte, et
+      l'insurrection kharijite qui faillit anéantir la
+      dynastie avant son expansion extérieure. Les historiens
+      sunnites classiques tiennent la guerre contre Abū Yazīd
+      pour l'un des épisodes les plus violents de l'histoire
+      nord-africaine du IVᵉ siècle hégirien; la mort d'al-Qāʾim
+      pendant le siège fut cachée par son fils et successeur
+      al-Manṣūr jusqu'à ce que la révolte fût brisée. Lui
+      succéda al-Manṣūr bi-Naṣr Allāh.
+    canonical_hijri: {year: 334, month: 10, day: 13, precision: day}
+    canonical_gregorian: {date: 946-05-23, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Qāʾim under Shawwāl 334 AH and notes its concealment until the defeat of Abū Yazīd."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 334 AH for al-Qāʾim's death and the war with Abū Yazīd."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records his death under 334 AH."
+    people: [[al-qaim-fatimid, died]]
+    tags: [fatimid, caliph, ifriqiya, mahdiyya, kharijite]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-mansur-fatimid
+    category: ruler_death
+    title_en: Death of al-Manṣūr bi-Naṣr Allāh — Third Fatimid Caliph
+    title_ar: وفاة المنصور بنصر الله — ثالث الخلفاء الفاطميين
+    title_fr: Mort d'al-Manṣūr bi-Naṣr Allāh — troisième calife fātimide
+    description_en: |
+      Abū al-Ṭāhir Ismāʿīl al-Manṣūr bi-Naṣr Allāh, third
+      Fatimid caliph, died at his new capital al-Manṣūriyya
+      near Qayrawān at age about 39, after a brief seven-year
+      reign. He had assumed the caliphate during the siege of
+      al-Mahdiyya by the Khārijī rebel Abū Yazīd, kept his
+      father al-Qāʾim's death secret, and personally led the
+      counter-offensive that broke the rebellion in 336 AH —
+      pursuing Abū Yazīd into the Aurès mountains until his
+      capture and execution. The new royal city of al-
+      Manṣūriyya, built on the site of the decisive battle,
+      took its name from his caliphal title. His son and
+      successor al-Muʿizz li-Dīn Allāh would within fifteen
+      years move the Fatimid capital from Ifrīqiya to Egypt
+      after the conquest of 358 AH. Classical sources praise
+      al-Manṣūr's military skill while noting the brevity of
+      his reign.
+    description_ar: |
+      توفي أبو الطاهر إسماعيل «المنصور بنصر الله» — ثالث
+      الخلفاء الفاطميين — بعاصمته الجديدة «المنصورية» قرب
+      القيروان عن نحو تسع وثلاثين سنة، بعد عهد قصير دام
+      سبع سنين. تولّى الخلافة في أثناء حصار الخارجي أبي
+      يزيد للمهدية، وكتم وفاة أبيه القائم، وقاد بنفسه
+      الحملة المضادة التي كسرت الفتنة سنة ٣٣٦ هـ — ولاحق
+      أبا يزيد إلى جبال الأوراس حتى أُسر وقُتل. وأخذت
+      المدينة الملكية الجديدة «المنصورية» التي بُنيت على
+      موضع المعركة الحاسمة اسمَها من لقبه الخلافي. وكان
+      ابنه وخلفه «المعز لدين الله» سينقل خلال خمس عشرة
+      سنة عاصمةَ الفاطميين من إفريقية إلى مصر بعد فتحها
+      سنة ٣٥٨ هـ. ويثني المؤرخون الكلاسيكيون على بأسه
+      العسكري مع التنبيه على قصر مدّته.
+    description_fr: |
+      Abū al-Ṭāhir Ismāʿīl al-Manṣūr bi-Naṣr Allāh, troisième
+      calife fātimide, mourut dans sa nouvelle capitale
+      al-Manṣūriyya, près de Qayrawān, vers trente-neuf ans,
+      après un bref règne de sept ans. Il avait pris le
+      califat pendant le siège d'al-Mahdiyya par le rebelle
+      kharijite Abū Yazīd, tenu secrète la mort de son père
+      al-Qāʾim et conduit personnellement la contre-offensive
+      qui brisa la révolte en 336 H — poursuivant Abū Yazīd
+      dans les Aurès jusqu'à sa capture et son exécution. La
+      nouvelle ville royale d'al-Manṣūriyya, bâtie sur le
+      site de la bataille décisive, tira son nom de son
+      titre califal. Son fils et successeur al-Muʿizz li-Dīn
+      Allāh transférerait en moins de quinze ans la capitale
+      fātimide d'Ifrīqiya en Égypte, après la conquête de 358 H.
+      Les sources classiques louent son habileté militaire
+      tout en relevant la brièveté de son règne.
+    canonical_hijri: {year: 341, month: 10, precision: month}
+    canonical_gregorian: {date: 953-03-23, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Manṣūr under Shawwāl 341 AH at al-Manṣūriyya."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 341 AH for al-Manṣūr's death."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the death of al-Manṣūr under 341 AH."
+    people: [[al-mansur-fatimid, died]]
+    tags: [fatimid, caliph, ifriqiya, mansuriyya, qayrawan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # CONQUEST OF EGYPT AND TRANSLATIO IMPERII (358 AH)
+  # =========================================================================
+
+  - slug: jawhar-conquers-egypt
+    category: conquest
+    title_en: Conquest of Egypt by Jawhar al-Ṣiqillī
+    title_ar: فتح جوهر الصقلي مصر
+    title_fr: Conquête de l'Égypte par Jawhar al-Ṣiqillī
+    description_en: |
+      Jawhar ibn ʿAbd Allāh al-Ṣiqillī, freedman commander of
+      the Fatimid armies under caliph al-Muʿizz li-Dīn Allāh,
+      entered Fusṭāṭ at the head of an army of approximately
+      one hundred thousand North African and Kutāma Berber
+      troops, ending the Ikhshīdid amirate and bringing Egypt
+      into the Fatimid caliphate. The campaign — long planned
+      under al-Muʿizz and his vizier Yaʿqūb ibn Killis — had
+      crossed nearly two thousand miles from the Maghreb,
+      negotiated a peaceful surrender with the Ikhshīdid
+      vizier Abū al-Faḍl Jaʿfar ibn al-Furāt, and entered
+      Fusṭāṭ without a major battle. Jawhar's *amān* (safe-
+      conduct) protected the Sunni populace and confirmed the
+      *ahl al-dhimma* in their existing rights, but altered
+      the ʿAbbāsid khuṭba of the city to name al-Muʿizz
+      al-Faṭimid as caliph, signalling the formal *translatio
+      imperii* from Sunni to Fatimid sovereignty. Within weeks
+      Jawhar would lay out the foundations of a new royal
+      city, al-Qāhira, north of Fusṭāṭ; al-Azhar's foundation
+      followed the next year. Classical sources (Ibn al-Athīr,
+      al-Dhahabī, Ibn Kathīr) treat the conquest as one of the
+      decisive political turning-points of the fourth Hijri
+      century.
+    description_ar: |
+      دخل جوهر بن عبد الله الصقلي — مولى المعز لدين الله
+      وقائد جيوش الدولة الفاطمية — مدينة «الفسطاط» على رأس
+      جيش يقارب مائة ألف مقاتل من البربر الكتاميين وأهل شمال
+      أفريقيا، فأنهى دخوله إمارةَ الإخشيديين، وأدخل مصر في
+      الخلافة الفاطمية. وكانت الحملة — المعدّة من قبل في
+      عهد المعز ووزيره يعقوب بن كِلِّس — قد قطعت قرابة
+      الألفي ميل من المغرب، وتفاوضت على استسلام سلمي مع
+      وزير الإخشيديين أبي الفضل جعفر بن الفرات، ودخلت
+      الفسطاط دون قتال كبير. وحفظ الأمان الذي أصدره جوهر
+      دماء أهل السنة وحقوقهم، وثبّت أهل الذمّة على ما
+      كانوا عليه، غير أنه غيّر خطبة المدينة العباسية
+      فجعلها للمعز الفاطمي خليفةً، إعلاناً برسوّ السلطة
+      من الشرعية السنّية إلى الشرعية الفاطمية. وفي
+      أسابيع وضع جوهر أساس مدينة ملكية جديدة شمال
+      الفسطاط هي «القاهرة»، وتلاها في العام التالي
+      تأسيس «الأزهر». ويصف المؤرخون الكلاسيكيون (ابن
+      الأثير والذهبي وابن كثير) هذه الفتحَ من أعظم
+      المنعطفات السياسية في القرن الرابع الهجري.
+    description_fr: |
+      Jawhar ibn ʿAbd Allāh al-Ṣiqillī, affranchi commandant
+      les armées fātimides sous le calife al-Muʿizz li-Dīn
+      Allāh, entra à Fusṭāṭ à la tête d'une armée d'environ
+      cent mille hommes — Berbères Kutāma et Maghrébins —,
+      mettant fin à l'émirat ikhshīdide et faisant entrer
+      l'Égypte dans le califat fātimide. Préparée de longue
+      date par al-Muʿizz et son vizir Yaʿqūb ibn Killis, la
+      campagne avait franchi près de trois mille kilomètres
+      depuis le Maghreb, négocié une reddition pacifique
+      avec le vizir ikhshīdide Abū al-Faḍl Jaʿfar ibn al-Furāt
+      et pénétré dans Fusṭāṭ sans bataille majeure. L'*amān*
+      (sauf-conduit) délivré par Jawhar protégea la population
+      sunnite et confirma les *ahl al-dhimma* dans leurs
+      droits existants, mais modifia la khuṭba ʿabbāsside de
+      la ville pour y proclamer al-Muʿizz le Fātimide comme
+      calife, signalant le *translatio imperii* formel de la
+      souveraineté sunnite à la souveraineté fātimide. En
+      quelques semaines Jawhar tracerait les fondations d'une
+      nouvelle ville royale, al-Qāhira, au nord de Fusṭāṭ;
+      la fondation d'al-Azhar suivrait l'année suivante. Les
+      sources classiques (Ibn al-Athīr, al-Dhahabī, Ibn Kathīr)
+      tiennent la conquête pour l'un des tournants politiques
+      décisifs du IVᵉ siècle hégirien.
+    canonical_hijri: {year: 358, month: 8, day: 17, precision: day}
+    canonical_gregorian: {date: 969-07-11, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil dates Jawhar's entry into Fusṭāṭ to Shaʿbān 358 AH and quotes the text of his amān."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the conquest of Egypt under 358 AH and describes the change of khuṭba."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 358 AH for the Fatimid takeover of Egypt and the entry of Jawhar."
+    people: [[jawhar-al-siqilli, leader], [al-muizz-li-din-allah, leader]]
+    tags: [fatimid, conquest, egypt, fustat, jawhar, ikhshidid]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # FATIMID HIGH NOON IN EGYPT (365-487 AH)
+  # =========================================================================
+
+  - slug: death-of-al-muizz-li-din-allah
+    category: ruler_death
+    title_en: Death of al-Muʿizz li-Dīn Allāh — Founder of Fatimid Egypt
+    title_ar: وفاة المعز لدين الله — مؤسس الدولة الفاطمية بمصر
+    title_fr: Mort d'al-Muʿizz li-Dīn Allāh — fondateur de l'Égypte fātimide
+    description_en: |
+      Abū Tamīm Maʿadd al-Muʿizz li-Dīn Allāh, fourth Fatimid
+      caliph, died at Cairo at age about 45, three years after
+      moving the Fatimid capital from al-Manṣūriyya in
+      Ifrīqiya to the new royal city built by Jawhar al-
+      Ṣiqillī north of Fusṭāṭ. His twenty-three-year reign
+      represents the apex of Fatimid expansion: the conquest
+      of Egypt by Jawhar in 358 AH, the foundation of al-
+      Qāhira, the establishment of al-Azhar (mosque-college
+      from 361 AH), the first khuṭba in the new Fatimid
+      capital naming him as caliph (362 AH), and the assertion
+      of Fatimid claims as far as Mecca and Medina, where the
+      khuṭba was changed in his name. He was succeeded by his
+      son al-ʿAzīz bi-Allāh. Classical Sunni historians treat
+      him as the most consequential of the Fatimid caliphs
+      after the founder al-Mahdī; al-Maqrīzī's *al-Khiṭaṭ*
+      preserves a detailed eyewitness account of the
+      ceremonial transfer of the dynasty's coffers from
+      al-Manṣūriyya to Cairo.
+    description_ar: |
+      توفي أبو تميم معدّ «المعز لدين الله» — رابع الخلفاء
+      الفاطميين — بالقاهرة عن نحو خمس وأربعين سنة، بعد
+      ثلاث سنين من نقل عاصمة الفاطميين من «المنصورية»
+      بإفريقية إلى المدينة الملكية الجديدة التي بناها
+      جوهر الصقلي شمالي الفسطاط. ويمثّل عهده الذي امتدّ
+      ثلاثاً وعشرين سنة ذروةَ التوسع الفاطمي: فتح مصر
+      على يد جوهر سنة ٣٥٨ هـ، وتأسيس «القاهرة»، وإقامة
+      «الأزهر» جامعاً ومدرسة منذ ٣٦١ هـ، وأول خطبة في
+      العاصمة الفاطمية الجديدة باسمه خليفةً (٣٦٢ هـ)،
+      وامتداد الدعوة الفاطمية إلى الحرمين الشريفين حيث
+      غُيّرت الخطبة باسمه. وخلفه ابنه «العزيز بالله».
+      ويعدّه المؤرخون الكلاسيكيون من أهل السنة أعظم
+      الخلفاء الفاطميين بعد المؤسس المهدي؛ ويحفظ
+      «الخِطط» للمقريزي رواية شاهد عيان مفصّلة عن نقل
+      الموكب الخلافي وخزائن الدولة من المنصورية إلى
+      القاهرة.
+    description_fr: |
+      Abū Tamīm Maʿadd al-Muʿizz li-Dīn Allāh, quatrième
+      calife fātimide, mourut au Caire vers quarante-cinq
+      ans, trois ans après avoir transféré la capitale
+      fātimide d'al-Manṣūriyya, en Ifrīqiya, vers la
+      nouvelle ville royale bâtie par Jawhar al-Ṣiqillī
+      au nord de Fusṭāṭ. Son règne de vingt-trois ans
+      représente l'apogée de l'expansion fātimide : la
+      conquête de l'Égypte par Jawhar en 358 H, la
+      fondation d'al-Qāhira, l'établissement d'al-Azhar
+      comme mosquée-collège dès 361 H, la première khuṭba
+      dans la nouvelle capitale fātimide en son nom (362 H),
+      et l'extension des prétentions fātimides jusqu'à La
+      Mecque et Médine, où la khuṭba fut modifiée à son nom.
+      Lui succéda son fils al-ʿAzīz bi-Allāh. Les historiens
+      sunnites classiques le tiennent pour le plus
+      déterminant des califes fātimides après le fondateur
+      al-Mahdī; les *Khiṭaṭ* d'al-Maqrīzī conservent un
+      récit de témoin oculaire détaillé du transfert
+      cérémoniel des coffres dynastiques d'al-Manṣūriyya
+      au Caire.
+    canonical_hijri: {year: 365, month: 4, day: 16, precision: day}
+    canonical_gregorian: {date: 975-12-28, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Muʿizz under Rabīʿ al-Ākhir 365 AH at Cairo."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 365 AH for al-Muʿizz's death and describes the transfer of capital."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the death under 365 AH."
+    people: [[al-muizz-li-din-allah, died]]
+    tags: [fatimid, caliph, egypt, cairo, al-azhar, ismaili]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-aziz-fatimid
+    category: ruler_death
+    title_en: Death of al-ʿAzīz bi-Allāh — Fifth Fatimid Caliph
+    title_ar: وفاة العزيز بالله — خامس الخلفاء الفاطميين
+    title_fr: Mort d'al-ʿAzīz bi-Allāh — cinquième calife fātimide
+    description_en: |
+      Abū Manṣūr Nizār al-ʿAzīz bi-Allāh, fifth Fatimid
+      caliph and son of al-Muʿizz, died at Bilbays in the
+      Nile Delta at age about 41 while preparing a campaign
+      into Syria against the resurgent Hamdānid amirs and
+      Byzantine pressure on Aleppo. His twenty-one-year
+      reign was the high point of Fatimid Egypt: military
+      consolidation in Syria up to the gates of Aleppo and
+      Damascus, naval expansion in the Mediterranean,
+      religious tolerance toward the substantial Sunni
+      majority of Egypt and the Christian and Jewish
+      communities — his Christian vizier ʿĪsā ibn Nasṭūrus
+      and Jewish notables held high office — and the
+      flourishing of al-Azhar as a centre of Ismāʿīlī
+      learning. Classical sources note his moderation,
+      contrasting it sharply with the troubled reign of his
+      son and successor al-Ḥākim. He was buried at the
+      Fatimid mausoleum (*Turbat al-Zaʿfarān*) in Cairo.
+    description_ar: |
+      توفي أبو منصور نزار «العزيز بالله» — خامس الخلفاء
+      الفاطميين وابن المعز — في «بِلبَيس» بدلتا النيل عن
+      نحو إحدى وأربعين سنة، وهو يستعدّ لحملة على الشام
+      ضدّ بقايا الحمدانيين والضغط البيزنطي على حلب.
+      وكان عهده الذي امتدّ إحدى وعشرين سنة ذروةَ الدولة
+      الفاطمية بمصر: ضبط الشام حتى أبواب حلب ودمشق،
+      وتوسعاً بحرياً في المتوسط، وتسامحاً دينياً مع
+      الأكثرية السنّية بمصر والمجتمعات المسيحية واليهودية
+      — كان وزيره النصراني عيسى بن نَسْطورَس وسائر
+      الوجهاء اليهود يتولّون كبار المناصب — وازدهار
+      الأزهر مركزاً للعلم الإسماعيلي. ويذكر المؤرخون
+      الكلاسيكيون اعتداله مقابلاً عهد ابنه وخلفه الحاكم
+      المضطرب. ودفن في «تربة الزعفران» مدفن الفاطميين
+      بالقاهرة.
+    description_fr: |
+      Abū Manṣūr Nizār al-ʿAzīz bi-Allāh, cinquième calife
+      fātimide et fils d'al-Muʿizz, mourut à Bilbays, dans
+      le delta du Nil, vers quarante et un ans, alors qu'il
+      préparait une campagne en Syrie contre les émirs
+      hamdānides résurgents et la pression byzantine sur
+      Alep. Son règne de vingt et un ans fut l'apogée de
+      l'Égypte fātimide : consolidation militaire en Syrie
+      jusqu'aux portes d'Alep et de Damas, expansion navale
+      en Méditerranée, tolérance religieuse envers la
+      majorité sunnite d'Égypte et envers les communautés
+      chrétienne et juive — son vizir chrétien ʿĪsā ibn
+      Nasṭūrus et plusieurs notables juifs occupaient de
+      hautes fonctions — et essor d'al-Azhar comme centre
+      de savoir ismaʿilien. Les sources classiques notent
+      sa modération, qu'elles opposent au règne troublé de
+      son fils et successeur al-Ḥākim. Il fut enterré au
+      mausolée fātimide (*Turbat al-Zaʿfarān*) du Caire.
+    canonical_hijri: {year: 386, month: 9, day: 28, precision: day}
+    canonical_gregorian: {date: 996-10-19, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-ʿAzīz at Bilbays in Ramaḍān 386 AH while preparing the Syrian campaign."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 386 AH for al-ʿAzīz's death."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the obituary under 386 AH."
+    people: [[al-aziz-fatimid, died]]
+    tags: [fatimid, caliph, egypt, cairo, syria]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: disappearance-of-al-hakim-fatimid
+    category: ruler_death
+    title_en: Disappearance of al-Ḥākim bi-Amr Allāh
+    title_ar: اختفاء الحاكم بأمر الله
+    title_fr: Disparition d'al-Ḥākim bi-Amr Allāh
+    description_en: |
+      Abū ʿAlī al-Manṣūr al-Ḥākim bi-Amr Allāh, sixth Fatimid
+      caliph, vanished without trace during one of his
+      customary nocturnal rides on the Muqaṭṭam hills outside
+      Cairo. He was about 36 years old and had reigned for
+      twenty-five years. His donkey was found bloodstained
+      and his garments slashed; his body was never recovered.
+      Classical sources report widespread rumours of
+      assassination at the instigation of his sister Sitt al-
+      Mulk, who immediately assumed the regency for his
+      successor al-Ẓāhir, but admit that no certainty was
+      ever achieved. His reign had been marked by
+      extraordinary measures — the destruction of the Church
+      of the Holy Sepulchre in Jerusalem in 400 AH that would
+      become a precipitating cause of the First Crusade
+      ninety years later, severe sumptuary laws against
+      Christians and Jews, the prohibition of certain foods
+      and customs, and a long oscillation between leniency
+      and severity that classical historians (Ibn al-Athīr,
+      Ibn Khallikān, al-Dhahabī) describe with striking
+      ambivalence. He was succeeded by his teenage nephew
+      al-Ẓāhir under the regency of Sitt al-Mulk.
+    description_ar: |
+      اختفى أبو علي المنصور «الحاكم بأمر الله» — سادس
+      الخلفاء الفاطميين — بلا أثر في إحدى رحلاته الليلية
+      المعتادة على جبل المقطّم خارج القاهرة، وهو في
+      السادسة والثلاثين من عمره وقد حكم خمساً وعشرين
+      سنة. ووُجد حماره ملطّخاً بالدم وثيابه مقطّعة، ولم
+      يُعثر على جثمانه. وتورد المصادر الكلاسيكية شائعات
+      واسعة باغتياله بإيعاز من أخته «ست الملك» التي
+      تولّت في الحال نيابةَ خلفه الظاهر، لكنها تعترف
+      بأن اليقين لم يتحقق. وقد امتاز عهده بإجراءات شاذّة
+      — هدم كنيسة القيامة بالقدس سنة ٤٠٠ هـ التي ستصير
+      من ذرائع الحملة الصليبية الأولى بعد تسعين سنة،
+      وقوانين تمييزية صارمة على النصارى واليهود، ومنع
+      أطعمة وعادات بعينها، وتأرجح طويل بين تشديد ولين
+      وصفه المؤرخون الكلاسيكيون (ابن الأثير وابن خلكان
+      والذهبي) بازدواجية لافتة. وخلفه ابن أخيه الفتى
+      الظاهر تحت نيابة ست الملك.
+    description_fr: |
+      Abū ʿAlī al-Manṣūr al-Ḥākim bi-Amr Allāh, sixième
+      calife fātimide, disparut sans trace au cours d'une
+      de ses promenades nocturnes coutumières sur le
+      Muqaṭṭam, hors du Caire. Il était âgé d'environ
+      trente-six ans et avait régné vingt-cinq ans. Son
+      âne fut retrouvé taché de sang et ses vêtements
+      lacérés; son corps ne fut jamais découvert. Les
+      sources classiques rapportent les rumeurs largement
+      répandues d'un assassinat à l'instigation de sa
+      sœur Sitt al-Mulk, qui assuma aussitôt la régence
+      pour son successeur al-Ẓāhir, mais admettent
+      qu'aucune certitude ne fut jamais atteinte. Son
+      règne fut marqué par des mesures extraordinaires —
+      la destruction de l'église du Saint-Sépulcre à
+      Jérusalem en 400 H, qui deviendrait quatre-vingt-
+      dix ans plus tard l'une des causes de la première
+      croisade, des lois somptuaires sévères contre
+      chrétiens et juifs, la prohibition de certains
+      aliments et coutumes, et une longue oscillation
+      entre indulgence et rigueur que les historiens
+      classiques (Ibn al-Athīr, Ibn Khallikān, al-Dhahabī)
+      décrivent avec une ambivalence frappante. Lui
+      succéda son neveu adolescent al-Ẓāhir sous la
+      régence de Sitt al-Mulk.
+    canonical_hijri: {year: 411, month: 10, day: 27, precision: day}
+    canonical_gregorian: {date: 1021-02-19, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil dates the disappearance of al-Ḥākim to Shawwāl 411 AH and reports the rumours of assassination."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān gives the standard biographical entry on al-Ḥākim and the circumstances of his disappearance."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the disappearance under 411 AH and discusses the contested explanations."
+    people: [[al-hakim-fatimid, died]]
+    tags: [fatimid, caliph, egypt, cairo, muqattam]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-zahir-fatimid
+    category: ruler_death
+    title_en: Death of al-Ẓāhir li-Iʿzāz Dīn Allāh
+    title_ar: وفاة الظاهر لإعزاز دين الله
+    title_fr: Mort d'al-Ẓāhir li-Iʿzāz Dīn Allāh
+    description_en: |
+      Abū al-Ḥasan ʿAlī al-Ẓāhir li-Iʿzāz Dīn Allāh, seventh
+      Fatimid caliph and son of al-Ḥākim, died at Cairo at
+      age about 32, after a sixteen-year reign that began
+      under the regency of his powerful aunt Sitt al-Mulk
+      and continued through severe famines and political
+      reversals in Syria. His reign saw the loss of effective
+      Fatimid control over significant portions of Syria to
+      Byzantine and resurgent Arab tribal pressure, and the
+      famine of 414-416 AH that classical historians describe
+      as one of the worst in Egyptian memory. Civil
+      administration shifted decisively into the hands of the
+      vizierate, particularly under the Christian convert
+      vizier Abū al-Qāsim ʿAlī al-Jarjarāʾī. He was succeeded
+      by his seven-year-old son al-Mustanṣir bi-Allāh, whose
+      sixty-year reign would be the longest in Fatimid history
+      and would witness the dynasty's slow collapse.
+    description_ar: |
+      توفي أبو الحسن علي «الظاهر لإعزاز دين الله» — سابع
+      الخلفاء الفاطميين وابن الحاكم — بالقاهرة عن نحو
+      اثنتين وثلاثين سنة، بعد عهد دام ست عشرة سنة بدأ
+      تحت نيابة عمته القوية «ست الملك» واستمرّ خلال
+      مجاعات شديدة ونكسات سياسية بالشام. وشهد عهده
+      ضياع السلطة الفاطمية الفعلية على أجزاء واسعة من
+      الشام بضغط البيزنطيين وقبائل العرب الصاعدة،
+      ومجاعة سنة ٤١٤-٤١٦ هـ التي يصفها المؤرخون
+      الكلاسيكيون بأشدّ ما عرفته مصر في الذاكرة. وانتقل
+      تدبير الإدارة المدنية انتقالاً قاطعاً إلى وزارة
+      الدولة، خاصةً في عهد الوزير المتنصّر سابقاً أبي
+      القاسم علي الجَرْجَرائي. وخلفه ابنه «المستنصر
+      بالله» وهو في السابعة من عمره، فكان عهده الذي امتدّ
+      ستين سنة أطول عهود الفاطميين، وفيه شهدت الدولة
+      تدهورها البطيء.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī al-Ẓāhir li-Iʿzāz Dīn Allāh, septième
+      calife fātimide et fils d'al-Ḥākim, mourut au Caire
+      vers trente-deux ans, après un règne de seize ans qui
+      commença sous la régence de sa puissante tante Sitt
+      al-Mulk et se poursuivit dans de sévères famines et
+      des reculs politiques en Syrie. Son règne vit la
+      perte du contrôle fātimide effectif sur des parts
+      significatives de la Syrie face à la pression
+      byzantine et à la résurgence des tribus arabes, et
+      la famine de 414-416 H que les historiens classiques
+      décrivent parmi les pires de la mémoire égyptienne.
+      L'administration civile passa définitivement aux
+      mains du vizirat, notamment sous le vizir Abū al-
+      Qāsim ʿAlī al-Jarjarāʾī, ancien chrétien converti.
+      Lui succéda son fils al-Mustanṣir bi-Allāh, âgé de
+      sept ans, dont le règne de soixante ans serait le
+      plus long de l'histoire fātimide et témoignerait du
+      lent effondrement de la dynastie.
+    canonical_hijri: {year: 427, month: 8, day: 15, precision: day}
+    canonical_gregorian: {date: 1036-06-19, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Ẓāhir under Shaʿbān 427 AH at Cairo."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 427 AH for the death of al-Ẓāhir and the accession of the seven-year-old al-Mustanṣir."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the obituary under 427 AH."
+    people: [[al-zahir-fatimid, died]]
+    tags: [fatimid, caliph, egypt, cairo, famine]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-mustansir-fatimid
+    category: ruler_death
+    title_en: Death of al-Mustanṣir bi-Allāh — Longest Fatimid Reign
+    title_ar: وفاة المستنصر بالله — أطول عهود الفاطميين
+    title_fr: Mort d'al-Mustanṣir bi-Allāh — le plus long règne fātimide
+    description_en: |
+      Abū Tamīm Maʿadd al-Mustanṣir bi-Allāh, eighth Fatimid
+      caliph, died at Cairo after a sixty-year reign — the
+      longest in Fatimid history and one of the longest
+      reigns in any medieval Islamic dynasty — at age about
+      66. His tenure spanned the high noon of Fatimid Egypt
+      and its catastrophic mid-century crisis: the *al-shidda
+      al-ʿuẓmā* ("the great hardship") of c. 457-466 AH, an
+      eight-year famine and breakdown of central authority
+      that emptied Cairo of food and population; the
+      collapse of Fatimid claims in North Africa after the
+      Zīrid renunciation of allegiance and the Hilālī
+      invasion of Ifrīqiya; the loss of Sicily to the
+      Normans; and finally the rescue of the dynasty by the
+      Armenian general Badr al-Jamālī, summoned from Acre in
+      466 AH, who restored order and made the vizierate
+      effectively hereditary in his family. Al-Mustanṣir's
+      death precipitated the Nizārī-Mustaʿlī schism the
+      following year. Classical sources treat his reign as
+      the turning-point in Fatimid history.
+    description_ar: |
+      توفي أبو تميم معدّ «المستنصر بالله» — ثامن الخلفاء
+      الفاطميين — بالقاهرة بعد ستين سنة من الحكم، وهي
+      أطول عهود الفاطميين، ومن أطول عهود حكام الإسلام
+      في القرون الوسطى، عن نحو ست وستين سنة. وقد جمع
+      عهده ذروةَ الدولة الفاطمية بمصر وأزمتها المنتصفية
+      الكارثية: «الشدّة العظمى» (نحو ٤٥٧-٤٦٦ هـ) — وهي
+      مجاعة ثماني سنين وانهيار للسلطة المركزية أفرغت
+      القاهرة من الطعام والسكان — وانهيار الولاء الفاطمي
+      في شمال أفريقيا بعد قطع الزِّيريين الخطبةَ
+      وزحف بني هلال على إفريقية، وضياع صقلية بأيدي
+      النورمان، ثم إنقاذ الدولة بالأمير الأرمني بدر
+      الجَمَالي الذي استدعاه من عكا سنة ٤٦٦ هـ، فأعاد
+      النظام وجعل الوزارة عملياً وراثة في بيته. وأشعلت
+      وفاة المستنصر فتنةَ النزارية والمستعلية في العام
+      التالي. ويعدّ المؤرخون الكلاسيكيون عهدَه نقطة
+      تحوّل في تاريخ الفاطميين.
+    description_fr: |
+      Abū Tamīm Maʿadd al-Mustanṣir bi-Allāh, huitième
+      calife fātimide, mourut au Caire après soixante ans
+      de règne — le plus long de l'histoire fātimide et
+      l'un des plus longs des dynasties islamiques
+      médiévales — vers soixante-six ans. Son temps couvre
+      l'apogée de l'Égypte fātimide et sa crise médiane
+      catastrophique : la *al-shidda al-ʿuẓmā* (« grande
+      détresse ») de ca. 457-466 H, famine de huit années
+      et effondrement de l'autorité centrale qui vida le
+      Caire de nourriture et de population; l'effondrement
+      des allégeances fātimides en Afrique du Nord après
+      la rupture zīride et l'invasion hilālienne de
+      l'Ifrīqiya; la perte de la Sicile au profit des
+      Normands; et enfin le sauvetage de la dynastie par
+      le général arménien Badr al-Jamālī, mandé d'Acre en
+      466 H, qui rétablit l'ordre et rendit le vizirat
+      effectivement héréditaire dans sa famille. La mort
+      d'al-Mustanṣir précipita le schisme nizārī-mustaʿlī
+      l'année suivante. Les sources classiques voient
+      son règne comme le pivot de l'histoire fātimide.
+    canonical_hijri: {year: 487, month: 12, day: 18, precision: day}
+    canonical_gregorian: {date: 1095-01-04, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Mustanṣir in Dhū al-Ḥijja 487 AH and notes the immediate succession dispute."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 487 AH for the death and discusses the al-shidda al-ʿuẓmā."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the obituary under 487 AH."
+    people: [[al-mustansir-fatimid, died]]
+    tags: [fatimid, caliph, egypt, cairo, shidda, badr-al-jamali]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # NIZARI-MUSTA'LI SCHISM (488 AH)
+  # =========================================================================
+
+  - slug: nizari-mustali-schism
+    category: political_event
+    title_en: Nizārī-Mustaʿlī Schism — Death of Nizār ibn al-Mustanṣir
+    title_ar: الفتنة النزارية المستعلية — مقتل نزار بن المستنصر
+    title_fr: Schisme nizārī-mustaʿlī — mort de Nizār ibn al-Mustanṣir
+    description_en: |
+      Within months of al-Mustanṣir's death the Fatimid
+      caliphate split irreparably over the succession. The
+      eldest son and long-designated heir Nizār was set
+      aside in favour of his younger brother Aḥmad, who took
+      the regnal title al-Mustaʿlī bi-Allāh, by the powerful
+      vizier al-Afḍal Shāhanshāh ibn Badr al-Jamālī, whose
+      sister was al-Mustaʿlī's wife. Nizār fled to Alexandria,
+      raised a revolt, was defeated, and was taken to Cairo
+      and walled up alive in 488 AH. The Persian Ismāʿīlī
+      missionary Ḥasan-i Ṣabbāḥ, master of the fortress of
+      Alamūt in northern Iran, repudiated the Cairo line and
+      declared his allegiance to Nizār's hidden son: this
+      breach founded the Nizārī branch (the *Ḥashīshiyya* or
+      "Assassins" of Latin sources) as a doctrinally and
+      politically autonomous Ismāʿīlī community independent
+      of Cairo, while the Mustaʿlī line continued to govern
+      Egypt. Classical Sunni historians (Ibn al-Athīr, Ibn
+      Khallikān) describe the schism as the political
+      dénouement of the Fatimid project.
+    description_ar: |
+      انشقّت الخلافة الفاطمية انشقاقاً لا يندمل في غضون
+      أشهر من وفاة المستنصر بسبب الخلاف على الخلافة. أُقصي
+      الابن الأكبر ووليّ العهد القديم «نزار» لصالح أخيه
+      الأصغر «أحمد» الذي تلقّب بـ«المستعلي بالله»، بفعل
+      الوزير القوي «الأفضل شاهنشاه» بن بدر الجمالي،
+      الذي كانت أخته زوجَ المستعلي. ففرّ نزار إلى
+      الإسكندرية فأقام ثورة، فهُزم، فحُمل إلى القاهرة
+      فبُني عليه حائط حياً سنة ٤٨٨ هـ. ورفض الداعي
+      الإسماعيلي الفارسي «حسن الصبّاح» — صاحب قلعة
+      «أَلَموت» بشمال إيران — السلطة القاهرية، وأعلن
+      الولاء لابن نزار المستور: فصار هذا الانشقاق
+      تأسيساً للفرع النزاري (الذي عرف عند الإفرنج
+      بـ«الحشاشين») جماعةً إسماعيلية مستقلّة عقدياً
+      وسياسياً عن القاهرة، فيما واصل خط المستعلية حكم
+      مصر. ويصف المؤرخون الكلاسيكيون السنّة (ابن الأثير
+      وابن خلكان) هذا الانشقاقَ خاتمةَ المشروع
+      الفاطمي السياسية.
+    description_fr: |
+      En quelques mois de la mort d'al-Mustanṣir, le
+      califat fātimide se brisa de façon irrémédiable sur
+      la succession. Le fils aîné et héritier de longue
+      date Nizār fut écarté au profit de son frère cadet
+      Aḥmad, qui prit le titre régnal d'al-Mustaʿlī bi-
+      Allāh, par le puissant vizir al-Afḍal Shāhanshāh
+      ibn Badr al-Jamālī, dont la sœur était l'épouse
+      d'al-Mustaʿlī. Nizār s'enfuit à Alexandrie, leva
+      une révolte, fut défait et conduit au Caire, où il
+      fut emmuré vivant en 488 H. Le missionnaire
+      ismāʿīlien persan Ḥasan-i Ṣabbāḥ, maître de la
+      forteresse d'Alamūt en Iran du Nord, répudia la
+      ligne du Caire et proclama son allégeance au fils
+      caché de Nizār : cette rupture fonda la branche
+      nizārī (les *Ḥashīshiyya* ou « Assassins » des
+      sources latines) comme communauté ismāʿīlienne
+      doctrinalement et politiquement autonome, tandis
+      que la ligne mustaʿlī continuait à gouverner
+      l'Égypte. Les historiens sunnites classiques (Ibn
+      al-Athīr, Ibn Khallikān) tiennent ce schisme pour
+      le dénouement politique du projet fātimide.
+    canonical_hijri: {year: 488, precision: year}
+    canonical_gregorian: {date: 1095-01-12, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters Nizār's revolt at Alexandria, his defeat, and his death by being walled up alive in Cairo under 488 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 488 AH for the death of Nizār and the consolidation of al-Mustaʿlī's rule."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān gives the standard biographical entry on Nizār and the circumstances of his execution."
+    people: [[nizar-ibn-al-mustansir, died], [al-afdal-shahanshah, leader]]
+    tags: [fatimid, schism, nizari, mustali, alamut, egypt]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # LATE FATIMID DECLINE (524-567 AH)
+  # =========================================================================
+
+  - slug: assassination-of-al-amir-fatimid
+    category: ruler_death
+    title_en: Assassination of al-Āmir bi-Aḥkām Allāh
+    title_ar: اغتيال الآمر بأحكام الله
+    title_fr: Assassinat d'al-Āmir bi-Aḥkām Allāh
+    description_en: |
+      Abū ʿAlī al-Manṣūr al-Āmir bi-Aḥkām Allāh, tenth
+      Fatimid caliph, was killed by Nizārī Ismāʿīlī agents
+      on the bridge of al-Rawḍa in Cairo, at age about 34
+      after a twenty-nine-year reign. The assassins were
+      avenging his and his father al-Mustaʿlī's exclusion
+      of Nizār from the succession three decades earlier
+      and the consolidation of the Mustaʿlī Ṭayyibī rival
+      tradition. His murder precipitated a constitutional
+      crisis: he left no son of suitable age, and his
+      cousin ʿAbd al-Majīd was elevated as regent for the
+      caliph's posthumous infant son, then proclaimed
+      caliph in his own right as al-Ḥāfiẓ li-Dīn Allāh —
+      a transition that broke the principle of *naṣṣ*
+      (designation) underlying Ismāʿīlī legitimacy and
+      provoked the Ṭayyibī secession in Yemen. Classical
+      historians (Ibn al-Athīr, Ibn Khallikān) describe
+      the assassination as the beginning of the open
+      collapse of the Fatimid state, which would last
+      another forty years before Saladin's abolition of
+      the dynasty.
+    description_ar: |
+      اغتال الفدائيون النزاريون الإسماعيليون أبا علي
+      المنصور «الآمر بأحكام الله» — عاشر الخلفاء
+      الفاطميين — على جسر «الرَّوضة» بالقاهرة، عن نحو
+      أربع وثلاثين سنة، بعد عهد دام تسعاً وعشرين سنة.
+      ثأر القتلة لإقصائه وإقصاء أبيه المستعلي «نزار»
+      عن ولاية العهد قبل ثلاثة عقود، ولترسيخ خط
+      المستعلية الطيّبية الخصم. وأشعل قتلُه أزمةً
+      دستورية: لم يخلّف ابناً في سنّ يصلح للحكم،
+      فرُفع ابن عمه «عبد المجيد» ولياً على ابنه الوليد
+      بعد وفاته، ثم بويع خليفةً باسم «الحافظ لدين الله»
+      — وهو انتقال خرق مبدأ «النصّ» الذي تقوم عليه
+      شرعية الإسماعيلية، وأدّى إلى انشقاق «الطيّبية»
+      في اليمن. ويصف المؤرخون الكلاسيكيون (ابن الأثير
+      وابن خلكان) هذا الاغتيال ببداية الانهيار العلني
+      للدولة الفاطمية، التي ستستمرّ بعد ذلك أربعين
+      سنة أخرى قبل أن يلغيها صلاح الدين.
+    description_fr: |
+      Abū ʿAlī al-Manṣūr al-Āmir bi-Aḥkām Allāh, dixième
+      calife fātimide, fut tué par des agents ismāʿīliens
+      nizārīs sur le pont d'al-Rawḍa au Caire, vers
+      trente-quatre ans, après un règne de vingt-neuf
+      ans. Les assassins vengeaient son exclusion et celle
+      de son père al-Mustaʿlī de Nizār de la succession
+      trois décennies plus tôt, et la consolidation du
+      courant mustaʿlī ṭayyibī rival. Son meurtre
+      précipita une crise constitutionnelle : il ne
+      laissait aucun fils en âge de régner; son cousin
+      ʿAbd al-Majīd fut élevé comme régent de l'enfant
+      posthume du calife, puis proclamé calife à part
+      entière sous le nom d'al-Ḥāfiẓ li-Dīn Allāh —
+      transition qui rompait le principe du *naṣṣ*
+      (désignation) fondant la légitimité ismāʿīlienne
+      et qui provoqua la sécession ṭayyibī au Yémen. Les
+      historiens classiques (Ibn al-Athīr, Ibn Khallikān)
+      décrivent l'assassinat comme le commencement de
+      l'effondrement ouvert de l'État fātimide, qui
+      durerait encore quarante ans avant l'abolition
+      par Saladin.
+    canonical_hijri: {year: 524, month: 11, day: 4, precision: day}
+    canonical_gregorian: {date: 1130-10-16, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil dates the assassination of al-Āmir to Dhū al-Qaʿda 524 AH at the bridge of al-Rawḍa and identifies the killers as Nizārī fidāʾīs."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 524 AH for the assassination."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān gives the biographical entry on al-Āmir and the circumstances of his death."
+    people: [[al-amir-fatimid, died]]
+    tags: [fatimid, caliph, assassination, nizari, cairo, tayyibi-schism]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: saladin-abolishes-fatimid-khutba
+    category: political_event
+    title_en: Saladin Abolishes the Fatimid Khuṭba in Cairo
+    title_ar: صلاح الدين يلغي الخطبة الفاطمية بالقاهرة
+    title_fr: Saladin abolit la khuṭba fātimide au Caire
+    description_en: |
+      Ṣalāḥ al-Dīn Yūsuf ibn Ayyūb (Saladin), vizier of
+      the dying Fatimid caliph al-ʿĀḍid, ordered the
+      khuṭba in the mosques of Cairo to be pronounced in
+      the name of the Sunni Abbasid caliph al-Mustaḍīʾ at
+      Baghdad rather than in the name of the Fatimid
+      caliph, formally ending two centuries of Ismāʿīlī
+      Fatimid sovereignty in Egypt. Saladin had risen to
+      the Egyptian vizierate in 564 AH after the death of
+      his uncle Shīrkūh, who had taken Cairo on behalf
+      of the Zangid sultan Nūr al-Dīn Maḥmūd. Over the
+      following four years he had progressively dismantled
+      the Fatimid administrative apparatus, dispersed the
+      Sūdānī palace guard after a failed coup, and
+      established a Sunni juridical and educational
+      infrastructure of madrasas teaching the four Sunni
+      schools. The change of khuṭba on this Friday was
+      the formal liturgical act of restoration of Sunni
+      sovereignty over Egypt. Al-ʿĀḍid was already
+      mortally ill — classical sources record that he
+      died three days later — and Saladin took care that
+      he was not informed of the change of khuṭba.
+    description_ar: |
+      أمر صلاح الدين يوسف بن أيوب — وزير الخليفة الفاطمي
+      «العاضد» المحتضر — أن تُقام الخطبة في مساجد
+      القاهرة باسم الخليفة العباسي السني «المستضيء»
+      ببغداد بدلاً من اسم الخليفة الفاطمي، فأنهى رسمياً
+      قرنين من السلطة الفاطمية الإسماعيلية بمصر. وكان
+      صلاح الدين قد ارتقى إلى وزارة مصر سنة ٥٦٤ هـ بعد
+      وفاة عمه «أسد الدين شيركوه» الذي ملك القاهرة
+      نيابةً عن السلطان الزنكي «نور الدين محمود». وفي
+      السنوات الأربع التالية فكّك أركان الإدارة
+      الفاطمية تدريجياً، وفرّق حرس القصر «السودان» بعد
+      محاولة انقلابهم الفاشلة، وأقام بنية مذهبية
+      وتعليمية سنّية من المدارس التي تدرّس المذاهب
+      السنّية الأربعة. وكان تغيير الخطبة في هذه الجمعة
+      هو الفعل الشعائري الرسمي لاستعادة سيادة السنّة
+      على مصر. وكان العاضد قد مرض مرض الموت — وتذكر
+      المصادر الكلاسيكية أنه توفي بعد ثلاثة أيام —
+      فحرص صلاح الدين على ألا يُخبَر بتغيير الخطبة.
+    description_fr: |
+      Ṣalāḥ al-Dīn Yūsuf ibn Ayyūb (Saladin), vizir du
+      calife fātimide al-ʿĀḍid agonisant, ordonna que la
+      khuṭba dans les mosquées du Caire fût prononcée au
+      nom du calife sunnite abbasside al-Mustaḍīʾ à
+      Baghdād plutôt qu'au nom du calife fātimide,
+      mettant formellement fin à deux siècles de
+      souveraineté fātimide ismāʿīlienne en Égypte.
+      Saladin était parvenu au vizirat égyptien en 564 H
+      après la mort de son oncle Shīrkūh, qui avait pris
+      le Caire au nom du sultan zangide Nūr al-Dīn
+      Maḥmūd. Au cours des quatre années suivantes il
+      avait progressivement démantelé l'appareil
+      administratif fātimide, dispersé la garde
+      palatine soudanaise après un coup d'État manqué,
+      et instauré une infrastructure juridique et
+      éducative sunnite de madrasas enseignant les quatre
+      écoles sunnites. Le changement de khuṭba ce
+      vendredi fut l'acte liturgique formel de la
+      restauration de la souveraineté sunnite sur
+      l'Égypte. Al-ʿĀḍid était déjà mourant — les
+      sources classiques rapportent qu'il mourut trois
+      jours plus tard — et Saladin veilla à ce qu'il ne
+      fût pas informé du changement de khuṭba.
+    canonical_hijri: {year: 567, month: 1, day: 7, precision: day}
+    canonical_gregorian: {date: 1171-09-17, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil dates Saladin's restoration of the Abbasid khuṭba in Cairo to the first Friday of Muḥarram 567 AH (7 Muḥarram)."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 567 AH for the abolition of the Fatimid khuṭba and the formal end of the Fatimid caliphate."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the change of khuṭba in Cairo under 567 AH."
+    people: [[salahuddin-al-ayyubi, leader], [al-adid-fatimid, subject]]
+    tags: [fatimid, ayyubid, saladin, cairo, khutba, sunni-restoration]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-adid-last-fatimid
+    category: ruler_death
+    title_en: Death of al-ʿĀḍid li-Dīn Allāh — Last Fatimid Caliph
+    title_ar: وفاة العاضد لدين الله — آخر الخلفاء الفاطميين
+    title_fr: Mort d'al-ʿĀḍid li-Dīn Allāh — dernier calife fātimide
+    description_en: |
+      Abū Muḥammad ʿAbd Allāh al-ʿĀḍid li-Dīn Allāh,
+      fourteenth and last Fatimid caliph, died at the
+      Fatimid palace in Cairo at age about 21, three days
+      after his vizier Ṣalāḥ al-Dīn (Saladin) had ordered
+      the abolition of the Fatimid khuṭba in favour of the
+      Sunni Abbasid caliph al-Mustaḍīʾ. Classical sources
+      report that he died unaware of the change, his
+      family having been instructed to conceal the news;
+      Saladin himself attended the deathbed. With his
+      death the Fatimid caliphate formally ended after
+      262 years from the proclamation of al-Mahdī ʿUbayd
+      Allāh in Ifrīqiya. Saladin took the caliph's
+      surviving relatives into protective custody at the
+      former palace, separated the Fatimid men and women
+      to extinguish the line, and integrated Egypt into
+      the Ayyūbid sultanate as a Sunni province nominally
+      acknowledging Abbasid suzerainty. Ibn al-Athīr and
+      Ibn Khallikān give the standard accounts; al-
+      Maqrīzī's *Ittiʿāẓ al-Ḥunafāʾ* preserves the
+      detailed eyewitness chronicle of the Fatimid
+      collapse.
+    description_ar: |
+      توفي أبو محمد عبد الله «العاضد لدين الله» — الرابع
+      عشر والأخير من الخلفاء الفاطميين — بقصر الفاطميين
+      بالقاهرة عن نحو إحدى وعشرين سنة، بعد ثلاثة أيام
+      من أمر وزيره صلاح الدين بإلغاء الخطبة الفاطمية
+      لصالح الخليفة العباسي السنّي «المستضيء». وتذكر
+      المصادر الكلاسيكية أنه توفي وهو لا يعلم بالتغيير،
+      وقد أمر أهله بكتمان الخبر عنه، وحضر صلاح الدين
+      نفسه فراش وفاته. وبموته انتهت الخلافة الفاطمية
+      رسمياً بعد مائتين واثنتين وستين سنة من مبايعة
+      المهدي عبيد الله بإفريقية. واستبقى صلاح الدين
+      من بقي من أهل البيت الفاطمي في حراسة بالقصر
+      السابق، وعزل ذكورهم عن إناثهم لإنهاء النسل،
+      وأدمج مصر في السلطنة الأيوبية ولايةً سنّية
+      تعترف بالسيادة العباسية اسماً. ويسرد ابن الأثير
+      وابن خلكان الرواية المعهودة، ويحفظ المقريزي
+      في «اتعاظ الحنفاء» الرواية الشاهدة المفصّلة
+      لانهيار الفاطميين.
+    description_fr: |
+      Abū Muḥammad ʿAbd Allāh al-ʿĀḍid li-Dīn Allāh,
+      quatorzième et dernier calife fātimide, mourut au
+      palais fātimide du Caire vers vingt et un ans,
+      trois jours après que son vizir Ṣalāḥ al-Dīn
+      (Saladin) eut ordonné l'abolition de la khuṭba
+      fātimide au profit du calife sunnite abbasside al-
+      Mustaḍīʾ. Les sources classiques rapportent qu'il
+      mourut sans connaître le changement, sa famille
+      ayant reçu l'ordre de lui en cacher la nouvelle;
+      Saladin lui-même assista au lit de mort. Avec sa
+      mort, le califat fātimide prit formellement fin
+      après deux cent soixante-deux ans depuis la
+      proclamation d'al-Mahdī ʿUbayd Allāh en Ifrīqiya.
+      Saladin plaça les proches survivants du calife en
+      garde au palais ancien, sépara les hommes et les
+      femmes fātimides pour éteindre la lignée, et
+      intégra l'Égypte au sultanat ayyoubide comme
+      province sunnite reconnaissant nominalement la
+      suzeraineté abbasside. Ibn al-Athīr et Ibn
+      Khallikān donnent les récits standards; l'*Ittiʿāẓ
+      al-Ḥunafāʾ* d'al-Maqrīzī conserve la chronique
+      circonstanciée et oculaire de l'effondrement
+      fātimide.
+    canonical_hijri: {year: 567, month: 1, day: 10, precision: day}
+    canonical_gregorian: {date: 1171-09-20, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil dates the death of al-ʿĀḍid to Muḥarram 567 AH and reports that he died three days after the change of khuṭba."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān gives the standard biographical entry on al-ʿĀḍid as the last Fatimid caliph and confirms 567 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the obituary of al-ʿĀḍid under 567 AH and the formal end of the Fatimid caliphate."
+    people: [[al-adid-fatimid, died], [salahuddin-al-ayyubi, leader]]
+    tags: [fatimid, caliph, end-of-dynasty, cairo, ayyubid, saladin]
+    importance: major
+    verified: true
+    verification_status: cross_verified

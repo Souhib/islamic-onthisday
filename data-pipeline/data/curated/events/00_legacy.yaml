@@ -1,0 +1,1218 @@
+# Manually curated high-confidence Islamic historical events.
+# Each event is verified against at least one classical source and a modern
+# academic reference. Disputes are modelled as multiple `claims`.
+#
+# Date precision is explicit per event (day | month | year).
+# Gregorian dates flagged `method: attested` are historically recorded
+# (not algorithmic conversions). `method: tabular_conversion` would be
+# computed at load time from the Hijri date.
+
+events:
+  # =========================================================================
+  # PROPHETIC ERA (1-11 AH / 622-632 CE)
+  # =========================================================================
+
+  - slug: hijra-arrival-medina
+    category: prophetic_era
+    title_en: The Hijra — Entry of the Prophet ﷺ into Madinah
+    title_ar: الهجرة النبوية - دخول المدينة
+    description_en: |
+      After leaving Mecca with Abu Bakr as-Siddiq and three days hidden in the
+      Cave of Thawr, the Prophet Muhammad ﷺ arrived at Quba on the outskirts of
+      Madinah on Monday, 8 Rabi' al-Awwal (~17 September 622 CE). He stayed
+      there four days founding Masjid Quba — the first mosque in Islam — and
+      then entered Madinah itself on Friday, 12 Rabi' al-Awwal (~24 September
+      622 CE), praying the first Jumu'ah on the way at the valley of Banu Salim.
+      The Hijra marks the starting point of the Islamic calendar, fixed
+      retroactively by Caliph 'Umar ibn al-Khattab in 17 AH on the preceding
+      1 Muharram (the conventional epoch — not the actual day of departure or
+      arrival).
+    canonical_hijri: {year: 1, month: 3, day: 12, precision: day}
+    canonical_gregorian: {date: 622-09-24, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        hijri: {year: 1, month: 3, day: 12, precision: day}
+        gregorian: {date: 622-09-24, precision: day, method: attested}
+        is_canonical: true
+        notes: "Friday entry into Madinah after four days at Quba."
+      - source_key: tabari_tarikh
+        hijri: {year: 1, month: 3, day: 12, precision: day}
+      - source_key: bukhari_sahih
+        notes: "Sahih al-Bukhari 3906 — narration of 'Aisha ra on the journey."
+    people: [[muhammad, subject], [abu-bakr-as-siddiq, participant]]
+    tags: [prophetic-era, hijra, madinah, quba, calendar-origin]
+    verification_status: cross_verified
+    verified: true
+    hadith_refs: Bukhari 3906
+
+  - slug: battle-of-badr
+    category: battle
+    title_en: Battle of Badr
+    title_ar: غزوة بدر الكبرى
+    description_en: |
+      The first major military engagement between the Muslims of Madinah and the
+      Quraysh of Makkah. Around 313 Muslims defeated approximately 1,000 Quraysh
+      warriors at the wells of Badr. The Qur'an calls it "the day of criterion"
+      (Yawm al-Furqan) — Surah al-Anfal was revealed about this battle.
+      Traditional Hijri date is 17 Ramadan 2 AH.
+    canonical_hijri: {year: 2, month: 9, day: 17, precision: day}
+    canonical_gregorian: {date: 624-03-13, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        hijri: {year: 2, month: 9, day: 17, precision: day}
+        gregorian: {date: 624-03-13, precision: day, method: attested}
+        is_canonical: true
+      - source_key: tabari_tarikh
+        hijri: {year: 2, month: 9, day: 17, precision: day}
+      - source_key: quran
+        notes: "Surah al-Anfal 8:41 references 'the day of criterion, the day the two parties met.'"
+    people: [[muhammad, leader]]
+    tags: [prophetic-era, battle, ramadan, badr, quran-referenced]
+    verified: true
+
+  - slug: battle-of-uhud
+    category: battle
+    title_en: Battle of Uhud
+    title_ar: غزوة أحد
+    description_en: |
+      The second major battle between the Muslims and Quraysh, fought at Mount Uhud
+      north of Madinah. Hamza ibn Abd al-Muttalib was martyred in this battle along
+      with 70 other companions. The battle became a severe trial after archers
+      abandoned their posts against the Prophet's ﷺ instruction. Surah Aal Imran
+      3:121-179 addresses this event.
+    canonical_hijri: {year: 3, month: 10, day: 7, precision: day}
+    canonical_gregorian: {date: 625-03-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        hijri: {year: 3, month: 10, day: 7, precision: day}
+      - source_key: tabari_tarikh
+        hijri: {year: 3, month: 10, day: 15, precision: day}
+        notes: "Some sources place it on 15 Shawwal."
+    people: [[muhammad, leader], [hamza-ibn-abdul-muttalib, killed]]
+    tags: [prophetic-era, battle, uhud, shawwal, quran-referenced]
+    verified: true
+    disputed: true
+    dispute_about: date
+
+  - slug: battle-of-the-trench
+    category: battle
+    title_en: Battle of the Trench (al-Khandaq / al-Ahzab)
+    title_ar: غزوة الخندق
+    description_en: |
+      A coalition of Quraysh, Jewish tribes and allied clans besieged Madinah.
+      Salman al-Farisi proposed digging a trench (khandaq) around the exposed
+      northern side of the city — a novel Persian technique that neutralized the
+      coalition's cavalry advantage. After a month-long siege, a storm and
+      internal divisions broke the coalition. Surah al-Ahzab was revealed about
+      this battle.
+    canonical_hijri: {year: 5, month: 10, precision: month}
+    canonical_gregorian: {date: 627-03-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        hijri: {year: 5, month: 10, precision: month}
+        is_canonical: true
+      - source_key: tabari_tarikh
+        hijri: {year: 5, month: 11, precision: month}
+        notes: "Some sources place it in Dhu al-Qa'da."
+    people: [[muhammad, leader]]
+    tags: [prophetic-era, battle, khandaq, quran-referenced]
+    verified: true
+
+  - slug: treaty-of-hudaybiyyah
+    category: treaty
+    title_en: Treaty of al-Hudaybiyyah
+    title_ar: صلح الحديبية
+    description_en: |
+      A 10-year armistice between the Prophet ﷺ and the Quraysh of Makkah, signed
+      at al-Hudaybiyyah near the outskirts of the Haram. Though appearing
+      disadvantageous at first, it marked what the Qur'an called "a clear victory"
+      (Fath Mubin) — Surah al-Fath was revealed about it. Within two years the
+      conquest of Makkah would follow.
+    canonical_hijri: {year: 6, month: 11, precision: month}
+    canonical_gregorian: {date: 628-03-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        hijri: {year: 6, month: 11, precision: month}
+        is_canonical: true
+      - source_key: quran
+        notes: "Surah al-Fath 48 was revealed about this event."
+    people: [[muhammad, subject]]
+    tags: [prophetic-era, treaty, hudaybiyyah, quran-referenced]
+    verified: true
+
+  - slug: conquest-of-makkah
+    category: conquest
+    title_en: Conquest of Makkah (Fath Makkah)
+    title_ar: فتح مكة
+    description_en: |
+      After Quraysh violated the treaty of Hudaybiyyah, the Prophet ﷺ
+      marched to Makkah with approximately 10,000 companions and entered
+      the city with minimal bloodshed. He issued a general amnesty with the
+      words of Prophet Yusuf: "No reproach upon you this day" (Qur'an
+      12:92). The Ka'ba was cleansed of 360 idols, and Bilal called the
+      adhan from its roof. Sunni sources differ on the exact day in
+      Ramadan 8 AH: 10, 17/18, 19, or 20 are all reported. Ibn Ishaq's
+      narrative chronology (departure ~10 Ramadan, camp at Marr al-Zahran
+      ~16 Ramadan) points to 18-19 Ramadan; the popular celebration date
+      is 20 Ramadan. We retain Ramadan 8 AH at month-precision since the
+      day is genuinely contested.
+    canonical_hijri: {year: 8, month: 9, precision: month}
+    canonical_gregorian: {date: 630-01-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        hijri: {year: 8, month: 9, day: 20, precision: day}
+        is_canonical: true
+        notes: "20 Ramadan is the popular date; Ibn Ishaq's narrative sequence points to 18-19."
+      - source_key: tabari_tarikh
+        hijri: {year: 8, month: 9, precision: month}
+    people: [[muhammad, leader]]
+    tags: [prophetic-era, conquest, makkah, ramadan]
+    disputed: true
+    dispute_about: date
+    verified: true
+    quran_refs: "12:92"
+
+  - slug: farewell-pilgrimage
+    category: prophetic_era
+    title_en: The Farewell Pilgrimage (Hajjat al-Wada')
+    title_ar: حجة الوداع
+    description_en: |
+      The Prophet's ﷺ only and final Hajj, during which he delivered the Farewell
+      Sermon at Arafat on 9 Dhu al-Hijjah. The sermon proclaimed the sanctity of
+      life, property, and honour; the abolition of pre-Islamic blood feuds and
+      usury; the rights of women; and the equality of Arab and non-Arab. Surah
+      al-Ma'ida 5:3 was revealed on that day: "This day I have perfected your
+      religion for you."
+    canonical_hijri: {year: 10, month: 12, day: 9, precision: day}
+    canonical_gregorian: {date: 632-03-06, precision: day, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: Multiple narrations across the Sahih.
+      - source_key: muslim_sahih
+        notes: Hadith of Jabir ibn Abdullah describing the Hajj.
+        is_canonical: true
+      - source_key: ibn_hisham_sira
+    people: [[muhammad, subject]]
+    tags: [prophetic-era, hajj, arafat, quran-referenced]
+    verified: true
+
+  - slug: death-of-the-prophet
+    category: prophetic_era
+    title_en: Passing of the Prophet Muhammad ﷺ
+    title_ar: وفاة النبي ﷺ
+    description_en: |
+      The Prophet ﷺ passed away in Madinah in the house of Aisha ra, approximately
+      three months after the Farewell Pilgrimage. Classical sources record three
+      different days of Rabi' al-Awwal 11 AH — the 12th (majority view including
+      Ibn Ishaq, Ibn Sa'd, al-Dhahabi), the 2nd (supported by al-Suhayli and Ibn
+      Hajar on astronomical grounds), and the 1st (Ibn Kalbi). The Monday of his
+      passing is universally attested.
+    canonical_hijri: {year: 11, month: 3, day: 12, precision: day}
+    canonical_gregorian: {date: 632-06-08, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        hijri: {year: 11, month: 3, day: 12, precision: day}
+        is_canonical: true
+        notes: "Majority classical view."
+      - source_key: ibn_sad_tabaqat
+        hijri: {year: 11, month: 3, day: 12, precision: day}
+      - source_key: ibn_hajar_isaba
+        hijri: {year: 11, month: 3, day: 2, precision: day}
+        notes: "Argued mathematically on the basis that 9 Dhu al-Hijjah of the prior year was a Friday, so 12 Rabi' al-Awwal cannot have been a Monday."
+    people: [[muhammad, subject]]
+    tags: [prophetic-era, madinah, disputed-date]
+    verified: true
+    disputed: true
+    dispute_about: date
+
+  # =========================================================================
+  # RASHIDUN ERA (11-40 AH)
+  # =========================================================================
+
+  - slug: death-of-abu-bakr
+    category: rashidun
+    title_en: Death of Abu Bakr as-Siddiq
+    title_ar: وفاة أبي بكر الصديق
+    description_en: |
+      The first caliph and closest companion of the Prophet ﷺ passed away in
+      Madinah at age 63 after a brief illness. His two-year caliphate saw the
+      successful conclusion of the Ridda wars, the beginning of the Islamic
+      conquest of the Sasanian and Byzantine territories, and the first
+      compilation of the Qur'an into a single mushaf under his direction.
+      He was buried beside the Prophet ﷺ in the Rawda.
+    canonical_hijri: {year: 13, month: 6, day: 22, precision: day}
+    canonical_gregorian: {date: 634-08-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        hijri: {year: 13, month: 6, day: 22, precision: day}
+        is_canonical: true
+      - source_key: tabari_tarikh
+    people: [[abu-bakr-as-siddiq, died]]
+    tags: [rashidun, caliph, madinah]
+    verified: true
+
+  - slug: conquest-of-jerusalem-umar
+    category: conquest
+    title_en: Conquest of Jerusalem by Caliph Umar
+    title_ar: فتح القدس
+    description_en: |
+      Caliph Umar ibn al-Khattab entered Jerusalem (Iliya/Aelia) personally
+      after a peaceful surrender negotiated with Patriarch Sophronius. Umar's
+      covenant (al-'Uhda al-'Umariyya) guaranteed Christians the safety of their
+      lives, churches, and property. He prayed at the Aqsa precinct, and notably
+      refused to pray inside the Church of the Holy Sepulchre so that later
+      Muslims would not convert it into a mosque.
+    canonical_hijri: {year: 16, month: 4, precision: month}
+    canonical_gregorian: {date: 637-04-15, precision: month, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+    people: [[umar-ibn-al-khattab, leader]]
+    tags: [rashidun, conquest, jerusalem, al-aqsa]
+    verified: true
+
+  - slug: battle-of-yarmouk
+    category: battle
+    title_en: Battle of Yarmouk
+    title_ar: معركة اليرموك
+    description_en: |
+      The decisive six-day battle between the Muslim army under Khalid ibn
+      al-Walid and the Byzantine forces of Emperor Heraclius, fought along the
+      Yarmouk river (modern Syria-Jordan border). The Muslim victory effectively
+      ended Byzantine rule over the Levant, opening the region to Islam within
+      a few years.
+    canonical_hijri: {year: 15, month: 5, precision: month}
+    canonical_gregorian: {date: 636-08-20, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "Six-day battle concluding on the sixth day, traditionally 20 August 636."
+      - source_key: ibn_athir_kamil
+    people: [[khalid-ibn-al-walid, leader]]
+    tags: [rashidun, battle, byzantine, levant, khalid]
+    verified: true
+
+  - slug: battle-of-qadisiyyah
+    category: battle
+    title_en: Battle of al-Qadisiyyah
+    title_ar: معركة القادسية
+    description_en: |
+      The decisive battle between the Muslim army under Sa'd ibn Abi Waqqas and
+      the Sasanian Persian forces led by Rustam Farrukhzad. The four-day battle
+      broke the military backbone of the Sasanian Empire, opening Iraq and
+      subsequently Iran to Islam. Traditionally dated to late 15 AH or early 16 AH.
+    canonical_hijri: {year: 15, precision: year}
+    canonical_gregorian: {date: 636-11-16, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+    tags: [rashidun, battle, persia, sasanian, iraq]
+    verified: true
+
+  - slug: death-of-umar
+    category: rashidun
+    title_en: Martyrdom of Caliph Umar ibn al-Khattab
+    title_ar: استشهاد عمر بن الخطاب
+    description_en: |
+      The second caliph was stabbed during the Fajr prayer in the Prophet's ﷺ
+      mosque in Madinah by Abu Lu'lu'a al-Majusi, a Persian slave bearing a
+      grievance. He died three days later after appointing a consultative
+      committee (shura) of six senior Companions to choose his successor. Under
+      his ten-year caliphate, the Islamic state expanded to include all of
+      Arabia, the Levant, Egypt, Iraq, and much of Persia.
+    canonical_hijri: {year: 23, month: 12, day: 26, precision: day}
+    canonical_gregorian: {date: 644-11-03, precision: day, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Narration of the attack during Fajr."
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_sad_tabaqat
+    people: [[umar-ibn-al-khattab, killed]]
+    tags: [rashidun, caliph, madinah, martyrdom]
+    verified: true
+
+  - slug: death-of-uthman
+    category: rashidun
+    title_en: Martyrdom of Caliph Uthman ibn Affan
+    title_ar: استشهاد عثمان بن عفان
+    description_en: |
+      The third caliph was killed in his own home in Madinah by rebels who had
+      besieged him for weeks. He was reading the Qur'an at the moment of his
+      death, and drops of his blood are said to have fallen on the verse
+      (2:137) "Allah will suffice you against them." His caliphate produced the
+      standardized Uthmanic codex of the Qur'an (mushaf), which remains the
+      textual basis of all printed Qur'ans.
+    canonical_hijri: {year: 35, month: 12, day: 18, precision: day}
+    canonical_gregorian: {date: 656-06-17, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+    people: [[uthman-ibn-affan, killed]]
+    tags: [rashidun, caliph, madinah, martyrdom, quran-codex]
+    verified: true
+
+  - slug: death-of-ali
+    category: rashidun
+    title_en: Martyrdom of Caliph Ali ibn Abi Talib
+    title_ar: استشهاد علي بن أبي طالب
+    description_en: |
+      The fourth caliph was struck with a poisoned sword by the Khariji
+      assassin Ibn Muljam while entering the Grand Mosque of Kufa for the
+      Fajr prayer. He died two days later. His caliphate saw the first civil
+      war (fitna) including the Battle of the Camel and the Battle of Siffin
+      against Mu'awiya. He is buried in Najaf.
+    canonical_hijri: {year: 40, month: 9, day: 21, precision: day}
+    canonical_gregorian: {date: 661-01-28, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+    people: [[ali-ibn-abi-talib, killed]]
+    tags: [rashidun, caliph, kufa, martyrdom, ramadan]
+    verified: true
+
+  - slug: battle-of-the-camel
+    category: battle
+    title_en: Battle of the Camel (Jamal)
+    title_ar: معركة الجمل
+    description_en: |
+      The first battle of the First Fitna, fought outside Basra between the
+      forces of Caliph Ali and a coalition led by Aisha, Talha, and al-Zubayr
+      who demanded retribution for the assassination of Uthman. The battle was
+      named for the camel upon which Aisha observed the fighting. Ali's
+      victory consolidated his caliphate but the civil wars would continue.
+    canonical_hijri: {year: 36, month: 6, day: 10, precision: day}
+    canonical_gregorian: {date: 656-12-08, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+    people: [[ali-ibn-abi-talib, leader]]
+    tags: [rashidun, fitna, basra]
+    verified: true
+
+  # =========================================================================
+  # KARBALA AND EARLY UMAYYAD
+  # =========================================================================
+
+  - slug: karbala
+    category: umayyad
+    title_en: Battle of Karbala — Martyrdom of al-Husayn ibn Ali
+    title_ar: كربلاء - استشهاد الإمام الحسين
+    description_en: |
+      al-Husayn ibn Ali, grandson of the Prophet ﷺ, was killed along with 72
+      companions and family members on the plain of Karbala by forces loyal to
+      the Umayyad caliph Yazid ibn Mu'awiya. His severed head was sent to
+      Damascus. The day, 10 Muharram (Ashura), remains one of the most
+      commemorated dates in Islamic history. Husayn's stand is central to Shia
+      Islamic identity and is mourned throughout the Muslim world.
+    canonical_hijri: {year: 61, month: 1, day: 10, precision: day}
+    canonical_gregorian: {date: 680-10-10, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[husayn-ibn-ali, killed], [yazid-ibn-muawiya, opposed]]
+    tags: [umayyad, martyrdom, karbala, ahl-al-bayt, ashura, muharram]
+    verified: true
+
+  - slug: death-of-muawiya
+    category: umayyad
+    title_en: Death of Mu'awiya ibn Abi Sufyan
+    title_ar: وفاة معاوية بن أبي سفيان
+    description_en: |
+      The founder of the Umayyad dynasty and first of its caliphs died in
+      Damascus after a 19-year caliphate. His bequest of the caliphate to his
+      son Yazid transformed the Islamic state from an elected institution into
+      a hereditary monarchy — a decision that would directly precipitate the
+      tragedy of Karbala.
+    canonical_hijri: {year: 60, month: 4, precision: month}
+    canonical_gregorian: {date: 680-04-29, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+    people: [[muawiya-ibn-abi-sufyan, died]]
+    tags: [umayyad, caliph, damascus]
+    verified: true
+
+  - slug: battle-of-guadalete-tariq
+    category: conquest
+    title_en: Battle of Guadalete — Muslim Entry into Iberia
+    title_ar: معركة وادي لكة
+    description_en: |
+      Tariq ibn Ziyad, the Berber commander serving the Umayyad governor of
+      North Africa Musa ibn Nusayr, defeated the Visigothic king Roderic at the
+      Guadalete river in southern Iberia. Tariq had crossed from Ceuta and
+      landed at the rock now bearing his name (Jabal Tariq / Gibraltar). The
+      battle opened Iberia to seven centuries of Muslim rule.
+    canonical_hijri: {year: 92, precision: year}
+    canonical_gregorian: {date: 711-07-19, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+      - source_key: ibn_athir_kamil
+    people: [[tariq-ibn-ziyad, leader]]
+    tags: [umayyad, conquest, iberia, al-andalus, gibraltar]
+    verified: true
+
+  - slug: death-of-umar-ibn-abd-al-aziz
+    category: umayyad
+    title_en: Death of Umar ibn Abd al-Aziz
+    title_ar: وفاة عمر بن عبد العزيز
+    description_en: |
+      The eighth Umayyad caliph, widely considered "the fifth Rashidun caliph"
+      for his justice and asceticism, died after a two-and-a-half year caliphate.
+      He reversed many Umayyad excesses, returning confiscated lands, halting
+      the cursing of Ali from the minbars, and reforming the tax code to extend
+      justice to non-Arab Muslims (mawali).
+    canonical_hijri: {year: 101, month: 2, day: 25, precision: day}
+    canonical_gregorian: {date: 720-02-10, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+    people: [[umar-ibn-abd-al-aziz, died]]
+    tags: [umayyad, caliph, ascetic]
+    verified: true
+
+  - slug: battle-of-tours
+    category: battle
+    title_en: Battle of Tours (Balat al-Shuhada)
+    title_ar: معركة بلاط الشهداء
+    description_en: |
+      An Umayyad raiding force under Abd al-Rahman al-Ghafiqi, governor of
+      al-Andalus, was defeated by the Frankish leader Charles Martel near Tours
+      in central France. The governor was killed in battle — the site is known
+      in Arabic as "the court of the martyrs" (Balat al-Shuhada). The battle
+      marked the furthest European advance of the Umayyad armies north of the
+      Pyrenees.
+    canonical_hijri: {year: 114, month: 10, precision: month}
+    canonical_gregorian: {date: 732-10-10, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+      - source_key: ibn_athir_kamil
+    tags: [umayyad, battle, europe, frankia]
+    verified: true
+
+  - slug: battle-of-the-zab
+    category: battle
+    title_en: Battle of the Zab — Fall of the Umayyads
+    title_ar: معركة الزاب
+    description_en: |
+      The decisive battle of the Abbasid Revolution, fought on the banks of the
+      Greater Zab river in modern Iraq. The last Umayyad caliph Marwan II was
+      defeated by Abbasid forces under Abdullah ibn Ali. Marwan fled to Egypt
+      where he was killed, ending 89 years of Umayyad rule. The sole surviving
+      Umayyad prince, Abd al-Rahman, escaped to al-Andalus and founded the
+      Emirate of Cordoba.
+    canonical_hijri: {year: 132, month: 2, day: 11, precision: day}
+    canonical_gregorian: {date: 750-01-25, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+    tags: [umayyad, abbasid, battle, iraq, revolution]
+    verified: true
+
+  # =========================================================================
+  # ABBASID ERA - SCHOLARS AND CALIPHS
+  # =========================================================================
+
+  - slug: founding-of-baghdad
+    category: founding
+    title_en: Founding of Baghdad (Madinat al-Salam)
+    title_ar: تأسيس بغداد
+    description_en: |
+      Caliph al-Mansur laid the foundations of his new round capital "City of
+      Peace" (Madinat al-Salam) on the west bank of the Tigris. Designed by
+      astrologers and engineers as a perfect circle, the city would grow over
+      the next century into the intellectual capital of the medieval world,
+      home to the House of Wisdom (Bayt al-Hikma) and the center of the
+      Abbasid golden age.
+    canonical_hijri: {year: 145, month: 5, day: 2, precision: day}
+    canonical_gregorian: {date: 762-07-30, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+    people: [[al-mansur-abbasid, leader]]
+    tags: [abbasid, baghdad, founding, madinat-al-salam]
+    verified: true
+
+  - slug: death-of-abu-hanifa
+    category: scholar_death
+    title_en: Death of Imam Abu Hanifa al-Nu'man
+    title_ar: وفاة الإمام أبي حنيفة
+    description_en: |
+      Eponym of the Hanafi madhhab and the earliest of the four great Sunni
+      imams, Abu Hanifa died in Baghdad — reportedly in prison after refusing
+      the position of chief judge offered by Caliph al-Mansur. He is buried in
+      the al-A'zamiyya district of Baghdad, where a shrine bearing his name
+      was later built by Seljuk patronage.
+    canonical_hijri: {year: 150, precision: year}
+    canonical_gregorian: {date: 767-06-15, precision: year, method: reconstructed}
+    claims:
+      - source_key: dhahabi_siyar
+        hijri: {year: 150, precision: year}
+        is_canonical: true
+      - source_key: openiti
+        hijri: {year: 150, precision: year}
+        notes: "AuthorID 0150AbuHanifa."
+    people: [[abu-hanifa, died]]
+    tags: [abbasid, scholar, baghdad, madhhab, hanafi]
+    verified: true
+
+  - slug: death-of-malik
+    category: scholar_death
+    title_en: Death of Imam Malik ibn Anas
+    title_ar: وفاة الإمام مالك بن أنس
+    description_en: |
+      Eponym of the Maliki madhhab and author of "al-Muwatta'" — the earliest
+      surviving book of Islamic law and one of the foundations of hadith
+      literature. He spent his entire life in Madinah, where his school of law
+      was rooted in the practice (amal) of its people. He is buried in the
+      Baqi' cemetery in Madinah.
+    canonical_hijri: {year: 179, month: 3, precision: month}
+    canonical_gregorian: {date: 795-06-15, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        hijri: {year: 179, month: 3, precision: month}
+        is_canonical: true
+        notes: "Month Rabi' al-Awwal."
+      - source_key: openiti
+        hijri: {year: 179, precision: year}
+        notes: "AuthorID 0179MalikIbnAnas."
+    people: [[malik-ibn-anas, died]]
+    tags: [abbasid, scholar, madinah, madhhab, maliki, muwatta]
+    verified: true
+
+  - slug: death-of-harun-al-rashid
+    category: caliph_event
+    title_en: Death of Caliph Harun al-Rashid
+    title_ar: وفاة هارون الرشيد
+    description_en: |
+      The fifth Abbasid caliph, under whose reign the Islamic empire reached
+      the peak of its wealth and cultural prestige, died in Tus (near Mashhad
+      in modern Iran) while on a military campaign. His reign corresponded to
+      the formative decades of the House of Wisdom and the flourishing of
+      scholars like Imam al-Shafi'i in Baghdad.
+    canonical_hijri: {year: 193, month: 3, day: 3, precision: day}
+    canonical_gregorian: {date: 809-03-24, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+    people: [[harun-al-rashid, died]]
+    tags: [abbasid, caliph, khorasan]
+    verified: true
+
+  - slug: death-of-shafii
+    category: scholar_death
+    title_en: Death of Imam al-Shafi'i
+    title_ar: وفاة الإمام الشافعي
+    description_en: |
+      Eponym of the Shafi'i madhhab and founder of Islamic legal theory (usul
+      al-fiqh) through his landmark work "al-Risala." He died in Fustat
+      (Old Cairo) on the last day of Rajab. His tomb at al-Qarafa cemetery in
+      Cairo has been a site of visitation for over a millennium.
+    canonical_hijri: {year: 204, month: 7, day: 30, precision: day}
+    canonical_gregorian: {date: 820-01-20, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        hijri: {year: 204, month: 7, day: 30, precision: day}
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[ash-shafii, died]]
+    tags: [abbasid, scholar, fustat, cairo, madhhab, shafii, usul-al-fiqh]
+    verified: true
+
+  - slug: death-of-ahmad-ibn-hanbal
+    category: scholar_death
+    title_en: Death of Imam Ahmad ibn Hanbal
+    title_ar: وفاة الإمام أحمد بن حنبل
+    description_en: |
+      Eponym of the Hanbali madhhab and the most prolific hadith-collecting
+      imam among the four — his "Musnad" contains approximately 27,000
+      hadiths. He famously endured imprisonment and flogging during the Mihna
+      (inquisition) under three Abbasid caliphs over the question of the
+      createdness of the Qur'an, refusing to recant. He is buried in Baghdad.
+    canonical_hijri: {year: 241, month: 3, day: 12, precision: day}
+    canonical_gregorian: {date: 855-07-31, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        hijri: {year: 241, month: 3, day: 12, precision: day}
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: openiti
+        hijri: {year: 241, precision: year}
+    people: [[ahmad-ibn-hanbal, died]]
+    tags: [abbasid, scholar, baghdad, madhhab, hanbali, mihna]
+    verified: true
+
+  - slug: death-of-bukhari
+    category: scholar_death
+    title_en: Death of Imam al-Bukhari
+    title_ar: وفاة الإمام البخاري
+    description_en: |
+      Author of "al-Jami' al-Sahih" — the most rigorously authenticated hadith
+      collection in Sunni Islam. He compiled his Sahih from approximately
+      600,000 narrations over 16 years. He died in Khartank near Samarqand on
+      the night of Eid al-Fitr, 1 Shawwal 256 AH. His Sahih remains the most
+      authoritative book in Islam after the Qur'an itself.
+    canonical_hijri: {year: 256, month: 10, day: 1, precision: day}
+    canonical_gregorian: {date: 870-09-01, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        hijri: {year: 256, month: 10, day: 1, precision: day}
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: openiti
+        hijri: {year: 256, precision: year}
+    people: [[al-bukhari, died]]
+    tags: [abbasid, scholar, muhaddith, sahih, samarqand]
+    verified: true
+
+  - slug: death-of-muslim
+    category: scholar_death
+    title_en: Death of Imam Muslim ibn al-Hajjaj
+    title_ar: وفاة الإمام مسلم
+    description_en: |
+      Author of "Sahih Muslim" — ranked alongside Sahih al-Bukhari as the most
+      authentic hadith collection. He was a student of al-Bukhari and spent
+      fifteen years compiling approximately 7,500 hadiths (with repetitions)
+      from an initial pool of 300,000. He died in Nishapur at age 55.
+    canonical_hijri: {year: 261, month: 5, day: 25, precision: day}
+    canonical_gregorian: {date: 875-05-07, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        hijri: {year: 261, month: 5, day: 25, precision: day}
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: openiti
+        hijri: {year: 261, precision: year}
+    people: [[muslim-ibn-al-hajjaj, died]]
+    tags: [abbasid, scholar, muhaddith, sahih, nishapur]
+    verified: true
+
+  - slug: death-of-tirmidhi
+    category: scholar_death
+    title_en: Death of Imam al-Tirmidhi
+    title_ar: وفاة الإمام الترمذي
+    description_en: |
+      Author of "al-Jami'" (Sunan al-Tirmidhi) — one of the six canonical
+      hadith collections. He pioneered the systematic classification of
+      hadith by legal strength (sahih, hasan, da'if) and the documentation
+      of the legal positions of the madhhabs after each hadith. He went
+      blind in his later years and died in Bugh, Khorasan.
+    canonical_hijri: {year: 279, month: 12, day: 13, precision: day}
+    canonical_gregorian: {date: 892-10-08, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+    people: [[at-tirmidhi, died]]
+    tags: [abbasid, scholar, muhaddith, khorasan]
+    verified: true
+
+  - slug: death-of-tabari
+    category: scholar_death
+    title_en: Death of Imam al-Tabari
+    title_ar: وفاة الإمام الطبري
+    description_en: |
+      Author of "Tarikh al-Rusul wa'l-Muluk" — the foundational history of
+      Islam and the prophets — and "Jami' al-Bayan," one of the most
+      comprehensive classical tafsirs of the Qur'an. A polymath who founded
+      his own short-lived madhhab (the Jariri school), he died in Baghdad at
+      approximately 86 years of age.
+    canonical_hijri: {year: 310, month: 10, day: 28, precision: day}
+    canonical_gregorian: {date: 923-02-17, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: openiti
+        hijri: {year: 310, precision: year}
+    people: [[at-tabari, died]]
+    tags: [abbasid, scholar, baghdad, historian, mufassir]
+    verified: true
+
+  # =========================================================================
+  # FATIMID AND NORTH AFRICA
+  # =========================================================================
+
+  - slug: founding-of-qarawiyyin
+    category: founding
+    title_en: Founding of al-Qarawiyyin University
+    title_ar: تأسيس جامعة القرويين
+    description_en: |
+      Fatima al-Fihri, a woman of Tunisian origin living in Fez, endowed the
+      mosque and teaching institution that would become al-Qarawiyyin — the
+      oldest continuously operating university in the world according to UNESCO
+      and the Guinness World Records. It remains active today.
+    canonical_hijri: {year: 245, precision: year}
+    canonical_gregorian: {date: 859-06-15, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [north-africa, founding, morocco, fez, qarawiyyin, knowledge]
+    verified: true
+
+  - slug: founding-of-cairo
+    category: founding
+    title_en: Founding of al-Qahira (Cairo)
+    title_ar: تأسيس القاهرة
+    description_en: |
+      The Fatimid general Jawhar al-Siqilli laid the foundations of a new
+      capital north of the existing administrative city of Fustat. The new
+      city was named al-Qahira — "the Victorious" — after the planet Mars
+      (al-Qahir) which was ascendant at the moment of founding. Within three
+      years al-Azhar mosque would be built within its walls.
+    canonical_hijri: {year: 358, month: 8, day: 17, precision: day}
+    canonical_gregorian: {date: 969-07-06, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    tags: [fatimid, founding, cairo, egypt]
+    verified: true
+
+  - slug: founding-of-al-azhar
+    category: founding
+    title_en: Founding of al-Azhar Mosque
+    title_ar: تأسيس الجامع الأزهر
+    description_en: |
+      Al-Azhar — "the most resplendent" — was founded by the Fatimids in their
+      new capital Cairo. By the late eleventh century it had developed from a
+      Friday mosque into a teaching institution, and after Saladin's reconquest
+      of Egypt it became (and remains) the most prominent center of Sunni
+      religious learning in the world.
+    canonical_hijri: {year: 361, month: 8, precision: month}
+    canonical_gregorian: {date: 972-06-22, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    tags: [fatimid, founding, cairo, al-azhar, knowledge]
+    verified: true
+
+  # =========================================================================
+  # AL-ANDALUS
+  # =========================================================================
+
+  - slug: abd-al-rahman-i-enters-andalus
+    category: founding
+    title_en: Abd al-Rahman I Enters al-Andalus
+    title_ar: دخول عبد الرحمن الداخل الأندلس
+    description_en: |
+      The sole surviving Umayyad prince, who had escaped the Abbasid massacre
+      of his family, crossed into al-Andalus after years of flight across
+      Palestine and North Africa. Within a year he would defeat the Abbasid-
+      appointed governor and establish the independent Emirate of Cordoba,
+      which would last 275 years and give rise to some of the greatest
+      flowering of Islamic civilization.
+    canonical_hijri: {year: 138, precision: year}
+    canonical_gregorian: {date: 755-08-14, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    people: [[abd-al-rahman-i, leader]]
+    tags: [al-andalus, umayyad, founding, cordoba]
+    verified: true
+
+  - slug: founding-great-mosque-cordoba
+    category: founding
+    title_en: Founding of the Great Mosque of Cordoba
+    title_ar: تأسيس جامع قرطبة
+    description_en: |
+      Abd al-Rahman I purchased the shared Visigothic basilica from the
+      Christian community of Cordoba and began construction of a new
+      congregational mosque on the site — the building that would become known
+      as La Mezquita. Expanded by successive Umayyad rulers into one of the
+      largest mosques in the medieval world, it remains a unesco-listed
+      monument today.
+    canonical_hijri: {year: 169, precision: year}
+    canonical_gregorian: {date: 785-06-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    people: [[abd-al-rahman-i, leader]]
+    tags: [al-andalus, founding, cordoba, mosque]
+    verified: true
+
+  - slug: fall-of-granada
+    category: conquest
+    title_en: Fall of Granada — End of al-Andalus
+    title_ar: سقوط غرناطة
+    description_en: |
+      After ten years of war, the last Muslim emir of Iberia, Muhammad XII
+      (Boabdil) of the Nasrid dynasty, surrendered Granada to the Catholic
+      Monarchs Ferdinand and Isabella. The treaty initially guaranteed freedom
+      of worship to Muslims, but within a decade forced conversions and
+      expulsions began. The event ended nearly 800 years of Muslim presence
+      in the Iberian peninsula.
+    # 2 Rabīʿ al-Awwal 897 AH per the historically attested Treaty signing
+    # date (al-Maqqarī, Nafḥ al-Ṭīb; Wikipedia · Granada War). Earlier YAML
+    # had month: 7 (Rajab), which is the wrong month — fixed 2026-04-26.
+    canonical_hijri: {year: 897, month: 3, day: 2, precision: day}
+    canonical_gregorian: {date: 1492-01-02, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [al-andalus, fall, nasrid, reconquista, granada]
+    verified: true
+
+  # =========================================================================
+  # CRUSADES AND SALADIN
+  # =========================================================================
+
+  - slug: first-crusade-fall-of-jerusalem
+    category: battle
+    title_en: First Crusade — Fall of Jerusalem to the Crusaders
+    title_ar: سقوط القدس في الحملة الصليبية الأولى
+    description_en: |
+      After a five-week siege, the armies of the First Crusade under Godfrey
+      of Bouillon breached the walls of Jerusalem. The subsequent massacre
+      killed nearly the entire Muslim and Jewish population of the city. The
+      Dome of the Rock was converted into a church and al-Aqsa into a palace
+      of the crusader kings. The city would remain under crusader rule for
+      88 years until Saladin's reconquest.
+    canonical_hijri: {year: 492, month: 8, day: 23, precision: day}
+    canonical_gregorian: {date: 1099-07-15, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    tags: [crusades, jerusalem, al-aqsa]
+    verified: true
+
+  - slug: death-of-ghazali
+    category: scholar_death
+    title_en: Death of Imam al-Ghazali (Hujjat al-Islam)
+    title_ar: وفاة الإمام الغزالي
+    description_en: |
+      Author of "Ihya' 'Ulum al-Din" (The Revival of the Religious Sciences)
+      and one of the most influential Muslim thinkers of the medieval world.
+      After a decade of spiritual seclusion following a crisis of doubt at
+      the peak of his academic career in Baghdad, he returned to teaching in
+      his native Tus, where he died at age 55. His synthesis of fiqh, kalam,
+      and Sufism reshaped Sunni orthodoxy for centuries.
+    canonical_hijri: {year: 505, month: 6, day: 14, precision: day}
+    canonical_gregorian: {date: 1111-12-19, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: openiti
+        hijri: {year: 505, precision: year}
+    people: [[al-ghazali, died]]
+    tags: [seljuk, scholar, khorasan, ihya, sufism]
+    verified: true
+
+  - slug: battle-of-hattin
+    category: battle
+    title_en: Battle of Hattin
+    title_ar: معركة حطين
+    description_en: |
+      The decisive battle of the Second Crusader Kingdom's end. Saladin drew
+      the crusader army of King Guy of Lusignan into the waterless plain of
+      Hattin in Galilee, where thirst, Muslim archers, and brush fires broke
+      the crusader formation. The "True Cross" relic was captured. Within
+      three months nearly every crusader stronghold in the Levant had fallen
+      or surrendered, culminating in the liberation of Jerusalem.
+    canonical_hijri: {year: 583, month: 7, day: 24, precision: day}
+    canonical_gregorian: {date: 1187-07-04, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    people: [[salahuddin-al-ayyubi, leader]]
+    tags: [ayyubid, crusades, saladin, hattin, galilee]
+    verified: true
+
+  - slug: saladin-conquest-of-jerusalem
+    category: conquest
+    title_en: Saladin's Liberation of Jerusalem
+    title_ar: فتح صلاح الدين للقدس
+    description_en: |
+      Saladin entered Jerusalem after negotiated surrender by Balian of Ibelin.
+      In stark contrast to the massacre of 1099, the reconquest was bloodless
+      and the Christian inhabitants were allowed to ransom themselves or depart
+      unharmed. The crosses were removed from the Dome of the Rock and the
+      first Friday prayer in 88 years was held at al-Aqsa. The date coincided
+      with the anniversary of al-Isra wal-Mi'raj.
+    canonical_hijri: {year: 583, month: 10, day: 27, precision: day}
+    canonical_gregorian: {date: 1187-10-02, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    people: [[salahuddin-al-ayyubi, leader]]
+    tags: [ayyubid, crusades, saladin, jerusalem, al-aqsa]
+    verified: true
+
+  - slug: death-of-saladin
+    category: caliph_event
+    title_en: Death of Salah al-Din al-Ayyubi (Saladin)
+    title_ar: وفاة صلاح الدين الأيوبي
+    description_en: |
+      The founder of the Ayyubid dynasty, who had reunited Egypt and Syria
+      under Sunni rule and liberated Jerusalem from the crusaders, died in
+      Damascus at age 56, leaving almost no personal wealth — what remained
+      in his treasury (one dinar and forty dirhams) was insufficient to pay
+      for his shroud. His tomb stands adjacent to the Umayyad Mosque in
+      Damascus.
+    canonical_hijri: {year: 589, month: 2, day: 27, precision: day}
+    canonical_gregorian: {date: 1193-03-04, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[salahuddin-al-ayyubi, died]]
+    tags: [ayyubid, saladin, damascus, death]
+    verified: true
+
+  # =========================================================================
+  # MONGOL ERA
+  # =========================================================================
+
+  - slug: sack-of-baghdad
+    category: battle
+    title_en: Mongol Sack of Baghdad
+    title_ar: سقوط بغداد على يد المغول
+    description_en: |
+      After a 13-day siege, the Mongol army under Hulagu Khan breached Baghdad
+      and slaughtered its inhabitants over a week — classical sources estimate
+      the dead at hundreds of thousands. The last Abbasid caliph al-Musta'sim
+      was wrapped in a carpet and trampled to death. The Grand Library and
+      centuries of scholarship were destroyed, with the Tigris reportedly
+      running black with ink and red with blood. The date marks the end of
+      the Abbasid caliphate in its historical form.
+    canonical_hijri: {year: 656, month: 2, day: 4, precision: day}
+    canonical_gregorian: {date: 1258-02-10, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [mongol, baghdad, abbasid-end, tragedy]
+    verified: true
+
+  - slug: battle-of-ain-jalut
+    category: battle
+    title_en: Battle of Ain Jalut
+    title_ar: معركة عين جالوت
+    description_en: |
+      The Mamluk army under Sultan Qutuz and the future sultan Baybars
+      defeated the Mongol general Kitbuqa at Ayn Jalut (Spring of Goliath) in
+      Palestine. It was the first decisive defeat of the Mongols in open
+      battle and is traditionally seen as the stopping point of their westward
+      expansion, saving the remaining Islamic heartlands from the fate of
+      Baghdad.
+    canonical_hijri: {year: 658, month: 9, day: 25, precision: day}
+    canonical_gregorian: {date: 1260-09-03, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[baybars, participant]]
+    tags: [mamluk, mongol, battle, palestine]
+    verified: true
+
+  # =========================================================================
+  # MAMLUK ERA SCHOLARS
+  # =========================================================================
+
+  - slug: death-of-nawawi
+    category: scholar_death
+    title_en: Death of Imam al-Nawawi
+    title_ar: وفاة الإمام النووي
+    description_en: |
+      Author of "Riyad al-Salihin," "al-Arba'in al-Nawawiyya" (the Forty
+      Hadith), the "Minhaj" commentary on Sahih Muslim, and foundational
+      works of the late Shafi'i madhhab. He led an ascetic life in Damascus
+      and refused all paid teaching positions. He died at age 44 in his
+      native Nawa, Syria.
+    canonical_hijri: {year: 676, month: 7, day: 24, precision: day}
+    canonical_gregorian: {date: 1277-12-22, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[an-nawawi, died]]
+    tags: [mamluk, scholar, damascus, shafii]
+    verified: true
+
+  - slug: death-of-ibn-taymiyya
+    category: scholar_death
+    title_en: Death of Shaykh al-Islam Ibn Taymiyya
+    title_ar: وفاة شيخ الإسلام ابن تيمية
+    description_en: |
+      One of the most consequential medieval Muslim thinkers, author of more
+      than three hundred works on theology, law, and refutation of heterodox
+      sects. He died in the Damascus citadel where he had been imprisoned
+      for his legal opinions, leaving unfinished commentaries on the Qur'an
+      and fiqh. His influence on later revivalist movements — from Ibn al-
+      Qayyim to Muhammad ibn Abd al-Wahhab — has been profound.
+    canonical_hijri: {year: 728, month: 11, day: 20, precision: day}
+    canonical_gregorian: {date: 1328-09-26, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: openiti
+        hijri: {year: 728, precision: year}
+    people: [[ibn-taymiyya, died]]
+    tags: [mamluk, scholar, damascus]
+    verified: true
+
+  - slug: death-of-ibn-al-qayyim
+    category: scholar_death
+    title_en: Death of Ibn Qayyim al-Jawziyya
+    title_ar: وفاة ابن قيم الجوزية
+    description_en: |
+      Principal student of Ibn Taymiyya and prolific author whose works
+      include "Zad al-Ma'ad," "Madarij al-Salikin," and "I'lam al-Muwaqqi'in."
+      He was imprisoned alongside his teacher and took leadership of the
+      revivalist circle after Ibn Taymiyya's death. He died in Damascus and
+      is buried in the Bab al-Saghir cemetery.
+    canonical_hijri: {year: 751, month: 7, day: 13, precision: day}
+    canonical_gregorian: {date: 1350-09-15, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+    people: [[ibn-al-qayyim, died]]
+    tags: [mamluk, scholar, damascus]
+    verified: true
+
+  - slug: death-of-ibn-kathir
+    category: scholar_death
+    title_en: Death of Ibn Kathir
+    title_ar: وفاة ابن كثير
+    description_en: |
+      Author of "Tafsir al-Qur'an al-'Azim" — one of the most widely read
+      classical tafsirs — and "al-Bidaya wa'l-Nihaya," a monumental universal
+      history. A student of Ibn Taymiyya, he served as chief mufti and
+      professor in Damascus. He went blind in his final years and died in
+      his native Damascus.
+    canonical_hijri: {year: 774, month: 8, precision: month}
+    canonical_gregorian: {date: 1373-02-15, precision: month, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+    people: [[ibn-kathir, died]]
+    tags: [mamluk, scholar, damascus, mufassir, historian]
+    verified: true
+
+  - slug: death-of-ibn-khaldun
+    category: scholar_death
+    title_en: Death of Ibn Khaldun
+    title_ar: وفاة ابن خلدون
+    description_en: |
+      Author of the "Muqaddima" — widely regarded as the founding work of
+      sociology, historiography, and the philosophy of history. After a career
+      in the courts of the Maghreb and al-Andalus, he settled in Cairo as
+      Maliki chief justice. He is buried in the Sufi cemetery outside Bab
+      al-Nasr in Cairo.
+    canonical_hijri: {year: 808, month: 7, day: 26, precision: day}
+    canonical_gregorian: {date: 1406-03-17, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[ibn-khaldun, died]]
+    tags: [mamluk, scholar, cairo, historian, sociology, maghreb]
+    verified: true
+
+  - slug: death-of-ibn-hajar
+    category: scholar_death
+    title_en: Death of Ibn Hajar al-'Asqalani
+    title_ar: وفاة ابن حجر العسقلاني
+    description_en: |
+      Author of "Fath al-Bari" — the definitive commentary on Sahih al-Bukhari
+      — as well as "al-Isaba fi Tamyiz al-Sahaba," "Tahdhib al-Tahdhib," and
+      numerous other foundational works in hadith, rijal, and history. He
+      served for decades as chief Shafi'i judge of Egypt and is buried in
+      al-Qarafa cemetery, Cairo.
+    canonical_hijri: {year: 852, month: 12, day: 28, precision: day}
+    canonical_gregorian: {date: 1449-02-22, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[ibn-hajar-al-asqalani, died]]
+    tags: [mamluk, scholar, cairo, hadith, fath-al-bari]
+    verified: true
+
+  # =========================================================================
+  # OTTOMAN ERA
+  # =========================================================================
+
+  - slug: fall-of-constantinople
+    category: conquest
+    title_en: Conquest of Constantinople (Istanbul)
+    title_ar: فتح القسطنطينية
+    description_en: |
+      After a 53-day siege, Sultan Mehmed II — thereafter called al-Fatih ("the
+      Conqueror") — entered Constantinople, ending the 1,123-year-old Eastern
+      Roman Empire. The twenty-one-year-old sultan entered Hagia Sophia and
+      prayed the first Jumu'ah prayer there the following Friday. The event
+      fulfilled a hadith narrated in the Musnad of Ahmad: "Constantinople
+      will surely be conquered; what an excellent commander her commander, and
+      what an excellent army that army." The city would become the capital
+      of the Ottoman Empire for the next 470 years.
+    canonical_hijri: {year: 857, month: 4, day: 20, precision: day}
+    canonical_gregorian: {date: 1453-05-29, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[mehmed-ii, leader]]
+    tags: [ottoman, conquest, constantinople, istanbul, al-fatih, hadith-fulfillment]
+    verified: true
+
+  - slug: battle-of-mohacs
+    category: battle
+    title_en: Battle of Mohács
+    title_ar: معركة موهاكس
+    description_en: |
+      Sultan Suleiman the Magnificent decisively defeated the Hungarian army
+      of King Louis II at Mohács in southern Hungary, killing the king and
+      much of the Hungarian nobility. The victory brought most of Hungary
+      under Ottoman rule and opened the path to the first Siege of Vienna
+      three years later. It marks the Ottoman high-water mark in central
+      Europe.
+    canonical_hijri: {year: 932, month: 12, day: 21, precision: day}
+    canonical_gregorian: {date: 1526-08-29, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[suleiman-the-magnificent, leader]]
+    tags: [ottoman, battle, hungary, suleiman]
+    verified: true
+
+  - slug: death-of-suleiman
+    category: caliph_event
+    title_en: Death of Sultan Suleiman the Magnificent
+    title_ar: وفاة السلطان سليمان القانوني
+    description_en: |
+      Suleiman I — known in the West as "the Magnificent" and to his subjects
+      as "al-Qanuni" (the Lawgiver) for his codification of Ottoman law — died
+      during the siege of Szigetvár in Hungary. Under his 46-year reign the
+      Ottoman Empire reached its zenith in wealth, territorial extent, and
+      cultural achievement. His death was concealed for weeks so the campaign
+      could continue.
+    canonical_hijri: {year: 974, month: 4, day: 21, precision: day}
+    canonical_gregorian: {date: 1566-09-06, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[suleiman-the-magnificent, died]]
+    tags: [ottoman, sultan, hungary]
+    verified: true
+
+  - slug: death-of-suyuti
+    category: scholar_death
+    title_en: Death of Imam al-Suyuti
+    title_ar: وفاة الإمام السيوطي
+    description_en: |
+      One of the most prolific Muslim scholars of all time, credited with
+      approximately 600 works across tafsir, hadith, fiqh, Arabic language,
+      and history — including the "Tafsir al-Jalalayn" (co-authored with his
+      teacher al-Mahalli), "al-Itqan fi Ulum al-Qur'an," and "Tarikh al-
+      Khulafa'." He spent his final decades in seclusion on Rawda Island in
+      the Nile, refusing all company and visitors.
+    canonical_hijri: {year: 911, month: 10, day: 19, precision: day}
+    canonical_gregorian: {date: 1505-10-17, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[as-suyuti, died]]
+    tags: [mamluk-ottoman, scholar, cairo, egypt]
+    verified: true

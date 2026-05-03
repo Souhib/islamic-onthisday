@@ -1,0 +1,1045 @@
+# Wave 13 of curated event additions (2026-04-26).
+# 1 founder of Ash'ari creed + 1 Ahl al-Bayt sayyid + 3 sahaba/tabi'un
+# + 2 maghrebi maliki + 1 hanafi muhaddith + 1 yemeni hadith giant
+# + 1 naqshbandi reformer + 1 chishti master + 4 prophetic-era and
+# rashidun events. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # FOUNDER OF ASH'ARI CREED
+  # =========================================================================
+
+  - slug: death-of-al-ashari
+    category: scholar
+    title_en: Death of Abu al-Hasan al-Ashʿari — Founder of the Ashʿari Creed
+    title_ar: وفاة أبي الحسن الأشعري — مؤسس العقيدة الأشعرية
+    title_fr: Mort d'Abū al-Ḥasan al-Ashʿarī — fondateur du credo ashʿarite
+    description_en: |
+      Abu al-Hasan ʿAli ibn Ismaʿil al-Ashʿari — Shafiʿi scholar
+      of Basra and Baghdad, eponymous founder of the Ashʿari
+      school of Sunni theology that, alongside the Maturidi
+      school of his exact contemporary Abu Manṣur al-Maturidi,
+      came to define Sunni orthodox kalam — died in Baghdad at
+      age about 64. He was raised in the Muʿtazili school under
+      his stepfather al-Jubbaʾi but at age 40 publicly renounced
+      Muʿtazili rationalism and embraced the Athari position of
+      Aḥmad ibn Ḥanbal on the divine attributes — though
+      adopting kalam-method argumentation in defending it
+      against Muʿtazili and rationalist challenges. His major
+      surviving works include *al-Ibana ʿan Uṣul al-Diyana*,
+      *Maqalat al-Islamiyyin* (the foundational doxographical
+      survey of Islamic schools through the early fourth century
+      AH), and *al-Lumaʿ*. The Ashʿari creed, systematised by
+      al-Baqillani, al-Juwayni, and al-Ghazali after him, became
+      the dominant theology of the Shafiʿi and Maliki madhahib
+      and remains the official creed today across Egypt, the
+      Levant, the Maghreb, Yemen, the Indian subcontinent
+      coastal Sunni networks, and Southeast Asia.
+    description_ar: |
+      توفي الإمام أبو الحسن علي بن إسماعيل الأشعري — فقيه شافعي
+      بالبصرة وبغداد، ومؤسس المدرسة الأشعرية في علم العقيدة
+      عند أهل السنة، التي صارت — مع المدرسة الماتريدية لمعاصره
+      أبي منصور الماتريدي — هي المدرستان السنيتان المعتبرتان
+      في علم الكلام — ببغداد عن نحو أربع وستين سنة. نشأ على
+      المعتزلة عند زوج أمه أبي علي الجبائي، فلما بلغ أربعين سنة
+      خرج عليهم في مسجد البصرة الجامع وأعلن الرجوع إلى مذهب
+      أحمد بن حنبل في الصفات — وإن استخدم منهج الكلام في
+      الدفاع عنه ضد المعتزلة وأهل التأويل العقلي. ومن أهم ما
+      وصل من كتبه: «الإبانة عن أصول الديانة»، و«مقالات
+      الإسلاميين» (الكتاب الأم في المذاهب الإسلامية إلى
+      أوائل القرن الرابع الهجري)، و«اللمع». ونهج الأشعرية
+      الذي قنّنه الباقلاني والجويني والغزالي بعده، صار
+      السائد عند الشافعية والمالكية، وما زال العقيدة الرسمية
+      اليوم في مصر والشام والمغرب الإسلامي واليمن وشبكات
+      السنة الساحلية بشبه القارة الهندية وجنوب شرق آسيا.
+    description_fr: |
+      Abu al-Ḥasan ʿAli ibn Ismāʿīl al-Ashʿarī — savant shāfiʿite
+      de Bassora et Bagdad, fondateur éponyme de l'école
+      ashʿarite de la théologie sunnite qui, aux côtés de
+      l'école māturīdite de son strict contemporain Abū Manṣūr
+      al-Māturīdī, en vint à définir le *kalām* sunnite
+      orthodoxe — mourut à Bagdad à l'âge d'environ 64 ans. Il
+      fut élevé dans l'école muʿtazilite sous son beau-père
+      al-Jubbāʾī mais à 40 ans renonça publiquement au
+      rationalisme muʿtazilite et embrassa la position athari
+      d'Aḥmad ibn Ḥanbal sur les attributs divins — tout en
+      adoptant l'argumentation par méthode *kalām* pour la
+      défendre contre les défis muʿtazilites et rationalistes.
+      Ses œuvres majeures survivantes incluent *al-Ibāna ʿan
+      Uṣūl al-Diyāna*, *Maqālāt al-Islāmiyyīn* (l'enquête
+      doxographique fondatrice des écoles islamiques jusqu'au
+      début du IVe siècle de l'Hégire), et *al-Lumaʿ*. Le credo
+      ashʿarite, systématisé par al-Bāqillānī, al-Juwaynī et
+      al-Ghazālī après lui, devint la théologie dominante des
+      madhāhib shāfiʿite et malikite et demeure le credo officiel
+      aujourd'hui à travers l'Égypte, le Levant, le Maghreb, le
+      Yémen, les réseaux sunnites côtiers du sous-continent
+      indien et l'Asie du Sud-Est.
+    canonical_hijri: {year: 324, precision: year}
+    canonical_gregorian: {date: 936-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-ashari, subject], [al-maturidi, subject]]
+    tags: [shafii, ashari, kalam, baghdad, basra, abbasid, creed]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Ash%27ari"
+
+  # =========================================================================
+  # SAHABA / AHL AL-BAYT
+  # =========================================================================
+
+  - slug: death-of-aqil-ibn-abi-talib
+    category: companion
+    title_en: Death of ʿAqil ibn Abi Ṭalib ra
+    title_ar: وفاة عقيل بن أبي طالب رضي الله عنه
+    title_fr: Mort de ʿAqīl ibn Abī Ṭālib ra
+    description_en: |
+      Abu Yazid ʿAqil ibn Abi Ṭalib ibn ʿAbd al-Muṭṭalib —
+      paternal first cousin of the Prophet ﷺ, elder brother of
+      ʿAli ra and Jaʿfar ra, the leading authority on Quraysh
+      genealogy in the early Islamic period — died in Medina
+      at age about 96. He was captured at Badr fighting on the
+      Quraysh side, ransomed by his uncle al-ʿAbbas, and
+      embraced Islam shortly before the Conquest of Mecca. He
+      was the principal informant of all later genealogists
+      (most prominently Ibn al-Kalbi and al-Zubayr ibn Bakkar)
+      on the lineages and family histories of Quraysh; the
+      knowledge that survives of pre-Islamic Meccan tribal
+      structure largely descends through him. He retired into
+      neutrality during the first fitna, lodging with Muʿawiya
+      ra in Damascus while continuing to defend his brother
+      ʿAli's right to the caliphate.
+    description_ar: |
+      توفي أبو يزيد عقيل بن أبي طالب بن عبد المطلب رضي الله عنه
+      — ابن عم النبي ﷺ من أبيه، وأكبر إخوة علي وجعفر رضي الله
+      عنهما، وكبير علماء أنساب قريش في عصر الإسلام الأول —
+      بالمدينة المنورة عن نحو ست وتسعين سنة. أُسر يوم بدر وكان
+      مع المشركين، فافتداه عمه العباس، وأسلم قبيل فتح مكة. وكان
+      المخبر الأصلي لكل نسابة لاحق (ولا سيما ابن الكلبي والزبير
+      بن بكار) في أنساب قريش وتراجم بطونها؛ وما حفظ من أنسابهم
+      في الجاهلية ينحدر في عامته منه. واعتزل في الفتنة الأولى
+      لاجئاً إلى معاوية رضي الله عنه بدمشق، مع دفاعه المستمر عن
+      أحقية أخيه علي رضي الله عنه بالخلافة.
+    description_fr: |
+      Abu Yazīd ʿAqīl ibn Abī Ṭālib ibn ʿAbd al-Muṭṭalib —
+      cousin germain paternel du Prophète ﷺ, frère aîné d'ʿAlī
+      ra et de Jaʿfar ra, principale autorité sur la généalogie
+      de Quraysh à la période islamique ancienne — mourut à
+      Médine à l'âge d'environ 96 ans. Il fut capturé à Badr
+      combattant du côté de Quraysh, racheté par son oncle
+      al-ʿAbbās, et embrassa l'Islam peu avant la conquête de
+      La Mecque. Il fut l'informateur principal de tous les
+      généalogistes ultérieurs (le plus en vue Ibn al-Kalbī et
+      al-Zubayr ibn Bakkār) sur les lignées et les histoires
+      familiales de Quraysh; la connaissance qui survit de la
+      structure tribale mecquoise préislamique descend largement
+      à travers lui. Il se retira dans la neutralité durant la
+      première *fitna*, logeant avec Muʿāwiya ra à Damas tout
+      en continuant à défendre le droit de son frère ʿAlī au
+      califat.
+    canonical_hijri: {year: 54, precision: year}
+    canonical_gregorian: {date: 674-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[aqil-ibn-abi-talib, subject], [ali-ibn-abi-talib, subject]]
+    tags: [sahaba, banu-hashim, quraysh, genealogy, fitna, medina]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Aqil_ibn_Abi_Talib"
+
+  - slug: death-of-bara-ibn-malik
+    category: companion
+    title_en: Martyrdom of al-Baraʾ ibn Malik ra at Tustar
+    title_ar: استشهاد البراء بن مالك رضي الله عنه يوم تستر
+    title_fr: Martyre d'al-Barāʾ ibn Mālik ra à Tustar
+    description_en: |
+      al-Baraʾ ibn Malik al-Anṣari — brother of Anas ibn Malik
+      ra (the Prophet's ﷺ servant), Companion who killed in
+      hand-to-hand combat the apostate "false prophet"
+      Musaylima at the Battle of Yamama (12 AH) and so received
+      the divine reward the Prophet ﷺ had foretold for his
+      killer, and the foremost individual warrior of the early
+      Companion generation — fell martyred at the Battle of
+      Tustar in 20 AH at the age of about 50. The Prophet ﷺ
+      had said of him in a hadith of Tirmidhi: "How many a
+      dishevelled, dust-stained one, with a single garment,
+      whom none would heed — but if he swore by Allah, Allah
+      would fulfil his oath; al-Baraʾ ibn Malik is one of them."
+      During the siege of Tustar he was thrown by his
+      Companions over the Persian fortress wall in a hooked
+      basket to lift the latch from inside — a grievously
+      dangerous tactic that he survived in this engagement and
+      that earned him decisive military fame.
+    description_ar: |
+      استشهد الإمام البراء بن مالك الأنصاري رضي الله عنه — أخو أنس
+      بن مالك خادم رسول الله ﷺ، الصحابي الذي قتل في مبارزة
+      مسيلمة الكذاب يوم اليمامة سنة ١٢ هـ فأخذ من الله الجزاء
+      الذي بشّر النبي ﷺ به قاتله، وأمضى المحاربين الأفراد في
+      الجيل الصحابي الأول — في معركة تستر سنة عشرين للهجرة عن
+      نحو خمسين سنة. قال فيه النبي ﷺ في حديث الترمذي: «رب
+      أشعث أغبر، ذي طمرين، لا يؤبه له، لو أقسم على الله لأبره؛
+      منهم البراء بن مالك». وفي حصار تستر ألقاه إخوانه عبر سور
+      حصن الفرس في كلاب مرفوع ليفتح الباب من الداخل — تكتيك
+      شديد الخطر نجا منه في هذه المعركة وكسب به شهرة عسكرية
+      حاسمة.
+    description_fr: |
+      al-Barāʾ ibn Mālik al-Anṣārī — frère d'Anas ibn Mālik ra
+      (le serviteur du Prophète ﷺ), Compagnon qui tua en combat
+      singulier le faux prophète apostat Musaylima à la
+      bataille de Yamāma (12 H) et reçut ainsi la récompense
+      divine que le Prophète ﷺ avait promise à son tueur, et le
+      plus éminent guerrier individuel de la première génération
+      des Compagnons — tomba martyr à la bataille de Tustar en
+      20 H à l'âge d'environ 50 ans. Le Prophète ﷺ dit de lui
+      dans un hadith de Tirmidhī : « combien d'ébouriffés,
+      poussiéreux, avec un seul vêtement, à qui nul ne prêterait
+      attention — mais s'ils juraient par Allah, Allah
+      accomplirait leur serment; al-Barāʾ ibn Mālik en est un ».
+      Durant le siège de Tustar, il fut lancé par ses compagnons
+      par-dessus le mur de la forteresse perse dans un panier à
+      crochets pour soulever le verrou de l'intérieur — une
+      tactique gravement dangereuse à laquelle il survécut dans
+      cet engagement et qui lui valut une renommée militaire
+      décisive.
+    canonical_hijri: {year: 20, precision: year}
+    canonical_gregorian: {date: 641-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    people: [[bara-ibn-malik, subject], [anas-ibn-malik, subject]]
+    tags: [sahaba, ansar, yamama, tustar, martyrdom, musaylima]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Bara_ibn_Malik"
+
+  - slug: death-of-ali-zayn-al-abidin
+    category: ahl_al_bayt
+    title_en: Death of ʿAli Zayn al-ʿAbidin
+    title_ar: وفاة علي زين العابدين
+    title_fr: Mort d'ʿAlī Zayn al-ʿĀbidīn
+    description_en: |
+      ʿAli ibn al-Husayn ibn ʿAli ibn Abi Ṭalib, known as Zayn
+      al-ʿAbidin ("Ornament of the Worshippers") — only son of
+      al-Husayn ibn ʿAli ra to survive the massacre at Karbala
+      (61 AH), where the eight-year-old future imam was spared
+      due to severe illness, and the senior figure of the
+      Prophetic family in the second generation — died in
+      Medina at age about 57. The Sunni tradition reveres him
+      as one of the seven foundational tabiʿun jurists of
+      Medina (the Shia tradition counts him as the fourth Imam).
+      Imam Malik narrated extensively from him; his maxim "the
+      tongue is more deserving of imprisonment than the wild
+      beast" became proverbial. His *al-Ṣaḥifa al-Sajjadiyya*
+      (a collection of supplications) is canonical Shia text but
+      also widely received in Sunni adab literature. He was
+      famously charitable, secretly carrying food at night to
+      Medinan widows and orphans for thirty years; only after
+      his death was the source of their sustenance discovered.
+    description_ar: |
+      توفي الإمام علي بن الحسين بن علي بن أبي طالب — المعروف
+      بـ«زين العابدين»، الابن الوحيد للإمام الحسين رضي الله عنه
+      الذي نجا من مذبحة كربلاء (٦١ هـ)، حيث استثني الإمام
+      المقبل من القتل وعمره ثماني سنوات بسبب مرضه الشديد، وكبير
+      آل البيت في الجيل الثاني — بالمدينة المنورة عن نحو سبع
+      وخمسين سنة. وأهل السنة يعدونه من فقهاء التابعين السبعة
+      المؤسسين بالمدينة (وأهل التشيع يعدونه الإمام الرابع).
+      روى عنه الإمام مالك كثيراً، وقاله المضرب به المثل:
+      «اللسان أحق بسجن من السبع». و«صحيفته السجادية» (مجموعة
+      الأدعية) نص شيعي رسمي، لكنه يُروى على نطاق واسع في أدب
+      أهل السنة. واشتهر بالصدقة، فكان يحمل الطعام بنفسه ليلاً
+      إلى أرامل المدينة وأيتامها سراً ثلاثين سنة؛ ولم يكتشف
+      مصدر معاشهم إلا بعد وفاته.
+    description_fr: |
+      ʿAlī ibn al-Ḥusayn ibn ʿAlī ibn Abī Ṭālib, connu sous le
+      nom de Zayn al-ʿĀbidīn (« Ornement des Adorateurs ») —
+      seul fils d'al-Ḥusayn ibn ʿAlī ra à survivre au massacre
+      de Kerbala (61 H), où l'imam futur de huit ans fut épargné
+      en raison d'une maladie sévère, et la figure principale
+      de la famille prophétique à la seconde génération —
+      mourut à Médine à l'âge d'environ 57 ans. La tradition
+      sunnite le révère comme l'un des sept jurisconsultes
+      tabiʿūn fondateurs de Médine (la tradition chiite le
+      compte comme le quatrième imam). L'imam Mālik rapporta
+      abondamment de lui; sa maxime « la langue mérite plus la
+      prison que la bête sauvage » devint proverbiale. Son
+      *al-Ṣaḥīfa al-Sajjādiyya* (un recueil de supplications)
+      est un texte chiite canonique mais aussi largement reçu
+      dans la littérature *adab* sunnite. Il était célèbrement
+      charitable, portant secrètement de la nourriture la nuit
+      aux veuves et aux orphelins médinois pendant trente ans;
+      ce ne fut qu'après sa mort que la source de leur subsistance
+      fut découverte.
+    canonical_hijri: {year: 94, month: 1, precision: month}
+    canonical_gregorian: {date: 712-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ali-zayn-al-abidin, subject], [husayn-ibn-ali, subject]]
+    tags: [ahl-al-bayt, tabi'un, fuqaha-al-sabʿa, medina, karbala, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ali_ibn_Husayn_Zayn_al-Abidin"
+
+  - slug: death-of-al-aswad-al-nakhai
+    category: scholar
+    title_en: Death of al-Aswad ibn Yazid al-Nakhaʿi
+    title_ar: وفاة الأسود بن يزيد النخعي
+    title_fr: Mort d'al-Aswad ibn Yazīd al-Nakhaʿī
+    description_en: |
+      Abu ʿAmr al-Aswad ibn Yazid al-Nakhaʿi — leading tabiʿi
+      jurist of Kufa, foremost direct student of ʿAbdullah ibn
+      Masʿud ra, and a primary teacher of Ibrahim al-Nakhaʿi
+      (whose own student Hammad ibn Abi Sulayman would teach
+      Abu Hanifa) — died in Kufa at age about 75. The Iraqi
+      jurisprudential lineage that runs from Ibn Masʿud through
+      al-Aswad and his brother ʿAlqama ibn Qays to Ibrahim al-
+      Nakhaʿi to Hammad to Abu Hanifa is the foundation of the
+      Hanafi madhhab; al-Aswad's positions are quoted throughout
+      ʿAbd al-Razzaq al-Ṣanʿani's *Muṣannaf* and Ibn Abi Shayba's
+      *Muṣannaf* as defining the early Iraqi school. He
+      performed Hajj more than seventy times. al-Shaʿbi said of
+      him: "Al-Aswad would fast in summer until I thought he
+      would die, then break the fast at night to a single
+      morsel — and he was a stalwart of all the prayers."
+    description_ar: |
+      توفي الإمام أبو عمرو الأسود بن يزيد النخعي — كبير فقهاء
+      التابعين بالكوفة، أعلم تلاميذ عبد الله بن مسعود رضي الله
+      عنه مباشرة، وشيخ إبراهيم النخعي (الذي ستلميذه حماد بن
+      أبي سليمان مدرّس أبي حنيفة) — بالكوفة عن نحو خمس
+      وسبعين سنة. والسلسلة الفقهية العراقية الجارية من ابن
+      مسعود عبر الأسود وأخيه علقمة بن قيس إلى إبراهيم النخعي
+      إلى حماد إلى أبي حنيفة هي الأصل الذي قام عليه المذهب
+      الحنفي؛ وأقوال الأسود مذكورة في «مصنف» عبد الرزاق
+      الصنعاني و«مصنف» ابن أبي شيبة بصفتها معالم لمدرسة العراق
+      الباكر. حج رحمه الله أكثر من سبعين حجة. قال عنه الشعبي:
+      «كان الأسود يصوم في الصيف حتى أحسبه ميتاً ثم يفطر
+      ليلاً على كسرة — وكان قائماً في الصلوات كلها».
+    description_fr: |
+      Abu ʿAmr al-Aswad ibn Yazīd al-Nakhaʿī — principal juriste
+      tabiʿī de Koufa, premier élève direct d'ʿAbdullāh ibn
+      Masʿūd ra, et l'un des principaux enseignants d'Ibrāhīm
+      al-Nakhaʿī (dont l'élève Ḥammād ibn Abī Sulaymān
+      enseignerait Abū Ḥanīfa) — mourut à Koufa à l'âge
+      d'environ 75 ans. La lignée jurisprudentielle irakienne
+      qui passe d'Ibn Masʿūd à travers al-Aswad et son frère
+      ʿAlqama ibn Qays jusqu'à Ibrāhīm al-Nakhaʿī à Ḥammād à
+      Abū Ḥanīfa est le fondement du madhhab hanafite; les
+      positions d'al-Aswad sont citées tout du long dans le
+      *Muṣannaf* de ʿAbd al-Razzāq al-Ṣanʿānī et le *Muṣannaf*
+      d'Ibn Abī Shayba comme définissant l'école irakienne
+      ancienne. Il accomplit le Ḥajj plus de soixante-dix fois.
+      al-Shaʿbī dit de lui : « al-Aswad jeûnait en été jusqu'à
+      ce que je le crusse mort, puis rompait le jeûne la nuit
+      sur un seul morceau — et il était un pilier de toutes les
+      prières ».
+    canonical_hijri: {year: 74, precision: year}
+    canonical_gregorian: {date: 694-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-aswad-al-nakhai, subject], [abdullah-ibn-masud, subject]]
+    tags: [tabi'un, kufa, hanafi, ibn-masud, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Aswad_ibn_Yazid"
+
+  # =========================================================================
+  # MAGHREBI MALIKI + MUHADDITHUN
+  # =========================================================================
+
+  - slug: death-of-ibn-abi-zayd
+    category: scholar
+    title_en: Death of Ibn Abi Zayd al-Qayrawani — Author of al-Risala
+    title_ar: وفاة ابن أبي زيد القيرواني — صاحب «الرسالة»
+    title_fr: Mort d'Ibn Abī Zayd al-Qayrawānī — auteur de *al-Risāla*
+    description_en: |
+      Abu Muhammad ʿAbdullah ibn Abi Zayd al-Qayrawani — Maliki
+      jurist of Qayrawan, called by his contemporaries *Malik
+      al-Saghir* ("the little Malik") for his command of Maliki
+      fiqh, and author of *al-Risala fi al-Fiqh* — the
+      foundational primer of the Maliki madhhab, taught to
+      every Maliki child for a millennium and the most-
+      memorised legal text in the entire Sunni tradition — died
+      in Qayrawan at age about 76. *al-Risala* compresses the
+      essential Maliki rulings on creed, ritual purity, prayer,
+      fasting, almsgiving, and pilgrimage into a single
+      120-page treatise of remarkable lucidity; its many
+      classical commentaries (most famously al-Fakihani's and
+      Zarruq's) constitute their own genre. His *al-Nawadir
+      wa-l-Ziyadat* in fifteen volumes is the largest single
+      compilation of Maliki rulings beyond *al-Mudawwana*. He
+      defended Sunni Maliki orthodoxy against the Fatimid
+      Ismaʿili presence in North Africa.
+    description_ar: |
+      توفي الإمام أبو محمد عبد الله بن أبي زيد القيرواني — فقيه
+      مالكي بالقيروان، الملقب عند أقرانه بـ«مالك الصغير»
+      لإحاطته بالمذهب المالكي، ومصنف «الرسالة في الفقه» — متن
+      المذهب المالكي الأم، يدرّس لكل صبي مالكي قرابة ألف سنة،
+      وأكثر متن فقهي حفظاً في تراث أهل السنة كله — بالقيروان
+      عن نحو ست وسبعين سنة. وتركز «الرسالة» الأحكام المالكية
+      الأصلية في العقيدة والطهارة والصلاة والصيام والزكاة والحج
+      في متن في مئة وعشرين صفحة من اللوضوح اللافت؛ وشروحها
+      الكلاسيكية الكثيرة (أشهرها للفاكهاني وزرّوق) صنف
+      مستقل بذاته. وكتابه «النوادر والزيادات» في خمسة عشر
+      مجلداً أكبر مجموعة فقهية مالكية بعد «المدونة». ودافع
+      رحمه الله عن العقيدة السنية المالكية في وجه الوجود
+      الفاطمي الإسماعيلي بشمال أفريقيا.
+    description_fr: |
+      Abu Muḥammad ʿAbdallāh ibn Abī Zayd al-Qayrawānī —
+      juriste malikite de Qayrawan, appelé par ses contemporains
+      *Mālik al-Ṣaghīr* (« le petit Mālik ») pour sa maîtrise
+      du fiqh malikite, et auteur de *al-Risāla fī al-Fiqh* —
+      le manuel fondateur du madhhab malikite, enseigné à
+      chaque enfant malikite pendant un millénaire et le texte
+      juridique le plus mémorisé de toute la tradition sunnite
+      — mourut à Qayrawan à l'âge d'environ 76 ans. *al-Risāla*
+      condense les jugements malikites essentiels sur le credo,
+      la pureté rituelle, la prière, le jeûne, l'aumône et le
+      pèlerinage en un traité unique de 120 pages d'une lucidité
+      remarquable; ses nombreux commentaires classiques (les
+      plus célèbres d'al-Fākihānī et de Zarrūq) constituent
+      leur propre genre. Son *al-Nawādir wa-l-Ziyādāt* en quinze
+      volumes est la plus grande compilation unique de jugements
+      malikites au-delà d'*al-Mudawwana*. Il défendit
+      l'orthodoxie sunnite malikite contre la présence
+      ismaélienne fatimide en Afrique du Nord.
+    canonical_hijri: {year: 386, precision: year}
+    canonical_gregorian: {date: 996-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-abi-zayd, subject]]
+    tags: [maliki, qayrawan, ifriqiya, fatimid, risala, fiqh]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Abi_Zayd_al-Qayrawani"
+
+  - slug: death-of-al-lakhmi
+    category: scholar
+    title_en: Death of Abu al-Hasan al-Lakhmi
+    title_ar: وفاة أبي الحسن اللخمي
+    title_fr: Mort d'Abū al-Ḥasan al-Lakhmī
+    description_en: |
+      Abu al-Hasan ʿAli ibn Muhammad al-Lakhmi al-Rabaʿi —
+      Maliki jurist of Qayrawan and Ṣafaqus (modern Sfax),
+      author of *al-Tabṣira fi Furuʿ al-Fiqh* (the Insight on
+      Branches of Jurisprudence) — the second-most-extensive
+      Maliki commentary on al-Mudawwana after Ibn Yunus al-
+      Ṣiqilli, in twelve volumes — died at Sfax at age about
+      78. The *Tabṣira* preserves the entire body of Qayrawani-
+      Sfaxian Maliki tradition through the late fifth century
+      AH; later authorities (Ibn ʿArafa, al-Wansharisi) cite
+      it constantly. al-Lakhmi was famously rigorous in
+      preferring the recorded position of Imam Malik over
+      later Maliki accretions even when they had become
+      conventional in his own region — a methodological
+      principle of return-to-the-source that influenced the
+      later Andalusian Maliki tradition. He served as qadi at
+      Sfax and was admired for his unbending personal integrity.
+    description_ar: |
+      توفي الإمام أبو الحسن علي بن محمد اللخمي الربعي — فقيه
+      مالكي من القيروان وصفاقس، ومصنف «التبصرة في فروع الفقه»
+      (ثاني أوسع شرح مالكي على «المدونة» بعد ابن يونس الصقلي،
+      في اثني عشر مجلداً) — بصفاقس عن نحو ثمانٍ وسبعين سنة.
+      وتحفظ «التبصرة» التراث المالكي القيرواني-الصفاقسي إلى
+      أواخر القرن الخامس الهجري؛ وعلى نقولها يعتمد المتأخرون
+      (ابن عرفة والونشريسي). وعرف اللخمي بصرامة منهجه في تقديم
+      أقوال الإمام مالك المنصوصة على ما طرأ على المذهب من
+      توسعات لاحقة حتى لو كانت قد اعتمدت في وقته في إقليمه —
+      وهو منهج «الرجوع إلى المصدر» أثر في تراث المالكية الأندلسي
+      المتأخر. وتولى رحمه الله قضاء صفاقس، وأعجب الناس بصلابته
+      الشخصية.
+    description_fr: |
+      Abu al-Ḥasan ʿAlī ibn Muḥammad al-Lakhmī al-Rabaʿī —
+      juriste malikite de Qayrawan et Ṣafaqus (Sfax moderne),
+      auteur d'*al-Tabṣira fī Furūʿ al-Fiqh* (l'Insight sur
+      les Branches de la Jurisprudence) — le deuxième commentaire
+      malikite le plus exhaustif d'al-Mudawwana après Ibn Yūnus
+      al-Ṣiqillī, en douze volumes — mourut à Sfax à l'âge
+      d'environ 78 ans. La *Tabṣira* préserve l'ensemble de la
+      tradition malikite qayrawanaise-sfaxienne jusqu'à la fin
+      du Ve siècle de l'Hégire; les autorités ultérieures (Ibn
+      ʿArafa, al-Wansharīsī) la citent constamment. al-Lakhmī
+      était célèbrement rigoureux à préférer la position
+      consignée de l'imam Mālik aux accrétions malikites
+      ultérieures même lorsqu'elles étaient devenues
+      conventionnelles dans sa propre région — un principe
+      méthodologique de retour-à-la-source qui influença la
+      tradition malikite andalouse ultérieure. Il servit comme
+      *qāḍī* à Sfax et fut admiré pour son intégrité personnelle
+      inflexible.
+    canonical_hijri: {year: 478, precision: year}
+    canonical_gregorian: {date: 1085-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_kathir_bidaya
+    people: [[al-lakhmi, subject]]
+    tags: [maliki, qayrawan, sfax, ifriqiya, tabsira, fatimid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Hassan_al-Lakhmi"
+
+  - slug: death-of-mulla-ali-al-qari
+    category: scholar
+    title_en: Death of Mulla ʿAli al-Qari
+    title_ar: وفاة ملا علي القاري
+    title_fr: Mort de Mullā ʿAlī al-Qārī
+    description_en: |
+      Nur al-Din ʿAli ibn Sulṭan al-Harawi al-Qari — Hanafi-
+      Maturidi muḥaddith and qari of Mecca, of Afghan origin,
+      who emigrated to Mecca in his youth and remained there
+      for the rest of his life teaching hadith and Qurʾanic
+      sciences — died in Mecca at age about 84. Among the most
+      prolific authors in Sunni history (his works exceed 200
+      titles), his major surviving works include *Mirqat al-
+      Mafatiḥ* (the standard Sunni commentary on al-Tabrizi's
+      *Mishkat al-Maṣabiḥ*, in eleven volumes), *Sharḥ al-
+      Shifa* (the most-cited commentary on al-Qaḍi ʿIyaḍ's
+      *al-Shifa*), and *al-Asrar al-Marfuʿa fi al-Akhbar al-
+      Mawḍuʿa* (a foundational treatise on forged hadiths).
+      Through these works he became the principal Sunni
+      authority of his age in the Hanafi-Maturidi-Mecca-and-
+      hadith intersection, and his judgements remain
+      authoritative across Hanafi-Maturidi networks today
+      from Turkey to South Asia.
+    description_ar: |
+      توفي العلامة نور الدين علي بن سلطان الهروي القاري — محدث
+      حنفي ماتريدي وقارئ بمكة المكرمة، من أصول هروية أفغانية،
+      هاجر إلى مكة شاباً وأقام فيها بقية عمره مدرّساً للحديث
+      وعلوم القرآن — بمكة عن نحو أربع وثمانين سنة. وهو من أوفر
+      المصنفين في تاريخ السنة (تجاوزت كتبه مئتي عنوان)، ومن أبرز
+      ما وصل من كتبه: «مرقاة المفاتيح» (الشرح المعتمد على
+      «مشكاة المصابيح» للتبريزي، في أحد عشر مجلداً)، و«شرح
+      الشفا» (أكثر شروح «الشفا» للقاضي عياض إحالة عليها)،
+      و«الأسرار المرفوعة في الأخبار الموضوعة» (متن أصل في
+      الأحاديث الموضوعة). وبهذه الأعمال صار المرجع السني الأكبر
+      في عصره في تقاطع المذهب الحنفي والعقيدة الماتريدية ومكة
+      وعلم الحديث، ولا تزال أحكامه معتمدة في شبكات الحنفية
+      الماتريدية اليوم من تركيا إلى جنوب آسيا.
+    description_fr: |
+      Nūr al-Dīn ʿAlī ibn Sulṭān al-Harawī al-Qārī — muḥaddith
+      hanafite-māturīdite et *qārī* de La Mecque, d'origine
+      afghane, qui émigra à La Mecque jeune et y demeura pour
+      le reste de sa vie enseignant le hadith et les sciences
+      coraniques — mourut à La Mecque à l'âge d'environ 84 ans.
+      Parmi les auteurs les plus prolifiques de l'histoire
+      sunnite (ses œuvres dépassent 200 titres), ses œuvres
+      majeures survivantes incluent *Mirqāt al-Mafātīḥ* (le
+      commentaire sunnite standard du *Mishkāt al-Maṣābīḥ* d'al-
+      Tabrīzī, en onze volumes), *Sharḥ al-Shifāʾ* (le commentaire
+      le plus cité d'*al-Shifāʾ* d'al-Qāḍī ʿIyāḍ), et *al-Asrār
+      al-Marfūʿa fī al-Akhbār al-Mawḍūʿa* (traité fondateur sur
+      les hadiths forgés). À travers ces œuvres il devint
+      l'autorité sunnite principale de son âge à l'intersection
+      hanafite-māturīdite-mecquoise-hadith, et ses jugements
+      demeurent autoritatifs à travers les réseaux hanafite-
+      māturīdites aujourd'hui de la Turquie à l'Asie du Sud.
+    canonical_hijri: {year: 1014, precision: year}
+    canonical_gregorian: {date: 1605-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mulla-ali-al-qari, subject]]
+    tags: [hanafi, maturidi, mecca, ottoman, hadith, qurraʾ]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mulla_%27Ali_al-Qari"
+
+  - slug: death-of-abd-al-razzaq-al-sanani
+    category: scholar
+    title_en: Death of ʿAbd al-Razzaq al-Ṣanʿani — author of al-Muṣannaf
+    title_ar: وفاة عبد الرزاق الصنعاني — صاحب «المصنف»
+    title_fr: Mort d'ʿAbd al-Razzāq al-Ṣanʿānī — auteur du *al-Muṣannaf*
+    description_en: |
+      Abu Bakr ʿAbd al-Razzaq ibn Hammam al-Ṣanʿani — Yemeni
+      Sunni hadith muḥaddith of the second-century AH
+      generation, foremost direct student of al-Zuhri after the
+      Madinan tabiʿun, and author of *al-Muṣannaf* (one of the
+      two earliest organised compendia of hadith arranged by
+      legal-thematic chapters, the other being Ibn Abi Shayba's
+      *Muṣannaf*) — died in Sanaa at age about 85. Imam Aḥmad
+      ibn Ḥanbal travelled from Baghdad to Sanaa to study under
+      him; their correspondence is preserved in al-Ṣanʿani's
+      hadith collection. His *Muṣannaf* in eleven volumes
+      preserves about 21,000 hadiths and is one of the principal
+      pre-canonical sources from which the Six Books were
+      drawn — al-Bukhari, Muslim, and the Sunan compilers all
+      narrate from him directly or through one intermediary.
+    description_ar: |
+      توفي الإمام أبو بكر عبد الرزاق بن همام الصنعاني — محدث
+      سني يمني من جيل القرن الثاني الهجري، أعلم أصحاب الإمام
+      الزهري مباشرة بعد تابعي المدينة، ومصنف «المصنف» (أحد
+      أقدم مجاميع الحديث المرتبة على أبواب الفقه، والآخر
+      «مصنف» ابن أبي شيبة) — بصنعاء عن نحو خمس وثمانين سنة.
+      رحل إليه الإمام أحمد بن حنبل من بغداد إلى صنعاء ليأخذ
+      عنه؛ وحفظت مراسلاتهم في «مصنف» الصنعاني. ويستوعب
+      «المصنف» في أحد عشر مجلداً نحو ٢١٠٠٠ حديث، وهو من أصول
+      المصادر السابقة على الكتب الستة التي استخرج منها مادة
+      أصحاب الكتب الستة — البخاري ومسلم وأصحاب السنن — يروون
+      عنه مباشرة أو عبر واسطة واحدة.
+    description_fr: |
+      Abu Bakr ʿAbd al-Razzāq ibn Hammām al-Ṣanʿānī — muḥaddith
+      sunnite yéménite de la génération du IIe siècle de
+      l'Hégire, premier élève direct d'al-Zuhrī après les
+      tabiʿūn médinois, et auteur d'*al-Muṣannaf* (l'un des
+      deux plus anciens compendiums organisés de hadiths
+      arrangés par chapitres juridico-thématiques, l'autre
+      étant le *Muṣannaf* d'Ibn Abī Shayba) — mourut à Sanaa
+      à l'âge d'environ 85 ans. L'imam Aḥmad ibn Ḥanbal voyagea
+      de Bagdad à Sanaa pour étudier sous lui; leur
+      correspondance est préservée dans la collection de hadiths
+      d'al-Ṣanʿānī. Son *Muṣannaf* en onze volumes préserve
+      environ 21 000 hadiths et est l'une des sources pré-
+      canoniques principales d'où furent tirés les Six Livres
+      — al-Bukhārī, Muslim, et les compilateurs des *Sunan*
+      narrent tous de lui directement ou à travers un seul
+      intermédiaire.
+    canonical_hijri: {year: 211, precision: year}
+    canonical_gregorian: {date: 827-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[abd-al-razzaq-al-sanani, subject], [al-zuhri, subject], [ahmad-ibn-hanbal, subject]]
+    tags: [hadith, sanaa, yemen, abbasid, musannaf, zuhri]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/%27Abd_ar-Razzaq_as-San%27ani"
+
+  # =========================================================================
+  # NAQSHBANDI REFORMER + CHISHTI MASTER
+  # =========================================================================
+
+  - slug: death-of-khalid-al-baghdadi
+    category: scholar
+    title_en: Death of Mawlana Khalid al-Baghdadi
+    title_ar: وفاة مولانا خالد البغدادي
+    title_fr: Mort de Mawlānā Khālid al-Baghdādī
+    description_en: |
+      Mawlana Khalid ibn Aḥmad al-Shahrazuri al-Kurdi al-
+      Baghdadi — Kurdish Sunni Naqshbandi-Mujaddidi shaykh of
+      Sulaymaniyya in Iraqi Kurdistan, founder of the Khalidi
+      sub-branch of the Naqshbandi tariqa that became the
+      single most influential Sunni reformist Sufi network of
+      the 19th century, with a presence stretching from the
+      Caucasus to the Balkans, the Levant, Egypt, and the
+      Hijaz — died of plague in Damascus at age about 49.
+      Trained in Sulaymaniyya in classical sciences, then
+      sent to India where he became a successor of Shah Ghulam
+      ʿAli al-Dihlawi (an inheritor of Sirhindi's Mujaddidi
+      lineage), he returned to the Ottoman Arab world to spread
+      a reformist Sunni Sufism combining strict Sharia adherence,
+      anti-bidʿa polemic, and political engagement against
+      colonial encroachment. The Khalidiyya played significant
+      roles in the resistance to Russian expansion in the
+      Caucasus (Imam Shamil), the Balkan crises, and the Arab
+      anti-Ottoman intellectual currents.
+    description_ar: |
+      توفي مولانا خالد بن أحمد الشهرزوري الكردي البغدادي —
+      شيخ نقشبندي مجدّدي سني كردي من السليمانية في كردستان
+      العراق، ومؤسس الفرع الخالدي من الطريقة النقشبندية الذي
+      صار أوسع شبكة صوفية سنية إصلاحية في القرن التاسع عشر،
+      ممتدة من القوقاز إلى البلقان والشام ومصر والحجاز —
+      بدمشق بالطاعون عن نحو تسع وأربعين سنة. تخرج بالسليمانية
+      على العلوم الكلاسيكية، ثم بُعث إلى الهند حيث صار خليفة
+      الشاه غلام علي الدهلوي (وارث سلسلة السرهندي
+      المجدّدية)، فعاد إلى البلاد العربية تحت العثمانيين ينشر
+      تصوفاً سنياً إصلاحياً يجمع بين الالتزام الصارم بالشريعة
+      ومعاداة البدع والاشتباك السياسي مع التغلغل الاستعماري.
+      ولعبت الخالدية دوراً مهماً في مقاومة التوسع الروسي في
+      القوقاز (الإمام شامل) وفي أزمات البلقان وفي التيارات
+      الفكرية العربية المضادة لبني عثمان أواخر القرن.
+    description_fr: |
+      Mawlānā Khālid ibn Aḥmad al-Shahrazūrī al-Kurdī al-
+      Baghdādī — shaykh sunnite naqshbandī-mujaddidī kurde de
+      Sulaymaniyya au Kurdistan irakien, fondateur de la sous-
+      branche khālidiyya de la *ṭarīqa Naqshbandiyya* qui
+      devint le réseau soufi sunnite réformiste unique le plus
+      influent du XIXe siècle, avec une présence s'étendant du
+      Caucase aux Balkans, au Levant, à l'Égypte et au Hedjaz
+      — mourut de la peste à Damas à l'âge d'environ 49 ans.
+      Formé à Sulaymaniyya aux sciences classiques, puis envoyé
+      en Inde où il devint successeur de Shāh Ghulām ʿAli
+      al-Dihlawī (héritier de la lignée mujaddidiyya de
+      Sirhindī), il retourna au monde arabe ottoman pour
+      diffuser un soufisme sunnite réformiste combinant
+      l'adhésion stricte à la *sharīʿa*, la polémique anti-
+      *bidʿa*, et l'engagement politique contre l'empiètement
+      colonial. La Khālidiyya joua des rôles significatifs
+      dans la résistance à l'expansion russe au Caucase (l'imam
+      Shāmil), dans les crises balkaniques, et dans les
+      courants intellectuels arabes anti-ottomans.
+    canonical_hijri: {year: 1242, month: 10, day: 14, precision: day}
+    canonical_gregorian: {date: 1827-06-09, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[khalid-al-baghdadi, subject], [sirhindi, subject]]
+    tags: [naqshbandi, khalidi, kurd, damascus, ottoman, mujaddidi]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khalid-i_Baghdadi"
+
+  - slug: death-of-nizam-al-din-awliya
+    category: scholar
+    title_en: Death of Khwaja Niẓam al-Din Awliyaʾ
+    title_ar: وفاة خواجه نظام الدين أولياء
+    title_fr: Mort de Khwāja Niẓām al-Dīn Awliyāʾ
+    description_en: |
+      Khwaja Niẓam al-Din Muhammad al-Bukhari al-Dihlawi —
+      Indian Sunni Sufi shaykh of Delhi, fourth shaykh in the
+      Chishti silsila after Khwaja Moinuddin Chishti, and
+      called by his disciples *Sultan al-Mashayikh* (Sultan of
+      the Masters) — died in Delhi at age about 89. His
+      Sufi network became the most influential single
+      institution of medieval Indian Sunni Islam: he taught
+      and initiated the great mystical-poet Amir Khusraw, the
+      historian Ḍiyaʾ al-Din Barani, and a generation of Delhi
+      sultanate political and cultural figures. His *darga* in
+      Delhi remains one of the largest active Sufi shrines in
+      the Indian subcontinent, drawing tens of thousands of
+      visitors weekly. The hagiographic *Fawaʾid al-Fuʾad* of
+      his disciple Amir Hasan Sijzi (a daily diary of the
+      shaykh's discourses, in Persian) is one of the most
+      important sources for medieval Indian Sufi adab.
+    description_ar: |
+      توفي خواجه نظام الدين محمد البخاري الدهلوي — شيخ صوفي سني
+      هندي بدلهي، رابع شيوخ السلسلة الجشتية بعد الخواجه معين
+      الدين الجشتي، الذي يدعوه مريدوه «سلطان المشايخ» — بدلهي
+      عن نحو تسع وثمانين سنة. وصارت شبكته الصوفية أكبر مؤسسة
+      منفردة في الإسلام السني الهندي في العصر الوسيط: درّس
+      وأنشأ الشاعر الصوفي الكبير أمير خسرو، والمؤرخ ضياء
+      الدين برني، وجيلاً من السياسيين والمثقفين في سلطنة
+      دلهي. وما زال «درغاهه» بدلهي من أكبر المزارات الصوفية
+      الفاعلة في شبه القارة الهندية، يأم عشرات الألوف من
+      الزوار أسبوعياً. وكتاب «فوائد الفؤاد» لمريده أمير حسن
+      السجزي (يوميات لمجالس الشيخ بالفارسية) من أهم مصادر
+      الأدب الصوفي الهندي الكلاسيكي.
+    description_fr: |
+      Khwāja Niẓām al-Dīn Muḥammad al-Bukhārī al-Dihlawī —
+      shaykh soufi sunnite indien de Delhi, quatrième shaykh
+      dans la *silsila* Chishtī après Khwāja Moinuddin Chishtī,
+      et appelé par ses disciples *Sulṭān al-Mashāyikh* (Sultan
+      des Maîtres) — mourut à Delhi à l'âge d'environ 89 ans.
+      Son réseau soufi devint l'institution unique la plus
+      influente de l'islam sunnite indien médiéval : il enseigna
+      et initia le grand poète mystique Amīr Khusraw, l'historien
+      Ḍiyāʾ al-Dīn Baranī, et une génération de figures
+      politiques et culturelles du sultanat de Delhi. Sa
+      *dargāh* à Delhi demeure l'un des plus grands sanctuaires
+      soufis actifs du sous-continent indien, attirant des
+      dizaines de milliers de visiteurs chaque semaine. Le
+      *Fawāʾid al-Fuʾād* hagiographique de son disciple Amīr
+      Ḥasan Sijzī (un journal quotidien des discours du
+      shaykh, en persan) est l'une des sources les plus
+      importantes de l'*adab* soufi indien médiéval.
+    canonical_hijri: {year: 725, month: 4, day: 18, precision: day}
+    canonical_gregorian: {date: 1325-04-03, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[nizam-al-din-awliya, subject], [moinuddin-chishti, subject]]
+    tags: [chishtiyya, india, delhi, sufi, sunni, sultanate]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nizamuddin_Auliya"
+
+  # =========================================================================
+  # PROPHETIC-ERA + RASHIDUN EVENTS
+  # =========================================================================
+
+  - slug: conversion-of-umar
+    category: prophetic
+    title_en: Conversion of ʿUmar ibn al-Khaṭṭab ra
+    title_ar: إسلام عمر بن الخطاب رضي الله عنه
+    title_fr: Conversion d'ʿUmar ibn al-Khaṭṭāb ra
+    description_en: |
+      ʿUmar ibn al-Khaṭṭab — leading Quraysh young man, ardent
+      enemy of the Muslims, who had set out from his home with
+      drawn sword to assassinate the Prophet ﷺ — embraced Islam
+      after a chance encounter that led him first to his
+      sister Fāṭima bint al-Khaṭṭab's house, where he overheard
+      her and her husband Saʿid ibn Zayd reciting the early
+      surahs of the Qurʾan. Striking his sister to the ground
+      in fury, then witnessing her resolute declaration of
+      faith, he asked to read the parchment. He recited Sūrat
+      Ṭa-Hā (Q 20) and was so transformed by it that he went
+      directly to the Prophet ﷺ, drew his sword in his hand,
+      and pronounced the *shahada*. The Prophet ﷺ had recently
+      prayed: "O Allah, strengthen Islam with one of the two
+      ʿUmars" (ʿUmar ibn al-Khaṭṭab or ʿUmar ibn Hisham, Abu
+      Jahl); the supplication was answered. The conversion
+      crystallised the Muslim community's first public openness
+      in Mecca: from that day, the Muslims prayed at the
+      Kaʿba.
+    description_ar: |
+      أسلم عمر بن الخطاب رضي الله عنه — وكان شاباً قرشياً
+      مبارزاً، شديد العداوة للمسلمين، وقد خرج من بيته بسيف
+      مسلول يقصد قتل النبي ﷺ — بعد لقاء عرضي قاده أولاً إلى
+      دار أخته فاطمة بنت الخطاب، حيث سمعها وزوجها سعيد بن زيد
+      يقرآن أوائل سور القرآن. ضرب أخته أرضاً في غضبه، ثم رأى
+      ثباتها على شهادتها، فطلب أن يقرأ في الصحيفة. قرأ سورة
+      طه (سورة ٢٠) فهزته هزاً، فمضى مباشرة إلى رسول الله ﷺ
+      والسيف في يده، فأعلن الشهادة. وقد كان النبي ﷺ دعا قبل
+      ذلك: «اللهم أعزّ الإسلام بأحب هذين الرجلين إليك: بعمر
+      بن الخطاب أو بعمرو بن هشام» (أبي جهل)؛ فاستُجيب الدعاء.
+      وكانت إسلامه أول انفتاح علني للجماعة المسلمة بمكة: فمن
+      ذلك اليوم صلى المسلمون عند الكعبة.
+    description_fr: |
+      ʿUmar ibn al-Khaṭṭāb — éminent jeune homme de Quraysh,
+      ennemi ardent des musulmans, qui s'était mis en route de
+      chez lui avec son épée tirée pour assassiner le
+      Prophète ﷺ — embrassa l'Islam après une rencontre
+      fortuite qui le mena d'abord à la maison de sa sœur
+      Fāṭima bint al-Khaṭṭāb, où il entendit son mari Saʿīd
+      ibn Zayd réciter les premières sourates du Coran. Frappant
+      sa sœur au sol dans sa fureur, puis témoignant de sa
+      déclaration résolue de foi, il demanda à lire le
+      parchemin. Il récita la sourate Ṭā Hā (Q 20) et en fut
+      tellement transformé qu'il alla directement au Prophète ﷺ,
+      tira l'épée à la main, et prononça la *shahāda*. Le
+      Prophète ﷺ avait récemment prié : « ô Allah, fortifie
+      l'Islam par l'un des deux ʿUmar » (ʿUmar ibn al-Khaṭṭāb
+      ou ʿUmar ibn Hishām, Abū Jahl); la supplication fut
+      exaucée. La conversion cristallisa la première ouverture
+      publique de la communauté musulmane à La Mecque : à
+      partir de ce jour, les musulmans prièrent à la Kaʿba.
+    canonical_hijri: {year: -7, precision: year}
+    canonical_gregorian: {date: 616-07-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_sad_tabaqat
+    quran_refs: "20:1"
+    people: [[umar-ibn-al-khattab, subject], [muhammad, subject], [said-ibn-zayd, subject]]
+    tags: [prophetic, mecca, conversion, umar, quraysh, kaʿba]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Umar"
+
+  - slug: year-of-delegations
+    category: prophetic
+    title_en: Year of Delegations (ʿAm al-Wufud)
+    title_ar: عام الوفود
+    title_fr: Année des Délégations (*ʿĀm al-Wufūd*)
+    description_en: |
+      Following the conquest of Mecca and the consolidation of
+      Muslim authority across most of the Arabian Peninsula,
+      the year 9 AH became known as *ʿAm al-Wufud* — the Year
+      of Delegations — as Arab tribes from across the peninsula
+      sent representative parties to Medina to declare their
+      Islam and submission to the Prophet ﷺ. Classical sources
+      (Ibn Hisham, al-Tabari, Ibn Saʿd) document around 70
+      formal delegations within the year, including the
+      Christians of Najran (whose written *muʿahada* with the
+      Prophet ﷺ guaranteed their churches and their cross-
+      worship; the document was extant in Damascus into the
+      Abbasid era), Banu Tamim, Banu Hanifa (whose Musaylima
+      would later apostatise), Banu Thaqif of al-Ṭaʾif, and
+      delegations from al-Aws, al-Khazraj clients, the
+      Ḥaḍrami people, and Hadhramaut. The Year marked the
+      effective transition from the Prophet's ﷺ position as
+      head of a city-state to that of head of an Arabian
+      polity.
+    description_ar: |
+      بعد فتح مكة واستقرار سلطة المسلمين على معظم جزيرة العرب،
+      صار العام التاسع للهجرة يُعرف بـ«عام الوفود» — إذ بعثت
+      قبائل العرب من عامة الجزيرة وفوداً ممثلة لها إلى المدينة
+      المنورة تعلن إسلامها وانضواءها تحت سلطان النبي ﷺ. وتسجل
+      المصادر الكلاسيكية (ابن هشام والطبري وابن سعد) نحو
+      سبعين وفداً رسمياً في تلك السنة الواحدة، منها وفد نصارى
+      نجران (الذين كتب لهم النبي ﷺ معاهدة كفلت لهم كنائسهم
+      وعبادة الصلبان فيها؛ وكان الكتاب موجوداً بدمشق إلى
+      العصر العباسي)، ووفد بني تميم، ووفد بني حنيفة (وقد
+      ارتد منهم لاحقاً مسيلمة)، ووفد بني ثقيف بالطائف،
+      ووفود من الأوس وحلفاء الخزرج وأهل حضرموت والحضارمة.
+      وكان «عام الوفود» يرسم الانتقال الفعلي من مقام النبي ﷺ
+      رئيس دولة المدينة إلى مقام رئيس الدولة العربية.
+    description_fr: |
+      Suite à la conquête de La Mecque et à la consolidation de
+      l'autorité musulmane sur la majeure partie de la Péninsule
+      arabique, l'année 9 H devint connue comme *ʿĀm al-Wufūd*
+      — l'Année des Délégations — alors que les tribus arabes
+      de toute la péninsule envoyèrent des délégations
+      représentatives à Médine pour déclarer leur Islam et leur
+      soumission au Prophète ﷺ. Les sources classiques (Ibn
+      Hishām, al-Ṭabarī, Ibn Saʿd) consignent environ 70
+      délégations formelles durant l'année, dont les chrétiens
+      de Najrān (dont le *muʿāhada* écrit avec le Prophète ﷺ
+      garantit leurs églises et leur culte de la croix; le
+      document était existant à Damas jusqu'à l'ère abbasside),
+      les Banū Tamīm, les Banū Ḥanīfa (dont Musaylima
+      apostasierait plus tard), les Banū Thaqīf d'al-Ṭāʾif, et
+      des délégations d'al-Aws, des clients d'al-Khazraj, des
+      Ḥaḍramītes et du Hadhramaut. L'Année marqua la transition
+      effective de la position du Prophète ﷺ comme chef d'une
+      cité-État à celle de chef d'un État arabe.
+    canonical_hijri: {year: 9, precision: year}
+    canonical_gregorian: {date: 630-04-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_kathir_bidaya
+    people: [[muhammad, subject]]
+    tags: [prophetic, medina, delegations, najran, conquest-of-mecca, arabia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_in_Medina"
+
+  - slug: battle-of-buwayb
+    category: battle
+    title_en: Battle of al-Buwayb — al-Muthanna's Iraq Campaign
+    title_ar: معركة البويب — حملة المثنى على العراق
+    title_fr: Bataille d'al-Buwayb — campagne irakienne d'al-Muthannā
+    description_en: |
+      al-Muthanna ibn Ḥaritha al-Shaybani, sahabi commander of
+      the Muslim forces along the Euphrates after the recall of
+      Khalid ibn al-Walid ra to Syria, decisively defeated a
+      Sasanian Persian army at al-Buwayb (a tributary of the
+      Euphrates near Kufa). The victory restored Muslim control
+      of the western Iraqi countryside after the catastrophic
+      Battle of the Bridge (*Yawm al-Jisr*) of 13 AH had cost
+      the lives of Abu ʿUbayd al-Thaqafi and four thousand
+      Muslim soldiers. al-Muthanna was killed shortly after
+      from wounds sustained in the engagement; Saʿd ibn Abi
+      Waqqāṣ ra succeeded him in command and led the Muslim
+      forces to the decisive Battle of Qadisiyya the following
+      year. Without al-Buwayb's stabilisation of the western
+      Iraqi front, the rapid Muslim conquest of Sasanian Persia
+      that followed would have been impossible.
+    description_ar: |
+      هزم المثنى بن حارثة الشيباني — الصحابي قائد الجيش
+      الإسلامي على نهر الفرات بعد سحب خالد بن الوليد رضي الله
+      عنه إلى الشام — جيش الفرس الساسانيين هزيمة فاصلة في
+      «البويب» (رافد للفرات قرب الكوفة). وأعاد النصر السيطرة
+      الإسلامية على ريف العراق الغربي بعد كارثة «يوم الجسر»
+      سنة ثلاث عشرة للهجرة الذي ذهب فيه أبو عبيد الثقفي
+      وأربعة آلاف من جند المسلمين. وقتل المثنى بعد ذلك بقليل
+      متأثراً بإصابته في المعركة؛ فخلفه سعد بن أبي وقاص رضي
+      الله عنه في الإمارة، وقاد الجيش الإسلامي إلى نصر
+      القادسية الفاصل في السنة التالية. ولولا تثبيت البويب
+      جبهة العراق الغربية لما تمت الفتوح الإسلامية المتسارعة
+      على فارس الساسانية بعدها.
+    description_fr: |
+      al-Muthannā ibn Ḥāritha al-Shaybānī, commandant ṣaḥābī
+      des forces musulmanes le long de l'Euphrate après le
+      rappel de Khālid ibn al-Walīd ra en Syrie, défit de
+      manière décisive une armée perse sassanide à al-Buwayb
+      (un affluent de l'Euphrate près de Koufa). La victoire
+      restaura le contrôle musulman de la campagne irakienne
+      occidentale après la bataille catastrophique du Pont
+      (*Yawm al-Jisr*) de 13 H qui avait coûté la vie d'Abū
+      ʿUbayd al-Thaqafī et de quatre mille soldats musulmans.
+      al-Muthannā fut tué peu après de blessures subies dans
+      l'engagement; Saʿd ibn Abī Waqqāṣ ra lui succéda au
+      commandement et mena les forces musulmanes à la bataille
+      décisive de Qādisiyya l'année suivante. Sans la
+      stabilisation par al-Buwayb du front irakien occidental,
+      la conquête musulmane rapide de la Perse sassanide qui
+      s'ensuivit aurait été impossible.
+    canonical_hijri: {year: 13, month: 9, precision: month}
+    canonical_gregorian: {date: 634-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[al-muthanna-ibn-haritha, leader], [umar-ibn-al-khattab, subject]]
+    tags: [rashidun, conquest, persia, iraq, kufa, sasanian, muthanna]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Buwayb"
+
+  - slug: battle-of-marj-al-suffar
+    category: battle
+    title_en: Battle of Marj al-Ṣuffar — first major engagement in Syria
+    title_ar: معركة مرج الصفر — أول معركة كبيرة في الشام
+    title_fr: Bataille de Marj al-Ṣuffar — premier engagement majeur en Syrie
+    description_en: |
+      The combined Muslim armies under Khalid ibn al-Walid ra
+      and Abu ʿUbayda ibn al-Jarrah ra defeated a Byzantine
+      force south of Damascus at Marj al-Ṣuffar, in the first
+      large-scale engagement of the Muslim conquest of Syria.
+      The battle was fought on the wedding night of Khalid's
+      lieutenant al-Qaʿqaʿ ibn ʿAmr al-Tamimi (whose bride was
+      a Companion's sister) — al-Qaʿqaʿ left the marriage
+      celebration to fight, won the engagement, and returned
+      to consummate the marriage that night, an episode the
+      classical histories preserve as exemplifying the
+      Companions' priorities. The victory opened the road to
+      Damascus, which would surrender to Khalid ibn al-Walid
+      after a six-month siege the following year. The plain
+      of Marj al-Ṣuffar would be the site of two more major
+      battles in subsequent Muslim history: against the
+      Byzantines in 13 AH and against the Mongols in 720 AH.
+    description_ar: |
+      هزمت جيوش المسلمين المجتمعة بقيادة خالد بن الوليد وأبي
+      عبيدة بن الجراح رضي الله عنهما قوة بيزنطية جنوب دمشق
+      في «مرج الصفر»، في أول معركة كبيرة في الفتح الإسلامي
+      للشام. وخيضت المعركة في ليلة عرس قائد خالد القعقاع بن
+      عمرو التميمي (وكانت زوجه أخت صحابي) — فترك القعقاع
+      حفل عرسه ليقاتل، ففاز في الإحدى، فعاد إلى عرسه ليبني
+      بأهله تلك الليلة، وهي حادثة تحفظها كتب التاريخ
+      الكلاسيكية شاهداً على أولويات الصحابة. وفتح النصر
+      الطريق إلى دمشق التي ستستسلم لخالد بن الوليد بعد حصار
+      ستة أشهر في السنة التالية. وكان سهل مرج الصفر موضع
+      معركتين كبريين أخريين في تاريخ المسلمين اللاحق: ضد
+      الروم سنة ١٣ هـ، وضد المغول سنة ٧٢٠ هـ.
+    description_fr: |
+      Les armées musulmanes combinées sous Khālid ibn al-Walīd
+      ra et Abū ʿUbayda ibn al-Jarrāḥ ra défirent une force
+      byzantine au sud de Damas à Marj al-Ṣuffar, dans le
+      premier engagement à grande échelle de la conquête
+      musulmane de la Syrie. La bataille fut livrée la nuit du
+      mariage du lieutenant de Khālid al-Qaʿqāʿ ibn ʿAmr
+      al-Tamīmī (dont la mariée était la sœur d'un Compagnon)
+      — al-Qaʿqāʿ quitta la célébration du mariage pour
+      combattre, remporta l'engagement, et retourna consommer
+      le mariage cette nuit-là, un épisode que les histoires
+      classiques préservent comme illustrant les priorités
+      des Compagnons. La victoire ouvrit la route de Damas,
+      qui capitulerait devant Khālid ibn al-Walīd après un
+      siège de six mois l'année suivante. La plaine de Marj
+      al-Ṣuffar serait le théâtre de deux autres grandes
+      batailles dans l'histoire musulmane ultérieure : contre
+      les Byzantins en 13 H et contre les Mongols en 720 H.
+    canonical_hijri: {year: 13, month: 12, day: 28, precision: day}
+    canonical_gregorian: {date: 634-02-25, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[khalid-ibn-al-walid, leader], [abu-ubayda-ibn-al-jarrah, leader]]
+    tags: [rashidun, conquest, syria, damascus, byzantium, khalid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Marj_al-Saffar_(634)"

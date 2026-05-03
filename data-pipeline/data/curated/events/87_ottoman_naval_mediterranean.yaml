@@ -1,0 +1,957 @@
+# Wave 87 of curated event additions (2026-04-27).
+# Ottoman naval and Mediterranean events of the sixteenth century: the
+# rise of Ottoman sea-power under Khayr al-Dīn Barbarossa Pasha (a Sunni
+# Ottoman corsair–admiral originally from Lesbos who entered the
+# imperial service of Süleymān al-Qānūnī as kapudan-ı deryā), the
+# Mediterranean fleet's principal victories (Preveza 945 AH, Djerba
+# 967 AH), western-Mediterranean conquests (Algiers 935 AH, Tripoli
+# 958 AH), the Indian-Ocean rivalry with Portugal (Süleymān Pasha
+# al-Khādim's Yemen campaign 945 AH; Selmān Reʾīs's earlier death in
+# the Red-Sea theatre 934 AH), and the Aceh–Ottoman alliance against
+# the Portuguese in Sumatra (976 AH). Already covered in earlier
+# waves and intentionally not duplicated: Battle of Lepanto (1571),
+# Great Siege of Malta (1565), Ottoman conquest of Cyprus (1571).
+# Sources used are limited to those present in sources.yaml; the
+# principal anchors are Ibn al-ʿImād's *Shadharāt al-Dhahab*
+# (year-by-year chronicle through 1000 AH) and the *Encyclopaedia of
+# Islam* second edition; the editorial compilation key cross-checks
+# attested Gregorian dates against standard scholarship (Inalcık,
+# Imber, Finkel, Brummett, Casale, Hess). All Hijri dates derived by
+# tabular conversion from the attested Gregorian date may differ by
+# 1–2 days from the local-sighting Hijri given in some Ottoman
+# chronicles. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # KHAYR AL-DĪN BARBAROSSA AND THE WESTERN MEDITERRANEAN
+  # =========================================================================
+
+  - slug: ottoman-conquest-of-algiers-1529
+    category: conquest
+    title_en: Ottoman Conquest of Algiers — Khayr al-Dīn Takes the Peñón
+    title_ar: الفتح العثماني للجزائر — خير الدين بربروس يأخذ صخرة بنيون
+    title_fr: Conquête ottomane d'Alger — Khayr al-Dīn s'empare du Peñón
+    description_en: |
+      Khayr al-Dīn Barbarossa, Ottoman governor (beylerbey) of
+      Algiers, stormed the small fortified Spanish island of the
+      Peñón d'Alger that had blockaded the harbour of Algiers for
+      twenty years. After a fifteen-day bombardment the garrison
+      under Martín de Vargas surrendered; Khayr al-Dīn levelled the
+      fortress and used its stones to build the great mole that
+      joined the islet to the mainland and created the modern
+      Algiers harbour. The capture removed the last Christian
+      foothold on the central Maghribī coast and consolidated the
+      Ottoman provincial regime in Algiers that Khayr al-Dīn and
+      his elder brother ʿArūj had begun to assemble in 1516. Sultan
+      Süleymān al-Qānūnī had formally accepted Algiers as an
+      Ottoman *eyālet* in 922 AH/1516, sending Janissaries and the
+      banner, but Khayr al-Dīn's reduction of the Peñón made
+      Ottoman sovereignty over the western Mediterranean's southern
+      shore an operational reality.
+    description_ar: |
+      اقتحم خير الدين بربروس باشا، بكلربك الجزائر العثماني،
+      جزيرة البنيون الإسبانية الصغيرة المحصَّنة التي ظلت
+      عشرين سنة تخنق ميناء مدينة الجزائر. وبعد قصف خمسة عشر
+      يوماً سلمت الحامية بقيادة مارتين دي بارغاس، فهدم خير الدين
+      الحصن واستعمل حجارته في بناء الرصيف الكبير الذي وصل
+      الجزيرة الصغيرة بالبر، وأنشأ ميناء الجزائر الحديث. أزال
+      الفتح آخر موطئ قدم مسيحي على الساحل المغاربي الأوسط،
+      ووطّد النظام الولاياتي العثماني في الجزائر الذي كان
+      خير الدين وأخوه الأكبر عروج قد بدآ في تأسيسه سنة ٩٢٢ هـ
+      (١٥١٦ م). وكان السلطان سليمان القانوني قد قبل الجزائر
+      ولايةً عثمانية رسمياً سنة ٩٢٢ هـ، وبعث إليها الإنكشارية
+      والسنجق، إلا أنّ سحق خير الدين لقلعة البنيون هو الذي
+      حوّل السيادة العثمانية على الساحل الجنوبي للحوض الغربي
+      للمتوسط حقيقةً عملية.
+    description_fr: |
+      Khayr al-Dīn Barbarossa, gouverneur (beylerbey) ottoman
+      d'Alger, prit d'assaut la petite île fortifiée espagnole
+      du Peñón d'Alger qui bloquait le port d'Alger depuis vingt
+      ans. Après quinze jours de bombardement, la garnison de
+      Martín de Vargas capitula; Khayr al-Dīn rasa la forteresse
+      et en utilisa les pierres pour bâtir la grande jetée
+      reliant l'îlot au continent — créant ainsi le port moderne
+      d'Alger. La prise effaçait le dernier point d'appui chrétien
+      sur la côte centro-maghrébine et consolidait le régime
+      provincial ottoman d'Alger que Khayr al-Dīn et son frère
+      aîné ʿArūj avaient commencé à mettre en place dès 1516.
+      Le sultan Soliman al-Qānūnī avait accepté formellement
+      Alger comme *eyālet* ottoman en 922 H / 1516, envoyant
+      janissaires et bannière; la réduction du Peñón par Khayr
+      al-Dīn fit toutefois de la souveraineté ottomane sur la
+      rive méridionale de la Méditerranée occidentale une
+      réalité opérationnelle.
+    canonical_hijri: {year: 935, month: 9, day: 9, precision: day}
+    canonical_gregorian: {date: 1529-05-27, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Khayr al-Dīn Pasha' dates the storming and surrender of the Peñón d'Alger to 27 May 1529 (Ramaḍān 935 AH) after a fifteen-day siege."
+      - source_key: editorial
+        notes: "Cross-checked against Hess, *The Forgotten Frontier*, ch. 4, and Inalcık, *The Ottoman Empire: The Classical Age*, both of whom attest 27 May 1529 for the capture of the Peñón and the consolidation of the Ottoman beylerbeylik of Algiers."
+    people: [[suleiman-the-magnificent, ruler], [khayr-al-din-barbarossa, leader]]
+    tags: [ottoman, algiers, khayr-al-din, barbarossa, naval, mediterranean, spain]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SELMĀN REʾĪS — THE RED SEA AND THE INDIAN OCEAN
+  # =========================================================================
+
+  - slug: death-of-selman-reis
+    category: ruler_death
+    title_en: Death of Selmān Reʾīs — Ottoman Admiral of the Red Sea
+    title_ar: وفاة سلمان رئيس — أميرال البحر الأحمر العثماني
+    title_fr: Mort de Selmān Reʾīs — amiral ottoman de la mer Rouge
+    description_en: |
+      Selmān Reʾīs (Sulaymān al-Raʾīs), the first Ottoman
+      admiral of the Red Sea fleet, was assassinated by his
+      lieutenant Muṣṭafā Bayrām at Tihāma on the Yemeni coast
+      after a quarrel over the proceeds of his Indian-Ocean
+      raids. A former Mamluk naval officer who entered the
+      Ottoman service after Selīm I's conquest of Egypt in 922
+      AH / 1517, Selmān had commanded the Jeddah-based fleet,
+      raided the Portuguese-allied Ethiopian coast, and submitted
+      to the Porte the famous *Layiḥa* memorandum on the strategic
+      necessity of building Ottoman sea-power in the Indian
+      Ocean against Portugal — the document that shaped Süleymān
+      Pasha al-Khādim's later Yemen campaign and the Ottoman
+      Indian-Ocean policy of the rest of the century. His
+      killing left the Red Sea fleet leaderless until Süleymān
+      Pasha al-Khādim assumed strategic direction of the
+      southern theatre a decade later.
+    description_ar: |
+      اغتال نائبُه مصطفى بيرام الأميرالَ سلمان رئيس (سليمان
+      الرئيس)، أوّلَ أميرال للأسطول العثماني في البحر الأحمر،
+      على ساحل تهامة في اليمن، إثر خلاف على غنائم غزواته في
+      المحيط الهندي. كان سلمان ضابطاً بحرياً مملوكياً سابقاً
+      دخل الخدمة العثمانية بعد فتح سليم الأول لمصر سنة ٩٢٢ هـ
+      (١٥١٧ م)، وقاد الأسطول من جدة، وأغار على ساحل الحبشة
+      الموالي للبرتغاليين، ورفع إلى الباب العالي «لائحته»
+      الشهيرة في ضرورة بناء قوة بحرية عثمانية في المحيط
+      الهندي في وجه البرتغاليين — وهي الوثيقة التي صاغت حملة
+      سليمان باشا الخادم اليمنية اللاحقة، والسياسة العثمانية
+      في المحيط الهندي طوال بقية القرن. وترك مقتلُه أسطول
+      البحر الأحمر بلا قيادة إلى أن تولّى سليمان باشا الخادم
+      الإشرافَ الاستراتيجي على المسرح الجنوبي بعد عقد من الزمن.
+    description_fr: |
+      Selmān Reʾīs (Sulaymān al-Raʾīs), premier amiral ottoman
+      de la flotte de la mer Rouge, fut assassiné par son
+      lieutenant Muṣṭafā Bayrām à Tihāma, sur la côte yéménite,
+      à la suite d'une querelle sur le partage des dépouilles
+      de ses raids dans l'océan Indien. Ancien officier de
+      marine mamelouk passé au service ottoman après la conquête
+      de l'Égypte par Selīm Ier en 922 H / 1517, Selmān avait
+      commandé la flotte basée à Djedda, attaqué les côtes
+      éthiopiennes alliées des Portugais, et présenté à la
+      Sublime Porte son célèbre *Layiḥa* sur la nécessité
+      stratégique de bâtir une puissance navale ottomane dans
+      l'océan Indien contre le Portugal — document qui inspira
+      la campagne yéménite de Süleymān Pasha al-Khādim et la
+      politique indo-océanique ottomane du reste du siècle. Sa
+      mort laissa la flotte de la mer Rouge sans chef jusqu'à
+      ce que Süleymān Pasha al-Khādim prît la direction
+      stratégique du théâtre méridional une décennie plus tard.
+    canonical_hijri: {year: 934, precision: year}
+    canonical_gregorian: {date: 1528-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Selmān Reʾīs' attests his assassination by Muṣṭafā Bayrām at Tihāma in 934 AH / 1528 CE; the *Layiḥa* memorandum is preserved in the Ottoman archives and edited by Lutfi Paşa."
+      - source_key: editorial
+        notes: "Cross-checked against Casale, *The Ottoman Age of Exploration*, ch. 1, and Brummett, *Ottoman Seapower and Levantine Diplomacy*, both of whom date Selmān's death to 1528 in the Yemeni Tihāma."
+    people: [[selman-reis, leader]]
+    tags: [ottoman, naval, red-sea, indian-ocean, yemen, portugal]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # BATTLE OF PREVEZA — KHAYR AL-DĪN AT THE GULF OF ARTA
+  # =========================================================================
+
+  - slug: battle-of-preveza
+    category: battle
+    title_en: Battle of Preveza — Khayr al-Dīn Defeats the Holy League
+    title_ar: معركة بريفيزا — خير الدين يهزم العصبة المسيحية المقدسة
+    title_fr: Bataille de Préveza — Khayr al-Dīn défait la Sainte Ligue
+    description_en: |
+      Khayr al-Dīn Barbarossa, kapudan-ı deryā of the Ottoman
+      imperial fleet, decisively defeated the combined Holy
+      League fleet of Charles V, Pope Paul III, and the Republic
+      of Venice — commanded by the Genoese admiral Andrea Doria —
+      at the entrance to the Gulf of Arta on the western Greek
+      coast, near the Ottoman port of Preveza. Holding his
+      galleys close to the Ottoman shore in a tight formation,
+      Khayr al-Dīn refused Doria's attempts to draw him out into
+      open water and exploited the becalming of the Christian
+      sailing-galleons to engage them piecemeal under oars. The
+      League fleet broke and withdrew to Corfu after losing some
+      ten ships and over three thousand men with no comparable
+      Ottoman loss. Preveza established Ottoman naval supremacy
+      in the eastern and central Mediterranean for the next
+      generation; the supremacy held — through the conquest of
+      Cyprus — until the reverse at Lepanto thirty-three years
+      later.
+    description_ar: |
+      هزم خير الدين بربروس باشا، قبودان درياي الأسطول
+      الإمبراطوري العثماني، أسطول العصبة المسيحية المقدسة
+      المؤلف من قوات الإمبراطور كارلوس الخامس والبابا بولس
+      الثالث وجمهورية البندقية، بقيادة الأميرال الجنوي أندريا
+      دوريا، عند مدخل خليج آرتا قرب ميناء بريفيزا العثماني
+      على الساحل اليوناني الغربي. أبقى خير الدين سفنه الشراعية
+      وقواربه قريبةً من الساحل العثماني في تشكيل متراصّ، فرفض
+      محاولات دوريا استدراجه إلى عرض البحر، واستفاد من سكون
+      الريح الذي شلّ السفن الشراعية المسيحية ليشتبك بها على
+      دفعات بقواربه المجدافية. انهارت قوات العصبة وانسحبت إلى
+      كورفو بعد أن خسرت نحو عشر سفن وأكثر من ثلاثة آلاف رجل،
+      بلا خسارة مماثلة من الجانب العثماني. أرست بريفيزا التفوق
+      البحري العثماني في شرق المتوسط ووسطه جيلاً كاملاً، وظلّ
+      هذا التفوق — حتى فتح قبرص — قائماً إلى أن قُلب في معركة
+      ليبانتو بعد ثلاثة وثلاثين عاماً.
+    description_fr: |
+      Khayr al-Dīn Barbarossa, kapudan-ı deryā de la flotte
+      impériale ottomane, défit de manière décisive la flotte
+      combinée de la Sainte Ligue de Charles Quint, du pape
+      Paul III et de la République de Venise — commandée par
+      l'amiral génois Andrea Doria — à l'entrée du golfe d'Arta,
+      sur la côte occidentale de la Grèce, près du port ottoman
+      de Préveza. Maintenant ses galères en formation serrée
+      près de la côte ottomane, Khayr al-Dīn refusa les
+      tentatives de Doria de l'attirer en haute mer et exploita
+      l'accalmie du vent qui paralysa les galions chrétiens à
+      voiles pour les engager par fragments à la rame. La flotte
+      de la Ligue rompit et se replia sur Corfou, ayant perdu
+      une dizaine de navires et plus de trois mille hommes,
+      sans perte ottomane comparable. Préveza établit la
+      suprématie navale ottomane sur la Méditerranée orientale
+      et centrale pour une génération entière; cette suprématie
+      — qui permit la conquête de Chypre — perdurerait jusqu'au
+      revers de Lépante, trente-trois ans plus tard.
+    canonical_hijri: {year: 945, month: 4, day: 23, precision: day}
+    canonical_gregorian: {date: 1538-09-28, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Khayr al-Dīn Pasha' dates the battle of Preveza to 28 September 1538 (Rabīʿ II 945 AH); a related entry under 'Andrea Doria' confirms the date and the Ottoman victory."
+      - source_key: editorial
+        notes: "Cross-checked against Inalcık, *The Ottoman Empire: The Classical Age*, and Imber, *The Ottoman Empire 1300–1650*, both of whom attest 28 September 1538 as the day of the battle."
+    people: [[suleiman-the-magnificent, ruler], [khayr-al-din-barbarossa, leader]]
+    tags: [ottoman, battle, naval, preveza, khayr-al-din, mediterranean, holy-league, venice]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SÜLEYMĀN PASHA AL-KHĀDIM — YEMEN AND THE INDIAN OCEAN
+  # =========================================================================
+
+  - slug: ottoman-conquest-of-yemen-1538
+    category: conquest
+    title_en: Ottoman Conquest of Yemen — Süleymān Pasha al-Khādim's Indian-Ocean Campaign
+    title_ar: الفتح العثماني الأول لليمن — حملة سليمان باشا الخادم في المحيط الهندي
+    title_fr: Première conquête ottomane du Yémen — campagne indo-océanique de Süleymān Pasha al-Khādim
+    description_en: |
+      Süleymān Pasha al-Khādim, the elderly eunuch governor of
+      Egypt, sailed from Suez at the head of an Ottoman fleet
+      of seventy-six ships and twenty thousand troops, bound
+      ostensibly for the relief of the Sultanate of Gujarat
+      against the Portuguese in India. En route through the
+      Red Sea Süleymān Pasha occupied Aden by stratagem in
+      Jumādā I 945 AH (August 1538), executing the Ṭāhirid
+      sultan ʿĀmir ibn Dāwūd whom he had invited aboard for
+      a banquet, and incorporated the city into the Ottoman
+      state as the kernel of the new *eyālet* of Yemen. The
+      subsequent siege of Diu in Gujarat that autumn failed and
+      the fleet returned to Suez in 946 AH, but the Yemen
+      annexation held: by the time of Süleymān Pasha's
+      successor Özdemir Pasha (964 AH/1557) the *eyālet* of
+      Yemen extended over Sanaa and the Tihāma, anchoring
+      Ottoman power on the Indian-Ocean rim for the next
+      century.
+    description_ar: |
+      أبحر سليمان باشا الخادم، الوزير الخصيّ المُسِنّ والي مصر،
+      من السويس على رأس أسطول عثماني من ست وسبعين سفينة
+      وعشرين ألف جندي، ظاهرُه نجدة سلطنة كجرات في الهند ضد
+      البرتغاليين. في طريقه عبر البحر الأحمر، احتلّ سليمان
+      باشا عدن بحيلة في جمادى الأولى سنة ٩٤٥ هـ (آب/أغسطس
+      ١٥٣٨ م) فأعدم السلطان الطاهري عامر بن داود الذي كان قد
+      دعاه إلى وليمة على ظهر سفينته، وضمّ المدينةَ إلى الدولة
+      العثمانية نواةً لولاية اليمن الجديدة. وأخفق الحصار التالي
+      لمدينة ديو في كجرات في الخريف فعاد الأسطول إلى السويس
+      سنة ٩٤٦ هـ، إلا أن ضمّ اليمن دام: ومع ولاية خلَفه أوزدمير
+      باشا (٩٦٤ هـ / ١٥٥٧ م) امتدّت ولاية اليمن العثمانية
+      على صنعاء وتهامة، فثبّتت السلطان العثماني على شفير
+      المحيط الهندي طوال القرن التالي.
+    description_fr: |
+      Süleymān Pasha al-Khādim, le vieil eunuque gouverneur
+      d'Égypte, prit la mer depuis Suez à la tête d'une flotte
+      ottomane de soixante-seize navires et vingt mille
+      soldats, ostensiblement destinée à secourir le sultanat
+      du Gujarat contre les Portugais en Inde. En route à
+      travers la mer Rouge, Süleymān Pasha occupa Aden par
+      stratagème en Jumādā I 945 H (août 1538), faisant exécuter
+      le sultan ṭāhiride ʿĀmir ibn Dāwūd qu'il avait convié à
+      un banquet à bord, et intégra la ville à l'État ottoman
+      comme noyau du nouvel *eyālet* du Yémen. Le siège
+      ultérieur de Diu au Gujarat, à l'automne, échoua et la
+      flotte rentra à Suez en 946 H; l'annexion du Yémen tint
+      cependant: à l'époque du successeur de Süleymān Pasha,
+      Özdemir Pasha (964 H / 1557), l'*eyālet* du Yémen
+      s'étendait sur Sanaa et la Tihāma, ancrant la puissance
+      ottomane sur la rive de l'océan Indien pour tout le
+      siècle suivant.
+    canonical_hijri: {year: 945, month: 5, precision: month}
+    canonical_gregorian: {date: 1538-08-01, precision: month, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 articles 'Süleymān Pasha al-Khādim', 'al-Yaman', and 'ʿAdan' place the Ottoman occupation of Aden and execution of ʿĀmir ibn Dāwūd in Jumādā I 945 AH (August 1538), opening the *eyālet* of Yemen."
+      - source_key: editorial
+        notes: "Cross-checked against Casale, *The Ottoman Age of Exploration*, ch. 2, and Inalcık, *The Ottoman Empire: The Classical Age*, both of whom attest the August 1538 capture of Aden as the foundation of Ottoman Yemen."
+    people: [[suleiman-the-magnificent, ruler], [suleyman-pasha-al-khadim, leader]]
+    tags: [ottoman, yemen, aden, indian-ocean, naval, gujarat, portugal]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # DEATHS — KHAYR AL-DĪN, SÜLEYMĀN PASHA AL-KHĀDIM
+  # =========================================================================
+
+  - slug: death-of-khayr-al-din-barbarossa
+    category: ruler_death
+    title_en: Death of Khayr al-Dīn Barbarossa Pasha — Kapudan-ı Deryā of Süleymān al-Qānūnī
+    title_ar: وفاة خير الدين بربروس باشا — قبودان درياي العثمانيين
+    title_fr: Mort de Khayr al-Dīn Barbarossa Pasha — kapudan-ı deryā de Soliman al-Qānūnī
+    description_en: |
+      Khayr al-Dīn Barbarossa Pasha, beylerbey of the Ottoman
+      Mediterranean fleet and architect of the Ottoman naval
+      ascendancy that ran from Algiers (935 AH) through Preveza
+      (945 AH) to the joint Franco-Ottoman wintering at Toulon
+      (950 AH), died in his palace in Beşiktaş on the European
+      shore of the Bosphorus. He was buried in the *türbe* he
+      had built for himself outside his Beşiktaş mosque, designed
+      by the architect Sinan, where his sea-side tomb still
+      stands. Sultan Süleymān al-Qānūnī's vizier Lutfi Pasha
+      composed the famous epitaph: *Khayr al-Dīn the rāʾis
+      [admiral] was the master of the sea*. His son Ḥasan Pasha
+      and his lieutenant Turgut Reʾīs (Dragut) inherited the
+      operational command of Ottoman naval power; the
+      institutional structure of the imperial fleet under
+      a kapudan-ı deryā that he had consolidated would persist
+      for the next three centuries.
+    description_ar: |
+      توفي خير الدين بربروس باشا، أمير البحر العثماني وقبودان
+      دريا الأسطول الإمبراطوري في المتوسط، وباني الصعود البحري
+      العثماني الممتدّ من فتح الجزائر (٩٣٥ هـ) إلى معركة
+      بريفيزا (٩٤٥ هـ) ومرسى الأسطول العثماني المشترك مع
+      فرنسا في طولون (٩٥٠ هـ)، في قصره في بشكطاش على الساحل
+      الأوروبي للبسفور. ودُفن في التربة التي أعدّها لنفسه عند
+      جامعه ببشكطاش بتصميم المعمار سنان، وما زال ضريحه قائماً
+      على شاطئ البحر هناك. وكتب لطفي باشا وزير السلطان سليمان
+      القانوني مرثيته الشهيرة: «مات رئيس البحر، خير الدين، سيد
+      البحر». وورث ابنُه حسن باشا ونائبُه طورغوت رئيس (دراغوت)
+      القيادةَ التنفيذية للأسطول، أما البنية المؤسسية للأسطول
+      الإمبراطوري تحت قبودان دريا التي رسّخها هو فقد دامت
+      ثلاثة قرون تالية.
+    description_fr: |
+      Khayr al-Dīn Barbarossa Pasha, beylerbey de la flotte
+      ottomane de Méditerranée et architecte de l'ascendance
+      navale ottomane allant d'Alger (935 H) à Préveza (945 H),
+      jusqu'à l'hivernage conjoint franco-ottoman à Toulon (950
+      H), mourut dans son palais de Beşiktaş, sur la rive
+      européenne du Bosphore. Il fut inhumé dans le *türbe*
+      qu'il s'était fait construire à côté de sa mosquée de
+      Beşiktaş — œuvre de l'architecte Sinan —, où son tombeau,
+      au bord de la mer, subsiste encore. Le grand vizir de
+      Soliman al-Qānūnī, Lutfi Pasha, composa la célèbre
+      épitaphe: « Khayr al-Dīn le rāʾis [amiral] était le maître
+      de la mer ». Son fils Ḥasan Pasha et son lieutenant Turgut
+      Reʾīs (Dragut) héritèrent du commandement opérationnel de
+      la puissance navale ottomane; l'architecture institutionnelle
+      de la flotte impériale autour d'un kapudan-ı deryā qu'il
+      avait consolidée subsisterait trois siècles encore.
+    canonical_hijri: {year: 953, month: 4, day: 24, precision: day}
+    canonical_gregorian: {date: 1546-07-04, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under 953 AH, records the death of Khayr al-Dīn Pasha (Barbarossa), beylerbey of the Ottoman fleet."
+      - source_key: ei2
+        notes: "EI2 article 'Khayr al-Dīn Pasha' dates the death to 4 July 1546 (Rabīʿ II 953 AH) at his Beşiktaş palace; the burial in the Sinan-designed türbe is well attested."
+      - source_key: editorial
+        notes: "Cross-checked against Inalcık and Imber; the Beşiktaş türbe still stands as a public monument."
+    people: [[suleiman-the-magnificent, ruler], [khayr-al-din-barbarossa, deceased]]
+    tags: [ottoman, khayr-al-din, barbarossa, naval, kapudan-i-derya, death, beshiktash]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-suleyman-pasha-al-khadim
+    category: ruler_death
+    title_en: Death of Süleymān Pasha al-Khādim — Conqueror of Yemen and Grand Vizier
+    title_ar: وفاة سليمان باشا الخادم — فاتح اليمن والصدر الأعظم
+    title_fr: Mort de Süleymān Pasha al-Khādim — conquérant du Yémen et grand vizir
+    description_en: |
+      Süleymān Pasha al-Khādim, the eunuch general and
+      governor of Egypt who had conquered Aden and opened the
+      Ottoman *eyālet* of Yemen in 945 AH (1538), died in
+      Constantinople, where he had retired from the grand
+      vizierate (he had served briefly as Süleymān al-Qānūnī's
+      grand vizier, 947–948 AH / 1541–1542). His career
+      spanned the consolidation of Ottoman Egypt under Selīm
+      I, the long Egyptian vizirate during which he expanded
+      al-Azhar's holdings, the southern fleet that anchored
+      Ottoman Yemen against the Portuguese, and a final brief
+      grand-vizierate. He was buried in his Constantinople
+      mosque-complex; his Yemen settlement held for the next
+      sixty years until the Qāsimī revolt expelled the Ottoman
+      *eyālet* (1045 AH / 1635).
+    description_ar: |
+      توفي سليمان باشا الخادم، القائد الخصيّ ووالي مصر الذي
+      كان قد فتح عدن وافتتح ولاية اليمن العثمانية سنة ٩٤٥ هـ
+      (١٥٣٨ م)، في القسطنطينية بعد أن اعتزل الصدارة العظمى
+      (تولّاها فترة قصيرة في عهد سليمان القانوني، ٩٤٧–٩٤٨ هـ /
+      ١٥٤١–١٥٤٢ م). وامتدّت سيرتُه على توطيد مصر العثمانية في
+      عهد سليم الأول، ثم على ولايته الطويلة في مصر التي وسّع
+      فيها أوقاف الجامع الأزهر، ثم على الأسطول الجنوبي الذي
+      ثبّت اليمن العثماني في وجه البرتغاليين، وأخيراً على
+      صدارة عظمى قصيرة. ودُفن في مسجده وكليّته في القسطنطينية،
+      أما تسوية اليمن التي عقدها فقد دامت ستين سنة إلى أن
+      أخرجت ثورةُ القاسميين الولايةَ العثمانية سنة ١٠٤٥ هـ
+      (١٦٣٥ م).
+    description_fr: |
+      Süleymān Pasha al-Khādim, général eunuque et gouverneur
+      d'Égypte qui avait conquis Aden et ouvert l'*eyālet*
+      ottoman du Yémen en 945 H (1538), mourut à Constantinople,
+      où il s'était retiré du grand vizirat — qu'il avait
+      brièvement exercé sous Soliman al-Qānūnī (947–948 H /
+      1541–1542). Sa carrière couvre la consolidation de
+      l'Égypte ottomane sous Selīm Ier, le long vizirat
+      égyptien durant lequel il étendit les biens de waqf
+      d'al-Azhar, la flotte méridionale qui ancra l'autorité
+      ottomane au Yémen face aux Portugais, et un bref grand
+      vizirat final. Il fut inhumé dans son ensemble mosquée-
+      *külliye* de Constantinople; son règlement yéménite tint
+      soixante années avant que la révolte qāsimite ne chassât
+      l'*eyālet* ottoman (1045 H / 1635).
+    canonical_hijri: {year: 954, precision: year}
+    canonical_gregorian: {date: 1547-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under 954 AH, records the death of Süleymān Pasha al-Khādim, former vizier and conqueror of Aden."
+      - source_key: ei2
+        notes: "EI2 article 'Süleymān Pasha al-Khādim' attests his death at Constantinople in 954 AH / 1547 CE; his vizirate dates and Yemen campaign are confirmed in the same article."
+      - source_key: editorial
+        notes: "Cross-checked against Casale, *The Ottoman Age of Exploration*, ch. 2."
+    people: [[suleiman-the-magnificent, ruler], [suleyman-pasha-al-khadim, deceased]]
+    tags: [ottoman, naval, yemen, egypt, grand-vizier, death]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # TURGUT REʾĪS / DRAGUT — TRIPOLI, PONZA
+  # =========================================================================
+
+  - slug: ottoman-conquest-of-tripoli-libya-1551
+    category: conquest
+    title_en: Ottoman Conquest of Tripoli — Sinān Pasha and Turgut Reʾīs Take Libya
+    title_ar: الفتح العثماني لطرابلس الغرب — سنان باشا وطورغوت رئيس يأخذان ليبيا
+    title_fr: Conquête ottomane de Tripoli de Libye — Sinān Pasha et Turgut Reʾīs s'emparent du pays
+    description_en: |
+      An Ottoman expedition under the kapudan-ı deryā Sinān
+      Pasha (the Eunuch) and the corsair-admiral Turgut Reʾīs
+      (Dragut) reduced Tripoli of Libya, the last Knights
+      Hospitaller fortress on the southern Mediterranean shore
+      after their loss of Rhodes in 928 AH (1522). The Spanish-
+      held citadel had been granted to the Knights by Charles
+      V in 937 AH (1530) along with Malta, in compensation for
+      Rhodes; after a six-day siege the Hospitaller commander
+      Gaspard de Vallier surrendered. Turgut Reʾīs was installed
+      as the first Ottoman *bey* of Tripoli, opening the
+      Ottoman *eyālet* of Tripolitania (Trāblus al-Gharb) that
+      anchored Ottoman authority on the central Maghribī coast
+      from then until the early twentieth century. The fall of
+      Tripoli completed the Ottoman replacement of Spanish-
+      Habsburg power along the southern Mediterranean and set
+      the stage for the larger Hospitaller-Ottoman confrontation
+      at Malta fourteen years later.
+    description_ar: |
+      أنزل سنانُ باشا الخصي قبودانُ دريا، وطورغوت رئيس
+      (دراغوت) أميرُ البحر القرصاني، حملةً عثمانية بطرابلس
+      الغرب — آخر معاقل فرسان الإسبتارية على الساحل الجنوبي
+      للمتوسط بعد خسارتهم رودس سنة ٩٢٨ هـ (١٥٢٢ م). وكان
+      كارلوس الخامس قد منح القلعةَ — التي كانت بيد الإسبان —
+      للفرسان سنة ٩٣٧ هـ (١٥٣٠ م) مع مالطا، تعويضاً عن رودس،
+      فاستسلم القائد الإسبتاري غاسبار دو فاليي بعد حصار ستة
+      أيام. ونُصِّب طورغوت رئيس أوّلَ بك عثماني لطرابلس،
+      فافتُتحت ولاية طرابلس الغرب العثمانية التي ثبّتت السلطان
+      العثماني على الساحل المغاربي الأوسط من ذلك الحين إلى
+      مطلع القرن العشرين. وأكمل سقوطُ طرابلس استبدالَ القوة
+      الإسبانية الهابسبورغية على الساحل الجنوبي للمتوسط
+      بالعثمانية، وهيّأ المسرحَ للمواجهة الإسبتارية العثمانية
+      الكبرى في مالطا بعد أربع عشرة سنة.
+    description_fr: |
+      Une expédition ottomane commandée par le kapudan-ı deryā
+      Sinān Pasha (l'Eunuque) et l'amiral-corsaire Turgut Reʾīs
+      (Dragut) réduisit Tripoli de Libye, dernière forteresse
+      des chevaliers hospitaliers sur la côte méridionale de la
+      Méditerranée après leur perte de Rhodes en 928 H (1522).
+      La citadelle, tenue par les Espagnols, avait été cédée
+      aux chevaliers par Charles Quint en 937 H (1530) en même
+      temps que Malte, en compensation de Rhodes; après six
+      jours de siège, le commandant hospitalier Gaspard de
+      Vallier capitula. Turgut Reʾīs fut installé comme premier
+      *bey* ottoman de Tripoli, inaugurant l'*eyālet* ottoman de
+      Tripolitaine (Trāblus al-Gharb) qui ancrerait l'autorité
+      ottomane sur la côte centro-maghrébine du milieu du XVIᵉ
+      siècle au début du XXᵉ. La chute de Tripoli acheva le
+      remplacement de la puissance hispano-habsbourgeoise sur
+      la rive sud par l'ottomane, et préparait le terrain à la
+      grande confrontation hospitalière-ottomane de Malte
+      quatorze ans plus tard.
+    canonical_hijri: {year: 958, month: 8, day: 2, precision: day}
+    canonical_gregorian: {date: 1551-08-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Ṭarābulus al-Gharb' dates the Ottoman capture of Tripoli of Libya from the Knights Hospitaller to 15 August 1551 (Shaʿbān 958 AH), with Sinān Pasha and Turgut Reʾīs in joint command."
+      - source_key: editorial
+        notes: "Cross-checked against Hess, *The Forgotten Frontier*, and Inalcık, *The Ottoman Empire: The Classical Age*, both of whom attest 15 August 1551 and the installation of Turgut as bey of the new *eyālet*."
+    people: [[suleiman-the-magnificent, ruler], [turgut-reis, leader]]
+    tags: [ottoman, conquest, tripoli, libya, turgut, dragut, sinan-pasha, mediterranean, knights-hospitaller]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-ponza-1552
+    category: battle
+    title_en: Battle of Ponza — Sinān and Turgut Defeat the Genoese
+    title_ar: معركة بونزا — سنان وطورغوت يهزمان الجنويين
+    title_fr: Bataille de Ponza — Sinān et Turgut défont les Génois
+    description_en: |
+      An Ottoman fleet under kapudan-ı deryā Sinān Pasha,
+      operating in concert with the French in the Italian Wars,
+      destroyed an Imperial-Genoese squadron commanded by Andrea
+      Doria's nephew Andrea Doria the Younger off the volcanic
+      island of Ponza in the Tyrrhenian Sea. The Ottomans
+      captured seven of the Genoese galleys and some thirteen
+      hundred prisoners, breaking the Habsburg supply line
+      between Genoa and Naples for the campaigning season. The
+      victory followed Turgut Reʾīs's installation as *bey* of
+      Tripoli the previous year and demonstrated that Ottoman
+      naval power could now operate offensively in the
+      Tyrrhenian Sea — west of the Sicilian narrows — in
+      coordination with French Valois allies, the high-water
+      mark of the Franco-Ottoman alliance against the Habsburgs.
+    description_ar: |
+      حطّم أسطول عثماني بقيادة قبودان دريا سنان باشا — يعمل
+      بالتنسيق مع الفرنسيين في الحروب الإيطالية — سربَ
+      الإمبراطورية الهابسبورغية الجنوي بقيادة أندريا دوريا
+      الأصغر ابن أخي دوريا الكبير، قبالة جزيرة بونزا البركانية
+      في البحر التيراني. أسر العثمانيون سبعَ سفن جنوية ونحو
+      ألف وثلاثمئة أسير، فقطعوا خط إمداد الهابسبورغ بين جنوة
+      ونابولي للموسم العسكري. وأتت هذه الغلبة بعد عام من
+      تنصيب طورغوت رئيس بكاً على طرابلس، فبيّنت أن القوة
+      البحرية العثمانية باتت قادرة على العمل الهجومي في البحر
+      التيراني — غرب مضائق صقلية — بالتنسيق مع حلفاء آل فالوا
+      الفرنسيين، وهي ذروة الحلف الفرنسي العثماني ضد الهابسبورغ.
+    description_fr: |
+      Une flotte ottomane commandée par le kapudan-ı deryā
+      Sinān Pasha, opérant de concert avec les Français dans
+      les guerres d'Italie, détruisit une escadre impériale-
+      génoise commandée par le neveu d'Andrea Doria, Andrea
+      Doria le Jeune, au large de l'île volcanique de Ponza,
+      en mer Tyrrhénienne. Les Ottomans capturèrent sept galères
+      génoises et quelque mille trois cents prisonniers,
+      coupant la ligne d'approvisionnement habsbourgeoise
+      entre Gênes et Naples pour la saison de campagne. La
+      victoire faisait suite à l'installation de Turgut Reʾīs
+      comme *bey* de Tripoli l'année précédente et démontrait
+      que la puissance navale ottomane pouvait désormais
+      opérer offensivement en mer Tyrrhénienne — à l'ouest des
+      détroits siciliens — en coordination avec les alliés
+      Valois français, point culminant de l'alliance franco-
+      ottomane contre les Habsbourg.
+    canonical_hijri: {year: 959, month: 8, day: 4, precision: day}
+    canonical_gregorian: {date: 1552-08-05, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 articles 'Sinān Pasha (the Eunuch)' and 'Turghut Reʾīs' date the engagement off Ponza to early August 1552 (Shaʿbān 959 AH), in coordination with the French Valois fleet."
+      - source_key: editorial
+        notes: "Cross-checked against Imber, *The Ottoman Empire 1300–1650*, and Setton, *The Papacy and the Levant*, vol. 4, both of whom attest the destruction of the Genoese squadron at Ponza on 5 August 1552."
+    people: [[suleiman-the-magnificent, ruler], [turgut-reis, leader]]
+    tags: [ottoman, battle, naval, ponza, sinan-pasha, turgut, dragut, mediterranean, france]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # BATTLE OF DJERBA — PIYALE PASHA
+  # =========================================================================
+
+  - slug: battle-of-djerba
+    category: battle
+    title_en: Battle of Djerba — Piyāle Pasha Destroys the Spanish Relief Fleet
+    title_ar: معركة جربة — بياله باشا يحطّم أسطول الإغاثة الإسباني
+    title_fr: Bataille de Djerba — Piyāle Pasha détruit la flotte de secours espagnole
+    description_en: |
+      The Ottoman kapudan-ı deryā Piyāle Pasha, dispatched
+      from Constantinople with a fleet of eighty-six galleys,
+      annihilated the Spanish-Genoese-Maltese-papal Christian
+      coalition fleet commanded by the viceroy of Sicily Juan
+      de la Cerda, Duke of Medinaceli, off the island of
+      Djerba on the Tunisian coast. The Christian fleet had
+      seized Djerba in February 1560 as a base from which to
+      retake Tripoli; Piyāle's surprise arrival on 14 May caught
+      the Christians at anchor, broke their line, and over the
+      following weeks reduced the fortress they had built on
+      the island. Around twenty thousand Christian soldiers
+      were killed or captured and roughly half the Christian
+      fleet sunk or taken. Djerba ranks with Preveza as one of
+      the two great Ottoman naval victories of the sixteenth
+      century; together they fixed Ottoman supremacy in the
+      central and eastern Mediterranean for the eleven years
+      down to Lepanto.
+    description_ar: |
+      حطّم قبودان دريا بياله باشا، الذي أرسلته القسطنطينية
+      على رأس أسطول من ست وثمانين سفينة، الأسطولَ المسيحي
+      المتحالف الإسباني الجنوي المالطي البابوي بقيادة نائب
+      ملك صقلية الدوق دي مدينة سيلي، قبالة جزيرة جربة على
+      الساحل التونسي. كان الأسطول المسيحي قد استولى على جربة
+      في فبراير سنة ١٥٦٠ م ليتخذها قاعدةً لاسترداد طرابلس،
+      فأدركهم بياله بحملته المباغتة في الرابع عشر من أيار
+      راسين على المرسى، فكسر تشكيلهم، ثم في الأسابيع التالية
+      اختزل القلعة التي بنوها على الجزيرة. قُتل أو أُسر نحو
+      عشرين ألف جندي مسيحي، وغرق أو وقع في الأسر زهاء نصف
+      أسطول الصليبيين. وتعدّ معركة جربة، إلى جانب بريفيزا، من
+      أعظم انتصارات البحرية العثمانية في القرن السادس عشر،
+      وقد ثبّتتا التفوّق العثماني في وسط المتوسط وشرقه طوال
+      أحد عشر عاماً انقضت إلى ليبانتو.
+    description_fr: |
+      Le kapudan-ı deryā ottoman Piyāle Pasha, envoyé de
+      Constantinople à la tête d'une flotte de quatre-vingt-six
+      galères, anéantit la flotte chrétienne hispano-génoise-
+      maltese-pontificale commandée par le vice-roi de Sicile
+      Juan de la Cerda, duc de Medinaceli, au large de l'île
+      de Djerba sur la côte tunisienne. La flotte chrétienne
+      s'était emparée de Djerba en février 1560 pour en faire
+      une base de reconquête de Tripoli; l'arrivée surprise
+      de Piyāle le 14 mai prit les chrétiens au mouillage,
+      rompit leur ligne, et dans les semaines suivantes
+      réduisit la forteresse qu'ils avaient construite sur
+      l'île. Environ vingt mille soldats chrétiens furent
+      tués ou capturés et la moitié environ de la flotte
+      coulée ou prise. Djerba se classe, aux côtés de Préveza,
+      parmi les deux grandes victoires navales ottomanes du
+      XVIᵉ siècle; ensemble elles fixèrent la suprématie
+      ottomane sur la Méditerranée centrale et orientale
+      pendant les onze années qui menèrent à Lépante.
+    canonical_hijri: {year: 967, month: 8, day: 8, precision: day}
+    canonical_gregorian: {date: 1560-05-14, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Djerba' dates the destruction of the Christian fleet to 14 May 1560 (Shaʿbān 967 AH); the related entry 'Piyāle Pasha' confirms his command and the subsequent siege of the fortress."
+      - source_key: editorial
+        notes: "Cross-checked against Imber, *The Ottoman Empire 1300–1650*, and Hess, *The Forgotten Frontier*, both of whom attest 14 May 1560 as the day of the naval engagement, with the fortress falling on 31 July."
+    people: [[suleiman-the-magnificent, ruler], [piyale-pasha, leader]]
+    tags: [ottoman, battle, naval, djerba, piyale-pasha, mediterranean, spain, tunisia]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # DEATH OF TURGUT REʾĪS AT MALTA
+  # =========================================================================
+
+  - slug: death-of-turgut-reis
+    category: ruler_death
+    title_en: Death of Turgut Reʾīs (Dragut) — Bey of Tripoli at the Siege of Malta
+    title_ar: استشهاد طورغوت رئيس (دراغوت) — بك طرابلس عند حصار مالطا
+    title_fr: Mort de Turgut Reʾīs (Dragut) — bey de Tripoli au siège de Malte
+    description_en: |
+      Turgut Reʾīs (called Dragut by Christian sources), the
+      septuagenarian *bey* of Tripoli of Libya and lieutenant
+      of the late Khayr al-Dīn Barbarossa, was struck by a
+      stone splinter while directing the Ottoman batteries
+      against the fortress of Saint Elmo during the Great Siege
+      of Malta. He died of his wound a few days later, before
+      the Hospitaller fortress fell. Turgut had been the
+      principal Ottoman naval commander of the western
+      Mediterranean for two decades — he had taken Tripoli in
+      958 AH (1551), commanded at Djerba alongside Piyāle in
+      967 AH (1560), and joined the Malta expedition under
+      Mustafa Pasha and Piyāle as the senior corsair voice.
+      His death, more than any other single factor, drained
+      the campaigning energy from the Ottoman command at Malta
+      and contributed to the failure of the siege three months
+      later.
+    description_ar: |
+      أُصيب طورغوت رئيس (المعروف عند المسيحيين بـ«دراغوت»)
+      — بك طرابلس الغرب السبعيني ونائب خير الدين بربروس
+      المتوفى — بشظية حجر بينما كان يوجّه مدافع العثمانيين
+      على قلعة سان إلمو في الحصار الكبير لمالطا، فمات بعد
+      أيام قبل سقوط القلعة الإسبتارية. كان طورغوت أبرزَ قادة
+      البحرية العثمانية في غربي المتوسط طوال عقدين: فتح
+      طرابلس سنة ٩٥٨ هـ (١٥٥١ م)، وحضر مع بياله معركة جربة
+      سنة ٩٦٧ هـ (١٥٦٠ م)، وانضمّ إلى حملة مالطا تحت قيادة
+      مصطفى باشا وبياله بوصفه شيخَ القراصنة الكبار. وقد كان
+      موتُه من أهم العوامل المفردة التي استنزفت زخم القيادة
+      العثمانية في مالطا، وأسهم في إخفاق الحصار بعد ثلاثة
+      أشهر.
+    description_fr: |
+      Turgut Reʾīs (appelé Dragut par les sources chrétiennes),
+      le septuagénaire *bey* de Tripoli de Libye et lieutenant
+      du défunt Khayr al-Dīn Barbarossa, fut atteint par un
+      éclat de pierre alors qu'il dirigeait les batteries
+      ottomanes contre la forteresse de Saint-Elme lors du
+      Grand Siège de Malte. Il succomba à sa blessure quelques
+      jours plus tard, avant la chute de la forteresse
+      hospitalière. Turgut avait été le principal commandant
+      naval ottoman de la Méditerranée occidentale pendant
+      deux décennies: il avait pris Tripoli en 958 H (1551),
+      commandé à Djerba aux côtés de Piyāle en 967 H (1560),
+      et rejoint l'expédition de Malte sous Mustafa Pasha et
+      Piyāle comme la grande voix des corsaires. Sa mort fut,
+      plus que tout autre facteur isolé, ce qui épuisa
+      l'énergie offensive du commandement ottoman à Malte et
+      contribua à l'échec du siège trois mois plus tard.
+    canonical_hijri: {year: 972, month: 11, day: 14, precision: day}
+    canonical_gregorian: {date: 1565-06-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Turghut Reʾīs' dates his mortal wounding before Saint Elmo to 18 June 1565 and his death to 23 June 1565 (Dhū al-Qaʿda 972 AH)."
+      - source_key: editorial
+        notes: "Cross-checked against Bradford, *The Great Siege: Malta 1565*, and Imber, *The Ottoman Empire 1300–1650*, both of whom attest 23 June 1565 as the date of death."
+    people: [[suleiman-the-magnificent, ruler], [turgut-reis, deceased]]
+    tags: [ottoman, naval, turgut, dragut, malta, siege, tripoli, death]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ACEH–OTTOMAN ALLIANCE — INDIAN OCEAN
+  # =========================================================================
+
+  - slug: aceh-ottoman-expedition-1568
+    category: political_event
+    title_en: Aceh–Ottoman Expedition — Selīm II Sends Naval Aid to Sumatra
+    title_ar: الحملة العثمانية إلى آتشيه — سليم الثاني يبعث النجدة البحرية إلى سومطرة
+    title_fr: Expédition aceho-ottomane — Selīm II envoie une aide navale à Sumatra
+    description_en: |
+      Sultan Selīm II, in response to a 974 AH (1566)
+      embassy from Sultan ʿAlāʾ al-Dīn Riʿāyat Shāh al-Qahhār
+      of Aceh in northern Sumatra, dispatched an Ottoman
+      naval-military mission to the Aceh sultanate carrying
+      cannon-founders, gunners, fortification engineers, and
+      heavy ordnance. The expedition under Kurdoğlu Khıḍr
+      Reʾīs sailed from Suez via the Red Sea and the Indian
+      Ocean and reached Aceh in 976 AH/1568, where its
+      personnel reorganised the Acehnese army around Ottoman
+      cannon and trained gun-crews. The Ottoman support
+      enabled Aceh to mount sustained warfare against
+      Portuguese Malacca over the next decade and inscribed
+      Aceh into the diplomatic universe of the *khilāfa*
+      ʿuthmāniyya — the Friday *khuṭba* in Aceh was thereafter
+      sometimes pronounced in the name of the Ottoman sultan.
+      The episode is the high-water mark of Ottoman naval
+      reach into the Indian Ocean and one of the earliest
+      formal alliances between the central Ottoman state and
+      a sovereign Malay-Muslim polity.
+    description_ar: |
+      ردًّا على سفارة وردت سنة ٩٧٤ هـ (١٥٦٦ م) من سلطان آتشيه
+      علاء الدين رعاية شاه القهار في شمالي سومطرة، أرسل
+      السلطان سليم الثاني بعثةً عسكرية بحرية عثمانية إلى
+      سلطنة آتشيه تحمل صنّاع المدافع وجنود المدفعية ومهندسي
+      التحصينات والعتاد الثقيل. وأبحرت البعثة بقيادة
+      كردأوغلو خضر رئيس من السويس عبر البحر الأحمر فالمحيط
+      الهندي، وبلغت آتشيه سنة ٩٧٦ هـ (١٥٦٨ م)، فأعاد
+      موظفوها تنظيم جيش آتشيه حول المدفع العثماني، ودرّبوا
+      أطقم القنابل. ومكّن الدعم العثماني آتشيه من شنّ حرب
+      مستديمة على ملقا البرتغالية في العقد التالي، وأدخل
+      آتشيه إلى الكون الدبلوماسي للخلافة العثمانية، حتى إن
+      الخطبة الجمعية في آتشيه باتت تُلقى أحياناً باسم السلطان
+      العثماني. وتعدّ الحادثة منتهى الامتداد البحري العثماني
+      في المحيط الهندي، وأحد أوّل التحالفات الرسمية بين
+      الدولة العثمانية المركزية وكيان ماليزي مسلم سيد.
+    description_fr: |
+      Le sultan Selīm II, en réponse à une ambassade de 974 H
+      (1566) du sultan ʿAlāʾ al-Dīn Riʿāyat Shāh al-Qahhār
+      d'Aceh dans le nord de Sumatra, dépêcha une mission
+      militaro-navale ottomane vers le sultanat d'Aceh,
+      portant des fondeurs de canons, des artilleurs, des
+      ingénieurs de fortification et des pièces lourdes.
+      L'expédition, commandée par Kurdoğlu Khıḍr Reʾīs,
+      partit de Suez par la mer Rouge et l'océan Indien et
+      atteignit Aceh en 976 H / 1568, où son personnel
+      réorganisa l'armée acehnaise autour du canon ottoman et
+      forma les servants des pièces. Le soutien ottoman
+      permit à Aceh de mener une guerre soutenue contre
+      Malacca portugaise pendant la décennie suivante et
+      inscrivit Aceh dans l'univers diplomatique du
+      *khilāfa* ottomane — la *khuṭba* du vendredi à Aceh fut
+      désormais parfois prononcée au nom du sultan ottoman.
+      L'épisode est le point culminant de la portée navale
+      ottomane dans l'océan Indien et l'une des toutes
+      premières alliances formelles entre l'État ottoman
+      central et une entité musulmane-malaise souveraine.
+    canonical_hijri: {year: 976, precision: year}
+    canonical_gregorian: {date: 1568-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 articles 'Atjèh' and 'Selīm II' attest the dispatch of the Ottoman expedition under Kurdoğlu Khıḍr Reʾīs to Aceh in 976 AH / 1568 with cannon-founders and military advisors."
+      - source_key: editorial
+        notes: "Cross-checked against Casale, *The Ottoman Age of Exploration*, ch. 5, and Reid, *Sixteenth-Century Turkish Influence in Western Indonesia* (JSEAH 1969), both of whom attest the 1568 mission and its impact on Aceh's wars against Portuguese Malacca."
+    people: [[selim-ii, ruler]]
+    tags: [ottoman, aceh, sumatra, indian-ocean, naval, indonesia, portugal, alliance]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # OTTOMAN ANNEXATION OF CHIOS
+  # =========================================================================
+
+  - slug: ottoman-annexation-of-chios-1566
+    category: conquest
+    title_en: Ottoman Annexation of Chios — Piyāle Pasha Ends Genoese Maona Rule
+    title_ar: ضمّ الدولة العثمانية لساقز (خيوس) — بياله باشا ينهي حكم الماونة الجنوية
+    title_fr: Annexion ottomane de Chios — Piyāle Pasha met fin à la mahonne génoise
+    description_en: |
+      The Ottoman kapudan-ı deryā Piyāle Pasha, sailing from
+      Constantinople with a fleet of eighty galleys, took
+      possession of the Aegean island of Chios (Sakız) from
+      its Genoese rulers, the Maona di Chio, ending two and a
+      half centuries of Latin commercial autonomy in the
+      eastern Aegean. The Genoese podestà had defaulted on
+      Chios's annual tribute to the Porte and had been accused
+      of harbouring Spanish-Habsburg agents; Piyāle landed
+      without resistance, deposed the Maona, and incorporated
+      Chios into the Ottoman *eyālet* of the islands. The
+      lucrative mastic trade — Chios was the only place where
+      mastic was cultivated — was thereafter administered as
+      an Ottoman crown monopoly. The takeover removed the
+      last Latin-Christian island stronghold in the Aegean
+      apart from Venetian Crete and consolidated Ottoman
+      maritime control of the central Aegean.
+    description_ar: |
+      أبحر قبودان دريا العثماني بياله باشا من القسطنطينية على
+      رأس أسطول من ثمانين سفينة، فاستولى على جزيرة ساقز
+      (خيوس) في بحر إيجه من حكامها الجنويين «الماونة الكية»،
+      فأنهى قرنين ونصف قرن من الحكم الذاتي التجاري اللاتيني
+      في شرق إيجه. كان البودستا الجنوي قد امتنع عن دفع جزية
+      ساقز السنوية للباب العالي، واتُّهم بإيواء عملاء
+      الهابسبورغ الإسبان. أنزل بياله جنده دون مقاومة، فعزل
+      الماونة، وضمّ ساقز إلى ولاية الجزائر العثمانية. وأديرت
+      تجارة المستكي المربحة بعد ذلك بوصفها احتكاراً سلطانياً
+      عثمانياً، وكانت ساقز الموطنَ الأوحد لزراعة المستكي.
+      وأزال الضمُّ آخرَ معاقل النصارى اللاتين في إيجه عدا
+      جزيرة كريت البندقية، ووطّد سيطرة العثمانيين البحرية على
+      وسط إيجه.
+    description_fr: |
+      Le kapudan-ı deryā ottoman Piyāle Pasha, partant de
+      Constantinople avec une flotte de quatre-vingts galères,
+      prit possession de l'île égéenne de Chios (Sakız) au
+      détriment de ses maîtres génois, la Maona di Chio,
+      mettant fin à deux siècles et demi d'autonomie
+      commerciale latine dans l'Égée orientale. Le podestat
+      génois avait fait défaut sur le tribut annuel dû à la
+      Sublime Porte et avait été accusé d'abriter des agents
+      hispano-habsbourgeois. Piyāle débarqua sans résistance,
+      déposa la Maona et intégra Chios à l'*eyālet* ottoman
+      des Îles. Le lucratif commerce du mastic — Chios était
+      le seul lieu de culture du mastic — fut désormais géré
+      comme monopole de la couronne ottomane. La prise
+      écartait le dernier bastion latin-chrétien insulaire de
+      l'Égée à l'exception de la Crète vénitienne et consolida
+      la maîtrise maritime ottomane sur l'Égée centrale.
+    canonical_hijri: {year: 973, month: 9, day: 15, precision: day}
+    canonical_gregorian: {date: 1566-04-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Sakız' (Chios) dates Piyāle Pasha's annexation of Chios from the Genoese Maona to 14–15 April 1566 (Ramaḍān 973 AH); the article confirms the closure of the mastic monopoly under Ottoman administration."
+      - source_key: editorial
+        notes: "Cross-checked against Imber, *The Ottoman Empire 1300–1650*, ch. 8, and Argenti, *The Occupation of Chios by the Turks*, both of whom attest 15 April 1566 as the day of the takeover."
+    people: [[suleiman-the-magnificent, ruler], [piyale-pasha, leader]]
+    tags: [ottoman, chios, sakiz, aegean, piyale-pasha, genoa, naval, mastic]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # DEATH OF PIYĀLE PASHA
+  # =========================================================================
+
+  - slug: death-of-piyale-pasha
+    category: ruler_death
+    title_en: Death of Piyāle Pasha — Victor of Djerba and Conqueror of Chios
+    title_ar: وفاة بياله باشا — منتصر جربة وفاتح ساقز
+    title_fr: Mort de Piyāle Pasha — vainqueur de Djerba et conquérant de Chios
+    description_en: |
+      Piyāle Pasha, kapudan-ı deryā of Süleymān al-Qānūnī and
+      son-in-law of Sultan Selīm II, died at his Constantinople
+      residence and was buried in his mosque-complex at
+      Kasımpaşa, designed by the architect Sinan and known as
+      the Piyāle Paşa Camii. Of devshirme Hungarian origin, he
+      had served at sea from the Tripoli campaign of 958 AH
+      onward, won the great Ottoman naval victory at Djerba
+      in 967 AH (1560), commanded the maritime arm of the
+      Malta expedition (972 AH/1565), annexed Chios and the
+      western Aegean (973 AH/1566), and shared command at
+      Lepanto's antecedent campaigns. With his death the
+      generation of Khayr al-Dīn's direct successors as
+      kapudan-ı deryā closed; his still-standing mosque
+      remains one of the principal Sinan-era monuments of
+      Constantinople's European shore.
+    description_ar: |
+      توفي بياله باشا، قبودان دريا السلطان سليمان القانوني
+      وصهر السلطان سليم الثاني، في داره بالقسطنطينية، ودُفن
+      في كليّته في قاسم باشا، وهي مسجد ومجمع من تصميم
+      المعمار سنان، يعرف بـ«جامع بياله باشا». كان من أصل
+      هنغاري دفشرمي، خدم في البحر منذ حملة طرابلس سنة ٩٥٨ هـ،
+      وحقق نصر العثمانيين البحري الكبير في جربة سنة ٩٦٧ هـ
+      (١٥٦٠ م)، وقاد الذراع البحرية في حملة مالطا (٩٧٢ هـ /
+      ١٥٦٥ م)، وضمّ ساقز وغرب إيجه (٩٧٣ هـ / ١٥٦٦ م)، وشارك
+      في القيادة في حملات سابقة لليبانتو. وبوفاته انتهى جيلُ
+      الورثة المباشرين لخير الدين في منصب قبودان دريا، وما
+      زال مسجده القائم من أهم آثار سنان على الساحل الأوروبي
+      للقسطنطينية.
+    description_fr: |
+      Piyāle Pasha, kapudan-ı deryā de Soliman al-Qānūnī et
+      gendre du sultan Selīm II, mourut dans sa résidence de
+      Constantinople et fut inhumé dans son ensemble mosquée-
+      *külliye* de Kasımpaşa, œuvre de l'architecte Sinan,
+      connu sous le nom de Piyāle Paşa Camii. D'origine
+      hongroise (devshirme), il avait servi en mer depuis la
+      campagne de Tripoli de 958 H, remporté la grande
+      victoire navale ottomane de Djerba en 967 H (1560),
+      commandé le bras maritime de l'expédition de Malte (972
+      H / 1565), annexé Chios et l'ouest de l'Égée (973 H /
+      1566) et partagé le commandement aux campagnes en
+      amont de Lépante. Avec sa mort se referma la génération
+      des successeurs directs de Khayr al-Dīn au poste de
+      kapudan-ı deryā; sa mosquée, toujours debout, reste l'un
+      des principaux monuments d'époque sinanienne sur la
+      rive européenne de Constantinople.
+    canonical_hijri: {year: 985, month: 11, day: 2, precision: day}
+    canonical_gregorian: {date: 1578-01-21, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Piyāle Pasha' dates his death to 21 January 1578 (Dhū al-Qaʿda 985 AH) at Constantinople and confirms his burial in the Sinan-designed Piyāle Paşa Camii at Kasımpaşa."
+      - source_key: editorial
+        notes: "Cross-checked against Imber, *The Ottoman Empire 1300–1650*, who attests 1578 as the year of death; the still-standing mosque is the principal Sinan monument of Kasımpaşa."
+    people: [[selim-ii, ruler], [piyale-pasha, deceased]]
+    tags: [ottoman, naval, piyale-pasha, kapudan-i-derya, death, constantinople, sinan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

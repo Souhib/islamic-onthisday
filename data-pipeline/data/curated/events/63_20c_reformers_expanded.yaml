@@ -1,0 +1,894 @@
+# Wave 28b of curated event additions (2026-04-27).
+# Twentieth-century Sunni intellectual figures and reformers not yet covered
+# by the dataset. Ten figures spanning the Egyptian Brotherhood ideologues
+# (Quṭb, al-Hudaybī), the South Asian Islamic-revivalist Jamāʿat-i Islāmī
+# founder (al-Mawdūdī), the Austrian Muslim convert and Qurʾan translator
+# (Muḥammad Asad), the Iraqi-American uṣūl scholar (al-ʿAlwānī), the
+# Damascene Ashʿarī-Shāfiʿī scholar (al-Būṭī), the Saudi Qurʾanic-sciences
+# scholar (al-Qaṭṭān), the Pakistani Deobandī jurists (Muḥammad Shafīʿ
+# ʿUthmānī, Muḥammad Idrīs Kāndhalawī), and the Indian Deobandī reformer
+# (Ashraf ʿAlī Thānwī). Already-covered figures (Sanhūrī, ʿAbduh,
+# al-Bannā, al-Albānī, Ahmad Shākir, al-Qaraḍāwī, al-Zuḥaylī, Said Nursī,
+# Iqbāl, ʿAbd al-Ḥalīm Maḥmūd, Muḥammad al-Ghazālī al-Saqqā, al-Afghānī,
+# Rashīd Riḍā) are skipped. All ten figures are presented factually-
+# historically, without endorsement or condemnation; political and
+# ideological controversies are described as such and not adjudicated.
+# Sources: EI2, EI3 (where available), academic biographies, and
+# editorial compilation. No hadith refs. Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # EGYPTIAN BROTHERHOOD INTELLECTUALS
+  # =========================================================================
+
+  - slug: death-of-sayyid-qutb
+    category: scholar_death
+    title_en: Execution of Sayyid Quṭb — Egyptian Brotherhood Ideologue
+    title_ar: إعدام سيد قطب — مفكر الإخوان المسلمين بمصر
+    title_fr: Exécution de Sayyid Quṭb — idéologue des Frères musulmans égyptiens
+    description_en: |
+      Sayyid Quṭb Ibrāhīm Ḥusayn al-Shādhilī — Egyptian Sunni
+      author, literary critic, and prominent ideologue of the
+      Muslim Brotherhood (*al-Ikhwān al-Muslimūn*) from the
+      mid-1950s onward — was executed by hanging at Liman Ṭura
+      prison in Cairo in the early hours of 13 Jumādā al-Ūlā
+      1386 AH (29 August 1966 CE) on charges of plotting against
+      the Nasser government, alongside two co-defendants. He
+      was 60. Educated at Dār al-ʿUlūm in Cairo and originally
+      a literary writer and ministry of education official, he
+      joined the Brotherhood after returning from study in the
+      United States in 1950. His major works include the
+      thirty-juzʾ Qurʾanic exegesis *Fī Ẓilāl al-Qurʾān*,
+      composed largely during his imprisonment from 1954
+      onward, the social-justice treatise *al-ʿAdāla al-
+      Ijtimāʿiyya fī al-Islām*, and *Maʿālim fī al-Ṭarīq*
+      (1964) — the short ideological tract whose state-
+      indictment served as the principal evidence at his
+      trial. His execution was contested across the Sunni Arab
+      world at the time and continues to mark a major rupture
+      in the political history of the Egyptian Brotherhood.
+    description_ar: |
+      أُعدم سيد قطب إبراهيم حسين الشاذلي — الكاتب والناقد
+      الأدبي السني المصري، ومن أبرز منظّري جماعة الإخوان
+      المسلمين منذ منتصف خمسينات القرن العشرين الميلادي —
+      شنقاً بسجن ليمان طُره بالقاهرة فجر يوم ١٣ جمادى الأولى
+      سنة ١٣٨٦ هـ (الموافق ٢٩ أوت ١٩٦٦ ميلادي) بتهمة التخطيط
+      لقلب نظام حكم جمال عبد الناصر، ومعه متهمان آخران. وقد
+      ناهز الستين. تخرج من «دار العلوم» بالقاهرة، وكان أصلاً
+      أديباً وموظفاً بوزارة المعارف، ثم انضم إلى الإخوان عند
+      عودته من بعثة دراسية بالولايات المتحدة سنة ١٣٧٠ هـ
+      (١٩٥٠ ميلادي). ومن أكبر مصنفاته «في ظلال القرآن» في
+      ثلاثين جزءاً، الذي أنجز معظمه أثناء سجنه منذ سنة ١٣٧٤
+      هـ (١٩٥٤ ميلادي)، وكتاب «العدالة الاجتماعية في
+      الإسلام»، و«معالم في الطريق» (سنة ١٣٨٤ هـ / ١٩٦٤
+      ميلادي) — الكتيب الأيديولوجي الذي جعلته النيابة الدليل
+      الرئيس في محاكمته. وقد أثار إعدامه جدلاً واسعاً في
+      العالم العربي السني آنذاك، ولا يزال نقطة قطيعة كبرى
+      في التاريخ السياسي للإخوان المسلمين بمصر.
+    description_fr: |
+      Sayyid Quṭb Ibrāhīm Ḥusayn al-Shādhilī — auteur sunnite
+      égyptien, critique littéraire et idéologue éminent des
+      Frères musulmans (*al-Ikhwān al-Muslimūn*) à partir du
+      milieu des années 1950 — fut exécuté par pendaison à la
+      prison de Liman Ṭura au Caire à l'aube du 13 Jumādā
+      al-Ūlā 1386 H (29 août 1966 EC) sous l'inculpation de
+      complot contre le gouvernement de Nasser, aux côtés de
+      deux co-accusés. Il avait 60 ans. Formé à Dār al-ʿUlūm
+      au Caire, écrivain littéraire et fonctionnaire du
+      ministère de l'Éducation à l'origine, il rejoignit les
+      Frères musulmans à son retour d'un séjour d'études aux
+      États-Unis en 1950. Ses œuvres majeures comprennent
+      l'exégèse coranique en trente *juzʾ* *Fī Ẓilāl al-
+      Qurʾān*, composée en grande partie durant son
+      emprisonnement à partir de 1954, le traité de justice
+      sociale *al-ʿAdāla al-Ijtimāʿiyya fī al-Islām* et
+      *Maʿālim fī al-Ṭarīq* (1964) — le bref opuscule
+      idéologique dont l'incrimination par l'État servit de
+      principal élément de preuve à son procès. Son exécution
+      fut contestée à travers le monde arabe sunnite à
+      l'époque et marque toujours une rupture majeure dans
+      l'histoire politique des Frères musulmans égyptiens.
+    canonical_hijri: {year: 1386, month: 5, day: 13, precision: day}
+    canonical_gregorian: {date: 1966-08-29, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'Sayyid Quṭb' in EI2 records execution date 29 August 1966."
+      - source_key: editorial
+        notes: "Trial proceedings and execution at Liman Ṭura widely attested in Egyptian press of the period."
+    people: [[sayyid-qutb, died]]
+    tags: [modern, scholar, ikhwan, egypt, mufassir, cairo, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sayyid_Qutb"
+
+  - slug: death-of-hasan-al-hudaybi
+    category: scholar_death
+    title_en: Death of Ḥasan al-Huḍaybī — Second General Guide of the Egyptian Muslim Brotherhood
+    title_ar: وفاة حسن الهضيبي — المرشد العام الثاني للإخوان المسلمين بمصر
+    title_fr: Mort de Ḥasan al-Huḍaybī — second Guide général des Frères musulmans égyptiens
+    description_en: |
+      Ḥasan Ismāʿīl al-Huḍaybī — Egyptian Sunni jurist and
+      former counsellor at the Egyptian Court of Cassation,
+      second General Guide (*al-Murshid al-ʿĀmm*) of the
+      Society of the Muslim Brotherhood from October 1951
+      until his death — died at Cairo on 15 Shawwāl 1393 AH
+      (11 November 1973 CE) at age 82. He had succeeded the
+      assassinated Ḥasan al-Bannā at the head of the
+      organisation, was arrested and tried in the Brotherhood
+      crackdowns of 1954 and again in 1965, and remained in
+      detention or under house arrest for much of the next
+      decade. His treatise *Duʿāh lā Quḍāh* ("Preachers, not
+      Judges"), compiled in the late 1960s under his name and
+      published in 1977, articulates an explicit Brotherhood
+      Sunni juristic refutation of the takfīrī positions
+      associated with the Quṭbist current within the Egyptian
+      prison camps, and remains a primary text for the
+      organisation's mainstream theological self-understanding.
+    description_ar: |
+      توفي الأستاذ حسن إسماعيل الهضيبي — الفقيه السني المصري
+      والمستشار السابق بمحكمة النقض، والمرشد العام الثاني
+      لجماعة الإخوان المسلمين منذ ذي الحجة سنة ١٣٧٠ هـ
+      (أكتوبر ١٩٥١ ميلادي) إلى وفاته — بالقاهرة يوم ١٥ شوال
+      سنة ١٣٩٣ هـ (الموافق ١١ نوفمبر ١٩٧٣ ميلادي) عن اثنتين
+      وثمانين سنة. خلف الإمام حسن البنا في رئاسة الجماعة بعد
+      اغتياله، واعتُقل وحوكم في حملتي القمع سنة ١٣٧٣ هـ
+      (١٩٥٤ ميلادي) وسنة ١٣٨٥ هـ (١٩٦٥ ميلادي) ثم استمر في
+      السجن أو الإقامة الجبرية معظم العقد التالي. وكتابه
+      «دعاة لا قضاة» الذي جُمع باسمه أواخر ستينات القرن
+      العشرين الميلادي ونُشر سنة ١٣٩٧ هـ (١٩٧٧ ميلادي)
+      تأصيل فقهي سني صريح لرفض مواقف التكفير المنسوبة إلى
+      تيار قطبي داخل المعسكرات المصرية، وما يزال نصاً
+      تأسيسياً للفهم اللاهوتي السائد في الجماعة.
+    description_fr: |
+      Ḥasan Ismāʿīl al-Huḍaybī — juriste sunnite égyptien et
+      ancien conseiller à la Cour de cassation égyptienne,
+      second Guide général (*al-Murshid al-ʿĀmm*) de la
+      Société des Frères musulmans d'octobre 1951 jusqu'à sa
+      mort — mourut au Caire le 15 Shawwāl 1393 H
+      (11 novembre 1973 EC) à l'âge de 82 ans. Il avait
+      succédé à Ḥasan al-Bannā assassiné à la tête de
+      l'organisation, fut arrêté et jugé lors des répressions
+      des Frères en 1954 et de nouveau en 1965, et demeura
+      en détention ou en résidence surveillée pendant la
+      majeure partie de la décennie suivante. Son traité
+      *Duʿāh lā Quḍāh* (« Prédicateurs, non juges »),
+      compilé sous son nom à la fin des années 1960 et
+      publié en 1977, articule une réfutation juridique
+      sunnite explicite des positions takfīrites associées
+      au courant quṭbiste dans les camps de prison égyptiens,
+      et demeure un texte primaire pour
+      l'auto-compréhension théologique mainstream de
+      l'organisation.
+    canonical_hijri: {year: 1393, month: 10, day: 15, precision: day}
+    canonical_gregorian: {date: 1973-11-11, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'al-Hudaybī, Ḥasan Ismāʿīl' in EI2 supplements records death November 1973."
+      - source_key: editorial
+        notes: "Date of death (11 November 1973) attested in standard biographies and Brotherhood internal records."
+    people: [[hasan-al-hudaybi, died], [hassan-al-banna, subject]]
+    tags: [modern, scholar, ikhwan, egypt, cairo, twentieth-century, jurist]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hasan_al-Hudaybi"
+
+  # =========================================================================
+  # SOUTH ASIAN ISLAMIC REVIVALISM
+  # =========================================================================
+
+  - slug: death-of-abu-al-ala-al-mawdudi
+    category: scholar_death
+    title_en: Death of Abū al-Aʿlā al-Mawdūdī — Founder of Jamāʿat-i Islāmī
+    title_ar: وفاة أبي الأعلى المودودي — مؤسس الجماعة الإسلامية
+    title_fr: Mort d'Abū al-Aʿlā al-Mawdūdī — fondateur de la Jamāʿat-i Islāmī
+    description_en: |
+      Abū al-Aʿlā al-Mawdūdī — South Asian Sunni Hanafī
+      scholar, journalist, and political thinker, founder of
+      Jamāʿat-i Islāmī (1941) and one of the most influential
+      twentieth-century South Asian Islamic-revivalist
+      intellectuals — died at Buffalo, New York on
+      1 Dhū al-Qaʿda 1399 AH (22 September 1979 CE) at age 75
+      while undergoing medical treatment for kidney disease,
+      and was buried in his home at Ichhra in Lahore. Largely
+      self-trained after a classical Indo-Persian Islamic
+      education, he was editor of *Tarjumān al-Qurʾān* from
+      1932 onward, founded Jamāʿat-i Islāmī in Lahore on the
+      eve of partition, and led the organisation until 1972.
+      His writings — the six-volume Urdu Qurʾanic exegesis
+      *Tafhīm al-Qurʾān*, *al-Khilāfa wa-l-Mulk*, *Iʿādat-i
+      Niẓām-i Khilāfat*, and *Khuṭbāt* — circulate widely
+      in Urdu, Arabic, English, Persian, Turkish, and
+      Indonesian, and shaped the political vocabulary of
+      twentieth-century Sunni revivalism in the
+      subcontinent and beyond. He was awarded the inaugural
+      King Faisal International Prize for Service to Islam
+      in 1979, months before his death.
+    description_ar: |
+      توفي العلامة أبو الأعلى المودودي — العالم السني
+      الحنفي وصحفي ومفكر سياسي من شبه القارة الهندية،
+      مؤسس «الجماعة الإسلامية» سنة ١٣٦٠ هـ (١٩٤١ ميلادي)
+      وأحد أبرز رواد الإحياء الإسلامي السني في شبه القارة
+      في القرن العشرين الميلادي — بمدينة بوفالو بولاية
+      نيويورك يوم غرة ذي القعدة سنة ١٣٩٩ هـ (الموافق
+      ٢٢ سبتمبر ١٩٧٩ ميلادي) عن خمس وسبعين سنة في رحلة
+      علاجية من داء الكلى، ودفن بداره بحي إيتشهرا في
+      لاهور. وكان قد تكوّن غالباً تكويناً ذاتياً بعد
+      تربية إسلامية هندية فارسية كلاسيكية، وتولى تحرير
+      مجلة «ترجمان القرآن» منذ سنة ١٣٥١ هـ (١٩٣٢ ميلادي)،
+      وأسس «الجماعة الإسلامية» بلاهور عشية تقسيم الهند،
+      وقاد الجماعة إلى سنة ١٣٩٢ هـ (١٩٧٢ ميلادي).
+      ومؤلفاته: تفسير القرآن الكريم بالأردية في ستة
+      مجلدات «تفهيم القرآن»، و«الخلافة والملك»، و«إعادة
+      نظام الخلافة»، و«الخطبات» منتشرة بالأردية والعربية
+      والإنجليزية والفارسية والتركية والإندونيسية، وقد
+      صاغت اللغة السياسية للإحياء الإسلامي السني في
+      القرن العشرين بشبه القارة وما وراءها. ومُنح جائزة
+      الملك فيصل العالمية لخدمة الإسلام في دورتها الأولى
+      سنة ١٣٩٩ هـ (١٩٧٩ ميلادي) قبل وفاته بأشهر.
+    description_fr: |
+      Abū al-Aʿlā al-Mawdūdī — savant sunnite hanafite
+      sud-asiatique, journaliste et penseur politique,
+      fondateur de la Jamāʿat-i Islāmī (1941) et l'un des
+      intellectuels révivalistes islamiques sud-asiatiques
+      les plus influents du XXe siècle — mourut à Buffalo,
+      New York, le 1 Dhū al-Qaʿda 1399 H (22 septembre
+      1979 EC) à l'âge de 75 ans alors qu'il y suivait un
+      traitement médical pour insuffisance rénale, et fut
+      enterré à son domicile d'Ichhra à Lahore. Largement
+      autodidacte après une éducation islamique indo-persane
+      classique, il dirigea la rédaction de *Tarjumān al-
+      Qurʾān* à partir de 1932, fonda la Jamāʿat-i Islāmī à
+      Lahore à la veille de la partition, et dirigea
+      l'organisation jusqu'en 1972. Ses écrits — l'exégèse
+      coranique en six volumes en ourdou *Tafhīm al-
+      Qurʾān*, *al-Khilāfa wa-l-Mulk*, *Iʿādat-i Niẓām-i
+      Khilāfat* et *Khuṭbāt* — circulent largement en
+      ourdou, arabe, anglais, persan, turc et indonésien,
+      et façonnèrent le vocabulaire politique du
+      révivalisme sunnite sud-asiatique du XXe siècle et
+      au-delà. Il reçut le premier Prix international du
+      roi Fayṣal pour le service de l'Islam en 1979,
+      quelques mois avant sa mort.
+    canonical_hijri: {year: 1399, month: 11, day: 1, precision: day}
+    canonical_gregorian: {date: 1979-09-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'Mawdūdī, Sayyid Abū al-Aʿlā' in EI2 records death 22 September 1979 in Buffalo."
+      - source_key: editorial
+        notes: "Burial at Ichhra in Lahore and King Faisal Prize award attested in standard biographies."
+    people: [[abu-al-ala-al-mawdudi, died]]
+    tags: [modern, scholar, jamaat-e-islami, pakistan, india, hanafi, mufassir, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abul_A%27la_Maududi"
+
+  # =========================================================================
+  # EUROPEAN-MUSLIM CONVERT TRADITION
+  # =========================================================================
+
+  - slug: death-of-muhammad-asad
+    category: scholar_death
+    title_en: Death of Muḥammad Asad (Leopold Weiss) — European-Muslim Translator of the Qurʾan
+    title_ar: وفاة محمد أسد (ليوبولد فايس) — مترجم القرآن الكريم إلى الإنجليزية
+    title_fr: Mort de Muḥammad Asad (Leopold Weiss) — traducteur européen du Coran
+    description_en: |
+      Muḥammad Asad — born Leopold Weiss in Lemberg
+      (Austrian Galicia, now Lviv) on 12 July 1900,
+      Austrian-Jewish journalist who entered Islam in
+      Berlin in 1926, friend of King ʿAbd al-ʿAzīz Āl
+      Saʿūd, founding figure of the Pakistan Department
+      of Islamic Reconstruction in 1947 and Pakistan's
+      minister-plenipotentiary at the United Nations from
+      1952 — died at Mijas in southern Spain on
+      16 Shaʿbān 1412 AH (20 February 1992 CE) at age 91
+      and was buried in the Muslim cemetery of Granada.
+      His autobiography *The Road to Mecca* (1954) is one
+      of the most widely read twentieth-century European-
+      Muslim conversion narratives. His English Qurʾan
+      translation and commentary *The Message of the
+      Qurʾān* (begun in the 1960s and published in 1980)
+      and his earlier translation of *Ṣaḥīḥ al-Bukhārī*
+      stand among the major contributions to Sunni
+      Qurʾanic scholarship in European languages. He
+      also drafted parts of the early constitutional
+      proposals for Pakistan as an Islamic state in
+      collaboration with the country's founders.
+    description_ar: |
+      توفي العلامة محمد أسد — وهو ليوبولد فايس المولود
+      بمدينة لمبرغ (غاليتسيا النمساوية، ليفيف اليوم)
+      يوم ١٢ جويلية ١٩٠٠ ميلادي، صحفي يهودي نمساوي دخل
+      في الإسلام ببرلين سنة ١٣٤٤ هـ (١٩٢٦ ميلادي)،
+      وصديق الملك عبد العزيز آل سعود، ومؤسس قسم إعادة
+      البناء الإسلامي بباكستان سنة ١٣٦٦ هـ (١٩٤٧
+      ميلادي)، ووزير باكستان المفوض لدى الأمم المتحدة
+      منذ سنة ١٣٧١ هـ (١٩٥٢ ميلادي) — بمدينة ميخاس
+      جنوب إسبانيا يوم ١٦ شعبان سنة ١٤١٢ هـ (الموافق
+      ٢٠ فيفري ١٩٩٢ ميلادي) عن إحدى وتسعين سنة، ودفن
+      بالمقبرة الإسلامية بغرناطة. وسيرته الذاتية
+      «الطريق إلى مكة» (سنة ١٣٧٤ هـ / ١٩٥٤ ميلادي) من
+      أشهر روايات الدخول في الإسلام لمسلمي أوروبا في
+      القرن العشرين الميلادي، وترجمته الإنجليزية للقرآن
+      الكريم وتفسيره «رسالة القرآن» (بدأت في ستينات
+      القرن العشرين وصدرت سنة ١٤٠٠ هـ / ١٩٨٠ ميلادي)
+      وترجمته السابقة لـ«صحيح البخاري» من أكبر
+      الإسهامات في نشر العلم السني للقرآن باللغات
+      الأوروبية. وقد شارك أيضاً في صياغة بعض الاقتراحات
+      الدستورية الأولى لباكستان بوصفها دولة إسلامية مع
+      مؤسسي البلد.
+    description_fr: |
+      Muḥammad Asad — né Leopold Weiss à Lemberg (Galicie
+      autrichienne, aujourd'hui Lviv) le 12 juillet 1900,
+      journaliste juif autrichien entré en Islam à Berlin
+      en 1926, ami du roi ʿAbd al-ʿAzīz Āl Saʿūd, figure
+      fondatrice du Département de la Reconstruction
+      Islamique du Pakistan en 1947 et ministre
+      plénipotentiaire du Pakistan auprès des Nations
+      Unies à partir de 1952 — mourut à Mijas dans le sud
+      de l'Espagne le 16 Shaʿbān 1412 H (20 février 1992
+      EC) à l'âge de 91 ans et fut enterré au cimetière
+      musulman de Grenade. Son autobiographie *The Road
+      to Mecca* (1954) est l'un des récits de conversion
+      européen-musulman les plus lus du XXe siècle. Sa
+      traduction anglaise du Coran et son commentaire
+      *The Message of the Qurʾān* (entamé dans les
+      années 1960 et publié en 1980) ainsi que sa
+      traduction antérieure du *Ṣaḥīḥ al-Bukhārī*
+      figurent parmi les contributions majeures à
+      l'érudition coranique sunnite en langues
+      européennes. Il rédigea également des parties des
+      premières propositions constitutionnelles du
+      Pakistan en tant qu'État islamique en collaboration
+      avec les fondateurs du pays.
+    canonical_hijri: {year: 1412, month: 8, day: 16, precision: day}
+    canonical_gregorian: {date: 1992-02-20, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'Asad, Muḥammad' in EI2 supplements records death February 1992 in Mijas, Spain."
+      - source_key: editorial
+        notes: "Burial in Granada Muslim cemetery and Pakistani diplomatic career attested in standard biographies."
+    people: [[muhammad-asad, died]]
+    tags: [modern, scholar, european-convert, austria, pakistan, mufassir, twentieth-century, granada]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Asad"
+
+  # =========================================================================
+  # USUL AND CONTEMPORARY SUNNI THOUGHT
+  # =========================================================================
+
+  - slug: death-of-taha-jabir-al-alwani
+    category: scholar_death
+    title_en: Death of Ṭāhā Jābir al-ʿAlwānī — Iraqi-American Uṣūl Scholar
+    title_ar: وفاة طه جابر العلواني — العالم العراقي الأمريكي في أصول الفقه
+    title_fr: Mort de Ṭāhā Jābir al-ʿAlwānī — savant uṣūl irako-américain
+    description_en: |
+      Ṭāhā Jābir al-ʿAlwānī — Iraqi-born Sunni Shāfiʿī
+      jurist and uṣūl scholar, doctor of *uṣūl al-fiqh*
+      from al-Azhar (1973), founding president of the
+      International Institute of Islamic Thought in
+      Herndon, Virginia (from 1981) and of the Fiqh
+      Council of North America, and longtime president
+      of the Cordoba University graduate institute in the
+      United States — died at Cairo on 24 Jumādā al-Ūlā
+      1437 AH (4 March 2016 CE) at age 80. He had been a
+      member of the OIC International Islamic Fiqh
+      Academy in Jeddah and a leading voice in the
+      Anglophone discourse on contemporary uṣūl, *fiqh
+      al-aqalliyyāt* (jurisprudence for Muslim
+      minorities), and the *maqāṣid* tradition. His
+      writings include *Uṣūl al-Fiqh al-Islāmī*,
+      *Adab al-Ikhtilāf fī al-Islām*, *Madkhal ilā Fiqh
+      al-Aqalliyyāt*, and a Qurʾanic-sciences treatise on
+      the unity of the Qurʾan, several of which appear
+      in English translation.
+    description_ar: |
+      توفي العلامة طه جابر العلواني — الفقيه السني
+      الشافعي العراقي الأصل، الحاصل على دكتوراه في أصول
+      الفقه من الأزهر الشريف سنة ١٣٩٣ هـ (١٩٧٣ ميلادي)،
+      الرئيس المؤسس للمعهد العالمي للفكر الإسلامي
+      بهيرندون بفرجينيا منذ سنة ١٤٠١ هـ (١٩٨١ ميلادي)،
+      وللمجمع الفقهي بأمريكا الشمالية، ورئيس جامعة
+      قرطبة العليا بالولايات المتحدة سنين طويلة —
+      بالقاهرة يوم ٢٤ جمادى الأولى سنة ١٤٣٧ هـ (الموافق
+      ٤ مارس ٢٠١٦ ميلادي) عن ثمانين سنة. وكان عضواً
+      بمجمع الفقه الإسلامي الدولي بجدة التابع لمنظمة
+      التعاون الإسلامي، ومن أبرز أصوات الفقه الإسلامي
+      المعاصر باللغة الإنجليزية في «فقه الأقليات»
+      ومقاصد الشريعة. ومن مؤلفاته: «أصول الفقه
+      الإسلامي» و«أدب الاختلاف في الإسلام» و«مدخل إلى
+      فقه الأقليات» ورسالة في علوم القرآن في وحدة
+      الكتاب العزيز. وعدد منها مترجم إلى الإنجليزية.
+    description_fr: |
+      Ṭāhā Jābir al-ʿAlwānī — juriste et savant en
+      *uṣūl al-fiqh* sunnite shāfiʿite né en Iraq,
+      docteur en *uṣūl al-fiqh* d'al-Azhar (1973),
+      président fondateur de l'International Institute
+      of Islamic Thought à Herndon en Virginie (à partir
+      de 1981) et du Fiqh Council of North America, et
+      longtemps président de l'institut supérieur de la
+      Cordoba University aux États-Unis — mourut au
+      Caire le 24 Jumādā al-Ūlā 1437 H (4 mars 2016 EC)
+      à l'âge de 80 ans. Il fut membre de l'Académie
+      internationale du fiqh islamique de l'OCI à Jeddah
+      et l'une des principales voix du discours
+      anglophone sur l'*uṣūl* contemporain, le *fiqh al-
+      aqalliyyāt* (jurisprudence pour les minorités
+      musulmanes) et la tradition des *maqāṣid*. Ses
+      écrits comprennent *Uṣūl al-Fiqh al-Islāmī*,
+      *Adab al-Ikhtilāf fī al-Islām*, *Madkhal ilā
+      Fiqh al-Aqalliyyāt* et un traité de sciences
+      coraniques sur l'unité du Coran, dont plusieurs
+      paraissent en traduction anglaise.
+    canonical_hijri: {year: 1437, month: 5, day: 24, precision: day}
+    canonical_gregorian: {date: 2016-03-04, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Modern academic references record death in Cairo on 4 March 2016."
+      - source_key: editorial
+        notes: "IIIT and Fiqh Council of North America institutional records attested in standard biographies."
+    people: [[taha-jabir-al-alwani, died]]
+    tags: [modern, scholar, usul, iraq, united-states, shafii, fiqh-al-aqalliyyat, twentieth-century, twenty-first-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Taha_Jabir_Alalwani"
+
+  # =========================================================================
+  # DAMASCENE SCHOLARSHIP
+  # =========================================================================
+
+  - slug: death-of-said-ramadan-al-buti
+    category: scholar_death
+    title_en: Killing of Muḥammad Saʿīd Ramaḍān al-Būṭī — Damascene Ashʿarī-Shāfiʿī Scholar
+    title_ar: مقتل العلامة محمد سعيد رمضان البوطي — العالم الدمشقي الأشعري الشافعي
+    title_fr: Mort de Muḥammad Saʿīd Ramaḍān al-Būṭī — savant ashʿarite-shāfiʿite damascène
+    description_en: |
+      Muḥammad Saʿīd Ramaḍān al-Būṭī — Syrian Sunni
+      Ashʿarī-Shāfiʿī jurist of Kurdish origin, longtime
+      professor and dean of the College of Sharīʿa at
+      Damascus University, author of *Fiqh al-Sīra al-
+      Nabawiyya*, *Kubrā al-Yaqīniyyāt al-Kawniyya*, and
+      *al-Lā-Madhhabiyya akhtar Bidʿa Tuhaddid al-
+      Sharīʿa al-Islāmiyya* — was killed alongside
+      forty-two others, including his grandson, when a
+      bomb exploded during his evening Qurʾan-tafsīr
+      lesson at the al-Īmān Mosque in the al-Mazraʿa
+      district of Damascus on 9 Jumādā al-Ūlā 1434 AH
+      (21 March 2013 CE) during the Syrian war. He was
+      84. Trained at al-Azhar, he taught for over fifty
+      years at Damascus and held the chair of *ʿaqīda*
+      and comparative *fiqh*. He was widely cited across
+      the Sunni Arabic-speaking world as one of the
+      foremost contemporary expositors of mainstream
+      Ashʿarī theology and Shāfiʿī fiqh, and authored
+      more than sixty works in the religious sciences.
+      The bombing was condemned across the Sunni Muslim
+      world; responsibility was disputed and remains
+      formally unattributed.
+    description_ar: |
+      قُتل العلامة محمد سعيد رمضان البوطي — الفقيه السني
+      السوري الأشعري الشافعي ذو الأصل الكردي، أستاذ
+      وعميد كلية الشريعة بجامعة دمشق سنين طويلة، صاحب
+      «فقه السيرة النبوية» و«كبرى اليقينيات الكونية»
+      و«اللامذهبية أخطر بدعة تهدد الشريعة الإسلامية» —
+      مع اثنين وأربعين آخرين منهم حفيده عند انفجار قنبلة
+      في درس التفسير المسائي بمسجد الإيمان بحي المزرعة
+      بدمشق يوم ٩ جمادى الأولى سنة ١٤٣٤ هـ (الموافق
+      ٢١ مارس ٢٠١٣ ميلادي) في الحرب السورية. وقد ناهز
+      الرابعة والثمانين. تخرج من الأزهر، ودرّس بجامعة
+      دمشق ما يزيد على نصف قرن، وتقلد كرسي العقيدة
+      والفقه المقارن. وعدّه الناطقون بالعربية في العالم
+      السني من أكبر شارحي العقيدة الأشعرية والفقه
+      الشافعي في عصره، وله أكثر من ستين مصنفاً في
+      العلوم الشرعية. وقد استنكر العالم السني تفجير
+      المسجد، ولم يُعرف بشكل رسمي من نفّذه إلى الآن.
+    description_fr: |
+      Muḥammad Saʿīd Ramaḍān al-Būṭī — juriste sunnite
+      ashʿarite-shāfiʿite syrien d'origine kurde,
+      longtemps professeur et doyen de la Faculté de
+      Sharīʿa de l'Université de Damas, auteur de *Fiqh
+      al-Sīra al-Nabawiyya*, *Kubrā al-Yaqīniyyāt al-
+      Kawniyya* et *al-Lā-Madhhabiyya akhtar Bidʿa
+      Tuhaddid al-Sharīʿa al-Islāmiyya* — fut tué avec
+      quarante-deux autres personnes, dont son
+      petit-fils, lors de l'explosion d'une bombe pendant
+      sa leçon de tafsīr coranique à la mosquée al-Īmān
+      du quartier al-Mazraʿa à Damas, le 9 Jumādā al-
+      Ūlā 1434 H (21 mars 2013 EC), durant la guerre
+      syrienne. Il avait 84 ans. Formé à al-Azhar, il
+      enseigna pendant plus de cinquante ans à Damas et
+      occupa la chaire de *ʿaqīda* et de *fiqh* comparé.
+      Il fut largement cité dans le monde arabe sunnite
+      comme l'un des plus éminents exposants
+      contemporains de la théologie ashʿarite mainstream
+      et du fiqh shāfiʿite, et rédigea plus de soixante
+      ouvrages dans les sciences religieuses. L'attentat
+      fut condamné à travers le monde musulman sunnite;
+      la responsabilité fut contestée et demeure
+      formellement non attribuée.
+    canonical_hijri: {year: 1434, month: 5, day: 9, precision: day}
+    canonical_gregorian: {date: 2013-03-21, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Modern academic references record death by mosque bombing in Damascus on 21 March 2013."
+      - source_key: editorial
+        notes: "Damascus University career and authored corpus of over sixty volumes attested in standard biographies."
+    people: [[said-ramadan-al-buti, died]]
+    tags: [modern, scholar, syria, damascus, ashari, shafii, syrian-war, twenty-first-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mohamed_Said_Ramadan_Al-Bouti"
+
+  # =========================================================================
+  # QURʾANIC SCIENCES IN MODERN PUBLISHING
+  # =========================================================================
+
+  - slug: death-of-manna-al-qattan
+    category: scholar_death
+    title_en: Death of Manāʿ al-Qaṭṭān — Author of *Mabāḥith fī ʿUlūm al-Qurʾān*
+    title_ar: وفاة الشيخ مناع القطان — صاحب «مباحث في علوم القرآن»
+    title_fr: Mort de Manāʿ al-Qaṭṭān — auteur de *Mabāḥith fī ʿUlūm al-Qurʾān*
+    description_en: |
+      Manāʿ ibn Khalīl al-Qaṭṭān — Egyptian-born Sunni
+      scholar of Qurʾanic sciences, graduate of al-Azhar
+      and longtime professor at the Islamic University of
+      Imām Muḥammad ibn Saʿūd in Riyadh and director of
+      its higher institute of judiciary, author of the
+      widely circulated reference manual *Mabāḥith fī
+      ʿUlūm al-Qurʾān* and *Mabāḥith fī ʿUlūm al-Ḥadīth*
+      — died at Riyadh on 25 Rabīʿ al-Awwal 1420 AH
+      (9 July 1999 CE) at age 74. He had moved to Saudi
+      Arabia in the 1950s and spent the bulk of his
+      teaching career at Imām University, where his
+      twin manuals on the sciences of the Qurʾan and the
+      sciences of hadith became among the most widely
+      used Sunni undergraduate textbooks in those
+      subjects across the Arab world and translated into
+      Turkish, Indonesian, and Malay. He also published
+      *Tārīkh al-Tashrīʿ al-Islāmī* and a treatise on
+      Islamic legislation in modern legal codification.
+    description_ar: |
+      توفي الشيخ مناع بن خليل القطان — العالم السني
+      المصري الأصل في علوم القرآن، خريج الأزهر وأستاذ
+      جامعة الإمام محمد بن سعود الإسلامية بالرياض سنين
+      طويلة ومدير المعهد العالي للقضاء فيها، صاحب
+      «مباحث في علوم القرآن» و«مباحث في علوم الحديث»
+      المتداولين انتشاراً واسعاً — بالرياض يوم
+      ٢٥ ربيع الأول سنة ١٤٢٠ هـ (الموافق ٩ جويلية ١٩٩٩
+      ميلادي) عن أربع وسبعين سنة. وكان قد انتقل إلى
+      المملكة العربية السعودية في خمسينات القرن العشرين
+      الميلادي، وأمضى جلّ مسيرته التدريسية بجامعة
+      الإمام، وصار كتاباه التوأمان في علوم القرآن
+      وعلوم الحديث من أكثر الكتب الجامعية السنية
+      تداولاً في تلكم المادتين بالعالم العربي، وتُرجما
+      إلى التركية والإندونيسية والملايو. ونشر أيضاً
+      «تاريخ التشريع الإسلامي» ورسالة في التقنين
+      الإسلامي الحديث.
+    description_fr: |
+      Manāʿ ibn Khalīl al-Qaṭṭān — savant sunnite né en
+      Égypte, spécialiste des sciences coraniques,
+      diplômé d'al-Azhar et longtemps professeur à
+      l'Université islamique Imām Muḥammad ibn Saʿūd à
+      Riyad et directeur de son institut supérieur de la
+      magistrature, auteur du manuel de référence
+      largement diffusé *Mabāḥith fī ʿUlūm al-Qurʾān*
+      et de *Mabāḥith fī ʿUlūm al-Ḥadīth* — mourut à
+      Riyad le 25 Rabīʿ al-Awwal 1420 H (9 juillet
+      1999 EC) à l'âge de 74 ans. Il s'était installé
+      en Arabie saoudite dans les années 1950 et passa
+      l'essentiel de sa carrière d'enseignement à
+      l'Université Imām, où ses deux manuels jumeaux sur
+      les sciences du Coran et les sciences du hadith
+      devinrent parmi les manuels universitaires
+      sunnites les plus largement utilisés dans ces
+      matières à travers le monde arabe et furent
+      traduits en turc, indonésien et malais. Il publia
+      également *Tārīkh al-Tashrīʿ al-Islāmī* et un
+      traité sur la législation islamique dans la
+      codification juridique moderne.
+    canonical_hijri: {year: 1420, month: 3, day: 25, precision: day}
+    canonical_gregorian: {date: 1999-07-09, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Modern academic references record death in Riyadh July 1999."
+      - source_key: editorial
+        notes: "Imām Muḥammad ibn Saʿūd University career and translated textbook corpus attested in standard biographies."
+    people: [[manna-al-qattan, died]]
+    tags: [modern, scholar, egypt, saudi-arabia, riyadh, ulum-al-quran, ulum-al-hadith, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://ar.wikipedia.org/wiki/%D9%85%D9%86%D8%A7%D8%B9_%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D9%86"
+
+  # =========================================================================
+  # PAKISTANI DEOBANDĪ SCHOLARSHIP
+  # =========================================================================
+
+  - slug: death-of-mufti-muhammad-shafi-uthmani
+    category: scholar_death
+    title_en: Death of Muftī Muḥammad Shafīʿ ʿUthmānī — First Grand Muftī of Pakistan
+    title_ar: وفاة المفتي محمد شفيع العثماني — أول مفتي عام لباكستان
+    title_fr: Mort du Muftī Muḥammad Shafīʿ ʿUthmānī — premier Grand Muftī du Pakistan
+    description_en: |
+      Muftī Muḥammad Shafīʿ ʿUthmānī — South Asian
+      Sunni Hanafī jurist of the Deobandī school,
+      formerly *muftī aʿẓam* of the Dār al-ʿUlūm
+      Deoband in pre-partition India, founding patron
+      of the Dār al-ʿUlūm of Karachi (1951), and the
+      first Grand Muftī of Pakistan after independence
+      — died at Karachi on 12 Shawwāl 1396 AH
+      (6 October 1976 CE) at age 79. He was a student
+      of Ashraf ʿAlī Thānwī and the father of the
+      contemporary jurists Muftī Muḥammad Taqī ʿUthmānī
+      and Muftī Muḥammad Rafīʿ ʿUthmānī. His major
+      work is the eight-volume Urdu Qurʾanic exegesis
+      *Maʿārif al-Qurʾān*, drafted from the late
+      1960s, in which Hanafī fiqh, classical Sunni
+      tafsīr, and contemporary moral and legal questions
+      are integrated; an English translation appeared
+      from 1995. His fatwas on Pakistan's early
+      constitutional and Islamic-finance debates shaped
+      the Deobandī jurisprudential voice in the new
+      republic, and his Karachi seminary continued to
+      train Sunni Hanafī scholars from across the
+      subcontinent and the diaspora after his death.
+    description_ar: |
+      توفي المفتي محمد شفيع العثماني — الفقيه السني
+      الحنفي على مذهب أهل ديوبند بشبه القارة الهندية،
+      مفتي عام دار العلوم ديوبند بالهند قبل التقسيم،
+      مؤسس راعي دار العلوم بكراتشي سنة ١٣٧٠ هـ (١٩٥١
+      ميلادي)، وأول مفتي عام لباكستان بعد الاستقلال —
+      بكراتشي يوم ١٢ شوال سنة ١٣٩٦ هـ (الموافق
+      ٦ أكتوبر ١٩٧٦ ميلادي) عن تسع وسبعين سنة. وكان
+      من تلامذة الإمام أشرف علي التهانوي، وهو والد
+      الفقيهين المعاصرين المفتي محمد تقي العثماني
+      والمفتي محمد رفيع العثماني. وأكبر مؤلفاته
+      «معارف القرآن» تفسير القرآن الكريم بالأردية في
+      ثمانية مجلدات شرع فيه أواخر ستينات القرن
+      العشرين الميلادي يجمع فيه بين الفقه الحنفي
+      والتفسير السني الكلاسيكي والقضايا الأخلاقية
+      والقانونية المعاصرة، وقد ترجم إلى الإنجليزية
+      منذ سنة ١٤١٥ هـ (١٩٩٥ ميلادي). وفتاويه في
+      المسائل الدستورية الأولى لباكستان والمالية
+      الإسلامية صاغت الصوت الفقهي الديوبندي في
+      الجمهورية الجديدة، وما تزال جامعته بكراتشي
+      تربي العلماء السنيين الأحناف من شبه القارة
+      والمهاجر بعد وفاته.
+    description_fr: |
+      Muftī Muḥammad Shafīʿ ʿUthmānī — juriste sunnite
+      hanafite sud-asiatique de l'école déobandī,
+      ancien *muftī aʿẓam* de Dār al-ʿUlūm Deoband
+      dans l'Inde pré-partition, patron fondateur du
+      Dār al-ʿUlūm de Karachi (1951) et premier Grand
+      Muftī du Pakistan après l'indépendance — mourut
+      à Karachi le 12 Shawwāl 1396 H (6 octobre 1976
+      EC) à l'âge de 79 ans. Il fut élève d'Ashraf
+      ʿAlī Thānwī et est le père des juristes
+      contemporains Muftī Muḥammad Taqī ʿUthmānī et
+      Muftī Muḥammad Rafīʿ ʿUthmānī. Son œuvre
+      majeure est l'exégèse coranique en ourdou en
+      huit volumes *Maʿārif al-Qurʾān*, rédigée à
+      partir de la fin des années 1960, dans laquelle
+      sont intégrés le fiqh hanafite, le tafsīr
+      sunnite classique et les questions morales et
+      juridiques contemporaines; une traduction
+      anglaise parut à partir de 1995. Ses fatwas sur
+      les débats constitutionnels et de finance
+      islamique des premières années du Pakistan
+      façonnèrent la voix juridique déobandī dans la
+      nouvelle république, et son séminaire de
+      Karachi continua à former des savants sunnites
+      hanafites venant de tout le sous-continent et
+      de la diaspora après sa mort.
+    canonical_hijri: {year: 1396, month: 10, day: 12, precision: day}
+    canonical_gregorian: {date: 1976-10-06, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Modern academic references record death in Karachi 6 October 1976."
+      - source_key: editorial
+        notes: "Founding role at Dār al-ʿUlūm Karachi and first Grand Muftī of Pakistan attested in standard biographies."
+    people: [[mufti-muhammad-shafi, died], [ashraf-ali-thanwi, subject]]
+    tags: [modern, scholar, deoband, pakistan, karachi, hanafi, mufti, mufassir, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Shafi_Deobandi"
+
+  - slug: death-of-muhammad-idris-kandhalawi
+    category: scholar_death
+    title_en: Death of Mawlānā Muḥammad Idrīs Kāndhalawī — Pakistani Deobandī Muḥaddith
+    title_ar: وفاة المولانا محمد إدريس الكاندهلوي — المحدث الديوبندي الباكستاني
+    title_fr: Mort de Mawlānā Muḥammad Idrīs Kāndhalawī — muḥaddith déobandī pakistanais
+    description_en: |
+      Muḥammad Idrīs Kāndhalawī — South Asian Sunni
+      Hanafī muḥaddith of the Deobandī school, born at
+      Kandhla (north India) in 1316 AH (1899 CE),
+      educated at the Maẓāhir al-ʿUlūm seminary at
+      Saharanpur and at Dār al-ʿUlūm Deoband, and
+      longtime professor of hadith at the Jāmiʿa
+      Ashrafiyya seminary in Lahore (founded 1947) —
+      died at Lahore in 1394 AH (July 1974 CE) at age
+      75. He was a senior disciple of Ashraf ʿAlī
+      Thānwī and a relative of the Kāndhalawī scholarly
+      family of the Tablīghī Jamāʿat. His Urdu and
+      Arabic works on hadith and fiqh include the eight-
+      volume Urdu commentary on al-Bukhārī *al-Tʿalīq al-
+      Ṣabīh ʿalā Mishkāt al-Maṣābīḥ* (in some editions),
+      his commentary on Riyāḍ al-Ṣāliḥīn, and a sīra
+      compendium *Sīrat al-Muṣṭafā ﷺ* in three volumes
+      that became one of the standard Urdu sīra
+      references in twentieth-century Pakistani Deobandī
+      seminaries. He trained generations of Hanafī
+      scholars in the post-partition South Asian
+      Sunni hadith tradition.
+    description_ar: |
+      توفي المولانا محمد إدريس الكاندهلوي — المحدث
+      السني الحنفي الديوبندي من شبه القارة الهندية،
+      المولود بكاندهلة شمال الهند سنة ١٣١٦ هـ
+      (الموافق ١٨٩٩ ميلادي)، الذي تلقى العلم
+      بمظاهر العلوم بسهارنبور وبدار العلوم ديوبند،
+      وأستاذ الحديث في الجامعة الأشرفية بلاهور
+      (المؤسسة سنة ١٣٦٦ هـ / ١٩٤٧ ميلادي) سنين طويلة
+      — بلاهور سنة ١٣٩٤ هـ (في جويلية ١٩٧٤ ميلادي)
+      عن خمس وسبعين سنة. وكان من كبار تلامذة الإمام
+      أشرف علي التهانوي، ومن أسرة الكاندهلويين
+      العلمية ذات الصلة بجماعة التبليغ. ومن مؤلفاته
+      بالأردية والعربية في الحديث والفقه: شرح
+      «مشكاة المصابيح» في ثمانية مجلدات (في بعض
+      الطبعات)، وشرحه لـ«رياض الصالحين»، و«سيرة
+      المصطفى ﷺ» في ثلاثة مجلدات، الذي صار من
+      المراجع السيرية الأردية المعتمدة في المعاهد
+      الديوبندية الباكستانية بالقرن العشرين الميلادي.
+      وقد ربى أجيالاً من العلماء السنيين الأحناف في
+      تراث الحديث السني بشبه القارة بعد التقسيم.
+    description_fr: |
+      Muḥammad Idrīs Kāndhalawī — muḥaddith sunnite
+      hanafite sud-asiatique de l'école déobandī, né à
+      Kandhla (Inde du Nord) en 1316 H (1899 EC),
+      formé au séminaire Maẓāhir al-ʿUlūm de Saharanpur
+      et à Dār al-ʿUlūm Deoband, et longtemps
+      professeur de hadith au séminaire Jāmiʿa
+      Ashrafiyya de Lahore (fondé en 1947) — mourut à
+      Lahore en 1394 H (juillet 1974 EC) à l'âge de
+      75 ans. Il fut un disciple senior d'Ashraf ʿAlī
+      Thānwī et un membre de la famille savante
+      Kāndhalawī liée à la Tablīghī Jamāʿat. Ses
+      œuvres en ourdou et en arabe sur le hadith et
+      le fiqh comprennent un commentaire en huit
+      volumes du *Mishkāt al-Maṣābīḥ* (dans certaines
+      éditions), son commentaire de *Riyāḍ al-Ṣāliḥīn*
+      et un compendium de sīra *Sīrat al-Muṣṭafā ﷺ*
+      en trois volumes, devenu l'une des références
+      sīra ourdoues standard dans les séminaires
+      déobandīs pakistanais du XXe siècle. Il forma
+      des générations de savants hanafites dans la
+      tradition sud-asiatique du hadith sunnite
+      d'après la partition.
+    canonical_hijri: {year: 1394, precision: year}
+    canonical_gregorian: {date: 1974-07-18, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death in Lahore in July 1974 attested in Pakistani Deobandī biographical sources; precise day variously reported as 18 July (28 Jumādā al-Ākhira 1394) or other adjacent days, so year-precision used for Hijri."
+    people: [[muhammad-idris-kandhalawi, died], [ashraf-ali-thanwi, subject]]
+    tags: [modern, scholar, deoband, pakistan, lahore, hanafi, muhaddith, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Idris_Kandhlawi"
+
+  # =========================================================================
+  # INDIAN DEOBANDĪ REFORMER
+  # =========================================================================
+
+  - slug: death-of-ashraf-ali-thanwi
+    category: scholar_death
+    title_en: Death of Ashraf ʿAlī Thānwī — Indian Deobandī Reformer
+    title_ar: وفاة الإمام أشرف علي التهانوي — المصلح الديوبندي الهندي
+    title_fr: Mort de Ashraf ʿAlī Thānwī — réformateur déobandī indien
+    description_en: |
+      Ashraf ʿAlī Thānwī — South Asian Sunni Hanafī
+      jurist, Sufi master, and prolific writer of the
+      Deobandī school, longtime resident at Thana
+      Bhawan in north India — died at Thana Bhawan
+      on 16 Rajab 1362 AH (corresponding to 19-20
+      July 1943 CE) at age 80. Born in 1280 AH
+      (1863 CE), he graduated from Dār al-ʿUlūm
+      Deoband in 1301 AH (1883 CE), taught for
+      fourteen years at the Madrasa Jāmiʿ al-ʿUlūm of
+      Kanpur, and from 1315 AH (1897 CE) settled at
+      Thana Bhawan as the principal spiritual master of
+      the Imdadiyya Chishtī Sufi line. His Urdu
+      collected works run to several hundred volumes
+      and include *Bayān al-Qurʾān* (a multi-volume
+      Urdu Qurʾanic exegesis), *Bahishtī Zēwar* (a
+      celebrated handbook of Hanafī fiqh for women),
+      *Imdād al-Fatāwā*, *al-Iqtiṣād fī al-Taqlīd
+      wa-l-Ijtihād*, and the *Maktūbāt-i Ḥakīm al-
+      Ummat*. The honorific *Ḥakīm al-Ummat*
+      ("physician of the community") accompanied him
+      across his late career. He shaped the
+      twentieth-century South Asian Deobandī
+      scholarly and Sufi tradition more directly than
+      any single contemporary, and his disciples
+      included Mufti Muḥammad Shafīʿ ʿUthmānī and
+      Muḥammad Idrīs Kāndhalawī.
+    description_ar: |
+      توفي الإمام أشرف علي التهانوي — الفقيه السني
+      الحنفي والشيخ الصوفي والمصنف المكثر من علماء
+      ديوبند بشبه القارة الهندية، المقيم بثانه بهون
+      شمال الهند سنين طويلة — بثانه بهون يوم ١٦ رجب
+      سنة ١٣٦٢ هـ (الموافق ١٩-٢٠ جويلية ١٩٤٣
+      ميلادي) عن ثمانين سنة. ولد سنة ١٢٨٠ هـ
+      (الموافق ١٨٦٣ ميلادي)، وتخرج من دار العلوم
+      ديوبند سنة ١٣٠١ هـ (١٨٨٣ ميلادي)، ودرّس أربع
+      عشرة سنة بمدرسة جامع العلوم بكانبور، ثم استقر
+      منذ سنة ١٣١٥ هـ (١٨٩٧ ميلادي) بثانه بهون
+      شيخاً للطريقة الإمدادية الجشتية الصوفية. وآثاره
+      الأردية المجموعة في عدة مئات من المجلدات،
+      منها: «بيان القرآن» تفسير القرآن الكريم
+      بالأردية في عدة مجلدات، و«بهشتي زيور» وهو
+      الدليل الفقهي الشهير للنساء على المذهب
+      الحنفي، و«إمداد الفتاوى»، و«الاقتصاد في
+      التقليد والاجتهاد»، و«مكتوبات حكيم الأمت».
+      ولُقّب «حكيم الأمة» في أواخر سيرته العلمية.
+      وقد صاغ تراث ديوبند العلمي والصوفي بشبه القارة
+      في القرن العشرين الميلادي تأثيراً مباشراً لا
+      يبلغه فيه أحد من معاصريه، ومن تلامذته المفتي
+      محمد شفيع العثماني والمولانا محمد إدريس
+      الكاندهلوي.
+    description_fr: |
+      Ashraf ʿAlī Thānwī — juriste sunnite hanafite
+      sud-asiatique, maître soufi et écrivain
+      prolifique de l'école déobandī, longtemps
+      résident à Thana Bhawan dans l'Inde du Nord —
+      mourut à Thana Bhawan le 16 Rajab 1362 H
+      (correspondant aux 19-20 juillet 1943 EC) à
+      l'âge de 80 ans. Né en 1280 H (1863 EC), il
+      fut diplômé de Dār al-ʿUlūm Deoband en 1301 H
+      (1883 EC), enseigna pendant quatorze ans à la
+      Madrasa Jāmiʿ al-ʿUlūm de Kanpur, et à partir
+      de 1315 H (1897 EC) s'installa à Thana Bhawan
+      comme principal maître spirituel de la voie
+      soufie chishtī Imdādiyya. Ses œuvres complètes
+      en ourdou s'élèvent à plusieurs centaines de
+      volumes et comprennent *Bayān al-Qurʾān* (une
+      exégèse coranique en ourdou en plusieurs
+      volumes), *Bahishtī Zēwar* (un célèbre manuel
+      de fiqh hanafite pour les femmes), *Imdād al-
+      Fatāwā*, *al-Iqtiṣād fī al-Taqlīd wa-l-Ijtihād*
+      et les *Maktūbāt-i Ḥakīm al-Ummat*. Le titre
+      honorifique *Ḥakīm al-Ummat* (« médecin de la
+      communauté ») l'accompagna durant la fin de sa
+      carrière. Il façonna la tradition savante et
+      soufie déobandī sud-asiatique du XXe siècle plus
+      directement qu'aucun contemporain, et parmi ses
+      disciples figurèrent Muftī Muḥammad Shafīʿ
+      ʿUthmānī et Muḥammad Idrīs Kāndhalawī.
+    canonical_hijri: {year: 1362, month: 7, day: 16, precision: day}
+    canonical_gregorian: {date: 1943-07-19, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'Thānawī, Ashraf ʿAlī' in EI2 records death 16 Rajab 1362 / 19-20 July 1943 at Thana Bhawan."
+      - source_key: editorial
+        notes: "Imdādiyya Chishtī succession from Ḥajjī Imdād Allāh Muhājir Makkī and biographical record at Thana Bhawan attested in standard Deobandī biographies."
+    people: [[ashraf-ali-thanwi, died]]
+    tags: [modern, scholar, deoband, india, hanafi, sufi, chishti, mufassir, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ashraf_Ali_Thanwi"

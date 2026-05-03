@@ -1,0 +1,1002 @@
+# Wave 59 of curated event additions (2026-04-27).
+# Late Mughal and colonial-era Islam in the Indian subcontinent (12th-14th
+# centuries AH / 18th-20th centuries CE). Twelve dated events covering the
+# political-military collapse of independent Muslim power in India, the
+# institutional reform-and-revival movements that emerged under the British
+# Raj, and the mass-organisational forms (Deoband, Aligarh, Nadwa, Tablīghī
+# Jamāʿat) that defined twentieth-century South Asian Sunni life. Battles
+# are framed factually: the East India Company's victories at Plassey and
+# Buxar are the structural beginning of British rule, not Muslim victories;
+# the Maratha-Afghan engagement at Panipat halted the Maratha advance but
+# did nothing to restore Mughal sovereignty. Reform movements (Faraidi,
+# Deobandī, Aligarh-modernist, Nadwa-mediating, Tablīghī-revivalist) are
+# Sunni-scope and presented in their own institutional terms. Trilingual
+# en/ar/fr throughout. All twelve attested in EI2 + standard secondary
+# scholarship. None are sahaba; none carry hadith refs.
+
+events:
+  # =========================================================================
+  # POLITICAL-MILITARY COLLAPSE — 18th c.
+  # =========================================================================
+
+  - slug: battle-of-plassey
+    category: battle
+    title_en: Battle of Plassey — British Conquest of Bengal
+    title_ar: معركة بلاسي — فتح البريطانيين البنغال
+    title_fr: Bataille de Plassey — conquête britannique du Bengale
+    description_en: |
+      A small force of the British East India Company under Robert Clive
+      defeated the army of Sirāj al-Dawla, the young Nawab of Bengal,
+      at the village of Palāsī (Plassey) on the Bhāgīrathī river north
+      of Murshidabad on 5 Shawwāl 1170 AH (23 June 1757 CE). The
+      outcome was decided less by combat than by the secret defection
+      of the nawab's senior commander Mīr Jaʿfar, who had been bought
+      over by Company agents through the banker Jagat Seth and who
+      withheld the bulk of the Bengal cavalry from the field. Sirāj
+      al-Dawla fled, was captured days later, and was killed; Mīr
+      Jaʿfar was installed as a Company-dependent nawab. The
+      engagement was small in absolute terms, but its consequences
+      were vast: the wealth of Bengal — at the time the richest
+      province of the disintegrating Mughal Empire — passed under
+      Company control, financing the further military expansion that
+      would, within a century, make British India the dominant power
+      on the subcontinent and end the long political ascendancy of
+      Sunni Muslim rule there.
+    description_ar: |
+      هزمت قوة صغيرة من جيش شركة الهند الشرقية البريطانية بقيادة
+      روبرت كلايف جيش سراج الدولة، نواب البنغال الشاب، عند قرية
+      پلاسي على نهر «بهاكيرتي» شمالي مرشد آباد يوم ٥ شوال سنة
+      ١١٧٠ هـ (الموافق ٢٣ جوان ١٧٥٧ ميلادي). ولم تَحْسِم النتيجةَ
+      المعركةُ نفسها بقدر ما حسمتها خيانة سرّية من قبل القائد
+      الأكبر لجيش النواب مير جعفر، الذي أبرم الإنجليز معه صفقة
+      عن طريق الصيرفي «جاجَتْ سيث»، فحجب جلّ خيول البنغال عن
+      المعركة. وفرّ سراج الدولة فأُسر بعد أيام وقُتل، وجُعل
+      مير جعفر نواباً تابعاً للشركة. وكانت المعركة صغيرة في
+      ذاتها، لكن آثارها كبيرة جداً: انتقلت ثروة البنغال — وكانت
+      أغنى ولايات الدولة المغولية الإسلامية المتفكّكة — إلى يد
+      الشركة، فمَوّلت توسعاً عسكرياً إضافياً جعل الهند البريطانية
+      في غضون قرن واحد القوةَ المهيمنة على شبه القارة، ووضع نهاية
+      للهيمنة السياسية الطويلة لأهل السنة المسلمين فيها.
+    description_fr: |
+      Une petite armée de la Compagnie britannique des Indes orientales
+      sous Robert Clive défit l'armée de Sirāj al-Dawla, le jeune
+      Nawab du Bengale, près du village de Palāsī (Plassey) sur la
+      rivière Bhāgīrathī au nord de Murshidabad le 5 Shawwāl 1170 H
+      (23 juin 1757 EC). Le résultat fut moins déterminé par les
+      combats que par la défection secrète du commandant en chef du
+      nawab, Mīr Jaʿfar, acheté par les agents de la Compagnie via
+      le banquier Jagat Seth, qui retint le gros de la cavalerie
+      bengalie hors du champ. Sirāj al-Dawla s'enfuit, fut capturé
+      quelques jours plus tard et tué; Mīr Jaʿfar fut installé
+      comme nawab à la solde de la Compagnie. La bataille fut
+      modeste en elle-même, mais ses conséquences furent vastes :
+      la richesse du Bengale — alors la province la plus riche
+      d'un Empire moghol en désintégration — passa sous le contrôle
+      de la Compagnie, finançant l'expansion militaire qui ferait,
+      en l'espace d'un siècle, de l'Inde britannique la puissance
+      dominante du sous-continent et mettrait fin à la longue
+      prééminence politique des musulmans sunnites en Inde.
+    canonical_hijri: {year: 1170, month: 10, day: 5, precision: day}
+    canonical_gregorian: {date: 1757-06-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Plassey' / 'Sirāj al-Dawla' — date and outcome."
+      - source_key: editorial
+        notes: "Cross-checked against standard Bengal historiography."
+    people: [[siraj-al-dawla, leader]]
+    tags: [colonial, india, bengal, plassey, east-india-company, mughal-decline, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Plassey"
+
+  - slug: third-battle-of-panipat
+    category: battle
+    title_en: Third Battle of Panipat — Maratha Defeat by Aḥmad Shāh Durrānī
+    title_ar: معركة بانيبات الثالثة — هزيمة المَرَاثا أمام أحمد شاه الدُّرَّاني
+    title_fr: Troisième bataille de Pânipat — défaite des Marathes face à Aḥmad Shāh Durrānī
+    description_en: |
+      The third major battle on the plain of Panipat north of Delhi
+      took place on 7 Jumādā al-Ākhira 1174 AH (14 January 1761 CE)
+      between the Afghan-Mughal-Awadh coalition led by the Durrānī
+      ruler Aḥmad Shāh Abdālī and the Hindu Maratha Confederacy under
+      Sadāshivrāo Bhāu. The Maratha army — which had advanced on
+      Delhi in the wake of Mughal collapse and reached its high-water
+      mark in 1759-1760 — was decisively defeated and Bhāu was killed,
+      together with the heir-apparent Vishwasrao and tens of
+      thousands of Maratha soldiers and camp followers. The battle
+      halted the Maratha advance into the Punjab and northern India
+      for a decade, but did nothing to restore Mughal sovereignty;
+      Aḥmad Shāh withdrew across the Indus within months. The
+      vacuum it left would be filled neither by an Afghan empire
+      nor by a Maratha one, but, in the long run, by the British
+      East India Company expanding north from Bengal.
+    description_ar: |
+      وقعت ثالث المعارك الكبرى في سهل بانيبات شمال دلهي يوم
+      ٧ جمادى الآخرة سنة ١١٧٤ هـ (الموافق ١٤ جانفي ١٧٦١ ميلادي)
+      بين الحلف الأفغاني المغولي الأَوَدْهي بقيادة الملك الدُّرَّاني
+      أحمد شاه الأبدالي والكونفدرالية المَرَاثية الهندوسية بقيادة
+      سَدَاشيف رَاو بَهَاو. وكان جيش المَرَاثا قد استغل تفكّك
+      الدولة المغولية فاجتاح دلهي وبلغ أقصى توسعه في سنتي
+      ١١٧٢-١١٧٣ هـ (١٧٥٩-١٧٦٠ ميلادي)، فهُزم في هذه المعركة
+      هزيمةً قاطعة وقُتل بَهَاو ومعه ولي العهد المَرَاثي
+      «فيشواس راو» وعشرات الآلاف من جنوده وأهل المعسكر. وأوقفت
+      المعركة زحف المَرَاثا على البنجاب وشمال الهند عقداً من
+      الزمن، غير أنها لم تُعِد للمغول سيادتهم؛ فقد انسحب أحمد
+      شاه عبر السند بعد شهور. ولم يَملأ الفراغ الذي خلّفته لا
+      دولة أفغانية ولا دولة مَرَاثية، بل في الأمد البعيد
+      شركة الهند الشرقية البريطانية الصاعدة من البنغال.
+    description_fr: |
+      La troisième grande bataille livrée dans la plaine de Pânipat,
+      au nord de Delhi, eut lieu le 7 Jumādā al-Ākhira 1174 H
+      (14 janvier 1761 EC) entre la coalition afghane-moghole-
+      awadhie dirigée par le souverain durrānī Aḥmad Shāh Abdālī
+      et la Confédération marathe hindoue sous Sadāshivrāo Bhāu.
+      L'armée marathe — qui s'était avancée sur Delhi à la faveur
+      de l'effondrement moghol et avait atteint son apogée en
+      1759-1760 — fut décisivement défaite et Bhāu fut tué avec
+      l'héritier présomptif Vishwasrao et des dizaines de milliers
+      de soldats marathes et de gens du camp. La bataille arrêta
+      l'avance marathe au Pendjab et dans le nord de l'Inde pour
+      une décennie, mais ne rétablit en rien la souveraineté
+      moghole; Aḥmad Shāh repassa l'Indus en quelques mois. Le
+      vide qu'elle laissa ne serait comblé ni par un empire
+      afghan ni par un empire marathe, mais à long terme par la
+      Compagnie britannique des Indes orientales s'étendant vers
+      le nord depuis le Bengale.
+    canonical_hijri: {year: 1174, month: 6, day: 7, precision: day}
+    canonical_gregorian: {date: 1761-01-14, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Aḥmad Shāh Durrānī' / 'Pānipat' — date and outcome."
+      - source_key: editorial
+        notes: "Cross-checked against standard Mughal-Afghan historiography."
+    tags: [india, panipat, durrani, maratha, mughal-decline, afghanistan, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Third_Battle_of_Panipat"
+
+  - slug: battle-of-buxar
+    category: battle
+    title_en: Battle of Buxar — Company Becomes Dīwān of Bengal-Bihar-Orissa
+    title_ar: معركة بَكْسَر — الشركة تتحوّل ديواناً للبنغال وبيهار وأوريسا
+    title_fr: Bataille de Buxar — la Compagnie devient dīwān du Bengale-Bihar-Orissa
+    description_en: |
+      Seven years after Plassey, the British East India Company under
+      Hector Munro defeated the combined armies of three Muslim
+      Indian rulers — Mīr Qāsim (the deposed Nawab of Bengal),
+      Shujāʿ al-Dawla (the Nawab of Awadh), and the Mughal emperor
+      Shāh ʿĀlam II — at the town of Bakhsar (Buxar) on the Ganges
+      west of Patna on 25 Rabīʿ al-Thānī 1178 AH (22 October 1764
+      CE). The defeat was decisive: Mīr Qāsim's bid to break free
+      of Company tutelage failed, Shujāʿ al-Dawla was forced into
+      a subordinate alliance, and Shāh ʿĀlam II himself fell into
+      Company hands. By the Treaty of Allahabad the following August
+      he formally granted the Company the *dīwānī* — the right of
+      civil administration and revenue collection — over Bengal,
+      Bihar, and Orissa, in exchange for an annual pension. Where
+      Plassey had begun the conquest of Bengal, Buxar legalised it
+      under Mughal imperial sanction and made the East India
+      Company a sovereign power in north-eastern India.
+    description_ar: |
+      بعد سبع سنين من معركة پلاسي، هزمت قوات شركة الهند الشرقية
+      البريطانية بقيادة هكتور مونرو الجيوشَ الثلاثة المتحالفة:
+      جيش مير قاسم نواب البنغال المعزول، وجيش شجاع الدولة نواب
+      أَوَدْه، وجيش الإمبراطور المغولي شاه عالم الثاني، عند بلدة
+      بَكْسَر على نهر الكَنْج غربيّ بَتْنا يوم ٢٥ ربيع الآخر سنة
+      ١١٧٨ هـ (الموافق ٢٢ أكتوبر ١٧٦٤ ميلادي). وكانت الهزيمة
+      قاطعة: فشلت محاولة مير قاسم في الانعتاق من نفوذ الشركة،
+      وأُجبر شجاع الدولة على حلف تابع، ووقع شاه عالم الثاني
+      نفسه في يد الشركة. وفي شهر أوت من السنة التالية أبرم معه
+      الإنجليز «معاهدة الله آباد» ومنحت الشركة بموجبها
+      «الديوانية»، أي حق الإدارة المدنية وجباية الخراج، على
+      البنغال وبيهار وأوريسا، في مقابل معاش سنوي. وإذا كانت
+      پلاسي قد فتحت باب التغلب على البنغال، فإن بَكْسَر شرعنته
+      بختم إمبراطوري مغولي، وحوّلت شركة الهند الشرقية إلى
+      سلطة سيادية في شمال شرق الهند.
+    description_fr: |
+      Sept ans après Plassey, la Compagnie britannique des Indes
+      orientales sous Hector Munro défit les armées combinées de
+      trois souverains musulmans indiens — Mīr Qāsim (le Nawab du
+      Bengale déposé), Shujāʿ al-Dawla (le Nawab d'Awadh) et
+      l'empereur moghol Shāh ʿĀlam II — à la ville de Bakhsar
+      (Buxar) sur le Gange à l'ouest de Patna, le 25 Rabīʿ al-Thānī
+      1178 H (22 octobre 1764 EC). La défaite fut décisive : la
+      tentative de Mīr Qāsim de se libérer de la tutelle de la
+      Compagnie échoua, Shujāʿ al-Dawla fut contraint à une
+      alliance subordonnée et Shāh ʿĀlam II lui-même tomba aux
+      mains de la Compagnie. Par le Traité d'Allahabad du mois
+      d'août suivant, il accorda formellement à la Compagnie le
+      *dīwānī* — le droit d'administration civile et de collecte
+      des revenus — sur le Bengale, le Bihar et l'Orissa, en
+      échange d'une pension annuelle. Là où Plassey avait amorcé
+      la conquête du Bengale, Buxar la légalisa sous sanction
+      impériale moghole et fit de la Compagnie britannique une
+      puissance souveraine dans le nord-est de l'Inde.
+    canonical_hijri: {year: 1178, month: 4, day: 25, precision: day}
+    canonical_gregorian: {date: 1764-10-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Buxar' / 'Mīr Ḳāsim' / 'Shudjāʿ al-Dawla' — date and outcome."
+      - source_key: editorial
+        notes: "Cross-checked against standard Mughal-Bengal historiography."
+    tags: [colonial, india, bengal, awadh, buxar, east-india-company, mughal-decline, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Buxar"
+
+  - slug: death-of-tipu-sultan
+    category: ruler_death
+    title_en: Death of Tīpū Sulṭān at Seringapatam — Fall of Mysore
+    title_ar: مقتل تيبو سلطان بسرنغ پتم — سقوط دولة ميسور
+    title_fr: Mort de Tīpū Sulṭān à Seringapatam — chute de Mysore
+    description_en: |
+      Fatḥ ʿAlī Tīpū Sulṭān ibn Ḥaydar ʿAlī — Sunni Muslim ruler of
+      the Sultanate of Mysore in southern India and the most
+      militarily formidable Indian opponent the East India Company
+      ever faced — was killed defending the breached fortress of
+      Seringapatam (*Srīrangapaṭṭanam*) against the Fourth
+      Anglo-Mysore War's final assault on 29 Dhū al-Qaʿda 1213 AH
+      (4 May 1799 CE). He was about 49. Heir to his father's
+      Mysore throne, he had reorganised his army on European
+      lines, built a war-rocket arm decades ahead of any other
+      Indian state, conducted long correspondence with Ottoman,
+      Persian, French, and Mughal courts, and twice fought the
+      Company to a settlement. With his fall, Mysore was reduced
+      to a Company-protected princely state under a restored
+      Hindu Wadiyar dynasty; with the simultaneous breakup of the
+      Maratha confederacy a few years later, the major remaining
+      organised resistance to British paramountcy on the
+      subcontinent was extinguished. He was buried beside his
+      father in the *Gumbaz* mausoleum at Seringapatam.
+    description_ar: |
+      قُتل فتح علي تيبو سلطان بن حيدر علي — السلطان المسلم السني
+      صاحب دولة ميسور في جنوب الهند، وأشدّ خصوم شركة الهند الشرقية
+      البريطانية من ملوك الهند منعةً وقتالاً — وهو يدافع عن قلعة
+      «سرنگ پتم» بعد ثَلْم أسوارها في الهجوم الأخير من حرب الإنجليز
+      الميسورية الرابعة، يوم ٢٩ ذي القعدة سنة ١٢١٣ هـ (الموافق
+      ٤ ماي ١٧٩٩ ميلادي). وقد ناهز التاسعة والأربعين. وكان قد
+      ورث ملك ميسور عن أبيه، وأعاد تنظيم جيشه على الطريقة
+      الأوروبية، وأنشأ سلاحاً للصواريخ الحربية سبق به دول الهند
+      عقوداً، وراسل دولة الخلافة العثمانية وملوك إيران وفرنسا
+      والمغول، وحارب الإنجليز مرتين حتى أكرهتهما الحرب على
+      التسوية. وبسقوطه ارتدّت ميسور إماراتٍ تابعة للشركة
+      الإنجليزية تحت ملوكها الهندوس من «وادييار»، ومع تَفَكُّك
+      الكونفدرالية المَرَاثية بعد ذلك بسنين قليلة انطفأ آخر
+      جسم سياسي منظم يقاوم الهيمنة البريطانية على شبه القارة.
+      ودُفن إلى جانب أبيه في ضريح «الكنبذ» بسرنغ پتم.
+    description_fr: |
+      Fatḥ ʿAlī Tīpū Sulṭān ibn Ḥaydar ʿAlī — souverain musulman
+      sunnite du Sultanat de Mysore, dans le sud de l'Inde, et
+      l'adversaire indien militairement le plus redoutable que la
+      Compagnie britannique des Indes orientales ait jamais
+      affronté — fut tué en défendant la forteresse éventrée de
+      Seringapatam (*Srīrangapaṭṭanam*) lors de l'assaut final
+      de la quatrième guerre anglo-mysoréenne, le 29 Dhū al-
+      Qaʿda 1213 H (4 mai 1799 EC). Il avait environ 49 ans.
+      Héritier du trône de Mysore de son père, il avait
+      réorganisé son armée à l'européenne, bâti un corps de
+      fusées de guerre des décennies en avance sur toute autre
+      puissance indienne, entretenu une longue correspondance
+      avec les cours ottomane, persane, française et moghole,
+      et combattu la Compagnie deux fois jusqu'à des accords.
+      Avec sa chute, Mysore fut ramené au rang d'État princier
+      protégé par la Compagnie sous une dynastie hindoue
+      Wadiyar restaurée; avec la dislocation simultanée de la
+      confédération marathe quelques années plus tard, la
+      résistance organisée à la suprématie britannique sur le
+      sous-continent fut éteinte. Il fut enterré aux côtés de
+      son père dans le mausolée du *Gumbaz* à Seringapatam.
+    canonical_hijri: {year: 1213, month: 11, day: 29, precision: day}
+    canonical_gregorian: {date: 1799-05-04, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Tīpū Sulṭān' — date of death and outcome."
+      - source_key: editorial
+        notes: "Cross-checked against Anglo-Mysore War historiography."
+    people: [[tipu-sultan, subject]]
+    tags: [india, mysore, seringapatam, anglo-mysore-war, colonial, sunni-sultan, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Tipu_Sultan"
+
+  # =========================================================================
+  # NINETEENTH-CENTURY REFORM AND THE 1857 RUPTURE
+  # =========================================================================
+
+  - slug: death-of-haji-shariat-allah
+    category: scholar_death
+    title_en: Death of Hāji Sharīʿat Allāh — Founder of the Faraidi Movement
+    title_ar: وفاة الحاج شريعة الله — مؤسس حركة الفرائض
+    title_fr: Mort de Hāji Sharīʿat Allāh — fondateur du mouvement faraidi
+    description_en: |
+      Hāji Sharīʿat Allāh — Bengali Sunni Hanafī reformer of
+      Faridpur in eastern Bengal (modern-day Bangladesh) — died at
+      Bahaduria around 1255 AH / 1840 CE at age about 60. After
+      nearly twenty years in Mecca and Cairo (where he encountered
+      the early-nineteenth-century reformist currents of the Hijaz
+      and was influenced by his Indian-born teacher Ṭāhir al-Sunbul
+      al-Makkī), he returned to Bengal in 1818 and launched a
+      grass-roots movement of Sunni renewal that took its name from
+      its insistence on the *farāʾiḍ* — the obligatory acts of the
+      religion. The Faraidi *jamāʿat* called Bengali Muslim
+      peasants to abandon syncretic shrine-cult practices,
+      shirk-tinged saint-mediation, and unsupported customary
+      observances, and to focus on prayer, fasting, *zakāt*, and
+      *ḥajj* in line with Hanafi fiqh. The movement also
+      crystallised peasant resistance to the Hindu landlord
+      (*zamīndār*) and British indigo-planter classes; under his
+      son and successor Dudu Miyan it became one of the principal
+      rural Sunni Muslim mobilisations of nineteenth-century India.
+      Year-precision is used because no day or month is securely
+      attested in the early Bengali sources.
+    description_ar: |
+      توفي الحاج شريعة الله — العالم المصلح السني البنغالي على
+      المذهب الحنفي بمنطقة فَرِيد پور شرق البنغال (في
+      بنغلاديش اليوم) — ببلدة «بهادريا» سنة ١٢٥٥ هـ تقريباً
+      (الموافق ١٨٤٠ ميلادي) عن نحو ستين سنة. وكان قد أمضى
+      نحو عشرين سنة بمكة المكرمة والقاهرة، فاحتك هناك بحركات
+      الإصلاح الحجازية في أوائل القرن التاسع عشر الميلادي،
+      وتأثر بشيخه الهندي الأصل الشيخ طاهر السنبل المكي. ولما
+      عاد إلى البنغال سنة ١٨١٨ ميلادية أطلق حركةً شعبيةً
+      للتجديد السني، استمدت اسمها من تشديدها على «الفرائض»
+      — أي ما افترضه الله على المكلفين. ودعت «جماعة الفرائض»
+      مسلمي بنغال الفلاحين إلى ترك العبادات الشركية والمظاهر
+      التوسلية المخالفة عند المزارات، والوقوف على الصلاة
+      والصيام والزكاة والحج وفق الفقه الحنفي. وتحولت الحركة
+      أيضاً إلى صورة بَلْوَرت مقاومة الفلاحين السنيين لطبقة
+      الإقطاعيين «الزَمِنْدَار» الهندوس وللمنتجين الإنجليز
+      للنيلة، وغدت في خلافة ابنه «دودو ميان» من أكبر تعبئات
+      المسلمين السنيين الريفية في الهند في القرن التاسع عشر
+      الميلادي. واعتُمدت الدقة السنوية فقط لأنه لا يثبت يوم
+      ولا شهر في المصادر البنغالية الأولى.
+    description_fr: |
+      Hāji Sharīʿat Allāh — réformateur sunnite hanafite bengali
+      de Faridpur, dans l'est du Bengale (actuel Bangladesh) —
+      mourut à Bahaduria vers 1255 H / 1840 EC à l'âge d'environ
+      60 ans. Après près de vingt années passées à La Mecque et
+      au Caire (où il fut au contact des courants réformistes
+      hijaziens du début du XIXe siècle et reçut l'influence de
+      son maître d'origine indienne Ṭāhir al-Sunbul al-Makkī), il
+      revint au Bengale en 1818 et lança un mouvement populaire
+      de renouveau sunnite qui tira son nom de son insistance sur
+      les *farāʾiḍ* — les actes obligatoires de la religion. La
+      *jamāʿat* faraidi appela les paysans musulmans bengalis à
+      abandonner les cultes syncrétiques des sanctuaires, les
+      médiations saintes teintées de shirk et les observances
+      coutumières non fondées, et à se concentrer sur la prière,
+      le jeûne, la *zakāt* et le *ḥajj* conformément au fiqh
+      hanafite. Le mouvement cristallisa également la résistance
+      paysanne aux *zamīndār* hindous et aux planteurs d'indigo
+      britanniques; sous son fils et successeur Dudu Miyan il
+      devint l'une des principales mobilisations rurales musulmanes
+      sunnites de l'Inde du XIXe siècle. La précision à l'année
+      est retenue car ni jour ni mois ne sont attestés avec
+      certitude dans les premières sources bengalies.
+    canonical_hijri: {year: 1255, precision: year}
+    canonical_gregorian: {date: 1840-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Faraʾiḍiyya' / 'Sharīʿat Allāh' — year of death; no day/month."
+      - source_key: editorial
+        notes: "Cross-checked against Bengal Sunni reform historiography."
+    people: [[haji-shariat-allah, subject]]
+    tags: [india, bengal, faridpur, faraidi, hanafi, reform, modern, peasant-movement]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Haji_Shariatullah"
+
+  - slug: fall-of-delhi-1857
+    category: political_event
+    title_en: Fall of Delhi to British Forces — End of the 1857 Rebellion in the Capital
+    title_ar: سقوط دلهي في يد البريطانيين — نهاية ثورة سنة ١٢٧٤ هـ في العاصمة
+    title_fr: Chute de Delhi face aux forces britanniques — fin de la révolte de 1857 dans la capitale
+    description_en: |
+      After a four-month siege, the British Delhi Field Force
+      stormed and recaptured the Mughal capital from the rebel
+      sepoys and citizen-fighters who had held it since the
+      uprising of 11 May 1857. The decisive assault began on
+      14 September 1857 (24 Muḥarram 1274 AH); the city was in
+      British hands within six days. The retributive massacre
+      that followed killed tens of thousands of civilians,
+      systematically targeted Muslim quarters around the Red
+      Fort and the Jāmiʿ Masjid, expelled the surviving
+      population of the walled city, demolished much of the
+      surrounding Muslim aristocratic architecture, and cleared
+      the area between the Fort and the Jāmiʿ for British
+      garrison use. Many of the leading Sunni *ʿulamāʾ* of
+      Delhi — including descendants of the Walīullāhī school —
+      were killed in the violence or fled. The Mughal emperor
+      Bahādur Shāh II Ẓafar surrendered three days later to
+      Major Hodson at the tomb of Humāyūn outside the city; his
+      sons and grandson were summarily shot. The fall of Delhi
+      effectively ended the rebellion in the central plains and
+      sealed the political extinction of the Mughal dynasty.
+    description_ar: |
+      بعد حصار دام أربعة أشهر، اقتحمت قوة دلهي البريطانية
+      الميدانية العاصمةَ المغولية وأعادت السيطرة عليها من
+      الجنود السبَاهيِّين الثائرين والمدنيين الذين أمسكوا بها
+      منذ ثورة ١١ ماي ١٨٥٧ ميلادية. وانطلق الهجوم الحاسم يوم
+      ١٤ سبتمبر ١٨٥٧ ميلادية (الموافق ٢٤ محرم سنة ١٢٧٤ هـ)،
+      وفي ستة أيام صارت المدينة بيد الإنجليز. وأعقب ذلك مذبحة
+      انتقامية ذهب ضحيتها عشرات الآلاف من المدنيين، استهدفت
+      أحياء المسلمين حول القلعة الحمراء والجامع المغولي
+      الكبير، وطُرد من نَجَا من السكان، وهُدمت أوسع جوانب
+      العمارة المغولية الأرستقراطية المحيطة، وأُخليت المساحة
+      بين القلعة والجامع لمعسكرات حامية بريطانية. وقُتل في
+      أحداث العنف كثير من كبار علماء أهل السنة بدلهي — منهم
+      أبناء التراث الولي اللهي — وفرّ من بقي. واستسلم الإمبراطور
+      المغولي بهادر شاه الثاني «ظفر» بعد ثلاثة أيام للنقيب
+      هودسون عند ضريح هُمايون خارج العاصمة، وأُعدم أبناؤه
+      وحفيده رمياً بالرصاص ميدانياً. وأنهى سقوط دلهي ثورة
+      السهول الوسطى الهندية وختم الانقراض السياسي للدولة
+      المغولية الإسلامية.
+    description_fr: |
+      Après quatre mois de siège, la Delhi Field Force britannique
+      prit d'assaut et reprit la capitale moghole aux cipayes
+      rebelles et aux combattants citoyens qui la tenaient depuis
+      le soulèvement du 11 mai 1857. L'assaut décisif commença le
+      14 septembre 1857 (24 Muḥarram 1274 H); la ville fut entre
+      les mains des Britanniques en six jours. Le massacre punitif
+      qui suivit tua des dizaines de milliers de civils, cibla
+      systématiquement les quartiers musulmans autour du Fort
+      Rouge et de la Jāmiʿ Masjid, chassa la population survivante
+      de la ville fortifiée, démolit une grande partie de
+      l'architecture aristocratique musulmane environnante et
+      libéra la zone entre le Fort et la grande mosquée pour
+      l'usage de la garnison britannique. Beaucoup des principaux
+      *ʿulamāʾ* sunnites de Delhi — y compris des descendants de
+      l'école walīullāhī — furent tués dans la violence ou
+      s'enfuirent. L'empereur moghol Bahādur Shāh II Ẓafar se
+      rendit trois jours plus tard au major Hodson à la tombe
+      d'Humāyūn aux abords de la ville; ses fils et son petit-fils
+      furent abattus sommairement. La chute de Delhi mit
+      effectivement fin à la révolte dans les plaines centrales
+      et scella l'extinction politique de la dynastie moghole.
+    canonical_hijri: {year: 1274, month: 1, day: 24, precision: day}
+    canonical_gregorian: {date: 1857-09-14, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Dihlī' / 'Indian Mutiny' — date of recapture."
+      - source_key: editorial
+        notes: "Cross-checked against standard 1857-rebellion historiography."
+    people: [[bahadur-shah-ii, subject]]
+    tags: [india, delhi, 1857, indian-rebellion, mughal-end, colonial, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siege_of_Delhi"
+
+  - slug: exile-of-bahadur-shah-ii
+    category: political_event
+    title_en: Exile of Bahādur Shāh II Ẓafar to Rangoon — Formal End of the Mughal Empire
+    title_ar: نفي بهادر شاه الثاني «ظفر» إلى رنغون — النهاية الرسمية للدولة المغولية
+    title_fr: Exil de Bahādur Shāh II Ẓafar à Rangoon — fin formelle de l'Empire moghol
+    description_en: |
+      Mirzā Abū Ẓafar Sirāj al-Dīn Muḥammad Bahādur Shāh II,
+      twenty-second and last emperor of the Mughal dynasty, was
+      shipped from Calcutta to Rangoon in British Burma on
+      28 Ṣafar 1275 AH (7 October 1858 CE), under the terms of
+      his post-trial sentence following the 1857 Indian Rebellion.
+      He had reigned in name from 1837 but in substance only
+      over the Red Fort and its immediate dependencies. Acclaimed
+      by the rebel sepoys as their nominal leader on the entry
+      of the rebellion's vanguard into Delhi on 11 May 1857, he
+      was tried by military commission in 1858 for treason and
+      complicity in the murder of British prisoners; the verdict
+      was guilty, but the death sentence was commuted to exile.
+      He died at Rangoon on 7 November 1862 (14 Jumādā al-Ūlā
+      1279 AH), aged 87, an Urdu poet of distinction whose
+      published *dīwān* under the *takhalluṣ* "Ẓafar" survives.
+      With his deportation, the imperial throne that had ruled
+      over the Indian subcontinent in name since Babur's victory
+      at Panipat in 932 AH (1526 CE) was extinguished by formal
+      act of the British Crown, and the territories of the
+      former empire were placed under direct rule by the
+      Government of India Act of 1858.
+    description_ar: |
+      نُفي ميرزا أبو ظفر سراج الدين محمد بهادر شاه الثاني،
+      الإمبراطور المغولي الثاني والعشرين وآخر سلاطين الدولة،
+      من كَلكَتا إلى رنغون في بِرما البريطانية يوم ٢٨ صفر سنة
+      ١٢٧٥ هـ (الموافق ٧ أكتوبر ١٨٥٨ ميلادي)، بموجب الحكم
+      الصادر بحقه إثر ثورة سنة ١٢٧٣ هـ. وكان قد تولى الإمبراطورية
+      اسماً سنة ١٢٥٣ هـ (١٨٣٧ ميلادي)، ولكنه في الحقيقة لم يَسُد
+      إلا القلعة الحمراء وحواليها. وحين دخل طلائع الثوار من
+      الجنود السبَاهيِّين دلهي يوم ١١ ماي ١٨٥٧ ميلادية بايعوه
+      قائداً اسمياً، فحوكم سنة ١٨٥٨ ميلادية أمام لجنة عسكرية
+      بتهمتي الخيانة العظمى والتواطؤ في قتل الأسرى البريطانيين،
+      وصدر الحكم بإدانته، فخُفّف حكم الإعدام إلى النفي.
+      وتوفي رحمه الله برنغون يوم ٧ نوفمبر ١٨٦٢ ميلادي (الموافق
+      ١٤ جمادى الأولى سنة ١٢٧٩ هـ) عن سبع وثمانين سنة، وكان
+      شاعراً بالأردية ذا اعتبار، وله ديوان مطبوع بتخلصه
+      «ظفر». وبنفيه انقرض العرش الإمبراطوري الذي حكم اسمياً
+      شبه القارة الهندية منذ نصر بابر في پانيپات سنة ٩٣٢ هـ
+      (الموافق ١٥٢٦ ميلادي) بقرار رسمي من التاج البريطاني،
+      ووُضعت أراضي الدولة المغولية السابقة تحت الحكم المباشر
+      بقانون «حكومة الهند» سنة ١٨٥٨ ميلادية.
+    description_fr: |
+      Mirzā Abū Ẓafar Sirāj al-Dīn Muḥammad Bahādur Shāh II,
+      vingt-deuxième et dernier empereur de la dynastie moghole,
+      fut acheminé de Calcutta à Rangoon, en Birmanie britannique,
+      le 28 Ṣafar 1275 H (7 octobre 1858 EC), au titre de la
+      sentence prononcée à son encontre à la suite de la révolte
+      indienne de 1857. Il avait régné nominalement depuis 1837,
+      mais en pratique seulement sur le Fort Rouge et ses
+      dépendances immédiates. Acclamé par les cipayes rebelles
+      comme leur chef nominal lors de l'entrée de l'avant-garde
+      de la révolte dans Delhi le 11 mai 1857, il fut jugé en
+      1858 par une commission militaire pour trahison et
+      complicité dans le meurtre de prisonniers britanniques;
+      le verdict fut « coupable », mais la peine capitale fut
+      commuée en exil. Il mourut à Rangoon le 7 novembre 1862
+      (14 Jumādā al-Ūlā 1279 H), à 87 ans, poète ourdou de
+      qualité dont le *dīwān* publié sous le *takhalluṣ* « Ẓafar »
+      a été préservé. Par sa déportation, le trône impérial qui
+      avait régné en titre sur le sous-continent indien depuis la
+      victoire de Babur à Panipat en 932 H (1526 EC) fut éteint
+      par acte formel de la Couronne britannique, et les
+      territoires de l'ancien empire furent placés sous
+      administration directe par le Government of India Act
+      de 1858.
+    canonical_hijri: {year: 1275, month: 2, day: 28, precision: day}
+    canonical_gregorian: {date: 1858-10-07, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Bahādur Shāh II' — date of deportation."
+      - source_key: editorial
+        notes: "Cross-checked against standard Mughal-end historiography."
+    people: [[bahadur-shah-ii, subject]]
+    tags: [india, mughal-end, bahadur-shah-zafar, rangoon, exile, colonial, 1858, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bahadur_Shah_II"
+
+  # =========================================================================
+  # POST-1857 INSTITUTIONAL REFORM — DEOBAND, ALIGARH, NADWA, TABLĪGH
+  # =========================================================================
+
+  - slug: founding-of-deoband
+    category: madrasa_founding
+    title_en: Founding of Dār al-ʿUlūm Deoband
+    title_ar: تأسيس دار العلوم ديوبند
+    title_fr: Fondation de Dār al-ʿUlūm Deoband
+    description_en: |
+      Muḥammad Qāsim al-Nānautwī and Rashīd Aḥmad al-Gangohī, two
+      Indian Sunni Hanafī scholars trained in the Walīullāhī
+      hadith-revival of late-Mughal Delhi, opened a small madrasa
+      under a pomegranate tree in the courtyard of the Chhatta
+      Masjid in the qaṣba town of Deoband (Saharanpur district,
+      United Provinces) on 15 Muḥarram 1283 AH (30 May 1866 CE).
+      A single teacher, Mullā Maḥmūd, taught a single student,
+      the future Shaykh al-Hind Maḥmūd al-Ḥasan, on that opening
+      day. Within a generation Dār al-ʿUlūm Deoband had grown
+      into the largest training institution for Sunni Hanafī
+      scholarship in the colonised Muslim world, with a fixed
+      Arabic-Persian-Urdu curriculum (the *Dars-i Niẓāmī*
+      adapted with a strong hadith and *fiqh* emphasis), a
+      financially independent waqf base supplied by ordinary
+      Indian Muslim donors rather than by princely patronage,
+      and a deliberate political distance from the British Raj.
+      It became the institutional matrix of the "Deobandī" school
+      of South Asian Sunni Islam — Hanafī in fiqh, Māturīdī
+      in *ʿaqīda*, Naqshbandī-Mujaddidī in Sufi orientation —
+      whose graduates and affiliated madrasas number in the
+      thousands across India, Pakistan, Bangladesh, the Gulf,
+      Britain, and the South Asian diaspora today.
+    description_ar: |
+      افتتح الإمامان محمد قاسم النانوتوي ورشيد أحمد الجنجوهي،
+      وهما عالمان سنيان هنديان حنفيان من حملة تراث الحديث
+      الولي اللهي بدلهي في أواخر العصر المغولي، مدرسة صغيرة تحت
+      شجرة رمان في صحن «المسجد جَتَّا» في قَصبة ديوبند (في
+      مقاطعة سهارن پور بالولايات المتحدة الهندية) يوم ١٥ محرم
+      سنة ١٢٨٣ هـ (الموافق ٣٠ ماي ١٨٦٦ ميلادي). وكان مدرس
+      واحد، الملا محمود، يُلقي على طالب واحد، هو الشيخ محمود
+      الحسن «شيخ الهند» مستقبلاً، يوم الافتتاح. وفي جيل واحد
+      صارت «دار العلوم ديوبند» أكبر معاهد العلوم الشرعية
+      السنية الحنفية في العالم الإسلامي المستعمَر، بمنهاج ثابت
+      عربي-فارسي-أردي (مستفيد من «درس نظامي» مع توسيع لمواد
+      الحديث والفقه)، وأوقاف مستقلة مالياً من تبرعات عوام
+      مسلمي الهند لا من رعاية أمراء، وموقف سياسي متعمد
+      الانفصال عن الراج البريطاني. وصارت المنبت المؤسسي
+      للمذهب «الديوبندي» السني في شبه القارة الهندية —
+      حنفي الفقه، ماتريدي العقيدة، نقشبندي مجددي المسلك —
+      وأتباعه ومدارسه التابعة بالآلاف اليوم في الهند وباكستان
+      وبنغلاديش والخليج وبريطانيا وشتات شبه القارة.
+    description_fr: |
+      Muḥammad Qāsim al-Nānautwī et Rashīd Aḥmad al-Gangohī, deux
+      savants sunnites indiens hanafites formés dans le renouveau
+      du hadith walīullāhī du Delhi mogholo-tardif, ouvrirent une
+      petite madrasa sous un grenadier dans la cour de la Chhatta
+      Masjid, dans la qaṣba de Deoband (district de Saharanpur,
+      Provinces-Unies), le 15 Muḥarram 1283 H (30 mai 1866 EC).
+      Un seul enseignant, Mullā Maḥmūd, donna ce jour-là cours à
+      un seul élève, le futur Shaykh al-Hind Maḥmūd al-Ḥasan. En
+      une génération, Dār al-ʿUlūm Deoband devint le plus grand
+      institut de formation à l'érudition sunnite hanafite du
+      monde musulman colonisé : un curriculum fixe arabo-persan-
+      ourdou (le *Dars-i Niẓāmī* adapté avec un fort accent sur
+      le hadith et le *fiqh*), une base de waqf financièrement
+      autonome alimentée par les dons des musulmans indiens
+      ordinaires plutôt que par le mécénat princier, et une
+      distance politique délibérée vis-à-vis du Raj britannique.
+      Elle devint la matrice institutionnelle de l'école
+      « deobandie » de l'islam sunnite sud-asiatique — hanafite
+      en fiqh, maturidite en *ʿaqīda*, naqshbandī-mujaddidī
+      d'orientation soufie — dont les diplômés et les madrasas
+      affiliées se comptent aujourd'hui par milliers en Inde,
+      au Pakistan, au Bangladesh, dans le Golfe, en Grande-
+      Bretagne et dans la diaspora sud-asiatique.
+    canonical_hijri: {year: 1283, month: 1, day: 15, precision: day}
+    canonical_gregorian: {date: 1866-05-30, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Deoband' — founding date and circumstances."
+      - source_key: editorial
+        notes: "Cross-checked against Sayyid Mahbub Rizwi, Tarikh-i Dar al-Ulum Deoband."
+    people: [[muhammad-qasim-al-nanautwi, leader], [rashid-ahmad-al-gangohi, leader]]
+    tags: [india, deoband, madrasa, hanafi, walīullāhī, sunni-revival, post-1857, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Darul_Uloom_Deoband"
+
+  - slug: founding-of-mao-college-aligarh
+    category: madrasa_founding
+    title_en: Founding of MAO College at Aligarh by Sir Sayyid Aḥmad Khān
+    title_ar: تأسيس كلية «م. ع. أ» بعليكره على يد السير سيد أحمد خان
+    title_fr: Fondation du MAO College à Aligarh par Sir Sayyid Aḥmad Khān
+    description_en: |
+      Sir Sayyid Aḥmad Khān — Indian Sunni reformer, civil servant
+      of the East India Company and later the Crown, and the
+      principal advocate of an Anglo-Muslim educational
+      reconciliation in the post-1857 generation — formally
+      opened the Madrasatul Uloom Musalmanan-e-Hind at Aligarh on
+      18 Rabīʿ al-Thānī 1292 AH (24 May 1875 CE); it was renamed
+      the Muhammadan Anglo-Oriental (MAO) College on 8 January
+      1877 when its main building was inaugurated by Lord Lytton.
+      The institution, modelled in administration on Cambridge
+      and in religious-instruction on the existing North Indian
+      madrasa tradition, taught Arabic, Persian, Urdu, English,
+      and the modern natural and social sciences side by side.
+      Sayyid Aḥmad's project — articulated in his journal *Tahdhīb
+      al-Akhlāq* (1870 onwards) — was to recover Indian Sunni
+      Muslim self-confidence after 1857 by acquiring the
+      colonisers' tools of state service, scientific competence,
+      and modern administration without doctrinal capitulation.
+      The college grew into Aligarh Muslim University (chartered
+      1920) and shaped a century of Indian Sunni Muslim
+      professional, political, and intellectual life across the
+      Raj and the post-1947 successor states.
+    description_ar: |
+      افتتح السير سيد أحمد خان — العالم الإصلاحي السني الهندي،
+      الذي تقلّب في وظائف الإدارة لشركة الهند الشرقية ثم للتاج
+      البريطاني، وأكبر دعاة المصالحة التعليمية الإنجليزية-
+      الإسلامية في الجيل التالي لثورة سنة ١٢٧٤ هـ — «مدرسة
+      العلوم لمسلمان هند» بعليكره يوم ١٨ ربيع الآخر سنة ١٢٩٢ هـ
+      (الموافق ٢٤ ماي ١٨٧٥ ميلادي)، وأُعيدت تسميتها «كلية محمد
+      الإنجليزية الشرقية» (المخْتصَرة Muhammadan Anglo-Oriental)
+      في ٨ جانفي ١٨٧٧ ميلادي حين دشّن المبنى الرئيس اللورد
+      لِيتُن. وكانت المؤسسة في إدارتها على نسق جامعة كَمبِردج،
+      وفي تعليمها الديني على نسق المدرسة الهندية الشمالية
+      القائمة، تُدرس العربية والفارسية والأردية والإنجليزية
+      والعلوم الطبيعية والاجتماعية الحديثة جنباً إلى جنب.
+      ومشروع سيد أحمد — كما صاغه في مجلته «تهذيب الأخلاق» منذ
+      سنة ١٢٨٦ هـ (١٨٧٠ ميلادي) — استرداد ثقة المسلمين السنيين
+      الهنود في أنفسهم بعد سنة ١٨٥٧ ميلادية باكتساب أدوات
+      المستعمر من خدمة الدولة والتفوّق العلمي والإدارة
+      الحديثة من غير تنازل عقدي. ونمت الكلية حتى أنشئت منها
+      «جامعة عليكره الإسلامية» (بمرسوم سنة ١٣٣٨ هـ / ١٩٢٠
+      ميلادي)، وشكلت قرناً كاملاً من الحياة المسلمة السنية
+      الهندية في الراج وما بعد الاستقلال سنة ١٣٦٦ هـ (١٩٤٧
+      ميلادي).
+    description_fr: |
+      Sir Sayyid Aḥmad Khān — réformateur sunnite indien,
+      fonctionnaire de la Compagnie des Indes orientales puis de
+      la Couronne, et principal défenseur d'une réconciliation
+      éducative anglo-musulmane dans la génération de l'après-
+      1857 — inaugura officiellement la Madrasatul Uloom
+      Musalmanan-e-Hind à Aligarh le 18 Rabīʿ al-Thānī 1292 H
+      (24 mai 1875 EC); elle fut rebaptisée Muhammadan Anglo-
+      Oriental (MAO) College le 8 janvier 1877 lorsque Lord
+      Lytton inaugura le bâtiment principal. L'établissement,
+      calqué administrativement sur Cambridge et religieusement
+      sur la tradition madrasa nord-indienne existante, enseignait
+      l'arabe, le persan, l'ourdou, l'anglais et les sciences
+      naturelles et sociales modernes côte à côte. Le projet de
+      Sayyid Aḥmad — articulé dans sa revue *Tahdhīb al-Akhlāq*
+      (à partir de 1870) — était de rétablir la confiance des
+      musulmans sunnites indiens après 1857 en acquérant les
+      outils du colonisateur — service d'État, compétence
+      scientifique, administration moderne — sans capitulation
+      doctrinale. Le collège devint l'Université musulmane
+      d'Aligarh (charte de 1920) et façonna un siècle de la vie
+      musulmane sunnite indienne — professionnelle, politique
+      et intellectuelle — à travers le Raj et les États
+      successeurs de l'après-1947.
+    canonical_hijri: {year: 1292, month: 4, day: 18, precision: day}
+    canonical_gregorian: {date: 1875-05-24, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Sir Sayyid Aḥmad Khān' / 'Aligarh' — date of opening."
+      - source_key: editorial
+        notes: "Cross-checked against standard Aligarh historiography (David Lelyveld, Aligarh's First Generation)."
+    people: [[sayyid-ahmad-khan, leader]]
+    tags: [india, aligarh, mao-college, sayyid-ahmad-khan, modernist, post-1857, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Aligarh_Muslim_University"
+
+  - slug: founding-of-nadwat-al-ulama
+    category: madrasa_founding
+    title_en: Founding of Nadwat al-ʿUlamāʾ at Kanpur
+    title_ar: تأسيس ندوة العلماء بكَانپور
+    title_fr: Fondation de Nadwat al-ʿUlamāʾ à Kanpur
+    description_en: |
+      A circle of Indian Sunni Hanafī scholars led by Mawlānā
+      Muḥammad ʿAlī Mungerī, supported by Shiblī Nuʿmānī of
+      Aligarh and senior figures of the Walīullāhī tradition,
+      convened the founding session of Nadwat al-ʿUlamāʾ
+      ("Council of Scholars") at the Madrasat Faiḍ-i ʿĀm in
+      Kanpur in Shawwāl 1311 AH / late April 1894 CE. Its
+      founding aim was to bridge the post-1857 institutional
+      divide between the Deobandī madrasa tradition and the
+      Aligarh modernist current — neither of which the
+      *nadwa*'s circle accepted as adequate alone — and to
+      modernise the *Dars-i Niẓāmī* curriculum with classical
+      Arabic, modern Arabic literature, Sunni Hanafī fiqh,
+      hadith, and contemporary Islamic studies. In 1316 AH
+      (1898 CE) the *nadwa* established its own seminary, Dār
+      al-ʿUlūm Nadwat al-ʿUlamāʾ, at Lucknow, which became one
+      of the three principal Sunni Hanafī training centres of
+      the subcontinent alongside Deoband and the Aligarh-
+      affiliated institutions. Shiblī Nuʿmānī served as its
+      leading rector and Sayyid Sulaymān Nadwī, then later
+      Sayyid Abū al-Ḥasan ʿAlī al-Nadwī, were its leading
+      twentieth-century figures.
+    description_ar: |
+      عقدت حلقة من علماء أهل السنة الهنود الحنفية بقيادة
+      المولوي محمد علي المنغيري، وبدعم من الأستاذ شبلي
+      النعماني العَلِيكَري وكبار حملة التراث الولي اللهي،
+      الدورةَ التأسيسية لـ«ندوة العلماء» في «المدرسة فيض
+      عام» بمدينة كانپور في شوال سنة ١٣١١ هـ (الموافق
+      أواخر أفريل ١٨٩٤ ميلادي). وكان غايتها التأسيسية
+      ردمَ الهوّة المؤسسية ما بعد سنة ١٢٧٤ هـ بين تراث
+      مدرسة ديوبند والاتجاه التحديثي العَلِيكَري — وكلاهما
+      لم تَرتضِ حلقة «الندوة» بأحدهما وحده — وتحديثَ منهج
+      «درس نظامي» بإدخال الفصحى التراثية والأدب العربي
+      الحديث والفقه السني الحنفي والحديث والدراسات
+      الإسلامية المعاصرة. وفي سنة ١٣١٦ هـ (الموافق ١٨٩٨
+      ميلادي) أنشأت «الندوة» جامعتَها الخاصة «دار العلوم
+      ندوة العلماء» بمدينة لكْنَوْ، فصارت من المعاهد
+      الثلاثة الكبرى لتدريس الحنفية السنية في شبه القارة
+      الهندية إلى جانب «دار العلوم ديوبند» والمؤسسات
+      الملحقة بعَلِيكَره. وتولى رئاستها الفعلية الأستاذ
+      شبلي النعماني، وكبار رجالها في القرن العشرين السيد
+      سليمان الندوي، ثم السيد أبو الحسن علي الندوي.
+    description_fr: |
+      Un cercle de savants sunnites hanafites indiens conduit
+      par Mawlānā Muḥammad ʿAlī Mungerī, soutenu par Shiblī
+      Nuʿmānī d'Aligarh et des figures aînées de la tradition
+      walīullāhī, tint la session inaugurale de Nadwat al-
+      ʿUlamāʾ (« Conseil des oulémas ») à la Madrasat Faiḍ-i
+      ʿĀm de Kanpur en Shawwāl 1311 H / fin avril 1894 EC.
+      Son objectif fondateur était de combler la fracture
+      institutionnelle de l'après-1857 entre la tradition
+      madrasa deobandie et le courant moderniste d'Aligarh —
+      aucun n'étant accepté comme suffisant à lui seul par
+      le cercle de la *nadwa* — et de moderniser le curriculum
+      *Dars-i Niẓāmī* avec l'arabe classique, la littérature
+      arabe moderne, le fiqh sunnite hanafite, le hadith et
+      les études islamiques contemporaines. En 1316 H (1898
+      EC) la *nadwa* établit son propre séminaire, Dār al-
+      ʿUlūm Nadwat al-ʿUlamāʾ, à Lucknow, qui devint l'un des
+      trois principaux centres de formation sunnite hanafite
+      du sous-continent, aux côtés de Deoband et des
+      institutions affiliées à Aligarh. Shiblī Nuʿmānī en fut
+      le recteur principal, et ses figures dirigeantes du
+      XXe siècle furent Sayyid Sulaymān Nadwī, puis plus tard
+      Sayyid Abū al-Ḥasan ʿAlī al-Nadwī.
+    canonical_hijri: {year: 1311, month: 10, day: 21, precision: day}
+    canonical_gregorian: {date: 1894-04-27, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Nadwat al-ʿUlamāʾ' — founding date and figures."
+      - source_key: editorial
+        notes: "Cross-checked against Jamal Malik, Islamische Gelehrtenkultur in Nordindien, on the Nadwa founding."
+    people: [[shibli-numani, leader], [abu-al-hasan-al-nadwi, subject]]
+    tags: [india, kanpur, lucknow, nadwat-al-ulama, hanafi, mediating, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nadwatul_Ulama"
+
+  - slug: death-of-sayyid-ahmad-khan
+    category: scholar_death
+    title_en: Death of Sir Sayyid Aḥmad Khān — Founder of Aligarh
+    title_ar: وفاة السير سيد أحمد خان — مؤسس عَلِيكَره
+    title_fr: Mort de Sir Sayyid Aḥmad Khān — fondateur d'Aligarh
+    description_en: |
+      Sayyid Aḥmad Khān ibn Sayyid Muḥammad Muttaqī (KCSI; "Sir
+      Sayyid") — Indian Sunni reformer of Delhi origin, civil
+      servant in the East India Company and later the British
+      Crown, founder of the MAO College at Aligarh (1875), editor
+      of the journal *Tahdhīb al-Akhlāq*, and the principal
+      architect of the Indian Muslim modernist current of the
+      late nineteenth century — died at Aligarh on 4 Dhū al-Qaʿda
+      1315 AH (27 March 1898 CE) at age about 80 and was buried
+      beside the Aligarh mosque in the college grounds. He had
+      witnessed the 1857 rebellion as a Company subordinate-
+      magistrate at Bijnor, where he sheltered British survivors
+      and afterwards composed *Asbāb-i Baghāwat-i Hind* (*The
+      Causes of the Indian Revolt*) attributing the violence to
+      colonial misgovernance and Muslim alienation. His
+      voluminous writings — Urdu *tafsīr* commentaries, essays
+      on Sunni *kalām*, social-reform editorials in *Tahdhīb al-
+      Akhlāq*, and his *Khuṭbāt al-Aḥmadiyya* in defence of the
+      Prophet ﷺ against William Muir's *Life of Mahomet* —
+      shaped the framework within which Indian Sunni educated
+      classes engaged the colonial settlement and the natural
+      sciences for the next half-century. The Aligarh movement
+      he founded outlived him as the dominant institutional
+      vehicle of Indian Sunni Muslim modernism.
+    description_ar: |
+      توفي السيد أحمد خان بن السيد محمد متّقي (المعروف بـ«السير
+      سيد») — العالم المصلح السني الهندي من أصل دلهي، الموظف
+      في إدارة شركة الهند الشرقية ثم في إدارة التاج البريطاني،
+      مؤسس «كلية محمد الإنجليزية الشرقية» بعَلِيكَره سنة
+      ١٢٩٢ هـ (١٨٧٥ ميلادي)، رئيس تحرير مجلة «تهذيب الأخلاق»،
+      والمهندس الأول للتيار الإسلامي التحديثي السني الهندي في
+      أواخر القرن التاسع عشر الميلادي — بعَلِيكَره يوم ٤ ذي
+      القعدة سنة ١٣١٥ هـ (الموافق ٢٧ مارس ١٨٩٨ ميلادي) عن
+      نحو ثمانين سنة، ودُفن بجوار مسجد عَلِيكَره داخل حرم
+      الكلية. وكان قد شهد ثورة سنة ١٢٧٣ هـ نائباً قاضياً
+      للشركة في بِجْنور حيث آوى الناجين البريطانيين، فألّف
+      بعدها كتابه «أسباب بغاوت هند» («أسباب ثورة الهند»)
+      مرجعاً عنف ١٢٧٣ هـ إلى سوء الإدارة الاستعمارية وإلى
+      اغتراب المسلمين. ومؤلفاته الواسعة — تفاسيره القرآنية
+      بالأردية، ومقالاته في علم الكلام السني، ومقالاته
+      الإصلاحية الاجتماعية في «تهذيب الأخلاق»، و«الخطبات
+      الأحمدية» في الدفاع عن النبي ﷺ في وجه «حياة محمد»
+      للمستشرق وليم مْيُوِر — أرست الإطار الذي تعاملت من
+      خلاله الطبقات السنية المتعلمة الهندية مع التسوية
+      الاستعمارية والعلوم الطبيعية الحديثة طوال نصف القرن
+      التالي. وعاشت حركة عَلِيكَره التي أسسها رحمه الله بعده
+      الواجهةَ المؤسسية الكبرى للحداثة الإسلامية السنية الهندية.
+    description_fr: |
+      Sayyid Aḥmad Khān ibn Sayyid Muḥammad Muttaqī (KCSI; « Sir
+      Sayyid ») — réformateur sunnite indien d'origine delhiote,
+      fonctionnaire de la Compagnie des Indes orientales puis de
+      la Couronne britannique, fondateur du MAO College
+      d'Aligarh (1875), directeur de la revue *Tahdhīb al-
+      Akhlāq*, et principal architecte du courant moderniste
+      musulman indien de la fin du XIXe siècle — mourut à
+      Aligarh le 4 Dhū al-Qaʿda 1315 H (27 mars 1898 EC) à
+      environ 80 ans et fut enterré à côté de la mosquée
+      d'Aligarh dans l'enceinte du collège. Il avait vécu la
+      révolte de 1857 comme magistrat subalterne de la
+      Compagnie à Bijnor, où il abrita des survivants
+      britanniques, puis composa *Asbāb-i Baghāwat-i Hind*
+      (*Les Causes de la Révolte indienne*) attribuant la
+      violence à la mauvaise gouvernance coloniale et à
+      l'aliénation des musulmans. Ses écrits volumineux —
+      commentaires de tafsīr en ourdou, essais sur le *kalām*
+      sunnite, éditoriaux de réforme sociale dans *Tahdhīb
+      al-Akhlāq*, et ses *Khuṭbāt al-Aḥmadiyya* en défense du
+      Prophète ﷺ contre la *Life of Mahomet* de William Muir
+      — façonnèrent le cadre dans lequel les classes sunnites
+      indiennes éduquées engagèrent le règlement colonial et
+      les sciences naturelles pendant le demi-siècle suivant.
+      Le mouvement d'Aligarh qu'il avait fondé lui survécut
+      comme principal véhicule institutionnel du modernisme
+      musulman sunnite indien.
+    canonical_hijri: {year: 1315, month: 11, day: 4, precision: day}
+    canonical_gregorian: {date: 1898-03-27, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Sir Sayyid Aḥmad Khān' — date of death."
+      - source_key: editorial
+        notes: "Cross-checked against David Lelyveld, Aligarh's First Generation."
+    people: [[sayyid-ahmad-khan, subject]]
+    tags: [india, aligarh, sayyid-ahmad-khan, modernist, mao-college, raj, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Syed_Ahmad_Khan"
+
+  - slug: founding-of-tablighi-jamaat
+    category: religious_movement_event
+    title_en: Founding of Tablīghī Jamāʿat by Muḥammad Ilyās al-Kandhlawī
+    title_ar: نشأة جماعة التبليغ على يد محمد إلياس الكاندهلوي
+    title_fr: Fondation de la Tablīghī Jamāʿat par Muḥammad Ilyās al-Kandhlawī
+    description_en: |
+      Muḥammad Ilyās al-Kandhlawī — Indian Sunni Hanafī scholar
+      of the Deobandī tradition and a member of the Naqshbandī-
+      Mujaddidī Sufi chain — launched the lay-led grass-roots
+      missionary movement that would come to be known as the
+      Tablīghī Jamāʿat in the Mewat region of north India around
+      1344 AH / 1926 CE, on his return from his second hajj.
+      Confronted by the syncretic, semi-Islamised state of the
+      Mewati Meo community — formally Muslim but observing
+      pre-Islamic Rajput customs and unfamiliar with basic
+      *ʿaqīda* and *ṣalāt* — and dissatisfied with the slow
+      reach of the formal madrasa system into rural mass life,
+      he organised the first travelling teaching parties of
+      ordinary Muslim men who would camp in mosques and remind
+      one another of basic Islamic teachings. The method was
+      codified in the *Six Points* (*chhe baten*) — *kalima*,
+      *ṣalāt*, *ʿilm wa-dhikr*, *ikrām al-muslim*, *ikhlāṣ*, and
+      *tafrīgh-i waqt* (devoting time). Year-precision is used
+      because the movement crystallised over months and the
+      contemporary sources do not agree on a single inception
+      day. Within fifty years it had become the largest
+      trans-national Muslim missionary movement of the twentieth
+      century, with annual gatherings at Raiwind in Pakistan,
+      Tongi in Bangladesh, and Bhopal in India each drawing
+      millions of participants.
+    description_ar: |
+      أطلق الشيخ محمد إلياس الكاندهلوي — العالم السني الهندي
+      الحنفي على تراث ديوبند، ومن أهل السلسلة النقشبندية
+      المجددية — الحركة الدعوية الشعبية التي ستُعرف بعدُ
+      بـ«جماعة التبليغ» في إقليم «ميوات» شمال الهند نحو سنة
+      ١٣٤٤ هـ (الموافق ١٩٢٦ ميلادي) إثر عودته من حجته الثانية.
+      وكان قد جابه الواقع الشركي شبه الإسلامي للقبائل المِيوية
+      من «الميو» — قوم مسلمون اسماً، يتمسكون بعادات الراجبوت
+      السابقة على الإسلام، ولا يعرفون أصول العقيدة ولا
+      الصلاة — ووجد منهج المدارس الرسمية بطيء الوصول إلى
+      حياة الجماهير الريفية، فنظّم أولى جماعات الخروج التعليمي
+      من عوام المسلمين، يبيتون في المساجد ويذكّر بعضهم بعضاً
+      بأصول الدين. وقعّد منهجه في «النقاط الست» (شِيْ بَاتيْنْ):
+      الكلمة، والصلاة، والعلم والذكر، وإكرام المسلم،
+      والإخلاص، وتفريغ الوقت. واعتُمدت الدقة السنوية لأن
+      الحركة تَبَلْوَرت عبر شهور ولم تتفق المصادر المعاصرة
+      على يوم واحد لانطلاقها. وفي خمسين سنة صارت أكبر حركة
+      دعوية سنية عابرة للحدود في القرن العشرين، ولها تجمعات
+      سنوية برَيْوِنْد بباكستان وتُونغي ببنغلاديش وبهوبال
+      بالهند، يحضرها الملايين سنوياً.
+    description_fr: |
+      Muḥammad Ilyās al-Kandhlawī — savant sunnite indien
+      hanafite de la tradition deobandie et membre de la chaîne
+      soufie naqshbandī-mujaddidī — lança le mouvement
+      missionnaire populaire conduit par les laïcs qui serait
+      connu sous le nom de Tablīghī Jamāʿat dans la région du
+      Mewat, dans le nord de l'Inde, vers 1344 H / 1926 EC, au
+      retour de son deuxième hajj. Confronté à l'état
+      syncrétique et semi-islamisé de la communauté méo du
+      Mewat — musulmane de nom, mais observant des coutumes
+      rajpoutes pré-islamiques et ignorant les éléments de base
+      de la *ʿaqīda* et de la *ṣalāt* — et insatisfait de la
+      lenteur de l'enseignement madrasa officiel à atteindre la
+      vie rurale de masse, il organisa les premières
+      expéditions d'enseignement itinérantes de simples
+      musulmans, qui campaient dans les mosquées et se
+      rappelaient mutuellement les enseignements islamiques
+      fondamentaux. La méthode fut codifiée dans les *Six
+      Points* (*chhe baten*) : *kalima*, *ṣalāt*, *ʿilm wa-
+      dhikr*, *ikrām al-muslim*, *ikhlāṣ* et *tafrīgh-i waqt*
+      (consacrer du temps). La précision à l'année est retenue
+      parce que le mouvement se cristallisa sur des mois et
+      que les sources contemporaines ne s'accordent pas sur un
+      jour d'origine unique. En cinquante ans il devint le plus
+      grand mouvement missionnaire musulman transnational du
+      XXe siècle, avec des rassemblements annuels à Raiwind au
+      Pakistan, Tongi au Bangladesh et Bhopal en Inde drainant
+      chacun des millions de participants.
+    canonical_hijri: {year: 1344, precision: year}
+    canonical_gregorian: {date: 1926-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Tablīghī Djamāʿat' — Mewat origin and approximate founding year."
+      - source_key: editorial
+        notes: "Cross-checked against Marc Gaborieau, Le mahométisme en Inde, on Tablighi origins."
+    people: [[muhammad-ilyas-al-kandhlawi, leader]]
+    tags: [india, mewat, tablighi-jamaat, deoband, naqshbandi-mujaddidi, dawah, modern]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Tablighi_Jamaat"

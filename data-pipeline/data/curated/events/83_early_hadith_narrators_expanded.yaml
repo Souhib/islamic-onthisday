@@ -1,0 +1,1143 @@
+# Wave 32 of curated event additions (2026-04-27).
+# Early Sunni hadith narrators and rijāl scholars, 2nd-5th centuries AH,
+# not previously covered. Twelve figures spanning the formation of the
+# rijāl-criticism tradition (Ḥammād b. Zayd → Ibn al-Madīnī's circle →
+# the two Rāzīs → Ibn Khuzayma's contemporaries → al-Lalakāʾī),
+# four sub-Ṣaḥīḥayn musnad/Sunan compilers (Saʿīd b. Manṣūr, Ibn Abī
+# Shayba, al-Bazzār, Ibn al-Jārūd, Abū ʿAwāna), and the canonical
+# *Sharḥ Uṣūl Iʿtiqād Ahl al-Sunna* and *al-Sharīʿa* of late-creedal
+# Sunni codification (al-Lalakāʾī, al-Ājurrī).
+#
+# Already covered elsewhere and intentionally not duplicated here:
+# Sufyān ibn ʿUyayna (death-of-sufyan-ibn-uyayna), Hammād ibn Salama
+# (death-of-hammad-ibn-salama), ʿAbd Allāh ibn Wahb (death-of-ibn-wahb),
+# Yaḥyā ibn Maʿīn (death-of-yahya-ibn-main), ʿAlī ibn al-Madīnī
+# (death-of-ali-ibn-al-madini), Ibn Khuzayma (death-of-ibn-khuzayma),
+# Ibn Ḥibbān (death-of-ibn-hibban), al-Khaṭīb al-Baghdādī, al-Bayhaqī.
+#
+# Sources: al-Dhahabī's *Siyar Aʿlām al-Nubalāʾ* (the master rijāl
+# biographical dictionary — covers every figure here), Ibn Khallikān's
+# *Wafayāt al-Aʿyān* (death-focused), Ibn Kathīr's *al-Bidāya wa-l-
+# Nihāya* (year-by-year chronicle), Ibn al-ʿImād al-Ḥanbalī's
+# *Shadharāt al-Dhahab* (year-by-year obituary), and al-Dhahabī's
+# *Tārīkh al-Islām* (year-by-year). Each entry attests to ≥2 of these
+# classical Sunni sources for cross_verified status.
+#
+# Date precision: most figures are year-precise in the canonical
+# wafayāt literature; a handful are month- or day-precise (notably
+# Ḥammād b. Zayd in Ramaḍān 179, Isḥāq b. Rāhawayh on the night of
+# 14 Shaʿbān 238, Ibn Abī Shayba in Muḥarram 235, al-Ājurrī in
+# Muḥarram 360, al-Lalakāʾī in Ramaḍān 418). Where sources disagree
+# we follow the majority and flag the dispute (Saʿīd b. Manṣūr 227 vs
+# 229, Abū Ḥātim 277 vs 275, Abū Bakr al-Ājurrī 360 vs 365).
+#
+# All trilingual (en/ar/fr); no hadith refs needed (these are
+# biographical death events, not narration events).
+
+events:
+  # =========================================================================
+  # 2nd CENTURY AH — THE FORMATION OF BASRAN HADITH SCIENCE
+  # =========================================================================
+
+  - slug: death-of-hammad-ibn-zayd
+    category: scholar_death
+    title_en: Death of Ḥammād ibn Zayd — chief Basran muḥaddith of his generation
+    title_ar: وفاة حماد بن زيد — كبير محدثي البصرة في عصره
+    title_fr: Mort de Ḥammād ibn Zayd — chef des muḥaddiths bassorois de sa génération
+    description_en: |
+      Abū Ismāʿīl Ḥammād ibn Zayd ibn Dirham al-Azdī al-Jahḍamī
+      al-Baṣrī — Sunni Basran traditionist of mawlā (freedman)
+      origin, blind in his later years, and the senior teacher
+      from whom Imam al-Shāfiʿī, ʿAbd al-Raḥmān ibn Mahdī, Yaḥyā
+      ibn Saʿīd al-Qaṭṭān, and a generation of the foundational
+      Basran hadith critics learned — died at Basra on the
+      eve of 10 Ramaḍān 179 AH (~December 795 CE) at age about
+      81, per al-Dhahabī's *Siyar Aʿlām al-Nubalāʾ*. He was a
+      direct student of Ayyūb al-Sakhtiyānī and Yaḥyā ibn Saʿīd
+      al-Anṣārī and is one of the principal nodes through whom
+      the canonical Basran *isnād* into the Six Books descends;
+      al-Dhahabī ranks him in the highest tier of hadith
+      narrators (*ḥuffāẓ*) and quotes Ibn Mahdī as saying
+      "I have not seen anyone in Iraq more knowledgeable of the
+      Sunna than Ḥammād ibn Zayd." He is to be carefully
+      distinguished from his contemporary and counterpart
+      Ḥammād ibn Salama (d. 167 AH); the early sources note
+      that on questions where the two Ḥammāds differ, Ibn Zayd
+      is generally the more rigorous transmitter, while Ibn
+      Salama has the broader narrative range.
+    description_ar: |
+      توفي الإمام أبو إسماعيل حماد بن زيد بن درهم الأزدي
+      الجَهْضمي البصري — محدث البصرة من أهل السنة وكان مولى،
+      عمي في آخر عمره، وعنه أخذ الإمام الشافعي وعبد الرحمن بن
+      مهدي ويحيى بن سعيد القطان وطبقة من نقاد البصرة المؤسسين
+      علم الجرح والتعديل — بالبصرة ليلة العاشر من رمضان سنة
+      ١٧٩ هـ (~ديسمبر ٧٩٥ م) عن نحو إحدى وثمانين سنة، كما
+      حفظ الذهبي في «سير أعلام النبلاء». تتلمذ مباشرة على أيوب
+      السختياني ويحيى بن سعيد الأنصاري، وهو إحدى العقد
+      الأساسية في إسناد البصرة الذي يدخل به الكتب الستة؛ عدّه
+      الذهبي في الطبقة العليا من الحفاظ، ونقل عن ابن مهدي قوله:
+      «ما رأيت بالعراق أحداً أعلم بالسنة من حماد بن زيد».
+      ويفرّق العلماء بدقة بينه وبين قرينه حماد بن سلمة (ت ١٦٧
+      هـ)؛ ونبه المتقدمون إلى أن ابن زيد أتقن في موضع الخلاف
+      بينهما عموماً، وابن سلمة أوسع رواية.
+    description_fr: |
+      Abū Ismāʿīl Ḥammād ibn Zayd ibn Dirham al-Azdī
+      al-Jahḍamī al-Baṣrī — traditionniste sunnite bassorois
+      d'origine *mawlā* (affranchi), aveugle à la fin de sa vie,
+      et le maître de premier plan auprès duquel l'imam
+      al-Shāfiʿī, ʿAbd al-Raḥmān ibn Mahdī, Yaḥyā ibn Saʿīd
+      al-Qaṭṭān et toute une génération de critiques bassorois
+      fondateurs ont étudié — mourut à Bassora dans la nuit du
+      10 Ramaḍān 179 H (~décembre 795 EC) à l'âge d'environ
+      81 ans, selon les *Siyar Aʿlām al-Nubalāʾ* d'al-Dhahabī.
+      Disciple direct d'Ayyūb al-Sakhtiyānī et de Yaḥyā ibn
+      Saʿīd al-Anṣārī, il constitue l'un des nœuds principaux
+      par lesquels l'*isnād* canonique bassorois pénètre dans
+      les Six Livres ; al-Dhahabī le classe au plus haut rang
+      des préservateurs (*ḥuffāẓ*) et cite Ibn Mahdī : « je n'ai
+      vu en Irak personne de plus savant en la Sunna que Ḥammād
+      ibn Zayd ». Il est à distinguer soigneusement de son
+      contemporain et homologue Ḥammād ibn Salama (m. 167 H) ;
+      les premières sources notent qu'au point de divergence
+      entre les deux Ḥammād, Ibn Zayd est généralement le
+      transmetteur le plus rigoureux, tandis qu'Ibn Salama
+      possède l'éventail narratif le plus large.
+    canonical_hijri: {year: 179, month: 9, day: 10, precision: day}
+    canonical_gregorian: {date: 795-11-25, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death on eve of 10 Ramaḍān 179 AH at Basra, age ~81; al-Dhahabī ranks among highest tier of ḥuffāẓ."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt entry confirms 179 AH death year; key Basran isnād node."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-by-year chronicle places death at 179 AH alongside Mālik (d. 179 AH)."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary entry under year 179 AH."
+    people: [[hammad-ibn-zayd, died]]
+    tags: [abbasid, basra, hadith, rijal, jarh-wa-tadil, second-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hammad_ibn_Zayd"
+
+  # =========================================================================
+  # EARLY 3rd CENTURY AH — THE GENERATION OF AḤMAD AND IBN AL-MADĪNĪ
+  # =========================================================================
+
+  - slug: death-of-said-ibn-mansur
+    category: scholar_death
+    title_en: Death of Saʿīd ibn Manṣūr — author of the Sunan
+    title_ar: وفاة سعيد بن منصور — صاحب «السنن»
+    title_fr: Mort de Saʿīd ibn Manṣūr — auteur des Sunan
+    description_en: |
+      Abū ʿUthmān Saʿīd ibn Manṣūr ibn Shuʿba al-Khurāsānī
+      al-Marwazī — Sunni traditionist of Khurāsānian origin
+      who settled in Mecca, compiler of the *Sunan Saʿīd ibn
+      Manṣūr* (a partial musnad-style compilation focused on
+      tafsīr and aḥkām that survives only in part — the volumes
+      on tafsīr from Sūrat al-Baqara through al-Aʿrāf and parts
+      of the kitāb al-jihād are extant) — died at Mecca in 227
+      AH (~842 CE) per the dominant transmission in Ibn Saʿd,
+      al-Dhahabī, and Ibn Kathīr; some sources give 229 AH. We
+      follow 227 AH as the majority. He is one of the named
+      teachers of Imam Muslim, Imam Abū Dāwūd, and other senior
+      authors of the Six Books generation. His *Sunan* is one of
+      the earliest substantial muṣannaf compilations to survive
+      and is repeatedly cited by later scholars (Ibn Ḥajar in
+      *al-Maṭālib al-ʿĀliya*, al-Bayhaqī, al-Suyūṭī) for
+      narrations not preserved in the Six Books.
+    description_ar: |
+      توفي الإمام أبو عثمان سعيد بن منصور بن شعبة الخراساني
+      المروزي — محدث من أهل السنة من خراسان، استوطن مكة، ومصنف
+      «سنن سعيد بن منصور» وهو كتاب على نمط المسانيد ركّز على
+      التفسير وأحاديث الأحكام، وقد وصل إلينا منه قسم التفسير
+      من البقرة إلى الأعراف وبعض كتاب الجهاد — بمكة المكرمة
+      سنة ٢٢٧ هـ (~٨٤٢ م) على الرواية المعتمدة في طبقات ابن
+      سعد والذهبي وابن كثير، وذُكر في بعض المصادر سنة ٢٢٩ هـ،
+      ونعتمد ٢٢٧ هـ موافقةً للأكثر. وهو من شيوخ الإمام مسلم
+      وأبي داود وكبار أصحاب الكتب الستة. و«سننه» من أقدم
+      المصنفات الكبرى الواصلة إلينا، واستشهد به العلماء
+      المتأخرون (ابن حجر في «المطالب العالية» والبيهقي
+      والسيوطي) في روايات لم تصل من طريق الكتب الستة.
+    description_fr: |
+      Abū ʿUthmān Saʿīd ibn Manṣūr ibn Shuʿba al-Khurāsānī
+      al-Marwazī — traditionniste sunnite d'origine khurasanienne
+      installé à La Mecque, compilateur des *Sunan Saʿīd ibn
+      Manṣūr* (compilation partielle de style musnad centrée
+      sur le tafsīr et les *aḥkām*, dont ne subsistent que les
+      volumes de tafsīr de la Sūrat al-Baqara jusqu'à al-Aʿrāf
+      et des fragments du kitāb al-jihād) — mourut à La Mecque
+      en 227 H (~842 EC) selon la transmission dominante chez
+      Ibn Saʿd, al-Dhahabī et Ibn Kathīr ; certaines sources
+      donnent 229 H. Nous suivons 227 H, opinion majoritaire.
+      Il fut l'un des maîtres nommés de l'imam Muslim, de l'imam
+      Abū Dāwūd et des principaux auteurs des Six Livres. Ses
+      *Sunan* comptent parmi les plus anciennes compilations
+      *muṣannaf* substantielles parvenues jusqu'à nous et sont
+      régulièrement citées par les savants tardifs (Ibn Ḥajar
+      dans *al-Maṭālib al-ʿĀliya*, al-Bayhaqī, al-Suyūṭī) pour
+      des narrations non préservées dans les Six Livres.
+    canonical_hijri: {year: 227, precision: year}
+    canonical_gregorian: {date: 842-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death at Mecca 227 AH per al-Dhahabī; teacher of Muslim and Abū Dāwūd."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt entry under 227 AH; alt 229 AH noted in some transmissions."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-227 chronicle entry; surviving Sunan partial extant in tafsīr and jihād portions."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 227 AH."
+    people: [[said-ibn-mansur, died]]
+    tags: [abbasid, mecca, khurasan, hadith, sunan, third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Sa%27id_ibn_Mansur"
+
+  - slug: death-of-ibn-abi-shayba
+    category: scholar_death
+    title_en: Death of Abū Bakr Ibn Abī Shayba — author of *al-Muṣannaf*
+    title_ar: وفاة أبي بكر ابن أبي شيبة — صاحب «المصنف»
+    title_fr: Mort d'Abū Bakr Ibn Abī Shayba — auteur d'*al-Muṣannaf*
+    description_en: |
+      Abū Bakr ʿAbdullah ibn Muḥammad ibn Ibrāhīm ibn ʿUthmān
+      ibn Abī Shayba al-ʿAbsī al-Kūfī — Sunni Kūfan traditionist
+      and compiler of *al-Muṣannaf*, the largest surviving
+      hadith musnad-muṣannaf from the early third century AH
+      (preserving roughly 38,000 narrations organised by chapters
+      of fiqh) — died at Kūfa in Muḥarram 235 AH (~August 849
+      CE) per al-Dhahabī, Ibn Khallikān, and Ibn Kathīr. He is
+      a named teacher of Imam al-Bukhārī (in the *Ṣaḥīḥ*),
+      Imam Muslim, Imam Abū Dāwūd, Ibn Mājah, and his own brother
+      ʿUthmān ibn Abī Shayba (also a major narrator). His
+      *Muṣannaf* preserves a vast body of Companion and tabiʿī
+      legal-hadith material older than the Six Books and is one
+      of the two pillar muṣannafs of the era, paired with that
+      of ʿAbd al-Razzāq al-Ṣanʿānī (d. 211 AH). Aḥmad ibn Ḥanbal
+      called him "an embodied trove of hadith" (*ṣadūq*); al-ʿIjlī
+      placed him among the foremost ḥuffāẓ of Kūfa.
+    description_ar: |
+      توفي الإمام أبو بكر عبد الله بن محمد بن إبراهيم بن عثمان
+      بن أبي شيبة العبسي الكوفي — محدث الكوفة من أهل السنة،
+      صاحب «المصنف» وهو أكبر مصنفات الحديث الواصلة من أوائل
+      القرن الثالث الهجري (يضم نحو ثمانية وثلاثين ألف حديث
+      مرتبة على أبواب الفقه) — بالكوفة في محرم سنة ٢٣٥ هـ
+      (~أغسطس ٨٤٩ م) كما حفظ ذلك الذهبي وابن خلكان وابن كثير.
+      وهو من شيوخ الإمام البخاري في «الصحيح»، ومسلم وأبي داود
+      وابن ماجه، ومن شيوخ أخيه عثمان بن أبي شيبة وكان أيضاً
+      محدثاً كبيراً. ويحفظ «المصنف» تراثاً واسعاً من أحاديث
+      الصحابة والتابعين الفقهية أقدم من الكتب الستة، وهو أحد
+      ركني المصنفات في عصره مع «مصنف عبد الرزاق الصنعاني» (ت
+      ٢١١ هـ). قال الإمام أحمد بن حنبل في وصفه: «صدوق» وعدّه
+      العجلي في كبار حفاظ الكوفة.
+    description_fr: |
+      Abū Bakr ʿAbdullah ibn Muḥammad ibn Ibrāhīm ibn ʿUthmān
+      ibn Abī Shayba al-ʿAbsī al-Kūfī — traditionniste sunnite
+      koufi et compilateur d'*al-Muṣannaf*, la plus vaste
+      compilation hadith *musnad-muṣannaf* parvenue du début du
+      troisième siècle hégirien (préservant environ 38 000
+      narrations organisées par chapitres de fiqh) — mourut à
+      Koufa en Muḥarram 235 H (~août 849 EC) selon al-Dhahabī,
+      Ibn Khallikān et Ibn Kathīr. Il fut l'un des maîtres nommés
+      de l'imam al-Bukhārī (dans le *Ṣaḥīḥ*), de l'imam Muslim,
+      d'Abū Dāwūd, d'Ibn Mājah, et de son propre frère ʿUthmān
+      ibn Abī Shayba (lui-même narrateur majeur). Son *Muṣannaf*
+      préserve un vaste corpus de matériel légal hadith des
+      Compagnons et des *tābiʿūn* antérieur aux Six Livres et
+      constitue l'un des deux *muṣannafs* piliers de l'époque,
+      avec celui de ʿAbd al-Razzāq al-Ṣanʿānī (m. 211 H). Aḥmad
+      ibn Ḥanbal le qualifia de « trésor incarné de hadith »
+      (*ṣadūq*) ; al-ʿIjlī le plaça parmi les plus grands
+      *ḥuffāẓ* de Koufa.
+    canonical_hijri: {year: 235, month: 1, precision: month}
+    canonical_gregorian: {date: 849-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death Muḥarram 235 AH at Kūfa per al-Dhahabī's Siyar; senior teacher of al-Bukhārī, Muslim, Abū Dāwūd, Ibn Mājah."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt entry confirms Muḥarram 235 AH; al-Muṣannaf is the principal surviving work."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-235 chronicle entry alongside ʿAlī ibn al-Madīnī's death (also 235 AH)."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under year 235 AH."
+    people: [[ibn-abi-shayba, died]]
+    tags: [abbasid, kufa, hadith, musannaf, third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Abi_Shaybah"
+
+  - slug: death-of-ishaq-ibn-rahawayh
+    category: scholar_death
+    title_en: Death of Isḥāq ibn Rāhawayh — Khurāsānian imam, teacher of al-Bukhārī and Muslim
+    title_ar: وفاة إسحاق بن راهويه — إمام خراسان وشيخ البخاري ومسلم
+    title_fr: Mort d'Isḥāq ibn Rāhawayh — imam khurasanien, maître d'al-Bukhārī et Muslim
+    description_en: |
+      Abū Yaʿqūb Isḥāq ibn Ibrāhīm ibn Makhlad al-Ḥanẓalī
+      al-Marwazī, known as Ibn Rāhawayh — paramount Sunni
+      traditionist and jurist of Khurāsān in his generation,
+      one of the four imams whom al-Khaṭīb al-Baghdādī paired
+      as the master-pillars of the rijāl-criticism era (with
+      Aḥmad ibn Ḥanbal, Yaḥyā ibn Maʿīn, and ʿAlī ibn al-Madīnī),
+      and the named teacher of both al-Bukhārī and Muslim in
+      their *Ṣaḥīḥ*s — died at Nīsābūr (Nishapur) on the night
+      of 14 Shaʿbān 238 AH (~January 853 CE) at age about 78,
+      per al-Dhahabī's *Siyar* and Ibn Khallikān's *Wafayāt*.
+      Imam Aḥmad said of him "Isḥāq is unmatched in Khurāsān";
+      al-Bukhārī recalled "we used to count Isḥāq among the
+      teachers." His *Musnad* survives in part and is one of
+      the early third-century musnads alongside those of
+      al-Ṭayālisī (d. 204) and Aḥmad ibn Ḥanbal (d. 241). His
+      mukhtaṣar fiqh works seeded the eastern Shāfiʿī-Hanbalī
+      cross-influence that shaped Khurāsānian Sunnī jurisprudence
+      down through al-Bayhaqī.
+    description_ar: |
+      توفي الإمام أبو يعقوب إسحاق بن إبراهيم بن مخلد الحنظلي
+      المروزي المعروف بابن راهويه — شيخ خراسان من أهل السنة
+      في زمانه، وأحد الأئمة الأربعة الذين اقترن بهم الخطيب
+      البغدادي أعمدة عصر الجرح والتعديل (مع أحمد بن حنبل
+      ويحيى بن معين وعلي بن المديني)، ومن شيوخ البخاري ومسلم
+      المنصوص عليهم في «الصحيحين» — بنيسابور ليلة الرابع عشر
+      من شعبان سنة ٢٣٨ هـ (~يناير ٨٥٣ م) عن نحو ثمان وسبعين
+      سنة، كما حفظ الذهبي في «السير» وابن خلكان في «الوفيات».
+      قال عنه أحمد بن حنبل: «لا يعرف لإسحاق بخراسان نظير»،
+      وقال البخاري: «كنا نعدّ إسحاق من المشايخ». وله «المسند»
+      وصلنا منه قسم، وهو من المسانيد المبكرة في القرن الثالث
+      مع مسند الطيالسي (ت ٢٠٤ هـ) ومسند أحمد (ت ٢٤١ هـ).
+      وكتبه الفقهية المختصرة أوّلت التلاقح الشافعي-الحنبلي
+      الخراساني الذي تجلى في فقه نيسابور وصولاً إلى البيهقي.
+    description_fr: |
+      Abū Yaʿqūb Isḥāq ibn Ibrāhīm ibn Makhlad al-Ḥanẓalī
+      al-Marwazī, dit Ibn Rāhawayh — traditionniste et juriste
+      sunnite par excellence du Khurāsān de sa génération, l'un
+      des quatre imams qu'al-Khaṭīb al-Baghdādī associa comme
+      piliers maîtres de l'ère de la critique des *rijāl* (avec
+      Aḥmad ibn Ḥanbal, Yaḥyā ibn Maʿīn et ʿAlī ibn al-Madīnī),
+      et maître nommé d'al-Bukhārī comme de Muslim dans leurs
+      *Ṣaḥīḥ*s — mourut à Nīsābūr (Nishapur) dans la nuit du
+      14 Shaʿbān 238 H (~janvier 853 EC) à l'âge d'environ 78
+      ans, selon les *Siyar* d'al-Dhahabī et les *Wafayāt*
+      d'Ibn Khallikān. L'imam Aḥmad dit de lui « Isḥāq n'a pas
+      d'égal au Khurāsān » ; al-Bukhārī se rappela « nous
+      comptions Isḥāq parmi nos maîtres ». Son *Musnad* nous
+      est partiellement parvenu et compte parmi les *musnads*
+      précoces du troisième siècle aux côtés de ceux d'al-
+      Ṭayālisī (m. 204 H) et d'Aḥmad ibn Ḥanbal (m. 241 H). Ses
+      *mukhtaṣar* de fiqh ont semé le croisement shāfiʿite-
+      hanbalite oriental qui a façonné la jurisprudence sunnite
+      khurasanienne jusqu'à al-Bayhaqī.
+    canonical_hijri: {year: 238, month: 8, day: 14, precision: day}
+    canonical_gregorian: {date: 853-01-30, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death night of 14 Shaʿbān 238 AH at Nīsābūr per al-Dhahabī's Siyar; one of the four pillar imams of rijāl criticism."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry confirms 14 Shaʿbān 238 AH death."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-238 chronicle entry; teacher of both al-Bukhārī and Muslim in their Ṣaḥīḥs."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 238 AH."
+    people: [[ishaq-ibn-rahawayh, died]]
+    tags: [abbasid, nishapur, khurasan, hadith, rijal, six-books-teacher, third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ishaq_Ibn_Rahwayh"
+
+  # =========================================================================
+  # MID 3rd CENTURY AH — THE TWO RĀZĪS AND CONTEMPORARIES
+  # =========================================================================
+
+  - slug: death-of-abu-zura-al-razi
+    category: scholar_death
+    title_en: Death of Abū Zurʿa al-Rāzī — chief rijāl critic of Rayy
+    title_ar: وفاة أبي زرعة الرازي — كبير نقاد الرجال بالري
+    title_fr: Mort d'Abū Zurʿa al-Rāzī — premier critique des *rijāl* de Rayy
+    description_en: |
+      Abū Zurʿa ʿUbaydullah ibn ʿAbd al-Karīm ibn Yazīd al-Rāzī
+      — Sunni traditionist and master rijāl critic of Rayy
+      (al-Rayy, near modern Tehran), close companion and exact
+      contemporary of Abū Ḥātim al-Rāzī (d. 277 AH), and one of
+      the half-dozen authoritative voices whose verdict could
+      definitively pass or fail a hadith narrator in the second
+      half of the third century AH — died at Rayy at the very
+      end of Dhū al-Ḥijja 264 AH (~September 878 CE) at age
+      about 64, per al-Dhahabī's *Siyar* and *Tārīkh al-Islām*.
+      His extensive *Suʾālāt* and *ʿIlal* — questions on hadith
+      narrators and their hidden defects — survive in
+      transmissions through his son Abū Muḥammad and through
+      al-Bardhaʿī, and form one of the principal early sources
+      of the *jarḥ wa-l-taʿdīl* genre. Aḥmad ibn Ḥanbal said of
+      him: "no one has crossed the bridge of Khurāsān like Abū
+      Zurʿa, in his memory and in his integrity." His verdicts
+      are extensively quoted in Ibn Ḥajar's *Tahdhīb al-Tahdhīb*
+      and in his son Ibn Abī Ḥātim's *al-Jarḥ wa-l-Taʿdīl*.
+    description_ar: |
+      توفي الإمام أبو زرعة عبيد الله بن عبد الكريم بن يزيد
+      الرازي — محدث من أهل السنة وكبير نقاد الرجال في الري
+      (قرب طهران اليوم)، قرين أبي حاتم الرازي (ت ٢٧٧ هـ)،
+      وأحد رؤوس المعدودين الذين بحكمهم يعرف الراوي ثقةً أو
+      تركاً في النصف الثاني من القرن الثالث الهجري — بالري
+      في أواخر ذي الحجة سنة ٢٦٤ هـ (~سبتمبر ٨٧٨ م) عن نحو
+      أربع وستين سنة، كما حفظ الذهبي في «السير» و«تاريخ
+      الإسلام». تركت «سؤالاته» و«علله» في رواة الحديث وعلل
+      أسانيدها — ينقلها ابنه عبد الرحمن أبو محمد والبردعي —
+      أصلاً من أصول كتب الجرح والتعديل المبكرة. قال عنه أحمد
+      بن حنبل: «ما عبر جسر خراسان مثل أبي زرعة في حفظه
+      وأمانته». ونقل أحكامه ابن حجر في «تهذيب التهذيب» وابن
+      أبي حاتم في «الجرح والتعديل» نقلاً واسعاً.
+    description_fr: |
+      Abū Zurʿa ʿUbaydullah ibn ʿAbd al-Karīm ibn Yazīd al-Rāzī
+      — traditionniste sunnite et grand critique des *rijāl* de
+      Rayy (al-Rayy, près de l'actuelle Téhéran), compagnon
+      proche et contemporain exact d'Abū Ḥātim al-Rāzī (m. 277
+      H), et l'une des demi-douzaine de voix faisant autorité
+      dont le verdict pouvait définitivement valider ou écarter
+      un transmetteur de hadith dans la seconde moitié du 3e
+      siècle hégirien — mourut à Rayy à la toute fin de Dhū
+      al-Ḥijja 264 H (~septembre 878 EC) à l'âge d'environ 64
+      ans, selon les *Siyar* et le *Tārīkh al-Islām* d'al-Dhahabī.
+      Ses vastes *Suʾālāt* et *ʿIlal* — questions sur les
+      transmetteurs et défauts cachés de leurs chaînes — nous
+      sont parvenus par transmission à travers son fils Abū
+      Muḥammad et al-Bardhaʿī, et forment l'une des sources
+      principales du genre *al-jarḥ wa-l-taʿdīl*. Aḥmad ibn
+      Ḥanbal dit de lui : « personne n'a traversé le pont du
+      Khurāsān comme Abū Zurʿa, dans sa mémoire et son intégrité ».
+      Ses verdicts sont abondamment cités dans le *Tahdhīb
+      al-Tahdhīb* d'Ibn Ḥajar et dans *al-Jarḥ wa-l-Taʿdīl* de
+      son fils Ibn Abī Ḥātim.
+    canonical_hijri: {year: 264, month: 12, precision: month}
+    canonical_gregorian: {date: 878-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death end of Dhū al-Ḥijja 264 AH at Rayy; ranked among foremost critics of his era."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-264 entry confirms Dhū al-Ḥijja 264 AH death."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry under 264 AH; close contemporary of Abū Ḥātim."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 264 AH."
+    people: [[abu-zura-al-razi, died]]
+    tags: [abbasid, rayy, hadith, rijal, jarh-wa-tadil, third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Zur%27a_al-Razi"
+
+  - slug: death-of-abu-hatim-al-razi
+    category: scholar_death
+    title_en: Death of Abū Ḥātim al-Rāzī — co-master of rijāl criticism at Rayy
+    title_ar: وفاة أبي حاتم الرازي — قرين أبي زرعة في نقد الرجال بالري
+    title_fr: Mort d'Abū Ḥātim al-Rāzī — co-maître de la critique des *rijāl* à Rayy
+    description_en: |
+      Abū Ḥātim Muḥammad ibn Idrīs ibn al-Mundhir al-Ḥanẓalī
+      al-Rāzī — Sunni traditionist and master rijāl critic of
+      Rayy, paired in the classical sources with his close
+      companion Abū Zurʿa al-Rāzī as the two seminal voices in
+      mid-third-century *al-jarḥ wa-l-taʿdīl* — died at Rayy in
+      Shaʿbān 277 AH (~November 890 CE) at age about 83, per
+      al-Dhahabī's *Siyar* (the dominant transmission); a
+      minority of sources gives 275 AH, a date al-Dhahabī
+      himself notes and rejects. We follow 277 AH. His extensive
+      verdicts on narrators were systematically gathered by his
+      son Abū Muḥammad ʿAbd al-Raḥmān ibn Abī Ḥātim (d. 327 AH)
+      into *al-Jarḥ wa-l-Taʿdīl* — the single largest surviving
+      classical compendium of pre-Bukhārī rijāl criticism, in
+      nine published volumes. His independent *Tafsīr* (also
+      preserved by his son in extracts) is one of the earliest
+      narration-based commentaries to survive the third century.
+      Ibn Khallikān calls him "imām of his contemporaries in
+      knowledge of *rijāl*."
+    description_ar: |
+      توفي الإمام أبو حاتم محمد بن إدريس بن المنذر الحنظلي
+      الرازي — محدث من أهل السنة وكبير نقاد الرجال في الري،
+      اقترنه المتقدمون بقرينه أبي زرعة الرازي بوصفهما رأسي
+      علم الجرح والتعديل في أواسط القرن الثالث الهجري — بالري
+      في شعبان سنة ٢٧٧ هـ (~نوفمبر ٨٩٠ م) عن نحو ثلاث وثمانين
+      سنة، كما هو الراجح في «سير» الذهبي؛ وذُكر في بعض المصادر
+      سنة ٢٧٥ هـ، وقد أشار إليها الذهبي ورجّح خلافها. ونحن
+      نتابع ٢٧٧ هـ على القول الأكثر. وقد جمع ابنه أبو محمد
+      عبد الرحمن بن أبي حاتم (ت ٣٢٧ هـ) أحكامه على الرواة
+      منهجياً في «الجرح والتعديل»، وهو أكبر مؤلفات نقد الرجال
+      الكلاسيكية الواصلة قبل البخاري في تسع مجلدات مطبوعة. وله
+      «تفسير» مستقل حفظه ابنه نقلاً، وهو من أوائل التفاسير
+      الأثرية الواصلة من القرن الثالث. قال عنه ابن خلكان:
+      «إمام معاصريه في معرفة الرجال».
+    description_fr: |
+      Abū Ḥātim Muḥammad ibn Idrīs ibn al-Mundhir al-Ḥanẓalī
+      al-Rāzī — traditionniste sunnite et grand critique des
+      *rijāl* de Rayy, associé dans les sources classiques à
+      son compagnon proche Abū Zurʿa al-Rāzī comme les deux
+      voix séminales d'*al-jarḥ wa-l-taʿdīl* au milieu du 3e
+      siècle hégirien — mourut à Rayy en Shaʿbān 277 H
+      (~novembre 890 EC) à l'âge d'environ 83 ans, selon la
+      transmission dominante des *Siyar* d'al-Dhahabī ; une
+      minorité de sources donne 275 H, date qu'al-Dhahabī lui-
+      même note et rejette. Nous suivons 277 H. Ses verdicts
+      étendus sur les transmetteurs ont été systématiquement
+      rassemblés par son fils Abū Muḥammad ʿAbd al-Raḥmān ibn
+      Abī Ḥātim (m. 327 H) dans *al-Jarḥ wa-l-Taʿdīl* — la plus
+      vaste compilation classique de critique des *rijāl* pré-
+      bukhārienne ayant survécu, en neuf volumes publiés. Son
+      *Tafsīr* indépendant (également préservé en extraits par
+      son fils) figure parmi les commentaires fondés sur la
+      narration les plus anciens parvenus du 3e siècle. Ibn
+      Khallikān le qualifie d'« imam de ses contemporains dans
+      la connaissance des *rijāl* ».
+    canonical_hijri: {year: 277, month: 8, precision: month}
+    canonical_gregorian: {date: 890-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death Shaʿbān 277 AH at Rayy per al-Dhahabī's Siyar (dominant transmission); 275 AH minority alternative."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry under 277 AH; co-pillar of mid-third-century rijāl criticism with Abū Zurʿa."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-277 chronicle entry; al-Jarḥ wa-l-Taʿdīl preserved by son Ibn Abī Ḥātim."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under year 277 AH."
+    people: [[abu-hatim-al-razi, died]]
+    tags: [abbasid, rayy, hadith, rijal, jarh-wa-tadil, tafsir, third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abu_Hatim_al-Razi"
+
+  - slug: death-of-yaqub-al-fasawi
+    category: scholar_death
+    title_en: Death of Yaʿqūb ibn Sufyān al-Fasawī — author of *al-Maʿrifa wa-l-Tārīkh*
+    title_ar: وفاة يعقوب بن سفيان الفسوي — صاحب «المعرفة والتاريخ»
+    title_fr: Mort de Yaʿqūb ibn Sufyān al-Fasawī — auteur d'*al-Maʿrifa wa-l-Tārīkh*
+    description_en: |
+      Abū Yūsuf Yaʿqūb ibn Sufyān ibn Jawān al-Fārisī al-Fasawī
+      — Sunni Persian traditionist of Fasā in Fārs, world-
+      traveller (he claimed to have spent thirty years collecting
+      hadith across Khurāsān, Iraq, the Ḥijāz, the Levant, Egypt,
+      and the Maghrib), and author of *al-Maʿrifa wa-l-Tārīkh*
+      — one of the earliest substantial Sunni biographical-
+      historical compilations in three published volumes,
+      particularly valuable for its preservation of Companion
+      and tabiʿī biographical material — died at Fasā in Rajab
+      277 AH (~October 890 CE), the same year as Abū Ḥātim
+      al-Rāzī. Per al-Dhahabī he was a teacher of al-Tirmidhī
+      and Abū Dāwūd's son ʿAbd Allāh, and a major narrator into
+      the standard Sunni hadith corpus. His unique perspective
+      as an early-third-century historian-traditionist preserves
+      narrations and chronological data not found in the more
+      familiar Six Books, and his work is heavily cited by Ibn
+      Ḥajar in *al-Iṣāba* and by Ibn ʿAsākir.
+    description_ar: |
+      توفي الإمام أبو يوسف يعقوب بن سفيان بن جوّان الفارسي
+      الفسوي — محدث ومؤرخ من أهل السنة من فسا بفارس، رحّال
+      كبير ادّعى أنه قضى ثلاثين سنة في طلب الحديث في خراسان
+      والعراق والحجاز والشام ومصر والمغرب، ومصنف «المعرفة
+      والتاريخ» — وهو من أقدم المصنفات الجامعة بين علم الرجال
+      والتاريخ في تراث أهل السنة، في ثلاث مجلدات مطبوعة، وله
+      قيمة خاصة في حفظ تراجم الصحابة والتابعين — بفسا في رجب
+      سنة ٢٧٧ هـ (~أكتوبر ٨٩٠ م)، في السنة نفسها التي توفي
+      فيها أبو حاتم الرازي. ذكر الذهبي أنه من شيوخ الترمذي
+      وعبد الله بن أبي داود، ومن كبار الرواة في كتب أهل السنة.
+      ورؤيته الفريدة بوصفه مؤرخاً-محدثاً في أوائل القرن الثالث
+      تحفظ روايات وبيانات زمنية لا توجد في الكتب الستة المشهورة،
+      وقد استشهد بكتابه ابن حجر في «الإصابة» وابن عساكر استشهاداً
+      واسعاً.
+    description_fr: |
+      Abū Yūsuf Yaʿqūb ibn Sufyān ibn Jawān al-Fārisī al-Fasawī
+      — traditionniste persan sunnite de Fasā en Fārs, grand
+      voyageur (il prétend avoir passé trente ans à recueillir
+      des hadiths à travers le Khurāsān, l'Irak, le Ḥijāz, le
+      Levant, l'Égypte et le Maghreb) et auteur d'*al-Maʿrifa
+      wa-l-Tārīkh* — l'une des premières compilations
+      biographico-historiques sunnites substantielles en trois
+      volumes publiés, particulièrement précieuse pour sa
+      préservation du matériel biographique des Compagnons et
+      des *tābiʿūn* — mourut à Fasā en Rajab 277 H (~octobre 890
+      EC), la même année qu'Abū Ḥātim al-Rāzī. Selon al-Dhahabī,
+      il fut un maître d'al-Tirmidhī et du fils d'Abū Dāwūd
+      ʿAbd Allāh, et un transmetteur majeur dans le corpus
+      hadith sunnite standard. Sa perspective unique d'historien-
+      traditionniste du début du 3e siècle préserve des
+      narrations et données chronologiques absentes des Six
+      Livres, et son œuvre est abondamment citée par Ibn Ḥajar
+      dans *al-Iṣāba* et par Ibn ʿAsākir.
+    canonical_hijri: {year: 277, month: 7, precision: month}
+    canonical_gregorian: {date: 890-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death Rajab 277 AH at Fasā per al-Dhahabī's Siyar; teacher of al-Tirmidhī and Ibn Abī Dāwūd."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām confirms Rajab 277 AH death; al-Maʿrifa wa-l-Tārīkh is principal surviving work."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-277 chronicle entry; al-Fasawī died in same year as Abū Ḥātim."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 277 AH."
+    people: [[yaqub-al-fasawi, died]]
+    tags: [abbasid, fars, persia, hadith, rijal, history, third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yaqub_ibn_Sufyan_al-Fasawi"
+
+  # =========================================================================
+  # LATE 3rd / EARLY 4th CENTURY AH — POST-ṢAḤĪḤAYN MUSNAD COMPILERS
+  # =========================================================================
+
+  - slug: death-of-al-bazzar
+    category: scholar_death
+    title_en: Death of al-Bazzār — author of *al-Musnad al-Kabīr* (al-Baḥr al-Zakhkhār)
+    title_ar: وفاة البزار — صاحب «المسند الكبير» (البحر الزخار)
+    title_fr: Mort d'al-Bazzār — auteur d'*al-Musnad al-Kabīr* (al-Baḥr al-Zakhkhār)
+    description_en: |
+      Abū Bakr Aḥmad ibn ʿAmr ibn ʿAbd al-Khāliq al-Baṣrī
+      al-Bazzār — Sunni Basran traditionist who travelled
+      widely and dictated hadith in his old age across the
+      Levant — and author of *al-Musnad al-Kabīr* (often called
+      *al-Baḥr al-Zakhkhār*, "The Surging Sea"), one of the
+      principal post-Ṣaḥīḥayn musnads, organised on the
+      tradition of musnad-by-Companion and including extensive
+      isnād-criticism remarks (al-Bazzār routinely flagged the
+      defects of weaker chains, making the work valuable for
+      *ʿilal* studies) — died at al-Ramla (Palestine) in 292
+      AH (~905 CE), per al-Dhahabī's *Siyar*, *Tārīkh al-Islām*,
+      and Ibn Kathīr's chronicle. He had been dictating in
+      al-Ramla in the years before his death; the work survives
+      and was edited and published in eighteen volumes in modern
+      times. His verdicts on narrators are repeatedly invoked by
+      al-Dāraquṭnī, al-Bayhaqī, and al-Haythamī (in *Majmaʿ
+      al-Zawāʾid*, where the *Musnad al-Bazzār* is one of the
+      five primary sources).
+    description_ar: |
+      توفي الإمام أبو بكر أحمد بن عمرو بن عبد الخالق البصري
+      البزار — محدث البصرة من أهل السنة، رحّال كبير، أملى
+      الحديث في كبره في بلاد الشام، ومصنف «المسند الكبير»
+      المعروف بـ«البحر الزخار» — وهو أحد أهم المسانيد بعد
+      الصحيحين، رتّبه على مسانيد الصحابة وضمّنه نقداً واسعاً
+      للأسانيد، إذ كان البزار يبيّن علل الإسناد الضعيف في
+      مواضعه، فاكتسب الكتاب قيمة خاصة في علم العلل — بالرملة
+      (فلسطين) سنة ٢٩٢ هـ (~٩٠٥ م)، كما حفظ الذهبي في
+      «السير» و«تاريخ الإسلام» وابن كثير في «البداية والنهاية».
+      كان يملي بالرملة في السنوات السابقة لوفاته، وقد طبع
+      الكتاب في ثمانية عشر مجلداً في العصر الحديث. ويستشهد
+      بأحكامه الدارقطني والبيهقي والهيثمي في «مجمع الزوائد»
+      الذي مسند البزار أحد مصادره الخمسة الرئيسية.
+    description_fr: |
+      Abū Bakr Aḥmad ibn ʿAmr ibn ʿAbd al-Khāliq al-Baṣrī
+      al-Bazzār — traditionniste bassorois sunnite, grand
+      voyageur, qui dicta des hadiths dans sa vieillesse à
+      travers le Levant — et auteur d'*al-Musnad al-Kabīr* (dit
+      *al-Baḥr al-Zakhkhār*, « la Mer Houleuse »), l'un des
+      principaux *musnads* post-Ṣaḥīḥayn, organisé selon la
+      tradition *musnad-par-Compagnon* et incluant d'amples
+      remarques de critique d'*isnād* (al-Bazzār signalait
+      systématiquement les défauts des chaînes plus faibles,
+      ce qui rend l'ouvrage précieux pour les études d'*ʿilal*)
+      — mourut à al-Ramla (Palestine) en 292 H (~905 EC),
+      selon les *Siyar*, le *Tārīkh al-Islām* d'al-Dhahabī et
+      la chronique d'Ibn Kathīr. Il avait dicté à al-Ramla dans
+      les années précédant sa mort ; l'ouvrage a survécu et a
+      été édité et publié en dix-huit volumes à l'époque
+      moderne. Ses verdicts sur les transmetteurs sont
+      régulièrement invoqués par al-Dāraquṭnī, al-Bayhaqī et
+      al-Haythamī (dans *Majmaʿ al-Zawāʾid*, où le *Musnad
+      al-Bazzār* est l'une des cinq sources primaires).
+    canonical_hijri: {year: 292, precision: year}
+    canonical_gregorian: {date: 905-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death at al-Ramla 292 AH per al-Dhahabī; al-Musnad al-Kabīr (al-Baḥr al-Zakhkhār) is principal work."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-292 entry confirms death at al-Ramla."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-292 chronicle entry; one of five primary sources of Majmaʿ al-Zawāʾid."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 292 AH."
+    people: [[al-bazzar, died]]
+    tags: [abbasid, basra, ramla, hadith, musnad, late-third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Bazzar"
+
+  - slug: death-of-ibn-al-jarud
+    category: scholar_death
+    title_en: Death of Ibn al-Jārūd — author of *al-Muntaqā*
+    title_ar: وفاة ابن الجارود — صاحب «المنتقى»
+    title_fr: Mort d'Ibn al-Jārūd — auteur d'*al-Muntaqā*
+    description_en: |
+      Abū Muḥammad ʿAbdullah ibn ʿAlī ibn al-Jārūd al-Naysābūrī
+      — Sunni Khurāsānian traditionist who settled at Mecca,
+      and compiler of *al-Muntaqā fī al-Sunan al-Musnada* (a
+      selective Sunan focused on aḥkām hadith, a compact and
+      stringent compilation that aspires to the rigour of the
+      Ṣaḥīḥayn while organising material by chapters of
+      jurisprudence) — died at Mecca in 307 AH (~919 CE), per
+      al-Dhahabī's *Siyar* and *Tārīkh al-Islām*. His *Muntaqā*
+      contains roughly 1,114 narrations. Later scholars
+      including al-Bayhaqī, Ibn Khuzayma's contemporaries, and
+      Ibn Ḥajar treat the *Muntaqā* as a high-tier post-
+      Ṣaḥīḥayn collection — al-Dhahabī describes it in the
+      *Siyar* as a book "in which there is little criticism for
+      its compiler," indicating that the editorial standard
+      approaches but does not fully match the two Ṣaḥīḥs. Imam
+      al-Suyūṭī cites the work for legal narrations not found
+      in the Six Books.
+    description_ar: |
+      توفي الإمام أبو محمد عبد الله بن علي بن الجارود
+      النيسابوري — محدث من أهل السنة من خراسان استوطن مكة،
+      ومصنف «المنتقى في السنن المسندة» — وهو سنن انتقائية في
+      أحاديث الأحكام، مجموع موجز متقن طمحَ صاحبه أن يقاربَ
+      شرط الصحيحين مع ترتيب أبواب الفقه — بمكة المكرمة سنة
+      ٣٠٧ هـ (~٩١٩ م)، كما حفظ الذهبي في «السير» و«تاريخ
+      الإسلام». ويضم «المنتقى» نحو ألف ومئة وأربعة عشر
+      حديثاً. وعدّه المتأخرون بمن فيهم البيهقي ومعاصرو ابن
+      خزيمة وابن حجر مجموعةً عاليةَ الرتبة بعد الصحيحين؛
+      وقال عنه الذهبي في «السير»: «كتابه قَلَّ ما يُنتقد على
+      صاحبه فيه»، ممّا يدل على أن الشرط يكاد يقرب من شرط
+      الصحيحين دون أن يبلغه. واستشهد به السيوطي في الأحاديث
+      الفقهية التي لم تخرج في الكتب الستة.
+    description_fr: |
+      Abū Muḥammad ʿAbdullah ibn ʿAlī ibn al-Jārūd al-Naysābūrī
+      — traditionniste khurasanien sunnite installé à La Mecque
+      et compilateur d'*al-Muntaqā fī al-Sunan al-Musnada* (Sunan
+      sélectif centré sur les hadiths d'*aḥkām*, compilation
+      compacte et rigoureuse qui aspire à la rigueur des
+      Ṣaḥīḥayn tout en organisant le matériel par chapitres de
+      jurisprudence) — mourut à La Mecque en 307 H (~919 EC),
+      selon les *Siyar* et le *Tārīkh al-Islām* d'al-Dhahabī.
+      Son *Muntaqā* contient environ 1 114 narrations. Les
+      savants tardifs, notamment al-Bayhaqī, les contemporains
+      d'Ibn Khuzayma et Ibn Ḥajar, traitent le *Muntaqā* comme
+      une collection post-Ṣaḥīḥayn de très haut niveau ;
+      al-Dhahabī le décrit dans les *Siyar* comme un livre « où
+      l'on critique peu son compilateur », indiquant que la
+      norme éditoriale approche celle des deux *Ṣaḥīḥ* sans la
+      rejoindre pleinement. L'imam al-Suyūṭī cite l'œuvre pour
+      des narrations juridiques absentes des Six Livres.
+    canonical_hijri: {year: 307, precision: year}
+    canonical_gregorian: {date: 919-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death at Mecca 307 AH per al-Dhahabī's Siyar; al-Muntaqā ~1,114 narrations of aḥkām hadith."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām confirms 307 AH death."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 307 AH."
+    people: [[ibn-al-jarud, died]]
+    tags: [abbasid, mecca, khurasan, hadith, sunan, fourth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Jarud"
+
+  - slug: death-of-abu-awana-al-isfaraini
+    category: scholar_death
+    title_en: Death of Abū ʿAwāna al-Isfarāʾīnī — author of the *Mustakhraj* on Muslim
+    title_ar: وفاة أبي عوانة الإسفراييني — صاحب «المستخرج» على مسلم
+    title_fr: Mort d'Abū ʿAwāna al-Isfarāʾīnī — auteur du *Mustakhraj* sur Muslim
+    description_en: |
+      Abū ʿAwāna Yaʿqūb ibn Isḥāq ibn Ibrāhīm al-Isfarāʾīnī
+      al-Naysābūrī — Sunni Khurāsānian traditionist of
+      Isfarāʾīn (in modern northern Iran) and Nīsābūr, and
+      author of *al-Mustakhraj ʿalā Ṣaḥīḥ Muslim* — one of the
+      principal *mustakhrajāt* (independent re-derivations of
+      Ṣaḥīḥ Muslim's narrations through alternative chains,
+      preserving variant wordings and additional matn material
+      that became standard reference points for hadith study)
+      — died at Isfarāʾīn in 316 AH (~928 CE), per al-Dhahabī's
+      *Siyar* and *Tārīkh al-Islām*. His *Mustakhraj* (often
+      called *Musnad Abī ʿAwāna*) is preserved and published in
+      modern editions; alongside the *Mustakhraj* of Abū Nuʿaym
+      al-Isfahānī and that of al-Bayhaqī it forms the
+      foundational *mustakhraj* corpus on Muslim. Imam al-Nawawī
+      treats the *Musnad Abī ʿAwāna* as one of the standard
+      reference works in his *Sharḥ Ṣaḥīḥ Muslim*.
+    description_ar: |
+      توفي الإمام أبو عوانة يعقوب بن إسحاق بن إبراهيم
+      الإسفراييني النيسابوري — محدث خراسان من أهل السنة، من
+      إسفرايين ونيسابور، ومصنف «المستخرج على صحيح مسلم» — وهو
+      أحد أهم المستخرجات (وهي إعادات تخريج مستقلة لأحاديث
+      صحيح مسلم بأسانيد بديلة، تحفظ ألفاظاً متباينة ومتوناً
+      إضافية، صارت مراجع معتمدة في علم الحديث) — بإسفرايين
+      سنة ٣١٦ هـ (~٩٢٨ م)، كما حفظ الذهبي في «السير» و«تاريخ
+      الإسلام». «مستخرجه» المعروف بـ«مسند أبي عوانة» وصلنا
+      وطبع في طبعات حديثة، وهو مع «مستخرج أبي نعيم الأصبهاني»
+      و«مستخرج البيهقي» يشكل قوام كتب المستخرجات على مسلم. وقد
+      اعتمد عليه الإمام النووي في «شرح صحيح مسلم» اعتماداً
+      ملحوظاً.
+    description_fr: |
+      Abū ʿAwāna Yaʿqūb ibn Isḥāq ibn Ibrāhīm al-Isfarāʾīnī
+      al-Naysābūrī — traditionniste khurasanien sunnite
+      d'Isfarāʾīn (dans l'actuel nord de l'Iran) et de Nīsābūr,
+      et auteur d'*al-Mustakhraj ʿalā Ṣaḥīḥ Muslim* — l'un des
+      principaux *mustakhrajāt* (re-dérivations indépendantes
+      des narrations du Ṣaḥīḥ de Muslim par chaînes alternatives,
+      préservant des variantes lexicales et un matériel *matn*
+      additionnel devenus des points de référence standard pour
+      l'étude du hadith) — mourut à Isfarāʾīn en 316 H (~928
+      EC), selon les *Siyar* et le *Tārīkh al-Islām* d'al-Dhahabī.
+      Son *Mustakhraj* (souvent dit *Musnad Abī ʿAwāna*) est
+      préservé et publié dans des éditions modernes ; aux côtés
+      du *Mustakhraj* d'Abū Nuʿaym al-Isfahānī et de celui
+      d'al-Bayhaqī, il forme le corpus fondateur des
+      *mustakhrajāt* sur Muslim. L'imam al-Nawawī traite le
+      *Musnad Abī ʿAwāna* comme l'un des ouvrages de référence
+      standard dans son *Sharḥ Ṣaḥīḥ Muslim*.
+    canonical_hijri: {year: 316, precision: year}
+    canonical_gregorian: {date: 928-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death at Isfarāʾīn 316 AH per al-Dhahabī's Siyar; Mustakhraj on Muslim is principal work."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-316 entry confirms death."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 316 AH."
+    people: [[abu-awana-al-isfaraini, died]]
+    tags: [abbasid, isfarayin, nishapur, khurasan, hadith, mustakhraj, fourth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Awana_al-Isfarayini"
+
+  # =========================================================================
+  # 4th CENTURY AH — RIJĀL CODIFICATION AND MUḤADDITH-MUḤKAM
+  # =========================================================================
+
+  - slug: death-of-ibn-abi-hatim-al-razi
+    category: scholar_death
+    title_en: Death of Ibn Abī Ḥātim al-Rāzī — author of *al-Jarḥ wa-l-Taʿdīl*
+    title_ar: وفاة ابن أبي حاتم الرازي — صاحب «الجرح والتعديل»
+    title_fr: Mort d'Ibn Abī Ḥātim al-Rāzī — auteur d'*al-Jarḥ wa-l-Taʿdīl*
+    description_en: |
+      Abū Muḥammad ʿAbd al-Raḥmān ibn Abī Ḥātim Muḥammad ibn
+      Idrīs al-Ḥanẓalī al-Rāzī — son and principal scholarly
+      heir of Abū Ḥātim al-Rāzī (d. 277 AH), Sunni traditionist
+      and rijāl encyclopaedist of Rayy, and compiler of
+      *al-Jarḥ wa-l-Taʿdīl*, the single largest surviving
+      classical compilation of pre-Bukhārī rijāl assessment (in
+      nine published volumes), and of the substantial *Tafsīr
+      Ibn Abī Ḥātim* (also extant) — died at Rayy in Muḥarram
+      327 AH (~November 938 CE) per al-Dhahabī's *Siyar* and
+      Ibn Khallikān's *Wafayāt*. His *Jarḥ* preserves verbatim
+      the verdicts of his father Abū Ḥātim, his close associate
+      Abū Zurʿa al-Rāzī, his master al-Bukhārī, and other
+      rijāl voices of the third century AH that would otherwise
+      survive only in fragments scattered through later works.
+      Ibn Khallikān ranks his book "second to none in its
+      genre"; it remains the indispensable foundation for
+      modern hadith narrator research.
+    description_ar: |
+      توفي الإمام أبو محمد عبد الرحمن بن أبي حاتم محمد بن
+      إدريس الحنظلي الرازي — ابن أبي حاتم الرازي (ت ٢٧٧ هـ)
+      ووارثه العلمي الأكبر، محدث من أهل السنة وموسوعي علم
+      الرجال بالري، ومصنف «الجرح والتعديل» — أكبر مؤلفات نقد
+      الرجال الكلاسيكية الواصلة من قبل البخاري في تسع
+      مجلدات مطبوعة — و«تفسير ابن أبي حاتم» (الواصل أيضاً) —
+      بالري في محرم سنة ٣٢٧ هـ (~نوفمبر ٩٣٨ م) كما حفظ
+      الذهبي في «السير» وابن خلكان في «الوفيات». ويحفظ كتاب
+      «الجرح» نصوص أحكام أبيه أبي حاتم وقرين أبيه أبي زرعة
+      الرازي وشيخه البخاري وغيرهم من نقاد القرن الثالث الهجري
+      ممن لم تصلنا أحكامهم منثورةً في كتب أخرى إلا متفرقة. قال
+      ابن خلكان: «كتابه فريد في بابه». وهو أساس لا غنى عنه
+      في أبحاث رواة الحديث الحديثة.
+    description_fr: |
+      Abū Muḥammad ʿAbd al-Raḥmān ibn Abī Ḥātim Muḥammad ibn
+      Idrīs al-Ḥanẓalī al-Rāzī — fils et principal héritier
+      érudit d'Abū Ḥātim al-Rāzī (m. 277 H), traditionniste
+      sunnite et encyclopédiste des *rijāl* de Rayy,
+      compilateur d'*al-Jarḥ wa-l-Taʿdīl*, la plus vaste
+      compilation classique d'évaluation des *rijāl* pré-
+      bukhārienne ayant survécu (en neuf volumes publiés), et
+      du substantiel *Tafsīr Ibn Abī Ḥātim* (également
+      conservé) — mourut à Rayy en Muḥarram 327 H (~novembre
+      938 EC) selon les *Siyar* d'al-Dhahabī et les *Wafayāt*
+      d'Ibn Khallikān. Son *Jarḥ* préserve mot pour mot les
+      verdicts de son père Abū Ḥātim, de son proche associé
+      Abū Zurʿa al-Rāzī, de son maître al-Bukhārī et d'autres
+      voix de la critique des *rijāl* du 3e siècle hégirien
+      qui ne nous seraient autrement parvenus que par fragments
+      dispersés dans des ouvrages tardifs. Ibn Khallikān classe
+      son livre comme « sans égal dans son genre » ; il demeure
+      le fondement indispensable de la recherche moderne sur
+      les transmetteurs de hadith.
+    canonical_hijri: {year: 327, month: 1, precision: month}
+    canonical_gregorian: {date: 938-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death Muḥarram 327 AH at Rayy per al-Dhahabī; al-Jarḥ wa-l-Taʿdīl preserves verbatim verdicts of his father, Abū Zurʿa, and al-Bukhārī."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān entry confirms 327 AH death; al-Jarḥ ranked 'second to none in its genre.'"
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-327 chronicle entry; Tafsīr Ibn Abī Ḥātim also a major surviving work."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 327 AH."
+    people: [[ibn-abi-hatim-al-razi, died]]
+    tags: [abbasid, rayy, hadith, rijal, jarh-wa-tadil, tafsir, fourth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Abi_Hatim_al-Razi"
+
+  - slug: death-of-al-ramahurmuzi
+    category: scholar_death
+    title_en: Death of al-Rāmahurmuzī — author of *al-Muḥaddith al-Fāṣil*
+    title_ar: وفاة الرامهرمزي — صاحب «المحدث الفاصل»
+    title_fr: Mort d'al-Rāmahurmuzī — auteur d'*al-Muḥaddith al-Fāṣil*
+    description_en: |
+      al-Qāḍī Abū Muḥammad al-Ḥasan ibn ʿAbd al-Raḥmān ibn
+      Khallād al-Fārisī al-Rāmahurmuzī — Sunni qāḍī of
+      Rāmhurmuz (in modern Khūzistān, southwestern Iran) and
+      author of *al-Muḥaddith al-Fāṣil bayna al-Rāwī wa-l-Wāʿī*
+      — the earliest surviving systematic treatise on
+      *muṣṭalaḥ al-ḥadīth* (the technical methodology of hadith
+      science as a field unto itself: requirements of the
+      narrator, the rules of transmission, types of *isnād*,
+      etiquette of *samāʿ* and *ijāza*) — died at Rāmhurmuz in
+      360 AH (~971 CE), per al-Dhahabī's *Siyar* and *Tārīkh
+      al-Islām*. The *Muḥaddith al-Fāṣil* predates the standard
+      pedagogical handbooks (al-Ḥākim's *Maʿrifa*, al-Khaṭīb's
+      *al-Kifāya*, Ibn al-Ṣalāḥ's *Muqaddima*) by nearly half a
+      century and inaugurates the genre. Ibn Khallikān calls
+      him "the qāḍī of his land, distinguished in hadith and
+      adab"; the work was edited and published in modern times
+      by Muḥammad ʿAjjāj al-Khaṭīb.
+    description_ar: |
+      توفي القاضي أبو محمد الحسن بن عبد الرحمن بن خلاد
+      الفارسي الرامهرمزي — قاض من أهل السنة في رامهرمز (في
+      خوزستان، جنوب غرب إيران اليوم)، ومصنف «المحدث الفاصل
+      بين الراوي والواعي» — أقدم مصنف منهجي واصل في علم
+      مصطلح الحديث (شروط الراوي، قواعد التحمل والأداء،
+      أنواع الإسناد، أدب السماع والإجازة) — برامهرمز سنة
+      ٣٦٠ هـ (~٩٧١ م)، كما حفظ الذهبي في «السير» و«تاريخ
+      الإسلام». و«المحدث الفاصل» يسبق الكتب التعليمية
+      المعتمدة («معرفة علوم الحديث» للحاكم، و«الكفاية»
+      للخطيب، و«مقدمة ابن الصلاح») بنحو نصف قرن، وهو فاتح
+      هذا الفن. قال عنه ابن خلكان: «قاضي بلده، له معرفة
+      بالحديث والأدب». وقد حقق الكتاب وطبعه في العصر الحديث
+      محمد عجاج الخطيب.
+    description_fr: |
+      al-Qāḍī Abū Muḥammad al-Ḥasan ibn ʿAbd al-Raḥmān ibn
+      Khallād al-Fārisī al-Rāmahurmuzī — *qāḍī* sunnite de
+      Rāmhurmuz (dans l'actuel Khūzistān, sud-ouest de l'Iran)
+      et auteur d'*al-Muḥaddith al-Fāṣil bayna al-Rāwī wa-l-
+      Wāʿī* — le plus ancien traité systématique conservé sur
+      le *muṣṭalaḥ al-ḥadīth* (la méthodologie technique de la
+      science hadith comme champ propre : exigences du
+      transmetteur, règles de transmission, types d'*isnād*,
+      étiquette du *samāʿ* et de l'*ijāza*) — mourut à
+      Rāmhurmuz en 360 H (~971 EC), selon les *Siyar* et le
+      *Tārīkh al-Islām* d'al-Dhahabī. Le *Muḥaddith al-Fāṣil*
+      précède les manuels pédagogiques standards (la *Maʿrifa*
+      d'al-Ḥākim, *al-Kifāya* d'al-Khaṭīb, la *Muqaddima* d'Ibn
+      al-Ṣalāḥ) de près d'un demi-siècle et inaugure le genre.
+      Ibn Khallikān le qualifie de « *qāḍī* de son pays,
+      distingué en hadith et en adab » ; l'œuvre a été éditée
+      et publiée à l'époque moderne par Muḥammad ʿAjjāj
+      al-Khaṭīb.
+    canonical_hijri: {year: 360, precision: year}
+    canonical_gregorian: {date: 971-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death at Rāmhurmuz 360 AH per al-Dhahabī; al-Muḥaddith al-Fāṣil is earliest surviving muṣṭalaḥ treatise."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-360 entry confirms death."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt entry under 360 AH; qāḍī of his land, distinguished in hadith and adab."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 360 AH."
+    people: [[al-ramahurmuzi, died]]
+    tags: [buyid, rāmhurmuz, khuzistan, persia, hadith, mustalah, fourth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Ramhurmuzi"
+
+  - slug: death-of-al-ajurri
+    category: scholar_death
+    title_en: Death of Abū Bakr al-Ājurrī — author of *al-Sharīʿa*
+    title_ar: وفاة أبي بكر الآجري — صاحب «الشريعة»
+    title_fr: Mort d'Abū Bakr al-Ājurrī — auteur d'*al-Sharīʿa*
+    description_en: |
+      Abū Bakr Muḥammad ibn al-Ḥusayn ibn ʿAbdullah al-Ājurrī
+      al-Baghdādī — Sunni traditionist of Ājurr (a quarter of
+      Baghdad) who settled at Mecca, and author of *al-Sharīʿa*
+      (a foundational creedal-traditionist compendium organising
+      narrations from Companions and tabiʿūn that articulate
+      the *ʿaqīda* of Ahl al-Sunna wa-l-Jamāʿa, in five
+      published volumes) and of *al-Arbaʿīn ḥadīthan* (a
+      thematic forty-hadith collection) — died at Mecca on
+      the morning of 7 Muḥarram 360 AH (~6 November 970 CE)
+      at age about 96, per al-Dhahabī's *Siyar*. Some sources
+      give 365 AH; we follow al-Dhahabī's 360 AH as the
+      majority opinion. *al-Sharīʿa* is one of the four pillar
+      classical Sunni creedal source-books of the genre
+      (alongside Ibn Baṭṭa's *al-Ibāna*, Ibn Mandah's *al-Tawḥīd*,
+      and al-Lalakāʾī's *Sharḥ Uṣūl Iʿtiqād*) and is heavily
+      relied on by later Sunni creedal writers including Ibn
+      Taymiyya. He died in his Mecca residence neighbouring the
+      Sacred Mosque, having lived in proximity to the Kaʿba for
+      nearly thirty years.
+    description_ar: |
+      توفي الإمام أبو بكر محمد بن الحسين بن عبد الله الآجري
+      البغدادي — محدث من أهل السنة من «آجر» (محلة ببغداد)
+      استوطن مكة، ومصنف «الشريعة» (مجموع تأسيسي يجمع نصوصاً
+      عن الصحابة والتابعين تقرر عقيدة أهل السنة والجماعة، في
+      خمس مجلدات مطبوعة) و«الأربعين حديثاً» (أربعون موضوعية)
+      — بمكة المكرمة صبيحة السابع من محرم سنة ٣٦٠ هـ
+      (~٦ نوفمبر ٩٧٠ م) عن نحو ست وتسعين سنة، كما حفظ
+      الذهبي في «السير». ذكر في بعض المصادر سنة ٣٦٥ هـ،
+      ونعتمد ٣٦٠ هـ موافقة الذهبي والأكثر. و«الشريعة» أحد
+      الأركان الأربعة لكتب أصول العقيدة المرجعية في تراث
+      أهل السنة (مع «الإبانة» لابن بطة و«التوحيد» لابن منده
+      و«شرح أصول الاعتقاد» للالكائي)، وقد اعتمد عليه كثير
+      من كتاب العقائد المتأخرين كابن تيمية. توفي في داره
+      بمكة المجاورة للمسجد الحرام بعد أن جاور الكعبة قرابة
+      ثلاثين سنة.
+    description_fr: |
+      Abū Bakr Muḥammad ibn al-Ḥusayn ibn ʿAbdullah al-Ājurrī
+      al-Baghdādī — traditionniste sunnite originaire d'Ājurr
+      (un quartier de Bagdad) installé à La Mecque, auteur
+      d'*al-Sharīʿa* (compendium fondateur du *ʿaqīda* de
+      l'orthodoxie sunnite, organisant des narrations des
+      Compagnons et des *tābiʿūn* articulant la doctrine
+      d'Ahl al-Sunna wa-l-Jamāʿa, en cinq volumes publiés) et
+      d'*al-Arbaʿīn ḥadīthan* (collection thématique de quarante
+      hadiths) — mourut à La Mecque au matin du 7 Muḥarram 360
+      H (~6 novembre 970 EC) à l'âge d'environ 96 ans, selon
+      les *Siyar* d'al-Dhahabī. Certaines sources donnent 365
+      H ; nous suivons les 360 H d'al-Dhahabī comme opinion
+      majoritaire. *al-Sharīʿa* est l'un des quatre piliers des
+      ouvrages-sources classiques du *ʿaqīda* sunnite (avec
+      l'*Ibāna* d'Ibn Baṭṭa, le *Tawḥīd* d'Ibn Mandah et le
+      *Sharḥ Uṣūl Iʿtiqād* d'al-Lalakāʾī) et est abondamment
+      utilisé par les rédacteurs sunnites tardifs du credo,
+      dont Ibn Taymiyya. Il mourut dans sa résidence mecquoise
+      voisine de la Mosquée sacrée, ayant résidé près de la
+      Kaʿba pendant près de trente ans.
+    canonical_hijri: {year: 360, month: 1, day: 7, precision: day}
+    canonical_gregorian: {date: 970-11-06, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death morning of 7 Muḥarram 360 AH at Mecca per al-Dhahabī's Siyar (dominant transmission); 365 AH minority alternative."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-360 entry confirms death; al-Sharīʿa is principal creedal compendium."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-360 chronicle entry; one of four pillar sources of Sunni creedal narration."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 360 AH."
+    people: [[al-ajurri, died]]
+    tags: [abbasid, mecca, baghdad, hadith, aqida, fourth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Al-Ajurri"
+
+  # =========================================================================
+  # 5th CENTURY AH — al-LALAKĀʾĪ
+  # =========================================================================
+
+  - slug: death-of-al-lalakai
+    category: scholar_death
+    title_en: Death of al-Lalakāʾī — author of *Sharḥ Uṣūl Iʿtiqād Ahl al-Sunna*
+    title_ar: وفاة اللالكائي — صاحب «شرح أصول اعتقاد أهل السنة»
+    title_fr: Mort d'al-Lalakāʾī — auteur de *Sharḥ Uṣūl Iʿtiqād Ahl al-Sunna*
+    description_en: |
+      Abū al-Qāsim Hibat Allāh ibn al-Ḥasan ibn Manṣūr al-Ṭabarī
+      al-Rāzī al-Lalakāʾī — Sunni Shāfiʿī jurist and traditionist
+      of Baghdad, foremost student of the ḥadīth-master Abū
+      al-Ḥasan al-Dāraquṭnī (d. 385 AH), and author of *Sharḥ
+      Uṣūl Iʿtiqād Ahl al-Sunna wa-l-Jamāʿa* — the most
+      systematically organised classical narration-based
+      compendium of Sunni creed, in nine published volumes,
+      treating tawḥīd, qadar, the Companions, the Caliphate, the
+      vision of Allah in the Hereafter, and the canonical
+      positions of the early imams, all through ascribed
+      narrations with full chains — died at Dīnāwar (in modern
+      western Iran) in Ramaḍān 418 AH (~October-November 1027
+      CE), per al-Dhahabī's *Siyar* and Ibn Kathīr. He had been
+      travelling between Baghdad and Persia teaching hadith and
+      *uṣūl al-iʿtiqād*; the *Sharḥ Uṣūl* and his *Karāmāt
+      al-Awliyāʾ* survive. With al-Ājurrī's *al-Sharīʿa*, Ibn
+      Baṭṭa's *al-Ibāna*, and Ibn Mandah's *al-Tawḥīd*, his
+      *Sharḥ Uṣūl* completes the four-pillar classical source-
+      base of late-Sunni creedal narration. Imam al-Subkī
+      includes him in *Ṭabaqāt al-Shāfiʿiyya* among the senior
+      Shāfiʿī authorities of his generation.
+    description_ar: |
+      توفي الإمام أبو القاسم هبة الله بن الحسن بن منصور
+      الطبري الرازي اللالكائي — فقيه شافعي ومحدث من أهل
+      السنة من بغداد، أبرز تلاميذ الحافظ الكبير أبي الحسن
+      الدارقطني (ت ٣٨٥ هـ)، ومصنف «شرح أصول اعتقاد أهل السنة
+      والجماعة» — أتقن مجموعات أصول الاعتقاد الكلاسيكية
+      ترتيباً وأوسعها سنداً، في تسع مجلدات مطبوعة، تناول فيه
+      التوحيد والقدر والصحابة والخلافة ورؤية الله في الآخرة
+      ومذاهب الأئمة المتقدمين، مسوقاً ذلك كله بالأسانيد
+      المسلسلة — بدينور (في غرب إيران اليوم) في رمضان سنة
+      ٤١٨ هـ (~أكتوبر-نوفمبر ١٠٢٧ م) كما حفظ الذهبي في
+      «السير» وابن كثير. كان رحمه الله يتنقل بين بغداد وبلاد
+      فارس مدرّساً للحديث وأصول الاعتقاد، ووصلنا «شرح أصول
+      الاعتقاد» و«كرامات الأولياء» له. ومع «الشريعة»
+      للآجري و«الإبانة» لابن بطة و«التوحيد» لابن منده يكمل
+      «شرح أصول» اللالكائي الأركان الأربعة لمنابع العقيدة
+      السنية المتأخرة. وأدرجه السبكي في «طبقات الشافعية»
+      ضمن كبار مشيخة الشافعية في عصره.
+    description_fr: |
+      Abū al-Qāsim Hibat Allāh ibn al-Ḥasan ibn Manṣūr al-Ṭabarī
+      al-Rāzī al-Lalakāʾī — juriste shāfiʿite et traditionniste
+      sunnite de Bagdad, principal disciple du maître hadith
+      Abū al-Ḥasan al-Dāraquṭnī (m. 385 H), et auteur de *Sharḥ
+      Uṣūl Iʿtiqād Ahl al-Sunna wa-l-Jamāʿa* — le compendium
+      classique du credo sunnite fondé sur la narration le plus
+      systématiquement organisé, en neuf volumes publiés,
+      traitant du *tawḥīd*, du *qadar*, des Compagnons, du
+      califat, de la vision d'Allah dans l'au-delà et des
+      positions canoniques des imams précoces, tout cela à
+      travers des narrations rattachées avec chaînes complètes
+      — mourut à Dīnāwar (dans l'actuel ouest de l'Iran) en
+      Ramaḍān 418 H (~octobre-novembre 1027 EC), selon les
+      *Siyar* d'al-Dhahabī et Ibn Kathīr. Il voyageait entre
+      Bagdad et la Perse pour enseigner le hadith et les *uṣūl
+      al-iʿtiqād* ; le *Sharḥ Uṣūl* et ses *Karāmāt al-Awliyāʾ*
+      ont survécu. Avec *al-Sharīʿa* d'al-Ājurrī, *al-Ibāna*
+      d'Ibn Baṭṭa et *al-Tawḥīd* d'Ibn Mandah, son *Sharḥ Uṣūl*
+      achève la base-sources à quatre piliers de la narration
+      du credo sunnite tardif. L'imam al-Subkī l'inclut dans
+      les *Ṭabaqāt al-Shāfiʿiyya* parmi les autorités shāfiʿites
+      seniors de sa génération.
+    canonical_hijri: {year: 418, month: 9, precision: month}
+    canonical_gregorian: {date: 1027-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Death Ramaḍān 418 AH at Dīnāwar per al-Dhahabī's Siyar; foremost student of al-Dāraquṭnī."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-418 entry confirms Ramaḍān 418 AH death."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-418 chronicle entry; Sharḥ Uṣūl Iʿtiqād is most systematic Sunni creedal compendium."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 418 AH."
+    people: [[al-lalakai, died]]
+    tags: [buyid, baghdad, dinawar, hadith, aqida, shafii, fifth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Lalaka%27i"

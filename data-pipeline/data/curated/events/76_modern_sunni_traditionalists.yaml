@@ -1,0 +1,996 @@
+# Wave 76 of curated event additions (2026-04-27).
+# Late-twentieth and early-twenty-first century Sunni scholars not yet
+# covered by the dataset. Eleven figures spanning the breadth of the
+# canonical Sunni-traditionalist landscape: the Saudi Ḥanbalī-Athari
+# tradition (Ibn Bāz, al-ʿUthaymīn), the Yemeni muḥaddith milieu
+# (al-Wādiʿī), the Aleppine Hanafi muḥaddith tradition (Abū Ghudda),
+# the Meccan Mālikī sayyid tradition (Muḥammad ibn ʿAlawī al-Mālikī
+# al-Ḥasanī), the Moroccan Mālikī muḥaddith tradition (al-Ghumārī),
+# the Egyptian Azharī mufassir tradition (al-Shaʿrāwī, al-Muṭīʿī),
+# the Mauritanian-Saudi Mālikī mufassir tradition (al-Shinqīṭī),
+# the Syrian-Jordanian Hanafi jurisprudence tradition (al-Zarqāʾ),
+# and the Damascene-Madinan muḥaddith tradition (Muḥammad ʿAwwāma).
+# All figures are presented factually-historically, without endorsement
+# or condemnation. The dataset is broad-Sunni and treats all
+# canonical-Sunni scholars equally — no contemporary intra-Muslim
+# polemic terms; just contributions, works, and place of death.
+# Sources: EI2/EI3 supplements, academic biographies, and editorial
+# compilation cross-checking institutional records and obituaries.
+# No hadith refs. Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # SAUDI ḤANBALĪ-ATHARI TRADITION
+  # =========================================================================
+
+  - slug: death-of-ibn-baz
+    category: scholar_death
+    title_en: Death of ʿAbd al-ʿAzīz ibn Bāz — Grand Muftī of Saudi Arabia
+    title_ar: وفاة الإمام عبد العزيز بن باز — مفتي عام المملكة العربية السعودية
+    title_fr: Mort de ʿAbd al-ʿAzīz ibn Bāz — Grand Muftī d'Arabie saoudite
+    description_en: |
+      ʿAbd al-ʿAzīz ibn ʿAbd Allāh ibn Bāz — Saudi Sunni
+      Ḥanbalī-Athari jurist, head of the Permanent Committee
+      for Scholarly Research and Iftāʾ from 1971, president
+      of the Council of Senior Scholars, and Grand Muftī of
+      the Kingdom of Saudi Arabia from 1414 AH (1993 CE)
+      until his death — died at al-Ṭāʾif on 27 Muḥarram
+      1420 AH (13 May 1999 CE) at age 88, and was buried
+      at Mecca. Born at Riyadh in 1330 AH (1912 CE), he
+      lost his sight in adolescence, studied with Muḥammad
+      ibn Ibrāhīm Āl al-Shaykh (the previous Grand Muftī)
+      and a circle of Najdi scholars, taught at the
+      Islamic University of Madīna (1961-1970, including
+      a long term as vice-president and then president),
+      and from 1975 chaired the General Presidency for
+      Scholarly Research and Iftāʾ. His authored and
+      compiled fatwa collections (notably *Majmūʿ Fatāwā
+      wa-Maqālāt Mutanawwiʿa* in some thirty volumes) and
+      his radio lessons on al-Bukhārī and Bulūgh al-Marām
+      circulated widely across the Arabic-speaking Sunni
+      world. He was awarded the King Faisal International
+      Prize for Service to Islam in 1402 AH (1982 CE).
+    description_ar: |
+      توفي الإمام عبد العزيز بن عبد الله بن باز — الفقيه
+      السني الحنبلي الأثري السعودي، رئيس اللجنة الدائمة
+      للبحوث العلمية والإفتاء منذ سنة ١٣٩١ هـ (١٩٧١
+      ميلادي)، ورئيس هيئة كبار العلماء، ومفتي عام المملكة
+      العربية السعودية منذ سنة ١٤١٤ هـ (١٩٩٣ ميلادي) إلى
+      وفاته — بالطائف يوم ٢٧ محرم سنة ١٤٢٠ هـ (الموافق
+      ١٣ ماي ١٩٩٩ ميلادي) عن ثمان وثمانين سنة، ودفن بمكة
+      المكرمة. ولد بالرياض سنة ١٣٣٠ هـ (١٩١٢ ميلادي)،
+      وفقد بصره في شبابه، وتلقى العلم على الشيخ محمد بن
+      إبراهيم آل الشيخ — مفتي عام المملكة قبله — وحلقة
+      من علماء نجد، ودرّس بالجامعة الإسلامية بالمدينة
+      المنورة (سنة ١٣٨١-١٣٩٠ هـ / ١٩٦١-١٩٧٠ ميلادي)،
+      ونائباً للجامعة ثم رئيساً لها، ثم تولى الرئاسة
+      العامة للبحوث العلمية والإفتاء منذ سنة ١٣٩٥ هـ
+      (١٩٧٥ ميلادي). ومجاميع فتاويه ومقالاته (وأشهرها
+      «مجموع فتاوى ومقالات متنوعة» في نحو ثلاثين مجلداً)
+      ودروسه الإذاعية على «صحيح البخاري» و«بلوغ المرام»
+      منتشرة في العالم السني الناطق بالعربية. ومُنح
+      جائزة الملك فيصل العالمية لخدمة الإسلام سنة
+      ١٤٠٢ هـ (١٩٨٢ ميلادي).
+    description_fr: |
+      ʿAbd al-ʿAzīz ibn ʿAbd Allāh ibn Bāz — juriste sunnite
+      ḥanbalite-athari saoudien, président du Comité
+      permanent pour la recherche scientifique et l'iftāʾ à
+      partir de 1971, président du Conseil des grands
+      savants, et Grand Muftī du Royaume d'Arabie saoudite
+      de 1414 H (1993 EC) jusqu'à sa mort — mourut à al-
+      Ṭāʾif le 27 Muḥarram 1420 H (13 mai 1999 EC) à l'âge
+      de 88 ans et fut enterré à La Mecque. Né à Riyad en
+      1330 H (1912 EC), il perdit la vue à l'adolescence,
+      étudia auprès de Muḥammad ibn Ibrāhīm Āl al-Shaykh
+      (le précédent Grand Muftī) et d'un cercle de savants
+      najdis, enseigna à l'Université islamique de Médine
+      (1961-1970, y compris un long mandat comme vice-
+      président puis président), et présida à partir de
+      1975 la Présidence générale pour la recherche
+      scientifique et l'iftāʾ. Ses recueils de fatwas et
+      ses articles (notamment *Majmūʿ Fatāwā wa-Maqālāt
+      Mutanawwiʿa* en une trentaine de volumes) et ses
+      leçons radiophoniques sur al-Bukhārī et *Bulūgh al-
+      Marām* circulèrent largement dans le monde sunnite
+      arabophone. Il reçut le Prix international du roi
+      Fayṣal pour le service de l'Islam en 1402 H
+      (1982 EC).
+    canonical_hijri: {year: 1420, month: 1, day: 27, precision: day}
+    canonical_gregorian: {date: 1999-05-13, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 supplement records death at al-Ṭāʾif on 27 Muḥarram 1420 / 13 May 1999."
+      - source_key: editorial
+        notes: "Burial at Mecca and tenure as Grand Muftī from 1993 attested in standard biographies and Saudi state records."
+    people: [[ibn-baz, died]]
+    tags: [modern, scholar, hanbali, athari, saudi-arabia, taif, mecca, mufti, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdul-Aziz_ibn_Baz"
+
+  - slug: death-of-ibn-uthaymin
+    category: scholar_death
+    title_en: Death of Muḥammad ibn Ṣāliḥ al-ʿUthaymīn — Saudi Muḥaddith-Faqīh of ʿUnayza
+    title_ar: وفاة الشيخ محمد بن صالح العثيمين — محدث وفقيه عنيزة بنجد
+    title_fr: Mort de Muḥammad ibn Ṣāliḥ al-ʿUthaymīn — muḥaddith-faqīh saoudien de ʿUnayza
+    description_en: |
+      Muḥammad ibn Ṣāliḥ ibn Muḥammad al-ʿUthaymīn —
+      Saudi Sunni Ḥanbalī jurist and muḥaddith of ʿUnayza
+      in al-Qaṣīm, longtime imām and khaṭīb of the Great
+      Mosque of ʿUnayza, professor at the Imām Muḥammad
+      ibn Saʿūd Islamic University branch in al-Qaṣīm, and
+      member of the Council of Senior Scholars from 1407
+      AH (1986 CE) — died at Jeddah on 15 Shawwāl 1421 AH
+      (11 January 2001 CE) at age 72, and was buried at
+      Mecca. Born at ʿUnayza in 1347 AH (1929 CE), he was
+      a senior pupil of ʿAbd al-Raḥmān ibn Saʿdī (author
+      of *Taysīr al-Karīm al-Raḥmān*) and a close
+      colleague of ʿAbd al-ʿAzīz ibn Bāz. His authored
+      *Sharḥ al-Mumtiʿ ʿalā Zād al-Mustaqniʿ* in fifteen
+      volumes is among the most widely circulated
+      contemporary Ḥanbalī fiqh commentaries; he also
+      authored *Sharḥ al-ʿAqīda al-Wāsiṭiyya*, *Sharḥ
+      Riyāḍ al-Ṣāliḥīn*, *Sharḥ Bulūgh al-Marām*, and an
+      extensive corpus of recorded lessons and fatwas.
+      He continued to teach into his final illness.
+    description_ar: |
+      توفي الشيخ محمد بن صالح بن محمد العثيمين — الفقيه
+      السني الحنبلي والمحدث ابن عنيزة من إقليم القصيم
+      بنجد، إمام وخطيب الجامع الكبير بعنيزة سنين طويلة،
+      أستاذ بفرع جامعة الإمام محمد بن سعود الإسلامية
+      بالقصيم، وعضو هيئة كبار العلماء منذ سنة ١٤٠٧ هـ
+      (١٩٨٦ ميلادي) — بجدة يوم ١٥ شوال سنة ١٤٢١ هـ
+      (الموافق ١١ جانفي ٢٠٠١ ميلادي) عن اثنتين وسبعين
+      سنة، ودفن بمكة المكرمة. ولد بعنيزة سنة ١٣٤٧ هـ
+      (١٩٢٩ ميلادي)، وكان من كبار تلامذة العلامة عبد
+      الرحمن بن سعدي صاحب «تيسير الكريم الرحمن»، ومن
+      ملازمي الشيخ عبد العزيز بن باز. ومن أكبر مصنفاته
+      «الشرح الممتع على زاد المستقنع» في خمسة عشر مجلداً
+      من أوسع شروح الفقه الحنبلي المعاصر تداولاً، كما
+      صنّف «شرح العقيدة الواسطية» و«شرح رياض الصالحين»
+      و«شرح بلوغ المرام»، وله مجموع كبير من الدروس
+      المسجّلة والفتاوى. ولم ينقطع عن التدريس إلى مرض
+      وفاته.
+    description_fr: |
+      Muḥammad ibn Ṣāliḥ ibn Muḥammad al-ʿUthaymīn —
+      juriste sunnite ḥanbalite et muḥaddith saoudien de
+      ʿUnayza dans la région d'al-Qaṣīm, longtemps imām
+      et khaṭīb de la Grande Mosquée de ʿUnayza,
+      professeur à l'antenne de l'Université islamique
+      Imām Muḥammad ibn Saʿūd à al-Qaṣīm et membre du
+      Conseil des grands savants à partir de 1407 H
+      (1986 EC) — mourut à Djeddah le 15 Shawwāl 1421 H
+      (11 janvier 2001 EC) à l'âge de 72 ans et fut
+      enterré à La Mecque. Né à ʿUnayza en 1347 H
+      (1929 EC), il fut un élève senior de ʿAbd al-
+      Raḥmān ibn Saʿdī (auteur de *Taysīr al-Karīm al-
+      Raḥmān*) et un proche collègue de ʿAbd al-ʿAzīz
+      ibn Bāz. Son *Sharḥ al-Mumtiʿ ʿalā Zād al-
+      Mustaqniʿ* en quinze volumes figure parmi les
+      commentaires de fiqh ḥanbalite contemporains les
+      plus largement diffusés; il rédigea aussi *Sharḥ
+      al-ʿAqīda al-Wāsiṭiyya*, *Sharḥ Riyāḍ al-Ṣāliḥīn*,
+      *Sharḥ Bulūgh al-Marām* et un vaste corpus de
+      leçons enregistrées et de fatwas. Il continua
+      d'enseigner jusqu'à sa dernière maladie.
+    canonical_hijri: {year: 1421, month: 10, day: 15, precision: day}
+    canonical_gregorian: {date: 2001-01-11, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 supplement records death in Jeddah on 15 Shawwāl 1421 / 11 January 2001."
+      - source_key: editorial
+        notes: "Burial at Mecca and Council of Senior Scholars membership from 1407 AH attested in standard biographies and Saudi institutional records."
+    people: [[ibn-uthaymin, died], [ibn-baz, subject]]
+    tags: [modern, scholar, hanbali, saudi-arabia, qasim, jeddah, mecca, muhaddith, twenty-first-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ibn_al_Uthaymeen"
+
+  # =========================================================================
+  # YEMENI MUḤADDITH MILIEU
+  # =========================================================================
+
+  - slug: death-of-muqbil-al-wadii
+    category: scholar_death
+    title_en: Death of Muqbil ibn Hādī al-Wādiʿī — Yemeni Muḥaddith of Damm āj
+    title_ar: وفاة الشيخ مقبل بن هادي الوادعي — محدث دماج باليمن
+    title_fr: Mort de Muqbil ibn Hādī al-Wādiʿī — muḥaddith yéménite de Damm āj
+    description_en: |
+      Muqbil ibn Hādī ibn Quflā al-Wādiʿī al-Hamdānī —
+      Yemeni Sunni muḥaddith of the Wādiʿa tribe in
+      northern Yemen, founder of the Dār al-Ḥadīth
+      seminary at Dammāj near Saʿda (1399 AH / 1979 CE),
+      and a doctoral graduate of the Islamic University of
+      Madīna in *ʿulūm al-ḥadīth* — died at a Jeddah
+      hospital on 1 Jumādā al-Ūlā 1422 AH (21 July 2001
+      CE) following treatment for liver disease, and was
+      buried at Mecca. He had studied at the Islamic
+      University of Madīna with ʿAbd al-ʿAzīz ibn Bāz and
+      Muḥammad Nāṣir al-Dīn al-Albānī, and was deported
+      from Madīna in 1979 in connection with the Juhaymān
+      al-ʿUtaybī affair, returning to Yemen where he
+      established the Dammāj seminary in his home village.
+      His works include *al-Jāmiʿ al-Ṣaḥīḥ mimmā laysa fī
+      al-Ṣaḥīḥayn*, *al-Ṣaḥīḥ al-Musnad min Asbāb al-
+      Nuzūl*, and *Iʿlām al-Anām bi-Khurūj al-Khawārij*.
+      He trained a generation of Sunni hadith students
+      from across the Arab world and the Yemeni diaspora.
+    description_ar: |
+      توفي الشيخ مقبل بن هادي بن قفلة الوادعي الهمداني —
+      المحدث السني اليمني من قبيلة وادعة بشمال اليمن،
+      مؤسس دار الحديث بدماج قرب صعدة سنة ١٣٩٩ هـ (١٩٧٩
+      ميلادي)، الحاصل على الدكتوراه من الجامعة الإسلامية
+      بالمدينة المنورة في علوم الحديث — بمستشفى بجدة
+      يوم غرة جمادى الأولى سنة ١٤٢٢ هـ (الموافق ٢١
+      جويلية ٢٠٠١ ميلادي) إثر علاج لمرض الكبد، ودفن
+      بمكة المكرمة. وكان قد درس بالجامعة الإسلامية
+      بالمدينة المنورة على الشيخ عبد العزيز بن باز
+      والشيخ محمد ناصر الدين الألباني، وأُبعد من
+      المدينة المنورة سنة ١٣٩٩ هـ (١٩٧٩ ميلادي) في
+      حادثة جهيمان العتيبي، ثم عاد إلى بلده اليمن وأسس
+      دار الحديث بدماج بقريته الأصلية. ومن مؤلفاته:
+      «الجامع الصحيح مما ليس في الصحيحين» و«الصحيح
+      المسند من أسباب النزول» و«إعلام الأنام بخروج
+      الخوارج». وقد ربى جيلاً من طلبة الحديث السنيين
+      من العالم العربي والشتات اليمني.
+    description_fr: |
+      Muqbil ibn Hādī ibn Quflā al-Wādiʿī al-Hamdānī —
+      muḥaddith sunnite yéménite de la tribu Wādiʿa du
+      nord du Yémen, fondateur du séminaire Dār al-Ḥadīth
+      à Dammāj près de Ṣaʿda (1399 H / 1979 EC), et
+      docteur de l'Université islamique de Médine en
+      sciences du hadith — mourut dans un hôpital de
+      Djeddah le 1 Jumādā al-Ūlā 1422 H (21 juillet 2001
+      EC) après un traitement pour une maladie du foie,
+      et fut enterré à La Mecque. Il avait étudié à
+      l'Université islamique de Médine auprès de ʿAbd
+      al-ʿAzīz ibn Bāz et de Muḥammad Nāṣir al-Dīn al-
+      Albānī, et fut expulsé de Médine en 1979 en
+      relation avec l'affaire de Juhaymān al-ʿUtaybī,
+      retournant au Yémen où il établit le séminaire de
+      Dammāj dans son village natal. Ses œuvres
+      comprennent *al-Jāmiʿ al-Ṣaḥīḥ mimmā laysa fī al-
+      Ṣaḥīḥayn*, *al-Ṣaḥīḥ al-Musnad min Asbāb al-Nuzūl*
+      et *Iʿlām al-Anām bi-Khurūj al-Khawārij*. Il forma
+      une génération d'étudiants sunnites en hadith
+      issus du monde arabe et de la diaspora yéménite.
+    canonical_hijri: {year: 1422, month: 5, day: 1, precision: day}
+    canonical_gregorian: {date: 2001-07-21, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 supplement records death in Jeddah on 1 Jumādā al-Ūlā 1422 / 21 July 2001."
+      - source_key: editorial
+        notes: "Founding of Dār al-Ḥadīth at Dammāj in 1979 and burial at Mecca attested in standard biographies and Yemeni Sunni biographical literature."
+    people: [[muqbil-al-wadii, died]]
+    tags: [modern, scholar, athari, yemen, dammaj, jeddah, mecca, muhaddith, twenty-first-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muqbil_bin_Hadi_al-Wadi%27i"
+
+  # =========================================================================
+  # ALEPPINE-MADINAN HANAFI MUḤADDITH TRADITION
+  # =========================================================================
+
+  - slug: death-of-abd-al-fattah-abu-ghudda
+    category: scholar_death
+    title_en: Death of ʿAbd al-Fattāḥ Abū Ghudda — Aleppine Hanafi Muḥaddith
+    title_ar: وفاة الشيخ عبد الفتاح أبو غدة — محدث حلب الحنفي
+    title_fr: Mort de ʿAbd al-Fattāḥ Abū Ghudda — muḥaddith ḥanafite alépin
+    description_en: |
+      ʿAbd al-Fattāḥ ibn Muḥammad Abū Ghudda al-Ḥalabī —
+      Syrian Sunni Hanafi muḥaddith of Aleppo, longtime
+      professor at the College of Sharīʿa of Damascus
+      University and at the Imām Muḥammad ibn Saʿūd
+      Islamic University in Riyadh, and one of the
+      foremost twentieth-century editors of classical
+      Sunni hadith and *muṣṭalaḥ* texts — died at Riyadh
+      on 16 Shawwāl 1417 AH (24 February 1997 CE) at age
+      80, and was buried at the al-Baqīʿ cemetery in
+      Madīna at his explicit request. Born at Aleppo in
+      1336 AH (1917 CE), he graduated from al-Azhar in
+      *uṣūl al-dīn*, returned to Aleppo to teach, and
+      from the 1960s settled in Saudi Arabia where he
+      taught for over two decades. His scholarly editions
+      include the *Risāla* of Imām al-Sakhāwī, al-
+      Lakhnawī's *al-Rafʿ wa-l-Takmīl*, *al-Ajwiba al-
+      Fāḍila* of al-Lakhnawī, ʿAbd al-Ḥayy al-Lakhnawī's
+      *Ẓafar al-Amānī*, and dozens of other classical
+      Hanafi-hadith works. He was a senior representative
+      of the Aleppine Hanafi-Naqshbandī scholarly tradition
+      and a teacher of muḥaddithūn across the Arab world.
+    description_ar: |
+      توفي الشيخ عبد الفتاح بن محمد أبو غدة الحلبي —
+      المحدث السني الحنفي السوري ابن حلب، أستاذ كلية
+      الشريعة بجامعة دمشق سنين طويلة وبجامعة الإمام
+      محمد بن سعود الإسلامية بالرياض، ومن أكبر محققي
+      كتب الحديث ومصطلحه السنية الكلاسيكية في القرن
+      العشرين الميلادي — بالرياض يوم ١٦ شوال سنة
+      ١٤١٧ هـ (الموافق ٢٤ فيفري ١٩٩٧ ميلادي) عن ثمانين
+      سنة، ودفن بمقبرة البقيع بالمدينة المنورة بناءً
+      على وصيته. ولد بحلب سنة ١٣٣٦ هـ (١٩١٧ ميلادي)،
+      وتخرج من الأزهر الشريف في أصول الدين، وعاد إلى
+      حلب للتدريس، ثم استقر في المملكة العربية السعودية
+      منذ ستينات القرن العشرين الميلادي ودرّس بها أكثر
+      من عقدين. ومن تحقيقاته: «الرسالة» للإمام السخاوي،
+      و«الرفع والتكميل» للكنوي، و«الأجوبة الفاضلة»
+      للكنوي، و«ظفر الأماني» لعبد الحي اللكنوي، وعشرات
+      من كتب الحديث السنية الحنفية الكلاسيكية. وكان من
+      كبار ممثلي مدرسة الحلبيين الحنفية النقشبندية،
+      وأستاذاً للمحدثين في العالم العربي.
+    description_fr: |
+      ʿAbd al-Fattāḥ ibn Muḥammad Abū Ghudda al-Ḥalabī —
+      muḥaddith sunnite ḥanafite syrien d'Alep,
+      longtemps professeur à la Faculté de Sharīʿa de
+      l'Université de Damas et à l'Université islamique
+      Imām Muḥammad ibn Saʿūd à Riyad, et l'un des plus
+      grands éditeurs de textes classiques sunnites de
+      hadith et de *muṣṭalaḥ* du XXe siècle — mourut à
+      Riyad le 16 Shawwāl 1417 H (24 février 1997 EC) à
+      l'âge de 80 ans et fut enterré au cimetière al-
+      Baqīʿ à Médine selon son testament explicite. Né
+      à Alep en 1336 H (1917 EC), il fut diplômé d'al-
+      Azhar en *uṣūl al-dīn*, retourna enseigner à Alep,
+      puis s'installa en Arabie saoudite à partir des
+      années 1960 où il enseigna durant plus de deux
+      décennies. Ses éditions érudites comprennent la
+      *Risāla* de l'Imām al-Sakhāwī, *al-Rafʿ wa-l-
+      Takmīl* d'al-Lakhnawī, *al-Ajwiba al-Fāḍila* d'al-
+      Lakhnawī, *Ẓafar al-Amānī* de ʿAbd al-Ḥayy al-
+      Lakhnawī, et des dizaines d'autres ouvrages
+      classiques ḥanafites de hadith. Il fut un
+      représentant senior de la tradition savante
+      ḥanafite-naqshbandīe d'Alep et un maître pour les
+      muḥaddithūn du monde arabe.
+    canonical_hijri: {year: 1417, month: 10, day: 16, precision: day}
+    canonical_gregorian: {date: 1997-02-24, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 supplement records death in Riyadh on 16 Shawwāl 1417 / 24 February 1997."
+      - source_key: editorial
+        notes: "Burial at al-Baqīʿ in Madīna and corpus of classical Hanafi hadith editions attested in standard biographies and obituaries in Arabic Sunni press of 1997."
+    people: [[abd-al-fattah-abu-ghudda, died]]
+    tags: [modern, scholar, hanafi, syria, aleppo, riyadh, madina, muhaddith, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdul_Fattah_Abu_Ghuddah"
+
+  # =========================================================================
+  # MECCAN-MADINAN MĀLIKĪ SAYYID TRADITION
+  # =========================================================================
+
+  - slug: death-of-muhammad-alawi-al-maliki
+    category: scholar_death
+    title_en: Death of al-Sayyid Muḥammad ibn ʿAlawī al-Mālikī al-Ḥasanī — Meccan Mālikī Sayyid Scholar
+    title_ar: وفاة السيد محمد بن علوي المالكي الحسني — العالم المكي المالكي السيد
+    title_fr: Mort d'al-Sayyid Muḥammad ibn ʿAlawī al-Mālikī al-Ḥasanī — savant mālikite-sayyid mecquois
+    description_en: |
+      al-Sayyid Muḥammad ibn ʿAlawī ibn ʿAbbās al-Mālikī
+      al-Ḥasanī — Meccan Sunni Mālikī jurist and
+      muḥaddith of Hashemite Hasanī sayyid descent,
+      longtime teacher in the Sacred Mosque of Mecca
+      where his father al-Sayyid ʿAlawī had taught before
+      him, and one of the foremost twentieth-century
+      representatives of the Ḥaramayn traditional
+      scholarly milieu — died at Mecca on 15 Ramaḍān
+      1425 AH (29 October 2004 CE) at age 60, and was
+      buried at the al-Maʿlā cemetery in Mecca near his
+      ancestors. Born at Mecca in 1365 AH (1944 CE), he
+      held a doctorate from al-Azhar (1971), taught at
+      Umm al-Qurā University in Mecca, and authored a
+      large corpus of works on hadith, tafsīr, sīra, and
+      ʿaqīda within the broader Sunni-traditional and
+      Ḥaramayn-tariqa milieu — including *Mafāhīm yajib
+      an Tuṣaḥḥaḥ*, *al-Anwār al-Bāhiyya min Isrāʾ wa-
+      Miʿrāj*, and a multi-volume *Sharḥ Sīrat Ibn
+      Hishām*. His funeral was led at the Sacred Mosque
+      and drew vast crowds across the Sunni traditional
+      world.
+    description_ar: |
+      توفي السيد محمد بن علوي بن عباس المالكي الحسني —
+      الفقيه السني المالكي والمحدث ابن مكة المكرمة من
+      آل بيت النبي ﷺ من فرع السادة الحسنيين، أستاذ
+      الحرم المكي الشريف سنين طويلة على عقب والده
+      السيد علوي، ومن أبرز ممثلي مدرسة الحرمين
+      التراثية في القرن العشرين الميلادي — بمكة المكرمة
+      يوم ١٥ رمضان سنة ١٤٢٥ هـ (الموافق ٢٩ أكتوبر
+      ٢٠٠٤ ميلادي) عن ستين سنة، ودفن بمقبرة المعلاة
+      بمكة قرب أسلافه. ولد بمكة المكرمة سنة ١٣٦٥ هـ
+      (١٩٤٤ ميلادي)، وحاز الدكتوراه من الأزهر الشريف
+      سنة ١٣٩١ هـ (١٩٧١ ميلادي)، ودرّس بجامعة أم
+      القرى بمكة المكرمة، وله مجموع كبير من المؤلفات
+      في الحديث والتفسير والسيرة والعقيدة في مدرسة
+      الحرمين السنية التراثية، منها: «مفاهيم يجب أن
+      تصحح» و«الأنوار البهية من إسراء ومعراج خير
+      البرية» و«شرح سيرة ابن هشام» في عدة مجلدات.
+      وصُلي عليه بالحرم المكي الشريف، وحضر جنازته
+      جموع غفيرة من العالم السني التراثي.
+    description_fr: |
+      al-Sayyid Muḥammad ibn ʿAlawī ibn ʿAbbās al-Mālikī
+      al-Ḥasanī — juriste sunnite mālikite et muḥaddith
+      mecquois de descendance hachémite ḥasanīe-sayyid,
+      longtemps enseignant à la Mosquée sacrée de La
+      Mecque où son père al-Sayyid ʿAlawī avait enseigné
+      avant lui, et l'un des plus éminents représentants
+      du XXe siècle du milieu savant traditionnel des
+      Ḥaramayn — mourut à La Mecque le 15 Ramaḍān
+      1425 H (29 octobre 2004 EC) à l'âge de 60 ans et
+      fut enterré au cimetière al-Maʿlā à La Mecque
+      auprès de ses ancêtres. Né à La Mecque en 1365 H
+      (1944 EC), il était docteur d'al-Azhar (1971),
+      enseigna à l'Université Umm al-Qurā à La Mecque,
+      et rédigea un vaste corpus d'œuvres sur le hadith,
+      le tafsīr, la sīra et la ʿaqīda dans le milieu
+      sunnite traditionnel des Ḥaramayn — notamment
+      *Mafāhīm yajib an Tuṣaḥḥaḥ*, *al-Anwār al-
+      Bāhiyya min Isrāʾ wa-Miʿrāj* et un *Sharḥ Sīrat
+      Ibn Hishām* en plusieurs volumes. Ses funérailles
+      furent célébrées à la Mosquée sacrée et
+      réunirent des foules immenses à travers le
+      monde sunnite traditionnel.
+    canonical_hijri: {year: 1425, month: 9, day: 15, precision: day}
+    canonical_gregorian: {date: 2004-10-29, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI3 supplement records death at Mecca on 15 Ramaḍān 1425 / 29 October 2004."
+      - source_key: editorial
+        notes: "Burial at al-Maʿlā cemetery in Mecca and Hasanī sayyid descent attested in standard biographies and Saudi obituaries of 2004."
+    people: [[muhammad-alawi-al-maliki, died]]
+    tags: [modern, scholar, maliki, ahl-al-bayt, sayyid, saudi-arabia, mecca, muhaddith, twenty-first-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ibn_Alawi_al-Maliki"
+
+  # =========================================================================
+  # MOROCCAN MĀLIKĪ MUḤADDITH TRADITION
+  # =========================================================================
+
+  - slug: death-of-abd-allah-al-ghumari
+    category: scholar_death
+    title_en: Death of ʿAbd Allāh ibn al-Ṣiddīq al-Ghumārī — Moroccan Mālikī Muḥaddith of Tangier
+    title_ar: وفاة الشيخ عبد الله بن الصديق الغماري — محدث طنجة المالكي المغربي
+    title_fr: Mort de ʿAbd Allāh ibn al-Ṣiddīq al-Ghumārī — muḥaddith mālikite marocain de Tanger
+    description_en: |
+      ʿAbd Allāh ibn Muḥammad ibn al-Ṣiddīq al-Ghumārī
+      al-Ḥasanī — Moroccan Sunni Mālikī muḥaddith of the
+      Ghumāra Berber region of northern Morocco, head of
+      the family-Sufi Ṣiddīqiyya tradition centred at
+      Tangier after the deaths of his elder brothers
+      Aḥmad and ʿAbd al-ʿAzīz, doctoral graduate of al-
+      Azhar (1942) and pupil of Muḥammad Bakhīt al-Muṭīʿī
+      and Muḥammad Zāhid al-Kawtharī — died at Tangier
+      on 19 Shaʿbān 1413 AH (12 February 1993 CE) at age
+      83. Born at Tangier in 1328 AH (1910 CE) into the
+      learned Ghumārī family, he authored more than
+      one hundred works on hadith, *muṣṭalaḥ*, fiqh, and
+      *ʿaqīda* — including *al-Iʿlām bi-Anna al-Tasawwuf
+      min Sharīʿat al-Islām*, *al-Burhān al-Jalī fī
+      Taḥqīq Intisāb al-Ṣūfiyya ilā ʿAlī*, his commentary
+      on al-Suyūṭī's *al-Itqān*, and his *Risāla fī
+      Aḥkām al-Aḍāhī*. He was also a frequent
+      correspondent with the leading muḥaddithūn of
+      Egypt, Syria, and the Hijaz, and was awarded the
+      Moroccan Wisām al-Kafāʾa min al-Darja al-Mumtāza
+      shortly before his death.
+    description_ar: |
+      توفي الشيخ عبد الله بن محمد بن الصديق الغماري
+      الحسني — المحدث السني المالكي المغربي من بلاد
+      غمارة شمال المغرب، شيخ الطريقة الصديقية الأسرية
+      الصوفية بطنجة بعد وفاة أخويه الأكبرين أحمد وعبد
+      العزيز، الحاصل على الدكتوراه من الأزهر الشريف
+      سنة ١٣٦١ هـ (١٩٤٢ ميلادي)، تلميذ الشيخ محمد
+      بخيت المطيعي والشيخ محمد زاهد الكوثري — بطنجة
+      يوم ١٩ شعبان سنة ١٤١٣ هـ (الموافق ١٢ فيفري
+      ١٩٩٣ ميلادي) عن ثلاث وثمانين سنة. ولد بطنجة
+      سنة ١٣٢٨ هـ (١٩١٠ ميلادي) في الأسرة الغمارية
+      العلمية، وله ما يزيد على مائة مصنف في الحديث
+      ومصطلحه والفقه والعقيدة، منها: «الإعلام بأن
+      التصوف من شريعة الإسلام» و«البرهان الجلي في
+      تحقيق انتساب الصوفية إلى علي» وحاشيته على
+      «الإتقان» للسيوطي و«رسالة في أحكام الأضاحي».
+      وكان مكاتباً مع كبار محدثي مصر والشام والحجاز
+      في عصره، ومُنح وسام الكفاءة المغربي من الدرجة
+      الممتازة قبيل وفاته.
+    description_fr: |
+      ʿAbd Allāh ibn Muḥammad ibn al-Ṣiddīq al-Ghumārī
+      al-Ḥasanī — muḥaddith sunnite mālikite marocain
+      de la région berbère ghumāra du nord du Maroc,
+      chef de la tradition familiale-soufie ṣiddīqīe
+      centrée à Tanger après la mort de ses frères
+      aînés Aḥmad et ʿAbd al-ʿAzīz, docteur d'al-Azhar
+      (1942) et élève de Muḥammad Bakhīt al-Muṭīʿī et
+      Muḥammad Zāhid al-Kawtharī — mourut à Tanger le
+      19 Shaʿbān 1413 H (12 février 1993 EC) à l'âge
+      de 83 ans. Né à Tanger en 1328 H (1910 EC) dans
+      la famille savante des Ghumārī, il rédigea plus
+      d'une centaine d'ouvrages sur le hadith, le
+      *muṣṭalaḥ*, le fiqh et la *ʿaqīda* — notamment
+      *al-Iʿlām bi-Anna al-Tasawwuf min Sharīʿat al-
+      Islām*, *al-Burhān al-Jalī fī Taḥqīq Intisāb
+      al-Ṣūfiyya ilā ʿAlī*, son commentaire d'al-
+      Suyūṭī *al-Itqān* et sa *Risāla fī Aḥkām al-
+      Aḍāhī*. Il fut aussi un correspondant régulier
+      des grands muḥaddithūn d'Égypte, de Syrie et du
+      Hedjaz et reçut le Wisām al-Kafāʾa marocain de
+      première classe peu avant sa mort.
+    canonical_hijri: {year: 1413, month: 8, day: 19, precision: day}
+    canonical_gregorian: {date: 1993-02-12, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 supplement records death at Tangier on 19 Shaʿbān 1413 / 12 February 1993."
+      - source_key: editorial
+        notes: "Tangier residence, the Ghumārī family's Ṣiddīqiyya succession after his elder brothers, and award of Wisām al-Kafāʾa attested in Moroccan biographical and press sources of 1993."
+    people: [[abd-allah-al-ghumari, died]]
+    tags: [modern, scholar, maliki, sufi, morocco, tangier, muhaddith, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%A8%D9%86_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_%D8%A7%D9%84%D8%BA%D9%85%D8%A7%D8%B1%D9%8A"
+
+  # =========================================================================
+  # EGYPTIAN AZHARĪ MUFASSIR TRADITION
+  # =========================================================================
+
+  - slug: death-of-mitwalli-al-sharawi
+    category: scholar_death
+    title_en: Death of Muḥammad Mitwallī al-Shaʿrāwī — Egyptian Azharī Mufassir
+    title_ar: وفاة الإمام محمد متولي الشعراوي — مفسر الأزهر المصري
+    title_fr: Mort de Muḥammad Mitwallī al-Shaʿrāwī — mufassir azharī égyptien
+    description_en: |
+      Muḥammad Mitwallī al-Shaʿrāwī — Egyptian Sunni
+      Ashʿarī Azharī mufassir of Daqādūs in al-Daqahliyya,
+      former Minister of Awqāf of Egypt (1976-1978),
+      member of the Council of Senior Scholars of al-
+      Azhar, and the most widely viewed twentieth-century
+      Arabic-language television exegete of the Qurʾan —
+      died at Cairo on 22 Ṣafar 1419 AH (17 June 1998
+      CE) at age 86, and was buried at his home village
+      of Daqādūs. Born in 1329 AH (1911 CE), he
+      graduated from al-Azhar (1941), taught in Saudi
+      Arabia and Algeria during the 1950s and 1960s, and
+      from 1973 became famous through his weekly
+      Egyptian-television *Khawāṭir Ḥawl al-Qurʾān al-
+      Karīm* programme, transcribed and published in
+      twenty-eight volumes as *Tafsīr al-Shaʿrāwī*. He
+      received the King Faisal International Prize for
+      Service to Islam in 1419 AH (1998 CE) months
+      before his death. His Egyptian-Arabic exegetical
+      style and his oral *bayān* of the Qurʾan made him
+      a household reference across the Arabic-speaking
+      Sunni world.
+    description_ar: |
+      توفي الإمام محمد متولي الشعراوي — المفسر السني
+      الأشعري الأزهري المصري ابن دقادوس بمحافظة
+      الدقهلية، وزير الأوقاف بمصر (سنة ١٣٩٦-١٣٩٨ هـ /
+      ١٩٧٦-١٩٧٨ ميلادي)، وعضو هيئة كبار العلماء
+      بالأزهر الشريف، ومن أوسع المفسرين تأثيراً عبر
+      التلفزيون باللغة العربية في القرن العشرين
+      الميلادي — بالقاهرة يوم ٢٢ صفر سنة ١٤١٩ هـ
+      (الموافق ١٧ جوان ١٩٩٨ ميلادي) عن ست وثمانين
+      سنة، ودفن بقريته دقادوس. ولد سنة ١٣٢٩ هـ
+      (١٩١١ ميلادي)، وتخرج من الأزهر الشريف سنة
+      ١٣٦٠ هـ (١٩٤١ ميلادي)، ودرّس في المملكة
+      العربية السعودية والجزائر في خمسينات وستينات
+      القرن العشرين الميلادي، واشتهر منذ سنة
+      ١٣٩٣ هـ (١٩٧٣ ميلادي) ببرنامجه التلفزيوني
+      الأسبوعي «خواطر حول القرآن الكريم»، الذي طُبع
+      بعد ذلك في ثمانية وعشرين مجلداً باسم «تفسير
+      الشعراوي». ومُنح جائزة الملك فيصل العالمية
+      لخدمة الإسلام سنة ١٤١٩ هـ (١٩٩٨ ميلادي)
+      قبل وفاته بأشهر. وأسلوبه التفسيري بالعامية
+      المصرية وبيانه الشفوي للقرآن الكريم جعلا
+      منه مرجعاً معروفاً في العالم السني الناطق
+      بالعربية.
+    description_fr: |
+      Muḥammad Mitwallī al-Shaʿrāwī — mufassir sunnite
+      ashʿarite azharī égyptien de Daqādūs dans la
+      province d'al-Daqahliyya, ancien ministre des
+      Awqāf d'Égypte (1976-1978), membre du Conseil
+      des grands savants d'al-Azhar, et le plus
+      largement suivi des exégètes coraniques
+      arabophones du XXe siècle à la télévision —
+      mourut au Caire le 22 Ṣafar 1419 H (17 juin
+      1998 EC) à l'âge de 86 ans et fut enterré dans
+      son village natal de Daqādūs. Né en 1329 H
+      (1911 EC), il fut diplômé d'al-Azhar (1941),
+      enseigna en Arabie saoudite et en Algérie dans
+      les années 1950 et 1960, et devint célèbre à
+      partir de 1973 grâce à son émission télévisée
+      hebdomadaire égyptienne *Khawāṭir Ḥawl al-
+      Qurʾān al-Karīm*, transcrite et publiée en
+      vingt-huit volumes sous le titre *Tafsīr al-
+      Shaʿrāwī*. Il reçut le Prix international du
+      roi Fayṣal pour le service de l'Islam en
+      1419 H (1998 EC) quelques mois avant sa mort.
+      Son style exégétique en arabe dialectal
+      égyptien et son *bayān* oral du Coran firent
+      de lui une référence familière dans le monde
+      sunnite arabophone.
+    canonical_hijri: {year: 1419, month: 2, day: 22, precision: day}
+    canonical_gregorian: {date: 1998-06-17, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 supplement records death at Cairo on 22 Ṣafar 1419 / 17 June 1998."
+      - source_key: editorial
+        notes: "Egyptian Ministry of Awqāf tenure 1976-1978, *Khawāṭir* television programme, and burial at Daqādūs attested in Egyptian press of 1998 and standard biographies."
+    people: [[mitwalli-al-sharawi, died]]
+    tags: [modern, scholar, ashari, azhar, egypt, cairo, daqahliyya, mufassir, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mohamed_Metwalli_Al_Shaarawi"
+
+  - slug: death-of-muhammad-najib-al-mutii
+    category: scholar_death
+    title_en: Death of Muḥammad Najīb al-Muṭīʿī — Egyptian Shāfiʿī Faqīh and Completer of *al-Majmūʿ*
+    title_ar: وفاة الشيخ محمد نجيب المطيعي — الفقيه الشافعي المصري ومتمم «المجموع»
+    title_fr: Mort de Muḥammad Najīb al-Muṭīʿī — faqīh shāfiʿite égyptien et achever du *Majmūʿ*
+    description_en: |
+      Muḥammad Najīb al-Muṭīʿī — Egyptian Sunni Shāfiʿī
+      jurist and Azharī scholar of Cairo, longtime
+      teacher in the religious institutes of al-Azhar
+      and member of the post-1920s Shāfiʿī revivalist
+      circle in Egypt, best known as the completer of
+      the unfinished sections of al-Imām al-Nawawī's
+      *al-Majmūʿ Sharḥ al-Muhadhdhab* — died at Cairo
+      in 1414 AH (1994 CE) at an advanced age. His
+      *Takmilat al-Majmūʿ* extended al-Nawawī's
+      thirteenth-century commentary, which had stopped
+      mid-way through *Kitāb al-Buyūʿ*, through the
+      remaining chapters of the *Muhadhdhab* of al-
+      Shīrāzī to its end, drawing on the comparative
+      Shāfiʿī jurisprudential tradition (Ibn al-Ṣalāḥ,
+      Ibn al-Rifʿa, al-Subkī, al-Suyūṭī, al-Ramlī, Ibn
+      Ḥajar al-Haythamī) and on contemporary
+      jurisprudential discussion. His completion is the
+      standard reference text for the second half of
+      the *Majmūʿ* in modern editions and remains in
+      use in Sunni Shāfiʿī teaching circles in Egypt,
+      Yemen, the Hijaz, and Southeast Asia.
+    description_ar: |
+      توفي الشيخ محمد نجيب المطيعي — الفقيه السني
+      الشافعي والعالم الأزهري المصري ابن القاهرة،
+      أستاذ المعاهد الدينية الأزهرية سنين طويلة، ومن
+      حلقة الإحياء الشافعي بمصر بعد عشرينات القرن
+      العشرين الميلادي، اشتهر بإكمال «المجموع شرح
+      المهذب» للإمام النووي — بالقاهرة سنة ١٤١٤ هـ
+      (الموافق ١٩٩٤ ميلادي) عن عمر طويل. واستكمل
+      «تكملته» شرح الإمام النووي السبع قروني الذي
+      توقف في نصف «كتاب البيوع»، وأتم بقية أبواب
+      «المهذب» للشيرازي إلى آخره، يستفيد من تراث
+      الفقه الشافعي المقارن (ابن الصلاح وابن الرفعة
+      والسبكي والسيوطي والرملي وابن حجر الهيتمي) ومن
+      المسائل الفقهية المعاصرة. وتكملته هي المرجع
+      المعتمد في النصف الثاني من «المجموع» في
+      الطبعات الحديثة، ولا تزال متداولة في حلقات
+      الفقه الشافعي السنية بمصر واليمن والحجاز
+      وجنوب شرق آسيا.
+    description_fr: |
+      Muḥammad Najīb al-Muṭīʿī — juriste sunnite
+      shāfiʿite et savant azharī égyptien du Caire,
+      longtemps enseignant aux instituts religieux
+      d'al-Azhar et membre du cercle de réveil
+      shāfiʿite en Égypte après les années 1920,
+      surtout connu pour avoir achevé les sections
+      inachevées du *al-Majmūʿ Sharḥ al-Muhadhdhab*
+      de l'Imām al-Nawawī — mourut au Caire en
+      1414 H (1994 EC) à un âge avancé. Sa
+      *Takmilat al-Majmūʿ* prolongea le commentaire
+      d'al-Nawawī du XIIIe siècle, interrompu au
+      milieu du *Kitāb al-Buyūʿ*, jusqu'aux chapitres
+      restants du *Muhadhdhab* d'al-Shīrāzī, en
+      s'appuyant sur la tradition jurisprudentielle
+      shāfiʿite comparée (Ibn al-Ṣalāḥ, Ibn al-Rifʿa,
+      al-Subkī, al-Suyūṭī, al-Ramlī, Ibn Ḥajar al-
+      Haythamī) et sur les discussions
+      jurisprudentielles contemporaines. Son
+      complément est le texte de référence pour la
+      seconde moitié du *Majmūʿ* dans les éditions
+      modernes et demeure en usage dans les cercles
+      d'enseignement shāfiʿite sunnite en Égypte, au
+      Yémen, au Hedjaz et en Asie du Sud-Est.
+    canonical_hijri: {year: 1414, precision: year}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death in Cairo in 1414 AH / 1994 CE attested in modern Shāfiʿī biographical references; precise day not consistently reported across sources, so year-precision is used."
+    people: [[muhammad-najib-al-mutii, died]]
+    tags: [modern, scholar, shafii, egypt, cairo, azhar, faqih, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D9%86%D8%AC%D9%8A%D8%A8_%D8%A7%D9%84%D9%85%D8%B7%D9%8A%D8%B9%D9%8A"
+
+  # =========================================================================
+  # MAURITANIAN-SAUDI MĀLIKĪ MUFASSIR TRADITION
+  # =========================================================================
+
+  - slug: death-of-muhammad-amin-al-shinqiti
+    category: scholar_death
+    title_en: Death of Muḥammad al-Amīn al-Shinqīṭī — Mauritanian Mālikī Mufassir of *Aḍwāʾ al-Bayān*
+    title_ar: وفاة الشيخ محمد الأمين الشنقيطي — المفسر المالكي الموريتاني صاحب «أضواء البيان»
+    title_fr: Mort de Muḥammad al-Amīn al-Shinqīṭī — mufassir mālikite mauritanien de *Aḍwāʾ al-Bayān*
+    description_en: |
+      Muḥammad al-Amīn ibn Muḥammad al-Mukhtār al-Jaknī
+      al-Shinqīṭī — Mauritanian Sunni Mālikī mufassir,
+      faqīh, and uṣūlī of the Jakanī branch of the
+      Shinqīṭī scholarly tradition, longtime professor
+      at the Islamic University of Madīna (1381-1393 AH
+      / 1961-1973 CE) and member of the Council of
+      Senior Scholars of Saudi Arabia from its inaugural
+      session in 1391 AH (1971 CE) — died at Mecca on
+      22 Dhū al-Qaʿda 1393 AH (17 December 1973 CE) at
+      age 76, having travelled to Mecca for the Ḥajj
+      season. He was buried at the al-Maʿlā cemetery in
+      Mecca. Born in the Mauritanian Sahara around
+      1325 AH (1907 CE) into a Berber-Mauritanian
+      family of Mālikī jurists, he migrated to the
+      Hijaz in 1367 AH (1947 CE). His magnum opus
+      *Aḍwāʾ al-Bayān fī Īḍāḥ al-Qurʾān bi-l-Qurʾān*
+      in seven volumes — a Qurʾan-by-Qurʾan tafsīr
+      compiled at Madīna — is among the foremost
+      twentieth-century Sunni mufassir works and
+      remains a standard reference in Saudi and Arab
+      Sunni teaching circles. His student ʿAṭiyya
+      Sālim completed the final volume after his death.
+    description_ar: |
+      توفي الشيخ محمد الأمين بن محمد المختار الجكني
+      الشنقيطي — المفسر السني المالكي الموريتاني
+      الفقيه الأصولي من فرع الجكنيين بالمحظرة
+      الشنقيطية، أستاذ الجامعة الإسلامية بالمدينة
+      المنورة (سنة ١٣٨١-١٣٩٣ هـ / ١٩٦١-١٩٧٣ ميلادي)،
+      وعضو هيئة كبار العلماء بالمملكة العربية
+      السعودية في دورتها الافتتاحية سنة ١٣٩١ هـ
+      (١٩٧١ ميلادي) — بمكة المكرمة يوم ٢٢ ذي القعدة
+      سنة ١٣٩٣ هـ (الموافق ١٧ ديسمبر ١٩٧٣ ميلادي)
+      عن ست وسبعين سنة، وكان قد قدم مكة لموسم الحج،
+      ودفن بمقبرة المعلاة بمكة. ولد بصحراء
+      موريتانيا نحو سنة ١٣٢٥ هـ (١٩٠٧ ميلادي) في
+      أسرة بربرية موريتانية من فقهاء المالكية،
+      وهاجر إلى الحجاز سنة ١٣٦٧ هـ (١٩٤٧ ميلادي).
+      وأكبر مؤلفاته «أضواء البيان في إيضاح القرآن
+      بالقرآن» في سبعة مجلدات تفسير القرآن
+      بالقرآن جمعه بالمدينة المنورة، وهو من أبرز
+      كتب التفسير السنية في القرن العشرين الميلادي
+      وما يزال مرجعاً معتمداً في حلقات التدريس
+      السنية بالمملكة العربية السعودية والعالم
+      العربي. وقد أتم تلميذه عطية سالم المجلد
+      الأخير بعد وفاته.
+    description_fr: |
+      Muḥammad al-Amīn ibn Muḥammad al-Mukhtār al-
+      Jaknī al-Shinqīṭī — mufassir, faqīh et uṣūlī
+      sunnite mālikite mauritanien de la branche
+      jaknīe de la tradition savante shinqīṭīe,
+      longtemps professeur à l'Université islamique
+      de Médine (1381-1393 H / 1961-1973 EC) et
+      membre du Conseil des grands savants d'Arabie
+      saoudite dès sa session inaugurale en 1391 H
+      (1971 EC) — mourut à La Mecque le 22 Dhū al-
+      Qaʿda 1393 H (17 décembre 1973 EC) à l'âge de
+      76 ans, étant venu à La Mecque pour la saison
+      du Ḥajj. Il fut enterré au cimetière al-Maʿlā
+      à La Mecque. Né dans le Sahara mauritanien
+      vers 1325 H (1907 EC) dans une famille
+      berbère-mauritanienne de juristes mālikites,
+      il émigra au Hedjaz en 1367 H (1947 EC). Son
+      œuvre majeure *Aḍwāʾ al-Bayān fī Īḍāḥ al-
+      Qurʾān bi-l-Qurʾān* en sept volumes — un
+      tafsīr du Coran par le Coran compilé à
+      Médine — figure parmi les plus grandes œuvres
+      mufassir sunnites du XXe siècle et demeure une
+      référence standard dans les cercles
+      d'enseignement sunnite saoudiens et arabes.
+      Son élève ʿAṭiyya Sālim acheva le dernier
+      volume après sa mort.
+    canonical_hijri: {year: 1393, month: 11, day: 22, precision: day}
+    canonical_gregorian: {date: 1973-12-17, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 supplement records death at Mecca on 22 Dhū al-Qaʿda 1393 / 17 December 1973."
+      - source_key: editorial
+        notes: "Inaugural Council of Senior Scholars membership 1971, Islamic University of Madīna teaching career, and burial at al-Maʿlā attested in standard biographies."
+    people: [[muhammad-amin-al-shinqiti, died]]
+    tags: [modern, scholar, maliki, mauritania, saudi-arabia, mecca, madina, mufassir, usuli, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_al-Amin_al-Shinqiti"
+
+  # =========================================================================
+  # SYRIAN-JORDANIAN HANAFI JURISPRUDENCE TRADITION
+  # =========================================================================
+
+  - slug: death-of-mustafa-al-zarqa
+    category: scholar_death
+    title_en: Death of Muṣṭafā al-Zarqāʾ — Syrian Hanafi Jurist of *al-Madkhal al-Fiqhī al-ʿĀmm*
+    title_ar: وفاة الشيخ مصطفى الزرقا — الفقيه الحنفي السوري صاحب «المدخل الفقهي العام»
+    title_fr: Mort de Muṣṭafā al-Zarqāʾ — juriste ḥanafite syrien du *Madkhal al-Fiqhī al-ʿĀmm*
+    description_en: |
+      Muṣṭafā Aḥmad al-Zarqāʾ — Syrian Sunni Hanafi
+      jurist of Aleppo and one of the foremost twentieth-
+      century theorists of Islamic legal codification,
+      longtime professor at the Faculties of Sharīʿa and
+      Law of Damascus University, professor at the
+      College of Sharīʿa of the University of Jordan
+      (from 1966), and at Imām Muḥammad ibn Saʿūd
+      Islamic University in Riyadh — died at Riyadh on
+      19 Rabīʿ al-Awwal 1420 AH (3 July 1999 CE) at age
+      95, and was buried at Amman in Jordan. Born at
+      Aleppo in 1322 AH (1904 CE) into the Hanafi
+      scholarly Zarqāʾ family, he was the son of Aḥmad
+      al-Zarqāʾ (author of *Sharḥ al-Qawāʿid al-
+      Fiqhiyya*). His magnum opus *al-Madkhal al-Fiqhī
+      al-ʿĀmm ilā al-Fiqh al-Islāmī fī Thawbihi al-
+      Jadīd* in three volumes, *Sharḥ al-Qawāʿid al-
+      Fiqhiyya* (in continuation of his father), and
+      his *Fatāwā* are among the most widely circulated
+      modern Sunni Hanafi jurisprudence references in
+      the Arabic-speaking world. He was a member of
+      the Damascus Arab Academy of Sciences, the OIC
+      International Islamic Fiqh Academy in Jeddah, and
+      received the King Faisal International Prize for
+      Service to Islam in 1404 AH (1984 CE).
+    description_ar: |
+      توفي الشيخ مصطفى أحمد الزرقا — الفقيه السني
+      الحنفي السوري ابن حلب، ومن أبرز منظري التقنين
+      الإسلامي في القرن العشرين الميلادي، أستاذ
+      كليتي الشريعة والحقوق بجامعة دمشق سنين طويلة،
+      وأستاذ كلية الشريعة بالجامعة الأردنية منذ سنة
+      ١٣٨٦ هـ (١٩٦٦ ميلادي)، وأستاذ جامعة الإمام
+      محمد بن سعود الإسلامية بالرياض — بالرياض يوم
+      ١٩ ربيع الأول سنة ١٤٢٠ هـ (الموافق ٣ جويلية
+      ١٩٩٩ ميلادي) عن خمس وتسعين سنة، ودفن بعمان
+      بالأردن. ولد بحلب سنة ١٣٢٢ هـ (١٩٠٤ ميلادي)
+      في الأسرة الزرقاء الحنفية العلمية، وهو ابن
+      الشيخ أحمد الزرقا صاحب «شرح القواعد الفقهية».
+      وأكبر مؤلفاته «المدخل الفقهي العام إلى الفقه
+      الإسلامي في ثوبه الجديد» في ثلاثة مجلدات،
+      وإكماله «شرح القواعد الفقهية» لوالده، و«فتاوى
+      مصطفى الزرقا» من أوسع مراجع الفقه السني
+      الحنفي الحديث تداولاً في العالم الناطق
+      بالعربية. وكان عضواً بالمجمع العلمي العربي
+      بدمشق، ومجمع الفقه الإسلامي الدولي بجدة
+      التابع لمنظمة التعاون الإسلامي، ومُنح جائزة
+      الملك فيصل العالمية لخدمة الإسلام سنة
+      ١٤٠٤ هـ (١٩٨٤ ميلادي).
+    description_fr: |
+      Muṣṭafā Aḥmad al-Zarqāʾ — juriste sunnite
+      ḥanafite syrien d'Alep et l'un des plus
+      éminents théoriciens du XXe siècle de la
+      codification juridique islamique, longtemps
+      professeur aux Facultés de Sharīʿa et de Droit
+      de l'Université de Damas, professeur à la
+      Faculté de Sharīʿa de l'Université de Jordanie
+      (à partir de 1966) et à l'Université islamique
+      Imām Muḥammad ibn Saʿūd à Riyad — mourut à
+      Riyad le 19 Rabīʿ al-Awwal 1420 H (3 juillet
+      1999 EC) à l'âge de 95 ans et fut enterré à
+      Amman en Jordanie. Né à Alep en 1322 H
+      (1904 EC) dans la famille savante ḥanafite des
+      Zarqāʾ, il était le fils d'Aḥmad al-Zarqāʾ
+      (auteur de *Sharḥ al-Qawāʿid al-Fiqhiyya*).
+      Son œuvre majeure *al-Madkhal al-Fiqhī al-ʿĀmm
+      ilā al-Fiqh al-Islāmī fī Thawbihi al-Jadīd* en
+      trois volumes, *Sharḥ al-Qawāʿid al-Fiqhiyya*
+      (en continuation de son père) et ses *Fatāwā*
+      figurent parmi les références ḥanafites
+      sunnites modernes les plus largement diffusées
+      dans le monde arabophone. Il fut membre de
+      l'Académie arabe de Damas, de l'Académie
+      internationale du fiqh islamique de l'OCI à
+      Jeddah, et reçut le Prix international du roi
+      Fayṣal pour le service de l'Islam en 1404 H
+      (1984 EC).
+    canonical_hijri: {year: 1420, month: 3, day: 19, precision: day}
+    canonical_gregorian: {date: 1999-07-03, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 supplement records death at Riyadh on 19 Rabīʿ al-Awwal 1420 / 3 July 1999."
+      - source_key: editorial
+        notes: "Burial in Amman, Damascus University and University of Jordan teaching career, and King Faisal Prize 1404/1984 attested in standard biographies and Jordanian press of 1999."
+    people: [[mustafa-al-zarqa, died]]
+    tags: [modern, scholar, hanafi, syria, aleppo, jordan, amman, riyadh, faqih, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mustafa_Al-Zarqa"
+
+  # =========================================================================
+  # DAMASCENE-MADINAN MUḤADDITH TRADITION
+  # =========================================================================
+
+  - slug: death-of-muhammad-awwama
+    category: scholar_death
+    title_en: Death of Muḥammad ʿAwwāma — Damascene-Madinan Hanafi Muḥaddith
+    title_ar: وفاة الشيخ محمد عوامة — المحدث الحنفي الدمشقي المدني
+    title_fr: Mort de Muḥammad ʿAwwāma — muḥaddith ḥanafite damasco-madinan
+    description_en: |
+      Muḥammad ʿAwwāma — Syrian-born Sunni Hanafi
+      muḥaddith of Damascene origin, longtime resident
+      and teacher in Madīna where he had settled in the
+      1980s, and one of the foremost contemporary
+      editors of the classical Sunni hadith and
+      *muṣṭalaḥ* canon — died at Madīna in 1444 AH
+      (2023 CE) at age 84, and was buried at the
+      al-Baqīʿ cemetery in Madīna. Born at Aleppo
+      in 1358 AH (1940 CE) and trained at Damascus and
+      al-Azhar, he was a senior pupil of ʿAbd al-Fattāḥ
+      Abū Ghudda and inherited the latter's editorial
+      project on the classical Hanafi-hadith canon. His
+      annotated editions include *al-Muṣannaf* of Ibn
+      Abī Shayba in twenty-six volumes, *Sunan al-
+      Nasāʾī* (with reference to the al-Sindī
+      commentary), *Taqrīb al-Tahdhīb* of Ibn Ḥajar al-
+      ʿAsqalānī (a foundational *rijāl* reference), and
+      al-Sakhāwī's *Fatḥ al-Mughīth*. His authored
+      monograph *Adab al-Ikhtilāf fī Masāʾil al-ʿIlm
+      wa-l-Dīn*, *Athar al-Ḥadīth al-Sharīf fī
+      Ikhtilāf al-Aʾimma al-Fuqahāʾ*, and his *Fatāwā*
+      circulate widely.
+    description_ar: |
+      توفي الشيخ محمد عوامة — المحدث السني الحنفي
+      السوري الأصل الدمشقي، نزيل المدينة المنورة منذ
+      ثمانينات القرن العشرين الميلادي، ومن أبرز محققي
+      تراث الحديث ومصطلحه السني الكلاسيكي في عصرنا —
+      بالمدينة المنورة سنة ١٤٤٤ هـ (الموافق ٢٠٢٣
+      ميلادي) عن أربع وثمانين سنة، ودفن بمقبرة البقيع
+      بالمدينة المنورة. ولد بحلب سنة ١٣٥٨ هـ
+      (١٩٤٠ ميلادي)، وتلقى العلم بدمشق والأزهر،
+      وكان من كبار تلامذة الشيخ عبد الفتاح أبو غدة
+      ووريثه في مشروع تحقيق تراث الحديث السني
+      الكلاسيكي. ومن تحقيقاته: «المصنف» لابن أبي
+      شيبة في ستة وعشرين مجلداً، و«سنن النسائي»
+      بإضافة شرح السندي، و«تقريب التهذيب» لابن حجر
+      العسقلاني (وهو من أمهات مراجع الرجال)، و«فتح
+      المغيث» للسخاوي. ومن مؤلفاته: «أدب الاختلاف
+      في مسائل العلم والدين» و«أثر الحديث الشريف
+      في اختلاف الأئمة الفقهاء» و«فتاويه» منتشرة
+      انتشاراً واسعاً.
+    description_fr: |
+      Muḥammad ʿAwwāma — muḥaddith sunnite ḥanafite
+      d'origine damascène né en Syrie, longtemps
+      résident et enseignant à Médine où il s'était
+      installé dans les années 1980, et l'un des
+      plus éminents éditeurs contemporains du canon
+      classique sunnite du hadith et du *muṣṭalaḥ* —
+      mourut à Médine en 1444 H (2023 EC) à l'âge
+      de 84 ans et fut enterré au cimetière al-Baqīʿ
+      à Médine. Né à Alep en 1358 H (1940 EC) et
+      formé à Damas et à al-Azhar, il fut un élève
+      senior de ʿAbd al-Fattāḥ Abū Ghudda et hérita
+      du projet éditorial de ce dernier sur le canon
+      classique ḥanafite-hadith. Ses éditions
+      annotées comprennent le *Muṣannaf* d'Ibn Abī
+      Shayba en vingt-six volumes, les *Sunan al-
+      Nasāʾī* (avec le commentaire d'al-Sindī), le
+      *Taqrīb al-Tahdhīb* d'Ibn Ḥajar al-ʿAsqalānī
+      (référence fondamentale de *rijāl*) et le
+      *Fatḥ al-Mughīth* d'al-Sakhāwī. Sa monographie
+      *Adab al-Ikhtilāf fī Masāʾil al-ʿIlm wa-l-
+      Dīn*, *Athar al-Ḥadīth al-Sharīf fī Ikhtilāf
+      al-Aʾimma al-Fuqahāʾ* et ses *Fatāwā*
+      circulent largement.
+    canonical_hijri: {year: 1444, precision: year}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death at Madīna in 1444 AH / 2023 CE attested in contemporary obituaries; precise day variously reported across early Ramadan 1444, so year-precision is used."
+    people: [[muhammad-awwama, died], [abd-al-fattah-abu-ghudda, subject]]
+    tags: [modern, scholar, hanafi, syria, damascus, saudi-arabia, madina, muhaddith, twenty-first-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%88%D8%A7%D9%85%D8%A9"

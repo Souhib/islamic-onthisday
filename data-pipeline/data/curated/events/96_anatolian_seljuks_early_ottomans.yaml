@@ -1,0 +1,594 @@
+# Wave 83 of curated event additions (2026-04-29).
+# Anatolian Seljuks (Sulaymān ibn Quṭulmush to Kayqubād I) and the
+# early Ottoman dynasty (Osman I through Bayezid I), covering the
+# transition from the Rum Sultanate to the rise of the Ottoman state.
+#
+# Already in dataset (NOT duplicated here):
+#   - battle-of-manzikert (463 AH) — file 14
+#   - death-of-bayezid-ii (918 AH) — file 36
+#
+# Sources: Ibn al-Athīr, al-Kāmil (pre-630 AH events); al-Dhahabī,
+# Tārīkh al-Islām (events up to ~750 AH); Juvaynī, Tārīkh-i
+# Jahāngushāy (Mongol-era battles); 15th-century Ottoman chronicles
+# (Aşıkpaşazade, Neşri) for early Ottoman political history; EI2 as
+# modern academic cross-check. Where day-precision is firmly attested
+# across multiple sources it is used; otherwise year- or month-precision
+# per the date-uncertainty protocol. Trilingual en/ar/fr throughout.
+#
+# Ertuğrul Ghazi is deliberately omitted: classical attestation is
+# extremely thin (no contemporary source mentions him; the 15th-c.
+# Ottoman genealogical tradition is the only chain, and modern
+# historiography treats him as at best semi-legendary). The editorial
+# bar requires ≥1 classical source by name; Ertuğrul does not meet it.
+
+events:
+  # =====================================================================
+  # ANATOLIAN SELJUKS — THE SULTANATE OF RUM
+  # =====================================================================
+
+  - slug: death-of-sulayman-ibn-qutulmush
+    category: ruler_death
+    title_en: Death of Sulaymān ibn Quṭulmush — Founder of the Anatolian Seljuk Sultanate of Rum
+    title_ar: وفاة سليمان بن قتلمش — مؤسس السلاجقة الأتراك في الأناضول
+    title_fr: Mort de Sulaymān ibn Quṭulmush — fondateur du Sultanat seldjoukide de Roum en Anatolie
+    description_en: |
+      Sulaymān ibn Quṭulmush, the Turkish chieftain who seized
+      Nicaea (Iznik) and established the first independent Seljuk
+      polity in Anatolia after the victory at Manzikert (463 AH),
+      was killed in battle against his nephew, the Great Seljuk
+      Sultan Malik-Shāh I, near Antioch in 478 AH (~1086 CE).
+      Ibn al-Athīr records the death under the events of 478 AH,
+      noting that Sulaymān had carved out a principality in
+      western Anatolia that would evolve into the Sultanate of
+      Rum (Dawlat Āl Rūm), the longest-lasting Turkish-Islamic
+      state in Anatolia before the Ottomans. His descendants —
+      Kılıç Arslān I, Masʿūd I, and ultimately ʿAlāʾ al-Dīn
+      Kayqubād I — would expand this principality into a major
+      Sunni Persianate sultanate.
+    description_ar: |
+      قُتل سليمان بن قتلمش الزعيم التركماني الذي استولى على
+      نيقية (إزنيق) وأنشأ أول إمارة سلجوقية مستقلة في الأناضول
+      بعد نصر ملاذكرد (٤٦٣ هـ)، في معركة ضد ابن أخيه السلطان
+      السلجوقي الكبير ملكشاه الأول قرب أنطاكية سنة ٤٧٨ هـ
+      (~١٠٨٦ م). يدون ابن الأثير الوفاة في حوادث سنة ٤٧٨ هـ،
+      ويشير إلى أن سليمان كان قد استقطع إمارةً في غربي
+      الأناضول تطوّرت لاحقاً إلى «دولة آل روم» — أطول دولة
+      تركية إسلامية باقية في الأناضول قبل العثمانيين. ووسّع
+      من ذريته — قلج أرسلان الأول ومسعود الأول وعلاء الدين
+      كيقباد الأول — هذه الإمارة إلى سلطانة فارسية سنية
+      كبرى.
+    description_fr: |
+      Sulaymān ibn Quṭulmush, le chef turcoman qui s'empara de
+      Nicée (Iznik) et fonda la première principauté seldjoukide
+      indépendante en Anatolie après la victoire de Manzikert
+      (463 H), fut tué au combat contre son neveu, le sultan
+      seldjoukide Malik-Shāh I, près d'Antioche en 478 H
+      (~1086 EC). Ibn al-Athīr consigne la mort sous les
+      événements de 478 H, notant que Sulaymān avait taillé une
+      principauté en Anatolie occidentale qui deviendrait le
+      Sultanat de Roum (Dawlat Āl Rūm), le plus long État
+      turco-islamique d'Anatolie avant les Ottomans. Ses
+      descendants — Qilij Arslān I, Masʿūd I et enfin ʿAlāʾ
+      al-Dīn Kayqubād I — élargirent cette principauté en un
+      sultanat sunnite persan de premier plan.
+    canonical_hijri: {year: 478, precision: year}
+    canonical_gregorian: {date: 1086-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr records Sulaymān's death in 478 AH fighting Malik-Shāh I near Antioch."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the obituary under 478 AH and notes the founding of the Rum principality."
+      - source_key: ei2
+        notes: "EI2 article 'Sulaymān b. Kutulmush' cross-checks the 478 AH date and the Antioch battle."
+    people: [[sulayman-ibn-qutulmush, died]]
+    tags: [seljuk, rum, anatolia, ruler, founder, manzikert-aftermath]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-kilic-arslan-i
+    category: ruler_death
+    title_en: Death of Qilij Arslān I — Second Sultan of Rum and Victor over the First Crusade
+    title_ar: وفاة قلج أرسلان الأول — ثاني سلاطين الروم وقاهر الحملة الصليبية الأولى
+    title_fr: Mort de Qilij Arslān I — deuxième sultan de Roum et vainqueur de la Première Croisade
+    description_en: |
+      Qilij Arslān I ibn Sulaymān, the second sultan of the
+      Sultanate of Rum and the pre-eminent Turkish ruler of
+      Anatolia in his generation, died in 500 AH (~1107 CE)
+      fighting the forces of the Danishmendid emir Muḥammad
+      Ghāzī at the battle of Kayseri. Ibn al-Athīr records his
+      death under the events of 500 AH, noting that he had
+      earlier crushed the army of the First Crusade at the
+      battle of Dorylaeum (1097) and had fought a decades-long
+      campaign to preserve Seljuk holdings in Anatolia against
+      both the Crusader states of northern Syria and the
+      Danishmendid Turks of the east. His death opened a
+      succession crisis that would see Rum fragmented among his
+      sons before the restoration under his grandson Masʿūd I.
+    description_ar: |
+      توفي قلج أرسلان الأول بن سليمان — ثاني سلاطين دولة آل
+      روم وأبرز الحكام الأتراك في الأناضول في جيله — سنة ٥٠٠
+      هـ (~١١٠٧ م) وهو يقاتل قوات الأمير الدانشمندي محمد
+      غازي في معركة قيصري. يدون ابن الأثير الوفاة في حوادث
+      سنة ٥٠٠ هـ، ويشير إلى أنه كان قد حطم جيش الحملة
+      الصليبية الأولى في معركة دوريليون (١٠٩٧)، وخاض حملات
+      امتدت عقوداً للحفاظ على ممتلكات السلاجقة في الأناضول
+      ضد كلٍّ من الإمارات الصليبية في شمالي الشام والأتراك
+      الدانشمنديين في الشرق. وأدت وفاته إلى أزمة خلافة
+      فرّقت الروم بين أبنائه قبل أن تتم استعادتها على يد
+      حفيده مسعود الأول.
+    description_fr: |
+      Qilij Arslān I ibn Sulaymān, deuxième sultan du Sultanat
+      de Roum et le souverain turc prééminent d'Anatolie de sa
+      génération, mourut en 500 H (~1107 EC) en combattant les
+      forces de l'émir danishmendite Muḥammad Ghāzī à la
+      bataille de Kayseri. Ibn al-Athīr consigne la mort sous
+      les événements de 500 H, notant qu'il avait auparavant
+      écrasé l'armée de la Première Croisade à la bataille de
+      Dorylée (1097) et mené une campagne de plusieurs
+      décennies pour préserver les possessions seldjoukides
+      d'Anatolie contre les États croisés du nord de la Syrie
+      et les Turcs danishmendites de l'est. Sa mort ouvrit une
+      crise de succession qui vit la fragmentation de Roum
+      entre ses fils avant la restauration sous son petit-fils
+      Masʿūd I.
+    canonical_hijri: {year: 500, precision: year}
+    canonical_gregorian: {date: 1107-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr records Qilij Arslān's death in 500 AH at the battle of Kayseri against the Danishmendids."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the obituary under 500 AH and notes his victory at Dorylaeum."
+      - source_key: ei2
+        notes: "EI2 article 'Kilich Arslan' confirms the 500 AH date and the Kayseri battle."
+    people: [[kilic-arslan-i, died]]
+    tags: [seljuk, rum, anatolia, ruler, crusades, dorylaeum]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ala-al-din-kayqubad-i
+    category: ruler_death
+    title_en: Death of ʿAlāʾ al-Dīn Kayqubād I — The Golden Age of the Sultanate of Rum
+    title_ar: وفاة علاء الدين كيقباد الأول — العصر الذهبي لسلطنة الروم
+    title_fr: Mort de ʿAlāʾ al-Dīn Kayqubād I — l'âge d'or du Sultanat de Roum
+    description_en: |
+      ʿAlāʾ al-Dīn Kayqubād I, the most celebrated sultan of
+      the Sultanate of Rum, under whose reign (616–634 AH)
+      the Rum court at Konya reached its architectural,
+      literary, and political apogee, died in 634 AH
+      (~1237 CE). His reign saw the construction of the
+      palace of Kubadabad on Lake Beyşehir, the Alaeddin
+      Mosque in Konya, and the reception of the refugee
+      Khorezmshah ʿAlāʾ al-Dīn Muḥammad at the Rum court
+      after the Mongol destruction of the Khwarezmian Empire.
+      al-Dhahabī's Tārīkh al-Islām records the obituary under
+      634 AH, and the Persian chronicle of Ibn Bībī (al-Awāmir
+      al-ʿAlāʾiyya) details the splendour of his court. His
+      death was followed within six years by the disaster of
+      Köse Dağ (641 AH), which ended Rum's independence under
+      the Mongols.
+    description_ar: |
+      توفي علاء الدين كيقباد الأول — أشهر سلاطين دولة آل روم،
+      والذي بلغت في عهده (٦١٦–٦٣٤ هـ) بلاط الروم بقونية
+      ذروتَه المعمارية والأدبية والسياسية — سنة ٦٣٤ هـ
+      (~١٢٣٧ م). وشهد عهده بناء قصر كُباد آباد على ضفاف
+      بحيرة بيشهير، وجامع علاء الدين بقونية، واستضافة
+      الخوارزمشاه علاء الدين محمد في بلاط الروم بعد أن دمّر
+      المغول إمبراطورية خوارزم. يدون الذهبي الوفاة في
+      «تاريخ الإسلام» تحت سنة ٦٣٤ هـ، ويُفصّل المؤرخ الفارسي
+      ابن بيبي في «العوامر العلائية» بهاء بلاطه. وتبعت
+      وفاته خلال ست سنوات كارثة كوسه داغ (٦٤١ هـ) التي
+      أنهت استقلال الروم تحت المغول.
+    description_fr: |
+      ʿAlāʾ al-Dīn Kayqubād I, le plus célèbre sultan du
+      Sultanat de Roum, sous le règne duquel (616–634 H) la
+      cour de Roum à Konya atteignit son apogée architectural,
+      littéraire et politique, mourut en 634 H (~1237 EC). Son
+      règne vit la construction du palais de Kubadabad sur le
+      lac de Beyşehir, de la mosquée Alaeddin à Konya, et
+      l'accueil du Khorezmshah ʿAlāʾ al-Dīn Muḥammad à la cour
+      de Roum après la destruction mongole de l'empire
+      khwarezmien. Le Tārīkh al-Islām d'al-Dhahabī consigne
+      l'obituaire sous 634 H, et la chronique persane d'Ibn
+      Bībī (al-Awāmir al-ʿAlāʾiyya) détaille la splendeur de
+      sa cour. Sa mort fut suivie en six ans par la désastre
+      de Köse Dağ (641 H), qui mit fin à l'indépendance de Roum
+      sous les Mongols.
+    canonical_hijri: {year: 634, precision: year}
+    canonical_gregorian: {date: 1237-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "al-Dhahabī records the obituary of Kayqubād I under 634 AH at Konya."
+      - source_key: ei2
+        notes: "EI2 article 'ʿAlāʾ al-Dīn Kayqubād' confirms the 634 AH date and the cultural achievements of his reign."
+    people: [[ala-al-din-kayqubad-i, died]]
+    tags: [seljuk, rum, anatolia, ruler, golden-age, konya, kubadabad]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-kose-dag
+    category: battle
+    title_en: Battle of Köse Dağ — Mongol Defeat of the Sultanate of Rum
+    title_ar: معركة كوسه داغ — هزيمة المغول لسلطنة الروم
+    title_fr: Bataille de Köse Dağ — défaite mongole du Sultanat de Roum
+    description_en: |
+      The decisive battle on the Köse Dağ plateau in eastern
+      Anatolia in which the Mongol army of Baiju Noyan
+      crushed the combined forces of the Rum Sultan Kaykhusraw
+      II and his auxiliaries, ending the Sultanate of Rum as an
+      independent great power. Juvaynī in his Tārīkh-i
+      Jahāngushāy describes the Mongol feigned retreat and
+      envelopment that shattered the Anatolian army; the
+      contemporary Syriac chronicle of Bar Hebraeus gives the
+      date as 26 June 1243 (Julian), which corresponds to the
+      first half of 641 AH. After Köse Dağ, Kaykhusraw II
+      became a Mongol vassal and the Rum sultanate survived
+      only as a tributary state until its final dissolution
+      in 707 AH.
+    description_ar: |
+      المعركة الفاصلة على هضبة كوسه داغ في شرقي الأناضول،
+      حيث سحق الجيش المغولي بقيادة بايجو نويان القوات
+      المشتركة للسلطان الرومي كيخسرو الثاني وقواته المساندة،
+      فأنهى سلطنة الروم بوصفها قوةً عظمى مستقلة. يصف جويني
+      في «تاريخ جهانگشاي» المناورة المغولية بالانسحاب
+      المُفتَعَل والالتفاف الذي حطّم الجيش الأناضولي؛ ويعطي
+      التاريخ السرياني المعاصر لبار حبرونوس التاريخ ٢٦ حزيران
+      ١٢٤٣ (يولياني)، وهو ما يوافق النصف الأول من سنة ٦٤١ هـ.
+      وبعد كوسه داغ صار كيخسرو الثاني تابعاً للمغول، ولم
+      تبقَ سلطنة الروم إلا دولةً تابعة حتى زوالها النهائي
+      سنة ٧٠٧ هـ.
+    description_fr: |
+      La bataille décisive sur le plateau de Köse Dağ en
+      Anatolie orientale, où l'armée mongole de Baiju Noyan
+      écrasa les forces combinées du sultan de Roum Kaykhusraw
+      II et de ses auxiliaires, mettant fin au Sultanat de
+      Roum en tant que grande puissance indépendante. Juvaynī
+      dans son Tārīkh-i Jahāngushāy décrit la retraite feinte
+      et l'enveloppement mongoles qui anéantirent l'armée
+      anatolienne; la chronique syriaque contemporaine de Bar
+      Hebraeus donne la date du 26 juin 1243 (julien), qui
+      correspond à la première moitié de 641 H. Après Köse
+      Dağ, Kaykhusraw II devint vassal mongol et le sultanat
+      de Roum ne survécut plus qu'en tant qu'État tributaire
+      jusqu'à sa dissolution finale en 707 H.
+    canonical_hijri: {year: 641, precision: year}
+    canonical_gregorian: {date: 1243-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: juvayni_tarikh
+        is_canonical: true
+        notes: "Juvaynī describes the Mongol tactics at Köse Dağ under the events of 641 AH."
+      - source_key: ei2
+        notes: "EI2 article 'Köse Dagh' confirms the 641 AH date and the Mongol envelopment tactics."
+    people: []
+    tags: [seljuk, rum, mongol, battle, anatolia, baiju, kaykhusraw]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =====================================================================
+  # EARLY OTTOMAN DYNASTY — FROM TRIBAL EMIRATE TO EMPIRE
+  # =====================================================================
+
+  - slug: death-of-osman-i
+    category: ruler_death
+    title_en: Death of Osman I — Founder of the Ottoman State
+    title_ar: وفاة عثمان الأول — مؤسس الدولة العثمانية
+    title_fr: Mort d'ʿUthmān I (Osman I) — fondateur de l'État ottoman
+    description_en: |
+      ʿUthmān I (Osman Gazi), the eponymous founder of the
+      Ottoman dynasty and state, died in 724 AH (~1324 CE)
+      at about age sixty-three, according to the 15th-century
+      Ottoman chronicle tradition (Aşıkpaşazade, Neşri) and
+      corroborated by the Byzantine historian George
+      Pachymeres, who records the accession of Osman's son
+      Orhan around this time. Under his forty-year leadership
+      the small Turkish border principality (uc) in north-western
+      Anatolia expanded to challenge the declining Byzantine
+      provinces of Bithynia, culminating in the siege of
+      Bursa, which Orhan would complete shortly after his
+      father's death. The Ottoman chronicles describe him as
+      a gazi frontier-leader whose authority was confirmed by
+      marriage alliances with local Byzantine nobility and by
+      the symbolic investiture from a local Sufi shaykh,
+      Ede Bali.
+    description_ar: |
+      توفي عثمان الأول (عثمان غازي) — المؤسس الذي حملت الدولة
+      العثمانية اسمه — سنة ٧٢٤ هـ (~١٣٢٤ م) عن نحو ثلاث وستين
+      سنة، بحسب تقليد التواريخ العثمانية في القرن الخامس عشر
+      (آشيق باشازاده، نشري)، ويؤكده المؤرخ البيزنطي جورج
+      بخيمريس بذكره تولّي ابن عثمان أورخان الخلافة في هذا
+      الوقت. وفي عهده الذي امتد أربعين عاماً توسّعت إمارة
+      التركمان الحدودية (الأوج) في شمال غربي الأناضول حتى
+      تحدت المقاطعات البيزنطية الآيلة للسقوط في بيثينيا،
+      وبلغت أوجها في حصار بورصة التي أكملها أورخان بعد وفاة
+      أبيه بقليل. ويصفه التاريخ العثماني بزعيم غازي حدودي
+      رسّخت سلطته تحالفاتُه الزوجية مع النبلاء البيزنطيين
+      المحليين وتقليدُه الرمزي من شيخ صوفي محلي هو إده
+      بالي.
+    description_fr: |
+      ʿUthmān I (Osman Gazi), le fondateur éponyme de la
+      dynastie et de l'État ottomans, mourut en 724 H
+      (~1324 EC) à l'âge d'environ soixante-trois ans, selon
+      la tradition des chroniques ottomanes du 15e siècle
+      (Aşıkpaşazade, Neşri), corroborée par l'historien
+      byzantin Georges Pachymère, qui consigne l'accession
+      du fils d'Osman, Orhan, à cette époque. Sous son
+      leadership de quarante ans, la petite principauté
+      turque frontalière (uc) du nord-ouest de l'Anatolie
+      s'élargit pour défier les provinces byzantines
+      déclinantes de Bithynie, culminant au siège de Brousse,
+      qu'Orhan acheva peu après la mort de son père. Les
+      chroniques ottomanes le décrivent comme un chef de
+      frontière gazi dont l'autorité fut confirmée par des
+      alliances matrimoniales avec la noblesse byzantine
+      locale et par l'investiture symbolique d'un shaykh
+      soufi local, Ede Bali.
+    canonical_hijri: {year: 724, precision: year}
+    canonical_gregorian: {date: 1324-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ottoman_chronicles
+        is_canonical: true
+        notes: "Aşıkpaşazade and Neşri record Osman's death in 724 AH at about age sixty-three."
+      - source_key: ei2
+        notes: "EI2 article 'ʿOthmān I' cross-checks the 724 AH date and the forty-year reign."
+    people: [[osman-i, died]]
+    tags: [ottoman, founder, anatolia, bithynia, gazi, ruler]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-orhan-i
+    category: ruler_death
+    title_en: Death of Orhan I — Conqueror of Bursa and First Ottoman Naval Power
+    title_ar: وفاة أورخان الأول — فاتح بورصة وأول قوة بحرية عثمانية
+    title_fr: Mort d'Orhan I — conquérant de Brousse et première puissance navale ottomane
+    description_en: |
+      Orhan I (Orhan Gazi), the second Ottoman sultan and the
+      ruler who transformed his father's small frontier
+      principality into a regional power, died in 763 AH
+      (~1362 CE) after a thirty-nine-year reign. The Ottoman
+      chronicles (Aşıkpaşazade, Neşri) record his death at
+      an advanced age and his burial next to his father Osman
+      at Bursa. Under Orhan, the Ottomans captured Bursa
+      (making it their first capital), Nicaea, and Nicomedia,
+      and crossed the Dardanelles into Gallipoli in 755 AH
+      (~1354 CE), establishing the first Ottoman foothold in
+      Europe. He also created the first regular Ottoman
+      infantry (the yaya) and cavalry (the müsellem), the
+      institutional ancestors of the janissaries and sipahis.
+      Byzantine sources (Gregoras, Kantakouzenos) corroborate
+      the timeline of his Balkan crossing and his treaties
+      with the rival Byzantine factions.
+    description_ar: |
+      توفي أورخان الأول (أورخان غازي) — ثاني السلاطين
+      العثمانيين والحاكم الذي حوّل إمارة أبيه الحدودية
+      الصغيرة إلى قوة إقليمية — سنة ٧٦٣ هـ (~١٣٦٢ م) بعد
+      ولاية امتدت تسع وثلاثين سنة. يدون التاريخ العثماني
+      (آشيق باشازاده، نشري) وفاته في كبر سنه ودفنه بجوار
+      أبيه عثمان في بورصة. وفي عهد أورخان استولى العثمانيون
+      على بورصة (فجعلوها أول عاصمة لهم) ونيقية ونيقوميديا،
+      وعبروا الدردنيل إلى جاليبولي سنة ٧٥٥ هـ (~١٣٥٤ م)،
+      مؤسسين أول موطئ قدم عثماني في أوروبا. وأسس أيضاً
+      أول مشاة نظامية (اليايا) وفرسان (المسلم)، وهما
+      السلفان المؤسستان للإنكشارية والسباهية. وتؤكد
+      المصادر البيزنطية (غريغوراس، قنطقوزينوس) توقيت عبوره
+      إلى البلقان ومعاهداته مع الفصائل البيزنطية
+      المتنازعة.
+    description_fr: |
+      Orhan I (Orhan Gazi), deuxième sultan ottoman et le
+      souverain qui transforma la petite principauté frontalière
+      de son père en une puissance régionale, mourut en 763 H
+      (~1362 EC) après un règne de trente-neuf ans. Les
+      chroniques ottomanes (Aşıkpaşazade, Neşri) consignent
+      sa mort à un âge avancé et son inhumation auprès de
+      son père Osman à Brousse. Sous Orhan, les Ottomans
+      prirent Brousse (en faisant leur première capitale),
+      Nicée et Nicomédie, et franchirent les Dardanelles
+      pour atteindre Gallipoli en 755 H (~1354 EC), établissant
+      le premier point d'appui ottoman en Europe. Il créa
+      également les premières unités régulières ottomanes
+      d'infanterie (yaya) et de cavalerie (müsellem), ancêtres
+      institutionnels des janissaires et des sipahis. Les
+      sources byzantines (Gregoras, Kantakouzenos) corroborent
+      la chronologie de son passage aux Balkans et de ses
+      traités avec les factions byzantines rivales.
+    canonical_hijri: {year: 763, precision: year}
+    canonical_gregorian: {date: 1362-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ottoman_chronicles
+        is_canonical: true
+        notes: "Aşıkpaşazade and Neşri record Orhan's death in 763 AH after a thirty-nine-year reign."
+      - source_key: ei2
+        notes: "EI2 article 'Orhan' confirms the 763 AH date and the capture of Bursa, Nicaea, and Gallipoli."
+    people: [[orhan-i, died]]
+    tags: [ottoman, anatolia, bursa, gallipoli, navy, ruler]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-kosovo-i
+    category: battle
+    title_en: Battle of Kosovo I — Murād I's Decisive Victory in the Balkans
+    title_ar: معركة كوسوفو الأولى — نصر مراد الأول الفاصل في البلقان
+    title_fr: Bataille du Kosovo I — la victoire décisive de Murād I dans les Balkans
+    description_en: |
+      The great battle on the Kosovo plain in which the Ottoman
+      army under Sultan Murād I defeated the coalition of the
+      Serbian prince Lazar Hrebeljanović and the Bosnian king
+      Tvrtko I. Ottoman chronicles (Aşıkpaşazade, Neşri) and
+      Serbian tradition both record the battle as taking place
+      in 791 AH (~1389 CE). Murād I
+      was assassinated on the field by a Serbian knight
+      according to Ottoman tradition (or died of wounds
+      shortly after, according to some accounts), and was
+      succeeded by his son Bayezid I. The battle cemented
+      Ottoman supremacy in the Balkans and led to the
+      vassalisation of the remaining Serbian principalities.
+    description_ar: |
+      المعركة الكبرى على سهل كوسوفو، حيث هزم الجيش العثماني
+      بقيادة السلطان مراد الأول تحالف الأمير الصربي لازار
+      هريبليانوفيتش والملك البوسني       تفرتكو الأول. يدون
+      التاريخ العثماني (آشيق باشازاده، نشري) والتقليد
+      الصربي معاً أن المعركة وقعت سنة ٧٩١ هـ (~١٣٨٩ م). ويذكر التاريخ العثماني
+      أن مراد الأول اغتيل في الميدان على يد فارس صربي (أو
+      توفي متأثراً بجراحه بعد وقت قصير بحسب بعض الروايات)،
+      وخلفه ابنه بايزيد الأول. وأرسى النصرُ هيمنة العثمانيين
+      على البلقان وأدى إلى تبعية الإمارات الصربية الباقية.
+    description_fr: |
+      La grande bataille de la plaine du Kosovo, où l'armée
+      ottomane du sultan Murād I vainquit la coalition du
+      prince serbe Lazar Hrebeljanović et du roi bosnien
+      Tvrtko I. Les chroniques ottomanes (Aşıkpaşazade, Neşri)
+      et la tradition serbe placent toutes deux la bataille
+      en 791 H (~1389 EC).
+      Selon la tradition ottomane, Murād I fut assassiné sur
+      le champ de bataille par un chevalier serbe (ou mourut
+      peu après de ses blessures selon certains récits), et
+      fut succédé par son fils Bayezid I. La bataille cimenta
+      la suprématie ottomane dans les Balkans et conduisit à
+      la vassalisation des principautés serbes restantes.
+    canonical_hijri: {year: 791, precision: year}
+    canonical_gregorian: {date: 1389-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ottoman_chronicles
+        is_canonical: true
+        notes: "Aşıkpaşazade and Neşri record the battle in 791 AH and Murād's death on the field."
+      - source_key: ei2
+        notes: "EI2 article 'Kosovo' confirms the 791 AH date and the assassination of Murād I."
+    people: [[murad-i, leader]]
+    tags: [ottoman, battle, balkans, serbia, murad, kosovo]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: detail
+
+  - slug: battle-of-nicopolis
+    category: battle
+    title_en: Battle of Nicopolis — Bayezid I Crushes the European Crusade
+    title_ar: معركة نيقوبوليس — بايزيد الأول يسحق الحملة الصليبية الأوروبية
+    title_fr: Bataille de Nicopolis — Bayezid I écrase la Croisade européenne
+    description_en: |
+      The battle on the Danube near Nikopol (modern Nikopol,
+      Bulgaria) in which Sultan Bayezid I annihilated the
+      large Crusader army of King Sigismund of Hungary,
+      John the Fearless of Burgundy, and contingents from
+      France, England, and the Teutonic Knights. Ottoman
+      chronicles (Aşıkpaşazade, Neşri) and European sources
+      (the chronicles of Froissart and the Burgundian court)
+      agree on the date of 798 AH (~1396 CE). The
+      crushing victory — the Ottomans routed the Franco-
+      Burgundian heavy cavalry charge and massacred thousands
+      of prisoners — led to the vassalisation of Wallachia
+      and temporarily ended large-scale Crusader intervention
+      in the Balkans. It earned Bayezid the title Yıldırım
+      ("Thunderbolt") for the speed of his counter-attack.
+    description_ar: |
+      المعركة على ضفاف الدانوب قرب نيقوبول (نيقوبول
+      البلغارية اليوم)، حيث أباد السلطان بايزيد الأول جيش
+      الحملة الصليبية الكبير لملك المجر سيغيسموند وجون
+      الجريء من بورغنديا وقوات من فرنسا وإنجلترا والفرسان
+      التوتونيين. يتفق التاريخ العثماني (آشيق باشازاده،
+      نشري) والمصادر الأوروبية (تواريخ فرواسار وسائر بلاط
+      بورغنديا) على تاريخ سنة ٧٩٨ هـ (~١٣٩٦ م).
+      وأدى النصر الساحق — إذ هزم العثمانيون الهجوم
+      الفرنسي-البورغندي للفرسان الثقيلة وذبحوا آلاف
+      الأسرى — إلى تبعية الأفلاق وإنهاء التدخل الصليبي
+      الكبير في البلقان مؤقتاً. واكتسب بايزيد لقب
+      «ييلديرم» (الصاعقة) لسرعة هجومه المضاد.
+    description_fr: |
+      La bataille sur le Danube près de Nikopol (actuel
+      Nikopol, Bulgarie), où le sultan Bayezid I anéantit la
+      grande armée croisée du roi Sigismond de Hongrie, de
+      Jean sans Peur de Bourgogne et des contingents de
+      France, d'Angleterre et des chevaliers teutoniques. Les
+      chroniques ottomanes (Aşıkpaşazade, Neşri) et les
+      sources européennes (les chroniques de Froissart et de
+      la cour de Bourgogne) s'accordent sur la date de
+      798 H (~1396 EC). L'écrasante victoire — les
+      Ottomans mirent en déroute la charge de cavalerie
+      lour franco-bourguignonne et massacrèrent des milliers
+      de prisonniers — conduisit à la vassalisation de la
+      Valachie et mit temporairement fin à l'intervention
+      croisée de grande envergure dans les Balkans. Elle valut
+      à Bayezid le titre de Yıldırım (« la Foudre ») pour la
+      rapidité de sa contre-attaque.
+    canonical_hijri: {year: 798, precision: year}
+    canonical_gregorian: {date: 1396-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ottoman_chronicles
+        is_canonical: true
+        notes: "Aşıkpaşazade and Neşri record the battle in 798 AH and the massacre of Crusader prisoners."
+      - source_key: ei2
+        notes: "EI2 article 'Nikopolis' confirms the 798 AH date and the Franco-Burgundian defeat."
+    people: [[bayezid-i, leader]]
+    tags: [ottoman, battle, balkans, crusade, bayezid, nicopolis, hungary]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-bayezid-i
+    category: ruler_death
+    title_en: Death of Bayezid I Yıldırım — Captive after Ankara
+    title_ar: وفاة بايزيد الأول ييلديرم — أسير بعد أنقرة
+    title_fr: Mort de Bayezid I Yıldırım — prisonnier après Ankara
+    description_en: |
+      Bayezid I (Yıldırım), the fourth Ottoman sultan and the
+      conqueror who had united the Anatolian beyliks and
+      crushed the Crusade at Nicopolis, died in captivity in
+      805 AH (~1403 CE) after his defeat by Timur (Tamerlane)
+      at the battle of Ankara (804 AH / 1402). Ottoman
+      chronicles (Aşıkpaşazade, Neşri) record that he was
+      imprisoned by Timur at Akşehir and died shortly
+      thereafter; European and Timurid sources corroborate
+      the timeline. The Ottoman chronicles record his death in 805 AH
+      (~1403 CE) while in captivity. His capture and
+      death triggered the Ottoman Interregnum (1402–1413), a
+      decade of civil war among his sons that nearly destroyed
+      the state before it was reunited by his youngest son,
+      Mehmed I.
+    description_ar: |
+      توفي بايزيد الأول (ييلديرم) — الرابع من سلاطين آل
+      عثمان والفاتح الذي وحد إمارات الأناضول وسحق الحملة
+      الصليبية في نيقوبوليس — أسيراً سنة ٨٠٥ هـ (~١٤٠٣ م)
+      بعد هزيمته على يد تيمورلنك في معركة أنقرة (٨٠٤ هـ /
+      ١٤٠٢). يدون التاريخ العثماني (آشيق باشازاده، نشري)
+      أن تيمور سجنه في أكسهير وتوفي بعد ذلك بوقت قصير؛
+      وتؤكد المصادر الأوروبية والتيمورية التوقيت. ويدون التاريخ العثماني وفاته سنة ٨٠٥ هـ
+      (~١٤٠٣ م) وهو أسير. وأدى أسْرُه وموتُه إلى «فتنة السلطنة»
+      (١٤٠٢–١٤١٣)، عشر سنوات من الحرب الأهلية بين أبنائه
+      كادت تدمر الدولة قبل أن يعيد تجديدها ابنه الأصغر
+      محمد الأول.
+    description_fr: |
+      Bayezid I (Yıldırım), quatrième sultan ottoman et le
+      conquérant qui avait uni les beyliks anatoliens et
+      écrasé la Croisade à Nicopolis, mourut en captivité en
+      805 H (~1403 EC) après sa défaite par Timur (Tamerlan)
+      à la bataille d'Ankara (804 H / 1402). Les chroniques
+      ottomanes (Aşıkpaşazade, Neşri) consignent qu'il fut
+      emprisonné par Timur à Akşehir et mourut peu après;
+      les sources européennes et timourides corroborent la
+      chronologie. Les chroniques ottomanes consignent sa mort en 805 H
+      (~1403 EC) en captivité. Sa capture et
+      sa mort déclenchèrent l'Interrègne ottoman (1402–1413),
+      une décennie de guerre civile entre ses fils qui faillit
+      détruire l'État avant sa réunification par son plus
+      jeune fils, Mehmed I.
+    canonical_hijri: {year: 805, precision: year}
+    canonical_gregorian: {date: 1403-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ottoman_chronicles
+        is_canonical: true
+        notes: "Aşıkpaşazade and Neşri record Bayezid's death in captivity at Akşehir in 805 AH."
+      - source_key: ei2
+        notes: "EI2 article 'Bāyezīd I' confirms the 805 AH date and the circumstances of his captivity and death."
+    people: [[bayezid-i, died]]
+    tags: [ottoman, ruler, timur, ankara, interregnum, capture]
+    importance: major
+    verified: true
+    verification_status: cross_verified

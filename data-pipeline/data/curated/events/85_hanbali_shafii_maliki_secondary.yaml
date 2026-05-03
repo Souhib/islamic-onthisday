@@ -1,0 +1,917 @@
+# Wave 33 of curated event additions (2026-04-27).
+# Twelve secondary-yet-canonical Sunni jurists of the Ḥanbalī, Shāfiʿī
+# and Mālikī schools whose deaths are well attested in the classical
+# wafayāt corpus (al-Dhahabī's *Siyar Aʿlām al-Nubalāʾ*, Ibn Khallikān's
+# *Wafayāt al-Aʿyān*, Ibn Kathīr's *al-Bidāya wa-l-Nihāya*, Ibn al-ʿImād
+# al-Ḥanbalī's *Shadharāt al-Dhahab*, al-Dhahabī's *Tārīkh al-Islām*,
+# and the school-internal Ṭabaqāt — Ibn Abī Yaʿlā for Ḥanbalīs, al-Subkī
+# for Shāfiʿīs, Qāḍī ʿIyāḍ and Ibn Farḥūn for Mālikīs).
+#
+# Already covered elsewhere and intentionally not duplicated here:
+# Abū al-Ḥasan ʿAlī al-Lakhmī (death-of-al-lakhmi, file 26),
+# Abū al-Walīd al-Bājī (death-of-al-baji), al-Khallāl
+# (death-of-al-khallal), al-Muzanī (death-of-al-muzani), al-Khiraqī
+# (death-of-al-khiraqi), al-Qādī Abū Yaʿlā al-Farrāʾ (none yet, deferred).
+#
+# Coverage:
+#   Ḥanbalī (5): al-Marrūdhī (d. 275 AH), Ibn Baṭṭa al-ʿUkbarī
+#   (d. 387 AH), Ibn al-Bannāʾ al-Ḥanbalī (d. 471 AH), Ibn ʿAqīl
+#   al-Baghdādī (d. 513 AH), al-Wazīr Ibn Hubayra (d. 560 AH).
+#   Shāfiʿī (5): Ḥarmala ibn Yaḥyā (d. 243 AH), Abū Ḥāmid al-Isfarāʾīnī
+#   (d. 406 AH), Abū al-Ḥasan al-Maḥāmilī (d. 415 AH), al-Furānī
+#   (d. 461 AH), al-Qaffāl al-Shāshī (d. 507 AH).
+#   Mālikī (2): Ibn al-Qaṣṣār al-Baghdādī (d. 398 AH), al-Māzarī
+#   (d. 536 AH).
+#
+# Date precision is the highest the classical sources actually attest:
+# year-precise for figures whose month is contested (al-Marrūdhī,
+# Ibn Baṭṭa, Ibn al-Qaṣṣār, al-Furānī, al-Māzarī), month-precise where
+# the dominant transmission gives a month (Ibn al-Bannāʾ, Ḥarmala,
+# Abū Ḥāmid al-Isfarāʾīnī, Abū al-Ḥasan al-Maḥāmilī, al-Qaffāl al-
+# Shāshī), and day-precise only where multiple classical sources concur
+# (Ibn ʿAqīl 12 Jumādā I 513 AH; Ibn Hubayra 13 Jumādā I 560 AH).
+#
+# Disputes flagged: Ibn al-Qaṣṣār 397 vs 398 AH (we follow 398 AH per
+# Qāḍī ʿIyāḍ's *Tartīb al-Madārik* and the Subkī-cited tradition;
+# al-Dhahabī gives 397). All trilingual (en/ar/fr); no hadith refs
+# (biographical death events). Only Sunni framing; no QIDs (per
+# 2026-04-26 audit policy).
+
+events:
+  # =========================================================================
+  # ḤANBALĪ SCHOOL — FIVE SECONDARY MASTERS
+  # =========================================================================
+
+  - slug: death-of-al-marrudhi
+    category: scholar_death
+    title_en: Death of Abū Bakr al-Marrūdhī — chief disciple of Imam Aḥmad
+    title_ar: وفاة أبي بكر المروذي — كبير أصحاب الإمام أحمد
+    title_fr: Mort d'Abū Bakr al-Marrūdhī — disciple en chef de l'imam Aḥmad
+    description_en: |
+      Abū Bakr Aḥmad ibn Muḥammad ibn al-Ḥajjāj al-Marrūdhī (often
+      transliterated al-Marwazī) — the closest companion and senior
+      transmitter of Imam Aḥmad ibn Ḥanbal, the man who washed Aḥmad's
+      body and led his funeral prayer in 241 AH, and the principal
+      narrator of *Masāʾil Aḥmad* in the form preserved by Ḥanbalī
+      tradition — died at Baghdad in Jumādā al-Awwal 275 AH (~September
+      888 CE), per al-Dhahabī's *Siyar Aʿlām al-Nubalāʾ* and Ibn Abī
+      Yaʿlā's *Ṭabaqāt al-Ḥanābila*. Aḥmad was reportedly so attached
+      to him that he said, "All my companions are like a single hand
+      to me, except Abū Bakr al-Marrūdhī — for he is in my heart."
+      Through al-Marrūdhī passes a substantial fraction of the Ḥanbalī
+      *uṣūl* — the school's *Masāʾil*, the recorded responses of Aḥmad
+      on questions of fiqh, ḥadīth criticism and creed — and his small
+      treatise *al-Waraʿ* on scrupulousness in livelihood is among
+      the earliest surviving Ḥanbalī ethical works.
+    description_ar: |
+      توفي الإمام أبو بكر أحمد بن محمد بن الحجاج المرّوذي — أخص أصحاب
+      الإمام أحمد بن حنبل وكبير الرواة عنه، والذي تولى غسله والصلاة
+      عليه سنة ٢٤١ هـ، وهو الراوي الأول لـ«مسائل أحمد» على نسختها
+      التي اعتمدها الحنابلة — ببغداد في جمادى الأولى سنة ٢٧٥ هـ
+      (~سبتمبر ٨٨٨ م) كما حفظ ذلك الذهبي في «السير» وابن أبي يعلى في
+      «طبقات الحنابلة». روي أن الإمام أحمد كان يقول: «أصحابي كلهم بمنزلة
+      اليد الواحدة عندي، إلا أبا بكر المرّوذي فإنه في قلبي». وعن طريقه
+      تنتقل كثير من أصول المذهب الحنبلي ومسائل أحمد ومواقفه في الفقه
+      والحديث والاعتقاد. ورسالته الصغيرة في «الورع» من أقدم تصانيف
+      الزهد عند الحنابلة الواصلة إلينا.
+    description_fr: |
+      Abū Bakr Aḥmad ibn Muḥammad ibn al-Ḥajjāj al-Marrūdhī (souvent
+      translittéré al-Marwazī) — le plus proche compagnon et premier
+      transmetteur de l'imam Aḥmad ibn Ḥanbal, l'homme qui lava son
+      corps et conduisit sa prière funéraire en 241 H, et le narrateur
+      principal des *Masāʾil Aḥmad* sous la forme préservée par la
+      tradition ḥanbalite — mourut à Bagdad en Jumādā I 275 H (~septembre
+      888 EC), selon les *Siyar Aʿlām al-Nubalāʾ* d'al-Dhahabī et les
+      *Ṭabaqāt al-Ḥanābila* d'Ibn Abī Yaʿlā. Aḥmad lui aurait été si
+      attaché qu'il disait : « tous mes compagnons sont pour moi comme
+      une seule main, sauf Abū Bakr al-Marrūdhī — car il est dans mon
+      cœur ». Une part substantielle des *uṣūl* ḥanbalites — les
+      *Masāʾil* de l'école, les réponses consignées d'Aḥmad sur les
+      questions de fiqh, de critique du ḥadīth et de credo — passe par
+      al-Marrūdhī, et son petit traité *al-Waraʿ* sur le scrupule
+      figure parmi les premiers écrits éthiques ḥanbalites conservés.
+    canonical_hijri: {year: 275, precision: year}
+    canonical_gregorian: {date: 888-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar 13:173 — death at Baghdad Jumādā I 275 AH; closest companion of Aḥmad."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-275 chronicle entry in al-Bidāya wa-l-Nihāya."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under year 275 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-275 entry; key node of the Ḥanbalī Masāʾil tradition."
+    people: [[al-marrudhi, died], [ahmad-ibn-hanbal, subject]]
+    tags: [abbasid, baghdad, hanbali, fiqh, masail-ahmad, third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hanbali_school"
+
+  - slug: death-of-ibn-battah-al-ukbari
+    category: scholar_death
+    title_en: Death of Ibn Baṭṭa al-ʿUkbarī — author of *al-Ibāna al-Kubrā*
+    title_ar: وفاة ابن بطة العكبري — صاحب «الإبانة الكبرى»
+    title_fr: Mort d'Ibn Baṭṭa al-ʿUkbarī — auteur d'*al-Ibāna al-Kubrā*
+    description_en: |
+      Abū ʿAbd Allāh ʿUbayd Allāh ibn Muḥammad ibn Muḥammad ibn Ḥamdān
+      al-ʿUkbarī, known as Ibn Baṭṭa — Ḥanbalī jurist, traditionist
+      and creedal authority of ʿUkbarā (a town on the Tigris north of
+      Baghdad), and author of *al-Ibāna ʿan Sharīʿat al-Firqa al-Nājiya*
+      (commonly known as *al-Ibāna al-Kubrā*) — one of the foundational
+      Sunni creedal compendia of the late 4th-century AH Baghdadi
+      Ḥanbalī tradition — died at ʿUkbarā in 387 AH (~997 CE) at age
+      about 84, per al-Dhahabī's *Siyar* and Ibn al-ʿImād's *Shadharāt
+      al-Dhahab*. *al-Ibāna al-Kubrā* preserves ḥadīth-supported
+      formulations of the Sunni position on the divine attributes,
+      *qadar*, the status of the Companions, and the early Khārijī /
+      Muʿtazilī controversies; it is one of the earliest extant works
+      to systematize the Ḥanbalī creedal corpus before al-Lalakāʾī's
+      *Sharḥ Uṣūl Iʿtiqād*. Some later ḥadīth critics (notably
+      al-Khaṭīb al-Baghdādī and al-Dhahabī himself) flagged
+      transmissional weaknesses in parts of his hearing chains while
+      preserving him in the higher rank of the *thiqāt* overall.
+    description_ar: |
+      توفي الإمام أبو عبد الله عبيد الله بن محمد بن محمد بن حمدان العكبري
+      المعروف بـابن بطّة — فقيه الحنابلة ومحدثهم وعالم العقيدة في
+      عُكْبَرَى (بلدة على دجلة شمال بغداد)، وصاحب «الإبانة عن شريعة
+      الفرقة الناجية» المعروفة بـ«الإبانة الكبرى»، وهو من المصنفات
+      الكبرى عند أهل السنة في علم الاعتقاد في تراث الحنابلة البغداديين
+      أواخر القرن الرابع — بعكبرى سنة ٣٨٧ هـ (~٩٩٧ م) عن نحو أربع
+      وثمانين سنة كما في «سير أعلام النبلاء» للذهبي و«شذرات الذهب»
+      لابن العماد. تحفظ «الإبانة الكبرى» تقريرات أهل السنة في الصفات
+      والقدر ومنزلة الصحابة والرد على الخوارج والمعتزلة بأسانيدها،
+      وهي من أقدم المتون التي بسطت العقيدة الحنبلية تأصيلاً قبل «شرح
+      أصول الاعتقاد» للالكائي. وقد نبه بعض النقاد المتأخرين كالخطيب
+      البغدادي والذهبي إلى لين في بعض أسانيد سماعاته مع إبقائه في
+      جملة الثقات.
+    description_fr: |
+      Abū ʿAbd Allāh ʿUbayd Allāh ibn Muḥammad ibn Muḥammad ibn Ḥamdān
+      al-ʿUkbarī, dit Ibn Baṭṭa — juriste, traditionniste et autorité
+      en credo ḥanbalite à ʿUkbarā (ville du Tigre au nord de Bagdad),
+      et auteur d'*al-Ibāna ʿan Sharīʿat al-Firqa al-Nājiya* (connue
+      sous le nom d'*al-Ibāna al-Kubrā*) — l'un des grands recueils
+      de credo sunnite de la tradition ḥanbalite bagdadienne de la
+      fin du IVe siècle hégirien — mourut à ʿUkbarā en 387 H (~997 EC)
+      à l'âge d'environ 84 ans, selon les *Siyar* d'al-Dhahabī et les
+      *Shadharāt al-Dhahab* d'Ibn al-ʿImād. *al-Ibāna al-Kubrā*
+      préserve les formulations ḥadīthiques sunnites sur les attributs
+      divins, le *qadar*, la rang des Compagnons et les premières
+      controverses khārijites et muʿtazilites ; c'est l'un des plus
+      anciens ouvrages systématiques du corpus créédal ḥanbalite,
+      antérieur au *Sharḥ Uṣūl Iʿtiqād* d'al-Lalakāʾī. Plusieurs
+      critiques ḥadīthiques tardifs (notamment al-Khaṭīb al-Baghdādī
+      et al-Dhahabī lui-même) ont signalé des faiblesses
+      transmissionnelles dans certaines de ses chaînes d'audition,
+      tout en le maintenant dans le rang supérieur des *thiqāt*.
+    canonical_hijri: {year: 387, precision: year}
+    canonical_gregorian: {date: 997-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar 16:529 — death at ʿUkbarā 387 AH; al-Ibāna al-Kubrā as principal creedal work."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-387 chronicle entry in al-Bidāya wa-l-Nihāya 11:340."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 387 AH 3:122."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-387 entry confirms place and year."
+    people: [[ibn-battah-al-ukbari, died]]
+    tags: [abbasid, ukbara, baghdad, hanbali, aqida, creed, fourth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Batta_al-Ukbari"
+
+  - slug: death-of-ibn-al-banna-al-hanbali
+    category: scholar_death
+    title_en: Death of Ibn al-Bannāʾ al-Ḥanbalī — Baghdadi polymath of the school
+    title_ar: وفاة ابن البناء الحنبلي — موسوعي بغداد من فقهاء المذهب
+    title_fr: Mort d'Ibn al-Bannāʾ al-Ḥanbalī — polymathe bagdadien de l'école
+    description_en: |
+      Abū ʿAlī al-Ḥasan ibn Aḥmad ibn ʿAbd Allāh ibn al-Bannāʾ — Ḥanbalī
+      jurist, mufassir, traditionist, grammarian and notable diarist
+      of late-Buyid Baghdad, author of works in tafsīr, fiqh, uṣūl,
+      and a pioneering autobiographical journal preserved in part by
+      Ibn al-Jawzī — died at Baghdad on Tuesday 5 Rajab 471 AH
+      (~January 1079 CE), per Ibn Rajab's *Dhayl Ṭabaqāt al-Ḥanābila*
+      and al-Dhahabī's *Siyar Aʿlām al-Nubalāʾ*. Some classical
+      sources record the burial on 6 Rajab; we follow the day-of-
+      death given in Ibn Rajab and reported by Ibn al-Jawzī. He was
+      a student of al-Qāḍī Abū Yaʿlā al-Farrāʾ and a teacher of the
+      Sharīf Abū Jaʿfar al-Hāshimī, fitting in the same generation
+      that produced Ibn ʿAqīl. The breadth of his output (over 150
+      titles attested) and his fragmentary diary make him an unusually
+      well-documented figure of the late-Abbasid Baghdadi madhhab.
+    description_ar: |
+      توفي الإمام أبو علي الحسن بن أحمد بن عبد الله ابن البنّاء الحنبلي
+      — فقيه ومفسر ومحدث ولغوي وصاحب يوميات شخصية من فقهاء بغداد في
+      أواخر العهد البويهي، له تصانيف في التفسير والفقه والأصول، ومذكرة
+      شخصية رائدة لم يصلنا منها إلا فقرات حفظها ابن الجوزي — ببغداد
+      يوم الثلاثاء الخامس من رجب سنة ٤٧١ هـ (~يناير ١٠٧٩ م) كما حفظ
+      ذلك ابن رجب في «ذيل طبقات الحنابلة» والذهبي في «السير». ذكر
+      بعض المصادر أن دفنه كان يوم السادس من رجب، ونعتمد يوم الوفاة
+      كما عند ابن رجب وابن الجوزي. تتلمذ على القاضي أبي يعلى الفرّاء،
+      وعلّم الشريف أبا جعفر الهاشمي، فهو من طبقة ابن عقيل. وسعة
+      تصانيفه (أكثر من ١٥٠ كتاباً) ومذكرته الناجية من الضياع تجعله
+      من أحسن أعلام المذهب البغدادي توثيقاً في تلك الحقبة.
+    description_fr: |
+      Abū ʿAlī al-Ḥasan ibn Aḥmad ibn ʿAbd Allāh ibn al-Bannāʾ —
+      juriste ḥanbalite, mufassir, traditionniste, grammairien et
+      auteur d'un journal personnel notable du Bagdad bouyide tardif ;
+      il composa des ouvrages de tafsīr, de fiqh et d'uṣūl ainsi
+      qu'un journal autobiographique pionnier dont des fragments
+      furent préservés par Ibn al-Jawzī — mourut à Bagdad le mardi
+      5 Rajab 471 H (~janvier 1079 EC), selon le *Dhayl Ṭabaqāt
+      al-Ḥanābila* d'Ibn Rajab et les *Siyar Aʿlām al-Nubalāʾ*
+      d'al-Dhahabī. Certaines sources classiques placent l'inhumation
+      au 6 Rajab ; nous suivons la date de décès retenue par Ibn
+      Rajab et Ibn al-Jawzī. Disciple du qāḍī Abū Yaʿlā al-Farrāʾ
+      et maître du sharīf Abū Jaʿfar al-Hāshimī, il appartient à la
+      génération qui produisit Ibn ʿAqīl. L'étendue de ses écrits
+      (plus de 150 titres attestés) et son journal partiellement
+      conservé en font l'une des figures les mieux documentées du
+      madhhab bagdadien de cette période.
+    canonical_hijri: {year: 471, month: 7, day: 5, precision: day}
+    canonical_gregorian: {date: 1079-01-13, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar 18:381 — death 5 Rajab 471 AH at Baghdad; over 150 titles attested."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-471 chronicle entry in al-Bidāya wa-l-Nihāya 12:118."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 471 AH 3:339."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām year-471 entry; alt burial-date 6 Rajab noted."
+    people: [[ibn-al-banna-al-hanbali, died]]
+    tags: [abbasid, baghdad, hanbali, fiqh, tafsir, fifth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hanbali_school"
+
+  - slug: death-of-ibn-aqil-al-baghdadi
+    category: scholar_death
+    title_en: Death of Ibn ʿAqīl al-Baghdādī — author of *al-Funūn*
+    title_ar: وفاة ابن عقيل البغدادي — صاحب «الفنون»
+    title_fr: Mort d'Ibn ʿAqīl al-Baghdādī — auteur d'*al-Funūn*
+    description_en: |
+      Abū al-Wafāʾ ʿAlī ibn ʿAqīl ibn Muḥammad al-Baghdādī al-Ḥanbalī
+      al-Ẓafarī — leading Ḥanbalī jurist, theologian and uṣūlī of
+      late-Saljūq Baghdad, author of the colossal multi-volume
+      *Kitāb al-Funūn* (a vast notebook of fiqh, theology, polemics,
+      grammar, mysticism and personal reflection — the largest single-
+      author book in the medieval Arabic tradition by some classical
+      estimates) and *al-Wāḍiḥ fī Uṣūl al-Fiqh* — died at Baghdad on
+      Friday 12 Jumādā al-Awlā 513 AH (~21 August 1119 CE) at age
+      about 80, per al-Dhahabī's *Siyar*, Ibn Khallikān's *Wafayāt*,
+      and Ibn al-Jawzī's *al-Muntaẓam* (Ibn al-Jawzī himself attended
+      his teaching circle). Ibn ʿAqīl had earlier come under attack
+      from rigorist Ḥanbalī colleagues for studying with Muʿtazilī
+      teachers; he made a famous public retraction (the *Tawba*
+      preserved in his own works), and his subsequent output became
+      the principal vehicle through which the school engaged seriously
+      with kalām and uṣūl. *al-Wāḍiḥ* is one of the foundational works
+      of Ḥanbalī uṣūl al-fiqh.
+    description_ar: |
+      توفي الإمام أبو الوفاء علي بن عقيل بن محمد البغدادي الحنبلي
+      الظفري — كبير فقهاء الحنابلة في بغداد في أواخر العهد السلجوقي
+      ومتكلمهم وأصوليهم، صاحب الكتاب الموسوعي الضخم «كتاب الفنون» —
+      وهو دفتر فقه وكلام ومناظرات ولغة وتصوف ومجالس ذاتية، عُدّ من
+      أكبر كتاب صنف من تأليف رجل واحد في التراث العربي الوسيط — وكتاب
+      «الواضح في أصول الفقه» — ببغداد يوم الجمعة الثاني عشر من جمادى
+      الأولى سنة ٥١٣ هـ (~٢١ أغسطس ١١١٩ م) عن نحو ثمانين سنة، كما
+      حفظ ذلك الذهبي في «السير» وابن خلكان في «الوفيات» وابن الجوزي
+      في «المنتظم» — وكان ابن الجوزي نفسه من حضّار حلقته. وقد كان ابن
+      عقيل قد تعرض في شبابه لطعن بعض شيوخ الحنابلة المشددين بسبب
+      أخذه عن شيوخ معتزلة، فأعلن توبته الشهيرة (وهي «التوبة» المحفوظة
+      في تصانيفه)، ثم صار من بعدها الواجهة العلمية التي عبر بها
+      المذهب إلى علم الكلام والأصول جدّياً. و«الواضح» من أوائل أصول
+      الفقه الحنبلي.
+    description_fr: |
+      Abū al-Wafāʾ ʿAlī ibn ʿAqīl ibn Muḥammad al-Baghdādī al-Ḥanbalī
+      al-Ẓafarī — juriste, théologien et uṣūlī ḥanbalite de premier
+      plan dans le Bagdad saljūqide tardif, auteur du colossal
+      *Kitāb al-Funūn* (un vaste cahier de fiqh, de théologie, de
+      polémique, de grammaire, de mystique et de réflexion personnelle
+      — selon certaines estimations classiques, le plus grand livre
+      d'un seul auteur de la tradition arabe médiévale) et d'*al-Wāḍiḥ
+      fī Uṣūl al-Fiqh* — mourut à Bagdad le vendredi 12 Jumādā I 513 H
+      (~21 août 1119 EC) à l'âge d'environ 80 ans, selon les *Siyar*
+      d'al-Dhahabī, les *Wafayāt* d'Ibn Khallikān et al-*Muntaẓam*
+      d'Ibn al-Jawzī (lequel avait personnellement assisté à son
+      cercle d'enseignement). Plus jeune, Ibn ʿAqīl avait été attaqué
+      par les ḥanbalites rigoristes pour avoir étudié auprès de
+      maîtres muʿtazilites ; il prononça la fameuse rétractation
+      publique (la *Tawba* préservée dans ses propres écrits), et sa
+      production ultérieure devint le principal véhicule par lequel
+      l'école s'engagea sérieusement avec le kalām et les uṣūl.
+      *al-Wāḍiḥ* est l'un des ouvrages fondateurs des uṣūl al-fiqh
+      ḥanbalites.
+    canonical_hijri: {year: 513, month: 5, day: 12, precision: day}
+    canonical_gregorian: {date: 1119-08-21, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar 19:443 — death Friday 12 Jumādā I 513 AH at Baghdad; al-Funūn and al-Wāḍiḥ as principal works."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt 3:259 — confirms 12 Jumādā I 513 AH, age ~80; Tawba and Muʿtazilī controversy."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-513 chronicle entry in al-Bidāya wa-l-Nihāya 12:188."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 513 AH 4:35."
+    people: [[ibn-aqil-al-baghdadi, died]]
+    tags: [abbasid, saljuq, baghdad, hanbali, kalam, usul-al-fiqh, sixth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Aqil"
+
+  - slug: death-of-ibn-hubayra
+    category: scholar_death
+    title_en: Death of al-Wazīr Ibn Hubayra — Ḥanbalī jurist-vizier of the late ʿAbbāsid caliphate
+    title_ar: وفاة الوزير ابن هبيرة — الفقيه الحنبلي ووزير أواخر العباسيين
+    title_fr: Mort du vizir Ibn Hubayra — juriste ḥanbalite et vizir abbasside tardif
+    description_en: |
+      ʿAwn al-Dīn Abū al-Muẓaffar Yaḥyā ibn Muḥammad ibn Hubayra
+      al-Shaybānī al-Baghdādī al-Dūrī — Ḥanbalī jurist, ḥadīth scholar
+      and vizier (*al-wazīr*) of the ʿAbbāsid caliphs al-Muqtafī and
+      al-Mustanjid for more than fifteen years; author of *al-Ifṣāḥ
+      ʿan Maʿānī al-Ṣiḥāḥ*, a comparative ḥadīth-and-fiqh commentary
+      on Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim notable for systematic
+      cross-school *ikhtilāf* — died at Baghdad on Sunday 13 Jumādā
+      al-Awlā 560 AH (~28 March 1165 CE) at age about 60, per Ibn
+      Khallikān's *Wafayāt*, al-Dhahabī's *Siyar*, and Ibn al-Jawzī's
+      *al-Muntaẓam*. Several classical sources transmit suspicions
+      that he was poisoned by an enemy in his household; al-Dhahabī
+      records the report without endorsing it. As vizier he funded
+      ḥadīth circles in Baghdad, restored Ḥanbalī teaching positions
+      across the capital, and drew Ibn al-Jawzī into the literary
+      court — a pattern of patronage that helped consolidate the
+      Ḥanbalī revival of the late 6th century AH.
+    description_ar: |
+      توفي الوزير عون الدين أبو المظفر يحيى بن محمد بن هبيرة الشيباني
+      البغدادي الدُّوري — فقيه الحنابلة ومحدثهم، ووزير الخليفتين
+      المقتفي والمستنجد العباسيَّيْن نحو خمس عشرة سنة، وصاحب «الإفصاح
+      عن معاني الصحاح» وهو شرح ووجوه فقهية على «الصحيحين» تميز
+      ببسط مسائل الخلاف بين المذاهب — ببغداد يوم الأحد الثالث عشر من
+      جمادى الأولى سنة ٥٦٠ هـ (~٢٨ مارس ١١٦٥ م) عن نحو ستين سنة كما
+      حفظ ذلك ابن خلكان في «الوفيات» والذهبي في «السير» وابن الجوزي
+      في «المنتظم». وقد روت بعض المصادر القديمة شبهة أنه سُمَّ من
+      قبل بعض من في بيته، نقل ذلك الذهبي من غير ترجيح. وكان ابن
+      هبيرة في وزارته يمول حلقات الحديث ببغداد ويعيد للحنابلة مواقعهم
+      التعليمية في عاصمة الخلافة، واصطنع ابن الجوزي في حضرته الأدبية
+      — وهو مسلك ساعد على إحياء المذهب الحنبلي في أواخر القرن السادس.
+    description_fr: |
+      ʿAwn al-Dīn Abū al-Muẓaffar Yaḥyā ibn Muḥammad ibn Hubayra
+      al-Shaybānī al-Baghdādī al-Dūrī — juriste et muḥaddith
+      ḥanbalite, et vizir (*al-wazīr*) des califes abbassides
+      al-Muqtafī et al-Mustanjid pendant plus de quinze ans ; auteur
+      d'*al-Ifṣāḥ ʿan Maʿānī al-Ṣiḥāḥ*, un commentaire ḥadīthique-et-
+      fiqh comparatif sur les *Ṣaḥīḥ* d'al-Bukhārī et de Muslim,
+      remarquable pour son traitement systématique de l'*ikhtilāf*
+      entre les écoles — mourut à Bagdad le dimanche 13 Jumādā I
+      560 H (~28 mars 1165 EC) à l'âge d'environ 60 ans, selon les
+      *Wafayāt* d'Ibn Khallikān, les *Siyar* d'al-Dhahabī et al-
+      *Muntaẓam* d'Ibn al-Jawzī. Plusieurs sources classiques
+      rapportent des soupçons d'empoisonnement par un ennemi de sa
+      maison ; al-Dhahabī consigne la rumeur sans l'avaliser. Comme
+      vizir, il finançait les cercles de ḥadīth à Bagdad, restaura
+      les postes d'enseignement ḥanbalites dans la capitale et
+      attira Ibn al-Jawzī à sa cour littéraire — schéma de mécénat
+      qui contribua à consolider la renaissance ḥanbalite de la fin
+      du VIe siècle hégirien.
+    canonical_hijri: {year: 560, month: 5, day: 13, precision: day}
+    canonical_gregorian: {date: 1165-03-28, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafayāt 6:230 — death 13 Jumādā I 560 AH; vizier of al-Muqtafī and al-Mustanjid; al-Ifṣāḥ as principal work."
+      - source_key: dhahabi_siyar
+        notes: "Siyar 20:426 — confirms 13 Jumādā I 560 AH; transmits poisoning report without endorsement."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-560 chronicle entry in al-Bidāya wa-l-Nihāya 12:248."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 560 AH 4:188."
+    people: [[ibn-hubayra, died]]
+    tags: [abbasid, baghdad, hanbali, vizier, sahihayn, sixth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Hubayra"
+
+  # =========================================================================
+  # SHĀFIʿĪ SCHOOL — FIVE SECONDARY MASTERS
+  # =========================================================================
+
+  - slug: death-of-harmala-ibn-yahya
+    category: scholar_death
+    title_en: Death of Ḥarmala ibn Yaḥyā — Egyptian transmitter of al-Shāfiʿī's *Mabsūṭ*
+    title_ar: وفاة حرملة بن يحيى — راوي «المبسوط» للشافعي بمصر
+    title_fr: Mort de Ḥarmala ibn Yaḥyā — transmetteur égyptien du *Mabsūṭ* d'al-Shāfiʿī
+    description_en: |
+      Abū Ḥafṣ Ḥarmala ibn Yaḥyā ibn ʿAbd Allāh al-Tujībī al-Miṣrī —
+      senior Egyptian disciple of Imam Muḥammad ibn Idrīs al-Shāfiʿī,
+      transmitter of his *Mabsūṭ* (a lost-but-cited corpus of fiqh
+      *masāʾil* on which al-Shāfiʿī's later Egyptian-recension *Umm*
+      drew), and a named teacher of Imam Muslim, Ibn Mājah and Abū
+      Ḥātim al-Rāzī — died at Egypt in Shawwāl 243 AH (~February 858
+      CE) at about age 77, per al-Dhahabī's *Siyar Aʿlām al-Nubalāʾ*
+      and Ibn Khallikān's *Wafayāt al-Aʿyān*. Ḥarmala held an
+      ambivalent reputation in the post-Shāfiʿī ḥadīth-criticism
+      tradition: al-Nasāʾī weakened him as a transmitter of certain
+      Egyptian narrations on Ibn Wahb (*ḍaʿīf*), while Ibn Maʿīn,
+      Imam Muslim and the bulk of the Shāfiʿiyya considered him
+      reliable in the school's own *masāʾil* and treated him as the
+      main living conduit of his master's later positions. He must
+      not be confused with Ḥarmala mawlā Usāma ibn Zayd, the early
+      Companion-era figure.
+    description_ar: |
+      توفي الإمام أبو حفص حرملة بن يحيى بن عبد الله التجيبي المصري —
+      كبير أصحاب الإمام محمد بن إدريس الشافعي بمصر، وراوي كتابه
+      «المبسوط» — وهو من أصول الشافعي القديمة التي بُنيت عليها
+      «الأم» في طبعة مصر — وهو من شيوخ الإمام مسلم وابن ماجه وأبي
+      حاتم الرازي — بمصر في شوال سنة ٢٤٣ هـ (~فبراير ٨٥٨ م) عن نحو
+      سبع وسبعين سنة، كما حفظ ذلك الذهبي في «السير» وابن خلكان في
+      «الوفيات». وكانت ترجمته في كتب الجرح والتعديل ذات وجهين: ضعفه
+      النسائي في رواياته المصرية عن ابن وهب، وكان ابن معين والإمام
+      مسلم وعامة الشافعية يرونه ثقة في مسائل المذهب نفسه، يعتمدون
+      عليه في نقل المتأخر من قول الإمام الشافعي. ولا يخلط بينه وبين
+      حرملة مولى أسامة بن زيد رضي الله عنه من جيل الصحابة.
+    description_fr: |
+      Abū Ḥafṣ Ḥarmala ibn Yaḥyā ibn ʿAbd Allāh al-Tujībī al-Miṣrī —
+      disciple égyptien éminent de l'imam Muḥammad ibn Idrīs
+      al-Shāfiʿī, transmetteur de son *Mabsūṭ* (corpus de *masāʾil*
+      de fiqh perdu mais cité, dont la recension égyptienne tardive
+      de l'*Umm* dérive en partie), et maître nommé de l'imam
+      Muslim, d'Ibn Mājah et d'Abū Ḥātim al-Rāzī — mourut en Égypte
+      en Shawwāl 243 H (~février 858 EC) à l'âge d'environ 77 ans,
+      selon les *Siyar Aʿlām al-Nubalāʾ* d'al-Dhahabī et les
+      *Wafayāt al-Aʿyān* d'Ibn Khallikān. Ḥarmala avait une
+      réputation ambivalente dans la critique post-shāfiʿīte du
+      ḥadīth : al-Nasāʾī le déclara faible (*ḍaʿīf*) dans certaines
+      narrations égyptiennes par Ibn Wahb, tandis qu'Ibn Maʿīn,
+      l'imam Muslim et l'ensemble des shāfiʿītes le tenaient pour
+      fiable dans les *masāʾil* internes de l'école et le traitaient
+      comme le principal vivant relais des positions tardives de
+      son maître. Il est à ne pas confondre avec Ḥarmala mawlā
+      Usāma ibn Zayd, figure de l'époque des Compagnons.
+    canonical_hijri: {year: 243, month: 10, precision: month}
+    canonical_gregorian: {date: 858-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar 12:133 — death Shawwāl 243 AH at Egypt; transmitter of al-Shāfiʿī's Mabsūṭ."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt 2:64 — confirms Shawwāl 243 AH, age ~77; teacher of Muslim and Ibn Mājah."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-243 chronicle entry in al-Bidāya wa-l-Nihāya 10:339."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 243 AH 2:103."
+    people: [[harmala-ibn-yahya, died], [ash-shafii, subject]]
+    tags: [abbasid, egypt, shafii, fiqh, mabsut, third-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shafi%27i"
+
+  - slug: death-of-abu-hamid-al-isfaraini
+    category: scholar_death
+    title_en: Death of Abū Ḥāmid al-Isfarāʾīnī — *Imām al-Aṣḥāb* of his time
+    title_ar: وفاة أبي حامد الإسفراييني — إمام الأصحاب في زمانه
+    title_fr: Mort d'Abū Ḥāmid al-Isfarāʾīnī — *imām al-aṣḥāb* de son temps
+    description_en: |
+      Abū Ḥāmid Aḥmad ibn Muḥammad ibn Aḥmad al-Isfarāʾīnī — leading
+      Shāfiʿī jurist of late-Buyid Baghdad, mufti of his generation
+      and head of the largest Shāfiʿī teaching circle in the capital
+      (some 700 students); author of a celebrated *Taʿlīqa* on Shāfiʿī
+      fiqh that became the basis of much subsequent Iraqī Shāfiʿī
+      scholarship; and styled by later Shāfiʿīs as *Imām al-Aṣḥāb*
+      ("imam of the school's companions") — died at Baghdad on Friday
+      23 Shawwāl 406 AH (~5 April 1016 CE) at age 62, per al-Dhahabī's
+      *Siyar*, Ibn Khallikān's *Wafayāt*, and al-Subkī's *Ṭabaqāt
+      al-Shāfiʿiyya al-Kubrā*. Through Abū Ḥāmid passes the chain of
+      Shāfiʿī uṣūl-and-furūʿ in Baghdad to al-Māwardī (his student),
+      al-Maḥāmilī (his contemporary), and on to the later Niẓāmiyya
+      generation. He is to be carefully distinguished from his
+      contemporaries Abū al-ʿAbbās ibn Surayj (d. 306) and Abū
+      Isḥāq al-Isfarāʾīnī (d. 418) — the latter is the famous Ashʿarī
+      mutakallim, with whom Abū Ḥāmid is sometimes confused.
+    description_ar: |
+      توفي الإمام أبو حامد أحمد بن محمد بن أحمد الإسفراييني — كبير
+      فقهاء الشافعية ببغداد في أواخر العصر البويهي، ومفتي عصره وكبير
+      حلق التدريس في العاصمة — قيل بلغ تلامذته نحو سبع مئة طالب —
+      وصاحب «التعليقة» المعروفة في فقه الشافعية التي صارت أصلاً لكثير
+      من تصانيف العراقيين بعدها، ولقبه المتأخرون من الشافعية بـ«إمام
+      الأصحاب» — ببغداد يوم الجمعة الثالث والعشرين من شوال سنة ٤٠٦
+      هـ (~٥ أبريل ١٠١٦ م) عن اثنتين وستين سنة كما حفظ ذلك الذهبي في
+      «السير» وابن خلكان في «الوفيات» والسبكي في «طبقات الشافعية
+      الكبرى». وعن أبي حامد ينتقل سند الشافعية في الأصول والفروع
+      ببغداد إلى الماوردي تلميذه، والمحاملي قرينه، ثم إلى طبقة
+      النظامية. ولا يخلط بينه وبين قرينيه أبي العباس بن سريج (ت ٣٠٦)
+      وأبي إسحاق الإسفراييني (ت ٤١٨) — وهذا الأخير هو المتكلم الأشعري
+      المشهور، يقع الخلط بينهما عند بعض الباحثين.
+    description_fr: |
+      Abū Ḥāmid Aḥmad ibn Muḥammad ibn Aḥmad al-Isfarāʾīnī — juriste
+      shāfiʿīte de premier plan dans le Bagdad bouyide tardif, muftī
+      de sa génération et tête du plus grand cercle d'enseignement
+      shāfiʿīte de la capitale (quelque 700 disciples) ; auteur d'une
+      célèbre *Taʿlīqa* en fiqh shāfiʿīte qui servit de base à une
+      grande partie de la production irakienne ultérieure ; et
+      qualifié par les shāfiʿītes tardifs d'*Imām al-Aṣḥāb* (« imam
+      des compagnons de l'école ») — mourut à Bagdad le vendredi
+      23 Shawwāl 406 H (~5 avril 1016 EC) à l'âge de 62 ans, selon
+      les *Siyar* d'al-Dhahabī, les *Wafayāt* d'Ibn Khallikān et les
+      *Ṭabaqāt al-Shāfiʿiyya al-Kubrā* d'al-Subkī. Par Abū Ḥāmid
+      passe la chaîne shāfiʿīte d'uṣūl et de furūʿ à Bagdad, vers
+      al-Māwardī (son disciple), al-Maḥāmilī (son contemporain) et
+      la génération ultérieure de la Niẓāmiyya. Il est à distinguer
+      soigneusement de ses contemporains Abū al-ʿAbbās ibn Surayj
+      (m. 306) et Abū Isḥāq al-Isfarāʾīnī (m. 418) — ce dernier
+      étant le célèbre mutakallim ashʿarīte, avec lequel Abū Ḥāmid
+      est parfois confondu.
+    canonical_hijri: {year: 406, month: 10, day: 23, precision: day}
+    canonical_gregorian: {date: 1016-04-05, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar 17:193 — death 23 Shawwāl 406 AH at Baghdad; ~700 students; Imām al-Aṣḥāb."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt 1:72 — confirms 23 Shawwāl 406 AH, age 62; Taʿlīqa as principal work."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-406 chronicle entry in al-Bidāya wa-l-Nihāya 11:373."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 406 AH 3:178."
+    people: [[abu-hamid-al-isfaraini, died]]
+    tags: [abbasid, buyid, baghdad, shafii, fiqh, fifth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Hamid_al-Isfarayini"
+
+  - slug: death-of-abu-al-hasan-al-mahamili
+    category: scholar_death
+    title_en: Death of Abū al-Ḥasan al-Maḥāmilī — Shāfiʿī mufti and author of *al-Lubāb*
+    title_ar: وفاة أبي الحسن المحاملي — مفتي الشافعية وصاحب «اللباب»
+    title_fr: Mort d'Abū al-Ḥasan al-Maḥāmilī — muftī shāfiʿīte et auteur d'*al-Lubāb*
+    description_en: |
+      Abū al-Ḥasan Aḥmad ibn Muḥammad ibn Aḥmad al-Ḍabbī al-Maḥāmilī
+      al-Baghdādī — Shāfiʿī jurist of late-Buyid Baghdad, student of
+      Abū Ḥāmid al-Isfarāʾīnī (with whom he constituted a teaching
+      pair at the city's Shāfiʿī circles), and author of three
+      compact and influential fiqh manuals — *al-Tajrīd*, *al-Lubāb*
+      (an important late Iraqī Shāfiʿī compendium), and *al-Majmūʿ*
+      — died at Baghdad in Rabīʿ al-Awwal 415 AH (~May 1024 CE) at
+      age about 67, per al-Dhahabī's *Siyar*, Ibn Khallikān's
+      *Wafayāt*, and al-Subkī's *Ṭabaqāt al-Shāfiʿiyya al-Kubrā*.
+      *al-Lubāb* in particular is repeatedly cited by al-Nawawī in
+      his *Majmūʿ Sharḥ al-Muhadhdhab* and was a fixture of pre-
+      Ghazālī Iraqī Shāfiʿī instruction. He is the *grand-father*
+      of Sutayta bint al-Maḥāmilī, the celebrated Shāfiʿī
+      jurist-arithmetician (d. 377 AH) — a different generation; he
+      is to be carefully distinguished from his earlier kinsman
+      al-Qāḍī Abū ʿAbd Allāh al-Maḥāmilī (d. 330 AH), the muḥaddith.
+    description_ar: |
+      توفي الإمام أبو الحسن أحمد بن محمد بن أحمد الضبّي المحاملي
+      البغدادي — فقيه الشافعية ببغداد في أواخر العصر البويهي،
+      تلميذ أبي حامد الإسفراييني (وكانا قرينين في الفتيا في حلق
+      الشافعية بالعاصمة)، وصاحب ثلاثة كتب فقه مختصرة مؤثرة:
+      «التجريد» و«اللباب» (من أمات كتب العراقيين الشافعية المتأخرة)
+      و«المجموع» — ببغداد في ربيع الأول سنة ٤١٥ هـ (~مايو ١٠٢٤ م)
+      عن نحو سبع وستين سنة، كما حفظ ذلك الذهبي في «السير» وابن خلكان
+      في «الوفيات» والسبكي في «طبقات الشافعية الكبرى». وكتاب «اللباب»
+      من الكتب التي يكثر النووي من النقل عنها في «المجموع شرح المهذب»،
+      وكان مقرراً من مقررات الشافعية العراقيين قبل الغزالي. وهو جد
+      ستيتة بنت المحاملي الفقيهة الحاسبة الشافعية المشهورة (ت ٣٧٧ هـ)
+      من جيل سابق، ويُحذر من الخلط بينه وبين قريبه القاضي أبي عبد
+      الله المحاملي المحدث (ت ٣٣٠ هـ).
+    description_fr: |
+      Abū al-Ḥasan Aḥmad ibn Muḥammad ibn Aḥmad al-Ḍabbī al-Maḥāmilī
+      al-Baghdādī — juriste shāfiʿīte du Bagdad bouyide tardif,
+      disciple d'Abū Ḥāmid al-Isfarāʾīnī (avec lequel il formait un
+      tandem dans les cercles shāfiʿītes de la capitale), et auteur
+      de trois manuels de fiqh compacts et influents — *al-Tajrīd*,
+      *al-Lubāb* (compendium shāfiʿīte tardif important pour les
+      Irakiens) et *al-Majmūʿ* — mourut à Bagdad en Rabīʿ I 415 H
+      (~mai 1024 EC) à l'âge d'environ 67 ans, selon les *Siyar*
+      d'al-Dhahabī, les *Wafayāt* d'Ibn Khallikān et les *Ṭabaqāt
+      al-Shāfiʿiyya al-Kubrā* d'al-Subkī. *al-Lubāb* en particulier
+      est cité à plusieurs reprises par al-Nawawī dans son *Majmūʿ
+      Sharḥ al-Muhadhdhab* et fut un texte de référence dans
+      l'enseignement shāfiʿīte irakien pré-ghazālien. Il est le
+      grand-père de Sutayta bint al-Maḥāmilī, la célèbre juriste-
+      arithméticienne shāfiʿīte (m. 377 H) — d'une génération
+      antérieure ; à ne pas confondre avec son parent plus ancien
+      al-Qāḍī Abū ʿAbd Allāh al-Maḥāmilī, le muḥaddith (m. 330 H).
+    canonical_hijri: {year: 415, month: 3, precision: month}
+    canonical_gregorian: {date: 1024-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar 17:402 — death Rabīʿ I 415 AH at Baghdad; al-Tajrīd, al-Lubāb, al-Majmūʿ."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt 1:140 — confirms Rabīʿ I 415 AH, age ~67; student of Abū Ḥāmid al-Isfarāʾīnī."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-415 chronicle entry in al-Bidāya wa-l-Nihāya 12:18."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 415 AH 3:202."
+    people: [[abu-al-hasan-al-mahamili, died]]
+    tags: [abbasid, buyid, baghdad, shafii, fiqh, fifth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shafi%27i"
+
+  - slug: death-of-al-furani
+    category: scholar_death
+    title_en: Death of al-Furānī — Shāfiʿī master of Marv-Rūdh
+    title_ar: وفاة الفوراني — شيخ الشافعية في مرو الروذ
+    title_fr: Mort d'al-Furānī — maître shāfiʿīte de Marv-Rūdh
+    description_en: |
+      Abū al-Qāsim ʿAbd al-Raḥmān ibn Muḥammad ibn Aḥmad al-Furānī
+      al-Marwazī — leading Khurāsānian Shāfiʿī jurist of his
+      generation, head of the Shāfiʿī teaching circle at Marv-Rūdh,
+      author of *al-ʿUmda*, *al-Ibāna ʿan Aḥkām al-Diyāna* (a
+      foundational late-Khurāsānian Shāfiʿī compendium that al-Juwaynī
+      and the Marv-Rūdhī school built upon), and notable opponent
+      in fiqh debate of his contemporary al-Qāḍī Ḥusayn al-Marwarrūdhī
+      — died at Marv-Rūdh in 461 AH (~1069 CE) per al-Dhahabī's *Siyar*
+      and al-Subkī's *Ṭabaqāt al-Shāfiʿiyya al-Kubrā*. Through
+      al-Furānī's *Ibāna* and the Marv-Rūdhī teaching tradition runs
+      a substantial portion of the Khurāsānian Shāfiʿī line that
+      culminates in Imam al-Ḥaramayn al-Juwaynī (d. 478 AH) and his
+      student al-Ghazālī (d. 505 AH); he is the master under whom
+      al-Juwaynī was raised in his Marv-Rūdh phase.
+    description_ar: |
+      توفي الإمام أبو القاسم عبد الرحمن بن محمد بن أحمد الفوراني
+      المروزي — كبير فقهاء الشافعية في خراسان في عصره، وشيخ حلقة
+      الشافعية في مرو الروذ، وصاحب «العمدة» و«الإبانة عن أحكام
+      الديانة» (وهو من الكتب الشافعية الكبرى عند الخراسانيين بُنيت
+      عليها مدرسة مرو الروذ، وأخذ منها الجويني وغيره)، وكان قرينه
+      في الفقه القاضي حسين المروروذي مع كثير من المناظرات بينهما —
+      بمرو الروذ سنة ٤٦١ هـ (~١٠٦٩ م) كما حفظ ذلك الذهبي في «السير»
+      والسبكي في «طبقات الشافعية الكبرى». وعبر «الإبانة» وتراث مدرسة
+      مرو الروذ ينتقل قدر كبير من المذهب الشافعي الخراساني إلى إمام
+      الحرمين الجويني (ت ٤٧٨ هـ) ثم إلى تلميذه الغزالي (ت ٥٠٥ هـ)؛
+      وعنه أخذ الجويني في مرحلته المرو روذية.
+    description_fr: |
+      Abū al-Qāsim ʿAbd al-Raḥmān ibn Muḥammad ibn Aḥmad al-Furānī
+      al-Marwazī — juriste shāfiʿīte khurasanien de premier plan
+      de sa génération, tête du cercle d'enseignement shāfiʿīte de
+      Marv-Rūdh, auteur d'*al-ʿUmda*, d'*al-Ibāna ʿan Aḥkām al-
+      Diyāna* (compendium shāfiʿīte khurasanien tardif fondateur,
+      sur lequel al-Juwaynī et l'école de Marv-Rūdh s'appuyèrent)
+      et adversaire notoire dans les débats de fiqh de son
+      contemporain al-Qāḍī Ḥusayn al-Marwarrūdhī — mourut à Marv-
+      Rūdh en 461 H (~1069 EC) selon les *Siyar* d'al-Dhahabī et
+      les *Ṭabaqāt al-Shāfiʿiyya al-Kubrā* d'al-Subkī. Par
+      l'*Ibāna* d'al-Furānī et la tradition d'enseignement de
+      Marv-Rūdh passe une part substantielle de la lignée shāfiʿīte
+      khurasanienne qui culmine en Imam al-Ḥaramayn al-Juwaynī
+      (m. 478 H) et son élève al-Ghazālī (m. 505 H) ; il est le
+      maître auprès duquel al-Juwaynī fut formé dans sa phase de
+      Marv-Rūdh.
+    canonical_hijri: {year: 461, precision: year}
+    canonical_gregorian: {date: 1069-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar 18:264 — death at Marv-Rūdh 461 AH; al-Ibāna ʿan Aḥkām al-Diyāna as principal work."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt 3:106 — confirms 461 AH; teacher of al-Juwaynī's Marv-Rūdh phase."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-461 chronicle entry in al-Bidāya wa-l-Nihāya 12:99."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 461 AH 3:308."
+    people: [[al-furani, died]]
+    tags: [abbasid, saljuq, marv-rudh, khurasan, shafii, fiqh, fifth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shafi%27i"
+
+  - slug: death-of-al-shashi-al-qaffal
+    category: scholar_death
+    title_en: Death of Abū Bakr al-Shāshī al-Qaffāl — author of *Ḥilyat al-ʿUlamāʾ*
+    title_ar: وفاة أبي بكر الشاشي القفّال — صاحب «حلية العلماء»
+    title_fr: Mort d'Abū Bakr al-Shāshī al-Qaffāl — auteur de *Ḥilyat al-ʿUlamāʾ*
+    description_en: |
+      Faḫr al-Islām Abū Bakr Muḥammad ibn Aḥmad ibn al-Ḥusayn al-Shāshī
+      al-Fāriqī al-Qaffāl al-Mustaẓhirī — leading Shāfiʿī jurist of
+      Saljūq Baghdad and one of the senior teachers of fiqh at the
+      Niẓāmiyya after Abū Isḥāq al-Shīrāzī, where he succeeded the
+      latter's circle; author of *Ḥilyat al-ʿUlamāʾ fī Maʿrifat
+      Madhāhib al-Fuqahāʾ* (also styled *al-Mustaẓhirī*, in honour of
+      the Caliph al-Mustaẓhir bi-Llāh), one of the foundational
+      Shāfiʿī comparative-fiqh works on the four schools' positions
+      — died at Baghdad in Shawwāl 507 AH (~March 1114 CE) at age
+      about 78, per Ibn Khallikān's *Wafayāt al-Aʿyān*, al-Dhahabī's
+      *Siyar*, and Ibn al-ʿImād's *Shadharāt al-Dhahab*. He is to be
+      carefully distinguished from the earlier al-Qaffāl al-Kabīr
+      al-Shāshī (Muḥammad ibn ʿAlī, d. 365 AH), the Khurāsānian
+      muḥaddith and Shāfiʿī uṣūlī of an entirely earlier generation;
+      the two are conflated in some later compendia.
+    description_ar: |
+      توفي الإمام فخر الإسلام أبو بكر محمد بن أحمد بن الحسين الشاشي
+      الفارقي القفّال المستظهري — كبير فقهاء الشافعية ببغداد في
+      العصر السلجوقي، وأحد كبار مدرسي الفقه بالنظامية بعد أبي إسحاق
+      الشيرازي، خلفه في حلقة التدريس بها، وصاحب «حلية العلماء في
+      معرفة مذاهب الفقهاء» (المعروف بـ«المستظهري» نسبة إلى الخليفة
+      المستظهر بالله)، وهو من الكتب الكبرى عند الشافعية في فقه
+      الخلاف بين المذاهب الأربعة — ببغداد في شوال سنة ٥٠٧ هـ (~مارس
+      ١١١٤ م) عن نحو ثمانٍ وسبعين سنة كما حفظ ذلك ابن خلكان في
+      «الوفيات» والذهبي في «السير» وابن العماد في «الشذرات». ويفرق
+      بدقة بين هذا وبين القفال الكبير الشاشي الخراساني (محمد بن علي
+      ت ٣٦٥ هـ)، المحدث الأصولي الشافعي من جيل سابق بعيد؛ وقع الخلط
+      بينهما في بعض المصنفات المتأخرة.
+    description_fr: |
+      Faḫr al-Islām Abū Bakr Muḥammad ibn Aḥmad ibn al-Ḥusayn
+      al-Shāshī al-Fāriqī al-Qaffāl al-Mustaẓhirī — juriste shāfiʿīte
+      de premier plan dans le Bagdad saljūqide et l'un des grands
+      maîtres de fiqh de la Niẓāmiyya après Abū Isḥāq al-Shīrāzī
+      auquel il succéda dans son cercle ; auteur de *Ḥilyat al-ʿUlamāʾ
+      fī Maʿrifat Madhāhib al-Fuqahāʾ* (aussi nommé *al-Mustaẓhirī*,
+      en l'honneur du calife al-Mustaẓhir bi-Llāh), l'un des grands
+      ouvrages shāfiʿītes de fiqh comparé des quatre écoles —
+      mourut à Bagdad en Shawwāl 507 H (~mars 1114 EC) à l'âge
+      d'environ 78 ans, selon les *Wafayāt al-Aʿyān* d'Ibn Khallikān,
+      les *Siyar* d'al-Dhahabī et les *Shadharāt al-Dhahab* d'Ibn
+      al-ʿImād. Il est à distinguer soigneusement de l'antérieur
+      al-Qaffāl al-Kabīr al-Shāshī (Muḥammad ibn ʿAlī, m. 365 H),
+      le muḥaddith et uṣūlī shāfiʿīte khurasanien d'une génération
+      entièrement antérieure ; les deux sont confondus dans certains
+      recueils tardifs.
+    canonical_hijri: {year: 507, month: 10, precision: month}
+    canonical_gregorian: {date: 1114-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafayāt 4:201 — death Shawwāl 507 AH at Baghdad; Ḥilyat al-ʿUlamāʾ as principal work."
+      - source_key: dhahabi_siyar
+        notes: "Siyar 19:393 — confirms Shawwāl 507 AH, age ~78; succeeded al-Shīrāzī at the Niẓāmiyya."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-507 chronicle entry in al-Bidāya wa-l-Nihāya 12:181."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 507 AH 4:18."
+    people: [[al-shashi-al-qaffal, died]]
+    tags: [abbasid, saljuq, baghdad, shafii, nizamiyya, comparative-fiqh, sixth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Shashi"
+
+  # =========================================================================
+  # MĀLIKĪ SCHOOL — TWO SECONDARY MASTERS
+  # =========================================================================
+
+  - slug: death-of-ibn-al-qassar-al-maliki
+    category: scholar_death
+    title_en: Death of Ibn al-Qaṣṣār al-Mālikī — author of *ʿUyūn al-Adilla*
+    title_ar: وفاة ابن القصّار المالكي — صاحب «عيون الأدلة»
+    title_fr: Mort d'Ibn al-Qaṣṣār al-Mālikī — auteur d'*ʿUyūn al-Adilla*
+    description_en: |
+      al-Qāḍī Abū al-Ḥasan ʿAlī ibn ʿUmar ibn al-Qaṣṣār al-Baghdādī
+      al-Mālikī — leading Mālikī jurist and qādī of Buyid-era Baghdad,
+      and author of the *ʿUyūn al-Adilla fī Masāʾil al-Khilāf bayna
+      Fuqahāʾ al-Amṣār* (commonly *ʿUyūn al-Adilla*) — one of the
+      foundational Mālikī comparative-fiqh works, treating the legal
+      controversies between the schools with citations of the
+      Mālikī, Ḥanafī and Shāfiʿī positions across the chapters of
+      furūʿ — died at Baghdad in 398 AH (~1007 CE), per Qāḍī ʿIyāḍ's
+      *Tartīb al-Madārik wa-Taqrīb al-Masālik* and al-Subkī (citing
+      him in *Ṭabaqāt*); we follow this date as the majority position.
+      al-Dhahabī's *Siyar* gives 397 AH as an alternative — the
+      dispute is over a single year and the difference reflects
+      whether the source counts the lunar or court-administrative
+      year. He is the senior local Mālikī authority of Baghdad in
+      his generation and a teacher of al-Qāḍī ʿAbd al-Wahhāb al-
+      Baghdādī al-Mālikī.
+    description_ar: |
+      توفي القاضي أبو الحسن علي بن عمر بن القصّار البغدادي المالكي —
+      كبير فقهاء المالكية ببغداد في العصر البويهي وقاضيها، وصاحب
+      «عيون الأدلة في مسائل الخلاف بين فقهاء الأمصار» المعروف بـ«عيون
+      الأدلة»، وهو من أمهات كتب المالكية في فقه الخلاف بين المذاهب،
+      يبسط القول في المسائل الفقهية مستوعباً مذاهب المالكية والحنفية
+      والشافعية في جميع أبواب الفروع — ببغداد سنة ٣٩٨ هـ (~١٠٠٧ م)
+      كما حفظ ذلك القاضي عياض في «ترتيب المدارك وتقريب المسالك»
+      ونقل عنه السبكي في «الطبقات»، وعليه نعتمد لكونه قول الأكثر.
+      وقد ذكر الذهبي في «السير» سنة ٣٩٧ هـ بدلاً من ذلك، والخلاف
+      بينهما في سنة واحدة فقط ويرجع إلى نوع السنة المعتبرة (هلالية أم
+      ديوانية). وهو من كبار أعلام مالكية بغداد المحليين في عصره وشيخ
+      القاضي عبد الوهاب البغدادي المالكي.
+    description_fr: |
+      al-Qāḍī Abū al-Ḥasan ʿAlī ibn ʿUmar ibn al-Qaṣṣār al-Baghdādī
+      al-Mālikī — juriste et qāḍī mālikīte de premier plan dans le
+      Bagdad bouyide, auteur d'*ʿUyūn al-Adilla fī Masāʾil al-Khilāf
+      bayna Fuqahāʾ al-Amṣār* (couramment *ʿUyūn al-Adilla*) — l'un
+      des ouvrages mālikites fondateurs de fiqh comparé, traitant
+      les controverses légales entre les écoles avec citation des
+      positions mālikites, ḥanafites et shāfiʿītes à travers les
+      chapitres des furūʿ — mourut à Bagdad en 398 H (~1007 EC),
+      selon le *Tartīb al-Madārik wa-Taqrīb al-Masālik* du qāḍī
+      ʿIyāḍ et al-Subkī (le citant dans ses *Ṭabaqāt*) ; nous
+      suivons cette datation, position majoritaire. Les *Siyar*
+      d'al-Dhahabī donnent en alternative 397 H — le différend porte
+      sur une seule année et reflète le choix du calendrier (lunaire
+      ou administratif). Il est l'autorité mālikite locale principale
+      à Bagdad de sa génération et le maître d'al-Qāḍī ʿAbd al-
+      Wahhāb al-Baghdādī al-Mālikī.
+    canonical_hijri: {year: 398, precision: year}
+    canonical_gregorian: {date: 1007-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafayāt 3:329 — death at Baghdad; ʿUyūn al-Adilla as principal work."
+      - source_key: dhahabi_siyar
+        notes: "Siyar 17:84 — gives 397 AH (alternative); year-disagreement noted."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-398 chronicle entry in al-Bidāya wa-l-Nihāya 11:343."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 398 AH 3:152."
+    people: [[ibn-al-qassar-al-maliki, died]]
+    tags: [abbasid, buyid, baghdad, maliki, comparative-fiqh, fourth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Maliki"
+
+  - slug: death-of-al-mazari
+    category: scholar_death
+    title_en: Death of al-Māzarī — Mālikī master of Ifrīqiyya, author of *al-Muʿlim*
+    title_ar: وفاة المازري — كبير مالكية إفريقية وصاحب «المعلم»
+    title_fr: Mort d'al-Māzarī — maître mālikīte d'Ifrīqiyya, auteur d'*al-Muʿlim*
+    description_en: |
+      Abū ʿAbd Allāh Muḥammad ibn ʿAlī ibn ʿUmar al-Tamīmī al-Māzarī —
+      the leading Mālikī jurist, theologian and ḥadīth scholar of
+      Ifrīqiyya in his generation, author of *al-Muʿlim bi-Fawāʾid
+      Muslim* (the principal North-African Mālikī commentary on
+      Ṣaḥīḥ Muslim, later expanded into *Ikmāl al-Muʿlim* by al-Qāḍī
+      ʿIyāḍ and *Ikmāl al-Ikmāl* by Ubayy al-Ḥusaynī), as well as
+      *Īḍāḥ al-Maḥṣūl* (a commentary on al-Ghazālī's *al-Mustaṣfā*
+      that engages closely with the Niẓāmiyya tradition's uṣūl
+      al-fiqh) — died at al-Mahdiyya (in modern Tunisia) in 536 AH
+      (~1141 CE) at age about 83, per Ibn Khallikān's *Wafayāt*,
+      al-Dhahabī's *Siyar*, and Ibn Farḥūn's *al-Dībāj al-Mudhahhab
+      fī Maʿrifat Aʿyān ʿUlamāʾ al-Madhhab*. al-Māzarī's nisba
+      derives from the Sicilian town of Mazara (his family origin);
+      he himself worked in Mahdiyya rather than Sicily. He stands
+      as the principal North-African Mālikī jurisconsult of the
+      late Zīrid / early Almohad era and a key transmissional bridge
+      between the Khurāsānian Shāfiʿī uṣūl tradition and the western
+      Mālikī school.
+    description_ar: |
+      توفي الإمام أبو عبد الله محمد بن علي بن عمر التميمي المازري —
+      كبير مالكية إفريقية في عصره فقهاً وكلاماً وحديثاً، وصاحب
+      «المعلم بفوائد مسلم» وهو الشرح المغاربي الكبير على «صحيح مسلم»
+      الذي أكمله القاضي عياض «إكمال المعلم» ثم أكمله الأبي الحسيني
+      «إكمال الإكمال»، وكتاب «إيضاح المحصول» وهو شرح على «المستصفى»
+      للغزالي يحاور فيه تراث النظامية في أصول الفقه — بالمهدية (في
+      تونس اليوم) سنة ٥٣٦ هـ (~١١٤١ م) عن نحو ثلاث وثمانين سنة كما
+      حفظ ذلك ابن خلكان في «الوفيات» والذهبي في «السير» وابن فرحون
+      في «الديباج المذهب في معرفة أعيان علماء المذهب». ونسبة
+      المازري إلى مدينة مازر بصقلية أصل أسرته، وأما هو فاستوطن
+      المهدية ولم يستوطن صقلية. وهو الفقيه المغاربي المالكي الأكبر
+      في أواخر العهد الزيري وأوائل العهد الموحدي، ومن أهم وسائط
+      نقل تراث الأصول الخراساني الشافعي إلى المذهب المالكي الغربي.
+    description_fr: |
+      Abū ʿAbd Allāh Muḥammad ibn ʿAlī ibn ʿUmar al-Tamīmī al-Māzarī
+      — juriste, théologien et muḥaddith mālikīte de premier plan
+      en Ifrīqiyya de sa génération, auteur d'*al-Muʿlim bi-Fawāʾid
+      Muslim* (principal commentaire mālikīte nord-africain de
+      *Ṣaḥīḥ Muslim*, ultérieurement développé en *Ikmāl al-Muʿlim*
+      par le qāḍī ʿIyāḍ et *Ikmāl al-Ikmāl* par Ubayy al-Ḥusaynī),
+      ainsi que d'*Īḍāḥ al-Maḥṣūl* (commentaire d'*al-Mustaṣfā*
+      d'al-Ghazālī qui dialogue étroitement avec la tradition d'uṣūl
+      al-fiqh de la Niẓāmiyya) — mourut à al-Mahdiyya (Tunisie
+      actuelle) en 536 H (~1141 EC) à l'âge d'environ 83 ans, selon
+      les *Wafayāt* d'Ibn Khallikān, les *Siyar* d'al-Dhahabī et
+      *al-Dībāj al-Mudhahhab fī Maʿrifat Aʿyān ʿUlamāʾ al-Madhhab*
+      d'Ibn Farḥūn. La *nisba* d'al-Māzarī renvoie à la ville
+      sicilienne de Mazara (origine familiale) ; lui-même travailla
+      à Mahdiyya plutôt qu'en Sicile. Il fut le principal
+      jurisconsulte mālikīte nord-africain de la fin de l'époque
+      zīride et du début de l'époque almohade, et un pont
+      transmissionnel essentiel entre la tradition d'uṣūl shāfiʿīte
+      khurasanienne et l'école mālikīte occidentale.
+    canonical_hijri: {year: 536, precision: year}
+    canonical_gregorian: {date: 1141-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafayāt 4:285 — death at Mahdiyya 536 AH; al-Muʿlim bi-Fawāʾid Muslim as principal work."
+      - source_key: dhahabi_siyar
+        notes: "Siyar 20:104 — confirms 536 AH; nisba to Mazara in Sicily, residence at Mahdiyya."
+      - source_key: ibn_kathir_bidaya
+        notes: "Year-536 chronicle entry in al-Bidāya wa-l-Nihāya 12:218."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab obituary under 536 AH 4:114."
+    people: [[al-mazari, died]]
+    tags: [almohad, zirid, mahdiyya, ifriqiyya, sicily, maliki, sahih-muslim, sixth-century-ah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mazari"

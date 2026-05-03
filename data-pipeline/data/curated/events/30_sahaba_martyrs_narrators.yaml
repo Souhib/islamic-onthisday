@@ -1,0 +1,952 @@
+# Wave 17 of curated event additions (2026-04-27).
+# Senior sahaba beyond the famous figures: martyrs of Muʾta and the Ridda
+# wars, late narrators in Khurasan/Damascus/Kufa, and ahl al-bayt collateral
+# branches. All sahaba — image_blocked. Each event attested in ≥2 of:
+# Ibn Ḥajar al-Iṣāba, al-Dhahabī Siyar, Ibn Saʿd Ṭabaqāt, al-Ṭabarī
+# Tārīkh, Ibn al-Athīr al-Kāmil, Ibn Hishām al-Sīra, Ibn Kathīr al-Bidāya,
+# Ibn Khallikān Wafayāt. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # MARTYRS OF MUʾTA (8 AH) — Zayd ibn Ḥāritha + ʿAbdullāh ibn Rawāḥa
+  # =========================================================================
+
+  - slug: martyrdom-of-zayd-ibn-haritha
+    category: battle
+    title_en: Martyrdom of Zayd ibn Ḥāritha ra at Muʾta — First Commander to Fall
+    title_ar: استشهاد زيد بن حارثة رضي الله عنه في مؤتة — أول القادة الثلاثة
+    title_fr: Martyre de Zayd ibn Ḥāritha ra à Muʾta — premier commandant tombé
+    description_en: |
+      Zayd ibn Ḥāritha al-Kalbī — freedman of the Prophet ﷺ
+      (originally captured as a child of the Banū Kalb and gifted
+      to Khadīja ra, who in turn gifted him to the Prophet ﷺ, who
+      manumitted him and called him *ibnī* — "my son" — until
+      Q. 33:5 abrogated the practice of legal adoption) and the
+      only Companion named in the Qur'an by his given name (Q. 33:37)
+      — was the first of the three commanders appointed by the
+      Prophet ﷺ at Muʾta and the first to fall. The Muslim force of
+      three thousand met a far larger Byzantine-Ghassānid army at
+      the village of Muʾta southeast of the Dead Sea in Jumādā I 8 AH
+      (September 629 CE). Zayd carried the standard at the front
+      until he was struck by a spear and bled to death. The Prophet ﷺ
+      announced the martyrdom in Medina before the messenger could
+      arrive, weeping over Zayd as he had wept over no other
+      Companion. Zayd was about 55. His son Usāma ibn Zayd ra was
+      raised by the Prophet ﷺ as a beloved foster-grandson.
+    description_ar: |
+      اِسْتُشْهِدَ زَيْدُ بْنُ حَارِثَةَ الْكَلْبِيُّ رَضِيَ اللَّهُ
+      عَنْهُ — مَوْلَى رَسُولِ اللَّهِ ﷺ (وَكَانَ سُبِيَ صَغِيرًا
+      مِنْ بَنِي كَلْبٍ، فَأَهْدَتْهُ خَدِيجَةُ رَضِيَ اللَّهُ عَنْهَا
+      لِلنَّبِيِّ ﷺ، فَأَعْتَقَهُ وَكَانَ يَدْعُوهُ ابْنَهُ حَتَّى
+      نَزَلَ قَوْلُهُ تَعَالَى ﴿ادْعُوهُمْ لِآبَائِهِمْ﴾) —
+      وَهُوَ الصَّحَابِيُّ الْوَحِيدُ الَّذِي ذُكِرَ بِاسْمِهِ
+      الصَّرِيحِ فِي الْقُرْآنِ (الأَحْزَاب ٣٧)، وَأَوَّلُ الْقَادَةِ
+      الثَّلَاثَةِ الَّذِينَ أَمَّرَهُمُ النَّبِيُّ ﷺ يَوْمَ مُؤْتَةَ.
+      اِلْتَقَى ثَلَاثَةُ آلَافٍ مِنَ الْمُسْلِمِينَ بِجَيْشٍ
+      بِيزَنْطِيٍّ غَسَّانِيٍّ يَفُوقُهُمْ كَثْرَةً فِي قَرْيَةِ
+      مُؤْتَةَ جَنُوبَ شَرْقِيَّ الْبَحْرِ الْمَيِّتِ فِي جُمَادَى
+      الأُولَى سَنَةَ ثَمَانٍ مِنَ الْهِجْرَةِ. حَمَلَ زَيْدٌ اللِّوَاءَ
+      حَتَّى طُعِنَ بِرُمْحٍ فَنَزَفَ دَمُهُ وَمَاتَ، وَكَانَ ابْنُ
+      نَحْوِ خَمْسٍ وَخَمْسِينَ سَنَةً. وَأَخْبَرَ النَّبِيُّ ﷺ بِخَبَرِ
+      اسْتِشْهَادِهِ بِالْمَدِينَةِ قَبْلَ وُصُولِ الْبَرِيدِ، وَبَكَى
+      عَلَيْهِ بُكَاءً لَمْ يَبْكِهِ عَلَى أَحَدٍ مِنَ الصَّحَابَةِ
+      مِنْ قَبْلُ. وَرَبَّى النَّبِيُّ ﷺ ابْنَهُ أُسَامَةَ بْنَ زَيْدٍ
+      رَضِيَ اللَّهُ عَنْهُ كَالْحَفِيدِ الْحَبِيبِ.
+    description_fr: |
+      Zayd ibn Ḥāritha al-Kalbī — affranchi du Prophète ﷺ (capturé
+      enfant chez les Banū Kalb puis offert à Khadīja ra, qui le
+      donna à son tour au Prophète ﷺ, lequel l'affranchit et
+      l'appelait *ibnī* — « mon fils » — jusqu'à ce que Q. 33:5
+      abolisse la pratique de l'adoption légale) et seul Compagnon
+      nommé dans le Coran par son prénom (Q. 33:37) — fut le premier
+      des trois commandants désignés par le Prophète ﷺ à Muʾta et le
+      premier à tomber. Les trois mille musulmans rencontrèrent une
+      armée byzantino-ghassanide bien plus nombreuse au village de
+      Muʾta, au sud-est de la mer Morte, en Jumādā I de l'an 8 H
+      (septembre 629). Zayd portait l'étendard en tête jusqu'à ce
+      qu'un coup de lance le transperçât ; il mourut d'hémorragie.
+      Le Prophète ﷺ annonça son martyre à Médine avant l'arrivée du
+      messager, et pleura sur lui comme il n'avait pleuré sur aucun
+      autre Compagnon. Zayd avait environ 55 ans. Son fils Usāma ibn
+      Zayd ra fut élevé par le Prophète ﷺ comme un petit-fils chéri.
+    canonical_hijri: {year: 8, month: 5, precision: month}
+    canonical_gregorian: {date: 629-09-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_hajar_isaba
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+    people: [[zayd-ibn-haritha, subject], [muhammad, subject]]
+    tags: [sahabi, martyr, mutah, byzantine, freedman-of-prophet, quran-named]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Zayd_ibn_Harithah"
+
+  - slug: martyrdom-of-abdullah-ibn-rawaha
+    category: battle
+    title_en: Martyrdom of ʿAbdullāh ibn Rawāḥa ra at Muʾta — Anṣārī Poet-Commander
+    title_ar: استشهاد عبد الله بن رواحة رضي الله عنه في مؤتة — الأنصاري الشاعر
+    title_fr: Martyre d'ʿAbdullāh ibn Rawāḥa ra à Muʾta — poète-commandant ansari
+    description_en: |
+      ʿAbdullāh ibn Rawāḥa al-Anṣārī al-Khazrajī — one of the
+      twelve *naqībs* selected at the second pledge of al-ʿAqaba,
+      the Prophet's ﷺ designated poet alongside Ḥassān ibn Thābit
+      and Kaʿb ibn Mālik, scribe of revelation, and a participant
+      at Badr, Uḥud, al-Khandaq, al-Ḥudaybiyya, and Khaybar — was
+      the third and final commander to fall at Muʾta in Jumādā I
+      8 AH (September 629 CE), after Zayd ibn Ḥāritha and Jaʿfar ibn
+      Abī Ṭālib ra. Sources record him hesitating briefly when the
+      banner reached him after Jaʿfar's two arms were severed, then
+      reciting verses to his own soul reproaching it before charging
+      forward. He fought until he was killed. His verses on that day,
+      preserved by Ibn Hishām, ending "yā nafsu mā laki tukrahīna
+      al-jannata" ("O my soul, why do you dread Paradise?"), became
+      one of the most cited examples of *shiʿr al-istishhād* in
+      classical Arabic literature. Khālid ibn al-Walīd ra then took
+      up the standard and saved the army.
+    description_ar: |
+      اِسْتُشْهِدَ عَبْدُ اللَّهِ بْنُ رَوَاحَةَ الأَنْصَارِيُّ
+      الْخَزْرَجِيُّ رَضِيَ اللَّهُ عَنْهُ — أَحَدُ النُّقَبَاءِ
+      الِاثْنَيْ عَشَرَ يَوْمَ بَيْعَةِ الْعَقَبَةِ الثَّانِيَةِ،
+      وَأَحَدُ شُعَرَاءِ النَّبِيِّ ﷺ مَعَ حَسَّانَ بْنِ ثَابِتٍ
+      وَكَعْبِ بْنِ مَالِكٍ رَضِيَ اللَّهُ عَنْهُمَا، وَكَاتِبٌ
+      مِنْ كُتَّابِ الْوَحْيِ، وَشَهِدَ بَدْرًا وَأُحُدًا وَالْخَنْدَقَ
+      وَالْحُدَيْبِيَةَ وَخَيْبَرَ — وَهُوَ الْقَائِدُ الثَّالِثُ
+      وَالأَخِيرُ الَّذِي سَقَطَ يَوْمَ مُؤْتَةَ فِي جُمَادَى الأُولَى
+      سَنَةَ ثَمَانٍ بَعْدَ زَيْدِ بْنِ حَارِثَةَ وَجَعْفَرِ بْنِ
+      أَبِي طَالِبٍ رَضِيَ اللَّهُ عَنْهُمَا. ذَكَرَتِ السِّيَرُ
+      أَنَّهُ تَرَدَّدَ يَسِيرًا حِينَ بَلَغَتْهُ الرَّايَةُ بَعْدَ
+      قَطْعِ يَدَيْ جَعْفَرٍ، ثُمَّ أَنْشَدَ لِنَفْسِهِ يُعَاتِبُهَا
+      ثُمَّ اِنْدَفَعَ. وَقَاتَلَ حَتَّى قُتِلَ. وَأَبْيَاتُهُ تِلْكَ
+      الَّتِي حَفِظَهَا ابْنُ هِشَامٍ وَخَتَمَهَا بِقَوْلِهِ:
+      «يَا نَفْسُ مَا لَكِ تَكْرَهِينَ الْجَنَّةَ» صَارَتْ
+      مِنْ أَشْهَرِ نَمَاذِجِ شِعْرِ الِاسْتِشْهَادِ فِي الأَدَبِ
+      الْعَرَبِيِّ. ثُمَّ أَخَذَ خَالِدُ بْنُ الْوَلِيدِ رَضِيَ
+      اللَّهُ عَنْهُ الرَّايَةَ فَأَنْقَذَ الْجَيْشَ.
+    description_fr: |
+      ʿAbdullāh ibn Rawāḥa al-Anṣārī al-Khazrajī — l'un des douze
+      *naqībs* (chefs) désignés au second serment d'al-ʿAqaba,
+      poète attitré du Prophète ﷺ aux côtés de Ḥassān ibn Thābit et
+      de Kaʿb ibn Mālik, scribe de la révélation, et participant à
+      Badr, Uḥud, al-Khandaq, al-Ḥudaybiyya et Khaybar — fut le
+      troisième et dernier commandant à tomber à Muʾta en Jumādā I
+      de l'an 8 H (septembre 629), après Zayd ibn Ḥāritha et
+      Jaʿfar ibn Abī Ṭālib ra. Les sources rapportent qu'il hésita
+      brièvement quand l'étendard lui parvint après que Jaʿfar eut
+      les deux bras tranchés, puis récita des vers reprochant à son
+      âme sa propre lâcheté avant de charger. Il combattit jusqu'à
+      la mort. Ces vers, préservés par Ibn Hishām et se terminant
+      par « yā nafsu mā laki tukrahīna al-jannata » (« ô mon âme,
+      pourquoi redoutes-tu le Paradis ? »), devinrent l'un des
+      exemples les plus cités de *shiʿr al-istishhād* dans la
+      littérature arabe classique. Khālid ibn al-Walīd ra prit
+      ensuite l'étendard et sauva l'armée.
+    canonical_hijri: {year: 8, month: 5, precision: month}
+    canonical_gregorian: {date: 629-09-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_hajar_isaba
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+    people: [[abdullah-ibn-rawaha, subject], [muhammad, subject]]
+    tags: [sahabi, martyr, mutah, ansar, khazraj, poet, naqib-aqaba]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdullah_ibn_Rawaha"
+
+  # =========================================================================
+  # ANṢĀRĪ ARCHER OF UḤUD
+  # =========================================================================
+
+  - slug: death-of-abu-talha-al-ansari
+    category: companion
+    title_en: Death of Abū Ṭalḥa al-Anṣārī ra — Archer of Uḥud
+    title_ar: وفاة أبي طلحة الأنصاري رضي الله عنه — رامي يوم أحد
+    title_fr: Mort d'Abū Ṭalḥa al-Anṣārī ra — l'archer d'Uḥud
+    description_en: |
+      Abū Ṭalḥa Zayd ibn Sahl al-Najjārī al-Khazrajī al-Anṣārī —
+      one of the most prominent archers of the Anṣār, husband of
+      Umm Sulaym ra, stepfather to Anas ibn Mālik ra, and the man
+      who interposed his own body between the Prophet ﷺ and the
+      Qurayshī arrows at Uḥud, taking the volleys onto a chest he
+      offered as a shield while his bow-string snapped repeatedly
+      from the rapidity of his shooting — died around the caliphate
+      of ʿUthman ra at about 70 years of age. Bukhārī preserves the
+      Prophet's ﷺ words at Uḥud: "The voice of Abū Ṭalḥa in the army
+      is better than a hundred fighters." He was the Companion who
+      wept when his palm-grove of Bayraḥā' was the most beloved of
+      his properties, and on hearing the verse "you will not attain
+      righteousness until you spend of what you love" (Q. 3:92) he
+      gave the entire grove to the Prophet ﷺ as ṣadaqa — the most
+      cited classical incident of voluntary divestment for that ayah.
+    description_ar: |
+      تُوُفِّيَ أَبُو طَلْحَةَ زَيْدُ بْنُ سَهْلٍ النَّجَّارِيُّ
+      الْخَزْرَجِيُّ الأَنْصَارِيُّ رَضِيَ اللَّهُ عَنْهُ — مِنْ
+      أَشْهَرِ رُمَاةِ الأَنْصَارِ، زَوْجُ أُمِّ سُلَيْمٍ رَضِيَ
+      اللَّهُ عَنْهَا، وَزَوْجُ أُمِّ أَنَسِ بْنِ مَالِكٍ رَضِيَ
+      اللَّهُ عَنْهُ، وَالَّذِي تَتَرَّسَ بِجَسَدِهِ دُونَ النَّبِيِّ ﷺ
+      يَوْمَ أُحُدٍ مِنْ سِهَامِ قُرَيْشٍ، يَتَلَقَّاهَا فِي صَدْرِهِ
+      وَيُكْسَرُ وَتَرُهُ مِنْ كَثْرَةِ الرَّمْيِ — فِي خِلَافَةِ
+      عُثْمَانَ رَضِيَ اللَّهُ عَنْهُ عَنْ نَحْوِ سَبْعِينَ سَنَةً.
+      رَوَى الْبُخَارِيُّ قَوْلَ النَّبِيِّ ﷺ يَوْمَ أُحُدٍ: «لَصَوْتُ
+      أَبِي طَلْحَةَ فِي الْجَيْشِ خَيْرٌ مِنْ مِئَةِ رَجُلٍ».
+      وَهُوَ الَّذِي بَكَى لَمَّا كَانَتْ بَيْرَحَاءُ أَحَبَّ
+      أَمْوَالِهِ إِلَيْهِ، فَلَمَّا سَمِعَ ﴿لَن تَنَالُوا الْبِرَّ
+      حَتَّى تُنفِقُوا مِمَّا تُحِبُّونَ﴾ (آل عمران ٩٢) جَعَلَهَا
+      كُلَّهَا صَدَقَةً يَدْفَعُهَا رَسُولُ اللَّهِ ﷺ — وَهِيَ
+      أَشْهَرُ حَادِثَةٍ كِلَاسِيكِيَّةٍ فِي تَفْسِيرِ تِلْكَ
+      الآيَةِ.
+    description_fr: |
+      Abū Ṭalḥa Zayd ibn Sahl al-Najjārī al-Khazrajī al-Anṣārī —
+      l'un des archers les plus renommés des Anṣār, époux d'Umm
+      Sulaym ra, beau-père d'Anas ibn Mālik ra, et l'homme qui
+      interposa son propre corps entre le Prophète ﷺ et les flèches
+      qurayshites à Uḥud, recevant les volées sur la poitrine qu'il
+      offrait en bouclier tandis que la corde de son arc se rompait
+      à plusieurs reprises sous la rapidité de ses tirs — mourut
+      durant le califat d'ʿUthmān ra à environ 70 ans. Bukhārī
+      préserve les paroles du Prophète ﷺ à Uḥud : « la voix d'Abū
+      Ṭalḥa dans l'armée vaut mieux que cent combattants ». C'est
+      le Compagnon qui pleura car son verger de Bayraḥā' était son
+      bien le plus cher, et qui, en entendant le verset « vous
+      n'atteindrez la piété que lorsque vous aurez dépensé de ce
+      que vous aimez » (Q. 3:92), donna le verger entier au
+      Prophète ﷺ comme *ṣadaqa* — incident classique le plus cité
+      en exégèse de ce verset.
+    canonical_hijri: {year: 34, precision: year}
+    canonical_gregorian: {date: 654-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[abu-talha-al-ansari, subject], [umm-sulaym, subject], [anas-ibn-malik, subject]]
+    tags: [sahabi, ansar, khazraj, archer, uhud, medina, bayraha-grove]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abu_Talha_al-Ansari"
+
+  # =========================================================================
+  # MARTYR OF YAMĀMA — Chief of Daws
+  # =========================================================================
+
+  - slug: martyrdom-of-al-tufayl-ibn-amr-al-dawsi
+    category: battle
+    title_en: Martyrdom of al-Ṭufayl ibn ʿAmr al-Dawsī ra at al-Yamāma
+    title_ar: استشهاد الطفيل بن عمرو الدوسي رضي الله عنه باليمامة
+    title_fr: Martyre d'al-Ṭufayl ibn ʿAmr al-Dawsī ra à al-Yamāma
+    description_en: |
+      Al-Ṭufayl ibn ʿAmr al-Dawsī — chief of the Daws tribe of
+      Tihāma, a noble pre-Islamic poet whom the Quraysh tried to
+      shield from the Prophet's ﷺ message by stuffing cotton in
+      his ears at the Kaʿba, and who nevertheless heard a verse
+      and embraced Islam, then returned to Daws and brought his
+      entire tribe (including the young Abū Hurayra ra) into Islam —
+      was martyred at the Battle of al-Yamāma in 12 AH (633 CE)
+      during the Ridda Wars under Caliph Abū Bakr ra against the
+      false prophet Musaylima al-Kadhdhāb. Sources record that he
+      saw a vision the night before the battle in which his head
+      was shaved (interpreted as forthcoming martyrdom) and a bird
+      flew out of his mouth (his soul). His son ʿAmr ibn al-Ṭufayl
+      was wounded the same day and survived to fight again at
+      Yarmūk, where he too was martyred — father and son falling
+      in the two foundational battles of the Caliphate.
+    description_ar: |
+      اِسْتُشْهِدَ الطُّفَيْلُ بْنُ عَمْرٍو الدَّوْسِيُّ رَضِيَ اللَّهُ
+      عَنْهُ — سَيِّدُ قَبِيلَةِ دَوْسٍ مِنْ تِهَامَةَ، وَشَاعِرٌ
+      جَاهِلِيٌّ شَرِيفٌ حَاوَلَتْ قُرَيْشٌ أَنْ تَحْجُبَهُ عَنْ
+      كَلَامِ النَّبِيِّ ﷺ بِأَنْ حَشَوْا أُذُنَيْهِ بِالْقُطْنِ
+      عِنْدَ الْكَعْبَةِ، فَسَمِعَ آيَةً وَأَسْلَمَ، ثُمَّ رَجَعَ
+      إِلَى دَوْسٍ فَأَدْخَلَهَا فِي الإِسْلَامِ كُلَّهَا (وَمِنْهُمْ
+      أَبُو هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ) — يَوْمَ الْيَمَامَةِ
+      سَنَةَ ثِنْتَيْ عَشْرَةَ مِنَ الْهِجْرَةِ فِي حُرُوبِ الرِّدَّةِ
+      فِي خِلَافَةِ أَبِي بَكْرٍ الصِّدِّيقِ رَضِيَ اللَّهُ عَنْهُ
+      عَلَى مُسَيْلِمَةَ الْكَذَّابِ. ذَكَرَتِ السِّيَرُ أَنَّهُ
+      رَأَى لَيْلَةَ الْمَعْرَكَةِ رُؤْيَا حُلِقَ فِيهَا رَأْسُهُ
+      (وَتَأَوَّلَ ذَلِكَ بِالشَّهَادَةِ) وَخَرَجَ مِنْ فِيهِ طَائِرٌ
+      (وَتَأَوَّلَهُ رُوحَهُ). وَجُرِحَ ابْنُهُ عَمْرُو بْنُ
+      الطُّفَيْلِ يَوْمَئِذٍ، وَنَجَا فَقَاتَلَ يَوْمَ الْيَرْمُوكِ
+      فَاسْتُشْهِدَ — فَالأَبُ وَالِابْنُ شَهِيدَا الْمَعْرَكَتَيْنِ
+      الْمُؤَسِّسَتَيْنِ لِلْخِلَافَةِ.
+    description_fr: |
+      Al-Ṭufayl ibn ʿAmr al-Dawsī — chef de la tribu de Daws en
+      Tihāma, poète noble préislamique que les Qurayshites tentèrent
+      de soustraire au message du Prophète ﷺ en lui bouchant les
+      oreilles avec du coton près de la Kaʿba, mais qui entendit
+      pourtant un verset et embrassa l'Islam, puis revint à Daws
+      et fit entrer sa tribu entière (dont le jeune Abū Hurayra ra)
+      dans l'Islam — fut martyrisé à la bataille d'al-Yamāma en
+      12 H (633) durant les Guerres de la Ridda sous le califat
+      d'Abū Bakr ra contre le faux prophète Musaylima al-Kadhdhāb.
+      Les sources rapportent qu'il vit la nuit précédant la
+      bataille une vision où sa tête était rasée (interprétée comme
+      son martyre prochain) et un oiseau s'envolait de sa bouche
+      (son âme). Son fils ʿAmr ibn al-Ṭufayl fut blessé le même
+      jour, survécut, et combattit ensuite à Yarmūk, où il tomba
+      lui aussi en martyr — père et fils fauchés dans les deux
+      batailles fondatrices du Califat.
+    canonical_hijri: {year: 12, precision: year}
+    canonical_gregorian: {date: 633-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_hajar_isaba
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-tufayl-ibn-amr-al-dawsi, subject]]
+    tags: [sahabi, martyr, ridda, yamama, daws, tihama, abu-hurayra-tribe]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Tufayl_ibn_Amr"
+
+  # =========================================================================
+  # SON OF ḤĀTIM AL-ṬĀʾĪ
+  # =========================================================================
+
+  - slug: death-of-adi-ibn-hatim-al-tai
+    category: companion
+    title_en: Death of ʿAdī ibn Ḥātim al-Ṭāʾī ra — Son of the Legendary Generous
+    title_ar: وفاة عدي بن حاتم الطائي رضي الله عنه — ابن أكرم العرب
+    title_fr: Mort d'ʿAdī ibn Ḥātim al-Ṭāʾī ra — fils de la légende de la générosité
+    description_en: |
+      ʿAdī ibn Ḥātim al-Ṭāʾī — son of the proverbially generous
+      pre-Islamic poet Ḥātim al-Ṭāʾī, chief of the Banū Ṭayyiʾ, and
+      a Christian until his deputation embraced Islam in 9 AH (the
+      Year of Deputations) — died in Kūfa in 67 or 68 AH (687-688 CE)
+      at a reported age of 120 years. Bukhārī and Muslim preserve
+      the Prophet's ﷺ encounter with him: when ʿAdī arrived in
+      Medina with a silver crucifix around his neck, the Prophet ﷺ
+      recited Q. 9:31 to him ("They have taken their rabbis and
+      monks as lords") and answered ʿAdī's hesitations directly.
+      He fought beside ʿAlī ra at the Battle of the Camel and
+      Ṣiffīn, lost an eye and a son in the latter, and ended his
+      days in Kūfa. He was a foundational *muḥaddith* of Iraq;
+      Bukhārī preserves twenty hadith from him, including the
+      famous hadith of "the white thread and the black thread" of
+      Ramaḍān fasting (Bukhārī 1916), which was occasioned by
+      ʿAdī's own literal misunderstanding of the verse.
+    description_ar: |
+      تُوُفِّيَ عَدِيُّ بْنُ حَاتِمٍ الطَّائِيُّ رَضِيَ اللَّهُ
+      عَنْهُ — اِبْنُ حَاتِمٍ الطَّائِيِّ شَاعِرِ الْجَاهِلِيَّةِ
+      الْمَضْرُوبِ بِكَرَمِهِ الْمَثَلُ، وَسَيِّدُ بَنِي طَيِّئٍ،
+      وَكَانَ نَصْرَانِيًّا حَتَّى أَسْلَمَ مَعَ وَفْدِ قَوْمِهِ
+      سَنَةَ تِسْعٍ مِنَ الْهِجْرَةِ (عَامُ الْوُفُودِ) — بِالْكُوفَةِ
+      سَنَةَ سَبْعٍ أَوْ ثَمَانٍ وَسِتِّينَ مِنَ الْهِجْرَةِ، وَكَانَ
+      عُمْرُهُ نَحْوَ مِئَةٍ وَعِشْرِينَ سَنَةً. رَوَى الْبُخَارِيُّ
+      وَمُسْلِمٌ لِقَاءَهُ بِالنَّبِيِّ ﷺ: لَمَّا قَدِمَ الْمَدِينَةَ
+      وَفِي عُنُقِهِ صَلِيبٌ مِنْ فِضَّةٍ، تَلَا عَلَيْهِ النَّبِيُّ ﷺ
+      ﴿اتَّخَذُوا أَحْبَارَهُمْ وَرُهْبَانَهُمْ أَرْبَابًا مِنْ
+      دُونِ اللَّهِ﴾ (التوبة ٣١) وَأَجَابَ شُكُوكَهُ. وَقَاتَلَ مَعَ
+      عَلِيٍّ رَضِيَ اللَّهُ عَنْهُ يَوْمَ الْجَمَلِ وَيَوْمَ صِفِّينَ،
+      وَفَقَدَ عَيْنَهُ وَوَلَدًا فِي صِفِّينَ، وَخَتَمَ أَيَّامَهُ
+      بِالْكُوفَةِ. وَهُوَ مِنْ كِبَارِ مُحَدِّثِي الْعِرَاقِ:
+      رَوَى الْبُخَارِيُّ عَنْهُ نَحْوَ عِشْرِينَ حَدِيثًا، مِنْهَا
+      حَدِيثُ «الْخَيْطِ الأَبْيَضِ وَالْخَيْطِ الأَسْوَدِ» فِي
+      صِيَامِ رَمَضَانَ (الْبُخَارِيُّ ١٩١٦) الَّذِي كَانَ سَبَبُهُ
+      فَهْمَ عَدِيٍّ الْحَرْفِيَّ لِلْآيَةِ.
+      
+      Sources record his death between 67 and 68 AH; we follow Ibn Saʿd's *Ṭabaqāt* with 67 AH as the most-cited attestation, while Ibn Ḥajar gives 68 AH in *al-Iṣāba* as a minority position.
+      
+      ذكرت المصادر وفاته بين سنتي ٦٧ و٦٨ هـ؛ ونتبع هنا «طبقات» ابن سعد بسنة ٦٧ هـ أكثر التواريخ استشهاداً، مع إيراد ابن حجر سنة ٦٨ هـ في «الإصابة» بوصفها قولاً أقل.
+    description_fr: |
+      ʿAdī ibn Ḥātim al-Ṭāʾī — fils du poète préislamique Ḥātim
+      al-Ṭāʾī, devenu proverbe de générosité, chef des Banū Ṭayyiʾ,
+      chrétien jusqu'à ce que sa délégation embrassât l'Islam en
+      9 H (l'Année des Délégations) — mourut à Kūfa en 67 ou 68 H
+      (687-688), à un âge rapporté de 120 ans. Bukhārī et Muslim
+      préservent sa rencontre avec le Prophète ﷺ : lorsqu'ʿAdī
+      arriva à Médine portant un crucifix d'argent au cou, le
+      Prophète ﷺ lui récita Q. 9:31 (« ils ont pris leurs rabbins
+      et leurs moines pour seigneurs hors d'Allāh ») et répondit
+      à ses hésitations. Il combattit aux côtés d'ʿAlī ra à la
+      bataille du Chameau et à Ṣiffīn, y perdit un œil et un fils,
+      et termina ses jours à Kūfa. C'est un muḥaddith fondateur
+      de l'Iraq : Bukhārī préserve vingt hadiths de lui, dont le
+      célèbre hadith du « fil blanc et du fil noir » du jeûne de
+      Ramaḍān (Bukhārī 1916), occasionné par sa propre lecture
+      littérale du verset.
+    canonical_hijri: {year: 67, precision: year}
+    canonical_gregorian: {date: 687-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 1916"
+    people: [[adi-ibn-hatim-al-tai, subject], [muhammad, subject], [ali-ibn-abi-talib, subject]]
+    tags: [sahabi, tayy, christian-convert, kufa, muhaddith, hatim-al-tai-son]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Adi_ibn_Hatim"
+
+  # =========================================================================
+  # SON OF ʿALĪ ra BY A NON-FĀṬIMA WIFE
+  # =========================================================================
+
+  - slug: death-of-muhammad-ibn-al-hanafiyya
+    category: ahl_al_bayt
+    title_en: Death of Muḥammad ibn al-Ḥanafiyya — Son of ʿAlī ra
+    title_ar: وفاة محمد بن الحنفية — ابن علي رضي الله عنه
+    title_fr: Mort de Muḥammad ibn al-Ḥanafiyya — fils d'ʿAlī ra
+    description_en: |
+      Muḥammad ibn ʿAlī, known as *ibn al-Ḥanafiyya* after his
+      mother Khawla bint Jaʿfar al-Ḥanafiyya (a non-Fāṭimid wife
+      of ʿAlī ra), eldest surviving son of ʿAlī ibn Abī Ṭālib ra
+      after the martyrdoms of al-Ḥasan and al-Ḥusayn ra and a
+      respected *tābiʿī* in his own right — died at al-Ṭāʾif (or
+      Medina, sources differ) in 81 AH (700-701 CE) at about 65
+      years of age. Famously neutral during the Second Fitna, he
+      refused to give bayʿa to Yazīd ibn Muʿāwiya or to ʿAbdullāh
+      ibn al-Zubayr, was briefly imprisoned by the latter at Mecca,
+      and eventually pledged to ʿAbd al-Malik ibn Marwān only when
+      forced. Al-Mukhtār al-Thaqafī raised the banner of revenge
+      for al-Ḥusayn in his name without his sanction. The Kaysānī
+      sect later splintered around the false claim that he was the
+      Mahdī in occultation in Mount Raḍwā. Sunni biographers
+      (Dhahabī, Ibn Saʿd) record him as a transmitter of hadith
+      from his father, his stepmother Asmāʾ bint ʿUmays ra, and
+      from ʿUthmān ra.
+    description_ar: |
+      تُوُفِّيَ مُحَمَّدُ بْنُ عَلِيٍّ الْمَعْرُوفُ بِابْنِ
+      الْحَنَفِيَّةِ نِسْبَةً إِلَى أُمِّهِ خَوْلَةَ بِنْتِ جَعْفَرٍ
+      الْحَنَفِيَّةِ (مِنْ غَيْرِ فَاطِمَةَ رَضِيَ اللَّهُ عَنْهَا)،
+      أَكْبَرُ أَبْنَاءِ عَلِيِّ بْنِ أَبِي طَالِبٍ رَضِيَ اللَّهُ
+      عَنْهُ بَقَاءً بَعْدَ شَهَادَةِ الْحَسَنِ وَالْحُسَيْنِ رَضِيَ
+      اللَّهُ عَنْهُمَا، وَتَابِعِيٌّ كَبِيرٌ فِي ذَاتِهِ — بِالطَّائِفِ
+      أَوْ بِالْمَدِينَةِ (اِخْتُلِفَ فِي مَوْضِعِهِ) سَنَةَ إِحْدَى
+      وَثَمَانِينَ مِنَ الْهِجْرَةِ، وَكَانَ ابْنَ نَحْوِ خَمْسٍ
+      وَسِتِّينَ سَنَةً. اِشْتَهَرَ بِحِيَادِهِ يَوْمَ الْفِتْنَةِ
+      الثَّانِيَةِ: امْتَنَعَ عَنْ بَيْعَةِ يَزِيدَ بْنِ مُعَاوِيَةَ
+      وَعَبْدِ اللَّهِ بْنِ الزُّبَيْرِ مَعًا، فَحُبِسَ بِمَكَّةَ
+      حِينًا عِنْدَ ابْنِ الزُّبَيْرِ، وَلَمْ يُبَايِعْ عَبْدَ
+      الْمَلِكِ بْنَ مَرْوَانَ إِلَّا مُكْرَهًا. وَرَفَعَ الْمُخْتَارُ
+      الثَّقَفِيُّ رَايَةَ الثَّأْرِ لِلْحُسَيْنِ بِاسْمِهِ مِنْ
+      دُونِ إِذْنِهِ. وَتَفَرَّقَتْ بَعْدَهُ الْكَيْسَانِيَّةُ
+      عَلَى دَعْوَى أَنَّهُ الْمَهْدِيُّ الْغَائِبُ بِجَبَلِ رَضْوَى
+      وَهُوَ بَاطِلٌ. ذَكَرَهُ الذَّهَبِيُّ وَابْنُ سَعْدٍ مِنْ
+      رُوَاةِ الْحَدِيثِ عَنْ أَبِيهِ وَزَوْجَةِ أَبِيهِ أَسْمَاءَ
+      بِنْتِ عُمَيْسٍ رَضِيَ اللَّهُ عَنْهُمَا وَعَنْ عُثْمَانَ
+      رَضِيَ اللَّهُ عَنْهُ.
+    description_fr: |
+      Muḥammad ibn ʿAlī, dit *ibn al-Ḥanafiyya* d'après sa mère
+      Khawla bint Jaʿfar al-Ḥanafiyya (épouse non-fāṭimide d'ʿAlī ra),
+      aîné des fils survivants d'ʿAlī ibn Abī Ṭālib ra après le
+      martyre d'al-Ḥasan et d'al-Ḥusayn ra et tābiʿī respecté en
+      lui-même — mourut à al-Ṭāʾif (ou à Médine, les sources
+      divergent) en 81 H (700-701) vers l'âge de 65 ans. Célèbre
+      pour sa neutralité durant la Seconde Fitna, il refusa de
+      prêter allégeance à Yazīd ibn Muʿāwiya comme à ʿAbdullāh
+      ibn al-Zubayr, fut brièvement emprisonné par ce dernier à
+      La Mecque, et finit par se rallier à ʿAbd al-Malik ibn
+      Marwān seulement contraint. Al-Mukhtār al-Thaqafī leva la
+      bannière de la vengeance d'al-Ḥusayn en son nom sans son
+      consentement. La secte kaysānite s'agrégea après lui autour
+      de la fausse prétention qu'il était le Mahdī en occultation
+      au mont Raḍwā. Les biographes sunnites (Dhahabī, Ibn Saʿd)
+      le mentionnent comme transmetteur de hadiths de son père,
+      de sa belle-mère Asmāʾ bint ʿUmays ra et d'ʿUthmān ra.
+    canonical_hijri: {year: 81, precision: year}
+    canonical_gregorian: {date: 700-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_khallikan_wafayat
+    people: [[muhammad-ibn-al-hanafiyya, subject], [ali-ibn-abi-talib, subject]]
+    tags: [tabii, ahl-al-bayt, son-of-ali, second-fitna, neutral, kaysaniyya-rejected]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: detail
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ibn_al-Hanafiyyah"
+
+  # =========================================================================
+  # NARRATOR IN KHURĀSĀN
+  # =========================================================================
+
+  - slug: death-of-buraydah-ibn-al-husayb-al-aslami
+    category: companion
+    title_en: Death of Buraydah ibn al-Ḥuṣayb al-Aslamī ra in Marw
+    title_ar: وفاة بريدة بن الحصيب الأسلمي رضي الله عنه بمرو
+    title_fr: Mort de Buraydah ibn al-Ḥuṣayb al-Aslamī ra à Marw
+    description_en: |
+      Buraydah ibn al-Ḥuṣayb al-Aslamī — chief of the Banū Sahm
+      sub-clan of the Aslam tribe, who met the Prophet ﷺ on the
+      Hijra road at the well of al-Ghamīm with seventy or eighty
+      horsemen of his tribe, all of whom embraced Islam on the
+      spot — died at Marw in Khurāsān in 63 AH (683 CE) during the
+      reign of Yazīd ibn Muʿāwiya. He participated in al-Ḥudaybiyya,
+      Khaybar, and the Conquest of Mecca, and is the *rāwī* of the
+      foundational hadith of the Prophet's ﷺ saying about the
+      *khilāfa* lasting thirty years (preserved in the *Sunan*).
+      He served as a frontier commander into Khurāsān and Sijistān
+      under Muʿāwiya and Yazīd, settling at Marw, where his grave
+      remains a recognised pilgrimage site today in Bayramaly,
+      Turkmenistan. He was approximately 80 at his death. Bukhārī
+      and Muslim preserve numerous hadith from him, particularly
+      on prayer, poverty, and the proper conduct of jihād.
+    description_ar: |
+      تُوُفِّيَ بُرَيْدَةُ بْنُ الْحُصَيْبِ الأَسْلَمِيُّ رَضِيَ
+      اللَّهُ عَنْهُ — سَيِّدُ بَنِي سَهْمٍ مِنْ قَبِيلَةِ أَسْلَمَ،
+      الَّذِي لَقِيَ رَسُولَ اللَّهِ ﷺ فِي طَرِيقِ الْهِجْرَةِ عِنْدَ
+      مَاءِ الْغَمِيمِ مَعَ سَبْعِينَ أَوْ ثَمَانِينَ فَارِسًا مِنْ
+      قَوْمِهِ، فَأَسْلَمُوا جَمِيعًا فِي مَكَانِهِمْ — بِمَرْوَ
+      مِنْ خُرَاسَانَ سَنَةَ ثَلَاثٍ وَسِتِّينَ مِنَ الْهِجْرَةِ
+      فِي خِلَافَةِ يَزِيدَ بْنِ مُعَاوِيَةَ. شَهِدَ الْحُدَيْبِيَةَ
+      وَخَيْبَرَ وَفَتْحَ مَكَّةَ، وَهُوَ رَاوِي الْحَدِيثِ
+      الْمَشْهُورِ فِي قَوْلِ النَّبِيِّ ﷺ بِأَنَّ الْخِلَافَةَ
+      ثَلَاثُونَ سَنَةً (مَحْفُوظٌ فِي السُّنَنِ). وَوَلِيَ ثُغُورَ
+      خُرَاسَانَ وَسِجِسْتَانَ فِي عَهْدِ مُعَاوِيَةَ وَيَزِيدَ،
+      وَنَزَلَ بِمَرْوَ، وَلَا يَزَالُ قَبْرُهُ بِبَيْرَامَ عَلِي
+      مِنْ تُرْكْمَانِسْتَانَ مَزَارًا مَعْرُوفًا. وَكَانَ ابْنَ
+      نَحْوِ ثَمَانِينَ سَنَةً عِنْدَ وَفَاتِهِ. وَفِي الصَّحِيحَيْنِ
+      عَنْهُ أَحَادِيثُ كَثِيرَةٌ، خَاصَّةً فِي الصَّلَاةِ
+      وَالْفَقْرِ وَآدَابِ الْجِهَادِ.
+    description_fr: |
+      Buraydah ibn al-Ḥuṣayb al-Aslamī — chef du sous-clan des
+      Banū Sahm de la tribu Aslam, qui rencontra le Prophète ﷺ sur
+      la route de la Hijra au puits d'al-Ghamīm avec soixante-dix
+      ou quatre-vingts cavaliers de sa tribu, lesquels embrassèrent
+      tous l'Islam sur place — mourut à Marw en Khurāsān en 63 H
+      (683) sous le règne de Yazīd ibn Muʿāwiya. Il participa à
+      al-Ḥudaybiyya, à Khaybar et à la Conquête de La Mecque, et
+      est le *rāwī* du hadith fondateur sur le califat (*khilāfa*)
+      d'une durée de trente ans (préservé dans les Sunan). Il
+      servit comme commandant frontalier en Khurāsān et au
+      Sijistān sous Muʿāwiya et Yazīd, s'installant à Marw, où sa
+      tombe demeure aujourd'hui un site de pèlerinage reconnu à
+      Bayramaly, au Turkménistan. Il avait environ 80 ans à sa
+      mort. Bukhārī et Muslim préservent de nombreux hadiths de
+      lui, particulièrement sur la prière, la pauvreté et la
+      conduite du jihād.
+    canonical_hijri: {year: 63, precision: year}
+    canonical_gregorian: {date: 683-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_athir_kamil
+    people: [[buraydah-ibn-al-husayb, subject]]
+    tags: [sahabi, aslam, khurasan, marw, hadith-narrator, frontier-commander]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Buraydah_ibn_al-Husayb"
+
+  # =========================================================================
+  # LAST SAHABI TO DIE IN DAMASCUS
+  # =========================================================================
+
+  - slug: death-of-wathila-ibn-al-asqa
+    category: companion
+    title_en: Death of Wāthila ibn al-Asqaʿ ra — Last Sahabi to Die in Damascus
+    title_ar: وفاة واثلة بن الأسقع رضي الله عنه — آخر صحابيّ مات بدمشق
+    title_fr: Mort de Wāthila ibn al-Asqaʿ ra — dernier sahabi mort à Damas
+    description_en: |
+      Wāthila ibn al-Asqaʿ al-Laythī — sahabi of the Banū Layth
+      who joined Islam on the eve of the Tabūk expedition (9 AH),
+      one of the *Ahl al-Ṣuffa* who lived in the back of the
+      Prophet's ﷺ Mosque, and the last Companion to die in
+      Damascus — passed away there in 83 AH (702-703 CE) at over
+      ninety years of age. Sources differ between 83 and 86 AH;
+      Ibn Ḥajar prefers 83. He fought at Tabūk, then at Yarmūk
+      under Khālid ibn al-Walīd ra and Abū ʿUbayda ra, and
+      remained in Damascus thereafter, eventually settling at
+      Bayt al-Maqdis briefly before returning. He transmitted
+      around seventy hadith preserved in the *Sunan* and
+      *Musnad Aḥmad*, including the *qudsī* hadith "I am as my
+      servant thinks of Me" (Aḥmad). Among his pupils were the
+      Damascene *tābiʿīs* Makḥūl al-Shāmī and Bilāl ibn Saʿd —
+      the bridge by which his hadith reached the early Syrian
+      hadith schools.
+    description_ar: |
+      تُوُفِّيَ وَاثِلَةُ بْنُ الأَسْقَعِ اللَّيْثِيُّ رَضِيَ اللَّهُ
+      عَنْهُ — صَحَابِيٌّ مِنْ بَنِي لَيْثٍ، أَسْلَمَ عَشِيَّةَ
+      غَزْوَةِ تَبُوكَ سَنَةَ تِسْعٍ مِنَ الْهِجْرَةِ، وَكَانَ مِنْ
+      أَهْلِ الصُّفَّةِ السَّاكِنِينَ مُؤَخِّرَةَ مَسْجِدِ النَّبِيِّ ﷺ،
+      وَآخِرُ مَنْ مَاتَ بِدِمَشْقَ مِنَ الصَّحَابَةِ — بِهَا سَنَةَ
+      ثَلَاثٍ وَثَمَانِينَ مِنَ الْهِجْرَةِ، وَكَانَ ابْنَ نَيِّفٍ
+      وَتِسْعِينَ سَنَةً. اِخْتَلَفَتِ السِّيَرُ بَيْنَ ٨٣ وَ٨٦
+      وَأَخَذَ ابْنُ حَجَرٍ بِـ ٨٣. شَهِدَ تَبُوكَ، ثُمَّ يَوْمَ
+      الْيَرْمُوكِ تَحْتَ رَايَةِ خَالِدِ بْنِ الْوَلِيدِ وَأَبِي
+      عُبَيْدَةَ رَضِيَ اللَّهُ عَنْهُمَا، ثُمَّ نَزَلَ بِدِمَشْقَ،
+      وَأَقَامَ بِبَيْتِ الْمَقْدِسِ زَمَنًا ثُمَّ عَادَ. وَرَوَى
+      نَحْوَ سَبْعِينَ حَدِيثًا فِي السُّنَنِ وَمُسْنَدِ الإِمَامِ
+      أَحْمَدَ، مِنْهَا الْحَدِيثُ الْقُدْسِيُّ: «أَنَا عِنْدَ ظَنِّ
+      عَبْدِي بِي» (أَخْرَجَهُ أَحْمَدُ). وَمِنْ أَشْهَرِ تَلَامِيذِهِ
+      مَكْحُولٌ الشَّامِيُّ وَبِلَالُ بْنُ سَعْدٍ مِنْ تَابِعِي
+      الشَّامِ — وَهُوَ الْجِسْرُ الَّذِي بَلَغَتْ بِهِ أَحَادِيثُهُ
+      مَدَارِسَ الْحَدِيثِ الشَّامِيَّةَ الأُولَى.
+    description_fr: |
+      Wāthila ibn al-Asqaʿ al-Laythī — sahabi des Banū Layth qui
+      embrassa l'Islam à la veille de l'expédition de Tabūk (9 H),
+      l'un des *Ahl al-Ṣuffa* qui vivaient à l'arrière de la Mosquée
+      du Prophète ﷺ, et le dernier Compagnon à mourir à Damas —
+      s'éteignit dans cette ville en 83 H (702-703) à plus de
+      quatre-vingt-dix ans. Les sources divergent entre 83 et 86 H ;
+      Ibn Ḥajar retient 83. Il combattit à Tabūk, puis à Yarmūk
+      sous Khālid ibn al-Walīd et Abū ʿUbayda ra, demeura ensuite
+      à Damas, séjourna brièvement à Bayt al-Maqdis, puis revint.
+      Il transmit environ soixante-dix hadiths préservés dans les
+      Sunan et le Musnad d'Aḥmad, dont le hadith *qudsī* « je suis
+      tel que mon serviteur Me pense » (Aḥmad). Parmi ses élèves
+      figurent les *tābiʿīs* damascènes Makḥūl al-Shāmī et Bilāl
+      ibn Saʿd — pont par lequel ses hadiths atteignirent les
+      premières écoles hadithiques syriennes.
+    canonical_hijri: {year: 83, precision: year}
+    canonical_gregorian: {date: 702-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_athir_kamil
+    people: [[wathila-ibn-al-asqa, subject]]
+    tags: [sahabi, layth, ahl-al-suffa, damascus, hadith-narrator, last-sahabi-damascus]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Companions_of_the_Prophet"
+
+  # =========================================================================
+  # NEPHEW OF KHADĪJA ra — THE PROVERBIAL GENEROUS
+  # =========================================================================
+
+  - slug: death-of-hakim-ibn-hizam
+    category: companion
+    title_en: Death of Ḥakīm ibn Ḥizām al-Asadī ra — The Generous of Quraysh
+    title_ar: وفاة حكيم بن حزام الأسدي رضي الله عنه — كريم قريش
+    title_fr: Mort de Ḥakīm ibn Ḥizām al-Asadī ra — le généreux de Quraysh
+    description_en: |
+      Ḥakīm ibn Ḥizām al-Asadī al-Qurashī — nephew of Khadīja ra
+      (his father Ḥizām was her brother), cousin of al-Zubayr ibn
+      al-ʿAwwām ra (his aunt was al-Zubayr's mother), born inside
+      the Kaʿba (the only person classical sources attest as such),
+      a Qurayshī merchant prince and proverbial *karīm* in pre-
+      Islamic Arabia — embraced Islam at the Conquest of Mecca
+      (8 AH) at age 60, and died in Medina in 54 AH (674 CE) at
+      a reported age of 120, having lived sixty years in Jāhiliyya
+      and sixty in Islam. Bukhārī preserves the famous *hadith
+      al-yad al-ʿulyā* exchange ("the upper hand is better than
+      the lower hand") between Ḥakīm and the Prophet ﷺ over
+      ʿaṭāyā (Bukhārī 1472). Classical biographers record that
+      he had freed one hundred slaves and offered one hundred
+      camels in *fidya* during the Jāhiliyya, and freed one
+      hundred more slaves and offered another hundred camels
+      after embracing Islam — sometimes cited as the most
+      programmatically generous documented life in early Islamic
+      biography.
+    description_ar: |
+      تُوُفِّيَ حَكِيمُ بْنُ حِزَامٍ الأَسَدِيُّ الْقُرَشِيُّ رَضِيَ
+      اللَّهُ عَنْهُ — اِبْنُ أَخِي خَدِيجَةَ رَضِيَ اللَّهُ عَنْهَا
+      (أَبُوهُ حِزَامٌ أَخُوهَا)، وَابْنُ عَمَّةِ الزُّبَيْرِ بْنِ
+      الْعَوَّامِ رَضِيَ اللَّهُ عَنْهُ، وُلِدَ فِي جَوْفِ الْكَعْبَةِ
+      (وَهُوَ الْوَحِيدُ الَّذِي يَنُصُّ عَلَى ذَلِكَ التَّارِيخُ
+      الْكِلَاسِيكِيُّ)، أَمِيرٌ تَاجِرٌ مِنْ قُرَيْشٍ وَكَرِيمٌ
+      مَضْرُوبٌ بِكَرَمِهِ الْمَثَلُ فِي الْجَاهِلِيَّةِ — أَسْلَمَ
+      يَوْمَ فَتْحِ مَكَّةَ سَنَةَ ثَمَانٍ وَهُوَ ابْنُ سِتِّينَ
+      سَنَةً، وَتُوُفِّيَ بِالْمَدِينَةِ سَنَةَ أَرْبَعٍ وَخَمْسِينَ
+      وَلَهُ نَحْوَ مِئَةٍ وَعِشْرِينَ سَنَةً — سِتُّونَ فِي
+      الْجَاهِلِيَّةِ وَسِتُّونَ فِي الإِسْلَامِ. رَوَى الْبُخَارِيُّ
+      حَدِيثَ «الْيَدُ الْعُلْيَا خَيْرٌ مِنَ الْيَدِ السُّفْلَى»
+      بَيْنَهُ وَبَيْنَ النَّبِيِّ ﷺ فِي الْعَطِيَّةِ
+      (الْبُخَارِيُّ ١٤٧٢). وَذَكَرَ الْمُتَرْجِمُونَ أَنَّهُ أَعْتَقَ
+      مِئَةَ رَقَبَةٍ وَأَهْدَى مِئَةَ بَعِيرٍ فِي الْجَاهِلِيَّةِ،
+      ثُمَّ أَعْتَقَ مِئَةً أُخْرَى وَأَهْدَى مِئَةً أُخْرَى فِي
+      الإِسْلَامِ — وَيُسْتَشْهَدُ بِسِيرَتِهِ أَكْثَرَ مَا
+      يُسْتَشْهَدُ بِسِيرَةٍ فِي الْكَرَمِ الْمُبَرْمَجِ فِي
+      التَّرَاجِمِ الإِسْلَامِيَّةِ الأُولَى.
+    description_fr: |
+      Ḥakīm ibn Ḥizām al-Asadī al-Qurashī — neveu de Khadīja ra
+      (son père Ḥizām était le frère de Khadīja), cousin
+      d'al-Zubayr ibn al-ʿAwwām ra (sa tante était la mère
+      d'al-Zubayr), né à l'intérieur de la Kaʿba (le seul que les
+      sources classiques attestent comme tel), prince marchand
+      qurayshite et *karīm* proverbial de l'Arabie préislamique —
+      embrassa l'Islam à la Conquête de La Mecque (8 H) à 60 ans,
+      et mourut à Médine en 54 H (674) à un âge rapporté de 120 ans,
+      ayant vécu soixante ans en Jāhiliyya et soixante en Islam.
+      Bukhārī préserve l'échange célèbre du *hadith al-yad
+      al-ʿulyā* (« la main qui donne vaut mieux que la main qui
+      reçoit ») entre Ḥakīm et le Prophète ﷺ à propos des dons
+      (Bukhārī 1472). Les biographes classiques rapportent qu'il
+      avait affranchi cent esclaves et offert cent chameaux en
+      *fidya* durant la Jāhiliyya, puis affranchi cent autres
+      esclaves et offert cent autres chameaux après son adhésion
+      à l'Islam — souvent cité comme la vie de générosité
+      programmatique la plus documentée de la biographie
+      islamique précoce.
+    canonical_hijri: {year: 54, precision: year}
+    canonical_gregorian: {date: 674-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 1472"
+    people: [[hakim-ibn-hizam, subject], [khadija-bint-khuwaylid, subject]]
+    tags: [sahabi, quraysh, asad, conquest-of-mecca, generosity, kaaba-born]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hakim_ibn_Hizam"
+
+  # =========================================================================
+  # CONQUEROR OF SIJISTĀN AND KHURĀSĀN
+  # =========================================================================
+
+  - slug: death-of-abd-al-rahman-ibn-samura
+    category: companion
+    title_en: Death of ʿAbd al-Raḥmān ibn Samura al-Qurashī ra — Conqueror of Sijistān
+    title_ar: وفاة عبد الرحمن بن سمرة القرشي رضي الله عنه — فاتح سجستان
+    title_fr: Mort d'ʿAbd al-Raḥmān ibn Samura al-Qurashī ra — conquérant du Sijistān
+    description_en: |
+      ʿAbd al-Raḥmān ibn Samura ibn Ḥabīb al-Qurashī al-ʿAbshamī —
+      sahabi of Banū ʿAbd Shams (Quraysh), who embraced Islam at
+      the Conquest of Mecca (8 AH), and the principal commander of
+      the Muslim conquest of Sijistān and the eastern marches into
+      Khurāsān during the caliphate of ʿUthmān ra and Muʿāwiya ra
+      (governor 32-44 AH and again under Muʿāwiya) — died in Baṣra
+      in 50 or 53 AH (670-673 CE). He led the campaigns that
+      reduced Zaranj, Bust, Zābulistān, and reached as far as
+      Kābul and the Hindu Kush, founded the first Friday mosque
+      at Zaranj, and instituted the office of *ṣāḥib al-shurṭa*
+      in Sijistān. He is the *rāwī* of the foundational hadith on
+      seeking judgeship: "Do not seek office, ʿAbd al-Raḥmān, for
+      if you are given it without asking, you will be aided in it,
+      but if you are given it after asking, you will be left to
+      it" (Bukhārī 7146; Muslim 1652) — known to the *uṣūlī*
+      tradition as one of the principal proof-texts on the dangers
+      of seeking authority.
+    description_ar: |
+      تُوُفِّيَ عَبْدُ الرَّحْمَنِ بْنُ سَمُرَةَ بْنِ حَبِيبٍ
+      الْقُرَشِيُّ الْعَبْشَمِيُّ رَضِيَ اللَّهُ عَنْهُ — صَحَابِيٌّ
+      مِنْ بَنِي عَبْدِ شَمْسٍ مِنْ قُرَيْشٍ، أَسْلَمَ يَوْمَ فَتْحِ
+      مَكَّةَ سَنَةَ ثَمَانٍ، وَهُوَ الْقَائِدُ الأَكْبَرُ لِفُتُوحِ
+      سِجِسْتَانَ وَأَطْرَافِ خُرَاسَانَ فِي خِلَافَةِ عُثْمَانَ
+      رَضِيَ اللَّهُ عَنْهُ ثُمَّ مُعَاوِيَةَ رَضِيَ اللَّهُ عَنْهُ
+      (وَلِيَ سِجِسْتَانَ مِنْ سَنَةِ ٣٢ إِلَى ٤٤ هِجْرِيَّةٍ ثُمَّ
+      وَلِيَهَا فِي عَهْدِ مُعَاوِيَةَ) — بِالْبَصْرَةِ سَنَةَ
+      خَمْسِينَ أَوْ ثَلَاثٍ وَخَمْسِينَ مِنَ الْهِجْرَةِ. قَادَ
+      الْحَمَلَاتِ الَّتِي اِسْتَوْلَتْ عَلَى زَرَنْجَ وَبُسْتٍ
+      وَزَابُلِسْتَانَ، وَبَلَغَ كَابُلَ وَالْهِنْدُوكُوشَ، وَأَسَّسَ
+      أَوَّلَ مَسْجِدِ جُمُعَةٍ بِزَرَنْجَ، وَأَنْشَأَ مَنْصِبَ
+      صَاحِبِ الشُّرْطَةِ بِسِجِسْتَانَ. وَهُوَ رَاوِي الْحَدِيثِ
+      الأَصْلِيِّ فِي طَلَبِ الإِمَارَةِ: «يَا عَبْدَ الرَّحْمَنِ
+      لَا تَسْأَلِ الإِمَارَةَ، فَإِنَّكَ إِنْ أُعْطِيتَهَا عَنْ
+      غَيْرِ مَسْأَلَةٍ أُعِنْتَ عَلَيْهَا، وَإِنْ أُعْطِيتَهَا
+      عَنْ مَسْأَلَةٍ وُكِلْتَ إِلَيْهَا» (الْبُخَارِيُّ ٧١٤٦،
+      مُسْلِمٌ ١٦٥٢) — وَهُوَ مِنْ أَشْهَرِ نُصُوصِ الأُصُولِ
+      الْفِقْهِيَّةِ فِي خَطَرِ طَلَبِ السُّلْطَةِ.
+      
+      Sources record his death between 50 and 53 AH; we follow Ibn Saʿd's *Ṭabaqāt* with 50 AH at Basra as the dominant attestation, while al-Ṭabarī's *Tārīkh* records 53 AH.
+      
+      ذكرت المصادر وفاته بين سنتي ٥٠ و٥٣ هـ؛ ونتبع هنا «طبقات» ابن سعد بسنة ٥٠ هـ بالبصرة بوصفها الأكثر تواتراً، مع إيراد الطبري سنة ٥٣ هـ في «التاريخ».
+    description_fr: |
+      ʿAbd al-Raḥmān ibn Samura ibn Ḥabīb al-Qurashī al-ʿAbshamī —
+      sahabi des Banū ʿAbd Shams (Quraysh), qui embrassa l'Islam
+      à la Conquête de La Mecque (8 H), et principal commandant
+      de la conquête musulmane du Sijistān et des marches
+      orientales du Khurāsān sous les califats d'ʿUthmān ra et
+      de Muʿāwiya ra (gouverneur de 32 à 44 H, puis à nouveau
+      sous Muʿāwiya) — mourut à Baṣra en 50 ou 53 H (670-673).
+      Il dirigea les campagnes qui prirent Zaranj, Bust et
+      Zābulistān, atteignirent Kābul et l'Hindū Kūsh, fonda la
+      première mosquée du vendredi à Zaranj et institua la charge
+      de *ṣāḥib al-shurṭa* au Sijistān. Il est le *rāwī* du hadith
+      fondamental sur la recherche de la charge : « ne demande
+      pas la charge, ʿAbd al-Raḥmān : si elle t'est donnée sans
+      la demander, tu y seras secouru ; si tu la demandes, tu y
+      seras abandonné » (Bukhārī 7146, Muslim 1652) — l'un des
+      proof-texts majeurs des *uṣūl al-fiqh* sur le danger de
+      rechercher l'autorité.
+    canonical_hijri: {year: 50, precision: year}
+    canonical_gregorian: {date: 670-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: tabari_tarikh
+      - source_key: dhahabi_siyar
+      - source_key: ibn_athir_kamil
+    hadith_refs: "Bukhari 7146, Muslim 1652"
+    people: [[abd-al-rahman-ibn-samura, subject]]
+    tags: [sahabi, quraysh, abd-shams, sijistan, khurasan, conquest, basra]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Rahman_ibn_Samura"
+
+  # =========================================================================
+  # COUSIN OF THE PROPHET ﷺ — PLAGUE OF AMWĀS
+  # =========================================================================
+
+  - slug: death-of-al-fadl-ibn-al-abbas
+    category: ahl_al_bayt
+    title_en: Death of al-Faḍl ibn al-ʿAbbās ra in the Plague of Amwās
+    title_ar: وفاة الفضل بن العباس رضي الله عنه في طاعون عمواس
+    title_fr: Mort d'al-Faḍl ibn al-ʿAbbās ra durant la peste d'Amwās
+    description_en: |
+      Al-Faḍl ibn al-ʿAbbās ibn ʿAbd al-Muṭṭalib — eldest son of
+      the Prophet's ﷺ uncle al-ʿAbbās ra and Umm al-Faḍl Lubāba ra,
+      cousin of the Prophet ﷺ, and elder brother of the foundational
+      mufassir ʿAbdullāh ibn ʿAbbās ra — died in the plague of
+      ʿAmwās in al-Shām in 18 AH (639 CE) at about 25 years of age.
+      He is the cousin who rode pillion behind the Prophet ﷺ on
+      the same camel during the descent from ʿArafāt at the
+      Farewell Pilgrimage (Bukhārī and Muslim) — narrating in this
+      capacity the canonical sequence of the *ramy* and *naḥr*
+      of the Day of Naḥr — and the cousin whose visible attraction
+      to a beautiful Khathʿamī woman during *iḥrām* prompted the
+      Prophet ﷺ to physically turn his face away (Bukhārī 1855).
+      He participated in the Conquest of Mecca and Ḥunayn beside
+      the Prophet ﷺ. After the Prophet's ﷺ death he joined the
+      Syrian campaigns under ʿUmar ra and was buried at ʿAmwās
+      with Muʿādh ibn Jabal ra and Abū ʿUbayda ibn al-Jarrāḥ ra.
+    description_ar: |
+      تُوُفِّيَ الْفَضْلُ بْنُ الْعَبَّاسِ بْنِ عَبْدِ الْمُطَّلِبِ
+      رَضِيَ اللَّهُ عَنْهُ — أَكْبَرُ أَوْلَادِ الْعَبَّاسِ عَمِّ
+      النَّبِيِّ ﷺ مِنْ أُمِّ الْفَضْلِ لُبَابَةَ رَضِيَ اللَّهُ
+      عَنْهَا، وَابْنُ عَمِّ النَّبِيِّ ﷺ، وَأَخُو عَبْدِ اللَّهِ
+      بْنِ عَبَّاسٍ تُرْجُمَانِ الْقُرْآنِ — فِي طَاعُونِ عَمْوَاسَ
+      بِالشَّامِ سَنَةَ ثَمَانِيَ عَشْرَةَ مِنَ الْهِجْرَةِ
+      عَنْ نَحْوِ خَمْسٍ وَعِشْرِينَ سَنَةً. وَهُوَ ابْنُ الْعَمِّ
+      الَّذِي أَرْدَفَهُ النَّبِيُّ ﷺ خَلْفَهُ عَلَى نَاقَتِهِ يَوْمَ
+      الْإِفَاضَةِ مِنْ عَرَفَاتٍ فِي حَجَّةِ الْوَدَاعِ
+      (الْبُخَارِيُّ وَمُسْلِمٌ) — وَرَوَى بِهَذِهِ الصِّفَةِ
+      تَرْتِيبَ الرَّمْيِ وَالنَّحْرِ يَوْمَ النَّحْرِ — وَهُوَ
+      ابْنُ الْعَمِّ الَّذِي رَأَى امْرَأَةً مِنْ خَثْعَمَ حَسْنَاءَ
+      فِي الْإِحْرَامِ فَجَعَلَ النَّبِيُّ ﷺ يَلْوِي عُنُقَ الْفَضْلِ
+      عَنْهَا (الْبُخَارِيُّ ١٨٥٥). شَهِدَ فَتْحَ مَكَّةَ وَحُنَيْنًا
+      مَعَ النَّبِيِّ ﷺ. وَبَعْدَ وَفَاةِ النَّبِيِّ ﷺ خَرَجَ مَعَ
+      جُيُوشِ الشَّامِ فِي خِلَافَةِ عُمَرَ رَضِيَ اللَّهُ عَنْهُ،
+      وَدُفِنَ بِعَمْوَاسَ مَعَ مُعَاذِ بْنِ جَبَلٍ وَأَبِي عُبَيْدَةَ
+      بْنِ الْجَرَّاحِ رَضِيَ اللَّهُ عَنْهُمَا.
+    description_fr: |
+      Al-Faḍl ibn al-ʿAbbās ibn ʿAbd al-Muṭṭalib — fils aîné de
+      l'oncle du Prophète ﷺ, al-ʿAbbās ra, et d'Umm al-Faḍl
+      Lubāba ra, cousin du Prophète ﷺ, et frère aîné du mufassir
+      fondateur ʿAbdullāh ibn ʿAbbās ra — mourut dans la peste
+      d'ʿAmwās en al-Shām en 18 H (639) à environ 25 ans. C'est
+      le cousin qui chevaucha en croupe derrière le Prophète ﷺ
+      sur la même chamelle lors de la descente d'ʿArafāt au
+      Pèlerinage d'Adieu (Bukhārī et Muslim) — narrant à ce titre
+      la séquence canonique du *ramy* et du *naḥr* du Jour du
+      Naḥr — et le cousin dont l'attrait visible pour une belle
+      femme de Khathʿam durant *iḥrām* poussa le Prophète ﷺ à
+      lui détourner physiquement le visage (Bukhārī 1855). Il
+      participa à la Conquête de La Mecque et à Ḥunayn aux côtés
+      du Prophète ﷺ. Après la mort du Prophète ﷺ il rejoignit
+      les campagnes syriennes sous ʿUmar ra et fut enterré à
+      ʿAmwās avec Muʿādh ibn Jabal ra et Abū ʿUbayda ibn
+      al-Jarrāḥ ra.
+    canonical_hijri: {year: 18, precision: year}
+    canonical_gregorian: {date: 639-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: tabari_tarikh
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 1855"
+    people: [[al-fadl-ibn-al-abbas, subject], [al-abbas-ibn-abd-al-muttalib, subject], [umm-al-fadl, subject], [abdullah-ibn-abbas, subject]]
+    tags: [sahabi, ahl-al-bayt, banu-hashim, plague-of-amwas, syria, farewell-pilgrimage]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Fadl_ibn_al-Abbas"
+
+  # =========================================================================
+  # POET-COMPANION OF BANŪ SULAYM — NARRATOR OF ḤUNAYN
+  # =========================================================================
+
+  - slug: death-of-al-abbas-ibn-mirdas
+    category: companion
+    title_en: Death of al-ʿAbbās ibn Mirdās al-Sulamī ra — Poet of Ḥunayn
+    title_ar: وفاة العباس بن مرداس السلمي رضي الله عنه — شاعر حنين
+    title_fr: Mort d'al-ʿAbbās ibn Mirdās al-Sulamī ra — poète de Ḥunayn
+    description_en: |
+      Al-ʿAbbās ibn Mirdās ibn Abī ʿĀmir al-Sulamī — chief of the
+      Banū Sulaym sub-clan and one of the most accomplished
+      *fursān-shuʿarāʾ* of his generation, embraced Islam shortly
+      before the Conquest of Mecca and led 900 of his tribesmen
+      to fight beside the Prophet ﷺ at the Battle of Ḥunayn
+      (8 AH) — died during the caliphate of ʿUmar ra around 18 AH
+      (639 CE), though sources record dates between 18 and 35 AH.
+      He is the Companion who composed the famous verses
+      complaining about his share of the Hunayn spoils when the
+      Prophet ﷺ initially apportioned only four camels to him
+      while giving 100 each to the chiefs of Quraysh and the new
+      converts; the Prophet ﷺ ordered his share corrected after
+      hearing the verses, and Ibn Hishām preserves the lines as
+      a foundational example of *ʿitāb* poetry directed to the
+      Prophet ﷺ. His son Kināna ibn al-ʿAbbās was a pre-eminent
+      poet of the early Umayyad era. He is buried at Baṣra
+      according to Ibn Saʿd.
+    description_ar: |
+      تُوُفِّيَ الْعَبَّاسُ بْنُ مِرْدَاسِ بْنِ أَبِي عَامِرٍ
+      السُّلَمِيُّ رَضِيَ اللَّهُ عَنْهُ — سَيِّدُ بَنِي سُلَيْمٍ
+      وَأَحَدُ كِبَارِ الْفُرْسَانِ-الشُّعَرَاءِ فِي جِيلِهِ، أَسْلَمَ
+      قَبْلَ فَتْحِ مَكَّةَ بِيَسِيرٍ وَقَادَ تِسْعَ مِئَةٍ مِنْ
+      قَوْمِهِ مَعَ رَسُولِ اللَّهِ ﷺ يَوْمَ حُنَيْنٍ سَنَةَ ثَمَانٍ —
+      فِي خِلَافَةِ عُمَرَ رَضِيَ اللَّهُ عَنْهُ نَحْوَ سَنَةِ
+      ثَمَانِيَ عَشْرَةَ مِنَ الْهِجْرَةِ، وَإِنْ تَفَاوَتَتِ
+      الرِّوَايَاتُ بَيْنَ ١٨ وَ٣٥ هِجْرِيَّةٍ. وَهُوَ الصَّحَابِيُّ
+      الَّذِي قَالَ الأَبْيَاتَ الْمَشْهُورَةَ عَاتِبًا عَلَى نَصِيبِهِ
+      مِنْ غَنَائِمِ حُنَيْنٍ، حِينَ قَسَمَ النَّبِيُّ ﷺ لَهُ أَوَّلًا
+      أَرْبَعَةً مِنَ الإِبِلِ بَيْنَمَا قَسَمَ لِسَادَاتِ قُرَيْشٍ
+      وَالْمُؤَلَّفَةِ قُلُوبُهُمْ مِئَةً مِئَةً. فَأَمَرَ النَّبِيُّ ﷺ
+      بِتَكْمِلَةِ نَصِيبِهِ بَعْدَ سَمَاعِ الأَبْيَاتِ، وَحَفِظَهَا
+      ابْنُ هِشَامٍ نَمُوذَجًا لِشِعْرِ الْعِتَابِ الْمُوَجَّهِ
+      إِلَى رَسُولِ اللَّهِ ﷺ. وَكَانَ ابْنُهُ كِنَانَةُ بْنُ
+      الْعَبَّاسِ مِنْ كِبَارِ شُعَرَاءِ صَدْرِ الْعَهْدِ الأُمَوِيِّ.
+      وَدُفِنَ بِالْبَصْرَةِ كَمَا ذَكَرَ ابْنُ سَعْدٍ.
+    description_fr: |
+      Al-ʿAbbās ibn Mirdās ibn Abī ʿĀmir al-Sulamī — chef d'un
+      sous-clan des Banū Sulaym et l'un des plus accomplis
+      *fursān-shuʿarāʾ* (chevaliers-poètes) de sa génération,
+      embrassa l'Islam peu avant la Conquête de La Mecque et
+      conduisit neuf cents hommes de sa tribu auprès du Prophète ﷺ
+      à la bataille de Ḥunayn (8 H) — mourut sous le califat
+      d'ʿUmar ra vers 18 H (639), bien que les sources rapportent
+      des dates entre 18 et 35 H. C'est le Compagnon qui composa
+      les vers fameux se plaignant de sa part du butin de Ḥunayn,
+      lorsque le Prophète ﷺ ne lui attribua initialement que
+      quatre chameaux tandis qu'il en donnait cent à chacun des
+      chefs de Quraysh et des *muʾallafa qulūbuhum* ; le
+      Prophète ﷺ ordonna que sa part fût complétée après avoir
+      entendu les vers, qu'Ibn Hishām préserva comme exemple
+      fondateur de poésie *ʿitāb* (reproche) adressée au
+      Prophète ﷺ. Son fils Kināna ibn al-ʿAbbās fut l'un des
+      grands poètes de l'aube de l'époque omeyyade. Il fut
+      enterré à Baṣra selon Ibn Saʿd.
+    canonical_hijri: {year: 18, precision: year}
+    canonical_gregorian: {date: 639-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_hajar_isaba
+      - source_key: dhahabi_siyar
+      - source_key: ibn_athir_kamil
+    people: [[al-abbas-ibn-mirdas, subject], [muhammad, subject]]
+    tags: [sahabi, sulaym, poet, hunayn, conquest-of-mecca, fursan-shuara]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Banu_Sulaym"

@@ -1,0 +1,648 @@
+# Wave 85 of curated event additions (2026-04-29).
+# Early Islamic conquest of Persia and Central Asia — the Rashidun-
+# Umayyad expansion into the Iranian plateau, the Persian Gulf coast,
+# and Transoxiana. Covers the defeat of the last Sasanian resistance
+# (Tustar, Istakhr, Yazdegerd III's death) and the Umayyad push into
+# Sistan, Tabaristan, Bukhara, Khwarazm, and Farghana.
+#
+# Already in dataset (NOT duplicated here):
+#   - conquest-of-samarqand (93-96 AH) — file 72 (Qutayba's campaigns)
+#   - conquest-of-multan (94 AH) — file 72
+#   - conquest-of-isfahan (23 AH) — file 72
+#   - conquest-of-hamadhan (24 AH) — file 72
+#   - conquest-of-marw-khurasan (31-32 AH) — file 72
+#   - battle-of-jalula (16 AH) — file 72
+#   - conquest-of-al-madain-ctesiphon (16 AH) — file 72
+#
+# Sources: al-Tabari, Tarikh al-Rusul wa'l-Muluk (principal early
+# chronicle); al-Baladhuri, Futuh al-Buldan (specialised conquest
+# history); Ibn al-Athir, al-Kamil; Ibn Kathir, al-Bidaya. Where
+# day-precision is firmly attested it is used; otherwise year- or
+# month-precision per the date-uncertainty protocol. Trilingual
+# en/ar/fr throughout.
+
+events:
+  # =====================================================================
+  # RASHIDUN CONQUEST OF SOUTHERN PERSIA — TUSTAR AND THE KHUZISTAN
+  # =====================================================================
+
+  - slug: battle-of-tustar
+    category: battle
+    title_en: Battle of Tustar — Capture of al-Hurmuzān and the Conquest of Khuzistan
+    title_ar: معركة تُسْتَر — أسر الهرمزان وفتح خوزستان
+    title_fr: Bataille de Tustar — capture d'al-Hurmuzān et conquête du Khuzistan
+    description_en: |
+      The decisive battle for the Sasanian fortress-city of
+      Tustar (modern Shūshtar) in Khuzistan, in which the
+      Muslim army under Abū Mūsā al-Ashʿarī ra and the
+      reinforcements sent by ʿUmar ra breached the heavily
+      fortified city and captured the Sasanian commander
+      al-Hurmuzān. al-Tabari records the battle under the
+      events of 17 AH (~638 CE) and describes al-Hurmuzān as
+      the last capable Sasanian field commander in the
+      southern provinces; his capture effectively ended
+      organised Persian resistance in Khuzistan. The city's
+      elaborate irrigation system (the Band-i Kaisar / Caesar's
+      dam) was preserved and adapted by the Muslim
+      administrators, and Tustar became a prosperous garrison
+      town of the early caliphate.
+    description_ar: |
+      المعركة الفاصلة لمدينة تستر الحصينة (شوشتر اليوم)
+      بخوزستان، حيث اخترق الجيش الإسلامي بقيادة أبي موسى
+      الأشعري رضي الله عنه والتعزيزات التي أرسلها عمر رضي
+      الله عنه أسوار المدينة المحصنة المحكمة وأسروا القائد
+      الفارسي الهرمزان. يدون الطبري المعركة في حوادث سنة
+      ١٧ هـ (~٦٣٨ م) ويصف الهرمزان بأنه آخر قائد فارسي
+      ميداني كفء في الأقاليم الجنوبية؛ فأدى أسرُه إلى
+      انتهاء المقاومة الفارسية المنظمة في خوزستان. وحُفظ
+      نظام الري المتقن للمدينة (بند قيصر) وطوّره
+      المديرون المسلمون، وصارت تستر مدينة حامية مزدهرة
+      في الخلافة الأولى.
+    description_fr: |
+      La bataille décisive pour la citadelle sassanide de
+      Tustar (actuel Shūshtar) au Khuzistan, où l'armée
+      musulmane sous Abū Mūsā al-Ashʿarī ra et les
+      renforts envoyés par ʿUmar ra brèchent les fortifications
+      de la ville fortifiée et capturèrent le commandant
+      perse al-Hurmuzān. al-Ṭabarī consigne la bataille sous
+      les événements de 17 H (~638 EC) et décrit al-Hurmuzān
+      comme le dernier commandant de campagne sassanide
+      compétent dans les provinces méridionales; sa capture
+      mit fin à la résistance perse organisée au Khuzistan.
+      Le système d'irrigation élaboré de la ville (le Band-i
+      Kaisar / barrage de César) fut préservé et adapté par
+      les administrateurs musulmans, et Tustar devint une
+      prospère ville de garnison du califat naissant.
+    canonical_hijri: {year: 17, precision: year}
+    canonical_gregorian: {date: 638-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Tabari records the battle of Tustar under 17 AH and the capture of al-Hurmuzan."
+      - source_key: baladhuri_futuh
+        notes: "al-Baladhuri in Futuh al-Buldan details the siege of Tustar and the fall of Khuzistan."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athir confirms the 17 AH date and the capture of al-Hurmuzan."
+    people: [[al-hurmuzan, leader]]
+    tags: [rashidun, battle, persia, sasanian, khuzistan, tustar, hurmuzan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: capture-of-istakhr
+    category: conquest
+    title_en: Capture of Iṣṭakhr — Fall of the Sasanian Religious Capital
+    title_ar: فتح إصطخر — سقوط العاصمة الدينية الساسانية
+    title_fr: Prise d'Iṣṭakhr — chute de la capitale religieuse sassanide
+    description_en: |
+      The capture of Iṣṭakhr (the ancient Persepolis region),
+      the religious and ceremonial centre of the Sasanian
+      empire where the imperial fire-temple of Anahid stood,
+      by the Muslim army under ʿAbd Allāh ibn ʿĀmir in 29 AH
+      (~650 CE). al-Tabari records the conquest under the
+      events of 29 AH and notes that Iṣṭakhr had revolted
+      repeatedly after the fall of al-Madāʾin; this final
+      campaign destroyed the Sasanian treasury stronghold
+      and scattered the last organised Zoroastrian resistance
+      in Fars. The city would later become a centre of
+      Shiʿite learning under the Buyids and Safavids, but in
+      29 AH it marked the definitive end of Sasanian political
+      authority in their ancestral heartland.
+    description_ar: |
+      استولى الجيش الإسلامي بقيادة عبد الله بن عامر على
+      إصطخر (منطقة تخت جمشيد القديمة)، المركز الديني
+      والاحتفالي للإمبراطورية الساسانية حيث كان معبد
+      النار الإمبراطوري لأناهيد، سنة ٢٩ هـ (~٦٥٠ م).
+      يدون الطبري الفتح في حوادث سنة ٢٩ هـ، ويشير إلى
+      أن إصطخر كانت قد ثارت مراراً بعد سقوط المدائن؛
+      فدمرت هذه الحملة الأخيرة معقل الخزانة الساسانية
+      وبددت آخر مقاومة زرادشتية منظمة في فارس. وصارت
+      المدينة لاحقاً مركزاً للتعليم الشيعي في عهد
+      البويهيين والصفويين، لكنها في سنة ٢٩ هـ مثلت
+      النهاية الحاسمة للسلطة السياسية الساسانية في
+      وطنها الأصلي.
+    description_fr: |
+      La prise d'Iṣṭakhr (la région de l'ancienne Persépolis),
+      centre religieux et cérémonial de l'empire sassanide
+      où se dressait le temple du feu impérial d'Anahid, par
+      l'armée musulmane sous ʿAbd Allāh ibn ʿĀmir en 29 H
+      (~650 EC). al-Ṭabarī consigne la conquête sous les
+      événements de 29 H et note qu'Iṣṭakhr s'était révoltée
+      à plusieurs reprises après la chute d'al-Madāʾin; cette
+      campagne finale détruisit le bastion du trésor sassanide
+      et dispersa la dernière résistance zoroastrienne organisée
+      en Fārs. La ville deviendrait plus tard un centre
+      d'apprentissage shiʿite sous les Buyides et les Safavides,
+      mais en 29 H elle marqua la fin définitive de l'autorité
+      politique sassanide dans son cœur ancestral.
+    canonical_hijri: {year: 29, precision: year}
+    canonical_gregorian: {date: 650-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Tabari records the capture of Istakhr under 29 AH and the repeated revolts of the city."
+      - source_key: baladhuri_futuh
+        notes: "al-Baladhuri details the campaign and the destruction of the Sasanian treasury."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athir confirms the 29 AH date and the final pacification of Fars."
+    people: []
+    tags: [rashidun, conquest, persia, sasanian, istakhr, fars, zoroastrian]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-yazdegerd-iii
+    category: ruler_death
+    title_en: Death of Yazdegerd III — The Last Sasanian Shahanshah
+    title_ar: مقتل يزدجرد الثالث — آخر شاهنشاهات الساسانيين
+    title_fr: Mort de Yazdegerd III — dernier shāhanshāh sassanide
+    description_en: |
+      Yazdegerd III, the last Sasanian shāhanshah and
+      thirty-eighth ruler of the House of Sasan, was killed
+      near Marw in 31 AH (~651 CE) by a local miller while
+      seeking refuge from the advancing Muslim armies.
+      al-Tabari records his death under the events of 31 AH
+      and describes it as the end of the Sasanian dynasty
+      that had ruled Persia for over four centuries. The
+      Muslim commander ʿAbd Allāh ibn ʿĀmir had pursued
+      Yazdegerd across the Iranian plateau after the fall of
+      Iṣṭakhr; the king's death at the hands of a commoner
+      rather than in battle became a symbol in Persian
+      literature of the tragic fall of imperial Persia.
+      His son Peroz III escaped to China and founded a
+      small Sasanian exile court at the Tang court, but
+      Sasanian rule in Persia itself ended with Yazdegerd.
+    description_ar: |
+      قُتل يزدجرد الثالث — آخر شاهنشاهات الساسانيين
+      وثامن وثلاثون حاكماً من آل ساسان — قرب مرو سنة
+      ٣١ هـ (~٦٥١ م) على يد طحان محلي وهو يلتمس
+      اللجوء من الجيوش الإسلامية المتقدمة. يدون الطبري
+      الوفاة في حوادث سنة ٣١ هـ، ويصفها بنهاية
+      الدولة الساسانية التي حكمت فارس أكثر من أربعة
+      قرون. وكان القائد الإسلامي عبد الله بن عامر قد
+      طارد يزدجرد عبر الهضبة الإيرانية بعد سقوط
+      إصطخر؛ فصار موتُه على يد عامي بدلاً من
+      المعركة رمزاً في الأدب الفارسي للسقوط المأساوي
+      لإمبراطورية فارس. وهرب ابنه بيروز الثالث
+      إلى الصين وأسس بلاطاً ساسانياً صغيراً في بلاط
+      التانغ، لكن حكم الساسانيين في فارس ذاتها
+      انتهى بيزدجرد.
+    description_fr: |
+      Yazdegerd III, dernier shāhanshāh sassanide et
+      trente-huitième souverain de la Maison de Sasan, fut
+      tué près de Marw en 31 H (~651 EC) par un meunier
+      local alors qu'il cherchait refuge de l'avancée des
+      armées musulmanes. al-Ṭabarī consigne sa mort sous
+      les événements de 31 H et la décrit comme la fin de
+      la dynastie sassanide qui avait régné sur la Perse
+      pendant plus de quatre siècles. Le commandant
+      musulman ʿAbd Allāh ibn ʿĀmir avait poursuivi
+      Yazdegerd à travers le plateau iranien après la chute
+      d'Iṣṭakhr; la mort du roi aux mains d'un simple
+      particulier plutôt qu'à la bataille devint un symbole
+      dans la littérature persane de la chute tragique de la
+      Perse impériale. Son fils Peroz III s'enfuit en Chine
+      et fonda une petite cour d'exil sassanide à la cour
+      des Tang, mais le règne sassanide en Perse elle-même
+      prit fin avec Yazdegerd.
+    canonical_hijri: {year: 31, precision: year}
+    canonical_gregorian: {date: 651-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Tabari records Yazdegerd III's death under 31 AH near Marw at the hands of a miller."
+      - source_key: baladhuri_futuh
+        notes: "al-Baladhuri confirms the 31 AH date and the flight of Peroz III to China."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathir enters the death of Yazdegerd under 31 AH and notes the end of the Sasanian dynasty."
+    people: [[yazdegerd-iii, died]]
+    tags: [rashidun, ruler_death, persia, sasanian, marw, last-shahanshah]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =====================================================================
+  # UMAYYAD EXPANSION — SISTAN, TABARISTAN, BUKHARA
+  # =====================================================================
+
+  - slug: conquest-of-sistan
+    category: conquest
+    title_en: Conquest of Sistan — Umayyad Annexation of Eastern Persia
+    title_ar: فتح سجستان — ضم الأمويين شرقي فارس
+    title_fr: Conquête du Sistan — annexion omeyyade de la Perse orientale
+    description_en: |
+      The Muslim conquest of Sistan (Sijistan), the arid
+      border province between Persia and Baluchistan, was
+      completed by Rabīʿa ibn Ziyād al-Hārithī under the
+      governorship of ʿAbd al-Raḥmān ibn Samura in 31 AH
+      (~652 CE). al-Baladhuri in his Futūḥ al-Buldān records
+      the campaign and notes that the city of Zarang
+      (the Sasanian provincial capital) submitted on terms
+      of ṣulḥ after a brief resistance. Sistan became the
+      easternmost province of the early caliphate and a
+      crucial staging-ground for the later Umayyad and
+      ʿAbbāsid campaigns into Transoxiana and Sind. The
+      conquest also brought the Zunbīl dynasty of southern
+      Afghanistan under tributary submission, establishing
+      the pattern of indirect rule over the Hindu Kush
+      frontier that would persist for centuries.
+    description_ar: |
+      أُنجز فتح سجستان (سيستان)، الإقليم الحدودي القاحل
+      بين فارس وبلوشستان، على يد ربيعة بن زياد
+      الحارثي في عهد والي عبد الرحمن بن سمرة سنة
+      ٣١ هـ (~٦٥٢ م). يدون البلاذري في «فتوح
+      البلدان» الحملة، ويشير إلى أن مدينة زرنج
+      (عاصمة الإقليم الساسانية) أذعنت بالصلح بعد
+      مقاومة قصيرة. وصارت سجستان أقصى إقليم شرقي
+      للخلافة الأولى وقاعدة انطلاق حاسمة للحملات
+      الأموية والعباسية اللاحقة إلى ما وراء النهر
+      والسند. وجلب الفتح أيضاً سلالة الزنبل في جنوبي
+      أفغانستان إلى التبعية، مؤسساً نمط الحكم
+      غير المباشر على تخوم هندو كوش الذي استمر
+      قروناً.
+    description_fr: |
+      La conquête musulmane du Sistan (Sijistan), province
+      frontalière aride entre la Perse et le Baloutchistan,
+      fut accomplie par Rabīʿa ibn Ziyād al-Hārithī sous
+      le gouvernorat de ʿAbd al-Raḥmān ibn Samura en 31 H
+      (~652 EC). al-Balādhurī dans ses Futūḥ al-Buldān
+      consigne la campagne et note que la ville de Zarang
+      (capitale provinciale sassanide) capitula par ṣulḥ
+      après une brève résistance. Le Sistan devint la province
+      la plus orientale du califat naissant et un crucial
+      théâtre de départ pour les campagnes omeyyades et
+      abbassides ultérieures en Transoxiane et au Sind.
+      La conquête soumit également la dynastie Zunbīl du
+      sud de l'Afghanistan au tribut, établissant le modèle
+      de domination indirecte sur la frontière de l'Hindu
+      Kush qui persisterait pendant des siècles.
+    canonical_hijri: {year: 31, precision: year}
+    canonical_gregorian: {date: 652-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: baladhuri_futuh
+        is_canonical: true
+        notes: "al-Baladhuri records the conquest of Sistan under 31 AH and the submission of Zarang."
+      - source_key: tabari_tarikh
+        notes: "al-Tabari confirms the 31 AH date and the campaign under Rabia ibn Ziyad."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athir corroborates the 31 AH date and the Zunbil tributary arrangement."
+    people: [[rabia-ibn-ziyad, leader]]
+    tags: [umayyad, conquest, persia, sistan, zarang, baluchistan, zunbil]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: conquest-of-tabaristan
+    category: conquest
+    title_en: Conquest of Tabaristan — Muslim Annexation of the Caspian Highlands
+    title_ar: فتح طبرستان — ضم المسلمين مرتفعات القزوين
+    title_fr: Conquête du Tabaristan — annexion musulmane des hautes terres de la Caspienne
+    description_en: |
+      The Muslim conquest of Tabaristan (modern Māzandarān),
+      the mountainous province on the southern coast of the
+      Caspian Sea that had remained outside direct Sasanian
+      control, was completed in the early Umayyad period.
+      al-Baladhuri records that Saʿīd ibn al-ʿĀṣ, the Umayyad
+      governor of Kufa, sent an expedition that subdued the
+      region in the 30s AH (~650s CE). The indigenous
+      Mardavij dynasty and the mountainous terrain had
+      preserved Tabaristan's autonomy through the Rashidun
+      conquests; the Umayyad campaign established direct
+      caliphal rule and introduced Islam to the Caspian
+      hinterland. Tabaristan would later become a centre
+      of Shiʿite and Zaydi influence, but its initial
+      conquest marked the completion of Muslim political
+      control over the entire Iranian plateau.
+    description_ar: |
+      أُنجز فتح طبرستان (مازندران اليوم)، الإقليم الجبلي
+      على الساحل الجنوبي لبحر القزوين الذي بقي خارج
+      السيطرة الساسانية المباشرة، في أوائل العصر
+      الأموي. يدون البلاذري أن سعيد بن العاص والي
+      الكوفة الأموي أرسل حملة خضعت المنطقة في
+      الثلاثينيات الهجرية (~الخمسينيات الميلادية). وقد
+      حافظت سلالة مرداويج المحلية والتضاريس الجبلية
+      على استقلال طبرستان طوال فتوحات الراشدين؛
+      فأقامت الحملة الأموية الحكم الخلافي المباشر
+      وأدخلت الإسلام إلى المنطقة الشاطئية. وصارت
+      طبرستان لاحقاً مركزاً للنفوذ الشيعي والزيدي،
+      لكن فتحها المبدئي مثل إكمال السيطرة السياسية
+      الإسلامية على الهضبة الإيرانية بأكملها.
+    description_fr: |
+      La conquête musulmane du Tabaristan (actuel
+      Māzandarān), province montagneuse sur la côte sud
+      de la mer Caspienne qui était restée en dehors du
+      contrôle sassanide direct, fut accomplie au début
+      de la période omeyyade. al-Balādhurī consigne que
+      Saʿīd ibn al-ʿĀṣ, le gouverneur omeyyade de Kūfa,
+      envoya une expédition qui soumit la région dans les
+      années 30 H (~années 650 EC). La dynastie autochtone
+      Mardavij et le terrain montagneux avaient préservé
+      l'autonomie du Tabaristan à travers les conquêtes
+      rashidounes; la campagne omeyyade établit la domination
+      califale directe et introduisit l'Islam dans
+      l'arrière-pays de la Caspienne. Le Tabaristan deviendrait
+      plus tard un centre d'influence shiʿite et zaydite, mais
+      sa conquête initiale marqua l'achèvement du contrôle
+      politique musulman sur l'ensemble du plateau iranien.
+    canonical_hijri: {year: 35, precision: year}
+    canonical_gregorian: {date: 656-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: baladhuri_futuh
+        is_canonical: true
+        notes: "al-Baladhuri records the conquest of Tabaristan in the 30s AH under Sa'id ibn al-'As."
+      - source_key: tabari_tarikh
+        notes: "al-Tabari confirms the early Umayyad campaign and the submission of the Mardavij."
+      - source_key: ei2
+        notes: "EI2 article 'Tabaristan' confirms the 30s AH date and the Umayyad annexation."
+    people: []
+    tags: [umayyad, conquest, persia, tabaristan, caspian, mardavij]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: conquest-of-bukhara-said-ibn-uthman
+    category: conquest
+    title_en: Conquest of Bukhara by Saʿīd ibn ʿUthmān — First Muslim Entry into Transoxiana
+    title_ar: فتح بخارى على يد سعيد بن عثمان — أول دخول إسلامي لما وراء النهر
+    title_fr: Conquête de Boukhara par Saʿīd ibn ʿUthmān — première entrée musulmane en Transoxiane
+    description_en: |
+      The first Muslim conquest of Bukhara, the great
+      Sogdian commercial and religious centre on the Silk
+      Road, was accomplished by Saʿīd ibn ʿUthmān, the
+      Umayyad governor of Khurāsān, in 56 AH (~676 CE).
+      al-Tabari records the campaign under the events of
+      56 AH and describes Saʿīd as advancing across the
+      Oxus (Jayḥūn) into Sogdia and compelling the city
+      to pay tribute and accept a Muslim garrison. The
+      conquest was not yet definitive — Bukhara would
+      revolt repeatedly until Qutayba ibn Muslim's
+      campaigns of 93–96 AH — but it marked the first
+      permanent Muslim political presence in Transoxiana
+      and the beginning of the Islamisation of Central
+      Asia. The Sogdian nobility initially retained their
+      positions under Muslim overlordship, a pattern
+      characteristic of early Islamic expansion in the
+      Iranian cultural sphere.
+    description_ar: |
+      أُنجز أول فتح إسلامي لبخارى، المركز التجاري
+      والديني السغدي العظيم على طريق الحرير، على يد
+      سعيد بن عثمان والي خراسان الأموي سنة ٥٦ هـ
+      (~٦٧٦ م). يدون الطبري الحملة في حوادث سنة
+      ٥٦ هـ، ويصف سعيداً بأنه تقدم عبر نهر جيحون
+      إلى سغدiana وأجبر المدينة على دفع الجزية
+      وقبول حامية إسلامية. ولم يكن الفتح حاسماً
+      بعد — فقد ثارت بخارى مراراً حتى حملات
+      قتيبة بن مسلم في ٩٣–٩٦ هـ — لكنه مثل أول
+      حضور سياسي إسلامي دائم في ما وراء النهر
+      وبداية أسلمة آسيا الوسطى. وحافظت النخبة
+      السغدية على مناصبها في البداية تحت السيادة
+      الإسلامية، وهو نمط مميز للتوسع الإسلامي
+      المبكر في المحيط الثقافي الفارسي.
+    description_fr: |
+      La première conquête musulmane de Boukhara, le grand
+      centre commercial et religieux sogdien de la Route de
+      la Soie, fut accomplie par Saʿīd ibn ʿUthmān, le
+      gouverneur omeyyade du Khurāsān, en 56 H (~676 EC).
+      al-Ṭabarī consigne la campagne sous les événements de
+      56 H et décrit Saʿīd comme ayant franchi l'Oxus
+      (Jayḥūn) pour pénétrer en Sogdiane et contraint la
+      ville à payer tribut et accepter une garnison musulmane.
+      La conquête n'était pas encore définitive — Boukhara se
+      révolterait à plusieurs reprises jusqu'aux campagnes de
+      Qutayba ibn Muslim en 93–96 H — mais elle marqua la
+      première présence politique musulmane permanente en
+      Transoxiane et le début de l'islamisation de l'Asie
+      centrale. La noblesse sogdienne conserva initialement
+      ses positions sous la suzeraineté musulmane, un modèle
+      caractéristique de l'expansion islamique primitive dans
+      la sphère culturelle iranienne.
+    canonical_hijri: {year: 56, precision: year}
+    canonical_gregorian: {date: 676-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Tabari records the conquest of Bukhara under 56 AH by Sa'id ibn Uthman."
+      - source_key: baladhuri_futuh
+        notes: "al-Baladhuri confirms the 56 AH date and the tribute arrangement with the Sogdian nobility."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athir corroborates the 56 AH campaign and notes it as the first Muslim crossing of the Oxus."
+    people: [[said-ibn-uthman, leader]]
+    tags: [umayyad, conquest, transoxiana, sogdia, bukhara, silk-road, central-asia]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: conquest-of-khwarazm-qutayba
+    category: conquest
+    title_en: Conquest of Khwārazm by Qutayba ibn Muslim — Annexation of the Oxus Delta
+    title_ar: فتح خوارزم على يد قتيبة بن مسلم — ضم دلتا جيحون
+    title_fr: Conquête du Khwārazm par Qutayba ibn Muslim — annexion du delta de l'Oxus
+    description_en: |
+      The Umayyad general Qutayba ibn Muslim conquered
+      Khwārazm (the fertile delta region of the lower Oxus,
+      modern Khiva/Urgench) in 93 AH (~712 CE), completing
+      the Muslim subjugation of the sedentary Iranian-speaking
+      lands north of the river. al-Tabari records the campaign
+      under the events of 93 AH and describes Qutayba's
+      crossing of the desert from Bukhara, the siege of the
+      Khwārazmian capital Kath, and the incorporation of the
+      region into the Umayyad province of Khurāsān. The
+      conquest brought the wealthy irrigation agriculture of
+      the Oxus delta under caliphal taxation and opened the
+      trade route from the Volga to the Muslim markets of
+      Central Asia. Khwārazm would later produce al-Bīrūnī
+      and al-Khwārizmī, but in 93 AH it marked the
+      northernmost extent of Umayyad power.
+    description_ar: |
+      فتح القائد الأموي قتيبة بن مسلم خوارزم (الإقليم
+      الخصيب بدلتا جيحون السفلى، خوiva/أورگنج الحديثة)
+      سنة ٩٣ هـ (~٧١٢ م)، مكملاً خضوع الأراضي
+      الإيرانية المتحضرة شمالي النهر. يدون الطبري
+      الحملة في حوادث سنة ٩٣ هـ، ويصف عبور قتيبة
+      الصحراء من بخارى وحصار عاصمة الخوارزميين
+      كاث وإدماج الإقليم في ولاية خراسان الأموية.
+      وأدى الفتح إلى إخضاع الزراعة الريّية المزدهرة
+      بدلتا جيحون للضرائب الخلافية وفتح طريق التجارة
+      من الفولغا إلى أسواق آسيا الوسطى الإسلامية.
+      وستُخرج خوارزم لاحقاً البيروني والخوارزمي،
+      لكنها في سنة ٩٣ هـ مثلت أقصى امتداد شمالي
+      للقوة الأموية.
+    description_fr: |
+      Le général omeyyade Qutayba ibn Muslim conquit le
+      Khwārazm (la région fertile du delta de l'Oxus
+      inférieur, actuel Khiva/Ourguentch) en 93 H (~712 EC),
+      achevant la soumission des terres sédentaires iranophones
+      au nord du fleuve. al-Ṭabarī consigne la campagne sous
+      les événements de 93 H et décrit la traversée du désert
+      par Qutayba depuis Boukhara, le siège de la capitale
+      khwārazmienne Kath et l'intégration de la région dans
+      la province omeyyade du Khurāsān. La conquête soumit
+      l'agriculture irriguée prospère du delta de l'Oxus à
+      l'imposition califale et ouvrit la route commerciale de
+      la Volga aux marchés musulmans d'Asie centrale. Le
+      Khwārazm produirait plus tard al-Bīrūnī et al-Khwārizmī,
+      mais en 93 H il marquait l'extension la plus septentrionale
+      de la puissance omeyyade.
+    canonical_hijri: {year: 93, precision: year}
+    canonical_gregorian: {date: 712-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Tabari records the conquest of Khwarazm under 93 AH by Qutayba ibn Muslim."
+      - source_key: baladhuri_futuh
+        notes: "al-Baladhuri confirms the 93 AH date and the siege of Kath."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athir corroborates the 93 AH campaign and the incorporation into Khurasan."
+    people: [[qutayba-ibn-muslim, leader]]
+    tags: [umayyad, conquest, transoxiana, khwarazm, oxus, qutayba, central-asia]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: conquest-of-ferghana-qutayba
+    category: conquest
+    title_en: Conquest of Farghāna by Qutayba ibn Muslim — The Easternmost Umayyad Advance
+    title_ar: فتح فرغانة على يد قتيبة بن مسلم — أقصى تقدم أموي شرقاً
+    title_fr: Conquête de Farghāna par Qutayba ibn Muslim — l'avancée omeyyade la plus orientale
+    description_en: |
+      The Umayyad general Qutayba ibn Muslim led his easternmost
+      campaign into Farghāna (the fertile valley of the upper
+      Jaxartes/Syr Darya, modern Fergana Valley spanning
+      Uzbekistan, Kyrgyzstan, and Tajikistan) in 95 AH
+      (~714 CE). al-Tabari records the expedition under the
+      events of 95 AH and describes it as the culmination of
+      Qutayba's Transoxianan wars: the Muslim army crossed the
+      mountains from Samarkand, received the submission of the
+      Farghānan ruler, and established a frontier garrison
+      before withdrawing west. The campaign brought the
+      Umayyads to the borders of the Tang Chinese protectorate
+      and established diplomatic contact between the caliphate
+      and the Chinese court — a relationship that would be
+      tested a generation later at the Battle of Talas.
+    description_ar: |
+      قاد القائد الأموي قتيبة بن مسلم حملته الأقصى
+      شرقاً إلى فرغانة (الوادي الخصيب لنهر جaxartes/
+      سيحون الأعلى، وادي فرغانة الحديث الممتد بين
+      أوزبكستان وقيرغيزستان وطاجيكستان) سنة ٩٥ هـ
+      (~٧١٤ م). يدون الطبري الحملة في حوادث سنة
+      ٩٥ هـ، ويصفها بأنها ذروة حروب قتيبة في
+      ما وراء النهر: فعبر الجيش الإسلامي الجبال من
+      سمرقند واستلم خضوع حاكم فرغانة وأقام حامية
+      حدودية قبل الانسحاب غرباً. وأدت الحملة إلى
+      إيصال الأمويين إلى حدود المحمية التانغية
+      الصينية وأسست اتصالاً دبلوماسياً بين الخلافة
+      والبلاط الصيني — علاقة ستُختبر جيلاً لاحقاً
+      في معركة نهر طلاس.
+    description_fr: |
+      Le général omeyyade Qutayba ibn Muslim conduisit sa
+      campagne la plus orientale en Farghāna (la vallée
+      fertile du haut Jaxartes/Syr Darya, actuelle vallée
+      de Fergana s'étendant sur l'Ouzbékistan, le
+      Kirghizistan et le Tadjikistan) en 95 H (~714 EC).
+      al-Ṭabarī consigne l'expédition sous les événements de
+      95 H et la décrit comme le point culminant des guerres
+      transoxianes de Qutayba : l'armée musulmane franchit
+      les montagnes depuis Samarcande, reçut la soumission
+      du souverain farghānien et établit une garnison
+      frontalière avant de se retirer vers l'ouest. La
+      campagne porta les Omeyyades aux frontières du
+      protectorat chinois des Tang et établit un contact
+      diplomatique entre le califat et la cour chinoise —
+      une relation qui serait testée une génération plus
+      tard à la bataille de Talas.
+    canonical_hijri: {year: 95, precision: year}
+    canonical_gregorian: {date: 714-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Tabari records the conquest of Farghana under 95 AH by Qutayba ibn Muslim."
+      - source_key: baladhuri_futuh
+        notes: "al-Baladhuri confirms the 95 AH date and the submission of the Farghanan ruler."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athir corroborates the 95 AH campaign as the easternmost Umayyad advance."
+    people: [[qutayba-ibn-muslim, leader]]
+    tags: [umayyad, conquest, transoxiana, farghana, jaxartes, qutayba, tang]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =====================================================================
+  # THE TURNING POINT — BATTLE OF TALAS
+  # =====================================================================
+
+  - slug: battle-of-talas
+    category: battle
+    title_en: Battle of Talas — Abbasid Forces Defeat the Tang Chinese
+    title_ar: معركة نهر طلاس — العباسيون يهزمون التانغ الصينيين
+    title_fr: Bataille de Talas — les forces abbassides vainquent les Tang chinois
+    description_en: |
+      The battle on the Talas River (modern Taraz,
+      Kazakhstan) in which the Abbasid army of Abu Muslim's
+      successor Ziyād ibn Ṣāliḥ, reinforced by Karluk Turkish
+      cavalry who defected during the engagement, defeated the
+      Tang Chinese expeditionary force under the Korean
+      general Gao Xianzhi. al-Tabari records the battle under
+      the events of 134 AH (~751 CE) and describes it as the
+      decisive encounter that fixed the eastern frontier of
+      the Islamic world along the Pamir-Tian Shan line for
+      the next four centuries. The Karluk defection was the
+      turning point: the Turkish tribes, previously Tang
+      vassals, switched to the Abbasid side and accelerated
+      the Islamisation of Central Asia. Chinese prisoners
+      taken at Talas reportedly introduced papermaking to
+      the Muslim world — an anecdote preserved by al-Masʿūdī
+      and others that has become a symbol of the east-west
+      technological exchange catalysed by the battle.
+    description_ar: |
+      المعركة على نهر طلاس (طراز الحديثة بكازاخستان)
+      التي هزم فيها الجيش العباسي لخليفة أبي مسلم
+      زياد بن صالح، المعزز بفرسان قيرغيز أتراك
+      انقلبوا أثناء المعركة، القوة التanغية الصينية
+      بقيادة الجنرال الكوري غاو شيانج. يدون الطبري
+      المعركة في حوادث سنة ١٣٤ هـ (~٧٥١ م) ويصفها
+      بالمواجهة الفاصلة التي ثبتت الحدود الشرقية
+      للعالم الإسلامي على خط بامير-تيان شان أربعة
+      قرون مقبلة. وكان انشقاق القيرغيز هو نقطة
+      التحول: فالقبائل التركية التي كانت تابعة للتanغ
+      تحولت إلى جانب العباسيين وسّرّعت أسلمة آسيا
+      الوسطى. ويُروى أن أسرى صينيين أُخذوا في طلاس
+      أدخلوا صناعة الورق إلى العالم الإسلامي —
+      قصة يحفظها المسعودي وغيره وصارت رمزاً
+      للتبادل التكنولوجي الشرقي-الغربي الذي دفعته
+      المعركة.
+    description_fr: |
+      La bataille sur la rivière Talas (actuelle Taraz au
+      Kazakhstan) où l'armée abbasside du successeur d'Abū
+      Muslim Ziyād ibn Ṣāliḥ, renforcée par la cavalerie
+      turque Karluk qui défecta pendant l'engagement, vainquit
+      la force expéditionnaire chinoise des Tang sous le
+      général coréen Gao Xianzhi. al-Ṭabarī consigne la
+      bataille sous les événements de 134 H (~751 EC) et la
+      décrit comme la rencontre décisive qui fixa la frontière
+      orientale du monde islamique le long de la ligne Pamir-
+      Tian Shan pour les quatre siècles suivants. La défection
+      des Karluk fut le tournant : les tribus turques,
+      auparavant vassales des Tang, passèrent du côté
+      abbasside et accélérèrent l'islamisation de l'Asie
+      centrale. Des prisonniers chinois faits à Talas
+      auraient introduit la fabrication du papier dans le
+      monde musulman — une anecdote préservée par al-Masʿūdī
+      et d'autres qui est devenue un symbole de l'échange
+      technologique est-ouest catalysé par la bataille.
+    canonical_hijri: {year: 134, precision: year}
+    canonical_gregorian: {date: 751-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Tabari records the battle of Talas under 134 AH and the Karluk defection."
+      - source_key: baladhuri_futuh
+        notes: "al-Baladhuri confirms the 134 AH date and the Abbasid-Tang confrontation."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athir corroborates the 134 AH date and describes the battle as fixing the eastern frontier."
+      - source_key: ei2
+        notes: "EI2 article 'Talas' confirms the 134 AH date, the Karluk defection, and the papermaking anecdote."
+    people: []
+    tags: [abbasid, battle, tang, china, karluk, talas, central-asia, frontier]
+    importance: major
+    verified: true
+    verification_status: cross_verified

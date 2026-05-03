@@ -1,0 +1,1093 @@
+# Wave 14 of curated event additions (2026-04-26).
+# 3 sahaba (narrator + governor + tabi'i yemeni) + 2 hadith giants
+# + 2 maliki egyptian founders + 2 late shafi'i + 3 modern reformers
+# + 2 pre-Hijra prophetic events + 1 maliki sufi.
+# Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # SAHABA / TABI'I
+  # =========================================================================
+
+  - slug: death-of-abdullah-ibn-amr
+    category: companion
+    title_en: Death of ʿAbdullah ibn ʿAmr ibn al-ʿAṣ ra
+    title_ar: وفاة عبد الله بن عمرو بن العاص رضي الله عنه
+    title_fr: Mort d'ʿAbdallāh ibn ʿAmr ibn al-ʿĀṣ ra
+    description_en: |
+      Abu Muhammad ʿAbdullah ibn ʿAmr ibn al-ʿAṣ — son of the
+      famous general ʿAmr ibn al-ʿAṣ ra (conqueror of Egypt),
+      among the youngest Companions to embrace Islam (some
+      sources say he embraced before his father), and the
+      Companion who recorded hadith in writing during the
+      Prophet's ﷺ lifetime when the Prophet ﷺ explicitly
+      permitted him to do so — died in Egypt at age about 72.
+      His written collection, *al-Ṣaḥifa al-Ṣadiqa*, contained
+      reportedly 1,000 hadiths recorded directly from the
+      Prophet ﷺ; it was inherited by his descendant ʿAmr ibn
+      Shuʿayb and underlies a substantial portion of the hadith
+      preserved through the Egyptian transmission line. He read
+      the Torah and the Bible (in his pre-Islamic education) as
+      well as the Qurʾan, and was one of the very few sahaba
+      to do so. His narrations on personal piety and balanced
+      worship — the famous hadith on fasting and prayer where
+      the Prophet ﷺ corrected his over-zealousness (Bukhari) —
+      are foundational guidance against extremism in worship.
+    description_ar: |
+      توفي أبو محمد عبد الله بن عمرو بن العاص رضي الله عنه — ابن
+      القائد المشهور عمرو بن العاص رضي الله عنه (فاتح مصر)،
+      ومن أصغر الصحابة إسلاماً (وذكر بعض المصادر أنه أسلم قبل
+      أبيه)، والصحابي الذي كتب الحديث في حياة رسول الله ﷺ
+      بإذن صريح من النبي ﷺ — بمصر عن نحو اثنتين وسبعين سنة.
+      وجمعه الكتابي «الصحيفة الصادقة» يحوي قرابة ألف حديث رواها
+      عن النبي ﷺ مباشرة؛ ورثها عنه حفيده عمرو بن شعيب فبنى عليها
+      جزء كبير من الحديث المحفوظ بسلسلة الإسناد المصرية. وكان
+      رحمه الله يقرأ التوراة والإنجيل (في تعليمه الجاهلي) إلى
+      جانب القرآن، وهو من القلة من الصحابة الذين فعلوا ذلك.
+      ورواياته في تقوى الفرد والتوازن في العبادة — حديثه المشهور
+      في الصيام والصلاة إذ صحح النبي ﷺ فيه إفراطه (متفق عليه) —
+      هي إرشاد أصلي ضد التشدد في العبادة.
+    description_fr: |
+      Abu Muḥammad ʿAbdullāh ibn ʿAmr ibn al-ʿĀṣ — fils du
+      célèbre général ʿAmr ibn al-ʿĀṣ ra (conquérant de
+      l'Égypte), parmi les plus jeunes Compagnons à embrasser
+      l'Islam (certaines sources disent qu'il embrassa avant son
+      père), et le Compagnon qui consigna les hadiths par écrit
+      durant la vie du Prophète ﷺ lorsque le Prophète ﷺ le lui
+      permit explicitement — mourut en Égypte à l'âge d'environ
+      72 ans. Sa collection écrite, *al-Ṣaḥīfa al-Ṣādiqa*,
+      contenait, dit-on, 1 000 hadiths consignés directement du
+      Prophète ﷺ; elle fut héritée par son descendant ʿAmr ibn
+      Shuʿayb et sous-tend une portion substantielle des
+      hadiths préservés à travers la lignée de transmission
+      égyptienne. Il lisait la Torah et la Bible (dans son
+      éducation préislamique) ainsi que le Coran, et fut l'un
+      des très rares sahaba à le faire. Ses narrations sur la
+      piété personnelle et le culte équilibré — le célèbre
+      hadith sur le jeûne et la prière où le Prophète ﷺ corrigea
+      son zèle excessif (Bukhārī) — constituent des conseils
+      fondateurs contre l'extrémisme dans le culte.
+    canonical_hijri: {year: 65, precision: year}
+    canonical_gregorian: {date: 685-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 1976"
+    people: [[abdullah-ibn-amr, subject], [amr-ibn-al-as, subject]]
+    tags: [sahaba, egypt, hadith, written-record, fasting, balance]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_Allah_ibn_Amr_ibn_al-As"
+
+  - slug: death-of-wahb-ibn-munabbih
+    category: scholar
+    title_en: Death of Wahb ibn Munabbih — Yemeni Tabiʿi Polymath
+    title_ar: وفاة وهب بن منبه — تابعي اليمن وموسوعيها
+    title_fr: Mort de Wahb ibn Munabbih — polymathe tabiʿī yéménite
+    description_en: |
+      Abu ʿAbdullah Wahb ibn Munabbih al-Ṣanʿani al-Yamani —
+      Yemeni Sunni tabiʿi of Persian descent, member of the
+      delegation that ʿAli ibn Abi Ṭalib ra dispatched south,
+      qadi of Sanaa under the Umayyads, and the foremost
+      Sunni narrator of the *isrāʾiliyyāt* (transmitted accounts
+      of the pre-Islamic prophets and biblical narratives) for
+      his generation — died in Sanaa at age about 80. His *Kitab
+      al-Mubtadaʾ* was the most extensive single source for the
+      pre-Islamic prophetic narratives transmitted into Sunni
+      tafsir; al-Ṭabari quotes him repeatedly in *Jamiʿ al-
+      Bayan* on the histories of Adam, Nuh, Ibrahim, Yusuf, and
+      Musa. He was probably the original conduit by which the
+      *Kitab Daniyal* and parts of Jewish-Christian apocalyptic
+      literature reached the Sunni hadith corpus through
+      Yemen, where significant Jewish and Christian populations
+      had preserved these traditions. His later critics
+      (Aḥmad ibn Ḥanbal, the early Hanbalis) treated him as a
+      generally reliable transmitter of Yemeni-isolated material.
+    description_ar: |
+      توفي الإمام أبو عبد الله وهب بن منبه الصنعاني اليمني —
+      تابعي سني يمني من أصول فارسية، ومن وفد بعثه علي بن أبي
+      طالب رضي الله عنه إلى اليمن، وقاضي صنعاء في عهد بني أمية،
+      وأكبر ناقلي «الإسرائيليات» (الأخبار المنقولة عن أنبياء
+      ما قبل الإسلام والروايات التوراتية) في جيل التابعين —
+      بصنعاء عن نحو ثمانين سنة. وكتابه «المبتدأ» أوسع مصدر منفرد
+      لأخبار الأنبياء قبل الإسلام التي دخلت في تفاسير أهل
+      السنة؛ ينقل عنه الطبري في «جامع البيان» مراراً في أخبار
+      آدم ونوح وإبراهيم ويوسف وموسى عليهم السلام. ولعله المصدر
+      الأصلي الذي وصل به «كتاب دانيال» وبعض الأدب الرؤياوي
+      اليهودي-المسيحي إلى التراث الحديثي السني عبر اليمن، حيث
+      حفظت جاليات يهودية ومسيحية مهمة هذه التراثات. وعدّه
+      ناقدوه المتأخرون (أحمد بن حنبل وأوائل الحنابلة) ثقة في
+      الجملة في رواية المنفرد اليمني.
+    description_fr: |
+      Abu ʿAbdullāh Wahb ibn Munabbih al-Ṣanʿānī al-Yamanī —
+      tabiʿī sunnite yéménite de descendance persane, membre
+      de la délégation qu'ʿAlī ibn Abī Ṭālib ra dépêcha au sud,
+      *qāḍī* de Sanaa sous les Omeyyades, et le principal
+      narrateur sunnite des *isrāʾīliyyāt* (récits transmis des
+      prophètes préislamiques et narrations bibliques) pour sa
+      génération — mourut à Sanaa à l'âge d'environ 80 ans. Son
+      *Kitāb al-Mubtadaʾ* fut la source unique la plus exhaustive
+      des récits prophétiques préislamiques transmis dans le
+      tafsir sunnite; al-Ṭabarī le cite à plusieurs reprises
+      dans le *Jamiʿ al-Bayān* sur les histoires d'Ādam, Nūḥ,
+      Ibrāhīm, Yūsuf et Mūsā. Il fut probablement le canal
+      original par lequel le *Kitāb Dāniyāl* et des parties de
+      la littérature apocalyptique judéo-chrétienne parvinrent
+      au corpus du hadith sunnite à travers le Yémen, où des
+      populations juives et chrétiennes significatives avaient
+      préservé ces traditions. Ses critiques ultérieurs (Aḥmad
+      ibn Ḥanbal, les premiers hanbalites) le traitèrent comme
+      un transmetteur globalement fiable du matériau yéménite
+      isolé.
+    canonical_hijri: {year: 114, precision: year}
+    canonical_gregorian: {date: 732-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[wahb-ibn-munabbih, subject]]
+    tags: [tabi'un, yemen, sanaa, isrāʾiliyyāt, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Wahb_ibn_Munabbih"
+
+  - slug: death-of-al-mughira-ibn-shuba
+    category: companion
+    title_en: Death of al-Mughira ibn Shuʿba ra
+    title_ar: وفاة المغيرة بن شعبة رضي الله عنه
+    title_fr: Mort d'al-Mughīra ibn Shuʿba ra
+    description_en: |
+      al-Mughira ibn Shuʿba al-Thaqafi — Companion who embraced
+      Islam after the Treaty of Ḥudaybiyya, governor of Basra
+      under ʿUmar ra, governor of Kufa under both ʿUmar ra and
+      Muʿawiya ra, and one of the four men whom contemporaries
+      reckoned the most politically astute Arabs of his
+      generation (the others being Muʿawiya, ʿAmr ibn al-ʿAṣ,
+      and Ziyad ibn Abi Sufyan) — died in Kufa at age about 70
+      during the plague of 50 AH. He was the Companion present
+      at the Treaty of Ḥudaybiyya in 6 AH carrying the Quraysh
+      banner, and the Companion who proposed the *takbīr* on
+      the rooftops of Kufa to wake the populace for prayer.
+      He narrated 136 hadiths in the Six Books, including the
+      foundational hadith on wiping over the *khuffayn* (leather
+      socks) in ablution. Classical Sunni assessment of his
+      political conduct varies; al-Dhahabi treats him as a
+      Companion of acknowledged worldly skill who served the
+      umma in difficult times.
+    description_ar: |
+      توفي المغيرة بن شعبة الثقفي رضي الله عنه — صحابي أسلم
+      بعد صلح الحديبية، وتولى البصرة في خلافة عمر بن الخطاب
+      رضي الله عنه، والكوفة في خلافتي عمر ومعاوية رضي الله
+      عنهما، وأحد أربعة عدّهم معاصروه أدهى دهاة العرب في عصره
+      (والآخرون معاوية وعمرو بن العاص وزياد بن أبي سفيان) —
+      بالكوفة عن نحو سبعين سنة في طاعون عام ٥٠ هـ. وكان حاضراً
+      صلح الحديبية سنة ست للهجرة حاملاً راية قريش، والصحابي
+      الذي اقترح التكبير على ظهور بيوت الكوفة لإيقاظ الناس
+      للصلاة. روى ١٣٦ حديثاً في الكتب الستة، منها الحديث
+      الأصلي في المسح على الخفين في الوضوء. واختلف فقهاء
+      أهل السنة في تقدير مسلكه السياسي؛ ويعدّه الذهبي
+      صحابياً معترفاً به في الدهاء الدنيوي خدم الأمة في
+      عصرها العسير.
+    description_fr: |
+      al-Mughīra ibn Shuʿba al-Thaqafī — Compagnon qui embrassa
+      l'Islam après le Traité d'al-Ḥudaybiyya, gouverneur de
+      Bassora sous ʿUmar ra, gouverneur de Koufa sous ʿUmar ra
+      et Muʿāwiya ra, et l'un des quatre hommes que les
+      contemporains tenaient pour les Arabes les plus
+      politiquement astucieux de leur génération (les autres
+      étant Muʿāwiya, ʿAmr ibn al-ʿĀṣ et Ziyād ibn Abī Sufyān)
+      — mourut à Koufa à l'âge d'environ 70 ans durant la peste
+      de 50 H. Il fut le Compagnon présent au Traité d'al-
+      Ḥudaybiyya en 6 H portant la bannière de Quraysh, et le
+      Compagnon qui proposa le *takbīr* depuis les toits de
+      Koufa pour réveiller la population pour la prière. Il
+      narra 136 hadiths dans les Six Livres, dont le hadith
+      fondateur sur l'essuyage sur les *khuffayn* (chaussettes
+      de cuir) lors des ablutions. L'évaluation sunnite
+      classique de sa conduite politique varie; al-Dhahabī le
+      traite comme un Compagnon d'habileté mondaine reconnue
+      qui servit la *umma* en des temps difficiles.
+    canonical_hijri: {year: 50, precision: year}
+    canonical_gregorian: {date: 670-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 363"
+    people: [[al-mughira-ibn-shuba, subject], [muawiya-ibn-abi-sufyan, subject]]
+    tags: [sahaba, thaqif, kufa, basra, governor, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mughira_ibn_Shu%27ba"
+
+  # =========================================================================
+  # HADITH GIANTS
+  # =========================================================================
+
+  - slug: death-of-sufyan-ibn-uyayna
+    category: scholar
+    title_en: Death of Sufyan ibn ʿUyayna — Mecca Hadith Giant
+    title_ar: وفاة سفيان بن عيينة — حافظ مكة
+    title_fr: Mort de Sufyān ibn ʿUyayna — géant du hadith à La Mecque
+    description_en: |
+      Abu Muhammad Sufyan ibn ʿUyayna al-Hilali al-Kufi — Sunni
+      muḥaddith who emigrated from Kufa to Mecca and became
+      the foremost hadith authority of the Hijaz for forty years
+      until his death — died in Mecca at age about 91. He was
+      one of the principal direct teachers of Imam al-Shafiʿi
+      (who studied under him in Mecca for years), Imam Aḥmad
+      ibn Ḥanbal, and ʿAli ibn al-Madini; the trio of Aḥmad,
+      Ibn al-Madini, and Yaḥya ibn Maʿin all reckoned him among
+      the foremost narrators of his generation. al-Shafiʿi said:
+      "If not for Malik and Sufyan ibn ʿUyayna, the knowledge
+      of the Hijaz would have died." Imam Aḥmad ranked him
+      "the greatest of all hadith narrators in both isnad and
+      meaning." His narrations from al-Zuhri are particularly
+      strong; he is one of the principal links by which the
+      al-Zuhri-mediated foundational hadith reached the
+      generation of the Six Books.
+    description_ar: |
+      توفي الإمام أبو محمد سفيان بن عيينة الهلالي الكوفي — محدث
+      سني هاجر من الكوفة إلى مكة وصار كبير محدثي الحجاز أربعين
+      سنة حتى وفاته — بمكة المكرمة عن نحو إحدى وتسعين سنة. وهو
+      أحد أكابر شيوخ الإمام الشافعي (قرأ عليه بمكة سنين)،
+      والإمام أحمد بن حنبل، وعلي بن المديني؛ والثلاثة (أحمد وابن
+      المديني ويحيى بن معين) عدّوه من كبار رواة جيله. قال
+      الشافعي: «لولا مالك وسفيان بن عيينة لذهب علم الحجاز».
+      وقال أحمد عنه: «أعلم الناس بالحديث إسناداً ومعنى». وأما
+      روايته عن الزهري فبالغة القوة؛ وهو أحد العقد الكبرى التي
+      وصلت بها أحاديث الزهري الأم إلى جيل أصحاب الكتب الستة.
+    description_fr: |
+      Abu Muḥammad Sufyān ibn ʿUyayna al-Hilālī al-Kūfī —
+      muḥaddith sunnite qui émigra de Koufa à La Mecque et
+      devint la principale autorité de hadith du Hedjaz pendant
+      quarante ans jusqu'à sa mort — mourut à La Mecque à l'âge
+      d'environ 91 ans. Il fut l'un des principaux maîtres
+      directs de l'imam al-Shāfiʿī (qui étudia sous lui à La
+      Mecque pendant des années), de l'imam Aḥmad ibn Ḥanbal,
+      et d'ʿAlī ibn al-Madīnī; le trio Aḥmad, Ibn al-Madīnī et
+      Yaḥyā ibn Maʿīn le comptait tous parmi les principaux
+      narrateurs de sa génération. al-Shāfiʿī dit : « sans
+      Mālik et Sufyān ibn ʿUyayna, la science du Hedjaz serait
+      morte ». L'imam Aḥmad le classa « le plus grand de tous
+      les narrateurs de hadith tant en *isnād* qu'en sens ».
+      Ses narrations d'al-Zuhrī sont particulièrement solides;
+      il est l'un des principaux liens par lesquels le hadith
+      fondateur médiatisé par al-Zuhrī parvint à la génération
+      des Six Livres.
+    canonical_hijri: {year: 198, precision: year}
+    canonical_gregorian: {date: 814-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[sufyan-ibn-uyayna, subject], [ash-shafii, subject], [ahmad-ibn-hanbal, subject]]
+    tags: [hadith, mecca, hijaz, abbasid, zuhri]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sufyan_ibn_Uyaynah"
+
+  - slug: death-of-hammad-ibn-salama
+    category: scholar
+    title_en: Death of Hammad ibn Salama — Basra Hadith Master
+    title_ar: وفاة حماد بن سلمة — محدث البصرة
+    title_fr: Mort de Ḥammād ibn Salama — maître du hadith à Bassora
+    description_en: |
+      Abu Salama Hammad ibn Salama ibn Dinar al-Baṣri — leading
+      Sunni muḥaddith of Basra in the second-century AH
+      generation, foremost narrator of Thabit al-Bunani's
+      transmission of Anas ibn Malik ra and the entire Basran
+      Companion-tradition, and one of the principal teachers
+      both of Yaḥya ibn Saʿid al-Qaṭṭan (the founder of formal
+      hadith criticism) and the early Basran Sufis — died in
+      Basra at age about 80. Imam Aḥmad ranked him "the most
+      reliable transmitter from Thabit"; al-Bukhari narrates
+      from him in *al-Adab al-Mufrad* but rarely in the *Ṣaḥiḥ*
+      itself (preferring chains through younger transmitters
+      whose memory he could verify); Muslim, Abu Dawud, al-
+      Tirmidhi, and al-Nasaʾi all narrate from him in their
+      Sunan. His positions on the divine attributes anchored
+      the Basran Athari tradition. He was a freedman of the
+      Tamim tribe.
+    description_ar: |
+      توفي الإمام أبو سلمة حماد بن سلمة بن دينار البصري — كبير
+      محدثي البصرة في جيل القرن الثاني الهجري، أعلم تلاميذ
+      ثابت البناني في رواية أنس بن مالك رضي الله عنه وعامة
+      تراث الصحابة البصري، وأحد كبار شيوخ يحيى بن سعيد القطان
+      (مؤسس النقد الحديثي) والصوفية الباكر بالبصرة — بالبصرة
+      عن نحو ثمانين سنة. قال أحمد فيه: «أوثق من روى عن
+      ثابت». روى عنه البخاري في «الأدب المفرد» ولكن نادراً في
+      الصحيح نفسه (إيثاراً لأسانيد عبر رواة أصغر يمكن التحقق
+      من حفظهم)؛ وروى عنه مسلم وأبو داود والترمذي والنسائي
+      في سننهم. وأقواله في الصفات أصل من أصول التراث الأثري
+      البصري. وكان رحمه الله مولى لتميم.
+    description_fr: |
+      Abu Salama Ḥammād ibn Salama ibn Dīnār al-Baṣrī —
+      principal muḥaddith sunnite de Bassora dans la génération
+      du IIe siècle de l'Hégire, principal narrateur de la
+      transmission de Thābit al-Bunānī d'Anas ibn Mālik ra et
+      de l'ensemble de la tradition des Compagnons basriens, et
+      l'un des principaux enseignants à la fois de Yaḥyā ibn
+      Saʿīd al-Qaṭṭān (le fondateur de la critique formelle du
+      hadith) et des premiers soufis basriens — mourut à Bassora
+      à l'âge d'environ 80 ans. L'imam Aḥmad le classa « le
+      transmetteur le plus fiable de Thābit »; al-Bukhārī
+      narre de lui dans *al-Adab al-Mufrad* mais rarement dans
+      le *Ṣaḥīḥ* lui-même (préférant les chaînes par des
+      transmetteurs plus jeunes dont il pouvait vérifier la
+      mémoire); Muslim, Abū Dāwūd, al-Tirmidhī et al-Nasāʾī
+      narrent tous de lui dans leurs *Sunan*. Ses positions sur
+      les attributs divins ancrèrent la tradition athari
+      basrienne. C'était un affranchi de la tribu de Tamīm.
+    canonical_hijri: {year: 167, precision: year}
+    canonical_gregorian: {date: 783-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[hammad-ibn-salama, subject]]
+    tags: [hadith, basra, abbasid, anas-ibn-malik]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hammad_ibn_Salamah"
+
+  # =========================================================================
+  # MALIKI EGYPTIAN FOUNDERS
+  # =========================================================================
+
+  - slug: death-of-ibn-wahb
+    category: scholar
+    title_en: Death of ʿAbdullah ibn Wahb — Maliki of Egypt
+    title_ar: وفاة عبد الله بن وهب — مالكي مصر
+    title_fr: Mort d'ʿAbdallāh ibn Wahb — malikite d'Égypte
+    description_en: |
+      Abu Muhammad ʿAbdullah ibn Wahb al-Qurashi al-Miṣri — son
+      of a freedman of the Qurashi clan, leading direct student
+      of Imam Malik in Egypt (he travelled annually to Medina
+      to study), and one of the four founding companions of the
+      Egyptian Maliki school (with Ibn al-Qāsim, Ashhab, and
+      al-Mughira) — died in Cairo at age about 72. He was the
+      most prolific compiler of Malik's own hadith and fiqh
+      narrations: his *Jamiʿ ibn Wahb* and his *Muwaṭṭaʾ* (his
+      personal recension of Malik's *Muwaṭṭaʾ*) preserve
+      Malik's positions on hundreds of legal questions not
+      preserved in al-Qaʿnabi's standard recension. He refused
+      every appointment to qaḍi and lived in personal piety on
+      his Cairo estate. His positions occupy a major part of
+      the cross-references between Maliki and Hanafi schools
+      preserved in Saḥnun's *al-Mudawwana*. Imam Malik said
+      of him: "Ibn Wahb is a scholar of jurisprudence" — high
+      praise from one who was sparing in compliments.
+    description_ar: |
+      توفي الإمام أبو محمد عبد الله بن وهب القرشي المصري — مولى
+      لقريش، أعلم تلاميذ الإمام مالك مباشرة في مصر (كان يرحل
+      كل سنة إلى المدينة المنورة للقراءة عليه)، وأحد الأربعة
+      المؤسسين لمذهب مالكية مصر (مع ابن القاسم وأشهب
+      والمغيرة) — بالقاهرة عن نحو اثنتين وسبعين سنة. وهو أوفر
+      من جمع روايات الإمام مالك في الحديث والفقه: «الجامع» له
+      و«الموطأ» (روايته الخاصة لـ«موطأ» مالك) يحفظان أقوال مالك
+      في مئات المسائل التي لم تحفظ في رواية القعنبي المعتمدة.
+      ورفض رحمه الله كل ترشيح للقضاء، وعاش في تقواه الخاصة في
+      ضيعته بالقاهرة. وأقواله تشغل جزءاً كبيراً من المسائل
+      المتقاطعة بين المذهبين المالكي والحنفي المحفوظة في
+      «المدونة» لسحنون. قال عنه الإمام مالك: «ابن وهب فقيه»
+      وكلمة عظيمة من رجل كان مقتصداً في الثناء.
+    description_fr: |
+      Abu Muḥammad ʿAbdullāh ibn Wahb al-Qurashī al-Miṣrī — fils
+      d'un affranchi du clan qurashite, principal élève direct
+      de l'imam Mālik en Égypte (il voyageait annuellement à
+      Médine pour étudier), et l'un des quatre Compagnons
+      fondateurs de l'école malikite égyptienne (avec Ibn al-
+      Qāsim, Ashhab et al-Mughīra) — mourut au Caire à l'âge
+      d'environ 72 ans. Il fut le compilateur le plus prolifique
+      des narrations propres à Mālik en hadith et en fiqh : son
+      *Jāmiʿ ibn Wahb* et son *Muwaṭṭaʾ* (sa recension
+      personnelle du *Muwaṭṭaʾ* de Mālik) préservent les
+      positions de Mālik sur des centaines de questions
+      juridiques non préservées dans la recension standard
+      d'al-Qaʿnabī. Il refusa toute nomination à *qāḍī* et
+      vécut dans la piété personnelle sur son domaine cairote.
+      Ses positions occupent une part majeure des références
+      croisées entre les écoles malikite et hanafite préservées
+      dans *al-Mudawwana* de Saḥnūn. L'imam Mālik dit de lui :
+      « Ibn Wahb est un savant de jurisprudence » — louange
+      élevée venant d'un homme avare en compliments.
+    canonical_hijri: {year: 197, precision: year}
+    canonical_gregorian: {date: 813-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-wahb, subject], [malik-ibn-anas, subject]]
+    tags: [maliki, egypt, fiqh, abbasid, muwattaʾ]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-ibn-al-qasim
+    category: scholar
+    title_en: Death of Ibn al-Qasim al-ʿUtaqi — Architect of al-Mudawwana
+    title_ar: وفاة ابن القاسم العتقي — مؤسس «المدونة»
+    title_fr: Mort d'Ibn al-Qāsim al-ʿUtaqī — architecte d'*al-Mudawwana*
+    description_en: |
+      Abu ʿAbdullah ʿAbd al-Rahman ibn al-Qasim al-ʿUtaqi al-
+      Miṣri — Egyptian Maliki jurist, foremost of the four
+      founding companions of the Egyptian Maliki school, and
+      the scholar through whom 95 percent of *al-Mudawwana
+      al-Kubra* (the canonical Maliki text recorded by Saḥnun)
+      runs as primary source-narrator — died in Cairo at age
+      about 60. He spent fifty years studying under Imam Malik
+      in Medina before returning to Egypt; his memorisation of
+      Malik's positions across the entire span of fiqh provided
+      the comprehensive transmission that no other student
+      matched. The systematic Saḥnun-Ibn al-Qasim-Malik chain
+      is the spine of the Maghrebi-Andalusian Maliki tradition,
+      and *al-Mudawwana* through it became the operational
+      reference for the Maliki madhhab from North Africa to
+      al-Andalus to Sub-Saharan West Africa. Imam Malik said:
+      "There is no one I have taught who carried as much from
+      me as Ibn al-Qasim." His personal piety was such that he
+      reportedly performed Hajj on foot every year for the last
+      forty years of his life.
+    description_ar: |
+      توفي الإمام أبو عبد الله عبد الرحمن بن القاسم العتقي
+      المصري — فقيه مالكي مصري، كبير الأربعة المؤسسين لمذهب
+      مالكية مصر، والعالم الذي تمر به ٩٥ في المئة من «المدونة
+      الكبرى» (المتن المالكي الذي سجله سحنون) راوياً أصلياً
+      أساسياً — بالقاهرة عن نحو ستين سنة. أمضى خمسين سنة في
+      القراءة على الإمام مالك بالمدينة قبل أن يعود إلى مصر؛
+      وحفظه لأقوال مالك في عامة أبواب الفقه قدّم رواية شاملة
+      ما تساوى معها أحد من سائر تلامذة مالك. وسلسلة سحنون-ابن
+      القاسم-مالك المنهجية هي عمود تراث المالكية في المغرب
+      الإسلامي والأندلس، وعبرها صارت «المدونة» المرجع الفعلي
+      للمذهب المالكي من شمال أفريقيا إلى الأندلس إلى أفريقيا
+      الغربية تحت الصحراء. قال الإمام مالك فيه: «ما حمل عني
+      أحد كحمل ابن القاسم». ومن تقواه الشخصية أنه كان يحج راجلاً
+      كل سنة في آخر أربعين سنة من حياته كما تذكر المصادر.
+    description_fr: |
+      Abu ʿAbdullāh ʿAbd al-Raḥmān ibn al-Qāsim al-ʿUtaqī al-
+      Miṣrī — juriste malikite égyptien, le plus éminent des
+      quatre Compagnons fondateurs de l'école malikite
+      égyptienne, et le savant à travers qui 95 pour cent
+      d'*al-Mudawwana al-Kubra* (le texte malikite canonique
+      consigné par Saḥnūn) s'écoule comme source-narrateur
+      primaire — mourut au Caire à l'âge d'environ 60 ans. Il
+      passa cinquante ans à étudier sous l'imam Mālik à Médine
+      avant de retourner en Égypte; sa mémorisation des
+      positions de Mālik à travers l'ensemble du fiqh fournit
+      la transmission exhaustive qu'aucun autre élève n'égala.
+      La chaîne systématique Saḥnūn-Ibn al-Qāsim-Mālik est la
+      colonne vertébrale de la tradition malikite maghrébine-
+      andalouse, et *al-Mudawwana* à travers elle devint la
+      référence opérationnelle du madhhab malikite de l'Afrique
+      du Nord à al-Andalus à l'Afrique occidentale sub-
+      saharienne. L'imam Mālik dit : « il n'y a personne que
+      j'aie enseigné qui ait emporté autant de moi qu'Ibn al-
+      Qāsim ». Sa piété personnelle était telle, dit-on, qu'il
+      accomplit le Ḥajj à pied chaque année durant les quarante
+      dernières années de sa vie.
+    canonical_hijri: {year: 191, precision: year}
+    canonical_gregorian: {date: 806-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-al-qasim, subject], [malik-ibn-anas, subject], [sahnun, subject]]
+    tags: [maliki, egypt, fiqh, mudawwana, abbasid, malik]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Rahman_ibn_al-Qasim"
+
+  # =========================================================================
+  # LATE-CLASSICAL SHAFI'I
+  # =========================================================================
+
+  - slug: death-of-taqi-al-din-al-subki
+    category: scholar
+    title_en: Death of Taqi al-Din al-Subki
+    title_ar: وفاة تقي الدين السبكي
+    title_fr: Mort de Taqī al-Dīn al-Subkī
+    description_en: |
+      Taqi al-Din ʿAli ibn ʿAbd al-Kafi al-Subki — Shafiʿi-
+      Ashʿari jurist, qadi al-quḍa of Damascus, foremost
+      Shafiʿi authority of his age and the principal critic of
+      Ibn Taymiyya during the latter's controversies in
+      Damascus — died in Cairo at age about 73. His written
+      polemics against Ibn Taymiyya — *Shifaʾ al-Saqam fi
+      Ziyarat Khayr al-Anam* (defending the legitimacy of
+      visiting the Prophet's ﷺ tomb), *al-Sayf al-Ṣaqil* (on
+      Ashʿari theology against Ibn Taymiyya's position on the
+      divine attributes), and *al-Iʿtibar bi-Baqaʾ al-Janna
+      wa-l-Nar* (on the eternity of paradise and hell) —
+      became canonical Shafiʿi-Ashʿari counter-arguments. He
+      was the father of Tāj al-Din al-Subki (author of *Ṭabaqat
+      al-Shafiʿiyya*) and ʿAbd al-Wahhab al-Subki. al-Dhahabi,
+      despite siding with Ibn Taymiyya on doctrinal issues, said
+      of him: "Taqi al-Din is the most learned of all Shafiʿis
+      I have known."
+    description_ar: |
+      توفي الإمام تقي الدين علي بن عبد الكافي السبكي — فقيه
+      شافعي أشعري، قاضي قضاة دمشق، وكبير الشافعية في عصره
+      وأبرز ناقد لابن تيمية في خلافاته بدمشق — بالقاهرة عن
+      نحو ثلاث وسبعين سنة. وكتبه الجدلية ضد ابن تيمية — «شفاء
+      السقام في زيارة خير الأنام» (في إثبات شرعية زيارة قبر
+      النبي ﷺ)، و«السيف الصقيل» (في العقيدة الأشعرية ضد قول
+      ابن تيمية في الصفات)، و«الاعتبار ببقاء الجنة والنار»
+      (في خلود الجنة والنار) — صارت ردوداً شافعية أشعرية
+      كلاسيكية. وكان والد تاج الدين السبكي (مصنف «طبقات
+      الشافعية الكبرى») وعبد الوهاب السبكي. قال عنه الذهبي،
+      مع وقوفه إلى جانب ابن تيمية في المسائل العقدية: «تقي
+      الدين أعلم من رأينا من الشافعية».
+    description_fr: |
+      Taqī al-Dīn ʿAlī ibn ʿAbd al-Kāfī al-Subkī — juriste
+      shāfiʿite-ashʿarite, *qāḍī al-quḍāʾ* de Damas, principale
+      autorité shāfiʿite de son âge et le critique principal
+      d'Ibn Taymiyya durant les controverses de ce dernier à
+      Damas — mourut au Caire à l'âge d'environ 73 ans. Ses
+      polémiques écrites contre Ibn Taymiyya — *Shifāʾ al-
+      Saqam fī Ziyārat Khayr al-Anām* (défendant la légitimité
+      de la visite de la tombe du Prophète ﷺ), *al-Sayf al-
+      Ṣaqīl* (sur la théologie ashʿarite contre la position
+      d'Ibn Taymiyya sur les attributs divins), et *al-Iʿtibār
+      bi-Baqāʾ al-Janna wa-l-Nār* (sur l'éternité du paradis et
+      de l'enfer) — devinrent des contre-arguments shāfiʿites-
+      ashʿarites canoniques. Il fut le père de Tāj al-Dīn al-
+      Subkī (auteur des *Ṭabaqāt al-Shāfiʿiyya*) et d'ʿAbd al-
+      Wahhāb al-Subkī. al-Dhahabī, malgré sa prise de parti
+      pour Ibn Taymiyya sur des questions doctrinales, dit de
+      lui : « Taqī al-Dīn est le plus savant de tous les
+      Shāfiʿites que j'aie connus ».
+    canonical_hijri: {year: 756, month: 7, day: 3, precision: day}
+    canonical_gregorian: {date: 1355-07-14, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+    people: [[taqi-al-din-al-subki, subject], [al-subki-taj-al-din, subject], [ibn-taymiyya, subject]]
+    tags: [shafii, ashari, damascus, cairo, mamluk, ibn-taymiyya, polemic]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Taqi_al-Din_al-Subki"
+
+  - slug: death-of-ibn-hajar-al-haytami
+    category: scholar
+    title_en: Death of Ibn Ḥajar al-Haytami
+    title_ar: وفاة ابن حجر الهيتمي
+    title_fr: Mort d'Ibn Ḥajar al-Haytamī
+    description_en: |
+      Aḥmad ibn Muhammad ibn Hajar al-Haytami al-Saʿdi — Shafiʿi
+      jurist of Mecca, not to be confused with the earlier
+      hadith master Ibn Ḥajar al-ʿAsqalani (d. 852 AH) — died
+      in Mecca at age about 65. He was one of the great late-
+      classical Shafiʿi authorities, with works that remain
+      operational references in Shafiʿi fiqh today: *Tuḥfat al-
+      Muḥtaj* (his commentary on al-Nawawi's *Minhaj al-
+      Ṭalibin*) is the most authoritative Shafiʿi fatwa
+      reference for late-period rulings. His *al-Fatawa al-
+      Kubra al-Fiqhiyya* compiles his fatwa output as the
+      principal mufti of Mecca. *al-Ṣawaʿiq al-Muḥriqa fi al-
+      Radd ʿala Ahl al-Bidaʿ wa-l-Zandaqa* is a major polemical
+      work defending Sunni-Shafiʿi positions against Shia and
+      Muʿtazili challenges; *Sharḥ al-Hamziyya* is his
+      celebrated commentary on al-Buṣiri's prophetological poem.
+      His personal asceticism — he refused all stipends and
+      lived from his own labour — became proverbial among the
+      Hijazi scholarly community of his generation.
+    description_ar: |
+      توفي الإمام أحمد بن محمد بن حجر الهيتمي السعدي — فقيه
+      شافعي بمكة المكرمة، ولا يخلط بينه وبين المحدث الأكبر ابن
+      حجر العسقلاني (ت ٨٥٢ هـ) — بمكة عن نحو خمس وستين سنة.
+      وهو أحد كبار المرجعية الشافعية في أواخر العصر الكلاسيكي،
+      وكتبه ما زالت من المراجع الفعلية في الفقه الشافعي اليوم:
+      «تحفة المحتاج» (شرحه على «منهاج الطالبين» للنووي) أعلى
+      مرجع للفتاوى الشافعية في الأحكام المتأخرة. ومجلداته
+      «الفتاوى الكبرى الفقهية» تجمع فتاواه إذ كان مفتي مكة
+      المعتمد. و«الصواعق المحرقة في الرد على أهل البدع
+      والزندقة» متن جدلي كبير في الدفاع عن مذهب أهل السنة
+      الشافعية في وجه التحديات الشيعية والمعتزلية؛ و«شرح
+      الهمزية» شرحه الذائع على قصيدة البوصيري في النبي ﷺ.
+      وأما زهده الشخصي — رفض كل راتب وعاش من كسبه — فقد صار
+      مضرب المثل عند علماء الحجاز في عصره.
+    description_fr: |
+      Aḥmad ibn Muḥammad ibn Ḥajar al-Haytamī al-Saʿdī —
+      juriste shāfiʿite de La Mecque, à ne pas confondre avec
+      le maître antérieur du hadith Ibn Ḥajar al-ʿAsqalānī
+      (m. 852 H) — mourut à La Mecque à l'âge d'environ 65 ans.
+      Il fut l'une des grandes autorités shāfiʿites tardo-
+      classiques, avec des œuvres qui demeurent des références
+      opérationnelles dans le fiqh shāfiʿite aujourd'hui :
+      *Tuḥfat al-Muḥtāj* (son commentaire du *Minhāj al-
+      Ṭālibīn* d'al-Nawawī) est la référence shāfiʿite la plus
+      autoritative pour les décisions de la période tardive.
+      Ses *Fatāwā al-Kubrā al-Fiqhiyya* compilent sa production
+      de fatwas comme principal mufti de La Mecque. *al-
+      Ṣawāʿiq al-Muḥriqa fī al-Radd ʿalā Ahl al-Bidaʿ wa-l-
+      Zandaqa* est une œuvre polémique majeure défendant les
+      positions sunnites-shāfiʿites contre les défis chiites
+      et muʿtazilites; *Sharḥ al-Hamziyya* est son commentaire
+      célèbre sur le poème prophétologique d'al-Būṣīrī. Son
+      ascétisme personnel — il refusa toute stipendia et vécut
+      de son propre travail — devint proverbial dans la
+      communauté savante hedjazienne de sa génération.
+    canonical_hijri: {year: 974, precision: year}
+    canonical_gregorian: {date: 1567-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ibn-hajar-al-haytami, subject]]
+    tags: [shafii, mecca, ottoman, fatwa, fiqh]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Hajar_al-Haytami"
+
+  # =========================================================================
+  # MODERN REFORMERS
+  # =========================================================================
+
+  - slug: death-of-ibn-ashur
+    category: scholar
+    title_en: Death of Muhammad al-Ṭahir ibn ʿAshur
+    title_ar: وفاة محمد الطاهر ابن عاشور
+    title_fr: Mort de Muḥammad al-Ṭāhir ibn ʿĀshūr
+    description_en: |
+      Muhammad al-Ṭahir ibn Muhammad ibn ʿAshur — Tunisian
+      Maliki Sunni scholar, Shaykh al-Islam of Tunisia and
+      reform-rector of al-Zaytuna university (Tunisia's
+      counterpart to al-Azhar) for thirty years, and author of
+      the monumental *al-Taḥrir wa-l-Tanwir* — a 30-volume
+      Qurʾan tafsir that became the most influential modern
+      Sunni Maghrebi commentary, balancing classical Maliki-
+      Ashʿari scholarship with engagement with modern textual,
+      linguistic, and historical methodologies — died in Tunis
+      at age about 94. His *Maqaṣid al-Shariʿa al-Islamiyya* (a
+      systematic treatise on the higher objectives of Sharia,
+      drawing on al-Shaṭibi's *Muwafaqat*) became a foundational
+      modern reference in *maqasid* theory and is taught
+      across Sunni seminaries today. He was a towering presence
+      in twentieth-century Sunni reformist scholarship,
+      maintaining classical methodological rigour while
+      addressing contemporary jurisprudential, social, and
+      educational questions.
+    description_ar: |
+      توفي العلامة محمد الطاهر بن محمد ابن عاشور — فقيه مالكي
+      سني تونسي، شيخ الإسلام بتونس ومجدد جامع الزيتونة (نظير
+      الأزهر في تونس) ثلاثين سنة، ومصنف «التحرير والتنوير»
+      الموسوعي — تفسير قرآني في ثلاثين مجلداً صار أكثر تفاسير
+      السنة المغربية الحديثة تأثيراً، يوازن بين البحث المالكي
+      الأشعري الكلاسيكي والاشتباك مع المناهج النصية واللغوية
+      والتاريخية الحديثة — بتونس عن نحو أربع وتسعين سنة. وكتابه
+      «مقاصد الشريعة الإسلامية» (متن منهجي في المقاصد العليا
+      للشريعة، يستفيد من «الموافقات» للشاطبي) صار مرجعاً حديثاً
+      أساسياً في علم المقاصد، يُقرأ في عامة معاهد العلوم السنية
+      اليوم. وكان رحمه الله شخصية شاهقة في علم السنة الإصلاحي
+      في القرن العشرين، يحفظ الصرامة المنهجية الكلاسيكية مع
+      اشتباكه بالمسائل الفقهية والاجتماعية والتربوية المعاصرة.
+    description_fr: |
+      Muḥammad al-Ṭāhir ibn Muḥammad ibn ʿĀshūr — savant sunnite
+      malikite tunisien, Cheikh ul-Islam de Tunisie et recteur-
+      réformateur de l'université d'al-Zaytūna (la contrepartie
+      tunisienne d'al-Azhar) pendant trente ans, et auteur du
+      monumental *al-Taḥrīr wa-l-Tanwīr* — un tafsir coranique
+      en 30 volumes qui devint le commentaire sunnite maghrébin
+      moderne le plus influent, équilibrant l'érudition
+      classique malikite-ashʿarite avec l'engagement avec les
+      méthodologies textuelles, linguistiques et historiques
+      modernes — mourut à Tunis à l'âge d'environ 94 ans. Son
+      *Maqāṣid al-Sharīʿa al-Islāmiyya* (un traité systématique
+      sur les objectifs supérieurs de la *sharīʿa*, s'appuyant
+      sur les *Muwāfaqāt* d'al-Shāṭibī) devint une référence
+      moderne fondatrice dans la théorie des *maqāṣid* et est
+      enseigné à travers les séminaires sunnites aujourd'hui.
+      Il fut une présence dominante dans l'érudition réformiste
+      sunnite du XXe siècle, maintenant la rigueur méthodologique
+      classique tout en abordant les questions
+      jurisprudentielles, sociales et éducatives contemporaines.
+    canonical_hijri: {year: 1393, month: 7, day: 13, precision: day}
+    canonical_gregorian: {date: 1973-08-12, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ibn-ashur, subject]]
+    tags: [maliki, tunisia, modern, tafsir, maqasid, zaytuna]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_al-Tahir_ibn_Ashur"
+
+  - slug: death-of-mahmud-shaltut
+    category: scholar
+    title_en: Death of Maḥmud Shaltut — Shaykh of al-Azhar
+    title_ar: وفاة محمود شلتوت — شيخ الأزهر
+    title_fr: Mort de Maḥmūd Shaltūt — Shaykh d'al-Azhar
+    description_en: |
+      Maḥmud Shaltut — Egyptian Sunni jurist and Shaykh of al-
+      Azhar (1377-1383 AH / 1958-1963 CE), reformer who
+      undertook the most extensive single restructuring of al-
+      Azhar in the modern era (Law 103 of 1961 CE establishing
+      the modern Azhar university with its parallel religious
+      and secular faculties), and famous in Sunni-Shia
+      ecumenical history for his fatwa permitting Sunnis to
+      follow Twelver Shia (Jaʿfari) jurisprudence in
+      transactions — died in Cairo at age about 70. His tafsir
+      *Tafsir al-Qurʾan al-Karim* covers about ten parts of the
+      Qurʾan; his *al-Fatawa* compiles his contemporary
+      jurisprudential opinions on issues of modern social and
+      political life. Together with Mustafa al-Maraghi (his
+      predecessor) he represents the modernist-reformist
+      Egyptian Sunni current that shaped twentieth-century
+      Arab religious thought through Azhar's institutional
+      reach.
+    description_ar: |
+      توفي الشيخ محمود شلتوت — فقيه سني مصري، وشيخ الجامع
+      الأزهر (١٣٧٧-١٣٨٣ هـ / ١٩٥٨-١٩٦٣ ميلادي)، وأكبر مصلحي
+      إعادة هيكلة الأزهر في العصر الحديث (القانون ١٠٣ لسنة
+      ١٩٦١ ميلادي الذي أنشأ جامعة الأزهر الحديثة بكلياتها
+      الدينية والمدنية المتوازية)، والشهير في تاريخ التقارب
+      السني-الشيعي بفتواه التي تجيز للسنة العمل بالفقه الشيعي
+      الجعفري في المعاملات — بالقاهرة عن نحو سبعين سنة. وله
+      «تفسير القرآن الكريم» يستوعب نحو عشرة أجزاء من القرآن؛
+      ومجلدات «الفتاوى» تجمع آراءه الفقهية المعاصرة في مسائل
+      الحياة الاجتماعية والسياسية الحديثة. وهو والشيخ مصطفى
+      المراغي (سلفه) يمثلان التيار الإصلاحي التحديثي السني
+      المصري الذي صاغ الفكر الديني العربي في القرن العشرين
+      بفضل امتداد الأزهر المؤسسي.
+    description_fr: |
+      Maḥmūd Shaltūt — juriste sunnite égyptien et Shaykh d'al-
+      Azhar (1377-1383 H / 1958-1963 EC), réformateur qui
+      entreprit la restructuration unique la plus étendue
+      d'al-Azhar à l'ère moderne (la loi 103 de 1961 EC
+      établissant l'université moderne d'al-Azhar avec ses
+      facultés religieuses et laïques parallèles), et célèbre
+      dans l'histoire œcuménique sunnite-chiite pour sa fatwa
+      permettant aux sunnites de suivre la jurisprudence chiite
+      duodécimaine (jaʿfarite) dans les transactions — mourut
+      au Caire à l'âge d'environ 70 ans. Son tafsir *Tafsīr
+      al-Qurʾān al-Karīm* couvre environ dix parties du Coran;
+      ses *al-Fatāwā* compilent ses opinions jurisprudentielles
+      contemporaines sur les questions de la vie sociale et
+      politique moderne. Avec Muṣṭafā al-Marāghī (son
+      prédécesseur) il représente le courant moderniste-
+      réformiste sunnite égyptien qui façonna la pensée
+      religieuse arabe du XXe siècle à travers la portée
+      institutionnelle d'al-Azhar.
+    canonical_hijri: {year: 1383, month: 8, day: 26, precision: day}
+    canonical_gregorian: {date: 1963-12-13, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mahmud-shaltut, subject], [al-maraghi, subject]]
+    tags: [modern, azhar, egypt, reform, fatwa, ecumenical]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mahmud_Shaltut"
+
+  - slug: death-of-sayyid-sabiq
+    category: scholar
+    title_en: Death of Sayyid Sabiq — Author of Fiqh al-Sunnah
+    title_ar: وفاة السيد سابق — صاحب «فقه السنة»
+    title_fr: Mort de Sayyid Sābiq — auteur de *Fiqh al-Sunna*
+    description_en: |
+      al-Sayyid Sabiq al-Tihami — Egyptian Sunni Shafiʿi-trained
+      scholar with strong Maliki and Ḥanafi engagement, author
+      of *Fiqh al-Sunnah* (the most-circulated modern Sunni
+      fiqh manual in any language), and member of the founding
+      generation of the Muslim Brotherhood educational network
+      under Ḥasan al-Banna — died in Cairo at age about 85.
+      *Fiqh al-Sunnah* in three volumes presents the
+      jurisprudential rulings of all four Sunni madhāhib on
+      every chapter of fiqh organised by topic, framed in
+      modern Arabic accessible to non-specialists, with
+      emphasis on returning to the strongest hadith evidence
+      from the Six Books rather than blind adherence to any
+      single madhhab. The work has been translated into more
+      than twenty languages and has shaped contemporary Sunni
+      jurisprudential consciousness across the global Muslim
+      diaspora more than perhaps any single twentieth-century
+      Arabic-language work.
+    description_ar: |
+      توفي الشيخ السيد سابق التهامي — فقيه سني مصري متربٍّ على
+      الشافعية مع اشتباك واسع بالمالكية والحنفية، ومصنف «فقه
+      السنة» (أوسع متن فقه سني حديث انتشاراً بأي لغة)، ومن
+      جيل التأسيس الإخواني التعليمي عند الإمام حسن البنا —
+      بالقاهرة عن نحو خمس وثمانين سنة. ويقدم «فقه السنة» في
+      ثلاثة مجلدات أحكام المذاهب السنية الأربعة على كل أبواب
+      الفقه مرتبة موضوعياً، بعربية حديثة ميسرة لغير
+      المتخصصين، مع تركيز على الرجوع إلى أقوى دليل من الكتب
+      الستة بدلاً من التقليد الأعمى لأي مذهب منفرد. وترجم
+      الكتاب إلى أكثر من عشرين لغة، وشكل الوعي الفقهي السني
+      المعاصر عبر شتات المسلمين العالمي على نطاق ربما لا
+      يضاهيه فيه أي عمل عربي منفرد في القرن العشرين.
+    description_fr: |
+      al-Sayyid Sābiq al-Tihāmī — savant sunnite égyptien
+      formé à l'école shāfiʿite avec un fort engagement
+      malikite et hanafite, auteur de *Fiqh al-Sunna* (le
+      manuel sunnite moderne de fiqh le plus diffusé en toute
+      langue), et membre de la génération fondatrice du réseau
+      éducatif des Frères musulmans sous Ḥasan al-Bannā —
+      mourut au Caire à l'âge d'environ 85 ans. *Fiqh al-Sunna*
+      en trois volumes présente les jugements jurisprudentiels
+      des quatre madhāhib sunnites sur chaque chapitre du fiqh
+      organisé par sujet, formulé en arabe moderne accessible
+      aux non-spécialistes, avec un accent mis sur le retour
+      à la preuve du hadith la plus solide tirée des Six Livres
+      plutôt que sur l'adhésion aveugle à un seul madhhab.
+      L'ouvrage a été traduit dans plus de vingt langues et a
+      façonné la conscience jurisprudentielle sunnite
+      contemporaine à travers la diaspora musulmane mondiale
+      à un point que peut-être aucun ouvrage arabophone unique
+      du XXe siècle ne dépasse.
+    canonical_hijri: {year: 1420, month: 12, day: 15, precision: day}
+    canonical_gregorian: {date: 2000-03-21, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sayyid-sabiq, subject], [hassan-al-banna, subject]]
+    tags: [modern, egypt, fiqh, fiqh-al-sunnah, brotherhood]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-ahmad-zarruq
+    category: scholar
+    title_en: Death of Aḥmad Zarruq — Reformer of Maliki Sufism
+    title_ar: وفاة أحمد زرّوق — مجدد التصوف المالكي
+    title_fr: Mort d'Aḥmad Zarrūq — réformateur du soufisme malikite
+    description_en: |
+      Shihab al-Din Aḥmad ibn Aḥmad Zarruq al-Burnusi al-Fasi
+      al-Maliki — Maliki Sufi shaykh of Fes who emigrated to
+      Libyan Misrata, foremost Maliki commentator on Ibn ʿAṭaʾ-
+      illah's *Hikam* (his *Sharḥ al-Hikam* is the most-cited
+      classical commentary), and the founding figure of the
+      *Zarruqiyya* sub-branch of the Shadhili tariqa — died at
+      Misrata at age about 53. He systematised what he called
+      "the conditions" (*ʿurūṭ*) of authentic Sufism in his
+      *Qawaʿid al-Taṣawwuf* (Foundations of Sufism), 217 rules
+      that defined Maliki-Shadhili orthodoxy against the
+      ecstatic excesses he saw in some contemporary Sufi
+      groups: every Sufi practice must be defensible from the
+      Sharia; every shaykh must be a fiqh-trained scholar; no
+      tariqa initiation can override the binding obligations
+      of the madhhab. His framework decisively shaped Maghrebi
+      Sufi orthodoxy from the 9th century AH onward and
+      remains the canonical reference for Maliki-Sufi
+      reform-mindedness today.
+    description_ar: |
+      توفي الإمام شهاب الدين أحمد بن أحمد زرّوق البرنسي الفاسي
+      المالكي — صوفي مالكي فاسي هاجر إلى مصراتة في ليبيا،
+      وكبير مفسري المالكية لـ«الحكم» لابن عطاء الله الإسكندري
+      («شرح الحكم» له أكثر شروح الحكم الكلاسيكية إحالة عليه)،
+      ومؤسس الفرع «الزرّوقي» من الطريقة الشاذلية — بمصراتة عن
+      نحو ثلاث وخمسين سنة. وقنّن ما سمّاه «شروط» التصوف
+      الصحيح في كتابه «قواعد التصوف»، ٢١٧ قاعدة حددت العقيدة
+      المالكية الشاذلية في وجه الشطح الذي رأى عند بعض المتصوفة
+      المعاصرين له: كل عمل صوفي يجب أن يكون له دليل من
+      الشريعة؛ وكل شيخ يجب أن يكون فقيهاً متمكناً؛ ولا
+      تستطيع طريقة بانتسابها أن تنسخ واجبات المذهب الملزمة.
+      وأحكم هيكله العقيدة المالكية الصوفية من القرن التاسع
+      الهجري فصاعداً، ولا يزال المرجع المعتمد في تجديد
+      المذهب المالكي الصوفي اليوم.
+    description_fr: |
+      Shihāb al-Dīn Aḥmad ibn Aḥmad Zarrūq al-Burnusī al-Fāsī
+      al-Mālikī — shaykh soufi malikite de Fès qui émigra vers
+      Misrata en Libye, principal commentateur malikite des
+      *Ḥikam* d'Ibn ʿAṭāʾillāh al-Iskandarī (son *Sharḥ al-Ḥikam*
+      est le commentaire classique le plus cité), et la figure
+      fondatrice de la sous-branche *Zarrūqiyya* de la *ṭarīqa
+      Shādhiliyya* — mourut à Misrata à l'âge d'environ 53 ans.
+      Il systématisa ce qu'il appela les « conditions » (*ʿurūṭ*)
+      du soufisme authentique dans ses *Qawāʿid al-Taṣawwuf*
+      (Fondements du Soufisme), 217 règles qui définirent
+      l'orthodoxie malikite-shādhilite contre les excès
+      extatiques qu'il voyait dans certains groupes soufis
+      contemporains : chaque pratique soufie doit être
+      défendable depuis la *sharīʿa*; chaque shaykh doit être un
+      savant formé en fiqh; aucune initiation de *ṭarīqa* ne peut
+      l'emporter sur les obligations contraignantes du madhhab.
+      Son cadre façonna de manière décisive l'orthodoxie soufie
+      maghrébine à partir du IXe siècle de l'Hégire et demeure
+      la référence canonique pour la sensibilité réformiste
+      malikite-soufie aujourd'hui.
+    canonical_hijri: {year: 899, precision: year}
+    canonical_gregorian: {date: 1493-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-zarruq, subject], [ibn-ataillah, subject]]
+    tags: [maliki, shadhili, fes, misrata, reform, hikam]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Zarruq"
+
+  # =========================================================================
+  # PRE-HIJRA PROPHETIC EVENTS
+  # =========================================================================
+
+  - slug: marriage-of-khadija-and-muhammad
+    category: prophetic
+    title_en: Marriage of Khadīja bint Khuwaylid ra and Muhammad ﷺ
+    title_ar: زواج خديجة بنت خويلد رضي الله عنها بالنبي محمد ﷺ
+    title_fr: Mariage de Khadīja bint Khuwaylid ra et de Muḥammad ﷺ
+    description_en: |
+      The Prophet Muhammad ﷺ — at the age of 25, having recently
+      returned from his second commercial expedition to Syria
+      on Khadīja's behalf with profits unprecedented for her
+      caravan — married Khadīja bint Khuwaylid, a widowed
+      Quraysh noblewoman of about 40, in Mecca. The marriage
+      was contracted between her uncle ʿAmr ibn Asad and the
+      Prophet's ﷺ uncles Abu Ṭalib and Ḥamza, with a *mahr* of
+      twenty young camels. They lived together for 25 years
+      until Khadīja's death in the 10th year of the prophetic
+      mission; she bore him all his children except Ibrāhīm
+      (who was Maria the Copt's son), including the Prophet's
+      ﷺ daughters Ruqayya, Umm Kulthūm, Zaynab, and Fāṭima ra.
+      Throughout the 25 years he took no other wife. When the
+      first revelation came at Cave Hira, it was to Khadīja
+      that he turned for reassurance; her words ("By Allah, He
+      will never bring you to grief") established her as the
+      first believer. The Prophet ﷺ never ceased praising her
+      after her death; ʿAʾisha ra famously said: "I was never
+      jealous of any woman as I was jealous of Khadīja."
+    description_ar: |
+      تزوج النبي محمد ﷺ — وعمره خمس وعشرون سنة، عائداً حديثاً
+      من رحلته التجارية الثانية إلى الشام في تجارة خديجة بأرباح
+      غير مسبوقة لقافلتها — السيدة خديجة بنت خويلد، أرملة
+      شريفة قرشية ناهزت الأربعين، بمكة المكرمة. وعقد العقد
+      بين عمها عمرو بن أسد وأعمام النبي ﷺ أبي طالب وحمزة،
+      على صداق عشرين من البكور. وعاشا معاً خمساً وعشرين سنة
+      إلى وفاتها رضي الله عنها في السنة العاشرة من البعثة؛ وولدت
+      له ولده كله إلا إبراهيم (وأمه مارية القبطية)، ومنهن
+      بناته رضي الله عنهن رقية وأم كلثوم وزينب وفاطمة. وفي
+      خمس وعشرين سنة لم يتزوج عليها أحداً. ولما نزل الوحي
+      الأول بغار حراء، فرّ النبي ﷺ إليها يستأنس بها؛ فأرسلت
+      كلمتها: «والله ما يخزيك الله أبداً»، فثبتت في بناء أول
+      مؤمنة. ولم ينقطع النبي ﷺ عن مدحها بعد موتها؛ قالت عائشة
+      رضي الله عنها: «ما غرت من امرأة ما غرت من خديجة».
+    description_fr: |
+      Le Prophète Muḥammad ﷺ — à l'âge de 25 ans, étant
+      récemment revenu de sa seconde expédition commerciale en
+      Syrie pour le compte de Khadīja avec des bénéfices sans
+      précédent pour sa caravane — épousa Khadīja bint Khuwaylid,
+      une noble veuve qurashite d'environ 40 ans, à La Mecque.
+      Le mariage fut contracté entre son oncle ʿAmr ibn Asad
+      et les oncles du Prophète ﷺ Abū Ṭālib et Ḥamza, avec un
+      *mahr* de vingt jeunes chamelles. Ils vécurent ensemble
+      25 ans jusqu'à la mort de Khadīja la 10e année de la
+      mission prophétique; elle lui donna tous ses enfants sauf
+      Ibrāhīm (qui était le fils de Maria la Copte), y compris
+      les filles du Prophète ﷺ Ruqayya, Umm Kulthūm, Zaynab et
+      Fāṭima ra. Pendant ces 25 ans, il ne prit aucune autre
+      épouse. Lorsque la première révélation vint à la grotte
+      de Ḥirāʾ, c'est vers Khadīja qu'il se tourna pour être
+      réconforté; ses paroles (« Par Allah, Il ne te causera
+      jamais de chagrin ») l'établirent comme la première
+      croyante. Le Prophète ﷺ ne cessa jamais de la louer après
+      sa mort; ʿĀʾisha ra dit célèbrement : « Je n'ai jamais
+      été jalouse d'aucune femme autant que je l'ai été de
+      Khadīja ».
+    canonical_hijri: {year: -28, precision: year}
+    canonical_gregorian: {date: 595-04-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_sad_tabaqat
+    hadith_refs: "Bukhari 3818"
+    people: [[muhammad, subject], [khadija-bint-khuwaylid, subject]]
+    tags: [prophetic, mecca, marriage, khadija, hira, first-believer]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khadija_bint_Khuwaylid"
+
+  - slug: rebuilding-of-kaaba-black-stone
+    category: prophetic
+    title_en: Rebuilding of the Kaʿba and Placement of the Black Stone
+    title_ar: بناء الكعبة ووضع الحجر الأسود
+    title_fr: Reconstruction de la Kaʿba et placement de la Pierre noire
+    description_en: |
+      A flash flood in the Meccan valley some five years before
+      the start of the Prophetic mission damaged the structure
+      of the Kaʿba beyond repair. Quraysh decided to demolish
+      and rebuild it — and after some hesitation (since they
+      feared retribution from the One who dwelt in it) Abu
+      Wahb ibn Manaf began the demolition. The clans of Quraysh
+      divided the rebuilding among themselves: each clan took
+      a section. When the building reached the height of the
+      Black Stone, a dispute broke out among the clans — each
+      claiming the honour of placing the Stone in its corner.
+      The dispute nearly came to bloodshed. The eldest among
+      them proposed: "Let the first to enter the Sacred Mosque
+      tomorrow morning judge between us." The first to enter
+      was Muhammad ibn ʿAbdallah ﷺ — then 35, not yet a prophet
+      — whom Quraysh universally called *al-Amin* (the
+      Trustworthy). When told the dispute, he asked for a cloak,
+      placed the Black Stone on it, and instructed each clan
+      chief to take a corner of the cloak; together they
+      raised it to its place, and he set the Stone with his own
+      hand. The episode established his reputation for wisdom
+      that would remain when the prophetic mission began five
+      years later.
+    description_ar: |
+      أصاب الكعبة سيل في وادي مكة قبل بعثة النبي ﷺ نحو خمس
+      سنوات أتلف بنيانها فلم يصلح. فعزمت قريش على هدمها وبنائها
+      — وبعد توقف منها لخوفها من بطش من فيها، شرع أبو وهب بن
+      مناف في الهدم. وقسّمت بطون قريش البناء بينها: لكل بطن
+      ركن. ولما بلغ البناء موضع الحجر الأسود اختصمت القبائل
+      — كلٌّ يدعي الشرف بوضع الحجر في موضعه. وكاد الخلاف يفضي
+      إلى دماء. فأشار شيخهم: «اجعلوا أول داخل من باب المسجد
+      الحرام غدوة هو حكمكم». فكان أول داخل محمد بن عبد الله ﷺ
+      — وعمره خمس وثلاثون سنة، لم يبعث بعدُ — والذي عم قريش
+      كلها بتسميته «الأمين». فلما عرضوا عليه الخلاف، طلب رداء،
+      ووضع عليه الحجر الأسود، وأمر شيخ كل قبيلة أن يأخذ بطرف
+      من الرداء؛ فرفعوه جميعاً إلى موضعه، فوضعه ﷺ بيده. وأرست
+      الحادثة شهرته بالحكمة التي ستبقى لما ابتدأت البعثة بعد
+      خمس سنين.
+    description_fr: |
+      Une crue éclair dans la vallée mecquoise quelque cinq ans
+      avant le début de la mission prophétique endommagea la
+      structure de la Kaʿba au-delà de toute réparation. Quraysh
+      décida de la démolir et de la reconstruire — et après
+      quelque hésitation (car ils craignaient le châtiment de
+      Celui qui y résidait), Abū Wahb ibn Manāf entreprit la
+      démolition. Les clans de Quraysh se partagèrent la
+      reconstruction : chaque clan prit une section. Lorsque
+      le bâtiment atteignit la hauteur de la Pierre noire, une
+      dispute éclata entre les clans — chacun revendiquant
+      l'honneur de placer la Pierre dans son coin. La dispute
+      faillit aboutir à un bain de sang. L'aîné parmi eux
+      proposa : « que le premier à entrer dans la Mosquée
+      Sacrée demain matin nous juge ». Le premier à entrer fut
+      Muḥammad ibn ʿAbdallāh ﷺ — alors âgé de 35 ans, pas
+      encore prophète — que Quraysh appelait universellement
+      *al-Amīn* (le Digne de confiance). Quand on lui exposa la
+      dispute, il demanda un manteau, plaça la Pierre noire
+      dessus, et ordonna à chaque chef de clan de prendre un
+      coin du manteau; ensemble ils l'élevèrent à sa place, et
+      il posa la Pierre de sa propre main. L'épisode établit
+      sa réputation de sagesse qui demeurerait lorsque la
+      mission prophétique commencerait cinq ans plus tard.
+    canonical_hijri: {year: -18, precision: year}
+    canonical_gregorian: {date: 605-04-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    people: [[muhammad, subject]]
+    tags: [prophetic, mecca, kaʿba, black-stone, quraysh, al-amin]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Black_Stone"

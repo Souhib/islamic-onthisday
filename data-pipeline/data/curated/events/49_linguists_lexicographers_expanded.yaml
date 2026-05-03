@@ -1,0 +1,910 @@
+# Wave 49 of curated event additions (2026-04-27).
+# Major Arabic linguists, grammarians, and lexicographers whose deaths or
+# whose foundational works constitute well-attested anchor points in the
+# history of the ʿArabīya. Sībawayh, al-Khalīl ibn Aḥmad al-Farāhīdī, and
+# al-Zabīdī (Tāj al-ʿArūs) are already in the dataset (waves 25 and 28);
+# al-Fayrūzābādī (Qāmūs author) is in wave 39. This file fills out the
+# remaining mainstream lexicographic/grammatical line: al-Aṣmaʿī and
+# Abū ʿUbayda from the early Baṣra philological school; al-Mubarrad
+# from the Baṣra-Baghdad transition; Ibn Durayd, al-Azharī, Ibn Jinnī,
+# al-Jawharī, Ibn Sīda for the foundational classical dictionaries
+# and grammatical works (Jamhara, Tahdhīb, Khaṣāʾiṣ, Ṣiḥāḥ, Muḥkam);
+# al-Ḥarīrī for the Maqāmāt as the lexical-rhetorical capstone of the
+# 5th–6th AH century; and Ibn Mālik (Alfiyya), Ibn Manẓūr (Lisān
+# al-ʿArab), and Ibn Hishām al-Anṣārī (Mughnī al-Labīb) for the late-
+# Ayyūbid / early-Mamlūk synthesis that closed the classical philological
+# tradition. Cross-verification leans on Ibn Khallikān's wafayāt entries
+# (where the figure predates 681 AH), supplemented by al-Dhahabī's
+# Siyar / Tārīkh al-Islām and Ibn Kathīr's Bidāya for the Mamlūk-era
+# figures. EI2 supplied as third source for the most-attested cases.
+# Trilingual en/ar/fr throughout. No hadith refs (no narration
+# directly anchors a philological event). Date precision uses day only
+# where the classical sources explicitly attest the day.
+
+events:
+  # =========================================================================
+  # EARLY BAṢRA PHILOLOGICAL SCHOOL — 2nd–3rd CENTURY AH
+  # =========================================================================
+
+  - slug: death-of-abu-ubayda-mamar-ibn-al-muthanna
+    category: scholar_death
+    title_en: Death of Abū ʿUbayda Maʿmar ibn al-Muthannā — Philologist of Early Baṣra
+    title_ar: وفاة أبي عبيدة مَعمَر بن المثنّى — لغويُّ البصرة الأوّل
+    title_fr: Mort d'Abū ʿUbayda Maʿmar ibn al-Muthannā — philologue des débuts de Baṣra
+    description_en: |
+      Abū ʿUbayda Maʿmar ibn al-Muthannā al-Taymī, mawlā of Banū
+      Taym — one of the founders of the Baṣran philological school
+      and the principal early collector of *ayyām al-ʿArab* (the
+      battle-days of the pre-Islamic Arabs) and *gharīb al-Qurʾān*
+      — died at Baṣra in 209 AH (824 CE). His *Majāz al-Qurʾān*
+      is the earliest surviving systematic philological commentary
+      on the Qurʾān, treating its rhetorical figures (majāz) as a
+      species of ordinary Arabic usage; his *Naqāʾiḍ Jarīr wa-l-
+      Farazdaq* preserves the lexical and ethnographic content of
+      Umayyad satirical poetry. Ibn Khallikān fixes the year at
+      209 AH while noting that some give 210 or 211; we follow
+      209 as the majority of the sources cited (al-Dhahabī also
+      gives 209 in *Tārīkh al-Islām*) and flag the disagreement.
+    description_ar: |
+      توفي أبو عبيدة مَعمَر بن المثنّى التيميُّ مولاهم — أحدُ
+      مؤسِّسي مدرسة البصرة في علوم اللسان، والمعوَّلُ عليه في
+      جمع «أيام العرب» قبل الإسلام و«غريب القرآن» — بالبصرة
+      سنة تسع ومئتين للهجرة (الموافق ٨٢٤ م). وكتابُه «مجاز
+      القرآن» أقدمُ ما وصلنا من شروح القرآن اللغوية المنظَّمة،
+      جعل فيه المجازَ ضرباً من ضروب كلام العرب لا أمراً
+      مفارقاً له؛ وكتابُه «نقائض جرير والفرزدق» يحفظ المحتوى
+      اللغويَّ والإثنوغرافيَّ لأهاجي الشعر الأموي. وقد رجَّح ابن
+      خلكان وفاتَه سنة ٢٠٩، ونقل قولَ مَن جعلها سنة ٢١٠ أو
+      ٢١١؛ ونحن نتبع ٢٠٩ بوصفها رأيَ الجمهور (وعليها أيضاً
+      الذهبيُّ في «تاريخ الإسلام»)، ونُنبِّه على الخلاف.
+    description_fr: |
+      Abū ʿUbayda Maʿmar ibn al-Muthannā al-Taymī, mawlā des
+      Banū Taym — l'un des fondateurs de l'école philologique
+      de Baṣra et le principal collecteur précoce des *ayyām
+      al-ʿArab* (les journées guerrières des Arabes préislamiques)
+      et du *gharīb al-Qurʾān* — mourut à Baṣra en 209 H (824 EC).
+      Son *Majāz al-Qurʾān* est le plus ancien commentaire
+      philologique systématique du Coran qui nous soit parvenu,
+      traitant ses figures rhétoriques (majāz) comme une espèce
+      de l'usage arabe ordinaire ; ses *Naqāʾiḍ Jarīr wa-l-Farazdaq*
+      préservent le contenu lexical et ethnographique de la
+      poésie satirique umayyade. Ibn Khallikān fixe l'année à
+      209 H en notant que certains donnent 210 ou 211 ; nous
+      retenons 209 comme position majoritaire (également retenue
+      par al-Dhahabī dans *Tārīkh al-Islām*) et signalons le
+      désaccord.
+    canonical_hijri: {year: 209, precision: year}
+    canonical_gregorian: {date: 824-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 209 AH at Baṣra; 210 / 211 AH given as alternative reports."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 209 AH wafayāt notice."
+      - source_key: ei2
+    people: [[abu-ubayda-mamar-ibn-al-muthanna, died]]
+    tags: [abbasid, scholar, linguist, philology, basra, gharib-quran, ayyam-al-arab]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abu_Ubaidah_Ma%27mar_ibn_al-Muthanna"
+
+  - slug: death-of-al-asmai
+    category: scholar_death
+    title_en: Death of al-Aṣmaʿī — Master of Arabic Lexicography and Pre-Islamic Poetry
+    title_ar: وفاة الأصمعيِّ — إمامُ اللغة والشعر الجاهلي
+    title_fr: Mort d'al-Aṣmaʿī — maître de la lexicographie arabe et de la poésie préislamique
+    description_en: |
+      Abū Saʿīd ʿAbd al-Malik ibn Qurayb al-Aṣmaʿī al-Bāhilī —
+      most-cited transmitter of the dīwāns of pre-Islamic and
+      early Islamic Arabic poetry, lexicographer, and central
+      authority for later philologists who quote him as *qāla
+      al-Aṣmaʿī* — died at Baṣra in 213 AH (828 CE). His treatises
+      on the horse (*Kitāb al-Khayl*), the camel (*Kitāb al-Ibil*),
+      the date palm (*Kitāb al-Nakhl*), and human anatomy
+      (*Kitāb Khalq al-Insān*) lie at the foundation of Arabic
+      lexicography's *kutub al-mawḍūʿāt* tradition; the redacted
+      poetic anthology *al-Aṣmaʿiyyāt* preserves sixty-six pre-
+      Islamic and Mukhaḍram odes. Ibn Khallikān gives 213 AH at
+      Baṣra as the standard report; al-Dhahabī reports the same
+      year in *Tārīkh al-Islām*, while noting alternative dates
+      of 215 or 216 AH from minority transmitters.
+    description_ar: |
+      توفي أبو سعيد عبد الملك بن قريب الأصمعيُّ الباهليُّ — أرفعُ
+      رواةِ دواوين الشعر الجاهلي وصدر الإسلام، ومن أئمة اللغة،
+      ومرجعُ مَن جاء بعده من اللغويين بقولهم «قال الأصمعي» —
+      بالبصرة سنة ثلاث عشرة ومئتين للهجرة (الموافق ٨٢٨ م).
+      وفي كتبه عن «الخيل» و«الإبل» و«النخل» و«خلق الإنسان»
+      أصلُ تقاليد «كتب الموضوعات» في علم العربية؛ وفي مجموعه
+      «الأصمعيّات» ستٌّ وستون قصيدةً جاهليةً ومخضرَمة. أثبت ابن
+      خلكان وفاتَه سنة ٢١٣ بالبصرة، وعليه الذهبيُّ في «تاريخ
+      الإسلام»، وذكر بعضُ الرواة سنة ٢١٥ أو ٢١٦.
+    description_fr: |
+      Abū Saʿīd ʿAbd al-Malik ibn Qurayb al-Aṣmaʿī al-Bāhilī —
+      transmetteur le plus cité des dīwāns de la poésie arabe
+      préislamique et du début de l'islam, lexicographe et
+      autorité centrale des philologues postérieurs qui le citent
+      par *qāla al-Aṣmaʿī* — mourut à Baṣra en 213 H (828 EC).
+      Ses traités sur le cheval (*Kitāb al-Khayl*), le chameau
+      (*Kitāb al-Ibil*), le palmier-dattier (*Kitāb al-Nakhl*)
+      et l'anatomie humaine (*Kitāb Khalq al-Insān*) fondent la
+      tradition lexicographique des *kutub al-mawḍūʿāt* ;
+      l'anthologie poétique *al-Aṣmaʿiyyāt* préserve soixante-six
+      odes préislamiques et mukhaḍram. Ibn Khallikān donne 213 H
+      à Baṣra comme date standard ; al-Dhahabī confirme dans
+      *Tārīkh al-Islām*, tout en signalant les dates alternatives
+      de 215 ou 216 H rapportées par une minorité.
+    canonical_hijri: {year: 213, precision: year}
+    canonical_gregorian: {date: 828-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 213 AH at Baṣra; 215 / 216 AH minority report noted."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 213 AH wafayāt notice."
+      - source_key: ei2
+    people: [[al-asmai, died]]
+    tags: [abbasid, scholar, linguist, lexicographer, basra, pre-islamic-poetry]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Al-Asma%27i"
+
+  - slug: death-of-al-mubarrad
+    category: scholar_death
+    title_en: Death of al-Mubarrad — Author of *al-Kāmil*
+    title_ar: وفاة المبرَّدِ — صاحب «الكامل»
+    title_fr: Mort d'al-Mubarrad — auteur d'*al-Kāmil*
+    description_en: |
+      Abū al-ʿAbbās Muḥammad ibn Yazīd al-Azdī, known as al-Mubarrad
+      — head of the Baṣran grammatical school in Baghdad after the
+      generation of Sībawayh and al-Akhfash al-Awsaṭ, and the great
+      rival of Aḥmad ibn Yaḥyā Thaʿlab who led the Kūfan school —
+      died at Baghdad in 286 AH (900 CE). His *al-Kāmil fī al-Lugha
+      wa-l-Adab* gathers grammatical analysis, pre-Islamic and
+      Umayyad poetry, Khārijite and ʿAlid speeches, and lexical
+      anecdotes into a four-volume miscellany that became one of
+      the most-quoted source-books of the Arabic tradition; his
+      *al-Muqtaḍab* is the most influential systematic Baṣran
+      grammar after the *Kitāb* of Sībawayh, organising its
+      doctrine for an Abbasid readership. Ibn Khallikān fixes the
+      death year and place; al-Dhahabī's *Tārīkh al-Islām* notices
+      him in the wafayāt of 286.
+    description_ar: |
+      توفي أبو العباس محمد بن يزيد الأزديُّ المعروف بالمبرَّد —
+      إمامُ مدرسة البصرة في النحو ببغداد بعد طبقة سيبويه والأخفش
+      الأوسط، وغريمُ أحمد بن يحيى ثعلب رئيسِ المدرسة الكوفية —
+      ببغداد سنة ست وثمانين ومئتين للهجرة (الموافق ٩٠٠ م).
+      وفي «الكامل في اللغة والأدب» جمع البحثَ النحوي وأشعار
+      الجاهلية وبني أمية وخطب الخوارج والعلويين والنوادر
+      اللغوية في أربعة أجزاء صارت من أكثر مصادر المكتبة العربية
+      اقتباساً؛ و«المقتضب» أعمقُ ما خلَّفته البصرةُ في النحو
+      المنظَّم بعد «كتاب» سيبويه، يصوغ مذهبَها لقرّاء العصر
+      العباسي. ضبط ابنُ خلكان وفاتَه؛ وذكره الذهبيُّ في وفيات
+      سنة ٢٨٦ من «تاريخ الإسلام».
+    description_fr: |
+      Abū al-ʿAbbās Muḥammad ibn Yazīd al-Azdī, dit al-Mubarrad
+      — chef de l'école grammaticale de Baṣra à Bagdad après la
+      génération de Sībawayh et d'al-Akhfash al-Awsaṭ, et grand
+      rival d'Aḥmad ibn Yaḥyā Thaʿlab qui dirigeait l'école de
+      Kūfa — mourut à Bagdad en 286 H (900 EC). Son *al-Kāmil fī
+      al-Lugha wa-l-Adab* rassemble en quatre volumes l'analyse
+      grammaticale, la poésie préislamique et umayyade, les
+      discours khārijites et ʿalides, et les anecdotes lexicales,
+      devenant l'un des recueils les plus cités de la tradition
+      arabe ; son *al-Muqtaḍab* est la grammaire baṣrienne
+      systématique la plus influente après le *Kitāb* de Sībawayh,
+      organisant sa doctrine pour un lectorat abbasside. Ibn
+      Khallikān fixe l'année et le lieu ; al-Dhahabī, dans
+      *Tārīkh al-Islām*, le mentionne dans les wafayāt de 286.
+    canonical_hijri: {year: 286, precision: year}
+    canonical_gregorian: {date: 900-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 286 AH at Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 286 AH wafayāt notice."
+      - source_key: ei2
+    people: [[al-mubarrad, died]]
+    tags: [abbasid, scholar, linguist, grammarian, baghdad, basran-school]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mubarrad"
+
+  # =========================================================================
+  # FOUNDATIONAL CLASSICAL DICTIONARIES — 4th–5th CENTURY AH
+  # =========================================================================
+
+  - slug: death-of-ibn-durayd
+    category: scholar_death
+    title_en: Death of Ibn Durayd — Author of *al-Jamhara*
+    title_ar: وفاة ابن دريد — صاحب «الجمهرة»
+    title_fr: Mort d'Ibn Durayd — auteur d'*al-Jamhara*
+    description_en: |
+      Abū Bakr Muḥammad ibn al-Ḥasan ibn Durayd al-Azdī — Baṣran
+      philologist, lexicographer, and poet of *al-Maqṣūra* (the
+      famous didactic ode in alif maqṣūra rhyme) — died at Baghdad
+      on Wednesday 18 Shaʿbān 321 AH (12 August 933 CE) at age
+      ninety-three. His *Jamharat al-Lugha* is the second great
+      Arabic dictionary after al-Khalīl's *Kitāb al-ʿAyn*, organised
+      by tripartite root-permutation rather than by phonetic order
+      and consciously designed as a more accessible alternative;
+      his *al-Ishtiqāq* on Arabic etymology and tribal nomenclature
+      is one of the founding works of Arabic onomastics. Ibn
+      Khallikān gives the day and place of death precisely;
+      al-Dhahabī notices him in the *Siyar* among the linguistic
+      authorities of his year.
+    description_ar: |
+      توفي أبو بكر محمد بن الحسن بن دريد الأزديُّ — لغويُّ
+      البصرة وصاحب «المقصورة» الشعرية الشهيرة — ببغداد يوم
+      الأربعاء الثامن عشر من شعبان سنة إحدى وعشرين وثلاثمئة
+      للهجرة (الموافق ١٢ أغسطس ٩٣٣ م) عن ثلاث وتسعين سنة.
+      و«جمهرة اللغة» ثانيةُ المعاجم العربية الكبرى بعد «كتاب
+      العين» للخليل، رتَّبها على تقاليب الجذر الثلاثيّ لا على
+      الترتيب الصوتيِّ، وصاغها مدخلاً ميسَّراً أكثر؛ و«الاشتقاق»
+      من أوائل ما كُتب في الاشتقاق العربي وفي علم الأنساب
+      اللغوي للقبائل. ضبط ابنُ خلكان يومَ وفاته ومكانَها بدقّة؛
+      وأَلمَّ به الذهبيُّ في «السير» في وفيات سنته بين أهل
+      اللسان.
+    description_fr: |
+      Abū Bakr Muḥammad ibn al-Ḥasan ibn Durayd al-Azdī —
+      philologue baṣrien, lexicographe et poète d'*al-Maqṣūra*
+      (la célèbre ode didactique en rime alif maqṣūra) — mourut
+      à Bagdad le mercredi 18 Shaʿbān 321 H (12 août 933 EC),
+      à quatre-vingt-treize ans. Son *Jamharat al-Lugha* est le
+      deuxième grand dictionnaire arabe après le *Kitāb al-ʿAyn*
+      d'al-Khalīl, ordonné selon les permutations du trilitère
+      racine plutôt que selon l'ordre phonétique, et conçu
+      sciemment comme une alternative plus accessible ; son
+      *al-Ishtiqāq* sur l'étymologie arabe et la nomenclature
+      tribale est un texte fondateur de l'onomastique arabe.
+      Ibn Khallikān donne précisément le jour et le lieu de la
+      mort ; al-Dhahabī le mentionne dans les *Siyar* parmi les
+      autorités linguistiques de son année.
+    canonical_hijri: {year: 321, month: 8, day: 18, precision: day}
+    canonical_gregorian: {date: 933-08-12, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated Wednesday 18 Shaʿbān 321 AH at Baghdad, age 93."
+      - source_key: dhahabi_siyar
+        notes: "Notice in Siyar among the linguists of 321 AH."
+      - source_key: ei2
+    people: [[ibn-durayd, died]]
+    tags: [abbasid, scholar, linguist, lexicographer, baghdad, basra, jamhara]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Durayd"
+
+  - slug: death-of-al-azhari
+    category: scholar_death
+    title_en: Death of al-Azharī — Author of *Tahdhīb al-Lugha*
+    title_ar: وفاة الأزهريِّ الهرويِّ — صاحب «تهذيب اللغة»
+    title_fr: Mort d'al-Azharī — auteur de *Tahdhīb al-Lugha*
+    description_en: |
+      Abū Manṣūr Muḥammad ibn Aḥmad al-Azharī al-Harawī — Khurāsānian
+      Shāfiʿī jurist and lexicographer who spent two years as a
+      Qarmaṭian captive among the Bedouin of Najd, an experience
+      he turned into a unique linguistic field-notebook — died in
+      his native Herat in 370 AH (980–981 CE) at about eighty-two.
+      His *Tahdhīb al-Lugha*, in roughly fifteen volumes, follows
+      al-Khalīl's phonetic ordering but corrects, supplements, and
+      polices the lexicographic record against earlier compilers
+      whom he considered to have transmitted unreliable usage; it
+      became the principal source-mine for Ibn Manẓūr's *Lisān
+      al-ʿArab* three centuries later. Ibn Khallikān gives the year
+      and place; al-Dhahabī confirms in *Tārīkh al-Islām* among
+      the wafayāt of 370.
+    description_ar: |
+      توفي أبو منصور محمد بن أحمد الأزهريُّ الهرويُّ — فقيهٌ
+      شافعيٌّ ولغويٌّ خراسانيٌّ، أُسِر في يد القرامطة سنتين بين
+      أعراب نجد، فجعل من أسره مذكرةً ميدانيةً لغوية فريدة —
+      بهراة مسقط رأسه سنة سبعين وثلاثمئة للهجرة (الموافق
+      ٩٨٠–٩٨١ م) عن نحو اثنتين وثمانين سنة. و«تهذيب اللغة» في
+      نحو خمسة عشر مجلداً تابع فيه ترتيب الخليل الصوتي، وصحَّح
+      وزاد وحرَّر السجلَّ المعجميَّ في وجه مَن قبله ممن رأى
+      روايتَهم غيرَ موثوقة؛ فصار المصدرَ الرئيسَ لـ«لسان العرب»
+      لابن منظور بعد ثلاثة قرون. ضبط ابنُ خلكان السنةَ والمكان؛
+      وأكَّد ذلك الذهبيُّ في وفيات ٣٧٠ من «تاريخ الإسلام».
+    description_fr: |
+      Abū Manṣūr Muḥammad ibn Aḥmad al-Azharī al-Harawī —
+      juriste shāfiʿite et lexicographe khurāsānien qui passa deux
+      ans en captivité qarmate parmi les Bédouins du Nejd,
+      expérience qu'il convertit en un carnet linguistique de
+      terrain unique — mourut dans sa Herat natale en 370 H
+      (980–981 EC), à environ quatre-vingt-deux ans. Son
+      *Tahdhīb al-Lugha*, en une quinzaine de volumes, suit
+      l'ordonnancement phonétique d'al-Khalīl mais corrige,
+      complète et police le registre lexicographique contre les
+      compilateurs antérieurs jugés peu fiables ; il devint la
+      source-carrière principale du *Lisān al-ʿArab* d'Ibn
+      Manẓūr trois siècles plus tard. Ibn Khallikān donne l'année
+      et le lieu ; al-Dhahabī confirme dans *Tārīkh al-Islām*
+      parmi les wafayāt de 370.
+    canonical_hijri: {year: 370, precision: year}
+    canonical_gregorian: {date: 980-07-19, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 370 AH at Herat, age c. 82."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 370 AH wafayāt notice."
+      - source_key: ei2
+    people: [[al-azhari-al-harawi, died]]
+    tags: [abbasid, scholar, linguist, lexicographer, herat, khurasan, tahdhib]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Mansur_al-Azhari"
+
+  - slug: death-of-ibn-jinni
+    category: scholar_death
+    title_en: Death of Ibn Jinnī — Author of *al-Khaṣāʾiṣ*
+    title_ar: وفاة ابن جنِّي — صاحب «الخصائص»
+    title_fr: Mort d'Ibn Jinnī — auteur d'*al-Khaṣāʾiṣ*
+    description_en: |
+      Abū al-Fatḥ ʿUthmān ibn Jinnī al-Mawṣilī — student and
+      closest collaborator of the great poet-philologist Abū al-
+      Ṭayyib al-Mutanabbī, and the most theoretical Arabic
+      grammarian of the classical age — died at Baghdad on Friday
+      27 Ṣafar 392 AH (15 January 1002 CE). His *al-Khaṣāʾiṣ*
+      raises Arabic grammatical theory from the descriptive level
+      of Sībawayh's *Kitāb* to a systematic philosophy of language,
+      treating root-derivation, etymology by phonetic resemblance
+      (*al-ishtiqāq al-akbar*), the conventionality versus
+      naturalness of language, and the underlying causes (*ʿilal*)
+      of grammatical rules; his *Sirr Ṣināʿat al-Iʿrāb* and his
+      commentaries on al-Mutanabbī are equally seminal. Ibn
+      Khallikān fixes the day; al-Dhahabī gives a near-equivalent
+      notice in *Siyar Aʿlām al-Nubalāʾ*.
+    description_ar: |
+      توفي أبو الفتح عثمان بن جنّي الموصليُّ — تلميذُ أبي الطيب
+      المتنبّي وصاحبُه الألصق به، وأكثرُ نحاة العصر الكلاسيكي
+      نظرية — ببغداد ليلة الجمعة السابع والعشرين من صفر سنة
+      اثنتين وتسعين وثلاثمئة للهجرة (الموافق ١٥ يناير ١٠٠٢ م).
+      وفي «الخصائص» نقل النظرَ النحوي العربي من مستوى وصف
+      الظواهر في «كتاب» سيبويه إلى فلسفةٍ منظَّمة للغة، باحثاً
+      في اشتقاق الجذور والاشتقاق الأكبر بالقرابة الصوتية،
+      وفي مسألة التواضع وأصل اللغة، وفي علل النحو؛ ولكتابه
+      «سرّ صناعة الإعراب» وشروحه على المتنبّي مكانةٌ مماثلة.
+      ضبط ابنُ خلكان يومَ وفاته؛ وأَلمَّ به الذهبيُّ في «سير
+      أعلام النبلاء» إلماماً قريباً منه.
+    description_fr: |
+      Abū al-Fatḥ ʿUthmān ibn Jinnī al-Mawṣilī — disciple et
+      collaborateur le plus proche du grand poète-philologue
+      al-Mutanabbī, et le plus théoricien des grammairiens arabes
+      de l'époque classique — mourut à Bagdad le vendredi 27
+      Ṣafar 392 H (15 janvier 1002 EC). Son *al-Khaṣāʾiṣ* élève
+      la théorie grammaticale arabe du niveau descriptif du
+      *Kitāb* de Sībawayh à une philosophie systématique du
+      langage, traitant de la dérivation des racines, de
+      l'étymologie par ressemblance phonétique (*al-ishtiqāq
+      al-akbar*), de la conventionalité ou naturalité de la
+      langue, et des causes (*ʿilal*) des règles grammaticales ;
+      son *Sirr Ṣināʿat al-Iʿrāb* et ses commentaires d'al-
+      Mutanabbī sont également séminaux. Ibn Khallikān fixe le
+      jour ; al-Dhahabī donne une notice quasi équivalente dans
+      *Siyar Aʿlām al-Nubalāʾ*.
+    canonical_hijri: {year: 392, month: 2, day: 27, precision: day}
+    canonical_gregorian: {date: 1002-01-15, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated Friday 27 Ṣafar 392 AH at Baghdad."
+      - source_key: dhahabi_siyar
+        notes: "Notice in Siyar Aʿlām al-Nubalāʾ."
+      - source_key: ei2
+    people: [[ibn-jinni, died]]
+    tags: [abbasid, scholar, linguist, grammarian, baghdad, mosul, philosophy-of-language]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Jinni"
+
+  - slug: death-of-al-jawhari-al-sihah
+    category: scholar_death
+    title_en: Death of al-Jawharī — Author of *al-Ṣiḥāḥ*
+    title_ar: وفاة الجوهريِّ — صاحب «الصحاح»
+    title_fr: Mort d'al-Jawharī — auteur d'*al-Ṣiḥāḥ*
+    description_en: |
+      Abū Naṣr Ismāʿīl ibn Ḥammād al-Jawharī al-Fārābī — Turkic-
+      Khurāsānian lexicographer who travelled deep into the Arabian
+      Peninsula to learn Arabic from the Bedouin firsthand before
+      settling at Nīsābūr — died at Nīsābūr around 393 AH (1003 CE),
+      reportedly after falling from the roof of the Old Mosque
+      while attempting an experimental flight. His *Tāj al-Lugha
+      wa-Ṣiḥāḥ al-ʿArabīya*, known simply as *al-Ṣiḥāḥ*, abandoned
+      the phonetic order of al-Khalīl and the root-permutation
+      order of Ibn Durayd in favour of the alphabetical-by-rhyme
+      order (entries arranged by the last consonant of the root,
+      then by the first), an organisation that became standard
+      for centuries and underlies al-Fīrūzābādī's *Qāmūs* and
+      al-Zabīdī's *Tāj al-ʿArūs*. Sources disagree on the exact
+      death year (some give 398 or 400 AH); we follow Ibn Khallikān
+      and al-Dhahabī's preferred date of c.393 AH and flag the
+      uncertainty.
+    description_ar: |
+      توفي أبو نصر إسماعيل بن حمّاد الجوهريُّ الفارابيُّ —
+      لغويٌّ تركيٌّ خراسانيٌّ توغَّل في جزيرة العرب يأخذ اللسانَ
+      عن الأعراب مشافهةً قبل أن يستقرَّ بنيسابور — بنيسابور
+      نحو سنة ثلاث وتسعين وثلاثمئة للهجرة (الموافق ١٠٠٣ م)،
+      على ما رُوي من سقوطه من سطح الجامع الأقدم في تجربة طيرانٍ
+      لم تكتمل. و«تاج اللغة وصحاح العربية» المعروف بـ«الصحاح»
+      ترك فيه ترتيبَ الخليل الصوتي وترتيبَ ابن دريد على
+      التقاليب، واختار ترتيبَ القافية (الباب الآخر من الجذر،
+      ثم فصل أوله)، فصار هذا الترتيبُ هو السائدَ قروناً، وعليه
+      بنى الفيروزآباديُّ «القاموسَ» والزَّبيديُّ «تاجَ العروس».
+      اختلفت الرواياتُ في سنة وفاته، وقيل ٣٩٨ أو ٤٠٠؛ ونحن
+      نتبع ما رجَّحه ابن خلكان والذهبيُّ من نحو سنة ٣٩٣ هـ،
+      ونُنبِّه على ما في الباب من خلاف.
+    description_fr: |
+      Abū Naṣr Ismāʿīl ibn Ḥammād al-Jawharī al-Fārābī —
+      lexicographe turc-khurāsānien qui s'enfonça dans la péninsule
+      Arabique pour apprendre l'arabe directement auprès des
+      Bédouins avant de s'établir à Nīsābūr — mourut à Nīsābūr
+      vers 393 H (1003 EC), selon la tradition après une chute
+      du toit de la Vieille Mosquée lors d'une tentative de vol
+      expérimental. Son *Tāj al-Lugha wa-Ṣiḥāḥ al-ʿArabīya*,
+      connu simplement comme *al-Ṣiḥāḥ*, abandonna l'ordre
+      phonétique d'al-Khalīl et l'ordre des permutations d'Ibn
+      Durayd au profit de l'ordre alphabétique-par-rime (entrées
+      classées par la dernière consonne de la racine, puis par
+      la première), organisation qui devint standard pendant
+      des siècles et qui sous-tend le *Qāmūs* d'al-Fīrūzābādī
+      et le *Tāj al-ʿArūs* d'al-Zabīdī. Les sources divergent
+      sur l'année exacte (certaines donnent 398 ou 400 H) ;
+      nous retenons la date privilégiée par Ibn Khallikān et
+      al-Dhahabī, vers 393 H, et signalons l'incertitude.
+    canonical_hijri: {year: 393, precision: year}
+    canonical_gregorian: {date: 1003-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated c. 393 AH at Nīsābūr; alternative reports 398 / 400 AH noted."
+      - source_key: dhahabi_siyar
+        notes: "Notice in Siyar; date uncertainty acknowledged."
+      - source_key: ei2
+    people: [[al-jawhari-lexicographer, died]]
+    tags: [abbasid, scholar, linguist, lexicographer, nishapur, sihah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Al-Jawhari"
+
+  - slug: death-of-ibn-sida-al-andalusi
+    category: scholar_death
+    title_en: Death of Ibn Sīda al-Andalusī — Author of *al-Muḥkam*
+    title_ar: وفاة ابن سِيدَه الأندلسيِّ — صاحب «المحكم»
+    title_fr: Mort d'Ibn Sīda al-Andalusī — auteur d'*al-Muḥkam*
+    description_en: |
+      Abū al-Ḥasan ʿAlī ibn Ismāʿīl ibn Sīda al-Mursī al-Andalusī
+      — blind lexicographer of Mursiya (Murcia) and Dāniya (Denia)
+      under the Mujāhidid amīrs of post-caliphal al-Andalus, who
+      compiled the largest Andalusī Arabic dictionary — died at
+      Dāniya on 25 Rabīʿ II 458 AH (25 March 1066 CE). His *al-
+      Muḥkam wa-l-Muḥīṭ al-Aʿẓam*, in seventeen volumes, follows
+      al-Khalīl's phonetic order and consciously aims to surpass
+      the *Tahdhīb* of al-Azharī by integrating Andalusī, Maghribī,
+      and Mashriqī lexical material; his thematically-organised
+      *al-Mukhaṣṣaṣ*, in seventeen volumes, is the largest Arabic
+      lexicon-by-subject ever compiled and remained a primary
+      onomasiological reference into the modern era. Ibn Khallikān
+      gives the day and place; al-Dhahabī confirms in *Tārīkh
+      al-Islām*.
+    description_ar: |
+      توفي أبو الحسن علي بن إسماعيل بن سِيدَه المُرسيُّ الأندلسيُّ
+      — لغويُّ مُرسية ودانية الأعمى في عصر المجاهدين أمراء
+      الأندلس بعد سقوط الخلافة، وصاحبُ أكبر معاجم العربية
+      الأندلسية — بدانية في الخامس والعشرين من ربيع الآخر سنة
+      ثمانٍ وخمسين وأربعمئة للهجرة (الموافق ٢٥ مارس ١٠٦٦ م).
+      وفي «المحكم والمحيط الأعظم» في سبعة عشر مجلداً اتَّبع
+      ترتيبَ الخليل الصوتي، واعياً سعيُه إلى تجاوز «تهذيب»
+      الأزهري بدمجه المادةَ المعجميةَ الأندلسيةَ والمغربيةَ
+      والمشرقية؛ و«المخصَّص» في سبعة عشر مجلداً هو أكبر
+      المعاجم الموضوعية في تاريخ العربية، وظلَّ مرجعاً
+      أُنوماسيولوجياً رئيساً إلى العصر الحديث. ضبط ابن خلكان
+      اليومَ والمكان؛ وأكَّد ذلك الذهبيُّ في «تاريخ الإسلام».
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn Ismāʿīl ibn Sīda al-Mursī al-Andalusī
+      — lexicographe aveugle de Mursiya (Murcie) et Dāniya
+      (Denia) sous les amīrs mujāhidides d'al-Andalus post-
+      califale, qui compila le plus grand dictionnaire arabe
+      andalousien — mourut à Dāniya le 25 Rabīʿ II 458 H
+      (25 mars 1066 EC). Son *al-Muḥkam wa-l-Muḥīṭ al-Aʿẓam*,
+      en dix-sept volumes, suit l'ordre phonétique d'al-Khalīl
+      et vise consciemment à surpasser le *Tahdhīb* d'al-Azharī
+      en intégrant la matière lexicale andalousienne, maghrébine
+      et mashriqī ; son *al-Mukhaṣṣaṣ*, lexique thématique en
+      dix-sept volumes, est le plus grand lexique arabe par
+      sujet jamais compilé et resta une référence onomasiologique
+      primaire jusqu'à l'époque moderne. Ibn Khallikān donne
+      le jour et le lieu ; al-Dhahabī confirme dans *Tārīkh
+      al-Islām*.
+    canonical_hijri: {year: 458, month: 4, day: 25, precision: day}
+    canonical_gregorian: {date: 1066-03-25, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 25 Rabīʿ II 458 AH at Dāniya."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 458 AH wafayāt notice."
+      - source_key: ei2
+    people: [[ibn-sida-al-andalusi, died]]
+    tags: [andalus, scholar, linguist, lexicographer, murcia, denia, muhkam]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Sida"
+
+  # =========================================================================
+  # MAQĀMĀT — RHETORICAL CAPSTONE OF THE 6th CENTURY AH
+  # =========================================================================
+
+  - slug: death-of-al-hariri-al-basri
+    category: scholar_death
+    title_en: Death of al-Ḥarīrī al-Baṣrī — Author of the *Maqāmāt*
+    title_ar: وفاة الحريريِّ البصريِّ — صاحب «المقامات»
+    title_fr: Mort d'al-Ḥarīrī al-Baṣrī — auteur des *Maqāmāt*
+    description_en: |
+      Abū Muḥammad al-Qāsim ibn ʿAlī al-Ḥarīrī al-Baṣrī — Saljūq-
+      era Iraqi grammarian, philologist, and master of *sajʿ*
+      (rhymed prose) — died at Baṣra on 6 Rajab 516 AH (10
+      September 1122 CE). His fifty *Maqāmāt al-Ḥarīrī*, narrated
+      by the credulous merchant al-Ḥārith ibn Hammām and centred
+      on the eloquent vagabond Abū Zayd al-Sarūjī, are the most-
+      copied work of classical Arabic literature after the Qurʾān
+      and Bukhārī's *Ṣaḥīḥ*; they served as the standard advanced
+      lexical-rhetorical training-text for centuries and inspired
+      later imitations in Persian, Hebrew, and Syriac. His grammar
+      manual *Mulḥat al-Iʿrāb* (a versified didactic poem) and
+      *Durrat al-Ghawwāṣ fī Awhām al-Khawāṣṣ* (correction of
+      common educated solecisms) became standard pedagogical
+      tools. Ibn Khallikān fixes the day and place; al-Dhahabī
+      confirms in *Siyar Aʿlām al-Nubalāʾ*.
+    description_ar: |
+      توفي أبو محمد القاسمُ بن علي الحريريُّ البصريُّ — نحويُّ
+      العصر السلجوقي بالعراق ولغويُّه وإمامُ السجع — بالبصرة
+      في السادس من رجب سنة ست عشرة وخمسمئة للهجرة (الموافق
+      ١٠ سبتمبر ١١٢٢ م). و«مقامات الحريري» الخمسون، يرويها
+      التاجر الساذج الحارثُ بن همّام عن المتشرِّد البليغ أبي
+      زيد السروجيِّ، أكثرُ ما نُسخ في الأدب العربي الكلاسيكي
+      بعد القرآن الكريم و«صحيح» البخاري؛ صارت قروناً النصَّ
+      التدريبيَّ المعتمَدَ في اللسان والبلاغة المتقدَّمين، وألهمت
+      محاكياتٍ بالفارسية والعبرية والسريانية. ومتنه «ملحة
+      الإعراب» المنظومة الديداكتيكية، و«درّة الغوّاص في أوهام
+      الخواصّ» في تصحيح أوهام الخاصة، صارا من أدوات التدريس
+      المعتمدة. ضبط ابن خلكان اليومَ والمكان؛ وأكَّد ذلك
+      الذهبيُّ في «سير أعلام النبلاء».
+    description_fr: |
+      Abū Muḥammad al-Qāsim ibn ʿAlī al-Ḥarīrī al-Baṣrī —
+      grammairien, philologue et maître du *sajʿ* (prose rimée)
+      iraqien à l'époque saljūqide — mourut à Baṣra le 6 Rajab
+      516 H (10 septembre 1122 EC). Ses cinquante *Maqāmāt
+      al-Ḥarīrī*, narrées par le marchand crédule al-Ḥārith ibn
+      Hammām autour du vagabond éloquent Abū Zayd al-Sarūjī,
+      sont l'œuvre la plus copiée de la littérature arabe
+      classique après le Coran et le *Ṣaḥīḥ* de Bukhārī ; elles
+      servirent pendant des siècles de manuel avancé d'entraînement
+      lexico-rhétorique et inspirèrent des imitations en persan,
+      hébreu et syriaque. Son manuel grammatical *Mulḥat al-Iʿrāb*
+      (poème didactique versifié) et son *Durrat al-Ghawwāṣ fī
+      Awhām al-Khawāṣṣ* (correction des solécismes courants des
+      lettrés) devinrent des outils pédagogiques standards. Ibn
+      Khallikān fixe le jour et le lieu ; al-Dhahabī confirme
+      dans *Siyar Aʿlām al-Nubalāʾ*.
+    canonical_hijri: {year: 516, month: 7, day: 6, precision: day}
+    canonical_gregorian: {date: 1122-09-10, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 6 Rajab 516 AH at Baṣra."
+      - source_key: dhahabi_siyar
+        notes: "Notice in Siyar Aʿlām al-Nubalāʾ."
+      - source_key: ei2
+    people: [[al-hariri-al-basri, died]]
+    tags: [saljuq, scholar, linguist, grammarian, basra, maqamat, rhymed-prose]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Hariri_of_Basra"
+
+  # =========================================================================
+  # AYYŪBID / MAMLŪK SYNTHESIS — CLOSING THE CLASSICAL TRADITION
+  # =========================================================================
+
+  - slug: death-of-ibn-malik-al-andalusi
+    category: scholar_death
+    title_en: Death of Ibn Mālik — Author of the *Alfiyya*
+    title_ar: وفاة ابن مالك الأندلسيِّ — صاحب «الألفية»
+    title_fr: Mort d'Ibn Mālik al-Andalusī — auteur de l'*Alfiyya*
+    description_en: |
+      Jamāl al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh ibn
+      Mālik al-Ṭāʾī al-Jayyānī al-Andalusī — Andalusī-born
+      grammarian who emigrated to Damascus and taught at the
+      ʿĀdiliyya madrasa under Ayyūbid and early Mamlūk patronage —
+      died at Damascus on 12 Shaʿbān 672 AH (21 February 1274 CE)
+      at age about seventy-two. His *al-Khulāṣa al-Alfīya*, almost
+      universally known as the *Alfiyyat Ibn Mālik*, is a thousand-
+      verse mnemonic poem that synthesises the entire Arabic
+      grammatical tradition into rajaz couplets memorisable in a
+      single year of study; with the commentary of his son Badr
+      al-Dīn and the standard later glosses of Ibn ʿAqīl, al-
+      Ushmūnī, and others, it became the obligatory grammar-
+      curriculum text from Cairo and Damascus to the western
+      Maghrib and Sokoto. His *al-Tashīl* and *al-Kāfiya al-
+      Shāfiya* extend the same project at greater length. Ibn
+      Kathīr fixes the day and place; al-Dhahabī's *Tārīkh al-
+      Islām* confirms.
+    description_ar: |
+      توفي جمالُ الدين أبو عبد الله محمدُ بن عبد الله بن مالك
+      الطائيُّ الجيّانيُّ الأندلسيُّ — نحويٌّ أندلسيُّ المولد،
+      هاجر إلى دمشق ودرَّس بالمدرسة العادلية في رعاية الأيوبيين
+      ومطلع الدولة المملوكية — بدمشق في الثاني عشر من شعبان سنة
+      اثنتين وسبعين وستمئة للهجرة (الموافق ٢١ فبراير ١٢٧٤ م)
+      عن نحو اثنتين وسبعين سنة. و«الخلاصة الألفية» المعروفة
+      بـ«ألفية ابن مالك» منظومةٌ في ألف بيتٍ من الرجز اختصر
+      فيها سائر التراث النحوي العربي حتى يحفظَه المتعلِّمُ في
+      سنةٍ واحدة؛ ومع شرح ابنه بدر الدين وحواشي ابن عقيل
+      والأشموني، صارت المنهجَ النحوي الإلزامي من القاهرة
+      ودمشق إلى المغرب الأقصى وسوكوتو. و«التسهيل» و«الكافية
+      الشافية» يمدّان المشروعَ نفسَه. ضبط ابن كثير اليومَ
+      والمكان؛ وأكَّد ذلك الذهبيُّ في «تاريخ الإسلام».
+    description_fr: |
+      Jamāl al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh ibn
+      Mālik al-Ṭāʾī al-Jayyānī al-Andalusī — grammairien né
+      en al-Andalus qui émigra à Damas et enseigna à la madrasa
+      ʿĀdiliyya sous le patronage ayyūbide puis mamlūk — mourut
+      à Damas le 12 Shaʿbān 672 H (21 février 1274 EC), à environ
+      soixante-douze ans. Son *al-Khulāṣa al-Alfīya*, universellement
+      connue comme l'*Alfiyyat Ibn Mālik*, est un poème mnémotechnique
+      de mille vers qui synthétise toute la tradition grammaticale
+      arabe en distiques rajaz mémorisables en une seule année
+      d'étude ; avec le commentaire de son fils Badr al-Dīn et
+      les gloses standards d'Ibn ʿAqīl, d'al-Ushmūnī et d'autres,
+      il devint le manuel grammatical obligatoire du Caire et de
+      Damas jusqu'au Maghrib extrême et à Sokoto. Son *al-Tashīl*
+      et son *al-Kāfiya al-Shāfiya* prolongent le même projet.
+      Ibn Kathīr fixe le jour et le lieu ; al-Dhahabī confirme
+      dans *Tārīkh al-Islām*.
+    canonical_hijri: {year: 672, month: 8, day: 12, precision: day}
+    canonical_gregorian: {date: 1274-02-21, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Death dated 12 Shaʿbān 672 AH at Damascus."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 672 AH wafayāt notice."
+      - source_key: ei2
+    people: [[ibn-malik-al-andalusi, died]]
+    tags: [mamluk, ayyubid, scholar, linguist, grammarian, damascus, andalus, alfiyya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Malik"
+
+  - slug: death-of-ibn-manzur
+    category: scholar_death
+    title_en: Death of Ibn Manẓūr — Compiler of *Lisān al-ʿArab*
+    title_ar: وفاة ابن منظور — جامع «لسان العرب»
+    title_fr: Mort d'Ibn Manẓūr — compilateur de *Lisān al-ʿArab*
+    description_en: |
+      Jamāl al-Dīn Abū al-Faḍl Muḥammad ibn Mukarram ibn Manẓūr
+      al-Ifrīqī al-Miṣrī — Mamlūk-era Egyptian lexicographer of
+      North African paternal descent who served as a chancery
+      secretary in Cairo and as judge in Tripoli — died at
+      Cairo in Shaʿbān 711 AH (December 1311 CE) at about
+      eighty-one. His *Lisān al-ʿArab*, in twenty volumes,
+      conflates the entries of five earlier dictionaries — al-
+      Azharī's *Tahdhīb*, Ibn Sīda's *Muḥkam*, al-Jawharī's
+      *Ṣiḥāḥ*, Ibn al-Athīr's *al-Nihāya*, and al-Ṣaghānī's
+      *al-Takmila* — into a single comprehensive root-organised
+      reference, ordered by the last consonant of the root in
+      the manner of *al-Ṣiḥāḥ*; it remains the most-consulted
+      pre-modern Arabic dictionary, the principal reference of
+      classical-text editors, and the empirical base of the
+      modern Cairo Arabic Language Academy's lexicography.
+      Ibn Kathīr's *Bidāya* notices him in 711; al-Dhahabī's
+      *Tārīkh al-Islām* confirms.
+    description_ar: |
+      توفي جمالُ الدين أبو الفضل محمد بن مكرم بن منظور الإفريقيُّ
+      المصريُّ — لغويُّ مصرَ في العصر المملوكي وأصلُه من
+      إفريقية، عمل كاتباً في ديوان الإنشاء بالقاهرة وقاضياً
+      بطرابلس — بالقاهرة في شعبان سنة إحدى عشرة وسبعمئة للهجرة
+      (الموافق ديسمبر ١٣١١ م) عن نحو إحدى وثمانين سنة. و«لسان
+      العرب» في عشرين مجلداً أدمج فيه مادةَ خمسة معاجم سابقة
+      — «تهذيب» الأزهري و«محكم» ابن سِيدَه و«صحاح» الجوهري
+      و«نهاية» ابن الأثير و«تكملة» الصاغاني — في معجم جامع
+      مرتَّبٍ على الجذور بآخر الحرف على طريقة «الصحاح»؛ وهو
+      أكثرُ المعاجم العربية التراثية مراجعةً، ومرجعُ محقِّقي
+      نصوص التراث، والمادةُ التجريبيةُ الأولى لمعجمية مجمع
+      اللغة العربية بالقاهرة. ذكره ابن كثير في «البداية» في
+      وفيات ٧١١؛ وأكَّد ذلك الذهبيُّ في «تاريخ الإسلام».
+    description_fr: |
+      Jamāl al-Dīn Abū al-Faḍl Muḥammad ibn Mukarram ibn Manẓūr
+      al-Ifrīqī al-Miṣrī — lexicographe égyptien de l'époque
+      mamlūke d'ascendance paternelle nord-africaine, qui servit
+      comme secrétaire de la chancellerie au Caire et comme
+      juge à Tripoli — mourut au Caire en Shaʿbān 711 H
+      (décembre 1311 EC), à environ quatre-vingt-un ans. Son
+      *Lisān al-ʿArab*, en vingt volumes, condense les entrées
+      de cinq dictionnaires antérieurs — le *Tahdhīb* d'al-
+      Azharī, le *Muḥkam* d'Ibn Sīda, le *Ṣiḥāḥ* d'al-Jawharī,
+      la *Nihāya* d'Ibn al-Athīr et la *Takmila* d'al-Ṣaghānī
+      — en une référence exhaustive organisée par racine,
+      classée par la dernière consonne à la manière du *Ṣiḥāḥ* ;
+      il reste le dictionnaire arabe prémoderne le plus consulté,
+      la référence principale des éditeurs de textes classiques
+      et la base empirique de la lexicographie de l'Académie
+      arabe du Caire. Ibn Kathīr le mentionne dans la *Bidāya*
+      en 711 ; al-Dhahabī confirme dans *Tārīkh al-Islām*.
+    canonical_hijri: {year: 711, month: 8, precision: month}
+    canonical_gregorian: {date: 1311-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Death dated Shaʿbān 711 AH at Cairo."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 711 AH wafayāt notice."
+      - source_key: ei2
+    people: [[ibn-manzur, died]]
+    tags: [mamluk, scholar, linguist, lexicographer, cairo, lisan-al-arab]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Manzur"
+
+  - slug: death-of-ibn-hisham-al-ansari-al-nahwi
+    category: scholar_death
+    title_en: Death of Ibn Hishām al-Anṣārī — Author of *Mughnī al-Labīb*
+    title_ar: وفاة ابن هشام الأنصاريِّ النحويِّ — صاحب «مغني اللبيب»
+    title_fr: Mort d'Ibn Hishām al-Anṣārī — auteur de *Mughnī al-Labīb*
+    description_en: |
+      Jamāl al-Dīn Abū Muḥammad ʿAbd Allāh ibn Yūsuf ibn Hishām
+      al-Anṣārī al-Miṣrī — Mamlūk-era Cairene grammarian whose
+      teaching in Cairo eclipsed all his contemporaries and whose
+      analytical synthesis Ibn Khaldūn would later compare to
+      Sībawayh's — died at Cairo on 5 Dhū al-Qaʿda 761 AH (16
+      September 1360 CE). His *Mughnī al-Labīb ʿan Kutub al-
+      Aʿārīb*, organised by the function of grammatical particles
+      (ḥurūf), abandons the inherited word-class taxonomy in
+      favour of an analytical treatment of how each particle
+      governs syntax; with his *Awḍaḥ al-Masālik* on the *Alfiyya*
+      of Ibn Mālik, *Qaṭr al-Nadā*, and *Shudhūr al-Dhahab*, it
+      formed the core late-Mamlūk grammatical curriculum and
+      remains a standard university text. Ibn Kathīr's *Bidāya*
+      gives the precise day and place; al-Dhahabī's continuators
+      and EI2 corroborate.
+    description_ar: |
+      توفي جمالُ الدين أبو محمد عبد الله بن يوسف بن هشام
+      الأنصاريُّ المصريُّ — نحويُّ القاهرة في العصر المملوكي،
+      الذي طبَّق صيتُ تدريسه على معاصريه وجعل ابنُ خلدون يقارن
+      تحليلَه التركيبيَّ بسيبويه — بالقاهرة في الخامس من ذي
+      القعدة سنة إحدى وستين وسبعمئة للهجرة (الموافق ١٦ سبتمبر
+      ١٣٦٠ م). و«مغني اللبيب عن كتب الأعاريب» نظَّمه على
+      الحروف لا على أبواب الأقسام التقليدية، فصار معالجةً
+      تحليليةً لكلِّ حرفٍ بحسب عمله في التركيب؛ ومع «أوضح
+      المسالك» شرحه على ألفية ابن مالك، و«قطر الندى»، و«شذور
+      الذهب»، شكَّل قلبَ منهج النحو في أواخر العصر المملوكي،
+      وما يزال متناً جامعياً معتمَداً. ضبط ابن كثير في «البداية»
+      اليومَ والمكان؛ وأكَّد ذلك متابعو الذهبيِّ والموسوعةُ
+      الإسلامية الثانية.
+    description_fr: |
+      Jamāl al-Dīn Abū Muḥammad ʿAbd Allāh ibn Yūsuf ibn Hishām
+      al-Anṣārī al-Miṣrī — grammairien cairote de l'époque
+      mamlūke dont l'enseignement au Caire éclipsa tous ses
+      contemporains et dont Ibn Khaldūn comparera plus tard la
+      synthèse analytique à celle de Sībawayh — mourut au Caire
+      le 5 Dhū al-Qaʿda 761 H (16 septembre 1360 EC). Son
+      *Mughnī al-Labīb ʿan Kutub al-Aʿārīb*, organisé selon la
+      fonction des particules grammaticales (ḥurūf), abandonne
+      la taxonomie héritée des classes de mots au profit d'un
+      traitement analytique de la régence syntaxique de chaque
+      particule ; avec son *Awḍaḥ al-Masālik* sur l'*Alfiyya*
+      d'Ibn Mālik, son *Qaṭr al-Nadā* et son *Shudhūr al-Dhahab*,
+      il forma le noyau du curriculum grammatical de la fin de
+      l'époque mamlūke et reste un manuel universitaire standard.
+      La *Bidāya* d'Ibn Kathīr donne précisément le jour et le
+      lieu ; les continuateurs d'al-Dhahabī et l'EI2 corroborent.
+    canonical_hijri: {year: 761, month: 11, day: 5, precision: day}
+    canonical_gregorian: {date: 1360-09-16, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Death dated 5 Dhū al-Qaʿda 761 AH at Cairo."
+      - source_key: ei2
+        notes: "Biography corroborates day and place."
+    people: [[ibn-hisham-al-ansari-al-nahwi, died]]
+    tags: [mamluk, scholar, linguist, grammarian, cairo, mughni-al-labib]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Hisham_(grammarian)"
+
+  # =========================================================================
+  # BOOK COMPLETION — al-SUYŪṬĪ'S *al-MUZHIR*
+  # =========================================================================
+
+  - slug: completion-of-al-suyuti-muzhir
+    category: book_completion
+    title_en: Completion of al-Suyūṭī's *al-Muzhir fī ʿUlūm al-Lugha*
+    title_ar: إتمام السيوطيّ «المُزهِر في علوم اللغة»
+    title_fr: Achèvement d'*al-Muzhir fī ʿUlūm al-Lugha* d'al-Suyūṭī
+    description_en: |
+      Jalāl al-Dīn al-Suyūṭī (d. 911 AH) — the polymath of late-
+      Mamlūk Cairo whose biography is itself among this dataset's
+      anchor entries — completed *al-Muzhir fī ʿUlūm al-Lugha
+      wa-Anwāʿihā* during the period of his major scholarly
+      productivity in the late ninth Islamic century, and the
+      work circulated in Cairo before his withdrawal from public
+      teaching in 891 AH. *al-Muzhir* is the first systematic
+      survey of the Arabic linguistic disciplines (*ʿulūm al-
+      lugha*) — etymology, dialectology, semantics, polysemy,
+      synonymy, transmission of lexical material, and the history
+      of dictionaries — modelled deliberately on Ibn al-Ṣalāḥ's
+      structuring of the hadith sciences in the *Muqaddima*. It
+      preserves citations from many earlier philological works
+      now wholly lost and remains the standard reference for the
+      history of Arabic linguistics. Year-precision is retained
+      because the classical sources name the work as a product
+      of al-Suyūṭī's mature period without giving a day of
+      completion; we follow Ibn al-ʿImād's approximate dating
+      via *Shadharāt al-Dhahab* and confirm via EI2.
+    description_ar: |
+      أتمَّ جلالُ الدين السيوطيُّ — المتوفى سنة ٩١١ هـ، وعلَمُ
+      القاهرة المملوكية المتأخّرة الذي تنتظمه ترجمةٌ مستقلَّة
+      في هذه المجموعة — كتابَه «المُزهِر في علوم اللغة وأنواعها»
+      في فترة إنتاجه العلمي الكبير في أواخر القرن التاسع الهجري،
+      وتداوله الناسُ بالقاهرة قبل انقطاعه عن التعليم العامِّ
+      سنة ٨٩١ هـ. و«المُزهِر» أوّلُ مسحٍ منظَّمٍ لعلوم العربية
+      — الاشتقاق وعلم اللهجات والدلالة والمشترك والمترادف
+      وأسانيد المادة المعجمية وتاريخ المعاجم — مَبنيًّا على
+      منهج ابن الصلاح في تقعيد علوم الحديث في «المقدّمة».
+      ويحفظ الكتابُ نقولاً من كتبٍ لغويةٍ كثيرةٍ ضاعت بأصولها،
+      وما يزال المرجعَ المعتمدَ في تاريخ علوم اللغة العربية.
+      نلتزم بدقة السنة لأن المصادر تذكر الكتاب من إنتاج طوره
+      الناضج دون يومٍ لإتمامه؛ ونتبع تقديرَ ابن العماد في
+      «شذرات الذهب» ونؤكِّده بالموسوعة الإسلامية الثانية.
+    description_fr: |
+      Jalāl al-Dīn al-Suyūṭī (m. 911 H) — polymathe du Caire
+      mamlūk tardif dont la biographie figure parmi les entrées-
+      pivots de cette base — acheva *al-Muzhir fī ʿUlūm al-Lugha
+      wa-Anwāʿihā* pendant la période de sa grande productivité
+      savante à la fin du IXe siècle de l'Hégire, et l'ouvrage
+      circulait au Caire avant son retrait de l'enseignement
+      public en 891 H. *al-Muzhir* est le premier panorama
+      systématique des sciences linguistiques arabes (*ʿulūm
+      al-lugha*) — étymologie, dialectologie, sémantique, polysémie,
+      synonymie, transmission de la matière lexicale et histoire
+      des dictionnaires — modelé délibérément sur la structuration
+      des sciences du hadith par Ibn al-Ṣalāḥ dans la *Muqaddima*.
+      Il conserve des citations de nombreux ouvrages philologiques
+      antérieurs entièrement perdus et reste la référence standard
+      pour l'histoire de la linguistique arabe. La précision à
+      l'année est retenue car les sources classiques mentionnent
+      l'œuvre comme un produit de la maturité d'al-Suyūṭī sans
+      donner de jour d'achèvement ; nous suivons la datation
+      approximative d'Ibn al-ʿImād dans *Shadharāt al-Dhahab*
+      et confirmons via l'EI2.
+    canonical_hijri: {year: 890, precision: year}
+    canonical_gregorian: {date: 1485-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "al-Muzhir dated to al-Suyūṭī's mature productive period (c. 880s–890s AH)."
+      - source_key: editorial
+        notes: "Year approximated to c. 890 AH from Ibn al-ʿImād's *Shadharāt al-Dhahab*; classical sources do not preserve a precise completion day."
+    people: [[as-suyuti, authored]]
+    tags: [mamluk, scholar, linguist, philology, cairo, muzhir, ulum-al-lugha]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Suyuti"

@@ -1,0 +1,1017 @@
+# Wave 55 of curated event additions (2026-04-27).
+# 13 events covering the Reconquista and the two great Berber Sunni
+# dynasties of the Maghrib and al-Andalus — al-Murābiṭūn (Almoravids)
+# and al-Muwaḥḥidūn (Almohads). Includes the founder-deaths and
+# accessions, the canonical Reconquista taifa-era city falls (Toledo,
+# Valencia, Saragossa, Cordoba, Murcia), the Almoravid recovery of
+# Valencia, the battle of Uclés, the Almoravid foundation of Algeciras
+# as the principal Maghrib-Andalus port, and the founding of the
+# Banū Marīn (Marīnid) dynasty.
+#
+# Already in the dataset and NOT duplicated here:
+#  - battle-of-zallaqa-sagrajas (479 AH)  — events/04
+#  - battle-of-las-navas (609 AH)         — events/04
+#  - fall-of-seville (646 AH)             — events/04
+#  - fall-of-granada (897 AH)             — events/00
+#  - founding-of-marrakesh                — events/13
+#  - founding-of-rabat-almohad (591 AH+)  — events/44
+#
+# Sources used (all in sources.yaml):
+#   ibn_athir_kamil, ibn_kathir_bidaya, ibn_khallikan_wafayat,
+#   dhahabi_tarikh_islam, dhahabi_siyar, ei2.
+# Sectarian framing: Almoravids and Almohads framed as Berber Sunni
+# dynasties per mainstream historical scholarship. Ibn Tūmart's
+# self-claim to be al-Mahdī is presented as a doctrinal claim of his
+# movement, neutrally — not endorsed.
+
+events:
+  # =========================================================================
+  # ALMORAVID FOUNDATIONS — Yūsuf ibn Tāshufīn and his successors
+  # =========================================================================
+
+  - slug: death-of-yusuf-ibn-tashufin
+    category: ruler_death
+    title_en: Death of Yūsuf ibn Tāshufīn — Founder of the Almoravid Empire
+    title_ar: وفاة يوسف بن تاشفين — مؤسس دولة المرابطين
+    title_fr: Décès de Yūsuf ibn Tāshufīn — fondateur de l'empire almoravide
+    description_en: |
+      Yūsuf ibn Tāshufīn al-Lamtūnī, founder of the Almoravid
+      (al-Murābiṭ) empire and second amīr of the dynasty after his
+      cousin Abū Bakr ibn ʿUmar, died at Marrakesh — the capital
+      he had founded — in Muḥarram 500 AH at an advanced age (the
+      sources give roughly a hundred lunar years). His reign
+      unified Sahara, the Maghrib al-Aqṣā, and al-Andalus under a
+      single Berber Sunni Mālikī polity for the first time. He
+      crossed the Straits at the call of the Andalusi taifa kings
+      and crushed Alfonso VI of Castile at al-Zallāqa in 479 AH;
+      between 483 and 495 AH he annexed the Andalusi taifas one
+      after another, halting the early Reconquista. The classical
+      sources (Ibn al-Athīr, Ibn Khallikān, al-Dhahabī) credit him
+      as the man who "saved al-Andalus" and place his death in
+      Muḥarram 500 AH (Sept 1106 CE). He was succeeded by his son
+      ʿAlī ibn Yūsuf.
+    description_ar: |
+      توفي يوسف بن تاشفين اللمتوني — مؤسس دولة المرابطين
+      (الملثَّمين) وأميرها الثاني بعد ابن عمه أبي بكر بن عمر —
+      بمراكش، العاصمةِ التي أسَّسها، في محرم سنة ٥٠٠ هـ، عن
+      عُمُرٍ عالٍ تذكر المصادر أنه قارب المئة سنة قمرية. وحَّد
+      حكمُه الصحراءَ والمغربَ الأقصى والأندلسَ تحت دولة بربرية
+      سنية مالكية واحدة لأول مرة. عبر المضيق إجابةً لنداء ملوك
+      الطوائف الأندلسيين، وكسر ألفونسو السادس ملك قشتالة في
+      الزَّلاقة سنة ٤٧٩ هـ، ثم ضمَّ الطوائفَ الأندلسية واحدةً
+      تلوَ الأخرى بين سنتَي ٤٨٣ و٤٩٥ هـ، فأوقف بذلك مدَّ
+      الاسترداد النصراني المبكر. ونصَّ المؤرخون الكبار (ابن
+      الأثير، ابن خلكان، الذهبي) على أنه «ناجي الأندلس»،
+      وأرَّخوا وفاته في محرم سنة ٥٠٠ هـ (سبتمبر ١١٠٦ م). وخلفه
+      ابنه علي بن يوسف.
+    description_fr: |
+      Yūsuf ibn Tāshufīn al-Lamtūnī, fondateur de l'empire
+      almoravide (al-Murābiṭūn) et deuxième amīr de la dynastie
+      après son cousin Abū Bakr ibn ʿUmar, mourut à Marrakech —
+      la capitale qu'il avait fondée — en Muḥarram 500 H, à un
+      âge très avancé (les sources lui prêtent près de cent ans
+      lunaires). Son règne unifia pour la première fois le Sahara,
+      le Maghrib al-Aqṣā et al-Andalus sous une seule polité
+      berbère sunnite mālikite. Il franchit le détroit à l'appel
+      des rois des taifas andalouses et écrasa Alphonse VI de
+      Castille à al-Zallāqa en 479 H ; entre 483 et 495 H il
+      annexa les taifas l'une après l'autre, arrêtant la première
+      vague de la Reconquista. Les sources classiques (Ibn
+      al-Athīr, Ibn Khallikān, al-Dhahabī) le présentent comme
+      celui qui « sauva al-Andalus » et fixent sa mort en Muḥarram
+      500 H (septembre 1106 EC). Son fils ʿAlī ibn Yūsuf lui
+      succéda.
+    canonical_hijri: {year: 500, month: 1, precision: month}
+    canonical_gregorian: {date: 1106-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a long entry on Yūsuf ibn Tāshufīn placing his death in Muḥarram 500 AH at Marrakesh."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr enters the death of the Almoravid amīr under the events of 500 AH and the founding role of his reign."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records his death at Marrakesh in 500 AH and the succession of his son ʿAlī."
+    people: [[yusuf-ibn-tashufin, died]]
+    tags: [almoravid, ruler, maghrib, andalus, berber, marrakesh, reconquista]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ali-ibn-yusuf-almoravid
+    category: ruler_death
+    title_en: Death of ʿAlī ibn Yūsuf ibn Tāshufīn — Last Effective Almoravid Amīr
+    title_ar: وفاة علي بن يوسف بن تاشفين — آخر أمير مرابطي مؤثر
+    title_fr: Décès de ʿAlī ibn Yūsuf ibn Tāshufīn — dernier amīr almoravide effectif
+    description_en: |
+      ʿAlī ibn Yūsuf ibn Tāshufīn, the third Almoravid amīr and
+      son of the empire's founder, died at Marrakesh in Rajab 537
+      AH after a thirty-year reign. He inherited an empire at its
+      apogee and lost most of it: under his rule the Almohad
+      movement of Ibn Tūmart and ʿAbd al-Muʾmin engulfed the
+      Maghrib from the Sūs and the Atlas, while the Andalusi
+      taifas began to revolt and Christian armies under Alfonso I
+      of Aragon penetrated as far south as Granada. He was a
+      pious and learned ruler — the chronicles agree on his
+      personal piety and his patronage of Mālikī fuqahāʾ — but
+      a less effective field commander than his father. His death
+      came less than a year before the Almohad capture of Tlemcen
+      and only ten years before ʿAbd al-Muʾmin's storming of
+      Marrakesh in 541 AH. Ibn al-Athīr, Ibn ʿIdhārī, and Ibn
+      Khallikān concur on Rajab 537 AH.
+    description_ar: |
+      توفي علي بن يوسف بن تاشفين — أمير المرابطين الثالث وابن
+      مؤسس الدولة — بمراكش في رجب سنة ٥٣٧ هـ بعد حكم دام نحو
+      ثلاثين سنة. ورث دولةً في أوج اتساعها فضاع أكثرها في
+      عهده: امتد فيه دعوة الموحدين على يد ابن تومرت وعبد المؤمن
+      من السوس والأطلس فابتلعت المغرب، وبدأت الطوائف
+      الأندلسية في الانتفاض على المرابطين، ووصلت جيوش الأذفونش
+      الأول الأرغوني جنوباً إلى غرناطة. كان أميراً تقياً عالماً
+      — تتفق المصادر على ورعه وعنايته بفقهاء المالكية — لكنه
+      كان أقل من أبيه قيادةً ميدانية. ولم تمضِ سنةٌ على وفاته
+      حتى افتتح الموحدون تلمسان، ولم تمضِ عشر سنوات حتى دخل
+      عبد المؤمن مراكشَ سنة ٥٤١ هـ. واتفق ابن الأثير وابن
+      عذاري وابن خلكان على رجب سنة ٥٣٧ هـ.
+    description_fr: |
+      ʿAlī ibn Yūsuf ibn Tāshufīn, troisième amīr almoravide et
+      fils du fondateur de l'empire, mourut à Marrakech en Rajab
+      537 H après un règne de près de trente ans. Il hérita d'un
+      empire à son apogée et en perdit l'essentiel : sous son
+      règne, le mouvement almohade d'Ibn Tūmart et ʿAbd al-Muʾmin
+      engloutit le Maghrib depuis le Sūs et l'Atlas, les taifas
+      andalouses commencèrent à se révolter, et les armées
+      chrétiennes d'Alphonse Ier d'Aragon pénétrèrent jusqu'à
+      Grenade. Pieux et lettré — les chroniques s'accordent sur
+      sa piété personnelle et sur son soutien aux fuqahāʾ
+      mālikites — il fut un commandant moins efficace que son
+      père. Sa mort survint moins d'un an avant la prise de
+      Tlemcen par les Almohades et seulement dix ans avant
+      l'entrée de ʿAbd al-Muʾmin à Marrakech en 541 H. Ibn
+      al-Athīr, Ibn ʿIdhārī et Ibn Khallikān s'accordent sur
+      Rajab 537 H.
+    canonical_hijri: {year: 537, month: 7, precision: month}
+    canonical_gregorian: {date: 1143-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of ʿAlī ibn Yūsuf under the events of 537 AH (Rajab)."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt has a biographical entry placing the death in 537 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 537 AH for the Almoravid amīr's death."
+    people: [[ali-ibn-yusuf-almoravid, died]]
+    tags: [almoravid, ruler, maghrib, andalus, marrakesh]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: almoravid-foundation-of-algeciras
+    category: founding
+    title_en: Almoravid Foundation of al-Jazīra al-Khaḍrāʾ (Algeciras) as Atlantic Bridgehead
+    title_ar: تأسيس المرابطين للجزيرة الخضراء قاعدةً للعبور إلى الأندلس
+    title_fr: Fondation almoravide d'al-Jazīra al-Khaḍrāʾ (Algésiras) comme tête de pont andalouse
+    description_en: |
+      In the wake of his decisive victory at al-Zallāqa (479 AH)
+      and during the campaigns that absorbed the Andalusi taifas,
+      Yūsuf ibn Tāshufīn rebuilt and fortified al-Jazīra al-Khaḍrāʾ
+      ("the Green Island", Latin Algeciras) on the north shore of
+      the Straits of Gibraltar as the Almoravid empire's principal
+      bridgehead between the Maghrib and al-Andalus. The town —
+      first conquered by Ṭāriq ibn Ziyād's lieutenant in 92 AH and
+      a small port under the taifa of Seville — was given new
+      walls, a citadel, and a great congregational mosque, and
+      became the disembarkation point for every Almoravid army
+      crossing into al-Andalus. The chronicles place the
+      reconstruction in the late 480s AH (around 488 AH / 1095
+      CE); Ibn ʿIdhārī's al-Bayān al-Mughrib and Ibn al-Athīr's
+      al-Kāmil both record it as the moment when the Maghrib and
+      al-Andalus became militarily one province. Algeciras would
+      remain the Muslim gateway until its loss to Castile in 743
+      AH (1342 CE).
+    description_ar: |
+      في أعقاب نصره الحاسم في الزَّلاقة سنة ٤٧٩ هـ وفي خلال
+      حملاته التي ابتلعت الطوائف الأندلسية، أعاد يوسف بن
+      تاشفين بناءَ الجزيرة الخضراء وتحصينَها على الساحل الشمالي
+      لمضيق جبل طارق لتكون قاعدةَ العبور الرئيسة لدولة
+      المرابطين بين المغرب والأندلس. كانت البلدة — التي افتتحها
+      أحد قادة طارق بن زياد سنة ٩٢ هـ، وثغراً صغيراً تحت
+      حكم طائفة إشبيلية — قد أُعيد لها سور جديد، وقصبة، وجامع
+      كبير، فصارت ميناءَ الإنزال لكل جيش مرابطي يعبر إلى
+      الأندلس. وتؤرخ المصادر الإعمارَ بأواخر العقد الثامن من
+      المئة الخامسة (نحو ٤٨٨ هـ / ١٠٩٥ م)، وذكره ابن عذاري في
+      «البيان المغرب» وابن الأثير في «الكامل» باعتباره اللحظةَ
+      التي صار فيها المغرب والأندلس إقليماً عسكرياً واحداً.
+      وظلَّت الجزيرة الخضراء بوابةَ المسلمين إلى أن سقطت في
+      يد قشتالة سنة ٧٤٣ هـ (١٣٤٢ م).
+    description_fr: |
+      Dans le sillage de sa victoire décisive d'al-Zallāqa (479 H)
+      et pendant les campagnes qui absorbèrent les taifas
+      andalouses, Yūsuf ibn Tāshufīn rebâtit et fortifia
+      al-Jazīra al-Khaḍrāʾ (« l'Île verte », latin Algésiras)
+      sur la rive nord du détroit de Gibraltar comme tête de
+      pont principale de l'empire almoravide entre le Maghrib et
+      al-Andalus. La ville — d'abord conquise par un lieutenant
+      de Ṭāriq ibn Ziyād en 92 H, puis petit port sous la taifa
+      de Séville — reçut de nouveaux remparts, une citadelle et
+      une grande mosquée congrégationnelle, et devint le point
+      de débarquement de toute armée almoravide passant en
+      al-Andalus. Les chroniques placent la reconstruction à la
+      fin des années 480 H (vers 488 H / 1095 EC) ; Ibn ʿIdhārī
+      dans al-Bayān al-Mughrib et Ibn al-Athīr dans al-Kāmil
+      mentionnent ce moment comme celui où le Maghrib et
+      al-Andalus deviennent militairement une seule province.
+      Algésiras resterait la porte musulmane jusqu'à sa perte au
+      profit de la Castille en 743 H (1342 EC).
+    canonical_hijri: {year: 488, precision: year}
+    canonical_gregorian: {date: 1095-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil records the Almoravid refortification of al-Jazīra al-Khaḍrāʾ as the bridgehead for crossings into al-Andalus during Yūsuf ibn Tāshufīn's reign; precise year only attested at year-precision."
+      - source_key: ei2
+        notes: "EI² entry on al-Jazīra al-Khaḍrāʾ (Algeciras) confirms the Almoravid reconstruction as the principal Atlantic-Maghrib port in the late 5th/late 11th century."
+    people: [[yusuf-ibn-tashufin, founder]]
+    tags: [almoravid, andalus, maghrib, algeciras, port, fortification]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-ucles
+    category: battle
+    title_en: Battle of Uclés — Almoravid Victory over León-Castile
+    title_ar: معركة أُقْلِيش — انتصار المرابطين على قشتالة وليون
+    title_fr: Bataille d'Uclés — victoire almoravide sur Castille-León
+    description_en: |
+      An Almoravid army under the command of Tamīm ibn Yūsuf ibn
+      Tāshufīn (governor of al-Andalus and brother of the future
+      amīr ʿAlī ibn Yūsuf) decisively defeated a Castilian-Leonese
+      relief force at Uclés (Arabic Uqlīsh), a town in the
+      tableland of New Castile south of Toledo. The Christian army
+      had marched to relieve the fortress of Uclés which the
+      Almoravids were besieging; it was annihilated, and Sancho
+      Alfónsez — only legitimate son and heir of King Alfonso VI
+      of Castile-León, the conqueror of Toledo — was killed in
+      the rout. Alfonso VI, then in his seventies, was thrown into
+      a grief from which the chronicles say he never recovered;
+      he died the following year. The victory restored Almoravid
+      offensive momentum after Zallāqa and rolled back Castilian
+      gains in the Tagus salient. Ibn al-Athīr places the battle
+      in Shawwāl 501 AH (May 1108 CE).
+    description_ar: |
+      هزم جيشُ المرابطين بقيادة تميم بن يوسف بن تاشفين — والي
+      الأندلس وأخي الأمير المقبل علي بن يوسف — جيشَ النجدة
+      القشتالي الليوني هزيمةً ساحقةً عند أُقْلِيش (Uclés)، وهي
+      بلدة في سهل قشتالة الجديدة جنوبي طُلَيطِلَة. كان الجيش
+      النصراني قد سار لرفع حصار المرابطين عن قلعة أُقْلِيش،
+      فأُبيد، وقُتل في المعركة الأمير سانشو بن الأذفونش — ابن
+      ألفونسو السادس ملك قشتالة وليون فاتح طُلَيطِلَة، ووريثه
+      الشرعي الوحيد. وحزن الأذفونش — وقد جاوز السبعين — حزناً
+      تقول المصادر إنه ما تعافى منه، فمات في السنة التالية.
+      أعاد النصرُ زمامَ المبادرة إلى المرابطين بعد الزَّلاقة،
+      وأرجع المكاسبَ القشتالية في حافة وادي تاجُه. ويؤرخ ابن
+      الأثير المعركةَ بشوال سنة ٥٠١ هـ (مايو ١١٠٨ م).
+    description_fr: |
+      Une armée almoravide commandée par Tamīm ibn Yūsuf ibn
+      Tāshufīn — gouverneur d'al-Andalus et frère du futur amīr
+      ʿAlī ibn Yūsuf — défit une force de secours
+      castillano-léonaise à Uclés (arabe Uqlīsh), bourg du
+      plateau de la Nouvelle-Castille au sud de Tolède. L'armée
+      chrétienne avait marché pour secourir la forteresse d'Uclés
+      assiégée par les Almoravides ; elle fut anéantie, et
+      Sancho Alfónsez — fils légitime unique et héritier d'Alphonse
+      VI de Castille-León, le conquérant de Tolède — fut tué dans
+      la déroute. Alphonse VI, alors septuagénaire, sombra dans
+      un chagrin dont les chroniques disent qu'il ne se releva
+      pas, et mourut l'année suivante. La victoire rendit
+      l'initiative offensive aux Almoravides après al-Zallāqa et
+      fit reculer les gains castillans dans le saillant du Tage.
+      Ibn al-Athīr place la bataille en Shawwāl 501 H (mai 1108
+      EC).
+    canonical_hijri: {year: 501, month: 10, precision: month}
+    canonical_gregorian: {date: 1108-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr places the battle of Uclés (Uqlīsh) in 501 AH and notes the death of Alfonso VI's son and heir Sancho."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms the Almoravid victory at Uqlīsh under the events of 501 AH."
+    people: [[ali-ibn-yusuf-almoravid, leader]]
+    tags: [almoravid, andalus, reconquista, castile, uclés, battle]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ALMOHAD FOUNDATIONS — Ibn Tūmart, ʿAbd al-Muʾmin
+  # =========================================================================
+
+  - slug: death-of-ibn-tumart-almohad
+    category: ruler_death
+    title_en: Death of Ibn Tūmart — Founder of the Almohad Movement
+    title_ar: وفاة محمد بن تومرت — مؤسس الحركة الموحدية
+    title_fr: Décès d'Ibn Tūmart — fondateur du mouvement almohade
+    description_en: |
+      Muḥammad ibn Tūmart al-Sūsī, founder of the Almohad
+      (al-Muwaḥḥidūn) movement and the religious-political
+      reform-jihād that would supplant the Almoravids across the
+      Maghrib and al-Andalus, died at his mountain stronghold of
+      Tinmal in the High Atlas in 524 AH. A Berber faqīh of the
+      Maṣmūda who had studied at Cordoba, Mahdiyya, Alexandria,
+      and Baghdād (where the chronicles say he met al-Ghazālī),
+      he returned to the Atlas in the 510s AH preaching strict
+      *tawḥīd* against the anthropomorphism he attributed to the
+      Mālikī establishment, claimed the title of *al-Mahdī*, and
+      organised his Maṣmūda followers into the Almohad polity.
+      His military campaigns against the Almoravids before his
+      death were inconclusive, but his organisational work — the
+      hierarchical *ahl al-dār*, *ahl al-ṭalaba*, the seventy and
+      the council of fifty — gave his successor ʿAbd al-Muʾmin a
+      ready-made state. The death was concealed for some time to
+      stabilise the succession. Mainstream Sunni scholarship
+      rejected his Mahdist claim; we record the historical fact
+      that he made it without endorsing it.
+    description_ar: |
+      توفي محمد بن تومرت السوسي — مؤسس حركة الموحدين والإصلاح
+      الديني السياسي الذي سيخلف المرابطين في المغرب والأندلس —
+      في معقله الجبلي بِتِينْمَلّ في الأطلس الكبير سنة ٥٢٤ هـ.
+      كان فقيهاً بربرياً مصمودياً درس بقُرطُبة والمَهدية
+      والإسكندرية وبغداد — حيث تذكر المصادر أنه لقي الغزالي —
+      فعاد إلى الأطلس في العقد الثاني من المئة السادسة يدعو
+      إلى التوحيد الصارم في وجه ما رآه تجسيمياً عند الفقهاء
+      المالكية، وادَّعى لقبَ المهدي، ونظَّم أتباعَه المصامدةَ
+      في كيان موحدي. كانت حملاته العسكرية ضد المرابطين قبل
+      موته غير حاسمة، لكنَّ تنظيمَه الإداري — أهل الدار، وأهل
+      الطلبة، والسبعين، ومجلس الخمسين — أعطى لخليفته عبد
+      المؤمن دولةً جاهزة. وأُخفي خبر موته حيناً لاستقرار
+      الأمر. ولم تُسلِّم العلماء السنّة بِدعواه المهدوية، ونحن
+      نُثبت الواقعةَ التاريخية أنه ادَّعاها دون تبنّيها.
+    description_fr: |
+      Muḥammad ibn Tūmart al-Sūsī, fondateur du mouvement
+      almohade (al-Muwaḥḥidūn) et de la réforme religieuse-jihād
+      qui supplanterait les Almoravides dans le Maghrib et al-
+      Andalus, mourut à son bastion montagnard de Tinmal dans le
+      Haut Atlas en 524 H. Berbère maṣmūda, faqīh, formé à
+      Cordoue, Mahdiyya, Alexandrie et Bagdād — où, selon les
+      chroniques, il rencontra al-Ghazālī — il revint dans
+      l'Atlas dans les années 510 H prêchant un *tawḥīd* strict
+      contre l'anthropomorphisme qu'il imputait à l'établissement
+      mālikite, revendiqua le titre d'*al-Mahdī* et organisa ses
+      fidèles maṣmūda en polité almohade. Ses campagnes
+      militaires contre les Almoravides avant sa mort restèrent
+      indécises, mais son ossature organisationnelle — *ahl
+      al-dār*, *ahl al-ṭalaba*, les Soixante-Dix et le conseil
+      des Cinquante — donna à son successeur ʿAbd al-Muʾmin un
+      État prêt à l'emploi. Sa mort fut dissimulée un temps pour
+      stabiliser la succession. La science sunnite mainstream
+      rejeta sa prétention mahdiste ; nous consignons le fait
+      historique qu'il l'éleva, sans la cautionner.
+    canonical_hijri: {year: 524, precision: year}
+    canonical_gregorian: {date: 1130-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters Ibn Tūmart's death under 524 AH at Tinmal and the immediate succession of ʿAbd al-Muʾmin."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a biographical entry on Muḥammad ibn Tūmart with death in 524 AH."
+      - source_key: dhahabi_siyar
+        notes: "al-Dhahabī's Siyar Aʿlām al-Nubalāʾ enters Ibn Tūmart with death in 524 AH and discusses critically his Mahdist claim."
+    people: [[ibn-tumart-almohad, died]]
+    tags: [almohad, maghrib, berber, tinmal, atlas, mahdism, dynastic_founding]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: accession-of-abd-al-mumin-almohad
+    category: political_event
+    title_en: Accession of ʿAbd al-Muʾmin — First Almohad Caliph
+    title_ar: مبايعة عبد المؤمن بن علي خليفةً للموحدين
+    title_fr: Avènement de ʿAbd al-Muʾmin — premier calife almohade
+    description_en: |
+      Following the death of Muḥammad ibn Tūmart at Tinmal in 524
+      AH, ʿAbd al-Muʾmin ibn ʿAlī al-Kūmī — a Zenata Berber from
+      the central Maghrib whom Ibn Tūmart had designated his
+      lieutenant in the Almohad council of fifty — was given the
+      *bayʿa* by the Maṣmūda elders and assumed leadership of the
+      movement. To preserve unity within Maṣmūda-dominated ranks
+      his accession was initially announced as a deputyship; the
+      death of Ibn Tūmart was kept secret for an extended period
+      while ʿAbd al-Muʾmin consolidated authority. He took the
+      title *Amīr al-Muʾminīn*, becoming the first Almohad caliph
+      and the founder of the Muʾminid dynasty that would rule
+      from the Atlas to Tripoli. Within seventeen years he would
+      take Marrakesh from the Almoravids (541 AH) and unify the
+      whole Maghrib under one polity for the first time since
+      the Umayyads. Sources for the *bayʿa* are essentially
+      contemporary Maghribi chroniclers cited by Ibn al-Athīr and
+      Ibn Khallikān, who both anchor the events at 524 AH.
+    description_ar: |
+      بعد وفاة محمد بن تومرت بِتِينْمَلّ سنة ٥٢٤ هـ، بايع
+      شيوخُ المصامدة عبدَ المؤمن بن علي الكومي — وهو زناتي من
+      المغرب الأوسط جعله ابن تومرت نائبَه في مجلس الخمسين
+      الموحدي — فتسلّم قيادة الحركة. وحفاظاً على وحدة الصف
+      المصمودي، أُعلنت بيعتُه أول الأمر بصفة نيابة، وأُخفي
+      خبرُ وفاة ابن تومرت مدةً ليبسط عبد المؤمن سلطانه. تلقَّب
+      بأمير المؤمنين فصار أول خلفاء الموحدين ومؤسسَ الدولة
+      المؤمنية التي بسطت سلطانها من الأطلس إلى طرابلس. وبعد
+      سبع عشرة سنة فتح مراكش على المرابطين (٥٤١ هـ)، فوحَّد
+      المغرب كله تحت دولة واحدة لأول مرة منذ الأمويين.
+      ومصادر هذه البيعة في الأصل مؤرخون مغاربة معاصرون نقل
+      عنهم ابن الأثير وابن خلكان، وكلاهما يثبت الأحداثَ في
+      ٥٢٤ هـ.
+    description_fr: |
+      Après la mort de Muḥammad ibn Tūmart à Tinmal en 524 H,
+      ʿAbd al-Muʾmin ibn ʿAlī al-Kūmī — Zénète du Maghrib
+      central qu'Ibn Tūmart avait désigné comme son lieutenant
+      dans le conseil almohade des Cinquante — reçut la *bayʿa*
+      des cheikhs maṣmūda et prit la tête du mouvement. Pour
+      préserver la cohésion du noyau maṣmūda, son avènement fut
+      d'abord annoncé comme une simple lieutenance ; la mort
+      d'Ibn Tūmart fut dissimulée un temps pendant que ʿAbd
+      al-Muʾmin consolidait son autorité. Il prit le titre
+      d'*Amīr al-Muʾminīn*, devenant le premier calife almohade
+      et le fondateur de la dynastie muʾminide qui régnerait de
+      l'Atlas à Tripoli. Dix-sept ans plus tard, il prendrait
+      Marrakech aux Almoravides (541 H), unifiant tout le
+      Maghrib sous une seule polité pour la première fois
+      depuis les Omeyyades. Les sources de cette *bayʿa* sont
+      essentiellement les chroniqueurs maghrébins contemporains
+      cités par Ibn al-Athīr et Ibn Khallikān, qui datent
+      l'événement de 524 H.
+    canonical_hijri: {year: 524, precision: year}
+    canonical_gregorian: {date: 1130-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the succession of ʿAbd al-Muʾmin to the leadership of the Almohad movement under 524 AH following Ibn Tūmart's death."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān, in his entries on Ibn Tūmart and ʿAbd al-Muʾmin, anchors the bayʿa at 524 AH."
+    people: [[abd-al-mumin-almohad, leader], [ibn-tumart-almohad, predecessor]]
+    tags: [almohad, maghrib, berber, dynastic_founding, caliphate]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abd-al-mumin-almohad
+    category: ruler_death
+    title_en: Death of ʿAbd al-Muʾmin — First Almohad Caliph
+    title_ar: وفاة عبد المؤمن بن علي — أول خلفاء الموحدين
+    title_fr: Décès de ʿAbd al-Muʾmin — premier calife almohade
+    description_en: |
+      ʿAbd al-Muʾmin ibn ʿAlī al-Kūmī, first Almohad caliph and
+      founder of the Muʾminid line, died at Salé while preparing
+      a great expedition to al-Andalus in Jumādā II 558 AH (May
+      1163 CE). His thirty-three-year reign reshaped the Islamic
+      West: he stormed Marrakesh from the Almoravids in 541 AH,
+      took Tlemcen, Fez and the central Maghrib by 542 AH,
+      crossed into Ifrīqiya in 554–555 AH, and crossed the
+      Straits to take Niebla, Jaén and the Andalusi territories
+      that the failing Almoravid system had lost to Christian
+      and taifa forces. At his death the Almohad caliphate
+      stretched from the Atlantic Atlas to Barqa in Cyrenaica
+      and from the Sūs to Saragossa's southern marches — the
+      largest single Islamic state ever assembled in the
+      Maghrib. He was succeeded by his son Yūsuf I Abū Yaʿqūb.
+      Ibn al-Athīr, Ibn Khallikān, and al-Dhahabī all place the
+      death in Jumādā II 558 AH.
+    description_ar: |
+      توفي عبد المؤمن بن علي الكومي — أول خلفاء الموحدين
+      ومؤسس البيت المؤمني — بِسَلا وهو يُعدُّ حملةً كبرى إلى
+      الأندلس في جمادى الآخرة سنة ٥٥٨ هـ (مايو ١١٦٣ م). أعاد
+      حكمُه — الذي دام ثلاثاً وثلاثين سنة — تشكيلَ الغرب
+      الإسلامي: فتح مراكش من المرابطين سنة ٥٤١ هـ، وأخذ
+      تلمسان وفاس والمغرب الأوسط بحلول ٥٤٢ هـ، وعبر إلى
+      إفريقية سنة ٥٥٤–٥٥٥ هـ، وعبر المضيقَ فاسترد لبلة وجيّان
+      وما فقدته الدولةُ المرابطية المنهارة لقوى النصارى
+      والطوائف الأندلسية. وعند وفاته كانت الخلافة الموحدية
+      تمتدُّ من الأطلس الأطلسي إلى برقة، ومن السوس إلى ثغور
+      سرقسطة الجنوبية — أعظم دولة إسلامية أُقيمت في المغرب
+      على الإطلاق. وخلفه ابنه يوسف الأول أبو يعقوب. واتفق
+      ابن الأثير وابن خلكان والذهبي على جمادى الآخرة سنة
+      ٥٥٨ هـ.
+    description_fr: |
+      ʿAbd al-Muʾmin ibn ʿAlī al-Kūmī, premier calife almohade
+      et fondateur de la lignée muʾminide, mourut à Salé alors
+      qu'il préparait une grande expédition vers al-Andalus, en
+      Jumādā II 558 H (mai 1163 EC). Son règne de trente-trois
+      ans remodela l'Occident musulman : il prit Marrakech aux
+      Almoravides en 541 H, soumit Tlemcen, Fès et le Maghrib
+      central à l'horizon 542 H, passa en Ifrīqiya en 554–555 H,
+      puis franchit le détroit pour reprendre Niebla, Jaén et
+      les territoires andalous que le système almoravide
+      défaillant avait perdus aux forces chrétiennes et aux
+      taifas. À sa mort, le califat almohade s'étendait de
+      l'Atlas atlantique à Barqa en Cyrénaïque, et du Sūs aux
+      marches méridionales de Saragosse — le plus grand État
+      musulman jamais assemblé dans le Maghrib. Son fils Yūsuf
+      Ier Abū Yaʿqūb lui succéda. Ibn al-Athīr, Ibn Khallikān
+      et al-Dhahabī placent tous la mort en Jumādā II 558 H.
+    canonical_hijri: {year: 558, month: 6, precision: month}
+    canonical_gregorian: {date: 1163-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of ʿAbd al-Muʾmin at Salé in Jumādā II 558 AH and the succession of his son Yūsuf."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt has a biographical entry placing the death in 558 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 558 AH for the Almohad caliph's death."
+    people: [[abd-al-mumin-almohad, died]]
+    tags: [almohad, caliph, maghrib, andalus, sale, ruler_death]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # RECONQUISTA — taifa-era falls and the Almoravid recovery
+  # =========================================================================
+
+  - slug: fall-of-toledo
+    category: conquest
+    title_en: Fall of Ṭulayṭulah (Toledo) to Alfonso VI of Castile
+    title_ar: سقوط طُلَيطِلَة بيد الأذفونش السادس ملك قشتالة
+    title_fr: Chute de Tolède aux mains d'Alphonse VI de Castille
+    description_en: |
+      Toledo (Arabic Ṭulayṭulah) — the old Visigothic royal
+      capital, taifa kingdom under the Banū Dhī al-Nūn, and one
+      of the four greatest cities of al-Andalus — surrendered to
+      Alfonso VI of León and Castile after a long siege in May
+      1085 CE / Ṣafar 478 AH. The taifa king al-Qādir, a client
+      of the Castilian crown installed by Alfonso, capitulated
+      under terms that nominally guaranteed Muslim residents
+      property and the use of the great mosque (the *capitulation*
+      treaty was rapidly broken when the mosque was seized for
+      the cathedral). It was the first major Muslim city to fall
+      to the Christian advance, the moment that triggered the
+      Andalusi taifa kings' appeal to Yūsuf ibn Tāshufīn — leading
+      directly to al-Zallāqa the next year (479 AH). The classical
+      sources (Ibn al-Athīr, Ibn ʿIdhārī, Ibn Khallikān) all enter
+      Toledo's fall under 478 AH; the precise day is given as 25
+      May 1085 CE in the Latin annals (= Ṣafar 478 AH).
+    description_ar: |
+      سقطت طُلَيطِلَة (Toledo) — العاصمةُ القوطية القديمة،
+      ومركز طائفة بني ذي النون، وإحدى أعظم مدن الأندلس
+      الأربع — في يد الأذفونش السادس ملك ليون وقشتالة بعد
+      حصار طويل في صفر سنة ٤٧٨ هـ (مايو ١٠٨٥ م). استسلم
+      ملكُ الطائفة القادر بن ذي النون — وكان عميلاً للقشتاليين
+      نصَّبه الأذفونش — على شروط تحفظ — اسماً — للمسلمين
+      أملاكَهم وجامعَهم الكبير (وقد نُقضت معاهدةُ الأمان
+      حالاً حين استُولي على الجامع لجعله كنيسة). كانت طُلَيطِلَة
+      أول مدينة كبرى تسقط في يد الزحف النصراني، وكانت
+      اللحظةَ التي حملت ملوكَ الطوائف الأندلسيين على
+      الاستغاثة بيوسف بن تاشفين — فأفضى ذلك مباشرةً إلى نصر
+      الزَّلاقة في السنة التالية (٤٧٩ هـ). وقد أرَّخ ابنُ
+      الأثير وابنُ عذاري وابن خلكان سقوطَها في ٤٧٨ هـ،
+      وأرَّخ النصارى يومَها بِـ٢٥ مايو ١٠٨٥ م (الموافق
+      صفر ٤٧٨ هـ).
+    description_fr: |
+      Tolède (arabe Ṭulayṭulah) — ancienne capitale royale
+      wisigothique, royaume taifa des Banū Dhī al-Nūn, et l'une
+      des quatre plus grandes villes d'al-Andalus — capitula
+      devant Alphonse VI de León-Castille au terme d'un long
+      siège en Ṣafar 478 H (mai 1085 EC). Le roi taifa al-Qādir,
+      client castillan installé par Alphonse, accepta des
+      termes qui garantissaient nominalement aux Musulmans
+      leurs biens et l'usage de la grande mosquée (le traité de
+      capitulation fut rapidement violé : la mosquée fut saisie
+      pour devenir cathédrale). Ce fut la première grande ville
+      musulmane à tomber aux mains de l'avancée chrétienne, le
+      moment qui amena les rois des taifas andalouses à
+      solliciter Yūsuf ibn Tāshufīn — d'où la victoire d'al-
+      Zallāqa l'année suivante (479 H). Les sources classiques
+      (Ibn al-Athīr, Ibn ʿIdhārī, Ibn Khallikān) datent toutes
+      la chute en 478 H ; les annales latines précisent le 25
+      mai 1085 EC (= Ṣafar 478 H).
+    canonical_hijri: {year: 478, month: 2, precision: month}
+    canonical_gregorian: {date: 1085-05-25, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the fall of Ṭulayṭulah under 478 AH; he marks it as the trigger for the Andalusi taifa appeal to Yūsuf ibn Tāshufīn."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 478 AH for the fall of Toledo."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām enters the surrender of Ṭulayṭulah to Alfonso VI under 478 AH."
+    tags: [reconquista, andalus, toledo, taifa, castile, conquest]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: fall-of-valencia-el-cid
+    category: conquest
+    title_en: Fall of Balansiya (Valencia) to El Cid
+    title_ar: سقوط بَلَنْسِيَة بيد الكَمْبِيطُور (السِّيد)
+    title_fr: Chute de Valence aux mains d'El Cid
+    description_en: |
+      The Castilian mercenary commander Rodrigo Díaz de Vivar —
+      *al-Sīd al-Kambīṭūr* of the Andalusi Arabic chronicles, "El
+      Cid" of the Latin sources — captured Balansiya (Valencia)
+      from the Almoravid garrison and the Andalusi Banū Jaḥḥāf
+      who had murdered the deposed taifa king al-Qādir, in Jumādā
+      I 487 AH (May–June 1094 CE). The capture followed a
+      seventeen-month siege; al-Qādir, the same Banū Dhī al-Nūn
+      taifa ruler who had surrendered Toledo, had withdrawn to
+      Valencia where he was finally killed by the Banū Jaḥḥāf
+      faction. The Almoravid relief force despatched by Yūsuf
+      ibn Tāshufīn was repulsed at Cuart de Poblet in 488 AH,
+      and Valencia remained under El Cid until his death in 492
+      AH. Ibn al-Athīr, Ibn al-Khaṭīb (al-Iḥāṭa), and Ibn ʿIdhārī
+      all enter the fall under 487 AH.
+    description_ar: |
+      افتتح القائد القشتالي المرتزق رودريغو دياس دي بيبار —
+      السِّيد الكَمْبِيطُور في المصادر العربية الأندلسية، و«السيد»
+      عند اللاتين — مدينةَ بَلَنْسِيَة من حامية المرابطين
+      وأهلها من بني جحاف الذين قتلوا الملكَ المخلوع القادرَ بن
+      ذي النون — في جمادى الأولى ٤٨٧ هـ (مايو–يونيو ١٠٩٤ م).
+      وكان الفتح بعد حصار دام نحو سبعة عشر شهراً؛ وكان القادرُ
+      — وهو نفسه ملكُ بني ذي النون الذي سلَّم طليطلة — قد
+      انسحب إلى بلنسية فقتله أهلُ الجحَّافية. وردَّ المرابطون
+      حملةَ الإغاثة التي بعث بها يوسف بن تاشفين إلى كُوارت
+      دي بُوبْلَت سنة ٤٨٨ هـ، وبقيت بلنسية في يد السِّيد إلى
+      موته سنة ٤٩٢ هـ. ويثبت ابن الأثير وابن الخطيب (في
+      الإحاطة) وابن عذاري الفتحَ في ٤٨٧ هـ.
+    description_fr: |
+      Le condottiere castillan Rodrigo Díaz de Vivar — *al-Sīd
+      al-Kambīṭūr* dans les chroniques andalouses arabes, « El
+      Cid » dans les sources latines — prit Balansiya (Valence)
+      à la garnison almoravide et aux Andalous des Banū Jaḥḥāf
+      qui avaient assassiné le roi taifa déposé al-Qādir, en
+      Jumādā I 487 H (mai–juin 1094 EC). La prise survenait
+      après un siège de dix-sept mois ; al-Qādir, ce même
+      souverain taifa des Banū Dhī al-Nūn qui avait livré
+      Tolède, s'était replié à Valence où il fut finalement tué
+      par la faction des Banū Jaḥḥāf. La force de secours
+      almoravide envoyée par Yūsuf ibn Tāshufīn fut repoussée à
+      Cuart de Poblet en 488 H, et Valence resta aux mains du
+      Cid jusqu'à sa mort en 492 H. Ibn al-Athīr, Ibn al-Khaṭīb
+      (al-Iḥāṭa) et Ibn ʿIdhārī datent la chute en 487 H.
+    canonical_hijri: {year: 487, month: 5, precision: month}
+    canonical_gregorian: {date: 1094-06-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the capture of Valencia by El Cid (al-Kambīṭūr) under 487 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr confirms 487 AH for the fall of Balansiya."
+    tags: [reconquista, andalus, valencia, el-cid, taifa, conquest]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: almoravid-recovery-of-valencia
+    category: conquest
+    title_en: Almoravid Recovery of Balansiya (Valencia)
+    title_ar: استعادة المرابطين لبلنسية
+    title_fr: Reprise almoravide de Valence
+    description_en: |
+      Three years after the death of Rodrigo Díaz de Vivar (El
+      Cid) at Valencia in 492 AH, the Almoravid commander
+      Masdālī ibn Sulaymān, sent by Yūsuf ibn Tāshufīn, recovered
+      Balansiya (Valencia) for Muslim rule in Rajab 495 AH (May
+      1102 CE). The Cid's widow Jimena, unable to hold the city
+      against renewed Almoravid pressure and abandoned by her
+      Castilian relief, evacuated the population and burned the
+      cathedral and the alcázar before withdrawing to Castile.
+      Yūsuf ibn Tāshufīn entered Valencia personally to receive
+      the surrender. The recovery integrated Valencia into the
+      Almoravid system, where it would remain until the
+      late-Almoravid breakdown and the second-taifa period
+      (after 539 AH). Ibn al-Athīr and Ibn ʿIdhārī place the
+      recovery in 495 AH; this was the high-water mark of the
+      Almoravid restoration of al-Andalus and the operation that
+      neutralised the Cid's legacy in the Levant.
+    description_ar: |
+      بعد ثلاث سنوات من موت رودريغو دياس دي بيبار (السِّيد)
+      ببلنسية سنة ٤٩٢ هـ، استعاد القائد المرابطي مَزْدَلِي بن
+      سليمان — الذي بعث به يوسف بن تاشفين — مدينةَ بَلَنْسِيَة
+      للحكم الإسلامي في رجب ٤٩٥ هـ (مايو ١١٠٢ م). ولم تستطع
+      أرملةُ السِّيد جيمينا أن تحفظ المدينةَ في وجه ضغط
+      المرابطين المتجدِّد، فلمَّا تخلَّت عنها قوى النجدة
+      القشتالية أجلت أهلَها وأحرقت الكنيسةَ والقصرَ وانسحبت
+      إلى قشتالة. ودخل يوسف بن تاشفين بلنسيةَ بنفسه ليتلقَّى
+      الاستسلامَ. ضمَّت الاستعادةُ بلنسيةَ إلى المنظومة
+      المرابطية وبقيت فيها إلى انهيار الدولة في أواخر
+      الخمسمئة وقيام عصر الطوائف الثاني (بعد ٥٣٩ هـ). ويثبت
+      ابن الأثير وابن عذاري الاستعادةَ في ٤٩٥ هـ، وكانت
+      ذُروةَ المدِّ المرابطي في الأندلس والعمليةَ التي مَحَتْ
+      أثرَ السِّيد في الشرق الأندلسي.
+    description_fr: |
+      Trois ans après la mort de Rodrigo Díaz de Vivar (El Cid)
+      à Valence en 492 H, le commandant almoravide Masdālī ibn
+      Sulaymān, envoyé par Yūsuf ibn Tāshufīn, reprit
+      Balansiya (Valence) pour le pouvoir musulman en Rajab 495
+      H (mai 1102 EC). La veuve du Cid, Jimena, incapable de
+      tenir la ville face à la pression almoravide renouvelée et
+      abandonnée par les renforts castillans, évacua la
+      population et incendia la cathédrale et l'alcázar avant
+      de se replier en Castille. Yūsuf ibn Tāshufīn entra
+      personnellement à Valence pour recevoir la reddition. La
+      reprise intégra Valence au système almoravide, où elle
+      resterait jusqu'à l'effondrement de la dynastie et la
+      seconde période des taifas (après 539 H). Ibn al-Athīr et
+      Ibn ʿIdhārī placent la reprise en 495 H ; ce fut le point
+      culminant de la restauration almoravide d'al-Andalus et
+      l'opération qui neutralisa l'héritage du Cid dans le
+      Levant andalou.
+    canonical_hijri: {year: 495, month: 7, precision: month}
+    canonical_gregorian: {date: 1102-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the Almoravid recovery of Valencia under 495 AH; Yūsuf ibn Tāshufīn enters the city personally."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr confirms 495 AH for the Almoravid recovery of Balansiya."
+    people: [[yusuf-ibn-tashufin, leader]]
+    tags: [almoravid, andalus, valencia, reconquista, recovery]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: fall-of-saragossa
+    category: conquest
+    title_en: Fall of Saraqusṭa (Saragossa) to Aragon
+    title_ar: سقوط سَرَقُسْطة بيد ملك أرغون
+    title_fr: Chute de Saragosse aux mains de l'Aragon
+    description_en: |
+      Saraqusṭa (Saragossa) — capital of the Upper March (al-Thaghr
+      al-Aʿlā) of al-Andalus, the great taifa of the Banū Hūd, and
+      after 503 AH the seat of an Almoravid governor — fell to
+      Alfonso I "el Batallador" of Aragon after a months-long
+      siege, in Ramaḍān 512 AH (December 1118 CE). The city's
+      Almoravid garrison, cut off from the Maghrib by the
+      collapse of the Andalusi taifa appeals system and isolated
+      from neighbouring Muslim regions, capitulated under terms.
+      The fall extended the Aragonese frontier to the Ebro and
+      removed the largest Muslim city of the upper Iberian
+      plateau from Islamic rule. Within a year the surrounding
+      towns of Tudela, Tarazona, and Calatayud also fell to
+      Aragonese arms. Ibn al-Athīr places the loss in 512 AH and
+      explicitly attributes it to the weakening Almoravid grasp
+      under ʿAlī ibn Yūsuf.
+    description_ar: |
+      سقطت سَرَقُسْطة (Saragossa) — حاضرة الثغر الأعلى
+      الأندلسي، وعاصمة طائفة بني هود الكبرى، ومن سنة ٥٠٣ هـ
+      مقرُّ والٍ مرابطي — في يد ألفونسو الأول «المحارب» ملكِ
+      أرغون بعد حصار دام أشهراً، في رمضان سنة ٥١٢ هـ (ديسمبر
+      ١١١٨ م). كانت الحامية المرابطية قد قُطع عنها مدد المغرب
+      بانهيار نظام الاستغاثة الذي كانت تستجيب له الطوائف
+      الأندلسية، وعُزلت عن جوارها الإسلامي، فاستسلمت بأمان.
+      وامتدَّ بسقوط المدينة حدُّ أرغون إلى وادي إبروه وانتُزعت
+      أكبرُ مدن سهل أيبيريا الشمالي من الإسلام. وخلال سنة
+      تَتْبعُها سقطت في يد الأرغونيين تُطَيلة وطَرَسُونَة
+      وقَلَعَة أيُّوب. ويثبت ابن الأثير الفقدَ في ٥١٢ هـ
+      وينسبه صراحةً إلى ضعف القبضة المرابطية في عهد علي بن
+      يوسف.
+    description_fr: |
+      Saraqusṭa (Saragosse) — capitale de la Marche supérieure
+      (al-Thaghr al-Aʿlā) d'al-Andalus, grande taifa des Banū
+      Hūd et, à partir de 503 H, siège d'un gouverneur
+      almoravide — tomba aux mains d'Alphonse Ier « le
+      Batailleur » d'Aragon après un siège de plusieurs mois,
+      en Ramaḍān 512 H (décembre 1118 EC). La garnison
+      almoravide, coupée du Maghrib par l'effondrement du
+      système de secours qu'avaient connu les taifas et isolée
+      de ses voisins musulmans, capitula sous conditions. La
+      chute étendit la frontière aragonaise jusqu'à l'Èbre et
+      retira au pouvoir musulman la plus grande ville du haut
+      plateau ibérique. En un an, les villes environnantes de
+      Tudela, Tarazona et Calatayud tombèrent à leur tour aux
+      armes aragonaises. Ibn al-Athīr place la perte en 512 H et
+      l'attribue explicitement à l'affaiblissement de la prise
+      almoravide sous ʿAlī ibn Yūsuf.
+    canonical_hijri: {year: 512, month: 9, precision: month}
+    canonical_gregorian: {date: 1118-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the fall of Saraqusṭa in 512 AH and attributes it to the failing Almoravid hold under ʿAlī ibn Yūsuf."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr confirms 512 AH for the fall of Saragossa."
+    people: [[ali-ibn-yusuf-almoravid, ruler]]
+    tags: [reconquista, andalus, saragossa, aragon, taifa, almoravid]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: fall-of-cordoba-1236
+    category: conquest
+    title_en: Fall of Qurṭuba (Cordoba) to Ferdinand III of Castile
+    title_ar: سقوط قُرطُبة بيد فِرْنَنْدُو الثالث ملكِ قشتالة
+    title_fr: Chute de Cordoue aux mains de Ferdinand III de Castille
+    description_en: |
+      Cordoba — once the capital of the Umayyad caliphate of
+      al-Andalus and the most learned city of medieval Europe —
+      surrendered to Ferdinand III of Castile after a long siege
+      in Shawwāl 633 AH (June 1236 CE). The post-Las-Navas
+      collapse of Almohad authority in al-Andalus had returned
+      the city to a third-taifa interlude under Ibn Hūd
+      al-Mutawakkil; on his assassination Ferdinand pressed his
+      siege, and the Muslim notables capitulated on terms that
+      gave the population safe passage south. The Great Mosque
+      of Cordoba — the four-hundred-year masjid built by ʿAbd
+      al-Raḥmān I and his successors — was consecrated as a
+      cathedral on the day of entry. The fall removed the
+      historic capital of al-Andalus from Islamic rule for the
+      first time since 92 AH; only Seville (still Almohad-
+      affiliated), Murcia, and Granada remained as significant
+      Muslim cities. Ibn al-Athīr's continuator Ibn Khaldūn,
+      Ibn Kathīr, and al-Maqqarī all record 633 AH for the fall.
+    description_ar: |
+      سقطت قُرطُبة — التي كانت يوماً عاصمةَ خلافة الأمويين
+      بالأندلس وأعلمَ مدائن أوروبا في القرون الوسطى — في يد
+      فِرْنَنْدُو الثالث ملك قشتالة بعد حصار طويل في شوال
+      ٦٣٣ هـ (يونيو ١٢٣٦ م). كان انهيار السلطة الموحدية
+      بالأندلس بعد نكبة العقاب قد أرجع المدينةَ إلى عهد طائفة
+      ثالث تحت ابن هود المتوكل، فلمَّا اغتيل أحكم فِرْنَنْدُو
+      حصارَه، فاستسلم وجوهُ المسلمين على شروط أمَّنت لأهلها
+      الجلاءَ جنوباً. وتحوَّل الجامعُ الكبير بقُرطُبة — مسجد
+      الأربعمئة سنة الذي بناه عبد الرحمن الداخل وخلفاؤه — إلى
+      كنيسة يومَ الدخول. وانتزع السقوطُ عاصمةَ الأندلس
+      التاريخيةَ من الحكم الإسلامي لأول مرة منذ ٩٢ هـ، ولم
+      يبقَ من مدن المسلمين الكبرى إلا إشبيلية (الموحدية بعدُ)
+      ومرسية وغرناطة. ويسجِّل ابن خلدون (متابعاً ابن الأثير)
+      وابن كثير والمقرّي سنةَ ٦٣٣ هـ للسقوط.
+    description_fr: |
+      Cordoue — autrefois capitale du califat omeyyade
+      d'al-Andalus et la cité la plus savante de l'Europe
+      médiévale — capitula devant Ferdinand III de Castille au
+      terme d'un long siège en Shawwāl 633 H (juin 1236 EC).
+      L'effondrement de l'autorité almohade en al-Andalus après
+      Las Navas avait ramené la ville à un troisième
+      intermède des taifas sous Ibn Hūd al-Mutawakkil ; à
+      l'assassinat de celui-ci, Ferdinand resserra le siège, et
+      les notables musulmans capitulèrent à des termes
+      garantissant à la population un passage sûr vers le sud.
+      La Grande Mosquée de Cordoue — la masjid quadricentenaire
+      bâtie par ʿAbd al-Raḥmān Ier et ses successeurs — fut
+      consacrée comme cathédrale le jour même de l'entrée. La
+      chute retira la capitale historique d'al-Andalus à la
+      souveraineté musulmane pour la première fois depuis 92 H ;
+      ne restaient comme cités musulmanes notables que Séville
+      (encore almohade), Murcie et Grenade. Ibn Khaldūn (qui
+      poursuit Ibn al-Athīr), Ibn Kathīr et al-Maqqarī
+      enregistrent tous 633 H pour la chute.
+    canonical_hijri: {year: 633, month: 10, precision: month}
+    canonical_gregorian: {date: 1236-06-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the fall of Cordoba under 633 AH and notes the conversion of the Great Mosque to a cathedral."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the fall of Qurṭuba in 633 AH."
+    tags: [reconquista, andalus, cordoba, castile, conquest, great-mosque]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: fall-of-murcia-1243
+    category: conquest
+    title_en: Submission of Mursiya (Murcia) to Castile
+    title_ar: استسلام مُرْسِيَة لقشتالة
+    title_fr: Soumission de Murcie à la Castille
+    description_en: |
+      Mursiya (Murcia) — capital of the Levantine south-east of
+      al-Andalus, taifa kingdom of the Banū Hūd al-Judhāmī, then
+      effectively independent after the post-Las-Navas Almohad
+      collapse — submitted to Castile in 640 AH (1243 CE). Under
+      the Treaty of Alcaraz, the taifa king Bahāʾ al-Dawla
+      Muḥammad ibn Hūd accepted Castilian protectorate status
+      under the Infante Alfonso (the future Alfonso X "el
+      Sabio"), with Castilian garrisons in the principal towns
+      while the Muslim population retained civil and religious
+      administration in exchange for an annual tribute. It was
+      not a stormed capitulation but a negotiated submission;
+      Castile, acting on Aragonese-Castilian agreements, took
+      effective control of the Murcian taifa without storming
+      the capital. A brief Mudéjar revolt in 663 AH (1264 CE)
+      would be suppressed and Murcia formally annexed to
+      Castile thereafter. The Andalusi sources (al-Maqqarī,
+      Ibn al-Khaṭīb's al-Iḥāṭa) and Ibn Kathīr's continuator
+      record the submission in 640 AH.
+    description_ar: |
+      أُسلمت مُرْسِيَة (Murcia) — عاصمة شرق الأندلس الجنوبي،
+      وطائفة بني هود الجذاميين، التي صارت بعد انهيار الموحدين
+      شبه مستقلة — لقشتالة سنة ٦٤٠ هـ (١٢٤٣ م). فبموجب معاهدة
+      الكَرَاش (Alcaraz)، قبل ملكُ الطائفة بهاءُ الدولة محمد
+      بن هود وضعَ الحماية القشتالية تحت الأمير الفُونْسُو
+      (ألفونسو العاشر «الحكيم» لاحقاً)، فأقامت قشتالةُ حامياتٍ
+      في المدن الكبرى مع بقاء الإدارة المدنية والدينية بأيدي
+      المسلمين في مقابل جزية سنوية. ولم يكن استيلاءً
+      بالقوة بل خضوعاً متفاوضاً عليه؛ تسلَّمت قشتالةُ — تنفيذاً
+      لاتفاقات أرغونية قشتالية — السيطرةَ الفعلية على طائفة
+      مرسية دون اقتحام عاصمتها. وبعد ذلك بثلاث وعشرين سنة
+      (٦٦٣ هـ) قمعت قشتالة ثورةَ المدجَّنين بمرسية، فضمَّتها
+      ضمّاً صريحاً. وتذكر مصادر الأندلس (المقَّري وابن
+      الخطيب في الإحاطة) ومتابعو ابن الأثير وابن كثير
+      الاستسلامَ في ٦٤٠ هـ.
+    description_fr: |
+      Mursiya (Murcie) — capitale du sud-est levantin
+      d'al-Andalus, royaume taifa des Banū Hūd al-Judhāmī, de
+      facto indépendante après l'effondrement almohade
+      post-Las Navas — se soumit à la Castille en 640 H (1243
+      EC). Par le traité d'Alcaraz, le roi taifa Bahāʾ al-Dawla
+      Muḥammad ibn Hūd accepta un protectorat castillan sous
+      l'infant Alphonse (le futur Alphonse X « le Sage »), des
+      garnisons castillanes étant placées dans les principales
+      villes tandis que la population musulmane conservait
+      l'administration civile et religieuse en échange d'un
+      tribut annuel. Ce ne fut pas une capitulation forcée mais
+      une soumission négociée ; la Castille, en application
+      d'accords aragono-castillans, prit effectivement le
+      contrôle de la taifa de Murcie sans assaut sur la
+      capitale. Une brève révolte mudéjare en 663 H (1264 EC)
+      serait réprimée, après quoi Murcie fut formellement
+      annexée à la Castille. Les sources andalouses
+      (al-Maqqarī, Ibn al-Khaṭīb dans al-Iḥāṭa) et les
+      continuateurs d'Ibn al-Athīr et d'Ibn Kathīr datent la
+      soumission de 640 H.
+    canonical_hijri: {year: 640, precision: year}
+    canonical_gregorian: {date: 1243-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the Castilian protectorate over Mursiya under 640 AH; it is treated as the loss of Murcia from independent Muslim rule."
+      - source_key: ei2
+        notes: "EI² entry on Murcia confirms the 1243 CE Treaty of Alcaraz placing the Hūdid taifa under Castilian suzerainty."
+    tags: [reconquista, andalus, murcia, castile, taifa, treaty]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MARĪNID DYNASTIC FOUNDING (Banū Marīn)
+  # =========================================================================
+
+  - slug: founding-of-marinid-dynasty
+    category: founding
+    title_en: Founding of the Marīnid Dynasty (Banū Marīn) in the Maghrib
+    title_ar: قيام دولة بني مرين (المرينيين) في المغرب
+    title_fr: Fondation de la dynastie marīnide (Banū Marīn) au Maghrib
+    description_en: |
+      The Banū Marīn, a Zenata Berber confederation of the
+      eastern Maghrib steppe (the High Plateaus around Figuig
+      and the Wādī Muluwiyya), began their bid against the
+      Almohads under their amīr ʿAbd al-Ḥaqq ibn Maḥyū around
+      592 AH (1196 CE) — precisely the years in which the
+      Almohad caliph Yaʿqūb al-Manṣūr was distracted by his
+      Andalusi campaigns culminating in al-Arak. Initial Marīnid
+      raids on the eastern Maghrib countryside escalated, after
+      the Almohad disaster at Las Navas (609 AH), into formal
+      seizure of cities: Taza fell to ʿAbd al-Ḥaqq's son ʿUthmān
+      in 614 AH; Fez to his son Abū Yaḥyā in 646 AH; Marrakesh,
+      the Almohad capital, in 669 AH (1269 CE) under Abū Yūsuf
+      Yaʿqūb — completing the dynastic transfer. The Marīnids
+      would rule the Maghrib al-Aqṣā until ~869 AH (1465 CE) and
+      build, among other works, the Madrasa Bū ʿInāniyya in Fez
+      and the Madrasa al-ʿAṭṭārīn. Ibn Khaldūn's *Kitāb al-ʿIbar*
+      gives the canonical Marīnid genealogy and dates the
+      family's first amīr ʿAbd al-Ḥaqq's break with the Almohads
+      to the 590s AH.
+    description_ar: |
+      نهضت بنو مَرين — قبيلة زناتية من سهوب المغرب الشرقي
+      (الهضاب العليا حول فِجِّيج ووادي ملوية) — على الموحدين
+      بقيادة أميرهم عبد الحق بن محيو نحو سنة ٥٩٢ هـ (١١٩٦ م)،
+      وهي السنوات التي شغل فيها الخليفةَ الموحدي يعقوب
+      المنصور حملاتُه الأندلسية المتوِّجة بالأَرَك. وتصاعد
+      الغزو المريني الأول لأرياف المغرب الشرقي — بعد كارثة
+      الموحدين في العقاب (٦٠٩ هـ) — إلى استيلاء صريح على
+      المدن: فتح ابنُه عثمان مدينةَ تَازَة سنة ٦١٤ هـ، وفتح
+      ابنُه أبو يحيى مدينةَ فاس سنة ٦٤٦ هـ، ثم فتح حفيدُه أبو
+      يوسف يعقوب مَرَّاكُش — عاصمةَ الموحدين — سنة ٦٦٩ هـ
+      (١٢٦٩ م)، فتمَّت بذلك الانتقالةُ السلالية. وحكم بنو
+      مرين المغربَ الأقصى إلى نحو سنة ٨٦٩ هـ (١٤٦٥ م)،
+      وأقاموا — في جملة آثارهم — مدرسة بُوعِنَانية بفاس
+      ومدرسة العَطَّارين. ويذكر ابن خلدون في «كتاب العبر»
+      نسبَ بني مرين الكبير ويؤرِّخ خروجَ أميرهم الأول عبد
+      الحق على الموحدين بعقد التسعينات من المئة الخامسة.
+    description_fr: |
+      Les Banū Marīn, confédération berbère zénète de la steppe
+      orientale du Maghrib (les Hauts Plateaux autour de Figuig
+      et l'oued Moulouya), s'élevèrent contre les Almohades
+      sous leur amīr ʿAbd al-Ḥaqq ibn Maḥyū vers 592 H (1196
+      EC) — au moment précis où le calife almohade Yaʿqūb
+      al-Manṣūr était mobilisé par ses campagnes andalouses
+      culminant à al-Arak. Après le désastre almohade de Las
+      Navas (609 H), les premières razzias marīnides sur les
+      campagnes du Maghrib oriental dégénérèrent en saisies
+      urbaines explicites : Taza tomba devant ʿUthmān, fils de
+      ʿAbd al-Ḥaqq, en 614 H ; Fès devant Abū Yaḥyā en 646 H ;
+      et Marrakech, capitale almohade, devant Abū Yūsuf Yaʿqūb
+      en 669 H (1269 EC), achevant le transfert dynastique.
+      Les Marīnides gouverneraient le Maghrib al-Aqṣā jusque
+      vers 869 H (1465 EC) et bâtiraient, entre autres œuvres,
+      la madrasa Bū ʿInāniyya de Fès et la madrasa al-ʿAṭṭārīn.
+      Ibn Khaldūn dans *Kitāb al-ʿIbar* donne la généalogie
+      marīnide canonique et date la rupture du premier amīr
+      ʿAbd al-Ḥaqq avec les Almohades aux années 590 H.
+    canonical_hijri: {year: 592, precision: year}
+    canonical_gregorian: {date: 1196-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the early Marīnid revolts against the Almohads in the 590s AH; the date here follows the canonical genealogy (Ibn Khaldūn's continuator) anchoring ʿAbd al-Ḥaqq's amīrate to 592 AH."
+      - source_key: ei2
+        notes: "EI² entry 'Marīnids' confirms the dynastic origin in the late 6th/late 12th century with ʿAbd al-Ḥaqq ibn Maḥyū as eponymous founder, and the gradual displacement of the Almohads through Taza (614 AH), Fez (646 AH), and Marrakesh (669 AH)."
+    people: [[abd-al-haqq-marini, founder]]
+    tags: [marinid, maghrib, fez, dynastic_founding, berber, zenata]
+    importance: major
+    verified: true
+    verification_status: cross_verified

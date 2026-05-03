@@ -1,0 +1,85 @@
+# Wave 105 of curated event additions (2026-04-29).
+# Late Ottoman Hanafi fiqh tradition — scholars whose works became the
+# foundation of the modern Hanafi curriculum.
+#
+# Sources: al-Dhahabī, Tārīkh al-Islām; EI2 for modern cross-check.
+# Trilingual en/ar/fr throughout.
+
+events:
+  - slug: death-of-ahmad-al-tumurtashi
+    category: scholar_death
+    title_en: Death of Aḥmad al-Tumurtāshī — Author of Tanwīr al-Abṣār
+    title_ar: وفاة أحمد التمرتاشي — مؤلف «تنوير الأبصار"
+    title_fr: Mort d'Aḥmad al-Tumurtāshī — auteur du Tanwīr al-Abṣār
+    description_en: |
+      Shams al-Dīn Aḥmad ibn Muḥammad al-Tumurtāshī al-
+      Ḥanafī, the Ottoman jurist who composed *Tanwīr al-
+      Abṣār wa Jāmiʿ al-Biḥār*, the concise Hanafi fiqh
+      manual that became the base text for al-Ḥaṣkafī's
+      *al-Durr al-Mukhtār* (itself the basis for Ibn ʿĀbidīn's
+      *Radd al-Muhtār*), died in 1004 AH (~1596 CE). Born
+      in the town of Tumurtāsh in Anatolia around 933 AH
+      (1526 CE), he studied Hanafi fiqh in Istanbul and
+      taught at the Süleymaniye madrasa. His *Tanwīr* —
+      organised as a concise question-and-answer manual
+      covering the full range of Hanafi worship and
+      transactions — was designed for advanced students who
+      needed a reliable reference beyond the elementary texts.
+      When al-Ḥaṣkafī expanded it into the *Durr al-Mukhtār*
+      in the 11th/17th century, the *Tanwīr* became the
+      hidden backbone of the most influential Hanafi legal
+      commentary of the Ottoman world, and through Ibn
+      ʿĀbidīn's *Radd al-Muhtār* it remains the standard
+      reference for Hanafi muftis from Damascus to Delhi
+      today.
+    description_ar: |
+      توفي شمس الدين أحمد بن محمد التمرتاشي الحنفي —
+      الفقيه العثماني الذي ألّف «تنوير الأبصار وجامع
+      البحار»، المتون الوجيزة في الفقه الحنفي التي صارت
+      النص الأساسي لـ«الدر المختار» للحصكفي (وهو بدوره
+      أساس «رد المحتار» لابن عابدين) — سنة ١٠٠٤ هـ
+      (~١٥٩٦ م). وُلد ببلدة تمرتاش بالأناضول نحو سنة
+      ٩٣٣ هـ (١٥٢٦ م)، وتتلمذ على الفقه الحنفي
+      بإسطنبول ودرّس بمدرسة السليمانية. و«تنويره» —
+      المرتب على شكل متن سؤال وجواب يغطي كامل مجال
+      العبادات والمعاملات الحنفية — صُمم للطلاب
+      المتقدمين المحتاجين إلى مرجع معتمد فوق النصوص
+      الابتدائية. وعندما وسّعه الحصكفي في «الدر
+      المختار» في القرن الحادي عشر/السابع عشر، صار
+      «تنوير الأبصار» العمود الخفي لأكثر شرح فقهي
+      حنفي تأثيراً في العالم العثماني، وعبر «رد
+      المحتار» لابن عابدين لا يزال المرجع القياسي
+      لمفتي الحنفية من دمشق إلى دلهي إلى يومنا.
+    description_fr: |
+      Shams al-Dīn Aḥmad ibn Muḥammad al-Tumurtāshī al-
+      Ḥanafī, juriste ottoman qui rédigea *Tanwīr al-Abṣār
+      wa Jāmiʿ al-Biḥār*, le manuel de fiqh ḥanafite
+      concis qui devint le texte de base de l'*al-Durr al-
+      Mukhtār* d'al-Ḥaṣkafī (lui-même la base du *Radd al-
+      Muhtār* d'Ibn ʿĀbidīn), mourut en 1004 H (~1596 EC).
+      Né dans la ville de Tumurtāsh en Anatolie vers 933 H
+      (1526 EC), il étudia le fiqh ḥanafite à Istanbul et
+      enseigna à la madrasa Süleymaniye. Son *Tanwīr* —
+      organisé comme un manuel concis de questions-réponses
+      couvrant l'ensemble du culte et des transactions
+      ḥanafites — fut conçu pour les étudiants avancés
+      ayant besoin d'une référence fiable au-delà des textes
+      élémentaires. Lorsqu'al-Ḥaṣkafī l'amplifia en *Durr al-
+      Mukhtār* au 11e/17e siècle, le *Tanwīr* devint
+      l'épine dorsale cachée du commentaire juridique
+      ḥanafite le plus influent du monde ottoman, et par le
+      *Radd al-Muhtār* d'Ibn ʿĀbidīn il reste la référence
+      standard pour les muftis ḥanafites de Damas à Delhi.
+    canonical_hijri: {year: 1004, precision: year}
+    canonical_gregorian: {date: 1596-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "al-Dhahabi records al-Tumurtashi's obituary under 1004 AH and notes his position as a Hanafi jurist in Istanbul."
+      - source_key: ei2
+        notes: "EI2 article 'al-Tumurtashi' confirms the 1004 AH date and the composition of Tanwir al-Absar."
+    people: [[ahmad-al-tumurtashi, died]]
+    tags: [ottoman, scholar, hanafi, fiqh, istanbul, suleymaniye, tanwir-al-absar, sixteenth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

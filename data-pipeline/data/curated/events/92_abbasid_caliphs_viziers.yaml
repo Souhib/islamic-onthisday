@@ -1,0 +1,1004 @@
+# Wave 92 of curated event additions (2026-04-27).
+# 12 dated events covering Abbasid caliphs, regents, and viziers not yet in
+# the dataset: deaths of al-Hādī, the great viziers Yaḥyā ibn Khālid al-
+# Barmakī and al-Faḍl ibn al-Rabīʿ, the late-Samarra-recovery and Anarchy
+# at Baghdad caliphs (al-Muktafī, al-Muqtadir, al-Rāḍī), the blinded
+# puppets of the Buyid prelude (al-Muttaqī, al-Mustakfī), and the four
+# Seljuk-era caliphs whose reigns mark the brief Abbasid revival of the
+# 12th century (al-Mustarshid assassinated, al-Rāshid deposed and killed,
+# al-Muqtafī, al-Mustaḍīʾ). All entries are attested in classical Sunni
+# sources (al-Ṭabarī, Ibn al-Athīr al-Kāmil, Ibn Kathīr al-Bidāya wa-l-
+# Nihāya, al-Dhahabī Tārīkh al-Islām and Siyar Aʿlām al-Nubalāʾ, Ibn
+# Khallikān Wafayāt al-Aʿyān, al-Suyūṭī Tārīkh al-Khulafāʾ). Trilingual
+# (en/ar/fr).
+
+events:
+  # =========================================================================
+  # EARLY ABBASID — al-Hādī
+  # =========================================================================
+
+  - slug: death-of-al-hadi-abbasid
+    category: ruler_death
+    title_en: Death of Caliph al-Hādī
+    title_ar: وفاة الخليفة الهادي
+    title_fr: Mort du calife al-Hādī
+    description_en: |
+      Mūsā al-Hādī ibn al-Mahdī, fourth Abbasid caliph
+      (reigned 169-170 AH), died at ʿĪsābādh outside Baghdad
+      after a reign of barely fourteen months at age about
+      twenty-five. Eldest son of al-Mahdī and elder brother
+      of Hārūn al-Rashīd, he had taken the throne on his
+      father's death in Muḥarram 169 AH and immediately
+      tried to set aside the succession arrangement that
+      named Hārūn his heir, attempting to designate his own
+      young son Jaʿfar in his place — a move that aligned
+      his mother al-Khayzurān, the powerful Yemeni concubine
+      of al-Mahdī, against him. Classical sources transmit
+      the persistent tradition that al-Khayzurān engineered
+      al-Hādī's death by suffocation to secure Hārūn's
+      succession; al-Ṭabarī presents the report without
+      endorsing it. He was buried at ʿĪsābādh and Hārūn al-
+      Rashīd was acclaimed caliph the same night, a smooth
+      transition that owed much to the planning of Yaḥyā
+      ibn Khālid al-Barmakī.
+    description_ar: |
+      توفي الخليفة موسى الهادي بن المهدي — رابع خلفاء بني
+      العباس (حكم من ١٦٩ إلى ١٧٠ هـ) — بِعِيسَابَاذ خارج
+      بغداد، بعد خلافة لم تتجاوز أربعة عشر شهراً، عن نحو
+      خمس وعشرين سنة. كان الأكبر من أبناء المهدي والأخ
+      الأكبر لهارون الرشيد، تولى الخلافة بوفاة أبيه في
+      المحرم سنة ١٦٩ هـ، ثم سعى من فوره إلى نقض ترتيب
+      الخلافة الذي جعل هارون ولي عهده، فأراد البيعة لابنه
+      الصغير جعفر بدلاً منه — وهو ما حمل أمَّه الخيزران،
+      جارية المهدي اليمنية ذات النفوذ، على أن تنقلب عليه.
+      وتنقل المصادر الكلاسيكية الرواية المتواترة بأن
+      الخيزران دبّرت موته خنقاً لتُمكّن هارون من الخلافة؛
+      ويذكر الطبري الخبر دون أن يجزم به. ودُفن بعِيسَابَاذ،
+      وبويع هارون الرشيد ليلتَه، انتقالٌ يسير دبّره يحيى
+      بن خالد البرمكي.
+    description_fr: |
+      Mūsā al-Hādī ibn al-Mahdī, quatrième calife abbasside
+      (règne 169-170 H), mourut à ʿĪsābādh, à l'extérieur
+      de Baghdād, après un règne d'à peine quatorze mois,
+      âgé d'environ vingt-cinq ans. Fils aîné d'al-Mahdī
+      et frère aîné de Hārūn al-Rashīd, il avait pris le
+      trône à la mort de son père en Muḥarram 169 H et tenté
+      aussitôt de défaire l'arrangement successoral qui
+      faisait de Hārūn son héritier, cherchant à désigner
+      à sa place son propre fils mineur Jaʿfar — geste qui
+      retourna contre lui sa propre mère al-Khayzurān,
+      puissante concubine yéménite d'al-Mahdī. Les sources
+      classiques transmettent la tradition persistante selon
+      laquelle al-Khayzurān fit étouffer al-Hādī pour
+      assurer la succession de Hārūn; al-Ṭabarī rapporte
+      l'information sans la cautionner. Il fut enseveli à
+      ʿĪsābādh et Hārūn al-Rashīd fut acclamé calife la nuit
+      même, transition aisée que l'on doit en grande partie
+      à la planification de Yaḥyā ibn Khālid al-Barmakī.
+    canonical_hijri: {year: 170, month: 3, day: 15, precision: day}
+    canonical_gregorian: {date: 786-09-18, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the death of al-Hādī at ʿĪsābādh on the night of Friday 15 Rabīʿ al-Awwal 170 AH and the bayʿa of Hārūn al-Rashīd the same night; he reports the al-Khayzurān suffocation tradition without endorsement."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Hādī under 170 AH, follows al-Ṭabarī, and gives the night-time bayʿa of Hārūn."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya gives 170 AH and reports the suffocation tradition as one of several accounts."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī in Tārīkh al-Khulafāʾ confirms the date and place of al-Hādī's death and the immediate accession of Hārūn al-Rashīd."
+    people: [[al-hadi-abbasid, died], [harun-al-rashid, leader], [yahya-ibn-khalid-al-barmaki, subject]]
+    tags: [abbasid, caliph, baghdad, isabadh, harun-al-rashid, succession]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # BARMAKID VIZIER — Yaḥyā ibn Khālid
+  # =========================================================================
+
+  - slug: death-of-yahya-ibn-khalid-al-barmaki
+    category: ruler_death
+    title_en: Death of Yaḥyā ibn Khālid al-Barmakī in Prison
+    title_ar: وفاة يحيى بن خالد البرمكي في السجن
+    title_fr: Mort de Yaḥyā ibn Khālid al-Barmakī en prison
+    description_en: |
+      Yaḥyā ibn Khālid ibn Barmak — head of the Barmakid
+      family of Persian secretaries who had administered
+      the Abbasid state for nearly two decades, foster-
+      father (kāfil) of caliph Hārūn al-Rashīd, and the
+      effective architect of Abbasid government from al-
+      Mahdī's reign onward — died in prison at al-Raqqa
+      in Muḥarram 190 AH, at age about seventy. After the
+      execution of his son Jaʿfar at al-ʿUmr in Ṣafar 187
+      AH and the seizure of all Barmakid estates, Yaḥyā
+      and his other sons al-Faḍl and Mūsā had been
+      imprisoned at al-Raqqa, where the caliph was then
+      residing. The classical sources preserve the famous
+      letter Yaḥyā wrote in his last weeks reflecting on
+      worldly fortune, and al-Ṭabarī reports that Hārūn
+      himself was reduced to tears when news of his
+      foster-father's death reached him. Yaḥyā's death
+      closed the Barmakid era; his administrative methods
+      and patronage of letters were treated as a model by
+      later viziers.
+    description_ar: |
+      توفي يحيى بن خالد بن برمك — رأس آل برمك من كتّاب
+      الفرس الذين دبَّروا أمور الدولة العباسية قرابة
+      عقدين، وكافل الخليفة هارون الرشيد، والمهندس الفعلي
+      لإدارة الدولة العباسية منذ عهد المهدي — في سجنه
+      بالرَّقَّة في المحرم سنة ١٩٠ هـ، عن نحو سبعين سنة.
+      وكان قد سُجن في الرقة — حيث كان الخليفة آنذاك —
+      هو وابناه الفضل وموسى بعد قتلة جعفر بن يحيى بِالعُمر
+      في صفر سنة ١٨٧ هـ، وبعد مصادرة جميع ضياع آل برمك.
+      وتحفظ المصادر الكلاسيكية الرسالةَ المشهورة التي
+      كتبها يحيى في أواخر أيامه يتأمل فيها صروف الدنيا،
+      وروى الطبري أنّ هارون نفسه بكى لمّا جاءه نعي كافله.
+      وأقفلت وفاة يحيى عهد البرامكة، وقد عدّ من جاء بعده
+      من الوزراء سياستَه ورعايته للأدب نموذجاً يُحتذى.
+    description_fr: |
+      Yaḥyā ibn Khālid ibn Barmak — chef de la famille
+      barmécide de secrétaires perses qui administra
+      l'État abbasside pendant près de vingt ans, kāfil
+      (père nourricier) du calife Hārūn al-Rashīd et
+      véritable architecte de l'administration abbasside
+      depuis le règne d'al-Mahdī — mourut en prison à al-
+      Raqqa en Muḥarram 190 H, âgé d'environ soixante-dix
+      ans. Après l'exécution de son fils Jaʿfar à al-ʿUmr
+      en Ṣafar 187 H et la confiscation de tous les biens
+      barmécides, Yaḥyā et ses autres fils al-Faḍl et Mūsā
+      avaient été emprisonnés à al-Raqqa, où résidait alors
+      le calife. Les sources classiques préservent la lettre
+      fameuse que Yaḥyā écrivit dans ses dernières semaines,
+      méditant sur la fortune mondaine, et al-Ṭabarī rapporte
+      que Hārūn lui-même fut réduit aux larmes à la nouvelle
+      de la mort de son père nourricier. La mort de Yaḥyā
+      clôt l'ère barmécide; ses méthodes administratives et
+      son mécénat littéraire furent considérés comme un
+      modèle par les vizirs ultérieurs.
+    canonical_hijri: {year: 190, month: 1, precision: month}
+    canonical_gregorian: {date: 805-12-15, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the death of Yaḥyā ibn Khālid in prison at al-Raqqa in Muḥarram 190 AH and reports Hārūn's grief on receiving the news."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr in al-Kāmil follows al-Ṭabarī, placing Yaḥyā's death in 190 AH at al-Raqqa."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān gives the standard biographical entry on Yaḥyā ibn Khālid al-Barmakī, his role as Hārūn's kāfil, and his death in prison at al-Raqqa in 190 AH at age about seventy."
+      - source_key: dhahabi_siyar
+        notes: "al-Dhahabī's Siyar Aʿlām al-Nubalāʾ contains the obituary of Yaḥyā ibn Khālid and confirms 190 AH."
+    people: [[yahya-ibn-khalid-al-barmaki, died], [harun-al-rashid, leader], [jafar-al-barmaki, subject]]
+    tags: [abbasid, vizier, barmakid, harun-al-rashid, raqqa, prison]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # POST-BARMAKID VIZIER — al-Faḍl ibn al-Rabīʿ
+  # =========================================================================
+
+  - slug: death-of-al-fadl-ibn-al-rabi
+    category: ruler_death
+    title_en: Death of the Vizier al-Faḍl ibn al-Rabīʿ
+    title_ar: وفاة الوزير الفضل بن الربيع
+    title_fr: Mort du vizir al-Faḍl ibn al-Rabīʿ
+    description_en: |
+      al-Faḍl ibn al-Rabīʿ ibn Yūnus — chamberlain (ḥājib)
+      of caliph Hārūn al-Rashīd, principal architect of the
+      downfall of the Barmakids whose place at the head of
+      the administration he then took, and vizier of al-
+      Amīn during the civil war against al-Maʾmūn — died at
+      Baghdad in 208 AH at age about seventy. Originally a
+      mawlā of the Abbasid family who rose through the
+      caliphal palace service, he was widely held by the
+      classical sources to have engineered the destruction
+      of his Barmakid rivals in 187 AH; after Hārūn's death
+      at Ṭūs in 193 AH he led the imperial caravan back
+      from Khurāsān to Baghdad rather than surrender it to
+      al-Maʾmūn, an act that helped trigger the civil war.
+      He went into hiding after al-Amīn's killing in 198
+      AH, was eventually pardoned by al-Maʾmūn, and lived
+      out his last years in retirement. al-Ṭabarī, Ibn al-
+      Athīr, and Ibn Khallikān all cite him as the cautionary
+      example of the courtier whose ambition consumed the
+      house of his rivals before turning on him.
+    description_ar: |
+      توفي الفضل بن الربيع بن يونس — حاجب الخليفة هارون
+      الرشيد، والمهندس الأكبر لنكبة البرامكة الذي ورثهم
+      في رأس الإدارة، ووزير الأمين في حربه على المأمون —
+      ببغداد سنة ٢٠٨ هـ، عن نحو سبعين سنة. وكان في الأصل
+      من موالي بني العباس ترقى في خدمة قصر الخلافة، وقد
+      ذهب أكثر المؤرخين الكلاسيكيين إلى أنه دبّر إزاحة
+      منافسيه من البرامكة سنة ١٨٧ هـ؛ ولما مات هارون بطوس
+      سنة ١٩٣ هـ ساق الموكب الخلافي عائداً من خراسان إلى
+      بغداد ولم يسلّمه إلى المأمون، وهو ما أسهم في إشعال
+      الحرب الأهلية. ثم اختفى بعد قتلة الأمين سنة ١٩٨ هـ،
+      وعفا عنه المأمون بعد ذلك، فعاش بقية أيامه في عزلة.
+      ويسوقه الطبري وابن الأثير وابن خلكان مثلاً من أمثلة
+      صاحب البلاط الذي أكلته أمَّتُه بعد أن أكل بها بيت
+      منافسيه.
+    description_fr: |
+      al-Faḍl ibn al-Rabīʿ ibn Yūnus — chambellan (ḥājib)
+      du calife Hārūn al-Rashīd, principal artisan de la
+      chute des Barmécides dont il prit ensuite la place à
+      la tête de l'administration, et vizir d'al-Amīn dans
+      la guerre civile contre al-Maʾmūn — mourut à Baghdād
+      en 208 H, âgé d'environ soixante-dix ans. Mawlā de
+      la famille abbasside parvenu par le service du palais
+      califal, les sources classiques l'ont largement tenu
+      pour l'ordonnateur de la destruction de ses rivaux
+      barmécides en 187 H; après la mort de Hārūn à Ṭūs
+      en 193 H, il ramena la caravane impériale de Khurāsān
+      à Baghdād plutôt que de la livrer à al-Maʾmūn, geste
+      qui contribua à déclencher la guerre civile. Il prit
+      la fuite après la mort d'al-Amīn en 198 H, fut
+      finalement gracié par al-Maʾmūn, et passa ses
+      dernières années dans la retraite. al-Ṭabarī, Ibn
+      al-Athīr et Ibn Khallikān le citent comme l'exemple
+      du courtisan dont l'ambition consuma la maison de ses
+      rivaux avant de se retourner contre lui.
+    canonical_hijri: {year: 208, precision: year}
+    canonical_gregorian: {date: 823-11-27, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī gives the death of al-Faḍl ibn al-Rabīʿ under 208 AH and devotes earlier passages to his role in the fall of the Barmakids and the imperial caravan affair after Ṭūs."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Faḍl ibn al-Rabīʿ under 208 AH at Baghdad."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān contains the biographical entry on al-Faḍl ibn al-Rabīʿ, places his death in 208 AH, and details his role in the Barmakid affair and the civil war."
+    people: [[al-fadl-ibn-al-rabi, died], [harun-al-rashid, subject], [al-amin, leader], [al-mamun, leader]]
+    tags: [abbasid, vizier, baghdad, barmakid, civil-war, harun-al-rashid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # LATE-SAMARRA RECOVERY ERA
+  # =========================================================================
+
+  - slug: death-of-al-muktafi
+    category: ruler_death
+    title_en: Death of Caliph al-Muktafī bi-Allāh
+    title_ar: وفاة الخليفة المكتفي بالله
+    title_fr: Mort du calife al-Muktafī bi-Allāh
+    description_en: |
+      ʿAlī al-Muktafī bi-Allāh ibn al-Muʿtaḍid, seventeenth
+      Abbasid caliph (reigned 289-295 AH), died at Baghdad
+      after a reign of about six and a half years, at age
+      about thirty-three. He continued the recovery
+      programme of his father al-Muʿtaḍid: ending the
+      separate Tūlūnid emirate over Egypt and Syria by
+      sending the army that overthrew Hārūn ibn Khumārawayh
+      and reincorporated those provinces into direct
+      caliphal administration in 292 AH; defeating the
+      Qarāmiṭa raid that struck the Syrian desert; and
+      decisively beating back the Byzantine summer offensive
+      against the ʿAwāṣim. His death in Dhū al-Qaʿda 295 AH
+      from chronic illness brought to the throne his
+      thirteen-year-old brother Jaʿfar al-Muqtadir, whose
+      long but troubled reign would mark the beginning of
+      the visible decline of the central caliphate. al-
+      Ṭabarī, who lived through al-Muktafī's reign, gives
+      the most detailed contemporary record.
+    description_ar: |
+      توفي علي المكتفي بالله بن المعتضد — سابع عشر خلفاء
+      بني العباس (حكم من ٢٨٩ إلى ٢٩٥ هـ) — ببغداد بعد ست
+      سنين ونصف من الخلافة، عن نحو ثلاث وثلاثين سنة. واصل
+      عهده برنامج النهضة الذي بدأه أبوه المعتضد: فأنهى
+      إمارة بني طولون المستقلة على مصر والشام بإرساله
+      الجيش الذي خلع هارون بن خمارويه وأعاد المنطقتين إلى
+      الإدارة المركزية للخلافة سنة ٢٩٢ هـ، وقهر غارة
+      القرامطة على بادية الشام، وردّ الصائفة البيزنطية
+      عن الثغور والعواصم. ولما توفي في ذي القعدة سنة ٢٩٥
+      هـ من علة طويلة، تولى الخلافة أخوه جعفر المقتدر
+      وهو ابن ثلاث عشرة سنة، فبدأ بحُكمه الطويل المضطرب
+      انحدار الخلافة المركزية الظاهر. وأطول الروايات هي
+      رواية الطبري معاصر العهد.
+    description_fr: |
+      ʿAlī al-Muktafī bi-Allāh ibn al-Muʿtaḍid, dix-septième
+      calife abbasside (règne 289-295 H), mourut à Baghdād
+      après un règne d'environ six ans et demi, âgé d'environ
+      trente-trois ans. Il poursuivit le programme de
+      redressement de son père al-Muʿtaḍid : il mit fin à
+      l'émirat séparé des Ṭūlūnides sur l'Égypte et la Syrie
+      en envoyant l'armée qui déposa Hārūn ibn Khumārawayh
+      et réintégra ces provinces dans l'administration
+      califale directe en 292 H ; défit le raid qarmate qui
+      frappa le désert syrien ; et repoussa de manière
+      décisive l'offensive d'été byzantine contre les
+      ʿAwāṣim. Sa mort en Dhū al-Qaʿda 295 H d'une longue
+      maladie porta au trône son frère de treize ans Jaʿfar
+      al-Muqtadir, dont le règne, long mais agité, marquerait
+      le début du déclin visible du califat central. al-
+      Ṭabarī, contemporain du règne d'al-Muktafī, en donne
+      le récit le plus détaillé.
+    canonical_hijri: {year: 295, month: 11, day: 13, precision: day}
+    canonical_gregorian: {date: 908-08-19, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the death of al-Muktafī at Baghdad in Dhū al-Qaʿda 295 AH and the immediate bayʿa of his thirteen-year-old brother al-Muqtadir."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr in al-Kāmil places the death of al-Muktafī in 295 AH and follows al-Ṭabarī's chronology."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 295 AH for the death of al-Muktafī and the succession of al-Muqtadir."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ gives the standard caliphal entry placing al-Muktafī's death in Dhū al-Qaʿda 295 AH."
+    people: [[al-muktafi, died], [al-mutadid, subject], [al-muqtadir, leader]]
+    tags: [abbasid, caliph, baghdad, tulunid, qarmati]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: assassination-of-al-muqtadir
+    category: assassination
+    title_en: Assassination of Caliph al-Muqtadir bi-Allāh
+    title_ar: مقتل الخليفة المقتدر بالله
+    title_fr: Assassinat du calife al-Muqtadir bi-Allāh
+    description_en: |
+      Jaʿfar al-Muqtadir bi-Allāh ibn al-Muʿtaḍid,
+      eighteenth Abbasid caliph (reigned 295-320 AH), was
+      killed in battle outside the gates of Baghdad on the
+      day his army marched out against the rebel Turkish
+      commander Muʾnis al-Muẓaffar — once his own most
+      loyal general, now turned against him — at age about
+      thirty-eight, after a quarter-century of progressively
+      weakening rule. His reign had begun at thirteen with
+      the dominance of viziers and queen-mother Shaghab,
+      saw the founding of the Fāṭimid caliphate in Ifrīqiya
+      (297 AH), the Qarāmiṭa raid on the Hajj caravan and
+      the catastrophic Qarmatian sack of Baṣra (311 AH) and
+      Mecca (317 AH), repeated military mutinies, and the
+      progressive collapse of caliphal finances. Muʾnis's
+      forces overwhelmed the caliph's small bodyguard
+      outside the Shammāsiyya gate; al-Muqtadir was struck
+      down in the field and his head carried back to the
+      camp. He was succeeded by his brother al-Qāhir.
+      Classical Sunni historians treat his death as the
+      formal opening of the period in which the Abbasid
+      caliphate ceased to exercise effective rule.
+    description_ar: |
+      قُتل الخليفة جعفر المقتدر بالله بن المعتضد — ثامن
+      عشر خلفاء بني العباس (حكم من ٢٩٥ إلى ٣٢٠ هـ) —
+      في الميدان أمام أبواب بغداد يوم خروج جيشه على
+      القائد التركي الثائر عليه مؤنس المظفر — وكان من
+      أوفى قواده فانقلب عليه — عن نحو ثمان وثلاثين سنة،
+      بعد ربع قرن من حكم متآكل. بدأ عهده وهو ابن ثلاث
+      عشرة سنة في كَنَف الوزراء وأمّه السيدة شغب، وشهد
+      قيام الخلافة الفاطمية بإفريقية (٢٩٧ هـ)، وغارات
+      القرامطة على ركب الحج، ونهب القرامطة الفظيع للبصرة
+      (٣١١ هـ) ولمكة (٣١٧ هـ)، وتمرّدات عسكرية متتابعة،
+      وانهيار خزانة الخلافة. اجتاحت قوات مؤنس حرس
+      الخليفة القليل أمام باب الشمّاسية، فضُرب المقتدر
+      في الميدان وحُمل رأسه إلى المعسكر. وتولى الخلافة
+      من بعده أخوه القاهر. ويُعدّ المؤرخون السنّة
+      الكلاسيكيون قتلتَه الافتتاح الرسمي للحقبة التي
+      كفّت فيها الخلافة العباسية عن الحكم الفعلي.
+    description_fr: |
+      Jaʿfar al-Muqtadir bi-Allāh ibn al-Muʿtaḍid,
+      dix-huitième calife abbasside (règne 295-320 H), fut
+      tué au combat aux portes de Baghdād le jour où son
+      armée sortit contre le commandant turc rebelle Muʾnis
+      al-Muẓaffar — naguère son plus fidèle général, alors
+      retourné contre lui — âgé d'environ trente-huit ans,
+      après un quart de siècle de règne progressivement
+      affaibli. Son règne, commencé à treize ans sous la
+      tutelle des vizirs et de la reine-mère Shaghab, vit
+      la fondation du califat fāṭimide en Ifrīqiya (297 H),
+      le raid qarmate sur la caravane du Hajj et le sac
+      catastrophique de Baṣra (311 H) et de La Mecque (317
+      H) par les Qarmates, des mutineries militaires
+      répétées et l'effondrement progressif des finances
+      califales. Les troupes de Muʾnis submergèrent la
+      petite garde du calife devant la porte de la
+      Shammāsiyya ; al-Muqtadir fut frappé sur le champ
+      de bataille et sa tête rapportée au camp. Lui succéda
+      son frère al-Qāhir. Les historiens sunnites
+      classiques tiennent sa mort pour l'ouverture formelle
+      de la période où le califat abbasside cessa d'exercer
+      le pouvoir effectif.
+    canonical_hijri: {year: 320, month: 10, day: 28, precision: day}
+    canonical_gregorian: {date: 932-11-06, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Muqtadir in battle against Muʾnis on Wednesday 28 Shawwāl 320 AH outside the Shammāsiyya gate of Baghdad."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya gives 320 AH for the killing of al-Muqtadir and follows the narrative of his betrayal by Muʾnis."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 320 AH for the killing of al-Muqtadir and gives the obituary."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ records the killing of al-Muqtadir in Shawwāl 320 AH and the accession of al-Qāhir."
+    people: [[al-muqtadir, died], [al-qahir, leader]]
+    tags: [abbasid, caliph, baghdad, assassination, munis, fatimid, qarmati]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-radi
+    category: ruler_death
+    title_en: Death of Caliph al-Rāḍī bi-Allāh
+    title_ar: وفاة الخليفة الراضي بالله
+    title_fr: Mort du calife al-Rāḍī bi-Allāh
+    description_en: |
+      Muḥammad al-Rāḍī bi-Allāh ibn al-Muqtadir, twentieth
+      Abbasid caliph (reigned 322-329 AH), died at Baghdad
+      after a reign of about six and a half years, at age
+      about thirty-one. His reign is conventionally taken
+      by classical Sunni historians as the formal end of
+      effective Abbasid rule: it was during his caliphate
+      that he created the post of *amīr al-umarāʾ* —
+      grand-emir — and conferred it on Ibn Rāʾiq, opening
+      the long period in which the caliph reigned as
+      figurehead while a military dictator commanded the
+      treasury, the army, and the Friday khuṭba. Al-
+      Masʿūdī, who knew him personally, described him as
+      the last caliph to lead the prayer in person, to
+      pronounce the khuṭba, to hold open *maẓālim* sessions,
+      and to maintain the dignity of the caliphal court.
+      He was succeeded by his brother al-Muttaqī. al-
+      Dhahabī gives him a long and notably sympathetic
+      obituary; Ibn Kathīr remarks that with him died "the
+      caliphate as it had been."
+    description_ar: |
+      توفي الخليفة محمد الراضي بالله بن المقتدر — عشرون
+      خلفاء بني العباس (حكم من ٣٢٢ إلى ٣٢٩ هـ) — ببغداد
+      بعد ست سنين ونصف من الخلافة، عن نحو إحدى وثلاثين
+      سنة. وتقليديّاً يعدّ المؤرخون السنّة الكلاسيكيون
+      عهدَه نهاية الحكم العباسي الفعلي رسمياً: ففي خلافته
+      أحدث منصب «أمير الأمراء» وقلّده ابن رائق، فبدأت
+      الحقبة الطويلة التي صار فيها الخليفة رمزاً، وصار
+      الديكتاتور العسكري متصرّفاً في خزانة الدولة وجيشها
+      وخطبة الجمعة. ووصفه المسعودي — الذي عرفه شخصياً —
+      بأنه آخر خليفة صلّى بالناس بنفسه، وخطب فيهم
+      بنفسه، وعقد مجالس المظالم، وحفظ لقصر الخلافة
+      هيبتَه. وخلفه أخوه المتقي. وأورد الذهبي ترجمته
+      الطويلة وتعاطف فيها معه؛ وقال ابن كثير إنّ بموته
+      انتهت «الخلافة كما كانت».
+    description_fr: |
+      Muḥammad al-Rāḍī bi-Allāh ibn al-Muqtadir, vingtième
+      calife abbasside (règne 322-329 H), mourut à Baghdād
+      après un règne d'environ six ans et demi, âgé
+      d'environ trente et un ans. Les historiens sunnites
+      classiques tiennent traditionnellement son règne pour
+      la fin formelle du pouvoir abbasside effectif : c'est
+      sous son califat qu'il créa la charge d'*amīr al-
+      umarāʾ* — grand émir — et la conféra à Ibn Rāʾiq,
+      ouvrant la longue période où le calife régna en
+      figurant pendant qu'un dictateur militaire
+      commandait le Trésor, l'armée et la khuṭba du
+      vendredi. al-Masʿūdī, qui le connut personnellement,
+      le décrivit comme le dernier calife à diriger lui-
+      même la prière, à prononcer la khuṭba, à tenir des
+      audiences de *maẓālim* en personne et à maintenir la
+      dignité de la cour califale. Il fut suivi par son
+      frère al-Muttaqī. al-Dhahabī lui consacre un
+      obituaire long et notablement empathique ; Ibn Kathīr
+      observe qu'avec lui mourut « le califat tel qu'il
+      avait été ».
+    canonical_hijri: {year: 329, month: 3, day: 15, precision: day}
+    canonical_gregorian: {date: 940-12-23, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Rāḍī at Baghdad in Rabīʿ al-Awwal 329 AH and the bayʿa of al-Muttaqī."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya gives 329 AH for the death of al-Rāḍī, transmits al-Masʿūdī's appraisal of him as the last 'real' caliph, and remarks that with him died the caliphate as it had been."
+      - source_key: dhahabi_siyar
+        notes: "al-Dhahabī's Siyar Aʿlām al-Nubalāʾ gives a long and sympathetic obituary placing al-Rāḍī's death in 329 AH."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ confirms 329 AH for the death of al-Rāḍī and the succession of al-Muttaqī."
+    people: [[al-radi, died], [al-muttaqi, leader]]
+    tags: [abbasid, caliph, baghdad, amir-al-umara, ibn-raiq]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: blinding-of-al-muttaqi
+    category: political_event
+    title_en: Blinding and Deposition of Caliph al-Muttaqī
+    title_ar: سَمل الخليفة المتقي وخلعه
+    title_fr: Aveuglement et déposition du calife al-Muttaqī
+    description_en: |
+      Ibrāhīm al-Muttaqī li-Allāh ibn al-Muqtadir, twenty-
+      first Abbasid caliph (reigned 329-333 AH), was seized,
+      blinded, and deposed at al-Sindiyya on the road back
+      to Baghdad in Ṣafar 333 AH by the Turkish strongman
+      Tūzūn — the *amīr al-umarāʾ* who had become master
+      of the caliphate — after the caliph had foolishly
+      accepted Tūzūn's safe-conduct to return to the
+      capital. Al-Muttaqī had spent the bulk of his short
+      reign in flight from successive *umarāʾ al-umarāʾ*,
+      seeking refuge with the Ḥamdānids at al-Mawṣil and
+      with the Ikhshīdid regent Muḥammad ibn Ṭughj at al-
+      Raqqa, and had imagined a final negotiated return.
+      His blinding was the first public mutilation of a
+      reigning Abbasid caliph by his own military
+      commanders and stunned the Sunni world. His cousin
+      ʿAbd Allāh al-Mustakfī was raised in his place and
+      al-Muttaqī himself, blind and stripped of authority,
+      lived out his last quarter-century quietly in Baghdad
+      and died about 357 AH. Ibn al-Athīr and Ibn Kathīr
+      both treat the event as the lowest point yet of the
+      Anarchy at Baghdad.
+    description_ar: |
+      أُمسك بالخليفة إبراهيم المتقي لله بن المقتدر — حادي
+      وعشرون خلفاء بني العباس (حكم من ٣٢٩ إلى ٣٣٣ هـ) —
+      في «السنديّة» في طريق العودة إلى بغداد في صفر سنة
+      ٣٣٣ هـ، فسُملت عيناه وخُلع، على يد القائد التركي
+      توزون — أمير الأمراء الذي أمسك بزمام الخلافة —
+      بعد أن قبل المتقي حمقاً أمانَه وأقبل عائداً إلى
+      العاصمة. وكان المتقي قد قضى جلّ خلافته القصيرة
+      هارباً من أمراء الأمراء المتتابعين، يستجير بالحمدانيين
+      بالموصل، وبالأخشيدي محمد بن طغج بالرقة، ثم تخيّل
+      عودة بمفاوضة. وكانت سَمْل عينيه أوّل تشويه علني
+      لخليفة عباسي قائم من قواد جنده، فأذهلت العالم
+      السنّي. وبويع مكانه ابن عمه عبد الله المستكفي،
+      فعاش المتقي نفسه — أعمى مسلوب السلطة — رُبعَ
+      قرن أخير في بغداد بهدوء، وتوفي نحو ٣٥٧ هـ. ويعدّ
+      ابن الأثير وابن كثير الحادثة أحطّ نقاط فتنة بغداد.
+    description_fr: |
+      Ibrāhīm al-Muttaqī li-Allāh ibn al-Muqtadir, vingt-
+      et-unième calife abbasside (règne 329-333 H), fut
+      saisi, aveuglé et déposé à al-Sindiyya sur la route
+      du retour à Baghdād en Ṣafar 333 H par l'homme fort
+      turc Tūzūn — l'*amīr al-umarāʾ* devenu maître du
+      califat — après que le calife eut imprudemment
+      accepté le sauf-conduit de Tūzūn pour rentrer dans la
+      capitale. al-Muttaqī avait passé l'essentiel de son
+      bref règne en fuite devant les *umarāʾ al-umarāʾ*
+      successifs, cherchant refuge auprès des Ḥamdānides à
+      al-Mawṣil et auprès du régent ikhshīdide Muḥammad
+      ibn Ṭughj à al-Raqqa, imaginant un retour négocié.
+      Son aveuglement fut la première mutilation publique
+      d'un calife abbasside régnant par ses propres
+      commandants militaires et stupéfia le monde sunnite.
+      Son cousin ʿAbd Allāh al-Mustakfī fut élevé à sa
+      place et al-Muttaqī lui-même, aveugle et dépouillé
+      de l'autorité, vécut paisiblement à Baghdād son
+      dernier quart de siècle et mourut vers 357 H. Ibn
+      al-Athīr et Ibn Kathīr tiennent l'événement pour le
+      point le plus bas de l'anarchie de Baghdād.
+    canonical_hijri: {year: 333, month: 2, day: 22, precision: day}
+    canonical_gregorian: {date: 944-10-19, precision: day, method: tabular_conversion}
+    disputed: true
+    dispute_about: date
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil places the seizure and blinding of al-Muttaqī by Tūzūn at al-Sindiyya in Ṣafar 333 AH; classical historians vary between Ṣafar 21, 22, and 24 — we follow the majority date of 22 Ṣafar reported in al-Kāmil."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya gives 333 AH for the blinding and deposition of al-Muttaqī and the accession of al-Mustakfī."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms Ṣafar 333 AH for the blinding of al-Muttaqī."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ records the blinding of al-Muttaqī in Ṣafar 333 AH at al-Sindiyya by Tūzūn and the immediate bayʿa of al-Mustakfī."
+    people: [[al-muttaqi, died], [al-mustakfi, leader]]
+    tags: [abbasid, caliph, baghdad, blinding, deposition, tuzun, amir-al-umara]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: blinding-of-al-mustakfi
+    category: political_event
+    title_en: Blinding and Deposition of Caliph al-Mustakfī
+    title_ar: سَمل الخليفة المستكفي وخلعه
+    title_fr: Aveuglement et déposition du calife al-Mustakfī
+    description_en: |
+      ʿAbd Allāh al-Mustakfī bi-Allāh ibn al-Muktafī,
+      twenty-second Abbasid caliph (reigned 333-334 AH),
+      was seized in his own palace at Baghdad in Jumādā al-
+      Ākhira 334 AH, blinded, and deposed by the Buyid amīr
+      Aḥmad Muʿizz al-Dawla, who had entered Baghdad eleven
+      months earlier and made himself *amīr al-umarāʾ*. The
+      classical chroniclers report that the Buyid commander
+      first bowed before the caliph at his audience, then
+      seized him by the hand, dragged him from the throne,
+      and ordered his eyes put out on the spot; the caliph
+      was then thrown into prison, where he died about
+      four years later. The accession of the Buyid amīr to
+      effective rule of Iraq under a powerless Abbasid
+      caliph — al-Mustakfī's cousin al-Muṭīʿ was raised in
+      his place — formally inaugurates the Buyid period of
+      caliphal history (334-447 AH), in which the
+      caliphate retained the Friday khuṭba and the
+      sovereign coinage but the Buyids governed. Sunni
+      historians register the event as a lasting wound to
+      the office of the caliphate.
+    description_ar: |
+      أُمسك بالخليفة عبد الله المستكفي بالله بن المكتفي —
+      ثاني وعشرون خلفاء بني العباس (حكم من ٣٣٣ إلى ٣٣٤ هـ)
+      — في قصره ببغداد في جمادى الآخرة سنة ٣٣٤ هـ،
+      فسُملت عيناه وخُلع، على يد الأمير البويهي أحمد
+      مُعزّ الدولة الذي كان قد دخل بغداد قبلها بأحد عشر
+      شهراً وجعل نفسه أمير الأمراء. ويذكر المؤرخون
+      الكلاسيكيون أنّ الأمير البويهي ركع أوّل الأمر بين
+      يدي الخليفة في مجلسه، ثم أمسك بيده فاجترَّه عن
+      السرير، وأمر بسَمل عينيه في مكانه، ثم أُلقي في
+      السجن حتى مات نحو أربع سنين بعد ذلك. وبتولية
+      الأمير البويهي حُكم العراق الفعلي تحت خلافة عباسية
+      منزوعة السلطة — وقد بويع ابن عم المستكفي المطيع
+      لله مكانه — يفتتح رسمياً عهد البويهيين في تاريخ
+      الخلافة (٣٣٤-٤٤٧ هـ)، إذ احتفظت الخلافة بالخطبة
+      الجامعة والسكّة، وحكم البويهيون. ويسجّل المؤرخون
+      السنّة الحادثة جُرحاً دائماً لمنصب الخلافة.
+    description_fr: |
+      ʿAbd Allāh al-Mustakfī bi-Allāh ibn al-Muktafī,
+      vingt-deuxième calife abbasside (règne 333-334 H),
+      fut saisi dans son propre palais de Baghdād en
+      Jumādā al-Ākhira 334 H, aveuglé et déposé par
+      l'émir buyide Aḥmad Muʿizz al-Dawla, qui était entré
+      à Baghdād onze mois plus tôt et s'était fait
+      *amīr al-umarāʾ*. Les chroniqueurs classiques
+      rapportent que le commandant buyide se prosterna
+      d'abord devant le calife dans son audience, puis le
+      saisit par la main, l'arracha du trône et ordonna
+      qu'on lui crevât les yeux sur place ; le calife fut
+      ensuite jeté en prison, où il mourut environ quatre
+      ans plus tard. L'accession de l'émir buyide au
+      gouvernement effectif de l'Irak sous un calife
+      abbasside dépouillé de pouvoir — son cousin al-
+      Muṭīʿ fut élevé à sa place — inaugure formellement
+      la période buyide de l'histoire califale (334-447 H),
+      au cours de laquelle le califat conserva la khuṭba du
+      vendredi et la monnaie souveraine, mais où les
+      Buyides gouvernèrent. Les historiens sunnites
+      enregistrent l'événement comme une blessure durable
+      pour l'office du califat.
+    canonical_hijri: {year: 334, month: 6, day: 22, precision: day}
+    canonical_gregorian: {date: 946-02-03, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the seizure and blinding of al-Mustakfī by Muʿizz al-Dawla in Jumādā al-Ākhira 334 AH at the caliphal palace and the immediate bayʿa of al-Muṭīʿ."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 334 AH for the blinding of al-Mustakfī and the start of effective Buyid rule at Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām gives Jumādā al-Ākhira 334 AH for the blinding of al-Mustakfī."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ records the blinding and deposition of al-Mustakfī by Muʿizz al-Dawla in 334 AH and the accession of al-Muṭīʿ."
+    people: [[al-mustakfi, died]]
+    tags: [abbasid, caliph, baghdad, buyid, muizz-al-dawla, blinding, deposition]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SELJUK-ERA REVIVAL — al-Mustarshid, al-Rāshid, al-Muqtafī, al-Mustaḍīʾ
+  # =========================================================================
+
+  - slug: assassination-of-al-mustarshid
+    category: assassination
+    title_en: Assassination of Caliph al-Mustarshid
+    title_ar: مقتل الخليفة المسترشد
+    title_fr: Assassinat du calife al-Mustarshid
+    description_en: |
+      al-Faḍl al-Mustarshid bi-Allāh ibn al-Mustaẓhir,
+      twenty-ninth Abbasid caliph (reigned 512-529 AH), was
+      assassinated by Bāṭinī Ismaʿili agents — the so-
+      called Nizārī *fidāʾiyyīn* of Alamūt, universally
+      condemned by Sunni mainstream — at the Seljuk camp
+      outside Marāgha after a year of captivity in the
+      hands of sultan Masʿūd ibn Muḥammad. The caliph had
+      attempted to reassert direct caliphal command over
+      Iraq by leading an army out of Baghdad against the
+      Seljuks; he was defeated near Hamadhān in 529 AH
+      and taken prisoner. After negotiations between sultan
+      Masʿūd and his officers had reached a settlement
+      under which the caliph was to be restored to Baghdad
+      stripped of his army, he was struck down in his tent
+      while at his ablutions by Bāṭiniyya assassins.
+      Classical Sunni sources are unanimous that the
+      Bāṭiniyya carried out the killing; some report it as
+      arranged by the Seljuks, others as an independent
+      Ismaʿili strike. He was the first Abbasid caliph
+      assassinated by the Bāṭiniyya, and the event sealed
+      the lasting Sunni hostility to the Alamūt sect.
+    description_ar: |
+      اغتال الخليفةَ الفضلَ المسترشد بالله بن المستظهر —
+      تاسع وعشرين خلفاء بني العباس (حكم من ٥١٢ إلى ٥٢٩
+      هـ) — رجالٌ من الباطنية الإسماعيليين — وهم فدائيو
+      «ألموت» النزاريون الذين أجمع جمهور أهل السنة على
+      تكفير منهجهم — في معسكر السلاجقة قرب مراغة، بعد
+      سنة من الأسر في يد السلطان مسعود بن محمد. كان
+      المسترشد قد حاول استرداد الأمر العباسي على العراق
+      بقيادته جيشاً من بغداد ضد السلاجقة، فهُزم قرب
+      هَمَذَان سنة ٥٢٩ هـ وأُسر. وبعد أن اتفق السلطان
+      مسعود وقواده على إعادة الخليفة إلى بغداد منزوع
+      الجند، طعنه فدائيو الباطنية وهو في خيمته يتوضأ.
+      وأجمع المؤرخون الكلاسيكيون من أهل السنة على أنّ
+      الباطنية هم المنفذون، فمنهم من جعل الحادثةَ بتدبير
+      السلاجقة، ومنهم من رآها ضربةً إسماعيلية مستقلّة.
+      وكان أوّل خليفة عباسي يقتله الباطنية، وحدّدت
+      الحادثة العداوة السنّية الدائمة لطائفة ألموت.
+    description_fr: |
+      al-Faḍl al-Mustarshid bi-Allāh ibn al-Mustaẓhir,
+      vingt-neuvième calife abbasside (règne 512-529 H),
+      fut assassiné par des agents bāṭinīs ismaʿīlis — les
+      *fidāʾiyyīn* nizārīs d'Alamūt, condamnés par
+      l'unanimité du sunnisme classique — au camp seldjuq
+      à proximité de Marāgha, après une année de captivité
+      aux mains du sultan Masʿūd ibn Muḥammad. Le calife
+      avait tenté de rétablir le commandement califal direct
+      sur l'Irak en menant une armée de Baghdād contre les
+      Seldjuqs ; il fut défait près de Hamadhān en 529 H
+      et fait prisonnier. Après que les négociations entre
+      le sultan Masʿūd et ses officiers eurent abouti à
+      un accord pour ramener le calife à Baghdād dépouillé
+      de son armée, il fut frappé sous sa tente alors qu'il
+      faisait ses ablutions par des assassins bāṭinīs. Les
+      sources sunnites classiques sont unanimes à attribuer
+      l'exécution aux Bāṭinīs ; certaines la disent
+      organisée par les Seldjuqs, d'autres y voient une
+      frappe ismaʿīlienne indépendante. Il fut le premier
+      calife abbasside assassiné par les Bāṭinīs, et
+      l'événement scella l'hostilité durable des sunnites
+      à la secte d'Alamūt.
+    canonical_hijri: {year: 529, month: 11, day: 17, precision: day}
+    canonical_gregorian: {date: 1135-09-05, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the assassination of al-Mustarshid in his tent at the Seljuk camp near Marāgha by Bāṭinī agents in Dhū al-Qaʿda 529 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya gives 529 AH for the killing of al-Mustarshid by the Bāṭiniyya and notes the disagreement among historians whether sultan Masʿūd was implicated."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms Dhū al-Qaʿda 529 AH for the assassination of al-Mustarshid by Bāṭiniyya assassins."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ records the killing of al-Mustarshid by the Bāṭiniyya in 529 AH and the accession of his son al-Rāshid."
+    people: [[al-mustarshid, died], [al-rashid-abbasid, leader]]
+    tags: [abbasid, caliph, assassination, seljuk, batiniyya, alamut, ismaili, maragha]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-rashid-abbasid
+    category: ruler_death
+    title_en: Death of Caliph al-Rāshid bi-Allāh
+    title_ar: وفاة الخليفة الراشد بالله
+    title_fr: Mort du calife al-Rāshid bi-Allāh
+    description_en: |
+      al-Manṣūr al-Rāshid bi-Allāh ibn al-Mustarshid,
+      thirtieth Abbasid caliph (reigned 529-530 AH), was
+      assassinated at Iṣfahān in 532 AH after a single
+      year of effective reign and a further two years in
+      exile. Raised to the throne in Dhū al-Qaʿda 529 AH
+      on the news of his father's killing by the Bāṭiniyya
+      at Marāgha, he immediately raised the army of Baghdad
+      against the Seljuk sultan Masʿūd ibn Muḥammad,
+      whom he held responsible for the elder caliph's
+      death. He was defeated, deposed by the chief qāḍī
+      of Baghdad in 530 AH at sultan Masʿūd's pressure on
+      the technicality of having been declared *fāsiq*,
+      and replaced by his uncle al-Muqtafī. He fled to
+      Iṣfahān, where he was killed by Bāṭinī agents in
+      his sickbed in Ramaḍān 532 AH — the second consecutive
+      Abbasid caliph assassinated by the Alamūt sect.
+      Classical Sunni historians treat his fate as the
+      direct continuation of his father's, and the
+      consolidation of the lesson that the caliphate could
+      not survive open war on the Seljuk sultanate.
+    description_ar: |
+      اغتيل الخليفة المنصور الراشد بالله بن المسترشد —
+      ثلاثون خلفاء بني العباس (حكم من ٥٢٩ إلى ٥٣٠ هـ) —
+      بأصبهان سنة ٥٣٢ هـ، بعد سنة واحدة من الخلافة
+      الفعلية وسنتين أخريين من المنفى. وكان قد بويع في
+      ذي القعدة سنة ٥٢٩ هـ على نبأ قتل أبيه على يد
+      الباطنية بمراغة، فجمع من فوره جند بغداد على
+      السلطان السلجوقي مسعود بن محمد الذي حمّله مسؤولية
+      مقتل أبيه. فهُزم وخُلع بفتوى قاضي قضاة بغداد
+      تحت ضغط السلطان مسعود سنة ٥٣٠ هـ بحجّة الفسق،
+      وبويع مكانه عمُّه المقتفي. ففرّ إلى أصبهان حتى
+      قُتل هناك بأيدي الباطنية وهو على فراش مرضه في
+      رمضان سنة ٥٣٢ هـ — وهو ثاني خليفة عباسي على
+      التوالي يقتله أصحاب ألموت. ويعدّ المؤرخون السنّة
+      الكلاسيكيون مصرعه استمراراً مباشراً لمصرع أبيه،
+      وترسّخاً للدرس بأنّ الخلافة لا تطيق الحرب
+      المكشوفة على السلطنة السلجوقية.
+    description_fr: |
+      al-Manṣūr al-Rāshid bi-Allāh ibn al-Mustarshid,
+      trentième calife abbasside (règne 529-530 H), fut
+      assassiné à Iṣfahān en 532 H, après une seule année
+      de règne effectif et deux années supplémentaires
+      d'exil. Élevé au trône en Dhū al-Qaʿda 529 H sur la
+      nouvelle de l'assassinat de son père par les
+      Bāṭinīs à Marāgha, il leva aussitôt l'armée de
+      Baghdād contre le sultan seldjoukide Masʿūd ibn
+      Muḥammad, qu'il tenait pour responsable de la mort
+      du calife précédent. Il fut défait, déposé par le
+      grand cadi de Baghdād sous la pression du sultan
+      Masʿūd en 530 H sur le motif technique d'avoir été
+      déclaré *fāsiq*, et remplacé par son oncle al-
+      Muqtafī. Il s'enfuit à Iṣfahān, où il fut tué par
+      des agents bāṭinīs dans son lit de malade en Ramaḍān
+      532 H — le deuxième calife abbasside consécutif
+      assassiné par la secte d'Alamūt. Les historiens
+      sunnites classiques tiennent son sort pour le
+      prolongement direct de celui de son père et la
+      consolidation de la leçon que le califat ne pouvait
+      survivre à une guerre ouverte contre le sultanat
+      seldjoukide.
+    canonical_hijri: {year: 532, month: 9, day: 25, precision: day}
+    canonical_gregorian: {date: 1138-06-13, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the assassination of al-Rāshid by Bāṭinī agents at Iṣfahān in Ramaḍān 532 AH and details his deposition in 530 AH and the accession of al-Muqtafī."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 532 AH for the killing of al-Rāshid at Iṣfahān by the Bāṭiniyya."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām places the killing of al-Rāshid at Iṣfahān in Ramaḍān 532 AH."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ records the killing of al-Rāshid by the Bāṭiniyya at Iṣfahān in Ramaḍān 532 AH."
+    people: [[al-rashid-abbasid, died], [al-mustarshid, subject], [al-muqtafi, leader]]
+    tags: [abbasid, caliph, assassination, seljuk, batiniyya, alamut, ismaili, isfahan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-muqtafi
+    category: ruler_death
+    title_en: Death of Caliph al-Muqtafī li-Amr Allāh
+    title_ar: وفاة الخليفة المقتفي لأمر الله
+    title_fr: Mort du calife al-Muqtafī li-Amr Allāh
+    description_en: |
+      Muḥammad al-Muqtafī li-Amr Allāh ibn al-Mustaẓhir,
+      thirty-first Abbasid caliph (reigned 530-555 AH),
+      died at Baghdad after a quarter-century reign at age
+      about sixty-three. Raised to the throne in 530 AH
+      after the deposition of his nephew al-Rāshid, his
+      reign coincided with the long collapse of Seljuk
+      central authority in Iraq, and he became the first
+      Abbasid caliph in two centuries to recover real
+      sovereignty over the Iraqi heartland: he raised his
+      own troops, expelled the last Seljuk *shiḥnas*
+      (military governors) from Baghdad, defeated the
+      Seljuk sultan's army outside the city in 552 AH,
+      and re-established direct caliphal authority from
+      Baghdad to Wāsiṭ. He patronised the Sunni traditional
+      sciences in the wake of the Bāṭinī assassinations
+      of his predecessors, and his reign is treated by
+      classical Sunni historians as the formal opening of
+      the late-Abbasid revival that would culminate under
+      his great-grandson al-Nāṣir li-Dīn Allāh. He was
+      succeeded by his son al-Mustanjid.
+    description_ar: |
+      توفي الخليفة محمد المقتفي لأمر الله بن المستظهر —
+      حادي وثلاثون خلفاء بني العباس (حكم من ٥٣٠ إلى ٥٥٥
+      هـ) — ببغداد بعد ربع قرن من الخلافة، عن نحو ثلاث
+      وستين سنة. تولى الخلافة سنة ٥٣٠ هـ بعد خلع ابن
+      أخيه الراشد، فوافق عهدُه انهيارَ سلطة السلاجقة
+      المركزية الطويلَ على العراق، فكان أوّل خليفة
+      عباسي منذ قرنين يستردّ السيادة الفعلية على قلب
+      العراق: جنّد جنده الخاص، وأخرج آخر «شِحَن»
+      السلاجقة من بغداد، وهزم جيش السلطان السلجوقي خارج
+      العاصمة سنة ٥٥٢ هـ، وأعاد سلطان الخلافة المباشر
+      من بغداد إلى واسط. ورعى علوم أهل السنة في إثر
+      اغتيالات الباطنية لأسلافه، ويعدّ المؤرخون السنّة
+      الكلاسيكيون عهدَه فاتحةً رسمية للنهضة العباسية
+      المتأخرة التي بلغت ذروتها على يد حفيده الناصر
+      لدين الله. وخلفه ابنه المستنجد.
+    description_fr: |
+      Muḥammad al-Muqtafī li-Amr Allāh ibn al-Mustaẓhir,
+      trente et unième calife abbasside (règne 530-555 H),
+      mourut à Baghdād après un règne d'un quart de
+      siècle, âgé d'environ soixante-trois ans. Élevé au
+      trône en 530 H après la déposition de son neveu al-
+      Rāshid, son règne coïncida avec le long effondrement
+      de l'autorité centrale seldjoukide en Irak, et il
+      devint le premier calife abbasside depuis deux
+      siècles à recouvrer une véritable souveraineté sur
+      le cœur irakien : il leva ses propres troupes,
+      expulsa les derniers *shiḥnas* (gouverneurs
+      militaires) seldjoukides de Baghdād, défit l'armée
+      du sultan seldjoukide aux abords de la ville en
+      552 H et rétablit l'autorité califale directe de
+      Baghdād à Wāsiṭ. Il fut le mécène des sciences
+      sunnites traditionnelles à la suite des assassinats
+      bāṭinīs de ses prédécesseurs, et son règne est
+      considéré par les historiens sunnites classiques
+      comme l'ouverture formelle de la renaissance
+      abbasside tardive qui culminerait sous son arrière-
+      petit-fils al-Nāṣir li-Dīn Allāh. Lui succéda son
+      fils al-Mustanjid.
+    canonical_hijri: {year: 555, month: 3, day: 2, precision: day}
+    canonical_gregorian: {date: 1160-03-19, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Muqtafī at Baghdad in Rabīʿ al-Awwal 555 AH and the bayʿa of his son al-Mustanjid."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya gives 555 AH for the death of al-Muqtafī, his recovery of caliphal authority over Iraq, and the succession of al-Mustanjid."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms Rabīʿ al-Awwal 555 AH for the death of al-Muqtafī."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ records the death of al-Muqtafī in 555 AH and praises his recovery of effective caliphal rule over Iraq."
+    people: [[al-muqtafi, died], [al-mustanjid, leader]]
+    tags: [abbasid, caliph, baghdad, seljuk, late-abbasid-revival]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-mustadi
+    category: ruler_death
+    title_en: Death of Caliph al-Mustaḍīʾ bi-Amr Allāh
+    title_ar: وفاة الخليفة المستضيء بأمر الله
+    title_fr: Mort du calife al-Mustaḍīʾ bi-Amr Allāh
+    description_en: |
+      al-Ḥasan al-Mustaḍīʾ bi-Amr Allāh ibn al-Mustanjid,
+      thirty-third Abbasid caliph (reigned 566-575 AH),
+      died at Baghdad after a reign of about nine years,
+      at age about thirty-eight. His caliphate coincided
+      with the abolition of the Fāṭimid caliphate of
+      Cairo by Ṣalāḥ al-Dīn al-Ayyūbī in 567 AH and the
+      restoration of the Sunni Abbasid khuṭba in Egypt
+      after two centuries of Ismaʿili rule — a victory
+      Ṣalāḥ al-Dīn formally credited to the caliph at
+      Baghdad and that won al-Mustaḍīʾ a stature in Sunni
+      memory disproportionate to his actual rule. He
+      patronised Ḥanbalī scholars at Baghdad and continued
+      the policy of his father al-Mustanjid of suppressing
+      Bāṭinī cells in the city. He was succeeded by his
+      son al-Nāṣir li-Dīn Allāh, whose forty-six-year
+      reign would mark the apex of late-Abbasid recovery.
+      Classical Sunni historians remember al-Mustaḍīʾ above
+      all as the caliph in whose name the Friday khuṭba
+      was finally restored over Egypt.
+    description_ar: |
+      توفي الخليفة الحسن المستضيء بأمر الله بن المستنجد
+      — ثالث وثلاثون خلفاء بني العباس (حكم من ٥٦٦ إلى
+      ٥٧٥ هـ) — ببغداد بعد نحو تسع سنين من الخلافة، عن
+      نحو ثمان وثلاثين سنة. وقد وافق عهده إلغاءَ
+      الخلافة الفاطمية بالقاهرة على يد صلاح الدين
+      الأيوبي سنة ٥٦٧ هـ، وردَّ الخطبة العباسية السنّية
+      على مصر بعد قرنين من حُكم الإسماعيليين — وهو
+      انتصار نسبه صلاح الدين رسمياً إلى الخليفة ببغداد،
+      فأكسب المستضيء في الذاكرة السنّية مكانةً تفوق ما
+      كان له من سلطان فعلي. ورعى المستضيء الحنابلة
+      ببغداد، وواصل سياسة أبيه المستنجد في قمع
+      الباطنية بالعاصمة. وخلفه ابنه الناصر لدين الله،
+      الذي شهدت خلافته الطويلة (ست وأربعون سنة) ذروة
+      النهضة العباسية المتأخرة. ويذكره المؤرخون السنّة
+      الكلاسيكيون قبل كل شيء بأنه الخليفة الذي أُعيدت
+      الخطبة الجامعة على مصر باسمه.
+    description_fr: |
+      al-Ḥasan al-Mustaḍīʾ bi-Amr Allāh ibn al-Mustanjid,
+      trente-troisième calife abbasside (règne 566-575 H),
+      mourut à Baghdād après un règne d'environ neuf ans,
+      âgé d'environ trente-huit ans. Son califat coïncida
+      avec l'abolition du califat fāṭimide du Caire par
+      Ṣalāḥ al-Dīn al-Ayyūbī en 567 H et la restauration
+      de la khuṭba abbasside sunnite en Égypte après deux
+      siècles de pouvoir ismaʿīli — victoire que Ṣalāḥ
+      al-Dīn attribua formellement au calife de Baghdād
+      et qui valut à al-Mustaḍīʾ une stature dans la
+      mémoire sunnite disproportionnée par rapport à son
+      pouvoir effectif. Il fut le mécène des savants
+      ḥanbalites à Baghdād et poursuivit la politique de
+      son père al-Mustanjid de répression des cellules
+      bāṭinīes dans la capitale. Lui succéda son fils al-
+      Nāṣir li-Dīn Allāh, dont le règne de quarante-six
+      ans marquerait l'apogée de la renaissance abbasside
+      tardive. Les historiens sunnites classiques se
+      souviennent d'al-Mustaḍīʾ avant tout comme du calife
+      au nom duquel la khuṭba du vendredi fut enfin
+      rétablie en Égypte.
+    canonical_hijri: {year: 575, month: 12, day: 1, precision: day}
+    canonical_gregorian: {date: 1180-05-05, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the death of al-Mustaḍīʾ at Baghdad in Dhū al-Ḥijja 575 AH and the bayʿa of his son al-Nāṣir li-Dīn Allāh."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 575 AH for the death of al-Mustaḍīʾ and credits Ṣalāḥ al-Dīn's restoration of the Abbasid khuṭba in Egypt to his caliphate."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām places the death of al-Mustaḍīʾ in Dhū al-Ḥijja 575 AH."
+      - source_key: suyuti_tarikh_khulafa
+        notes: "al-Suyūṭī's Tārīkh al-Khulafāʾ records the death of al-Mustaḍīʾ in Dhū al-Ḥijja 575 AH and the accession of al-Nāṣir li-Dīn Allāh."
+    people: [[al-mustadi, died], [al-mustanjid, subject]]
+    tags: [abbasid, caliph, baghdad, salah-al-din, fatimid, ayyubid, hanbali]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

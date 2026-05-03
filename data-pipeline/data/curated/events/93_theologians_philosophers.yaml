@@ -1,0 +1,724 @@
+# Wave 93 of curated event additions (2026-04-27).
+# Mainstream Sunni theologians, philosophers, and uṣūlīs not
+# previously covered — anchored squarely in Ashʿarī, Māturīdī,
+# and Ḥanafī-Māturīdī kalām and uṣūl al-fiqh. Strictly within
+# the four-madhhab Sunni bar (EDITORIAL.md rule 8): no Akbarian
+# school figures (Ibn ʿArabī, al-Qūnawī, al-Jīlī, al-Tilimsānī,
+# Ibn Sabʿīn), no executed-for-heresy figures (al-Ḥallāj,
+# ʿAyn al-Quḍāt, al-Suhrawardī al-Maqtūl), no Tijanī figures,
+# no Twelver Shia compilers, no Muʿtazilī figures framed
+# doctrinally.
+#
+# Coverage of this wave:
+#
+# Māturīdī kalām anchors:
+#   - Abū al-Yusr al-Bazdawī (493 AH — Hanafi-Māturīdī uṣūlī)
+#   - Abū al-Muʿīn al-Nasafī (508 AH — *Tabṣirat al-Adilla*,
+#     foundational Māturīdī kalām treatise)
+#   - ʿAlāʾ al-Dīn al-Bukhārī (730 AH — *Kashf al-Asrār*
+#     commentary on al-Bazdawī's uṣūl)
+#   - al-Bayāḍī (1098 AH — *Ishārāt al-Marām*, Ottoman
+#     Māturīdī kalām systematisation)
+#
+# Ashʿarī kalām and uṣūl al-fiqh:
+#   - al-Shahrastānī (548 AH — *al-Milal wa-l-Niḥal* and
+#     *Nihāyat al-Aqdām fī ʿIlm al-Kalām*)
+#   - Sayf al-Dīn al-Āmidī (631 AH — *al-Iḥkām fī Uṣūl
+#     al-Aḥkām* and *Abkār al-Afkār*)
+#   - Sirāj al-Dīn al-Urmawī (682 AH — *Maṭāliʿ al-Anwār*
+#     logic-kalām compendium)
+#   - al-Ījī ʿAḍud al-Dīn (756 AH — *al-Mawāqif fī ʿIlm
+#     al-Kalām*)
+#   - al-Sharīf al-Jurjānī (816 AH — *Sharḥ al-Mawāqif*
+#     and *al-Taʿrīfāt*)
+#   - al-Lāqānī (1041 AH — *Jawharat al-Tawḥīd*, Ashʿarī
+#     creed *matn* in Maliki Egypt)
+#   - Aḥmad al-Dardīr (1201 AH — *al-Kharīda al-Bahiyya*,
+#     a versified Ashʿarī creed)
+#
+# Sourcing. Pre-1000 AH figures are anchored in the classical
+# wafayāt corpus (Ibn Khallikān, al-Dhahabī's *Siyar* and
+# *Tārīkh al-Islām*, Ibn Kathīr's *Bidāya*, Ibn Ḥajar's
+# *al-Durar al-Kāmina*, Ibn al-ʿImād's *Shadharāt al-Dhahab*).
+# Post-1000 AH figures (al-Lāqānī, al-Bayāḍī, al-Dardīr) carry
+# the latest classical witness available — Ibn al-ʿImād through
+# his terminal year (al-Lāqānī alone falls inside *Shadharāt*) —
+# plus EI2 and editorial cross-reference, matching the
+# convention established for late figures elsewhere in the
+# dataset (cf. file 68 for the late-madhhab codifiers).
+#
+# Year-precision is used throughout. Several of these figures
+# have day-precise dates in single classical witnesses (e.g.
+# Ibn Khallikān gives 4 Ṣafar 631 for al-Āmidī), but the
+# day-precise attestations are not unanimous across the
+# canonical sources, and the dataset's convention for
+# theologian deaths is to use the precision that classical
+# sources cross-confirm. Year is what they agree on.
+
+events:
+  # =========================================================================
+  # MĀTURĪDĪ KALĀM ANCHORS
+  # =========================================================================
+
+  - slug: death-of-abu-al-yusr-al-bazdawi
+    category: scholar_death
+    title_en: Death of Abū al-Yusr al-Bazdawī — Hanafi-Māturīdī Uṣūlī of Samarqand
+    title_ar: وفاة أبي اليُسر البَزدَوي — أصولي الحنفية الماتريدية بسمرقند
+    title_fr: Mort d'Abū al-Yusr al-Bazdawī — uṣūlī hanafite-māturīdite de Samarcande
+    description_en: |
+      Abū al-Yusr Muḥammad ibn Muḥammad al-Bazdawī, qāḍī of Samarqand
+      and one of the leading Hanafi-Māturīdī uṣūlīs of the fifth
+      century AH, died at Bukhara in 493 AH. His *Kitāb fīhi
+      Maʿrifat al-Ḥujaj al-Sharʿiyya* (often called *Uṣūl al-Bazdawī*)
+      and his *Kitāb al-Uṣūl* anchored the Samarqandī branch of
+      Hanafi uṣūl al-fiqh, distinct in emphasis from the Iraqi-
+      Khurāsānī line; his theological treatise *Uṣūl al-Dīn*
+      transmits the Māturīdī ʿaqīda in its formative phase. His
+      brother Fakhr al-Islām ʿAlī al-Bazdawī (482 AH) authored the
+      more famous *Kanz al-Wuṣūl ilā Maʿrifat al-Uṣūl*; the two
+      Bazdawī brothers together fixed the Hanafi-Māturīdī uṣūl
+      curriculum that ʿAlāʾ al-Dīn al-Bukhārī would later codify
+      in *Kashf al-Asrār*. al-Dhahabī records his death in *Siyar
+      Aʿlām al-Nubalāʾ* under the year 493 AH and Ibn al-ʿImād
+      corroborates in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام أبو اليُسر محمد بن محمد البَزدَوي — قاضي سمرقند
+      وأحد كبار أصوليي الحنفية الماتريدية في القرن الخامس الهجري —
+      ببخارى سنة ثلاث وتسعين وأربعمئة. كتابه «معرفة الحجج الشرعية»
+      المعروف بـ«أصول البَزدَوي»، وكتابه «الأصول»، أسسا فرع أصول
+      الفقه الحنفي السمرقندي، وكان متميزاً في موارده عن الفرع
+      العراقي الخراساني؛ ورسالته الكلامية «أصول الدين» نقل بها
+      عقيدة أهل السنة الماتريدية في طورها التأسيسي. وأخوه فخر
+      الإسلام علي البَزدَوي المتوفى سنة اثنتين وثمانين وأربعمئة هو
+      مصنف «كنز الوصول إلى معرفة الأصول» الأشهر؛ والأخوان البَزدَويان
+      جميعاً ضبطا منهج الأصول عند الحنفية الماتريدية الذي شرحه فيما
+      بعد علاء الدين البخاري في «كشف الأسرار». أرّخ الذهبي وفاته في
+      «سير أعلام النبلاء» سنة ثلاث وتسعين وأربعمئة، وأقرّه ابن العماد
+      في «شذرات الذهب».
+    description_fr: |
+      Abū al-Yusr Muḥammad ibn Muḥammad al-Bazdawī, *qāḍī* de
+      Samarcande et l'un des principaux uṣūlīs hanafites-māturīdites
+      du Ve siècle hégirien, mourut à Boukhara en 493 H. Son *Kitāb
+      fīhi Maʿrifat al-Ḥujaj al-Sharʿiyya* (souvent appelé *Uṣūl
+      al-Bazdawī*) et son *Kitāb al-Uṣūl* fixèrent la branche
+      samarcandaise de l'uṣūl al-fiqh hanafite, distincte par ses
+      accents de la lignée irako-khurāsānienne; son traité
+      théologique *Uṣūl al-Dīn* transmet la ʿaqīda māturīdite dans
+      sa phase formatrice. Son frère Fakhr al-Islām ʿAlī al-Bazdawī
+      (482 H) composa le plus célèbre *Kanz al-Wuṣūl ilā Maʿrifat
+      al-Uṣūl*; les deux frères Bazdawī fixèrent ensemble le
+      programme d'uṣūl hanafite-māturīdite que ʿAlāʾ al-Dīn
+      al-Bukhārī codifierait plus tard dans *Kashf al-Asrār*.
+      al-Dhahabī consigne sa mort dans *Siyar Aʿlām al-Nubalāʾ* à
+      l'année 493 H et Ibn al-ʿImād corrobore dans *Shadharāt
+      al-Dhahab*.
+    canonical_hijri: {year: 493, precision: year}
+    canonical_gregorian: {date: 1100-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[abu-al-yusr-al-bazdawi, subject]]
+    tags: [hanafi, maturidi, usul, kalam, samarqand, transoxiana]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Bazdawi"
+
+  - slug: death-of-abu-al-muin-al-nasafi
+    category: scholar_death
+    title_en: Death of Abū al-Muʿīn al-Nasafī — Author of *Tabṣirat al-Adilla*
+    title_ar: وفاة أبي المُعين النَسَفي — مصنف «تبصرة الأدلة»
+    title_fr: Mort d'Abū al-Muʿīn al-Nasafī — auteur de *Tabṣirat al-Adilla*
+    description_en: |
+      Maymūn ibn Muḥammad Abū al-Muʿīn al-Nasafī, the foremost
+      Māturīdī theologian of his age and the figure who effectively
+      systematised the school after al-Māturīdī himself, died in
+      508 AH. His *Tabṣirat al-Adilla fī Uṣūl al-Dīn* is the
+      foundational long-form Māturīdī kalām treatise — a
+      comprehensive defence of Ahl al-Sunna against the Muʿtazila,
+      the philosophers, and the dualists, written within the
+      Samarqandī tradition that traces back through al-Māturīdī
+      to Abū Ḥanīfa's *al-Fiqh al-Akbar*. His *al-Tamhīd li-Qawāʿid
+      al-Tawḥīd* offers the same arguments in shorter compass and
+      remains a standard intermediate text. Najm al-Dīn al-Nasafī
+      (537 AH), author of the later *al-ʿAqāʾid al-Nasafiyya* matn,
+      was his pupil's pupil and inherited the school through this
+      transmission. al-Dhahabī records his death in *Siyar Aʿlām
+      al-Nubalāʾ*; Ibn al-ʿImād confirms in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام ميمون بن محمد أبو المُعين النَسَفي — كبير متكلمي
+      الماتريدية في عصره، والذي ضبط أصول المذهب بعد الماتريدي
+      نفسه — سنة ثمان وخمسمئة. وكتابه «تبصرة الأدلة في أصول الدين»
+      هو المؤسس في كلام الماتريدية المطوّل، يقرّر مذهب أهل السنة في
+      الردّ على المعتزلة والفلاسفة والثنوية، ضمن خط سمرقند العائد
+      إلى الماتريدي وحتى «الفقه الأكبر» لأبي حنيفة. ومختصره «التمهيد
+      لقواعد التوحيد» يقدّم تلك الحجج باختصار، ولا يزال من المتون
+      الوسطى المعتمدة. وأمّا نجم الدين النَسَفي المتوفى سنة سبع
+      وثلاثين وخمسمئة مصنف متن «العقائد النسفية» المتأخر فهو تلميذ
+      لتلميذه، وعنه ورث المذهب الماتريدي. أرّخ الذهبي وفاته في «سير
+      أعلام النبلاء»، وأقرّه ابن العماد في «شذرات الذهب».
+    description_fr: |
+      Maymūn ibn Muḥammad Abū al-Muʿīn al-Nasafī, le plus grand
+      théologien māturīdite de son temps et la figure qui systématisa
+      effectivement l'école après al-Māturīdī lui-même, mourut en
+      508 H. Sa *Tabṣirat al-Adilla fī Uṣūl al-Dīn* est le traité
+      fondateur du *kalām* māturīdite long-format — une défense
+      exhaustive d'Ahl al-Sunna contre les Muʿtazilites, les
+      philosophes et les dualistes, écrite dans la tradition de
+      Samarcande remontant à travers al-Māturīdī jusqu'à *al-Fiqh
+      al-Akbar* d'Abū Ḥanīfa. Son *al-Tamhīd li-Qawāʿid al-Tawḥīd*
+      offre les mêmes arguments en plus court et demeure un texte
+      intermédiaire standard. Najm al-Dīn al-Nasafī (537 H), auteur
+      du *matn* postérieur *al-ʿAqāʾid al-Nasafiyya*, fut le disciple
+      de son disciple et hérita ainsi de l'école par cette
+      transmission. al-Dhahabī consigne sa mort dans *Siyar Aʿlām
+      al-Nubalāʾ*; Ibn al-ʿImād confirme dans *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 508, precision: year}
+    canonical_gregorian: {date: 1114-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[abu-al-muin-al-nasafi, subject]]
+    tags: [hanafi, maturidi, kalam, tabsirat-al-adilla, samarqand, transoxiana]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Mu%27in_al-Nasafi"
+
+  - slug: death-of-ala-al-din-al-bukhari
+    category: scholar_death
+    title_en: Death of ʿAlāʾ al-Dīn al-Bukhārī — Author of *Kashf al-Asrār*
+    title_ar: وفاة علاء الدين البخاري — مصنف «كشف الأسرار»
+    title_fr: Mort de ʿAlāʾ al-Dīn al-Bukhārī — auteur de *Kashf al-Asrār*
+    description_en: |
+      ʿAlāʾ al-Dīn ʿAbd al-ʿAzīz ibn Aḥmad al-Bukhārī, late-classical
+      Hanafi-Māturīdī uṣūlī of Bukhara, died in 730 AH. His
+      *Kashf al-Asrār ʿan Uṣūl Fakhr al-Islām al-Bazdawī* is the
+      most authoritative commentary on Fakhr al-Islām al-Bazdawī's
+      *Kanz al-Wuṣūl* — and through it the canonical exposition
+      of Samarqandī Hanafi uṣūl al-fiqh that all later Hanafi
+      uṣūlīs of the Mamluk and Ottoman periods consulted. He also
+      composed *al-Tawḍīḥ ʿalā al-Tanqīḥ* on Ṣadr al-Sharīʿa
+      al-Maḥbūbī's *al-Tanqīḥ*. The pairing of *Kashf al-Asrār* and
+      Ṣadr al-Sharīʿa's *al-Tawḍīḥ* (the latter then commented by
+      al-Taftāzānī's *al-Talwīḥ*) defines the late Hanafi uṣūl
+      curriculum down to the modern Indo-Pakistani madrasas. Ibn
+      Ḥajar al-ʿAsqalānī records his death in *al-Durar al-Kāmina*;
+      Ibn al-ʿImād confirms in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام علاء الدين عبد العزيز بن أحمد البخاري — أصولي
+      الحنفية الماتريدية في الطور المتأخر بمدينة بخارى — سنة ثلاثين
+      وسبعمئة. وكتابه «كشف الأسرار عن أصول فخر الإسلام البَزدَوي»
+      هو أوثق شروح «كنز الوصول» لفخر الإسلام البَزدَوي، وبه صارت
+      أصول الفقه الحنفية السمرقندية كما يقررها متأخرو الحنفية في
+      دولتي المماليك والعثمانيين، فإليه يرجعون. وله كذلك «التوضيح
+      على التنقيح» شرحاً لـ«تنقيح الأصول» لصدر الشريعة المحبوبي.
+      وثنائية «كشف الأسرار» و«التوضيح» — الذي شرحه بعدُ التفتازاني
+      في «التلويح» — هي عماد منهج أصول الفقه عند متأخري الحنفية في
+      مدارس الهند وباكستان إلى يومنا. أرّخ ابن حجر العسقلاني وفاته
+      في «الدرر الكامنة»، وأقرّه ابن العماد في «شذرات الذهب».
+    description_fr: |
+      ʿAlāʾ al-Dīn ʿAbd al-ʿAzīz ibn Aḥmad al-Bukhārī, uṣūlī
+      hanafite-māturīdite de la phase classique tardive à Boukhara,
+      mourut en 730 H. Son *Kashf al-Asrār ʿan Uṣūl Fakhr al-Islām
+      al-Bazdawī* est le commentaire le plus autoritatif du *Kanz
+      al-Wuṣūl* de Fakhr al-Islām al-Bazdawī — et constitue ainsi
+      l'exposition canonique de l'uṣūl al-fiqh hanafite samarcandais
+      que tous les uṣūlīs hanafites postérieurs des époques
+      mamelouke et ottomane consultèrent. Il composa également
+      *al-Tawḍīḥ ʿalā al-Tanqīḥ* sur *al-Tanqīḥ* de Ṣadr al-Sharīʿa
+      al-Maḥbūbī. Le couple *Kashf al-Asrār* et *al-Tawḍīḥ* — ce
+      dernier ensuite commenté par *al-Talwīḥ* d'al-Taftāzānī —
+      définit le programme d'uṣūl hanafite tardif jusque dans les
+      madrasas indo-pakistanaises modernes. Ibn Ḥajar al-ʿAsqalānī
+      consigne sa mort dans *al-Durar al-Kāmina*; Ibn al-ʿImād
+      confirme dans *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 730, precision: year}
+    canonical_gregorian: {date: 1330-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[ala-al-din-al-bukhari, subject]]
+    tags: [hanafi, maturidi, usul, kashf-al-asrar, bukhara, transoxiana]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ala_al-Din_al-Bukhari"
+
+  - slug: death-of-al-bayadi
+    category: scholar_death
+    title_en: Death of al-Bayāḍī — Author of *Ishārāt al-Marām*
+    title_ar: وفاة البَياضي — مصنف «إشارات المرام»
+    title_fr: Mort d'al-Bayāḍī — auteur d'*Ishārāt al-Marām*
+    description_en: |
+      Kamāl al-Dīn Aḥmad ibn Ḥasan al-Bayāḍī, Ottoman Hanafi-
+      Māturīdī mutakallim and *qāḍī ʿaskar* in the Ottoman judicial
+      hierarchy, died in 1098 AH. His *Ishārāt al-Marām min ʿIbārāt
+      al-Imām* — a systematic Māturīdī kalām reading of Abū
+      Ḥanīfa's theological epistles (*al-Fiqh al-Akbar* and the
+      five short risālas) — is the most extensive single-volume
+      Māturīdī systematisation produced in the Ottoman period and
+      remains a standard reference for the school. He also composed
+      *Uṣūl al-Munīfa li-l-Imām Abī Ḥanīfa*, a parallel collection
+      of Abū Ḥanīfa's theological positions. al-Bayāḍī's project
+      was the Ottoman counterpart to the Maghrebī Ashʿarī
+      systematisations of al-Sanūsī and al-Lāqānī: the consolidation
+      of mainstream Sunni kalām in catechetical, school-defining
+      form. EI2 carries his entry; the death in 1098 AH falls just
+      after Ibn al-ʿImād's *Shadharāt al-Dhahab* terminus, so the
+      principal Sunni-canonical attestation here is EI2 with
+      editorial cross-reference to the Hanafi biographical tradition
+      in Ottoman ṭabaqāt literature.
+    description_ar: |
+      توفي الإمام كمال الدين أحمد بن حسن البَياضي — متكلم الحنفية
+      الماتريدية في العهد العثماني وقاضي العسكر في السلك القضائي
+      العثماني — سنة ثمان وتسعين بعد الألف. وكتابه «إشارات المرام
+      من عبارات الإمام» قراءةٌ كلامية ماتريدية منهجية لرسائل أبي
+      حنيفة العقدية («الفقه الأكبر» والرسائل الخمس الصغرى) — وهو
+      أوسع كتاب جامع في علم الكلام الماتريدي صنّف في العهد العثماني،
+      ولا يزال مرجعاً معتمداً في المذهب. وله كذلك «أصول المنيفة
+      للإمام أبي حنيفة» جامعاً مذاهب أبي حنيفة الكلامية. ومشروع
+      البَياضي العثماني نظيرٌ لمشروع التأصيل الأشعري المغربي عند
+      السنوسي واللقاني: تثبيت أصول كلام أهل السنة في صورة منهجية
+      مدرسية. ترجم له «دائرة المعارف الإسلامية»؛ ووفاته سنة ثمان
+      وتسعين بعد الألف بعد ختام «شذرات الذهب» لابن العماد، فالعمدة
+      في توثيقها عند أهل السنة «دائرة المعارف الإسلامية» مع تراجم
+      الحنفية في طبقات العثمانيين.
+    description_fr: |
+      Kamāl al-Dīn Aḥmad ibn Ḥasan al-Bayāḍī, *mutakallim* hanafite-
+      māturīdite ottoman et *qāḍī ʿaskar* dans la hiérarchie
+      judiciaire ottomane, mourut en 1098 H. Son *Ishārāt al-Marām
+      min ʿIbārāt al-Imām* — lecture *kalāmique* māturīdite
+      systématique des épîtres théologiques d'Abū Ḥanīfa
+      (*al-Fiqh al-Akbar* et les cinq courtes *risālas*) — est la
+      systématisation māturīdite en un volume la plus étendue
+      produite à l'époque ottomane et demeure une référence
+      standard pour l'école. Il composa également *Uṣūl al-Munīfa
+      li-l-Imām Abī Ḥanīfa*, une collection parallèle des positions
+      théologiques d'Abū Ḥanīfa. Le projet d'al-Bayāḍī fut le
+      pendant ottoman des systématisations ashʿarites maghrébines
+      d'al-Sanūsī et d'al-Lāqānī: la consolidation du *kalām*
+      sunnite mainstream sous une forme catéchétique structurante
+      pour l'école. L'EI2 porte sa notice; la mort en 1098 H tombe
+      juste après le terminus des *Shadharāt al-Dhahab* d'Ibn
+      al-ʿImād, de sorte que la principale attestation sunnite-
+      canonique ici est l'EI2 croisée avec la tradition
+      biographique hanafite dans les *ṭabaqāt* ottomans.
+    canonical_hijri: {year: 1098, precision: year}
+    canonical_gregorian: {date: 1687-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-bayadi, subject]]
+    tags: [hanafi, maturidi, kalam, isharat-al-maram, ottoman, istanbul]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Kamal_al-Din_al-Bayadi"
+
+  # =========================================================================
+  # ASHʿARĪ KALĀM AND USULĪ TRADITION
+  # =========================================================================
+
+  - slug: death-of-al-shahrastani
+    category: scholar_death
+    title_en: Death of ʿAbd al-Karīm al-Shahrastānī — Author of *al-Milal wa-l-Niḥal*
+    title_ar: وفاة عبد الكريم الشهرستاني — مصنف «الملل والنحل»
+    title_fr: Mort de ʿAbd al-Karīm al-Shahrastānī — auteur d'*al-Milal wa-l-Niḥal*
+    description_en: |
+      Abū al-Fatḥ Muḥammad ibn ʿAbd al-Karīm al-Shahrastānī, Shafiʿi-
+      Ashʿarī mutakallim, historian of religions, and pupil of Abū
+      al-Muẓaffar al-Khawāfī and other late-Juwaynian Ashʿarīs, died
+      in his native Shahrastān (Khurāsān) in 548 AH. His *al-Milal
+      wa-l-Niḥal* — a comprehensive doxography of the religions and
+      philosophical schools of the world organised under a careful
+      classificatory scheme — remains the single most-cited
+      pre-modern Sunni source on sectarian and philosophical
+      diversity, including the only surviving systematic exposition
+      of pre-Socratic Greek thought in classical Arabic. His
+      *Nihāyat al-Aqdām fī ʿIlm al-Kalām* is a major Ashʿarī kalām
+      treatise structured around twenty problems (*qawāʿid*) and
+      stands alongside al-Juwaynī's *al-Irshād* and al-Rāzī's
+      *Muḥaṣṣal* as a pillar of the school. Ibn Khallikān records
+      his death in *Wafayāt al-Aʿyān*; al-Dhahabī corroborates in
+      *Tārīkh al-Islām*; Ibn al-ʿImād confirms in *Shadharāt
+      al-Dhahab*.
+    description_ar: |
+      توفي الإمام أبو الفتح محمد بن عبد الكريم الشهرستاني — متكلم
+      الشافعية الأشاعرة، ومؤرّخ الفرق والديانات، تلميذ أبي المظفر
+      الخوافي وغيره من أشاعرة طبقة الجويني المتأخرة — في بلده
+      شهرستان من أرض خراسان سنة ثمان وأربعين وخمسمئة. وكتابه «الملل
+      والنحل» — وهو دائرة جامعة لأديان العالم ومذاهبه الفلسفية ضمن
+      تصنيف منهجي محكم — لا يزال أوثق ما يحتجّ به كتب أهل السنة قبل
+      الحداثة في الفرق والمذاهب الفكرية، وفيه التفصيل الوحيد الباقي
+      في العربية الكلاسيكية للفكر اليوناني قبل سقراط. وكتابه «نهاية
+      الإقدام في علم الكلام» من كبار كتب الكلام الأشعري، نظمه على
+      عشرين قاعدة، يقوم في المذهب إلى جانب «الإرشاد» للجويني
+      و«المحصّل» للرازي. أرّخ ابن خلكان وفاته في «وفيات الأعيان»،
+      وأقرّه الذهبي في «تاريخ الإسلام»، وكذا ابن العماد في «شذرات
+      الذهب».
+    description_fr: |
+      Abū al-Fatḥ Muḥammad ibn ʿAbd al-Karīm al-Shahrastānī,
+      *mutakallim* shafiʿite-ashʿarite, historien des religions et
+      disciple d'Abū al-Muẓaffar al-Khawāfī et d'autres ashʿarites
+      de la génération post-Juwaynīenne, mourut dans sa Shahrastān
+      natale (Khurāsān) en 548 H. Son *al-Milal wa-l-Niḥal* — une
+      doxographie exhaustive des religions et écoles philosophiques
+      du monde organisée selon un schéma classificatoire soigneux —
+      demeure la source sunnite pré-moderne la plus citée sur la
+      diversité sectaire et philosophique, et inclut la seule
+      exposition systématique conservée de la pensée grecque
+      pré-socratique en arabe classique. Sa *Nihāyat al-Aqdām fī
+      ʿIlm al-Kalām* est un traité majeur de *kalām* ashʿarite
+      structuré autour de vingt problèmes (*qawāʿid*) et se tient
+      aux côtés de l'*Irshād* d'al-Juwaynī et du *Muḥaṣṣal* d'al-Rāzī
+      comme pilier de l'école. Ibn Khallikān consigne sa mort dans
+      *Wafayāt al-Aʿyān*; al-Dhahabī corrobore dans *Tārīkh al-Islām*;
+      Ibn al-ʿImād confirme dans *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 548, precision: year}
+    canonical_gregorian: {date: 1153-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-shahrastani, subject]]
+    tags: [shafii, ashari, kalam, milal-wa-nihal, khurasan, doxography]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Shahrastani"
+
+  - slug: death-of-sayf-al-din-al-amidi
+    category: scholar_death
+    title_en: Death of Sayf al-Dīn al-Āmidī — Author of *al-Iḥkām fī Uṣūl al-Aḥkām*
+    title_ar: وفاة سيف الدين الآمدي — مصنف «الإحكام في أصول الأحكام»
+    title_fr: Mort de Sayf al-Dīn al-Āmidī — auteur d'*al-Iḥkām fī Uṣūl al-Aḥkām*
+    description_en: |
+      Sayf al-Dīn ʿAlī ibn Abī ʿAlī al-Āmidī, Shafiʿi-Ashʿarī uṣūlī
+      and *mutakallim* of Damascus and a pivotal figure in the
+      transmission of late-Ashʿarī kalām into the Ayyubid era, died
+      in Damascus in 631 AH and was buried at the foot of Mount
+      Qāsiyūn. His *al-Iḥkām fī Uṣūl al-Aḥkām* — a four-volume
+      systematic treatise on uṣūl al-fiqh organised dialectically
+      — became the single most-studied uṣūl text in the Mamluk
+      and Ottoman Shafiʿi curriculum, summarised by al-Subkī, Ibn
+      al-Ḥājib, and others, and remains a primary classical
+      reference today. His *Abkār al-Afkār fī Uṣūl al-Dīn* is a
+      parallel comprehensive Ashʿarī kalām treatise. Originally
+      Hanbali, then Shafiʿi, he absorbed the dialectical method of
+      Fakhr al-Dīn al-Rāzī's school and brought it westward into
+      Syria. Ibn Khallikān records his death in *Wafayāt al-Aʿyān*;
+      al-Dhahabī corroborates in *Siyar Aʿlām al-Nubalāʾ*; Ibn Kathīr
+      confirms in *al-Bidāya wa-l-Nihāya*.
+    description_ar: |
+      توفي الإمام سيف الدين علي بن أبي علي الآمدي — أصولي الشافعية
+      الأشاعرة ومتكلمها بدمشق، أحد أئمة المذهب الذين نقلوا الكلام
+      الأشعري المتأخر إلى العصر الأيوبي — بدمشق سنة إحدى وثلاثين
+      وستمئة، ودُفن بسفح جبل قاسيون. وكتابه «الإحكام في أصول
+      الأحكام» — في أربع مجلدات منهجياً جدلياً — صار المتن الأشهر
+      تدريساً في أصول الفقه الشافعية في عصر المماليك والعثمانيين،
+      اختصره السبكي وابن الحاجب وغيرهما، ولا يزال من أوائل المصادر
+      الكلاسيكية إلى اليوم. وكتابه «أبكار الأفكار في أصول الدين»
+      كتاب جامع نظير في علم الكلام الأشعري. وكان حنبلياً ثم تحول إلى
+      الشافعية، فاستوعب منهج الجدل الكلامي عند مدرسة فخر الدين
+      الرازي ونقله إلى الشام. أرّخ ابن خلكان وفاته في «وفيات الأعيان»،
+      وأقرّه الذهبي في «سير أعلام النبلاء»، وابن كثير في «البداية
+      والنهاية».
+    description_fr: |
+      Sayf al-Dīn ʿAlī ibn Abī ʿAlī al-Āmidī, uṣūlī shafiʿite-
+      ashʿarite et *mutakallim* de Damas et figure pivotale dans
+      la transmission du *kalām* ashʿarite tardif vers l'ère
+      ayyoubide, mourut à Damas en 631 H et fut inhumé au pied du
+      mont Qāsiyūn. Son *al-Iḥkām fī Uṣūl al-Aḥkām* — traité
+      systématique en quatre volumes sur l'uṣūl al-fiqh organisé
+      dialectiquement — devint le texte d'uṣūl le plus étudié dans
+      le programme shafiʿite mamelouk et ottoman, résumé par
+      al-Subkī, Ibn al-Ḥājib et d'autres, et demeure une référence
+      classique de premier plan aujourd'hui. Ses *Abkār al-Afkār
+      fī Uṣūl al-Dīn* sont un traité exhaustif parallèle de *kalām*
+      ashʿarite. Originairement hanbalite, puis shafiʿite, il
+      absorba la méthode dialectique de l'école de Fakhr al-Dīn
+      al-Rāzī et la porta vers l'ouest en Syrie. Ibn Khallikān
+      consigne sa mort dans *Wafayāt al-Aʿyān*; al-Dhahabī corrobore
+      dans *Siyar Aʿlām al-Nubalāʾ*; Ibn Kathīr confirme dans
+      *al-Bidāya wa-l-Nihāya*.
+    canonical_hijri: {year: 631, precision: year}
+    canonical_gregorian: {date: 1233-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_imad_shadharat
+    people: [[sayf-al-din-al-amidi, subject]]
+    tags: [shafii, ashari, usul, kalam, ihkam, damascus, ayyubid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sayf_al-Din_al-Amidi"
+
+  - slug: death-of-siraj-al-din-al-urmawi
+    category: scholar_death
+    title_en: Death of Sirāj al-Dīn al-Urmawī — Author of *Maṭāliʿ al-Anwār*
+    title_ar: وفاة سراج الدين الأرموي — مصنف «مطالع الأنوار»
+    title_fr: Mort de Sirāj al-Dīn al-Urmawī — auteur de *Maṭāliʿ al-Anwār*
+    description_en: |
+      Sirāj al-Dīn Maḥmūd ibn Abī Bakr al-Urmawī, Shafiʿi-Ashʿarī
+      jurist and chief judge (*qāḍī al-quḍāt*) of Konya under the
+      Anatolian Seljuks, died in Konya in 682 AH. Trained in the
+      tradition of Fakhr al-Dīn al-Rāzī, he wrote *Maṭāliʿ al-Anwār*
+      — a logic-and-kalām compendium that became one of the most-
+      taught manuals of formal logic in the post-classical Sunni
+      curriculum, alongside al-Kātibī al-Qazwīnī's *al-Shamsiyya*
+      — and *al-Taḥṣīl min al-Maḥṣūl*, an abridgement of al-Rāzī's
+      *al-Maḥṣūl* in uṣūl al-fiqh. He also composed *Bayān al-Ḥaqq*
+      and *Lubāb al-Arbaʿīn*. His judicial appointment in Konya
+      placed him at the centre of the same Seljuk court patronage
+      that supported Sadr al-Dīn al-Qūnawī's circle, but al-Urmawī's
+      own work remains squarely in mainstream Ashʿarī kalām and
+      Shafiʿi uṣūl. Ibn Khallikān records his death; al-Dhahabī
+      corroborates in *Tārīkh al-Islām*; Ibn al-ʿImād confirms in
+      *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام سراج الدين محمود بن أبي بكر الأرموي — فقيه
+      الشافعية الأشاعرة وقاضي القضاة بقونية في دولة سلاجقة الروم —
+      بقونية سنة اثنتين وثمانين وستمئة. تخرّج على مدرسة فخر الدين
+      الرازي، وصنّف «مطالع الأنوار» جامعاً بين المنطق والكلام، فصار
+      من أكثر متون المنطق تدريساً في المنهج السني المتأخر إلى جانب
+      «الشمسية» للكاتبي القزويني، وله «التحصيل من المحصول» مختصراً
+      «المحصول» للرازي في أصول الفقه، و«بيان الحق» و«لباب الأربعين».
+      وقد ولّاه السلاجقة قضاء قونية حيث كان فيها حلقة صدر الدين
+      القونوي تحت رعاية البلاط نفسه، غير أن الأرموي ثبت على متن
+      الكلام الأشعري وأصول الفقه الشافعية في علميه. أرّخ ابن خلكان
+      وفاته، وأقرّه الذهبي في «تاريخ الإسلام»، وابن العماد في
+      «شذرات الذهب».
+    description_fr: |
+      Sirāj al-Dīn Maḥmūd ibn Abī Bakr al-Urmawī, juriste shafiʿite-
+      ashʿarite et grand juge (*qāḍī al-quḍāt*) de Konya sous les
+      Seldjoukides d'Anatolie, mourut à Konya en 682 H. Formé dans
+      la tradition de Fakhr al-Dīn al-Rāzī, il écrivit *Maṭāliʿ
+      al-Anwār* — un manuel de logique et de *kalām* qui devint
+      l'un des manuels de logique formelle les plus enseignés du
+      programme sunnite post-classique, aux côtés d'*al-Shamsiyya*
+      d'al-Kātibī al-Qazwīnī — et *al-Taḥṣīl min al-Maḥṣūl*, un
+      abrégé d'*al-Maḥṣūl* d'al-Rāzī en uṣūl al-fiqh. Il composa
+      également *Bayān al-Ḥaqq* et *Lubāb al-Arbaʿīn*. Sa
+      nomination judiciaire à Konya le plaça au cœur du même
+      patronage seldjoukide qui soutenait le cercle de Ṣadr al-Dīn
+      al-Qūnawī, mais l'œuvre propre d'al-Urmawī reste fermement
+      dans le *kalām* ashʿarite mainstream et l'uṣūl shafiʿite.
+      Ibn Khallikān consigne sa mort; al-Dhahabī corrobore dans
+      *Tārīkh al-Islām*; Ibn al-ʿImād confirme dans *Shadharāt
+      al-Dhahab*.
+    canonical_hijri: {year: 682, precision: year}
+    canonical_gregorian: {date: 1283-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_imad_shadharat
+    people: [[siraj-al-din-al-urmawi, subject]]
+    tags: [shafii, ashari, logic, usul, kalam, konya, seljuk-anatolia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siraj_al-Din_al-Urmawi"
+
+  - slug: death-of-al-iji-mawaqif
+    category: scholar_death
+    title_en: Death of ʿAḍud al-Dīn al-Ījī — Author of *al-Mawāqif fī ʿIlm al-Kalām*
+    title_ar: وفاة عضد الدين الإيجي — مصنف «المواقف في علم الكلام»
+    title_fr: Mort de ʿAḍud al-Dīn al-Ījī — auteur d'*al-Mawāqif fī ʿIlm al-Kalām*
+    description_en: |
+      ʿAḍud al-Dīn ʿAbd al-Raḥmān ibn Aḥmad al-Ījī, Shafiʿi-Ashʿarī
+      *qāḍī* and *mutakallim* of Shīrāz under the Mongol Ilkhānate
+      and the Muẓaffarid dynasty, died imprisoned at the fortress
+      of Dīrāmīyān (near Kirmān) in 756 AH after a political
+      reverse. His *al-Mawāqif fī ʿIlm al-Kalām* is the canonical
+      late-Ashʿarī kalām compendium — the work that, with al-Sharīf
+      al-Jurjānī's commentary *Sharḥ al-Mawāqif*, defines the
+      standard post-classical Sunni kalām curriculum from the
+      Timurid period through the late Ottoman madrasas. He also
+      composed *al-ʿAqāʾid al-ʿAḍudiyya* (a brief Ashʿarī creed
+      that itself drew the major commentary of al-Dawānī) and
+      *al-Mukhtaṣar fī Uṣūl al-Fiqh* on Shafiʿi uṣūl. Ibn Ḥajar
+      al-ʿAsqalānī gives the death-year in *al-Durar al-Kāmina*;
+      Ibn al-ʿImād corroborates in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام عضد الدين عبد الرحمن بن أحمد الإيجي — قاضي
+      الشافعية الأشاعرة ومتكلمهم بشيراز في عهد الإيلخانية المغولية
+      ودولة المظفّريين — محبوساً في قلعة ديرامِيان قرب كرمان سنة ست
+      وخمسين وسبعمئة بعد حادثة سياسية انقلبت عليه. وكتابه «المواقف
+      في علم الكلام» هو المتن المعتمد في كلام الأشاعرة المتأخرين —
+      وهو وشرحه «شرح المواقف» للسيد الشريف الجرجاني عليه يضبطان
+      منهج كلام أهل السنة المتأخر في مدارس الدولة التيمورية وما
+      بعدها إلى أواخر العثمانيين. وله «العقائد العضدية» في الأشعرية
+      على الاختصار وعليها شرح الدواني الكبير، و«المختصر في أصول
+      الفقه» في أصول الشافعية. ذكر وفاته ابن حجر العسقلاني في
+      «الدرر الكامنة»، وأقرّه ابن العماد في «شذرات الذهب».
+    description_fr: |
+      ʿAḍud al-Dīn ʿAbd al-Raḥmān ibn Aḥmad al-Ījī, *qāḍī* et
+      *mutakallim* shafiʿite-ashʿarite de Shīrāz sous l'ilkhānat
+      mongol et la dynastie Muẓaffaride, mourut emprisonné à la
+      forteresse de Dīrāmīyān (près de Kirmān) en 756 H après un
+      revers politique. Son *al-Mawāqif fī ʿIlm al-Kalām* est le
+      compendium canonique du *kalām* ashʿarite tardif — l'œuvre
+      qui, avec le commentaire d'al-Sharīf al-Jurjānī *Sharḥ
+      al-Mawāqif*, définit le programme standard de *kalām* sunnite
+      post-classique de l'époque timouride aux madrasas ottomanes
+      tardives. Il composa également *al-ʿAqāʾid al-ʿAḍudiyya* (un
+      bref credo ashʿarite qui attira lui-même le commentaire majeur
+      d'al-Dawānī) et *al-Mukhtaṣar fī Uṣūl al-Fiqh* sur l'uṣūl
+      shafiʿite. Ibn Ḥajar al-ʿAsqalānī donne l'année de sa mort
+      dans *al-Durar al-Kāmina*; Ibn al-ʿImād corrobore dans
+      *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 756, precision: year}
+    canonical_gregorian: {date: 1355-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-iji, subject]]
+    tags: [shafii, ashari, kalam, mawaqif, shiraz, ilkhanate, muzaffarid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Adud_al-Din_al-Iji"
+
+  - slug: death-of-al-sharif-al-jurjani
+    category: scholar_death
+    title_en: Death of al-Sharīf al-Jurjānī — Author of *al-Taʿrīfāt* and *Sharḥ al-Mawāqif*
+    title_ar: وفاة السيد الشريف الجرجاني — مصنف «التعريفات» و«شرح المواقف»
+    title_fr: Mort d'al-Sharīf al-Jurjānī — auteur des *Taʿrīfāt* et de *Sharḥ al-Mawāqif*
+    description_en: |
+      al-Sayyid al-Sharīf ʿAlī ibn Muḥammad al-Jurjānī, Shafiʿi-
+      Ashʿarī polymath of Timurid Shīrāz, foremost commentator of
+      al-Ījī and the figure who fixed the late-Sunni technical
+      lexicon, died in Shīrāz in 816 AH. His *Sharḥ al-Mawāqif* is
+      the indispensable companion to al-Ījī's *al-Mawāqif* and
+      together with it forms the canonical post-classical Sunni
+      kalām pair. His *al-Taʿrīfāt* is the standard dictionary of
+      Islamic technical terminology across kalām, fiqh, uṣūl,
+      logic, grammar, and Sufism, in continuous madrasa use to
+      this day. He also composed glosses on al-Taftāzānī's *Sharḥ
+      al-Maqāṣid*, on al-Bayḍāwī's *Anwār al-Tanzīl*, and on the
+      logic and grammar curriculum (*Ḥāshiyat al-Sayyid* on
+      al-Kātibī's *al-Shamsiyya*). His confrontations with
+      al-Taftāzānī at the Timurid court of Samarqand are a
+      formative chapter in the late-Sunni intellectual tradition.
+      Ibn Ḥajar al-ʿAsqalānī gives the death-year in *al-Durar
+      al-Kāmina*; Ibn al-ʿImād confirms in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي الإمام السيد الشريف علي بن محمد الجرجاني — أحد أعلام
+      الموسوعيين من الشافعية الأشاعرة في تيمورية شيراز، أكبر شرّاح
+      الإيجي، وضابط لغة المصطلحات في علوم أهل السنة المتأخرين —
+      بشيراز سنة ست عشرة وثمانمئة. وشرحه «شرح المواقف» على «مواقف»
+      الإيجي صاحبه ضرورة عند طلبة الكلام، يكوّن معه ثنائية المتن
+      المعتمد في الكلام السني المتأخر. وكتابه «التعريفات» هو معجم
+      المصطلحات في الكلام والفقه والأصول والمنطق والنحو والتصوف،
+      لا يستغني عنه طالب علم في المدارس إلى اليوم. وله حواشٍ على
+      «شرح المقاصد» للتفتازاني، و«أنوار التنزيل» للبيضاوي، وحاشيته
+      المعروفة بـ«حاشية السيد» على «شمسية» الكاتبي في المنطق. وأمّا
+      مناظراته مع التفتازاني في بلاط تيمور بسمرقند فهي من فصول
+      التراث الفكري السني المتأخر المؤسسة. ذكر وفاته ابن حجر في
+      «الدرر الكامنة»، وأقرّه ابن العماد في «شذرات الذهب».
+    description_fr: |
+      al-Sayyid al-Sharīf ʿAlī ibn Muḥammad al-Jurjānī, polymathe
+      shafiʿite-ashʿarite du Shīrāz timouride, le plus grand
+      commentateur d'al-Ījī et la figure qui fixa le lexique
+      technique sunnite tardif, mourut à Shīrāz en 816 H. Son
+      *Sharḥ al-Mawāqif* est le compagnon indispensable des
+      *Mawāqif* d'al-Ījī, et ensemble ils forment le couple
+      canonique du *kalām* sunnite post-classique. Ses *Taʿrīfāt*
+      sont le dictionnaire standard de la terminologie technique
+      islamique à travers le *kalām*, le fiqh, l'uṣūl, la logique,
+      la grammaire et le tasawwuf, en usage continu dans les
+      madrasas jusqu'à ce jour. Il composa également des gloses
+      sur le *Sharḥ al-Maqāṣid* d'al-Taftāzānī, sur les *Anwār
+      al-Tanzīl* d'al-Bayḍāwī, et sur le programme de logique et
+      de grammaire (*Ḥāshiyat al-Sayyid* sur *al-Shamsiyya*
+      d'al-Kātibī). Ses confrontations avec al-Taftāzānī à la cour
+      timouride de Samarcande constituent un chapitre fondateur de
+      la tradition intellectuelle sunnite tardive. Ibn Ḥajar
+      al-ʿAsqalānī donne l'année de sa mort dans *al-Durar
+      al-Kāmina*; Ibn al-ʿImād confirme dans *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 816, precision: year}
+    canonical_gregorian: {date: 1413-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+      - source_key: ibn_imad_shadharat
+      - source_key: ei2
+    people: [[al-sharif-al-jurjani, subject]]
+    tags: [shafii, ashari, kalam, tarifat, sharh-al-mawaqif, shiraz, timurid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sayyid_al-Sharif_al-Jurjani"
+
+  - slug: death-of-al-laqani
+    category: scholar_death
+    title_en: Death of Burhān al-Dīn al-Lāqānī — Author of *Jawharat al-Tawḥīd*
+    title_ar: وفاة برهان الدين اللقاني — مصنف «جوهرة التوحيد»
+    title_fr: Mort de Burhān al-Dīn al-Lāqānī — auteur de la *Jawharat al-Tawḥīd*
+    description_en: |
+      Burhān al-Dīn Ibrāhīm ibn Ibrāhīm al-Lāqānī, Maliki-Ashʿarī
+      mutakallim of al-Azhar and one of the leading creedal
+      teachers of his generation in Cairo, died on his return from
+      pilgrimage in 1041 AH. His *Jawharat al-Tawḥīd* — a 144-line
+      versified Ashʿarī creed (*urjūza*) — became, alongside
+      al-Sanūsī's *Umm al-Barāhīn*, the most-memorised Ashʿarī
+      catechism across the Sunni world, particularly in Maliki
+      Egypt and the Maghreb. He himself wrote two commentaries on
+      it (*Hidāyat al-Murīd* and *ʿUmdat al-Murīd*); his son ʿAbd
+      al-Salām al-Lāqānī wrote the standard commentary *Itḥāf
+      al-Murīd*, and al-Bāǧūrī (1276 AH) the most-used later
+      ḥāshiya. Ibn al-ʿImād records his death under 1041 AH in the
+      final volume of *Shadharāt al-Dhahab*; EI2 corroborates and
+      gives the standard biographical sketch.
+    description_ar: |
+      توفي الإمام برهان الدين إبراهيم بن إبراهيم اللقاني — متكلم
+      المالكية الأشاعرة بالأزهر، أحد أئمة العقيدة في طبقته في
+      القاهرة — في رجوعه من الحجّ سنة إحدى وأربعين بعد الألف.
+      وأرجوزته «جوهرة التوحيد» في مئة أربع وأربعين بيتاً نظماً
+      لعقيدة الأشاعرة، صارت — إلى جانب «أم البراهين» للسنوسي — أكثر
+      متون العقيدة حفظاً في بلاد أهل السنة، ولا سيما في مصر المالكية
+      والمغرب. شرحها هو نفسه شرحين هما «هداية المريد» و«عمدة المريد»؛
+      وشرحها ابنه عبد السلام اللقاني الشرح المعتمد «إتحاف المريد»؛
+      ووضع عليها الباجوري المتوفى سنة ست وسبعين ومئتين بعد الألف
+      أشهر الحواشي المتأخرة. أرّخ ابن العماد وفاته في الجزء الأخير
+      من «شذرات الذهب» سنة إحدى وأربعين بعد الألف، وأقرّه «دائرة
+      المعارف الإسلامية» وضبطت ترجمته.
+    description_fr: |
+      Burhān al-Dīn Ibrāhīm ibn Ibrāhīm al-Lāqānī, *mutakallim*
+      malikite-ashʿarite d'al-Azhar et l'un des principaux maîtres
+      de credo de sa génération au Caire, mourut au retour du
+      pèlerinage en 1041 H. Sa *Jawharat al-Tawḥīd* — un credo
+      ashʿarite versifié en 144 vers (*urjūza*) — devint, aux
+      côtés de l'*Umm al-Barāhīn* d'al-Sanūsī, le catéchisme
+      ashʿarite le plus mémorisé à travers le monde sunnite, en
+      particulier dans l'Égypte malikite et le Maghreb. Il en
+      écrivit lui-même deux commentaires (*Hidāyat al-Murīd* et
+      *ʿUmdat al-Murīd*); son fils ʿAbd al-Salām al-Lāqānī rédigea
+      le commentaire standard *Itḥāf al-Murīd*, et al-Bāǧūrī
+      (1276 H) la *ḥāshiya* postérieure la plus utilisée. Ibn
+      al-ʿImād consigne sa mort à l'année 1041 H dans le volume
+      final des *Shadharāt al-Dhahab*; l'EI2 corrobore et fournit
+      la notice biographique standard.
+    canonical_hijri: {year: 1041, precision: year}
+    canonical_gregorian: {date: 1632-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[al-laqani, subject]]
+    tags: [maliki, ashari, kalam, jawharat-al-tawhid, cairo, azhar, ottoman]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibrahim_al-Laqani"
+
+  # Aḥmad al-Dardīr (1201 AH) intentionally NOT duplicated here —
+  # canonical entry lives in 95_azhari_egyptian_18_20c.yaml as
+  # `death-of-ahmad-al-dardir` (Azhari context fits him better).

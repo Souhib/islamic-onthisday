@@ -1,0 +1,1044 @@
+# Wave 61 of curated event additions (2026-04-27).
+# Seljuk and Ghaznavid rulers, the Sāmānids of Khurāsān-Transoxiana,
+# and Sayf al-Dawla al-Ḥamdānī of Aleppo. The political-military
+# scaffolding of the eastern Sunni Islamic world from the late
+# 3rd AH century through the mid-6th AH century.
+#
+# Already in dataset (NOT duplicated here):
+#   - assassination-of-nizam-al-mulk (485 AH)  — file 23
+#   - battle-of-manzikert            (463 AH)  — file 14
+#
+# All events attested in classical Sunni sources — Ibn al-Athīr,
+# al-Kāmil; Ibn Kathīr, al-Bidāya wa-l-Nihāya; al-Dhahabī, Tārīkh
+# al-Islām and Siyar Aʿlām al-Nubalāʾ; Ibn Khallikān, Wafayāt
+# al-Aʿyān. Where day-precision is firmly attested across multiple
+# classical sources it is used; otherwise the entry is month- or
+# year-precision per the date-uncertainty protocol. Trilingual
+# en/ar/fr throughout.
+#
+# Sectarian framing: Seljuks and Ghaznavids are Sunni; the Sāmānids
+# are Sunni (specifically Ḥanafī patrons of Persianate learning;
+# the Sāmānid court is where Bukhārī's homeland-region matured a
+# classical-Persian Sunni literary culture). The Ḥamdānids of
+# Aleppo were Twelver Shia by adherence, but Sayf al-Dawla's
+# court is shared cultural heritage — patron of al-Mutanabbī,
+# al-Fārābī, the philologist Ibn Khālawayh — so the entry is
+# framed factually around the political-cultural role rather than
+# the doctrinal one.
+
+events:
+  # =========================================================================
+  # SĀMĀNIDS — THE SUNNI PERSIANATE STATE THAT PRECEDED THE GHAZNAVIDS
+  # =========================================================================
+
+  - slug: death-of-ismail-ibn-ahmad-samani
+    category: ruler_death
+    title_en: Death of Ismāʿīl ibn Aḥmad — Founder of the Sāmānid State
+    title_ar: وفاة إسماعيل بن أحمد الساماني — مؤسس الدولة السامانية
+    title_fr: Mort d'Ismāʿīl ibn Aḥmad — fondateur de l'État sāmānide
+    description_en: |
+      Abū Ibrāhīm Ismāʿīl ibn Aḥmad al-Sāmānī, the amīr who unified
+      the Sāmānid lands of Transoxiana and Khurāsān under a single
+      Sunni Persianate authority and is considered the dynasty's
+      effective founder, died at Bukhārā at about age sixty. His
+      defeat of the last Ṣaffārid ruler ʿAmr ibn Layth at Balkh in
+      287 AH had transferred Khurāsān from Ṣaffārid to Sāmānid
+      rule by an ʿAbbāsid investiture, making Bukhārā — under
+      Sāmānid patronage — the leading centre of Persian-language
+      Sunni learning during the next century. The Sāmānid court
+      patronised the historian al-Ṭabarī (in correspondence), the
+      poet Rūdakī, and the philosopher Ibn Sīnā in his youth;
+      under his successors the great Persian Quranic translation
+      and tafsir-tradition would be commissioned, and Bukhārā
+      would house the largest library in the eastern Islamic
+      world before the Mongols. He was succeeded by his son
+      Aḥmad ibn Ismāʿīl.
+    description_ar: |
+      توفي الأمير أبو إبراهيم إسماعيل بن أحمد الساماني — الأمير
+      الذي وحَّد بلاد ما وراء النهر وخراسان تحت سلطة سنية فارسية
+      واحدة ويُعدّ المؤسسَ الفعلي للدولة السامانية — ببخارى عن
+      نحو ستين سنة. وكان قد هزم آخرَ أمراء الصفّاريّين عمرو بن
+      الليث ببلخ سنة ٢٨٧ هـ، فآلت خراسان من الصفّاريين إلى
+      السامانيّين بتقليد عبّاسي، فصارت بخارى — في رعاية الدولة
+      السامانية — أكبر منارات العلم السني الفارسي في القرن التالي.
+      ورعى البلاط الساماني المؤرخَ الطبري (مكاتبة)، والشاعر
+      الرودكي، والفيلسوفَ ابن سينا في شبابه؛ وفي عهد خلفائه أُلِّف
+      أوائل تراجم القرآن إلى الفارسية وكتب التفسير الفارسي،
+      وحَوَت بخارى أكبرَ خزانة كتب في المشرق الإسلامي قبل المغول.
+      وخلفه ابنه أحمد بن إسماعيل.
+    description_fr: |
+      Abū Ibrāhīm Ismāʿīl ibn Aḥmad al-Sāmānī, l'émir qui unifia
+      les terres sāmānides de Transoxiane et du Khurāsān sous une
+      autorité sunnite persane unique et qui est considéré comme
+      le fondateur effectif de la dynastie, mourut à Boukhara à
+      l'âge d'environ soixante ans. Sa défaite du dernier
+      Ṣaffāride ʿAmr ibn Layth à Balkh en 287 H avait transféré le
+      Khurāsān des Ṣaffārides aux Sāmānides par investiture
+      ʿabbāsside, faisant de Boukhara — sous le mécénat sāmānide
+      — le principal foyer de l'érudition sunnite persane durant
+      le siècle suivant. La cour sāmānide patronna l'historien
+      al-Ṭabarī (par correspondance), le poète Rūdakī, et le jeune
+      philosophe Ibn Sīnā; sous ses successeurs furent commandés
+      les premières traductions persanes du Coran et la tradition
+      du tafsīr persan, et Boukhara abrita la plus grande
+      bibliothèque du monde islamique oriental avant les Mongols.
+      Il fut succédé par son fils Aḥmad ibn Ismāʿīl.
+    canonical_hijri: {year: 295, month: 2, precision: month}
+    canonical_gregorian: {date: 907-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Ismāʿīl al-Sāmānī under the events of 295 AH at Bukhārā."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the death in 295 AH and notes his unification of Khurāsān and Transoxiana."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Ismāʿīl among the obituaries of 295 AH."
+    people: [[ismail-samani, subject]]
+    tags: [samanid, bukhara, transoxiana, khurasan, persian, sunni, ruler]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-nasr-ii-samani
+    category: ruler_death
+    title_en: Death of Naṣr II al-Sāmānī — The Sāmānid Golden Age
+    title_ar: وفاة نصر الثاني الساماني — العصر الذهبي للدولة السامانية
+    title_fr: Mort de Naṣr II al-Sāmānī — l'âge d'or sāmānide
+    description_en: |
+      Abū al-Ḥasan Naṣr ibn Aḥmad ibn Ismāʿīl, eighth Sāmānid amīr
+      and grandson of the dynasty's founder, died at Bukhārā after
+      a thirty-year reign that classical sources unanimously
+      describe as the political and cultural apogee of Sāmānid
+      rule. His court patronised the poet-laureate Rūdakī, the
+      poet Daqīqī (whose verse fragments would be folded into
+      Firdawsī's *Shāhnāma* a generation later), and the early
+      Sāmānid Persianate tradition that produced the first
+      complete Persian translation of al-Ṭabarī's *Tafsīr* under
+      his successor Manṣūr I. He had abdicated in 331 AH a few
+      months before his death in favour of his son Nūḥ I after
+      an Ismāʿīlī missionary controversy at his court — Sāmānid
+      religious establishment had pressured him to renounce
+      Ismāʿīlī sympathies. The Sāmānid state would persist
+      for another half-century before falling to the Qarakhānid
+      Turks, but its golden age effectively ended with him.
+    description_ar: |
+      توفي الأمير أبو الحسن نصر بن أحمد بن إسماعيل بن أحمد —
+      ثامن أمراء بني سامان وحفيدُ مؤسس الدولة — ببخارى بعد ولاية
+      امتدت ثلاثين سنة، تجمع المصادر الكلاسيكية على أنها كانت
+      ذروة الدولة السامانية سياسياً وثقافياً. وقد رعى بلاطه
+      الشاعرَ الكبير الرودكي، والشاعرَ الدقيقي (الذي ضمَّ الفردوسي
+      شذرات شعره في «شاهنامة» بعد جيل)، وأنشأ التقليدَ السامانيَّ
+      الأدبي الفارسي الذي أنتج في عهد خلفه منصور الأول أولَ ترجمة
+      كاملة لتفسير الطبري إلى الفارسية. وقد تنازل عن الإمارة في
+      سنة ٣٣١ هـ قبل أشهر من وفاته لابنه نوح الأول إثر فتنة
+      دعاية إسماعيلية في بلاطه — ضغط عليه أهلُ السنة من العلماء
+      ليرفض ميله إلى الإسماعيلية. وستبقى الدولة السامانية بعده
+      نصف قرن قبل سقوطها على يد القراخانيين، لكن عصرها الذهبي
+      انتهى بموته فعلاً.
+    description_fr: |
+      Abū al-Ḥasan Naṣr ibn Aḥmad ibn Ismāʿīl, huitième émir
+      sāmānide et petit-fils du fondateur de la dynastie, mourut
+      à Boukhara après un règne de trente ans que les sources
+      classiques décrivent unanimement comme l'apogée politique
+      et culturel de la domination sāmānide. Sa cour patronna le
+      poète-lauréat Rūdakī, le poète Daqīqī (dont les fragments
+      seraient absorbés dans le *Shāhnāma* de Firdawsī une
+      génération plus tard), et la tradition persane primitive
+      sāmānide qui produisit, sous son successeur Manṣūr I, la
+      première traduction persane intégrale du *Tafsīr* d'al-Ṭabarī.
+      Il avait abdiqué en 331 H quelques mois avant sa mort en
+      faveur de son fils Nūḥ I à la suite d'une polémique liée à
+      un missionnaire ismaélien à sa cour — l'establishment
+      religieux sunnite l'avait pressé de renoncer à ses
+      sympathies ismaéliennes. L'État sāmānide subsisterait encore
+      un demi-siècle avant de tomber aux mains des Qarakhānides
+      turcs, mais son âge d'or s'acheva en pratique avec lui.
+    canonical_hijri: {year: 331, precision: year}
+    canonical_gregorian: {date: 943-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Naṣr ibn Aḥmad in 331 AH and details the Ismāʿīlī controversy at his court."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the death in 331 AH."
+      - source_key: dhahabi_siyar
+        notes: "al-Dhahabī's Siyar Aʿlām al-Nubalāʾ places the death in 331 AH and gives biographical detail."
+    people: [[nasr-ii-samani, subject]]
+    tags: [samanid, bukhara, persian, sunni, rudaki, golden-age, ruler]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ḤAMDĀNID ALEPPO — SAYF AL-DAWLA AS POLITICAL-CULTURAL FIGURE
+  # =========================================================================
+
+  - slug: death-of-sayf-al-dawla-al-hamdani
+    category: ruler_death
+    title_en: Death of Sayf al-Dawla al-Ḥamdānī — Patron of al-Mutanabbī and the Aleppine Court
+    title_ar: وفاة سيف الدولة الحمداني — راعي المتنبي وبلاط حلب
+    title_fr: Mort de Sayf al-Dawla al-Ḥamdānī — protecteur d'al-Mutanabbī et de la cour d'Alep
+    description_en: |
+      Sayf al-Dawla Abū al-Ḥasan ʿAlī ibn ʿAbd Allāh al-Ḥamdānī,
+      Ḥamdānid amīr of Aleppo and northern Syria, died at Aleppo
+      after years of debilitating illness, aged fifty-one. His
+      twenty-year emirate was defined by a sustained ribāṭ-style
+      frontier war with the Byzantine empire — annual campaigns
+      across the Cilician marches that included a victory at
+      Marʿash (339 AH) and the loss of Aleppo to Nicephorus
+      Phocas in 351 AH, an event from which the Ḥamdānid power
+      never fully recovered. The classical sources record him
+      above all as the convening patron of the most dazzling Arab
+      literary court since the early Abbasid era: al-Mutanabbī
+      composed his greatest panegyric and lament cycle for him,
+      the philologist Ibn Khālawayh refined his lexicographical
+      work at his expense, and the philosopher al-Fārābī spent
+      his last years in Aleppo under his protection. The
+      Ḥamdānids were Twelver Shia by adherence; the Aleppine
+      court he convened, however, drew Sunni and Shia,
+      Christian and Muslim, Greek translators and Arab poets
+      together, and is remembered in Sunni biographical
+      tradition (Ibn Khallikān, Ibn al-Athīr) for that cultural
+      role rather than for sectarian framing.
+    description_ar: |
+      توفي الأمير سيف الدولة أبو الحسن علي بن عبد الله
+      الحمداني — أمير حلب وشمالي الشام من بني حمدان — بحلب بعد
+      سنوات من المرض المُقعِد وله إحدى وخمسون سنة. وكانت إمارته
+      التي امتدت عشرين سنة موسومة بحرب ربط ثغرية مستدامة على
+      الجبهة البيزنطية — حملات سنوية عبر مرعش الكليكية، فيها
+      انتصاره بمعركة مرعش سنة ٣٣٩ هـ ثم سقوطُ حلب في يد نقفور
+      فوكاس سنة ٣٥١ هـ، حادثةٌ لم تستعد منها الدولة الحمدانية
+      كامل قواها. وتسجِّل المصادر الكلاسيكية أنه قبل ذلك كله
+      كان جامعَ أبهى البلاطات الأدبية العربية منذ أوائل العصر
+      العباسي: نظم له المتنبي أعظم مدائحه ورثاءه، وسنَّ ابن
+      خالويه تنقيحاته اللغوية على نفقته، وأمضى أبو نصر الفارابي
+      آخر سنواته بحلب في حمايته. وكان بنو حمدان شيعة إمامية،
+      لكن البلاطَ الحلبيَّ الذي أقامه جمع أهل السنة والشيعة،
+      والنصارى والمسلمين، والمترجمين الإغريق والشعراء العرب،
+      ويذكره أهلُ التراجم السنية (ابن خلكان، ابن الأثير) بهذا
+      الدور الثقافي قبل كل تصنيف مذهبي.
+    description_fr: |
+      Sayf al-Dawla Abū al-Ḥasan ʿAlī ibn ʿAbd Allāh al-Ḥamdānī,
+      émir hamdanide d'Alep et de Syrie du Nord, mourut à Alep
+      après des années de maladie débilitante, à l'âge de
+      cinquante et un ans. Son émirat de vingt ans fut défini par
+      une guerre frontalière soutenue de type *ribāṭ* contre
+      l'empire byzantin — campagnes annuelles à travers les
+      marches ciliciennes incluant une victoire à Marʿash (339 H)
+      et la perte d'Alep à Nicéphore Phocas en 351 H, événement
+      dont le pouvoir hamdanide ne se releva jamais entièrement.
+      Les sources classiques le retiennent surtout comme le
+      mécène réunissant la cour littéraire arabe la plus
+      éblouissante depuis le début de l'époque abbasside :
+      al-Mutanabbī composa pour lui ses plus grands panégyriques
+      et thrénodies, le philologue Ibn Khālawayh affina son
+      œuvre lexicographique à ses frais, et le philosophe
+      al-Fārābī passa ses dernières années à Alep sous sa
+      protection. Les Hamdanides étaient duodécimains chiites
+      d'adhésion; la cour alépine qu'il convoqua rassembla
+      cependant sunnites et chiites, chrétiens et musulmans,
+      traducteurs grecs et poètes arabes, et la tradition
+      biographique sunnite (Ibn Khallikān, Ibn al-Athīr) le
+      retient pour ce rôle culturel avant tout cadre confessionnel.
+    canonical_hijri: {year: 356, month: 2, day: 25, precision: day}
+    canonical_gregorian: {date: 967-02-14, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Sayf al-Dawla under the events of 356 AH at Aleppo."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the death in 356 AH and gives biographical detail on the Ḥamdānid emirate."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's biographical entry on Sayf al-Dawla places the death on 25 Ṣafar 356 AH at Aleppo and details the literary court."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Sayf al-Dawla among the obituaries of 356 AH."
+    people: [[sayf-al-dawla-hamdani, subject]]
+    tags: [hamdanid, aleppo, syria, mutanabbi, farabi, byzantine-frontier, ruler]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # GHAZNAVIDS — FROM SEBÜKTIGĪN TO MASʿŪD I
+  # =========================================================================
+
+  - slug: death-of-sebuktigin
+    category: ruler_death
+    title_en: Death of Sebüktigīn — Founder of the Ghaznavid Dynasty
+    title_ar: وفاة سبكتكين — مؤسس الدولة الغزنوية
+    title_fr: Mort de Sebüktigīn — fondateur de la dynastie ghaznavide
+    description_en: |
+      Abū Manṣūr Sebüktigīn — Turkish ghulām commander who had
+      risen through Sāmānid military service to become governor
+      of Ghazna in 366 AH and effective founder of the Ghaznavid
+      polity — died on the road back from Balkh after a campaign
+      to enforce Sāmānid suzerainty in eastern Khurāsān, aged
+      about fifty-six. He had received the formal investiture
+      of Khurāsān from the Sāmānid amīr Nūḥ II in 384 AH on
+      condition of suppressing the rebellious Sāmānid general
+      Fāʾiq, and his rule had extended Ghazna's authority east
+      to Peshawar (where he defeated Jaipāl, the Hindu Shahi
+      ruler) and west to the Sāmānid heartland. His son Maḥmūd
+      succeeded him after a brief succession contest with his
+      brother Ismāʿīl. The Ghaznavid state Sebüktigīn founded —
+      Sunni Ḥanafī, Persianate in court culture, Turkish-Iranian
+      in military composition — would under Maḥmūd become the
+      dominant political force in eastern Iran and northern
+      India for thirty years.
+    description_ar: |
+      توفي الأمير أبو منصور سبكتكين — المملوك التركي الذي ارتقى
+      في الجيش الساماني حتى وُلِّي غزنة سنة ٣٦٦ هـ، وكان المؤسسَ
+      الفعلي للدولة الغزنوية — في طريق عودته من بلخ بعد حملة
+      أعاد فيها الطاعة السامانية إلى شرق خراسان، وله نحو ست
+      وخمسون سنة. وكان قد تلقى التقليد الرسمي على خراسان من
+      الأمير الساماني نوح الثاني سنة ٣٨٤ هـ على أن يقمع تمرّد
+      القائد الساماني فائق، فوسَّع سلطان غزنة شرقاً إلى بيشاور
+      (هزم بها جيپال أمير الراجوات الهنديين «الشاهي» الهندوس)
+      وغرباً إلى صلب البلاد السامانية. وخلفه ابنه محمود بعد
+      نزاع وراثي وجيز مع أخيه إسماعيل. وستصير الدولة الغزنوية
+      التي أسسها سبكتكين — سنية حنفية، فارسية البلاط، تركية
+      إيرانية الجيش — في عهد محمود أكبر القوى السياسية في
+      شرقي إيران وشمالي الهند ثلاثين سنة.
+    description_fr: |
+      Abū Manṣūr Sebüktigīn — commandant ghulām turc qui s'était
+      hissé dans le service militaire sāmānide jusqu'à devenir
+      gouverneur de Ghazna en 366 H et fondateur effectif de
+      l'État ghaznavide — mourut sur le chemin du retour de
+      Balkh après une campagne destinée à imposer la suzeraineté
+      sāmānide dans l'est du Khurāsān, à l'âge d'environ
+      cinquante-six ans. Il avait reçu l'investiture formelle du
+      Khurāsān de l'émir sāmānide Nūḥ II en 384 H à condition
+      d'écraser le général sāmānide rebelle Fāʾiq, et son règne
+      avait étendu l'autorité de Ghazna vers l'est jusqu'à
+      Peshawar (où il défit Jaipāl, le souverain hindou des
+      Shāhī) et vers l'ouest jusqu'au cœur des terres sāmānides.
+      Son fils Maḥmūd lui succéda après une brève contestation
+      successorale avec son frère Ismāʿīl. L'État ghaznavide
+      fondé par Sebüktigīn — sunnite ḥanafī, persanisé à la cour,
+      turco-iranien dans sa composition militaire — deviendrait
+      sous Maḥmūd la principale force politique de l'Iran
+      oriental et du nord de l'Inde pendant trente ans.
+    canonical_hijri: {year: 387, month: 8, precision: month}
+    canonical_gregorian: {date: 997-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Sebüktigīn under the events of 387 AH on the road from Balkh and details the succession contest between Maḥmūd and Ismāʿīl."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the death in 387 AH and the succession of Maḥmūd."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Sebüktigīn among the obituaries of 387 AH."
+    people: [[sebuktigin, subject]]
+    tags: [ghaznavid, ghazna, khurasan, turkish, sunni, dynastic_founding, ruler]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-mahmud-of-ghazna
+    category: ruler_death
+    title_en: Death of Maḥmūd of Ghazna — The Conqueror of India
+    title_ar: وفاة محمود الغزنوي — فاتح الهند
+    title_fr: Mort de Maḥmūd de Ghazna — le conquérant de l'Inde
+    description_en: |
+      Yamīn al-Dawla Maḥmūd ibn Sebüktigīn, the Ghaznavid sultan
+      whose thirty-year reign made Ghazna the wealthiest court
+      in the eastern Islamic world, died at Ghazna at about
+      sixty after a long illness. The classical sources credit
+      him with seventeen expeditions across the Hindu Kush into
+      northern India between 391 AH and 416 AH — the most famous
+      of which, the raid on Somnath in 416 AH, captured the
+      temple's treasure and shattered its central icon. His
+      destruction of the Sāmānid state in 389 AH had transferred
+      Khurāsān to direct Ghaznavid rule; his coinage as
+      *Yamīn al-Dawla* under ʿAbbāsid investiture made him the
+      first Sunni Turkic sultan recognised by Baghdad. His
+      court patronised the poet Firdawsī (whose *Shāhnāma*
+      was completed for him in 400 AH), the polymath al-Bīrūnī
+      (whose *Taḥqīq mā li-l-Hind* was researched during the
+      Indian campaigns), and built Ghazna into a centre of
+      Persian Sunni learning that the Seljuks would inherit a
+      decade after his death. He was succeeded briefly by his
+      son Muḥammad before Masʿūd I seized the throne.
+    description_ar: |
+      توفي السلطان يمين الدولة محمود بن سبكتكين — السلطان الغزنوي
+      الذي جعلت ولايتُه التي امتدت ثلاثين سنة من غزنة أغنى بلاط
+      في المشرق الإسلامي — بغزنة عن نحو ستين سنة بعد علة طويلة.
+      وتنسب إليه المصادرُ الكلاسيكية سبع عشرة غزوة عبر هندوكوش
+      إلى شمالي الهند بين ٣٩١ و ٤١٦ هـ، أشهرها غزوته «سومنات»
+      سنة ٤١٦ هـ التي فتح بها معبدها وأخذ ذخائرَه وكسر صنمَه
+      المركزي. وكان قد دكّ الدولة السامانية سنة ٣٨٩ هـ فآلت
+      خراسان إلى الحكم الغزنوي المباشر؛ وضرب اسمَه على السكة
+      «يمين الدولة» بتقليد عبّاسي، فكان أولَ سلطان تركي سني
+      اعترفت به بغداد. ورعى بلاطه الشاعرَ الفردوسي (الذي أكمل
+      له «شاهنامة» سنة ٤٠٠ هـ)، والعالم الموسوعي البيروني
+      (الذي حقق «تحقيق ما للهند» إبان حملاته الهندية)، وأقام
+      من غزنة مركزاً لعلوم الفرس السنية ورثه السلاجقة بعد
+      موته بعقد. وخلفه قليلاً ابنه محمد قبل أن يتغلب عليه
+      أخوه مسعود الأول.
+    description_fr: |
+      Yamīn al-Dawla Maḥmūd ibn Sebüktigīn, le sultan ghaznavide
+      dont le règne de trente ans fit de Ghazna la cour la plus
+      riche du monde islamique oriental, mourut à Ghazna à
+      l'âge d'environ soixante ans après une longue maladie.
+      Les sources classiques lui attribuent dix-sept expéditions
+      à travers l'Hindou-Kouch jusqu'au nord de l'Inde entre
+      391 H et 416 H — la plus célèbre étant le raid sur Somnāth
+      en 416 H, qui captura le trésor du temple et brisa son
+      idole centrale. Sa destruction de l'État sāmānide en 389 H
+      avait transféré le Khurāsān à la souveraineté ghaznavide
+      directe; sa monnaie comme *Yamīn al-Dawla* sous investiture
+      ʿabbāsside fit de lui le premier sultan turc sunnite
+      reconnu par Bagdad. Sa cour patronna le poète Firdawsī
+      (dont le *Shāhnāma* fut achevé pour lui en 400 H), le
+      polymathe al-Bīrūnī (qui mena ses recherches du *Taḥqīq mā
+      li-l-Hind* durant les campagnes indiennes), et fit de
+      Ghazna un foyer d'érudition persane sunnite dont les
+      Seljoukides hériteraient une décennie après sa mort. Il
+      fut succédé brièvement par son fils Muḥammad avant que
+      Masʿūd I ne s'empare du trône.
+    canonical_hijri: {year: 421, month: 4, day: 23, precision: day}
+    canonical_gregorian: {date: 1030-05-06, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Maḥmūd in 421 AH at Ghazna and details the succession contest of Muḥammad and Masʿūd."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the death of Maḥmūd in 421 AH on 23 Rabīʿ al-Thānī."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the standard biographical entry placing the death on 23 Rabīʿ al-Thānī 421 AH and detailing the Indian campaigns."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Maḥmūd among the obituaries of 421 AH."
+    people: [[mahmud-of-ghazna, subject]]
+    tags: [ghaznavid, ghazna, khurasan, india, somnath, persian, sunni, ruler]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-masud-i-of-ghazna
+    category: ruler_death
+    title_en: Death of Masʿūd I of Ghazna — End of the Ghaznavid Empire in Iran
+    title_ar: مقتل مسعود الأول الغزنوي — نهاية الدولة الغزنوية في المشرق الإيراني
+    title_fr: Mort de Masʿūd I de Ghazna — fin de la domination ghaznavide en Iran
+    description_en: |
+      Shihāb al-Dawla Masʿūd ibn Maḥmūd, second great Ghaznavid
+      sultan, was deposed and killed by his own guard at the
+      fortress of Gīrī (in the Marigala pass east of the Indus)
+      after eleven years of rule that ended with the disastrous
+      defeat to the Seljuks at Dandanaqān a year earlier. He had
+      seized the throne in 421 AH from his brother Muḥammad,
+      whom he blinded and confined; but his reign was consumed
+      by the failed defence of Khurāsān against the rising
+      Seljuks. After Dandanaqān (Ramaḍān 431 AH) he withdrew
+      across the Hindu Kush toward Lahore intending to use the
+      Indian provinces as the base for a counter-attack, but his
+      troops mutinied at Marigala, deposed him, and proclaimed
+      his blinded brother Muḥammad as sultan. Masʿūd was
+      murdered shortly afterwards. The Ghaznavid state survived
+      another century and a half, but as a shrunken Indo-Iranian
+      power based at Lahore — Khurāsān had passed irrevocably to
+      the Seljuks.
+    description_ar: |
+      خُلع السلطان شهاب الدولة مسعود بن محمود — ثاني سلاطين بني
+      غزنة الكبار — وقُتل على يد حرسه في حصن «جيري» (في فجّ
+      مارگلا شرقي السند) بعد ولاية إحدى عشرة سنة كانت قد انتهت
+      بهزيمته الفادحة على يد السلاجقة بدندانقان قبل سنة. وكان قد
+      استولى على العرش سنة ٤٢١ هـ من أخيه محمد، فسمل عينيه
+      وحبسه؛ لكنه استنفد ولايته كلها في الدفاع الفاشل عن خراسان
+      أمام صعود السلاجقة. وبعد دندانقان (رمضان ٤٣١ هـ) انسحب
+      عبر هندوكوش نحو لاهور قاصداً اتخاذَ المقاطعات الهندية
+      قاعدةً للهجوم المضاد، لكنّ جنودَه تمردوا عليه بمارگلا
+      وخلعوه ونادوا بأخيه محمد المسمول سلطاناً، فقُتل مسعود
+      بعد ذلك بقليل. وستبقى الدولة الغزنوية بعد ذلك قرناً
+      ونصفاً، لكنها قوة هند-إيرانية ضامرة قاعدتها لاهور — وآلت
+      خراسان نهائياً إلى السلاجقة.
+    description_fr: |
+      Shihāb al-Dawla Masʿūd ibn Maḥmūd, deuxième grand sultan
+      ghaznavide, fut déposé et tué par sa propre garde à la
+      forteresse de Gīrī (dans le défilé de Margalla, à l'est de
+      l'Indus) après onze années de règne qui s'achevèrent par
+      la défaite désastreuse face aux Seljoukides à Dandanaqān
+      un an plus tôt. Il avait pris le trône en 421 H à son frère
+      Muḥammad, qu'il aveugla et emprisonna; mais son règne fut
+      consumé par la défense ratée du Khurāsān face à la montée
+      seldjoukide. Après Dandanaqān (Ramaḍān 431 H), il se retira
+      à travers l'Hindou-Kouch vers Lahore avec l'intention
+      d'utiliser les provinces indiennes comme base d'une
+      contre-attaque, mais ses troupes se mutinèrent à Margalla,
+      le déposèrent, et proclamèrent sultan son frère aveugle
+      Muḥammad; Masʿūd fut assassiné peu après. L'État ghaznavide
+      survivrait encore un siècle et demi, mais comme puissance
+      indo-iranienne réduite basée à Lahore — le Khurāsān était
+      passé irrévocablement aux Seljoukides.
+    canonical_hijri: {year: 432, month: 1, precision: month}
+    canonical_gregorian: {date: 1040-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the deposition and killing of Masʿūd in early 432 AH at Gīrī after the Marigala mutiny."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the death in 432 AH and describes the mutiny and Muḥammad's restoration."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Masʿūd among the obituaries of 432 AH."
+    people: [[masud-i-of-ghazna, subject]]
+    tags: [ghaznavid, ghazna, khurasan, india, deposition, ruler]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SELJUK FOUNDING — DANDANAQĀN AND THE ACCESSION OF ṬUGHRIL
+  # =========================================================================
+
+  - slug: battle-of-dandanaqan
+    category: battle
+    title_en: Battle of Dandanaqān — The Seljuk Conquest of Khurāsān
+    title_ar: معركة دندانقان — فتح السلاجقة لخراسان
+    title_fr: Bataille de Dandanaqān — la conquête seldjoukide du Khurāsān
+    description_en: |
+      The pitched battle on the steppe between Sarakhs and Marw
+      in which the Saljūq Turkmen brothers Ṭughril Beg and
+      Chaghrī Beg, leading some 16 000 mounted nomad warriors,
+      decisively defeated the Ghaznavid army of Sultan Masʿūd I,
+      which fielded perhaps 50 000 troops including the
+      Indian-elephant corps that had won Maḥmūd's wars. The
+      Ghaznavid army, exhausted by a forced march through
+      waterless terrain and harassed continuously by Saljūq
+      mounted archers in the days preceding the engagement,
+      collapsed once the elephant corps panicked and broke its
+      own lines; Masʿūd fled the field toward Ghazna with a
+      handful of survivors. The classical sources are unanimous
+      that this single battle transferred Khurāsān — the
+      eastern Iranian heartland that had carried Sāmānid and
+      Ghaznavid Sunni rule for a century — to Saljūq
+      sovereignty, and it conventionally marks the foundation
+      of the Great Saljūq sultanate. Ṭughril Beg entered
+      Nīshāpūr days later as sultan; the *khuṭba* would be
+      read in his name from there to Iraq within fifteen years.
+    description_ar: |
+      المعركة الميدانية في صحراء بين سرخس ومرو، التي هزم بها
+      الأخوان السلجوقيان طغرل بك وجغري بك على رأس نحو ستة عشر
+      ألف فارس من أتراك السلجوقية الجيشَ الغزنوي للسلطان مسعود
+      الأول وقوامه نحو خمسين ألفاً بمن فيهم فيلة الهند التي
+      نصرت محمود في حروبه. وقد أُنهك الجيش الغزنوي بمسير قاسٍ
+      عبر برٍّ بلا ماء، وضايقه رماة السلجوقية المركوبون أياماً
+      متتالية قبل اللقاء، فلما ذُعرت الفِيَلة وكسرت صفوفها
+      انهار الجيش، وفرّ مسعود من الموقع نحو غزنة في حفنة من
+      الناجين. وتجمع المصادر الكلاسيكية على أن هذه المعركة
+      الواحدة نقلت خراسان — قلبَ المشرق الإيراني الذي حمل الحكم
+      السني السامانيَّ ثم الغزنوي قرناً — إلى سلطان السلاجقة،
+      وهي تأرَّخ تقليدياً بداية السلطنة السلجوقية الكبرى. ودخل
+      طغرل بك نيسابور بعد أيام سلطاناً، وسيُذكَر اسمه في الخطبة
+      منها إلى العراق في خمس عشرة سنة.
+    description_fr: |
+      La bataille rangée dans la steppe entre Sarakhs et Marw où
+      les frères seldjoukides turkmènes Ṭughril Beg et Chaghrī
+      Beg, à la tête de quelque 16 000 cavaliers nomades,
+      défirent décisivement l'armée ghaznavide du sultan Masʿūd I,
+      qui alignait peut-être 50 000 hommes incluant le corps
+      d'éléphants indiens qui avait gagné les guerres de Maḥmūd.
+      L'armée ghaznavide, épuisée par une marche forcée à travers
+      un terrain sans eau et harcelée continuellement par les
+      archers montés seldjoukides les jours précédant
+      l'engagement, s'effondra dès que le corps d'éléphants prit
+      panique et brisa ses propres rangs; Masʿūd s'enfuit du
+      champ vers Ghazna avec une poignée de survivants. Les
+      sources classiques sont unanimes : cette unique bataille
+      transféra le Khurāsān — le cœur iranien oriental qui avait
+      porté la domination sunnite sāmānide puis ghaznavide
+      pendant un siècle — à la souveraineté seldjoukide, et elle
+      marque conventionnellement la fondation du sultanat des
+      Grands Seldjoukides. Ṭughril Beg entra à Nīshāpūr quelques
+      jours plus tard comme sultan; la *khuṭba* serait prononcée
+      en son nom de là à l'Irak dans les quinze ans.
+    canonical_hijri: {year: 431, month: 9, day: 8, precision: day}
+    canonical_gregorian: {date: 1040-05-29, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr describes the battle of Dandanaqān in detail under 431 AH and the entry of Ṭughril Beg into Nīshāpūr."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the battle in 431 AH and the collapse of the Ghaznavid army."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the engagement under 431 AH and notes its consequence — the transfer of Khurāsān to Saljūq rule."
+    people: [[tughril-beg, leader], [masud-i-of-ghazna, leader]]
+    tags: [seljuk, ghaznavid, khurasan, dandanaqan, battle, dynastic_founding, turkmen]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: tughril-proclaims-saljuq-sultanate-at-nishapur
+    category: dynastic_founding
+    title_en: Ṭughril Beg Proclaimed Saljūq Sultan at Nīshāpūr
+    title_ar: طغرل بك يبايَع سلطاناً للسلاجقة بنيسابور
+    title_fr: Ṭughril Beg proclamé sultan seldjoukide à Nīshāpūr
+    description_en: |
+      Ṭughril Beg ibn Mīkāʾīl entered Nīshāpūr — the metropolis
+      of Khurāsān and the seat of its religious-juridical
+      establishment — and was proclaimed sultan from the minbar
+      of the city's congregational mosque, with a *khuṭba*
+      pronounced in his name as ruler of the Saljūq Turkmen
+      after the Ghaznavid garrison evacuated. Classical sources
+      place the proclamation at Rabīʿ al-Thānī 429 AH, two years
+      before Dandanaqān and at the moment when Saljūq forces
+      had already taken effective control of much of Khurāsān
+      from the Ghaznavids; the formal investiture from Baghdad
+      would not arrive until after the decisive victory at
+      Dandanaqān. The choice of Nīshāpūr — rather than the
+      Saljūq nomad camps — and the city's juridical
+      establishment's acceptance of the new dynasty (the
+      Shāfiʿī jurist Abū Sahl al-Bastāmī officiated, by some
+      accounts) signalled the Saljūqs' formal embrace of
+      Sunni-Ḥanafī patronage and made Nīshāpūr the early
+      Saljūq capital. From this moment until Ṭughril's entry
+      into Baghdad in 447 AH the Saljūq state expanded
+      continuously across the Iranian plateau.
+    description_ar: |
+      دخل طغرل بك بن ميكائيل نيسابور — حاضرة خراسان ومستقَر
+      علمائها وفقهائها — فبويع سلطاناً من فوق منبر الجامع
+      الكبير وخُطب باسمه أميراً للسلاجقة بعد أن جلَتْ عنها
+      حامية الغزنويين. وتضع المصادر الكلاسيكية البيعة في ربيع
+      الآخر سنة ٤٢٩ هـ، أي قبل دندانقان بسنتين، وفي اللحظة
+      التي كانت قد آلت فيها بيعة المنطقة إلى السلاجقة فعلاً
+      من الغزنويين؛ ولم يصلهم التقليد الرسمي من بغداد إلا بعد
+      انتصار دندانقان الفاصل. واختيار نيسابور — بدلاً من
+      مضارب السلاجقة الرحَّل — وقبول علماء المدينة بالدولة
+      الجديدة (تذكر بعض الروايات أن الفقيه الشافعي أبا سهل
+      البسطامي تولى الإجراء) أعلَن انضمام السلاجقة الرسمي
+      إلى الرعاية السنية الحنفية وجعل نيسابور عاصمة السلاجقة
+      الأولى. ومن هذه اللحظة إلى دخول طغرل بغداد سنة ٤٤٧ هـ
+      توسعت الدولة السلجوقية عبر هضبة إيران توسعاً متصلاً.
+    description_fr: |
+      Ṭughril Beg ibn Mīkāʾīl entra à Nīshāpūr — métropole du
+      Khurāsān et siège de son établissement religieux et
+      juridique — et fut proclamé sultan depuis le minbar de la
+      mosquée congrégationnelle, une *khuṭba* prononcée en son
+      nom comme souverain des Turkmènes seldjoukides après
+      l'évacuation de la garnison ghaznavide. Les sources
+      classiques placent la proclamation en Rabīʿ al-Thānī 429 H,
+      deux ans avant Dandanaqān et au moment où les forces
+      seldjoukides avaient déjà pris le contrôle effectif d'une
+      grande partie du Khurāsān aux Ghaznavides; l'investiture
+      formelle de Bagdad ne parviendrait qu'après la victoire
+      décisive de Dandanaqān. Le choix de Nīshāpūr — plutôt que
+      les campements nomades seldjoukides — et l'acceptation par
+      l'establishment juridique de la ville de la nouvelle
+      dynastie (selon certains récits le juriste shāfiʿite Abū
+      Sahl al-Bastāmī officia) signala l'adhésion formelle des
+      Seldjoukides au mécénat sunnite-ḥanafī et fit de Nīshāpūr
+      la première capitale seldjoukide. De ce moment jusqu'à
+      l'entrée de Ṭughril à Bagdad en 447 H, l'État seldjoukide
+      s'étendit continûment à travers le plateau iranien.
+    canonical_hijri: {year: 429, month: 4, precision: month}
+    canonical_gregorian: {date: 1038-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the Saljūq entry into Nīshāpūr and Ṭughril's proclamation as sultan in 429 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the proclamation at Nīshāpūr in 429 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the proclamation under 429 AH."
+    people: [[tughril-beg, subject]]
+    tags: [seljuk, nishapur, khurasan, dynastic_founding, turkmen, sunni]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SELJUK SULTANS — DEATHS OF ṬUGHRIL, ALP ARSLĀN, MALIKSHĀH, SANJAR
+  # =========================================================================
+
+  - slug: death-of-tughril-beg
+    category: ruler_death
+    title_en: Death of Ṭughril Beg — First Saljūq Sultan
+    title_ar: وفاة طغرل بك — أول سلاطين السلاجقة الكبار
+    title_fr: Mort de Ṭughril Beg — premier sultan seldjoukide
+    description_en: |
+      Rukn al-Dīn Abū Ṭālib Ṭughril Beg ibn Mīkāʾīl, founder
+      and first sultan of the Great Saljūq state, died at Rayy
+      after a thirty-five-year ascent that had brought a
+      Turkmen nomad confederation from the steppes of
+      Khwārazm to mastery of the Iranian plateau and ʿAbbāsid
+      Iraq. He was about seventy. His decisive moments had
+      been Dandanaqān (431 AH), which transferred Khurāsān
+      from the Ghaznavids; his entry into Baghdad in 447 AH,
+      where the ʿAbbāsid caliph al-Qāʾim invested him as
+      *Sultān al-Mashriq wa-l-Maghrib* and ended Buwayhid Shia
+      tutelage of the caliphate; and his suppression of the
+      Buwayhid restoration of al-Basāsīrī in 451 AH. He died
+      childless and was succeeded by his nephew Alp Arslān
+      after a brief succession contest with Sulaymān ibn
+      Chaghrī. His vizier ʿAmīd al-Mulk al-Kundurī had ruled
+      effectively in his name; al-Kundurī was executed by
+      Alp Arslān's vizier Niẓām al-Mulk shortly after the
+      succession.
+    description_ar: |
+      توفي السلطان ركن الدين أبو طالب طغرل بك بن ميكائيل —
+      المؤسس وأول سلاطين السلاجقة الكبار — بمدينة الري بعد
+      صعود امتد خمساً وثلاثين سنة، نقل اتحاداً تركمانياً
+      رحَّالاً من سهول خوارزم إلى السيادة على هضبة إيران
+      وعراق العباسيين. وله نحو سبعون سنة. وكانت لحظات تحوُّله
+      الكبرى: دندانقان (٤٣١ هـ) التي نقلت خراسان من
+      الغزنويين؛ ودخوله بغداد سنة ٤٤٧ هـ حيث فوَّضه الخليفة
+      العباسي القائم «سلطاناً للمشرق والمغرب» وأنهى الوصاية
+      البويهية الشيعية على الخلافة؛ وقمعه إعادة البويهيين
+      على يد البساسيري سنة ٤٥١ هـ. ومات لا عقب له، فخلفه
+      ابن أخيه ألب أرسلان بعد نزاع وراثي وجيز مع سليمان
+      بن جغري. وكان وزيره عميد الملك الكندري قد ولي الأمر
+      فعلاً باسمه؛ فقتله نظام الملك وزير ألب أرسلان بعد
+      التولية بقليل.
+    description_fr: |
+      Rukn al-Dīn Abū Ṭālib Ṭughril Beg ibn Mīkāʾīl, fondateur
+      et premier sultan de l'État des Grands Seldjoukides,
+      mourut à Rayy après une ascension de trente-cinq ans qui
+      avait porté une confédération nomade turkmène des steppes
+      du Khwārazm à la maîtrise du plateau iranien et de l'Irak
+      ʿabbāsside. Il avait environ soixante-dix ans. Ses moments
+      décisifs avaient été Dandanaqān (431 H), qui transféra le
+      Khurāsān des Ghaznavides; son entrée à Bagdad en 447 H, où
+      le calife ʿabbāsside al-Qāʾim l'investit comme *Sulṭān
+      al-Mashriq wa-l-Maghrib* et mit fin à la tutelle chiite
+      bouyide sur le califat; et sa répression de la restauration
+      bouyide d'al-Basāsīrī en 451 H. Il mourut sans descendance
+      et fut succédé par son neveu Alp Arslān après une brève
+      contestation successorale avec Sulaymān ibn Chaghrī. Son
+      vizir ʿAmīd al-Mulk al-Kundurī avait régné effectivement
+      en son nom; al-Kundurī fut exécuté par Niẓām al-Mulk, vizir
+      d'Alp Arslān, peu après la succession.
+    canonical_hijri: {year: 455, month: 9, day: 8, precision: day}
+    canonical_gregorian: {date: 1063-09-10, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Ṭughril Beg in Ramaḍān 455 AH at Rayy and details the succession contest."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the death in 455 AH and notes the succession of Alp Arslān."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the standard biographical entry placing the death in Ramaḍān 455 AH at Rayy."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Ṭughril among the obituaries of 455 AH."
+    people: [[tughril-beg, subject]]
+    tags: [seljuk, rayy, baghdad, turkmen, sunni, ruler]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-alp-arslan
+    category: ruler_death
+    title_en: Assassination of Alp Arslān — Saljūq Sultan and Victor of Manzikert
+    title_ar: مقتل ألب أرسلان — السلطان السلجوقي وفاتح ملاذكرد
+    title_fr: Assassinat d'Alp Arslān — sultan seldjoukide et vainqueur de Manzikert
+    description_en: |
+      ʿAḍud al-Dawla Abū Shujāʿ Alp Arslān ibn Chaghrī, second
+      sultan of the Great Saljūqs and victor over the Byzantines
+      at Manzikert (463 AH), was killed at the camp on the Oxus
+      while leading his army on campaign into Transoxiana. The
+      classical sources tell that a captured fortress commander
+      named Yūsuf al-Khwārazmī, brought before him in chains,
+      drew a hidden dagger and stabbed the sultan; Alp Arslān's
+      attempt to shoot the man with his bow caused him to slip
+      from the dais, and his guards' subsequent dismemberment of
+      the assassin came too late. He died of the wounds four
+      days later, aged about forty. His ten-year reign had
+      consolidated Saljūq rule of Iran with the vizier Niẓām
+      al-Mulk's administrative reforms, broken Byzantine
+      Anatolia at Manzikert, and made the Saljūqs the
+      principal Sunni political power between the Mediterranean
+      and Central Asia. He was succeeded by his eighteen-year-
+      old son Malikshāh, with Niẓām al-Mulk continuing as
+      vizier.
+    description_ar: |
+      قُتل السلطان عضد الدولة أبو شجاع ألب أرسلان بن جغري —
+      ثاني سلاطين السلاجقة الكبار وفاتح ملاذكرد على البيزنطيين
+      (٤٦٣ هـ) — في معسكره على نهر جيحون أثناء حملة على بلاد
+      ما وراء النهر. وتروي المصادر الكلاسيكية أن أميرَ حصنٍ
+      أُسر يدعى يوسف الخوارزمي حين أُحضر إليه مكبَّلاً سحب
+      خنجراً مخبأً وطعن السلطانَ به؛ وحاول ألب أرسلان أن يرميه
+      بسهم فسقط عن دكَّة الحكم، ولم ينفعه ما فعله حرسُه
+      بالقاتل بعد ذلك من قطع وتمزيق. ومات بعد أربعة أيام من
+      جراحه عن نحو أربعين سنة. وكانت ولايته العشر سنوات قد
+      وطَّدت سلطان السلاجقة في إيران بإصلاحات وزيره نظام
+      الملك، وكسرت الأناضول البيزنطية في ملاذكرد، وجعلت
+      السلاجقة القوة السياسية السنية الكبرى بين البحر المتوسط
+      ووسط آسيا. وخلفه ابنه ملكشاه وله ثماني عشرة سنة، وبقي
+      نظام الملك في الوزارة.
+    description_fr: |
+      ʿAḍud al-Dawla Abū Shujāʿ Alp Arslān ibn Chaghrī, deuxième
+      sultan des Grands Seldjoukides et vainqueur des Byzantins
+      à Manzikert (463 H), fut tué au camp sur l'Oxus alors
+      qu'il menait son armée en campagne en Transoxiane. Les
+      sources classiques racontent qu'un commandant de forteresse
+      capturé nommé Yūsuf al-Khwārazmī, amené devant lui enchaîné,
+      tira un poignard caché et poignarda le sultan; la tentative
+      d'Alp Arslān de tirer sur l'homme avec son arc le fit
+      glisser du podium, et le démembrement subséquent de
+      l'assassin par ses gardes vint trop tard. Il mourut de ses
+      blessures quatre jours plus tard, à l'âge d'environ
+      quarante ans. Son règne de dix ans avait consolidé la
+      domination seldjoukide de l'Iran avec les réformes
+      administratives du vizir Niẓām al-Mulk, brisé l'Anatolie
+      byzantine à Manzikert, et fait des Seldjoukides la
+      principale puissance politique sunnite entre la
+      Méditerranée et l'Asie centrale. Il fut succédé par son
+      fils Malikshāh âgé de dix-huit ans, Niẓām al-Mulk
+      restant vizir.
+    canonical_hijri: {year: 465, month: 3, day: 10, precision: day}
+    canonical_gregorian: {date: 1072-11-30, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the assassination of Alp Arslān in Rabīʿ al-Awwal 465 AH on the Oxus and gives the captured-commander narrative in detail."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the death in 465 AH and details the assassination."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the biographical entry placing the assassination on 10 Rabīʿ al-Awwal 465 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Alp Arslān among the obituaries of 465 AH."
+    people: [[alp-arslan, subject]]
+    tags: [seljuk, oxus, transoxiana, assassination, manzikert, ruler]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-malikshah-saljuq
+    category: ruler_death
+    title_en: Death of Malikshāh — Apex of the Great Saljūq Empire
+    title_ar: وفاة ملكشاه — ذروة الدولة السلجوقية الكبرى
+    title_fr: Mort de Malikshāh — apogée de l'empire des Grands Seldjoukides
+    description_en: |
+      Jalāl al-Dawla Abū al-Fatḥ Malikshāh ibn Alp Arslān, third
+      sultan of the Great Saljūqs and the empire's apex ruler,
+      died at Baghdad after a hunting trip aged about thirty-
+      eight, only thirty-five days after the assassination of
+      his vizier Niẓām al-Mulk by an Ismāʿīlī Nizārī of
+      Alamūt. Classical sources record both deaths together as
+      the closing event of the empire's golden age. His twenty-
+      year reign had brought Saljūq frontiers to their greatest
+      extent — from the Mediterranean to the Pamirs — under
+      Niẓām al-Mulk's administration, with his name read in
+      the *khuṭba* in Mecca, Damascus, and the cities of the
+      Yemen. The succession was contested between his sons
+      Berkyāruq and Maḥmūd; the resulting civil war fragmented
+      the unified empire into sub-sultanates that would never
+      again be reunited. al-Dhahabī, Ibn al-Athīr, and Ibn
+      Kathīr all note the proximity of the two deaths and the
+      contemporary suspicion — never proved — that the
+      Niẓārīs had also poisoned the sultan.
+    description_ar: |
+      توفي السلطان جلال الدولة أبو الفتح ملكشاه بن ألب أرسلان —
+      ثالث سلاطين السلاجقة الكبار وذروة الدولة السلجوقية —
+      ببغداد بعد رحلة صيد عن نحو ثمان وثلاثين سنة، بعد خمسة
+      وثلاثين يوماً فقط من اغتيال وزيره نظام الملك على يد
+      نزاريّ إسماعيلي من فدائية آلموت. وتجمع المصادر الكلاسيكية
+      الموتَين بوصفهما إيذاناً بانطفاء العصر الذهبي للسلاجقة.
+      وكانت ولايته العشرين قد بلغت بحدود السلاجقة أقصى مدى لها
+      — من البحر المتوسط إلى البامير — في إدارة نظام الملك،
+      وقُرئ اسمه في الخطبة بمكة ودمشق ومدن اليمن. واختلف بنوه
+      على الوراثة: بركياروق ومحمود؛ فأشعلت الحرب الأهلية
+      الناتجة تجزؤ الدولة الموحدة سلطنات فرعية لم تعد قط إلى
+      وحدتها. ويذكر الذهبي وابن الأثير وابن كثير قرب الموتين
+      من بعضهما، وما تردد في عصرهم — ولم يثبت — من أن
+      النزارية سمَّت السلطان كذلك.
+    description_fr: |
+      Jalāl al-Dawla Abū al-Fatḥ Malikshāh ibn Alp Arslān,
+      troisième sultan des Grands Seldjoukides et souverain de
+      l'apogée de l'empire, mourut à Bagdad après une chasse à
+      l'âge d'environ trente-huit ans, trente-cinq jours
+      seulement après l'assassinat de son vizir Niẓām al-Mulk
+      par un Nizārī ismaélien d'Alamūt. Les sources classiques
+      enregistrent ces deux morts ensemble comme l'événement
+      qui clôt l'âge d'or de l'empire. Son règne de vingt ans
+      avait porté les frontières seldjoukides à leur plus
+      grande extension — de la Méditerranée aux Pamirs — sous
+      l'administration de Niẓām al-Mulk, son nom étant lu dans
+      la *khuṭba* à La Mecque, Damas, et les villes du Yémen.
+      La succession fut contestée entre ses fils Berkyāruq et
+      Maḥmūd; la guerre civile qui s'ensuivit fragmenta
+      l'empire unifié en sous-sultanats qui ne seraient jamais
+      réunifiés. al-Dhahabī, Ibn al-Athīr, et Ibn Kathīr
+      relèvent tous la proximité des deux morts et la suspicion
+      contemporaine — jamais prouvée — que les Nizārīs
+      auraient également empoisonné le sultan.
+    canonical_hijri: {year: 485, month: 10, day: 15, precision: day}
+    canonical_gregorian: {date: 1092-11-24, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Malikshāh in Shawwāl 485 AH at Baghdad, thirty-five days after Niẓām al-Mulk's assassination."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the death in 485 AH and the contemporary Niẓārī suspicions."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the standard biographical entry placing the death on 15 Shawwāl 485 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Malikshāh among the obituaries of 485 AH."
+    people: [[malikshah-i-saljuq, subject]]
+    tags: [seljuk, baghdad, nizam-al-mulk, ismaili, succession, ruler]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-qatwan
+    category: battle
+    title_en: Battle of Qaṭwān — Saljūq Defeat by the Qara-Khitāy
+    title_ar: معركة قطوان — هزيمة السلاجقة على يد القراخطاي
+    title_fr: Bataille de Qaṭwān — défaite seldjoukide face aux Qara-Khitāy
+    description_en: |
+      The pitched battle on the Qaṭwān steppe north of Samarqand
+      in which Sultan Sanjar of the Great Saljūqs, with the
+      Qarakhānid khan Maḥmūd of Samarqand and a Khwārazmian
+      contingent, was decisively defeated by the Buddhist-
+      Mongolic Qara-Khitāy (Western Liao) under their
+      Gürkhān Yelü Dashi. The Saljūq army of perhaps 100 000
+      lost most of its strength in a single afternoon's
+      fighting; Sanjar's wife and senior commanders were
+      captured, and Sanjar fled westward across the Amu
+      Darya to Tirmidh. Qaṭwān is the only major battlefield
+      defeat of a Saljūq sultan in their history, and it
+      removed Sunni Muslim authority from Transoxiana for the
+      first time since the Sāmānid conquest two and a half
+      centuries earlier — replacing it with non-Muslim Qara-
+      Khitāy overlordship for the next eight decades. News of
+      the defeat circulating westward, distorted by distance,
+      generated the Crusader-era European legend of *Prester
+      John*, the supposed Christian king of the East — Yelü
+      Dashi was Buddhist, but contemporary Crusader chroniclers
+      heard rumours of a Christian victory over the Muslims and
+      named the victor accordingly.
+    description_ar: |
+      المعركة الميدانية في صحراء قطوان شمالي سمرقند، التي هزم
+      فيها السلطان سنجر السلجوقي بصحبة القراخاني محمود صاحب
+      سمرقند ومدد من خوارزم هزيمةً ساحقة على يد القراخطاي
+      الوثنيين المغول-البوذيين بقيادة كوركانهم «يلو دشي».
+      وفقدَ الجيش السلجوقي الذي قُدِّر بمئة ألف جلَّ قواه في
+      عصر يوم واحد؛ وأُسرت زوجة سنجر وكبار قادته، وفرَّ
+      سنجر غرباً عبر جيحون إلى ترمذ. ومعركة قطوان هي الهزيمة
+      الميدانية الكبرى الوحيدة لسلطان سلجوقي في تاريخهم،
+      وأخرجت السلطان السني المسلم من بلاد ما وراء النهر لأول
+      مرة منذ الفتح الساماني قبل قرنين ونصف، وأبدلت من ذلك
+      سيادةَ القراخطاي غير المسلمين على البلاد ثمانية عقود.
+      وتسرَّب خبر الهزيمة إلى الغرب مشوَّهاً بفعل البعد فأنتج
+      أسطورة «الملك يوحنا» (Prester John) في عصر الصليبيين —
+      وهو ملك نصراني مزعوم في الشرق؛ وكان يلو دشي بوذياً، لكن
+      مؤرخي الصليبيين سمعوا بهزيمة المسلمين فسموا منتصرها
+      على هواهم.
+    description_fr: |
+      La bataille rangée dans la steppe de Qaṭwān au nord de
+      Samarcande où le sultan Sanjar des Grands Seldjoukides,
+      avec le khan qarakhānide Maḥmūd de Samarcande et un
+      contingent khwārazmien, fut décisivement défait par les
+      Qara-Khitāy bouddhistes-mongols (Liao occidentaux) sous
+      leur Gürkhān Yelü Dashi. L'armée seldjoukide d'environ
+      100 000 hommes perdit la majeure partie de ses forces en
+      un seul après-midi de combat; l'épouse de Sanjar et ses
+      commandants principaux furent capturés, et Sanjar
+      s'enfuit vers l'ouest à travers l'Amou-Daria jusqu'à
+      Tirmidh. Qaṭwān est l'unique défaite majeure sur le
+      champ de bataille d'un sultan seldjoukide dans leur
+      histoire, et elle ôta l'autorité musulmane sunnite de
+      Transoxiane pour la première fois depuis la conquête
+      sāmānide deux siècles et demi plus tôt — la remplaçant
+      par la suzeraineté qara-khitāy non musulmane pendant les
+      huit décennies suivantes. La nouvelle de la défaite
+      circulant vers l'ouest, déformée par la distance, généra
+      la légende européenne croisée du *Prêtre Jean*, supposé
+      roi chrétien d'Orient — Yelü Dashi était bouddhiste, mais
+      les chroniqueurs croisés contemporains entendirent
+      rumeur d'une victoire chrétienne sur les musulmans et
+      nommèrent le vainqueur en conséquence.
+    canonical_hijri: {year: 536, month: 2, day: 5, precision: day}
+    canonical_gregorian: {date: 1141-09-09, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the battle of Qaṭwān under 536 AH and details the magnitude of Sanjar's defeat and the loss of Transoxiana to the Qara-Khitāy."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the battle in 536 AH and the capture of Sanjar's wife."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the engagement under 536 AH."
+    people: [[ahmad-sanjar, leader]]
+    tags: [seljuk, qara-khitay, transoxiana, samarqand, sanjar, battle, prester-john]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-sanjar
+    category: ruler_death
+    title_en: Death of Sanjar — The Last Great Saljūq Sultan
+    title_ar: وفاة سنجر — آخر سلاطين السلاجقة الكبار
+    title_fr: Mort de Sanjar — le dernier grand sultan seldjoukide
+    description_en: |
+      Muʿizz al-Dīn Abū al-Ḥārith Aḥmad Sanjar ibn Malikshāh,
+      last sultan of the Great Saljūqs and ruler of Khurāsān
+      for more than half a century, died at Marw aged about
+      seventy-two, three years after his release from a four-
+      year captivity in the hands of the rebellious Ghuzz
+      Turkmen tribes whom he had failed to subdue at the
+      Battle of Marw in 548 AH. The Ghuzz had captured him
+      after sacking Marw and Nīshāpūr, and held him while
+      pillaging Khurāsān; his eventual escape (or release) in
+      551 AH found his realm ruined, his treasury empty, and
+      his nominal authority extending only to the immediate
+      vicinity of Marw. Classical sources unanimously close
+      the historical period of the Great Saljūq sultanate with
+      his death — the western Saljūq sultanates of Iraq,
+      Kirmān, and Rūm continued, but as autonomous principalities
+      no longer recognising a single overlord. Khurāsān itself
+      passed to the Khwārazmshāhs within a generation. Ibn
+      al-Athīr, who lived through these years, gives a
+      particularly long entry on Sanjar as the last bearer of
+      Saljūq universalism.
+    description_ar: |
+      توفي السلطان معز الدين أبو الحارث أحمد سنجر بن ملكشاه —
+      آخر سلاطين السلاجقة الكبار، وأمير خراسان أكثر من نصف
+      قرن — بمرو عن نحو اثنتين وسبعين سنة، بعد ثلاث سنين من
+      نجاته من أسر الغُزّ التركمان الذي امتد أربع سنوات، وقد
+      عجز عن قمعهم في معركة مرو سنة ٥٤٨ هـ. وكان الغُزّ قد
+      أسروه بعد نهب مرو ونيسابور واحتفظوا به وهم ينهبون
+      خراسان؛ ولما خلص — أو أُطلق — سنة ٥٥١ هـ وجد بلاده
+      خراباً وخزائنه مفلسة وسلطانه الاسمي لا يعدو محيط مرو
+      المباشر. وتختم المصادر الكلاسيكية بوفاته العصرَ
+      التاريخي للسلطنة السلجوقية الكبرى — وستبقى سلطنات
+      السلاجقة في العراق وكرمان والروم، لكن بوصفها إمارات
+      مستقلة لا تعترف بسيد واحد. وآلت خراسان نفسها إلى
+      الخوارزم شاهية في جيل واحد. ويفرد ابن الأثير، الذي
+      عاصر هذه السنين، فصلاً طويلاً لسنجر بوصفه آخر حملة
+      الكلية السلجوقية.
+    description_fr: |
+      Muʿizz al-Dīn Abū al-Ḥārith Aḥmad Sanjar ibn Malikshāh,
+      dernier sultan des Grands Seldjoukides et souverain du
+      Khurāsān pendant plus d'un demi-siècle, mourut à Marw à
+      l'âge d'environ soixante-douze ans, trois ans après sa
+      libération d'une captivité de quatre années aux mains
+      des tribus turkmènes Ghuzz rebelles qu'il n'avait pas
+      réussi à soumettre à la bataille de Marw en 548 H. Les
+      Ghuzz l'avaient capturé après avoir saccagé Marw et
+      Nīshāpūr, et le détinrent pendant qu'ils pillaient le
+      Khurāsān; sa fuite (ou sa libération) en 551 H le trouva
+      avec un royaume ruiné, un trésor vide, et une autorité
+      nominale ne s'étendant qu'aux environs immédiats de
+      Marw. Les sources classiques closent unanimement la
+      période historique du sultanat des Grands Seldjoukides
+      avec sa mort — les sultanats seldjoukides occidentaux
+      d'Irak, du Kirmān, et de Roum perduraient, mais comme
+      principautés autonomes ne reconnaissant plus un seul
+      suzerain. Le Khurāsān lui-même passa aux Khwārazm-Shāhs
+      en une génération. Ibn al-Athīr, qui vécut ces années,
+      consacre une entrée particulièrement longue à Sanjar
+      comme dernier porteur de l'universalisme seldjoukide.
+    canonical_hijri: {year: 552, month: 3, day: 14, precision: day}
+    canonical_gregorian: {date: 1157-05-03, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Sanjar in Rabīʿ al-Awwal 552 AH at Marw and gives a long evaluative biography."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the death in 552 AH and the disintegration that followed."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the biographical entry placing the death on 14 Rabīʿ al-Awwal 552 AH at Marw."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Sanjar among the obituaries of 552 AH."
+    people: [[ahmad-sanjar, subject]]
+    tags: [seljuk, marw, khurasan, ghuzz, turkmen, ruler]
+    importance: major
+    verified: true
+    verification_status: cross_verified

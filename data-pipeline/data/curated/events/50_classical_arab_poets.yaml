@@ -1,0 +1,831 @@
+# Wave 50 of curated event additions (2026-04-27).
+# Classical Arabic poets and litterateurs of the Islamic era — covering the
+# four-generation Abbasid lyrical canon (Bashshār ibn Burd, Abū Nuwās,
+# Abū al-ʿAtāhiya), the Samarra-era trio of *muḥaddathūn* (al-Buḥturī,
+# Ibn al-Rūmī, Ibn al-Muʿtazz), the great Abbasid prose-master al-Jāḥiẓ,
+# the Buwayhid-period litterateurs (al-Sharīf al-Raḍī, al-Maʿarrī),
+# the Andalusi succession (Ibn Zaydūn, Ibn Khafāja), the Mamluk-era
+# Egyptian Sufi poet Ibn al-Fāriḍ, and the Andalusi-Egyptian belletrist-
+# anthologist Ibn Saʿīd al-Maghribī. al-Buṣīrī (Burda) and al-Mutanabbī
+# and Abū Tammām are covered elsewhere in the dataset and not duplicated
+# here. al-Sharīf al-Raḍī is included as a Buwayhid-period Arabic poet
+# attested by Ibn Khallikān and al-Dhahabī as a leading litterateur; his
+# compilation of statements attributed to ʿAlī ra (*Nahj al-Balāgha*) is
+# noted historically without endorsing those attributions, which Sunni
+# hadith critics (Ibn Khallikān, al-Dhahabī, Ibn Ḥajar) have long
+# disputed. Trilingual en/ar/fr throughout. No hadith citations: poetry
+# events are not directly anchored by ṣaḥīḥ narrations.
+
+events:
+  # =========================================================================
+  # FIRST ABBASID GENERATION — THE LYRICAL TURN (BASHSHĀR, ABŪ NUWĀS,
+  # ABŪ AL-ʿATĀHIYA)
+  # =========================================================================
+
+  - slug: death-of-bashshar-ibn-burd
+    category: scholar_death
+    title_en: Death of Bashshār ibn Burd — Father of the Muḥdath Style
+    title_ar: وفاة بشار بن برد — رائد الشعر المحدث
+    title_fr: Mort de Bashshār ibn Burd — père du style muḥdath
+    description_en: |
+      Abū Muʿādh Bashshār ibn Burd al-ʿUqaylī — blind Persian-
+      origin poet of Basra, considered by the classical critics
+      (Ibn Qutayba, Ibn Sallām al-Jumaḥī, al-Aṣmaʿī) to be the
+      inaugural figure of the *muḥdath* (modernist) school of
+      Arabic poetry that broke decisively with the desert-Bedouin
+      idiom of the *jāhiliyya* and Umayyad qaṣīda — was executed
+      under the orders of the ʿAbbāsid caliph al-Mahdī in 168 AH
+      (784–85 CE) on charges of zandaqa and lampoon-poetry
+      directed at the caliph and his vizier Yaʿqūb ibn Dāwūd,
+      after a long career at the courts of al-Manṣūr and
+      al-Mahdī. He is reckoned to have left a *dīwān* of some
+      twelve thousand verses; al-Jāḥiẓ devotes substantial
+      passages of *al-Bayān wa-l-Tabyīn* to citing his lines as
+      models of natural Arabic eloquence. Ibn Khallikān gives the
+      year 168 AH for his death; al-Dhahabī confirms in *Tārīkh
+      al-Islām*. The classical sources retain only the year, not
+      the day or month.
+    description_ar: |
+      أُعدم أبو معاذ بشار بن برد العقيلي — شاعر بصريٌّ ضرير
+      من أصول فارسية، يَعُدّه نقاد العربية الكلاسيكيون (ابن قتيبة
+      وابن سلام الجمحي والأصمعي) فاتحَ مدرسة «المحدثين» في الشعر
+      العربي، التي قطعت قطعاً صريحاً مع الديباجة البدوية
+      الجاهلية والأموية — بأمر الخليفة العباسي المهدي سنة ١٦٨ هـ
+      (٧٨٤ ميلادي) بتهمة الزندقة وهجاء الخليفة ووزيره يعقوب بن
+      داود، بعد عمر طويل في بلاطَي المنصور والمهدي. ويُقدَّر
+      ديوانه بنحو اثني عشر ألف بيت؛ وقد أكثر الجاحظ في «البيان
+      والتبيين» من الاستشهاد بأبياته بوصفها نماذجَ الفصاحة
+      العربية على السليقة. وأرّخ ابن خلكان وفاته بسنة ١٦٨ هـ،
+      وأكّد ذلك الذهبي في «تاريخ الإسلام». ولم تحفظ المصادر
+      القديمة اليوم ولا الشهر.
+    description_fr: |
+      Abū Muʿādh Bashshār ibn Burd al-ʿUqaylī — poète aveugle
+      d'origine persane de Bassora, considéré par les critiques
+      classiques (Ibn Qutayba, Ibn Sallām al-Jumaḥī, al-Aṣmaʿī)
+      comme la figure inaugurale de l'école *muḥdath* (moderniste)
+      de la poésie arabe, qui rompit décisivement avec le langage
+      bédouin de la qaṣīda *jāhilī* et omeyyade — fut exécuté sur
+      l'ordre du calife ʿabbāside al-Mahdī en 168 H (784–85 EC)
+      sous l'accusation de *zandaqa* et de poésie satirique
+      dirigée contre le calife et son vizir Yaʿqūb ibn Dāwūd,
+      après une longue carrière aux cours d'al-Manṣūr et
+      d'al-Mahdī. On lui attribue un *dīwān* de quelque douze
+      mille vers; al-Jāḥiẓ consacre dans *al-Bayān wa-l-Tabyīn*
+      d'amples passages à citer ses vers comme modèles de
+      l'éloquence arabe naturelle. Ibn Khallikān donne 168 H
+      pour sa mort; al-Dhahabī le confirme dans *Tārīkh al-Islām*.
+      Les sources classiques ne retiennent que l'année, ni le
+      jour ni le mois.
+    canonical_hijri: {year: 168, precision: year}
+    canonical_gregorian: {date: 784-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh in 168 AH; biographical entry under Bashshār ibn Burd."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 168 AH wafayāt entry."
+      - source_key: ei2
+    people: [[bashshar-ibn-burd, died]]
+    tags: [abbasid, poet, basra, muhdath, persian, zandaqa-charge]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bashshar_ibn_Burd"
+
+  - slug: death-of-abu-nuwas
+    category: scholar_death
+    title_en: Death of Abū Nuwās — Master of the Khamriyya
+    title_ar: وفاة أبي نواس — شاعر الخمريات
+    title_fr: Mort d'Abū Nuwās — maître de la khamriyya
+    description_en: |
+      Abū Nuwās al-Ḥasan ibn Hāniʾ al-Ḥakamī — Khurāsānian-Arab
+      poet of the early ʿAbbāsid period, court-companion of the
+      caliphs al-Amīn and (briefly) Hārūn al-Rashīd, and the
+      undisputed master of the *khamriyya* (wine-ode) and *ṭardiyya*
+      (hunting-ode) sub-genres — died at Baghdad around 199 AH
+      (814–15 CE), at age about sixty. He was the first poet to
+      consciously adopt urban-courtly themes (wine, gardens, love
+      of male and female cup-bearers, hunting) in place of the
+      desert-camp opening of the classical qaṣīda, and his
+      *Dīwān* runs to more than thirteen thousand verses across
+      every traditional genre. The precise year of his death is
+      disputed in the classical sources — Ibn Khallikān gives
+      199 AH as the most-cited date, with 196, 198, and 200 AH
+      as minority alternatives; the dispute is over his date,
+      not over the fact of his death at Baghdad. al-Jāḥiẓ in
+      *al-Bayān wa-l-Tabyīn* cites Abū Nuwās repeatedly as a
+      master of natural Arabic eloquence.
+    description_ar: |
+      توفي أبو نواس الحسن بن هانئ الحكمي — شاعر عربي خراساني
+      من أوائل العصر العباسي، نديم الخليفتين الأمين وهارون
+      الرشيد (مدّةً قصيرة)، وإمام «الخمريات» و«الطرديات» في
+      الشعر العربي بلا منازع — ببغداد نحو سنة ١٩٩ هـ (٨١٤–١٥ م)
+      وعمره يناهز الستين. وهو أول من تحوّل بالشعر تحوّلاً واعياً
+      من افتتاحية الديار والأطلال البدوية إلى مواضيع المدينة
+      والقصور (الخمر والبساتين والساقي والطرد)، وديوانه يربو
+      على ثلاثة عشر ألف بيت في عامة فنون الشعر. واختلفت المصادر
+      القديمة في سنة وفاته — وذكر ابن خلكان سنة ١٩٩ هـ بوصفها
+      الأكثر تداولاً، مع روايات أقل: ١٩٦ و١٩٨ و٢٠٠ هـ، والخلاف
+      في التاريخ لا في أصل وفاته ببغداد. وكان الجاحظُ في «البيان
+      والتبيين» يكثر من الاستشهاد بأبي نواس بوصفه إماماً في
+      فصاحة العربية.
+    description_fr: |
+      Abū Nuwās al-Ḥasan ibn Hāniʾ al-Ḥakamī — poète arabe
+      d'origine khurāsānienne du début de la période ʿabbāside,
+      compagnon de cour des califes al-Amīn et (brièvement) Hārūn
+      al-Rashīd, et maître incontesté de la *khamriyya* (ode
+      bachique) et de la *ṭardiyya* (ode de chasse) — mourut à
+      Bagdad vers 199 H (814–15 EC), âgé d'environ soixante ans.
+      Il fut le premier poète à substituer consciemment aux
+      thèmes du campement bédouin de la qaṣīda classique des
+      thèmes urbains et courtois (vin, jardins, amour des
+      échansons, chasse); son *Dīwān* dépasse les treize mille
+      vers à travers tous les genres traditionnels. L'année
+      exacte de sa mort est disputée dans les sources classiques
+      — Ibn Khallikān retient 199 H comme la date la plus citée,
+      avec 196, 198 et 200 H comme alternatives minoritaires;
+      le différend porte sur la date, non sur le fait de sa mort
+      à Bagdad. al-Jāḥiẓ cite Abū Nuwās à de multiples reprises
+      dans *al-Bayān wa-l-Tabyīn* comme un maître de l'éloquence
+      arabe naturelle.
+    canonical_hijri: {year: 199, precision: year}
+    canonical_gregorian: {date: 814-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh dated 199 AH at Baghdad as the prevailing report; Ibn Khallikān surveys minority dates of 196, 198, 200 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 199 AH wafayāt entry."
+      - source_key: ei2
+    people: [[abu-nuwas, died]]
+    tags: [abbasid, poet, baghdad, khamriyya, persian-arab]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abu_Nuwas"
+
+  - slug: death-of-abu-al-atahiya
+    category: scholar_death
+    title_en: Death of Abū al-ʿAtāhiya — Poet of Ascetic Wisdom
+    title_ar: وفاة أبي العتاهية — شاعر الزهد
+    title_fr: Mort d'Abū al-ʿAtāhiya — poète de l'ascèse
+    description_en: |
+      Abū Isḥāq Ismāʿīl ibn al-Qāsim al-ʿAnzī, known as Abū
+      al-ʿAtāhiya — Kūfan-Baghdādi poet of the early ʿAbbāsid
+      court who, after a youth of love-poetry to the slave-girl
+      ʿUtba, turned in middle life to the *zuhdiyyāt* (ascetic
+      odes) and became the universally recognised master of
+      that genre in Arabic literature — died at Baghdad in 211
+      AH (826 CE), at age about seventy-eight. His *zuhdiyyāt*,
+      composed in deliberately simple metres and diction so they
+      could be widely memorised, were quoted by Ibn Ḥanbal and
+      al-Ghazālī in works of *raqāʾiq* (heart-softening)
+      reflection. The classical anecdote, preserved by Ibn
+      Khallikān, that he addressed his own grave-couplet — *Inna
+      li-llāhi wa-innā ilayhi rājiʿūn* — to himself, captures
+      his place at the boundary between Arabic poetry and
+      religious admonition. Ibn Khallikān gives 211 AH as the
+      year; al-Dhahabī enters him under the same year in *Tārīkh
+      al-Islām*. The day is not consistently preserved.
+    description_ar: |
+      توفي أبو إسحاق إسماعيل بن القاسم العنزي المعروف بأبي
+      العتاهية — شاعر كوفي بغدادي من أوائل بلاط العباسيين،
+      انصرف في كهولته من شعر الغزل في عتبة جارية المهدي إلى
+      «الزهديات» فصار إمامها في الأدب العربي بلا منازع — ببغداد
+      سنة ٢١١ هـ (٨٢٦ م) وعمره يناهز الثمانين. ونظم زهدياته
+      على أوزان وأسلوب سهلَين متعمَّدَين ليُحفظ شعره عند الناس،
+      حتى استشهد به الإمام أحمد بن حنبل والإمام الغزالي في
+      كتب «الرقائق». وحُفظ في «وفيات الأعيان» لابن خلكان أنه
+      رثى نفسه في قبره بقول «إنا لله وإنا إليه راجعون»، وفي
+      ذلك خلاصة منزلته على الحدّ بين الشعر العربي والوعظ
+      الديني. وذكر ابن خلكان سنة وفاته ٢١١ هـ، وأَلَمَّ بها
+      الذهبي في «تاريخ الإسلام» في وفيات السنة المذكورة.
+      ولم تُحفظ تواريخ يومه على وجه الاتفاق.
+    description_fr: |
+      Abū Isḥāq Ismāʿīl ibn al-Qāsim al-ʿAnzī, dit Abū al-
+      ʿAtāhiya — poète kūfan-bagdādien de la première cour
+      ʿabbāside qui, après une jeunesse vouée à la poésie
+      amoureuse dédiée à la jeune esclave ʿUtba, se tourna à
+      l'âge mûr vers les *zuhdiyyāt* (odes ascétiques) et en
+      devint le maître universellement reconnu dans la
+      littérature arabe — mourut à Bagdad en 211 H (826 EC),
+      âgé d'environ soixante-dix-huit ans. Ses *zuhdiyyāt*,
+      composées dans des mètres et un lexique délibérément
+      simples afin d'être largement mémorisées, furent citées
+      par Ibn Ḥanbal et al-Ghazālī dans des ouvrages de
+      *raqāʾiq* (assouplissement des cœurs). L'anecdote
+      classique préservée par Ibn Khallikān — selon laquelle
+      il adressa à lui-même le distique de sa propre tombe,
+      *Inna li-llāhi wa-innā ilayhi rājiʿūn* — saisit sa
+      position à la frontière de la poésie arabe et de
+      l'exhortation religieuse. Ibn Khallikān donne 211 H comme
+      l'année; al-Dhahabī l'enregistre la même année dans
+      *Tārīkh al-Islām*. Le jour n'est pas conservé de manière
+      cohérente.
+    canonical_hijri: {year: 211, precision: year}
+    canonical_gregorian: {date: 826-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: 211 AH at Baghdad, age circa 78."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 211 AH wafayāt entry."
+      - source_key: ei2
+    people: [[abu-al-atahiya, died]]
+    tags: [abbasid, poet, baghdad, kufa, zuhdiyyat, ascetic]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Atahiya"
+
+  # =========================================================================
+  # SAMARRA-ERA TRIO — AL-BUḤTURĪ, IBN AL-RŪMĪ, IBN AL-MUʿTAZZ
+  # =========================================================================
+
+  - slug: death-of-al-buhturi
+    category: scholar_death
+    title_en: Death of al-Buḥturī — Poet of the Mutawakkilī Court
+    title_ar: وفاة البحتري — شاعر بلاط المتوكل
+    title_fr: Mort d'al-Buḥturī — poète de la cour mutawakkilienne
+    description_en: |
+      Abū ʿUbāda al-Walīd ibn ʿUbayd Allāh al-Ṭāʾī al-Buḥturī —
+      Syrian-origin Arab poet who, alongside Abū Tammām and
+      al-Mutanabbī, completes the trio of greatest ʿAbbāsid
+      qaṣīda-poets, court-laureate to the caliph al-Mutawakkil
+      and the Banū Ḥamdūn at Samarra and Baghdad — died at his
+      native town of Manbij in northern Syria in 284 AH (897 CE)
+      at age about eighty. His *Ḥamāsa* (anthology of pre-
+      Islamic and early-Islamic war poetry, modelled on Abū
+      Tammām's earlier *Ḥamāsa*) and his celebrated *Sīniyya*
+      ode on the ruined Sasanian palace at Ctesiphon (*Īwān
+      Kisrā*) — the latter judged by Ibn Khallikān among the
+      finest qaṣīdas ever composed — secure his rank in the
+      Arabic canon. Ibn Khallikān places his death in Manbij
+      in 284 AH; al-Dhahabī confirms in *Tārīkh al-Islām*. The
+      classical sources do not converge on the day or month.
+    description_ar: |
+      توفي أبو عبادة الوليد بن عبيد الله الطائي البحتري — شاعر
+      عربي شامي من أهل منبج، يكمل مع أبي تمام والمتنبي ثلاثيَّ
+      أئمة قصيدة المديح في العصر العباسي، وهو شاعر بلاط الخليفة
+      المتوكل وبني حمدون بسامراء وبغداد — في بلده منبج بشمال
+      الشام سنة ٢٨٤ هـ (٨٩٧ م) وعمره يناهز الثمانين. واختياره
+      الشعري الموسوم بـ«الحماسة» (على غرار «حماسة» أبي تمام
+      شيخه)، وقصيدته «السينية» في إيوان كسرى — التي قال عنها
+      ابن خلكان إنها من أحسن ما نُظم في العربية — مما يثبت
+      مكانته في الصدارة الشعرية العربية. ويذكر ابن خلكان وفاته
+      بمنبج سنة ٢٨٤ هـ، وأكّد ذلك الذهبي في «تاريخ الإسلام». ولم
+      تتفق المصادر القديمة على تاريخ يومه أو شهره.
+    description_fr: |
+      Abū ʿUbāda al-Walīd ibn ʿUbayd Allāh al-Ṭāʾī al-Buḥturī —
+      poète arabe d'origine syrienne qui, aux côtés d'Abū
+      Tammām et d'al-Mutanabbī, complète le trio des plus
+      grands poètes-de-qaṣīda ʿabbāsides, lauréat de cour des
+      califes al-Mutawakkil et des Banū Ḥamdūn à Samarra et
+      Bagdad — mourut dans sa ville natale de Manbij en Syrie
+      du nord en 284 H (897 EC), âgé d'environ quatre-vingts
+      ans. Sa *Ḥamāsa* (anthologie de poésie guerrière pré-
+      islamique et islamique ancienne, sur le modèle de la
+      *Ḥamāsa* antérieure d'Abū Tammām) et sa célèbre ode
+      *Sīniyya* sur le palais sassanide en ruine de Ctésiphon
+      (*Īwān Kisrā*) — cette dernière jugée par Ibn Khallikān
+      parmi les plus belles qaṣīdas jamais composées —
+      assurent sa place dans le canon arabe. Ibn Khallikān
+      place sa mort à Manbij en 284 H; al-Dhahabī le confirme
+      dans *Tārīkh al-Islām*. Les sources classiques ne
+      convergent pas sur le jour ou le mois.
+    canonical_hijri: {year: 284, precision: year}
+    canonical_gregorian: {date: 897-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: 284 AH at Manbij, age circa 80."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 284 AH wafayāt entry."
+      - source_key: ei2
+    people: [[al-buhturi, died]]
+    tags: [abbasid, poet, samarra, manbij, hamasa, qasida]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Buhturi"
+
+  - slug: death-of-ibn-al-rumi
+    category: scholar_death
+    title_en: Death of Ibn al-Rūmī — Master of the Detailed Image
+    title_ar: وفاة ابن الرومي — شاعر الصورة الدقيقة
+    title_fr: Mort d'Ibn al-Rūmī — maître de l'image détaillée
+    description_en: |
+      Abū al-Ḥasan ʿAlī ibn al-ʿAbbās ibn Jurayj — known as Ibn
+      al-Rūmī from his Byzantine-Greek paternal grandfather, a
+      Baghdādī poet of the Samarra age, court-poet to the
+      ʿAbbāsid amir Ismāʿīl ibn Bulbul and the Tāhirids — died
+      at Baghdad in 283 AH (896 CE) at age about sixty-seven.
+      He is universally regarded by classical Arabic literary
+      criticism (Qudāma ibn Jaʿfar, al-Marzubānī, Ibn Rashīq)
+      as the unrivalled master of the long, image-dense
+      descriptive *qaṣīda* in Arabic, with extended set-piece
+      treatments of cooks, foods, gardens, ruined houses, and
+      portraits of friends and patrons that have no precedent
+      in the earlier tradition for sustained visual concretion.
+      Ibn Khallikān reports the prevailing tradition that he
+      was poisoned at the table of the vizier al-Qāsim ibn
+      ʿUbayd Allāh after a series of satirical verses; the
+      classical biographers preserve 283 AH for the year.
+    description_ar: |
+      توفي أبو الحسن علي بن العباس بن جريج المعروف بابن الرومي
+      — نسبةً إلى جدّ روميٍّ بيزنطيٍّ، شاعر بغداديٌّ من شعراء
+      عصر سامراء، نديم الأمير العباسي إسماعيل بن بُلبل ومادح
+      الطاهريين — ببغداد سنة ٢٨٣ هـ (٨٩٦ م) وعمره يناهز السابعة
+      والستين. ويتفق نقاد العربية الكلاسيكيون (قدامة بن جعفر
+      والمرزباني وابن رشيق) على أنه إمام القصيدة العربية
+      الوصفية الطويلة بلا منازع، إذ نظم في الطبّاخين والأطعمة
+      والبساتين والديار الخربة وصور الأصحاب والممدوحين قطعاً
+      وصفية مطوّلة لم يَسبق إلى مثل ذلك الإمعان البصريّ
+      المتواصل أحدٌ من قدماء العرب. وأرّخ ابن خلكان الرواية
+      الراجحة في وفاته أنه مات مسموماً على مائدة الوزير
+      القاسم بن عبيد الله جزاءَ هجاءٍ نظمه فيه؛ والمصادر
+      الكلاسيكية كلها على سنة ٢٨٣ هـ.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn al-ʿAbbās ibn Jurayj — connu sous
+      le nom d'Ibn al-Rūmī d'après son grand-père paternel
+      grec-byzantin, poète bagdādien de l'âge de Samarra, poète
+      de cour de l'émir ʿabbāside Ismāʿīl ibn Bulbul et des
+      Ṭāhirides — mourut à Bagdad en 283 H (896 EC), âgé
+      d'environ soixante-sept ans. Il est universellement tenu
+      par la critique littéraire arabe classique (Qudāma ibn
+      Jaʿfar, al-Marzubānī, Ibn Rashīq) pour le maître
+      incontesté de la longue *qaṣīda* descriptive arabe à
+      densité d'images, avec des morceaux de bravoure
+      prolongés sur les cuisiniers, les mets, les jardins,
+      les maisons en ruine et les portraits d'amis et de
+      mécènes — sans précédent dans la tradition antérieure
+      pour la concrétion visuelle soutenue. Ibn Khallikān
+      rapporte la tradition prédominante selon laquelle il
+      fut empoisonné à la table du vizir al-Qāsim ibn ʿUbayd
+      Allāh après des vers satiriques; les biographes
+      classiques conservent 283 H pour l'année.
+    canonical_hijri: {year: 283, precision: year}
+    canonical_gregorian: {date: 896-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: 283 AH at Baghdad; classical tradition reports poisoning by the vizier al-Qāsim ibn ʿUbayd Allāh."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 283 AH wafayāt entry."
+      - source_key: ei2
+    people: [[ibn-al-rumi, died]]
+    tags: [abbasid, poet, baghdad, samarra-era, descriptive-poetry]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Rumi"
+
+  - slug: death-of-ibn-al-mutazz
+    category: scholar_death
+    title_en: Death of Ibn al-Muʿtazz — One-Day Caliph and Poet-Critic
+    title_ar: وفاة ابن المعتز — خليفة يوم وإمام النقد البلاغي
+    title_fr: Mort d'Ibn al-Muʿtazz — calife d'un jour et critique-poète
+    description_en: |
+      Abū al-ʿAbbās ʿAbd Allāh ibn al-Muʿtazz bi-llāh — ʿAbbāsid
+      prince, son of the caliph al-Muʿtazz, distinguished poet
+      and the founding theoretician of *ʿilm al-badīʿ* (the
+      science of rhetorical figures) in his treatise *Kitāb
+      al-Badīʿ* (composed 274 AH / 887–88 CE), the work that
+      established the Arabic terminology for metaphor, antithesis,
+      paronomasia and the related figures still used today —
+      was proclaimed caliph at Baghdad on the night of Saturday
+      20 Rabīʿ al-Awwal 296 AH (16 December 908 CE) by a faction
+      of viziers and judges following the death of al-Muktafī,
+      held the throne for a single day, was overthrown by the
+      partisans of the boy-caliph al-Muqtadir, captured, and
+      strangled the next day. Ibn Khallikān gives the date
+      precisely; al-Ṭabarī's *Tārīkh* and Ibn al-Athīr's
+      *al-Kāmil* both narrate the brief reign and execution
+      under the events of 296 AH. He was buried at age fifty.
+    description_ar: |
+      قُتل أبو العباس عبد الله بن المعتز بالله — أمير عباسي،
+      ابن الخليفة المعتز، شاعرٌ مُجَلٍّ وأول من أصّل علم البديع
+      في كتابه «البديع» (نُظم سنة ٢٧٤ هـ / ٨٨٧–٨٨ م)، فأرسى
+      مصطلحات العربية للاستعارة والطباق والجناس وسائر فنون
+      البلاغة المستعملة إلى يومنا — وقد بويع بالخلافة ببغداد
+      ليلة السبت العشرين من ربيع الأول سنة ٢٩٦ هـ (الموافق
+      ١٦ ديسمبر ٩٠٨ م) إثر وفاة المكتفي بفعل فريقٍ من الوزراء
+      والقضاة، فاستقام له الأمر يوماً واحداً، ثم انقلب عليه
+      أنصارُ الصبي المقتدر، فقُبض عليه وخُنق في غدِه. وأرّخ
+      ابن خلكان وفاته بدقة؛ وأطنب الطبري في «تاريخه» وابن
+      الأثير في «الكامل» في خبر خلافته القصيرة وقتله في حوادث
+      سنة ٢٩٦ هـ. ودُفن وعمره خمسون سنة.
+    description_fr: |
+      Abū al-ʿAbbās ʿAbd Allāh ibn al-Muʿtazz bi-llāh — prince
+      ʿabbāside, fils du calife al-Muʿtazz, poète distingué et
+      théoricien fondateur de *ʿilm al-badīʿ* (la science des
+      figures rhétoriques) dans son traité *Kitāb al-Badīʿ*
+      (composé en 274 H / 887–88 EC), l'ouvrage qui établit la
+      terminologie arabe de la métaphore, de l'antithèse, de
+      la paronomase et des figures voisines encore utilisée
+      aujourd'hui — fut proclamé calife à Bagdad la nuit du
+      samedi 20 Rabīʿ al-Awwal 296 H (16 décembre 908 EC) par
+      une faction de vizirs et de juges après la mort
+      d'al-Muktafī, tint le trône une journée, fut renversé
+      par les partisans du calife-enfant al-Muqtadir, capturé
+      et étranglé le lendemain. Ibn Khallikān donne la date
+      précisément; *Tārīkh* d'al-Ṭabarī et *al-Kāmil* d'Ibn
+      al-Athīr narrent tous deux le bref règne et l'exécution
+      sous les événements de 296 H. Il fut enterré à l'âge de
+      cinquante ans.
+    canonical_hijri: {year: 296, month: 3, day: 20, precision: day}
+    canonical_gregorian: {date: 908-12-16, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Bayʿa on the night of Saturday 20 Rabīʿ al-Awwal 296 AH; deposed and strangled the next day, age 50."
+      - source_key: tabari_tarikh
+        notes: "al-Ṭabarī narrates the proclamation and overthrow under the events of 296 AH."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr al-Kamil places the bayʿa, the deposition, and the killing in 296 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 296 AH wafayāt entry."
+    people: [[ibn-al-mutazz, died]]
+    tags: [abbasid, poet, caliph, baghdad, badi-rhetoric, one-day-caliph]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Mu%27tazz"
+
+  # =========================================================================
+  # AL-JĀḤIẒ — THE GREAT ABBASID PROSE-MASTER
+  # =========================================================================
+
+  - slug: death-of-al-jahiz
+    category: scholar_death
+    title_en: Death of al-Jāḥiẓ — Author of *al-Bayān wa-l-Tabyīn*
+    title_ar: وفاة الجاحظ — صاحب «البيان والتبيين»
+    title_fr: Mort d'al-Jāḥiẓ — auteur d'*al-Bayān wa-l-Tabyīn*
+    description_en: |
+      Abū ʿUthmān ʿAmr ibn Baḥr al-Kinānī al-Baṣrī, known as
+      al-Jāḥiẓ ("the goggle-eyed") — Basran-Baghdādī Muʿtazilī
+      littérateur and the founding figure of Arabic *adab*
+      prose, author of *al-Bayān wa-l-Tabyīn* (a foundational
+      treatise on Arabic eloquence and rhetoric), *Kitāb al-
+      Ḥayawān* (a seven-volume zoology that doubles as a
+      compendium of Arabic poetic and proverbial lore), *Kitāb
+      al-Bukhalāʾ* ("The Book of Misers"), and dozens of further
+      epistles on theology, sociology, and natural history —
+      died at Basra in Muḥarram 255 AH (December 868 / January
+      869 CE), reportedly at age over ninety, when a stack of
+      books fell on him in his library. Ibn Khallikān places
+      the death in Muḥarram 255 AH at Basra; al-Dhahabī gives
+      the same year in *Siyar Aʿlām al-Nubalāʾ*. The day within
+      Muḥarram is not consistently preserved.
+    description_ar: |
+      توفي أبو عثمان عمرو بن بحر الكناني البصري المعروف
+      بالجاحظ — أديبٌ بصريٌّ بغداديٌّ معتزليٌّ، مؤسسُ نثر
+      الأدب العربي، صاحب «البيان والتبيين» في علم البلاغة
+      العربية، و«كتاب الحيوان» في سبعة أجزاء يتوسل فيه إلى
+      علم الأحياء بشواهد الشعر والأمثال العربية، و«البخلاء»،
+      وعشرات الرسائل الأخرى في الكلام وعلم الاجتماع
+      وتاريخ الطبيعة — بالبصرة في محرم سنة ٢٥٥ هـ (ديسمبر
+      ٨٦٨ – يناير ٨٦٩ م) وعمره ينيف على التسعين، إذ سقطت
+      عليه مجموعة من كتبه في خزانته فقتلته. وضبط ابن خلكان
+      وفاته في محرم سنة ٢٥٥ هـ بالبصرة، وأكّد الذهبي السنة
+      في «سير أعلام النبلاء». ولم يُحفظ اليومُ من محرم
+      على وجه الاتفاق.
+    description_fr: |
+      Abū ʿUthmān ʿAmr ibn Baḥr al-Kinānī al-Baṣrī, dit
+      al-Jāḥiẓ (« celui aux yeux saillants ») — littérateur
+      basrien-bagdādien muʿtazilite et figure fondatrice de la
+      prose *adab* arabe, auteur d'*al-Bayān wa-l-Tabyīn*
+      (traité fondateur de l'éloquence et de la rhétorique
+      arabes), du *Kitāb al-Ḥayawān* (une zoologie en sept
+      volumes qui sert également de compendium de poésie et de
+      proverbes arabes), du *Kitāb al-Bukhalāʾ* (« Livre des
+      avares »), et de dizaines d'autres épîtres sur la
+      théologie, la sociologie et l'histoire naturelle —
+      mourut à Bassora en Muḥarram 255 H (décembre 868 –
+      janvier 869 EC), réputé avoir dépassé les quatre-vingt-
+      dix ans, lorsqu'une pile de livres s'effondra sur lui
+      dans sa bibliothèque. Ibn Khallikān place la mort en
+      Muḥarram 255 H à Bassora; al-Dhahabī donne la même
+      année dans *Siyar Aʿlām al-Nubalāʾ*. Le jour du mois
+      de Muḥarram n'est pas conservé de manière cohérente.
+    canonical_hijri: {year: 255, month: 1, precision: month}
+    canonical_gregorian: {date: 868-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh in Muḥarram 255 AH at Basra, age over 90; killed by collapsing pile of books."
+      - source_key: dhahabi_siyar
+        notes: "Year 255 AH biographical entry."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 255 AH wafayāt entry."
+      - source_key: ei2
+    people: [[al-jahiz, died]]
+    tags: [abbasid, prose, basra, baghdad, mutazila, adab, bayan-wa-tabyin]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Jahiz"
+
+  # =========================================================================
+  # BUWAYHID PERIOD — AL-SHARĪF AL-RAḌĪ, AL-MAʿARRĪ
+  # =========================================================================
+
+  # death-of-al-sharif-al-radi intentionally excluded — Twelver Shia compiler of *Nahj al-Balāgha*.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+
+  - slug: death-of-al-maarri
+    category: scholar_death
+    title_en: Death of Abū al-ʿAlāʾ al-Maʿarrī — Blind Sage of Maʿarrat al-Nuʿmān
+    title_ar: وفاة أبي العلاء المعرّي — حكيم معرّة النعمان الضرير
+    title_fr: Mort d'Abū al-ʿAlāʾ al-Maʿarrī — sage aveugle de Maʿarrat al-Nuʿmān
+    description_en: |
+      Abū al-ʿAlāʾ Aḥmad ibn ʿAbd Allāh al-Tanūkhī al-Maʿarrī —
+      blind Syrian poet and prose-writer of the northern town
+      of Maʿarrat al-Nuʿmān, author of the two great poetic
+      collections *Saqṭ al-Zand* (early period) and *al-Luzūmiyyāt*
+      (mature period, with its rigorous double-rhyme constraint),
+      and of the prose *Risālat al-Ghufrān* — died at his home
+      town on Friday 13 Rabīʿ al-Awwal 449 AH (10 May 1057 CE)
+      at age eighty-six. Ibn Khallikān gives the date precisely
+      and reports that al-Maʿarrī chose the epitaph *hādhā mā
+      janāhu abī ʿalayya / wa-mā janaytu ʿalā aḥad* ("This is
+      what my father committed against me / and I have committed
+      against no one") for his grave. Several of his surviving
+      verses contain harsh skeptical-rationalist statements about
+      religion; classical Sunni biographers (Ibn Khallikān, Ibn
+      Kathīr, al-Dhahabī) record both his unmatched mastery of
+      Arabic and the sharp criticism his religious views drew
+      from contemporaries.
+    description_ar: |
+      توفي أبو العلاء أحمد بن عبد الله التنوخي المعرّي — شاعر
+      شامي ضرير من معرّة النعمان، صاحب الديوانين الكبيرين
+      «سقط الزند» (في بواكيره) و«اللزوميّات» (في كهولته،
+      ملتزمة قيد القافية المضاعفة)، وصاحب الرسالة النثرية
+      «رسالة الغفران» — في بلده معرّة النعمان يوم الجمعة
+      الثالث عشر من ربيع الأول سنة ٤٤٩ هـ (الموافق ١٠ مايو
+      ١٠٥٧ م) وعمره ست وثمانون سنة. وضبط ابن خلكان تاريخ
+      وفاته بدقة، وحفظ من اختياره أن يُكتب على قبره: «هذا
+      ما جناه أبي عليّ / وما جنيتُ على أحد». وفي شعره الباقي
+      تصريحاتٌ شكوكية عقلية خشنة في الدين؛ ويذكر مترجموه من
+      أئمة السنة (ابن خلكان وابن كثير والذهبي) في آنٍ معاً
+      تفوقه في العربية لا يُماثَل، ونقد معاصريه له على
+      آرائه الدينية.
+    description_fr: |
+      Abū al-ʿAlāʾ Aḥmad ibn ʿAbd Allāh al-Tanūkhī al-Maʿarrī —
+      poète et prosateur syrien aveugle de la ville
+      septentrionale de Maʿarrat al-Nuʿmān, auteur des deux
+      grandes collections poétiques *Saqṭ al-Zand* (période
+      ancienne) et *al-Luzūmiyyāt* (période de maturité, avec
+      sa rigoureuse contrainte de la double rime), et de la
+      prose *Risālat al-Ghufrān* — mourut dans sa ville natale
+      le vendredi 13 Rabīʿ al-Awwal 449 H (10 mai 1057 EC),
+      âgé de quatre-vingt-six ans. Ibn Khallikān donne la
+      date avec précision et rapporte qu'al-Maʿarrī choisit
+      pour épitaphe *hādhā mā janāhu abī ʿalayya / wa-mā
+      janaytu ʿalā aḥad* (« Voici ce que mon père a commis
+      contre moi / et moi, je n'ai commis envers personne »).
+      Plusieurs vers conservés contiennent des déclarations
+      sceptiques-rationalistes acerbes sur la religion; les
+      biographes sunnites classiques (Ibn Khallikān, Ibn
+      Kathīr, al-Dhahabī) consignent à la fois sa maîtrise
+      sans pareille de l'arabe et la critique sévère que ses
+      vues religieuses lui valurent de la part de ses
+      contemporains.
+    canonical_hijri: {year: 449, month: 3, day: 13, precision: day}
+    canonical_gregorian: {date: 1057-05-10, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: Friday 13 Rabīʿ al-Awwal 449 AH at Maʿarrat al-Nuʿmān, age 86; epitaph preserved."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 449 AH wafayāt entry."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr places the wafāh in 449 AH and rehearses his life and the criticism of his religious verse."
+      - source_key: ei2
+    people: [[al-maarri, died]]
+    tags: [abbasid, poet, syria, maarrat-al-numan, blind, luzumiyyat, risalat-al-ghufran]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Ma%27arri"
+
+  # =========================================================================
+  # ANDALUSI POETIC SUCCESSION — IBN ZAYDŪN, IBN KHAFĀJA
+  # =========================================================================
+
+  - slug: death-of-ibn-zaydun
+    category: scholar_death
+    title_en: Death of Ibn Zaydūn — Court-Poet of Cordoba and Seville
+    title_ar: وفاة ابن زيدون — شاعر بلاطَي قرطبة وإشبيلية
+    title_fr: Mort d'Ibn Zaydūn — poète de cour de Cordoue et Séville
+    description_en: |
+      Abū al-Walīd Aḥmad ibn ʿAbd Allāh ibn Zaydūn al-Makhzūmī
+      al-Andalusī — Cordoban poet and prose stylist of the
+      late-Umayyad and Tāʾifa-period Andalus, court-secretary
+      to the Banū Jahwar of Cordoba and to al-Muʿtaḍid and
+      al-Muʿtamid of the ʿAbbādid kingdom of Seville, author
+      of the Arabic *qaṣīda nūniyya* on his absent beloved
+      Wallāda bint al-Mustakfī (one of the most celebrated love
+      poems of Andalusi Arabic literature) and of the satirical-
+      epistolary *Risāla Hazliyya* and *Risāla Jiddiyya* — died
+      at Seville in Rajab 463 AH (April 1071 CE) at age about
+      seventy. Ibn Khallikān gives Rajab 463 AH at Seville;
+      al-Maqqarī in *Nafḥ al-Ṭīb* preserves a parallel report.
+      The day within Rajab is not consistently preserved.
+    description_ar: |
+      توفي أبو الوليد أحمد بن عبد الله بن زيدون المخزومي
+      الأندلسي — شاعر قرطبي وكاتب أندلسي من أواخر العصر
+      الأموي وعصر الطوائف، تكاتب لبني جهور بقرطبة وللمعتضد
+      والمعتمد العبّاديَّين بإشبيلية، صاحب القصيدة النونية
+      الشهيرة في ولاّدة بنت المستكفي (وهي من أعرف قصائد
+      الغزل في الأدب العربي الأندلسي) وصاحب «الرسالة الهزلية»
+      و«الرسالة الجدية» — بإشبيلية في رجب سنة ٤٦٣ هـ (الموافق
+      أبريل ١٠٧١ م) وعمره يقارب السبعين. وذكر ابن خلكان وفاته
+      في رجب سنة ٤٦٣ هـ بإشبيلية؛ وحفظ المقري في «نفح الطيب»
+      روايةً مُماثلة. ولم يُحفظ يومه من رجب على وجه الاتفاق.
+    description_fr: |
+      Abū al-Walīd Aḥmad ibn ʿAbd Allāh ibn Zaydūn al-Makhzūmī
+      al-Andalusī — poète et prosateur cordouan de l'Andalousie
+      de la fin de l'époque omeyyade et de la période des
+      *taïfas*, secrétaire de cour des Banū Jahwar de Cordoue
+      et d'al-Muʿtaḍid et d'al-Muʿtamid du royaume ʿabbādide
+      de Séville, auteur de la *qaṣīda nūniyya* sur sa bien-
+      aimée absente Wallāda bint al-Mustakfī (l'un des poèmes
+      d'amour les plus célèbres de la littérature arabe
+      andalousie) et des épîtres satiriques *Risāla Hazliyya*
+      et *Risāla Jiddiyya* — mourut à Séville en Rajab 463 H
+      (avril 1071 EC), âgé d'environ soixante-dix ans. Ibn
+      Khallikān donne Rajab 463 H à Séville; al-Maqqarī dans
+      *Nafḥ al-Ṭīb* conserve un récit parallèle. Le jour du
+      mois de Rajab n'est pas conservé de manière cohérente.
+    canonical_hijri: {year: 463, month: 7, precision: month}
+    canonical_gregorian: {date: 1071-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: Rajab 463 AH at Seville, age circa 70."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 463 AH wafayāt entry."
+      - source_key: ei2
+    people: [[ibn-zaydun, died]]
+    tags: [andalus, poet, cordoba, seville, taifa, abbadid, nuniyya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Zaydun"
+
+  - slug: death-of-ibn-khafaja
+    category: scholar_death
+    title_en: Death of Ibn Khafāja al-Andalusī — Poet of the Garden
+    title_ar: وفاة ابن خفاجة الأندلسي — شاعر الطبيعة الأندلسية
+    title_fr: Mort d'Ibn Khafāja al-Andalusī — poète du jardin
+    description_en: |
+      Abū Isḥāq Ibrāhīm ibn Abī al-Fatḥ ibn Khafāja al-Andalusī —
+      poet of Alzira (Jazīrat Shuqr) on the Júcar river in the
+      Sharq al-Andalus, active under the Almoravid governors
+      of Valencia, the universally-acknowledged master of the
+      Andalusi *rawḍiyya* (garden-and-river ode) and *waṣf
+      al-ṭabīʿa* (description of nature) — died in Alzira in
+      533 AH (1138–39 CE), at age over eighty. His *Dīwān*
+      preserves the most concentrated body of pastoral and
+      landscape poetry in the Andalusi tradition, with extended
+      descriptive sequences on the Júcar valley, garden
+      orchards, mountains, and storms that became the model
+      for later Andalusi-Maghribi poetry of place. Ibn
+      Khallikān places the wafāh in 533 AH at Alzira;
+      al-Dhahabī confirms in *Tārīkh al-Islām*. The classical
+      sources retain only the year.
+    description_ar: |
+      توفي أبو إسحاق إبراهيم بن أبي الفتح بن خفاجة الأندلسي
+      — شاعر جزيرة شُقر على نهر شُقر في شرق الأندلس، اشتُهر
+      في أيام ولاة المرابطين على بلنسية، وهو إمام «الروضيات»
+      ووصف الطبيعة في الأدب الأندلسي بلا منازع — في جزيرة
+      شُقر سنة ٥٣٣ هـ (الموافق ١١٣٨–٣٩ م) وعمره يربو على
+      الثمانين. وفي ديوانه أوسعُ ما نُظم في الأدب الأندلسي
+      من شعر الرعاء ووصف المنازل، وفيه فصول طويلة في وصف
+      وادي شُقر وبساتينه وجباله وأنوائه، صارت نموذجاً للشعر
+      الأندلسي والمغربي بعده في وصف المكان. وأرّخ ابن خلكان
+      وفاته بسنة ٥٣٣ هـ بجزيرة شُقر؛ وأكّد ذلك الذهبي في
+      «تاريخ الإسلام». ولا تحفظ المصادر القديمة سوى السنة.
+    description_fr: |
+      Abū Isḥāq Ibrāhīm ibn Abī al-Fatḥ ibn Khafāja al-Andalusī
+      — poète d'Alzira (Jazīrat Shuqr) sur le Júcar dans le
+      Sharq al-Andalus, actif sous les gouverneurs almoravides
+      de Valence, maître universellement reconnu de la
+      *rawḍiyya* (ode de jardin et de rivière) andalousie et
+      du *waṣf al-ṭabīʿa* (description de la nature) — mourut
+      à Alzira en 533 H (1138–39 EC), âgé de plus de quatre-
+      vingts ans. Son *Dīwān* conserve le corpus de poésie
+      pastorale et paysagère le plus concentré de la tradition
+      andalouse, avec des suites descriptives étendues sur la
+      vallée du Júcar, les vergers, les montagnes et les
+      orages, qui devinrent le modèle de la poésie andalousie-
+      maghrébine ultérieure du lieu. Ibn Khallikān place la
+      *wafāh* en 533 H à Alzira; al-Dhahabī le confirme dans
+      *Tārīkh al-Islām*. Les sources classiques ne retiennent
+      que l'année.
+    canonical_hijri: {year: 533, precision: year}
+    canonical_gregorian: {date: 1138-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: 533 AH at Jazīrat Shuqr (Alzira), age over 80."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 533 AH wafayāt entry."
+      - source_key: ei2
+    people: [[ibn-khafaja, died]]
+    tags: [andalus, poet, valencia, almoravid, jucar, nature-poetry, rawdiyya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Khafaja"
+
+  # =========================================================================
+  # AYYUBID-MAMLUK SUFI POET — IBN AL-FĀRIḌ
+  # =========================================================================
+
+  # death-of-ibn-al-farid intentionally excluded — *Tāʾiyya al-Kubrā* contains waḥdat al-wujūd themes.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+
+  - slug: death-of-ibn-said-al-maghribi
+    category: scholar_death
+    title_en: Death of Ibn Saʿīd al-Maghribī — Andalusi-Maghribi Anthologist
+    title_ar: وفاة ابن سعيد المغربي — مؤرخ الأدب الأندلسي والمغربي
+    title_fr: Mort d'Ibn Saʿīd al-Maghribī — anthologiste andalousi-maghrébin
+    description_en: |
+      Abū al-Ḥasan ʿAlī ibn Mūsā ibn Saʿīd al-ʿAnsī al-Granaṭī
+      al-Maghribī — Granadan polymath, traveller, and
+      anthologist of the late Almohad period, author of *al-
+      Mughrib fī Ḥulā al-Maghrib* (a vast biographical-
+      anthological survey of Andalusi-Maghribi poets and prose
+      writers begun by his father and grandfather) and *Rāyāt
+      al-Mubarrizīn wa-Ghāyāt al-Mumayyazīn* (a slim, much-
+      transcribed anthology of Andalusi poetry) — died in Tunis
+      in 685 AH (1286 CE) at age about seventy-five (some
+      sources place the death at Damascus or Aleppo). Together
+      with the parallel *Mughrib* of his ancestors, the *al-
+      Maqqarī*-cited references to his work in *Nafḥ al-Ṭīb*,
+      and his own travel-memoir, his oeuvre is the principal
+      late-medieval inventory of the Andalusi-Maghribi literary
+      canon. Ibn Khallikān had died (681 AH) before Ibn Saʿīd's
+      death, so the principal classical source is al-Dhahabī
+      in *Tārīkh al-Islām*; al-Maqqarī, writing centuries
+      later, draws extensively on Ibn Saʿīd in *Nafḥ al-Ṭīb*.
+      Sources differ on the place of death (Tunis / Damascus /
+      Aleppo) but agree on the year 685 AH.
+    description_ar: |
+      توفي أبو الحسن علي بن موسى بن سعيد العنسي الغرناطي
+      المغربي — أديب غرناطيٌّ متعدّد الميادين، رحّالةٌ ومؤرخ
+      أدبٍ من أواخر العصر الموحدي، صاحب «المُغرب في حُلى
+      المغرب» (مسحٌ سيري وأدبيٌّ كبير لشعراء الأندلس والمغرب
+      وأدبائهم، بدأه جدّه وأبوه وأكمله هو) و«رايات المبرزين
+      وغايات المميزين» (مختارات أندلسية وجيزة كثُرت روايتها)
+      — بتونس سنة ٦٨٥ هـ (الموافق ١٢٨٦ م) وعمره يقارب الخامسة
+      والسبعين (وقد ذكرت بعض المصادر أنه توفي بدمشق أو حلب).
+      ومع ما سبق إلى «المُغرب» من سلفه ومراجع المقري إليه في
+      «نفح الطيب» ومعرفة رحلاته، يكون أثرُه الإحصائيَّ
+      الأساسيّ للأدب الأندلسي والمغربي في أواخر العصر الوسيط.
+      وقد توفي ابن خلكان (٦٨١ هـ) قبل وفاته، فالمصدر السني
+      الرئيسي عنه هو الذهبي في «تاريخ الإسلام»؛ وأكثر المقري
+      عنه النقل في «نفح الطيب». واختلفت المصادر في مكان
+      الوفاة (تونس / دمشق / حلب) واتفقت على سنة ٦٨٥ هـ.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn Mūsā ibn Saʿīd al-ʿAnsī al-Granaṭī
+      al-Maghribī — polymathe grenadin, voyageur et
+      anthologiste de la fin de la période almohade, auteur
+      d'*al-Mughrib fī Ḥulā al-Maghrib* (vaste enquête
+      biographique et anthologique sur les poètes et prosateurs
+      andalous-maghrébins, commencée par son père et son
+      grand-père) et de *Rāyāt al-Mubarrizīn wa-Ghāyāt al-
+      Mumayyazīn* (mince anthologie de poésie andalousie
+      abondamment recopiée) — mourut à Tunis en 685 H (1286
+      EC), âgé d'environ soixante-quinze ans (certaines
+      sources placent la mort à Damas ou à Alep). Avec
+      l'œuvre parallèle de ses ancêtres, les références à son
+      travail citées par al-Maqqarī dans *Nafḥ al-Ṭīb* et son
+      propre récit de voyage, son corpus est le principal
+      inventaire médiéval-tardif du canon littéraire andalousi-
+      maghrébin. Ibn Khallikān étant mort (681 H) avant Ibn
+      Saʿīd, la principale source sunnite classique est al-
+      Dhahabī dans *Tārīkh al-Islām*; al-Maqqarī, écrivant
+      des siècles plus tard, le cite abondamment dans *Nafḥ
+      al-Ṭīb*. Les sources divergent sur le lieu du décès
+      (Tunis / Damas / Alep) mais s'accordent sur l'année 685 H.
+    canonical_hijri: {year: 685, precision: year}
+    canonical_gregorian: {date: 1286-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "Year 685 AH wafayāt entry; place of death disputed (Tunis / Damascus / Aleppo)."
+      - source_key: ei2
+        notes: "EI2 article *Ibn Saʿīd al-Maghribī*: 685 AH death, surveys the dispute over location."
+    people: [[ibn-said-al-maghribi, died]]
+    tags: [andalus, maghreb, poet, anthologist, granada, almohad, mughrib, rayat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: detail
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Sa%27id_al-Maghribi"

@@ -1,0 +1,862 @@
+# Wave 5 of curated event additions (2026-04-26).
+# 4 mamluk/ayyubid sultans + 2 qurra' (Quran reciters) + 3 hanafi/hanbali
+# fuqaha + 1 muhaddith + 2 west african revivers + 1 modern reviver
+# + 2 major battles (Hims, Ankara). Each event attested in classical
+# Sunni sources or, for modern figures, well-documented contemporary
+# Sunni biographical works. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # MAMLUK + AYYUBID SULTANS
+  # =========================================================================
+
+  - slug: death-of-qutuz
+    category: ruler
+    title_en: Assassination of Sultan Qutuz — Victor of ʿAyn Jalut
+    title_ar: مقتل السلطان قطز — بطل عين جالوت
+    title_fr: Assassinat du sultan Quṭuz — vainqueur de ʿAyn Jālūt
+    description_en: |
+      al-Muẓaffar Sayf al-Din Quṭuz, third Mamluk sultan of Egypt
+      and the commander whose strategic decision to confront the
+      Mongols in the Galilee — rather than abandon Egypt — produced
+      the decisive victory at ʿAyn Jalut on 25 Ramaḍān 658 AH, was
+      assassinated forty-two days later in the Sinai while returning
+      to Cairo. He was killed by a faction of his own emirs led by
+      Baybars, who succeeded him on the throne. Quṭuz had reportedly
+      promised Baybars the governorship of Aleppo after the victory
+      and reneged. Despite the brevity of his reign (less than a
+      year), he occupies an iconic place in classical Mamluk
+      historiography as the man who broke the Mongol myth of
+      invincibility — "had he not stood at ʿAyn Jalut, the Mongols
+      would have wintered in Cairo" (al-Maqrīzī).
+    description_ar: |
+      اغتيل السلطان المظفر سيف الدين قطز — ثالث سلاطين دولة المماليك
+      بمصر، وقائد المعركة التي قرر فيها مواجهة المغول في الجليل بدلاً
+      من ترك مصر، فأخرج بذلك نصر عين جالوت الفاصل في ٢٥ رمضان سنة
+      ٦٥٨ للهجرة — في سيناء بعد اثنين وأربعين يوماً وهو في طريق
+      عودته إلى القاهرة. قتله أمراء من بطانته بقيادة الظاهر بيبرس
+      الذي خلفه على العرش. وكانت الرواية أن قطز وعد بيبرس بنيابة
+      حلب بعد النصر فلم يفِ. ومع قصر مدة سلطته (أقل من سنة) فإنه
+      يحتل مكانة شاهقة في تاريخ المماليك الكلاسيكي بوصفه الرجل الذي
+      كسر أسطورة المغول التي لا تقهر — قال المقريزي: «لولا قيامه
+      بعين جالوت لشتى المغول بالقاهرة».
+    description_fr: |
+      al-Muẓaffar Sayf al-Dīn Quṭuz, troisième sultan mamelouk
+      d'Égypte et le commandant dont la décision stratégique
+      d'affronter les Mongols en Galilée — plutôt que d'abandonner
+      l'Égypte — produisit la victoire décisive de ʿAyn Jālūt le
+      25 Ramaḍān 658 H, fut assassiné quarante-deux jours plus tard
+      dans le Sinaï alors qu'il regagnait Le Caire. Il fut tué par
+      une faction de ses propres émirs menée par Baybars, qui lui
+      succéda sur le trône. Quṭuz aurait promis à Baybars le
+      gouvernorat d'Alep après la victoire puis se serait rétracté.
+      Malgré la brièveté de son règne (moins d'un an), il occupe
+      une place iconique dans l'historiographie mamelouke classique
+      comme l'homme qui brisa le mythe d'invincibilité mongol —
+      « s'il ne s'était dressé à ʿAyn Jālūt, les Mongols auraient
+      hiverné au Caire » (al-Maqrīzī).
+    canonical_hijri: {year: 658, month: 11, precision: month}
+    canonical_gregorian: {date: 1260-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+    people: [[qutuz, subject], [baybars, subject]]
+    tags: [mamluk, mongols, ayn-jalut, baybars, sinai, cairo]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qutuz"
+
+  - slug: death-of-baybars
+    category: ruler
+    title_en: Death of Sultan Baybars
+    title_ar: وفاة السلطان الظاهر بيبرس
+    title_fr: Mort du sultan Baybars
+    description_en: |
+      al-Ẓāhir Rukn al-Din Baybars al-Bunduqdari, fourth Mamluk
+      sultan of Egypt and the most consequential ruler of the Baḥri
+      Mamluk era — restorer of the ʿAbbasid caliphate in Cairo after
+      the Mongol sack of Baghdad, victor over the Crusaders at
+      Antioch (1268 CE) and Krak des Chevaliers (1271 CE), reformer
+      of the postal *barīd* system across the Mamluk realm, and
+      patron of major architectural projects in Cairo and Damascus —
+      died at Damascus at age about 54 of an illness later attributed
+      by some sources to poison meant for the Ayyubid prince
+      al-Malik al-Qāhir, which he drank by mistake from a shared cup.
+      His reign of seventeen years stabilised the Mamluk state and
+      established the framework for two and a half centuries of
+      Mamluk rule.
+    description_ar: |
+      توفي السلطان الظاهر ركن الدين بيبرس البندقداري — رابع سلاطين
+      المماليك البحرية بمصر، وأبرز سلاطين هذا الجيل: مُعيد الخلافة
+      العباسية إلى القاهرة بعد سقوط بغداد على المغول، وفاتح أنطاكية
+      على الصليبيين سنة ١٢٦٨ ميلادي وحصن الفرسان سنة ١٢٧١ ميلادي،
+      ومنظِّم البريد عبر دولة المماليك، وراعي المعمار في القاهرة
+      ودمشق — بدمشق عن نحو أربع وخمسين سنة بداء لاحقت بعضُ المصادر
+      أنه سمّ كان معدّاً للأمير الأيوبي الملك القاهر فشربه بيبرس
+      بالخطأ من قدح مشترك. ودولته التي امتدت سبع عشرة سنة استقرّت
+      بدولة المماليك وأرست الإطار الذي سمح لها بالاستمرار قرنين
+      ونصف بعد ذلك.
+    description_fr: |
+      al-Ẓāhir Rukn al-Dīn Baybars al-Bunduqdārī, quatrième sultan
+      mamelouk d'Égypte et le souverain le plus conséquent de l'ère
+      mamelouke baḥrī — restaurateur du califat abbasside au Caire
+      après le sac mongol de Bagdad, vainqueur des Croisés à Antioche
+      (1268 EC) et au Krak des Chevaliers (1271 EC), réformateur du
+      système postal *barīd* à travers le royaume mamelouk, et mécène
+      de projets architecturaux majeurs au Caire et à Damas — mourut
+      à Damas à l'âge d'environ 54 ans d'une maladie plus tard
+      attribuée par certaines sources à un poison destiné au prince
+      ayyoubide al-Malik al-Qāhir, qu'il aurait bu par erreur dans
+      une coupe partagée. Son règne de dix-sept ans stabilisa l'État
+      mamelouk et posa le cadre des deux siècles et demi de domination
+      mamelouke qui suivirent.
+    canonical_hijri: {year: 676, month: 7, precision: month}
+    canonical_gregorian: {date: 1277-07-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+    people: [[baybars, subject]]
+    tags: [mamluk, baybars, crusades, mongols, damascus, cairo, abbasid-restoration]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Baybars"
+
+  - slug: death-of-qalawun
+    category: ruler
+    title_en: Death of Sultan al-Manṣur Qalawun
+    title_ar: وفاة السلطان المنصور قلاوون
+    title_fr: Mort du sultan al-Manṣūr Qalāwūn
+    description_en: |
+      al-Manṣur Sayf al-Din Qalawun al-Alfi — seventh Mamluk sultan
+      of Egypt, founder of the Qalāwūnid dynastic line that would
+      hold the Cairo throne for over a century, and the sultan
+      whose victory over the Mongol Ilkhanate at the second Battle
+      of Ḥims in 680 AH ended Mongol westward expansion definitively
+      — died at his camp outside Cairo while preparing the campaign
+      that would, under his son al-Ashraf Khalīl, complete the
+      reconquest of the Crusader Levant by taking Acre. He was about
+      75. His reign saw the construction of the great Bīmāristān
+      al-Manṣurī complex in Cairo, one of the largest and most
+      advanced hospitals of the medieval world, with separate wards
+      for fevers, eye diseases, surgery, and mental illness, all
+      served from its waqf endowment in perpetuity.
+    description_ar: |
+      توفي السلطان المنصور سيف الدين قلاوون الألفي — سابع سلاطين
+      المماليك بمصر، ومؤسس الفرع القلاووني الذي حكم القاهرة قرناً
+      ونيفاً، والسلطان الذي قطع توسع المغول الإيلخانيين غرباً قطعاً
+      نهائياً بنصره عليهم في معركة حمص الثانية سنة ٦٨٠ هـ — في
+      معسكره خارج القاهرة وهو يُعد الحملة التي ستكمل، بقيادة ابنه
+      الأشرف خليل، استعادة الشام من الصليبيين بفتح عكا. وقد ناهز
+      الخامسة والسبعين. وفي عهده شُيّد البيمارستان المنصوري الضخم
+      بالقاهرة، أحد أكبر مستشفيات العالم الإسلامي وأرقاها في عصره،
+      مع أجنحة منفصلة للحميات وأمراض العين والجراحة والأمراض
+      العقلية، تعمل أبد الدهر من ريع وقفها.
+    description_fr: |
+      al-Manṣūr Sayf al-Dīn Qalāwūn al-Alfī — septième sultan
+      mamelouk d'Égypte, fondateur de la lignée dynastique
+      qalāwūnide qui détiendrait le trône cairote pendant plus d'un
+      siècle, et le sultan dont la victoire sur l'Ilkhanat mongol
+      à la seconde bataille de Ḥims en 680 H mit fin de manière
+      définitive à l'expansion mongole vers l'ouest — mourut à son
+      campement hors du Caire alors qu'il préparait la campagne qui
+      achèverait, sous son fils al-Ashraf Khalīl, la reconquête du
+      Levant croisé par la prise d'Acre. Il avait environ 75 ans.
+      Son règne vit la construction du grand complexe du Bīmāristān
+      al-Manṣūrī au Caire, l'un des plus grands et plus avancés
+      hôpitaux du monde médiéval, avec des sections séparées pour
+      les fièvres, les maladies oculaires, la chirurgie et la maladie
+      mentale, toutes desservies à perpétuité par sa fondation *waqf*.
+    canonical_hijri: {year: 689, month: 11, precision: month}
+    canonical_gregorian: {date: 1290-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+    people: [[qalawun, subject]]
+    tags: [mamluk, mongols, hims, bimaristan, cairo, crusades]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qalawun"
+
+  - slug: death-of-al-adil
+    category: ruler
+    title_en: Death of Sultan al-ʿĀdil — Saladin's Brother
+    title_ar: وفاة السلطان الملك العادل أبي بكر — أخو صلاح الدين
+    title_fr: Mort du sultan al-ʿĀdil — frère de Saladin
+    description_en: |
+      al-Malik al-ʿĀdil Sayf al-Din Abu Bakr ibn Ayyub — younger
+      brother of Saladin and second sultan of the unified Ayyubid
+      sultanate — died at ʿĀlqīn near Damascus at age about 73 while
+      preparing to confront the Fifth Crusade then disembarking on
+      Damietta. Known to the Crusader chroniclers as *Saphadin*, he
+      was Saladin's most trusted lieutenant during the campaigns
+      against the Crusader states; after his brother's death he
+      consolidated the disputed succession by displacing Saladin's
+      sons one after another, finally taking the throne himself in
+      596 AH. His twenty-year reign maintained the Ayyubid
+      confederation, repaired the economy after the wars of the
+      Third Crusade, and concluded a long armistice with the Crusader
+      Kingdom of Jerusalem that lasted until shortly before his death.
+    description_ar: |
+      توفي السلطان الملك العادل سيف الدين أبو بكر بن أيوب — أصغر
+      إخوة صلاح الدين الأيوبي وثاني سلاطين السلطنة الأيوبية الموحدة
+      — في «عالقين» قرب دمشق عن نحو ثلاث وسبعين سنة وهو يستعد
+      لمواجهة الحملة الصليبية الخامسة الناحطة على دمياط. وعرفه مؤرخو
+      الفرنجة باسم «سفادين»، وكان ساعد أخيه الأيمن في حروب الفرنجة؛
+      وبعد وفاة أخيه اجتمع له ملك الأيوبيين بإقصاء أبناء أخيه واحداً
+      تلو الآخر فاستقل بالسلطنة سنة ٥٩٦ هـ. حكم عشرين سنة حافظ فيها
+      على وحدة الكنفدرالية الأيوبية، وأصلح الاقتصاد بعد حروب الحملة
+      الصليبية الثالثة، وعقد هدنة طويلة مع مملكة بيت المقدس
+      الصليبية ظلّت قائمة إلى قبيل وفاته.
+    description_fr: |
+      al-Malik al-ʿĀdil Sayf al-Dīn Abū Bakr ibn Ayyūb — frère cadet
+      de Saladin et deuxième sultan du sultanat ayyoubide unifié —
+      mourut à ʿĀlqīn près de Damas à l'âge d'environ 73 ans alors
+      qu'il se préparait à affronter la cinquième croisade en train
+      de débarquer à Damiette. Connu des chroniqueurs croisés sous
+      le nom de *Saphadin*, il fut le lieutenant le plus fidèle de
+      Saladin durant les campagnes contre les États croisés; après
+      la mort de son frère il consolida la succession contestée en
+      déplaçant les fils de Saladin l'un après l'autre, prenant
+      finalement le trône lui-même en 596 H. Son règne de vingt ans
+      maintint la confédération ayyoubide, restaura l'économie après
+      les guerres de la troisième croisade, et conclut un long
+      armistice avec le royaume croisé de Jérusalem qui dura jusqu'à
+      peu avant sa mort.
+    canonical_hijri: {year: 615, month: 7, precision: month}
+    canonical_gregorian: {date: 1218-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+    people: [[al-adil-sayf-al-din, subject], [salahuddin-al-ayyubi, subject]]
+    tags: [ayyubid, crusades, fifth-crusade, damascus, egypt]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Adil_I"
+
+  # =========================================================================
+  # QURRAʾ — TRANSMITTERS OF THE CANONICAL READINGS
+  # =========================================================================
+
+  - slug: death-of-asim-al-kufi
+    category: scholar
+    title_en: Death of ʿĀṣim al-Kūfi — qari of the Ḥafṣ recitation
+    title_ar: وفاة عاصم الكوفي — قارئ رواية حفص
+    title_fr: Mort de ʿĀṣim al-Kūfi — récitateur de la lecture de Ḥafṣ
+    description_en: |
+      ʿĀṣim ibn Abi al-Najud al-Asadi al-Kūfi — one of the seven
+      canonical reciters (*al-qurraʾ al-sabʿa*) recognised by Ibn
+      Mujahid (d. 324 AH) and the master from whose two students
+      Ḥafṣ ibn Sulaymān and Shuʿba ibn ʿAyyāsh the *Qirāʾat* readings
+      that became dominant across the Sunni world descend — died
+      in Kufa at age about 80. The *Ḥafṣ ʿan ʿĀṣim* recitation is
+      today the standard text of the Qurʾan across the entire
+      Islamic east — Egypt, the Levant, Iraq, Turkey, Iran (for
+      Sunnis), the Indian subcontinent, Southeast Asia, and Sub-
+      Saharan East Africa — and the version used in virtually every
+      printed Muṣḥaf since the 1924 Egyptian standard. ʿĀṣim
+      received his transmission directly from Abu ʿAbd al-Raḥmān
+      al-Sulami, who had received it from ʿAli, ʿUthman, Ibn Masʿud,
+      and Ubayy ibn Kaʿb ra. Sources differ slightly on the year of
+      his death between 127 and 128 AH.
+    description_ar: |
+      توفي الإمام عاصم بن أبي النجود الأسدي الكوفي — أحد القراء السبعة
+      الذين قنن قراءاتهم ابن مجاهد (ت ٣٢٤ هـ)، والإمام الذي أخرج
+      تلميذاه حفص بن سليمان وشعبة بن عياش روايتيه اللتين سادت قراءاتهما
+      عالم أهل السنة — بالكوفة عن نحو ثمانين سنة. ورواية «حفص عن
+      عاصم» هي اليوم النص الرسمي للقرآن في عامة المشرق الإسلامي:
+      مصر والشام والعراق وتركيا وفارس (عند أهل السنة) وشبه القارة
+      الهندية وجنوب شرق آسيا وأفريقيا الشرقية تحت الصحراء، وهي
+      الرواية المعتمدة في كل المصاحف المطبوعة منذ المصحف الأميري
+      المصري سنة ١٩٢٤ ميلادي. وأخذ عاصم القراءة عن أبي عبد الرحمن
+      السلمي عن علي وعثمان وابن مسعود وأبي بن كعب رضي الله عنهم.
+      واختلفت المصادر في سنة وفاته بين ١٢٧ و١٢٨ هـ.
+    description_fr: |
+      ʿĀṣim ibn Abī al-Najūd al-Asadi al-Kūfi — l'un des sept
+      récitateurs canoniques (*al-qurrāʾ al-sabʿa*) reconnus par
+      Ibn Mujāhid (m. 324 H) et le maître dont les deux élèves
+      Ḥafṣ ibn Sulaymān et Shuʿba ibn ʿAyyāsh produisirent les
+      lectures qui deviendraient dominantes dans le monde sunnite —
+      mourut à Koufa à l'âge d'environ 80 ans. La récitation
+      *Ḥafṣ ʿan ʿĀṣim* est aujourd'hui le texte standard du Coran
+      à travers tout l'Orient islamique — Égypte, Levant, Irak,
+      Turquie, Iran (pour les sunnites), sous-continent indien, Asie
+      du Sud-Est et Afrique sub-saharienne orientale — et la version
+      utilisée dans pratiquement chaque *Muṣḥaf* imprimé depuis
+      l'édition égyptienne de 1924. ʿĀṣim reçut sa transmission
+      directement d'Abū ʿAbd al-Raḥmān al-Sulamī, qui l'avait reçue
+      d'ʿAlī, d'ʿUthmān, d'Ibn Masʿūd et d'Ubayy ibn Kaʿb ra. Les
+      sources divergent légèrement entre 127 et 128 H pour l'année
+      de sa mort.
+    canonical_hijri: {year: 127, precision: year}
+    canonical_gregorian: {date: 745-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[asim-al-kufi, subject]]
+    tags: [qurraʾ, qiraʾat, hafs, kufa, umayyad, quran]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Aasim_ibn_Abi_al-Najud"
+
+  - slug: death-of-nafi-al-madani
+    category: scholar
+    title_en: Death of Nafiʿ al-Madani — qari of Warsh and Qalun
+    title_ar: وفاة نافع المدني — قارئ روايتي ورش وقالون
+    title_fr: Mort de Nāfiʿ al-Madanī — récitateur des lectures Warsh et Qālūn
+    description_en: |
+      Nafiʿ ibn ʿAbd al-Raḥmān al-Madani al-Laythi — one of the
+      seven canonical reciters and the master from whose two
+      students Warsh (d. 197 AH) and Qālun (d. 220 AH) descend the
+      readings that became the standard text of the Qurʾan across
+      the Islamic west — died in Medina at age about 70. The *Warsh
+      ʿan Nafiʿ* recitation is today the standard text across the
+      entire Maghreb (Morocco, Algeria, Tunisia, Mauritania) and
+      West Africa from Senegal to Niger; the *Qālun ʿan Nafiʿ*
+      recitation is standard in Libya. Nafiʿ took his recitation
+      from seventy of the Tabiʿūn of Medina, who had it from the
+      Companions ra. Imam Malik ibn Anas remarked of him: "the
+      reading of the people of Medina is the Sunna" — using
+      *qirāʾat ahl al-Madīna* as a synonym for the canonical
+      practice of the Prophet's ﷺ city.
+    description_ar: |
+      توفي الإمام نافع بن عبد الرحمن المدني الليثي — أحد القراء
+      السبعة، والإمام الذي أخرج تلميذاه ورش (ت ١٩٧ هـ) وقالون
+      (ت ٢٢٠ هـ) روايتيه اللتين سادت قراءاتهما عالم المغرب الإسلامي —
+      بالمدينة المنورة عن نحو سبعين سنة. ورواية «ورش عن نافع» هي
+      اليوم النص الرسمي للقرآن في عامة المغرب الإسلامي: المغرب
+      والجزائر وتونس وموريتانيا، وفي غرب أفريقيا من السنغال إلى
+      النيجر. ورواية «قالون عن نافع» النص الرسمي في ليبيا. وأخذ نافع
+      قراءته عن سبعين تابعياً من أهل المدينة من الصحابة رضي الله
+      عنهم. وقال عنه الإمام مالك بن أنس: «قراءة أهل المدينة سنة»،
+      بمعنى أنها العمل المعتمد في مدينة النبي ﷺ.
+    description_fr: |
+      Nāfiʿ ibn ʿAbd al-Raḥmān al-Madanī al-Laythi — l'un des sept
+      récitateurs canoniques et le maître dont les deux élèves
+      Warsh (m. 197 H) et Qālūn (m. 220 H) produisirent les lectures
+      qui deviendraient le texte standard du Coran dans tout
+      l'Occident islamique — mourut à Médine à l'âge d'environ
+      70 ans. La récitation *Warsh ʿan Nāfiʿ* est aujourd'hui le
+      texte standard à travers tout le Maghreb (Maroc, Algérie,
+      Tunisie, Mauritanie) et l'Afrique de l'Ouest du Sénégal au
+      Niger; la récitation *Qālūn ʿan Nāfiʿ* est standard en Libye.
+      Nāfiʿ prit sa récitation de soixante-dix tābiʿūn de Médine,
+      qui l'avaient reçue des Compagnons ra. L'imam Mālik ibn Anas
+      a remarqué à son sujet : « la lecture des gens de Médine est
+      la Sunna » — utilisant *qirāʾat ahl al-Madīna* comme synonyme
+      de la pratique canonique de la ville du Prophète ﷺ.
+    canonical_hijri: {year: 169, precision: year}
+    canonical_gregorian: {date: 785-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[nafi-al-madani, subject], [malik-ibn-anas, subject]]
+    tags: [qurraʾ, qiraʾat, warsh, qalun, medina, maghreb, west-africa]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nafi%CA%BD_al-Madani"
+
+  # =========================================================================
+  # LATE-CLASSICAL FUQAHA + MUHADDITH
+  # =========================================================================
+
+  - slug: death-of-al-sarakhsi
+    category: scholar
+    title_en: Death of al-Sarakhsi — Hanafi master of al-Mabsuṭ
+    title_ar: وفاة السرخسي — صاحب «المبسوط» في الفقه الحنفي
+    title_fr: Mort d'al-Sarakhsi — maître hanafite d'al-Mabsūṭ
+    description_en: |
+      Shams al-Aʾimma Muhammad ibn Aḥmad al-Sarakhsi — foremost
+      Hanafi jurist of his generation in Transoxiana, qadi of
+      Bukhara, and author of *al-Mabsūṭ* (thirty volumes), the
+      standard reference of Ḥanafi fiqh from his own day until the
+      present — died at Marghīnan in Farghana at age about 90.
+      *al-Mabsūṭ* was famously dictated entirely from memory while
+      al-Sarakhsi was imprisoned at the bottom of a well at
+      Awzajand by the Qarakhanid ruler whom he had publicly
+      criticised; his students gathered at the well's mouth and
+      transcribed each book as he dictated it from below. The
+      monumental work runs to nearly fifteen thousand pages in
+      modern print and remains the most extensive single Sunni fiqh
+      manual ever composed in any madhhab.
+    description_ar: |
+      توفي شمس الأئمة محمد بن أحمد السرخسي — كبير فقهاء الحنفية في
+      عصره بما وراء النهر، وقاضي بخارى، ومصنف «المبسوط» في ثلاثين
+      مجلداً، وهو المرجع المعتمد في المذهب الحنفي من عصره إلى يومنا —
+      بمرغينان في فرغانة عن نحو تسعين سنة. وقد أملى «المبسوط» كله
+      من حفظه وهو سجين في قعر بئر بأوزجند بأمر الحاكم القراخاني
+      الذي انتقده الإمام علناً؛ فكان طلابه يجتمعون عند فم البئر
+      ويستملون منه كل كتاب وهو يمليه من الأسفل. ويبلغ الكتاب
+      الموسوعي قرابة خمسة عشر ألف صفحة في طبعاته الحديثة، فيعد
+      أوسع كتاب فقه سني ألفه أحد قط في أي مذهب.
+    description_fr: |
+      Shams al-Aʾimma Muḥammad ibn Aḥmad al-Sarakhsi — plus grand
+      juriste hanafite de sa génération en Transoxiane, qāḍī de
+      Boukhara, et auteur d'*al-Mabsūṭ* (trente volumes), la
+      référence standard du fiqh ḥanafite depuis son époque jusqu'à
+      ce jour — mourut à Marghīnan en Ferghana à l'âge d'environ
+      90 ans. *al-Mabsūṭ* fut, fait célèbre, dicté entièrement de
+      mémoire alors qu'al-Sarakhsi était emprisonné au fond d'un
+      puits à Awzajand par le souverain qarakhanide qu'il avait
+      publiquement critiqué; ses élèves se rassemblaient à la
+      margelle du puits et transcrivaient chaque livre à mesure
+      qu'il le dictait d'en bas. L'œuvre monumentale s'étend sur
+      près de quinze mille pages dans son édition moderne et reste
+      le plus vaste manuel de fiqh sunnite jamais composé dans
+      n'importe quel madhhab.
+    canonical_hijri: {year: 483, precision: year}
+    canonical_gregorian: {date: 1090-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-sarakhsi, subject]]
+    tags: [hanafi, fiqh, mabsut, bukhara, transoxiana, qarakhanid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Sarakhsi"
+
+  - slug: death-of-al-marghinani
+    category: scholar
+    title_en: Death of al-Marghinani — author of al-Hidaya
+    title_ar: وفاة المرغيناني — صاحب «الهداية»
+    title_fr: Mort d'al-Marghinānī — auteur d'al-Hidāya
+    description_en: |
+      Burhān al-Din ʿAli ibn Abi Bakr al-Marghinani — Hanafi jurist
+      of Farghana and author of *al-Hidāya fi Sharḥ Bidāyat al-
+      Mubtadi*, the most-studied Hanafi fiqh manual from the
+      Mughal era to the present — died at Marghīnan at age about
+      82. *al-Hidāya* operates as a self-commentary on his own
+      shorter *Bidāyat al-Mubtadi* and synthesises the two main
+      strands of the Ḥanafi tradition (the Iraqi-Khurasani-Bukharan
+      lineage of al-Sarakhsi and the Samarqandi lineage of al-
+      Khaṣṣāf and al-Saʿdi) into the single canonical formulation
+      that subsequent commentaries (e.g. al-ʿAyni's *al-Bināya*)
+      would systematically expand. It was the basis of Mughal court
+      jurisprudence and was translated into English by Charles
+      Hamilton in 1791 to serve as the Anglo-Muḥammadan code in
+      British India.
+    description_ar: |
+      توفي الإمام برهان الدين علي بن أبي بكر المرغيناني — فقيه الحنفية
+      بفرغانة، ومصنف «الهداية في شرح بداية المبتدي»، أكثر متون فقه
+      الحنفية تدريساً من عصر الدولة المغولية إلى اليوم — بمرغينان
+      عن نحو اثنتين وثمانين سنة. و«الهداية» شرح من المؤلف على متنه
+      الأصغر «بداية المبتدي»، يجمع بين فرعي المذهب الحنفي الكبيرين
+      (سلسلة العراق وخراسان وبخارى عن السرخسي، وسلسلة سمرقند عن
+      الخصاف والسعدي) في صياغة معتمدة واحدة وسعت شروحها لاحقاً (كـ
+      «البناية» للعيني). وكان عمدة قضاء البلاط المغولي في الهند،
+      وترجمه تشارلز هاملتون إلى الإنجليزية سنة ١٧٩١ ميلادي ليكون
+      عمدة القانون «الأنجلو-محمدي» في الهند البريطانية.
+    description_fr: |
+      Burhān al-Dīn ʿAli ibn Abī Bakr al-Marghinānī — juriste
+      hanafite du Ferghana et auteur d'*al-Hidāya fī Sharḥ Bidāyat
+      al-Mubtadi*, le manuel de fiqh ḥanafite le plus étudié de
+      l'ère moghole jusqu'à nos jours — mourut à Marghīnan à l'âge
+      d'environ 82 ans. *al-Hidāya* fonctionne comme un auto-
+      commentaire de son propre texte abrégé *Bidāyat al-Mubtadi*
+      et synthétise les deux principales branches de la tradition
+      ḥanafite (la lignée irako-khurāsānī-boukhārienne d'al-Sarakhsī
+      et la lignée samarcandi d'al-Khaṣṣāf et al-Saʿdi) en une
+      formulation canonique unique que les commentaires ultérieurs
+      (par ex. *al-Bināya* d'al-ʿAynī) développeraient
+      systématiquement. Elle fut le fondement de la jurisprudence
+      de la cour moghole et fut traduite en anglais par Charles
+      Hamilton en 1791 pour servir de code anglo-mahométan en Inde
+      britannique.
+    canonical_hijri: {year: 593, month: 12, precision: month}
+    canonical_gregorian: {date: 1197-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-marghinani, subject]]
+    tags: [hanafi, fiqh, hidaya, farghana, mughal, india]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Marghinani"
+
+  - slug: death-of-ibn-qudama
+    category: scholar
+    title_en: Death of Ibn Qudama al-Maqdisi — author of al-Mughni
+    title_ar: وفاة ابن قدامة المقدسي — صاحب «المغني»
+    title_fr: Mort d'Ibn Qudāma al-Maqdisi — auteur d'al-Mughnī
+    description_en: |
+      Muwaffaq al-Din ʿAbdallah ibn Aḥmad ibn Qudama al-Maqdisi —
+      foremost Hanbali jurist of his generation, author of *al-
+      Mughnī* (the most extensive comparative fiqh work in the
+      Hanbali madhhab and across the four Sunni schools), and
+      participant in the campaigns of Saladin against the Crusaders
+      — died in Damascus on Saturday, ʿĪd al-Fiṭr (1 Shawwal) 620
+      AH at age about 80. *al-Mughnī* operates as a comparative
+      commentary on the *Mukhtaṣar* of al-Khiraqi and reaches
+      thirteen large volumes in modern print; it engages every
+      classical madhhab on every chapter of fiqh. Beyond fiqh, his
+      *Lumʿat al-Iʿtiqād* is a foundational Hanbali creedal text
+      and his *Rawḍat al-Nāẓir* a major work of legal-theory
+      (uṣūl). He was praised by Ibn Taymiyya, who said: "After
+      al-Awzaʿi none has entered the Levant the like of Muwaffaq
+      al-Din ibn Qudama."
+    description_ar: |
+      توفي الإمام موفق الدين عبد الله بن أحمد ابن قدامة المقدسي —
+      كبير فقهاء الحنابلة في عصره، ومصنف «المغني» (أوسع كتاب فقه
+      مقارن في المذهب الحنبلي وفي المذاهب الأربعة جميعاً)، وممن
+      شهد غزوات صلاح الدين الأيوبي ضد الصليبيين — بدمشق يوم السبت
+      عيد الفطر (أول شوال) سنة ٦٢٠ هـ عن نحو ثمانين سنة. و«المغني»
+      شرح مقارن على «مختصر» الخرقي ويبلغ ثلاثة عشر مجلداً ضخماً في
+      الطبعات الحديثة، يستعرض في كل باب من أبواب الفقه أقوال أئمة
+      المذاهب. وفضلاً عن الفقه فإن «لمعة الاعتقاد» له أصل من أصول
+      عقيدة الحنابلة و«روضة الناظر» مرجع مهم في علم أصول الفقه.
+      أثنى عليه ابن تيمية فقال: «ما دخل الشام بعد الأوزاعي مثل ابن
+      قدامة».
+    description_fr: |
+      Muwaffaq al-Dīn ʿAbdallāh ibn Aḥmad ibn Qudāma al-Maqdisi —
+      plus grand juriste hanbalite de sa génération, auteur d'*al-
+      Mughnī* (l'œuvre de fiqh comparé la plus vaste dans le madhhab
+      hanbalite et à travers les quatre écoles sunnites), et
+      participant aux campagnes de Saladin contre les Croisés —
+      mourut à Damas un samedi, jour de l'ʿĪd al-Fiṭr (1er Shawwāl)
+      620 H, à l'âge d'environ 80 ans. *al-Mughnī* fonctionne comme
+      un commentaire comparatif du *Mukhtaṣar* d'al-Khiraqī et
+      atteint treize gros volumes dans les éditions modernes; il
+      traite chaque madhhab classique dans chaque chapitre du fiqh.
+      Au-delà du fiqh, sa *Lumʿat al-Iʿtiqād* est un texte de credo
+      hanbalite fondamental, et sa *Rawḍat al-Nāẓir* une œuvre
+      majeure de théorie juridique (*uṣūl*). Il fut loué par Ibn
+      Taymiyya, qui dit : « après al-Awzāʿi, le Levant n'a vu entrer
+      personne de la trempe de Muwaffaq al-Dīn ibn Qudāma ».
+    canonical_hijri: {year: 620, month: 10, day: 1, precision: day}
+    canonical_gregorian: {date: 1223-11-04, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-qudama, subject]]
+    tags: [hanbali, fiqh, mughni, damascus, ayyubid, crusades]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Qudamah"
+
+  - slug: death-of-ibn-al-salah
+    category: scholar
+    title_en: Death of Ibn al-Ṣalaḥ — codifier of Hadith Methodology
+    title_ar: وفاة ابن الصلاح — مدوّن مصطلح الحديث
+    title_fr: Mort d'Ibn al-Ṣalāḥ — codificateur de la méthodologie du hadith
+    description_en: |
+      Abu ʿAmr ʿUthman ibn ʿAbd al-Raḥmān al-Shahrazuri, known as
+      Ibn al-Ṣalaḥ — chief muḥaddith of Damascus, head of the Dār
+      al-Ḥadīth al-Ashrafiyya, and author of the *Muqaddima fi
+      ʿUlum al-Ḥadīth* (often simply *Muqaddimat Ibn al-Ṣalaḥ*),
+      the foundational systematic treatise of hadith methodology
+      in classical Sunni Islam — died in Damascus at age about 66.
+      The *Muqaddima* defined the categories *ṣaḥīḥ*, *ḥasan*, and
+      *ḍaʿīf*, and the sub-disciplines of hadith criticism that
+      every later manual (al-Nawawi's *Taqrīb*, al-ʿIrāqi's *Alfīya*,
+      Ibn Ḥajar's *Nukhba*) would refine but never replace. It is
+      the single most-cited work of *muṣṭalaḥ al-ḥadīth* in the
+      entire Sunni tradition.
+    description_ar: |
+      توفي الإمام أبو عمرو عثمان بن عبد الرحمن الشهرزوري المعروف بابن
+      الصلاح — كبير محدثي دمشق، شيخ دار الحديث الأشرفية، ومصنف
+      «المقدمة في علوم الحديث» (المعروفة بـ«مقدمة ابن الصلاح»)،
+      وهي الكتاب الأم في علم مصطلح الحديث عند أهل السنة من بعده —
+      بدمشق عن نحو ست وستين سنة. وفي «المقدمة» قنّن ابن الصلاح أقسام
+      الحديث: الصحيح والحسن والضعيف، وفروع الجرح والتعديل التي
+      ستوسعها كل المتون اللاحقة («تقريب» النووي و«ألفية» العراقي
+      و«نخبة الفكر» لابن حجر) دون أن تستبدل أصلها. وهو أكثر كتب
+      علم المصطلح إحالةً عليه عند أهل السنة قاطبةً.
+    description_fr: |
+      Abu ʿAmr ʿUthmān ibn ʿAbd al-Raḥmān al-Shahrazūri, connu sous
+      le nom d'Ibn al-Ṣalāḥ — chef muḥaddith de Damas, directeur de
+      la *Dār al-Ḥadīth al-Ashrafiyya*, et auteur de la *Muqaddima
+      fī ʿUlūm al-Ḥadīth* (souvent simplement *Muqaddimat Ibn al-
+      Ṣalāḥ*), le traité systématique fondateur de la méthodologie
+      du hadith dans l'islam sunnite classique — mourut à Damas à
+      l'âge d'environ 66 ans. La *Muqaddima* définit les catégories
+      *ṣaḥīḥ*, *ḥasan* et *ḍaʿīf*, et les sous-disciplines de la
+      critique du hadith que tout manuel ultérieur (le *Taqrīb*
+      d'al-Nawawi, l'*Alfīya* d'al-ʿIrāqi, la *Nukhba* d'Ibn Ḥajar)
+      raffinerait sans jamais remplacer. C'est l'œuvre de
+      *muṣṭalaḥ al-ḥadīth* la plus citée de toute la tradition
+      sunnite.
+    canonical_hijri: {year: 643, month: 4, precision: month}
+    canonical_gregorian: {date: 1245-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-al-salah, subject]]
+    tags: [hadith, mustalah, damascus, ayyubid, methodology]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Salah"
+
+  # =========================================================================
+  # WEST AFRICAN AND MODERN REVIVERS
+  # =========================================================================
+
+  - slug: death-of-usman-dan-fodio
+    category: scholar
+    title_en: Death of ʿUthman dan Fodio — Founder of the Sokoto Caliphate
+    title_ar: وفاة عثمان بن فودي — مؤسس خلافة صكتو
+    title_fr: Mort de ʿUthmān dan Fodio — fondateur du califat de Sokoto
+    description_en: |
+      Shaykh ʿUthman ibn Muhammad ibn Fudi (Hausa: dan Fodio) —
+      Maliki jurist of the Qadiriyya Sufi order, leader of the
+      Fulani jihad of 1804 against the Hausa kingdoms of northern
+      Nigeria, and founder of the Sokoto Caliphate which at its
+      height ruled most of present-day northern Nigeria, Niger,
+      Cameroon, and Burkina Faso — died at Sokoto. He was about
+      63. His scholarly output is vast: more than 100 works in
+      Arabic, Fulfulde, and Hausa, including the major works
+      *Iḥyaʾ al-Sunna wa-Ikhmād al-Bidʿa* and *Bayan Wujub al-
+      Hijra*, which laid out the legal and theological foundations
+      of his reform movement. The Sokoto Caliphate he founded was
+      the largest African polity of the nineteenth century until
+      the British conquest of 1903; its scholarly tradition shaped
+      West African Islam to the present.
+    description_ar: |
+      توفي الشيخ عثمان بن محمد بن فودي — فقيه على مذهب الإمام مالك
+      ومريد للطريقة القادرية الصوفية، وقائد جهاد الفولانيين سنة
+      ١٢١٩ هـ على ممالك الهوسا في شمال نيجيريا، ومؤسس خلافة صكتو
+      التي بلغت في أوج اتساعها معظم شمال نيجيريا والنيجر وأطراف
+      الكاميرون وبوركينا فاسو اليوم — بصكتو عن نحو ثلاث وستين سنة.
+      وله إنتاج علمي واسع: ما يزيد على مئة مصنف بالعربية والفولانية
+      والهوسا، منها «إحياء السنة وإخماد البدعة» و«بيان وجوب الهجرة»،
+      اللذان أرسيا الأسس الفقهية والعقدية لحركته الإصلاحية. وكانت
+      خلافة صكتو أكبر دولة في أفريقيا في القرن التاسع عشر إلى أن
+      احتلها الإنجليز سنة ١٩٠٣ ميلادي، وأثرت موروثها العلمي في
+      الإسلام الغرب إفريقي إلى يومنا.
+    description_fr: |
+      Cheikh ʿUthmān ibn Muḥammad ibn Fudi (haoussa : dan Fodio) —
+      juriste malikite de l'ordre soufi Qādiriyya, chef du jihad
+      peul de 1804 contre les royaumes haoussa du nord du Nigeria,
+      et fondateur du califat de Sokoto qui, à son apogée, gouverna
+      l'essentiel du nord de l'actuel Nigeria, du Niger, du Cameroun
+      et du Burkina Faso — mourut à Sokoto. Il avait environ 63 ans.
+      Sa production savante est vaste : plus de 100 ouvrages en
+      arabe, en peul et en haoussa, dont les œuvres majeures
+      *Iḥyāʾ al-Sunna wa-Ikhmād al-Bidʿa* et *Bayān Wujūb al-Hijra*,
+      qui posèrent les fondements juridiques et théologiques de son
+      mouvement réformateur. Le califat de Sokoto qu'il fonda fut
+      la plus grande entité politique africaine du XIXe siècle
+      jusqu'à la conquête britannique de 1903; sa tradition savante
+      façonna l'islam ouest-africain jusqu'à nos jours.
+    canonical_hijri: {year: 1232, month: 7, precision: month}
+    canonical_gregorian: {date: 1817-04-01, precision: month, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[usman-dan-fodio, subject]]
+    tags: [west-africa, nigeria, sokoto, fulani, qadiriyya, reform]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Usman_dan_Fodio"
+
+  # Aḥmadu Bamba (Mouride founder) intentionally excluded — the Mouride
+  # tariqa's veneration of Bamba (Khādim al-Rasūl framing, the Touba-Magal
+  # pilgrimage as functional analogue of Hajj for some adherents, the
+  # quasi-prophetic status accorded to his Khassidas) crosses the
+  # ghuluw threshold for the conservative Sunni-4-madhhab editorial bar
+  # this dataset enforces.
+
+  - slug: death-of-said-nursi
+    category: scholar
+    title_en: Death of Bediüzzaman Said Nursi
+    title_ar: وفاة بديع الزمان سعيد النورسي
+    title_fr: Mort de Bediüzzaman Said Nursi
+    description_en: |
+      Bediüzzaman ("the Wonder of the Age") Said Nursi — Sunni
+      Kurdish-Turkish scholar of the late Ottoman and early Turkish
+      Republic, author of the *Risale-i Nur* (Letters of Light), a
+      6,000-page Qurʾanic commentary in modern Turkish addressing
+      the spiritual and intellectual challenges posed to Islamic
+      faith by 20th-century materialism — died in Urfa, southeastern
+      Turkey. He was about 83. He had been imprisoned, exiled, and
+      his writings repeatedly banned by the Kemalist Turkish
+      Republic; he composed most of the *Risale-i Nur* in prison or
+      under house arrest. His distinctive method combines classical
+      Sunni-Ashʿari theology with engagement with modern science and
+      philosophy, framed not as theological scholasticism but as
+      meditations on Qurʾanic verses ("words" / *sözler*). The
+      Nurcu movement that grew from his students remains one of the
+      largest Islamic intellectual currents in modern Turkey.
+    description_ar: |
+      توفي الإمام بديع الزمان سعيد النورسي — العالم السني الكردي
+      التركي في أواخر الدولة العثمانية وأوائل الجمهورية التركية،
+      ومصنف «رسائل النور» وهي تفسير قرآني في ست آلاف صفحة باللغة
+      التركية الحديثة يجيب فيه عن إشكالات المادية في القرن العشرين
+      على العقيدة الإسلامية — في «أورفة» جنوب شرق تركيا. وقد ناهز
+      الثالثة والثمانين. وقد سجنته الحكومات الكمالية ونفته ومنعت
+      كتبه مراراً، فألف معظم «رسائل النور» في السجن أو تحت الإقامة
+      الجبرية. ويجمع منهجه بين علم الكلام الأشعري الكلاسيكي
+      والاشتباك مع العلوم والفلسفة الحديثة، عبر مذاكرات على آيات
+      القرآن سماها «الكلمات». وما زالت حركة «النورسية» من تلامذته
+      من أكبر التيارات الفكرية الإسلامية في تركيا الحديثة.
+    description_fr: |
+      Bediüzzaman (« la Merveille de l'Époque ») Said Nursi — savant
+      sunnite kurde-turc de la fin de l'Empire ottoman et du début
+      de la République turque, auteur de la *Risale-i Nur* (Lettres
+      de Lumière), un commentaire coranique de 6 000 pages en turc
+      moderne traitant des défis spirituels et intellectuels posés
+      à la foi islamique par le matérialisme du XXe siècle —
+      mourut à Urfa, dans le sud-est de la Turquie. Il avait environ
+      83 ans. Il fut emprisonné, exilé, et ses écrits furent
+      maintes fois interdits par la République turque kémaliste; il
+      composa la majeure partie de la *Risale-i Nur* en prison ou
+      en résidence surveillée. Sa méthode distinctive combine la
+      théologie sunnite-ashʿarite classique avec l'engagement avec
+      la science et la philosophie modernes, présenté non comme une
+      scolastique théologique mais comme des méditations sur les
+      versets coraniques (« paroles » / *sözler*). Le mouvement
+      *Nurcu* issu de ses élèves demeure l'un des plus grands
+      courants intellectuels islamiques de la Turquie moderne.
+    canonical_hijri: {year: 1379, month: 9, day: 25, precision: day}
+    canonical_gregorian: {date: 1960-03-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[said-nursi, subject]]
+    tags: [turkey, ottoman, ashari, modern, risale-i-nur, urfa]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Said_Nursi"
+
+  # =========================================================================
+  # MAJOR BATTLES
+  # =========================================================================
+
+  - slug: battle-of-ankara
+    category: battle
+    title_en: Battle of Ankara — Timur defeats Bayezid I
+    title_ar: معركة أنقرة — تيمور يهزم بايزيد الأول
+    title_fr: Bataille d'Ankara — Tamerlan défait Bayezid Ier
+    description_en: |
+      On the plain of Çubuk near Ankara, the army of Timur (Tamerlane)
+      decisively defeated the Ottoman forces of Sultan Bayezid I
+      (Yıldırım, "the Thunderbolt"), capturing the sultan himself
+      after a daylong battle. Bayezid died in Timurid captivity
+      eight months later. The defeat triggered the *Fetret Devri*
+      ("Interregnum") — eleven years of civil war among Bayezid's
+      four sons during which the Ottoman state nearly disintegrated;
+      the surviving brother Mehmed I would only restore unity in
+      816 AH. The battle is also marked by the irony that it
+      reprieved the Byzantine Empire — Bayezid had been on the verge
+      of completing the conquest of Constantinople a decade before
+      its eventual fall — postponing the city's capture until
+      Mehmed II in 1453 CE.
+    description_ar: |
+      في سهل «جوبوق» قرب أنقرة هزم جيش تيمورلنك جيش الدولة العثمانية
+      هزيمة فاصلة، وقادها السلطان بايزيد الأول الملقب بـ«يلدرم»
+      (الصاعقة)، فأسره تيمور بعد قتال يوم كامل. وتوفي بايزيد في
+      الأسر عند تيمور بعد ثمانية أشهر. وأطلقت الهزيمة عصر «الفترة»
+      في تاريخ العثمانيين، وهو إحدى عشرة سنة من حرب أهلية بين أبناء
+      بايزيد الأربعة كادت أن تنهي الدولة، فلم يستطع توحيدها إلا أخوه
+      محمد الأول الباقي سنة ٨١٦ هـ. ومن مفارقات المعركة أنها أنقذت
+      الدولة البيزنطية: فقد كان بايزيد على وشك إكمال فتح القسطنطينية
+      قبل عقد من ذلك، فأرجأ ذلك إلى عصر السلطان محمد الفاتح سنة
+      ١٤٥٣ ميلادي.
+    description_fr: |
+      Dans la plaine de Çubuk près d'Ankara, l'armée de Timur
+      (Tamerlan) défit de manière décisive les forces ottomanes du
+      sultan Bayezid Ier (Yıldırım, « la Foudre »), capturant le
+      sultan lui-même après une bataille d'une journée. Bayezid
+      mourut en captivité timouride huit mois plus tard. La défaite
+      déclencha la *Fetret Devri* (« Interrègne ») — onze années
+      de guerre civile entre les quatre fils de Bayezid pendant
+      lesquelles l'État ottoman faillit se désintégrer; le frère
+      survivant Mehmed Ier ne restaurerait l'unité qu'en 816 H.
+      La bataille est aussi marquée par l'ironie qu'elle accorda
+      un sursis à l'Empire byzantin — Bayezid était sur le point
+      d'achever la conquête de Constantinople une décennie auparavant
+      — repoussant la prise de la ville à Mehmed II en 1453 EC.
+    canonical_hijri: {year: 804, month: 12, precision: month}
+    canonical_gregorian: {date: 1402-07-01, precision: month, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[bayezid-i, subject]]
+    tags: [ottoman, timurid, ankara, fetret, byzantium, constantinople]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Ankara"
+
+  - slug: conquest-of-hims
+    category: conquest
+    title_en: Conquest of Ḥims (Emesa)
+    title_ar: فتح حمص
+    title_fr: Conquête de Ḥims (Émèse)
+    description_en: |
+      The strategic Byzantine fortress city of Ḥims (Emesa) in
+      central Syria fell to the Muslim army shortly after the Battle
+      of Yarmuk, surrendered by terms of capitulation negotiated
+      between its bishop and the Muslim commander Abu ʿUbayda ibn
+      al-Jarrah ra. The terms — a fixed jizya per adult male in
+      exchange for protection of life, property, churches, and the
+      free practice of religion — became a referenced model for
+      subsequent Levantine surrenders. The fall of Ḥims completed
+      the Muslim conquest of central Syria and opened the route to
+      northern Syria; Aleppo and Antioch would fall within the
+      following year. Ḥims subsequently became a major center of
+      sahaba settlement: many Companions, including Khālid ibn
+      al-Walīd ra (whose tomb remains there), would die in or near
+      it.
+    description_ar: |
+      سلّمت مدينة حمص الحصينة في وسط الشام — قاعدة الروم في تلك الجهة
+      — للجيش الإسلامي بعيد معركة اليرموك صلحاً، عقد فيه أسقف
+      المدينة مع القائد المسلم أبي عبيدة بن الجراح رضي الله عنه.
+      وكانت شروط الصلح — جزية مقدرة على البالغين من الرجال في مقابل
+      حقن الدماء وحفظ الأموال والكنائس وإقامة شعائر دينهم — نموذجاً
+      اقتُدي به في صلوحات الشام التالية. وأكمل سقوط حمص فتح وسط
+      الشام وفتح الطريق إلى شماله؛ فسقطت حلب وأنطاكية في السنة
+      التالية. وصارت حمص بعد ذلك مستقراً كبيراً للصحابة، فمات بها
+      أو بالقرب منها كثير منهم، وعلى رأسهم خالد بن الوليد رضي الله
+      عنه الذي لا يزال قبره فيها.
+    description_fr: |
+      La cité-forteresse byzantine stratégique de Ḥims (Émèse) au
+      centre de la Syrie tomba aux mains de l'armée musulmane peu
+      après la bataille du Yarmouk, capitulant aux termes négociés
+      entre son évêque et le commandant musulman Abū ʿUbayda ibn
+      al-Jarrāḥ ra. Les conditions — une jizya fixe par homme adulte
+      en échange de la protection des vies, des biens, des églises
+      et de la libre pratique de la religion — devinrent un modèle
+      référent pour les capitulations levantines ultérieures. La
+      chute de Ḥims acheva la conquête musulmane de la Syrie
+      centrale et ouvrit la route vers la Syrie du Nord; Alep et
+      Antioche tomberaient dans l'année suivante. Ḥims devint par
+      la suite un centre majeur de peuplement des Compagnons : de
+      nombreux Compagnons, dont Khālid ibn al-Walīd ra (dont la
+      tombe s'y trouve toujours), y moururent ou à proximité.
+    canonical_hijri: {year: 15, precision: year}
+    canonical_gregorian: {date: 636-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[abu-ubayda-ibn-al-jarrah, leader], [khalid-ibn-al-walid, subject]]
+    tags: [rashidun, conquest, syria, hims, abu-ubayda, byzantium]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siege_of_Emesa"

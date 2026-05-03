@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+/* Tailwind v4 — class-based dark mode (ThemeProvider toggles `<html>.dark`). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   Editorial design tokens — single source of truth.
+   The whole reading surface composes these CSS variables; the
+   `.dark` block re-points the same vars for night-mode without
+   any JS branching at render time.
+
+   Token shape (matches the original `ThemeTokens` interface):
+   - paper / paper-hi / paper-lo  — page surfaces
+   - ink / ink-soft / ink-mute / ink-faint — text strata
+   - rule / rule-soft  — hairline + ghost dividers
+   - accent / accent-bg — emerald (light) / sage (dark)
+   - warn / warn-bg — amber dispute / advisory tone
+   ============================================================ */
+:root {
+  --paper: #f5f0e6;
+  --paper-hi: #fbf7ee;
+  --paper-lo: #ede6d8;
+  --ink: #1b1a17;
+  --ink-soft: #3a372f;
+  --ink-mute: #6e6a5c;
+  --ink-faint: #a39e8e;
+  --rule: #d5cdb8;
+  --rule-soft: #e5ddc9;
+  --accent: oklch(58% 0.06 165);
+  --accent-bg: oklch(92% 0.025 165);
+  --warn: oklch(58% 0.08 60);
+  --warn-bg: oklch(94% 0.03 60);
+}
+
+.dark {
+  --paper: #0f1217;
+  --paper-hi: #161a21;
+  --paper-lo: #0a0d12;
+  --ink: #f5f0e6;
+  --ink-soft: #e8e2d0;
+  --ink-mute: #b5ae9a;
+  --ink-faint: #5a5547;
+  --rule: #272b33;
+  --rule-soft: #1b1f26;
+  --accent: oklch(72% 0.06 165);
+  --accent-bg: oklch(28% 0.04 165);
+  --warn: oklch(72% 0.08 60);
+  --warn-bg: oklch(26% 0.04 60);
+}
+
+/* Map CSS vars into Tailwind's color/font scales so utilities like
+   `text-ink` / `bg-paper` / `font-serif` work transparently. */
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-hi: var(--paper-hi);
+  --color-paper-lo: var(--paper-lo);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-mute: var(--ink-mute);
+  --color-ink-faint: var(--ink-faint);
+  --color-rule: var(--rule);
+  --color-rule-soft: var(--rule-soft);
+  --color-accent: var(--accent);
+  --color-accent-bg: var(--accent-bg);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
+
+  --font-serif: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  --font-sans: "Inter Tight", "Inter", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --font-arabic: "Amiri", "Scheherazade New", "Noto Naskh Arabic", "Times New Roman", serif;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  /* Reduce FOUT jump when display=swap fonts load: normalise fallback x-height
+     to the approximate aspect value of the primary typefaces. */
+  font-size-adjust: 0.5;
+}
+
+/* Inline anchor reset used widely on cards / nav links. */
+.iotd-link {
+  color: inherit;
+  text-decoration: none;
+}
+.iotd-link:hover {
+  color: var(--accent);
+}
+
+/* Reset for `<button>` used as a click target with no visible button chrome. */
+.iotd-pick {
+  all: unset;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+.iotd-pick:focus-visible {
+  outline: 1px dashed currentColor;
+  outline-offset: 4px;
+}
+
+/* ============================================================
+   Today page grid — left rail / main column / right rail.
+   Lifted out of an inline <style> block in routes/index.tsx so
+   the rules ship once, get cached, and don't duplicate per render.
+   ============================================================ */
+.iotd-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr) minmax(240px, 320px);
+  padding: 0 clamp(20px, 4vw, 56px);
+}
+@media (min-width: 1600px) {
+  .iotd-grid {
+    grid-template-columns: minmax(220px, 320px) minmax(0, 3fr) minmax(240px, 360px);
+  }
+}
+@media (max-width: 1100px) {
+  .iotd-grid {
+    grid-template-columns: minmax(200px, 240px) minmax(0, 1fr);
+    padding: 0 clamp(16px, 3vw, 40px);
+  }
+  .iotd-rail-right {
+    display: none !important;
+  }
+}
+@media (max-width: 760px) {
+  .iotd-grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+  .iotd-rail-left {
+    border-right: none !important;
+    padding: 28px 24px !important;
+  }
+  .iotd-main {
+    padding: 32px 24px 48px !important;
+  }
+}

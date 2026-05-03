@@ -1,0 +1,1047 @@
+# Wave 72 of curated event additions (2026-04-27).
+# 14 early Islamic conquest battles and sieges of the 1st-2nd centuries
+# AH not yet in the dataset. Covers Khalid ibn al-Walid's Iraq campaign
+# of 12 AH (al-Walaja, Ullais, al-Anbar, Faraz), the Levant campaign
+# under Abu Bakr and Umar (Ajnadayn, Fahl), the post-Qadisiyya thrust
+# into Persia (Jalulaʾ, conquest of al-Madaʾin/Ctesiphon, Isfahan,
+# Hamadhan), the late-Rashidun-Umayyad penetration of Khurasan (Marw),
+# Qutayba ibn Muslim's Transoxanian campaign (Samarqand), Muhammad
+# ibn al-Qasim's advance to Multan, and the Aghlabid conquest of
+# Palermo on Sicily. Already covered elsewhere and intentionally not
+# duplicated: Battle of Yarmouk (00_legacy), Battle of Qadisiyyah
+# (00_legacy), Battle of Buwayb and Marj al-Suffar (26_), Battle of
+# Nahavand and Conquest of Damascus (02_rashidun_additions),
+# Muhammad ibn Qasim's overall Sind campaign (03_umayyad_abbasid),
+# Muslim Conquest of Sicily begins under Asad ibn al-Furat
+# (14_classical_companions_scholars).
+#
+# All events attested in al-Tabari Tarikh al-Rusul wa'l-Muluk (the
+# essential early-Islamic chronicle) and cross-verified with at least
+# one of: Ibn al-Athir al-Kamil fi al-Tarikh, Ibn Kathir al-Bidaya
+# wa'l-Nihaya, al-Dhahabi Tarikh al-Islam. Dates follow the al-Tabari
+# year-attestation; many of these early battles attest only the year,
+# not the month or day. Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # KHALID IBN AL-WALID'S IRAQ CAMPAIGN — 12 AH / 633 CE
+  # =========================================================================
+
+  - slug: battle-of-al-walaja
+    category: battle
+    title_en: Battle of al-Walaja — Khalid ibn al-Walid's Double Envelopment in Iraq
+    title_ar: معركة الولجة — خالد بن الوليد في فتح العراق
+    title_fr: Bataille d'al-Walaja — la double enveloppe de Khālid ibn al-Walīd en Irak
+    description_en: |
+      The fourth pitched engagement of Khālid ibn al-Walīd's Iraq
+      campaign of 12 AH, fought on the lower Euphrates west of
+      al-Ḥīra against a combined Sasanian-Arab Christian force
+      under the Persian commander Andarzaghar. al-Ṭabarī describes
+      Khālid drawing up two concealed reserves on the flanks and
+      executing a double envelopment that crushed the Persian
+      centre — a manoeuvre Western military historians liken to
+      Hannibal's encirclement at Cannae. The victory cleared the
+      route to Ullais and brought the Christian Arab tribes of
+      the lower Euphrates into the Muslim sphere. al-Ṭabarī and
+      Ibn al-Athīr both place al-Walaja in Ṣafar 12 AH; precision
+      below the year is reported only by al-Ṭabarī. We follow
+      al-Ṭabarī's year and month attestation as the dominant
+      classical record.
+    description_ar: |
+      المعركة الميدانية الرابعة من حملة خالد بن الوليد في فتح
+      العراق سنة ١٢ هـ، جرت على الفرات الأدنى غربي الحيرة، ضد
+      تحالف ساساني عربي مسيحي قاده القائد الفارسي «أندرزغر».
+      يصف الطبري كيف أعدّ خالد كمينين مستترين على الجناحين
+      ونفّذ التفافاً مزدوجاً سحق به قلب الجيش الفارسي — وهي
+      مناورة شبهها مؤرخو الحرب في الغرب بحصار حنبعل في كانّيه.
+      وفتح النصر الطريقَ إلى أُليس، وأدخل قبائلَ نصارى العرب
+      على الفرات الأدنى في فلك الإسلام. ويذكر الطبري وابن الأثير
+      أن المعركة كانت في صفر سنة ١٢ هـ، وانفرد الطبري بتحديد
+      الشهر دون اليوم. وقد تابعنا روايته بحكم تقدّمه ودقّته في
+      الإسناد التاريخي.
+    description_fr: |
+      Le quatrième engagement rangé de la campagne irakienne de
+      Khālid ibn al-Walīd en 12 H, livré sur l'Euphrate inférieur
+      à l'ouest d'al-Ḥīra contre une force combinée sassanide–arabe
+      chrétienne commandée par le chef perse Andarzaghar.
+      al-Ṭabarī décrit Khālid disposant deux réserves dissimulées
+      sur les ailes et exécutant une double enveloppe qui écrasa
+      le centre perse — une manœuvre que les historiens militaires
+      occidentaux comparent à l'encerclement d'Hannibal à Cannes.
+      La victoire ouvrit la route d'Ullais et fit basculer les
+      tribus arabes chrétiennes de l'Euphrate inférieur dans la
+      sphère musulmane. al-Ṭabarī et Ibn al-Athīr placent tous
+      deux al-Walaja en Ṣafar 12 H; la précision en deçà de
+      l'année n'est rapportée que par al-Ṭabarī. Nous suivons sa
+      lecture comme le record classique dominant.
+    canonical_hijri: {year: 12, month: 2, precision: month}
+    canonical_gregorian: {date: 633-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the battle of al-Walaja under the events of 12 AH and describes Khālid's double envelopment of Andarzaghar's army."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr in al-Kāmil fi al-Tārīkh confirms al-Walaja in 12 AH and the engagement on the lower Euphrates."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the battle under 12 AH."
+    people: [[khalid-ibn-al-walid, leader]]
+    tags: [rashidun, battle, iraq, euphrates, khalid, sasanian]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-ullais
+    category: battle
+    title_en: Battle of Ullais — Khalid Crushes the Sasanian-Arab Coalition on the Euphrates
+    title_ar: معركة أُلَّيس — خالد يسحق التحالف الفارسي العربي على الفرات
+    title_fr: Bataille d'Ullais — Khālid écrase la coalition sassanide-arabe sur l'Euphrate
+    description_en: |
+      Fought a few days after al-Walaja in 12 AH on a tributary
+      of the Euphrates near the modern Iraqi-Kuwaiti border,
+      Ullais saw Khālid ibn al-Walīd defeat a second Sasanian-Arab
+      Christian army under the Persian commander Jaban and the
+      Banū Bakr ibn Wāʾil. al-Ṭabarī reports the famous "river of
+      blood" episode in which Khālid had vowed to make blood run
+      like water if granted victory; the chronicler notes that
+      after the slaughter the field was so soaked that mills along
+      the banks could not be turned. Modern historians read the
+      detail as rhetorical hyperbole emphasising the totality of
+      the rout — the Sasanian field army in lower Iraq ceased to
+      exist as a coherent force and the road to al-Ḥīra was opened.
+      al-Ṭabarī, Ibn al-Athīr, and Ibn Kathīr all enter the
+      engagement under 12 AH.
+    description_ar: |
+      جرت بعد الولجة بأيام سنة ١٢ هـ على رافد من روافد الفرات
+      قرب الحدود العراقية الكويتية الحالية. هزم فيها خالد بن
+      الوليد جيشاً ثانياً فارسياً عربياً مسيحياً بقيادة القائد
+      الفارسي «جابان» وبني بكر بن وائل. ويذكر الطبري قصة «نهر
+      الدم» الشهيرة، إذ كان خالد قد نذر — إن فتح الله عليه — أن
+      يجري الدم في النهر كالماء، فلما وقعت الواقعة بُلّت ضفافه
+      دماً حتى عجزت الأرحاء التي عليه عن الدوران. ويرى مؤرخو
+      الحرب الحديثون في هذا التفصيل مبالغة بلاغية تؤكد كمال
+      الهزيمة — إذ زال جيش الفرس الميداني في جنوبي العراق ولم
+      يعد قوة منظّمة، وانفتح الطريق إلى الحيرة. وقد دوّن المعركة
+      الطبري وابن الأثير وابن كثير في حوادث سنة ١٢ هـ.
+    description_fr: |
+      Livrée quelques jours après al-Walaja en 12 H sur un
+      affluent de l'Euphrate près de l'actuelle frontière
+      irako-koweïtienne, Ullais vit Khālid ibn al-Walīd vaincre
+      une seconde armée sassanido-arabe chrétienne commandée par
+      le Perse Jabān et les Banū Bakr ibn Wāʾil. al-Ṭabarī
+      rapporte le fameux épisode du « fleuve de sang » : Khālid
+      avait juré de faire couler le sang comme de l'eau si la
+      victoire lui était accordée; le chroniqueur note qu'après
+      le massacre les rives furent tellement imbibées que les
+      moulins n'y pouvaient plus tourner. Les historiens modernes
+      y lisent une hyperbole rhétorique soulignant l'ampleur de
+      la déroute — l'armée sassanide de campagne en Irak inférieur
+      cessa d'exister comme force cohérente et la route d'al-Ḥīra
+      fut ouverte. al-Ṭabarī, Ibn al-Athīr et Ibn Kathīr
+      enregistrent tous l'engagement sous l'année 12 H.
+    canonical_hijri: {year: 12, month: 2, precision: month}
+    canonical_gregorian: {date: 633-05-15, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī describes the engagement at Ullais under 12 AH and reports the 'river of blood' episode."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr enters Ullais under 12 AH following al-Walaja."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr confirms the engagement in 12 AH."
+    people: [[khalid-ibn-al-walid, leader]]
+    tags: [rashidun, battle, iraq, euphrates, khalid, sasanian]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: conquest-of-al-anbar
+    category: siege
+    title_en: Conquest of al-Anbār — "the Battle of the Eyes" on the Upper Euphrates
+    title_ar: فتح الأنبار — «ذات العيون» على الفرات الأعلى
+    title_fr: Conquête d'al-Anbār — la « bataille des yeux » sur le haut Euphrate
+    description_en: |
+      Following the fall of al-Ḥīra in 12 AH, Khālid ibn al-Walīd
+      marched north along the Euphrates to the fortified Sasanian
+      provincial capital of al-Anbār — a major granary on a bend
+      of the river that had once been the Lakhmid winter quarters.
+      The siege is remembered as Dhāt al-ʿUyūn ("the Affair of
+      the Eyes") because al-Ṭabarī records that Khālid ordered
+      his archers to target the defenders' eyes specifically —
+      a thousand eyes were said to have been put out in a single
+      day — until the Sasanian commander negotiated capitulation
+      on terms. The fortified city fell intact, its grain stores
+      were taken to provision the Muslim army, and the population
+      remained Christian under the *jizya*. al-Anbār would later
+      become the first Abbasid capital before the founding of
+      Baghdad. Both al-Ṭabarī and Ibn al-Athīr place the conquest
+      in 12 AH.
+    description_ar: |
+      بعد فتح الحيرة سنة ١٢ هـ، سار خالد بن الوليد شمالاً مع
+      الفرات إلى عاصمة الإقليم الساسانية المحصّنة «الأنبار» —
+      مخزن غلال كبير على منحنى من النهر، كانت فيما مضى مشتى
+      ملوك المناذرة اللخميين. وعُرف الحصار بـ«ذات العيون» لأن
+      الطبري ذكر أن خالداً أمر رماته بأن يقصدوا أعين المدافعين
+      على الأسوار خاصة، فقُلعت ألفُ عينٍ في يوم واحد، حتى أذعن
+      القائد الفارسي للصلح بشروط، فسلَّم المدينة المحصّنة سالمةً،
+      وأُخذت أهراؤها مَؤونةً للجيش، وبقي أهلها على نصرانيتهم
+      تحت الجزية. وستصبح الأنبار لاحقاً أولَ عاصمة عبّاسية قبل
+      تأسيس بغداد. ويضع الطبري وابن الأثير الفتح في سنة ١٢ هـ.
+    description_fr: |
+      Après la chute d'al-Ḥīra en 12 H, Khālid ibn al-Walīd
+      marcha vers le nord le long de l'Euphrate jusqu'à la
+      capitale provinciale sassanide fortifiée d'al-Anbār — un
+      grand grenier à blé sur un coude du fleuve, ancien
+      quartier d'hiver des Lakhmides. Le siège est resté connu
+      sous le nom de Dhāt al-ʿUyūn (« l'Affaire des yeux »)
+      parce qu'al-Ṭabarī rapporte que Khālid ordonna à ses
+      archers de viser précisément les yeux des défenseurs sur
+      les remparts — mille yeux auraient été crevés en une
+      seule journée — jusqu'à ce que le commandant sassanide
+      négociât la capitulation. La ville fortifiée tomba intacte,
+      ses greniers approvisionnèrent l'armée musulmane, et la
+      population resta chrétienne sous la *jizya*. al-Anbār
+      deviendrait plus tard la première capitale abbasside avant
+      la fondation de Bagdad. al-Ṭabarī et Ibn al-Athīr placent
+      tous deux la conquête en 12 H.
+    canonical_hijri: {year: 12, precision: year}
+    canonical_gregorian: {date: 633-07-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī describes the siege of al-Anbār under 12 AH and the 'Dhāt al-ʿUyūn' archery episode."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms the conquest in 12 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr enters the conquest of al-Anbār under 12 AH."
+    people: [[khalid-ibn-al-walid, leader]]
+    tags: [rashidun, siege, iraq, euphrates, khalid, sasanian, anbar]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-firad
+    category: battle
+    title_en: Battle of Firāḍ — Khalid's Last Engagement in Iraq before Syria
+    title_ar: معركة الفِراض — آخر مواقع خالد في العراق قبل التحوّل إلى الشام
+    title_fr: Bataille de Firāḍ — le dernier engagement de Khālid en Irak avant la Syrie
+    description_en: |
+      The last battle of Khālid ibn al-Walīd's Iraq campaign,
+      fought at Firāḍ on the upper Euphrates near the Byzantine
+      frontier in Dhū al-Qaʿda 12 AH. al-Ṭabarī describes the
+      engagement as a three-way confrontation: Khālid faced a
+      combined force of Sasanian regulars, Byzantine federates
+      from the Banū Taghlib, and Christian Arabs of Iyād and
+      Namir who had crossed the river to oppose the Muslim
+      advance. Khālid let the coalition cross the Euphrates to
+      his side, then defeated it in detail. The battle ended
+      Sasanian-Byzantine cooperation on the upper Euphrates and
+      cleared the strategic flank for the diversion of Khālid's
+      force to the Levant — the famous overland march across
+      the Syrian Desert to Damascus the following Muharram of
+      13 AH. al-Ṭabarī gives Dhū al-Qaʿda 12 AH as the date;
+      Ibn al-Athīr confirms the year and the redirection to
+      Syria immediately after.
+    description_ar: |
+      آخر مواقع خالد بن الوليد في حملة العراق، جرت في الفِراض
+      على الفرات الأعلى قرب التخوم البيزنطية في ذي القعدة سنة
+      ١٢ هـ. ويصفها الطبري مواجهةً ثلاثية: واجه خالد فيها
+      قواتٍ مشتركةً من الفرس النظاميين، وحلفاءَ الروم من بني
+      تغلب، ومن نصارى العرب من إياد ونمر الذين عبروا النهر
+      ليعارضوا التقدّم الإسلامي. أذن خالد للتحالف بأن يعبر
+      الفرات إلى جهته، ثم هزمه شذراً مذراً. وأنهت المعركةُ
+      التعاونَ الساساني البيزنطي على الفرات الأعلى، وأمَّنت
+      الجناحَ الاستراتيجي لتحويل قوة خالد إلى بلاد الشام —
+      ذلك المسير البرّي الشهير عبر بادية الشام إلى دمشق في
+      محرم من العام التالي ١٣ هـ. ويذكر الطبري التاريخ في ذي
+      القعدة سنة ١٢ هـ، ويؤكد ابن الأثير السنة وتوجّه خالد
+      من فوره إلى الشام.
+    description_fr: |
+      La dernière bataille de la campagne irakienne de Khālid
+      ibn al-Walīd, livrée à Firāḍ sur le haut Euphrate près
+      de la frontière byzantine en Dhū al-Qaʿda 12 H. al-Ṭabarī
+      la décrit comme une confrontation tripartite : Khālid
+      affronta une force combinée de réguliers sassanides, de
+      fédérés byzantins des Banū Taghlib et d'Arabes chrétiens
+      d'Iyād et Namir qui avaient traversé le fleuve pour
+      s'opposer à l'avancée musulmane. Khālid laissa la coalition
+      passer l'Euphrate de son côté, puis la défit en détail.
+      La bataille mit fin à la coopération sassanide-byzantine
+      sur le haut Euphrate et dégagea le flanc stratégique pour
+      la diversion de la force de Khālid vers le Levant — la
+      célèbre marche terrestre à travers le désert syrien
+      jusqu'à Damas en Muḥarram 13 H. al-Ṭabarī donne Dhū
+      al-Qaʿda 12 H comme date; Ibn al-Athīr confirme l'année
+      et la redirection immédiate vers la Syrie.
+    canonical_hijri: {year: 12, month: 11, precision: month}
+    canonical_gregorian: {date: 634-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters Firāḍ under Dhū al-Qaʿda 12 AH and describes Khālid's three-way engagement before the redeployment to Syria."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms Firāḍ in 12 AH and immediately precedes the Syrian campaign."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr enters Firāḍ under 12 AH."
+    people: [[khalid-ibn-al-walid, leader]]
+    tags: [rashidun, battle, iraq, euphrates, khalid, sasanian, byzantine]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # LEVANT CAMPAIGN — 13-14 AH / 634-635 CE
+  # =========================================================================
+
+  - slug: battle-of-ajnadayn
+    category: battle
+    title_en: Battle of Ajnādayn — First Muslim Victory over the Byzantine Field Army in Palestine
+    title_ar: معركة أجنادين — أول نصر إسلامي على الجيش البيزنطي الميداني في فلسطين
+    title_fr: Bataille d'Ajnādayn — première victoire musulmane sur l'armée byzantine de campagne en Palestine
+    description_en: |
+      The pitched battle in the hills of southern Palestine
+      between Bayt Jibrīn and al-Ramla in which the Muslim army
+      under the joint command of ʿAmr ibn al-ʿĀṣ — with Khālid
+      ibn al-Walīd having arrived from his desert march from
+      Iraq — defeated the Byzantine field army of patrician
+      Wardān (the eunuch theodore in Greek sources). The victory
+      cleared the open country of Palestine for the subsequent
+      sieges of Damascus and the strategic confrontation at
+      Yarmouk the following year. al-Ṭabarī places the battle
+      on Saturday 28 Jumādā al-Ūlā 13 AH (30 July 634 CE), the
+      day before the death of Caliph Abū Bakr al-Ṣiddīq;
+      classical sources thus mark Ajnādayn as Abū Bakr's last
+      strategic vindication before his death. Ibn Kathīr and
+      al-Dhahabī confirm 13 AH; the day-precision is reported by
+      al-Ṭabarī.
+    description_ar: |
+      المعركة الميدانية الكبرى في تلال جنوب فلسطين بين بيت
+      جبرين والرملة، التي هزم فيها الجيش الإسلامي — بقيادة
+      عمرو بن العاص المشتركة، وقد وصل خالد بن الوليد من مسيره
+      الصحراوي القادم من العراق — جيشَ الروم الميداني بقيادة
+      البطريق وردان (ثيودور بحسب المصادر اليونانية). فتح النصرُ
+      الميدانَ الفلسطيني لفتح دمشق التالي ولمواجهة اليرموك
+      الاستراتيجية في العام التالي. ويضع الطبري المعركة في
+      السبت ٢٨ جمادى الأولى سنة ١٣ هـ (٣٠ يوليو ٦٣٤ م)، قبل
+      وفاة أبي بكر الصديق رضي الله عنه بيوم واحد، فجعلتها
+      المصادر آخرَ تأييد استراتيجي للصدّيق قبل وفاته. ويؤكد ابن
+      كثير والذهبي السنةَ ١٣ هـ، وينفرد الطبري بتحديد اليوم.
+    description_fr: |
+      La bataille rangée dans les collines du sud de la
+      Palestine entre Bayt Jibrīn et al-Ramla durant laquelle
+      l'armée musulmane — sous le commandement conjoint de
+      ʿAmr ibn al-ʿĀṣ, Khālid ibn al-Walīd étant arrivé de sa
+      marche désertique depuis l'Irak — vainquit l'armée
+      byzantine de campagne du patrice Wardān (l'eunuque
+      Théodore selon les sources grecques). La victoire libéra
+      la campagne palestinienne pour les sièges suivants de
+      Damas et pour la confrontation stratégique de Yarmouk
+      l'année suivante. al-Ṭabarī place la bataille le samedi
+      28 Jumādā al-Ūlā 13 H (30 juillet 634 EC), la veille de
+      la mort du calife Abū Bakr al-Ṣiddīq ra; les sources
+      classiques font donc d'Ajnādayn la dernière justification
+      stratégique d'Abū Bakr avant sa mort. Ibn Kathīr et
+      al-Dhahabī confirment 13 H; la précision au jour est
+      donnée par al-Ṭabarī.
+    canonical_hijri: {year: 13, month: 5, day: 28, precision: day}
+    canonical_gregorian: {date: 634-07-30, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters Ajnādayn on Saturday 28 Jumādā al-Ūlā 13 AH, one day before the death of Abū Bakr."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms Ajnādayn in Jumādā al-Ūlā 13 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms Ajnādayn in 13 AH and the death of Wardān."
+    people: [[khalid-ibn-al-walid, leader], [amr-ibn-al-as, leader], [abu-ubayda-ibn-al-jarrah, leader]]
+    tags: [rashidun, battle, palestine, levant, khalid, byzantine]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-fahl
+    category: battle
+    title_en: Battle of Fahl (Pella) — Muslim Victory in the Jordan Valley
+    title_ar: معركة فِحْل (بِلّا) — نصر المسلمين في وادي الأردن
+    title_fr: Bataille de Fahl (Pella) — victoire musulmane dans la vallée du Jourdain
+    description_en: |
+      Following the conquest of Damascus in Rajab 14 AH, the
+      Byzantine army that had withdrawn into the trans-Jordan
+      regrouped on the marshy plain east of the Jordan opposite
+      Beisan, near the ancient city of Fahl (Greek Pella). Abū
+      ʿUbayda ibn al-Jarrāḥ took overall command of the Muslim
+      forces from Sharḥabīl ibn Ḥasana and Yazīd ibn Abī Sufyān,
+      with Khālid ibn al-Walīd commanding the cavalry. The
+      Byzantines opened the floodgates of irrigation channels
+      to bog down the Muslim cavalry — the engagement is
+      remembered in Arabic sources as Yawm Fahl or Yawm Bayṣān
+      ("the day of the mire"). When the Byzantine line collapsed
+      at nightfall, the Muslim cavalry pursued through the muddy
+      ground. Modern scholars identify Fahl as the action that
+      severed Byzantine communication between Damascus and
+      Jerusalem and opened the Jordan valley for the campaigns
+      of 15 AH that culminated at Yarmouk. al-Ṭabarī places the
+      battle in Dhū al-Qaʿda 13 AH; Ibn al-Athīr in early 14 AH
+      — we follow al-Ṭabarī as the dominant attestation and flag
+      the alternative.
+    description_ar: |
+      بعد فتح دمشق في رجب سنة ١٤ هـ، انسحب جيش الروم إلى ما وراء
+      الأردن وأعاد تجميعَه في السهل المستنقعي شرق النهر مقابل
+      بيسان، قرب مدينة فِحل القديمة (بِلّا اليونانية). تولّى
+      أبو عبيدة بن الجراح القيادة العامة لقوات المسلمين عن
+      شرحبيل بن حسنة ويزيد بن أبي سفيان، وأمَّر خالد بن الوليد
+      على الفرسان. وفتح الرومُ بوّاباتِ الري ليُغرقوا الأرض على
+      فرسان المسلمين، فعُرفت المعركة في المصادر العربية بـ«يوم
+      فحل» و«يوم بيسان» — أي «يوم الردغة». ولما انكسر صفُّ الروم
+      عند الليل تتبّعت فرسانُ المسلمين فلولَهم في الوحل. ويرى
+      المحدثون أن فحلاً هي الواقعة التي قطعت الاتصال بين دمشق
+      وبيت المقدس على الروم، وفتحت وادي الأردن لحملات سنة ١٥ هـ
+      التي تتوّجت باليرموك. ويضع الطبري المعركة في ذي القعدة سنة
+      ١٣ هـ، وابن الأثير في مطلع سنة ١٤ هـ — وقد رجّحنا رواية
+      الطبري وأشرنا إلى الرواية الأخرى.
+    description_fr: |
+      Après la conquête de Damas en Rajab 14 H, l'armée byzantine
+      qui s'était repliée en Transjordanie se reconstitua dans
+      la plaine marécageuse à l'est du Jourdain face à Beisan,
+      près de l'antique cité de Fahl (Pella en grec). Abū
+      ʿUbayda ibn al-Jarrāḥ prit le commandement général des
+      forces musulmanes en lieu et place de Sharḥabīl ibn Ḥasana
+      et Yazīd ibn Abī Sufyān, avec Khālid ibn al-Walīd à la
+      cavalerie. Les Byzantins ouvrirent les vannes d'irrigation
+      pour embourber la cavalerie musulmane — l'engagement est
+      resté connu en arabe comme Yawm Fahl ou Yawm Bayṣān (« le
+      jour de la fange »). Quand la ligne byzantine s'effondra
+      à la tombée du jour, la cavalerie musulmane poursuivit à
+      travers le terrain boueux. Les chercheurs modernes
+      identifient Fahl comme l'action qui rompit la communication
+      byzantine entre Damas et Jérusalem et ouvrit la vallée du
+      Jourdain pour les campagnes de 15 H qui culminèrent à
+      Yarmouk. al-Ṭabarī place la bataille en Dhū al-Qaʿda 13 H;
+      Ibn al-Athīr en début de 14 H — nous suivons al-Ṭabarī
+      comme attestation dominante et signalons l'alternative.
+    canonical_hijri: {year: 13, month: 11, precision: month}
+    canonical_gregorian: {date: 635-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters Yawm Fahl under Dhū al-Qaʿda 13 AH and describes the Byzantine flooding of the field."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr places Fahl in 14 AH — alternative date flagged via disputed."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr confirms Fahl in 13 AH following al-Ṭabarī."
+    people: [[abu-ubayda-ibn-al-jarrah, leader], [khalid-ibn-al-walid, leader]]
+    tags: [rashidun, battle, jordan, levant, khalid, abu-ubayda, byzantine]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+
+  # =========================================================================
+  # POST-QADISIYYA THRUST INTO PERSIA — 16 AH / 637 CE
+  # =========================================================================
+
+  - slug: battle-of-jalula
+    category: battle
+    title_en: Battle of Jalūlāʾ — Persian Decisive Defeat after Qādisiyya
+    title_ar: معركة جَلَولاء — هزيمة الفرس الفاصلة بعد القادسية
+    title_fr: Bataille de Jalūlāʾ — défaite décisive perse après Qādisiyya
+    description_en: |
+      Following the fall of al-Madāʾin (Ctesiphon), the surviving
+      Sasanian field forces and the household of the emperor
+      Yazdegerd III withdrew north along the Tigris and
+      regrouped at Jalūlāʾ on a tributary plain about thirty
+      farsakhs north-east of Baghdad — the strategic gateway
+      between Iraq and the Persian plateau. Hāshim ibn ʿUtba
+      ibn Abī Waqqāṣ, the nephew of Saʿd, commanded the Muslim
+      vanguard, with al-Qaʿqāʿ ibn ʿAmr al-Tamīmī leading
+      the cavalry. al-Ṭabarī describes a hard-fought encounter
+      that ended in the rout of the Sasanian rear-guard and the
+      capture of an enormous treasure-train. Jalūlāʾ effectively
+      ended Sasanian field resistance west of the Zagros and
+      forced Yazdegerd's flight to Hulwān and then beyond. Both
+      al-Ṭabarī and Ibn al-Athīr place Jalūlāʾ in 16 AH; some
+      reports cite 17 AH but al-Ṭabarī's reckoning is dominant.
+    description_ar: |
+      بعد سقوط المدائن، انسحبت بقايا جيش الفرس الميداني وأهل
+      بيت الإمبراطور يزدجرد الثالث شمالاً مع دجلة، وأعادوا
+      تجميعَهم في جلولاء على سهل قريب من رافد، يبعد نحو ثلاثين
+      فرسخاً شمال شرقي بغداد — البوّابة الاستراتيجية بين
+      العراق والهضبة الفارسية. وقاد هاشم بن عتبة بن أبي وقاص،
+      ابن أخي سعد، طليعةَ المسلمين، ومعه القعقاع بن عمرو
+      التميمي على الفرسان. ويصف الطبري معركةً عنيفةً انتهت
+      بكسر مؤخرة الفرس وأسرِ ذخائر هائلة. وأنهت جلولاء فعلياً
+      المقاومةَ الفارسية الميدانية غربي جبال زاغروس، واضطرّت
+      يزدجرد إلى الهروب إلى حُلْوان ثم إلى ما وراءها. ويضع
+      الطبري وابن الأثير المعركة في سنة ١٦ هـ، وبعض الروايات
+      تذكر سنة ١٧ هـ لكن رواية الطبري هي الراجحة.
+    description_fr: |
+      Après la chute d'al-Madāʾin (Ctésiphon), les forces
+      sassanides survivantes et la maison de l'empereur
+      Yazdegerd III se replièrent vers le nord le long du Tigre
+      et se regroupèrent à Jalūlāʾ sur une plaine tributaire à
+      environ trente farsakhs au nord-est de Bagdad — la porte
+      stratégique entre l'Irak et le plateau perse. Hāshim ibn
+      ʿUtba ibn Abī Waqqāṣ, neveu de Saʿd, commanda l'avant-garde
+      musulmane, avec al-Qaʿqāʿ ibn ʿAmr al-Tamīmī à la cavalerie.
+      al-Ṭabarī décrit un engagement rude qui se solda par la
+      déroute de l'arrière-garde sassanide et la capture d'un
+      énorme convoi de trésors. Jalūlāʾ mit effectivement fin à
+      la résistance sassanide de campagne à l'ouest du Zagros et
+      contraignit Yazdegerd à fuir vers Ḥulwān puis au-delà.
+      al-Ṭabarī et Ibn al-Athīr placent Jalūlāʾ en 16 H;
+      certaines relations citent 17 H mais le décompte d'al-Ṭabarī
+      est dominant.
+    canonical_hijri: {year: 16, precision: year}
+    canonical_gregorian: {date: 637-12-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters Jalūlāʾ under 16 AH and describes the Sasanian rout and the capture of the treasure-train."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr in al-Kāmil confirms 16 AH for Jalūlāʾ."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr enters Jalūlāʾ under 16 AH following the fall of al-Madāʾin."
+    people: [[sad-ibn-abi-waqqas, leader], [umar-ibn-al-khattab, leader]]
+    tags: [rashidun, battle, persia, sasanian, iraq, jalula]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: conquest-of-al-madain-ctesiphon
+    category: conquest
+    title_en: Conquest of al-Madāʾin (Ctesiphon) — Fall of the Sasanian Capital
+    title_ar: فتح المدائن — سقوط عاصمة الإمبراطورية الساسانية
+    title_fr: Conquête d'al-Madāʾin (Ctésiphon) — chute de la capitale sassanide
+    description_en: |
+      Following the Muslim victory at al-Qādisiyya in 15 AH and
+      a march of two months across central Iraq, Saʿd ibn Abī
+      Waqqāṣ ra reached the metropolis of al-Madāʾin (the "Twin
+      Cities"; Greek Ctesiphon-Veh-Ardashir), the imperial
+      capital of the Sasanian dynasty for over four centuries.
+      Yazdegerd III had withdrawn east with the imperial treasure
+      and the Muslim army crossed the Tigris on horseback in
+      what al-Ṭabarī describes as a divinely-aided fording at
+      high water — a story preserved as one of the founding
+      narratives of the Iraqi conquest. The Muslims took the
+      arched palace of Ṭāq Kisrā (the Īwān of Khusraw), which
+      stood until late Abbasid times and whose great vault
+      remained the largest single-span brick arch in the world.
+      The fabled palace carpet — the Bahār-i Khusraw —
+      enumerated by al-Ṭabarī among the spoils, was sent to
+      Madīna and divided among the companions by ʿUmar ra. The
+      capital's fall confirmed the irreversible end of Sasanian
+      rule in Mesopotamia.
+    description_ar: |
+      بعد نصر المسلمين في القادسية سنة ١٥ هـ وسير شهرين عبر
+      وسط العراق، بلغ سعد بن أبي وقاص رضي الله عنه «المدائن»
+      — عاصمة آل ساسان ومُلك بني أردشير منذ أكثر من أربعة قرون.
+      وكان يزدجرد الثالث قد انحاز شرقاً بخزائن المملكة، فعبر
+      جيش المسلمين دجلةَ على الخيل في خَوْض وصفه الطبري بأنه
+      من المعجزات في زمن المدّ — وهي قصة من أصول السرديات
+      التأسيسية لفتح العراق. وأخذ المسلمون قصر «طاق كسرى»
+      (إيوان كسرى) المقوَّس، الذي بقي قائماً حتى أواخر العصر
+      العبّاسي، وظلّ قبوُه أعظم قبو من الآجُرّ ذي الفتحة الواحدة
+      في العالم. وجاء «بهارُ كسرى» — البساط المُذيل بالأثر،
+      الذي عدَّه الطبري في الغنائم — إلى المدينة فقسمه عمرُ بن
+      الخطاب رضي الله عنه على الصحابة. وأكّد سقوط العاصمة نهاية
+      حكم بني ساسان في الرافدين نهاية لا رجعة فيها.
+    description_fr: |
+      Après la victoire musulmane à al-Qādisiyya en 15 H et une
+      marche de deux mois à travers l'Irak central, Saʿd ibn
+      Abī Waqqāṣ ra atteignit la métropole d'al-Madāʾin (les
+      « Cités jumelles »; Ctésiphon-Veh-Ardashir en grec),
+      capitale impériale de la dynastie sassanide depuis plus
+      de quatre siècles. Yazdegerd III s'était retiré à l'est
+      avec le trésor impérial; l'armée musulmane traversa le
+      Tigre à cheval dans ce qu'al-Ṭabarī décrit comme un gué
+      assisté par la providence en eaux hautes — récit préservé
+      comme l'un des récits fondateurs de la conquête de l'Irak.
+      Les musulmans s'emparèrent du palais à arc de Ṭāq Kisrā
+      (l'Iwan de Chosroès), debout jusqu'à la fin de l'ère
+      abbasside et dont la grande voûte resta le plus vaste arc
+      de brique d'une seule portée du monde. Le tapis fabuleux
+      — le Bahār-i Khusraw — énuméré par al-Ṭabarī parmi le
+      butin, fut envoyé à Médine et partagé entre les compagnons
+      par ʿUmar ra. La chute de la capitale confirma la fin
+      irréversible du règne sassanide en Mésopotamie.
+    canonical_hijri: {year: 16, month: 2, precision: month}
+    canonical_gregorian: {date: 637-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the fall of al-Madāʾin under Ṣafar 16 AH and describes the crossing of the Tigris and the spoils of Ṭāq Kisrā."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms al-Madāʾin in 16 AH and the Muslim capture of the imperial capital."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 16 AH."
+    people: [[sad-ibn-abi-waqqas, leader], [umar-ibn-al-khattab, leader]]
+    tags: [rashidun, conquest, persia, sasanian, iraq, ctesiphon, madain]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # PERSIA INTERIOR CAMPAIGNS — 23-32 AH / 644-652 CE
+  # =========================================================================
+
+  - slug: conquest-of-isfahan
+    category: conquest
+    title_en: Conquest of Iṣfahān — Muslim Penetration of the Persian Plateau
+    title_ar: فتح أصبهان — توغّل المسلمين في الهضبة الفارسية
+    title_fr: Conquête d'Iṣfahān — pénétration musulmane sur le plateau perse
+    description_en: |
+      The conquest of Iṣfahān, the great Sasanian provincial
+      centre of Pārs in the central Persian plateau, was carried
+      out by ʿAbd Allāh ibn ʿAbd Allāh ibn ʿItbān (or by
+      ʿAbd Allāh ibn Budayl ibn Warqāʾ al-Khuzāʿī in some
+      accounts) under the overall direction of ʿUmar ibn
+      al-Khaṭṭāb ra. The city was approached after the fall of
+      Hamadhān in the wake of Nahāwand and submitted on terms
+      of *ṣulḥ* — capitulation with payment of *jizya* and
+      retention of property — without prolonged siege.
+      Iṣfahān would later become one of the great centres of
+      Sunni Persian-Islamic civilisation, producing Abū Nuʿaym
+      al-Iṣfahānī, ʿImād al-Dīn al-Iṣfahānī the Ayyūbid chronicler,
+      and the early scriptoria that copied the Six Books of
+      hadith. al-Ṭabarī enters the conquest under 23 AH;
+      al-Balādhurī (whose *Futūḥ* is the most detailed early
+      narrative of the campaign) and Ibn al-Athīr confirm the
+      year. The Muslim commander's identity is the contested
+      detail; the year of conquest is firm.
+    description_ar: |
+      كان فتح أصبهان — المركز الإقليمي الساساني الكبير بفارس
+      في وسط الهضبة الفارسية — على يد عبد الله بن عبد الله بن
+      عتبان (وفي بعض الروايات على يد عبد الله بن بُديل بن ورقاء
+      الخزاعي) تحت إمرة عمر بن الخطاب رضي الله عنه. وقد قُصدت
+      المدينة بعد فتح هَمَذان عقب نهاوند، فأذعنت بالصلح — أي
+      بالاستسلام مع أداء الجزية وإبقاء الملك — من غير حصار
+      طويل. وستصير أصبهان لاحقاً من أعظم مراكز الحضارة الفارسية
+      الإسلامية السنية، تُخرج أبا نُعَيم الأصبهاني وعماد الدين
+      الأصبهاني مؤرّخ الأيوبيين، وأول حلقات نسخ الكتب الستة
+      من السنة. ويذكر الطبري الفتح في حوادث سنة ٢٣ هـ، ويثبت
+      البلاذري — وكتابه «فتوح البلدان» أبسط النصوص المبكرة في
+      هذه الحملة — السنةَ، ويوافقه ابن الأثير. وأما اسم القائد
+      ففيه خلاف، أما سنة الفتح فثابتة.
+    description_fr: |
+      La conquête d'Iṣfahān, le grand centre provincial
+      sassanide de Pārs sur le plateau perse central, fut
+      accomplie par ʿAbd Allāh ibn ʿAbd Allāh ibn ʿItbān (ou
+      par ʿAbd Allāh ibn Budayl ibn Warqāʾ al-Khuzāʿī selon
+      certains récits) sous l'autorité générale de ʿUmar ibn
+      al-Khaṭṭāb ra. La ville fut abordée après la chute de
+      Hamadhān, dans le sillage de Nahāwand, et capitula par
+      *ṣulḥ* — reddition avec paiement de la *jizya* et
+      conservation des biens — sans siège prolongé. Iṣfahān
+      deviendrait plus tard l'un des grands centres de la
+      civilisation perso-islamique sunnite, donnant Abū Nuʿaym
+      al-Iṣfahānī, ʿImād al-Dīn al-Iṣfahānī le chroniqueur
+      ayyoubide, et les premiers scriptoria qui copièrent les
+      Six Livres du hadith. al-Ṭabarī entre la conquête sous
+      23 H; al-Balādhurī (dont les *Futūḥ* constituent le récit
+      ancien le plus détaillé de la campagne) et Ibn al-Athīr
+      confirment l'année. L'identité du commandant musulman
+      est le détail contesté; l'année de la conquête est ferme.
+    canonical_hijri: {year: 23, precision: year}
+    canonical_gregorian: {date: 644-06-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the conquest of Iṣfahān under 23 AH; the commander's identity is the disputed detail."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms 23 AH for Iṣfahān after Nahāwand."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr enters the conquest under 23 AH."
+    people: [[umar-ibn-al-khattab, leader]]
+    tags: [rashidun, conquest, persia, isfahan, jibal]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: detail
+
+  - slug: conquest-of-hamadhan
+    category: conquest
+    title_en: Conquest of Hamadhān — Gateway to the Jibāl
+    title_ar: فتح هَمَذان — بوّابة الجبال
+    title_fr: Conquête de Hamadhān — porte du Jibāl
+    description_en: |
+      Hamadhān, the ancient Median capital of Ecbatana on the
+      eastern slope of the Zagros and the strategic gateway
+      between Iraq and the Iranian plateau, was conquered by
+      al-Mughīra ibn Shuʿba ra (in some accounts by Nuʿaym ibn
+      Muqarrin, brother of the martyr of Nahāwand) following
+      the Sasanian rout at Nahāwand. The city's marzbān resisted
+      briefly before submitting on terms of *ṣulḥ*, and the
+      treaty of Hamadhān became one of the early model
+      capitulation texts cited by al-Balādhurī in *Futūḥ
+      al-Buldān*. After a brief revolt the city was reconquered
+      and the second submission was definitive. al-Ṭabarī
+      enters the conquest under 24 AH (the year following
+      Iṣfahān); Ibn al-Athīr concurs. The conquest of Hamadhān
+      together with Iṣfahān, al-Rayy, and Qūmis completed the
+      first Muslim integration of the Jibāl region.
+    description_ar: |
+      هَمَذان — عاصمة الميديين القديمة (إكباتانا) على السفح
+      الشرقي لجبال زاغروس، والبوّابة الاستراتيجية بين العراق
+      والهضبة الإيرانية — فتحها المغيرة بن شعبة رضي الله عنه
+      (وفي بعض الروايات نُعيم بن مقرّن، أخو شهيد نهاوند) بعد
+      كسر الفرس في نهاوند. وقاوم مرزبانُ المدينة قليلاً ثم
+      أذعن بالصلح، فصار عقدُ هَمَذان من أوائل النصوص النموذجية
+      في الاستسلام نقلها البلاذري في «فتوح البلدان». ولما ثارت
+      المدينة قصيراً أُعيد فتحُها فكان الفتح الثاني فاصلاً.
+      ويذكر الطبري الفتح في حوادث سنة ٢٤ هـ — العام التالي
+      لأصبهان — ويوافقه ابن الأثير. وقد أتمّ فتحُ هَمَذان مع
+      أصبهان والرَّيّ وقُومس أوّلَ إدماج إسلامي لإقليم الجبال.
+    description_fr: |
+      Hamadhān, l'ancienne capitale mède d'Ecbatane sur le
+      versant oriental du Zagros et la porte stratégique entre
+      l'Irak et le plateau iranien, fut conquise par al-Mughīra
+      ibn Shuʿba ra (selon certains récits par Nuʿaym ibn
+      Muqarrin, frère du martyr de Nahāwand) à la suite de la
+      déroute sassanide de Nahāwand. Le marzbān de la ville
+      résista brièvement avant de capituler par *ṣulḥ*; le
+      traité de Hamadhān devint l'un des premiers textes-modèles
+      de capitulation cités par al-Balādhurī dans les *Futūḥ
+      al-Buldān*. Après une brève révolte la ville fut
+      reconquise et la seconde soumission fut définitive.
+      al-Ṭabarī entre la conquête sous 24 H (l'année suivant
+      Iṣfahān); Ibn al-Athīr concorde. La conquête de Hamadhān
+      avec Iṣfahān, al-Rayy et Qūmis acheva la première
+      intégration musulmane de la région du Jibāl.
+    canonical_hijri: {year: 24, precision: year}
+    canonical_gregorian: {date: 645-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters Hamadhān under 24 AH following the conquest of Iṣfahān."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms 24 AH for Hamadhān."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters Hamadhān under 24 AH."
+    people: [[umar-ibn-al-khattab, leader]]
+    tags: [rashidun, conquest, persia, hamadhan, jibal]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: conquest-of-marw-khurasan
+    category: conquest
+    title_en: Conquest of Marw and Khurāsān under ʿUthmān ra
+    title_ar: فتح مَرْو وخراسان في عهد عثمان رضي الله عنه
+    title_fr: Conquête de Marw et du Khurāsān sous ʿUthmān ra
+    description_en: |
+      The Muslim integration of Khurāsān — the great north-eastern
+      Persian province stretching from the Caspian to the Oxus —
+      was completed by ʿAbd Allāh ibn ʿĀmir ibn Kurayz, governor
+      of Basra under Caliph ʿUthmān ibn ʿAffān ra, with the fall
+      of the Sasanian regional capital of Marw (modern Mary in
+      Turkmenistan) on the upper Murghāb. The campaign tracked
+      the last fugitive Sasanian shāhanshāh Yazdegerd III, who
+      had sought refuge among the Iranian and Turkic frontier
+      lords of eastern Iran; he was killed at Marw shortly
+      thereafter (in 31 AH per al-Ṭabarī's reckoning) by a local
+      miller, ending the Sasanian house. Marw's surrender on
+      terms of *ṣulḥ* fixed the eastern frontier of the
+      caliphate roughly along the Oxus and provided the springboard
+      for the Umayyad and ʿAbbāsid campaigns into Transoxiana
+      a half-century later. al-Ṭabarī, Ibn al-Athīr, and
+      al-Balādhurī all enter the conquest in the cluster of
+      events of 31-32 AH; we follow al-Ṭabarī's 32 AH for the
+      consolidated submission of Marw.
+    description_ar: |
+      أتمّ عبد الله بن عامر بن كُرَيز — والي البصرة في عهد
+      الخليفة عثمان بن عفان رضي الله عنه — إدماجَ خراسان، ذلك
+      الإقليم الفارسي الكبير شمالي شرقي البلاد، الممتدّ من بحر
+      قزوين إلى نهر جيحون، بسقوط عاصمة الإقليم الساسانية مَرْو
+      (مَري في تركمانستان اليوم) على المُرغاب الأعلى. وكانت
+      الحملة في إثر يزدجرد الثالث آخر شاهنشاهات الفرس، الذي
+      التجأ إلى أمراء التخوم الفارسية والتركية في إيران الشرقية،
+      فقُتل قرب مرو في سنة ٣١ هـ بحسب رواية الطبري على يد
+      طحّان من أهلها، فانقطعت دولة بني ساسان. وأمّن استسلامُ
+      مرو بالصلح الحدَّ الشرقي للخلافة على نحو نهر جيحون،
+      وكان نقطة الانطلاق لحملات بني أمية وبني العباس إلى ما
+      وراء النهر بعد نصف قرن. ويسجّل الطبري وابن الأثير
+      والبلاذري الفتحَ في حوادث ٣١-٣٢ هـ؛ تابعنا الطبري في
+      تثبيت الاستسلام النهائي لمرو في سنة ٣٢ هـ.
+    description_fr: |
+      L'intégration musulmane du Khurāsān — la grande province
+      perse du nord-est s'étendant de la Caspienne à l'Oxus —
+      fut achevée par ʿAbd Allāh ibn ʿĀmir ibn Kurayz, gouverneur
+      de Bassora sous le calife ʿUthmān ibn ʿAffān ra, avec la
+      chute de la capitale provinciale sassanide de Marw
+      (l'actuelle Mary au Turkménistan) sur le haut Murghāb.
+      La campagne suivait le dernier shāhanshāh sassanide
+      Yazdegerd III, qui avait cherché refuge auprès des
+      seigneurs de marche iraniens et turcs de l'Iran oriental;
+      il fut tué près de Marw en 31 H selon le décompte
+      d'al-Ṭabarī par un meunier local, mettant fin à la maison
+      sassanide. La reddition de Marw par *ṣulḥ* fixa la
+      frontière orientale du califat à peu près le long de
+      l'Oxus et constitua le tremplin des campagnes omeyyades
+      et abbassides en Transoxiane un demi-siècle plus tard.
+      al-Ṭabarī, Ibn al-Athīr et al-Balādhurī enregistrent la
+      conquête dans le groupe d'événements de 31-32 H; nous
+      suivons al-Ṭabarī avec 32 H pour la soumission consolidée
+      de Marw.
+    canonical_hijri: {year: 32, precision: year}
+    canonical_gregorian: {date: 652-09-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the consolidated submission of Marw under 32 AH; the killing of Yazdegerd III is reported under 31 AH."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms ʿAbd Allāh ibn ʿĀmir's Khurāsān campaign in 31-32 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr enters the fall of Yazdegerd at Marw under the events of 31 AH and the consolidation under 32 AH."
+    people: [[uthman-ibn-affan, leader]]
+    tags: [rashidun, conquest, persia, khurasan, marw, sasanian]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # UMAYYAD EXPANSION — TRANSOXIANA AND SIND, 90-94 AH / 709-713 CE
+  # =========================================================================
+
+  - slug: conquest-of-samarqand
+    category: conquest
+    title_en: Conquest of Samarqand — Qutayba ibn Muslim's Transoxanian Capital
+    title_ar: فتح سمرقند — قتيبة بن مسلم في ما وراء النهر
+    title_fr: Conquête de Samarqand — la capitale transoxanienne de Qutayba ibn Muslim
+    description_en: |
+      Samarqand, the wealthiest commercial city of Sogdia between
+      the Zarafshān river and the silk route, was conquered by
+      Qutayba ibn Muslim al-Bāhilī, governor of Khurāsān under
+      Caliph al-Walīd ibn ʿAbd al-Malik, in 93 AH. After a series
+      of campaigns through Bukhārā (90 AH) and the Sogdian valley,
+      Qutayba's army besieged the city and forced the *ikhshīd*
+      Ghūrak to capitulate on terms of *ṣulḥ* with annual tribute,
+      the cession of pagan idols for destruction, and the
+      installation of a Muslim garrison. al-Ṭabarī describes the
+      destruction of the temple statues and the conversion of
+      the *fire* of the major temple — though the population
+      remained largely Zoroastrian for some generations under
+      the *jizya*. The fall of Samarqand opened Sogdia to
+      Muslim rule and provided the launching ground for the
+      campaigns that would reach the Jaxartes (Syr Darya) and
+      lay the foundations of the great Sunni-Persian-Turkic
+      synthesis under the Sāmānids two centuries later. The
+      famous case of the Sogdian delegation to ʿUmar ibn ʿAbd
+      al-ʿAzīz protesting Qutayba's terms — and ʿUmar's order
+      that any unjustly-imposed term be revoked — is reported
+      by al-Ṭabarī as one of the foundational episodes of
+      Islamic justice in conquered lands.
+    description_ar: |
+      سمرقند، أغنى مدن السُّغد التجارية بين نهر زرفشان وطريق
+      الحرير، فتحها قتيبة بن مسلم الباهلي، والي خراسان في
+      عهد الخليفة الوليد بن عبد الملك، سنة ٩٣ هـ. وبعد سلسلة
+      حملات عبر بخارى (٩٠ هـ) ووادي السُّغد، حاصر جيش قتيبة
+      المدينةَ وأجبر «الإخشيد» غُورَك على الإذعان بالصلح
+      بأداء جزية سنوية، وتسليم الأصنام الوثنية ليُكسَّروا،
+      وإقامة حامية إسلامية فيها. ويصف الطبري تكسير تماثيل
+      المعبد وإطفاء النار الكبرى — وإن بقي أغلب السكان
+      على المجوسية أجيالاً تحت الجزية. وفتح سقوط سمرقند
+      السُّغدَ للحكم الإسلامي، وكان منطلق الحملات التي
+      وصلت إلى نهر سيحون ووضعت أُسس التركيب السني الفارسي
+      التركي العظيم في عهد السامانيين بعد قرنين. ومن أشهر
+      الأخبار قصة وفد السُّغد على عمر بن عبد العزيز يشكون من
+      شروط قتيبة، فأمر عمر برد كل شرط ظالم — يعدّها الطبري من
+      مؤسِّسات العدل الإسلامي في الأمصار المفتوحة.
+    description_fr: |
+      Samarqand, la plus riche cité commerciale de Sogdiane
+      entre le Zarafshān et la route de la soie, fut conquise
+      par Qutayba ibn Muslim al-Bāhilī, gouverneur du Khurāsān
+      sous le calife al-Walīd ibn ʿAbd al-Malik, en 93 H. Après
+      une série de campagnes par Boukhara (90 H) et la vallée
+      sogdienne, l'armée de Qutayba assiégea la ville et obligea
+      l'*ikhshīd* Ghūrak à capituler par *ṣulḥ* avec tribut
+      annuel, cession des idoles païennes pour destruction et
+      installation d'une garnison musulmane. al-Ṭabarī décrit
+      la destruction des statues du temple et l'extinction du
+      feu du temple majeur — bien que la population restât
+      largement zoroastrienne pendant plusieurs générations
+      sous la *jizya*. La chute de Samarqand ouvrit la Sogdiane
+      au pouvoir musulman et fournit la base de lancement des
+      campagnes qui atteindraient le Jaxartes (Syr-Daria) et
+      poseraient les fondations de la grande synthèse
+      sunnito-perso-turque des Sāmānides deux siècles plus tard.
+      Le célèbre cas de la délégation sogdienne auprès de
+      ʿUmar ibn ʿAbd al-ʿAzīz protestant contre les termes de
+      Qutayba — et l'ordre de ʿUmar de révoquer toute clause
+      injustement imposée — est rapporté par al-Ṭabarī comme
+      l'un des épisodes fondateurs de la justice islamique
+      en terres conquises.
+    canonical_hijri: {year: 93, precision: year}
+    canonical_gregorian: {date: 712-06-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the conquest of Samarqand under 93 AH and reports the Sogdian delegation to ʿUmar ibn ʿAbd al-ʿAzīz."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms Qutayba's conquest of Samarqand in 93 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the conquest under 93 AH."
+    people: [[qutayba-ibn-muslim, leader]]
+    tags: [umayyad, conquest, transoxiana, sogdia, samarqand, qutayba]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: conquest-of-multan
+    category: conquest
+    title_en: Conquest of Multān — "City of Gold" by Muḥammad ibn al-Qāsim
+    title_ar: فتح المُلتان — «مدينة الذهب» على يد محمد بن القاسم الثقفي
+    title_fr: Conquête de Multān — la « cité d'or » par Muḥammad ibn al-Qāsim
+    description_en: |
+      The northernmost advance of Muḥammad ibn al-Qāsim
+      al-Thaqafī's Sind campaign reached the great Hindu temple-city
+      of Multān (in present-day Punjab, Pakistan) in 94 AH after
+      a march up the Indus from al-Manṣūra and a brief siege.
+      The city's vast gold treasure of the temple of the sun-god
+      Āditya — accumulated over centuries of pilgrim donations
+      — was secured under the *jizya* terms of capitulation,
+      and Muslim governors began the long incorporation of upper
+      Sind into the Umayyad system. The campaign marked the
+      furthest northern reach of the Arab conquest in the Indian
+      subcontinent for the next two centuries — until the Ghaznavid
+      raids of Maḥmūd of Ghazna in the early 5th century AH —
+      and the establishment of an Arab presence in the Punjab
+      that would persist as the Habbarid emirate until the
+      Ghaznavid period. al-Balādhurī in *Futūḥ al-Buldān* gives
+      the most detailed early narrative; al-Ṭabarī enters the
+      conquest under 94 AH; Ibn al-Athīr concurs.
+    description_ar: |
+      بلغ تقدّمُ محمد بن القاسم الثقفي في حملة السند أقصى ما
+      شمالاً عند مدينة المُلتان الكبرى — موضع المعبد الهندوسي
+      العظيم بإقليم البنجاب في باكستان اليوم — سنة ٩٤ هـ، إثر
+      مسير على نهر السند من المنصورة ثم حصار قصير. وأُمسك
+      كنزُ معبد إله الشمس «أديتيا» الذهبيّ الهائل — الذي تراكم
+      من عطايا الحجاج القرونَ الطوالَ — على شروط الجزية في
+      الصلح. وبدأ ولاة المسلمين دمجَ السند الأعلى في النظام
+      الأموي. وكان هذا الفتح أقصى ما بلغه الفتحُ العربي شمالاً
+      في شبه القارة الهندية لقرنين تالين — حتى غارات محمود
+      الغزنوي في أوائل القرن الخامس الهجري — وإقامة وجود عربي
+      في البنجاب امتد حتى دولة الحبارية في عهد الغزنويين. وقد
+      أبسط البلاذري في «فتوح البلدان» الرواية المبكرة الأكثر
+      تفصيلاً؛ ويذكر الطبري الفتحَ في حوادث ٩٤ هـ، ويوافقه ابن
+      الأثير.
+    description_fr: |
+      L'avancée la plus septentrionale de la campagne de Sind
+      de Muḥammad ibn al-Qāsim al-Thaqafī atteignit la grande
+      cité-temple hindoue de Multān (dans l'actuel Pendjab,
+      Pakistan) en 94 H, après une marche en remontant l'Indus
+      depuis al-Manṣūra et un bref siège. Le vaste trésor en or
+      du temple du dieu solaire Āditya — accumulé sur des
+      siècles de dons de pèlerins — fut sécurisé sous les
+      termes de *jizya* de la capitulation; les gouverneurs
+      musulmans entamèrent la longue incorporation du Sind
+      supérieur au système omeyyade. La campagne marqua
+      l'extrémité nord de la conquête arabe dans le
+      sous-continent indien pour les deux siècles suivants —
+      jusqu'aux raids ghaznévides de Maḥmūd de Ghazna au début
+      du Ve siècle H — et l'établissement d'une présence arabe
+      au Pendjab qui persista comme émirat habbaride jusqu'à la
+      période ghaznévide. al-Balādhurī, dans les *Futūḥ
+      al-Buldān*, donne le récit ancien le plus détaillé;
+      al-Ṭabarī entre la conquête sous 94 H, et Ibn al-Athīr
+      concorde.
+    canonical_hijri: {year: 94, precision: year}
+    canonical_gregorian: {date: 713-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the conquest of Multān under 94 AH following the Sind campaign."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms Multān in 94 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr enters the conquest under 94 AH."
+    tags: [umayyad, conquest, sind, india, punjab, multan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # AGHLABID CONQUEST — SICILY, 216 AH / 831 CE
+  # =========================================================================
+
+  - slug: conquest-of-palermo-aghlabid
+    category: conquest
+    title_en: Aghlabid Conquest of Palermo — Capital of Muslim Sicily
+    title_ar: فتح الأغالبة لبَلَرْم — عاصمة صقلية الإسلامية
+    title_fr: Conquête aghlabide de Palerme — capitale de la Sicile musulmane
+    description_en: |
+      Four years after the landing of Asad ibn al-Furāt at
+      Mazara in 212 AH, the Aghlabid forces under Asbāgh ibn
+      Wakīl al-Hawwārī (succeeding Asad ibn al-Furāt, who had
+      died in the siege of Syracuse) and the Aghlabid commander
+      Muḥammad ibn ʿAbd Allāh ibn al-Aghlab took Palermo
+      (Arabic Balarm) on the north-western coast of Sicily after
+      a year-long siege. The capitulation, dated to Rajab 216 AH
+      / September 831 CE in the standard reckoning, transformed
+      Palermo from a Byzantine provincial port into the
+      administrative capital of the new Muslim *amīrate* of
+      Sicily. Under successive emirs the city would be
+      transformed into one of the most multilingual and
+      cosmopolitan cities of the medieval Mediterranean:
+      al-Muqaddasī's *Aḥsan al-Taqāsīm* and Ibn Ḥawqal's
+      *Ṣūrat al-Arḍ* both describe Palermo of the 4th century
+      AH as having approximately three hundred mosques and a
+      population around 200,000 — in the same league as Cairo
+      and Cordoba. The Norman conquest of 484 AH ended Muslim
+      political rule, but Palermo's Arabic-speaking Muslim
+      community persisted under Norman protection until the
+      13th century CE.
+    description_ar: |
+      بعد أربع سنوات من نزول أسد بن الفرات بمازرة سنة ٢١٢ هـ،
+      أخذت قوات الأغالبة بقيادة أصبغ بن وكيل الهوّاري — خلفاً
+      لأسد بن الفرات الذي مات في حصار سرقوسة — وقائد الأغالبة
+      محمد بن عبد الله بن الأغلب مدينةَ بَلَرْم (پالرمو) على
+      الساحل الشمالي الغربي لصقلية، إثر حصار دام عاماً. وكان
+      الإذعان في رجب سنة ٢١٦ هـ / سبتمبر ٨٣١ م في الرواية
+      المعتمدة، فتحوّلت بَلَرْم من مرفأ إقليمي بيزنطي إلى
+      عاصمة الإمارة الإسلامية الجديدة في صقلية. وفي عهد
+      الأمراء المتتابعين صارت المدينة من أكثر مدن البحر المتوسط
+      في القرون الوسطى تعدداً للغات وكوزموبوليتية: يصفها
+      المقدسي في «أحسن التقاسيم» وابن حوقل في «صورة الأرض»
+      في القرن الرابع الهجري بأن فيها نحو ثلاثمائة مسجد، وأن
+      عدد سكانها يدنو من المئتي ألف — في صف القاهرة وقرطبة.
+      وأنهى الفتح النورماني سنة ٤٨٤ هـ الحكمَ الإسلامي
+      السياسي، لكن مجتمع المسلمين الناطقين بالعربية في
+      بَلَرْم بقي تحت الحماية النورمانية حتى القرن الثالث
+      عشر الميلادي.
+    description_fr: |
+      Quatre ans après le débarquement d'Asad ibn al-Furāt à
+      Mazara en 212 H, les forces aghlabides sous Aṣbagh ibn
+      Wakīl al-Hawwārī (succédant à Asad ibn al-Furāt, mort au
+      siège de Syracuse) et le commandant aghlabide Muḥammad
+      ibn ʿAbd Allāh ibn al-Aghlab prirent Palerme (en arabe
+      Balarm) sur la côte nord-ouest de la Sicile, après un
+      siège d'un an. La capitulation, datée de Rajab 216 H /
+      septembre 831 EC dans la chronologie standard, transforma
+      Palerme d'un port provincial byzantin en capitale
+      administrative du nouvel *émirat* musulman de Sicile.
+      Sous les émirs successifs, la ville deviendrait l'une des
+      cités les plus multilingues et cosmopolites de la
+      Méditerranée médiévale : al-Muqaddasī dans son *Aḥsan
+      al-Taqāsīm* et Ibn Ḥawqal dans sa *Ṣūrat al-Arḍ* décrivent
+      tous deux la Palerme du IVe siècle H comme abritant
+      environ trois cents mosquées et une population proche de
+      200 000 habitants — dans la même catégorie que Le Caire
+      et Cordoue. La conquête normande de 484 H mit fin au
+      pouvoir politique musulman, mais la communauté musulmane
+      arabophone de Palerme persista sous protection normande
+      jusqu'au XIIIe siècle EC.
+    canonical_hijri: {year: 216, month: 7, precision: month}
+    canonical_gregorian: {date: 831-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the fall of Balarm under Rajab 216 AH following the year-long siege."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 216 AH for the conquest of Palermo."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām enters the conquest among the events of 216 AH."
+    tags: [aghlabid, conquest, sicily, palermo, mediterranean, byzantine]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

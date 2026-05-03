@@ -1,0 +1,879 @@
+# Wave 90 of curated event additions (2026-04-27).
+# Crusader-era diplomacy and secondary battles not yet in the dataset.
+# Covers: Crusader capture of Edessa (492 AH), Field of Blood / Sarmadā
+# (513 AH), Zengī's recapture of Edessa (539-540 AH, trigger of the
+# Second Crusade), Battle of Inab (544 AH), Battle of Harim (559 AH),
+# Death of Asad al-Dīn Shīrkūh (564 AH), Treaty of Ramla (588 AH ending
+# the Third Crusade), Death of al-ʿAzīz ʿUthmān (595 AH, Saladin's son),
+# Treaty of Jaffa / 1229 (626 AH, al-Kāmil cedes Jerusalem to Frederick II),
+# Battle of Montgisard (573 AH, Saladin's defeat by Baldwin IV),
+# and Saladin's conquest of Aleppo (579 AH).
+# All events attested in classical Sunni sources (Ibn al-Athīr al-Kāmil,
+# Ibn Kathīr al-Bidāya wa-l-Nihāya, al-Dhahabī Tārīkh al-Islām, Ibn
+# Khallikān Wafayāt al-Aʿyān). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # FIRST-CRUSADE FALLOUT — EDESSA, ANTIOCH, ALEPPO
+  # =========================================================================
+
+  - slug: crusader-capture-of-edessa
+    category: siege
+    title_en: Crusader Capture of Edessa — Foundation of the County of Edessa
+    title_ar: استيلاء الصليبيين على الرها — تأسيس إمارة الرها الصليبية
+    title_fr: Prise d'Édesse par les Croisés — fondation du comté d'Édesse
+    description_en: |
+      Baldwin of Boulogne, brother of Godfrey of Bouillon and a
+      leader of the First Crusade detached from the main army at
+      Marʿash, took control of the Armenian Christian city of
+      al-Ruhā (Edessa) in northern Mesopotamia after its ruler
+      Toros adopted him as son and co-ruler — Toros being killed
+      shortly after in a riot that historians have variously
+      attributed to Baldwin's connivance or to Armenian internal
+      politics. The result was the establishment of the County
+      of Edessa, the first and northernmost of the four Crusader
+      states, six months before the fall of Jerusalem itself.
+      The county would survive forty-six years until its
+      reconquest by ʿImād al-Dīn Zengī in 539 AH, the first major
+      Muslim recovery of Crusader territory and the trigger of
+      the Second Crusade. Ibn al-Athīr enters the loss of al-Ruhā
+      under the events of 491-492 AH and treats it as the opening
+      blow of the Frankish wave.
+    description_ar: |
+      استولى بلدوين البولوني — أخو جودفري البوييوني وأحد قادة
+      الحملة الصليبية الأولى الذي انفصل عن الجيش الرئيسي عند
+      مرعش — على مدينة الرها الأرمنية النصرانية بشمال الجزيرة
+      بعد أن تبنّاه حاكمها توروس ابناً وشريكاً في الحكم، ثم قُتل
+      توروس على إثر ذلك في ثورة عَزَى بعض المؤرخين إلى تواطؤ
+      بلدوين فيها، وعزاها آخرون إلى الصراع الداخلي بين الأرمن.
+      ونتج عن ذلك تأسيس إمارة الرها الصليبية — أول الدول
+      الصليبية الأربع وأقصاها شمالاً — قبل سقوط بيت المقدس بستة
+      أشهر. وبقيت الإمارة ست وأربعين سنة حتى استرجعها عماد
+      الدين زنكي سنة ٥٣٩ هـ، فكانت أول استرداد إسلامي كبير من
+      الفرنج وسبب إطلاق الحملة الصليبية الثانية. ويذكر ابن
+      الأثير سقوط الرها في حوادث سنتي ٤٩١-٤٩٢ هـ ويعدّه افتتاح
+      الموجة الفرنجية.
+    description_fr: |
+      Baudouin de Boulogne, frère de Godefroy de Bouillon et chef
+      détaché de la première croisade à Marʿash, prit le contrôle
+      de la ville arménienne chrétienne d'al-Ruhā (Édesse) en
+      Haute-Mésopotamie après que son souverain Thoros l'eut
+      adopté comme fils et co-régent — Thoros étant tué peu après
+      dans une émeute que les historiens ont diversement attribuée
+      à la connivence de Baudouin ou aux luttes internes
+      arméniennes. Il en résulta l'établissement du comté
+      d'Édesse, premier et plus septentrional des quatre États
+      croisés, six mois avant la chute de Jérusalem elle-même. Le
+      comté subsista quarante-six ans jusqu'à sa reconquête par
+      ʿImād al-Dīn Zengī en 539 H, première grande récupération
+      musulmane d'un territoire croisé et déclencheur de la
+      deuxième croisade. Ibn al-Athīr enregistre la perte d'al-Ruhā
+      dans les événements des années 491-492 H et la considère
+      comme le coup d'ouverture de la vague franque.
+    canonical_hijri: {year: 491, month: 12, precision: month}
+    canonical_gregorian: {date: 1098-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the Frankish takeover of al-Ruhā in the events of 491 AH (March 1098 CE)."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya records the loss of al-Ruhā at the start of the Frankish campaigns."
+      - source_key: ei2
+        notes: "EI² 'Edessa / al-Ruhā' confirms the date as March 1098 (491 AH)."
+    tags: [crusades, first-crusade, edessa, jazira, mesopotamia]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-the-field-of-blood-sarmada
+    category: battle
+    title_en: Battle of the Field of Blood (Ager Sanguinis / Sarmadā) — Il-Ghāzī Crushes Antioch
+    title_ar: معركة سرمدا (مرج الدماء) — انتصار إيلغازي على فرنج أنطاكية
+    title_fr: Bataille du Champ du Sang (Sarmadā) — Il-Ghāzī écrase Antioche
+    description_en: |
+      Najm al-Dīn Il-Ghāzī ibn Artuq, the Artuqid lord of Mardin
+      and Aleppo, destroyed the field army of the Crusader
+      Principality of Antioch under Roger of Salerno on the plain
+      of Sarmadā north-west of Aleppo. The Crusader army of about
+      seven hundred knights and three thousand foot was caught in
+      camp by an Artuqid envelopment at dawn and annihilated;
+      Roger was killed beneath the patriarch's relic of the True
+      Cross, and the Frankish frontier of northern Syria
+      collapsed for the season. The Frankish chronicler Walter
+      the Chancellor — present at the battle — gave it the name
+      *Ager Sanguinis* ("the Field of Blood"). Ibn al-Athīr and
+      Ibn al-ʿAdīm record it as the most consequential Muslim
+      victory over the Crusaders since their establishment two
+      decades earlier, briefly opening the road to Antioch
+      itself; only the arrival of Baldwin II of Jerusalem
+      stabilised the Crusader position. Il-Ghāzī's failure to
+      press the advantage — explained by his contemporaries
+      through illness brought on by drinking — is one of the
+      classic counter-factuals of Crusade-era history.
+    description_ar: |
+      دكّ الأرتقي نجم الدين إيلغازي بن أرتق — صاحب ماردين وحلب
+      — جيش إمارة أنطاكية الصليبية بقيادة روجر السرلاني في سهل
+      «سرمدا» شمال غرب حلب. أُحيط الجيش الصليبي — وعدته نحو
+      سبعمائة فارس وثلاثة آلاف راجل — في مخيمه عند الفجر بطوق
+      أرتقي فأُبيد، وقُتل روجر تحت ذخيرة الصليب التي حملها
+      البطريرك معه، وتهاوت جبهة الفرنج الشمالية بالشام لما بقي
+      من العام. وقد سمى المؤرخُ الفرنجي وولتر القنصل — وقد
+      حضرها — المعركة «مرج الدماء». ويعدّها ابن الأثير وابن
+      العديم أبرز انتصار إسلامي على الصليبيين منذ إنشاء دولهم
+      قبل عقدين، وقد فتح طريق أنطاكية نفسها فترة وجيزة، حتى
+      ثبّت الموقفَ الصليبي قدومُ بلدوين الثاني ملك القدس.
+      وإخفاق إيلغازي في استثمار النصر — وعزاه معاصروه إلى مرض
+      اعتراه من الشراب — من أشهر «لو» في تاريخ الحروب
+      الصليبية.
+    description_fr: |
+      Najm al-Dīn Il-Ghāzī ibn Ortoq, seigneur artouqide de
+      Mardin et d'Alep, détruisit l'armée de campagne de la
+      principauté croisée d'Antioche commandée par Roger de
+      Salerne dans la plaine de Sarmadā au nord-ouest d'Alep.
+      L'armée croisée — environ sept cents chevaliers et trois
+      mille fantassins — fut surprise au camp par un
+      enveloppement artouqide à l'aube et anéantie; Roger fut
+      tué sous la relique de la Vraie Croix portée par le
+      patriarche, et la frontière franque de Syrie du Nord
+      s'effondra pour la saison. Le chroniqueur franc Gautier le
+      Chancelier — présent à la bataille — lui donna le nom
+      d'*Ager Sanguinis* (« le Champ du Sang »). Ibn al-Athīr et
+      Ibn al-ʿAdīm la consignent comme la plus conséquente
+      victoire musulmane sur les Croisés depuis l'établissement
+      de leurs États deux décennies plus tôt, ouvrant brièvement
+      la route d'Antioche même; seule l'arrivée de Baudouin II
+      de Jérusalem stabilisa la position croisée. L'incapacité
+      d'Il-Ghāzī à exploiter l'avantage — expliquée par ses
+      contemporains par une maladie liée à la boisson — est l'un
+      des classiques contrefactuels de l'histoire des croisades.
+    canonical_hijri: {year: 513, month: 5, day: 17, precision: day}
+    canonical_gregorian: {date: 1119-06-28, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the battle in 513 AH and gives the date 17 Jumādā al-Ūlā (28 June 1119); details Roger's death and the Frankish rout."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya records the engagement in 513 AH and Il-Ghāzī's failure to follow up."
+      - source_key: ei2
+        notes: "EI² 'Il-Ghāzī' and 'Sarmadā' confirm the date as 28 June 1119."
+    tags: [artuqid, crusades, antioch, aleppo, syria, il-ghazi]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ZENGID JIHĀD — EDESSA, INAB, HARIM
+  # =========================================================================
+
+  - slug: zengi-recapture-of-edessa
+    category: siege
+    title_en: Zengī's Recapture of Edessa — First Major Muslim Reconquest from the Crusaders
+    title_ar: استرداد عماد الدين زنكي للرها — أول استرداد إسلامي كبير من الصليبيين
+    title_fr: Reconquête d'Édesse par Zengī — première grande reprise musulmane sur les Croisés
+    description_en: |
+      ʿImād al-Dīn Zengī, atabeg of Mosul and Aleppo, captured
+      al-Ruhā (Edessa) — capital of the northernmost Crusader
+      county — after a four-week siege, exploiting the absence of
+      Count Joscelin II who had withdrawn to his trans-Euphrates
+      fortress of Tell Bāshir. The walls were undermined and
+      breached on a Saturday night near year's end (Jumādā
+      al-Ākhira – Jumādā al-Ūlā 539 AH); the Frankish citadel
+      held out for several days more before surrendering on terms.
+      Zengī spared the local Armenian and Jacobite Christian
+      population — a deliberate political distinction from Latin
+      Frankish settlers, whom he treated as combatants — and
+      restored Edessa as a Muslim-ruled city with its
+      ecclesiastical communities preserved. The fall of Edessa
+      was the first major reconquest of Crusader-held territory
+      since the First Crusade and provoked the Second Crusade
+      (preached by Bernard of Clairvaux at Vézelay in 1146 CE);
+      Ibn al-Athīr — whose family served Zengī — gives the
+      campaign its central place in the ʿIzz al-Dīn dynasty's
+      jihād narrative.
+    description_ar: |
+      افتتح الأتابك عماد الدين زنكي صاحبُ الموصل وحلب مدينةَ
+      الرها — قاعدة الإمارة الصليبية الشمالية — بعد حصار أربعة
+      أسابيع، مستغلاً غياب الكونت جوسلين الثاني الذي كان قد
+      انسحب إلى حصنه فيما وراء الفرات «تل باشر». ونُقبت الأسوار
+      وكُسرت ليلة سبت قبل نهاية السنة (جمادى الآخرة-جمادى
+      الأولى ٥٣٩ هـ)، وثبتت قلعة الفرنج أياماً أخرى ثم سلِّمت
+      على أمان. وعفا زنكي عن نصارى الأرمن واليعاقبة المحليين —
+      تمييزاً سياسياً مقصوداً عن المستوطنين الفرنج اللاتين الذين
+      عاملهم على أنهم محاربون — وأعاد الرها مدينةً إسلامية
+      الحكم محفوظةً جاليتُها الكنسية. وكان سقوط الرها أول
+      استرداد كبير لأرض كان الصليبيون فتحوها منذ الحملة الأولى،
+      فأطلق عليها الحملة الثانية التي بشَّر بها برنار من كليرفو
+      في فيزولاي سنة ١١٤٦ ميلادي. ويفرد ابن الأثير — الذي
+      خدم آباؤه زنكياً — للحملة موضعها المركزي في رواية جهاد
+      الزنكية.
+    description_fr: |
+      ʿImād al-Dīn Zengī, atabeg de Mossoul et d'Alep, captura
+      al-Ruhā (Édesse) — capitale du comté croisé le plus
+      septentrional — après quatre semaines de siège, exploitant
+      l'absence du comte Josselin II qui s'était replié sur sa
+      forteresse trans-euphratéenne de Tell Bāshir. Les murailles
+      furent sapées et percées un samedi soir près de la fin de
+      l'année (Jumādā al-Ākhira-Jumādā al-Ūlā 539 H); la
+      citadelle franque tint encore quelques jours avant de se
+      rendre par capitulation. Zengī épargna les populations
+      chrétiennes locales arménienne et jacobite — distinction
+      politique délibérée d'avec les colons francs latins, qu'il
+      traita comme combattants — et restaura Édesse comme ville
+      sous gouvernement musulman avec ses communautés
+      ecclésiastiques préservées. La chute d'Édesse fut la
+      première grande reconquête de territoire tenu par les
+      Croisés depuis la première croisade et provoqua la deuxième
+      croisade (prêchée par Bernard de Clairvaux à Vézelay en
+      1146 EC); Ibn al-Athīr — dont la famille servit Zengī —
+      donne à cette campagne sa place centrale dans le récit du
+      *jihād* zangide.
+    canonical_hijri: {year: 539, month: 6, day: 26, precision: day}
+    canonical_gregorian: {date: 1144-12-24, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the fall of al-Ruhā on the night of Saturday 26 Jumādā al-Ākhira 539 AH (24 December 1144); his family connection to the Zangids gives this entry exceptional weight."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the conquest in 539 AH and credits Zengī with sparing the local Christian population."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the campaign under the events of 539 AH."
+    people: [[nur-al-din-zanki, witness]]
+    tags: [zangid, crusades, edessa, jazira, mosul, aleppo, jihad]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-inab
+    category: battle
+    title_en: Battle of Inab — Nūr al-Dīn Destroys the Antiochene Army
+    title_ar: معركة إنب — نور الدين يدمر جيش أنطاكية
+    title_fr: Bataille d'Inab — Nūr al-Dīn détruit l'armée d'Antioche
+    description_en: |
+      Nūr al-Dīn Maḥmūd Zangī, ruler of Aleppo, annihilated the
+      Crusader field army of the Principality of Antioch under
+      Prince Raymond of Poitiers at the well of Inab on the road
+      between Antioch and Apamea. Raymond — having relieved
+      Nūr al-Dīn's siege of the Frankish-allied Assassin
+      stronghold of Ḥārim — pushed forward with about four
+      hundred knights and a thousand foot to confront a Muslim
+      force he believed to be a raiding party; Nūr al-Dīn,
+      reinforced by Turcomans of Aleppo, drew the Crusader
+      vanguard onto open ground and surrounded it overnight. The
+      Crusaders fought through the dawn but were broken; Raymond
+      himself was killed in the field — his head sent to the
+      ʿAbbāsid caliph in Baghdad as a public sign of the
+      Zangid victory. The destruction of the Antiochene army
+      ended the principality's offensive capacity and exposed
+      Antioch itself to siege; only the arrival of Baldwin III of
+      Jerusalem and a hasty peace prevented the city's fall.
+      Ibn al-Athīr places the battle on the road between Antioch
+      and Apamea and dates it to Ṣafar 544 AH.
+    description_ar: |
+      أبصر السلطان الزنكي نور الدين محمود — صاحب حلب — جيشَ
+      إمارة أنطاكية الصليبية بقيادة الأمير ريموند البواتييري
+      عند بئر «إنب» على طريق ما بين أنطاكية وأفامية، فأبادَه.
+      وكان ريموند — وقد رفع حصارَ نور الدين عن «حارم»
+      الإسماعيلية الحليفة للفرنج — قد تقدّم بنحو أربعمائة فارس
+      وألف راجل لمواجهة قوة إسلامية حسبها سرية إغارة؛ فاستدرج
+      نور الدين — مدعوماً بتركمان حلب — طليعةَ الصليبيين إلى
+      أرض مكشوفة وضرب عليها الحصار طوال الليل. واستبسل
+      الصليبيون عند الفجر لكنّهم انكسروا، وقُتل ريموند نفسه في
+      الميدان وأُرسل رأسه إلى الخليفة العباسي ببغداد علامةً
+      علنية على نصر الزنكية. وأنهى دمارُ جيش أنطاكية قدراتِها
+      الهجومية وعرّض المدينة نفسها للحصار، ولم يحُل دون سقوطها
+      إلا قدومُ بلدوين الثالث ملك القدس وسلامٍ معجَّل. ويضع
+      ابن الأثير المعركةَ على طريق أنطاكية-أفامية ويؤرِّخها
+      بصفر سنة ٥٤٤ هـ.
+    description_fr: |
+      Nūr al-Dīn Maḥmūd Zangī, souverain d'Alep, anéantit l'armée
+      de campagne croisée de la principauté d'Antioche commandée
+      par le prince Raymond de Poitiers au puits d'Inab sur la
+      route entre Antioche et Apamée. Raymond — ayant fait lever
+      le siège que Nūr al-Dīn menait contre la forteresse
+      ismaélienne de Ḥārim alliée aux Francs — s'avança avec
+      environ quatre cents chevaliers et mille fantassins pour
+      affronter une force musulmane qu'il croyait être une
+      colonne de razzia; Nūr al-Dīn, renforcé par les Turcomans
+      d'Alep, attira l'avant-garde croisée sur un terrain
+      découvert et l'encercla pendant la nuit. Les Croisés
+      combattirent jusqu'à l'aube mais furent rompus; Raymond
+      lui-même fut tué sur le champ — sa tête fut envoyée au
+      calife abbasside de Bagdad comme signe public de la
+      victoire zangide. La destruction de l'armée antiochène mit
+      fin à la capacité offensive de la principauté et exposa
+      Antioche elle-même au siège; seule l'arrivée de Baudouin
+      III de Jérusalem et une paix hâtive empêchèrent la chute
+      de la ville. Ibn al-Athīr place la bataille sur la route
+      Antioche-Apamée et la date de Ṣafar 544 H.
+    canonical_hijri: {year: 544, month: 2, precision: month}
+    canonical_gregorian: {date: 1149-06-29, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the battle in 544 AH (Ṣafar) and details Raymond's death and the dispatch of his head to Baghdad."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the battle in 544 AH and Nūr al-Dīn's victory."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the engagement under the events of 544 AH."
+    people: [[nur-al-din-zanki, leader]]
+    tags: [zangid, crusades, antioch, aleppo, syria, nur-al-din]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-harim
+    category: battle
+    title_en: Battle of Ḥārim — Nūr al-Dīn Captures Three Crusader Princes
+    title_ar: معركة حارم — نور الدين يأسر ثلاثة من أمراء الصليبيين
+    title_fr: Bataille de Ḥārim — Nūr al-Dīn capture trois princes croisés
+    description_en: |
+      Nūr al-Dīn Maḥmūd Zangī defeated a combined Crusader and
+      Byzantine army outside the fortress of Ḥārim, west of
+      Aleppo, in one of the most lopsided Muslim victories of
+      the period. The Crusader force — led by Bohemond III of
+      Antioch, Raymond III of Tripoli, Joscelin III of Edessa,
+      Constantine Coloman the Byzantine governor of Cilicia, and
+      Thoros II of Lesser Armenia — had relieved Nūr al-Dīn's
+      preliminary siege and pressed his rearguard; Nūr al-Dīn
+      feigned withdrawal, drew the Crusader cavalry into a
+      pursuit, and at the prearranged signal turned and
+      enveloped them. Bohemond, Raymond, Joscelin, Coloman, and
+      Thoros were all captured (only Thoros later escaped); the
+      Crusader infantry was annihilated. The Frankish position
+      in northern Syria collapsed, opening the way for Nūr
+      al-Dīn's Egyptian campaign three years later. Ibn al-Athīr
+      enters the battle in 559 AH and lists the captured
+      princes by name.
+    description_ar: |
+      هزم السلطان نور الدين محمود الزنكي جيشاً صليبياً-بيزنطياً
+      مشتركاً عند حصن «حارم» غربي حلب في واحدة من أفدح هزائم
+      الفرنج بالشام. وكان الجيش الصليبي بقيادة بوهيمند الثالث
+      أمير أنطاكية، وريموند الثالث كونت طرابلس، وجوسلين الثالث
+      صاحب الرها، وقسطنطين كولومان البيزنطي والي قيليقية،
+      وثوروس الثاني صاحب أرمينية الصغرى — قد رفع حصار نور
+      الدين الأول وضايق ساقَتَه؛ فأظهر نور الدين الانسحاب،
+      واستدرج فرسانَ الفرنج إلى ملاحقته، ثم انقلب عليهم بإشارة
+      منه عند الموعد فطوّقهم. أُسر بوهيمند وريموند وجوسلين
+      وكولومان وثوروس جميعاً — لم ينجُ منهم إلا ثوروس بعد ذلك —
+      وأُبيد رجالة الفرنج. تهاوى موقف الصليبيين بشمال الشام،
+      وفُتح الطريق لحملة نور الدين على مصر بعد ثلاث سنين. ويذكر
+      ابن الأثير المعركة سنة ٥٥٩ هـ ويعدّ الأمراء المأسورين
+      بأسمائهم.
+    description_fr: |
+      Nūr al-Dīn Maḥmūd Zangī défit une armée croisée et
+      byzantine combinée devant la forteresse de Ḥārim, à
+      l'ouest d'Alep, dans l'une des victoires musulmanes les
+      plus écrasantes de la période. La force croisée — menée
+      par Bohémond III d'Antioche, Raymond III de Tripoli,
+      Josselin III d'Édesse, Constantin Coloman gouverneur
+      byzantin de Cilicie, et Thoros II de Petite-Arménie —
+      avait fait lever le siège préliminaire de Nūr al-Dīn et
+      pressait son arrière-garde; Nūr al-Dīn feignit la retraite,
+      attira la cavalerie croisée à la poursuite, puis au signal
+      convenu se retourna et l'enveloppa. Bohémond, Raymond,
+      Josselin, Coloman et Thoros furent tous capturés (seul
+      Thoros s'échappa par la suite); l'infanterie croisée fut
+      anéantie. La position franque en Syrie du Nord
+      s'effondra, ouvrant la voie à la campagne égyptienne de
+      Nūr al-Dīn trois ans plus tard. Ibn al-Athīr enregistre la
+      bataille en 559 H et énumère les princes capturés par leur
+      nom.
+    canonical_hijri: {year: 559, month: 8, precision: month}
+    canonical_gregorian: {date: 1164-08-12, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the battle of Ḥārim in 559 AH and lists Bohemond III, Raymond III, Joscelin III, Coloman, and Thoros II as the captured commanders."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the battle in 559 AH and the capture of the Crusader princes."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the engagement under the events of 559 AH."
+    people: [[nur-al-din-zanki, leader]]
+    tags: [zangid, crusades, antioch, aleppo, syria, nur-al-din, byzantines]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SHĪRKŪH — THE EGYPTIAN CONQUEST AND DEATH
+  # =========================================================================
+
+  - slug: death-of-asad-al-din-shirkuh
+    category: ruler_death
+    title_en: Death of Asad al-Dīn Shīrkūh — Conqueror of Egypt and Saladin's Uncle
+    title_ar: وفاة أسد الدين شيركوه — فاتح مصر وعم صلاح الدين
+    title_fr: Mort d'Asad al-Dīn Shīrkūh — conquérant de l'Égypte et oncle de Saladin
+    description_en: |
+      Asad al-Dīn Shīrkūh ibn Shādhī al-Kurdī, senior Kurdish
+      commander of Nūr al-Dīn Maḥmūd Zangī and uncle of
+      Ṣalāh al-Dīn al-Ayyūbī, died at Cairo only two months
+      after taking the office of Fatimid vizier — the
+      culmination of three Egyptian campaigns (559, 562, 564 AH)
+      he had led against the Crusaders and the Egyptian
+      forces of the vizier Shāwar. His final campaign brought
+      him to Cairo as the Fatimid caliph al-ʿĀḍid's chief
+      minister, executing Shāwar on the sultan's order on the
+      day of his entry; he died of an apoplectic seizure
+      attributed by the chronicles to his characteristic
+      excesses at table. His nephew Ṣalāh al-Dīn — reluctantly
+      proposed by the Kurdish-Turcoman officers as the youngest
+      and least threatening claimant to the vizierate —
+      succeeded him. Within two years Saladin had abolished
+      the Fatimid Shīʿī khuṭba and the Ayyūbid sultanate of
+      Egypt was founded. Ibn al-Athīr, Ibn Kathīr, and Ibn
+      Khallikān all give the death in Jumādā al-Ākhira 564 AH at
+      Cairo and dwell on the providential character of his
+      brief vizierate.
+    description_ar: |
+      توفي أسد الدين شيركوه بن شاذي الكردي — كبير القادة
+      الأكراد لنور الدين محمود الزنكي وعم صلاح الدين الأيوبي —
+      بالقاهرة بعد توليه الوزارة الفاطمية بشهرين فقط، وكان ذلك
+      ثمرةَ ثلاث حملات مصرية (٥٥٩ و٥٦٢ و٥٦٤ هـ) قادها على
+      الصليبيين وعلى قوات الوزير شاور المصري. وأوصلته حملته
+      الأخيرة إلى القاهرة وزيراً للخليفة الفاطمي العاضد، فأعدم
+      شاوراً بأمر السلطان يوم دخوله؛ ثم توفي بسكتة دماغية عَزَتها
+      التواريخ إلى إفراطه المعروف في الطعام. وخلفه ابن أخيه
+      صلاح الدين — وقد اقترحه ضباط الأتراك والأكراد على مضض
+      بوصفه أصغر المرشحين وأقلهم تهديداً لوزارة الدولة — وفي
+      ظرف سنتين كان صلاح الدين قد أبطل الخطبة الفاطمية الشيعية
+      وأرسى دعائم سلطنة بني أيوب بمصر. ويذكر ابن الأثير وابن
+      كثير وابن خلكان جميعاً وفاتَه في جمادى الآخرة سنة ٥٦٤ هـ
+      بالقاهرة، ويتأمَّلون الطابع القدري لهذه الوزارة الوجيزة.
+    description_fr: |
+      Asad al-Dīn Shīrkūh ibn Shādhī al-Kurdī, principal
+      commandant kurde de Nūr al-Dīn Maḥmūd Zangī et oncle de
+      Ṣalāh al-Dīn al-Ayyūbī, mourut au Caire à peine deux mois
+      après avoir pris la charge de vizir fatimide — aboutissement
+      de trois campagnes égyptiennes (559, 562, 564 H) qu'il
+      avait menées contre les Croisés et les forces égyptiennes
+      du vizir Shāwar. Sa dernière campagne le conduisit au
+      Caire comme premier ministre du calife fatimide al-ʿĀḍid,
+      exécutant Shāwar sur ordre du sultan le jour de son
+      entrée; il mourut d'une crise apoplectique que les
+      chroniques attribuent à ses excès caractéristiques à
+      table. Son neveu Ṣalāh al-Dīn — proposé à contre-cœur par
+      les officiers kurdes et turcomans comme le plus jeune et
+      le moins menaçant des prétendants au vizirat — lui
+      succéda. En deux ans, Saladin avait aboli la khuṭba
+      chiite fatimide et le sultanat ayyoubide d'Égypte fut
+      fondé. Ibn al-Athīr, Ibn Kathīr et Ibn Khallikān placent
+      tous la mort en Jumādā al-Ākhira 564 H au Caire et
+      s'attardent sur le caractère providentiel de ce bref
+      vizirat.
+    canonical_hijri: {year: 564, month: 6, precision: month}
+    canonical_gregorian: {date: 1169-03-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Shīrkūh in Jumādā al-Ākhira 564 AH at Cairo and Saladin's accession to the vizierate."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 564 AH and gives the same circumstances."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the standard biographical entry placing his death in Jumādā al-Ākhira 564 AH at Cairo."
+    people: [[salahuddin-al-ayyubi, witness]]
+    tags: [ayyubid, egypt, fatimid, syria, kurds, shirkuh]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SALADIN AT WAR AND PEACE
+  # =========================================================================
+
+  - slug: battle-of-montgisard
+    category: battle
+    title_en: Battle of Montgisard (Tall al-Jazar) — Baldwin IV's Defeat of Saladin
+    title_ar: معركة تل الجزر (مونغيزار) — هزيمة صلاح الدين أمام بلدوين الرابع
+    title_fr: Bataille de Montgisard (Tall al-Jazar) — défaite de Saladin face à Baudouin IV
+    description_en: |
+      Ṣalāh al-Dīn al-Ayyūbī's Egyptian army, raiding deep into
+      the southern coastal plain of the Crusader Kingdom of
+      Jerusalem and dispersed across the countryside between
+      Ramla and Ascalon for plunder, was caught in the open by
+      a Crusader counter-strike from Ascalon led by the
+      sixteen-year-old leper-king Baldwin IV and the Templar
+      master Odo de Saint-Amand. The hastily reassembled
+      Ayyūbid army was broken near the hill of Tall al-Jazar
+      (Montgisard); Saladin escaped with his bodyguard back to
+      Egypt across the Sinai with heavy losses, including
+      several of his nephews. The defeat — the most serious of
+      his career — checked his northward expansion for several
+      years and is one of the few major Crusader field
+      victories of the late twelfth century. Ibn al-Athīr enters
+      the engagement under 573 AH and acknowledges the rout in
+      sober terms; the disaster is part of the broader pattern
+      of caution Saladin would observe in approaching Frankish
+      armies in open ground for the rest of his career, until
+      the deliberate trap at Ḥaṭṭīn in 583 AH.
+    description_ar: |
+      أَدركت كتيبةٌ صليبية من عسقلان — يقودها الملك المجذوم
+      الفتى بلدوين الرابع وقائد فرسان الهيكل أودو دو سان أمان —
+      جيشَ صلاح الدين الأيوبي المصري وقد توغّل في السهل
+      الساحلي الجنوبي لمملكة بيت المقدس وتفرّق على الريف بين
+      الرملة وعسقلان للنهب. واستُرجع الجيشُ الأيوبي على عجل
+      فانكسر عند تل الجزر (مونغيزار)، ونجا صلاح الدين
+      بحرسِه إلى مصر عبر سيناء بعد خسائر فادحة شملت عدداً
+      من أبناء إخوته. وهي أفدح هزيمة في حياة صلاح الدين، وقد
+      أوقفت توسعه شمالاً سنواتٍ، وهي من أبرز الانتصارات
+      الميدانية الفرنجية في أواخر القرن السادس الهجري. ويُدخل
+      ابن الأثير الواقعةَ في حوادث سنة ٥٧٣ هـ ويعترف بالهزيمة
+      بهدوء؛ وهي جزء من نمط الحذر الذي التزمه صلاح الدين بعد
+      ذلك في مواجهة الجيوش الفرنجية في الأرض المكشوفة، إلى أن
+      نصب لها الفخ المتعمَّد في حطين سنة ٥٨٣ هـ.
+    description_fr: |
+      L'armée égyptienne de Ṣalāh al-Dīn al-Ayyūbī, qui razziait
+      en profondeur la plaine côtière méridionale du royaume
+      croisé de Jérusalem et s'était dispersée à travers la
+      campagne entre Ramla et Ascalon pour le butin, fut
+      surprise à découvert par une contre-attaque croisée venue
+      d'Ascalon menée par le roi-lépreux adolescent Baudouin IV
+      et le maître templier Odon de Saint-Amand. L'armée
+      ayyoubide hâtivement reconstituée fut rompue près de la
+      colline de Tall al-Jazar (Montgisard); Saladin s'échappa
+      avec sa garde personnelle vers l'Égypte à travers le Sinaï
+      avec de lourdes pertes, dont plusieurs de ses neveux. La
+      défaite — la plus grave de sa carrière — bloqua son
+      expansion vers le nord pendant plusieurs années et compte
+      parmi les rares grandes victoires croisées en bataille
+      rangée de la fin du XII^e siècle. Ibn al-Athīr enregistre
+      l'engagement en 573 H et reconnaît la déroute en termes
+      sobres; le désastre fait partie du schéma plus large de
+      prudence que Saladin observa face aux armées franques en
+      terrain découvert pour le reste de sa carrière, jusqu'au
+      piège délibéré de Ḥaṭṭīn en 583 H.
+    canonical_hijri: {year: 573, month: 11, precision: month}
+    canonical_gregorian: {date: 1177-11-25, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the defeat at Tall al-Jazar in 573 AH and notes the heavy Ayyūbid losses."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya records the engagement in 573 AH and Saladin's escape."
+      - source_key: ei2
+        notes: "EI² 'Saladin' confirms the date as 25 November 1177 (573 AH)."
+    people: [[salahuddin-al-ayyubi, leader]]
+    tags: [ayyubid, saladin, crusades, palestine, defeat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: saladin-conquest-of-aleppo
+    category: siege
+    title_en: Saladin's Conquest of Aleppo — Reunification of Muslim Syria
+    title_ar: فتح صلاح الدين لحلب — توحيد الشام الإسلامي
+    title_fr: Conquête d'Alep par Saladin — réunification de la Syrie musulmane
+    description_en: |
+      Ṣalāh al-Dīn al-Ayyūbī took possession of Aleppo from the
+      Zangid prince ʿImād al-Dīn Zangī ibn Mawdūd by negotiated
+      surrender after a brief siege, completing his reunification
+      of Muslim Syria under a single sultanate for the first
+      time since the death of Nūr al-Dīn Maḥmūd ten years
+      earlier. ʿImād al-Dīn — heir to the Zangid line — was
+      compensated with the lordship of Sinjār and a generous
+      pension; Saladin entered the city in person, prayed in the
+      Great Mosque, and restored its administration. The
+      submission of Aleppo gave him an unbroken rear from Egypt
+      to the Euphrates, ended the political fragmentation that
+      had protected the Crusader states for a generation, and
+      furnished the strategic platform from which he launched
+      the campaign of 583 AH that culminated in Ḥaṭṭīn and the
+      reconquest of Jerusalem. Ibn al-Athīr — whose family
+      remained loyal to the Zangids — gives the surrender on
+      Sunday 18 Ṣafar 579 AH and treats it as a turning point
+      in Ayyūbid–Zangid history.
+    description_ar: |
+      تسلَّم السلطان صلاح الدين الأيوبي مدينةَ حلب من الأمير
+      الزنكي عماد الدين زنكي بن مودود تسليماً مفاوضاً بعد حصار
+      وجيز، فأنجز توحيد الشام الإسلامي في سلطنة واحدة لأول مرة
+      منذ وفاة نور الدين محمود قبل عشر سنين. وعُوِّض عماد
+      الدين الزنكي — وريث البيت الزنكي — بإمارة سنجار وراتب
+      سخي؛ ودخل صلاح الدين المدينة بنفسه، فصلى في الجامع الكبير
+      ورتَّب أمر إدارتها. وأعطته خضوعُ حلب ظهراً متصلاً من
+      مصر إلى الفرات، وأنهى التفكُّك السياسي الذي حمى الدول
+      الصليبية جيلاً، وأَتاح له القاعدة الاستراتيجية التي أطلق
+      منها حملة سنة ٥٨٣ هـ التي توّجت بحطين وفتح بيت المقدس.
+      ويذكر ابن الأثير — وقد بقيت أسرته على ولاء الزنكية —
+      التسليم يوم الأحد ١٨ صفر سنة ٥٧٩ هـ ويعدّه نقطة تحوّل
+      في تاريخ آل أيوب وآل زنكي.
+    description_fr: |
+      Ṣalāh al-Dīn al-Ayyūbī prit possession d'Alep du prince
+      zangide ʿImād al-Dīn Zangī ibn Mawdūd par reddition
+      négociée après un bref siège, achevant sa réunification de
+      la Syrie musulmane sous un sultanat unique pour la
+      première fois depuis la mort de Nūr al-Dīn Maḥmūd dix ans
+      plus tôt. ʿImād al-Dīn — héritier de la lignée zangide —
+      fut compensé par la seigneurie de Sinjār et une pension
+      généreuse; Saladin entra dans la ville en personne, pria
+      dans la Grande Mosquée et rétablit son administration. La
+      soumission d'Alep lui donna un arrière ininterrompu de
+      l'Égypte à l'Euphrate, mit fin à la fragmentation politique
+      qui avait protégé les États croisés une génération durant,
+      et fournit la plate-forme stratégique d'où il lança la
+      campagne de 583 H qui culmina à Ḥaṭṭīn et à la reconquête
+      de Jérusalem. Ibn al-Athīr — dont la famille resta fidèle
+      aux Zangides — situe la reddition au dimanche 18 Ṣafar
+      579 H et la traite comme un tournant de l'histoire
+      ayyoubide-zangide.
+    canonical_hijri: {year: 579, month: 2, day: 18, precision: day}
+    canonical_gregorian: {date: 1183-06-12, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the surrender of Aleppo on Sunday 18 Ṣafar 579 AH; his family's Zangid loyalties give this entry detailed treatment."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 579 AH and the negotiated transfer to Saladin."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the conquest of Aleppo under the events of 579 AH."
+    people: [[salahuddin-al-ayyubi, leader]]
+    tags: [ayyubid, saladin, aleppo, syria, zangid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: treaty-of-ramla-1192
+    category: treaty
+    title_en: Treaty of Ramla — Saladin and Richard the Lionheart End the Third Crusade
+    title_ar: صلح الرملة — صلاح الدين وريتشارد قلب الأسد ينهيان الحملة الثالثة
+    title_fr: Traité de Ramla — Saladin et Richard Cœur de Lion mettent fin à la troisième croisade
+    description_en: |
+      The truce concluded at Ramla between Ṣalāh al-Dīn
+      al-Ayyūbī and King Richard I of England — both exhausted
+      by sixteen months of inconclusive campaigning along the
+      Palestinian coast after the fall of Acre — formally ended
+      the Third Crusade. Its terms were a three-year, three-month,
+      and three-day truce; the Crusaders retained the coastal
+      strip from Tyre to Jaffa; Ascalon was to be demolished by
+      both sides; Jerusalem and the interior remained in
+      Ayyūbid hands; and Christian pilgrims were granted access
+      to the Holy Sepulchre and the other Jerusalem holy sites
+      under safe-conduct. Richard departed for Europe in
+      Shawwāl 588 AH never having reached Jerusalem; Saladin
+      died at Damascus seven months later in Ṣafar 589 AH
+      without having renewed war. The treaty is the negotiated
+      settlement that froze the Crusader-Ayyūbid frontier on
+      the lines that would shape the next half-century.
+      Ibn al-Athīr, Ibn Shaddād (in *al-Nawādir al-Sulṭāniyya*),
+      and Ibn Kathīr all give the truce in Shaʿbān 588 AH.
+    description_ar: |
+      الهدنةُ التي عُقدت بالرملة بين السلطان صلاح الدين الأيوبي
+      والملك ريتشارد الأول ملك إنجلترا — وقد أنهك السلطانَين
+      ستة عشر شهراً من القتال غير المحسوم على ساحل فلسطين بعد
+      سقوط عكا — وأنهت رسمياً الحملة الصليبية الثالثة. وكانت
+      شروطُها: هدنة ثلاث سنوات وثلاثة أشهر وثلاثة أيام؛ وبقاء
+      الشريط الساحلي من صور إلى يافا في يد الصليبيين؛ وهدم
+      عسقلان من الجانبين؛ وبقاء بيت المقدس والداخل في يد
+      الأيوبيين؛ وفتح زيارة بيت المقدس للحجاج النصارى مع
+      أمان. وانصرف ريتشارد إلى أوروبا في شوال سنة ٥٨٨ هـ ولم
+      يبلغ القدس قط؛ وتوفي صلاح الدين بدمشق بعد ذلك بسبعة
+      أشهر في صفر سنة ٥٨٩ هـ ولم يكن قد جدَّد الحرب. والصلح
+      هو التسوية المتفاوض عليها التي جمَّدت حدود الأيوبيين
+      والصليبيين على الخطوط التي ستحكم نصف القرن التالي.
+      ويذكر ابن الأثير وابن شداد (في «النوادر السلطانية»)
+      وابن كثير الهدنةَ في شعبان سنة ٥٨٨ هـ.
+    description_fr: |
+      La trêve conclue à Ramla entre Ṣalāh al-Dīn al-Ayyūbī et
+      le roi Richard Ier d'Angleterre — tous deux épuisés par
+      seize mois de campagnes inconcluantes sur la côte
+      palestinienne après la chute d'Acre — mit officiellement
+      fin à la troisième croisade. Ses termes étaient une trêve
+      de trois ans, trois mois et trois jours; les Croisés
+      conservaient la bande côtière de Tyr à Jaffa; Ascalon
+      devait être démantelée par les deux parties; Jérusalem et
+      l'intérieur restaient en mains ayyoubides; et les
+      pèlerins chrétiens recevaient l'accès au Saint-Sépulcre
+      et aux autres lieux saints de Jérusalem sous sauf-conduit.
+      Richard partit pour l'Europe en Shawwāl 588 H sans avoir
+      jamais atteint Jérusalem; Saladin mourut à Damas sept mois
+      plus tard en Ṣafar 589 H sans avoir renouvelé la guerre.
+      Le traité est le règlement négocié qui figea la frontière
+      croisée-ayyoubide sur les lignes qui façonneraient le
+      demi-siècle suivant. Ibn al-Athīr, Ibn Shaddād (dans
+      *al-Nawādir al-Sulṭāniyya*) et Ibn Kathīr placent tous la
+      trêve en Shaʿbān 588 H.
+    canonical_hijri: {year: 588, month: 8, precision: month}
+    canonical_gregorian: {date: 1192-09-02, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the conclusion of the truce in Shaʿbān 588 AH and details the partition of the coast."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the treaty in 588 AH and confirms Richard's departure shortly after."
+      - source_key: ei2
+        notes: "EI² 'Saladin' confirms the date as 2 September 1192 (Shaʿbān 588 AH)."
+    people: [[salahuddin-al-ayyubi, leader]]
+    tags: [ayyubid, saladin, crusades, third-crusade, palestine, treaty]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-aziz-uthman-ayyubi
+    category: ruler_death
+    title_en: Death of al-ʿAzīz ʿUthmān — Saladin's Son and Sultan of Egypt
+    title_ar: وفاة الملك العزيز عثمان — ابن صلاح الدين وسلطان مصر
+    title_fr: Mort d'al-ʿAzīz ʿUthmān — fils de Saladin et sultan d'Égypte
+    description_en: |
+      al-Malik al-ʿAzīz ʿImād al-Dīn ʿUthmān ibn Ṣalāh al-Dīn —
+      second Ayyūbid sultan of Egypt and second son of Saladin
+      — died at Cairo at age twenty-eight from a fall while
+      hunting wolf in the Fayyūm. His five-year reign (589-595
+      AH) had been spent first contesting the inheritance of
+      Saladin's empire with his elder brother al-Afḍal of
+      Damascus and then defending Egypt with the support of his
+      uncle al-ʿĀdil — the future founder of the senior
+      Ayyūbid line. The vacuum left by his death allowed
+      al-ʿĀdil to set aside his nephew the child al-Manṣūr
+      Muḥammad and seize the sultanate himself in 596 AH,
+      consolidating the line that would produce al-Kāmil
+      (sultan during the Fifth and Sixth Crusades) and
+      al-Ṣāliḥ Najm al-Dīn Ayyūb (the last effective Ayyūbid
+      sultan). Ibn al-Athīr and Ibn Khallikān both place the
+      death in Muḥarram 595 AH and dwell on the contrast
+      between al-ʿAzīz's piety and his short reign.
+    description_ar: |
+      توفي الملك العزيز عماد الدين عثمان بن صلاح الدين — ثاني
+      سلاطين بني أيوب بمصر، وابن السلطان صلاح الدين الثاني —
+      بالقاهرة عن ثمانٍ وعشرين سنة بسقطة وهو يصيد الذئب بالفيوم.
+      وكان عهده الخمسي (٥٨٩-٥٩٥ هـ) قد أُنفق أولاً في النزاع
+      على ميراث صلاح الدين مع أخيه الأكبر الأفضل صاحب دمشق، ثم
+      في الدفاع عن مصر بدعم من عمه العادل — الذي سيؤسِّس فرع
+      الأيوبيين الأكبر. وأَتاح الفراغُ الذي تركته وفاتُه للعادل
+      أن ينحِّي ابنَ أخيه الصبيَّ المنصور محمداً وينتزع
+      السلطنة لنفسه سنة ٥٩٦ هـ، فيرسي الفرعَ الذي سيخرج منه
+      الكامل (سلطان الحملتين الخامسة والسادسة) والصالح نجم الدين
+      أيوب (آخر السلاطين الأيوبيين الفعّالين). ويذكر ابن الأثير
+      وابن خلكان جميعاً وفاتَه في محرم سنة ٥٩٥ هـ، ويتأمَّلان
+      التضادَّ بين تقواه وقصر مدته.
+    description_fr: |
+      al-Malik al-ʿAzīz ʿImād al-Dīn ʿUthmān ibn Ṣalāh al-Dīn —
+      deuxième sultan ayyoubide d'Égypte et deuxième fils de
+      Saladin — mourut au Caire à vingt-huit ans d'une chute
+      lors d'une chasse au loup dans le Fayyūm. Son règne de
+      cinq ans (589-595 H) s'était écoulé d'abord à se disputer
+      l'héritage de l'empire de Saladin avec son frère aîné
+      al-Afḍal de Damas, puis à défendre l'Égypte avec le
+      soutien de son oncle al-ʿĀdil — futur fondateur de la
+      branche ayyoubide aînée. Le vide laissé par sa mort
+      permit à al-ʿĀdil d'écarter son neveu l'enfant al-Manṣūr
+      Muḥammad et de saisir lui-même le sultanat en 596 H,
+      consolidant la lignée qui produirait al-Kāmil (sultan des
+      cinquième et sixième croisades) et al-Ṣāliḥ Najm al-Dīn
+      Ayyūb (dernier sultan ayyoubide effectif). Ibn al-Athīr
+      et Ibn Khallikān placent tous deux la mort en Muḥarram
+      595 H et s'attardent sur le contraste entre la piété
+      d'al-ʿAzīz et la brièveté de son règne.
+    canonical_hijri: {year: 595, month: 1, day: 21, precision: day}
+    canonical_gregorian: {date: 1198-11-29, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death in Muḥarram 595 AH at Cairo and the political consequences for the Ayyūbid succession."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the standard biographical entry placing his death on 21 Muḥarram 595 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the death in 595 AH and the accession of his son al-Manṣūr."
+    people: [[salahuddin-al-ayyubi, subject]]
+    tags: [ayyubid, egypt, saladin, succession]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # AL-KĀMIL'S DIPLOMACY — TREATY OF JAFFA 1229
+  # =========================================================================
+
+  - slug: treaty-of-jaffa-1229
+    category: treaty
+    title_en: Treaty of Jaffa (1229) — al-Kāmil Cedes Jerusalem to Frederick II
+    title_ar: صلح يافا (٦٢٦ هـ) — الكامل يسلّم بيت المقدس لفريدريك الثاني
+    title_fr: Traité de Jaffa (1229) — al-Kāmil cède Jérusalem à Frédéric II
+    description_en: |
+      The unprecedented diplomatic settlement between the
+      Ayyūbid sultan al-Malik al-Kāmil Muḥammad of Egypt and
+      Holy Roman Emperor Frederick II Hohenstaufen — concluded
+      at Jaffa without a battle — by which al-Kāmil ceded
+      Jerusalem (excluding the Ḥaram al-Sharīf, which remained
+      Muslim and under Muslim worship), Bethlehem, Nazareth,
+      and a corridor to the coast back to the Crusader Kingdom
+      of Jerusalem for a renewable ten-year truce. The
+      Ḥaram — the Dome of the Rock and al-Aqṣā — remained
+      Muslim and under Muslim worship under the treaty's
+      explicit terms. The accord drew a storm of public
+      criticism in Damascus and Aleppo: the Damascene preacher
+      Sibṭ Ibn al-Jawzī delivered a celebrated sermon of mourning
+      at the Umayyad Mosque, and al-Kāmil's own brother
+      al-Ashraf in Damascus condemned the cession. Frederick
+      crowned himself king of Jerusalem in the Holy Sepulchre
+      eighteen days later — under simultaneous papal
+      excommunication, with no Latin clergy present, in a
+      ceremony of his own composition. Jerusalem remained
+      Crusader-held for fifteen years until the Khwārazmian
+      sack in 642 AH; the Treaty of Jaffa is the only major
+      transfer of Jerusalem in Crusade-era history achieved by
+      diplomacy rather than arms. Ibn al-Athīr — alive when the
+      treaty was signed — and Ibn Kathīr both record the
+      settlement and the public mourning at Damascus.
+    description_ar: |
+      التسوية الدبلوماسية غير المسبوقة بين السلطان الأيوبي
+      الملك الكامل محمد صاحب مصر والإمبراطور الجرماني فريدريك
+      الثاني الهوهنشتاوفي — وعُقدت بيافا من غير قتال — وبها
+      سلَّم الكامل مدينةَ بيت المقدس (دون الحرم الشريف الذي
+      بقي إسلامياً ومفتوحاً للعبادة الإسلامية) وبيت لحم
+      والناصرة وممرّاً إلى الساحل، إلى مملكة بيت المقدس
+      الصليبية لمدة هدنة عشر سنوات قابلة للتجديد. وبقي الحرم —
+      قبة الصخرة والمسجد الأقصى — إسلامياً ومفتوحاً للعبادة
+      الإسلامية بنص الصلح. وأثار الصلح عاصفةَ نقد عام بدمشق
+      وحلب: ألقى الواعظ الدمشقي سبط ابن الجوزي خطبة الحداد
+      الشهيرة في الجامع الأموي، وندَّد بالتسليم أخو الكامل
+      الملك الأشرف صاحب دمشق نفسه. وتوّج فريدريك نفسه ملكاً
+      على بيت المقدس في كنيسة القمامة بعد ثمانية عشر يوماً —
+      وهو تحت طائلة حرم البابا في الوقت ذاته، بلا حضور لأي
+      من رجال الدين اللاتين، في احتفال من تأليفه. وبقيت بيت
+      المقدس في يد الصليبيين خمس عشرة سنة إلى أن دخلتها
+      الخوارزمية سنة ٦٤٢ هـ؛ وصلح يافا هو نقل بيت المقدس
+      الكبير الوحيد في تاريخ الحروب الصليبية الذي تم
+      بالدبلوماسية لا بالسلاح. ويذكر ابن الأثير — وكان حياً
+      وقت توقيع الصلح — وابن كثير التسويةَ والحدادَ العلني
+      بدمشق.
+    description_fr: |
+      Le règlement diplomatique sans précédent entre le sultan
+      ayyoubide al-Malik al-Kāmil Muḥammad d'Égypte et
+      l'empereur germanique Frédéric II Hohenstaufen — conclu
+      à Jaffa sans bataille — par lequel al-Kāmil céda
+      Jérusalem (à l'exclusion du Ḥaram al-Sharīf, qui resta
+      musulman et ouvert au culte musulman), Bethléem,
+      Nazareth et un couloir vers la côte au royaume croisé de
+      Jérusalem pour une trêve renouvelable de dix ans. Le
+      Ḥaram — Dôme du Rocher et al-Aqṣā — resta musulman et
+      ouvert au culte musulman par les termes explicites du
+      traité. L'accord souleva une tempête de critiques
+      publiques à Damas et à Alep : le prédicateur damascène
+      Sibṭ Ibn al-Jawzī prononça un célèbre sermon de deuil à
+      la mosquée des Omeyyades, et le propre frère d'al-Kāmil
+      al-Ashraf à Damas condamna la cession. Frédéric se
+      couronna roi de Jérusalem au Saint-Sépulcre dix-huit
+      jours plus tard — sous excommunication papale
+      simultanée, sans clergé latin présent, dans une
+      cérémonie de sa propre composition. Jérusalem resta aux
+      mains croisées pendant quinze ans jusqu'au sac
+      khwārazmien de 642 H; le traité de Jaffa est le seul
+      transfert majeur de Jérusalem de l'ère croisée réalisé
+      par la diplomatie plutôt que par les armes. Ibn al-Athīr
+      — vivant lors de la signature du traité — et Ibn Kathīr
+      enregistrent tous deux le règlement et le deuil public
+      à Damas.
+    canonical_hijri: {year: 626, month: 5, day: 20, precision: day}
+    canonical_gregorian: {date: 1229-02-18, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr — contemporary to the events — enters the conclusion of the truce in Rabīʿ al-Awwal 626 AH and details the cession of Jerusalem and the public reaction."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms the treaty in 626 AH and Sibṭ Ibn al-Jawzī's mourning sermon at Damascus."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the cession of Jerusalem under the events of 626 AH."
+      - source_key: ei2
+        notes: "EI² 'al-Kāmil' confirms the date of the treaty as 18 February 1229 (Rabīʿ al-Awwal 626 AH)."
+    tags: [ayyubid, crusades, sixth-crusade, jerusalem, treaty, diplomacy, frederick-ii]
+    importance: major
+    verified: true
+    verification_status: cross_verified

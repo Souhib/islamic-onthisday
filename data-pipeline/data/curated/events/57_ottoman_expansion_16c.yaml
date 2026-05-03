@@ -1,0 +1,957 @@
+# Wave 57 of curated event additions (2026-04-27).
+# Ottoman political-military milestones, 15th–16th centuries: conquests
+# under Mehmed II (Trebizond, Karaman, Otranto, loss of Otranto), Selim I
+# (Damascus, Cairo entry, custody of the Ḥaramayn), and Süleyman the
+# Magnificent (Belgrade, Rhodes, Malta), plus Ottoman recovery of Tunis
+# from the Spanish (982 AH/1574) and the great Ottoman treaties of Amasya
+# (962 AH/1555 with the Safavids) and Zsitvatorok (1015 AH/1606 with the
+# Habsburgs). Already covered and intentionally not duplicated: fall of
+# Constantinople (1453), Battle of Çaldīrān (1514), Battle of Marj Dābiq
+# (1516), Battle of Raydāniyya (1517), siege of Vienna (1529), Battle of
+# Mohács (1526), Battle of Lepanto (1571), conquest of Cyprus (1571),
+# Treaty of Karlowitz (1699). Sources used are limited to those present in
+# sources.yaml; for post-classical Ottoman material the principal anchors
+# are Ibn al-ʿImād's *Shadharāt al-Dhahab* (year-by-year chronicle through
+# 1000 AH) and the *Encyclopaedia of Islam* second edition; the editorial
+# compilation key cross-checks attested Gregorian dates against standard
+# Ottoman scholarship (Inalcık, Imber, Finkel). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # MEHMED II — POST-CONSTANTINOPLE CONQUESTS
+  # =========================================================================
+
+  - slug: ottoman-conquest-of-trebizond
+    category: conquest
+    title_en: Ottoman Conquest of Trebizond — End of the Last Greek Empire
+    title_ar: الفتح العثماني لطرابزون — نهاية آخر إمبراطورية بيزنطية
+    title_fr: Conquête ottomane de Trébizonde — fin du dernier empire grec
+    description_en: |
+      Sultan Meḥmed II al-Fātiḥ accepted the surrender of the Empire
+      of Trebizond on the south-eastern shore of the Black Sea, ending
+      the last Greek-speaking Christian polity that had survived the
+      fall of Constantinople eight years earlier. The Komnenos
+      emperor David capitulated after a three-week siege by an
+      Ottoman army that had marched overland through Anatolia in
+      coordination with a fleet under Admiral Kasım Pasha. Mehmed
+      took David and his sons to Edirne; David was executed two
+      years later on suspicion of correspondence with the Aqqoyunlu
+      ruler Uzun Ḥasan, who had married a Komnenos princess. The
+      annexation completed the Ottoman absorption of the eastern
+      Black Sea littoral and gave the empire control of the
+      Trabzon–Tabrīz silk-route terminus, a commercial hinterland
+      that would feed the imperial treasury for the next century.
+    description_ar: |
+      قبل السلطان محمد الفاتح استسلام إمبراطورية طرابزون على
+      الساحل الجنوبي الشرقي للبحر الأسود، فأنهى بذلك آخر دولة
+      مسيحية يونانية بقيت بعد فتح القسطنطينية بثماني سنين. سلَّم
+      الإمبراطور القومنيني داود المدينةَ بعد حصار ثلاثة أسابيع
+      ضربه جيش عثماني عبر الأناضول برّاً بالتنسيق مع أسطول قاده
+      الأميرال قاسم باشا. أخذ السلطان داود وأبناءه إلى أدرنة،
+      ثم أعدمه بعد سنتين بتهمة مكاتبة حاكم الآق قويونلو أوزون
+      حسن — الذي كان متزوجاً من أميرة قومنينية. وأكمل الضمُّ
+      ابتلاع الدولة العثمانية لسواحل البحر الأسود الشرقية،
+      وأعطاها السيطرة على نقطة وصول طريق الحرير من تبريز إلى
+      طرابزون، وهي رقعة تجارية أمدّت الخزينة الإمبراطورية بمواردها
+      طوال قرن من الزمان.
+    description_fr: |
+      Le sultan Meḥmed II al-Fātiḥ accepta la capitulation de
+      l'empire de Trébizonde, sur la rive sud-est de la mer Noire,
+      mettant fin au dernier État chrétien grécophone ayant survécu
+      à la chute de Constantinople huit ans plus tôt. L'empereur
+      Comnène David capitula après trois semaines de siège conduit
+      par une armée ottomane ayant traversé l'Anatolie par voie de
+      terre, en coordination avec une flotte commandée par
+      l'amiral Kasım Pasha. Meḥmed emmena David et ses fils à
+      Édirne; David fut exécuté deux ans plus tard, soupçonné
+      d'entretenir une correspondance avec le souverain Aqqoyunlu
+      Uzun Ḥasan, qui avait épousé une princesse Comnène.
+      L'annexion acheva l'absorption ottomane du littoral
+      oriental de la mer Noire et donna à l'empire la maîtrise du
+      terminus de la route de la soie reliant Tabrīz à Trabzon —
+      arrière-pays commercial qui alimenta le trésor impérial
+      pendant tout le siècle suivant.
+    canonical_hijri: {year: 865, month: 10, precision: month}
+    canonical_gregorian: {date: 1461-08-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Ṭarābzūn' (Trebizond) gives the surrender of David Komnenos to Mehmed II in mid-August 1461 (Dhū al-Qaʿda 865 AH) after a three-week siege."
+      - source_key: editorial
+        notes: "Cross-checked against standard Ottoman historiography (Imber, *The Ottoman Empire 1300–1650*; Inalcık, *The Ottoman Empire: The Classical Age*) which attest the surrender to 15 August 1461."
+    people: [[mehmed-ii, leader]]
+    tags: [ottoman, mehmed-ii, conquest, trebizond, black-sea, byzantine]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: ottoman-annexation-of-karaman
+    category: conquest
+    title_en: Ottoman Annexation of the Karaman Beylik — Konya Falls to Mehmed II
+    title_ar: ضم الدولة العثمانية لإمارة قرامان — سقوط قونية بيد محمد الفاتح
+    title_fr: Annexion ottomane du beylicat de Karaman — Konya tombe aux mains de Meḥmed II
+    description_en: |
+      Sultan Meḥmed II al-Fātiḥ ended the independence of the
+      Qaramanid (Karamanoğlu) beylik in central Anatolia, taking
+      its capital Konya — the former seat of the Seljuks of Rūm
+      and the city in which Mawlānā Jalāl al-Dīn Rūmī had been
+      buried two centuries earlier. The Karamanids had been the
+      most persistent Anatolian rivals of the early Ottomans,
+      repeatedly raiding Ottoman territory whenever the sultans
+      campaigned in the Balkans. Mehmed's grand vizier Mahmud
+      Pasha occupied Konya without significant resistance after
+      the death of the Karamanid Bey Ibrāhīm; subsequent revolts
+      under Ibrāhīm's sons were crushed and the territory was
+      organised as a regular Ottoman *eyālet* (province), with the
+      Mevlevī shrine at Konya brought under Ottoman patronage.
+      The annexation gave the Ottomans direct control of the
+      central Anatolian plateau and removed the last serious
+      Turkic rival to the Ottoman house in Asia Minor.
+    description_ar: |
+      أنهى السلطان محمد الفاتح استقلال إمارة قرامان (آل قراماني)
+      في وسط الأناضول وفتح عاصمتها قونية — مقرَّ سلاجقة الروم
+      قديماً، والمدينة التي دُفن فيها مولانا جلال الدين الرومي
+      قبل قرنين. كان آل قراماني أعنفَ المنافسين الأناضوليين
+      للدولة العثمانية في أيامها الأولى؛ يغزون أراضيها كلما رحل
+      السلاطين إلى البلقان. دخل الصدر الأعظم محمود باشا قونيةَ
+      بلا مقاومة كبيرة بعد وفاة بك قرامان إبراهيم، ثم أُخمدت
+      ثورات بنيه، ونُظِّمت البلاد ولايةً عثمانية، وانتقلت رعاية
+      دار المولوية في قونية إلى السلطنة العثمانية. وأعطى الضمُّ
+      العثمانيين سيطرةً مباشرة على هضبة الأناضول الوسطى،
+      وأزاح آخر منافس تركي جدّيّ لبيت عثمان في آسيا الصغرى.
+    description_fr: |
+      Le sultan Meḥmed II al-Fātiḥ mit fin à l'indépendance du
+      beylicat qaramanide (Karamanoğlu) en Anatolie centrale en
+      s'emparant de sa capitale Konya — ancien siège des Seldjoukides
+      de Rūm et ville où Mawlānā Jalāl al-Dīn Rūmī avait été
+      enseveli deux siècles plus tôt. Les Karamanides avaient été
+      les rivaux anatoliens les plus tenaces des premiers Ottomans,
+      pillant régulièrement le territoire ottoman dès que les
+      sultans s'engageaient dans les Balkans. Le grand vizir
+      Mahmud Pasha occupa Konya sans résistance notable après la
+      mort du bey karamanide Ibrāhīm; les révoltes des fils
+      d'Ibrāhīm furent ensuite écrasées et le territoire organisé
+      en *eyālet* (province) ottoman régulier, le sanctuaire
+      mevlevî de Konya passant sous patronage ottoman. L'annexion
+      donna aux Ottomans la maîtrise directe du plateau anatolien
+      central et écarta le dernier rival turc sérieux de la maison
+      d'Osman en Asie Mineure.
+    canonical_hijri: {year: 873, precision: year}
+    canonical_gregorian: {date: 1468-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 articles 'Ḳaramān-oghullari' and 'Konya' place the Ottoman capture of Konya and the formal annexation of the Qaramanid beylik in 873 AH (1468 CE), under Mahmud Pasha's vizirate, with mopping-up campaigns continuing into 875–880 AH."
+      - source_key: editorial
+        notes: "Cross-checked against Imber, *The Ottoman Empire 1300–1650*, ch. 1, and Inalcık, *The Ottoman Empire: The Classical Age*, which date the fall of Konya and end of independent Karamanid rule to 1468."
+    people: [[mehmed-ii, leader]]
+    tags: [ottoman, mehmed-ii, conquest, karaman, konya, anatolia, beylik]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: ottoman-conquest-of-otranto
+    category: conquest
+    title_en: Ottoman Conquest of Otranto — Briefly Establishing a Foothold in Italy
+    title_ar: الفتح العثماني لأوترانتو — موطئ قدم قصير في إيطاليا
+    title_fr: Conquête ottomane d'Otrante — un bref ancrage en Italie
+    description_en: |
+      An Ottoman expeditionary force under Gedik Ahmed Pasha,
+      commander of the imperial fleet, crossed the strait of
+      Otranto from Albanian Vlorë and seized the south-Italian
+      port city of Otranto on the heel of the Italian peninsula.
+      The garrison and a substantial part of the male population
+      were killed; survivors who refused conversion were executed
+      on the *Colle della Minerva* outside the walls and are
+      venerated by the Catholic Church as the "Martyrs of
+      Otranto." The capture sent shockwaves through Italian
+      Christendom — Pope Sixtus IV considered abandoning Rome —
+      and represented the only Ottoman foothold ever established
+      on the Italian peninsula. Sultan Meḥmed II intended Otranto
+      as a beachhead for a wider Italian campaign aimed at Rome
+      itself, but his death the following year halted the project.
+    description_ar: |
+      عبرت قوة عثمانية بقيادة كديك أحمد باشا أمير البحر مضيقَ
+      أوترانتو من ميناء ولونة في ألبانيا، فأخذت مدينة أوترانتو
+      الإيطالية الجنوبية في «كعب» شبه الجزيرة الإيطالية. قُتل
+      الحاميةُ وقسم كبير من رجال المدينة، وأُعدم من رفض من
+      الناجين الإسلامَ على «تلة منيرفا» خارج الأسوار، وتعظِّمهم
+      الكنيسة الكاثوليكية «شهداء أوترانتو». أحدث الفتح زلزالاً
+      في الأوساط المسيحية الإيطالية — فكَّر البابا سيكستوس الرابع
+      في الانسحاب من رومة — وكان موطئَ القدم الوحيد الذي أرساه
+      العثمانيون قطّ على شبه الجزيرة الإيطالية. وكان السلطان
+      محمد الفاتح يقصد جعل أوترانتو رأس جسر لحملة إيطالية أوسع
+      تقصد رومة نفسها، لكنّ وفاته في السنة التالية وقفت دون
+      إتمام المشروع.
+    description_fr: |
+      Un corps expéditionnaire ottoman commandé par Gedik Ahmed
+      Pasha, capitan-pacha de la flotte impériale, traversa le
+      détroit d'Otrante depuis Vlorë en Albanie et s'empara de la
+      ville-port d'Otrante, dans le talon de la péninsule
+      italienne. La garnison et une grande partie de la population
+      masculine furent tuées; les survivants qui refusèrent de se
+      convertir furent exécutés sur le *Colle della Minerva* hors
+      les murs, et sont vénérés par l'Église catholique comme les
+      « martyrs d'Otrante ». La prise produisit un séisme dans la
+      chrétienté italienne — le pape Sixte IV envisagea
+      d'abandonner Rome — et constitua l'unique tête de pont
+      jamais établie par les Ottomans en Italie péninsulaire. Le
+      sultan Meḥmed II destinait Otrante à servir de pied à terre
+      pour une campagne italienne plus large visant Rome
+      elle-même, mais sa mort l'année suivante arrêta le projet.
+    canonical_hijri: {year: 885, month: 5, day: 25, precision: day}
+    canonical_gregorian: {date: 1480-08-11, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Otranto' gives the capture of the city to Gedik Ahmed Pasha on 11 August 1480 (Jumādā I 885 AH)."
+      - source_key: editorial
+        notes: "Cross-checked against Inalcık, *The Ottoman Empire: The Classical Age*, and Finkel, *Osman's Dream*, which both attest 11 August 1480."
+    people: [[mehmed-ii, ruler]]
+    tags: [ottoman, mehmed-ii, conquest, otranto, italy, mediterranean]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: ottoman-loss-of-otranto
+    category: political_event
+    title_en: Ottoman Loss of Otranto — Bāyezīd II Withdraws from Italy
+    title_ar: خروج العثمانيين من أوترانتو — انسحاب بايزيد الثاني من إيطاليا
+    title_fr: Perte ottomane d'Otrante — Bāyezīd II se retire d'Italie
+    description_en: |
+      The Ottoman garrison at Otranto, isolated by the death of
+      Sultan Meḥmed II in Rabīʿ al-Awwal 886 AH (May 1481) and
+      the succession war between his sons Bāyezīd and Cem,
+      surrendered the city to a combined Aragonese-papal-Hungarian
+      relief force under Alfonso of Aragon, the Duke of Calabria.
+      The new sultan Bāyezīd II, preoccupied with consolidating
+      his throne against his brother Cem who had fled to the
+      Knights Hospitaller of Rhodes, made no attempt to reinforce
+      the bridgehead. Otranto had been in Ottoman hands for
+      thirteen months; its loss closed the only window in which
+      the Ottomans ever projected territorial power onto the
+      Italian peninsula. The episode is recorded by EI2 and
+      stands as the limit of the westward expansion that Mehmed
+      II's death cut short.
+    description_ar: |
+      استسلمت الحامية العثمانية في أوترانتو — بعد أن عزلتها
+      وفاة السلطان محمد الفاتح في ربيع الأول سنة ٨٨٦ هـ (مايو
+      ١٤٨١ م) وحرب الخلافة بين ولديه بايزيد وجم — لقوة إغاثة
+      مشتركة من أراغون والبابا والمجر بقيادة ألفونسو ملك أراغون
+      دوق كالابريا. أما السلطان بايزيد الثاني فقد كان مشغولاً
+      بتثبيت عرشه في وجه أخيه جم الذي لجأ إلى فرسان الإسبتارية
+      في رودس، فلم يحاول إنجاد رأس الجسر. ظلت أوترانتو في يد
+      العثمانيين ثلاثة عشر شهراً؛ وأقفل خروجهم منها النافذةَ
+      الوحيدة التي بسطوا فيها سلطانهم على شبه الجزيرة الإيطالية.
+      ودوّنت دائرة المعارف الإسلامية الواقعةَ بوصفها حدّ التوسع
+      الغربي العثماني الذي قضت عليه وفاة محمد الفاتح المبكرة.
+    description_fr: |
+      La garnison ottomane d'Otrante — isolée par la mort du
+      sultan Meḥmed II en Rabīʿ I 886 H (mai 1481) et par la
+      guerre de succession entre ses fils Bāyezīd et Cem — capitula
+      face à une force de secours combinée aragono-pontificale-
+      hongroise commandée par Alphonse d'Aragon, duc de Calabre.
+      Le nouveau sultan Bāyezīd II, occupé à consolider son trône
+      contre son frère Cem réfugié auprès des chevaliers
+      hospitaliers de Rhodes, ne fit aucune tentative pour
+      renforcer la tête de pont. Otrante demeura aux mains
+      ottomanes treize mois; sa perte ferma la seule fenêtre où
+      les Ottomans projetèrent leur puissance territoriale sur la
+      péninsule italienne. L'épisode est rapporté par l'*EI*
+      seconde édition comme la limite de l'expansion vers
+      l'ouest que la mort prématurée de Meḥmed II avait
+      interrompue.
+    canonical_hijri: {year: 886, month: 7, precision: month}
+    canonical_gregorian: {date: 1481-09-01, precision: month, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Otranto' dates the surrender of the Ottoman garrison to early September 1481 (Rajab 886 AH), thirteen months after the city's capture."
+      - source_key: editorial
+        notes: "Cross-checked against Imber and Finkel, both of whom attest the loss to autumn 1481, conditioned on the succession war between Bāyezīd II and Cem."
+    people: [[bayezid-ii, ruler]]
+    tags: [ottoman, bayezid-ii, otranto, italy, withdrawal, succession]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SELIM I — CONQUEST OF MAMLUK SYRIA, EGYPT, AND THE ḤARAMAYN
+  # =========================================================================
+
+  - slug: ottoman-conquest-of-damascus-1516
+    category: conquest
+    title_en: Ottoman Conquest of Damascus — Selim I Enters the Mamluk Capital of Syria
+    title_ar: الفتح العثماني لدمشق سنة ٩٢٢ — دخول سليم الأول عاصمة الشام المملوكية
+    title_fr: Conquête ottomane de Damas — Selim Ier entre dans la capitale mamelouke de Syrie
+    description_en: |
+      Three weeks after his decisive victory at Marj Dābiq north
+      of Aleppo (25 Rajab 922 AH / 24 August 1516), where the
+      Mamluk sultan Qānṣawh al-Ghawrī was killed, Sultan Selim I
+      entered Damascus unopposed. The Mamluk garrison had melted
+      away; the city's notables — led by the qadi Walī al-Dīn ibn
+      al-Farfūr — submitted formally and the Friday *khuṭba* the
+      following week was read in Selim's name. Selim spent
+      nearly three months in Damascus organising the new Ottoman
+      administration of bilād al-Shām, and personally visited the
+      tomb of Ibn ʿArabī at Ṣāliḥiyya, ordering the construction
+      of the still-standing Salīmiyya mosque-complex over the
+      grave. The conquest folded Damascus, the Mamluk capital of
+      Syria for two and a half centuries, into the Ottoman state
+      and prepared the road south to Egypt.
+    description_ar: |
+      دخل السلطان سليم الأول دمشقَ بعد ثلاثة أسابيع من نصره
+      الحاسم في مرج دابق شمالي حلب (٢٥ رجب سنة ٩٢٢ هـ / ٢٤
+      أغسطس ١٥١٦ م) حيث قُتل السلطان المملوكي قانصوه الغوري.
+      وكانت حامية المدينة المملوكية قد تفرَّقت؛ وأسلم أعيانها —
+      على رأسهم القاضي ولي الدين بن الفرفور — المدينةَ تسليماً
+      رسمياً، فقُرئت خطبة الجمعة في الأسبوع التالي باسم سليم.
+      أقام السلطان في دمشق ثلاثة أشهر تقريباً ينظِّم إدارة
+      ولاية الشام العثمانية الجديدة، وزار قبر الشيخ محيي الدين
+      ابن عربي في الصالحية وأمر ببناء جامع السليمية ومجمعه
+      الذي لا يزال قائماً فوقه. وأدخل الفتحُ دمشقَ — عاصمة
+      الدولة المملوكية في الشام قرنين ونصف القرن — في الدولة
+      العثمانية ومهَّد الطريق إلى مصر جنوباً.
+    description_fr: |
+      Trois semaines après sa victoire décisive à Marj Dābiq, au
+      nord d'Alep (25 Rajab 922 H / 24 août 1516), où le sultan
+      mamelouk Qānṣawh al-Ghawrī fut tué, le sultan Selim Ier
+      entra dans Damas sans rencontrer de résistance. La garnison
+      mamelouke avait fondu; les notables de la ville — conduits
+      par le qadi Walī al-Dīn ibn al-Farfūr — firent leur
+      soumission, et le prêche du vendredi suivant fut prononcé
+      au nom de Selim. Le sultan demeura près de trois mois à
+      Damas pour organiser la nouvelle administration ottomane
+      du *bilād al-Shām*, et visita en personne la tombe d'Ibn
+      ʿArabī à Ṣāliḥiyya, ordonnant la construction du complexe-
+      mosquée Salīmiyya, encore debout, au-dessus du sépulcre.
+      La conquête intégra Damas — capitale mamelouke de Syrie
+      depuis deux siècles et demi — à l'État ottoman et ouvrit
+      la route du sud vers l'Égypte.
+    canonical_hijri: {year: 922, month: 8, day: 19, precision: day}
+    canonical_gregorian: {date: 1516-09-27, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under the events of 922 AH, narrates Selim's entry into Damascus following Marj Dābiq, the submission of Walī al-Dīn ibn al-Farfūr, and Selim's three-month stay organising Syria."
+      - source_key: ei2
+        notes: "EI2 articles 'Selīm I' and 'Dimashḳ' confirm Selim's entry on 27 September 1516 (Shaʿbān 922 AH) and the construction of the Salīmiyya complex."
+    people: [[selim-i, leader]]
+    tags: [ottoman, selim-i, mamluk, conquest, damascus, syria, sham]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: ottoman-entry-into-cairo
+    category: conquest
+    title_en: Ottoman Entry into Cairo — Selim I and the Fall of the Mamluk Sultanate
+    title_ar: دخول العثمانيين القاهرة — سليم الأول ونهاية دولة المماليك
+    title_fr: Entrée ottomane au Caire — Selim Ier et la chute du sultanat mamelouk
+    description_en: |
+      Three days after his victory at Raydāniyya north of Cairo
+      over the last Mamluk sultan Ṭūmān Bāy II (Wednesday 29
+      Dhū al-Ḥijja 922 AH / 22 January 1517), Sultan Selim I
+      entered Cairo on the Friday morning, riding from the
+      Raydāniyya camp through Bāb al-Naṣr to the main mosque.
+      Resistance continued for several weeks: Ṭūmān Bāy II,
+      having escaped the battlefield, organised street-fighting
+      in the Nile-island quarter and the western suburbs before
+      being captured and hanged at Bāb Zuwayla in Rabīʿ I 923
+      AH. The conquest ended 267 years of Mamluk rule over
+      Egypt, transferred the Abbasid caliphal claim from the
+      shadow caliph al-Mutawakkil III to the Ottoman house, and
+      reorganised Egypt as the wealthiest of Ottoman *eyālets*.
+      Ibn Iyās, present in Cairo throughout, gives the most
+      detailed contemporary account; subsequent classical
+      chronicles draw on him.
+    description_ar: |
+      دخل السلطان سليم الأول القاهرة صباح الجمعة بعد ثلاثة أيام
+      من انتصاره في الريدانية شمال القاهرة على آخر سلاطين
+      المماليك طومان باي الثاني (الأربعاء ٢٩ ذي الحجة سنة ٩٢٢
+      هـ / ٢٢ يناير ١٥١٧ م)؛ سار من معسكر الريدانية ودخل من
+      باب النصر إلى الجامع الأكبر. واستمرت المقاومة بضعة أسابيع:
+      نظَّم طومان باي الثاني — وقد أفلت من ميدان المعركة —
+      حرباً في شوارع جزيرة النيل والضواحي الغربية حتى أُسر
+      وأُعدم على باب زويلة في ربيع الأول سنة ٩٢٣ هـ. أنهى
+      الفتحُ مئتين وسبعاً وستين سنة من حكم المماليك على مصر،
+      ونقل دعوى الخلافة العباسية من خليفة الظل المتوكل الثالث
+      إلى البيت العثماني، وأعاد تنظيم مصر بوصفها أغنى الولايات
+      العثمانية. ويُعطي ابن إياس — وهو حاضر في القاهرة طوال
+      الواقعة — أوفى ما كُتب عنها في زمنها؛ وعليه استند من
+      جاء بعده من المؤرخين.
+    description_fr: |
+      Trois jours après sa victoire à Raydāniyya au nord du
+      Caire sur le dernier sultan mamelouk Ṭūmān Bāy II
+      (mercredi 29 Dhū al-Ḥijja 922 H / 22 janvier 1517), le
+      sultan Selim Ier entra au Caire le vendredi matin,
+      chevauchant depuis le camp de Raydāniyya par la porte de
+      Bāb al-Naṣr jusqu'à la grande mosquée. La résistance se
+      prolongea plusieurs semaines : Ṭūmān Bāy II, ayant
+      échappé au champ de bataille, organisa le combat de rue
+      dans les quartiers de l'île du Nil et les faubourgs ouest
+      avant d'être capturé et pendu à Bāb Zuwayla en Rabīʿ I
+      923 H. La conquête mit fin à 267 ans de domination
+      mamelouke sur l'Égypte, transféra la prétention califale
+      abbasside du calife-fantôme al-Mutawakkil III à la maison
+      ottomane, et réorganisa l'Égypte en *eyālet* le plus
+      riche de l'empire ottoman. Ibn Iyās, présent au Caire
+      durant toute la séquence, en fournit le récit
+      contemporain le plus détaillé; les chroniques classiques
+      ultérieures s'appuient sur lui.
+    canonical_hijri: {year: 922, month: 12, day: 22, precision: day}
+    canonical_gregorian: {date: 1517-01-26, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under the events of 922 AH, records Selim's entry into Cairo three days after Raydāniyya and the subsequent capture and execution of Ṭūmān Bāy II at Bāb Zuwayla in Rabīʿ I 923."
+      - source_key: ei2
+        notes: "EI2 articles 'Selīm I' and 'Miṣr' confirm Selim's entry on 26 January 1517 and reproduce Ibn Iyās's contemporary account."
+      - source_key: editorial
+        notes: "Note: distinct from the Battle of Raydāniyya (already in the dataset, 22 Jan 1517) — this entry covers the entry into the city itself three days later."
+    people: [[selim-i, leader]]
+    tags: [ottoman, selim-i, mamluk, conquest, cairo, egypt, caliphate-transfer]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: ottoman-custody-of-the-haramayn
+    category: political_event
+    title_en: Selim I Receives the Keys of Makkah and Madīnah — Beginning of Ottoman Custody of the Two Sanctuaries
+    title_ar: تسلُّم سليم الأول مفاتيح الحرمين — بداية الحماية العثمانية للحرمين الشريفين
+    title_fr: Selim Ier reçoit les clés de La Mecque et de Médine — début de la garde ottomane des deux Sanctuaires
+    description_en: |
+      In Cairo in the months following the conquest of Egypt,
+      Sultan Selim I received the keys of the Kaʿba and the
+      Prophet's mosque from envoys of the Sharīf Barakāt II of
+      Makkah, who submitted to Ottoman sovereignty without
+      resistance. Selim adopted the title *Khādim al-Ḥaramayn
+      al-Sharīfayn* — "Servant of the Two Noble Sanctuaries" —
+      replacing the older Mamluk-era title *Mālik al-Ḥaramayn*
+      ("Master of the Two Sanctuaries"), which the new sultan
+      reportedly rejected as presumptuous: only Allah is *mālik*,
+      while the sultan's role is service. The Sharīfate of
+      Makkah retained internal autonomy over the Hijaz under
+      Ottoman suzerainty, while the Egyptian *maḥmal* and the
+      annual subsidy (the *ṣurra*) for the Two Sanctuaries
+      transferred from Cairo to Istanbul. The arrangement
+      structured Ottoman religious legitimacy for the next four
+      centuries; the title *Khādim al-Ḥaramayn* would be cited
+      on every subsequent sultan's coinage and *khuṭba* down to
+      the abolition of the caliphate in 1924.
+    description_ar: |
+      تسلَّم السلطان سليم الأول في القاهرة في الأشهر التي تلت
+      فتح مصر مفاتيحَ الكعبة المعظمة والمسجد النبوي من رُسل
+      الشريف بركات الثاني شريف مكة، الذي أعطى الطاعة للدولة
+      العثمانية من غير قتال. واتخذ سليم لقب «خادم الحرمين
+      الشريفين» بدلاً من لقب «مالك الحرمين» الذي كان حكام
+      المماليك يحملونه؛ ورُوي أنه ردَّ هذا اللقب لأن المالك
+      الحقيقي هو الله وحده، وأن دور السلطان خدمةٌ. أبقى
+      السلاطين العثمانيون على شرافة مكة بحكمٍ ذاتي داخلي على
+      الحجاز تحت السيادة العثمانية، وانتقلت محمل الحج المصري
+      وصُرَّة الحرمين السنوية من القاهرة إلى الآستانة. وكان
+      هذا التنظيم إطار الشرعية الدينية للدولة العثمانية أربعة
+      قرون لاحقة؛ وحمل لقب «خادم الحرمين» سكُّ كل سلطان
+      بعدها وخطبة جمعته إلى أن أُلغيت الخلافة سنة ١٩٢٤ م.
+    description_fr: |
+      Au Caire, dans les mois qui suivirent la conquête de
+      l'Égypte, le sultan Selim Ier reçut les clés de la Kaʿba
+      et de la mosquée du Prophète des envoyés du chérif Barakāt
+      II de La Mecque, qui se soumit à la souveraineté ottomane
+      sans résistance. Selim adopta le titre de *Khādim
+      al-Ḥaramayn al-Sharīfayn* — « Serviteur des deux
+      Sanctuaires nobles » — en remplacement de l'ancien titre
+      mamelouk *Mālik al-Ḥaramayn* (« Maître des deux
+      Sanctuaires »), que le nouveau sultan aurait refusé comme
+      présomptueux : seul Allāh est *mālik*, et le rôle du
+      sultan est service. Le chérifat de La Mecque conserva son
+      autonomie interne sur le Hijaz sous suzeraineté ottomane,
+      tandis que le *maḥmal* égyptien et la subvention annuelle
+      (la *ṣurra*) des deux Sanctuaires furent transférés du
+      Caire à Istanbul. Cet arrangement structura la légitimité
+      religieuse ottomane pour les quatre siècles suivants; le
+      titre *Khādim al-Ḥaramayn* figurerait sur les monnaies et
+      dans la khutba de chaque sultan postérieur jusqu'à
+      l'abolition du califat en 1924.
+    canonical_hijri: {year: 923, month: 6, precision: month}
+    canonical_gregorian: {date: 1517-07-01, precision: month, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under the events of 923 AH, records the submission of Sharīf Barakāt II of Makkah and Selim's reception of the keys of the Two Sanctuaries in Cairo."
+      - source_key: ei2
+        notes: "EI2 articles 'Selīm I,' 'al-Ḥaramayn,' and 'Makka' confirm the transfer of the Egyptian *ṣurra* and *maḥmal* arrangements to Ottoman administration in mid-923 AH and Selim's adoption of *Khādim al-Ḥaramayn al-Sharīfayn*."
+    people: [[selim-i, leader]]
+    tags: [ottoman, selim-i, haramayn, mecca, medina, hijaz, caliphate, khadim-al-haramayn]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SÜLEYMAN THE MAGNIFICENT — DANUBE AND MEDITERRANEAN CAMPAIGNS
+  # =========================================================================
+
+  - slug: ottoman-conquest-of-belgrade-1521
+    category: siege
+    title_en: Süleyman's Conquest of Belgrade — The Gate of Hungary Falls
+    title_ar: فتح سليمان القانوني لبلغراد — سقوط بوابة المجر
+    title_fr: Conquête de Belgrade par Soliman — la porte de la Hongrie tombe
+    description_en: |
+      In the first major campaign of his reign, Sultan Süleymān
+      I al-Qānūnī took the Hungarian-held fortress of Belgrade
+      (Beograd, *Beligrad* in Ottoman) at the confluence of the
+      Sava and the Danube, the strongpoint that had repelled
+      Sultan Murād II in 1440 and Mehmed II in 1456. The
+      Ottoman army of perhaps 100,000, supported by a Danubian
+      flotilla, invested the city in mid-Shaʿbān 927 AH; the
+      lower town fell in late Shaʿbān, and the upper citadel
+      surrendered after sappers brought down a stretch of wall
+      with mining and artillery. Süleymān entered the city for
+      Friday prayer on the day after its fall, converting the
+      cathedral of the Theotokos into a mosque. The capture
+      gave the Ottomans control of the Danube above its
+      confluence with the Sava and opened the Hungarian plain
+      to the campaign that would culminate at Mohács five years
+      later. EI2 and standard Ottoman scholarship agree on the
+      date of surrender as 25 Ramaḍān 927 AH (29 August 1521).
+    description_ar: |
+      في أوّل حملاته الكبرى أخذ السلطان سليمان القانوني قلعةَ
+      بلغراد المجرية (بلجراد، «بلغراد» بالعثمانية) على ملتقى
+      نهري السافا والدانوب — وهي الحصن الذي صمد أمام السلطان
+      مراد الثاني سنة ٨٤٤ هـ والسلطان محمد الفاتح سنة ٨٦٠ هـ.
+      ضرب الجيش العثماني الذي يقرب من مئة ألف مقاتل، مع أسطول
+      نهري دانوبي، الحصارَ على المدينة في منتصف شعبان سنة ٩٢٧
+      هـ، فسقطت المدينة السفلى في أواخر شعبان، واستسلمت القلعة
+      العليا بعد أن أسقط المهندسون فاصلاً من السور بالألغام
+      والمدفعية. ودخل السلطان سليمان المدينةَ لصلاة الجمعة في
+      اليوم التالي للسقوط، وحوَّل كاتدرائية والدة الإله
+      مسجداً. أعطى الفتحُ العثمانيين السيطرةَ على الدانوب فوق
+      ملتقاه بالسافا وفتح سهل المجر للحملة التي توّجت بمعركة
+      موهاج بعد خمس سنين. ودائرة المعارف الإسلامية والمراجع
+      العثمانية المعتبرة متفقة على أن تاريخ الاستسلام هو ٢٥
+      رمضان ٩٢٧ هـ الموافق ٢٩ أغسطس ١٥٢١ م.
+    description_fr: |
+      Dans la première grande campagne de son règne, le sultan
+      Soliman Ier al-Qānūnī s'empara de la forteresse hongroise
+      de Belgrade (*Beligrad* en ottoman) au confluent de la
+      Sava et du Danube — place forte qui avait repoussé le
+      sultan Murād II en 1440 et Meḥmed II en 1456. L'armée
+      ottomane, forte de quelque cent mille hommes appuyés par
+      une flottille danubienne, investit la ville à la mi-
+      Shaʿbān 927 H; la ville basse tomba fin Shaʿbān et la
+      citadelle haute capitula après que les sapeurs eurent
+      abattu une portion de muraille au moyen de mines et
+      d'artillerie. Soliman entra dans la ville pour la prière
+      du vendredi le lendemain de sa chute, convertissant la
+      cathédrale de la *Theotokos* en mosquée. La prise donna
+      aux Ottomans le contrôle du Danube en amont de son
+      confluent avec la Sava et ouvrit la plaine hongroise à la
+      campagne qui culminerait à Mohács cinq ans plus tard.
+      L'*EI* seconde édition et l'historiographie ottomane
+      standard datent la reddition au 25 Ramaḍān 927 H (29 août
+      1521).
+    canonical_hijri: {year: 927, month: 9, day: 25, precision: day}
+    canonical_gregorian: {date: 1521-08-29, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under 927 AH, records Süleymān's investiture of Belgrade and its fall in Ramaḍān of that year."
+      - source_key: ei2
+        notes: "EI2 article 'Belgrad' gives the surrender of the citadel on 29 August 1521 (25 Ramaḍān 927 AH) and the conversion of the cathedral to a mosque."
+      - source_key: editorial
+        notes: "Cross-checked against Imber, Inalcık, and Finkel; all attest the same date."
+    people: [[suleiman-the-magnificent, leader]]
+    tags: [ottoman, suleiman, conquest, belgrade, hungary, danube]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: ottoman-siege-of-rhodes-1522
+    category: siege
+    title_en: Siege of Rhodes — Süleyman Expels the Knights Hospitaller
+    title_ar: حصار رودس سنة ٩٢٩ — سليمان يطرد فرسان الإسبتارية
+    title_fr: Siège de Rhodes — Soliman chasse les chevaliers hospitaliers
+    description_en: |
+      Sultan Süleymān I al-Qānūnī ended the 213-year occupation
+      of the island of Rhodes by the Knights Hospitaller of St
+      John, the last surviving Crusader military order, who had
+      held the island since 1310 CE and used it as a base from
+      which to harry Muslim shipping in the eastern
+      Mediterranean. The Ottoman siege ran from 4 Shawwāl 928
+      AH (28 July 1522) through 5 Ṣafar 929 AH (24 December
+      1522) — six months of mining, bombardment, and assault on
+      a fortress widely held to be the strongest of its day,
+      defended by Grand Master Philippe Villiers de l'Isle-Adam
+      and some 7,000 knights and Greek troops. The Ottoman army
+      suffered heavy casualties — perhaps 25,000 dead — but the
+      garrison capitulated on honourable terms: the surviving
+      knights were allowed to depart with their arms and
+      relics. They eventually settled on Malta, which they
+      would defend against the Ottomans in 973 AH (1565). The
+      conquest cleared the eastern Mediterranean of Christian
+      naval bases and made Süleymān master of the sea-route
+      between Istanbul and Alexandria.
+    description_ar: |
+      أنهى السلطان سليمان القانوني احتلال فرسان القديس يوحنا
+      الإسبتاريين — آخر النظم الصليبية العسكرية الباقية —
+      لجزيرة رودس الذي دام مئتين وثلاث عشرة سنة، إذ ظلّت
+      الجزيرة في أيديهم منذ سنة ٧١٠ هـ يستخدمونها قاعدةً
+      للإغارة على الشحن الإسلامي في شرقي البحر المتوسط. ضُرب
+      الحصار العثماني من ٤ شوال سنة ٩٢٨ هـ (٢٨ يوليو ١٥٢٢ م)
+      إلى ٥ صفر سنة ٩٢٩ هـ (٢٤ ديسمبر ١٥٢٢ م) — ستة أشهر من
+      الألغام والقصف والاقتحام على حصن يُعدُّ أقوى حصون زمانه،
+      يدفع عنه الأخوّة الكبرى فيليب فيلييه دي ليل آدم وسبعة
+      آلاف من الفرسان والإغريق. خسر الجيش العثماني نحو خمسةً
+      وعشرين ألفاً، لكن الحامية استسلمت على شروط شريفة: سُمح
+      للفرسان الباقين بالخروج بسلاحهم وآثارهم. واستقروا
+      أخيراً في مالطة، حيث سيدافعون عنها في وجه العثمانيين
+      سنة ٩٧٣ هـ (١٥٦٥ م). نظَّف الفتحُ شرقي المتوسط من
+      القواعد البحرية المسيحية وجعل سليمان سيدَ خط البحر بين
+      الآستانة والإسكندرية.
+    description_fr: |
+      Le sultan Soliman Ier al-Qānūnī mit fin à l'occupation
+      vieille de 213 ans de l'île de Rhodes par les chevaliers
+      hospitaliers de Saint-Jean — dernier ordre militaire
+      croisé survivant — qui tenaient l'île depuis 1310 EC et
+      s'en servaient pour harceler la navigation musulmane en
+      Méditerranée orientale. Le siège ottoman dura du 4
+      Shawwāl 928 H (28 juillet 1522) au 5 Ṣafar 929 H (24
+      décembre 1522) — six mois de mines, de bombardement et
+      d'assaut contre une forteresse tenue pour la plus
+      puissante de son temps, défendue par le grand maître
+      Philippe Villiers de L'Isle-Adam et quelque sept mille
+      chevaliers et soldats grecs. L'armée ottomane subit des
+      pertes lourdes — peut-être vingt-cinq mille morts — mais
+      la garnison capitula à des conditions honorables: les
+      chevaliers survivants furent autorisés à partir avec
+      leurs armes et leurs reliques. Ils finirent par
+      s'établir à Malte, qu'ils défendraient contre les
+      Ottomans en 973 H (1565). La conquête débarrassa la
+      Méditerranée orientale des bases navales chrétiennes et
+      fit de Soliman le maître de la route maritime entre
+      Istanbul et Alexandrie.
+    canonical_hijri: {year: 929, month: 2, day: 5, precision: day}
+    canonical_gregorian: {date: 1522-12-24, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under 929 AH, records Süleymān's siege of Rhodes and the surrender of the Hospitallers in Ṣafar."
+      - source_key: ei2
+        notes: "EI2 article 'Rūdus' (Rhodes) attests the surrender on 24 December 1522 (5 Ṣafar 929 AH) and the honourable terms of departure for the Knights."
+      - source_key: editorial
+        notes: "Cross-checked against Imber and Finkel; both attest the same date."
+    people: [[suleiman-the-magnificent, leader]]
+    tags: [ottoman, suleiman, siege, rhodes, hospitallers, mediterranean]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: great-siege-of-malta-1565
+    category: siege
+    title_en: Great Siege of Malta — Ottoman Failure before the Knights Hospitaller
+    title_ar: حصار مالطة الكبير سنة ٩٧٣ — إخفاق العثمانيين أمام الإسبتارية
+    title_fr: Grand Siège de Malte — échec ottoman devant les chevaliers hospitaliers
+    description_en: |
+      Forty-three years after expelling the Knights Hospitaller
+      from Rhodes, Sultan Süleymān I dispatched a major
+      amphibious expedition under Muṣṭafā Pasha (army) and
+      Piyāle Pasha (fleet) to take their new island base of
+      Malta, with the corsair admiral Ṭurghud Re'īs (Dragut)
+      providing the seaborne expertise. The Ottoman force of
+      perhaps 30,000 men landed in Ramaḍān 972 AH (May 1565)
+      and besieged the small Hospitaller garrison of Grand
+      Master Jean Parisot de la Valette in the forts of St
+      Elmo, St Michael, and Birgu. St Elmo fell after a brutal
+      thirty-one-day defence in which Ṭurghud Re'īs himself was
+      killed by a stone splinter; the main forts held through
+      the high-summer heat. The arrival of a Spanish-Sicilian
+      relief force from Don García de Toledo in Rabīʿ I 973 AH
+      (early September 1565) compelled the Ottomans to lift the
+      siege, having lost perhaps a third of their men. The
+      defeat halted Ottoman expansion in the central
+      Mediterranean and saved the Hospitallers, who would
+      remain on Malta until Napoleon expelled them in 1798.
+    description_ar: |
+      بعد ثلاث وأربعين سنة من إخراج فرسان الإسبتارية من رودس،
+      أرسل السلطان سليمان القانوني حملة برمائية كبرى بقيادة
+      مصطفى باشا (للجيش) وبيالي باشا (للأسطول) لفتح قاعدتهم
+      الجزرية الجديدة في مالطة، بمعونة قائد البحر المغوار طرغد
+      ريّس (درغوط). نزلت القوة العثمانية البالغة قرابة ثلاثين
+      ألفاً في رمضان سنة ٩٧٢ هـ (مايو ١٥٦٥ م) وضربت الحصارَ
+      على حامية الأخوة الكبرى الفرنسي جان باريسو دي لا فاليت
+      في حصون «سانت إلمو» و«سانت ميخائيل» و«بيرغو». سقط حصن
+      «سانت إلمو» بعد دفاع عنيف دام إحدى وثلاثين يوماً قُتل
+      فيه طرغد ريس نفسه بشظية حجر، أما الحصون الكبرى فثبتت
+      تحت حرارة الصيف الشديدة. ولما وصلت قوة إنقاذ إسبانية-
+      صقلية بقيادة دون غارثيا دي توليدو في ربيع الأول سنة
+      ٩٧٣ هـ (مطلع سبتمبر ١٥٦٥ م) اضطُر العثمانيون إلى رفع
+      الحصار وقد فقدوا نحو ثلث رجالهم. أوقفت الهزيمةُ التوسّعَ
+      العثماني في وسط البحر المتوسط وأنقذت الإسبتاريةَ الذين
+      ظلّوا في مالطة إلى أن أخرجهم نابليون سنة ١٧٩٨ م.
+    description_fr: |
+      Quarante-trois ans après avoir chassé les chevaliers
+      hospitaliers de Rhodes, le sultan Soliman Ier dépêcha une
+      grande expédition amphibie commandée par Muṣṭafā Pasha
+      (armée) et Piyāle Pasha (flotte) pour s'emparer de leur
+      nouvelle base insulaire de Malte, avec l'amiral corsaire
+      Ṭurghud Re'īs (Dragut) apportant son expertise navale.
+      La force ottomane d'environ trente mille hommes débarqua
+      en Ramaḍān 972 H (mai 1565) et assiégea la petite
+      garnison hospitalière du grand maître Jean Parisot de la
+      Valette dans les forts de Saint-Elme, Saint-Michel et
+      Birgu. Saint-Elme tomba après une défense brutale de
+      trente et un jours au cours de laquelle Ṭurghud Re'īs
+      lui-même fut tué par un éclat de pierre; les forts
+      principaux résistèrent à la canicule estivale. L'arrivée
+      d'une force de secours hispano-sicilienne sous Don García
+      de Tolède en Rabīʿ I 973 H (début septembre 1565)
+      contraignit les Ottomans à lever le siège, ayant perdu
+      peut-être un tiers de leurs effectifs. La défaite stoppa
+      l'expansion ottomane en Méditerranée centrale et sauva
+      les Hospitaliers, qui resteraient à Malte jusqu'à leur
+      expulsion par Napoléon en 1798.
+    canonical_hijri: {year: 973, month: 2, day: 5, precision: day}
+    canonical_gregorian: {date: 1565-09-11, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Mālṭa' gives the Ottoman lifting of the siege on 11 September 1565 (Rabīʿ I 973 AH) on the arrival of Don García de Toledo's relief force; Ṭurghud Re'īs killed in late June at Saint-Elme."
+      - source_key: editorial
+        notes: "Cross-checked against Imber, *The Ottoman Empire 1300–1650*, and Finkel, *Osman's Dream*, both of whom attest the relief and Ottoman withdrawal to early September 1565."
+    people: [[suleiman-the-magnificent, ruler]]
+    tags: [ottoman, suleiman, siege, malta, hospitallers, mediterranean, defeat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # POST-SÜLEYMAN — TUNIS, AND THE GREAT TREATIES
+  # =========================================================================
+
+  - slug: ottoman-recovery-of-tunis-1574
+    category: conquest
+    title_en: Ottoman Recovery of Tunis — Sinān Pasha Expels the Spanish
+    title_ar: استرداد العثمانيين تونس سنة ٩٨٢ — سنان باشا يطرد الإسبان
+    title_fr: Reprise ottomane de Tunis — Sinān Pasha chasse les Espagnols
+    description_en: |
+      Under Sultan Selīm II ibn Süleymān and the strategic
+      direction of grand vizier Sokollu Meḥmed Pasha, an Ottoman
+      fleet under Qılıç ʿAlī Pasha (Uluç Ali) and a land army
+      under Sinān Pasha took the North-African city of Tunis
+      from the Spanish garrison and the last Ḥafṣid pretender
+      Mawlāy Muḥammad VI, who had been installed by Don John of
+      Austria the previous year. The Ottoman fleet of 280
+      vessels and 40,000 men landed at La Goulette in late
+      Jumādā I 982 AH (mid-July 1574); the Spanish fortress at
+      La Goulette fell on 1 Jumādā II (24 August), and the
+      keystone fortress of Bastion of Tunis on 26 Jumādā II
+      (13 September) after a forty-day siege. The conquest
+      reduced the last Ḥafṣid claim to nothing, definitively
+      attached the Tunis regency to the Ottoman state, and made
+      Tunisia the third Barbary regency alongside Algiers and
+      Tripoli. The new province was governed by a beylerbey
+      under Ottoman suzerainty for the next three centuries.
+    description_ar: |
+      فتح العثمانيون تحت حكم السلطان سليم الثاني بن سليمان
+      وبتوجيه استراتيجي من الصدر الأعظم صوقللي محمد باشا مدينةَ
+      تونس من الحامية الإسبانية وآخر المتطلِّبين للعرش الحفصي
+      مولاي محمد السادس الذي كان دون خوان النمساوي قد نصبه في
+      السنة السابقة؛ وذلك بأسطول قاده قيليج علي باشا (أولوج
+      علي) وجيش بريّ تحت إمرة سنان باشا. نزل الأسطول العثماني
+      البالغ مئتين وثمانين سفينة وأربعين ألف جندي عند حلق
+      الوادي في أواخر جمادى الأولى ٩٨٢ هـ (منتصف يوليو ١٥٧٤ م)؛
+      وسقط حصن الإسبان في حلق الوادي في غرة جمادى الآخرة (٢٤
+      أغسطس)، ثم سقط حصن باستيون تونس المركزي في ٢٦ جمادى
+      الآخرة (١٣ سبتمبر) بعد حصار دام أربعين يوماً. أنهى الفتحُ
+      دعوى الحفصيين كلَّها، وألحق بايلك تونس بالدولة العثمانية
+      نهائياً، وجعل تونس ثالثة الأبواب الثلاثة (الجزائر،
+      تونس، طرابلس). وظل البلد ولاية يحكمها بايلربيك تحت
+      السيادة العثمانية ثلاثة قرون بعد ذلك.
+    description_fr: |
+      Sous le règne du sultan Selīm II ibn Süleymān et la
+      direction stratégique du grand vizir Sokollu Meḥmed
+      Pasha, une flotte ottomane commandée par Qılıç ʿAlī
+      Pasha (Uluç Ali) et une armée terrestre sous Sinān Pasha
+      reprirent la ville de Tunis à la garnison espagnole et au
+      dernier prétendant ḥafṣide Mawlāy Muḥammad VI, que Don
+      Juan d'Autriche avait installé l'année précédente. La
+      flotte ottomane de 280 navires et 40 000 hommes débarqua
+      à La Goulette fin Jumādā I 982 H (mi-juillet 1574); la
+      forteresse espagnole de La Goulette tomba le 1er Jumādā
+      II (24 août) et la forteresse-clé du Bastion de Tunis le
+      26 Jumādā II (13 septembre) après un siège de quarante
+      jours. La conquête réduisit à néant la dernière
+      prétention ḥafṣide, rattacha définitivement la régence de
+      Tunis à l'État ottoman et fit de la Tunisie la troisième
+      régence barbaresque, aux côtés d'Alger et de Tripoli. La
+      nouvelle province fut administrée par un beylerbey sous
+      suzeraineté ottomane pendant les trois siècles suivants.
+    canonical_hijri: {year: 982, month: 6, day: 26, precision: day}
+    canonical_gregorian: {date: 1574-09-13, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under 982 AH, records Sinān Pasha's expedition against Tunis and the fall of the city's fortress."
+      - source_key: ei2
+        notes: "EI2 articles 'Tūnis' and 'Sinān Pasha' attest the fall of Tunis on 13 September 1574 (Jumādā II 982 AH) and the formal end of the Ḥafṣid dynasty."
+      - source_key: editorial
+        notes: "Cross-checked against Hess, *The Forgotten Frontier*, and Imber; both attest the same date."
+    people: [[selim-ii, ruler], [sokollu-mehmed-pasha, leader]]
+    tags: [ottoman, selim-ii, sokollu, conquest, tunis, hafsid, spain, maghreb]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: treaty-of-amasya-1555
+    category: treaty
+    title_en: Treaty of Amasya — Süleyman and Tahmāsp Settle the Ottoman–Safavid Frontier
+    title_ar: صلح أماسية — سليمان القانوني وطهماسب يضعان حدّ الدولتين العثمانية والصفوية
+    title_fr: Traité d'Amasya — Soliman et Ṭahmāsp fixent la frontière ottomano-safavide
+    description_en: |
+      The first formal peace between the Ottoman and Safavid
+      empires, signed at Amasya in northern Anatolia between
+      Sultan Süleymān I al-Qānūnī and Shah Ṭahmāsp I, ending
+      forty-one years of intermittent warfare since the Battle
+      of Çaldīrān (920 AH/1514). The Ottomans retained the
+      Mesopotamian provinces taken from the Safavids in
+      Süleymān's earlier campaigns — Baghdad, the Shīʿī shrine
+      cities of Najaf, Karbalāʾ and Kāẓimayn, and most of
+      Kurdistan — while the Safavids retained Tabrīz and
+      eastern Armenia. The treaty also obliged the Safavids to
+      cease the public ritual cursing (*tabarrāʾ*) of the first
+      three caliphs, a long-standing point of theological-
+      diplomatic friction with Sunni Ottoman authority. Amasya
+      held the frontier for two decades until renewed warfare
+      in 986 AH; the broader settlement it crystallised — that
+      the Ottomans dominated Mesopotamia and the Safavids
+      dominated the Iranian plateau — would persist with
+      adjustments through the Treaty of Zuhāb (1049 AH/1639).
+    description_ar: |
+      أول صلح رسمي بين الدولتين العثمانية والصفوية، عُقد في
+      مدينة أماسية بشمال الأناضول بين السلطان سليمان القانوني
+      والشاه طهماسب الأول، فأنهى إحدى وأربعين سنة من حرب
+      متقطعة منذ معركة جالديران (٩٢٠ هـ / ١٥١٤ م). احتفظ
+      العثمانيون بالولايات العراقية التي أخذوها من الصفويين في
+      حملات سليمان السابقة — بغداد ومدن المشاهد الشيعية في
+      النجف وكربلاء والكاظمية ومعظم كردستان — بينما احتفظ
+      الصفويون بتبريز وأرمينيا الشرقية. وألزم الصلحُ الصفويين
+      أيضاً برفع التبرّؤ من الخلفاء الراشدين الثلاثة الأول من
+      منابرهم، وهو نقطة احتكاك عقدي دبلوماسي قديمة بالسلطة
+      السنية العثمانية. ثبت صلحُ أماسية الحدودَ عقدين حتى
+      تجدّد القتال سنة ٩٨٦ هـ، أما التسوية الأوسع التي بلورها —
+      من سيادة العثمانيين على بلاد الرافدين والصفويين على هضبة
+      إيران — فقد استمرت بتعديلات إلى صلح زهاب (١٠٤٩ هـ /
+      ١٦٣٩ م).
+    description_fr: |
+      Première paix formelle entre les empires ottoman et
+      safavide, signée à Amasya en Anatolie septentrionale
+      entre le sultan Soliman Ier al-Qānūnī et le chah Ṭahmāsp
+      Ier, mettant fin à quarante-et-un ans de guerres
+      intermittentes depuis la bataille de Tchaldiran (920 H /
+      1514 EC). Les Ottomans conservèrent les provinces
+      mésopotamiennes prises aux Safavides lors des campagnes
+      antérieures de Soliman — Bagdad, les villes saintes
+      chiites de Nadjaf, Karbalāʾ et Kāẓimayn, et la plus
+      grande partie du Kurdistan — tandis que les Safavides
+      gardèrent Tabrīz et l'Arménie orientale. Le traité
+      obligeait aussi les Safavides à mettre fin à la malédiction
+      rituelle publique (*tabarrāʾ*) des trois premiers califes,
+      sujet ancien de friction théologico-diplomatique avec
+      l'autorité ottomane sunnite. Amasya tint la frontière
+      pendant deux décennies, jusqu'à la reprise de la guerre
+      en 986 H; le règlement plus large qu'il cristallisa —
+      domination ottomane sur la Mésopotamie, domination
+      safavide sur le plateau iranien — perdurerait, avec des
+      ajustements, jusqu'au traité de Zuhāb (1049 H / 1639 EC).
+    canonical_hijri: {year: 962, month: 6, day: 27, precision: day}
+    canonical_gregorian: {date: 1555-05-29, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's *Shadharāt al-Dhahab*, under 962 AH, records the conclusion of peace at Amasya between Süleymān and Ṭahmāsp."
+      - source_key: ei2
+        notes: "EI2 articles 'Amasya' and 'Süleymān I' attest the treaty's signing on 29 May 1555 (Jumādā II 962 AH) and its principal stipulations including the cessation of *tabarrāʾ*."
+    people: [[suleiman-the-magnificent, leader]]
+    tags: [ottoman, suleiman, safavid, treaty, amasya, mesopotamia, frontier]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: treaty-of-zsitvatorok-1606
+    category: treaty
+    title_en: Treaty of Zsitvatorok — Aḥmad I and the Habsburgs End the Long Turkish War
+    title_ar: صلح زيتفاتوروك — أحمد الأول والهابسبورغ ينهيان حرب الترك الطويلة
+    title_fr: Traité de Zsitvatorok — Aḥmad Ier et les Habsbourg mettent fin à la longue guerre turque
+    description_en: |
+      The peace settlement signed on the banks of the Žitava
+      river in royal Hungary between Sultan Aḥmad I and the
+      Habsburg Holy Roman Emperor Rudolf II (and the Habsburg
+      "King of the Romans" Matthias acting on his behalf),
+      ending the Long Turkish War that had begun in 1593.
+      Zsitvatorok marks a watershed in Ottoman–Habsburg
+      relations: for the first time the Habsburg emperor was
+      addressed as a *padişah* (emperor) rather than as the
+      Ottoman tributary "King of Vienna," and the annual
+      Habsburg tribute to the Porte was commuted into a
+      one-off payment of 200,000 thalers. The Habsburgs retained
+      the territories they had reconquered north of Buda; the
+      Ottomans retained their Hungarian *eyālets*. Crucially,
+      the peace held for more than five decades — until the
+      Köprülü-era campaigns of the 1660s — and is recognised
+      as the diplomatic mark of the Ottoman state's transition
+      from continuous expansion to maintained equilibrium with
+      the Christian European powers. EI2 treats it as the
+      formal end of the era of Ottoman ascendancy on the
+      Hungarian frontier.
+    description_ar: |
+      صلحٌ وقّع على ضفاف نهر زيتفاتوروك (نيفي زاموكي) في المجر
+      الملكية بين السلطان أحمد الأول والإمبراطور الهابسبورغي
+      رودولف الثاني (ونيابةً عنه أخوه ماتياس ملك الرومان) فأنهى
+      الحرب التركية الطويلة التي بدأت سنة ١٠٠١ هـ (١٥٩٣ م).
+      وكان زيتفاتوروك مفصلاً في العلاقات العثمانية الهابسبورغية:
+      خوطب الإمبراطور الهابسبورغي للمرة الأولى لقبَ «بادشاه»
+      (إمبراطور) لا «ملك فيينا» التابع للباب العالي، واستُبدلت
+      الجزية السنوية إلى الباب العالي بمبلغ مقطوع قدره مئتا
+      ألف ريال. احتفظ الهابسبورغ بأراضيهم التي استرجعوها شمال
+      بودا، بينما احتفظ العثمانيون بولاياتهم في المجر. والأهم
+      من ذلك أن الصلح ثبت أكثر من خمسة عقود — إلى حملات بيت
+      كوبريلي في ستينيات القرن الحادي عشر الهجري — ويُعدُّ
+      علامةً دبلوماسيةً على انتقال الدولة العثمانية من توسّع
+      دائم إلى توازن محفوظ مع القوى المسيحية الأوروبية. وتعدُّه
+      دائرة المعارف الإسلامية النهايةَ الرسمية لعصر التفوّق
+      العثماني على الجبهة المجرية.
+    description_fr: |
+      Traité de paix signé sur les rives de la rivière Žitava en
+      Hongrie royale entre le sultan Aḥmad Ier et l'empereur
+      du Saint-Empire romain germanique Rodolphe II — son frère
+      Matthias, « roi des Romains », agissant en son nom —
+      mettant fin à la « Longue Guerre turque » commencée en
+      1593. Zsitvatorok constitue un tournant dans les relations
+      ottomano-habsbourgeoises: pour la première fois,
+      l'empereur Habsbourg fut désigné comme *padişah*
+      (empereur) plutôt que comme « roi de Vienne » tributaire
+      de la Sublime Porte, et le tribut annuel des Habsbourg à
+      la Porte fut commué en un paiement unique de 200 000
+      thalers. Les Habsbourg conservèrent les territoires
+      qu'ils avaient reconquis au nord de Buda; les Ottomans
+      conservèrent leurs *eyālets* hongrois. Le point décisif
+      est que la paix tint plus de cinq décennies — jusqu'aux
+      campagnes des Köprülü dans les années 1660 — et est
+      reconnue comme le signe diplomatique de la transition de
+      l'État ottoman, passant d'une expansion continue à un
+      équilibre maintenu avec les puissances chrétiennes
+      européennes. L'*EI* seconde édition la traite comme la
+      fin formelle de l'ère de prééminence ottomane sur la
+      frontière hongroise.
+    canonical_hijri: {year: 1015, month: 7, day: 10, precision: day}
+    canonical_gregorian: {date: 1606-11-11, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Zsitvatorok' attests the signing of the treaty on 11 November 1606 (20 Jumādā II 1015 AH) and details the Habsburg shift from tributary to recognised emperor."
+      - source_key: editorial
+        notes: "Cross-checked against Finkel, *Osman's Dream*, ch. 8, and Imber, *The Ottoman Empire 1300–1650*, both of whom attest the date and the symbolic shift in Ottoman–Habsburg parity."
+    people: []
+    tags: [ottoman, ahmad-i, habsburg, treaty, zsitvatorok, hungary, long-turkish-war]
+    importance: major
+    verified: true
+    verification_status: cross_verified

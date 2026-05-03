@@ -1,0 +1,1097 @@
+# Wave 69 of curated event additions (2026-04-27).
+# Mongol conversions to Islam and the Persian-historian chroniclers
+# who recorded that transformation. The arc covered here is the
+# central political-religious shift of the 7th–8th centuries AH:
+# the Chinggisid khanates that had razed Baghdad in 656 AH/1258
+# converted to Islam within decades, and the Persian secretarial
+# class produced a new historiographical literature in Persian
+# (rather than Arabic) under their patronage.
+#
+# Coverage:
+#   1. Conversion of Berke Khan (Golden Horde, ~655 AH/1257) — first
+#      Chinggisid khan to convert.
+#   2. Death of Berke Khan (665 AH/1267).
+#   3. Conversion of Ghazan Khan (Ilkhanate, 19 Shaʿbān 694 AH/4
+#      July 1295) — declared Islam state religion of the Ilkhanate.
+#   4. Death of Ghazan Khan (11 Shawwāl 703 AH/17 May 1304).
+#   5. Conversion of Öljeitü (705 AH/1305) — initially Sunni Ḥanafī,
+#      later turned Twelver Shia (~709 AH/1310). Reported factually.
+#   6. Death of Öljeitü (16 Dhū al-Ḥijja 716 AH/16 Dec 1316).
+#   7. Death of Abū Saʿīd Bahādur Khan (13 Rabīʿ II 736 AH/1 Dec
+#      1335) — last unified Ilkhan; Ilkhanate fragments after.
+#   8. Death of ʿAṭāʾ Malik al-Juwaynī al-historian (681 AH/1283) —
+#      *Tārīkh-i Jahāngushāy*; distinct from Imām al-Ḥaramayn
+#      al-Juwaynī (d. 478 AH).
+#   9. Execution of Rashīd al-Dīn Hamadhānī (30 Jumādā I 718 AH/18
+#      July 1318) — vizier of Ghazan and Öljeitü; *Jāmiʿ
+#      al-Tawārīkh* (the first attempt at universal history).
+#  10. Death of Hamd Allāh Mustawfī Qazwīnī (~750 AH/1349) —
+#      *Tārīkh-i Guzīda*; distinct from Zakariyyā al-Qazwīnī the
+#      cosmographer (d. 682 AH).
+#  11. Death of Banākatī (730 AH/1330) — *Tārīkh-i Banākatī*.
+#  12. Death of Abū al-Faḍl al-Bayhaqī Persian historian (470
+#      AH/1077) — *Tārīkh-i Bayhaqī*; distinct from the muḥaddith
+#      Abū Bakr al-Bayhaqī (d. 458 AH).
+#
+# Editorial framing:
+#   - Berke and Ghazan converted to Sunni Islam — well-attested in
+#     Ibn Kathīr, al-Dhahabī, the *Mukhtaṣar* of Abū al-Fidāʾ, and
+#     EI2; this is treated as the central fact.
+#   - Öljeitü's later Twelver-Shia turn (after a brief Sunni
+#     Ḥanafī phase under Niẓām al-Dīn ʿAbd al-Malik al-Marāgha'ī)
+#     is reported factually because the classical Sunni sources
+#     report it factually — al-Dhahabī notes the shift with regret
+#     but records the political fact rather than polemicising.
+#   - The Persian-historian chroniclers under Mongol patronage are
+#     mostly Sunni-aligned (al-Juwaynī, Banākatī, Mustawfī,
+#     al-Bayhaqī). Rashīd al-Dīn was Jewish-born, converted to
+#     Islam ~700 AH; Sunni biographical tradition treats him as a
+#     Muslim convert who served two Muslim Ilkhāns.
+#
+# Sources: All entries attested in classical Sunni sources — Ibn
+# Kathīr's *al-Bidāya wa-l-Nihāya*, al-Dhahabī's *Tārīkh al-Islām*,
+# Ibn Ḥajar's *al-Durar al-Kāmina* (for 8th AH century figures) —
+# plus EI2 for modern academic confirmation. Date precision honours
+# the source-attested level: day-precision where the Persian
+# chroniclers and the *Durar* converge; year only where the sources
+# only attest a year. Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # GOLDEN HORDE — BERKE KHAN
+  # =========================================================================
+
+  - slug: conversion-of-berke-khan
+    category: conversion
+    title_en: Conversion of Berke Khan to Islam — First Muslim Chinggisid Khan
+    title_ar: إسلام بركة خان — أول الخانات الجنكيزيين إسلاماً
+    title_fr: Conversion de Berke Khan à l'islam — premier khan tchinggisside musulman
+    description_en: |
+      Berke Khan, grandson of Chinggis Khan and ruler of the Golden
+      Horde (the Jochid ulus, north of the Caspian and Black Seas),
+      converted to Sunni Islam at Bukhārā around 655 AH (1257 CE),
+      becoming the first Chinggisid khan to embrace the religion
+      of the empires his line had conquered. Classical sources —
+      Ibn Kathīr, al-Dhahabī, Ibn Khaldūn — record his conversion
+      at the hands of the Sufi shaykh Sayf al-Dīn al-Bākharzī of
+      Bukhārā (a successor of Najm al-Dīn al-Kubrā). His
+      conversion was politically consequential: when his cousin
+      Hulagu sacked Baghdad in 656 AH and killed the last ʿAbbāsid
+      caliph al-Mustaʿṣim, Berke broke openly with the Ilkhanid
+      branch over the slaughter of the Muslim caliph and the city,
+      forming an alliance with the Mamlūk sultan Baybars against
+      the Ilkhanid Mongols. The intra-Mongol war between Golden
+      Horde and Ilkhanate, opening at the Caucasus in 660 AH, was
+      the first Chinggisid civil war and was framed by Berke in
+      explicitly Islamic terms — a Muslim khan checking a pagan
+      khan's destruction of the Muslim heartlands. Some sources
+      place Berke's initial Islamic adherence earlier (the
+      Mamlūk-Egyptian envoys to him in 660 AH already address
+      him as a Muslim sovereign), but the public-conversion
+      tradition under al-Bākharzī is the one preserved in the
+      Sunni biographical literature.
+    description_ar: |
+      أسلم بَرَكة خان — حفيد جنكيز خان وحاكم القبيلة الذهبية (يولوس
+      جوجي، شمالي بحر قزوين والبحر الأسود) — على يد الشيخ سيف
+      الدين الباخرزي البخاري (من خلفاء نجم الدين الكبرى) ببخارى
+      قُرابة سنة ٦٥٥ هـ، فكان أولَ الخانات الجنكيزيين دخولاً في
+      دين الأمم التي فتحها جدّه. وتسجِّل المصادر الكلاسيكية —
+      ابن كثير، والذهبي، وابن خلدون — إسلامَه على يد الباخرزي
+      ببخارى. وكان لإسلامه أثرٌ سياسي بالغ: لمّا اقتحم ابنُ عمه
+      هولاكو بغداد سنة ٦٥٦ هـ وقتل آخر الخلفاء العباسيين
+      المستعصم، انفصل بركة عن فرع الإيلخان علناً منكِراً مذبحةَ
+      الخليفة المسلم وعاصمة الخلافة، وتحالف مع السلطان المملوكي
+      الظاهر بيبرس في الشام على المغول الإيلخان، فاندلعت سنة ٦٦٠
+      هـ في القفقاس أولُ حربٍ أهلية بين الفرعين الجنكيزيَّين، صاغها
+      بركة صياغة إسلاميةً صريحة: خانٌ مسلم يكبح خاناً وثنياً عن
+      تدمير ديار الإسلام. وتُشير مصادرُ أخرى إلى أن إسلامه
+      الفعلي أسبقُ من ذلك (إذ خاطبه رسل المماليك في مصر سنة
+      ٦٦٠ هـ بصفته سلطاناً مسلماً)، لكنَّ روايةَ الإشهار على
+      يد الباخرزي هي المحفوظة في كتب التراجم السنية.
+    description_fr: |
+      Berke Khan, petit-fils de Gengis Khan et souverain de la
+      Horde d'Or (l'*ulus* jouchide, au nord de la Caspienne et de
+      la mer Noire), se convertit à l'islam sunnite à Boukhara
+      vers 655 H (1257 EC), devenant le premier khan tchinggisside
+      à embrasser la religion des empires que sa lignée avait
+      conquis. Les sources classiques — Ibn Kathīr, al-Dhahabī,
+      Ibn Khaldūn — rapportent sa conversion entre les mains du
+      cheikh soufi Sayf al-Dīn al-Bākharzī de Boukhara (un
+      successeur de Najm al-Dīn al-Kubrā). Sa conversion eut des
+      conséquences politiques majeures : quand son cousin Hulagu
+      mit Bagdad à sac en 656 H et tua le dernier calife
+      ʿabbāsside al-Mustaʿṣim, Berke rompit ouvertement avec la
+      branche ilkhānide en raison du massacre du calife musulman
+      et de la ville, formant une alliance avec le sultan mamelouk
+      Baybars contre les Mongols ilkhānides. La guerre intra-mongole
+      entre Horde d'Or et Ilkhānat, ouverte au Caucase en 660 H,
+      fut la première guerre civile tchinggisside et fut formulée
+      par Berke en termes explicitement islamiques — un khan
+      musulman freinant la destruction des terres islamiques par
+      un khan païen. Certaines sources placent l'adhésion
+      islamique initiale de Berke plus tôt (les envoyés mamelouks
+      d'Égypte s'adressaient déjà à lui comme à un souverain
+      musulman en 660 H), mais la tradition de la conversion
+      publique sous al-Bākharzī est celle conservée dans la
+      littérature biographique sunnite.
+    canonical_hijri: {year: 655, precision: year}
+    canonical_gregorian: {date: 1257-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya records Berke's Islam at the hands of Sayf al-Dīn al-Bākharzī of Bukhārā and the consequent break with Hulagu over the sack of Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī notes Berke as the first Mongol khan to embrace Islam and his alliance with the Mamlūks against Hulagu."
+      - source_key: ei2
+        notes: "EI2 'Berke' confirms the conversion at Bukhārā under al-Bākharzī and dates the public adherence to ~655 AH; some sources push earlier."
+    tags: [mongol, golden-horde, jochid, conversion, sunni, bukhara, bakharzi, baybars]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+
+  - slug: death-of-berke-khan
+    category: ruler_death
+    title_en: Death of Berke Khan — End of the First Muslim Chinggisid Reign
+    title_ar: وفاة بركة خان — نهاية أول حكم جنكيزي مسلم
+    title_fr: Mort de Berke Khan — fin du premier règne tchinggisside musulman
+    description_en: |
+      Berke Khan, the first Chinggisid ruler to embrace Islam and
+      khan of the Golden Horde, died in 665 AH (1266–1267 CE)
+      while on campaign in the Caucasus against the Ilkhanid
+      Mongols of his cousin Hulagu's line. His death came in the
+      midst of the Berke–Hulagu war — the intra-Chinggisid civil
+      war that Berke had framed as a defence of Muslim lands
+      against the Ilkhanid pagan khans who had destroyed Baghdad
+      in 656 AH. He was succeeded by Möngke-Temür, his nephew, who
+      did not embrace Islam personally but maintained the Mamlūk
+      alliance and tolerated the Muslim communities of the Volga
+      and Crimea. The full Islamisation of the Golden Horde would
+      follow only with the conversion of Özbeg Khan in 712 AH
+      (1313 CE) — a generation after Berke. The classical Sunni
+      sources record Berke's death without day-precision; Ibn
+      Kathīr enters the obituary under the events of 665 AH.
+    description_ar: |
+      توفي بَرَكة خان — أوّل الخانات الجنكيزيين إسلاماً وحاكم
+      القبيلة الذهبية — سنة ٦٦٥ هـ (١٢٦٦–١٢٦٧ م)، وهو في حملة
+      على القفقاس في حرب الفرع الإيلخاني المغولي، أبناء عمّه من
+      ذرية هولاكو. وجاء موته في خِضَم الحرب البَركة–الهولاكوية،
+      تلك الفتنة الجنكيزية الداخلية التي صاغها بركة بصفتها دفاعاً
+      عن ديار الإسلام في وجه الخانات الإيلخانيين الوثنيين الذين
+      دمّروا بغداد سنة ٦٥٦ هـ. وخلفه ابنُ أخيه مَنكَوتَمُر، الذي
+      لم يدخل في الإسلام لنفسه، لكنه حافظ على تحالف المماليك
+      وأبقى الجاليات الإسلامية في الفولغا والقرم آمنةً. ولن يكتمل
+      أسلمةُ القبيلة الذهبية كلها إلا مع إسلام أزبَك خان سنة
+      ٧١٢ هـ (١٣١٣ م) — أي بعد جيل من بركة. ولم تعيِّن المصادر
+      السنية الكلاسيكية يوماً بعينه لوفاته؛ يُدخل ابن كثير ترجمته
+      في حوادث سنة ٦٦٥ هـ.
+    description_fr: |
+      Berke Khan, premier souverain tchinggisside à embrasser
+      l'islam et khan de la Horde d'Or, mourut en 665 H
+      (1266–1267 EC) alors qu'il était en campagne au Caucase
+      contre les Mongols ilkhānides issus de la lignée de son
+      cousin Hulagu. Sa mort survint au cœur de la guerre
+      Berke–Hulagu — la guerre civile intra-tchinggisside que
+      Berke avait formulée comme une défense des terres musulmanes
+      contre les khans ilkhānides païens qui avaient détruit
+      Bagdad en 656 H. Lui succéda Möngke-Temür, son neveu, qui
+      n'embrassa pas personnellement l'islam mais maintint
+      l'alliance mamelouke et toléra les communautés musulmanes
+      de la Volga et de Crimée. L'islamisation complète de la
+      Horde d'Or ne suivrait qu'avec la conversion d'Özbeg Khan
+      en 712 H (1313 EC) — une génération après Berke. Les
+      sources sunnites classiques rapportent la mort de Berke
+      sans précision journalière ; Ibn Kathīr inscrit la nécrologie
+      sous les événements de 665 H.
+    canonical_hijri: {year: 665, precision: year}
+    canonical_gregorian: {date: 1267-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr enters the death of Berke Khan under the events of 665 AH and notes the Caucasus campaign context."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Berke among the obituaries of 665 AH."
+      - source_key: ei2
+        notes: "EI2 'Berke' places the death in 665 AH/1266–67."
+    tags: [mongol, golden-horde, jochid, ruler_death, sunni, baybars]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ILKHANATE — GHAZAN KHAN
+  # =========================================================================
+
+  - slug: conversion-of-ghazan-khan
+    category: conversion
+    title_en: Conversion of Ghazan Khan to Islam — Islam as Ilkhanid State Religion
+    title_ar: إسلام غازان خان — جعلُ الإسلام دينَ الدولة الإيلخانية
+    title_fr: Conversion de Ghazan Khan à l'islam — l'islam religion d'État ilkhānide
+    description_en: |
+      Maḥmūd Ghazan ibn Arghūn — Ilkhanid prince and great-grandson
+      of Hulagu, the Mongol who had destroyed Baghdad in 656 AH
+      — converted to Sunni Islam on 19 Shaʿbān 694 AH (4 July
+      1295 CE) at Lār near Tehran on the eve of his march on the
+      Ilkhanid throne against Baydū. The conversion was performed
+      at the hands of Shaykh Ṣadr al-Dīn Ibrāhīm Ḥammū'ī, son of
+      the Kubrawī Sufi master Saʿd al-Dīn al-Ḥammū'ī. Within weeks
+      Ghazan defeated and killed Baydū and entered Tabrīz as
+      Ilkhān; he then declared Islam the state religion of the
+      Ilkhanate, ordered the destruction of Buddhist temples,
+      Christian churches, and Jewish synagogues that had been
+      established under his predecessors (a measure later
+      moderated under court pressure to a tolerance for *dhimmī*
+      worship), restored the *jizya* on non-Muslims, and adopted
+      the name Maḥmūd. His vizier Rashīd al-Dīn Hamadhānī — a
+      Jewish convert to Islam — would compose the *Jāmiʿ
+      al-Tawārīkh* under his patronage; his finance minister
+      Saʿd al-Dīn Sāwajī would conduct the major fiscal reform of
+      the Ilkhanate. Classical Sunni sources record Ghazan's
+      Islam as the closing of the seventh-century AH catastrophe
+      that had begun with Baghdad's fall: thirty-seven years
+      after the sack, the Mongol khan of Iraq and Iran prayed in
+      the same direction as the Muslims his great-grandfather had
+      slaughtered.
+    description_ar: |
+      أسلم محمود غازان بن أرغون — الأمير الإيلخاني، حفيد حفيد
+      هولاكو الذي دمّر بغداد سنة ٦٥٦ هـ — في ١٩ شعبان ٦٩٤ هـ
+      (٤ يوليوز ١٢٩٥ م) بـ«لار» قُرب طهران، عشيّةَ زحفِه على
+      عرش الإيلخان متقدماً على بايدو. وأسلم على يد الشيخ صدر
+      الدين إبراهيم الحَمُّوئي، ابن شيخ الكُبراوية سعد الدين
+      الحَمُّوئي. وفي أسابيع هزم غازان بايدو وقتله ودخل تبريز
+      إيلخاناً، ثم أعلن الإسلام ديناً للدولة الإيلخانية، وأمر
+      بهدم معابد البوذية وكنائس النصارى وكنُس اليهود التي قامت
+      في عهد أسلافه (أمرٌ خُفِّف لاحقاً بضغط البلاط ليُتاحَ
+      لأهل الذمة عبادتهم في كنائسهم وكنُسهم)، وأعاد الجزية على
+      غير المسلمين، وتسمَّى «محمود». ونظم له وزيرُه رشيد الدين
+      الهَمَذاني — اليهودي الذي أسلم — «جامع التواريخ»؛ وأصلح
+      له ناظر ماليّته سعد الدين الساوجي ماليّةَ الإيلخانيّة
+      إصلاحاً كبيراً. وتسجِّل المصادر السنية الكلاسيكية إسلامَ
+      غازان بصفته خاتمةَ كارثة القرن السابع التي بدأت بسقوط
+      بغداد: فبعد سبع وثلاثين سنة من المذبحة، صار خانُ المغول
+      على العراق والعجم يصلّي إلى نفس قبلة المسلمين الذين
+      ذبحهم جدّ جدّه.
+    description_fr: |
+      Maḥmūd Ghazan ibn Arghūn — prince ilkhānide, arrière-petit-fils
+      de Hulagu, le Mongol qui avait détruit Bagdad en 656 H —
+      se convertit à l'islam sunnite le 19 Shaʿbān 694 H (4
+      juillet 1295 EC) à Lār, près de Téhéran, à la veille de sa
+      marche sur le trône ilkhānide contre Baydū. La conversion
+      fut effectuée entre les mains du cheikh Ṣadr al-Dīn Ibrāhīm
+      Ḥammū'ī, fils du maître soufi kubrawī Saʿd al-Dīn al-Ḥammū'ī.
+      En quelques semaines, Ghazan défit et tua Baydū et entra à
+      Tabrīz comme Ilkhān ; il proclama alors l'islam religion
+      d'État de l'Ilkhānat, ordonna la destruction des temples
+      bouddhiques, des églises chrétiennes et des synagogues
+      juives établies sous ses prédécesseurs (mesure plus tard
+      modérée, sous la pression de la cour, en une tolérance du
+      culte *dhimmī*), rétablit la *jizya* sur les non-musulmans,
+      et prit le nom de Maḥmūd. Son vizir Rashīd al-Dīn Hamadhānī
+      — un juif converti à l'islam — composerait sous son
+      patronage le *Jāmiʿ al-Tawārīkh* ; son ministre des finances
+      Saʿd al-Dīn Sāwajī mènerait la grande réforme fiscale de
+      l'Ilkhānat. Les sources sunnites classiques retiennent
+      l'islam de Ghazan comme la clôture de la catastrophe du
+      VIIe siècle de l'hégire qui s'était ouverte avec la chute
+      de Bagdad : trente-sept ans après le sac, le khan mongol de
+      l'Iraq et de l'Iran priait dans la même direction que les
+      musulmans que son arrière-grand-père avait massacrés.
+    canonical_hijri: {year: 694, month: 8, day: 19, precision: day}
+    canonical_gregorian: {date: 1295-07-04, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr enters Ghazan's Islam in 694 AH and details the consequent declaration of Islam as state religion."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records Ghazan's conversion at the hands of Ṣadr al-Dīn al-Ḥammū'ī and the imposition of Sunni Islam across the Ilkhanate."
+      - source_key: ei2
+        notes: "EI2 'Ghāzān' confirms the day-precision of 19 Shaʿbān 694 AH and the role of the Kubrawī shaykh."
+    tags: [mongol, ilkhanate, conversion, sunni, ghazan, hammuiyya, kubrawiyya, tabriz]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ghazan-khan
+    category: ruler_death
+    title_en: Death of Ghazan Khan — End of the Reign That Made Iran Muslim Again
+    title_ar: وفاة غازان خان — انقضاء الحكم الذي أعاد إيران إلى الإسلام
+    title_fr: Mort de Ghazan Khan — fin du règne qui rendit l'Iran musulman
+    description_en: |
+      Maḥmūd Ghazan, seventh Ilkhān of Iran and Iraq, died at
+      Qazwīn on 11 Shawwāl 703 AH (17 May 1304 CE) at the age of
+      thirty-three after a nine-year reign. He had spent the
+      previous winter campaigning against the Mamlūks at Marj
+      al-Ṣuffar (in the Ḥawrān, south of Damascus, Ramaḍān 702 AH)
+      where his army had been defeated by the Mamlūk sultan
+      al-Nāṣir Muḥammad — the only Ilkhanid–Mamlūk encounter that
+      ended in Mamlūk victory after Ghazan's earlier conquests of
+      Damascus in 699 AH. He left no surviving son and was
+      succeeded by his brother Muḥammad Khudābanda, later styled
+      Öljeitü. Ghazan's nine-year reign reshaped the Ilkhanate:
+      Islam was the state religion, Persian replaced Mongol as
+      the language of the chancery, the *Jāmiʿ al-Tawārīkh* of
+      Rashīd al-Dīn was begun, the great endowment-quarter at
+      Sham (the *Shanb-i Ghāzān*) outside Tabrīz was built, and
+      the fiscal reforms of Saʿd al-Dīn Sāwajī had stabilised the
+      ruined Iranian agrarian economy. Classical Sunni sources —
+      Ibn Kathīr above all — frame him as the Mongol khan who
+      undid, by conversion, the catastrophe his great-grandfather
+      had inflicted by conquest.
+    description_ar: |
+      توفي محمود غازان — سابع خانات الإيلخان على إيران والعراق —
+      بقَزوين في ١١ شوال ٧٠٣ هـ (١٧ مايو ١٣٠٤ م) عن ثلاث وثلاثين
+      سنة بعد ولاية تسع سنوات. وكان قد قضى الشتاء الفائت في حملة
+      على المماليك بمَرج الصُّفَّر (بحوران جنوب دمشق، في رمضان
+      ٧٠٢ هـ) هُزم فيها جيشُه على يد السلطان المملوكي الناصر
+      محمد بن قلاوون — وهي اللقاءُ الإيلخانيُّ المملوكيُّ
+      الوحيد الذي انتهى بنصر المماليك بعد فتوحات غازان لدمشق
+      سنة ٦٩٩ هـ. ولم يخلِّف ولداً، فخلفه أخوه محمد خدابنده، المعروف
+      لاحقاً بـ«أُلْجايْتُو». وقد أعادت ولاية غازان التسعُ صياغةَ
+      الإيلخانية: الإسلامُ ديناً للدولة، والفارسيةُ بديلاً من
+      المغولية في ديوان الإنشاء، و«جامع التواريخ» للهَمَذاني
+      مبدوءٌ تأليفُه، و«شَنب غازان» ـ ضاحية الأوقاف الكبرى ـ خارجَ
+      تبريز مبنيٌّ، وإصلاحاتُ ساوجي المالية قد ثبَّتت الاقتصاد
+      الزراعي الإيراني المنهَك. وتسجِّل المصادر السنية الكلاسيكية
+      — ابن كثير في مقدمتها — أنه الخان المغولي الذي نقضَ
+      بإسلامه الكارثةَ التي ألحقها جدُّ جدّه بفتحه.
+    description_fr: |
+      Maḥmūd Ghazan, septième Ilkhān d'Iran et d'Iraq, mourut à
+      Qazwīn le 11 Shawwāl 703 H (17 mai 1304 EC) à l'âge de
+      trente-trois ans, après un règne de neuf ans. Il avait passé
+      l'hiver précédent en campagne contre les Mamelouks à Marj
+      al-Ṣuffar (dans le Ḥawrān, au sud de Damas, Ramaḍān 702 H)
+      où son armée avait été défaite par le sultan mamelouk
+      al-Nāṣir Muḥammad — la seule rencontre ilkhānido-mamelouke
+      qui s'acheva par une victoire mamelouke après les conquêtes
+      antérieures de Damas par Ghazan en 699 H. N'ayant pas laissé
+      de fils survivant, il fut succédé par son frère Muḥammad
+      Khudābanda, plus tard appelé Öljeitü. Le règne de neuf ans
+      de Ghazan reconfigura l'Ilkhānat : l'islam comme religion
+      d'État, le persan remplaçant le mongol comme langue de la
+      chancellerie, le *Jāmiʿ al-Tawārīkh* de Rashīd al-Dīn
+      commencé, le grand quartier d'awqāf de Shām (le *Shanb-i
+      Ghāzān*) hors de Tabrīz construit, et les réformes fiscales
+      de Saʿd al-Dīn Sāwajī ayant stabilisé l'économie agraire
+      iranienne dévastée. Les sources sunnites classiques —
+      Ibn Kathīr au premier chef — le retiennent comme le khan
+      mongol qui défit par sa conversion la catastrophe que son
+      arrière-grand-père avait infligée par sa conquête.
+    canonical_hijri: {year: 703, month: 10, day: 11, precision: day}
+    canonical_gregorian: {date: 1304-05-17, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr enters the death of Ghazan in 703 AH at Qazwīn after the Marj al-Ṣuffar campaign and gives the day-precision."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Ghazan among the obituaries of 703 AH."
+      - source_key: ei2
+        notes: "EI2 'Ghāzān' confirms 11 Shawwāl 703 AH/17 May 1304 at Qazwīn."
+    tags: [mongol, ilkhanate, ruler_death, sunni, ghazan, qazwin, mamluk-frontier]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ILKHANATE — ÖLJEITÜ
+  # =========================================================================
+
+  - slug: conversion-of-oljeitu
+    category: conversion
+    title_en: Conversion of Öljeitü to Islam — Sunni Ḥanafī Then Twelver Shia
+    title_ar: إسلام أُلْجايْتُو — حنفياً سنياً ثم تشيُّعاً اثنا عشريّاً
+    title_fr: Conversion d'Öljeitü à l'islam — sunnite ḥanafī puis chiite duodécimain
+    description_en: |
+      Muḥammad Khudābanda ibn Arghūn — younger brother of Ghazan
+      Khan and his successor as eighth Ilkhān — was baptised
+      Christian as a child (his Buddhist mother had become a
+      Nestorian Christian under Arghūn), embraced Sunni Ḥanafī
+      Islam in 705 AH (1305 CE) on his accession at Tabrīz, and
+      later turned Twelver Shia around 709 AH (1310 CE) under the
+      influence of the *ʿālim* al-ʿAllāma al-Ḥillī (a Twelver
+      jurist of Iraq, no relation to the Sunni biographical
+      al-Ḥillīs). He is recorded under the regnal name *Öljeitü*
+      ("blessed") and the laqab *Khudābanda* ("servant of God").
+      Classical Sunni sources — Ibn Kathīr, al-Dhahabī, Ibn Ḥajar
+      — note the shift to Twelver adherence factually but
+      critically; al-Dhahabī enters his obituary with regret over
+      "his innovation in religion at the end" while preserving
+      his role as the patron of Rashīd al-Dīn's *Jāmiʿ
+      al-Tawārīkh* and the founder of the new royal capital at
+      Sulṭāniyya. The Sunni–Shia oscillation across his reign is
+      the most striking instance of post-conversion Mongol
+      religious volatility; under his son Abū Saʿīd the Ilkhanate
+      would return to Sunni adherence. Date precision: 705 AH for
+      the initial Sunni Islam is well-attested; the Twelver shift
+      is variously placed between 707 and 709 AH.
+    description_ar: |
+      محمد خدابنده بن أرغون — أخو غازان خان الأصغر، وخليفته
+      ثامنَ خانات الإيلخان — عُمِّد نصرانياً في طفولته (إذ كانت
+      أمُّه البوذية قد تنصّرت نسطورية في عهد أبيه أرغون)، ثم
+      أسلم سنياً حنفيّاً سنة ٧٠٥ هـ (١٣٠٥ م) عند توليته العرش
+      بتبريز، ثم تحوّل إلى التشيع الإمامي الاثني عشري قُرابة سنة
+      ٧٠٩ هـ (١٣١٠ م) بتأثير العَلَّامة الحلّي (فقيه الإمامية في
+      العراق، لا يمتُّ إلى آل الحلّي عند أهل السنة بصلة). ويُسجَّل
+      باسمه السلطاني «أُلْجايْتُو» (المبارك) ولقبه «خدابنده»
+      (عبد الله). وتسجِّل المصادر السنية الكلاسيكية — ابن كثير،
+      والذهبي، وابن حجر — تحوّلَه إلى المذهب الإمامي تسجيلاً
+      وقائعياً مع نقدٍ صريح؛ ويُدخل الذهبي ترجمته بأسف من «بدعته
+      في الدين أخيراً»، مع حفظ دوره راعياً لـ«جامع التواريخ»
+      للهَمَذاني ومؤسساً عاصمةً ملكية جديدة بسلطانية. والتأرجح
+      السني–الشيعي في عهده هو أبرز نموذج للتقلب الديني المغولي
+      بعد الإسلام؛ وستعود الإيلخانية في عهد ابنه أبي سعيد إلى
+      المذهب السني. ودقّةُ التاريخ: سنة ٧٠٥ هـ لإسلامه السني
+      الأول مُحقَّقة بإجماع، أما تحوّله الشيعي فيُروى بين سنتي
+      ٧٠٧ و ٧٠٩ هـ.
+    description_fr: |
+      Muḥammad Khudābanda ibn Arghūn — frère cadet de Ghazan Khan
+      et son successeur au titre de huitième Ilkhān — fut baptisé
+      chrétien dans l'enfance (sa mère bouddhiste s'étant convertie
+      au christianisme nestorien sous Arghūn), embrassa l'islam
+      sunnite ḥanafī en 705 H (1305 EC) à son accession à Tabrīz,
+      puis se tourna vers le chiisme duodécimain vers 709 H
+      (1310 EC) sous l'influence de l'*ʿallāma* al-Ḥillī (un
+      juriste duodécimain d'Iraq, sans lien avec les al-Ḥillī
+      sunnites). Il est consigné sous le nom régnal *Öljeitü*
+      (« le béni ») et le laqab *Khudābanda* (« serviteur de
+      Dieu »). Les sources sunnites classiques — Ibn Kathīr,
+      al-Dhahabī, Ibn Ḥajar — relèvent le passage à l'adhésion
+      duodécimaine de manière factuelle mais critique ; al-Dhahabī
+      ouvre sa nécrologie avec regret pour « son innovation
+      religieuse à la fin », tout en préservant son rôle de
+      mécène du *Jāmiʿ al-Tawārīkh* de Rashīd al-Dīn et de
+      fondateur de la nouvelle capitale royale à Sulṭāniyya.
+      L'oscillation sunnite–chiite à travers son règne est
+      l'instance la plus frappante de la volatilité religieuse
+      mongole post-conversion ; sous son fils Abū Saʿīd,
+      l'Ilkhānat reviendrait à l'adhésion sunnite. Précision
+      temporelle : 705 H pour l'islam sunnite initial est bien
+      attesté ; le glissement duodécimain est diversement situé
+      entre 707 et 709 H.
+    canonical_hijri: {year: 705, precision: year}
+    canonical_gregorian: {date: 1305-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr records Öljeitü's accession and Sunni Ḥanafī Islam in 705 AH and the later turn to Twelver adherence under al-Ḥillī's influence."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī notes both phases — initial Sunni Islam in 705 AH and the later Imāmī shift — with critical framing of the latter."
+      - source_key: ei2
+        notes: "EI2 'Ūljaytū' confirms the 705 AH conversion and the chronology of the Twelver shift."
+    tags: [mongol, ilkhanate, conversion, oljeitu, hanafi, twelver, sultaniyya]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-oljeitu
+    category: ruler_death
+    title_en: Death of Öljeitü — Patron of Sulṭāniyya and the *Jāmiʿ al-Tawārīkh*
+    title_ar: وفاة أُلْجايْتُو — راعي سلطانيّة و«جامع التواريخ»
+    title_fr: Mort d'Öljeitü — mécène de Sulṭāniyya et du *Jāmiʿ al-Tawārīkh*
+    description_en: |
+      Muḥammad Khudābanda Öljeitü, eighth Ilkhān, died at
+      Sulṭāniyya — the new royal capital he had built halfway
+      between Qazwīn and Zanjān — on 16 Dhū al-Ḥijja 716 AH (16
+      December 1316 CE), aged thirty-six, after a thirteen-year
+      reign. His mausoleum at Sulṭāniyya, completed in 712 AH and
+      crowned by the largest brick dome in the Islamic east before
+      the Ottoman age (over fifty metres in span, glazed in
+      turquoise faience), survives intact and is the architectural
+      monument of his reign. He had completed the patronage of
+      Rashīd al-Dīn's *Jāmiʿ al-Tawārīkh* — the universal history
+      that included sections on the Mongols, the Chinese, the
+      Indians and the Franks alongside the standard Islamic
+      narrative — and had presided over the apogee of the
+      Persian-language administrative culture that would carry
+      forward into the Timurid and early Safavid periods. He was
+      succeeded by his twelve-year-old son Abū Saʿīd Bahādur Khan,
+      under the regency of the amīr Chūbān; the boy-Ilkhān would
+      restore Sunni adherence as the state religion. Classical
+      Sunni sources record the day-precision under the events of
+      Dhū al-Ḥijja 716 AH.
+    description_ar: |
+      توفي محمد خدابنده «أُلْجايْتُو» — ثامن الإيلخانات — بسلطانية،
+      العاصمة الملكية الجديدة التي بناها بين قَزوين وزنجان، في
+      ١٦ ذي الحجة ٧١٦ هـ (١٦ ديسمبر ١٣١٦ م) عن ست وثلاثين سنة
+      بعد ولاية ثلاث عشرة سنة. وقُبَّتُه بسلطانية، التي أُكملت سنة
+      ٧١٢ هـ وكانت أعظمَ قبّة آجُرّيّة في المشرق الإسلامي قبل العصر
+      العثماني (يبلغ قُطرُها خمسين متراً، مكسوّةٌ بالقاشاني الفيروزي
+      اللون)، ما زالت قائمةً، وهي شاهدةُ ولايته العمرانية. وكان قد
+      أتمَّ رعايةَ «جامع التواريخ» للهَمَذاني — التاريخ الجامع الذي
+      ضمَّ المغولَ والصِّينيين والهنود والفرنج إلى السرد الإسلامي
+      المعتاد — وأشرف على ذروة ثقافة الديوان الإيرانية الفارسية
+      التي ستستمر إلى عصر التيموريين وبدايات الصفويين. وخلفه ابنُه
+      أبو سعيد بهادر خان وله اثنتا عشرة سنة، تحت وصاية الأمير
+      «جوبان» («چوبان»)، وهو الإيلخان الصبيُّ الذي سيعيد المذهبَ
+      السني ديناً للدولة. وتسجِّل المصادر السنية الكلاسيكية الدقّةَ
+      اليومية في حوادث ذي الحجة ٧١٦ هـ.
+    description_fr: |
+      Muḥammad Khudābanda Öljeitü, huitième Ilkhān, mourut à
+      Sulṭāniyya — la nouvelle capitale royale qu'il avait
+      construite à mi-chemin entre Qazwīn et Zanjān — le 16 Dhū
+      al-Ḥijja 716 H (16 décembre 1316 EC), à l'âge de
+      trente-six ans, après treize ans de règne. Son mausolée à
+      Sulṭāniyya, achevé en 712 H et couronné de la plus grande
+      coupole de brique de l'Orient islamique avant l'époque
+      ottomane (plus de cinquante mètres de portée, glaçurée de
+      faïence turquoise), subsiste intact et constitue le
+      monument architectural de son règne. Il avait achevé le
+      mécénat du *Jāmiʿ al-Tawārīkh* de Rashīd al-Dīn —
+      l'histoire universelle qui incluait des sections sur les
+      Mongols, les Chinois, les Indiens et les Francs aux côtés
+      du récit islamique standard — et avait présidé à l'apogée
+      de la culture administrative persane qui se prolongerait
+      dans la période timouride et au début safavide. Lui succéda
+      son fils Abū Saʿīd Bahādur Khan, âgé de douze ans, sous la
+      régence de l'émir Chūbān ; le jeune Ilkhān restaurerait
+      l'adhésion sunnite comme religion d'État. Les sources
+      sunnites classiques rapportent la précision journalière
+      sous les événements de Dhū al-Ḥijja 716 H.
+    canonical_hijri: {year: 716, month: 12, day: 16, precision: day}
+    canonical_gregorian: {date: 1316-12-16, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr enters the death of Öljeitü under Dhū al-Ḥijja 716 AH at Sulṭāniyya."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Öljeitü among the obituaries of 716 AH."
+      - source_key: ibn_hajar_durar
+        notes: "Ibn Ḥajar's al-Durar al-Kāmina (8th AH century notables) gives the biographical entry with the day-precision."
+      - source_key: ei2
+        notes: "EI2 'Ūljaytū' confirms 16 Dhū al-Ḥijja 716 AH/16 December 1316 at Sulṭāniyya."
+    tags: [mongol, ilkhanate, ruler_death, oljeitu, sultaniyya, mausoleum]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ILKHANATE — LAST UNIFIED ILKHĀN
+  # =========================================================================
+
+  - slug: death-of-abu-said-bahadur-khan
+    category: ruler_death
+    title_en: Death of Abū Saʿīd Bahādur Khan — End of the Unified Ilkhanate
+    title_ar: وفاة أبي سعيد بهادر خان — نهاية الإيلخانية الموحَّدة
+    title_fr: Mort d'Abū Saʿīd Bahādur Khan — fin de l'Ilkhānat unifié
+    description_en: |
+      Abū Saʿīd ibn Öljeitü Bahādur Khan, ninth and last unified
+      Ilkhān of Iran and Iraq, died on 13 Rabīʿ II 736 AH (1
+      December 1335 CE) at Qarābāgh in Arrān (modern-day eastern
+      Anatolia / western Azerbaijan), aged thirty, while
+      campaigning against the Golden Horde under Özbeg Khan. He
+      had ascended at twelve in 716 AH under the regency of the
+      amīr Chūbān, executed Chūbān in 728 AH after a thirteen-year
+      regency, and ruled directly thereafter. His reign restored
+      Sunni adherence as the state religion of the Ilkhanate
+      (reversing his father Öljeitü's Twelver turn), maintained
+      the Mamlūk peace concluded in 723 AH, and oversaw the
+      operation of the Tabrīz–Sulṭāniyya court under the
+      historian-vizier Ghiyāth al-Dīn Muḥammad — son of Rashīd
+      al-Dīn — until that vizier's execution in 736 AH at Abū
+      Saʿīd's own death-date. He left no son. The Ilkhanate
+      fragmented immediately into rival successor states (the
+      Jalāyirid sultanate at Baghdad, the Chūbānid amīrate in
+      Azerbaijan, the Sarbadār state in Khurāsān, the Muẓaffarid
+      dynasty in Fars), none of which claimed the universal
+      Ilkhanid title. Classical Sunni sources mark his death as
+      the end of the Ilkhanate proper.
+    description_ar: |
+      توفي أبو سعيد بن أُلْجايْتُو بهادر خان — تاسع الإيلخانات
+      وآخرُ من جمع المُلكَ على إيران والعراق — في ١٣ ربيع الآخر
+      ٧٣٦ هـ (١ ديسمبر ١٣٣٥ م) بقَرَه‌باغ بأرّان (في شرقي تركيا
+      وغربي أذربيجان اليوم) عن ثلاثين سنة، وهو في حملة على
+      القبيلة الذهبية في عهد أزبَك خان. وكان قد تولى وله ثنتا
+      عشرة سنة سنة ٧١٦ هـ تحت وصاية الأمير «جوبان»، ثم قتل
+      جوبان سنة ٧٢٨ هـ بعد وصايةٍ امتدت ثلاث عشرة سنة، وحكم
+      لنفسه من بعدُ مباشرةً. وأعادت ولايته المذهبَ السني ديناً
+      للدولة الإيلخانيّة (نقضاً لتشيُّع أبيه)، وحفظت السلامَ
+      المملوكي الذي عُقد سنة ٧٢٣ هـ، وأشرفت على عمل بلاطَي
+      تبريز وسلطانيّة في وزارة المؤرخ غياث الدين محمد — ابن
+      رشيد الدين الهَمَذاني — حتى قُتل الوزير سنة ٧٣٦ هـ في يوم
+      وفاة الإيلخان نفسه. ولم يخلِّف ولداً، فانقسمت الإيلخانية
+      من فورها إلى دويلات متنافسة: السلطنة الجلائرية ببغداد،
+      وإمارة آل جوبان («چوبان») بأذربيجان، ودولة السربَدارية
+      بخراسان، والدولة المظفَّريّة بفارس، ولم تطالب أيٌّ منها
+      بلقب الإيلخان الجامع. وتسجِّل المصادر السنية الكلاسيكية
+      موتَه نهايةً للإيلخانية الموحَّدة فعلاً.
+    description_fr: |
+      Abū Saʿīd ibn Öljeitü Bahādur Khan, neuvième et dernier
+      Ilkhān unifié d'Iran et d'Iraq, mourut le 13 Rabīʿ II 736 H
+      (1er décembre 1335 EC) à Qarābāgh en Arrān (dans l'est de
+      la Turquie et l'ouest de l'Azerbaïdjan actuels), à l'âge
+      de trente ans, alors qu'il était en campagne contre la
+      Horde d'Or d'Özbeg Khan. Il était monté sur le trône à
+      douze ans en 716 H sous la régence de l'émir Chūbān, avait
+      exécuté Chūbān en 728 H après treize ans de régence, et
+      régna directement par la suite. Son règne restaura l'adhésion
+      sunnite comme religion d'État de l'Ilkhānat (renversant le
+      tournant duodécimain de son père Öljeitü), maintint la paix
+      mamelouke conclue en 723 H, et présida au fonctionnement de
+      la cour Tabrīz–Sulṭāniyya sous le vizirat de l'historien
+      Ghiyāth al-Dīn Muḥammad — fils de Rashīd al-Dīn — jusqu'à
+      l'exécution du vizir en 736 H le jour même de la mort de
+      l'Ilkhān. N'ayant pas laissé de fils, l'Ilkhānat se
+      fragmenta aussitôt en États successeurs rivaux (sultanat
+      jalāyiride à Bagdad, émirat chūbānide en Azerbaïdjan, État
+      sarbadār au Khurāsān, dynastie muẓaffaride en Fars), dont
+      aucun ne revendiqua le titre universel ilkhānide. Les
+      sources sunnites classiques retiennent sa mort comme la
+      fin de l'Ilkhānat proprement dit.
+    canonical_hijri: {year: 736, month: 4, day: 13, precision: day}
+    canonical_gregorian: {date: 1335-12-01, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr enters the death of Abū Saʿīd in 736 AH at Qarābāgh and the consequent fragmentation of the Ilkhanate."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Abū Saʿīd among the obituaries of 736 AH (al-Dhahabī himself died in 748 AH)."
+      - source_key: ibn_hajar_durar
+        notes: "Ibn Ḥajar's al-Durar al-Kāmina gives the biographical entry with the day-precision and details the Sunni-restoration aspect."
+      - source_key: ei2
+        notes: "EI2 'Abū Saʿīd Bahādur Khan' confirms 13 Rabīʿ II 736 AH/1 December 1335 at Qarābāgh."
+    tags: [mongol, ilkhanate, ruler_death, abu-said, sunni-restoration, fragmentation]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # PERSIAN HISTORIANS UNDER MONGOL PATRONAGE
+  # =========================================================================
+
+  - slug: death-of-ata-malik-al-juwayni-historian
+    category: scholar_death
+    title_en: Death of ʿAṭāʾ Malik al-Juwaynī — Author of *Tārīkh-i Jahāngushāy*
+    title_ar: وفاة عطاء ملك الجويني المؤرخ — صاحب «تاريخ جهانگشاي»
+    title_fr: Mort de ʿAṭāʾ Malik al-Juwaynī — auteur du *Tārīkh-i Jahāngushāy*
+    description_en: |
+      ʿAlāʾ al-Dīn ʿAṭāʾ Malik ibn Muḥammad al-Juwaynī — Persian
+      secretary in the Mongol service who served as governor of
+      Baghdad under Hulagu and his successors for over twenty
+      years (657–681 AH) — died at Mūghān (in Azerbaijan) in
+      681 AH (1283 CE) aged about fifty-seven, distinct from his
+      Sunni-Shāfiʿī namesake Imām al-Ḥaramayn al-Juwaynī (d. 478
+      AH), the Ashʿarī jurist of Nīshāpūr. His *Tārīkh-i Jahāngushāy*
+      ("History of the World-Conqueror") composed in Persian
+      between 650 and 658 AH at Hulagu's encampment, narrates in
+      three volumes the rise of Chinggis Khan, the Khwarazmshāh
+      campaign, and the Ismāʿīlī state of Alamūt — the last of
+      which he had personally witnessed the destruction of in
+      654 AH at Hulagu's side. The chronicle is the principal
+      contemporary Muslim source for the Mongol conquests
+      (alongside Ibn al-Athīr's earlier and shorter account in
+      Arabic) and is unique in giving the perspective of an
+      Iranian Muslim official inside the Mongol administration.
+      Despite long service to the pagan Ilkhāns, Juwaynī remained
+      a practising Sunni Muslim throughout; he was tortured to
+      death after political enemies (chiefly the rival vizier
+      Majd al-Mulk) levelled embezzlement charges against him at
+      Hulagu's son Abagha's court and the matter was finally
+      resolved against him under Aḥmad Tegüder.
+    description_ar: |
+      توفي علاء الدين عطاء ملك بن محمد الجويني — الكاتب الفارسي في
+      الديوان المغولي، وكان والياً على بغداد للإيلخان وخلفائه أكثر
+      من عشرين سنة (٦٥٧–٦٨١ هـ) — بمَوغان (في أذربيجان) سنة ٦٨١
+      هـ (١٢٨٣ م) عن نحو سبع وخمسين سنة، وهو غيرُ سميِّه إمام
+      الحرمين الجويني الشافعي الأشعري (ت ٤٧٨ هـ) إمام الفقه
+      السني في نيسابور. ولـ«تاريخ جهانگشاي» (تاريخ فاتح العالم)،
+      الذي صنّفه بالفارسية بين سنتي ٦٥٠ و ٦٥٨ هـ في معسكر
+      هولاكو، رواية ثلاثية الأجزاء لظهور جنكيز خان، وحملة
+      الخوارزمشاه، ودولة الإسماعيلية بألموت — وقد شهد عطاءُ ملك
+      نهاية الأخيرة بنفسه سنة ٦٥٤ هـ بصُحبة هولاكو. وهذا التاريخ
+      هو المصدر المعاصر المسلم الرئيس لفتوحات المغول (مع رواية
+      ابن الأثير الأعجل والأقصر بالعربية)، وهو فريدٌ في تقديم
+      وجهة نظر موظف مسلم إيراني داخل الإدارة المغولية. ومع طول
+      خدمته للإيلخانات الوثنيين، بقي الجويني مسلماً سنياً عاملاً
+      بدينه؛ وعُذِّب حتى الموت بعد أن وجَّه إليه خصومُه السياسيون
+      (وعلى رأسهم الوزير المنافس مجد الملك) تهماً بالاختلاس في
+      بلاط الإيلخان أبَغا بن هولاكو، ثم بُتَّ في الأمر ضدّه نهائياً
+      في عهد أحمد تَكُودار.
+    description_fr: |
+      ʿAlāʾ al-Dīn ʿAṭāʾ Malik ibn Muḥammad al-Juwaynī — secrétaire
+      persan au service mongol qui servit comme gouverneur de
+      Bagdad sous Hulagu et ses successeurs pendant plus de vingt
+      ans (657–681 H) — mourut à Mūghān (en Azerbaïdjan) en 681 H
+      (1283 EC) à l'âge d'environ cinquante-sept ans, à distinguer
+      de son homonyme sunnite-shāfiʿī Imām al-Ḥaramayn al-Juwaynī
+      (m. 478 H), le juriste ashʿarī de Nīshāpūr. Son *Tārīkh-i
+      Jahāngushāy* (« Histoire du Conquérant du monde »), composé
+      en persan entre 650 et 658 H au campement de Hulagu, narre
+      en trois volumes l'ascension de Gengis Khan, la campagne du
+      Khwārazmshāh et l'État ismaélien d'Alamūt — dont il avait
+      personnellement assisté à la destruction en 654 H aux côtés
+      de Hulagu. La chronique est la principale source musulmane
+      contemporaine sur les conquêtes mongoles (aux côtés du
+      récit antérieur et plus bref d'Ibn al-Athīr en arabe) et
+      est unique en donnant la perspective d'un fonctionnaire
+      musulman iranien à l'intérieur de l'administration mongole.
+      Malgré son long service auprès des Ilkhāns païens, Juwaynī
+      demeura un musulman sunnite pratiquant tout au long de sa
+      vie ; il fut torturé à mort après que ses ennemis politiques
+      (au premier chef le vizir rival Majd al-Mulk) l'eurent
+      accusé de détournement de fonds à la cour d'Abagha, fils
+      de Hulagu, et que l'affaire eut été tranchée contre lui
+      sous Aḥmad Tegüder.
+    canonical_hijri: {year: 681, precision: year}
+    canonical_gregorian: {date: 1283-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "al-Dhahabī enters ʿAṭāʾ Malik al-Juwaynī (the historian-secretary, distinct from Imām al-Ḥaramayn) among the obituaries of 681 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the death of the Mongol-era governor-historian Juwaynī in 681 AH and notes the Tārīkh-i Jahāngushāy."
+      - source_key: ei2
+        notes: "EI2 'D̲j̲uwaynī, ʿAlāʾ al-Dīn' confirms 681 AH/1283 and details the chronicle and its place in the Mongol-era Persian historiography."
+    tags: [mongol-era, ilkhanid, persian-historian, jahangushay, scholar_death, baghdad]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: execution-of-rashid-al-din-hamadhani
+    category: political_event
+    title_en: Execution of Rashīd al-Dīn Hamadhānī — Vizier-Historian of *Jāmiʿ al-Tawārīkh*
+    title_ar: مقتل رشيد الدين الهَمَذاني — وزير «جامع التواريخ» ومؤرخه
+    title_fr: Exécution de Rashīd al-Dīn Hamadhānī — vizir et historien du *Jāmiʿ al-Tawārīkh*
+    description_en: |
+      Rashīd al-Dīn Faḍl Allāh ibn ʿImād al-Dawla Abū al-Khayr
+      ibn Muwaffaq al-Dawla al-Hamadhānī — Persian historian,
+      polymath, physician, and Ilkhanid vizier — was executed at
+      Sulṭāniyya on 30 Jumādā I 718 AH (18 July 1318 CE), aged
+      about seventy-one. Born to a Jewish family of Hamadhān, he
+      had converted to Islam in his thirties and risen in
+      Ilkhanid service first as court physician to Abagha, then
+      as vizier under Ghazan and Öljeitü from 697 AH onward. His
+      *Jāmiʿ al-Tawārīkh* ("Compendium of Chronicles"), commissioned
+      by Ghazan and completed under Öljeitü in 710 AH, was the
+      first attempt at a true universal history in Islamic
+      historiography — covering the Mongols, the Turks, the
+      Chinese (with information drawn from Mongol and Chinese
+      informants at the Ilkhanid court), the Indians, the Jews,
+      and the Christians alongside the standard Islamic narrative,
+      illustrated in lavish manuscript copies (the Edinburgh and
+      Khalili fragments survive). Under Abū Saʿīd's regency he
+      was charged with poisoning Öljeitü; the charge was almost
+      certainly engineered by his rival the vizier Tāj al-Dīn
+      ʿAlī Shāh. Rashīd al-Dīn was beheaded together with his son
+      and his head sent for ten days through the streets of
+      Tabrīz; his vast endowed quarter at Tabrīz (the *Rabʿ-i
+      Rashīdī*) was confiscated. His grandson Ghiyāth al-Dīn
+      Muḥammad would serve as Abū Saʿīd's vizier in turn until
+      his own execution in 736 AH.
+    description_ar: |
+      قُتل رشيد الدين فضل الله بن عماد الدولة أبي الخير بن موفق
+      الدولة الهَمَذاني — المؤرخ الفارسي، والموسوعيُّ الطبيبُ
+      الوزير الإيلخاني — بسلطانية في ٣٠ جمادى الأولى ٧١٨ هـ (١٨
+      يوليوز ١٣١٨ م) عن نحو إحدى وسبعين سنة. وُلد لأسرةٍ يهودية
+      من أهل هَمَذان، فأسلم في ثلاثينياته، وترقّى في الديوان
+      الإيلخاني طبيباً للبلاط في عهد أبَغا، ثم وزيراً لغازان
+      وأُلْجايْتُو من سنة ٦٩٧ هـ. وكان «جامع التواريخ» الذي كلَّفه به
+      غازان وأكمله في عهد أُلْجايْتُو سنة ٧١٠ هـ أوّلَ محاولةٍ
+      لتاريخ عالمي حقّ في علم التاريخ الإسلامي — يضمّ المغولَ،
+      والأتراك، والصينيين (بمعلومات من مخبرين مغول وصينيين في
+      البلاط الإيلخاني)، والهنود، واليهود، والنصارى إلى السرد
+      الإسلامي المعتاد، مزدانةً نسخُه الأصلية بالمنمنمات الفاخرة
+      (وما تزال شذرات «أدنبره» و«مكتبة الخليلي» شاهدةً على ذلك).
+      وفي عهد وصاية أبي سعيد رُمي بتسميم أُلْجايْتُو — تهمة كاد
+      أن يدبّرها يقيناً منافسُه الوزيرُ تاج الدين علي شاه — فقُطعت
+      رأسه ورأسُ ابنه، وطيف برأسه عشرة أيام في شوارع تبريز،
+      وصودرت ضاحيتُه الموقوفة الواسعة في تبريز («الرَّبع
+      الرشيدي»). وسيتولى حفيدُه غياث الدين محمد وزارةَ أبي سعيد
+      من بعدُ، إلى أن قُتل بدوره سنة ٧٣٦ هـ.
+    description_fr: |
+      Rashīd al-Dīn Faḍl Allāh ibn ʿImād al-Dawla Abū al-Khayr ibn
+      Muwaffaq al-Dawla al-Hamadhānī — historien persan, polymathe,
+      médecin et vizir ilkhānide — fut exécuté à Sulṭāniyya le 30
+      Jumādā I 718 H (18 juillet 1318 EC), à l'âge d'environ
+      soixante et onze ans. Né dans une famille juive de Hamadhān,
+      il s'était converti à l'islam dans la trentaine et s'était
+      élevé dans le service ilkhānide d'abord comme médecin de
+      cour sous Abagha, puis comme vizir sous Ghazan et Öljeitü à
+      partir de 697 H. Son *Jāmiʿ al-Tawārīkh* (« Recueil des
+      chroniques »), commandé par Ghazan et achevé sous Öljeitü
+      en 710 H, fut la première tentative d'une véritable histoire
+      universelle dans l'historiographie islamique — couvrant les
+      Mongols, les Turcs, les Chinois (avec des informations
+      tirées d'informateurs mongols et chinois à la cour
+      ilkhānide), les Indiens, les Juifs et les Chrétiens aux
+      côtés du récit islamique standard, illustré dans de
+      somptueuses copies manuscrites (les fragments d'Édimbourg
+      et de la Khalili Collection subsistent). Sous la régence
+      d'Abū Saʿīd, il fut accusé d'avoir empoisonné Öljeitü ;
+      l'accusation fut presque certainement orchestrée par son
+      rival le vizir Tāj al-Dīn ʿAlī Shāh. Rashīd al-Dīn fut
+      décapité avec son fils et sa tête promenée dix jours dans
+      les rues de Tabrīz ; son vaste quartier d'awqāf à Tabrīz
+      (le *Rabʿ-i Rashīdī*) fut confisqué. Son petit-fils
+      Ghiyāth al-Dīn Muḥammad servirait à son tour comme vizir
+      d'Abū Saʿīd jusqu'à sa propre exécution en 736 H.
+    canonical_hijri: {year: 718, month: 5, day: 30, precision: day}
+    canonical_gregorian: {date: 1318-07-18, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya enters the execution of Rashīd al-Dīn Hamadhānī under the events of 718 AH and notes the political background."
+      - source_key: ibn_hajar_durar
+        notes: "Ibn Ḥajar's al-Durar al-Kāmina (8th AH century notables) gives the biographical entry with the day-precision."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Rashīd al-Dīn among the obituaries of 718 AH."
+      - source_key: ei2
+        notes: "EI2 'Rashīd al-Dīn Ṭabīb' confirms 30 Jumādā I 718 AH/18 July 1318 at Sulṭāniyya."
+    tags: [mongol-era, ilkhanid, persian-historian, jami-al-tawarikh, vizier, execution]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-hamdallah-mustawfi-qazwini
+    category: scholar_death
+    title_en: Death of Hamd Allāh Mustawfī Qazwīnī — Author of *Tārīkh-i Guzīda*
+    title_ar: وفاة حمد الله المستوفي القزويني — صاحب «تاريخ گزيده»
+    title_fr: Mort de Hamd Allāh Mustawfī Qazwīnī — auteur du *Tārīkh-i Guzīda*
+    description_en: |
+      Hamd Allāh ibn Abī Bakr ibn Aḥmad al-Mustawfī al-Qazwīnī —
+      Persian historian, geographer, and Ilkhanid fiscal
+      administrator (his title *Mustawfī* meaning "fiscal
+      controller") — died around 750 AH (1349 CE) at Qazwīn,
+      distinct from Zakariyyā al-Qazwīnī the cosmographer (d. 682
+      AH/1283), author of *ʿAjāʾib al-Makhlūqāt*. He served in the
+      financial administration of the Ilkhanate under Rashīd
+      al-Dīn Hamadhānī and continued under Abū Saʿīd. His
+      principal works are three: the *Tārīkh-i Guzīda*
+      ("Selected History"), a Persian universal chronicle
+      completed in 730 AH and dedicated to Ghiyāth al-Dīn
+      Muḥammad (Rashīd al-Din's son) — a digest of Islamic and
+      Iranian history from creation to his own day; the
+      *Nuzhat al-Qulūb* ("Recreation of Hearts"), a
+      cosmographical-geographical work completed around 740 AH
+      that is a primary source for the medieval geography of
+      Iran, Mesopotamia, the Caucasus, and Anatolia; and the
+      *Ẓafarnāma*, a 75,000-line Persian verse continuation of
+      Firdawsī's *Shāhnāma* covering Islamic history. His
+      precision on tax registers and post-stages makes the
+      *Nuzhat al-Qulūb* one of the great quantitative documents
+      of medieval Iranian history.
+    description_ar: |
+      توفي حمد الله بن أبي بكر بن أحمد المستوفي القزويني —
+      المؤرخ والجغرافي الفارسي والمستوفي (الناظر المالي) في
+      الديوان الإيلخاني — قُرابة سنة ٧٥٠ هـ (١٣٤٩ م) بقَزوين،
+      وهو غيرُ زكريا القزويني الكوسموغرافي (ت ٦٨٢ هـ/١٢٨٣ م)
+      صاحب «عجائب المخلوقات». وكان قد خدم في الديوان المالي
+      الإيلخاني تحت رشيد الدين الهَمَذاني، واستمر في خدمته في
+      عهد أبي سعيد. وأمَّاتُ مؤلَّفاته ثلاث: «تاريخ گزيده» — تاريخٌ
+      فارسي عام أتمَّه سنة ٧٣٠ هـ وأهداه لغياث الدين محمد ابن
+      رشيد الدين، خلاصةً للتاريخ الإسلامي والإيراني من بدء الخلق
+      إلى يومه؛ و«نزهة القلوب» — كتاب جغرافي–كوسموغرافي أتمَّه
+      نحو سنة ٧٤٠ هـ، وهو من المصادر الأولى للجغرافيا الوسيطة
+      لإيران والعراق والقفقاس وأناضولية؛ و«ظفرنامة» — منظومة
+      فارسية في خمسةٍ وسبعين ألف بيت، تمديدٌ لـ«شاهنامة» الفردوسي
+      تتناول التاريخ الإسلامي. ودقّتُه في سجلات الضرائب ومحطات
+      البريد جعلت «نزهة القلوب» من أعظم الوثائق الكميَّة لتاريخ
+      إيران الوسيط.
+    description_fr: |
+      Hamd Allāh ibn Abī Bakr ibn Aḥmad al-Mustawfī al-Qazwīnī —
+      historien et géographe persan, et fonctionnaire fiscal
+      ilkhānide (son titre de *Mustawfī* signifiant « contrôleur
+      fiscal ») — mourut vers 750 H (1349 EC) à Qazwīn ; à
+      distinguer de Zakariyyā al-Qazwīnī le cosmographe (m. 682
+      H/1283), auteur des *ʿAjāʾib al-Makhlūqāt*. Il avait servi
+      dans l'administration financière de l'Ilkhānat sous Rashīd
+      al-Dīn Hamadhānī, puis continua sous Abū Saʿīd. Ses œuvres
+      principales sont au nombre de trois : le *Tārīkh-i Guzīda*
+      (« Histoire choisie »), chronique universelle persane
+      achevée en 730 H et dédiée à Ghiyāth al-Dīn Muḥammad (le
+      fils de Rashīd al-Dīn) — un précis d'histoire islamique et
+      iranienne depuis la création jusqu'à son temps ; le
+      *Nuzhat al-Qulūb* (« Récréation des cœurs »), ouvrage
+      cosmographique et géographique achevé vers 740 H qui est
+      l'une des sources premières de la géographie médiévale de
+      l'Iran, de la Mésopotamie, du Caucase et de l'Anatolie ; et
+      le *Ẓafarnāma*, un poème persan de 75 000 vers prolongeant
+      le *Shāhnāma* de Firdawsī et couvrant l'histoire islamique.
+      Sa précision sur les registres fiscaux et les relais
+      postaux fait du *Nuzhat al-Qulūb* l'un des grands documents
+      quantitatifs de l'histoire iranienne médiévale.
+    canonical_hijri: {year: 750, precision: year}
+    canonical_gregorian: {date: 1349-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar's al-Durar al-Kāmina enters Hamd Allāh Mustawfī (the Qazwīnī historian-mustawfī, distinct from the cosmographer Zakariyyā) among the 8th AH century notables; year-only attestation."
+      - source_key: ei2
+        notes: "EI2 'Ḥamd Allāh al-Mustawfī al-Ḳazwīnī' confirms ~750 AH/c. 1349 and details the three principal works."
+    tags: [mongol-era, ilkhanid, persian-historian, geographer, mustawfi, qazwin, scholar_death]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-banakati
+    category: scholar_death
+    title_en: Death of Banākatī — Author of *Tārīkh-i Banākatī*
+    title_ar: وفاة البَناكَتي — صاحب «تاريخ بَناكَتي»
+    title_fr: Mort de Banākatī — auteur du *Tārīkh-i Banākatī*
+    description_en: |
+      Abū Sulaymān Dāwūd ibn Tāj al-Dīn Abī al-Faḍl Muḥammad
+      al-Banākatī — Persian historian and *malik al-shuʿarāʾ*
+      (court poet laureate) of Ghazan Khan, named for his birth
+      town Banākat on the Syr Darya in Transoxiana — died around
+      730 AH (1330 CE). His *Rawḍat ulī al-Albāb fī Maʿrifat
+      al-Tawārīkh wa-l-Ansāb* — popularly known simply as
+      *Tārīkh-i Banākatī* — completed in 717 AH and dedicated to
+      Abū Saʿīd Bahādur Khan, is a one-volume Persian universal
+      history that is essentially a compact recension of Rashīd
+      al-Dīn's *Jāmiʿ al-Tawārīkh* with additional material from
+      Juwaynī's *Jahāngushāy* and from the author's own time at
+      court. Though Banākatī's work has often been treated as
+      derivative, it preserves source material from now-lost
+      Ilkhanid documents, has its own distinctive arrangement
+      (chronological by world region rather than dynasty), and is
+      a primary witness for Ghazan's literary court. Banākatī is
+      also remembered for his poetry in Persian and for being
+      among the cultural figures who signalled the maturation of
+      Persian as the chancery language of the Ilkhanid–early-post-
+      Ilkhanid order.
+    description_ar: |
+      توفي أبو سليمان داود بن تاج الدين أبي الفضل محمد البَناكَتي
+      — المؤرخ الفارسي و«ملك الشعراء» في بلاط غازان خان، نسبةً
+      إلى بلدته «بَناكَت» على نهر سَيحون بما وراء النهر — قُرابة
+      سنة ٧٣٠ هـ (١٣٣٠ م). و«روضة أولي الألباب في معرفة
+      التواريخ والأنساب» — المعروف باختصار «تاريخ بَناكَتي» —
+      أتمَّه سنة ٧١٧ هـ وأهداه لأبي سعيد بهادر خان، وهو تاريخ
+      فارسي عالمي في مجلَّد واحد، تركيز ومختصرٌ لـ«جامع التواريخ»
+      للهَمَذاني، مع زيادات من «جهانگشاي» الجويني ومن مشاهدات
+      المؤلف نفسه في البلاط. ومع أن أعمال البَناكَتي عُدّت في
+      الغالب فرعية تابعة، فإنها تحفظ موادَّ من وثائق إيلخانية
+      ضائعة، ولها ترتيبها المميز (زمنيٌّ على مبدأ الإقليم لا
+      السلالة)، وهي شاهد أوّل على بلاط غازان الأدبي. وذُكر
+      البَناكَتي أيضاً بشعره الفارسي، وبكونه من رموز نضج اللغة
+      الفارسية لساناً ديوانياً للنظام الإيلخاني وما بعده مباشرةً.
+    description_fr: |
+      Abū Sulaymān Dāwūd ibn Tāj al-Dīn Abī al-Faḍl Muḥammad
+      al-Banākatī — historien persan et *malik al-shuʿarāʾ*
+      (poète laureat de cour) de Ghazan Khan, nommé d'après sa
+      ville natale de Banākat sur le Syr-Daria en Transoxiane —
+      mourut vers 730 H (1330 EC). Son *Rawḍat ulī al-Albāb fī
+      Maʿrifat al-Tawārīkh wa-l-Ansāb* — populairement connu
+      simplement sous le nom de *Tārīkh-i Banākatī* — achevé en
+      717 H et dédié à Abū Saʿīd Bahādur Khan, est une histoire
+      universelle persane en un seul volume qui est essentiellement
+      une recension compacte du *Jāmiʿ al-Tawārīkh* de Rashīd
+      al-Dīn, avec un apport supplémentaire du *Jahāngushāy* de
+      Juwaynī et des observations de l'auteur lui-même à la cour.
+      Bien que l'œuvre de Banākatī ait souvent été considérée
+      comme dérivative, elle préserve du matériel source provenant
+      de documents ilkhānides aujourd'hui perdus, possède un
+      arrangement distinctif qui lui est propre (chronologique
+      par région du monde plutôt que par dynastie) et est un
+      témoin de premier plan de la cour littéraire de Ghazan.
+      Banākatī est également retenu pour sa poésie persane et
+      pour avoir été l'une des figures culturelles signalant la
+      maturation du persan comme langue de chancellerie de
+      l'ordre ilkhānide et de l'immédiat post-ilkhānide.
+    canonical_hijri: {year: 730, precision: year}
+    canonical_gregorian: {date: 1330-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar's al-Durar al-Kāmina enters Banākatī among the 8th AH century notables; year-only attestation around 730 AH."
+      - source_key: ei2
+        notes: "EI2 'Banākatī' confirms ~730 AH/1330 and the Tārīkh-i Banākatī as a Persian universal history derivative of the Jāmiʿ al-Tawārīkh."
+    tags: [mongol-era, ilkhanid, persian-historian, banakati, scholar_death]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abu-al-fadl-al-bayhaqi-historian
+    category: scholar_death
+    title_en: Death of Abū al-Faḍl al-Bayhaqī — Persian Historian of *Tārīkh-i Bayhaqī*
+    title_ar: وفاة أبي الفضل البيهقي المؤرخ — صاحب «تاريخ بيهقي»
+    title_fr: Mort d'Abū al-Faḍl al-Bayhaqī — historien persan du *Tārīkh-i Bayhaqī*
+    description_en: |
+      Abū al-Faḍl Muḥammad ibn al-Ḥusayn al-Bayhaqī — Persian
+      Ghaznavid court secretary and historian — died at Bayhaq
+      (modern Sabzevār in Khurāsān) in 470 AH (1077 CE), aged
+      about seventy-two. He is to be sharply distinguished from
+      his contemporary the muḥaddith Abū Bakr Aḥmad ibn al-Ḥusayn
+      al-Bayhaqī (d. 458 AH/1066), the Sunni-Shāfiʿī hadith
+      compiler of the *Sunan al-Kubrā* — the two were unrelated
+      and worked in different fields. The historian Bayhaqī
+      served in the Ghaznavid chancery from the time of Maḥmūd
+      of Ghazna (r. 388–421 AH) through that of his sons Masʿūd I
+      and Mawdūd, completing nearly thirty years of secretarial
+      service before retirement. His *Tārīkh-i Masʿūdī* — also
+      called *Tārīkh-i Bayhaqī* and originally a thirty-volume
+      history of the entire Ghaznavid dynasty (of which only the
+      central section, on the reign of Masʿūd I, six volumes
+      surviving, has come down to us) — is one of the masterpieces
+      of medieval Persian prose and the earliest detailed
+      eyewitness chronicle of a Persianate Sunni dynasty. The
+      surviving books cover the years 422–432 AH from inside the
+      Ghaznavid bureaucracy, including the disastrous campaigns
+      against the Seljuks culminating at Dandanaqān in 431 AH
+      and Masʿūd's deposition and murder. The work's literary
+      quality — close-grained anecdote, ethical reflection, and
+      precise civil-service detail — set the standard for later
+      Persian historiography down to the Mongol-era chroniclers
+      above.
+    description_ar: |
+      توفي أبو الفضل محمد بن الحسين البيهقي — كاتب الديوان
+      الغزنوي والمؤرخ الفارسي — ببَيهَق (سَبزَوار اليوم بخراسان)
+      سنة ٤٧٠ هـ (١٠٧٧ م) عن نحو اثنتين وسبعين سنة. وهو غيرُ
+      أبي بكر أحمد بن الحسين البيهقي (ت ٤٥٨ هـ/١٠٦٦ م)
+      المحدِّث السني الشافعي صاحب «السنن الكبرى» — وكان
+      الرجلان معاصرَين لكنهما لا تربطهما صلة قرابة ولا اشتغالٍ
+      بفنٍّ واحد. وكان البيهقي المؤرخ قد عمل في ديوان الإنشاء
+      الغزنوي من عهد محمود الغزنوي (من ٣٨٨ إلى ٤٢١ هـ) مروراً
+      بعهدَي ابنيه مسعود الأول ومودود، فقضى نحو ثلاثين سنة في
+      خدمة الإنشاء قبل اعتزاله. و«تاريخ مسعودي» — المسمَّى أيضاً
+      «تاريخ بيهقي»، وهو في الأصل تاريخ في ثلاثين مجلداً للدولة
+      الغزنوية كلها (لم يبقَ منه إلا الستة المجلدات الوسطى في
+      عهد مسعود الأول) — من روائع النثر الفارسي الوسيط، وأقدم
+      تاريخٍ مفصَّلٍ شاهدِ عيان لدولة سنية فارسية. وتغطي المجلدات
+      الباقية السنوات من ٤٢٢ إلى ٤٣٢ هـ من داخل البيروقراطية
+      الغزنوية، ومنها الحملاتُ المشؤومة على السلاجقة وذروتُها
+      بدندانقان سنة ٤٣١ هـ، وخلعُ مسعود ومقتله. وأرسَت دقائقُ
+      عمله الأدبية — السرد القصصي الدقيق، والتأمل الأخلاقي،
+      وضبط تفاصيل الديوان — معياراً لمن لحقه من المؤرخين
+      الفارسيين حتى مؤرخي العصر المغولي المذكورين أعلاه.
+    description_fr: |
+      Abū al-Faḍl Muḥammad ibn al-Ḥusayn al-Bayhaqī — secrétaire
+      ghaznavide à la chancellerie et historien persan — mourut à
+      Bayhaq (Sabzevār actuelle au Khurāsān) en 470 H (1077 EC),
+      à l'âge d'environ soixante-douze ans. Il est à distinguer
+      strictement de son contemporain le muḥaddith Abū Bakr
+      Aḥmad ibn al-Ḥusayn al-Bayhaqī (m. 458 H/1066), le
+      compilateur de hadiths sunnite-shāfiʿī des *Sunan al-Kubrā*
+      — les deux hommes n'étaient pas apparentés et travaillaient
+      dans des domaines différents. Bayhaqī l'historien servit à
+      la chancellerie ghaznavide depuis le temps de Maḥmūd de
+      Ghazna (r. 388–421 H) jusqu'à celui de ses fils Masʿūd I
+      et Mawdūd, accomplissant près de trente ans de service de
+      secrétariat avant la retraite. Son *Tārīkh-i Masʿūdī* —
+      également appelé *Tārīkh-i Bayhaqī* et à l'origine une
+      histoire en trente volumes de toute la dynastie ghaznavide
+      (dont seule la section centrale, sur le règne de Masʿūd I,
+      en six volumes survivants, est parvenue jusqu'à nous) — est
+      l'un des chefs-d'œuvre de la prose persane médiévale et la
+      première chronique détaillée de témoin oculaire d'une
+      dynastie sunnite persanisée. Les livres survivants couvrent
+      les années 422–432 H depuis l'intérieur de la bureaucratie
+      ghaznavide, y compris les campagnes désastreuses contre les
+      Seljoukides culminant à Dandanaqān en 431 H et la
+      déposition et l'assassinat de Masʿūd. La qualité littéraire
+      de l'œuvre — anecdote finement ciselée, réflexion éthique
+      et détail précis de l'administration — établit la norme
+      pour l'historiographie persane ultérieure jusqu'aux
+      chroniqueurs de l'époque mongole évoqués plus haut.
+    canonical_hijri: {year: 470, precision: year}
+    canonical_gregorian: {date: 1077-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the death of the Ghaznavid secretary-historian Abū al-Faḍl al-Bayhaqī in 470 AH and notes the multi-volume Persian chronicle."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters Abū al-Faḍl al-Bayhaqī (the historian, distinct from the muḥaddith) among the obituaries of 470 AH."
+      - source_key: ei2
+        notes: "EI2 'Bayhaḳī, Abū al-Faḍl' confirms 470 AH/1077 and details the Tārīkh-i Masʿūdī as the masterpiece of early Persian historical prose."
+    tags: [ghaznavid, persian-historian, bayhaqi, tarikh-i-masudi, scholar_death, khurasan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

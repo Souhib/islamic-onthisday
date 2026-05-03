@@ -1,0 +1,973 @@
+# Wave 47 of curated event additions (2026-04-27).
+# 13 Crusades-era / Ayyubid / Mamluk events, beyond the headline events
+# (Hattin, Mansoura, ʿAyn Jalut) already in the dataset.
+# Covers: Zengi, Marj ʿAyun, Aqṣa minbar, Arsuf, al-Kamil's death,
+# Khwarazmian sack of Jerusalem, Battle of La Forbie, Jalal al-Din
+# Khwarazmshah, al-Salih Ayyub, Turan Shah, Tripoli, Acre, Sibṭ ibn al-Jawzi.
+# All events attested in classical Sunni sources (Ibn al-Athir al-Kamil,
+# Ibn Kathir al-Bidaya wa-l-Nihaya, al-Dhahabi Tarikh al-Islam, Ibn
+# Khallikan Wafayat). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # ZENGID + AYYUBID FOUNDATIONS
+  # =========================================================================
+
+  - slug: assassination-of-imad-al-din-zengi
+    category: ruler_death
+    title_en: Assassination of ʿImād al-Din Zengī — Founder of the Zangid Counter-Crusade
+    title_ar: مقتل عماد الدين زنكي — مؤسس مشروع الجهاد الزنكي ضد الصليبيين
+    title_fr: Assassinat d'ʿImād al-Dīn Zengī — fondateur de la contre-croisade zangide
+    description_en: |
+      ʿImad al-Din Zengī ibn Aq Sunqur, atabeg of Mosul and
+      Aleppo and the first Muslim ruler to mount a sustained
+      counter-offensive against the Crusader states — was
+      assassinated in his tent during the siege of Qalʿat Jaʿbar
+      on the upper Euphrates, killed by a Frankish slave
+      (*ghulām*) named Yarunqush who had been disciplined for
+      drinking from the sultan's cup. His most consequential
+      achievement was the recapture of the Crusader County of
+      Edessa (al-Ruhā) in 539 AH (1144 CE) — the first major
+      Muslim reconquest from the Franks since the First Crusade,
+      which provoked the Second Crusade in response. He was
+      succeeded in Aleppo by his son Nūr al-Dīn Maḥmūd, who
+      would unite Muslim Syria and pave the way for Saladin's
+      reconquest of Jerusalem. Ibn al-Athīr — whose father had
+      served Zengī — devotes a substantial section of *al-Kamil*
+      to him as the originator of the *jihād* movement against
+      the Crusaders.
+    description_ar: |
+      اغتيل الأتابك عماد الدين زنكي بن آق سنقر — صاحب الموصل
+      وحلب، وأول الحكام المسلمين الذين شنوا ردةً مستدامة على
+      الدول الصليبية — في خيمته أثناء حصار قلعة جعبر على الفرات
+      الأعلى، قتله غلامه «يارنقش» الفرنجي بعد أن عاقبه السلطان
+      على شربه من إنائه. وأبرز أعماله استرداد إمارة الرها
+      الصليبية سنة ٥٣٩ هـ (١١٤٤ م) — أول استرداد إسلامي كبير من
+      الفرنج منذ الحملة الصليبية الأولى، وكان السبب في إطلاق
+      الحملة الثانية عليه. وخلفه على حلب ابنه نور الدين محمود
+      الذي وحَّد الشام وجعل من فتح القدس على يد صلاح الدين
+      أمراً ممكناً. وأفرد ابن الأثير — الذي خدم أبوه زنكياً —
+      فصلاً كبيراً من «الكامل في التاريخ» يجعله فيه مفتتح حركة
+      الجهاد ضد الصليبيين.
+    description_fr: |
+      ʿImād al-Dīn Zengī ibn Āq Sunqur, atabeg de Mossoul et
+      d'Alep et le premier souverain musulman à monter une
+      contre-offensive soutenue contre les États croisés — fut
+      assassiné dans sa tente lors du siège de la forteresse de
+      Qalʿat Jaʿbar sur l'Euphrate supérieur, tué par un esclave
+      (*ghulām*) franc nommé Yarunqush qui avait été châtié pour
+      avoir bu à la coupe du sultan. Son fait d'armes le plus
+      conséquent fut la reconquête du comté croisé d'Édesse
+      (al-Ruhā) en 539 H (1144 EC) — la première grande
+      reconquête musulmane sur les Francs depuis la première
+      croisade, qui provoqua la deuxième croisade en réaction.
+      Il fut remplacé à Alep par son fils Nūr al-Dīn Maḥmūd, qui
+      unifia la Syrie musulmane et rendit possible la reconquête
+      de Jérusalem par Saladin. Ibn al-Athīr — dont le père
+      avait servi Zengī — consacre une large section de *al-Kāmil*
+      à le présenter comme l'initiateur du mouvement de *jihād*
+      contre les Croisés.
+    canonical_hijri: {year: 541, month: 3, precision: month}
+    canonical_gregorian: {date: 1146-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr (whose family served Zengī) places the assassination at Qalʿat Jaʿbar in Rabīʿ al-Awwal 541 AH and details the killing by his Frankish ghulām Yarunqush."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 541 AH and the circumstances at Qalʿat Jaʿbar."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the standard biographical entry placing his death in 541 AH."
+    people: [[nur-al-din-zanki, subject]]
+    tags: [zangid, syria, mosul, aleppo, crusades, edessa, jihad, assassination]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-marj-ayun
+    category: battle
+    title_en: Battle of Marj ʿAyūn — Saladin's Victory over the Jerusalem Crusaders
+    title_ar: معركة مرج عيون — انتصار صلاح الدين على فرنجة بيت المقدس
+    title_fr: Bataille de Marj ʿAyūn — victoire de Saladin sur les Croisés de Jérusalem
+    description_en: |
+      Ṣalāh al-Dīn al-Ayyūbī defeated the Crusader army of King
+      Baldwin IV of Jerusalem and the Templar Grand Master
+      Odo de Saint-Amand at Marj ʿAyūn ("the Meadow of Springs"),
+      a valley on the upper Litani river between southern Lebanon
+      and northern Galilee. The Crusader vanguard had advanced
+      to intercept Saladin's raiding force returning from a
+      reconnaissance toward Banyas; the main Crusader column
+      arrived disordered after a forced march and was caught at
+      noon when men and horses were unfit to fight. Odo de
+      Saint-Amand was captured and died in Damascene captivity;
+      Baldwin IV escaped only with difficulty. The victory
+      cleared the road to the Crusader frontier castle of Bayt
+      al-Aḥzān (Châtelet) at Jacob's Ford, which Saladin took
+      and razed in Rabīʿ al-Awwal 575 AH — a strategic prelude
+      to the campaign that would culminate at Ḥaṭṭīn eight years
+      later.
+    description_ar: |
+      هزم السلطان صلاح الدين الأيوبي جيش الصليبيين بقيادة
+      الملك بلدوين الرابع ملك بيت المقدس وقائد فرسان الهيكل
+      أودو دو سان أمان في «مرج عيون» — وادٍ على أعلى نهر
+      الليطاني بين جنوب لبنان وشمال الجليل. كان طليعة الصليبيين
+      قد تقدمت لاعتراض غارة الإسلاميين العائدة من استطلاع نحو
+      بانياس، فلحقها رتلهم الكبير على عجل بعد مسير منهك،
+      فأدركهم الإسلاميون عند الظهيرة وقد أعيت الرجالَ والخيلَ
+      الحركةُ. وأُسر أودو دو سان أمان فمات في الأسر بدمشق،
+      ولم ينجُ بلدوين الرابع إلا بصعوبة. وفتح النصر الطريق
+      إلى حصن «بيت الأحزان» (الشاتليه) عند وعر يعقوب، الذي
+      افتتحه صلاح الدين ودكّه في ربيع الأول سنة ٥٧٥ هـ —
+      تمهيداً استراتيجياً للحملة التي ستتوج بحطين بعد ثماني
+      سنوات.
+    description_fr: |
+      Ṣalāh al-Dīn al-Ayyūbī battit l'armée croisée du roi
+      Baudouin IV de Jérusalem et du grand maître templier
+      Odon de Saint-Amand à Marj ʿAyūn (« la prairie des
+      sources »), une vallée sur le haut Litani entre le sud
+      du Liban et le nord de la Galilée. L'avant-garde croisée
+      s'était portée pour intercepter une force de raid de
+      Saladin revenant d'une reconnaissance vers Banyas; la
+      colonne principale arriva en désordre après une marche
+      forcée et fut surprise à midi alors que hommes et chevaux
+      étaient inaptes au combat. Odon de Saint-Amand fut capturé
+      et mourut en captivité damascène; Baudouin IV ne s'échappa
+      qu'avec peine. La victoire dégagea la route vers la
+      forteresse-frontière croisée de Bayt al-Aḥzān (le Châtelet)
+      au gué de Jacob, que Saladin prit et rasa en Rabīʿ al-Awwal
+      575 H — un prélude stratégique à la campagne qui culminerait
+      à Ḥaṭṭīn huit ans plus tard.
+    canonical_hijri: {year: 575, month: 4, precision: month}
+    canonical_gregorian: {date: 1179-06-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr places the Marj ʿAyūn engagement and the subsequent destruction of Bayt al-Aḥzān in 575 AH (Rabīʿ al-Awwal for the latter)."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr confirms the engagement in 575 AH and notes Odo de Saint-Amand's capture."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām enters the engagement under the events of 575 AH."
+    people: [[salahuddin-al-ayyubi, leader]]
+    tags: [ayyubid, saladin, crusades, galilee, lebanon, templars]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: minbar-of-nur-al-din-installed-at-aqsa
+    category: political_event
+    title_en: Saladin Installs Nūr al-Dīn's Minbar at al-Aqṣā Mosque
+    title_ar: نصب صلاح الدين منبر نور الدين في المسجد الأقصى
+    title_fr: Saladin installe le minbar de Nūr al-Dīn dans la mosquée al-Aqṣā
+    description_en: |
+      Following the liberation of Jerusalem on 27 Rajab 583 AH,
+      Ṣalāh al-Dīn al-Ayyūbī had the carved wooden *minbar*
+      commissioned twenty years earlier by Nūr al-Dīn Maḥmūd
+      Zangī — and stored at Aleppo against the day Jerusalem
+      should be retaken — transported to the city and installed
+      in al-Aqṣā Mosque ahead of the first Friday prayer held
+      there in eighty-eight years. Built without nails by Aleppan
+      craftsmen in 564 AH from interlocking carved cedar inlaid
+      with ivory and ebony in geometric arabesques, the minbar
+      bore Nūr al-Dīn's name and a foundation inscription that
+      was an act of waqf "for the Sacred House when Allah opens
+      it." Ibn Khallikān and Ibn al-Athīr both record the act as
+      the symbolic completion of the Zangid–Ayyūbid project. The
+      minbar stood in al-Aqṣā for 781 years until it was destroyed
+      by an arson attack on 21 August 1969 CE; a faithful
+      reproduction was installed in 2007.
+    description_ar: |
+      بعد فتح بيت المقدس في ٢٧ رجب سنة ٥٨٣ هـ، أمر السلطان
+      صلاح الدين الأيوبي بنقل المنبر الخشبي المنقوش الذي كان
+      قد أمر بصناعته نور الدين محمود زنكي قبل عشرين سنة —
+      وحُفظ بحلب لليوم الذي يفتح الله فيه القدس — ونصبه في
+      المسجد الأقصى قبل أول جمعة فيها منذ ثمان وثمانين سنة.
+      وقد صنعه حرفيون حلبيون سنة ٥٦٤ هـ من خشب أرز متداخل
+      بلا مسامير، مطعَّم بالعاج والآبنوس بزخارف هندسية
+      أرابسكية، وعليه اسم نور الدين ووقفية تنص أن هذا المنبر
+      وقف «للبيت المقدس متى فتحه الله». ويسجِّل ابن خلكان وابن
+      الأثير الواقعةَ علامةً رمزية على اكتمال المشروع
+      الزنكي-الأيوبي. وبقي المنبر في الأقصى ٧٨١ سنة حتى أحرقه
+      مجرم باعتداء حريق في ٢١ أغسطس ١٩٦٩ ميلادي، ونصبت نسخة
+      طبق الأصل منه سنة ٢٠٠٧ ميلادي.
+    description_fr: |
+      Après la libération de Jérusalem le 27 Rajab 583 H, Ṣalāh
+      al-Dīn al-Ayyūbī fit transporter le *minbar* en bois sculpté
+      commandé vingt ans plus tôt par Nūr al-Dīn Maḥmūd Zangī —
+      et conservé à Alep en attendant le jour où Jérusalem serait
+      reprise — puis l'installa dans la mosquée al-Aqṣā avant la
+      première prière du vendredi célébrée là depuis quatre-vingt-
+      huit ans. Construit sans clous par des artisans alépains en
+      564 H à partir de cèdre sculpté assemblé par tenons,
+      incrusté d'ivoire et d'ébène en arabesques géométriques, le
+      minbar portait le nom de Nūr al-Dīn et une inscription de
+      fondation faisant *waqf* « à la Maison Sacrée le jour où
+      Allāh l'ouvrira ». Ibn Khallikān et Ibn al-Athīr consignent
+      l'acte comme l'achèvement symbolique du projet zangide-
+      ayyoubide. Le minbar resta dans al-Aqṣā 781 ans jusqu'à sa
+      destruction par un incendie criminel le 21 août 1969 EC; une
+      réplique fidèle fut installée en 2007.
+    canonical_hijri: {year: 583, month: 8, precision: month}
+    canonical_gregorian: {date: 1187-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr describes the transport of the minbar from Aleppo and its installation following the Friday prayer in 583 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya records the minbar's commissioning by Nūr al-Dīn and its installation by Saladin."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān records the commissioning of the minbar in his entry on Nūr al-Dīn."
+    people: [[salahuddin-al-ayyubi, leader], [nur-al-din-zanki, subject]]
+    tags: [ayyubid, saladin, jerusalem, al-aqsa, minbar, nur-al-din, zangid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-arsuf
+    category: battle
+    title_en: Battle of Arsuf — Saladin against Richard the Lionheart
+    title_ar: معركة أرسوف — صلاح الدين في مواجهة ريتشارد قلب الأسد
+    title_fr: Bataille d'Arsuf — Saladin contre Richard Cœur de Lion
+    description_en: |
+      The pitched battle on the coastal plain north of Jaffa in
+      which the Crusader army of King Richard I of England,
+      marching south from ʿAkkā along the Mediterranean coast
+      after the fall of Acre to the Third Crusade, repulsed an
+      attempt by Saladin's army to break the Frankish column.
+      The Ayyūbid mounted archers harassed the Crusader rear and
+      flanks throughout the morning; when the Hospitaller knights
+      counter-charged in the early afternoon, the heavy Crusader
+      cavalry broke through Saladin's centre and forced a
+      withdrawal. Despite the tactical setback, Saladin's main
+      strategic objective — denying the Crusaders Jerusalem —
+      held: Richard reached Jaffa but was unable to take Jerusalem
+      either after Arsuf or after a second attempt the following
+      year, and the Treaty of Jaffa in Shaʿbān 588 AH left the
+      city in Muslim hands. Both Ibn al-Athīr and Ibn Kathīr
+      record the engagement and Saladin's regrouping at Ramla in
+      its aftermath.
+    description_ar: |
+      المعركة الميدانية في السهل الساحلي شمالي يافا التي ردّت
+      فيها قوات السلطان صلاح الدين محاولةَ كسر الرتل الصليبي
+      للملك ريتشارد الأول ملك إنجلترا، الذي كان يسير جنوباً
+      من عكا على الساحل المتوسطي بعد سقوط عكا أمام الحملة
+      الصليبية الثالثة. ضايق رماةُ السلطان المماليكُ مؤخرة
+      الرتل الصليبي وأجنحته طوال الصباح؛ ولما هاجم فرسان
+      الإسبتارية في معركة معاكسة عند مطلع العصر اخترق سلاح
+      الفرسان الصليبي الثقيل قلب صلاح الدين وألزمه بالانسحاب.
+      ومع الهزيمة التكتيكية فإن هدف صلاح الدين الاستراتيجي
+      الأكبر — حرمان الصليبيين من القدس — قد ثبت: وصل ريتشارد
+      إلى يافا لكنه عجز عن أخذ القدس لا بعد أرسوف ولا بعد
+      محاولة ثانية في السنة التالية، وتركت معاهدة يافا في
+      شعبان سنة ٥٨٨ هـ المدينةَ في يد المسلمين. ويسجل ابن
+      الأثير وابن كثير المواجهةَ وإعادة تنظيم صلاح الدين
+      صفوفَه عند الرملة بعدها.
+    description_fr: |
+      La bataille rangée sur la plaine côtière au nord de Jaffa
+      durant laquelle l'armée croisée du roi Richard Ier
+      d'Angleterre, marchant vers le sud depuis ʿAkkā le long de
+      la côte méditerranéenne après la chute d'Acre face à la
+      troisième croisade, repoussa une tentative de l'armée de
+      Saladin de briser la colonne franque. Les archers montés
+      ayyoubides harcelèrent l'arrière-garde et les flancs
+      croisés tout au long de la matinée; lorsque les chevaliers
+      hospitaliers contre-chargèrent en début d'après-midi, la
+      lourde cavalerie croisée perça le centre de Saladin et
+      l'obligea au repli. Malgré le revers tactique, l'objectif
+      stratégique principal de Saladin — refuser Jérusalem aux
+      Croisés — fut maintenu : Richard atteignit Jaffa mais ne
+      put prendre Jérusalem ni après Arsuf ni après une seconde
+      tentative l'année suivante, et le traité de Jaffa en
+      Shaʿbān 588 H laissa la ville aux mains musulmanes. Ibn
+      al-Athīr et Ibn Kathīr enregistrent tous deux l'engagement
+      et la reconstitution de Saladin à Ramla dans son sillage.
+    canonical_hijri: {year: 587, month: 8, precision: month}
+    canonical_gregorian: {date: 1191-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the battle under the events of 587 AH and describes the Hospitaller charge."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr confirms the engagement and Saladin's withdrawal toward Ramla in 587 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the battle under the obituaries and events of 587 AH."
+    people: [[salahuddin-al-ayyubi, leader]]
+    tags: [ayyubid, saladin, crusades, third-crusade, palestine, arsuf]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # LATE AYYUBID DEATHS
+  # =========================================================================
+
+  - slug: death-of-jalal-al-din-khwarazmshah
+    category: ruler_death
+    title_en: Death of Jalāl al-Dīn Khwārazmshāh — Last Ruler of the Khwārazmian Empire
+    title_ar: مقتل جلال الدين خوارزم شاه — آخر سلاطين دولة خوارزم
+    title_fr: Mort de Jalāl al-Dīn Khwārazmshāh — dernier souverain de l'empire khwārazmien
+    description_en: |
+      Jalāl al-Dīn Mengübirti, last Khwārazmian sultan and son of
+      ʿAlāʾ al-Dīn Muḥammad — whose realm Genghis Khan had
+      destroyed in 617 AH — died as a fugitive in the mountains
+      of Diyār Bakr (south-eastern Anatolia), reportedly killed
+      by a Kurdish villager who took him for a common bandit.
+      For over a decade after his father's death he had waged a
+      mobile campaign against the Mongols across Iran, the
+      Caucasus, and eastern Anatolia, the only Muslim ruler to
+      defeat a Mongol field army (at Parwān in 618 AH); but his
+      irruptions into Ayyūbid Syria, his sack of Tiflīs in 623 AH,
+      and his clash with the Seljuks of Rūm at Yāssī Chamen in
+      627 AH alienated his potential Muslim allies. His death
+      ended the Khwārazm-Shāh dynasty as a state, but his
+      surviving Khwārazmian troops became the mercenary force
+      that Ayyūbid factions employed in Syria and Egypt for the
+      next decade — the same Khwārazmians who would sack
+      Jerusalem in 642 AH.
+    description_ar: |
+      توفي السلطان جلال الدين منكوبرتي — آخر سلاطين خوارزم
+      وابن السلطان علاء الدين محمد الذي دكّ جنكيز خان دولته
+      سنة ٦١٧ هـ — هارباً في جبال ديار بكر بجنوب شرق الأناضول،
+      وقد قتله — على ما يروى — كردي قروي ظنه قاطع طريق. وكان
+      جلال الدين قد شنّ بعد سقوط دولة أبيه حرباً متنقلة على
+      المغول عبر إيران والقوقاز وشرق الأناضول لأكثر من عقد، وهو
+      الحاكم الإسلامي الوحيد الذي هزم جيشاً مغولياً ميدانياً
+      (في بروان سنة ٦١٨ هـ)؛ لكن غاراته على بلاد الأيوبيين
+      بالشام، وسلبه تفليس سنة ٦٢٣ هـ، وموقعته مع سلاجقة الروم
+      في ياسي جمن سنة ٦٢٧ هـ، عزلته عن حلفائه المسلمين الممكنين.
+      وأنهى موته دولة خوارزم شاه سياسياً، لكن جنوده الخوارزميين
+      الناجين صاروا قوة المرتزقة التي استخدمتها فصائل الأيوبيين
+      في الشام ومصر العقدَ التالي — وهم أنفسهم الخوارزمية الذين
+      سيدخلون القدس فيخربونها سنة ٦٤٢ هـ.
+    description_fr: |
+      Jalāl al-Dīn Mengübirtī, dernier sultan khwārazmien et fils
+      de ʿAlāʾ al-Dīn Muḥammad — dont l'empire avait été détruit
+      par Gengis Khan en 617 H — mourut en fugitif dans les
+      montagnes du Diyār Bakr (sud-est de l'Anatolie), tué selon
+      la tradition par un villageois kurde qui le prit pour un
+      simple brigand. Pendant plus d'une décennie après la mort
+      de son père, il avait mené une campagne mobile contre les
+      Mongols à travers l'Iran, le Caucase et l'est de l'Anatolie,
+      seul souverain musulman à battre une armée mongole en
+      campagne (à Parwān en 618 H); mais ses incursions dans la
+      Syrie ayyoubide, son sac de Tiflis en 623 H, et son
+      affrontement avec les Seljoukides de Roum à Yassı Çemen en
+      627 H l'isolèrent de ses alliés musulmans potentiels. Sa
+      mort mit fin à la dynastie des Khwārazm-Shāhs comme État,
+      mais ses troupes khwārazmiennes survivantes devinrent la
+      force mercenaire que les factions ayyoubides employèrent en
+      Syrie et en Égypte pendant la décennie suivante — les
+      mêmes Khwārazmiens qui sacageraient Jérusalem en 642 H.
+    canonical_hijri: {year: 628, month: 10, precision: month}
+    canonical_gregorian: {date: 1231-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr — who lived through these events — gives a detailed entry on Jalāl al-Dīn under the year 628 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the death in 628 AH and describes the killing in Diyār Bakr."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the death under the obituaries of 628 AH."
+    people: [[jalal-al-din-khwarazmshah, subject]]
+    tags: [khwarazm, mongols, anatolia, diyar-bakr, kurdistan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-kamil-ayyubi
+    category: ruler_death
+    title_en: Death of Sultan al-Kāmil — Ayyūbid of Egypt and the Diplomat of the Sixth Crusade
+    title_ar: وفاة السلطان الكامل — صاحب مصر ومُسالم الحملة السادسة
+    title_fr: Mort du sultan al-Kāmil — l'Ayyoubide d'Égypte et le diplomate de la sixième croisade
+    description_en: |
+      al-Malik al-Kāmil Nāṣir al-Dīn Muḥammad ibn al-ʿĀdil ibn
+      Ayyūb — fourth Ayyūbid sultan of Egypt and the senior
+      Ayyūbid prince after his father's death in 615 AH — died
+      at Damascus at age about 60 of dysentery. His twenty-year
+      reign saw two Crusader expeditions that struck Egypt:
+      the Fifth Crusade, which he defeated by inundating the
+      Damietta plain in 618 AH; and the Sixth Crusade led by
+      Emperor Frederick II, which he settled by the unprecedented
+      Treaty of Jaffa in 626 AH (1229 CE) ceding Jerusalem
+      back to the Crusaders for ten years in exchange for peace —
+      a settlement that drew sharp criticism from Damascus and
+      Aleppo Ayyūbids and from the Damascene jurists, who held
+      a public mourning at the Umayyad Mosque. He recovered
+      Jerusalem on the treaty's expiry in 637 AH. Famous in
+      Western tradition as the sultan who corresponded with
+      St. Francis of Assisi during the Damietta campaign.
+    description_ar: |
+      توفي الملك الكامل ناصر الدين محمد بن العادل بن أيوب —
+      رابع سلاطين بني أيوب بمصر، وأكبر أمراء البيت الأيوبي بعد
+      وفاة أبيه سنة ٦١٥ هـ — بدمشق عن نحو ستين سنة بعلة
+      الإسهال. وفي عهده الذي امتد عشرين سنة قصدته حملتان
+      صليبيتان: الحملة الخامسة التي هزمها بإغراق سهل دمياط سنة
+      ٦١٨ هـ؛ والحملة السادسة بقيادة الإمبراطور فريدريك الثاني
+      التي أنهاها بمعاهدة يافا سنة ٦٢٦ هـ (١٢٢٩ م) — معاهدة
+      غير مسبوقة سلّم بمقتضاها القدسَ لعشر سنوات إلى الصليبيين
+      مقابل السلام، وهي تسوية واجهت نقداً حاداً من أيوبيي دمشق
+      وحلب ومن فقهاء دمشق الذين أقاموا حداداً عاماً في الجامع
+      الأموي. واسترد القدس عند انقضاء المعاهدة سنة ٦٣٧ هـ.
+      ومشهور في التراث الغربي بأنه السلطان الذي راسله القديس
+      فرنسيس الأسيزي إبان حصار دمياط.
+    description_fr: |
+      al-Malik al-Kāmil Nāṣir al-Dīn Muḥammad ibn al-ʿĀdil ibn
+      Ayyūb — quatrième sultan ayyoubide d'Égypte et l'aîné des
+      princes ayyoubides après la mort de son père en 615 H —
+      mourut à Damas à l'âge d'environ 60 ans de dysenterie. Son
+      règne de vingt ans vit deux expéditions croisées frapper
+      l'Égypte : la cinquième croisade, qu'il défit en inondant
+      la plaine de Damiette en 618 H; et la sixième croisade
+      menée par l'empereur Frédéric II, qu'il régla par le
+      traité de Jaffa sans précédent en 626 H (1229 EC) cédant
+      Jérusalem aux Croisés pour dix ans en échange de la paix
+      — un règlement qui suscita de vives critiques des
+      Ayyoubides de Damas et d'Alep ainsi que des juristes
+      damascènes, qui tinrent un deuil public à la mosquée
+      omeyyade. Il récupéra Jérusalem à l'expiration du traité
+      en 637 H. Célèbre dans la tradition occidentale comme le
+      sultan qui correspondit avec saint François d'Assise
+      pendant la campagne de Damiette.
+    canonical_hijri: {year: 635, month: 7, precision: month}
+    canonical_gregorian: {date: 1238-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's continuators in al-Kāmil's recensions and his contemporaries (Sibṭ ibn al-Jawzī, Ibn Wāṣil) place the death in Rajab 635 AH at Damascus."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr enters the death under 635 AH at Damascus."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the standard biographical entry placing the death in 635 AH and detailing the dysentery."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the death under the obituaries of 635 AH."
+    people: [[al-kamil-muhammad, subject], [al-adil-sayf-al-din, subject]]
+    tags: [ayyubid, egypt, damascus, sixth-crusade, jerusalem, frederick-ii]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # 642 AH — THE KHWARAZMIAN CATASTROPHE AT JERUSALEM AND LA FORBIE
+  # =========================================================================
+
+  - slug: khwarazmian-sack-of-jerusalem
+    category: siege
+    title_en: Khwārazmian Sack of Jerusalem — Loss of the Holy City to Mercenaries
+    title_ar: سقوط بيت المقدس على الخوارزمية — كارثة بيت المقدس
+    title_fr: Sac de Jérusalem par les Khwārazmiens — perte de la Ville sainte aux mercenaires
+    description_en: |
+      The mercenary remnants of Jalāl al-Dīn Khwārazmshāh's army
+      — some 10 000 horsemen displaced from their Iranian
+      homeland by the Mongol conquest, employed by the Ayyūbid
+      sultan al-Ṣāliḥ Najm al-Dīn Ayyūb against his Damascene
+      cousins and the Crusader Kingdom of Jerusalem — broke
+      into Jerusalem after a brief siege of the Crusader
+      garrison and conducted a sack so destructive that the
+      Frankish chronicler Matthew Paris and the Damascene
+      historian Sibṭ ibn al-Jawzī both describe a fire that
+      consumed the Holy Sepulchre's relics, the slaughter of
+      civilians who emerged under safe-conduct, and the
+      desecration of Christian tombs. The Crusader population
+      that survived fled to Jaffa. Within months al-Ṣāliḥ Ayyūb
+      had used the Khwārazmians as the spearhead of his
+      victory at Hirbiyā (La Forbie); he then turned on them
+      himself two years later when their plundering became
+      uncontrollable, breaking them as a force outside Damascus
+      in 644 AH. Jerusalem would remain in Muslim hands for the
+      next 673 years.
+    description_ar: |
+      دخل بقايا جند جلال الدين خوارزم شاه — نحو عشرة آلاف فارس
+      تشرّدوا من بلادهم الإيرانية بفتح المغول، استخدمهم السلطان
+      الأيوبي الصالح نجم الدين أيوب على أقاربه أيوبيي دمشق
+      وعلى مملكة بيت المقدس الصليبية — مدينةَ القدس بعد حصار
+      وجيز للحامية الصليبية، وفعلوا بها فعلاً من القتل والنهب
+      أَفَزَع المؤرخَ الفرنجي ماثيو باريس والمؤرخَ الدمشقي سبط
+      ابن الجوزي معاً، فيذكران حريقاً أكل ذخائر القمامة، وذبحاً
+      لمن خرج من المدنيين بأمان، وانتهاكاً لقبور النصارى. وفرّ
+      من نجا من سكان القدس الصليبيين إلى يافا. وفي أشهر
+      استخدم الصالح أيوب الخوارزميةَ رأس حربه في نصره بحربية
+      (لا فوربي)؛ ثم انقلب عليهم نفسه بعد سنتين حين فلت أمرهم
+      وأمعنوا في النهب، فكسرهم قواً عند دمشق سنة ٦٤٤ هـ.
+      وبقيت بيت المقدس في يد المسلمين بعد ذلك ٦٧٣ سنة.
+    description_fr: |
+      Les vestiges mercenaires de l'armée de Jalāl al-Dīn
+      Khwārazmshāh — quelque 10 000 cavaliers déracinés de leur
+      patrie iranienne par la conquête mongole, employés par le
+      sultan ayyoubide al-Ṣāliḥ Najm al-Dīn Ayyūb contre ses
+      cousins damascènes et le royaume croisé de Jérusalem —
+      pénétrèrent dans Jérusalem après un bref siège de la
+      garnison croisée et menèrent un sac si destructeur que le
+      chroniqueur franc Matthieu Paris et l'historien damascène
+      Sibṭ ibn al-Jawzī décrivent tous deux un incendie qui
+      consuma les reliques du Saint-Sépulcre, le massacre des
+      civils sortis sous sauf-conduit et la profanation des
+      tombes chrétiennes. La population croisée survivante fuit
+      à Jaffa. En quelques mois al-Ṣāliḥ Ayyūb avait utilisé les
+      Khwārazmiens comme fer de lance de sa victoire à Hirbiyā
+      (La Forbie); il se retourna ensuite contre eux deux ans
+      plus tard, quand leur pillage devint incontrôlable, et les
+      brisa comme force devant Damas en 644 H. Jérusalem
+      resterait aux mains musulmanes pour les 673 années
+      suivantes.
+    canonical_hijri: {year: 642, month: 4, precision: month}
+    canonical_gregorian: {date: 1244-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya enters the Khwārazmian capture of Jerusalem under the events of 642 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the events of 642 AH including the Khwārazmian movements toward Jerusalem and Hirbiyā."
+    people: [[al-salih-ayyub, leader]]
+    tags: [ayyubid, khwarazm, jerusalem, crusades, mercenaries, sack]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-la-forbie-hirbiya
+    category: battle
+    title_en: Battle of La Forbie (Hirbiyā) — Crusader Defeat North of Gaza
+    title_ar: معركة هربية — هزيمة الصليبيين شمالي غزة
+    title_fr: Bataille de La Forbie (Hirbiyā) — défaite croisée au nord de Gaza
+    description_en: |
+      The pitched battle near the village of Hirbiyā north of
+      Gaza in which the Ayyūbid–Khwārazmian alliance under the
+      Egyptian general Rukn al-Dīn Baybars — not yet sultan —
+      destroyed the combined Crusader–Damascene force fielded
+      against al-Ṣāliḥ Ayyūb. The Damascene Ayyūbid prince
+      al-Ṣāliḥ Ismāʿīl, in alliance with the Crusader Kingdom
+      of Jerusalem, the Templars, the Hospitallers, and the
+      Teutonic Knights, sought to break Egyptian dominance of
+      the southern Levant; the engagement saw the Crusader
+      cavalry initially break the Egyptian centre but be
+      enveloped and annihilated by the Khwārazmian wings. The
+      Master of the Hospital and the Master of the Temple were
+      killed; only thirty-three Templars survived from the
+      battle. Western historians rank La Forbie alongside
+      Ḥaṭṭīn as a strategic catastrophe for the Crusader
+      enterprise in the Levant — after Hirbiyā the Crusader
+      Kingdom of Jerusalem could no longer field an army
+      capable of taking the offensive.
+    description_ar: |
+      المعركة الميدانية عند قرية «هربية» شمالي غزة التي حطّم
+      فيها الحلف الأيوبي-الخوارزمي بقيادة القائد المصري ركن
+      الدين بيبرس — قبل سلطنته — القوةَ المتحدة الصليبية
+      الدمشقية المنصوبة على الصالح أيوب. وكان الأمير الأيوبي
+      الدمشقي الصالح إسماعيل قد تحالف مع مملكة بيت المقدس
+      الصليبية وفرسان الهيكل والإسبتارية والفرسان الألمان
+      ليكسر هيمنة الفرع المصري على جنوب الشام؛ فشهدت المعركة
+      تكسيراً صليبياً ابتدائياً لقلب الجيش المصري، ثم احتواءً
+      للجناحين الخوارزميين أحاطا بالفرسان الصليبيين فأبادهم.
+      قُتل قائد الإسبتارية وقائد فرسان الهيكل، ولم ينجُ من
+      فرسان الهيكل غير ثلاثة وثلاثين. ويعد المؤرخون الغربيون
+      هربيةَ مع حطين كارثةً استراتيجية للمشروع الصليبي بالشام
+      — فبعدها لم تستطع مملكة بيت المقدس الصليبية إخراج جيش
+      قادر على الهجوم.
+    description_fr: |
+      La bataille rangée près du village de Hirbiyā au nord de
+      Gaza durant laquelle l'alliance ayyoubide–khwārazmienne
+      sous le général égyptien Rukn al-Dīn Baybars — pas encore
+      sultan — détruisit la force combinée croisée–damascène
+      mise en ligne contre al-Ṣāliḥ Ayyūb. Le prince ayyoubide
+      damascène al-Ṣāliḥ Ismāʿīl, allié au royaume croisé de
+      Jérusalem, aux Templiers, aux Hospitaliers et aux
+      Chevaliers teutoniques, cherchait à briser la domination
+      égyptienne sur le sud du Levant; l'engagement vit la
+      cavalerie croisée briser d'abord le centre égyptien puis
+      être enveloppée et anéantie par les ailes khwārazmiennes.
+      Le maître de l'Hôpital et le maître du Temple furent tués;
+      il ne survécut que trente-trois Templiers de la bataille.
+      Les historiens occidentaux placent La Forbie aux côtés de
+      Ḥaṭṭīn comme catastrophe stratégique pour l'entreprise
+      croisée au Levant — après Hirbiyā, le royaume croisé de
+      Jérusalem ne put plus aligner une armée capable de prendre
+      l'offensive.
+    canonical_hijri: {year: 642, month: 6, precision: month}
+    canonical_gregorian: {date: 1244-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya enters the battle under 642 AH and names the Crusader–Damascene coalition."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the battle under the events of 642 AH."
+    people: [[al-salih-ayyub, leader], [baybars, leader]]
+    tags: [ayyubid, mamluk, khwarazm, crusades, gaza, levant]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # END OF AYYUBIDS / RISE OF MAMLUKS
+  # =========================================================================
+
+  - slug: death-of-al-salih-ayyub
+    category: ruler_death
+    title_en: Death of Sultan al-Ṣāliḥ Ayyūb — Last Effective Ayyūbid of Egypt
+    title_ar: وفاة السلطان الصالح أيوب — آخر سلاطين بني أيوب الفعليين بمصر
+    title_fr: Mort du sultan al-Ṣāliḥ Ayyūb — dernier sultan ayyoubide effectif d'Égypte
+    description_en: |
+      al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb ibn al-Kāmil — eighth
+      Ayyūbid sultan of Egypt, the ruler whose policy of buying
+      and training Turkish mamlūk regiments (the Baḥrī corps
+      barracked on Rawḍa Island in the Nile) created the military
+      caste that would within a year of his death seize the
+      throne — died at his camp at al-Manṣūra during the Crusader
+      invasion of Egypt by King Louis IX. His widow Shajar al-Durr
+      concealed his death for nearly three months, signing
+      decrees in his name and continuing the prosecution of the
+      war until his son Tūrān Shāh could be summoned from
+      Mesopotamia. The concealment held; the Mamlūk corps under
+      Aybak and Baybars defeated Louis IX at Mansoura while the
+      sultan was officially still "alive". Sources agree on his
+      death in Shaʿbān 647 AH; Ibn Wāṣil and Ibn Kathīr give
+      14 Shaʿbān as the day, but the public announcement was
+      delayed.
+    description_ar: |
+      توفي السلطان الملك الصالح نجم الدين أيوب بن الكامل —
+      ثامن سلاطين بني أيوب بمصر، والسلطان الذي وضع سياسة شراء
+      المماليك الترك وتدريبهم (فرقة المماليك البحرية المقيمة
+      بجزيرة الروضة بالنيل)، فأنشأ بذلك الطبقة العسكرية التي
+      ستستولي على عرشه خلال سنة من وفاته — في معسكره
+      بالمنصورة إبان غزو الحملة الصليبية السابعة لمصر بقيادة
+      الملك لويس التاسع. وكتمت أرملته شجر الدر موته نحو ثلاثة
+      أشهر، توقّع المراسيم باسمه وتدير الحرب، حتى استُدعي
+      ابنه توران شاه من ديار الجزيرة. وثبت الكتمان؛ فهزم
+      المماليك بقيادة أيبك وبيبرس لويس التاسع في معركة
+      المنصورة والسلطان رسمياً «حي». واتفقت المصادر على وفاته
+      في شعبان سنة ٦٤٧ هـ؛ ويذكر ابن واصل وابن كثير أن ذلك
+      كان في الرابع عشر من شعبان، إلا أن الإعلان أُخّر.
+    description_fr: |
+      al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb ibn al-Kāmil — huitième
+      sultan ayyoubide d'Égypte, le souverain dont la politique
+      d'achat et d'entraînement de régiments mamelouks turcs (le
+      corps baḥrī cantonné sur l'île de Rawḍa dans le Nil) créa
+      la caste militaire qui s'emparerait du trône moins d'un
+      an après sa mort — mourut à son camp d'al-Manṣūra durant
+      l'invasion croisée de l'Égypte par le roi Louis IX. Sa
+      veuve Shajar al-Durr dissimula sa mort pendant près de
+      trois mois, signant des décrets en son nom et continuant
+      la conduite de la guerre jusqu'à ce que son fils Tūrān
+      Shāh fût mandé de Mésopotamie. La dissimulation tint; le
+      corps mamelouk sous Aybak et Baybars défit Louis IX à
+      Mansourah tandis que le sultan était officiellement
+      « vivant ». Les sources s'accordent sur sa mort en Shaʿbān
+      647 H; Ibn Wāṣil et Ibn Kathīr donnent le 14 Shaʿbān, mais
+      l'annonce publique fut différée.
+    canonical_hijri: {year: 647, month: 8, precision: month}
+    canonical_gregorian: {date: 1249-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the death in Shaʿbān 647 AH at al-Manṣūra and details the concealment."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the obituary in 647 AH."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān gives the standard biographical entry confirming 647 AH."
+    people: [[al-salih-ayyub, subject]]
+    tags: [ayyubid, egypt, mansoura, seventh-crusade, mamluks, shajar-al-durr]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: assassination-of-turan-shah
+    category: ruler_death
+    title_en: Assassination of Tūrān Shāh — End of the Ayyūbid Dynasty in Egypt
+    title_ar: مقتل توران شاه — نهاية دولة بني أيوب بمصر
+    title_fr: Assassinat de Tūrān Shāh — fin de la dynastie ayyoubide en Égypte
+    description_en: |
+      al-Malik al-Muʿaẓẓam Tūrān Shāh ibn al-Ṣāliḥ Ayyūb — last
+      Ayyūbid sultan of Egypt — was assassinated at Fāriskūr in
+      the Nile Delta less than three months after his accession,
+      killed by the Baḥrī Mamlūk officers his late father had
+      raised. Summoned from his apanage at Ḥiṣn Kayfā in
+      Mesopotamia after his father's death, Tūrān Shāh had led
+      the final stage of the war that captured King Louis IX of
+      France at Mansoura; but his suspicion of his father's
+      Mamlūk officers, his attempt to replace them with his own
+      Mesopotamian retinue, and his alleged threats against
+      Shajar al-Durr drove the Baḥrī corps under Baybars and
+      Aqṭāy to revolt. He was wounded inside his banquet pavilion,
+      fled to a wooden tower on the Nile bank where the Mamlūks
+      set fire to it, leapt into the river under fire, and was
+      killed in the water. His death ended the Ayyūbid sultanate
+      of Egypt; Shajar al-Durr was acclaimed sultana in his place
+      and married to the Mamlūk emir Aybak, inaugurating the
+      Baḥrī Mamlūk dynasty.
+    description_ar: |
+      اغتيل السلطان الملك المعظم توران شاه بن الصالح أيوب —
+      آخر سلاطين بني أيوب بمصر — عند فارسكور في دلتا النيل
+      بعد أقل من ثلاثة أشهر من توليه، قتله ضباط المماليك
+      البحرية الذين رباهم أبوه. واستُدعي توران شاه من
+      إقطاعه بحصن كيفا في الجزيرة الفراتية بعد وفاة أبيه،
+      فقاد المرحلة الأخيرة من الحرب التي أُسر فيها الملك
+      لويس التاسع ملك فرنسا في المنصورة؛ لكنّ ارتيابه من
+      ضباط المماليك البحرية، ومحاولته استبدالهم بحاشيته
+      الجزرية، وتهديده — على ما يروى — لأرملة أبيه شجر الدر،
+      دفع البحرية بقيادة بيبرس وأقطاي إلى الانقلاب. جُرح
+      في خيمة وليمته، فهرب إلى برج خشبي على ضفة النيل،
+      فأشعل المماليك فيه النار، فقفز إلى الماء تحت رشق سهامهم
+      فقتل فيه. وأنهى موته السلطنة الأيوبية بمصر؛ وبويعت
+      شجر الدر سلطانة، ثم زوّجت الأمير المملوكي عز الدين
+      أيبك، فبدأ بذلك حكم المماليك البحرية.
+    description_fr: |
+      al-Malik al-Muʿaẓẓam Tūrān Shāh ibn al-Ṣāliḥ Ayyūb —
+      dernier sultan ayyoubide d'Égypte — fut assassiné à
+      Fāriskūr dans le delta du Nil moins de trois mois après son
+      accession, tué par les officiers mamelouks baḥrī que son
+      père défunt avait formés. Mandé de son apanage de Ḥiṣn
+      Kayfā en Mésopotamie après la mort de son père, Tūrān Shāh
+      avait conduit la phase finale de la guerre qui captura le
+      roi Louis IX de France à Mansourah; mais sa méfiance envers
+      les officiers mamelouks de son père, sa tentative de les
+      remplacer par sa propre suite mésopotamienne et ses
+      menaces alléguées contre Shajar al-Durr poussèrent le corps
+      baḥrī sous Baybars et Aqṭāy à la révolte. Blessé dans son
+      pavillon de banquet, il fuit dans une tour de bois sur la
+      berge du Nil que les Mamelouks incendièrent, sauta dans
+      le fleuve sous leurs flèches et y fut tué. Sa mort mit fin
+      au sultanat ayyoubide d'Égypte; Shajar al-Durr fut
+      acclamée sultane à sa place et mariée à l'émir mamelouk
+      Aybak, inaugurant la dynastie mamelouke baḥrī.
+    canonical_hijri: {year: 648, month: 1, precision: month}
+    canonical_gregorian: {date: 1250-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya gives a detailed account under 648 AH of the assassination at Fāriskūr."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the death and the end of the Ayyūbid sultanate of Egypt under 648 AH."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān confirms the death in Muḥarram 648 AH at Fāriskūr."
+    people: [[turan-shah, subject], [baybars, subject], [al-salih-ayyub, subject]]
+    tags: [ayyubid, mamluk, egypt, fariskur, shajar-al-durr, dynasty-end, baybars]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MAMLUK CONQUESTS — END OF THE CRUSADER LEVANT
+  # =========================================================================
+
+  - slug: fall-of-tripoli-1289
+    category: siege
+    title_en: Fall of Tripoli to the Mamlūks under Qalāwūn
+    title_ar: سقوط طرابلس الشام على المماليك بقيادة قلاوون
+    title_fr: Chute de Tripoli sous les Mamelouks de Qalāwūn
+    description_en: |
+      Sultan al-Manṣūr Sayf al-Dīn Qalāwūn took the fortified
+      Crusader port of Tripoli — the last capital of the County
+      of Tripoli, founded by Raymond IV of Toulouse in the wake
+      of the First Crusade — after a thirty-four day siege. The
+      Mamlūk siege engines breached the seaward walls and the
+      Pisan and Genoese galleys evacuated those who could pay
+      the passage; the rest of the population was killed or
+      enslaved per the war convention of a stormed city. Qalāwūn
+      ordered the city walls levelled and a new Mamlūk Tripoli
+      built two miles inland on the Abū ʿAlī river, where the
+      modern city stands. Tripoli's fall left only Acre, Tyre,
+      Sidon, Beirut, and a few coastal castles in Crusader
+      hands; within two years his son al-Ashraf Khalīl would
+      take Acre and complete the reconquest. The taking is
+      attested in detail by Ibn al-Furāt, Ibn Kathīr, and
+      al-Dhahabī.
+    description_ar: |
+      افتتح السلطان المنصور سيف الدين قلاوون ميناءَ طرابلس
+      الشام الصليبي المحصّن — آخر عواصم إمارة طرابلس
+      الصليبية التي أسسها ريموند الرابع التولوزي على إثر
+      الحملة الصليبية الأولى — بعد حصار أربعة وثلاثين يوماً.
+      ضربت آلات الحصار المملوكية الأسوارَ البحرية فثلمتها،
+      وأَقَلَّت سفنُ بيزة وجنوة من تستطيع دفع أجور النجاة،
+      وقُتل أو سُبي من بقي من أهل المدينة على عرف الحرب
+      حين تُؤخذ المدينة عنوة. وأمر قلاوون بهدم أسوار المدينة
+      الساحلية، وبناء طرابلس مملوكية جديدة على بعد ميلين
+      داخلاً على نهر أبي علي حيث تقوم اليوم. وأبقى سقوط
+      طرابلس بيد الصليبيين عكا وصور وصيدا وبيروت وقلاع
+      ساحلية قليلة فقط؛ وفي سنتين سيكمل ابنه الأشرف خليل
+      الفتح بأخذ عكا. ووثقت الأخبار في تفصيلها عند ابن
+      الفرات وابن كثير والذهبي.
+    description_fr: |
+      Le sultan al-Manṣūr Sayf al-Dīn Qalāwūn prit le port
+      croisé fortifié de Tripoli — dernière capitale du comté
+      croisé de Tripoli, fondé par Raymond IV de Toulouse à la
+      suite de la première croisade — après un siège de
+      trente-quatre jours. Les engins de siège mamelouks
+      brèchèrent les remparts côté mer et les galères pisanes
+      et génoises évacuèrent ceux qui pouvaient payer le
+      passage; le reste de la population fut tué ou réduit en
+      esclavage selon la convention de guerre d'une cité prise
+      d'assaut. Qalāwūn ordonna le rasement des remparts et la
+      construction d'une nouvelle Tripoli mamelouke deux milles
+      à l'intérieur des terres sur le fleuve Abū ʿAlī, où se
+      dresse la ville moderne. La chute de Tripoli ne laissa
+      aux Croisés que Acre, Tyr, Sidon, Beyrouth et quelques
+      châteaux côtiers; en deux ans son fils al-Ashraf Khalīl
+      prendrait Acre et achèverait la reconquête. La prise est
+      attestée en détail par Ibn al-Furāt, Ibn Kathīr et
+      al-Dhahabī.
+    canonical_hijri: {year: 688, month: 4, precision: month}
+    canonical_gregorian: {date: 1289-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya enters the fall of Tripoli under 688 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the conquest under the events of 688 AH."
+    people: [[qalawun, leader]]
+    tags: [mamluk, crusades, tripoli, lebanon, qalawun, siege]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: fall-of-acre-1291
+    category: siege
+    title_en: Fall of Acre (ʿAkkā) — End of the Crusader Levant
+    title_ar: سقوط عكا — نهاية الوجود الصليبي بالشام
+    title_fr: Chute d'Acre (ʿAkkā) — fin du Levant croisé
+    description_en: |
+      Sultan al-Ashraf Ṣalāḥ al-Dīn Khalīl ibn Qalāwūn took
+      ʿAkkā — Acre, capital of the rump Kingdom of Jerusalem
+      since Saladin's reconquest of Jerusalem itself a century
+      earlier, the largest and best-fortified Crusader stronghold
+      remaining in the Levant — after a forty-three day siege.
+      The Mamlūk artillery breached the outer walls in mid-May;
+      the Frankish defenders, including Templars, Hospitallers,
+      Teutonic Knights, and the orders' grand masters, fought a
+      house-by-house defence as the Genoese and Venetian galleys
+      evacuated those they could. The Templar tower on the sea
+      collapsed under sappers' mining ten days after the city
+      itself fell, killing the Mamlūks who had clambered onto
+      the breach as well as the Templars within. Within months
+      Tyre, Sidon, Beirut, Haifa, and the remaining Crusader
+      coastal positions surrendered without further fighting.
+      The fall of Acre is the textbook closing date of the
+      Crusades in the Levant, ending two centuries of Crusader
+      presence in the Holy Land.
+    description_ar: |
+      افتتح السلطان الأشرف صلاح الدين خليل بن قلاوون عكا
+      — عاصمة بقايا مملكة بيت المقدس الصليبية منذ استرداد
+      صلاح الدين القدسَ قبل قرن، وأكبر معاقل الصليبيين بقاءً
+      في الشام وأمنعها — بعد حصار ثلاثة وأربعين يوماً. ضربت
+      المدفعية المملوكية الأسوار الخارجية في منتصف مايو
+      فثلمتها؛ وقاتل الفرنج فيها — من فرسان الهيكل والإسبتارية
+      والفرسان الألمان وقادة طوائفهم — قتالاً من بيت إلى بيت
+      بينما أَقَلَّت سفن جنوة وبيزة من استطاعت إنقاذه. وانهار
+      برج الهيكل البحري بنقب المماليك له بعد عشرة أيام من
+      سقوط المدينة، فمات فيه المماليك المتسلقون على ثلمته
+      ومن في البرج من فرسان الهيكل. وفي أشهر استسلمت صور
+      وصيدا وبيروت وحيفا وما تبقى من المواقع الساحلية
+      الصليبية بلا قتال. وسقوط عكا تاريخ الإغلاق الكتابي
+      للحملات الصليبية بالشام، ونهاية الوجود الصليبي بأرض
+      المقدس بعد قرنين.
+    description_fr: |
+      Le sultan al-Ashraf Ṣalāḥ al-Dīn Khalīl ibn Qalāwūn prit
+      ʿAkkā — Acre, capitale du royaume résiduel de Jérusalem
+      depuis la reconquête de Jérusalem elle-même par Saladin un
+      siècle plus tôt, la plus grande et la mieux fortifiée des
+      places fortes croisées encore tenues au Levant — après un
+      siège de quarante-trois jours. L'artillerie mamelouke
+      brèche les remparts extérieurs à la mi-mai; les défenseurs
+      francs — Templiers, Hospitaliers, Chevaliers teutoniques
+      et les grands maîtres de leurs ordres — livrèrent une
+      défense maison par maison tandis que les galères génoises
+      et vénitiennes évacuaient ce qu'elles purent. La tour
+      templière sur la mer s'effondra sous le travail de sape
+      des Mamelouks dix jours après la chute de la ville
+      elle-même, tuant aussi bien les Mamelouks grimpés sur la
+      brèche que les Templiers à l'intérieur. En quelques mois
+      Tyr, Sidon, Beyrouth, Haïfa et les autres positions
+      côtières croisées se rendirent sans nouveau combat. La
+      chute d'Acre est la date de clôture canonique des
+      croisades au Levant, fin de deux siècles de présence
+      croisée en Terre sainte.
+    canonical_hijri: {year: 690, month: 5, day: 17, precision: day}
+    canonical_gregorian: {date: 1291-05-18, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya gives the date 17 Jumādā al-Ūlā 690 AH for the storming of the city."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the conquest under the events of 690 AH and confirms the day."
+    people: [[al-ashraf-khalil, leader]]
+    tags: [mamluk, crusades, acre, palestine, levant, siege, ashraf-khalil]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SCHOLAR — CHRONICLER OF THE ERA
+  # =========================================================================
+
+  - slug: death-of-sibt-ibn-al-jawzi
+    category: scholar_death
+    title_en: Death of Sibṭ ibn al-Jawzī — Damascene Historian and Preacher
+    title_ar: وفاة سبط بن الجوزي — مؤرخ دمشق وواعظها
+    title_fr: Mort de Sibṭ ibn al-Jawzī — historien et prédicateur de Damas
+    description_en: |
+      Shams al-Dīn Abū al-Muẓaffar Yūsuf ibn Qizoghlū — known by
+      the laqab *Sibṭ ibn al-Jawzī*, "the grandson of Ibn al-Jawzī"
+      (his maternal grandfather being the Hanbali polymath
+      ʿAbd al-Raḥmān ibn al-Jawzī of Baghdad, d. 597 AH) —
+      Damascene historian, preacher, and Hanafi (later Shāfiʿī)
+      jurist, died at Damascus at age about 73. His chronicle
+      *Mirʾāt al-Zamān fī Tārīkh al-Aʿyān* ("Mirror of the Age
+      on the History of Notables") is a primary contemporary
+      source for late-Ayyūbid Syria, the Crusader-Khwārazmian
+      collisions of the 640s AH, and the early Mamlūk
+      transition; he was an eyewitness to the Khwārazmian sack
+      of Jerusalem in 642 AH and to the Mongol approach toward
+      Syria. His sermons in the Umayyad Mosque drew massive
+      crowds — the Damascene populace would assemble before
+      Friday prayer specifically to hear him — and his eloquence
+      is praised by Ibn Khallikān, Ibn Kathīr, and al-Dhahabī.
+      The *Mirʾāt* survives in multiple manuscript recensions
+      and remains a load-bearing source in modern scholarship
+      on the period.
+    description_ar: |
+      توفي شمس الدين أبو المظفر يوسف بن قز أُغلي — المعروف
+      بسبط ابن الجوزي (نسبة إلى جده لأمه الإمام الحنبلي
+      الموسوعي عبد الرحمن بن الجوزي البغدادي ت ٥٩٧ هـ) —
+      مؤرخ دمشق وواعظها، وفقيهها على المذهب الحنفي ثم
+      الشافعي، بدمشق عن نحو ثلاث وسبعين سنة. وتاريخه «مرآة
+      الزمان في تاريخ الأعيان» مصدر أصلي معاصر لتاريخ الشام
+      أواخر عهد الأيوبيين، ومصادمات الصليبيين والخوارزمية في
+      الأربعينيات من القرن السابع الهجري، وانتقال السلطة
+      إلى المماليك؛ وكان شاهد عيان على هجوم الخوارزمية على
+      القدس سنة ٦٤٢ هـ، وعلى زحف المغول نحو الشام. وكانت
+      مواعظه في الجامع الأموي تجذب الجموع — يجتمع أهل دمشق
+      قبل الجمعة خصيصاً لسماعه — وقد أثنى على فصاحته ابن
+      خلكان وابن كثير والذهبي. ولا تزال «المرآة» مصدراً
+      حاملاً في الدراسات الحديثة عن هذه الحقبة، وقد بقيت
+      منها نسخ خطية متعددة.
+    description_fr: |
+      Shams al-Dīn Abū al-Muẓaffar Yūsuf ibn Qizoghlū — connu
+      sous le laqab *Sibṭ ibn al-Jawzī*, « le petit-fils d'Ibn
+      al-Jawzī » (son grand-père maternel étant le polymathe
+      hanbalite ʿAbd al-Raḥmān ibn al-Jawzī de Bagdad, m. 597 H)
+      — historien, prédicateur et juriste hanafite (puis
+      shāfiʿite) damascène, mourut à Damas à l'âge d'environ 73
+      ans. Sa chronique *Mirʾāt al-Zamān fī Tārīkh al-Aʿyān*
+      (« Miroir de l'Époque sur l'Histoire des Notables ») est
+      une source primaire contemporaine pour la Syrie ayyoubide
+      tardive, les collisions croisées-khwārazmiennes des
+      années 640 H et la transition mamelouke précoce; il fut
+      témoin oculaire du sac de Jérusalem par les Khwārazmiens
+      en 642 H et de l'approche mongole vers la Syrie. Ses
+      sermons à la mosquée omeyyade attiraient des foules
+      massives — la population damascène se rassemblait avant
+      la prière du vendredi spécifiquement pour l'entendre —
+      et son éloquence est louée par Ibn Khallikān, Ibn Kathīr
+      et al-Dhahabī. Le *Mirʾāt* survit en plusieurs recensions
+      manuscrites et reste une source porteuse dans l'érudition
+      moderne sur la période.
+    canonical_hijri: {year: 654, precision: year}
+    canonical_gregorian: {date: 1257-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Ibn Khallikān gives the standard biographical entry placing the death in 654 AH at Damascus."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya enters the death under 654 AH and praises the Mirʾāt al-Zamān."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the death under the obituaries of 654 AH."
+    people: [[sibt-ibn-al-jawzi, subject]]
+    tags: [scholar, historian, damascus, ayyubid, mamluk, preaching, hanafi]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

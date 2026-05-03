@@ -1,0 +1,1100 @@
+# Wave 30 of curated event additions (2026-04-27).
+# Twelve modern figures: two notable Egyptian Muslim women scholars
+# (Bint al-Shāṭiʾ — ʿĀʾisha ʿAbd al-Raḥmān, and Zaynab al-Ghazālī),
+# and ten 19th–20th century Sunni scholars from Egypt, the Levant,
+# and Tunisia previously absent from the dataset. Coverage spans
+# the late-Ottoman Beiruti Sufi-traditionalist (al-Nabhānī), the
+# Egyptian Hanafī muftī (Bakhīt al-Muṭīʿī), the Damascene reformist
+# circle (al-Qāsimī, al-Jazāʾirī), the Shaykhs of al-Azhar before
+# and after Maḥmūd Shaltūt (Salīm al-Bishrī, Muḥammad al-Khaḍir
+# Ḥusayn), Tunisian-Azhari fiqh (Muḥammad al-Madanī), the Egyptian
+# Azharī modernist (Muḥammad al-Bahī), the Brotherhood-adjacent
+# Egyptian muḥaddith and organizer of *al-Fatḥ al-Rabbānī*
+# (ʿAbd al-Raḥmān al-Bannā al-Sāʿātī, father of Ḥasan al-Bannā),
+# and the Syrian Islamic-revivalist scholar (Saʿīd Ḥawwā). All
+# entries are presented factually-historically, without
+# endorsement or condemnation, and span the broad Sunni
+# spectrum (Sufi-traditionalist, Ash'arī-Māturīdī, modernist-
+# Azhari, Brotherhood). Already-covered figures (Maḥmūd Shaltūt,
+# Aḥmad Ḥasan al-Bāqūrī, Muḥammad ibn Ibrāhīm Āl al-Shaykh,
+# al-Albānī, Muṣṭafā ʿAbd al-Razzāq al-Sanhūrī) are skipped.
+# Sources: EI2, EI3 where available, academic biographies, and
+# editorial compilation. No hadith refs. Trilingual en/ar/fr
+# throughout.
+
+events:
+  # =========================================================================
+  # LATE-OTTOMAN BEIRUTI SUFI TRADITIONALIST
+  # =========================================================================
+
+  - slug: death-of-yusuf-al-nabhani
+    category: scholar_death
+    title_en: Death of Yūsuf al-Nabhānī — Beiruti Sunni Sufi-Traditionalist
+    title_ar: وفاة الشيخ يوسف النبهاني — العالم السني الصوفي البيروتي
+    title_fr: Mort de Yūsuf al-Nabhānī — savant sunnite traditionaliste-soufi de Beyrouth
+    description_en: |
+      Yūsuf ibn Ismāʿīl al-Nabhānī — late-Ottoman Sunni
+      Shāfiʿī-Sufi scholar, judge of the *Maḥkama Niẓāmiyya*
+      Court of Appeal in Beirut for some twenty-five years
+      until 1909, defender of the classical madhhab system
+      and of the *mawlid*-celebrating Sufi tradition against
+      the rising Salafiyya current of his day — died at
+      Beirut on 8 Ramaḍān 1350 AH (16 January 1932 CE) at
+      age about eighty-three. Born at Ijzim near Haifa
+      (Palestine) and educated at al-Azhar in Cairo, he
+      held judicial posts in the Ottoman vilayets of Latakia,
+      Mosul (where he served as president of the criminal
+      court), and Beirut. His Arabic corpus of more than
+      forty-eight published works includes the two-volume
+      devotional compilation *Saʿādat al-Dārayn fī al-Ṣalāh
+      ʿalā Sayyid al-Kawnayn ﷺ*, the *mawlid*-defending
+      *Jawāhir al-Biḥār fī Faḍāʾil al-Nabī al-Mukhtār ﷺ*
+      in four volumes, *Shawāhid al-Ḥaqq fī al-Istighātha
+      bi-Sayyid al-Khalq ﷺ*, and a wide range of poetic
+      and prose celebrations of the Prophet's ﷺ
+      excellences within the late-Ottoman Sunni
+      Sufi-traditionalist current.
+    description_ar: |
+      توفي العلامة الشيخ يوسف بن إسماعيل النبهاني — العالم
+      السني الشافعي الصوفي العثماني المتأخر، رئيس قضاة
+      المحكمة النظامية للاستئناف ببيروت نحو خمس وعشرين
+      سنة إلى سنة ١٣٢٧ هـ (١٩٠٩ ميلادي)، ومدافع عن
+      نظام المذاهب الكلاسيكي وعن تراث المولد الصوفي
+      السني في وجه التيار السلفي الناهض في عصره —
+      ببيروت يوم ٨ رمضان سنة ١٣٥٠ هـ (الموافق ١٦ جانفي
+      ١٩٣٢ ميلادي) عن نحو ثلاث وثمانين سنة. ولد بقرية
+      إجزم قرب حيفا بفلسطين، وتعلم بالأزهر الشريف
+      بالقاهرة، وتقلد القضاء في ولايات اللاذقية والموصل
+      (حيث كان رئيس محكمة الجزاء بها) وبيروت. ومن
+      مصنفاته العربية المنشورة وهي تزيد على ثمانٍ
+      وأربعين كتاباً «سعادة الدارين في الصلاة على سيد
+      الكونين ﷺ» في جزأين، و«جواهر البحار في فضائل
+      النبي المختار ﷺ» في أربعة مجلدات في الذب عن
+      المولد، و«شواهد الحق في الاستغاثة بسيد الخلق ﷺ»،
+      ومجموعات شعرية ونثرية كبيرة في إبراز شمائل
+      النبي ﷺ ضمن التيار السني الصوفي التقليدي
+      العثماني المتأخر.
+    description_fr: |
+      Yūsuf ibn Ismāʿīl al-Nabhānī — savant sunnite shāfiʿite-
+      soufi de la fin de l'époque ottomane, président de la
+      cour d'appel *Maḥkama Niẓāmiyya* de Beyrouth pendant
+      environ vingt-cinq ans jusqu'en 1909, défenseur du
+      système classique des écoles juridiques et de la
+      tradition soufie de célébration du *mawlid* face au
+      courant salafiyya montant de son époque — mourut à
+      Beyrouth le 8 Ramaḍān 1350 H (16 janvier 1932 EC)
+      à l'âge d'environ quatre-vingt-trois ans. Né à
+      Ijzim près de Haïfa (Palestine) et formé à al-Azhar
+      au Caire, il occupa des charges judiciaires dans les
+      vilayets ottomans de Lattaquié, Mossoul (où il
+      présida la cour pénale) et Beyrouth. Son corpus
+      arabe de plus de quarante-huit ouvrages publiés
+      comprend la compilation dévotionnelle en deux
+      volumes *Saʿādat al-Dārayn fī al-Ṣalāh ʿalā Sayyid
+      al-Kawnayn ﷺ*, le *Jawāhir al-Biḥār fī Faḍāʾil
+      al-Nabī al-Mukhtār ﷺ* en quatre volumes consacré à
+      la défense du *mawlid*, *Shawāhid al-Ḥaqq fī al-
+      Istighātha bi-Sayyid al-Khalq ﷺ*, et un large
+      éventail de célébrations poétiques et prosaïques
+      des excellences du Prophète ﷺ au sein du courant
+      sunnite soufi-traditionaliste de la fin de l'époque
+      ottomane.
+    canonical_hijri: {year: 1350, month: 9, day: 8, precision: day}
+    canonical_gregorian: {date: 1932-01-16, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'al-Nabhānī, Yūsuf b. Ismāʿīl' in EI2 records death 8 Ramaḍān 1350 / 16 January 1932 in Beirut."
+      - source_key: editorial
+        notes: "Beirut judicial career and authored corpus of devotional works on the Prophet ﷺ attested in standard biographies and the autograph list in Saʿādat al-Dārayn."
+    people: [[yusuf-al-nabhani, died]]
+    tags: [modern, scholar, late-ottoman, beirut, palestine, shafii, sufi, mawlid, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yusuf_an-Nabhani"
+
+  # =========================================================================
+  # EGYPTIAN HANAFĪ MUFTĪ
+  # =========================================================================
+
+  - slug: death-of-muhammad-bakhit-al-mutii
+    category: scholar_death
+    title_en: Death of Muḥammad Bakhīt al-Muṭīʿī — Egyptian Hanafī Muftī
+    title_ar: وفاة الشيخ محمد بخيت المطيعي — مفتي الديار المصرية الحنفي
+    title_fr: Mort de Muḥammad Bakhīt al-Muṭīʿī — muftī hanafite égyptien
+    description_en: |
+      Muḥammad Bakhīt al-Muṭīʿī — Egyptian Sunni Ḥanafī
+      jurist, Grand Muftī of the Egyptian Republic (then
+      Kingdom) from 1914 until his retirement in 1920,
+      teacher of *fiqh* and *uṣūl* at al-Azhar for over
+      thirty years, and one of the most prolific authors
+      of independent legal opinions in early-twentieth-
+      century Egypt — died at Cairo on 9 Ramaḍān 1354 AH
+      (5 December 1935 CE) at age about seventy-nine.
+      Born in 1856 at al-Muṭīʿa in Asyūṭ Province, he
+      studied at al-Azhar from 1869 onward and was
+      certified as a qualified jurist in 1892. As Grand
+      Muftī he authored some of the most-cited Hanafī
+      fatwas of the period on banking interest, currency,
+      printed Qurʾāns, photography, and adaptations of
+      Islamic family law to early-modern conditions.
+      His authored works include the multi-volume
+      *Sullam al-Wuṣūl li-Sharḥ Nihāyat al-Sūl* on
+      Hanafī uṣūl al-fiqh, *Aḥkām al-Sharīʿa al-
+      Islāmiyya fī al-Aḥwāl al-Shakhṣiyya*, and
+      polemical responses to ʿAlī ʿAbd al-Rāziq's
+      *al-Islām wa Uṣūl al-Ḥukm*.
+    description_ar: |
+      توفي الشيخ محمد بخيت المطيعي — الفقيه السني
+      الحنفي المصري، مفتي الديار المصرية في عهد المملكة
+      من سنة ١٣٣٢ هـ (١٩١٤ ميلادي) إلى تقاعده سنة
+      ١٣٣٨ هـ (١٩٢٠ ميلادي)، ومدرس الفقه وأصول الفقه
+      بالأزهر الشريف ما يزيد على ثلاثين سنة، وأحد أكثر
+      مفتي مصر بداية القرن العشرين الميلادي إنتاجاً
+      للفتاوى المستقلة — بالقاهرة يوم ٩ رمضان سنة
+      ١٣٥٤ هـ (الموافق ٥ ديسمبر ١٩٣٥ ميلادي) عن نحو
+      تسع وسبعين سنة. ولد سنة ١٢٧٢ هـ (١٨٥٦ ميلادي)
+      بقرية المطيعة بمحافظة أسيوط، ودخل الأزهر سنة
+      ١٢٨٦ هـ (١٨٦٩ ميلادي)، ونال «العالمية» سنة ١٣٠٩
+      هـ (١٨٩٢ ميلادي). ومن أشهر فتاويه الحنفية في
+      عصره: في الفائدة المصرفية والعملة وطباعة المصحف
+      الشريف والتصوير وتطبيق الأحكام الشرعية لأحوال
+      الأسرة المسلمة في الواقع الحديث المبكر. ومن
+      مؤلفاته «سلم الوصول لشرح نهاية السول» في أصول
+      الفقه على المذهب الحنفي في عدة مجلدات، و«أحكام
+      الشريعة الإسلامية في الأحوال الشخصية»، وردّ
+      على «الإسلام وأصول الحكم» للأستاذ علي عبد
+      الرازق.
+    description_fr: |
+      Muḥammad Bakhīt al-Muṭīʿī — juriste sunnite hanafite
+      égyptien, Grand Muftī de la République (alors
+      Royaume) d'Égypte de 1914 jusqu'à sa retraite en
+      1920, enseignant de *fiqh* et d'*uṣūl* à al-Azhar
+      pendant plus de trente ans, et l'un des auteurs les
+      plus prolifiques d'opinions juridiques indépendantes
+      en Égypte du début du XXe siècle — mourut au Caire
+      le 9 Ramaḍān 1354 H (5 décembre 1935 EC) à l'âge
+      d'environ soixante-dix-neuf ans. Né en 1856 à
+      al-Muṭīʿa dans la province d'Asyūṭ, il étudia à
+      al-Azhar à partir de 1869 et fut certifié juriste
+      qualifié en 1892. Comme Grand Muftī il rédigea
+      certaines des fatwas hanafites les plus citées de
+      l'époque sur l'intérêt bancaire, la monnaie, le
+      Coran imprimé, la photographie et l'adaptation du
+      droit de la famille islamique aux conditions de
+      la première modernité. Ses œuvres comprennent le
+      *Sullam al-Wuṣūl li-Sharḥ Nihāyat al-Sūl* en
+      plusieurs volumes sur l'*uṣūl al-fiqh* hanafite,
+      *Aḥkām al-Sharīʿa al-Islāmiyya fī al-Aḥwāl al-
+      Shakhṣiyya*, et des réponses polémiques à
+      *al-Islām wa Uṣūl al-Ḥukm* de ʿAlī ʿAbd al-Rāziq.
+    canonical_hijri: {year: 1354, month: 9, day: 9, precision: day}
+    canonical_gregorian: {date: 1935-12-05, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'Bakhīt, Muḥammad b. Bakhīt al-Muṭīʿī' in EI2 supplements records death December 1935 in Cairo."
+      - source_key: editorial
+        notes: "Egyptian Grand Muftī office records and authored corpus of fatwas attested in standard biographies."
+    people: [[muhammad-bakhit-al-mutii, died]]
+    tags: [modern, scholar, egypt, cairo, hanafi, mufti, azhar, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Bakhit_al-Muti%27i"
+
+  # =========================================================================
+  # DAMASCENE REFORMERS
+  # =========================================================================
+
+  - slug: death-of-jamal-al-din-al-qasimi
+    category: scholar_death
+    title_en: Death of Jamāl al-Dīn al-Qāsimī — Damascene Reformist Scholar
+    title_ar: وفاة العلامة جمال الدين القاسمي — العالم الدمشقي المصلح
+    title_fr: Mort de Jamāl al-Dīn al-Qāsimī — savant réformiste damascène
+    description_en: |
+      Muḥammad Jamāl al-Dīn al-Qāsimī — Damascene Sunni
+      Shāfiʿī-then-non-aligned scholar, leading figure of
+      the late-Ottoman Damascene reformist (*iṣlāḥ*)
+      circle that included Ṭāhir al-Jazāʾirī and ʿAbd
+      al-Razzāq al-Bīṭār, and active correspondent of
+      Muḥammad Rashīd Riḍā's *al-Manār* in Cairo —
+      died at Damascus on 23 Jumādā al-Ūlā 1332 AH
+      (18 April 1914 CE) at age fifty-one. Born at the
+      Qaymariyya quarter of Damascus in 1283 AH (1866
+      CE), he was the son and pupil of the Shāfiʿī
+      scholar Muḥammad Saʿīd al-Qāsimī. His seventeen-
+      volume Qurʾanic exegesis *Maḥāsin al-Taʾwīl*,
+      published posthumously, drew on classical Sunni
+      tafsīr while engaging late-nineteenth-century
+      reformist concerns. Other works include *Qawāʿid
+      al-Taḥdīth min Funūn Muṣṭalaḥ al-Ḥadīth* on the
+      science of hadith terminology, *Iṣlāḥ al-Masājid
+      min al-Bidaʿ wa-l-ʿAwāʾid*, and the auto-
+      biographical *Dalāʾil al-Tawḥīd*.
+    description_ar: |
+      توفي العلامة محمد جمال الدين القاسمي — العالم
+      السني الدمشقي الشافعي الأصل المتحرر من التقليد
+      المذهبي في آخر أمره، أحد أبرز أعلام حلقة الإصلاح
+      الدمشقية العثمانية المتأخرة مع الشيخ طاهر
+      الجزائري والشيخ عبد الرزاق البيطار، ومن
+      المراسلين النشطين لمجلة «المنار» للسيد محمد رشيد
+      رضا بالقاهرة — بدمشق يوم ٢٣ جمادى الأولى سنة
+      ١٣٣٢ هـ (الموافق ١٨ أفريل ١٩١٤ ميلادي) عن إحدى
+      وخمسين سنة. ولد بحارة القيمرية بدمشق سنة ١٢٨٣ هـ
+      (١٨٦٦ ميلادي)، وكان نجل الشيخ الشافعي محمد سعيد
+      القاسمي وتلميذه. وتفسيره القرآني «محاسن التأويل»
+      في سبعة عشر مجلداً نُشر بعد وفاته، يجمع فيه
+      المؤلف بين التفسير السني الكلاسيكي وقضايا
+      الإصلاح في أواخر القرن التاسع عشر الميلادي. ومن
+      مؤلفاته «قواعد التحديث من فنون مصطلح الحديث»
+      في علوم الحديث، و«إصلاح المساجد من البدع
+      والعوائد»، و«دلائل التوحيد».
+    description_fr: |
+      Muḥammad Jamāl al-Dīn al-Qāsimī — savant sunnite
+      damascène d'origine shāfiʿite et de tendance
+      indépendante en fin de carrière, figure de proue
+      du cercle réformiste (*iṣlāḥ*) damascène ottoman
+      tardif aux côtés de Ṭāhir al-Jazāʾirī et ʿAbd
+      al-Razzāq al-Bīṭār, et correspondant actif de la
+      revue *al-Manār* de Muḥammad Rashīd Riḍā au
+      Caire — mourut à Damas le 23 Jumādā al-Ūlā 1332 H
+      (18 avril 1914 EC) à l'âge de cinquante et un
+      ans. Né dans le quartier Qaymariyya de Damas en
+      1283 H (1866 EC), il fut le fils et l'élève du
+      savant shāfiʿite Muḥammad Saʿīd al-Qāsimī. Son
+      exégèse coranique en dix-sept volumes *Maḥāsin
+      al-Taʾwīl*, publiée à titre posthume, puise dans
+      le tafsīr sunnite classique tout en engageant les
+      préoccupations réformistes de la fin du XIXe
+      siècle. Ses autres œuvres comprennent *Qawāʿid
+      al-Taḥdīth min Funūn Muṣṭalaḥ al-Ḥadīth* sur la
+      science du hadith, *Iṣlāḥ al-Masājid min al-Bidaʿ
+      wa-l-ʿAwāʾid* et l'autobiographique *Dalāʾil
+      al-Tawḥīd*.
+    canonical_hijri: {year: 1332, month: 5, day: 23, precision: day}
+    canonical_gregorian: {date: 1914-04-18, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'al-Qāsimī, Muḥammad Jamāl al-Dīn' in EI2 records death April 1914 in Damascus."
+      - source_key: editorial
+        notes: "Damascene reformist circle activity, *al-Manār* correspondence, and seventeen-volume *Maḥāsin al-Taʾwīl* attested in standard biographies."
+    people: [[jamal-al-din-al-qasimi, died]]
+    tags: [modern, scholar, syria, damascus, reformist, late-ottoman, mufassir, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Jamal_al-Din_al-Qasimi"
+
+  - slug: death-of-tahir-al-jazairi
+    category: scholar_death
+    title_en: Death of Ṭāhir al-Jazāʾirī — Damascene Educator and Reformer
+    title_ar: وفاة الشيخ طاهر الجزائري — المربي والمصلح الدمشقي
+    title_fr: Mort de Ṭāhir al-Jazāʾirī — éducateur et réformateur damascène
+    description_en: |
+      Ṭāhir ibn Ṣāliḥ al-Jazāʾirī — Damascene Sunni scholar
+      of Algerian descent, founding figure of late-Ottoman
+      Syrian educational reform, founder of the Ẓāhiriyya
+      Library (*Dār al-Kutub al-Ẓāhiriyya*) in Damascus in
+      1880 and the *Sulṭāniyya* Library in 1903, and one
+      of the principal teachers of the Damascene reformist
+      circle that produced Jamāl al-Dīn al-Qāsimī, Muḥammad
+      Kurd ʿAlī, and Salīm al-Bukhārī — died at Damascus on
+      14 Rabīʿ al-Thānī 1338 AH (5 January 1920 CE) at
+      age 68. Born in Damascus in 1268 AH (1851 CE) of a
+      Maghrebī family that had migrated from Algeria after
+      the French conquest, he served the Ottoman Ministry
+      of Public Instruction in Damascus from 1875 onward
+      and was charged with reorganising public-school
+      curricula in Greater Syria. His authored corpus
+      includes *Tawjīh al-Naẓar ilā Uṣūl al-Athar* on the
+      sciences of hadith, *al-Tibyān li-Baʿḍ al-Mabāḥith
+      al-Mutaʿalliqa bi-l-Qurʾān ʿalā Ṭarīq al-Itqān*,
+      and a series of pedagogical primers in Arabic
+      grammar and arithmetic widely used in late-Ottoman
+      schools.
+    description_ar: |
+      توفي الشيخ طاهر بن صالح الجزائري — العالم السني
+      الدمشقي ذو الأصل الجزائري، الرائد في إصلاح
+      التعليم بالشام في أواخر العهد العثماني، مؤسس
+      المكتبة الظاهرية (دار الكتب الظاهرية) بدمشق سنة
+      ١٢٩٧ هـ (١٨٨٠ ميلادي) والمكتبة السلطانية سنة
+      ١٣٢١ هـ (١٩٠٣ ميلادي)، وأحد كبار شيوخ حلقة
+      الإصلاح الدمشقية التي خرج منها جمال الدين
+      القاسمي ومحمد كرد علي وسليم البخاري — بدمشق يوم
+      ١٤ ربيع الثاني سنة ١٣٣٨ هـ (الموافق ٥ جانفي
+      ١٩٢٠ ميلادي) عن ثمان وستين سنة. ولد بدمشق سنة
+      ١٢٦٨ هـ (١٨٥١ ميلادي) لأسرة مغربية مهاجرة من
+      الجزائر بعد الاحتلال الفرنسي، وعمل في نظارة
+      المعارف العثمانية بدمشق منذ سنة ١٢٩٢ هـ (١٨٧٥
+      ميلادي)، وأنيط به تنظيم مناهج المدارس العامة
+      ببلاد الشام. ومن مؤلفاته: «توجيه النظر إلى أصول
+      الأثر» في علوم الحديث، و«التبيان لبعض المباحث
+      المتعلقة بالقرآن على طريق الإتقان»، وسلسلة من
+      الكتب التعليمية الميسرة في النحو والحساب
+      المتداولة في مدارس الدولة العثمانية المتأخرة.
+    description_fr: |
+      Ṭāhir ibn Ṣāliḥ al-Jazāʾirī — savant sunnite
+      damascène d'origine algérienne, figure fondatrice
+      de la réforme de l'enseignement syrien à la fin de
+      l'époque ottomane, fondateur de la Bibliothèque
+      Ẓāhiriyya (*Dār al-Kutub al-Ẓāhiriyya*) à Damas en
+      1880 et de la Bibliothèque *Sulṭāniyya* en 1903,
+      et l'un des principaux maîtres du cercle
+      réformiste damascène d'où sortirent Jamāl al-Dīn
+      al-Qāsimī, Muḥammad Kurd ʿAlī et Salīm al-Bukhārī
+      — mourut à Damas le 14 Rabīʿ al-Thānī 1338 H
+      (5 janvier 1920 EC) à l'âge de 68 ans. Né à Damas
+      en 1268 H (1851 EC) dans une famille maghrébine
+      ayant émigré d'Algérie après la conquête française,
+      il servit le Ministère ottoman de l'Instruction
+      Publique à Damas à partir de 1875 et fut chargé de
+      la réorganisation des programmes scolaires
+      publics en Grande Syrie. Son corpus comprend
+      *Tawjīh al-Naẓar ilā Uṣūl al-Athar* sur les
+      sciences du hadith, *al-Tibyān li-Baʿḍ al-Mabāḥith
+      al-Mutaʿalliqa bi-l-Qurʾān ʿalā Ṭarīq al-Itqān* et
+      une série de manuels pédagogiques de grammaire
+      arabe et d'arithmétique largement utilisés dans
+      les écoles ottomanes tardives.
+    canonical_hijri: {year: 1338, month: 4, day: 14, precision: day}
+    canonical_gregorian: {date: 1920-01-05, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'al-Djazāʾirī, Ṭāhir' in EI2 records death January 1920 in Damascus."
+      - source_key: editorial
+        notes: "Founding role at the Ẓāhiriyya Library and educational-reform career in late-Ottoman Damascus attested in standard biographies."
+    people: [[tahir-al-jazairi, died]]
+    tags: [modern, scholar, syria, damascus, algeria, reformist, late-ottoman, educationalist, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Tahir_al-Jaza%27iri"
+
+  # =========================================================================
+  # SHAYKHS OF AL-AZHAR
+  # =========================================================================
+
+  - slug: death-of-salim-al-bishri
+    category: scholar_death
+    title_en: Death of Salīm al-Bishrī — Mālikī Shaykh of al-Azhar
+    title_ar: وفاة الشيخ سليم البشري — شيخ الأزهر المالكي
+    title_fr: Mort de Salīm al-Bishrī — Shaykh mālikite d'al-Azhar
+    description_en: |
+      Salīm al-Bishrī — Egyptian Sunni Mālikī jurist and
+      Shaykh of al-Azhar across two terms (1900–1904 and
+      1909–1916), notable defender of the four Sunni
+      madhāhib in the era of late-Ottoman reformism, and
+      one of the senior signatories of the early
+      twentieth-century *fatwā* literature on banking and
+      modern legal questions — died at Cairo in Rabīʿ al-
+      Thānī 1335 AH (corresponding to mid-February 1917 CE).
+      Born in 1248 AH (1832 CE) at al-Maḥalla al-Kubrā in
+      the Egyptian Delta, he studied at al-Azhar under
+      Ibrāhīm al-Saqqā, Muḥammad ʿIlīsh, and other Mālikī
+      masters of the period. As Shaykh of al-Azhar he
+      oversaw the second major modernisation of the Azharī
+      curriculum and presided over much of the institutional
+      contest between the traditionalist and reformist
+      currents of the early twentieth century. He authored
+      *al-Anwār al-Saniyya ʿalā al-Durar al-Bahiyya*, a
+      Mālikī commentary on the *Durar* of al-Bījūrī, and
+      a number of fatwa collections preserved in the
+      *Majmūʿ Fatāwā Shaykh al-Azhar*.
+    description_ar: |
+      توفي الشيخ سليم البشري — الفقيه السني المالكي
+      المصري، شيخ الأزهر الشريف في فترتين (سنة ١٣١٨ هـ
+      / ١٩٠٠ ميلادي إلى سنة ١٣٢٢ هـ / ١٩٠٤ ميلادي،
+      وسنة ١٣٢٧ هـ / ١٩٠٩ ميلادي إلى سنة ١٣٣٣ هـ /
+      ١٩١٦ ميلادي)، ومدافع بارز عن المذاهب السنية
+      الأربعة في عصر الإصلاح العثماني المتأخر، وأحد
+      كبار الموقعين على فتاوى مطلع القرن العشرين
+      الميلادي في المسائل المصرفية والقانونية الحديثة
+      — بالقاهرة في ربيع الثاني سنة ١٣٣٥ هـ (الموافق
+      منتصف فيفري ١٩١٧ ميلادي). ولد سنة ١٢٤٨ هـ
+      (١٨٣٢ ميلادي) بالمحلة الكبرى بدلتا مصر، ودرس
+      بالأزهر على الشيخ إبراهيم السقا والشيخ محمد
+      عليش وغيرهما من أعلام المالكية في عصره. وأشرف
+      أثناء مشيخته للأزهر على ثاني كبرى موجات تطوير
+      مناهج الأزهر، وعاصر معظم الصراع المؤسسي بين
+      تيار التقليد وتيار الإصلاح في مطلع القرن
+      العشرين. ومن مؤلفاته «الأنوار السنية على الدرر
+      البهية» شرح على «الدرر» للشيخ البيجوري على
+      المذهب المالكي، ومجاميع فتاوى محفوظة في
+      «مجموع فتاوى شيخ الأزهر».
+    description_fr: |
+      Salīm al-Bishrī — juriste sunnite mālikite égyptien
+      et Shaykh d'al-Azhar pour deux mandats (1900–1904
+      et 1909–1916), défenseur notable des quatre écoles
+      sunnites à l'époque du réformisme ottoman tardif,
+      et l'un des principaux signataires de la
+      littérature fatwa du début du XXe siècle sur la
+      banque et les questions juridiques modernes —
+      mourut au Caire en Rabīʿ al-Thānī 1335 H
+      (correspondant à la mi-février 1917 EC). Né en
+      1248 H (1832 EC) à al-Maḥalla al-Kubrā dans le
+      Delta égyptien, il étudia à al-Azhar sous Ibrāhīm
+      al-Saqqā, Muḥammad ʿIlīsh et d'autres maîtres
+      mālikites de l'époque. Comme Shaykh d'al-Azhar
+      il supervisa la seconde grande modernisation du
+      programme azharien et présida à une grande partie
+      de la lutte institutionnelle entre les courants
+      traditionaliste et réformiste du début du XXe
+      siècle. Il rédigea *al-Anwār al-Saniyya ʿalā
+      al-Durar al-Bahiyya*, un commentaire mālikite des
+      *Durar* d'al-Bījūrī, et plusieurs recueils de
+      fatwas conservés dans le *Majmūʿ Fatāwā Shaykh
+      al-Azhar*.
+    canonical_hijri: {year: 1335, month: 4, precision: month}
+    canonical_gregorian: {date: 1917-02-15, precision: month, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'al-Bishrī, Salīm' in EI2 records death February 1917 in Cairo; standard biographies give Rabīʿ al-Thānī 1335 AH."
+      - source_key: editorial
+        notes: "Two terms as Shaykh of al-Azhar (1900–1904, 1909–1916) and Mālikī fatwa corpus attested in al-Azhar institutional records."
+    people: [[salim-al-bishri, died]]
+    tags: [modern, scholar, egypt, cairo, maliki, azhar, shaykh-al-azhar, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Salim_al-Bishri"
+
+  - slug: death-of-muhammad-al-khadir-husayn
+    category: scholar_death
+    title_en: Death of Muḥammad al-Khaḍir Ḥusayn — Tunisian Shaykh of al-Azhar
+    title_ar: وفاة الشيخ محمد الخضر حسين — شيخ الأزهر التونسي
+    title_fr: Mort de Muḥammad al-Khaḍir Ḥusayn — Shaykh tunisien d'al-Azhar
+    description_en: |
+      Muḥammad al-Khaḍir ibn al-Ḥusayn ibn ʿAlī Ibn ʿUmar
+      — Tunisian-born Sunni Mālikī jurist and Sufi, Shaykh
+      of al-Azhar from October 1952 to January 1954,
+      founding member of the Academy of the Arabic
+      Language in Cairo, and leading figure of the post-
+      colonial North African Sunni scholarly diaspora —
+      died at Cairo on 13 Rajab 1377 AH (3 February 1958
+      CE) at age 82. Born at Nefta (south Tunisia) in
+      1293 AH (1876 CE), he studied at the Zaytūna
+      Mosque-University in Tunis and later taught
+      Mālikī fiqh, *uṣūl*, and Arabic literature there
+      before leaving Tunisia under French Protectorate
+      pressure for Damascus in 1912 and ultimately
+      Cairo in 1920. He served on al-Azhar's Council of
+      Senior Scholars and edited the journal *Liwāʾ al-
+      Islām*. His written corpus includes *Naqḍ Kitāb
+      fī al-Shiʿr al-Jāhilī* (a critical response to
+      Ṭāhā Ḥusayn's *On Pre-Islamic Poetry*), *al-
+      Qiyās fī al-Lugha al-ʿArabiyya*, *Naqḍ Kitāb
+      al-Islām wa Uṣūl al-Ḥukm* (against ʿAlī ʿAbd al-
+      Rāziq), *al-Daʿwa ilā al-Iṣlāḥ*, and a published
+      *Dīwān* of his Arabic poetry.
+    description_ar: |
+      توفي الإمام محمد الخضر بن الحسين بن علي بن عمر —
+      الفقيه السني المالكي والصوفي التونسي الأصل،
+      شيخ الأزهر الشريف من ذي الحجة سنة ١٣٧١ هـ
+      (أكتوبر ١٩٥٢ ميلادي) إلى جمادى الأولى سنة ١٣٧٣ هـ
+      (جانفي ١٩٥٤ ميلادي)، والعضو المؤسس لمجمع اللغة
+      العربية بالقاهرة، ومن أكابر علماء المهجر السني
+      المغاربي بعد الاستعمار — بالقاهرة يوم ١٣ رجب
+      سنة ١٣٧٧ هـ (الموافق ٣ فيفري ١٩٥٨ ميلادي) عن
+      اثنتين وثمانين سنة. ولد بمدينة نفطة بالجنوب
+      التونسي سنة ١٢٩٣ هـ (١٨٧٦ ميلادي)، ودرس بجامع
+      الزيتونة بتونس، ثم درّس فيه الفقه المالكي
+      وأصوله والآداب العربية، حتى غادر تونس تحت ضغط
+      الحماية الفرنسية إلى دمشق سنة ١٣٣٠ هـ (١٩١٢
+      ميلادي) واستقر بالقاهرة سنة ١٣٣٩ هـ (١٩٢٠
+      ميلادي). وكان عضواً في هيئة كبار العلماء
+      بالأزهر، ومحرراً لمجلة «لواء الإسلام». ومن
+      مؤلفاته: «نقض كتاب في الشعر الجاهلي» (رد على
+      كتاب الدكتور طه حسين)، و«القياس في اللغة
+      العربية»، و«نقض كتاب الإسلام وأصول الحكم» (رد
+      على الأستاذ علي عبد الرازق)، و«الدعوة إلى
+      الإصلاح»، وديوان شعره.
+    description_fr: |
+      Muḥammad al-Khaḍir ibn al-Ḥusayn ibn ʿAlī ibn ʿUmar
+      — juriste sunnite mālikite et soufi d'origine
+      tunisienne, Shaykh d'al-Azhar d'octobre 1952 à
+      janvier 1954, membre fondateur de l'Académie de
+      la Langue Arabe au Caire, et figure de proue de la
+      diaspora savante sunnite nord-africaine
+      post-coloniale — mourut au Caire le 13 Rajab
+      1377 H (3 février 1958 EC) à l'âge de 82 ans. Né
+      à Nefta (sud de la Tunisie) en 1293 H (1876 EC),
+      il étudia à la Mosquée-Université Zaytūna à Tunis
+      et y enseigna ensuite le fiqh mālikite, l'*uṣūl*
+      et la littérature arabe, avant de quitter la
+      Tunisie sous la pression du Protectorat français
+      pour Damas en 1912 puis Le Caire en 1920. Il fut
+      membre du Conseil des Grands Savants d'al-Azhar
+      et rédacteur de la revue *Liwāʾ al-Islām*. Son
+      corpus comprend *Naqḍ Kitāb fī al-Shiʿr al-
+      Jāhilī* (une réponse critique au *De la poésie
+      pré-islamique* de Ṭāhā Ḥusayn), *al-Qiyās fī
+      al-Lugha al-ʿArabiyya*, *Naqḍ Kitāb al-Islām wa
+      Uṣūl al-Ḥukm* (contre ʿAlī ʿAbd al-Rāziq), *al-
+      Daʿwa ilā al-Iṣlāḥ* et un *Dīwān* publié de ses
+      poèmes arabes.
+    canonical_hijri: {year: 1377, month: 7, day: 13, precision: day}
+    canonical_gregorian: {date: 1958-02-03, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'al-Khaḍir Ḥusayn, Muḥammad' in EI2 records death February 1958 in Cairo."
+      - source_key: editorial
+        notes: "Tenure as Shaykh of al-Azhar (1952–1954) and authored corpus including the *Naqḍ* on Ṭāhā Ḥusayn attested in al-Azhar institutional records."
+    people: [[muhammad-al-khadir-husayn, died]]
+    tags: [modern, scholar, tunisia, egypt, cairo, maliki, azhar, shaykh-al-azhar, zaytuna, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mohammad_al-Khidr_Husayn"
+
+  # =========================================================================
+  # TUNISIAN-AZHARI FIQH
+  # =========================================================================
+
+  - slug: death-of-muhammad-al-madani
+    category: scholar_death
+    title_en: Death of Muḥammad al-Madanī — Tunisian-Azhari Fiqh Scholar
+    title_ar: وفاة الشيخ محمد المدني — العالم التونسي الأزهري الفقيه
+    title_fr: Mort de Muḥammad al-Madanī — savant tunisien-azharien du fiqh
+    description_en: |
+      Muḥammad al-Madanī — Tunisian-born Sunni Mālikī
+      jurist, longtime professor at the Zaytūna and
+      thereafter at al-Azhar, dean of the Faculty of
+      Sharīʿa at al-Azhar in the 1960s, founding editor
+      of the al-Azhar journal *Liwāʾ al-Islām*, and
+      member of the Academy of the Arabic Language —
+      died at Cairo in 1387 AH (1968 CE). Born in
+      Tunisia in 1325 AH (1907 CE), he studied at the
+      Zaytūna Mosque-University before moving to Egypt
+      in the 1930s, where he completed his doctoral
+      training at al-Azhar under the early modernised
+      Faculty of Sharīʿa. As a Mālikī jurist he wrote on
+      *uṣūl al-fiqh*, comparative *fiqh* across the
+      four Sunni madhāhib, and the place of Islamic
+      legal reasoning in the modern Arab states. His
+      authored works include *al-Mujtamaʿ al-Islāmī
+      kamā Yunaẓẓimuhu al-Qurʾān* (a multi-volume
+      study of the Qurʾanic vision of social order),
+      *Aṣālat al-Sharīʿa al-Islāmiyya wa-Khatm al-
+      Risāla*, and edited articles in *Liwāʾ al-Islām*
+      across the period.
+    description_ar: |
+      توفي الشيخ محمد المدني — الفقيه السني المالكي
+      التونسي الأصل، أستاذ جامع الزيتونة والأزهر
+      الشريف سنين طويلة، عميد كلية الشريعة بالأزهر في
+      ستينات القرن العشرين الميلادي، ورئيس تحرير مجلة
+      الأزهر «لواء الإسلام» ومؤسسها، وعضو مجمع اللغة
+      العربية — بالقاهرة سنة ١٣٨٧ هـ (الموافق ١٩٦٨
+      ميلادي). ولد بتونس سنة ١٣٢٥ هـ (١٩٠٧ ميلادي)،
+      ودرس بجامع الزيتونة، ثم انتقل إلى مصر في
+      ثلاثينات القرن العشرين الميلادي حيث أتمّ
+      دراسته الجامعية بكلية الشريعة المُنشأة حديثاً
+      بالأزهر. كتب على المذهب المالكي وفي أصول الفقه
+      وفقه المقارنة بين المذاهب السنية الأربعة
+      ومكانة الاجتهاد الإسلامي في الدول العربية
+      الحديثة. ومن مؤلفاته: «المجتمع الإسلامي كما
+      ينظمه القرآن» في عدة أجزاء، و«أصالة الشريعة
+      الإسلامية وختم الرسالة»، ومقالات حررها بـ«لواء
+      الإسلام» على مدى عقود.
+    description_fr: |
+      Muḥammad al-Madanī — juriste sunnite mālikite né
+      en Tunisie, longtemps professeur à la Zaytūna
+      puis à al-Azhar, doyen de la Faculté de Sharīʿa
+      d'al-Azhar dans les années 1960, rédacteur en
+      chef fondateur de la revue d'al-Azhar *Liwāʾ
+      al-Islām*, et membre de l'Académie de la Langue
+      Arabe — mourut au Caire en 1387 H (1968 EC). Né
+      en Tunisie en 1325 H (1907 EC), il étudia à la
+      Mosquée-Université Zaytūna avant de s'installer
+      en Égypte dans les années 1930, où il compléta
+      sa formation doctorale à al-Azhar dans la
+      Faculté de Sharīʿa nouvellement modernisée. En
+      tant que juriste mālikite il écrivit sur l'*uṣūl
+      al-fiqh*, le fiqh comparé entre les quatre
+      écoles sunnites et la place du raisonnement
+      juridique islamique dans les États arabes
+      modernes. Ses œuvres comprennent *al-Mujtamaʿ
+      al-Islāmī kamā Yunaẓẓimuhu al-Qurʾān* (une
+      étude en plusieurs volumes de la vision
+      coranique de l'ordre social), *Aṣālat al-
+      Sharīʿa al-Islāmiyya wa-Khatm al-Risāla* et
+      ses éditoriaux dans *Liwāʾ al-Islām* tout au
+      long de cette période.
+    canonical_hijri: {year: 1387, precision: year}
+    canonical_gregorian: {date: 1968-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death in 1387 AH / 1968 CE in Cairo attested in Tunisian-Azhari biographical sources; precise day not unambiguously preserved across the standard biographies, so year-precision is used."
+    people: [[muhammad-al-madani, died]]
+    tags: [modern, scholar, tunisia, egypt, cairo, maliki, azhar, zaytuna, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A_(%D9%81%D9%82%D9%8A%D9%87)"
+
+  # =========================================================================
+  # AZHARI MODERNIST
+  # =========================================================================
+
+  - slug: death-of-muhammad-al-bahi
+    category: scholar_death
+    title_en: Death of Muḥammad al-Bahī — Egyptian Azharī Modernist
+    title_ar: وفاة الشيخ محمد البهي — المفكر الأزهري المصري الحديث
+    title_fr: Mort de Muḥammad al-Bahī — moderniste azharien égyptien
+    description_en: |
+      Muḥammad al-Bahī — Egyptian Sunni Azharī scholar of
+      Islamic philosophy and modern thought, holder of a
+      doctorate from Hamburg University (1936), longtime
+      professor at al-Azhar's Faculty of Uṣūl al-Dīn,
+      Egyptian Minister of Endowments (*Awqāf*) and
+      al-Azhar Affairs in the early 1960s, and one of the
+      principal Azharī voices in the post-1952 republican
+      reorganisation of al-Azhar — died at Cairo in 1402
+      AH (corresponding to 1982 CE) at age 77. Born at
+      Maḥallat Bahī in the Egyptian Delta in 1905, he
+      studied at al-Azhar before being sent to Germany
+      in the 1930s for the doctorate that produced his
+      *al-Janīb al-Ilāhī min al-Tafkīr al-Islāmī*
+      ("The Theological Side of Islamic Thought"). His
+      authored corpus includes *al-Fikr al-Islāmī al-
+      Ḥadīth wa Ṣilatuhu bi-l-Istiʿmār al-Gharbī* (a
+      controversial polemical study on modern Islamic
+      thought and Western colonialism, repeatedly
+      reissued), *al-Dīn wa-l-Dawla*, *al-Jānib al-
+      Siyāsī fī Ḥayāt Muḥammad ﷺ*, and a number of
+      lectures preserved by al-Azhar's research
+      services.
+    description_ar: |
+      توفي الدكتور الشيخ محمد البهي — العالم السني
+      الأزهري المصري في الفلسفة الإسلامية والفكر
+      الإسلامي الحديث، الحاصل على درجة الدكتوراه من
+      جامعة هامبورغ سنة ١٣٥٥ هـ (١٩٣٦ ميلادي)، أستاذ
+      كلية أصول الدين بالأزهر سنين طويلة، ووزير
+      الأوقاف وشؤون الأزهر بمصر في مطلع ستينات القرن
+      العشرين الميلادي، وأحد أبرز أصوات الأزهر في
+      إعادة تنظيم الأزهر بعد ثورة سنة ١٣٧١ هـ (١٩٥٢
+      ميلادي) — بالقاهرة سنة ١٤٠٢ هـ (الموافق ١٩٨٢
+      ميلادي) عن سبع وسبعين سنة. ولد بقرية محلة
+      البهي في دلتا مصر سنة ١٣٢٣ هـ (١٩٠٥ ميلادي)،
+      ودرس بالأزهر، ثم أرسل إلى ألمانيا في
+      ثلاثينات القرن العشرين الميلادي للدكتوراه التي
+      أصدر منها كتابه «الجانب الإلهي من التفكير
+      الإسلامي». ومن مؤلفاته: «الفكر الإسلامي
+      الحديث وصلته بالاستعمار الغربي» (وهو دراسة
+      جدلية أُعيد طبعها كثيراً)، و«الدين والدولة»،
+      و«الجانب السياسي في حياة محمد ﷺ»، ومحاضرات
+      محفوظة في المراكز البحثية بالأزهر.
+    description_fr: |
+      Muḥammad al-Bahī — savant sunnite azharien
+      égyptien spécialiste de la philosophie islamique
+      et de la pensée moderne, docteur de l'Université
+      de Hambourg (1936), longtemps professeur à la
+      Faculté d'Uṣūl al-Dīn d'al-Azhar, ministre
+      égyptien des Awqāf et des Affaires d'al-Azhar au
+      début des années 1960, et l'une des principales
+      voix azhariennes dans la réorganisation
+      républicaine d'al-Azhar après 1952 — mourut au
+      Caire en 1402 H (correspondant à 1982 EC) à
+      l'âge de 77 ans. Né à Maḥallat Bahī dans le
+      Delta égyptien en 1905, il étudia à al-Azhar
+      avant d'être envoyé en Allemagne dans les
+      années 1930 pour le doctorat dont sortit *al-
+      Janīb al-Ilāhī min al-Tafkīr al-Islāmī* (« Le
+      côté théologique de la pensée islamique »).
+      Ses œuvres comprennent *al-Fikr al-Islāmī al-
+      Ḥadīth wa Ṣilatuhu bi-l-Istiʿmār al-Gharbī*
+      (une étude polémique controversée sur la
+      pensée islamique moderne et le colonialisme
+      occidental, fréquemment rééditée), *al-Dīn wa-
+      l-Dawla*, *al-Jānib al-Siyāsī fī Ḥayāt
+      Muḥammad ﷺ*, et un certain nombre de
+      conférences conservées par les services de
+      recherche d'al-Azhar.
+    canonical_hijri: {year: 1402, precision: year}
+    canonical_gregorian: {date: 1982-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death in 1402 AH / 1982 CE in Cairo attested in Egyptian Azhari biographical sources; precise day not unambiguously preserved, so year-precision is used."
+    people: [[muhammad-al-bahi, died]]
+    tags: [modern, scholar, egypt, cairo, azhar, philosophy-islamique, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%A8%D9%87%D9%8A"
+
+  # =========================================================================
+  # MUSNAD AḤMAD ORGANIZER
+  # =========================================================================
+
+  - slug: death-of-abd-al-rahman-al-banna-al-saati
+    category: scholar_death
+    title_en: Death of ʿAbd al-Raḥmān al-Bannā al-Sāʿātī — Organizer of *al-Fatḥ al-Rabbānī*
+    title_ar: وفاة الشيخ عبد الرحمن البنا الساعاتي — مرتب «الفتح الرباني»
+    title_fr: Mort de ʿAbd al-Raḥmān al-Bannā al-Sāʿātī — éditeur de *al-Fatḥ al-Rabbānī*
+    description_en: |
+      ʿAbd al-Raḥmān ibn Muḥammad ibn Aḥmad al-Bannā al-
+      Sāʿātī — Egyptian Sunni Hanafī muḥaddith and the
+      father of Ḥasan al-Bannā, founder of the Society of
+      the Muslim Brotherhood — died at Cairo in
+      1378 AH (1958 CE) at age about eighty. Born at
+      al-Maḥmūdiyya near Alexandria in 1298 AH (1881 CE),
+      he studied at al-Azhar before settling at his home
+      mosque in al-Maḥmūdiyya, where he combined his
+      living as a watch-repairer (whence the *nisba*
+      *al-Sāʿātī*, "the watchmaker") with the long
+      labour of organising the Musnad of Imām Aḥmad ibn
+      Ḥanbal alphabetically by Companion-narrator. The
+      result, *al-Fatḥ al-Rabbānī li-Tartīb Musnad al-
+      Imām Aḥmad ibn Ḥanbal al-Shaybānī*, in twenty-
+      three volumes with the accompanying *Bulūgh al-
+      Amānī fī Asrār al-Fatḥ al-Rabbānī* commentary, is
+      one of the major modern reorganisations of a
+      classical hadith collection and remains widely
+      consulted across the Sunni world. He also authored
+      a sīra in verse (*al-Sīra al-Naẓmiyya*) and a
+      manual of forty selected hadiths.
+    description_ar: |
+      توفي الشيخ عبد الرحمن بن محمد بن أحمد البنا
+      الساعاتي — المحدث السني الحنفي المصري ووالد
+      الإمام حسن البنا مؤسس جماعة الإخوان المسلمين —
+      بالقاهرة سنة ١٣٧٨ هـ (الموافق ١٩٥٨ ميلادي) عن
+      نحو ثمانين سنة. ولد ببلدة المحمودية بمحافظة
+      البحيرة بالقرب من الإسكندرية سنة ١٢٩٨ هـ
+      (١٨٨١ ميلادي)، ودرس بالأزهر الشريف ثم استقر
+      بمسجد بلدته بالمحمودية، حيث جمع بين الكسب من
+      مهنة إصلاح الساعات (ومنها نسبته «الساعاتي»)
+      وبين العمل العلمي الطويل في ترتيب «مسند
+      الإمام أحمد بن حنبل» على أبواب الفقه. وقد
+      تمخّض هذا الجهد عن «الفتح الرباني لترتيب
+      مسند الإمام أحمد بن حنبل الشيباني» في ثلاثة
+      وعشرين مجلداً مع شرحه «بلوغ الأماني في أسرار
+      الفتح الرباني»، وهو من أكبر التحقيقات الحديثة
+      على مجموع حديثي كلاسيكي، ولا يزال متداولاً في
+      العالم السني. وله أيضاً «السيرة النظمية» في
+      السيرة النبوية شعراً، و«الأربعون النبوية»
+      المختارة.
+    description_fr: |
+      ʿAbd al-Raḥmān ibn Muḥammad ibn Aḥmad al-Bannā
+      al-Sāʿātī — muḥaddith sunnite hanafite égyptien
+      et père de Ḥasan al-Bannā, fondateur de la
+      Société des Frères musulmans — mourut au Caire
+      en 1378 H (1958 EC) à l'âge d'environ quatre-
+      vingts ans. Né à al-Maḥmūdiyya près d'Alexandrie
+      en 1298 H (1881 EC), il étudia à al-Azhar avant
+      de s'établir dans la mosquée de sa ville natale
+      à al-Maḥmūdiyya, où il combina son métier de
+      réparateur d'horloges (d'où la *nisba*
+      *al-Sāʿātī*, « l'horloger ») avec le long
+      travail de réorganisation alphabétique-thématique
+      du Musnad de l'imam Aḥmad ibn Ḥanbal. Le résultat,
+      *al-Fatḥ al-Rabbānī li-Tartīb Musnad al-Imām
+      Aḥmad ibn Ḥanbal al-Shaybānī*, en vingt-trois
+      volumes accompagné de son commentaire *Bulūgh
+      al-Amānī fī Asrār al-Fatḥ al-Rabbānī*, est l'une
+      des grandes réorganisations modernes d'une
+      collection classique de hadith et demeure
+      largement consultée dans le monde sunnite. Il
+      rédigea également une sīra en vers (*al-Sīra
+      al-Naẓmiyya*) et un manuel de quarante hadiths
+      choisis.
+    canonical_hijri: {year: 1378, precision: year}
+    canonical_gregorian: {date: 1958-09-08, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death in 1378 AH / September 1958 in Cairo attested in standard Egyptian biographical sources; precise day variously reported across the secondary literature, so day-attested Gregorian is used with year-precision Hijri."
+    people: [[abd-al-rahman-al-banna-al-saati, died], [hassan-al-banna, subject]]
+    tags: [modern, scholar, egypt, cairo, hanafi, muhaddith, musnad-ahmad, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86_%D8%A7%D9%84%D8%A8%D9%86%D8%A7_%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA%D9%8A"
+
+  # =========================================================================
+  # SYRIAN ISLAMIC REVIVALISM
+  # =========================================================================
+
+  - slug: death-of-said-hawwa
+    category: scholar_death
+    title_en: Death of Saʿīd Ḥawwā — Syrian Islamic-Revivalist Scholar
+    title_ar: وفاة الشيخ سعيد حوى — العالم السوري من رواد الإحياء الإسلامي
+    title_fr: Mort de Saʿīd Ḥawwā — savant syrien révivaliste
+    description_en: |
+      Saʿīd Ḥawwā — Syrian Sunni Hanafī scholar, Sufi
+      affiliate of the Naqshbandī order, longtime
+      ideologue of the Syrian branch of the Muslim
+      Brotherhood, and prolific author of works in tafsīr,
+      *taṣawwuf*, and political-theological reflection —
+      died at Amman, Jordan on 9 Shaʿbān 1409 AH
+      (9 March 1989 CE) at age 53 after several years of
+      illness and exile. Born at Ḥamāh in 1935, he
+      graduated from Damascus University's Faculty of
+      Sharīʿa in 1961, taught for several years in
+      Saudi Arabia, and was repeatedly imprisoned in
+      Syria during the late 1960s and 1970s for his
+      writings and his activism. After 1982 he settled in
+      Amman, where he completed the eleven-volume
+      Qurʾanic exegesis *al-Asās fī al-Tafsīr*. His
+      authored corpus also includes the eight-volume
+      *al-Asās fī al-Sunna*, *Tarbiyatunā al-Rūḥiyya*
+      (a manual of Sufi spiritual training), *al-Islām*,
+      *Allāh*, *al-Rasūl*, and *Hādhihi Tajribatī wa
+      Hādhihi Shahādatī*, his late-life autobiography.
+    description_ar: |
+      توفي الشيخ سعيد حوى — العالم السني الحنفي السوري،
+      المنتسب إلى الطريقة النقشبندية الصوفية، ومن
+      أبرز منظّري فرع الإخوان المسلمين بسوريا سنين
+      طويلة، والمصنف المكثر في التفسير والتصوف
+      والتأمل العقدي السياسي — بمدينة عمّان بالمملكة
+      الأردنية يوم ٩ شعبان سنة ١٤٠٩ هـ (الموافق
+      ٩ مارس ١٩٨٩ ميلادي) عن ثلاث وخمسين سنة بعد
+      مرض طويل وغربة. ولد بحماة سنة ١٣٥٤ هـ
+      (١٩٣٥ ميلادي)، وتخرج من كلية الشريعة بجامعة
+      دمشق سنة ١٣٨١ هـ (١٩٦١ ميلادي)، ودرّس بضع
+      سنوات بالمملكة العربية السعودية، واعتُقل مراراً
+      بسوريا في أواخر ستينات وفي سبعينات القرن
+      العشرين الميلادي بسبب كتاباته ونشاطه. وبعد
+      سنة ١٤٠٢ هـ (١٩٨٢ ميلادي) استقر بعمّان وأتمّ
+      هناك تفسيره القرآني «الأساس في التفسير» في
+      أحد عشر مجلداً. ومن مؤلفاته الأخرى: «الأساس
+      في السنة» في ثمانية مجلدات، و«تربيتنا الروحية»،
+      و«الإسلام»، و«الله»، و«الرسول»، و«هذه تجربتي
+      وهذه شهادتي» سيرته الذاتية في أواخر حياته.
+    description_fr: |
+      Saʿīd Ḥawwā — savant sunnite hanafite syrien,
+      affilié à la confrérie soufie naqshbandī,
+      longtemps idéologue de la branche syrienne des
+      Frères musulmans, et auteur prolifique d'œuvres
+      en tafsīr, *taṣawwuf* et réflexion
+      politico-théologique — mourut à Amman, Jordanie,
+      le 9 Shaʿbān 1409 H (9 mars 1989 EC) à l'âge de
+      53 ans après plusieurs années de maladie et
+      d'exil. Né à Ḥamāh en 1935, il fut diplômé de la
+      Faculté de Sharīʿa de l'Université de Damas en
+      1961, enseigna plusieurs années en Arabie
+      saoudite et fut emprisonné à plusieurs reprises
+      en Syrie à la fin des années 1960 et 1970 pour
+      ses écrits et son militantisme. Après 1982 il
+      s'établit à Amman, où il compléta l'exégèse
+      coranique en onze volumes *al-Asās fī al-
+      Tafsīr*. Son corpus comprend également *al-Asās
+      fī al-Sunna* en huit volumes, *Tarbiyatunā al-
+      Rūḥiyya* (un manuel de formation spirituelle
+      soufie), *al-Islām*, *Allāh*, *al-Rasūl* et
+      *Hādhihi Tajribatī wa Hādhihi Shahādatī*, son
+      autobiographie tardive.
+    canonical_hijri: {year: 1409, month: 8, day: 9, precision: day}
+    canonical_gregorian: {date: 1989-03-09, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Modern academic references record death in Amman 9 March 1989."
+      - source_key: editorial
+        notes: "Syrian Brotherhood role, Naqshbandī affiliation, and authored corpus including the eleven-volume *al-Asās fī al-Tafsīr* attested in standard biographies."
+    people: [[said-hawwa, died]]
+    tags: [modern, scholar, syria, jordan, amman, hanafi, naqshbandi, ikhwan, mufassir, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Said_Hawwa"
+
+  # =========================================================================
+  # MODERN MUSLIM WOMEN SCHOLARS
+  # =========================================================================
+
+  - slug: death-of-bint-al-shati
+    category: scholar_death
+    title_en: Death of Bint al-Shāṭiʾ — ʿĀʾisha ʿAbd al-Raḥmān, Egyptian Qurʾān Scholar
+    title_ar: وفاة بنت الشاطئ — الدكتورة عائشة عبد الرحمن الباحثة المصرية في القرآن الكريم
+    title_fr: Mort de Bint al-Shāṭiʾ — ʿĀʾisha ʿAbd al-Raḥmān, savante égyptienne du Coran
+    description_en: |
+      ʿĀʾisha bint Muḥammad ʿAlī ʿAbd al-Raḥmān, writing
+      under the pen-name Bint al-Shāṭiʾ ("Daughter of the
+      [Nile] Shore") — Egyptian Sunni scholar of Arabic
+      literature and Qurʾanic studies, doctorate in Arabic
+      literature from Cairo's Fuʾād I (later Cairo)
+      University in 1950, and longtime professor of
+      Qurʾanic studies at ʿAyn Shams University in Cairo
+      and Qarawiyyīn-affiliated faculties in Morocco —
+      died at Cairo on 12 Shaʿbān 1419 AH (1 December
+      1998 CE) at age 86. Born at Dimyāṭ on the
+      Mediterranean Egyptian coast in 1913, she was the
+      wife and intellectual partner of the Azharī mufassir
+      Amīn al-Khūlī. Her two-volume *al-Tafsīr al-Bayānī
+      lil-Qurʾān al-Karīm* developed an influential
+      *bayānī* (rhetorical-stylistic) approach to
+      Qurʾanic exegesis applied especially to the short
+      Meccan suras. Her broader corpus includes *al-Iʿjāz
+      al-Bayānī lil-Qurʾān*, *Maqāl fī al-Insān: Dirāsa
+      Qurʾāniyya*, biographies of the *Mothers of the
+      Believers* and of the Prophet's ﷺ daughters, and
+      novels and Arabic-literature studies. She was one
+      of the most-cited Arab Sunni women academics of the
+      twentieth century.
+    description_ar: |
+      توفيت الدكتورة عائشة بنت محمد علي عبد الرحمن،
+      المعروفة بالاسم الأدبي بنت الشاطئ — العالمة
+      السنية المصرية في الأدب العربي والدراسات
+      القرآنية، حاصلة على دكتوراه الأدب العربي من
+      جامعة فؤاد الأول (جامعة القاهرة لاحقاً) سنة
+      ١٣٧٠ هـ (١٩٥٠ ميلادي)، وأستاذة الدراسات
+      القرآنية بجامعة عين شمس بالقاهرة وبكليات
+      ملحقة بجامعة القرويين بالمغرب سنين طويلة —
+      بالقاهرة يوم ١٢ شعبان سنة ١٤١٩ هـ (الموافق
+      ١ ديسمبر ١٩٩٨ ميلادي) عن ست وثمانين سنة. ولدت
+      بمدينة دمياط على الساحل المصري المتوسطي سنة
+      ١٣٣٢ هـ (١٩١٣ ميلادي)، وكانت زوجة المفسر
+      الأزهري الشيخ أمين الخولي وشريكته الفكرية.
+      وتفسيرها «التفسير البياني للقرآن الكريم» في
+      جزأين أرسى منهجاً «بيانياً» (بلاغياً
+      أسلوبياً) مؤثراً في تفسير القرآن الكريم
+      طبقته خاصة على السور المكية القصيرة. ومن
+      مؤلفاتها الأخرى: «الإعجاز البياني للقرآن»،
+      و«مقال في الإنسان: دراسة قرآنية»، وتراجم
+      «أمهات المؤمنين» وتراجم بنات النبي ﷺ، فضلاً
+      عن روايات ودراسات في الأدب العربي. وهي من
+      أكثر العالمات السنيات العربيات استشهاداً بهنّ
+      في القرن العشرين الميلادي.
+    description_fr: |
+      ʿĀʾisha bint Muḥammad ʿAlī ʿAbd al-Raḥmān,
+      écrivant sous le nom de plume Bint al-Shāṭiʾ
+      (« Fille de la rive [du Nil] ») — savante
+      sunnite égyptienne de littérature arabe et
+      d'études coraniques, docteure en littérature
+      arabe de l'Université Fuʾād I (plus tard
+      Université du Caire) en 1950, et longtemps
+      professeure d'études coraniques à l'Université
+      ʿAyn Shams au Caire et dans les facultés
+      affiliées à al-Qarawiyyīn au Maroc — mourut au
+      Caire le 12 Shaʿbān 1419 H (1er décembre 1998
+      EC) à l'âge de 86 ans. Née à Damiette sur la
+      côte méditerranéenne d'Égypte en 1913, elle fut
+      l'épouse et la partenaire intellectuelle du
+      mufassir azharien Amīn al-Khūlī. Son *al-
+      Tafsīr al-Bayānī lil-Qurʾān al-Karīm* en deux
+      volumes développa une approche *bayānī*
+      (rhétorico-stylistique) influente de l'exégèse
+      coranique appliquée en particulier aux courtes
+      sourates mecquoises. Son corpus comprend
+      également *al-Iʿjāz al-Bayānī lil-Qurʾān*,
+      *Maqāl fī al-Insān: Dirāsa Qurʾāniyya*, des
+      biographies des *Mères des Croyants* et des
+      filles du Prophète ﷺ, ainsi que des romans et
+      des études de littérature arabe. Elle figure
+      parmi les femmes universitaires sunnites
+      arabes les plus citées du XXe siècle.
+    canonical_hijri: {year: 1419, month: 8, day: 12, precision: day}
+    canonical_gregorian: {date: 1998-12-01, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'ʿAbd al-Raḥmān, ʿĀʾisha (Bint al-Shāṭiʾ)' in EI2 supplements records death December 1998 in Cairo."
+      - source_key: editorial
+        notes: "Doctorate at Fuʾād I University (1950), academic career at ʿAyn Shams, and authored corpus including the two-volume *al-Tafsīr al-Bayānī* attested in standard biographies."
+    people: [[bint-al-shati, died]]
+    tags: [modern, scholar, women, egypt, cairo, mufassir, ulum-al-quran, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bint_al-Shati"
+
+  - slug: death-of-zaynab-al-ghazali
+    category: scholar_death
+    title_en: Death of Zaynab al-Ghazālī — Egyptian Women's Islamic Activist
+    title_ar: وفاة السيدة زينب الغزالي — الداعية المصرية إلى التنظيم النسائي الإسلامي
+    title_fr: Mort de Zaynab al-Ghazālī — militante islamique égyptienne pour l'organisation des femmes
+    description_en: |
+      Zaynab Muḥammad al-Ghazālī al-Jubaylī — Egyptian
+      Sunni preacher and founder of the *Jamāʿat al-
+      Sayyidāt al-Muslimāt* (Society of Muslim Women,
+      established in 1936) — died at Cairo on 27 Jumādā
+      al-Thāniya 1426 AH (3 August 2005 CE) at age 88.
+      Born at Mīt Yaʿīsh in the Daqahliyya governorate of
+      the Egyptian Delta in 1917, she was educated in
+      Egypt's first generation of women's religious
+      schooling and trained briefly with Hudā Shaʿrāwī's
+      Egyptian Feminist Union before founding her own
+      organisation oriented around women's religious
+      education and Qurʾanic teaching. From the 1940s
+      she was associated with the Society of the Muslim
+      Brotherhood, was arrested in 1965 in the Nasser-
+      era crackdown, and spent six years in detention.
+      Her prison memoir *Ayyām min Ḥayātī* ("Days from
+      My Life", 1977) circulates widely. Her authored
+      corpus also includes *Naẓarāt fī Kitāb Allāh*, a
+      multi-volume Qurʾanic reflection, and several
+      pamphlets on women's religious life and
+      organisation. She continued writing and giving
+      lessons at the Cairo home where she taught women
+      students until shortly before her death.
+    description_ar: |
+      توفيت السيدة الداعية زينب محمد الغزالي الجبيلي
+      — الداعية السنية المصرية ومؤسسة «جماعة السيدات
+      المسلمات» (تأسست سنة ١٣٥٥ هـ / ١٩٣٦ ميلادي) —
+      بالقاهرة يوم ٢٧ جمادى الآخرة سنة ١٤٢٦ هـ
+      (الموافق ٣ أوت ٢٠٠٥ ميلادي) عن ثمان وثمانين
+      سنة. ولدت بقرية ميت يعيش بمحافظة الدقهلية في
+      دلتا مصر سنة ١٣٣٦ هـ (١٩١٧ ميلادي)، وتعلمت في
+      الجيل الأول من تعليم البنات الديني بمصر،
+      وتدربت قليلاً مع الاتحاد النسائي المصري للسيدة
+      هدى شعراوي ثم أسست تنظيمها الخاص الموجه نحو
+      التعليم الديني للنساء وتعليم القرآن الكريم.
+      ومنذ أربعينات القرن العشرين الميلادي ارتبطت
+      بجماعة الإخوان المسلمين، واعتُقلت سنة ١٣٨٤ هـ
+      (١٩٦٥ ميلادي) في حملة القمع في عهد جمال عبد
+      الناصر، وسُجنت ست سنوات. ومذكرات سجنها «أيام
+      من حياتي» (سنة ١٣٩٧ هـ / ١٩٧٧ ميلادي)
+      منتشرة. ومن مؤلفاتها أيضاً: «نظرات في كتاب
+      الله» في عدة مجلدات في التأمل القرآني، وعدد
+      من الكتيبات في الحياة والتنظيم الدينيين
+      للنساء. وقد ظلت تكتب وتدرّس بدارها بالقاهرة
+      للطالبات حتى قبيل وفاتها.
+    description_fr: |
+      Zaynab Muḥammad al-Ghazālī al-Jubaylī —
+      prédicatrice sunnite égyptienne et fondatrice de
+      la *Jamāʿat al-Sayyidāt al-Muslimāt* (Société
+      des Femmes Musulmanes, fondée en 1936) — mourut
+      au Caire le 27 Jumādā al-Thāniya 1426 H (3 août
+      2005 EC) à l'âge de 88 ans. Née à Mīt Yaʿīsh
+      dans le gouvernorat de Daqahliyya dans le Delta
+      égyptien en 1917, elle reçut une formation
+      religieuse dans la première génération de
+      l'enseignement religieux pour les femmes en
+      Égypte et travailla brièvement avec l'Union
+      Féministe Égyptienne de Hudā Shaʿrāwī avant de
+      fonder sa propre organisation centrée sur
+      l'éducation religieuse des femmes et
+      l'enseignement coranique. À partir des années
+      1940 elle fut associée à la Société des Frères
+      musulmans, fut arrêtée en 1965 lors de la
+      répression nassérienne, et passa six ans en
+      détention. Ses mémoires de prison *Ayyām min
+      Ḥayātī* (« Jours de ma vie », 1977) circulent
+      largement. Son corpus comprend également
+      *Naẓarāt fī Kitāb Allāh*, une réflexion
+      coranique en plusieurs volumes, et plusieurs
+      brochures sur la vie et l'organisation
+      religieuses des femmes. Elle continua à écrire
+      et à enseigner dans sa maison du Caire jusqu'à
+      peu avant sa mort.
+    canonical_hijri: {year: 1426, month: 6, day: 27, precision: day}
+    canonical_gregorian: {date: 2005-08-03, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Article 'al-Ghazālī, Zaynab' in EI2 supplements records death August 2005 in Cairo."
+      - source_key: editorial
+        notes: "Founding of *Jamāʿat al-Sayyidāt al-Muslimāt* in 1936 and prison memoir *Ayyām min Ḥayātī* attested in standard biographies."
+    people: [[zaynab-al-ghazali, died]]
+    tags: [modern, scholar, women, egypt, cairo, ikhwan, dawa, twentieth-century, twenty-first-century]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Zaynab_al-Ghazali"

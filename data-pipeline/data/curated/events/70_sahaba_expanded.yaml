@@ -1,0 +1,908 @@
+# Wave: Major Sahaba (Companions of the Prophet ﷺ) — Expanded death events
+# (2026-04-27).
+# Adds 11 senior sahaba whose deaths were not yet in the dataset:
+# Abū Wāqid al-Laythī, Abū Lubāba ibn ʿAbd al-Mundhir, ʿAbdullāh ibn
+# Mughaffal al-Muzanī, Usāma ibn Zayd, al-Nuʿmān ibn Bashīr,
+# Faḍāla ibn ʿUbayd, Thawbān (mawlā of the Prophet ﷺ), Abū Umāma
+# al-Bāhilī, Rāfiʿ ibn Khadīj, Shaddād ibn Aws, Abū al-Dardāʾ.
+# All sahaba — image_blocked. Each event attested in ≥2 of:
+# Ibn Ḥajar al-Iṣāba, al-Dhahabī Siyar, Ibn Saʿd Ṭabaqāt, al-Ṭabarī
+# Tārīkh, Ibn al-Athīr al-Kāmil, Ibn Kathīr al-Bidāya, Ibn Khallikān
+# Wafayāt. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # SENIOR SAHABA — DEATHS NOT YET IN DATASET
+  # =========================================================================
+
+  - slug: death-of-abu-waqid-al-laythi
+    category: companion
+    title_en: Death of Abū Wāqid al-Laythī ra
+    title_ar: وفاة أبي واقد الليثي رضي الله عنه
+    title_fr: Mort d'Abū Wāqid al-Laythī ra
+    description_en: |
+      al-Ḥārith ibn ʿAwf — Abū Wāqid al-Laythī al-Kinānī — sahabi
+      who embraced Islam at the Conquest of Mecca (8 AH) and
+      participated with the Prophet ﷺ at Ḥunayn, al-Ṭāʾif, and the
+      Farewell Pilgrimage — died at Mecca during the Pilgrimage
+      season, having moved there from Medina in his old age. He
+      was about 75. He is the narrator of the famous ḥadīth
+      preserved in al-Bukhārī and Muslim about the three groups
+      who came to the Prophet ﷺ in the mosque: one sat in the
+      circle, one sat in a gap, and one turned away — the Prophet ﷺ
+      ruled that the first sought refuge with Allah and Allah
+      sheltered him, the second was shy and Allah was shy of
+      him, while the third turned away and Allah turned away
+      from him (Bukhārī 66, Muslim 2176). He participated at
+      Ḥunayn in the famous incident of the *dhāt anwāṭ* tree,
+      when some new converts asked the Prophet ﷺ to designate a
+      tree on which they could hang their weapons for blessing
+      as the polytheists did, prompting the Prophet's ﷺ rebuke
+      that "you have said the very thing the Children of Israel
+      said to Mūsā: make for us a god as they have gods."
+    description_ar: |
+      توفي الحارث بن عوف — أبو واقد الليثي الكناني رضي الله عنه —
+      صحابي أسلم يوم فتح مكة سنة ثمان وشهد مع رسول الله ﷺ
+      حنيناً والطائف وحجة الوداع — بمكة في موسم الحج وقد انتقل
+      إليها من المدينة في آخر عمره، عن نحو خمس وسبعين سنة. وهو
+      راوي الحديث المشهور المتفق عليه في ثلاثة نفر أتوا رسول
+      الله ﷺ في المسجد فجلس أحدهم في الحلقة، وجلس الآخر في
+      الفرجة، وأعرض الثالث ذاهباً، فقال ﷺ: «أما أحدهم فأوى إلى
+      الله فآواه الله، وأما الآخر فاستحيا فاستحيا الله منه،
+      وأما الثالث فأعرض فأعرض الله عنه» (البخاري ٦٦، مسلم ٢١٧٦).
+      وحضر في حنين قصة «ذات أنواط» الشهيرة، إذ سأل بعض حدثاء
+      الإسلام رسولَ الله ﷺ أن يجعل لهم شجرة يعلقون عليها أسلحتهم
+      للتبرك كما يفعل المشركون، فقال ﷺ: «قلتم والذي نفسي بيده
+      كما قالت بنو إسرائيل لموسى: اجعل لنا إلهاً كما لهم آلهة».
+    description_fr: |
+      al-Ḥārith ibn ʿAwf — Abū Wāqid al-Laythī al-Kinānī — sahabi
+      qui embrassa l'Islam à la Conquête de La Mecque (8 H) et
+      participa aux côtés du Prophète ﷺ à Ḥunayn, à al-Ṭāʾif et
+      au Pèlerinage d'Adieu — mourut à La Mecque durant la saison
+      du Pèlerinage, après s'y être installé depuis Médine dans
+      sa vieillesse. Il avait environ 75 ans. Il est le narrateur
+      du célèbre ḥadīth préservé dans al-Bukhārī et Muslim au
+      sujet des trois personnes qui vinrent au Prophète ﷺ dans
+      la mosquée : l'un s'assit dans le cercle, l'un s'assit dans
+      un interstice, et l'un se détourna — le Prophète ﷺ jugea
+      que le premier chercha refuge auprès d'Allah et Allah lui
+      donna refuge, le second eut pudeur et Allah eut pudeur
+      envers lui, tandis que le troisième se détourna et Allah
+      se détourna de lui (Bukhārī 66, Muslim 2176). Il assista à
+      Ḥunayn au célèbre incident de l'arbre *dhāt anwāṭ*, lorsque
+      quelques nouveaux convertis demandèrent au Prophète ﷺ de
+      désigner un arbre sur lequel ils pourraient suspendre leurs
+      armes pour la bénédiction à la manière des polythéistes,
+      ce qui suscita la réprimande du Prophète ﷺ : « vous avez
+      dit la chose même que les Enfants d'Israël dirent à Mūsā :
+      fais-nous un dieu comme ils ont des dieux ».
+    canonical_hijri: {year: 68, precision: year}
+    canonical_gregorian: {date: 687-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 66"
+    people: [[abu-waqid-al-laythi, subject]]
+    tags: [sahabi, kinana, mecca, conquest-of-mecca, hunayn, narrator]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Waqid_al-Laithi"
+
+  - slug: death-of-abu-lubaba-ibn-abd-al-mundhir
+    category: companion
+    title_en: Death of Abū Lubāba ibn ʿAbd al-Mundhir al-Anṣārī ra
+    title_ar: وفاة أبي لبابة بن عبد المنذر الأنصاري رضي الله عنه
+    title_fr: Mort d'Abū Lubāba ibn ʿAbd al-Mundhir al-Anṣārī ra
+    description_en: |
+      Bashīr ibn ʿAbd al-Mundhir — Abū Lubāba al-Anṣārī al-Awsī —
+      Madinan sahabi of the Aws tribe, one of the twelve *naqībs*
+      selected at the second pledge of al-ʿAqaba, and the
+      Companion appointed by the Prophet ﷺ as governor of Medina
+      whenever the Prophet ﷺ left the city on a campaign — died
+      in Medina around 50 AH, during the late caliphate of
+      Muʿāwiya ra. He is the Companion of the famous incident
+      preserved in classical *sīra* literature: when sent as
+      negotiator to Banū Qurayẓa during their siege (5 AH),
+      they asked him whether they should accept the Prophet's ﷺ
+      arbitration and Abū Lubāba pointed to his throat
+      indicating slaughter. Realising he had betrayed God and
+      His Messenger by signalling, he tied himself to a pillar
+      of the Prophet's mosque vowing not to leave until Allah
+      forgave him. He remained tied for six nights — his
+      daughter coming to untie him only at prayer times — until
+      the verse of repentance was revealed (Q. 9:102):
+      "And others have acknowledged their sins; they had mixed
+      a righteous deed with another bad one." The Prophet ﷺ
+      personally untied him when news of the forgiveness came.
+
+      Sources record his death between the caliphate of ʿAlī ra
+      and the caliphate of Muʿāwiya ra; we follow the late-50-AH
+      attestation in Ibn Ḥajar's *Iṣāba* and Ibn Saʿd's *Ṭabaqāt*
+      as the dominant position, with a minority earlier dating
+      noted by some classical biographers.
+    description_ar: |
+      توفي بشير بن عبد المنذر — أبو لبابة الأنصاري الأوسي رضي
+      الله عنه — صحابي مدني من الأوس، أحد النقباء الاثني عشر
+      ليلة بيعة العقبة الثانية، وكان النبي ﷺ يستخلفه على
+      المدينة كلما خرج لغزوة — بالمدينة المنورة نحو سنة خمسين
+      للهجرة في أواخر خلافة معاوية رضي الله عنه. وهو صاحب
+      القصة المشهورة في كتب السيرة: لما أرسله النبي ﷺ إلى بني
+      قريظة لما حاصرهم سنة خمس فسألوه: «أتنزل على حكم محمد؟»
+      فأشار بيده إلى حلقه أنه الذبح. فأدرك أنه خان الله
+      ورسوله بإشارته فربط نفسه بسارية في مسجد النبي ﷺ وأقسم
+      ألا يحلها أحد إلا الله — فبقي مربوطاً ست ليالٍ، تأتيه
+      ابنته في أوقات الصلاة فتحلّه — حتى نزلت آية التوبة
+      ﴿وَآخَرُونَ اعْتَرَفُوا بِذُنُوبِهِمْ خَلَطُوا عَمَلًا
+      صَالِحًا وَآخَرَ سَيِّئًا﴾ [التوبة ١٠٢]، فحلّه النبي ﷺ
+      بنفسه حين بُشّر بقبول توبته.
+
+      اختلف المترجمون في وفاته بين خلافة علي وخلافة معاوية رضي
+      الله عنهما؛ ونعتمد ما ذكره ابن حجر في «الإصابة» وابن سعد
+      في «الطبقات» من أنها في أواخر الخمسينات الهجرية بوصفه
+      القول الأرجح، وأشار بعض المتقدمين إلى تاريخ أبكر بوصفه
+      قولاً قليلاً.
+    description_fr: |
+      Bashīr ibn ʿAbd al-Mundhir — Abū Lubāba al-Anṣārī al-Awsī —
+      sahabi médinois de la tribu Aws, l'un des douze *naqībs*
+      désignés à la seconde Allégeance d'al-ʿAqaba, et le
+      Compagnon que le Prophète ﷺ désignait gouverneur de Médine
+      chaque fois qu'il quittait la ville en campagne — mourut à
+      Médine vers 50 H, à la fin du califat de Muʿāwiya ra. Il
+      est le Compagnon du célèbre incident préservé dans la
+      littérature classique de la *sīra* : lorsqu'envoyé comme
+      négociateur auprès des Banū Qurayẓa durant leur siège
+      (5 H), ceux-ci lui demandèrent s'ils devaient accepter
+      l'arbitrage du Prophète ﷺ et Abū Lubāba pointa sa gorge
+      indiquant l'égorgement. Réalisant qu'il avait trahi Dieu
+      et Son Messager par ce signe, il s'attacha à un pilier de
+      la mosquée du Prophète ﷺ jurant de ne pas s'en délier
+      jusqu'à ce qu'Allah lui pardonnât. Il resta attaché six
+      nuits — sa fille venant le détacher uniquement aux heures
+      de la prière — jusqu'à ce que le verset de repentir fût
+      révélé (Q. 9:102) : « D'autres ont reconnu leurs péchés ;
+      ils avaient mêlé une bonne action à une autre mauvaise ».
+      Le Prophète ﷺ le délia lui-même lorsque la nouvelle du
+      pardon parvint.
+
+      Les sources rapportent sa mort entre les califats d'ʿAlī
+      et de Muʿāwiya ra ; nous suivons l'attestation de la fin
+      des années 50 H dans l'*Iṣāba* d'Ibn Ḥajar et les
+      *Ṭabaqāt* d'Ibn Saʿd comme position dominante, avec une
+      datation antérieure minoritaire notée par certains
+      biographes classiques.
+    canonical_hijri: {year: 50, precision: year}
+    canonical_gregorian: {date: 670-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_hisham_sira
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    quran_refs: "9:102"
+    people: [[abu-lubaba-ibn-abd-al-mundhir, subject], [muhammad, subject]]
+    tags: [sahabi, ansar, aws, naqib, banu-qurayza, repentance, medina]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abu_Lubaba_ibn_Abd_al-Mundhir"
+
+  - slug: death-of-abdullah-ibn-mughaffal-al-muzani
+    category: companion
+    title_en: Death of ʿAbdullāh ibn Mughaffal al-Muzanī ra
+    title_ar: وفاة عبد الله بن مغفل المزني رضي الله عنه
+    title_fr: Mort d'ʿAbdullāh ibn Mughaffal al-Muzanī ra
+    description_en: |
+      ʿAbdullāh ibn Mughaffal al-Muzanī — sahabi who pledged the
+      Bayʿat al-Riḍwān (the Pledge of Satisfaction) under the
+      tree at al-Ḥudaybiyya in 6 AH and was one of the seven
+      Anṣārī-affiliated *bukāʾūn* ("the weepers") who came to
+      the Prophet ﷺ asking for mounts to join the Tabūk
+      expedition and were turned back when none could be
+      provided, weeping that they were missing the campaign
+      (Q. 9:92) — died in Basra during the caliphate of Yazīd
+      ibn Muʿāwiya around 59-60 AH. He settled in Basra after
+      the conquests and became one of the senior teachers of
+      the city, narrating numerous ḥadīths preserved in the
+      Six Books, including the foundational ḥadīth on
+      *qirāʾat al-Fātiḥa* in prayer, the prohibition of striking
+      animals on the face, and the Sunnah of saying *Bismillāh*
+      before slaughter. al-Ḥasan al-Baṣrī ra studied under
+      him directly.
+    description_ar: |
+      توفي عبد الله بن مغفل المزني رضي الله عنه — صحابي بايع تحت
+      الشجرة بيعة الرضوان عام الحديبية سنة ست، وكان أحد البكائين
+      السبعة من الأنصار الذين أتوا رسول الله ﷺ يستحملونه إلى
+      تبوك فلم يجد ما يحملهم عليه فردهم وهم يبكون حزناً على
+      فوات الغزوة، نزل فيهم قول الله تعالى ﴿وَلَا عَلَى الَّذِينَ
+      إِذَا مَا أَتَوْكَ لِتَحْمِلَهُمْ﴾ [التوبة ٩٢] — بالبصرة في
+      خلافة يزيد بن معاوية نحو سنة تسع وخمسين وستين للهجرة. سكن
+      البصرة بعد الفتوح وصار من كبار أئمتها، وروى أحاديث كثيرة
+      في الكتب الستة، منها أصول في قراءة الفاتحة في الصلاة،
+      والنهي عن الضرب في الوجه، وسنة التسمية عند الذبح. وأخذ
+      عنه الحسن البصري رحمه الله مباشرة.
+    description_fr: |
+      ʿAbdullāh ibn Mughaffal al-Muzanī — sahabi qui prêta la
+      Bayʿat al-Riḍwān (l'Allégeance de la Satisfaction) sous
+      l'arbre à al-Ḥudaybiyya en 6 H, et fut l'un des sept
+      *bukāʾūn* (« les pleureurs ») affiliés aux Anṣār qui
+      vinrent au Prophète ﷺ demandant des montures pour rejoindre
+      l'expédition de Tabūk et furent renvoyés lorsqu'aucune ne
+      put être fournie, pleurant de manquer la campagne (Q. 9:92)
+      — mourut à Bassora durant le califat de Yazīd ibn
+      Muʿāwiya vers 59-60 H. Il s'installa à Bassora après les
+      conquêtes et devint l'un des maîtres séniors de la ville,
+      rapportant de nombreux ḥadīths préservés dans les Six
+      Livres, notamment le ḥadīth fondateur sur la *qirāʾat
+      al-Fātiḥa* dans la prière, l'interdiction de frapper les
+      animaux sur le visage, et la sunna de dire *Bismillāh*
+      avant l'égorgement. al-Ḥasan al-Baṣrī ra étudia
+      directement sous sa direction.
+    canonical_hijri: {year: 59, precision: year}
+    canonical_gregorian: {date: 679-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    quran_refs: "9:92"
+    people: [[abdullah-ibn-mughaffal-al-muzani, subject]]
+    tags: [sahabi, muzayna, bayat-al-ridwan, tabuk, basra, narrator]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdullah_ibn_Mughaffal_al-Muzani"
+
+  - slug: death-of-usama-ibn-zayd
+    category: companion
+    title_en: Death of Usāma ibn Zayd ra — Beloved of the Prophet ﷺ
+    title_ar: وفاة أسامة بن زيد رضي الله عنه — حِبّ رسول الله ﷺ
+    title_fr: Mort d'Usāma ibn Zayd ra — bien-aimé du Prophète ﷺ
+    description_en: |
+      Usāma ibn Zayd ibn Ḥāritha al-Kalbī — son of Zayd ibn
+      Ḥāritha ra (the Prophet's ﷺ freedman and adopted son
+      before the abrogation of legal adoption) and Umm Ayman ra
+      (the Prophet's ﷺ nursemaid), raised in the Prophet's ﷺ
+      household and called by him *al-Ḥibb ibn al-Ḥibb* ("the
+      beloved son of the beloved") — died at al-Jurf near Medina
+      during the caliphate of Muʿāwiya ra around 54 AH at age
+      about 75. The Prophet ﷺ appointed him commander of the
+      Syrian expedition (the Usāma campaign) at age 18 in his
+      final illness, an appointment some Muhājirūn questioned
+      due to his youth; the Prophet ﷺ ascended the *minbar* and
+      said: "If you criticise his command, you criticised his
+      father's command before — and by Allah he was worthy of
+      it, and was the most beloved of people to me, and this
+      one is among the most beloved of people to me after him"
+      (Bukhārī 4250, Muslim 2426). The expedition was paused at
+      the Prophet's ﷺ death and dispatched by Abū Bakr ra as
+      his first act as Caliph despite enormous internal
+      opposition. Usāma never participated in any of the *fitan*
+      (the wars between Companions) on the principle of his
+      famous ḥadīth-incident at Ḥuraqāt where he killed a man
+      who had pronounced the *shahāda* under threat, prompting
+      the Prophet's ﷺ rebuke: "did you split open his heart?"
+      (Bukhārī 4269, Muslim 96).
+
+      Classical biographers diverge on the year: Ibn Saʿd's
+      *Ṭabaqāt* and al-Dhahabī's *Siyar* favour 54 AH, while
+      Ibn Ḥajar's *Iṣāba* records 58 or 59 AH as alternative
+      attestations. We follow Ibn Saʿd as the earlier and more
+      directly attested authority.
+    description_ar: |
+      توفي أسامة بن زيد بن حارثة الكلبي رضي الله عنه — ابن زيد
+      بن حارثة مولى رسول الله ﷺ ومتبناه قبل نسخ التبني، وأم أيمن
+      حاضنة رسول الله ﷺ، تربى في بيت النبي ﷺ، وكان النبي ﷺ
+      يدعوه «الحبّ ابن الحبّ» — في «الجرف» قرب المدينة في خلافة
+      معاوية رضي الله عنه نحو سنة أربع وخمسين عن نحو خمس وسبعين
+      سنة. أمّره النبي ﷺ على سرية الشام (سرية أسامة) وهو ابن
+      ثماني عشرة في مرضه الأخير، فتكلم بعض المهاجرين في إمارته
+      لحداثة سنه، فصعد النبي ﷺ المنبر فقال: «إن تطعنوا في
+      إمارته فقد كنتم تطعنون في إمارة أبيه من قبل، وايم الله
+      إن كان لخليقاً للإمارة، وإن كان لمن أحب الناس إليّ، وإن
+      هذا لمن أحب الناس إليّ بعده» (البخاري ٤٢٥٠، مسلم ٢٤٢٦).
+      وقد توقفت السرية بوفاة النبي ﷺ ثم أنفذها أبو بكر رضي الله
+      عنه أول عمله في الخلافة رغم المعارضة الشديدة. ولم يدخل
+      أسامة في شيء من الفتن بين الصحابة بعد قصته المشهورة في
+      «الحرقات» إذ قتل رجلاً قد نطق بالشهادة عند تهديده،
+      فعاتبه النبي ﷺ: «أفلا شققت عن قلبه؟» (البخاري ٤٢٦٩،
+      مسلم ٩٦).
+
+      اختلف المترجمون في سنة وفاته: ابن سعد في «الطبقات»
+      والذهبي في «السير» يرجحان سنة ٥٤ هـ، فيما ذكر ابن حجر
+      في «الإصابة» سنة ٥٨ أو ٥٩ هـ قولين آخرين. ونعتمد ابن
+      سعد لأسبقيته وقربه من العصر.
+    description_fr: |
+      Usāma ibn Zayd ibn Ḥāritha al-Kalbī — fils de Zayd ibn
+      Ḥāritha ra (l'affranchi et fils adoptif du Prophète ﷺ
+      avant l'abrogation de l'adoption légale) et d'Umm Ayman
+      ra (la nourrice du Prophète ﷺ), élevé dans la maisonnée
+      du Prophète ﷺ et appelé par lui *al-Ḥibb ibn al-Ḥibb*
+      (« le bien-aimé fils du bien-aimé ») — mourut à al-Jurf
+      près de Médine durant le califat de Muʿāwiya ra vers 54 H
+      à l'âge d'environ 75 ans. Le Prophète ﷺ le désigna
+      commandant de l'expédition syrienne (la campagne d'Usāma)
+      à l'âge de 18 ans dans sa dernière maladie, désignation
+      contestée par certains Muhājirūn en raison de sa jeunesse ;
+      le Prophète ﷺ monta sur le *minbar* et dit : « si vous
+      critiquez son commandement, vous critiquiez celui de son
+      père avant — et par Allah il en était digne, et il était
+      le plus aimé des gens auprès de moi, et celui-ci est
+      parmi les plus aimés des gens auprès de moi après lui »
+      (Bukhārī 4250, Muslim 2426). L'expédition fut suspendue
+      à la mort du Prophète ﷺ et envoyée par Abū Bakr ra comme
+      son premier acte en tant que Calife malgré une énorme
+      opposition interne. Usāma ne participa à aucune des
+      *fitan* (les guerres entre Compagnons) en raison du
+      principe de son célèbre incident à Ḥuraqāt où il tua un
+      homme qui avait prononcé la *shahāda* sous la menace,
+      suscitant la réprimande du Prophète ﷺ : « as-tu fendu
+      son cœur ? » (Bukhārī 4269, Muslim 96).
+
+      Les biographes classiques divergent sur l'année : les
+      *Ṭabaqāt* d'Ibn Saʿd et le *Siyar* d'al-Dhahabī
+      privilégient 54 H, tandis que l'*Iṣāba* d'Ibn Ḥajar
+      enregistre 58 ou 59 H comme attestations alternatives.
+      Nous suivons Ibn Saʿd comme l'autorité la plus ancienne
+      et la plus directement attestée.
+    canonical_hijri: {year: 54, precision: year}
+    canonical_gregorian: {date: 674-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 4250"
+    people: [[usama-ibn-zayd, subject], [zayd-ibn-haritha, subject], [umm-ayman, subject], [muhammad, subject]]
+    tags: [sahabi, freedman-family, hibb-ibn-hibb, usama-expedition, medina, narrator]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Usama_ibn_Zayd"
+
+  - slug: death-of-al-numan-ibn-bashir
+    category: companion
+    title_en: Death of al-Nuʿmān ibn Bashīr al-Anṣārī ra
+    title_ar: وفاة النعمان بن بشير الأنصاري رضي الله عنه
+    title_fr: Mort d'al-Nuʿmān ibn Bashīr al-Anṣārī ra
+    description_en: |
+      al-Nuʿmān ibn Bashīr al-Anṣārī al-Khazrajī — first male
+      child born to the Anṣār after the Hijra (born in Shaʿbān
+      2 AH), brought to the Prophet ﷺ at fourteen days old to
+      have his palate softened with chewed dates (*taḥnīk*)
+      and named — was killed at Bayrūt (Beirut) in 64-65 AH
+      during the *fitna* following the death of Yazīd ibn
+      Muʿāwiya, while serving as Umayyad governor of Ḥimṣ.
+      He had supported the caliphal claim of ʿAbdullāh ibn
+      al-Zubayr ra in Syria; when ʿAbd al-Malik ibn Marwān's
+      forces gained control he fled toward the coast and was
+      killed by tribal pursuers. He is the Companion of the
+      foundational ḥadīth on *ḥalāl* and *ḥarām* preserved in
+      both *Ṣaḥīḥayn*: "the lawful is clear and the unlawful
+      is clear, and between them are doubtful matters about
+      which many of the people do not know" — Bukhārī 52,
+      Muslim 1599 — and the ḥadīth on the believers as one
+      body: "if any organ aches, the entire body responds with
+      sleeplessness and fever" (Bukhārī 6011, Muslim 2586). He
+      was about 64.
+
+      Classical sources diverge on the precise year of his
+      killing between 64 and 65 AH; we follow Ibn Saʿd's
+      *Ṭabaqāt* and al-Ṭabarī's *Tārīkh* with 65 AH (the year of
+      Marj Rāhiṭ and the consolidation of Marwanid control over
+      Syria) as the dominant attestation.
+    description_ar: |
+      قُتل النعمان بن بشير الأنصاري الخزرجي رضي الله عنه — أول
+      مولود ذكر للأنصار بعد الهجرة (وُلد في شعبان سنة اثنتين)،
+      حُمل إلى النبي ﷺ ابنَ أربع عشرة ليلة فحنّكه بالتمر وسماه
+      — ببيروت سنة أربع أو خمس وستين للهجرة في الفتنة بعد وفاة
+      يزيد بن معاوية، وهو والي حمص. وكان قد دعا لعبد الله بن
+      الزبير رضي الله عنه بالشام؛ فلما استولى جيش عبد المُلك
+      بن مروان فرّ نحو الساحل فقتلته القبائل. وهو صاحب الحديث
+      الأصل في الحلال والحرام المتفق عليه: «الحلال بيّن
+      والحرام بيّن، وبينهما مشتبهات لا يعلمهن كثير من الناس»
+      (البخاري ٥٢، مسلم ١٥٩٩)، وحديث المؤمنين كالجسد: «إذا
+      اشتكى منه عضو تداعى له سائر الجسد بالسهر والحمى»
+      (البخاري ٦٠١١، مسلم ٢٥٨٦). وكان عمره نحو أربع وستين
+      سنة.
+
+      اختلفت المصادر الكلاسيكية في تحديد سنة قتله بين ٦٤
+      و٦٥ هـ؛ ونعتمد طبقات ابن سعد وتاريخ الطبري بسنة ٦٥ هـ
+      (سنة مرج راهط واستقرار سيطرة المروانيين على الشام)
+      بوصفها الأكثر تواتراً.
+    description_fr: |
+      al-Nuʿmān ibn Bashīr al-Anṣārī al-Khazrajī — premier
+      enfant mâle né aux Anṣār après la Hijra (né en Shaʿbān 2 H),
+      conduit au Prophète ﷺ à quatorze jours pour qu'il lui
+      adoucisse le palais avec des dattes mâchées (*taḥnīk*) et
+      le nomme — fut tué à Beyrouth en 64-65 H durant la *fitna*
+      qui suivit la mort de Yazīd ibn Muʿāwiya, alors qu'il
+      servait comme gouverneur omeyyade de Ḥimṣ. Il avait
+      soutenu la prétention califale d'ʿAbdullāh ibn al-Zubayr
+      ra en Syrie ; lorsque les forces d'ʿAbd al-Malik ibn
+      Marwān prirent le contrôle, il fuit vers la côte et fut
+      tué par des poursuivants tribaux. Il est le Compagnon du
+      ḥadīth fondateur sur le *ḥalāl* et le *ḥarām* préservé
+      dans les deux *Ṣaḥīḥayn* : « le licite est clair et
+      l'illicite est clair, et entre les deux il y a des
+      matières douteuses que beaucoup de gens ne connaissent
+      pas » (Bukhārī 52, Muslim 1599) — et du ḥadīth sur les
+      croyants comme un seul corps : « si un organe souffre,
+      tout le corps répond par l'insomnie et la fièvre »
+      (Bukhārī 6011, Muslim 2586). Il avait environ 64 ans.
+
+      Les sources classiques divergent sur l'année précise de
+      son meurtre entre 64 et 65 H ; nous suivons les
+      *Ṭabaqāt* d'Ibn Saʿd et le *Tārīkh* d'al-Ṭabarī avec
+      65 H (l'année de Marj Rāhiṭ et de la consolidation du
+      contrôle marwanide sur la Syrie) comme attestation
+      dominante.
+    canonical_hijri: {year: 65, precision: year}
+    canonical_gregorian: {date: 684-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 52"
+    people: [[al-numan-ibn-bashir, subject]]
+    tags: [sahabi, ansar, khazraj, first-anṣari-child, beirut, fitna, governor-of-hims]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Al-Nu%27man_ibn_Bashir"
+
+  - slug: death-of-fadala-ibn-ubayd
+    category: companion
+    title_en: Death of Faḍāla ibn ʿUbayd al-Anṣārī ra
+    title_ar: وفاة فضالة بن عبيد الأنصاري رضي الله عنه
+    title_fr: Mort de Faḍāla ibn ʿUbayd al-Anṣārī ra
+    description_en: |
+      Faḍāla ibn ʿUbayd ibn Nāfidh al-Anṣārī al-Awsī — Madinan
+      sahabi of the Aws who pledged the Bayʿat al-Riḍwān at
+      al-Ḥudaybiyya (6 AH), participated at Khaybar and the
+      Conquest of Mecca, and was appointed by Muʿāwiya ra as
+      *qāḍī* of Damascus and commander of the maritime jihād
+      against the Byzantines — died in Damascus during
+      Muʿāwiya's caliphate around 53 AH. Muʿāwiya himself
+      carried his bier on his shoulders, saying: "carry me up —
+      you have made me bereaved of a man like him; I will not
+      find his like again." He is the Companion of several
+      ḥadīths in the Six Books on the rules of *qiṣāṣ*, on the
+      prohibition of ribā in gold-for-gold transactions of
+      differing weight, and on supplication.
+
+      Classical biographers diverge on the year between 53 and
+      69 AH; we follow Ibn Saʿd's *Ṭabaqāt* and al-Dhahabī's
+      *Siyar* with 53 AH as the dominant attestation, consistent
+      with Muʿāwiya ra (d. 60 AH) attending and carrying his
+      bier. Ibn Ḥajar's *Iṣāba* records the late date as a
+      minority position.
+    description_ar: |
+      توفي فضالة بن عبيد بن نافذ الأنصاري الأوسي رضي الله عنه —
+      صحابي مدني من الأوس بايع تحت الشجرة بيعة الرضوان عام
+      الحديبية سنة ست، وشهد خيبر وفتح مكة، وولاه معاوية رضي
+      الله عنه قضاء دمشق وقيادة الجهاد البحري ضد الروم —
+      بدمشق في خلافة معاوية نحو سنة ثلاث وخمسين للهجرة. وحمل
+      معاوية رضي الله عنه نعشه على عاتقه فقال: «احملوني، فقد
+      أعدمتموني مثله، لن أجد مثله بعده». وهو صاحب أحاديث في
+      الكتب الستة في أحكام القصاص، والنهي عن الربا في بيع
+      الذهب بالذهب متفاضلاً، وفي الدعاء.
+
+      اختلف المترجمون في سنة وفاته بين ٥٣ و٦٩ هـ؛ ونتبع طبقات
+      ابن سعد وسير الذهبي بسنة ٥٣ هـ بوصفها الأكثر تواتراً،
+      وهي المتسقة مع حضور معاوية رضي الله عنه (المتوفى ٦٠ هـ)
+      جنازته وحمله نعشه. وذكر ابن حجر في «الإصابة» التاريخ
+      المتأخر قولاً قليلاً.
+    description_fr: |
+      Faḍāla ibn ʿUbayd ibn Nāfidh al-Anṣārī al-Awsī — sahabi
+      médinois des Aws qui prêta la Bayʿat al-Riḍwān à
+      al-Ḥudaybiyya (6 H), participa à Khaybar et à la
+      Conquête de La Mecque, et fut désigné par Muʿāwiya ra
+      *qāḍī* de Damas et commandant du jihād maritime contre
+      les Byzantins — mourut à Damas durant le califat de
+      Muʿāwiya vers 53 H. Muʿāwiya lui-même porta son cercueil
+      sur ses épaules disant : « portez-moi en haut — vous m'avez
+      privé d'un homme tel que lui ; je ne trouverai plus son
+      pareil ». Il est le Compagnon de plusieurs ḥadīths dans
+      les Six Livres sur les règles du *qiṣāṣ*, sur
+      l'interdiction du ribā dans les transactions or-contre-or
+      de poids différents, et sur l'invocation.
+
+      Les biographes classiques divergent sur l'année entre 53
+      et 69 H ; nous suivons les *Ṭabaqāt* d'Ibn Saʿd et le
+      *Siyar* d'al-Dhahabī avec 53 H comme attestation
+      dominante, conforme à la présence de Muʿāwiya ra
+      (m. 60 H) à ses funérailles et au port de son cercueil.
+      Ibn Ḥajar dans l'*Iṣāba* enregistre la date tardive
+      comme position minoritaire.
+    canonical_hijri: {year: 53, precision: year}
+    canonical_gregorian: {date: 673-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[fadala-ibn-ubayd, subject]]
+    tags: [sahabi, ansar, aws, qadi-damascus, naval-jihad, byzantine, narrator]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Fadala_ibn_Ubayd"
+
+  - slug: death-of-thawban-mawla-rasul-allah
+    category: companion
+    title_en: Death of Thawbān ra — Freedman of the Prophet ﷺ
+    title_ar: وفاة ثوبان رضي الله عنه — مولى رسول الله ﷺ
+    title_fr: Mort de Thawbān ra — affranchi du Prophète ﷺ
+    description_en: |
+      Thawbān ibn Bujdud — sahabi of disputed origin (some
+      sources say from Yemen, others from al-Sarāt) whom the
+      Prophet ﷺ purchased and freed, and who chose to remain in
+      the Prophet's ﷺ service for the rest of the Prophet's ﷺ
+      life and never leave Medina until his master died — died
+      at Ḥimṣ in Syria in 54 AH during the caliphate of
+      Muʿāwiya ra. After the Prophet's ﷺ death he settled in
+      Ramla in Palestine and then in Ḥimṣ. He is the Companion
+      of the famous ḥadīth on the *Ṭāʾifa Manṣūra* (the
+      victorious group): "a group of my Umma will not cease to
+      be victorious upon the truth, not harmed by those who
+      forsake them or oppose them, until the command of Allah
+      comes" (Muslim 1920); the ḥadīth on the seventy-two
+      misguided sects (Tirmidhī 2640, *ṣaḥīḥ* by al-Albānī);
+      and the ḥadīth on the nations gathering against the
+      Muslims like a feast: "yes, you will be many on that day,
+      but you will be froth like the froth of the sea" (Abū
+      Dāwūd 4297, *ṣaḥīḥ* by al-Albānī).
+    description_ar: |
+      توفي ثوبان بن بُجدد رضي الله عنه — صحابي مختلف في أصله
+      (قيل من اليمن وقيل من السراة)، اشتراه النبي ﷺ فأعتقه،
+      فاختار البقاء في خدمة رسول الله ﷺ بقية حياته ولم يفارق
+      المدينة حتى مات سيده ﷺ — بحمص في الشام سنة أربع وخمسين
+      للهجرة في خلافة معاوية رضي الله عنه. وبعد وفاة النبي ﷺ
+      نزل الرملة بفلسطين ثم حمص. وهو صاحب الحديث المشهور في
+      الطائفة المنصورة: «لا تزال طائفة من أمتي ظاهرين على
+      الحق، لا يضرهم من خذلهم ولا من خالفهم، حتى يأتي أمر
+      الله» (مسلم ١٩٢٠)، وحديث افتراق الأمة على ثلاث وسبعين
+      فرقة (الترمذي ٢٦٤٠، صححه الألباني)، وحديث تداعي الأمم
+      على المسلمين كالمأدبة: «بل أنتم يومئذٍ كثير، ولكنكم
+      غثاء كغثاء السيل» (أبو داود ٤٢٩٧، صححه الألباني).
+    description_fr: |
+      Thawbān ibn Bujdud — sahabi d'origine disputée (certaines
+      sources disent du Yémen, d'autres d'al-Sarāt) que le
+      Prophète ﷺ acheta et affranchit, et qui choisit de rester
+      au service du Prophète ﷺ pour le reste de la vie du
+      Prophète ﷺ et de ne jamais quitter Médine jusqu'à la
+      mort de son maître — mourut à Ḥimṣ en Syrie en 54 H
+      durant le califat de Muʿāwiya ra. Après la mort du
+      Prophète ﷺ il s'installa à Ramla en Palestine puis à
+      Ḥimṣ. Il est le Compagnon du célèbre ḥadīth sur la
+      *Ṭāʾifa Manṣūra* (le groupe victorieux) : « un groupe
+      de ma Umma ne cessera d'être victorieux sur la vérité,
+      non lésé par ceux qui l'abandonnent ou s'y opposent,
+      jusqu'à ce que vienne l'ordre d'Allah » (Muslim 1920) ;
+      le ḥadīth sur les soixante-douze sectes égarées
+      (Tirmidhī 2640, *ṣaḥīḥ* par al-Albānī) ; et le ḥadīth
+      sur les nations se rassemblant contre les musulmans
+      comme un festin : « oui, vous serez nombreux ce jour-là,
+      mais vous serez écume comme l'écume de la mer » (Abū
+      Dāwūd 4297, *ṣaḥīḥ* par al-Albānī).
+    canonical_hijri: {year: 54, precision: year}
+    canonical_gregorian: {date: 674-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Muslim 1920"
+    people: [[thawban-mawla-rasul-allah, subject], [muhammad, subject]]
+    tags: [sahabi, freedman-of-prophet, hims, syria, tayifa-mansura, narrator]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Thawban_ibn_Bujdud"
+
+  - slug: death-of-abu-amama-al-bahili
+    category: companion
+    title_en: Death of Abū Umāma al-Bāhilī ra
+    title_ar: وفاة أبي أمامة الباهلي رضي الله عنه
+    title_fr: Mort d'Abū Umāma al-Bāhilī ra
+    description_en: |
+      Ṣudayy ibn ʿAjlān al-Bāhilī — Abū Umāma al-Bāhilī —
+      sahabi of the Bāhila tribe who participated in the
+      Battle of the Ditch (5 AH) and was sent by the Prophet ﷺ
+      to summon his tribe to Islam — died at Ḥimṣ in 86 AH
+      during the caliphate of ʿAbd al-Malik ibn Marwān at age
+      about 91 (some sources 81). He was the last Companion of
+      the Prophet ﷺ to die in Syria, and one of the longest-
+      lived. He narrated 250 ḥadīths preserved in the Six
+      Books and Aḥmad's *Musnad*, including the ḥadīth on the
+      virtues of Sūrat al-Baqara (Muslim 804): "recite the
+      *Zahrāwayn* — al-Baqara and Āl ʿImrān — for they will
+      come on the Day of Judgement as two clouds shading their
+      reciter"; the ḥadīth on greeting (*salām*) being the
+      means by which Allah strengthens love between believers
+      (Muslim 54); and the ḥadīth that the *Qurʾān* will
+      intercede for those who recite it.
+    description_ar: |
+      توفي صُديّ بن عجلان الباهلي — أبو أمامة الباهلي رضي الله
+      عنه — صحابي من باهلة شهد مع النبي ﷺ الخندق سنة خمس
+      وأرسله النبي ﷺ داعياً إلى الإسلام في قومه — بحمص سنة
+      ست وثمانين للهجرة في خلافة عبد الملك بن مروان عن نحو
+      إحدى وتسعين سنة (وقيل إحدى وثمانين). وكان آخر صحابي
+      مات بالشام، ومن أطول الصحابة عمراً. روى نحو مئتين
+      وخمسين حديثاً في الكتب الستة ومسند أحمد، منها حديث فضل
+      سورة البقرة (مسلم ٨٠٤): «اقرؤوا الزهراوين البقرة وآل
+      عمران، فإنهما يأتيان يوم القيامة كأنهما غمامتان تظلان
+      صاحبهما»، وحديث السلام أنه به يقوي الله المحبة بين
+      المؤمنين (مسلم ٥٤)، وحديث أن القرآن يشفع لقارئه يوم
+      القيامة.
+    description_fr: |
+      Ṣudayy ibn ʿAjlān al-Bāhilī — Abū Umāma al-Bāhilī —
+      sahabi de la tribu Bāhila qui participa à la bataille du
+      Fossé (5 H) et fut envoyé par le Prophète ﷺ pour appeler
+      sa tribu à l'Islam — mourut à Ḥimṣ en 86 H durant le
+      califat d'ʿAbd al-Malik ibn Marwān à l'âge d'environ
+      91 ans (certaines sources 81). Il fut le dernier
+      Compagnon du Prophète ﷺ à mourir en Syrie, et l'un des
+      plus longs-vivants. Il rapporta 250 ḥadīths préservés
+      dans les Six Livres et le *Musnad* d'Aḥmad, notamment
+      le ḥadīth sur les vertus de la sourate al-Baqara
+      (Muslim 804) : « récitez les *Zahrāwayn* — al-Baqara et
+      Āl ʿImrān — car ils viendront au Jour du Jugement
+      comme deux nuages ombrageant leur récitant » ; le ḥadīth
+      sur le salut (*salām*) comme moyen par lequel Allah
+      renforce l'amour entre les croyants (Muslim 54) ; et le
+      ḥadīth selon lequel le *Qurʾān* intercédera pour ceux
+      qui le récitent.
+    canonical_hijri: {year: 86, precision: year}
+    canonical_gregorian: {date: 705-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Muslim 804"
+    people: [[abu-amama-al-bahili, subject]]
+    tags: [sahabi, bahila, hims, syria, last-sahabi-syria, narrator]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Umamah_al-Bahili"
+
+  - slug: death-of-rafi-ibn-khadij
+    category: companion
+    title_en: Death of Rāfiʿ ibn Khadīj al-Anṣārī ra
+    title_ar: وفاة رافع بن خديج الأنصاري رضي الله عنه
+    title_fr: Mort de Rāfiʿ ibn Khadīj al-Anṣārī ra
+    description_en: |
+      Rāfiʿ ibn Khadīj al-Anṣārī al-Awsī — Madinan sahabi of
+      the Aws, presented for service at Badr at age 13 but
+      turned back by the Prophet ﷺ for being too young, then
+      accepted at Uḥud and present at every subsequent ghazwa,
+      where he was struck in the chest by an arrow at Uḥud
+      whose head remained in him until his death — died in
+      Medina in 74 AH at age 86. Just before his death the
+      arrowhead worked itself out of his chest, and Rāfiʿ said:
+      "this is the *shahāda* I have awaited for sixty years."
+      He is the Companion of the foundational ḥadīth in the
+      Six Books on the *muḥāqala* and *muzābana* sharecropping
+      practices: "we used to lease land for a third or a
+      quarter of the produce, then the Messenger of Allah ﷺ
+      forbade it" (Bukhārī 2339, Muslim 1547); on slaughter
+      with reed-stems and stones being permissible "as long as
+      the blood is shed and the name of Allah is mentioned"
+      (Bukhārī 2488, Muslim 1968); and on Friday prayer being
+      obligatory.
+    description_ar: |
+      توفي رافع بن خديج الأنصاري الأوسي رضي الله عنه — صحابي
+      مدني من الأوس، عُرض على النبي ﷺ يوم بدر وله ثلاث عشرة
+      سنة فردّه لصغره، ثم أجازه يوم أحد وشهد ما بعدها من
+      الغزوات، أصابه سهم في صدره يوم أحد بقي نصلُه فيه إلى
+      موته — بالمدينة سنة أربع وسبعين للهجرة عن ست وثمانين
+      سنة. وعند موته خرج النصل من صدره فقال رافع: «هذه
+      الشهادة التي انتظرتها ستين سنة». وهو صاحب الحديث الأصل
+      في الكتب الستة في النهي عن المحاقلة والمزابنة: «كنا
+      نكري الأرض على الثلث والربع، فنهى رسول الله ﷺ عنها»
+      (البخاري ٢٣٣٩، مسلم ١٥٤٧)، وحديث الذبح بالقصب والحجر
+      ما دام الدم مسفوحاً واسم الله مذكوراً (البخاري ٢٤٨٨،
+      مسلم ١٩٦٨)، وحديث وجوب الجمعة.
+    description_fr: |
+      Rāfiʿ ibn Khadīj al-Anṣārī al-Awsī — sahabi médinois des
+      Aws, présenté pour le service à Badr à l'âge de 13 ans
+      mais renvoyé par le Prophète ﷺ pour être trop jeune,
+      puis accepté à Uḥud et présent à toutes les ghazwa
+      ultérieures, frappé en pleine poitrine par une flèche à
+      Uḥud dont la pointe demeura en lui jusqu'à sa mort —
+      mourut à Médine en 74 H à l'âge de 86 ans. Juste avant
+      sa mort la pointe de la flèche se dégagea de sa
+      poitrine, et Rāfiʿ dit : « voici la *shahāda* que
+      j'attendais depuis soixante ans ». Il est le Compagnon
+      du ḥadīth fondateur dans les Six Livres sur les pratiques
+      de métayage *muḥāqala* et *muzābana* : « nous avions
+      l'habitude de louer la terre pour un tiers ou un quart
+      du produit, puis le Messager d'Allah ﷺ l'interdit »
+      (Bukhārī 2339, Muslim 1547) ; sur l'égorgement avec des
+      tiges de roseau et des pierres étant permis « tant que
+      le sang est versé et le nom d'Allah est mentionné »
+      (Bukhārī 2488, Muslim 1968) ; et sur la prière du
+      vendredi étant obligatoire.
+    canonical_hijri: {year: 74, precision: year}
+    canonical_gregorian: {date: 694-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 2339"
+    people: [[rafi-ibn-khadij, subject]]
+    tags: [sahabi, ansar, aws, uhud, medina, narrator, sharecropping-fiqh]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Rafi_ibn_Khadij"
+
+  - slug: death-of-shaddad-ibn-aws
+    category: companion
+    title_en: Death of Shaddād ibn Aws al-Anṣārī ra
+    title_ar: وفاة شداد بن أوس الأنصاري رضي الله عنه
+    title_fr: Mort de Shaddād ibn Aws al-Anṣārī ra
+    description_en: |
+      Shaddād ibn Aws ibn Thābit al-Anṣārī al-Khazrajī — nephew
+      of Ḥassān ibn Thābit ra (the Prophet's ﷺ poet), Madinan
+      sahabi of the Khazraj known for his combination of
+      *ḥilm* (forbearance), eloquence, and ascetic worship —
+      died at Bayt al-Maqdis (Jerusalem) in 58 AH during the
+      caliphate of Muʿāwiya ra at age 75. He had settled in
+      Palestine after the conquests and was buried near Bāb
+      al-Raḥma in Jerusalem, where his shrine is still
+      identified within the Bāb al-Raḥma cemetery adjacent to
+      al-Aqṣā. He is the Companion of *Sayyid al-Istighfār*
+      ("the master of seeking forgiveness") preserved in
+      al-Bukhārī (Bukhārī 6306) — the prayer the Prophet ﷺ
+      taught him: *Allāhumma anta rabbī, lā ilāha illā anta,
+      khalaqtanī wa-anā ʿabduka...* — "whoever says it during
+      the day with certainty and dies that day before evening,
+      he is among the people of Paradise; and whoever says it
+      at night with certainty and dies before morning, he is
+      among the people of Paradise." He also narrated the
+      ḥadīth on *iḥsān* in slaughter being mandatory.
+    description_ar: |
+      توفي شدّاد بن أوس بن ثابت الأنصاري الخزرجي رضي الله عنه —
+      ابن أخي حسان بن ثابت رضي الله عنه شاعر النبي ﷺ، صحابي
+      مدني من الخزرج عُرف بالحلم والبيان والعبادة الزاهدة —
+      ببيت المقدس سنة ثمان وخمسين للهجرة في خلافة معاوية
+      رضي الله عنه عن خمس وسبعين سنة. سكن فلسطين بعد الفتوح
+      ودُفن قريباً من باب الرحمة بالقدس، ومقامه هناك معروف في
+      مقبرة باب الرحمة الملاصقة للأقصى. وهو صاحب «سيد
+      الاستغفار» في صحيح البخاري (البخاري ٦٣٠٦) الذي علمه
+      النبي ﷺ: «اللهم أنت ربي لا إله إلا أنت، خلقتني وأنا
+      عبدك...» — «من قالها من النهار موقناً بها فمات من
+      يومه قبل أن يمسي فهو من أهل الجنة، ومن قالها من الليل
+      وهو موقن بها فمات قبل أن يصبح فهو من أهل الجنة». وروى
+      أيضاً حديث وجوب الإحسان في الذبح.
+    description_fr: |
+      Shaddād ibn Aws ibn Thābit al-Anṣārī al-Khazrajī — neveu
+      de Ḥassān ibn Thābit ra (le poète du Prophète ﷺ), sahabi
+      médinois de la Khazraj connu pour la combinaison de
+      *ḥilm* (longanimité), d'éloquence et d'adoration
+      ascétique — mourut à Bayt al-Maqdis (Jérusalem) en 58 H
+      durant le califat de Muʿāwiya ra à l'âge de 75 ans. Il
+      s'était installé en Palestine après les conquêtes et fut
+      enterré près de Bāb al-Raḥma à Jérusalem, où son
+      sanctuaire est toujours identifié dans le cimetière de
+      Bāb al-Raḥma adjacent à al-Aqṣā. Il est le Compagnon
+      de *Sayyid al-Istighfār* (« le maître de la demande de
+      pardon ») préservé dans al-Bukhārī (Bukhārī 6306) — la
+      prière que le Prophète ﷺ lui enseigna : *Allāhumma anta
+      rabbī, lā ilāha illā anta, khalaqtanī wa-anā ʿabduka...*
+      — « celui qui la dit pendant le jour avec certitude et
+      meurt ce jour avant le soir est parmi les gens du
+      Paradis ; et celui qui la dit la nuit avec certitude et
+      meurt avant le matin est parmi les gens du Paradis ».
+      Il rapporta également le ḥadīth sur l'*iḥsān* dans
+      l'égorgement étant obligatoire.
+    canonical_hijri: {year: 58, precision: year}
+    canonical_gregorian: {date: 678-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 6306"
+    people: [[shaddad-ibn-aws, subject], [hassan-ibn-thabit, subject]]
+    tags: [sahabi, ansar, khazraj, jerusalem, bayt-al-maqdis, sayyid-al-istighfar]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shaddad_ibn_Aws"
+
+  - slug: death-of-abu-al-darda
+    category: companion
+    title_en: Death of Abū al-Dardāʾ al-Anṣārī ra — Sage of the Umma
+    title_ar: وفاة أبي الدرداء الأنصاري رضي الله عنه — حكيم الأمة
+    title_fr: Mort d'Abū al-Dardāʾ al-Anṣārī ra — sage de la Umma
+    description_en: |
+      ʿUwaymir ibn Mālik (or ibn Zayd) al-Anṣārī al-Khazrajī —
+      Abū al-Dardāʾ — Madinan sahabi of the Khazraj who
+      embraced Islam late at the Battle of Badr's eve (the
+      last of his clan to convert), but devoted himself so
+      thoroughly to worship and learning that the Prophet ﷺ
+      called him *Ḥakīm Hādhihi al-Umma* ("the Sage of this
+      Umma") — died at Damascus in 32 AH during the caliphate
+      of ʿUthmān ra. He was appointed by ʿUmar ra as the first
+      *qāḍī* of Damascus and led the early Quranic teaching
+      circle at the Umayyad Mosque (then the Cathedral of
+      St John before its conversion), instructing reportedly
+      sixteen hundred students daily — a foundational moment
+      for the school of *qirāʾāt* of Syria. He is the Companion
+      of the famous ḥadīth: "scholars are heirs of the
+      prophets; the prophets did not bequeath dinars or
+      dirhams, they bequeathed knowledge — whoever takes from
+      it has taken an abundant share" (Abū Dāwūd 3641,
+      Tirmidhī 2682, *ṣaḥīḥ* by al-Albānī). His wife Umm
+      al-Dardāʾ al-Ṣughrā became one of the major *tābiʿiyyāt*
+      jurists of Damascus after his death.
+    description_ar: |
+      توفي عويمر بن مالك (وقيل ابن زيد) الأنصاري الخزرجي —
+      أبو الدرداء رضي الله عنه — صحابي مدني من الخزرج، أسلم
+      متأخراً يوم بدر (آخر أهل داره إسلاماً)، فعكف على
+      العبادة والعلم حتى سماه النبي ﷺ «حكيم هذه الأمة» —
+      بدمشق سنة اثنتين وثلاثين للهجرة في خلافة عثمان رضي
+      الله عنه. ولاه عمر رضي الله عنه قضاء دمشق وكان أول
+      قاضٍ بها، وقعد في الجامع الأموي (وكان حينئذ كنيسة
+      مار يوحنا قبل تحويلها) فعلّم القرآن نحو ألف وستمئة
+      تلميذ يومياً — ولحظةٌ تأسيسيةٌ لمدرسة القراءات بالشام.
+      وهو صاحب الحديث المشهور: «العلماء ورثة الأنبياء، إن
+      الأنبياء لم يورّثوا ديناراً ولا درهماً، إنما ورّثوا
+      العلم، فمن أخذ به أخذ بحظ وافر» (أبو داود ٣٦٤١،
+      الترمذي ٢٦٨٢، صححه الألباني). وزوجته أم الدرداء
+      الصغرى صارت من كبار فقيهات التابعيات بدمشق بعده.
+    description_fr: |
+      ʿUwaymir ibn Mālik (ou ibn Zayd) al-Anṣārī al-Khazrajī —
+      Abū al-Dardāʾ — sahabi médinois de la Khazraj qui
+      embrassa l'Islam tardivement à la veille de la bataille
+      de Badr (le dernier de son clan à se convertir), mais se
+      consacra si pleinement à l'adoration et au savoir que
+      le Prophète ﷺ l'appela *Ḥakīm Hādhihi al-Umma* (« le
+      Sage de cette Umma ») — mourut à Damas en 32 H durant
+      le califat d'ʿUthmān ra. Il fut désigné par ʿUmar ra
+      comme premier *qāḍī* de Damas et dirigea le premier
+      cercle d'enseignement coranique à la Mosquée des
+      Omeyyades (alors la Cathédrale de Saint Jean avant sa
+      conversion), instruisant rapporte-t-on seize cents
+      élèves par jour — un moment fondateur pour l'école des
+      *qirāʾāt* de Syrie. Il est le Compagnon du célèbre
+      ḥadīth : « les savants sont les héritiers des prophètes ;
+      les prophètes n'ont pas légué de dinars ou de dirhams,
+      ils ont légué le savoir — quiconque en prend a pris une
+      part abondante » (Abū Dāwūd 3641, Tirmidhī 2682,
+      *ṣaḥīḥ* par al-Albānī). Son épouse Umm al-Dardāʾ
+      al-Ṣughrā devint l'une des principales juristes
+      *tābiʿiyyāt* de Damas après sa mort.
+    canonical_hijri: {year: 32, precision: year}
+    canonical_gregorian: {date: 653-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    people: [[abu-al-darda, subject]]
+    tags: [sahabi, ansar, khazraj, hakim-al-umma, qadi-damascus, qirāʾāt-syria]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Darda"

@@ -1,0 +1,334 @@
+# Wave 17 of Qur'an and Hadith facts — final wave (2026-04-30).
+# Theological, creedal, ethical, and historical facts not yet covered,
+# spanning aqidah, akhlaq, fiqh, and the structure of Islamic knowledge.
+
+lessons:
+  - slug: quran-fact-tawhid-in-quran
+    category: quran_hadith_fact
+    title_en: Tawhid in the Qur'an — The Core of Everything
+    title_ar: التوحيد في القرآن — لبّ كل شيء
+    title_fr: Le tawḥīd dans le Coran — le cœur de tout
+    description_en: |
+      The entire Qur'an, from its first surah to its last, revolves around a single axis: the oneness of Allah (tawhid). Al-Fatiha opens with "Praise be to Allah, Lord of the Worlds" — establishing His lordship, divinity, and the exclusive right to be worshipped. Every prophet's mission, from Noah to Muhammad ﷺ, was fundamentally the same: "Worship Allah; you have no deity other than Him." The Qur'an rejects every form of shirk — associating partners with Allah — whether through idols, saints, angels, or human institutions. It presents the natural world as a continuous proof of tawhid: the alternation of night and day, the rain that revives dead earth, the precise orbits of celestial bodies. The Prophet ﷺ said that the entire message he received can be summarized in his supplication: "O Allah, I ask You for firmness in the affair and adherence to the straight path." Tawhid is not merely a theological proposition but the organizing principle of existence.
+    description_ar: |
+      يدور القرآن كله، من أول سورة إلى آخرها، حول محور واحد: توحيد الله. تفتح الفاتحة بـ«الحمد لله رب العالمين» — مُرسِّخة ربوبيته وألوهيته وحقه الحصري في العبادة. وبعثة كل نبي، من نوح إلى محمد ﷺ، كانت جوهرها واحداً: «اعبدوا الله ما لكم من إله غيره». يرفض القرآن كل صورة من الشرك — إشراك شريك بالله — سواء بالأصنام أو الأولياء أو الملائكة أو المؤسسات البشرية. ويقدم العالم الطبيعة برهاناً مستمراً على التوحيد: تعاقب الليل والنهار، المطر الذي يُحيي الأرض الميتة، المدارات الدقيقة للأجرام السماوية. قال النبي ﷺ إن رسالته كلها يُلخّصها دعاؤه: «اللهم إني أسألك الثبات في الأمر والعزيمة على الرشد». والتوحيد ليس مجرد مقولة كلامية بل المبدأ التنظيمي للوجود.
+    description_fr: |
+      Le Coran entier, de sa première sourate à sa dernière, tourne autour d'un seul axe : l'unicité d'Allah (tawḥīd). Al-Fātiḥa s'ouvre sur « Louange à Allah, Seigneur des Mondes » — établissant Sa seigneurie, Sa divinité, et le droit exclusif d'être adoré. La mission de chaque prophète, de Noé à Muhammad ﷺ, était fondamentalement la même : « Adorez Allah ; vous n'avez pas de divinité autre que Lui. » Le Coran rejette toute forme de shirk — l'association de partenaires à Allah — que ce soit par des idoles, des saints, des anges ou des institutions humaines. Il présente le monde naturel comme une preuve continue du tawḥīd : l'alternance de la nuit et du jour, la pluie qui fait revivre la terre morte, les orbites précises des corps célestes. Le Prophète ﷙ dit que tout le message qu'il a reçu peut être résumé dans sa supplication : « Ô Allah, je Te demande la fermeté dans l'affaire et l'adhérence au droit chemin. » Le tawḥīd n'est pas simplement une proposition théologique mais le principe organisateur de l'existence.
+    reference: "al-Fātiḥa 1:2, al-Anbiyāʾ 21:25"
+    source_notes: |
+      Qur'an 21:25 and 112:1-4 form the axis; Ibn Kathīr explains that every prophet's mission was tawḥīd, and classical Sunni creed (Atharī, Ashʿarī, Māturīdī) unanimously rejects every form of shirk.
+    source_notes_fr: |
+      Les versets 21:25 et 112:1-4 du Coran forment l'axe ; Ibn Kathīr explique que la mission de chaque prophète était le tawḥīd, et la croyance sunnite classique (atharī, ashʿarī, māturīdī) rejette unanimement toute forme de shirk.
+    source_notes_ar: |
+      تشكل الآيتان ٢١:٢٥ و١١٢:١-٤ محوراً؛ يشرح ابن كثير أن بعثة كل نبي كانت التوحيد، والعقيدة السنية الكلاسيكية (أثرية، أشعرية، ماتريدية) ترفض بالإجماع كل صورة من الشرك.
+    display_day_of_year: 41
+    quran_refs: "al-Fātiḥa 1:2, al-Anbiyāʾ 21:25"
+    hadith_refs: ""
+
+  - slug: quran-fact-books-and-prophets
+    category: quran_hadith_fact
+    title_en: The Books and the Prophets — Allah's Continuous Guidance
+    title_ar: الكتب والأنبياء — هداية الله المستمرة
+    title_fr: Les Livres et les Prophètes — la guidance continue d'Allah
+    description_en: |
+      Muslims believe that Allah sent prophets to every nation, not as an afterthought but as a fundamental feature of human existence. The Qur'an names twenty-five prophets explicitly, but hadith indicate there were approximately 124,000 throughout history — a vast army of guides, each speaking the language of his people. With the prophets came revealed books: the Scrolls of Abraham, the Torah of Moses, the Psalms of David, the Gospel of Jesus, and the Qur'an of Muhammad ﷺ. The Qur'an describes itself as "a confirmation of what was before it and a detailed explanation of everything." It does not reject previous revelations but corrects the distortions that entered them through human interpolation. The Prophet ﷺ said: "The prophets are paternal brothers; their mothers are different, but their religion is one." The lesson is that divine guidance is not episodic but continuous, forming a single thread from Adam to the final revelation.
+    description_ar: |
+      يؤمن المسلمون أن الله أرسل أنبياء لكل أمة، ليس تداركاً بل كسمة جوهرية من الوجود البشري. يسمي القرآن خمسة وعشرين نبياً صراحةً، لكن الأحاديث تشير إلى أنهم نحو ١٢٤٠٠٠ عبر التاريخ — جيش هائل من الهداة، يتكلم كل بلغة قومه. وجاءت مع الأنبياء كتب مُنزلة: صحف إبراهيم، توراة موسى، زبور داود، إنجيل عيسى، وقرآن محمد ﷺ. يصف القرآن نفسه «مصدّقاً لما بين يديه وتفصيلاً لكل شيء». ولا يرفض الوحي السابق بل يُصحح التحريفات التي دخلته بتدخل بشري. قال النبي ﷺ: «الأنبياء إخوة لعلات، أمهاتهم شتى ودينهم واحد». والدرس أن الهداية الإلهية ليست عرضية بل مستمرة، تكون خيطاً واحداً من آدم إلى الوحي الخاتم.
+    description_fr: |
+      Les musulmans croient qu'Allah a envoyé des prophètes à chaque nation, non pas comme une après-pensée mais comme une caractéristique fondamentale de l'existence humaine. Le Coran nomme vingt-cinq prophètes explicitement, mais les hadith indiquent qu'il y en eut environ 124 000 tout au long de l'histoire — une vaste armée de guides, chacun parlant la langue de son peuple. Avec les prophètes vinrent des livres révélés : les Rouleaux d'Ibrahim, la Torah de Moïse, les Psaumes de David, l'Évangile de Jésus, et le Coran de Muhammad ﷙. Le Coran se décrit comme « une confirmation de ce qui était avant lui et une explication détaillée de tout ». Il ne rejette pas les révélations précédentes mais corrige les distorsions qui y sont entrées par interpolation humaine. Le Prophète ﷺ dit : « Les prophètes sont des frères de père ; leurs mères sont différentes, mais leur religion est une. » La leçon est que la guidance divine n'est pas épisodique mais continue, formant un fil unique d'Adam à la révélation finale.
+    reference: "al-Naḥl 16:36, al-Māʾidah 5:48"
+    source_notes: |
+      Qur'an 16:36 and 5:48 affirm continuous guidance; Ibn Kathīr notes that the Qur'an corrects distortions in prior books while confirming their original revelation, and Bukhārī (3443) records the prophetic brotherhood.
+    source_notes_fr: |
+      Les versets 16:36 et 5:48 du Coran affirment la guidance continue ; Ibn Kathīr note que le Coran corrige les distorsions des livres antérieurs tout en confirmant leur révélation originelle, et al-Bukhārī (3443) rapporte la fraternité prophétique.
+    source_notes_ar: |
+      تُؤكد الآيتان ١٦:٣٦ و٥:٤٨ الهداية المستمرة؛ يُشير ابن كثير إلى أن القرآن يُصحح التحريفات في الكتب السابقة مع تصديق وحيها الأصلي، ويسجل البخاري (٣٤٤٣) الأخوة بين الأنبياء.
+    display_day_of_year: 42
+    quran_refs: "al-Naḥl 16:36, al-Māʾidah 5:48"
+    hadith_refs: "Bukhari 3443"
+
+  - slug: quran-fact-day-of-judgment
+    category: quran_hadith_fact
+    title_en: The Day of Judgment — The Inevitable Appointment
+    title_ar: يوم القيامة — الموعد المحتوم
+    title_fr: Le Jour du Jugement — le rendez-vous inévitable
+    description_en: |
+      The Day of Judgment is not a distant abstraction in Islamic theology but an imminent reality that structures moral life. The Qur'an describes it with terrifying precision: the earth will be shaken until its mountains crumble like dust, the sun will be wrapped up, the stars will fall, the seas will boil over, and the trumpet will be blown — twice: once to end all life, and once to resurrect it. Every human being will stand before Allah alone, with no wealth, family, or status to intercede except by His permission. The books of deeds will be opened; the scales will be set; the Sirat bridge will be crossed. The Prophet ﷺ said: "The space between the two blowings of the trumpet is forty," and when asked "Forty what?" he said: "I do not know." The uncertainty of the timing does not diminish its certainty. The lesson is that death is not the end but the threshold of true accountability, and every action in this life is a seed for the next.
+    description_ar: |
+      يوم القيامة ليس تجريداً بعيداً في العقيدة الإسلامية بل واقعاً قريباً يُهيكل الحياة الأخلاقية. يصفه القرآن بدقة مرعبة: تُزلزل الأرض حتى تصبح الجبال هباءً منبثاً، تُلفح الشمس، تنثلم النجوم، تُفجر البحار، ويُنفخ في الصور — مرتين: مرة لإفناء الحياة، ومرة لبعثها. يقف كل بشر وحده أمام الله، بلا مال ولا عائلة ولا مكانة تشفع إلا بإذنه. تُفتح صحف الأعمال؛ تُوضع الموازين؛ يُعبر الصراط. قال النبي ﷺ: «ما بين النفختين أربعون»، وحين سُئل «أربعون ماذا؟» قال: «ما علمت». وعدم يقين التوقيت لا ينقص من يقين الوقوع. والدرس أن الموت ليس النهاية بل عتبة المساءلة الحقيقية، وكل فعل في هذه الحياة بذرة للآخرة.
+    description_fr: |
+      Le Jour du Jugement n'est pas une abstraction lointaine dans la théologie islamique mais une réalité imminente qui structure la vie morale. Le Coran le décrit avec une précision terrifiante : la terre sera secouée jusqu'à ce que ses montagnes s'effondrent comme de la poussière, le soleil sera enveloppé, les étoiles tomberont, les mers bouilleront, et la trompette sera soufflée — deux fois : une fois pour mettre fin à toute vie, et une fois pour la ressusciter. Chaque être humain se tiendra seul devant Allah, sans richesse, famille ou statut pour intercéder sauf par Sa permission. Les livres des œuvres seront ouverts ; les balances seront installées ; le pont du Ṣirāṭ sera traversé. Le Prophète ﷺ dit : « L'espace entre les deux souffles de la trompette est de quarante », et quand on lui demanda « Quarante quoi ? » il dit : « Je ne sais pas. » L'incertitude du moment ne diminue pas sa certitude. La leçon est que la mort n'est pas la fin mais le seuil de la véritable responsabilité, et chaque action dans cette vie est une graine pour l'autre.
+    reference: "al-Zalzalah 99:1-8, al-Inshiqāq 84:1-12"
+    source_notes: |
+      Qur'an 99:1-8 and 84:1-12 describe the cosmic upheaval; Ibn Kathīr explains that the forty between the two trumpet-blows is known only to Allah, and that the Day structures moral life by making every deed a seed for eternity.
+    source_notes_fr: |
+      Les versets 99:1-8 et 84:1-12 du Coran décrivent le bouleversement cosmique ; Ibn Kathīr explique que la durée des quarante entre les deux souffles de la trompette n'est connue que d'Allah, et que le Jour structure la vie morale en faisant de chaque œuvre une graine pour l'éternité.
+    source_notes_ar: |
+      تصف الآيات ٩٩:١-٨ و٨٤:١-١٢ الانقلاب الكوني؛ يشرح ابن كثير أن الأربعين بين النفختين معلومةٌ لله وحده، وأن يوم القيامة يُهيكل الحياة الأخلاقية بجعل كل عمل بذرةً للأبدية.
+    display_day_of_year: 43
+    quran_refs: "al-Zalzalah 99:1-8, al-Inshiqāq 84:1-12"
+    hadith_refs: ""
+
+  - slug: quran-fact-paradise-and-hell
+    category: quran_hadith_fact
+    title_en: Paradise and Hell — The Two Final Destinations
+    title_ar: الجنة والنار — المصيران الأخيران
+    title_fr: Le Paradis et l'Enfer — les deux destinations finales
+    description_en: |
+      The Qur'an describes Paradise and Hell with a sensory richness unmatched in any other scripture. Paradise is a garden of eternal bliss where rivers flow beneath every tree, where companions are pure and beautiful, where every desire is fulfilled instantly, and where the greatest pleasure is the vision of Allah's face. Hell is a fire seventy times hotter than earthly fire, where the fuel is men and stones, where the drink is boiling water and pus, and where the only food is the thorny tree of Zaqqum. But the Qur'an does not present these as mere rewards and punishments — they are the natural consequences of character. Those who enter Paradise are those who "gave precedence to the Hereafter over the worldly life," and those who enter Hell are those who "took their religion as diversion and the worldly life as their goal." The Prophet ﷺ said that the people of Paradise will see the people of Hell as distant stars and will thank Allah for His mercy. The lesson is that the afterlife is not arbitrary but the full flowering of the soul's choices in this life.
+    description_ar: |
+      يصف القرآن الجنة والنار بغنى حسي لا يُضاهى في أي كتاب آخر. الجنة بستان النعيم الأبدي حيث تجري الأنهار تحت كل شجرة، والأزواج طاهرون جميلون، وكل شهوة تتحقق فوراً، وأعظم لذة رؤية وجه الله. والنار نار أشدّ حرارة من نار الدنيا بسبعين ضعفاً، ووقودها الناس والحجارة، وشرابها الماء الحميم والصديد، وطعامها شجرة الزقوم الشائكة. لكن القرآن لا يقدمها مجرد مكافآت وعقوبات — بل نتائج طبيعية للشخصية. داخل الجنة من «آثر الآخرة على الحياة الدنيا»، وداخل النار من «اتخذ دينه لهواً والحياة الدنيا متاعاً». قال النبي ﷺ إن أهل الجنة يرون أهل النار كأنهم نجوم بعيدة، ويحمدون الله على رحمته. والدرس أن الآخرة ليست اعتباطية بل ازدهار كامل لخيارات الروح في هذه الحياة.
+    description_fr: |
+      Le Coran décrit le Paradis et l'Enfer avec une richesse sensorielle inégalée dans aucune autre Écriture. Le Paradis est un jardin de béatitude éternelle où coulent des rivières sous chaque arbre, où les compagnons sont purs et beaux, où chaque désir est instantanément comblé, et où le plus grand plaisir est la vision du visage d'Allah. L'Enfer est un feu soixante-dix fois plus chaud que le feu terrestre, où le combustible est les hommes et les pierres, où la boisson est de l'eau bouillante et du pus, et où le seul nourriture est l'arbre épineux de Zaqqūm. Mais le Coran ne présente pas cela comme de simples récompenses et châtiments — ce sont les conséquences naturelles du caractère. Ceux qui entrent au Paradis sont ceux qui « ont donné la priorité à l'au-delà sur la vie terrestre », et ceux qui entrent en Enfer sont ceux qui « ont pris leur religion comme divertissement et la vie terrestre comme but ». Le Prophète ﷺ dit que les gens du Paradis verront les gens de l'Enfer comme des étoiles lointaines et remercieront Allah pour Sa miséricorde. La leçon est que l'au-delà n'est pas arbitraire mais l'épanouissement complet des choix de l'âme dans cette vie.
+    reference: "al-Wāqiʿah 56:1-56, Yūsuf 12:111"
+    source_notes: |
+      Qur'an 56:1-56 and 12:111 describe the two destinations; Ibn Kathīr notes that their pleasures and pains are real and sensory, and that entry is the natural consequence of character formed in this life.
+    source_notes_fr: |
+      Les versets 56:1-56 et 12:111 du Coran décrivent les deux destinations ; Ibn Kathīr note que leurs plaisirs et leurs douleurs sont réels et sensoriels, et que l'entrée est la conséquence naturelle du caractère formé dans cette vie.
+    source_notes_ar: |
+      تصف الآيات ٥٦:١-٥٦ و١٢:١١١ المصيرين؛ يُشير ابن كثير إلى أن لذاتهما وآلامهما حقيقية حسية، وأن الدخول هو النتيجة الطبيعية للشخصية التي تتشكل في هذه الحياة.
+    display_day_of_year: 44
+    quran_refs: "al-Wāqiʿah 56:1-56, Yūsuf 12:111"
+    hadith_refs: ""
+
+  - slug: quran-fact-brotherhood-in-islam
+    category: quran_hadith_fact
+    title_en: Brotherhood in Islam — Stronger Than Blood
+    title_ar: الأخوة في الإسلام — أقوى من الدم
+    title_fr: La fraternité en islam — plus forte que le sang
+    description_en: |
+      When the Prophet ﷺ established the Muslim community in Medina, he paired each Muhajir (emigrant from Mecca) with an Ansar (helper from Medina) in a bond of brotherhood so profound that they inherited from one another before the Qur'anic rules of inheritance were revealed. The Qur'an declares: "The believers are but a single brotherhood" — not merely a social club or political alliance, but a spiritual kinship forged by shared submission to Allah. The Prophet ﷺ said: "A Muslim is the brother of another Muslim. He does not wrong him, abandon him, or belittle him." This brotherhood transcends race, language, and nationality — Bilal the Ethiopian, Salman the Persian, and Suhayb the Roman were all equals in the Prophet's mosque. The lesson is that Islam creates a new category of kinship, one based not on biology but on shared faith and mutual responsibility.
+    description_ar: |
+      حين أسس النبي ﷺ الجماعة المسلمة بالمدينة، قرن كل مهاجر من مكة بأنصاري من المدينة في رابطة أخوة عميقة حتى ورث بعضهم بعضاً قبل نزول أحكام الميراث القرآنية. يعلن القرآن: «إنما المؤمنون إخوة» — ليس نادياً اجتماعياً ولا تحالفاً سياسياً، بل قرابة روحية تُشكّل بالخضوع المشترك لله. قال النبي ﷺ: «المسلم أخو المسلم، لا يظلمه ولا يخذله ولا يحقره». وتتجاوز هذه الأخوة العرق واللغة والجنسية — بلال الحبشي وسلمان الفارسي وصهيب الرومي كانوا سواءً في مسجد النبي. والدرس أن الإسلام يخلق صنفاً جديداً من القرابة، قائم لا على البيولوجيا بل على الإيمان المشترك والمسؤولية المتبادلة.
+    description_fr: |
+      Lorsque le Prophète ﷙ établit la communauté musulmane à Médine, il associa chaque Muhājir (émigrant de La Mecque) avec un Anṣār (auxiliaire de Médine) dans un lien de fraternité si profond qu'ils héritaient les uns des autres avant que les règles coraniques d'héritage ne soient révélées. Le Coran déclare : « Les croyants ne sont qu'une seule fraternité » — non pas un club social ou une alliance politique, mais une parenté spirituelle forgée par la soumission commune à Allah. Le Prophète ﷺ dit : « Un musulman est le frère d'un autre musulman. Il ne lui fait pas de tort, ne l'abandonne pas, ne le méprise pas. » Cette fraternité transcende la race, la langue et la nationalité — Bilāl l'Éthiopien, Salmān le Perse, et Suhayb le Romain étaient tous égaux dans la mosquée du Prophète. La leçon est que l'islam crée une nouvelle catégorie de parenté, fondée non sur la biologie mais sur la foi partagée et la responsabilité mutuelle.
+    reference: "al-Ḥujurāt 49:10, Muslim 2565"
+    source_notes: |
+      Qur'an 49:10 and Muslim (2565) establish spiritual kinship; Ibn Kathīr notes that the Muʾakhā in Medina dissolved tribal hierarchy, making Bilāl, Salmān, and Ṣuḥayb equal in the Prophet's mosque.
+    source_notes_fr: |
+      Le verset 49:10 du Coran et Muslim (2565) établissent la parenté spirituelle ; Ibn Kathīr note que la muʾākhā à Médine dissout la hiérarchie tribale, rendant Bilāl, Salmān et Ṣuḥayb égaux dans la mosquée du Prophète.
+    source_notes_ar: |
+      تُرسّخ آية ٤٩:١٠ ومسلم (٢٥٦٥) القرابة الروحية؛ يُشير ابن كثير إلى أن المؤاخاة بالمدينة حلّت التسلسل القبلي، فصار بلال وسلمان وصهيب سواءً في مسجد النبي.
+    display_day_of_year: 45
+    quran_refs: "al-Ḥujurāt 49:10"
+    hadith_refs: "Muslim 2565"
+
+  - slug: quran-fact-justice-in-islam
+    category: quran_hadith_fact
+    title_en: Justice in Islam — Even Against Oneself
+    title_ar: العدل في الإسلام — حتى على النفس
+    title_fr: La justice en islam — même contre soi-même
+    description_en: |
+      The Qur'anic command to justice is absolute and unqualified: "O you who believe, be persistently standing firm in justice, witnesses for Allah, even if it be against yourselves or parents and relatives." This is one of the most radical ethical commands in human history — it requires a person to testify against their own tribe, their own family, even their own interests, if truth demands it. The Prophet ﷺ was once asked to judge between a powerful man and a weak one, and he ruled against the powerful man. The Quraysh said: "Muhammad has finally shown partisanship — but it was against us." He replied: "I am only a human; if I judge, some of you may be more eloquent than others. If I give something to someone that is not his right, it is only a piece of fire." The lesson is that justice is not a political convenience or a legal formality but a divine attribute that humans are commanded to emulate, even at the cost of self-interest.
+    description_ar: |
+      أمر القرآن بالعدل مطلق وغير مشروط: «يا أيها الذين آمنوا كونوا قوّامين بالقسط شهداء لله ولو على أنفسكم أو الوالدين والأقربين». هذا من أشد الأوامر الأخلاقية تطرفاً في التاريخ البشري — يتطلب من الإنسان الشهادة ضد قبيلته، وعائلته، وحتى مصالحه، إذا اقتضت الحقيقة ذلك. وقف النبي ﷺ يوماً للحكم بين رجل قوي وآنف ضعيف، فحكم ضد القوي. فقال قريش: «قد تحيز محمد أخيراً — لكن ضدنا». أجاب: «إنما أنا بشر، وإنما أقضي بما أسمع، فلعل بعضكم أن يكون أبلغ من بعض. فإن أعطيت أحداً ما ليس له فإنما هو كِسْرة من نار». والدرس أن العدل ليس راحة سياسية ولا شكلية قانونية بل صفة إلهية يُؤمر البشر بمحاكاتها، حتى على حساب المصالح الذاتية.
+    description_fr: |
+      Le commandement coranique de la justice est absolu et sans qualification : « Ô vous qui croyez, soyez fermement attachés à la justice, témoins pour Allah, même si c'est contre vous-mêmes ou vos parents et proches. » C'est l'un des commandements éthiques les plus radicaux de l'histoire humaine — il exige d'une personne de témoigner contre sa propre tribu, sa propre famille, même ses propres intérêts, si la vérité l'exige. Le Prophète ﷺ fut un jour appelé à juger entre un homme puissant et un homme faible, et il décida contre le puissant. Les Quraych dirent : « Muhammad a finalement montré du parti pris — mais c'était contre nous. » Il répondit : « Je ne suis qu'un être humain ; si je juge, certains d'entre vous peuvent être plus éloquents que d'autres. Si je donne à quelqu'un quelque chose qui n'est pas son droit, ce n'est qu'un morceau de feu. » La leçon est que la justice n'est pas une commodité politique ou une formalité juridique mais un attribut divin que les humains sont commandés d'émuler, même au prix de l'intérêt personnel.
+    reference: "al-Nisāʾ 4:135, al-Māʾidah 5:8"
+    source_notes: |
+      Qur'an 4:135 and 5:8 command absolute justice; Ibn Kathīr notes that the Prophet's ﷺ ruling against the powerful Qurayshi established the principle that truth outweighs tribal interest.
+    source_notes_fr: |
+      Les versets 4:135 et 5:8 du Coran commandent la justice absolue ; Ibn Kathīr note que la décision du Prophète ﷺ contre le Qurayshite puissant établit le principe que la vérité l'emporte sur l'intérêt tribal.
+    source_notes_ar: |
+      تأمر الآيتان ٤:١٣٥ و٥:٨ بالعدل المطلق؛ يُشير ابن كثير إلى أن حكم النبي ﷺ ضد القرشي المقتدر أرسى المبدأ القائل إن الحق يعلو على المصلحة القبلية.
+    display_day_of_year: 46
+    quran_refs: "al-Nisāʾ 4:135, al-Māʾidah 5:8"
+    hadith_refs: ""
+
+  - slug: quran-fact-six-books-of-hadith
+    category: quran_hadith_fact
+    title_en: The Six Books of Hadith — The Canonical Collections
+    title_ar: الكتب الستة — المدونات الجامعة
+    title_fr: Les six livres de hadith — les collections canoniques
+    description_en: |
+      The six canonical collections of hadith — Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Sunan al-Tirmidhi, Sunan al-Nasa'i, and Sunan Ibn Majah — represent the culmination of a three-century scholarly effort to preserve the Prophet's ﷺ words and deeds. Imam Bukhari, who compiled the most authoritative collection, examined over 600,000 narrations and accepted only approximately 7,000 as rigorously authentic (sahih). His methodology was so strict that he would reject a hadith if any narrator in its chain had ever been seen lying in ordinary conversation. Imam Muslim applied equally rigorous standards, focusing particularly on the uninterruptedness of the chain (ittisal al-sanad). The other four collections included hadith that were slightly less than rigorously authenticated (hasan) but still reliable for legal and spiritual guidance. Together, these six books form the second source of Islamic law after the Qur'an and the primary window into the Prophet's ﷺ life.
+    description_ar: |
+      تمثل المدونات الستة الجامعة للحديث — صحيح البخاري، صحيح مسلم، سنن أبي داود، سنن الترمذي، سنن النسائي، وسنن ابن ماجه — ذروة جهد علمي امتد ثلاثة قرون لحفظ أقوال وأفعال النبي ﷺ. قام الإمام البخاري، مُصنّف المجموعة الأكثر مرجعية، بفحص أكثر من ٦٠٠٠٠٠ رواية وقبل نحو ٧٠٠٠ فقط باعتبارها صحيحة بأشدّ المعايير. وكان منهجه صارماً لدرجة أنه يرفض الحديث لو شُوهد أي راوٍ في سنده يكذب في حديث عادي. وطبّق الإمام مسلم معايير مماثلة في الصرامة، منوطاً اهتمامه الخاص باتصال السند. وضمّت الأربع المجموعات الأخرى أحاديث دون «الصحيح» بدرجة طفيفة (حسن) لكنها موثوقة للهداية الشرعية والروحية. وتشكل هذه الكتب الستة مجتمعة المصدر الثاني للتشريع الإسلامي بعد القرآن، والنافذة الأولى إلى حياة النبي ﷺ.
+    description_fr: |
+      Les six collections canoniques de hadith — Ṣaḥīḥ al-Bukhārī, Ṣaḥīḥ Muslim, Sunan Abī Dāwūd, Sunan al-Tirmidhī, Sunan al-Nasāʾī, et Sunan Ibn Mājah — représentent le couronnement d'un effort savant de trois siècles pour préserver les paroles et les actes du Prophète ﷺ. L'imām al-Bukhārī, qui compila la collection la plus autoritaire, examina plus de 600 000 narrations et n'en accepta qu'environ 7 000 comme rigoureusement authentiques (ṣaḥīḥ). Sa méthodologie était si stricte qu'il rejetait un hadith si le moindre narrateur de sa chaîne avait été vu mentir dans une conversation ordinaire. L'imām Muslim appliqua des normes tout aussi rigoureuses, se concentrant particulièrement sur l'ininterruption de la chaîne (ittisāl al-sanad). Les quatre autres collections incluaient des hadith légèrement moins que rigoureusement authentifiés (ḥasan) mais toujours fiables pour la guidance juridique et spirituelle. Ensemble, ces six livres forment la deuxième source du droit islamique après le Coran et la fenêtre principale sur la vie du Prophète ﷺ.
+    reference: "al-Ḥujurāt 49:6, al-Naḥl 16:44"
+    source_notes: |
+      Bukhārī's examination of 600,000 narrations and acceptance of ~7,000 is documented in Ulum al-Hadith; al-Nawawī notes the Ṣaḥīḥayn's supremacy and the Sunan's role in legal derivation.
+    source_notes_fr: |
+      L'examen par al-Bukhārī de 600 000 narrations et l'acceptation d'environ 7 000 sont documentés dans ʿUlūm al-Ḥadīth ; al-Nawawī note la suprématie des deux Ṣaḥīḥ et le rôle des Sunan dans la dérivation juridique.
+    source_notes_ar: |
+      يُوثّق علوم الحديث فحص البخاري لـ٦٠٠٠٠٠ رواية وقبوله نحو ٧٠٠٠ منها؛ يلاحظ النووي تفوق الصحيحين ودور السنن في الاستنباط الفقهي.
+    display_day_of_year: 47
+    quran_refs: "al-Ḥujurāt 49:6, al-Naḥl 16:44"
+    hadith_refs: ""
+
+  - slug: quran-fact-four-imams
+    category: quran_hadith_fact
+    title_en: The Four Imams — Foundations of Sunni Jurisprudence
+    title_ar: الأئمة الأربعة — قواعد الفقه السني
+    title_fr: Les quatre imams — fondements de la jurisprudence sunnite
+    description_en: |
+      The four great imams of Sunni jurisprudence — Abu Hanifa, Malik ibn Anas, al-Shafi'i, and Ahmad ibn Hanbal — did not create madhhabs as personal brands but as systematic methodologies (usul) for deriving legal rulings from the Qur'an and Sunnah. Each imam worked within a specific historical and geographical context: Abu Hanifa in Kufa during the late Umayyad period, Malik in Medina where the Prophet's ﷺ practice was still living memory, al-Shafi'i between Iraq and Egypt synthesizing hadith and ra'y, and Ahmad ibn Hanbal in Baghdad defending the Sunnah against the rationalist inquisition (mihna). Their differences — on matters of prayer posture, contractual validity, or criminal procedure — reflect not contradiction but the legitimate diversity (ikhtilaf) that the Prophet ﷺ predicted and praised. The lesson is that the madhhabs are not sects but paths to the same destination, and that respect for scholarly diversity is itself a Sunnah.
+    description_ar: |
+      لم يخلق الأئمة الأربعة الكبار في الفقه السني — أبو حنيفة، ومالك بن أنس، والشافعي، وأحمد بن حنبل — مذاهب كعلامات شخصية، بل منهجيات نظامية (أصول) لاستنباط الأحكام الشرعية من القرآن والسنة. عمل كل إمام في سياق تاريخي وجغرافي محدد: أبو حنيفة بالكوفة في أواخر العصر الأموي، ومالك بالمدينة حيث كانت سُنّة النبي ﷺ لا تزال ذاكرة حية، والشافعي بين العراق ومصر مُتجمِّعاً بين الحديث والرأي، وأحمد بن حنبل ببغداد مُدافعاً عن السنة ضد محنة المعتزلة. وتعكس اختلافاتهم — في هيئة الصلاة وصحة العقود وإجراءات الجناية — لا تناقضاً بل تنوعاً شرعياً (اختلافاً) توقعه النبي ﷺ وأثنى عليه. والدرس أن المذاهب ليست طوائف بل سبل إلى المصير ذاته، وأن احترام التنوع العلمي هو بذاته سنة.
+    description_fr: |
+      Les quatre grands imams de la jurisprudence sunnite — Abū Ḥanīfa, Mālik ibn Anas, al-Shāfiʿī, et Aḥmad ibn Ḥanbal — n'ont pas créé des madhhabs comme des marques personnelles mais comme des méthodologies systématiques (uṣūl) pour dériver des arrêts juridiques du Coran et de la Sunna. Chaque imām travailla dans un contexte historique et géographique spécifique : Abū Ḥanīfa à Kūfa pendant la fin de la période omeyyade, Mālik à Médine où la pratique du Prophète ﷺ était encore un souvenir vivant, al-Shāfiʿī entre l'Irak et l'Égypte synthétisant le hadith et le ra'y, et Aḥmad ibn Ḥanbal à Bagdad défendant la Sunna contre l'inquisition rationaliste (miḥna). Leurs différences — sur les postures de prière, la validité contractuelle, ou la procédure pénale — reflètent non pas une contradiction mais la diversité légitime (ikhtilāf) que le Prophète ﷙ avait prédite et louée. La leçon est que les madhhabs ne sont pas des sectes mais des chemins vers la même destination, et que le respect de la diversité savante est lui-même une sunna.
+    reference: "al-Māʾidah 5:48, Muslim 818"
+    source_notes: |
+      Muslim (818) records the Prophet's ﷺ praise of legitimate difference; Ibn Khaldūn traces the imams' contexts, and classical scholarship treats their schools as parallel paths bound by the Qur'an and Sunnah.
+    source_notes_fr: |
+      Muslim (818) rapporte l'éloge par le Prophète ﷺ de la différence légitime ; Ibn Khaldūn retrace les contextes des imams, et la scholarship classique traite leurs écoles comme des voies parallèles liées par le Coran et la Sunna.
+    source_notes_ar: |
+      يسجل مسلم (٨١٨) ثناء النبي ﷺ على الاختلاف المشروع؛ يتتبع ابن خلدون سياقات الأئمة، وتعتبر العلوم الكلاسيكية مذاهبهم سبلاً متوازية مربوطة بالقرآن والسنة.
+    display_day_of_year: 48
+    quran_refs: "al-Māʾidah 5:48"
+    hadith_refs: "Muslim 818"
+
+  - slug: quran-fact-womens-rights
+    category: quran_hadith_fact
+    title_en: Women's Rights in Islam — Beyond the Stereotypes
+    title_ar: حقوق المرأة في الإسلام — ما وراء الصور النمطية
+    title_fr: Les droits des femmes en islam — au-delà des stéréotypes
+    description_en: |
+      The Qur'an granted women rights that were revolutionary in the seventh century and remain contested in parts of the world today: the right to own property independently (surah 4:32), the right to initiate divorce (surah 2:229), the right to inheritance (surah 4:7), the right to testify in court (surah 2:282), the right to choose a spouse (surah 4:19), and the right to education. The Prophet ﷺ said: "Seeking knowledge is an obligation upon every Muslim" — explicitly including women. His wives were scholars, teachers, and narrators of hadith; Aisha alone transmitted over 2,200 narrations. The Qur'an describes men and women as "protecting friends of one another" (awliya) and promises equal spiritual reward: "I will not allow the deeds of any doer among you to be lost, male or female — you are from one another." The lesson is that Islam's vision of gender justice is not a modern Western import but a divine command that historical Muslim societies sometimes implemented and sometimes neglected.
+    description_ar: |
+      منح القرآن للمرأة حقوقاً كانت ثورية في القرن السابع ولا تزال محل خلاف في أجزاء من العالم اليوم: حق التملك المستقل (سورة ٤:٣٢)، حق المبادرة بالطلاق (سورة ٢:٢٢٩)، حق الميراث (سورة ٤:٧)، حق الشهادة في المحكمة (سورة ٢:٢٨٢)، حق اختيار الزوج (سورة ٤:١٩)، وحق التعليم. قال النبي ﷺ: «طلب العلم فريضة على كل مسلم» — مُتضمناً النساء صراحةً. كانت زوجاته عالمات ومُعلّمات وراويات للحديث؛ روَت عائشة وحدها أكثر من ٢٢٠٠ رواية. يصف القرآن الرجال والنساء «أولياء بعضهم بعضاً» ويعد بثواب روحي متساوٍ: «لا أُضيع عمل عامل منكم من ذكر أو أنثى — بعضكم من بعض». والدرس أن رؤية الإسلام للعدالة بين الجنسين ليست استيراداً غربياً حديثاً بل أمر إلهي طبّقته المجتمعات المسلمة تاريخياً أحياناً وأهملته أحياناً أخرى.
+    description_fr: |
+      Le Coran accorda aux femmes des droits qui furent révolutionnaires au VIIe siècle et restent contestés dans certaines parties du monde aujourd'hui : le droit de posséder des biens indépendamment (sourate 4:32), le droit d'initier le divorce (sourate 2:229), le droit à l'héritage (sourate 4:7), le droit de témoigner en justice (sourate 2:282), le droit de choisir un époux (sourate 4:19), et le droit à l'éducation. Le Prophète ﷺ dit : « La recherche du savoir est une obligation sur chaque musulman » — incluant explicitement les femmes. Ses épouses étaient des savantes, des enseignantes et des narratrices de hadith ; ʿĀʾisha seule transmit plus de 2 200 narrations. Le Coran décrit les hommes et les femmes comme des « amis protecteurs les uns des autres » (awliyā) et promet une récompense spirituelle égale : « Je ne laisserai pas perdre l'œuvre d'aucun faiseur parmi vous, mâle ou femelle — vous êtes les uns des autres. » La leçon est que la vision islamique de la justice entre les sexes n'est pas une importation occidentale moderne mais un commandement divin que les sociétés musulmanes historiques ont parfois mis en œuvre et parfois négligé.
+    reference: "al-Nisāʾ 4:32, al-Baqarah 2:228"
+    source_notes: |
+      Qur'an 4:32 and 2:228 grant property, divorce, and inheritance rights; Bukhārī and Muslim record ʿĀʾisha's 2,200 narrations, and Ibn Kathīr notes that the Qur'anic framework predates modern Western feminism by fourteen centuries.
+    source_notes_fr: |
+      Les versets 4:32 et 2:228 du Coran accordent les droits de propriété, de divorce et d'héritage ; al-Bukhārī et Muslim consignent les 2 200 narrations de ʿĀʾisha, et Ibn Kathīr note que le cadre coranique précède le féminisme occidental moderne de quatorze siècles.
+    source_notes_ar: |
+      تمنح الآيتان ٤:٣٢ و٢:٢٢٨ حقوق الملكية والطلاق والميراث؛ يسجل البخاري ومسلم روايات عائشة البالغة ٢٢٠٠ رواية، ويُشير ابن كثير إلى أن الإطار القرآني سبق النسوية الغربية الحديثة بأربعة عشر قرناً.
+    display_day_of_year: 49
+    quran_refs: "al-Nisāʾ 4:32, al-Baqarah 2:228"
+    hadith_refs: ""
+
+  - slug: quran-fact-divorce-in-islam
+    category: quran_hadith_fact
+    title_en: Divorce in Islam — The Permitted Disliked
+    title_ar: الطلاق في الإسلام — المباح المكروه
+    title_fr: Le divorce en islam — le permis détesté
+    description_en: |
+      The Prophet ﷺ said: "The most hated of permissible things to Allah is divorce." Yet Islam permits it because a bad marriage can be more harmful than separation. The Qur'an established procedures to prevent impulsive dissolution: a waiting period (iddah) of three menstrual cycles to confirm whether the wife is pregnant and to provide time for reconciliation; the requirement that divorce be pronounced clearly, not in anger or jest; and the limit of three pronouncements, after which the divorce becomes irrevocable unless the woman marries another and that marriage is consummated and then ended. The Prophet ﷺ said: "Allah is not pleased with a man who divorces his wife for no reason, then returns to her, then divorces her again." The system is designed to make divorce difficult but not impossible — a balance between preserving the family and protecting individuals from abuse. The lesson is that marriage is a serious covenant, and its dissolution should be equally serious.
+    description_ar: |
+      قال النبي ﷺ: «أبغض الحلال إلى الله الطلاق». لكن الإسلام يُجيزه لأن الزواج السيء قد يكون أضرّ من الانفصال. وضع القرآن إجراءات لمنع الحل التسرعي: فترة العدة ثلاثة قروء للتأكد من الحمل وتوفير وقت للمصالحة؛ شرط أن يُنطق الطلاق بصراحة لا بغضبٍ ولا هزل؛ وحصر التطليق بثلاث مرات، ثم يصير الطلاق بائناً إلا إن تزوجت المرأة آخر ودُخل بها ثم انفصلت. قال النبي ﷺ: «لا يرضى الله عن رجلٍ طلق امرأته بلا سبب ثم راجعها ثم طلقها». والنظام مصمم ليجعل الطلاق صعباً لكنه ليس مستحيلاً — توازن بين حماية الأسرة وحماية الأفراد من الاستغلال. والدرس أن الزواج عهد جاد، وحله يجب أن يكون بنفس الجدية.
+    description_fr: |
+      Le Prophète ﷺ dit : « La chose permise la plus détestée d'Allah est le divorce. » Pourtant, l'islam le permet car un mauvais mariage peut être plus nuisible que la séparation. Le Coran a établi des procédures pour prévenir la dissolution impulsive : une période d'attente (ʿidda) de trois cycles menstruels pour confirmer si l'épouse est enceinte et pour fournir du temps pour la réconciliation ; l'exigence que le divorce soit prononcé clairement, pas en colère ou en plaisantant ; et la limite de trois prononciations, après quoi le divorce devient irrévocable à moins que la femme ne se remarie et que ce mariage soit consommé puis terminé. Le Prophète ﷺ dit : « Allah n'est pas satisfait d'un homme qui divorce son épouse sans raison, puis revient vers elle, puis la divorce à nouveau. » Le système est conçu pour rendre le divorce difficile mais pas impossible — un équilibre entre préserver la famille et protéger les individus de l'abus. La leçon est que le mariage est une alliance sérieuse, et sa dissolution devrait l'être tout autant.
+    reference: "al-Baqarah 2:226-232, al-Ṭalāq 65:1-7"
+    source_notes: |
+      Qur'an 2:226-232 and 65:1-7 regulate dissolution; Abū Dāwūd (2178) reports the Prophet's ﷺ hatred of divorce, and classical scholars designed the system to make it difficult but not impossible, protecting both family and individual.
+    source_notes_fr: |
+      Les versets 2:226-232 et 65:1-7 du Coran réglementent la dissolution ; Abū Dāwūd (2178) rapporte l'aversion du Prophète ﷺ pour le divorce, et les savants classiques conçurent le système pour le rendre difficile mais pas impossible, protégeant à la fois la famille et l'individu.
+    source_notes_ar: |
+      تنظم الآيات ٢:٢٢٦-٢٣٢ و٦٥:١-٧ التفريق؛ يُبلّغ أبو داود (٢١٧٨) عن بغض النبي ﷺ للطلاق، وصمم العلماء الكلاسيكيون النظام ليجعله صعباً لكنه ليس مستحيلاً، محمين الأسرة والفرد معاً.
+    display_day_of_year: 50
+    quran_refs: "al-Baqarah 2:226-232, al-Ṭalāq 65:1-7"
+    hadith_refs: "Abu Dawud 2178"
+
+  - slug: quran-fact-jihad-rules
+    category: quran_hadith_fact
+    title_en: The Rules of Jihad — Not What You Think
+    title_ar: قواعد الجهاد — ليست ما تظن
+    title_fr: Les règles du jihad — pas ce que vous pensez
+    description_en: |
+      The word "jihad" means "striving" and encompasses the spiritual struggle against the self, the intellectual struggle against ignorance, and the military struggle against aggression. The Qur'an permits military jihad only in self-defense or to end persecution: "Fight in the way of Allah those who fight you, but do not transgress." The Prophet ﷺ established strict rules: do not kill women, children, the elderly, or monks; do not destroy crops, trees, or places of worship; do not mutilate the dead; and treat prisoners with kindness. He said: "Whoever fights so that the word of Allah is supreme is in the path of Allah." But he also said: "The best jihad is a word of truth spoken to a tyrant." The vast majority of jihad in Islamic history was defensive — protecting Muslim lands from Crusaders, Mongols, and colonial powers. The lesson is that jihad is not terrorism, expansionism, or holy war in the Western sense; it is a regulated, ethical framework for protecting life and religion.
+    description_ar: |
+      تعني كلمة «جهاد» «الكدح» وتشمل الكفاح الروحي ضد النفس، والكفاح الفكري ضد الجهل، والكفاح العسكري ضد العدوان. يُجيز القرآن الجهاد العسكري فقط للدفاع عن النفس أو لإنهاء الاضطهاد: «وقاتلوا في سبيل الله الذين يقاتلونكم ولا تعتدوا». وضع النبي ﷺ قواعد صارمة: لا قتل نساء ولا أطفال ولا شيوخ ولا رهبان؛ لا إتلاف محاصيل ولا أشجار ولا بيوت عبادة؛ لا تمثيل بالقتلى؛ ومعاملة الأسرى بالإحسان. قال: «من قاتل لتكون كلمة الله هي العليا فهو في سبيل الله». لكنه قال أيضاً: «أفضل الجهاد كلمة حق عند سلطان جائر». وكان الغالبية العظمى من الجهاد في التاريخ الإسلامي دفاعياً — حماية الأراضي الإسلامية من الصليبيين والمغول والقوى الاستعمارية. والدرس أن الجهاد ليس إرهاباً ولا توسعاً ولا حرباً مقدسة بالمعنى الغربي؛ بل إطاراً منظماً وأخلاقياً لحماية الحياة والدين.
+    description_fr: |
+      Le mot « jihad » signifie « effort » et englobe la lutte spirituelle contre le moi, la lutte intellectuelle contre l'ignorance, et la lutte militaire contre l'agression. Le Coran permet le jihad militaire uniquement en légitime défense ou pour mettre fin à la persécution : « Combattez dans le chemin d'Allah ceux qui vous combattent, mais ne transgressez pas. » Le Prophète ﷙ établit des règles strictes : ne pas tuer les femmes, les enfants, les personnes âgées ou les moines ; ne pas détruire les récoltes, les arbres ou les lieux de culte ; ne pas mutiler les morts ; et traiter les prisonniers avec bonté. Il dit : « Quiconque combat pour que la parole d'Allah soit suprême est dans le chemin d'Allah. » Mais il dit aussi : « Le meilleur jihad est une parole de vérité dite à un tyran. » La grande majorité du jihad dans l'histoire islamique fut défensive — protéger les terres musulmanes des Croisés, des Mongols et des puissances coloniales. La leçon est que le jihad n'est pas du terrorisme, de l'expansionnisme, ou une guerre sainte au sens occidental ; c'est un cadre régulé et éthique pour protéger la vie et la religion.
+    reference: "al-Baqarah 2:190, al-Mumtaḥanah 60:8"
+    source_notes: |
+      Qur'an 2:190 and 60:8 restrict military jihad to defense; Ibn Kathīr enumerates the Prophet's ﷺ strict rules of engagement, and al-Nawawī notes that the best jihad is a word of truth to a tyrant.
+    source_notes_fr: |
+      Les versets 2:190 et 60:8 du Coran restreignent le jihad militaire à la défense ; Ibn Kathīr énumère les règles strictes d'engagement du Prophète ﷺ, et al-Nawawī note que le meilleur jihad est une parole de vérité dite à un tyran.
+    source_notes_ar: |
+      تقيد الآيتان ٢:١٩٠ و٦٠:٨ الجهاد العسكري بالدفاع؛ يُفصّل ابن كثير قواعد الاشتباك الصارمة للنبي ﷺ، ويلاحظ النووي أن أفضل الجهاد كلمة حق عند سلطان جائر.
+    display_day_of_year: 51
+    quran_refs: "al-Baqarah 2:190, al-Mumtaḥanah 60:8"
+    hadith_refs: ""
+
+  - slug: quran-fact-environment
+    category: quran_hadith_fact
+    title_en: Environmental Stewardship in Islam
+    title_ar: الوصاية البيئية في الإسلام
+    title_fr: L'intendance environnementale en islam
+    description_en: |
+      Long before modern environmental movements, the Qur'an established humans as "stewards" (khulafa) of the earth, not its owners. "It is He who has made you successors upon the earth," and "We did not create the heavens and earth and what is between them in play." The Prophet ﷺ forbade the cutting of trees in enemy territory during warfare, the killing of animals for sport, and the wasteful use of water — even when performing ablution by a flowing river. He said: "If the Hour comes while one of you holds a sapling in his hand, let him plant it." The concept of israf (wastefulness) is condemned as the work of Satan. Every element of creation — animals, plants, water, air — is described as praising Allah in its own way. The lesson is that environmental destruction is not merely an ecological crisis but a spiritual failure — a betrayal of the trust (amana) that Allah placed upon humanity.
+    description_ar: |
+      قبل حركات البيئة الحديثة بقرون، جعل القرآن البشر «خلفاء» في الأرض لا مالكين لها. «هو الذي جعلكم خلائف في الأرض»، و«ما خلقنا السماوات والأرض وما بينهما لاعبين». ونهى النبي ﷺ عن قطع الأشجار في أرض العدو أثناء الحرب، وقتل الحيوان للتسلية، وإسراف الماء — حين الوضوء بجانب نهر جارٍ. قال: «إن قامت الساعة وبيد أحدكم فسيلة فليغرسها». مفهوم الإسراف مُدان باعتباره فعل الشيطان. ويُصف كل عنصر من الخلق — حيوانات ونباتات ومياه وهواء — بأنه يسبح الله بطريقته. والدرس أن التدمير البيئي ليس مجرد أزمة بيئية بل فشل روحي — خيانة للأمانة التي وكلها الله للبشرية.
+    description_fr: |
+      Bien avant les mouvements environnementaux modernes, le Coran établit les humains comme des « intendants » (khulafā) de la terre, pas ses propriétaires. « C'est Lui qui vous a fait successeurs sur la terre », et « Nous n'avons pas créé les cieux et la terre et ce qui est entre eux en vain. » Le Prophète ﷙ interdit la coupe des arbres sur le territoire ennemi pendant la guerre, le massacre d'animaux pour le sport, et le gaspillage de l'eau — même en faisant l'ablution près d'une rivière coulant. Il dit : « Si l'Heure arrive pendant que l'un de vous tient une pousse dans sa main, qu'il la plante. » Le concept d'isrāf (gaspillage) est condamné comme l'œuvre de Satan. Chaque élément de la création — animaux, plantes, eau, air — est décrit comme louant Allah à sa manière. La leçon est que la destruction environnementale n'est pas simplement une crise écologique mais un échec spirituel — une trahison de la confiance (amāna) qu'Allah a placée sur l'humanité.
+    reference: "al-Anʿām 6:165, al-Isrāʾ 17:26-27"
+    source_notes: |
+      Qur'an 6:165 and 17:26-27 establish stewardship; Bukhārī and Muslim report the prohibition on wastefulness and the command to plant even if the Hour approaches, framing environmental care as a sacred trust (amāna).
+    source_notes_fr: |
+      Les versets 6:165 et 17:26-27 du Coran établissent l'intendance ; al-Bukhārī et Muslim rapportent l'interdiction du gaspillage et le commandement de planter même si l'Heure approche, encadrant le soin de l'environnement comme une confiance sacrée (amāna).
+    source_notes_ar: |
+      تُرسّخ الآيتان ٦:١٦٥ و١٧:٢٦-٢٧ الوصاية؛ يُبلّغ البخاري ومسلم عن تحريم الإسراف والأمر بالغرس ولو اقتربت الساعة، مُقدّمين العناية البيئية أمانةً مقدسة.
+    display_day_of_year: 52
+    quran_refs: "al-Anʿām 6:165, al-Isrāʾ 17:26-27"
+    hadith_refs: ""
+
+  - slug: quran-fact-animal-rights
+    category: quran_hadith_fact
+    title_en: Animal Rights in Islam — Mercy to All Living Creatures
+    title_ar: حقوق الحيوان في الإسلام — الرحمة بكل الكائنات الحية
+    title_fr: Les droits des animaux en islam — la miséricorde envers tous les êtres vivants
+    description_en: |
+      The Prophet ﷺ said: "There is reward in doing good to every living thing." He forbade the branding of animals on the face, the overloading of beasts of burden, and the tying up of animals without food or water. He once saw a donkey whose face had been branded and said: "May Allah curse the one who branded it." He taught that a woman entered Hell because she starved a cat, and a prostitute entered Paradise because she gave water to a thirsty dog. Animals are not merely property in Islamic law; they are sentient beings with rights to proper care, humane slaughter, and protection from cruelty. The Qur'an states that animals are communities like human communities: "There is no creature on earth or bird that flies with its wings but that they are communities like you." The lesson is that cruelty to animals is not a minor sin but a grave offense against the Creator who entrusted them to human care.
+    description_ar: |
+      قال النبي ﷺ: «لكل كبدٍ رطبةٍ أجر». ونهى عن وسم الحيوانات في الوجه، وعن إثقال دواب الحمل، وعن ربط الحيوان بلا طعام أو ماء. رأى يوماً حماراً وُسّم وجهه فقال: «لعن الله الذي وسمه». وعلّم أن امرأة دخلت النار لأنها حبست هرةً حتى ماتت، وامرأة دخلت الجنة لأنها سقت كلباً عطشاناً. الحيوانات ليست مجرد ملكية في الفقه الإسلامي؛ بل كائنات حيّة ذات حقوق في الرعاية السليمة والذبح الرحيم والحماية من القسوة. ويُخبر القرآن أن الحيوانات أمم كالناس: «وما من دابةٍ في الأرض ولا طائرٍ يطير بجناحيه إلا أممٌ أمثالكم». والدرس أن القسوة على الحيوانات ليست معصية صغيرة بل جريمة جسيمة ضد الخالق الذي وكلها للعناية البشرية.
+    description_fr: |
+      Le Prophète ﷺ dit : « Il y a une récompense à faire le bien à tout être vivant. » Il interdit le marquage des animaux sur le visage, la surcharge des bêtes de somme, et l'attachement d'animaux sans nourriture ni eau. Il vit un jour un âne dont le visage avait été marqué et dit : « Qu'Allah maudisse celui qui l'a marqué. » Il enseigna qu'une femme entra en Enfer parce qu'elle avait affamé un chat, et qu'une prostituée entra au Paradis parce qu'elle avait donné de l'eau à un chien assoiffé. Les animaux ne sont pas simplement des biens en droit islamique ; ce sont des êtres sensibles ayant droit à des soins appropriés, une abattage humaine, et une protection contre la cruauté. Le Coran déclare que les animaux sont des communautés comme les communautés humaines : « Il n'y a pas de créature sur terre ou d'oiseau qui vole de ses ailes sans qu'ils soient des communautés comme vous. » La leçon est que la cruauté envers les animaux n'est pas un péché mineur mais une offense grave contre le Créateur qui les a confiés aux soins humains.
+    reference: "al-Anʿām 6:38, Muslim 2245"
+    source_notes: |
+      Qur'an 6:38 describes animals as communities; Muslim (2245) records the hadith on reward for kindness to every living thing, and Ibn Kathīr notes that cruelty to animals is a grave sin because it betrays the Creator's trust.
+    source_notes_fr: |
+      Le verset 6:38 du Coran décrit les animaux comme des communautés ; Muslim (2245) consigne le hadith sur la récompense de la bonté envers tout être vivant, et Ibn Kathīr note que la cruauté envers les animaux est un péché grave car elle trahit la confiance du Créateur.
+    source_notes_ar: |
+      يصف القرآن ٦:٣٨ الحيوانات بأنها أمم؛ يسجل مسلم (٢٢٤٥) الحديث في أجر الإحسان لكل كبد رطبة، ويُشير ابن كثير إلى أن القسوة على الحيوانات جريمة جسيمة لأنها تخون أمانة الخالق.
+    display_day_of_year: 53
+    quran_refs: "al-Anʿām 6:38"
+    hadith_refs: "Muslim 2245"
+
+  - slug: quran-fact-leadership
+    category: quran_hadith_fact
+    title_en: Leadership in Islam — Service, Not Domination
+    title_ar: القيادة في الإسلام — خدمة لا هيمنة
+    title_fr: Le leadership en islam — le service, pas la domination
+    description_en: |
+      The Prophet ﷺ defined leadership not as a privilege but as a burden of accountability. He said: "Each of you is a shepherd, and each of you is responsible for his flock." When a man asked him to appoint him as a governor, the Prophet ﷺ refused, saying: "We do not give this position to one who asks for it or is eager for it." The ideal leader in Islam is described as the "servant of the people" — a concept radically different from the monarchies and dictatorships that later dominated Muslim history. The first caliph, Abu Bakr, said in his inaugural address: "If I do well, support me; if I go astray, set me right." The Qur'an commands leaders to consult their people (shura) and warns that those who hoard wealth while their people starve will face severe punishment. The lesson is that authority in Islam is a trust (amana) from Allah, and its misuse is betrayal of the highest order.
+    description_ar: |
+      عرّف النبي ﷺ القيادة ليس امتيازاً بل عبء مساءلة. قال: «كلكم راعٍ وكلكم مسؤولٌ عن رعيته». حين طلب منه رجل أن يوليه ولاية، رفض قائلاً: «لا نُولي هذا العمل من سأله أو حرص عليه». القائد المثالي في الإسلام يُوصف «بعبد الناس» — مفهوم مختلف جذرياً عن الملكيات والديكتاتوريات التي سادت التاريخ المسلم لاحقاً. قال الخليفة الأول أبو بكر في خطبته التنصيبية: «إن أحسنت فأعينوني، وإن أسأت فقوموني». ويأمر القرآن القادة بشورى شعوبهم ويحذر أن الذين يكنزون المال وشعبهم يجوع سيواجهون عقوبة شديدة. والدرس أن السلطة في الإسلام أمانة من الله، وإساءة استخدامها خيانة من أعلى الدرجات.
+    description_fr: |
+      Le Prophète ﷙ définissait le leadership non pas comme un privilège mais comme un fardeau de responsabilité. Il dit : « Chacun de vous est un berger, et chacun de vous est responsable de son troupeau. » Quand un homme lui demanda de le nommer gouverneur, le Prophète ﷙ refusa, disant : « Nous ne donnons pas cette position à celui qui la demande ou qui la convoite. » Le leader idéal en islam est décrit comme le « serviteur du peuple » — un concept radicalement différent des monarchies et dictatures qui dominèrent plus tard l'histoire musulmane. Le premier calife, Abū Bakr, dit dans son discours inaugural : « Si je fais bien, soutenez-moi ; si je m'égare, redressez-moi. » Le Coran commande aux leaders de consulter leur peuple (shūrā) et avertit que ceux qui accumulent des richesses pendant que leur peuple meurt de faim feront face à une punition sévère. La leçon est que l'autorité en islam est une confiance (amāna) d'Allah, et son abus est une trahison du plus haut ordre.
+    reference: "Āl ʿImrān 3:159, al-Shūrā 42:38"
+    source_notes: |
+      Qur'an 3:159 and 42:38 command consultation; Bukhārī and Muslim record the Prophet's ﷺ definition of leadership as service, and Ibn Kathīr notes that Abū Bakr's inaugural address established accountability as the essence of rule.
+    source_notes_fr: |
+      Les versets 3:159 et 42:38 du Coran commandent la consultation ; al-Bukhārī et Muslim consignent la définition par le Prophète ﷺ du leadership comme un service, et Ibn Kathīr note que le discours inaugural d'Abū Bakr établit la responsabilité comme l'essence du pouvoir.
+    source_notes_ar: |
+      تأمر الآيتان ٣:١٥٩ و٤٢:٣٨ بالشورى؛ يسجل البخاري ومسلم تعريف النبي ﷺ للقيادة بأنها خدمة، ويُشير ابن كثير إلى أن خطبة أبي بكر التنصيبية أرسَت المساءلة جوهر الحكم.
+    display_day_of_year: 54
+    quran_refs: "Āl ʿImrān 3:159, al-Shūrā 42:38"
+    hadith_refs: ""
+
+  - slug: quran-fact-interfaith
+    category: quran_hadith_fact
+    title_en: Interfaith Relations in Islam — Respect with Integrity
+    title_ar: العلاقات بين الأديان في الإسلام — احترام مع نزاهة
+    title_fr: Les relations interconfessionnelles en islam — le respect avec intégrité
+    description_en: |
+      The Qur'an does not command hatred of non-Muslims but distinguishes between theological disagreement and personal hostility: "Allah does not forbid you from those who do not fight you because of religion and do not expel you from your homes — from dealing kindly and justly with them." The Prophet ﷺ had Jewish neighbors, employed a Christian scribe, received a delegation of Christians from Najran in his mosque, and married a Jewish woman (Safiyyah) and a Christian woman (Maria the Copt). He said: "Whoever harms a dhimmi, I am his adversary on the Day of Judgment." At the same time, the Qur'an is unambiguous that Islam is the only religion acceptable to Allah: "And whoever seeks a religion other than Islam, it will not be accepted from him." The lesson is that Muslims can and should coexist peacefully with non-Muslims, but not at the cost of diluting their own faith.
+    description_ar: |
+      لا يأمر القرآن ببغض غير المسلمين بل يميّز بين الخلاف العقائدي والعداء الشخصي: «لا ينهاكم الله عن الذين لم يقاتلوكم في الدين ولم يُخرجوكم من دياركم أن تبروهم وتقسطوا إليهم». وكان للنبي ﷺ جيران يهود، واستخدم كاتباً مسيحياً، واستقبل وفداً من نجران المسيحي في مسجده، وتزوج امرأة يهودية (صفية) ومسيحية (ماريا القبطية). قال: «من آذى ذمياً فأنا خصمه يوم القيامة». وفي الوقت ذاته، القرآن واضح بأن الإسلام هو الدين الوحيد المقبول عند الله: «ومن يبتغِ غير الإسلام ديناً فلن يُقبل منه». والدرس أن المسلمين يستطيعون ويجب أن يتعايشوا بسلام مع غير المسلمين، لكن ليس على حساب تخفيف دينهم.
+    description_fr: |
+      Le Coran n'ordonne pas la haine des non-musulmans mais distingue entre le désaccord théologique et l'hostilité personnelle : « Allah ne vous interdit pas de bien faire et d'être justes envers ceux qui ne vous ont pas combattus pour la religion et ne vous ont pas chassés de vos demeures. » Le Prophète ﷙ avait des voisins juifs, employa un scribe chrétien, reçut une délégation de chrétiens de Najrān dans sa mosquée, et épousa une femme juive (Ṣafiyya) et une femme chrétienne (Māriya la Copte). Il dit : « Quiconque fait du tort à un dhimmī, je suis son adversaire au Jour du Jugement. » En même temps, le Coran est sans ambiguïté : l'islam est la seule religion acceptable pour Allah : « Et quiconque cherche une religion autre que l'islam, elle ne sera pas acceptée de lui. » La leçon est que les musulmans peuvent et doivent coexister pacifiquement avec les non-musulmans, mais pas au prix de diluer leur propre foi.
+    reference: "al-Mumtaḥanah 60:8, Āl ʿImrān 3:85"
+    source_notes: |
+      Qur'an 60:8 permits kindness to peaceful non-Muslims; Bukhārī and Muslim record the Prophet's ﷺ protection of dhimmis, while 3:85 affirms Islam as the only religion acceptable to Allah, maintaining theological integrity alongside social respect.
+    source_notes_fr: |
+      Le verset 60:8 du Coran permet la bonté envers les non-musulmans pacifiques ; al-Bukhārī et Muslim consignent la protection par le Prophète ﷺ des dhimmīs, tandis que 3:85 affirme l'islam comme seule religion acceptable pour Allah, maintenant l'intégrité théologique aux côtés du respect social.
+    source_notes_ar: |
+      يبيح القرآن ٦٠:٨ الإحسان لغير المسلمين السلميين؛ يسجل البخاري ومسلم حماية النبي ﷺ للذميين، بينما تؤكد ٣:٨٥ أن الإسلام هو الدين الوحيد المقبول عند الله، محافظةً على النزاهة العقائدية إلى جانب الاحترام الاجتماعي.
+    display_day_of_year: 55
+    quran_refs: "al-Mumtaḥanah 60:8, Āl ʿImrān 3:85"
+    hadith_refs: ""

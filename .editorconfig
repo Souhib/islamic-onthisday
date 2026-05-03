@@ -1,0 +1,29 @@
+# EditorConfig — tells most editors how to indent/encode files.
+# https://editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Python — match the ruff config (line-length 120, 4-space indent).
+[*.py]
+indent_size = 4
+max_line_length = 120
+
+# Makefiles need real tabs.
+[Makefile]
+indent_style = tab
+
+# YAML / JSON / Markdown — 2 space indent works best.
+[*.{yaml,yml,json,md}]
+indent_size = 2
+
+# TypeScript / TSX / CSS — match Tailwind defaults.
+[*.{ts,tsx,js,jsx,css,html}]
+indent_size = 2

@@ -1,0 +1,624 @@
+# Wave 19 of curated event additions (2026-04-27).
+# Twelve second-tier scholars of the four Sunni madhāhib — direct students
+# of the four imams (or codifiers of branch traditions). Three per madhhab:
+#   Hanafi: Zufar ibn al-Hudhayl, al-Ḥasan ibn Ziyād al-Luʾluʾī, ʿĪsā ibn Abān.
+#   Maliki: Ashhab al-Qaysī, Yaḥyā ibn Yaḥyā al-Laythī, Ismāʿīl ibn Isḥāq al-Qāḍī.
+#   Shafi'i: al-Muzanī, al-Rabīʿ ibn Sulaymān al-Murādī, Ibn Surayj.
+#   Hanbali: ʿAbdullāh ibn Aḥmad ibn Ḥanbal, al-Khallāl, al-Khiraqī.
+# Each event attested in classical Sunni sources (al-Dhahabī Siyar /
+# Tārīkh al-Islām, Ibn Khallikān Wafayāt al-Aʿyān, Ibn Kathīr al-Bidāya
+# wa-l-Nihāya, Ibn Saʿd Ṭabaqāt). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # HANAFI — DIRECT STUDENTS OF ABŪ ḤANĪFA AND CODIFIERS OF USUL
+  # =========================================================================
+
+  - slug: death-of-zufar-ibn-al-hudhayl
+    category: scholar
+    title_en: Death of Zufar ibn al-Hudhayl
+    title_ar: وفاة زفر بن الهذيل
+    title_fr: Mort de Zufar ibn al-Hudhayl
+    description_en: |
+      Zufar ibn al-Hudhayl al-ʿAnbari, one of the four senior students of
+      Abu Ḥanifa — alongside Abu Yusuf, Muḥammad al-Shaybani, and al-Ḥasan
+      ibn Ziyad — and the foremost practitioner of qiyās (juristic
+      analogy) within the early Hanafi school, died as qadi of Basra at
+      age about 48. While his juristic positions are systematically
+      preserved in the *Ẓahir al-Riwaya* corpus of al-Shaybani, Zufar
+      composed no surviving works of his own; later Hanafis ranked him
+      "the most rigorous in qiyās" of Abu Ḥanifa's circle. He served as
+      qadi of Basra under the early Abbasids and trained a generation of
+      Iraqi jurists.
+    description_ar: |
+      توفي زفر بن الهذيل العنبري — أحد كبار أصحاب أبي حنيفة الأربعة
+      مع أبي يوسف ومحمد بن الحسن الشيباني والحسن بن زياد، وأشد أهل
+      مذهب الحنفية في عصره ضبطاً للقياس — قاضياً للبصرة عن نحو ثمانٍ
+      وأربعين سنة. ومسائله محفوظة في كتب «ظاهر الرواية» لمحمد بن
+      الحسن، ولم يُؤثَر عنه تصنيف مستقل، غير أن المتأخرين من الحنفية
+      عدّوه «أقواهم في القياس» في حلقة أبي حنيفة. ولي قضاء البصرة في
+      أوائل العصر العباسي وأخرج طبقة من فقهاء العراق.
+    description_fr: |
+      Zufar ibn al-Hudhayl al-ʿAnbari, l'un des quatre élèves principaux
+      d'Abu Ḥanīfa — aux côtés d'Abu Yusuf, de Muḥammad al-Shaybani et
+      d'al-Ḥasan ibn Ziyad — et le plus rigoureux praticien du *qiyās*
+      (analogie juridique) au sein de l'école hanafite primitive, mourut
+      qāḍī de Bassora à l'âge d'environ 48 ans. Si ses positions
+      juridiques sont systématiquement préservées dans le corpus
+      *Ẓāhir al-Riwāya* d'al-Shaybani, Zufar ne composa aucune œuvre
+      survivante de son cru; les hanafites ultérieurs le rangèrent
+      « le plus rigoureux en *qiyās* » du cercle d'Abu Ḥanīfa. Il fut
+      qāḍī de Bassora sous les premiers Abbassides et forma une
+      génération de juristes irakiens.
+    canonical_hijri: {year: 158, precision: year}
+    canonical_gregorian: {date: 775-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[zufar-ibn-al-hudhayl, subject], [abu-hanifa, subject]]
+    tags: [hanafi, fiqh, qiyas, basra, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Zufar_ibn_al-Hudhayl"
+
+  - slug: death-of-al-hasan-ibn-ziyad-al-luluyi
+    category: scholar
+    title_en: Death of al-Ḥasan ibn Ziyād al-Luʾluʾī
+    title_ar: وفاة الحسن بن زياد اللؤلؤي
+    title_fr: Mort d'al-Ḥasan ibn Ziyād al-Luʾluʾī
+    description_en: |
+      al-Ḥasan ibn Ziyad al-Luʾluʾi al-Kufi, fourth of the senior Hanafi
+      circle around Abu Ḥanifa (after Abu Yusuf, al-Shaybani, and Zufar),
+      died at Kufa around age 90. He served as qadi of Kufa, transmitted
+      his teacher's positions through works such as *al-Mujarrad* and
+      *al-Maʿani fi al-Kalam ʿala Madhhab Abi Ḥanifa*, and was praised
+      by later Hanafi biographers for the breadth of his juristic memory.
+      Although his rulings are preserved more fully in al-Shaybani's
+      compilations than in any independent transmission, he is invoked
+      across the Hanafi tradition as a primary witness to Abu Ḥanifa's
+      teaching.
+    description_ar: |
+      توفي الإمام الحسن بن زياد اللؤلؤي الكوفي — رابع كبار أصحاب أبي
+      حنيفة بعد أبي يوسف ومحمد بن الحسن وزفر — بالكوفة عن نحو تسعين
+      سنة. ولي قضاء الكوفة، ونقل فقه شيخه أبي حنيفة من خلال كتب منها
+      «المجرد» و«المعاني في الكلام على مذهب أبي حنيفة»، وأثنى عليه
+      المتأخرون من الحنفية بسعة الحفظ في الفقه. وعلى الرغم من أن
+      مسائله محفوظة في تصانيف محمد بن الحسن أكثر من تصانيفه المستقلة،
+      فإن الحنفية يحتجون به شاهداً أصلياً على تعاليم أبي حنيفة.
+    description_fr: |
+      al-Ḥasan ibn Ziyād al-Luʾluʾī al-Kūfī, quatrième du cercle hanafite
+      principal autour d'Abu Ḥanīfa (après Abu Yusuf, al-Shaybani et
+      Zufar), mourut à Kufa à environ 90 ans. Il fut qāḍī de Kufa,
+      transmit les positions de son maître à travers des ouvrages tels
+      qu'*al-Mujarrad* et *al-Maʿānī fī al-Kalām ʿalā Madhhab Abī Ḥanīfa*,
+      et fut loué par les biographes hanafites postérieurs pour
+      l'étendue de sa mémoire juridique. Bien que ses décisions soient
+      conservées plus complètement dans les compilations d'al-Shaybani
+      que dans une transmission indépendante, il est invoqué à travers
+      la tradition hanafite comme témoin primaire de l'enseignement
+      d'Abu Ḥanīfa.
+    canonical_hijri: {year: 204, precision: year}
+    canonical_gregorian: {date: 820-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+    people: [[al-hasan-ibn-ziyad-al-luluyi, subject], [abu-hanifa, subject]]
+    tags: [hanafi, fiqh, kufa, qadi, abbasid]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-isa-ibn-aban
+    category: scholar
+    title_en: Death of ʿĪsā ibn Abān
+    title_ar: وفاة عيسى بن أبان
+    title_fr: Mort de ʿĪsā ibn Abān
+    description_en: |
+      ʿĪsā ibn Abān ibn Ṣadaqa, qadi of Basra, leading Hanafi
+      theoretician of his generation, and one of the earliest jurists to
+      systematise the principles by which the *khabar al-wāḥid*
+      (single-chain hadith) is to be admitted or rejected as evidence in
+      law, died at Basra. Originally a student of al-Shaybani — and thus
+      a second-generation Hanafi — his lost work on the conditions for
+      accepting solitary reports is reconstructed at length in later
+      Hanafi usul literature, where he is repeatedly cited as the school's
+      foundational voice on hadith-based reasoning. He was qadi of Basra
+      for over a decade and shaped the Hanafi response to early Shafiʿi
+      theory.
+    description_ar: |
+      توفي القاضي عيسى بن أبان بن صدقة — قاضي البصرة وكبير منظري
+      الحنفية في عصره وأحد أوائل الفقهاء الذين قعّدوا الشروط التي
+      تُقبل بها أو تُردّ بها رواية الآحاد في الاستدلال الفقهي — بالبصرة.
+      تتلمذ على محمد بن الحسن الشيباني، فهو من الطبقة الثانية من
+      الحنفية، وكتابه المفقود في شروط قبول خبر الواحد مستفاد على
+      الإطالة في كتب أصول الحنفية المتأخرين، حيث يُنقل عنه شاهداً
+      مؤسساً للمذهب في الاحتجاج بالحديث. ولي قضاء البصرة بضع عشرة
+      سنة، وله أثر بارز في صياغة الجواب الحنفي على نظرية الشافعي
+      الناشئة.
+    description_fr: |
+      ʿĪsā ibn Abān ibn Ṣadaqa, qāḍī de Bassora, principal théoricien
+      hanafite de sa génération et l'un des premiers juristes à
+      systématiser les principes selon lesquels le *khabar al-wāḥid*
+      (hadith à chaîne unique) doit être admis ou rejeté comme preuve
+      en droit, mourut à Bassora. D'abord élève d'al-Shaybani — et
+      donc hanafite de seconde génération — son ouvrage perdu sur les
+      conditions d'acceptation des rapports solitaires est reconstruit
+      en détail dans la littérature postérieure d'*uṣūl al-fiqh*
+      hanafite, où il est régulièrement cité comme la voix fondatrice
+      de l'école sur le raisonnement à partir du hadith. Il fut qāḍī
+      de Bassora plus d'une décennie et façonna la réponse hanafite à
+      la théorie chafiʿite naissante.
+    canonical_hijri: {year: 220, precision: year}
+    canonical_gregorian: {date: 835-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: dhahabi_tarikh_islam
+    people: [[isa-ibn-aban, subject], [al-shaybani, subject]]
+    tags: [hanafi, usul, basra, qadi, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Isa_ibn_Aban"
+    # Wikipedia gives 221 AH / 836 CE; classical sources (al-Dhahabi
+    # Siyar, Ibn Khallikan) attest 220 AH — we follow the classical
+    # attestation. The 1-year discrepancy is within the typical range
+    # of classical source disagreement on early Hanafi qadi dates.
+
+  # =========================================================================
+  # MALIKI — EGYPTIAN, ANDALUSI, AND IRAQI BRANCHES
+  # =========================================================================
+
+  - slug: death-of-ashhab-al-qaysi
+    category: scholar
+    title_en: Death of Ashhab al-Qaysī
+    title_ar: وفاة أشهب القيسي
+    title_fr: Mort d'Ashhab al-Qaysī
+    description_en: |
+      Abu ʿAmr Ashhab ibn ʿAbd al-ʿAziz al-Qaysī al-ʿĀmiri, one of the
+      four senior Egyptian Mālikīs of the founding generation — alongside
+      Ibn al-Qāsim, Ibn Wahb, and al-Mughīra — died in Egypt only
+      eighteen days after Imam al-Shāfiʿī, at age about 64. He studied
+      in Medina with Mālik ibn Anas and returned to Egypt as the
+      pre-eminent local jurist of his generation; al-Shāfiʿī himself,
+      while resident in Egypt, is reported to have said: "I have not
+      seen anyone more learned in the school of Mālik than Ashhab." His
+      lost legal corpus is preserved through citations in Saḥnūn's
+      *al-Mudawwana* and the later Egyptian Maliki tradition.
+    description_ar: |
+      توفي الإمام أبو عمرو أشهب بن عبد العزيز القيسي العامري — أحد
+      كبار المالكية المصريين في الطبقة المؤسسة مع ابن القاسم وابن
+      وهب والمغيرة — بمصر بعد الإمام الشافعي بثمانية عشر يوماً، عن
+      نحو أربع وستين سنة. تفقّه بالمدينة على مالك بن أنس، ورجع إلى
+      مصر فكان كبير فقهاء بلده في عصره. وقد قيل إن الإمام الشافعي
+      وهو نازل بمصر قال: «ما رأيت أعلم بمذهب مالك من أشهب». ومسائله
+      محفوظة من خلال نقول سحنون في «المدونة» وكتب المتأخرين من
+      مالكية مصر.
+    description_fr: |
+      Abū ʿAmr Ashhab ibn ʿAbd al-ʿAzīz al-Qaysī al-ʿĀmirī, l'un des
+      quatre malikites égyptiens majeurs de la génération fondatrice —
+      aux côtés d'Ibn al-Qāsim, Ibn Wahb et al-Mughīra — mourut en
+      Égypte dix-huit jours seulement après l'imam al-Shāfiʿī, à l'âge
+      d'environ 64 ans. Il étudia à Médine auprès de Mālik ibn Anas et
+      revint en Égypte comme juriste local prééminent de sa génération;
+      al-Shāfiʿī lui-même, alors résident d'Égypte, aurait déclaré :
+      « je n'ai vu personne de plus savant dans l'école de Mālik
+      qu'Ashhab ». Son corpus juridique perdu est conservé à travers
+      les citations de Saḥnūn dans *al-Mudawwana* et la tradition
+      malikite égyptienne ultérieure.
+    canonical_hijri: {year: 204, precision: year}
+    canonical_gregorian: {date: 820-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ashhab-al-qaysi, subject], [malik-ibn-anas, subject], [ash-shafii, subject]]
+    tags: [maliki, fiqh, egypt, abbasid]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-yahya-ibn-yahya-al-laythi
+    category: scholar
+    title_en: Death of Yaḥyā ibn Yaḥyā al-Laythī
+    title_ar: وفاة يحيى بن يحيى الليثي
+    title_fr: Mort de Yaḥyā ibn Yaḥyā al-Laythī
+    description_en: |
+      Yaḥyā ibn Yaḥyā al-Laythī al-Maṣmūdī, the Andalusi student of
+      Mālik ibn Anas whose recension (*riwāya*) of the *Muwaṭṭaʾ* became
+      the dominant text of the work in al-Andalus and the Maghrib, died
+      in Cordoba at age about 82. After studying in Medina with Mālik
+      himself in his final years, he returned to al-Andalus as the
+      foremost local authority on Maliki fiqh; under the Umayyad amīr
+      al-Ḥakam I and his son ʿAbd al-Raḥmān II he refused the office of
+      qāḍī while accepting the position of *muftī* — effectively making
+      him the gatekeeper of judicial appointments in the realm. His
+      transmission anchored the Western Maliki tradition for the next
+      ten centuries.
+    description_ar: |
+      توفي الإمام يحيى بن يحيى الليثي المصمودي — صاحب رواية «الموطإ»
+      التي صارت الأشهر والأعمد في الأندلس والمغرب — بقرطبة عن نحو
+      اثنتين وثمانين سنة. تفقّه بالمدينة على مالك بن أنس في أواخر
+      حياة الإمام، ثم رجع إلى الأندلس فكان كبير فقهاء بلده في فقه
+      المالكية. وفي عهد الأمير الأموي الحكم الأول وابنه عبد الرحمن
+      الثاني أبى أن يلي القضاء، ولكنه قبل الإفتاء، فصار في الواقع
+      الحاكم على تولية القضاة في المملكة. ورواته نقطة الارتكاز
+      للمذهب المالكي الغربي عشرة قرون متتابعة.
+    description_fr: |
+      Yaḥyā ibn Yaḥyā al-Laythī al-Maṣmūdī, l'élève andalou de Mālik
+      ibn Anas dont la recension (*riwāya*) du *Muwaṭṭaʾ* devint le
+      texte dominant de l'œuvre en al-Andalus et au Maghreb, mourut à
+      Cordoue à l'âge d'environ 82 ans. Après avoir étudié à Médine
+      auprès de Mālik lui-même dans ses dernières années, il revint en
+      al-Andalus comme l'autorité locale principale en *fiqh* malikite;
+      sous l'émir omeyyade al-Ḥakam I et son fils ʿAbd al-Raḥmān II il
+      refusa la charge de *qāḍī* tout en acceptant celle de *muftī* —
+      ce qui faisait de lui en pratique le gardien des nominations
+      judiciaires dans le royaume. Sa transmission ancra la tradition
+      malikite occidentale pour les dix siècles suivants.
+    canonical_hijri: {year: 234, precision: year}
+    canonical_gregorian: {date: 849-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[yahya-ibn-yahya-al-laythi, subject], [malik-ibn-anas, subject]]
+    tags: [maliki, fiqh, muwatta, andalus, cordoba, umayyad-cordoba]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yahya_ibn_Yahya_al-Laythi"
+
+  - slug: death-of-ismail-ibn-ishaq-al-qadi
+    category: scholar
+    title_en: Death of Ismāʿīl ibn Isḥāq al-Qāḍī
+    title_ar: وفاة إسماعيل بن إسحاق القاضي
+    title_fr: Mort d'Ismāʿīl ibn Isḥāq al-Qāḍī
+    description_en: |
+      Abu Isḥāq Ismāʿīl ibn Isḥāq al-Jahḍamī al-Azdī, qadi of Baghdad
+      and the foremost figure in establishing the Maliki madhhab as a
+      living school in Iraq, died in Baghdad at age 83. He was qāḍī
+      under the Abbasid caliphs al-Mutawakkil and his successors,
+      authored *Aḥkam al-Qurʾan* (an early genre-defining work of
+      *aḥkām al-Qurʾān* literature) and *al-Mabsuṭ* in Maliki fiqh,
+      and trained the generation of jurists who would carry the school
+      eastward from its North-African and Hijazi heartlands. His
+      patronage in Baghdad gave the Maliki tradition its only extended
+      footing in the Abbasid capital.
+    description_ar: |
+      توفي القاضي أبو إسحاق إسماعيل بن إسحاق الجهضمي الأزدي — قاضي
+      بغداد وكبير من أقام للمذهب المالكي حضوراً مدرسياً حياً في
+      العراق — ببغداد عن ثلاث وثمانين سنة. ولي القضاء في عهد المتوكل
+      وخلفائه من بني العباس، وصنّف كتاب «أحكام القرآن» — وهو من أوائل
+      المؤسسات لجنس «أحكام القرآن» — وكتاب «المبسوط» في فقه المالكية،
+      وأخرج طبقة من الفقهاء حملوا المذهب من موطنه في شمال أفريقيا
+      والحجاز إلى المشرق. ورعايته في بغداد أعطت المذهب المالكي
+      الموطئ الوحيد الممتد له في عاصمة الخلافة العباسية.
+    description_fr: |
+      Abū Isḥāq Ismāʿīl ibn Isḥāq al-Jahḍamī al-Azdī, qāḍī de Bagdad
+      et la figure centrale dans l'établissement de l'école malikite
+      comme école vivante en Irak, mourut à Bagdad à l'âge de 83 ans.
+      Il fut qāḍī sous les califes abbassides al-Mutawakkil et ses
+      successeurs, auteur d'*Aḥkām al-Qurʾān* (œuvre fondatrice du
+      genre *aḥkām al-Qurʾān*) et d'*al-Mabsūṭ* en *fiqh* malikite, et
+      forma la génération de juristes qui porteraient l'école vers
+      l'Est depuis ses fiefs nord-africain et hedjazien. Son patronage
+      à Bagdad donna à la tradition malikite son seul ancrage prolongé
+      dans la capitale abbasside.
+    canonical_hijri: {year: 282, precision: year}
+    canonical_gregorian: {date: 895-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ismail-ibn-ishaq-al-qadi, subject]]
+    tags: [maliki, fiqh, baghdad, qadi, abbasid]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SHĀFIʿĪ — EGYPTIAN STUDENTS AND THE GENERATION OF "THE SECOND SHĀFIʿĪ"
+  # =========================================================================
+
+  - slug: death-of-al-muzani
+    category: scholar
+    title_en: Death of al-Muzanī
+    title_ar: وفاة المزني
+    title_fr: Mort d'al-Muzanī
+    description_en: |
+      Abu Ibrahim Ismāʿīl ibn Yaḥyā al-Muzanī, foremost Egyptian student
+      of Imam al-Shāfiʿī and author of *al-Mukhtaṣar* (the first
+      systematic Shafi'i fiqh manual), died in Egypt at age about 89.
+      al-Shāfiʿī said of him: "al-Muzanī is the supporter of my school"
+      (*nāṣir madhhabī*); his *Mukhtaṣar* served as the foundational
+      teaching text of the Shafi'i madhhab for generations and was the
+      base on which Abu Iṣḥāq al-Shīrāzī, al-Juwaynī, al-Ghazālī, and
+      eventually al-Nawawī built their authoritative summae. al-Muzanī's
+      maternal nephew, al-Ṭaḥawī, was originally his Shafi'i student
+      before transferring to the Hanafi madhhab.
+    description_ar: |
+      توفي الإمام أبو إبراهيم إسماعيل بن يحيى المزني — كبير أصحاب
+      الإمام الشافعي في مصر ومصنف «المختصر»، وهو أول مختصر منظم في
+      فقه الشافعية — بمصر عن نحو تسع وثمانين سنة. قال فيه الشافعي:
+      «المزني ناصر مذهبي»، وصار «مختصره» المتن التعليمي الأصلي للمذهب
+      الشافعي أجيالاً متتابعة، وعليه بنى أبو إسحاق الشيرازي والجويني
+      والغزالي والنووي مختصراتهم المعتمدة. وابن أخت المزني الإمام
+      الطحاوي تتلمذ عليه على المذهب الشافعي قبل أن ينتقل إلى المذهب
+      الحنفي.
+    description_fr: |
+      Abu Ibrahim Ismāʿīl ibn Yaḥyā al-Muzanī, le plus éminent élève
+      égyptien de l'imam al-Shāfiʿī et auteur d'*al-Mukhtaṣar* (le
+      premier manuel de *fiqh* chafiʿite systématique), mourut en
+      Égypte à l'âge d'environ 89 ans. al-Shāfiʿī disait de lui :
+      « al-Muzanī est le soutien de mon école » (*nāṣir madhhabī*);
+      son *Mukhtaṣar* servit de texte d'enseignement fondateur du
+      *madhhab* chafiʿite pendant des générations et constitua la base
+      sur laquelle Abu Iṣḥāq al-Shīrāzī, al-Juwaynī, al-Ghazālī et
+      finalement al-Nawawī bâtirent leurs sommes autoritatives. Le
+      neveu maternel d'al-Muzanī, al-Ṭaḥāwī, fut d'abord son élève
+      chafiʿite avant de passer à l'école hanafite.
+    canonical_hijri: {year: 264, precision: year}
+    canonical_gregorian: {date: 878-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-muzani, subject], [ash-shafii, subject]]
+    tags: [shafii, fiqh, mukhtasar, egypt, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Muzani"
+
+  - slug: death-of-al-rabi-ibn-sulayman-al-muradi
+    category: scholar
+    title_en: Death of al-Rabīʿ ibn Sulaymān al-Murādī
+    title_ar: وفاة الربيع بن سليمان المرادي
+    title_fr: Mort d'al-Rabīʿ ibn Sulaymān al-Murādī
+    description_en: |
+      Abu Muḥammad al-Rabīʿ ibn Sulaymān al-Murādī, primary transmitter
+      of Imam al-Shāfiʿī's late Egyptian-period works — including
+      *al-Risāla* (the foundational text of Islamic legal theory) and
+      *al-Umm* (his comprehensive fiqh corpus) — died in Cairo at age
+      about 96. He served as the muezzin of al-Shāfiʿī's mosque-circle
+      in Fusṭāṭ, took down the master's dictation in his last years,
+      and afterwards became the chief reference point for Shafi'i fiqh
+      in Egypt and the Hijaz. Almost everything classical Shafiʿīs
+      cite from al-Shāfiʿī's "new madhhab" (*al-jadīd*) reaches them
+      through al-Rabīʿ's recension.
+    description_ar: |
+      توفي الإمام أبو محمد الربيع بن سليمان المرادي — راوية كتب
+      الإمام الشافعي في عصره المصري المتأخر، ومنها «الرسالة» — وهي
+      أصل علم أصول الفقه — و«الأم» — وهو ديوانه الفقهي الجامع — عن
+      نحو ست وتسعين سنة بالقاهرة. كان مؤذناً للحلقة الشافعية بمسجد
+      الفسطاط، وكتب عن الشيخ في أواخر عمره، وصار بعده المرجع الأكبر
+      لفقه الشافعية في مصر والحجاز. وعامة ما يحتج به الشافعية المتقدمون
+      من «المذهب الجديد» للشافعي إنما بلغهم من رواية الربيع.
+    description_fr: |
+      Abu Muḥammad al-Rabīʿ ibn Sulaymān al-Murādī, principal
+      transmetteur des œuvres de la période égyptienne tardive de
+      l'imam al-Shāfiʿī — y compris *al-Risāla* (texte fondateur de la
+      théorie juridique islamique) et *al-Umm* (son corpus de *fiqh*
+      exhaustif) — mourut au Caire à l'âge d'environ 96 ans. Il fut
+      le muezzin du cercle de mosquée d'al-Shāfiʿī à Fusṭāṭ, recueillit
+      la dictée du maître durant ses dernières années, et devint
+      ensuite la référence centrale pour le *fiqh* chafiʿite en Égypte
+      et au Hedjaz. Presque tout ce que les Chafiʿites classiques
+      citent du « nouveau *madhhab* » d'al-Shāfiʿī (*al-jadīd*) leur
+      parvient par la recension d'al-Rabīʿ.
+    canonical_hijri: {year: 270, precision: year}
+    canonical_gregorian: {date: 884-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-rabi-ibn-sulayman-al-muradi, subject], [ash-shafii, subject]]
+    tags: [shafii, fiqh, risala, umm, egypt, abbasid]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-ibn-surayj
+    category: scholar
+    title_en: Death of Ibn Surayj — "the Second Shāfiʿī"
+    title_ar: وفاة ابن سريج — «الشافعي الثاني»
+    title_fr: Mort d'Ibn Surayj — « le second Shāfiʿī »
+    description_en: |
+      Abu al-ʿAbbās Aḥmad ibn ʿUmar Ibn Surayj, qadi of Shiraz and the
+      Shafi'i imam of his generation — known to his contemporaries as
+      "the second Shāfiʿī" (*al-Shāfiʿī al-thāni*) for the breadth of
+      his scholarship and the role he played in defending the school
+      against Ẓāhirī and rationalist challenges — died at age about 57.
+      He trained virtually the entire generation of Shafi'i imams who
+      would dominate the school through the fourth Hijri century,
+      including al-Iṣṭakhrī, Abu Isḥāq al-Marwazī, and al-Qaffāl
+      al-Shāshī. His debate with the Ẓāhirī master Dāwūd ibn ʿAlī is a
+      celebrated chapter of late ninth-century legal history.
+    description_ar: |
+      توفي الإمام أبو العباس أحمد بن عمر ابن سريج — قاضي شيراز وإمام
+      الشافعية في عصره، ولُقّب بـ«الشافعي الثاني» لسعة علمه ولدوره
+      في الذبّ عن المذهب أمام مدرسة الظاهرية والمتكلمين — عن نحو
+      سبع وخمسين سنة. تخرّج عليه عامة كبار أئمة الشافعية الذين سادوا
+      المذهب في القرن الرابع الهجري، منهم الإصطخري وأبو إسحاق المروزي
+      والقفّال الشاشي. ومناظرته الإمام داود بن علي الظاهري من المشاهد
+      المحفوظة في تاريخ الفقه في أواخر القرن الثالث.
+    description_fr: |
+      Abū al-ʿAbbās Aḥmad ibn ʿUmar Ibn Surayj, qāḍī de Shiraz et imam
+      chafiʿite de sa génération — connu de ses contemporains comme
+      « le second Shāfiʿī » (*al-Shāfiʿī al-thānī*) pour l'étendue de
+      son savoir et le rôle qu'il joua dans la défense de l'école
+      contre les défis ẓāhirites et rationalistes — mourut à l'âge
+      d'environ 57 ans. Il forma quasiment toute la génération des
+      imams chafiʿites qui domineraient l'école au IVe siècle de
+      l'Hégire, dont al-Iṣṭakhrī, Abū Isḥāq al-Marwazī et al-Qaffāl
+      al-Shāshī. Son débat avec le maître ẓāhirite Dāwūd ibn ʿAlī
+      est un chapitre célèbre de l'histoire juridique de la fin du
+      IXe siècle.
+    canonical_hijri: {year: 306, precision: year}
+    canonical_gregorian: {date: 919-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-surayj, subject], [ash-shafii, subject]]
+    tags: [shafii, fiqh, shiraz, qadi, abbasid]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ḤANBALĪ — IMAM AḤMAD'S CIRCLE AND THE EARLY CODIFIERS
+  # =========================================================================
+
+  - slug: death-of-abdullah-ibn-ahmad-ibn-hanbal
+    category: scholar
+    title_en: Death of ʿAbdullāh ibn Aḥmad ibn Ḥanbal
+    title_ar: وفاة عبد الله بن أحمد بن حنبل
+    title_fr: Mort de ʿAbdullāh ibn Aḥmad ibn Ḥanbal
+    description_en: |
+      Abu ʿAbd al-Raḥmān ʿAbdullāh ibn Aḥmad ibn Muḥammad ibn Ḥanbal,
+      son of the imam and primary transmitter of the *Musnad* — his
+      father's monumental hadith collection of roughly 27,000
+      narrations arranged by Companion narrator — died in Baghdad at
+      age about 77. He compiled and arranged the *Musnad* in the form
+      Sunni Islam has received it, and authored the *Kitab al-Sunna*
+      (in two recensions, his and that of his son), an early
+      pillar of Sunni creedal literature; he also transmitted his
+      father's *Masāʾil*, the legal-rulings corpus that became the
+      raw material of the Hanbali madhhab.
+    description_ar: |
+      توفي الإمام أبو عبد الرحمن عبد الله بن أحمد بن محمد بن حنبل —
+      ابن الإمام أحمد وراوية «المسند» الذي هو ديوان والده الجامع
+      للحديث، يضم نحو سبعة وعشرين ألف حديث مرتبة على مسانيد الصحابة
+      — ببغداد عن نحو سبع وسبعين سنة. هو الذي رتّب «المسند» على
+      الصورة التي تلقاها أهل السنة، وصنّف «كتاب السنة» الذي هو من
+      أصول مصنفات أهل السنة في العقيدة، وروى عن أبيه «المسائل» التي
+      هي المادة الخام للمذهب الحنبلي.
+    description_fr: |
+      Abu ʿAbd al-Raḥmān ʿAbdullāh ibn Aḥmad ibn Muḥammad ibn Ḥanbal,
+      fils de l'imam et principal transmetteur du *Musnad* — la
+      collection monumentale de hadiths de son père comportant
+      environ 27 000 narrations classées par compagnon narrateur —
+      mourut à Bagdad à l'âge d'environ 77 ans. Il compila et arrangea
+      le *Musnad* dans la forme sous laquelle l'islam sunnite l'a
+      reçu, et fut l'auteur du *Kitāb al-Sunna* (en deux recensions,
+      la sienne et celle de son fils), pilier précoce de la
+      littérature de credo sunnite; il transmit également les
+      *Masāʾil* de son père, le corpus de décisions juridiques qui
+      devint le matériau brut du *madhhab* hanbalite.
+    canonical_hijri: {year: 290, precision: year}
+    canonical_gregorian: {date: 903-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[abdullah-ibn-ahmad-ibn-hanbal, subject], [ahmad-ibn-hanbal, subject]]
+    tags: [hanbali, hadith, musnad, baghdad, abbasid]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-al-khallal
+    category: scholar
+    title_en: Death of al-Khallāl
+    title_ar: وفاة الخلال
+    title_fr: Mort d'al-Khallāl
+    description_en: |
+      Abu Bakr Aḥmad ibn Muḥammad ibn Hārun al-Khallāl, codifier of the
+      Hanbali madhhab through his comprehensive collection of Imam
+      Aḥmad's *masāʾil* (legal rulings) gathered from the imam's
+      students across Iraq, the Hijaz, and Khurasan, died in Baghdad.
+      Where Aḥmad himself had refused to compose a fiqh manual on
+      principle — fearing that fixing legal rulings in writing would
+      ossify them away from the hadith — al-Khallāl assembled his
+      teacher's scattered rulings in a vast multi-volume corpus
+      (*al-Jāmiʿ*), establishing the Hanbali madhhab as a true
+      *madhhab* with a transmissible legal text. His student Abu Bakr
+      al-Khiraqī would distil that corpus into the standard Hanbali
+      primer two decades later.
+    description_ar: |
+      توفي الإمام أبو بكر أحمد بن محمد بن هارون الخلال — مدوّن المذهب
+      الحنبلي من خلال كتابه الجامع الذي رتّب فيه «مسائل» الإمام أحمد
+      من رواية أصحابه في العراق والحجاز وخراسان — ببغداد. كان الإمام
+      أحمد رحمه الله قد امتنع من تصنيف كتاب فقهي مبدئياً، خشية أن
+      يُفصل تدوين المسائل عن الحديث، فجاء الخلال فجمع تلك المسائل
+      المتفرقة في مدونة ضخمة من نحو عشرين مجلداً وأكثر («الجامع»)،
+      وأقام بذلك المذهب الحنبلي مذهباً متلوّاً ذا متن منقول. ولخّصه
+      تلميذه أبو بكر الخرقي في «المختصر» بعده بنحو عقدين.
+    description_fr: |
+      Abū Bakr Aḥmad ibn Muḥammad ibn Hārūn al-Khallāl, codificateur
+      du *madhhab* hanbalite à travers sa collection exhaustive des
+      *masāʾil* (décisions juridiques) de l'imam Aḥmad rassemblées
+      auprès des élèves de l'imam à travers l'Irak, le Hedjaz et le
+      Khurasan, mourut à Bagdad. Là où Aḥmad lui-même avait refusé
+      par principe de composer un manuel de *fiqh* — craignant qu'une
+      fixation écrite des décisions ne les sépare du hadith —
+      al-Khallāl rassembla les décisions éparses de son maître en un
+      vaste corpus multi-volumes (*al-Jāmiʿ*), établissant le *madhhab*
+      hanbalite comme un véritable *madhhab* doté d'un texte juridique
+      transmissible. Son élève Abū Bakr al-Khiraqī distillerait ce
+      corpus en manuel hanbalite standard deux décennies plus tard.
+    canonical_hijri: {year: 311, precision: year}
+    canonical_gregorian: {date: 924-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-khallal, subject], [ahmad-ibn-hanbal, subject]]
+    tags: [hanbali, fiqh, codification, baghdad, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Bakr_al-Khallal"
+
+  - slug: death-of-al-khiraqi
+    category: scholar
+    title_en: Death of al-Khiraqī
+    title_ar: وفاة الخرقي
+    title_fr: Mort d'al-Khiraqī
+    description_en: |
+      Abu al-Qāsim ʿUmar ibn al-Ḥusayn al-Khiraqī, author of *al-Mukhtaṣar
+      al-Khiraqī* — the foundational primer of the Hanbali madhhab and
+      the most-commented Hanbali text until Ibn Qudāma's *al-Mughnī*
+      (itself, in part, an extended commentary on the *Mukhtaṣar*) —
+      died in Damascus, where he had migrated from his native Baghdad
+      after the city's troubles. The *Mukhtaṣar* contains roughly two
+      thousand legal questions condensed from the *masāʾil* corpus
+      al-Khallāl had collected from Imam Aḥmad's students; its
+      compactness and precision made it the principal teaching text of
+      the school for nearly three centuries.
+    description_ar: |
+      توفي الإمام أبو القاسم عمر بن الحسين الخرقي — صاحب «المختصر
+      الخرقي»، أول مختصر معتمد في المذهب الحنبلي وأكثر متون المذهب
+      شرحاً قبل «المغني» للموفق ابن قدامة الذي صنّفه أصلاً شرحاً على
+      «المختصر» — بدمشق، بعد أن هاجر إليها من بغداد عقب فتن البلد.
+      ويضم «المختصر» نحو ألفي مسألة فقهية، اختصرها الخرقي من «مسائل»
+      الإمام أحمد التي جمعها الخلال من أصحاب الإمام، فصار الكتاب
+      المتن الأصلي للتدريس في المذهب نحو ثلاثة قرون.
+    description_fr: |
+      Abu al-Qāsim ʿUmar ibn al-Ḥusayn al-Khiraqī, auteur d'*al-Mukhtaṣar
+      al-Khiraqī* — manuel fondateur du *madhhab* hanbalite et texte
+      hanbalite le plus commenté jusqu'à l'*al-Mughnī* d'Ibn Qudāma
+      (lui-même, en partie, un commentaire étendu du *Mukhtaṣar*) —
+      mourut à Damas, où il avait émigré depuis sa Bagdad natale après
+      les troubles de la ville. Le *Mukhtaṣar* contient environ deux
+      mille questions juridiques condensées du corpus *masāʾil* qu'al-
+      Khallāl avait recueilli auprès des élèves de l'imam Aḥmad; sa
+      compacité et sa précision en firent le texte d'enseignement
+      principal de l'école pendant près de trois siècles.
+    canonical_hijri: {year: 334, precision: year}
+    canonical_gregorian: {date: 946-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-khiraqi, subject], [ahmad-ibn-hanbal, subject], [al-khallal, subject]]
+    tags: [hanbali, fiqh, mukhtasar, damascus, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Khiraqi"

@@ -1,0 +1,718 @@
+# Wave 62 of curated event additions (2026-04-27).
+# Major Ayyūbid-era and post-Ayyūbid Sunni chroniclers, biographers,
+# secretaries, and court historians whose deaths constitute well-attested
+# anchor points in the historiography of the Crusades / Mongol period.
+# This file extends the existing biographical-historian coverage:
+# Ibn Khallikān (wave 19), ʿIzz al-Dīn Ibn al-Athīr (wave 17), Majd al-Dīn
+# Ibn al-Athīr (wave 25), Sibṭ Ibn al-Jawzī (wave 21), Abū al-Fidāʾ
+# (wave 38), and the wave-43 Ibn Abī Uṣaybiʿa book-completion entry are
+# already in the dataset and not duplicated here. The figures below
+# round out the Ayyūbid-Mamlūk transition: the chancery secretaries
+# of Saladin (al-Qāḍī al-Fāḍil and ʿImād al-Dīn al-Iṣfahānī), his
+# personal biographer (Bahāʾ al-Dīn Ibn Shaddād), the great
+# Ayyūbid-Aleppine historian Ibn al-ʿAdīm, the Ḥamawī court historian
+# Ibn Wāṣil, the Damascene chronicler-jurist Abū Shāma, the late-
+# Mamlūk continuator al-Yūnīnī, the death of Ibn Abī Uṣaybiʿa himself,
+# the standard ḥadīth-targhīb compiler al-Mundhirī, and the
+# Abbasid-court librarian-historian Ibn al-Sāʿī. Cross-verification
+# leans on Ibn Khallikān (where the figure predates 681 AH),
+# al-Dhahabī's Siyar / Tārīkh al-Islām, Ibn Kathīr's Bidāya, Ibn
+# al-ʿImād's Shadharāt al-Dhahab, and Ibn Ḥajar's Durar (for the
+# 8th-AH-century al-Yūnīnī). Trilingual en/ar/fr throughout. No
+# hadith refs (no narration directly anchors a chronicler's death).
+# Date precision uses day only where the classical sources explicitly
+# attest the day; otherwise year-only.
+
+events:
+  # =========================================================================
+  # SECRETARIES AND BIOGRAPHERS OF THE AYYŪBID COURT (596–632 AH)
+  # =========================================================================
+
+  - slug: death-of-al-qadi-al-fadil
+    category: scholar_death
+    title_en: Death of al-Qāḍī al-Fāḍil — Saladin's Chancellor and Master Stylist
+    title_ar: وفاة القاضي الفاضل — كاتبُ ديوانِ صلاحِ الدين
+    title_fr: Mort d'al-Qāḍī al-Fāḍil — chancelier et maître du style de Saladin
+    description_en: |
+      Abū ʿAlī ʿAbd al-Raḥīm ibn ʿAlī al-Bīsānī al-ʿAsqalānī, known as
+      al-Qāḍī al-Fāḍil — head of Saladin's chancery (*dīwān al-inshāʾ*),
+      author of the most-imitated Arabic epistolary style of the late
+      sixth century AH, and Saladin's closest civilian counsellor —
+      died at Cairo on 7 Rabīʿ II 596 AH (26 January 1200 CE). Born at
+      ʿAsqalān into a family of Fāṭimid administrators, he served the
+      Fāṭimids before transferring to the Ayyūbid administration in
+      567 AH and becoming the indispensable architect of Saladin's
+      diplomatic correspondence with the Abbasid caliph, the Crusader
+      states, and rival Muslim powers. His *Rasāʾil* — preserved
+      heavily in ʿImād al-Dīn al-Iṣfahānī's *al-Fatḥ al-Qussī* and in
+      the later anthologies — set the canonical model for *inshāʾ*
+      prose for the rest of the medieval period. Ibn Khallikān fixes
+      the day; al-Dhahabī confirms in *Siyar Aʿlām al-Nubalāʾ*.
+    description_ar: |
+      توفي القاضي الفاضل أبو علي عبد الرحيم بن علي البيسانيُّ
+      العسقلانيُّ — رئيسُ ديوان الإنشاء عند صلاحِ الدين، وصاحبُ
+      أكثرِ أساليب الترسُّل العربيِّ تأثيراً في أواخر القرن السادس
+      الهجري، وأقربُ مستشاريه المدنيين — بالقاهرة في السابع من ربيعٍ
+      الآخر سنة ستٍّ وتسعين وخمسمئة للهجرة (الموافق ٢٦ يناير
+      ١٢٠٠ ميلادي). ولد بعسقلان في بيتٍ من بيوت كتَّاب الدولة
+      الفاطمية، فخدمها زمناً ثم انتقل إلى الديوان الأيوبيِّ سنة
+      ٥٦٧ هـ، فصار المهندسَ الذي لا غنى عنه لمراسلات صلاحِ
+      الدين مع الخلافة العباسية والمماليك الصليبية وسائر الدول
+      الإسلامية المنازِعة. ورسائله — المحفوظة في «الفتح القُسِّي»
+      للعماد الأصبهاني وفي مجاميع الرسائل اللاحقة — هي النموذجُ
+      المعتمَدُ في فنّ الإنشاء بقيّةَ العصور الوسطى. ضبط ابنُ
+      خلكان يومَ وفاته؛ وأكَّده الذهبيُّ في «سير أعلام النبلاء».
+    description_fr: |
+      Abū ʿAlī ʿAbd al-Raḥīm ibn ʿAlī al-Bīsānī al-ʿAsqalānī, dit
+      al-Qāḍī al-Fāḍil — chef de la chancellerie de Saladin
+      (*dīwān al-inshāʾ*), auteur du style épistolaire arabe le
+      plus imité de la fin du VIᵉ siècle de l'Hégire, et conseiller
+      civil le plus proche du sultan — mourut au Caire le 7 Rabīʿ II
+      596 H (26 janvier 1200 EC). Né à ʿAsqalān dans une famille
+      d'administrateurs fāṭimides, il servit les Fāṭimides puis
+      passa à l'administration ayyūbide en 567 H, devenant
+      l'architecte indispensable de la correspondance diplomatique
+      de Saladin avec le calife abbasside, les États croisés et
+      les puissances musulmanes rivales. Ses *Rasāʾil* — largement
+      préservées dans *al-Fatḥ al-Qussī* d'ʿImād al-Dīn al-Iṣfahānī
+      et dans les anthologies postérieures — fixèrent le modèle
+      canonique de la prose d'*inshāʾ* pour le reste du Moyen Âge.
+      Ibn Khallikān fixe le jour ; al-Dhahabī confirme dans *Siyar
+      Aʿlām al-Nubalāʾ*.
+    canonical_hijri: {year: 596, month: 4, day: 7, precision: day}
+    canonical_gregorian: {date: 1200-01-26, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 7 Rabīʿ II 596 AH at Cairo."
+      - source_key: dhahabi_siyar
+        notes: "Notice in Siyar; same date confirmed."
+      - source_key: ei2
+    people: [[al-qadi-al-fadil, died]]
+    tags: [ayyubid, scholar, chancery, inshaa, cairo, saladin, secretary]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Qadi_al-Fadil"
+
+  - slug: death-of-imad-al-din-al-isfahani
+    category: scholar_death
+    title_en: Death of ʿImād al-Dīn al-Iṣfahānī — Saladin's Secretary and Historian
+    title_ar: وفاة العماد الأصبهاني — كاتب صلاح الدين ومؤرِّخه
+    title_fr: Mort d'ʿImād al-Dīn al-Iṣfahānī — secrétaire et historien de Saladin
+    description_en: |
+      ʿImād al-Dīn Abū ʿAbd Allāh Muḥammad ibn Muḥammad al-Iṣfahānī
+      al-Kātib — Persian-born secretary first to Nūr al-Dīn Maḥmūd
+      Zankī at Damascus and then, after 570 AH, to Saladin in his
+      Egyptian and Syrian campaigns; one of the two principal
+      eyewitness historians of the Third Crusade — died at Damascus
+      on 1 Ramaḍān 597 AH (5 June 1201 CE). His *al-Fatḥ al-Qussī
+      fī al-Fatḥ al-Qudsī* is the most detailed contemporary
+      Arabic narrative of Saladin's reconquest of Jerusalem and
+      the war with Richard the Lionheart, written in the elaborate
+      rhymed prose (*sajʿ*) of the late Ayyūbid chancery; his
+      *Kharīdat al-Qaṣr wa-Jarīdat al-ʿAṣr*, an anthology of
+      contemporary Arabic poetry organised geographically, is the
+      principal source for the literary history of the sixth AH
+      century. Ibn Khallikān gives the day and place; al-Dhahabī
+      confirms in *Siyar* among the wafayāt of 597.
+    description_ar: |
+      توفي العماد الكاتب أبو عبد الله محمد بن محمد الأصبهاني —
+      كاتبٌ فارسيُّ الأصل لازمَ نورَ الدين محمود زنكي بدمشق ثم
+      انتقل بعد سنة ٥٧٠ هـ إلى ديوانِ صلاحِ الدين في غزواته
+      المصرية والشامية، فصار أحدَ شاهدَي العيانِ الكبيرين على
+      الحملة الصليبية الثالثة — بدمشق في غُرَّة رمضان سنة
+      سبعٍ وتسعين وخمسمئة للهجرة (الموافق ٥ يونيو ١٢٠١ ميلادي).
+      وكتابه «الفتح القُسِّي في الفتح القدسي» أوسعُ ما خلَّفه
+      المعاصرون من سرد عربي لتحرير صلاحِ الدين بيتَ المقدس
+      وحربه مع ريتشارد قلب الأسد، صاغه في السجع المنمَّق الذي
+      ساد ديوانَ الإنشاء الأيوبيَّ المتأخّر؛ و«خريدة القصر
+      وجريدة العصر» مجموعٌ في شعراء العصر مرتَّبٌ على البلدان،
+      وهو أول مصادر الأدب العربيِّ في القرن السادس. ضبط ابنُ
+      خلكان يومَ وفاته ومكانَها؛ وعليه الذهبيُّ في وفيات ٥٩٧
+      من «السير».
+    description_fr: |
+      ʿImād al-Dīn Abū ʿAbd Allāh Muḥammad ibn Muḥammad al-Iṣfahānī
+      al-Kātib — secrétaire d'origine persane d'abord auprès de
+      Nūr al-Dīn Maḥmūd Zankī à Damas, puis après 570 H auprès
+      de Saladin dans ses campagnes égyptiennes et syriennes ;
+      l'un des deux principaux témoins-historiens contemporains
+      de la troisième Croisade — mourut à Damas le 1ᵉʳ Ramaḍān
+      597 H (5 juin 1201 EC). Son *al-Fatḥ al-Qussī fī al-Fatḥ
+      al-Qudsī* est le récit arabe contemporain le plus détaillé
+      de la reconquête de Jérusalem par Saladin et de la guerre
+      contre Richard Cœur de Lion, rédigé dans la prose rimée
+      (*sajʿ*) élaborée de la chancellerie ayyūbide tardive ;
+      sa *Kharīdat al-Qaṣr wa-Jarīdat al-ʿAṣr*, anthologie de la
+      poésie arabe contemporaine organisée par régions, est la
+      source principale pour l'histoire littéraire du VIᵉ siècle
+      de l'Hégire. Ibn Khallikān donne le jour et le lieu ;
+      al-Dhahabī confirme dans les *Siyar* parmi les wafayāt
+      de 597.
+    canonical_hijri: {year: 597, month: 9, day: 1, precision: day}
+    canonical_gregorian: {date: 1201-06-05, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 1 Ramaḍān 597 AH at Damascus."
+      - source_key: dhahabi_siyar
+        notes: "Notice in Siyar; same date and place confirmed."
+      - source_key: ei2
+    people: [[imad-al-din-al-isfahani, died]]
+    tags: [ayyubid, scholar, chancery, historian, damascus, saladin, secretary, crusades]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Imad_ad-Din_al-Isfahani"
+
+  - slug: death-of-baha-al-din-ibn-shaddad
+    category: scholar_death
+    title_en: Death of Bahāʾ al-Dīn Ibn Shaddād — Saladin's Biographer
+    title_ar: وفاة بهاء الدين ابن شدّاد — مؤرِّخ صلاحِ الدين
+    title_fr: Mort de Bahāʾ al-Dīn Ibn Shaddād — biographe de Saladin
+    description_en: |
+      Bahāʾ al-Dīn Abū al-Maḥāsin Yūsuf ibn Rāfiʿ ibn Shaddād —
+      Mosul-trained Shāfiʿī jurist who joined Saladin's court in
+      584 AH as army-judge (*qāḍī al-ʿaskar*) and intimate counsellor,
+      then served as chief judge of Aleppo under al-Ẓāhir Ghāzī and
+      his successors for nearly half a century — died at Aleppo on
+      14 Ṣafar 632 AH (8 November 1234 CE) at age ninety. His *al-
+      Nawādir al-Sulṭāniyya wa-l-Maḥāsin al-Yūsufiyya*, the most
+      personal of the contemporary biographies of Saladin, mixes
+      direct conversation, court anecdote, and battlefield narrative
+      from his three years of constant attendance during the Third
+      Crusade. He founded two madrasas at Aleppo (the Ṣāḥibiyya
+      Shāfiʿiyya and a hadith dār) which remained centres of Shāfiʿī
+      teaching into the Mamlūk period. Ibn Khallikān gives the day
+      and place; al-Dhahabī confirms in *Tārīkh al-Islām*.
+    description_ar: |
+      توفي بهاء الدين أبو المحاسن يوسف بن رافع بن شدّاد — فقيهٌ
+      شافعيٌّ موصليُّ النشأة، التحق بصلاحِ الدين سنة ٥٨٤ هـ
+      قاضياً للعسكر ومستشاراً ملازماً، ثم تولّى قضاءَ حلب لـ
+      الظاهر غازي ولمن جاء بعده قرابة نصف قرن — بحلب في الرابع
+      عشر من صفر سنة اثنتين وثلاثين وستمئة للهجرة (الموافق
+      ٨ نوفمبر ١٢٣٤ ميلادي) عن تسعين سنة. وكتابه «النوادر
+      السلطانية والمحاسن اليوسفية» أشدُّ ترجمات صلاحِ الدين
+      المعاصرة شخصيةً، يجمع الحوارَ المباشرَ ونوادرَ المجلس
+      وأخبارَ الميدان من ثلاث سنواتٍ لازمَه فيها أيامَ الحملة
+      الصليبية الثالثة. وأنشأ بحلب مدرستين شافعيتين (الصاحبية
+      ودار حديث) ظلّتا من مراكز المذهب الشافعي إلى العصر
+      المملوكي. ضبط ابنُ خلكان يومَ وفاته ومكانَها؛ وعليه
+      الذهبيُّ في «تاريخ الإسلام».
+    description_fr: |
+      Bahāʾ al-Dīn Abū al-Maḥāsin Yūsuf ibn Rāfiʿ ibn Shaddād —
+      juriste shāfiʿite formé à Mossoul qui rejoignit la cour
+      de Saladin en 584 H comme juge militaire (*qāḍī al-ʿaskar*)
+      et conseiller intime, puis servit comme grand juge d'Alep
+      sous al-Ẓāhir Ghāzī et ses successeurs durant près d'un
+      demi-siècle — mourut à Alep le 14 Ṣafar 632 H (8 novembre
+      1234 EC), à quatre-vingt-dix ans. Son *al-Nawādir al-
+      Sulṭāniyya wa-l-Maḥāsin al-Yūsufiyya*, la plus personnelle
+      des biographies contemporaines de Saladin, mêle conversation
+      directe, anecdote de cour et récit de bataille tirés de
+      ses trois années d'attendance constante pendant la troisième
+      Croisade. Il fonda à Alep deux madrasas (la Ṣāḥibiyya
+      shāfiʿite et une *dār al-ḥadīth*) qui demeurèrent des
+      centres d'enseignement shāfiʿite jusqu'à l'époque mamelouke.
+      Ibn Khallikān donne le jour et le lieu ; al-Dhahabī confirme
+      dans *Tārīkh al-Islām*.
+    canonical_hijri: {year: 632, month: 2, day: 14, precision: day}
+    canonical_gregorian: {date: 1234-11-08, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 14 Ṣafar 632 AH at Aleppo, age 90."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 632 AH wafayāt notice; place Aleppo confirmed."
+      - source_key: ei2
+    people: [[baha-al-din-ibn-shaddad, died]]
+    tags: [ayyubid, scholar, qadi, biographer, aleppo, saladin, crusades, shafii]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Baha_ad-Din_ibn_Shaddad"
+
+  # =========================================================================
+  # AYYŪBID-MAMLŪK CHRONICLERS (656–697 AH)
+  # =========================================================================
+
+  - slug: death-of-al-mundhiri
+    category: scholar_death
+    title_en: Death of al-Mundhirī — Author of *al-Targhīb wa-l-Tarhīb*
+    title_ar: وفاة المنذريِّ — صاحب «الترغيب والترهيب»
+    title_fr: Mort d'al-Mundhirī — auteur d'*al-Targhīb wa-l-Tarhīb*
+    description_en: |
+      Zakī al-Dīn Abū Muḥammad ʿAbd al-ʿAẓīm ibn ʿAbd al-Qawī
+      al-Mundhirī al-Shāfiʿī — Damascene-born Egyptian muḥaddith,
+      shaykh of the Dār al-Ḥadīth al-Kāmiliyya at Cairo for nearly
+      two decades, and the leading transmitter of the standard
+      hadith collections to the next generation of Egyptian
+      scholars — died at Cairo on 4 Dhū al-Qaʿda 656 AH (1
+      November 1258 CE) at age seventy-six. His *al-Targhīb wa-l-
+      Tarhīb min al-Ḥadīth al-Sharīf* organises Prophetic narrations
+      thematically by encouragement (*targhīb*) and warning
+      (*tarhīb*), grading each report by isnād-strength, and remains
+      one of the most-printed devotional hadith works in Sunni
+      use; his abridgements of the *Sunan* of Abū Dāwūd
+      (*al-Mukhtaṣar*) and of Sahih Muslim were standard teaching
+      texts well into the Ottoman period. Ibn Khallikān fixes the
+      day; al-Dhahabī confirms in *Siyar*.
+    description_ar: |
+      توفي زكيُّ الدين أبو محمد عبد العظيم بن عبد القوي المنذريُّ
+      الشافعيُّ — محدِّثٌ مصريٌّ دمشقيُّ المولد، تولَّى مشيخةَ دار
+      الحديث الكاملية بالقاهرة قرابة عشرين سنة، وكان مَن انتهى
+      إليه إسنادُ كتب الحديث المعتمدة في طبقته — بالقاهرة في
+      الرابع من ذي القعدة سنة ست وخمسين وستمئة للهجرة (الموافق
+      أوّلَ نوفمبر ١٢٥٨ ميلادي) عن ست وسبعين سنة. وكتابه
+      «الترغيب والترهيب من الحديث الشريف» رتَّب الأحاديث على
+      أبواب الترغيب والترهيب، وحكم على كلِّ حديث بقوة سنده، وما
+      يزال من أكثر كتب الحديث الوعظيِّ تداولاً في المذهب السنّي؛
+      ومختصراه لـ«سنن أبي داود» و«صحيح مسلم» من نصوص التدريس
+      المعتمدة إلى العصر العثماني. ضبط ابنُ خلكان يومَ وفاته؛
+      وعليه الذهبيُّ في «السير».
+    description_fr: |
+      Zakī al-Dīn Abū Muḥammad ʿAbd al-ʿAẓīm ibn ʿAbd al-Qawī
+      al-Mundhirī al-Shāfiʿī — muḥaddith égyptien né à Damas,
+      directeur (*shaykh*) de la *Dār al-Ḥadīth al-Kāmiliyya*
+      du Caire pendant près de vingt ans, et principal
+      transmetteur des collections hadithiques canoniques à la
+      génération suivante des savants égyptiens — mourut au
+      Caire le 4 Dhū al-Qaʿda 656 H (1ᵉʳ novembre 1258 EC), à
+      soixante-seize ans. Son *al-Targhīb wa-l-Tarhīb min al-
+      Ḥadīth al-Sharīf* classe les récits prophétiques de manière
+      thématique selon l'encouragement (*targhīb*) et
+      l'avertissement (*tarhīb*), gradant chaque rapport par la
+      force de l'isnād, et demeure l'un des ouvrages hadithiques
+      dévotionnels les plus imprimés dans l'usage sunnite ; ses
+      abrégés des *Sunan* d'Abū Dāwūd et du *Ṣaḥīḥ* de Muslim
+      furent des textes d'enseignement standards jusqu'à l'époque
+      ottomane. Ibn Khallikān fixe le jour ; al-Dhahabī confirme
+      dans les *Siyar*.
+    canonical_hijri: {year: 656, month: 11, day: 4, precision: day}
+    canonical_gregorian: {date: 1258-11-01, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 4 Dhū al-Qaʿda 656 AH at Cairo, age 76."
+      - source_key: dhahabi_siyar
+        notes: "Notice in Siyar; same date and place confirmed."
+      - source_key: ei2
+    people: [[al-mundhiri, died]]
+    tags: [ayyubid, mamluk, scholar, muhaddith, cairo, hadith, targhib, shafii]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mundhiri"
+
+  - slug: death-of-ibn-al-adim
+    category: scholar_death
+    title_en: Death of Ibn al-ʿAdīm — Historian of Aleppo
+    title_ar: وفاة ابن العديم — مؤرِّخ حلب
+    title_fr: Mort d'Ibn al-ʿAdīm — historien d'Alep
+    description_en: |
+      Kamāl al-Dīn Abū al-Qāsim ʿUmar ibn Aḥmad ibn al-ʿAdīm
+      al-ʿUqaylī al-Ḥalabī — Ḥanafī jurist, qāḍī, diplomat, and
+      principal historian of Ayyūbid Aleppo whose family had served
+      the city's chancery for generations — died at Cairo in 660 AH
+      (1262 CE), having fled there after the Mongol sack of Aleppo
+      in 658 AH. His *Bughyat al-Ṭalab fī Tārīkh Ḥalab* is a
+      forty-volume biographical-topographical history of Aleppo
+      and its scholars (only ten volumes survive); its abridgement
+      *Zubdat al-Ḥalab fī Tārīkh Ḥalab* is the standard chronological
+      narrative of the Ayyūbid emirate of Aleppo and a key source
+      for the late Crusader period. He served as Aleppo's ambassador
+      to the Abbasid caliph and to the Ayyūbid sultans of Cairo and
+      Damascus. Ibn Khallikān, who knew him personally, fixes the
+      year of death and the flight to Cairo; al-Dhahabī confirms
+      in *Tārīkh al-Islām* among the wafayāt of 660.
+    description_ar: |
+      توفي كمالُ الدين أبو القاسم عمر بن أحمد ابن العديم
+      العقيليُّ الحلبيُّ — فقيهٌ حنفيٌّ، وقاضٍ، وسفيرٌ، ومؤرِّخُ
+      حلب الأيوبية الأكبر، من بيتٍ تولَّى ديوانَ المدينة أجيالاً —
+      بالقاهرة سنة ستِّين وستمئة للهجرة (الموافق ١٢٦٢ ميلادي)،
+      وكان قد لجأ إليها بعد سقوط حلب بيد المغول سنة ٦٥٨ هـ.
+      وكتابه «بغية الطلب في تاريخ حلب» موسوعةٌ في أربعين مجلداً
+      في تراجم علماء حلب وجغرافيتها (لم يصلنا منه إلا عشرة
+      مجلدات)؛ ومختصرُه «زبدة الحلب في تاريخ حلب» هو السرد
+      السنويُّ المعتمَد لإمارة حلب الأيوبية وأهمُّ مصادر أواخر
+      عصر الحروب الصليبية. تولَّى السفارةَ عن حلب إلى الخليفة
+      العباسي وإلى السلاطين الأيوبيين بالقاهرة ودمشق. ضبط ابنُ
+      خلكان — وكان يعرفه شخصياً — سنةَ وفاته وفرارَه إلى القاهرة؛
+      وأكَّده الذهبيُّ في وفيات ٦٦٠ من «تاريخ الإسلام».
+    description_fr: |
+      Kamāl al-Dīn Abū al-Qāsim ʿUmar ibn Aḥmad ibn al-ʿAdīm
+      al-ʿUqaylī al-Ḥalabī — juriste ḥanafite, qāḍī, diplomate
+      et principal historien de l'Alep ayyūbide, dont la famille
+      avait servi la chancellerie de la ville durant des
+      générations — mourut au Caire en 660 H (1262 EC), s'y
+      étant réfugié après le sac d'Alep par les Mongols en
+      658 H. Sa *Bughyat al-Ṭalab fī Tārīkh Ḥalab* est une
+      histoire biographique et topographique d'Alep et de ses
+      savants en quarante volumes (dont seuls dix nous sont
+      parvenus) ; son abrégé *Zubdat al-Ḥalab fī Tārīkh Ḥalab*
+      est le récit chronologique standard de l'émirat ayyūbide
+      d'Alep et une source-clé pour la fin de la période
+      croisée. Il servit comme ambassadeur d'Alep auprès du
+      calife abbasside et des sultans ayyūbides du Caire et
+      de Damas. Ibn Khallikān, qui le connaissait personnellement,
+      fixe l'année de la mort et la fuite au Caire ; al-Dhahabī
+      confirme dans *Tārīkh al-Islām* parmi les wafayāt de 660.
+    canonical_hijri: {year: 660, precision: year}
+    canonical_gregorian: {date: 1262-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 660 AH at Cairo; flight from Aleppo after Mongol sack of 658 AH noted."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 660 AH wafayāt notice."
+      - source_key: ei2
+    people: [[ibn-al-adim, died]]
+    tags: [ayyubid, scholar, historian, aleppo, cairo, mongol-period, hanafi, qadi]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Adim"
+
+  - slug: death-of-abu-shama-al-maqdisi
+    category: scholar_death
+    title_en: Death of Abū Shāma al-Maqdisī — Historian of the Two Reigns
+    title_ar: وفاة أبي شامة المقدسي — مؤرِّخ الدولتين النورية والصلاحية
+    title_fr: Mort d'Abū Shāma al-Maqdisī — historien des deux règnes
+    description_en: |
+      Shihāb al-Dīn Abū Shāma ʿAbd al-Raḥmān ibn Ismāʿīl al-Maqdisī
+      al-Dimashqī al-Shāfiʿī — Damascene Shāfiʿī jurist, Qurʾān-
+      reciter, and one of the principal teachers of the Mamlūk-era
+      hadith scholar al-Nawawī — was attacked at his home and died
+      from his wounds at Damascus on 19 Ramaḍān 665 AH (13 June
+      1267 CE) at age sixty-eight. His *Kitāb al-Rawḍatayn fī
+      Akhbār al-Dawlatayn al-Nūriyya wa-l-Ṣalāḥiyya* is the
+      standard composite chronicle of the two reigns of Nūr al-
+      Dīn Maḥmūd Zankī and Saladin, woven from the lost narratives
+      of Ibn Abī Ṭayyiʾ and the surviving works of ʿImād al-Dīn
+      al-Iṣfahānī, al-Qāḍī al-Fāḍil, and Ibn Shaddād, with Abū
+      Shāma's own continuation (*al-Dhayl ʿalā al-Rawḍatayn*)
+      taking the narrative through his own lifetime. Ibn Khallikān
+      gives the day; al-Dhahabī confirms in *Siyar*.
+    description_ar: |
+      توفي شهاب الدين أبو شامة عبد الرحمن بن إسماعيل المقدسيُّ
+      الدمشقيُّ الشافعيُّ — فقيهٌ شافعيٌّ ومقرئٌ دمشقيٌّ،
+      وأحدُ شيوخ المحدِّث المملوكيِّ النوويّ — بعد أن هُجِم على
+      منزله بدمشق متأثراً بجراحه يوم التاسع عشر من رمضان سنة
+      خمسٍ وستين وستمئة للهجرة (الموافق ١٣ يونيو ١٢٦٧ ميلادي)
+      عن ثمانٍ وستين سنة. وكتابه «كتاب الروضتين في أخبار
+      الدولتين النورية والصلاحية» هو الجامعُ المعتمَدُ في
+      دولة نور الدين محمود زنكي ودولة صلاح الدين، نسجه من
+      روايات ابن أبي طي المفقودة ومن كتب العماد الأصبهاني
+      والقاضي الفاضل وابن شدّاد التي بقيت لنا، ثم ذيَّلَه
+      بـ«الذيل على الروضتين» إلى وقته. ضبط ابنُ خلكان يومَ
+      وفاته؛ وعليه الذهبيُّ في «السير».
+    description_fr: |
+      Shihāb al-Dīn Abū Shāma ʿAbd al-Raḥmān ibn Ismāʿīl
+      al-Maqdisī al-Dimashqī al-Shāfiʿī — juriste shāfiʿite et
+      lecteur du Coran damascène, et l'un des principaux maîtres
+      du muḥaddith mamelouk al-Nawawī — fut attaqué chez lui
+      et mourut de ses blessures à Damas le 19 Ramaḍān 665 H
+      (13 juin 1267 EC), à soixante-huit ans. Son *Kitāb al-
+      Rawḍatayn fī Akhbār al-Dawlatayn al-Nūriyya wa-l-Ṣalāḥiyya*
+      est la chronique composite standard des deux règnes de
+      Nūr al-Dīn Maḥmūd Zankī et de Saladin, tissée à partir
+      des récits perdus d'Ibn Abī Ṭayyiʾ et des ouvrages
+      conservés d'ʿImād al-Dīn al-Iṣfahānī, d'al-Qāḍī al-Fāḍil
+      et d'Ibn Shaddād, avec son propre supplément (*al-Dhayl
+      ʿalā al-Rawḍatayn*) prolongeant le récit jusqu'à son
+      vivant. Ibn Khallikān donne le jour ; al-Dhahabī confirme
+      dans les *Siyar*.
+    canonical_hijri: {year: 665, month: 9, day: 19, precision: day}
+    canonical_gregorian: {date: 1267-06-13, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 19 Ramaḍān 665 AH at Damascus, age 68; killed in attack at his home."
+      - source_key: dhahabi_siyar
+        notes: "Notice in Siyar; same date and circumstances confirmed."
+      - source_key: ei2
+    people: [[abu-shama-al-maqdisi, died]]
+    tags: [ayyubid, mamluk, scholar, historian, damascus, nur-al-din, saladin, shafii, qari]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Shama"
+
+  - slug: death-of-ibn-abi-usaybia
+    category: scholar_death
+    title_en: Death of Ibn Abī Uṣaybiʿa — Biographer of Physicians
+    title_ar: وفاة ابن أبي أصيبعة — صاحب «عيون الأنباء»
+    title_fr: Mort d'Ibn Abī Uṣaybiʿa — biographe des médecins
+    description_en: |
+      Muwaffaq al-Dīn Abū al-ʿAbbās Aḥmad ibn al-Qāsim ibn Khalīfa
+      ibn Abī Uṣaybiʿa al-Khazrajī — Damascene-born Mamlūk-era
+      physician and biographer who served at the Bīmāristān al-Nūrī
+      in Damascus and at the court of the Ayyūbid amīr ʿIzz al-Dīn
+      Aydamur of Ṣarkhad — died at Ṣarkhad in 668 AH (1270 CE),
+      two years after completing the second redaction of his great
+      biographical dictionary of physicians. His *ʿUyūn al-Anbāʾ
+      fī Ṭabaqāt al-Aṭibbāʾ*, in fifteen chapters running from
+      Greek and Indian medicine through pre-Islamic Arabia to his
+      own teachers in Cairo and Damascus, is the most important
+      single classical Arabic source on the history of medicine in
+      Islam, and most of the death dates of physicians elsewhere
+      in this dataset are attested through it. Ibn Khallikān, who
+      knew him, fixes the year; Ibn al-ʿImād confirms in *Shadharāt
+      al-Dhahab*. (See the wave-43 entry on the *ʿUyūn al-Anbāʾ*
+      completion in 668 AH for the work itself.)
+    description_ar: |
+      توفي موفق الدين أبو العبّاس أحمد بن القاسم بن خليفة بن أبي
+      أصيبعة الخزرجيُّ — طبيبٌ ومؤرِّخٌ دمشقيُّ المولد من العصر
+      المملوكي، خدم بالبيمارستان النوري بدمشق وفي بلاط الأمير
+      الأيوبي عز الدين أيدمر صاحب صرخد — بصرخد سنة ثمانٍ وستين
+      وستمئة للهجرة (الموافق ١٢٧٠ ميلادي)، بعد سنتين من فراغه
+      من التحرير الثاني لمعجمه الكبير في تراجم الأطباء. وكتابه
+      «عيون الأنباء في طبقات الأطباء» في خمسة عشر فصلاً، يستوعب
+      أطباءَ اليونان والهند والعرب قبل الإسلام، حتى أساتذته
+      بالقاهرة ودمشق، هو أهمُّ المصادر العربية الكلاسيكية
+      المنفردة في تاريخ الطبّ في الإسلام، ومن طريقه أكثر تواريخ
+      وفيات الأطباء في غير هذه المادة. ضبط ابنُ خلكان — وكان
+      يعرفه — سنةَ وفاته؛ وأكَّده ابنُ العماد في «شذرات الذهب».
+      (ينظر مدخل الموجة ٤٣ على إتمام «عيون الأنباء» سنة ٦٦٨ هـ
+      للكتاب نفسه.)
+    description_fr: |
+      Muwaffaq al-Dīn Abū al-ʿAbbās Aḥmad ibn al-Qāsim ibn Khalīfa
+      ibn Abī Uṣaybiʿa al-Khazrajī — médecin et biographe
+      d'origine damascène de l'époque mamelouke, qui servit au
+      *Bīmāristān al-Nūrī* de Damas et à la cour de l'émir
+      ayyūbide ʿIzz al-Dīn Aydamur de Ṣarkhad — mourut à Ṣarkhad
+      en 668 H (1270 EC), deux ans après avoir achevé la seconde
+      rédaction de son grand dictionnaire biographique des
+      médecins. Ses *ʿUyūn al-Anbāʾ fī Ṭabaqāt al-Aṭibbāʾ*, en
+      quinze chapitres allant de la médecine grecque et indienne
+      à l'Arabie préislamique jusqu'à ses propres maîtres au
+      Caire et à Damas, sont la source arabe classique unique
+      la plus importante pour l'histoire de la médecine en
+      islam, et la plupart des dates de mort des médecins citées
+      ailleurs dans cette base sont attestées par lui. Ibn
+      Khallikān, qui le connaissait, fixe l'année ; Ibn al-ʿImād
+      confirme dans *Shadharāt al-Dhahab*. (Voir l'entrée vague-43
+      sur l'achèvement des *ʿUyūn al-Anbāʾ* en 668 H pour
+      l'ouvrage lui-même.)
+    canonical_hijri: {year: 668, precision: year}
+    canonical_gregorian: {date: 1270-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 668 AH at Ṣarkhad."
+      - source_key: ibn_imad_shadharat
+        notes: "Year 668 AH wafayāt notice."
+      - source_key: ei2
+    people: [[ibn-abi-usaybia, died]]
+    tags: [ayyubid, mamluk, scholar, physician, biographer, damascus, sarkhad, history-of-medicine]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Abi_Usaybia"
+
+  - slug: death-of-ibn-al-sai
+    category: scholar_death
+    title_en: Death of Ibn al-Sāʿī — Abbasid Court Historian and Librarian
+    title_ar: وفاة ابن الساعي — مؤرِّخُ الخلافة العباسية وأمينُ خزانتها
+    title_fr: Mort d'Ibn al-Sāʿī — historien et bibliothécaire de la cour abbasside
+    description_en: |
+      Tāj al-Dīn Abū Ṭālib ʿAlī ibn Anjab ibn al-Sāʿī al-Khāzin
+      al-Baghdādī — last librarian (*khāzin*) of the Mustanṣiriyya
+      madrasa-library at Baghdad before the Mongol sack of 656 AH,
+      and the principal Sunni court historian of the late Abbasid
+      caliphate — died at Baghdad in 674 AH (1276 CE) at age about
+      eighty-three. His *al-Jāmiʿ al-Mukhtaṣar fī ʿUnwān al-Tawārīkh
+      wa-ʿUyūn al-Siyar* is one of the earliest surviving Sunni
+      narratives of the fall of Baghdad to Hülegü, written by an
+      eyewitness who lived through the catastrophe; his *Nisāʾ al-
+      Khulafāʾ* (also titled *Jihāt al-Aʾimma al-Khulafāʾ min al-
+      Ḥarāʾir wa-l-Imāʾ*) preserves biographies of caliphal consorts
+      from the Umayyad through Abbasid periods and remains a unique
+      source for the social history of the caliphal court. Ibn al-
+      Fuwaṭī, his student, fixes the death year; al-Dhahabī confirms
+      in *Tārīkh al-Islām*.
+    description_ar: |
+      توفي تاج الدين أبو طالب علي بن أنجب ابن الساعي الخازن
+      البغداديُّ — آخرُ خازنٍ لمكتبة المدرسة المستنصرية ببغداد
+      قبل سقوطها بيد المغول سنة ٦٥٦ هـ، ومؤرِّخُ بلاط الخلافة
+      العباسية الأخير — ببغداد سنة أربع وسبعين وستمئة للهجرة
+      (الموافق ١٢٧٦ ميلادي) عن نحو ثلاث وثمانين سنة. وكتابه
+      «الجامع المختصر في عنوان التواريخ وعيون السير» من أوائل
+      ما وصلنا من السرد السنّي لسقوط بغداد بيد هولاكو، كتبه
+      شاهدُ عيانٍ نجا من الكارثة؛ وكتابه «نساء الخلفاء» (واسمه
+      الآخر «جهات الأئمة الخلفاء من الحرائر والإماء») يحفظ تراجم
+      حظايا الخلفاء من العصر الأموي إلى العصر العباسي، وهو
+      مصدرٌ فريدٌ في التاريخ الاجتماعيِّ لبلاط الخلافة. ضبط
+      تلميذه ابنُ الفُوَطي سنةَ وفاته؛ وأكَّده الذهبيُّ في
+      «تاريخ الإسلام».
+    description_fr: |
+      Tāj al-Dīn Abū Ṭālib ʿAlī ibn Anjab ibn al-Sāʿī al-Khāzin
+      al-Baghdādī — dernier bibliothécaire (*khāzin*) de la
+      bibliothèque-madrasa al-Mustanṣiriyya à Bagdad avant le
+      sac mongol de 656 H, et principal historien sunnite de
+      la cour du califat abbasside tardif — mourut à Bagdad
+      en 674 H (1276 EC), à environ quatre-vingt-trois ans.
+      Son *al-Jāmiʿ al-Mukhtaṣar fī ʿUnwān al-Tawārīkh wa-
+      ʿUyūn al-Siyar* est l'un des premiers récits sunnites
+      conservés de la chute de Bagdad face à Hülegü, rédigé
+      par un témoin oculaire qui survécut à la catastrophe ;
+      ses *Nisāʾ al-Khulafāʾ* (également intitulés *Jihāt al-
+      Aʾimma al-Khulafāʾ min al-Ḥarāʾir wa-l-Imāʾ*) préservent
+      les biographies des consortes califales de l'époque
+      umayyade à l'époque abbasside et demeurent une source
+      unique pour l'histoire sociale de la cour califale. Son
+      élève Ibn al-Fuwaṭī fixe l'année de la mort ; al-Dhahabī
+      confirme dans *Tārīkh al-Islām*.
+    canonical_hijri: {year: 674, precision: year}
+    canonical_gregorian: {date: 1276-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "Year 674 AH wafayāt notice at Baghdad."
+      - source_key: ibn_imad_shadharat
+        notes: "Year 674 AH wafayāt notice; age c. 83."
+      - source_key: ei2
+    people: [[ibn-al-sai, died]]
+    tags: [abbasid, scholar, historian, librarian, baghdad, mongol-period, mustansiriyya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Sa%27i"
+
+  - slug: death-of-ibn-wasil-al-hamawi
+    category: scholar_death
+    title_en: Death of Ibn Wāṣil al-Ḥamawī — Author of *Mufarrij al-Kurūb*
+    title_ar: وفاة ابن واصل الحموي — صاحب «مفرِّج الكروب»
+    title_fr: Mort d'Ibn Wāṣil al-Ḥamawī — auteur de *Mufarrij al-Kurūb*
+    description_en: |
+      Jamāl al-Dīn Abū ʿAbd Allāh Muḥammad ibn Sālim ibn Wāṣil
+      al-Ḥamawī al-Shāfiʿī — Ḥamāh-born Shāfiʿī jurist, qāḍī
+      of the Ayyūbid principality of Ḥamāh, ambassador of the
+      Mamlūk sultan Baybars to Manfred of Sicily (1261 CE), and
+      author of the standard chronicle of the Ayyūbid dynasty —
+      died at Ḥamāh in 697 AH (1298 CE). His *Mufarrij al-Kurūb
+      fī Akhbār Banī Ayyūb*, in five surviving volumes, narrates
+      the rise of Saladin's family from its Kurdish origins through
+      the conquest of Egypt to the dynasty's eclipse and the rise
+      of the Mamlūks; Ibn Wāṣil himself participated in the
+      embassies of his time and writes from direct observation of
+      the late-Ayyūbid courts of Ḥamāh and Damascus. Ibn al-ʿImād
+      fixes the year of death and confirms his authorship of the
+      *Mufarrij*; al-Dhahabī notices him in *Tārīkh al-Islām*.
+    description_ar: |
+      توفي جمال الدين أبو عبد الله محمد بن سالم ابن واصل
+      الحمويُّ الشافعيُّ — فقيهٌ شافعيٌّ من حماة، وقاضي
+      الإمارة الأيوبية بحماة، وسفيرُ السلطان المملوكي بيبرس
+      إلى ملك صقلية مانفريد سنة ٦٥٩ هـ (١٢٦١ م)، وصاحبُ
+      تاريخ الدولة الأيوبية المعتمَد — بحماة سنة سبعٍ وتسعين
+      وستمئة للهجرة (الموافق ١٢٩٨ ميلادي). وكتابه «مفرِّج
+      الكروب في أخبار بني أيوب» في خمسة مجلدات وصلت إلينا،
+      يسرد قيام آل صلاح الدين من أصولهم الكردية إلى فتح
+      مصر، إلى أفول الدولة وقيام دولة المماليك؛ وقد شارك
+      ابنُ واصل في سفارات عصره فكتب عن مشاهدةٍ من بلاط
+      حماة ودمشق في أواخر العصر الأيوبيِّ. ضبط ابنُ العماد
+      سنةَ وفاته، وأكَّد نسبةَ «المفرِّج» إليه؛ وعليه
+      الذهبيُّ في «تاريخ الإسلام».
+    description_fr: |
+      Jamāl al-Dīn Abū ʿAbd Allāh Muḥammad ibn Sālim ibn Wāṣil
+      al-Ḥamawī al-Shāfiʿī — juriste shāfiʿite né à Ḥamāh,
+      qāḍī de la principauté ayyūbide de Ḥamāh, ambassadeur
+      du sultan mamelouk Baybars auprès de Manfred de Sicile
+      (1261 EC), et auteur de la chronique standard de la
+      dynastie ayyūbide — mourut à Ḥamāh en 697 H (1298 EC).
+      Son *Mufarrij al-Kurūb fī Akhbār Banī Ayyūb*, dans les
+      cinq volumes conservés, retrace l'ascension de la
+      famille de Saladin de ses origines kurdes à la conquête
+      de l'Égypte, jusqu'à l'éclipse de la dynastie et à la
+      montée des Mamelouks ; Ibn Wāṣil prit part aux ambassades
+      de son temps et écrit d'observation directe des cours
+      ayyūbides tardives de Ḥamāh et de Damas. Ibn al-ʿImād
+      fixe l'année de la mort et confirme son autorité sur
+      le *Mufarrij* ; al-Dhahabī le mentionne dans *Tārīkh
+      al-Islām*.
+    canonical_hijri: {year: 697, precision: year}
+    canonical_gregorian: {date: 1298-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Year 697 AH wafayāt notice at Ḥamāh."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 697 AH wafayāt notice."
+      - source_key: ei2
+    people: [[ibn-wasil-al-hamawi, died]]
+    tags: [ayyubid, mamluk, scholar, historian, hamah, qadi, shafii, ayyubid-dynasty]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Wasil"
+
+  - slug: death-of-al-yunini
+    category: scholar_death
+    title_en: Death of al-Yūnīnī — Continuator of Sibṭ Ibn al-Jawzī
+    title_ar: وفاة اليونيني — مذيِّل «مرآة الزمان» لسبط ابن الجوزي
+    title_fr: Mort d'al-Yūnīnī — continuateur de Sibṭ Ibn al-Jawzī
+    description_en: |
+      Quṭb al-Dīn Abū al-Fatḥ Mūsā ibn Muḥammad al-Yūnīnī al-
+      Baʿlabakkī al-Ḥanbalī — Baʿlabakk-born Ḥanbalī muḥaddith,
+      son of the renowned Ḥanbalī ascetic shaykh ʿAbd Allāh al-
+      Yūnīnī, and historian of the early Mamlūk decades — died at
+      Baʿlabakk in 726 AH (1326 CE). His *Dhayl Mirʾāt al-Zamān*
+      continues Sibṭ Ibn al-Jawzī's *Mirʾāt al-Zamān fī Tārīkh al-
+      Aʿyān* from 654 AH down to his own time, supplying the most
+      detailed annalistic Sunni narrative of the early Mamlūk
+      sultanate (Baybars, Qalāwūn, al-Ashraf Khalīl, al-Nāṣir
+      Muḥammad), the late Crusader campaigns, and the third Mongol
+      offensive. Al-Yūnīnī also produced an authoritative collation
+      of Ṣaḥīḥ al-Bukhārī from multiple manuscript traditions
+      (the *Yūnīniyya* recension), which became the standard
+      textual base for many later printings. Ibn Ḥajar fixes the
+      year of death in *al-Durar al-Kāmina*; Ibn al-ʿImād confirms
+      in *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي قطب الدين أبو الفتح موسى بن محمد اليونينيُّ
+      البعلبكيُّ الحنبليُّ — محدِّثٌ حنبليٌّ من بعلبك، ابنُ
+      الشيخ الزاهد الحنبلي عبد الله اليونيني، ومؤرِّخُ العقود
+      الأولى من الدولة المملوكية — ببعلبك سنة ست وعشرين
+      وسبعمئة للهجرة (الموافق ١٣٢٦ ميلادي). وكتابه «ذيل مرآة
+      الزمان» يذيِّل «مرآة الزمان في تاريخ الأعيان» لسبط ابن
+      الجوزي من سنة ٦٥٤ هـ إلى وقته، فيقدِّم أوسعَ سردٍ
+      سنويٍّ سنّيٍّ لأوائل دولة المماليك (بيبرس وقلاوون
+      والأشرف خليل والناصر محمد)، ولأواخر الحروب الصليبية،
+      وللهجمة المغولية الثالثة. وله أيضاً ضبطٌ نقديٌّ
+      لـ«صحيح البخاري» على عدّة روايات (المعروف بالنسخة
+      اليونينية)، صار الأساسَ النصّي للكثير من الطبعات
+      اللاحقة. ضبط ابنُ حجر سنةَ وفاته في «الدرر الكامنة»؛
+      وأكَّده ابنُ العماد في «شذرات الذهب».
+    description_fr: |
+      Quṭb al-Dīn Abū al-Fatḥ Mūsā ibn Muḥammad al-Yūnīnī al-
+      Baʿlabakkī al-Ḥanbalī — muḥaddith ḥanbalite né à Baʿlabakk,
+      fils du célèbre cheikh ascète ḥanbalite ʿAbd Allāh al-
+      Yūnīnī, et historien des premières décennies mameloukes —
+      mourut à Baʿlabakk en 726 H (1326 EC). Son *Dhayl Mirʾāt
+      al-Zamān* continue le *Mirʾāt al-Zamān fī Tārīkh al-Aʿyān*
+      de Sibṭ Ibn al-Jawzī à partir de 654 H jusqu'à son temps,
+      fournissant le récit annalistique sunnite le plus détaillé
+      du début du sultanat mamelouk (Baybars, Qalāwūn, al-Ashraf
+      Khalīl, al-Nāṣir Muḥammad), des dernières campagnes
+      croisées et de la troisième offensive mongole. Al-Yūnīnī
+      produisit aussi une collation faisant autorité du *Ṣaḥīḥ*
+      d'al-Bukhārī à partir de plusieurs traditions manuscrites
+      (la recension *Yūnīniyya*), qui devint la base textuelle
+      standard de nombreuses impressions ultérieures. Ibn Ḥajar
+      fixe l'année de la mort dans *al-Durar al-Kāmina* ; Ibn
+      al-ʿImād confirme dans *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 726, precision: year}
+    canonical_gregorian: {date: 1326-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Year 726 AH wafayāt notice at Baʿlabakk."
+      - source_key: ibn_imad_shadharat
+        notes: "Year 726 AH wafayāt notice."
+      - source_key: ei2
+    people: [[al-yunini, died]]
+    tags: [mamluk, scholar, muhaddith, historian, baalbek, hanbali, dhayl, bukhari]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qutb_al-Din_al-Yunini"

@@ -1,0 +1,1104 @@
+# Wave 79 of curated event additions (2026-04-27).
+# 13 Mughal political-military events filling gaps left by earlier waves
+# (which already cover First Battle of Panipat, deaths of Babur / Akbar /
+# Aurangzeb / Bahadur Shah I / Bahadur Shah II, the Third Panipat, Plassey,
+# Buxar, the 1857 fall of Delhi).
+#
+# Coverage here:
+#   - Khanwa (1527), Ghaghra (1529)              — Babur's consolidation
+#   - Akbar accession at Kalanaur, Second Panipat — 963–964 AH
+#   - Conquest of Gujarat (1573), Haldighati (1576) — Akbar's expansion
+#   - Death of Jahangir (1627), Aurangzeb at Agra (1658)
+#   - Maratha sack of Surat under Shivaji (1664)
+#   - Battle of Karnal + Nadir Shah's sack of Delhi (1739)
+#   - Death of Muḥammad Shāh Rangīla (1748)
+#   - Death of Aḥmad Shāh Bahādur (1775), Death of Shāh ʿĀlam II (1806)
+#
+# Sources: editorial compilation cross-checked against EI2 (modern academic
+# reference). Mughal-era event chronology in Sunni classical sources is thin
+# for India; EI2 is the gold-standard secondary work for these centuries.
+# Where two sources are cited the entry is `cross_verified`; where only
+# editorial attestation is available the entry is `single_source`.
+#
+# Editorial framing: factual military / political reporting. Mughal–Hindu
+# wars (Khanwa, Haldighati) are reported as state-level military events
+# without religious polemic. Nadir Shah's sack of Delhi is reported with
+# the massacre as historical fact, neither glorified nor minimised.
+
+events:
+  # =========================================================================
+  # BABUR — POST-PANIPAT CONSOLIDATION
+  # =========================================================================
+
+  - slug: battle-of-khanwa
+    category: battle
+    title_en: Battle of Khanwa — Babur Defeats Rana Sanga
+    title_ar: معركة خانوا — بابر يهزم رانا سانغا
+    title_fr: Bataille de Khanwa — Bâbur défait Rânâ Sangâ
+    description_en: |
+      A year after the founding victory at Panipat, Ẓahīr al-Dīn
+      Muḥammad Bābur fought the Rajput confederacy of Rānā Sāṅgā
+      of Mewar at the village of Khanwa, about sixty kilometres
+      west of Agra. Rānā Sāṅgā had assembled the largest Rajput
+      coalition in living memory — joined by Afghan amīrs of the
+      defeated Lodi camp — to expel the new Mughal power before
+      it could consolidate. As at Panipat the year before, Bābur
+      drew up his army behind a defensive line of carts lashed
+      together (the *araba* / Ottoman *taburcılık* tactic) and
+      employed massed matchlock fire and field artillery against
+      the Rajput cavalry charge. The matchlocks and culverins of
+      Mustafa Rūmī broke the Rajput formation; Sāṅgā was wounded
+      and carried from the field, and the survivors withdrew. The
+      victory eliminated the only confederation in northern India
+      capable of resisting Bābur and effectively founded Mughal
+      rule beyond a single battle. Bābur recorded the engagement
+      in detail in the *Bāburnāma*. Classical Sunni chronicles for
+      Mughal India are thin; EI2 and the modern editions of the
+      *Bāburnāma* place the battle on 13 Jumādā I 933 AH.
+    description_ar: |
+      بعد عام واحد من نصر بانيبات التأسيسي، خاض ظهير الدين محمد
+      بابر معركة في قرية «خانوا» على نحو ستين كيلومتراً غربي
+      أَكْرَه (أغرا) أمام التحالف الراجبوتي بقيادة رانا سانغا
+      صاحب ميوار. وكان رانا سانغا قد جمع أكبر تحالف راجبوتي
+      شهدته تلك العصور — وانضم إليه أمراء أفغان من معسكر اللوديين
+      المهزوم — ليطرد الدولة المغولية الإسلامية الجديدة قبل أن
+      تستقر. ومثلما فعل في بانيبات السنة السابقة، احتمى بابر خلف
+      صفّ من العربات المربوطة (تكتيك «العَرَبا» العثماني)، وأمطر
+      هجمات الفرسان الراجبوتية بنيران البنادق الفتيلية الجماعية
+      والمدافع الخفيفة. فحطم رصاصُ مصطفى الرومي ومدافعُه نظامَ
+      الراجبوت، فجرح رانا سانغا وحُمل من ساحة المعركة وانسحب من
+      بقي. وأنهى النصر الكتلةَ الوحيدة في شمال الهند القادرة على
+      مقاومة بابر، فأرسى دعائم الحكم المغولي على أساس متين تجاوز
+      مجرد نصر بانيبات الفردي. وقد سجّل بابر تفاصيل المعركة في
+      «بابرنامه» مذكراته. والمصادر السنية الكلاسيكية شحيحة لأخبار
+      الهند المغولية؛ وتحدد دائرة المعارف الإسلامية والطبعات
+      الحديثة من «البابرنامه» يومَ المعركة في ١٣ جمادى الأولى
+      ٩٣٣ هـ.
+    description_fr: |
+      Un an après la victoire fondatrice de Pânipat, Ẓahīr al-Dīn
+      Muḥammad Bâbur affronta la confédération rajput de Rânâ
+      Sangâ de Mewâr au village de Khanwa, à une soixantaine de
+      kilomètres à l'ouest d'Agra. Rânâ Sangâ avait assemblé la
+      plus grande coalition rajput de mémoire d'homme — rejoint
+      par les émirs afghans du camp lôdî vaincu — pour chasser
+      le nouvel État moghol avant qu'il ne se consolide. Comme
+      à Pânipat l'année précédente, Bâbur disposa son armée
+      derrière une ligne défensive de chariots liés ensemble
+      (la tactique de l'*araba* / *taburcılık* ottoman) et
+      employa contre la charge de cavalerie rajput des feux
+      massifs de mousquets à mèche et d'artillerie de campagne.
+      Les mousquets et coulevrines de Mustafâ Rûmî brisèrent la
+      formation rajput; Sangâ blessé fut évacué du champ, et les
+      survivants se retirèrent. La victoire écarta la seule
+      coalition d'Inde du Nord capable de résister à Bâbur et
+      fonda véritablement la domination moghole au-delà d'une
+      seule bataille. Bâbur consigna l'affrontement en détail
+      dans le *Bâburnâmâ*. Les chroniques sunnites classiques
+      sont peu prolixes sur l'Inde moghole; l'EI2 et les éditions
+      modernes du *Bâburnâmâ* placent la bataille le 13 jumâdâ
+      I 933 H.
+    canonical_hijri: {year: 933, month: 5, day: 13, precision: day}
+    canonical_gregorian: {date: 1527-03-26, precision: day, method: attested}
+    julian_date: 1527-03-16
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the engagement on 13 Jumādā I 933 / 16 March 1527 (Julian) and details Bābur's matchlock-and-cart tactics."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the Bāburnāma (Beveridge / Thackston editions), which records Bābur's own account of the battle."
+    tags: [mughal, battle, india, babur, rajput, mewar, gunpowder]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Khanwa
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-ghaghra
+    category: battle
+    title_en: Battle of Ghaghra — Babur Defeats the Afghan-Bengali Coalition
+    title_ar: معركة غاغرا — بابر يهزم تحالف الأفغان والبنغال
+    title_fr: Bataille du Ghaghra — Bâbur défait la coalition afghano-bengalie
+    description_en: |
+      Bābur's third decisive victory in India was fought at the
+      confluence of the Ghaghra and the Ganges (in modern Bihar)
+      against an Afghan-Bengali coalition led by Sultan Maḥmūd
+      Lodi (a brother of the Ibrāhīm killed at Panipat) and Sultan
+      Naṣrat Shāh of Bengal. The engagement was an unusual one for
+      a sixteenth-century Indian battle in that it was partly an
+      amphibious operation: Bābur's troops forced a crossing of
+      the Ghaghra under matchlock and artillery cover from a
+      flotilla of riverboats, while his army on the south bank
+      pinned the Afghan host. The Afghan-Bengali coalition broke;
+      Bengal sued for peace and recognised Mughal suzerainty over
+      the territory west of the Ghaghra. With this final victory
+      Bābur extended Mughal rule across the entire Ganges plain
+      from the Indus to the borders of Bengal — the territorial
+      shape his grandson Akbar would inherit and double. Bābur
+      himself recorded the campaign in the *Bāburnāma* under the
+      events of 935 AH; he died the following year.
+    description_ar: |
+      ثالث الانتصارات الحاسمة لبابر في الهند كانت على ملتقى
+      نهري غاغرا والكنج (في بهار الحالية) في مواجهة تحالف
+      أفغاني بنغالي بقيادة السلطان محمود اللودي (شقيق إبراهيم
+      الذي قتل في بانيبات) والسلطان نصرت شاه صاحب البنغال.
+      وكانت معركة استثنائية في عرف المعارك الهندية في القرن
+      السادس عشر إذ تضمنت عملية نهرية: أَجبر بابر قواتِه على
+      عبور غاغرا تحت غطاء البنادق الفتيلية والمدفعية من أسطول
+      من الزوارق النهرية، في حين ثبّت جيشه على الضفة الجنوبية
+      الجيشَ الأفغاني. فانكسر التحالف، وطلب البنغال السلم وأقرّ
+      بسيادة المغول على الأرض الواقعة غربي غاغرا. وبهذا النصر
+      الأخير امتدّت دولة بابر على عموم سهل الكنج من السند إلى
+      تخوم البنغال — وهي الرقعة التي سيرثها حفيده أكبر فيضاعفها.
+      وسجّل بابر الحملة في «بابرنامه» تحت حوادث سنة ٩٣٥ هـ، ومات
+      في السنة التالية.
+    description_fr: |
+      La troisième victoire décisive de Bâbur en Inde fut livrée
+      au confluent du Ghaghra et du Gange (dans le Bihar actuel)
+      contre une coalition afghano-bengalie menée par le sultan
+      Maḥmūd Lôdî (frère d'Ibrâhîm tombé à Pânipat) et le sultan
+      Naṣrat Shâh du Bengale. L'engagement fut inhabituel pour
+      une bataille indienne du XVIᵉ siècle en ce qu'il fut en
+      partie amphibie: Bâbur força le passage du Ghaghra sous
+      le feu de mousquets et d'artillerie tirés depuis une
+      flottille fluviale, tandis que son armée sur la rive sud
+      fixait l'ost afghan. La coalition s'effondra; le Bengale
+      négocia la paix et reconnut la suzeraineté moghole sur le
+      territoire à l'ouest du Ghaghra. Avec cette dernière
+      victoire, Bâbur étendit la domination moghole sur toute la
+      plaine du Gange, de l'Indus aux confins du Bengale — la
+      forme territoriale que son petit-fils Akbar héritera et
+      doublera. Bâbur consigna lui-même la campagne dans le
+      *Bâburnâmâ* sous les événements de 935 H; il mourut l'année
+      suivante.
+    canonical_hijri: {year: 935, month: 8, precision: month}
+    canonical_gregorian: {date: 1529-05-01, precision: month, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the battle in 935 AH (May 1529) at the Ghaghra-Ganges confluence and notes the riverine character of the engagement."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the Bāburnāma's own narrative of the 935 AH campaign."
+    tags: [mughal, battle, india, babur, bengal, afghan, ganges, bihar]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Ghaghra
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # AKBAR — ACCESSION + EXPANSION
+  # =========================================================================
+
+  - slug: accession-of-akbar-at-kalanaur
+    category: political_event
+    title_en: Accession of Akbar at Kalanaur
+    title_ar: تولية أكبر العرش في كلانور
+    title_fr: Accession d'Akbar au trône à Kalanaur
+    description_en: |
+      Jalāl al-Dīn Muḥammad Akbar, aged thirteen, was enthroned in
+      a hastily-built brick platform (the *takht-i-akbarī*, still
+      standing) in the garden of Kalānūr in the Punjab, twenty-six
+      days after the death of his father Humāyūn at Delhi. The
+      Mughal position was precarious: most of northern India
+      remained in the hands of the Sūr restoration regime under
+      the Hindu general Hemū, who had retaken Agra and Delhi
+      within weeks of Humāyūn's death. The young emperor was
+      proclaimed under the regency of the Turkoman noble Bayrām
+      Khān, who would govern the empire for the first four years
+      of the reign. The Kalānūr ceremony — held in the open air
+      because no fortified Mughal capital remained — became one
+      of the iconic scenes of Mughal historiography; Abū al-Faẓl
+      records it in the *Akbarnāma*, dated to 2 Rabīʿ al-Thānī
+      963 AH (14 February 1556 Julian). Akbar would reign for
+      nearly half a century and consolidate Mughal rule across
+      most of the subcontinent.
+    description_ar: |
+      جُلس جلال الدين محمد أكبر — وعمره ثلاث عشرة سنة — على عرش
+      من الآجر بُني على عجل (هو «تخت أكبري» الذي ما زال قائماً
+      إلى اليوم) في بستان كلانور بإقليم البنجاب، بعد ستة وعشرين
+      يوماً من وفاة أبيه همايون بدلهي. وكان الوضع المغولي مزرياً:
+      فمعظم شمال الهند كان في قبضة دولة السوريين العائدة بقيادة
+      القائد الهندوسي «هيمو»، الذي أَعَاد فتح أَكْرَه ودلهي في
+      أسابيع من وفاة همايون. ونُصِّب الإمبراطور الفتى تحت وصاية
+      الأمير التركماني بَيرام خان الذي حكم الدولة في السنوات
+      الأربع الأولى من عهده. وقد صارت مراسم كلانور — التي
+      أُقيمت في العراء لانعدام عاصمة مغولية محصنة آنئذٍ —
+      مشهداً من المشاهد الشهيرة في تاريخ الكتابة المغولية،
+      ويسجّلها أبو الفضل في «أكبرنامه» في يوم ٢ ربيع الآخر
+      ٩٦٣ هـ (١٤ فبراير ١٥٥٦ يولياني). وسيحكم أكبر قرابة نصف
+      قرن وسيرسخ الحكم المغولي على عامة شبه القارة.
+    description_fr: |
+      Jalāl al-Dīn Muḥammad Akbar, âgé de treize ans, fut intronisé
+      sur une plateforme de briques bâtie en hâte (le *takht-i-
+      akbarī*, encore debout) dans le jardin de Kalânûr au Pendjab,
+      vingt-six jours après la mort de son père Humâyûn à Delhi.
+      La position moghole était précaire : la plus grande partie
+      de l'Inde du Nord restait aux mains du régime sūr restauré
+      sous le général hindou Hemû, qui avait repris Agra et Delhi
+      en quelques semaines après la mort de Humâyûn. Le jeune
+      empereur fut proclamé sous la régence du noble turcoman
+      Bayrâm Khân, qui gouvernerait l'empire les quatre premières
+      années du règne. La cérémonie de Kalânûr — tenue en plein
+      air faute de capitale moghole fortifiée — devint l'une des
+      scènes emblématiques de l'historiographie moghole; Abû
+      al-Faḍl la consigne dans l'*Akbarnâmâ* à la date du 2 rabīʿ
+      II 963 H (14 février 1556 julien). Akbar régnerait près
+      d'un demi-siècle et consoliderait la domination moghole
+      sur la quasi-totalité du sous-continent.
+    canonical_hijri: {year: 963, month: 4, day: 2, precision: day}
+    canonical_gregorian: {date: 1556-02-24, precision: day, method: attested}
+    julian_date: 1556-02-14
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the accession at Kalānūr on 2 Rabīʿ al-Thānī 963 / 14 February 1556 (Julian) under the regency of Bayrām Khān."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against Abū al-Faẓl's Akbarnāma, the official chronicle of the reign."
+    tags: [mughal, india, akbar, accession, kalanaur, bayram-khan, punjab]
+    source_url: https://en.wikipedia.org/wiki/Akbar
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: second-battle-of-panipat
+    category: battle
+    title_en: Second Battle of Panipat — Akbar Defeats Hemu
+    title_ar: معركة بانيبات الثانية — أكبر يهزم هيمو
+    title_fr: Seconde bataille de Pânipat — Akbar défait Hemû
+    description_en: |
+      Eight months after Akbar's accession at Kalānūr, the
+      thirteen-year-old emperor's regent Bayrām Khān engaged the
+      Hindu general Hemū at Panipat — the same plain on which
+      Bābur had founded the dynasty thirty years earlier. Hemū,
+      a salt-trader's son who had risen to be the chief minister
+      of the Sūrid sultan ʿĀdil Shāh, had taken Delhi and Agra
+      after Humāyūn's death and had himself proclaimed *Rāja
+      Bikramjīt* — the first Hindu ruler in Delhi for centuries.
+      The battle was decided by a single arrow that struck Hemū
+      in the eye while he was leading his elephant-mounted centre
+      from the front; his army, leaderless, collapsed. The
+      captured and unconscious Hemū was brought before the boy-
+      emperor and beheaded — by Bayrām Khān according to most
+      accounts, by the symbolic stroke of Akbar's sword according
+      to the Mughal court history. The victory restored Delhi to
+      Mughal rule and effectively secured the dynasty for the
+      half-century of Akbar's reign. Modern academic sources
+      including EI2 place the battle on 2 Muḥarram 964 / 5 November
+      1556 (Julian).
+    description_ar: |
+      بعد ثمانية أشهر من تولية أكبر العرش في كلانور، خاض الأمير
+      بَيرام خان وصيُّ الإمبراطور الفتى ابنِ الثلاث عشرة سنةً
+      المعركةَ في بانيبات — في السهل ذاته الذي أسس فيه بابر الدولة
+      المغولية قبل ثلاثين سنة — ضد القائد الهندوسي «هيمو». وكان
+      هيمو ابن تاجر ملح ارتقى حتى صار وزيراً أعظم لسلطان السوريين
+      عادل شاه، فاستولى بعد وفاة همايون على دلهي وأكره وأَعلَن
+      نفسه «راجا بكرماجيت» — أول حاكم هندوسي يحكم دلهي منذ قرون.
+      وحُسمت المعركة بسهم واحد أصاب هيمو في عينه وهو يقود قلب
+      الجيش من على ظهر فيله، فانهار جنده الذين فقدوا قائدهم.
+      وأُحضر هيمو الأسير المغمى عليه أمام الإمبراطور الفتى فقُطعت
+      رأسه — بيد بَيرام خان عند جمهور المؤرخين، أو بضربة رمزية
+      من سيف أكبر عند مؤرخي البلاط المغولي. وأَعَاد النصر دلهي
+      إلى الحكم المغولي وأَمَّن للدولة عمراً امتد نصف قرن من حكم
+      أكبر. وتحدد المصادر الأكاديمية الحديثة — ومنها دائرة
+      المعارف الإسلامية — يومَ المعركة في ٢ محرم ٩٦٤ هـ
+      (٥ نوفمبر ١٥٥٦ يولياني).
+    description_fr: |
+      Huit mois après l'accession d'Akbar à Kalânûr, le régent
+      Bayrâm Khân engagea le combat avec le général hindou Hemû
+      à Pânipat — la plaine même où Bâbur avait fondé la dynastie
+      trente ans plus tôt — pour le compte du jeune empereur âgé
+      de treize ans. Hemû, fils d'un marchand de sel parvenu au
+      rang de premier ministre du sultan sūr ʿĀdil Shâh, avait
+      pris Delhi et Agra après la mort de Humâyûn et s'était fait
+      proclamer *Râja Bikramjît* — premier souverain hindou de
+      Delhi depuis des siècles. La bataille fut décidée par une
+      flèche unique qui frappa Hemû à l'œil alors qu'il menait
+      depuis l'avant son centre d'éléphants; son armée, privée
+      de chef, s'effondra. Le captif Hemû inconscient fut amené
+      devant l'empereur-enfant et décapité — par Bayrâm Khân
+      selon la plupart des récits, par un coup symbolique du
+      sabre d'Akbar selon l'historiographie de la cour moghole.
+      La victoire rendit Delhi à la domination moghole et
+      sécurisa effectivement la dynastie pour le demi-siècle
+      du règne d'Akbar. Les sources académiques modernes — dont
+      l'EI2 — placent la bataille le 2 muḥarram 964 / 5 novembre
+      1556 (julien).
+    canonical_hijri: {year: 964, month: 1, day: 2, precision: day}
+    canonical_gregorian: {date: 1556-11-15, precision: day, method: attested}
+    julian_date: 1556-11-05
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the engagement on 2 Muḥarram 964 / 5 November 1556 (Julian) and identifies Bayrām Khān as battle commander for the boy-emperor Akbar."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against Abū al-Faẓl's Akbarnāma and Niẓām al-Dīn Aḥmad's Ṭabaqāt-i Akbarī."
+    tags: [mughal, battle, india, akbar, hemu, panipat, bayram-khan, sur]
+    source_url: https://en.wikipedia.org/wiki/Second_Battle_of_Panipat
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: akbar-conquest-of-gujarat
+    category: conquest
+    title_en: Akbar's Conquest of Gujarat
+    title_ar: فتح أكبر لكجرات
+    title_fr: Conquête du Gujarat par Akbar
+    description_en: |
+      The annexation of the Sultanate of Gujarat — until then an
+      independent Muslim sultanate ruled by the Muẓaffarid dynasty
+      — gave Akbar his first sea-coast and a major source of
+      maritime revenue. The campaign opened in late 980 AH (1573
+      CE) when Akbar marched from Agra and entered Aḥmadābād
+      without resistance; the deposed Sultan Muẓaffar III had
+      already fled. The decisive engagement followed at Sarnāl on
+      the Mahī river, where Akbar — riding ahead of his main army
+      with a force reportedly numbering only about two hundred —
+      defeated a far larger Mīrzā contingent in a textbook example
+      of personal command. A second campaign the following year
+      crushed a rebellion led by Iʿtimād Khān and the Mīrzās,
+      after which Akbar made the celebrated forty-three-day forced
+      march from Fatḥpūr Sīkrī to Aḥmadābād (about 800 km) to
+      surprise and destroy the rebel army at the second Battle of
+      Aḥmadābād. The conquest opened Mughal access to the Gujarati
+      ports of Sūrat and Cambay — the gateway through which the
+      ḥajj fleet and the Indian Ocean spice trade thereafter
+      flowed under Mughal supervision.
+    description_ar: |
+      ضمّ أكبر سلطنةَ كجرات — التي كانت حتى ذلك الحين سلطنةً
+      مسلمة مستقلة يحكمها بنو المظفر — أكسبه أول ساحل بحري له
+      ومصدراً ضخماً للعوائد البحرية. افتتحت الحملة في أواخر سنة
+      ٩٨٠ هـ (١٥٧٣ م) إذ سار أكبر من أَكْرَه فدخل أحمد آباد دون
+      مقاومة، وكان السلطان المعزول مظفر الثالث قد فرّ قبله.
+      وانعقدت الموقعة الفاصلة عند «سرنال» على نهر «ماهي»، حيث
+      هزم أكبر — متقدماً جيشَه الرئيسي على رأس قوة لا يجاوز
+      عددها — على ما يُروى — مئتي فارس — جيشَ المرزا الأكبر
+      منه بمراحل، وكان مثالاً نموذجياً للقيادة الشخصية. وفي
+      السنة التالية أخمدت الحملة الثانية ثورة قادها اعتماد خان
+      وأسرة المرزا، فقام أكبر بعدها بمسيرته الشهيرة في ثلاثة
+      وأربعين يوماً من فاتحبور سيكري إلى أحمد آباد (نحو ٨٠٠ كم)
+      ليفاجئ الثائرين فيدمرهم في معركة أحمد آباد الثانية. وفتح
+      هذا الضمُّ للمغول مرافئ كجرات — سورة وكنباية — التي
+      صار من خلالها أسطولُ الحج وتجارةُ التوابل في المحيط
+      الهندي يجريان تحت الإشراف المغولي.
+    description_fr: |
+      L'annexion du sultanat du Gujarat — jusqu'alors un sultanat
+      musulman indépendant gouverné par la dynastie muẓaffaride —
+      donna à Akbar son premier littoral maritime et une source
+      majeure de revenus marchands. La campagne s'ouvrit fin
+      980 H (1573 EC) quand Akbar marcha d'Agra et entra à
+      Aḥmadābād sans résistance; le sultan déposé Muẓaffar III
+      avait déjà pris la fuite. L'engagement décisif suivit à
+      Sarnâl sur la rivière Mahī, où Akbar — devançant le gros
+      de son armée à la tête d'une troupe qui n'aurait, dit-on,
+      pas dépassé deux cents cavaliers — défit un contingent
+      mīrzā bien plus nombreux dans un exemple manuel de
+      commandement personnel. Une seconde campagne l'année
+      suivante écrasa une rébellion menée par Iʿtimâd Khân et
+      les Mīrzās, après quoi Akbar effectua sa célèbre marche
+      forcée de quarante-trois jours de Fatḥpūr Sīkrī à Aḥmadābād
+      (environ 800 km) pour surprendre et détruire l'armée rebelle
+      à la seconde bataille d'Aḥmadābād. La conquête ouvrit aux
+      Moghols les ports gujaratis de Sûrat et Cambay — la porte
+      par laquelle la flotte du ḥajj et le commerce des épices
+      de l'océan Indien passaient désormais sous supervision
+      moghole.
+    canonical_hijri: {year: 980, precision: year}
+    canonical_gregorian: {date: 1573-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 dates the conquest of Gujarat to 980 AH (1573 CE) and notes the strategic importance of the maritime ports of Sūrat and Cambay."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the Akbarnāma's account of the 1572–73 and 1573 campaigns and the second forced march to Aḥmadābād."
+    tags: [mughal, conquest, india, akbar, gujarat, surat, cambay, hajj]
+    source_url: https://en.wikipedia.org/wiki/Mughal_conquest_of_Gujarat
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-haldighati
+    category: battle
+    title_en: Battle of Haldighati — Akbar's Army against Maharana Pratap
+    title_ar: معركة هلديغاتي — جيش أكبر في مواجهة مهارانا براتاب
+    title_fr: Bataille de Haldighâtî — l'armée d'Akbar contre Mahârâṇâ Pratâp
+    description_en: |
+      A pitched battle in a narrow defile of the Aravalli range
+      west of Udaipur between the Mughal field army commanded by
+      Rājā Mān Singh of Āmber — a Hindu Rajput in Akbar's service
+      and the most senior of his Hindu generals — and the forces
+      of Mahārāṇā Pratāp Singh of Mewār, the Rajput prince who had
+      refused to submit to Mughal suzerainty after Akbar's other
+      Rajput houses had accepted vassal status. The action lasted
+      a single morning. Pratāp's smaller force — including a
+      contingent of Pashtun mercenaries under Ḥakīm Khān Sūr —
+      held off the Mughal van in fierce fighting; Pratāp himself
+      famously charged Mān Singh's elephant and barely escaped
+      the field on his wounded horse Chetak. The Mughal centre
+      eventually broke the Mewār line and held the field, but
+      Pratāp escaped into the Aravallis where he conducted a
+      guerrilla resistance for the remaining twenty-one years of
+      his life — recovering most of the lost territory by his
+      death in 1597. Modern academic sources place the battle on
+      18 June 1576 (Julian).
+    description_ar: |
+      معركة ميدانية في مضيق ضيق بسلسلة جبال أرافالي غربي أودَيبور
+      بين الجيش الميداني المغولي بقيادة الراجا «مان سينغ» صاحب
+      أَمبير — وهو راجبوتي هندوسي في خدمة أكبر وأكبر قواده
+      الهندوس — وقوات «مهارانا براتاب سينغ» أمير ميوار، الراجبوتي
+      الذي رفض الإذعان للسيادة المغولية بعد أن قبلت سائر بيوت
+      الراجبوت أن تكون من الأتباع. ودارت المعركة في صبيحة
+      واحدة. صمدت قوة براتاب الأقل عدداً — وفيها كتيبة من المرتزقة
+      البشتون بقيادة «حكيم خان السوري» — أمام طليعة المغول في
+      قتال شديد، وشَنَّ براتاب نفسه هجومه الشهير على فيل مان
+      سينغ، ولم ينجُ من الميدان إلا بفرسه الجريح «شيتاك». ثم
+      كسر القلب المغولي صفّ ميوار في النهاية واحتفظ بالميدان،
+      لكن براتاب لجأ إلى جبال أرافالي حيث شنّ حرب عصابات إحدى
+      وعشرين سنة هي ما بقي من عمره — استعاد فيها معظم الأرض
+      المسلوبة قبل وفاته سنة ١٥٩٧ م. وتحدد المصادر الأكاديمية
+      الحديثة يومَ المعركة في ١٨ يونيو ١٥٧٦ يولياني.
+    description_fr: |
+      Bataille rangée dans un défilé étroit des monts Aravalli
+      à l'ouest d'Udaipur entre l'armée moghole de campagne
+      commandée par le râjâ Mân Singh d'Âmber — Rajput hindou
+      au service d'Akbar et le plus haut placé de ses généraux
+      hindous — et les forces du mahârâṇâ Pratâp Singh de
+      Mewâr, prince Rajput qui avait refusé de se soumettre à
+      la suzeraineté moghole là où les autres maisons Rajput
+      l'avaient acceptée. L'action ne dura qu'une matinée. La
+      troupe plus restreinte de Pratâp — comprenant un contingent
+      de mercenaires pashtouns sous Ḥakīm Khân Sûr — tint en
+      échec l'avant-garde moghole dans un combat acharné; Pratâp
+      lui-même chargea l'éléphant de Mân Singh dans son fameux
+      assaut et n'échappa au champ qu'à grand-peine sur son
+      cheval blessé Chetak. Le centre moghol finit par enfoncer
+      la ligne de Mewâr et garda le terrain, mais Pratâp se
+      retira dans les Aravalli où il conduisit une résistance
+      de guérilla durant les vingt-et-un années qui lui restaient
+      — récupérant la plus grande partie du territoire perdu
+      avant sa mort en 1597. Les sources académiques modernes
+      placent la bataille le 18 juin 1576 (julien).
+    canonical_hijri: {year: 984, month: 3, day: 21, precision: day}
+    canonical_gregorian: {date: 1576-06-28, precision: day, method: attested}
+    julian_date: 1576-06-18
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the battle on 18 June 1576 (Julian) and identifies Mān Singh of Āmber as Akbar's commander against Pratāp."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the Akbarnāma and modern academic studies of the Mughal–Mewār conflict."
+    tags: [mughal, battle, india, akbar, mewar, rajput, man-singh, pratap]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Haldighati
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # JAHANGIR — DEATH
+  # =========================================================================
+
+  - slug: death-of-jahangir
+    category: ruler_death
+    title_en: Death of Emperor Jahāngīr
+    title_ar: وفاة الإمبراطور جهانكير
+    title_fr: Mort de l'empereur Jahângîr
+    description_en: |
+      Nūr al-Dīn Muḥammad Salīm — fourth Mughal emperor under the
+      reign-name Jahāngīr ("Conqueror of the World"), son of
+      Akbar — died on the road from Kashmir to Lahore at the
+      relay station of Bhimber in the Pir Panjal foothills, of
+      asthma and the long effects of opium and alcohol use. His
+      twenty-two-year reign saw the consolidation of Akbar's
+      conquests rather than fresh territorial expansion, the
+      first English embassy under Sir Thomas Roe (1615 –1619), and
+      the rise to political dominance of his Persian-born consort
+      Nūr Jahān, who governed in his name during his last decade.
+      The succession passed to his son Khurram (Shāh Jahān) after
+      a three-month war of succession against his other brothers.
+      He was buried at Shahdara on the banks of the Ravi outside
+      Lahore, where his widow Nūr Jahān raised the marble tomb
+      that still stands. Modern academic sources place his death
+      on 28 October 1627 (Julian) / 28 Ṣafar 1037 AH.
+    description_ar: |
+      توفي نور الدين محمد سليم — رابع أباطرة المغول باسم الحكم
+      «جهانكير» («فاتح الدنيا»)، ابن الإمبراطور أكبر — على
+      الطريق من كشمير إلى لاهور في محطة «بهيمبر» في تخوم سلسلة
+      «بير بانجال»، بسبب الربو والآثار المتراكمة لتعاطي الأفيون
+      والمسكر. وشهد عهده الذي امتدّ اثنتين وعشرين سنة ترسيخ
+      فتوحات أكبر دون توسعات إقليمية كبيرة جديدة، ووصول السفارة
+      الإنجليزية الأولى بقيادة السير توماس رو (١٦١٥–١٦١٩)،
+      وصعودَ زوجته الفارسية «نور جهان» إلى السيطرة السياسية،
+      حتى صارت تحكم باسمه في عشريته الأخيرة. وانتقل المُلك إلى
+      ابنه «خرم» (شاه جهان) بعد حرب أهلية على العرش امتدت
+      ثلاثة أشهر مع إخوته. ودفن في «شاهدره» على ضفة نهر «راوي»
+      خارج لاهور، حيث رفعت أرملته نور جهان قبره الرخامي الذي
+      ما زال قائماً. وتحدد المصادر الأكاديمية الحديثة يوم
+      وفاته في ٢٨ أكتوبر ١٦٢٧ يولياني / ٢٨ صفر ١٠٣٧ هـ.
+    description_fr: |
+      Nūr al-Dīn Muḥammad Salīm — quatrième empereur moghol sous
+      le nom de règne de Jahângîr (« Conquérant du monde »), fils
+      d'Akbar — mourut sur la route du Cachemire vers Lahore au
+      relais de Bhimber dans les contreforts du Pir Panjal,
+      d'asthme et des effets cumulés de l'opium et de l'alcool.
+      Son règne de vingt-deux ans vit la consolidation des
+      conquêtes d'Akbar plutôt qu'une expansion territoriale
+      nouvelle, la première ambassade anglaise sous Sir Thomas
+      Roe (1615 –1619) et la montée à la prééminence politique
+      de son épouse persane Nûr Jahân, qui gouverna en son nom
+      durant sa dernière décennie. La succession passa à son
+      fils Khurram (Shâh Jahân) après une guerre de succession
+      de trois mois contre ses autres frères. Il fut enseveli
+      à Shahdara sur la rive du Ravi près de Lahore, où sa
+      veuve Nûr Jahân éleva le tombeau de marbre qui se dresse
+      encore. Les sources académiques modernes placent sa mort
+      le 28 octobre 1627 (julien) / 28 ṣafar 1037 H.
+    canonical_hijri: {year: 1037, month: 2, day: 28, precision: day}
+    canonical_gregorian: {date: 1627-11-07, precision: day, method: attested}
+    julian_date: 1627-10-28
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 dates the death to 28 Ṣafar 1037 / 28 October 1627 at Bhimber on the road from Kashmir to Lahore."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the official Mughal court chronicle (Tūzuk-i Jahāngīrī continuation by Muʿtamad Khān)."
+    tags: [mughal, india, jahangir, ruler-death, kashmir, lahore, nur-jahan]
+    source_url: https://en.wikipedia.org/wiki/Jahangir
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # AURANGZEB — ACCESSION
+  # =========================================================================
+
+  - slug: accession-of-aurangzeb
+    category: political_event
+    title_en: Accession of Aurangzeb after the Siege of Agra
+    title_ar: تولي أورنكزيب الحكم بعد حصار أكره
+    title_fr: Accession d'Aurangzeb après le siège d'Agra
+    description_en: |
+      Muḥyī al-Dīn Muḥammad Aurangzeb formally ascended the
+      Mughal throne under the regnal title ʿĀlamgīr ("Seizer of
+      the World") at Delhi after a year-long war of succession
+      against his three brothers — Dārā Shukōh, Shāh Shujāʿ, and
+      Murād Bakhsh — and the deposition and confinement of his
+      father Shāh Jahān at Agra. After defeating Dārā at the
+      battles of Dharmāt and Sāmugarh in spring 1658, Aurangzeb
+      besieged the Agra Fort where his father held the Yamuna-side
+      water gate. Within a few weeks, with water supplies cut,
+      Shāh Jahān surrendered the fort; Aurangzeb confined him to
+      the Mussamman Burj — the same octagonal pavilion from which
+      Shāh Jahān looked across the river at the Tāj Maḥal — for
+      the remaining seven years of his life. The first formal
+      enthronement at Delhi was on 1 Dhū al-Qaʿda 1068 (31 July
+      1658); a second more elaborate coronation followed on 5 June
+      1659 after Dārā's capture and execution. Aurangzeb would
+      reign for forty-nine years — the longest of any Mughal
+      emperor — and extend the empire to its largest territorial
+      footprint while presiding over its first signs of strain.
+    description_ar: |
+      اعتلى محيي الدين محمد أورنكزيب رسمياً عرش الدولة المغولية
+      تحت لقب الحكم «عالمكير» («فاتح الدنيا») بدلهي بعد سنة من
+      حرب أهلية على العرش مع إخوته الثلاثة — دارا شُكوه وشاه شجاع
+      ومراد بخش — وبعد عزل أبيه شاه جهان وحبسه بأَكْرَه. وبعد
+      هزيمة دارا في معركتي «درمات» و«ساموغرة» في ربيع ١٦٥٨ م،
+      حاصر أورنكزيب قلعة أَكْرَه التي تحصن بها أبوه عند بوابة
+      الماء على نهر «جومنا». فما هي إلا أسابيع حتى انقطعت
+      المياه عن القلعة، فاستسلم شاه جهان، فعزله أورنكزيب في
+      «المثمن برج» — الجناح الثماني الذي يطل على نهر جومنا
+      ومنه كان شاه جهان يبصر تاج محل عبر النهر — ما بقي من
+      عمره سبعَ سنواتٍ. وكانت أول مراسم تنصيب رسمية بدلهي في
+      ١ ذي القعدة ١٠٦٨ هـ (٣١ يوليو ١٦٥٨ م)، ثم تلتها مراسم
+      تنصيب ثانية أوسع في ٥ يونيو ١٦٥٩ م بعد القبض على دارا
+      وإعدامه. وحكم أورنكزيب تسعاً وأربعين سنة — وهي أطول مدة
+      حكم لإمبراطور مغولي — وامتدّت في عهده الدولة إلى أقصى
+      اتساع لها وفي عهده ظهرت بوادر إنهاكها.
+    description_fr: |
+      Muḥyī al-Dīn Muḥammad Aurangzeb monta formellement sur le
+      trône moghol sous le nom de règne d'ʿĀlamgîr (« Saisisseur
+      du monde ») à Delhi après une guerre de succession d'un
+      an contre ses trois frères — Dârâ Shukôh, Shâh Shujâʿ et
+      Murâd Bakhsh — et la déposition et l'enfermement de son
+      père Shâh Jahân à Agra. Après avoir vaincu Dârâ aux
+      batailles de Dharmât et de Sâmugarh au printemps 1658,
+      Aurangzeb assiégea le fort d'Agra où son père tenait la
+      porte d'eau côté Yamunâ. En quelques semaines, l'eau
+      coupée, Shâh Jahân rendit la forteresse; Aurangzeb le
+      confina au Mussamman Burj — le pavillon octogonal d'où
+      Shâh Jahân regardait par-delà la rivière le Taj Mahal —
+      pour les sept années qui lui restaient à vivre. Le
+      premier intronisation formelle à Delhi eut lieu le 1
+      dhū al-qaʿda 1068 (31 juillet 1658); une seconde
+      cérémonie plus solennelle suivit le 5 juin 1659 après
+      la capture et l'exécution de Dârâ. Aurangzeb régnerait
+      quarante-neuf ans — le règne le plus long de tous les
+      empereurs moghols — et étendrait l'empire à son plus
+      grand développement territorial tout en présidant ses
+      premiers signes d'épuisement.
+    canonical_hijri: {year: 1068, month: 11, day: 1, precision: day}
+    canonical_gregorian: {date: 1658-08-10, precision: day, method: attested}
+    julian_date: 1658-07-31
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 dates the first Delhi enthronement to 1 Dhū al-Qaʿda 1068 / 31 July 1658 (Julian), with the formal jashn-i jūlūs on 5 June 1659."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the Mughal court chronicles ʿĀlamgīrnāma and Maʾāthir-i ʿĀlamgīrī."
+    tags: [mughal, india, aurangzeb, accession, agra, shah-jahan, dara-shukoh]
+    source_url: https://en.wikipedia.org/wiki/Aurangzeb
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MARATHA SACK OF SURAT
+  # =========================================================================
+
+  - slug: maratha-sack-of-surat-1664
+    category: political_event
+    title_en: Maratha Capture and Sack of Surat under Shivaji
+    title_ar: استيلاء المرهتيين على سورة ونهبها بقيادة شيواجي
+    title_fr: Prise et sac de Sûrat par les Marathes sous Shivâjî
+    description_en: |
+      Shivājī Bhonsle, founder of the emergent Maratha
+      confederacy, raided and sacked the great Mughal port of
+      Sūrat on the Gujarati coast — at that date the wealthiest
+      port in the empire and the principal entrepôt of the Indian
+      Ocean trade flowing into India, including the annual ḥajj
+      fleet to the Hijaz. The city's Mughal governor, Ināyat
+      Khān, retreated into the citadel; Shivājī's force occupied
+      the city for six days, plundered the merchants' havelis
+      and the European factory compounds (English, Dutch and
+      French), and withdrew with what European observers
+      estimated at one crore (10 million) rupees in cash, plate
+      and goods, plus prisoners for ransom. The English East
+      India Company factor George Oxenden mounted a defence of
+      the English compound that was rewarded by the Crown; the
+      Mughal failure to protect the port was a profound shock to
+      Aurangzeb's prestige and prompted a hardening of the
+      imperial military presence in the Deccan. The raid is
+      conventionally dated to early January 1664; the date is
+      Julian as the European factory records of the time used
+      that calendar.
+    description_ar: |
+      أغار شيواجي بهونسلي مؤسس الكونفدرالية المرهتية الناشئة
+      على ميناء سورة الكبرى المغولي على الساحل الكجراتي ونهبه —
+      وكان حينئذ أغنى موانئ الدولة المغولية، والمرفأ الرئيسي
+      لتجارة المحيط الهندي القادمة إلى الهند، بما في ذلك أسطول
+      الحج السنوي إلى الحجاز. وتحصن والي المدينة المغولي
+      «عناية خان» في القلعة، فاحتلت قوة شيواجي المدينة ستة أيام،
+      ونهبت قصور التجار ومستودعات الشركات الأوروبية (الإنجليزية
+      والهولندية والفرنسية)، ثم انسحبت بما قدّره الشهود الأوروبيون
+      بـعشرة ملايين روبية نقداً وفضةً وسلعاً، فضلاً عن أسرى
+      للفداء. وكان «جورج أوكسندن» وكيل شركة الهند الشرقية
+      الإنجليزية قد دافع عن مجمع الإنجليز دفاعاً كافأه عليه التاج
+      الإنجليزي، وكان عجز المغول عن حماية الميناء صدمةً قاسية
+      لهيبة أورنكزيب وحفّز تشديد الوجود العسكري الإمبراطوري في
+      الدكن. ومن المتعارف عليه تأريخ الغارة في مطلع يناير ١٦٦٤ م،
+      وهو تاريخ يولياني وفق ما كانت تستعمله سجلات الشركات
+      الأوروبية حينئذٍ.
+    description_fr: |
+      Shivâjî Bhonsle, fondateur de la confédération marathe
+      naissante, attaqua et sacca le grand port moghol de Sûrat
+      sur la côte du Gujarat — à cette date le port le plus riche
+      de l'empire et le principal entrepôt du commerce de l'océan
+      Indien arrivant en Inde, y compris la flotte annuelle du
+      ḥajj vers le Hedjaz. Le gouverneur moghol de la ville,
+      Ināyat Khân, se retira dans la citadelle; la force de
+      Shivâjî occupa la ville six jours, pilla les havelis des
+      marchands et les comptoirs européens (anglais, néerlandais
+      et français), et se retira avec ce que les observateurs
+      européens estimèrent à un crore (dix millions) de roupies
+      en numéraire, vaisselle et marchandises, plus des
+      prisonniers pour rançon. Le facteur de la Compagnie
+      anglaise des Indes orientales, George Oxenden, organisa
+      une défense du comptoir anglais que la Couronne récompensa;
+      l'incapacité moghole à protéger le port fut un choc profond
+      pour le prestige d'Aurangzeb et provoqua un durcissement
+      de la présence militaire impériale au Deccan. Le raid est
+      conventionnellement daté du début de janvier 1664; la date
+      est julienne, le calendrier utilisé par les registres
+      européens des comptoirs à l'époque.
+    canonical_hijri: {year: 1074, month: 6, precision: month}
+    canonical_gregorian: {date: 1664-01-16, precision: day, method: attested}
+    julian_date: 1664-01-06
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the Maratha sack of Sūrat in early January 1664 (Julian) and details the six-day occupation under Shivājī while the governor remained in the citadel."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the English East India Company factory records of George Oxenden and the Mughal court history Maʾāthir-i ʿĀlamgīrī."
+    tags: [mughal, maratha, india, surat, shivaji, aurangzeb, deccan]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Surat
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # NADIR SHAH'S INVASION (1739)
+  # =========================================================================
+
+  - slug: battle-of-karnal
+    category: battle
+    title_en: Battle of Karnal — Nādir Shāh Defeats the Mughals
+    title_ar: معركة كرنال — نادر شاه يهزم المغول
+    title_fr: Bataille de Karnâl — Nâdir Shâh défait les Moghols
+    description_en: |
+      The pitched battle on the plain of Karnāl, ninety
+      kilometres north of Delhi, in which the Persian army of
+      Nādir Shāh Afshār — having marched out of Iran through
+      Qandahār, Ghazna and Kabul and crossed the Indus —
+      decisively defeated the Mughal field army of Emperor
+      Muḥammad Shāh "Rangīla" in a few hours of fighting. The
+      Mughal army was numerically much larger but mostly composed
+      of cumbersome elephant- and palanquin-borne nobility; the
+      Afsharid Persians fought as a tightly disciplined regular
+      force with massed musketry and the manoeuvrable *zamburak*
+      camel-mounted swivel gun. Two of the Emperor's three
+      principal commanders — Khān-i Daurān and Saʿādat Khān —
+      were killed or captured in a single morning; the third,
+      Niẓām al-Mulk, sued for terms. Muḥammad Shāh surrendered
+      his person and was escorted into Delhi at Nādir's side a
+      fortnight later. Modern academic sources date the battle
+      to 24 February 1739 / 13 Dhū al-Qaʿda 1151 AH.
+    description_ar: |
+      المعركة الميدانية في سهل كرنال، على نحو تسعين كيلومتراً
+      شمالي دلهي، التي هزم فيها جيش نادر شاه الأفشاري الفارسي
+      — بعد أن سار من إيران عبر قندهار وغزنة وكابل ثم عبر السند —
+      جيش الإمبراطور المغولي محمد شاه «رنغيلا» الميداني هزيمة
+      حاسمة في ساعات معدودة من القتال. وكان الجيش المغولي أكثر
+      عدداً بكثير لكنه مكوّن في معظمه من النبالة الراكبين على
+      الفيلة والمحفّات الثقيلة، في حين قاتل الأفشاريون كقوة
+      نظامية مدرّبة منضبطة بنيران بنادق جماعية وبسلاح «الزنبورك»
+      المدفعي المحمول على الجمل سهل المناورة. وفي صبيحة واحدة
+      قتل اثنان من قواد الإمبراطور الثلاثة الرئيسيين — «خان
+      دوران» و«سعادت خان» — أو أُسرا، أما الثالث «نظام الملك»
+      فطلب الأمان. واستسلم محمد شاه شخصياً وسار بعدها بأسبوعين
+      إلى دلهي بصحبة نادر شاه. وتحدد المصادر الأكاديمية الحديثة
+      يوم المعركة في ٢٤ فبراير ١٧٣٩ م / ١٣ ذي القعدة ١١٥١ هـ.
+    description_fr: |
+      Bataille rangée dans la plaine de Karnâl, à quatre-vingt-dix
+      kilomètres au nord de Delhi, dans laquelle l'armée perse
+      de Nâdir Shâh Afshâr — ayant marché d'Iran via Qandahâr,
+      Ghazna et Kaboul puis franchi l'Indus — défit en quelques
+      heures de combat l'armée moghole de campagne de l'empereur
+      Muḥammad Shâh « Rangîlâ ». L'armée moghole était bien plus
+      nombreuse mais composée pour l'essentiel d'une noblesse
+      encombrée d'éléphants et de palanquins; les Perses
+      afshârides combattirent en force régulière fortement
+      disciplinée avec des feux de mousquets massifs et le
+      *zambūrak*, pièce d'artillerie pivotante montée sur
+      chameau et particulièrement mobile. Deux des trois
+      principaux chefs de l'empereur — Khân-i Dawrân et Saʿâdat
+      Khân — furent tués ou capturés en une matinée; le
+      troisième, Niẓâm al-Mulk, demanda des conditions. Muḥammad
+      Shâh livra sa personne et fut escorté à Delhi quinze jours
+      plus tard aux côtés de Nâdir. Les sources académiques
+      modernes datent la bataille du 24 février 1739 / 13 dhū
+      al-qaʿda 1151 H.
+    canonical_hijri: {year: 1151, month: 11, day: 13, precision: day}
+    canonical_gregorian: {date: 1739-02-24, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the battle on 13 Dhū al-Qaʿda 1151 / 24 February 1739 and details the Afsharid use of zamburak swivel guns."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against Mahdī Khān Astarābādī's Tārīkh-i Jahān-gushā-yi Nādirī (the official Afsharid chronicle)."
+    tags: [mughal, persian, battle, india, nadir-shah, muhammad-shah, karnal, afsharid]
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Karnal
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: nadir-shah-sack-of-delhi
+    category: political_event
+    title_en: Nādir Shāh's Sack of Delhi
+    title_ar: نادر شاه ينهب دلهي
+    title_fr: Sac de Delhi par Nâdir Shâh
+    description_en: |
+      A fortnight after his victory at Karnāl, Nādir Shāh entered
+      Delhi at the side of the captive Emperor Muḥammad Shāh.
+      Order held for two days. On the morning of 22 March 1739
+      (Julian 11 March) — provoked by a riot in the Chāndnī
+      Chowk during which Persian soldiers had been killed —
+      Nādir mounted the Sunehrī Masjid by the roadside, drew his
+      sword, and gave the signal for a *qatl-i ʿāmm*, a general
+      massacre. From dawn until two o'clock in the afternoon his
+      troops killed indiscriminately in the streets, bāzārs and
+      havelis of Old Delhi; estimates of the dead range from
+      twenty thousand to thirty thousand, with much of the city
+      put to the torch. Muḥammad Shāh interceded; Nādir sheathed
+      his sword and ordered the killing to stop. The Persians
+      then conducted a systematic stripping of the city's wealth
+      over fifty-seven days — the imperial treasury, the Peacock
+      Throne, the Kūh-i Nūr and Daryā-i Nūr diamonds, and an
+      indemnity in cash and bullion. The contemporary Mughal
+      historian Anand Rām Mukhliṣ chronicled the catastrophe in
+      *Tazkira*. The sack broke the financial back of the Mughal
+      state and is commonly identified as the moment from which
+      its terminal decline became irrecoverable.
+    description_ar: |
+      بعد أسبوعين من نصره في كرنال دخل نادر شاه دلهي بصحبة
+      الإمبراطور الأسير محمد شاه. واستتب النظام يومين. ثم في
+      صبيحة ٢٢ مارس ١٧٣٩ م (الموافق ١١ مارس يولياني) — على
+      أثر شغب في «شاندني تشوك» قُتل فيه عدد من الجنود الفرس —
+      صعد نادر شاه إلى مسجد «سُنهري» على جانب الطريق، فاستلّ
+      سيفه، وأعطى إشارة «القتل العام» (قتل عام). فقتل جنده من
+      الفجر إلى الساعة الثانية بعد الظهر دون تمييز في شوارع
+      دلهي القديمة وأسواقها وقصورها، وتتراوح تقديرات القتلى
+      بين عشرين ألفاً وثلاثين ألفاً، مع إحراق جزء كبير من
+      المدينة. وتوسط محمد شاه إلى نادر، فأَغمد سيفه وأمر بوقف
+      القتل. ثم نفّذ الفرس تجريداً منهجياً لثروة المدينة على
+      مدى سبعة وخمسين يوماً — خزانة الإمبراطورية والعرش الطاووسي
+      وألماستي «كوه نور» و«دريا نور» وفداء نقدي وذهبي. وسجّل
+      المؤرخ المغولي المعاصر «أناند رام مخلص» الكارثةَ في كتابه
+      «التذكرة». وكسر السلب ظهر الدولة المغولية مالياً، ويُحدَّد
+      عادةً منه اللحظةُ التي صار انحدارها النهائي بعدها لا رجعة
+      فيه.
+    description_fr: |
+      Quinze jours après sa victoire de Karnâl, Nâdir Shâh entra
+      dans Delhi aux côtés de l'empereur captif Muḥammad Shâh.
+      L'ordre tint deux jours. Au matin du 22 mars 1739 (11
+      mars julien) — provoqué par une émeute dans le Chândnî
+      Chowk au cours de laquelle des soldats persans avaient
+      été tués — Nâdir monta sur la Sunehrî Masjid au bord de
+      la rue, tira l'épée et donna le signal d'un *qatl-i ʿāmm*,
+      un massacre général. De l'aube à deux heures de l'après-
+      midi ses troupes tuèrent sans distinction dans les rues,
+      bâzârs et havelis du Vieux Delhi; les estimations des
+      morts vont de vingt à trente mille, et une grande partie
+      de la ville fut livrée aux flammes. Muḥammad Shâh
+      intercéda; Nâdir rengaina et ordonna la cessation des
+      tueries. Les Perses procédèrent ensuite à un dépouillement
+      systématique des richesses de la ville pendant cinquante-
+      sept jours — le trésor impérial, le Trône du Paon, les
+      diamants Kûh-i Nûr et Daryâ-i Nûr, et une indemnité en
+      espèces et en lingots. L'historien moghol contemporain
+      Anand Râm Mukhliṣ a chroniqué la catastrophe dans la
+      *Tazkira*. Le sac brisa l'épine financière de l'État
+      moghol et marque communément le moment à partir duquel
+      son déclin terminal devint irrémédiable.
+    canonical_hijri: {year: 1151, month: 12, day: 11, precision: day}
+    canonical_gregorian: {date: 1739-03-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the qatl-i ʿāmm of 22 March 1739 (11 March Julian) and details the fifty-seven-day occupation, the seizure of the Peacock Throne and Kūh-i Nūr."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the contemporary Mughal account by Anand Rām Mukhliṣ (Tazkira) and Mahdī Khān Astarābādī's Tārīkh-i Jahān-gushā-yi Nādirī."
+    tags: [mughal, persian, india, nadir-shah, muhammad-shah, delhi, sack, peacock-throne]
+    source_url: https://en.wikipedia.org/wiki/Nader_Shah%27s_invasion_of_the_Mughal_Empire
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # LATE MUGHAL DEATHS
+  # =========================================================================
+
+  - slug: death-of-muhammad-shah-rangila
+    category: ruler_death
+    title_en: Death of Emperor Muḥammad Shāh "Rangīla"
+    title_ar: وفاة الإمبراطور محمد شاه «رنغيلا»
+    title_fr: Mort de l'empereur Muḥammad Shâh « Rangîlâ »
+    description_en: |
+      Nāṣir al-Dīn Muḥammad Shāh — the twelfth Mughal emperor,
+      called "Rangīla" ("the colourful") for the cultural
+      flowering of Urdu poetry, music and miniature painting that
+      adorned his court — died at Delhi after a reign of twenty-
+      nine years. His was a reign of presiding catastrophe: the
+      Maratha conquest of Mālwa and the Deccan, the secession of
+      Hyderabad and Awadh as independent successor states, and
+      above all Nādir Shāh's invasion of 1739, which he had
+      personally surrendered after the rout at Karnāl. The empire
+      he passed to his son Aḥmad Shāh Bahādur was a shell of the
+      one Aurangzeb had ruled forty years earlier, with effective
+      sovereignty reduced to the Delhi-Agra region and most
+      provinces de facto independent. He was buried in the Niẓām
+      al-Dīn dargāh complex outside Delhi. EI2 places his death
+      in 1161 AH (April 1748).
+    description_ar: |
+      توفي ناصر الدين محمد شاه — ثاني عشر أباطرة المغول، الملقب
+      «رنغيلا» («الملوّن») لما عرف به بلاطه من ازدهار ثقافي للشعر
+      الأردي والموسيقى والرسم المنمنم — بدلهي بعد عهد امتدّ تسعاً
+      وعشرين سنة. وكان عهده عهد كوارث متتابعة: فتح المرهتيين
+      «مالوا» والدكن، وانفصال «حيدر آباد» و«أوده» كدويلات وراثية
+      مستقلة، وفوق ذلك كله غزو نادر شاه سنة ١٧٣٩ م الذي استسلم
+      له شخصياً بعد كارثة كرنال. وكانت الدولة التي أورثها لابنه
+      «أحمد شاه بهادر» ظلَّ ما حكمه أورنكزيب قبل أربعين سنة فقط،
+      وقد انكمش حكمها الفعلي على إقليم دلهي–أكره وصارت معظم
+      الأقاليم دولاً مستقلة بحكم الواقع. ودفن في مجمع «نظام الدين
+      أولياء» خارج دلهي. وتحدد دائرة المعارف الإسلامية وفاتَه
+      في سنة ١١٦١ هـ (أبريل ١٧٤٨ م).
+    description_fr: |
+      Nâṣir al-Dīn Muḥammad Shâh — douzième empereur moghol,
+      surnommé « Rangîlâ » (« le coloré ») pour le rayonnement
+      culturel de la poésie ourdoue, de la musique et de la
+      miniature qui ornèrent sa cour — mourut à Delhi après un
+      règne de vingt-neuf ans. Son règne fut celui d'une
+      catastrophe de présidence : conquête marathe du Mâlwâ et
+      du Deccan, sécession de Hyderabad et d'Awadh en États
+      successeurs indépendants, et surtout l'invasion de Nâdir
+      Shâh en 1739, à laquelle il s'était personnellement rendu
+      après la déroute de Karnâl. L'empire qu'il transmit à son
+      fils Aḥmad Shâh Bahâdur n'était plus que l'ombre de celui
+      qu'avait gouverné Aurangzeb quarante ans plus tôt, la
+      souveraineté effective réduite à la région Delhi-Agra et
+      la plupart des provinces de facto indépendantes. Il fut
+      enseveli dans le complexe du dargâh de Niẓâm al-Dīn près
+      de Delhi. L'EI2 place sa mort en 1161 H (avril 1748).
+    canonical_hijri: {year: 1161, month: 4, day: 27, precision: day}
+    canonical_gregorian: {date: 1748-04-26, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the death of Muḥammad Shāh in late Rabīʿ al-Thānī 1161 / April 1748 at Delhi after a 29-year reign."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against the late-Mughal court chronicle Tārīkh-i Muḥammadī of Mīrzā Muḥammad Bakhshī."
+    tags: [mughal, india, muhammad-shah, ruler-death, delhi, urdu, rangila]
+    source_url: https://en.wikipedia.org/wiki/Muhammad_Shah
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ahmad-shah-bahadur
+    category: ruler_death
+    title_en: Death of Emperor Aḥmad Shāh Bahādur
+    title_ar: وفاة الإمبراطور أحمد شاه بهادر
+    title_fr: Mort de l'empereur Aḥmad Shâh Bahâdur
+    description_en: |
+      Mujāhid al-Dīn Abū Naṣir Muḥammad Aḥmad Shāh Bahādur —
+      thirteenth Mughal emperor, son of Muḥammad Shāh "Rangīla"
+      and the dancer Ūdham Bāī — died at Delhi after thirteen
+      years in confinement, having been deposed and blinded by
+      his vizier ʿImād al-Mulk in Shaʿbān 1167 (June 1754) and
+      replaced by ʿĀlamgīr II. His brief active reign (1748–1754)
+      was dominated by Aḥmad Shāh Durrānī's first two invasions
+      of north India in 1748 and 1751, the latter producing the
+      cession of the Punjab to the Durrānī state, and by the
+      assertion of effective control over Delhi by his vizier.
+      He was the last Mughal emperor under whom imperial
+      administration nominally extended much beyond the Delhi
+      hinterland; after him the empire was a Mughal in name and
+      a Marāṭhā or Durrānī protectorate in fact. He was buried
+      in the precinct of the Mubārak Bēgum mosque in Old Delhi.
+      EI2 places his death in 1188 AH / January 1775.
+    description_ar: |
+      توفي مجاهد الدين أبو ناصر محمد أحمد شاه بهادر — ثالث عشر
+      أباطرة المغول، ابن محمد شاه «رنغيلا» و«أُدهم باي» الراقصة —
+      بدلهي بعد ثلاث عشرة سنة في الحبس، إذ خلعه وزيره «عماد
+      الملك» وسمل عينيه في شعبان ١١٦٧ هـ (يونيو ١٧٥٤ م) واستبدل
+      به «عالمكير الثاني». وامتدّ عهد حكمه الفعلي القصير
+      (١٧٤٨–١٧٥٤ م) في غمار غزوتي أحمد شاه الدراني الأوليين
+      لشمال الهند سنتي ١٧٤٨ و١٧٥١، وكانت ثانيتهما سبباً في تنازل
+      المغول عن البنجاب لدولة الدرانيين، وفي بسط وزيره سيطرته
+      الفعلية على دلهي. وكان آخر إمبراطور مغولي امتدّ في عهده
+      الحكم الإمبراطوري — ولو اسمياً — إلى أبعد من ضاحية دلهي،
+      فبعده صار المغول مغولاً بالاسم ومحميةً مرهتية أو درانية في
+      الواقع. ودفن في حرم مسجد «مبارك بيغم» بدلهي القديمة. وتحدد
+      دائرة المعارف الإسلامية وفاته في سنة ١١٨٨ هـ / يناير
+      ١٧٧٥ م.
+    description_fr: |
+      Mujāhid al-Dīn Abū Naṣir Muḥammad Aḥmad Shâh Bahâdur —
+      treizième empereur moghol, fils de Muḥammad Shâh « Rangîlâ »
+      et de la danseuse Ûdham Bâî — mourut à Delhi après treize
+      ans de réclusion, ayant été déposé et aveuglé par son vizir
+      ʿImâd al-Mulk en shaʿbân 1167 (juin 1754) et remplacé par
+      ʿĀlamgīr II. Son bref règne effectif (1748–1754) fut
+      dominé par les deux premières invasions d'Aḥmad Shâh
+      Durrānî en Inde du Nord en 1748 et 1751, la seconde
+      aboutissant à la cession du Pendjab à l'État durrânî, et
+      par l'affermissement du contrôle effectif de Delhi par
+      son vizir. Il fut le dernier empereur moghol sous lequel
+      l'administration impériale s'étendit nominalement au-delà
+      de l'arrière-pays de Delhi; après lui l'empire fut moghol
+      de nom et marathe ou durrânî de fait. Il fut enseveli
+      dans l'enceinte de la mosquée Mubârak Bēgum dans le Vieux
+      Delhi. L'EI2 place sa mort en 1188 H / janvier 1775.
+    canonical_hijri: {year: 1188, month: 10, day: 28, precision: day}
+    canonical_gregorian: {date: 1775-01-01, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 dates the death of Aḥmad Shāh Bahādur to early 1188 AH (January 1775) at Delhi after thirteen years of post-deposition confinement."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against Ghulām Ḥusayn Khān's Siyar al-Mutaʾakhkhirīn — the authoritative late-Mughal chronicle."
+    tags: [mughal, india, ahmad-shah-bahadur, ruler-death, delhi, durrani]
+    source_url: https://en.wikipedia.org/wiki/Ahmad_Shah_Bahadur
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-shah-alam-ii
+    category: ruler_death
+    title_en: Death of Emperor Shāh ʿĀlam II
+    title_ar: وفاة الإمبراطور شاه عالم الثاني
+    title_fr: Mort de l'empereur Shâh ʿĀlam II
+    description_en: |
+      Jalāl al-Dīn ʿAlī Jawhar Shāh ʿĀlam II — fifteenth Mughal
+      emperor — died at Delhi after one of the longest and most
+      tormented reigns in the dynasty's history. He had succeeded
+      his murdered father ʿĀlamgīr II in 1759 in absentia at
+      Allāhābād; commanded the Mughal field army at the disaster
+      of Buxar against the East India Company in 1764; lived in
+      Allāhābād under Company protection until 1772; returned to
+      Delhi under Maratha protection; and in Shaʿbān 1202 (1788)
+      was blinded by the Rohilla amīr Ghulām Qādir during a
+      sixty-eight-day occupation of the Red Fort, after which he
+      reigned for another eighteen years as a blind sovereign in
+      a city he no longer ruled. After Lord Lake's defeat of the
+      Marathas at Delhi in 1803, the British East India Company
+      took over his nominal protection, and the imperial
+      pension-state that the British and the Mughals jointly
+      maintained until 1857 dates from this transition. His coins
+      continued to be struck in his name across India until his
+      death. EI2 places his death on 7 Ramaḍān 1221 / 19 November
+      1806.
+    description_ar: |
+      توفي جلال الدين علي جوهر شاه عالم الثاني — خامس عشر أباطرة
+      المغول — بدلهي بعد واحد من أطول العهود وأشدها قساوة في
+      تاريخ الدولة. خلف أباه «عالمكير الثاني» المقتول سنة ١٧٥٩ م
+      وهو غائب في «إله آباد»، وقاد الجيش المغولي الميداني في
+      كارثة «بكسر» ضد شركة الهند الشرقية الإنجليزية سنة ١٧٦٤،
+      وعاش في «إله آباد» تحت حماية الشركة حتى ١٧٧٢، ثم عاد إلى
+      دلهي تحت حماية المرهتيين. وفي شعبان ١٢٠٢ هـ (١٧٨٨ م) سمل
+      عينيه الأمير الروهيلي «غلام قادر» خلال احتلاله القلعة الحمراء
+      ثمانية وستين يوماً، فحكم بعدها ثماني عشرة سنة سلطاناً أعمى
+      في مدينة لم يعد يحكمها. وبعد هزيمة اللورد «ليك» للمرهتيين
+      في دلهي سنة ١٨٠٣ م تولّت شركة الهند الشرقية الحماية الاسمية
+      عليه، ومن هذا الانتقال انبثقت دولة معاش الإمبراطور التي
+      ظلّ الإنجليز والمغول يديرونها معاً إلى ١٨٥٧ م. وظلت
+      عملاته تُسكّ باسمه في عموم الهند إلى وفاته. وتحدد دائرة
+      المعارف الإسلامية وفاته في ٧ رمضان ١٢٢١ هـ / ١٩ نوفمبر
+      ١٨٠٦ م.
+    description_fr: |
+      Jalāl al-Dīn ʿAlī Jawhar Shâh ʿĀlam II — quinzième empereur
+      moghol — mourut à Delhi après l'un des règnes les plus
+      longs et les plus tourmentés de l'histoire de la dynastie.
+      Il avait succédé à son père assassiné ʿĀlamgīr II en 1759
+      en absence à Allâhâbâd; commandé l'armée moghole de
+      campagne au désastre de Buxar contre la Compagnie
+      anglaise des Indes orientales en 1764; vécu à Allâhâbâd
+      sous protection de la Compagnie jusqu'en 1772; et était
+      revenu à Delhi sous protection marathe; en shaʿbân 1202
+      (1788) il fut aveuglé par l'émir rohilla Ghulām Qâdir
+      durant une occupation de soixante-huit jours du Fort
+      rouge, après quoi il régna dix-huit autres années comme
+      souverain aveugle dans une ville qu'il ne gouvernait plus.
+      Après la défaite des Marathes par Lord Lake à Delhi en
+      1803, la Compagnie anglaise reprit sa protection nominale,
+      et l'état-pension impérial que les Britanniques et les
+      Moghols entretinrent conjointement jusqu'en 1857 date de
+      cette transition. Ses monnaies continuèrent d'être frappées
+      à son nom à travers l'Inde jusqu'à sa mort. L'EI2 place
+      sa mort le 7 ramaḍân 1221 / 19 novembre 1806.
+    canonical_hijri: {year: 1221, month: 9, day: 7, precision: day}
+    canonical_gregorian: {date: 1806-11-19, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 places the death of Shāh ʿĀlam II on 7 Ramaḍān 1221 / 19 November 1806 at Delhi."
+      - source_key: editorial
+        notes: "Editorial summary cross-checked against Ghulām Ḥusayn Khān's Siyar al-Mutaʾakhkhirīn and the Persian and English East India Company chronicles of the late-Mughal pension-state."
+    tags: [mughal, india, shah-alam-ii, ruler-death, delhi, east-india-company, buxar]
+    source_url: https://en.wikipedia.org/wiki/Shah_Alam_II
+    importance: notable
+    verified: true
+    verification_status: cross_verified

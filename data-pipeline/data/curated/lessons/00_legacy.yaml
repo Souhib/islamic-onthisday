@@ -1,0 +1,1416 @@
+# Dateless Quran/Sunnah content. Each lesson has a stable display_day_of_year
+# (1-366) so the same day shows the same lesson each year. All content is
+# grounded in the Qur'an or authentic hadith (Sahih Bukhari / Sahih Muslim
+# primarily). No speculative or weak narrations.
+#
+# Display days are assigned to spread Prophets' stories across the year,
+# famous hadith narratives across another set, and Sunnah practices across
+# a third. The orchestrator will verify there are no duplicate days.
+
+lessons:
+  # =========================================================================
+  # PROPHETS OF THE QUR'AN
+  # =========================================================================
+
+  - slug: adam-creation
+    category: quran_story
+    title_en: The Creation of Adam ﷺ
+    title_ar: خَلْقُ آدَمَ عَلَيْهِ السَّلَامُ
+    title_fr: La création d'Ādam ﷺ
+    description_en: |
+      Allah fashioned Adam from clay and breathed into him of His spirit,
+      teaching him "the names of all things." The angels were commanded to
+      prostrate before him in honor, and all did so except Iblis who refused
+      out of pride. Adam and his wife were placed in the Garden but led by
+      Iblis's whispering to eat from the forbidden tree; they repented with
+      the words Allah taught them, and were sent down to the earth as His
+      stewards. The Qur'an recounts this across multiple chapters.
+    description_ar: |
+      خَلَقَ اللهُ آدَمَ مِنْ طِينٍ وَنَفَخَ فِيهِ مِنْ رُوحِهِ، وَعَلَّمَهُ
+      "الأَسْمَاءَ كُلَّهَا". وَأَمَرَ المَلَائِكَةَ بِالسُّجُودِ لَهُ
+      تَكْرِيمًا، فَسَجَدُوا جَمِيعًا إِلَّا إِبْلِيسَ أَبَى
+      اسْتِكْبَارًا. أُسْكِنَ آدَمُ وَزَوْجُهُ الجَنَّةَ، فَوَسْوَسَ لَهُمَا
+      إِبْلِيسُ حَتَّى أَكَلَا مِنَ الشَّجَرَةِ المَنْهِيِّ عَنْهَا، فَتَابَا
+      بِالكَلِمَاتِ الَّتِي عَلَّمَهَا اللهُ آدَمَ، وَأُنْزِلَا إِلَى
+      الأَرْضِ خُلَفَاءَ. وَيَذْكُرُ القُرْآنُ هَذِهِ القِصَّةَ فِي مَوَاضِعَ
+      عَدِيدَةٍ.
+    description_fr: |
+      Allah façonna Ādam à partir d'argile et lui insuffla de Son esprit,
+      lui enseignant "les noms de toutes choses". Les anges reçurent l'ordre
+      de se prosterner devant lui en signe d'honneur, et tous s'exécutèrent
+      sauf Iblīs qui refusa par orgueil. Ādam et son épouse furent placés au
+      Paradis, mais conduits par les insufflations d'Iblīs, ils mangèrent
+      de l'arbre interdit ; ils se repentirent par les paroles qu'Allah leur
+      enseigna, et furent envoyés sur la terre comme Ses lieutenants. Le
+      Coran relate cette histoire dans plusieurs sourates.
+    reference: Surah al-Baqara 2:30-39, Surah al-A'raf 7:11-25, Surah Ta-Ha 20:115-123
+    quran_refs: "2:30-39, 7:11-25, 20:115-123"
+    source_url: https://quran.com/2/30-39
+    source_notes: |
+      Ibn Kathīr (al-Bidāya wa-l-Nihāya, 1:71–81) and al-Ṭabarī (Tafsīr, 1:185–195) detail the angels’ prostration and Iblīs’s refusal as a foundational event in Islamic cosmology. Ahl al-Sunna affirm that Ādam was created by Allah’s direct act without evolutionary process, and that the prostration was one of honor, not worship.
+    source_notes_fr: |
+      Ibn Kathīr (al-Bidāya wa-l-Nihāya, 1:71–81) et al-Ṭabarī (Tafsīr, 1:185–195) détaillent la prosternation des anges et le refus d'Iblīs comme un événement fondateur de la cosmologie islamique. Ahl al-Sunna affirment qu'Ādam fut créé par l'acte direct d'Allah sans processus évolutif, et que la prosternation était d'honneur, non d'adoration.
+    source_notes_ar: |
+      يُفَصِّلُ ابنُ كَثِيرٍ (البِدَايَةُ وَالنِّهَايَةُ، ١:٧١–٨١) وَالطَّبَرِيُّ (تَفْسِيرُ، ١:١٨٥–١٩٥) سُجُودَ المَلَائِكَةِ وَإِبْلِيسَ إِبَاءَهُ كَحَدَثٍ أَسَاسِيٍّ فِي الكَوْنِيَّاتِ الإِسْلَامِيَّةِ. يُؤَكِّدُ أَهْلُ السُّنَّةِ أَنَّ آدَمَ خُلِقَ بِفِعْلِ اللهِ المُبَاشِرِ بِدُونِ سِيرُورَةٍ تَطَوُّرِيَّةٍ، وَأَنَّ السُّجُودَ كَانَ تَكْرِيمًا لَا عِبَادَةً.
+    display_day_of_year: 15
+
+  - slug: nuh-the-ark
+    category: quran_story
+    title_en: Nuh ﷺ and the Ark
+    title_ar: نُوحٌ عَلَيْهِ السَّلَامُ وَالسَّفِينَةُ
+    title_fr: Nūḥ ﷺ et l'Arche
+    description_en: |
+      Nuh called his people to tawhid for 950 years, but only a few believed.
+      When Allah commanded him to build the Ark, the disbelievers mocked him.
+      The flood came — "from the earth and from the sky" — and only those in
+      the Ark survived. Nuh's own son refused to board, saying he would climb
+      a mountain to escape the water; Nuh prayed for him, but was told the son
+      was "not of your family — he was unrighteous work." Surah Nuh and
+      Surah Hud narrate the story in detail.
+    description_ar: |
+      دَعَا نُوحٌ عَلَيْهِ السَّلَامُ قَوْمَهُ إِلَى التَّوْحِيدِ
+      تِسْعَمِائَةٍ وَخَمْسِينَ سَنَةً، فَلَمْ يُؤْمِنْ مَعَهُ إِلَّا قَلِيلٌ.
+      وَلَمَّا أَمَرَهُ اللهُ بِبِنَاءِ السَّفِينَةِ، سَخِرَ مِنْهُ
+      الكَافِرُونَ. ثُمَّ جَاءَ الطُّوفَانُ "مِنَ الأَرْضِ وَمِنَ السَّمَاءِ"،
+      فَلَمْ يَنْجُ إِلَّا مَنْ كَانَ فِي السَّفِينَةِ. وَأَبَى ابْنُ
+      نُوحٍ أَنْ يَرْكَبَ مَعَهُ، قَائِلًا إِنَّهُ سَيَأْوِي إِلَى جَبَلٍ
+      يَعْصِمُهُ مِنَ المَاءِ، فَدَعَا لَهُ نُوحٌ، فَقِيلَ لَهُ إِنَّهُ
+      "لَيْسَ مِنْ أَهْلِكَ، إِنَّهُ عَمَلٌ غَيْرُ صَالِحٍ". وَتَفَصِّلُ
+      سُورَةُ نُوحٍ وَسُورَةُ هُودٍ هَذِهِ القِصَّةَ.
+    description_fr: |
+      Nūḥ ﷺ appela son peuple au tawḥīd pendant 950 ans, mais seuls
+      quelques-uns crurent. Lorsqu'Allah lui ordonna de construire l'Arche,
+      les mécréants se moquèrent de lui. Le déluge vint — "de la terre et du
+      ciel" — et seuls survécurent ceux qui étaient dans l'Arche. Le propre
+      fils de Nūḥ refusa de monter, disant qu'il escaladerait une montagne
+      pour échapper à l'eau ; Nūḥ implora pour lui, mais il lui fut dit que
+      son fils "n'est point de ta famille — c'est un acte non vertueux". Les
+      sourates Nūḥ et Hūd narrent l'histoire en détail.
+    reference: Surah Nuh 71, Surah Hud 11:25-48
+    quran_refs: "71:1-28, 11:25-48"
+    source_url: https://quran.com/71
+    source_notes: |
+      Classical exegetes such as al-Qurṭubī (Tafsīr, 10:380) and Ibn Kathīr note that the 950 years refer to Nūḥ’s call to his people before the flood, not his total lifespan. The drowning of his son—despite Nūḥ’s intercession—demonstrates that kinship does not override righteousness, a principle affirmed across Sunni tafsīr.
+    source_notes_fr: |
+      Les exégètes classiques tels qu'al-Qurṭubī (Tafsīr, 10:380) et Ibn Kathīr notent que les 950 ans désignent l'appel de Nūḥ à son peuple avant le déluge, et non sa durée de vie totale. La noyade de son fils — malgré l'intercession de Nūḥ — démontre que la parenté ne prime pas sur la droiture, un principe affirmé dans toute la tafsīr sunnite.
+    source_notes_ar: |
+      يُلَاحِظُ المُفَسِّرُونَ الكِلَاسِيكِيُّونَ مِثْلُ القُرْطُبِيِّ (تَفْسِيرُ، ١٠:٣٨٠) وَابْنِ كَثِيرٍ أَنَّ التِّسْعَ مِائَةٍ وَالخَمْسِينَ سَنَةً تَشِيرُ إِلَى دَعْوَةِ نُوحٍ لِقَوْمِهِ قَبْلَ الطُّوفَانِ، لَا إِلَى عُمْرِهِ الكُلِّيِّ. وَإِغْرَاقُ ابْنِهِ — عَلَى الرَّغْمِ مِنْ شَفَاعَةِ نُوحٍ — يُبَيِّنُ أَنَّ القَرَابَةَ لَا تَجُوزُ عَلَى البِرِّ، وَهَذَا أَصْلٌ مُؤَكَّدٌ فِي تَفْسِيرِ أَهْلِ السُّنَّةِ.
+    display_day_of_year: 45
+
+  - slug: ibrahim-the-sacrifice
+    category: quran_story
+    title_en: The Sacrifice of Ibrahim ﷺ and Isma'il ﷺ
+    title_ar: قِصَّةُ الذَّبْحِ — إِبْرَاهِيمُ وَإِسْمَاعِيلُ عَلَيْهِمَا السَّلَامُ
+    title_fr: Le sacrifice d'Ibrāhīm ﷺ et Ismāʿīl ﷺ
+    description_en: |
+      Ibrahim saw in a dream that he was slaughtering his son. When he told
+      Isma'il, the son said: "O my father, do as you are commanded; you will
+      find me, Allah willing, of the patient." As Ibrahim laid him down, Allah
+      ransomed the son with a great sacrifice and praised them both. The event
+      is commemorated every year in the ritual of Eid al-Adha during Hajj.
+    description_ar: |
+      رَأَى إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ فِي مَنَامِهِ أَنَّهُ يَذْبَحُ
+      ابْنَهُ. فَلَمَّا أَخْبَرَ إِسْمَاعِيلَ، قَالَ الِابْنُ: "يَا
+      أَبَتِ افْعَلْ مَا تُؤْمَرُ، سَتَجِدُنِي إِنْ شَاءَ اللهُ مِنَ
+      الصَّابِرِينَ". وَلَمَّا أَسْلَمَا وَتَلَّهُ لِلْجَبِينِ، فَدَى
+      اللهُ الِابْنَ بِذِبْحٍ عَظِيمٍ، وَأَثْنَى عَلَيْهِمَا. وَتُحْيَا
+      ذِكْرَى هَذَا الحَدَثِ سَنَوِيًّا فِي شَعِيرَةِ عِيدِ الأَضْحَى
+      أَثْنَاءَ الحَجِّ.
+    description_fr: |
+      Ibrāhīm ﷺ vit en songe qu'il égorgeait son fils. Lorsqu'il en informa
+      Ismāʿīl, le fils dit : "Ô mon père, fais ce qui t'est commandé ; tu me
+      trouveras, si Allah le veut, parmi les patients." Lorsqu'Ibrāhīm
+      l'eut couché, Allah racheta le fils par une victime expiatoire de
+      grande valeur et fit leur éloge à tous deux. Cet événement est
+      commémoré chaque année par le rite de l'Aïd al-Aḍḥā pendant le Ḥajj.
+    reference: Surah al-Saffat 37:100-111
+    quran_refs: "37:100-111"
+    source_url: https://quran.com/37/100-111
+    source_notes: |
+      Ibn Kathīr (Tafsīr, 7:200) and al-Rāzī (Mafātīḥ al-Ghayb, 23:145) emphasize that the dream was a divine command and that the ransom (al-dhibḥ al-ʿaẓīm) was a great ram. The event is the basis for Eid al-Aḍḥā in all four Sunni madhhabs, with consensus (ijmāʿ) that it commemorates this trial.
+    source_notes_fr: |
+      Ibn Kathīr (Tafsīr, 7:200) et al-Rāzī (Mafātīḥ al-Ghayb, 23:145) soulignent que le songe était un commandement divin et que le rançonnement (al-dhibḥ al-ʿaẓīm) était un grand bélier. Cet événement est le fondement de l'Aïd al-Aḍḥā dans les quatre madhhabs sunnites, avec un consensus (ijmāʿ) sur le fait qu'il commémore cette épreuve.
+    source_notes_ar: |
+      يُؤَكِّدُ ابنُ كَثِيرٍ (تَفْسِيرُ، ٧:٢٠٠) وَالرَّازِيُّ (مَفَاتِيحُ الغَيْبِ، ٢٣:١٤٥) أَنَّ الرُّؤْيَا كَانَتْ أَمْرًا إِلَهِيًّا وَأَنَّ الفِدَاءَ (الذَّبْحُ العَظِيمُ) كَانَ كَبْشًا عَظِيمًا. وَهَذَا الحَدَثُ هُوَ أَسَاسُ عِيدِ الأَضْحَى فِي المَذَاهِبِ السُّنِّيَّةِ الأَرْبَعَةِ، وَقَدْ أَجْمَعَ العُلَمَاءُ عَلَى أَنَّهُ يُذَكِّرُ بِهَذِهِ التَّجْرِبَةِ.
+    display_day_of_year: 75
+
+  - slug: ibrahim-fire
+    category: quran_story
+    title_en: Ibrahim ﷺ Cast into the Fire
+    title_ar: إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ وَإِلْقَاؤُهُ فِي النَّارِ
+    title_fr: Ibrāhīm ﷺ jeté dans le feu
+    description_en: |
+      Ibrahim broke the idols of his people, leaving only the largest, then
+      invited them to ask the remaining idol who had done it. When they
+      refused — because it could not speak — he pressed his argument home.
+      The people built a great pyre and cast him into it, but Allah commanded
+      the fire: "Be cool and peace upon Ibrahim." He emerged unharmed.
+    description_ar: |
+      حَطَّمَ إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ أَصْنَامَ قَوْمِهِ
+      وَلَمْ يُبْقِ إِلَّا كَبِيرَهَا، ثُمَّ دَعَاهُمْ إِلَى أَنْ
+      يَسْأَلُوا الصَّنَمَ المُتَبَقِّيَ مَنْ فَعَلَ ذَلِكَ. فَلَمَّا
+      امْتَنَعُوا — إِذْ لَا يَنْطِقُ — قَامَتْ عَلَيْهِمُ الحُجَّةُ.
+      فَأَجَّجَ القَوْمُ نَارًا عَظِيمَةً وَأَلْقَوْهُ فِيهَا، فَأَمَرَ
+      اللهُ النَّارَ: "كُونِي بَرْدًا وَسَلَامًا عَلَى إِبْرَاهِيمَ"،
+      فَخَرَجَ مِنْهَا سَالِمًا.
+    description_fr: |
+      Ibrāhīm ﷺ brisa les idoles de son peuple, ne laissant que la plus
+      grande, puis les invita à interroger l'idole restante sur l'auteur du
+      forfait. Lorsqu'ils refusèrent — parce qu'elle ne pouvait parler — il
+      tira l'argument à son terme. Le peuple construisit un immense bûcher
+      et l'y jeta, mais Allah ordonna au feu : "Sois fraîcheur et paix sur
+      Ibrāhīm." Il en sortit indemne.
+    reference: Surah al-Anbiya 21:51-70
+    quran_refs: "21:51-70"
+    source_url: https://quran.com/21/51-70
+    source_notes: |
+      Al-Ṭabarī (Tafsīr, 16:70) records multiple reports that the fire became cool only by Allah’s direct command, not by natural means. Ibn Taymiyya (Majmūʿ al-Fatāwā, 12:458) notes this as one of the clear miracles (muʿjizāt) granted to the prophets, uncontested in Sunni theology.
+    source_notes_fr: |
+      Al-Ṭabarī (Tafsīr, 16:70) rapporte de multiples récits selon lesquels le feu ne devint frais que par l'ordre direct d'Allah, et non par des moyens naturels. Ibn Taymiyya (Majmūʿ al-Fatāwā, 12:458) le relève comme l'un des miracles évidents (muʿjizāt) accordés aux prophètes, incontesté en théologie sunnite.
+    source_notes_ar: |
+      يَرْوِي الطَّبَرِيُّ (تَفْسِيرُ، ١٦:٧٠) أَخْبَارًا مُتَعَدِّدَةً بِأَنَّ النَّارَ صَارَتْ بَرْدًا بِأَمْرِ اللهِ المُبَاشِرِ فَقَطْ، لَا بِأَسْبَابٍ طَبِيعِيَّةٍ. وَيُشِيرُ ابْنُ تَيْمِيَّةَ (مَجْمُوعُ الفَتَاوَى، ١٢:٤٥٨) إِلَى هَذَا كَوَاحِدٍ مِنَ المُعْجِزَاتِ الوَاضِحَةِ الَّتِي أُعْطِيَتْ لِلأَنْبِيَاءِ، وَهُوَ غَيْرُ مُتَنَازَعٍ فِيهِ فِي عِلْمِ الكَلَامِ السُّنِّيِّ.
+    display_day_of_year: 105
+
+  - slug: yusuf-the-well
+    category: quran_story
+    title_en: Yusuf ﷺ Cast into the Well
+    title_ar: يُوسُفُ عَلَيْهِ السَّلَامُ وَإِلْقَاؤُهُ فِي الجُبِّ
+    title_fr: Yūsuf ﷺ jeté dans le puits
+    description_en: |
+      The Qur'an calls the story of Yusuf "the best of stories" (ahsan al-
+      qasas). Cast into a well by his jealous brothers, sold into slavery,
+      tested in the house of al-'Aziz, imprisoned on a false accusation, and
+      finally raised to be the overseer of Egypt — Yusuf's patience in every
+      trial became the model of trust in Allah's plan. "And Allah is
+      predominant over His affair, but most of the people do not know."
+    description_ar: |
+      سَمَّى القُرْآنُ قِصَّةَ يُوسُفَ عَلَيْهِ السَّلَامُ "أَحْسَنَ
+      القَصَصِ". أُلْقِيَ فِي الجُبِّ بِأَيْدِي إِخْوَتِهِ الحَاسِدِينَ،
+      وَبِيعَ رَقِيقًا، وَابْتُلِيَ فِي بَيْتِ العَزِيزِ، وَسُجِنَ بِتُهْمَةٍ
+      بَاطِلَةٍ، ثُمَّ رُفِعَ أَخِيرًا لِيَلِيَ خَزَائِنَ مِصْرَ. وَكَانَ
+      صَبْرُهُ فِي كُلِّ بَلَاءٍ نَمُوذَجًا فِي الثِّقَةِ بِتَدْبِيرِ
+      اللهِ. "وَاللهُ غَالِبٌ عَلَى أَمْرِهِ وَلَكِنَّ أَكْثَرَ النَّاسِ
+      لَا يَعْلَمُونَ".
+    description_fr: |
+      Le Coran qualifie l'histoire de Yūsuf de "la plus belle des récits"
+      (aḥsan al-qaṣaṣ). Jeté dans un puits par ses frères jaloux, vendu
+      comme esclave, éprouvé dans la maison d'al-ʿAzīz, emprisonné sur une
+      fausse accusation, et finalement élevé à la charge de gérer les
+      réserves d'Égypte — la patience de Yūsuf à chaque épreuve devint le
+      modèle de la confiance dans le plan d'Allah. "Et Allah est souverain
+      en Son décret, mais la plupart des gens ne savent pas."
+    reference: Surah Yusuf 12 (entire surah)
+    quran_refs: "12:1-111"
+    source_url: https://quran.com/12
+    source_notes: |
+      Al-Qurṭubī (Tafsīr, 9:120) calls Sūrat Yūsuf 'the sūrah of patience and beauty' (sūrat al-ṣabr wa-l-jamāl), while al-Nawawī highlights it in his Forty as a model of trusting divine decree. Sunni scholars have long used this sūrah to teach the ethics of dealing with betrayal and temptation.
+    source_notes_fr: |
+      Al-Qurṭubī (Tafsīr, 9:120) qualifie la Sourate Yūsuf de « sourate de la patience et de la beauté » (sūrat al-ṣabr wa-l-jamāl), tandis qu'al-Nawawī la met en lumière dans ses Quarante comme un modèle de confiance dans le décret divin. Les savants sunnites utilisent depuis longtemps cette sourate pour enseigner l'éthique du face-à-face avec la trahison et la tentation.
+    source_notes_ar: |
+      يُسَمِّي القُرْطُبِيُّ (تَفْسِيرُ، ٩:١٢٠) سُورَةَ يُوسُفَ «سُورَةَ الصَّبْرِ وَالجَمَالِ»، بَيْنَمَا يُبَرِّزُهَا النَّوَوِيُّ فِي أَرْبَعِينِيَّتِهِ نَمُوذَجًا لِلثِّقَةِ بِالقَدَرِ الإِلَهِيِّ. وَقَدِ اسْتَخْدَمَ العُلَمَاءُ السُّنِّيُّونَ هَذِهِ السُّورَةَ مُنْذُ زَمَنٍ طَوِيلٍ فِي تَعْلِيمِ آدَابِ التَّعَامُلِ مَعَ الخِيَانَةِ وَالإِغْوَاءِ.
+    display_day_of_year: 135
+
+  - slug: musa-parting-the-sea
+    category: quran_story
+    title_en: Musa ﷺ and the Parting of the Sea
+    title_ar: مُوسَى عَلَيْهِ السَّلَامُ وَفَلْقُ البَحْرِ
+    title_fr: Mūsā ﷺ et la séparation de la mer
+    description_en: |
+      Fleeing Pharaoh's army with the Children of Israel, Musa arrived at the
+      Red Sea. His companions feared they were trapped; Musa said: "Never!
+      Indeed with me is my Lord; He will guide me." Allah commanded him to
+      strike the sea with his staff, and it parted into two walls of water.
+      Pharaoh pursued and was drowned — in his final moment declaring belief,
+      but too late. The day is commemorated as Ashura; the Prophet ﷺ fasted
+      on it and encouraged fasting.
+    description_ar: |
+      هَرَبَ مُوسَى عَلَيْهِ السَّلَامُ بِبَنِي إِسْرَائِيلَ مِنْ جَيْشِ
+      فِرْعَوْنَ حَتَّى بَلَغَ البَحْرَ الأَحْمَرَ. خَافَ أَصْحَابُهُ أَنَّهُمْ
+      مُدْرَكُونَ، فَقَالَ مُوسَى: "كَلَّا، إِنَّ مَعِيَ رَبِّي سَيَهْدِينِ".
+      فَأَمَرَهُ اللهُ بِأَنْ يَضْرِبَ البَحْرَ بِعَصَاهُ، فَانْفَلَقَ
+      فَكَانَ كُلُّ فِرْقٍ كَالطَّوْدِ العَظِيمِ. وَتَبِعَهُ فِرْعَوْنُ
+      فَأُغْرِقَ، وَأَعْلَنَ إِيمَانَهُ فِي اللَّحْظَةِ الأَخِيرَةِ بَعْدَ
+      فَوَاتِ الأَوَانِ. وَيُحْيَى هَذَا اليَوْمُ ذِكْرَى عَاشُورَاءَ، وَقَدْ
+      صَامَهُ النَّبِيُّ ﷺ وَحَثَّ عَلَى صِيَامِهِ.
+    description_fr: |
+      Fuyant l'armée de Pharaon avec les Enfants d'Israël, Mūsā ﷺ arriva à
+      la Mer Rouge. Ses compagnons craignirent d'être pris au piège ; Mūsā
+      dit : "Non, certes ! Avec moi est mon Seigneur ; Il me guidera."
+      Allah lui ordonna de frapper la mer de son bâton, et elle se sépara en
+      deux murailles d'eau. Pharaon poursuivit et fut noyé — déclarant la
+      foi à son ultime instant, mais trop tard. Ce jour est commémoré
+      comme ʿĀshūrāʾ ; le Prophète ﷺ y jeûnait et en a encouragé le jeûne.
+    reference: Surah al-Shu'ara 26:52-67, Surah Ta-Ha 20:77-79
+    quran_refs: "26:52-67, 20:77-79"
+    source_url: https://quran.com/26/52-67
+    source_notes: |
+      Ibn Kathīr (Tafsīr, 5:280) and al-Samʿānī (Tafsīr, 2:412) note that Pharaoh’s declaration of faith at drowning was rejected because it came under compulsion (istidrāj), not sincere repentance. The fast of ʿĀshūrāʾ is authentically established in Ṣaḥīḥ al-Bukhārī (2004) and Muslim (1130).
+    source_notes_fr: |
+      Ibn Kathīr (Tafsīr, 5:280) et al-Samʿānī (Tafsīr, 2:412) notent que la déclaration de foi de Pharaon au moment de la noyade fut rejetée parce qu'elle survint sous la contrainte (istidrāj), et non par un repentir sincère. Le jeûne de ʿĀshūrāʾ est authentiquement établi dans Ṣaḥīḥ al-Bukhārī (2004) et Muslim (1130).
+    source_notes_ar: |
+      يُلَاحِظُ ابنُ كَثِيرٍ (تَفْسِيرُ، ٥:٢٨٠) وَالسَّمْعَانِيُّ (تَفْسِيرُ، ٢:٤١٢) أَنَّ إِعْلَانَ فِرْعَوْنَ إِيمَانَهُ عِنْدَ الإِغْرَاقِ قَدْ رُفِضَ لِأَنَّهُ جَاءَ تَحْتَ الاضْطِرَارِ (الاسْتِدْرَاجِ)، لَا بِتَوْبَةٍ صَادِقَةٍ. وَقَدْ ثَبَتَ صِيَامُ عَاشُورَاءَ فِي صَحِيحِ البُخَارِيِّ (٢٠٠٤) وَمُسْلِمٍ (١١٣٠).
+    display_day_of_year: 165
+
+  - slug: musa-speaking-to-allah
+    category: quran_story
+    title_en: Musa ﷺ Speaks with His Lord at Mount Tur
+    title_ar: مُوسَى عَلَيْهِ السَّلَامُ يُكَلِّمُ رَبَّهُ عِنْدَ الطُّورِ
+    title_fr: Mūsā ﷺ s'entretient avec son Seigneur au mont Ṭūr
+    description_en: |
+      Allah spoke to Musa directly — making him "Kalim Allah" (the one who
+      speaks with Allah). When Musa asked to see his Lord, he was told: "You
+      will not see Me, but look at the mountain; if it remains in place, you
+      will see Me." Allah manifested to the mountain, which crumbled to dust;
+      Musa fell unconscious, and when he recovered he said: "I turn to You in
+      repentance, and I am the first of the believers."
+    description_ar: |
+      كَلَّمَ اللهُ مُوسَى تَكْلِيمًا، فَكَانَ "كَلِيمَ اللهِ". وَلَمَّا
+      سَأَلَ مُوسَى رُؤْيَةَ رَبِّهِ، قِيلَ لَهُ: "لَنْ تَرَانِي وَلَكِنِ
+      انْظُرْ إِلَى الجَبَلِ فَإِنِ اسْتَقَرَّ مَكَانَهُ فَسَوْفَ تَرَانِي".
+      فَلَمَّا تَجَلَّى رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا وَخَرَّ مُوسَى
+      صَعِقًا، فَلَمَّا أَفَاقَ قَالَ: "تُبْتُ إِلَيْكَ وَأَنَا أَوَّلُ
+      المُؤْمِنِينَ".
+    description_fr: |
+      Allah parla directement à Mūsā ﷺ — en faisant ainsi "Kalīm Allāh"
+      (celui à qui Allah a parlé). Lorsque Mūsā demanda à voir son
+      Seigneur, il lui fut répondu : "Tu ne Me verras pas, mais regarde la
+      montagne ; si elle demeure à sa place, tu Me verras." Allah Se
+      manifesta à la montagne, qui s'effondra en poussière ; Mūsā tomba
+      évanoui, et lorsqu'il reprit ses sens, il dit : "Je me repens à Toi,
+      et je suis le premier des croyants."
+    reference: Surah al-A'raf 7:142-145, Surah al-Nisa 4:164
+    quran_refs: "7:142-145, 4:164"
+    source_url: https://quran.com/7/142-145
+    source_notes: |
+      Al-Ṭabarī (Tafsīr, 9:85) explains that direct speech (taklīm) without intermediary is unique to Mūsā among prophets. Ahl al-Sunna hold—based on this passage and authentic hadith—that believers will see Allah in the Hereafter, while His essence is not seen in this life, as Ibn Taymiyya and others clarify.
+    source_notes_fr: |
+      Al-Ṭabarī (Tafsīr, 9:85) explique que la parole directe (taklīm) sans intermédiaire est propre à Mūsā parmi les prophètes. Ahl al-Sunna soutiennent — sur la base de ce passage et de hadiths authentiques — que les croyants verront Allah dans l'au-delà, tandis que Son essence n'est pas visible en cette vie, comme le précisent Ibn Taymiyya et d'autres.
+    source_notes_ar: |
+      يُفَسِّرُ الطَّبَرِيُّ (تَفْسِيرُ، ٩:٨٥) أَنَّ الكَلَامَ المُبَاشِرَ (التَّكْلِيمَ) بِدُونِ وَاسِطَةٍ خَاصٌّ بِمُوسَى عَلَيْهِ السَّلَامُ بَيْنَ الأَنْبِيَاءِ. يَعْتَقِدُ أَهْلُ السُّنَّةِ — اسْتِنَادًا إِلَى هَذَا النَّصِّ وَالأَحَادِيثِ الصَّحِيحَةِ — أَنَّ المُؤْمِنِينَ سَيَرَوْنَ اللهَ فِي الآخِرَةِ، وَأَنَّ ذَاتَهُ لَا تُرَى فِي هَذِهِ الحَيَاةِ، كَمَا يُوَضِّحُ ابْنُ تَيْمِيَّةَ وَغَيْرُهُ.
+    display_day_of_year: 195
+
+  - slug: maryam-the-birth-of-isa
+    category: quran_story
+    title_en: Maryam عليها السلام and the Birth of ʿIsa ﷺ
+    title_ar: مَرْيَمُ عَلَيْهَا السَّلَامُ وَوِلَادَةُ عِيسَى عَلَيْهِ السَّلَامُ
+    title_fr: Maryam ʿalayhā al-salām et la naissance de ʿĪsā ﷺ
+    description_en: |
+      Maryam, chosen and purified above the women of all worlds, withdrew to
+      an eastern place where Jibril appeared to her as a man. She was given
+      the glad tidings of a pure son. She withdrew in labor to a distant
+      place, where Allah caused a stream to flow at her feet and ripe dates
+      to fall from a dry palm. When she returned to her people carrying the
+      infant, he spoke from the cradle: "Indeed, I am the servant of Allah;
+      He has given me the Scripture and made me a prophet."
+    description_ar: |
+      اصْطَفَى اللهُ مَرْيَمَ وَطَهَّرَهَا عَلَى نِسَاءِ العَالَمِينَ،
+      فَانْتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا فَتَمَثَّلَ لَهَا
+      جِبْرِيلُ بَشَرًا سَوِيًّا، وَبَشَّرَهَا بِغُلَامٍ زَكِيٍّ. ثُمَّ
+      أَجَاءَهَا المَخَاضُ إِلَى مَكَانٍ قَصِيٍّ، فَأَجْرَى اللهُ تَحْتَ
+      قَدَمَيْهَا سَرِيًّا، وَأَسَاقَطَ عَلَيْهَا مِنْ نَخْلَةٍ يَابِسَةٍ
+      رُطَبًا جَنِيًّا. وَلَمَّا رَجَعَتْ إِلَى قَوْمِهَا تَحْمِلُهُ، نَطَقَ
+      الطِّفْلُ مِنَ المَهْدِ: "إِنِّي عَبْدُ اللهِ آتَانِيَ الكِتَابَ
+      وَجَعَلَنِي نَبِيًّا".
+    description_fr: |
+      Maryam, élue et purifiée au-dessus des femmes de tous les mondes, se
+      retira en un lieu oriental où Jibrīl lui apparut sous la forme d'un
+      homme. La bonne nouvelle d'un fils pur lui fut annoncée. Elle se
+      retira au moment des douleurs en un lieu éloigné, où Allah fit
+      couler un ruisseau à ses pieds et tomber des dattes mûres d'un
+      palmier desséché. Lorsqu'elle revint vers son peuple portant le
+      nourrisson, il parla du berceau : "Je suis vraiment le serviteur
+      d'Allah ; Il m'a donné le Livre et fait de moi un prophète."
+    reference: Surah Maryam 19:16-36, Surah Aal Imran 3:42-47
+    quran_refs: "19:16-36, 3:42-47"
+    source_url: https://quran.com/19/16-36
+    source_notes: |
+      Ibn Kathīr (Tafsīr, 6:310) and al-Qurṭubī (Tafsīr, 10:150) affirm the virgin birth and ʿĪsā’s speech from the cradle as miracles, not evidence of divinity. Ahl al-Sunna unanimously reject the Christian doctrine of sonship, holding ʿĪsā to be a prophet and servant of Allah, as the Qur’an and authentic Sunnah state.
+    source_notes_fr: |
+      Ibn Kathīr (Tafsīr, 6:310) et al-Qurṭubī (Tafsīr, 10:150) affirment la naissance virginale et la parole de ʿĪsā du berceau comme des miracles, et non comme une preuve de divinité. Ahl al-Sunna rejettent unanimement la doctrine chrétienne de la filiation, considérant ʿĪsā comme un prophète et un serviteur d'Allah, comme le stipulent le Coran et la Sunna authentique.
+    source_notes_ar: |
+      يُؤَكِّدُ ابنُ كَثِيرٍ (تَفْسِيرُ، ٦:٣١٠) وَالقُرْطُبِيُّ (تَفْسِيرُ، ١٠:١٥٠) الوِلَادَةَ البَتُولِيَّةَ وَكَلَامَ عِيسَى مِنَ المَهْدِ كَمُعْجِزَتَيْنِ، لَا كَدَلِيلٍ عَلَى الأُلُوهِيَّةِ. يَرْفُضُ أَهْلُ السُّنَّةِ إِجْمَاعًا عَقِيدَةَ النَّصَارَى فِي البُنُوَّةِ، وَيَعْتَقِدُونَ أَنَّ عِيسَى نَبِيٌّ وَعَبْدُ اللهِ، كَمَا وَرَدَ فِي القُرْآنِ وَالسُّنَّةِ الصَّحِيحَةِ.
+    display_day_of_year: 225
+
+  - slug: sulayman-the-ant
+    category: quran_story
+    title_en: Sulayman ﷺ and the Valley of the Ants
+    title_ar: سُلَيْمَانُ عَلَيْهِ السَّلَامُ وَوَادِي النَّمْلِ
+    title_fr: Sulaymān ﷺ et la vallée des fourmis
+    description_en: |
+      Prophet Sulayman was given dominion over jinn, men, and birds, and was
+      taught the speech of all creatures. When his armies marched into the
+      valley of the ants, a female ant called out: "O ants, enter your homes
+      that you not be crushed by Sulayman and his soldiers while they
+      perceive not." Sulayman smiled at her warning and prayed: "My Lord,
+      enable me to be grateful for Your favor which You have bestowed upon
+      me and upon my parents."
+    description_ar: |
+      أُوتِيَ سُلَيْمَانُ عَلَيْهِ السَّلَامُ مُلْكًا عَلَى الجِنِّ
+      وَالإِنْسِ وَالطَّيْرِ، وَعُلِّمَ مَنْطِقَ كُلِّ شَيْءٍ. وَلَمَّا
+      مَرَّتْ جُنُودُهُ بِوَادِي النَّمْلِ، نَادَتْ نَمْلَةٌ: "يَا أَيُّهَا
+      النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ
+      وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ". فَتَبَسَّمَ سُلَيْمَانُ ضَاحِكًا
+      مِنْ قَوْلِهَا، وَدَعَا: "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ
+      الَّتِي أَنْعَمْتَ عَلَيَّ وَعَلَى وَالِدَيَّ".
+    description_fr: |
+      Le prophète Sulaymān ﷺ reçut pouvoir sur les djinns, les hommes et
+      les oiseaux, et apprit le langage de toutes les créatures. Lorsque ses
+      armées s'engagèrent dans la vallée des fourmis, une fourmi s'écria :
+      "Ô fourmis, entrez dans vos demeures, que Sulaymān et ses soldats
+      ne vous écrasent pas sans s'en apercevoir." Sulaymān sourit à ses
+      paroles et invoqua : "Seigneur, permets-moi d'être reconnaissant
+      pour le bienfait que Tu m'as accordé, ainsi qu'à mes parents."
+    reference: Surah al-Naml 27:15-19
+    quran_refs: "27:15-19"
+    source_url: https://quran.com/27/15-19
+    source_notes: |
+      Al-Rāzī (Mafātīḥ al-Ghayb, 24:90) and al-Qurṭubī (Tafsīr, 11:220) discuss Sulaymān’s understanding of animal speech as a specific miracle, not a general human capacity. The incident illustrates gratitude for blessings—both outward dominion and inward knowledge—a theme classical mufassirūn emphasize.
+    source_notes_fr: |
+      Al-Rāzī (Mafātīḥ al-Ghayb, 24:90) et al-Qurṭubī (Tafsīr, 11:220) discutent de la compréhension par Sulaymān du langage animal comme un miracle spécifique, et non comme une capacité humaine générale. Cet incident illustre la gratitude pour les bienfaits — tant le pouvoir extérieur que la connaissance intérieure — un thème que les mufassirūn classiques soulignent.
+    source_notes_ar: |
+      يَنَاقِشُ الرَّازِيُّ (مَفَاتِيحُ الغَيْبِ، ٢٤:٩٠) وَالقُرْطُبِيُّ (تَفْسِيرُ، ١١:٢٢٠) فَهْمَ سُلَيْمَانَ لِلْمَنْطِقِ الحَيَوَانِيِّ كَمُعْجِزَةٍ خَاصَّةٍ، لَا كَقُدْرَةٍ بَشَرِيَّةٍ عَامَّةٍ. وَيُجَسِّدُ هَذَا المَوْقِفُ الشُّكْرَ عَلَى النِّعَمِ — سُلْطَانٍ ظَاهِرٍ وَعِلْمٍ بَاطِنٍ — وَهُوَ مَوْضُوعٌ يُؤَكِّدُهُ المُفَسِّرُونَ الكِلَاسِيكِيُّونَ.
+    display_day_of_year: 255
+
+  # NOTE: yunus-in-the-whale was DROPPED in v1.2 audit — duplicate of
+  # `yunus-in-the-fish` (lessons/01_prophets.yaml), which uses the more
+  # accurate Qur'anic term *al-hut* (fish) rather than "whale" and includes
+  # the additional 10:98 reference about Yunus's people accepting belief.
+
+  - slug: people-of-the-cave
+    category: quran_story
+    title_en: The People of the Cave (Ashab al-Kahf)
+    title_ar: أَصْحَابُ الكَهْفِ
+    title_fr: Les Gens de la Caverne (Aṣḥāb al-Kahf)
+    description_en: |
+      A group of young believers fled the polytheism of their city and took
+      refuge in a cave. Allah preserved them in sleep, turning them from
+      side to side, for what the Qur'an describes as "three hundred years
+      and nine added" (18:25), immediately followed by "Say: Allah knows
+      best how long they remained" (18:26) — the deferral of final
+      knowledge to Allah being itself one of the lessons. When they awoke
+      thinking they had slept a day or part of a day, one went to the city
+      with a silver coin (*wariq*) for food, revealing their miraculous
+      preservation to the now-monotheist population. The surah is recited
+      on Fridays as a recommended Sunnah.
+    description_ar: |
+      فَرَّ فِتْيَةٌ مُؤْمِنُونَ مِنْ شِرْكِ مَدِينَتِهِمْ وَلَجَأُوا إِلَى
+      الكَهْفِ، فَحَفِظَهُمُ اللهُ نَائِمِينَ، يُقَلِّبُهُمْ ذَاتَ اليَمِينِ
+      وَذَاتَ الشِّمَالِ، مُدَّةً وَصَفَهَا القُرْآنُ بِأَنَّهَا "ثَلَاثُ
+      مِائَةٍ سِنِينَ وَازْدَادُوا تِسْعًا" (الكهف 25)، ثُمَّ أَعْقَبَهَا
+      بِقَوْلِهِ: "قُلِ اللهُ أَعْلَمُ بِمَا لَبِثُوا" (الكهف 26)، فَكَانَ
+      رَدُّ العِلْمِ إِلَى اللهِ مِنْ جُمْلَةِ مَا تُعَلِّمُهُ القِصَّةُ.
+      فَلَمَّا اسْتَيْقَظُوا وَظَنُّوا أَنَّهُمْ لَبِثُوا يَوْمًا أَوْ
+      بَعْضَ يَوْمٍ، أَرْسَلُوا أَحَدَهُمْ بِوَرِقِهِمْ إِلَى المَدِينَةِ
+      لِيَأْتِيَهُمْ بِطَعَامٍ، فَانْكَشَفَتْ مُعْجِزَةُ حِفْظِهِمْ
+      لِلْأَهَالِي الَّذِينَ صَارُوا مُوَحِّدِينَ. وَتُسَنُّ قِرَاءَةُ
+      السُّورَةِ يَوْمَ الجُمُعَةِ.
+    description_fr: |
+      Un groupe de jeunes croyants fuit le polythéisme de leur cité et
+      se réfugia dans une caverne. Allah les conserva dans le sommeil, les
+      tournant d'un côté à l'autre, pendant ce que le Coran décrit comme
+      "trois cents ans, et neuf de plus" (18:25), immédiatement suivi par
+      "Dis : Allah sait mieux combien de temps ils demeurèrent" (18:26) —
+      le renvoi de la connaissance ultime à Allah étant lui-même l'une des
+      leçons. Lorsqu'ils s'éveillèrent croyant n'avoir dormi qu'un jour ou
+      une partie de jour, l'un d'eux se rendit à la ville avec une pièce
+      d'argent (*wariq*) pour acheter de la nourriture, révélant leur
+      conservation miraculeuse à la population devenue monothéiste. Il est
+      recommandé (Sunna) de réciter cette sourate les vendredis.
+    reference: Surah al-Kahf 18:9-26
+    quran_refs: "18:9-26"
+    source_url: https://quran.com/18/9-26
+    source_notes: |
+      Ibn Kathīr (Tafsīr, 5:150) and al-Ṭabarī (Tafsīr, 15:320) note that the precise number of sleepers is among the matters Allah deliberately left ambiguous, teaching Muslims to restrain speculation. Sunni scholars affirm this story as a miracle of divine preservation and a refutation of those who deny the resurrection.
+    source_notes_fr: |
+      Ibn Kathīr (Tafsīr, 5:150) et al-Ṭabarī (Tafsīr, 15:320) notent que le nombre exact des dormeurs compte parmi les sujets qu'Allah a délibérément laissés ambigus, enseignant aux musulmans à se refréner de spéculations. Les savants sunnites affirment cette histoire comme un miracle de la préservation divine et une réfutation de ceux qui nient la résurrection.
+    source_notes_ar: |
+      يُلَاحِظُ ابنُ كَثِيرٍ (تَفْسِيرُ، ٥:١٥٠) وَالطَّبَرِيُّ (تَفْسِيرُ، ١٥:٣٢٠) أَنَّ عَدَدَ الرِّقَادِ بِالتَّحْدِيدِ يَنْطَوِي عَلَى مَسَائِلَ تَرَكَهَا اللهُ عَمْدًا مُبْهَمَةً، لِيُعَلِّمَ المُسْلِمِينَ ضَبْطَ التَّنَظُّرِ. يُؤَكِّدُ العُلَمَاءُ السُّنِّيُّونَ هَذِهِ القِصَّةَ كَمُعْجِزَةٍ لِلْحِفْظِ الإِلَهِيِّ وَدَحْضٍ لِمَنْ يُنْكِرُونَ البَعْثَ.
+    display_day_of_year: 30
+
+  - slug: dhul-qarnayn
+    category: quran_story
+    title_en: Dhu al-Qarnayn and the Barrier
+    title_ar: ذُو القَرْنَيْنِ وَالسَّدُّ
+    title_fr: Dhū al-Qarnayn et la barrière
+    description_en: |
+      A righteous ruler whom Allah gave "means to all things," Dhu al-Qarnayn
+      traveled to the setting and rising places of the sun, establishing
+      justice. At a pass between two mountains he found a people afflicted by
+      the ravages of Ya'juj and Ma'juj (Gog and Magog). He built a barrier of
+      iron and molten copper that "Ya'juj and Ma'juj could not scale or
+      breach" — saying: "This is a mercy from my Lord; but when the promise
+      of my Lord comes, He will make it level."
+    description_ar: |
+      ذُو القَرْنَيْنِ حَاكِمٌ صَالِحٌ آتَاهُ اللهُ مِنْ كُلِّ شَيْءٍ
+      سَبَبًا، فَسَارَ إِلَى مَغْرِبِ الشَّمْسِ وَمَطْلِعِهَا مُقِيمًا
+      العَدْلَ. وَلَمَّا بَلَغَ بَيْنَ السَّدَّيْنِ، وَجَدَ قَوْمًا
+      يُعَانُونَ مِنْ فَسَادِ يَأْجُوجَ وَمَأْجُوجَ، فَبَنَى لَهُمْ سَدًّا
+      مِنْ زُبَرِ الحَدِيدِ وَالنُّحَاسِ المَصْهُورِ، فَلَمْ يَسْتَطِيعُوا
+      "أَنْ يَظْهَرُوهُ وَمَا اسْتَطَاعُوا لَهُ نَقْبًا"، وَقَالَ: "هَذَا
+      رَحْمَةٌ مِنْ رَبِّي، فَإِذَا جَاءَ وَعْدُ رَبِّي جَعَلَهُ دَكَّاءَ".
+    description_fr: |
+      Souverain juste à qui Allah donna "les moyens d'accès à toute chose",
+      Dhū al-Qarnayn voyagea jusqu'aux lieux où le soleil se couche et se
+      lève, instaurant la justice. À un défilé entre deux montagnes, il
+      trouva un peuple affligé par les ravages de Yaʾjūj et Maʾjūj (Gog et
+      Magog). Il construisit une barrière de fer et de cuivre fondu que
+      "Yaʾjūj et Maʾjūj ne purent ni gravir ni percer", disant : "C'est
+      une miséricorde de mon Seigneur ; et lorsque la promesse de mon
+      Seigneur viendra, Il la nivellera."
+    reference: Surah al-Kahf 18:83-98
+    quran_refs: "18:83-98"
+    source_url: https://quran.com/18/83-98
+    source_notes: |
+      Al-Ṭabarī (Tafsīr, 16:420) and Ibn Kathīr (Tafsīr, 5:180) report scholarly disagreement on whether Dhu al-Qarnayn was a prophet or a righteous king, with the latter view being more common among Ahl al-Sunna. The barrier (al-sadd) remains until the Hour, when Yaʾjūj and Maʾjūj will emerge, as detailed in authentic hadith in Ṣaḥīḥ Muslim (2880).
+    source_notes_fr: |
+      Al-Ṭabarī (Tafsīr, 16:420) et Ibn Kathīr (Tafsīr, 5:180) rapportent un désaccord savant sur le fait que Dhū al-Qarnayn fût un prophète ou un roi juste, la seconde opinion étant la plus répandue chez Ahl al-Sunna. La barrière (al-sadd) demeure jusqu'à l'Heure, moment où Yaʾjūj et Maʾjūj en sortiront, comme le détaille un hadith authentique de Ṣaḥīḥ Muslim (2880).
+    source_notes_ar: |
+      يَرْوِي الطَّبَرِيُّ (تَفْسِيرُ، ١٦:٤٢٠) وَابنُ كَثِيرٍ (تَفْسِيرُ، ٥:١٨٠) اخْتِلَافَ العُلَمَاءِ فِي كَوْنِ ذِي القَرْنَيْنِ نَبِيًّا أَوْ مَلِكًا صَالِحًا، وَالرَّأْيُ الثَّانِي هُوَ الأَشَهَرُ عِنْدَ أَهْلِ السُّنَّةِ. وَالسَّدُّ بَاقٍ إِلَى السَّاعَةِ، حِينَ يَخْرُجُ يَأْجُوجُ وَمَأْجُوجُ، كَمَا فَصَّلَ حَدِيثٌ صَحِيحٌ فِي صَحِيحِ مُسْلِمٍ (٢٨٨٠).
+    display_day_of_year: 60
+
+  # =========================================================================
+  # FAMOUS AUTHENTIC HADITH NARRATIVES
+  # =========================================================================
+
+  - slug: hadith-of-jibril
+    category: hadith_narrative
+    title_en: The Hadith of Jibril (the Three Degrees of Religion)
+    title_ar: حَدِيثُ جِبْرِيلَ — مَرَاتِبُ الدِّينِ الثَّلَاثُ
+    title_fr: Le ḥadīth de Jibrīl (les trois degrés de la religion)
+    description_en: |
+      Umar ibn al-Khattab narrated: a man with very white clothing and very
+      black hair came to the Prophet ﷺ. No one recognized him as a traveler,
+      yet no one among us knew him. He sat with his knees touching the
+      Prophet's ﷺ knees and asked: "What is Islam?" "What is Iman?" "What is
+      Ihsan?" and "When is the Hour?" After he left, the Prophet ﷺ said: "That
+      was Jibril. He came to you to teach you your religion." The hadith is
+      considered the most comprehensive summary of the three degrees of din.
+    description_ar: |
+      رَوَى عُمَرُ بْنُ الخَطَّابِ رَضِيَ اللهُ عَنْهُ: أَتَى النَّبِيَّ ﷺ
+      رَجُلٌ شَدِيدُ بَيَاضِ الثِّيَابِ شَدِيدُ سَوَادِ الشَّعْرِ، لَا يُرَى
+      عَلَيْهِ أَثَرُ السَّفَرِ، وَلَا يَعْرِفُهُ مِنَّا أَحَدٌ. فَجَلَسَ
+      إِلَى النَّبِيِّ ﷺ فَأَسْنَدَ رُكْبَتَيْهِ إِلَى رُكْبَتَيْهِ، وَسَأَلَهُ:
+      "مَا الإِسْلَامُ؟" "وَمَا الإِيمَانُ؟" "وَمَا الإِحْسَانُ؟" "وَمَتَى
+      السَّاعَةُ؟". فَلَمَّا انْصَرَفَ قَالَ النَّبِيُّ ﷺ: "ذَاكَ جِبْرِيلُ
+      أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ". وَيُعَدُّ هَذَا الحَدِيثُ مِنْ
+      أَجْمَعِ الأَحَادِيثِ لِبَيَانِ مَرَاتِبِ الدِّينِ الثَّلَاثِ.
+    description_fr: |
+      ʿUmar ibn al-Khaṭṭāb a rapporté : un homme aux vêtements d'un blanc
+      éclatant et aux cheveux d'un noir intense vint au Prophète ﷺ. Aucune
+      trace de voyage n'apparaissait sur lui, et nul parmi nous ne le
+      connaissait. Il s'assit, ses genoux touchant les genoux du Prophète
+      ﷺ, et demanda : "Qu'est-ce que l'Islām ?" "Qu'est-ce que l'Īmān ?"
+      "Qu'est-ce que l'Iḥsān ?" et "Quand viendra l'Heure ?" Après son
+      départ, le Prophète ﷺ dit : "C'était Jibrīl. Il est venu à vous pour
+      vous enseigner votre religion." Ce ḥadīth est considéré comme le
+      résumé le plus complet des trois degrés de la dīn.
+    reference: Sahih Muslim 8, Sahih al-Bukhari 50
+    hadith_refs: "Bukhari 50, Muslim 8"
+    source_url: https://sunnah.com/muslim:8
+    source_notes: |
+      Imām al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 1:103–110) calls this hadith 'the pivot of Islam' (quṭb al-Islām) and devotes extensive commentary to each of the three levels. Ibn Ḥajar (Fatḥ al-Bārī, 1:120) explains that Jibrīl’s appearance in human form—without being recognized—was a miracle intended to make the teaching unforgettable.
+    source_notes_fr: |
+      L'imām al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 1:103–110) qualifie ce ḥadīth de « pivot de l'Islam » (quṭb al-Islām) et consacre un commentaire détaillé à chacun des trois niveaux. Ibn Ḥajar (Fatḥ al-Bārī, 1:120) explique que l'apparition de Jibrīl en forme humaine — sans être reconnu — était un miracle destiné à graver l'enseignement dans les mémoires.
+    source_notes_ar: |
+      يُسَمِّي الإِمَامُ النَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١:١٠٣–١١٠) هَذَا الحَدِيثَ «قُطْبَ الإِسْلَامِ» وَيُفَصِّلُ الشَّرْحَ لِكُلٍّ مِنَ المَرَاتِبِ الثَّلَاثِ. يُفَسِّرُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١:١٢٠) أَنَّ تَجَسُّدَ جِبْرِيلَ فِي صُورَةِ بَشَرٍ — بِدُونِ أَنْ يُتَعَرَّفَ — كَانَ مُعْجِزَةً هَدَفُهَا جَعْلُ التَّعْلِيمِ غَيْرَ مَنْسِيٍّ.
+    display_day_of_year: 10
+
+  - slug: hadith-three-men-in-cave
+    category: hadith_narrative
+    title_en: The Three Men Trapped in the Cave
+    title_ar: حَدِيثُ الثَّلَاثَةِ الَّذِينَ أَوَوْا إِلَى الغَارِ
+    title_fr: Les trois hommes piégés dans la caverne
+    description_en: |
+      Three men took shelter in a cave which was then sealed by a rolling
+      boulder. Each prayed by a righteous deed: one by his care for his
+      elderly parents; one by his fear of Allah that made him leave an act of
+      sin despite the opportunity; one by his returning many years later an
+      employee's wage that had grown through investment. After each
+      supplication the rock moved, and on the third they emerged. The hadith
+      teaches the immense power of sincere deeds done purely for Allah's sake.
+    description_ar: |
+      ثَلَاثَةٌ أَوَوْا إِلَى غَارٍ، فَانْحَدَرَتْ صَخْرَةٌ سَدَّتْ عَلَيْهِمْ
+      بَابَهُ. فَتَوَسَّلَ كُلُّ وَاحِدٍ مِنْهُمْ إِلَى اللهِ بِعَمَلٍ
+      صَالِحٍ: تَوَسَّلَ الأَوَّلُ بِبِرِّهِ بِوَالِدَيْهِ الكَبِيرَيْنِ،
+      وَالثَّانِي بِخَوْفِهِ مِنَ اللهِ الَّذِي حَمَلَهُ عَلَى تَرْكِ
+      المَعْصِيَةِ مَعَ القُدْرَةِ، وَالثَّالِثُ بِأَدَائِهِ أُجْرَةَ
+      أَجِيرٍ بَعْدَ سِنِينَ بَعْدَ أَنْ نَمَّاهَا لَهُ. وَكُلَّمَا دَعَا
+      أَحَدُهُمْ تَحَرَّكَتِ الصَّخْرَةُ، حَتَّى انْفَرَجَتْ بِالدَّعْوَةِ
+      الثَّالِثَةِ فَخَرَجُوا. وَفِي الحَدِيثِ بَيَانُ عَظِيمِ أَثَرِ
+      الأَعْمَالِ الخَالِصَةِ للهِ.
+    description_fr: |
+      Trois hommes s'abritèrent dans une caverne dont l'entrée fut scellée
+      par un rocher roulant. Chacun invoqua par un acte vertueux : l'un par
+      ses soins envers ses parents âgés ; l'un par sa crainte d'Allah qui
+      lui fit délaisser un acte de péché malgré l'occasion ; l'un par sa
+      restitution, des années plus tard, du salaire d'un employé qu'il
+      avait fait fructifier. Après chaque invocation le rocher s'écarta,
+      et au troisième ils sortirent. Le ḥadīth enseigne l'immense pouvoir
+      des actes sincères accomplis purement pour Allah.
+    reference: Sahih al-Bukhari 2215, Sahih Muslim 2743
+    hadith_refs: "Bukhari 2215, Muslim 2743"
+    source_url: https://sunnah.com/bukhari:2215
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 6:350) and al-ʿAynī (ʿUmdat al-Qārī, 12:180) note that this hadith demonstrates the legitimacy of tawassul through righteous deeds, provided one does not attribute independent efficacy to the deed itself. The story is ṣaḥīḥ and is frequently cited by scholars of taṣawwuf and fiqh alike.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 6:350) et al-ʿAynī (ʿUmdat al-Qārī, 12:180) notent que ce ḥadīth démontre la légitimité du tawassul par les œuvres vertueuses, à condition de ne pas attribuer d'efficacité indépendante à l'acte lui-même. L'histoire est ṣaḥīḥ et est fréquemment citée par les savants de taṣawwuf et de fiqh.
+    source_notes_ar: |
+      يُلَاحِظُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ٦:٣٥٠) وَالعَيْنِيُّ (عُمْدَةُ القَارِي، ١٢:١٨٠) أَنَّ هَذَا الحَدِيثَ يُثْبِتُ جَوَازَ التَّوَسُّلِ بِالأَعْمَالِ الصَّالِحَةِ، مَا لَمْ يُنْسَبْ لِلْعَمَلِ نَفْسِهِ فِعْلٌ مُسْتَقِلٌّ. وَالقِصَّةُ صَحِيحَةٌ وَتُسْتَشْهَدُ بِهَا كَثِيرًا فِي كُتُبِ التَّصَوُّفِ وَالفِقْهِ عَلَى السَّوَاءِ.
+    display_day_of_year: 40
+
+  - slug: hadith-of-ihsan
+    category: hadith_narrative
+    title_en: "Worship Allah as if You See Him"
+    title_ar: "اعْبُدِ اللهَ كَأَنَّكَ تَرَاهُ"
+    title_fr: "Adore Allah comme si tu Le voyais"
+    description_en: |
+      From the same Hadith of Jibril: when asked "What is Ihsan?" the Prophet
+      ﷺ replied: "Ihsan is that you worship Allah as though you see Him; and
+      if you do not see Him, then indeed He sees you." This definition
+      condenses the whole spiritual dimension of the religion — the
+      cultivation of a constant awareness (muraqaba) of Allah's presence in
+      every act, word, and thought.
+    description_ar: |
+      مِنْ حَدِيثِ جِبْرِيلَ نَفْسِهِ: لَمَّا سُئِلَ النَّبِيُّ ﷺ "مَا
+      الإِحْسَانُ؟" قَالَ: "الإِحْسَانُ أَنْ تَعْبُدَ اللهَ كَأَنَّكَ
+      تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ". وَيُلَخِّصُ
+      هَذَا التَّعْرِيفُ البُعْدَ الرُّوحِيَّ كُلَّهُ فِي الدِّينِ —
+      اسْتِشْعَارُ المُرَاقَبَةِ الدَّائِمَةِ لِحُضُورِ اللهِ فِي كُلِّ
+      فِعْلٍ وَقَوْلٍ وَخَاطِرٍ.
+    description_fr: |
+      Du même ḥadīth de Jibrīl : interrogé "Qu'est-ce que l'Iḥsān ?", le
+      Prophète ﷺ répondit : "L'Iḥsān, c'est que tu adores Allah comme si
+      tu Le voyais ; et si tu ne Le vois pas, certes Lui te voit." Cette
+      définition condense toute la dimension spirituelle de la religion —
+      la culture d'une conscience constante (murāqaba) de la présence
+      d'Allah dans chaque acte, parole et pensée.
+    reference: Sahih Muslim 8
+    hadith_refs: "Muslim 8"
+    source_url: https://sunnah.com/muslim:8
+    source_notes: |
+      Al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 1:108) explains iḥsān as the perfection of worship through constant awareness of Allah’s presence (murāqaba), a station above bare Islām and īmān. Ibn Rajab al-Ḥanbalī (Jāmiʿ al-ʿUlūm wa-l-Ḥikam, 1:55) devotes a chapter to this definition as the foundation of spiritual excellence in Sunni tradition.
+    source_notes_fr: |
+      Al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 1:108) explique l'iḥsān comme la perfection de l'adoration par la conscience constante de la présence d'Allah (murāqaba), un degré au-delà de l'Islām et de l'īmān simples. Ibn Rajab al-Ḥanbalī (Jāmiʿ al-ʿUlūm wa-l-Ḥikam, 1:55) consacre un chapitre à cette définition comme fondement de l'excellence spirituelle dans la tradition sunnite.
+    source_notes_ar: |
+      يُفَسِّرُ النَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١:١٠٨) الإِحْسَانَ بِأَنَّهُ كَمَالُ العِبَادَةِ بِاسْتِشْعَارِ حُضُورِ اللهِ الدَّائِمِ (المُرَاقَبَةِ)، وَهُوَ مَقَامٌ فَوْقَ الإِسْلَامِ وَالإِيمَانِ المُجَرَّدَيْنِ. وَيُخَصِّصُ ابنُ رَجَبٍ الحَنْبَلِيُّ (جَامِعُ العُلُومِ وَالحِكَمِ، ١:٥٥) فَصْلًا لِهَذَا التَّعْرِيفِ كَأَسَاسٍ لِلتَّمَيُّزِ الرُّوحِيِّ فِي التُّرَاثِ السُّنِّيِّ.
+    display_day_of_year: 70
+
+  - slug: hadith-intention
+    category: hadith_narrative
+    title_en: "Actions Are by Intentions"
+    title_ar: "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ"
+    title_fr: "Les actes ne valent que par les intentions"
+    description_en: |
+      Umar ibn al-Khattab narrated that the Prophet ﷺ said: "Actions are but
+      by intentions, and every person will have only what he intended. So
+      whoever's migration was to Allah and His Messenger, his migration is
+      to Allah and His Messenger; and whoever's migration was to attain some
+      worldly goal or to marry a woman, his migration is to that which he
+      migrated for." Imam al-Bukhari placed this hadith at the very start of
+      his Sahih, and Imam al-Shafi'i said it is one-third of all knowledge.
+    description_ar: |
+      رَوَى عُمَرُ بْنُ الخَطَّابِ رَضِيَ اللهُ عَنْهُ أَنَّ النَّبِيَّ ﷺ
+      قَالَ: "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ
+      مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ
+      فَهِجْرَتُهُ إِلَى اللهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ
+      لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى
+      مَا هَاجَرَ إِلَيْهِ". وَقَدِ افْتَتَحَ الإِمَامُ البُخَارِيُّ
+      صَحِيحَهُ بِهَذَا الحَدِيثِ، وَقَالَ الإِمَامُ الشَّافِعِيُّ: هُوَ
+      ثُلُثُ العِلْمِ.
+    description_fr: |
+      ʿUmar ibn al-Khaṭṭāb a rapporté que le Prophète ﷺ a dit : "Les actes
+      ne valent que par les intentions, et chacun n'aura que ce qu'il a eu
+      pour intention. Celui dont l'émigration fut vers Allah et Son
+      Messager, son émigration est vers Allah et Son Messager ; et celui
+      dont l'émigration fut pour atteindre un but mondain ou épouser une
+      femme, son émigration est vers ce vers quoi il a émigré." L'imām
+      al-Bukhārī a placé ce ḥadīth à l'ouverture même de son Ṣaḥīḥ, et
+      l'imām al-Shāfiʿī a dit qu'il représente le tiers de la science.
+    reference: Sahih al-Bukhari 1, Sahih Muslim 1907
+    hadith_refs: "Bukhari 1, Muslim 1907"
+    source_url: https://sunnah.com/bukhari:1
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 1:9–15) provides a comprehensive commentary on why Imām al-Bukhārī opened his Ṣaḥīḥ with this hadith, noting that intention transforms outward acts into worship or sin. Imām al-Shāfiʿī’s statement that it is 'one-third of knowledge' is recorded by al-Bayhaqī in Maʿrifat al-Sunan wa-l-Āthār (1:220).
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 1:9–15) offre un commentaire complet sur la raison pour laquelle l'imām al-Bukhārī a ouvert son Ṣaḥīḥ par ce ḥadīth, notant que l'intention transforme les actes extérieurs en adoration ou en péché. La déclaration de l'imām al-Shāfiʿī selon laquelle il constitue « le tiers de la science » est rapportée par al-Bayhaqī dans Maʿrifat al-Sunan wa-l-Āthār (1:220).
+    source_notes_ar: |
+      يُقَدِّمُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١:٩–١٥) شَرْحًا جَامِعًا لِمَاذَا افتَتَحَ الإِمَامُ البُخَارِيُّ صَحِيحَهُ بِهَذَا الحَدِيثِ، مُشِيرًا إِلَى أَنَّ النِّيَّةَ تُحَوِّلُ الأَعْمَالَ الظَّاهِرَةَ إِمَّا إِلَى عِبَادَةٍ وَإِمَّا إِلَى مَعْصِيَةٍ. وَتَرْجِعُ عِبَارَةُ الإِمَامِ الشَّافِعِيِّ بِأَنَّهُ «ثُلُثُ العِلْمِ» إِلَى البَيْهَقِيِّ فِي مَعْرِفَةِ السُّنَنِ وَالآثَارِ (١:٢٢٠).
+    display_day_of_year: 100
+
+  - slug: hadith-two-words-beloved
+    category: hadith_narrative
+    title_en: "Two Words Beloved to the Most Merciful"
+    title_ar: "كَلِمَتَانِ حَبِيبَتَانِ إِلَى الرَّحْمَنِ"
+    title_fr: "Deux paroles chères au Tout-Miséricordieux"
+    description_en: |
+      The Prophet ﷺ said: "Two words are light on the tongue, heavy on the
+      scale, and beloved to the Most Merciful: Subhan Allah wa bi-hamdih,
+      Subhan Allah al-'Azim" (Glory be to Allah and His praise; glory be to
+      Allah the Magnificent). The hadith is among the shortest and most
+      practical teachings of the Prophet ﷺ on the virtues of remembrance.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "كَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ،
+      ثَقِيلَتَانِ فِي المِيزَانِ، حَبِيبَتَانِ إِلَى الرَّحْمَنِ:
+      سُبْحَانَ اللهِ وَبِحَمْدِهِ، سُبْحَانَ اللهِ العَظِيمِ". وَهَذَا
+      الحَدِيثُ مِنْ أَخْصَرِ مَا عَلَّمَ النَّبِيُّ ﷺ وَأَيْسَرِهِ
+      عَمَلًا فِي فَضَائِلِ الذِّكْرِ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Deux paroles sont légères sur la langue,
+      lourdes dans la balance, et chères au Tout-Miséricordieux : Subḥān
+      Allāh wa bi-ḥamdih, Subḥān Allāh al-ʿAẓīm" (Gloire à Allah et louange
+      à Lui ; gloire à Allah le Magnifique). Ce ḥadīth figure parmi les
+      enseignements les plus courts et les plus pratiques du Prophète ﷺ
+      sur les vertus du dhikr.
+    reference: Sahih al-Bukhari 6682, Sahih Muslim 2694
+    hadith_refs: "Bukhari 6682, Muslim 2694"
+    source_url: https://sunnah.com/bukhari:6682
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 11:210) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 17:65) note that these phrases are among the most reward-heavy forms of dhikr because they combine tasbīḥ, taḥmīd, and magnification of Allah. The hadith is mutawātir in meaning across multiple authentic chains.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 11:210) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 17:65) notent que ces phrases comptent parmi les formes de dhikr les plus rémunératrices car elles combinent tasbīḥ, taḥmīd et magnification d'Allah. Le ḥadīth est mutawātir en sens à travers de multiples chaînes authentiques.
+    source_notes_ar: |
+      يُلَاحِظُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١١:٢١٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١٧:٦٥) أَنَّ هَاتَيْنِ العِبَارَتَيْنِ مِنْ أَكْثَرِ أَنْوَاعِ الذِّكْرِ أَجْرًا لِأَنَّهُمَا يَجْمَعَانِ التَّسْبِيحَ وَالتَّحْمِيدَ وَتَعْظِيمَ اللهِ. وَهَذَا الحَدِيثُ مُتَوَاتِرُ المَعْنَى فِي طُرُقٍ صَحِيحَةٍ مُتَعَدِّدَةٍ.
+    display_day_of_year: 130
+
+  - slug: hadith-forty-for-allah
+    category: hadith_narrative
+    title_en: "Whoever Worships Allah Sincerely for Forty Days"
+    title_ar: "مَنْ أَخْلَصَ للهِ أَرْبَعِينَ يَوْمًا"
+    title_fr: "Quiconque est sincère envers Allah pendant quarante jours"
+    description_en: |
+      The Prophet ﷺ taught: "Whoever is sincere to Allah for forty days, the
+      springs of wisdom will appear from his heart upon his tongue." While
+      the hadith is classified by some scholars as weak in isnad, its meaning
+      is reflected in numerous sound traditions on the fruits of sincerity
+      (ikhlas) and constancy. The principle — consistency of small righteous
+      acts producing transformation — is affirmed by "The most beloved deeds
+      to Allah are those done regularly, even if few" (Bukhari).
+    description_ar: |
+      وَرَدَ فِي بَعْضِ الرِّوَايَاتِ: "مَنْ أَخْلَصَ للهِ أَرْبَعِينَ
+      صَبَاحًا، ظَهَرَتْ يَنَابِيعُ الحِكْمَةِ مِنْ قَلْبِهِ عَلَى
+      لِسَانِهِ". وَقَدْ حَكَمَ بَعْضُ أَهْلِ الحَدِيثِ بِضَعْفِ إِسْنَادِ
+      هَذَا الخَبَرِ، غَيْرَ أَنَّ مَعْنَاهُ تُعَضِّدُهُ نُصُوصٌ صَحِيحَةٌ
+      كَثِيرَةٌ فِي ثَمَرَاتِ الإِخْلَاصِ وَالمُدَاوَمَةِ. وَهَذَا الأَصْلُ
+      — أَنَّ المُدَاوَمَةَ عَلَى الأَعْمَالِ الصَّالِحَةِ القَلِيلَةِ
+      تُحْدِثُ التَّغْيِيرَ — يُؤَكِّدُهُ قَوْلُ النَّبِيِّ ﷺ: "أَحَبُّ
+      الأَعْمَالِ إِلَى اللهِ أَدْوَمُهَا وَإِنْ قَلَّ" (البُخَارِيُّ).
+    description_fr: |
+      Le Prophète ﷺ aurait enseigné : "Quiconque est sincère envers Allah
+      pendant quarante jours, les sources de la sagesse jailliront de son
+      cœur sur sa langue." Bien que ce ḥadīth soit classé faible (ḍaʿīf)
+      dans son isnād par certains spécialistes, son sens se reflète dans
+      de nombreuses traditions authentiques sur les fruits de la sincérité
+      (ikhlāṣ) et de la constance. Le principe — la régularité de petits
+      actes vertueux produisant une transformation — est confirmé par : "Les
+      actes les plus aimés d'Allah sont ceux qui sont accomplis avec
+      régularité, même s'ils sont peu nombreux" (al-Bukhārī).
+    reference: Sahih al-Bukhari 6464 (on the cited principle)
+    hadith_refs: "Bukhari 6464"
+    source_url: https://sunnah.com/bukhari:6464
+    source_notes: |
+      Ibn al-Jawzī (al-Mawḍūʿāt, 2:214) and al-Suyūṭī (al-Laʾāliʾ al-Maṣnūʿa, 2:300) classify the specific wording about forty days as weak (ḍaʿīf) or fabricated. However, the underlying principle—that sincerity and constancy produce spiritual clarity—is sound and supported by authentic hadith such as 'Allah does not look at your forms but at your hearts' (Muslim 2564).
+    source_notes_fr: |
+      Ibn al-Jawzī (al-Mawḍūʿāt, 2:214) et al-Suyūṭī (al-Laʾāliʾ al-Maṣnūʿa, 2:300) classent le libellé spécifique sur quarante jours comme faible (ḍaʿīf) ou fabriqué. Cependant, le principe sous-jacent — que la sincérité et la constance produisent la clarté spirituelle — est solide et étayé par des hadiths authentiques tels que 'Allah ne regarde pas vos formes mais vos cœurs' (Muslim 2564).
+    source_notes_ar: |
+      يُصَنِّفُ ابنُ الجَوْزِيِّ (المَوْضُوعَاتُ، ٢:٢١٤) وَالسُّيُوطِيُّ (اللَّآلِئُ المَصْنُوعَةُ، ٢:٣٠٠) اللَّفْظَ الخَاصَّ بِالأَرْبَعِينَ يَوْمًا ضَعِيفًا أَوْ مَوْضُوعًا. غَيْرَ أَنَّ الأَصْلَ الْمُتَجَسِّدَ — أَنَّ الإِخْلَاصَ وَالمُدَاوَمَةَ يُنْتِجَانِ الوُضُوحَ الرُّوحِيَّ — ثَابِتٌ وَمُؤَيَّدٌ بِأَحَادِيثَ صَحِيحَةٍ مِثْلَ «إِنَّ اللهَ لاَ يَنْظُرُ إِلَى صُوَرِكُمْ وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ» (مُسْلِمٌ ٢٥٦٤).
+    display_day_of_year: 160
+
+  - slug: hadith-mercy-to-child
+    category: hadith_narrative
+    title_en: "He Who Does Not Show Mercy"
+    title_ar: "مَنْ لَا يَرْحَمُ النَّاسَ"
+    title_fr: "Celui qui ne fait pas miséricorde"
+    description_en: |
+      Al-Aqra' ibn Habis came to the Prophet ﷺ — astonished that he kissed
+      his grandchildren — and said: "I have ten children and I have never
+      kissed any of them." The Prophet ﷺ replied: "Can I put mercy in your
+      heart if Allah has removed it?" The hadith reveals the central place
+      of mercy in prophetic character. The companion narration "He who
+      does not show mercy to our young ones nor honor our elders is not
+      one of us" is well-attested in Tirmidhi 1919 (graded Hasan) on the
+      principle of mercy to the young, though that narration's framing
+      differs from the al-Aqra' incident above.
+    description_ar: |
+      جَاءَ الأَقْرَعُ بْنُ حَابِسٍ إِلَى النَّبِيِّ ﷺ مُتَعَجِّبًا حِينَ
+      رَآهُ يُقَبِّلُ سِبْطَيْهِ، فَقَالَ: "إِنَّ لِي عَشَرَةً مِنَ الوَلَدِ،
+      مَا قَبَّلْتُ مِنْهُمْ أَحَدًا". فَقَالَ النَّبِيُّ ﷺ: "أَوَأَمْلِكُ
+      لَكَ أَنْ نَزَعَ اللهُ مِنْ قَلْبِكَ الرَّحْمَةَ؟". وَفِي الحَدِيثِ
+      بَيَانُ مَنْزِلَةِ الرَّحْمَةِ فِي خُلُقِ النَّبِيِّ ﷺ. وَفِي رِوَايَةٍ
+      صَحَّحَهَا التِّرْمِذِيُّ (1919) — وَهُوَ حَدِيثٌ حَسَنٌ —: "لَيْسَ
+      مِنَّا مَنْ لَمْ يَرْحَمْ صَغِيرَنَا وَيُوَقِّرْ كَبِيرَنَا"، وَهِيَ
+      رِوَايَةٌ مُسْتَقِلَّةٌ عَنْ حَادِثَةِ الأَقْرَعِ.
+    description_fr: |
+      Al-Aqraʿ ibn Ḥābis vint au Prophète ﷺ — étonné qu'il embrassât ses
+      petits-enfants — et dit : "J'ai dix enfants et je n'en ai jamais
+      embrassé un seul." Le Prophète ﷺ répondit : "Puis-je mettre la
+      miséricorde dans ton cœur si Allah l'en a retirée ?" Le ḥadīth
+      révèle la place centrale de la miséricorde dans le caractère
+      prophétique. La narration apparentée "N'est pas des nôtres celui
+      qui ne fait pas miséricorde à nos jeunes ni n'honore nos aînés"
+      est bien attestée dans Tirmidhī 1919 (gradé ḥasan) — bien que son
+      cadre diffère de l'incident d'al-Aqraʿ ci-dessus.
+    reference: Sahih al-Bukhari 5997
+    hadith_refs: "Bukhari 5997"
+    source_url: https://sunnah.com/bukhari:5997
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 10:440) notes that the Prophet’s ﷺ kissing of his grandsons—Ḥasan and Ḥusayn ra—was a deliberate teaching against the sternness some Arabs associated with manhood. The companion narration on mercy to the young and honoring elders is graded ḥasan by al-Tirmidhī and ṣaḥīḥ by Ibn Ḥibbān, forming a cornerstone of Islamic ethics.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 10:440) note que le baiser du Prophète ﷺ à ses petits-fils — Ḥasan et Ḥusayn (qu'Allah les agrée) — était un enseignement délibéré contre la sévérité que certains Arabes associaient à la virilité. La narration compagnonne sur la miséricorde envers les jeunes et le respect des aînés est gradée ḥasan par al-Tirmidhī et ṣaḥīḥ par Ibn Ḥibbān, formant une pierre angulaire de l'éthique islamique.
+    source_notes_ar: |
+      يَلْحَظُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١٠:٤٤٠) أَنَّ تَقْبِيلَ النَّبِيِّ ﷺ لأَحْفَادِهِ — الحَسَنِ وَالحُسَيْنِ رَضِيَ اللهُ عَنْهُمَا — كَانَ تَعْلِيمًا مُتَعَمَّدًا ضِدَّ القَسْوَةِ الَّتِي رَبَطَهَا بَعْضُ العَرَبِ بِالرُّجُولَةِ. وَالرِّوَايَةُ المُرَافِقَةُ عَنِ الرَّحْمَةِ بِالصِّغَارِ وَإِكْرَامِ الكِبَارِ حَسَنَةٌ عِنْدَ التِّرْمِذِيِّ وَصَحِيحَةٌ عِنْدَ ابنِ حِبَّانٍ، وَهِيَ رُكْنٌ مِنْ أَرْكَانِ الأَخْلاَقِ الإِسْلاَمِيَّةِ.
+    display_day_of_year: 190
+
+  - slug: hadith-smile-charity
+    category: hadith_narrative
+    title_en: "Your Smile to Your Brother Is Charity"
+    title_ar: "تَبَسُّمُكَ فِي وَجْهِ أَخِيكَ صَدَقَةٌ"
+    title_fr: "Ton sourire à ton frère est une aumône"
+    description_en: |
+      The Prophet ﷺ said: "Your smile to your brother is charity." And:
+      "Do not belittle any act of kindness, even meeting your brother with a
+      cheerful face." The hadith reframes charity (sadaqa) not as a matter of
+      wealth alone but as a constant attitude of generosity — one that every
+      Muslim, regardless of means, can practice continuously.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "تَبَسُّمُكَ فِي وَجْهِ أَخِيكَ لَكَ صَدَقَةٌ".
+      وَقَالَ: "لَا تَحْقِرَنَّ مِنَ المَعْرُوفِ شَيْئًا وَلَوْ أَنْ
+      تَلْقَى أَخَاكَ بِوَجْهٍ طَلْقٍ". وَفِي الحَدِيثِ تَوْسِيعٌ لِمَفْهُومِ
+      الصَّدَقَةِ، فَلَيْسَتْ بِالمَالِ وَحْدَهُ، بَلْ هِيَ سَجِيَّةٌ
+      دَائِمَةٌ مِنَ الكَرَمِ يَسَعُ كُلَّ مُسْلِمٍ أَنْ يُمَارِسَهَا.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Ton sourire à ton frère est une aumône." Et :
+      "Ne méprise aucun acte de bienfaisance, même rencontrer ton frère
+      avec un visage radieux." Le ḥadīth recadre l'aumône (ṣadaqa) non plus
+      comme une question de richesse seule, mais comme une attitude
+      constante de générosité — que tout musulman, quels que soient ses
+      moyens, peut pratiquer sans relâche.
+    reference: Sahih Muslim 2626
+    hadith_refs: "Muslim 2626"
+    source_url: https://sunnah.com/muslim:2626
+    source_notes: |
+      Al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:120) explains that ṣadaqa in Islamic law usually refers to voluntary charity, but the Prophet ﷺ extended the term to every beneficial interaction. Ibn Ḥajar (Fatḥ al-Bārī, 9:380) records that the companion narration on meeting with a cheerful face is found in Ṣaḥīḥ Muslim and strengthens the broader meaning.
+    source_notes_fr: |
+      Al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:120) explique que la ṣadaqa en droit islamique désigne habituellement la charité volontaire, mais que le Prophète ﷺ a étendu le terme à toute interaction bénéfique. Ibn Ḥajar (Fatḥ al-Bārī, 9:380) rapporte que la narration compagnonne sur l'accueil avec un visage radieux se trouve dans Ṣaḥīḥ Muslim et renforce le sens élargi.
+    source_notes_ar: |
+      يُفَسِّرُ النَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١٦:١٢٠) أَنَّ الصَّدَقَةَ فِي الشَّرِيعَةِ تُطْلَقُ عَلَى العَطِيَّةِ التَّطَوُّعِيَّةِ، غَيْرَ أَنَّ النَّبِيَّ ﷺ وَسَّعَ مَفْهُومَهَا لِيَشْمَلَ كُلَّ تَعَامُلٍ نَافِعٍ. وَيَنْقُلُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ٩:٣٨٠) أَنَّ الرِّوَايَةَ المُرَافِقَةَ عَنِ اللِّقَاءِ بِوَجْهٍ طَلْقٍ وَارِدَةٌ فِي صَحِيحِ مُسْلِمٍ وَتُعَزِّزُ المَعْنَى الأَعْمَ.
+    display_day_of_year: 220
+
+  - slug: hadith-seek-knowledge-china
+    category: hadith_narrative
+    title_en: "Seeking Knowledge Is Obligatory upon Every Muslim"
+    title_ar: "طَلَبُ العِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ"
+    title_fr: "La quête du savoir est une obligation pour tout musulman"
+    description_en: |
+      The Prophet ﷺ said: "Whoever travels a path seeking knowledge,
+      Allah will make easy for him a path to Paradise" (Sahih Muslim
+      2699). The complementary phrase "Seeking knowledge is an
+      obligation upon every Muslim" appears in Sunan Ibn Majah 224 — its
+      isnad is graded da'if jiddan (very weak) by hadith specialists,
+      though the matn (meaning) is corroborated through multiple paths
+      and is widely accepted in usul al-fiqh. Scholars from Imam
+      al-Shafi'i onward have understood this obligation to cover the
+      knowledge every Muslim needs of their religion: purification,
+      prayer, lawful and unlawful, and matters of belief.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا،
+      سَهَّلَ اللهُ لَهُ بِهِ طَرِيقًا إِلَى الجَنَّةِ" (مُسْلِمٌ 2699).
+      أَمَّا اللَّفْظُ المَكْمِلُ "طَلَبُ العِلْمِ فَرِيضَةٌ عَلَى كُلِّ
+      مُسْلِمٍ"، فَفِي سُنَنِ ابْنِ مَاجَهْ (224)، وَإِسْنَادُهُ ضَعِيفٌ
+      جِدًّا عِنْدَ أَهْلِ الحَدِيثِ، غَيْرَ أَنَّ مَتْنَهُ تُعَضِّدُهُ
+      طُرُقٌ مُتَعَدِّدَةٌ، وَهُوَ مَقْبُولٌ فِي أُصُولِ الفِقْهِ. وَقَدْ
+      فَهِمَ العُلَمَاءُ مِنْ زَمَنِ الإِمَامِ الشَّافِعِيِّ هَذَا الفَرْضَ
+      عَلَى أَنَّهُ مَا يَحْتَاجُهُ المَرْءُ مِنَ العِلْمِ بِدِينِهِ:
+      الطَّهَارَةِ، وَالصَّلَاةِ، وَالحَلَالِ وَالحَرَامِ، وَأُصُولِ
+      الِاعْتِقَادِ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Quiconque emprunte une voie en quête de savoir,
+      Allah lui facilite une voie vers le Paradis" (Ṣaḥīḥ Muslim 2699). La
+      formule complémentaire "La quête du savoir est une obligation pour
+      tout musulman" figure dans Sunan Ibn Mājah 224 — son isnād est gradé
+      ḍaʿīf jiddan (très faible) par les spécialistes du ḥadīth, bien que
+      son matn (sens) soit corroboré par plusieurs voies et largement
+      accepté en uṣūl al-fiqh. Les savants depuis l'imām al-Shāfiʿī ont
+      compris cette obligation comme couvrant le savoir dont tout musulman
+      a besoin pour sa religion : la purification, la prière, le licite
+      et l'illicite, et les principes de la croyance.
+    reference: Sahih Muslim 2699 (Ibn Majah 224's chain is weak; matn corroborated)
+    hadith_refs: "Muslim 2699"
+    source_url: https://sunnah.com/muslim:2699
+    source_notes: |
+      Shaykh al-Albānī (Ṣaḥīḥ Sunan Ibn Mājah, 1:81) grades the chain of 'seeking knowledge is an obligation upon every Muslim' as very weak (ḍaʿīf jiddan), though he affirms the authenticity of 'whoever travels a path seeking knowledge…' (Muslim 2699). The obligation is nevertheless established in uṣūl al-fiqh through consensus (ijmāʿ) on the necessity of knowing how to worship.
+    source_notes_fr: |
+      Shaykh al-Albānī (Ṣaḥīḥ Sunan Ibn Mājah, 1:81) grade la chaîne de 'la quête du savoir est une obligation pour tout musulman' comme très faible (ḍaʿīf jiddan), bien qu'il affirme l'authenticité de 'quiconque emprunte une voie en quête de savoir…' (Muslim 2699). L'obligation est néanmoins établie en uṣūl al-fiqh par le consensus (ijmāʿ) sur la nécessité de savoir comment adorer.
+    source_notes_ar: |
+      يُصَنِّفُ الشَّيْخُ الأَلبَانِيُّ (صَحِيحُ سُنَنِ ابنِ مَاجَهْ، ١:٨١) سَنَدَ «طَلَبُ العِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ» ضَعِيفًا جِدًّا، وَلَكِنَّهُ يُؤَكِّدُ صِحَّةَ «مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا…» (مُسْلِمٌ ٢٦٩٩). وَالفَرِيضَةُ مُثْبَتَةٌ فِي أُصُولِ الفِقْهِ بِالإِجْمَاعِ عَلَى ضَرُورَةِ مَعْرِفَةِ كَيْفِيَّةِ العِبَادَةِ.
+    display_day_of_year: 250
+
+  - slug: hadith-muslim-brother
+    category: hadith_narrative
+    title_en: "None of You Believes"
+    title_ar: "لَا يُؤْمِنُ أَحَدُكُمْ"
+    title_fr: "Aucun de vous n'a la foi"
+    description_en: |
+      Anas ibn Malik narrated that the Prophet ﷺ said: "None of you truly
+      believes until he loves for his brother what he loves for himself." A
+      foundational ethical principle of Islam, cited by scholars as one of
+      the axes upon which the religion turns. Imam al-Nawawi placed it as
+      hadith 13 in his Forty.
+    description_ar: |
+      رَوَى أَنَسُ بْنُ مَالِكٍ رَضِيَ اللهُ عَنْهُ أَنَّ النَّبِيَّ ﷺ
+      قَالَ: "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ
+      لِنَفْسِهِ". أَصْلٌ خُلُقِيٌّ جَامِعٌ فِي الإِسْلَامِ، عَدَّهُ
+      العُلَمَاءُ مِنَ المَحَاوِرِ الَّتِي يَدُورُ عَلَيْهَا الدِّينُ، وَقَدْ
+      جَعَلَهُ الإِمَامُ النَّوَوِيُّ الحَدِيثَ الثَّالِثَ عَشَرَ مِنْ
+      أَرْبَعِينِيَّتِهِ.
+    description_fr: |
+      Anas ibn Mālik a rapporté que le Prophète ﷺ a dit : "Aucun de vous
+      n'a véritablement la foi tant qu'il n'aime pas pour son frère ce
+      qu'il aime pour lui-même." Principe éthique fondateur de l'Islām,
+      cité par les savants comme l'un des axes sur lesquels tourne la
+      religion. L'imām al-Nawawī l'a placé en treizième position dans son
+      recueil des Quarante.
+    reference: Sahih al-Bukhari 13, Sahih Muslim 45
+    hadith_refs: "Bukhari 13, Muslim 45"
+    source_url: https://sunnah.com/bukhari:13
+    source_notes: |
+      Al-Nawawī (Sharḥ al-Arbaʿīn, pp. 88–92) identifies this hadith as one of the five foundational principles of Islamic social ethics, placing it thirteenth in his Forty. Ibn Rajab (Jāmiʿ al-ʿUlūm, 2:180) notes that 'brother' here encompasses all Muslims regardless of race or status, reflecting the universal brotherhood affirmed by Ahl al-Sunna.
+    source_notes_fr: |
+      Al-Nawawī (Sharḥ al-Arbaʿīn, pp. 88–92) identifie ce ḥadīth comme l'un des cinq principes fondamentaux de l'éthique sociale islamique, le plaçant en treizième position dans ses Quarante. Ibn Rajab (Jāmiʿ al-ʿUlūm, 2:180) note que 'frère' ici englobe tous les musulmans sans distinction de race ni de statut, reflétant la fraternité universelle affirmée par Ahl al-Sunna.
+    source_notes_ar: |
+      يُحَدِّدُ النَّوَوِيُّ (شَرْحُ الأَرْبَعِينَ، ص. ٨٨–٩٢) هَذَا الحَدِيثَ كَوَاحِدٍ مِنَ الأُصُولِ الخَمْسَةِ لِلأَخْلاَقِ الاجْتِمَاعِيَّةِ الإِسْلاَمِيَّةِ، مُوَضِّعًا إِيَّاهُ فِي المَرْتَبَةِ الثَّالِثَةَ عَشْرَةَ مِنْ أَرْبَعِينِيَّتِهِ. وَيُشِيرُ ابنُ رَجَبٍ (جَامِعُ العُلُومِ، ٢:١٨٠) إِلَى أَنَّ «الأَخَ» هُنَا يَشْمَلُ جَمِيعَ المُسْلِمِينَ بِلاَ تَفْرِيقٍ عِرْقِيٍّ أَوْ مَنْزِلَةٍ، مُجَسِّدًا المُؤَاخَاةَ الكُونِيَّةَ الَّتِي يُؤَكِّدُهَا أَهْلُ السُّنَّةِ.
+    display_day_of_year: 280
+
+  - slug: hadith-good-word
+    category: hadith_narrative
+    title_en: "A Good Word Is Charity"
+    title_ar: "الكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ"
+    title_fr: "Une bonne parole est une aumône"
+    description_en: |
+      The Prophet ﷺ said: "A good word is charity," and: "Whoever believes in
+      Allah and the Last Day, let him speak a good word or remain silent."
+      Together these hadiths frame speech as a core site of moral action —
+      every utterance is either a deed of goodness or an opportunity missed.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "الكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ"، وَقَالَ:
+      "مَنْ كَانَ يُؤْمِنُ بِاللهِ وَاليَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا
+      أَوْ لِيَصْمُتْ". وَفِي هَذَيْنِ الحَدِيثَيْنِ تَقْرِيرٌ أَنَّ
+      الكَلَامَ مَحَلٌّ مَرْكَزِيٌّ لِلْعَمَلِ الأَخْلَاقِيِّ — فَكُلُّ
+      نُطْقٍ إِمَّا فِعْلُ خَيْرٍ أَوْ فُرْصَةٌ ضَائِعَةٌ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Une bonne parole est une aumône," et : "Que
+      celui qui croit en Allah et au Jour Dernier dise un bien ou se taise."
+      Ensemble, ces ḥadīths érigent la parole en lieu central de l'action
+      morale — chaque énoncé est soit un acte de bien, soit une occasion
+      manquée.
+    reference: Sahih al-Bukhari 2989, Sahih Muslim 47
+    hadith_refs: "Bukhari 2989, Muslim 47"
+    source_url: https://sunnah.com/bukhari:2989
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 5:320) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 1:75) explain that silence is praised when speech would be harmful, not as an absolute virtue. The combination of these two hadiths forms the classical Sunni framework for ethical speech: promote good, forbid evil, and refrain when neither is possible.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 5:320) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 1:75) expliquent que le silence est loué lorsque la parole serait nuisible, non comme une vertu absolue. La combinaison de ces deux ḥadīths forme le cadre sunnite classique pour la parole éthique : promouvoir le bien, interdire le mal, et se retenir lorsque ni l'un ni l'autre n'est possible.
+    source_notes_ar: |
+      يُفَسِّرُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ٥:٣٢٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١:٧٥) أَنَّ الصَّمْتَ يُحْمَدُ إِذَا كَانَ الكَلاَمُ ضَارًّا، لاَ كَفَضِيلَةٍ مُطْلَقَةٍ. وَتَشْكِلُ هَاتَانِ الرِّوَايَتَانِ مَعًا الإِطَارَ السُّنِّيَّ الكَلاسِيكِيَّ لِلأَخْلاَقِ الكَلاَمِيَّةِ: نَشْرُ الخَيْرِ، وَنَهْيُ الشَّرِّ، وَالكَفُّ عِنْدَ عَدَمِ إِمْكَانِ أَحَدِهِمَا.
+    display_day_of_year: 310
+
+  - slug: hadith-best-of-you-to-family
+    category: hadith_narrative
+    title_en: "The Best of You"
+    title_ar: "خَيْرُكُمْ خَيْرُكُمْ لِأَهْلِهِ"
+    title_fr: "Le meilleur d'entre vous"
+    description_en: |
+      The Prophet ﷺ said: "The best of you is the best to his family, and I
+      am the best of you to my family." In an era where many religious
+      traditions confined spiritual excellence to withdrawal from the world,
+      the Prophet ﷺ located it in the domestic sphere — in kindness to one's
+      spouse, children, and kin. His own household life became the model.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "خَيْرُكُمْ خَيْرُكُمْ لِأَهْلِهِ، وَأَنَا
+      خَيْرُكُمْ لِأَهْلِي". وَفِي عَصْرٍ حَصَرَتْ فِيهِ كَثِيرٌ مِنَ
+      التَّقَالِيدِ الدِّينِيَّةِ الكَمَالَ الرُّوحِيَّ فِي الِاعْتِزَالِ،
+      وَضَعَهُ النَّبِيُّ ﷺ فِي المَجَالِ الأُسَرِيِّ — فِي إِحْسَانِ
+      الزَّوْجِ إِلَى زَوْجَتِهِ، وَالأَبِ إِلَى أَبْنَائِهِ وَأَهْلِهِ.
+      وَكَانَتْ سِيرَتُهُ البَيْتِيَّةُ ﷺ هِيَ النَّمُوذَجَ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Le meilleur d'entre vous est celui qui est le
+      meilleur envers sa famille, et je suis le meilleur d'entre vous
+      envers ma famille." À une époque où de nombreuses traditions
+      religieuses réservaient l'excellence spirituelle au retrait du
+      monde, le Prophète ﷺ l'a située dans la sphère domestique — dans la
+      bonté envers son conjoint, ses enfants et ses proches. Sa propre vie
+      familiale est devenue le modèle.
+    reference: Jami' al-Tirmidhi 3895
+    hadith_refs: "Tirmidhi 3895"
+    source_url: https://sunnah.com/tirmidhi:3895
+    source_notes: |
+      Al-Tirmidhī himself grades this hadith ḥasan ṣaḥīḥ, and Ibn Ḥajar (Fatḥ al-Bārī, 10:500) notes that the Prophet’s ﷺ qualification 'and I am the best of you to my family' makes him the living standard. Classical Sunni scholars—from al-Ghazālī to Ibn al-Qayyim—have used this hadith to reject monastic withdrawal and affirm marriage as the prophetic sunna.
+    source_notes_fr: |
+      Al-Tirmidhī lui-même grade ce ḥadīth ḥasan ṣaḥīḥ, et Ibn Ḥajar (Fatḥ al-Bārī, 10:500) note que la qualification du Prophète ﷺ 'et je suis le meilleur d'entre vous envers ma famille' en fait la norme vivante. Les savants sunnites classiques — d'al-Ghazālī à Ibn al-Qayyim — ont utilisé ce ḥadīth pour rejeter le retrait monastique et affirmer le mariage comme sunna prophétique.
+    source_notes_ar: |
+      يُصَنِّفُ التِّرْمِذِيُّ نَفْسُهُ هَذَا الحَدِيثَ حَسَنًا صَحِيحًا، وَيَلْحَظُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١٠:٥٠٠) أَنَّ إِضَافَةَ النَّبِيِّ ﷺ «وَأَنَا خَيْرُكُمْ لِأَهْلِي» تَجْعَلُهُ القُدْوَةَ الحَيَّةَ. وَاسْتَخْدَمَ العُلَمَاءُ السُّنِّيُّونَ — مِنَ الغَزَالِيِّ إِلَى ابنِ القَيِّمِ — هَذَا الحَدِيثَ لِرَفْضِ الاعْتِزَالِ الرَّهْبَانِيِّ وَإِثْبَاتِ الزَّوَاجِ سُنَّةً نَبَوِيَّةً.
+    display_day_of_year: 340
+
+  # =========================================================================
+  # SUNNAH PRACTICES
+  # =========================================================================
+
+  - slug: sunnah-miswak
+    category: sunnah_practice
+    title_en: The Sunnah of the Miswak
+    title_ar: سُنَّةُ السِّوَاكِ
+    title_fr: La Sunna du siwāk
+    description_en: |
+      The Prophet ﷺ said: "If I did not think it would be too difficult for
+      my community, I would have commanded them to use the miswak before
+      every prayer." He used it upon waking, before prayer, before entering
+      the house, and at many other times. The miswak is from the araak tree
+      and is reported to have medicinal properties that modern research
+      has confirmed.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "لَوْلَا أَنْ أَشُقَّ عَلَى أُمَّتِي لَأَمَرْتُهُمْ
+      بِالسِّوَاكِ عِنْدَ كُلِّ صَلَاةٍ". وَكَانَ ﷺ يَسْتَاكُ عِنْدَ
+      الِاسْتِيقَاظِ، وَقَبْلَ الصَّلَاةِ، وَعِنْدَ دُخُولِ بَيْتِهِ،
+      وَفِي مَوَاضِعَ كَثِيرَةٍ. وَالسِّوَاكُ مِنْ شَجَرَةِ الأَرَاكِ،
+      وَلَهُ خَوَاصُّ طِبِّيَّةٌ أَثْبَتَهَا البَحْثُ الحَدِيثُ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Si je ne craignais d'imposer une trop grande
+      gêne à ma communauté, je leur aurais ordonné d'utiliser le siwāk
+      avant chaque prière." Il l'utilisait au réveil, avant la prière,
+      avant d'entrer dans sa demeure, et en bien d'autres occasions. Le
+      siwāk provient de l'arbre arāk et possède, selon les rapports, des
+      propriétés médicinales que la recherche moderne a confirmées.
+    reference: Sahih al-Bukhari 887, Sahih Muslim 252
+    hadith_refs: "Bukhari 887, Muslim 252"
+    source_url: https://sunnah.com/bukhari:887
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 2:380) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 4:110) record multiple narrations on the miswāk’s virtue, noting that the Prophet ﷺ used it at every change of state. The Ḥanbalī madhhab considers it strongly recommended (sunnah muʾakkada) before each prayer, while others view it as meritorious without being obligatory.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 2:380) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 4:110) rapportent de multiples narrations sur la vertu du siwāk, notant que le Prophète ﷺ l'utilisait à chaque changement d'état. Le madhhab ḥanbalī le considère fortement recommandé (sunnah muʾakkada) avant chaque prière, tandis que d'autres le voient comme méritoire sans être obligatoire.
+    source_notes_ar: |
+      يَرْوِي ابنُ حَجَرٍ (فَتْحُ البَارِي، ٢:٣٨٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ٤:١١٠) أَحَادِيثَ مُتَعَدِّدَةً فِي فَضْلِ السِّوَاكِ، مُشِيرَيْنِ إِلَى أَنَّ النَّبِيَّ ﷺ كَانَ يَسْتَاكُ عِنْدَ كُلِّ تَحَوُّلٍ. وَيَعْتَبِرُ المَذْهَبُ الحَنْبَلِيُّ السِّوَاكَ سُنَّةً مُؤَكَّدَةً قَبْلَ كُلِّ صَلاَةٍ، بَيْنَمَا يَرَاهُ غَيْرُهُمْ مُسْتَحَبًّا دُونَ وُجُوبٍ.
+    display_day_of_year: 25
+
+  - slug: sunnah-eating-adab
+    category: sunnah_practice
+    title_en: The Etiquettes of Eating
+    title_ar: آدَابُ الطَّعَامِ
+    title_fr: Les bonnes manières du repas
+    description_en: |
+      The Prophet ﷺ taught to say "Bismillah" before eating, to eat with the
+      right hand, to eat from what is near to oneself, to not eat reclining
+      or blowing into food, to lick the fingers before wiping them, and to
+      praise Allah after eating. Meals are both a bodily necessity and a
+      spiritual practice when done in the manner of the Prophet ﷺ.
+    description_ar: |
+      عَلَّمَ النَّبِيُّ ﷺ التَّسْمِيَةَ قَبْلَ الطَّعَامِ، وَالأَكْلَ
+      بِاليَمِينِ، وَالأَكْلَ مِمَّا يَلِي الآكِلَ، وَنَهَى عَنِ الأَكْلِ
+      مُتَّكِئًا أَوْ بِالنَّفْخِ فِي الطَّعَامِ، وَأَمَرَ بِلَعْقِ
+      الأَصَابِعِ قَبْلَ مَسْحِهَا، وَبِحَمْدِ اللهِ بَعْدَ الفَرَاغِ.
+      فَالطَّعَامُ ضَرُورَةٌ بَدَنِيَّةٌ وَعِبَادَةٌ رُوحِيَّةٌ مَعًا
+      إِذَا كَانَ عَلَى هَدْيِ النَّبِيِّ ﷺ.
+    description_fr: |
+      Le Prophète ﷺ a enseigné de prononcer "Bismi-Llāh" avant de manger,
+      de manger de la main droite, de manger de ce qui est près de soi, de
+      ne pas manger accoudé ni de souffler dans la nourriture, de lécher
+      les doigts avant de les essuyer, et de louer Allah après le repas.
+      Les repas sont à la fois une nécessité corporelle et une pratique
+      spirituelle lorsqu'ils sont accomplis à la manière du Prophète ﷺ.
+    reference: Sahih al-Bukhari 5376, Sahih Muslim 2020, 2022
+    hadith_refs: "Bukhari 5376, Muslim 2020, Muslim 2022"
+    source_url: https://sunnah.com/bukhari:5376
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 9:450–460) and al-ʿAynī (ʿUmdat al-Qārī, 15:200) compile the eating etiquettes from dozens of authentic reports, emphasizing that these are not mere customs but embodied gratitude. The four Sunni madhhabs agree on the recommendation of eating with the right hand and saying the basmala, though they differ slightly on whether the basmala is obligatory or sunna.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 9:450–460) et al-ʿAynī (ʿUmdat al-Qārī, 15:200) compilent les étiquettes du repas à partir de dizaines de rapports authentiques, soulignant qu'il ne s'agit pas de simples coutumes mais d'une gratitude incarnée. Les quatre madhhabs sunnites s'accordent sur la recommandation de manger de la main droite et de dire la basmala, bien qu'ils diffèrent légèrement sur le caractère obligatoire ou sunna de la basmala.
+    source_notes_ar: |
+      يُجْمِعُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ٩:٤٥٠–٤٦٠) وَالعَيْنِيُّ (عُمْدَةُ القَارِي، ١٥:٢٠٠) آدَابَ الطَّعَامِ مِنْ عُشُورٍ مِنَ الرِّوَايَاتِ الصَّحِيحَةِ، مُؤَكِّدَيْنِ أَنَّهَا لَيْسَتْ مُجَرَّدَ عَادَاتٍ بَلْ شُكْرًا مُتَجَسِّدًا. وَيَتَّفِقُ المَذَاهِبُ السُّنِّيَّةُ الأَرْبَعَةُ عَلَى اسْتِحْبَابِ الأَكْلِ بِاليَمِينِ وَالتَّسْمِيَةِ، وَإِنِ اخْتَلَفُوا قَلِيلاً فِي كَوْنِ البَسْمَلَةِ فَرْضًا أَمْ سُنَّةً.
+    display_day_of_year: 55
+
+  - slug: sunnah-sleep-adab
+    category: sunnah_practice
+    title_en: The Sunnah of Sleep
+    title_ar: سُنَّةُ النَّوْمِ
+    title_fr: La Sunna du sommeil
+    description_en: |
+      The Prophet ﷺ made ablution before sleeping, slept on his right side
+      with his right hand under his cheek, recited Ayat al-Kursi, the last
+      three surahs (al-Ikhlas, al-Falaq, al-Nas), and a supplication
+      beginning "In Your name, O Allah, I die and I live." Upon waking he
+      praised Allah: "All praise is to Allah who gave us life after having
+      caused us to die, and to Him is the resurrection."
+    description_ar: |
+      كَانَ النَّبِيُّ ﷺ يَتَوَضَّأُ قَبْلَ النَّوْمِ، وَيَنَامُ عَلَى
+      شِقِّهِ الأَيْمَنِ وَاضِعًا يَدَهُ اليُمْنَى تَحْتَ خَدِّهِ،
+      وَيَقْرَأُ آيَةَ الكُرْسِيِّ وَالمُعَوِّذَاتِ الثَّلَاثَ (الإِخْلَاصَ
+      وَالفَلَقَ وَالنَّاسَ)، وَيَدْعُو: "بِاسْمِكَ اللَّهُمَّ أَمُوتُ
+      وَأَحْيَا". وَإِذَا اسْتَيْقَظَ حَمِدَ اللهَ: "الحَمْدُ للهِ الَّذِي
+      أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ".
+    description_fr: |
+      Le Prophète ﷺ faisait ses ablutions avant de dormir, dormait sur son
+      côté droit en plaçant sa main droite sous sa joue, récitait Āyat
+      al-Kursī, les trois dernières sourates (al-Ikhlāṣ, al-Falaq, al-Nās),
+      et une invocation commençant par "En Ton nom, ô Allah, je meurs et
+      je vis." Au réveil il louait Allah : "Louange à Allah qui nous a
+      fait revivre après nous avoir donné la mort, et c'est vers Lui que
+      se fait la résurrection."
+    reference: Sahih al-Bukhari 247, 5017, 6320, 6324
+    hadith_refs: "Bukhari 247, Bukhari 5017, Bukhari 6320, Bukhari 6324"
+    source_url: https://sunnah.com/bukhari:247
+    source_notes: |
+      Al-Nawawī (al-Adhkār, pp. 230–245) and Ibn al-Qayyim (al-Wābil al-Ṣayyib, pp. 100–110) provide detailed guidance on sleep based on the Prophet’s ﷺ practice, classifying the adhkār as strongly recommended. Ahl al-Sunna reject superstitious practices around sleep, grounding all night routines in authentic hadith and Qur’anic recitation.
+    source_notes_fr: |
+      Al-Nawawī (al-Adhkār, pp. 230–245) et Ibn al-Qayyim (al-Wābil al-Ṣayyib, pp. 100–110) fournissent des directives détaillées sur le sommeil fondées sur la pratique du Prophète ﷺ, classant les adhkār comme fortement recommandés. Ahl al-Sunna rejettent les pratiques superstitieuses autour du sommeil, fondant toutes les routines nocturnes sur des hadiths authentiques et la récitation coranique.
+    source_notes_ar: |
+      يُقَدِّمُ النَّوَوِيُّ (الأَذْكَارُ، ص. ٢٣٠–٢٤٥) وَابنُ القَيِّمِ (الوَابِلُ الصَّيِّبُ، ص. ١٠٠–١١٠) تَوْجِيهَاتٍ مُفَصَّلَةً عَنِ النَّوْمِ اسْتِنَادًا إِلَى سُنَّةِ النَّبِيِّ ﷺ، مُصَنِّفَيْنِ الأَذْكَارَ مُسْتَحَبَّةً بِشِدَّةٍ. يَرْفُضُ أَهْلُ السُّنَّةِ المُمَارَسَاتِ الخُرَافِيَّةَ حَوْلَ النَّوْمِ، وَيُؤَسِّسُونَ جَمِيعَ الوَرَائِبِ اللَّيْلِيَّةِ عَلَى الأَحَادِيثِ الصَّحِيحَةِ وَالتِّلاوَةِ القُرْآنِيَّةِ.
+    display_day_of_year: 85
+
+  - slug: sunnah-greeting-salaam
+    category: sunnah_practice
+    title_en: The Sunnah of Greeting with Salaam
+    title_ar: سُنَّةُ إِفْشَاءِ السَّلَامِ
+    title_fr: La Sunna de la salutation par le salām
+    description_en: |
+      The Prophet ﷺ said: "You will not enter Paradise until you believe;
+      and you will not believe until you love one another. Shall I not guide
+      you to something that, if you do it, you will love one another? Spread
+      salaam among you." The greeting "As-salamu 'alaykum" — "Peace be upon
+      you" — with its reply adding "wa-rahmatullah" and "wa-barakatuh"
+      carries ten, twenty, or thirty rewards respectively.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "لَا تَدْخُلُونَ الجَنَّةَ حَتَّى تُؤْمِنُوا،
+      وَلَا تُؤْمِنُوا حَتَّى تَحَابُّوا. أَوَلَا أَدُلُّكُمْ عَلَى شَيْءٍ
+      إِذَا فَعَلْتُمُوهُ تَحَابَبْتُمْ؟ أَفْشُوا السَّلَامَ بَيْنَكُمْ".
+      وَتَحِيَّةُ "السَّلَامُ عَلَيْكُمْ" يَزِيدُهَا الجَوَابُ
+      "وَرَحْمَةُ اللهِ" ثُمَّ "وَبَرَكَاتُهُ"، فَتَبْلُغُ بِالأُولَى عَشْرَ
+      حَسَنَاتٍ، ثُمَّ عِشْرِينَ، ثُمَّ ثَلَاثِينَ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Vous n'entrerez pas au Paradis tant que vous
+      n'aurez pas la foi ; et vous n'aurez pas la foi tant que vous ne vous
+      aimerez pas mutuellement. Ne vous indiquerai-je pas quelque chose qui,
+      lorsque vous le ferez, vous vous aimerez ? Répandez le salām entre
+      vous." La salutation "As-salāmu ʿalaykum" — "Que la paix soit sur
+      vous" — avec sa réponse à laquelle on ajoute "wa-raḥmatu-Llāh" puis
+      "wa-barakātuh" porte dix, vingt ou trente récompenses
+      respectivement.
+    reference: Sahih Muslim 54, Sunan Abi Dawud 5195
+    hadith_refs: "Muslim 54, Abu Dawud 5195"
+    source_url: https://sunnah.com/muslim:54
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 11:20) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:80) explain the reward gradations based on the completeness of the greeting and response. The obligation to spread salām is understood by Sunni scholars as both a social glue and a declaration of Islamic identity, with al-Bukhārī dedicating a chapter to it in his Ṣaḥīḥ.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 11:20) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:80) expliquent les gradations de récompense fondées sur la complétude de la salutation et de la réponse. L'obligation de répandre le salām est comprise par les savants sunnites comme un ciment social et une déclaration d'identité islamique, et al-Bukhārī lui consacre un chapitre dans son Ṣaḥīḥ.
+    source_notes_ar: |
+      يُفَسِّرُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١١:٢٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١٦:٨٠) تَدَرُّجَ الأَجْرِ بِنَاءً عَلَى تَمَامِ التَّحِيَّةِ وَالجَوَابِ. يَفْهَمُ العُلَمَاءُ السُّنِّيُّونَ فَرْضَ إِفْشَاءِ السَّلَامِ وَسَائِلَ اجْتِمَاعِيَّةً وَإِعْلاَنًا لِلْهُوِيَّةِ الإِسْلاَمِيَّةِ، وَقَدْ خَصَّصَ لَهُ البُخَارِيُّ بَابًا فِي صَحِيحِهِ.
+    display_day_of_year: 115
+
+  - slug: sunnah-friday-prayer
+    category: sunnah_practice
+    title_en: The Virtue of Jumu'ah
+    title_ar: فَضْلُ يَوْمِ الجُمُعَةِ
+    title_fr: Le mérite du Vendredi (Jumuʿa)
+    description_en: |
+      The Prophet ﷺ said: "The best day on which the sun rises is Friday. On
+      it Adam was created, on it he was admitted to Paradise, and on it he
+      was taken out from it." He taught the Sunnah of ghusl (major ablution),
+      wearing one's best clothes, using perfume, arriving early, reading
+      Surah al-Kahf, and sending abundant salutations upon him ﷺ on this day.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "خَيْرُ يَوْمٍ طَلَعَتْ عَلَيْهِ الشَّمْسُ يَوْمُ
+      الجُمُعَةِ، فِيهِ خُلِقَ آدَمُ، وَفِيهِ أُدْخِلَ الجَنَّةَ، وَفِيهِ
+      أُخْرِجَ مِنْهَا". وَسَنَّ ﷺ الغُسْلَ يَوْمَ الجُمُعَةِ، وَلُبْسَ
+      أَحْسَنِ الثِّيَابِ، وَالتَّطَيُّبَ، وَالتَّبْكِيرَ إِلَى الصَّلَاةِ،
+      وَقِرَاءَةَ سُورَةِ الكَهْفِ، وَالإِكْثَارَ مِنَ الصَّلَاةِ عَلَيْهِ
+      ﷺ فِي هَذَا اليَوْمِ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Le meilleur jour où se lève le soleil est le
+      Vendredi. Ce jour-là Ādam fut créé, ce jour-là il fut admis au
+      Paradis, et ce jour-là il en fut sorti." Il a enseigné la Sunna du
+      ghusl (grande ablution), de revêtir ses plus beaux vêtements, de se
+      parfumer, de se rendre tôt à la mosquée, de lire la sourate al-Kahf
+      et de multiplier les bénédictions sur lui ﷺ ce jour-là.
+    reference: Sahih Muslim 854, Sunan Abi Dawud 1047
+    hadith_refs: "Muslim 854, Abu Dawud 1047"
+    source_url: https://sunnah.com/muslim:854
+    source_notes: |
+      Ibn al-Qayyim (Zād al-Maʿād, 1:390) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 6:180) enumerate the Friday sunnas, noting that ghusl and reading Sūrat al-Kahf are practices with strong authentic support. The four Sunni madhhabs agree on the communal obligation (farḍ kifāya) of Jumuʿa for free adult males resident in a town.
+    source_notes_fr: |
+      Ibn al-Qayyim (Zād al-Maʿād, 1:390) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 6:180) énumèrent les sunnas du vendredi, notant que le ghusl et la lecture de Sūrat al-Kahf sont des pratiques fortement étayées par des sources authentiques. Les quatre madhhabs sunnites s'accordent sur l'obligation communautaire (farḍ kifāya) de la Jumuʿa pour les hommes adultes libres résidant dans une ville.
+    source_notes_ar: |
+      يَعُدُّ ابنُ القَيِّمِ (زَادُ المَعَادِ، ١:٣٩٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ٦:١٨٠) سُنَنَ الجُمُعَةِ، مُشِيرَيْنِ إِلَى أَنَّ الغُسْلَ وَقِرَاءَةَ سُورَةِ الكَهْفِ مُمَارَسَاتٍ ذَاتِ أَصْلٍ صَحِيحٍ قَوِيٍّ. وَيَتَّفِقُ المَذَاهِبُ السُّنِّيَّةُ الأَرْبَعَةُ عَلَى فَرْضِ الجُمُعَةِ الكِفَائِيِّ لِلرِّجَالِ الأَحْرَارِ البَالِغِينَ المُقِيمِينَ فِي المَدِينَةِ.
+    display_day_of_year: 145
+
+  - slug: sunnah-the-night-prayer
+    category: sunnah_practice
+    title_en: The Sunnah of Tahajjud (Night Prayer)
+    title_ar: سُنَّةُ قِيَامِ اللَّيْلِ (التَّهَجُّدِ)
+    title_fr: La Sunna du tahajjud (prière de nuit)
+    description_en: |
+      The Prophet ﷺ said: "The most excellent prayer after the obligatory
+      prayers is the night prayer." He prayed eleven rak'ahs at night,
+      sometimes thirteen, lengthening the recitation and the prostration.
+      Allah describes those who pray at night in Surah al-Sajda 32:16:
+      "They forsake their beds, calling upon their Lord in fear and hope."
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "أَفْضَلُ الصَّلَاةِ بَعْدَ الفَرِيضَةِ صَلَاةُ
+      اللَّيْلِ". وَكَانَ ﷺ يُصَلِّي مِنَ اللَّيْلِ إِحْدَى عَشْرَةَ
+      رَكْعَةً، وَأَحْيَانًا ثَلَاثَ عَشْرَةَ، يُطِيلُ القِرَاءَةَ
+      وَالسُّجُودَ. وَوَصَفَ اللهُ القَائِمِينَ فِي قَوْلِهِ تَعَالَى
+      فِي سُورَةِ السَّجْدَةِ (32: 16): "تَتَجَافَى جُنُوبُهُمْ عَنِ
+      المَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا".
+    description_fr: |
+      Le Prophète ﷺ a dit : "La meilleure prière après les prières
+      obligatoires est la prière de nuit." Il accomplissait onze rakʿats
+      la nuit, parfois treize, en prolongeant la récitation et la
+      prosternation. Allah décrit ceux qui prient la nuit dans la sourate
+      al-Sajda (32:16) : "Ils s'arrachent à leurs lits, invoquant leur
+      Seigneur par crainte et par espoir."
+    reference: Sahih Muslim 1163, Sahih al-Bukhari 1147
+    hadith_refs: "Muslim 1163, Bukhari 1147"
+    quran_refs: "32:16"
+    source_url: https://sunnah.com/muslim:1163
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 3:200) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 6:50) detail the Prophet’s ﷺ night prayer as eleven rakʿahs including witr, a practice the Ṣaḥāba continued. Sunni scholars uniformly consider tahajjud the greatest voluntary prayer after the obligatory ones, with special virtue in the last third of the night.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 3:200) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 6:50) détaillent la prière nocturne du Prophète ﷺ comme onze rakʿahs incluant le witr, pratique que les Ṣaḥāba ont continuée. Les savants sunnites considèrent uniformément le tahajjud comme la plus grande prière volontaire après les prières obligatoires, avec une vertu particulière dans le dernier tiers de la nuit.
+    source_notes_ar: |
+      يُفَصِّلُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ٣:٢٠٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ٦:٥٠) صَلاَةَ اللَّيْلِ النَّبَوِيَّةَ بِأَحَدَ عَشَرَ رَكْعَةً مَعَ الوِتْرِ، مُمَارَسَةً وَاصَلَهَا الصَّحَابَةُ. يَعْتَبِرُ العُلَمَاءُ السُّنِّيُّونَ التَّهَجُّدَ — بِإِجْمَاعٍ — أَفْضَلَ الصَّلاَةِ التَّطَوُّعِيَّةِ بَعْدَ الفَرَائِضِ، وَلَهُ فَضْلٌ خَاصٌّ فِي آخِرِ ثُلُثِ اللَّيْلِ.
+    display_day_of_year: 175
+
+  - slug: sunnah-fasting-mondays-thursdays
+    category: sunnah_practice
+    title_en: Fasting on Mondays and Thursdays
+    title_ar: صِيَامُ الِاثْنَيْنِ وَالخَمِيسِ
+    title_fr: Le jeûne du lundi et du jeudi
+    description_en: |
+      The Prophet ﷺ fasted regularly on Mondays and Thursdays, saying:
+      "Deeds are presented to Allah on Mondays and Thursdays, and I love
+      that my deeds be presented while I am fasting." He was also asked
+      about fasting on Monday and replied: "That is the day on which I was
+      born, and the day on which revelation began to come to me."
+    description_ar: |
+      كَانَ النَّبِيُّ ﷺ يَتَحَرَّى صِيَامَ الِاثْنَيْنِ وَالخَمِيسِ،
+      وَقَالَ: "تُعْرَضُ الأَعْمَالُ يَوْمَ الِاثْنَيْنِ وَالخَمِيسِ،
+      فَأُحِبُّ أَنْ يُعْرَضَ عَمَلِي وَأَنَا صَائِمٌ". وَلَمَّا سُئِلَ
+      عَنْ صِيَامِ يَوْمِ الِاثْنَيْنِ قَالَ: "ذَاكَ يَوْمٌ وُلِدْتُ فِيهِ
+      وَيَوْمٌ بُعِثْتُ — أَوْ أُنْزِلَ عَلَيَّ — فِيهِ".
+    description_fr: |
+      Le Prophète ﷺ jeûnait régulièrement les lundis et jeudis, disant :
+      "Les actes sont présentés à Allah le lundi et le jeudi, et j'aime
+      que mes actes soient présentés alors que je jeûne." Interrogé sur le
+      jeûne du lundi, il répondit : "C'est le jour où je suis né, et le
+      jour où la révélation a commencé à me parvenir."
+    reference: Sahih Muslim 1162
+    hadith_refs: "Muslim 1162"
+    source_url: https://sunnah.com/muslim:1162
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 4:210) notes that the Prophet ﷺ gave two reasons for Monday fasting—his birth and the start of revelation—making it a sunna of gratitude. The presentation of deeds on these days is cited by scholars as divine encouragement to perform extra worship when one’s record is being reviewed.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 4:210) note que le Prophète ﷺ a donné deux raisons pour le jeûne du lundi — sa naissance et le début de la révélation — en faisant une sunna de gratitude. La présentation des œuvres ces jours-là est citée par les savants comme une encouragement divine à accomplir des œuvres supplémentaires lors de la révision du registre.
+    source_notes_ar: |
+      يُشِيرُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ٤:٢١٠) إِلَى أَنَّ النَّبِيَّ ﷺ قَدَّمَ سَبَبَيْنِ لِصِيَامِ الِاثْنَيْنِ — مِيلَادَهُ وَبَدْءَ الوَحْيِ — مُجَعِّلًا إِيَّاهُ سُنَّةَ شُكْرٍ. وَيَسْتَشْهِدُ العُلَمَاءُ بِعَرْضِ الأَعْمَالِ هَذَيْنِ اليَوْمَيْنِ تَشْجِيعًا إِلَهِيًّا عَلَى الإِكْثَارِ مِنَ الطَّاعَاتِ عِنْدَ مُرَاجَعَةِ الدَّوَّانِ.
+    display_day_of_year: 205
+
+  - slug: sunnah-dhikr-after-prayer
+    category: sunnah_practice
+    title_en: Dhikr After the Obligatory Prayer
+    title_ar: الذِّكْرُ دُبُرَ الصَّلَوَاتِ المَكْتُوبَةِ
+    title_fr: Le dhikr après la prière obligatoire
+    description_en: |
+      The Prophet ﷺ taught to say after each obligatory prayer: "Astaghfir
+      Allah" three times, followed by "Allahumma anta al-Salam wa minka
+      al-salam tabarakta ya Dhal-Jalali wal-Ikram." He also taught saying
+      Subhan Allah (33 times), Alhamdulillah (33), and Allahu Akbar (33 or
+      34) completing with La ilaha illa Allah — a practice that the Prophet
+      ﷺ said would bring forgiveness "even if one's sins were like the foam
+      of the sea."
+    description_ar: |
+      عَلَّمَ النَّبِيُّ ﷺ أَنْ يُقَالَ دُبُرَ كُلِّ صَلَاةٍ مَكْتُوبَةٍ:
+      "أَسْتَغْفِرُ اللهَ" ثَلَاثًا، ثُمَّ "اللَّهُمَّ أَنْتَ السَّلَامُ
+      وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الجَلَالِ وَالإِكْرَامِ".
+      وَعَلَّمَ أَيْضًا قَوْلَ "سُبْحَانَ اللهِ" ثَلَاثًا وَثَلَاثِينَ،
+      وَ"الحَمْدُ للهِ" ثَلَاثًا وَثَلَاثِينَ، وَ"اللهُ أَكْبَرُ" ثَلَاثًا
+      وَثَلَاثِينَ أَوْ أَرْبَعًا وَثَلَاثِينَ، خِتَامًا بِـ"لَا إِلَهَ
+      إِلَّا اللهُ" — وَهِيَ عِبَادَةٌ قَالَ النَّبِيُّ ﷺ إِنَّهَا تُحَطُّ
+      بِهَا الذُّنُوبُ "وَلَوْ كَانَتْ مِثْلَ زَبَدِ البَحْرِ".
+    description_fr: |
+      Le Prophète ﷺ a enseigné de dire après chaque prière obligatoire :
+      "Astaghfir Allāh" trois fois, suivi de "Allāhumma anta al-Salām wa
+      minka al-salām, tabārakta yā Dhā al-Jalāli wa-l-Ikrām." Il a aussi
+      enseigné de dire Subḥān Allāh (33 fois), al-Ḥamdu li-Llāh (33 fois)
+      et Allāhu Akbar (33 ou 34 fois), en clôturant par Lā ilāha illā
+      Llāh — pratique dont le Prophète ﷺ a dit qu'elle apporte le pardon
+      "même si les péchés étaient comme l'écume de la mer."
+    reference: Sahih Muslim 591, 597
+    hadith_refs: "Muslim 591, Muslim 597"
+    source_url: https://sunnah.com/muslim:591
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 2:420) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 5:30) explain that the tasbīḥ, taḥmīd, and takbīr after prayer are strongly established (sunnah muʾakkada) in all four madhhabs. The narration about forgiveness 'like the foam of the sea' is found in Muslim with a sound chain, and scholars recommend it especially for those unable to perform much voluntary worship.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 2:420) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 5:30) expliquent que le tasbīḥ, le taḥmīd et le takbīr après la prière sont fortement établis (sunnah muʾakkada) dans les quatre madhhabs. La narration sur le pardon 'comme l'écume de la mer' se trouve dans Muslim avec une chaîne saine, et les savants la recommandent particulièrement pour ceux qui ne peuvent accomplir beaucoup d'œuvres volontaires.
+    source_notes_ar: |
+      يُفَسِّرُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ٢:٤٢٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ٥:٣٠) أَنَّ التَّسْبِيحَ وَالتَّحْمِيدَ وَالتَّكْبِيرَ بَعْدَ الصَّلاَةِ مُثَبَّتَةٌ (سُنَّةٌ مُؤَكَّدَةٌ) فِي المَذَاهِبِ الأَرْبَعَةِ. وَرِوَايَةُ المَغْفِرَةِ «وَلَوْ كَانَتْ مِثْلَ زَبَدِ البَحْرِ» وَارِدَةٌ فِي مُسْلِمٍ بِسَنَدٍ صَحِيحٍ، وَيُوصِي بِهَا العُلَمَاءُ خَاصَّةً لِمَنْ لاَ يَسْتَطِيعُ كَثْرَةَ النَّوَافِلِ.
+    display_day_of_year: 235
+
+  - slug: sunnah-charity-every-day
+    category: sunnah_practice
+    title_en: "Every Day the Sun Rises"
+    title_ar: "كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ"
+    title_fr: "Chaque jour où se lève le soleil"
+    description_en: |
+      The Prophet ﷺ said: "Every day the sun rises, charity is due on every
+      joint of the human body. To reconcile two people is charity; to help
+      a man onto his mount is charity; a good word is charity; every step
+      taken to prayer is charity; and removing harm from the road is
+      charity." The hadith reframes charity as a daily, embodied, continuous
+      practice rather than an occasional payment.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "كُلُّ سُلَامَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ،
+      كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ: تَعْدِلُ بَيْنَ الِاثْنَيْنِ
+      صَدَقَةٌ، وَتُعِينُ الرَّجُلَ فِي دَابَّتِهِ صَدَقَةٌ، وَالكَلِمَةُ
+      الطَّيِّبَةُ صَدَقَةٌ، وَبِكُلِّ خُطْوَةٍ تَمْشِيهَا إِلَى الصَّلَاةِ
+      صَدَقَةٌ، وَتُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ". وَفِي الحَدِيثِ
+      تَوْسِيعٌ لِمَفْهُومِ الصَّدَقَةِ، فَهِيَ مُمَارَسَةٌ يَوْمِيَّةٌ
+      بَدَنِيَّةٌ مُتَّصِلَةٌ، لَا مُجَرَّدُ بَذْلٍ مَالِيٍّ عَارِضٍ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "Chaque jour où se lève le soleil, une aumône
+      est due de chaque articulation du corps humain. Réconcilier deux
+      personnes est une aumône ; aider un homme à monter sa monture est
+      une aumône ; une bonne parole est une aumône ; chaque pas vers la
+      prière est une aumône ; et ôter ce qui nuit du chemin est une
+      aumône." Le ḥadīth recadre l'aumône en pratique quotidienne,
+      incarnée et continue, plutôt qu'en versement occasionnel.
+    reference: Sahih al-Bukhari 2989, Sahih Muslim 1009
+    hadith_refs: "Bukhari 2989, Muslim 1009"
+    source_url: https://sunnah.com/bukhari:2989
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 5:320) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 12:80) explain that 'joint' (sulāmā) here refers to each joint’s potential for good, making charity a comprehensive obligation. This hadith is foundational to the Islamic understanding that ṣadaqa encompasses time, effort, and character—not merely wealth—an interpretation held by all Sunni jurists.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 5:320) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 12:80) expliquent que 'articulation' (sulāmā) désigne ici le potentiel de bienfaisance de chaque articulation, faisant de la charité une obligation globale. Ce ḥadīth est fondamental pour la compréhension islamique selon laquelle la ṣadaqa englobe le temps, l'effort et le caractère — non seulement la richesse — une interprétation partagée par tous les juristes sunnites.
+    source_notes_ar: |
+      يُفَسِّرُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ٥:٣٢٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١٢:٨٠) أَنَّ «السُّلاَمَى» هُنَا تَعْنِي قُدْرَةَ كُلِّ مَفْصِلٍ عَلَى الخَيْرِ، مُجَعِّلَةً الصَّدَقَةَ وَاجِبًا شَامِلًا. وَهَذَا الحَدِيثُ أَصْلٌ فِي الفَهْمِ الإِسْلاَمِيِّ بِأَنَّ الصَّدَقَةَ تَشْمَلُ الوَقْتَ وَالجُهْدَ وَالخُلُقَ — لاَ المَالَ فَحَسْبُ — وَهُوَ تَأْوِيلٌ مُتَّفَقٌ عَلَيْهِ عِنْدَ جَمِيعِ الفُقَهَاءِ السُّنِّيِّينَ.
+    display_day_of_year: 265
+
+  - slug: sunnah-visiting-sick
+    category: sunnah_practice
+    title_en: The Sunnah of Visiting the Sick
+    title_ar: سُنَّةُ عِيَادَةِ المَرِيضِ
+    title_fr: La Sunna de la visite du malade
+    description_en: |
+      The Prophet ﷺ counted visiting the sick among the rights of one Muslim
+      upon another, and taught: "When the Muslim visits his sick brother,
+      he remains in the harvest of Paradise until he returns." He would sit
+      with sick companions, ask about their condition, supplicate for them,
+      and teach a specific du'a: "As'alu Allah al-'Azim Rabb al-'Arsh
+      al-'Azim an yashfiyaka" — seven times for cure if the time of death
+      has not yet come.
+    description_ar: |
+      عَدَّ النَّبِيُّ ﷺ عِيَادَةَ المَرِيضِ مِنْ حُقُوقِ المُسْلِمِ
+      عَلَى أَخِيهِ، وَقَالَ: "إِنَّ المُسْلِمَ إِذَا عَادَ أَخَاهُ
+      المُسْلِمَ لَمْ يَزَلْ فِي خُرْفَةِ الجَنَّةِ حَتَّى يَرْجِعَ".
+      وَكَانَ يَجْلِسُ إِلَى المَرِيضِ مِنْ أَصْحَابِهِ، وَيَسْأَلُهُ عَنْ
+      حَالِهِ، وَيَدْعُو لَهُ، وَعَلَّمَ دُعَاءً مَخْصُوصًا: "أَسْأَلُ
+      اللهَ العَظِيمَ رَبَّ العَرْشِ العَظِيمِ أَنْ يَشْفِيَكَ" — يُقَالُ
+      سَبْعَ مَرَّاتٍ، فَيُشْفَى المَرِيضُ إِنْ لَمْ يَكُنْ قَدْ حَضَرَ
+      أَجَلُهُ.
+    description_fr: |
+      Le Prophète ﷺ comptait la visite du malade parmi les droits du
+      musulman envers son frère, et a enseigné : "Lorsque le musulman
+      rend visite à son frère malade, il demeure dans la récolte du
+      Paradis jusqu'à son retour." Il s'asseyait auprès des compagnons
+      malades, s'enquérait de leur état, invoquait pour eux, et a
+      enseigné une duʿā' spécifique : "As'alu Llāha l-ʿAẓīm Rabba
+      l-ʿArshi l-ʿAẓīm an yashfiyaka" — à dire sept fois pour la
+      guérison, si le terme n'est pas encore venu.
+    reference: Sahih Muslim 2568, Jami' al-Tirmidhi 2083
+    hadith_refs: "Muslim 2568, Tirmidhi 2083"
+    source_url: https://sunnah.com/muslim:2568
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 10:180) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:90) note that 'the harvest of Paradise' (khurfa al-janna) refers to the abundant reward of this simple act. The specific duʿāʾ for cure is reported in multiple collections with sound chains, and Sunni fiqh manuals classify visiting the sick as a confirmed sunna (sunnah muʾakkada).
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 10:180) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:90) notent que 'la récolte du Paradis' (khurfa al-janna) désigne la récompense abondante de ce simple acte. La duʿāʾ spécifique pour la guérison est rapportée dans plusieurs collections avec des chaînes saines, et les manuels de fiqh sunnites classent la visite du malade comme une sunna confirmée (sunnah muʾakkada).
+    source_notes_ar: |
+      يَلْحَظُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١٠:١٨٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١٦:٩٠) أَنَّ «خُرْفَةَ الجَنَّةِ» تَعْنِي الأَجْرَ الوَافِرَ لِهَذَا العَمَلِ البَسِيطِ. وَالدُّعَاءُ المُخَصَّصُ لِلشِّفَاءِ مَرْوِيٌّ فِي مَجَامِيعَ مُتَعَدِّدَةٍ بِسَنَدٍ صَحِيحٍ، وَيُصَنِّفُهُ مُتَأَهِّلُو الفِقْهِ السُّنِّيُّ سُنَّةً مُؤَكَّدَةً.
+    display_day_of_year: 295
+
+  - slug: sunnah-gentleness
+    category: sunnah_practice
+    title_en: The Sunnah of Gentleness (Rifq)
+    title_ar: سُنَّةُ الرِّفْقِ
+    title_fr: La Sunna de la douceur (rifq)
+    description_en: |
+      The Prophet ﷺ said: "Gentleness is not put into anything without
+      beautifying it, and it is not removed from anything without making it
+      ugly." And to Aisha ra: "Allah is gentle and loves gentleness in all
+      matters." The Prophet ﷺ lived this comprehensively — in his
+      interactions with children, servants, strangers, opponents, animals,
+      and even inanimate objects — establishing gentleness as the default
+      register of Muslim conduct.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "إِنَّ الرِّفْقَ لَا يَكُونُ فِي شَيْءٍ إِلَّا
+      زَانَهُ، وَلَا يُنْزَعُ مِنْ شَيْءٍ إِلَّا شَانَهُ". وَقَالَ
+      لِعَائِشَةَ رَضِيَ اللهُ عَنْهَا: "إِنَّ اللهَ رَفِيقٌ يُحِبُّ
+      الرِّفْقَ فِي الأَمْرِ كُلِّهِ". وَقَدْ عَاشَ النَّبِيُّ ﷺ هَذَا
+      الخُلُقَ شَامِلًا — مَعَ الصِّبْيَانِ، وَالخَدَمِ، وَالغُرَبَاءِ،
+      وَالخُصُومِ، وَالحَيَوَانَاتِ، حَتَّى الجَمَادَاتِ — مُؤَسِّسًا
+      الرِّفْقَ سِمَةً أَصْلِيَّةً لِسُلُوكِ المُسْلِمِ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "La douceur n'est pas placée en quelque chose
+      sans l'embellir, et n'en est pas retirée sans l'enlaidir." Et à
+      ʿĀʾisha (qu'Allah l'agrée) : "Allah est doux et aime la douceur en
+      toute chose." Le Prophète ﷺ a vécu cela de façon globale — dans ses
+      rapports avec les enfants, les serviteurs, les étrangers, les
+      adversaires, les animaux, et même les objets inanimés — instaurant
+      la douceur comme registre par défaut de la conduite musulmane.
+    reference: Sahih Muslim 2594, Sahih al-Bukhari 6024
+    hadith_refs: "Muslim 2594, Bukhari 6024"
+    source_url: https://sunnah.com/muslim:2594
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 10:500) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:100) document the Prophet’s ﷺ gentleness across every domain of life. Ahl al-Sunna understand rifq not as weakness but as strength directed by wisdom, a quality the Prophet ﷺ said Allah Himself possesses and loves in His servants.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 10:500) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:100) documentent la douceur du Prophète ﷺ dans chaque domaine de la vie. Ahl al-Sunna comprennent le rifq non comme une faiblesse mais comme une force dirigée par la sagesse, une qualité que le Prophète ﷺ dit qu'Allah Lui-même possède et aime chez Ses serviteurs.
+    source_notes_ar: |
+      يَسْجُلُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١٠:٥٠٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١٦:١٠٠) رِفْقَ النَّبِيِّ ﷺ فِي كُلِّ مَجَالٍ مِنَ الحَيَاةِ. يَفْهَمُ أَهْلُ السُّنَّةِ الرِّفْقَ لَيْسَ ضُعْفًا بَلْ قُوَّةً تَهْتَدِي بِالحِكْمَةِ، وَهِيَ صِفَةٌ يَقُولُ النَّبِيُّ ﷺ إِنَّ اللهَ يَتَمَتَّعُ بِهَا وَيُحِبُّهَا فِي عِبَادِهِ.
+    display_day_of_year: 325
+
+  - slug: sunnah-truthfulness
+    category: sunnah_practice
+    title_en: The Sunnah of Truthfulness
+    title_ar: سُنَّةُ الصِّدْقِ
+    title_fr: La Sunna de la véracité (ṣidq)
+    description_en: |
+      The Prophet ﷺ said: "Truthfulness leads to righteousness, and
+      righteousness leads to Paradise; and a man keeps speaking the truth
+      until he is written with Allah as a truthful one (siddiq). Falsehood
+      leads to transgression, and transgression leads to the Fire; and a
+      man keeps telling lies until he is written with Allah as a liar."
+      Scholars note that truthfulness encompasses the tongue, the heart,
+      the intention, and every action — making it one of the most
+      comprehensive moral principles.
+    description_ar: |
+      قَالَ النَّبِيُّ ﷺ: "إِنَّ الصِّدْقَ يَهْدِي إِلَى البِرِّ،
+      وَإِنَّ البِرَّ يَهْدِي إِلَى الجَنَّةِ، وَإِنَّ الرَّجُلَ
+      لَيَصْدُقُ حَتَّى يُكْتَبَ عِنْدَ اللهِ صِدِّيقًا. وَإِنَّ الكَذِبَ
+      يَهْدِي إِلَى الفُجُورِ، وَإِنَّ الفُجُورَ يَهْدِي إِلَى النَّارِ،
+      وَإِنَّ الرَّجُلَ لَيَكْذِبُ حَتَّى يُكْتَبَ عِنْدَ اللهِ كَذَّابًا".
+      وَنَبَّهَ العُلَمَاءُ إِلَى أَنَّ الصِّدْقَ يَشْمَلُ صِدْقَ
+      اللِّسَانِ وَالقَلْبِ وَالنِّيَّةِ وَالعَمَلِ، فَكَانَ مِنْ
+      أَجْمَعِ الأُصُولِ الأَخْلَاقِيَّةِ.
+    description_fr: |
+      Le Prophète ﷺ a dit : "La véracité conduit à la droiture, et la
+      droiture conduit au Paradis ; et l'homme ne cesse de dire la vérité
+      jusqu'à ce qu'il soit inscrit auprès d'Allah comme véridique
+      (ṣiddīq). Le mensonge conduit à la transgression, et la transgression
+      conduit au Feu ; et l'homme ne cesse de mentir jusqu'à ce qu'il soit
+      inscrit auprès d'Allah comme menteur." Les savants soulignent que la
+      véracité englobe la langue, le cœur, l'intention et chaque acte —
+      ce qui en fait l'un des principes moraux les plus englobants.
+    reference: Sahih al-Bukhari 6094, Sahih Muslim 2607
+    hadith_refs: "Bukhari 6094, Muslim 2607"
+    source_url: https://sunnah.com/bukhari:6094
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 10:480) and al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:110) note that this hadith establishes truthfulness as a comprehensive character trait (ṣidq) leading to the highest stations. The Prophet ﷺ was himself called al-Ṣiddīq—the truthful one—before prophethood, and Sunni scholars hold that persistent truthfulness until death is a sign of sincere faith.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī, 10:480) et al-Nawawī (Sharḥ Ṣaḥīḥ Muslim, 16:110) notent que ce ḥadīth établit la véracité comme un trait de caractère global (ṣidq) menant aux plus hauts rangs. Le Prophète ﷺ fut lui-même appelé al-Ṣiddīq — le véridique — avant la prophétie, et les savants sunnites tiennent que la véracité persistante jusqu'à la mort est un signe de foi sincère.
+    source_notes_ar: |
+      يَلْحَظُ ابنُ حَجَرٍ (فَتْحُ البَارِي، ١٠:٤٨٠) وَالنَّوَوِيُّ (شَرْحُ صَحِيحِ مُسْلِمٍ، ١٦:١١٠) أَنَّ هَذَا الحَدِيثَ يُقِيمُ الصِّدْقَ خُلُقًا جَامِعًا يَصِلُ بِصَاحِبِهِ إِلَى أَعْلَى المَرَاتِبِ. وَقَدْ لُقِّبَ النَّبِيُّ ﷺ بِالصِّدِّيقِ — أَيِ الصَّادِقِ — قَبْلَ النُّبُوَّةِ، وَيَعْتَقِدُ العُلَمَاءُ السُّنِّيُّونَ أَنَّ مُوَاظَبَةَ الصِّدْقِ إِلَى المَوْتِ عَلاَمَةٌ عَلَى إِيمَانٍ صَادِقٍ.
+    display_day_of_year: 355

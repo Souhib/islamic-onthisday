@@ -1,0 +1,1479 @@
+# Foundational facts about the Qur'an, the Sunnah, and the pillars of
+# Islamic belief and practice. Each entry is grounded in the Qur'an or
+# sahih hadith.
+
+lessons:
+  - slug: fact-five-pillars
+    category: quran_hadith_fact
+    title_en: The Five Pillars of Islam
+    title_ar: أركان الإسلام الخمسة
+    title_fr: Les cinq piliers de l'Islam
+    description_en: |
+      The Prophet ﷺ said: "Islam is built upon five: the testimony that
+      there is no god but Allah and that Muhammad is the Messenger of
+      Allah; establishing the prayer; giving zakat; Hajj to the House;
+      and fasting Ramadan." The hadith of Ibn Umar gives the structural
+      summary of the practical religion: two statements (shahadatan),
+      two forms of worship repeated throughout the year (salat and
+      sawm), a redistributive duty (zakat), and a once-in-a-lifetime
+      journey (Hajj). Every act of Islamic law is ultimately grounded
+      in or oriented by one of these five.
+    description_ar: |
+      قال النبي ﷺ: «بُنِيَ الإسلامُ على خمسٍ: شهادةِ أن لا إلهَ إلا اللهُ
+      وأنَّ محمدًا رسولُ الله، وإقامِ الصلاةِ، وإيتاءِ الزكاةِ، وحجِّ البيتِ،
+      وصومِ رمضانَ». يُقدِّم حديث ابن عمر رضي الله عنهما الخلاصةَ البنيويةَ
+      للدِّين العملي: شهادتان، وعبادتان متكررتان طوال العام (الصلاة والصوم)،
+      وفريضةٌ مالية إعادةُ توزيعٍ (الزكاة)، ورحلةٌ تُؤدَّى مرةً في العمر
+      (الحج). كل عملٍ من أعمال الشريعة الإسلامية مردُّه في النهاية إلى أحد
+      هذه الأركان الخمسة.
+    description_fr: |
+      Le Prophète ﷺ a dit : « L'Islam est bâti sur cinq piliers :
+      l'attestation qu'il n'y a de divinité qu'Allah et que Muhammad
+      est le Messager d'Allah, l'accomplissement de la prière,
+      l'acquittement de la zakat, le pèlerinage à la Maison sacrée et
+      le jeûne de Ramadan. » Le hadith d'Ibn 'Umar fournit la synthèse
+      structurelle de la religion pratique : deux attestations
+      (shahadatan), deux formes d'adoration répétées tout au long de
+      l'année (la prière et le jeûne), un devoir redistributif (la
+      zakat) et un voyage à accomplir une fois dans la vie (le Hajj).
+      Tout acte du droit islamique trouve son fondement ou son
+      orientation dans l'un de ces cinq piliers.
+    reference: Sahih al-Bukhari 8, Sahih Muslim 16
+    source_url: https://sunnah.com/bukhari:8
+    hadith_refs: "Bukhari 8, Muslim 16"
+    source_notes: |
+      Ibn Umar's hadith (Bukhari 8, Muslim 16) forms the structural backbone of fiqh; al-Ghazālī (Iḥyāʾ) treats each pillar as a progressive purification of the soul from idolatry to full servitude.
+    source_notes_fr: |
+      Le hadith d'Ibn ʿUmar (Bukhārī 8, Muslim 16) constitue l'épine dorsale structurale du fiqh ; al-Ghazālī (Iḥyāʾ) traite chaque pilier comme une purification progressive de l'âme, de l'idolâtrie à la servitude parfaite.
+    source_notes_ar: |
+      يُشكِّل حديث ابن عمر رضي الله عنهما (البخاري ٨، مسلم ١٦) العمودَ الفقريَّ البنيويَّ للفقه؛ ويعالج الغزالي (الإحياء) كلَّ ركنٍ على أنَّه تطهيرٌ تدريجيٌّ للنفس من الشرك إلى العبودية التامة.
+    display_day_of_year: 6
+
+  - slug: fact-six-articles-iman
+    category: quran_hadith_fact
+    title_en: The Six Articles of Iman
+    title_ar: أركان الإيمان الستة
+    title_fr: Les six articles de la foi (iman)
+    description_en: |
+      In the Hadith of Jibril, the Prophet ﷺ defined iman: "That you
+      believe in Allah, His angels, His books, His messengers, the Last
+      Day, and that you believe in divine decree — its good and its
+      evil." These six constitute the structural content of Islamic
+      belief. The Qur'an summarises them in Surah al-Baqara 2:285 —
+      "The Messenger has believed in what was revealed to him from his
+      Lord, and the believers. All of them have believed in Allah, His
+      angels, His books, and His messengers…"
+    description_ar: |
+      في حديث جبريل عليه السلام، عرَّف النبي ﷺ الإيمانَ فقال: «أن تؤمنَ
+      بالله، وملائكتِه، وكتبِه، ورسلِه، واليومِ الآخرِ، وتؤمنَ بالقَدَرِ
+      خيرِه وشرِّه». هذه الأصول الستة تُمثِّل المضمونَ البنيوي للعقيدة
+      الإسلامية. ويُلخِّصها القرآن في سورة البقرة (٢:٢٨٥): «آمَنَ الرَّسُولُ
+      بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ
+      بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ».
+    description_fr: |
+      Dans le hadith de Jibril, le Prophète ﷺ a défini l'iman :
+      « Croire en Allah, en Ses anges, en Ses livres, en Ses messagers,
+      au Jour dernier, et croire au décret divin — son bien et son
+      mal. » Ces six articles constituent le contenu structurel de la
+      croyance islamique. Le Coran les résume dans la sourate
+      al-Baqara 2:285 : « Le Messager a cru en ce qui lui a été
+      descendu de la part de son Seigneur, ainsi que les croyants.
+      Tous ont cru en Allah, en Ses anges, en Ses livres et en Ses
+      messagers… »
+    reference: Sahih Muslim 8, Qur'an 2:285
+    source_url: https://sunnah.com/muslim:8
+    hadith_refs: "Muslim 8"
+    quran_refs: "2:285"
+    source_notes: |
+      The Hadith of Jibril (Muslim 8) is the classical locus for Sunni creed; al-Ghazālī (Iḥyāʾ) and Ibn Kathīr explain that these six articles encompass all objects of faith, with qadar being the most intellectually demanding.
+    source_notes_fr: |
+      Le Hadith de Jibrīl (Muslim 8) est le lieu classique du credo sunnite ; al-Ghazālī (Iḥyāʾ) et Ibn Kathīr expliquent que ces six articles englobent tous les objets de la foi, le qadar étant le plus exigeant sur le plan intellectuel.
+    source_notes_ar: |
+      حديث جبريل عليه السلام (مسلم ٨) هو الموضعُ الكلاسيكيُّ للعقيدة السنية؛ ويُفسِّر الغزالي (الإحياء) وابن كثير أنَّ هذه الأصول الستة تستوعبُ كلَّ موضوعات الإيمان، والقَدَرُ هو أشدُّها مطالبةً بالجهد العقلي.
+    display_day_of_year: 16
+
+  - slug: fact-114-surahs
+    category: quran_hadith_fact
+    title_en: The Qur'an — 114 Surahs Revealed over 23 Years
+    title_ar: القرآن الكريم - مئةٌ وأربعَ عشرةَ سورةً نزلت في ثلاثٍ وعشرين سنة
+    title_fr: Le Coran - 114 sourates révélées sur 23 ans
+    description_en: |
+      The Qur'an comprises 114 surahs (chapters). The first revelation —
+      Surah al-'Alaq 96:1-5 — came to the Prophet ﷺ in Cave Hira' in
+      610 CE, when he was forty. Revelation continued for approximately
+      23 years, ending shortly before his passing in 632 CE. The
+      traditional count of verses (ayat) is 6,236 by the Kufan count
+      (used in most printed mushafs today), though alternative counts
+      exist (Madani 6,214 or 6,217, Basran 6,204, Syrian 6,226) due to
+      different conventions for numbering verse boundaries — not to any
+      textual variation of the Qur'an itself.
+    description_ar: |
+      يتألَّف القرآن الكريم من مئةٍ وأربعَ عشرةَ سورة. وأول ما نزل منه
+      الآياتُ الخمسُ الأُوَل من سورة العَلَق (٩٦:١-٥) على النبي ﷺ في غار
+      حِراءَ سنةَ ٦١٠م، حين بلغ الأربعين من عمره. واستمرَّ الوحيُ نحوَ
+      ثلاثٍ وعشرين سنة، حتى انقطع قُبيلَ وفاته ﷺ سنةَ ٦٣٢م. وعدد آياته
+      على العَدِّ الكوفي - وهو المعتمدُ في أكثر المصاحف المطبوعة اليوم -
+      ستة آلافٍ ومئتان وستٌّ وثلاثون آية، وثَمَّةَ أعدادٌ أخرى عند سائر
+      أهل العَدّ (المدني ٦٢١٤ أو ٦٢١٧، والبصري ٦٢٠٤، والشامي ٦٢٢٦)؛
+      والفرق بينها يرجع إلى اختلاف اعتبار رؤوس الآي، لا إلى أيِّ اختلافٍ
+      في نصِّ القرآن ذاته.
+    description_fr: |
+      Le Coran compte 114 sourates (chapitres). La première révélation
+      — sourate al-'Alaq 96:1-5 — descendit sur le Prophète ﷺ dans la
+      grotte de Hira' en 610 de l'ère chrétienne, alors qu'il avait
+      quarante ans. La révélation se poursuivit environ 23 ans et prit
+      fin peu avant son décès en 632. Le décompte traditionnel des
+      versets (ayat) est de 6 236 selon l'école coufique (utilisée
+      dans la plupart des mushafs imprimés aujourd'hui), bien que
+      d'autres décomptes existent (médinois 6 214 ou 6 217, basrien
+      6 204, damascène 6 226) en raison de conventions différentes
+      pour le découpage des fins de versets — et non d'une quelconque
+      variation textuelle du Coran lui-même.
+    reference: Classical Qur'anic sciences (Ulum al-Qur'an); al-Suyuti al-Itqan
+    source_url: https://en.wikipedia.org/wiki/Quran
+    source_notes: |
+      Al-Suyūṭī (al-Itqān, 1:41) documents the 114-count consensus and notes that the Kufan verse count is the standard of the Uthmanic codex; the variation in counts reflects ijtihād in verse boundaries, not textual discrepancy.
+    source_notes_fr: |
+      Al-Suyūṭī (al-Itqān, 1:41) documente le consensus sur le décompte de 114 sourates et note que le décompte des versets selon l'école coufique est la norme du codex ʿUthmānique ; la variation des décomptes reflète l'ijtihād dans les frontières des versets, non un écart textuel.
+    source_notes_ar: |
+      يُوثِّق السيوطي (الإتقان، ١:٤١) إجماعَ العدد المئة وأربع عشرة سورةً، ويُنوِّه بأنَّ العددَ الكوفيَّ للآيات هو معيارُ المصحف العثماني؛ والاختلاف في الأعداد ينبع من اجتهادِ تحديد رؤوس الآي، لا من فارقٍ نصيٍّ.
+    display_day_of_year: 26
+
+  - slug: fact-al-fatiha-mother-of-book
+    category: quran_hadith_fact
+    title_en: Al-Fatiha — "The Opener" and "Mother of the Book"
+    title_ar: سورة الفاتحة - فاتحة الكتاب وأمُّه
+    title_fr: Al-Fatiha - « L'Ouvrante » et « la Mère du Livre »
+    description_en: |
+      Surah al-Fatiha is the opening chapter of the Qur'an — seven
+      verses called "al-Sab' al-Mathani" (the seven oft-repeated) in
+      the Qur'an itself (15:87). The Prophet ﷺ said: "By the One in
+      Whose hand is my soul — there is no surah like it revealed in the
+      Torah, the Injil, the Zabur, or the Furqan." In another hadith
+      qudsi he said: "I have divided the prayer between Me and My
+      servant into two halves…" — describing how each of al-Fatiha's
+      verses is answered by Allah in the prayer. It is recited in every
+      rak'ah of every prayer — without it the prayer is invalid.
+    description_ar: |
+      سورة الفاتحة هي مفتتح القرآن، وهي سبعُ آياتٍ سمَّاها القرآن نفسه
+      «السبعَ المثاني» (١٥:٨٧). قال النبي ﷺ: «والذي نفسي بيده، ما أُنزِلتْ
+      في التوراةِ ولا في الإنجيلِ ولا في الزبورِ ولا في الفرقانِ مثلُها».
+      وفي حديثٍ قدسيٍّ آخر قال: «قسمتُ الصلاةَ بيني وبين عبدي نصفين...»،
+      مُبيِّنًا كيف يُجيب اللهُ على كلِّ آيةٍ من آيات الفاتحة في الصلاة.
+      وتُتلى الفاتحة في كل ركعةٍ من كل صلاة - ولا تصحُّ الصلاةُ إلا بها.
+    description_fr: |
+      La sourate al-Fatiha est le chapitre d'ouverture du Coran : sept
+      versets désignés dans le Coran lui-même (15:87) comme « les sept
+      versets répétés » (al-Sab' al-Mathani). Le Prophète ﷺ a dit :
+      « Par Celui qui tient mon âme dans Sa main, aucune sourate
+      semblable à elle n'a été révélée ni dans la Torah, ni dans
+      l'Évangile, ni dans les Psaumes, ni dans le Furqan. » Dans un
+      autre hadith qudsi il dit : « J'ai partagé la prière entre Moi
+      et Mon serviteur en deux moitiés… », décrivant comment Allah
+      répond à chaque verset de la Fatiha durant la prière. Elle est
+      récitée à chaque rak'ah de chaque prière - sans elle la prière
+      est invalide.
+    reference: Qur'an 15:87, Sahih al-Bukhari 5006, Sahih Muslim 395
+    source_url: https://quran.com/1
+    quran_refs: "15:87, 1:1-7"
+    hadith_refs: "Bukhari 5006, Muslim 395"
+    source_notes: |
+      Al-Bukhārī (5006) and Muslim (395) preserve the hadith qudsi dividing the prayer; Ibn Kathīr comments that al-Fatiha contains the essence of tawḥīd, servitude, and supplication in seven verses.
+    source_notes_fr: |
+      Al-Bukhārī (5006) et Muslim (395) préservent le hadith qudsi divisant la prière ; Ibn Kathīr commente que al-Fātiḥa contient l'essence du tawḥīd, de la servitude et de la supplication en sept versets.
+    source_notes_ar: |
+      يحفظ البخاري (٥٠٠٦) ومسلم (٣٩٥) الحديثَ القدسيَّ القاضيَ بالقسمة بين الصلاة؛ ويُعلِّق ابن كثير بأنَّ الفاتحة تجمعُ جوهرَ التوحيد والعبودية والدعاء في سبع آيات.
+    display_day_of_year: 36
+
+  - slug: fact-ayat-al-kursi
+    category: quran_hadith_fact
+    title_en: Ayat al-Kursi — The Greatest Verse of the Qur'an
+    title_ar: آية الكرسي - أعظم آيةٍ في القرآن
+    title_fr: Ayat al-Kursi - le plus grand verset du Coran
+    description_en: |
+      The Prophet ﷺ asked Ubayy ibn Ka'b: "Which verse in the Book of
+      Allah is the greatest?" Ubayy answered: "Allah — there is no god
+      but He, the Living, the Sustainer…" (al-Baqara 2:255). The Prophet
+      ﷺ struck him on the chest and said: "May knowledge be made easy
+      for you, O Abu al-Mundhir." He also said: "Whoever recites Ayat
+      al-Kursi after every obligatory prayer, nothing prevents him from
+      entering Paradise except death" (an-Nasa'i in al-Sunan al-Kubra,
+      graded sahih). It is the single most quoted verse on Allah's
+      majesty, knowledge, power, and sovereignty in the entire Book.
+    description_ar: |
+      سأل النبي ﷺ أُبَيَّ بنَ كعب: «أيُّ آيةٍ في كتاب الله أعظمُ؟» فأجابه
+      أُبَيٌّ: «اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ...»
+      (البقرة ٢:٢٥٥). فضرب النبي ﷺ في صدره وقال: «ليَهْنِكَ العلمُ يا أبا
+      المنذر». وقال أيضًا: «من قرأ آيةَ الكرسي دُبُرَ كلِّ صلاةٍ مكتوبةٍ
+      لم يَمْنَعْه من دخول الجنة إلا أن يموت» (رواه النسائي في الكبرى،
+      وصحَّحه الألباني). وهي أكثر آيةٍ ذُكِرَت في إفراد العظمة والعلم
+      والقدرة والملكوت لله تعالى في كتابه كلِّه.
+    description_fr: |
+      Le Prophète ﷺ demanda à Ubayy ibn Ka'b : « Quel verset du Livre
+      d'Allah est le plus grand ? » Ubayy répondit : « Allah, point de
+      divinité à part Lui, le Vivant, Celui qui subsiste par Lui-même… »
+      (al-Baqara 2:255). Le Prophète ﷺ lui frappa la poitrine et dit :
+      « Que la science te soit facilitée, ô Abu al-Mundhir. » Il a
+      également dit : « Quiconque récite Ayat al-Kursi après chaque
+      prière obligatoire, rien ne l'empêchera d'entrer au Paradis sauf
+      la mort » (rapporté par al-Nasa'i dans al-Sunan al-Kubra,
+      authentifié). C'est le verset le plus cité de tout le Livre sur
+      la majesté, la science, la puissance et la souveraineté d'Allah.
+    reference: Qur'an 2:255, Sahih Muslim 810, al-Sunan al-Kubra of al-Nasa'i 9928 (sahih per al-Albani)
+    source_url: https://quran.com/2/255
+    quran_refs: "2:255"
+    hadith_refs: "Muslim 810"
+    source_notes: |
+      Muslim (810) records the Prophet's ﷺ affirmation of its greatness; Ibn Kathīr explains that the verse uniquely combines Allah's absolute life (al-Ḥayy), self-subsistence (al-Qayyūm), and comprehensive dominion over heaven and earth.
+    source_notes_fr: |
+      Muslim (810) consigne l'affirmation du Prophète ﷺ de sa grandeur ; Ibn Kathīr explique que ce verset combine de manière unique la vie absolue d'Allah (al-Ḥayy), son auto-subsistance (al-Qayyūm) et sa domination universelle sur les cieux et la terre.
+    source_notes_ar: |
+      يُسجِّل مسلم (٨١٠) إقرارَ النبي ﷺ بعظمته؛ ويُفسِّر ابن كثير أنَّ الآية تجمعُ بشكلٍ فريدٍ بين حياة الله المطلقة (الحي) وقيامه بنفسه (القيوم) وملكه الشامل للسماوات والأرض.
+    display_day_of_year: 46
+
+  - slug: fact-surah-ikhlas-third-of-quran
+    category: quran_hadith_fact
+    title_en: Surah al-Ikhlas Equals One-Third of the Qur'an
+    title_ar: سورة الإخلاص تَعْدِلُ ثلثَ القرآن
+    title_fr: La sourate al-Ikhlas équivaut au tiers du Coran
+    description_en: |
+      The Prophet ﷺ heard a man reciting Surah al-Ikhlas and said: "It
+      is obligatory for him." The Companions asked: "What is
+      obligatory?" He replied: "Paradise." In another narration he
+      said: "Is one of you unable to recite a third of the Qur'an in
+      one night?" They thought that difficult. He said: "Qul huwa
+      Allahu ahad — it equals one-third of the Qur'an." Scholars have
+      explained this equivalence as a matter of reward and as reflecting
+      the centrality of the tawhid (pure affirmation of Allah's
+      oneness) which the surah articulates in four verses.
+    description_ar: |
+      سمع النبي ﷺ رجلًا يقرأ سورة الإخلاص فقال: «وجبتْ». فسأله الصحابة:
+      «وما الذي وجب؟» قال: «الجنةُ». وفي روايةٍ أخرى قال: «أيَعْجِزُ
+      أحدُكم أن يقرأ ثلثَ القرآن في ليلة؟» فاستصعبوا ذلك، فقال: «قُلْ هُوَ
+      اللَّهُ أَحَدٌ تَعْدِلُ ثُلُثَ القرآنِ». وقد فسَّر العلماء هذه
+      المعادلةَ بأنها في الأجر والثواب، وبأنها انعكاسٌ لمحوريَّةِ التوحيد
+      الذي تُقرِّرُه السورةُ في آياتها الأربع تقريرًا خالصًا.
+    description_fr: |
+      Le Prophète ﷺ entendit un homme réciter la sourate al-Ikhlas et
+      dit : « C'est obligatoire pour lui. » Les Compagnons demandèrent :
+      « Qu'est-ce qui est obligatoire ? » Il répondit : « Le Paradis. »
+      Dans une autre narration il a dit : « L'un d'entre vous est-il
+      incapable de réciter un tiers du Coran en une nuit ? » Ils
+      trouvèrent cela difficile. Il dit : « Qul huwa Allahu ahad —
+      elle équivaut au tiers du Coran. » Les savants ont expliqué cette
+      équivalence en termes de récompense et comme reflet de la
+      centralité du tawhid (l'affirmation pure de l'unicité d'Allah)
+      que la sourate articule en quatre versets.
+    reference: Sahih al-Bukhari 5013, Sahih al-Bukhari 5015
+    source_url: https://sunnah.com/bukhari:5013
+    hadith_refs: "Bukhari 5013, Bukhari 5015"
+    quran_refs: "112:1-4"
+    source_notes: |
+      Bukhārī (5013) reports the equivalence; classical scholars explain that since the Qur'an's central theme is tawḥīd, a surah devoted entirely to it earns a third of the Book's reward by thematic concentration.
+    source_notes_fr: |
+      Bukhārī (5013) rapporte l'équivalence ; les savants classiques expliquent que puisque le thème central du Coran est le tawḥīd, une sourate entièrement consacrée à celui-ci mérite le tiers de la récompense du Livre par concentration thématique.
+    source_notes_ar: |
+      يروي البخاري (٥٠١٣) المعادلةَ؛ ويُفسِّر العلماء أنَّه بما أنَّ محور القرآن هو التوحيد، فإنَّ السورة المختصة به تستحقُّ ثلثَ ثواب الكتاب بالتركيز الموضوعي.
+    display_day_of_year: 56
+
+  - slug: fact-last-revelation
+    category: quran_hadith_fact
+    title_en: The Last Revelation
+    title_ar: آخر ما نزل من القرآن
+    title_fr: La dernière révélation
+    description_en: |
+      Scholars differ on which was the very last verse revealed. Some
+      hold it was Qur'an 2:281 ("Fear a day when you will be returned
+      to Allah…"), after which the Prophet ﷺ lived nine nights before
+      he passed. Others — including Umar and Ibn Abbas — hold that
+      Surah al-Nasr was among the last. Aisha ra and Umar held that
+      Qur'an 5:3 ("This day I have perfected for you your religion…")
+      was effectively the last legislative verse, though it was revealed
+      at 'Arafat on the Farewell Pilgrimage some months before the
+      Prophet's ﷺ death. The uncertainty about precedence reflects
+      differences among the Companions in what they heard, not textual
+      variance.
+    description_ar: |
+      اختلف العلماء في تعيين آخر آيةٍ نزلت من القرآن. فذهب بعضهم إلى أنها
+      قوله تعالى: «وَاتَّقُوا يَوْمًا تُرْجَعُونَ فِيهِ إِلَى اللَّهِ...»
+      (البقرة ٢:٢٨١)، وأنه ﷺ عاش بعدها تسعَ ليالٍ ثم تُوفِّي. وذهب آخرون -
+      منهم عمر وابن عباس رضي الله عنهما - إلى أن سورة النصر من آخر ما
+      نزل. ورأت عائشة رضي الله عنها وعمرُ أن آية «الْيَوْمَ أَكْمَلْتُ
+      لَكُمْ دِينَكُمْ...» (المائدة ٥:٣) كانت آخرَ آيةٍ تشريعيةٍ من حيث
+      الأحكام، وإن نزلت بعرفة في حجة الوداع قبل وفاة النبي ﷺ بأشهر.
+      والاختلاف في تحديد الأخيرة يعكس تباينَ ما سمعه الصحابةُ من النبي ﷺ،
+      لا اختلافًا في النص.
+    description_fr: |
+      Les savants divergent sur l'identification du tout dernier verset
+      révélé. Certains soutiennent qu'il s'agit du Coran 2:281
+      (« Craignez un jour où vous serez ramenés à Allah… »), après
+      lequel le Prophète ﷺ vécut neuf nuits avant son décès. D'autres
+      — dont 'Umar et Ibn 'Abbas — tiennent que la sourate al-Nasr
+      compte parmi les dernières. 'A'isha (qu'Allah l'agrée) et 'Umar
+      considéraient que le Coran 5:3 (« Aujourd'hui J'ai parfait pour
+      vous votre religion… ») était effectivement le dernier verset
+      législatif, bien qu'il fût révélé à 'Arafat lors du Pèlerinage
+      d'adieu, plusieurs mois avant la mort du Prophète ﷺ. L'incertitude
+      sur la chronologie reflète des différences entre les Compagnons
+      sur ce qu'ils entendirent, et non une variance textuelle.
+    reference: Qur'an 2:281, 5:3; classical Ulum al-Qur'an
+    source_url: https://quran.com/2/281
+    quran_refs: "2:281, 5:3"
+    source_notes: |
+      Al-Suyūṭī (al-Itqān, 1:93) surveys the Companion reports on the last verse; the majority view holds that 2:281 was the final revelation, while 5:3 completed the legislative structure at ʿArafāt.
+    source_notes_fr: |
+      Al-Suyūṭī (al-Itqān, 1:93) passe en revue les rapports des Compagnons sur le dernier verset ; l'opinion majoritaire soutient que 2:281 fut la dernière révélation, tandis que 5:3 acheva la structure législative à ʿArafāt.
+    source_notes_ar: |
+      يستعرض السيوطي (الإتقان، ١:٩٣) أخبارَ الصحابة في تحديد الآية الأخيرة؛ والراجح أنَّ البقرة ٢:٢٨١ كانت آخرَ نزولٍ، بينما أكملت المائدة ٥:٣ البنيةَ التشريعيةَ بعرفة.
+    display_day_of_year: 66
+
+  - slug: fact-first-revelation-iqra
+    category: quran_hadith_fact
+    title_en: The First Five Verses of the Qur'an
+    title_ar: أول ما نزل من القرآن
+    title_fr: Les cinq premiers versets du Coran
+    description_en: |
+      The earliest revelation of the Qur'an was the opening five verses
+      of Surah al-'Alaq (96): "Recite in the name of your Lord who
+      created — created man from a clinging clot. Recite, and your Lord
+      is the Most Generous — who taught by the pen — taught man what he
+      did not know." The command "Iqra'" (Recite) establishes at the
+      opening moment of the religion the centrality of reading,
+      knowledge, and instruction — mediated through the pen, which the
+      verses specifically name.
+    description_ar: |
+      أول ما نزل من القرآن الآياتُ الخمسُ الأُوَل من سورة العَلَق (٩٦):
+      «اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ ۝ خَلَقَ الْإِنسَانَ مِنْ
+      عَلَقٍ ۝ اقْرَأْ وَرَبُّكَ الْأَكْرَمُ ۝ الَّذِي عَلَّمَ بِالْقَلَمِ
+      ۝ عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ». الأمرُ بـ«اقرأ» يُؤَسِّس
+      عند مطلع الدِّين لمحوريَّة القراءة والعلم والتعليم، بواسطة القلم
+      الذي تُسمِّيه الآياتُ صراحة.
+    description_fr: |
+      La toute première révélation du Coran fut constituée des cinq
+      premiers versets de la sourate al-'Alaq (96) : « Lis, au nom de
+      ton Seigneur qui a créé — qui a créé l'homme d'une adhérence.
+      Lis, et ton Seigneur est le Très Noble — qui a enseigné par la
+      plume — a enseigné à l'homme ce qu'il ne savait pas. » Le
+      commandement « Iqra' » (Lis) établit, dès l'instant inaugural de
+      la religion, la centralité de la lecture, du savoir et de
+      l'instruction — médiatisés par la plume, que les versets
+      nomment expressément.
+    reference: Qur'an 96:1-5, Sahih al-Bukhari 3
+    source_url: https://quran.com/96/1-5
+    quran_refs: "96:1-5"
+    hadith_refs: "Bukhari 3"
+    source_notes: |
+      Bukhārī (3) narrates the event in Cave Ḥirāʾ; Ibn Kathīr notes that the command to "read" established knowledge and the pen as the first instruments of the Islamic dispensation.
+    source_notes_fr: |
+      Bukhārī (3) rapporte l'événement dans la grotte de Ḥirāʾ ; Ibn Kathīr note que l'ordre de « lire » a établi le savoir et la plume comme les premiers instruments de la dispensation islamique.
+    source_notes_ar: |
+      يُرَوِّي البخاري (٣) الحادثةَ في غار حراء؛ ويُنوِّه ابن كثير بأنَّ أمرَ «اقرأ» قد جعلَ العلم والقلم أولى أدوات الشريعة الإسلامية.
+    display_day_of_year: 76
+
+  - slug: fact-99-names-of-allah
+    category: quran_hadith_fact
+    title_en: The 99 Most Beautiful Names of Allah (al-Asma' al-Husna)
+    title_ar: أسماء الله الحسنى التسعة والتسعون
+    title_fr: Les 99 plus beaux noms d'Allah (al-Asma' al-Husna)
+    description_en: |
+      The Prophet ﷺ said: "To Allah belong ninety-nine names — a hundred
+      minus one; whoever counts them will enter Paradise." The Qur'an
+      commands: "And to Allah belong the most beautiful names, so invoke
+      Him by them" (7:180). The specific enumeration of the 99 in some
+      narrations is disputed (classical scholars differ on whether the
+      list belongs to the Prophet's ﷺ own words or to a narrator).
+      What is uncontroversial is the principle: Allah has countless
+      names of majesty and mercy, at least 99 of which are known, and
+      "counting" means grasping their meaning and acting by them.
+    description_ar: |
+      قال النبي ﷺ: «إنَّ لله تسعةً وتسعين اسمًا، مئةً إلا واحدًا، من
+      أحصاها دخل الجنة». وأمر القرآنُ بقوله: «وَلِلَّهِ الْأَسْمَاءُ
+      الْحُسْنَىٰ فَادْعُوهُ بِهَا» (٧:١٨٠). أما تعيينُ التسعة والتسعين
+      اسمًا في بعض الروايات فمختلَفٌ فيه (فقد اختلف العلماء في كون السرد
+      من كلام النبي ﷺ أو إدراجًا من بعض الرواة). والذي لا خلاف فيه هو
+      المبدأ: لله تعالى أسماءٌ لا تُحصى من أسماء الجلال والجمال، يُعرَف
+      منها تسعةٌ وتسعون على الأقل، و«الإحصاء» معناه فهم معانيها والعمل
+      بمقتضاها.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Allah possède quatre-vingt-dix-neuf noms
+      — cent moins un ; quiconque les recense entrera au Paradis. » Le
+      Coran ordonne : « C'est à Allah qu'appartiennent les plus beaux
+      noms : invoquez-Le par eux » (7:180). L'énumération précise des
+      99 dans certaines narrations est contestée (les savants
+      classiques divergent sur le fait que la liste appartienne aux
+      paroles propres du Prophète ﷺ ou à un narrateur). Ce qui est
+      incontesté, c'est le principe : Allah a d'innombrables noms de
+      majesté et de miséricorde, dont au moins 99 sont connus, et
+      « les recenser » signifie en saisir le sens et agir conformément
+      à eux.
+    reference: Sahih al-Bukhari 2736, Sahih Muslim 2677, Qur'an 7:180
+    source_url: https://sunnah.com/bukhari:2736
+    hadith_refs: "Bukhari 2736, Muslim 2677"
+    quran_refs: "7:180"
+    source_notes: |
+      Bukhārī (2736) and Muslim (2677) transmit the hadith; al-Ghazālī (al-Maqṣad al-Asnā) and al-Bayhaqī (al-Asmāʾ wa-l-Ṣifāt) explain that the 99 are a meritorious enumeration, not an exhaustive limit, and that "counting" means comprehending and acting by them.
+    source_notes_fr: |
+      Bukhārī (2736) et Muslim (2677) transmettent le hadith ; al-Ghazālī (al-Maqṣad al-Asnā) et al-Bayhaqī (al-Asmāʾ wa-l-Ṣifāt) expliquent que les 99 constituent une énumération méritoire, non une limite exhaustive, et que « les recenser » signifie les comprendre et agir selon eux.
+    source_notes_ar: |
+      يرويان البخاري (٢٧٣٦) ومسلم (٢٦٧٧) الحديثَ؛ ويُفسِّر الغزالي (المقصد الأسمى) والبيهقي (الأسماء والصفات) أنَّ التسعة والتسعين عددٌ فضيلٌ لا حصرٌ شامِلٌ، وأنَّ «الإحصاء» معناه فهمُها والعملُ بمقتضاها.
+    display_day_of_year: 96
+
+  - slug: fact-laylat-al-qadr
+    category: quran_hadith_fact
+    title_en: Laylat al-Qadr — The Night Better Than a Thousand Months
+    title_ar: ليلة القَدْر - خيرٌ من ألف شهر
+    title_fr: Laylat al-Qadr - la Nuit meilleure que mille mois
+    description_en: |
+      Surah al-Qadr declares: "Indeed We sent it down during the Night
+      of Decree. And what will make you know what the Night of Decree
+      is? The Night of Decree is better than a thousand months…" (97:1-3).
+      The Prophet ﷺ taught that it falls in the last ten nights of
+      Ramadan — "seek it in the odd nights of the last ten." Many
+      scholars hold it is most likely the 27th night; others have held
+      it rotates. The Prophet ﷺ increased worship especially in these
+      nights. The du'a for the night: "Allahumma innaka 'afuwwun tuhibbu
+      al-'afwa fa'fu 'anni" (O Allah, You are the Pardoner and love to
+      pardon, so pardon me).
+    description_ar: |
+      تُعلِنُ سورةُ القَدْر: «إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ
+      ۝ وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ ۝ لَيْلَةُ الْقَدْرِ
+      خَيْرٌ مِّنْ أَلْفِ شَهْرٍ...» (٩٧:١-٣). وعلَّم النبي ﷺ أنها في
+      العشر الأواخر من رمضان، فقال: «التمِسوها في الوتر من العشر
+      الأواخر». ورجَّح كثيرٌ من العلماء أنها ليلةُ السابع والعشرين، ورأى
+      آخرون أنها متنقِّلة. وكان النبي ﷺ يُكثر العبادةَ في هذه الليالي.
+      ودعاؤها: «اللهم إنك عفوٌّ تحب العفوَ فاعفُ عني».
+    description_fr: |
+      La sourate al-Qadr déclare : « Nous l'avons certes fait descendre
+      durant la Nuit du Décret. Et qui te dira ce qu'est la Nuit du
+      Décret ? La Nuit du Décret est meilleure que mille mois… »
+      (97:1-3). Le Prophète ﷺ a enseigné qu'elle se trouve dans les
+      dix dernières nuits de Ramadan : « Cherchez-la dans les nuits
+      impaires des dix dernières. » De nombreux savants tiennent qu'il
+      s'agit le plus probablement de la 27e nuit ; d'autres ont
+      soutenu qu'elle se déplace. Le Prophète ﷺ intensifiait
+      l'adoration durant ces nuits. La du'a de la nuit : « Allahumma
+      innaka 'afuwwun tuhibbu al-'afwa fa'fu 'anni » (Ô Allah, Tu es
+      le Pardonneur, Tu aimes pardonner, alors pardonne-moi).
+    reference: Qur'an 97:1-5, Sahih al-Bukhari 2017, Jami' at-Tirmidhi 3513
+    source_url: https://quran.com/97
+    quran_refs: "97:1-5"
+    hadith_refs: "Bukhari 2017, Tirmidhi 3513"
+    source_notes: |
+      Bukhārī (2017) and Tirmidhī (3513) report the command to seek it in the last ten nights; al-Suyūṭī (al-Itqān) notes that the 27th night is the stronger view, though some scholars held it moves.
+    source_notes_fr: |
+      Bukhārī (2017) et Tirmidhī (3513) rapportent l'ordre de la chercher dans les dix dernières nuits ; al-Suyūṭī (al-Itqān) note que la 27e nuit est l'opinion plus forte, bien que certains savants aient soutenu qu'elle se déplace.
+    source_notes_ar: |
+      يرويان البخاري (٢٠١٧) والترمذي (٣٥١٣) الأمرَ بالتماسها في العشر الأواخر؛ ويُنوِّه السيوطي (الإتقان) بأنَّ ليلةَ السابع والعشرين هي الراجحة، وإن رأى بعض العلماء أنَّها متنقِّلة.
+    display_day_of_year: 106
+
+  - slug: fact-angels-in-islam
+    category: quran_hadith_fact
+    title_en: The Angels in Islamic Belief
+    title_ar: الملائكة في العقيدة الإسلامية
+    title_fr: Les anges dans la croyance islamique
+    description_en: |
+      Angels are beings created from light, "who do not disobey Allah in
+      what He commands and do as they are commanded" (Qur'an 66:6). They
+      are innumerable — the Prophet ﷺ saw at the Bayt al-Ma'mur in the
+      heavens seventy thousand angels entering each day, never to
+      return. Named angels in the Qur'an or sahih hadith include Jibril
+      (the bearer of revelation), Mika'il (named in Qur'an 2:98),
+      Israfil (who will blow the horn, named in sahih hadith), the
+      Angel of Death (Malak al-Mawt — Qur'an 32:11), and Munkar and
+      Nakir (who question the dead, named in Jami' at-Tirmidhi). Every
+      human has recording angels (Kiraman Katibin) and guardians who
+      accompany by day and night.
+    description_ar: |
+      الملائكة خلقٌ من نور، «لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ
+      وَيَفْعَلُونَ مَا يُؤْمَرُونَ» (التحريم ٦٦:٦). وهم لا يُحصَون
+      عددًا - فقد رأى النبي ﷺ في البيت المعمور في السماء سبعين ألفَ مَلَكٍ
+      يدخلونه كل يوم، ثم لا يعودون إليه. ومن الملائكة الذين سُمُّوا في
+      القرآن أو السنة الصحيحة: جبريلُ (حامل الوحي)، وميكائيلُ (المذكور في
+      البقرة ٢:٩٨)، وإسرافيلُ (نافخ الصور، المذكور في الصحاح)، ومَلَكُ
+      الموت (السجدة ٣٢:١١)، ومُنكَرٌ ونكيرٌ (سائلا الميت في القبر، في
+      الترمذي). ولكل إنسان مَلَكا الكِرامُ الكاتبون يَكتبان أعماله،
+      وحَفَظَةٌ يتعاقبون عليه بالليل والنهار.
+    description_fr: |
+      Les anges sont des êtres créés de lumière, « qui ne désobéissent
+      pas à Allah en ce qu'Il leur commande et accomplissent ce qui
+      leur est ordonné » (Coran 66:6). Ils sont innombrables : le
+      Prophète ﷺ a vu, au Bayt al-Ma'mur dans les cieux, soixante-dix
+      mille anges entrer chaque jour sans jamais y revenir. Parmi les
+      anges nommés dans le Coran ou les hadiths authentiques figurent
+      Jibril (porteur de la révélation), Mika'il (nommé en Coran 2:98),
+      Israfil (qui soufflera dans la trompe, nommé dans les hadiths
+      authentiques), l'Ange de la mort (Malak al-Mawt — Coran 32:11),
+      et Munkar et Nakir (qui interrogent le mort dans la tombe,
+      nommés dans Tirmidhi). Chaque humain a des anges scribes
+      (Kiraman Katibin) et des gardiens qui se relaient jour et nuit.
+    reference: Qur'an 66:6, 2:177; Sahih al-Bukhari 3207; hadith of Mi'raj
+    source_url: https://quran.com/66/6
+    quran_refs: "66:6, 2:177, 2:98, 32:11"
+    hadith_refs: "Bukhari 3207"
+    source_notes: |
+      Bukhārī (3207) records the seventy-thousand angels at the Bayt al-Maʿmūr; Ibn Kathīr comments that angels are created from light, do not disobey, and serve as scribes and messengers between the divine and human realms.
+    source_notes_fr: |
+      Bukhārī (3207) consigne les soixante-dix mille anges au Bayt al-Maʿmūr ; Ibn Kathīr commente que les anges sont créés de lumière, ne désobéissent pas, et servent de scribes et de messagers entre le divin et les domaines humains.
+    source_notes_ar: |
+      يُسجِّل البخاري (٣٢٠٧) سبعين ألفَ ملَكٍ في البيت المعمور؛ ويُعلِّق ابن كثير بأنَّ الملائكة خلقٌ من نورٍ لا يعصون، وهم كُتَّابٌ ورُسُلٌ بين الحقِّ والناس.
+    display_day_of_year: 116
+
+  - slug: fact-prophets-sent
+    category: quran_hadith_fact
+    title_en: The Prophets and Messengers
+    title_ar: الأنبياء والمرسلون
+    title_fr: Les prophètes et messagers
+    description_en: |
+      Allah sent messengers to every nation: "And We certainly sent
+      into every nation a messenger: Worship Allah and avoid the
+      taghut" (Qur'an 16:36). The Qur'an names 25 prophets explicitly,
+      including the five "ulu al-'azm" (those of firm resolve): Nuh,
+      Ibrahim, Musa, 'Isa, and Muhammad ﷺ. The first prophet was Adam
+      ﷺ; the seal of all prophets is Muhammad ﷺ (Qur'an 33:40). Belief
+      in all prophets — making no distinction between them — is a
+      pillar of faith. The often-cited number of "124,000 prophets and
+      313 messengers" comes from a hadith of Abu Dharr in Musnad Ahmad
+      whose chain has been graded da'if jiddan (very weak) by hadith
+      critics; the precise count is therefore not authentically
+      established.
+    description_ar: |
+      أرسل اللهُ إلى كل أمةٍ رسولًا: «وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ
+      رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ»
+      (النحل ١٦:٣٦). وقد سمَّى القرآن خمسةً وعشرين نبيًّا صراحةً، منهم
+      أولو العزم الخمسة: نوحٌ، وإبراهيمُ، وموسى، وعيسى، ومحمدٌ ﷺ. وأولُ
+      الأنبياء آدمُ ﷺ، وخاتمُهم محمدٌ ﷺ (الأحزاب ٣٣:٤٠). والإيمانُ بجميع
+      الأنبياء - دون تفريقٍ بينهم - ركنٌ من أركان الإيمان. أما العدد
+      المشتهر «مئةٌ وأربعةٌ وعشرون ألفَ نبيٍّ، ومنهم ثلاثُ مئةٍ وثلاثةَ
+      عشرَ رسولًا» الواردُ في حديث أبي ذرٍّ في مسند أحمد، فقد ضعَّفَ
+      إسنادَه نقَّادُ الحديث تضعيفًا شديدًا؛ فلا يصحُّ تحديدُ العدد
+      بصورةٍ قاطعة.
+    description_fr: |
+      Allah a envoyé un messager à chaque nation : « Et Nous avons
+      certes envoyé dans chaque nation un messager : "Adorez Allah et
+      écartez-vous du Taghut" » (Coran 16:36). Le Coran nomme
+      explicitement 25 prophètes, dont les cinq « ulu al-'azm » (ceux
+      de ferme résolution) : Nuh, Ibrahim, Musa, 'Isa et Muhammad ﷺ.
+      Le premier prophète fut Adam ﷺ ; le sceau de tous les prophètes
+      est Muhammad ﷺ (Coran 33:40). La foi en tous les prophètes —
+      sans faire de distinction entre eux — est un pilier de la foi.
+      Le nombre souvent cité de « 124 000 prophètes et 313 messagers »
+      provient d'un hadith d'Abu Dharr dans le Musnad d'Ahmad dont la
+      chaîne a été jugée da'if jiddan (très faible) par les critiques
+      du hadith ; le décompte précis n'est donc pas authentiquement
+      établi.
+    reference: Qur'an 16:36, 2:285, 33:40
+    source_url: https://quran.com/16/36
+    source_notes: |
+      Qur'an 16:36 establishes the universal sending of messengers; Ibn Kathīr notes that while the Qur'an names 25 prophets, the hadith of 124,000 is very weak (daʿīf jiddan), and Sunni creed affirms all prophets without distinction.
+    source_notes_fr: |
+      Le Coran 16:36 établit l'envoi universel des messagers ; Ibn Kathīr note que si le Coran nomme 25 prophètes, le hadith de 124 000 est très faible (daʿīf jiddan), et le credo sunnite affirme tous les prophètes sans distinction.
+    source_notes_ar: |
+      تُثبِت النحل ١٦:٣٦ الإرسالَ العامَّ للرسل؛ ويُنوِّه ابن كثير بأنَّ القرآنَ يُسمِّي خمسةً وعشرين نبيًّا، وأنَّ حديثَ المئة وأربعةٍ وعشرين ألفًا ضعيفٌ جدًّا، والعقيدةُ السنية تؤمنُ بجميع الأنبياء دون تفريق.
+    display_day_of_year: 126
+    quran_refs: "16:36, 2:285, 33:40"
+
+  - slug: fact-books-revealed
+    category: quran_hadith_fact
+    title_en: The Books Revealed by Allah
+    title_ar: الكتب المُنزَلة من عند الله
+    title_fr: Les livres révélés par Allah
+    description_en: |
+      Muslims believe Allah revealed books to chosen messengers: the
+      Suhuf (Scrolls) of Ibrahim, the Tawrat (Torah) to Musa, the Zabur
+      (Psalms) to Dawud, the Injil (Gospel) to 'Isa, and the Qur'an to
+      Muhammad ﷺ as the final revelation. The Qur'an says: "He has sent
+      down to you the Book in truth, confirming what came before it, and
+      revealed the Torah and the Gospel — aforetime, as guidance for
+      mankind" (3:3-4). The Qur'an is distinguished from all previous
+      books in that Allah has taken upon Himself its preservation —
+      "Indeed We sent down the Reminder, and We are its guardians" (15:9).
+    description_ar: |
+      يؤمن المسلمون بأن الله أنزل الكتبَ على رسلٍ مختارين: صحفُ إبراهيم،
+      والتوراةُ على موسى، والزبورُ على داود، والإنجيلُ على عيسى، والقرآنُ
+      على محمدٍ ﷺ خاتمةَ الوحي. قال تعالى: «نَزَّلَ عَلَيْكَ الْكِتَابَ
+      بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ التَّوْرَاةَ
+      وَالْإِنجِيلَ ۝ مِن قَبْلُ هُدًى لِّلنَّاسِ» (آل عمران ٣:٣-٤).
+      ويتميَّز القرآن عن سائر الكتب السابقة بأن الله تكفَّل بحفظه: «إِنَّا
+      نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ» (الحجر ١٥:٩).
+    description_fr: |
+      Les musulmans croient qu'Allah a révélé des livres à des messagers
+      choisis : les Suhuf (Feuillets) d'Ibrahim, la Tawrat (Torah) à
+      Musa, le Zabur (Psaumes) à Dawud, l'Injil (Évangile) à 'Isa, et
+      le Coran à Muhammad ﷺ comme révélation finale. Le Coran dit :
+      « Il a fait descendre sur toi le Livre en toute vérité, confirmant
+      ce qui était avant lui ; et Il a fait descendre la Torah et
+      l'Évangile — auparavant, en tant que guidée pour l'humanité »
+      (3:3-4). Le Coran se distingue de tous les livres précédents en
+      ce qu'Allah s'est engagé à le préserver Lui-même : « C'est Nous
+      qui avons fait descendre le Rappel, et c'est Nous qui en sommes
+      les Gardiens » (15:9).
+    reference: Qur'an 3:3-4, 87:18-19, 15:9
+    source_url: https://quran.com/3/3-4
+    quran_refs: "3:3-4, 87:18-19, 15:9"
+    source_notes: |
+      Qur'an 3:3-4 and 15:9 affirm the previous books and the Qur'an's unique preservation; Ibn Kathīr explains that the Qur'an confirms what remains authentic in prior scriptures and abrogates what was altered.
+    source_notes_fr: |
+      Le Coran 3:3-4 et 15:9 affirment les livres précédents et la préservation unique du Coran ; Ibn Kathīr explique que le Coran confirme ce qui demeure authentique dans les Écritures antérieures et abroge ce qui fut altéré.
+    source_notes_ar: |
+      تُثبِت آل عمران ٣:٣-٤ والحجر ١٥:٩ الكتبَ السابقة وحفظَ القرآن الفريدَ؛ ويُفسِّر ابن كثير أنَّ القرآنَ يُصدِّق ما بقيَ صحيحًا في الكتب السابقة ويُنسِخ ما حُرِّف.
+    display_day_of_year: 136
+
+  - slug: fact-creation-in-stages
+    category: quran_hadith_fact
+    title_en: Allah Created the Heavens and Earth in Six Days
+    title_ar: خلقُ الله السماواتِ والأرضَ في ستة أيام
+    title_fr: Allah a créé les cieux et la terre en six jours
+    description_en: |
+      The Qur'an declares repeatedly that Allah "created the heavens and
+      the earth and what is between them in six days" (7:54, 10:3, 11:7,
+      25:59, 32:4, 50:38, 57:4). Classical mufassirin distinguished
+      these "days" as Allah's days — "and indeed a day with your Lord is
+      like a thousand years of what you count" (22:47) — and interpreted
+      the passage as a statement of deliberate divine creative action
+      in ordered stages, not of a terrestrial seven-day week. The
+      creation narrative asserts both Allah's absolute power (by an act
+      of command, "Kun fa-yakun") and the orderly structure of the
+      created universe, which He has made intelligible.
+    description_ar: |
+      يُعلِنُ القرآن مرارًا أن الله «خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ وَمَا
+      بَيْنَهُمَا فِي سِتَّةِ أَيَّامٍ» (٧:٥٤، ١٠:٣، ١١:٧، ٢٥:٥٩، ٣٢:٤،
+      ٥٠:٣٨، ٥٧:٤). وقد فرَّق المفسرون من السلف بين هذه «الأيام» وأيامِ
+      الأرض، مُسنِدين القولَ إلى آية «وَإِنَّ يَوْمًا عِندَ رَبِّكَ كَأَلْفِ
+      سَنَةٍ مِّمَّا تَعُدُّونَ» (٢٢:٤٧)، وفسَّروا الموضعَ بأنه إخبارٌ عن
+      فعلٍ إلهيٍّ متدرِّجٍ مُحكَمٍ، لا عن أسبوعٍ أرضيٍّ. وتُثبت قصةُ الخلق
+      كلًّا من القدرةِ المطلقة لله بكلمة الأمر «كُن فيكون»، ومن البنيةِ
+      المنتظمة للكون الذي جعله الله مفهومًا قابلًا للإدراك.
+    description_fr: |
+      Le Coran déclare à plusieurs reprises qu'Allah « a créé les cieux
+      et la terre et ce qui est entre eux en six jours » (7:54, 10:3,
+      11:7, 25:59, 32:4, 50:38, 57:4). Les exégètes classiques ont
+      distingué ces « jours » comme étant les jours d'Allah — « et un
+      jour auprès de ton Seigneur équivaut à mille ans de ce que vous
+      comptez » (22:47) — et ont interprété le passage comme une
+      affirmation d'une action créatrice divine délibérée par étapes
+      ordonnées, et non d'une semaine terrestre de sept jours. Le récit
+      de la création affirme à la fois la puissance absolue d'Allah
+      (par un acte de commandement, « Kun fa-yakun ») et la structure
+      ordonnée de l'univers créé, qu'Il a rendu intelligible.
+    reference: Qur'an 7:54, 10:3, 22:47; al-Tabari Jami' al-Bayan
+    source_url: https://quran.com/7/54
+    quran_refs: "7:54, 10:3, 22:47"
+    source_notes: |
+      Qur'an 7:54 and 22:47 describe creation in six divine "days"; classical mufassirūn interpret these as stages of deliberate ordering, not terrestrial time, affirming both Allah's omnipotence and the cosmos's intelligibility.
+    source_notes_fr: |
+      Le Coran 7:54 et 22:47 décrivent la création en six « jours » divins ; les mufassirūn classiques les interprètent comme des étapes d'ordonnancement délibéré, non comme un temps terrestre, affirmant à la fois la toute-puissance d'Allah et l'intelligibilité du cosmos.
+    source_notes_ar: |
+      يصف الأعراف ٧:٥٤ والحج ٢٢:٤٧ الخلقَ في ستة «أيامٍ» إلهية؛ ويُفسِّر المفسرون الكلاسيكيون هذه الأيامَ مراحلَ تدبيرٍ إلهيٍّ مدروسٍ، لا زمنًا أرضيًّا، مُثبتين قدرةَ الله المطلقة وإدراكَ الكون.
+    display_day_of_year: 176
+
+  - slug: fact-kaaba
+    category: quran_hadith_fact
+    title_en: The Ka'ba — The First House Raised for the Worship of Allah
+    title_ar: الكعبة - أولُ بيتٍ وُضِعَ للناس
+    title_fr: La Ka'ba - la première Maison élevée pour l'adoration d'Allah
+    description_en: |
+      The Qur'an declares: "Indeed the first House established for
+      mankind was that at Bakka — blessed and a guidance for all
+      worlds" (3:96). The Qur'an describes Ibrahim ﷺ and his son
+      Isma'il ﷺ raising the foundations of the House: "Our Lord, accept
+      from us; indeed You are the Hearing, the Knowing" (2:127). It is
+      the qibla toward which every Muslim turns five times a day, every
+      day, since the change of the qibla from Jerusalem in 2 AH (Qur'an
+      2:144). To face it in prayer is an act of solidarity with every
+      believer alive and every Muslim since Ibrahim ﷺ.
+    description_ar: |
+      يُعلِنُ القرآن: «إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِي
+      بِبَكَّةَ مُبَارَكًا وَهُدًى لِّلْعَالَمِينَ» (٣:٩٦). ويصف القرآن
+      رفعَ إبراهيم ﷺ وابنه إسماعيل ﷺ القواعدَ من البيت: «رَبَّنَا
+      تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ» (٢:١٢٧).
+      وهي القبلةُ التي يتوجَّه إليها كل مسلمٍ خمسَ مراتٍ في اليوم منذ
+      تحويل القبلة عن بيت المقدس سنةَ ٢هـ (البقرة ٢:١٤٤). والاتجاهُ إليها
+      في الصلاة عملٌ من أعمال التضامن مع كل مؤمنٍ على وجه الأرض، ومع كل
+      مسلمٍ منذ إبراهيم ﷺ.
+    description_fr: |
+      Le Coran déclare : « En vérité, la première Maison établie pour
+      les gens est bien celle de Bakka — bénie et guidance pour les
+      mondes » (3:96). Le Coran décrit Ibrahim ﷺ et son fils Isma'il ﷺ
+      élevant les fondations de la Maison : « Notre Seigneur, accepte
+      ceci de notre part ; en vérité, c'est Toi l'Audient, le
+      Connaisseur » (2:127). C'est la qibla vers laquelle chaque
+      musulman se tourne cinq fois par jour, chaque jour, depuis le
+      changement de qibla depuis Jérusalem en l'an 2 de l'Hégire
+      (Coran 2:144). Faire face à elle dans la prière est un acte de
+      solidarité avec chaque croyant vivant et chaque musulman depuis
+      Ibrahim ﷺ.
+    reference: Qur'an 3:96, 2:125-129, 2:144
+    source_url: https://quran.com/3/96
+    quran_refs: "3:96, 2:125-129, 2:144"
+    source_notes: |
+      Qur'an 3:96 and 2:127 trace the Kaʿba to Ibrāhīm and Ismāʿīl; Ibn Kathīr notes that the change of qibla to Makkah in 2 AH (Qur'an 2:144) united the ummah in a single direction of prayer.
+    source_notes_fr: |
+      Le Coran 3:96 et 2:127 remontent la Kaʿba à Ibrāhīm et Ismāʿīl ; Ibn Kathīr note que le changement de qibla vers La Mecque en 2 AH (Coran 2:144) a uni l'umma dans une seule direction de prière.
+    source_notes_ar: |
+      تُنسِب آل عمران ٣:٩٦ والبقرة ٢:١٢٧ الكعبةَ إلى إبراهيم وإسماعيل عليهما السلام؛ ويُنوِّه ابن كثير بأنَّ تحويلَ القبلة إلى مكة في السنة الثانية (البقرة ٢:١٤٤) أَوْحَدَ الأمةَ في جهةِ الصلاة الواحدة.
+    display_day_of_year: 186
+
+  - slug: fact-sahih-al-bukhari
+    category: quran_hadith_fact
+    title_en: Sahih al-Bukhari — The Most Authentic Book After the Qur'an
+    title_ar: صحيح البخاري - أصحُّ كتابٍ بعد كتاب الله
+    title_fr: Sahih al-Bukhari - le livre le plus authentique après le Coran
+    description_en: |
+      Imam Muhammad ibn Isma'il al-Bukhari spent sixteen years compiling
+      his "al-Jami' al-Sahih" from a vast body of narrations he had
+      collected (the often-cited figure of "600,000" originates with
+      his own remark and is approximate). He prayed two rak'ahs seeking
+      guidance from Allah before including each hadith. The final
+      collection contains approximately 7,275-7,397 hadiths (counts
+      vary by recension; with repetitions), corresponding to roughly
+      2,602 unique chains. Sunni Muslim consensus since the third
+      Hijri century has regarded it as "the most authentic book after
+      the Book of Allah" — a title his student Imam Muslim's Sahih
+      shares.
+    description_ar: |
+      أنفق الإمامُ محمد بن إسماعيل البخاري ستَّ عشرةَ سنةً في جمع كتابه
+      «الجامع الصحيح» من جملةٍ ضخمة من المرويَّات التي جمعها (والعدد
+      المشتهرُ «ستُّ مئة ألف» مرفوعٌ إلى قوله نفسه، وهو تقريبيٌّ).
+      وكان يصلي ركعتين يستخير اللهَ قبل إثبات كل حديث. ويبلغ عدد ما اشتمل
+      عليه الكتابُ نحوَ سبعة آلافٍ ومئتين إلى سبعة آلافٍ وأربع مئة حديث
+      (تختلف التقديراتُ بحسب الروايات، مع التكرار)، تمثِّل نحوَ ألفين
+      وست مئةٍ من الإسناد المتفرِّد. وقد أجمع أهل السنة منذ القرن الثالث
+      الهجري على أنه «أصحُّ كتابٍ بعد كتاب الله» - وهي رتبةٌ يشاركه فيها
+      صحيح تلميذه الإمام مسلم.
+    description_fr: |
+      L'imam Muhammad ibn Isma'il al-Bukhari a consacré seize années à
+      la compilation de son « al-Jami' al-Sahih » à partir d'un vaste
+      corpus de narrations qu'il avait rassemblées (le chiffre souvent
+      cité de « 600 000 » provient de sa propre remarque et est
+      approximatif). Il accomplissait deux rak'ahs cherchant la guidée
+      d'Allah avant d'inclure chaque hadith. La collection finale
+      contient environ 7 275 à 7 397 hadiths (les décomptes varient
+      selon les recensions ; avec répétitions), correspondant à environ
+      2 602 chaînes uniques. Le consensus musulman sunnite depuis le
+      IIIe siècle de l'Hégire le considère comme « le livre le plus
+      authentique après le Livre d'Allah » — titre que partage le Sahih
+      de son disciple l'imam Muslim.
+    reference: Ulum al-Hadith tradition; Ibn al-Salah Muqaddima
+    source_url: https://en.wikipedia.org/wiki/Sahih_al-Bukhari
+    source_notes: |
+      Ibn al-Ṣalāḥ (Muqaddima) establishes Bukhārī's methodology; the title "most authentic book after the Qur'an" is a Sunni consensus (ijmāʿ) affirmed since the 3rd century AH.
+    source_notes_fr: |
+      Ibn al-Ṣalāḥ (Muqaddima) établit la méthodologie de Bukhārī ; le titre de « livre le plus authentique après le Coran » est un consensus sunnite (ijmāʿ) affirmé depuis le IIIe siècle de l'Hégire.
+    source_notes_ar: |
+      يُرسِّخ ابن الصلاح (مقدمة) منهجَ البخاري؛ ولقبُ «أصحُّ كتابٍ بعد كتاب الله» إجماعٌ سنيٌّ ثابتٌ منذ القرن الثالث الهجري.
+    display_day_of_year: 196
+
+  - slug: fact-kutub-al-sittah
+    category: quran_hadith_fact
+    title_en: The Six Canonical Books of Hadith (al-Kutub al-Sitta)
+    title_ar: الكتب الستة في الحديث (الكُتُب السِّتَّة)
+    title_fr: Les six livres canoniques du hadith (al-Kutub al-Sitta)
+    description_en: |
+      Sunni hadith literature reveres six foundational collections:
+      Sahih al-Bukhari (d. 256 AH), Sahih Muslim (d. 261 AH), Sunan
+      Abi Dawud (d. 275 AH), Jami' at-Tirmidhi (d. 279 AH), Sunan
+      an-Nasa'i (d. 303 AH), and Sunan Ibn Majah (d. 273 AH). Together
+      with Muwatta' Malik, Musnad Ahmad, and a few other major early
+      collections, they form the primary scriptural heritage of Sunni
+      Islam after the Qur'an. The Sahihayn are the highest tier; the
+      four Sunan are extensively used in fiqh derivation with
+      graded authenticity.
+    description_ar: |
+      تقوم مكتبةُ الحديث عند أهل السنة على ستِّ مجموعاتٍ تأسيسية: صحيحُ
+      البخاري (ت ٢٥٦هـ)، وصحيحُ مسلم (ت ٢٦١هـ)، وسننُ أبي داود (ت ٢٧٥هـ)،
+      وجامعُ الترمذي (ت ٢٧٩هـ)، وسننُ النسائي (ت ٣٠٣هـ)، وسننُ ابن ماجه
+      (ت ٢٧٣هـ). وهذه المجموعات - مع موطأ مالك ومسند أحمد وغيرها من
+      المجاميع الأولى الكبرى - تُمثِّل التراثَ الكتابي الأساسي لأهل السنة
+      بعد القرآن. والصحيحان في أعلى المراتب، وتُستثمر السنن الأربع
+      استثمارًا واسعًا في استنباط الفقه مع التدرُّج في درجات الصحة.
+    description_fr: |
+      La littérature du hadith sunnite révère six collections
+      fondamentales : Sahih al-Bukhari (m. 256 H), Sahih Muslim
+      (m. 261 H), Sunan Abi Dawud (m. 275 H), Jami' at-Tirmidhi
+      (m. 279 H), Sunan an-Nasa'i (m. 303 H) et Sunan Ibn Majah
+      (m. 273 H). Avec le Muwatta' de Malik, le Musnad d'Ahmad et
+      quelques autres collections majeures du début, ils forment
+      l'héritage scripturaire principal de l'Islam sunnite après le
+      Coran. Les Sahihayn occupent le rang le plus élevé ; les quatre
+      Sunan sont largement utilisés dans la dérivation du fiqh avec
+      une authenticité graduée.
+    reference: Classical Ulum al-Hadith scholarship
+    source_url: https://en.wikipedia.org/wiki/Kutub_al-Sittah
+    source_notes: |
+      The six collections form the canonical heritage of Sunni hadith; al-Nawawī notes that the Ṣaḥīḥayn are the highest authority, while the four Sunan provide graded evidence for legal derivation.
+    source_notes_fr: |
+      Les six collections constituent l'héritage canonique du hadith sunnite ; al-Nawawī note que les Ṣaḥīḥayn sont la plus haute autorité, tandis que les quatre Sunan fournissent des preuves graduées pour la dérivation légale.
+    source_notes_ar: |
+      تُشكِّل المجموعات الستةُ التراثَ الكانونيَّ للحديث السني؛ ويُنوِّه النووي بأنَّ الصحيحين هما أرفعُ المراتب، والسنن الأربع تُقدِّم أدلةً مُدرَّجةً للاستنباط الفقهي.
+    display_day_of_year: 206
+
+  - slug: fact-four-madhabs
+    category: quran_hadith_fact
+    title_en: The Four Sunni Madhhabs
+    title_ar: المذاهب السنية الأربعة
+    title_fr: Les quatre écoles juridiques sunnites
+    description_en: |
+      Sunni fiqh is organised primarily through four classical legal
+      schools, each founded by an imam and developed over generations
+      by his students: Hanafi (Abu Hanifa, d. 150 AH), Maliki (Malik
+      ibn Anas, d. 179 AH), Shafi'i (al-Shafi'i, d. 204 AH), and
+      Hanbali (Ahmad ibn Hanbal, d. 241 AH). Every classical act of
+      Sunni fiqh derivation — from how to wash a limb in wudu' to how
+      to regulate marriage contracts — has been systematically worked
+      out in all four, producing a plural-but-bounded legal
+      consensus. The madhhabs differ on derivative questions while
+      sharing the Qur'an and sunnah and almost all principles of usul.
+    description_ar: |
+      ينتظم الفقهُ السني أساسًا في أربعةِ مذاهبَ كلاسيكية، أسَّس كلًّا
+      منها إمامٌ ثم نمَّاه على مرِّ الأجيال طلابُه: الحنفي (أبو حنيفة،
+      ت ١٥٠هـ)، والمالكي (مالكُ بن أنس، ت ١٧٩هـ)، والشافعي (الشافعي،
+      ت ٢٠٤هـ)، والحنبلي (أحمد بن حنبل، ت ٢٤١هـ). وقد عُولجَت كل مسألةٍ
+      من مسائل الفقه السني الكلاسيكي - من كيفية غسل العضو في الوضوء إلى
+      أحكام عقود النكاح - معالجةً منهجيةً في المذاهب الأربعة، مما أفضى
+      إلى إجماعٍ فقهيٍّ تعدُّديٍّ ذي حدود. وتختلف المذاهبُ في الفروع
+      مع اشتراكها في القرآن والسنة وفي جلِّ أصول الفقه.
+    description_fr: |
+      Le fiqh sunnite est organisé principalement à travers quatre
+      écoles juridiques classiques, chacune fondée par un imam et
+      développée au fil des générations par ses disciples : Hanafi
+      (Abu Hanifa, m. 150 H), Maliki (Malik ibn Anas, m. 179 H),
+      Shafi'i (al-Shafi'i, m. 204 H) et Hanbali (Ahmad ibn Hanbal,
+      m. 241 H). Chaque acte de dérivation du fiqh sunnite classique
+      — de la façon de laver un membre lors du wudu' jusqu'à la
+      réglementation des contrats de mariage — a été systématiquement
+      traité dans les quatre, produisant un consensus juridique
+      pluriel mais borné. Les madhhabs divergent sur des questions
+      dérivées tout en partageant le Coran, la sunna et presque tous
+      les principes des usul.
+    reference: Classical tabaqat literature; Ibn Khaldun Muqaddima
+    source_url: https://en.wikipedia.org/wiki/Madhhab
+    source_notes: |
+      Ibn Khaldūn (Muqaddima) traces the schools' development; classical Sunni scholarship treats their differences as legitimate ikhtilāf within the bounds of the Qur'an and Sunnah, not as sectarian division.
+    source_notes_fr: |
+      Ibn Khaldūn (Muqaddima) trace le développement des écoles ; la scholarship sunnite classique traite leurs différences comme un ikhtilāf légitime dans les limites du Coran et de la Sunna, non comme une division sectaire.
+    source_notes_ar: |
+      يتتبَّع ابن خلدون (مقدمة) تطوُّرَ المذاهب؛ والعلمُ السنيُّ الكلاسيكي يُعامل اختلافاتها على أنَّها اختلافٌ مشروعٌ ضمن حدود القرآن والسنة، لا انقسامًا مذهبيًّا.
+    display_day_of_year: 216
+
+  - slug: fact-five-prayers
+    category: quran_hadith_fact
+    title_en: The Five Daily Prayers
+    title_ar: الصلوات الخمس
+    title_fr: Les cinq prières quotidiennes
+    description_en: |
+      The five obligatory prayers — Fajr (before dawn, 2 rak'ahs), Zuhr
+      (after midday, 4), 'Asr (afternoon, 4), Maghrib (just after
+      sunset, 3), and 'Isha (night, 4) — were made obligatory on the
+      Prophet ﷺ directly by Allah during the Mi'raj. The number was
+      originally fifty, reduced through repeated returns at the
+      counsel of Musa ﷺ to five, with the reward of fifty retained
+      ("for Me a word is not exchanged"). Every healthy adult Muslim
+      must perform them at their appointed times.
+    description_ar: |
+      الصلواتُ الخمسُ المفروضات - الفجر (قبل طلوع الشمس، ركعتان)، والظهر
+      (بعد الزوال، أربع)، والعصر (بعد العصر، أربع)، والمغرب (بعد غروب
+      الشمس، ثلاث)، والعشاء (بعد مغيب الشفق، أربع) - فُرضَت على النبي ﷺ
+      فرضًا مباشرًا من الله ليلةَ الإسراء والمعراج. وقد كان عددُها أوّلَ
+      الأمر خمسين، فخُفِّفَت بمراجعة النبي ﷺ ربَّه عند نصيحة موسى ﷺ
+      مرَّةً بعد مرَّة حتى صارت خمسًا، مع بقاء أجر الخمسين («ما يُبدَّلُ
+      القولُ لديَّ»). ويجب على كل مسلمٍ بالغٍ صحيحٍ أن يؤديَها في أوقاتها
+      المحددة.
+    description_fr: |
+      Les cinq prières obligatoires — Fajr (avant l'aube, 2 rak'ahs),
+      Zuhr (après midi, 4), 'Asr (après-midi, 4), Maghrib (juste après
+      le coucher du soleil, 3) et 'Isha (nuit, 4) — furent rendues
+      obligatoires au Prophète ﷺ directement par Allah lors du Mi'raj.
+      Leur nombre était à l'origine de cinquante, réduit après
+      plusieurs retours sur le conseil de Musa ﷺ jusqu'à cinq, tout en
+      conservant la récompense des cinquante (« auprès de Moi, la
+      parole ne change pas »). Chaque musulman adulte en bonne santé
+      doit les accomplir à leurs horaires fixés.
+    reference: Sahih al-Bukhari 349, Sahih Muslim 162
+    source_url: https://sunnah.com/bukhari:349
+    hadith_refs: "Bukhari 349, Muslim 162"
+    source_notes: |
+      Bukhārī (349) and Muslim (162) narrate the Miʿrāj command; Ibn Kathīr explains that the reduction from fifty to five while retaining the reward of fifty is a mercy specific to this ummah.
+    source_notes_fr: |
+      Bukhārī (349) et Muslim (162) rapportent le commandement du Miʿrāj ; Ibn Kathīr explique que la réduction de cinquante à cinq tout en conservant la récompense de cinquante est une miséricorde spécifique à cette umma.
+    source_notes_ar: |
+      يرويان البخاري (٣٤٩) ومسلم (١٦٢) أمرَ المعراج؛ ويُفسِّر ابن كثير أنَّ التخفيفَ من خمسين إلى خمس مع بقاء أجر الخمسين رحمةٌ خاصةٌ بهذه الأمة.
+    display_day_of_year: 226
+
+  - slug: fact-rukn-of-hajj
+    category: quran_hadith_fact
+    title_en: The Hajj and the Five Ritual Days
+    title_ar: الحج وأيامه الخمسة
+    title_fr: Le Hajj et ses cinq jours rituels
+    description_en: |
+      The pilgrimage to Makkah is an obligation upon every Muslim who is
+      able, once in a lifetime (Qur'an 3:97). The core rituals span
+      five days (8-12 Dhul Hijjah): ihram from the miqat, the tawaf
+      (circumambulation of the Ka'ba), sa'i between Safa and Marwa,
+      stay at Mina, standing at 'Arafat on 9 Dhul Hijjah (the day of
+      'Arafah — the essence of the Hajj), overnight at Muzdalifa, the
+      sacrifice and stoning at Mina on 10 Dhul Hijjah (Eid al-Adha),
+      three days of stoning at Jamarat, and the farewell tawaf. The
+      Prophet ﷺ said: "Hajj is 'Arafah" — meaning that those who miss
+      the standing at 'Arafat have missed the Hajj.
+    description_ar: |
+      حجُّ بيت الله الحرام فريضةٌ على كل مسلمٍ مستطيع، مرَّةً في العمر
+      (آل عمران ٣:٩٧). وتمتدُّ شعائرُه الأساسية على خمسة أيام (٨-١٢
+      ذو الحجة): الإحرامُ من الميقات، والطوافُ حول الكعبة، والسعيُ بين
+      الصفا والمروة، والمكوثُ بمنى، والوقوفُ بعرفة في التاسع من ذي الحجة
+      (يومُ عرفة - وهو لُبُّ الحج)، ثم المبيتُ بمزدلفة، والذبحُ ورميُ
+      جمرة العقبة بمنى في اليوم العاشر (عيد الأضحى)، وثلاثةُ أيامٍ من
+      رمي الجمرات، وطوافُ الوداع. قال النبي ﷺ: «الحجُّ عرفة» - بمعنى أن
+      من فاته الوقوفُ بعرفة فقد فاته الحج.
+    description_fr: |
+      Le pèlerinage à La Mecque est une obligation pour tout musulman
+      capable, une fois dans la vie (Coran 3:97). Les rites essentiels
+      s'étendent sur cinq jours (8-12 Dhu al-Hijja) : ihram à partir
+      du miqat, tawaf (circumambulation autour de la Ka'ba), sa'i entre
+      Safa et Marwa, séjour à Mina, station à 'Arafat le 9 Dhu al-Hijja
+      (le jour de 'Arafah — l'essence du Hajj), nuit à Muzdalifa,
+      sacrifice et lapidation à Mina le 10 Dhu al-Hijja ('Aïd al-Adha),
+      trois jours de lapidation aux Jamarat, et tawaf d'adieu. Le
+      Prophète ﷺ a dit : « Le Hajj est 'Arafah » — signifiant que ceux
+      qui manquent la station à 'Arafat ont manqué le Hajj.
+    reference: Qur'an 3:97, 2:196-203; Jami' at-Tirmidhi 889 (sahih) — "Hajj is Arafah"
+    source_url: https://quran.com/3/97
+    source_notes: |
+      Qur'an 3:97 establishes the obligation; Tirmidhī (889) records "Ḥajj is ʿArafah," and Ibn Kathīr notes that the rites reenact the sacred history of Ibrāhīm, Hājar, and Ismāʿīl.
+    source_notes_fr: |
+      Le Coran 3:97 établit l'obligation ; Tirmidhī (889) consigne « Le Ḥajj est ʿArafah », et Ibn Kathīr note que les rites recréent l'histoire sacrée d'Ibrāhīm, Hājar et Ismāʿīl.
+    source_notes_ar: |
+      تُثبِت آل عمران ٣:٩٧ الفريضةَ؛ ويُسجِّل الترمذي (٨٨٩) «الحجُّ عرفة»، ويُنوِّه ابن كثير بأنَّ الشعائرَ تُعيد تاريخَ إبراهيم وهاجر وإسماعيل المقدَّس.
+    display_day_of_year: 236
+    quran_refs: "3:97, 2:196-203"
+    hadith_refs: "Tirmidhi 889"
+
+  - slug: fact-fasting-ramadan
+    category: quran_hadith_fact
+    title_en: The Month of Ramadan
+    title_ar: شهر رمضان
+    title_fr: Le mois de Ramadan
+    description_en: |
+      Fasting the month of Ramadan is a pillar of Islam: "The month of
+      Ramadan in which was revealed the Qur'an — a guidance for mankind
+      and clear proofs of guidance and criterion. So whoever sights
+      the month, let him fast it" (Qur'an 2:185). The fast extends
+      from fajr to sunset each day: no food, drink, or marital relations
+      during daylight. The Prophet ﷺ said: "Whoever fasts Ramadan out
+      of faith and seeking reward, his previous sins are forgiven."
+      Ramadan contains Laylat al-Qadr in its last ten nights — a single
+      night whose worship surpasses a thousand months.
+    description_ar: |
+      صومُ شهر رمضان ركنٌ من أركان الإسلام: «شَهْرُ رَمَضَانَ الَّذِي
+      أُنزِلَ فِيهِ الْقُرْآنُ هُدًى لِّلنَّاسِ وَبَيِّنَاتٍ مِّنَ
+      الْهُدَىٰ وَالْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ الشَّهْرَ
+      فَلْيَصُمْهُ» (البقرة ٢:١٨٥). ويمتدُّ الصومُ من طلوع الفجر إلى
+      غروب الشمس كل يوم: لا طعامَ ولا شرابَ ولا جماعَ في النهار. قال
+      النبي ﷺ: «من صام رمضانَ إيمانًا واحتسابًا غُفِر له ما تقدَّم من
+      ذنبه». ويتضمَّن رمضانُ ليلةَ القدر في عشره الأواخر - ليلةً واحدةً
+      عبادتُها خيرٌ من ألف شهر.
+    description_fr: |
+      Le jeûne du mois de Ramadan est un pilier de l'Islam : « Le mois
+      de Ramadan, durant lequel a été descendu le Coran — guidée pour
+      les gens et preuves claires de la guidée et du discernement.
+      Quiconque parmi vous est témoin de ce mois, qu'il le jeûne »
+      (Coran 2:185). Le jeûne s'étend de l'aube au coucher du soleil
+      chaque jour : ni nourriture, ni boisson, ni relations conjugales
+      durant la journée. Le Prophète ﷺ a dit : « Quiconque jeûne
+      Ramadan par foi et en quête de récompense, ses péchés passés
+      lui sont pardonnés. » Ramadan contient Laylat al-Qadr dans ses
+      dix dernières nuits — une nuit unique dont l'adoration surpasse
+      mille mois.
+    reference: Qur'an 2:183-187, Sahih al-Bukhari 38, Sahih Muslim 760
+    source_url: https://quran.com/2/183-187
+    quran_refs: "2:183-187"
+    hadith_refs: "Bukhari 38, Muslim 760"
+    source_notes: |
+      Qur'an 2:185 links the month to the Qur'an's revelation; Bukhārī (38) and Muslim (760) transmit the forgiveness promise, and classical scholars treat Ramadan as a comprehensive training in taqwā and empathy.
+    source_notes_fr: |
+      Le Coran 2:185 relie le mois à la révélation du Coran ; Bukhārī (38) et Muslim (760) transmettent la promesse de pardon, et les savants classiques traitent Ramadan comme un entraînement complet dans la taqwā et l'empathie.
+    source_notes_ar: |
+      تربط البقرة ٢:١٨٥ الشهرَ بنزول القرآن؛ ويرويان البخاري (٣٨) ومسلم (٧٦٠) وعدَ المغفرة، ويعامل العلماء رمضانَ تدريبًا شاملاً على التقوى والرحمة.
+    display_day_of_year: 246
+
+  - slug: fact-zakat-calculation
+    category: quran_hadith_fact
+    title_en: Zakat — The Third Pillar
+    title_ar: الزكاة - الركن الثالث
+    title_fr: La zakat - le troisième pilier
+    description_en: |
+      Zakat — the obligatory purifying charity — is the third pillar.
+      The Qur'an pairs it with prayer in over thirty passages. The
+      Prophet ﷺ established its rates: 2.5% on money and trade goods
+      held for a lunar year above the nisab threshold (equivalent to
+      approximately 85 grams of gold); specific rates on livestock,
+      crops, and minerals. The Qur'an names the eight categories of
+      recipients: "Zakat is for the poor, the destitute, those
+      employed to collect it, those whose hearts are to be reconciled,
+      freeing of captives, those in debt, in the path of Allah, and
+      the wayfarer" (9:60). Zakat is not charity but right — the
+      wealth of the poor held in the hands of the rich.
+    description_ar: |
+      الزكاةُ - وهي الصدقةُ المُطهِّرةُ الواجبة - الركنُ الثالث من أركان
+      الإسلام. وقد قرنها القرآن بالصلاة في أكثر من ثلاثين موضعًا. وحدَّد
+      النبي ﷺ مقاديرَها: ٢٫٥٪ على الأموال وعروض التجارة التي يحول عليها
+      الحَوْلُ وقد بلغت النصاب (ما يعادل نحوَ خمسةٍ وثمانين غرامًا من
+      الذهب)؛ ومقادير معيَّنة على المواشي والزروع والمعادن. وذكر القرآن
+      مصارفها الثمانية: «إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ
+      وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا وَالْمُؤَلَّفَةِ
+      قُلُوبُهُمْ وَفِي الرِّقَابِ وَالْغَارِمِينَ وَفِي سَبِيلِ اللَّهِ
+      وَابْنِ السَّبِيلِ» (التوبة ٩:٦٠). فالزكاةُ ليست تفضُّلًا بل حقٌّ:
+      مالُ الفقراء في أيدي الأغنياء.
+    description_fr: |
+      La zakat — l'aumône purificatrice obligatoire — est le troisième
+      pilier. Le Coran l'associe à la prière dans plus de trente
+      passages. Le Prophète ﷺ en a établi les taux : 2,5 % sur l'argent
+      et les marchandises commerciales détenus pendant une année
+      lunaire au-dessus du seuil du nisab (équivalent à environ 85
+      grammes d'or) ; des taux spécifiques sur le bétail, les
+      récoltes et les minéraux. Le Coran nomme les huit catégories de
+      bénéficiaires : « Les Sadaqat ne sont destinées que pour les
+      pauvres, les indigents, ceux qui y travaillent, ceux dont les
+      cœurs sont à gagner, l'affranchissement des esclaves, les
+      endettés, dans le sentier d'Allah et pour le voyageur en
+      détresse » (9:60). La zakat n'est pas charité mais droit — la
+      richesse des pauvres détenue entre les mains des riches.
+    reference: Qur'an 9:60, 2:43; Sahih al-Bukhari 1395, 1447
+    source_url: https://quran.com/9/60
+    quran_refs: "9:60, 2:43"
+    hadith_refs: "Bukhari 1395, Bukhari 1447"
+    source_notes: |
+      Qur'an 9:60 enumerates the eight categories; Bukhārī (1395, 1447) preserves the Prophetic rates, and Ibn Kathīr emphasizes that zakāt is a right (ḥaqq) of the poor, not voluntary charity.
+    source_notes_fr: |
+      Le Coran 9:60 énumère les huit catégories ; Bukhārī (1395, 1447) préserve les taux prophétiques, et Ibn Kathīr souligne que la zakāt est un droit (ḥaqq) des pauvres, non une aumône volontaire.
+    source_notes_ar: |
+      تُعدِّد التوبة ٩:٦٠ المصارفَ الثمانية؛ ويحفظ البخاري (١٣٩٥، ١٤٤٧) المقاديرَ النبوية، ويُؤكِّد ابن كثير أنَّ الزكاةَ حقٌّ للفقراء لا تبرُّعٌ اختياري.
+    display_day_of_year: 256
+
+  - slug: fact-beloved-deeds
+    category: quran_hadith_fact
+    title_en: "The Most Beloved Deeds to Allah"
+    title_ar: أحبُّ الأعمال إلى الله
+    title_fr: Les œuvres les plus aimées d'Allah
+    description_en: |
+      The Prophet ﷺ said: "The most beloved deeds to Allah are the most
+      regular, even if few." Aisha ra narrated that his own practice
+      reflected this: if he did a deed, he persisted in it. The hadith
+      has become a governing principle of Islamic devotional life:
+      consistency over intensity, a small regular practice preferred to
+      a grand occasional one. The same principle is found in: "If the
+      Hour is established and one of you has a sapling in his hand,
+      let him plant it if he can" (Musnad Ahmad) — the point being that
+      steady action is its own worship, independent of visible result.
+    description_ar: |
+      قال النبي ﷺ: «أحبُّ الأعمال إلى الله أدومُها وإن قلَّ». وروت عائشة
+      رضي الله عنها أن هَدْيَه كان مطابقًا لذلك: كان إذا عمل عملًا أثبتَه.
+      وقد صار هذا الحديث أصلًا حاكمًا في الحياة التعبدية عند المسلم:
+      المداومةُ مقدَّمةٌ على المُكاثَرة، والقليلُ المنتظمُ خيرٌ من الكثير
+      المُتقطِّع. وثَمَّة المعنى نفسُه في حديث: «إن قامت الساعةُ وفي يد
+      أحدكم فسيلةٌ، فإن استطاع ألا يقومَ حتى يغرسَها فليفعل» (مسند أحمد) -
+      فمضمونُه أن الفعلَ المنتظمَ عبادةٌ في ذاته، مستقلٌّ عن نتيجته
+      الظاهرة.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Les œuvres les plus aimées d'Allah sont
+      les plus régulières, même si elles sont peu nombreuses. » 'A'isha
+      (qu'Allah l'agrée) a rapporté que sa propre pratique reflétait
+      cela : lorsqu'il accomplissait une œuvre, il y persistait. Le
+      hadith est devenu un principe directeur de la vie dévotionnelle
+      islamique : la constance prime l'intensité, une petite pratique
+      régulière est préférée à une grande pratique occasionnelle. Le
+      même principe se retrouve dans : « Si l'Heure s'établit et que
+      l'un d'entre vous a un plant dans la main, qu'il le plante s'il
+      le peut » (Musnad d'Ahmad) — le sens étant que l'action
+      constante est elle-même adoration, indépendamment du résultat
+      visible.
+    reference: Sahih al-Bukhari 6464, Sahih Muslim 783
+    source_url: https://sunnah.com/bukhari:6464
+    hadith_refs: "Bukhari 6464, Muslim 783"
+    source_notes: |
+      Bukhārī (6464) and Muslim (783) record the primacy of consistency; al-Nawawī explains that steady, small deeds are more beloved to Allah than intermittent bursts, because they reflect sincere habituation.
+    source_notes_fr: |
+      Bukhārī (6464) et Muslim (783) consignent la primauté de la régularité ; al-Nawawī explique que les petites œuvres régulières sont plus aimées d'Allah que les éclats intermittents, car elles reflètent une sincère habituation.
+    source_notes_ar: |
+      يُسجِّلان البخاري (٦٤٦٤) ومسلم (٧٨٣) تقديمَ المداومة؛ ويُفسِّر النووي أنَّ الأعمالَ الصغيرةَ المنتظمةَ أحبُّ إلى الله من الكثير المتقطِّع، لأنَّها تدلُّ على التخلُّق الصادق.
+    display_day_of_year: 266
+
+  - slug: fact-shirk-worst
+    category: quran_hadith_fact
+    title_en: Shirk — The One Unforgiven Sin
+    title_ar: الشرك - الذنب الذي لا يُغفَر
+    title_fr: Le shirk - le seul péché impardonné
+    description_en: |
+      The Qur'an declares: "Indeed Allah does not forgive the
+      association of anything with Him, but He forgives what is less
+      than that for whomever He wills" (4:48, 4:116). Shirk is the
+      worst of sins because it is the negation of the very truth
+      (tawhid) around which the religion organises itself. The Prophet
+      ﷺ said the greatest of major sins is associating with Allah, and
+      commentators have divided shirk into overt forms (worshipping
+      another deity, making prostration to created beings) and hidden
+      forms (seeking the praise of people in religious acts — riya').
+    description_ar: |
+      يُعلِنُ القرآن: «إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ
+      وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَاءُ» (٤:٤٨، ٤:١١٦). والشركُ
+      أعظمُ الذنوب لأنه نَقْضٌ لأصل التوحيد الذي تنتظمُ به الديانة. وأخبر
+      النبي ﷺ أن أكبرَ الكبائر الإشراكُ بالله. وقد قسَّم أهلُ العلم الشركَ
+      إلى ظاهرٍ (كعبادة معبودٍ آخر، أو السجود لمخلوق) وخفيٍّ (كطلب ثناء
+      الناس في أعمال العبادة - الرياء).
+    description_fr: |
+      Le Coran déclare : « Allah ne pardonne pas qu'on Lui associe quoi
+      que ce soit, mais Il pardonne ce qui est moindre que cela à qui
+      Il veut » (4:48, 4:116). Le shirk est le pire des péchés parce
+      qu'il est la négation même de la vérité (tawhid) autour de
+      laquelle la religion s'organise. Le Prophète ﷺ a dit que le plus
+      grand des péchés majeurs est l'association à Allah, et les
+      commentateurs ont divisé le shirk en formes manifestes (adorer
+      une autre divinité, se prosterner devant des créatures) et
+      formes cachées (rechercher la louange des gens dans les actes
+      religieux — riya').
+    reference: Qur'an 4:48, 4:116, 31:13; Sahih al-Bukhari 5976
+    source_url: https://quran.com/4/48
+    source_notes: |
+      Qur'an 4:48 and 4:116 declare shirk unforgiven; Ibn Kathīr divides it into major (associating partners in worship) and minor (riyāʾ), and classical creed holds that tawḥīd is the sole path to salvation.
+    source_notes_fr: |
+      Le Coran 4:48 et 4:116 déclarent le shirk impardonné ; Ibn Kathīr le divise en majeur (associer des partenaires dans l'adoration) et mineur (riyāʾ), et le credo classique soutient que le tawḥīd est le seul chemin du salut.
+    source_notes_ar: |
+      تُعلِن النساء ٤:٤٨ و٤:١١٦ أنَّ الشركَ لا يُغفَر؛ ويُقسِّم ابن كثير الشركَ إلى أكبر (إشراك في العبادة) وأصغر (رياء)، والعقيدةُ الكلاسيكية ترى أنَّ التوحيدَ هو سبيلُ النجاة الوحيد.
+    display_day_of_year: 276
+    quran_refs: "4:48, 4:116, 31:13"
+    hadith_refs: "Bukhari 5976"
+
+  - slug: fact-dua-weapon
+    category: quran_hadith_fact
+    title_en: "Du'a — The Worship of the Believer"
+    title_ar: الدعاء - عبادة المؤمن
+    title_fr: La du'a - l'adoration du croyant
+    description_en: |
+      Allah says in the Qur'an: "Your Lord has said: Call upon Me, I
+      will answer you" (40:60) and "When My servants ask you concerning
+      Me — indeed I am near. I respond to the call of the caller when
+      he calls upon Me" (2:186). The Prophet ﷺ said: "Du'a is worship"
+      (Sunan Abi Dawud 1479, sahih). The Qur'an makes calling on Allah
+      central to the religion. Moments of heightened acceptance reported
+      across multiple authentic narrations include: the last third of
+      the night, between the adhan and iqama, while prostrating, at the
+      moment of breaking fast, during travel, and the hour of Jumu'ah.
+    description_ar: |
+      قال الله تعالى في القرآن: «وَقَالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ
+      لَكُمْ» (غافر ٤٠:٦٠)، وقال: «وَإِذَا سَأَلَكَ عِبَادِي عَنِّي
+      فَإِنِّي قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ»
+      (البقرة ٢:١٨٦). وقال النبي ﷺ: «الدعاءُ هو العبادة» (سنن أبي داود
+      ١٤٧٩، صحيح). فجعل القرآنُ دعاءَ الله محورًا للدين. ومن أوقات
+      الإجابة المرويَّة في الصحاح: الثلثُ الأخير من الليل، وما بين الأذان
+      والإقامة، وحالُ السجود، وعند فطر الصائم، وفي السفر، وساعةُ الجمعة.
+    description_fr: |
+      Allah dit dans le Coran : « Votre Seigneur a dit : Invoquez-Moi,
+      Je vous répondrai » (40:60) et « Et quand Mes serviteurs
+      t'interrogent à Mon sujet, alors Je suis tout proche. Je réponds
+      à l'appel de celui qui M'invoque quand il M'invoque » (2:186).
+      Le Prophète ﷺ a dit : « La du'a est l'adoration » (Sunan Abi
+      Dawud 1479, authentique). Le Coran place l'invocation d'Allah
+      au centre de la religion. Les moments d'exaucement renforcé
+      rapportés dans plusieurs narrations authentiques comprennent :
+      le dernier tiers de la nuit, entre l'adhan et l'iqama, durant
+      la prosternation, au moment de la rupture du jeûne, pendant le
+      voyage, et l'heure du Jumu'ah.
+    reference: Qur'an 40:60, 2:186; Sunan Abi Dawud 1479 (sahih)
+    source_url: https://quran.com/40/60
+    source_notes: |
+      Qur'an 40:60 and 2:186 command and promise response; Abū Dāwūd (1479) records "duʿāʾ is worship," and Ibn Kathīr notes that the times of answered supplication are attested by tawātur in the Sunnah.
+    source_notes_fr: |
+      Le Coran 40:60 et 2:186 ordonnent et promettent réponse ; Abū Dāwūd (1479) consigne « la duʿāʾ est l'adoration », et Ibn Kathīr note que les temps de supplication exaucée sont attestés par tawātur dans la Sunna.
+    source_notes_ar: |
+      تأمر غافر ٤٠:٦٠ والبقرة ٢:١٨٦ وتعدان بالإجابة؛ ويُسجِّل أبو داود (١٤٧٩) «الدعاءُ هو العبادة»، ويُنوِّه ابن كثير بأنَّ أوقاتَ الإجابة ثابتةٌ بالتواتر في السنة.
+    display_day_of_year: 286
+    quran_refs: "40:60, 2:186"
+    hadith_refs: "Abu Dawud 1479"
+
+  - slug: fact-tawhid-three
+    category: quran_hadith_fact
+    title_en: The Three Categories of Tawhid
+    title_ar: أقسام التوحيد الثلاثة
+    title_fr: Les trois catégories du tawhid
+    description_en: |
+      Classical scholars organised the affirmation of Allah's oneness
+      into three categories. Tawhid al-Rububiyya affirms Allah as the
+      sole Lord, Creator, and Sustainer of all ("Say: He is Allah, the
+      One. Allah, the Self-Sufficient" Qur'an 112). Tawhid al-Uluhiyya
+      affirms Him as the sole deity deserving worship ("Worship Allah,
+      and associate nothing with Him" Qur'an 4:36) — this is the
+      tawhid the messengers specifically came to establish, and the
+      subject of most of the Qur'an's exhortations. Tawhid al-Asma'
+      wa'l-Sifat affirms His names and attributes as revealed, without
+      likeness, denial, or reinterpretation. All three are required for
+      a complete iman.
+    description_ar: |
+      نظَّم العلماء توحيدَ الله في ثلاثة أقسام. توحيدُ الربوبية: إفرادُ
+      الله بالخلق والملك والتدبير («قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ
+      الصَّمَدُ» الإخلاص ١١٢). وتوحيدُ الألوهية: إفرادُه سبحانه بالعبادة
+      («وَاعْبُدُوا اللَّهَ وَلَا تُشْرِكُوا بِهِ شَيْئًا» النساء ٤:٣٦)
+      - وهو التوحيدُ الذي بُعثت من أجل تقريره الرسلُ، ومحورُ معظم
+      موعظات القرآن. وتوحيدُ الأسماء والصفات: إثباتُ ما أثبته الله
+      لنفسه من غير تشبيهٍ ولا تعطيلٍ ولا تأويل. والثلاثةُ جميعًا لازمةٌ
+      لكمال الإيمان.
+    description_fr: |
+      Les savants classiques ont organisé l'affirmation de l'unicité
+      d'Allah en trois catégories. Tawhid al-Rububiyya affirme Allah
+      comme seul Seigneur, Créateur et Sustentateur de tout (« Dis :
+      Il est Allah, l'Unique. Allah, l'Autosuffisant » Coran 112).
+      Tawhid al-Uluhiyya L'affirme comme seule divinité méritant
+      l'adoration (« Adorez Allah et ne Lui associez rien » Coran 4:36)
+      — c'est le tawhid que les messagers sont spécifiquement venus
+      établir, et le sujet de la plupart des exhortations coraniques.
+      Tawhid al-Asma' wa'l-Sifat affirme Ses noms et attributs tels
+      que révélés, sans assimilation, négation ni réinterprétation.
+      Les trois sont requis pour un iman complet.
+    reference: Classical Sunni aqida (Ibn Taymiyya, Ibn al-Qayyim, al-Sa'di)
+    source_url: https://en.wikipedia.org/wiki/Tawhid
+    source_notes: |
+      The three categories are codified in classical Atharī and kalām works; Ibn Taymiyya and Ibn al-Qayyim explain that all three are necessary for complete faith, with tawḥīd al-ulūhiyya being the specific mission of every prophet.
+    source_notes_fr: |
+      Les trois catégories sont codifiées dans les œuvres classiques atharī et kalām ; Ibn Taymiyya et Ibn al-Qayyim expliquent que les trois sont nécessaires à la foi complète, le tawḥīd al-ulūhiyya étant la mission spécifique de chaque prophète.
+    source_notes_ar: |
+      تُدوَّن الأقسامُ الثلاثة في مصنَّفات الأثرية وعلم الكلام؛ ويُفسِّر ابن تيمية وابن القيم أنَّ الثلاثة لازمةٌ لكمال الإيمان، وتوحيدُ الألوهية هو المهمةُ الخاصةُ بكلِّ نبيٍّ.
+    display_day_of_year: 296
+
+  - slug: fact-shahada-power
+    category: quran_hadith_fact
+    title_en: The Shahada — The Key to Paradise
+    title_ar: الشهادة - مفتاح الجنة
+    title_fr: La Shahada - la clé du Paradis
+    description_en: |
+      The Prophet ﷺ said: "Whoever testifies that there is no god but
+      Allah and that Muhammad is the Messenger of Allah, Allah will
+      forbid the Fire from him" (Sahih al-Bukhari 128, Sahih Muslim
+      32). The "key to Paradise" tradition is preserved separately:
+      Mu'adh ibn Jabal narrated that the Prophet ﷺ said "the key to
+      Paradise is the testimony that there is no god but Allah"
+      (Musnad Ahmad — graded hasan by classical critics).
+      Wahb ibn Munabbih, asked whether "La ilaha illa Allah" was the
+      key to Paradise, answered: "Yes, but every key has teeth — if
+      you bring a key with the right teeth, it opens; otherwise it
+      does not" (reported in al-Bukhari's Sahih — Bab al-Jana'iz, in
+      mu'allaq form).
+    description_ar: |
+      قال النبي ﷺ: «من شهد أن لا إله إلا الله وأن محمدًا رسول الله
+      حرَّمه اللهُ على النار» (صحيح البخاري ١٢٨، صحيح مسلم ٣٢). وحديثُ
+      «مفتاح الجنة» محفوظٌ في موضعٍ آخر: روى معاذ بن جبل أن النبي ﷺ قال:
+      «مفتاحُ الجنة شهادةُ أن لا إله إلا الله» (مسند أحمد، حسَّنه نقَّاد
+      الحديث). وسُئل وَهب بنُ مُنبِّهٍ: أليس «لا إله إلا الله» مفتاحَ
+      الجنة؟ قال: «بلى، ولكن ليس مفتاحٌ إلا له أسنانٌ، فإن جئتَ بمفتاحٍ
+      له أسنانٌ فُتِح لك، وإلا لم يُفتَح» (ذكره البخاري في صحيحه - باب
+      الجنائز - تعليقًا).
+    description_fr: |
+      Le Prophète ﷺ a dit : « Quiconque atteste qu'il n'y a de divinité
+      qu'Allah et que Muhammad est le Messager d'Allah, Allah lui
+      interdira le Feu » (Sahih al-Bukhari 128, Sahih Muslim 32). La
+      tradition de la « clé du Paradis » est préservée séparément :
+      Mu'adh ibn Jabal a rapporté que le Prophète ﷺ a dit : « La clé du
+      Paradis est l'attestation qu'il n'y a de divinité qu'Allah »
+      (Musnad d'Ahmad — jugé hasan par les critiques classiques). Wahb
+      ibn Munabbih, à qui l'on demandait si « La ilaha illa Allah »
+      était la clé du Paradis, répondit : « Oui, mais chaque clé a des
+      dents — si vous apportez une clé aux bonnes dents, elle ouvre ;
+      sinon, non » (rapporté dans le Sahih d'al-Bukhari — Bab
+      al-Jana'iz, sous forme mu'allaq).
+    reference: Sahih al-Bukhari 128, Sahih Muslim 32
+    source_url: https://sunnah.com/bukhari:128
+    hadith_refs: "Bukhari 128, Muslim 32"
+    source_notes: |
+      Bukhārī (128) and Muslim (32) preserve the key-to-Paradise tradition; Wahb ibn Munabbih's metaphor of the key's teeth is cited by Ibn Ḥajar to show that the shahāda must be accompanied by its conditions (knowledge, certainty, acceptance, submission, truthfulness).
+    source_notes_fr: |
+      Bukhārī (128) et Muslim (32) préservent la tradition de la clé du Paradis ; la métaphore des dents de la clé de Wahb ibn Munabbih est citée par Ibn Ḥajar pour montrer que la shahāda doit être accompagnée de ses conditions (savoir, certitude, acceptation, soumission, sincérité).
+    source_notes_ar: |
+      يحفظ البخاري (١٢٨) ومسلم (٣٢) حديثَ مفتاح الجنة؛ ويستشهد ابن حجر باستعارة أسنان المفتاح لوهب بن منبه لبيان أنَّ الشهادةَ لا بدَّ لها من شروطها (العلم واليقين والقبول والانقياص والصدق).
+    display_day_of_year: 306
+
+  - slug: fact-miracle-quran-preserved
+    category: quran_hadith_fact
+    title_en: The Qur'an's Preservation
+    title_ar: حفظ القرآن الكريم
+    title_fr: La préservation du Coran
+    description_en: |
+      Allah declares: "Indeed We sent down the Reminder, and We are its
+      guardians" (Qur'an 15:9). The text was preserved in two parallel
+      forms from the moment of revelation: in writing (by the Prophet's
+      ﷺ scribes), and in memorisation by his Companions. Within a
+      generation the text was codified under Abu Bakr and standardised
+      under Uthman. Every printed Qur'an today reaches the hand of the
+      reader through an unbroken chain of transmission back to the
+      Prophet ﷺ — a scale of documentary continuity unique among
+      world scriptures. Every year thousands of children across the
+      Muslim world memorise the entire text word-for-word, and the
+      agreement of their recitations across continents is the living
+      testimony to the preservation.
+    description_ar: |
+      قال الله تعالى: «إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ
+      لَحَافِظُونَ» (الحجر ١٥:٩). وقد حُفِظ النصُّ القرآني في صورتين
+      متوازيتين منذ زمن نزوله: في الكتابة (بيد كَتَبَة الوحي للنبي ﷺ)،
+      وفي الحفظ في صدور صحابته. وفي الجيل الأول جُمِع النصُّ في عهد أبي
+      بكر، ووُحِّد على رسمٍ واحدٍ في عهد عثمان. وكلُّ مصحفٍ مطبوعٍ اليوم
+      يصل إلى يد قارئه عبر سلسلةٍ متواصلةٍ من التواتر إلى النبي ﷺ - وهو
+      تواصلٌ توثيقيٌّ لا نظير له بين كتب الأديان. وفي كل عامٍ يحفظ آلافٌ
+      من أبناء المسلمين النصَّ كلَّه عن ظهر قلب، واتفاقُ تلاواتهم عبر
+      القارَّات شاهدٌ حيٌّ على الحفظ.
+    description_fr: |
+      Allah déclare : « C'est Nous qui avons fait descendre le Rappel,
+      et c'est Nous qui en sommes les Gardiens » (Coran 15:9). Le
+      texte a été préservé sous deux formes parallèles dès l'instant
+      de la révélation : par écrit (par les scribes du Prophète ﷺ) et
+      par mémorisation par ses Compagnons. En une génération, le texte
+      fut codifié sous Abu Bakr et standardisé sous 'Uthman. Chaque
+      Coran imprimé aujourd'hui parvient au lecteur par une chaîne de
+      transmission ininterrompue jusqu'au Prophète ﷺ — une continuité
+      documentaire unique parmi les écritures du monde. Chaque année,
+      des milliers d'enfants à travers le monde musulman mémorisent
+      le texte entier mot pour mot, et la concordance de leurs
+      récitations à travers les continents est le témoignage vivant de
+      la préservation.
+    reference: Qur'an 15:9; Ulum al-Qur'an tradition
+    source_url: https://quran.com/15/9
+    quran_refs: "15:9"
+    source_notes: |
+      Qur'an 15:9 promises divine guardianship; Ibn Kathīr and al-Suyūṭī (al-Itqān) detail the compilation under Abū Bakr and standardization under ʿUthmān, affirming that the Uthmanic codex is the Qur'an as recited by the Prophet ﷺ.
+    source_notes_fr: |
+      Le Coran 15:9 promet une préservation divine ; Ibn Kathīr et al-Suyūṭī (al-Itqān) détaillent la compilation sous Abū Bakr et la standardisation sous ʿUthmān, affirmant que le codex ʿUthmānique est le Coran tel que récité par le Prophète ﷺ.
+    source_notes_ar: |
+      تعد الحجر ١٥:٩ بحفظٍ إلهيٍّ؛ ويُفصِّل ابن كثير والسيوطي (الإتقان) الجمعَ في عهد أبي بكر والتوحيدَ في عهد عثمان، مؤكِّدين أنَّ المصحفَ العثمانيَّ هو القرآنُ كما تلاه النبي ﷺ.
+    display_day_of_year: 316
+
+  - slug: fact-niyyah
+    category: quran_hadith_fact
+    title_en: The Hadith of Niyyah — Actions by Intentions
+    title_ar: حديث النية - إنما الأعمال بالنيات
+    title_fr: Le hadith de la niyyah - les actes valent par les intentions
+    description_en: |
+      Umar ibn al-Khattab narrated that the Prophet ﷺ said: "Actions
+      are but by intentions, and each person will have only what he
+      intended. So whoever's migration was to Allah and His Messenger,
+      his migration is to Allah and His Messenger; and whoever's
+      migration was for a worldly matter he might gain or a woman he
+      might marry, his migration is to that for which he migrated."
+      Imam al-Bukhari placed it at the very head of his Sahih; al-Shafi'i
+      said: "This hadith enters into seventy chapters of fiqh" and
+      "It is one-third of knowledge." It is the classical entry point
+      into the inner dimension of every act of worship.
+    description_ar: |
+      روى عمرُ بن الخطاب رضي الله عنه أن النبي ﷺ قال: «إنما الأعمال
+      بالنيات، وإنما لكل امرئٍ ما نوى. فمن كانت هجرتُه إلى الله ورسوله
+      فهجرتُه إلى الله ورسوله، ومن كانت هجرتُه لدنيا يُصيبها أو امرأةٍ
+      ينكِحُها فهجرتُه إلى ما هاجر إليه». وقد افتتح به الإمام البخاري
+      صحيحَه. وقال الشافعي: «يدخل هذا الحديث في سبعين بابًا من أبواب
+      الفقه»، وقال: «هو ثُلُث العلم». وهو المدخلُ الكلاسيكي إلى البُعد
+      الباطن من كل عبادة.
+    description_fr: |
+      'Umar ibn al-Khattab a rapporté que le Prophète ﷺ a dit : « Les
+      actes ne valent que par les intentions, et chacun n'a que ce
+      qu'il a intentionné. Quiconque émigre vers Allah et Son Messager,
+      son émigration est pour Allah et Son Messager ; et quiconque
+      émigre pour une chose mondaine qu'il pourrait obtenir ou une
+      femme qu'il pourrait épouser, son émigration est pour ce vers
+      quoi il a émigré. » L'imam al-Bukhari l'a placé en tête de son
+      Sahih ; al-Shafi'i a dit : « Ce hadith entre dans soixante-dix
+      chapitres du fiqh » et « C'est le tiers du savoir. » C'est la
+      porte d'entrée classique vers la dimension intérieure de tout
+      acte d'adoration.
+    reference: Sahih al-Bukhari 1, Sahih Muslim 1907
+    source_url: https://sunnah.com/bukhari:1
+    hadith_refs: "Bukhari 1, Muslim 1907"
+    source_notes: |
+      Bukhārī opens his Ṣaḥīḥ with this hadith (1); al-Shāfiʿī states it enters seventy chapters of fiqh, and Ibn Rajab (Jāmiʿ al-ʿUlūm) traces how the Salaf scrutinized intentions before every act.
+    source_notes_fr: |
+      Bukhārī ouvre son Ṣaḥīḥ par ce hadith (1) ; al-Shāfiʿī déclare qu'il entre dans soixante-dix chapitres du fiqh, et Ibn Rajab (Jāmiʿ al-ʿUlūm) retrace comment les Salaf scrutaient leurs intentions avant chaque acte.
+    source_notes_ar: |
+      يفتتح البخاري صحيحَه بهذا الحديث (١)؛ ويقول الشافعي إنَّه يدخل في سبعين بابًا من الفقه، ويتتبَّع ابن رجب (جامع العلوم) كيف كان السلف يُدقِّقون النية قبل كلِّ عمل.
+    display_day_of_year: 326
+
+  - slug: fact-last-ten-ramadan
+    category: quran_hadith_fact
+    title_en: The Last Ten Nights of Ramadan
+    title_ar: العشر الأواخر من رمضان
+    title_fr: Les dix dernières nuits de Ramadan
+    description_en: |
+      Aisha ra said: "When the last ten nights of Ramadan came, the
+      Prophet ﷺ would tighten his waist-cloth, stay up at night in
+      prayer, and wake up his family." He performed I'tikaf in these
+      nights, and they contain Laylat al-Qadr. He recommended
+      intensified worship, recitation, du'a, and charity in them. The
+      classical jurists and spiritual writers have treated these ten
+      nights as the peak of the Muslim year — a concentrated season of
+      devotion whose proper use can reshape the spiritual trajectory
+      of an entire year.
+    description_ar: |
+      قالت عائشةُ رضي الله عنها: «كان النبي ﷺ إذا دخل العشرُ الأواخرُ
+      شدَّ مئزرَه، وأحيا ليلَه، وأيقظ أهلَه». وكان يعتكفُ في هذه الليالي،
+      وفيها ليلةُ القدر. وحضَّ على التشمير في العبادة والتلاوة والدعاء
+      والصدقة. وقد عدَّها الفقهاء وأهلُ التربية الروحية ذروةَ سنة المسلم
+      - موسمًا مكثَّفًا من العبادة يمكن لحُسن استثماره أن يُعيدَ تشكيل
+      المسار الروحي لسنةٍ كاملة.
+    description_fr: |
+      'A'isha (qu'Allah l'agrée) a dit : « Lorsque venaient les dix
+      dernières nuits de Ramadan, le Prophète ﷺ resserrait sa ceinture,
+      passait la nuit en prière, et réveillait sa famille. » Il faisait
+      le I'tikaf durant ces nuits, et elles contiennent Laylat al-Qadr.
+      Il a recommandé l'intensification de l'adoration, de la
+      récitation, de la du'a et de l'aumône en celles-ci. Les juristes
+      classiques et les auteurs spirituels ont traité ces dix nuits
+      comme le sommet de l'année musulmane — une saison concentrée de
+      dévotion dont la bonne utilisation peut remodeler la trajectoire
+      spirituelle d'une année entière.
+    reference: Sahih al-Bukhari 2024, Sahih Muslim 1174
+    source_url: https://sunnah.com/bukhari:2024
+    hadith_refs: "Bukhari 2024, Muslim 1174"
+    source_notes: |
+      Bukhārī (2024) and Muslim (1174) report ʿĀʾisha's narration; classical scholars treat these nights as the annual peak of devotion, and al-Nawawī notes that iʿtikāf in them is a strongly recommended Sunnah.
+    source_notes_fr: |
+      Bukhārī (2024) et Muslim (1174) rapportent le récit de ʿĀʾisha ; les savants classiques traitent ces nuits comme le sommet annuel de la dévotion, et al-Nawawī note que l'iʿtikāf durant celles-ci est une Sunna fortement recommandée.
+    source_notes_ar: |
+      يرويان البخاري (٢٠٢٤) ومسلم (١١٧٤) خبرَ عائشة؛ ويعامل العلماء هذه اللياليَ قمةً سنويةً للعبادة، ويُنوِّه النووي بأنَّ الاعتكافَ فيها سنةٌ مُؤكَّدة.
+    display_day_of_year: 336
+
+  - slug: fact-akhira-eternal
+    category: quran_hadith_fact
+    title_en: The Life of the Hereafter
+    title_ar: الحياة الآخرة
+    title_fr: La vie de l'au-delà
+    description_en: |
+      The Qur'an repeatedly contrasts the transience of worldly life
+      with the eternity of the Hereafter: "What is the life of this
+      world compared to the Hereafter except a brief enjoyment?"
+      (13:26) and "The Hereafter is better for you than the first
+      [life]; and your Lord will give you, and you will be satisfied"
+      (93:4-5). Surat al-Aʿlā likewise teaches: "But you prefer the
+      worldly life, while the Hereafter is better and more enduring"
+      (87:16-17). The lesson is not that the world is worthless but
+      that it is instrumental: a field of cultivation whose entire
+      value lies in what it produces for the eternal life.
+    description_ar: |
+      يُقارِنُ القرآنُ مرارًا بين فناء الحياة الدنيا وخلود الآخرة:
+      «وَمَا الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ إِلَّا مَتَاعٌ»
+      (الرعد ١٣:٢٦)، و«وَلَلْآخِرَةُ خَيْرٌ لَّكَ مِنَ الْأُولَىٰ ۝
+      وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ» (الضحى ٩٣:٤-٥). وفي
+      سورة الأعلى: «بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا ۝ وَالْآخِرَةُ
+      خَيْرٌ وَأَبْقَىٰ» (٨٧:١٦-١٧). فالدرسُ ليس أن الدنيا لا قيمةَ لها،
+      بل أنها أداةٌ: مزرعةٌ كلُّ قيمتها فيما تُنتجُه للحياة الباقية.
+    description_fr: |
+      Le Coran oppose à plusieurs reprises la fugacité de la vie
+      d'ici-bas à l'éternité de l'au-delà : « Et qu'est-ce que la vie
+      d'ici-bas comparée à l'au-delà sinon une jouissance éphémère ? »
+      (13:26) et « L'au-delà est meilleur pour toi que la vie présente,
+      et ton Seigneur te donnera, et tu seras satisfait » (93:4-5). La
+      sourate al-Aʿlā enseigne de même : « Mais vous préférez la vie
+      d'ici-bas, alors que l'au-delà est meilleur et plus durable »
+      (87:16-17). La leçon n'est pas que le monde est sans valeur, mais
+      qu'il est instrumental : un champ de culture dont toute la valeur
+      réside dans ce qu'il produit pour la vie éternelle.
+    reference: Qur'an 13:26, 87:16-17, 93:4-5
+    source_url: https://quran.com/93/4-5
+    quran_refs: "13:26, 87:16-17, 93:4-5"
+    source_notes: |
+      Qur'an 13:26 and 93:4 contrast the fleeting world with the Hereafter; Ibn Kathīr explains that the world is a place of trial and cultivation, while the Hereafter is the harvest of deeds, eternal and unending.
+    source_notes_fr: |
+      Le Coran 13:26 et 93:4-5 opposent le monde fugace à l'au-delà ; Ibn Kathīr explique que le monde est un lieu d'épreuve et de culture, tandis que l'au-delà est la moisson des œuvres, éternelle et sans fin.
+    source_notes_ar: |
+      تقابل الرعد ١٣:٢٦ والضحى ٩٣:٤-٥ الدنيا الفانيةَ بالآخرة؛ ويُفسِّر ابن كثير أنَّ الدنيا دارُ ابتلاءٍ وزرعٍ، والآخرةُ حصادُ الأعمال، خالدةٌ أبدية.
+    display_day_of_year: 346

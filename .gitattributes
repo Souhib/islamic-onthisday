@@ -1,0 +1,24 @@
+# Normalise text files to LF in the repo, regardless of editor / OS.
+# Without this, Windows clones can introduce CRLF noise in diffs.
+* text=auto eol=lf
+
+# Keep these binary so git doesn't try to diff them.
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.pdf    binary
+*.db     binary
+*.sqlite binary
+*.woff   binary
+*.woff2  binary
+*.ico    binary
+
+# Generated files — collapse them in PR diffs so reviewers focus on hand
+# edits. `linguist-generated` also tells GitHub's language stats to
+# exclude them from the language pie chart.
+web/src/api/generated/**       linguist-generated=true
+web/src/routeTree.gen.ts       linguist-generated=true
+web/openapi.json               linguist-generated=true
+backend/openapi.json           linguist-generated=true

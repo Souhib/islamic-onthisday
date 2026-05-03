@@ -1,0 +1,452 @@
+# Stories of the Prophets as narrated in the Qur'an. Each entry cites the
+# specific Qur'anic surah and verse range. Content is summarised faithfully
+# from the Qur'anic text; no apocryphal or isra'iliyyat material is added.
+
+lessons:
+  - slug: hud-and-ad
+    category: quran_story
+    title_en: Hud ﷺ and the People of 'Ad
+    description_en: |
+      The Prophet Hud ﷺ was sent to the tribe of 'Ad, a people of great
+      physical strength who built fortresses "on every high place" and
+      boasted: "Who is stronger than us in might?" (Qur'an 41:15). Hud
+      called them to worship Allah alone and warned them against arrogance
+      and oppression, but they rejected him. Allah sent upon them a
+      devastating wind of seven nights and eight days that destroyed them
+      utterly, leaving "only their dwellings" (Qur'an 46:25). Hud and those
+      who believed with him were saved.
+    reference: Surah al-A'raf 7:65-72, Surah Hud 11:50-60, Surah al-Ahqaf 46:21-26
+    source_notes: |
+      Ibn Kathīr (Tafsīr, 7:65) notes that 'Ad were the first people to be destroyed by wind after rejecting a prophet. Al-Ṭabarī records that their dwellings at al-Aḥqāf remained visible to Arab travellers until the time of the Prophet ﷺ.
+    source_notes_fr: |
+      Ibn Kathīr (Tafsīr, 7:65) note que les ʿĀd furent les premiers à être détruits par le vent après avoir rejeté un prophète. Al-Ṭabarī rapporte que leurs demeures à al-Aḥqāf restaient visibles aux voyageurs arabes jusqu'à l'époque du Prophète ﷺ.
+    source_notes_ar: |
+      يُشِيرُ ابنُ كَثِيرٍ (تَفْسِيرُ، ٧:٦٥) إِلَى أَنَّ قَوْمَ عَادٍ كَانُوا أَوَّلَ مَنْ أَهْلَكَهُمُ اللهُ بِالرِّيحِ بَعْدَ رَدِّهِمْ لِنَبِيٍّ. وَيَرْوِي الطَّبَرِيُّ أَنَّ مَسَاكِنَهُمْ بِالأَحْقَافِ بَقِيَتْ ظَاهِرَةً لِلرُّحَّالِ العَرَبِ إِلَى زَمَنِ النَّبِيِّ ﷺ.
+    display_day_of_year: 3
+
+  - slug: salih-and-thamud
+    category: quran_story
+    title_en: Salih ﷺ and the People of Thamud
+    description_en: |
+      The Prophet Salih ﷺ was sent to Thamud, the tribe that succeeded 'Ad.
+      They had mastered stone-carving, hewing dwellings directly out of
+      mountains (Qur'an 26:149). Salih called them to tawhid, and as a
+      sign Allah brought forth from the rock a she-camel with specific
+      rights to drink. When a group of the tribe hamstrung and killed her,
+      a mighty blast (sayha) took them — "as though they had never
+      prospered therein" (Qur'an 11:68). Their stone dwellings survive at
+      Mada'in Salih in northern Arabia; the Prophet ﷺ passed by them on
+      the Tabuk expedition and forbade the Muslims from drinking their
+      well water.
+    reference: Surah al-A'raf 7:73-79, Surah Hud 11:61-68, Surah al-Shams 91:11-15
+    source_notes: |
+      Al-Qurṭubī (Tafsīr, 7:73) explains that the she-camel was a *mīthāq* (solemn covenant), so harming her constituted a direct breach of their treaty with Allah. Ibn Kathīr cites the consensus that Thamūd's stone dwellings at Madāʾin Ṣāliḥ were known to the Prophet ﷺ, who forbade Muslims from lingering there.
+    source_notes_fr: |
+      Al-Qurṭubī (Tafsīr, 7:73) explique que la chamelle était un mīthāq (pacte solennel), de sorte que lui faire du tort constituait une rupture directe de leur traité avec Allah. Ibn Kathīr rapporte le consensus selon lequel les demeures de pierre de Thamūd à Madāʾin Ṣāliḥ étaient connues du Prophète ﷺ, qui interdit aux musulmans d'y séjourner.
+    source_notes_ar: |
+      يُوَضِّحُ القُرْطَبِيُّ (تَفْسِيرُ، ٧:٧٣) أَنَّ النَّاقَةَ كَانَتْ مِيثَاقًا، فَإِيذَاؤُهَا كَانَ خَرْقًا مُبَاشَرًا لِعَهْدِهِمْ مَعَ اللهِ. وَيَنْقُلُ ابنُ كَثِيرٍ الإِجْمَاعَ عَلَى أَنَّ مَسَاكِنَ ثَمُودَ الحَجَرِيَّةَ بِمَدَائِنِ صَالِحٍ كَانَتْ مَعْرُوفَةً لِلنَّبِيِّ ﷺ، الَّذِي نَهَى المُسْلِمِينَ عَنِ المُكُوثِ فِيهَا.
+    display_day_of_year: 8
+
+  - slug: lut-and-his-people
+    category: quran_story
+    title_en: Lut ﷺ and the Destruction of His People
+    description_en: |
+      The Prophet Lut ﷺ lived in the towns of the plain (Sodom and nearby
+      settlements), which had descended into open immorality unprecedented
+      among the nations. He called them to abandon their behaviour and
+      return to what was lawful, but they threatened him with expulsion.
+      The angels of Allah came to him in the form of young men; his people
+      tried to seize them, and the angels revealed to Lut that destruction
+      was coming. Lut was evacuated with his believing family at night —
+      all except his wife, who had sided with the transgressors. At dawn
+      Allah overturned the towns and rained upon them stones of baked
+      clay, bearing each stone the mark of its recipient.
+    reference: Surah Hud 11:77-83, Surah al-Hijr 15:57-77, Surah al-A'raf 7:80-84
+    source_notes: |
+      Ibn Kathīr and al-Ṭabarī agree that the destruction of Lut's people was a direct consequence of institutionalising a sin unprecedented among nations. Al-Qurṭubī emphasises that each stone was marked with the name of its recipient, demonstrating that divine justice is never indiscriminate.
+    source_notes_fr: |
+      Ibn Kathīr et al-Ṭabarī s'accordent pour dire que la destruction du peuple de Lūṭ fut la conséquence directe de l'institutionnalisation d'un péché sans précédent parmi les nations. Al-Qurṭubī souligne que chaque pierre était marquée du nom de son destinataire, démontrant que la justice divine n'est jamais aveugle.
+    source_notes_ar: |
+      يَتَّفِقُ ابنُ كَثِيرٍ وَالطَّبَرِيُّ عَلَى أَنَّ هَلَاكَ قَوْمِ لُوطٍ كَانَ نَتِيجَةً مُبَاشَرَةً لِتَأْصِيلِ مَعْصِيَةٍ لَمْ تَسْبِقْهَا أُمَّةٌ. وَيُؤَكِّدُ القُرْطَبِيُّ أَنَّ كُلَّ حِجَارَةٍ كَانَتْ مَرْقُومَةً بِاسْمِ صَاحِبِهَا، مِثَالاً عَلَى أَنَّ العَدْلَ الإِلَهِيَّ لَيْسَ عَشْوَائِيًّا قَطُّ.
+    display_day_of_year: 18
+
+  - slug: shuayb-and-madyan
+    category: quran_story
+    title_en: Shu'ayb ﷺ and the People of Madyan
+    description_en: |
+      The Prophet Shu'ayb ﷺ was sent to the traders of Madyan, who had
+      corrupted the marketplace by cheating in weights and measures.
+      "Give full measure and weight with justice, and do not deprive
+      people of their due" (Qur'an 11:85) was his message — one of the
+      earliest Qur'anic teachings on commercial honesty. They rejected
+      him, threatening expulsion unless he returned to their ancestral
+      polytheism. Allah destroyed them with the sayha (the blast) and
+      with the 'adhab yawm al-zulla (punishment of the day of shadow).
+      Shu'ayb is sometimes called "the orator of the Prophets" (khatib
+      al-anbiya') for the eloquence of his preaching preserved in the
+      Qur'an.
+    reference: Surah Hud 11:84-95, Surah al-Shu'ara 26:176-191
+    source_notes: |
+      Al-Qurṭubī devotes extensive commentary to Shuʿayb's story, treating commercial dishonesty as a pillar of social corruption in Islam. Ibn Kathīr notes that Shuʿayb is called *khaṭīb al-anbiyāʾ* because the Qur'an preserves his orations more fully than those of many other prophets.
+    source_notes_fr: |
+      Al-Qurṭubī consacre un commentaire approfondi au récit de Shuʿayb, traitant la malhonnêteté commerciale comme un pilier de la corruption sociale en Islām. Ibn Kathīr note que Shuʿayb est appelé khaṭīb al-anbiyāʾ parce que le Coran a conservé ses harangues plus complètement que celles de bien d'autres prophètes.
+    source_notes_ar: |
+      يُفَصِّلُ القُرْطَبِيُّ شَرْحًا وَاسِعًا لِقِصَّةِ شُعَيْبٍ، مُعَامِلًا الغِشَّ التِّجَارِيَّ رُكْنًا مِنْ أَرْكَانِ الفَسَادِ الاجْتِمَاعِيِّ فِي الإِسْلَامِ. وَيَلْحَظُ ابنُ كَثِيرٍ أَنَّ شُعَيْبًا سُمِّيَ خَطِيبَ الأَنْبِيَاءِ لِأَنَّ القُرْآنَ حَفِظَ خُطَبَهُ أَكْثَرَ تَفْصِيلًا مِنْ خُطَبِ كَثِيرٍ مِنَ الأَنْبِيَاءِ الآخَرِينَ.
+    display_day_of_year: 22
+
+  - slug: ayyub-and-patience
+    category: quran_story
+    title_en: Ayyub ﷺ — The Patience of Job
+    description_en: |
+      The Prophet Ayyub ﷺ was tested with the loss of his wealth, his
+      children, and his health — yet he remained patient and grateful for
+      years. When finally he called upon his Lord — "Indeed adversity has
+      touched me, and You are the Most Merciful of the merciful" (Qur'an
+      21:83) — Allah commanded him to strike the ground with his foot, and
+      a spring of cool water arose from which he drank and washed; his
+      health and family were restored. The Qur'an praises him as a patient
+      servant: "Indeed We found him patient — an excellent servant; truly
+      he was one who turned often" (Qur'an 38:44).
+    reference: Surah al-Anbiya 21:83-84, Surah Sad 38:41-44
+    source_notes: |
+      Ibn al-Qayyim explains in *Madārij al-Sālikīn* that Ayyūb's patience was active trust, not passive resignation, and his supplication teaches the believer to complain only to Allah. Ibn Kathīr records that Ayyūb's affliction lasted eighteen years, making his perseverance a benchmark for prophetic endurance.
+    source_notes_fr: |
+      Ibn al-Qayyim explique dans Madārij al-Sālikīn que la patience d'Ayyūb était une confiance active, non une résignation passive, et que sa supplication enseigne au croyant à ne se plaindre qu'à Allah. Ibn Kathīr rapporte que l'épreuve d'Ayyūb dura dix-huit ans, faisant de sa persévérance une référence en matière d'endurance prophétique.
+    source_notes_ar: |
+      يُبَيِّنُ ابنُ القَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» أَنَّ صَبْرَ أَيُّوبَ كَانَ تَوَكُّلًا فَاعِلًا لاَ انْقِيَادًا سَلْبِيًّا، وَأَنَّ دُعَاءَهُ يُعَلِّمُ المُؤْمِنَ أَنْ يَشْكُوَ إِلَى اللهِ وَحْدَهُ. وَيَرْصُدُ ابنُ كَثِيرٍ أَنَّ بَلَاءَ أَيُّوبَ اسْتَمَرَّ ثَمَانِيَ عَشْرَةَ سَنَةً، مِمَّا جَعَلَ مُثَابَرَتَهُ مِعْيَارًا لِصَبْرِ الأَنْبِيَاءِ.
+    display_day_of_year: 28
+
+  - slug: dawud-and-jalut
+    category: quran_story
+    title_en: Dawud ﷺ Defeats Jalut (Goliath)
+    description_en: |
+      When the Israelites asked their prophet to appoint a king to fight
+      for them, Allah gave them Talut (Saul). Most of Talut's army
+      deserted after drinking from a test river; a small remnant under
+      Dawud ﷺ faced the formidable Jalut (Goliath). The Qur'an records:
+      "How many a small company overcame a large company by permission of
+      Allah" (2:249). The young Dawud killed Jalut, and Allah gave him
+      "sovereignty and wisdom and taught him of what He willed" (2:251).
+      He would go on to receive the Zabur (Psalms) and to rule as Prophet-
+      King over the Israelites.
+    reference: Surah al-Baqara 2:246-251
+    source_notes: |
+      Al-Ṭabarī preserves the early view that the water test at the river was a measure of spiritual discipline, not military judgment. Ibn Kathīr notes that Dāwūd's refusal to wear heavy armour proved that victory belongs to Allah alone, not to equipment or numbers.
+    source_notes_fr: |
+      Al-Ṭabarī conserve l'opinion ancienne selon laquelle l'épreuve de l'eau au fleuve était une mesure de discipline spirituelle, non un jugement militaire. Ibn Kathīr note que le refus de Dāwūd de porter une armure lourde prouvait que la victoire appartient à Allah seul, non à l'équipement ou aux effectifs.
+    source_notes_ar: |
+      يَحْفَظُ الطَّبَرِيُّ الرَّأْيَ القَدِيمَ بِأَنَّ امْتِحَانَ المَاءِ عِنْدَ النَّهْرِ كَانَ مِقْيَاسًا لِلانْضِبَاطِ الرُّوحِيِّ لاَ لِلتَّقْدِيرِ العَسْكَرِيِّ. وَيُشِيرُ ابنُ كَثِيرٍ إِلَى أَنَّ رَفْضَ دَاوُدَ لِلدِّرْعِ الثَّقِيلَةِ كَانَ دَلِيلًا عَلَى أَنَّ النَّصْرَ لِلَّهِ وَحْدَهُ، لاَ لِلعُدَّةِ وَلاَ لِلعَدَدِ.
+    display_day_of_year: 33
+
+  - slug: sulayman-and-bilqis
+    category: quran_story
+    title_en: Sulayman ﷺ and the Queen of Saba'
+    description_en: |
+      Prophet Sulayman ﷺ was given dominion over jinn, men, and the speech
+      of birds. A hoopoe brought him news of a sun-worshipping queen in
+      Saba' (Sheba) whose throne was magnificent. Sulayman sent her a
+      letter calling her to submit to Allah alone. Bilqis — the Queen of
+      Saba' — consulted her council and came to Sulayman, who had her
+      throne brought to his court "in the blink of an eye" by one who
+      "had knowledge of the Scripture." When she entered his palace with
+      its crystal floor and mistook it for water, she lifted her robe;
+      seeing his display, she recognised his prophethood and declared:
+      "My Lord, indeed I have wronged myself, and I submit with Sulayman
+      to Allah, Lord of the worlds" (Qur'an 27:44).
+    reference: Surah al-Naml 27:20-44
+    source_notes: |
+      Al-Qurṭubī remarks that the hoopoe's role proves Allah can place crucial knowledge in the mouth of the smallest creature, and that the wise ruler listens before judging. Ibn Kathīr records that Bilqīs's submission was voluntary and intellectual — she recognised the truth and chose it without coercion.
+    source_notes_fr: |
+      Al-Qurṭubī remarque que le rôle de la huppe prouve qu'Allah peut placer une connaissance cruciale dans la bouche de la plus petite créature, et que le souverain sage écoute avant de juger. Ibn Kathīr rapporte que la soumission de Bilqīs fut volontaire et intellectuelle — elle reconnut la vérité et la choisit sans contrainte.
+    source_notes_ar: |
+      يَلْحَظُ القُرْطَبِيُّ أَنَّ دَوْرَ الهُدْهُدِ يُثْبِتُ أَنَّ اللهَ يَقْدِرُ أَنْ يَضَعَ العِلْمَ الجَوْهَرِيَّ فِي فَمِ أَصْغَرِ خَلْقِهِ، وَأَنَّ الحَاكِمَ الحَكِيمَ يَسْتَمِعُ قَبْلَ أَنْ يَحْكُمَ. وَيَدُلُّ ابنُ كَثِيرٍ عَلَى أَنَّ اسْتِسْلاَمَ بِلْقِيسَ كَانَ اخْتِيَارِيًّا وَعَقْلِيًّا — عَرَفَتِ الحَقَّ وَاخْتَارَتْهُ بِلاَ إِكْرَاهٍ.
+    display_day_of_year: 38
+
+  - slug: zakariya-and-yahya
+    category: quran_story
+    title_en: Zakariya ﷺ and the Gift of Yahya
+    description_en: |
+      Prophet Zakariya ﷺ, old in years and with a wife who had been
+      barren, saw Allah's sustenance reaching Maryam ra in her
+      sanctuary without apparent source and said: "My Lord, grant me from
+      Yourself good offspring. Indeed You hear supplications." The angels
+      called to him while he prayed in the sanctuary: "Allah gives you
+      glad tidings of Yahya." He would be "lordly and chaste and a
+      prophet from among the righteous" (Qur'an 3:39). Yahya (John the
+      Baptist) was given judgment and tenderness as a youth, and honored
+      the rights of his parents.
+    reference: Surah Aal Imran 3:38-41, Surah Maryam 19:2-15
+    source_notes: |
+      Ibn Kathīr notes that Zakariyyā's duʿā was answered not because of his age but because of his sincerity and the occasion that prompted it — witnessing divine generosity toward Maryam. Al-Qurṭubī adds that the prohibition on speaking was a sign of absorption in Allah's remembrance, and that Yaḥyā's exceptional character was established before his birth by divine decree.
+    source_notes_fr: |
+      Ibn Kathīr note que la duʿā de Zakariyyā fut exaucée non pas à cause de son âge, mais en raison de sa sincérité et de l'occasion qui la provoqua — avoir été témoin de la générosité divine envers Maryam. Al-Qurṭubī ajoute que l'interdiction de parler était un signe d'absorption dans le souvenir d'Allah, et que le caractère exceptionnel de Yaḥyā fut établi avant sa naissance par décret divin.
+    source_notes_ar: |
+      يُشِيرُ ابنُ كَثِيرٍ إِلَى أَنَّ إِجَابَةَ دُعَاءِ زَكَرِيَّا لَمْ تَكُنْ بِسَبَبِ سِنِّهِ بَلْ بِسَبَبِ إِخْلَاصِهِ وَالْمَنَاسِبَةِ الَّتِي أَثَارَتْهَا — مُشَاهَدَتُهُ كَرَمَ اللهِ عَلَى مَرْيَمَ. وَيَزِيدُ القُرْطَبِيُّ أَنَّ مَنْعَ الكَلاَمِ كَانَ عَلاَمَةَ انْغِمَاسٍ فِي ذِكْرِ اللهِ، وَأَنَّ خُلُقَ يَحْيَى الفَائِقَ تَمَّ تَقْدِيرُهُ قَبْلَ وِلاَدَتِهِ بِقَضَاءٍ إِلَهِيٍّ.
+    display_day_of_year: 43
+
+  - slug: yunus-in-the-fish
+    category: quran_story
+    title_en: Yunus ﷺ and the Fish
+    description_en: |
+      The Prophet Yunus ﷺ left his people before receiving permission from
+      his Lord. He boarded a ship that nearly foundered; lots were cast
+      and he was thrown overboard, and a great fish swallowed him. In
+      "layers of darkness" he called: "There is no god but You; glory be
+      to You. Indeed I have been of the wrongdoers" (Qur'an 21:87). The
+      fish cast him onto the shore and Allah caused a vine to grow over
+      him while he recovered. He then returned to his people, who had
+      since believed — the only story in the Qur'an of an entire
+      community whose punishment was lifted by repentance after the
+      prophet had departed.
+    reference: Surah al-Anbiya 21:87-88, Surah al-Saffat 37:139-148, Surah Yunus 10:98
+    source_notes: |
+      Ibn Kathīr records that Yūnus's duʿā contains the essence of repentance: acknowledgement of divine oneness, glorification, and confession of fault. Al-Ṭabarī notes that his people's subsequent belief — after the prophet had departed — makes this the only story in the Qur'an where an entire community's punishment was lifted by repentance.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que la duʿā de Yūnus renferme l'essence du repentir : la reconnaissance de l'unicité divine, la glorification et l'aveu de la faute. Al-Ṭabarī note que la foi subséquente de son peuple — après le départ du prophète — fait de ce récit le seul dans le Coran où le châtiment d'une communauté entière fut levé par le repentir.
+    source_notes_ar: |
+      يَسْجُلُ ابنُ كَثِيرٍ أَنَّ دُعَاءَ يُونُسَ يَحْوِي جَوْهَرَ التَّوْبَةِ: الإِقْرَارَ بِوَحْدَانِيَّةِ اللهِ، وَالتَّسْبِيحَ، وَالاعْتِرَافَ بِالذَّنْبِ. وَيَلْحَظُ الطَّبَرِيُّ أَنَّ إِيمَانَ قَوْمِهِ لاحِقًا — بَعْدَ ذَهَابِ النَّبِيِّ — يَجْعَلُ هَذِهِ القِصَّةَ الوَحِيدَةَ فِي القُرْآنِ الَّتِي رُفِعَ فِيهَا عِقَابُ أُمَّةٍ بِأَسْرِهَا بِالتَّوْبَةِ.
+    display_day_of_year: 48
+
+  - slug: idris-raised-up
+    category: quran_story
+    title_en: Idris ﷺ — Raised to a Lofty Station
+    description_en: |
+      The Qur'an mentions Idris ﷺ in two passages as a truthful prophet
+      raised by Allah "to a lofty station" (makanan 'aliyya, Qur'an
+      19:57). The Prophet ﷺ reported meeting him in the fourth heaven
+      during al-Mi'raj. Little of his history is narrated in the Qur'an;
+      classical scholarship has generally associated him with the
+      pre-Flood patriarch Akhnukh (Enoch), though the details remain
+      elusive and are not the basis for doctrine.
+    reference: Surah Maryam 19:56-57, Surah al-Anbiya 21:85-86
+    source_notes: |
+      Ibn Kathīr, following the reports of Ibn ʿAbbās, associates Idrīs with Akhnūkh (Enoch) while cautioning that the identification is not certain enough to form doctrine. Al-Ṭabarī records that the Prophet ﷺ met Idrīs in the fourth heaven during al-Miʿrāj, confirming his elevated station among the prophets.
+    source_notes_fr: |
+      Ibn Kathīr, suivant les rapports d'Ibn ʿAbbās, associe Idrīs à Akhnūkh (Hénoch) tout en mettant en garde contre le fait que cette identification n'est pas assez certaine pour fonder un dogme. Al-Ṭabarī rapporte que le Prophète ﷺ rencontra Idrīs dans le quatrième ciel lors de al-Miʿrāj, confirmant ainsi son rang élevé parmi les prophètes.
+    source_notes_ar: |
+      يَرْبِطُ ابنُ كَثِيرٍ — بِاتِّبَاعِ أَخْبَارِ ابنِ عَبَّاسٍ — إِدْرِيسَ بِأَخْنُوخَ (إِنُوخَ) مُحَذِّرًا مِنْ أَنَّ هَذِهِ النِّسْبَةَ لَيْسَتْ بِمَا يَكْفِي لِتَأْصِيلِ عَقِيدَةٍ. وَيَرْوِي الطَّبَرِيُّ أَنَّ النَّبِيَّ ﷺ لَقِيَ إِدْرِيسَ فِي السَّمَاءِ الرَّابِعَةِ خِلاَلَ المِعْرَاجِ، مُؤَكِّدًا مَنْزِلَتَهُ الرَّفِيعَةَ بَيْنَ الأَنْبِيَاءِ.
+    display_day_of_year: 53
+
+  - slug: khidr-and-musa
+    category: quran_story
+    title_en: Musa ﷺ and al-Khidr
+    description_en: |
+      Musa ﷺ was directed to meet a servant of Allah "whom We had taught
+      knowledge from Ourselves" (Qur'an 18:65) — identified in the sound
+      hadith as al-Khidr. Musa asked to accompany him; al-Khidr warned he
+      could not be patient. Three times Musa objected — at the sinking of
+      the boat, the killing of a boy, and the rebuilding of a wall — and
+      three times al-Khidr explained the hidden wisdom: the boat was
+      damaged to save it from a tyrannical king; the boy would have
+      misled his righteous parents; the wall covered a treasure for
+      orphans. The story is a lesson in the limits of outward knowledge.
+    reference: Surah al-Kahf 18:60-82, Sahih al-Bukhari 74, Sahih Muslim 2380
+    source_notes: |
+      Ibn Kathīr notes that this narrative establishes the hierarchy of knowledge: prophetic law (*sharīʿa*) and esoteric wisdom (*ʿilm al-ladunnī*) both originate with Allah but serve different purposes. Al-Qurṭubī emphasises that Mūsā's inability to endure patience teaches the believer that certainty (*yaqīn*) sometimes requires withholding judgment.
+    source_notes_fr: |
+      Ibn Kathīr note que ce récit établit la hiérarchie de la connaissance : la loi prophétique (sharīʿa) et la sagesse ésotérique (ʿilm al-ladunnī) proviennent toutes deux d'Allah mais servent des finalités différentes. Al-Qurṭubī souligne que l'incapacité de Mūsā à supporter la patience enseigne au croyant que la certitude (yaqīn) exige parfois de suspendre son jugement.
+    source_notes_ar: |
+      يُشِيرُ ابنُ كَثِيرٍ إِلَى أَنَّ هَذَا المَسْرَدَ يُقِيمُ مَرَاتِبَ العِلْمِ: الشَّرِيعَةُ النَّبَوِيَّةُ وَالعِلْمُ اللَّدُنِّيُّ يَنْشَأُ كِلاهُمَا مِنَ اللهِ لَكِنَّهُمَا يَخْدِمَانِ غَايَتَيْنِ مُخْتَلِفَتَيْنِ. وَيُؤَكِّدُ القُرْطَبِيُّ أَنَّ عَجْزَ مُوسَى عَنِ احْتِمَالِ الصَّبْرِ يُعَلِّمُ المُؤْمِنَ أَنَّ اليَقِينَ قَدْ يَتَطَلَّبُ تَجَنُّبَ الحُكْمِ أَحْيَانًا.
+    display_day_of_year: 58
+
+  - slug: ibrahim-destroys-idols
+    category: quran_story
+    title_en: Ibrahim ﷺ Breaks the Idols
+    description_en: |
+      Prophet Ibrahim ﷺ, alone among his people, reasoned from the
+      changing stars, moon, and sun to the Creator who set them. When
+      his people left for a festival, he broke all the idols in their
+      temple except the largest, onto whose shoulders he placed the axe.
+      When questioned, he challenged them to ask the remaining idol.
+      "They turned to themselves and said: Indeed you are the wrongdoers"
+      (Qur'an 21:64). Unable to accept the implication, they cast him
+      into a fire — which Allah commanded: "Be cool and peace upon
+      Ibrahim" (21:69).
+    reference: Surah al-Anbiya 21:51-70, Surah al-Saffat 37:83-98
+    source_notes: |
+      Al-Qurṭubī explains that Ibrāhīm's argument was not mere philosophy but a deliberate dismantling of polytheist logic that attributed divinity to created things. Ibn Kathīr adds that the fire's coolness was a miracle proving that protection belongs to Allah alone, and that it remained a sign for his people.
+    source_notes_fr: |
+      Al-Qurṭubī explique que l'argument d'Ibrāhīm n'était pas une simple philosophie, mais un démontage délibéré de la logique polythéiste qui attribuait la divinité aux choses créées. Ibn Kathīr ajoute que la fraîcheur du feu fut un miracle prouvant que la protection appartient à Allah seul, et qu'elle demeura un signe pour son peuple.
+    source_notes_ar: |
+      يُفَسِّرُ القُرْطَبِيُّ أَنَّ حُجَّةَ إِبْرَاهِيمَ لَمْ تَكُنْ مُجَرَّدَ فَلْسَفَةٍ بَلْ تَفْكِيكًا مُتَعَمَّدًا لِمَنْطِقِ المُشْرِكِينَ الَّذِينَ نَسَبُوا الأُلُوهِيَّةَ لِلْمَخْلُوقَاتِ. وَيَزِيدُ ابنُ كَثِيرٍ أَنَّ بُرُودَةَ النَّارِ كَانَتْ مُعْجِزَةً تُثْبِتُ أَنَّ الحِمَايَةَ لِلَّهِ وَحْدَهُ، وَأَنَّهَا بَقِيَتْ آيَةً لِقَوْمِهِ.
+    display_day_of_year: 63
+
+  - slug: luqman-advises-son
+    category: quran_story
+    title_en: The Advice of Luqman to his Son
+    description_en: |
+      The Qur'an preserves the counsel of Luqman the Wise to his son —
+      one of the most concentrated passages of prophetic-style ethical
+      teaching in the Book. It covers tawhid ("do not associate anything
+      with Allah; indeed association is great injustice"), filial piety
+      toward parents (even if they strive to make one associate with
+      Allah, treat them kindly in the world), establishment of prayer,
+      enjoining good and forbidding evil, patience in adversity, not
+      turning one's cheek in scorn, walking moderately, and lowering
+      one's voice. A whole course in character in eight verses.
+    reference: Surah Luqman 31:12-19
+    source_notes: |
+      Al-Ṭabarī records that Luqmān was not a prophet but a wise believer (*ḥakīm muʾmin*), and that his counsel is preserved in the Qur'an as a model of paternal instruction. Ibn ʿAṭiyyah notes that the passage condenses an entire curriculum of character into eight verses, making it one of the most concentrated ethical teachings in the Book.
+    source_notes_fr: |
+      Al-Ṭabarī rapporte que Luqmān n'était pas un prophète mais un croyant sage (ḥakīm muʾmin), et que son conseil est conservé dans le Coran comme un modèle d'instruction paternelle. Ibn ʿAṭiyyah note que ce passage condense tout un cursus de caractère en huit versets, en faisant l'un des enseignements éthiques les plus concentrés du Livre.
+    source_notes_ar: |
+      يَسْجُلُ الطَّبَرِيُّ أَنَّ لُقْمَانَ لَمْ يَكُنْ نَبِيًّا بَلْ حَكِيمًا مُؤْمِنًا، وَأَنَّ نُصْحَهُ حُفِظَ فِي القُرْآنِ نَمُوذَجًا لِلتَّرْبِيَةِ الأَبَوِيَّةِ. وَيَلْحَظُ ابنُ عَطِيَّةَ أَنَّ هَذَا النَّصَّ يَمْتَزِجُ فِيهِ مَنْهَجٌ كَامِلٌ لِلأَخْلاَقِ فِي ثَمَانِيَ آيَاتٍ، مِمَّا يَجْعَلُهُ أَكْثَرَ مَا فِي الكِتَابِ مِنْ تَعْلِيمٍ أَخْلَاقِيٍّ مُكَثَّفٍ.
+    display_day_of_year: 68
+
+  - slug: habil-qabil
+    category: quran_story
+    title_en: Habil and Qabil — The Two Sons of Adam
+    description_en: |
+      Both sons of Adam offered a sacrifice; Habil's was accepted and
+      Qabil's was not. Qabil said to his brother: "I will surely kill
+      you." Habil replied: "Allah accepts only from the righteous. If
+      you stretch your hand against me to kill me, I will not stretch my
+      hand against you to kill you — indeed I fear Allah, the Lord of
+      the worlds" (Qur'an 5:28). Qabil killed him, and a crow taught him
+      to bury the body. The Qur'an declares as a principle from this
+      story: "Whoever kills a soul not in retaliation for a soul or for
+      corruption in the land, it is as though he had killed all mankind"
+      (5:32).
+    reference: Surah al-Ma'ida 5:27-32
+    source_notes: |
+      Ibn Kathīr, following Ibn ʿAbbās, explains that Allah accepted Hābīl's offering because it was given sincerely from the best of his property, whereas Qābīl's was inferior and given grudgingly. Al-Qurṭubī observes that the rejected sacrifice was a symptom of a diseased heart; outward rituals cannot compensate for inward corruption.
+    source_notes_fr: |
+      Ibn Kathīr, suivant Ibn ʿAbbās, explique qu'Allah accepta l'offrande de Hābīl parce qu'elle fut donnée sincèrement et provenait du meilleur de ses biens, tandis que celle de Qābīl était inférieure et donnée à contrecœur. Al-Qurṭubī observe que le sacrifice rejeté était le symptôme d'un cœur malade ; les rituels extérieurs ne peuvent compenser une corruption intérieure.
+    source_notes_ar: |
+      يُوَضِّحُ ابنُ كَثِيرٍ — بِاتِّبَاعِ ابنِ عَبَّاسٍ — أَنَّ اللهَ تَقَبَّلَ قُرْبَانَ هَابِيلَ لِأَنَّهُ كَانَ مِنْ خَيْرِ مَالِهِ مُخْلِصًا، بِخِلاَفِ قُرْبَانِ قَابِيلَ الَّذِي كَانَ دُونَهُ وَمُكْرَهًا. وَيَلْحَظُ القُرْطَبِيُّ أَنَّ رَدَّ القُرْبَانِ كَانَ عَرَضًا لِمَرَضِ القَلْبِ؛ فَالطَّقُوسُ الظَّاهِرَةُ لاَ تُجْبِرُ فَسَادَ البَاطِنِ.
+    display_day_of_year: 73
+
+  - slug: people-of-the-trench-ukhdud
+    category: quran_story
+    title_en: The People of the Trench (Ashab al-Ukhdud)
+    description_en: |
+      Surah al-Buruj describes the digging of trenches of fire into which
+      a tyrant king threw believers who refused to abandon their faith —
+      "and they had nothing against them except that they believed in
+      Allah, the Almighty, the Praiseworthy" (85:8). The full narrative
+      is given in the famous hadith of the boy, the king, and the
+      monk narrated in Sahih Muslim: a young believer's miraculous
+      survival of successive attempts on his life, his instruction that
+      the king could only kill him by saying "In the name of Allah, Lord
+      of the boy," and the mass conversion of the people that
+      followed — provoking the king to dig the trenches.
+    reference: Surah al-Buruj 85:1-10, Sahih Muslim 3005
+    source_notes: |
+      Ibn Kathīr narrates that the boy, the king, and the monk hadith in Sahih Muslim provides the narrative background the Qur'an alludes to elliptically. Al-Qurṭubī notes that the verse "they had nothing against them except that they believed" (85:8) became a classical proof that faith alone can be sufficient cause for martyrdom.
+    source_notes_fr: |
+      Ibn Kathīr rapporte que le ḥadīth du garçon, du roi et du moine dans Ṣaḥīḥ Muslim fournit le fond narratif auquel le Coran fait allusion de manière elliptique. Al-Qurṭubī note que le verset « ils n'avaient contre eux aucun grief sinon qu'ils croyaient » (85:8) est devenu une preuve classique que la foi seule peut constituer une cause suffisante au martyre.
+    source_notes_ar: |
+      يَرْوِي ابنُ كَثِيرٍ أَنَّ حَدِيثَ الغُلاَمِ وَالْمَلِكِ وَالرَّاهِبِ فِي صَحِيحِ مُسْلِمٍ يُؤَمِّنُ الخَلْفِيَّةَ القَصَصِيَّةَ الَّتِي يَشِيرُ إِلَيْهَا القُرْآنُ بِإِيجَازٍ. وَيُشِيرُ القُرْطَبِيُّ إِلَى أَنَّ الآيَةَ «مَا نَقَمُوا مِنْهُمْ إِلاَّ أَنْهُمْ آمَنُوا» (٨٥:٨) صَارَتْ حُجَّةً قَدِيمَةً عَلَى أَنَّ الإِيمَانَ وَحْدَهُ قَدْ يَكْفِي سَبَبًا لِلشَّهَادَةِ.
+    display_day_of_year: 78
+
+  - slug: mother-of-musa
+    category: quran_story
+    title_en: The Mother of Musa ﷺ
+    description_en: |
+      Allah inspired the mother of Musa ﷺ during Pharaoh's massacre of
+      the sons of the Israelites: "Suckle him, then when you fear for
+      him, cast him into the river, and do not fear and do not grieve;
+      indeed We will return him to you and make him one of the
+      messengers" (Qur'an 28:7). She placed her infant in a chest and
+      floated him on the Nile; he was found by Pharaoh's household and
+      adopted by his wife Asiya ra. His sister followed secretly and
+      suggested a wetnurse for the infant — his own mother, unrecognised
+      — so that her son was returned to her arms on the pharaoh's
+      payroll. The Qur'an comments: "So We returned him to his mother
+      that she might be content and not grieve, and to know that Allah's
+      promise is true" (28:13).
+    reference: Surah al-Qasas 28:1-13
+    source_notes: |
+      Al-Qurṭubī highlights that the mother of Mūsā is unnamed in the Qur'an, directing attention to her action rather than her lineage. Ibn Kathīr records from the reports of Ibn ʿAbbās that her placement of the infant in the chest was itself an act of faith, and that her return to him on Pharaoh's payroll demonstrated how Allah fulfils His promises through unexpected means.
+    source_notes_fr: |
+      Al-Qurṭubī souligne que la mère de Mūsā n'est pas nommée dans le Coran, détournant ainsi l'attention vers son action plutôt que vers sa lignée. Ibn Kathīr rapporte, d'après les récits d'Ibn ʿAbbās, que le placement de l'enfant dans le coffret fut en lui-même un acte de foi, et que son retour auprès de lui à la solde de Pharaon démontra comment Allah accomplit Ses promesses par des voies inattendues.
+    source_notes_ar: |
+      يُبَرِّزُ القُرْطَبِيُّ أَنَّ أُمَّ مُوسَى لَمْ يُسَمَّ فِي القُرْآنِ، مُوَجِّهًا الاِنْتِبَاهَ إِلَى فِعْلِهَا لاَ إِلَى نَسَبِهَا. وَيَنْقُلُ ابنُ كَثِيرٌ عَنْ أَخْبَارِ ابنِ عَبَّاسٍ أَنَّ وَضْعَهَا لِلطِّفْلِ فِي التَّابُوتِ كَانَ ذَاتَهُ عَمَلَ إِيمَانٍ، وَأَنَّ عَوْدَتَهَا إِلَيْهِ عَلَى مِيرَانِ فِرْعَوْنَ كَانَتْ بُرْهَانًا عَلَى أَنَّ اللهَ يُنَجِّزُ وَعُودَهُ بِسُبُلٍ لاَ تُخْتَرَعُ.
+    display_day_of_year: 83
+
+  - slug: quran-qarun
+    category: quran_story
+    title_en: The Fall of Qarun (Korah)
+    description_en: |
+      Qarun was of the people of Musa ﷺ, but Allah had given him so much
+      wealth that "the keys to his treasures would have burdened a band
+      of strong men" (Qur'an 28:76). When admonished to spend in the
+      path of Allah and not to exult in wealth, he boasted: "I was only
+      given this because of knowledge I possess." He emerged in his
+      finery to overawe the people — and Allah caused the earth to
+      swallow him and his dwellings. The next morning those who had
+      envied his position said: "Were it not for the grace of Allah,
+      He could have caused the earth to swallow us" (28:82).
+    reference: Surah al-Qasas 28:76-82
+    source_notes: |
+      Ibn Kathīr, drawing from the *tafsīr* of Ibn ʿAbbās, notes that the earth swallowing Qārūn was not merely physical but a removal of *baraka* itself. Al-Ṭabarī preserves the early view that Qārūn's claim — "I was given this because of knowledge I possess" — is the archetype of conflating worldly success with divine favour.
+    source_notes_fr: |
+      Ibn Kathīr, s'appuyant sur le tafsīr d'Ibn ʿAbbās, note que l'engloutissement de Qārūn par la terre n'était pas seulement physique, mais un retrait de la baraka elle-même. Al-Ṭabarī conserve l'opinion ancienne selon laquelle la prétention de Qārūn — « on m'a donné cela en raison de la connaissance que je possède » — est l'archétype de la confusion entre la réussite mondaine et la grâce divine.
+    source_notes_ar: |
+      يُشِيرُ ابنُ كَثِيرٍ — مُسْتَنِدًا إِلَى تَفْسِيرِ ابنِ عَبَّاسٍ — إِلَى أَنَّ ابْتِلاَعَ الأَرْضِ لِقَارُونَ لَمْ يَكُنْ جَسَدِيًّا فَحَسْبُ بَلْ كَانَ نَزْعًا لِلْبَرَكَةِ ذَاتِهَا. وَيَحْفَظُ الطَّبَرِيُّ الرَّأْيَ القَدِيمَ بِأَنَّ دَعْوَى قَارُونَ — «إِنَّمَا أُوتِيتُهُ عَلَى عِلْمٍ عِنْدِي» — هِيَ الأُصُولَةُ فِي خَلْطِ النَّجَاحِ الدُّنْيَوِيِّ بِالتَّفَضُّلِ الإِلَهِيِّ.
+    display_day_of_year: 88
+
+  - slug: quran-year-of-elephant
+    category: quran_story
+    title_en: The Year of the Elephant (Surah al-Fil)
+    description_en: |
+      Abraha, the Christian Axumite ruler of Yemen, marched with a
+      formidable army — including elephants — to destroy the Ka'ba in
+      Makkah, intending to divert pilgrimage to his cathedral at Sana'a.
+      At the outskirts of Makkah the elephants refused to advance. Allah
+      sent flocks of small birds (ababil) carrying stones of baked clay,
+      "striking them like ravaged leaves" (Qur'an 105:4). The army was
+      destroyed. The year — 570 CE — is called the Year of the Elephant
+      and is the traditional date of the birth of the Prophet ﷺ.
+    reference: Surah al-Fil 105:1-5
+    source_notes: |
+      Ibn Kathīr, in *al-Bidāya wa-l-Nihāya*, narrates the detailed reports of Ibn Isḥāq, noting that the birds were instruments of direct divine intervention. Al-Qurṭubī emphasises that Allah did not require angels or armies; the smallest of His creatures sufficed to demonstrate that protection of His House belongs to Him alone.
+    source_notes_fr: |
+      Ibn Kathīr, dans al-Bidāya wa-l-Nihāya, rapporte les récits détaillés d'Ibn Isḥāq, notant que les oiseaux furent des instruments d'intervention divine directe. Al-Qurṭubī souligne qu'Allah n'eut pas besoin d'anges ni d'armées ; la plus petite de Ses créatures suffit pour démontrer que la protection de Sa Maison Lui appartient en propre.
+    source_notes_ar: |
+      يَرْوِي ابنُ كَثِيرٌ فِي «البِدَايَةِ وَالنِّهَايَةِ» تَفَاصِيلَ مَا أَخْبَرَ بِهِ ابنُ إِسْحَاقَ، مُشِيرًا إِلَى أَنَّ الطَّيْرَ كَانَتْ أَدَوَاتِ تَدَخُّلٍ إِلَهِيٍّ مُبَاشَرٍ. وَيُؤَكِّدُ القُرْطَبِيُّ أَنَّ اللهَ لَمْ يَحْتَجْ إِلَى مَلاَئِكَةٍ وَلاَ جُنُودٍ؛ فَأَصْغَرُ خَلْقِهِ كَافٍ لِإِثْبَاتِ أَنَّ حِمَايَةَ بَيْتِهِ لَهُ وَحْدَهُ.
+    display_day_of_year: 93
+
+  - slug: quran-ashab-al-kahf-detail
+    category: quran_story
+    title_en: The People of the Cave — Their Sign
+    description_en: |
+      Beyond the bare summary of the story, Surah al-Kahf reflects on
+      what Allah teaches through it. The Qur'an refuses the speculative
+      arithmetic of how many the youths were: "Say: My Lord is most
+      knowing of their number — none knows them except a few. So do not
+      argue about them except an obvious argument and do not inquire
+      about them from anyone" (18:22). The surah then directs readers
+      to say "Insha'Allah" when resolving on future action (18:23-24) —
+      establishing a Qur'anic principle of humility before the unseen.
+    reference: Surah al-Kahf 18:22-26
+    source_notes: |
+      Ibn Kathīr explains that the Qur'an deliberately refuses speculative arithmetic about the sleepers to teach humility before the unseen. Al-Ṭabarī records the early scholarly consensus that the story is a proof of resurrection and a reassurance that Allah protects those who sacrifice for His sake.
+    source_notes_fr: |
+      Ibn Kathīr explique que le Coran refuse délibérément tout calcul spéculatif sur le nombre des gisants pour enseigner l'humilité devant l'invisible. Al-Ṭabarī conserve le consensus savant ancien selon lequel cette histoire est une preuve de la résurrection et une assurance qu'Allah protège ceux qui se sacrifient pour Lui.
+    source_notes_ar: |
+      يُفَسِّرُ ابنُ كَثِيرٌ أَنَّ القُرْآنَ يَرْفُضُ — عَمْدًا — الحِسَابَ التَّخْمِينِيَّ لِعَدَدِ الرِّجَالِ النَّائِمِينَ لِيُعَلِّمَ التَّوَاضُعَ أَمَامَ الغَيْبِ. وَيَسْجُلُ الطَّبَرِيُّ الإِجْمَاعَ القَدِيمَ بِأَنَّ القِصَّةَ دَلِيلٌ عَلَى البَعْثِ وَطُمَأْنِينَةٌ بِأَنَّ اللهَ يَحْمِي مَنْ يَضْحِي مِنْ أَجْلِهِ.
+    display_day_of_year: 98
+
+  - slug: owners-of-the-garden
+    category: quran_story
+    title_en: The Owners of the Garden (Ashab al-Jannah)
+    description_en: |
+      Surah al-Qalam tells of a father who charitably gave the poor
+      their share of his harvest. After his death his sons resolved to
+      harvest before dawn and exclude the poor, swearing they would do
+      so "without saying 'Insha'Allah.'" In the night Allah sent a
+      calamity that consumed the garden; they arose to find it black
+      and ruined. One of them — "the most moderate" — said: "Did I not
+      tell you to glorify Allah?" They turned to one another in mutual
+      blame and recognised the cause, hoping Allah would replace it
+      with better. The Qur'an ends: "Such was the punishment — and the
+      punishment of the Hereafter is greater, if they only knew" (68:33).
+    reference: Surah al-Qalam 68:17-33
+    source_notes: |
+      Ibn Kathīr notes that the fire was not merely physical but a removal of *baraka* itself; the land remained, but its fruitfulness departed. Al-Qurṭubī emphasises that their oath to sin before dawn was itself a measure of their hearts' corruption — they did not merely neglect charity, they actively conspired against it.
+    source_notes_fr: |
+      Ibn Kathīr note que le feu n'était pas seulement physique, mais un retrait de la baraka elle-même ; la terre demeura, mais sa fertilité disparut. Al-Qurṭubī souligne que leur serment de pécher avant l'aube était en lui-même une mesure de la corruption de leurs cœurs — ils n'ont pas seulement négligé la charité, ils ont activement conspiré contre elle.
+    source_notes_ar: |
+      يُشِيرُ ابنُ كَثِيرٍ إِلَى أَنَّ النَّارَ لَمْ تَكُنْ جَسَدِيَّةً فَحَسْبُ بَلْ كَانَتْ نَزْعًا لِلْبَرَكَةِ ذَاتِهَا؛ بَقِيَتِ الأَرْضُ وَلَكِنَّ خِصْبَهَا ارْتَفَعَ. وَيُؤَكِّدُ القُرْطَبِيُّ أَنَّ قَسَمَهُمْ عَلَى المَعْصِيَةِ قَبْلَ الفَجْرِ كَانَ ذَاتَهُ مِقْيَاسًا لِفَسَادِ قُلُوبِهِمْ — فَهُمْ لَمْ يَتَجَاهَلُوا الصَّدَقَةَ فَقَطْ، بَلْ دَبَّرُوا لَهَا كَيْدًا.
+    display_day_of_year: 103

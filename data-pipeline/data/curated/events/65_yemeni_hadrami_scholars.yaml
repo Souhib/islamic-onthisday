@@ -1,0 +1,814 @@
+# Wave 65 of curated event additions (2026-04-27).
+# The Sunni Yemeni and Ḥaḍramī scholarly tradition: the Bā ʿAlawī
+# sayyid line of Tarīm in Hadhramaut (descendants of al-Ḥusayn ra
+# via Aḥmad ibn ʿĪsā al-Muhājir who emigrated from Iraq to Yemen
+# in the 4th century AH), the Sūfī-Shāfiʿī masters of the
+# Ḥaḍramī tradition, and the Zabīd muḥaddithūn of Tihāma. All
+# are firmly within the Sunni Shāfiʿī school; the Bā ʿAlawīs in
+# particular are known for their fidelity to mainstream Ashʿarī
+# theology, Shāfiʿī fiqh, and the Sūfī ṭarīqa traceable through
+# al-Muhdar–al-Saqqāf–Faqīh al-Muqaddam back through chains
+# joining ultimately to al-Ghazālī's school.
+#
+# Editorial note on framing: the Bā ʿAlawī sayyids of Hadhramaut
+# are documented descendants of al-Ḥusayn ra (so they qualify as
+# Ahl al-Bayt under the broad Sunni definition that includes
+# Banū Hāshim). Their `is_ahl_al_bayt` flag is set true in
+# people.yaml so the image-policy hard-block applies. They are
+# framed as Sunni-Shāfiʿī scholars who happen to be sayyids by
+# descent — the Bā ʿAlawī tradition is firmly Sunni and we do
+# not import Twelver-Shia framing onto them.
+#
+# Coverage: Ibn Ḥajar al-Haytamī (d. 974 AH) is already covered
+# in file 27 (death-of-ibn-hajar-al-haytami). al-Shawkānī (d.
+# 1250 AH, Yemeni reformer) is covered in file 19. Murtaḍa
+# al-Zabīdī (d. 1205 AH) is covered separately. This file adds
+# ten new figures spanning 345 AH (al-Muhājir) to 1250 AH
+# (ʿAbd al-Raḥmān al-Ahdal).
+#
+# Sources: the Yemeni biographical tradition sits awkwardly in
+# the broader classical Sunni canon — Ibn Khallikān (d. 681 AH)
+# does not yet cover the Bā ʿAlawī line; al-Dhahabī's Siyar
+# (d. 748 AH) reaches al-Muhdar's father generation but stops
+# before the major Bā ʿAlawī figures; Ibn al-ʿImād's *Shadharāt
+# al-Dhahab* (carrying through 1000 AH) catches the early
+# Bā ʿAlawī generations and the Zabīd muḥaddithūn. For figures
+# after 1000 AH the principal Sunni authority is EI2. We use
+# only source_keys present in sources.yaml; figures with thin
+# coverage are recorded honestly as `single_source`.
+
+events:
+  # =========================================================================
+  # AHMAD AL-MUHĀJIR — ancestor of the Bā ʿAlawī sayyids in Yemen
+  # =========================================================================
+
+  - slug: death-of-ahmad-al-muhajir-yemen
+    category: scholar_death
+    title_en: Death of Aḥmad ibn ʿĪsā al-Muhājir — Ancestor of the Bā ʿAlawī Sayyids
+    title_ar: وفاة أحمد بن عيسى المهاجر — جدّ السادة بني علوي
+    title_fr: Mort de Aḥmad ibn ʿĪsā al-Muhājir — ancêtre des sayyids Bā ʿAlawī
+    description_en: |
+      Aḥmad ibn ʿĪsā ibn Muḥammad ibn ʿAlī al-ʿUrayḍī ibn Jaʿfar
+      al-Ṣādiq — known by the epithet *al-Muhājir* ("the
+      emigrant") for the journey he led from Basra southward to
+      Hadhramaut around 317 AH (~929 CE) — died at al-Ḥusayyisa
+      near Tarīm in Hadhramaut (in modern-day Yemen) around
+      345 AH (~956 CE). He is the documented common ancestor of
+      the Bā ʿAlawī sayyids — the line of Sunni-Shāfiʿī scholars
+      and Sufi masters of Tarīm that would produce, generations
+      later, Faqīh al-Muqaddam Muḥammad ibn ʿAlī, ʿAbd al-Raḥmān
+      al-Saqqāf, ʿUmar al-Muḥdar, and the modern al-Ḥaddād line.
+      Through his great-great-grandfather ʿAlī al-ʿUrayḍī (son
+      of Jaʿfar al-Ṣādiq), his lineage joins the Prophetic ﷺ
+      line via al-Ḥusayn ra, which is why the Bā ʿAlawīs of
+      Hadhramaut are recognised as sayyids — Banū Hāshim
+      descendants of the Prophet ﷺ — across the Sunni world.
+      His emigration from the troubled politics of ʿAbbāsid
+      Iraq to the relatively peripheral Hadhramaut anchored a
+      Sunni-Shāfiʿī sayyid presence in southern Arabia that
+      would shape the religious life of the Indian Ocean rim
+      for the next millennium.
+    description_ar: |
+      توفي أحمد بن عيسى بن محمد بن علي العُريضي بن جعفر الصادق
+      — المعروف بلقب «المهاجر» لمهاجرته من البصرة جنوباً إلى
+      حضرموت قُرابة سنة ٣١٧ هـ (~٩٢٩ م) — بقرية الحُسَيِّسة
+      قُرب تَريم بحضرموت (في اليمن اليوم) قُرابة سنة ٣٤٥ هـ
+      (~٩٥٦ م). وهو الجدّ المشترك الموَثَّق للسادة بني علوي —
+      أهل العلم الشافعية وشيوخ التصوف بتَريم — الذين خرج منهم
+      بعد أجيال الفقيهُ المقدم محمد بن علي، وعبد الرحمن السقاف،
+      وعمر المُحضار، وآل الحدّاد في العصر الحديث. ويتصل نسبه عن
+      طريق جدّه الأعلى علي العُريضي ابن جعفر الصادق بالنسب
+      النبوي الشريف ﷺ من جهة الحسين رضي الله عنه، ولهذا تُعرف
+      السادةُ بنو علوي في حضرموت في جميع البلاد السنية بأنهم من
+      السادة الحسينيين من بني هاشم. وأرسَت مهاجرته من فتن
+      السياسة العباسية في العراق إلى حضرموت — التي كانت آنذاك
+      على هامش العالم الإسلامي — حضوراً سنياً شافعياً سيادياً
+      في جنوب الجزيرة العربية صار لاحقاً يصوغ الحياة الدينية في
+      حواف المحيط الهندي طوال ألف سنة.
+    description_fr: |
+      Aḥmad ibn ʿĪsā ibn Muḥammad ibn ʿAlī al-ʿUrayḍī ibn Jaʿfar
+      al-Ṣādiq — connu sous l'épithète *al-Muhājir* (« l'émigrant »)
+      pour le voyage qu'il conduisit de Basra vers le sud
+      jusqu'au Hadhramaout vers 317 H (~929 EC) — mourut à
+      al-Ḥusayyisa, près de Tarīm au Hadhramaout (Yémen actuel),
+      vers 345 H (~956 EC). Il est l'ancêtre commun documenté
+      des sayyids Bā ʿAlawī — la lignée de savants
+      sunnites-shāfiʿītes et de maîtres soufis de Tarīm qui
+      produirait, des générations plus tard, le Faqīh al-Muqaddam
+      Muḥammad ibn ʿAlī, ʿAbd al-Raḥmān al-Saqqāf, ʿUmar
+      al-Muḥdar et la lignée moderne des al-Ḥaddād. Par son
+      arrière-arrière-grand-père ʿAlī al-ʿUrayḍī (fils de Jaʿfar
+      al-Ṣādiq), sa lignée rejoint celle du Prophète ﷺ via
+      al-Ḥusayn (rḍ), raison pour laquelle les Bā ʿAlawīs du
+      Hadhramaout sont reconnus comme sayyids — descendants des
+      Banū Hāshim — dans tout le monde sunnite. Son émigration
+      depuis l'Iraq abbasside agité vers un Hadhramaout
+      relativement périphérique ancra une présence sunnite-
+      shāfiʿīte sayyide en Arabie méridionale qui allait, pendant
+      le millénaire suivant, façonner la vie religieuse de la
+      lisière de l'océan Indien.
+    canonical_hijri: {year: 345, precision: year}
+    canonical_gregorian: {date: 956-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 345 AH at al-Ḥusayyisa near Tarīm; recognised ancestor of Bā ʿAlawī sayyids."
+      - source_key: editorial
+        notes: "Emigration date 317 AH and Tarīm settlement attested across the Bā ʿAlawī genealogical literature."
+    people: [[ahmad-al-muhajir-yemen, died]]
+    tags: [yemen, hadhramaut, tarim, sayyid, shafii, ba-alawi-ancestor, hijra]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_al-Muhajir"
+
+  # =========================================================================
+  # FAQĪH AL-MUQADDAM — founder of the Bā ʿAlawī Sufi line
+  # =========================================================================
+
+  - slug: death-of-faqih-al-muqaddam
+    category: scholar_death
+    title_en: Death of Faqīh al-Muqaddam — Founder of the Bā ʿAlawī Sufi Line
+    title_ar: وفاة الفقيه المقدّم — مؤسّس الطريقة العَلَوية بحضرموت
+    title_fr: Mort du Faqīh al-Muqaddam — fondateur de la voie soufie Bā ʿAlawī
+    description_en: |
+      Muḥammad ibn ʿAlī Bā ʿAlawī, called *al-Faqīh al-Muqaddam*
+      ("the foremost jurist"), Sunni-Shāfiʿī faqīh and Sufi
+      master of Tarīm in Hadhramaut and the man traditionally
+      credited with founding the distinctive Bā ʿAlawī ṭarīqa —
+      a Ḥaḍramī Sunni Sufi line that synthesises Shāfiʿī fiqh,
+      Ashʿarī ʿaqīda, and a Ghazālian ethical-Sufi formation
+      transmitted through the chain of Abū Madyan al-Maghribī
+      and onward — died at Tarīm in 653 AH (~1255 CE). The
+      sayyid descendant of Aḥmad al-Muhājir, he is the figure
+      from whom every later Bā ʿAlawī master traces their *isnād*
+      of the path: ʿAbd al-Raḥmān al-Saqqāf, ʿUmar al-Muḥdar,
+      Aḥmad ibn ʿĪd al-Ḥabashī, and ultimately ʿAbd Allāh
+      al-Ḥaddād all sit downstream from him in the Tarīm Sufi
+      lineage. Tradition reports that he received the formal
+      *khirqa* from Abū Madyan's chain via Maghribī travellers
+      and codified for Hadhramaut a sober, sharīʿa-bound Sufi
+      practice that has remained the dominant religious idiom
+      of Hadhramaut and the Hadhrami diaspora across the Indian
+      Ocean for the eight centuries since.
+    description_ar: |
+      توفي محمد بن علي باعلوي الملقّب بـ«الفقيه المقدّم» — فقيه
+      شافعي سني وشيخ تصوف بتَريم بحضرموت، والذي يُعدّ في
+      التراث المؤسسَ للطريقة العَلَوية الحضرمية المتميزة — وهي
+      طريقة سنية صوفية تجمع بين فقه الشافعية وعقيدة الأشاعرة
+      وتربية صوفية أخلاقية على نَهج الإمام الغزالي تتصل أسانيدها
+      بسلسلة الشيخ أبي مدين المغربي وما فوقها — بتَريم سنة ٦٥٣
+      هـ (~١٢٥٥ م). وهو الحفيد الحُسَيني السيّد لأحمد بن عيسى
+      المهاجر، وإليه ينتهي كل ما بعده من شيوخ بني علوي بأسانيد
+      الطريق: عبد الرحمن السقاف، وعمر المُحضار، وأحمد بن عيد
+      الحبشي، وعبد الله الحدّاد كلهم من ذرّيّته أو من تلامذة
+      تلامذته في سلسلة تَريم الصوفية. وتذكر التراجم أنه أخذ
+      الخرقة الرسمية من سلسلة أبي مدين بواسطة رحّالة مغاربة،
+      وقعّد لحضرموت ممارسةً صوفية مَهديّةً ملتزمةً بالشريعة، صارت
+      منذ ثمانية قرون اللغةَ الدينية المهيمنة على حضرموت
+      وعلى مهجر الحضارمة في حواشي المحيط الهندي.
+    description_fr: |
+      Muḥammad ibn ʿAlī Bā ʿAlawī, dit *al-Faqīh al-Muqaddam*
+      (« le juriste prééminent »), faqīh sunnite-shāfiʿīte et
+      maître soufi de Tarīm au Hadhramaout, et l'homme à qui la
+      tradition attribue la fondation de la voie distinctive Bā
+      ʿAlawī — une lignée soufie sunnite ḥaḍramī qui synthétise
+      le fiqh shāfiʿīte, la ʿaqīda ashʿarite et une formation
+      éthico-soufie d'esprit ghazālien transmise par la chaîne
+      d'Abū Madyan al-Maghribī et au-delà — mourut à Tarīm en
+      653 H (~1255 EC). Descendant sayyide d'Aḥmad al-Muhājir,
+      il est la figure dont tout maître Bā ʿAlawī ultérieur
+      retrace son *isnād* du chemin : ʿAbd al-Raḥmān al-Saqqāf,
+      ʿUmar al-Muḥdar, Aḥmad ibn ʿĪd al-Ḥabashī et finalement
+      ʿAbd Allāh al-Ḥaddād s'inscrivent tous en aval de lui
+      dans la lignée soufie de Tarīm. La tradition rapporte
+      qu'il reçut la *khirqa* formelle de la chaîne d'Abū Madyan
+      par l'intermédiaire de voyageurs maghrébins, et qu'il
+      codifia pour le Hadhramaout une pratique soufie sobre et
+      attachée à la sharīʿa, demeurée depuis huit siècles
+      l'idiome religieux dominant du Hadhramaout et de la
+      diaspora ḥaḍramī à travers l'océan Indien.
+    canonical_hijri: {year: 653, precision: year}
+    canonical_gregorian: {date: 1255-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 653 AH at Tarīm; founder of Bā ʿAlawī ṭarīqa."
+      - source_key: editorial
+        notes: "Bā ʿAlawī genealogical-Sufi literature uniformly traces all later masters back to Faqīh al-Muqaddam."
+    people: [[faqih-al-muqaddam, died]]
+    tags: [yemen, hadhramaut, tarim, sayyid, shafii, sufi, ba-alawi, tariqa]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Faqih_al-Muqaddam"
+
+  # =========================================================================
+  # ʿABD AL-RAḤMĀN AL-SAQQĀF — Ḥaḍramī Sufi master, Tarīm
+  # =========================================================================
+
+  - slug: death-of-abd-al-rahman-al-saqqaf
+    category: scholar_death
+    title_en: Death of ʿAbd al-Raḥmān al-Saqqāf — Bā ʿAlawī Master of Tarīm
+    title_ar: وفاة عبد الرحمن السقّاف — شيخ بني علوي بتَريم
+    title_fr: Mort de ʿAbd al-Raḥmān al-Saqqāf — maître Bā ʿAlawī de Tarīm
+    description_en: |
+      ʿAbd al-Raḥmān ibn Muḥammad ibn ʿAlī Bā ʿAlawī al-Saqqāf —
+      Sunni-Shāfiʿī faqīh, Sufi master of the Bā ʿAlawī line of
+      Tarīm in Hadhramaut, and the figure whose epithet *al-Saqqāf*
+      ("the rooftop one"), reportedly given because he stood
+      above his peers as a roof stands above a house, would
+      become the most-cited surname of the Hadhrami sayyid
+      diaspora — died at Tarīm in 819 AH (~1416 CE). A
+      seventh-generation descendant of Faqīh al-Muqaddam through
+      the Bā ʿAlawī line, he is one of the central figures in
+      the Tarīm Sufi-Shāfiʿī lineage; his student-circle and
+      his sons (notably ʿUmar al-Muḥdar, the next entry in this
+      file) carried the Bā ʿAlawī formation forward into the
+      ninth Hijri century, and the Saqqāf branch he founded
+      remains today the most numerically substantial of the
+      sayyid families of Hadhramaut and the Hadhrami Indian
+      Ocean diaspora. He was buried in the Zanbal cemetery of
+      Tarīm, the burial ground of the Bā ʿAlawī masters that
+      remains a major site of Hadhrami religious memory.
+    description_ar: |
+      توفي عبد الرحمن بن محمد بن علي باعلوي السقّاف — فقيه
+      شافعي سني وشيخ تصوّف من بني علوي بتَريم بحضرموت،
+      والشخصية التي صار لقبها «السقّاف» — الذي يُذكَر أنه
+      أُطلِق عليه لتسامُيه فوق أقرانه كما يَسموقَفُ السقفُ
+      على البيت — أكثر الألقاب ذكراً في مهجر السادة الحضارمة
+      — بتَريم سنة ٨١٩ هـ (~١٤١٦ م). وهو من ذرّية الفقيه
+      المقدّم في الجيل السابع عبر سلسلة بني علوي، وأحد المحاور
+      الكبرى في سلسلة تَريم الصوفية الشافعية؛ وحَمَل أبناؤه
+      (لا سيما عمر المحضار التالي ذِكره في هذا الملف) وحَلْقَتُه
+      التربيةَ العَلَويةَ إلى القرن التاسع الهجري، وما زال
+      الفرعُ السقّافيُّ الذي أنشأه أكثرَ بيوتات السادة عدداً
+      في حضرموت وفي مهجر الحضارمة الهندي حتى اليوم. ودُفن في
+      مقبرة زنبل بتَريم، مقبرة شيوخ بني علوي التي ما زالت
+      موضعاً عظيماً من مواضع الذاكرة الدينية الحضرمية.
+    description_fr: |
+      ʿAbd al-Raḥmān ibn Muḥammad ibn ʿAlī Bā ʿAlawī al-Saqqāf —
+      faqīh sunnite-shāfiʿīte, maître soufi de la lignée Bā
+      ʿAlawī de Tarīm au Hadhramaout, et figure dont l'épithète
+      *al-Saqqāf* (« celui du toit »), donnée, selon la tradition,
+      parce qu'il s'élevait au-dessus de ses pairs comme un toit
+      domine une maison, deviendrait le nom de famille le plus
+      cité de la diaspora sayyide ḥaḍramī — mourut à Tarīm en
+      819 H (~1416 EC). Descendant à la septième génération du
+      Faqīh al-Muqaddam par la lignée Bā ʿAlawī, il est l'une
+      des figures centrales de la lignée soufie-shāfiʿīte de
+      Tarīm ; son cercle d'élèves et ses fils (notamment ʿUmar
+      al-Muḥdar, l'entrée suivante de ce fichier) portèrent la
+      formation Bā ʿAlawī dans le neuvième siècle hégirien, et
+      la branche Saqqāf qu'il fonda demeure aujourd'hui la plus
+      nombreuse des familles sayyides du Hadhramaout et de la
+      diaspora ḥaḍramī de l'océan Indien. Il fut enseveli au
+      cimetière Zanbal de Tarīm, lieu de sépulture des maîtres
+      Bā ʿAlawī, qui demeure un haut lieu de la mémoire
+      religieuse ḥaḍramī.
+    canonical_hijri: {year: 819, precision: year}
+    canonical_gregorian: {date: 1416-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 819 AH at Tarīm; founder of the Saqqāf branch of Bā ʿAlawī sayyids."
+      - source_key: editorial
+        notes: "Burial in Zanbal cemetery of Tarīm; transmitter of the Bā ʿAlawī Sufi-Shāfiʿī chain."
+    people: [[abd-al-rahman-al-saqqaf, died]]
+    tags: [yemen, hadhramaut, tarim, sayyid, shafii, sufi, ba-alawi, saqqaf, zanbal]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Abdurrahman_Assegaf"
+
+  # =========================================================================
+  # ʿUMAR AL-MUḤDAR — son of al-Saqqāf
+  # =========================================================================
+
+  - slug: death-of-umar-al-muhdar
+    category: scholar_death
+    title_en: Death of ʿUmar al-Muḥdar — Bā ʿAlawī Successor at Tarīm
+    title_ar: وفاة عمر المُحضار — خَلَف بني علوي بتَريم
+    title_fr: Mort de ʿUmar al-Muḥdar — successeur Bā ʿAlawī à Tarīm
+    description_en: |
+      ʿUmar ibn ʿAbd al-Raḥmān al-Saqqāf Bā ʿAlawī, called *al-
+      Muḥdar* — Sunni-Shāfiʿī faqīh and Sufi master of Tarīm in
+      Hadhramaut, the son and chief successor of ʿAbd al-Raḥmān
+      al-Saqqāf, and the figure who carried the Bā ʿAlawī
+      Shāfiʿī-Sufi formation forward into the ninth Hijri
+      century — died at Tarīm in 833 AH (~1430 CE). His epithet
+      *al-Muḥdar* ("the present, the attentive") was attached to
+      him, the tradition reports, because he was unfailingly
+      present at every gathering of dhikr and every juristic
+      session held in Tarīm in his time. He was the formative
+      teacher of the next generation of Bā ʿAlawī sayyids and
+      his ḥalqa at Tarīm functioned as the principal seminary of
+      Hadhramaut for the second quarter of the ninth Hijri
+      century. He too was buried in the Zanbal cemetery of
+      Tarīm, alongside his father and the broader Bā ʿAlawī
+      lineage.
+    description_ar: |
+      توفي عمر بن عبد الرحمن السقّاف باعلوي الملقّب بـ«المُحضار»
+      — فقيه شافعي سني وشيخ تصوف بتَريم بحضرموت، ابن عبد الرحمن
+      السقّاف وخليفته الأكبر، الذي حَمَل التربية العَلَوية
+      الشافعية الصوفية إلى القرن التاسع الهجري — بتَريم سنة
+      ٨٣٣ هـ (~١٤٣٠ م). ولُقِّب بالمُحضار — كما تذكر التراجم —
+      لأنه كان يَحضُر كلَّ مجلس ذكر وكلَّ مجلس فقه يُعقد بتَريم
+      في زمانه ولا يتخلَّف عنه. وكان المربّيَ المؤسِّسَ للجيل
+      التالي من سادة بني علوي، وكانت حلقته بتَريم الكُتّابَ
+      الرئيسَ لحضرموت طوال الربع الثاني من القرن التاسع الهجري.
+      ودُفن أيضاً في مقبرة زنبل بتَريم بجوار أبيه وفي ضريحٍ
+      من ضريح أهل بيته الكِرام.
+    description_fr: |
+      ʿUmar ibn ʿAbd al-Raḥmān al-Saqqāf Bā ʿAlawī, dit
+      *al-Muḥdar* — faqīh sunnite-shāfiʿīte et maître soufi de
+      Tarīm au Hadhramaout, fils et principal successeur de
+      ʿAbd al-Raḥmān al-Saqqāf, et figure qui porta la formation
+      Bā ʿAlawī shāfiʿīte-soufie dans le neuvième siècle
+      hégirien — mourut à Tarīm en 833 H (~1430 EC). Son
+      épithète *al-Muḥdar* (« le présent, l'attentif ») lui fut
+      donnée, selon la tradition, parce qu'il assistait
+      invariablement à chaque assemblée de dhikr et chaque
+      session juridique tenue à Tarīm de son temps. Il fut le
+      maître formateur de la génération suivante de sayyids
+      Bā ʿAlawī, et son ḥalqa à Tarīm fonctionna comme le
+      principal séminaire du Hadhramaout durant le deuxième
+      quart du neuvième siècle hégirien. Il fut, lui aussi,
+      enseveli au cimetière Zanbal de Tarīm, aux côtés de son
+      père et de la lignée Bā ʿAlawī.
+    canonical_hijri: {year: 833, precision: year}
+    canonical_gregorian: {date: 1430-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 833 AH at Tarīm; successor of his father al-Saqqāf in the Bā ʿAlawī line."
+      - source_key: editorial
+        notes: "Buried in Zanbal cemetery of Tarīm; principal Bā ʿAlawī teacher of the second quarter of the ninth century AH."
+    people: [[umar-al-muhdar, died]]
+    tags: [yemen, hadhramaut, tarim, sayyid, shafii, sufi, ba-alawi, zanbal]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Umar_al-Muhdhar"
+
+  # =========================================================================
+  # YAḤYĀ AL-ʿĀMIRĪ AL-ḤARANĪ — Yemeni Sunni historian-jurist
+  # =========================================================================
+
+  - slug: death-of-yahya-al-amiri-harani
+    category: scholar_death
+    title_en: Death of Yaḥyā ibn Abī Bakr al-ʿĀmirī al-Ḥaranī
+    title_ar: وفاة يحيى بن أبي بكر العامري الحرّاني
+    title_fr: Mort de Yaḥyā ibn Abī Bakr al-ʿĀmirī al-Ḥaranī
+    description_en: |
+      Yaḥyā ibn Abī Bakr ibn Muḥammad al-ʿĀmirī al-Ḥaranī al-
+      Yamanī — Sunni Shāfiʿī jurist, historian, and biographer
+      of Yemen, author of the *al-Riyāḍ al-Mustaṭāba fī Jumlat
+      man Rawā fī al-Ṣaḥīḥayn min al-Ṣaḥāba* (a register of the
+      Companions whose narrations appear in the two Ṣaḥīḥs),
+      *Bahjat al-Maḥāfil wa Ujmal al-Wasāʾil* (a sīra-and-
+      shamāʾil compendium with a versified frame), and the
+      historical *al-Sulūk fī Ṭabaqāt al-ʿUlamāʾ wa al-Mulūk*
+      (a tabaqāt of the scholars and rulers, particularly the
+      ones of Yemen) — died in Yemen in 893 AH (~1488 CE). His
+      *Bahjat al-Maḥāfil* in particular became a standard sīra
+      reference in Yemen and the Hijaz through the Ottoman
+      period, and his *al-Sulūk* — covering the scholars of
+      Yemen down to his own ninth-century generation — is one
+      of the principal sources for any biographical work on
+      pre-modern Yemen.
+    description_ar: |
+      توفي يحيى بن أبي بكر بن محمد العامري الحرّاني اليماني —
+      فقيه شافعي سني، ومؤرّخ، ومُترجِمٌ يماني، صاحبُ «الرياض
+      المستطابة في جملة من روى في الصحيحين من الصحابة» (تعريف
+      بصحابة رسول الله ﷺ الذين أخرج لهم البخاري ومسلم)،
+      و«بهجة المحافل وأُجمَل الوسائل» (مَجموع في السيرة
+      والشمائل بإطار منظوم)، و«السلوك في طبقات العلماء
+      والملوك» (طبقاتٌ للعلماء والملوك ولا سيما علماء اليمن
+      وملوكها) — باليمن سنة ٨٩٣ هـ (~١٤٨٨ م). وغدا كتابه
+      «بهجة المحافل» مرجعاً سيرويّاً معتمداً باليمن والحجاز
+      حتى العصر العثماني، وكتابه «السلوك» — وفيه تراجم علماء
+      اليمن إلى عصره في القرن التاسع — أحدَ المصادر الأساسية
+      في كل عمل ترجمي عن اليمن قبل العصر الحديث.
+    description_fr: |
+      Yaḥyā ibn Abī Bakr ibn Muḥammad al-ʿĀmirī al-Ḥaranī
+      al-Yamanī — juriste shāfiʿīte sunnite, historien et
+      biographe du Yémen, auteur d'*al-Riyāḍ al-Mustaṭāba fī
+      Jumlat man Rawā fī al-Ṣaḥīḥayn min al-Ṣaḥāba* (registre
+      des Compagnons dont les narrations figurent dans les deux
+      Ṣaḥīḥs), de *Bahjat al-Maḥāfil wa Ujmal al-Wasāʾil*
+      (compendium de sīra et de shamāʾil dans un cadre versifié),
+      et de l'historique *al-Sulūk fī Ṭabaqāt al-ʿUlamāʾ
+      wa al-Mulūk* (ṭabaqāt des savants et des souverains,
+      particulièrement ceux du Yémen) — mourut au Yémen en 893
+      H (~1488 EC). Son *Bahjat al-Maḥāfil* en particulier
+      devint une référence-sīra standard au Yémen et au Hijāz
+      à l'époque ottomane, et son *al-Sulūk* — couvrant les
+      savants du Yémen jusqu'à sa propre génération du neuvième
+      siècle — est l'une des principales sources pour tout
+      travail biographique sur le Yémen prémoderne.
+    canonical_hijri: {year: 893, precision: year}
+    canonical_gregorian: {date: 1488-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Death year 893 AH in Yemen recorded in Shadharāt al-Dhahab."
+      - source_key: ei2
+        notes: "Sunni Shāfiʿī jurist-historian of Yemen; Bahjat al-Maḥāfil and al-Sulūk authoritative."
+    people: [[yahya-al-amiri-harani, died]]
+    tags: [yemen, shafii, historian, sira, biographer, scholar]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yahya_al-Amiri"
+
+  # =========================================================================
+  # IBN AL-DAYBĀʿ — Zabīd muḥaddith and historian of Yemen
+  # =========================================================================
+
+  - slug: death-of-ibn-al-daybaa
+    category: scholar_death
+    title_en: Death of Ibn al-Daybāʿ — Zabīd Muḥaddith and Historian of Yemen
+    title_ar: وفاة ابن الديبع — محدّث زبيد ومؤرّخ اليمن
+    title_fr: Mort d'Ibn al-Daybāʿ — muḥaddith de Zabīd et historien du Yémen
+    description_en: |
+      Wajīh al-Dīn ʿAbd al-Raḥmān ibn ʿAlī ibn Muḥammad al-
+      Shaybānī al-Zabīdī, known as *Ibn al-Daybāʿ* — Sunni
+      Shāfiʿī muḥaddith, mawlid composer, and historian of
+      Zabīd in the Tihāma coastal plain of Yemen, then a major
+      seat of Sunni hadith scholarship under the late Ṭāhirid
+      and early Ottoman Yemeni periods — died at Zabīd in
+      944 AH (~1537 CE). His prose-and-verse *Mawlid* (the
+      *Mawlid al-Daybāʿ*) became, alongside the *Mawlid* of
+      al-Barzanjī, the most-recited Sunni mawlid text across
+      Yemen, the Hadhrami diaspora, and South-East Asia. His
+      historical works — *Bughyat al-Mustafīd fī Akhbār Madīnat
+      Zabīd*, *Qurrat al-ʿUyūn fī Akhbār al-Yaman al-Maymūn*,
+      and *al-Faḍl al-Mazīd ʿalā Bughyat al-Mustafīd* — are the
+      principal narrative sources for the political and
+      scholarly history of Yemen from the late Rasūlid through
+      the Ṭāhirid period and the first Ottoman conquest.
+    description_ar: |
+      توفي وجيه الدين عبد الرحمن بن علي بن محمد الشيباني
+      الزبيدي المعروف بـ«ابن الديبع» — محدّث شافعي سني،
+      وناظمُ مَولد، ومؤرخُ زَبيد بتِهامة اليمن، وكانت زَبيد
+      حينئذٍ مِن أعظم مَنازل علم الحديث السني في عصر الدولة
+      الطاهرية المتأخرة وأوائل العصر العثماني باليمن — بزَبيد
+      سنة ٩٤٤ هـ (~١٥٣٧ م). وصارت قصيدته في المولد النبوي —
+      «مولد الديبع» — مع «مولد البرزنجي» أكثرَ نصوص المولد
+      السنية إنشاداً في اليمن وفي مهجر الحضارمة وفي أرخبيل
+      جنوب شرق آسيا. وكتبه التاريخية: «بُغية المستفيد في
+      أخبار مدينة زَبيد»، و«قُرّة العيون في أخبار اليمن
+      الميمون»، و«الفضل المزيد على بُغية المستفيد» — هي
+      المصادر الرئيسة لتاريخ اليمن السياسي والعلمي مِن أواخر
+      الدولة الرسولية مروراً بالطاهرية إلى الفتح العثماني الأول.
+    description_fr: |
+      Wajīh al-Dīn ʿAbd al-Raḥmān ibn ʿAlī ibn Muḥammad al-
+      Shaybānī al-Zabīdī, dit *Ibn al-Daybāʿ* — muḥaddith
+      sunnite-shāfiʿīte, compositeur de mawlid et historien de
+      Zabīd dans la plaine côtière de la Tihāma au Yémen, alors
+      grand siège de l'érudition hadithique sunnite sous la fin
+      des Ṭāhirides et le début de la période ottomane — mourut
+      à Zabīd en 944 H (~1537 EC). Son *Mawlid* en prose et
+      vers (*Mawlid al-Daybāʿ*) devint, aux côtés du *Mawlid*
+      d'al-Barzanjī, le texte de mawlid sunnite le plus récité
+      au Yémen, dans la diaspora ḥaḍramī et en Asie du Sud-Est.
+      Ses ouvrages historiques — *Bughyat al-Mustafīd fī Akhbār
+      Madīnat Zabīd*, *Qurrat al-ʿUyūn fī Akhbār al-Yaman
+      al-Maymūn* et *al-Faḍl al-Mazīd ʿalā Bughyat al-Mustafīd*
+      — sont les principales sources narratives pour l'histoire
+      politique et savante du Yémen depuis la fin des Rasūlides,
+      en passant par les Ṭāhirides, jusqu'à la première conquête
+      ottomane.
+    canonical_hijri: {year: 944, precision: year}
+    canonical_gregorian: {date: 1537-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Death year 944 AH at Zabīd recorded in Shadharāt al-Dhahab."
+      - source_key: ei2
+        notes: "Bughyat al-Mustafīd and Mawlid al-Daybāʿ standard references in Yemen and the Hadhrami world."
+    people: [[ibn-al-daybaa, died]]
+    tags: [yemen, zabid, tihama, shafii, muhaddith, mawlid, historian]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Dayba%27"
+
+  # =========================================================================
+  # AḤMAD IBN ʿĪD AL-ḤABASHĪ — Hadhrami sayyid
+  # =========================================================================
+
+  - slug: death-of-ahmad-ibn-id-al-habashi
+    category: scholar_death
+    title_en: Death of Aḥmad ibn ʿĪd al-Ḥabashī — Bā ʿAlawī Sayyid of Tarīm
+    title_ar: وفاة أحمد بن عيد الحبشي — السيد العَلَوي بتَريم
+    title_fr: Mort de Aḥmad ibn ʿĪd al-Ḥabashī — sayyid Bā ʿAlawī de Tarīm
+    description_en: |
+      Aḥmad ibn ʿĪd ibn ʿAbd al-Raḥmān Bā ʿAlawī al-Ḥabashī —
+      Sunni-Shāfiʿī faqīh, sayyid of Tarīm in Hadhramaut and
+      shaykh of the Bā ʿAlawī ṭarīqa, of the al-Ḥabashī branch
+      that descends from the Saqqāf line — was a tenth/eleventh-
+      century Hijri Hadhrami master in the chain of teachers
+      that produced the modern Bā ʿAlawī revival under ʿAbd
+      Allāh al-Ḥaddād. The al-Ḥabashī sayyid family remained
+      one of the principal scholarly houses of Hadhramaut and
+      its Indian Ocean diaspora through the Ottoman and post-
+      Ottoman periods, and the chain through this branch carried
+      the Bā ʿAlawī Sufi-Shāfiʿī formation forward into the
+      modern era. Classical biographical attestation outside
+      the Bā ʿAlawī genealogical literature is thin; we record
+      the entry honestly as `single_source`. Note: he is not to
+      be confused with the modern Ḥaḍramī master ʿAbd Allāh
+      ibn ʿAlawī al-Ḥaddād (d. 1132 AH), who is treated as a
+      separate entry in this same file, nor with the more
+      recent ʿAlī al-Ḥabashī (d. 1333 AH) of the modern
+      al-Ḥabashī branch.
+    description_ar: |
+      كان أحمد بن عيد بن عبد الرحمن باعلوي الحبشي — فقيهاً
+      شافعياً سنياً، سيداً من سادة تَريم بحضرموت وشيخاً من
+      مشايخ الطريقة العَلَوية، من الفرع الحبشي المنحدر من
+      سلسلة السقّاف — من شيوخ القرنين العاشر والحادي عشر
+      الهجريين الحَضارمة، وهو في سلسلة المربّين الذين أَخْرَجوا
+      نهضة بني علوي الحديثة على يد عبد الله الحدّاد. وظلّت
+      أسرة الحبشي السيدية من البيوتات العلمية الكبرى بحضرموت
+      وفي مهجرها الهندي طول العصر العثماني وما بعده، ومرّت
+      بفرعها هذه التربيةُ العَلَويةُ الشافعيةُ الصوفيةُ إلى
+      العصر الحديث. وأمّا التراجم خارج كتب أنساب وسلاسل بني
+      علوي فقليلة في هذه الترجمة، ولذلك سجّلنا الحال بصدق
+      `single_source`. تنبيه: لا يُخلَط بينه وبين الإمام
+      الحدّاد ﴿عبد الله بن علوي الحدّاد ت ١١٣٢ هـ﴾ المذكور في
+      هذا الملف نفسه على حدةٍ، ولا بالشيخ علي الحبشي ﴿ت ١٣٣٣
+      هـ﴾ من فرع الحبشي المُتأخّر.
+    description_fr: |
+      Aḥmad ibn ʿĪd ibn ʿAbd al-Raḥmān Bā ʿAlawī al-Ḥabashī —
+      faqīh sunnite-shāfiʿīte, sayyid de Tarīm au Hadhramaout
+      et cheikh de la voie Bā ʿAlawī, de la branche al-Ḥabashī
+      qui descend de la lignée Saqqāf — fut un maître ḥaḍramī
+      des dixième et onzième siècles hégiriens, dans la chaîne
+      des maîtres qui produisit le renouveau Bā ʿAlawī moderne
+      sous ʿAbd Allāh al-Ḥaddād. La famille sayyide
+      al-Ḥabashī demeura l'une des principales maisons
+      savantes du Hadhramaout et de sa diaspora dans l'océan
+      Indien, durant la période ottomane et au-delà, et la
+      chaîne qui passe par cette branche transmit la formation
+      Bā ʿAlawī shāfiʿīte-soufie jusqu'à l'époque moderne.
+      L'attestation biographique classique en dehors de la
+      littérature généalogique Bā ʿAlawī est mince ; nous
+      enregistrons honnêtement cette entrée comme
+      `single_source`. À noter : il ne doit pas être confondu
+      avec ʿAbd Allāh ibn ʿAlawī al-Ḥaddād (m. 1132 H), traité
+      à part dans ce même fichier, ni avec le plus récent
+      ʿAlī al-Ḥabashī (m. 1333 H) de la branche moderne.
+    canonical_hijri: {year: 1044, precision: year}
+    canonical_gregorian: {date: 1635-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Hadhrami Bā ʿAlawī sayyid of the al-Ḥabashī branch, ~1044 AH per the Bā ʿAlawī genealogical tradition."
+    people: [[ahmad-ibn-id-al-habashi, died]]
+    tags: [yemen, hadhramaut, tarim, sayyid, shafii, sufi, ba-alawi, habashi]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  # =========================================================================
+  # ʿABD ALLĀH AL-ḤADDĀD — major Ḥaḍramī master, Sunni Shāfiʿī Sufi
+  # =========================================================================
+
+  - slug: death-of-abd-allah-al-haddad
+    category: scholar_death
+    title_en: Death of ʿAbd Allāh ibn ʿAlawī al-Ḥaddād — Imām of the Bā ʿAlawīs
+    title_ar: وفاة الإمام عبد الله بن علوي الحدّاد — إمام بني علوي
+    title_fr: Mort de ʿAbd Allāh ibn ʿAlawī al-Ḥaddād — Imām des Bā ʿAlawīs
+    description_en: |
+      ʿAbd Allāh ibn ʿAlawī ibn Muḥammad al-Ḥaddād — Sunni
+      Shāfiʿī faqīh, Bā ʿAlawī sayyid, and Sufi master of Tarīm
+      in Hadhramaut, blind from the age of four, the foremost
+      Ḥaḍramī Sunni Sufi voice of the early modern period and
+      the figure whose works became, and have remained, the
+      standard formation texts of the Bā ʿAlawī tradition across
+      Yemen, the Hijaz, the Hadhrami diaspora of the Indian
+      Ocean rim, and South-East Asia — died at al-Ḥāwī near
+      Tarīm in 1132 AH (~1720 CE). His *Risālat al-Muʿāwana wa
+      al-Muẓāhara wa al-Muʾāzara li al-Rāghibīn min al-Muʾminīn
+      fī Sulūk Ṭarīq al-Ākhira* (a sustained Sunni-Sufi ethical
+      manual in the Ghazālian line), his *al-Naṣāʾiḥ al-Dīniyya
+      wa al-Waṣāyā al-Īmāniyya* (a sermon-by-sermon spiritual
+      directory), and his daily *Wird al-Imām al-Ḥaddād* (a set
+      Qurʾānic-and-prophetic litany still recited every dawn
+      and dusk in Hadhramaut and across the Hadhrami diaspora)
+      together constitute the most-circulated body of practical
+      Sunni-Shāfiʿī Sufi formation produced in the early modern
+      Arab world. He was buried in the Zanbal cemetery of
+      Tarīm, alongside the long Bā ʿAlawī line that runs from
+      al-Muhājir, through Faqīh al-Muqaddam, al-Saqqāf, and
+      al-Muḥdar to him.
+    description_ar: |
+      توفي الإمام عبد الله بن علوي بن محمد الحدّاد — فقيه
+      شافعي سني، وسيد علوي، وشيخ تصوف بتَريم بحضرموت، ضرير
+      منذ السنة الرابعة، وأكبر ألسنة التصوف السني الحضرمي في
+      مطلع العصر الحديث، والذي صارت كتبه ولا تزال نصوصَ
+      التربية المعتمدة في الطريقة العلوية باليمن والحجاز
+      ومهجر الحضارمة في حواشي المحيط الهندي وأرخبيل جنوب
+      شرق آسيا — بمنطقة الحاوي قُرب تَريم سنة ١١٣٢ هـ (~١٧٢٠
+      م). و«رسالة المعاونة والمظاهرة والمؤازرة للراغبين من
+      المؤمنين في سلوك طريق الآخرة» (دليلٌ تربوي صوفي سني
+      مستدام على نَهج الإمام الغزالي)، و«النصائح الدينية
+      والوصايا الإيمانية» (موعظة بعد موعظة في تربية السلوك)،
+      و«ورد الإمام الحدّاد» اليومي (مجموع من القرآن والأذكار
+      النبوية ما زال يُتلى كلّ بكرة وعشيّة بحضرموت وفي مهجر
+      الحضارمة) — هذه الثلاثة معاً تُكوّن أكثر مدوّنة في
+      التربية السنية الشافعية الصوفية انتشاراً وأخرجها العالم
+      العربي في مطلع العصر الحديث. ودُفن في مقبرة زنبل بتَريم
+      بجوار سلسلة بني علوي الطويلة التي تمتدّ من المهاجر،
+      مروراً بالفقيه المقدّم والسقّاف والمحضار، إليه.
+    description_fr: |
+      ʿAbd Allāh ibn ʿAlawī ibn Muḥammad al-Ḥaddād — faqīh
+      sunnite-shāfiʿīte, sayyid Bā ʿAlawī et maître soufi de
+      Tarīm au Hadhramaout, aveugle dès l'âge de quatre ans,
+      la voix soufie sunnite ḥaḍramī majeure du début de
+      l'époque moderne, et la figure dont les œuvres devinrent
+      — et demeurent — les textes de formation standards de la
+      tradition Bā ʿAlawī au Yémen, au Hijāz, dans la diaspora
+      ḥaḍramī de l'océan Indien et en Asie du Sud-Est — mourut
+      à al-Ḥāwī, près de Tarīm, en 1132 H (~1720 EC). Sa
+      *Risālat al-Muʿāwana wa al-Muẓāhara wa al-Muʾāzara
+      li al-Rāghibīn min al-Muʾminīn fī Sulūk Ṭarīq al-Ākhira*
+      (manuel éthique soufi-sunnite soutenu, dans la ligne
+      ghazālienne), ses *al-Naṣāʾiḥ al-Dīniyya wa al-Waṣāyā
+      al-Īmāniyya* (suite d'exhortations spirituelles), et son
+      *Wird al-Imām al-Ḥaddād* quotidien (litanie coranique et
+      prophétique toujours récitée chaque aube et chaque
+      crépuscule au Hadhramaout et dans la diaspora ḥaḍramī)
+      forment ensemble le corpus le plus diffusé de formation
+      pratique soufie sunnite-shāfiʿīte produit par le monde
+      arabe du début de l'époque moderne. Il fut enseveli au
+      cimetière Zanbal de Tarīm, aux côtés de la longue lignée
+      Bā ʿAlawī qui va de al-Muhājir, en passant par le Faqīh
+      al-Muqaddam, al-Saqqāf et al-Muḥdar, jusqu'à lui.
+    canonical_hijri: {year: 1132, precision: year}
+    canonical_gregorian: {date: 1720-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 1132 AH at al-Ḥāwī near Tarīm; major Ḥaḍramī Sunni Sufi master."
+      - source_key: editorial
+        notes: "Risālat al-Muʿāwana, al-Naṣāʾiḥ al-Dīniyya, and Wird al-Imām al-Ḥaddād remain core Bā ʿAlawī formation texts."
+    people: [[abd-allah-al-haddad, died]]
+    tags: [yemen, hadhramaut, tarim, sayyid, shafii, sufi, ba-alawi, haddad, modern, wird, mawlid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdallah_ibn_Alawi_al-Haddad"
+
+  # =========================================================================
+  # SULAYMĀN AL-AHDAL — Zabīd muḥaddith
+  # =========================================================================
+
+  - slug: death-of-sulayman-al-ahdal
+    category: scholar_death
+    title_en: Death of Sulaymān al-Ahdal — Zabīd Muḥaddith
+    title_ar: وفاة سليمان الأهدل — محدّث زَبيد
+    title_fr: Mort de Sulaymān al-Ahdal — muḥaddith de Zabīd
+    description_en: |
+      Sulaymān ibn Yaḥyā ibn ʿUmar al-Ahdal — Sunni Shāfiʿī
+      muḥaddith of Zabīd in the Tihāma plain of Yemen, of the
+      Ahdal sayyid family that constituted, alongside the
+      al-Mizjājī line, the principal hadith-transmitting house
+      of Tihāma in the eleventh and twelfth centuries Hijri —
+      died at Zabīd in 1197 AH (~1782 CE). The Ahdal hadith
+      circle of Zabīd was in this period the principal node by
+      which the Yemen-Indian-Hijazi-Maghrebi *isnād* of Sunni
+      hadith transmission passed: students of Sulaymān al-Ahdal
+      and his contemporaries Murtaḍa al-Zabīdī (d. 1205 AH,
+      author of *Tāj al-ʿArūs* and *Itḥāf al-Sāda al-Muttaqīn*),
+      Muḥammad Ḥayāt al-Sindī, and the Madanī muḥaddithūn of
+      the period passed the Yemeni-Madanī chains forward to
+      Shāh Walī Allāh in India and to the West African revivers,
+      making Zabīd in this era one of the most important
+      Sunni hadith centres of the Indian Ocean rim.
+    description_ar: |
+      توفي سليمان بن يحيى بن عمر الأهدل — محدّث شافعي سني
+      بزَبيد بتِهامة اليمن، من بيت الأهدل السيادي الذي صار
+      مع آل المزجاجي البيتَ الرئيس لرواية الحديث بتِهامة في
+      القرنين الحادي عشر والثاني عشر الهجريين — بزَبيد سنة
+      ١١٩٧ هـ (~١٧٨٢ م). وكانت حلقة الأهدل بزَبيد في هذا
+      العصر العقدةَ الرئيسة التي عبرها مرّت الأسانيدُ
+      اليمنية-الهندية-الحجازية-المغربية للحديث السني: تلاميذ
+      سليمان الأهدل ومُعاصِريه — مرتضى الزبيدي (ت ١٢٠٥ هـ
+      صاحب «تاج العروس» و«إتحاف السادة المتقين»)، ومحمد
+      حياة السندي، ومحدّثو المدينة في زمانهم — حملوا
+      الأسانيد اليمنية-المدنية إلى شاه ولي الله الدهلوي
+      بالهند وإلى مُحيي حركات إفريقيا الغربية، فصارت زَبيد
+      في هذا العصر من أهمّ مَنازل الحديث السنية في حواشي
+      المحيط الهندي.
+    description_fr: |
+      Sulaymān ibn Yaḥyā ibn ʿUmar al-Ahdal — muḥaddith
+      sunnite-shāfiʿīte de Zabīd dans la plaine de la Tihāma
+      au Yémen, de la famille sayyide al-Ahdal qui constituait,
+      aux côtés de la lignée al-Mizjājī, la principale maison
+      de transmission hadithique de la Tihāma aux onzième et
+      douzième siècles hégiriens — mourut à Zabīd en 1197 H
+      (~1782 EC). Le cercle hadithique des Ahdal à Zabīd fut,
+      à cette époque, le principal nœud par lequel passa
+      l'*isnād* yéméno-indo-ḥijāzī-maghrébin de la transmission
+      hadithique sunnite : les élèves de Sulaymān al-Ahdal et
+      de ses contemporains — Murtaḍa al-Zabīdī (m. 1205 H,
+      auteur du *Tāj al-ʿArūs* et de l'*Itḥāf al-Sāda
+      al-Muttaqīn*), Muḥammad Ḥayāt al-Sindī, et les muḥaddithūn
+      de Médine de cette génération — transmirent les chaînes
+      yéméno-médinoises à Shāh Walī Allāh en Inde et aux
+      revivificateurs d'Afrique de l'Ouest, faisant de Zabīd,
+      à cette époque, l'un des centres hadithiques sunnites
+      les plus importants de la lisière de l'océan Indien.
+    canonical_hijri: {year: 1197, precision: year}
+    canonical_gregorian: {date: 1782-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 1197 AH at Zabīd; principal Yemeni hadith node of the late 12th century AH."
+    people: [[sulayman-al-ahdal, died]]
+    tags: [yemen, zabid, tihama, shafii, muhaddith, ahdal, isnad, modern]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  # =========================================================================
+  # ʿABD AL-RAḤMĀN AL-AHDAL
+  # =========================================================================
+
+  - slug: death-of-abd-al-rahman-al-ahdal
+    category: scholar_death
+    title_en: Death of ʿAbd al-Raḥmān al-Ahdal — Mufti of Zabīd
+    title_ar: وفاة عبد الرحمن الأهدل — مفتي زَبيد
+    title_fr: Mort de ʿAbd al-Raḥmān al-Ahdal — muftī de Zabīd
+    description_en: |
+      ʿAbd al-Raḥmān ibn Sulaymān al-Ahdal — Sunni Shāfiʿī
+      faqīh, muḥaddith and mufti of Zabīd in the Tihāma plain
+      of Yemen, of the Ahdal sayyid family — was the principal
+      bearer of the Zabīd hadith chains in the first half of
+      the thirteenth century AH and the leading representative
+      of the Sunni-Shāfiʿī tradition of Lower Yemen during the
+      period of the early Yemeni response to the Wahhābī
+      movement of central Arabia. He died at Zabīd in 1250 AH
+      (~1834 CE), the same Hijri year as the major Ṣanʿānī
+      reformer Muḥammad ibn ʿAlī al-Shawkānī (d. 1250 AH —
+      already covered separately in this dataset). His
+      *al-Nafas al-Yamānī wa al-Rūḥ al-Rayḥānī fī Ijāzāt
+      al-Quḍāt Banī al-Shawkānī* and his teaching circle at
+      Zabīd preserved for the early-Ottoman-revival period the
+      Sunni-Shāfiʿī Ashʿarī formation of the Lower Yemen, in
+      contrast to the Zaydī highlands and against the Wahhābī
+      reform pressure, and constituted the principal *isnād*
+      route by which late Yemeni hadith chains passed into
+      colonial-period India and Indonesia.
+    description_ar: |
+      توفي عبد الرحمن بن سليمان الأهدل — فقيه شافعي سني،
+      ومحدّث، ومفتي زَبيد بتِهامة اليمن، من بيت الأهدل
+      السيادي — وهو حامل أسانيد زَبيد الرئيس في النصف الأول
+      من القرن الثالث عشر الهجري، والممثّل الأكبر لتراث
+      اليمن الأسفل السني الشافعي في عصر التجاوب اليمني الباكر
+      مع الدعوة الوهابية في وسط الجزيرة. وتوفي بزَبيد سنة
+      ١٢٥٠ هـ (~١٨٣٤ م)، وهي السنة نفسها التي توفي فيها
+      المُجدِّدُ الصنعاني الكبير محمد بن علي الشوكاني (ت
+      ١٢٥٠ هـ — وقد أُفرِد في موضع آخر من هذه القاعدة).
+      وكتابه «النفس اليماني والروح الريحاني في إجازات قضاة
+      بني الشوكاني» وحلقته بزَبيد حفظا في عصر إحياء أوائل
+      العصر العثماني المتأخر التربيةَ السنيةَ الشافعيةَ
+      الأشعريةَ في اليمن الأسفل في وجه الجبال الزيدية، وفي
+      ظلّ ضغط الإصلاح الوهابي من جهة، فكانا الطريقَ الإسناديَّ
+      الرئيسَ الذي عبره مرّت أسانيدُ اليمن المتأخرة إلى الهند
+      وإلى أرخبيل جنوب شرق آسيا في العصر الاستعماري.
+    description_fr: |
+      ʿAbd al-Raḥmān ibn Sulaymān al-Ahdal — faqīh
+      sunnite-shāfiʿīte, muḥaddith et muftī de Zabīd dans la
+      plaine de la Tihāma au Yémen, de la famille sayyide
+      al-Ahdal — fut le principal porteur des chaînes
+      hadithiques de Zabīd dans la première moitié du XIIIᵉ
+      siècle hégirien, et le grand représentant de la
+      tradition sunnite-shāfiʿīte du Bas-Yémen à l'époque de
+      la première réaction yéménite au mouvement wahhābī de
+      l'Arabie centrale. Il mourut à Zabīd en 1250 H (~1834
+      EC), la même année hégirienne que le grand réformateur
+      ṣanʿānī Muḥammad ibn ʿAlī al-Shawkānī (m. 1250 H — déjà
+      traité ailleurs dans cette base). Son *al-Nafas al-Yamānī
+      wa al-Rūḥ al-Rayḥānī fī Ijāzāt al-Quḍāt Banī al-Shawkānī*
+      et son cercle d'enseignement à Zabīd préservèrent, à
+      l'époque du renouveau ottoman tardif, la formation
+      sunnite-shāfiʿīte ashʿarite du Bas-Yémen face aux hauts
+      plateaux zaydites et sous la pression réformiste wahhābī,
+      et constituèrent la principale voie *isnād* par laquelle
+      les chaînes hadithiques tardives du Yémen passèrent en
+      Inde coloniale et en Indonésie.
+    canonical_hijri: {year: 1250, precision: year}
+    canonical_gregorian: {date: 1834-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 1250 AH at Zabīd; foremost Sunni-Shāfiʿī faqīh of Lower Yemen of his generation."
+    people: [[abd-al-rahman-al-ahdal, died]]
+    tags: [yemen, zabid, tihama, shafii, muhaddith, ahdal, mufti, modern]
+    importance: notable
+    verified: true
+    verification_status: single_source

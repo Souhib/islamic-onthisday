@@ -1,0 +1,826 @@
+# Wave 29 of curated event additions (2026-04-27).
+# Early classical Sunni zuhd / taṣawwuf shaykhs of the 1st-4th centuries
+# AH — the foundational ascetics and Sufi masters embedded in mainstream
+# Sunni hadith and fiqh circles whose lives and sayings shaped the genre
+# of Sufi adab from al-Sulamī's *Ṭabaqāt al-Ṣūfiyya* and Abū Nuʿaym's
+# *Ḥilyat al-Awliyāʾ* through al-Qushayrī's *al-Risāla* and al-Hujwīrī's
+# *Kashf al-Maḥjūb*.
+#
+# Already covered elsewhere and intentionally not duplicated here:
+# Ḥasan al-Baṣrī (file 03 + 34), Rābiʿa al-ʿAdawiyya (file 34),
+# Maʿrūf al-Karkhī (file 34), Ḥabīb al-ʿAjamī (file 34),
+# al-Sirrī al-Saqaṭī (file 17), al-Junayd al-Baghdādī (file 17),
+# Sahl al-Tustarī (file 34), Abū Madyan al-Ghawth (file 21).
+#
+# All figures here are firmly within the mainstream Sunni hadith /
+# fiqh / zuhd tradition: Mālik ibn Dīnār was a pupil of al-Ḥasan
+# al-Baṣrī and a recognised muḥaddith; Ibrāhīm ibn Adham was a
+# transmitter of hadith cited by Sufyān al-Thawrī and Imām Aḥmad;
+# al-Fuḍayl ibn ʿIyāḍ taught Hārūn al-Rashīd and was praised by
+# al-Shāfiʿī; Dāwūd al-Ṭāʾī was a senior pupil of Abū Ḥanīfa;
+# Bishr al-Ḥāfī was an associate of Imām Aḥmad ibn Ḥanbal;
+# al-Muḥāsibī was a Sunni-mutakallim contemporary of Aḥmad ibn
+# Ḥanbal; Dhū al-Nūn al-Miṣrī was a Mālikī muḥaddith of Egypt;
+# Bāyazīd al-Bisṭāmī's path was anchored by Ḥanafī fiqh under his
+# teacher Abū ʿAlī al-Sindī; Abū Saʿīd al-Khaffāf was a senior
+# pupil of al-Junayd. None of the figures included here are
+# excluded from mainstream Sunni reception.
+#
+# Death dates of these early ascetics are usually only year-precise;
+# a few (Bāyazīd al-Bisṭāmī, Dāwūd al-Ṭāʾī, Mālik ibn Dīnār,
+# ʿAbd al-Wāḥid ibn Zayd) are contested across two or more years
+# in the classical biographical sources. Disputes are flagged with
+# `disputed: true` + `dispute_about: date` and explained in the
+# description body. Trilingual en/ar/fr throughout. No hadith refs
+# are included — these are biographical death entries, not hadith
+# narratives.
+#
+# Coverage in the classical Sunni biographical canon: al-Dhahabī
+# (*Siyar Aʿlām al-Nubalāʾ* and *Tārīkh al-Islām*), Ibn Khallikān
+# (*Wafayāt al-Aʿyān*), Ibn Kathīr (*al-Bidāya wa al-Nihāya*),
+# Ibn ʿImād (*Shadharāt al-Dhahab*) cover most figures; we cite
+# whichever of these treat each shaykh, and supplement with EI2
+# / editorial where needed.
+
+events:
+  # =========================================================================
+  # 2nd CENTURY AH — first generation of zuhd: Mālik ibn Dīnār,
+  # Ibrāhīm ibn Adham, Dāwūd al-Ṭāʾī, ʿAbd al-Wāḥid ibn Zayd,
+  # al-Fuḍayl ibn ʿIyāḍ
+  # =========================================================================
+
+  - slug: death-of-malik-ibn-dinar
+    category: scholar_death
+    title_en: Death of Mālik ibn Dīnār — Basran zāhid and pupil of al-Ḥasan al-Baṣrī
+    title_ar: وفاة مالك بن دينار — زاهد البصرة وتلميذ الحسن البصري
+    title_fr: Mort de Mālik ibn Dīnār — ascète basrien, disciple d'al-Ḥasan al-Baṣrī
+    description_en: |
+      Abū Yaḥyā Mālik ibn Dīnār al-Baṣrī — Basran zāhid and a
+      direct pupil of al-Ḥasan al-Baṣrī, recognised as a reliable
+      transmitter of hadith and treated by the classical Sunni
+      tradition as one of the founding figures of the Basran
+      school of zuhd that produced Rābiʿa al-ʿAdawiyya, ʿAbd
+      al-Wāḥid ibn Zayd and (via al-Ḥasan) Ḥabīb al-ʿAjamī — died
+      in Basra. Sources differ on the exact year: most place his
+      death in 131 AH (the year reported by al-Dhahabī in *Siyar
+      Aʿlām al-Nubalāʾ* and adopted by Ibn Kathīr in *al-Bidāya
+      wa al-Nihāya*), with some reports giving 127 AH or 130 AH;
+      we follow the majority 131 AH date. He earned his living as
+      a copyist of Qurʾan codices, refused all gifts and stipends,
+      and his sayings on the dangers of the dunyā and the
+      sweetness of obedience preserved by Abū Nuʿaym in *Ḥilyat
+      al-Awliyāʾ* became a staple of subsequent Sufi adab.
+    description_ar: |
+      توفي أبو يحيى مالك بن دينار البصري — زاهد البصرة وتلميذ
+      الحسن البصري المباشر، وهو من رجال الحديث الثقات عند أهل
+      السنة، ومن المؤسسين لمدرسة الزهد البصرية التي أنجبت رابعة
+      العدوية وعبد الواحد بن زيد و(عن طريق الحسن) حبيب العجمي —
+      بالبصرة. واختلفت المصادر في سنة وفاته: فأكثرها على أنه توفي
+      سنة ١٣١ هـ (هي السنة التي أثبتها الذهبي في «سير أعلام النبلاء»
+      وتابعه عليها ابن كثير في «البداية والنهاية»)، وذكر بعضهم
+      ١٢٧ هـ أو ١٣٠ هـ، ونحن نتابع السنة الأكثر عند المصادر وهي
+      ١٣١ هـ. وكان يكتسب من نسخ المصاحف فلا يقبل عطاءً ولا جائزة،
+      ومحفوظات أقواله في خطر الدنيا وحلاوة الطاعة التي نقلها أبو
+      نعيم في «حلية الأولياء» صارت أصلاً في أدب التصوف بعدُ.
+    description_fr: |
+      Abū Yaḥyā Mālik ibn Dīnār al-Baṣrī — *zāhid* basrien et
+      disciple direct d'al-Ḥasan al-Baṣrī, reconnu comme
+      transmetteur fiable de hadiths et tenu par la tradition
+      sunnite classique pour l'une des figures fondatrices de
+      l'école basrienne du *zuhd* qui produisit Rābiʿa
+      al-ʿAdawiyya, ʿAbd al-Wāḥid ibn Zayd et (par l'intermédiaire
+      d'al-Ḥasan) Ḥabīb al-ʿAjamī — mourut à Basra. Les sources
+      divergent sur l'année exacte : la majorité situe sa mort en
+      131 H (date donnée par al-Dhahabī dans les *Siyar Aʿlām
+      al-Nubalāʾ* et reprise par Ibn Kathīr dans *al-Bidāya wa
+      al-Nihāya*), certaines indiquant 127 ou 130 H ; nous
+      retenons la date majoritaire de 131 H. Il vivait en
+      copiant des exemplaires du Coran, refusait tout don et
+      toute pension, et ses paroles sur les dangers de la *dunyā*
+      et la douceur de l'obéissance, préservées par Abū Nuʿaym
+      dans la *Ḥilyat al-Awliyāʾ*, devinrent un pilier de
+      l'*adab* soufi ultérieur.
+    canonical_hijri: {year: 131, precision: year}
+    canonical_gregorian: {date: 748-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "131 AH at Basra — al-Dhahabī's preferred date in Siyar; majority position."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr places death in 131 AH following al-Dhahabī."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām corroborates 131 AH while noting 127 / 130 alternatives."
+    people: [[malik-ibn-dinar, died]]
+    tags: [umayyad, sufi, zuhd, basra, tabiun, muhaddith]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Malik_ibn_Dinar"
+
+  - slug: death-of-ibrahim-ibn-adham
+    category: scholar_death
+    title_en: Death of Ibrāhīm ibn Adham — the prince-turned-ascetic of Balkh
+    title_ar: وفاة إبراهيم بن أدهم — أمير بلخ الذي تحول إلى الزهد
+    title_fr: Mort d'Ibrāhīm ibn Adham — le prince-ascète de Balkh
+    description_en: |
+      Abū Isḥāq Ibrāhīm ibn Adham ibn Manṣūr — Khurāsānī of noble
+      Balkhī lineage who renounced his princely station for a life
+      of itinerant zuhd in the Levant, and in classical Sunni
+      memory the archetype of the *zāhid* who lives by the labour
+      of his own hands — died at the frontier of Byzantine
+      territory while on a *ghazwa* (according to most sources, in
+      161 AH, the date adopted by al-Dhahabī in *Siyar Aʿlām
+      al-Nubalāʾ* and Ibn Khallikān in *Wafayāt al-Aʿyān*; some
+      reports give 162 AH). He was a recognised hadith
+      transmitter — Sufyān al-Thawrī, Shuʿba ibn al-Ḥajjāj, and
+      al-Awzāʿī sat with him — and Imām Aḥmad's circle preserved
+      his sayings on tawakkul, the licit livelihood, and the
+      sweetness of nightly prayer. Abū Nuʿaym's *Ḥilyat
+      al-Awliyāʾ* devotes one of its longest entries to him; later
+      Sufi tradition (al-Qushayrī, al-Hujwīrī, ʿAṭṭār's
+      *Tadhkirat al-Awliyāʾ*) made his conversion narrative — the
+      voice from the unseen interrupting his hunting expedition —
+      one of the foundational hagiographic motifs of Khurāsānī
+      Sufism.
+    description_ar: |
+      توفي أبو إسحاق إبراهيم بن أدهم بن منصور — خراساني المنبت من
+      أكابر بلخ، ترك الإمارة وعاش زاهداً متجولاً في بلاد الشام،
+      وهو في ذاكرة أهل السنة الكلاسيكية النموذج الأمثل للزاهد الذي
+      يعيش من كَدّ يده — على ثغر الروم وهو في غزوة، سنة ١٦١ هـ
+      عند جمهور أهل الأخبار وهي السنة التي أثبتها الذهبي في «سير
+      أعلام النبلاء» وابن خلكان في «وفيات الأعيان»، وذكر بعضهم
+      ١٦٢ هـ. وهو من رجال الحديث الذين روى عنهم سفيان الثوري
+      وشعبة بن الحجاج والأوزاعي، وحفظ أصحاب أحمد بن حنبل أقواله
+      في التوكل والكسب الحلال وحلاوة قيام الليل. وأفرد له أبو
+      نعيم في «حلية الأولياء» من أطول تراجمه؛ ثم جعلت تقاليد
+      التصوف اللاحقة (القشيري والهجويري و«تذكرة الأولياء» للعطار)
+      من قصة توبته — وذلك النداء الغيبي الذي قطع عليه رحلة الصيد
+      — رأس المواقف التأسيسية في تصوف خراسان.
+    description_fr: |
+      Abū Isḥāq Ibrāhīm ibn Adham ibn Manṣūr — Khurāsānien de
+      noble lignée balkhī qui renonça à sa condition princière
+      pour une vie de *zuhd* itinérant au Levant, et qui dans la
+      mémoire sunnite classique incarne l'archétype du *zāhid*
+      vivant du labeur de ses propres mains — mourut à la
+      frontière byzantine au cours d'une *ghazwa*, en 161 H selon
+      la majorité des sources (date retenue par al-Dhahabī dans
+      les *Siyar Aʿlām al-Nubalāʾ* et par Ibn Khallikān dans les
+      *Wafayāt al-Aʿyān*) ; certaines relations donnent 162 H. Il
+      était un transmetteur de hadiths reconnu — Sufyān al-Thawrī,
+      Shuʿba ibn al-Ḥajjāj et al-Awzāʿī assistèrent à ses séances
+      — et le cercle d'Imām Aḥmad préserva ses paroles sur le
+      *tawakkul*, le gain licite et la douceur de la prière
+      nocturne. La *Ḥilyat al-Awliyāʾ* d'Abū Nuʿaym lui consacre
+      l'une de ses plus longues notices ; la tradition soufie
+      ultérieure (al-Qushayrī, al-Hujwīrī, la *Tadhkirat
+      al-Awliyāʾ* de ʿAṭṭār) fit du récit de sa conversion — la
+      voix invisible interrompant sa partie de chasse — l'un des
+      motifs hagiographiques fondateurs du soufisme khurāsānien.
+    canonical_hijri: {year: 161, precision: year}
+    canonical_gregorian: {date: 778-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "161 AH on Byzantine frontier — al-Dhahabī's date in Siyar."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān gives 161 AH; some traditions 162 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 161 AH following al-Dhahabī."
+    people: [[ibrahim-ibn-adham, died]]
+    tags: [abbasid, sufi, zuhd, khurasan, balkh, sham, ghazwa, muhaddith]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Ibrahim_ibn_Adham"
+
+  - slug: death-of-dawud-al-tai
+    category: scholar_death
+    title_en: Death of Dāwūd al-Ṭāʾī — Kūfan jurist-turned-ascetic, pupil of Abū Ḥanīfa
+    title_ar: وفاة داود الطائي — فقيه كوفي تحول إلى الزهد، تلميذ أبي حنيفة
+    title_fr: Mort de Dāwūd al-Ṭāʾī — juriste kūfīen ascète, disciple d'Abū Ḥanīfa
+    description_en: |
+      Abū Sulaymān Dāwūd ibn Nuṣayr al-Ṭāʾī al-Kūfī — Kūfan
+      Sunni jurist who studied fiqh and uṣūl with Imām Abū Ḥanīfa
+      for twenty years before withdrawing into rigorous zuhd, and
+      a recognised hadith transmitter cited in the Six Books — died
+      in Kūfa. The classical biographers diverge between 165 AH and
+      160 AH; we follow al-Dhahabī's preferred date of 165 AH in
+      *Siyar Aʿlām al-Nubalāʾ*, which is also the year given by
+      Ibn Khallikān in *Wafayāt al-Aʿyān* and by Ibn ʿImād in
+      *Shadharāt al-Dhahab*. Abū Ḥanīfa is reported to have said
+      of him: "Dāwūd attained what we sought through fiqh, and
+      we did not." He inherited a modest patrimony from his mother,
+      lived on it for years until it was exhausted, and then sold
+      the timbers of his roof one by one to feed himself — a story
+      preserved by Abū Nuʿaym in *Ḥilyat al-Awliyāʾ* that became
+      one of the canonical anecdotes of the second-century AH
+      Iraqi zuhd tradition.
+    description_ar: |
+      توفي أبو سليمان داود بن نُصير الطائي الكوفي — فقيه كوفي
+      سني درس الفقه والأصول على الإمام أبي حنيفة عشرين سنة قبل
+      أن يعتزل في الزهد الشديد، وهو من رجال الحديث الذين روى
+      عنهم أصحاب الكتب الستة — بالكوفة. واختلف أصحاب التراجم بين
+      سنة ١٦٥ هـ وسنة ١٦٠ هـ؛ ونحن نتابع ما اختاره الذهبي في
+      «سير أعلام النبلاء» من سنة ١٦٥ هـ، وهي السنة التي أثبتها
+      ابن خلكان في «وفيات الأعيان» وابن العماد في «شذرات الذهب».
+      ويُنقَل عن أبي حنيفة قوله فيه: «وصل داود إلى ما طلبنا
+      بالفقه ولم نصل». وكان قد ورث عن أمه قوتاً يسيراً عاش به
+      سنين حتى نفد، ثم صار يبيع خشب سقف بيته خشبة خشبة لِيَقتات،
+      وهي قصة نقلها أبو نعيم في «حلية الأولياء» وصارت من
+      الحكايات التأسيسية في تراث الزهد العراقي في القرن الثاني
+      الهجري.
+    description_fr: |
+      Abū Sulaymān Dāwūd ibn Nuṣayr al-Ṭāʾī al-Kūfī — juriste
+      sunnite kūfīen qui étudia le *fiqh* et les *uṣūl* auprès de
+      l'Imām Abū Ḥanīfa pendant vingt ans avant de se retirer
+      dans un *zuhd* rigoureux, et transmetteur reconnu de
+      hadiths cité dans les Six Livres — mourut à Kūfa. Les
+      biographes classiques hésitent entre 165 H et 160 H ; nous
+      suivons la date privilégiée par al-Dhahabī dans les *Siyar
+      Aʿlām al-Nubalāʾ* — 165 H —, également retenue par Ibn
+      Khallikān dans les *Wafayāt al-Aʿyān* et par Ibn ʿImād dans
+      les *Shadharāt al-Dhahab*. On rapporte qu'Abū Ḥanīfa
+      disait de lui : « Dāwūd a atteint par sa voie ce que nous
+      avons cherché par le *fiqh* sans l'atteindre. » Il avait
+      hérité de sa mère un modeste patrimoine dont il vécut des
+      années durant jusqu'à son épuisement, puis se mit à
+      vendre une à une les poutres du toit de sa maison pour
+      subsister — récit préservé par Abū Nuʿaym dans la *Ḥilyat
+      al-Awliyāʾ* devenu l'une des anecdotes canoniques du
+      *zuhd* irakien du IIᵉ siècle de l'Hégire.
+    canonical_hijri: {year: 165, precision: year}
+    canonical_gregorian: {date: 781-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "165 AH at Kūfa — al-Dhahabī's preferred date; alt 160 AH attested."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān gives 165 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 165 AH."
+    people: [[dawud-al-tai, died]]
+    tags: [abbasid, sufi, zuhd, kufa, hanafi, fiqh, muhaddith]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Dawud_al-Tai"
+
+  - slug: death-of-abd-al-wahid-ibn-zayd
+    category: scholar_death
+    title_en: Death of ʿAbd al-Wāḥid ibn Zayd — Basran zāhid and founder of the ʿAbbādān ribāṭ
+    title_ar: وفاة عبد الواحد بن زيد — زاهد البصرة ومؤسس رباط عبادان
+    title_fr: Mort de ʿAbd al-Wāḥid ibn Zayd — ascète basrien, fondateur du *ribāṭ* de ʿAbbādān
+    description_en: |
+      ʿAbd al-Wāḥid ibn Zayd al-Baṣrī — Basran zāhid, transmitter
+      and pupil of al-Ḥasan al-Baṣrī, and the figure to whom
+      classical Sufi historiography attributes the founding of
+      the *ribāṭ* of ʿAbbādān at the mouth of the Tigris-Euphrates
+      delta — the earliest formally organised gathering-place of
+      Muslim ascetics — died in Basra. The sources give his death
+      year variously as 177 AH (the date in al-Dhahabī's *Siyar
+      Aʿlām al-Nubalāʾ* and *Tārīkh al-Islām*), 167 AH, or simply
+      "before 180". We follow the 177 AH date as the best-attested
+      majority position. His circle at ʿAbbādān, recorded by Abū
+      Nuʿaym in *Ḥilyat al-Awliyāʾ*, became the model for the
+      later *ribāṭ* / *khānqāh* tradition; many of the second-
+      century Basran ascetics — Mālik ibn Dīnār, Rabāḥ ibn ʿAmr
+      al-Qaysī, ʿUtba al-Ghulām — were associated with him.
+    description_ar: |
+      توفي عبد الواحد بن زيد البصري — زاهد البصرة، روى عن الحسن
+      البصري وأخذ عنه، وإليه تنسب كتب التراجم الصوفية الكلاسيكية
+      تأسيس «رباط عبادان» على مصبّ دجلة والفرات في أوائل تجمعات
+      الزهاد المنظمة في الإسلام — بالبصرة. واختلفت المصادر في سنة
+      وفاته: ذكر الذهبي في «سير أعلام النبلاء» وفي «تاريخ الإسلام»
+      أنه توفي سنة ١٧٧ هـ، وذكر بعضهم سنة ١٦٧ هـ، وقال آخرون:
+      «قبل الثمانين». ونحن نتابع سنة ١٧٧ هـ بوصفها الأرجح والأكثر
+      عند المصادر. وحلقتُه برباط عبادان التي قيدها أبو نعيم في
+      «حلية الأولياء» صارت النموذج الذي قام عليه نظام الرباط
+      والخانقاه بعدُ، وكثير من زهاد البصرة في القرن الثاني — مالك
+      بن دينار، ورباح بن عمرو القيسي، وعتبة الغلام — اتصلوا به.
+    description_fr: |
+      ʿAbd al-Wāḥid ibn Zayd al-Baṣrī — *zāhid* basrien,
+      transmetteur et disciple d'al-Ḥasan al-Baṣrī, et figure à
+      laquelle l'historiographie soufie classique attribue la
+      fondation du *ribāṭ* de ʿAbbādān à l'embouchure du delta
+      Tigre-Euphrate — premier lieu de rassemblement formellement
+      organisé d'ascètes musulmans — mourut à Basra. Les sources
+      donnent son année de mort tantôt en 177 H (date des *Siyar
+      Aʿlām al-Nubalāʾ* et du *Tārīkh al-Islām* d'al-Dhahabī),
+      tantôt en 167 H, tantôt simplement « avant 180 ». Nous
+      retenons 177 H comme position majoritaire la mieux
+      attestée. Son cercle à ʿAbbādān, consigné par Abū Nuʿaym
+      dans la *Ḥilyat al-Awliyāʾ*, devint le modèle de la
+      tradition ultérieure du *ribāṭ* / *khānqāh* ; nombre des
+      ascètes basriens du IIᵉ siècle — Mālik ibn Dīnār, Rabāḥ
+      ibn ʿAmr al-Qaysī, ʿUtba al-Ghulām — lui furent
+      associés.
+    canonical_hijri: {year: 177, precision: year}
+    canonical_gregorian: {date: 793-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "177 AH at Basra — al-Dhahabī's date in Siyar; alts 167 / 'before 180'."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām confirms 177 AH."
+    people: [[abd-al-wahid-ibn-zayd, died]]
+    tags: [abbasid, sufi, zuhd, basra, abbadan, ribat, tabiun-followers]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Wahid_ibn_Zayd"
+
+  - slug: death-of-fudayl-ibn-iyad
+    category: scholar_death
+    title_en: Death of al-Fuḍayl ibn ʿIyāḍ — ascetic teacher of Hārūn al-Rashīd
+    title_ar: وفاة الفضيل بن عياض — الزاهد الذي وعظ هارون الرشيد
+    title_fr: Mort d'al-Fuḍayl ibn ʿIyāḍ — l'ascète qui enseigna Hārūn al-Rashīd
+    description_en: |
+      Abū ʿAlī al-Fuḍayl ibn ʿIyāḍ ibn Masʿūd al-Tamīmī al-Yarbūʿī —
+      Khurāsānī of Tamīmī origin who settled in Mecca, recognised
+      Sunni hadith transmitter (cited by Sufyān al-Thawrī, Sufyān
+      ibn ʿUyayna, and Ibn al-Mubārak), and the most famous
+      ascetic teacher of his generation — died at Mecca in 187 AH
+      (the year reported by al-Dhahabī in *Siyar Aʿlām al-Nubalāʾ*,
+      Ibn Khallikān in *Wafayāt al-Aʿyān*, and Ibn Kathīr in
+      *al-Bidāya wa al-Nihāya*). Al-Shāfiʿī said of his hadith:
+      "If a man's narration could be enough on its own, al-Fuḍayl's
+      would suffice." His celebrated audience with the caliph
+      Hārūn al-Rashīd in Mecca — preserved at length in al-Ghazālī's
+      *Iḥyāʾ ʿUlūm al-Dīn* on the authority of the early
+      compilers — in which he reduced the caliph to tears with a
+      sermon on the dangers of power, became one of the
+      foundational *adab al-mulūk* texts of the Sunni tradition,
+      and one of the model pieces in subsequent Sufi advice-to-
+      rulers literature.
+    description_ar: |
+      توفي أبو علي الفضيل بن عياض بن مسعود التميمي اليربوعي —
+      خراساني الأصل من تميم، استوطن مكة المكرمة، وهو من رجال
+      الحديث المعتبرين عند أهل السنة (روى عنه سفيان الثوري وسفيان
+      بن عيينة وابن المبارك)، ومن أشهر زهاد جيله — بمكة المكرمة
+      سنة ١٨٧ هـ، وهي السنة التي أثبتها الذهبي في «سير أعلام
+      النبلاء» وابن خلكان في «وفيات الأعيان» وابن كثير في «البداية
+      والنهاية». قال فيه الشافعي: «لو قام في الناس بحديث، لكفى
+      حديث الفضيل». ومجلسُه المشهور مع الخليفة هارون الرشيد بمكة —
+      الذي حفظه الإمام الغزالي بطوله في «إحياء علوم الدين» نقلاً
+      عن أصحاب التراجم الأوائل — حين أبكاه بموعظته في خطر السلطان،
+      صار من النصوص التأسيسية في «أدب الملوك» في التراث السني،
+      ومن النماذج الأصلية في أدب نصائح الصوفية للحكام بعدُ.
+    description_fr: |
+      Abū ʿAlī al-Fuḍayl ibn ʿIyāḍ ibn Masʿūd al-Tamīmī
+      al-Yarbūʿī — Khurāsānien d'origine tamīmīde établi à La
+      Mecque, transmetteur sunnite reconnu de hadiths (cité par
+      Sufyān al-Thawrī, Sufyān ibn ʿUyayna et Ibn al-Mubārak), et
+      l'ascète enseignant le plus célèbre de sa génération —
+      mourut à La Mecque en 187 H, date donnée par al-Dhahabī
+      dans les *Siyar Aʿlām al-Nubalāʾ*, par Ibn Khallikān dans
+      les *Wafayāt al-Aʿyān* et par Ibn Kathīr dans *al-Bidāya
+      wa al-Nihāya*. Al-Shāfiʿī dit de sa transmission : « Si la
+      narration d'un homme pouvait suffire à elle seule, celle
+      d'al-Fuḍayl suffirait. » Sa célèbre audience avec le
+      calife Hārūn al-Rashīd à La Mecque — préservée tout au
+      long de l'*Iḥyāʾ ʿUlūm al-Dīn* d'al-Ghazālī d'après les
+      premiers compilateurs — au cours de laquelle il fit pleurer
+      le calife par un sermon sur les périls du pouvoir, devint
+      l'un des textes fondateurs du genre *adab al-mulūk* dans
+      la tradition sunnite et l'un des modèles de la
+      littérature soufie ultérieure de conseil aux gouvernants.
+    canonical_hijri: {year: 187, precision: year}
+    canonical_gregorian: {date: 803-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "187 AH at Mecca — well-attested across the canon."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān confirms 187 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 187 AH at Mecca."
+    people: [[fudayl-ibn-iyad, died], [harun-al-rashid, subject]]
+    tags: [abbasid, sufi, zuhd, mecca, khurasan, muhaddith, harun-al-rashid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Fudayl_ibn_Iyad"
+
+  # =========================================================================
+  # 3rd CENTURY AH — Baghdad and Egypt: Bishr al-Ḥāfī, al-Muḥāsibī,
+  # Dhū al-Nūn al-Miṣrī, Bāyazīd al-Bisṭāmī
+  # =========================================================================
+
+  - slug: death-of-bishr-al-hafi
+    category: scholar_death
+    title_en: Death of Bishr al-Ḥāfī — "the Barefoot," Baghdadi ascetic
+    title_ar: وفاة بِشر الحافي — زاهد بغداد
+    title_fr: Mort de Bishr al-Ḥāfī — « le Va-nu-pieds », ascète de Bagdad
+    description_en: |
+      Abū Naṣr Bishr ibn al-Ḥārith al-Marwazī al-Baghdādī, known
+      as *Bishr al-Ḥāfī* ("the Barefoot") — Khurāsānī-born
+      Baghdadi ascetic, recognised hadith transmitter, and a
+      personal associate of Imām Aḥmad ibn Ḥanbal — died in
+      Baghdad in 227 AH, the year on which al-Dhahabī (*Siyar
+      Aʿlām al-Nubalāʾ*), Ibn Khallikān (*Wafayāt al-Aʿyān*), Ibn
+      Kathīr (*al-Bidāya*) and Ibn ʿImād (*Shadharāt al-Dhahab*)
+      all converge. He had received hadith from Ḥammād ibn Zayd,
+      Mālik ibn Anas, and Ibn al-Mubārak, but in middle age he
+      gave up dictation entirely out of fear of riyāʾ. The
+      sobriquet *al-Ḥāfī* commemorates his refusal — after the
+      moment of his repentance — to wear shoes on the earth which
+      had been unjustly taxed by the ruling power. Imām Aḥmad
+      defended him publicly and is reported to have said that he
+      had "not seen his like in scrupulousness". His sayings on
+      sincerity, the hidden faults of the self, and the danger of
+      the *suḥba* of rulers became a staple of subsequent Sunni
+      ascetic literature; al-Sulamī's *Ṭabaqāt al-Ṣūfiyya* and
+      al-Qushayrī's *al-Risāla* preserve dozens.
+    description_ar: |
+      توفي أبو نصر بِشر بن الحارث المروزي البغدادي المعروف
+      بـ«بِشر الحافي» — خراساني المولد، سكن بغداد، وهو من رجال
+      الحديث المعتبرين عند أهل السنة، ومن أصحاب الإمام أحمد بن
+      حنبل المخالطين له — ببغداد سنة ٢٢٧ هـ، وعلى هذه السنة
+      اتفاق الذهبي في «سير أعلام النبلاء» وابن خلكان في «وفيات
+      الأعيان» وابن كثير في «البداية والنهاية» وابن العماد في
+      «شذرات الذهب». وكان قد روى الحديث عن حماد بن زيد ومالك بن
+      أنس وابن المبارك، ثم ترك الإملاء في وسط عمره خوف الرياء.
+      ولقبه «الحافي» لِما عُرف عنه — منذ ساعة توبته — من امتناعه
+      عن الانتعال على أرضٍ ظلَمَها أرباب السلطان في خَراجها.
+      ودافع عنه الإمام أحمد ملياً، وقال — كما يُنقَل —: «لم أر
+      في الورع مثله». ومحفوظات أقواله في الإخلاص وآفات النفس
+      الخفية وخطر صحبة السلطان من أصول كتب الزهد السنية بعدُ، وقد
+      روى السلمي في «طبقات الصوفية» والقشيري في «الرسالة» منها
+      الكثير.
+    description_fr: |
+      Abū Naṣr Bishr ibn al-Ḥārith al-Marwazī al-Baghdādī, dit
+      *Bishr al-Ḥāfī* (« le Va-nu-pieds ») — Khurāsānien né,
+      ascète établi à Bagdad, transmetteur reconnu de hadiths et
+      compagnon personnel de l'Imām Aḥmad ibn Ḥanbal — mourut à
+      Bagdad en 227 H, date sur laquelle convergent al-Dhahabī
+      (*Siyar Aʿlām al-Nubalāʾ*), Ibn Khallikān (*Wafayāt
+      al-Aʿyān*), Ibn Kathīr (*al-Bidāya*) et Ibn ʿImād
+      (*Shadharāt al-Dhahab*). Il avait reçu des hadiths de
+      Ḥammād ibn Zayd, Mālik ibn Anas et Ibn al-Mubārak mais
+      cessa toute dictée à la moitié de sa vie par crainte du
+      *riyāʾ*. Le surnom *al-Ḥāfī* commémore son refus — depuis
+      l'heure de sa repentance — de chausser des sandales sur
+      une terre dont les autorités avaient injustement taxé les
+      revenus. L'Imām Aḥmad le défendit publiquement et aurait
+      dit n'avoir « pas vu son pareil dans le *waraʿ* ». Ses
+      paroles sur la sincérité, les défauts cachés de l'âme et
+      le danger de la fréquentation des gouvernants devinrent un
+      pilier de la littérature ascétique sunnite ultérieure ;
+      les *Ṭabaqāt al-Ṣūfiyya* d'al-Sulamī et la *Risāla*
+      d'al-Qushayrī en préservent des dizaines.
+    canonical_hijri: {year: 227, precision: year}
+    canonical_gregorian: {date: 841-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "227 AH at Baghdad — universally agreed across the canon."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān confirms 227 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 227 AH at Baghdad."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 227 AH."
+    people: [[bishr-al-hafi, died], [ahmad-ibn-hanbal, subject]]
+    tags: [abbasid, sufi, zuhd, baghdad, khurasan, hanbali-circle, muhaddith]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bishr_al-Hafi"
+
+  - slug: death-of-al-muhasibi
+    category: scholar_death
+    title_en: Death of al-Ḥārith al-Muḥāsibī — Sufi-mutakallim and author of *al-Riʿāya*
+    title_ar: وفاة الحارث المحاسبي — الصوفي المتكلم وصاحب «الرعاية لحقوق الله»
+    title_fr: Mort d'al-Ḥārith al-Muḥāsibī — soufi-*mutakallim*, auteur d'*al-Riʿāya*
+    description_en: |
+      Abū ʿAbdullah al-Ḥārith ibn Asad al-Muḥāsibī al-Baṣrī — Iraqi
+      Sunni scholar of kalām, hadith, and ascetic discipline,
+      author of *al-Riʿāya li-Ḥuqūq Allāh* (Observance of the
+      Rights of God) and *Kitāb al-Tawahhum*, and the most
+      important systematic theorist of the inner life among the
+      pre-Junaydī Sufis — died in Baghdad in 243 AH, the date
+      reported by al-Dhahabī in *Siyar Aʿlām al-Nubalāʾ* and
+      *Tārīkh al-Islām*, by Ibn Khallikān in *Wafayāt al-Aʿyān*,
+      and by Ibn Kathīr in *al-Bidāya wa al-Nihāya*. The nisba
+      *al-Muḥāsibī* commemorates his constant practice of
+      *muḥāsabat al-nafs* (rigorous self-audit), the disciplined
+      examination of motive and deed that *al-Riʿāya* reduces to
+      a system. Imām Aḥmad ibn Ḥanbal disapproved of his
+      involvement in kalām and refused to associate publicly with
+      him — a Sunni-internal disagreement preserved honestly by
+      al-Dhahabī — but recognised the value of his ascetic
+      teachings, and al-Junayd al-Baghdādī inherited and refined
+      his programme of *muḥāsaba* into the Junaydī Sunni Sufi
+      mainstream. al-Ghazālī's *Iḥyāʾ ʿUlūm al-Dīn* draws
+      extensively from *al-Riʿāya* across its quarters.
+    description_ar: |
+      توفي أبو عبد الله الحارث بن أسد المحاسبي البصري — عالم
+      عراقي سني في الكلام والحديث والتدريب الزهدي، مصنف «الرعاية
+      لحقوق الله» و«كتاب التوهم»، وأهم مَن تنسّب من قبل الجنيد إلى
+      علم الباطن تأصيلاً وتنظيراً — ببغداد سنة ٢٤٣ هـ، وهي السنة
+      التي أثبتها الذهبي في «سير أعلام النبلاء» و«تاريخ الإسلام»،
+      وابن خلكان في «وفيات الأعيان»، وابن كثير في «البداية
+      والنهاية». ونسبته «المحاسبي» من ملازمته لمحاسبة النفس،
+      وذلك الفحص الدقيق للنية والعمل الذي يَردّه «الرعاية» إلى
+      علم منظم. وكان الإمام أحمد بن حنبل ينكر عليه تعاطي علم
+      الكلام ولم يَستَجِز مشاركته الإملاء في حلقته — وهو خلافٌ
+      داخل أهل السنة نقله الذهبي بأمانة — مع إقراره بقيمة
+      تعاليمه الزهدية. وورِث الجنيد البغدادي نظامه في المحاسبة
+      ودخل به سَوادَ التصوف السني الجنيدي، ونقل الإمام الغزالي
+      عن «الرعاية» في «إحياء علوم الدين» نقلاً واسعاً في أرباعه
+      كلها.
+    description_fr: |
+      Abū ʿAbdullah al-Ḥārith ibn Asad al-Muḥāsibī al-Baṣrī —
+      savant sunnite irakien de *kalām*, de hadith et de
+      discipline ascétique, auteur d'*al-Riʿāya li-Ḥuqūq Allāh*
+      (L'Observance des droits de Dieu) et du *Kitāb al-Tawahhum*,
+      et le plus important théoricien systématique de la vie
+      intérieure parmi les soufis pré-junaydīens — mourut à
+      Bagdad en 243 H, date donnée par al-Dhahabī dans les
+      *Siyar Aʿlām al-Nubalāʾ* et le *Tārīkh al-Islām*, par Ibn
+      Khallikān dans les *Wafayāt al-Aʿyān* et par Ibn Kathīr
+      dans *al-Bidāya wa al-Nihāya*. La *nisba* *al-Muḥāsibī*
+      commémore sa pratique constante de la *muḥāsabat al-nafs*
+      (l'auto-examen rigoureux), discipline d'examen des motifs
+      et des actes qu'*al-Riʿāya* réduit en système. L'Imām
+      Aḥmad ibn Ḥanbal désapprouvait son implication dans le
+      *kalām* et refusait de paraître publiquement avec lui —
+      désaccord interne sunnite préservé honnêtement par
+      al-Dhahabī — tout en reconnaissant la valeur de son
+      enseignement ascétique. Al-Junayd al-Baghdādī hérita et
+      raffina son programme de *muḥāsaba* dans le courant
+      central du soufisme sunnite junaydīen. L'*Iḥyāʾ ʿUlūm
+      al-Dīn* d'al-Ghazālī puise abondamment dans *al-Riʿāya*
+      dans ses quatre parties.
+    canonical_hijri: {year: 243, precision: year}
+    canonical_gregorian: {date: 857-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "243 AH at Baghdad — al-Dhahabī's date in Siyar."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān confirms 243 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 243 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām confirms 243 AH."
+    people: [[al-muhasibi, died], [ahmad-ibn-hanbal, subject]]
+    tags: [abbasid, sufi, zuhd, baghdad, kalam, muhasaba, riaya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Harith_al-Muhasibi"
+
+  - slug: death-of-dhu-al-nun-al-misri
+    category: scholar_death
+    title_en: Death of Dhū al-Nūn al-Miṣrī — Egyptian Sufi master and Mālikī muḥaddith
+    title_ar: وفاة ذو النون المصري — شيخ الصوفية بمصر والمحدّث المالكي
+    title_fr: Mort de Dhū al-Nūn al-Miṣrī — maître soufi égyptien, *muḥaddith* mālikīte
+    description_en: |
+      Abū al-Fayḍ Thawbān ibn Ibrāhīm al-Miṣrī, known as
+      *Dhū al-Nūn* — Egyptian Sunni Mālikī ascetic, hadith
+      transmitter, and the figure to whom the classical Sufi
+      tabaqāt tradition attributes the foundational systematisation
+      of *aḥwāl* (states) and *maqāmāt* (stations) of the
+      mystical path — died in Cairo (Old Cairo / Fusṭāṭ) in
+      245 AH, the year recorded by al-Dhahabī in *Siyar Aʿlām
+      al-Nubalāʾ*, by Ibn Khallikān in *Wafayāt al-Aʿyān*, and
+      by Ibn Kathīr in *al-Bidāya wa al-Nihāya*. He had studied
+      with Mālik's pupil Ibn Wahb in Egypt and was tested under
+      the *miḥna* of the createdness of the Qurʾan, which he
+      withstood. al-Sulamī's *Ṭabaqāt al-Ṣūfiyya* opens with
+      him as the first systematic Sufi teacher; al-Qushayrī's
+      *al-Risāla* preserves dozens of his sayings on *maʿrifa*,
+      tawḥīd of the gnostic, and the disciplines of the heart.
+      His grave in the Qarāfa cemetery at Cairo remained one of
+      the principal Sufi pilgrimage sites of medieval Egypt.
+    description_ar: |
+      توفي أبو الفيض ثوبان بن إبراهيم المصري المعروف بـ«ذي النون
+      المصري» — مصري سني مالكي زاهد، من رجال الحديث، وإليه تنسب
+      كتب طبقات الصوفية الكلاسيكية تأصيلَ علم الأحوال والمقامات
+      في الطريق الصوفي — بالقاهرة (الفسطاط) سنة ٢٤٥ هـ، وهي السنة
+      التي أثبتها الذهبي في «سير أعلام النبلاء»، وابن خلكان في
+      «وفيات الأعيان»، وابن كثير في «البداية والنهاية». وكان قد
+      درس بمصر على ابن وهب صاحب الإمام مالك، وامتُحن في فتنة
+      خلق القرآن فثبت. وافتتح به السلمي «طبقات الصوفية» بوصفه
+      أولَ مَن نظم تعليم التصوف، وحفظ القشيري في «الرسالة» عشرات
+      أقواله في المعرفة وتوحيد العارفين ورياضات القلوب. وكان قبره
+      بمقابر «القرافة» بمصر من أكبر المزارات الصوفية في مصر
+      الوسطى.
+    description_fr: |
+      Abū al-Fayḍ Thawbān ibn Ibrāhīm al-Miṣrī, dit *Dhū al-Nūn*
+      — ascète sunnite mālikīte égyptien, transmetteur de
+      hadiths, et figure à laquelle la tradition classique des
+      *ṭabaqāt* soufis attribue la systématisation fondatrice
+      des *aḥwāl* (états) et *maqāmāt* (stations) de la voie
+      mystique — mourut au Caire (Vieux-Caire / Fusṭāṭ) en
+      245 H, date consignée par al-Dhahabī dans les *Siyar Aʿlām
+      al-Nubalāʾ*, Ibn Khallikān dans les *Wafayāt al-Aʿyān* et
+      Ibn Kathīr dans *al-Bidāya wa al-Nihāya*. Il avait étudié
+      en Égypte auprès d'Ibn Wahb, disciple de Mālik, et fut
+      éprouvé par la *miḥna* de la créaturalité du Coran, à
+      laquelle il résista. Les *Ṭabaqāt al-Ṣūfiyya* d'al-Sulamī
+      s'ouvrent par lui comme premier maître soufi systématique ;
+      la *Risāla* d'al-Qushayrī préserve des dizaines de ses
+      paroles sur la *maʿrifa*, le *tawḥīd* du *ʿārif* et les
+      disciplines du cœur. Sa tombe au cimetière de la Qarāfa du
+      Caire demeura l'un des principaux lieux de pèlerinage
+      soufi de l'Égypte médiévale.
+    canonical_hijri: {year: 245, precision: year}
+    canonical_gregorian: {date: 859-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "245 AH at Cairo — al-Dhahabī's date in Siyar."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān gives 245 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 245 AH at Fusṭāṭ."
+    people: [[dhu-al-nun-al-misri, died]]
+    tags: [abbasid, sufi, egypt, fustat, mecca, maliki, muhaddith, mihna]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Dhul-Nun_al-Misri"
+
+  - slug: death-of-bayazid-al-bistami
+    category: scholar_death
+    title_en: Death of Abū Yazīd al-Bisṭāmī (Bāyazīd) — Khurāsānī Sufi master
+    title_ar: وفاة أبي يزيد البسطامي (بايزيد) — شيخ صوفية خراسان
+    title_fr: Mort d'Abū Yazīd al-Bisṭāmī (Bāyazīd) — maître soufi du Khurāsān
+    description_en: |
+      Abū Yazīd Ṭayfūr ibn ʿĪsā ibn Surūshān al-Bisṭāmī, known
+      across the eastern Islamic world as Bāyazīd — Khurāsānī
+      Sunni Sufi master of Bisṭām (in the Qūmis region of
+      northern Iran), and the figure to whom the classical
+      *ṭabaqāt* tradition traces the *sukr* (intoxicated)
+      idiom of mystical expression that al-Junayd would later
+      moderate within the Baghdadi *ṣaḥw* (sober) school — died
+      at Bisṭām. Sources differ between two main dates: 234 AH
+      (the early date preserved in al-Sulamī's *Ṭabaqāt
+      al-Ṣūfiyya*) and 261 AH (the date adopted by al-Dhahabī
+      in *Siyar Aʿlām al-Nubalāʾ* and *Tārīkh al-Islām* and
+      followed by the majority of the later canon, including Ibn
+      Khallikān's *Wafayāt al-Aʿyān*). We follow the 261 AH
+      majority position. His legal-spiritual training was anchored
+      by Ḥanafī fiqh under his teacher Abū ʿAlī al-Sindī (the
+      attribution noted by al-Sahlagī, his earliest biographer);
+      the *shaṭaḥāt* attributed to him — among the most quoted
+      and most contested passages of early Sufi literature — were
+      defended within Sunni reception by figures such as
+      al-Junayd, who interpreted them as expressions overcome by
+      mystical state, and remained a touchstone of the East-Iranian
+      Sufi tradition through al-Hujwīrī, ʿAṭṭār's
+      *Tadhkirat al-Awliyāʾ* and the Naqshbandī silsila.
+    description_ar: |
+      توفي أبو يزيد طيفور بن عيسى بن سروشان البسطامي، المعروف
+      في شرق العالم الإسلامي بـ«بايزيد» — خراساني سني، من شيوخ
+      الصوفية ببسطام (في قُومس بشمال إيران)، وإليه تَردُّ كتب
+      الطبقات الكلاسيكية أصلَ مذهب «السُّكْر» في التعبير الصوفي
+      الذي كَبَحه الجنيد ضمن مدرسة «الصحو» البغدادية — ببسطام.
+      واختلفت المصادر بين تأريخين: سنة ٢٣٤ هـ (السنة الأقدم
+      المحفوظة في «طبقات الصوفية» للسلمي)، وسنة ٢٦١ هـ (السنة
+      التي اختارها الذهبي في «سير أعلام النبلاء» و«تاريخ الإسلام»
+      وتابعه عليها جمهور كتب التراجم اللاحقة بمن فيهم ابن خلكان
+      في «وفيات الأعيان»). ونحن نتابع سنة ٢٦١ هـ بوصفها قول
+      الجمهور. وكان فقهه على المذهب الحنفي على شيخه أبي علي
+      السندي (كما أثبت ذلك السهلجي، أقدم من ترجم له)؛ والشطحات
+      المنسوبة إليه — من أكثر النصوص نقلاً في تراث التصوف الباكر
+      وأشدّها إشكالاً — دافع عنها داخل التلقي السني أمثالُ الجنيد،
+      وأوّلها بأنها أقوال غُلب صاحبها بحاله، وظلت من أصول التراث
+      الصوفي الإيراني الشرقي عند الهجويري وفي «تذكرة الأولياء»
+      للعطار وفي السلسلة النقشبندية.
+    description_fr: |
+      Abū Yazīd Ṭayfūr ibn ʿĪsā ibn Surūshān al-Bisṭāmī, connu à
+      travers l'orient musulman sous le nom de Bāyazīd — maître
+      soufi sunnite khurāsānien de Bisṭām (région de Qūmis, nord
+      de l'Iran actuel), et figure à laquelle la tradition
+      classique des *ṭabaqāt* fait remonter l'idiome du *sukr*
+      (« ivresse mystique ») que la suite, par al-Junayd,
+      tempérerait dans l'école bagdadienne du *ṣaḥw*
+      (« sobriété ») — mourut à Bisṭām. Les sources hésitent
+      entre deux dates principales : 234 H (date ancienne
+      préservée dans les *Ṭabaqāt al-Ṣūfiyya* d'al-Sulamī) et
+      261 H (date retenue par al-Dhahabī dans les *Siyar Aʿlām
+      al-Nubalāʾ* et le *Tārīkh al-Islām*, et suivie par la
+      majorité du canon ultérieur, dont les *Wafayāt al-Aʿyān*
+      d'Ibn Khallikān). Nous retenons la position majoritaire
+      de 261 H. Sa formation juridico-spirituelle s'enracinait
+      dans le *fiqh* ḥanafīte auprès de son maître Abū ʿAlī
+      al-Sindī (attribution notée par al-Sahlagī, son plus ancien
+      biographe) ; les *shaṭaḥāt* qui lui sont attribués —
+      parmi les passages les plus cités et les plus contestés de
+      la littérature soufie ancienne — furent défendus dans la
+      réception sunnite par des figures telles qu'al-Junayd,
+      qui les lisait comme paroles dominées par l'état
+      mystique de leur auteur, et demeurèrent une pierre de
+      touche de la tradition soufie iranienne orientale chez
+      al-Hujwīrī, dans la *Tadhkirat al-Awliyāʾ* de ʿAṭṭār et
+      dans la *silsila* naqshbandīe.
+    canonical_hijri: {year: 261, precision: year}
+    canonical_gregorian: {date: 875-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "261 AH at Bisṭām — al-Dhahabī's preferred date; followed by majority."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān adopts 261 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām confirms 261 AH; al-Sulamī's earlier 234 AH noted."
+    people: [[bayazid-al-bistami, died]]
+    tags: [abbasid, sufi, khurasan, bistam, qumis, hanafi, shatahat, sukr]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Bayazid_Bastami"
+
+  # =========================================================================
+  # 4th CENTURY AH — second-generation Junaydī Baghdad
+  # =========================================================================
+
+  - slug: death-of-abu-said-al-kharraz
+    category: scholar_death
+    title_en: Death of Abū Saʿīd al-Kharrāz — Baghdadi Sufi master, author of *Kitāb al-Ṣidq*
+    title_ar: وفاة أبي سعيد الخرّاز — من شيوخ صوفية بغداد ومصنف «كتاب الصدق»
+    title_fr: Mort d'Abū Saʿīd al-Kharrāz — maître soufi de Bagdad, auteur du *Kitāb al-Ṣidq*
+    description_en: |
+      Abū Saʿīd Aḥmad ibn ʿĪsā al-Kharrāz al-Baghdādī — Baghdadi
+      Sunni Sufi master of the Junaydī generation, contemporary
+      and senior of al-Junayd, author of *Kitāb al-Ṣidq* (The
+      Book of Truthfulness — the earliest surviving Sufi treatise
+      on *ṣidq* as a structuring principle of the spiritual
+      life), *Kitāb al-Farāgh*, and *Kitāb al-Ḍiyāʾ* — died at
+      Baghdad. The classical sources differ between 277 AH and
+      286 AH; we follow the majority 286 AH date adopted by
+      al-Dhahabī in *Siyar Aʿlām al-Nubalāʾ* and reflected by
+      Ibn Khallikān in *Wafayāt al-Aʿyān* and Ibn Kathīr in
+      *al-Bidāya wa al-Nihāya*. He was a leather-shoemaker
+      (*kharrāz*) by trade — the model of the Sunni ascetic
+      living from licit manual labour — and his sayings on
+      *fanāʾ* and *baqāʾ*, on the unity of the seeker's intent,
+      and on the disciplines of poverty, preserved by al-Sulamī
+      and al-Qushayrī, became one of the principal sources for
+      al-Ghazālī's *Iḥyāʾ ʿUlūm al-Dīn* and for the later
+      Junaydī Sunni Sufi mainstream.
+    description_ar: |
+      توفي أبو سعيد أحمد بن عيسى الخرّاز البغدادي — بغدادي سني،
+      من شيوخ صوفية بغداد في طبقة الجنيد، معاصر للجنيد وأقدم
+      منه قليلاً، مصنف «كتاب الصدق» (وهو أقدم ما وصل إلينا من
+      كتب الصوفية في الصدق بوصفه أصلاً منظماً للسلوك)، و«كتاب
+      الفراغ»، و«كتاب الضياء» — ببغداد. واختلفت كتب التراجم بين
+      سنة ٢٧٧ هـ وسنة ٢٨٦ هـ؛ ونحن نتابع سنة ٢٨٦ هـ التي اختارها
+      الذهبي في «سير أعلام النبلاء» وأثبتها ابن خلكان في «وفيات
+      الأعيان» وابن كثير في «البداية والنهاية». وكان خرّازاً
+      (صانعَ نِعالٍ من الأديم)، نموذجاً للزاهد السني الذي يعيش
+      من كسب يده الحلال؛ ومحفوظات أقواله في الفناء والبقاء، وفي
+      توحيد قصد السالك، وفي رياضات الفقر، التي رواها السلمي
+      والقشيري، صارت من أهم مصادر الإمام الغزالي في «إحياء علوم
+      الدين» ومن أصول التصوف السني الجنيدي بعدُ.
+    description_fr: |
+      Abū Saʿīd Aḥmad ibn ʿĪsā al-Kharrāz al-Baghdādī — maître
+      soufi sunnite bagdadien de la génération junaydīenne,
+      contemporain et aîné légèrement d'al-Junayd, auteur du
+      *Kitāb al-Ṣidq* (Le Livre de la Véracité — premier traité
+      soufi conservé sur le *ṣidq* comme principe structurant de
+      la vie spirituelle), du *Kitāb al-Farāgh* et du *Kitāb
+      al-Ḍiyāʾ* — mourut à Bagdad. Les sources classiques
+      hésitent entre 277 H et 286 H ; nous retenons la date
+      majoritaire de 286 H adoptée par al-Dhahabī dans les
+      *Siyar Aʿlām al-Nubalāʾ* et reflétée par Ibn Khallikān
+      dans les *Wafayāt al-Aʿyān* et Ibn Kathīr dans *al-Bidāya
+      wa al-Nihāya*. Il était cordonnier (*kharrāz*, façonneur
+      de cuir) de profession — modèle de l'ascète sunnite vivant
+      d'un travail manuel licite ; ses paroles sur le *fanāʾ* et
+      le *baqāʾ*, sur l'unité de l'intention du quêteur et sur
+      les disciplines de la pauvreté, préservées par al-Sulamī
+      et al-Qushayrī, devinrent l'une des principales sources de
+      l'*Iḥyāʾ ʿUlūm al-Dīn* d'al-Ghazālī et un fondement du
+      courant central soufi sunnite junaydīen ultérieur.
+    canonical_hijri: {year: 286, precision: year}
+    canonical_gregorian: {date: 899-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "286 AH at Baghdad — al-Dhahabī's preferred date; alt 277 AH attested."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān adopts 286 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 286 AH at Baghdad."
+    people: [[abu-said-al-kharraz, died], [al-junayd-al-baghdadi, subject]]
+    tags: [abbasid, sufi, baghdad, junaydi, kitab-al-sidq, fana, baqa]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abu_Sa%27id_al-Kharraz"

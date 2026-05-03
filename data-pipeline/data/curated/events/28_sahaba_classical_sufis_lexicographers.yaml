@@ -1,0 +1,1098 @@
+# Wave 15 of curated event additions (2026-04-26).
+# 3 sahaba narrators/governors + 3 classical sufi authors
+# + 1 maliki sufi mufassir + 2 lexicographers + 1 azhar polymath
+# + 2 muhaddithun + 1 mujtahid mutlaq + 1 zoologist
+# + 1 indian deobandi + 1 liberation of acre. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # SAHABA
+  # =========================================================================
+
+  - slug: death-of-ubada-ibn-al-samit
+    category: companion
+    title_en: Death of ʿUbada ibn al-Ṣamit ra
+    title_ar: وفاة عبادة بن الصامت رضي الله عنه
+    title_fr: Mort d'ʿUbāda ibn al-Ṣāmit ra
+    description_en: |
+      Abu al-Walid ʿUbada ibn al-Ṣamit al-Anṣari al-Khazraji —
+      Companion who took the second Pledge of ʿAqaba as one of
+      twelve *naqib* (clan-chiefs) of the Anṣar appointed by
+      the Prophet ﷺ, qaḍi of Palestine and Syria under ʿUmar
+      and ʿUthman ra (the first qaḍi appointed in the conquered
+      Levant), and the first to teach Qurʾan and hadith in
+      Syria — died at Ramla in Palestine at age about 72. The
+      Prophet ﷺ assigned him to teach Qurʾan to the Suffa
+      (the residents of the Mosque of Medina); among his
+      students who emerged from this assignment were al-Fudayl
+      ibn ʿIyad and al-Ḥasan al-Baṣri's master Abu al-Saʿib.
+      He narrated the foundational hadith on the punishment for
+      adultery and theft (Bukhari) and on the *bayʿa* of the
+      Anṣar to the Prophet ﷺ in Medina (the *bayʿat al-rijal*
+      and *bayʿat al-nisaʾ* hadith of Sahih al-Bukhari). He
+      famously confronted ʿUthman's governor Muʿawiya in Syria
+      over a financial dispute and went directly to Medina
+      rather than yield.
+    description_ar: |
+      توفي أبو الوليد عبادة بن الصامت الأنصاري الخزرجي رضي الله
+      عنه — صحابي بايع رسول الله ﷺ في بيعة العقبة الثانية أحد
+      اثني عشر نقيباً للأنصار، وقاضي فلسطين والشام في خلافتي
+      عمر وعثمان رضي الله عنهما (أول قاض ولي قضاء بلاد الشام
+      المفتوحة)، وأول من علّم القرآن والحديث في الشام —
+      بالرملة في فلسطين عن نحو اثنتين وسبعين سنة. أمره النبي ﷺ
+      بتعليم أهل الصفة (سكان مسجد المدينة) القرآن؛ ومن تلامذته
+      الذين تخرجوا في تلك المهمة الفضيل بن عياض وأبو السائب
+      شيخ الحسن البصري. روى الحديث الأم في عقوبة الزنا والسرقة
+      (البخاري) وفي بيعة الأنصار للنبي ﷺ بالمدينة (حديث «بيعة
+      الرجال» و«بيعة النساء» في «صحيح البخاري»). وعرفت مواجهته
+      الشهيرة لمعاوية رضي الله عنه والي عثمان على الشام في
+      نزاع مالي حيث ذهب مباشرة إلى المدينة بدلاً من الإذعان.
+    description_fr: |
+      Abū al-Walīd ʿUbāda ibn al-Ṣāmit al-Anṣārī al-Khazrajī —
+      Compagnon qui prit le second Serment d'ʿAqaba comme l'un
+      des douze *naqīb* (chefs de clans) des Anṣār désignés par
+      le Prophète ﷺ, *qāḍī* de Palestine et de Syrie sous ʿUmar
+      et ʿUthmān ra (le premier *qāḍī* nommé dans le Levant
+      conquis), et le premier à enseigner le Coran et le hadith
+      en Syrie — mourut à Ramla en Palestine à l'âge d'environ
+      72 ans. Le Prophète ﷺ le chargea d'enseigner le Coran aux
+      *Ṣuffa* (les résidents de la Mosquée de Médine); parmi
+      ses élèves issus de cette mission figuraient al-Fuḍayl
+      ibn ʿIyāḍ et le maître d'al-Ḥasan al-Baṣrī, Abū al-Sāʾib.
+      Il narra le hadith fondateur sur la punition de l'adultère
+      et du vol (Bukhārī) et sur la *bayʿa* des Anṣār au
+      Prophète ﷺ à Médine (le hadith *bayʿat al-rijāl* et
+      *bayʿat al-nisāʾ* de Ṣaḥīḥ al-Bukhārī). Il confronta
+      célèbrement le gouverneur d'ʿUthmān, Muʿāwiya, en Syrie au
+      sujet d'un différend financier et alla directement à
+      Médine plutôt que de céder.
+    canonical_hijri: {year: 34, precision: year}
+    canonical_gregorian: {date: 654-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 18"
+    people: [[ubada-ibn-al-samit, subject]]
+    tags: [sahaba, ansar, naqib, ramla, palestine, qadi]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ubada_ibn_al-Samit"
+
+  - slug: death-of-said-ibn-amir
+    category: companion
+    title_en: Death of Saʿid ibn ʿAmir al-Jumaḥi ra — Ascetic Governor of Ḥims
+    title_ar: وفاة سعيد بن عامر الجمحي رضي الله عنه — الزاهد والي حمص
+    title_fr: Mort de Saʿīd ibn ʿĀmir al-Jumaḥī ra — gouverneur ascète de Ḥims
+    description_en: |
+      Abu ʿAmir Saʿid ibn ʿAmir al-Jumaḥi — Companion who
+      embraced Islam at the Conquest of Mecca, governor of
+      Ḥims under ʿUmar ibn al-Khaṭṭab ra, and the celebrated
+      ascetic-governor whose personal poverty was so striking
+      that ʿUmar himself sent his wife to investigate the
+      household's destitution — died at Ḥims at age about 40.
+      The classical chronicles (Ibn Saʿd, al-Ṭabari) preserve
+      ʿUmar's visit and the discovery that Saʿid was paying
+      his entire stipend out as charity, leaving his family
+      with one shared cloak and a clay vessel. ʿUmar wept and
+      ordered him a continuing supplement; Saʿid resisted and
+      gave the supplement away too. His five-year governorship
+      of Ḥims established the model of Madinan-style austere
+      Sunni governance against the wealth that Damascus would
+      come to embody two decades later under the Umayyads. He
+      is buried in Ḥims; his tomb remained a Ḥimsi pilgrimage
+      site through the Ottoman era.
+    description_ar: |
+      توفي أبو عامر سعيد بن عامر الجمحي رضي الله عنه — صحابي
+      أسلم يوم فتح مكة، وولي حمص لعمر بن الخطاب رضي الله عنه،
+      والزاهد الوالي الذي كانت حاله من الفقر مدهشة حتى أن عمر
+      رضي الله عنه أرسل زوجته للتحقق من فاقة بيته — بحمص عن نحو
+      أربعين سنة. وتحفظ كتب التاريخ القديمة (ابن سعد والطبري)
+      زيارة عمر وكشفها أن سعيداً كان ينفق راتبه كله صدقة، حتى
+      ظل على أسرته رداء واحد مشترك ووعاء من خزف. فبكى عمر
+      وأمر له برزق دائم، فمد سعيد له يد الرفض وأنفق ذلك أيضاً
+      صدقة. وأطلقت ولايته على حمص خمس سنين نموذج الحكم السني
+      الزاهد على نمط المدينة المنورة في وجه الترف الذي ستجسده
+      دمشق بعد عقدين تحت بني أمية. ودفن بحمص؛ وظل قبره مزاراً
+      حمصياً إلى العصر العثماني.
+    description_fr: |
+      Abu ʿĀmir Saʿīd ibn ʿĀmir al-Jumaḥī — Compagnon qui
+      embrassa l'Islam à la conquête de La Mecque, gouverneur
+      de Ḥims sous ʿUmar ibn al-Khaṭṭāb ra, et le célèbre
+      gouverneur-ascète dont la pauvreté personnelle était si
+      frappante qu'ʿUmar lui-même envoya son épouse pour enquêter
+      sur le dénuement du foyer — mourut à Ḥims à l'âge
+      d'environ 40 ans. Les chroniques classiques (Ibn Saʿd,
+      al-Ṭabarī) préservent la visite d'ʿUmar et la découverte
+      que Saʿīd reversait l'intégralité de sa stipendia en
+      charité, laissant à sa famille un manteau partagé et un
+      récipient en argile. ʿUmar pleura et lui ordonna un
+      supplément continu; Saʿīd résista et reversa également
+      le supplément en charité. Son mandat de gouverneur de Ḥims
+      pendant cinq ans établit le modèle de gouvernance sunnite
+      austère de style médinois face à la richesse que Damas
+      en viendrait à incarner deux décennies plus tard sous les
+      Omeyyades. Il est enterré à Ḥims; sa tombe demeura un
+      site de pèlerinage ḥimsi jusqu'à l'ère ottomane.
+    canonical_hijri: {year: 20, precision: year}
+    canonical_gregorian: {date: 641-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[said-ibn-amir, subject], [umar-ibn-al-khattab, subject]]
+    tags: [sahaba, hims, governor, asceticism, rashidun, syria]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sa%27id_ibn_Amir_al-Jumahi"
+
+  - slug: death-of-uqba-ibn-amir-al-juhani
+    category: companion
+    title_en: Death of ʿUqba ibn ʿAmir al-Juhani ra
+    title_ar: وفاة عقبة بن عامر الجهني رضي الله عنه
+    title_fr: Mort de ʿUqba ibn ʿĀmir al-Juhanī ra
+    description_en: |
+      Abu Ḥammad ʿUqba ibn ʿAmir al-Juhani — Companion who
+      walked beside the Prophet's ﷺ camel during the Hijra
+      preliminaries, leading qari of the Companions in the
+      Egyptian frontier, governor of Egypt under Muʿawiya ra
+      (replacing ʿAmr ibn al-ʿAṣ ra in the office), and the
+      Companion to whom the *Muʿawwidhatayn* (Surahs al-Falaq
+      and al-Nas, Q 113-114) were taught directly by the
+      Prophet ﷺ as a foundational protective recitation —
+      died in Egypt and was buried at the Muqaṭṭam hill
+      cemetery overlooking Cairo. He was about 65. He narrated
+      55 hadiths in the Six Books, several of them principal
+      sources for the eschatology of the Last Days (his report
+      on the Mahdi from the Prophet's ﷺ family is preserved in
+      Abu Dawud), the funeral practice (his hadith on the
+      *talqin* of the dying), and the recommended frequency of
+      reciting the Muʿawwidhatayn after each prayer (a Sunna
+      that became universal Sunni practice through his
+      transmission).
+    description_ar: |
+      توفي أبو حماد عقبة بن عامر الجهني رضي الله عنه — صحابي
+      مشى إلى جانب ناقة رسول الله ﷺ في مقدمات الهجرة، وكبير
+      قراء الصحابة في ثغر مصر، ووالي مصر في عهد معاوية رضي
+      الله عنه (خلفاً لعمرو بن العاص رضي الله عنه في المنصب)،
+      والصحابي الذي علّمه النبي ﷺ المعوذتين (سورتا الفلق والناس،
+      ١١٣-١١٤) مباشرة قراءة وقاية أصلية — بمصر، ودفن في
+      مقبرة المقطم المطلة على القاهرة. وقد ناهز الخامسة
+      والستين. روى ٥٥ حديثاً في الكتب الستة، منها مصادر
+      رئيسية في أحاديث آخر الزمان (روايته في المهدي من آل
+      بيت النبي ﷺ محفوظة عند أبي داود)، وفي الجنائز (حديثه
+      في تلقين الميت)، وفي مواظبة قراءة المعوذتين بعد كل
+      صلاة (وهي سنة صارت من العمل العام عند أهل السنة عبر
+      روايته).
+    description_fr: |
+      Abū Ḥammād ʿUqba ibn ʿĀmir al-Juhanī — Compagnon qui
+      marcha aux côtés du chameau du Prophète ﷺ durant les
+      préliminaires de la Hijra, principal *qārī* des Compagnons
+      dans la frontière égyptienne, gouverneur d'Égypte sous
+      Muʿāwiya ra (remplaçant ʿAmr ibn al-ʿĀṣ ra dans le poste),
+      et le Compagnon à qui les *Muʿawwidhatayn* (les sourates
+      al-Falaq et al-Nās, Q 113-114) furent enseignées
+      directement par le Prophète ﷺ comme récitation protectrice
+      fondatrice — mourut en Égypte et fut enterré au cimetière
+      de la colline du Muqaṭṭam surplombant Le Caire. Il avait
+      environ 65 ans. Il narra 55 hadiths dans les Six Livres,
+      plusieurs sources principales pour l'eschatologie des
+      Derniers Jours (son rapport sur le Mahdī de la famille
+      du Prophète ﷺ est préservé chez Abū Dāwūd), pour la
+      pratique funéraire (son hadith sur le *talqīn* du mourant),
+      et pour la fréquence recommandée de réciter les
+      *Muʿawwidhatayn* après chaque prière (une Sunna qui devint
+      pratique universelle sunnite à travers sa transmission).
+    canonical_hijri: {year: 58, precision: year}
+    canonical_gregorian: {date: 678-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Abu Dawud 1523"
+    quran_refs: "113:1"
+    people: [[uqba-ibn-amir-al-juhani, subject]]
+    tags: [sahaba, qurraʾ, egypt, muʿawwidhatayn, governor, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Uqba_ibn_Amir"
+
+  # =========================================================================
+  # CLASSICAL SUFI AUTHORS
+  # =========================================================================
+
+  - slug: death-of-al-qushayri
+    category: scholar
+    title_en: Death of al-Qushayri — author of al-Risala al-Qushayriyya
+    title_ar: وفاة القشيري — صاحب «الرسالة القشيرية»
+    title_fr: Mort d'al-Qushayrī — auteur de *al-Risāla al-Qushayriyya*
+    description_en: |
+      Abu al-Qasim ʿAbd al-Karim ibn Hawazin al-Qushayri al-
+      Naysaburi — Shafiʿi-Ashʿari Sufi shaykh of Naysabur,
+      successor of his father-in-law Abu ʿAli al-Daqqaq, and
+      author of *al-Risala al-Qushayriyya fi ʿIlm al-
+      Taṣawwuf* — the most influential systematic treatise on
+      Sunni Sufism in the entire classical tradition — died in
+      Naysabur at age about 89. *al-Risala* presents the
+      biographies of 83 early Sufi masters and the technical
+      vocabulary of inward religious experience (*tawba*,
+      *tawakkul*, *zuhd*, *yaqīn*, *muḥabba*, etc.) within
+      strict Shafiʿi-Ashʿari orthodoxy. The work was the
+      principal text by which the second-generation Baghdad
+      Sufi tradition was disseminated across the Sunni world;
+      al-Ghazali drew on it heavily for the framework of his
+      *Iḥyaʾ ʿUlum al-Din*. His *Lataʾif al-Isharat* is a
+      classical Sunni Sufi tafsir; his polemics against
+      Karramism and Muʿtazila in Naysabur shaped that city's
+      decisive turn back to mainstream Sunni-Ashʿari orthodoxy.
+    description_ar: |
+      توفي الإمام أبو القاسم عبد الكريم بن هوازن القشيري
+      النيسابوري — صوفي شافعي أشعري بنيسابور، خليفة شيخه
+      وحموه أبي علي الدقاق، ومصنف «الرسالة القشيرية في علم
+      التصوف» — أعظم متن صوفي سني منهجي في التراث الكلاسيكي
+      كله — بنيسابور عن نحو تسع وثمانين سنة. وتقدم «الرسالة»
+      تراجم ثلاثة وثمانين صوفياً من المتقدمين، ومصطلحات
+      التجربة الدينية الباطنية (التوبة والتوكل والزهد واليقين
+      والمحبة وغيرها) في إطار العقيدة الشافعية الأشعرية الصارمة.
+      وكان الكتاب الأساس الذي وصل به تراث صوفية بغداد الجيل
+      الثاني إلى عامة العالم السني؛ واستفاد منه الإمام الغزالي
+      كثيراً في هيكل «إحياء علوم الدين». و«لطائف الإشارات» له
+      تفسير قرآني صوفي سني كلاسيكي؛ ونقاشاته الفقهية ضد
+      الكرامية والمعتزلة بنيسابور صاغت تحول تلك المدينة
+      الحاسم إلى عقيدة أهل السنة الأشعرية المركزية.
+    description_fr: |
+      Abu al-Qāsim ʿAbd al-Karīm ibn Hawāzin al-Qushayrī al-
+      Naysabūrī — shaykh soufi shāfiʿite-ashʿarite de Naysabur,
+      successeur de son beau-père Abū ʿAli al-Daqqāq, et
+      auteur d'*al-Risāla al-Qushayriyya fī ʿIlm al-Taṣawwuf*
+      — le traité systématique le plus influent sur le
+      soufisme sunnite dans toute la tradition classique —
+      mourut à Naysabur à l'âge d'environ 89 ans. *al-Risāla*
+      présente les biographies de 83 premiers maîtres soufis et
+      le vocabulaire technique de l'expérience religieuse
+      intérieure (*tawba*, *tawakkul*, *zuhd*, *yaqīn*,
+      *muḥabba*, etc.) dans une orthodoxie shāfiʿite-ashʿarite
+      stricte. L'ouvrage fut le texte principal par lequel la
+      tradition soufie bagdadienne de seconde génération fut
+      diffusée à travers le monde sunnite; al-Ghazālī s'en
+      inspira fortement pour le cadre de son *Iḥyāʾ ʿUlūm
+      al-Dīn*. Son *Laṭāʾif al-Ishārāt* est un tafsir soufi
+      sunnite classique; ses polémiques contre le karrāmisme
+      et les muʿtazilites à Naysabur façonnèrent le retour
+      décisif de cette ville à l'orthodoxie sunnite-ashʿarite
+      du courant principal.
+    canonical_hijri: {year: 465, month: 8, day: 16, precision: day}
+    canonical_gregorian: {date: 1073-04-30, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[al-qushayri, subject], [al-ghazali, subject]]
+    tags: [sufi, sunni, shafii, ashari, naysabur, risala, saljuq]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Qushayri"
+
+  - slug: death-of-al-hujwiri
+    category: scholar
+    title_en: Death of al-Hujwiri — author of Kashf al-Maḥjub
+    title_ar: وفاة الهجويري — صاحب «كشف المحجوب»
+    title_fr: Mort d'al-Hujwīrī — auteur de *Kashf al-Maḥjūb*
+    description_en: |
+      Abu al-Hasan ʿAli ibn ʿUthman al-Hujwiri al-Ghaznawi —
+      Sunni Hanafi-Maturidi Sufi from Ghazna in Afghanistan
+      who emigrated to Lahore in the Punjab as part of the
+      Ghaznavid expansion into India, and author of *Kashf al-
+      Maḥjub* (the Unveiling of the Veiled), the first major
+      treatise on Sufism written in Persian — died in Lahore.
+      He was about 65. *Kashf al-Maḥjub* in Persian became the
+      foundational Sufi reference for the entire Persianate-
+      Indian Sunni world: every later Persian-Indian Sufi
+      handbook traces methodological lineage to it. He is
+      buried at his shrine at Data Darbar in Lahore (his Persian
+      laqab *Data Ganj Bakhsh* — "Bestower of Treasure" —
+      attached to him posthumously through Khwaja Moinuddin
+      Chishti's visit to his grave) which remains the largest
+      single Sufi pilgrimage site in Pakistan, drawing
+      hundreds of thousands of visitors weekly. The Lahore
+      shrine became the spiritual gateway through which
+      Chishti and Suhrawardi tariqa networks entered the
+      Indian subcontinent.
+    description_ar: |
+      توفي الإمام أبو الحسن علي بن عثمان الهجويري الغزنوي —
+      صوفي حنفي ماتريدي سني من غزنة في أفغانستان، هاجر إلى
+      لاهور في البنجاب ضمن التوسع الغزنوي على الهند، ومصنف
+      «كشف المحجوب» — أول متن كبير في علم التصوف بالفارسية —
+      بلاهور. وقد ناهز الخامسة والستين. وصار «كشف المحجوب»
+      بالفارسية المرجع الصوفي الأم لعموم العالم الفارسي-
+      الهندي السني: كل متن صوفي فارسي-هندي لاحق يرفع نسبه
+      المنهجي إليه. ودفن في مقامه «داتا دربار» بلاهور (لقبه
+      الفارسي «داتا غنج بخش» — «معطي الكنز» — لحقه بعد وفاته
+      بزيارة الخواجه معين الدين الجشتي قبره) الذي ما زال
+      أكبر مزار صوفي منفرد في باكستان، يأم مئات الألوف من
+      الزوار أسبوعياً. وصار مقام لاهور البوابة الروحية التي
+      دخلت بها شبكتا الجشتية والسهروردية شبه القارة الهندية.
+    description_fr: |
+      Abu al-Ḥasan ʿAlī ibn ʿUthmān al-Hujwīrī al-Ghaznawī —
+      soufi sunnite hanafite-māturīdite de Ghazna en Afghanistan
+      qui émigra à Lahore au Pendjab dans le cadre de l'expansion
+      ghaznévide en Inde, et auteur du *Kashf al-Maḥjūb* (le
+      Dévoilement du Voilé), le premier grand traité sur le
+      soufisme écrit en persan — mourut à Lahore. Il avait
+      environ 65 ans. *Kashf al-Maḥjūb* en persan devint la
+      référence soufie fondatrice pour tout le monde sunnite
+      persanate-indien : chaque manuel soufi persan-indien
+      ultérieur trace une filiation méthodologique vers lui. Il
+      est enterré à son sanctuaire de Data Darbar à Lahore (son
+      *laqab* persan *Dātā Ganj Bakhsh* — « Donneur de
+      Trésor » — lui fut attaché à titre posthume par la visite
+      de Khwāja Moinuddīn Chishtī à sa tombe) qui demeure le
+      plus grand sanctuaire soufi unique au Pakistan, attirant
+      des centaines de milliers de visiteurs chaque semaine. Le
+      sanctuaire de Lahore devint la porte spirituelle par
+      laquelle les réseaux de *ṭarīqa* Chishtī et Suhrawardī
+      entrèrent dans le sous-continent indien.
+    canonical_hijri: {year: 465, precision: year}
+    canonical_gregorian: {date: 1077-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[al-hujwiri, subject], [moinuddin-chishti, subject]]
+    tags: [sufi, sunni, hanafi, maturidi, ghazna, lahore, india, persian]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ali_Hujwiri"
+
+  - slug: death-of-al-sulami
+    category: scholar
+    title_en: Death of al-Sulami — biographer of the Sufi tradition
+    title_ar: وفاة السلمي — مؤرخ التصوف
+    title_fr: Mort d'al-Sulamī — biographe de la tradition soufie
+    description_en: |
+      Abu ʿAbd al-Rahman Muhammad ibn al-Husayn al-Sulami al-
+      Naysaburi — Shafiʿi-Ashʿari muḥaddith and Sufi author of
+      Naysabur, principal teacher of al-Qushayri and ʿAbdullah
+      al-Anṣari al-Harawi, and author of *Ṭabaqat al-Ṣufiyya*
+      (the foundational biographical dictionary of early Sunni
+      Sufi figures) — died in Naysabur at age about 86.
+      *Ṭabaqat al-Ṣufiyya* preserved the biographies of 105
+      early Sufi masters from Ibrahim ibn Adham to al-Sulami's
+      own teachers; it underlies all later classical Sufi
+      hagiography (Abu Nuʿaym's *Ḥilyat al-Awliyaʾ*, al-
+      Qushayri's *Risala*, al-Hujwiri's *Kashf*) and through
+      them the entire Sunni Sufi self-conception. His *Tafsir
+      Ḥaqaʾiq al-Sufiyya* gathered the spiritual readings of
+      the Qurʾan from the early Sufi tradition. His personal
+      writings are valuable for the rare doctrinal positions
+      he records from Sufis whose works did not otherwise
+      survive (al-Junayd's letters, al-Hallaj's prose).
+    description_ar: |
+      توفي الإمام أبو عبد الرحمن محمد بن الحسين السلمي
+      النيسابوري — محدث وصوفي شافعي أشعري بنيسابور، شيخ
+      القشيري وعبد الله الأنصاري الهروي مباشرة، ومصنف «طبقات
+      الصوفية» (المعجم البيوغرافي الأم لمشايخ التصوف السني
+      الباكر) — بنيسابور عن نحو ست وثمانين سنة. حفظت «طبقات
+      الصوفية» تراجم مئة وخمسة من مشايخ الصوفية المتقدمين من
+      إبراهيم بن أدهم إلى مشايخ السلمي نفسه؛ وعليها قام كل ما
+      جاء بعدها من تراث المناقب الصوفي الكلاسيكي («حلية
+      الأولياء» لأبي نعيم، و«الرسالة القشيرية» للقشيري، و«كشف
+      المحجوب» للهجويري) وعبرها قام كل تصور التصوف السني عن
+      ذاته. وكتابه «تفسير حقائق الصوفية» يجمع القراءات الروحية
+      للقرآن من التراث الصوفي الباكر. وكتاباته الشخصية ثمينة
+      لأقوال عقدية نادرة يحفظها عن صوفية لم تصلنا أعمالهم
+      المستقلة (رسائل الجنيد، نثر الحلاج).
+    description_fr: |
+      Abu ʿAbd al-Raḥmān Muḥammad ibn al-Ḥusayn al-Sulamī al-
+      Naysabūrī — muḥaddith et auteur soufi shāfiʿite-ashʿarite
+      de Naysabur, principal enseignant d'al-Qushayrī et
+      d'ʿAbdullāh al-Anṣārī al-Harawī, et auteur des *Ṭabaqāt
+      al-Ṣūfiyya* (le dictionnaire biographique fondateur des
+      premières figures soufies sunnites) — mourut à Naysabur
+      à l'âge d'environ 86 ans. Les *Ṭabaqāt al-Ṣūfiyya*
+      préservèrent les biographies de 105 premiers maîtres
+      soufis depuis Ibrāhīm ibn Adham jusqu'aux propres
+      enseignants d'al-Sulamī; elles sous-tendent toute
+      l'hagiographie soufie classique ultérieure (la *Ḥilyat
+      al-Awliyāʾ* d'Abū Nuʿaym, la *Risāla* d'al-Qushayrī, le
+      *Kashf* d'al-Hujwīrī) et à travers elles toute la
+      conception soufie sunnite d'elle-même. Son *Tafsīr
+      Ḥaqāʾiq al-Ṣūfiyya* rassembla les lectures spirituelles
+      du Coran de la tradition soufie ancienne. Ses écrits
+      personnels sont précieux pour les positions doctrinales
+      rares qu'il consigne de soufis dont les œuvres n'ont
+      pas survécu autrement (les lettres d'al-Junayd, la prose
+      d'al-Ḥallāj).
+    canonical_hijri: {year: 412, month: 3, day: 3, precision: day}
+    canonical_gregorian: {date: 1021-06-15, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[al-sulami, subject], [al-qushayri, subject]]
+    tags: [sufi, sunni, shafii, ashari, naysabur, hagiography, ghaznavid]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MALIKI MUFASSIR + LEXICOGRAPHERS
+  # =========================================================================
+
+  - slug: death-of-ibn-ajiba
+    category: scholar
+    title_en: Death of Aḥmad ibn ʿAjiba — Maliki-Shadhili Mufassir
+    title_ar: وفاة أحمد ابن عجيبة — مفسر المالكية الشاذلية
+    title_fr: Mort d'Aḥmad ibn ʿAjība — mufassir malikite-shādhilite
+    description_en: |
+      Abu al-ʿAbbas Aḥmad ibn ʿAjiba al-Hasani al-Anjari — Maliki
+      Sufi shaykh of the Darqawi sub-branch of the Shadhili
+      tariqa in late-Ottoman Morocco, and author of *al-Baḥr al-
+      Madid fi Tafsir al-Qurʾan al-Majid* (the Vast Sea in the
+      Commentary of the Glorious Qurʾan), a multi-volume tafsir
+      that synthesises classical Sunni *tafsir bi-l-maʾthur*
+      with the spiritual readings of the Sunni Sufi tradition
+      — died at his retreat near Tetouan during a plague
+      outbreak. He was about 60. His autobiography *al-Fahrasa*
+      provides one of the few personal accounts of an early
+      modern Maghrebi Sufi shaykh's training, intellectual
+      engagement, and spiritual development. He commented
+      extensively on Ibn ʿAṭaʾillah's *Hikam* (his commentary
+      *Iqaẓ al-Himam* is among the most circulated). His
+      tafsir, modest in length compared with al-Wahidi's or al-
+      Razi's, became a classical reference in late-Ottoman
+      Maghrebi tafsir tradition.
+    description_ar: |
+      توفي الشيخ أبو العباس أحمد ابن عجيبة الحسني الأنجري —
+      صوفي مالكي شاذلي درقاوي في المغرب أواخر العصر العثماني،
+      ومصنف «البحر المديد في تفسير القرآن المجيد»، تفسير
+      متعدد المجلدات يجمع بين تفسير المأثور السني الكلاسيكي
+      والقراءات الروحية للتراث الصوفي السني — في خلوته قرب
+      تطوان في جائحة طاعون. وقد ناهز الستين. وكتابه «الفهرسة»
+      من القلة من التراجم الذاتية لمشايخ الصوفية المغربية في
+      العصر الحديث المبكر يصور التدريب والاشتباك الفكري
+      والتطور الروحي. وشرح «الحكم» لابن عطاء الله الإسكندري
+      شرحاً موسعاً (شرحه «إيقاظ الهمم» من أوسع الشروح
+      انتشاراً). أما تفسيره — وهو متواضع الطول قياساً بتفسير
+      الواحدي أو الرازي — فصار مرجعاً كلاسيكياً في تراث تفسير
+      أواخر العصر العثماني المغربي.
+    description_fr: |
+      Abu al-ʿAbbās Aḥmad ibn ʿAjība al-Ḥasanī al-Anjarī —
+      shaykh soufi malikite de la sous-branche Darqāwī de la
+      *ṭarīqa Shādhiliyya* au Maroc de la fin de l'ère
+      ottomane, et auteur d'*al-Baḥr al-Madīd fī Tafsīr al-
+      Qurʾān al-Majīd* (la Vaste Mer dans le Commentaire du
+      Glorieux Coran), un tafsir multi-volumes qui synthétise
+      le *tafsīr bi-l-maʾthūr* sunnite classique avec les
+      lectures spirituelles de la tradition soufie sunnite —
+      mourut à son retraite près de Tétouan durant une épidémie
+      de peste. Il avait environ 60 ans. Son autobiographie
+      *al-Fahrasa* fournit l'un des rares récits personnels de
+      la formation, de l'engagement intellectuel et du
+      développement spirituel d'un shaykh soufi maghrébin
+      moderne précoce. Il commenta abondamment les *Ḥikam*
+      d'Ibn ʿAṭāʾillāh (son commentaire *Iqāẓ al-Himam* est
+      parmi les plus diffusés). Son tafsir, modeste en longueur
+      comparé à ceux d'al-Wāḥidī ou d'al-Rāzī, devint une
+      référence classique dans la tradition de tafsir maghrébine
+      de la fin de l'ère ottomane.
+    canonical_hijri: {year: 1224, precision: year}
+    canonical_gregorian: {date: 1809-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ibn-ajiba, subject], [ibn-ataillah, subject]]
+    tags: [maliki, shadhili, darqawi, morocco, tetouan, tafsir, ottoman]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_ibn_Ajiba"
+
+  - slug: death-of-al-zabidi
+    category: scholar
+    title_en: Death of al-Zabidi — author of Taj al-ʿArus
+    title_ar: وفاة الزبيدي — صاحب «تاج العروس»
+    title_fr: Mort d'al-Zabīdī — auteur de *Tāj al-ʿArūs*
+    description_en: |
+      al-Sayyid Murtaḍa al-Zabidi — Yemeni-born Hanafi muḥaddith
+      and lexicographer who emigrated to Cairo, foremost
+      contemporary lexicographer of his age, and author of two
+      monumental encyclopedic works: *Taj al-ʿArus min Jawahir
+      al-Qamus* (the Crown of the Bride from the Jewels of the
+      Qamus, a forty-volume commentary-elaboration on al-
+      Fayruzabadi's *al-Qamus al-Muḥit* — the most extensive
+      Arabic-Arabic dictionary ever compiled) and *Itḥaf al-
+      Sada al-Muttaqin* (the Gift to the Pious Masters, a ten-
+      volume commentary on al-Ghazali's *Iḥyaʾ ʿUlum al-Din*)
+      — died in Cairo during a plague outbreak at age about
+      60. *Taj al-ʿArus* preserves rare and obsolete Arabic
+      vocabulary that survives nowhere else; it is the
+      indispensable reference for advanced Arabic philology to
+      this day. *Itḥaf al-Sada* is the most thorough
+      verification of the hadith citations in the *Iḥyaʾ*
+      (which had been criticised by earlier scholars including
+      Ibn Taymiyya for using weak narrations); it remains the
+      standard apparatus for studying al-Ghazali's masterwork.
+    description_ar: |
+      توفي السيد المرتضى الزبيدي — محدث ولغوي حنفي يمني
+      المنشأ، هاجر إلى القاهرة، وأكبر معجمي عصره، ومصنف
+      كتابين موسوعيين ضخمين: «تاج العروس من جواهر القاموس»
+      (في أربعين مجلداً، شرح وتوسعة لـ«القاموس المحيط»
+      للفيروزآبادي — أوسع معجم عربي-عربي ألف على الإطلاق)،
+      و«إتحاف السادة المتقين» (في عشرة مجلدات، شرح
+      «إحياء علوم الدين» للإمام الغزالي) — بالقاهرة في
+      جائحة طاعون عن نحو ستين سنة. وحفظ «تاج العروس» مفردات
+      عربية نادرة ومهجورة لا توجد في غيره؛ وهو المرجع الذي
+      لا غنى عنه في فقه اللغة العربية الراقي إلى اليوم.
+      أما «إتحاف السادة المتقين» فأدق تخريج لأحاديث «الإحياء»
+      (الذي انتقد عليه السابقون من أمثال ابن تيمية استخدام
+      روايات ضعيفة)؛ وهو المعدّ المعتمد لدراسة عمل الغزالي
+      الكبير.
+    description_fr: |
+      al-Sayyid Murtaḍā al-Zabīdī — muḥaddith et lexicographe
+      hanafite né au Yémen qui émigra au Caire, principal
+      lexicographe contemporain de son âge, et auteur de deux
+      œuvres encyclopédiques monumentales : *Tāj al-ʿArūs min
+      Jawāhir al-Qāmūs* (la Couronne de la Mariée parmi les
+      Joyaux du Qāmūs, un commentaire-élaboration en quarante
+      volumes du *al-Qāmūs al-Muḥīṭ* d'al-Fayrūzābādī — le
+      dictionnaire arabe-arabe le plus exhaustif jamais
+      compilé) et *Itḥāf al-Sāda al-Muttaqīn* (le Cadeau aux
+      Maîtres Pieux, un commentaire en dix volumes de l'*Iḥyāʾ
+      ʿUlūm al-Dīn* d'al-Ghazālī) — mourut au Caire durant une
+      épidémie de peste à l'âge d'environ 60 ans. *Tāj al-ʿArūs*
+      préserve un vocabulaire arabe rare et obsolète qui ne
+      survit nulle part ailleurs; c'est la référence
+      indispensable pour la philologie arabe avancée à ce jour.
+      *Itḥāf al-Sāda* est la vérification la plus minutieuse des
+      citations de hadiths dans l'*Iḥyāʾ* (qui avait été
+      critiqué par des savants antérieurs dont Ibn Taymiyya
+      pour l'usage de narrations faibles); il demeure l'appareil
+      standard pour étudier le chef-d'œuvre d'al-Ghazālī.
+    canonical_hijri: {year: 1205, month: 8, day: 14, precision: day}
+    canonical_gregorian: {date: 1791-04-17, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-zabidi, subject], [al-ghazali, subject]]
+    tags: [hanafi, lexicography, cairo, ottoman, taj-al-arus, ihyaʾ]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Murtada_al-Zabidi"
+
+  - slug: death-of-hasan-al-attar
+    category: scholar
+    title_en: Death of Ḥasan al-ʿAṭṭar — Modernizing Shaykh of al-Azhar
+    title_ar: وفاة حسن العطار — شيخ الأزهر المجدد
+    title_fr: Mort de Ḥasan al-ʿAṭṭār — shaykh modernisateur d'al-Azhar
+    description_en: |
+      Ḥasan ibn Muhammad al-ʿAṭṭar al-Khalwati — Egyptian Sunni
+      Shafiʿi-Ashʿari polymath and Shaykh of al-Azhar (1247-
+      1250 AH / 1830-1834 CE), the first 19th-century Azhar
+      head to seriously engage with European intellectual
+      production — died in Cairo at age about 70. He spent
+      years in Damascus and Istanbul during his early career,
+      maintaining correspondence with Ottoman Sunni
+      contemporaries; back at al-Azhar he was the principal
+      teacher of Rifaʿa al-Tahṭawi (whose Paris mission and
+      *Takhliṣ al-Ibriz* would inaugurate Arab cultural
+      modernism). He encouraged the founding of the Bulaq
+      printing press and the introduction of European-style
+      book-printing of classical Arabic texts. His own works
+      include the *Ḥashiya* on Aḥmad al-Damanhuri's *Sharḥ al-
+      Sullam fi al-Manṭiq* (a logic textbook), poetry collections,
+      and a *Maqamat* in classical Arabic. He represents the
+      bridge between late-classical Azhari scholarship and the
+      modernist Arab cultural movement of the 19th century.
+    description_ar: |
+      توفي الشيخ حسن بن محمد العطار الخلوتي — موسوعي مصري سني
+      شافعي أشعري وشيخ الجامع الأزهر (١٢٤٧-١٢٥٠ هـ / ١٨٣٠-
+      ١٨٣٤ ميلادي)، وأول شيخ للأزهر في القرن التاسع عشر
+      اشتبك جدياً بالإنتاج الفكري الأوروبي — بالقاهرة عن نحو
+      سبعين سنة. أمضى سنوات بدمشق وإسطنبول في أول عهده،
+      مراسلاً معاصريه السنة العثمانيين؛ وعند عودته إلى الأزهر
+      كان شيخ رفاعة الطهطاوي الأكبر (الذي ستكون بعثته إلى
+      باريس وكتابه «تخليص الإبريز» مفتتح الحداثة الثقافية
+      العربية). وشجع تأسيس مطبعة بولاق وإدخال طباعة الكتب
+      على النمط الأوروبي للنصوص العربية الكلاسيكية. وأعماله
+      الخاصة منها «الحاشية» على «شرح السلم في المنطق» لأحمد
+      الدمنهوري (مقرر في علم المنطق)، ودواوين شعر، و«مقامات»
+      بالعربية الكلاسيكية. وهو الجسر بين علم الأزهر الكلاسيكي
+      المتأخر والحركة الثقافية الإصلاحية العربية في القرن
+      التاسع عشر.
+    description_fr: |
+      Ḥasan ibn Muḥammad al-ʿAṭṭār al-Khalwatī — polymathe
+      sunnite égyptien shāfiʿite-ashʿarite et Shaykh d'al-Azhar
+      (1247-1250 H / 1830-1834 EC), le premier dirigeant
+      azhari du XIXe siècle à s'engager sérieusement avec la
+      production intellectuelle européenne — mourut au Caire
+      à l'âge d'environ 70 ans. Il passa des années à Damas et
+      à Istanbul au début de sa carrière, entretenant
+      correspondance avec ses contemporains sunnites ottomans;
+      de retour à al-Azhar il fut le principal enseignant de
+      Rifāʿa al-Ṭahṭāwī (dont la mission parisienne et le
+      *Takhlīṣ al-Ibrīz* inaugureraient le modernisme culturel
+      arabe). Il encouragea la fondation de l'imprimerie de
+      Bulaq et l'introduction de l'imprimerie européenne des
+      textes arabes classiques. Ses œuvres propres incluent la
+      *Ḥāshiya* sur le *Sharḥ al-Sullam fī al-Manṭiq* d'Aḥmad
+      al-Damanhūrī (un manuel de logique), des recueils de
+      poésie et des *Maqāmāt* en arabe classique. Il représente
+      le pont entre l'érudition azharie tardo-classique et le
+      mouvement culturel réformiste arabe du XIXe siècle.
+    canonical_hijri: {year: 1250, month: 1, day: 19, precision: day}
+    canonical_gregorian: {date: 1834-05-28, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[hasan-al-attar, subject]]
+    tags: [shafii, ashari, azhar, cairo, egypt, ottoman, tahtawi, modern]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hasan_al-Attar"
+
+  # =========================================================================
+  # MUHADDITHUN + MUJTAHID + ZOOLOGIST
+  # =========================================================================
+
+  - slug: death-of-al-tabrizi
+    category: scholar
+    title_en: Death of Wali al-Din al-Tabrizi — author of Mishkat al-Maṣabiḥ
+    title_ar: وفاة ولي الدين التبريزي — صاحب «مشكاة المصابيح»
+    title_fr: Mort de Walī al-Dīn al-Tabrīzī — auteur de *Mishkāt al-Maṣābīḥ*
+    description_en: |
+      Wali al-Din Muhammad ibn ʿAbdullah al-Khaṭib al-Tabrizi —
+      Persian-born Sunni Shafiʿi muḥaddith of Tabriz, author of
+      *Mishkat al-Maṣabiḥ* — the most-circulated Sunni hadith
+      compendium for non-specialists in classical Sunni
+      circulation, from the Indian subcontinent to North
+      Africa — died around 737 AH. *Mishkat al-Maṣabiḥ*
+      reorganises and expands al-Baghawi's earlier *Maṣabiḥ
+      al-Sunna* by adding hadiths from beyond the Six Books
+      and providing systematic chapter-organisation; the work
+      runs to about 6,000 hadiths. Mulla ʿAli al-Qari's
+      *Mirqat al-Mafatiḥ* (a commentary in eleven volumes) is
+      the most authoritative classical commentary on it. The
+      *Mishkat* became the standard hadith textbook of
+      Mughal-era and Ottoman-era madrasa systems; in the
+      Indian subcontinent it remains a primary intermediate
+      hadith text taught at Deobandi and Barelvi seminaries.
+    description_ar: |
+      توفي الإمام ولي الدين محمد بن عبد الله الخطيب التبريزي —
+      محدث سني شافعي فارسي المنشأ من تبريز، ومصنف «مشكاة
+      المصابيح» — أوسع متن حديث سني عند غير المتخصصين انتشاراً
+      في الدوران السني الكلاسيكي، من شبه القارة الهندية إلى
+      شمال أفريقيا — نحو سنة ٧٣٧ هـ. ويعيد «مشكاة المصابيح»
+      ترتيب وتوسيع «مصابيح السنة» السابق للبغوي بإضافة أحاديث
+      من خارج الكتب الستة وترتيبها على أبواب منهجية؛ ويستوعب
+      الكتاب نحو ستة آلاف حديث. و«مرقاة المفاتيح» لملا علي
+      القاري (شرح في أحد عشر مجلداً) هو أعلى الشروح الكلاسيكية
+      اعتماداً عليه. وصارت «المشكاة» المتن الحديثي المعياري
+      في نظم مدارس عصري المغول العثمانيين؛ وفي شبه القارة
+      الهندية ما زال متناً حديثياً متوسطاً يُدرّس في معاهد
+      الديوبندية والبريلوية.
+    description_fr: |
+      Walī al-Dīn Muḥammad ibn ʿAbdullāh al-Khaṭīb al-Tabrīzī —
+      muḥaddith sunnite shāfiʿite né en Perse de Tabriz, auteur
+      du *Mishkāt al-Maṣābīḥ* — le compendium de hadith sunnite
+      le plus diffusé pour les non-spécialistes dans la
+      circulation sunnite classique, du sous-continent indien
+      à l'Afrique du Nord — mourut vers 737 H. *Mishkāt al-
+      Maṣābīḥ* réorganise et élargit le *Maṣābīḥ al-Sunna*
+      antérieur d'al-Baghawī en ajoutant des hadiths au-delà
+      des Six Livres et en fournissant une organisation
+      systématique par chapitres; l'ouvrage atteint environ
+      6 000 hadiths. Le *Mirqāt al-Mafātīḥ* de Mullā ʿAlī al-
+      Qārī (un commentaire en onze volumes) en est le
+      commentaire classique le plus autoritatif. Le *Mishkāt*
+      devint le manuel de hadith standard des systèmes de
+      madrasas de l'ère moghole et de l'ère ottomane; dans le
+      sous-continent indien il demeure un texte intermédiaire
+      principal de hadith enseigné aux séminaires deobandites
+      et barelwites.
+    canonical_hijri: {year: 737, precision: year}
+    canonical_gregorian: {date: 1337-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: ei2
+    people: [[al-tabrizi, subject], [al-baghawi, subject]]
+    tags: [shafii, hadith, mishkat, tabriz, ilkhanid, persia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mishkat_al-Masabih"
+
+  - slug: death-of-ibn-daqiq-al-id
+    category: scholar
+    title_en: Death of Ibn Daqiq al-ʿId — Mujtahid Mutlaq
+    title_ar: وفاة ابن دقيق العيد — المجتهد المطلق
+    title_fr: Mort d'Ibn Daqīq al-ʿĪd — mujtahid muṭlaq
+    description_en: |
+      Taqi al-Din Abu al-Fatḥ Muhammad ibn ʿAli ibn Daqiq al-
+      ʿId al-Qushayri — Egyptian-born Sunni jurist trained in
+      both Maliki and Shafiʿi madhāhib, qaḍi al-quḍa of Egypt
+      under the Mamluks, and the scholar widely acknowledged
+      across Sunni doxography as a *mujtahid muṭlaq* —
+      independent in his juristic reasoning rather than
+      bound to a single madhhab — died in Cairo at age about
+      77. His *Iḥkam al-Aḥkam Sharḥ ʿUmdat al-Aḥkam* (a fiqh
+      commentary on ʿAbd al-Ghani al-Maqdisi's hadith digest)
+      is the foundational reference of late-Mamluk Sunni
+      hadith-law synthesis; his *al-Iqtirah fi Bayan al-
+      Iṣṭilaḥ* (on hadith methodology) was praised by Ibn
+      Hajar al-ʿAsqalani as the most refined of all post-Ibn
+      al-Ṣalaḥ methodological treatises. He served as qaḍi
+      with notorious refusal of stipend, lived in personal
+      poverty despite the office, and was a model of the
+      independent-minded Sunni jurist that the Sunni canon
+      has held as a regulating archetype.
+    description_ar: |
+      توفي القاضي تقي الدين أبو الفتح محمد بن علي ابن دقيق العيد
+      القشيري — فقيه سني مصري المنشأ، تلقى الفقه على المالكية
+      والشافعية معاً، وقاضي قضاة مصر في عصر المماليك،
+      والعالم الذي اتفقت كتب الطبقات السنية على أنه «مجتهد
+      مطلق» — لا متقيد بمذهب — بالقاهرة عن نحو سبع وسبعين
+      سنة. وكتابه «إحكام الأحكام شرح عمدة الأحكام» (شرح فقهي
+      على متن الحديث لعبد الغني المقدسي) المرجع الأصلي في
+      الجمع بين الحديث والفقه السني في أواخر المماليك؛ و«الاقتراح
+      في بيان الاصطلاح» (في مصطلح الحديث) أثنى عليه ابن حجر
+      العسقلاني بأنه أحكم متن مصطلح بعد ابن الصلاح. وعمل
+      قاضياً مع رفضه الراتب علناً، وعاش في فقر شخصي مع تولّيه
+      المنصب، وهو نموذج للفقيه السني المستقل الذي حفظه التراث
+      السني نموذجاً ضابطاً.
+    description_fr: |
+      Taqī al-Dīn Abū al-Fatḥ Muḥammad ibn ʿAlī ibn Daqīq al-
+      ʿĪd al-Qushayrī — juriste sunnite né en Égypte formé aux
+      écoles malikite et shāfiʿite, *qāḍī al-quḍāʾ* d'Égypte
+      sous les Mamelouks, et le savant largement reconnu à
+      travers la doxographie sunnite comme *mujtahid muṭlaq* —
+      indépendant dans son raisonnement juristique plutôt que
+      lié à un madhhab unique — mourut au Caire à l'âge
+      d'environ 77 ans. Son *Iḥkām al-Aḥkām Sharḥ ʿUmdat al-
+      Aḥkām* (un commentaire fiqh sur le condensé de hadiths
+      d'ʿAbd al-Ghanī al-Maqdisī) est la référence fondatrice
+      de la synthèse hadith-droit sunnite mamelouke tardive;
+      son *al-Iqtirāḥ fī Bayān al-Iṣṭilāḥ* (sur la méthodologie
+      du hadith) fut loué par Ibn Ḥajar al-ʿAsqalānī comme le
+      plus raffiné de tous les traités méthodologiques post-
+      Ibn al-Ṣalāḥ. Il servit comme *qāḍī* avec un refus
+      notoire de stipendia, vécut dans la pauvreté personnelle
+      malgré la charge, et fut un modèle du juriste sunnite
+      indépendant que le canon sunnite a retenu comme archétype
+      régulateur.
+    canonical_hijri: {year: 702, month: 1, day: 11, precision: day}
+    canonical_gregorian: {date: 1302-09-04, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+    people: [[ibn-daqiq-al-id, subject]]
+    tags: [shafii, maliki, mujtahid, cairo, mamluk, hadith]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Daqiq_al-Id"
+
+  - slug: death-of-al-damiri
+    category: scholar
+    title_en: Death of al-Damiri — Author of Ḥayat al-Ḥayawan
+    title_ar: وفاة الدميري — صاحب «حياة الحيوان»
+    title_fr: Mort d'al-Damīrī — auteur de *Ḥayāt al-Ḥayawān*
+    description_en: |
+      Kamal al-Din Muhammad ibn Musa al-Damiri — Egyptian
+      Shafiʿi-trained Sunni scholar and author of *Ḥayat al-
+      Ḥayawan al-Kubra* (the Greater Life of Animals), the
+      most extensive zoological-folkloric encyclopedia of the
+      classical Sunni tradition — died in Cairo at age about
+      66. *Ḥayat al-Ḥayawan* in two volumes catalogues 1,069
+      animal species (real and legendary) with full
+      descriptions of their physical characteristics, habits,
+      legal rulings on their consumption (Sharia category by
+      animal), the hadiths in which they appear, the proverbs
+      built around them, the medicinal applications of their
+      parts, and dream-interpretation associations. The work
+      synthesises the classical zoological tradition (al-Jaḥiẓ's
+      *Kitab al-Ḥayawan*, al-Qazwini's *ʿAjaʾib al-Makhluqat*)
+      with Sunni jurisprudential discussion of each species.
+      It served as both a popular reference and a Shafiʿi fiqh
+      manual on animal-related rulings; al-Damiri's other major
+      work, *al-Najm al-Wahhaj*, is a Shafiʿi commentary on al-
+      Nawawi's *Minhaj al-Ṭalibin*.
+    description_ar: |
+      توفي الإمام كمال الدين محمد بن موسى الدميري — عالم سني
+      مصري متخرج على الشافعية، ومصنف «حياة الحيوان الكبرى» —
+      أوسع موسوعة في علم الحيوان والفلكلور في التراث السني
+      الكلاسيكي — بالقاهرة عن نحو ست وستين سنة. ويفهرس «حياة
+      الحيوان» في مجلدين ١٠٦٩ نوعاً من الحيوان (حقيقياً
+      وأسطورياً) بأوصاف كاملة لخصائصها الجسدية وعاداتها
+      وأحكامها الفقهية في الأكل (تصنيف الشريعة بحسب الحيوان)
+      والأحاديث الواردة فيها والأمثال المضروبة بها والاستعمالات
+      الدوائية لأجزائها والإحالات في تعبير الرؤيا. ويجمع
+      الكتاب التراث الزولوجي الكلاسيكي («كتاب الحيوان» للجاحظ
+      و«عجائب المخلوقات» للقزويني) إلى البحث الفقهي السني
+      لكل نوع. وخدم في آن واحد مرجعاً شعبياً وكتاب فقه شافعي
+      في الأحكام الحيوانية. وعمله الآخر «النجم الوهاج» شرح
+      شافعي على «منهاج الطالبين» للنووي.
+    description_fr: |
+      Kamāl al-Dīn Muḥammad ibn Mūsā al-Damīrī — savant sunnite
+      égyptien formé à l'école shāfiʿite et auteur de *Ḥayāt
+      al-Ḥayawān al-Kubrā* (la Grande Vie des Animaux),
+      l'encyclopédie zoologico-folklorique la plus exhaustive
+      de la tradition sunnite classique — mourut au Caire à
+      l'âge d'environ 66 ans. *Ḥayāt al-Ḥayawān* en deux volumes
+      catalogue 1 069 espèces animales (réelles et légendaires)
+      avec des descriptions complètes de leurs caractéristiques
+      physiques, leurs habitudes, les jugements juridiques sur
+      leur consommation (catégorie de la *sharīʿa* par animal),
+      les hadiths où elles apparaissent, les proverbes
+      construits autour d'elles, les applications médicinales
+      de leurs parties, et les associations en interprétation
+      des rêves. L'ouvrage synthétise la tradition zoologique
+      classique (*Kitāb al-Ḥayawān* d'al-Jāḥiẓ, *ʿAjāʾib al-
+      Makhlūqāt* d'al-Qazwīnī) avec la discussion
+      jurisprudentielle sunnite de chaque espèce. Il servit à
+      la fois de référence populaire et de manuel de fiqh
+      shāfiʿite sur les jugements relatifs aux animaux. Son
+      autre œuvre majeure, *al-Najm al-Wahhāj*, est un
+      commentaire shāfiʿite du *Minhāj al-Ṭālibīn* d'al-Nawawī.
+    canonical_hijri: {year: 808, month: 3, day: 3, precision: day}
+    canonical_gregorian: {date: 1405-08-29, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[al-damiri, subject]]
+    tags: [shafii, zoology, cairo, mamluk, encyclopedia, fiqh]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Damiri"
+
+  - slug: death-of-ibn-al-mulaqqin
+    category: scholar
+    title_en: Death of Ibn al-Mulaqqin — Shafiʿi Hadith Master
+    title_ar: وفاة ابن الملقن — حافظ الشافعية
+    title_fr: Mort d'Ibn al-Mulaqqin — maître shāfiʿite du hadith
+    description_en: |
+      Siraj al-Din Abu Hafs ʿUmar ibn ʿAli ibn al-Mulaqqin —
+      Egyptian Shafiʿi muḥaddith of late-Mamluk Cairo, one of
+      the most prolific authors in classical Sunni history
+      (his works exceed 300 titles), and master of Ibn Hajar
+      al-ʿAsqalani — died in Cairo during a plague outbreak at
+      age about 81. His major works include *al-Tawḍiḥ li-
+      Sharḥ al-Jamiʿ al-Ṣaḥiḥ* (a 35-volume commentary on
+      Sahih al-Bukhari, the most extensive Shafiʿi commentary
+      on the work outside Ibn Hajar's *Fatḥ al-Bari*), *al-
+      Badr al-Munir fi Takhrij al-Aḥadith wa-l-Athar* (an 11-
+      volume verification of the hadith citations in al-Rafiʿi's
+      Shafiʿi fiqh manual), and *Mukhtaṣar Tadhkirat al-
+      Mawḍuʿat* (an abridgement of forged-hadith literature).
+      Through his prodigious output and his teaching of Ibn
+      Hajar he is one of the principal nodes by which late-
+      classical Sunni hadith scholarship reached the early
+      Ottoman generation.
+    description_ar: |
+      توفي الإمام سراج الدين أبو حفص عمر بن علي ابن الملقن —
+      محدث شافعي مصري في أواخر المماليك بالقاهرة، وأحد أوفر
+      المصنفين في تاريخ السنة الكلاسيكي (تجاوزت كتبه ثلاث مئة
+      عنوان)، وشيخ ابن حجر العسقلاني — بالقاهرة في جائحة
+      طاعون عن نحو إحدى وثمانين سنة. ومن أبرز كتبه: «التوضيح
+      لشرح الجامع الصحيح» (شرح في خمسة وثلاثين مجلداً على
+      «صحيح البخاري»، أوسع شرح شافعي على الكتاب خارج «فتح
+      الباري» لابن حجر)، و«البدر المنير في تخريج الأحاديث
+      والآثار» (تخريج في أحد عشر مجلداً لأحاديث «شرح الكبير»
+      الفقهي للرافعي الشافعي)، و«مختصر تذكرة الموضوعات»
+      (مختصر في كتب الموضوعات). وعبر إنتاجه الضخم وتدريسه
+      ابن حجر صار من العقد الكبرى التي وصل بها تراث الحديث
+      السني الكلاسيكي المتأخر إلى الجيل العثماني المبكر.
+    description_fr: |
+      Sirāj al-Dīn Abu Ḥafṣ ʿUmar ibn ʿAlī ibn al-Mulaqqin —
+      muḥaddith shāfiʿite égyptien du Caire mamelouk tardif,
+      l'un des auteurs les plus prolifiques de l'histoire
+      sunnite classique (ses œuvres dépassent 300 titres), et
+      maître d'Ibn Ḥajar al-ʿAsqalānī — mourut au Caire durant
+      une épidémie de peste à l'âge d'environ 81 ans. Ses
+      œuvres majeures incluent *al-Tawḍīḥ li-Sharḥ al-Jāmiʿ al-
+      Ṣaḥīḥ* (un commentaire en 35 volumes sur le Ṣaḥīḥ d'al-
+      Bukhārī, le commentaire shāfiʿite le plus exhaustif de
+      l'ouvrage en dehors du *Fatḥ al-Bārī* d'Ibn Ḥajar), *al-
+      Badr al-Munīr fī Takhrīj al-Aḥādīth wa-l-Athār* (une
+      vérification en 11 volumes des citations de hadiths dans
+      le manuel de fiqh shāfiʿite d'al-Rāfiʿī), et *Mukhtaṣar
+      Tadhkirat al-Mawḍūʿāt* (un abrégé de la littérature des
+      hadiths forgés). À travers sa production prodigieuse et
+      son enseignement d'Ibn Ḥajar, il est l'un des principaux
+      nœuds par lesquels l'érudition sunnite tardo-classique
+      du hadith parvint à la génération ottomane précoce.
+    canonical_hijri: {year: 804, month: 3, day: 16, precision: day}
+    canonical_gregorian: {date: 1401-10-25, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[ibn-al-mulaqqin, subject], [ibn-hajar-al-asqalani, subject]]
+    tags: [shafii, hadith, cairo, mamluk, plague, prolific]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Mulaqqin"
+
+  # =========================================================================
+  # INDIAN DEOBANDI MUHADDITH + LIBERATION OF ACRE
+  # =========================================================================
+
+  - slug: death-of-anwar-shah-al-kashmiri
+    category: scholar
+    title_en: Death of Anwar Shah al-Kashmiri
+    title_ar: وفاة أنور شاه الكشميري
+    title_fr: Mort d'Anwar Shāh al-Kashmīrī
+    description_en: |
+      Anwar Shah al-Kashmiri — Indian Sunni Hanafi-Maturidi
+      muḥaddith, principal teacher of hadith at the Dār al-
+      ʿUlum Deoband for sixteen years, and the foremost
+      twentieth-century Indian commentator on Ṣaḥiḥ al-Bukhari
+      — died in Deoband at age about 60. His four-volume
+      *Fayḍ al-Bari ʿala Ṣaḥiḥ al-Bukhari* (assembled by his
+      students from his Bukhari lectures) is among the most
+      cited modern Hanafi commentaries on the Bukhari hadith
+      corpus; his treatise *Khatm al-Nabiyyin* (the Seal of the
+      Prophets) was a foundational Indian Sunni response to
+      the Aḥmadiyya movement's claim of post-Prophetic
+      revelation. He emigrated from Kashmir to Deoband as a
+      student and remained there for the rest of his life,
+      teaching generations of Deobandi-tradition scholars
+      (including the later Pakistani-Indian muḥaddithun
+      Maḥmud al-Ḥasan Kandhlawi and Muhammad Zakariyya
+      Kandhlawi). Modern Indian Hanafi orthodoxy remains
+      decisively shaped by his transmission of late-classical
+      and Mughal-era hadith scholarship.
+    description_ar: |
+      توفي الشيخ أنور شاه الكشميري — محدث سني هندي حنفي
+      ماتريدي، شيخ الحديث بدار العلوم ديوبند ست عشرة سنة،
+      وأكبر شارح هندي لـ«صحيح البخاري» في القرن العشرين —
+      بديوبند عن نحو ستين سنة. وكتابه «فيض الباري على صحيح
+      البخاري» في أربعة مجلدات (جمعه طلابه من دروسه على
+      البخاري) من أكثر شروح البخاري الحنفية الحديثة إحالة
+      عليه؛ ورسالته «خاتم النبيين» في ختم الأنبياء هي رد
+      هندي سني أساسي على ادعاء الحركة الأحمدية النبوة بعد
+      النبي ﷺ. هاجر من كشمير إلى ديوبند طالباً وأقام بها
+      بقية عمره، فدرّس أجيالاً من علماء التراث الديوبندي
+      (منهم المحدثان الباكستانيان-الهنديان محمود الحسن
+      الكاندهلوي ومحمد زكريا الكاندهلوي). ولا تزال العقيدة
+      السنية الهندية الحنفية الحديثة متشكلة بصورة حاسمة
+      بنقله للعلم الحديثي السني المتأخر والعصر المغولي.
+    description_fr: |
+      Anwar Shāh al-Kashmīrī — muḥaddith sunnite indien
+      hanafite-māturīdite, principal enseignant du hadith à
+      Dār al-ʿUlūm Deoband pendant seize ans, et le commentateur
+      indien du XXe siècle le plus éminent du Ṣaḥīḥ al-Bukhārī
+      — mourut à Deoband à l'âge d'environ 60 ans. Son *Fayḍ
+      al-Bārī ʿalā Ṣaḥīḥ al-Bukhārī* en quatre volumes (assemblé
+      par ses élèves à partir de ses leçons sur al-Bukhārī)
+      est parmi les commentaires hanafites modernes les plus
+      cités sur le corpus de hadiths d'al-Bukhārī; son traité
+      *Khatm al-Nabiyyīn* (le Sceau des Prophètes) fut une
+      réponse sunnite indienne fondatrice à la revendication
+      du mouvement aḥmadiyya d'une révélation post-prophétique.
+      Il émigra du Cachemire à Deoband comme étudiant et y
+      demeura le reste de sa vie, enseignant des générations
+      de savants de la tradition deobandie (dont les muḥaddithūn
+      pakistano-indiens ultérieurs Maḥmūd al-Ḥasan Kandhlawī
+      et Muḥammad Zakariyyā Kandhlawī). L'orthodoxie hanafite
+      indienne moderne demeure façonnée de manière décisive
+      par sa transmission de l'érudition hadith sunnite
+      tardo-classique et de l'ère moghole.
+    canonical_hijri: {year: 1352, month: 10, day: 3, precision: day}
+    canonical_gregorian: {date: 1933-05-28, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[anwar-shah-al-kashmiri, subject]]
+    tags: [hanafi, deobandi, india, kashmir, hadith, modern, ahmadiyya]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Anwar_Shah_Kashmiri"
+
+  - slug: liberation-of-acre
+    category: conquest
+    title_en: Liberation of Acre — End of Crusader Outremer
+    title_ar: تحرير عكا — نهاية الوجود الصليبي بالشام
+    title_fr: Libération d'Acre — fin de l'Outremer croisé
+    description_en: |
+      The Mamluk army of Sultan al-Ashraf Khalil ibn Qalawun
+      captured the city of Acre on the Levantine coast after
+      a six-week siege, ending two centuries of Crusader
+      political presence in the Levant. The Crusader Kingdom
+      of Jerusalem — which had sustained itself in coastal
+      enclaves for the century since Saladin's reconquest of
+      Jerusalem in 583 AH (1187 CE) — collapsed entirely with
+      Acre's fall: Tyre, Sidon, Beirut, and Tartus were
+      abandoned by the Crusaders within weeks. The campaign
+      was the final operational achievement of the project
+      Qalawun had begun before his death in 689 AH (1290 CE);
+      al-Ashraf Khalil completed it in his father's name. The
+      siege engineers had built the largest assault force the
+      Mamluk state ever assembled, including 92 catapult
+      stations against the city's walls. The fall of Acre
+      cemented the territorial recovery of the entire coastal
+      Levant and is conventionally treated by historians as
+      the formal end of the Crusades.
+    description_ar: |
+      دخل الجيش المملوكي للسلطان الأشرف خليل بن قلاوون مدينة
+      عكا الساحلية بعد حصار ستة أسابيع، فأنهى قرنين من الوجود
+      الصليبي السياسي بالشام. وانهارت مملكة بيت المقدس
+      الصليبية — التي بقيت في جيوب ساحلية القرن الذي مضى منذ
+      استرجاع صلاح الدين الأيوبي القدس سنة ٥٨٣ هـ (١١٨٧
+      ميلادي) — كلياً مع سقوط عكا: فأخلى الصليبيون صور وصيدا
+      وبيروت وطرطوس في أسابيع. وكانت الحملة الإنجاز التشغيلي
+      الأخير لمشروع كان قلاوون قد بدأه قبل وفاته سنة ٦٨٩ هـ
+      (١٢٩٠ ميلادي)؛ وأكمله ابنه الأشرف خليل باسم أبيه. وبنى
+      مهندسو الحصار أكبر قوة هجومية جمعتها دولة المماليك،
+      منها ٩٢ منجنيقاً مرتبة على أسوار المدينة. ورسخ سقوط
+      عكا الاسترجاع الإقليمي للساحل الشامي كله، ويعالجه
+      المؤرخون اصطلاحاً بوصفه النهاية الرسمية للحملات
+      الصليبية.
+    description_fr: |
+      L'armée mamelouke du sultan al-Ashraf Khalīl ibn Qalāwūn
+      s'empara de la ville d'Acre sur la côte levantine après
+      un siège de six semaines, mettant fin à deux siècles de
+      présence politique croisée au Levant. Le royaume croisé
+      de Jérusalem — qui s'était maintenu dans des enclaves
+      côtières pendant le siècle écoulé depuis la reconquête
+      par Saladin de Jérusalem en 583 H (1187 EC) — s'effondra
+      entièrement avec la chute d'Acre : Tyr, Sidon, Beyrouth
+      et Tartous furent abandonnés par les Croisés en l'espace
+      de semaines. La campagne fut l'aboutissement opérationnel
+      final du projet que Qalāwūn avait entrepris avant sa
+      mort en 689 H (1290 EC); al-Ashraf Khalīl le compléta au
+      nom de son père. Les ingénieurs du siège construisirent
+      la plus grande force d'assaut que l'État mamelouk eût
+      jamais rassemblée, dont 92 stations de catapulte contre
+      les murs de la ville. La chute d'Acre cimenta la
+      récupération territoriale de tout le Levant côtier et
+      est conventionnellement traitée par les historiens
+      comme la fin formelle des Croisades.
+    canonical_hijri: {year: 690, month: 6, day: 17, precision: day}
+    canonical_gregorian: {date: 1291-05-18, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-ashraf-khalil, leader], [qalawun, subject]]
+    tags: [mamluk, crusades, acre, levant, qalawun, outremer, end-of-crusades]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siege_of_Acre_(1291)"

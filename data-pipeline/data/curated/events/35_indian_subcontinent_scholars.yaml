@@ -1,0 +1,841 @@
+# Wave 22 of curated event additions (2026-04-27).
+# Indian-subcontinent Sunni scholars and Naqshbandi-Mujaddidi figures of the
+# nineteenth and twentieth centuries — the post–Shah Walīullāh chain that
+# carried Sunni hadith and Hanafi fiqh through the late Mughal collapse,
+# the British Raj, and the partition era. Three categories: (i) the
+# Walīullāhī tradition (Shāh ʿAbd al-ʿAzīz, Sayyid Aḥmad Shahīd); (ii) the
+# Deoband school (al-Nānautwī, al-Gangohī, al-Thānawī, Maḥmūd al-Ḥasan,
+# al-Madanī, Ilyās and Zakariyyā al-Kandhlawī); (iii) the Barelwī branch
+# (Aḥmad Riḍā Khān) and Indian Chishtī revivalism (Ḥasan Niẓāmī,
+# Manāẓir Aḥsan Gīlānī). All twelve are post-classical (post-1800) Sunni
+# figures attested in modern reference works (EI2 + standard biographies);
+# none are sahaba; none carry hadith refs. Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # WALĪULLĀHĪ TRADITION
+  # =========================================================================
+
+  - slug: death-of-shah-abd-al-aziz-al-dihlawi
+    category: scholar
+    title_en: Death of Shāh ʿAbd al-ʿAzīz al-Dihlawī — Successor of Shāh Walīullāh
+    title_ar: وفاة الشاه عبد العزيز الدهلوي — خليفة الشاه ولي الله
+    title_fr: Mort de Shāh ʿAbd al-ʿAzīz al-Dihlawī — successeur de Shāh Walīullāh
+    description_en: |
+      Shāh ʿAbd al-ʿAzīz ibn Aḥmad al-Dihlawī — eldest son of Shāh
+      Walīullāh of Delhi and the central figure of the Walīullāhī
+      tradition in the generation after his father — died at Delhi
+      on 7 Shawwāl 1239 AH (5 June 1824 CE) during the reign of
+      the late Mughal emperor Akbar Shah II. He was about 78. His
+      multi-volume *Tafsīr-i ʿAzīzī*, *Tuḥfa Ithnā ʿAshariyya*
+      (a major Sunni response to Twelver Shia theology), and his
+      collected fatwas circulated across the subcontinent and
+      defined Sunni scholarly orthodoxy in late-Mughal Delhi. He
+      taught the principal figures of the Indian Hadith revival
+      who would in turn shape both the Deoband and Barelwī
+      traditions; his ruling that British India had ceased to be
+      *dār al-Islām* — formulated as the political realities of
+      the Company's expansion became unavoidable — would echo
+      through every nineteenth-century South Asian reform
+      movement.
+    description_ar: |
+      توفي الشاه عبد العزيز بن أحمد الدهلوي — الابن الأكبر للشاه
+      ولي الله الدهلوي، وكبير حاملي علمه في الجيل التالي له —
+      بدلهي يوم ٧ شوال سنة ١٢٣٩ هـ (الموافق ٥ جوان ١٨٢٤
+      ميلادي) في عهد آخر سلاطين المغول الإمبراطور أكبر شاه
+      الثاني. وقد ناهز الثامنة والسبعين. وكتب «تفسير عزيزي»
+      في عدة مجلدات و«تحفة اثنا عشرية» (وهو من أكبر الردود
+      السنية على الكلام الإمامي الإثنا عشري) ومجموع فتاويه
+      تداولتها مدارس شبه القارة الهندية وقعّدت العقيدة السنية
+      المعتمدة في دلهي المغولية المتأخرة. وعلى يديه تخرّج كبار
+      رجال الحركة الحديثية الهندية الذين أسسوا لاحقاً المدرستين
+      الديوبندية والبريلوية؛ وفتواه الشهيرة بأن الهند البريطانية
+      خرجت عن كونها «دار إسلام» — صدرت حين صار توسّع شركة
+      الهند الشرقية واقعاً لا مفرّ منه — ظلّت مرجعاً لكل حركات
+      الإصلاح في شبه القارة في القرن التاسع عشر.
+    description_fr: |
+      Shāh ʿAbd al-ʿAzīz ibn Aḥmad al-Dihlawī — fils aîné de
+      Shāh Walīullāh de Delhi et figure centrale de la tradition
+      walīullāhī dans la génération suivant son père — mourut
+      à Delhi le 7 Shawwāl 1239 H (5 juin 1824 EC) sous le règne
+      du dernier empereur moghol Akbar Shāh II. Il avait environ
+      78 ans. Son *Tafsīr-i ʿAzīzī* en plusieurs volumes, sa
+      *Tuḥfa Ithnā ʿAshariyya* (réponse sunnite majeure à la
+      théologie chiite duodécimaine) et ses fatwas recueillies
+      circulèrent à travers tout le sous-continent et définirent
+      l'orthodoxie savante sunnite dans le Delhi mogholo-tardif.
+      Il forma les principales figures du renouveau du hadith
+      indien qui façonneraient à leur tour les traditions
+      deobandie et barelwie; sa fatwa déclarant que l'Inde
+      britannique avait cessé d'être *dār al-Islām* — formulée
+      lorsque l'expansion de la Compagnie devint une réalité
+      incontournable — résonnerait à travers tous les mouvements
+      réformateurs sud-asiatiques du XIXe siècle.
+    canonical_hijri: {year: 1239, month: 10, day: 7, precision: day}
+    canonical_gregorian: {date: 1824-06-05, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[shah-abd-al-aziz-al-dihlawi, subject], [shah-waliullah, subject]]
+    tags: [india, delhi, hanafi, mughal, hadith-revival, walīullāhī]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shah_Abdul_Aziz_Dehlavi"
+
+  - slug: death-of-sayyid-ahmad-shahid-barelwi
+    category: scholar
+    title_en: Death of Sayyid Aḥmad Shahīd Barelwī at Balakot
+    title_ar: استشهاد السيد أحمد الشهيد البريلوي ببالاكوت
+    title_fr: Mort de Sayyid Aḥmad Shahīd Barelwī à Balakot
+    description_en: |
+      Sayyid Aḥmad ibn Muḥammad ʿIrfān al-Barelwī, known after
+      his death as *Shahīd* ("the martyr") — Indian Sunni
+      mujāhid, student of the Walīullāhī tradition through Shāh
+      ʿAbd al-ʿAzīz, leader of a movement of religious reform
+      and armed resistance against the expansion of the Sikh
+      kingdom of Ranjit Singh into the Pashtun frontier — was
+      killed at the Battle of Balakot in the mountains of
+      Mansehra on 23 Dhū al-Qaʿda 1246 AH (6 May 1831 CE)
+      together with his close associate Shāh Ismāʿīl Dihlawī.
+      He was about 45. The *Ṭarīqa Muḥammadiyya* movement he
+      led drew on Walīullāhī teaching, on the *ḥadīth* revival
+      of late-Mughal Delhi, and on the Naqshbandī-Mujaddidī
+      Sufism that had circulated in the subcontinent since
+      Aḥmad Sirhindī. After his death his movement endured —
+      under suppression by both Sikh and British authorities —
+      and shaped the political-religious imagination of Indian
+      Sunni reform throughout the nineteenth century.
+    description_ar: |
+      استشهد السيد أحمد بن محمد عرفان البريلوي — المعروف بعد
+      موته بـ«الشهيد»، وهو مجاهد سني هندي تخرج على تراث
+      الشاه ولي الله من طريق الشاه عبد العزيز، قائد حركة
+      جامعة بين الإصلاح الديني والمقاومة المسلحة لتوسع مملكة
+      السيخ بقيادة رنجيت سينغ في حدود البشتون — في معركة
+      بالاكوت بجبال «مانسيهرا» يوم ٢٣ ذي القعدة سنة ١٢٤٦ هـ
+      (الموافق ٦ ماي ١٨٣١ ميلادي) ومعه صاحبه ومستشاره الشاه
+      إسماعيل الدهلوي. وقد ناهز الخامسة والأربعين. وحركته
+      «الطريقة المحمدية» جمعت بين تعليم الشاه ولي الله،
+      وحركة الحديث في دلهي في أواخر العصر المغولي، والتصوف
+      النقشبندي المجددي الذي ساد في شبه القارة منذ الإمام
+      أحمد السرهندي. وبعد استشهاده استمرت الحركة — في ظل
+      ملاحقة السلطات السيخية ثم البريطانية — وأثرت في الوجدان
+      السياسي والديني للإصلاح السني الهندي طوال القرن التاسع
+      عشر.
+    description_fr: |
+      Sayyid Aḥmad ibn Muḥammad ʿIrfān al-Barelwī, connu après
+      sa mort sous le nom de *Shahīd* (« le martyr ») —
+      mujāhid sunnite indien, élève de la tradition walīullāhī
+      par Shāh ʿAbd al-ʿAzīz, chef d'un mouvement de réforme
+      religieuse et de résistance armée contre l'expansion du
+      royaume sikh de Ranjit Singh dans la frontière pachtoune
+      — fut tué à la bataille de Balakot, dans les montagnes
+      de Mansehra, le 23 Dhū al-Qaʿda 1246 H (6 mai 1831 EC),
+      aux côtés de son proche compagnon Shāh Ismāʿīl Dihlawī.
+      Il avait environ 45 ans. Le mouvement *Ṭarīqa
+      Muḥammadiyya* qu'il dirigea puisait à la fois dans
+      l'enseignement walīullāhī, dans le renouveau du hadith
+      de Delhi à la fin de l'ère moghole, et dans le soufisme
+      naqshbandī-mujaddidī répandu dans le sous-continent
+      depuis Aḥmad Sirhindī. Après sa mort, son mouvement
+      perdura — sous la répression des autorités sikhes puis
+      britanniques — et façonna l'imaginaire politico-religieux
+      de la réforme sunnite indienne durant tout le XIXe siècle.
+    canonical_hijri: {year: 1246, month: 11, day: 23, precision: day}
+    canonical_gregorian: {date: 1831-05-06, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sayyid-ahmad-shahid-barelwi, subject]]
+    tags: [india, balakot, mansehra, walīullāhī, mujahid, sikh-wars, naqshbandi-mujaddidi]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Syed_Ahmad_Barelvi"
+
+  # =========================================================================
+  # DEOBAND — FOUNDERS AND FIRST GENERATION
+  # =========================================================================
+
+  - slug: death-of-muhammad-qasim-al-nanautwi
+    category: scholar
+    title_en: Death of Muḥammad Qāsim al-Nānautwī — Founder of Dār al-ʿUlūm Deoband
+    title_ar: وفاة محمد قاسم النانوتوي — مؤسس دار العلوم ديوبند
+    title_fr: Mort de Muḥammad Qāsim al-Nānautwī — fondateur de Dār al-ʿUlūm Deoband
+    description_en: |
+      Muḥammad Qāsim ibn Asad al-Nānautwī — Indian Sunni Hanafi
+      scholar of the Walīullāhī chain, principal founder of
+      Dār al-ʿUlūm Deoband (established 1283 AH / 1866 CE),
+      and theological architect of what would become the
+      "Deobandī" school of Sunni Islam in South Asia — died
+      at Deoband on 4 Jumādā al-Ūlā 1297 AH (15 April 1880 CE)
+      at age about 47. He had taken hadith and Sunni-Sufi
+      training from Mamlūk ʿAlī Nānautwī and from the senior
+      hadith-master ʿAbd al-Ghanī al-Mujaddidī al-Dihlawī, who
+      tied him into the Naqshbandī-Mujaddidī chain. His
+      *Taqrīr-i Dilpaẕīr* and *Ḥujjat al-Islām* defended Sunni
+      orthodoxy against both the Christian missions of the
+      Raj and the rationalist apologetics emerging at Aligarh.
+      The seminary he founded grew into the largest Hanafi
+      training centre in the Sunni world, with thousands of
+      affiliated madrasas across South Asia, Britain, and the
+      Gulf to the present day.
+    description_ar: |
+      توفي الإمام محمد قاسم بن أسد النانوتوي — العالم السني
+      الهندي على المذهب الحنفي، حامل التراث الولي اللهي،
+      المؤسس الأول لدار العلوم ديوبند (افتُتحت سنة ١٢٨٣ هـ
+      الموافق ١٨٦٦ ميلادي)، والمهندس الكلامي للمدرسة التي
+      ستُعرف بـ«الديوبندية» في فقه أهل السنة بشبه القارة
+      الهندية — بديوبند يوم ٤ جمادى الأولى سنة ١٢٩٧ هـ
+      (الموافق ١٥ أفريل ١٨٨٠ ميلادي) عن نحو سبع وأربعين سنة.
+      وأخذ الحديث والتصوف السني عن مملوك علي النانوتوي وعن
+      كبير المحدثين عبد الغني المجددي الدهلوي الذي وصله
+      بسلسلة الطريقة النقشبندية المجددية. وقد دافع في
+      «تقرير دلپذير» و«حجة الإسلام» عن العقيدة السنية في
+      وجه الدعوات النصرانية في عصر الراج وفي وجه
+      التأويلات العقلانية في كلية عليكره. وتحولت دار العلوم
+      ديوبند إلى أكبر مدرسة للعلوم الحنفية في العالم
+      السني، تتبعها آلاف المدارس في شبه القارة وبريطانيا
+      والخليج إلى يومنا هذا.
+    description_fr: |
+      Muḥammad Qāsim ibn Asad al-Nānautwī — savant sunnite
+      indien hanafite issu de la chaîne walīullāhī, fondateur
+      principal de Dār al-ʿUlūm Deoband (établie en 1283 H /
+      1866 EC), et architecte théologique de ce qui deviendrait
+      l'école « deobandie » de l'islam sunnite en Asie du Sud
+      — mourut à Deoband le 4 Jumādā al-Ūlā 1297 H (15 avril
+      1880 EC) à l'âge d'environ 47 ans. Il avait reçu sa
+      formation en hadith et en soufisme sunnite auprès de
+      Mamlūk ʿAlī Nānautwī et du maître muḥaddith ʿAbd al-Ghanī
+      al-Mujaddidī al-Dihlawī, qui le rattacha à la chaîne
+      naqshbandī-mujaddidī. Ses *Taqrīr-i Dilpaẕīr* et *Ḥujjat
+      al-Islām* défendirent l'orthodoxie sunnite à la fois
+      contre les missions chrétiennes du Raj et contre
+      l'apologétique rationaliste émergeant à Aligarh. Le
+      séminaire qu'il fonda devint le plus grand centre de
+      formation hanafite du monde sunnite, avec des milliers
+      de madrasas affiliées à travers l'Asie du Sud, la
+      Grande-Bretagne et le Golfe jusqu'à nos jours.
+    canonical_hijri: {year: 1297, month: 5, day: 4, precision: day}
+    canonical_gregorian: {date: 1880-04-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-qasim-al-nanautwi, subject]]
+    tags: [india, deoband, hanafi, founder, naqshbandi-mujaddidi, raj]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Qasim_Nanautavi"
+
+  - slug: death-of-rashid-ahmad-al-gangohi
+    category: scholar
+    title_en: Death of Rashīd Aḥmad al-Gangohī — Patron of Dār al-ʿUlūm Deoband
+    title_ar: وفاة رشيد أحمد الجنجوهي — راعي دار العلوم ديوبند
+    title_fr: Mort de Rashīd Aḥmad al-Gangohī — patron de Dār al-ʿUlūm Deoband
+    description_en: |
+      Rashīd Aḥmad ibn Hidāyat Aḥmad al-Gangohī — Indian Sunni
+      Hanafi jurist, the foremost ḥadīth-trained scholar of
+      Deoband's first generation, and patron (*sarparast*) of
+      Dār al-ʿUlūm Deoband from 1297 AH / 1880 CE following
+      the death of his close companion Muḥammad Qāsim al-
+      Nānautwī — died at Gangoh on Friday 8 Jumādā al-Ākhira
+      1323 AH (11 August 1905 CE) at age about 76. Both his
+      *Fatāwā Rashīdiyya* and his lectures on the *Sunan* of
+      Abū Dāwūd became canonical references in the Deobandī
+      tradition. He combined teaching of hadith and Hanafi
+      fiqh with active leadership of the Naqshbandī-Mujaddidī
+      Sufi tradition that the Deobandī movement carried forward;
+      his successors al-Thānawī and Maḥmūd al-Ḥasan recognised
+      him as the senior spiritual authority of the school's
+      founding circle.
+    description_ar: |
+      توفي الإمام رشيد أحمد بن هداية أحمد الجنجوهي — فقيه
+      الحنفية السنية الهندية، أبرز محدثي الجيل الأول من علماء
+      ديوبند، وراعي «سرپرست» دار العلوم ديوبند منذ سنة
+      ١٢٩٧ هـ (الموافق ١٨٨٠ ميلادي) إثر وفاة صاحبه محمد قاسم
+      النانوتوي — بجنجوه يوم الجمعة ٨ جمادى الآخرة سنة
+      ١٣٢٣ هـ (الموافق ١١ أوت ١٩٠٥ ميلادي) عن نحو ست
+      وسبعين سنة. وصارت «الفتاوى الرشيدية» ودروسه على «سنن
+      أبي داود» من المراجع المعتمدة في تراث ديوبند. جمع بين
+      تدريس الحديث والفقه الحنفي وبين القيادة الفعلية للسلسلة
+      النقشبندية المجددية التي حملتها الحركة الديوبندية؛
+      وعدّه أتباعه الأشرف علي التهانوي ومحمود الحسن سيد
+      المسلك الروحي في حلقة المؤسسين.
+    description_fr: |
+      Rashīd Aḥmad ibn Hidāyat Aḥmad al-Gangohī — juriste
+      sunnite indien hanafite, le plus éminent savant de
+      hadith de la première génération de Deoband, et patron
+      (*sarparast*) de Dār al-ʿUlūm Deoband à partir de 1297 H
+      / 1880 EC après la mort de son proche compagnon
+      Muḥammad Qāsim al-Nānautwī — mourut à Gangoh le vendredi
+      8 Jumādā al-Ākhira 1323 H (11 août 1905 EC) à l'âge
+      d'environ 76 ans. Tant ses *Fatāwā Rashīdiyya* que ses
+      leçons sur les *Sunan* d'Abū Dāwūd devinrent des
+      références canoniques de la tradition deobandie. Il
+      combinait l'enseignement du hadith et du fiqh hanafite
+      avec la direction effective de la voie soufie
+      naqshbandī-mujaddidī que portait le mouvement deobandi;
+      ses successeurs al-Thānawī et Maḥmūd al-Ḥasan le
+      reconnaissaient comme l'autorité spirituelle aînée du
+      cercle fondateur de l'école.
+    canonical_hijri: {year: 1323, month: 6, day: 8, precision: day}
+    canonical_gregorian: {date: 1905-08-11, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[rashid-ahmad-al-gangohi, subject], [muhammad-qasim-al-nanautwi, subject]]
+    tags: [india, deoband, gangoh, hanafi, hadith, naqshbandi-mujaddidi, raj]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Rashid_Ahmad_Gangohi"
+
+  - slug: death-of-mahmud-al-hasan-al-deobandi
+    category: scholar
+    title_en: Death of Maḥmūd al-Ḥasan al-Deobandī — Shaykh al-Hind
+    title_ar: وفاة محمود الحسن الديوبندي — شيخ الهند
+    title_fr: Mort de Maḥmūd al-Ḥasan al-Deobandī — Shaykh al-Hind
+    description_en: |
+      Maḥmūd al-Ḥasan ibn Dhū al-Fiqār ʿAlī al-Deobandī, known
+      throughout the subcontinent as *Shaykh al-Hind* ("the
+      Master of India") — first student to enrol at Dār al-
+      ʿUlūm Deoband, later its principal (*ṣadr al-mudarrisīn*),
+      and the senior Sunni Indian scholar of his generation —
+      died in Delhi on 18 Rabīʿ al-Awwal 1339 AH (30 November
+      1920 CE) shortly after laying the foundation stone of
+      Jamia Millia Islamia. He was about 69. He had spent
+      three and a half years (1916-1920) interned by British
+      authorities at Fort Verdala on Malta after his arrest
+      in connection with the so-called "Silk Letters
+      Conspiracy" — an attempt to coordinate anti-colonial
+      Muslim networks across the Hijāz, Afghanistan, and
+      India during the First World War. On his return he
+      drove a major Urdu translation-and-commentary of the
+      Qurʾān (completed by his student al-Madanī after his
+      death) and helped frame the Jamiat Ulema-e-Hind's
+      stance against the partitioning of India.
+    description_ar: |
+      توفي الإمام محمود الحسن بن ذي الفقار علي الديوبندي —
+      المعروف في عموم شبه القارة بـ«شيخ الهند»، أول طالب
+      التحق بدار العلوم ديوبند، ثم مدرسها الأول «صدر
+      المدرسين»، وأكبر علماء أهل السنة الهنود في عصره —
+      بدلهي يوم ١٨ ربيع الأول سنة ١٣٣٩ هـ (الموافق ٣٠
+      نوفمبر ١٩٢٠ ميلادي) بعيد وضعه حجر الأساس لجامعة الملية
+      الإسلامية. وقد ناهز التاسعة والستين. وكان قد قضى ثلاث
+      سنين ونصفاً من سنة ١٩١٦ إلى ١٩٢٠ ميلادي معتقلاً عند
+      السلطات البريطانية في «حصن فيردالا» بمالطا إثر إلقاء
+      القبض عليه على إثر ما اشتُهر بـ«مؤامرة الرسائل
+      الحريرية»، وهو مشروع شبكات إسلامية مناهضة للاستعمار
+      تربط بين الحجاز وأفغانستان والهند خلال الحرب العالمية
+      الأولى. ولما عاد قاد ترجمة القرآن الكريم وتفسيره
+      بالأردية (أكمله بعده تلميذه الحسين أحمد المدني)،
+      وأسس مع جماعته «جمعية علماء الهند» موقفها الرافض
+      لتقسيم الهند.
+    description_fr: |
+      Maḥmūd al-Ḥasan ibn Dhū al-Fiqār ʿAlī al-Deobandī, connu
+      à travers tout le sous-continent comme *Shaykh al-Hind*
+      (« le maître de l'Inde ») — premier étudiant inscrit
+      à Dār al-ʿUlūm Deoband, plus tard son principal
+      (*ṣadr al-mudarrisīn*), et le savant sunnite indien
+      aîné de sa génération — mourut à Delhi le 18 Rabīʿ
+      al-Awwal 1339 H (30 novembre 1920 EC) peu après avoir
+      posé la première pierre de la Jamia Millia Islamia.
+      Il avait environ 69 ans. Il avait passé trois ans et
+      demi (1916-1920) interné par les autorités britanniques
+      à Fort Verdala à Malte après son arrestation dans le
+      cadre de la « conspiration des lettres de soie » — une
+      tentative de coordination de réseaux musulmans
+      anti-coloniaux entre le Hijāz, l'Afghanistan et l'Inde
+      durant la Première Guerre mondiale. À son retour il
+      lança une grande traduction-commentaire du Coran en
+      ourdou (achevée après sa mort par son élève al-Madanī)
+      et aida à articuler la position de la Jamiat
+      Ulema-e-Hind contre la partition de l'Inde.
+    canonical_hijri: {year: 1339, month: 3, day: 18, precision: day}
+    canonical_gregorian: {date: 1920-11-30, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mahmud-al-hasan-al-deobandi, subject]]
+    tags: [india, deoband, malta, shaykh-al-hind, raj, anti-colonial, world-war-i]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mahmud_Hasan_Deobandi"
+
+  - slug: death-of-ashraf-ali-al-thanawi
+    category: scholar
+    title_en: Death of Ashraf ʿAlī al-Thānawī — Ḥakīm al-Umma
+    title_ar: وفاة الأشرف علي التهانوي — حكيم الأمة
+    title_fr: Mort d'Ashraf ʿAlī al-Thānawī — Ḥakīm al-Umma
+    description_en: |
+      Ashraf ʿAlī ibn ʿAbd al-Ḥaqq al-Thānawī, honoured by his
+      students as *Ḥakīm al-Umma* ("the Sage of the
+      Community") — Indian Sunni Hanafi scholar of the
+      Deobandī tradition, prolific author of more than a
+      thousand titles in Arabic, Persian, and Urdu, and a
+      senior figure in the Naqshbandī-Mujaddidī Sufi
+      lineage of Deoband — died at Thana Bhawan in
+      United Provinces on 16 Rajab 1362 AH (20 July 1943 CE)
+      at age 79. His Urdu *Bayān al-Qurʾān* (twelve volumes)
+      remains one of the most-read Sunni tafsīrs of the
+      subcontinent, and his manual *Bahishtī Zēwar* — written
+      for the religious education of women in fiqh, ʿaqīda,
+      and adab — became the most widely circulated Hanafi
+      women's text of the twentieth century. He shaped the
+      practical theology of Indian Sunnism for two
+      generations.
+    description_ar: |
+      توفي الإمام أشرف علي بن عبد الحق التهانوي — المعروف
+      عند تلاميذه بـ«حكيم الأمة»، عالم سني هندي على المذهب
+      الحنفي من تراث ديوبند، مصنف ما يزيد على ألف كتاب
+      بالعربية والفارسية والأردية، وكبير شيوخ السلسلة
+      النقشبندية المجددية في ديوبند — في «تهانه بهون» في
+      الولايات المتحدة الهندية يوم ١٦ رجب سنة ١٣٦٢ هـ
+      (الموافق ٢٠ جويلية ١٩٤٣ ميلادي) عن تسع وسبعين سنة.
+      و«بيان القرآن» له بالأردية في اثني عشر مجلداً من أكثر
+      تفاسير أهل السنة قراءةً في شبه القارة الهندية،
+      و«بهشتي زيور» كتابه الموضوع لتربية النساء في الفقه
+      والعقيدة والآداب أكثر متون الحنفية النسائية تداولاً
+      في القرن العشرين كله. وقد شكّل المتن العملي للعقيدة
+      السنية الهندية لجيلين متتاليين.
+    description_fr: |
+      Ashraf ʿAlī ibn ʿAbd al-Ḥaqq al-Thānawī, honoré par
+      ses élèves comme *Ḥakīm al-Umma* (« le Sage de la
+      Communauté ») — savant sunnite indien hanafite de la
+      tradition deobandie, auteur prolifique de plus d'un
+      millier de titres en arabe, persan et ourdou, et figure
+      majeure de la lignée soufie naqshbandī-mujaddidī de
+      Deoband — mourut à Thana Bhawan, dans les Provinces-
+      Unies, le 16 Rajab 1362 H (20 juillet 1943 EC) à l'âge
+      de 79 ans. Son *Bayān al-Qurʾān* en ourdou (douze
+      volumes) demeure l'un des tafsīrs sunnites les plus lus
+      du sous-continent, et son manuel *Bahishtī Zēwar* —
+      écrit pour l'éducation religieuse des femmes en fiqh,
+      *ʿaqīda* et *adab* — devint le texte hanafite féminin
+      le plus largement diffusé du XXe siècle. Il façonna la
+      théologie pratique du sunnisme indien pour deux
+      générations.
+    canonical_hijri: {year: 1362, month: 7, day: 16, precision: day}
+    canonical_gregorian: {date: 1943-07-20, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ashraf-ali-al-thanawi, subject]]
+    tags: [india, deoband, hanafi, hakim-al-umma, naqshbandi-mujaddidi, bayan-al-quran, bahishti-zewar]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ashraf_Ali_Thanwi"
+
+  - slug: death-of-husayn-ahmad-al-madani
+    category: scholar
+    title_en: Death of Sayyid Ḥusayn Aḥmad al-Madanī — Shaykh al-Ḥadīth of Deoband
+    title_ar: وفاة السيد حسين أحمد المدني — شيخ الحديث بدار العلوم ديوبند
+    title_fr: Mort de Sayyid Ḥusayn Aḥmad al-Madanī — Shaykh al-Ḥadīth de Deoband
+    description_en: |
+      Sayyid Ḥusayn Aḥmad al-Faiḍābādī al-Madanī — Indian Sunni
+      Hanafi scholar, fifth principal and *Shaykh al-Ḥadīth*
+      of Dār al-ʿUlūm Deoband for nearly three decades, and
+      foremost student of Shaykh al-Hind Maḥmūd al-Ḥasan —
+      died at Deoband on 13 Jumādā al-Ūlā 1377 AH (5 December
+      1957 CE) at age 78. His *nisba* "al-Madanī" came from
+      his early teaching career in Medina, where he taught
+      hadith for nearly two decades alongside his father
+      before being arrested with his teacher Maḥmūd al-Ḥasan
+      and interned by the British on Malta. He was a leading
+      figure in the Jamiat Ulema-e-Hind, opposed the partition
+      of India on theological-jurisprudential grounds, and
+      shaped Indian Sunni political thought of the late
+      colonial era. His four-volume *Naqsh-i Ḥayāt* and his
+      hadith dictations preserved by his students remain
+      reference works in Deoband-tradition seminaries.
+    description_ar: |
+      توفي السيد حسين أحمد الفيض آبادي المدني — العالم السني
+      الهندي على المذهب الحنفي، خامس مديري دار العلوم ديوبند
+      وشيخ الحديث بها قرابة ثلاثين سنة، وأكبر تلامذة
+      «شيخ الهند» محمود الحسن — بديوبند يوم ١٣ جمادى الأولى
+      سنة ١٣٧٧ هـ (الموافق ٥ ديسمبر ١٩٥٧ ميلادي) عن ثمان
+      وسبعين سنة. ولقبه «المدني» يعود إلى أوائل تدريسه
+      بالمدينة المنورة، إذ درّس فيها الحديث قرابة عشرين سنة
+      مع والده قبل أن يُعتقل مع شيخه محمود الحسن وتنفيهما
+      السلطات البريطانية إلى مالطا. وكان من كبار قادة
+      «جمعية علماء الهند»، اعترض على تقسيم الهند بالحجج
+      الفقهية الشرعية، وشكّل الفكر السياسي السني الهندي في
+      أواخر العصر الاستعماري. و«نقش حياة» في أربعة مجلدات
+      وإملاءاته الحديثية التي حفظها عنه طلابه ما زالت من
+      مراجع التراث الديوبندي.
+    description_fr: |
+      Sayyid Ḥusayn Aḥmad al-Faiḍābādī al-Madanī — savant
+      sunnite indien hanafite, cinquième directeur et
+      *Shaykh al-Ḥadīth* de Dār al-ʿUlūm Deoband pendant
+      près de trois décennies, et principal élève de Shaykh
+      al-Hind Maḥmūd al-Ḥasan — mourut à Deoband le 13
+      Jumādā al-Ūlā 1377 H (5 décembre 1957 EC) à l'âge de
+      78 ans. Sa *nisba* « al-Madanī » lui vient de sa
+      première carrière d'enseignement à Médine, où il
+      enseigna le hadith pendant près de vingt ans aux côtés
+      de son père avant d'être arrêté avec son maître Maḥmūd
+      al-Ḥasan et interné par les Britanniques à Malte. Il
+      fut une figure de premier plan de la Jamiat Ulema-e-Hind,
+      s'opposa à la partition de l'Inde sur des bases
+      théologico-jurisprudentielles, et façonna la pensée
+      politique sunnite indienne de la fin de l'ère coloniale.
+      Son *Naqsh-i Ḥayāt* en quatre volumes et ses dictées
+      de hadith préservées par ses élèves demeurent des
+      références dans les séminaires de la tradition
+      deobandie.
+    canonical_hijri: {year: 1377, month: 5, day: 13, precision: day}
+    canonical_gregorian: {date: 1957-12-05, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[husayn-ahmad-al-madani, subject], [mahmud-al-hasan-al-deobandi, subject]]
+    tags: [india, deoband, medina, malta, shaykh-al-hadith, anti-colonial, partition]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hussain_Ahmed_Madani"
+
+  # =========================================================================
+  # DEOBAND — TABLĪGHĪ JAMĀʿAT FOUNDERS
+  # =========================================================================
+
+  - slug: death-of-muhammad-ilyas-al-kandhlawi
+    category: scholar
+    title_en: Death of Muḥammad Ilyās al-Kandhlawī — Founder of Tablīghī Jamāʿat
+    title_ar: وفاة محمد إلياس الكاندهلوي — مؤسس جماعة التبليغ
+    title_fr: Mort de Muḥammad Ilyās al-Kandhlawī — fondateur de la Tablīghī Jamāʿat
+    description_en: |
+      Muḥammad Ilyās ibn Muḥammad Ismāʿīl al-Kandhlawī —
+      Indian Sunni Hanafi scholar of the Deobandī tradition,
+      member of the Naqshbandī-Mujaddidī Sufi chain, and
+      founder of the Tablīghī Jamāʿat, the lay-led
+      grass-roots Sunni renewal movement that began in the
+      Mewat region of north India in the early 1920s — died
+      at Nizamuddin (Delhi) on 21 Rajab 1363 AH (13 July 1944
+      CE) at age about 59. His method, codified in the *Six
+      Points* and elaborated by his son and successor Yūsuf
+      al-Kandhlawī, took ordinary Muslims out from their
+      mosques in temporary travelling parties to remind one
+      another of basic ʿaqīda and ʿibādāt. Within fifty
+      years it had become the largest single trans-national
+      Muslim missionary movement of the twentieth century
+      with millions of regular participants from West Africa
+      to Indonesia.
+    description_ar: |
+      توفي الشيخ محمد إلياس بن محمد إسماعيل الكاندهلوي —
+      عالم سني هندي على المذهب الحنفي من تراث ديوبند،
+      ومن أهل السلسلة النقشبندية المجددية، ومؤسس «جماعة
+      التبليغ»، وهي حركة تجديد سني شعبية بدأت في «مَيوات»
+      شمال الهند في أوائل العشرينيات الميلادية — في
+      «نظام الدين» (دلهي) يوم ٢١ رجب سنة ١٣٦٣ هـ (الموافق
+      ١٣ جويلية ١٩٤٤ ميلادي) عن نحو تسع وخمسين سنة. ومنهجه
+      الذي قعّده في «النقاط الست» ووسّعه ابنه وخليفته
+      يوسف الكاندهلوي، يستخرج عامة المسلمين من مساجدهم
+      في «خروجات» مؤقتة يذكّرون فيها بعضهم بعضاً بأصول
+      العقيدة والعبادات. وفي خمسين سنة صارت أكبر حركة
+      دعوية سنية عابرة للحدود في القرن العشرين، تضم ملايين
+      المشاركين الدوريين من غرب أفريقيا إلى إندونيسيا.
+    description_fr: |
+      Muḥammad Ilyās ibn Muḥammad Ismāʿīl al-Kandhlawī —
+      savant sunnite indien hanafite de la tradition deobandie,
+      membre de la chaîne soufie naqshbandī-mujaddidī, et
+      fondateur de la Tablīghī Jamāʿat, le mouvement de
+      renouveau sunnite populaire et laïc qui commença dans
+      la région du Mewat dans le nord de l'Inde au début des
+      années 1920 — mourut à Nizamuddin (Delhi) le 21 Rajab
+      1363 H (13 juillet 1944 EC) à l'âge d'environ 59 ans.
+      Sa méthode, codifiée dans les *Six Points* et élargie
+      par son fils et successeur Yūsuf al-Kandhlawī, faisait
+      sortir les musulmans ordinaires de leurs mosquées en
+      groupes itinérants temporaires pour se rappeler les uns
+      aux autres les fondements de la *ʿaqīda* et des
+      *ʿibādāt*. En cinquante ans elle était devenue le plus
+      grand mouvement missionnaire musulman transnational du
+      XXe siècle, avec des millions de participants réguliers
+      de l'Afrique de l'Ouest à l'Indonésie.
+    canonical_hijri: {year: 1363, month: 7, day: 21, precision: day}
+    canonical_gregorian: {date: 1944-07-13, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-ilyas-al-kandhlawi, subject]]
+    tags: [india, deoband, mewat, delhi, tablighi-jamaat, naqshbandi-mujaddidi, dawah]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Ilyas_Kandhlawi"
+
+  - slug: death-of-muhammad-zakariyya-al-kandhlawi
+    category: scholar
+    title_en: Death of Muḥammad Zakariyyā al-Kandhlawī — Shaykh al-Ḥadīth
+    title_ar: وفاة محمد زكريا الكاندهلوي — شيخ الحديث
+    title_fr: Mort de Muḥammad Zakariyyā al-Kandhlawī — Shaykh al-Ḥadīth
+    description_en: |
+      Muḥammad Zakariyyā ibn Muḥammad Yaḥyā al-Kandhlawī —
+      Indian-Pakistani Sunni Hanafi muḥaddith of the Deobandī
+      tradition, principal teacher of hadith at the Maẓāhir
+      ʿUlūm seminary at Saharanpur, nephew of Muḥammad Ilyās
+      al-Kandhlawī and a senior elder of the Tablīghī
+      Jamāʿat — died in Medina on Monday 1 Shaʿbān 1402 AH
+      (24 May 1982 CE) at age 84 and was buried in the
+      Baqīʿ. His Arabic six-volume *Awjaz al-Masālik ilā
+      Muwaṭṭaʾ Mālik* — a major commentary on the Muwaṭṭaʾ
+      of Imām Mālik — was widely studied across the Sunni
+      world; his *Tablīghī Niṣāb* (the *Faḍāʾil aʿmāl*) became
+      the canonical reading of the global Tablīghī movement
+      after its compilation in the 1930s. He combined senior
+      hadith scholarship with a quiet, ascetic Naqshbandī-
+      Mujaddidī Sufi practice.
+    description_ar: |
+      توفي الشيخ محمد زكريا بن محمد يحيى الكاندهلوي —
+      محدث سني هندي-باكستاني على المذهب الحنفي من تراث
+      ديوبند، شيخ الحديث بمدرسة «مظاهر العلوم» بسهارنپور،
+      ابن أخ الشيخ محمد إلياس الكاندهلوي، ومن كبار شيوخ
+      جماعة التبليغ — بالمدينة المنورة يوم الاثنين الأول
+      من شعبان سنة ١٤٠٢ هـ (الموافق ٢٤ ماي ١٩٨٢ ميلادي)
+      عن أربع وثمانين سنة، ودُفن بالبقيع. وكتابه «أوجز
+      المسالك إلى موطأ مالك» في ستة مجلدات بالعربية —
+      شرح كبير على «الموطأ» للإمام مالك — تتدارسه عامة
+      أهل السنة، ومجموعه «نصاب التبليغ» (المعروف بـ«فضائل
+      أعمال») صار المتن المعتمد في حركة التبليغ العالمية
+      منذ تأليفه في الثلاثينيات الميلادية. وجمع بين علو
+      السند في الحديث وممارسة طريق نقشبندية مجددية في
+      هدوء وزهد.
+    description_fr: |
+      Muḥammad Zakariyyā ibn Muḥammad Yaḥyā al-Kandhlawī —
+      muḥaddith sunnite indo-pakistanais hanafite de la
+      tradition deobandie, principal enseignant du hadith
+      au séminaire Maẓāhir ʿUlūm de Saharanpur, neveu de
+      Muḥammad Ilyās al-Kandhlawī et figure ancienne de
+      la Tablīghī Jamāʿat — mourut à Médine le lundi
+      1er Shaʿbān 1402 H (24 mai 1982 EC) à l'âge de 84
+      ans et fut inhumé au Baqīʿ. Son *Awjaz al-Masālik ilā
+      Muwaṭṭaʾ Mālik* en six volumes en arabe — commentaire
+      majeur du Muwaṭṭaʾ de l'imam Mālik — fut largement
+      étudié dans le monde sunnite; son *Tablīghī Niṣāb*
+      (le *Faḍāʾil aʿmāl*) devint la lecture canonique du
+      mouvement Tablīghī mondial après sa compilation dans
+      les années 1930. Il combinait une érudition de haut
+      niveau en hadith avec une pratique soufie naqshbandī-
+      mujaddidī discrète et ascétique.
+    canonical_hijri: {year: 1402, month: 8, day: 1, precision: day}
+    canonical_gregorian: {date: 1982-05-24, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-zakariyya-al-kandhlawi, subject], [muhammad-ilyas-al-kandhlawi, subject]]
+    tags: [india, pakistan, saharanpur, medina, deoband, tablighi-jamaat, hadith, awjaz-al-masalik]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Zakariyya_Kandhlawi"
+
+  # =========================================================================
+  # BARELWĪ TRADITION
+  # =========================================================================
+
+  - slug: death-of-ahmad-rida-khan-al-bareilwi
+    category: scholar
+    title_en: Death of Aḥmad Riḍā Khān al-Bareilwī — Founder of the Barelwī tradition
+    title_ar: وفاة أحمد رضا خان البريلوي — مؤسس المدرسة البريلوية
+    title_fr: Mort d'Aḥmad Riḍā Khān al-Bareilwī — fondateur de la tradition barelwie
+    description_en: |
+      Aḥmad Riḍā Khān ibn Naqī ʿAlī al-Qādirī al-Bareilwī —
+      Indian Sunni Hanafi jurist, head of the Qādirī Sufi
+      order in his branch of the subcontinent, and the
+      founding figure of the "Barelwī" school of Sunni Islam
+      in South Asia, distinct from the Deobandī tradition by
+      its emphasis on the metaphysical status of the Prophet
+      ﷺ, the validity of intercession (*tawassul*), and the
+      veneration of the Sufi saints — died at Bareilly on
+      25 Ṣafar 1340 AH (28 October 1921 CE) at age 65. He
+      was prolific: his *Fatāwā Riḍawiyya* in some thirty
+      volumes is the largest collection of Hanafi fatwas
+      assembled in modern South Asia, and his Urdu
+      Qurʾān translation *Kanz al-Īmān* circulates widely.
+      The movement carrying his name is one of the two
+      largest Sunni traditions of the subcontinent, with
+      hundreds of millions of adherents across India, Pakistan,
+      Bangladesh, and the South Asian diaspora today.
+    description_ar: |
+      توفي الإمام أحمد رضا خان بن نقي علي القادري البريلوي —
+      الفقيه السني الهندي على المذهب الحنفي، شيخ الطريقة
+      القادرية في فرعه من شبه القارة، والمؤسس للمدرسة
+      «البريلوية» في فقه أهل السنة بشبه القارة الهندية،
+      وتختلف عن المدرسة الديوبندية في تأكيدها على المقام
+      المعنوي للنبي ﷺ، ومشروعية التوسل، وإكرام أولياء
+      الصوفية — ببَريلي يوم ٢٥ صفر سنة ١٣٤٠ هـ (الموافق
+      ٢٨ أكتوبر ١٩٢١ ميلادي) عن خمس وستين سنة. وكان
+      مكثراً في التصنيف: «الفتاوى الرضوية» في نحو ثلاثين
+      مجلداً أكبر مجموعة فتاوى حنفية صُنّفت في شبه القارة
+      الحديثة، وترجمته للقرآن الكريم بالأردية «كنز الإيمان»
+      مما يُتداول كثيراً. والحركة التي تحمل اسمه من أكبر
+      تيارين سنيين في شبه القارة الهندية، يدين بها مئات
+      الملايين في الهند وباكستان وبنغلادش وشتات شبه القارة
+      اليوم.
+    description_fr: |
+      Aḥmad Riḍā Khān ibn Naqī ʿAlī al-Qādirī al-Bareilwī —
+      juriste sunnite indien hanafite, chef de l'ordre soufi
+      qādirī dans sa branche du sous-continent, et figure
+      fondatrice de l'école « barelwie » de l'islam sunnite
+      en Asie du Sud, distincte de la tradition deobandie
+      par son insistance sur le statut métaphysique du
+      Prophète ﷺ, la validité de l'intercession (*tawassul*)
+      et la vénération des saints soufis — mourut à Bareilly
+      le 25 Ṣafar 1340 H (28 octobre 1921 EC) à l'âge de 65
+      ans. Il fut prolifique : ses *Fatāwā Riḍawiyya* en
+      une trentaine de volumes constituent la plus grande
+      collection de fatwas hanafites compilée dans l'Asie
+      du Sud moderne, et sa traduction ourdoue du Coran
+      *Kanz al-Īmān* circule largement. Le mouvement qui
+      porte son nom est l'une des deux plus grandes
+      traditions sunnites du sous-continent, avec des
+      centaines de millions d'adeptes en Inde, au Pakistan,
+      au Bangladesh et dans la diaspora sud-asiatique
+      aujourd'hui.
+    canonical_hijri: {year: 1340, month: 2, day: 25, precision: day}
+    canonical_gregorian: {date: 1921-10-28, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-rida-khan-al-bareilwi, subject]]
+    tags: [india, bareilly, hanafi, qadiriyya, barelwi, fatawa-ridawiyya, raj]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Raza_Khan"
+
+  # =========================================================================
+  # CHISHTĪ REVIVALISM AND TWENTIETH-CENTURY INDIAN SUNNI SCHOLARSHIP
+  # =========================================================================
+
+  - slug: death-of-khwaja-hasan-nizami
+    category: scholar
+    title_en: Death of Khwāja Ḥasan Niẓāmī — Chishtī Sufi-Scholar of Delhi
+    title_ar: وفاة الخواجة حسن نظامي — صوفي العارف الدلهوي على مشرب الجشتية
+    title_fr: Mort de Khwāja Ḥasan Niẓāmī — soufi-savant Chishtī de Delhi
+    description_en: |
+      Khwāja Ḥasan Niẓāmī Dehlawī — Indian Sunni Sufi-scholar
+      and writer in the Chishtī tradition descending from
+      Niẓām al-Dīn Awliyāʾ of Delhi, and one of the most
+      widely read Urdu prose writers of the early twentieth
+      century — died at Delhi on 10 Dhū al-Ḥijja 1374 AH
+      (31 July 1955 CE) at age 77. He authored more than a
+      hundred works of biography, devotional prose, and
+      narrative history including a multi-volume study of
+      the 1857 Delhi rebellion and a major biography of his
+      pīr Ghulām Ḥasan Shāh Niẓāmī. He was custodian (*sajjāda
+      nashīn*) of the dargāh of Niẓām al-Dīn Awliyāʾ and
+      maintained an active correspondence and publication
+      programme that connected the classical Chishtī
+      devotional tradition to the modern Urdu reading public.
+    description_ar: |
+      توفي الخواجة حسن نظامي الدهلوي — العارف السني الهندي
+      من ساحة الطريقة الجشتية، نسبةً إلى نظام الدين أولياء
+      بدلهي، ومن أكثر كتاب النثر بالأردية انتشاراً في
+      أوائل القرن العشرين — بدلهي يوم ١٠ ذي الحجة سنة
+      ١٣٧٤ هـ (الموافق ٣١ جويلية ١٩٥٥ ميلادي) عن سبع
+      وسبعين سنة. وله ما يزيد على مئة مصنف بين السير
+      والنثر العرفاني والتاريخ السردي، منها دراسة في عدة
+      مجلدات لثورة دلهي سنة ١٢٧٤ هـ وسيرة موسعة لشيخه
+      غلام حسن شاه نظامي. وكان «سجادة نشين» (متولي) ضريح
+      نظام الدين أولياء، وأقام منهاجاً نشطاً من المراسلات
+      والنشر يصل التراث العرفاني الجشتي الكلاسيكي بقراء
+      الأردية الحديثة.
+    description_fr: |
+      Khwāja Ḥasan Niẓāmī Dehlawī — soufi-savant et écrivain
+      sunnite indien dans la tradition chishtīe descendant
+      de Niẓām al-Dīn Awliyāʾ de Delhi, et l'un des écrivains
+      ourdous en prose les plus lus du début du XXe siècle —
+      mourut à Delhi le 10 Dhū al-Ḥijja 1374 H (31 juillet
+      1955 EC) à l'âge de 77 ans. Il composa plus d'une
+      centaine d'ouvrages de biographie, de prose dévotionnelle
+      et d'histoire narrative, dont une étude en plusieurs
+      volumes de la révolte de Delhi de 1857 et une grande
+      biographie de son *pīr* Ghulām Ḥasan Shāh Niẓāmī. Il
+      fut le gardien (*sajjāda nashīn*) du *dargāh* de Niẓām
+      al-Dīn Awliyāʾ et entretint un programme actif de
+      correspondance et de publication qui reliait la tradition
+      dévotionnelle chishtīe classique au public lettré
+      ourdou moderne.
+    canonical_hijri: {year: 1374, month: 12, day: 10, precision: day}
+    canonical_gregorian: {date: 1955-07-31, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[khwaja-hasan-nizami, subject], [nizam-al-din-awliya, subject]]
+    tags: [india, delhi, chishti, urdu, dargah, twentieth-century]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khwaja_Hasan_Nizami"
+
+  - slug: death-of-manazir-ahsan-gilani
+    category: scholar
+    title_en: Death of Manāẓir Aḥsan al-Gīlānī — Indian Sunni Biographer
+    title_ar: وفاة مناظر أحسن الجيلاني — السيرة عند علماء الهند الحنفية
+    title_fr: Mort de Manāẓir Aḥsan al-Gīlānī — biographe sunnite indien
+    description_en: |
+      Sayyid Manāẓir Aḥsan al-Gīlānī — Indian Sunni Hanafi
+      scholar of the Deobandī tradition, professor of theology
+      and Islamic studies at Osmania University in Hyderabad
+      for nearly thirty years, and a prolific Urdu biographer
+      of classical Sunni figures — died at Hyderabad on 27
+      Shawwāl 1375 AH (5 June 1956 CE) at age 64. His Urdu
+      biographical studies of Imām Abū Ḥanīfa, Muḥammad Qāsim
+      al-Nānautwī, Abū Dharr al-Ghifārī ra, and the
+      institutional history of Indian madrasa education —
+      *Hindustān men Musalmānon kā Niẓām-i Taʿlīm wa Tarbiyat*
+      — became standard references in twentieth-century South
+      Asian Sunni scholarship. He combined academic philology
+      with the classical Deobandī curriculum and produced
+      detailed studies of Hanafi *uṣūl* and the history of
+      Indian Islamic learning.
+    description_ar: |
+      توفي السيد مناظر أحسن الجيلاني — العالم السني الهندي
+      على المذهب الحنفي من تراث ديوبند، أستاذ علم الكلام
+      والدراسات الإسلامية بجامعة عثمانية بحيدر آباد قرابة
+      ثلاثين سنة، ومصنف كتب السيرة بالأردية في كبار رجال
+      أهل السنة الكلاسيكيين — بحيدر آباد يوم ٢٧ شوال سنة
+      ١٣٧٥ هـ (الموافق ٥ جوان ١٩٥٦ ميلادي) عن أربع وستين
+      سنة. ودراساته السِيَرية بالأردية للإمام أبي حنيفة
+      ومحمد قاسم النانوتوي والصحابي أبي ذر الغفاري رضي الله
+      عنه، وكتابه «هندوستان میں مسلمانوں کا نظام تعلیم و
+      تربیت» في تاريخ التعليم الإسلامي بشبه القارة الهندية،
+      صارت من المراجع المعتمدة في الدراسات السنية الهندية
+      في القرن العشرين. وقد جمع بين منهج الدراسات الفيلولوجية
+      الأكاديمية والمنهاج الكلاسيكي الديوبندي، فأخرج دراسات
+      مفصلة في أصول الفقه الحنفي وتاريخ التعليم الإسلامي
+      الهندي.
+    description_fr: |
+      Sayyid Manāẓir Aḥsan al-Gīlānī — savant sunnite indien
+      hanafite de la tradition deobandie, professeur de
+      théologie et d'études islamiques à l'université Osmania
+      de Hyderabad pendant près de trente ans, et biographe
+      ourdou prolifique de figures sunnites classiques —
+      mourut à Hyderabad le 27 Shawwāl 1375 H (5 juin 1956
+      EC) à l'âge de 64 ans. Ses études biographiques en
+      ourdou de l'imam Abū Ḥanīfa, de Muḥammad Qāsim al-
+      Nānautwī, du Compagnon Abū Dharr al-Ghifārī ra, et
+      son histoire institutionnelle de l'enseignement
+      madrasa indien — *Hindustān men Musalmānon kā Niẓām-i
+      Taʿlīm wa Tarbiyat* — devinrent des références
+      standard dans l'érudition sunnite sud-asiatique du
+      XXe siècle. Il combinait la philologie académique
+      avec le curriculum deobandi classique et produisit
+      des études détaillées sur les *uṣūl* hanafites et
+      l'histoire de l'apprentissage islamique indien.
+    canonical_hijri: {year: 1375, month: 10, day: 27, precision: day}
+    canonical_gregorian: {date: 1956-06-05, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[manazir-ahsan-gilani, subject]]
+    tags: [india, hyderabad, deoband, urdu, biography, hanafi, osmania]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Manazir_Ahsan_Gilani"

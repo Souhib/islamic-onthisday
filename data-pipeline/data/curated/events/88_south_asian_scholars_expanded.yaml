@@ -1,0 +1,833 @@
+# Wave 88 of curated event additions (2026-04-27).
+# Further South Asian (Indian / Pakistani / Bangladeshi) Sunni scholars not
+# previously in the dataset, complementing 35_indian_subcontinent_scholars.yaml.
+# Three layers: (i) the Walīullāhī generation around the brothers of Shāh
+# ʿAbd al-ʿAzīz — Shāh ʿAbd al-Qādir and Shāh Rafīʿ al-Dīn — together with
+# the Naqshbandī-Mujaddidī Sufi-poet Khwāja Mīr Dard; (ii) the rationalist
+# Maturīdī line of Faḍl al-Ḥaqq al-Khayrābādī, exiled to the Andamans for
+# his 1857 fatwa; (iii) the Deobandī muḥaddithūn — Khalīl Aḥmad al-
+# Sahāranpūrī (sharḥ on Abū Dāwūd), Shabbīr Aḥmad al-ʿUthmānī (sharḥ on
+# Muslim and Shaykh al-Islām of Pakistan), Yūsuf al-Bannūrī (sharḥ on
+# al-Tirmidhī), Manẓūr al-Nuʿmānī, Sayyid Sulaymān al-Nadwī (co-author of
+# *Sīrat al-Nabī*), ʿUbaydullāh al-Sindhī (Silk-Letters), and the Mughal-
+# Punjabi jurist Sir Mian Muḥammad Shafīʿ. All eleven are post-1750
+# Sunni Hanafi figures attested in modern reference works (EI2 + standard
+# biographical literature). None are sahaba; no hadith refs.
+
+events:
+  # =========================================================================
+  # WALĪULLĀHĪ TRADITION — DELHI BROTHERS AND THE NAQSHBANDĪ POET
+  # =========================================================================
+
+  - slug: death-of-khwaja-mir-dard
+    category: scholar_death
+    title_en: Death of Khwāja Mīr Dard — Naqshbandī Sufi-Poet of Delhi
+    title_ar: وفاة الخواجة مير درد — صوفي ديوبند الشاعر الدلهوي
+    title_fr: Mort de Khwāja Mīr Dard — soufi-poète naqshbandī de Delhi
+    description_en: |
+      Khwāja Mīr Dard (Sayyid Khwāja Mīr Muḥammadī Nāṣir, also
+      called *Dard*, "pain") — Indian Sunni Sufi-poet of late
+      Mughal Delhi, master of the Naqshbandī-Mujaddidī branch
+      his father Khwāja Muḥammad Nāṣir ʿAndalīb had founded
+      under the name *Ṭarīqa Muḥammadiyya Khāliṣa*, and one
+      of the four pillars of Urdu *ghazal* together with Mīr
+      Taqī Mīr, Sawdā, and Mīr Ḥasan — died at Delhi in 1199
+      AH (1785 CE) at age about sixty-five. Classical sources
+      do not preserve a day-precise date, so we record the
+      year only. His prose works *ʿIlm al-Kitāb*, *Nāla-yi
+      Dard*, *Āh-i Sard* and his Persian and Urdu *dīwāns*
+      together set the metaphysical vocabulary of Urdu Sufi
+      verse for the next two centuries. He maintained an active
+      *khānaqāh* in Delhi through the political collapse of the
+      late Mughal court, refusing every offer of patronage from
+      the rival powers contesting the city.
+    description_ar: |
+      توفي الخواجة مير درد — السيد خواجة مير محمدي ناصر،
+      الملقب بـ«درد» — صوفي سني هندي شاعر من دلهي المغولية
+      المتأخرة، خليفة الفرع النقشبندي المجددي الذي أسسه أبوه
+      خواجة محمد ناصر «عندليب» باسم «الطريقة المحمدية الخالصة»،
+      وأحد الأركان الأربعة لغزل الأردية مع مير تقي مير وسودا
+      ومير حسن — بدلهي سنة ١١٩٩ هـ (الموافق ١٧٨٥ ميلادي)
+      عن نحو خمس وستين سنة. ولم تحفظ المصادر الكلاسيكية يوم
+      وفاته، فاكتفينا بالسنة. ومصنفاته النثرية «علم الكتاب»
+      و«ناله درد» و«آه سرد» وديوانه بالفارسية وآخر بالأردية
+      مما قعّد الاصطلاح العرفاني لشعر الأردية الصوفي طوال
+      قرنين تاليين. وأقام «خانقاه» نشطة بدلهي خلال انهيار
+      البلاط المغولي، رافضاً كل عرض رعاية من القوى المتنازعة
+      على المدينة.
+    description_fr: |
+      Khwāja Mīr Dard (Sayyid Khwāja Mīr Muḥammadī Nāṣir,
+      surnommé *Dard*, « la douleur ») — soufi-poète sunnite
+      indien du Delhi mogholo-tardif, maître de la branche
+      naqshbandī-mujaddidī fondée par son père Khwāja
+      Muḥammad Nāṣir ʿAndalīb sous le nom de *Ṭarīqa
+      Muḥammadiyya Khāliṣa*, et l'un des quatre piliers du
+      *ghazal* ourdou avec Mīr Taqī Mīr, Sawdā et Mīr Ḥasan
+      — mourut à Delhi en 1199 H (1785 EC) à l'âge d'environ
+      soixante-cinq ans. Les sources classiques ne conservent
+      pas de date au jour près; nous n'enregistrons que
+      l'année. Ses œuvres en prose *ʿIlm al-Kitāb*, *Nāla-yi
+      Dard*, *Āh-i Sard* et ses *dīwāns* persan et ourdou
+      fixèrent le vocabulaire métaphysique de la poésie soufie
+      ourdoue pour les deux siècles suivants. Il maintint une
+      *khānaqāh* active à Delhi pendant l'effondrement
+      politique de la cour moghole tardive, refusant toute
+      offre de patronage des puissances rivales se disputant
+      la ville.
+    canonical_hijri: {year: 1199, precision: year}
+    canonical_gregorian: {date: 1785-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[khwaja-mir-dard, subject]]
+    tags: [india, delhi, naqshbandi-mujaddidi, urdu-poetry, ghazal, mughal, sufism]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khwaja_Mir_Dard"
+
+  - slug: death-of-shah-abd-al-qadir-al-dihlawi
+    category: scholar_death
+    title_en: Death of Shāh ʿAbd al-Qādir al-Dihlawī — Author of *Mūḍiḥ al-Qurʾān*
+    title_ar: وفاة الشاه عبد القادر الدهلوي — صاحب «موضح القرآن»
+    title_fr: Mort de Shāh ʿAbd al-Qādir al-Dihlawī — auteur du *Mūḍiḥ al-Qurʾān*
+    description_en: |
+      Shāh ʿAbd al-Qādir ibn Aḥmad al-Dihlawī — Indian Sunni
+      Hanafi scholar, second son of Shāh Walīullāh of Delhi
+      and younger brother of Shāh ʿAbd al-ʿAzīz — died at
+      Delhi in 1230 AH (1815 CE) at about sixty. Classical
+      Urdu and Arabic biographical literature does not
+      preserve a day-precise date, so we record the year
+      only. His most enduring contribution is *Mūḍiḥ al-
+      Qurʾān*, the first complete translation of the Qurʾān
+      into idiomatic Urdu — a project he completed in 1205 AH
+      / 1791 CE that opened the recitation and study of
+      scripture to Indian Muslims who lacked Arabic. The
+      translation, simple in diction and faithful to the
+      Walīullāhī exegetical line, became the standard Urdu
+      mushaf of the nineteenth century and the basis from
+      which dozens of later Urdu translations derived. He
+      taught at the Walīullāhī family seminary alongside his
+      brothers Shāh ʿAbd al-ʿAzīz and Shāh Rafīʿ al-Dīn.
+    description_ar: |
+      توفي الشاه عبد القادر بن أحمد الدهلوي — العالم السني
+      الهندي الحنفي، ثاني أبناء الشاه ولي الله الدهلوي،
+      وأخو الشاه عبد العزيز الأصغر — بدلهي سنة ١٢٣٠ هـ
+      (الموافق ١٨١٥ ميلادي) عن نحو ستين سنة. ولم تحفظ
+      الكتب البيوغرافية بالأردية والعربية يوم وفاته،
+      فاكتفينا بالسنة. وأخلد آثاره «موضح القرآن»، أول
+      ترجمة كاملة لمعاني القرآن الكريم بالأردية الفصيحة،
+      أتمها سنة ١٢٠٥ هـ (الموافق ١٧٩١ ميلادي)، فأتاحت تلاوة
+      الكتاب ودراسته لمن لا يحسن العربية من مسلمي الهند.
+      وكانت ترجمة سهلة المفردات أمينة على المنهج الولي
+      اللهي في التفسير، فصارت المصحف الأردي المعتمد في
+      القرن التاسع عشر، وأساس عشرات الترجمات الأردية
+      التالية. ودرّس بمدرسة الأسرة الولي اللهية في دلهي مع
+      أخويه الشاه عبد العزيز والشاه رفيع الدين.
+    description_fr: |
+      Shāh ʿAbd al-Qādir ibn Aḥmad al-Dihlawī — savant
+      sunnite indien hanafite, deuxième fils de Shāh
+      Walīullāh de Delhi et frère cadet de Shāh ʿAbd al-ʿAzīz
+      — mourut à Delhi en 1230 H (1815 EC) à environ
+      soixante ans. La littérature biographique classique en
+      ourdou et en arabe ne conserve pas de date au jour
+      près; nous n'enregistrons que l'année. Sa contribution
+      la plus durable est le *Mūḍiḥ al-Qurʾān*, première
+      traduction complète du Coran en ourdou idiomatique —
+      projet achevé en 1205 H / 1791 EC qui ouvrit la
+      récitation et l'étude de l'Écriture aux musulmans
+      indiens ne maîtrisant pas l'arabe. Cette traduction,
+      simple dans la diction et fidèle à la ligne exégétique
+      walīullāhī, devint le mushaf ourdou standard du XIXe
+      siècle et la base de dizaines de traductions ourdoues
+      ultérieures. Il enseigna au séminaire familial
+      walīullāhī aux côtés de ses frères Shāh ʿAbd al-ʿAzīz
+      et Shāh Rafīʿ al-Dīn.
+    canonical_hijri: {year: 1230, precision: year}
+    canonical_gregorian: {date: 1815-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[shah-abd-al-qadir-al-dihlawi, subject], [shah-waliullah, subject]]
+    tags: [india, delhi, hanafi, walīullāhī, urdu-quran-translation, mudih-al-quran]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mu%E1%B8%8Di%E1%B8%A5_al-Qur%CA%BE%C4%81n"
+
+  - slug: death-of-shah-rafi-al-din-al-dihlawi
+    category: scholar_death
+    title_en: Death of Shāh Rafīʿ al-Dīn al-Dihlawī — Persian Translator of the Qurʾān
+    title_ar: وفاة الشاه رفيع الدين الدهلوي — مترجم القرآن إلى الفارسية
+    title_fr: Mort de Shāh Rafīʿ al-Dīn al-Dihlawī — traducteur persan du Coran
+    description_en: |
+      Shāh Rafīʿ al-Dīn ibn Aḥmad al-Dihlawī — Indian Sunni
+      Hanafi scholar, third son of Shāh Walīullāh of Delhi
+      and younger brother of Shāh ʿAbd al-ʿAzīz and Shāh
+      ʿAbd al-Qādir — died at Delhi in 1233 AH (1818 CE).
+      Classical sources do not preserve a day-precise date,
+      so we record the year only. His most enduring work is
+      a complete Persian translation of the Qurʾān,
+      complementing his brother Shāh ʿAbd al-Qādir's
+      contemporaneous Urdu *Mūḍiḥ al-Qurʾān*: where Shāh ʿAbd
+      al-Qādir opened the scripture to the Urdu-reading public,
+      Shāh Rafīʿ al-Dīn served the Persian-literate ʿulamāʾ
+      of the late Mughal world. He taught at the Walīullāhī
+      seminary and produced a number of Arabic *risālas* on
+      *uṣūl* and the verification of the *isnād*; his
+      brother Shāh ʿAbd al-ʿAzīz cited his rulings in the
+      *Fatāwā ʿAzīziyya*.
+    description_ar: |
+      توفي الشاه رفيع الدين بن أحمد الدهلوي — العالم السني
+      الهندي الحنفي، ثالث أبناء الشاه ولي الله الدهلوي،
+      وأخو الشاه عبد العزيز والشاه عبد القادر الأصغر —
+      بدلهي سنة ١٢٣٣ هـ (الموافق ١٨١٨ ميلادي). ولم تحفظ
+      المصادر الكلاسيكية يوم وفاته، فاكتفينا بالسنة. وأخلد
+      آثاره ترجمة كاملة للقرآن الكريم بالفارسية، تكمل
+      ترجمة أخيه الشاه عبد القادر بالأردية «موضح القرآن»
+      المعاصرة لها: حيث فتح الشاه عبد القادر الكتاب على
+      قراء الأردية، خدم الشاه رفيع الدين علماء الفارسية في
+      عالم المغول المتأخر. ودرّس بمدرسة آل ولي الله، وألّف
+      عدداً من الرسائل العربية في أصول الفقه وتحقيق
+      الأسانيد، نقل عنه أخوه الشاه عبد العزيز فتاويه في
+      «الفتاوى العزيزية».
+    description_fr: |
+      Shāh Rafīʿ al-Dīn ibn Aḥmad al-Dihlawī — savant sunnite
+      indien hanafite, troisième fils de Shāh Walīullāh de
+      Delhi et frère cadet de Shāh ʿAbd al-ʿAzīz et de Shāh
+      ʿAbd al-Qādir — mourut à Delhi en 1233 H (1818 EC).
+      Les sources classiques ne conservent pas de date au
+      jour près; nous n'enregistrons que l'année. Son œuvre
+      la plus durable est une traduction complète du Coran
+      en persan, qui complète la traduction ourdoue
+      contemporaine de son frère Shāh ʿAbd al-Qādir, *Mūḍiḥ
+      al-Qurʾān*: là où Shāh ʿAbd al-Qādir ouvrait
+      l'Écriture au public ourdou, Shāh Rafīʿ al-Dīn
+      servait les *ʿulamāʾ* persanophones du monde moghol
+      tardif. Il enseigna au séminaire walīullāhī et produisit
+      plusieurs *risālas* arabes sur les *uṣūl* et la
+      vérification des *isnāds*; son frère Shāh ʿAbd al-ʿAzīz
+      cita ses *fatwas* dans les *Fatāwā ʿAzīziyya*.
+    canonical_hijri: {year: 1233, precision: year}
+    canonical_gregorian: {date: 1818-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[shah-rafi-al-din-al-dihlawi, subject], [shah-waliullah, subject]]
+    tags: [india, delhi, hanafi, walīullāhī, persian-quran-translation]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shah_Rafi_al-Din"
+
+  # =========================================================================
+  # MATURĪDĪ RATIONALIST LINE — KHAYRĀBĀD AND 1857
+  # =========================================================================
+
+  - slug: death-of-fadl-al-haqq-al-khayrabadi
+    category: scholar_death
+    title_en: Death of Faḍl al-Ḥaqq al-Khayrābādī — Exiled Mawlānā of 1857
+    title_ar: وفاة الفضل الحق الخيرآبادي — مولانا منفي ١٨٥٧
+    title_fr: Mort de Faḍl al-Ḥaqq al-Khayrābādī — Mawlānā exilé de 1857
+    description_en: |
+      Faḍl al-Ḥaqq ibn Faḍl Imām al-Khayrābādī — Indian Sunni
+      Hanafi jurist and Maturīdī theologian of the rationalist
+      *Khayrābādī* line, distinct from the Walīullāhī ḥadīth
+      revival in its emphasis on classical *kalām* and
+      *manṭiq* — died in penal exile on the Andaman Islands
+      on 12 Ṣafar 1278 AH (19 August 1861 CE), about
+      twenty-two months after the British colonial
+      authorities transported him to the prison-colony at
+      Port Blair. He was about sixty-four. He had issued the
+      Friday-sermon fatwa in Delhi in late June 1857
+      authorising armed defence of Muslim Delhi against the
+      British, and was tried in 1859: his defence was so
+      compelling the magistrate began drafting an acquittal
+      until al-Khayrābādī himself, refusing to lie, confirmed
+      authorship of the fatwa. He authored *al-Thawra al-
+      Hindiyya* in Andamans captivity — preserved in Arabic
+      and the first Muslim-internal account of the 1857
+      rebellion — and earlier *Taḥqīq al-Fatwā fī Ibṭāl al-
+      Ṭughwā* refuting the Walīullāhī-line reformists.
+    description_ar: |
+      توفي العلامة الفضل الحق بن فضل إمام الخيرآبادي —
+      الفقيه السني الهندي على المذهب الحنفي، والعالم
+      الكلامي على مذهب الماتريدية، من أئمة المنهج
+      «الخيرآبادي» العقلي المتميز عن الحركة الحديثية
+      الولي اللهية بتأكيده على علم الكلام الكلاسيكي والمنطق
+      — في المنفى الجزائي بجزر أندامان يوم ١٢ صفر سنة
+      ١٢٧٨ هـ (الموافق ١٩ أوت ١٨٦١ ميلادي)، بعد قرابة
+      اثنين وعشرين شهراً من نقله إلى مستعمرة السجن في
+      «بور بلير» بأمر السلطات البريطانية الاستعمارية. وقد
+      ناهز الرابعة والستين. وكان قد ألقى خطبة الجمعة بدلهي
+      أواخر جوان ١٨٥٧ ميلادي وأصدر فتواه بمشروعية الدفاع
+      المسلح عن دلهي المسلمة في وجه البريطانيين، فحوكم
+      سنة ١٨٥٩: واستحضر دفاعاً قوياً أوشك القاضي معه على
+      صياغة الحكم بالبراءة، حتى أبى الخيرآبادي الكذب فأقرّ
+      بفتواه. وألّف في الأسر بأندامان «الثورة الهندية»
+      بالعربية — أول رواية مسلمة من الداخل لثورة سنة
+      ١٢٧٤ هـ — ومن قبلُ ألّف «تحقيق الفتوى في إبطال
+      الطغوى» رداً على إصلاحيي المنهج الولي اللهي.
+    description_fr: |
+      Faḍl al-Ḥaqq ibn Faḍl Imām al-Khayrābādī — juriste
+      sunnite indien hanafite et théologien maturīdī de la
+      ligne rationaliste *Khayrābādī*, distincte du
+      renouveau du hadith walīullāhī par son insistance sur
+      le *kalām* et la logique classiques — mourut en exil
+      pénitentiaire sur les îles Andaman le 12 Ṣafar 1278 H
+      (19 août 1861 EC), environ vingt-deux mois après que
+      les autorités coloniales britanniques l'eurent
+      transporté à la colonie pénale de Port Blair. Il avait
+      environ soixante-quatre ans. Il avait prononcé le
+      sermon du vendredi à Delhi à la fin juin 1857
+      autorisant la défense armée du Delhi musulman contre
+      les Britanniques, et fut jugé en 1859 : sa défense
+      fut si convaincante que le magistrat commença à
+      rédiger un acquittement, jusqu'à ce qu'al-Khayrābādī,
+      refusant de mentir, confirme la paternité de la
+      *fatwa*. Il composa en captivité aux Andaman *al-
+      Thawra al-Hindiyya* — premier récit musulman-interne
+      en arabe de la révolte de 1857 — et auparavant
+      *Taḥqīq al-Fatwā fī Ibṭāl al-Ṭughwā* en réfutation
+      des réformistes de la ligne walīullāhī.
+    canonical_hijri: {year: 1278, month: 2, day: 12, precision: day}
+    canonical_gregorian: {date: 1861-08-19, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[fadl-al-haqq-al-khayrabadi, subject]]
+    tags: [india, andamans, hanafi, maturidi, khayrabadi, 1857, raj, anti-colonial]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Fazl-e-Haq_Khairabadi"
+
+  # =========================================================================
+  # DEOBAND MUḤADDITHŪN — SECOND AND THIRD GENERATION
+  # =========================================================================
+
+  - slug: death-of-khalil-ahmad-al-saharanpuri
+    category: scholar_death
+    title_en: Death of Khalīl Aḥmad al-Sahāranpūrī — Author of *Badhl al-Majhūd*
+    title_ar: وفاة خليل أحمد السهارنپوري — صاحب «بذل المجهود»
+    title_fr: Mort de Khalīl Aḥmad al-Sahāranpūrī — auteur du *Badhl al-Majhūd*
+    description_en: |
+      Khalīl Aḥmad ibn Majīd ʿAlī al-Sahāranpūrī — Indian
+      Sunni Hanafi muḥaddith of the Deobandī tradition, senior
+      teacher of hadith at the Maẓāhir ʿUlūm seminary at
+      Saharanpur, and *khalīfa* of Rashīd Aḥmad al-Gangohī
+      in the Naqshbandī-Mujaddidī chain — died in Medina on
+      Thursday, 16 Rabīʿ al-Ākhira 1346 AH (13 October
+      1927 CE) at age seventy-four and was buried in the
+      Baqīʿ. He had relocated permanently to the Hijāz on
+      his seventh pilgrimage. His twenty-volume Arabic
+      *Badhl al-Majhūd fī Ḥall Sunan Abī Dāwūd* — a major
+      Hanafi-Deobandī commentary on the *Sunan* of Abū
+      Dāwūd al-Sijistānī — has remained a standard
+      reference work on that book, dictated to his student
+      circle in Medina across the last years of his life.
+      He also authored *al-Muhannad ʿalā al-Mufannad*,
+      the Deobandī school's authoritative response to
+      Aḥmad Riḍā Khān al-Bareilwī's *fatāwā* charging the
+      Deobandī ʿulamāʾ with disbelief.
+    description_ar: |
+      توفي العلامة خليل أحمد بن مجيد علي السهارنپوري —
+      محدث سني هندي على المذهب الحنفي من تراث ديوبند،
+      كبير شيوخ الحديث بمدرسة «مظاهر العلوم» بسهارنپور،
+      وخليفة الإمام رشيد أحمد الجنجوهي في السلسلة
+      النقشبندية المجددية — بالمدينة المنورة يوم الخميس
+      ١٦ ربيع الآخر سنة ١٣٤٦ هـ (الموافق ١٣ أكتوبر ١٩٢٧
+      ميلادي) عن أربع وسبعين سنة، ودُفن بالبقيع. وكان
+      قد جاور الحجاز جواراً دائماً منذ حجه السابع. و«بذل
+      المجهود في حل سنن أبي داود» في عشرين مجلداً
+      بالعربية — شرح حنفي ديوبندي كبير على «سنن» أبي
+      داود السجستاني — صار من المراجع الأساسية على
+      ذلك الكتاب، أملاه على طلابه بالمدينة المنورة في
+      أخريات حياته. وله «المهنّد على المفنّد» جواب أهل
+      ديوبند المعتمد على فتاوى الإمام أحمد رضا خان
+      البريلوي بتكفيرهم.
+    description_fr: |
+      Khalīl Aḥmad ibn Majīd ʿAlī al-Sahāranpūrī —
+      muḥaddith sunnite indien hanafite de la tradition
+      deobandie, enseignant principal du hadith au séminaire
+      Maẓāhir ʿUlūm de Saharanpur, et *khalīfa* de Rashīd
+      Aḥmad al-Gangohī dans la chaîne naqshbandī-
+      mujaddidī — mourut à Médine le jeudi 16 Rabīʿ al-
+      Ākhira 1346 H (13 octobre 1927 EC) à l'âge de
+      soixante-quatorze ans et fut inhumé au Baqīʿ. Il
+      s'était installé définitivement au Hijāz lors de son
+      septième pèlerinage. Son *Badhl al-Majhūd fī Ḥall
+      Sunan Abī Dāwūd* en vingt volumes en arabe —
+      commentaire hanafite-deobandi majeur sur les *Sunan*
+      d'Abū Dāwūd al-Sijistānī — est demeuré un ouvrage
+      de référence standard sur ce livre, dicté à son
+      cercle d'élèves à Médine au cours des dernières
+      années de sa vie. Il composa également *al-Muhannad
+      ʿalā al-Mufannad*, la réponse autoritative de l'école
+      deobandie aux *fatāwā* d'Aḥmad Riḍā Khān al-
+      Bareilwī accusant les *ʿulamāʾ* deobandis
+      d'incroyance.
+    canonical_hijri: {year: 1346, month: 4, day: 16, precision: day}
+    canonical_gregorian: {date: 1927-10-13, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[khalil-ahmad-al-saharanpuri, subject], [rashid-ahmad-al-gangohi, subject]]
+    tags: [india, saharanpur, medina, deoband, mazahir-ulum, hadith, badhl-al-majhud, naqshbandi-mujaddidi]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khalil_Ahmad_Saharanpuri"
+
+  - slug: death-of-shabbir-ahmad-al-uthmani
+    category: scholar_death
+    title_en: Death of Shabbīr Aḥmad al-ʿUthmānī — Author of *Fatḥ al-Mulhim*
+    title_ar: وفاة شبير أحمد العثماني — صاحب «فتح الملهم»
+    title_fr: Mort de Shabbīr Aḥmad al-ʿUthmānī — auteur du *Fatḥ al-Mulhim*
+    description_en: |
+      Shabbīr Aḥmad ibn Faḍl al-Raḥmān al-ʿUthmānī — Indian-
+      Pakistani Sunni Hanafi muḥaddith of the Deobandī
+      tradition, *Shaykh al-Islām* of Pakistan in 1949, and
+      principal of Dār al-ʿUlūm Deoband and later Madrasa
+      Mazhar-i ʿUlūm — died at Bahawalpur, Pakistan, on 21
+      Ṣafar 1369 AH (13 December 1949 CE) at age sixty-two
+      and was buried at the Islāmiyya Science College
+      grounds in Karachi. His Arabic *Fatḥ al-Mulhim bi-
+      Sharḥ Ṣaḥīḥ Muslim* — three volumes published in his
+      lifetime — became one of the major modern Sunni
+      commentaries on Ṣaḥīḥ Muslim, completed posthumously
+      by his student al-Taqī al-ʿUthmānī as *Takmila Fatḥ
+      al-Mulhim* in six further volumes. Politically he
+      led the Jamʿiyat ʿUlamāʾ-i Islām founded in 1945,
+      hoisted the first Pakistani flag in West Pakistan
+      with Jinnah and Liaqat Ali Khan in August 1947, and
+      pressed the Constituent Assembly to adopt the
+      *Qarārdād-i Maqāṣid* (Objectives Resolution) of
+      March 1949 — the constitutional declaration that
+      Pakistan would be governed in light of the Qurʾān
+      and the Sunna.
+    description_ar: |
+      توفي العلامة شبير أحمد بن فضل الرحمن العثماني —
+      محدث سني هندي-باكستاني على المذهب الحنفي من تراث
+      ديوبند، شيخ الإسلام في باكستان سنة ١٩٤٩ ميلادي،
+      ومدرس دار العلوم ديوبند ثم رئيس مدرسة «مظهر
+      العلوم» — ببهاولپور بباكستان يوم ٢١ صفر سنة ١٣٦٩
+      هـ (الموافق ١٣ ديسمبر ١٩٤٩ ميلادي) عن اثنتين
+      وستين سنة، ودُفن بساحة كلية إسلامية للعلوم بكراتشي.
+      و«فتح الملهم بشرح صحيح مسلم» بالعربية — في ثلاثة
+      مجلدات نشرت في حياته — صار من أكبر شروح صحيح
+      مسلم الحديثة عند أهل السنة، أتمها بعده تلميذه
+      محمد تقي العثماني في «تكملة فتح الملهم» في ستة
+      مجلدات. وأما سياسياً فقد قاد «جمعية علماء الإسلام»
+      التي أُسست سنة ١٩٤٥، ورفع أول علم باكستاني في
+      غرب باكستان بحضور محمد علي جناح ولياقت علي خان في
+      أوت ١٩٤٧ ميلادي، وحثّ المجلس التأسيسي على تبني
+      «قرارداد مقاصد» (قرار الأهداف) في مارس ١٩٤٩ ميلادي
+      — وهو الإعلان الدستوري بأن باكستان تُحكم في ضوء
+      الكتاب والسنة.
+    description_fr: |
+      Shabbīr Aḥmad ibn Faḍl al-Raḥmān al-ʿUthmānī —
+      muḥaddith sunnite indo-pakistanais hanafite de la
+      tradition deobandie, *Shaykh al-Islām* du Pakistan en
+      1949, principal de Dār al-ʿUlūm Deoband puis de la
+      madrasa Mazhar-i ʿUlūm — mourut à Bahawalpur,
+      Pakistan, le 21 Ṣafar 1369 H (13 décembre 1949 EC)
+      à l'âge de soixante-deux ans et fut inhumé sur le
+      terrain de l'Islāmiyya Science College à Karachi.
+      Son *Fatḥ al-Mulhim bi-Sharḥ Ṣaḥīḥ Muslim* en arabe
+      — trois volumes publiés de son vivant — devint l'un
+      des grands commentaires sunnites modernes de Ṣaḥīḥ
+      Muslim, complété à titre posthume par son élève al-
+      Taqī al-ʿUthmānī sous le titre *Takmila Fatḥ al-
+      Mulhim* en six volumes supplémentaires.
+      Politiquement, il dirigea la Jamʿiyat ʿUlamāʾ-i
+      Islām fondée en 1945, hissa le premier drapeau
+      pakistanais au Pakistan occidental avec Jinnah et
+      Liaqat Ali Khan en août 1947, et obtint de
+      l'Assemblée constituante l'adoption du *Qarārdād-i
+      Maqāṣid* (Résolution sur les objectifs) de mars
+      1949 — déclaration constitutionnelle selon laquelle
+      le Pakistan serait gouverné à la lumière du Coran
+      et de la Sunna.
+    canonical_hijri: {year: 1369, month: 2, day: 21, precision: day}
+    canonical_gregorian: {date: 1949-12-13, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[shabbir-ahmad-al-uthmani, subject]]
+    tags: [pakistan, india, deoband, hanafi, fath-al-mulhim, shaykh-al-islam, jamiat-ulama-islam, partition, objectives-resolution]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shabbir_Ahmad_Usmani"
+
+  - slug: death-of-yusuf-al-bannuri
+    category: scholar_death
+    title_en: Death of Muḥammad Yūsuf al-Bannūrī — Author of *Maʿārif al-Sunan*
+    title_ar: وفاة محمد يوسف البنوري — صاحب «معارف السنن»
+    title_fr: Mort de Muḥammad Yūsuf al-Bannūrī — auteur des *Maʿārif al-Sunan*
+    description_en: |
+      Muḥammad Yūsuf ibn Muḥammad Zakariyyā al-Bannūrī —
+      Pakistani Sunni Hanafi muḥaddith of the Deobandī
+      tradition, principal student of Anwar Shāh al-
+      Kashmīrī, founder of *al-Jāmiʿa al-ʿUlūm al-Islāmiyya*
+      in Karachi (the seminary later known as *Bannūrī Town*),
+      and president of the *Wifāq al-Madāris al-ʿArabiyya*
+      union of Pakistani Hanafi seminaries from 1973 — died
+      at Rawalpindi on 4 Dhū al-Qaʿda 1397 AH (17 October
+      1977 CE) at age sixty-nine, having taken ill while
+      attending a meeting of the Islamic Consultative
+      Council at Islamabad. His Arabic *Maʿārif al-Sunan
+      Sharḥ Sunan al-Tirmidhī* in six volumes — drafted
+      from his teacher al-Kashmīrī's lectures on the
+      *Jāmiʿ* of Abū ʿĪsā al-Tirmidhī and developed by
+      al-Bannūrī through his teaching career — became a
+      reference Hanafi-Deobandī commentary on al-
+      Tirmidhī's collection.
+    description_ar: |
+      توفي العلامة محمد يوسف بن محمد زكريا البنوري —
+      محدث سني باكستاني على المذهب الحنفي من تراث
+      ديوبند، أكبر تلامذة العلامة أنور شاه الكشميري،
+      ومؤسس «الجامعة العلوم الإسلامية» بكراتشي
+      (المعروفة لاحقاً باسم «بنوري تاون»)، ورئيس «وفاق
+      المدارس العربية» اتحاد المدارس الحنفية الباكستانية
+      منذ سنة ١٩٧٣ ميلادي — براولپندي يوم ٤ ذي القعدة
+      سنة ١٣٩٧ هـ (الموافق ١٧ أكتوبر ١٩٧٧ ميلادي) عن
+      تسع وستين سنة، إثر اعتلاله أثناء حضوره اجتماع
+      «المجلس الإسلامي الاستشاري» بإسلام آباد. و«معارف
+      السنن شرح سنن الترمذي» بالعربية في ستة مجلدات —
+      أصلها تقارير على دروس شيخه الكشميري في «الجامع»
+      لأبي عيسى الترمذي، طوّرها البنوري في حلقات تدريسه
+      — صار من المراجع المعتمدة الحنفية الديوبندية على
+      جامع الترمذي.
+    description_fr: |
+      Muḥammad Yūsuf ibn Muḥammad Zakariyyā al-Bannūrī —
+      muḥaddith sunnite pakistanais hanafite de la
+      tradition deobandie, élève principal d'Anwar Shāh
+      al-Kashmīrī, fondateur de *al-Jāmiʿa al-ʿUlūm al-
+      Islāmiyya* à Karachi (le séminaire connu plus tard
+      sous le nom de *Bannūrī Town*), et président de la
+      *Wifāq al-Madāris al-ʿArabiyya*, fédération des
+      séminaires hanafites pakistanais à partir de 1973 —
+      mourut à Rawalpindi le 4 Dhū al-Qaʿda 1397 H (17
+      octobre 1977 EC) à l'âge de soixante-neuf ans,
+      après avoir été pris de malaise lors d'une réunion
+      du Conseil consultatif islamique à Islamabad. Ses
+      *Maʿārif al-Sunan Sharḥ Sunan al-Tirmidhī* en arabe
+      en six volumes — élaborés à partir des cours de son
+      maître al-Kashmīrī sur le *Jāmiʿ* d'Abū ʿĪsā al-
+      Tirmidhī et développés par al-Bannūrī au cours de
+      sa carrière d'enseignement — devinrent un commentaire
+      hanafite-deobandi de référence sur la collection
+      d'al-Tirmidhī.
+    canonical_hijri: {year: 1397, month: 11, day: 4, precision: day}
+    canonical_gregorian: {date: 1977-10-17, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[yusuf-al-bannuri, subject], [anwar-shah-al-kashmiri, subject]]
+    tags: [pakistan, karachi, rawalpindi, deoband, hanafi, hadith, bannuri-town, maarif-al-sunan, wifaq-al-madaris]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Yusuf_Banuri"
+
+  - slug: death-of-manzur-numani
+    category: scholar_death
+    title_en: Death of Muḥammad Manẓūr al-Nuʿmānī — Indian Deobandī Muḥaddith
+    title_ar: وفاة محمد منظور النعماني — محدث الديوبندية الهندي
+    title_fr: Mort de Muḥammad Manẓūr al-Nuʿmānī — muḥaddith deobandi indien
+    description_en: |
+      Muḥammad Manẓūr al-Nuʿmānī — Indian Sunni Hanafi
+      muḥaddith of the Deobandī tradition, *Shaykh al-
+      Ḥadīth* at Dār al-ʿUlūm Nadwat al-ʿUlamāʾ in Lucknow
+      and later a member of the governing councils of
+      Dār al-ʿUlūm Deoband — died at Lucknow on 26 Dhū al-
+      Ḥijja 1417 AH (4 May 1997 CE) at age ninety-one and
+      was buried at the ʿAyshbāgh cemetery. He had studied
+      hadith at Deoband under Anwar Shāh al-Kashmīrī and
+      graduated as the highest-marked student in the
+      *dawra-yi ḥadīth* of his year. His Urdu *Maʿārif al-
+      Ḥadīth* in eight volumes — a thematically arranged
+      ḥadīth manual treating ʿaqīda, ʿibādāt, akhlāq and
+      muʿāmalāt for the Urdu reading public — became one
+      of the most widely circulated Sunni ḥadīth works in
+      twentieth-century South Asia. He worked closely with
+      Sayyid Abū al-Ḥasan ʿAlī al-Nadwī as joint editor
+      of the journal *al-Furqān*.
+    description_ar: |
+      توفي العلامة محمد منظور النعماني — محدث سني هندي
+      على المذهب الحنفي من تراث ديوبند، شيخ الحديث بدار
+      العلوم لندوة العلماء بلكناو، ولاحقاً عضو مجالس
+      إدارة دار العلوم ديوبند — بلكناو يوم ٢٦ ذي الحجة
+      سنة ١٤١٧ هـ (الموافق ٤ ماي ١٩٩٧ ميلادي) عن إحدى
+      وتسعين سنة، ودُفن بمقبرة «عيش باغ». وكان قد درس
+      الحديث بديوبند على العلامة أنور شاه الكشميري، وتخرج
+      مرتباً الأول في «دورة الحديث» في عام تخرجه. و«معارف
+      الحديث» له بالأردية في ثمانية مجلدات — تنظيم
+      موضوعي لمتون الحديث في العقيدة والعبادات والأخلاق
+      والمعاملات لعموم قراء الأردية — صار من أوسع كتب
+      الحديث السنية انتشاراً في شبه القارة الهندية في
+      القرن العشرين. وعمل عن قرب مع السيد أبي الحسن علي
+      الندوي شريكاً له في تحرير مجلة «الفرقان».
+    description_fr: |
+      Muḥammad Manẓūr al-Nuʿmānī — muḥaddith sunnite
+      indien hanafite de la tradition deobandie, *Shaykh
+      al-Ḥadīth* à Dār al-ʿUlūm Nadwat al-ʿUlamāʾ à
+      Lucknow et plus tard membre des conseils de
+      direction de Dār al-ʿUlūm Deoband — mourut à Lucknow
+      le 26 Dhū al-Ḥijja 1417 H (4 mai 1997 EC) à l'âge
+      de quatre-vingt-onze ans et fut inhumé au cimetière
+      ʿAyshbāgh. Il avait étudié le hadith à Deoband
+      auprès d'Anwar Shāh al-Kashmīrī et obtint son
+      diplôme avec la meilleure note dans le *dawra-yi
+      ḥadīth* de sa promotion. Son *Maʿārif al-Ḥadīth* en
+      ourdou en huit volumes — manuel de hadith
+      thématiquement organisé traitant de *ʿaqīda*,
+      *ʿibādāt*, *akhlāq* et *muʿāmalāt* pour le public
+      lettré ourdou — devint l'un des ouvrages sunnites de
+      hadith les plus largement diffusés dans l'Asie du
+      Sud du XXe siècle. Il travailla étroitement avec
+      Sayyid Abū al-Ḥasan ʿAlī al-Nadwī comme co-éditeur
+      de la revue *al-Furqān*.
+    canonical_hijri: {year: 1417, month: 12, day: 26, precision: day}
+    canonical_gregorian: {date: 1997-05-04, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[manzur-numani, subject], [anwar-shah-al-kashmiri, subject], [abu-al-hasan-al-nadwi, subject]]
+    tags: [india, lucknow, deoband, nadwa, hanafi, hadith, maarif-al-hadith, al-furqan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Manzoor_Nomani"
+
+  - slug: death-of-sulayman-al-nadwi
+    category: scholar_death
+    title_en: Death of Sayyid Sulaymān al-Nadwī — Co-Author of *Sīrat al-Nabī*
+    title_ar: وفاة السيد سليمان الندوي — مشارك في «سيرة النبي»
+    title_fr: Mort de Sayyid Sulaymān al-Nadwī — co-auteur de la *Sīrat al-Nabī*
+    description_en: |
+      Sayyid Sulaymān ibn Abī al-Ḥasan al-Nadwī — Indian-
+      Pakistani Sunni Hanafi scholar of the Nadwa school,
+      foremost student of Shiblī al-Nuʿmānī, founder of
+      *Dār al-Muṣannifīn* (the Shiblī Academy) at Aʿẓamgaṛh
+      and longtime editor of its Urdu journal *Maʿārif* —
+      died at Karachi on 15 Rabīʿ al-Awwal 1373 AH (22
+      November 1953 CE) at age sixty-nine, having relocated
+      from Bihar to Pakistan in 1950. His best-known work
+      is the multi-volume *Sīrat al-Nabī*: Shiblī had
+      written the first two volumes before his death in
+      1914, and al-Nadwī completed the remaining five
+      from his teacher's notes and his own research. The
+      *Khuṭbāt-i Madrās* of 1925 — eight Madras lectures
+      he delivered on the Prophet's ﷺ life and character
+      — was widely translated into Arabic, English and
+      Turkish. He was a senior figure in the founding of
+      *Jāmiʿa Milliyya Islāmiyya* and advised the
+      Constituent Assembly of Pakistan on Islamic
+      constitutional matters.
+    description_ar: |
+      توفي السيد سليمان بن أبي الحسن الندوي — العالم
+      السني الهندي-الباكستاني على المذهب الحنفي من تراث
+      ندوة العلماء، أكبر تلامذة شبلي النعماني، مؤسس «دار
+      المصنفين» (أكاديمية الشبلي) بأعظم گڑھ، ومحرر مجلة
+      «معارف» الأردية بها سنين طويلة — بكراتشي يوم ١٥
+      ربيع الأول سنة ١٣٧٣ هـ (الموافق ٢٢ نوفمبر ١٩٥٣
+      ميلادي) عن تسع وستين سنة، بعد انتقاله من بيهار
+      إلى باكستان سنة ١٩٥٠ ميلادي. وأشهر أعماله مجلدات
+      «سيرة النبي»: ألّف شبلي مجلديها الأولين قبل وفاته
+      سنة ١٩١٤ ميلادي، فأتم الندوي ما تبقى من المجلدات
+      الخمسة من تقارير شيخه ودراسته الخاصة. و«خطبات
+      مدراس» المؤلفة سنة ١٩٢٥ ميلادي — ثماني محاضرات
+      ألقاها بمدراس في سيرة النبي ﷺ وشمائله —
+      تُرجمت على نطاق واسع إلى العربية والإنجليزية
+      والتركية. وكان من كبار المؤسسين لـ«جامعة الملية
+      الإسلامية»، واستشاره المجلس التأسيسي الباكستاني
+      في المسائل الدستورية الإسلامية.
+    description_fr: |
+      Sayyid Sulaymān ibn Abī al-Ḥasan al-Nadwī — savant
+      sunnite indo-pakistanais hanafite de l'école de
+      Nadwa, principal élève de Shiblī al-Nuʿmānī,
+      fondateur de *Dār al-Muṣannifīn* (l'Académie Shiblī)
+      à Aʿẓamgaṛh et longtemps rédacteur en chef de sa
+      revue ourdoue *Maʿārif* — mourut à Karachi le 15
+      Rabīʿ al-Awwal 1373 H (22 novembre 1953 EC) à
+      l'âge de soixante-neuf ans, après s'être installé du
+      Bihar au Pakistan en 1950. Son œuvre la plus connue
+      est la *Sīrat al-Nabī* en plusieurs volumes : Shiblī
+      avait écrit les deux premiers volumes avant sa mort
+      en 1914, et al-Nadwī compléta les cinq volumes
+      restants à partir des notes de son maître et de ses
+      propres recherches. Les *Khuṭbāt-i Madrās* de 1925
+      — huit conférences prononcées à Madras sur la vie
+      et le caractère du Prophète ﷺ — furent largement
+      traduites en arabe, anglais et turc. Il fut une
+      figure de premier plan dans la fondation de la
+      *Jāmiʿa Milliyya Islāmiyya* et conseilla
+      l'Assemblée constituante du Pakistan sur les
+      questions constitutionnelles islamiques.
+    canonical_hijri: {year: 1373, month: 3, day: 15, precision: day}
+    canonical_gregorian: {date: 1953-11-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sulayman-al-nadwi, subject]]
+    tags: [india, pakistan, karachi, azamgarh, nadwa, hanafi, sirat-al-nabi, dar-al-musannifin, maarif]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sulaiman_Nadvi"
+
+  - slug: death-of-ubaydullah-al-sindhi
+    category: scholar_death
+    title_en: Death of Mawlānā ʿUbaydullāh al-Sindhī — Silk-Letters Mujāhid
+    title_ar: وفاة المولانا عبيد الله السندي — مجاهد الرسائل الحريرية
+    title_fr: Mort du Mawlānā ʿUbaydullāh al-Sindhī — mujāhid des Lettres de Soie
+    description_en: |
+      Mawlānā ʿUbaydullāh al-Sindhī (Buṭā Singh before his
+      conversion) — Indian Sunni Hanafi scholar of the
+      Deobandī tradition, student of Shaykh al-Hind Maḥmūd
+      al-Ḥasan, and one of the principal architects of the
+      "Silk Letters" anti-colonial network active across
+      the Hijāz, Afghanistan and India during the First
+      World War — died near Khanpur in Sindh on 2 Ramaḍān
+      1363 AH (21 August 1944 CE) at age seventy-two while
+      visiting his daughter. He had spent nearly a quarter
+      century in exile after the Silk-Letters network was
+      uncovered in 1916: first as foreign minister of the
+      *Ḥukūmat-i Muwaqqata* (the provisional Indian
+      government in Kabul), then in Soviet Russia and
+      Turkey, and ultimately fourteen years in Mecca
+      where he composed his commentary on the Qurʾān
+      *al-Mawqif al-Maḥmūd* under the influence of Shāh
+      Walīullāh's framework. He returned to India in
+      1939 and opposed the partition of India.
+    description_ar: |
+      توفي المولانا عبيد الله السندي (بُٹا سنغ قبل
+      إسلامه) — العالم السني الهندي على المذهب الحنفي من
+      تراث ديوبند، تلميذ شيخ الهند محمود الحسن، ومن أكبر
+      المهندسين لشبكة «الرسائل الحريرية» المناهضة
+      للاستعمار الناشطة بين الحجاز وأفغانستان والهند
+      خلال الحرب العالمية الأولى — قرب «خانپور» بالسند
+      يوم ٢ رمضان سنة ١٣٦٣ هـ (الموافق ٢١ أوت ١٩٤٤
+      ميلادي) عن اثنتين وسبعين سنة، أثناء زيارته
+      لابنته. وكان قد قضى نحو ربع قرن في المنفى بعد
+      اكتشاف شبكة الرسائل الحريرية سنة ١٩١٦ ميلادي:
+      وزيراً للخارجية في «حكومت موقتة» (الحكومة الهندية
+      المؤقتة بكابل)، ثم في روسيا السوفياتية وتركيا،
+      ثم أربع عشرة سنة بمكة المكرمة كتب فيها تفسيره
+      «الموقف المحمود» على منهج الشاه ولي الله. وعاد
+      إلى الهند سنة ١٩٣٩ ميلادي، فعارض تقسيم الهند.
+    description_fr: |
+      Mawlānā ʿUbaydullāh al-Sindhī (Buṭā Singh avant sa
+      conversion) — savant sunnite indien hanafite de la
+      tradition deobandie, élève de Shaykh al-Hind Maḥmūd
+      al-Ḥasan, et l'un des principaux architectes du
+      réseau anti-colonial des « Lettres de Soie »
+      actif entre le Hijāz, l'Afghanistan et l'Inde
+      durant la Première Guerre mondiale — mourut près
+      de Khanpur dans le Sindh le 2 Ramaḍān 1363 H
+      (21 août 1944 EC) à l'âge de soixante-douze ans
+      lors d'une visite à sa fille. Il avait passé près
+      d'un quart de siècle en exil après la découverte du
+      réseau des Lettres de Soie en 1916 : d'abord
+      ministre des Affaires étrangères du *Ḥukūmat-i
+      Muwaqqata* (gouvernement provisoire indien à
+      Kaboul), puis en Russie soviétique et en Turquie,
+      enfin quatorze ans à La Mecque où il composa son
+      commentaire coranique *al-Mawqif al-Maḥmūd* dans
+      le cadre walīullāhī. Il rentra en Inde en 1939
+      et s'opposa à la partition de l'Inde.
+    canonical_hijri: {year: 1363, month: 9, day: 2, precision: day}
+    canonical_gregorian: {date: 1944-08-21, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ubaydullah-al-sindhi, subject], [mahmud-al-hasan-al-deobandi, subject]]
+    tags: [india, sindh, kabul, mecca, deoband, walīullāhī, silk-letters, anti-colonial, world-war-i, partition]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ubaidullah_Sindhi"
+
+  # =========================================================================
+  # MUSLIM POLITICAL JURIST — PUNJAB AND THE LEAGUE
+  # =========================================================================
+
+  - slug: death-of-mian-muhammad-shafi
+    category: scholar_death
+    title_en: Death of Sir Mian Muḥammad Shafīʿ — Founder of the Muslim League's Punjab Branch
+    title_ar: وفاة السير ميان محمد شفيع — مؤسس فرع البنجاب لرابطة المسلمين
+    title_fr: Mort de Sir Mian Muḥammad Shafīʿ — fondateur de la branche pendjabie de la Ligue musulmane
+    description_en: |
+      Sir Mian Muḥammad Shafīʿ — Indian Sunni Hanafi
+      barrister of the Punjabi Arāʾīn family of Baghbānpura
+      near Lahore, founding figure of the All-India Muslim
+      League at the December 1906 Dhaka meeting (he is
+      credited with proposing the League's name), founder
+      of its Punjab branch in November 1907, member of
+      the Viceroy's Executive Council with the education
+      portfolio (1919–1924), and senior Muslim
+      representative at the 1930–1931 Round Table
+      Conferences in London — died at his ancestral home
+      in Baghbānpura on 27 Shaʿbān 1350 AH (7 January
+      1932 CE) at age sixty-two and was buried in the
+      family graveyard there. As Education Member of the
+      Viceroy's Council he supervised the legislative
+      transformation of the Muḥammadan Anglo-Oriental
+      College at Aligarh into Aligarh Muslim University
+      under the Aligarh Muslim University Act of 1920;
+      his daughter Begum Jahān-Ārā Shāh-Nawāz inherited
+      his political role in the Pakistan Movement.
+    description_ar: |
+      توفي السير ميان محمد شفيع — المحامي السني الهندي
+      على المذهب الحنفي، من أسرة الأرائين البنجابية
+      ببغبانپوره قرب لاهور، من المؤسسين الأوائل لـ«رابطة
+      مسلمي عموم الهند» في اجتماع داكا في ديسمبر ١٩٠٦
+      ميلادي (يُنسب إليه اقتراح اسم الرابطة)، ومؤسس
+      فرعها البنجابي في نوفمبر ١٩٠٧ ميلادي، وعضو
+      المجلس التنفيذي لنائب الملك بحقيبة التعليم
+      (١٩١٩-١٩٢٤ ميلادي)، وكبير ممثلي المسلمين في مؤتمري
+      المائدة المستديرة بلندن سنتي ١٩٣٠-١٩٣١ ميلادي —
+      ببيت أسرته ببغبانپوره يوم ٢٧ شعبان سنة ١٣٥٠ هـ
+      (الموافق ٧ جانفي ١٩٣٢ ميلادي) عن اثنتين وستين
+      سنة، ودُفن بمقبرة الأسرة هناك. وحين كان عضو
+      التعليم في مجلس النائب الملكي أشرف على التحول
+      التشريعي لـ«كلية محمدان أنغلو-أورينتل» في عليكره
+      إلى «جامعة عليكره الإسلامية» بقانون «جامعة عليكره
+      الإسلامية» سنة ١٩٢٠ ميلادي. وورثت دوره السياسي في
+      حركة باكستان ابنته بيگم جهاں آرا شاہ نواز.
+    description_fr: |
+      Sir Mian Muḥammad Shafīʿ — avocat sunnite indien
+      hanafite de la famille pendjabie Arāʾīn de
+      Baghbānpura près de Lahore, figure fondatrice de la
+      Ligue musulmane de toute l'Inde lors de la réunion
+      de Dhaka en décembre 1906 (on lui attribue la
+      proposition du nom de la Ligue), fondateur de sa
+      branche pendjabie en novembre 1907, membre du
+      Conseil exécutif du vice-roi avec le portefeuille
+      de l'éducation (1919–1924), et représentant musulman
+      principal aux Conférences de la Table ronde à
+      Londres en 1930–1931 — mourut dans sa maison
+      ancestrale de Baghbānpura le 27 Shaʿbān 1350 H
+      (7 janvier 1932 EC) à l'âge de soixante-deux ans
+      et fut inhumé dans le cimetière familial. Comme
+      membre du Conseil chargé de l'éducation, il
+      supervisa la transformation législative du
+      Muḥammadan Anglo-Oriental College d'Aligarh en
+      Aligarh Muslim University par l'Aligarh Muslim
+      University Act de 1920; sa fille Begum Jahān-Ārā
+      Shāh-Nawāz hérita de son rôle politique dans le
+      mouvement pour le Pakistan.
+    canonical_hijri: {year: 1350, month: 8, day: 27, precision: day}
+    canonical_gregorian: {date: 1932-01-07, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mian-muhammad-shafi, subject]]
+    tags: [india, punjab, lahore, hanafi, muslim-league, aligarh, raj, round-table-conference]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mian_Muhammad_Shafi"

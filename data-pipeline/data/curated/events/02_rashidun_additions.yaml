@@ -1,0 +1,214 @@
+# Additional Rashidun-era events (11-40 AH / 632-661 CE). Legacy file already
+# contains Abu Bakr's death, Umar's martyrdom, Yarmouk, Qadisiyyah, Uthman's
+# martyrdom, Ali's martyrdom, Battle of the Camel, and the conquest of
+# Jerusalem under Umar.
+
+events:
+  - slug: battle-of-yamama
+    category: battle
+    title_en: Battle of Yamama — Defeat of Musaylima the Liar
+    title_ar: معركة اليمامة
+    description_en: |
+      The decisive battle of the Ridda (apostasy) wars under Caliph Abu Bakr.
+      Khalid ibn al-Walid led the Muslim army against Musaylima al-Kadhdhab
+      ("the liar") at Yamama in central Arabia. The battle was particularly
+      costly — many of the huffaz (memorisers of the Qur'an) fell, including
+      Zayd ibn al-Khattab (Umar's brother). The loss of so many huffaz
+      prompted Umar to urge Abu Bakr to compile the Qur'an into a single
+      mushaf — the beginning of the codified textual history of the Qur'an.
+      
+      Classical sources differ on whether Musaylima's death falls in late Rajab/Shawwāl 11 AH or early 12 AH; we follow al-Ṭabarī's *Tarīkh* and Ibn al-Athīr's *Kāmil* with 12 AH (Rabīʿ al-Thānī) as the dominant attestation. December 632 CE is universally agreed regardless of the Hijrī-month assignment.
+    canonical_hijri: {year: 12, precision: year}
+    canonical_gregorian: {date: 632-12-15, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "Sunni sources split: late Rajab/Shawwal 11 AH (Dec 632) vs early 12 AH; Musaylima killed Rabi al-Thani 12 AH per some. December 632 CE is universally agreed."
+      - source_key: ibn_athir_kamil
+    people: [[abu-bakr-as-siddiq, leader], [khalid-ibn-al-walid, leader]]
+    tags: [rashidun, battle, ridda, yamama, huffaz, khalid]
+    disputed: true
+    dispute_about: date
+    verified: true
+
+  - slug: compilation-of-quran-abu-bakr
+    category: rashidun
+    title_en: First Compilation of the Qur'an under Abu Bakr
+    title_ar: جمع القرآن في عهد أبي بكر
+    description_en: |
+      After the death of many huffaz at the Battle of Yamama, Umar ibn
+      al-Khattab urged Abu Bakr to preserve the Qur'an in a single written
+      text. Abu Bakr entrusted the task to Zayd ibn Thabit, the Prophet's ﷺ
+      scribe, who gathered fragments written "on scraps of leather, stones,
+      palm leaves, ribs of animals, and from the hearts of men." The
+      compilation was kept with Abu Bakr, then with Umar, then with his
+      daughter Hafsa ra — becoming the master text from which Uthman's later
+      standardisation was produced.
+    canonical_hijri: {year: 12, precision: year}
+    canonical_gregorian: {date: 633-06-01, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Kitab Fada'il al-Qur'an — hadith of Zayd ibn Thabit."
+        is_canonical: true
+      - source_key: tabari_tarikh
+    people: [[abu-bakr-as-siddiq, leader]]
+    tags: [rashidun, quran, mushaf, zayd-ibn-thabit]
+    verified: true
+
+  - slug: plague-of-amwas
+    category: rashidun
+    title_en: Plague of Amwas
+    title_ar: طاعون عمواس
+    description_en: |
+      A severe plague swept through Syria during Caliph Umar's tenure,
+      claiming the lives of many senior Companions including Abu Ubayda ibn
+      al-Jarrah (the commander of Syrian forces and one of the ten promised
+      Paradise), Mu'adh ibn Jabal, Yazid ibn Abi Sufyan, and Shurahbil ibn
+      Hasana. The reported death toll among Muslims reached 25,000.
+      Umar famously debated with Abu Ubayda whether to enter the plague
+      zone — departing from it, Umar said, was "fleeing from Allah's decree
+      to Allah's decree," establishing an early jurisprudential principle
+      later cited in the rulings on epidemic quarantine.
+      
+      Sources differ on the plague's onset year: al-Ṭabarī (citing Sayf ibn ʿUmar) places it in Muḥarram-Ṣafar 17 AH; some sources record onset in 18 AH. We follow the 18 AH dating as the dominant classical position; senior Companions died across both 17 and 18 AH.
+    canonical_hijri: {year: 18, precision: year}
+    canonical_gregorian: {date: 639-06-01, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Sahih al-Bukhari 5729 (Kitab al-Tibb) — Umar's discussion with Abu Ubayda: 'fleeing from Allah's decree to Allah's decree.'"
+        is_canonical: true
+      - source_key: tabari_tarikh
+        notes: "Plague onset placed in Muharram-Safar 17 AH per Sayf ibn Umar (al-Tabari); the senior Companions died across 17–18 AH."
+      - source_key: ibn_athir_kamil
+    people: [[umar-ibn-al-khattab, subject]]
+    tags: [rashidun, plague, epidemic, levant, amwas]
+    verified: true
+    disputed: true
+    dispute_about: date
+
+  - slug: conquest-of-damascus
+    category: conquest
+    title_en: Conquest of Damascus
+    title_ar: فتح دمشق
+    description_en: |
+      Damascus fell to the Muslim army with Khalid ibn al-Walid in overall
+      command and Abu Ubayda ibn al-Jarrah leading the negotiated surrender
+      at the western (Jabiya) gate. The eastern gate was opened by the
+      garrison in treaty while Khalid simultaneously entered the western
+      walls by force — a unique situation in Islamic military jurisprudence.
+      The city became the administrative capital of the later Umayyad
+      caliphate.
+
+      Date follows al-Ṭabarī's *Tārīkh* and Ibn al-Athīr's *Kāmil*, which place the surrender in Rajab 13 AH ≈ September 634 CE — the dominant attestation. Al-Wāqidī's later reckoning placing the fall in 14 AH is the disputed alternative; we follow the al-Ṭabarī majority.
+    canonical_hijri: {year: 13, month: 7, precision: month}
+    canonical_gregorian: {date: 634-09-19, precision: day, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "Rajab 13 AH = ~Sept 634 CE per al-Tabari and modern reconstructions; al-Waqidi's later reckoning placing the fall in 14 AH is the disputed alternative."
+      - source_key: ibn_athir_kamil
+    people: [[khalid-ibn-al-walid, leader]]
+    tags: [rashidun, conquest, levant, damascus]
+    verified: true
+    disputed: true
+    dispute_about: date
+
+  - slug: battle-of-nahavand
+    category: battle
+    title_en: Battle of Nahavand — "Victory of Victories"
+    title_ar: معركة نهاوند
+    description_en: |
+      The decisive battle that ended Sasanian Persian resistance in Iran.
+      Fought in the Zagros mountains near modern Hamadan, a Muslim army of
+      30,000 under al-Nu'man ibn Muqarrin defeated a Sasanian force of
+      approximately 100,000-150,000. Al-Nu'man was martyred at the moment of
+      victory and command passed to Hudhayfa ibn al-Yaman. The Muslims called
+      it "Fath al-Futuh" — the Victory of Victories — because it broke the
+      Sasanian army as an organised force and opened the interior of Iran to
+      Islam.
+      
+      Sources record this battle in 21 AH per al-Ṭabarī's *Tārīkh* and Ibn al-Athīr's *Kāmil* — the dominant attestation we follow here — while Ibn Hishām's tradition reports 19 or 20 AH as alternative years.
+    canonical_hijri: {year: 21, precision: year}
+    canonical_gregorian: {date: 642-06-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "21 AH per al-Tabari and Ibn al-Athir; Ibn Hisham's tradition reports 19 or 20 AH — alternatives flagged via disputed."
+      - source_key: ibn_athir_kamil
+    people: [[umar-ibn-al-khattab, leader]]
+    tags: [rashidun, battle, persia, sasanian, nahavand]
+    verified: true
+    disputed: true
+    dispute_about: date
+
+  - slug: death-of-khalid-ibn-al-walid
+    category: rashidun
+    title_en: Death of Khalid ibn al-Walid (Sayf Allah al-Maslul)
+    title_ar: وفاة خالد بن الوليد
+    description_en: |
+      Khalid ibn al-Walid, titled by the Prophet ﷺ "the Drawn Sword of
+      Allah" (Sayf Allah al-Maslul), died in Homs after a military career in
+      which he never lost a battle, having fought from Mu'tah in 8 AH
+      through the conquest of Damascus and Yarmouk. Tradition records his
+      final words: "I have fought a hundred battles, yet I die on my bed
+      like a camel dies — may the eyes of the cowards never find rest." He
+      is buried in the Khalid ibn al-Walid Mosque in Homs.
+    canonical_hijri: {year: 21, precision: year}
+    canonical_gregorian: {date: 642-08-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+        notes: "al-Dhahabi's Siyar A'lam al-Nubala' preserves the 'died on my bed like a camel' final-words tradition."
+    people: [[khalid-ibn-al-walid, died]]
+    tags: [rashidun, sahaba, khalid, homs]
+    verified: true
+
+  - slug: uthmanic-mushaf-standardisation
+    category: rashidun
+    title_en: The Uthmanic Standardisation of the Qur'an
+    title_ar: جمع القرآن في عهد عثمان
+    description_en: |
+      Reports of variant recitations in the expanding Muslim lands reached
+      Caliph Uthman through Hudhayfa ibn al-Yaman. Uthman requested the
+      master mushaf kept with Hafsa ra and commissioned a committee led by
+      Zayd ibn Thabit to produce standardised copies in the Quraysh dialect.
+      Copies were sent to Makkah, Basra, Kufa, and Damascus, and all variant
+      codices were ordered burnt. This is the textual history of every
+      printed mushaf in circulation today — the continuity from Zayd's
+      gathering, through Hafsa's custody, to the Uthmanic dispatches.
+    canonical_hijri: {year: 25, precision: year}
+    canonical_gregorian: {date: 650-01-01, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Kitab Fada'il al-Qur'an — narrations of Anas ibn Malik and others."
+        is_canonical: true
+      - source_key: tabari_tarikh
+    people: [[uthman-ibn-affan, leader]]
+    tags: [rashidun, quran, mushaf, standardisation]
+    verified: true
+
+  - slug: muawiya-becomes-caliph
+    category: umayyad
+    title_en: The Year of Unity — Mu'awiya becomes Caliph
+    title_ar: عام الجماعة
+    description_en: |
+      Following the martyrdom of Ali and the six-month caliphate of al-Hasan
+      ibn Ali, al-Hasan abdicated the caliphate to Mu'awiya ibn Abi Sufyan
+      on condition that the leadership would return to a consultative
+      process after Mu'awiya. The year is called "'Am al-Jama'a" — the Year
+      of Unity — because it reunited the Muslim community after five years
+      of civil war. Mu'awiya became the first Umayyad caliph and founded the
+      dynasty, moving the capital to Damascus.
+    canonical_hijri: {year: 41, precision: year}
+    canonical_gregorian: {date: 661-07-01, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        notes: "Sahih al-Bukhari 2704 (Kitab al-Sulh) — 'My son is a sayyid by whom Allah will reconcile two great parties of Muslims.'"
+        is_canonical: true
+      - source_key: tabari_tarikh
+    hadith_refs: "Bukhari 2704"
+    people: [[muawiya-ibn-abi-sufyan, leader], [hasan-ibn-ali, participant]]
+    tags: [rashidun-end, umayyad, caliphate, unity, damascus]
+    verified: true

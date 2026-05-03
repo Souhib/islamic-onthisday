@@ -1,0 +1,890 @@
+# Wave 7 of curated event additions (2026-04-26).
+# 4 senior sahaba (Prophet's uncle + martyrs of Uhud/Mu'tah +
+# narrator of bay'at al-ridwan) + 2 andalusi mufassirun + 3 ottoman
+# sultans + 1 mathematician + 1 historian-geographer + 1 maliki jurist
+# + 3 conquests/battles. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # SENIOR SAHABA — UNCLE + MARTYRS + RIDWAN NARRATOR
+  # =========================================================================
+
+  - slug: death-of-al-abbas-ibn-abd-al-muttalib
+    category: companion
+    title_en: Death of al-ʿAbbas ibn ʿAbd al-Muṭṭalib ra — Uncle of the Prophet ﷺ
+    title_ar: وفاة العباس بن عبد المطلب رضي الله عنه — عم النبي ﷺ
+    title_fr: Mort d'al-ʿAbbās ibn ʿAbd al-Muṭṭalib ra — oncle du Prophète ﷺ
+    description_en: |
+      al-ʿAbbas ibn ʿAbd al-Muṭṭalib — paternal uncle of the
+      Prophet ﷺ, ancestor of the Abbasid caliphs from whom the
+      dynasty took its name, and the Companion who took the second
+      Pledge of ʿAqaba on behalf of his nephew before formally
+      embracing Islam himself shortly before the conquest of Mecca
+      — died in Medina at age about 88. ʿUmar ra would seek
+      al-ʿAbbas as his intercessor for rain (*tawassul* by his
+      uncle of the Prophet ﷺ) during the drought of the Year of
+      Ashes (*ʿAm al-Ramada*, 18 AH), the famous incident recorded
+      by al-Bukhari. He was the Companion who hid the news of the
+      Prophet's ﷺ intent to march on Mecca from his fellow Quraysh
+      and led Abu Sufyan into the Muslim camp on the night before
+      the conquest. ʿUthman ra prayed his funeral.
+    description_ar: |
+      توفي العباس بن عبد المطلب رضي الله عنه — عم رسول الله ﷺ من
+      أبيه، وجد بني العباس الذين أخذت الدولة العباسية اسمها منه،
+      والصحابي الذي شهد بيعة العقبة الثانية ضامناً لابن أخيه قبل
+      إعلان إسلامه قبيل فتح مكة — بالمدينة المنورة عن نحو ثمانٍ
+      وثمانين سنة. وقد توسل به عمر رضي الله عنه في سقيا أهل
+      الحجاز عام الرمادة (سنة ١٨ هـ) فقال: «اللهم إنا كنا نتوسل
+      إليك بنبينا فتسقينا، وإنا نتوسل إليك بعم نبينا فاسقنا»
+      (رواه البخاري). وهو الصحابي الذي كتم نية رسول الله ﷺ في
+      المسير إلى مكة عن قريش، وأدخل أبا سفيان إلى معسكر المسلمين
+      ليلة الفتح. وصلى عليه عثمان رضي الله عنه.
+    description_fr: |
+      al-ʿAbbās ibn ʿAbd al-Muṭṭalib — oncle paternel du Prophète ﷺ,
+      ancêtre des califes abbassides dont la dynastie tira son nom,
+      et le Compagnon qui prit le second Serment d'ʿAqaba au nom
+      de son neveu avant d'embrasser formellement l'Islam lui-même
+      peu avant la conquête de La Mecque — mourut à Médine à l'âge
+      d'environ 88 ans. ʿUmar ra rechercherait al-ʿAbbās comme
+      son intercesseur pour la pluie (*tawassul* par l'oncle du
+      Prophète ﷺ) durant la sécheresse de l'Année des Cendres
+      (*ʿĀm al-Ramāda*, 18 H), l'incident célèbre rapporté par
+      al-Bukhari. Il fut le Compagnon qui cacha à ses concitoyens
+      Quraysh l'intention du Prophète ﷺ de marcher sur La Mecque
+      et conduisit Abu Sufyān au camp musulman la nuit précédant
+      la conquête. ʿUthmān ra dirigea sa prière funéraire.
+    canonical_hijri: {year: 32, precision: year}
+    canonical_gregorian: {date: 653-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_hajar_isaba
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 1010"
+    people: [[al-abbas-ibn-abd-al-muttalib, subject], [muhammad, subject]]
+    tags: [sahaba, uncle-of-prophet, banu-hashim, abbasid, medina, tawassul]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abbas_ibn_Abd_al-Muttalib"
+
+  - slug: martyrdom-of-musab-ibn-umayr
+    category: companion
+    title_en: Martyrdom of Muṣʿab ibn ʿUmayr ra at Uhud
+    title_ar: استشهاد مصعب بن عمير رضي الله عنه يوم أحد
+    title_fr: Martyre de Muṣʿab ibn ʿUmayr ra à Uḥud
+    description_en: |
+      Muṣʿab ibn ʿUmayr al-ʿAbdari, the man whom the Prophet ﷺ
+      had sent ahead to Medina as the first ambassador of Islam to
+      teach the Qurʾan to the new converts and prepare the city
+      for the Hijra, fell martyred at the Battle of Uhud (3 AH).
+      He held the Prophet's ﷺ standard until his right hand was
+      severed, then his left, then was killed by spear. The
+      Prophet ﷺ wept over his body and recited Q 33:23 ("Among
+      the believers are men who have been true to the covenant
+      they made with Allah"). His mother — pagan, wealthy, and who
+      had once locked him up to prevent his conversion — had said
+      to him: "I will lock you in until you abandon this religion
+      or I die starving"; he had answered: "If your soul left your
+      body in a hundred ways, I would not return to my religion."
+      A son of Quraysh's most luxurious household, he died wrapped
+      in a single garment too short for his feet.
+    description_ar: |
+      استشهد مصعب بن عمير العبدري رضي الله عنه — الذي بعثه رسول الله ﷺ
+      أمامه إلى المدينة سفيراً أول للإسلام يقرئ الناس القرآن ويهيئ
+      المدينة للهجرة — في غزوة أحد سنة ثلاث للهجرة. حمل لواء النبي ﷺ
+      حتى قُطعت يده اليمنى ثم اليسرى ثم قُتل برمح. بكى عليه النبي ﷺ
+      وقرأ قول الله: ﴿مِنَ الْمُؤْمِنِينَ رِجَالٌ صَدَقُوا مَا
+      عَاهَدُوا اللَّهَ عَلَيْهِ﴾ [الأحزاب: ٢٣]. وكانت أمه — وكانت
+      مشركة موسرة قد سبق أن حبسته لتمنعه من الدين — قالت له:
+      «لأحبسنّك حتى تفارق هذا الدين أو أموت جوعاً»؛ فقال لها: «لو
+      خرجت نفسك في مئة طريق ما رجعت في ديني». ابن أبهى بيوت قريش،
+      مات ملفوفاً في برد واحد قصير عن قدميه.
+    description_fr: |
+      Muṣʿab ibn ʿUmayr al-ʿAbdari, l'homme que le Prophète ﷺ avait
+      envoyé en avant à Médine comme premier ambassadeur de l'Islam
+      pour enseigner le Coran aux nouveaux convertis et préparer
+      la ville à la Hijra, tomba martyr à la bataille d'Uḥud (3 H).
+      Il porta l'étendard du Prophète ﷺ jusqu'à ce que sa main
+      droite soit tranchée, puis sa gauche, puis fut tué d'un coup
+      de lance. Le Prophète ﷺ pleura sur son corps et récita Q 33:23
+      (« parmi les croyants sont des hommes qui ont été fidèles à
+      l'engagement qu'ils ont conclu avec Allah »). Sa mère — païenne,
+      riche, et qui l'avait jadis enfermé pour empêcher sa conversion
+      — lui avait dit : « je t'enfermerai jusqu'à ce que tu abandonnes
+      cette religion ou que je meure de faim »; il avait répondu :
+      « même si ton âme quittait ton corps de cent manières, je ne
+      reviendrais pas à ma religion ». Fils du foyer le plus luxueux
+      de Quraysh, il mourut enveloppé d'une seule étoffe trop courte
+      pour ses pieds.
+    canonical_hijri: {year: 3, month: 11, precision: month}
+    canonical_gregorian: {date: 625-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_hajar_isaba
+    hadith_refs: "Bukhari 4047"
+    quran_refs: "33:23"
+    people: [[musab-ibn-umayr, subject]]
+    tags: [sahaba, uhud, martyrdom, first-ambassador, medina]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mus%27ab_ibn_Umair"
+
+  - slug: martyrdom-of-jafar-ibn-abi-talib
+    category: companion
+    title_en: Martyrdom of Jaʿfar ibn Abi Ṭalib ra at Mu'ta — Dhu al-Janahayn
+    title_ar: استشهاد جعفر بن أبي طالب رضي الله عنه يوم مؤتة — ذو الجناحين
+    title_fr: Martyre de Jaʿfar ibn Abī Ṭālib ra à Muʾta — Dhū al-Janāḥayn
+    description_en: |
+      Jaʿfar ibn Abi Ṭalib — first cousin of the Prophet ﷺ, elder
+      brother of ʿAli ra, leader of the early emigration to
+      Abyssinia (where his speech to the Negus is preserved verbatim
+      in Aḥmad's *Musnad*), and the man whom the Prophet ﷺ
+      compared to himself in resemblance and character — fell
+      martyred at the Battle of Mu'ta (8 AH) while leading the
+      Muslim force against the Byzantine army. He took the standard
+      from Zayd ibn Ḥaritha when Zayd was killed, held it until
+      his right hand was severed, took it in his left until that
+      was severed, then held it between the stumps of both arms
+      against his chest until he was killed at age about 41. The
+      Prophet ﷺ said of him: "Allah has replaced his arms with
+      two wings with which he flies in Paradise" — hence his epithet
+      *Dhu al-Janahayn* ("the One with Two Wings"). The Prophet ﷺ
+      wept publicly when news reached Medina.
+    description_ar: |
+      استشهد جعفر بن أبي طالب رضي الله عنه — ابن عم رسول الله ﷺ،
+      وأكبر إخوة علي رضي الله عنه، وقائد الهجرة الأولى إلى الحبشة
+      (وفيها خطبته الذائعة بين يدي النجاشي المحفوظة في «مسند»
+      الإمام أحمد)، والصحابي الذي قال له النبي ﷺ: «أشبهت خَلقي
+      وخُلقي» — في غزوة مؤتة سنة ثماني للهجرة قائداً للمسلمين في
+      وجه الروم. أخذ اللواء عن زيد بن حارثة لما قتل، وحمله بيمينه
+      حتى قطعت، وبيسراه حتى قطعت، فاحتضن اللواء بعضديه إلى صدره
+      حتى قتل عن نحو إحدى وأربعين سنة. قال النبي ﷺ فيه: «أبدله الله
+      بيديه جناحين يطير بهما في الجنة»، فلقب «ذا الجناحين». وبكى
+      رسول الله ﷺ علناً يوم بلغه نبأ مؤتة بالمدينة.
+    description_fr: |
+      Jaʿfar ibn Abī Ṭālib — cousin germain du Prophète ﷺ, frère
+      aîné d'ʿAli ra, chef de la première émigration en Abyssinie
+      (où son discours devant le Négus est conservé verbatim dans
+      le *Musnad* d'Aḥmad), et l'homme que le Prophète ﷺ comparait
+      à lui-même par la ressemblance et le caractère — tomba martyr
+      à la bataille de Muʾta (8 H) alors qu'il dirigeait les forces
+      musulmanes contre l'armée byzantine. Il prit l'étendard de
+      Zayd ibn Ḥāritha lorsque Zayd fut tué, le tint jusqu'à ce que
+      sa main droite soit tranchée, le prit dans sa gauche jusqu'à
+      ce qu'elle soit tranchée, puis le serra entre les moignons de
+      ses deux bras contre sa poitrine jusqu'à être tué à l'âge
+      d'environ 41 ans. Le Prophète ﷺ dit de lui : « Allah a remplacé
+      ses bras par deux ailes avec lesquelles il vole au Paradis »
+      — d'où son épithète *Dhū al-Janāḥayn* (« Celui aux Deux
+      Ailes »). Le Prophète ﷺ pleura publiquement quand la nouvelle
+      parvint à Médine.
+    canonical_hijri: {year: 8, month: 4, precision: month}
+    canonical_gregorian: {date: 629-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: tabari_tarikh
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_hajar_isaba
+    hadith_refs: "Bukhari 4262"
+    people: [[jafar-ibn-abi-talib, subject], [muhammad, subject]]
+    tags: [sahaba, mutah, martyrdom, banu-hashim, abyssinia, dhu-al-janahayn]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ja%27far_ibn_Abi_Talib"
+
+  - slug: death-of-salama-ibn-al-akwa
+    category: companion
+    title_en: Death of Salama ibn al-Akwaʿ ra
+    title_ar: وفاة سلمة بن الأكوع رضي الله عنه
+    title_fr: Mort de Salama ibn al-Akwaʿ ra
+    description_en: |
+      Salama ibn al-Akwaʿ al-Aslami — Companion who participated
+      in eight expeditions with the Prophet ﷺ, foremost archer-
+      runner of the Muslim army (the Prophet ﷺ said of him:
+      "the best of our infantry today is Salama"), and one of the
+      principal narrators of the *Bayʿat al-Riḍwan* (the Pledge of
+      the Tree at Ḥudaybiyya — Q 48:18) — died in Medina at age
+      about 80. He had retired to Rabadha after the killing of
+      ʿUthman ra, returning to Medina only days before his death.
+      His narration of the Pledge under the tree, preserved in
+      both Ṣaḥīḥs, is the principal hadith establishing the
+      special merit of those Companions: "We pledged to him not
+      to flee, and the Prophet ﷺ stood under the tree and we
+      pledged ourselves to him." He was famed for his pious
+      independence: he never accepted gifts from the Umayyad
+      governors.
+    description_ar: |
+      توفي سلمة بن الأكوع الأسلمي رضي الله عنه — الصحابي الذي شهد
+      مع رسول الله ﷺ ثماني غزوات، وكبير رماة جيش المسلمين السابقين
+      في الجري (قال عنه النبي ﷺ: «خير رجالتنا اليوم سلمة»)، وأحد
+      الرواة الرئيسيين لبيعة الرضوان تحت الشجرة بالحديبية ﴿لقد رضي
+      الله عن المؤمنين إذ يبايعونك تحت الشجرة﴾ [الفتح: ١٨] —
+      بالمدينة المنورة عن نحو ثمانين سنة. كان قد اعتزل إلى الربذة
+      بعد مقتل عثمان رضي الله عنه، ولم يعد إلى المدينة إلا قبيل
+      وفاته بأيام. وروايته لبيعة الرضوان المتفق عليها هي أصل ما
+      ورد في فضل هؤلاء الصحابة: «بايعناه على ألا نفر، وقام النبي ﷺ
+      تحت الشجرة فبايعناه». وعرف بعفته عن السلطان: لم يقبل من ولاة
+      بني أمية شيئاً.
+    description_fr: |
+      Salama ibn al-Akwaʿ al-Aslami — Compagnon qui participa à
+      huit expéditions avec le Prophète ﷺ, archer-coureur le plus
+      remarquable de l'armée musulmane (le Prophète ﷺ dit de lui :
+      « le meilleur de notre infanterie aujourd'hui est Salama »),
+      et l'un des principaux narrateurs du *Bayʿat al-Riḍwān* (le
+      Serment de l'Arbre à Ḥudaybiyya — Q 48:18) — mourut à Médine
+      à l'âge d'environ 80 ans. Il s'était retiré à Rabadha après
+      le meurtre d'ʿUthman ra, ne revenant à Médine que quelques
+      jours avant sa mort. Sa narration du Serment sous l'arbre,
+      conservée dans les deux *Ṣaḥīḥ*, est le hadith principal
+      établissant le mérite particulier de ces Compagnons : « nous
+      lui prêtâmes serment de ne pas fuir, et le Prophète ﷺ se
+      tint sous l'arbre et nous nous engageâmes à lui ». Il était
+      célèbre pour son indépendance pieuse : il n'accepta jamais
+      de cadeau des gouverneurs omeyyades.
+    canonical_hijri: {year: 74, precision: year}
+    canonical_gregorian: {date: 694-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 2960, Muslim 1860"
+    quran_refs: "48:18"
+    people: [[salama-ibn-al-akwa, subject]]
+    tags: [sahaba, ridwan, hudaybiyya, medina, rabadha, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Salama_ibn_al-Akwa"
+
+  # =========================================================================
+  # ANDALUSI MUFASSIRUN
+  # =========================================================================
+
+  - slug: death-of-ibn-atiyya
+    category: scholar
+    title_en: Death of Ibn ʿAṭiyya al-Andalusi — al-Muḥarrar al-Wajiz
+    title_ar: وفاة ابن عطية الأندلسي — صاحب «المحرر الوجيز»
+    title_fr: Mort d'Ibn ʿAṭiyya al-Andalusi — auteur d'al-Muḥarrar al-Wajīz
+    description_en: |
+      Abu Muhammad ʿAbd al-Ḥaqq ibn Ghalib ibn ʿAṭiyya al-Andalusi
+      al-Muḥaribi — Maliki jurist, qadi of Almeria, and author of
+      *al-Muḥarrar al-Wajiz fi Tafsir al-Kitab al-ʿAziz*, the
+      foremost Andalusian Sunni Qurʾan commentary — died in Lorca
+      at age about 60. *al-Muḥarrar al-Wajiz* combined the Eastern
+      tafsir tradition (al-Ṭabari, al-Thaʿlabi) with the indigenous
+      Maliki-Andalusian framework, applying close attention to
+      grammar and to *qiraʾat* variants. Ibn Khaldun would later
+      remark in his *Muqaddima* that "the tafsir of Ibn ʿAṭiyya
+      and the tafsir of al-Zamakhshari are the most distinguished
+      and most reliable in the Maghreb." The work was a primary
+      source for Abu Ḥayyan's *al-Bahr al-Muḥit* and al-Qurṭubi's
+      *al-Jamiʿ li-Aḥkam al-Qurʾan*.
+    description_ar: |
+      توفي الإمام أبو محمد عبد الحق بن غالب ابن عطية الأندلسي
+      المحاربي — فقيه مالكي وقاضي ألمرية، ومصنف «المحرر الوجيز في
+      تفسير الكتاب العزيز»، أكبر تفاسير أهل السنة الأندلسية —
+      بـ«لورقة» عن نحو ستين سنة. ضم «المحرر الوجيز» بين التراث
+      التفسيري المشرقي (الطبري والثعلبي) والتراث المالكي الأندلسي،
+      مع عناية لافتة بالنحو وقراءات القرآن. وقال ابن خلدون لاحقاً
+      في «مقدمته»: «أعظم تفاسير المغرب وأمتنها: تفسير ابن عطية
+      وتفسير الزمخشري». وكان كتابه مصدراً أصلياً لـ«البحر المحيط»
+      لأبي حيان و«الجامع لأحكام القرآن» للقرطبي.
+    description_fr: |
+      Abu Muḥammad ʿAbd al-Ḥaqq ibn Ghālib ibn ʿAṭiyya al-Andalusi
+      al-Muḥāribi — juriste malikite, qāḍī d'Almería et auteur
+      d'*al-Muḥarrar al-Wajīz fī Tafsīr al-Kitāb al-ʿAzīz*, le plus
+      grand commentaire coranique sunnite andalou — mourut à Lorca
+      à l'âge d'environ 60 ans. *al-Muḥarrar al-Wajīz* combina la
+      tradition tafsīrique orientale (al-Ṭabarī, al-Thaʿlabī) avec
+      le cadre indigène malikite-andalou, accordant une attention
+      poussée à la grammaire et aux variantes de *qirāʾāt*. Ibn
+      Khaldūn remarquerait plus tard dans sa *Muqaddima* : « le
+      tafsir d'Ibn ʿAṭiyya et le tafsir d'al-Zamakhsharī sont les
+      plus distingués et les plus fiables au Maghreb ». L'œuvre fut
+      une source primaire pour *al-Baḥr al-Muḥīṭ* d'Abū Ḥayyān et
+      *al-Jāmiʿ li-Aḥkām al-Qurʾān* d'al-Qurṭubī.
+    canonical_hijri: {year: 541, month: 5, precision: month}
+    canonical_gregorian: {date: 1147-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-atiyya, subject]]
+    tags: [tafsir, andalus, almeria, lorca, maliki, almoravid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_%27Atiyya"
+
+  - slug: death-of-abu-hayyan-al-gharnati
+    category: scholar
+    title_en: Death of Abu Ḥayyan al-Gharnaṭi — author of al-Bahr al-Muḥit
+    title_ar: وفاة أبي حيان الغرناطي — صاحب «البحر المحيط»
+    title_fr: Mort d'Abū Ḥayyān al-Gharnāṭī — auteur d'al-Baḥr al-Muḥīṭ
+    description_en: |
+      Abu Ḥayyan Muhammad ibn Yusuf al-Gharnaṭi al-Andalusi —
+      Andalusian-born scholar who emigrated to Cairo, foremost
+      grammarian of the Mamluk Levant, and author of *al-Bahr al-
+      Muḥit*, the most exhaustive linguistic-grammatical Qurʾan
+      commentary in the Sunni tradition — died in Cairo at age
+      about 91. Beyond Arabic he had documented working knowledge
+      of Berber, Turkish, Mongol, and Persian; his comparative
+      grammar of Turkic languages (*Kitab al-Idrak li-Lisan al-
+      Atrak*) was the first systematic Turkic linguistic work
+      composed in Arabic. *al-Bahr al-Muḥit* applies the full
+      methodology of Andalusian grammatical and *qiraʾat* analysis
+      to every verse of the Qurʾan, citing more than 450 prior
+      authorities. He was a Ẓahiri in fiqh (rejecting analogical
+      reasoning, as Ibn Ḥazm had).
+    description_ar: |
+      توفي الإمام أبو حيان محمد بن يوسف الغرناطي الأندلسي — مولده
+      الأندلس وانتقاله إلى القاهرة، وكبير نحاة المماليك بالشام،
+      ومصنف «البحر المحيط»، أوسع تفاسير القرآن لغة ونحواً عند أهل
+      السنة — بالقاهرة عن نحو إحدى وتسعين سنة. وأتقن إلى جانب
+      العربية البربرية والتركية والمغولية والفارسية على شهادة
+      كتبه؛ وكتابه «الإدراك للسان الأتراك» أول كتاب لغوي منهجي عن
+      اللغات التركية بالعربية. ويطبق «البحر المحيط» منهج النحو
+      الأندلسي وعلم القراءات على كل آية من القرآن، مع نقل عن أزيد
+      من أربع مئة وخمسين مرجعاً سابقاً. وكان ظاهري المذهب (يرفض
+      القياس كما رفضه ابن حزم).
+    description_fr: |
+      Abū Ḥayyān Muḥammad ibn Yūsuf al-Gharnāṭī al-Andalusi —
+      savant né en al-Andalus émigré au Caire, plus grand
+      grammairien du Levant mamelouk, et auteur d'*al-Baḥr al-
+      Muḥīṭ*, le commentaire coranique linguistico-grammatical le
+      plus exhaustif de la tradition sunnite — mourut au Caire à
+      l'âge d'environ 91 ans. Outre l'arabe, il avait une
+      connaissance documentée du berbère, du turc, du mongol et du
+      persan; sa grammaire comparée des langues turques (*Kitāb
+      al-Idrāk li-Lisān al-Atrāk*) fut le premier ouvrage
+      linguistique turcique systématique composé en arabe. *al-
+      Baḥr al-Muḥīṭ* applique la méthodologie complète de l'analyse
+      grammaticale andalouse et des *qirāʾāt* à chaque verset du
+      Coran, citant plus de 450 autorités antérieures. Il était
+      ẓāhirite en fiqh (rejetant le raisonnement analogique, comme
+      Ibn Ḥazm).
+    canonical_hijri: {year: 745, month: 8, precision: month}
+    canonical_gregorian: {date: 1344-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ibn_kathir_bidaya
+    people: [[abu-hayyan-al-gharnati, subject]]
+    tags: [tafsir, andalus, cairo, mamluk, grammar, qiraʾat, zahiri]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Hayyan_al-Gharnati"
+
+  # =========================================================================
+  # OTTOMAN SULTANS
+  # =========================================================================
+
+  - slug: death-of-murad-iii
+    category: ruler
+    title_en: Death of Sultan Murad III
+    title_ar: وفاة السلطان مراد الثالث
+    title_fr: Mort du sultan Murad III
+    description_en: |
+      Murad III, twelfth Ottoman sultan (reigned 982-1003 AH), died
+      in the Topkapı Palace at Istanbul at age about 49. His
+      reign saw the empire reach its greatest territorial extent
+      with the conquests of the Caucasus during the long
+      Ottoman-Safavid war (986-998 AH), but also the first signs
+      of the structural shifts that would weigh on later Ottoman
+      governance: the rise of harem and palace influence, monetary
+      debasement, and the slow erosion of the *devşirme* system
+      that had supplied the Janissary corps. He was nonetheless a
+      patron of the highest cultural production: the historian
+      Mustafa ʿĀli of Gallipoli composed under him, and Mimar
+      Sinan, the greatest Ottoman architect, completed the
+      Selimiye Mosque at Edirne (the masterwork of Islamic
+      architecture in the Ottoman tradition) during his reign.
+    description_ar: |
+      توفي السلطان مراد الثالث — ثاني عشر سلاطين آل عثمان (حكم من
+      ٩٨٢ إلى ١٠٠٣ هـ) — في قصر طوب قابي بإسطنبول عن نحو تسع
+      وأربعين سنة. شهد عهده بلوغ الدولة العثمانية أقصى اتساعها
+      الجغرافي بفتوحاتها في القوقاز إثر الحرب العثمانية-الصفوية
+      الطويلة (٩٨٦-٩٩٨ هـ)، كما شهد أول البوادر البنيوية التي
+      ستثقل على حكم العثمانيين بعدُ: صعود نفوذ الحرم والقصر، وغش
+      السكة، والتآكل البطيء لنظام «الدوشيرمة» الذي كان يمد فرق
+      الإنكشارية. ومع ذلك ظل راعياً لأعلى الإنتاج الثقافي: ألّف
+      المؤرخ مصطفى علي الغليبولي في عهده، وأنجز معمار سنان أكبر
+      معماري عثماني الجامع السليمي بأدرنة (تحفة العمارة الإسلامية
+      في التقليد العثماني) في عهده.
+    description_fr: |
+      Murad III, douzième sultan ottoman (règne 982-1003 H), mourut
+      au palais de Topkapı à Istanbul à l'âge d'environ 49 ans.
+      Son règne vit l'empire atteindre sa plus grande extension
+      territoriale avec les conquêtes du Caucase durant la longue
+      guerre ottomano-safavide (986-998 H), mais aussi les premiers
+      signes des changements structurels qui pèseraient sur la
+      gouvernance ottomane ultérieure : la montée de l'influence
+      du harem et du palais, la dégradation monétaire et l'érosion
+      lente du système *devşirme* qui avait alimenté le corps des
+      janissaires. Il fut néanmoins le mécène de la plus haute
+      production culturelle : l'historien Mustafa ʿĀli de Gallipoli
+      composa sous son règne, et Mimar Sinan, le plus grand architecte
+      ottoman, acheva la mosquée Selimiye d'Edirne (chef-d'œuvre de
+      l'architecture islamique dans la tradition ottomane) durant
+      son règne.
+    canonical_hijri: {year: 1003, month: 1, precision: month}
+    canonical_gregorian: {date: 1595-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[murad-iii, subject]]
+    tags: [ottoman, sultan, istanbul, sinan, selimiye, safavid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Murad_III"
+
+  - slug: death-of-murad-iv
+    category: ruler
+    title_en: Death of Sultan Murad IV — Reconqueror of Baghdad
+    title_ar: وفاة السلطان مراد الرابع — مستعيد بغداد
+    title_fr: Mort du sultan Murad IV — reconquérant de Bagdad
+    description_en: |
+      Murad IV, seventeenth Ottoman sultan (reigned 1032-1049 AH),
+      died at Istanbul at age 28 of cirrhosis. Despite the
+      brevity of his life, his reign restored Ottoman central
+      authority after the chaos of the Janissary regicides of his
+      predecessors: he led personal campaigns against the Safavids,
+      reconquered Yerevan in 1045 AH, and most spectacularly
+      retook Baghdad in 1048 AH after the Safavids had held it
+      for fifteen years. The reconquest of Baghdad was framed in
+      Ottoman propaganda as the rescue of the city of the
+      Companions and the Abbasid caliphate from heterodox rule.
+      He executed without warning corrupt officials and habitually
+      suppressed coffee and tobacco use under penalty of death.
+      The poet Naf'i, the historian Katib Çelebi, and the encyclopedist
+      Hezarfen all flourished under him.
+    description_ar: |
+      توفي السلطان مراد الرابع — السابع عشر من سلاطين آل عثمان (حكم
+      من ١٠٣٢ إلى ١٠٤٩ هـ) — في إسطنبول عن ثمانٍ وعشرين سنة بسبب
+      تليّف الكبد. ومع قصر عمره أعاد عهده السلطة المركزية العثمانية
+      بعد فوضى مقاتل الإنكشارية لسالفيه: فقاد بنفسه حملات على
+      الصفويين، استعاد فيها يريفان سنة ١٠٤٥ هـ، وأبرز ذلك استعادة
+      بغداد سنة ١٠٤٨ هـ بعد أن كانت بيد الصفويين خمس عشرة سنة. وكانت
+      استعادة بغداد إعلاناً عثمانياً بإنقاذ مدينة الصحابة ومركز
+      الخلافة العباسية من حكم الباطنية. كان يعدم الفاسدين من
+      الموظفين دون إنذار، وحرّم القهوة والتبغ تحت عقوبة الموت.
+      وازدهر في عهده الشاعر «نفعي» والمؤرخ «كاتب جلبي» والموسوعي
+      «حزارفن».
+    description_fr: |
+      Murad IV, dix-septième sultan ottoman (règne 1032-1049 H),
+      mourut à Istanbul à l'âge de 28 ans de cirrhose. Malgré la
+      brièveté de sa vie, son règne restaura l'autorité centrale
+      ottomane après le chaos des régicides janissaires de ses
+      prédécesseurs : il mena en personne des campagnes contre les
+      Safavides, reconquérant Erevan en 1045 H, et plus
+      spectaculairement reprit Bagdad en 1048 H après que les
+      Safavides l'eurent tenue quinze ans. La reconquête de Bagdad
+      fut présentée dans la propagande ottomane comme le sauvetage
+      de la ville des Compagnons et du califat abbasside du
+      gouvernement hétérodoxe. Il exécutait sans prévenir les
+      fonctionnaires corrompus et supprimait habituellement
+      l'usage du café et du tabac sous peine de mort. Le poète
+      Nefʿî, l'historien Kâtib Çelebi et l'encyclopédiste
+      Hezarfen prospérèrent tous sous son règne.
+    canonical_hijri: {year: 1049, month: 9, precision: month}
+    canonical_gregorian: {date: 1640-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[murad-iv, subject]]
+    tags: [ottoman, sultan, baghdad, safavid, istanbul, reconquest]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Murad_IV"
+
+  - slug: deposition-of-abdulhamid-ii
+    category: ruler
+    title_en: Deposition of Sultan Abdulhamid II
+    title_ar: خلع السلطان عبد الحميد الثاني
+    title_fr: Déposition du sultan Abdulhamid II
+    description_en: |
+      Sultan Abdulhamid II, thirty-fourth Ottoman sultan (reigned
+      1293-1327 AH / 1876-1909 CE), was deposed by a fatwa of the
+      Sheikh ul-Islam Ziyaeddin Efendi following the
+      counter-revolutionary uprising of 31 March 1909 (which
+      Abdulhamid was accused, perhaps wrongly, of orchestrating
+      against the Committee of Union and Progress). He was sent to
+      house arrest in Salonica and later moved back to the Beylerbeyi
+      Palace in Istanbul, where he died in 1918. His thirty-three-
+      year reign was the last in which the Ottoman caliph held
+      effective political authority — under his successors Mehmed
+      V and Mehmed VI the sultanate was a CUP cipher and then a
+      Constantinople-occupied figurehead before its abolition by
+      the new Turkish Republic in 1924. His pan-Islamic policy
+      (the Hijaz Railway, the Friday telegraph network from
+      Istanbul to all Muslim lands) made him a deeply venerated
+      figure in later Sunni revivalist memory across the Muslim
+      world.
+    description_ar: |
+      خلع السلطان عبد الحميد الثاني — رابع وثلاثين سلاطين آل عثمان
+      (حكم من ١٢٩٣ إلى ١٣٢٧ هـ / من ١٨٧٦ إلى ١٩٠٩ ميلادي) — بفتوى
+      من شيخ الإسلام ضياء الدين أفندي بعد ثورة الواحد والثلاثين من
+      مارس ١٩٠٩ ميلادي المضادة (التي اتهم — ربما ظلماً — بتدبيرها
+      ضد جمعية الاتحاد والترقي). وأُرسل إلى الإقامة الجبرية في
+      سالونيك ثم نقل لاحقاً إلى قصر «بيلربايي» بإسطنبول، حيث توفي
+      سنة ١٩١٨ ميلادي. وكان حكمه الذي امتد ثلاثاً وثلاثين سنة آخر
+      عهد كان فيه الخليفة العثماني صاحب السلطة السياسية الفعلية —
+      فخلفاه محمد الخامس ومحمد السادس كانا مجرد ختم لجمعية الاتحاد
+      والترقي ثم رمزاً تحت احتلال القسطنطينية قبل إلغاء السلطنة
+      على يد الجمهورية التركية الجديدة سنة ١٩٢٤. وقد جعلته سياسته
+      الجامعة الإسلامية (سكة حديد الحجاز، وشبكة برق الجمعة من
+      إسطنبول إلى عامة بلاد المسلمين) شخصية محبوبة الذكر في
+      الذاكرة السلفية والإحيائية السنية اللاحقة.
+    description_fr: |
+      Le sultan Abdulhamid II, trente-quatrième sultan ottoman
+      (règne 1293-1327 H / 1876-1909 EC), fut déposé par une
+      fatwa du Cheikh ul-Islam Ziyaeddin Efendi à la suite du
+      soulèvement contre-révolutionnaire du 31 mars 1909 (dont
+      Abdulhamid fut accusé, peut-être à tort, d'avoir orchestré
+      contre le Comité Union et Progrès). Il fut envoyé en
+      résidence surveillée à Salonique puis transféré au palais
+      de Beylerbeyi à Istanbul, où il mourut en 1918. Son règne
+      de trente-trois ans fut le dernier durant lequel le calife
+      ottoman détint une autorité politique effective — sous ses
+      successeurs Mehmed V et Mehmed VI le sultanat fut un
+      paravent de la CUP puis une figure de proue dans une
+      Constantinople occupée avant son abolition par la nouvelle
+      République turque en 1924. Sa politique pan-islamique (le
+      chemin de fer du Hedjaz, le réseau télégraphique du vendredi
+      d'Istanbul à toutes les terres musulmanes) en a fait une
+      figure profondément vénérée dans la mémoire revivaliste
+      sunnite ultérieure à travers le monde musulman.
+    canonical_hijri: {year: 1327, month: 4, day: 7, precision: day}
+    canonical_gregorian: {date: 1909-04-27, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abdulhamid-ii, subject]]
+    tags: [ottoman, caliphate, istanbul, deposition, hijaz-railway, modern]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abdul_Hamid_II"
+
+  # =========================================================================
+  # SCIENCE + GEOGRAPHY-HISTORY + MAGHREBI MALIKI JURIST
+  # =========================================================================
+
+  - slug: death-of-abu-al-wafa-al-buzjani
+    category: scientist
+    title_en: Death of Abu al-Wafaʾ al-Buzjani
+    title_ar: وفاة أبي الوفاء البوزجاني
+    title_fr: Mort d'Abū al-Wafāʾ al-Būzjānī
+    description_en: |
+      Abu al-Wafaʾ Muhammad ibn Muhammad al-Buzjani — Persian
+      mathematician and astronomer at the Buyid court of Baghdad,
+      and the scholar who introduced the tangent, secant, and
+      cosecant functions into Islamic trigonometry — died in
+      Baghdad at age about 58. His *al-Majisṭi* extended Ptolemy's
+      Almagest with new spherical-trigonometry methods that
+      simplified astronomical calculation; he established the
+      sine-rule for spherical triangles and computed sine tables
+      accurate to eight decimal places at intervals of fifteen
+      minutes of arc. His refinement of the lunar variation
+      *(al-mukhassafa)* anticipated by 600 years what European
+      astronomy would credit to Tycho Brahe. He was a patron of
+      the celebrated Baghdad observatory of Sharaf al-Dawla, and
+      al-Karaji and al-Bīrūnī both cite his works as the standard
+      reference for trigonometric methods.
+    description_ar: |
+      توفي أبو الوفاء محمد بن محمد البوزجاني — عالم رياضي وفلكي
+      فارسي في بلاط البويهيين ببغداد، والعالم الذي أدخل دوال الظل
+      (التانجنت) والقاطع (السيكنت) وقاطع التمام (الكسيكنت) في علم
+      المثلثات الإسلامي — ببغداد عن نحو ثمانٍ وخمسين سنة. وأخرج
+      كتابه «المجسطي» امتداداً لـ«المجسطي» البطلموسي بمناهج جديدة
+      في مثلثات الكرة بسطت العمليات الفلكية؛ وأرسى قانون الجيوب
+      للمثلثات الكروية، وحسب جداول للجيب بدقة ثمانية كسور عشرية في
+      كل ربع درجة. وتنقيحه لاختلاف القمر «المخسفة» سبق فيه ستة
+      قرون ما سينسب في الفلك الأوروبي إلى تيخو براهي. ورعى مرصد
+      شرف الدولة الذائع الصيت ببغداد، ويستشهد بكتبه الكرجي
+      والبيروني بوصفها المرجع المعتمد في طرق المثلثات.
+    description_fr: |
+      Abū al-Wafāʾ Muḥammad ibn Muḥammad al-Būzjānī — mathématicien
+      et astronome persan à la cour bouyide de Bagdad, et le savant
+      qui introduisit les fonctions tangente, sécante et cosécante
+      dans la trigonométrie islamique — mourut à Bagdad à l'âge
+      d'environ 58 ans. Son *al-Majisṭī* étendit l'Almageste de
+      Ptolémée avec de nouvelles méthodes de trigonométrie sphérique
+      qui simplifièrent les calculs astronomiques; il établit la
+      règle des sinus pour les triangles sphériques et calcula des
+      tables de sinus précises à huit décimales par intervalles de
+      quinze minutes d'arc. Son raffinement de la variation lunaire
+      (*al-mukhassafa*) anticipa de 600 ans ce que l'astronomie
+      européenne créditerait à Tycho Brahe. Il fut un mécène du
+      célèbre observatoire bagdadien de Sharaf al-Dawla, et
+      al-Karajī et al-Bīrūnī citent tous deux ses œuvres comme
+      référence standard pour les méthodes trigonométriques.
+    canonical_hijri: {year: 388, month: 6, precision: month}
+    canonical_gregorian: {date: 998-07-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[abu-al-wafa-al-buzjani, subject]]
+    tags: [scientist, mathematics, astronomy, baghdad, buyid, trigonometry]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Wafa_Buzjani"
+
+  - slug: death-of-al-masudi
+    category: scholar
+    title_en: Death of al-Masʿudi — Herodotus of the Arabs
+    title_ar: وفاة المسعودي — هيرودوت العرب
+    title_fr: Mort d'al-Masʿūdī — Hérodote des Arabes
+    description_en: |
+      Abu al-Hasan ʿAli ibn al-Husayn al-Masʿudi — historian,
+      geographer, and traveller, foremost ethnographer of the Indian
+      Ocean world in his generation — died in Cairo at age about
+      59. His *Muruj al-Dhahab wa-Maʿadin al-Jawhar* ("Meadows of
+      Gold and Mines of Gems") is at once a chronicle of Islamic
+      history, an ethnographic survey of the peoples of the known
+      world from the Volga Bulgars to the rivers of southern China,
+      and a digest of the political philosophy of his age.
+      *al-Tanbih wa-l-Ishraf*, his geographic-historical companion
+      volume, refines and corrects the larger work. He travelled
+      personally to Khurasan, India (visiting Mansura in Sindh),
+      Sri Lanka, Madagascar, Zanzibar, Oman, and across the
+      Caspian basin; his eyewitness data on the Caspian ecosystem,
+      the Volga trade route, and South Asian Buddhism remains
+      historically irreplaceable.
+    description_ar: |
+      توفي الإمام أبو الحسن علي بن الحسين المسعودي — مؤرخ وجغرافي
+      ورحالة، وأكبر عالم أعراق في زمانه في حوض المحيط الهندي —
+      بالقاهرة عن نحو تسع وخمسين سنة. كتابه «مروج الذهب ومعادن
+      الجوهر» في آن واحد تأريخ للإسلام وعرض إثنوغرافي لأمم العالم
+      المعروف من بلغار الفولغا إلى أنهار جنوب الصين، وموسوعة في
+      الفلسفة السياسية لعصره. أما كتابه «التنبيه والإشراف» الجغرافي-
+      التاريخي المرافق فينقّح الكتاب الأكبر ويصححه. سافر بنفسه إلى
+      خراسان والهند (زار المنصورة في السند) وسريلانكا ومدغشقر وزنجبار
+      وعمان وحوض بحر قزوين؛ وأخباره من شاهد عيان عن النظام البيئي
+      لبحر قزوين وطريق التجارة الفولغية وبوذية جنوب آسيا لا تزال
+      تاريخياً لا غنى عنها.
+    description_fr: |
+      Abu al-Ḥasan ʿAlī ibn al-Ḥusayn al-Masʿūdī — historien,
+      géographe et voyageur, plus grand ethnographe du monde de
+      l'océan Indien de sa génération — mourut au Caire à l'âge
+      d'environ 59 ans. Son *Murūj al-Dhahab wa-Maʿādin al-Jawhar*
+      (« Prairies d'Or et Mines de Pierres Précieuses ») est à la
+      fois une chronique de l'histoire islamique, une enquête
+      ethnographique sur les peuples du monde connu depuis les
+      Bulgares de la Volga jusqu'aux rivières de Chine du Sud, et
+      un compendium de la philosophie politique de son époque.
+      *al-Tanbīh wa-l-Ishrāf*, son ouvrage géographico-historique
+      compagnon, raffine et corrige l'œuvre plus vaste. Il voyagea
+      personnellement au Khurasan, en Inde (visitant Mansūra dans
+      le Sindh), à Sri Lanka, à Madagascar, à Zanzibar, à Oman et
+      à travers le bassin caspien; ses données de témoin oculaire
+      sur l'écosystème caspien, la route commerciale de la Volga
+      et le bouddhisme sud-asiatique demeurent historiquement
+      irremplaçables.
+    canonical_hijri: {year: 345, month: 9, precision: month}
+    canonical_gregorian: {date: 956-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[al-masudi, subject]]
+    tags: [history, geography, cairo, abbasid, muruj-al-dhahab, indian-ocean]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Masudi"
+
+  - slug: death-of-al-wansharisi
+    category: scholar
+    title_en: Death of al-Wansharisi — al-Miʿyar al-Muʿrib
+    title_ar: وفاة الونشريسي — صاحب «المعيار المعرب»
+    title_fr: Mort d'al-Wansharīsī — auteur d'al-Miʿyār al-Muʿrib
+    description_en: |
+      Aḥmad ibn Yaḥya al-Wansharisi al-Tilimsani — Maliki jurist
+      from Tlemcen who taught at Fes after fleeing Zayyanid
+      political turmoil, and author of *al-Miʿyar al-Muʿrib wa-l-
+      Jamiʿ al-Mughrib ʿan Fatawa Ahl Ifriqiya wa-l-Andalus wa-l-
+      Maghrib*, the largest single Maliki fatwa compilation ever
+      produced — died in Fes. He was about 80. *al-Miʿyar* in
+      twelve volumes preserves over six thousand fatwas of the
+      Maliki authorities of North Africa and al-Andalus from the
+      4th to the 9th centuries AH; it is the indispensable archive
+      of Maghrebi Maliki social and economic history. Among its
+      most-cited entries are the rulings on the legal status of
+      Muslims under Christian rule in al-Andalus after the
+      Reconquista — texts that Maghrebi muftis cite to this day
+      when consulted by Muslims in non-Muslim majority countries.
+    description_ar: |
+      توفي الإمام أحمد بن يحيى الونشريسي التلمساني — فقيه مالكي من
+      تلمسان، درّس بفاس بعد فراره من الاضطرابات السياسية في الدولة
+      الزيانية، ومصنف «المعيار المعرب والجامع المغرب عن فتاوى أهل
+      أفريقية والأندلس والمغرب»، أكبر مجموعة فتاوى مالكية على
+      الإطلاق — بفاس عن نحو ثمانين سنة. ويحفظ «المعيار» في اثني
+      عشر مجلداً ستة آلاف فتوى من علماء المالكية بشمال أفريقيا
+      والأندلس من القرن الرابع إلى التاسع الهجري؛ وهو الأرشيف الذي
+      لا غنى عنه في تاريخ المالكية الاجتماعي والاقتصادي بالمغرب
+      الإسلامي. ومن أشهر فتاويه المعتمدة فتاواه في حكم بقاء
+      المسلمين تحت حكم النصارى في الأندلس بعد سقوطها — وهي نصوص
+      ترجع إليها مفتو المغرب إلى يومنا حين يستفتيهم المسلمون
+      المقيمون في بلاد الكفر.
+    description_fr: |
+      Aḥmad ibn Yaḥyā al-Wansharīsī al-Tilimsānī — juriste malikite
+      de Tlemcen qui enseigna à Fès après avoir fui les troubles
+      politiques zayyānides, et auteur d'*al-Miʿyār al-Muʿrib wa-l-
+      Jāmiʿ al-Mughrib ʿan Fatāwā Ahl Ifrīqiya wa-l-Andalus wa-l-
+      Maghrib*, la plus grande compilation de fatwas malikites
+      jamais produite — mourut à Fès. Il avait environ 80 ans.
+      *al-Miʿyār* en douze volumes préserve plus de six mille
+      fatwas des autorités malikites d'Afrique du Nord et d'al-
+      Andalus du IVe au IXe siècle de l'Hégire; c'est l'archive
+      indispensable de l'histoire sociale et économique malikite
+      maghrébine. Parmi ses entrées les plus citées figurent les
+      jugements sur le statut légal des musulmans sous domination
+      chrétienne en al-Andalus après la Reconquista — textes que
+      les muftis maghrébins citent à ce jour lorsqu'ils sont
+      consultés par des musulmans dans des pays non musulmans.
+    canonical_hijri: {year: 914, month: 3, precision: month}
+    canonical_gregorian: {date: 1508-07-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+      - source_key: editorial
+    people: [[al-wansharisi, subject]]
+    tags: [maliki, fatwa, fes, tlemcen, andalus, maghreb]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Wansharisi"
+
+  # =========================================================================
+  # CONQUESTS / BATTLES
+  # =========================================================================
+
+  - slug: conquest-of-aleppo
+    category: conquest
+    title_en: Muslim Conquest of Aleppo
+    title_ar: فتح حلب
+    title_fr: Conquête musulmane d'Alep
+    description_en: |
+      The strategic Byzantine city of Aleppo (Ḥalab) in northern
+      Syria fell to the Muslim army under Abu ʿUbayda ibn al-
+      Jarrah ra and Khalid ibn al-Walid ra after the conquest of
+      Ḥims and the fall of Damascus. The terms of capitulation —
+      a fixed jizya per adult male, with protection of life,
+      property, and churches, mirroring the model of the Ḥims
+      treaty — were preserved by the Muslim historians as a
+      documented precedent for non-Muslim subjects under early
+      Islamic rule. The fall of Aleppo opened the entire northern
+      Syrian frontier and led directly to the conquest of Antioch
+      the following year, completing the Muslim displacement of
+      Byzantine power from the Levant. ʿUmar ibn al-Khaṭṭab ra
+      personally inspected the city in his Levantine tour of
+      17 AH.
+    description_ar: |
+      سقطت مدينة حلب الحصينة قاعدة الروم في شمال الشام للجيش
+      الإسلامي بقيادة أبي عبيدة بن الجراح وخالد بن الوليد رضي الله
+      عنهما، بعد فتح حمص وسقوط دمشق. وكانت شروط الصلح — جزية مقدرة
+      على البالغين من الرجال، مع حقن الدماء وحفظ الأموال والكنائس
+      على طراز عقد حمص — قد حفظها المؤرخون المسلمون شاهداً موثقاً
+      على وضع غير المسلمين تحت الحكم الإسلامي الباكر. وفتح سقوط
+      حلب الحدود الشمالية كلها للشام، وأدى مباشرة إلى فتح أنطاكية
+      في السنة التالية، فاكتمل إخراج المسلمين للنفوذ البيزنطي من
+      بلاد الشام. وقد فقد عمر بن الخطاب رضي الله عنه المدينة
+      بنفسه في جولته الشامية سنة ١٧ للهجرة.
+    description_fr: |
+      La cité byzantine stratégique d'Alep (Ḥalab) au nord de la
+      Syrie tomba aux mains de l'armée musulmane sous Abū ʿUbayda
+      ibn al-Jarrāḥ ra et Khālid ibn al-Walīd ra après la conquête
+      de Ḥims et la chute de Damas. Les conditions de capitulation
+      — une *jizya* fixe par homme adulte, avec protection des
+      vies, des biens et des églises, reflétant le modèle du
+      traité de Ḥims — furent préservées par les historiens
+      musulmans comme précédent documenté pour les sujets non
+      musulmans sous la domination islamique précoce. La chute
+      d'Alep ouvrit toute la frontière syrienne du nord et mena
+      directement à la conquête d'Antioche l'année suivante,
+      achevant le déplacement musulman du pouvoir byzantin du
+      Levant. ʿUmar ibn al-Khaṭṭāb ra inspecta personnellement la
+      ville lors de sa tournée levantine de 17 H.
+    canonical_hijri: {year: 16, precision: year}
+    canonical_gregorian: {date: 637-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[abu-ubayda-ibn-al-jarrah, leader], [khalid-ibn-al-walid, leader], [umar-ibn-al-khattab, subject]]
+    tags: [rashidun, conquest, syria, aleppo, byzantium, abu-ubayda]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siege_of_Aleppo_(637)"
+
+  - slug: muslim-conquest-of-crete
+    category: conquest
+    title_en: Muslim Conquest of Crete
+    title_ar: فتح كريت
+    title_fr: Conquête musulmane de la Crète
+    description_en: |
+      A force of approximately ten thousand Andalusian exiles —
+      survivors of the Arrabal uprising in Cordoba expelled by
+      al-Ḥakam I in 818 CE — under the command of Abu Ḥafṣ ʿUmar
+      al-Iqriṭishi seized the Byzantine island of Crete after
+      crossing from Alexandria and establishing a fortified base
+      at Khandaq (Iraklion). The conquest of Crete inaugurated a
+      Muslim emirate that would hold the island for 135 years
+      (817-961 CE), making the central Mediterranean a contested
+      space and providing the staging ground for raids on the
+      Byzantine Aegean coast and on Christian shipping. The
+      Cretan emirate was an outlier in Islamic history — neither
+      Umayyad, Abbasid, nor Aghlabid in allegiance, but an
+      independent Andalusi-Maghrebi maritime polity — and the
+      city of Khandaq it founded survives as the modern Iraklion.
+    description_ar: |
+      جيش يقارب عشرة آلاف من المنفيين الأندلسيين — الناجين من ثورة
+      الربض بقرطبة الذين طردهم الحكم الأول سنة ٨١٨ ميلادي — بقيادة
+      أبي حفص عمر الإقريطشي، استولوا على جزيرة كريت البيزنطية بعد
+      عبورهم إليها من الإسكندرية، وأقاموا قاعدة حصينة عند الخندق
+      (هرقليون اليوم). وأطلق فتح كريت إمارة إسلامية ظلت تحكم الجزيرة
+      ١٣٥ سنة (٨١٧-٩٦١ ميلادي)، فجعلت وسط المتوسط مساحة منازعة،
+      وقدمت قاعدة الانطلاق لغارات على سواحل بحر إيجة البيزنطية وعلى
+      الملاحة المسيحية. وكانت إمارة كريت شاذة في التاريخ الإسلامي
+      — لا أموية ولا عباسية ولا أغلبية في ولائها، بل دولة بحرية
+      مستقلة أندلسية-مغربية — ومدينة الخندق التي أسسها بقيت إلى
+      اليوم باسم هرقليون.
+    description_fr: |
+      Une force d'environ dix mille exilés andalous — survivants du
+      soulèvement du Faubourg à Cordoue expulsés par al-Ḥakam Ier
+      en 818 EC — sous le commandement d'Abū Ḥafṣ ʿUmar
+      al-Iqrīṭishī, s'empara de l'île byzantine de Crète après
+      avoir traversé depuis Alexandrie et avoir établi une base
+      fortifiée à Khandaq (Héraklion). La conquête de la Crète
+      inaugura un émirat musulman qui tiendrait l'île pendant
+      135 ans (817-961 EC), faisant de la Méditerranée centrale
+      un espace disputé et fournissant la base d'attaque pour des
+      raids sur la côte égéenne byzantine et sur la navigation
+      chrétienne. L'émirat crétois fut un cas atypique dans
+      l'histoire islamique — ni omeyyade, ni abbasside, ni
+      aghlabide dans son allégeance, mais une entité maritime
+      indépendante andalouse-maghrébine — et la ville de Khandaq
+      qu'il fonda survit aujourd'hui sous le nom d'Héraklion.
+    canonical_hijri: {year: 212, precision: year}
+    canonical_gregorian: {date: 827-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ei2
+    tags: [andalus, crete, byzantium, mediterranean, abbasid, aghlabid]
+    importance: notable
+    verification_status: cross_verified

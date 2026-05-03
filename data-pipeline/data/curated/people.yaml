@@ -1,0 +1,6142 @@
+# People referenced by events. For Prophets, Sahaba, and Ahl al-Bayt we set
+# image_blocked_reason="religious_prohibition" and image_url=null; no
+# person-images will be fetched. Sunni canon framing throughout.
+#
+# Ahl al-Bayt (Sunni definition): the Prophet's ﷺ wives (Mothers of the
+# Believers), his daughter Fatima ra, his cousin/son-in-law ʿAli ra, his
+# grandsons al-Hasan and al-Husayn ra. Some Sunni scholars extend to Banu
+# Hashim broadly; we follow the conservative definition above.
+people:
+- slug: muhammad
+  full_name_en: Muhammad ibn Abdullah ﷺ
+  full_name_ar: محمد بن عبد الله ﷺ
+  role: prophet
+  is_prophet: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abu-bakr-as-siddiq
+  full_name_en: Abu Bakr as-Siddiq
+  full_name_ar: أبو بكر الصديق
+  kunya: Abu Bakr
+  laqab: as-Siddiq
+  role: caliph
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umar-ibn-al-khattab
+  full_name_en: Umar ibn al-Khattab
+  full_name_ar: عمر بن الخطاب
+  kunya: Abu Hafs
+  laqab: al-Faruq
+  role: caliph
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: uthman-ibn-affan
+  full_name_en: Uthman ibn Affan
+  full_name_ar: عثمان بن عفان
+  kunya: Abu Abdullah
+  laqab: Dhu al-Nurayn
+  role: caliph
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: ali-ibn-abi-talib
+  full_name_en: Ali ibn Abi Talib
+  full_name_ar: علي بن أبي طالب
+  kunya: Abu al-Hasan
+  laqab: Amir al-Mu'minin
+  role: caliph
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: fatima-az-zahra
+  full_name_en: Fatima bint Muhammad (az-Zahra)
+  full_name_ar: فاطمة الزهراء
+  laqab: az-Zahra
+  role: ahl_al_bayt
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: hasan-ibn-ali
+  full_name_en: al-Hasan ibn Ali
+  full_name_ar: الحسن بن علي
+  kunya: Abu Muhammad
+  role: ahl_al_bayt
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: husayn-ibn-ali
+  full_name_en: al-Husayn ibn Ali
+  full_name_ar: الحسين بن علي
+  kunya: Abu Abdullah
+  laqab: Sayyid al-Shuhada
+  role: ahl_al_bayt
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: khadija-bint-khuwaylid
+  full_name_en: Khadija bint Khuwaylid
+  full_name_ar: خديجة بنت خويلد
+  laqab: Umm al-Mu'minin
+  role: mother_of_the_believers
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: aisha-bint-abi-bakr
+  full_name_en: Aisha bint Abi Bakr
+  full_name_ar: عائشة بنت أبي بكر
+  kunya: Umm Abdullah
+  laqab: Umm al-Mu'minin
+  role: mother_of_the_believers
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: hamza-ibn-abdul-muttalib
+  full_name_en: Hamza ibn Abd al-Muttalib
+  full_name_ar: حمزة بن عبد المطلب
+  kunya: Abu Umara
+  laqab: Sayyid al-Shuhada
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: khalid-ibn-al-walid
+  full_name_en: Khalid ibn al-Walid
+  full_name_ar: خالد بن الوليد
+  kunya: Abu Sulayman
+  laqab: Sayf Allah al-Maslul
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abu-hurayra
+  full_name_en: Abu Hurayra
+  full_name_ar: أبو هريرة الدوسي
+  kunya: Abu Hurayra
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: muawiya-ibn-abi-sufyan
+  full_name_en: Mu'awiya ibn Abi Sufyan
+  full_name_ar: معاوية بن أبي سفيان
+  kunya: Abu Abd al-Rahman
+  role: caliph
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: yazid-ibn-muawiya
+  full_name_en: Yazid ibn Mu'awiya
+  full_name_ar: يزيد بن معاوية
+  kunya: Abu Khalid
+  role: caliph
+- slug: abd-al-malik-ibn-marwan
+  full_name_en: Abd al-Malik ibn Marwan
+  full_name_ar: عبد الملك بن مروان
+  kunya: Abu al-Walid
+  role: caliph
+- slug: umar-ibn-abd-al-aziz
+  full_name_en: Umar ibn Abd al-Aziz
+  full_name_ar: عمر بن عبد العزيز
+  kunya: Abu Hafs
+  role: caliph
+- slug: al-mansur-abbasid
+  full_name_en: Abu Ja'far al-Mansur
+  full_name_ar: أبو جعفر المنصور
+  kunya: Abu Ja'far
+  laqab: al-Mansur
+  role: caliph
+- slug: harun-al-rashid
+  full_name_en: Harun al-Rashid
+  full_name_ar: هارون الرشيد
+  laqab: al-Rashid
+  role: caliph
+- slug: al-mamun
+  full_name_en: Abu al-Abbas al-Ma'mun
+  full_name_ar: المأمون
+  laqab: al-Ma'mun
+  role: caliph
+- slug: abu-hanifa
+  full_name_en: Abu Hanifa al-Nu'man
+  full_name_ar: أبو حنيفة النعمان بن ثابت
+  kunya: Abu Hanifa
+  nisba: al-Kufi
+  role: imam
+  openiti_id: 0150AbuHanifa
+- slug: malik-ibn-anas
+  full_name_en: Malik ibn Anas
+  full_name_ar: مالك بن أنس
+  kunya: Abu Abdullah
+  nisba: al-Asbahi
+  role: imam
+  openiti_id: 0179MalikIbnAnas
+- slug: ash-shafii
+  full_name_en: Muhammad ibn Idris al-Shafi'i
+  full_name_ar: محمد بن إدريس الشافعي
+  kunya: Abu Abdullah
+  nisba: al-Shafi'i
+  role: imam
+  openiti_id: 0204Shafici
+- slug: ahmad-ibn-hanbal
+  full_name_en: Ahmad ibn Hanbal
+  full_name_ar: أحمد بن حنبل
+  kunya: Abu Abdullah
+  nisba: al-Shaybani
+  role: imam
+  openiti_id: 0241IbnHanbal
+- slug: al-bukhari
+  full_name_en: Muhammad ibn Isma'il al-Bukhari
+  full_name_ar: محمد بن إسماعيل البخاري
+  kunya: Abu Abdullah
+  nisba: al-Bukhari
+  role: muhaddith
+  openiti_id: 0256Bukhari
+- slug: muslim-ibn-al-hajjaj
+  full_name_en: Muslim ibn al-Hajjaj al-Naysaburi
+  full_name_ar: مسلم بن الحجاج النيسابوري
+  kunya: Abu al-Husayn
+  nisba: al-Naysaburi
+  role: muhaddith
+  openiti_id: 0261Muslim
+- slug: at-tirmidhi
+  full_name_en: Abu Isa Muhammad al-Tirmidhi
+  full_name_ar: أبو عيسى محمد الترمذي
+  kunya: Abu Isa
+  nisba: al-Tirmidhi
+  role: muhaddith
+- slug: abu-dawud
+  full_name_en: Abu Dawud al-Sijistani
+  full_name_ar: أبو داود السجستاني
+  kunya: Abu Dawud
+  nisba: al-Sijistani
+  role: muhaddith
+- slug: an-nasai
+  full_name_en: Ahmad ibn Shu'ayb al-Nasa'i
+  full_name_ar: أحمد بن شعيب النسائي
+  kunya: Abu Abd al-Rahman
+  nisba: al-Nasa'i
+  role: muhaddith
+- slug: ibn-majah
+  full_name_en: Muhammad ibn Yazid Ibn Majah al-Qazwini
+  full_name_ar: محمد بن يزيد ابن ماجه القزويني
+  kunya: Abu Abdullah
+  nisba: al-Qazwini
+  role: muhaddith
+- slug: at-tabari
+  full_name_en: Muhammad ibn Jarir al-Tabari
+  full_name_ar: محمد بن جرير الطبري
+  kunya: Abu Ja'far
+  nisba: al-Tabari
+  role: historian_mufassir
+  openiti_id: 0310Tabari
+- slug: al-ghazali
+  full_name_en: Abu Hamid al-Ghazali
+  full_name_ar: أبو حامد الغزالي
+  kunya: Abu Hamid
+  laqab: Hujjat al-Islam
+  nisba: al-Ghazali
+  role: scholar
+  openiti_id: 0505Ghazali
+- slug: ibn-taymiyya
+  full_name_en: Taqi al-Din Ahmad ibn Taymiyya
+  full_name_ar: تقي الدين أحمد ابن تيمية
+  kunya: Abu al-Abbas
+  laqab: Shaykh al-Islam
+  nisba: al-Harrani
+  role: scholar
+  openiti_id: 0728IbnTaymiyya
+- slug: ibn-al-qayyim
+  full_name_en: Ibn Qayyim al-Jawziyya
+  full_name_ar: ابن قيم الجوزية
+  kunya: Abu Abdullah
+  role: scholar
+- slug: ibn-kathir
+  full_name_en: Isma'il ibn Umar ibn Kathir
+  full_name_ar: إسماعيل بن عمر ابن كثير
+  kunya: Abu al-Fida'
+  nisba: al-Dimashqi
+  role: historian_mufassir
+- slug: ibn-khaldun
+  full_name_en: Abd al-Rahman ibn Khaldun
+  full_name_ar: عبد الرحمن ابن خلدون
+  kunya: Abu Zayd
+  role: historian
+- slug: ibn-hajar-al-asqalani
+  full_name_en: Ibn Hajar al-'Asqalani
+  full_name_ar: ابن حجر العسقلاني
+  kunya: Abu al-Fadl
+  nisba: al-Asqalani
+  role: scholar
+- slug: an-nawawi
+  full_name_en: Yahya ibn Sharaf al-Nawawi
+  full_name_ar: يحيى بن شرف النووي
+  kunya: Abu Zakariyya
+  nisba: al-Nawawi
+  role: scholar
+- slug: as-suyuti
+  full_name_en: Jalal al-Din al-Suyuti
+  full_name_ar: جلال الدين السيوطي
+  laqab: Jalal al-Din
+  nisba: al-Suyuti
+  role: scholar
+- slug: al-dhahabi
+  full_name_en: Shams al-Din al-Dhahabi
+  full_name_ar: شمس الدين الذهبي
+  kunya: Abu Abdullah
+  laqab: Shams al-Din
+  nisba: al-Dhahabi
+  role: historian
+- slug: salahuddin-al-ayyubi
+  full_name_en: Salah al-Din Yusuf ibn Ayyub (Saladin)
+  full_name_ar: صلاح الدين الأيوبي
+  laqab: Salah al-Din
+  role: sultan
+- slug: mehmed-ii
+  full_name_en: Sultan Mehmed II al-Fatih
+  full_name_ar: السلطان محمد الفاتح
+  laqab: al-Fatih
+  role: sultan
+- slug: suleiman-the-magnificent
+  full_name_en: Sultan Suleiman I (al-Qanuni)
+  full_name_ar: السلطان سليمان القانوني
+  laqab: al-Qanuni
+  role: sultan
+- slug: tariq-ibn-ziyad
+  full_name_en: Tariq ibn Ziyad
+  full_name_ar: طارق بن زياد
+  role: commander
+- slug: abd-al-rahman-i
+  full_name_en: Abd al-Rahman I (al-Dakhil)
+  full_name_ar: عبد الرحمن الداخل
+  laqab: al-Dakhil
+  role: emir
+- slug: baybars
+  full_name_en: al-Zahir Baybars
+  full_name_ar: الظاهر بيبرس
+  laqab: al-Zahir
+  role: sultan
+- slug: abu-ayyub-al-ansari
+  full_name_en: Abu Ayyub al-Ansari
+  full_name_ar: أبو أيوب الأنصاري
+  kunya: Abu Ayyub
+  nisba: al-Ansari
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: sad-ibn-abi-waqqas
+  full_name_en: Sa'd ibn Abi Waqqas
+  full_name_ar: سعد بن أبي وقاص
+  kunya: Abu Ishaq
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abdullah-ibn-abbas
+  full_name_en: Abdullah ibn Abbas
+  full_name_ar: عبد الله بن عباس
+  kunya: Abu al-Abbas
+  laqab: Habr al-Umma
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abdullah-ibn-umar
+  full_name_en: Abdullah ibn Umar
+  full_name_ar: عبد الله بن عمر
+  kunya: Abu Abd al-Rahman
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abdullah-ibn-masud
+  full_name_en: Abdullah ibn Mas'ud
+  full_name_ar: عبد الله بن مسعود
+  kunya: Abu Abd al-Rahman
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abd-al-rahman-ibn-awf
+  full_name_en: Abd al-Rahman ibn 'Awf
+  full_name_ar: عبد الرحمن بن عوف
+  kunya: Abu Muhammad
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: muadh-ibn-jabal
+  full_name_en: Mu'adh ibn Jabal
+  full_name_ar: معاذ بن جبل
+  kunya: Abu Abd al-Rahman
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abu-ubayda-ibn-al-jarrah
+  full_name_en: Abu 'Ubayda ibn al-Jarrah
+  full_name_ar: أبو عبيدة بن الجراح
+  kunya: Abu Ubayda
+  laqab: Amin al-Umma
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: bilal-ibn-rabah
+  full_name_en: Bilal ibn Rabah
+  full_name_ar: بلال بن رباح
+  kunya: Abu Abdullah
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: hassan-ibn-thabit
+  full_name_en: Hassan ibn Thabit
+  full_name_ar: حسان بن ثابت
+  kunya: Abu al-Walid
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: salman-al-farisi
+  full_name_en: Salman al-Farisi
+  full_name_ar: سلمان الفارسي
+  kunya: Abu Abdullah
+  nisba: al-Farisi
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: ammar-ibn-yasir
+  full_name_en: '''Ammar ibn Yasir'
+  full_name_ar: عمار بن ياسر
+  kunya: Abu al-Yaqzan
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: sumayya-bint-khayyat
+  full_name_en: Sumayya bint Khayyat
+  full_name_ar: سمية بنت خياط
+  laqab: first martyr of Islam
+  role: sahabiya
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-salama
+  full_name_en: Umm Salama Hind bint Abi Umayya
+  full_name_ar: أم سلمة هند بنت أبي أمية
+  kunya: Umm Salama
+  laqab: Umm al-Mu'minin
+  role: mother_of_the_believers
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: hafsa-bint-umar
+  full_name_en: Hafsa bint 'Umar
+  full_name_ar: حفصة بنت عمر
+  laqab: Umm al-Mu'minin
+  role: mother_of_the_believers
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: zaynab-bint-jahsh
+  full_name_en: Zaynab bint Jahsh
+  full_name_ar: زينب بنت جحش
+  laqab: Umm al-Mu'minin
+  role: mother_of_the_believers
+  is_sahabi: true
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: nusayba-bint-kab
+  full_name_en: Nusayba bint Ka'b (Umm 'Umara)
+  full_name_ar: نسيبة بنت كعب
+  kunya: Umm 'Umara
+  role: sahabiya
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-sulaym
+  full_name_en: Umm Sulaym bint Milhan
+  full_name_ar: أم سليم بنت ملحان
+  kunya: Umm Sulaym
+  role: sahabiya
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: rufayda-al-aslamiyya
+  full_name_en: Rufayda al-Aslamiyya
+  full_name_ar: رفيدة الأسلمية
+  nisba: al-Aslamiyya
+  role: sahabiya
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: fatima-bint-al-fihri
+  full_name_en: Fatima bint Muhammad al-Fihri
+  full_name_ar: فاطمة الفهرية
+  nisba: al-Fihri
+  role: founder
+  biography_en: 9th-century CE founder of al-Qarawiyyin in Fez (245 AH / 859 CE), considered one of the oldest continually-operating
+    universities in the world.
+- slug: rabi-a-al-adawiyya
+  full_name_en: Rabi'a al-'Adawiyya
+  full_name_ar: رابعة العدوية
+  nisba: al-Adawiyya
+  role: ascetic
+  biography_en: 8th-century CE ascetic of Basra associated with the early Sufi tradition of divine love.
+- slug: aisha-al-bauniyya
+  full_name_en: '''A''isha al-Ba''uniyya'
+  full_name_ar: عائشة الباعونية
+  nisba: al-Bauniyya
+  role: scholar
+  biography_en: Mamluk-era scholar and poet (d. 922 AH / 1517 CE), one of the most prolific female authors of the pre-modern
+    Arab world.
+- slug: shah-waliullah
+  full_name_en: Shah Waliullah al-Dihlawi
+  full_name_ar: شاه ولي الله الدهلوي
+  nisba: al-Dihlawi
+  role: scholar
+- slug: muhammad-iqbal
+  full_name_en: Muhammad Iqbal
+  full_name_ar: محمد إقبال
+  role: scholar_poet
+- slug: muhammad-abduh
+  full_name_en: Muhammad 'Abduh
+  full_name_ar: محمد عبده
+  role: scholar_reformer
+- slug: hassan-al-banna
+  full_name_en: Hassan al-Banna
+  full_name_ar: حسن البنا
+  role: scholar
+- slug: al-albani
+  full_name_en: Muhammad Nasir al-Din al-Albani
+  full_name_ar: محمد ناصر الدين الألباني
+  nisba: al-Albani
+  role: muhaddith
+- slug: bin-baz
+  full_name_en: '''Abd al-''Aziz ibn Baz'
+  full_name_ar: عبد العزيز ابن باز
+  role: scholar
+- slug: al-uthaymeen
+  full_name_en: Muhammad ibn Salih al-'Uthaymeen
+  full_name_ar: محمد بن صالح العثيمين
+  role: scholar
+- slug: al-qaradawi
+  full_name_en: Yusuf al-Qaradawi
+  full_name_ar: يوسف القرضاوي
+  role: scholar
+- slug: emir-abdelkader
+  full_name_en: Emir 'Abd al-Qadir al-Jaza'iri
+  full_name_ar: الأمير عبد القادر الجزائري
+  nisba: al-Jaza'iri
+  role: emir_scholar
+- slug: rashid-rida
+  full_name_en: Muhammad Rashid Rida
+  full_name_ar: محمد رشيد رضا
+  role: scholar
+- slug: al-zahrawi
+  full_name_en: Abu al-Qasim al-Zahrawi (Abulcasis)
+  full_name_ar: أبو القاسم الزهراوي
+  kunya: Abu al-Qasim
+  nisba: al-Zahrawi
+  role: surgeon_polymath
+- slug: ibn-al-nafis
+  full_name_en: '''Ala'' al-Din Ibn al-Nafis'
+  full_name_ar: علاء الدين ابن النفيس
+  role: physician
+- slug: al-idrisi
+  full_name_en: Muhammad al-Idrisi
+  full_name_ar: محمد الإدريسي
+  nisba: al-Idrisi
+  role: geographer
+- slug: al-jazari
+  full_name_en: Badi' al-Zaman al-Jazari
+  full_name_ar: بديع الزمان الجزري
+  laqab: Badi' al-Zaman
+  nisba: al-Jazari
+  role: engineer
+- slug: nasir-al-din-al-tusi
+  full_name_en: Nasir al-Din al-Tusi
+  full_name_ar: نصير الدين الطوسي
+  laqab: Nasir al-Din
+  nisba: al-Tusi
+  role: polymath
+- slug: jamshid-al-kashi
+  full_name_en: Ghiyath al-Din Jamshid al-Kashi
+  full_name_ar: جمشيد الكاشي
+  laqab: Ghiyath al-Din
+  nisba: al-Kashi
+  role: astronomer_mathematician
+- slug: ulugh-beg
+  full_name_en: Ulugh Beg (Timurid)
+  full_name_ar: ألغ بيك
+  role: astronomer_ruler
+- slug: ibn-battuta
+  full_name_en: Muhammad Ibn Battuta
+  full_name_ar: محمد ابن بطوطة
+  kunya: Abu Abdullah
+  role: traveler
+- slug: al-mutanabbi
+  full_name_en: Abu al-Tayyib al-Mutanabbi
+  full_name_ar: أبو الطيب المتنبي
+  kunya: Abu al-Tayyib
+  laqab: al-Mutanabbi
+  role: poet
+- slug: rumi
+  full_name_en: Jalal al-Din Rumi
+  full_name_ar: جلال الدين الرومي
+  laqab: Mawlana
+  nisba: al-Rumi
+  role: poet_sufi
+- slug: al-hallaj
+  full_name_en: al-Husayn ibn Mansur al-Hallaj
+  full_name_ar: الحسين بن منصور الحلاج
+  laqab: al-Hallaj
+  role: ascetic
+- slug: abu-tammam
+  full_name_en: Abu Tammam Habib ibn Aws
+  full_name_ar: أبو تمام حبيب بن أوس
+  kunya: Abu Tammam
+  role: poet
+- slug: al-zamakhshari
+  full_name_en: Abu al-Qasim al-Zamakhshari
+  full_name_ar: أبو القاسم الزمخشري
+  kunya: Abu al-Qasim
+  nisba: al-Zamakhshari
+  role: mufassir
+- slug: al-qurtubi
+  full_name_en: Abu 'Abdullah al-Qurtubi
+  full_name_ar: أبو عبد الله القرطبي
+  kunya: Abu Abdullah
+  nisba: al-Qurtubi
+  role: mufassir
+- slug: ibn-abd-al-barr
+  full_name_en: Ibn 'Abd al-Barr al-Namari
+  full_name_ar: ابن عبد البر النمري
+  kunya: Abu Umar
+  nisba: al-Namari
+  role: muhaddith
+- slug: al-daraqutni
+  full_name_en: '''Ali ibn ''Umar al-Daraqutni'
+  full_name_ar: علي بن عمر الدارقطني
+  kunya: Abu al-Hasan
+  nisba: al-Daraqutni
+  role: muhaddith
+- slug: al-hakim-al-naysaburi
+  full_name_en: al-Hakim al-Naysaburi
+  full_name_ar: الحاكم النيسابوري
+  kunya: Abu Abdullah
+  nisba: al-Naysaburi
+  role: muhaddith
+- slug: al-khatib-al-baghdadi
+  full_name_en: al-Khatib al-Baghdadi
+  full_name_ar: الخطيب البغدادي
+  kunya: Abu Bakr
+  nisba: al-Baghdadi
+  role: historian_muhaddith
+- slug: al-sakhawi
+  full_name_en: Shams al-Din al-Sakhawi
+  full_name_ar: شمس الدين السخاوي
+  laqab: Shams al-Din
+  nisba: al-Sakhawi
+  role: muhaddith
+- slug: al-taftazani
+  full_name_en: Sa'd al-Din al-Taftazani
+  full_name_ar: سعد الدين التفتازاني
+  laqab: Sa'd al-Din
+  nisba: al-Taftazani
+  role: scholar
+- slug: anas-ibn-malik
+  full_name_en: Anas ibn Malik
+  full_name_ar: أنس بن مالك
+  kunya: Abu Hamza
+  role: companion_servant_of_prophet
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: jabir-ibn-abdullah
+  full_name_en: Jabir ibn Abdullah al-Ansari
+  full_name_ar: جابر بن عبد الله الأنصاري
+  kunya: Abu Abdillah
+  nisba: al-Ansari
+  role: companion
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abu-saeed-al-khudri
+  full_name_en: Abu Saʿid al-Khudri
+  full_name_ar: أبو سعيد الخدري
+  kunya: Abu Saʿid
+  nisba: al-Khudri
+  role: companion
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abu-dharr-al-ghifari
+  full_name_en: Abu Dharr al-Ghifari
+  full_name_ar: أبو ذر الغفاري
+  kunya: Abu Dharr
+  nisba: al-Ghifari
+  role: companion
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abu-musa-al-ashari
+  full_name_en: Abu Musa al-Ashʿari
+  full_name_ar: أبو موسى الأشعري
+  kunya: Abu Musa
+  nisba: al-Ashʿari
+  role: companion_governor
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: amr-ibn-al-as
+  full_name_en: ʿAmr ibn al-ʿĀs
+  full_name_ar: عمرو بن العاص
+  kunya: Abu Abdillah
+  role: companion_general
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: sufyan-al-thawri
+  full_name_en: Sufyan al-Thawri
+  full_name_ar: سفيان الثوري
+  kunya: Abu Abdillah
+  nisba: al-Thawri
+  role: scholar_muhaddith
+- slug: al-awzai
+  full_name_en: ʿAbd al-Rahman al-Awzāʿi
+  full_name_ar: عبد الرحمن الأوزاعي
+  nisba: al-Awzāʿi
+  role: scholar_jurist
+- slug: abdullah-ibn-al-mubarak
+  full_name_en: ʿAbdullah ibn al-Mubarak
+  full_name_ar: عبد الله بن المبارك
+  kunya: Abu Abd al-Rahman
+  role: scholar_muhaddith_zahid
+- slug: al-layth-ibn-saad
+  full_name_en: al-Layth ibn Saʿd
+  full_name_ar: الليث بن سعد
+  kunya: Abu al-Harith
+  role: scholar_jurist
+- slug: ibn-ishaq
+  full_name_en: Muhammad ibn Ishaq
+  full_name_ar: محمد بن إسحاق
+  kunya: Abu Abdillah
+  role: biographer
+- slug: al-zubayr-ibn-al-awwam
+  full_name_en: al-Zubayr ibn al-ʿAwwam
+  full_name_ar: الزبير بن العوام
+  kunya: Abu Abdillah
+  role: companion_general
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: talha-ibn-ubaydullah
+  full_name_en: Talha ibn ʿUbaydullah
+  full_name_ar: طلحة بن عبيد الله
+  kunya: Abu Muhammad
+  role: companion_general
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: sad-ibn-muadh
+  full_name_en: Saʿd ibn Muʿadh
+  full_name_ar: سعد بن معاذ
+  kunya: Abu ʿAmr
+  role: companion_chief_of_aws
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: said-ibn-al-musayyib
+  full_name_en: Saʿid ibn al-Musayyib
+  full_name_ar: سعيد بن المسيب
+  kunya: Abu Muhammad
+  role: scholar_tabii_jurist
+- slug: ibn-sirin
+  full_name_en: Muhammad ibn Sirin
+  full_name_ar: محمد بن سيرين
+  kunya: Abu Bakr
+  role: scholar_tabii_dream_interpreter
+- slug: al-zuhri
+  full_name_en: Muhammad ibn Shihab al-Zuhri
+  full_name_ar: محمد بن شهاب الزهري
+  kunya: Abu Bakr
+  nisba: al-Zuhri
+  role: scholar_tabii_muhaddith
+- slug: al-shaybani
+  full_name_en: Muhammad ibn al-Hasan al-Shaybani
+  full_name_ar: محمد بن الحسن الشيباني
+  kunya: Abu Abdillah
+  nisba: al-Shaybani
+  role: scholar_jurist_hanafi
+- slug: sahnun
+  full_name_en: Saḥnun ibn Saʿid al-Tanukhi
+  full_name_ar: سحنون بن سعيد التنوخي
+  laqab: Sahnun
+  role: scholar_jurist_maliki
+- slug: al-tahawi
+  full_name_en: Abu Jaʿfar al-Tahawi
+  full_name_ar: أبو جعفر الطحاوي
+  kunya: Abu Jaʿfar
+  nisba: al-Tahawi
+  role: scholar_jurist_hanafi_creed
+- slug: al-qadi-iyad
+  full_name_en: al-Qadi ʿIyad ibn Musa
+  full_name_ar: القاضي عياض بن موسى
+  kunya: Abu al-Fadl
+  laqab: al-Qadi ʿIyad
+  role: scholar_jurist_maliki
+- slug: ibn-hibban
+  full_name_en: Muhammad ibn Hibban al-Busti
+  full_name_ar: محمد بن حبان البستي
+  kunya: Abu Hatim
+  nisba: al-Busti
+  role: scholar_muhaddith
+- slug: al-tabarani
+  full_name_en: Sulayman ibn Ahmad al-Tabarani
+  full_name_ar: سليمان بن أحمد الطبراني
+  kunya: Abu al-Qasim
+  nisba: al-Tabarani
+  role: scholar_muhaddith
+- slug: ubayy-ibn-kab
+  full_name_en: Ubayy ibn Kaʿb
+  full_name_ar: أبي بن كعب
+  kunya: Abu al-Mundhir
+  laqab: Sayyid al-Qurraʾ
+  role: companion_quran_reciter
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: zayd-ibn-thabit
+  full_name_en: Zayd ibn Thabit
+  full_name_ar: زيد بن ثابت
+  kunya: Abu Saʿid
+  role: companion_scribe_of_revelation
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: hudhayfa-ibn-al-yaman
+  full_name_en: Hudhayfa ibn al-Yaman
+  full_name_ar: حذيفة بن اليمان
+  kunya: Abu Abdillah
+  role: companion_keeper_of_secrets
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: mujahid-ibn-jabr
+  full_name_en: Mujahid ibn Jabr
+  full_name_ar: مجاهد بن جبر
+  kunya: Abu al-Hajjaj
+  role: scholar_tabii_mufassir
+- slug: ata-ibn-abi-rabah
+  full_name_en: ʿAtaʾ ibn Abi Rabaḥ
+  full_name_ar: عطاء بن أبي رباح
+  kunya: Abu Muhammad
+  role: scholar_tabii_mufti_of_mecca
+- slug: amir-al-shabi
+  full_name_en: ʿAmir al-Shaʿbi
+  full_name_ar: عامر الشعبي
+  kunya: Abu ʿAmr
+  nisba: al-Shaʿbi
+  role: scholar_tabii_jurist
+- slug: ibn-khuzayma
+  full_name_en: Muhammad ibn Ishaq ibn Khuzayma
+  full_name_ar: محمد بن إسحاق بن خزيمة
+  kunya: Abu Bakr
+  laqab: Imam al-Aʾimma
+  role: scholar_muhaddith
+- slug: al-baqillani
+  full_name_en: Abu Bakr al-Baqillani
+  full_name_ar: أبو بكر الباقلاني
+  kunya: Abu Bakr
+  nisba: al-Baqillani
+  role: scholar_theologian_ashari
+- slug: ibn-bajja
+  full_name_en: Abu Bakr ibn Bajja (Avempace)
+  full_name_ar: أبو بكر ابن باجة
+  kunya: Abu Bakr
+  laqab: Ibn Bajja
+  role: philosopher_andalusi
+- slug: ibn-tufayl
+  full_name_en: Abu Bakr ibn Tufayl
+  full_name_ar: أبو بكر ابن طفيل
+  kunya: Abu Bakr
+  nisba: al-Qaysi
+  role: philosopher_andalusi
+- slug: ibn-al-khatib
+  full_name_en: Lisan al-Din ibn al-Khatib
+  full_name_ar: لسان الدين ابن الخطيب
+  kunya: Abu Abdillah
+  laqab: Lisan al-Din
+  role: scholar_polymath_andalusi
+- slug: al-walid-i
+  full_name_en: al-Walid I ibn ʿAbd al-Malik
+  full_name_ar: الوليد بن عبد الملك
+  role: caliph_umayyad
+- slug: sad-ibn-ubada
+  full_name_en: Saʿd ibn ʿUbada
+  full_name_ar: سعد بن عبادة
+  kunya: Abu Thabit
+  role: companion_chief_of_khazraj
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: al-mahdi-abbasid
+  full_name_en: al-Mahdi (Muhammad ibn al-Mansur)
+  full_name_ar: المهدي محمد بن المنصور
+  role: caliph_abbasid
+- slug: al-mutasim
+  full_name_en: al-Muʿtaṣim bi-Allah
+  full_name_ar: المعتصم بالله
+  role: caliph_abbasid
+- slug: al-mutawakkil
+  full_name_en: al-Mutawakkil ʿala Allah
+  full_name_ar: المتوكل على الله
+  role: caliph_abbasid
+- slug: al-mutadid
+  full_name_en: al-Muʿtaḍid bi-Allah
+  full_name_ar: المعتضد بالله
+  role: caliph_abbasid
+- slug: uqba-ibn-nafi
+  full_name_en: ʿUqba ibn Nafiʿ al-Fihri
+  full_name_ar: عقبة بن نافع الفهري
+  nisba: al-Fihri
+  role: conqueror_general
+- slug: qutayba-ibn-muslim
+  full_name_en: Qutayba ibn Muslim al-Bahili
+  full_name_ar: قتيبة بن مسلم الباهلي
+  nisba: al-Bahili
+  role: conqueror_general
+- slug: nur-al-din-zanki
+  full_name_en: Nur al-Din Mahmud Zanki
+  full_name_ar: نور الدين محمود زنكي
+  laqab: Nur al-Din
+  role: ruler_zangid
+- slug: al-junayd-al-baghdadi
+  full_name_en: al-Junayd al-Baghdadi
+  full_name_ar: الجنيد البغدادي
+  kunya: Abu al-Qasim
+  nisba: al-Baghdadi
+  role: scholar_sufi_sunni
+- slug: al-sirri-al-saqati
+  full_name_en: al-Sirri al-Saqati
+  full_name_ar: السري السقطي
+  kunya: Abu al-Hasan
+  nisba: al-Saqati
+  role: scholar_sufi_sunni
+- slug: al-battani
+  full_name_en: Muhammad ibn Jabir al-Battani
+  full_name_ar: محمد بن جابر البتاني
+  kunya: Abu Abdillah
+  nisba: al-Battani
+  role: scientist_astronomer
+- slug: ibn-yunus
+  full_name_en: ʿAli ibn Abi Saʿid ibn Yunus
+  full_name_ar: علي بن أبي سعيد بن يونس
+  kunya: Abu al-Hasan
+  role: scientist_astronomer
+- slug: ibn-al-baytar
+  full_name_en: Ibn al-Baytar al-Malaqi
+  full_name_ar: ابن البيطار المالقي
+  kunya: Abu Muhammad
+  nisba: al-Malaqi
+  role: scientist_botanist
+- slug: ibn-asakir
+  full_name_en: ʿAli ibn al-Hasan ibn ʿAsakir
+  full_name_ar: علي بن الحسن بن عساكر
+  kunya: Abu al-Qasim
+  nisba: al-Dimashqi
+  role: scholar_historian
+- slug: ibn-al-athir-historian
+  full_name_en: ʿAli ibn al-Athir al-Jazari
+  full_name_ar: علي بن الأثير الجزري
+  kunya: Abu al-Hasan
+  nisba: al-Jazari
+  role: scholar_historian
+- slug: qutuz
+  full_name_en: al-Muẓaffar Sayf al-Din Qutuz
+  full_name_ar: المظفر سيف الدين قطز
+  laqab: al-Muẓaffar
+  role: sultan_mamluk
+- slug: qalawun
+  full_name_en: al-Manṣur Sayf al-Din Qalawun
+  full_name_ar: المنصور سيف الدين قلاوون
+  laqab: al-Manṣur
+  role: sultan_mamluk
+- slug: al-adil-sayf-al-din
+  full_name_en: al-ʿAdil Sayf al-Din Abu Bakr
+  full_name_ar: العادل سيف الدين أبو بكر
+  laqab: al-ʿAdil
+  role: sultan_ayyubid
+- slug: asim-al-kufi
+  full_name_en: ʿAṣim ibn Abi al-Najud
+  full_name_ar: عاصم بن أبي النجود
+  kunya: Abu Bakr
+  nisba: al-Kufi
+  role: scholar_qari
+- slug: nafi-al-madani
+  full_name_en: Nafiʿ ibn ʿAbd al-Rahman al-Madani
+  full_name_ar: نافع بن عبد الرحمن المدني
+  kunya: Abu Ruwaym
+  nisba: al-Madani
+  role: scholar_qari
+- slug: said-nursi
+  full_name_en: Bediüzzaman Said Nursi
+  full_name_ar: بديع الزمان سعيد النورسي
+  laqab: Bediüzzaman
+  role: scholar_modern
+- slug: usman-dan-fodio
+  full_name_en: ʿUthman dan Fodio
+  full_name_ar: عثمان بن فودي
+  kunya: Abu Muhammad
+  role: scholar_sufi_west_africa_reformer
+- slug: al-sarakhsi
+  full_name_en: Shams al-Aʾimma al-Sarakhsi
+  full_name_ar: شمس الأئمة السرخسي
+  laqab: Shams al-Aʾimma
+  nisba: al-Sarakhsi
+  role: scholar_jurist_hanafi
+- slug: al-marghinani
+  full_name_en: Burhan al-Din al-Marghinani
+  full_name_ar: برهان الدين المرغيناني
+  laqab: Burhan al-Din
+  nisba: al-Marghinani
+  role: scholar_jurist_hanafi
+- slug: ibn-qudama
+  full_name_en: Muwaffaq al-Din Ibn Qudama al-Maqdisi
+  full_name_ar: موفق الدين ابن قدامة المقدسي
+  laqab: Muwaffaq al-Din
+  nisba: al-Maqdisi
+  role: scholar_jurist_hanbali
+- slug: ibn-al-salah
+  full_name_en: Ibn al-Ṣalaḥ al-Shahrazuri
+  full_name_ar: ابن الصلاح الشهرزوري
+  kunya: Abu ʿAmr
+  nisba: al-Shahrazuri
+  role: scholar_muhaddith
+- slug: bayezid-i
+  full_name_en: Bayezid I (Yıldırım)
+  full_name_ar: بايزيد الأول الصاعقة
+  laqab: Yıldırım
+  role: sultan_ottoman
+- slug: ibn-kathir-al-makki
+  full_name_en: ʿAbdullah ibn Kathir al-Makki
+  full_name_ar: عبد الله بن كثير المكي
+  kunya: Abu Maʿbad
+  nisba: al-Makki
+  role: scholar_qari
+- slug: abu-amr-al-basri
+  full_name_en: Abu ʿAmr ibn al-ʿAlaʾ al-Basri
+  full_name_ar: أبو عمرو بن العلاء البصري
+  kunya: Abu ʿAmr
+  nisba: al-Basri
+  role: scholar_qari_grammarian
+- slug: al-kisai
+  full_name_en: ʿAli ibn Hamza al-Kisaʾi
+  full_name_ar: علي بن حمزة الكسائي
+  kunya: Abu al-Hasan
+  nisba: al-Kisaʾi
+  role: scholar_qari_grammarian
+- slug: al-baghawi
+  full_name_en: Abu Muhammad al-Baghawi
+  full_name_ar: أبو محمد البغوي
+  kunya: Abu Muhammad
+  laqab: Muḥyi al-Sunna
+  nisba: al-Baghawi
+  role: scholar_mufassir_muhaddith
+- slug: al-wahidi
+  full_name_en: Abu al-Hasan al-Wahidi
+  full_name_ar: أبو الحسن الواحدي
+  kunya: Abu al-Hasan
+  nisba: al-Wahidi
+  role: scholar_mufassir
+- slug: al-shawkani
+  full_name_en: Muhammad ibn ʿAli al-Shawkani
+  full_name_ar: محمد بن علي الشوكاني
+  kunya: Abu Abdillah
+  nisba: al-Shawkani
+  role: scholar_jurist_mufassir
+- slug: al-maqrizi
+  full_name_en: Taqi al-Din al-Maqrizi
+  full_name_ar: تقي الدين المقريزي
+  kunya: Abu al-ʿAbbas
+  laqab: Taqi al-Din
+  nisba: al-Maqrizi
+  role: scholar_historian
+- slug: al-waqidi
+  full_name_en: Muhammad ibn ʿUmar al-Waqidi
+  full_name_ar: محمد بن عمر الواقدي
+  kunya: Abu Abdillah
+  nisba: al-Waqidi
+  role: scholar_historian_maghazi
+- slug: ibn-khallikan
+  full_name_en: Shams al-Din Ibn Khallikan
+  full_name_ar: شمس الدين ابن خلكان
+  kunya: Abu al-ʿAbbas
+  laqab: Shams al-Din
+  role: scholar_historian_biographer
+- slug: yahya-ibn-main
+  full_name_en: Yahya ibn Maʿin
+  full_name_ar: يحيى بن معين
+  kunya: Abu Zakariyya
+  role: scholar_muhaddith_critic
+- slug: ali-ibn-al-madini
+  full_name_en: ʿAli ibn al-Madini
+  full_name_ar: علي بن المديني
+  kunya: Abu al-Hasan
+  nisba: al-Madini
+  role: scholar_muhaddith_critic
+- slug: yahya-al-qattan
+  full_name_en: Yahya ibn Saʿid al-Qattan
+  full_name_ar: يحيى بن سعيد القطان
+  kunya: Abu Saʿid
+  nisba: al-Qattan
+  role: scholar_muhaddith_critic
+- slug: khabbab-ibn-al-aratt
+  full_name_en: Khabbab ibn al-Aratt
+  full_name_ar: خباب بن الأرت
+  kunya: Abu Abdillah
+  role: companion_early_convert
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: ibn-al-shatir
+  full_name_en: ʿAla al-Din ibn al-Shatir
+  full_name_ar: علاء الدين ابن الشاطر
+  kunya: Abu al-Hasan
+  laqab: ʿAla al-Din
+  role: scientist_astronomer
+- slug: yunus-emre
+  full_name_en: Yunus Emre
+  full_name_ar: يونس أمره
+  role: scholar_sufi_poet_anatolian
+- slug: al-abbas-ibn-abd-al-muttalib
+  full_name_en: al-ʿAbbas ibn ʿAbd al-Muṭṭalib
+  full_name_ar: العباس بن عبد المطلب
+  kunya: Abu al-Faḍl
+  role: companion_uncle_of_prophet
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: musab-ibn-umayr
+  full_name_en: Muṣʿab ibn ʿUmayr
+  full_name_ar: مصعب بن عمير
+  kunya: Abu Abdillah
+  laqab: First Ambassador of Islam
+  role: companion_first_ambassador
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: jafar-ibn-abi-talib
+  full_name_en: Jaʿfar ibn Abi Ṭalib
+  full_name_ar: جعفر بن أبي طالب
+  kunya: Abu Abdillah
+  laqab: Dhu al-Janahayn
+  role: companion_cousin_of_prophet
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: salama-ibn-al-akwa
+  full_name_en: Salama ibn al-Akwaʿ
+  full_name_ar: سلمة بن الأكوع
+  kunya: Abu Iyas
+  role: companion_warrior
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: ibn-atiyya
+  full_name_en: Ibn ʿAṭiyya al-Andalusi
+  full_name_ar: ابن عطية الأندلسي
+  kunya: Abu Muhammad
+  nisba: al-Andalusi
+  role: scholar_mufassir_maliki
+- slug: abu-hayyan-al-gharnati
+  full_name_en: Abu Ḥayyan al-Gharnaṭi
+  full_name_ar: أبو حيان الغرناطي
+  kunya: Abu Ḥayyan
+  nisba: al-Gharnaṭi
+  role: scholar_mufassir_grammarian
+- slug: murad-iii
+  full_name_en: Murad III
+  full_name_ar: مراد الثالث
+  role: sultan_ottoman
+- slug: murad-iv
+  full_name_en: Murad IV
+  full_name_ar: مراد الرابع
+  role: sultan_ottoman
+- slug: abdulhamid-ii
+  full_name_en: Abdulhamid II
+  full_name_ar: عبد الحميد الثاني
+  role: sultan_ottoman
+- slug: abu-al-wafa-al-buzjani
+  full_name_en: Abu al-Wafaʾ al-Buzjani
+  full_name_ar: أبو الوفاء البوزجاني
+  kunya: Abu al-Wafaʾ
+  nisba: al-Buzjani
+  role: scientist_mathematician_astronomer
+- slug: al-masudi
+  full_name_en: Abu al-Hasan al-Masʿudi
+  full_name_ar: أبو الحسن المسعودي
+  kunya: Abu al-Hasan
+  nisba: al-Masʿudi
+  role: scholar_historian_geographer
+- slug: al-wansharisi
+  full_name_en: Aḥmad al-Wansharisi
+  full_name_ar: أحمد الونشريسي
+  kunya: Abu al-ʿAbbas
+  nisba: al-Wansharisi
+  role: scholar_jurist_maliki
+- slug: abdullah-ibn-al-zubayr
+  full_name_en: ʿAbdullah ibn al-Zubayr
+  full_name_ar: عبد الله بن الزبير
+  kunya: Abu Bakr
+  role: companion_caliph_contender
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: asma-bint-abi-bakr
+  full_name_en: Asmaʾ bint Abi Bakr
+  full_name_ar: أسماء بنت أبي بكر
+  laqab: Dhat al-Niṭaqayn
+  role: companion_daughter_of_abu_bakr
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: urwa-ibn-al-zubayr
+  full_name_en: ʿUrwa ibn al-Zubayr
+  full_name_ar: عروة بن الزبير
+  kunya: Abu Abdillah
+  role: scholar_tabii_jurist
+- slug: al-qasim-ibn-muhammad
+  full_name_en: al-Qasim ibn Muhammad ibn Abi Bakr
+  full_name_ar: القاسم بن محمد بن أبي بكر
+  kunya: Abu Muhammad
+  role: scholar_tabii_jurist
+- slug: ikrimah-mawla-ibn-abbas
+  full_name_en: ʿIkrimah mawla Ibn ʿAbbas
+  full_name_ar: عكرمة مولى ابن عباس
+  kunya: Abu Abdillah
+  role: scholar_tabii_mufassir
+- slug: al-shadhili
+  full_name_en: Abu al-Hasan al-Shadhili
+  full_name_ar: أبو الحسن الشاذلي
+  kunya: Abu al-Hasan
+  nisba: al-Shadhili
+  role: scholar_sufi_tariqa_founder
+- slug: naqshband
+  full_name_en: Bahaʾ al-Din Naqshband
+  full_name_ar: بهاء الدين نقشبند
+  laqab: Bahaʾ al-Din
+  nisba: al-Bukhari
+  role: scholar_sufi_tariqa_founder
+- slug: abu-madyan
+  full_name_en: Abu Madyan Shuʿayb al-Maghribi
+  full_name_ar: أبو مدين شعيب المغربي
+  kunya: Abu Madyan
+  nisba: al-Maghribi
+  role: scholar_sufi_maghreb
+- slug: ahmad-shakir
+  full_name_en: Aḥmad Muhammad Shakir
+  full_name_ar: أحمد محمد شاكر
+  role: scholar_modern_muhaddith
+- slug: sirhindi
+  full_name_en: Aḥmad Sirhindi (Mujaddid Alf-i Thani)
+  full_name_ar: أحمد السرهندي
+  laqab: Mujaddid Alf-i Thani
+  nisba: al-Sirhindi
+  role: scholar_sufi_naqshbandi
+- slug: al-maraghi
+  full_name_en: Mustafa al-Maraghi
+  full_name_ar: مصطفى المراغي
+  kunya: Abu Abdillah
+  nisba: al-Maraghi
+  role: scholar_modern_azhar
+- slug: salim-ibn-abdullah-ibn-umar
+  full_name_en: Salim ibn ʿAbdullah ibn ʿUmar
+  full_name_ar: سالم بن عبد الله بن عمر
+  kunya: Abu ʿUmar
+  role: scholar_tabii_jurist
+- slug: sulayman-ibn-yasar
+  full_name_en: Sulayman ibn Yasar al-Hilali
+  full_name_ar: سليمان بن يسار الهلالي
+  kunya: Abu Ayyub
+  role: scholar_tabii_jurist
+- slug: kharija-ibn-zayd
+  full_name_en: Kharija ibn Zayd ibn Thabit
+  full_name_ar: خارجة بن زيد بن ثابت
+  kunya: Abu Zayd
+  role: scholar_tabii_jurist
+- slug: abu-bakr-ibn-abd-al-rahman
+  full_name_en: Abu Bakr ibn ʿAbd al-Rahman ibn al-Harith
+  full_name_ar: أبو بكر بن عبد الرحمن بن الحارث
+  kunya: Abu Bakr
+  role: scholar_tabii_jurist
+- slug: humayun
+  full_name_en: Naṣir al-Din Muhammad Humayun
+  full_name_ar: ناصر الدين محمد همايون
+  laqab: Humayun
+  role: emperor_mughal
+- slug: shah-jahan
+  full_name_en: Shihab al-Din Muhammad Shah Jahan
+  full_name_ar: شهاب الدين محمد شاه جهان
+  laqab: Shah Jahan
+  role: emperor_mughal
+- slug: ibn-al-haj-al-abdari
+  full_name_en: Ibn al-Hajj al-ʿAbdari
+  full_name_ar: ابن الحاج العبدري
+  kunya: Abu Abdillah
+  nisba: al-ʿAbdari
+  role: scholar_jurist_maliki
+- slug: al-maqqari
+  full_name_en: Aḥmad al-Maqqari
+  full_name_ar: أحمد المقري
+  kunya: Abu al-ʿAbbas
+  nisba: al-Maqqari
+  role: scholar_historian_andalusi
+- slug: al-bara-ibn-azib
+  full_name_en: al-Baraʾ ibn ʿAzib
+  full_name_ar: البراء بن عازب
+  kunya: Abu ʿUmara
+  role: companion_warrior_narrator
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: imran-ibn-husayn
+  full_name_en: ʿImran ibn al-Ḥusayn al-Khuzaʿi
+  full_name_ar: عمران بن الحصين الخزاعي
+  kunya: Abu Nujayd
+  nisba: al-Khuzaʿi
+  role: companion_jurist_basra
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: muhammad-ibn-ibrahim-al-al-shaykh
+  full_name_en: Muhammad ibn Ibrahim Al al-Shaykh
+  full_name_ar: محمد بن إبراهيم آل الشيخ
+  role: scholar_modern_saudi_grand_mufti
+- slug: muhammad-hamidullah
+  full_name_en: Muhammad Hamidullah
+  full_name_ar: محمد حميد الله
+  role: scholar_modern_hyderabad_paris
+- slug: al-birjandi
+  full_name_en: ʿAbd al-ʿAli al-Birjandi
+  full_name_ar: عبد العلي البرجندي
+  kunya: Abu al-Hasan
+  nisba: al-Birjandi
+  role: scientist_astronomer
+- slug: sibawayhi
+  full_name_en: Sibawayhi (ʿAmr ibn ʿUthman)
+  full_name_ar: سيبويه عمرو بن عثمان
+  kunya: Abu Bishr
+  role: scholar_grammarian
+- slug: al-busiri
+  full_name_en: Sharaf al-Din al-Busiri
+  full_name_ar: شرف الدين البوصيري
+  laqab: Sharaf al-Din
+  nisba: al-Busiri
+  role: scholar_sufi_poet
+- slug: al-khansa
+  full_name_en: al-Khansaʾ Tumadir bint ʿAmr
+  full_name_ar: الخنساء تماضر بنت عمرو
+  role: companion_poetess
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: ibn-jubayr
+  full_name_en: Muhammad ibn Aḥmad ibn Jubayr
+  full_name_ar: محمد بن أحمد بن جبير
+  kunya: Abu al-Husayn
+  nisba: al-Andalusi
+  role: scholar_traveler
+- slug: ibn-fadlan
+  full_name_en: Aḥmad ibn Faḍlan
+  full_name_ar: أحمد بن فضلان
+  kunya: Abu al-ʿAbbas
+  role: scholar_traveler_envoy
+- slug: nizam-al-mulk
+  full_name_en: Nizam al-Mulk al-Tusi
+  full_name_ar: نظام الملك الطوسي
+  laqab: Nizam al-Mulk
+  nisba: al-Tusi
+  role: vizier_saljuq
+- slug: ebussuud-efendi
+  full_name_en: Ebussuud Efendi
+  full_name_ar: أبو السعود أفندي
+  kunya: Abu al-Suʿud
+  role: scholar_jurist_ottoman_shaykh_al_islam
+- slug: ibn-ataillah
+  full_name_en: Ibn ʿAṭaʾillah al-Iskandari
+  full_name_ar: ابن عطاء الله الإسكندري
+  kunya: Tāj al-Dīn
+  nisba: al-Iskandari
+  role: scholar_sufi_shadhili
+- slug: al-birgivi
+  full_name_en: Imam al-Birgivi
+  full_name_ar: الإمام البركوي
+  nisba: al-Birgivi
+  role: scholar_jurist_ottoman_revivalist
+- slug: al-subki-taj-al-din
+  full_name_en: Tāj al-Din al-Subki
+  full_name_ar: تاج الدين السبكي
+  laqab: Tāj al-Din
+  nisba: al-Subki
+  role: scholar_jurist_shafii_historian
+- slug: ibn-al-jawzi
+  full_name_en: Abu al-Faraj Ibn al-Jawzi
+  full_name_ar: أبو الفرج ابن الجوزي
+  kunya: Abu al-Faraj
+  role: scholar_polymath_hanbali
+- slug: al-ahnaf-ibn-qays
+  full_name_en: al-Aḥnaf ibn Qays al-Tamimi
+  full_name_ar: الأحنف بن قيس التميمي
+  kunya: Abu Bahr
+  nisba: al-Tamimi
+  role: companion_general_tamim
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: said-ibn-jubayr
+  full_name_en: Saʿid ibn Jubayr
+  full_name_ar: سعيد بن جبير
+  kunya: Abu Abdillah
+  role: scholar_tabii_mufassir_martyr
+- slug: ibn-fadl-allah-al-umari
+  full_name_en: Ibn Faḍl Allah al-ʿUmari
+  full_name_ar: ابن فضل الله العمري
+  kunya: Shihab al-Din
+  nisba: al-ʿUmari
+  role: scholar_historian_geographer_mamluk
+- slug: abdullah-ibn-salam
+  full_name_en: ʿAbdullah ibn Salam
+  full_name_ar: عبد الله بن سلام
+  kunya: Abu Yusuf
+  role: companion_jewish_convert
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: tamim-al-dari
+  full_name_en: Tamim al-Dari
+  full_name_ar: تميم الداري
+  kunya: Abu Ruqayya
+  nisba: al-Dari
+  role: companion_christian_convert
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: muhammad-ibn-tughluq
+  full_name_en: Muhammad ibn Tughluq
+  full_name_ar: محمد بن تغلق
+  role: sultan_delhi
+- slug: moinuddin-chishti
+  full_name_en: Khwaja Moinuddin Chishti
+  full_name_ar: خواجة معين الدين الجشتي
+  laqab: Gharib Nawaz
+  nisba: al-Chishti
+  role: scholar_sufi_chishti_india
+- slug: al-karaji
+  full_name_en: Abu Bakr al-Karaji
+  full_name_ar: أبو بكر الكرجي
+  kunya: Abu Bakr
+  nisba: al-Karaji
+  role: scientist_mathematician
+- slug: al-khazini
+  full_name_en: ʿAbd al-Rahman al-Khazini
+  full_name_ar: عبد الرحمن الخازني
+  kunya: Abu al-Fath
+  nisba: al-Khazini
+  role: scientist_physicist_astronomer
+- slug: mansur-al-dhahabi
+  full_name_en: Aḥmad al-Manṣur al-Dhahabi
+  full_name_ar: أحمد المنصور الذهبي
+  laqab: al-Dhahabi
+  role: sultan_saadi_morocco
+- slug: abu-al-hasan-al-nadwi
+  full_name_en: Abu al-Hasan ʿAli al-Nadwi
+  full_name_ar: أبو الحسن علي الندوي
+  nisba: al-Nadwi
+  role: scholar_modern_indian_sunni
+- slug: said-ibn-zayd
+  full_name_en: Saʿid ibn Zayd
+  full_name_ar: سعيد بن زيد
+  kunya: Abu al-Aʿwar
+  role: companion_asharatu_mubasshara
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: sahl-ibn-sad
+  full_name_en: Sahl ibn Saʿd al-Saʿidi
+  full_name_ar: سهل بن سعد الساعدي
+  kunya: Abu al-ʿAbbas
+  nisba: al-Saʿidi
+  role: companion_last_in_medina
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: suhayb-al-rumi
+  full_name_en: Suhayb ibn Sinan al-Rumi
+  full_name_ar: صهيب بن سنان الرومي
+  kunya: Abu Yahya
+  nisba: al-Rumi
+  role: companion_byzantine_convert
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: al-khalil-al-farahidi
+  full_name_en: al-Khalil ibn Aḥmad al-Farahidi
+  full_name_ar: الخليل بن أحمد الفراهيدي
+  kunya: Abu Abd al-Rahman
+  nisba: al-Farahidi
+  role: scholar_grammarian_lexicographer
+- slug: al-maturidi
+  full_name_en: Abu Manṣur al-Maturidi
+  full_name_ar: أبو منصور الماتريدي
+  kunya: Abu Manṣur
+  nisba: al-Maturidi
+  role: scholar_theologian_maturidi
+- slug: al-jurjani-balagha
+  full_name_en: ʿAbd al-Qahir al-Jurjani
+  full_name_ar: عبد القاهر الجرجاني
+  kunya: Abu Bakr
+  nisba: al-Jurjani
+  role: scholar_balagha
+- slug: al-maydani
+  full_name_en: Abu al-Faḍl al-Maydani
+  full_name_ar: أبو الفضل الميداني
+  kunya: Abu al-Faḍl
+  nisba: al-Maydani
+  role: scholar_lexicographer
+- slug: al-sadi
+  full_name_en: ʿAbd al-Raḥman ibn Naṣir al-Saʿdi
+  full_name_ar: عبد الرحمن بن ناصر السعدي
+  nisba: al-Saʿdi
+  role: scholar_modern_hanbali_mufassir
+- slug: al-kattani
+  full_name_en: Muhammad ʿAbd al-Hayy al-Kattani
+  full_name_ar: محمد عبد الحي الكتاني
+  nisba: al-Kattani
+  role: scholar_modern_maliki_muhaddith
+- slug: al-rifai
+  full_name_en: Aḥmad al-Rifaʿi al-Kabir
+  full_name_ar: أحمد الرفاعي الكبير
+  kunya: Abu al-ʿAbbas
+  nisba: al-Rifaʿi
+  role: scholar_sufi_tariqa_founder
+- slug: maruf-al-karkhi
+  full_name_en: Maʿruf al-Karkhi
+  full_name_ar: معروف الكرخي
+  kunya: Abu Maḥfuz
+  nisba: al-Karkhi
+  role: scholar_sufi_early
+- slug: ibn-muflih
+  full_name_en: Shams al-Din Ibn Mufliḥ
+  full_name_ar: شمس الدين ابن مفلح
+  laqab: Shams al-Din
+  role: scholar_jurist_hanbali_polymath
+- slug: muizz-al-din-ghuri
+  full_name_en: Muʿizz al-Din Muhammad of Ghor
+  full_name_ar: معز الدين محمد الغوري
+  laqab: Muʿizz al-Din
+  role: sultan_ghurid
+- slug: majd-al-din-ibn-al-athir
+  full_name_en: Majd al-Din Ibn al-Athir al-Jazari
+  full_name_ar: مجد الدين ابن الأثير الجزري
+  kunya: Abu al-Saʿadat
+  laqab: Majd al-Din
+  nisba: al-Jazari
+  role: scholar_muhaddith_lexicographer
+- slug: al-ashari
+  full_name_en: Abu al-Hasan al-Ashʿari
+  full_name_ar: أبو الحسن الأشعري
+  kunya: Abu al-Hasan
+  nisba: al-Ashʿari
+  role: scholar_theologian_ashari_founder
+- slug: aqil-ibn-abi-talib
+  full_name_en: ʿAqil ibn Abi Ṭalib
+  full_name_ar: عقيل بن أبي طالب
+  kunya: Abu Yazid
+  role: companion_genealogist
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: bara-ibn-malik
+  full_name_en: al-Baraʾ ibn Malik
+  full_name_ar: البراء بن مالك
+  kunya: Abu ʿUmara
+  role: companion_warrior
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: ali-zayn-al-abidin
+  full_name_en: ʿAli ibn al-Husayn — Zayn al-ʿAbidin
+  full_name_ar: علي بن الحسين زين العابدين
+  laqab: Zayn al-ʿAbidin
+  role: ahl_al_bayt_grandson_of_husayn
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: al-aswad-al-nakhai
+  full_name_en: al-Aswad ibn Yazid al-Nakhaʿi
+  full_name_ar: الأسود بن يزيد النخعي
+  kunya: Abu ʿAmr
+  nisba: al-Nakhaʿi
+  role: scholar_tabii_jurist
+- slug: ibn-abi-zayd
+  full_name_en: Ibn Abi Zayd al-Qayrawani
+  full_name_ar: ابن أبي زيد القيرواني
+  kunya: Abu Muhammad
+  nisba: al-Qayrawani
+  role: scholar_jurist_maliki
+- slug: khalid-al-baghdadi
+  full_name_en: Mawlana Khalid al-Baghdadi
+  full_name_ar: مولانا خالد البغدادي
+  laqab: Mawlana
+  role: scholar_sufi_naqshbandi_khalidi
+- slug: nizam-al-din-awliya
+  full_name_en: Niẓam al-Din Awliyaʾ
+  full_name_ar: نظام الدين أولياء
+  laqab: Sultan al-Mashayikh
+  role: scholar_sufi_chishti_india
+- slug: al-lakhmi
+  full_name_en: Abu al-Hasan al-Lakhmi
+  full_name_ar: أبو الحسن اللخمي
+  kunya: Abu al-Hasan
+  nisba: al-Lakhmi
+  role: scholar_jurist_maliki
+- slug: mulla-ali-al-qari
+  full_name_en: Mulla ʿAli al-Qari
+  full_name_ar: ملا علي القاري
+  kunya: Abu al-Hasan
+  nisba: al-Qari
+  role: scholar_muhaddith_hanafi
+- slug: abd-al-razzaq-al-sanani
+  full_name_en: ʿAbd al-Razzaq al-Sanʿani
+  full_name_ar: عبد الرزاق الصنعاني
+  kunya: Abu Bakr
+  nisba: al-Sanʿani
+  role: scholar_muhaddith
+- slug: al-muthanna-ibn-haritha
+  full_name_en: al-Muthanna ibn Ḥaritha al-Shaybani
+  full_name_ar: المثنى بن حارثة الشيباني
+  kunya: Abu al-Walid
+  nisba: al-Shaybani
+  role: companion_general
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abdullah-ibn-amr
+  full_name_en: ʿAbdullah ibn ʿAmr ibn al-ʿAṣ
+  full_name_ar: عبد الله بن عمرو بن العاص
+  kunya: Abu Muhammad
+  role: companion_narrator
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: wahb-ibn-munabbih
+  full_name_en: Wahb ibn Munabbih
+  full_name_ar: وهب بن منبه
+  kunya: Abu Abdillah
+  role: scholar_tabii_yemeni
+- slug: al-mughira-ibn-shuba
+  full_name_en: al-Mughira ibn Shuʿba
+  full_name_ar: المغيرة بن شعبة
+  kunya: Abu Abdillah
+  role: companion_governor_kufa
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: sufyan-ibn-uyayna
+  full_name_en: Sufyan ibn ʿUyayna al-Hilali
+  full_name_ar: سفيان بن عيينة الهلالي
+  kunya: Abu Muhammad
+  nisba: al-Hilali
+  role: scholar_muhaddith_mecca
+- slug: hammad-ibn-salama
+  full_name_en: Hammad ibn Salama
+  full_name_ar: حماد بن سلمة
+  kunya: Abu Salama
+  role: scholar_muhaddith_basra
+- slug: ibn-wahb
+  full_name_en: ʿAbdullah ibn Wahb al-Qurashi
+  full_name_ar: عبد الله بن وهب القرشي
+  kunya: Abu Muhammad
+  role: scholar_jurist_maliki_egypt
+- slug: ibn-al-qasim
+  full_name_en: ʿAbd al-Rahman ibn al-Qasim al-ʿUtaqi
+  full_name_ar: عبد الرحمن بن القاسم العتقي
+  kunya: Abu Abdillah
+  nisba: al-ʿUtaqi
+  role: scholar_jurist_maliki_egypt
+- slug: taqi-al-din-al-subki
+  full_name_en: Taqi al-Din al-Subki
+  full_name_ar: تقي الدين السبكي
+  laqab: Taqi al-Din
+  nisba: al-Subki
+  role: scholar_jurist_shafii
+- slug: ibn-hajar-al-haytami
+  full_name_en: Ibn Hajar al-Haytami
+  full_name_ar: ابن حجر الهيتمي
+  kunya: Abu al-ʿAbbas
+  nisba: al-Haytami
+  role: scholar_jurist_shafii_mecca
+- slug: ibn-ashur
+  full_name_en: Muhammad al-Ṭahir ibn ʿAshur
+  full_name_ar: محمد الطاهر ابن عاشور
+  kunya: Abu Faḍl
+  nisba: al-Tunisi
+  role: scholar_modern_maliki_mufassir
+- slug: mahmud-shaltut
+  full_name_en: Mahmud Shaltut
+  full_name_ar: محمود شلتوت
+  role: scholar_modern_azhar
+- slug: sayyid-sabiq
+  full_name_en: Sayyid Sabiq
+  full_name_ar: السيد سابق
+  role: scholar_modern_fiqh
+- slug: ahmad-zarruq
+  full_name_en: Aḥmad Zarruq
+  full_name_ar: أحمد زروق
+  nisba: al-Burnusi
+  role: scholar_sufi_maliki_shadhili
+- slug: ubada-ibn-al-samit
+  full_name_en: ʿUbada ibn al-Ṣamit
+  full_name_ar: عبادة بن الصامت
+  kunya: Abu al-Walid
+  role: companion_naqib_aqaba
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: said-ibn-amir
+  full_name_en: Saʿid ibn ʿAmir al-Jumahi
+  full_name_ar: سعيد بن عامر الجمحي
+  kunya: Abu ʿAmir
+  nisba: al-Jumahi
+  role: companion_governor_homs
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: uqba-ibn-amir-al-juhani
+  full_name_en: ʿUqba ibn ʿAmir al-Juhani
+  full_name_ar: عقبة بن عامر الجهني
+  kunya: Abu Ḥammad
+  nisba: al-Juhani
+  role: companion_qari_governor_egypt
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: al-qushayri
+  full_name_en: ʿAbd al-Karim al-Qushayri
+  full_name_ar: عبد الكريم القشيري
+  kunya: Abu al-Qasim
+  nisba: al-Qushayri
+  role: scholar_sufi_shafii_ashari
+- slug: al-hujwiri
+  full_name_en: ʿAli al-Hujwiri
+  full_name_ar: علي الهجويري
+  kunya: Abu al-Hasan
+  laqab: Data Ganj Bakhsh
+  nisba: al-Hujwiri
+  role: scholar_sufi_persian
+- slug: al-sulami
+  full_name_en: ʿAbd al-Rahman al-Sulami
+  full_name_ar: عبد الرحمن السلمي
+  kunya: Abu ʿAbd al-Rahman
+  nisba: al-Sulami
+  role: scholar_sufi_biographer
+- slug: ibn-ajiba
+  full_name_en: Aḥmad ibn ʿAjiba
+  full_name_ar: أحمد ابن عجيبة
+  kunya: Abu al-ʿAbbas
+  nisba: al-Hasani
+  role: scholar_sufi_maliki_mufassir
+- slug: al-zabidi
+  full_name_en: al-Sayyid Murtaḍa al-Zabidi
+  full_name_ar: السيد مرتضى الزبيدي
+  kunya: Abu al-Fayḍ
+  nisba: al-Zabidi
+  role: scholar_lexicographer_hanafi
+- slug: hasan-al-attar
+  full_name_en: Ḥasan al-ʿAṭṭar
+  full_name_ar: حسن العطار
+  kunya: Abu al-Saʿadat
+  nisba: al-ʿAṭṭar
+  role: scholar_modern_azhar_polymath
+- slug: al-tabrizi
+  full_name_en: Wali al-Din al-Tabrizi
+  full_name_ar: ولي الدين التبريزي
+  laqab: Wali al-Din
+  nisba: al-Tabrizi
+  role: scholar_muhaddith
+- slug: ibn-daqiq-al-id
+  full_name_en: Ibn Daqiq al-ʿId
+  full_name_ar: ابن دقيق العيد
+  kunya: Abu al-Fatḥ
+  laqab: Taqi al-Din
+  role: scholar_jurist_shafii_maliki
+- slug: al-damiri
+  full_name_en: Kamal al-Din al-Damiri
+  full_name_ar: كمال الدين الدميري
+  laqab: Kamal al-Din
+  nisba: al-Damiri
+  role: scholar_zoologist_shafii
+- slug: ibn-al-mulaqqin
+  full_name_en: Siraj al-Din Ibn al-Mulaqqin
+  full_name_ar: سراج الدين ابن الملقن
+  laqab: Siraj al-Din
+  role: scholar_muhaddith_shafii
+- slug: anwar-shah-al-kashmiri
+  full_name_en: Anwar Shah al-Kashmiri
+  full_name_ar: أنور شاه الكشميري
+  nisba: al-Kashmiri
+  role: scholar_modern_indian_deobandi_muhaddith
+- slug: al-ashraf-khalil
+  full_name_en: al-Ashraf Khalil ibn Qalawun
+  full_name_ar: الأشرف خليل بن قلاوون
+  laqab: al-Ashraf
+  role: sultan_mamluk
+- slug: sawda-bint-zama
+  full_name_en: Sawda bint Zamʿa
+  full_name_ar: سودة بنت زمعة
+  role: mother_of_believers
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-habiba
+  full_name_en: Ramla bint Abi Sufyan (Umm Ḥabiba)
+  full_name_ar: رملة بنت أبي سفيان (أم حبيبة)
+  kunya: Umm Ḥabiba
+  role: mother_of_believers
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: maymouna-bint-al-harith
+  full_name_en: Maymouna bint al-Ḥarith
+  full_name_ar: ميمونة بنت الحارث
+  role: mother_of_believers
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: juwayriya-bint-al-harith
+  full_name_en: Juwayriya bint al-Ḥarith
+  full_name_ar: جويرية بنت الحارث
+  role: mother_of_believers
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: safiyya-bint-huyayy
+  full_name_en: Safiyya bint Ḥuyayy
+  full_name_ar: صفية بنت حيي
+  role: mother_of_believers
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: asma-bint-umays
+  full_name_en: Asmaʾ bint ʿUmays
+  full_name_ar: أسماء بنت عميس
+  role: companion_wife_of_three_sahaba
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-mabad
+  full_name_en: Umm Maʿbad al-Khuzaʿiyya
+  full_name_ar: أم معبد الخزاعية
+  nisba: al-Khuzaʿiyya
+  role: companion_hijra_witness
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-al-fadl
+  full_name_en: Umm al-Faḍl Lubaba bint al-Ḥarith
+  full_name_ar: أم الفضل لبابة بنت الحارث
+  role: companion_wife_of_abbas
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-hakim
+  full_name_en: Umm Ḥakim bint al-Ḥarith
+  full_name_ar: أم حكيم بنت الحارث
+  role: companion_warrior_wife
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-waraqa
+  full_name_en: Umm Waraqa bint ʿAbdullah
+  full_name_ar: أم ورقة بنت عبد الله
+  role: companion_quran_reciter_martyr
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: khawla-bint-thalaba
+  full_name_en: Khawla bint Thaʿlaba
+  full_name_ar: خولة بنت ثعلبة
+  role: companion_quran_revelation_subject
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: al-shifa-bint-abdullah
+  full_name_en: al-Shifaʾ bint ʿAbdullah al-Qurashiyya
+  full_name_ar: الشفاء بنت عبد الله القرشية
+  role: companion_administrator_market
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: asma-bint-yazid
+  full_name_en: Asmaʾ bint Yazid al-Anṣariyya
+  full_name_ar: أسماء بنت يزيد الأنصارية
+  laqab: Khaṭibat al-Nisaʾ
+  role: companion_orator_warrior
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-ayman
+  full_name_en: Baraka — Umm Ayman al-Ḥabashiyya
+  full_name_ar: بركة - أم أيمن الحبشية
+  kunya: Umm Ayman
+  role: companion_nursemaid_of_prophet
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umm-haram
+  full_name_en: Umm Ḥaram bint Milḥan
+  full_name_ar: أم حرام بنت ملحان
+  role: companion_first_sea_martyr
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: zayd-ibn-haritha
+  full_name_en: Zayd ibn Ḥāritha al-Kalbī
+  full_name_ar: زيد بن حارثة الكلبي
+  kunya: Abu Usāma
+  nisba: al-Kalbī
+  role: companion_freedman_of_prophet_martyr_mutah
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abdullah-ibn-rawaha
+  full_name_en: ʿAbdullāh ibn Rawāḥa al-Anṣārī
+  full_name_ar: عبد الله بن رواحة الأنصاري
+  kunya: Abu Muḥammad
+  nisba: al-Anṣārī al-Khazrajī
+  role: companion_poet_naqib_martyr_mutah
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abu-talha-al-ansari
+  full_name_en: Abū Ṭalḥa Zayd ibn Sahl al-Anṣārī
+  full_name_ar: أبو طلحة زيد بن سهل الأنصاري
+  kunya: Abu Ṭalḥa
+  nisba: al-Anṣārī al-Khazrajī al-Najjārī
+  role: companion_archer_of_uhud
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: al-tufayl-ibn-amr-al-dawsi
+  full_name_en: al-Ṭufayl ibn ʿAmr al-Dawsī
+  full_name_ar: الطفيل بن عمرو الدوسي
+  nisba: al-Dawsī
+  role: companion_chief_of_daws_martyr_yamama
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: adi-ibn-hatim-al-tai
+  full_name_en: ʿAdī ibn Ḥātim al-Ṭāʾī
+  full_name_ar: عدي بن حاتم الطائي
+  kunya: Abu Ṭarīf
+  nisba: al-Ṭāʾī
+  role: companion_chief_of_tayy_kufan_muhaddith
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: muhammad-ibn-al-hanafiyya
+  full_name_en: Muḥammad ibn ʿAlī ibn Abī Ṭālib (Ibn al-Ḥanafiyya)
+  full_name_ar: محمد بن علي بن أبي طالب (ابن الحنفية)
+  kunya: Abu al-Qāsim
+  laqab: Ibn al-Ḥanafiyya
+  role: tabii_son_of_ali_neutral_in_fitna
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: buraydah-ibn-al-husayb
+  full_name_en: Buraydah ibn al-Ḥuṣayb al-Aslamī
+  full_name_ar: بريدة بن الحصيب الأسلمي
+  kunya: Abu ʿAbdullah
+  nisba: al-Aslamī
+  role: companion_chief_of_aslam_marw_narrator
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: wathila-ibn-al-asqa
+  full_name_en: Wāthila ibn al-Asqaʿ al-Laythī
+  full_name_ar: واثلة بن الأسقع الليثي
+  kunya: Abu al-Asqaʿ
+  nisba: al-Laythī
+  role: companion_ahl_al_suffa_last_sahabi_damascus
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: hakim-ibn-hizam
+  full_name_en: Ḥakīm ibn Ḥizām al-Asadī
+  full_name_ar: حكيم بن حزام الأسدي
+  kunya: Abu Khālid
+  nisba: al-Asadī al-Qurashī
+  role: companion_nephew_of_khadija_kaaba_born
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abd-al-rahman-ibn-samura
+  full_name_en: ʿAbd al-Raḥmān ibn Samura al-Qurashī
+  full_name_ar: عبد الرحمن بن سمرة القرشي
+  kunya: Abu Saʿīd
+  nisba: al-Qurashī al-ʿAbshamī
+  role: companion_conqueror_of_sijistan
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: al-fadl-ibn-al-abbas
+  full_name_en: al-Faḍl ibn al-ʿAbbās ibn ʿAbd al-Muṭṭalib
+  full_name_ar: الفضل بن العباس بن عبد المطلب
+  kunya: Abu Muḥammad
+  role: companion_cousin_of_prophet_amwas_martyr
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: al-abbas-ibn-mirdas
+  full_name_en: al-ʿAbbās ibn Mirdās al-Sulamī
+  full_name_ar: العباس بن مرداس السلمي
+  kunya: Abu al-Haytham
+  nisba: al-Sulamī
+  role: companion_chief_of_sulaym_poet
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: ibrahim-al-nakhai
+  full_name_en: Ibrāhīm ibn Yazīd al-Nakhaʿī
+  full_name_ar: إبراهيم بن يزيد النخعي
+  kunya: Abu ʿImran
+  nisba: al-Nakhaʿi
+  role: scholar_tabii_jurist
+- slug: al-amash
+  full_name_en: Sulaymān ibn Mihrān al-Aʿmash
+  full_name_ar: سليمان بن مهران الأعمش
+  kunya: Abu Muhammad
+  laqab: al-Aʿmash
+  nisba: al-Asadi al-Kahili
+  role: scholar_tabii_muhaddith
+- slug: ibn-jurayj
+  full_name_en: ʿAbd al-Malik ibn ʿAbd al-ʿAzīz ibn Jurayj
+  full_name_ar: عبد الملك بن عبد العزيز بن جريج
+  kunya: Abu al-Walid
+  role: scholar_tabii_muhaddith_mecca
+- slug: tawus-ibn-kaysan
+  full_name_en: Ṭāwūs ibn Kaysān al-Yamānī
+  full_name_ar: طاووس بن كيسان اليماني
+  kunya: Abu ʿAbd al-Rahman
+  nisba: al-Yamani
+  role: scholar_tabii_mufassir_yemen
+- slug: yahya-ibn-said-al-ansari
+  full_name_en: Yaḥyā ibn Saʿīd al-Anṣārī
+  full_name_ar: يحيى بن سعيد الأنصاري
+  kunya: Abu Saʿid
+  nisba: al-Ansari
+  role: scholar_tabii_muhaddith_qadi_medina
+- slug: hammad-ibn-abi-sulayman
+  full_name_en: Ḥammād ibn Abī Sulaymān
+  full_name_ar: حماد بن أبي سليمان
+  kunya: Abu Ismaʿil
+  nisba: al-Ashʿari
+  role: scholar_tabii_jurist_kufa
+- slug: al-araj
+  full_name_en: ʿAbd al-Raḥmān ibn Hurmuz al-Aʿraj
+  full_name_ar: عبد الرحمن بن هرمز الأعرج
+  kunya: Abu Dawud
+  laqab: al-Aʿraj
+  role: scholar_tabii_qari_muhaddith
+- slug: ibn-al-munkadir
+  full_name_en: Muḥammad ibn al-Munkadir al-Taymī
+  full_name_ar: محمد بن المنكدر التيمي
+  kunya: Abu ʿAbdillah
+  nisba: al-Taymi al-Qurashi
+  role: scholar_tabii_muhaddith_medina
+- slug: amr-ibn-dinar
+  full_name_en: ʿAmr ibn Dīnār al-Jumaḥī al-Makkī
+  full_name_ar: عمرو بن دينار الجمحي المكي
+  kunya: Abu Muhammad
+  nisba: al-Jumahi al-Makki
+  role: scholar_tabii_muhaddith_mufti_mecca
+- slug: ayyub-al-sakhtiyani
+  full_name_en: Ayyūb ibn Abī Tamīma al-Sakhtiyānī
+  full_name_ar: أيوب بن أبي تميمة السختياني
+  kunya: Abu Bakr
+  nisba: al-Sakhtiyani
+  role: scholar_tabii_muhaddith_basra
+- slug: abdullah-ibn-awn
+  full_name_en: ʿAbdullāh ibn ʿAwn ibn Arṭabān
+  full_name_ar: عبد الله بن عون بن أرطبان
+  kunya: Abu ʿAwn
+  nisba: al-Muzani al-Basri
+  role: scholar_tabii_muhaddith_basra
+- slug: mamar-ibn-rashid
+  full_name_en: Maʿmar ibn Rāshid al-Azdī
+  full_name_ar: معمر بن راشد الأزدي
+  kunya: Abu ʿUrwa
+  nisba: al-Azdi
+  role: scholar_tabii_muhaddith_yemen
+- slug: zufar-ibn-al-hudhayl
+  full_name_en: Zufar ibn al-Hudhayl al-ʿAnbarī
+  full_name_ar: زفر بن الهذيل العنبري
+  kunya: Abu al-Hudhayl
+  nisba: al-ʿAnbarī
+  role: scholar_jurist_hanafi
+- slug: al-hasan-ibn-ziyad-al-luluyi
+  full_name_en: al-Ḥasan ibn Ziyād al-Luʾluʾī
+  full_name_ar: الحسن بن زياد اللؤلؤي
+  kunya: Abu ʿAlī
+  nisba: al-Luʾluʾī
+  role: scholar_jurist_hanafi
+- slug: isa-ibn-aban
+  full_name_en: ʿĪsā ibn Abān ibn Ṣadaqa
+  full_name_ar: عيسى بن أبان بن صدقة
+  kunya: Abu Mūsā
+  role: scholar_jurist_hanafi_usul
+- slug: ashhab-al-qaysi
+  full_name_en: Ashhab ibn ʿAbd al-ʿAzīz al-Qaysī
+  full_name_ar: أشهب بن عبد العزيز القيسي
+  kunya: Abu ʿAmr
+  nisba: al-Qaysī
+  role: scholar_jurist_maliki_egypt
+- slug: yahya-ibn-yahya-al-laythi
+  full_name_en: Yaḥyā ibn Yaḥyā al-Laythī al-Maṣmūdī
+  full_name_ar: يحيى بن يحيى الليثي المصمودي
+  kunya: Abu Muḥammad
+  nisba: al-Laythī
+  role: scholar_jurist_maliki_andalusi
+- slug: ismail-ibn-ishaq-al-qadi
+  full_name_en: Ismāʿīl ibn Isḥāq al-Jahḍamī
+  full_name_ar: إسماعيل بن إسحاق الجهضمي
+  kunya: Abu Isḥāq
+  nisba: al-Jahḍamī
+  role: scholar_jurist_maliki_iraq
+- slug: al-muzani
+  full_name_en: Ismāʿīl ibn Yaḥyā al-Muzanī
+  full_name_ar: إسماعيل بن يحيى المزني
+  kunya: Abu Ibrāhīm
+  nisba: al-Muzanī
+  role: scholar_jurist_shafii_egypt
+- slug: al-rabi-ibn-sulayman-al-muradi
+  full_name_en: al-Rabīʿ ibn Sulaymān al-Murādī
+  full_name_ar: الربيع بن سليمان المرادي
+  kunya: Abu Muḥammad
+  nisba: al-Murādī
+  role: scholar_jurist_shafii_transmitter
+- slug: ibn-surayj
+  full_name_en: Aḥmad ibn ʿUmar Ibn Surayj
+  full_name_ar: أحمد بن عمر ابن سريج
+  kunya: Abu al-ʿAbbās
+  role: scholar_jurist_shafii
+- slug: abdullah-ibn-ahmad-ibn-hanbal
+  full_name_en: ʿAbdullāh ibn Aḥmad ibn Ḥanbal
+  full_name_ar: عبد الله بن أحمد بن حنبل
+  kunya: Abu ʿAbd al-Raḥmān
+  role: scholar_jurist_hanbali_muhaddith
+- slug: al-khallal
+  full_name_en: Abu Bakr Aḥmad ibn Muḥammad al-Khallāl
+  full_name_ar: أبو بكر أحمد بن محمد الخلال
+  kunya: Abu Bakr
+  nisba: al-Khallāl
+  role: scholar_jurist_hanbali
+- slug: al-khiraqi
+  full_name_en: ʿUmar ibn al-Ḥusayn al-Khiraqī
+  full_name_ar: عمر بن الحسين الخرقي
+  kunya: Abu al-Qāsim
+  nisba: al-Khiraqī
+  role: scholar_jurist_hanbali
+- slug: baqi-ibn-makhlad
+  full_name_en: Baqī ibn Makhlad al-Qurṭubī
+  full_name_ar: بقيّ بن مخلد القرطبي
+  kunya: Abu ʿAbd al-Raḥmān
+  nisba: al-Qurṭubī
+  role: scholar_muhaddith_maliki_andalusi
+- slug: ibn-abd-al-hakam
+  full_name_en: ʿAbd al-Raḥmān ibn ʿAbd Allāh Ibn ʿAbd al-Ḥakam
+  full_name_ar: عبد الرحمن بن عبد الله ابن عبد الحكم
+  kunya: Abu al-Qāsim
+  nisba: al-Miṣrī
+  role: scholar_jurist_maliki_egypt
+- slug: ibn-mughith-al-tulaytuli
+  full_name_en: Aḥmad ibn Mughīth al-Ṣadafī al-Ṭulayṭulī
+  full_name_ar: أحمد بن مغيث الصدفي الطليطلي
+  kunya: Abu Jaʿfar
+  nisba: al-Ṭulayṭulī
+  role: scholar_jurist_maliki_andalusi
+- slug: al-baji
+  full_name_en: Sulaymān ibn Khalaf al-Bājī
+  full_name_ar: سليمان بن خلف الباجي
+  kunya: Abu al-Walīd
+  nisba: al-Bājī
+  role: scholar_jurist_maliki_andalusi
+- slug: ibn-rushd-al-jadd
+  full_name_en: Muḥammad ibn Aḥmad Ibn Rushd al-Jadd
+  full_name_ar: محمد بن أحمد ابن رشد الجدّ
+  kunya: Abu al-Walīd
+  laqab: al-Jadd
+  nisba: al-Qurṭubī
+  role: scholar_jurist_maliki_andalusi
+- slug: al-turtushi
+  full_name_en: Muḥammad ibn al-Walīd al-Fihrī al-Ṭurṭūshī
+  full_name_ar: محمد بن الوليد الفهري الطرطوشي
+  kunya: Abu Bakr
+  nisba: al-Ṭurṭūshī
+  role: scholar_jurist_maliki_andalusi
+- slug: ibn-al-arif-al-sinhaji
+  full_name_en: Aḥmad ibn Muḥammad ibn Mūsā Ibn al-ʿArīf al-Ṣinhājī
+  full_name_ar: أحمد بن محمد بن موسى ابن العريف الصنهاجي
+  kunya: Abu al-ʿAbbās
+  nisba: al-Ṣinhājī
+  role: scholar_sufi_maliki_andalusi
+- slug: ibn-al-arabi-al-maafiri
+  full_name_en: Muḥammad ibn ʿAbd Allāh Ibn al-ʿArabī al-Maʿāfirī
+  full_name_ar: محمد بن عبد الله ابن العربي المعافري
+  kunya: Abu Bakr
+  nisba: al-Maʿāfirī al-Ishbīlī
+  role: scholar_jurist_maliki_andalusi
+- slug: ibn-al-hajib
+  full_name_en: ʿUthmān ibn ʿUmar Ibn al-Ḥājib
+  full_name_ar: عثمان بن عمر ابن الحاجب
+  kunya: Abu ʿAmr
+  laqab: Jamāl al-Dīn
+  nisba: al-Mālikī
+  role: scholar_jurist_maliki_grammarian
+- slug: al-burzuli
+  full_name_en: Abu al-Qāsim ibn Aḥmad al-Balawī al-Burzulī
+  full_name_ar: أبو القاسم بن أحمد البلوي البرزلي
+  kunya: Abu al-Qāsim
+  nisba: al-Burzulī
+  role: scholar_jurist_maliki_ifriqiya
+- slug: al-sanusi
+  full_name_en: Muḥammad ibn Yūsuf al-Sanūsī al-Tilimsānī
+  full_name_ar: محمد بن يوسف السنوسي التلمساني
+  kunya: Abu ʿAbd Allāh
+  nisba: al-Sanūsī al-Tilimsānī
+  role: scholar_theologian_ashari_maghrib
+- slug: al-mawwaq-al-abdari
+  full_name_en: Muḥammad ibn Yūsuf al-ʿAbdarī al-Gharnāṭī (al-Mawwāq)
+  full_name_ar: محمد بن يوسف العبدري الغرناطي (المواق)
+  kunya: Abu ʿAbd Allāh
+  laqab: al-Mawwāq
+  nisba: al-Gharnāṭī
+  role: scholar_jurist_maliki_andalusi
+- slug: shah-abd-al-aziz-al-dihlawi
+  full_name_en: Shāh ʿAbd al-ʿAzīz al-Dihlawī
+  full_name_ar: الشاه عبد العزيز الدهلوي
+  nisba: al-Dihlawī
+  role: scholar_modern_indian_walīullāhī
+- slug: sayyid-ahmad-shahid-barelwi
+  full_name_en: Sayyid Aḥmad Shahīd Barelwī
+  full_name_ar: السيد أحمد الشهيد البريلوي
+  laqab: al-Shahīd
+  nisba: al-Barelwī
+  role: scholar_modern_indian_mujahid
+- slug: muhammad-qasim-al-nanautwi
+  full_name_en: Muḥammad Qāsim al-Nānautwī
+  full_name_ar: محمد قاسم النانوتوي
+  nisba: al-Nānautwī
+  role: scholar_modern_indian_deobandi_founder
+- slug: rashid-ahmad-al-gangohi
+  full_name_en: Rashīd Aḥmad al-Gangohī
+  full_name_ar: رشيد أحمد الجنجوهي
+  nisba: al-Gangohī
+  role: scholar_modern_indian_deobandi_jurist
+- slug: mahmud-al-hasan-al-deobandi
+  full_name_en: Maḥmūd al-Ḥasan al-Deobandī
+  full_name_ar: محمود الحسن الديوبندي
+  laqab: Shaykh al-Hind
+  nisba: al-Deobandī
+  role: scholar_modern_indian_deobandi
+- slug: ashraf-ali-al-thanawi
+  full_name_en: Ashraf ʿAlī al-Thānawī
+  full_name_ar: الأشرف علي التهانوي
+  laqab: Ḥakīm al-Umma
+  nisba: al-Thānawī
+  role: scholar_modern_indian_deobandi
+- slug: husayn-ahmad-al-madani
+  full_name_en: Sayyid Ḥusayn Aḥmad al-Madanī
+  full_name_ar: السيد حسين أحمد المدني
+  nisba: al-Madanī
+  role: scholar_modern_indian_deobandi_muhaddith
+- slug: muhammad-ilyas-al-kandhlawi
+  full_name_en: Muḥammad Ilyās al-Kandhlawī
+  full_name_ar: محمد إلياس الكاندهلوي
+  nisba: al-Kandhlawī
+  role: scholar_modern_indian_deobandi_tablighi_founder
+- slug: muhammad-zakariyya-al-kandhlawi
+  full_name_en: Muḥammad Zakariyyā al-Kandhlawī
+  full_name_ar: محمد زكريا الكاندهلوي
+  nisba: al-Kandhlawī
+  role: scholar_modern_indian_deobandi_muhaddith
+- slug: ahmad-rida-khan-al-bareilwi
+  full_name_en: Aḥmad Riḍā Khān al-Bareilwī
+  full_name_ar: أحمد رضا خان البريلوي
+  nisba: al-Qādirī al-Bareilwī
+  role: scholar_modern_indian_barelwi_founder
+- slug: khwaja-hasan-nizami
+  full_name_en: Khwāja Ḥasan Niẓāmī Dehlawī
+  full_name_ar: الخواجة حسن نظامي الدهلوي
+  nisba: Dehlawī
+  role: scholar_modern_indian_chishti
+- slug: manazir-ahsan-gilani
+  full_name_en: Sayyid Manāẓir Aḥsan al-Gīlānī
+  full_name_ar: السيد مناظر أحسن الجيلاني
+  nisba: al-Gīlānī
+  role: scholar_modern_indian_deobandi_biographer
+- slug: jamal-al-din-al-afghani
+  full_name_en: Jamāl al-Dīn al-Afghānī (al-Asadābādī)
+  full_name_ar: جمال الدين الأفغاني
+  nisba: al-Afghānī
+  role: scholar_reformer_pan_islamic
+- slug: abd-al-hamid-ibn-badis
+  full_name_en: ʿAbd al-Ḥamīd Ibn Bādīs al-Ṣanhājī
+  full_name_ar: عبد الحميد بن باديس الصنهاجي
+  nisba: al-Ṣanhājī
+  role: scholar_reformer_algerian_maliki
+- slug: muhammad-bashir-al-ibrahimi
+  full_name_en: Muḥammad Bashīr al-Ibrāhīmī
+  full_name_ar: محمد البشير الإبراهيمي
+  nisba: al-Ibrāhīmī
+  role: scholar_reformer_algerian_maliki
+- slug: mukhtar-al-susi
+  full_name_en: Muḥammad al-Mukhtār al-Sūsī
+  full_name_ar: محمد المختار السوسي
+  nisba: al-Sūsī
+  role: scholar_historian_moroccan_maliki
+- slug: allal-al-fasi
+  full_name_en: ʿAllāl al-Fāsī al-Fihrī
+  full_name_ar: علال الفاسي الفهري
+  nisba: al-Fāsī
+  role: scholar_reformer_moroccan_maliki
+- slug: muhammad-ali-al-sabuni
+  full_name_en: Muḥammad ʿAlī al-Ṣābūnī
+  full_name_ar: محمد علي الصابوني
+  nisba: al-Ṣābūnī
+  role: scholar_mufassir_syrian_hanafi
+- slug: muhammad-al-ghazali-al-saqqa
+  full_name_en: Muḥammad al-Ghazālī al-Saqqā
+  full_name_ar: محمد الغزالي السقا
+  nisba: al-Saqqā
+  role: scholar_reformer_egyptian_azhari
+- slug: abd-al-halim-mahmud
+  full_name_en: ʿAbd al-Ḥalīm Maḥmūd
+  full_name_ar: عبد الحليم محمود
+  role: scholar_shaykh_al_azhar
+- slug: maruf-al-dawalibi
+  full_name_en: Maʿrūf al-Dawālībī
+  full_name_ar: معروف الدواليبي
+  nisba: al-Dawālībī
+  role: scholar_jurist_syrian_hanafi
+- slug: wahbah-al-zuhayli
+  full_name_en: Wahbah Muṣṭafā al-Zuḥaylī
+  full_name_ar: وهبة مصطفى الزحيلي
+  nisba: al-Zuḥaylī
+  role: scholar_jurist_syrian_hanafi_shafii
+- slug: abd-al-razzaq-al-sanhuri
+  full_name_en: ʿAbd al-Razzāq Aḥmad al-Sanhūrī
+  full_name_ar: عبد الرزاق أحمد السنهوري
+  nisba: al-Sanhūrī
+  role: scholar_jurist_egyptian
+- slug: ahmad-hasan-al-baquri
+  full_name_en: Aḥmad Ḥasan al-Bāqūrī
+  full_name_ar: أحمد حسن الباقوري
+  nisba: al-Bāqūrī
+  role: scholar_azhari_egyptian
+- slug: sharaf-al-din-al-tusi
+  full_name_en: Sharaf al-Dīn al-Muẓaffar ibn Muḥammad al-Ṭūsī
+  full_name_ar: شرف الدين المظفر بن محمد الطوسي
+  laqab: Sharaf al-Dīn
+  nisba: al-Ṭūsī
+  role: scholar_mathematician_astronomer
+- slug: al-urdi
+  full_name_en: Muʾayyad al-Dīn al-ʿUrḍī al-ʿĀmirī al-Dimashqī
+  full_name_ar: مؤيد الدين العُرضي العامري الدمشقي
+  laqab: Muʾayyad al-Dīn
+  nisba: al-ʿUrḍī al-Dimashqī
+  role: scholar_astronomer_engineer_maragha
+- slug: qutb-al-din-al-shirazi
+  full_name_en: Maḥmūd ibn Masʿūd al-Shīrāzī
+  full_name_ar: محمود بن مسعود الشيرازي
+  laqab: Quṭb al-Dīn
+  nisba: al-Shīrāzī
+  role: scholar_polymath_astronomer_philosopher
+- slug: umar-al-nasafi
+  full_name_en: Abū Ḥafṣ Najm al-Dīn ʿUmar ibn Muḥammad al-Nasafī
+  full_name_ar: أبو حفص نجم الدين عمر بن محمد النسفي
+  kunya: Abū Ḥafṣ
+  laqab: Najm al-Dīn
+  nisba: al-Nasafī
+  role: scholar_theologian_hanafi_maturidi
+- slug: al-baydawi
+  full_name_en: ʿAbd Allāh ibn ʿUmar al-Bayḍāwī
+  full_name_ar: عبد الله بن عمر البيضاوي
+  laqab: Nāṣir al-Dīn
+  nisba: al-Bayḍāwī
+  role: scholar_mufassir_shafii_ashari
+- slug: abd-al-ghani-al-maqdisi
+  full_name_en: ʿAbd al-Ghanī ibn ʿAbd al-Wāḥid al-Jammāʿīlī al-Maqdisī
+  full_name_ar: عبد الغني بن عبد الواحد الجمّاعيلي المقدسي
+  laqab: Taqī al-Dīn
+  nisba: al-Maqdisī
+  role: scholar_muhaddith_hanbali_damascus
+- slug: najm-al-din-al-tufi
+  full_name_en: Sulaymān ibn ʿAbd al-Qawī al-Ṭūfī
+  full_name_ar: سليمان بن عبد القوي الطوفي
+  laqab: Najm al-Dīn
+  nisba: al-Ṭūfī
+  role: scholar_jurist_hanbali_usuli
+- slug: al-mizzi
+  full_name_en: Yūsuf ibn ʿAbd al-Raḥmān al-Mizzī
+  full_name_ar: يوسف بن عبد الرحمن المزّي
+  laqab: Jamāl al-Dīn
+  nisba: al-Mizzī
+  role: scholar_muhaddith_shafii_rijal_critic
+- slug: al-kirmani
+  full_name_en: Muḥammad ibn Yūsuf al-Kirmānī
+  full_name_ar: محمد بن يوسف الكرماني
+  laqab: Shams al-Dīn
+  nisba: al-Kirmānī
+  role: scholar_muhaddith_shafii_bukhari_commentator
+- slug: al-bulqini
+  full_name_en: ʿUmar ibn Raslān al-Bulqīnī
+  full_name_ar: عمر بن رسلان البلقيني
+  laqab: Sirāj al-Dīn
+  nisba: al-Bulqīnī
+  role: scholar_jurist_shafii_qadi_egypt
+- slug: al-ayni
+  full_name_en: Maḥmūd ibn Aḥmad al-ʿAynī
+  full_name_ar: محمود بن أحمد العيني
+  laqab: Badr al-Dīn
+  nisba: al-ʿAynī
+  role: scholar_jurist_hanafi_historian_bukhari_commentator
+- slug: al-mahalli
+  full_name_en: Muḥammad ibn Aḥmad al-Maḥallī
+  full_name_ar: محمد بن أحمد المحلي
+  laqab: Jalāl al-Dīn
+  nisba: al-Maḥallī
+  role: scholar_mufassir_shafii_egypt
+- slug: sher-shah-suri
+  full_name_en: Farīd al-Dīn Shēr Shāh Sūrī
+  full_name_ar: فريد الدين شير شاه السوري
+  laqab: Sher Shāh
+  nisba: al-Sūrī
+  role: emperor_sur_north_india
+- slug: abd-al-rahim-khan-i-khanan
+  full_name_en: Khānzāda Mīrzā Khān ʿAbd al-Raḥīm
+  full_name_ar: خانزاده ميرزا خان عبد الرحيم
+  laqab: Khān-i-Khānān
+  role: noble_mughal_poet_general
+- slug: dara-shikoh
+  full_name_en: Muḥammad Dārā Shikōh
+  full_name_ar: محمد دارا شكوه
+  laqab: Dārā Shikōh
+  role: prince_mughal_qadiri_translator
+- slug: mumtaz-mahal
+  full_name_en: Arjumand Bānū Bēgum (Mumtāz Maḥall)
+  full_name_ar: أرجمند بانو بيگم (ممتاز محل)
+  laqab: Mumtāz Maḥall
+  role: empress_mughal_consort
+- slug: nur-jahan
+  full_name_en: Mihr al-Nisāʾ Bēgum (Nūr Jahān)
+  full_name_ar: مهر النساء بيگم (نور جهان)
+  laqab: Nūr Jahān
+  role: empress_mughal_consort_regent
+- slug: bahadur-shah-i
+  full_name_en: Quṭb al-Dīn Muḥammad Muʿaẓẓam Shāh ʿĀlam Bahādur Shāh
+  full_name_ar: قطب الدين محمد معظم شاه عالم بهادر شاه
+  laqab: Bahādur Shāh I (Shāh ʿĀlam I)
+  role: emperor_mughal
+- slug: bayezid-ii
+  full_name_en: Bāyezīd II ibn Meḥmed al-Fātiḥ
+  full_name_ar: بايزيد الثاني بن محمد الفاتح
+  laqab: al-ʿAdlī (the Just)
+  role: sultan_ottoman
+- slug: sokollu-mehmed-pasha
+  full_name_en: Sokollu Meḥmed Pasha
+  full_name_ar: صوقللي محمد باشا
+  role: grand_vizier_ottoman_devshirme
+- slug: selim-i
+  full_name_en: Selīm I ibn Bāyezīd (Yavuz)
+  full_name_ar: سليم الأول بن بايزيد (ياووز)
+  laqab: Yavuz (the Stern); Khādim al-Ḥaramayn al-Sharīfayn
+  role: sultan_ottoman_caliph
+- slug: selim-ii
+  full_name_en: Selīm II ibn Süleymān al-Qānūnī
+  full_name_ar: سليم الثاني بن سليمان القانوني
+  role: sultan_ottoman
+- slug: koprulu-mehmed-pasha
+  full_name_en: Köprülü Meḥmed Pasha
+  full_name_ar: كوبريلي محمد باشا
+  role: grand_vizier_ottoman_koprulu_founder
+- slug: koprulu-fazil-ahmad-pasha
+  full_name_en: Köprülü Fāḍil Aḥmad Pasha
+  full_name_ar: كوبريلي فاضل أحمد باشا
+  laqab: Fāḍil
+  role: grand_vizier_ottoman_koprulu
+- slug: mahmud-ii
+  full_name_en: Sulṭān Maḥmūd II ibn ʿAbd al-Ḥamīd al-Awwal
+  full_name_ar: السلطان محمود الثاني بن عبد الحميد الأول
+  role: sultan_ottoman_reformer
+- slug: khayr-al-din-barbarossa
+  full_name_en: Khayr al-Dīn Barbarossa Pasha
+  full_name_ar: خير الدين بربروس باشا
+  laqab: Barbarossa
+  role: kapudan_i_derya_ottoman_admiral
+- slug: selman-reis
+  full_name_en: Selmān Reʾīs (Sulaymān al-Raʾīs)
+  full_name_ar: سلمان رئيس
+  role: admiral_ottoman_red_sea
+- slug: suleyman-pasha-al-khadim
+  full_name_en: Süleymān Pasha al-Khādim
+  full_name_ar: سليمان باشا الخادم
+  laqab: al-Khādim (the Eunuch)
+  role: vizier_ottoman_governor_egypt
+- slug: turgut-reis
+  full_name_en: Turgut Reʾīs (Dragut)
+  full_name_ar: طورغوت رئيس
+  laqab: Dragut
+  role: bey_ottoman_corsair_admiral
+- slug: piyale-pasha
+  full_name_en: Piyāle Pasha
+  full_name_ar: بياله باشا
+  role: kapudan_i_derya_ottoman_admiral
+- slug: sundiata-keita
+  full_name_en: Sundiata Keita
+  full_name_ar: سُنجاتا كيتا
+  laqab: Mari Diata
+  role: ruler_mansa_mali_west_africa
+- slug: mansa-musa
+  full_name_en: Mansa Mūsā I of Mali
+  full_name_ar: مَنْسا موسى الأول
+  laqab: Mansa
+  role: ruler_mansa_mali_west_africa
+- slug: askia-muhammad-i
+  full_name_en: al-Ḥājj Muḥammad ibn Abī Bakr Tūré (Askia Muḥammad I)
+  full_name_ar: الحاج محمد بن أبي بكر توري (أسكيا محمد الأول)
+  laqab: Askia
+  role: ruler_askia_songhai_west_africa
+- slug: mahmud-kati
+  full_name_en: Maḥmūd Kati ibn al-Ḥājj al-Mutawakkil al-Wangari
+  full_name_ar: محمود كعت بن الحاج المتوكل الونغري
+  nisba: al-Wangari
+  role: scholar_chronicler_maliki_songhai_timbuktu
+- slug: ahmad-baba-al-tinbukti
+  full_name_en: Abū al-ʿAbbās Aḥmad Bābā al-Tinbuktī al-Ṣanhājī
+  full_name_ar: أبو العباس أحمد بابا التنبكتي الصنهاجي
+  kunya: Abū al-ʿAbbās
+  nisba: al-Tinbuktī al-Ṣanhājī
+  role: scholar_jurist_maliki_ashari_west_africa
+- slug: abd-al-rahman-al-sadi-al-tinbukti
+  full_name_en: ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Saʿdī al-Tinbuktī
+  full_name_ar: عبد الرحمن بن عبد الله السعدي التنبكتي
+  nisba: al-Saʿdī al-Tinbuktī
+  role: scholar_chronicler_maliki_west_africa
+- slug: muhammad-bello
+  full_name_en: Muḥammad Bello ibn ʿUthmān ibn Fudi
+  full_name_ar: محمد بِلُّو بن عثمان بن فودي
+  role: ruler_caliph_sokoto_west_africa
+- slug: ahmadu-lobbo
+  full_name_en: Aḥmadu Lobbo (Seku Aamadu)
+  full_name_ar: أحمد لبو
+  laqab: Seku Aamadu
+  role: ruler_caliph_massina_west_africa
+- slug: al-hajj-umar-tal
+  full_name_en: al-Ḥājj ʿUmar ibn Saʿīd Tāl al-Fūtī al-Tijānī
+  full_name_ar: الحاج عمر بن سعيد تال الفوتي التيجاني
+  laqab: al-Ḥājj
+  nisba: al-Fūtī al-Tijānī
+  role: scholar_mujahid_tijani_west_africa
+- slug: sayyid-muhammad-abdullah-hassan
+  full_name_en: Sayyid Muḥammad ibn ʿAbdullāh Ḥassan
+  full_name_ar: السيد محمد بن عبد الله حسن
+  laqab: Sayyid
+  role: scholar_mujahid_salihiyya_horn_of_africa
+- slug: cheikh-sidiyya-baba
+  full_name_en: Cheikh Sidiyya Bābā ibn Sīdī Muḥammad
+  full_name_ar: الشيخ سيدية بابا بن سيدي محمد
+  nisba: al-Qādirī al-Mūrītānī
+  role: scholar_qadiri_maliki_mauritania
+- slug: modibo-adama
+  full_name_en: Modibo Adama ibn Ardo Hasana
+  full_name_ar: موديبو أدما بن أردو حسنة
+  laqab: Modibo
+  role: ruler_lamido_adamawa_west_africa
+- slug: sidi-mukhtar-al-kunti
+  full_name_en: Sīdī al-Mukhtār al-Kabīr ibn Aḥmad al-Kuntī
+  full_name_ar: سيدي المختار الكبير بن أحمد الكنتي
+  kunya: Abū al-ʿAbbās
+  nisba: al-Kuntī
+  role: scholar_qadiri_maliki_sahara
+- slug: sidiyya-al-kabir
+  full_name_en: Sīdiyya al-Kabīr ibn al-Mukhtār al-Hayballī
+  full_name_ar: سيدية الكبير بن المختار الهيبلي
+  nisba: al-Qādirī al-Mūrītānī
+  role: scholar_qadiri_maliki_mauritania
+- slug: mansa-sulayman
+  full_name_en: Mansa Sulaymān of Mali
+  full_name_ar: مَنْسا سليمان
+  laqab: Mansa
+  role: ruler_mansa_mali_west_africa
+- slug: ahmad-al-bakkay-al-kunti
+  full_name_en: Aḥmad al-Bakkāy ibn Muḥammad al-Kuntī
+  full_name_ar: أحمد البكاي بن محمد الكنتي
+  nisba: al-Kuntī
+  role: scholar_qadiri_maliki_timbuktu
+- slug: al-qalqashandi
+  full_name_en: Shihāb al-Dīn Aḥmad ibn ʿAlī al-Qalqashandī al-Fazārī
+  full_name_ar: شهاب الدين أحمد بن علي القلقشندي الفزاري
+  kunya: Abū al-ʿAbbās
+  laqab: Shihāb al-Dīn
+  nisba: al-Qalqashandī al-Fazārī al-Shāfiʿī
+  role: scholar_jurist_shafii_chancellery_mamluk
+- slug: al-fayruzabadi
+  full_name_en: Majd al-Dīn Abū al-Ṭāhir Muḥammad ibn Yaʿqūb al-Shīrāzī al-Fayrūzābādī
+  full_name_ar: مجد الدين أبو الطاهر محمد بن يعقوب الشيرازي الفيروزآبادي
+  kunya: Abū al-Ṭāhir
+  laqab: Majd al-Dīn
+  nisba: al-Shīrāzī al-Fayrūzābādī al-Shāfiʿī
+  role: scholar_lexicographer_shafii_persian
+- slug: al-qastallani
+  full_name_en: Shihāb al-Dīn Aḥmad ibn Muḥammad al-Qasṭallānī al-Miṣrī
+  full_name_ar: شهاب الدين أحمد بن محمد القسطلاني المصري
+  kunya: Abū al-ʿAbbās
+  laqab: Shihāb al-Dīn
+  nisba: al-Qasṭallānī al-Miṣrī al-Shāfiʿī
+  role: scholar_muhaddith_shafii_bukhari_commentator
+- slug: ibn-nasir-al-din-al-dimashqi
+  full_name_en: Shams al-Dīn Muḥammad ibn ʿAbd Allāh al-Qaysī al-Dimashqī (Ibn Nāṣir al-Dīn)
+  full_name_ar: شمس الدين محمد بن عبد الله القيسي الدمشقي (ابن ناصر الدين)
+  kunya: Abū ʿAbd Allāh
+  laqab: Shams al-Dīn
+  nisba: al-Qaysī al-Dimashqī al-Shāfiʿī
+  role: scholar_muhaddith_critic_shafii_damascene
+- slug: ahmad-al-busiri-al-misri
+  full_name_en: Shihāb al-Dīn Aḥmad ibn Abī Bakr ibn Ismāʿīl al-Kinānī al-Buṣīrī al-Miṣrī
+  full_name_ar: شهاب الدين أحمد بن أبي بكر بن إسماعيل الكناني البوصيري المصري
+  kunya: Abū al-ʿAbbās
+  laqab: Shihāb al-Dīn
+  nisba: al-Kinānī al-Buṣīrī al-Miṣrī al-Shāfiʿī
+  role: scholar_muhaddith_zawaid_shafii
+- slug: ibn-al-wazir-al-yamani
+  full_name_en: Muḥammad ibn Ibrāhīm ibn ʿAlī ibn al-Murtaḍā Ibn al-Wazīr al-Yamānī
+  full_name_ar: محمد بن إبراهيم بن علي بن المرتضى ابن الوزير اليماني
+  nisba: al-Yamānī al-Ṣanʿānī
+  role: scholar_muhaddith_sunni_revivalist_yemen
+- slug: al-bisati
+  full_name_en: Shams al-Dīn Muḥammad ibn Aḥmad ibn ʿUthmān al-Bisāṭī al-Mālikī
+  full_name_ar: شمس الدين محمد بن أحمد بن عثمان البساطي المالكي
+  kunya: Abū ʿAbd Allāh
+  laqab: Shams al-Dīn
+  nisba: al-Bisāṭī al-Mālikī
+  role: scholar_jurist_maliki_qadi_mamluk
+- slug: al-birmawi
+  full_name_en: Shams al-Dīn Muḥammad ibn ʿAbd al-Dāʾim al-Nuʿaymī al-ʿAsqalānī al-Birmāwī
+  full_name_ar: شمس الدين محمد بن عبد الدائم النعيمي العسقلاني البرماوي
+  kunya: Abū ʿAbd Allāh
+  laqab: Shams al-Dīn
+  nisba: al-Nuʿaymī al-ʿAsqalānī al-Birmāwī al-Shāfiʿī
+  role: scholar_jurist_shafii_usuli_mamluk
+- slug: baha-al-din-al-subki
+  full_name_en: Bahāʾ al-Dīn Aḥmad ibn ʿAlī ibn ʿAbd al-Kāfī al-Subkī
+  full_name_ar: بهاء الدين أحمد بن علي بن عبد الكافي السبكي
+  laqab: Bahāʾ al-Dīn
+  nisba: al-Subkī al-Shāfiʿī
+  role: scholar_jurist_shafii_qadi_mamluk
+- slug: sadr-al-din-al-qunawi
+  full_name_en: Ṣadr al-Dīn Muḥammad ibn Isḥāq al-Qūnawī
+  full_name_ar: صدر الدين محمد بن إسحاق القونوي
+  laqab: Ṣadr al-Dīn
+  nisba: al-Qūnawī
+  role: scholar_sufi_akbarian_anatolian_persian
+- slug: fadlullah-ibn-ruzbihan-al-khunji
+  full_name_en: Faḍlullāh ibn Rūzbihān al-Khunjī al-Shīrāzī al-Iṣfahānī
+  full_name_ar: فضل الله بن روزبهان الخنجي الشيرازي الأصبهاني
+  nisba: al-Khunjī al-Shīrāzī al-Iṣfahānī al-Ashʿarī
+  role: scholar_theologian_ashari_chronicler_persian_sunni
+- slug: al-munawi
+  full_name_en: Zayn al-Dīn Muḥammad ʿAbd al-Raʾūf al-Munāwī al-Ḥaddādī
+  full_name_ar: زين الدين محمد عبد الرؤوف المناوي الحدّادي
+  laqab: Zayn al-Dīn
+  nisba: al-Munāwī al-Ḥaddādī al-Shāfiʿī
+  role: scholar_muhaddith_shafii_polymath_ottoman_egypt
+- slug: hamzah-fansuri
+  full_name_en: Hamzah Fansūrī
+  full_name_ar: حمزة الفنصوري
+  nisba: al-Fanṣūrī
+  role: scholar_sufi_poet_malay_acehnese
+- slug: nur-al-din-al-raniri
+  full_name_en: Nūr al-Dīn ibn ʿAlī al-Rānīrī
+  full_name_ar: نور الدين بن علي الرانيري
+  kunya: Abu al-Faḍl
+  nisba: al-Rānīrī
+  role: scholar_shaykh_al_islam_aceh_shafii
+- slug: abd-al-rauf-al-sinkili
+  full_name_en: ʿAbd al-Raʾūf ibn ʿAlī al-Sinkilī al-Fanṣūrī
+  full_name_ar: عبد الرؤوف بن علي السنكلي الفنصوري
+  laqab: Syiah Kuala
+  nisba: al-Sinkilī al-Fanṣūrī
+  role: scholar_mufti_aceh_shafii_shattariyya
+- slug: yusuf-al-maqassari
+  full_name_en: Yūsuf ibn ʿAbd Allāh Abū al-Maḥāsin al-Tāj al-Khalwatī al-Maqassārī
+  full_name_ar: يوسف بن عبد الله أبو المحاسن التاج الخلواتي المقصري
+  kunya: Abū al-Maḥāsin
+  laqab: al-Tāj al-Khalwatī
+  nisba: al-Maqassārī
+  role: scholar_sufi_sulawesi_cape_shafii_khalwatiyya
+- slug: muhammad-arshad-al-banjari
+  full_name_en: Muḥammad Arshad ibn ʿAbd Allāh al-Banjārī
+  full_name_ar: محمد أرشد بن عبد الله البنجاري
+  nisba: al-Banjārī
+  role: scholar_jurist_borneo_shafii
+- slug: ahmad-al-khatib-al-minangkabawi
+  full_name_en: Aḥmad ibn ʿAbd al-Laṭīf al-Khaṭīb al-Minangkabawī
+  full_name_ar: أحمد بن عبد اللطيف الخطيب المنانكباوي
+  nisba: al-Minangkabawī
+  role: scholar_imam_mecca_shafii_minangkabau
+- slug: sunan-ampel
+  full_name_en: Raden Rahmat — Sunan Ampel
+  full_name_ar: الراذن رحمة — السنن أمبيل
+  laqab: Sunan Ampel
+  role: scholar_walisongo_java_dawah
+- slug: sunan-kalijaga
+  full_name_en: Raden Mas Said — Sunan Kalijaga
+  full_name_ar: الراذن ماس سعيد — السنن كاليجاغا
+  laqab: Sunan Kalijaga
+  role: scholar_walisongo_java_dawah
+- slug: ali-mughayat-shah-aceh
+  full_name_en: Sultan ʿAlī Mughāyat Shāh of Aceh
+  full_name_ar: السلطان علي مغايث شاه الآشي
+  laqab: Sultan
+  role: ruler_sultan_aceh_consolidator
+- slug: parameswara-iskandar-shah
+  full_name_en: Parameswara — Sultan Iskandar Shāh of Malacca
+  full_name_ar: براميسوارا — السلطان إسكندر شاه ملقا
+  laqab: Iskandar Shāh
+  role: ruler_sultan_malacca_founder
+- slug: ahmad-dahlan
+  full_name_en: Kyai Hajji Aḥmad Dahlān (Muḥammad Darwīsh)
+  full_name_ar: الكياي الحاج أحمد دحلان (محمد درويش)
+  laqab: Kyai Hajji
+  role: scholar_modern_indonesian_modernist_founder_muhammadiyah
+- slug: hashim-asyari
+  full_name_en: Muḥammad Hāshim Asyʿarī
+  full_name_ar: محمد هاشم أشعري
+  laqab: Hadratusy Syaikh
+  role: scholar_modern_indonesian_traditionalist_founder_nu
+- slug: yuhanna-ibn-masawayh
+  full_name_en: Yūḥannā ibn Māsawayh
+  full_name_ar: يوحنا بن ماسويه
+  role: physician_translator_abbasid
+- slug: hunayn-ibn-ishaq
+  full_name_en: Abū Zayd Ḥunayn ibn Isḥāq al-ʿIbādī
+  full_name_ar: أبو زيد حنين بن إسحاق العبادي
+  kunya: Abū Zayd
+  nisba: al-ʿIbādī
+  role: physician_translator_abbasid
+- slug: al-razi-tabib
+  full_name_en: Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī (Rhazes)
+  full_name_ar: أبو بكر محمد بن زكريا الرازي
+  kunya: Abū Bakr
+  nisba: al-Rāzī
+  role: physician_polymath_alchemist
+- slug: al-majusi
+  full_name_en: Abū al-Ḥasan ʿAlī ibn al-ʿAbbās al-Majūsī al-Ahwāzī (Haly Abbas)
+  full_name_ar: أبو الحسن علي بن العباس المجوسي الأهوازي
+  kunya: Abū al-Ḥasan
+  nisba: al-Majūsī al-Ahwāzī
+  role: physician_buyid
+- slug: ibn-ridwan
+  full_name_en: Abū al-Ḥasan ʿAlī ibn Riḍwān al-Miṣrī
+  full_name_ar: أبو الحسن علي بن رضوان المصري
+  kunya: Abū al-Ḥasan
+  nisba: al-Miṣrī
+  role: physician_fatimid
+- slug: ibn-al-tilmidh
+  full_name_en: Amīn al-Dawla Hibat Allāh ibn Ṣāʿid ibn al-Tilmīdh
+  full_name_ar: أمين الدولة هبة الله بن صاعد بن التلميذ
+  laqab: Amīn al-Dawla
+  role: physician_pharmacologist_abbasid
+- slug: ibn-zuhr-avenzoar
+  full_name_en: Abū Marwān ʿAbd al-Malik ibn Zuhr al-Ishbīlī (Avenzoar)
+  full_name_ar: أبو مروان عبد الملك بن زهر الإشبيلي
+  kunya: Abū Marwān
+  nisba: al-Ishbīlī
+  role: physician_andalusi_almohad
+- slug: al-ghafiqi
+  full_name_en: Abū Jaʿfar Aḥmad ibn Muḥammad al-Ghāfiqī
+  full_name_ar: أبو جعفر أحمد بن محمد الغافقي
+  kunya: Abū Jaʿfar
+  nisba: al-Ghāfiqī
+  role: pharmacognosist_botanist_andalusi
+- slug: ibn-jumayy
+  full_name_en: Abū al-ʿAshāʾir Hibat Allāh ibn Jumayʿ al-Isrāʾīlī
+  full_name_ar: أبو العشائر هبة الله بن جميع الإسرائيلي
+  kunya: Abū al-ʿAshāʾir
+  nisba: al-Isrāʾīlī
+  role: physician_ayyubid_egypt
+- slug: ibn-al-quff
+  full_name_en: Amīn al-Dawla Abū al-Faraj ibn Yaʿqūb ibn al-Quff al-Karakī
+  full_name_ar: أمين الدولة أبو الفرج بن يعقوب بن القف الكركي
+  kunya: Abū al-Faraj
+  laqab: Amīn al-Dawla
+  nisba: al-Karakī
+  role: physician_surgeon_mamluk
+- slug: dawud-al-antaki
+  full_name_en: Dāwūd ibn ʿUmar al-Anṭākī al-Ḍarīr
+  full_name_ar: داود بن عمر الأنطاكي الضرير
+  nisba: al-Anṭākī
+  role: physician_pharmacologist_ottoman
+- slug: ibn-abi-usaybia
+  full_name_en: Muwaffaq al-Dīn Aḥmad ibn al-Qāsim ibn Abī Uṣaybiʿa
+  full_name_ar: موفق الدين أحمد بن القاسم بن أبي أصيبعة
+  laqab: Muwaffaq al-Dīn
+  role: physician_biographer_mamluk
+- slug: ibn-tulun
+  full_name_en: Aḥmad ibn Ṭūlūn
+  full_name_ar: أحمد بن طولون
+  role: ruler_amir_tulunid_founder
+- slug: idris-i
+  full_name_en: Idrīs I ibn ʿAbd Allāh
+  full_name_ar: إدريس الأول بن عبد الله
+  role: ruler_amir_idrisid_founder
+- slug: idris-ii
+  full_name_en: Idrīs II ibn Idrīs
+  full_name_ar: إدريس الثاني بن إدريس
+  role: ruler_amir_idrisid
+- slug: ubayd-allah-al-mahdi
+  full_name_en: ʿUbayd Allāh al-Mahdī
+  full_name_ar: عبيد الله المهدي
+  laqab: al-Mahdī
+  role: ruler_caliph_fatimid_founder
+- slug: buluqqin-ibn-ziri
+  full_name_en: Abu al-Futūḥ Buluqqīn ibn Zīrī al-Ṣanhājī
+  full_name_ar: أبو الفتوح بُلُقّين بن زيري الصنهاجي
+  kunya: Abu al-Futūḥ
+  nisba: al-Ṣanhājī
+  role: ruler_amir_zirid_founder
+- slug: yaqub-al-mansur-almohad
+  full_name_en: Yaʿqūb al-Manṣūr — Almohad Caliph
+  full_name_ar: يعقوب المنصور الموحدي
+  laqab: al-Manṣūr
+  role: ruler_caliph_almohad
+- slug: sanai-ghaznawi
+  full_name_en: Abū al-Majd Majdūd ibn Ādam Sanāʾī al-Ghaznawī
+  full_name_ar: أبو المجد مجدود بن آدم سنائي الغزنوي
+  kunya: Abū al-Majd
+  nisba: al-Ghaznawī
+  role: scholar_sufi_poet_persian_ghaznavid
+- slug: attar-nayshaburi
+  full_name_en: Farīd al-Dīn Muḥammad ibn Ibrāhīm ʿAṭṭār Nayshābūrī
+  full_name_ar: فريد الدين محمد بن إبراهيم العطار النيسابوري
+  laqab: Farīd al-Dīn
+  nisba: al-Nayshābūrī
+  role: scholar_sufi_poet_hagiographer_persian
+- slug: nizami-ganjawi
+  full_name_en: Niẓāmī Ganjawī — Jamāl al-Dīn Abū Muḥammad Ilyās ibn Yūsuf
+  full_name_ar: نظامي الكنجوي — جمال الدين أبو محمد إلياس بن يوسف
+  laqab: Jamāl al-Dīn
+  nisba: al-Ganjawī
+  role: scholar_sufi_poet_persian_arran
+- slug: saadi-shirazi
+  full_name_en: Abū Muḥammad Mushrif al-Dīn Saʿdī Shīrāzī
+  full_name_ar: أبو محمد مشرف الدين سعدي الشيرازي
+  laqab: Mushrif al-Dīn
+  nisba: al-Shīrāzī
+  role: scholar_sufi_poet_persian_shirazi
+- slug: hafez-shirazi
+  full_name_en: Khwāja Shams al-Dīn Muḥammad Ḥāfeẓ Shīrāzī
+  full_name_ar: خواجه شمس الدين محمد حافظ الشيرازي
+  laqab: Shams al-Dīn
+  nisba: al-Shīrāzī
+  role: scholar_sufi_poet_quran_memorizer_persian
+- slug: jami
+  full_name_en: Nūr al-Dīn ʿAbd al-Raḥmān ibn Aḥmad Jāmī
+  full_name_ar: نور الدين عبد الرحمن بن أحمد الجامي
+  laqab: Nūr al-Dīn
+  nisba: al-Jāmī
+  role: scholar_sufi_poet_naqshbandi_timurid
+- slug: fakhr-al-din-iraqi
+  full_name_en: Fakhr al-Dīn Ibrāhīm ibn Buzurgmihr ʿIrāqī
+  full_name_ar: فخر الدين إبراهيم بن بزرگمهر العراقي
+  laqab: Fakhr al-Dīn
+  nisba: al-ʿIrāqī
+  role: scholar_sufi_poet_akbarian_persian_indian
+- slug: amir-khusraw
+  full_name_en: Amīr Khusraw Dihlawī — Yamīn al-Dīn Abū al-Ḥasan
+  full_name_ar: أمير خسرو الدهلوي — يمين الدين أبو الحسن
+  kunya: Abū al-Ḥasan
+  laqab: Amīr Khusraw
+  nisba: al-Dihlawī
+  role: scholar_sufi_poet_chishti_persian_indian
+- slug: bu-ali-qalandar
+  full_name_en: Bū ʿAlī Qalandar Pānīpatī — Sharaf al-Dīn ibn Sālār
+  full_name_ar: بو علي قلندر الپانيپاتي — شرف الدين بن سالار
+  laqab: Sharaf al-Dīn
+  nisba: al-Pānīpatī
+  role: scholar_sufi_qalandari_chishti_indian
+- slug: bidel-dehlawi
+  full_name_en: Mīrzā ʿAbd al-Qādir Bīdel Dehlawī
+  full_name_ar: ميرزا عبد القادر بيدل الدهلوي
+  laqab: Bīdel
+  nisba: al-Dihlawī
+  role: scholar_sufi_poet_naqshbandi_indian_mughal
+- slug: hatif-isfahani
+  full_name_en: Sayyid Aḥmad Ḥātif Iṣfahānī
+  full_name_ar: السيد أحمد هاتف الأصفهاني
+  laqab: Ḥātif
+  nisba: al-Iṣfahānī
+  role: scholar_sufi_poet_persian_late_safavid_zand
+- slug: al-yaqubi-geographer
+  full_name_en: Aḥmad ibn Abī Yaʿqūb ibn Wāḍiḥ al-Yaʿqūbī
+  full_name_ar: أحمد بن أبي يعقوب بن واضح اليعقوبي
+  nisba: al-Yaʿqūbī
+  role: geographer_historian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-khurradadhbih
+  full_name_en: Abū al-Qāsim ʿUbayd Allāh ibn ʿAbd Allāh ibn Khurradādhbih
+  full_name_ar: أبو القاسم عبيد الله بن عبد الله بن خرداذبه
+  kunya: Abū al-Qāsim
+  role: geographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-istakhri
+  full_name_en: Abū Isḥāq Ibrāhīm ibn Muḥammad al-Fārisī al-Iṣṭakhrī
+  full_name_ar: أبو إسحاق إبراهيم بن محمد الفارسي الإصطخري
+  kunya: Abū Isḥāq
+  nisba: al-Iṣṭakhrī
+  role: geographer_cartographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-hawqal
+  full_name_en: Abū al-Qāsim Muḥammad ibn ʿAlī ibn Ḥawqal al-Naṣībī
+  full_name_ar: أبو القاسم محمد بن علي بن حوقل النصيبي
+  kunya: Abū al-Qāsim
+  nisba: al-Naṣībī
+  role: geographer_cartographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-muqaddasi-al-bashshari
+  full_name_en: Abū ʿAbd Allāh Muḥammad ibn Aḥmad al-Muqaddasī al-Bashshārī
+  full_name_ar: أبو عبد الله محمد بن أحمد المقدسي البشاري
+  kunya: Abū ʿAbd Allāh
+  nisba: al-Muqaddasī
+  role: geographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-bakri-al-andalusi
+  full_name_en: Abū ʿUbayd ʿAbd Allāh ibn ʿAbd al-ʿAzīz al-Bakrī
+  full_name_ar: أبو عبيد عبد الله بن عبد العزيز البكري
+  kunya: Abū ʿUbayd
+  nisba: al-Bakrī
+  role: geographer_historian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yaqut-al-hamawi
+  full_name_en: Yāqūt ibn ʿAbd Allāh al-Ḥamawī al-Rūmī
+  full_name_ar: ياقوت بن عبد الله الحموي الرومي
+  kunya: Abū ʿAbd Allāh
+  nisba: al-Ḥamawī
+  role: geographer_lexicographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: zakariya-al-qazwini
+  full_name_en: Zakariyāʾ ibn Muḥammad ibn Maḥmūd al-Qazwīnī
+  full_name_ar: زكريا بن محمد بن محمود القزويني
+  nisba: al-Qazwīnī
+  role: geographer_cosmographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-al-fida
+  full_name_en: al-Malik al-Muʾayyad Ismāʿīl ibn ʿAlī ibn Maḥmūd Abū al-Fidāʾ al-Ayyūbī
+  full_name_ar: الملك المؤيد إسماعيل بن علي بن محمود أبو الفداء الأيوبي
+  kunya: Abū al-Fidāʾ
+  laqab: al-Malik al-Muʾayyad
+  role: ruler_historian_geographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-muqla
+  full_name_en: Abū ʿAlī Muḥammad ibn ʿAlī ibn Muqla
+  full_name_ar: أبو علي محمد بن علي بن مُقلة
+  kunya: Abū ʿAlī
+  role: calligrapher_vizier_abbasid
+- slug: ibn-al-bawwab
+  full_name_en: Abū al-Ḥasan ʿAlī ibn Hilāl (Ibn al-Bawwāb)
+  full_name_ar: أبو الحسن علي بن هلال (ابن البوّاب)
+  kunya: Abū al-Ḥasan
+  role: calligrapher_buyid_baghdad
+- slug: yaqut-al-mustasimi
+  full_name_en: Jamāl al-Dīn Yāqūt al-Mustaʿṣimī
+  full_name_ar: جمال الدين ياقوت المستعصمي
+  kunya: Abū al-Majd
+  laqab: Jamāl al-Dīn
+  nisba: al-Mustaʿṣimī
+  role: calligrapher_late_abbasid_baghdad
+- slug: seyh-hamdullah-amasi
+  full_name_en: Şeyh Ḥamdullāh ibn Muṣṭafā Dede al-Amāsī
+  full_name_ar: الشيخ حمد الله بن مصطفى دده الأماسيّ
+  nisba: al-Amāsī
+  role: calligrapher_ottoman_founder
+- slug: ahmed-karahisari
+  full_name_en: Aḥmad Şemseddīn Karahisārī
+  full_name_ar: أحمد شمس الدين قَرَه حصاري
+  nisba: al-Qarahiṣārī
+  role: calligrapher_ottoman_suleymaniye
+- slug: hafiz-osman
+  full_name_en: Ḥāfiẓ ʿOsmān Efendi
+  full_name_ar: حافظ عثمان أفندي
+  laqab: Ḥāfiẓ
+  role: calligrapher_ottoman_naskh
+- slug: mehmed-esad-yesari
+  full_name_en: Mehmed Esʿad Yesarī
+  full_name_ar: محمد أسعد يساري
+  laqab: Yesarī
+  role: calligrapher_ottoman_talik
+- slug: mustafa-rakim
+  full_name_en: Muṣṭafā Rāḳım Efendi
+  full_name_ar: مصطفى راقم أفندي
+  laqab: Rāḳım
+  role: calligrapher_ottoman_jeli_thuluth
+- slug: sefik-bey
+  full_name_en: Mehmed Şefīḳ Bey
+  full_name_ar: محمد شفيق بك
+  role: calligrapher_ottoman_late
+- slug: sami-efendi
+  full_name_en: İsmāʿīl Ḥaḳḳī Sāmī Efendi
+  full_name_ar: إسماعيل حقي سامي أفندي
+  laqab: Sāmī
+  role: calligrapher_ottoman_late_synthesis
+- slug: bashshar-ibn-burd
+  full_name_en: Abū Muʿādh Bashshār ibn Burd al-ʿUqaylī
+  full_name_ar: أبو معاذ بشار بن برد العقيلي
+  kunya: Abū Muʿādh
+  nisba: al-ʿUqaylī
+  role: poet
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-nuwas
+  full_name_en: Abū Nuwās al-Ḥasan ibn Hāniʾ al-Ḥakamī
+  full_name_ar: أبو نواس الحسن بن هانئ الحكمي
+  kunya: Abū Nuwās
+  nisba: al-Ḥakamī
+  role: poet
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-al-atahiya
+  full_name_en: Abū Isḥāq Ismāʿīl ibn al-Qāsim al-ʿAnzī (Abū al-ʿAtāhiya)
+  full_name_ar: أبو إسحاق إسماعيل بن القاسم العنزي (أبو العتاهية)
+  kunya: Abū Isḥāq
+  laqab: Abū al-ʿAtāhiya
+  nisba: al-ʿAnzī
+  role: poet
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-buhturi
+  full_name_en: Abū ʿUbāda al-Walīd ibn ʿUbayd Allāh al-Ṭāʾī al-Buḥturī
+  full_name_ar: أبو عبادة الوليد بن عبيد الله الطائي البحتري
+  kunya: Abū ʿUbāda
+  nisba: al-Ṭāʾī al-Buḥturī
+  role: poet
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-rumi
+  full_name_en: Abū al-Ḥasan ʿAlī ibn al-ʿAbbās ibn Jurayj (Ibn al-Rūmī)
+  full_name_ar: أبو الحسن علي بن العباس بن جريج (ابن الرومي)
+  kunya: Abū al-Ḥasan
+  role: poet
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-mutazz
+  full_name_en: Abū al-ʿAbbās ʿAbd Allāh ibn al-Muʿtazz bi-llāh
+  full_name_ar: أبو العباس عبد الله بن المعتز بالله
+  kunya: Abū al-ʿAbbās
+  role: poet_prince_critic
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-jahiz
+  full_name_en: Abū ʿUthmān ʿAmr ibn Baḥr al-Kinānī al-Baṣrī (al-Jāḥiẓ)
+  full_name_ar: أبو عثمان عمرو بن بحر الكناني البصري (الجاحظ)
+  kunya: Abū ʿUthmān
+  laqab: al-Jāḥiẓ
+  nisba: al-Kinānī al-Baṣrī
+  role: litterateur_prose_mutazila
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-sharif-al-radi
+  full_name_en: Abū al-Ḥasan Muḥammad ibn al-Ḥusayn al-Mūsawī (al-Sharīf al-Raḍī)
+  full_name_ar: أبو الحسن محمد بن الحسين الموسوي (الشريف الرضي)
+  kunya: Abū al-Ḥasan
+  laqab: al-Sharīf al-Raḍī
+  nisba: al-Mūsawī
+  role: poet_alid_buwayhid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-maarri
+  full_name_en: Abū al-ʿAlāʾ Aḥmad ibn ʿAbd Allāh al-Tanūkhī al-Maʿarrī
+  full_name_ar: أبو العلاء أحمد بن عبد الله التنوخي المعرّي
+  kunya: Abū al-ʿAlāʾ
+  nisba: al-Tanūkhī al-Maʿarrī
+  role: poet_litterateur
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-zaydun
+  full_name_en: Abū al-Walīd Aḥmad ibn ʿAbd Allāh ibn Zaydūn al-Makhzūmī al-Andalusī
+  full_name_ar: أبو الوليد أحمد بن عبد الله بن زيدون المخزومي الأندلسي
+  kunya: Abū al-Walīd
+  nisba: al-Makhzūmī al-Andalusī
+  role: poet_andalusi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-khafaja
+  full_name_en: Abū Isḥāq Ibrāhīm ibn Abī al-Fatḥ ibn Khafāja al-Andalusī
+  full_name_ar: أبو إسحاق إبراهيم بن أبي الفتح بن خفاجة الأندلسي
+  kunya: Abū Isḥāq
+  nisba: al-Andalusī
+  role: poet_andalusi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-farid
+  full_name_en: Abū Ḥafṣ ʿUmar ibn ʿAlī ibn Mursh̄id al-Ḥamawī al-Miṣrī (Ibn al-Fāriḍ)
+  full_name_ar: أبو حفص عمر بن علي بن مرشد الحموي المصري (ابن الفارض)
+  kunya: Abū Ḥafṣ
+  nisba: al-Ḥamawī al-Miṣrī
+  role: scholar_sufi_poet_ayyubid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-said-al-maghribi
+  full_name_en: Abū al-Ḥasan ʿAlī ibn Mūsā ibn Saʿīd al-ʿAnsī al-Granaṭī al-Maghribī
+  full_name_ar: أبو الحسن علي بن موسى بن سعيد العنسي الغرناطي المغربي
+  kunya: Abū al-Ḥasan
+  nisba: al-ʿAnsī al-Granaṭī al-Maghribī
+  role: scholar_anthologist_litterateur_andalusi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-ubayda-mamar-ibn-al-muthanna
+  full_name_en: Abū ʿUbayda Maʿmar ibn al-Muthannā al-Taymī
+  full_name_ar: أبو عبيدة مَعمَر بن المثنّى التيمي
+  kunya: Abū ʿUbayda
+  nisba: al-Taymī
+  role: scholar_grammarian_lexicographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-asmai
+  full_name_en: Abū Saʿīd ʿAbd al-Malik ibn Qurayb al-Aṣmaʿī al-Bāhilī
+  full_name_ar: أبو سعيد عبد الملك بن قريب الأصمعي الباهلي
+  kunya: Abū Saʿīd
+  nisba: al-Bāhilī
+  role: scholar_grammarian_lexicographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mubarrad
+  full_name_en: Abū al-ʿAbbās Muḥammad ibn Yazīd al-Azdī al-Mubarrad
+  full_name_ar: أبو العباس محمد بن يزيد الأزدي المبرَّد
+  kunya: Abū al-ʿAbbās
+  laqab: al-Mubarrad
+  nisba: al-Azdī
+  role: scholar_grammarian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-durayd
+  full_name_en: Abū Bakr Muḥammad ibn al-Ḥasan ibn Durayd al-Azdī
+  full_name_ar: أبو بكر محمد بن الحسن بن دريد الأزدي
+  kunya: Abū Bakr
+  nisba: al-Azdī
+  role: scholar_grammarian_lexicographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-azhari-al-harawi
+  full_name_en: Abū Manṣūr Muḥammad ibn Aḥmad al-Azharī al-Harawī
+  full_name_ar: أبو منصور محمد بن أحمد الأزهري الهروي
+  kunya: Abū Manṣūr
+  nisba: al-Harawī
+  role: scholar_lexicographer_shafii
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-jinni
+  full_name_en: Abū al-Fatḥ ʿUthmān ibn Jinnī al-Mawṣilī
+  full_name_ar: أبو الفتح عثمان بن جنّي الموصلي
+  kunya: Abū al-Fatḥ
+  nisba: al-Mawṣilī
+  role: scholar_grammarian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-jawhari-lexicographer
+  full_name_en: Abū Naṣr Ismāʿīl ibn Ḥammād al-Jawharī al-Fārābī
+  full_name_ar: أبو نصر إسماعيل بن حمّاد الجوهري الفارابي
+  kunya: Abū Naṣr
+  nisba: al-Fārābī
+  role: scholar_lexicographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-sida-al-andalusi
+  full_name_en: Abū al-Ḥasan ʿAlī ibn Ismāʿīl ibn Sīda al-Mursī al-Andalusī
+  full_name_ar: أبو الحسن علي بن إسماعيل بن سِيدَه المرسي الأندلسي
+  kunya: Abū al-Ḥasan
+  nisba: al-Andalusī
+  role: scholar_lexicographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-hariri-al-basri
+  full_name_en: Abū Muḥammad al-Qāsim ibn ʿAlī al-Ḥarīrī al-Baṣrī
+  full_name_ar: أبو محمد القاسم بن علي الحريري البصري
+  kunya: Abū Muḥammad
+  nisba: al-Baṣrī
+  role: scholar_grammarian_litterateur
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-malik-al-andalusi
+  full_name_en: Jamāl al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh ibn Mālik al-Ṭāʾī al-Jayyānī
+  full_name_ar: جمال الدين أبو عبد الله محمد بن عبد الله بن مالك الطائي الجيّاني
+  kunya: Abū ʿAbd Allāh
+  laqab: Jamāl al-Dīn
+  nisba: al-Jayyānī al-Andalusī
+  role: scholar_grammarian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-manzur
+  full_name_en: Jamāl al-Dīn Abū al-Faḍl Muḥammad ibn Mukarram ibn Manẓūr al-Ifrīqī
+  full_name_ar: جمال الدين أبو الفضل محمد بن مكرم بن منظور الإفريقي
+  kunya: Abū al-Faḍl
+  laqab: Jamāl al-Dīn
+  nisba: al-Ifrīqī al-Miṣrī
+  role: scholar_lexicographer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-hisham-al-ansari-al-nahwi
+  full_name_en: Jamāl al-Dīn Abū Muḥammad ʿAbd Allāh ibn Yūsuf ibn Hishām al-Anṣārī
+  full_name_ar: جمال الدين أبو محمد عبد الله بن يوسف بن هشام الأنصاري
+  kunya: Abū Muḥammad
+  laqab: Jamāl al-Dīn
+  nisba: al-Anṣārī al-Miṣrī
+  role: scholar_grammarian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: almish-ibn-yiltawar
+  full_name_en: Almish ibn Yiltawar (Jaʿfar ibn ʿAbd Allāh)
+  full_name_ar: أَلْمَش بن يلطوار (جعفر بن عبد الله)
+  laqab: Yiltawar
+  role: ruler_khan_volga_bulgar_first_muslim
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ghazi-muhammad-daghestan
+  full_name_en: Imām Ghāzī Muḥammad of Gimry
+  full_name_ar: الإمام غازي محمد الغمري الداغستاني
+  laqab: al-Imām al-Awwal
+  nisba: al-Daghistānī
+  role: ruler_imam_daghestan_naqshbandi_khalidi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: hamzat-bek-daghestan
+  full_name_en: Imām Hamzat Bek of Hutsalmahi
+  full_name_ar: الإمام حمزة بك الحُتْسَلْمَهي الداغستاني
+  laqab: al-Imām al-Thānī
+  nisba: al-Daghistānī
+  role: ruler_imam_daghestan_naqshbandi_khalidi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: imam-shamil
+  full_name_en: Imām Shāmil ibn Dengaw of Gimry
+  full_name_ar: الإمام شامل بن دنغاو الغمري الداغستاني
+  laqab: al-Imām al-Thālith
+  nisba: al-Daghistānī
+  role: ruler_imam_daghestan_naqshbandi_khalidi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: shihab-al-din-marjani
+  full_name_en: Shihāb al-Dīn ibn Bahāʾ al-Dīn al-Marjānī al-Qazānī
+  full_name_ar: شهاب الدين بن بهاء الدين المرجاني القازاني
+  laqab: Shihāb al-Dīn
+  nisba: al-Qazānī
+  role: scholar_jurist_volga_tatar_hanafi_jadid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: qayyum-nasiri
+  full_name_en: ʿAbd al-Qayyūm ibn ʿAbd al-Naṣīr al-Qazānī (Qayyūm Nasiri)
+  full_name_ar: عبد القيوم بن عبد الناصر القازاني (قيوم ناصري)
+  nisba: al-Qazānī
+  role: scholar_volga_tatar_lexicographer_pedagogue
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: riza-fahreddin
+  full_name_en: Riḍāʾ al-Dīn ibn Fakhr al-Dīn al-Bulghārī (Rıza Fahreddin)
+  full_name_ar: رضاء الدين بن فخر الدين البلغاري
+  nisba: al-Bulghārī
+  role: scholar_mufti_volga_tatar_hanafi_jadid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: musa-bigi
+  full_name_en: Mūsā Jārullāh Bigiyev (Musa Bigi)
+  full_name_ar: موسى جارالله بيجييف
+  laqab: Jārullāh
+  role: scholar_volga_tatar_hanafi_jadid_mutakallim
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: wang-daiyu
+  full_name_en: Wang Daiyu
+  full_name_ar: وانغ داي يو
+  role: scholar_hui_china_han_kitab_hanafi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: liu-zhi
+  full_name_en: Liu Zhi (Liu Jielian)
+  full_name_ar: ليو زهي (ليو جييه ليان)
+  role: scholar_hui_china_han_kitab_hanafi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ma-mingxin
+  full_name_en: Ma Mingxin
+  full_name_ar: ما مينغ شين
+  role: scholar_sufi_hui_china_naqshbandi_jahriyya_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ma-hualong
+  full_name_en: Ma Hualong
+  full_name_ar: ما هوا لونغ
+  role: scholar_sufi_hui_china_naqshbandi_jahriyya_menhuan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sunan-bonang
+  full_name_en: Raden Maulana Makdum Ibrahim — Sunan Bonang
+  full_name_ar: الراذن مولانا مكدوم إبراهيم — السنن بونانغ
+  laqab: Sunan Bonang
+  role: scholar_walisongo_java_dawah
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sutayta-al-mahamili
+  full_name_en: Sutayta bint al-Maḥāmilī
+  full_name_ar: ستيتة بنت المحاملي
+  nisba: al-Baghdadiyya
+  role: scholar_jurist_mathematician
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: karima-al-marwaziyya
+  full_name_en: Karīma bint Aḥmad al-Marwaziyya
+  full_name_ar: كريمة بنت أحمد المروزية
+  nisba: al-Marwaziyya
+  role: muhadditha
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: shuhda-al-katiba
+  full_name_en: Shuhda bint al-Ibrī al-Kātiba
+  full_name_ar: شهدة بنت الإبري الكاتبة
+  kunya: Fakhr al-Nisaʾ
+  nisba: al-Baghdadiyya
+  role: muhadditha_calligrapher
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: zaynab-al-shariyya
+  full_name_en: Zaynab bint ʿAbd al-Raḥmān al-Shaʿrī
+  full_name_ar: زينب بنت عبد الرحمن الشعريّة
+  nisba: al-Naysaburiyya
+  role: muhadditha
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: zaynab-bint-makki
+  full_name_en: Zaynab bint Makkī al-Ḥarrānī
+  full_name_ar: زينب بنت مكي الحرّانيّة
+  nisba: al-Harraniyya
+  role: muhadditha
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: maryam-al-salihiyya
+  full_name_en: Fakhr al-Nisaʾ Maryam bint Aḥmad al-Ṣāliḥiyya
+  full_name_ar: فخر النساء مريم بنت أحمد الصالحية
+  kunya: Fakhr al-Nisaʾ
+  nisba: al-Salihiyya
+  role: muhadditha
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: maryam-al-adhurbayjaniyya
+  full_name_en: Maryam bint ʿAbd al-Qādir al-Ādhurbayjānī
+  full_name_ar: مريم بنت عبد القادر الأذربيجانية
+  nisba: al-Adhurbayjaniyya
+  role: scholar_jurist
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: umm-al-khayr-al-hijaziyya
+  full_name_en: Umm al-Khayr al-Ḥijāziyya
+  full_name_ar: أم الخير الحجازية
+  kunya: Umm al-Khayr
+  nisba: al-Dimashqiyya
+  role: muhadditha
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: asma-bint-asad-ibn-al-furat
+  full_name_en: Asmāʾ bint Asad ibn al-Furāt
+  full_name_ar: أسماء بنت أسد بن الفرات
+  nisba: al-Qayrawaniyya
+  role: scholar_jurist
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sitti-al-wuzara
+  full_name_en: Sittī al-Wuzarāʾ bint ʿUmar
+  full_name_ar: ستّ الوزراء بنت عمر التنوخية
+  nisba: al-Tanukhiyya
+  role: muhadditha
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: bayi-khanum
+  full_name_en: Bāyī Khānum
+  full_name_ar: بايي خانم
+  laqab: Bayi Khanum
+  role: scholar_mughal
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: umm-hani-al-abdari
+  full_name_en: Umm Hāniʾ Maryam bint Muḥammad al-Hūrīnī al-ʿAbdarī
+  full_name_ar: أم هانئ مريم بنت محمد الهوريني العبدريّة
+  kunya: Umm Haniʾ
+  nisba: al-Misriyya
+  role: muhadditha
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yusuf-ibn-tashufin
+  full_name_en: Yūsuf ibn Tāshufīn al-Lamtūnī
+  full_name_ar: يوسف بن تاشفين اللمتوني
+  kunya: Abū Yaʿqūb
+  laqab: Amīr al-Muslimīn
+  nisba: al-Lamtūnī
+  role: ruler_almoravid_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ali-ibn-yusuf-almoravid
+  full_name_en: ʿAlī ibn Yūsuf ibn Tāshufīn
+  full_name_ar: علي بن يوسف بن تاشفين
+  kunya: Abū al-Ḥasan
+  laqab: Amīr al-Muslimīn
+  nisba: al-Lamtūnī
+  role: ruler_almoravid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-tumart-almohad
+  full_name_en: Muḥammad ibn Tūmart al-Sūsī
+  full_name_ar: محمد بن تومرت السوسي
+  kunya: Abū ʿAbd Allāh
+  nisba: al-Sūsī
+  role: founder_almohad_movement
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-mumin-almohad
+  full_name_en: ʿAbd al-Muʾmin ibn ʿAlī al-Kūmī
+  full_name_ar: عبد المؤمن بن علي الكومي
+  kunya: Abū Muḥammad
+  laqab: Amīr al-Muʾminīn
+  nisba: al-Kūmī
+  role: caliph_almohad_first
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-haqq-marini
+  full_name_en: ʿAbd al-Ḥaqq ibn Maḥyū al-Marīnī
+  full_name_ar: عبد الحق بن محيو المريني
+  kunya: Abū Muḥammad
+  nisba: al-Marīnī
+  role: founder_marinid_dynasty
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-muqaffa
+  full_name_en: Abū Muḥammad ʿAbd Allāh ibn al-Muqaffaʿ (Rūzbih)
+  full_name_ar: أبو محمد عبد الله بن المقفَّع
+  kunya: Abū Muḥammad
+  role: translator_adib_persian_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yahya-ibn-al-bitriq
+  full_name_en: Yaḥyā (Yūḥannā) ibn al-Biṭrīq
+  full_name_ar: يحيى بن البطريق
+  role: translator_christian_arab_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-hajjaj-ibn-matar
+  full_name_en: Abū Muḥammad al-Ḥajjāj ibn Yūsuf ibn Maṭar
+  full_name_ar: أبو محمد الحجّاج بن يوسف بن مَطَر
+  kunya: Abū Muḥammad
+  role: translator_mathematician_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-masih-al-himsi
+  full_name_en: ʿAbd al-Masīḥ ibn ʿAbd Allāh ibn Nāʿima al-Ḥimṣī
+  full_name_ar: عبد المسيح بن عبد الله بن ناعمة الحمصي
+  nisba: al-Ḥimṣī
+  role: translator_christian_arab_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-ibn-musa-banu-shakir
+  full_name_en: Abū Jaʿfar Muḥammad ibn Mūsā ibn Shākir
+  full_name_ar: أبو جعفر محمد بن موسى بن شاكر
+  kunya: Abū Jaʿfar
+  role: mathematician_engineer_patron_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ali-ibn-yahya-al-munajjim
+  full_name_en: Abū al-Ḥasan ʿAlī ibn Yaḥyā ibn Abī Manṣūr al-Munajjim
+  full_name_ar: أبو الحسن علي بن يحيى بن أبي منصور المنجِّم
+  kunya: Abū al-Ḥasan
+  nisba: al-Munajjim
+  role: court_astrologer_translator_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ishaq-ibn-hunayn
+  full_name_en: Abū Yaʿqūb Isḥāq ibn Ḥunayn ibn Isḥāq al-ʿIbādī
+  full_name_ar: أبو يعقوب إسحاق بن حُنين بن إسحاق العبادي
+  kunya: Abū Yaʿqūb
+  nisba: al-ʿIbādī
+  role: translator_physician_christian_arab_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: qusta-ibn-luqa
+  full_name_en: Qusṭā ibn Lūqā al-Baʿlabakkī
+  full_name_ar: قُسطا بن لوقا البعلبكّي
+  nisba: al-Baʿlabakkī
+  role: translator_polymath_christian_arab_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: matta-ibn-yunus
+  full_name_en: Abū Bishr Mattā ibn Yūnus al-Qunnāʾī
+  full_name_ar: أبو بشر متّى بن يونس القُنَّائي
+  kunya: Abū Bishr
+  nisba: al-Qunnāʾī
+  role: logician_translator_christian_arab_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sinan-ibn-thabit
+  full_name_en: Abū Saʿīd Sinān ibn Thābit ibn Qurra al-Ḥarrānī
+  full_name_ar: أبو سعيد سنان بن ثابت بن قرّة الحرّاني
+  kunya: Abū Saʿīd
+  nisba: al-Ḥarrānī
+  role: physician_mathematician_sabian_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: siraj-al-dawla
+  full_name_en: Mīrzā Muḥammad Sirāj al-Dawla
+  full_name_ar: ميرزا محمد سراج الدولة
+  laqab: Sirāj al-Dawla
+  role: nawab_bengal
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: tipu-sultan
+  full_name_en: Fatḥ ʿAlī Tīpū Sulṭān ibn Ḥaydar ʿAlī
+  full_name_ar: فتح علي تيبو سلطان بن حيدر علي
+  laqab: Tīpū Sulṭān
+  role: sultan_mysore
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: haji-shariat-allah
+  full_name_en: Hāji Sharīʿat Allāh
+  full_name_ar: الحاج شريعة الله
+  nisba: al-Faridpūrī
+  role: scholar_modern_indian_bengali_faraidi_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: bahadur-shah-ii
+  full_name_en: Mirzā Abū Ẓafar Sirāj al-Dīn Muḥammad Bahādur Shāh II
+  full_name_ar: ميرزا أبو ظفر سراج الدين محمد بهادر شاه الثاني
+  laqab: Bahādur Shāh II (Ẓafar)
+  role: emperor_mughal_last
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sayyid-ahmad-khan
+  full_name_en: Sayyid Aḥmad Khān ibn Sayyid Muḥammad Muttaqī (KCSI)
+  full_name_ar: السير سيد أحمد خان بن سيد محمد متّقي
+  laqab: Sir Sayyid
+  role: scholar_modern_indian_modernist_aligarh_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: shibli-numani
+  full_name_en: Shiblī Nuʿmānī
+  full_name_ar: شبلي النعماني
+  laqab: ʿAllāma Shiblī
+  nisba: al-Nuʿmānī
+  role: scholar_modern_indian_nadwa_historian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yahya-ibn-adi-al-mantiqi
+  full_name_en: Abū Zakariyyāʾ Yaḥyā ibn ʿAdī al-Manṭiqī al-Takrītī
+  full_name_ar: أبو زكريا يحيى بن عدي المنطقي التكريتي
+  kunya: Abū Zakariyyāʾ
+  nisba: al-Takrītī
+  role: logician_translator_christian_arab_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-ibn-abd-al-wahhab
+  full_name_en: Muḥammad ibn ʿAbd al-Wahhāb al-Tamīmī
+  full_name_ar: محمد بن عبد الوهاب التميمي
+  kunya: Abū al-Ḥusayn
+  nisba: al-Najdī
+  role: scholar_jurist_najdi_hanbali_reformer
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-ibn-saud
+  full_name_en: Muḥammad ibn Saʿūd ibn Muqrin
+  full_name_ar: محمد بن سعود بن مقرن
+  laqab: Imām al-Dawla al-Ūlā
+  role: founder_first_saudi_state
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-aziz-ibn-muhammad-ibn-saud
+  full_name_en: ʿAbd al-ʿAzīz ibn Muḥammad ibn Saʿūd
+  full_name_ar: عبد العزيز بن محمد بن سعود
+  role: ruler_first_saudi_state
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: saud-ibn-abd-al-aziz-the-great
+  full_name_en: Saʿūd ibn ʿAbd al-ʿAzīz (Saʿūd al-Kabīr)
+  full_name_ar: سعود بن عبد العزيز (سعود الكبير)
+  laqab: al-Kabīr
+  role: ruler_first_saudi_state
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-allah-ibn-saud
+  full_name_en: ʿAbd Allāh ibn Saʿūd
+  full_name_ar: عبد الله بن سعود
+  role: ruler_first_saudi_state_last
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibrahim-pasha-egypt
+  full_name_en: Ibrāhīm Pāshā ibn Muḥammad ʿAlī
+  full_name_ar: إبراهيم باشا بن محمد علي
+  role: commander_ottoman_egyptian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: turki-ibn-abd-allah
+  full_name_en: Turkī ibn ʿAbd Allāh ibn Muḥammad ibn Saʿūd
+  full_name_ar: تركي بن عبد الله بن محمد بن سعود
+  role: founder_second_saudi_state
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: faysal-ibn-turki
+  full_name_en: Fayṣal ibn Turkī Āl Saʿūd
+  full_name_ar: فيصل بن تركي آل سعود
+  role: ruler_second_saudi_state
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-ibn-rashid
+  full_name_en: Muḥammad ibn ʿAbd Allāh Āl Rashīd
+  full_name_ar: محمد بن عبد الله آل رشيد
+  nisba: al-Shammarī
+  role: emir_jabal_shammar
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-rahman-ibn-faysal
+  full_name_en: ʿAbd al-Raḥmān ibn Fayṣal Āl Saʿūd
+  full_name_ar: عبد الرحمن بن فيصل آل سعود
+  role: ruler_second_saudi_state_last
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-aziz-ibn-saud
+  full_name_en: ʿAbd al-ʿAzīz ibn ʿAbd al-Raḥmān Āl Saʿūd (Ibn Saʿūd)
+  full_name_ar: عبد العزيز بن عبد الرحمن آل سعود (ابن سعود)
+  role: founder_third_saudi_state_first_king
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: jafar-al-barmaki
+  full_name_en: Jaʿfar ibn Yaḥyā al-Barmakī
+  full_name_ar: جعفر بن يحيى البرمكي
+  kunya: Abu al-Faḍl
+  role: vizier_abbasid
+- slug: al-amin
+  full_name_en: Muḥammad al-Amīn
+  full_name_ar: محمد الأمين
+  laqab: al-Amīn
+  role: caliph_abbasid
+- slug: tahir-ibn-al-husayn
+  full_name_en: Ṭāhir ibn al-Ḥusayn
+  full_name_ar: طاهر بن الحسين
+  kunya: Abu al-Ṭayyib
+  laqab: Dhū al-Yamīnayn
+  role: commander_abbasid
+- slug: al-wathiq
+  full_name_en: Hārūn al-Wāthiq bi-Allāh
+  full_name_ar: هارون الواثق بالله
+  laqab: al-Wāthiq
+  role: caliph_abbasid
+- slug: al-muwaffaq
+  full_name_en: Abu Aḥmad Ṭalḥa al-Muwaffaq bi-Allāh
+  full_name_ar: أبو أحمد طلحة الموفق بالله
+  kunya: Abu Aḥmad
+  laqab: al-Muwaffaq
+  role: regent_abbasid
+- slug: abu-tahir-al-janabi
+  full_name_en: Abu Ṭāhir Sulaymān al-Jannābī
+  full_name_ar: أبو طاهر سليمان الجنابي
+  kunya: Abu Ṭāhir
+  nisba: al-Jannābī
+  role: ruler_qarmati
+- slug: muizz-al-dawla
+  full_name_en: Aḥmad ibn Buwayh Muʿizz al-Dawla
+  full_name_ar: أحمد بن بويه معز الدولة
+  laqab: Muʿizz al-Dawla
+  role: amir_buyid
+- slug: al-nasir-li-din-allah
+  full_name_en: Aḥmad al-Nāṣir li-Dīn Allāh
+  full_name_ar: أحمد الناصر لدين الله
+  laqab: al-Nāṣir li-Dīn Allāh
+  role: caliph_abbasid
+- slug: sayyid-qutb
+  full_name_en: Sayyid Quṭb Ibrāhīm Ḥusayn al-Shādhilī
+  full_name_ar: سيد قطب إبراهيم حسين الشاذلي
+  nisba: al-Miṣrī
+  role: scholar_ideologue_egyptian_ikhwan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: hasan-al-hudaybi
+  full_name_en: Ḥasan Ismāʿīl al-Huḍaybī
+  full_name_ar: حسن إسماعيل الهضيبي
+  nisba: al-Huḍaybī
+  role: scholar_jurist_egyptian_ikhwan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-al-ala-al-mawdudi
+  full_name_en: Abū al-Aʿlā al-Mawdūdī
+  full_name_ar: أبو الأعلى المودودي
+  kunya: Abū al-Aʿlā
+  nisba: al-Mawdūdī
+  role: scholar_reformer_south_asian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-asad
+  full_name_en: Muḥammad Asad (Leopold Weiss)
+  full_name_ar: محمد أسد (ليوبولد فايس)
+  role: scholar_translator_european_convert
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: taha-jabir-al-alwani
+  full_name_en: Ṭāhā Jābir al-ʿAlwānī
+  full_name_ar: طه جابر العلواني
+  nisba: al-ʿAlwānī
+  role: scholar_usuli_iraqi_american
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: said-ramadan-al-buti
+  full_name_en: Muḥammad Saʿīd Ramaḍān al-Būṭī
+  full_name_ar: محمد سعيد رمضان البوطي
+  nisba: al-Būṭī
+  role: scholar_ashari_shafii_damascene
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: manna-al-qattan
+  full_name_en: Manāʿ ibn Khalīl al-Qaṭṭān
+  full_name_ar: مناع بن خليل القطان
+  nisba: al-Qaṭṭān
+  role: scholar_quranic_sciences_egyptian_saudi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: mufti-muhammad-shafi
+  full_name_en: Muftī Muḥammad Shafīʿ ʿUthmānī
+  full_name_ar: المفتي محمد شفيع العثماني
+  nisba: al-ʿUthmānī al-Deobandī
+  role: scholar_mufti_pakistani_deobandi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-idris-kandhalawi
+  full_name_en: Muḥammad Idrīs Kāndhalawī
+  full_name_ar: محمد إدريس الكاندهلوي
+  nisba: al-Kāndhalawī
+  role: scholar_muhaddith_indian_pakistani_deobandi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ashraf-ali-thanwi
+  full_name_en: Ashraf ʿAlī Thānwī
+  full_name_ar: أشرف علي التهانوي
+  nisba: al-Thānwī al-Deobandī
+  role: scholar_reformer_indian_deobandi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ismail-samani
+  full_name_en: Abū Ibrāhīm Ismāʿīl ibn Aḥmad al-Sāmānī
+  full_name_ar: أبو إبراهيم إسماعيل بن أحمد الساماني
+  kunya: Abū Ibrāhīm
+  nisba: al-Sāmānī
+  role: ruler_amir_samanid_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: nasr-ii-samani
+  full_name_en: Abū al-Ḥasan Naṣr ibn Aḥmad al-Sāmānī (Naṣr II)
+  full_name_ar: أبو الحسن نصر بن أحمد الساماني (نصر الثاني)
+  kunya: Abū al-Ḥasan
+  nisba: al-Sāmānī
+  role: ruler_amir_samanid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sayf-al-dawla-hamdani
+  full_name_en: Sayf al-Dawla ʿAlī ibn ʿAbd Allāh al-Ḥamdānī
+  full_name_ar: سيف الدولة علي بن عبد الله الحمداني
+  kunya: Abū al-Ḥasan
+  laqab: Sayf al-Dawla
+  nisba: al-Ḥamdānī
+  role: ruler_amir_hamdanid_aleppo
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sebuktigin
+  full_name_en: Abū Manṣūr Sebüktigīn — Founder of the Ghaznavid Dynasty
+  full_name_ar: أبو منصور سَبُكْتِكين — مؤسس الدولة الغزنوية
+  kunya: Abū Manṣūr
+  role: ruler_amir_ghaznavid_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: mahmud-of-ghazna
+  full_name_en: Yamīn al-Dawla Maḥmūd ibn Sebüktigīn al-Ghaznawī
+  full_name_ar: يمين الدولة محمود بن سبكتكين الغزنوي
+  kunya: Abū al-Qāsim
+  laqab: Yamīn al-Dawla
+  nisba: al-Ghaznawī
+  role: ruler_sultan_ghaznavid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: masud-i-of-ghazna
+  full_name_en: Shihāb al-Dawla Masʿūd ibn Maḥmūd al-Ghaznawī (Masʿūd I)
+  full_name_ar: شهاب الدولة مسعود بن محمود الغزنوي (مسعود الأول)
+  laqab: Shihāb al-Dawla
+  nisba: al-Ghaznawī
+  role: ruler_sultan_ghaznavid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: tughril-beg
+  full_name_en: Rukn al-Dīn Abū Ṭālib Ṭughril Beg ibn Mīkāʾīl al-Saljūqī
+  full_name_ar: ركن الدين أبو طالب طغرل بك بن ميكائيل السلجوقي
+  kunya: Abū Ṭālib
+  laqab: Rukn al-Dīn
+  nisba: al-Saljūqī
+  role: ruler_sultan_seljuk_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: alp-arslan
+  full_name_en: ʿAḍud al-Dawla Abū Shujāʿ Alp Arslān ibn Chaghrī Beg
+  full_name_ar: عضد الدولة أبو شجاع ألب أرسلان بن جغري بك
+  kunya: Abū Shujāʿ
+  laqab: ʿAḍud al-Dawla
+  nisba: al-Saljūqī
+  role: ruler_sultan_seljuk
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: malikshah-i-saljuq
+  full_name_en: Jalāl al-Dawla Abū al-Fatḥ Malikshāh ibn Alp Arslān
+  full_name_ar: جلال الدولة أبو الفتح ملكشاه بن ألب أرسلان
+  kunya: Abū al-Fatḥ
+  laqab: Jalāl al-Dawla
+  nisba: al-Saljūqī
+  role: ruler_sultan_seljuk
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-sanjar
+  full_name_en: Muʿizz al-Dīn Abū al-Ḥārith Aḥmad Sanjar ibn Malikshāh
+  full_name_ar: معز الدين أبو الحارث أحمد سنجر بن ملكشاه
+  kunya: Abū al-Ḥārith
+  laqab: Muʿizz al-Dīn
+  nisba: al-Saljūqī
+  role: ruler_sultan_seljuk_great_khorasan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-qadi-al-fadil
+  full_name_en: ʿAbd al-Raḥīm ibn ʿAlī al-Bīsānī al-ʿAsqalānī (al-Qāḍī al-Fāḍil)
+  full_name_ar: عبد الرحيم بن علي البيساني العسقلاني (القاضي الفاضل)
+  kunya: Abū ʿAlī
+  laqab: al-Qāḍī al-Fāḍil
+  nisba: al-Bīsānī
+  role: chancery_secretary_ayyubid_vizier
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: imad-al-din-al-isfahani
+  full_name_en: Muḥammad ibn Muḥammad al-Iṣfahānī (ʿImād al-Dīn al-Kātib)
+  full_name_ar: محمد بن محمد الأصبهاني (العماد الكاتب)
+  kunya: Abū ʿAbd Allāh
+  laqab: ʿImād al-Dīn
+  nisba: al-Iṣfahānī
+  role: chancery_secretary_historian_ayyubid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: baha-al-din-ibn-shaddad
+  full_name_en: Yūsuf ibn Rāfiʿ ibn Shaddād (Bahāʾ al-Dīn)
+  full_name_ar: يوسف بن رافع بن شدّاد (بهاء الدين)
+  kunya: Abū al-Maḥāsin
+  laqab: Bahāʾ al-Dīn
+  role: scholar_qadi_biographer_ayyubid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mundhiri
+  full_name_en: ʿAbd al-ʿAẓīm ibn ʿAbd al-Qawī al-Mundhirī
+  full_name_ar: عبد العظيم بن عبد القوي المنذري
+  kunya: Abū Muḥammad
+  laqab: Zakī al-Dīn
+  nisba: al-Mundhirī
+  role: scholar_muhaddith_shafii
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-adim
+  full_name_en: ʿUmar ibn Aḥmad ibn al-ʿAdīm al-ʿUqaylī al-Ḥalabī
+  full_name_ar: عمر بن أحمد ابن العديم العقيلي الحلبي
+  kunya: Abū al-Qāsim
+  laqab: Kamāl al-Dīn
+  nisba: al-Ḥalabī
+  role: scholar_historian_qadi_hanafi_ayyubid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-shama-al-maqdisi
+  full_name_en: ʿAbd al-Raḥmān ibn Ismāʿīl al-Maqdisī al-Dimashqī (Abū Shāma)
+  full_name_ar: عبد الرحمن بن إسماعيل المقدسي الدمشقي (أبو شامة)
+  kunya: Abū Shāma
+  laqab: Shihāb al-Dīn
+  nisba: al-Maqdisī
+  role: scholar_historian_qari_shafii
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-sai
+  full_name_en: ʿAlī ibn Anjab ibn al-Sāʿī al-Khāzin al-Baghdādī
+  full_name_ar: علي بن أنجب ابن الساعي الخازن البغدادي
+  kunya: Abū Ṭālib
+  laqab: Tāj al-Dīn
+  nisba: al-Baghdādī
+  role: scholar_historian_librarian_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-wasil-al-hamawi
+  full_name_en: Muḥammad ibn Sālim ibn Wāṣil al-Ḥamawī
+  full_name_ar: محمد بن سالم ابن واصل الحموي
+  kunya: Abū ʿAbd Allāh
+  laqab: Jamāl al-Dīn
+  nisba: al-Ḥamawī
+  role: scholar_historian_qadi_shafii_ayyubid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-yunini
+  full_name_en: Mūsā ibn Muḥammad al-Yūnīnī al-Baʿlabakkī
+  full_name_ar: موسى بن محمد اليونيني البعلبكي
+  kunya: Abū al-Fatḥ
+  laqab: Quṭb al-Dīn
+  nisba: al-Baʿlabakkī
+  role: scholar_muhaddith_historian_hanbali
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-al-muhajir-yemen
+  full_name_en: Aḥmad ibn ʿĪsā ibn Muḥammad al-ʿUrayḍī al-Muhājir
+  full_name_ar: أحمد بن عيسى بن محمد العُريضي المهاجر
+  laqab: al-Muhājir
+  nisba: al-Ḥusaynī
+  role: scholar_sayyid_emigrant_yemen_hadhramaut
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: faqih-al-muqaddam
+  full_name_en: Muḥammad ibn ʿAlī Bā ʿAlawī — al-Faqīh al-Muqaddam
+  full_name_ar: محمد بن علي باعلوي — الفقيه المقدّم
+  laqab: al-Faqīh al-Muqaddam
+  nisba: al-Ḥusaynī al-Bā ʿAlawī
+  role: scholar_jurist_shafii_sufi_hadhrami_ba_alawi_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abd-al-rahman-al-saqqaf
+  full_name_en: ʿAbd al-Raḥmān ibn Muḥammad Bā ʿAlawī al-Saqqāf
+  full_name_ar: عبد الرحمن بن محمد باعلوي السقّاف
+  laqab: al-Saqqāf
+  nisba: al-Ḥusaynī al-Bā ʿAlawī
+  role: scholar_jurist_shafii_sufi_hadhrami_ba_alawi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: umar-al-muhdar
+  full_name_en: ʿUmar ibn ʿAbd al-Raḥmān al-Saqqāf Bā ʿAlawī al-Muḥdar
+  full_name_ar: عمر بن عبد الرحمن السقّاف باعلوي المُحضار
+  laqab: al-Muḥdar
+  nisba: al-Ḥusaynī al-Bā ʿAlawī
+  role: scholar_jurist_shafii_sufi_hadhrami_ba_alawi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: yahya-al-amiri-harani
+  full_name_en: Yaḥyā ibn Abī Bakr ibn Muḥammad al-ʿĀmirī al-Ḥaranī al-Yamanī
+  full_name_ar: يحيى بن أبي بكر بن محمد العامري الحرّاني اليماني
+  kunya: Abū Zakariyyā
+  nisba: al-ʿĀmirī al-Ḥaranī al-Yamanī
+  role: scholar_jurist_shafii_historian_biographer_yemen
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-daybaa
+  full_name_en: Wajīh al-Dīn ʿAbd al-Raḥmān ibn ʿAlī al-Shaybānī al-Zabīdī (Ibn al-Daybāʿ)
+  full_name_ar: وجيه الدين عبد الرحمن بن علي الشيباني الزبيدي (ابن الديبع)
+  kunya: Abū Muḥammad
+  laqab: Wajīh al-Dīn
+  nisba: al-Shaybānī al-Zabīdī
+  role: scholar_muhaddith_historian_mawlid_zabid_yemen
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-ibn-id-al-habashi
+  full_name_en: Aḥmad ibn ʿĪd ibn ʿAbd al-Raḥmān Bā ʿAlawī al-Ḥabashī
+  full_name_ar: أحمد بن عيد بن عبد الرحمن باعلوي الحبشي
+  nisba: al-Ḥusaynī al-Bā ʿAlawī al-Ḥabashī
+  role: scholar_jurist_shafii_sufi_hadhrami_ba_alawi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: abd-allah-al-haddad
+  full_name_en: ʿAbd Allāh ibn ʿAlawī ibn Muḥammad al-Ḥaddād
+  full_name_ar: عبد الله بن علوي بن محمد الحدّاد
+  kunya: Abū Muḥammad
+  nisba: al-Ḥusaynī al-Bā ʿAlawī al-Ḥaddād
+  role: scholar_jurist_shafii_sufi_hadhrami_ba_alawi_imam
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: sulayman-al-ahdal
+  full_name_en: Sulaymān ibn Yaḥyā ibn ʿUmar al-Ahdal
+  full_name_ar: سليمان بن يحيى بن عمر الأهدل
+  nisba: al-Ahdal al-Zabīdī
+  role: scholar_muhaddith_shafii_zabid_yemen
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-rahman-al-ahdal
+  full_name_en: ʿAbd al-Raḥmān ibn Sulaymān al-Ahdal
+  full_name_ar: عبد الرحمن بن سليمان الأهدل
+  nisba: al-Ahdal al-Zabīdī
+  role: scholar_jurist_muhaddith_mufti_shafii_zabid_yemen
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: malik-ibn-dinar
+  full_name_en: Mālik ibn Dīnār al-Baṣrī
+  full_name_ar: مالك بن دينار البصري
+  kunya: Abū Yaḥyā
+  nisba: al-Baṣrī
+  role: scholar_zahid_basri_muhaddith_tabii
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibrahim-ibn-adham
+  full_name_en: Ibrāhīm ibn Adham ibn Manṣūr al-Balkhī
+  full_name_ar: إبراهيم بن أدهم بن منصور البلخي
+  kunya: Abū Isḥāq
+  nisba: al-Balkhī
+  role: scholar_zahid_khurasani_muhaddith
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: dawud-al-tai
+  full_name_en: Dāwūd ibn Nuṣayr al-Ṭāʾī al-Kūfī
+  full_name_ar: داود بن نُصَير الطائي الكوفي
+  kunya: Abū Sulaymān
+  nisba: al-Ṭāʾī al-Kūfī
+  role: scholar_zahid_kufi_hanafi_muhaddith
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-wahid-ibn-zayd
+  full_name_en: ʿAbd al-Wāḥid ibn Zayd al-Baṣrī
+  full_name_ar: عبد الواحد بن زيد البصري
+  nisba: al-Baṣrī
+  role: scholar_zahid_basri_abbadan_ribat_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: fudayl-ibn-iyad
+  full_name_en: al-Fuḍayl ibn ʿIyāḍ ibn Masʿūd al-Tamīmī al-Yarbūʿī
+  full_name_ar: الفضيل بن عياض بن مسعود التميمي اليربوعي
+  kunya: Abū ʿAlī
+  nisba: al-Tamīmī al-Yarbūʿī
+  role: scholar_zahid_khurasani_meccan_muhaddith
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: bishr-al-hafi
+  full_name_en: Bishr ibn al-Ḥārith al-Marwazī al-Baghdādī (al-Ḥāfī)
+  full_name_ar: بِشر بن الحارث المروزي البغدادي (الحافي)
+  kunya: Abū Naṣr
+  laqab: al-Ḥāfī
+  nisba: al-Marwazī al-Baghdādī
+  role: scholar_zahid_baghdadi_hanbali_circle_muhaddith
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-muhasibi
+  full_name_en: al-Ḥārith ibn Asad al-Muḥāsibī al-Baṣrī
+  full_name_ar: الحارث بن أسد المحاسبي البصري
+  kunya: Abū ʿAbdullāh
+  nisba: al-Muḥāsibī al-Baṣrī
+  role: scholar_sufi_mutakallim_baghdadi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: dhu-al-nun-al-misri
+  full_name_en: Dhū al-Nūn — Thawbān ibn Ibrāhīm al-Miṣrī
+  full_name_ar: ذو النون — ثوبان بن إبراهيم المصري
+  kunya: Abū al-Fayḍ
+  laqab: Dhū al-Nūn
+  nisba: al-Miṣrī
+  role: scholar_sufi_egyptian_maliki_muhaddith
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: bayazid-al-bistami
+  full_name_en: Abū Yazīd Ṭayfūr ibn ʿĪsā al-Bisṭāmī (Bāyazīd)
+  full_name_ar: أبو يزيد طيفور بن عيسى البسطامي (بايزيد)
+  kunya: Abū Yazīd
+  nisba: al-Bisṭāmī
+  role: scholar_sufi_khurasani_bistami
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-said-al-kharraz
+  full_name_en: Aḥmad ibn ʿĪsā al-Kharrāz al-Baghdādī
+  full_name_ar: أحمد بن عيسى الخرّاز البغدادي
+  kunya: Abū Saʿīd
+  nisba: al-Kharrāz al-Baghdādī
+  role: scholar_sufi_baghdadi_junaydi_kitab_al_sidq
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-nujaym
+  full_name_en: Zayn al-Dīn ibn Ibrāhīm Ibn Nujaym al-Miṣrī
+  full_name_ar: زين الدين بن إبراهيم ابن نجيم المصري
+  laqab: Zayn al-Dīn
+  nisba: al-Miṣrī
+  role: scholar_jurist_hanafi_egypt_usuli
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-haskafi
+  full_name_en: ʿAlāʾ al-Dīn Muḥammad ibn ʿAlī al-Ḥaṣkafī
+  full_name_ar: علاء الدين محمد بن علي الحَصكَفي
+  laqab: ʿAlāʾ al-Dīn
+  nisba: al-Ḥaṣkafī al-Dimashqī
+  role: scholar_jurist_hanafi_damascus_mufti
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-abidin
+  full_name_en: Muḥammad Amīn ibn ʿUmar Ibn ʿĀbidīn al-Dimashqī
+  full_name_ar: محمد أمين بن عمر ابن عابدين الدمشقي
+  laqab: Khātimat al-Muḥaqqiqīn
+  nisba: al-Ḥusaynī al-Dimashqī
+  role: scholar_jurist_hanafi_damascus_late
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-qarafi
+  full_name_en: Shihāb al-Dīn Aḥmad ibn Idrīs al-Qarāfī
+  full_name_ar: شهاب الدين أحمد بن إدريس القرافي
+  laqab: Shihāb al-Dīn
+  nisba: al-Ṣanhājī al-Qarāfī
+  role: scholar_jurist_maliki_egypt_usuli
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: khalil-al-jundi
+  full_name_en: Khalīl ibn Isḥāq al-Jundī al-Mālikī
+  full_name_ar: خليل بن إسحاق الجندي المالكي
+  nisba: al-Jundī al-Miṣrī
+  role: scholar_jurist_maliki_egypt_mukhtasar
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-khatib-al-shirbini
+  full_name_en: Shams al-Dīn Muḥammad ibn Aḥmad al-Khaṭīb al-Shirbīnī
+  full_name_ar: شمس الدين محمد بن أحمد الخطيب الشربيني
+  laqab: Shams al-Dīn
+  nisba: al-Shirbīnī al-Qāhirī
+  role: scholar_jurist_shafii_egypt_mufassir
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: shams-al-din-al-ramli
+  full_name_en: Shams al-Dīn Muḥammad ibn Aḥmad al-Ramlī
+  full_name_ar: شمس الدين محمد بن أحمد الرملي
+  laqab: Shams al-Dīn (al-Shāfiʿī al-Ṣaghīr)
+  nisba: al-Ramlī al-Manūfī al-Miṣrī
+  role: scholar_jurist_shafii_egypt_mufti
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-bajuri
+  full_name_en: Ibrāhīm ibn Muḥammad al-Bāǧūrī
+  full_name_ar: إبراهيم بن محمد الباجوري
+  nisba: al-Bāǧūrī al-Azharī
+  role: scholar_jurist_shafii_azhar_late
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-zarkashi
+  full_name_en: Badr al-Dīn Muḥammad ibn Bahādur al-Zarkashī
+  full_name_ar: بدر الدين محمد بن بهادر الزركشي
+  laqab: Badr al-Dīn
+  nisba: al-Zarkashī al-Miṣrī
+  role: scholar_jurist_shafii_usuli_quran_sciences
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-isnawi
+  full_name_en: Jamāl al-Dīn ʿAbd al-Raḥīm ibn al-Ḥasan al-Isnawī
+  full_name_ar: جمال الدين عبد الرحيم بن الحسن الإسنوي
+  laqab: Jamāl al-Dīn
+  nisba: al-Isnawī al-Miṣrī
+  role: scholar_jurist_shafii_usuli_egypt
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mardawi
+  full_name_en: ʿAlāʾ al-Dīn Abū al-Ḥasan ʿAlī ibn Sulaymān al-Mardāwī
+  full_name_ar: علاء الدين أبو الحسن علي بن سليمان المرداوي
+  kunya: Abū al-Ḥasan
+  laqab: ʿAlāʾ al-Dīn
+  nisba: al-Mardāwī al-Dimashqī
+  role: scholar_jurist_hanbali_damascus_codifier
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-buhuti
+  full_name_en: Manṣūr ibn Yūnus al-Buhūtī
+  full_name_ar: منصور بن يونس البهوتي
+  nisba: al-Buhūtī al-Miṣrī
+  role: scholar_jurist_hanbali_egypt_late_codifier
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-najjar-al-futuhi
+  full_name_en: Taqī al-Dīn Muḥammad ibn Aḥmad Ibn al-Najjār al-Futūḥī
+  full_name_ar: تقي الدين محمد بن أحمد ابن النجار الفتوحي
+  laqab: Taqī al-Dīn
+  nisba: al-Futūḥī al-Miṣrī
+  role: scholar_jurist_hanbali_egypt_usuli
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-qaim-fatimid
+  full_name_en: Abū al-Qāsim Muḥammad al-Qāʾim bi-Amr Allāh
+  full_name_ar: أبو القاسم محمد القائم بأمر الله
+  kunya: Abū al-Qāsim
+  laqab: al-Qāʾim bi-Amr Allāh
+  role: ruler_caliph_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mansur-fatimid
+  full_name_en: Abū al-Ṭāhir Ismāʿīl al-Manṣūr bi-Naṣr Allāh
+  full_name_ar: أبو الطاهر إسماعيل المنصور بنصر الله
+  kunya: Abū al-Ṭāhir
+  laqab: al-Manṣūr bi-Naṣr Allāh
+  role: ruler_caliph_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-muizz-li-din-allah
+  full_name_en: Abū Tamīm Maʿadd al-Muʿizz li-Dīn Allāh
+  full_name_ar: أبو تميم معدّ المعز لدين الله
+  kunya: Abū Tamīm
+  laqab: al-Muʿizz li-Dīn Allāh
+  role: ruler_caliph_fatimid_egypt_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-aziz-fatimid
+  full_name_en: Abū Manṣūr Nizār al-ʿAzīz bi-Allāh
+  full_name_ar: أبو منصور نزار العزيز بالله
+  kunya: Abū Manṣūr
+  laqab: al-ʿAzīz bi-Allāh
+  role: ruler_caliph_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-hakim-fatimid
+  full_name_en: Abū ʿAlī al-Manṣūr al-Ḥākim bi-Amr Allāh
+  full_name_ar: أبو علي المنصور الحاكم بأمر الله
+  kunya: Abū ʿAlī
+  laqab: al-Ḥākim bi-Amr Allāh
+  role: ruler_caliph_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-zahir-fatimid
+  full_name_en: Abū al-Ḥasan ʿAlī al-Ẓāhir li-Iʿzāz Dīn Allāh
+  full_name_ar: أبو الحسن علي الظاهر لإعزاز دين الله
+  kunya: Abū al-Ḥasan
+  laqab: al-Ẓāhir li-Iʿzāz Dīn Allāh
+  role: ruler_caliph_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mustansir-fatimid
+  full_name_en: Abū Tamīm Maʿadd al-Mustanṣir bi-Allāh
+  full_name_ar: أبو تميم معدّ المستنصر بالله
+  kunya: Abū Tamīm
+  laqab: al-Mustanṣir bi-Allāh
+  role: ruler_caliph_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-amir-fatimid
+  full_name_en: Abū ʿAlī al-Manṣūr al-Āmir bi-Aḥkām Allāh
+  full_name_ar: أبو علي المنصور الآمر بأحكام الله
+  kunya: Abū ʿAlī
+  laqab: al-Āmir bi-Aḥkām Allāh
+  role: ruler_caliph_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-adid-fatimid
+  full_name_en: Abū Muḥammad ʿAbd Allāh al-ʿĀḍid li-Dīn Allāh
+  full_name_ar: أبو محمد عبد الله العاضد لدين الله
+  kunya: Abū Muḥammad
+  laqab: al-ʿĀḍid li-Dīn Allāh
+  role: ruler_caliph_fatimid_last
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: jawhar-al-siqilli
+  full_name_en: Jawhar ibn ʿAbd Allāh al-Ṣiqillī
+  full_name_ar: جوهر بن عبد الله الصقلي
+  nisba: al-Ṣiqillī
+  role: military_commander_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: nizar-ibn-al-mustansir
+  full_name_en: Abū Manṣūr Nizār ibn al-Mustanṣir
+  full_name_ar: أبو منصور نزار بن المستنصر
+  kunya: Abū Manṣūr
+  role: fatimid_pretender_nizari_origin
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-afdal-shahanshah
+  full_name_en: al-Afḍal Shāhanshāh ibn Badr al-Jamālī
+  full_name_ar: الأفضل شاهنشاه بن بدر الجمالي
+  laqab: al-Afḍal
+  role: vizier_fatimid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-waqid-al-laythi
+  full_name_en: al-Ḥārith ibn ʿAwf — Abū Wāqid al-Laythī
+  full_name_ar: الحارث بن عوف — أبو واقد الليثي
+  kunya: Abū Wāqid
+  nisba: al-Laythī al-Kinānī
+  role: companion_narrator_kinana
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: abu-lubaba-ibn-abd-al-mundhir
+  full_name_en: Bashīr ibn ʿAbd al-Mundhir — Abū Lubāba al-Anṣārī
+  full_name_ar: بشير بن عبد المنذر — أبو لبابة الأنصاري
+  kunya: Abū Lubāba
+  nisba: al-Anṣārī al-Awsī
+  role: companion_naqib_aqaba_aws
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: abdullah-ibn-mughaffal-al-muzani
+  full_name_en: ʿAbdullāh ibn Mughaffal al-Muzanī
+  full_name_ar: عبد الله بن مغفل المزني
+  kunya: Abū Saʿīd
+  nisba: al-Muzanī
+  role: companion_bayat_al_ridwan_basra_narrator
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: usama-ibn-zayd
+  full_name_en: Usāma ibn Zayd ibn Ḥāritha al-Kalbī
+  full_name_ar: أسامة بن زيد بن حارثة الكلبي
+  kunya: Abū Muḥammad
+  nisba: al-Kalbī
+  role: companion_hibb_ibn_hibb_commander_usama_expedition
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: al-numan-ibn-bashir
+  full_name_en: al-Nuʿmān ibn Bashīr al-Anṣārī
+  full_name_ar: النعمان بن بشير الأنصاري
+  kunya: Abū ʿAbdillāh
+  nisba: al-Anṣārī al-Khazrajī
+  role: companion_first_ansari_child_governor_hims
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: fadala-ibn-ubayd
+  full_name_en: Faḍāla ibn ʿUbayd ibn Nāfidh al-Anṣārī
+  full_name_ar: فضالة بن عبيد بن نافذ الأنصاري
+  kunya: Abū Muḥammad
+  nisba: al-Anṣārī al-Awsī
+  role: companion_qadi_damascus_naval_commander
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: thawban-mawla-rasul-allah
+  full_name_en: Thawbān ibn Bujdud — Mawlā of the Prophet ﷺ
+  full_name_ar: ثوبان بن بُجدد — مولى رسول الله ﷺ
+  kunya: Abū ʿAbdillāh
+  role: companion_freedman_of_prophet_hims_narrator
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: abu-amama-al-bahili
+  full_name_en: Ṣudayy ibn ʿAjlān — Abū Umāma al-Bāhilī
+  full_name_ar: صديّ بن عجلان — أبو أمامة الباهلي
+  kunya: Abū Umāma
+  nisba: al-Bāhilī
+  role: companion_last_sahabi_in_syria
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: rafi-ibn-khadij
+  full_name_en: Rāfiʿ ibn Khadīj al-Anṣārī
+  full_name_ar: رافع بن خديج الأنصاري
+  kunya: Abū ʿAbdillāh
+  nisba: al-Anṣārī al-Awsī
+  role: companion_uhud_witness_narrator_sharecropping
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: shaddad-ibn-aws
+  full_name_en: Shaddād ibn Aws ibn Thābit al-Anṣārī
+  full_name_ar: شداد بن أوس بن ثابت الأنصاري
+  kunya: Abū Yaʿlā
+  nisba: al-Anṣārī al-Khazrajī
+  role: companion_jerusalem_sayyid_al_istighfar
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: abu-al-darda
+  full_name_en: ʿUwaymir ibn Mālik — Abū al-Dardāʾ al-Anṣārī
+  full_name_ar: عويمر بن مالك — أبو الدرداء الأنصاري
+  kunya: Abū al-Dardāʾ
+  nisba: al-Anṣārī al-Khazrajī
+  role: companion_hakim_al_umma_qadi_damascus
+  is_prophet: false
+  is_sahabi: true
+  is_ahl_al_bayt: false
+  image_url: null
+  image_blocked_reason: religious_prohibition
+- slug: ibn-khafif-al-shirazi
+  full_name_en: Abū ʿAbd Allāh Muḥammad ibn Khafīf al-Ḍabbī al-Shīrāzī
+  full_name_ar: أبو عبد الله محمد بن خفيف الضبي الشيرازي
+  kunya: Abū ʿAbd Allāh
+  nisba: al-Ḍabbī al-Shīrāzī
+  role: scholar_sufi_shafii_shiraz_khafifiyya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-niffari
+  full_name_en: Muḥammad ibn ʿAbd al-Jabbār ibn al-Ḥasan al-Niffārī
+  full_name_ar: محمد بن عبد الجبار بن الحسن النِّفَّري
+  nisba: al-Niffārī
+  role: scholar_sufi_iraq_mawaqif
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-nasr-al-sarraj
+  full_name_en: Abū Naṣr ʿAbd Allāh ibn ʿAlī al-Sarrāj al-Ṭūsī
+  full_name_ar: أبو نصر عبد الله بن علي السرّاج الطوسي
+  kunya: Abū Naṣr
+  nisba: al-Sarrāj al-Ṭūsī
+  role: scholar_sufi_khurasan_lumaa
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-kalabadhi
+  full_name_en: Abū Bakr Muḥammad ibn Isḥāq al-Kalābādhī al-Bukhārī
+  full_name_ar: أبو بكر محمد بن إسحاق الكلاباذي البخاري
+  kunya: Abū Bakr
+  nisba: al-Kalābādhī al-Bukhārī
+  role: scholar_sufi_hanafi_bukhara_taarruf
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-talib-al-makki
+  full_name_en: Abū Ṭālib Muḥammad ibn ʿAlī al-Makkī al-Ḥārithī
+  full_name_ar: أبو طالب محمد بن علي المكي الحارثي
+  kunya: Abū Ṭālib
+  nisba: al-Makkī al-Ḥārithī
+  role: scholar_sufi_maliki_baghdad_qut_al_qulub
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-nuaym-al-isfahani
+  full_name_en: Abū Nuʿaym Aḥmad ibn ʿAbd Allāh al-Iṣfahānī
+  full_name_ar: أبو نُعيم أحمد بن عبد الله الأصبهاني
+  kunya: Abū Nuʿaym
+  nisba: al-Iṣfahānī
+  role: scholar_muhaddith_shafii_isfahan_hilya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-ansari-al-harawi
+  full_name_en: Abū Ismāʿīl ʿAbd Allāh ibn Muḥammad al-Anṣārī al-Harawī
+  full_name_ar: أبو إسماعيل عبد الله بن محمد الأنصاري الهروي
+  kunya: Abū Ismāʿīl
+  laqab: Shaykh al-Islām
+  nisba: al-Anṣārī al-Harawī
+  role: scholar_hanbali_sufi_herat_manazil
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-al-ghazali
+  full_name_en: Majd al-Dīn Abū al-Futūḥ Aḥmad ibn Muḥammad al-Ghazālī al-Ṭūsī
+  full_name_ar: مجد الدين أبو الفتوح أحمد بن محمد الغزالي الطوسي
+  kunya: Abū al-Futūḥ
+  laqab: Majd al-Dīn
+  nisba: al-Ghazālī al-Ṭūsī
+  role: scholar_sufi_shafii_khurasan_sawanih
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ayn-al-qudat-al-hamadhani
+  full_name_en: Abū al-Maʿālī ʿAbd Allāh ibn Muḥammad al-Miyānajī al-Hamadhānī
+  full_name_ar: أبو المعالي عبد الله بن محمد الميانجي الهمذاني
+  kunya: Abū al-Maʿālī
+  laqab: ʿAyn al-Quḍāt
+  nisba: al-Miyānajī al-Hamadhānī
+  role: scholar_sufi_shafii_qadi_hamadhan_tamhidat
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yahya-al-suhrawardi-al-maqtul
+  full_name_en: Shihāb al-Dīn Abū al-Futūḥ Yaḥyā ibn Ḥabash al-Suhrawardī (al-Maqtūl)
+  full_name_ar: شهاب الدين أبو الفتوح يحيى بن حبش السهروردي (المقتول)
+  kunya: Abū al-Futūḥ
+  laqab: Shaykh al-Ishrāq
+  nisba: al-Suhrawardī
+  role: philosopher_ishraq_shafii_aleppo_executed
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: aybak
+  full_name_en: al-Malik al-Muʿizz Aybak
+  full_name_ar: الملك المعز أيبك
+  laqab: al-Muʿizz
+  role: sultan_mamluk_bahri_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: shajarat-al-durr
+  full_name_en: Shajarat al-Durr
+  full_name_ar: شجر الدر
+  role: sultana_mamluk
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-nasir-muhammad-ibn-qalawun
+  full_name_en: al-Malik al-Nāṣir Nāṣir al-Dīn Muḥammad ibn Qalāwūn
+  full_name_ar: الملك الناصر ناصر الدين محمد بن قلاوون
+  laqab: al-Nāṣir
+  role: sultan_mamluk_bahri
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mansur-lajin
+  full_name_en: al-Malik al-Manṣūr Ḥusām al-Dīn Lāǧīn al-Manṣūrī
+  full_name_ar: الملك المنصور حسام الدين لاجين المنصوري
+  laqab: al-Manṣūr
+  nisba: al-Manṣūrī
+  role: sultan_mamluk_bahri
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-zahir-barquq
+  full_name_en: al-Malik al-Ẓāhir Sayf al-Dīn Barqūq al-Yalbughāwī al-Ẓāhirī
+  full_name_ar: الملك الظاهر سيف الدين برقوق اليلبغاوي الظاهري
+  laqab: al-Ẓāhir
+  nisba: al-Yalbughāwī al-Ẓāhirī
+  role: sultan_mamluk_burji_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-nasir-faraj
+  full_name_en: al-Malik al-Nāṣir Nāṣir al-Dīn Faraj ibn Barqūq
+  full_name_ar: الملك الناصر ناصر الدين فرج بن برقوق
+  laqab: al-Nāṣir
+  role: sultan_mamluk_burji
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-muayyad-shaykh
+  full_name_en: al-Malik al-Muʾayyad Sayf al-Dīn Shaykh al-Maḥmūdī
+  full_name_ar: الملك المؤيد سيف الدين شيخ المحمودي
+  laqab: al-Muʾayyad
+  nisba: al-Maḥmūdī
+  role: sultan_mamluk_burji
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-ashraf-barsbay
+  full_name_en: al-Malik al-Ashraf Sayf al-Dīn Barsbāy al-Ẓāhirī
+  full_name_ar: الملك الأشرف سيف الدين برسباي الظاهري
+  laqab: al-Ashraf
+  nisba: al-Ẓāhirī
+  role: sultan_mamluk_burji
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-zahir-jaqmaq
+  full_name_en: al-Malik al-Ẓāhir Sayf al-Dīn Jaqmaq al-ʿAlāʾī
+  full_name_ar: الملك الظاهر سيف الدين جقمق العلائي
+  laqab: al-Ẓāhir
+  nisba: al-ʿAlāʾī
+  role: sultan_mamluk_burji
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-ashraf-qaytbay
+  full_name_en: al-Malik al-Ashraf Sayf al-Dīn Qāyt Bāy al-Maḥmūdī al-Ẓāhirī
+  full_name_ar: الملك الأشرف سيف الدين قايتباي المحمودي الظاهري
+  laqab: al-Ashraf
+  nisba: al-Maḥmūdī al-Ẓāhirī
+  role: sultan_mamluk_burji
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: tuman-bay-ii
+  full_name_en: al-Malik al-Ashraf Ṭūmān Bāy II
+  full_name_ar: الملك الأشرف طومان باي الثاني
+  laqab: al-Ashraf
+  role: sultan_mamluk_burji_last
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-yaqub-yusuf-almohad
+  full_name_en: Abū Yaʿqūb Yūsuf I — Almohad Caliph
+  full_name_ar: أبو يعقوب يوسف الأول — خليفة الموحدين
+  kunya: Abū Yaʿqūb
+  laqab: Amīr al-Muʾminīn
+  role: ruler_caliph_almohad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-nasir-almohad
+  full_name_en: Muḥammad al-Nāṣir li-Dīn Allāh — Almohad Caliph
+  full_name_ar: محمد الناصر لدين الله — خليفة الموحدين
+  laqab: al-Nāṣir
+  role: ruler_caliph_almohad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: qutb-al-din-aybak
+  full_name_en: Quṭb al-Dīn Aybak — First Sultan of Delhi
+  full_name_ar: قطب الدين أيبك — أول سلاطين دلهي
+  laqab: Quṭb al-Dīn
+  role: sultan_delhi_mamluk_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: iltutmish
+  full_name_en: Shams al-Dīn Iltutmish — Sultan of Delhi
+  full_name_ar: شمس الدين إيلتُتْمِش — سلطان دلهي
+  laqab: Shams al-Dīn
+  role: sultan_delhi_mamluk_consolidator
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ala-al-din-muhammad-khwarazmshah
+  full_name_en: ʿAlāʾ al-Dīn Muḥammad II Khwārazmshāh
+  full_name_ar: علاء الدين محمد الثاني خوارزم شاه
+  laqab: ʿAlāʾ al-Dīn
+  role: ruler_khwarazm_shah
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: genghis-khan
+  full_name_en: Chinggis (Genghis) Khan — Founder of the Mongol Empire
+  full_name_ar: جنكيز خان — مؤسس الإمبراطورية المغولية
+  role: ruler_mongol_khan_non_muslim
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: hulegu
+  full_name_en: Hülegü Khan — Founder of the Ilkhanate
+  full_name_ar: هولاكو خان — مؤسس دولة الإيلخانية
+  role: ruler_ilkhanid_founder_non_muslim
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-zakariyya-yahya-hafsid
+  full_name_en: Abū Zakariyyāʾ Yaḥyā I al-Ḥafṣī
+  full_name_ar: أبو زكرياء يحيى الأول الحفصي
+  kunya: Abū Zakariyyāʾ
+  nisba: al-Ḥafṣī
+  role: founder_hafsid_dynasty_tunis
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mustansir-hafsid
+  full_name_en: Abū ʿAbd Allāh Muḥammad al-Mustanṣir al-Ḥafṣī
+  full_name_ar: أبو عبد الله محمد المستنصر الحفصي
+  laqab: al-Mustanṣir
+  nisba: al-Ḥafṣī
+  role: caliph_hafsid_tunis
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yaghmurasan-zayyanid
+  full_name_en: Yaghmurāsan ibn Zayyān al-ʿAbd al-Wādī
+  full_name_ar: يغمراسن بن زيان العبد الوادي
+  nisba: al-Zayyānī
+  role: founder_zayyanid_abd_al_wadid_dynasty_tlemcen
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-yusuf-yaqub-marini
+  full_name_en: Abū Yūsuf Yaʿqūb ibn ʿAbd al-Ḥaqq al-Marīnī
+  full_name_ar: أبو يوسف يعقوب بن عبد الحق المريني
+  kunya: Abū Yūsuf
+  nisba: al-Marīnī
+  role: sultan_marinid_morocco
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-al-hasan-marini
+  full_name_en: Abū al-Ḥasan ʿAlī al-Marīnī (al-Sulṭān al-Akbar)
+  full_name_ar: أبو الحسن علي المريني (السلطان الأكبر)
+  kunya: Abū al-Ḥasan
+  nisba: al-Marīnī
+  role: sultan_marinid_morocco
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-inan-marini
+  full_name_en: Abū ʿInān Fāris al-Marīnī
+  full_name_ar: أبو عنان فارس المريني
+  kunya: Abū ʿInān
+  nisba: al-Marīnī
+  role: sultan_marinid_morocco
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-al-shaykh-wattasi
+  full_name_en: Muḥammad al-Shaykh al-Mahdī al-Waṭṭāsī
+  full_name_ar: محمد الشيخ المهدي الوطاسي
+  nisba: al-Waṭṭāsī
+  role: founder_wattasid_dynasty_fez
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-al-qaim-saadi
+  full_name_en: Muḥammad ibn ʿAbd al-Raḥmān al-Qāʾim bi-Amr Allāh al-Saʿdī
+  full_name_ar: محمد بن عبد الرحمن القائم بأمر الله السعدي
+  laqab: al-Qāʾim bi-Amr Allāh
+  nisba: al-Saʿdī
+  role: founder_saadi_sharifian_dynasty_morocco
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-al-araj-saadi
+  full_name_en: Aḥmad al-Aʿraj al-Saʿdī
+  full_name_ar: أحمد الأعرج السعدي
+  laqab: al-Aʿraj
+  nisba: al-Saʿdī
+  role: sultan_saadi_morocco
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-malik-al-muttawakkil-saadi
+  full_name_en: Abū Marwān ʿAbd al-Malik al-Saʿdī
+  full_name_ar: أبو مروان عبد الملك السعدي
+  nisba: al-Saʿdī
+  role: sultan_saadi_morocco
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: mawlay-al-sharif-alawi
+  full_name_en: Mawlāy al-Sharīf ibn ʿAlī al-ʿAlawī
+  full_name_ar: مولاي الشريف بن علي العلوي
+  laqab: al-Sharīf
+  nisba: al-ʿAlawī al-Ḥasanī
+  role: founder_alawi_sharifian_dynasty_morocco
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+- slug: mawlay-ismail-ibn-al-sharif
+  full_name_en: Mawlāy Ismāʿīl ibn al-Sharīf al-ʿAlawī
+  full_name_ar: مولاي إسماعيل بن الشريف العلوي
+  nisba: al-ʿAlawī al-Ḥasanī
+  role: sultan_alawi_morocco
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+  image_blocked_reason: religious_prohibition
+- slug: sulayman-ibn-abd-al-malik
+  full_name_en: Sulaymān ibn ʿAbd al-Malik
+  full_name_ar: سليمان بن عبد الملك
+  kunya: Abu Ayyūb
+  role: caliph_umayyad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yazid-ii
+  full_name_en: Yazīd II ibn ʿAbd al-Malik
+  full_name_ar: يزيد بن عبد الملك
+  kunya: Abu Khālid
+  role: caliph_umayyad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: hisham-ibn-abd-al-malik
+  full_name_en: Hishām ibn ʿAbd al-Malik
+  full_name_ar: هشام بن عبد الملك
+  kunya: Abu al-Walīd
+  role: caliph_umayyad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: marwan-ii
+  full_name_en: Marwān II ibn Muḥammad
+  full_name_ar: مروان بن محمد
+  kunya: Abu ʿAbd al-Malik
+  laqab: al-Ḥimār
+  role: caliph_umayyad_last
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: musab-ibn-al-zubayr
+  full_name_en: Muṣʿab ibn al-Zubayr ibn al-ʿAwwām
+  full_name_ar: مصعب بن الزبير بن العوّام
+  kunya: Abu ʿAbd Allāh
+  role: governor_zubayrid_iraq
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mukhtar-al-thaqafi
+  full_name_en: al-Mukhtār ibn Abī ʿUbayd al-Thaqafī
+  full_name_ar: المختار بن أبي عبيد الثقفي
+  kunya: Abu Isḥāq
+  nisba: al-Thaqafī
+  role: revolutionary_kufan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibrahim-al-ashtar
+  full_name_en: Ibrāhīm ibn Mālik al-Ashtar al-Nakhaʿī
+  full_name_ar: إبراهيم بن مالك الأشتر النخعي
+  kunya: Abu al-Nuʿmān
+  nisba: al-Nakhaʿī
+  role: commander_kufan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ubayd-allah-ibn-ziyad
+  full_name_en: ʿUbayd Allāh ibn Ziyād ibn Abīhi
+  full_name_ar: عبيد الله بن زياد بن أبيه
+  kunya: Abu Ḥafṣ
+  role: governor_umayyad_iraq
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-hajjaj-ibn-yusuf
+  full_name_en: al-Ḥajjāj ibn Yūsuf al-Thaqafī
+  full_name_ar: الحجاج بن يوسف الثقفي
+  kunya: Abu Muḥammad
+  nisba: al-Thaqafī
+  role: governor_umayyad_iraq
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-saffah
+  full_name_en: Abū al-ʿAbbās ʿAbd Allāh al-Saffāḥ
+  full_name_ar: أبو العباس عبد الله السفّاح
+  kunya: Abu al-ʿAbbās
+  laqab: al-Saffāḥ
+  role: caliph_abbasid_first
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abdullah-ibn-ali
+  full_name_en: ʿAbd Allāh ibn ʿAlī ibn ʿAbd Allāh ibn al-ʿAbbās
+  full_name_ar: عبد الله بن علي بن عبد الله بن العباس
+  kunya: Abu Muḥammad
+  role: commander_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-muslim-al-khurasani
+  full_name_en: Abū Muslim ʿAbd al-Raḥmān ibn Muslim al-Khurāsānī
+  full_name_ar: أبو مسلم عبد الرحمن بن مسلم الخراساني
+  kunya: Abu Muslim
+  nisba: al-Khurāsānī
+  role: revolutionary_dawa_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yusuf-al-nabhani
+  full_name_en: Yūsuf ibn Ismāʿīl al-Nabhānī
+  full_name_ar: يوسف بن إسماعيل النبهاني
+  nisba: al-Nabhānī
+  role: scholar_jurist_shafii_sufi_judge_late_ottoman_beirut
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-bakhit-al-mutii
+  full_name_en: Muḥammad Bakhīt al-Muṭīʿī
+  full_name_ar: محمد بخيت المطيعي
+  nisba: al-Muṭīʿī
+  role: scholar_jurist_hanafi_grand_mufti_egypt_azhar
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: jamal-al-din-al-qasimi
+  full_name_en: Muḥammad Jamāl al-Dīn al-Qāsimī
+  full_name_ar: محمد جمال الدين القاسمي
+  nisba: al-Qāsimī
+  role: scholar_mufassir_reformist_late_ottoman_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: tahir-al-jazairi
+  full_name_en: Ṭāhir ibn Ṣāliḥ al-Jazāʾirī
+  full_name_ar: طاهر بن صالح الجزائري
+  nisba: al-Jazāʾirī
+  role: scholar_educator_reformist_late_ottoman_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: salim-al-bishri
+  full_name_en: Salīm al-Bishrī
+  full_name_ar: سليم البشري
+  nisba: al-Bishrī
+  role: scholar_jurist_maliki_shaykh_al_azhar
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-al-khadir-husayn
+  full_name_en: Muḥammad al-Khaḍir ibn al-Ḥusayn ibn ʿAlī ibn ʿUmar
+  full_name_ar: محمد الخضر بن الحسين بن علي بن عمر
+  laqab: al-Khaḍir
+  role: scholar_jurist_maliki_shaykh_al_azhar_tunisian_zaytuna
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-al-madani
+  full_name_en: Muḥammad al-Madanī (Tunisian-Azhari faqīh)
+  full_name_ar: محمد المدني (الفقيه التونسي الأزهري)
+  nisba: al-Madanī
+  role: scholar_jurist_maliki_azhar_zaytuna_tunisian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-al-bahi
+  full_name_en: Muḥammad al-Bahī
+  full_name_ar: محمد البهي
+  nisba: al-Bahī
+  role: scholar_philosophy_modern_thought_azhar_egypt
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-rahman-al-banna-al-saati
+  full_name_en: ʿAbd al-Raḥmān ibn Muḥammad ibn Aḥmad al-Bannā al-Sāʿātī
+  full_name_ar: عبد الرحمن بن محمد بن أحمد البنا الساعاتي
+  nisba: al-Sāʿātī
+  role: scholar_muhaddith_hanafi_egypt_organizer_musnad_ahmad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: said-hawwa
+  full_name_en: Saʿīd Ḥawwā
+  full_name_ar: سعيد حوى
+  role: scholar_mufassir_hanafi_naqshbandi_ikhwan_syria
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: bint-al-shati
+  full_name_en: ʿĀʾisha bint Muḥammad ʿAlī ʿAbd al-Raḥmān (Bint al-Shāṭiʾ)
+  full_name_ar: عائشة بنت محمد علي عبد الرحمن (بنت الشاطئ)
+  laqab: Bint al-Shāṭiʾ
+  role: scholar_mufassira_arabic_literature_egypt
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: zaynab-al-ghazali
+  full_name_en: Zaynab Muḥammad al-Ghazālī al-Jubaylī
+  full_name_ar: زينب محمد الغزالي الجبيلي
+  nisba: al-Jubaylī
+  role: dawa_women_organizer_egypt_ikhwan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-al-hasan-al-karkhi
+  full_name_en: Abū al-Ḥasan ʿUbayd Allāh ibn al-Ḥusayn al-Karkhī
+  full_name_ar: أبو الحسن عبيد الله بن الحسين الكرخي
+  kunya: Abū al-Ḥasan
+  nisba: al-Karkhī
+  role: scholar_jurist_hanafi_iraq_usul_imam
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-quduri
+  full_name_en: Abū al-Ḥusayn Aḥmad ibn Muḥammad ibn Aḥmad al-Qudūrī al-Baghdādī
+  full_name_ar: أبو الحسين أحمد بن محمد بن أحمد القدوري البغدادي
+  kunya: Abū al-Ḥusayn
+  nisba: al-Qudūrī al-Baghdādī
+  role: scholar_jurist_hanafi_baghdad_mukhtasar
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-sadr-al-shahid
+  full_name_en: Ḥusām al-Dīn ʿUmar ibn ʿAbd al-ʿAzīz ibn Māza al-Bukhārī (al-Ṣadr al-Shahīd)
+  full_name_ar: حُسام الدين عمر بن عبد العزيز ابن مازَة البخاري (الصدر الشهيد)
+  laqab: al-Ṣadr al-Shahīd
+  nisba: al-Bukhārī
+  role: scholar_jurist_hanafi_bukhara_fatwa
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-kasani
+  full_name_en: Abū Bakr ʿAlāʾ al-Dīn ibn Masʿūd al-Kāsānī
+  full_name_ar: أبو بكر علاء الدين بن مسعود الكاساني
+  kunya: Abū Bakr
+  laqab: ʿAlāʾ al-Dīn
+  nisba: al-Kāsānī
+  role: scholar_jurist_hanafi_aleppo_badai
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-hasiri
+  full_name_en: Jamāl al-Dīn Maḥmūd ibn Aḥmad al-Ḥaṣīrī al-Bukhārī
+  full_name_ar: جمال الدين محمود بن أحمد الحَصِيري البخاري
+  laqab: Jamāl al-Dīn
+  nisba: al-Ḥaṣīrī al-Bukhārī
+  role: scholar_jurist_hanafi_damascus_faraid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-mawdud-al-mawsili
+  full_name_en: ʿAbd Allāh ibn Maḥmūd ibn Mawdūd al-Mawṣilī
+  full_name_ar: عبد الله بن محمود بن مودود الموصلي
+  nisba: al-Mawṣilī
+  role: scholar_jurist_hanafi_baghdad_ikhtiyar
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: fakhr-al-din-al-zaylai
+  full_name_en: Fakhr al-Dīn ʿUthmān ibn ʿAlī al-Zaylaʿī
+  full_name_ar: فخر الدين عثمان بن علي الزيلعي
+  laqab: Fakhr al-Dīn
+  nisba: al-Zaylaʿī
+  role: scholar_jurist_hanafi_cairo_tabyin
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-babarti
+  full_name_en: Akmal al-Dīn Muḥammad ibn Maḥmūd al-Bābartī
+  full_name_ar: أكمل الدين محمد بن محمود البابرتي
+  laqab: Akmal al-Dīn
+  nisba: al-Bābartī
+  role: scholar_jurist_hanafi_cairo_kalam_inaya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-humam
+  full_name_en: Kamāl al-Dīn Muḥammad ibn ʿAbd al-Wāḥid Ibn al-Humām al-Sīwāsī al-Iskandarī
+  full_name_ar: كمال الدين محمد بن عبد الواحد ابن الهُمام السيواسي الإسكندري
+  laqab: Kamāl al-Dīn
+  nisba: al-Sīwāsī al-Iskandarī
+  role: scholar_jurist_hanafi_cairo_muhaqqiq_fath_al_qadir
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: mulla-khusraw
+  full_name_en: Muḥammad ibn Farāmurz ibn ʿAlī (Mullā Khusraw)
+  full_name_ar: محمد بن فرامرز بن علي (مُلَّا خُسرَو)
+  laqab: Mullā Khusraw
+  role: scholar_jurist_hanafi_ottoman_shaykh_al_islam
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-hayy-al-lakhnawi
+  full_name_en: Abū al-Ḥasanāt Muḥammad ʿAbd al-Ḥayy ibn ʿAbd al-Ḥalīm al-Lakhnawī al-Anṣārī
+  full_name_ar: أبو الحسنات محمد عبد الحي بن عبد الحليم اللكنوي الأنصاري
+  kunya: Abū al-Ḥasanāt
+  nisba: al-Lakhnawī al-Anṣārī
+  role: scholar_jurist_muhaddith_hanafi_india_lucknow
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-marrudhi
+  full_name_en: Abū Bakr Aḥmad ibn Muḥammad ibn al-Ḥajjāj al-Marrūdhī
+  full_name_ar: أبو بكر أحمد بن محمد بن الحجاج المرّوذي
+  kunya: Abū Bakr
+  nisba: al-Marrūdhī
+  role: scholar_jurist_hanbali_companion_of_ahmad_baghdad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-battah-al-ukbari
+  full_name_en: Abū ʿAbd Allāh ʿUbayd Allāh ibn Muḥammad ibn Muḥammad ibn Ḥamdān al-ʿUkbarī
+  full_name_ar: أبو عبد الله عبيد الله بن محمد بن محمد بن حمدان العكبري
+  kunya: Abū ʿAbd Allāh
+  laqab: Ibn Baṭṭa
+  nisba: al-ʿUkbarī
+  role: scholar_jurist_hanbali_creed_ukbara_baghdad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-banna-al-hanbali
+  full_name_en: Abū ʿAlī al-Ḥasan ibn Aḥmad ibn ʿAbd Allāh ibn al-Bannāʾ
+  full_name_ar: أبو علي الحسن بن أحمد بن عبد الله ابن البنّاء
+  kunya: Abū ʿAlī
+  laqab: Ibn al-Bannāʾ
+  role: scholar_jurist_hanbali_polymath_baghdad_buyid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-aqil-al-baghdadi
+  full_name_en: Abū al-Wafāʾ ʿAlī ibn ʿAqīl ibn Muḥammad al-Baghdādī al-Ẓafarī
+  full_name_ar: أبو الوفاء علي بن عقيل بن محمد البغدادي الظفري
+  kunya: Abū al-Wafāʾ
+  nisba: al-Baghdādī al-Ẓafarī
+  role: scholar_jurist_hanbali_usuli_kalam_baghdad_saljuq
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-hubayra
+  full_name_en: ʿAwn al-Dīn Abū al-Muẓaffar Yaḥyā ibn Muḥammad ibn Hubayra al-Shaybānī al-Dūrī
+  full_name_ar: عون الدين أبو المظفر يحيى بن محمد بن هبيرة الشيباني الدُّوري
+  kunya: Abū al-Muẓaffar
+  laqab: ʿAwn al-Dīn
+  nisba: al-Shaybānī al-Dūrī
+  role: scholar_vizier_hanbali_abbasid_baghdad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: harmala-ibn-yahya
+  full_name_en: Abū Ḥafṣ Ḥarmala ibn Yaḥyā ibn ʿAbd Allāh al-Tujībī al-Miṣrī
+  full_name_ar: أبو حفص حرملة بن يحيى بن عبد الله التجيبي المصري
+  kunya: Abū Ḥafṣ
+  nisba: al-Tujībī al-Miṣrī
+  role: scholar_jurist_shafii_disciple_of_al_shafii_egypt
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-hamid-al-isfaraini
+  full_name_en: Abū Ḥāmid Aḥmad ibn Muḥammad ibn Aḥmad al-Isfarāʾīnī
+  full_name_ar: أبو حامد أحمد بن محمد بن أحمد الإسفراييني
+  kunya: Abū Ḥāmid
+  laqab: Imām al-Aṣḥāb
+  nisba: al-Isfarāʾīnī
+  role: scholar_jurist_shafii_baghdad_buyid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-al-hasan-al-mahamili
+  full_name_en: Abū al-Ḥasan Aḥmad ibn Muḥammad ibn Aḥmad al-Ḍabbī al-Maḥāmilī al-Baghdādī
+  full_name_ar: أبو الحسن أحمد بن محمد بن أحمد الضبّي المحاملي البغدادي
+  kunya: Abū al-Ḥasan
+  nisba: al-Ḍabbī al-Maḥāmilī al-Baghdādī
+  role: scholar_jurist_shafii_baghdad_buyid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-furani
+  full_name_en: Abū al-Qāsim ʿAbd al-Raḥmān ibn Muḥammad ibn Aḥmad al-Furānī al-Marwazī
+  full_name_ar: أبو القاسم عبد الرحمن بن محمد بن أحمد الفوراني المروزي
+  kunya: Abū al-Qāsim
+  nisba: al-Furānī al-Marwazī
+  role: scholar_jurist_shafii_marv_rudh_khurasan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-shashi-al-qaffal
+  full_name_en: Faḫr al-Islām Abū Bakr Muḥammad ibn Aḥmad ibn al-Ḥusayn al-Shāshī al-Fāriqī al-Qaffāl al-Mustaẓhirī
+  full_name_ar: فخر الإسلام أبو بكر محمد بن أحمد بن الحسين الشاشي الفارقي القفّال المستظهري
+  kunya: Abū Bakr
+  laqab: Faḫr al-Islām al-Mustaẓhirī
+  nisba: al-Shāshī al-Fāriqī al-Qaffāl
+  role: scholar_jurist_shafii_nizamiyya_baghdad_saljuq
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-qassar-al-maliki
+  full_name_en: al-Qāḍī Abū al-Ḥasan ʿAlī ibn ʿUmar ibn al-Qaṣṣār al-Baghdādī al-Mālikī
+  full_name_ar: القاضي أبو الحسن علي بن عمر بن القصّار البغدادي المالكي
+  kunya: Abū al-Ḥasan
+  nisba: al-Baghdādī al-Mālikī
+  role: scholar_qadi_maliki_baghdad_buyid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mazari
+  full_name_en: Abū ʿAbd Allāh Muḥammad ibn ʿAlī ibn ʿUmar al-Tamīmī al-Māzarī
+  full_name_ar: أبو عبد الله محمد بن علي بن عمر التميمي المازري
+  kunya: Abū ʿAbd Allāh
+  nisba: al-Tamīmī al-Māzarī
+  role: scholar_jurist_maliki_muhaddith_ifriqiyya_mahdiyya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: hisham-i-andalus
+  full_name_en: Hishām I ibn ʿAbd al-Raḥmān al-Dākhil
+  full_name_ar: هشام الأول بن عبد الرحمن الداخل
+  kunya: Abū al-Walīd
+  role: ruler_amir_umayyad_andalus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-hafsun
+  full_name_en: ʿUmar ibn Ḥafṣūn al-Muwallad
+  full_name_ar: عمر بن حفصون المولَّد
+  role: rebel_chief_andalus_bobastro
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-rahman-iii-andalus
+  full_name_en: ʿAbd al-Raḥmān III ibn Muḥammad al-Nāṣir li-Dīn Allāh
+  full_name_ar: عبد الرحمن الثالث بن محمد الناصر لدين الله
+  laqab: al-Nāṣir li-Dīn Allāh
+  role: caliph_umayyad_andalus_first_caliph_cordoba
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-hakam-ii-mustansir
+  full_name_en: al-Ḥakam II ibn ʿAbd al-Raḥmān al-Mustanṣir bi-Allāh
+  full_name_ar: الحكم الثاني بن عبد الرحمن المستنصر بالله
+  laqab: al-Mustanṣir bi-Allāh
+  role: caliph_umayyad_andalus_cordoba
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mansur-ibn-abi-amir
+  full_name_en: Muḥammad ibn Abī ʿĀmir al-Maʿāfirī al-Manṣūr bi-Allāh (Almanzor)
+  full_name_ar: محمد بن أبي عامر المعافري المنصور بالله
+  kunya: Abū ʿĀmir
+  laqab: al-Manṣūr bi-Allāh
+  nisba: al-Maʿāfirī
+  role: hajib_amirid_de_facto_ruler_cordoba
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: hisham-iii-andalus
+  full_name_en: Hishām III ibn Muḥammad al-Muʿtadd bi-Allāh
+  full_name_ar: هشام الثالث بن محمد المعتدّ بالله
+  laqab: al-Muʿtadd bi-Allāh
+  role: caliph_umayyad_andalus_last_cordoba
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yahya-ibn-ali-hammudi
+  full_name_en: Yaḥyā ibn ʿAlī ibn Ḥammūd al-Idrīsī al-ʿAlawī
+  full_name_ar: يحيى بن علي بن حمود الإدريسي العَلَوي
+  laqab: al-Muʿtalī bi-Allāh
+  nisba: al-Idrīsī al-ʿAlawī
+  role: caliph_hammudid_andalus_malaga
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: true
+- slug: mujahid-al-amiri
+  full_name_en: Mujāhid ibn ʿAbd Allāh al-ʿĀmirī al-Muwaffaq
+  full_name_ar: مجاهد بن عبد الله العامري الموفَّق
+  laqab: al-Muwaffaq
+  nisba: al-ʿĀmirī
+  role: ruler_taifa_denia_balearics_amirid_freedman
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yusuf-al-mutaman-ibn-hud
+  full_name_en: Yūsuf ibn Aḥmad ibn Hūd al-Judhāmī al-Muʾtaman bi-Allāh
+  full_name_ar: يوسف بن أحمد بن هود الجذامي المؤتمن بالله
+  laqab: al-Muʾtaman bi-Allāh
+  nisba: al-Judhāmī
+  role: ruler_taifa_saragossa_hudid_mathematician
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mutasim-ibn-sumadih
+  full_name_en: Muḥammad ibn Maʿn ibn Ṣumādiḥ al-Muʿtaṣim bi-Allāh
+  full_name_ar: محمد بن معن بن صمادح المعتصم بالله
+  laqab: al-Muʿtaṣim bi-Allāh
+  role: ruler_taifa_almeria_sumadihid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mutamid-ibn-abbad
+  full_name_en: Muḥammad ibn ʿAbbād al-Muʿtamid bi-Allāh
+  full_name_ar: محمد بن عباد المعتمد بالله
+  laqab: al-Muʿtamid bi-Allāh
+  role: ruler_taifa_sevilla_abbadid_poet_king
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: khwaja-mir-dard
+  full_name_en: Khwāja Mīr Dard
+  full_name_ar: الخواجة مير درد
+  laqab: Dard
+  nisba: al-Dihlawī
+  role: scholar_naqshbandi_mujaddidi_urdu_poet_delhi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: shah-abd-al-qadir-al-dihlawi
+  full_name_en: Shāh ʿAbd al-Qādir al-Dihlawī
+  full_name_ar: الشاه عبد القادر الدهلوي
+  nisba: al-Dihlawī
+  role: scholar_modern_indian_walīullāhī_urdu_quran_translator
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: shah-rafi-al-din-al-dihlawi
+  full_name_en: Shāh Rafīʿ al-Dīn al-Dihlawī
+  full_name_ar: الشاه رفيع الدين الدهلوي
+  nisba: al-Dihlawī
+  role: scholar_modern_indian_walīullāhī_persian_quran_translator
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: fadl-al-haqq-al-khayrabadi
+  full_name_en: Faḍl al-Ḥaqq al-Khayrābādī
+  full_name_ar: الفضل الحق الخيرآبادي
+  nisba: al-Khayrābādī
+  role: scholar_jurist_hanafi_maturidi_kalam_logic_india
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: khalil-ahmad-al-saharanpuri
+  full_name_en: Khalīl Aḥmad al-Sahāranpūrī
+  full_name_ar: خليل أحمد السهارنپوري
+  nisba: al-Sahāranpūrī
+  role: scholar_modern_indian_deobandi_muhaddith
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: shabbir-ahmad-al-uthmani
+  full_name_en: Shabbīr Aḥmad al-ʿUthmānī
+  full_name_ar: شبير أحمد العثماني
+  nisba: al-ʿUthmānī al-Deobandī
+  role: scholar_pakistani_deobandi_muhaddith_shaykh_al_islam
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yusuf-al-bannuri
+  full_name_en: Muḥammad Yūsuf al-Bannūrī
+  full_name_ar: محمد يوسف البنوري
+  nisba: al-Bannūrī
+  role: scholar_pakistani_deobandi_muhaddith_karachi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: manzur-numani
+  full_name_en: Muḥammad Manẓūr al-Nuʿmānī
+  full_name_ar: محمد منظور النعماني
+  nisba: al-Nuʿmānī
+  role: scholar_indian_deobandi_muhaddith_lucknow
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sulayman-al-nadwi
+  full_name_en: Sayyid Sulaymān al-Nadwī
+  full_name_ar: السيد سليمان الندوي
+  nisba: al-Nadwī
+  role: scholar_modern_indian_pakistani_nadwa_sirat
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ubaydullah-al-sindhi
+  full_name_en: Mawlānā ʿUbaydullāh al-Sindhī
+  full_name_ar: المولانا عبيد الله السندي
+  nisba: al-Sindhī
+  role: scholar_modern_indian_deobandi_walīullāhī_anti_colonial
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: mian-muhammad-shafi
+  full_name_en: Sir Mian Muḥammad Shafīʿ
+  full_name_ar: السير ميان محمد شفيع
+  nisba: al-Punjabi
+  role: jurist_punjabi_muslim_league_round_table
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-ghani-al-nabulsi
+  full_name_en: ʿAbd al-Ghānī ibn Ismāʿīl al-Nābulsī
+  full_name_ar: عبد الغني بن إسماعيل النابلسي
+  nisba: al-Nābulsī
+  role: scholar_hanafi_sufi_naqshbandi_qadiri_polymath_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-khalil-al-maradi
+  full_name_en: Muḥammad Khalīl ibn ʿAlī al-Marādī
+  full_name_ar: محمد خليل بن علي المرادي
+  nisba: al-Marādī
+  role: scholar_hanafi_mufti_chronicler_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: bakri-al-tarabulsi-al-attar
+  full_name_en: Bakrī ibn Ḥāmid al-ʿAṭṭār al-Ṭarābulsī
+  full_name_ar: بكري بن حامد العطار الطرابلسي
+  nisba: al-Ṭarābulsī
+  role: scholar_hanafi_late_ottoman_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: baha-al-din-al-bitar
+  full_name_en: Bahāʾ al-Dīn ibn ʿAbd al-Razzāq al-Bīṭār
+  full_name_ar: بهاء الدين بن عبد الرزاق البيطار
+  nisba: al-Bīṭār
+  role: scholar_late_ottoman_reformist_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-said-al-bukhari
+  full_name_en: Muḥammad Saʿīd al-Bukhārī
+  full_name_ar: محمد سعيد البخاري
+  nisba: al-Bukhārī
+  role: scholar_hanafi_naqshbandi_khalidi_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: said-al-bani
+  full_name_en: Saʿīd ibn ʿAbd al-Raḥmān al-Bānī
+  full_name_ar: سعيد بن عبد الرحمن الباني
+  nisba: al-Bānī
+  role: scholar_hanafi_educator_reformist_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ali-al-daqr
+  full_name_en: ʿAlī ibn Ḥasan al-Daqr
+  full_name_ar: علي بن حسن الدقر
+  nisba: al-Daqr
+  role: scholar_hanafi_educator_founder_maʿhad_al_tawjih_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: izz-al-din-al-tanukhi
+  full_name_en: Muḥammad ʿIzz al-Dīn ibn Ibrāhīm al-Tanūkhī
+  full_name_ar: محمد عز الدين بن إبراهيم التنوخي
+  nisba: al-Tanūkhī
+  role: scholar_arabic_philology_lexicography_damascus_arabic_academy
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-karim-al-rifai
+  full_name_en: ʿAbd al-Karīm ibn Saʿīd al-Rifāʿī
+  full_name_ar: عبد الكريم بن سعيد الرفاعي
+  nisba: al-Rifāʿī
+  role: scholar_hanafi_shafii_naqshbandi_jamaat_zayd_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: hassan-habannaka-al-maydani
+  full_name_en: Ḥasan ibn ʿAbd al-Raḥmān Ḥabannaka al-Maydānī
+  full_name_ar: حسن بن عبد الرحمن حبنكة الميداني
+  nisba: al-Maydānī
+  role: scholar_shafii_educator_director_maʿhad_al_tawjih_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-abu-al-yusr-abidin
+  full_name_en: Muḥammad Abū al-Yusr ibn Muḥammad Saʿīd ʿĀbidīn
+  full_name_ar: محمد أبو اليسر بن محمد سعيد عابدين
+  nisba: ʿĀbidīn
+  role: scholar_hanafi_mufti_syria_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-kuftaru
+  full_name_en: Aḥmad ibn Muḥammad Amīn Kuftarū
+  full_name_ar: أحمد بن محمد أمين كفتارو
+  nisba: Kuftarū
+  role: scholar_hanafi_naqshbandi_khalidi_grand_mufti_syria_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: mahmud-gawan
+  full_name_en: Khwāja ʿImād al-Dīn Maḥmūd Gāwān al-Gīlānī
+  full_name_ar: خواجه عماد الدين محمود گاوان الجيلاني
+  kunya: Khwāja
+  laqab: ʿImād al-Dīn
+  nisba: al-Gīlānī
+  role: vizier_scholar_bahmani_bidar_shafii
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-al-yusr-al-bazdawi
+  full_name_en: Abū al-Yusr Muḥammad ibn Muḥammad al-Bazdawī
+  full_name_ar: أبو اليُسر محمد بن محمد البَزدَوي
+  kunya: Abū al-Yusr
+  nisba: al-Bazdawī al-Samarqandī
+  role: scholar_jurist_hanafi_maturidi_usuli_samarqand
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abu-al-muin-al-nasafi
+  full_name_en: Maymūn ibn Muḥammad Abū al-Muʿīn al-Nasafī
+  full_name_ar: ميمون بن محمد أبو المُعين النَسَفي
+  kunya: Abū al-Muʿīn
+  nisba: al-Nasafī al-Samarqandī
+  role: scholar_mutakallim_hanafi_maturidi_kalam_samarqand
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ala-al-din-al-bukhari
+  full_name_en: ʿAlāʾ al-Dīn ʿAbd al-ʿAzīz ibn Aḥmad al-Bukhārī
+  full_name_ar: علاء الدين عبد العزيز بن أحمد البخاري
+  laqab: ʿAlāʾ al-Dīn
+  nisba: al-Bukhārī
+  role: scholar_jurist_hanafi_maturidi_usuli_bukhara
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-bayadi
+  full_name_en: Kamāl al-Dīn Aḥmad ibn Ḥasan al-Bayāḍī
+  full_name_ar: كمال الدين أحمد بن حسن البَياضي
+  laqab: Kamāl al-Dīn
+  nisba: al-Bayāḍī al-Rūmī
+  role: scholar_mutakallim_hanafi_maturidi_qadi_askar_ottoman
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-shahrastani
+  full_name_en: Abū al-Fatḥ Muḥammad ibn ʿAbd al-Karīm al-Shahrastānī
+  full_name_ar: أبو الفتح محمد بن عبد الكريم الشهرستاني
+  kunya: Abū al-Fatḥ
+  nisba: al-Shahrastānī
+  role: scholar_mutakallim_shafii_ashari_doxographer_khurasan
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sayf-al-din-al-amidi
+  full_name_en: Sayf al-Dīn ʿAlī ibn Abī ʿAlī al-Āmidī
+  full_name_ar: سيف الدين علي بن أبي علي الآمدي
+  laqab: Sayf al-Dīn
+  nisba: al-Āmidī al-Dimashqī
+  role: scholar_jurist_shafii_ashari_usuli_kalam_damascus
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: siraj-al-din-al-urmawi
+  full_name_en: Sirāj al-Dīn Maḥmūd ibn Abī Bakr al-Urmawī
+  full_name_ar: سراج الدين محمود بن أبي بكر الأرموي
+  laqab: Sirāj al-Dīn
+  nisba: al-Urmawī
+  role: scholar_jurist_shafii_ashari_qadi_logic_konya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-iji
+  full_name_en: ʿAḍud al-Dīn ʿAbd al-Raḥmān ibn Aḥmad al-Ījī
+  full_name_ar: عضد الدين عبد الرحمن بن أحمد الإيجي
+  laqab: ʿAḍud al-Dīn
+  nisba: al-Ījī al-Shīrāzī
+  role: scholar_mutakallim_shafii_ashari_qadi_shiraz_mawaqif
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-sharif-al-jurjani
+  full_name_en: al-Sayyid al-Sharīf ʿAlī ibn Muḥammad al-Jurjānī
+  full_name_ar: السيد الشريف علي بن محمد الجرجاني
+  laqab: al-Sharīf
+  nisba: al-Jurjānī
+  role: scholar_polymath_shafii_ashari_kalam_lexicographer_shiraz_timurid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-laqani
+  full_name_en: Burhān al-Dīn Ibrāhīm ibn Ibrāhīm al-Lāqānī
+  full_name_ar: برهان الدين إبراهيم بن إبراهيم اللقاني
+  laqab: Burhān al-Dīn
+  nisba: al-Lāqānī al-Mālikī
+  role: scholar_mutakallim_maliki_ashari_azhar_jawharat_tawhid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-al-dardir
+  full_name_en: Abū al-Barakāt Aḥmad ibn Muḥammad al-Dardīr al-ʿAdawī
+  full_name_ar: أبو البركات أحمد بن محمد الدردير العَدَوي
+  kunya: Abū al-Barakāt
+  nisba: al-ʿAdawī al-Mālikī
+  role: scholar_jurist_maliki_ashari_khalwati_azhar_kharida_bahiyya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-dasuqi-muhammad-maliki
+  full_name_en: Muḥammad ibn Aḥmad ibn ʿArafa al-Dasūqī
+  full_name_ar: محمد بن أحمد بن عرفة الدسوقي
+  nisba: al-Dasūqī al-Mālikī
+  role: scholar_jurist_maliki_ashari_azhar_hashiya_sharh_kabir
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-al-amir-al-maliki-al-kabir
+  full_name_en: Muḥammad ibn Muḥammad al-Sinbāwī al-Amīr al-Mālikī al-Kabīr
+  full_name_ar: محمد بن محمد السنباوي الأمير المالكي الكبير
+  nisba: al-Sinbāwī al-Mālikī
+  laqab: al-Amīr al-Kabīr
+  role: scholar_jurist_maliki_muhaddith_azhar_majmu_amir
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibrahim-al-saqqa-shafii
+  full_name_en: Ibrāhīm ibn ʿAlī al-Saqqā al-Shāfiʿī
+  full_name_ar: إبراهيم بن علي السقا الشافعي
+  nisba: al-Saqqā al-Shāfiʿī
+  role: scholar_jurist_shafii_ashari_azhar_late_ottoman
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-illaysh
+  full_name_en: Muḥammad ibn Aḥmad ibn Muḥammad ʿIllaysh
+  full_name_ar: محمد بن أحمد بن محمد عليش
+  nisba: al-Mālikī al-Tarābulsī
+  role: scholar_jurist_maliki_ashari_mufti_azhar_fath_ali_malik
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-al-mahdi-al-abbasi
+  full_name_en: Muḥammad al-Mahdī ibn Muḥammad Amīn al-ʿAbbāsī
+  full_name_ar: محمد المهدي بن محمد أمين العباسي
+  nisba: al-ʿAbbāsī al-Ḥanafī
+  laqab: al-Mahdī
+  role: scholar_jurist_hanafi_grand_mufti_egypt_shaykh_azhar
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-wahhab-khallaf
+  full_name_en: ʿAbd al-Wahhāb Khallāf
+  full_name_ar: عبد الوهاب خلاف
+  nisba: al-Miṣrī
+  role: scholar_jurist_hanafi_usul_cairo_university
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-abu-zahra
+  full_name_en: Muḥammad Aḥmad Muṣṭafā Abū Zahra
+  full_name_ar: محمد أحمد مصطفى أبو زهرة
+  kunya: Abū Zahra
+  nisba: al-Miṣrī
+  role: scholar_jurist_hanafi_comparative_fiqh_madhhab_history
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-munim-al-khafaji
+  full_name_en: Muḥammad ʿAbd al-Munʿim al-Khafājī
+  full_name_ar: محمد عبد المنعم الخفاجي
+  nisba: al-Khafājī al-Miṣrī
+  role: scholar_arabic_literature_azhar_critic_editor
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-sayyid-tantawi
+  full_name_en: Muḥammad Sayyid Ṭanṭāwī
+  full_name_ar: محمد سيد طنطاوي
+  nisba: al-Suhājī al-Miṣrī
+  role: scholar_mufassir_hanafi_grand_mufti_egypt_shaykh_azhar
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-hadi-abbasid
+  full_name_en: Mūsā al-Hādī ibn al-Mahdī
+  full_name_ar: موسى الهادي بن المهدي
+  kunya: Abū Muḥammad
+  laqab: al-Hādī
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yahya-ibn-khalid-al-barmaki
+  full_name_en: Yaḥyā ibn Khālid ibn Barmak al-Barmakī
+  full_name_ar: يحيى بن خالد بن برمك البرمكي
+  kunya: Abū ʿAlī
+  nisba: al-Barmakī
+  role: vizier_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-fadl-ibn-al-rabi
+  full_name_en: al-Faḍl ibn al-Rabīʿ ibn Yūnus
+  full_name_ar: الفضل بن الربيع بن يونس
+  kunya: Abū al-ʿAbbās
+  role: vizier_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-muktafi
+  full_name_en: ʿAlī al-Muktafī bi-Allāh ibn al-Muʿtaḍid
+  full_name_ar: علي المكتفي بالله بن المعتضد
+  laqab: al-Muktafī bi-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-muqtadir
+  full_name_en: Jaʿfar al-Muqtadir bi-Allāh ibn al-Muʿtaḍid
+  full_name_ar: جعفر المقتدر بالله بن المعتضد
+  laqab: al-Muqtadir bi-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-qahir
+  full_name_en: Muḥammad al-Qāhir bi-Allāh ibn al-Muʿtaḍid
+  full_name_ar: محمد القاهر بالله بن المعتضد
+  laqab: al-Qāhir bi-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-radi
+  full_name_en: Muḥammad al-Rāḍī bi-Allāh ibn al-Muqtadir
+  full_name_ar: محمد الراضي بالله بن المقتدر
+  laqab: al-Rāḍī bi-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-muttaqi
+  full_name_en: Ibrāhīm al-Muttaqī li-Allāh ibn al-Muqtadir
+  full_name_ar: إبراهيم المتقي لله بن المقتدر
+  laqab: al-Muttaqī li-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mustakfi
+  full_name_en: ʿAbd Allāh al-Mustakfī bi-Allāh ibn al-Muktafī
+  full_name_ar: عبد الله المستكفي بالله بن المكتفي
+  laqab: al-Mustakfī bi-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mustarshid
+  full_name_en: al-Faḍl al-Mustarshid bi-Allāh ibn al-Mustaẓhir
+  full_name_ar: الفضل المسترشد بالله بن المستظهر
+  laqab: al-Mustarshid bi-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-rashid-abbasid
+  full_name_en: al-Manṣūr al-Rāshid bi-Allāh ibn al-Mustarshid
+  full_name_ar: المنصور الراشد بالله بن المسترشد
+  laqab: al-Rāshid bi-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-muqtafi
+  full_name_en: Muḥammad al-Muqtafī li-Amr Allāh ibn al-Mustaẓhir
+  full_name_ar: محمد المقتفي لأمر الله بن المستظهر
+  laqab: al-Muqtafī li-Amr Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mustanjid
+  full_name_en: Yūsuf al-Mustanjid bi-Allāh ibn al-Muqtafī
+  full_name_ar: يوسف المستنجد بالله بن المقتفي
+  laqab: al-Mustanjid bi-Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-mustadi
+  full_name_en: al-Ḥasan al-Mustaḍīʾ bi-Amr Allāh ibn al-Mustanjid
+  full_name_ar: الحسن المستضيء بأمر الله بن المستنجد
+  laqab: al-Mustaḍīʾ bi-Amr Allāh
+  role: caliph_abbasid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: sulayman-ibn-qutulmush
+  full_name_en: Sulaymān ibn Quṭulmush
+  full_name_ar: سليمان بن قتلمش
+  role: ruler_sultan_seljuk_anatolia
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: kilic-arslan-i
+  full_name_en: Qilij Arslān I
+  full_name_ar: قلج أرسلان الأول
+  role: ruler_sultan_rum
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ala-al-din-kayqubad-i
+  full_name_en: ʿAlāʾ al-Dīn Kayqubād I
+  full_name_ar: علاء الدين كيقباد الأول
+  role: ruler_sultan_rum
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: osman-i
+  full_name_en: ʿUthmān I (Osman Gazi)
+  full_name_ar: عثمان الأول غازي
+  role: sultan_ottoman_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: orhan-i
+  full_name_en: Orhan I (Orhan Gazi)
+  full_name_ar: أورخان الأول غازي
+  role: sultan_ottoman
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: murad-i
+  full_name_en: Murād I (Murād Hüdavendigār)
+  full_name_ar: مراد الأول خواجة سلطان
+  role: sultan_ottoman
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-i-ibn-al-ahmar
+  full_name_en: Muḥammad I ibn al-Aḥmar
+  full_name_ar: محمد الأول بن الأحمر
+  role: ruler_emir_nasrid_founder
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yusuf-i-granada
+  full_name_en: Yūsuf I of Granada
+  full_name_ar: يوسف الأول بن إسماعيل
+  role: ruler_sultan_nasrid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-v-granada
+  full_name_en: Muḥammad V of Granada
+  full_name_ar: محمد الخامس
+  role: ruler_sultan_nasrid
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: al-hurmuzan
+  full_name_en: al-Hurmuzān
+  full_name_ar: الهرمزان
+  role: military_commander_sasanian
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: yazdegerd-iii
+  full_name_en: Yazdegerd III
+  full_name_ar: يزدجرد الثالث
+  role: shahanshah_sasanian_last
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: rabia-ibn-ziyad
+  full_name_en: Rabīʿa ibn Ziyād al-Hārithī
+  full_name_ar: ربيعة بن زياد الحارثي
+  role: military_commander_umayyad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: said-ibn-uthman
+  full_name_en: Saʿīd ibn ʿUthmān
+  full_name_ar: سعيد بن عثمان
+  role: military_commander_umayyad
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-aman-al-jami
+  full_name_en: Muḥammad Amān ibn ʿAlī al-Jāmī
+  full_name_ar: محمد أمان بن علي الجامي
+  role: scholar_hanbali_athari_saudi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: hamud-al-tuwayjiri
+  full_name_en: Ḥamūd ibn ʿAbd Allāh al-Tuwayjirī
+  full_name_ar: حمود بن عبد الله التويجري
+  role: scholar_hanbali_athari_saudi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-razzaq-al-afifi
+  full_name_en: ʿAbd al-Razzāq ibn ʿAbd al-Muḥsin al-ʿAfīfī
+  full_name_ar: عبد الرزاق بن عبد المحسن العفيفي
+  role: scholar_hanbali_athari_saudi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-al-najmi
+  full_name_en: Aḥmad ibn Yaḥyā al-Najmī
+  full_name_ar: أحمد بن يحيى النجمي
+  role: scholar_hanbali_athari_saudi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-allah-ibn-humayd
+  full_name_en: ʿAbd Allāh ibn Muḥammad ibn Ḥumayd
+  full_name_ar: عبد الله بن محمد بن حميد
+  role: scholar_hanbali_athari_saudi
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-ibn-idris-al-fasi
+  full_name_en: Aḥmad ibn Idrīs al-Fāsī
+  full_name_ar: أحمد بن إدريس الفاسي
+  role: scholar_sufi_maliki_founder_idrisiyya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-bin-ali-al-sanusi
+  full_name_en: Muḥammad ibn ʿAlī al-Sanūsī
+  full_name_ar: محمد بن علي السنوسي
+  role: scholar_sufi_maliki_founder_sanusiyya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: muhammad-al-mahdi-al-sanusi
+  full_name_en: Muḥammad al-Mahdī ibn Muḥammad al-Sanūsī
+  full_name_ar: محمد المهدي بن محمد السنوسي
+  role: scholar_sufi_maliki_sanusiyya_leader
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: umar-al-mukhtar
+  full_name_en: ʿUmar al-Mukhtār ibn Muḥammad al-Khaḍrāwī
+  full_name_ar: عمر المختار بن محمد الخضراوي
+  role: scholar_sufi_maliki_resistance_leader_libya
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: buya-hamka
+  full_name_en: ʿAbd al-Malik Karīm Amrullāh (Buya Hamka)
+  full_name_ar: عبد الملك كريم أمر الله (بيا حمكة)
+  role: scholar_modern_indonesian_reformer_exegesis
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ibn-al-naqib-al-misri
+  full_name_en: Abū Muḥammad ʿAbd Allāh ibn Naqīb al-Miṣrī al-Shāfiʿī
+  full_name_ar: أبو محمد عبد الله بن نقيب المصري الشافعي
+  role: scholar_shafii_fiqh
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: abd-al-rahman-al-jabarti
+  full_name_en: ʿAbd al-Raḥmān ibn Ḥasan al-Jabartī
+  full_name_ar: عبد الرحمن بن حسن الجبرتي
+  role: scholar_historian_egypt
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-al-tumurtashi
+  full_name_en: Shams al-Dīn Aḥmad al-Tumurtāshī al-Ḥanafī
+  full_name_ar: شمس الدين أحمد التمرتاشي الحنفي
+  role: scholar_hanafi_fiqh
+  is_prophet: false
+  is_sahabi: false
+  is_ahl_al_bayt: false
+- slug: ahmad-sirhindi
+  full_name_en: Ahmad al-Faruqi al-Sirhindi
+  full_name_ar: أحمد الفاروقي السرهندي
+  nisba: al-Sirhindi
+  laqab: Mujaddid Alf Thani
+  role: scholar
+- slug: shibli-al-numani
+  full_name_en: Shibli al-Nu'mani
+  full_name_ar: شبلي النعماني
+  nisba: al-Nu'mani
+  role: scholar
+- slug: sayyida-nafisa
+  full_name_en: Sayyida Nafisa bint al-Hasan
+  full_name_ar: السيدة نفيسة بنت الحسن
+  nisba: al-Hasaniyya
+  role: scholar
+  is_sahabi: false
+- slug: umm-salamah
+  full_name_en: Umm Salamah Hind bint Abi Umayya
+  full_name_ar: أم سلمة هند بنت أبي أمية
+  nisba: al-Makhzumiyya
+  role: sahabi
+  is_sahabi: true
+  image_blocked_reason: religious_prohibition
+  image_url: null
+- slug: muhammad-al-maghili
+  full_name_en: Muhammad ibn Abd al-Karim al-Maghili
+  full_name_ar: محمد بن عبد الكريم المغيلي
+  nisba: al-Maghili
+  role: scholar
+- slug: idris-alooma
+  full_name_en: Idris ibn Ali Alooma
+  full_name_ar: إدريس بن علي العلومي
+  nisba: al-Kanemi
+  role: ruler
+- slug: makhdum-jahaniyan
+  full_name_en: Jalal al-Din Jahaniyan Jahangasht
+  full_name_ar: جلال الدين جهانيان جهانگشت
+  nisba: al-Jahaniyan
+  role: scholar
+- slug: abd-al-haqq-al-dehlawi
+  full_name_en: Abd al-Haqq ibn Sayf al-Din al-Dehlawi
+  full_name_ar: عبد الحق بن سيف الدين الدهلوي
+  nisba: al-Dehlawi
+  role: scholar
+- slug: zheng-he
+  full_name_en: Zheng He (Ma He)
+  full_name_ar: جنخ خه (ما خه)
+  nisba: al-Hui
+  role: explorer
+- slug: sidi-yahya-al-tadlisi
+  full_name_en: Sidi Yahya al-Tadlisi
+  full_name_ar: سيدي يحيى التادلسي
+  nisba: al-Tadlisi
+  role: scholar

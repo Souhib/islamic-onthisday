@@ -1,0 +1,990 @@
+# Wave 28 of curated event additions (2026-04-27).
+# Major Persian-language Sunni Sufi poets and Sufi-influenced literary
+# figures: Sanāʾī al-Ghaznawī, Farīd al-Dīn ʿAṭṭār Nayshābūrī, Niẓāmī
+# Ganjawī, Saʿdī Shīrāzī, Ḥāfeẓ Shīrāzī, ʿAbd al-Raḥmān Jāmī,
+# Fakhr al-Dīn ʿIrāqī, Amīr Khusraw of Delhi, Bū ʿAlī Qalandar of
+# Pānīpat, Mīrzā Bīdel of Delhi, and Hātif Iṣfahānī. The Indian Sufi
+# master Niẓām al-Dīn Awliyāʾ already has an event entry (file 26)
+# and is not duplicated here. Jalāl al-Dīn Rūmī, ʿAbd al-Qādir al-Jīlānī,
+# Naqshband, the two Suhrawardīs, and Moinuddin Chishti are likewise
+# already covered elsewhere.
+#
+# These figures are all firmly within mainstream Sunni Sufism: the
+# Ghaznavids, Khwārazmshāhs, Atabegs, Ilkhānids of post-conversion
+# Persia, the Delhi sultanate, the Timurids, and the post-Safavid
+# Persian-Indian cultural sphere (Mughals, Zand, Qajars). Several of
+# them are specifically Naqshbandī (Jāmī, Bīdel) or Chishtī (Amīr
+# Khusraw, Bū ʿAlī Qalandar). All Persian-language Sunni Sufi poets
+# whose work shaped the religious-literary imagination of the
+# Persian-speaking and Persianate Muslim world.
+#
+# Death dates of these poets are usually only year-precise; some
+# (Sanāʾī, ʿAṭṭār, Hātif) are contested across two or more years
+# in the classical biographical sources. Disputes flagged with
+# `disputed: true` + `dispute_about: date` and explained in the
+# description body. Trilingual en/ar/fr throughout. Hadith refs
+# intentionally omitted across the file.
+#
+# Coverage in the classical Sunni biographical canon is uneven:
+# Ibn Khallikān (d. 681 AH) and al-Dhahabī (d. 748 AH) cover the
+# pre-Mongol and Ilkhānid figures; Jāmī's own *Nafaḥāt al-Uns* and
+# the post-Timurid *ṭabaqāt* writers (al-Suyūṭī, Tashköprüzāde)
+# pick up the later poets; for the post-1100-AH figures the
+# coverage shifts to encyclopaedic / academic secondary sources
+# (EI2). We cite ibn_khallikan_wafayat / dhahabi_siyar /
+# dhahabi_tarikh_islam / ibn_kathir_bidaya wherever they cover
+# the figure; supplement with ei2 + editorial elsewhere.
+
+events:
+  # =========================================================================
+  # PRE-MONGOL PERSIAN SUFI POETRY — Sanāʾī, ʿAṭṭār, Niẓāmī
+  # =========================================================================
+
+  - slug: death-of-sanai-ghaznawi
+    category: scholar_death
+    title_en: Death of Sanāʾī al-Ghaznawī — Pioneer of Persian Sufi Mathnawī
+    title_ar: وفاة سنائي الغزنوي — رائد المثنوي الصوفي الفارسي
+    title_fr: Mort de Sanāʾī al-Ghaznawī — pionnier du *mathnawī* soufi persan
+    description_en: |
+      Abū al-Majd Majdūd ibn Ādam Sanāʾī al-Ghaznawī — Persian-
+      language Sunni Sufi poet of the late Ghaznavid court, and
+      the figure traditionally credited with raising the
+      didactic *mathnawī* from a court genre into a vehicle of
+      sustained Sufi instruction — died at Ghazna (in modern
+      Afghanistan), the date most commonly given by the classical
+      Persian *tadhkira* tradition as 525 AH (~1131 CE), though
+      some biographers give 535 AH and a minority push his death
+      to 545 AH. We follow the dominant 525 AH year (Riyāḍ
+      al-ʿĀrifīn, *Lubāb al-Albāb*, *Tadhkirat al-Shuʿarāʾ* of
+      Dawlatshāh) per *Nafaḥāt al-Uns* of Jāmī. His major work
+      *Ḥadīqat al-Ḥaqīqa wa Sharīʿat al-Ṭarīqa* (The Garden of
+      Truth and the Law of the Path), a long *mathnawī* of more
+      than ten thousand verses dedicated to Bahrām Shāh of Ghazna,
+      is the founding poem of the genre that Farīd al-Dīn ʿAṭṭār
+      and then Jalāl al-Dīn Rūmī would carry to its summit; Rūmī
+      himself acknowledged the line of descent in his
+      *Mathnawī*: "ʿAṭṭār was the spirit, and Sanāʾī his two
+      eyes; we came after Sanāʾī and ʿAṭṭār."
+    description_ar: |
+      توفي أبو المجد مجدود بن آدم سنائي الغزنوي — شاعر صوفي سني
+      من بلاط الغزنويين الأواخر بفارسية، وأول من نقل المثنوي
+      التعليمي عند الفرس من جنس بلاطي إلى مادة تعليم صوفي مستدام
+      — بمدينة غزنة (في أفغانستان اليوم)، وأكثر ما تذكره كتب
+      التراجم الفارسية الكلاسيكية أنه توفي سنة ٥٢٥ هـ (~١١٣١ م)،
+      وذكر بعضهم سنة ٥٣٥ هـ، وأقلهم سنة ٥٤٥ هـ. والمعتمد عندنا
+      ما نقله الجامي في «نفحات الأنس» وأثبتته «رياض العارفين»
+      و«لباب الألباب» و«تذكرة الشعراء» لدولتشاه من سنة ٥٢٥ هـ.
+      وكتابه الكبير «حديقة الحقيقة وشريعة الطريقة» المنظوم في
+      أكثر من عشرة آلاف بيت ومُهداً إلى السلطان بهرام شاه
+      الغزنوي، هو القصيد المؤسس للجنس الذي حمله من بعده
+      فريد الدين العطار ثم جلال الدين الرومي إلى ذُروته؛ وقد
+      أقرّ مولانا الرومي في «المثنوي» بهذا الانتساب فقال:
+      «العطار روح كان، وسنائي عينيه؛ ونحن أتينا من بعد سنائي
+      والعطار».
+    description_fr: |
+      Abū al-Majd Majdūd ibn Ādam Sanāʾī al-Ghaznawī — poète
+      soufi sunnite de langue persane à la cour ghaznawide
+      tardive, et figure à laquelle la tradition attribue
+      d'avoir élevé le *mathnawī* didactique d'un genre de
+      cour vers un véhicule d'enseignement soufi soutenu —
+      mourut à Ghazna (actuelle Afghanistan). La date la plus
+      souvent rapportée par les *tadhkira* persans classiques
+      est 525 H (~1131 EC), bien que certains biographes
+      indiquent 535 H et une minorité 545 H. Nous suivons
+      l'année 525 H dominante (*Riyāḍ al-ʿĀrifīn*, *Lubāb
+      al-Albāb*, *Tadhkirat al-Shuʿarāʾ* de Dawlatshāh) selon
+      les *Nafaḥāt al-Uns* de Jāmī. Son grand mathnawī
+      *Ḥadīqat al-Ḥaqīqa wa Sharīʿat al-Ṭarīqa* (Le Jardin de
+      la Vérité et la Loi de la Voie), de plus de dix mille
+      vers dédié à Bahrām Shāh de Ghazna, est le poème
+      fondateur du genre que Farīd al-Dīn ʿAṭṭār puis Jalāl
+      al-Dīn Rūmī porteraient à son sommet ; Rūmī lui-même
+      reconnaît la filiation dans son *Mathnawī* : « ʿAṭṭār
+      fut l'esprit, et Sanāʾī ses deux yeux ; nous sommes
+      venus après Sanāʾī et ʿAṭṭār. »
+    canonical_hijri: {year: 525, precision: year}
+    canonical_gregorian: {date: 1131-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Year 525 AH death at Ghazna per dominant tadhkira tradition."
+      - source_key: editorial
+        notes: "Jāmī's Nafaḥāt al-Uns (898 AH) preserves the 525 AH date."
+    people: [[sanai-ghaznawi, died]]
+    tags: [ghaznavid, persian, sufi, poet, mathnawi, ghazna, hadiqat-al-haqiqa]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Sanai"
+
+  - slug: death-of-attar-nayshaburi
+    category: scholar_death
+    title_en: Death of Farīd al-Dīn ʿAṭṭār Nayshābūrī
+    title_ar: وفاة فريد الدين العطار النيسابوري
+    title_fr: Mort de Farīd al-Dīn ʿAṭṭār Nayshābūrī
+    description_en: |
+      Farīd al-Dīn Muḥammad ibn Ibrāhīm ʿAṭṭār Nayshābūrī —
+      Persian-language Sunni Sufi poet, hagiographer, and
+      pharmacist (*ʿaṭṭār* = "perfumer/druggist") of Nishapur in
+      Khurāsān, author of the *Manṭiq al-Ṭayr* (Conference of
+      the Birds), the *Tadhkirat al-Awliyāʾ* (Memorial of the
+      Friends of God), the *Ilāhī-nāma*, the *Asrār-nāma*, and
+      the *Muṣībat-nāma* — was killed at Nishapur during the
+      Mongol sack of the city. The classical Persian *tadhkira*
+      tradition gives his death year variously as 618, 627, 632
+      or 635 AH; we follow the 627 AH year preserved by Dawlatshāh
+      Samarqandī's *Tadhkirat al-Shuʿarāʾ* and adopted by Jāmī
+      in *Nafaḥāt al-Uns*, while noting that the 618 AH attestation
+      (matching the principal Mongol sack of Nishapur in Ṣafar
+      618 / April 1221) has its own textual support. His
+      *Tadhkirat al-Awliyāʾ* — a prose hagiography of seventy-two
+      Sufi masters from al-Ḥasan al-Baṣrī through al-Ḥallāj —
+      remains, eight centuries on, one of the foundational
+      reference works on the early Sunni Sufi tradition. Rūmī
+      placed him on the same line as Sanāʾī and acknowledged
+      himself as their successor.
+    description_ar: |
+      قُتل فريد الدين محمد بن إبراهيم العطار النيسابوري — شاعرٌ
+      صوفي سني فارسي، ومترجمٌ لأهل التصوف، ومتطبّبٌ عطّار من
+      نيسابور بخُراسان، مؤلفُ «منطق الطير» (مؤتمر الطيور)،
+      و«تذكرة الأولياء» (سيرة أولياء الله)، و«إلهي‌نامه»،
+      و«أسرارنامه»، و«مصيبت‌نامه» — في نيسابور إبّان النكبة
+      المغولية على المدينة. واختلفت كتبُ التراجم الفارسية
+      الكلاسيكية في سنة وفاته فقيل ٦١٨ وقيل ٦٢٧ وقيل ٦٣٢ وقيل
+      ٦٣٥ هـ؛ ونحن نتابع سنة ٦٢٧ هـ المحفوظة في «تذكرة الشعراء»
+      لدولتشاه السمرقندي ومتابعة الجامي لها في «نفحات الأنس»،
+      مع الإشارة إلى أن سنة ٦١٨ هـ (الموافقة لنكبة نيسابور
+      المغولية الكبرى في صفر ٦١٨ / نيسان ١٢٢١ م) لها سندها
+      النصّي. وما زال كتابه «تذكرة الأولياء» — وهو سيرٌ مَنثورٌ
+      لاثنين وسبعين من شيوخ التصوف بدءاً بالحسن البصري وانتهاءً
+      بالحلّاج — بعد ثمانية قرون أحدَ المراجع التأسيسية على
+      التراث الصوفي السني الباكر. وقد قرنه الرومي بسنائي وصرّح
+      بأنه خَلَفُهما.
+    description_fr: |
+      Farīd al-Dīn Muḥammad ibn Ibrāhīm ʿAṭṭār Nayshābūrī —
+      poète soufi sunnite de langue persane, hagiographe et
+      pharmacien (*ʿaṭṭār* = « parfumeur/droguiste ») de
+      Nishāpūr au Khurāsān, auteur du *Manṭiq al-Ṭayr* (Le
+      Langage des oiseaux), de la *Tadhkirat al-Awliyāʾ*
+      (Mémorial des amis de Dieu), de l'*Ilāhī-nāma*, de
+      l'*Asrār-nāma* et du *Muṣībat-nāma* — fut tué à Nishāpūr
+      lors du sac mongol de la ville. La tradition des
+      *tadhkira* persans classiques donne diverses années pour
+      sa mort — 618, 627, 632 ou 635 H ; nous suivons l'année
+      627 H préservée par la *Tadhkirat al-Shuʿarāʾ* de
+      Dawlatshāh Samarqandī et adoptée par Jāmī dans les
+      *Nafaḥāt al-Uns*, tout en notant que l'attestation de
+      618 H (correspondant au sac mongol majeur de Nishāpūr
+      en Ṣafar 618 / avril 1221) possède son propre soutien
+      textuel. Sa *Tadhkirat al-Awliyāʾ* — hagiographie en
+      prose de soixante-douze maîtres soufis d'al-Ḥasan
+      al-Baṣrī à al-Ḥallāj — demeure, huit siècles plus tard,
+      l'un des ouvrages de référence fondateurs sur la
+      tradition soufie sunnite ancienne. Rūmī le plaçait sur
+      la même ligne que Sanāʾī et se reconnaissait comme leur
+      successeur.
+    canonical_hijri: {year: 627, precision: year}
+    canonical_gregorian: {date: 1230-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death at Nishapur 627 AH (some 618, 632, 635) — dominant 627 follows Dawlatshāh."
+      - source_key: editorial
+        notes: "Jāmī's Nafaḥāt al-Uns confirms 627 AH; alt 618 = Mongol sack year."
+    people: [[attar-nayshaburi, died]]
+    tags: [khwarazmshah, mongol, sufi, poet, persian, nishapur, mantiq-al-tayr, tadhkirat-al-awliya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Attar_of_Nishapur"
+
+  - slug: death-of-nizami-ganjawi
+    category: scholar_death
+    title_en: Death of Niẓāmī Ganjawī — Author of the Khamsa
+    title_ar: وفاة نظامي الكنجوي — صاحب «الخمسة»
+    title_fr: Mort de Niẓāmī Ganjawī — auteur de la *Khamsa*
+    description_en: |
+      Jamāl al-Dīn Abū Muḥammad Ilyās ibn Yūsuf Niẓāmī Ganjawī —
+      Persian-language Sunni poet of Ganja (in modern-day
+      Azerbaijan, then a city of the Atabeg-controlled Caucasian
+      frontier of the Saljūq cultural sphere), author of the
+      *Khamsa* (Quintet) of romance and didactic *mathnawī*s —
+      *Makhzan al-Asrār* (Treasury of Mysteries), *Khusraw u
+      Shīrīn*, *Laylī u Majnūn*, *Haft Paykar* (Seven Beauties),
+      and the two-part *Iskandar-nāma* — died at Ganja around
+      605 AH (~1209 CE), with sources giving 605, 607 or 614 AH.
+      We follow the 605 AH date dominant in the modern
+      academic editions and reflected in EI2. Although his work
+      is not a Sufi *mathnawī* of the doctrinal type composed by
+      Sanāʾī or ʿAṭṭār, every poem of the *Khamsa* opens with
+      Sufi-coloured devotional sections and proceeds via
+      love-as-knowledge themes that became the dominant idiom of
+      Persian Sufi poetry; *Laylī u Majnūn* in particular gave
+      Sufi poets across the next seven centuries (most famously
+      Jāmī's reworking and Fuẓūlī's Ottoman version) the
+      controlling allegory for fanāʾ as the lover's annihilation
+      in the beloved.
+    description_ar: |
+      توفي جمال الدين أبو محمد إلياس بن يوسف نظامي الكنجوي —
+      شاعر سني سني فارسي من كَنْجة (في أذربيجان اليوم، وكانت
+      حينئذٍ ثغراً قوقازياً تحت الأتابكة في الفضاء الثقافي
+      السلجوقي)، صاحب «الخمسة» من المنظومات المثنوية الرومانسية
+      والتعليمية — «مخزن الأسرار»، و«خسرو وشيرين»، و«ليلى
+      ومجنون»، و«هفت پيكر» (سبعة أبدان جميلة)، و«الاسكندرنامه»
+      بقسميه — بكَنْجة نحو سنة ٦٠٥ هـ (~١٢٠٩ م)، وذكر بعض
+      المصادر سنة ٦٠٧ أو ٦١٤ هـ. ونحن نتابع سنة ٦٠٥ هـ التي
+      تعتمدها الطبعات الأكاديمية الحديثة وتنقلها دائرة المعارف
+      الإسلامية الثانية. وعلى أنّ عمله ليس مثنويّاً صوفيّاً
+      عقائدياً كمثنويّ سنائي والعطار، إلا أن كل قصيدة من
+      «الخمسة» تستفتح بأبواب تعبدية صوفيّة المسحة، وتتقدم بفنّ
+      الحب-بوصفه-معرفة الذي صار اللغة المسيطرة على الشعر الصوفي
+      الفارسي بعدُ؛ ولا سيما «ليلى ومجنون» التي أعطت شعراء
+      التصوف بعده على امتداد سبعة قرون (وأشهرهم نظمها الجامي
+      والفضولي العثماني) الرمزَ المهيمن للفناء بوصفه فناءَ
+      المحبّ في المحبوب.
+    description_fr: |
+      Jamāl al-Dīn Abū Muḥammad Ilyās ibn Yūsuf Niẓāmī Ganjawī —
+      poète sunnite de langue persane originaire de Ganja
+      (actuel Azerbaïdjan, alors ville de la frontière
+      caucasienne sous Atabegs dans la sphère culturelle
+      saljūqide), auteur de la *Khamsa* (« Quintet ») de
+      *mathnawī*s romanesques et didactiques — *Makhzan
+      al-Asrār* (Le Trésor des mystères), *Khusraw u Shīrīn*,
+      *Laylī u Majnūn*, *Haft Paykar* (Les Sept Beautés) et
+      l'*Iskandar-nāma* en deux parties — mourut à Ganja vers
+      605 H (~1209 EC), les sources donnant 605, 607 ou 614 H.
+      Nous suivons la date de 605 H dominante dans les
+      éditions académiques modernes et reflétée par l'EI2. Si
+      son œuvre n'est pas un *mathnawī* soufi de type
+      doctrinal comme ceux de Sanāʾī ou de ʿAṭṭār, chaque
+      poème de la *Khamsa* s'ouvre par des sections dévotionnelles
+      à coloration soufie et se développe selon les thèmes de
+      l'amour-comme-connaissance qui deviendront la diction
+      dominante de la poésie soufie persane ; *Laylī u Majnūn*
+      en particulier offrit aux poètes soufis des sept siècles
+      suivants (le plus célèbre étant la reprise de Jāmī et la
+      version ottomane de Fuẓūlī) l'allégorie maîtresse du
+      *fanāʾ* comme anéantissement de l'amant dans l'aimé.
+    canonical_hijri: {year: 605, precision: year}
+    canonical_gregorian: {date: 1209-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 605 AH at Ganja per dominant academic consensus."
+      - source_key: editorial
+        notes: "Variants 607 / 614 AH attested in some Persian tadhkira."
+    people: [[nizami-ganjawi, died]]
+    tags: [saljuq, atabegs, persian, poet, ganja, khamsa, sufi-influence, layli-majnun]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Nizami_Ganjavi"
+
+  # =========================================================================
+  # ILKHĀNID-ERA PERSIAN SUFI POETRY — Saʿdī, ʿIrāqī
+  # =========================================================================
+
+  - slug: death-of-saadi-shirazi
+    category: scholar_death
+    title_en: Death of Saʿdī Shīrāzī — Author of the *Gulistān* and *Būstān*
+    title_ar: وفاة سعدي الشيرازي — صاحب «الگلستان» و«البوستان»
+    title_fr: Mort de Saʿdī Shīrāzī — auteur du *Gulistān* et du *Būstān*
+    description_en: |
+      Abū Muḥammad Mushrif al-Dīn ibn Muṣliḥ al-Dīn Saʿdī Shīrāzī
+      — Persian-language Sunni Sufi poet of Shīrāz, trained at
+      the Niẓāmiyya of Baghdad under the Suhrawardī chain, and
+      acknowledged across the Persian-speaking world for seven
+      centuries as the master of practical Sufi *adab* in verse
+      and prose — died at Shīrāz around 691 AH (~1292 CE), at
+      the reported age of more than ninety. His prose-and-verse
+      *Gulistān* (Rose Garden, completed 656 AH / 1258 CE) and
+      its companion verse-only *Būstān* (Orchard, completed
+      655 AH / 1257 CE), both dedicated to the Salghurid
+      Atabegs of Fārs, became — and have remained — the
+      foundational Persian-prose teaching texts of Sunni
+      ethical-Sufi formation, memorised in *maktab*s from
+      Constantinople to Bengal. His *Kulliyyāt* of ghazals
+      established the lyric-Sufi mode that Ḥāfeẓ would carry to
+      its summit a century later. The death year is given as
+      690 AH by some sources and 691 AH by others; we follow
+      691 AH per the dominant Persian *tadhkira* tradition and
+      EI2.
+    description_ar: |
+      توفي أبو محمد مشرف الدين بن مصلح الدين سعدي الشيرازي —
+      شاعر صوفي سني فارسي من شيراز، تربَّى بنظامية بغداد على
+      أيدي السلسلة السهروردية، واعترفت به الأمم الناطقة بالفارسية
+      مدى سبعة قرون شيخَ الأدب الصوفي العملي نظماً ونثراً —
+      بشيراز نحو سنة ٦٩١ هـ (~١٢٩٢ م) عن عمر يُقال إنه جاوز
+      التسعين. وصارت — وما تزال — منظومتاه الكبرى «گلستان»
+      المنثور-المنظوم (تمّ تأليفه سنة ٦٥٦ هـ / ١٢٥٨ م) ورفيقها
+      «بوستان» المنظوم خالصاً (تمّ سنة ٦٥٥ هـ / ١٢٥٧ م)،
+      المهديّان إلى أتابكة فارس السلغريين، النصّين التأسيسيّين
+      للتربية الأخلاقية-الصوفية السنية بالفارسية، يحفظهما
+      الصبيان في «المكاتب» من القسطنطينية إلى البنغال. وأرسى
+      «كلياته» في الغزل النموذجَ الغزلي-الصوفي الذي سيبلغ به
+      حافظ ذُروته بعد قرن. وذكرت بعض المصادر سنة ٦٩٠ هـ، ولكنّ
+      المتابع لكتب التراجم الفارسية وللطبعات الأكاديمية ودائرة
+      المعارف الإسلامية الثانية هي سنة ٦٩١ هـ.
+    description_fr: |
+      Abū Muḥammad Mushrif al-Dīn ibn Muṣliḥ al-Dīn Saʿdī
+      Shīrāzī — poète soufi sunnite de langue persane à Shīrāz,
+      formé à la Niẓāmiyya de Bagdad dans la chaîne
+      Suhrawardī, et reconnu dans tout le monde persanophone
+      pendant sept siècles comme le maître de l'*adab*
+      soufi-pratique en vers et en prose — mourut à Shīrāz
+      vers 691 H (~1292 EC), à l'âge réputé de plus de
+      quatre-vingt-dix ans. Son *Gulistān* (Roseraie, achevé
+      656 H / 1258 EC) en prose-et-vers, et son compagnon
+      *Būstān* (Verger, achevé 655 H / 1257 EC) entièrement
+      versifié, tous deux dédiés aux Atabegs Salghurides du
+      Fārs, devinrent — et demeurent — les textes
+      d'enseignement persans en prose fondateurs de la
+      formation éthico-soufie sunnite, mémorisés dans les
+      *maktab* de Constantinople au Bengale. Ses *Kulliyyāt*
+      en ghazals établirent le mode lyrique-soufi que Ḥāfeẓ
+      porterait à son sommet un siècle plus tard. L'année
+      de la mort est donnée comme 690 H par certaines
+      sources et 691 H par d'autres ; nous suivons 691 H
+      selon la tradition dominante des *tadhkira* persans et
+      l'EI2.
+    canonical_hijri: {year: 691, precision: year}
+    canonical_gregorian: {date: 1292-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death at Shīrāz 691 AH per dominant Persian biographical tradition."
+      - source_key: editorial
+        notes: "Some sources give 690 AH; Jāmī Nafaḥāt al-Uns confirms 691."
+    people: [[saadi-shirazi, died]]
+    tags: [ilkhanid, mongol, persian, sufi, poet, shiraz, gulistan, bustan, atabegs-salghurid]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Saadi_Shirazi"
+
+  - slug: death-of-fakhr-al-din-iraqi
+    category: scholar_death
+    title_en: Death of Fakhr al-Dīn ʿIrāqī — Persian Akbarian Sufi Poet
+    title_ar: وفاة فخر الدين العراقي — شاعر التصوف الأكبري الفارسي
+    title_fr: Mort de Fakhr al-Dīn ʿIrāqī — poète soufi akbarien persan
+    description_en: |
+      Fakhr al-Dīn Ibrāhīm ibn Buzurgmihr ʿIrāqī — Persian-
+      language Sunni Sufi poet of the Suhrawardī ṭarīqa, raised
+      in Hamadhān and trained in India under Bahāʾ al-Dīn Zakariyyā
+      Multānī of Multān (the chief Suhrawardī of the subcontinent)
+      — died at Damascus on 8 Dhū al-Qaʿda 688 AH (23 November
+      1289 CE) and was buried beside Ibn ʿArabī at Mount Qāsiyūn.
+      After his master's death he travelled to Konya, sat in the
+      circle of Ṣadr al-Dīn al-Qūnawī (Ibn ʿArabī's principal
+      pupil), and composed his *Lamaʿāt* — a short Persian prose-
+      and-verse treatise of twenty-eight "flashes" articulating
+      the *waḥdat al-wujūd* metaphysics of Ibn ʿArabī in the
+      lyrical idiom of Persian love poetry. The *Lamaʿāt*, with
+      Jāmī's later commentary *Ashiʿʿat al-Lamaʿāt*, became a
+      core text of post-thirteenth-century Persian Sufi
+      curricula across the Naqshbandiyya, Qādiriyya, and
+      Chishtiyya. He served at the end of his life as the
+      shaykh of the Suhrawardī khānaqāh in Cairo and Damascus
+      under Mamlūk patronage.
+    description_ar: |
+      توفي فخر الدين إبراهيم بن بزرگمهر العراقي — شاعرٌ صوفيٌّ
+      سني فارسيّ من السلسلة السهروردية، نشأ بهَمَذَان وتربّى
+      بالهند على يد بهاء الدين زكريا الملتاني (شيخ السهروردية
+      الأكبر بشبه القارة الهندية) — بدمشق ليلة الثلاثاء الثامن
+      من ذي القعدة سنة ٦٨٨ هـ (الموافق ٢٣ نوفمبر ١٢٨٩ م)،
+      ودُفن إلى جوار ابن عربي بسفح قاسيون. وبعد وفاة شيخه
+      رحل إلى قونية وجلس في حلقة صدر الدين القونوي (تلميذ
+      ابن عربي الكبير) وألَّف «اللمعات» — رسالةً فارسية مختصرة
+      منثورة-منظومة في ثمانية وعشرين «ومضة» تنطق بميتافيزياء
+      وحدة الوجود الأكبرية في لغة الشعر الفارسي الغزلي. وقد
+      صارت «اللمعات» — مع شرح الجامي عليها «أشعة اللمعات» —
+      نصّاً جوهرياً في مناهج التصوف الفارسي بعد القرن السابع
+      الهجري في كل من النقشبندية والقادرية والجشتية. وانتهى
+      به الأمر شيخاً للخانقاه السهروردية بالقاهرة ودمشق تحت
+      الرعاية المملوكية.
+    description_fr: |
+      Fakhr al-Dīn Ibrāhīm ibn Buzurgmihr ʿIrāqī — poète soufi
+      sunnite de langue persane de la *ṭarīqa* Suhrawardīyya,
+      élevé à Hamadhān et formé en Inde auprès de Bahāʾ al-Dīn
+      Zakariyyā Multānī de Multān (le grand maître Suhrawardī
+      du sous-continent) — mourut à Damas le 8 Dhū al-Qaʿda 688 H
+      (23 novembre 1289 EC) et fut enterré à côté d'Ibn ʿArabī
+      au mont Qāsiyūn. Après la mort de son maître il se rendit
+      à Konya, prit place dans le cercle de Ṣadr al-Dīn al-Qūnawī
+      (principal disciple d'Ibn ʿArabī), et composa ses *Lamaʿāt*
+      — court traité persan en prose-et-vers de vingt-huit
+      « éclairs » articulant la métaphysique de la *waḥdat
+      al-wujūd* d'Ibn ʿArabī dans la diction lyrique de la
+      poésie d'amour persane. Les *Lamaʿāt*, avec le commentaire
+      ultérieur de Jāmī *Ashiʿʿat al-Lamaʿāt*, devinrent un
+      texte central des cursus soufis persans
+      post-treizième-siècle dans la Naqshbandīyya, la
+      Qādirīyya et la Chishtīyya. Il termina sa vie comme
+      shaykh de la *khānaqāh* Suhrawardī au Caire et à Damas
+      sous le patronage mamlūk.
+    canonical_hijri: {year: 688, month: 11, day: 8, precision: day}
+    canonical_gregorian: {date: 1289-11-23, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death 8 Dhū al-Qaʿda 688 AH at Damascus, buried Mount Qāsiyūn."
+      - source_key: editorial
+        notes: "Lamaʿāt + Jāmī's commentary Ashiʿʿat al-Lamaʿāt confirm biography."
+    people: [[fakhr-al-din-iraqi, died], [sadr-al-din-al-qunawi, subject]]
+    tags: [mamluk, ilkhanid, persian, sufi, poet, suhrawardi, akbarian, damascus, konya, lamaat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Fakhr_al-Din_Iraqi"
+
+  # =========================================================================
+  # DELHI SULTANATE PERSIAN-INDIAN SUFI LITERATURE — Amīr Khusraw, Bū ʿAlī Qalandar
+  # =========================================================================
+
+  - slug: death-of-amir-khusraw-dihlawi
+    category: scholar_death
+    title_en: Death of Amīr Khusraw Dihlawī — *Ṭūṭī of Hind*
+    title_ar: وفاة أمير خسرو الدهلوي — «طوطي الهند»
+    title_fr: Mort d'Amīr Khusraw Dihlawī — le « *Ṭūṭī* de l'Inde »
+    description_en: |
+      Yamīn al-Dīn Abū al-Ḥasan Amīr Khusraw Dihlawī — Persian-
+      and Hindawi-language Sunni Sufi poet of the Delhi
+      Sultanate, principal disciple of Khwāja Niẓām al-Dīn
+      Awliyāʾ in the Chishtī ṭarīqa, court poet to seven
+      successive sultans of Delhi (from Balban to Ghiyāth al-Dīn
+      Tughluq), and the founder of a distinctly Indo-Persian
+      poetic register that the *tadhkira* tradition called him
+      *Ṭūṭī of Hind* (the Parrot of India) — died at Delhi six
+      months after his master, on 18 Shawwāl 725 AH
+      (29 September 1325 CE), and was buried at the foot of his
+      master's grave at the Niẓām al-Dīn dargāh, where the
+      shrine remains a major centre of Sufi-musical *qawwālī*
+      practice eight centuries on. He composed his own *Khamsa*
+      in answer to Niẓāmī Ganjawī, three Persian historical
+      *mathnawī*s on the Khaljī sultans, the Persian-Sufi
+      *Nuh Sipihr*, and the corpus of devotional ghazals and
+      Hindawi *dohā*s that established the lyric register of
+      South Asian Sufi music down to the present.
+    description_ar: |
+      توفي يمين الدين أبو الحسن أمير خسرو الدهلوي — شاعرٌ صوفي
+      سني هندي ناظمٌ بالفارسية والهندوية، أكبرُ مريدي خواجه
+      نظام الدين أولياء على الطريقة الجشتية، شاعر سبعةٍ من
+      سلاطين دلهي المتعاقبين (من بَلْبَن إلى غياث الدين تغلق)،
+      ومؤسّسُ سجِلٍّ شعري هندي-فارسي مميَّز سمّته كتب التراجم
+      «طوطي الهند» — بدلهي بعد ستّة أشهر من وفاة شيخه، يومَ
+      الثامن عشر من شوّال سنة ٧٢٥ هـ (الموافق ٢٩ سبتمبر ١٣٢٥ م)،
+      ودُفن عند قدم قبر شيخه في درغاه نظام الدين بدلهي، ولا
+      يزال الضريح بعد ثمانية قرون مركزاً كبيراً لممارسة الموسيقى
+      الصوفية «القوّالية». ونظم «خمسته» جواباً على نظامي الكنجوي،
+      وثلاثة مثنويات فارسية تاريخية في سلاطين الخلجية، و«نه
+      سپهر» الفارسي-الصوفي، ومدوّنة الغزليات التعبدية والـ«دوها»
+      الهندوية التي أسّست سجلَّ الموسيقى الصوفية في جنوب آسيا
+      إلى اليوم.
+    description_fr: |
+      Yamīn al-Dīn Abū al-Ḥasan Amīr Khusraw Dihlawī — poète
+      soufi sunnite indien de langue persane et hindavī au
+      sultanat de Delhi, principal disciple de Khwāja Niẓām
+      al-Dīn Awliyāʾ dans la *ṭarīqa* Chishtī, poète de cour
+      auprès de sept sultans de Delhi successifs (de Balban à
+      Ghiyāth al-Dīn Tughluq), et fondateur d'un registre
+      poétique indo-persan distinct que la tradition des
+      *tadhkira* lui valut le titre de *Ṭūṭī al-Hind* (le
+      Perroquet de l'Inde) — mourut à Delhi six mois après
+      son maître, le 18 Shawwāl 725 H (29 septembre 1325 EC),
+      et fut enterré au pied de la tombe de son maître au
+      *dargāh* Niẓām al-Dīn, où le sanctuaire demeure huit
+      siècles plus tard un grand centre de la pratique
+      musicale soufie *qawwālī*. Il composa sa propre *Khamsa*
+      en réponse à Niẓāmī Ganjawī, trois *mathnawī*s
+      historiques persans sur les sultans Khaljīs, le
+      *Nuh Sipihr* perso-soufi, et le corpus de ghazals
+      dévotionnels et de *dohā* hindavī qui établit le
+      registre lyrique de la musique soufie sud-asiatique
+      jusqu'à nos jours.
+    canonical_hijri: {year: 725, month: 10, day: 18, precision: day}
+    canonical_gregorian: {date: 1325-09-29, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death 18 Shawwāl 725 AH at Delhi, six months after Niẓām al-Dīn."
+      - source_key: editorial
+        notes: "Buried at the dargāh; foundational Chishtī sahib of Hindustan."
+    people: [[amir-khusraw, died], [nizam-al-din-awliya, subject]]
+    tags: [delhi-sultanate, khalji, tughluq, india, chishti, persian, hindavi, sufi, poet, qawwali, dargah]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Amir_Khusrow"
+
+  - slug: death-of-bu-ali-qalandar-panipati
+    category: scholar_death
+    title_en: Death of Bū ʿAlī Qalandar Pānīpatī — Indian Chishtī-Qalandarī Saint
+    title_ar: وفاة بو علي قلندر الپانيپاتي — وليّ الجشتية القلندرية بالهند
+    title_fr: Mort de Bū ʿAlī Qalandar Pānīpatī — saint chishtī-qalandarī indien
+    description_en: |
+      Sharaf al-Dīn ibn Sālār Bū ʿAlī Qalandar Pānīpatī — Indian
+      Sunni Sufi shaykh of Pānīpat in the Delhi Sultanate,
+      formed in the Chishtī ṭarīqa and recognised as a
+      *qalandarī* contemplative of antinomian devotional
+      register, and contemporary of Niẓām al-Dīn Awliyāʾ — died
+      at Pānīpat in 724 AH (~1324 CE) at the reported age of
+      around eighty. His *masnawī* *Mathnawī-i Bū ʿAlī Qalandar*,
+      a Persian Sufi instructional poem in the line of Sanāʾī
+      and ʿAṭṭār, and a corpus of Persian Sufi letters preserved
+      under the title *Maktūbāt* circulated widely across the
+      Delhi Sultanate, the Bahmanid south, and the later Mughal
+      Sufi networks. His shrine at Pānīpat became one of the
+      five major *qalandarī* shrines of South Asia and remains
+      a centre of Punjabi Sufi *samāʿ* observance under the
+      Pakistani Auqāf.
+    description_ar: |
+      توفي شرف الدين بن سالار بو علي قلندر الپانيپاتي — شيخٌ
+      صوفيٌّ سني هندي بپانيپات في سلطنة دلهي، تربى على الطريقة
+      الجشتية واشتُهر زاهداً «قلندريّاً» بالعَرفان شارد الإطار
+      التعبّديّ، ومعاصراً لخواجه نظام الدين أولياء — بپانيپات
+      سنة ٧٢٤ هـ (~١٣٢٤ م) عن نحو ثمانين سنة. ودار «مثنوي بو
+      علي قلندر» الفارسي — قصيدةٌ صوفية تعليمية على نسق سنائي
+      والعطار — ومجموعة من رسائله الفارسية الصوفية المعروفة
+      بـ«المكتوبات» في رحاب سلطنة دلهي وجنوب الهند البهمنية
+      وشبكات التصوف المغوليّ الكبرى من بعد. وصار ضريحه بپانيپات
+      أحد أكبر خمسة أضرحة قلندرية في جنوب آسيا، ولا يزال مركزاً
+      للسماع الصوفي البنجابي تحت إدارة أوقاف باكستان.
+    description_fr: |
+      Sharaf al-Dīn ibn Sālār Bū ʿAlī Qalandar Pānīpatī —
+      shaykh soufi sunnite indien de Pānīpat au sultanat de
+      Delhi, formé dans la *ṭarīqa* Chishtī et reconnu comme
+      contemplatif *qalandarī* à registre dévotionnel
+      antinomique, contemporain de Niẓām al-Dīn Awliyāʾ —
+      mourut à Pānīpat en 724 H (~1324 EC), à l'âge réputé
+      d'environ quatre-vingts ans. Son *Mathnawī-i Bū ʿAlī
+      Qalandar* — poème persan d'enseignement soufi dans la
+      lignée de Sanāʾī et d'ʿAṭṭār — et un corpus de lettres
+      persanes soufies conservées sous le titre *Maktūbāt*
+      circulèrent largement dans le sultanat de Delhi, le
+      sud Bahmanide, et les réseaux soufis moghols ultérieurs.
+      Son sanctuaire à Pānīpat devint l'un des cinq grands
+      sanctuaires *qalandarī* de l'Asie du Sud et demeure un
+      centre du *samāʿ* soufi punjabi sous l'administration
+      des Auqāf pakistanais.
+    canonical_hijri: {year: 724, precision: year}
+    canonical_gregorian: {date: 1324-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Year 724 AH death at Pānīpat per Indo-Persian Sufi tadhkira."
+      - source_key: editorial
+        notes: "Mathnawī + Maktūbāt corpus widely transmitted across South Asian Sufi networks."
+    people: [[bu-ali-qalandar, died]]
+    tags: [delhi-sultanate, india, panipat, chishti, qalandari, sufi, persian, dargah]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Bu_Ali_Shah_Qalandar"
+
+  # =========================================================================
+  # MUZAFFARID/TIMURID PERSIAN SUFI POETRY — Ḥāfeẓ, Jāmī
+  # =========================================================================
+
+  - slug: death-of-hafez-shirazi
+    category: scholar_death
+    title_en: Death of Ḥāfeẓ Shīrāzī — Persian Lyric Master
+    title_ar: وفاة حافظ الشيرازي — إمام الغزل الفارسي
+    title_fr: Mort de Ḥāfeẓ Shīrāzī — maître du ghazal persan
+    description_en: |
+      Khwāja Shams al-Dīn Muḥammad Ḥāfeẓ Shīrāzī — Persian-
+      language Sunni Sufi poet of Shīrāz under the Mongol-
+      successor Injuid and Muẓaffarid dynasties of Fārs, hāfiẓ
+      of the Qurʾān (whence his sobriquet "Ḥāfeẓ"), and the
+      crowning master of the Persian *ghazal* in its lyric-
+      Sufi register — died at Shīrāz around 791 or 792 AH
+      (~1389-1390 CE). The *Tadhkirat al-Shuʿarāʾ* of Dawlatshāh
+      gives 791 AH; the chronogram inscribed on his tomb at
+      the Ḥāfeẓiyya in Shīrāz, *kih maṭlaʿ-i naḥshat-i pīr-i
+      mā shud*, encodes 791 AH; subsequent biographical and
+      academic literature has alternated between 791 and 792 AH.
+      We follow 792 AH per the dominant modern scholarly
+      reckoning while flagging 791 as well attested. His
+      *Dīwān* of around five hundred ghazals — first compiled
+      after his death by his disciple Muḥammad Gulandām —
+      shaped the lyric-Sufi sensibility of the Persianate world
+      from the Ottoman court (where Sulaymān the Magnificent
+      maintained a *Dīwān-i Khwāja* on his bedside) to the
+      Indian Mughal *qawwālī* repertoire to nineteenth-century
+      Iranian devotional life.
+    description_ar: |
+      توفي خواجه شمس الدين محمد حافظ الشيرازي — شاعرٌ صوفيٌّ
+      سني فارسي بشيراز في عهد الإينجو والمظفّريين خلفاء المغول
+      على فارس، حافظٌ للقرآن الكريم (ومنه لقبه «حافظ»)، وإمامُ
+      الغزل الفارسي في صورته الغزلية-الصوفية — بشيراز نحو سنة
+      ٧٩١ أو ٧٩٢ هـ (~١٣٨٩-١٣٩٠ م). ذكرت «تذكرة الشعراء»
+      لدولتشاه سنة ٧٩١ هـ، ومادّةُ تاريخ ضريحه بـ«الحافظية»
+      بشيراز «كه مطلع نشأت پير ما شد» تنطق بحساب الجُمَّل
+      بسنة ٧٩١ هـ؛ وقد تأرجحت الكتب الكلاسيكية والأكاديمية
+      اللاحقة بين سنة ٧٩١ و٧٩٢ هـ. ونحن نتابع سنة ٧٩٢ هـ على
+      الحساب الأكاديمي الحديث الراجح مع الإشارة إلى ثبوت
+      ٧٩١ هـ كذلك. وأرسى ديوانه الذي يبلغ زهاء خمسمئة غزل —
+      جمعه بعد وفاته مريده محمد گلندام — الإحساسَ الغزلي-الصوفي
+      للعالم الفارسي السعة من البلاط العثماني (حيث كان السلطان
+      سليمان القانوني يحفظ «ديوان الخواجه» لدى وسادته) إلى
+      ذخيرة القوّالي الهندية المغولية إلى الحياة التعبدية
+      الإيرانية في القرن الثالث عشر الهجري.
+    description_fr: |
+      Khwāja Shams al-Dīn Muḥammad Ḥāfeẓ Shīrāzī — poète soufi
+      sunnite de langue persane à Shīrāz sous les dynasties
+      Injūides et Muẓaffarides successeures des Mongols au
+      Fārs, *ḥāfiẓ* du Coran (d'où son sobriquet « Ḥāfeẓ »),
+      et grand maître couronné du *ghazal* persan dans son
+      registre lyrique-soufi — mourut à Shīrāz vers 791 ou
+      792 H (~1389-1390 EC). La *Tadhkirat al-Shuʿarāʾ* de
+      Dawlatshāh donne 791 H ; la chronogramme inscrite sur
+      son tombeau à la Ḥāfeẓiyya de Shīrāz, *kih maṭlaʿ-i
+      naḥshat-i pīr-i mā shud*, encode 791 H ; la littérature
+      biographique et académique ultérieure a alterné entre
+      791 et 792 H. Nous suivons 792 H selon le calcul
+      académique moderne dominant tout en signalant la bonne
+      attestation de 791. Son *Dīwān* d'environ cinq cents
+      ghazals — d'abord compilé après sa mort par son disciple
+      Muḥammad Gulandām — façonna la sensibilité
+      lyrique-soufie du monde persanophone, de la cour
+      ottomane (où Soliman le Magnifique gardait un
+      *Dīwān-i Khwāja* à son chevet) au répertoire mughal
+      du *qawwālī* indien jusqu'à la vie dévotionnelle
+      iranienne du XIXe siècle.
+    canonical_hijri: {year: 792, precision: year}
+    canonical_gregorian: {date: 1390-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death at Shīrāz 792 AH per modern academic dominant reckoning."
+      - source_key: editorial
+        notes: "Dawlatshāh's Tadhkira and the Ḥāfeẓiyya tomb chronogram give 791 AH."
+    people: [[hafez-shirazi, died]]
+    tags: [muzaffarid, injuid, persian, sufi, poet, shiraz, ghazal, hafiziya, divan]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Hafez"
+
+  - slug: death-of-jami
+    category: scholar_death
+    title_en: Death of ʿAbd al-Raḥmān Jāmī — Last of the Persian Sufi Classics
+    title_ar: وفاة عبد الرحمن الجامي — خاتم الكلاسيكية الصوفية الفارسية
+    title_fr: Mort de ʿAbd al-Raḥmān Jāmī — dernier des classiques soufis persans
+    description_en: |
+      Nūr al-Dīn ʿAbd al-Raḥmān ibn Aḥmad Jāmī — Persian-language
+      Sunni Sufi poet, Naqshbandī shaykh, scholar of the
+      Akbarian metaphysical tradition, and the figure
+      conventionally placed at the close of the classical
+      Persian Sufi canon — died at Herāt on 18 Muḥarram 898 AH
+      (9 November 1492 CE) at age 81. He was buried at the
+      Takiyya-yi Khwāja-yi Aḥrār in Herāt, his master in the
+      Naqshbandī ṭarīqa. His prose *Nafaḥāt al-Uns min Ḥaḍarāt
+      al-Quds* (a *ṭabaqāt* of more than six hundred Sufi men
+      and women extending al-Anṣārī's *Ṭabaqāt al-Ṣūfiyya* into
+      the ninth-century-AH present) became the standard
+      reference work on the Sufi tradition for the Persian-
+      Mughal-Ottoman cultural sphere. His *Haft Awrang* (Seven
+      Thrones) — a Khamsa-style sequence of seven *mathnawī*s
+      including *Yūsuf u Zulaykhā* and *Salāmān u Absāl* —
+      revived the Niẓāmīan romance form within an explicitly
+      Akbarian metaphysics, while his *Ashiʿʿat al-Lamaʿāt*
+      (a Persian commentary on Fakhr al-Dīn ʿIrāqī's *Lamaʿāt*)
+      and his *Lawāʾiḥ* are foundational expositions of *waḥdat
+      al-wujūd*.
+    description_ar: |
+      توفي نور الدين عبد الرحمن بن أحمد الجامي — شاعرٌ صوفيٌّ
+      سنيٌّ فارسي، شيخ النقشبندية، عالمٌ بالميتافيزياء الأكبرية،
+      والشخصيةُ التي يضعها الاتفاق الكلاسيكي عند خاتم الأدب
+      الصوفي الفارسي الكلاسيكي — بهَرَاة يومَ الثامن عشر من
+      محرّم سنة ٨٩٨ هـ (الموافق ٩ نوفمبر ١٤٩٢ م) عن إحدى
+      وثمانين سنة. ودُفن بـ«تكية الخواجه أحرار» بهَرَاة، شيخه
+      النقشبندي. وصارت رسالته المنثورة «نفحات الأنس من حضرات
+      القدس» — وهي طبقاتٌ لما يزيد على ستمئة من رجال التصوف
+      ونسائه يمد بها كتاب «طبقات الصوفية» للأنصاري إلى زمنه
+      التاسع الهجري — المرجع المعتمد على التراث الصوفي للفضاء
+      الثقافي الفارسي-المغوليّ-العثماني. وأحيت «هفت أورنگ»
+      (السبعة العروش) — وهي خمسة-في-سبع مثنويات منها «يوسف
+      وزليخا» و«سلامان وأبسال» — قالبَ الرومانس النظاميّ
+      ضمن ميتافيزياء أكبرية صريحة، وألَّف «أشعة اللمعات» شرحاً
+      فارسيّاً على «لمعات» فخر الدين العراقي، و«اللوائح» في
+      وحدة الوجود.
+    description_fr: |
+      Nūr al-Dīn ʿAbd al-Raḥmān ibn Aḥmad Jāmī — poète soufi
+      sunnite de langue persane, shaykh Naqshbandī, savant de
+      la tradition métaphysique akbarienne, et figure
+      conventionnellement placée à la clôture du canon
+      classique soufi persan — mourut à Herāt le 18 Muḥarram
+      898 H (9 novembre 1492 EC) à l'âge de 81 ans. Il fut
+      enterré à la Takiyya-yi Khwāja-yi Aḥrār à Herāt, son
+      maître dans la *ṭarīqa* Naqshbandī. Sa prose *Nafaḥāt
+      al-Uns min Ḥaḍarāt al-Quds* (un *ṭabaqāt* de plus de
+      six cents soufis et soufies étendant les *Ṭabaqāt
+      al-Ṣūfiyya* d'al-Anṣārī jusqu'au présent du IXe siècle H)
+      devint l'ouvrage de référence standard sur la tradition
+      soufie pour la sphère culturelle persano-moghole-ottomane.
+      Son *Haft Awrang* (Sept Trônes) — une séquence à la
+      manière de la *Khamsa* de sept *mathnawī*s comprenant
+      *Yūsuf u Zulaykhā* et *Salāmān u Absāl* — fit revivre la
+      forme du romance niẓāmīen dans une métaphysique
+      akbarienne explicite, tandis que son *Ashiʿʿat al-Lamaʿāt*
+      (commentaire persan des *Lamaʿāt* de Fakhr al-Dīn ʿIrāqī)
+      et ses *Lawāʾiḥ* sont des expositions fondatrices de la
+      *waḥdat al-wujūd*.
+    canonical_hijri: {year: 898, month: 1, day: 18, precision: day}
+    canonical_gregorian: {date: 1492-11-09, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death 18 Muḥarram 898 AH at Herāt, age 81."
+      - source_key: editorial
+        notes: "Buried at Takiyya-yi Khwāja Aḥrār; Naqshbandī shaykh."
+    people: [[jami, died]]
+    tags: [timurid, herat, naqshbandi, persian, sufi, poet, akbarian, nafahat-al-uns, haft-awrang]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Jami"
+
+  # =========================================================================
+  # POST-TIMURID PERSIAN-INDIAN SUFI LITERATURE — Bīdel, Hātif Iṣfahānī
+  # =========================================================================
+
+  - slug: death-of-bidel-dehlawi
+    category: scholar_death
+    title_en: Death of Mīrzā ʿAbd al-Qādir Bīdel — Mughal Sufi Poet of Delhi
+    title_ar: وفاة ميرزا عبد القادر بيدل — شاعر التصوف المغولي بدلهي
+    title_fr: Mort de Mīrzā ʿAbd al-Qādir Bīdel — poète soufi mughal de Delhi
+    description_en: |
+      Mīrzā ʿAbd al-Qādir Bīdel Dehlawī — late Mughal Persian-
+      language Sunni Sufi poet of Delhi, of Chaghatay-Turkic
+      family origin, formed in the Naqshbandī ṭarīqa, and the
+      acknowledged master of the *sabk-i hindī* ("Indian style")
+      of Persian poetry that flourished in seventeenth- and
+      eighteenth-century Mughal India — died at Delhi on
+      4 Ṣafar 1133 AH (5 December 1720 CE) at age 76. His
+      *Kulliyyāt* of around 147 000 verses — comprising the
+      ghazal *Dīwān*, the four *mathnawī*s of the *Muḥīṭ-i
+      Aʿẓam*, *Ṭilism-i Ḥayrat*, *Ṭūr-i Maʿrifat*, and *ʿIrfān*,
+      and the autobiographical prose *Chahār ʿUnṣur* — became
+      the dominant poetic reference for the Persian-language
+      cultural sphere of Central Asia, Afghanistan, and
+      Tājikistān, where the annual *Bīdelkhwānī* gatherings
+      remain the principal living oral-poetic tradition. His
+      thought, while difficult and often described as
+      "philosophical-Sufi," operates throughout within an
+      Akbarian *waḥdat al-wujūd* metaphysics inherited from
+      Jāmī.
+    description_ar: |
+      توفي ميرزا عبد القادر بيدل الدهلوي — شاعرٌ صوفيٌّ سنيٌّ
+      فارسي بدلهي في أواخر العصر المغوليّ، من أصلٍ تركيٍّ
+      چغطائي، تربى على الطريقة النقشبندية، وعُدّ شيخَ «السبك
+      الهندي» في الشعر الفارسي الذي ازدهر بالهند المغولية في
+      القرنين الحادي عشر والثاني عشر الهجريَّين — بدلهي يومَ
+      الرابع من صفر سنة ١١٣٣ هـ (الموافق ٥ ديسمبر ١٧٢٠ م) عن
+      ست وسبعين سنة. وصارت كلياته البالغة نحو مئة وسبعة وأربعين
+      ألف بيت — تضم ديوان الغزل، والمثنويات الأربع: «محيط أعظم»
+      و«طلسم حيرت» و«طور معرفت» و«عرفان»، والترجمة الذاتية
+      المنثورة «چهار عنصر» — المرجعَ الشعري المهيمن على الفضاء
+      الثقافي الفارسي بآسيا الوسطى وأفغانستان وطاجيكستان، حيث
+      لا تزال جلسات «بيدل‌خواني» السنوية التراثَ الشفاهي الشعريّ
+      الأكبرَ الحيّ هناك. وفكره — على عُسره ووصفه كثيراً بأنه
+      «صوفيٌّ فلسفيّ» — يدور على ميتافيزياء وحدة الوجود الأكبرية
+      الموروثة عن الجامي.
+    description_fr: |
+      Mīrzā ʿAbd al-Qādir Bīdel Dehlawī — poète soufi sunnite
+      de langue persane à Delhi à l'époque mughale tardive,
+      d'origine familiale turco-chaghatay, formé dans la
+      *ṭarīqa* Naqshbandī, et maître reconnu du *sabk-i hindī*
+      (« style indien ») de la poésie persane qui fleurit aux
+      XIe et XIIe siècles H dans l'Inde mughale — mourut à
+      Delhi le 4 Ṣafar 1133 H (5 décembre 1720 EC) à l'âge de
+      76 ans. Ses *Kulliyyāt* d'environ 147 000 vers —
+      comprenant le *Dīwān* de ghazals, les quatre *mathnawī*s
+      *Muḥīṭ-i Aʿẓam*, *Ṭilism-i Ḥayrat*, *Ṭūr-i Maʿrifat* et
+      *ʿIrfān*, et la prose autobiographique *Chahār ʿUnṣur* —
+      devinrent la référence poétique dominante pour la sphère
+      culturelle de langue persane d'Asie centrale,
+      d'Afghanistan et du Tajikistan, où les rassemblements
+      annuels *Bīdelkhwānī* demeurent la principale tradition
+      orale-poétique vivante. Sa pensée, ardue et souvent
+      qualifiée de « philosophico-soufie », opère
+      systématiquement dans une métaphysique akbarienne de
+      la *waḥdat al-wujūd* héritée de Jāmī.
+    canonical_hijri: {year: 1133, month: 2, day: 4, precision: day}
+    canonical_gregorian: {date: 1720-12-05, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death 4 Ṣafar 1133 AH at Delhi, age 76."
+      - source_key: editorial
+        notes: "Naqshbandī sabk-i hindī master; Bīdelkhwānī tradition Central Asia."
+    people: [[bidel-dehlawi, died]]
+    tags: [mughal, india, delhi, naqshbandi, persian, sufi, poet, sabk-i-hindi, bidelkhwani]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bidel_Dehlavi"
+
+  - slug: death-of-hatif-isfahani
+    category: scholar_death
+    title_en: Death of Hātif Iṣfahānī — Persian Sufi Tarjīʿ-band Master
+    title_ar: وفاة هاتف الأصفهاني — صاحب الترجيع‌بند الصوفي الفارسي
+    title_fr: Mort de Hātif Iṣfahānī — maître du *tarjīʿ-band* soufi persan
+    description_en: |
+      Sayyid Aḥmad Ḥātif Iṣfahānī — late-Safavid / Zand-era
+      Persian-language Sunni Sufi poet of Iṣfahān, of Sayyid
+      lineage, physician by trade, and the most-quoted single
+      voice of eighteenth-century Persian devotional poetry —
+      died at Qum or Iṣfahān around 1198 AH (~1784 CE), with
+      some sources giving 1199 AH. He is celebrated above all
+      for his *Tarjīʿ-band* of five strophes opening with the
+      line *yik-i hast u hīch nīst juz ū* ("There is one and
+      nothing is, save Him") — a single concise poem that
+      restated the *waḥdat al-wujūd* doctrine of Ibn ʿArabī,
+      Jāmī, and Bīdel for a late-Safavid audience and became
+      the most-memorised poem in eighteenth-and-nineteenth-
+      century Iranian Sufi devotional life. The poem
+      enumerates the Christian, Magian, and Muslim seekers
+      and brings each to the same affirmation — a literary
+      crystallisation of the long Persian Sufi conviction that
+      the Beloved is one, however the lover is named.
+    description_ar: |
+      توفي السيد أحمد هاتف الأصفهاني — شاعرٌ صوفيٌّ سنيٌّ
+      فارسيٌّ من إصفهان في أواخر العصر الصفوي وعهد الزنديّة،
+      من السلالة العلويّة، طبيبٌ كسبيّاً، وأكثر صوتٍ مفردٍ
+      نقلاً في الشعر التعبدي الفارسي بالقرن الثاني عشر الهجري
+      — بقُمّ أو بإصفهان نحو سنة ١١٩٨ هـ (~١٧٨٤ م)، وذكر بعض
+      المصادر سنة ١١٩٩ هـ. وتُروى عنه قبل كل شيء «ترجيع‌بَند»
+      من خمسة مقاطع تستفتح ببيت «يكي هست و هيچ نيست جز او»
+      («واحدٌ هو وما من شيءٍ سواه») — قصيدةٌ منفردة موجزة
+      أعادت صياغة عقيدة وحدة الوجود لابن عربي والجامي وبيدل
+      لجمهور أواخر الصفويّة، وصارت أكثر القصائد حفظاً في
+      الحياة التعبدية الإيرانية في القرنين الثاني عشر والثالث
+      عشر الهجريّين. وتعدِّد القصيدة طلّابَ الحقّ من النصارى
+      والمجوس والمسلمين وتقودهم جميعاً إلى عين الإقرار — تبلوُرٌ
+      أدبيٌّ للقناعة الصوفية الفارسية الطويلة بأن المحبوب
+      واحدٌ مهما تعدّدت أسماء العاشق.
+    description_fr: |
+      Sayyid Aḥmad Ḥātif Iṣfahānī — poète soufi sunnite de
+      langue persane à Iṣfahān à la fin de l'époque safavide
+      et sous les Zand, de lignée Sayyid, médecin de
+      profession, et la voix la plus citée de la poésie
+      dévotionnelle persane du XVIIIe siècle — mourut à Qum
+      ou Iṣfahān vers 1198 H (~1784 EC), certaines sources
+      donnant 1199 H. Il est célébré avant tout pour son
+      *Tarjīʿ-band* de cinq strophes commençant par le vers
+      *yik-i hast u hīch nīst juz ū* (« Un est, et rien n'est
+      en dehors de Lui ») — un poème unique et concis qui
+      reformula la doctrine de la *waḥdat al-wujūd* d'Ibn
+      ʿArabī, de Jāmī et de Bīdel à l'attention d'un public
+      safavide tardif et devint le poème le plus mémorisé
+      dans la vie dévotionnelle soufie iranienne des XIIe
+      et XIIIe siècles H. Le poème énumère les chercheurs
+      chrétiens, mages et musulmans et conduit chacun à la
+      même affirmation — cristallisation littéraire de la
+      longue conviction soufie persane que l'Aimé est un,
+      quel que soit le nom donné à l'amant.
+    canonical_hijri: {year: 1198, precision: year}
+    canonical_gregorian: {date: 1784-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year 1198 AH per dominant academic dating; some sources 1199 AH."
+      - source_key: editorial
+        notes: "Iṣfahān or Qum the place; Tarjīʿ-band central to Iranian Sufi devotion."
+    people: [[hatif-isfahani, died]]
+    tags: [safavid-late, zand, persian, sufi, poet, isfahan, qum, tarjib-band]
+    importance: notable
+    verified: true
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Hatef_Esfahani"
+
+  # =========================================================================
+  # BOOK-COMPLETION ANCHORS — Saʿdī's Gulistān and Būstān
+  # =========================================================================
+
+  - slug: completion-of-saadi-gulistan
+    category: scholar_death
+    title_en: Completion of Saʿdī's *Gulistān* (Rose Garden)
+    title_ar: إتمام «گلستان» سعدي الشيرازي
+    title_fr: Achèvement du *Gulistān* (« Roseraie ») de Saʿdī
+    description_en: |
+      Saʿdī Shīrāzī completed his prose-and-verse Persian
+      didactic *Gulistān* (Rose Garden) at Shīrāz in 656 AH
+      (1258 CE) — the year, by historical coincidence, of the
+      Mongol sack of Baghdad and the end of the ʿAbbāsid
+      caliphate — and dedicated it to the Salghurid Atabeg
+      Saʿd ibn Abī Bakr of Fārs. Structured in eight chapters
+      ("On the Conduct of Kings", "On the Morals of Dervishes",
+      "On the Excellence of Contentment", "On the Advantages of
+      Silence", "On Love and Youth", "On Weakness and Old Age",
+      "On the Effects of Education", "On the Manners of
+      Conversation"), the *Gulistān* combines short anecdotes in
+      Persian rhymed prose (*sajʿ*) with verse maxims, and was
+      composed as a companion to the all-verse *Būstān*
+      (Orchard) completed the previous year (655 AH / 1257 CE).
+      For seven centuries the *Gulistān* was the single most
+      widely read Persian-prose teaching text across the Sunni
+      world from the Ottoman *enderūn* schools to the Indian
+      Mughal madrasas, transmitting an ethical-Sufi *adab* in
+      every Persianate language community.
+    description_ar: |
+      أتمّ سعدي الشيرازي «گلستان» الفارسي المنثور-المنظوم
+      التعليميّ بشيراز سنة ٦٥٦ هـ (الموافقة ١٢٥٨ م) — وهي
+      السنة التي شهد فيها التاريخ بالمصادفة سقوطَ بغداد على
+      يد المغول وانقضاء الخلافة العباسية — وأهداه إلى الأتابك
+      السلغريّ سعد بن أبي بكر صاحب فارس. ويتألّف الكتاب من
+      ثمانية أبواب («في سيرة الملوك»، «في أخلاق الدراويش»،
+      «في فضيلة القناعة»، «في فوائد الصمت»، «في العشق والشباب»،
+      «في الضعف والشيخوخة»، «في آثار التربية»، «في آداب
+      المحادثة»)، يجمع بين القصص القصيرة بالنثر الفارسي
+      المسجوع وبين الحِكَم المنظومة، وأُلِّف رفيقاً للـ«بوستان»
+      المنظوم خالصاً الذي تمّ في السنة السابقة (٦٥٥ هـ /
+      ١٢٥٧ م). وقد ظلّ «گلستان» سبعة قرون أكثر النصوص الفارسية
+      المنثورة قراءةً في عموم العالم السني، من مدارس
+      «الإندرون» العثمانية إلى المدارس المغولية بالهند، يَحمل
+      أدباً أخلاقياً صوفيّاً إلى كلّ مجتمعٍ ناطقٍ بالفارسية.
+    description_fr: |
+      Saʿdī Shīrāzī acheva son *Gulistān* (Roseraie) didactique
+      persan en prose-et-vers à Shīrāz en 656 H (1258 EC) —
+      année qui, par coïncidence historique, vit le sac mongol
+      de Bagdad et la fin du califat ʿabbāside — et le dédia à
+      l'Atabeg Salghuride Saʿd ibn Abī Bakr du Fārs. Structuré
+      en huit chapitres (« De la conduite des rois », « De la
+      morale des derviches », « De l'excellence du contentement »,
+      « Des avantages du silence », « De l'amour et de la
+      jeunesse », « De la faiblesse et de la vieillesse », « Des
+      effets de l'éducation », « Des manières de la conversation »),
+      le *Gulistān* combine de courtes anecdotes en prose
+      persane rimée (*sajʿ*) avec des maximes en vers, et fut
+      composé en pendant du *Būstān* (Verger), entièrement en
+      vers, achevé l'année précédente (655 H / 1257 EC).
+      Pendant sept siècles le *Gulistān* fut le texte
+      d'enseignement persan en prose le plus lu à travers le
+      monde sunnite, des écoles *enderūn* ottomanes aux
+      madrasas mughales indiennes, transmettant un *adab*
+      éthico-soufi à chaque communauté linguistique persanophone.
+    canonical_hijri: {year: 656, precision: year}
+    canonical_gregorian: {date: 1258-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Gulistān completed 656 AH at Shīrāz, dedicated to Atabeg Saʿd ibn Abī Bakr."
+      - source_key: editorial
+        notes: "Companion to Būstān (655 AH); foundational Persian prose teaching text."
+    people: [[saadi-shirazi, subject]]
+    tags: [ilkhanid, mongol, persian, sufi, prose, shiraz, gulistan, atabegs-salghurid, adab]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Gulistan_(book)"

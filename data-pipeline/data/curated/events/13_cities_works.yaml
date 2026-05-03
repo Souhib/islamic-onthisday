@@ -1,0 +1,449 @@
+# Foundings of major Islamic cities + completion of foundational scholarly
+# works. Each event is attested in classical Sunni sources (al-Tabari,
+# Ibn Kathir, al-Dhahabi, Ibn al-Athir, al-Maqqari) and cross-checked
+# against modern academic histories. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # FOUNDATIONS OF MAJOR CITIES
+  # =========================================================================
+
+  - slug: founding-of-basra
+    category: founding
+    title_en: Founding of Basra
+    title_ar: تأسيس البصرة
+    title_fr: Fondation de Bassora
+    description_en: |
+      ʿUtba ibn Ghazwān, sent by Caliph ʿUmar ibn al-Khaṭṭāb to secure the
+      strategic land at the head of the Persian Gulf during the conquests of
+      Iraq, founded a garrison-city (miṣr) at the site of Basra. It began as
+      a tent encampment near the canal of al-Ubulla and quickly grew into a
+      major urban centre — and within a generation, the cradle of Arabic
+      grammar (al-Khalīl ibn Aḥmad, Sībawayh) and the gathering-place for the
+      early scholars of ḥadīth and tafsīr (al-Ḥasan al-Baṣrī, Ibn Sīrīn).
+    description_ar: |
+      أمر الخليفة عمر بن الخطاب رضي الله عنه عتبة بن غزوان رضي الله عنه بتمصير
+      مدينة على رأس الخليج الفارسي خلال فتوح العراق. بدأت بمعسكر خيام قرب نهر
+      الأبلة، ثم نمت سريعاً لتصبح من أعظم أمصار الإسلام، ومهد علم النحو العربي
+      (الخليل بن أحمد، سيبويه) ومجمع علماء الحديث والتفسير في الجيل الأول
+      (الحسن البصري، ابن سيرين).
+    description_fr: |
+      ʿUtba ibn Ghazwān, envoyé par le calife ʿUmar ibn al-Khaṭṭāb durant les
+      conquêtes d'Iraq pour sécuriser la tête du golfe Persique, fonda une
+      ville-garnison (miṣr) sur le site de Bassora. D'abord un campement de
+      tentes près du canal d'al-Ubulla, elle devint rapidement un grand centre
+      urbain — et, en une génération, le berceau de la grammaire arabe
+      (al-Khalīl ibn Aḥmad, Sībawayh) et le lieu de rassemblement des premiers
+      savants du ḥadīth et du tafsīr (al-Ḥasan al-Baṣrī, Ibn Sīrīn).
+    canonical_hijri: {year: 14, precision: year}
+    canonical_gregorian: {date: 636-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī, Tārīkh: foundation in the year 14 AH on Caliph ʿUmar's order."
+      - source_key: ibn_athir_kamil
+    people: [[umar-ibn-al-khattab, leader]]
+    tags: [rashidun, founding, iraq, basra, miṣr]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Basra
+
+  - slug: founding-of-kufa
+    category: founding
+    title_en: Founding of Kufa
+    title_ar: تأسيس الكوفة
+    title_fr: Fondation de Koufa
+    description_en: |
+      Saʿd ibn Abī Waqqāṣ, on Caliph ʿUmar's instruction after the conquest
+      of Iraq, moved the Muslim garrison from al-Madāʾin to a new healthier
+      site west of the Euphrates. Kufa rose alongside Basra as the second
+      Iraqi miṣr — administrative capital under Caliph ʿAlī ibn Abī Ṭālib
+      (who moved the seat of the Caliphate there), seedbed of the Ḥanafī
+      legal school in the next century, and an enduring centre of Qurʾanic
+      grammar and hadith transmission.
+    description_ar: |
+      نقل سعد بن أبي وقاص رضي الله عنه — بأمر الخليفة عمر بن الخطاب رضي الله
+      عنه — معسكر المسلمين من المدائن إلى موقع أصلح صحياً غربي الفرات بعد فتح
+      العراق. نهضت الكوفة إلى جانب البصرة لتكون المصر العراقي الثاني، عاصمة
+      الخلافة في عهد علي بن أبي طالب رضي الله عنه (الذي نقل إليها مقر الخلافة)،
+      ومهد المذهب الحنفي في القرن التالي، ومركزاً عريقاً لعلوم القراءات
+      والحديث.
+    description_fr: |
+      Saʿd ibn Abī Waqqāṣ, sur instruction du calife ʿUmar après la conquête
+      d'Iraq, déplaça la garnison musulmane d'al-Madāʾin vers un site plus
+      salubre à l'ouest de l'Euphrate. Koufa s'imposa aux côtés de Bassora
+      comme le second miṣr irakien — capitale administrative sous le calife
+      ʿAlī ibn Abī Ṭālib (qui y transféra le siège du califat), berceau de
+      l'école juridique ḥanafī au siècle suivant, et centre durable de la
+      grammaire coranique et de la transmission du hadith.
+    canonical_hijri: {year: 17, precision: year}
+    canonical_gregorian: {date: 638-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+    people: [[umar-ibn-al-khattab, leader]]
+    tags: [rashidun, founding, iraq, kufa, miṣr, hanafi]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Kufa
+
+  - slug: founding-of-fustat
+    category: founding
+    title_en: Founding of al-Fusṭāṭ
+    title_ar: تأسيس الفسطاط
+    title_fr: Fondation d'al-Fusṭāṭ
+    description_en: |
+      ʿAmr ibn al-ʿĀṣ, after the surrender of the Roman fortress of
+      Babylon, founded the garrison-city of al-Fusṭāṭ ("the encampment")
+      on the east bank of the Nile, establishing the first Muslim capital
+      of Egypt. Built around the Mosque of ʿAmr — the first mosque on the
+      African continent — al-Fusṭāṭ would govern Egypt for over three
+      centuries until the Fatimid foundation of Cairo (al-Qāhira) absorbed
+      it in 358 AH.
+    description_ar: |
+      أسس عمرو بن العاص رضي الله عنه مدينة الفسطاط ("المعسكر") على الضفة
+      الشرقية من النيل بعد استسلام حصن بابليون الروماني، فكانت أول عاصمة
+      إسلامية لمصر. وُضعت حول مسجد عمرو — أول مسجد بُني في القارة الأفريقية —
+      وحكمت مصر لأكثر من ثلاثة قرون قبل أن تستوعبها القاهرة الفاطمية في
+      سنة 358 هـ.
+    description_fr: |
+      ʿAmr ibn al-ʿĀṣ, après la reddition de la forteresse romaine de
+      Babylone, fonda la ville-garnison d'al-Fusṭāṭ ("le campement") sur la
+      rive orientale du Nil, établissant ainsi la première capitale musulmane
+      d'Égypte. Bâtie autour de la Mosquée de ʿAmr — la première mosquée du
+      continent africain — al-Fusṭāṭ administra l'Égypte plus de trois
+      siècles, jusqu'à ce que la fondation fatimide du Caire (al-Qāhira)
+      l'absorbe en 358 AH.
+    canonical_hijri: {year: 21, precision: year}
+    canonical_gregorian: {date: 642-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[umar-ibn-al-khattab, leader]]
+    tags: [rashidun, founding, egypt, fustat, mosque-of-amr]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Fustat
+
+  - slug: founding-of-qayrawan
+    category: founding
+    title_en: Founding of al-Qayrawān
+    title_ar: تأسيس القيروان
+    title_fr: Fondation de Kairouan
+    description_en: |
+      ʿUqba ibn Nāfiʿ, the conqueror of Ifrīqiya, founded al-Qayrawān
+      ("the caravan") in the interior of present-day Tunisia as a forward
+      base for the Muslim expansion across the Maghreb. The Great Mosque
+      of al-Qayrawān (Jāmiʿ ʿUqba), founded the same year, is the oldest
+      Friday mosque in the Maghreb. Al-Qayrawān became the political and
+      intellectual capital of Ifrīqiya for the next four centuries, the
+      centre from which the Mālikī legal school radiated across North
+      Africa and Andalus, and the home of Saḥnūn's Mudawwana — the first
+      systematic compendium of Mālikī law.
+    description_ar: |
+      أسس عقبة بن نافع — فاتح إفريقية — مدينة القيروان ("القافلة") في داخل
+      تونس الحالية لتكون قاعدة تقدّم للفتوح في المغرب. ويُعد جامع عقبة الذي
+      بُني في الموقع نفسه أقدم جامع للجمعة في المغرب. صارت القيروان عاصمة
+      إفريقية السياسية والعلمية أربعة قرون لاحقة، ومنها انتشر المذهب المالكي
+      في شمال أفريقيا والأندلس، وفيها صنّف سحنون "المدوّنة" — أول موسوعة منظَّمة
+      للفقه المالكي.
+    description_fr: |
+      ʿUqba ibn Nāfiʿ, conquérant de l'Ifrīqiya, fonda Kairouan ("la
+      caravane") à l'intérieur de l'actuelle Tunisie comme base avancée
+      pour l'expansion musulmane à travers le Maghreb. La Grande Mosquée de
+      Kairouan (Jāmiʿ ʿUqba), fondée la même année, est la plus ancienne
+      mosquée du vendredi du Maghreb. Kairouan devint la capitale politique
+      et intellectuelle de l'Ifrīqiya pendant les quatre siècles suivants,
+      le foyer d'où l'école juridique mālikī rayonna sur l'Afrique du Nord
+      et l'al-Andalus, et le lieu où Saḥnūn rédigea la Mudawwana — la
+      première encyclopédie systématique du droit mālikī.
+    canonical_hijri: {year: 50, precision: year}
+    canonical_gregorian: {date: 670-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+    tags: [umayyad, founding, ifriqiya, qayrawan, maliki, maghreb]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Kairouan
+
+  - slug: founding-of-marrakesh
+    category: founding
+    title_en: Founding of Marrakesh
+    title_ar: تأسيس مراكش
+    title_fr: Fondation de Marrakech
+    description_en: |
+      Yūsuf ibn Tāshfīn, the Almoravid amīr, founded Marrakesh as the
+      capital of his new state at the foot of the High Atlas. The city
+      became the political centre of an empire that at its peak stretched
+      from the Sahel to Andalus, and the launching-point of the Almoravid
+      defence of Muslim Spain that culminated in the victory at al-Zallāqa
+      (479 AH). The Kutubiyya Mosque, founded later under the Almohads,
+      anchors the medina to this day.
+    description_ar: |
+      أسس يوسف بن تاشفين — أمير المرابطين — مدينة مراكش لتكون عاصمة دولته
+      الجديدة عند سفح الأطلس الكبير. صارت المدينة المركز السياسي لإمبراطورية
+      امتدت في أوجها من الساحل الأفريقي إلى الأندلس، ومنها انطلق الدفاع
+      المرابطي عن الأندلس المسلمة الذي توّج بالنصر في معركة الزلاقة (479 هـ).
+      ويتوسّط مسجد الكتبية — الذي أُسس لاحقاً في عهد الموحدين — مدينة مراكش
+      العتيقة إلى يومنا هذا.
+    description_fr: |
+      Yūsuf ibn Tāshfīn, amīr des Almoravides, fonda Marrakech comme capitale
+      de son nouvel État au pied du Haut Atlas. La ville devint le centre
+      politique d'un empire qui s'étendit à son apogée du Sahel à
+      l'al-Andalus, et le point de départ de la défense almoravide de
+      l'Espagne musulmane qui culmina dans la victoire d'al-Zallāqa
+      (479 AH). La mosquée Koutoubia, fondée plus tard sous les Almohades,
+      ancre la médina jusqu'à aujourd'hui.
+    canonical_hijri: {year: 450, precision: year}
+    canonical_gregorian: {date: 1062-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr, al-Bidāya wa-l-Nihāya — Almoravid foundation under Yūsuf ibn Tāshfīn."
+      - source_key: ibn_athir_kamil
+    tags: [almoravid, founding, maghreb, marrakesh, atlas]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Marrakesh
+
+  # =========================================================================
+  # FOUNDATIONAL SCHOLARLY WORKS
+  # =========================================================================
+
+  - slug: muwatta-of-malik-compiled
+    category: scholar_death
+    title_en: Imām Mālik Compiles al-Muwaṭṭaʾ
+    title_ar: تأليف الإمام مالك للموطأ
+    title_fr: Compilation d'al-Muwaṭṭaʾ par l'imām Mālik
+    description_en: |
+      Imām Mālik ibn Anas, then around forty years old and the leading
+      jurist of Madīnah, presented the first edition of his al-Muwaṭṭaʾ —
+      the earliest surviving organised collection of Prophetic ḥadīth
+      arranged by legal chapter. The work, requested by the Abbasid Caliph
+      al-Manṣūr, draws on the practice of the people of Madīnah ("ʿamal
+      ahl al-Madīna") as well as Prophetic reports. al-Muwaṭṭaʾ became the
+      foundational source-text of the Mālikī school of law and one of the
+      most-praised works of the early ḥadīth canon — al-Shāfiʿī famously
+      remarking, "After the Book of Allah, there is no book on earth more
+      authentic than the Muwaṭṭaʾ of Mālik."
+    description_ar: |
+      عرض الإمام مالك بن أنس — وهو في نحو الأربعين، إمام أهل المدينة في زمانه —
+      الطبعة الأولى من "الموطأ"، أقدم ما وصلنا من مجاميع الأحاديث النبوية
+      المنظَّمة بحسب أبواب الفقه. ألّف الكتاب بطلب من الخليفة العباسي المنصور،
+      وجمع فيه — إلى جانب الأحاديث النبوية — عمل أهل المدينة. صار الموطأ
+      الأصل المؤسس للمذهب المالكي، ومن أعظم كتب الحديث المتقدِّمة منزلةً.
+      وقال فيه الإمام الشافعي: «ما في الأرض كتاب بعد كتاب الله أصحّ من موطأ
+      مالك».
+    description_fr: |
+      L'imām Mālik ibn Anas, alors âgé d'une quarantaine d'années et chef
+      de file des juristes de Médine, présenta la première édition de son
+      al-Muwaṭṭaʾ — la plus ancienne collection structurée de ḥadīth
+      prophétiques classée par chapitres juridiques qui nous soit parvenue.
+      L'ouvrage, commandé par le calife ʿabbāsside al-Manṣūr, mobilise la
+      pratique des gens de Médine ("ʿamal ahl al-Madīna") ainsi que les
+      récits prophétiques. al-Muwaṭṭaʾ devint le texte fondateur de l'école
+      mālikī et l'une des œuvres les plus célébrées du premier canon du
+      ḥadīth — al-Shāfiʿī déclarant : «Après le Livre d'Allāh, il n'y a pas
+      sur terre de livre plus authentique que le Muwaṭṭaʾ de Mālik».
+    canonical_hijri: {year: 159, precision: year}
+    canonical_gregorian: {date: 776-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Ibn Khallikān, Wafayāt al-Aʿyān — biography of Mālik ibn Anas."
+      - source_key: dhahabi_siyar
+    people: [[malik-ibn-anas, subject]]
+    tags: [abbasid, scholar, hadith, maliki, madinah]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Muwatta_Imam_Malik
+
+  - slug: al-risala-shafii
+    category: scholar_death
+    title_en: al-Shāfiʿī Composes al-Risāla
+    title_ar: تأليف الإمام الشافعي للرسالة
+    title_fr: Composition d'al-Risāla par al-Shāfiʿī
+    description_en: |
+      Imām Muḥammad ibn Idrīs al-Shāfiʿī completed his epistle al-Risāla
+      ("the message"), the foundational work of Islamic legal theory
+      (uṣūl al-fiqh). Originally composed in Baghdad and revised in Egypt,
+      al-Risāla systematised for the first time the principles of legal
+      reasoning: the four sources of law (Qurʾān, Sunnah, ijmāʿ, qiyās),
+      the conditions for ḥadīth acceptance, and the relationship between
+      Qurʾān and Sunnah. Every later school of Islamic jurisprudence
+      operates within the framework al-Shāfiʿī articulated. He died in
+      Cairo soon after completing the work.
+    description_ar: |
+      أتمّ الإمام محمد بن إدريس الشافعي رسالته المسمّاة "الرسالة"، وهي الأصل
+      المؤسِّس لعلم أصول الفقه. وضعها أولاً ببغداد ثم نقّحها بمصر، فقنّن فيها
+      لأول مرة قواعد الاستنباط: الأدلة الأربعة (القرآن والسنّة والإجماع
+      والقياس)، وشروط قبول الحديث، والعلاقة بين القرآن والسنّة. كل المذاهب
+      الفقهية اللاحقة تعمل ضمن الإطار الذي أرساه الشافعي. توفي بمصر بعيد
+      انتهائه من تأليف الرسالة.
+    description_fr: |
+      L'imām Muḥammad ibn Idrīs al-Shāfiʿī acheva son épître al-Risāla
+      ("le message"), œuvre fondatrice de la théorie du droit islamique
+      (uṣūl al-fiqh). D'abord composée à Bagdad puis révisée en Égypte,
+      al-Risāla systématisa pour la première fois les principes du
+      raisonnement juridique : les quatre sources du droit (Coran, Sunna,
+      ijmāʿ, qiyās), les conditions d'acceptation du ḥadīth et la relation
+      entre Coran et Sunna. Toutes les écoles juridiques islamiques
+      ultérieures opèrent dans le cadre articulé par al-Shāfiʿī. Il mourut
+      au Caire peu après avoir terminé l'ouvrage.
+    canonical_hijri: {year: 204, precision: year}
+    canonical_gregorian: {date: 819-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    people: [[ash-shafii, subject]]
+    tags: [abbasid, scholar, usul-al-fiqh, shafii, foundational-work]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Al-Risala_(al-Shafi%27i_book)
+
+  - slug: sahih-bukhari-completed
+    category: scholar_death
+    title_en: Imām al-Bukhārī Completes al-Jāmiʿ al-Ṣaḥīḥ
+    title_ar: إتمام الإمام البخاري للجامع الصحيح
+    title_fr: Achèvement d'al-Jāmiʿ al-Ṣaḥīḥ par al-Bukhārī
+    description_en: |
+      After sixteen years of travel across the Islamic world meeting more
+      than a thousand teachers and sifting through some 600,000 reports,
+      Imām Muḥammad ibn Ismāʿīl al-Bukhārī finalised al-Jāmiʿ al-Ṣaḥīḥ in
+      Bukhara — selecting roughly 7,275 narrations (with repetitions; about
+      4,000 unique) that met his stringent criteria for authenticity. The
+      work, which he is reported to have entered upon every selection only
+      after performing two rakʿahs of istikhāra, became — alongside Ṣaḥīḥ
+      Muslim — the most authoritative source of Prophetic tradition in
+      Sunni Islam, second only to the Qurʾān itself.
+    description_ar: |
+      بعد ست عشرة سنة من الرحلة في طلب الحديث جال فيها الإمام محمد بن إسماعيل
+      البخاري بلاد الإسلام، ولقي أكثر من ألف شيخ، وعرض ما يُروى نحو ستمائة
+      ألف حديث، ختم تأليف "الجامع الصحيح" ببخارى — وانتقى نحو سبعة آلاف ومائتين
+      وخمسة وسبعين حديثاً (بالمكرّر، نحو أربعة آلاف حديث متفرِّد) ممّا استوفى
+      شروطه الصارمة في الصحّة. ويُروى أنه ما أدخل حديثاً في الكتاب إلا بعد
+      صلاة ركعتي استخارة. صار الكتاب — مع صحيح مسلم — أوثق مصدر للحديث النبوي
+      في أهل السنّة بعد كتاب الله.
+    description_fr: |
+      Après seize années de voyage à travers le monde islamique au cours
+      desquelles il rencontra plus de mille maîtres et tamisa quelque
+      600 000 récits, l'imām Muḥammad ibn Ismāʿīl al-Bukhārī acheva
+      al-Jāmiʿ al-Ṣaḥīḥ à Boukhara — sélectionnant environ 7 275 récits
+      (répétitions comprises ; environ 4 000 uniques) répondant à ses
+      critères stricts d'authenticité. L'ouvrage, dont il aurait validé
+      chaque sélection après avoir prié deux rakʿahs d'istikhāra, devint —
+      avec le Ṣaḥīḥ de Muslim — la source la plus autorisée du ḥadīth
+      prophétique dans l'islam sunnite, seconde uniquement après le Coran.
+    canonical_hijri: {year: 232, precision: year}
+    canonical_gregorian: {date: 846-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "al-Dhahabī, Siyar Aʿlām al-Nubalāʾ — biography of al-Bukhārī, the years of compilation."
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-bukhari, subject]]
+    hadith_refs: "Bukhari 1"
+    tags: [abbasid, scholar, hadith, sahih, bukhara, foundational-work]
+    importance: major
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Sahih_al-Bukhari
+
+  - slug: tarikh-al-tabari-completed
+    category: scholar_death
+    title_en: Imām al-Ṭabarī Completes Tārīkh al-Rusul wa-l-Mulūk
+    title_ar: إتمام الإمام الطبري لتاريخ الرسل والملوك
+    title_fr: Achèvement de Tārīkh al-Rusul wa-l-Mulūk par al-Ṭabarī
+    description_en: |
+      Muḥammad ibn Jarīr al-Ṭabarī completed his Tārīkh al-Rusul wa-l-Mulūk
+      ("History of the Prophets and Kings") in Baghdad, the most
+      comprehensive historical work of medieval Islam. Spanning from
+      Creation through the year 302 AH, organised year-by-year (ḥawliyyāt)
+      and quoting predecessor historians by isnād, the work preserved much
+      of the early historiography (Sayf ibn ʿUmar, Abū Mikhnaf, al-Wāqidī,
+      Ibn Isḥāq) that would otherwise have been lost. al-Ṭabarī's history
+      remains the indispensable source for the Rāshidūn and early Umayyad
+      periods.
+    description_ar: |
+      أتمّ محمد بن جرير الطبري كتابه "تاريخ الرسل والملوك" ببغداد، وهو أوسع كتب
+      التاريخ في الإسلام الكلاسيكي. يبدأ بأخبار الخلق وينتهي عند سنة 302 هـ،
+      مرتَّباً بحسب السنوات (الحوليات)، ومُسنِداً ما يرويه عن المؤرخين قبله.
+      حفظ هذا الكتاب القدر الأكبر من تاريخ الصدر الإسلامي عن سيف بن عمر، وأبي
+      مخنف، والواقدي، وابن إسحاق ممّا لو فُقد لضاع. ويبقى تاريخ الطبري المصدر
+      الذي لا غنى عنه لعصر الراشدين وأوائل الأمويين.
+    description_fr: |
+      Muḥammad ibn Jarīr al-Ṭabarī acheva à Bagdad son Tārīkh al-Rusul
+      wa-l-Mulūk ("Histoire des prophètes et des rois"), l'ouvrage
+      historique le plus exhaustif de l'islam médiéval. S'étendant de la
+      Création jusqu'à l'an 302 AH, organisé année par année (ḥawliyyāt)
+      et citant les historiens prédécesseurs par chaîne de transmission
+      (isnād), il préserva une grande part de l'historiographie ancienne
+      (Sayf ibn ʿUmar, Abū Mikhnaf, al-Wāqidī, Ibn Isḥāq) qui aurait
+      autrement été perdue. L'histoire d'al-Ṭabarī reste la source
+      indispensable des périodes rāshidūn et omeyyade ancienne.
+    canonical_hijri: {year: 302, precision: year}
+    canonical_gregorian: {date: 915-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[at-tabari, subject]]
+    tags: [abbasid, scholar, history, foundational-work, baghdad]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/History_of_the_Prophets_and_Kings
+
+  - slug: ihya-ulum-al-din-completed
+    category: scholar_death
+    title_en: al-Ghazālī Completes Iḥyāʾ ʿUlūm al-Dīn
+    title_ar: إتمام الإمام الغزالي إحياء علوم الدين
+    title_fr: Achèvement d'Iḥyāʾ ʿUlūm al-Dīn par al-Ghazālī
+    description_en: |
+      Following his crisis of conviction and decade-long withdrawal from
+      teaching, Abū Ḥāmid al-Ghazālī completed Iḥyāʾ ʿUlūm al-Dīn
+      ("Revival of the Religious Sciences"), forty books in four quarters
+      (ʿibādāt, ʿādāt, muhlikāt, munjiyāt) that re-grounded outward
+      religious practice in the inward states of the heart. The Iḥyāʾ
+      synthesised Sunni jurisprudence, kalām, and the discipline of the
+      heart (taṣawwuf within the bounds of orthodoxy) into a single
+      programme of religious renewal. Few books since the early Islamic
+      centuries have been read as widely or shaped Sunni piety as
+      durably; al-Nawawī declared it "almost a Qurʾān" — a hyperbole
+      reflecting its central place in Sunni spiritual literature.
+    description_ar: |
+      بعد أزمة يقينه وعزلته نحو عشر سنين، أتمّ أبو حامد الغزالي كتاب "إحياء
+      علوم الدين"، أربعين كتاباً في أربعة أرباع (العبادات، العادات، المهلكات،
+      المنجيات)، ربط فيه الظاهر الديني بأحوال القلب الباطنة. جمع الإحياء بين
+      الفقه السنّي والكلام وتزكية النفس (التصوّف في حدود السنّة) في برنامج
+      واحد للتجديد الديني. وقلَّ كتاب — منذ القرون الأولى — قُرئ على نطاق واسع
+      كهذا أو شكّل التديّن السنّي بدوامٍ مماثل؛ وقال فيه النووي: «كاد أن يكون
+      قرآناً» — مبالغة تعكس مكانته المحورية في الأدب الروحي السنّي.
+    description_fr: |
+      Après sa crise de conviction et sa retraite d'enseignement durant
+      une décennie, Abū Ḥāmid al-Ghazālī acheva Iḥyāʾ ʿUlūm al-Dīn
+      ("Revivification des sciences de la religion"), quarante livres
+      répartis en quatre quarts (ʿibādāt, ʿādāt, muhlikāt, munjiyāt), qui
+      réenracinent la pratique religieuse extérieure dans les états
+      intérieurs du cœur. L'Iḥyāʾ synthétisa la jurisprudence sunnite, le
+      kalām et la discipline du cœur (taṣawwuf dans les limites de
+      l'orthodoxie) en un programme unique de renouveau religieux. Peu de
+      livres depuis les premiers siècles islamiques ont été lus aussi
+      largement ou ont façonné aussi durablement la piété sunnite ;
+      al-Nawawī le qualifia de «presque un Coran» — hyperbole reflétant sa
+      place centrale dans la littérature spirituelle sunnite.
+    canonical_hijri: {year: 493, precision: year}
+    canonical_gregorian: {date: 1100-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    people: [[al-ghazali, subject]]
+    tags: [abbasid, scholar, tasawwuf, kalam, foundational-work, iḥyāʾ]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/The_Revival_of_the_Religious_Sciences

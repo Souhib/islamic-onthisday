@@ -1,0 +1,149 @@
+# Additional events from al-Andalus (711-1492 CE).
+
+events:
+  - slug: abd-al-rahman-iii-caliphate
+    category: umayyad
+    title_en: Abd al-Rahman III Proclaims the Caliphate of Cordoba
+    title_ar: إعلان خلافة قرطبة
+    description_en: |
+      After 172 years as an Emirate independent of Baghdad, Abd al-Rahman
+      III (an-Nasir) proclaimed himself Caliph and Commander of the
+      Faithful in Cordoba — directly challenging the Abbasid and Fatimid
+      caliphates. The Umayyad caliphate of Cordoba would last until 1031
+      and preside over the golden age of al-Andalus: the construction of
+      Madinat al-Zahra, the Great Mosque of Cordoba's final expansions,
+      and the flourishing of scholars including Ibn Hazm, Maslama al-
+      Majriti, and al-Zahrawi (Abulcasis).
+    canonical_hijri: {year: 316, precision: year}
+    canonical_gregorian: {date: 929-01-16, precision: year, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    tags: [al-andalus, umayyad, caliphate, cordoba]
+    verified: true
+
+  - slug: madinat-al-zahra-founding
+    category: founding
+    title_en: Founding of Madinat al-Zahra
+    title_ar: تأسيس مدينة الزهراء
+    description_en: |
+      Caliph Abd al-Rahman III began construction of Madinat al-Zahra, a
+      palace-city on the slopes of the Sierra Morena outside Cordoba.
+      Named (according to tradition) for the caliph's beloved concubine
+      al-Zahra, the city housed the administration and court of the
+      Umayyad caliphate of al-Andalus at the peak of its power. It was
+      destroyed in 1010 during the fitna that ended the caliphate, but
+      its ruins — excavated since 1911 — remain one of the most
+      significant archaeological sites of medieval Muslim civilisation.
+    canonical_hijri: {year: 324, precision: year}
+    canonical_gregorian: {date: 936-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Founding 936 CE = 324 AH (325 AH starts ~15 Nov 936). Earlier draft used 325 AH which only applies if founding was after Nov 936."
+    tags: [al-andalus, umayyad, cordoba, architecture, madinat-al-zahra]
+    verified: true
+
+  - slug: death-of-ibn-hazm
+    category: scholar_death
+    title_en: Death of Ibn Hazm al-Andalusi
+    title_ar: وفاة ابن حزم الأندلسي
+    description_en: |
+      The foremost polymath of al-Andalus in the eleventh century. Author
+      of "al-Muhalla" — a vast work of comparative fiqh rooted in the
+      Zahiri school — of "al-Fisal fi al-Milal wa'l-Ahwa' wa'l-Nihal" on
+      comparative religion, and of "Tawq al-Hamama" (The Ring of the Dove),
+      a delicate treatise on love written in his youth. He is said to have
+      produced some 400 works. Died in Manta Lisham near Seville.
+    canonical_hijri: {year: 456, month: 8, day: 28, precision: day}
+    canonical_gregorian: {date: 1064-08-15, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    tags: [al-andalus, scholar, zahiri, seville]
+    verified: true
+
+  - slug: battle-of-zallaqa-sagrajas
+    category: battle
+    title_en: Battle of Zallaqa (Sagrajas)
+    title_ar: معركة الزلاقة
+    description_en: |
+      The Almoravid army under Yusuf ibn Tashfin, crossing from Marrakech
+      at the request of the besieged Andalusi taifa kings, decisively
+      defeated the forces of King Alfonso VI of Castile at Zallaqa near
+      Badajoz. The battle temporarily halted the Christian Reconquista
+      and began the period of Almoravid rule over al-Andalus. It took
+      place on a Friday; the Muslims prayed Jumu'ah on the battlefield
+      before engaging.
+    canonical_hijri: {year: 479, month: 7, day: 12, precision: day}
+    canonical_gregorian: {date: 1086-10-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "23 Oct 1086 CE = 12 Rajab 479 AH (Friday). Earlier draft mislabeled as Dhu al-Qa'da 479 (which would be Feb-Mar 1087)."
+    tags: [al-andalus, almoravid, battle, reconquista, yusuf-ibn-tashfin]
+    verified: true
+
+  - slug: battle-of-las-navas
+    category: battle
+    title_en: Battle of Las Navas de Tolosa
+    title_ar: معركة العقاب
+    description_en: |
+      Known in Arabic as Ma'rakat al-'Iqab ("Battle of the Eagle"), this
+      was the decisive reverse for the Muslim presence in al-Andalus. A
+      combined Castilian-Aragonese-Navarrese-Portuguese crusading army
+      under Alfonso VIII of Castile defeated the Almohad caliph
+      Muhammad an-Nasir in the Sierra Morena. Within decades the major
+      Muslim cities — Cordoba (1236), Valencia (1238), Seville (1248) —
+      would fall. Only the Nasrid Emirate of Granada survived, as a
+      tributary, until 1492.
+    canonical_hijri: {year: 609, month: 6, day: 15, precision: day}
+    canonical_gregorian: {date: 1212-07-16, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    tags: [al-andalus, almohad, battle, reconquista, las-navas]
+    verified: true
+
+  - slug: death-of-ibn-rushd
+    category: scholar_death
+    title_en: Death of Ibn Rushd (Averroes)
+    title_ar: وفاة ابن رشد
+    description_en: |
+      Abu al-Walid Muhammad ibn Rushd, known in the Latin West as
+      Averroes, was a Maliki judge of Cordoba, grand commentator on
+      Aristotle, author of "Bidayat al-Mujtahid" (a foundational work of
+      comparative fiqh), and of "Fasl al-Maqal" on the relationship of
+      philosophy and revelation. His Aristotelian commentaries, translated
+      into Latin and Hebrew, shaped the medieval European universities.
+      Died at Marrakesh at age 72.
+    canonical_hijri: {year: 595, month: 9, day: 9, precision: day}
+    canonical_gregorian: {date: 1198-12-10, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    tags: [al-andalus, scholar, philosopher, cordoba, marrakesh, maliki]
+    verified: true
+
+  - slug: fall-of-seville
+    category: conquest
+    title_en: Fall of Seville to the Castilians
+    title_ar: سقوط إشبيلية
+    description_en: |
+      After a seventeen-month siege, Seville — the largest city of
+      al-Andalus and capital of the Almohads in Iberia — surrendered to
+      Ferdinand III of Castile. The Muslim population of around 100,000
+      was expelled, most leaving for North Africa or Granada. The Great
+      Mosque was converted to a cathedral; the Giralda minaret remains
+      today as the cathedral's bell tower. With Seville's fall only the
+      Nasrid Emirate of Granada remained of Muslim al-Andalus.
+    canonical_hijri: {year: 646, month: 8, day: 5, precision: day}
+    canonical_gregorian: {date: 1248-11-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "23 Nov 1248 = 5 Sha'ban 646 AH (capitulation). Ferdinand's formal entry was 22 Dec 1248 = 4 Ramadan 646 AH. Earlier draft conflated the two dates."
+    tags: [al-andalus, fall, seville, almohad, reconquista]
+    verified: true

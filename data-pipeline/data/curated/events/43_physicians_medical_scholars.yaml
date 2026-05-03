@@ -1,0 +1,825 @@
+# Wave 30 of curated event additions (2026-04-27).
+# Major physicians, medical authors, and pharmacologists of the Islamic
+# civilisational tradition not yet covered in the dataset. The classical
+# corpus already contained al-Zahrāwī, Ibn al-Nafīs, Ibn al-Bayṭār,
+# Ibn Sīnā, al-Bīrūnī, and the philosopher-physicians Ibn Bajja, Ibn Ṭufayl,
+# and Ibn Rushd; this wave adds the major figures missing from that map.
+#
+# Twelve physicians attested in classical Sunni biographical literature
+# (Ibn Khallikān's *Wafayāt al-Aʿyān*, al-Dhahabī's *Tārīkh al-Islām* and
+# *Siyar Aʿlām al-Nubalāʾ*, Ibn Kathīr's *al-Bidāya wa'l-Nihāya*) and in
+# the standard modern reference (*Encyclopaedia of Islam, 2nd ed.*).
+# Two of the figures (Hunayn ibn Isḥāq, Ibn al-Quff) were Eastern Christian
+# Arabs whose careers unfolded inside the Abbasid and Mamlūk medical
+# systems and whose Arabic writings became part of the Islamic medical
+# canon — they are included as part of Islamic civilisational history,
+# the dataset already including comparable cross-confessional figures
+# (al-Idrīsī at the Norman court of Palermo). Trilingual en/ar/fr.
+
+events:
+  # =========================================================================
+  # ABBASID-ERA TRANSLATORS AND PHYSICIANS
+  # =========================================================================
+
+  - slug: death-of-yuhanna-ibn-masawayh
+    category: scholar_death
+    title_en: Death of Yūḥannā ibn Māsawayh — Physician of the House of Wisdom
+    title_ar: وفاة يوحنا بن ماسويه — طبيب بيت الحكمة
+    title_fr: Mort de Yūḥannā ibn Māsawayh — médecin de la Maison de la Sagesse
+    description_en: |
+      Yūḥannā ibn Māsawayh — Eastern Christian Arab physician of
+      Khūzistān origin trained in Jundīshāpūr who served six
+      successive Abbasid caliphs (al-Maʾmūn through al-Mutawakkil)
+      as personal physician and as the second director of the
+      *Bayt al-Ḥikma* (House of Wisdom) translation programme in
+      Baghdad after his teacher Yūḥannā ibn al-Biṭrīq — died at
+      Sāmarrāʾ in 243 AH (857 CE). He composed Arabic medical
+      treatises that were the first generation of original works
+      in the language (his *Kitāb al-Nawādir al-Ṭibbiyya* and the
+      ophthalmological *Daghal al-ʿAyn* among them), and he
+      taught the next generation of Abbasid physicians, including
+      Ḥunayn ibn Isḥāq. Classical biographers (Ibn Khallikān,
+      al-Dhahabī, Ibn Abī Uṣaybiʿa) preserve his repartee at the
+      caliphal court; al-Dhahabī notes the year-precision dating
+      with the location at Sāmarrāʾ.
+    description_ar: |
+      توفي يوحنا بن ماسويه — طبيب نصراني من خوزستان، تلقى تعليمه
+      في جنديسابور، خدم ستة من خلفاء بني العباس (من المأمون إلى
+      المتوكل) طبيباً خاصاً، وتولّى رئاسة بيت الحكمة في بغداد
+      ثاني مديريه بعد أستاذه يوحنا بن البطريق — بسامراء سنة ٢٤٣
+      هـ (٨٥٧ ميلادي). وضع باللغة العربية مصنفات طبية كانت من
+      الجيل الأول للتأليف الطبي العربي الأصيل (منها «كتاب
+      النوادر الطبية» و«دغل العين» في طب العيون)، ودرَّس الجيل
+      التالي من أطباء العباسيين، ومنهم تلميذه حنين بن إسحاق.
+      وحفظ المؤرخون الأوائل (ابن خلكان والذهبي وابن أبي أصيبعة)
+      كثيراً من نوادره في حضرة الخلفاء. ذكر الذهبي تاريخ وفاته
+      السنوي ومكانها بسامراء.
+    description_fr: |
+      Yūḥannā ibn Māsawayh — médecin chrétien arabe d'origine
+      khouzistanaise, formé à Jundīshāpūr, qui servit six califes
+      abbassides successifs (d'al-Maʾmūn à al-Mutawakkil) comme
+      médecin personnel et comme second directeur du programme de
+      traduction de la *Bayt al-Ḥikma* (Maison de la Sagesse) à
+      Bagdad, succédant à son maître Yūḥannā ibn al-Biṭrīq —
+      mourut à Sāmarrāʾ en 243 H (857 EC). Il composa en arabe
+      des traités médicaux qui formèrent la première génération
+      d'œuvres originales dans cette langue (notamment son *Kitāb
+      al-Nawādir al-Ṭibbiyya* et le traité d'ophtalmologie *Daghal
+      al-ʿAyn*), et il forma la génération suivante de médecins
+      abbassides, dont Ḥunayn ibn Isḥāq. Les biographes classiques
+      (Ibn Khallikān, al-Dhahabī, Ibn Abī Uṣaybiʿa) conservent ses
+      reparties à la cour califale ; al-Dhahabī donne la datation
+      annuelle avec la localisation à Sāmarrāʾ.
+    canonical_hijri: {year: 243, precision: year}
+    canonical_gregorian: {date: 857-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāt 243 AH at Sāmarrāʾ."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year-precise; biographies of physicians of the caliphs of Sāmarrāʾ."
+      - source_key: ei2
+        notes: "EI2 article 'Ibn Māsawayh' confirms 243/857 and Sāmarrāʾ."
+    people: [[yuhanna-ibn-masawayh, died]]
+    tags: [abbasid, physician, baghdad, samarra, bayt-al-hikma, translation, jundishapur]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yuhanna_ibn_Masawaih"
+
+  - slug: death-of-hunayn-ibn-ishaq
+    category: scholar_death
+    title_en: Death of Ḥunayn ibn Isḥāq — Master Translator of Greek Medicine
+    title_ar: وفاة حنين بن إسحاق — كبير المترجمين عن اليونانية
+    title_fr: Mort de Ḥunayn ibn Isḥāq — maître traducteur de la médecine grecque
+    description_en: |
+      Abū Zayd Ḥunayn ibn Isḥāq al-ʿIbādī — Eastern Christian
+      Arab translator-physician from al-Ḥīra, the central figure
+      of the Abbasid Greek-into-Arabic translation movement and
+      personal physician to caliph al-Mutawakkil — died at
+      Baghdad in Ṣafar 260 AH (December 873 CE). He and the
+      atelier he led (his son Isḥāq, his nephew Ḥubaysh, ʿĪsā
+      ibn Yaḥyā) Arabised the Galenic corpus and key works of
+      Hippocrates, Dioscorides, and Aristotle, fixing the
+      technical vocabulary that Ibn Sīnā, al-Rāzī, and the entire
+      Arabic-Latin medical tradition would inherit. His own
+      *Kitāb al-ʿAshr Maqālāt fī al-ʿAyn* (Ten Treatises on the
+      Eye) is the earliest systematic Arabic ophthalmology. Ibn
+      Khallikān places his death in 260 AH; the *Encyclopaedia of
+      Islam* gives Ṣafar 260/December 873 with month-precision.
+    description_ar: |
+      توفي أبو زيد حنين بن إسحاق العبادي — طبيب مترجم نصراني
+      عربي من أهل الحيرة، الشخصية المحورية في حركة الترجمة من
+      اليونانية إلى العربية في عصر العباسيين، والطبيب الخاص
+      للخليفة المتوكل — ببغداد في صفر سنة ٢٦٠ هـ (الموافق
+      ديسمبر ٨٧٣ ميلادي). عرّب هو وحلقته (ابنه إسحاق وابن أخته
+      حبيش وعيسى بن يحيى) جميع المتون الجالينوسية وأمهات أعمال
+      أبقراط وديوسقوريدس وأرسطو، وثبّت المصطلح الفني الذي ورثه
+      ابن سينا والرازي والمدرسة الطبية العربية اللاتينية بأسرها.
+      ومن أعماله الأصلية «كتاب العشر مقالات في العين» وهو أقدم
+      كتاب عربي منهجي في طب العيون. ذكر ابن خلكان وفاته سنة
+      ٢٦٠ هـ، وأفادت دائرة المعارف الإسلامية بأن وفاته كانت في
+      صفر من تلك السنة بدقة شهرية.
+    description_fr: |
+      Abū Zayd Ḥunayn ibn Isḥāq al-ʿIbādī — médecin-traducteur
+      chrétien arabe d'al-Ḥīra, figure centrale du mouvement
+      abbasside de traduction du grec vers l'arabe et médecin
+      personnel du calife al-Mutawakkil — mourut à Bagdad en
+      Ṣafar 260 H (décembre 873 EC). Lui et l'atelier qu'il
+      dirigeait (son fils Isḥāq, son neveu Ḥubaysh, ʿĪsā ibn
+      Yaḥyā) arabisèrent le corpus galénique et les ouvrages
+      majeurs d'Hippocrate, Dioscoride et Aristote, fixant le
+      vocabulaire technique dont héritèrent Ibn Sīnā, al-Rāzī
+      et toute la tradition médicale arabo-latine. Son propre
+      *Kitāb al-ʿAshr Maqālāt fī al-ʿAyn* (Dix Traités sur
+      l'œil) est la plus ancienne ophtalmologie arabe
+      systématique. Ibn Khallikān situe sa mort en 260 H ;
+      l'*Encyclopédie de l'Islam* précise Ṣafar 260/décembre
+      873 avec datation mensuelle.
+    canonical_hijri: {year: 260, month: 2, precision: month}
+    canonical_gregorian: {date: 873-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāt 260 AH; biographer of physicians."
+      - source_key: ei2
+        notes: "EI2 article 'Ḥunayn ibn Isḥāḳ' gives Ṣafar 260/December 873."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 260 AH; physician of al-Mutawakkil."
+    people: [[hunayn-ibn-ishaq, died]]
+    tags: [abbasid, physician, baghdad, translation, bayt-al-hikma, ophthalmology, galen]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hunayn_ibn_Ishaq"
+
+  - slug: death-of-al-razi-tabib
+    category: scholar_death
+    title_en: Death of Abū Bakr al-Rāzī (Rhazes) — The Galen of the Arabs
+    title_ar: وفاة أبي بكر الرازي — جالينوس العرب
+    title_fr: Mort d'Abū Bakr al-Rāzī (Rhazès) — le Galien des Arabes
+    description_en: |
+      Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī — physician,
+      alchemist, and philosopher born at Rayy in northern Iran,
+      head of the bīmāristān at Rayy and later of the ʿAḍudī
+      hospital in Baghdad, the most original clinician of the
+      Islamic Middle Ages — died at Rayy in 313 AH (925 CE),
+      blind in his old age. His monumental *al-Ḥāwī fī al-Ṭibb*
+      (the *Continens* of the Latins) is a posthumously compiled
+      twenty-five-book casebook running to thousands of clinical
+      observations cross-referenced against the Greek, Indian
+      and Arabic literature; his short epidemiological treatise
+      *Kitāb al-Judarī wa'l-Ḥaṣba* contains the first clinical
+      differentiation of smallpox from measles. Ibn Khallikān
+      and al-Dhahabī both record his death in 313 AH at Rayy,
+      with Ibn Abī Uṣaybiʿa preserving the dominant date of
+      5 Shaʿbān 313 AH (26 October 925 CE); a minority position
+      in al-Bīrūnī's *Risāla fī Fihrist Kutub al-Rāzī* gives
+      311 AH. We follow the majority 313 AH dating; year-
+      precision is retained because the day is preserved by a
+      single later source.
+    description_ar: |
+      توفي أبو بكر محمد بن زكريا الرازي — طبيب وكيمائي وفيلسوف
+      ولد بالري في شمالي بلاد فارس، رأس بيمارستان الري ثم
+      البيمارستان العضدي ببغداد، وأبرع أطباء العصر الإسلامي
+      الوسيط في السريريات — بالري سنة ٣١٣ هـ (الموافق ٩٢٥
+      ميلادي) كفيف البصر في شيخوخته. كتابه الموسوعي «الحاوي في
+      الطب» (المعروف لدى اللاتين بـ Continens) مجموعة سريرية
+      تقع في خمسة وعشرين كتاباً تشتمل على آلاف الملاحظات
+      السريرية موثَّقة في مقابلة الأدب الطبي اليوناني والهندي
+      والعربي؛ ورسالته الوبائية الموجزة «الجدري والحصبة» تحوي
+      أول تمييز سريري بين الجدري والحصبة. ذكر ابن خلكان
+      والذهبي وفاته سنة ٣١٣ هـ بالري، وحفظ ابن أبي أصيبعة
+      اليوم الراجح وهو ٥ شعبان من تلك السنة (٢٦ أكتوبر ٩٢٥
+      ميلادي)؛ وأفاد البيروني في «رسالته في فهرست كتب الرازي»
+      تاريخ ٣١١ هـ على رأي مرجوح. تبنّينا الراجح ٣١٣ هـ ولم
+      نضبط بدقة يومية لأن اليوم لم يحفظه إلا مصدر متأخر.
+    description_fr: |
+      Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī — médecin,
+      alchimiste et philosophe né à Rayy au nord de l'Iran,
+      directeur du *bīmāristān* de Rayy puis de l'hôpital
+      ʿAḍudī à Bagdad, le clinicien le plus original du Moyen
+      Âge islamique — mourut à Rayy en 313 H (925 EC), aveugle
+      dans sa vieillesse. Son monumental *al-Ḥāwī fī al-Ṭibb*
+      (le *Continens* des Latins) est un recueil de cas en
+      vingt-cinq livres compilé après sa mort, contenant des
+      milliers d'observations cliniques recoupées avec la
+      littérature grecque, indienne et arabe ; son court
+      traité épidémiologique *Kitāb al-Judarī wa'l-Ḥaṣba*
+      offre la première différenciation clinique de la variole
+      et de la rougeole. Ibn Khallikān et al-Dhahabī enregistrent
+      sa mort en 313 H à Rayy, et Ibn Abī Uṣaybiʿa conserve la
+      date dominante du 5 Shaʿbān 313 H (26 octobre 925 EC) ;
+      une opinion minoritaire d'al-Bīrūnī dans sa *Risāla fī
+      Fihrist Kutub al-Rāzī* donne 311 H. Nous suivons la
+      majorité (313 H) ; la précision annuelle est retenue
+      car le jour n'est conservé que par une source tardive.
+    canonical_hijri: {year: 313, precision: year}
+    canonical_gregorian: {date: 925-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāt 313 AH at Rayy."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 313 AH; physician of Rayy and Baghdad."
+      - source_key: ei2
+        notes: "EI2 article 'al-Rāzī, Abū Bakr Muḥammad b. Zakariyyāʾ' notes 313/925 majority and 311 AH minority (Bīrūnī)."
+    disputed: true
+    dispute_about: date
+    people: [[al-razi-tabib, died]]
+    tags: [abbasid, physician, polymath, rayy, baghdad, alchemy, smallpox, hawi]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ibn_Zakariya_al-Razi"
+
+  # =========================================================================
+  # BUYID / EARLY ABBASID
+  # =========================================================================
+
+  - slug: death-of-al-majusi
+    category: scholar_death
+    title_en: Death of ʿAlī ibn al-ʿAbbās al-Majūsī (Haly Abbas)
+    title_ar: وفاة علي بن العباس المجوسي
+    title_fr: Mort de ʿAlī ibn al-ʿAbbās al-Majūsī (Haly Abbas)
+    description_en: |
+      Abū al-Ḥasan ʿAlī ibn al-ʿAbbās al-Majūsī al-Ahwāzī — Persian
+      physician of Zoroastrian-convert family from al-Ahwāz, court
+      physician to the Buyid amīr ʿAḍud al-Dawla and named author
+      of one of the greatest medical encyclopaedias of the Arabic
+      tradition, the *Kāmil al-Ṣināʿa al-Ṭibbiyya* known as the
+      *Kitāb al-Malakī* (the Royal Book), composed for and dedicated
+      to ʿAḍud al-Dawla — died around 384 AH (994 CE). The *Kitāb
+      al-Malakī*, a twenty-volume systematic medicine in two
+      halves (theoretical and practical), was the dominant
+      teaching text in Latin Christendom under Constantinus
+      Africanus's translation as *Liber Pantegni* until Ibn
+      Sīnā's *Qānūn* displaced it in the twelfth century. The
+      death year is given as around 384 AH/994 CE in the
+      *Encyclopaedia of Islam* and Ibn Abī Uṣaybiʿa, with year-
+      precision; the day is not preserved.
+    description_ar: |
+      توفي أبو الحسن علي بن العباس المجوسي الأهوازي — طبيب
+      فارسي من أسرة من المجوس الذين اعتنق آباؤه الإسلام،
+      من الأهواز، طبيب أمير الأمراء البويهي عضد الدولة، ومؤلف
+      إحدى أعظم موسوعات الطب في التراث العربي «كامل الصناعة
+      الطبية» المعروف بـ«الكتاب الملكي» الذي صنفه وأهداه
+      لعضد الدولة — نحو سنة ٣٨٤ هـ (٩٩٤ ميلادي). والكتاب
+      الملكي طب منظوم في عشرين جزءاً موزعة على شطرين
+      (النظري والعملي)، ساد على التعليم الطبي في النصرانية
+      اللاتينية بترجمة قسطنطين الإفريقي الموسومة بـ Liber
+      Pantegni إلى أن أزاحه «قانون» ابن سينا في القرن
+      الثاني عشر. ضبط دائرة المعارف الإسلامية وابن أبي أصيبعة
+      وفاته بالسنة نحو ٣٨٤ هـ/٩٩٤ ميلادي، ولم يثبت اليوم.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn al-ʿAbbās al-Majūsī al-Ahwāzī —
+      médecin persan d'une famille zoroastrienne convertie
+      à l'islam, originaire d'al-Ahwāz, médecin de cour de
+      l'émir bouyide ʿAḍud al-Dawla et auteur de l'une des
+      plus grandes encyclopédies médicales de la tradition
+      arabe, *Kāmil al-Ṣināʿa al-Ṭibbiyya* connue sous le
+      titre *Kitāb al-Malakī* (le Livre Royal) qu'il composa
+      et dédia à ʿAḍud al-Dawla — mourut vers 384 H (994 EC).
+      Le *Kitāb al-Malakī*, médecine systématique en vingt
+      volumes répartis en deux moitiés (théorique et pratique),
+      fut le manuel d'enseignement dominant dans la chrétienté
+      latine sous la traduction de Constantin l'Africain
+      intitulée *Liber Pantegni*, jusqu'à ce que le *Qānūn*
+      d'Ibn Sīnā le supplante au XIIe siècle. La date de mort
+      est donnée vers 384 H/994 EC dans l'*Encyclopédie de
+      l'Islam* et Ibn Abī Uṣaybiʿa, avec précision annuelle ;
+      le jour n'est pas conservé.
+    canonical_hijri: {year: 384, precision: year}
+    canonical_gregorian: {date: 994-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'al-Madjūsī, ʿAlī b. al-ʿAbbās' gives c. 384/994."
+      - source_key: editorial
+        notes: "Cross-checked against Ibn Abī Uṣaybiʿa, *ʿUyūn al-Anbāʾ fī Ṭabaqāt al-Aṭibbāʾ*."
+    people: [[al-majusi, died]]
+    tags: [buyid, physician, ahwaz, kitab-al-malaki, pantegni, encyclopedia]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Ali_ibn_al-Abbas_al-Majusi"
+
+  # =========================================================================
+  # FATIMID / LATE ABBASID
+  # =========================================================================
+
+  - slug: death-of-ibn-ridwan
+    category: scholar_death
+    title_en: Death of ʿAlī ibn Riḍwān — Court Physician of Fatimid Cairo
+    title_ar: وفاة علي بن رضوان — طبيب البلاط الفاطمي بالقاهرة
+    title_fr: Mort de ʿAlī ibn Riḍwān — médecin de cour fatimide du Caire
+    description_en: |
+      Abū al-Ḥasan ʿAlī ibn Riḍwān al-Miṣrī — Egyptian physician,
+      autodidact in medicine and astronomy, chief physician
+      (*raʾīs al-aṭibbāʾ*) to the Fatimid caliph al-Mustanṣir
+      bi-Allāh in Cairo, and author of detailed commentaries on
+      Galen's *Tegni* (*Ṣināʿa Ṣaghīra*) — died in Cairo
+      around 460 AH (1068 CE). His on-the-ground treatise
+      *Daf ʿMaḍārr al-Abdān bi-Arḍ Miṣr* (Repelling the Bodily
+      Harms of the Land of Egypt) is the earliest detailed
+      medical climatology of the Nile valley and a primary
+      source for the great Egyptian famine of 446-454 AH
+      (1054-1062 CE), which he witnessed as state physician.
+      His public dispute with the Christian physician Ibn
+      Buṭlān of Baghdad — conducted by exchange of polemical
+      treatises across the Mediterranean — is one of the most
+      vivid records of medical controversy in the medieval
+      Arabic world. Year-precision; the *Encyclopaedia of
+      Islam* and Ibn Abī Uṣaybiʿa give c. 460/1068.
+    description_ar: |
+      توفي أبو الحسن علي بن رضوان المصري — طبيب مصري عصامي
+      في الطب والفلك، ورأس الأطباء عند الخليفة الفاطمي
+      المستنصر بالله بالقاهرة، صاحب الشروح المفصلة على
+      «الصناعة الصغيرة» لجالينوس — بالقاهرة نحو سنة ٤٦٠
+      هـ (١٠٦٨ ميلادي). من تصانيفه «دفع مضارّ الأبدان بأرض
+      مصر» وهو أقدم كتاب مفصل في طب البيئة ومناخ مصر، ومصدر
+      أساسي لأخبار المجاعة المصرية الكبرى ٤٤٦-٤٥٤ هـ
+      (١٠٥٤-١٠٦٢ ميلادي) التي عاصرها بصفته طبيب الدولة.
+      وله مع طبيب بغداد النصراني ابن بطلان مناظرة طبية مشهورة
+      تبادلا فيها الرسائل المجادلة عبر البحر الأبيض المتوسط،
+      وهي من أحفل سجلات الجدل الطبي في العالم العربي القروسطي.
+      الدقة سنوية؛ ضبط دائرة المعارف الإسلامية وابن أبي
+      أصيبعة وفاته نحو ٤٦٠ هـ/١٠٦٨ ميلادي.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn Riḍwān al-Miṣrī — médecin égyptien,
+      autodidacte en médecine et en astronomie, médecin-chef
+      (*raʾīs al-aṭibbāʾ*) du calife fatimide al-Mustanṣir
+      bi-Allāh au Caire, et auteur de commentaires détaillés
+      sur la *Tegni* de Galien (*Ṣināʿa Ṣaghīra*) — mourut au
+      Caire vers 460 H (1068 EC). Son traité de terrain
+      *Dafʿ Maḍārr al-Abdān bi-Arḍ Miṣr* (Écarter les
+      dommages corporels au pays d'Égypte) est la plus
+      ancienne climatologie médicale détaillée de la vallée
+      du Nil et une source primaire sur la grande famine
+      égyptienne de 446-454 H (1054-1062 EC), à laquelle il
+      assista en qualité de médecin de l'État. Sa controverse
+      publique avec le médecin chrétien Ibn Buṭlān de Bagdad —
+      menée par échange de traités polémiques à travers la
+      Méditerranée — est l'un des registres les plus vivants
+      de controverse médicale dans le monde arabe médiéval.
+      Précision annuelle ; l'*Encyclopédie de l'Islam* et Ibn
+      Abī Uṣaybiʿa donnent vers 460/1068.
+    canonical_hijri: {year: 460, precision: year}
+    canonical_gregorian: {date: 1068-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Ibn Riḍwān' gives c. 460/1068."
+      - source_key: editorial
+        notes: "Cross-checked against Ibn Abī Uṣaybiʿa, *ʿUyūn al-Anbāʾ*."
+    people: [[ibn-ridwan, died]]
+    tags: [fatimid, physician, cairo, egypt, galen, climatology, famine]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Ali_ibn_Ridwan"
+
+  # =========================================================================
+  # AYYUBID-ERA PHYSICIANS
+  # =========================================================================
+
+  - slug: death-of-ibn-al-tilmidh
+    category: scholar_death
+    title_en: Death of Ibn al-Tilmīdh — Pharmacologist of the ʿAḍudī Hospital
+    title_ar: وفاة ابن التلميذ — صيدلاني البيمارستان العضدي
+    title_fr: Mort d'Ibn al-Tilmīdh — pharmacologue de l'hôpital ʿAḍudī
+    description_en: |
+      Amīn al-Dawla Hibat Allāh ibn Ṣāʿid ibn al-Tilmīdh —
+      Eastern Christian Arab physician, chief physician
+      (*sāʿūr*) of the ʿAḍudī hospital in Baghdad and personal
+      physician to the Abbasid caliph al-Muqtafī — died at
+      Baghdad on 12 Rabīʿ al-Awwal 560 AH (27 January 1165 CE)
+      at the age of about ninety. His *Aqrābādhīn* (pharmacopoeia)
+      replaced the earlier dispensatory of Sābūr ibn Sahl as the
+      official drug compendium of the ʿAḍudī hospital and
+      remained the standard hospital formulary in the eastern
+      Islamic world for centuries. He revised much of the
+      Galenic translation tradition and composed an annotated
+      epitome of Ibn Sīnā's *Qānūn*. Ibn Khallikān gives the day
+      precisely: 12 Rabīʿ al-Awwal 560 AH at Baghdad.
+    description_ar: |
+      توفي أمين الدولة هبة الله بن صاعد بن التلميذ — طبيب نصراني
+      عربي، ساعور البيمارستان العضدي ببغداد، والطبيب الخاص
+      للخليفة العباسي المقتفي لأمر الله — ببغداد يوم ١٢ ربيع
+      الأول سنة ٥٦٠ هـ (الموافق ٢٧ يناير ١١٦٥ ميلادي) عن نحو
+      تسعين سنة. أحلَّ «أقراباذينه» (دستور الأدوية) محل
+      أقراباذين سابور بن سهل دستوراً رسمياً للأدوية في
+      البيمارستان العضدي، وبقي كتاباً مرجعياً للصيدلة
+      المستشفائية في المشرق الإسلامي قروناً. وراجع كثيراً من
+      ترجمات التراث الجالينوسي، ولخّص «قانون» ابن سينا تلخيصاً
+      محشيّاً. وذكر ابن خلكان اليوم بدقة: ١٢ ربيع الأول ٥٦٠ هـ
+      ببغداد.
+    description_fr: |
+      Amīn al-Dawla Hibat Allāh ibn Ṣāʿid ibn al-Tilmīdh —
+      médecin chrétien arabe oriental, médecin-chef (*sāʿūr*)
+      de l'hôpital ʿAḍudī à Bagdad et médecin personnel du
+      calife abbasside al-Muqtafī — mourut à Bagdad le
+      12 Rabīʿ al-Awwal 560 H (27 janvier 1165 EC) à environ
+      quatre-vingt-dix ans. Son *Aqrābādhīn* (pharmacopée)
+      remplaça l'ancien dispensaire de Sābūr ibn Sahl comme
+      formulaire officiel des médicaments de l'hôpital ʿAḍudī
+      et demeura pendant des siècles le formulaire hospitalier
+      de référence dans le monde islamique oriental. Il révisa
+      une grande partie de la tradition de traduction
+      galénique et composa un abrégé annoté du *Qānūn* d'Ibn
+      Sīnā. Ibn Khallikān donne précisément le jour :
+      12 Rabīʿ al-Awwal 560 H à Bagdad.
+    canonical_hijri: {year: 560, month: 3, day: 12, precision: day}
+    canonical_gregorian: {date: 1165-01-27, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "12 Rabīʿ al-Awwal 560 AH at Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 560 AH; biographies of physicians of Baghdad."
+      - source_key: ei2
+        notes: "EI2 article 'Ibn al-Tilmīdh' confirms day-precise dating."
+    people: [[ibn-al-tilmidh, died]]
+    tags: [abbasid, physician, baghdad, pharmacology, aqrabadhin, hospital, christian-arab]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Tilmidh"
+
+  - slug: death-of-ibn-zuhr
+    category: scholar_death
+    title_en: Death of Abū Marwān ibn Zuhr (Avenzoar) — Andalusī Master Clinician
+    title_ar: وفاة أبي مروان ابن زهر — كبير أطباء الأندلس السريريين
+    title_fr: Mort d'Abū Marwān ibn Zuhr (Avenzoar) — grand clinicien andalou
+    description_en: |
+      Abū Marwān ʿAbd al-Malik ibn Abī al-ʿAlāʾ Zuhr al-Ishbīlī —
+      Andalusī physician of the Banū Zuhr medical dynasty,
+      teacher of Ibn Rushd in medicine and personal physician
+      to the Almohad caliphs ʿAbd al-Muʾmin and Abū Yaʿqūb
+      Yūsuf — died at Seville in 557 AH (1162 CE). His
+      *Kitāb al-Taysīr fī al-Mudāwāt wa'l-Tadbīr* (the *Theisir*
+      of the Latins) is the most clinically observant medical
+      text of the Western Islamic tradition and contains the
+      earliest description of pericarditis and serous
+      pericardial effusion, of inflammation of the middle ear,
+      and of *Sarcoptes scabiei* as the cause of scabies. His
+      smaller *Kitāb al-Aghdhiya* on dietetics circulated
+      widely. Year 557 AH at Seville is given by Ibn Khallikān
+      and confirmed in al-Dhahabī's *Tārīkh al-Islām*.
+    description_ar: |
+      توفي أبو مروان عبد الملك بن أبي العلاء زهر الإشبيلي —
+      طبيب أندلسي من سلالة بني زهر الطبية، أستاذ ابن رشد في
+      الطب وطبيب الخليفتين الموحديَّين عبد المؤمن وأبي يعقوب
+      يوسف — بإشبيلية سنة ٥٥٧ هـ (١١٦٢ ميلادي). كتابه «التيسير
+      في المداواة والتدبير» (المعروف لدى اللاتين بـ Theisir)
+      أوفر كتاب طبي في غرب العالم الإسلامي بالملاحظة السريرية
+      المباشرة، يحوي أوّل وصف لالتهاب التأمور القلبي وللاندفاع
+      المصلي حول القلب، ولالتهاب الأذن الوسطى، ولكون عثة
+      الجرب (Sarcoptes scabiei) سبباً للجرب. ولكتابه الأصغر
+      «الأغذية» تداول واسع. ضبط ابن خلكان وفاته سنة ٥٥٧ هـ
+      بإشبيلية، وأكد ذلك الذهبي في «تاريخ الإسلام».
+    description_fr: |
+      Abū Marwān ʿAbd al-Malik ibn Abī al-ʿAlāʾ Zuhr al-Ishbīlī —
+      médecin andalou de la dynastie médicale des Banū Zuhr,
+      maître d'Ibn Rushd en médecine et médecin personnel des
+      califes almohades ʿAbd al-Muʾmin et Abū Yaʿqūb Yūsuf —
+      mourut à Séville en 557 H (1162 EC). Son *Kitāb al-Taysīr
+      fī al-Mudāwāt wa'l-Tadbīr* (le *Theisir* des Latins) est
+      le texte médical le plus précis dans l'observation
+      clinique de la tradition islamique occidentale et
+      contient la première description de la péricardite et
+      de l'épanchement péricardique séreux, de l'otite moyenne,
+      et de la gale (*Sarcoptes scabiei*) comme cause du
+      prurit. Son petit traité de diététique *Kitāb al-Aghdhiya*
+      circula largement. Ibn Khallikān donne 557 H à Séville,
+      confirmé dans le *Tārīkh al-Islām* d'al-Dhahabī.
+    canonical_hijri: {year: 557, precision: year}
+    canonical_gregorian: {date: 1162-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāt 557 AH at Seville."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 557 AH; biographies of Andalusī physicians."
+      - source_key: ei2
+        notes: "EI2 article 'Ibn Zuhr' confirms 557/1162 at Seville."
+    people: [[ibn-zuhr-avenzoar, died]]
+    tags: [andalus, almohad, physician, seville, banu-zuhr, taysir, theisir]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Zuhr"
+
+  - slug: death-of-al-ghafiqi
+    category: scholar_death
+    title_en: Death of Aḥmad al-Ghāfiqī — Andalusī Pharmacognosist
+    title_ar: وفاة أحمد الغافقي — صيدلاني الأندلس
+    title_fr: Mort d'Aḥmad al-Ghāfiqī — pharmacognoste andalou
+    description_en: |
+      Abū Jaʿfar Aḥmad ibn Muḥammad al-Ghāfiqī — Andalusī
+      botanist and pharmacognosist from Ghāfiq near Cordoba,
+      author of the *Kitāb al-Adwiya al-Mufrada* (Book of
+      Simple Drugs), the most accurate Andalusī materia medica
+      before the encyclopaedic compilations of Ibn al-Bayṭār —
+      died around 560 AH (1165 CE). Ibn al-Bayṭār drew on his
+      *Mufradāt* heavily, citing al-Ghāfiqī by name; the
+      Christian physician Bar Hebraeus credited him as the
+      most reliable plant-identifier of the Arabic tradition.
+      The *Encyclopaedia of Islam* gives the death year as
+      around 560/1165 with year-precision; the day is not
+      attested.
+    description_ar: |
+      توفي أبو جعفر أحمد بن محمد الغافقي — نباتي وعالم بمفردات
+      الأدوية أندلسي، من غافق قرب قرطبة، صاحب «كتاب الأدوية
+      المفردة» وهو أدق دستور للنباتات الطبية في الأندلس قبل
+      موسوعات ابن البيطار — نحو سنة ٥٦٠ هـ (١١٦٥ ميلادي). نقل
+      عنه ابن البيطار في «المفردات» نقلاً واسعاً وذكره باسمه؛
+      وأشاد به الطبيب النصراني بَر هَبْرَايُوس بصفته أوثق من
+      عرف النباتات الطبية في التراث العربي. ضبط دائرة المعارف
+      الإسلامية وفاته نحو سنة ٥٦٠ هـ/١١٦٥ ميلادي بدقة سنوية،
+      ولم يثبت اليوم.
+    description_fr: |
+      Abū Jaʿfar Aḥmad ibn Muḥammad al-Ghāfiqī — botaniste et
+      pharmacognoste andalou originaire de Ghāfiq près de
+      Cordoue, auteur du *Kitāb al-Adwiya al-Mufrada* (Livre
+      des médicaments simples), la materia medica andalouse
+      la plus précise avant les compilations encyclopédiques
+      d'Ibn al-Bayṭār — mourut vers 560 H (1165 EC). Ibn
+      al-Bayṭār a largement cité ses *Mufradāt*, le nommant
+      explicitement ; le médecin chrétien Bar Hebraeus lui
+      reconnut le titre du plus fiable identificateur de
+      plantes de la tradition arabe. L'*Encyclopédie de
+      l'Islam* situe sa mort vers 560/1165 avec précision
+      annuelle ; le jour n'est pas attesté.
+    canonical_hijri: {year: 560, precision: year}
+    canonical_gregorian: {date: 1165-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'al-Ghāfiqī' gives c. 560/1165 at Cordoba."
+      - source_key: editorial
+        notes: "Cross-checked against Ibn al-Bayṭār's *Mufradāt*, which cites al-Ghāfiqī by name as a primary authority."
+    people: [[al-ghafiqi, died]]
+    tags: [andalus, almohad, pharmacology, botany, cordoba, mufradat, materia-medica]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Al-Ghafiqi"
+
+  - slug: death-of-ibn-jumayy
+    category: scholar_death
+    title_en: Death of Ibn Jumayʿ — Saladin's Personal Physician
+    title_ar: وفاة ابن جميع — طبيب صلاح الدين الأيوبي
+    title_fr: Mort d'Ibn Jumayʿ — médecin personnel de Saladin
+    description_en: |
+      Abū al-ʿAshāʾir Hibat Allāh ibn Zayn ibn Jumayʿ
+      al-Isrāʾīlī — Egyptian-Jewish physician of the Fusṭāṭ
+      community, personal physician to Salāḥ al-Dīn al-Ayyūbī
+      and one of the principal teachers of ʿAbd al-Laṭīf
+      al-Baghdādī during the latter's residence in Cairo —
+      died at Fusṭāṭ in 594 AH (1198 CE). His major works
+      include the medical compendium *Kitāb al-Irshād li-Maṣāliḥ
+      al-Anfus wa'l-Ajsād*, an apologetic treatise on Galenic
+      medicine *al-Maqāla al-Ṣalāḥiyya fī Iḥyāʾ Ṣināʿat
+      al-Ṭibb* dedicated to Saladin, and a celebrated case
+      study describing the recovery of a young patient from a
+      catatonic state which al-Baghdādī later cited as a
+      didactic example. Year 594 AH at Fusṭāṭ is given in Ibn
+      Khallikān and Ibn Abī Uṣaybiʿa.
+    description_ar: |
+      توفي أبو العشائر هبة الله بن زين بن جميع الإسرائيلي —
+      طبيب يهودي مصري من جماعة الفسطاط، طبيب صلاح الدين
+      الأيوبي الخاص، وأحد أهم أساتذة عبد اللطيف البغدادي خلال
+      إقامته بالقاهرة — بالفسطاط سنة ٥٩٤ هـ (١١٩٨ ميلادي).
+      من أهم تصانيفه «كتاب الإرشاد لمصالح الأنفس والأجساد»،
+      ورسالة دفاعية عن الطب الجالينوسي عنوانها «المقالة
+      الصلاحية في إحياء صناعة الطب» أهداها لصلاح الدين، ودراسة
+      حالة شهيرة وصف فيها شفاء مريض شاب من سُبَات تخشبيّ نقلها
+      لاحقاً البغدادي في سياق التعليم. ضبط ابن خلكان وابن أبي
+      أصيبعة وفاته سنة ٥٩٤ هـ بالفسطاط.
+    description_fr: |
+      Abū al-ʿAshāʾir Hibat Allāh ibn Zayn ibn Jumayʿ
+      al-Isrāʾīlī — médecin juif égyptien de la communauté de
+      Fusṭāṭ, médecin personnel de Salāḥ al-Dīn al-Ayyūbī
+      (Saladin) et l'un des principaux maîtres de ʿAbd al-Laṭīf
+      al-Baghdādī durant le séjour cairote de ce dernier —
+      mourut à Fusṭāṭ en 594 H (1198 EC). Ses œuvres principales
+      incluent le compendium médical *Kitāb al-Irshād li-Maṣāliḥ
+      al-Anfus wa'l-Ajsād*, un traité apologétique sur la
+      médecine galénique *al-Maqāla al-Ṣalāḥiyya fī Iḥyāʾ
+      Ṣināʿat al-Ṭibb* dédié à Saladin, et une célèbre étude
+      de cas décrivant le rétablissement d'un jeune malade
+      d'un état catatonique, qu'al-Baghdādī cita ultérieurement
+      comme exemple didactique. L'année 594 H à Fusṭāṭ est
+      donnée dans Ibn Khallikān et Ibn Abī Uṣaybiʿa.
+    canonical_hijri: {year: 594, precision: year}
+    canonical_gregorian: {date: 1198-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāt 594 AH at Fusṭāṭ."
+      - source_key: ei2
+        notes: "EI2 article 'Ibn Djumayʿ' gives 594/1198."
+      - source_key: editorial
+        notes: "Cross-checked against Ibn Abī Uṣaybiʿa, *ʿUyūn al-Anbāʾ*."
+    people: [[ibn-jumayy, died]]
+    tags: [ayyubid, physician, fustat, cairo, saladin, jewish-arab, galen]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Jumay"
+
+  # =========================================================================
+  # MAMLŪK ERA
+  # =========================================================================
+
+  - slug: death-of-ibn-al-quff
+    category: scholar_death
+    title_en: Death of Ibn al-Quff — Mamlūk Surgeon and Author of *al-ʿUmda*
+    title_ar: وفاة ابن القف — جراح المماليك ومؤلف «العمدة في صناعة الجراحة»
+    title_fr: Mort d'Ibn al-Quff — chirurgien mamelouk, auteur d'*al-ʿUmda*
+    description_en: |
+      Amīn al-Dawla Abū al-Faraj ibn Yaʿqūb ibn Isḥāq ibn al-Quff
+      al-Karakī — Eastern Christian Arab physician and surgeon
+      from al-Karak in Transjordan, military physician at the
+      citadels of ʿAjlūn and Damascus under the Mamlūk sultans
+      Baybars and Qalāwūn, student of the philosopher-historian
+      Ibn Abī Uṣaybiʿa — died at Damascus on 5 Jumādā al-Awwal
+      685 AH (30 June 1286 CE) at the age of forty-six. His
+      twenty-volume *Kitāb al-ʿUmda fī Ṣināʿat al-Jirāḥa* (the
+      *Pillar* on Surgery) is the most systematic Arabic
+      surgical treatise after al-Zahrāwī's *Taṣrīf*; volumes 19-20
+      contain a systematic Arabic exposition of capillary
+      circulation between arteries and veins independent of his
+      contemporary Ibn al-Nafīs. Ibn Abī Uṣaybiʿa, his teacher
+      and biographer, gives the day-precise date.
+    description_ar: |
+      توفي أمين الدولة أبو الفرج بن يعقوب بن إسحاق بن القف
+      الكركي — طبيب وجرّاح نصراني عربي من الكرك بشرقي الأردن،
+      طبيب الحاميتين العسكريتين بقلعة عجلون ثم بقلعة دمشق في
+      عهد السلطانين المملوكيين بيبرس وقلاوون، تلميذ الفيلسوف
+      المؤرخ ابن أبي أصيبعة — بدمشق يوم ٥ جمادى الأولى ٦٨٥ هـ
+      (الموافق ٣٠ يونيو ١٢٨٦ ميلادي) عن ست وأربعين سنة. كتابه
+      «العمدة في صناعة الجراحة» في عشرين مجلداً أوسع تأليف
+      عربي منهجي في الجراحة بعد «التصريف» للزهراوي؛ يحوي
+      المجلدان ١٩ و٢٠ منه عرضاً منهجيّاً للدورة الشَّعرية بين
+      الشرايين والأوردة، انتهى إليه استقلالاً عن معاصره ابن
+      النفيس. وقد ضبط أستاذه وصاحب ترجمته ابن أبي أصيبعة اليوم
+      بدقة.
+    description_fr: |
+      Amīn al-Dawla Abū al-Faraj ibn Yaʿqūb ibn Isḥāq ibn
+      al-Quff al-Karakī — médecin et chirurgien chrétien arabe
+      d'al-Karak en Transjordanie, médecin militaire des
+      citadelles de ʿAjlūn puis de Damas sous les sultans
+      mamelouks Baybars et Qalāwūn, élève du philosophe-historien
+      Ibn Abī Uṣaybiʿa — mourut à Damas le 5 Jumādā al-Awwal
+      685 H (30 juin 1286 EC) à l'âge de quarante-six ans.
+      Son *Kitāb al-ʿUmda fī Ṣināʿat al-Jirāḥa* (le *Pilier*
+      sur la chirurgie) en vingt volumes est le traité de
+      chirurgie systématique arabe le plus complet après
+      le *Taṣrīf* d'al-Zahrāwī ; les volumes 19-20 contiennent
+      un exposé arabe systématique de la circulation capillaire
+      entre artères et veines, parvenu indépendamment de son
+      contemporain Ibn al-Nafīs. Ibn Abī Uṣaybiʿa, son maître
+      et biographe, donne la date jour-précise.
+    canonical_hijri: {year: 685, month: 5, day: 5, precision: day}
+    canonical_gregorian: {date: 1286-06-30, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Ibn al-Ḳuff' gives 5 Jumādā al-Awwal 685/30 June 1286 at Damascus."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 685 AH; physicians of Damascus."
+      - source_key: editorial
+        notes: "Cross-checked against Ibn Abī Uṣaybiʿa, *ʿUyūn al-Anbāʾ*, who was Ibn al-Quff's teacher."
+    people: [[ibn-al-quff, died]]
+    tags: [mamluk, physician, surgeon, damascus, karak, christian-arab, umda, jiraha]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Quff"
+
+  # =========================================================================
+  # OTTOMAN ERA
+  # =========================================================================
+
+  - slug: death-of-dawud-al-antaki
+    category: scholar_death
+    title_en: Death of Dāwūd al-Anṭākī — Author of the *Tadhkira*
+    title_ar: وفاة داود الأنطاكي — صاحب «التذكرة»
+    title_fr: Mort de Dāwūd al-Anṭākī — auteur de la *Tadhkira*
+    description_en: |
+      Dāwūd ibn ʿUmar al-Anṭākī al-Ḍarīr — Syrian physician and
+      bibliographer born blind at Antioch, who studied Greek
+      and the medical tradition under a Persian visitor at
+      Antioch, taught for years in Damascus, and ended his life
+      in pious retirement at Mecca, where he died in 1008 AH
+      (1599 CE). His *Tadhkirat ūlī al-Albāb wa'l-Jāmiʿ
+      li'l-ʿAjab al-ʿUjāb* (*Tadhkira* — Memorandum for the
+      Wise and Compendium of Wonders) is the most widely
+      copied Arabic medical-pharmacological encyclopaedia of
+      the late Ottoman period, integrating the classical
+      Galenic-Avicennian tradition with the New World materia
+      medica then entering the Ottoman pharmacy. The death
+      year 1008 AH at Mecca is given in the *Encyclopaedia of
+      Islam* and was preserved in his autograph correspondence;
+      year-precision is retained.
+    description_ar: |
+      توفي داود بن عمر الأنطاكي الضرير — طبيب سوري ومحقق
+      ببليوغرافي ولد كفيفاً بأنطاكية، تعلَّم اليونانية والطب
+      على فارسي قدم أنطاكية، ودرَّس بدمشق سنوات، ثم اعتزل
+      تلبيةً للنسك بمكة المكرمة فتوفي بها سنة ١٠٠٨ هـ (١٥٩٩
+      ميلادي). كتابه «تذكرة أولي الألباب والجامع للعجب
+      العجاب» (المعروف بـ«التذكرة») أوسع موسوعات الطب
+      والصيدلة العربية تداولاً في أواخر العصر العثماني، يجمع
+      بين التراث الجالينوسي السينوي الكلاسيكي ومفردات الأدوية
+      الجديدة الواردة من العالم الجديد إلى الصيدلية العثمانية.
+      ضبطت دائرة المعارف الإسلامية وفاته سنة ١٠٠٨ هـ بمكة
+      المكرمة، وحفظ مراسلاته الخطية ذلك. الدقة سنوية.
+    description_fr: |
+      Dāwūd ibn ʿUmar al-Anṭākī al-Ḍarīr — médecin syrien et
+      bibliographe né aveugle à Antioche, qui étudia le grec
+      et la tradition médicale auprès d'un visiteur persan à
+      Antioche, enseigna pendant des années à Damas, et
+      acheva sa vie dans la retraite pieuse à La Mecque où
+      il mourut en 1008 H (1599 EC). Sa *Tadhkirat ūlī
+      al-Albāb wa'l-Jāmiʿ li'l-ʿAjab al-ʿUjāb* (*Tadhkira* —
+      Mémorial pour les Sages et Compendium des Merveilles)
+      est l'encyclopédie médico-pharmacologique arabe la plus
+      largement copiée à la fin de la période ottomane,
+      intégrant la tradition classique galéno-avicennienne et
+      la materia medica du Nouveau Monde entrant alors dans
+      la pharmacie ottomane. L'année 1008 H à La Mecque est
+      donnée dans l'*Encyclopédie de l'Islam* et conservée
+      dans sa correspondance autographe ; précision annuelle.
+    canonical_hijri: {year: 1008, precision: year}
+    canonical_gregorian: {date: 1599-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'al-Anṭākī, Dāwūd b. ʿUmar' gives 1008/1599 at Mecca."
+      - source_key: editorial
+        notes: "Cross-checked against the autograph colophon evidence summarised in EI2."
+    people: [[dawud-al-antaki, died]]
+    tags: [ottoman, physician, antioch, damascus, mecca, tadhkira, pharmacology]
+    importance: notable
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Dawud_al-Antaki"
+
+  # =========================================================================
+  # PHYSICIAN-AUTHOR LANDMARK
+  # =========================================================================
+
+  - slug: ibn-abi-usaybia-uyun-al-anba-completed
+    category: foundation
+    title_en: Ibn Abī Uṣaybiʿa Completes *ʿUyūn al-Anbāʾ fī Ṭabaqāt al-Aṭibbāʾ*
+    title_ar: ابن أبي أصيبعة يفرغ من «عيون الأنباء في طبقات الأطباء»
+    title_fr: Ibn Abī Uṣaybiʿa achève les *ʿUyūn al-Anbāʾ fī Ṭabaqāt al-Aṭibbāʾ*
+    description_en: |
+      Muwaffaq al-Dīn Aḥmad ibn al-Qāsim ibn Abī Uṣaybiʿa —
+      Damascene-born physician of the Mamlūk era — completed
+      the second redaction of his great biographical dictionary
+      of physicians, *ʿUyūn al-Anbāʾ fī Ṭabaqāt al-Aṭibbāʾ*
+      (Sources of Information on the Generations of
+      Physicians), at Ṣarkhad in 668 AH (1270 CE). Organised
+      into fifteen chapters covering Greek, Indian, pre-Islamic
+      Arabian, and Islamic-era physicians from the early
+      Abbasid translators down to his own teachers in Cairo
+      and Damascus, the *ʿUyūn* is the single most important
+      classical Arabic source on the history of medicine in
+      Islam — most of the death dates of physicians in this
+      dataset are attested through it. The completion year is
+      attested in the manuscript colophon. Ibn Abī Uṣaybiʿa
+      himself died at Ṣarkhad ten years later in 668 AH (1270 CE).
+    description_ar: |
+      أتمّ موفق الدين أحمد بن القاسم بن أبي أصيبعة — طبيب دمشقي
+      المولد من العصر المملوكي — التحرير الثاني لمعجمه الكبير
+      في تراجم الأطباء «عيون الأنباء في طبقات الأطباء» بصرخد
+      سنة ٦٦٨ هـ (١٢٧٠ ميلادي). والكتاب موزَّع على خمسة عشر
+      فصلاً تستوعب أطباء اليونان والهند والعرب قبل الإسلام
+      والأطباء في العصر الإسلامي من مترجمي العصر العباسي
+      الأوائل إلى أساتذته في القاهرة ودمشق، وهو أهم مصدر عربي
+      كلاسيكي وحيد في تاريخ الطب الإسلامي — وأكثر تاريخ وفيات
+      الأطباء في هذا الموسوعة محفوظ من طريقه. وقد ضبط تاريخ
+      الفراغ من التحرير في خاتمة المخطوط، وتوفي ابن أبي
+      أصيبعة بصرخد في السنة نفسها.
+    description_fr: |
+      Muwaffaq al-Dīn Aḥmad ibn al-Qāsim ibn Abī Uṣaybiʿa —
+      médecin d'origine damascène de l'époque mamelouke —
+      acheva la seconde rédaction de son grand dictionnaire
+      biographique des médecins, *ʿUyūn al-Anbāʾ fī Ṭabaqāt
+      al-Aṭibbāʾ* (Sources d'information sur les générations
+      des médecins), à Ṣarkhad en 668 H (1270 EC). Organisé
+      en quinze chapitres couvrant les médecins grecs,
+      indiens, arabes préislamiques et islamiques depuis les
+      premiers traducteurs abbassides jusqu'à ses propres
+      maîtres au Caire et à Damas, *ʿUyūn al-Anbāʾ* est la
+      source classique arabe la plus importante sur
+      l'histoire de la médecine en Islam — la plupart des
+      dates de mort des médecins de ce corpus reposent sur
+      lui. L'année d'achèvement est attestée dans le colophon
+      manuscrit ; Ibn Abī Uṣaybiʿa mourut lui-même à Ṣarkhad
+      la même année.
+    canonical_hijri: {year: 668, precision: year}
+    canonical_gregorian: {date: 1270-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Ibn Abī Uṣaybiʿa' confirms 668/1270 second redaction at Ṣarkhad."
+      - source_key: editorial
+        notes: "Manuscript colophon evidence; the *ʿUyūn al-Anbāʾ* is the source for most physician death dates in this dataset."
+    people: [[ibn-abi-usaybia, subject]]
+    tags: [mamluk, physician, damascus, sarkhad, biography, history-of-medicine, tabaqat]
+    importance: major
+    verification_status: single_source
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Abi_Usaibia"

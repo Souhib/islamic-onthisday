@@ -1,0 +1,805 @@
+# Wave 73 of curated event additions (2026-04-27).
+# Major Sunni mufassirūn (Qurʾān commentators) whose deaths are well
+# attested in the classical biographical canon and whose works occupy a
+# settled place in the Sunni tafsir tradition. The dataset already covers
+# al-Ṭabarī, al-Zamakhsharī, al-Bayḍāwī, al-Qurṭubī, Ibn Kathīr, Fakhr
+# al-Dīn al-Rāzī, al-Suyūṭī, Ibn ʿAṭiyya, al-Wāḥidī, al-Baghawī, Najm
+# al-Dīn ʿUmar al-Nasafī, al-Maḥallī, al-Shawkānī, Abū Ḥayyān al-Gharnāṭī,
+# Ibn ʿĀshūr, al-Marāghī, al-Ṣābūnī, Anwar Shāh al-Kashmīrī, and Sayyid
+# Quṭb. This wave fills out the remaining mainstream Sunni line:
+#
+#   - the early Hanafi tafsir current: Abū al-Layth al-Samarqandī's
+#     *Baḥr al-ʿUlūm* (4th c. AH), al-Jaṣṣāṣ's *Aḥkām al-Qurʾān*
+#     (legal-exegesis genre, 4th c. AH), and Hāfiẓ al-Dīn al-Nasafī's
+#     *Madārik al-Tanzīl* (8th c. AH);
+#   - the Khurāsānī-Shāfiʿī line of source-tafsir from which al-Wāḥidī
+#     drew: Abū Isḥāq al-Thaʿlabī's *al-Kashf wa-al-Bayān* (5th c. AH);
+#   - the Mamlūk-era condensation of al-Baghawī into the broader
+#     compilation tradition: ʿAlāʾ al-Dīn al-Khāzin al-Baghdādī's
+#     *Lubāb al-Taʾwīl* (8th c. AH);
+#   - the Andalusi-Maghrebi Mālikī line: Ibn Juzayy al-Kalbī's
+#     *al-Tashīl li-ʿUlūm al-Tanzīl* (8th c. AH) and
+#     ʿAbd al-Raḥmān al-Thaʿālibī's *al-Jawāhir al-Ḥisān* (9th c. AH);
+#   - the Ottoman court synthesis: Abū al-Suʿūd al-ʿImādī's *Irshād
+#     al-ʿAql al-Salīm* (10th c. AH);
+#   - the late-Ottoman Hanafi-Sufi synthesis: Maḥmūd al-Ālūsī's
+#     *Rūḥ al-Maʿānī* (13th c. AH);
+#   - the Najdi salafi tafsir: ʿAbd al-Raḥmān al-Saʿdī's *Taysīr al-
+#     Karīm al-Raḥmān* (14th c. AH).
+#
+# Cross-verification follows the editorial protocol: classical figures
+# (through 1000 AH) are sourced from Ibn Khallikān's *Wafayāt al-Aʿyān*
+# (where the figure predates 681 AH), al-Dhahabī's *Siyar Aʿlām al-
+# Nubalāʾ* and *Tārīkh al-Islām* (through 748 AH), Ibn Kathīr's *al-
+# Bidāya wa-l-Nihāya*, Ibn Ḥajar's *al-Durar al-Kāmina* (8th c. AH
+# wafayāt), and Ibn al-ʿImād's *Shadharāt al-Dhahab* (through 1000 AH).
+# Modern figures (al-Ālūsī, d. 1270 AH; al-Saʿdī, d. 1376 AH) are
+# attested via EI2 with editorial cross-reference. Trilingual en/ar/fr
+# throughout. No hadith refs (no narration directly anchors a
+# tafsīr-author wafayāt). Date precision uses month/day only where the
+# classical sources explicitly attest the day; year-precision otherwise.
+
+events:
+  # =========================================================================
+  # 4th CENTURY AH — early Hanafi tafsir and the legal-exegesis genre
+  # =========================================================================
+
+  - slug: death-of-al-jassas
+    category: scholar_death
+    title_en: Death of al-Jaṣṣāṣ — Hanafi author of *Aḥkām al-Qurʾān*
+    title_ar: وفاة الجصّاص — صاحب «أحكام القرآن» من فقهاء الحنفية
+    title_fr: Mort d'al-Jaṣṣāṣ — auteur ḥanafīte d'*Aḥkām al-Qurʾān*
+    description_en: |
+      Abū Bakr Aḥmad ibn ʿAlī al-Rāzī, known as al-Jaṣṣāṣ ("the
+      Plasterer"), the leading Hanafi jurist of mid-4th-century AH
+      Baghdad and the principal heir to the Iraqi Hanafi school after
+      al-Karkhī — died at Baghdad on 7 Dhū al-Ḥijja 370 AH (15 June
+      981 CE). His *Aḥkām al-Qurʾān*, a verse-by-verse legal commentary
+      organised by sūra and ranging across the entire mushaf, is the
+      earliest fully systematic Hanafi work in the *aḥkām al-Qurʾān*
+      genre and the principal Hanafi counterpart to al-Ṭabarī's
+      narrative-exegetical *Jāmiʿ al-Bayān*; his *Sharḥ Mukhtaṣar
+      al-Ṭaḥāwī* and *Sharḥ Mukhtaṣar al-Karkhī* set the standard
+      Hanafi commentaries on the early Iraqi *mukhtaṣar* literature.
+      The death-date 7 Dhū al-Ḥijja 370 is reported by Ibn Khallikān
+      in *Wafayāt al-Aʿyān* and confirmed by al-Dhahabī in *Siyar Aʿlām
+      al-Nubalāʾ* and *Tārīkh al-Islām* and by Ibn al-ʿImād in
+      *Shadharāt al-Dhahab*; he was buried in Baghdad.
+    description_ar: |
+      توفي أبو بكر أحمد بن علي الرازي المعروف بالجصّاص — إمام الحنفية
+      ببغداد في منتصف القرن الرابع، ووارث رئاسة مذهب أهل العراق بعد
+      أبي الحسن الكرخي — ببغداد في السابع من ذي الحجة سنة سبعين
+      وثلاث مئة (الموافق ١٥ يونيو ٩٨١م). و«أحكام القرآن» تفسيره
+      الفقهي المرتَّب على ترتيب المصحف من أقدم ما وُضع منهجياً في
+      جنس «أحكام القرآن» عند الحنفية، وهو نظير «جامع البيان» للطبري
+      من جهة الفقه، كما أن «شرح مختصر الطحاوي» و«شرح مختصر الكرخي»
+      له صار مرجع الحنفية في شرح المختصرات العراقية. وقد أثبت
+      تاريخَ وفاته في السابع من ذي الحجة سنة ٣٧٠ ابنُ خلكان في
+      «وفيات الأعيان»، وأكّده الذهبي في «سير أعلام النبلاء»
+      و«تاريخ الإسلام»، وابن العماد في «شذرات الذهب»؛ ودُفن ببغداد.
+    description_fr: |
+      Abū Bakr Aḥmad ibn ʿAlī al-Rāzī, dit al-Jaṣṣāṣ (« le Plâtrier »),
+      principal juriste ḥanafīte de Bagdad au milieu du IVᵉ siècle de
+      l'Hégire et héritier de la direction de l'école irakienne après
+      al-Karkhī, mourut à Bagdad le 7 Dhū al-Ḥijja 370 H (15 juin
+      981 EC). Son *Aḥkām al-Qurʾān*, commentaire juridique versets
+      par verset organisé selon l'ordre du muṣḥaf et couvrant
+      l'ensemble du Coran, est la plus ancienne œuvre ḥanafīte
+      pleinement systématique du genre *aḥkām al-Qurʾān* et le
+      pendant ḥanafīte du *Jāmiʿ al-Bayān* exégétique-narratif d'al-
+      Ṭabarī ; ses *Sharḥ Mukhtaṣar al-Ṭaḥāwī* et *Sharḥ Mukhtaṣar
+      al-Karkhī* fixent les commentaires ḥanafītes de référence sur
+      la littérature des *mukhtaṣar* irakiens anciens. La date du
+      7 Dhū al-Ḥijja 370 est rapportée par Ibn Khallikān dans les
+      *Wafayāt al-Aʿyān*, confirmée par al-Dhahabī dans les *Siyar
+      Aʿlām al-Nubalāʾ* et le *Tārīkh al-Islām* ainsi que par Ibn
+      al-ʿImād dans les *Shadharāt al-Dhahab* ; il fut inhumé à Bagdad.
+    canonical_hijri: {year: 370, month: 12, day: 7, precision: day}
+    canonical_gregorian: {date: 981-06-15, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafayāt al-Aʿyān: died at Baghdad on 7 Dhū al-Ḥijja 370 AH."
+      - source_key: dhahabi_siyar
+        notes: "Siyar Aʿlām al-Nubalāʾ confirms 370 AH at Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām corroborates 7 Dhū al-Ḥijja 370 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab places death in 370 AH."
+      - source_key: ei2
+    people: [[al-jassas, died]]
+    tags: [abbasid, scholar, mufassir, hanafi, baghdad, ahkam-al-quran, fiqh]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Jassas"
+
+  - slug: death-of-abu-al-layth-al-samarqandi
+    category: scholar_death
+    title_en: Death of Abū al-Layth al-Samarqandī — Hanafi mufassir of Transoxiana, author of *Baḥr al-ʿUlūm*
+    title_ar: وفاة أبي الليث السمرقندي — مفسّر الحنفية بما وراء النهر، صاحب «بحر العلوم»
+    title_fr: Mort d'Abū al-Layth al-Samarqandī — mufassir ḥanafīte de Transoxiane, auteur du *Baḥr al-ʿUlūm*
+    description_en: |
+      Abū al-Layth Naṣr ibn Muḥammad ibn Aḥmad ibn Ibrāhīm al-Samarqandī,
+      called *Imām al-Hudā* ("Imam of Right Guidance") — Hanafi
+      mufassir, jurist, and ascetic of Transoxiana, and the leading
+      Sunni Hanafi exegete of late-4th-century AH Samarqand — died,
+      according to the majority of the classical biographers, in 373
+      AH (983 CE); a minority of reports give 375 AH or, less commonly,
+      393 AH, and the disagreement is recorded by al-Dhahabī himself.
+      We follow 373 as the position adopted by the majority of the
+      Hanafi *ṭabaqāt* and by Ibn al-ʿImād in *Shadharāt al-Dhahab*.
+      His *Tafsīr al-Samarqandī*, also known as *Baḥr al-ʿUlūm* (Sea
+      of Sciences), is one of the earliest complete Hanafi tafsirs to
+      survive and was a principal source for later Transoxianan
+      exegesis through Hāfiẓ al-Dīn al-Nasafī; his *Tanbīh al-Ghāfilīn*
+      and *Bustān al-ʿĀrifīn* circulated for centuries as standard
+      Sunni works of moral and ascetic counsel.
+    description_ar: |
+      توفي أبو الليث نصر بن محمد بن أحمد بن إبراهيم السمرقندي،
+      الملقّب بـ«إمام الهدى» — مفسّر الحنفية وفقيهُهم وزاهدُهم بما
+      وراء النهر، وكبير مفسّري السنة الحنفية بسمرقند في أواخر
+      القرن الرابع — على الراجح من أقوال أصحاب التراجم سنة ثلاث
+      وسبعين وثلاث مئة للهجرة (الموافق ٩٨٣م). وذكر بعضهم سنة ٣٧٥،
+      وقول شاذ بسنة ٣٩٣، وقد نقل الذهبي الخلاف. ونحن نتبع ٣٧٣
+      وعليه جمهور طبقات الحنفية، وابن العماد في «شذرات الذهب».
+      وتفسيره المعروف بـ«تفسير السمرقندي» أو «بحر العلوم» من
+      أقدم تفاسير الحنفية الكاملة الواصلة إلينا، ومادةٌ رئيسة
+      لمن جاء بعده من مفسّري ما وراء النهر إلى حافظ الدين النسفي؛
+      وكتاباه «تنبيه الغافلين» و«بستان العارفين» سارت بهما الركبان
+      في وعظ السنة وأخلاق التصوف الزُّهدي قروناً.
+    description_fr: |
+      Abū al-Layth Naṣr ibn Muḥammad ibn Aḥmad ibn Ibrāhīm al-Samar-
+      qandī, surnommé *Imām al-Hudā* (« Imām de la juste direction »)
+      — mufassir, juriste et ascète ḥanafīte de Transoxiane, premier
+      exégète sunnite ḥanafīte de Samarqand à la fin du IVᵉ siècle de
+      l'Hégire — mourut, selon la position majoritaire des biographes
+      classiques, en 373 H (983 EC) ; une minorité donne 375 H, et
+      un report rare 393 H — divergence consignée par al-Dhahabī
+      lui-même. Nous retenons 373, position majoritaire dans les
+      *ṭabaqāt* ḥanafītes et chez Ibn al-ʿImād dans les *Shadharāt
+      al-Dhahab*. Son *Tafsīr al-Samarqandī*, également connu sous le
+      nom de *Baḥr al-ʿUlūm* (« La Mer des sciences »), est l'un des
+      plus anciens tafsīrs ḥanafītes complets qui nous soient parvenus
+      et l'une des sources principales de l'exégèse transoxianienne
+      ultérieure jusqu'à Ḥāfiẓ al-Dīn al-Nasafī ; ses *Tanbīh al-
+      Ghāfilīn* et *Bustān al-ʿĀrifīn* furent durant des siècles des
+      ouvrages sunnites de référence en matière d'exhortation et de
+      conseil ascétique.
+    canonical_hijri: {year: 373, precision: year}
+    canonical_gregorian: {date: 983-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ records 373 AH and notes the minority report of 375."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām also gives 373 AH for Abū al-Layth."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab adopts 373 AH."
+      - source_key: ei2
+    people: [[abu-al-layth-al-samarqandi, died]]
+    tags: [abbasid, samanid, scholar, mufassir, hanafi, samarqand, transoxiana, bahr-al-ulum]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Abu_al-Layth_al-Samarqandi"
+
+  # =========================================================================
+  # 5th CENTURY AH — the Khurāsānī source-tafsir tradition
+  # =========================================================================
+
+  - slug: death-of-abu-ishaq-al-thalabi
+    category: scholar_death
+    title_en: Death of Abū Isḥāq al-Thaʿlabī — Khurāsānī mufassir, author of *al-Kashf wa-al-Bayān*
+    title_ar: وفاة أبي إسحاق الثعلبي — مفسّر خراسان، صاحب «الكشف والبيان»
+    title_fr: Mort d'Abū Isḥāq al-Thaʿlabī — mufassir khurāsānien, auteur d'*al-Kashf wa-al-Bayān*
+    description_en: |
+      Abū Isḥāq Aḥmad ibn Muḥammad ibn Ibrāhīm al-Thaʿlabī al-Naysābūrī
+      — Shāfiʿī Sunni mufassir of Nīsābūr, central figure in the
+      Khurāsānī source-tafsir tradition that absorbed the Iraqi
+      narrative material of al-Ṭabarī and synthesised it with
+      grammatical, lexical, and *qirāʾāt* commentary — died at Nīsābūr
+      in Muḥarram 427 AH (November 1035 CE). His *al-Kashf wa-al-Bayān
+      ʿan Tafsīr al-Qurʾān* is the most cited single source in
+      al-Wāḥidī's *al-Basīṭ* and *al-Wasīṭ*, and one of the principal
+      sources for al-Baghawī's *Maʿālim al-Tanzīl*; his *ʿArāʾis al-
+      Majālis fī Qiṣaṣ al-Anbiyāʾ* became the standard medieval
+      *qiṣaṣ al-anbiyāʾ* compendium across the Sunni heartlands. Al-
+      Dhahabī in *Siyar Aʿlām al-Nubalāʾ* and *Tārīkh al-Islām* fixes
+      the death in Muḥarram 427 AH, and Ibn al-ʿImād in *Shadharāt
+      al-Dhahab* gives the same year.
+    description_ar: |
+      توفي أبو إسحاق أحمد بن محمد بن إبراهيم الثعلبي النيسابوري —
+      شافعي سني، مفسّر نيسابور، ومن أعمدة مدرسة المصادر التفسيرية
+      الخراسانية التي استوعبت مادة الطبري الإخبارية وجمعت إليها
+      علوم النحو واللغة والقراءات — بنيسابور في محرّم سنة سبع وعشرين
+      وأربع مئة للهجرة (الموافق نوفمبر ١٠٣٥م). و«الكشف والبيان عن
+      تفسير القرآن» أكثر مصدر مفرد نقل عنه الواحدي في «البسيط»
+      و«الوسيط»، ومن أهم مصادر «معالم التنزيل» للبغوي؛ و«عرائس
+      المجالس في قصص الأنبياء» له صار مرجع السنة في فنّ قصص الأنبياء
+      في القرون الوسطى من المشرق إلى المغرب. وقد أثبت الذهبي وفاتَه
+      في محرم ٤٢٧ في «سير أعلام النبلاء» و«تاريخ الإسلام»، وعليه
+      ابن العماد في «شذرات الذهب».
+    description_fr: |
+      Abū Isḥāq Aḥmad ibn Muḥammad ibn Ibrāhīm al-Thaʿlabī al-
+      Naysābūrī — sunnite shāfiʿīte, mufassir de Nīsābūr et figure
+      centrale de la tradition khurāsānīe du tafsīr-source qui absorba
+      le matériel narratif irakien d'al-Ṭabarī et le synthétisa avec
+      le commentaire grammatical, lexical et celui des *qirāʾāt* —
+      mourut à Nīsābūr en Muḥarram 427 H (novembre 1035 EC). Son
+      *al-Kashf wa-al-Bayān ʿan Tafsīr al-Qurʾān* est la source unique
+      la plus citée du *Basīṭ* et du *Wasīṭ* d'al-Wāḥidī ainsi qu'une
+      des sources principales du *Maʿālim al-Tanzīl* d'al-Baghawī ;
+      ses *ʿArāʾis al-Majālis fī Qiṣaṣ al-Anbiyāʾ* devinrent le
+      compendium médiéval de référence pour les *qiṣaṣ al-anbiyāʾ*
+      dans l'ensemble du dār al-Islām sunnite. Al-Dhahabī, dans les
+      *Siyar Aʿlām al-Nubalāʾ* et le *Tārīkh al-Islām*, fixe la mort
+      en Muḥarram 427 H, et Ibn al-ʿImād confirme dans les
+      *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 427, month: 1, precision: month}
+    canonical_gregorian: {date: 1035-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Siyar Aʿlām al-Nubalāʾ: died Muḥarram 427 AH at Nīsābūr."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām corroborates Muḥarram 427 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab adopts 427 AH."
+      - source_key: ei2
+    people: [[abu-ishaq-al-thalabi, died]]
+    tags: [abbasid, ghaznavid, scholar, mufassir, shafii, nisabur, khurasan, qisas-al-anbiya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Tha%27labi"
+
+  # =========================================================================
+  # 8th CENTURY AH — Mamlūk-era and Andalusi-Maghrebi tafsir compilation
+  # =========================================================================
+
+  - slug: death-of-hafiz-al-din-al-nasafi
+    category: scholar_death
+    title_en: Death of Hāfiẓ al-Dīn al-Nasafī — Hanafi-Māturīdī author of *Madārik al-Tanzīl*
+    title_ar: وفاة حافظ الدين النسفي — صاحب «مدارك التنزيل» من حنفية ماتريدية
+    title_fr: Mort de Ḥāfiẓ al-Dīn al-Nasafī — auteur ḥanafīte-māturīdīte des *Madārik al-Tanzīl*
+    description_en: |
+      Ḥāfiẓ al-Dīn Abū al-Barakāt ʿAbd Allāh ibn Aḥmad ibn Maḥmūd
+      al-Nasafī — Hanafi jurist and Māturīdī theologian of Transoxiana
+      and ʿIrāq al-ʿAjam, principal late-medieval consolidator of the
+      Hanafi-Māturīdī synthesis — died at Idhaj in Khūzistān while
+      returning from a journey, in 710 AH (1310 CE). He is a *distinct
+      figure* from Najm al-Dīn ʿUmar al-Nasafī (d. 537 AH, author of
+      the famous Māturīdī creed *al-ʿAqāʾid al-Nasafiyya*) who shares
+      the nisba; the two are routinely confused. Ḥāfiẓ al-Dīn's
+      *Madārik al-Tanzīl wa-Ḥaqāʾiq al-Taʾwīl* — a medium-length
+      Hanafi-Māturīdī tafsir distilling the language of al-Zamakh-
+      sharī's *Kashshāf* with its Muʿtazilī content corrected to
+      Sunni-Māturīdī standards — became one of the standard tafsirs
+      of the Hanafi-Ottoman world, alongside al-Bayḍāwī and Abū al-
+      Suʿūd; his *Kanz al-Daqāʾiq* (fiqh), *al-Manār* with auto-
+      commentary *Kashf al-Asrār* (uṣūl), and *al-Wāfī*/*al-Kāfī*
+      (fiqh) form the central late-Hanafi school texts. Ibn Ḥajar
+      records the death in *al-Durar al-Kāmina*, Ibn al-ʿImād in
+      *Shadharāt al-Dhahab*.
+    description_ar: |
+      توفي حافظ الدين أبو البركات عبد الله بن أحمد بن محمود النسفي —
+      حنفي ماتريدي السنة، فقيه ما وراء النهر وعراق العجم، وعمدة
+      المتأخرين في تنسيق التركيب الحنفي الماتريدي — بإذج من خوزستان
+      منصرفه من سفر، سنة عشر وسبع مئة للهجرة (الموافق ١٣١٠م). وهو
+      شخص مغاير لنجم الدين عمر النسفي (ت ٥٣٧ هـ) صاحب «العقائد
+      النسفية» الماتريدية المشهورة، وهما يَلتبسان كثيراً. وتفسيره
+      «مدارك التنزيل وحقائق التأويل» — تفسير حنفي ماتريدي متوسط جمع
+      صياغة «الكشاف» الزمخشرية وأخرج عنها الاعتزال إلى مذهب أهل
+      السنة الماتريدية — صار من تفاسير العالم الحنفي العثماني
+      المعتمدة بجوار البيضاوي وأبي السعود؛ و«كنز الدقائق» في الفقه،
+      و«المنار» وشرحه ذاته «كشف الأسرار» في الأصول، و«الوافي»
+      و«الكافي» في الفقه من أمهات نصوص الحنفية المتأخرة. وقد ضبط
+      وفاتَه ابنُ حجر في «الدرر الكامنة» وابن العماد في «شذرات
+      الذهب».
+    description_fr: |
+      Ḥāfiẓ al-Dīn Abū al-Barakāt ʿAbd Allāh ibn Aḥmad ibn Maḥmūd
+      al-Nasafī — juriste ḥanafīte et théologien māturīdīte de
+      Transoxiane et d'ʿIrāq al-ʿAjam, principal consolidateur tardo-
+      médiéval de la synthèse ḥanafīte-māturīdīte — mourut à Idhaj
+      au Khūzistān, en revenant d'un voyage, en 710 H (1310 EC). Il
+      constitue *une figure distincte* de Najm al-Dīn ʿUmar al-Nasafī
+      (m. 537 H), auteur du célèbre credo māturīdīte *al-ʿAqāʾid al-
+      Nasafiyya*, dont il partage la *nisba* — les deux sont souvent
+      confondus. Ses *Madārik al-Tanzīl wa-Ḥaqāʾiq al-Taʾwīl* —
+      tafsīr ḥanafī-māturīdī de longueur moyenne reprenant la langue
+      du *Kashshāf* d'al-Zamakhsharī tout en en expurgeant le contenu
+      muʿtazilīte au profit du sunnisme māturīdīte — devinrent l'un
+      des tafsīrs canoniques du monde ḥanafī-ottoman aux côtés
+      d'al-Bayḍāwī et d'Abū al-Suʿūd ; ses *Kanz al-Daqāʾiq* (fiqh),
+      *al-Manār* avec son auto-commentaire *Kashf al-Asrār* (uṣūl) et
+      *al-Wāfī* / *al-Kāfī* (fiqh) figurent parmi les textes
+      centraux de l'école ḥanafīte tardive. Ibn Ḥajar consigne sa
+      mort dans *al-Durar al-Kāmina*, Ibn al-ʿImād dans les
+      *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 710, precision: year}
+    canonical_gregorian: {date: 1310-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina: died 710 AH at Idhaj in Khūzistān."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab places death in 710 AH."
+      - source_key: ei2
+    people: [[hafiz-al-din-al-nasafi, died]]
+    tags: [ilkhanid, scholar, mufassir, hanafi, maturidi, transoxiana, idhaj, madarik-al-tanzil]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hafiz_al-Din_al-Nasafi"
+
+  - slug: death-of-al-khazin-al-baghdadi
+    category: scholar_death
+    title_en: Death of al-Khāzin al-Baghdādī — Mamlūk-era mufassir, author of *Lubāb al-Taʾwīl*
+    title_ar: وفاة الخازن البغدادي — مفسّر المماليك، صاحب «لباب التأويل»
+    title_fr: Mort d'al-Khāzin al-Baghdādī — mufassir mamlūk, auteur du *Lubāb al-Taʾwīl*
+    description_en: |
+      ʿAlāʾ al-Dīn ʿAlī ibn Muḥammad ibn Ibrāhīm al-Baghdādī al-Shīḥī,
+      known as al-Khāzin ("the Librarian", from his service as
+      *khāzin al-kutub* — keeper of the books — at the Sumaysāṭiyya
+      khānqāh in Damascus) — Shāfiʿī Sunni mufassir, hadith
+      transmitter, and historian of the Mamlūk Levant — died at
+      Aleppo in 741 AH (1340-41 CE). His *Lubāb al-Taʾwīl fī Maʿānī
+      al-Tanzīl* is a popular abridgement and reordering of al-
+      Baghawī's *Maʿālim al-Tanzīl* with supplementary material from
+      al-Thaʿlabī, and circulated for centuries as a school-text-
+      length Sunni tafsir across the Mamlūk and Ottoman lands; his
+      *Maqbūl al-Manqūl min ʿIlmay al-Jadal wa-l-Uṣūl* and his
+      condensation of al-Bayhaqī's *Dalāʾil al-Nubuwwa* are also
+      attested. Ibn Ḥajar in *al-Durar al-Kāmina* fixes the death
+      year at 741 AH at Aleppo, with a minority report of 725 AH
+      noted; Ibn al-ʿImād in *Shadharāt al-Dhahab* records the same.
+      We follow 741 with the majority of the Sunni biographers and
+      flag the disagreement.
+    description_ar: |
+      توفي علاء الدين علي بن محمد بن إبراهيم البغدادي الشيحي
+      المعروف بالخازن (لقيامه بخزانة كتب الخانقاه السميساطية بدمشق) —
+      شافعي سني، مفسّر، محدّث، ومؤرّخ من رجال المماليك في الشام —
+      بحلب سنة إحدى وأربعين وسبع مئة للهجرة (الموافق ١٣٤٠–١٣٤١م).
+      و«لباب التأويل في معاني التنزيل» اختصارٌ شعبي ل«معالم التنزيل»
+      للبغوي مع زيادات من الثعلبي، سار في بلاد المماليك والعثمانيين
+      قروناً تفسيراً متوسطاً للتدريس؛ وله «المقبول المنقول من علمَي
+      الجدل والأصول»، واختصارُ «دلائل النبوّة» للبيهقي. وقد ضبط
+      وفاتَه ابنُ حجر في «الدرر الكامنة» سنة ٧٤١ بحلب وأشار إلى
+      قول مَن ذكرها سنة ٧٢٥، وعليه ابن العماد في «شذرات الذهب».
+      ونحن نتبع ٧٤١ بوصفه قول الجمهور وننبّه على الخلاف.
+    description_fr: |
+      ʿAlāʾ al-Dīn ʿAlī ibn Muḥammad ibn Ibrāhīm al-Baghdādī al-
+      Shīḥī, dit al-Khāzin (« le Bibliothécaire », pour son service
+      de *khāzin al-kutub* — garde des livres — à la khānqāh
+      sumaysāṭīte de Damas) — sunnite shāfiʿīte, mufassir,
+      transmetteur de hadiths et historien du Levant mamlūk — mourut
+      à Alep en 741 H (1340-1341 EC). Son *Lubāb al-Taʾwīl fī Maʿānī
+      al-Tanzīl* est un abrégé populaire des *Maʿālim al-Tanzīl*
+      d'al-Baghawī, réorganisé et augmenté de matériel emprunté à
+      al-Thaʿlabī, qui circula pendant des siècles dans le monde
+      mamlūk et ottoman comme tafsīr sunnite de format scolaire ;
+      on lui attribue également le *Maqbūl al-Manqūl min ʿIlmay
+      al-Jadal wa-l-Uṣūl* et un abrégé des *Dalāʾil al-Nubuwwa* d'al-
+      Bayhaqī. Ibn Ḥajar dans *al-Durar al-Kāmina* fixe la mort en
+      741 H à Alep, en signalant le report minoritaire de 725 H ;
+      Ibn al-ʿImād confirme dans les *Shadharāt al-Dhahab*. Nous
+      retenons 741 H comme position majoritaire et signalons la
+      divergence.
+    canonical_hijri: {year: 741, precision: year}
+    canonical_gregorian: {date: 1340-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina: died 741 AH at Aleppo; minority report of 725 AH noted."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 741 AH."
+      - source_key: ei2
+    people: [[al-khazin-al-baghdadi, died]]
+    tags: [mamluk, scholar, mufassir, shafii, aleppo, damascus, lubab-al-tawil]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Al-Khazin"
+
+  - slug: martyrdom-of-ibn-juzayy-al-kalbi
+    category: scholar_death
+    title_en: Martyrdom of Ibn Juzayy al-Kalbī at the Battle of Tarifa — Mālikī Andalusi mufassir, author of *al-Tashīl li-ʿUlūm al-Tanzīl*
+    title_ar: استشهاد ابن جزي الكلبي في معركة طريف — مفسّر المالكية الأندلسي صاحب «التسهيل لعلوم التنزيل»
+    title_fr: Martyre d'Ibn Juzayy al-Kalbī à la bataille de Tarifa — mufassir mālikīte andalou, auteur d'*al-Tashīl li-ʿUlūm al-Tanzīl*
+    description_en: |
+      Abū al-Qāsim Muḥammad ibn Aḥmad ibn Muḥammad ibn ʿAbd Allāh ibn
+      Yaḥyā ibn Juzayy al-Kalbī al-Gharnāṭī — Mālikī Sunni jurist,
+      mufassir, and *qāriʾ* of Granada under the Naṣrid dynasty —
+      was killed in battle at the defeat of the combined Naṣrid-
+      Marīnid army by Castile and Portugal at Tarifa (the Battle of
+      Río Salado) on 7 Jumādā I 741 AH (30 October 1340 CE), in his
+      late forties. His *al-Tashīl li-ʿUlūm al-Tanzīl* is a concise
+      Mālikī-Ashʿarī tafsir prized for its clarity and used as a
+      teaching text from the late Naṣrid period through Maghrebi and
+      sub-Saharan African Mālikī milieus into the modern period; his
+      *al-Qawānīn al-Fiqhiyya fī Talkhīṣ Madhhab al-Mālikiyya* is one
+      of the standard short Mālikī fiqh manuals. The death-date of
+      7 Jumādā I 741 AH at Tarifa is given by Lisān al-Dīn Ibn al-
+      Khaṭīb in *al-Iḥāṭa fī Akhbār Gharnāṭa* and by Ibn Ḥajar in
+      *al-Durar al-Kāmina*; he is a *distinct figure* from his son
+      Abū ʿAbd Allāh Muḥammad ibn Juzayy (d. 757 AH), the redactor
+      of Ibn Baṭṭūṭa's *Riḥla*, with whom he is sometimes confused.
+    description_ar: |
+      استُشهد أبو القاسم محمد بن أحمد بن محمد بن عبد الله بن يحيى
+      ابن جزي الكلبي الغرناطي — مالكي سني، فقيه ومفسّر ومقرئ غرناطة
+      في عصر بني نصر — في موقعة طريف (معركة وادي السلادو) لمّا
+      انهزم جيش بني نصر وبني مرين أمام قشتالة والبرتغال، يوم السابع
+      من جمادى الأولى سنة إحدى وأربعين وسبع مئة للهجرة (الموافق ٣٠
+      أكتوبر ١٣٤٠م)، عن نحو سبع وأربعين سنة. و«التسهيل لعلوم التنزيل»
+      تفسير مالكي أشعري متوسط، اشتُهر بسهولة عبارته، فاتُّخذ مدرسةً
+      من أواخر عهد بني نصر إلى المالكية في المغرب وأفريقيا جنوب
+      الصحراء إلى عصرنا؛ و«القوانين الفقهية في تلخيص مذهب المالكية»
+      من أمهات مختصرات الفقه المالكي. وأثبت تاريخ الوفاة في طريف
+      يوم السابع من جمادى الأولى ٧٤١ لسانُ الدين بن الخطيب في
+      «الإحاطة في أخبار غرناطة»، وابنُ حجر في «الدرر الكامنة». وهو
+      مغايرٌ لابنه أبي عبد الله محمد بن جزي (ت ٧٥٧ هـ) محرّر «رحلة
+      ابن بطوطة»، وكثيراً ما يقع الالتباس بينهما.
+    description_fr: |
+      Abū al-Qāsim Muḥammad ibn Aḥmad ibn Muḥammad ibn ʿAbd Allāh
+      ibn Yaḥyā ibn Juzayy al-Kalbī al-Gharnāṭī — sunnite mālikīte,
+      juriste, mufassir et *qāriʾ* de Grenade sous la dynastie
+      naṣride — fut tué au combat lors de la défaite de l'armée
+      naṣride-marīnide face à la Castille et au Portugal à Tarifa
+      (bataille du Río Salado) le 7 Jumādā I 741 H (30 octobre
+      1340 EC), à près de quarante-sept ans. Son *al-Tashīl li-
+      ʿUlūm al-Tanzīl* est un tafsīr mālikīte-ashʿarīte concis
+      prisé pour la clarté de son expression, utilisé comme manuel
+      scolaire depuis la fin de l'époque naṣride dans les milieux
+      mālikītes du Maghreb et de l'Afrique subsaharienne jusqu'à
+      la période contemporaine ; ses *Qawānīn al-Fiqhiyya fī Talkhīṣ
+      Madhhab al-Mālikiyya* comptent parmi les manuels de fiqh
+      mālikīte abrégés de référence. La date du 7 Jumādā I 741 H
+      à Tarifa est donnée par Lisān al-Dīn Ibn al-Khaṭīb dans
+      *al-Iḥāṭa fī Akhbār Gharnāṭa* et par Ibn Ḥajar dans *al-Durar
+      al-Kāmina* ; il s'agit *d'une figure distincte* de son fils
+      Abū ʿAbd Allāh Muḥammad ibn Juzayy (m. 757 H), réviseur de
+      la *Riḥla* d'Ibn Baṭṭūṭa, avec lequel il est parfois confondu.
+    canonical_hijri: {year: 741, month: 5, day: 7, precision: day}
+    canonical_gregorian: {date: 1340-10-30, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "al-Durar al-Kāmina: killed at the Battle of Tarifa on 7 Jumādā I 741 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab places death at Tarifa in 741 AH."
+      - source_key: ei2
+    people: [[ibn-juzayy-al-kalbi, died]]
+    tags: [nasrid, marinid, scholar, mufassir, maliki, granada, andalusia, reconquista, tarifa, rio-salado, martyrdom]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Juzayy"
+
+  # =========================================================================
+  # 9th CENTURY AH — Maghrebi Mālikī tafsir
+  # =========================================================================
+
+  - slug: death-of-al-thaalibi-al-maliki
+    category: scholar_death
+    title_en: Death of ʿAbd al-Raḥmān al-Thaʿālibī — Mālikī Sunni mufassir of Algiers, author of *al-Jawāhir al-Ḥisān*
+    title_ar: وفاة عبد الرحمن الثعالبي — مفسّر مالكية الجزائر، صاحب «الجواهر الحسان»
+    title_fr: Mort de ʿAbd al-Raḥmān al-Thaʿālibī — mufassir mālikīte sunnite d'Alger, auteur d'*al-Jawāhir al-Ḥisān*
+    description_en: |
+      Abū Zayd ʿAbd al-Raḥmān ibn Muḥammad ibn Makhlūf al-Thaʿālibī
+      al-Jazāʾirī — Mālikī Sunni mufassir, jurist, and Sufi-leaning
+      preacher of central Maghreb, principal late-medieval consolidator
+      of the Algerian Mālikī school under the late Ḥafṣid-Zayyānid
+      polity — died at Algiers in 875 AH (1471 CE) at an advanced age.
+      His *al-Jawāhir al-Ḥisān fī Tafsīr al-Qurʾān*, often called
+      *Tafsīr al-Thaʿālibī*, is the most-circulated Mālikī tafsir of
+      the Maghrebi tradition, drawing principally on Ibn ʿAṭiyya's
+      *al-Muḥarrar al-Wajīz* with substantial Mālikī-juridical and
+      Sunni-Ash'arī supplementation; his *al-ʿUlūm al-Fākhira fī al-
+      Naẓar fī Umūr al-Ākhira* and *al-Ānīs* compilations belong to
+      the same Sunni-Sufi devotional and eschatological tradition. He
+      is *not to be confused with* the litterateur Abū Manṣūr
+      al-Thaʿālibī of Nīsābūr (d. 429 AH, *Yatīmat al-Dahr*) — same
+      *nisba*, different schools, different centuries. His tomb in
+      the Casbah of Algiers (Sīdī ʿAbd al-Raḥmān) became one of the
+      principal Mālikī shrines of the Maghreb. Ibn al-ʿImād in
+      *Shadharāt al-Dhahab* records the death in 875 AH.
+    description_ar: |
+      توفي أبو زيد عبد الرحمن بن محمد بن مخلوف الثعالبي الجزائري —
+      مالكي سني، مفسّر، فقيه، وواعظ ذو نزعة صوفية في المغرب الأوسط،
+      وعمدةُ المتأخرين في تجميع المدرسة المالكية الجزائرية في أواخر
+      عصر الحفصيين والزيانيين — بمدينة الجزائر سنة خمس وسبعين
+      وثمان مئة للهجرة (الموافق ١٤٧١م) عن سنّ عالية. و«الجواهر الحسان
+      في تفسير القرآن» المعروف بـ«تفسير الثعالبي» أكثر تفسير مالكي
+      انتشاراً في تراث المغرب، اعتمد فيه أساساً على «المحرّر الوجيز»
+      لابن عطية مع زيادات فقهية مالكية وكلامية سنية أشعرية معتبرة؛
+      وله «العلوم الفاخرة في النظر في أمور الآخرة» و«الأنيس» على
+      نفس النفَس السني الصوفي في أبواب الزهد والآخرة. وهو غير
+      الأديب أبي منصور الثعالبي النيسابوري (ت ٤٢٩ هـ) صاحب «يتيمة
+      الدهر» — جمعتهما النسبة وفرّقتهما المدرسة والقرن. وضريحه في
+      قصبة الجزائر (سيدي عبد الرحمن) من كبرى المزارات المالكية في
+      المغرب. وقد أثبت وفاتَه ابنُ العماد في «شذرات الذهب» سنة ٨٧٥ هـ.
+    description_fr: |
+      Abū Zayd ʿAbd al-Raḥmān ibn Muḥammad ibn Makhlūf al-Thaʿālibī
+      al-Jazāʾirī — sunnite mālikīte, mufassir, juriste et prédicateur
+      d'inclination soufie du Maghreb central, principal consolidateur
+      tardo-médiéval de l'école mālikīte algéroise sous les
+      souverainetés finissantes ḥafṣide et zayyānide — mourut à
+      Alger en 875 H (1471 EC) à un âge avancé. Son *al-Jawāhir al-
+      Ḥisān fī Tafsīr al-Qurʾān*, souvent appelé *Tafsīr al-Thaʿālibī*,
+      est le tafsīr mālikīte le plus diffusé de la tradition
+      maghrébine, s'appuyant principalement sur le *Muḥarrar al-
+      Wajīz* d'Ibn ʿAṭiyya et y ajoutant un appareil juridique
+      mālikīte et théologique ashʿarīte substantiel ; ses *ʿUlūm al-
+      Fākhira fī al-Naẓar fī Umūr al-Ākhira* et son *Ānīs* relèvent de
+      la même tradition sunnite-soufie de dévotion et d'eschatologie.
+      Il *ne doit pas être confondu* avec le littérateur Abū Manṣūr
+      al-Thaʿālibī de Nīsābūr (m. 429 H, *Yatīmat al-Dahr*) — même
+      *nisba*, écoles et siècles différents. Son mausolée dans la
+      Casbah d'Alger (Sīdī ʿAbd al-Raḥmān) est l'un des principaux
+      sanctuaires mālikītes du Maghreb. Ibn al-ʿImād consigne la
+      mort en 875 H dans les *Shadharāt al-Dhahab*.
+    canonical_hijri: {year: 875, precision: year}
+    canonical_gregorian: {date: 1471-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Shadharāt al-Dhahab: died 875 AH at Algiers."
+      - source_key: ei2
+        notes: "EI2 art. 'al-T̲h̲aʿālibī, ʿAbd al-Raḥmān' adopts 875 AH."
+      - source_key: editorial
+        notes: "Maghrebi Mālikī biographical compendia (Aḥmad Bābā al-Tinbuktī's Nayl al-Ibtihāj) corroborate 875 AH at Algiers."
+    people: [[al-thaalibi-al-maliki, died]]
+    tags: [hafsid, zayyanid, scholar, mufassir, maliki, ashari, algiers, maghreb, jawahir-al-hisan]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Rahman_al-Tha%27alibi"
+
+  # =========================================================================
+  # 10th CENTURY AH — Ottoman court synthesis
+  # =========================================================================
+
+  - slug: death-of-abu-al-suud-al-imadi
+    category: scholar_death
+    title_en: Death of Abū al-Suʿūd al-ʿImādī — Ottoman Shaykh al-Islām, author of *Irshād al-ʿAql al-Salīm*
+    title_ar: وفاة أبي السعود العمادي — شيخ الإسلام العثماني، صاحب «إرشاد العقل السليم»
+    title_fr: Mort d'Abū al-Suʿūd al-ʿImādī — Shaykh al-Islām ottoman, auteur d'*Irshād al-ʿAql al-Salīm*
+    description_en: |
+      Abū al-Suʿūd Muḥammad ibn Muḥammad ibn Muṣṭafā al-ʿImādī —
+      Hanafi-Māturīdī Sunni jurist and mufassir, *Shaykh al-Islām* of
+      the Ottoman empire under sultans Süleymān I (r. 926–974 AH) and
+      Selīm II — died at Istanbul on 5 Jumādā I 982 AH (23 August
+      1574 CE), eight days after Süleymān's son Selīm. His *Irshād
+      al-ʿAql al-Salīm ilā Mazāyā al-Kitāb al-Karīm*, dedicated to
+      Süleymān, is the central Ottoman tafsir, modelled on al-Bayḍāwī
+      and al-Zamakhsharī's *Kashshāf* (with its Muʿtazilī content
+      reformulated in Sunni-Māturīdī terms) and synthesising rhetorical,
+      grammatical, and theological commentary in a polished court-
+      Arabic register; it became, alongside al-Bayḍāwī's *Anwār al-
+      Tanzīl*, the standard tafsir of the Ottoman madrasa system. As
+      Shaykh al-Islām he issued the legal opinions framing the imperial
+      *qānūn* of Süleymān and, in the Hanafi-Māturīdī polemic against
+      doctrinal innovations, set the terms of late-Ottoman religious
+      policy. The death-date 5 Jumādā I 982 AH at Istanbul is recorded
+      by Ibn al-ʿImād in *Shadharāt al-Dhahab* and by Ṭāshkubrīzāda's
+      continuator and is universally adopted in the Ottoman
+      biographical tradition.
+    description_ar: |
+      توفي أبو السعود محمد بن محمد بن مصطفى العِمادي — حنفي ماتريدي
+      السنة، فقيه ومفسّر، شيخ الإسلام في الدولة العثمانية في عهد
+      السلطان سليمان الأول (٩٢٦–٩٧٤ هـ) ومن بعده سليم الثاني — في
+      الآستانة يوم الخامس من جمادى الأولى سنة اثنتين وثمانين وتسع
+      مئة للهجرة (الموافق ٢٣ أغسطس ١٥٧٤م)، بعد وفاة السلطان سليم
+      ابن سليمان بثمانية أيام. وتفسيره «إرشاد العقل السليم إلى مزايا
+      الكتاب الكريم» المُهدى إلى السلطان سليمان عمدةُ التفاسير
+      العثمانية، نُسج على منوال «أنوار التنزيل» للبيضاوي و«الكشاف»
+      للزمخشري — مع تحرير ما فيه من اعتزال إلى مذهب أهل السنة
+      الماتريدية — جمع فيه الفنّ البلاغي واللغوي والكلامي بأسلوب
+      عربي رفيع، وصار مع «أنوار التنزيل» تفسير المدرسة العثمانية
+      الرسمي. ومن مقام شيخ الإسلام أفتى بالقوانين العثمانية في
+      عصر سليمان وصاغ الكلام السني الرسمي في مسائل البدع. وأثبت
+      وفاتَه في الخامس من جمادى الأولى ٩٨٢ بالآستانة ابنُ العماد
+      في «شذرات الذهب» وذيل طاش كبري زاده، وعليه التقليد العثماني.
+    description_fr: |
+      Abū al-Suʿūd Muḥammad ibn Muḥammad ibn Muṣṭafā al-ʿImādī —
+      sunnite ḥanafīte-māturīdīte, juriste et mufassir, *Shaykh
+      al-Islām* de l'Empire ottoman sous les sultans Soliman Iᵉʳ
+      (r. 926-974 H) et Selīm II — mourut à Istanbul le 5 Jumādā I
+      982 H (23 août 1574 EC), huit jours après le fils de Soliman,
+      Selīm. Son *Irshād al-ʿAql al-Salīm ilā Mazāyā al-Kitāb al-
+      Karīm*, dédié à Soliman, est le tafsīr central de l'époque
+      ottomane, calqué sur le *Anwār al-Tanzīl* d'al-Bayḍāwī et le
+      *Kashshāf* d'al-Zamakhsharī (le contenu muʿtazilīte de ce
+      dernier étant reformulé en termes sunnites-māturīdītes), et
+      synthétisant le commentaire rhétorique, grammatical et
+      théologique dans un arabe de cour soigné ; il devint, aux
+      côtés du *Anwār al-Tanzīl*, le tafsīr de référence du système
+      madrasal ottoman. En qualité de *Shaykh al-Islām*, il émit
+      les *fatāwā* qui encadrèrent le *qānūn* impérial soliman et
+      fixa les termes de la politique religieuse ottomane tardive.
+      La date du 5 Jumādā I 982 H à Istanbul est consignée par Ibn
+      al-ʿImād dans les *Shadharāt al-Dhahab* et par les continuateurs
+      de Ṭāshkubrīzāda, et universellement adoptée dans la
+      tradition biographique ottomane.
+    canonical_hijri: {year: 982, month: 5, day: 5, precision: day}
+    canonical_gregorian: {date: 1574-08-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Shadharāt al-Dhahab: died 5 Jumādā I 982 AH at Istanbul."
+      - source_key: ei2
+        notes: "EI2 art. 'Abu'l-Suʿūd' confirms 5 Jumādā I 982 AH / 23 August 1574."
+      - source_key: editorial
+        notes: "Ottoman biographical tradition (Ṭāshkubrīzāda's continuators, ʿAṭāʾī's Shaqāʾiq al-Nuʿmāniyya supplement) corroborate the day-precise date."
+    people: [[abu-al-suud-al-imadi, died], [suleyman-the-magnificent, subject]]
+    tags: [ottoman, scholar, mufassir, hanafi, maturidi, istanbul, shaykh-al-islam, irshad-al-aql-al-salim]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ebussuud_Efendi"
+
+  # =========================================================================
+  # 13th CENTURY AH — late-Ottoman Hanafi-Sufi synthesis
+  # =========================================================================
+
+  - slug: death-of-mahmud-al-alusi
+    category: scholar_death
+    title_en: Death of Maḥmūd al-Ālūsī — Baghdadi mufassir, author of *Rūḥ al-Maʿānī*
+    title_ar: وفاة محمود الآلوسي — مفسّر بغداد، صاحب «روح المعاني»
+    title_fr: Mort de Maḥmūd al-Ālūsī — mufassir baghdadien, auteur de *Rūḥ al-Maʿānī*
+    description_en: |
+      Shihāb al-Dīn Abū al-Thanāʾ Maḥmūd ibn ʿAbd Allāh al-Ālūsī al-
+      Ḥusaynī al-Baghdādī — Sunni Hanafi (with later Shāfiʿī
+      affiliation) and Sufi-leaning Naqshbandī mufassir of late-
+      Ottoman Baghdad, *muftī* of Baghdad under the Ottomans, and
+      principal author of one of the last great pre-modern Sunni
+      tafsirs — died at Baghdad on 25 Dhū al-Qaʿda 1270 AH (19 July
+      1854 CE). His *Rūḥ al-Maʿānī fī Tafsīr al-Qurʾān al-ʿAẓīm wa-
+      al-Sabʿ al-Mathānī*, composed over the closing decades of his
+      life, is a vast synthesis bringing together the linguistic-
+      rhetorical material of al-Zamakhsharī, the *aḥkām al-Qurʾān*
+      tradition, the kalāmic theology of the Ashʿarī-Māturīdī mainstream,
+      and Sufi *ishārāt* in the Naqshbandī register, with its own
+      apparatus of source-criticism for the *isrāʾīliyyāt*; it
+      became a standard scholarly tafsir of the late-Ottoman and
+      modern Sunni Arab world. He is the founder of the Ālūsī
+      family of Baghdadi scholars (his son Nuʿmān, grandson Maḥmūd
+      Shukrī al-Ālūsī, etc.). EI2 places the death day-precise on
+      25 Dhū al-Qaʿda 1270.
+    description_ar: |
+      توفي شهاب الدين أبو الثناء محمود بن عبد الله الآلوسي الحسيني
+      البغدادي — حنفي السنة في أصله (وانتهى إلى الشافعية)، نقشبندي
+      المنزع الصوفي، مفسّر بغداد في أواخر عهد العثمانيين، ومفتيها،
+      وصاحب آخر التفاسير الكبرى السنية قبل الحقبة الحديثة — ببغداد
+      في الخامس والعشرين من ذي القعدة سنة سبعين ومئتين وألف للهجرة
+      (الموافق ١٩ يوليو ١٨٥٤م). و«روح المعاني في تفسير القرآن العظيم
+      والسبع المثاني» الذي صنّفه في أواخر عمره جامعٌ بين علوم اللغة
+      والبلاغة على أصول الزمخشري، وأحكام القرآن، وعلم الكلام على
+      مذهب أهل السنة الأشاعرة الماتريدية، والإشارات الصوفية على ذوق
+      النقشبندية، مع جهاز نقدٍ للإسرائيليات؛ وصار من معتمدات تفاسير
+      أواخر العصر العثماني والعالم العربي السني الحديث. وهو رأسُ
+      آل الآلوسي البغداديين العلمية (ابنه نعمان، وحفيده محمود شكري
+      الآلوسي... إلخ). وثبَّت دائرة المعارف الإسلامية يوم وفاته في
+      الخامس والعشرين من ذي القعدة ١٢٧٠ هـ.
+    description_fr: |
+      Shihāb al-Dīn Abū al-Thanāʾ Maḥmūd ibn ʿAbd Allāh al-Ālūsī al-
+      Ḥusaynī al-Baghdādī — sunnite ḥanafīte (avec rattachement
+      ultérieur au shāfiʿīsme) et mufassir d'inclination soufie
+      naqshbandīe à Bagdad sous l'Empire ottoman finissant, *muftī*
+      de Bagdad pour les Ottomans et auteur de l'un des derniers
+      grands tafsīrs sunnites pré-modernes — mourut à Bagdad le
+      25 Dhū al-Qaʿda 1270 H (19 juillet 1854 EC). Son *Rūḥ al-
+      Maʿānī fī Tafsīr al-Qurʾān al-ʿAẓīm wa-al-Sabʿ al-Mathānī*,
+      composé durant les dernières décennies de sa vie, est une
+      vaste synthèse réunissant le matériel linguistique et
+      rhétorique d'al-Zamakhsharī, la tradition des *aḥkām al-Qurʾān*,
+      la théologie kalāmīque ashʿarīte-māturīdīte du courant
+      majoritaire et les *ishārāt* soufies de registre naqshbandī,
+      avec un appareil propre de critique des *isrāʾīliyyāt* ; il
+      devint un tafsīr savant de référence du monde arabe sunnite
+      ottoman finissant et moderne. Il est le fondateur de la
+      lignée savante des Ālūsī de Bagdad (son fils Nuʿmān, son
+      petit-fils Maḥmūd Shukrī al-Ālūsī, etc.). L'EI2 fixe le décès
+      au jour près au 25 Dhū al-Qaʿda 1270 H.
+    canonical_hijri: {year: 1270, month: 11, day: 25, precision: day}
+    canonical_gregorian: {date: 1854-07-19, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 art. 'al-Ālūsī, Maḥmūd b. ʿAbd Allāh': died 25 Dhū al-Qaʿda 1270 / 19 July 1854 at Baghdad."
+      - source_key: editorial
+        notes: "Confirmed by the Ālūsī-family biographical record (Nuʿmān al-Ālūsī's *Jalāʾ al-ʿAynayn* and the introduction to standard editions of *Rūḥ al-Maʿānī*)."
+    people: [[mahmud-al-alusi, died]]
+    tags: [ottoman, qajar, scholar, mufassir, hanafi, shafii, baghdad, naqshbandi, ruh-al-maani]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mahmud_al-Alusi"
+
+  # =========================================================================
+  # 14th CENTURY AH — modern Najdi salafi tafsir
+  # =========================================================================
+
+  - slug: death-of-abd-al-rahman-al-saadi
+    category: scholar_death
+    title_en: Death of ʿAbd al-Raḥmān al-Saʿdī — Najdi Hanbali mufassir of ʿUnayza, author of *Taysīr al-Karīm al-Raḥmān*
+    title_ar: وفاة عبد الرحمن السعدي — مفسّر عنيزة الحنبلي النجدي، صاحب «تيسير الكريم الرحمن»
+    title_fr: Mort de ʿAbd al-Raḥmān al-Saʿdī — mufassir ḥanbalīte najdī d'ʿUnayza, auteur du *Taysīr al-Karīm al-Raḥmān*
+    description_en: |
+      Abū ʿAbd Allāh ʿAbd al-Raḥmān ibn Nāṣir ibn ʿAbd Allāh al-Saʿdī
+      al-Tamīmī — Najdi Hanbali Sunni mufassir, jurist, and head of
+      the religious establishment of ʿUnayza in al-Qaṣīm — died at
+      ʿUnayza on 23 Jumādā II 1376 AH (24 January 1957 CE). His
+      *Taysīr al-Karīm al-Raḥmān fī Tafsīr Kalām al-Mannān*, often
+      called *Tafsīr al-Saʿdī* — a single-volume Hanbali-salafi
+      tafsir written in plain Arabic and aimed at the educated
+      non-specialist — became the most widely circulated modern
+      Sunni tafsir in the Arabian Peninsula and beyond, used as a
+      standard teaching text in Salafi educational milieus in the
+      late 20th and early 21st centuries; his *Manhaj al-Sālikīn*
+      (fiqh), *al-Qawāʿid al-Ḥisān fī Tafsīr al-Qurʾān*, and *Tawḍīḥ
+      al-Kāfiya al-Shāfiya* (verse commentary on Ibn Qayyim's
+      *Nūniyya*) entered the Hanbali curriculum across the same
+      region. He was the principal teacher of Muḥammad ibn Ṣāliḥ
+      al-ʿUthaymīn and ʿAbd Allāh ibn ʿAbd al-Raḥmān al-Bassām, two
+      of the leading 20th-century Hanbali jurists. The day-precise
+      date is recorded in the standard biographies and in the
+      introductions to printed editions of *Tafsīr al-Saʿdī*.
+    description_ar: |
+      توفي أبو عبد الله عبد الرحمن بن ناصر بن عبد الله السعدي
+      التميمي — حنبلي سني نجدي، مفسّر، فقيه، ورأس العلم بعنيزة في
+      منطقة القصيم — بعنيزة في الثالث والعشرين من جمادى الآخرة سنة
+      ست وسبعين وثلاث مئة وألف للهجرة (الموافق ٢٤ يناير ١٩٥٧م).
+      و«تيسير الكريم الرحمن في تفسير كلام المنّان» المعروف بـ«تفسير
+      السعدي» — تفسير حنبلي سلفي في مجلَّد، صاغه بعربية ميسّرة
+      موجَّهة إلى المثقّف غير المتخصِّص — صار أوسع التفاسير السنية
+      الحديثة انتشاراً في الجزيرة العربية وما حولها، واتُّخذ كتاباً
+      مدرسياً معتمداً في الأوساط التعليمية السلفية في أواخر القرن
+      العشرين ومطلع الحادي والعشرين؛ و«منهاج السالكين» في الفقه،
+      و«القواعد الحسان في تفسير القرآن»، و«توضيح الكافية الشافية»
+      شرحُه على «النونية» لابن القيم — كل ذلك صار في برامج التعليم
+      الحنبلي بالإقليم نفسه. وكان أبرز شيوخ محمد بن صالح العثيمين
+      وعبد الله بن عبد الرحمن البسّام، من كبار فقهاء الحنابلة في
+      القرن العشرين. وأثبت يومَ وفاته على وجه التحديد كتبُ
+      التراجم المعتمدة ومقدّمات طبعات «تفسير السعدي».
+    description_fr: |
+      Abū ʿAbd Allāh ʿAbd al-Raḥmān ibn Nāṣir ibn ʿAbd Allāh al-
+      Saʿdī al-Tamīmī — sunnite ḥanbalīte najdī, mufassir, juriste
+      et chef de l'établissement religieux de la ville d'ʿUnayza
+      au Qaṣīm — mourut à ʿUnayza le 23 Jumādā II 1376 H (24 janvier
+      1957 EC). Son *Taysīr al-Karīm al-Raḥmān fī Tafsīr Kalām al-
+      Mannān*, souvent appelé *Tafsīr al-Saʿdī* — tafsīr ḥanbalīte-
+      salafī en un seul volume, rédigé dans un arabe accessible
+      destiné à un lectorat cultivé non spécialiste — est devenu le
+      tafsīr sunnite moderne le plus largement diffusé dans la
+      péninsule Arabique et au-delà, utilisé comme texte d'enseig-
+      nement de référence dans les milieux éducatifs salafistes de
+      la fin du XXᵉ et du début du XXIᵉ siècle ; son *Manhaj al-
+      Sālikīn* (fiqh), ses *Qawāʿid al-Ḥisān fī Tafsīr al-Qurʾān*
+      et son *Tawḍīḥ al-Kāfiya al-Shāfiya* (commentaire de la
+      *Nūniyya* d'Ibn Qayyim) sont entrés dans le cursus ḥanbalīte
+      de la même région. Il fut le principal maître de Muḥammad
+      ibn Ṣāliḥ al-ʿUthaymīn et de ʿAbd Allāh ibn ʿAbd al-Raḥmān
+      al-Bassām, deux des plus grands juristes ḥanbalītes du XXᵉ
+      siècle. La date précise au jour près est consignée par les
+      biographies de référence et les introductions des éditions
+      imprimées du *Tafsīr al-Saʿdī*.
+    canonical_hijri: {year: 1376, month: 6, day: 23, precision: day}
+    canonical_gregorian: {date: 1957-01-24, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 / EI3 entry on al-Saʿdī: died 23 Jumādā II 1376 / 24 January 1957 at ʿUnayza."
+      - source_key: editorial
+        notes: "Confirmed by biographical introductions in standard editions of *Tafsīr al-Saʿdī* (Mu'assasat al-Risāla, Dār Ibn al-Jawzī) and by Ibn al-ʿUthaymīn's biographical notice of his teacher."
+    people: [[abd-al-rahman-al-saadi, died]]
+    tags: [saudi, scholar, mufassir, hanbali, salafi, najd, unayza, qasim, taysir-al-karim-al-rahman]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_ar-Rahman_ibn_Nasir_as-Sa%27di"

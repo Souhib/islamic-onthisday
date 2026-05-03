@@ -1,0 +1,15 @@
+# Pipeline-local artifacts. The repo root .gitignore covers most of this,
+# but a per-package file lets each subfolder be checked out / linted in
+# isolation.
+
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+.mypy_cache/
+data/output/*.db
+data/output/*.db-journal
+data/output/*.db-shm
+data/output/*.db-wal
+data/images/*
+!data/images/.gitkeep

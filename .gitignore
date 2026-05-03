@@ -1,0 +1,97 @@
+# =============================================================================
+# Python — backend & data-pipeline
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.venv/
+venv/
+.python-version
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+
+# =============================================================================
+# Node / web
+# =============================================================================
+node_modules/
+.vite/
+*.log
+.eslintcache
+
+# Build outputs
+web/dist/
+web/build/
+
+# =============================================================================
+# Generated artifacts — regenerable, not committed.
+# =============================================================================
+
+# Pipeline outputs (the SQLite + the syndication XMLs).
+# Run `make build` (or `cd data-pipeline && uv run python -m pipeline.build`)
+# to regenerate them after a fresh clone.
+data-pipeline/data/output/*.db
+data-pipeline/data/output/*.db-journal
+data-pipeline/data/output/*.db-shm
+data-pipeline/data/output/*.db-wal
+
+# Pipeline-generated syndication files (served as static assets by the FE).
+web/public/sitemap.xml
+web/public/robots.txt
+web/public/feed.xml
+
+# Image cache (downloaded from Wikimedia at build time).
+data-pipeline/data/images/*
+!data-pipeline/data/images/.gitkeep
+
+# =============================================================================
+# Env files — only `.env.example` and `.env.development` are committed.
+# Anything `.local` is single-machine config.
+# =============================================================================
+.env
+.env.local
+.env.*.local
+
+# =============================================================================
+# OS / editor noise
+# =============================================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+.cursor/
+.kiro/
+.opencode/
+.agents/
+.claude/
+
+# =============================================================================
+# Test artifacts (Playwright MCP, screenshots from local sessions, etc.)
+# =============================================================================
+.playwright-mcp/
+test-results/
+
+# Dev screenshots / scratch images at the repo root. Kept out of git so
+# the repo doesn't bloat with one-off snapshots; the canonical design
+# references live in `EDITORIAL.md` / `AUDIT.md` / Figma instead.
+/walk-*.png
+/final-*.png
+/layout-*.png
+
+# =============================================================================
+# Docker
+# =============================================================================
+.docker/
+*.pid

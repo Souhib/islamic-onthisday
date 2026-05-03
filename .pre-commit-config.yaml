@@ -1,0 +1,57 @@
+# Pre-commit hooks. Install with `pip install pre-commit && pre-commit install`
+# (or just run `uv run poe check` in each affected package — the hooks duplicate
+# what `poe check` does so contributors who skip pre-commit still get caught
+# by CI).
+
+repos:
+  # Trailing whitespace, EOF newline, broken JSON/YAML — cheap baseline
+  # that catches editor accidents.
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: ["--maxkb=512"]
+      - id: check-merge-conflict
+
+  # Backend (FastAPI) — ruff lint + format. The same config (line-length 120,
+  # PEP 604 unions, etc.) is shared with Majlisna and LaTabdhir.
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.7.4
+    hooks:
+      - id: ruff
+        name: ruff (backend)
+        files: ^backend/
+        args: ["--fix"]
+      - id: ruff-format
+        name: ruff-format (backend)
+        files: ^backend/
+
+      - id: ruff
+        name: ruff (data-pipeline)
+        files: ^data-pipeline/
+        args: ["--fix"]
+      - id: ruff-format
+        name: ruff-format (data-pipeline)
+        files: ^data-pipeline/
+
+  # Frontend — oxlint + oxfmt run via the package script so the same config
+  # the editor uses is the one the hook sees.
+  - repo: local
+    hooks:
+      - id: oxlint
+        name: oxlint (web)
+        language: system
+        files: ^web/src/.*\.(ts|tsx|js|jsx)$
+        entry: bash -c 'cd web && bun run lint'
+        pass_filenames: false
+
+      - id: oxfmt
+        name: oxfmt (web)
+        language: system
+        files: ^web/src/
+        entry: bash -c 'cd web && bun run format:check'
+        pass_filenames: false

@@ -1,0 +1,217 @@
+# Modern Sunni scholars (1700-present). Day-level dates are verified against
+# multiple biographical sources; some year-only entries are marked
+# accordingly.
+
+events:
+  - slug: death-of-shah-waliullah
+    category: scholar_death
+    title_en: Death of Shah Waliullah al-Dihlawi
+    title_ar: وفاة شاه ولي الله الدهلوي
+    description_en: |
+      The most influential Muslim scholar of the Indian subcontinent in
+      the post-Mughal period. Author of "Hujjat Allah al-Baligha" — a
+      systematic synthesis of Islamic legal philosophy and theology — and
+      the first Persian translation of the Qur'an in India. His writings
+      shaped every major Muslim reform movement in South Asia that
+      followed, from the Deobandi to the Barelvi tradition.
+    canonical_hijri: {year: 1176, month: 3, day: 29, precision: day}
+    canonical_gregorian: {date: 1762-08-20, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[shah-waliullah, died]]
+    tags: [modern, scholar, india, delhi]
+    importance: notable
+    verified: true
+
+  - slug: death-of-emir-abdelkader
+    category: scholar_death
+    title_en: Death of Emir 'Abd al-Qadir al-Jaza'iri
+    title_ar: وفاة الأمير عبد القادر الجزائري
+    description_en: |
+      The Algerian resistance leader who led a seventeen-year defence of
+      Algeria against French colonisation (1832-1847), then in exile
+      became a respected religious scholar and Sufi master of the Qadiri
+      tariqa. In 1860 he risked his life to shelter more than ten thousand
+      Christians in Damascus during sectarian riots — an act for which he
+      received honours from across Europe and America. He died in
+      Damascus and is buried near Ibn 'Arabi.
+    canonical_hijri: {year: 1300, month: 7, day: 19, precision: day}
+    canonical_gregorian: {date: 1883-05-26, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[emir-abdelkader, died]]
+    tags: [modern, scholar, sufi, algeria, damascus, resistance]
+    importance: notable
+    verified: true
+
+  - slug: death-of-muhammad-abduh
+    category: scholar_death
+    title_en: Death of Muhammad 'Abduh
+    title_ar: وفاة محمد عبده
+    description_en: |
+      Grand Mufti of Egypt (1899-1905) and one of the most influential
+      modern Muslim reformers. His "Risalat al-Tawhid" and unfinished
+      tafsir (completed by Rashid Rida as Tafsir al-Manar) aimed to
+      reconcile Islamic scholarship with the demands of modernity. He
+      reformed al-Azhar's curriculum and revived the practice of ijtihad.
+      Died in Alexandria.
+    canonical_hijri: {year: 1323, month: 5, day: 8, precision: day}
+    canonical_gregorian: {date: 1905-07-11, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[muhammad-abduh, died]]
+    tags: [modern, scholar, egypt, al-azhar, reform]
+    importance: notable
+    verified: true
+
+  - slug: abolition-of-caliphate
+    category: caliph_event
+    title_en: Abolition of the Caliphate
+    title_ar: إلغاء الخلافة الإسلامية
+    description_en: |
+      The Grand National Assembly of the newly established Turkish
+      Republic, under Mustafa Kemal, abolished the Ottoman caliphate and
+      exiled its last holder 'Abd al-Majid II. With this act, an office
+      that had existed continuously — in various forms and with varying
+      power — since 11 AH / 632 CE, 1,293 lunar years earlier, was
+      formally ended. The caliphate has never been reconstituted in any
+      universally recognised form since.
+    canonical_hijri: {year: 1342, month: 7, day: 27, precision: day}
+    canonical_gregorian: {date: 1924-03-03, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [modern, ottoman, caliphate-end, turkey]
+    importance: major
+    verified: true
+
+  - slug: death-of-muhammad-iqbal
+    category: scholar_death
+    title_en: Death of 'Allama Muhammad Iqbal
+    title_ar: وفاة العلامة محمد إقبال
+    description_en: |
+      Poet-philosopher, barrister, and the ideological inspiration of the
+      Pakistan movement. His Persian and Urdu poetry — "Asrar-i Khudi,"
+      "Bal-i Jibril," "Zarb-i Kalim" — and his prose "Reconstruction of
+      Religious Thought in Islam" (the Madras/Aligarh/Hyderabad lectures)
+      shaped a generation of Muslim intellectuals in South Asia and
+      beyond. Died in Lahore at 60.
+    canonical_hijri: {year: 1357, month: 2, day: 21, precision: day}
+    canonical_gregorian: {date: 1938-04-21, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[muhammad-iqbal, died]]
+    tags: [modern, scholar, poet, india, pakistan, philosophy]
+    importance: notable
+    verified: true
+
+  - slug: assassination-of-hassan-al-banna
+    category: scholar_death
+    title_en: Assassination of Hassan al-Banna
+    title_ar: اغتيال حسن البنا
+    description_en: |
+      The founder of the Muslim Brotherhood (al-Ikhwan al-Muslimun,
+      founded 1928 in Isma'iliyya), assassinated in Cairo at age 42. His
+      writings — the collected "Majmu'at al-Rasa'il" — proposed a
+      comprehensive programme of Islamic revival, education, social work,
+      and political engagement. His movement has been among the most
+      consequential Muslim organisations of the twentieth century, though
+      its direction and evaluations vary widely across the Sunni world.
+    canonical_hijri: {year: 1368, month: 4, day: 14, precision: day}
+    canonical_gregorian: {date: 1949-02-12, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[hassan-al-banna, died]]
+    tags: [modern, scholar, egypt, muslim-brotherhood, assassination]
+    importance: notable
+    verified: true
+
+  - slug: death-of-bin-baz
+    category: scholar_death
+    title_en: Death of Shaykh 'Abd al-'Aziz Ibn Baz
+    title_ar: وفاة الشيخ ابن باز
+    description_en: |
+      Grand Mufti of Saudi Arabia (1993-1999) and one of the most widely
+      followed Salafi scholars of the late twentieth century. Blind from
+      youth but gifted with a prodigious memory, he issued tens of
+      thousands of written and recorded fatwas collected in more than
+      thirty volumes. Died in Ta'if at age 89.
+    canonical_hijri: {year: 1420, month: 1, day: 27, precision: day}
+    canonical_gregorian: {date: 1999-05-13, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[bin-baz, died]]
+    tags: [modern, scholar, saudi, salafi, mufti]
+    importance: notable
+    verified: true
+
+  - slug: death-of-al-albani
+    category: scholar_death
+    title_en: Death of Muhammad Nasir al-Din al-Albani
+    title_ar: وفاة الشيخ الألباني
+    description_en: |
+      Albanian-born hadith scholar of the late twentieth century, whose
+      voluminous works on hadith authentication — including the "Silsilat
+      al-Ahadith al-Sahiha," "al-Da'ifa," and his critical editions of
+      the Sunan collections — reshaped the modern Salafi approach to
+      hadith criticism. A watchmaker by trade who never held formal
+      academic position yet was granted honorary membership at the
+      Islamic University of Madinah. Died in Amman at 85.
+    canonical_hijri: {year: 1420, month: 6, day: 22, precision: day}
+    canonical_gregorian: {date: 1999-10-02, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[al-albani, died]]
+    tags: [modern, scholar, salafi, muhaddith, amman, albania]
+    importance: notable
+    verified: true
+
+  - slug: death-of-al-uthaymeen
+    category: scholar_death
+    title_en: Death of Shaykh Muhammad ibn Salih al-'Uthaymeen
+    title_ar: وفاة الشيخ محمد بن صالح العثيمين
+    description_en: |
+      One of the most influential Saudi scholars of the late twentieth
+      century, known for his teaching at the Grand Mosque of 'Unayza for
+      four decades and for his "Sharh al-Mumti'" — a multi-volume
+      commentary on the Hanbali manual "Zad al-Mustaqni'." His radio and
+      television fatwa sessions reached millions across the Arabic-
+      speaking world. Died in Jeddah at 76.
+    canonical_hijri: {year: 1421, month: 10, day: 15, precision: day}
+    canonical_gregorian: {date: 2001-01-10, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[al-uthaymeen, died]]
+    tags: [modern, scholar, saudi, hanbali]
+    importance: notable
+    verified: true
+
+  - slug: death-of-al-qaradawi
+    category: scholar_death
+    title_en: Death of Shaykh Yusuf al-Qaradawi
+    title_ar: وفاة الشيخ يوسف القرضاوي
+    description_en: |
+      Egyptian-Qatari scholar of fiqh whose books — including "al-Halal
+      wa'l-Haram fi al-Islam" and "Fiqh al-Zakat" — became standard
+      references across the Arab and Muslim world. A graduate of
+      al-Azhar, he chaired the International Union of Muslim Scholars and
+      was among the most widely consulted modern fatwa voices. His
+      positions attracted both broad following and sharp disagreement;
+      his legacy remains contested. Died in Doha at 96.
+    canonical_hijri: {year: 1444, month: 2, day: 30, precision: day}
+    canonical_gregorian: {date: 2022-09-26, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    people: [[al-qaradawi, died]]
+    tags: [modern, scholar, egypt, qatar, al-azhar]
+    importance: notable
+    verified: true

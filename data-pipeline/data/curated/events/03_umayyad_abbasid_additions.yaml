@@ -1,0 +1,376 @@
+# Additional Umayyad and Abbasid era events.
+
+events:
+  - slug: dome-of-the-rock-completed
+    category: founding
+    title_en: Completion of the Dome of the Rock
+    title_ar: إتمام بناء قبة الصخرة
+    title_fr: Achèvement du Dôme du Rocher
+    description_en: |
+      Caliph Abd al-Malik ibn Marwan completed the Dome of the Rock (Qubbat
+      al-Sakhra) on the Noble Sanctuary (al-Haram al-Sharif) in Jerusalem.
+      Built over the Rock (al-Sakhra) from which the Prophet ﷺ ascended on
+      al-Mi'raj, it is the oldest extant Islamic monument and the earliest
+      surviving masterpiece of Muslim architecture. Its inscriptions contain
+      the oldest dated Qur'anic verses in existence. It is not a mosque but
+      a shrine — the nearby al-Aqsa Mosque is the congregational mosque of
+      the sanctuary.
+    description_ar: |
+      أتم الخليفة الأموي عبد الملك بن مروان بناء قبة الصخرة (قبة الصخرة المشرفة)
+      في الحرم القدسي الشريف بالقدس. شُيّدت فوق الصخرة التي عرج منها النبي ﷺ
+      ليلة الإسراء والمعراج، وهي أقدم أثر إسلامي قائم وأول تحفة معمارية إسلامية
+      باقية. تحوي نقوشها أقدم النصوص القرآنية المؤرخة الباقية إلى يومنا.
+      وقبة الصخرة ليست مسجداً جامعاً بل مزاراً؛ أما الجامع الأقصى المجاور لها
+      فهو المسجد الجامع للحرم الشريف.
+    description_fr: |
+      Le calife omeyyade ʿAbd al-Malik ibn Marwān acheva la construction du
+      Dôme du Rocher (Qubbat al-Ṣakhra) sur l'esplanade du Noble Sanctuaire
+      (al-Ḥaram al-Šarīf) à Jérusalem. Édifié au-dessus du Rocher (al-Ṣakhra)
+      d'où le Prophète Muhammad ﷺ s'éleva lors de l'Ascension nocturne
+      (al-Miʿrāj), il constitue le plus ancien monument islamique conservé
+      et le premier chef-d'œuvre subsistant de l'architecture musulmane. Ses
+      inscriptions renferment les plus anciens versets coraniques datés que
+      l'on connaisse. Il ne s'agit pas d'une mosquée mais d'un sanctuaire :
+      la mosquée al-Aqṣā voisine demeure la mosquée congrégationnelle de
+      l'esplanade.
+    canonical_hijri: {year: 72, precision: year}
+    canonical_gregorian: {date: 691-06-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+    source_url: https://en.wikipedia.org/wiki/Dome_of_the_Rock
+    people: [[abd-al-malik-ibn-marwan, leader]]
+    tags: [umayyad, jerusalem, al-aqsa, architecture, dome-of-the-rock]
+    verified: true
+
+  - slug: umayyad-mosque-damascus
+    category: founding
+    title_en: Construction of the Umayyad Mosque of Damascus Begins
+    title_ar: الشروع في بناء الجامع الأموي بدمشق
+    title_fr: Début de la construction de la Grande Mosquée des Omeyyades à Damas
+    description_en: |
+      Caliph al-Walid I ordered the construction of the Umayyad Mosque in
+      the centre of Damascus, on a site previously occupied by a Roman
+      temple of Jupiter and then the Christian basilica of John the Baptist.
+      Completed under the supervision of his successor Sulayman around
+      714-715 CE, it became one of the largest and most important mosques
+      of the medieval world — famed for its mosaic landscapes, its three
+      minarets (including the Minaret of Isa, where tradition holds 'Isa
+      ibn Maryam ﷺ will descend at the end of times), and the shrine
+      reputed to contain the head of Yahya ibn Zakariya ﷺ within its
+      prayer hall. Salah al-Din al-Ayyubi is buried immediately beside it.
+    description_ar: |
+      أمر الخليفة الأموي الوليد بن عبد الملك ببناء الجامع الأموي في وسط دمشق،
+      على موقع كان فيه سابقاً معبد روماني للمشتري ثم كنيسة بيزنطية ليوحنا
+      المعمدان. وقد اكتمل البناء في خلافة أخيه سليمان نحو سنة 96 هـ، فغدا
+      من أعظم مساجد العالم الإسلامي في العصور الوسطى وأشهرها؛ يمتاز
+      بفسيفسائه التي تصور المناظر الطبيعية، وبمآذنه الثلاث (ومنها مئذنة
+      عيسى التي يُروى أن المسيح ﷺ ينزل عندها في آخر الزمان)، وبمشهد
+      رأس يحيى بن زكريا ﷺ داخل بيت الصلاة. وقد دُفن صلاح الدين الأيوبي
+      بالقرب منه.
+    description_fr: |
+      Le calife omeyyade al-Walīd Ier ordonna l'édification de la Grande
+      Mosquée des Omeyyades au centre de Damas, sur un site qu'avait
+      occupé jadis un temple romain de Jupiter, puis la basilique
+      chrétienne dédiée à Jean le Baptiste. Achevée sous son successeur
+      Sulaymān vers 714-715, elle devint l'une des mosquées les plus
+      vastes et les plus importantes du monde médiéval — célèbre pour
+      ses mosaïques figuratives, ses trois minarets (dont le minaret de
+      Jésus, où la tradition rapporte que ʿĪsā ibn Maryam ﷺ descendra à
+      la fin des temps) et le sanctuaire abritant la tête de Yahya ibn
+      Zakariya ﷺ à l'intérieur de la salle de prière. Le tombeau de
+      Salāḥ al-Dīn al-Ayyūbī la jouxte immédiatement.
+    canonical_hijri: {year: 88, precision: year}
+    canonical_gregorian: {date: 706-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+    source_url: https://en.wikipedia.org/wiki/Umayyad_Mosque
+    tags: [umayyad, damascus, mosque, architecture]
+    verified: true
+
+  - slug: muhammad-ibn-qasim-sindh
+    category: conquest
+    title_en: Muhammad ibn Qasim's Conquest of Sindh
+    title_ar: فتح السند على يد محمد بن القاسم الثقفي
+    title_fr: Conquête du Sind par Muhammad ibn al-Qāsim
+    description_en: |
+      The seventeen-year-old Muhammad ibn al-Qasim al-Thaqafi, nephew of
+      the Umayyad governor al-Hajjaj ibn Yusuf, led the Muslim army that
+      conquered Sindh and southern Punjab. The campaign followed the
+      capture by pirates near Debal of Muslim women and children returning
+      from Sri Lanka — an act that al-Hajjaj considered a casus belli. The
+      decisive Battle of Aror in 712 CE saw the death of Raja Dahir and
+      secured Arab control of Sindh, ultimately reaching as far as Multan.
+      The conquest brought Islam to the Indian subcontinent and established
+      the Arab emirates of Sindh that lasted until the Ghaznavid period
+      three centuries later.
+    description_ar: |
+      قاد محمد بن القاسم الثقفي، ابن أخت الوالي الأموي الحجاج بن يوسف،
+      وعمره سبعة عشر عاماً، الجيش الإسلامي الذي فتح السند وجنوب البنجاب.
+      وكان مما عجّل بهذه الحملة استيلاء القراصنة قرب الديبل على نساء
+      وأطفال مسلمين عائدين من سرنديب (سريلانكا)، فعدّها الحجاج موجبة
+      لإعلان الحرب. وكانت معركة الراور سنة 93 هـ فاصلة، إذ قُتل فيها
+      راجا داهر ودانت السند للمسلمين، حتى بلغوا مدينة الملتان. وقد فتح
+      هذا الفتح أبواب شبه القارة الهندية للإسلام، وأسس إمارات العرب في
+      السند التي بقيت قائمة حتى دخول الغزنويين بعد ثلاثة قرون.
+    description_fr: |
+      Muhammad ibn al-Qāsim al-Thaqafī, neveu du gouverneur omeyyade
+      al-Ḥajjāj ibn Yūsuf, conduisit à dix-sept ans l'armée musulmane qui
+      conquit le Sind et le sud du Penjab. La campagne fut déclenchée par
+      la capture, près de Debal, de femmes et d'enfants musulmans qui
+      revenaient de Ceylan, capture qu'al-Ḥajjāj tint pour un casus belli.
+      La bataille décisive d'Aror en 712 vit la mort du râja Dahir et
+      assura la mainmise arabe sur le Sind, jusqu'à Multan. Cette conquête
+      ouvrit le sous-continent indien à l'islam et donna naissance aux
+      émirats arabes du Sind, qui se maintinrent jusqu'à l'avènement des
+      Ghaznévides trois siècles plus tard.
+    canonical_hijri: {year: 93, precision: year}
+    canonical_gregorian: {date: 712-06-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+    source_url: https://en.wikipedia.org/wiki/Muhammad_ibn_al-Qasim
+    tags: [umayyad, conquest, sindh, india, muhammad-ibn-qasim]
+    verified: true
+
+  - slug: second-siege-of-constantinople-717
+    category: battle
+    title_en: Second Arab Siege of Constantinople
+    title_ar: حصار القسطنطينية الثاني
+    title_fr: Second siège arabe de Constantinople
+    description_en: |
+      Caliph Sulayman ibn Abd al-Malik sent his brother Maslama ibn Abd
+      al-Malik with a large army and fleet to besiege Constantinople by
+      land and sea. The siege lasted from the summer of 717 (the Byzantine
+      chronicler Theophanes records 15 August, while Patriarch Nikephoros
+      implies 15 July) to 15 August 718. Despite initial Muslim advances,
+      the Byzantine emperor Leo III the Isaurian used Greek fire to
+      devastate the Muslim fleet, and a severe winter, famine, and Bulgar
+      attacks on the Muslim camp forced a withdrawal with heavy losses.
+      It was the last serious Umayyad attempt to take the city; the
+      fulfilment of the Prophet's ﷺ hadith on the conquest of
+      Constantinople would wait 735 years until Sultan Mehmed II.
+    description_ar: |
+      أرسل الخليفة الأموي سليمان بن عبد الملك أخاه مسلمة بن عبد الملك على
+      رأس جيش وأسطول كبيرين لحصار القسطنطينية براً وبحراً. وامتد الحصار
+      من صيف عام 717م (يذكر المؤرخ البيزنطي ثيوفانس يوم 15 آب/أغسطس،
+      بينما يُشير البطريرك نيكيفوروس إلى 15 تموز/يوليو) إلى 15 آب 718م.
+      وعلى الرغم من التقدم الأول للمسلمين، استخدم الإمبراطور البيزنطي
+      ليون الثالث الإيسوري النار الإغريقية فأهلكت الأسطول الإسلامي،
+      كما أرغمت قسوة الشتاء والمجاعة وهجمات البلغار على معسكر المسلمين
+      على الانسحاب بخسائر فادحة. وكانت هذه آخر محاولة جدية للأمويين
+      لفتح المدينة؛ ولم يتحقق وعد النبي ﷺ بفتح القسطنطينية إلا بعد
+      خمسة وثلاثين وسبعمئة عام، على يد السلطان محمد الثاني الفاتح.
+    description_fr: |
+      Le calife omeyyade Sulaymān ibn ʿAbd al-Malik envoya son frère
+      Maslama ibn ʿAbd al-Malik à la tête d'une armée et d'une flotte
+      considérables pour assiéger Constantinople par terre et par mer. Le
+      siège dura de l'été 717 (le chroniqueur byzantin Théophane mentionne
+      le 15 août, tandis que le patriarche Nicéphore fait remonter le
+      blocus au 15 juillet) au 15 août 718. Malgré des succès initiaux,
+      l'empereur byzantin Léon III l'Isaurien fit usage du feu grégeois,
+      qui anéantit la flotte musulmane ; un hiver d'une rigueur extrême,
+      la famine et les attaques des Bulgares contre le camp musulman
+      contraignirent les assiégeants à se retirer en subissant de lourdes
+      pertes. Ce fut la dernière tentative sérieuse des Omeyyades pour
+      prendre la ville ; l'accomplissement du hadith du Prophète ﷺ
+      annonçant la conquête de Constantinople attendrait sept cent
+      trente-cinq ans, jusqu'au sultan Mehmed II.
+    canonical_hijri: {year: 98, precision: year}
+    canonical_gregorian: {date: 717-08-15, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "Siege began ~15 Jul or 15 Aug 717 (sources differ) = late Dhu al-Qa'da 98 AH; ended 15 Aug 718 = late 99 AH. Spans 98-100 AH."
+    source_url: https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)
+    tags: [umayyad, battle, constantinople, byzantine, maslama]
+    verified: true
+
+  - slug: mihna-begins
+    category: abbasid
+    title_en: The Mihna (Inquisition) Begins under al-Ma'mun
+    title_ar: بداية محنة خلق القرآن
+    description_en: |
+      Caliph al-Ma'mun, adopting the Mu'tazilite doctrine that the Qur'an
+      was created rather than uncreated, instituted a formal inquisition
+      (mihna) requiring judges, scholars, and officials to affirm this view.
+      Most jurists complied to preserve their lives and positions. Imam
+      Ahmad ibn Hanbal famously refused and was imprisoned and flogged
+      under three caliphs. The mihna ended when Caliph al-Mutawakkil
+      reversed the policy in 234 AH (848 CE) and restored the traditionalist
+      position. Imam Ahmad's endurance made him the emblem of principled
+      resistance for later Sunni tradition.
+    canonical_hijri: {year: 218, precision: year}
+    canonical_gregorian: {date: 833-05-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    people: [[al-mamun, leader], [ahmad-ibn-hanbal, opposed]]
+    tags: [abbasid, theology, mihna, mutazila, ahmad]
+    verified: true
+
+  - slug: death-of-hasan-al-basri
+    category: scholar_death
+    title_en: Death of al-Hasan al-Basri
+    title_ar: وفاة الحسن البصري
+    description_en: |
+      One of the great Tabi'un and the foremost ascetic, exegete, and
+      preacher of the early Muslim community. A slave-born son who met 70
+      Companions of the Prophet ﷺ including Anas ibn Malik and Uthman, he
+      became the teacher of a generation of scholars in Basra. His sermons
+      and letters — including his famous letter to Caliph Abd al-Malik on
+      the question of free will — laid foundations for later Sunni kalam,
+      tasawwuf, and usul al-fiqh. Almost every early Sunni transmission
+      chain in Basra passes through him.
+    canonical_hijri: {year: 110, precision: year}
+    canonical_gregorian: {date: 728-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Day flagged: Ibn Sa'd's Tabaqat 7/177 reports Friday 1 Rajab 110 AH; earlier draft had 5 Muharram 110. Year-only used until classical reconciliation."
+      - source_key: ibn_sad_tabaqat
+    tags: [umayyad, tabiun, scholar, basra, zuhd]
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abu-yusuf
+    category: scholar_death
+    title_en: Death of Abu Yusuf — First Chief Judge of the Abbasid State
+    title_ar: وفاة أبي يوسف
+    description_en: |
+      Ya'qub ibn Ibrahim al-Ansari — known as Abu Yusuf — was the most
+      prominent student of Abu Hanifa and the first to systematise the
+      Hanafi madhhab in books. Appointed Qadi al-Qudat (Chief Judge) under
+      Harun al-Rashid, he held the position for decades and authored
+      "Kitab al-Kharaj" — the first surviving Islamic treatise on taxation
+      and public finance. Through his writings and his judicial
+      appointments, the Hanafi madhhab became the official school of the
+      Abbasid state.
+    canonical_hijri: {year: 182, precision: year}
+    canonical_gregorian: {date: 798-06-15, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    tags: [abbasid, scholar, hanafi, judge, kharaj]
+    verified: true
+
+  - slug: death-of-ibn-sina
+    category: scholar_death
+    title_en: Death of Ibn Sina (Avicenna)
+    title_ar: وفاة ابن سينا
+    description_en: |
+      Abu Ali al-Husayn ibn Abdullah ibn Sina — Avicenna to the Latin West —
+      was a physician, philosopher, astronomer, and polymath whose "al-Qanun
+      fi al-Tibb" (The Canon of Medicine) remained the standard medical
+      textbook in Europe until the seventeenth century. His "al-Shifa'" is
+      one of the great philosophical encyclopedias of the medieval world.
+      He died at Hamadan in Iran at approximately 57 years of age.
+    canonical_hijri: {year: 428, precision: year}
+    canonical_gregorian: {date: 1037-06-21, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+    tags: [abbasid, scientist, medicine, philosophy, hamadan]
+    verified: true
+
+  - slug: death-of-al-biruni
+    category: scholar_death
+    title_en: Death of al-Biruni
+    title_ar: وفاة البيروني
+    description_en: |
+      Abu al-Rayhan Muhammad ibn Ahmad al-Biruni — historian, astronomer,
+      geographer, and anthropologist — produced foundational works on
+      comparative religion ("Tahqiq ma li'l-Hind"), on pharmacology, on
+      astronomy ("al-Qanun al-Mas'udi"), on mineralogy, and on chronology.
+      He calculated the Earth's radius to within 1% of the modern value
+      using spherical trigonometry. He wrote in Arabic, Persian, Sanskrit,
+      Syriac, and Greek. Died in Ghazni at approximately 75 years.
+    canonical_hijri: {year: 440, precision: year}
+    canonical_gregorian: {date: 1048-12-09, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "2 Rajab 440 AH = 9 Dec 1048 CE per tabular conversion. Earlier draft erroneously cited 13 Dec."
+    tags: [abbasid, scientist, astronomy, geography, ghazni]
+    verified: true
+
+  - slug: death-of-ibn-al-haytham
+    category: scholar_death
+    title_en: Death of Ibn al-Haytham (Alhazen)
+    title_ar: وفاة ابن الهيثم
+    description_en: |
+      Abu Ali al-Hasan ibn al-Haytham, the founder of the modern scientific
+      method and the author of "Kitab al-Manazir" (Book of Optics) which
+      revolutionised understanding of vision, light, and perception. His
+      insistence on controlled experiment and verification as the basis of
+      knowledge about the natural world anticipated Galilean and Newtonian
+      method by six centuries. Died in Cairo at approximately 75 years.
+    canonical_hijri: {year: 430, precision: year}
+    canonical_gregorian: {date: 1040-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+    tags: [abbasid-fatimid, scientist, optics, cairo, scientific-method]
+    verified: true
+
+  - slug: death-of-al-kindi
+    category: scholar_death
+    title_en: Death of al-Kindi — The Philosopher of the Arabs
+    title_ar: وفاة الكندي
+    description_en: |
+      Abu Yusuf Ya'qub ibn Ishaq al-Kindi, the first systematic Arab
+      philosopher and polymath of Baghdad's House of Wisdom under al-Ma'mun
+      and al-Mu'tasim. He authored over 260 treatises on philosophy,
+      mathematics, astronomy, music, cryptography (including the earliest
+      known work on frequency analysis for codebreaking), and optics. His
+      work was a major channel by which Greek philosophy was transmitted
+      to the medieval Islamic and European worlds.
+    canonical_hijri: {year: 256, precision: year}
+    canonical_gregorian: {date: 873-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+    tags: [abbasid, scientist, philosopher, baghdad, bayt-al-hikma]
+    verified: true
+
+  - slug: death-of-al-khwarizmi
+    category: scholar_death
+    title_en: Death of al-Khwarizmi — Father of Algebra
+    title_ar: وفاة الخوارزمي
+    description_en: |
+      Abu Abdullah Muhammad ibn Musa al-Khwarizmi, astronomer, geographer,
+      and mathematician at the House of Wisdom in Baghdad. His "Kitab
+      al-Jabr wa'l-Muqabala" gave its name to algebra, and his Latinised
+      name gave "algorithm." He introduced Hindu-Arabic numerals to the
+      Islamic world, from where they passed through al-Andalus to Europe.
+      Without his transmission of the positional decimal system and the
+      algebraic method, modern mathematics as practised is inconceivable.
+    canonical_hijri: {year: 236, precision: year}
+    canonical_gregorian: {date: 850-06-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+    tags: [abbasid, scientist, mathematics, algebra, algorithm, baghdad]
+    verified: true
+
+  - slug: death-of-al-farabi
+    category: scholar_death
+    title_en: Death of al-Farabi — The Second Teacher
+    title_ar: وفاة الفارابي
+    description_en: |
+      Abu Nasr Muhammad al-Farabi, philosopher, musical theorist, and
+      political thinker, called "the Second Teacher" (after Aristotle) by
+      later medieval scholars. His "Kitab Ara' Ahl al-Madina al-Fadila"
+      (The Virtuous City) is the foundational work of Islamic political
+      philosophy, synthesising Platonic and Aristotelian ideas within an
+      Islamic framework. He died in Damascus.
+    canonical_hijri: {year: 339, precision: year}
+    canonical_gregorian: {date: 950-12-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+    tags: [abbasid, philosopher, damascus, political-philosophy]
+    verified: true

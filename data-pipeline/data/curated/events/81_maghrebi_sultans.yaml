@@ -1,0 +1,1164 @@
+# Wave 81 of curated event additions (2026-04-27).
+# 13 events covering the four post-Almohad Sunni dynasties of the
+# Maghrib: the Ḥafṣids of Tunis (Ifrīqiya), the Zayyānids
+# (ʿAbd al-Wādīds) of Tlemcen, the Marīnids and Wattāsids of Fez,
+# and the two Sharifian dynasties of Morocco — the Saʿdians and
+# the still-reigning ʿAlawīs.
+#
+# Already in the dataset and NOT duplicated here:
+#  - founding-of-marinid-dynasty (592 AH)             — events/55
+#  - battle-of-tondibi-conquest-of-timbuktu (999 AH)  — events/37
+#  - completion-of-saadi-gulistan, death-of-saadi-shirazi — Persian Saʿdī, unrelated
+#
+# Sources used (all in sources.yaml):
+#   ibn_kathir_bidaya, dhahabi_tarikh_islam, ibn_imad_shadharat,
+#   ibn_khallikan_wafayat, ei2, editorial.
+# For figures beyond Shadharāt al-Dhahab (which closes ~1000 AH) —
+# the Saʿdians and ʿAlawīs — we rely on EI² and editorial compilation
+# from standard Maghrebi chronicles (Ibn Abī Zarʿ's Rawḍ al-Qirṭās,
+# Ibn al-Qāḍī's Durrat al-Ḥijāl, al-Ifrānī's Nuzhat al-Ḥādī,
+# al-Nāṣirī's al-Istiqṣāʾ).
+#
+# Sectarian framing:
+#   - Ḥafṣids, Zayyānids, Marīnids, Wattāsids: Sunni Mālikī Berber
+#     dynasties. The Ḥafṣids were the most direct Almohad-successor
+#     polity, the Marīnids the Maghrib al-Aqṣā successor.
+#   - Saʿdians: claimed Ḥasanī Sharifian descent (Banū Saʿd from
+#     Tagmadart in the Wādī Drʿa); the claim was contested by some
+#     classical scholars but accepted by the dynasty's own ʿulamāʾ.
+#     We record the dynasty as it presented itself but follow the
+#     conservative editorial line that the sharifian claim is
+#     contested — `is_ahl_al_bayt: false` for Saʿdian sultans.
+#   - ʿAlawīs (still reigning Moroccan dynasty): widely accepted as
+#     Ḥasanī Sharifs; we set `is_ahl_al_bayt: true` for Mawlāy al-
+#     Sharīf and Mawlāy Ismāʿīl, with image policy hard-block.
+#
+# Calendars: where a precise Gregorian/Julian date is attested in the
+# Maghrebi chronicles or in Portuguese chronicles (Wādī al-Makhāzin,
+# 4 August 1578), we use `method: attested`. Otherwise we tabular-
+# convert from the Hijri.
+
+events:
+  # =========================================================================
+  # ḤAFṢIDS OF TUNIS — successors of the Almohads in Ifrīqiya
+  # =========================================================================
+
+  - slug: founding-of-hafsid-dynasty
+    category: dynastic_founding
+    title_en: Founding of the Ḥafṣid Dynasty by Abū Zakariyyāʾ Yaḥyā at Tunis
+    title_ar: قيام دولة الحفصيين على يد أبي زكرياء يحيى بتونس
+    title_fr: Fondation de la dynastie ḥafṣide par Abū Zakariyyāʾ Yaḥyā à Tunis
+    description_en: |
+      Abū Zakariyyāʾ Yaḥyā ibn ʿAbd al-Wāḥid al-Ḥafṣī, Almohad
+      governor of Ifrīqiya and great-grandson of Abū Ḥafṣ ʿUmar al-
+      Hintātī (a senior companion of Ibn Tūmart and one of the
+      original Council of Ten), broke with the Almohad caliph Abū
+      al-ʿAlāʾ Idrīs al-Maʾmūn at Tunis in 625 AH (1228 CE) and
+      assumed independent rule. The break came after al-Maʾmūn at
+      Marrakesh repudiated the Almohad doctrine of Ibn Tūmart's
+      Mahdism and stripped him of the *imām al-maʿṣūm* status; Abū
+      Zakariyyāʾ refused to recognise the new caliph, dropped his
+      name from the *khuṭba*, and made the Ḥafṣid line at Tunis
+      the legitimate successors of the Almohad polity in the
+      Maghrib al-Adnā. He did not at first claim the caliphal title
+      himself — that step was taken by his son al-Mustanṣir in 650
+      AH after the fall of Baghdad — but he founded the
+      independent Ḥafṣid emirate, took Tlemcen and Sijilmāsa under
+      his suzerainty for a decade, and made Tunis the foremost
+      Sunni Mālikī capital of the central-western Maghrib for the
+      next three centuries. The dynasty endured until the Ottoman
+      conquest of Tunis in 982 AH (1574 CE). Ibn Khaldūn's *Kitāb
+      al-ʿIbar* gives the canonical account; Ibn Khallikān has a
+      biographical entry on Abū Zakariyyāʾ that confirms 625 AH
+      for the break with Marrakesh.
+    description_ar: |
+      انفصل أبو زكرياء يحيى بن عبد الواحد الحفصي — والي الموحدين
+      على إفريقية وحفيد أبي حفص عمر الهنتاتي، أحد أصحاب ابن
+      تومرت الكبار وأحد العشرة في مجلس الموحدين الأول — عن
+      الخليفة الموحدي أبي العلاء إدريس المأمون بتونس سنة ٦٢٥ هـ
+      (١٢٢٨ م)، وأعلن الاستقلال. وكان السبب أن المأمونَ بمراكش
+      تبرَّأ من عقيدة ابن تومرت في المهدية ونزع عنه صفة الإمامة
+      المعصومة، فأبى أبو زكرياء الاعتراف بالخليفة الجديد، وأسقط
+      اسمَه من الخطبة، وجعل البيتَ الحفصي بتونس وريثَ الدولة
+      الموحدية في المغرب الأدنى. لم يتسمَّ في أول أمره بالخلافة —
+      إنما فعل ذلك ابنُه المستنصر سنة ٦٥٠ هـ بعد سقوط بغداد —
+      لكنَّه أسَّس الإمارةَ الحفصية، وبسط نفوذَه إلى تلمسان
+      وسجلماسة عقداً من الزمن، وجعل تونسَ أعظم حواضر السنة
+      المالكية في الغرب الإسلامي الأوسط ثلاثة قرون لاحقة. وامتدَّت
+      الدولةُ إلى الفتح العثماني لتونس سنة ٩٨٢ هـ (١٥٧٤ م).
+      ويُعطي ابن خلدون في «كتاب العبر» الروايةَ المعتمدة، ويقيِّد
+      ابن خلكان في ترجمة أبي زكرياء سنةَ ٦٢٥ هـ تاريخاً للانفصال
+      عن مراكش.
+    description_fr: |
+      Abū Zakariyyāʾ Yaḥyā ibn ʿAbd al-Wāḥid al-Ḥafṣī, gouverneur
+      almohade d'Ifrīqiya et arrière-petit-fils d'Abū Ḥafṣ ʿUmar
+      al-Hintātī (compagnon majeur d'Ibn Tūmart et membre du
+      Conseil des Dix originel), rompit avec le calife almohade
+      Abū al-ʿAlāʾ Idrīs al-Maʾmūn à Tunis en 625 H (1228 EC) et
+      prit le pouvoir indépendant. La rupture survint après que
+      al-Maʾmūn à Marrakech eut désavoué la doctrine almohade du
+      mahdisme d'Ibn Tūmart et l'eut dépouillé du statut
+      d'*imām al-maʿṣūm* ; Abū Zakariyyāʾ refusa de reconnaître
+      le nouveau calife, fit retirer son nom de la *khuṭba* et
+      érigea la lignée ḥafṣide de Tunis en héritière légitime de
+      la polité almohade dans le Maghrib al-Adnā. Il ne prit pas
+      d'abord le titre califal — son fils al-Mustanṣir le ferait
+      en 650 H, après la chute de Bagdād — mais il fonda
+      l'émirat ḥafṣide indépendant, plaça Tlemcen et Sijilmāsa
+      sous sa suzeraineté une décennie durant, et fit de Tunis
+      la première capitale sunnite mālikite du Maghrib central
+      pour les trois siècles suivants. La dynastie subsista
+      jusqu'à la conquête ottomane de Tunis en 982 H (1574 EC).
+      Le *Kitāb al-ʿIbar* d'Ibn Khaldūn donne le récit
+      canonique ; Ibn Khallikān, dans sa notice sur Abū
+      Zakariyyāʾ, confirme 625 H pour la rupture avec Marrakech.
+    canonical_hijri: {year: 625, precision: year}
+    canonical_gregorian: {date: 1228-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a biographical entry on Abū Zakariyyāʾ Yaḥyā al-Ḥafṣī that fixes his break with the Almohad caliph al-Maʾmūn at 625 AH and the establishment of independent Ḥafṣid rule at Tunis."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām enters the Ḥafṣid emirate of Abū Zakariyyāʾ at Tunis under the events of the 620s AH and confirms the rupture with Marrakesh."
+      - source_key: ei2
+        notes: "EI² entry 'Ḥafṣids' identifies Abū Zakariyyāʾ Yaḥyā I as the dynastic founder and dates the independence of the Ifrīqiyan branch at 625 AH / 1228 CE."
+    people: [[abu-zakariyya-yahya-hafsid, founder]]
+    tags: [hafsid, tunis, ifriqiya, dynastic_founding, berber, mālikī, almohad-successor]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abu-zakariyya-yahya-hafsid
+    category: ruler_death
+    title_en: Death of Abū Zakariyyāʾ Yaḥyā I al-Ḥafṣī — Founder of the Ḥafṣid Dynasty
+    title_ar: وفاة أبي زكرياء يحيى الأول الحفصي — مؤسس دولة الحفصيين
+    title_fr: Décès d'Abū Zakariyyāʾ Yaḥyā Ier al-Ḥafṣī — fondateur de la dynastie ḥafṣide
+    description_en: |
+      Abū Zakariyyāʾ Yaḥyā I al-Ḥafṣī, founder of the independent
+      Ḥafṣid emirate of Tunis and great-grandson of the Almohad
+      shaykh Abū Ḥafṣ ʿUmar al-Hintātī, died at Bône (ʿAnnāba) in
+      Jumādā I 647 AH (August 1249 CE), aged about sixty, after
+      a reign of twenty-two years. He had built the Ḥafṣid state
+      out of the eastern Almohad province: he extended his
+      authority over Tlemcen, Sijilmāsa, and the Ḥammādid coast,
+      sent governors to the Andalusi taifa kings (notably al-
+      Mutawakkil ibn Hūd of Murcia), received the *bayʿa* of the
+      Idrīsid sharifs of Sabta in 645 AH, and ruled at the head
+      of the wealthiest Mediterranean polity of the central
+      Maghrib. He died on campaign in the Constantine region; his
+      son Abū ʿAbd Allāh Muḥammad — the future al-Mustanṣir —
+      was given the *bayʿa* and would, three years later, take
+      the caliphal title and receive the bayʿa of much of the
+      western Islamic world after the Mongol sack of Baghdād.
+      Ibn Khallikān, Ibn Kathīr, and the Ḥafṣid-era Maghribi
+      chronicles (especially Ibn Abī Zarʿ's *Rawḍ al-Qirṭās*) all
+      anchor the death at Jumādā I 647 AH.
+    description_ar: |
+      توفي أبو زكرياء يحيى الأول الحفصي — مؤسس الإمارة الحفصية
+      المستقلة بتونس وحفيدُ شيخ الموحدين أبي حفص عمر الهنتاتي —
+      ببونة (عَنَّابة) في جمادى الأولى سنة ٦٤٧ هـ (أغسطس
+      ١٢٤٩ م)، وقد جاوز الستين، بعد مُلكٍ دام اثنتين وعشرين سنة.
+      كان قد أقام الدولةَ الحفصية على ولاية الموحدين الشرقية:
+      بسط سلطانه إلى تلمسان وسجلماسة وساحل الحماديين، وأرسل
+      الولاةَ إلى ملوك الطوائف الأندلسيين (لا سيما المتوكل بن
+      هود بمرسية)، وتلقَّى بيعةَ الأشراف الأدارسة بِسَبتة سنة
+      ٦٤٥ هـ، وحكم في رأس أغنى دول البحر المتوسط في المغرب
+      الأوسط. توفي وهو في حملة في ناحية قسنطينة، فبايع الناسُ
+      ابنَه أبا عبد الله محمد — المستنصرَ المقبل — الذي تسمَّى
+      بعد ذلك بثلاث سنوات بالخلافة، ورد إليه عدد من علماء الغرب
+      الإسلامي البيعةَ بعد سقوط بغداد للمغول. ويتفق ابن خلكان
+      وابن كثير ومؤرخو المغاربة الحفصيون (خاصةً ابن أبي زرع في
+      «روض القرطاس») على أن الوفاة كانت في جمادى الأولى سنة
+      ٦٤٧ هـ.
+    description_fr: |
+      Abū Zakariyyāʾ Yaḥyā Ier al-Ḥafṣī, fondateur de l'émirat
+      ḥafṣide indépendant de Tunis et arrière-petit-fils du
+      cheikh almohade Abū Ḥafṣ ʿUmar al-Hintātī, mourut à Bône
+      (ʿAnnāba) en Jumādā I 647 H (août 1249 EC), âgé d'environ
+      soixante ans, après un règne de vingt-deux ans. Il avait
+      bâti l'État ḥafṣide à partir de la province orientale
+      almohade : il étendit son autorité sur Tlemcen, Sijilmāsa
+      et le littoral ḥammādide, envoya des gouverneurs auprès
+      des rois taifas andalous (notamment al-Mutawakkil ibn Hūd
+      de Murcie), reçut la *bayʿa* des sharifs idrīsides de
+      Sabta en 645 H, et régnait à la tête de la polité la plus
+      riche de la Méditerranée du Maghrib central. Il mourut en
+      campagne dans la région de Constantine ; son fils Abū
+      ʿAbd Allāh Muḥammad — le futur al-Mustanṣir — reçut la
+      *bayʿa*, et prendrait trois ans plus tard le titre
+      califal, recueillant l'allégeance d'une bonne part de
+      l'Occident musulman après le sac de Bagdād par les
+      Mongols. Ibn Khallikān, Ibn Kathīr et les chroniqueurs
+      maghrébins de l'époque ḥafṣide (en particulier Ibn Abī
+      Zarʿ dans le *Rawḍ al-Qirṭās*) s'accordent tous à fixer
+      la mort en Jumādā I 647 H.
+    canonical_hijri: {year: 647, month: 5, precision: month}
+    canonical_gregorian: {date: 1249-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān entry on Abū Zakariyyāʾ Yaḥyā al-Ḥafṣī gives Jumādā I 647 AH for his death at Bône."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the death of the Ḥafṣid amīr of Tunis under the events of 647 AH."
+      - source_key: ei2
+        notes: "EI² entry 'Ḥafṣids' confirms 647 AH / 1249 CE for the death of Abū Zakariyyāʾ I and the succession of his son al-Mustanṣir."
+    people: [[abu-zakariyya-yahya-hafsid, died]]
+    tags: [hafsid, tunis, ifriqiya, ruler, almohad-successor]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-mustansir-hafsid
+    category: ruler_death
+    title_en: Death of al-Mustanṣir al-Ḥafṣī — Caliph of Tunis
+    title_ar: وفاة المستنصر الحفصي — خليفة تونس
+    title_fr: Décès d'al-Mustanṣir al-Ḥafṣī — calife de Tunis
+    description_en: |
+      Abū ʿAbd Allāh Muḥammad al-Mustanṣir al-Ḥafṣī, son and
+      successor of Abū Zakariyyāʾ I, died at Tunis in 675 AH
+      (1277 CE) after a thirty-year reign. He had been the first
+      Ḥafṣid to take the caliphal title (650 AH / 1253 CE),
+      claiming the *imāma* of the Sunni umma after the Mongol
+      destruction of Baghdād in 656 AH (1258 CE) — a claim
+      formally recognised by the sharifs of Mecca, by the Ḥafṣid
+      governors of Bijāya and Constantine, by the Andalusi king
+      al-Mustanṣir's namesake Ibn Hūd al-Mutawakkil of Murcia,
+      and for a period by the Mamluk Sulṭān Baybars before
+      Baybars set up his own ʿAbbāsid shadow-caliph in Cairo.
+      Al-Mustanṣir's reign saw the consolidation of Ḥafṣid
+      Tunis as the wealthiest and most cosmopolitan Mediterranean
+      port-city in the central Maghrib; he received the doomed
+      Eighth Crusade of Louis IX of France at Tunis in 668 AH
+      (1270 CE) and watched the French king die of dysentery
+      under his walls. Ibn Khaldūn's *Kitāb al-ʿIbar* (the Berber
+      sections, of which Ibn Khaldūn is the prime witness) and
+      Ibn Kathīr's al-Bidāya wa-l-Nihāya both anchor the death
+      at 675 AH; the precise month varies in the chronicles, so
+      we record month-precision year only.
+    description_ar: |
+      توفي أبو عبد الله محمد المستنصر الحفصي — ابنُ أبي زكرياء
+      الأول وخليفتُه — بتونس سنة ٦٧٥ هـ (١٢٧٧ م) بعد ملكٍ دام
+      ثلاثين سنة. كان أول من تسمَّى من الحفصيين بالخلافة سنة
+      ٦٥٠ هـ (١٢٥٣ م)، وادَّعى إمامةَ الأمة السنية بعد دمار
+      المغول لبغداد سنة ٦٥٦ هـ (١٢٥٨ م) — وهي دعوى أقرَّها
+      أشرافُ مكة، وعمَّالُه على بِجَاية وقسنطينة، ومُتَوِكِّلُ
+      الأندلس ابنُ هود المتوكل بمرسية، وأقرَّ بها مدةً السلطانُ
+      المملوكي بيبرس قبل أن يُقيمَ خليفتَه العباسيَّ الظلِّيَّ
+      بالقاهرة. وفي عهده استقرَّت تونسُ الحفصية أغنى مدائن
+      المتوسط وأكثرها انفتاحاً في المغرب الأوسط؛ واستقبل سنة
+      ٦٦٨ هـ (١٢٧٠ م) الحملةَ الصليبية الثامنة المنكوبة بقيادة
+      لويس التاسع ملك فرنسا، الذي مات تحت أسوار تونس بالزَّحار
+      (الإسهال). ويُثبِّت ابن خلدون في «كتاب العبر» (في أقسام
+      البربر التي هو شاهدُها الأكبر) وابن كثير في «البداية
+      والنهاية» الوفاةَ في سنة ٦٧٥ هـ، وتختلف المصادر في
+      الشهر، فأثبتنا سنةَ الوفاة فقط.
+    description_fr: |
+      Abū ʿAbd Allāh Muḥammad al-Mustanṣir al-Ḥafṣī, fils et
+      successeur d'Abū Zakariyyāʾ Ier, mourut à Tunis en 675 H
+      (1277 EC) après un règne de trente ans. Il avait été le
+      premier ḥafṣide à prendre le titre califal (650 H /
+      1253 EC), revendiquant l'*imāma* de la communauté sunnite
+      après la destruction mongole de Bagdād en 656 H (1258 EC)
+      — prétention reconnue formellement par les sharifs de La
+      Mecque, par les gouverneurs ḥafṣides de Bijāya et de
+      Constantine, par le roi taifa Ibn Hūd al-Mutawakkil de
+      Murcie et, un temps, par le sultan mamlūk Baybars, avant
+      que celui-ci ne dressât son propre calife abbāside-fantoche
+      au Caire. Le règne d'al-Mustanṣir vit la consolidation de
+      Tunis ḥafṣide en cité-port la plus riche et la plus
+      cosmopolite de la Méditerranée du Maghrib central ; il
+      reçut sous ses murs en 668 H (1270 EC) la malheureuse
+      Huitième Croisade de Louis IX de France, qui y mourut de
+      dysenterie. Le *Kitāb al-ʿIbar* d'Ibn Khaldūn (sections
+      berbères, dont il est le premier témoin) et al-Bidāya
+      wa-l-Nihāya d'Ibn Kathīr fixent tous deux la mort en
+      675 H ; le mois exact varie dans les chroniques, c'est
+      pourquoi nous n'enregistrons que l'année.
+    canonical_hijri: {year: 675, precision: year}
+    canonical_gregorian: {date: 1277-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya records the death of al-Mustanṣir al-Ḥafṣī, caliph of Tunis, under the events of 675 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād's Shadharāt al-Dhahab enters al-Mustanṣir under the obituaries of 675 AH."
+      - source_key: ei2
+        notes: "EI² entry 'al-Mustanṣir, Abū ʿAbd Allāh Muḥammad' confirms 675 AH / 1277 CE as the year of his death and 650 AH for his assumption of the caliphal title."
+    people: [[al-mustansir-hafsid, died]]
+    tags: [hafsid, tunis, caliph, ifriqiya, eighth-crusade, ruler]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ZAYYĀNIDS (ʿABD AL-WĀDĪDS) OF TLEMCEN
+  # =========================================================================
+
+  - slug: founding-of-zayyanid-abd-al-wadid-dynasty
+    category: dynastic_founding
+    title_en: Founding of the Zayyānid (ʿAbd al-Wādīd) Dynasty at Tlemcen
+    title_ar: قيام دولة بني عبد الواد (الزيانيين) بتلمسان
+    title_fr: Fondation de la dynastie zayyānide (ʿAbd al-Wādīd) à Tlemcen
+    description_en: |
+      Yaghmurāsan ibn Zayyān al-ʿAbd al-Wādī, chief of the Banū
+      ʿAbd al-Wād — a Zenata Berber confederation of the central
+      Maghrib that had served the late Almohads as governors of
+      Tlemcen — declared independent rule at Tlemcen in 633 AH
+      (1235 CE) following the post-Las-Navas collapse of Almohad
+      authority and broke from Marrakesh. He took no caliphal
+      title, contenting himself with the modest *amīr al-
+      muslimīn*; he initially maintained the *khuṭba* in the
+      name of the Almohad caliph al-Rashīd, and only after the
+      Marīnid threat from the west became existential did he
+      establish his own coinage. The Zayyānid (also called
+      ʿAbd al-Wādīd) dynasty would rule the central Maghrib from
+      Tlemcen — caught between Ḥafṣid Tunis and Marīnid Fez —
+      for nearly three centuries until the Ottoman conquest in
+      961 AH (1554 CE). Tlemcen under the dynasty became one of
+      the major Mālikī Sunni centres of the Islamic West, home to
+      the great theologian Muḥammad ibn Yūsuf al-Sanūsī (d. 895
+      AH) and to the *Madrasa al-Yaʿqūbiyya* and *al-Tashfīniyya*
+      foundations. EI²'s 'ʿAbd al-Wādids' entry and Ibn Khaldūn's
+      *Kitāb al-ʿIbar* fix the start of the dynasty at 633 AH.
+    description_ar: |
+      أعلن يغمراسن بن زيان العبد الوادي — شيخُ بني عبد الواد،
+      وهي قبيلة زناتية بربرية في المغرب الأوسط كانت تخدم في
+      أواخر دولة الموحدين ولاةً على تلمسان — استقلاله بتلمسان
+      سنة ٦٣٣ هـ (١٢٣٥ م) في أعقاب انهيار السلطة الموحدية بعد
+      العقاب، وانفصل عن مراكش. لم يتسمَّ بخلافة، واكتفى بلقب
+      أمير المسلمين المتواضع؛ وأقام أول الأمر الخطبة باسم
+      الخليفة الموحدي الرشيد، فلم يضرب لنفسه السكة إلا حين
+      صار خطر المرينيين من الغرب وجوديًّا. حكم بنو زيان
+      (المعروفون أيضاً ببني عبد الواد) المغربَ الأوسطَ من
+      تلمسان — وهم في معترك بين حفصيي تونس ومرينيي فاس — قرابة
+      ثلاثة قرون إلى الفتح العثماني سنة ٩٦١ هـ (١٥٥٤ م). وصارت
+      تلمسان في عهدهم من كبرى حواضر السنة المالكية في الغرب
+      الإسلامي، فيها أقام المتكلم الكبير محمد بن يوسف السنوسي
+      (ت ٨٩٥ هـ)، وأُنشئت فيها المدرستان اليعقوبية والتاشفينية.
+      وتُثبِّت دائرةُ المعارف الإسلامية ٢ في مادة «العبد
+      الواديون» وابن خلدون في «كتاب العبر» قيامَ الدولة في
+      ٦٣٣ هـ.
+    description_fr: |
+      Yaghmurāsan ibn Zayyān al-ʿAbd al-Wādī, chef des Banū
+      ʿAbd al-Wād — confédération berbère zénète du Maghrib
+      central qui avait servi les derniers Almohades comme
+      gouverneurs de Tlemcen — proclama son indépendance à
+      Tlemcen en 633 H (1235 EC) à la suite de l'effondrement
+      de l'autorité almohade après Las Navas, et rompit avec
+      Marrakech. Il ne prit aucun titre califal, se contentant
+      du modeste *amīr al-muslimīn* ; il maintint d'abord la
+      *khuṭba* au nom du calife almohade al-Rashīd, et ne
+      battit sa propre monnaie que lorsque la menace marīnide
+      venue de l'ouest fut devenue existentielle. La dynastie
+      zayyānide (dite aussi ʿAbd al-Wādīde) gouverna le Maghrib
+      central depuis Tlemcen — coincée entre les Ḥafṣides de
+      Tunis et les Marīnides de Fès — près de trois siècles,
+      jusqu'à la conquête ottomane de 961 H (1554 EC). Sous
+      cette dynastie, Tlemcen devint l'un des grands centres
+      sunnites mālikites de l'Occident musulman, abritant le
+      grand théologien Muḥammad ibn Yūsuf al-Sanūsī (m. 895 H)
+      et les madrasas al-Yaʿqūbiyya et al-Tashfīniyya. La
+      notice 'ʿAbd al-Wādids' de l'EI² et le *Kitāb al-ʿIbar*
+      d'Ibn Khaldūn fixent le commencement de la dynastie en
+      633 H.
+    canonical_hijri: {year: 633, precision: year}
+    canonical_gregorian: {date: 1235-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters Yaghmurāsan's break with the Almohads at Tlemcen under the events of the early 630s AH; the canonical date in the Maghribi chronicles is 633 AH."
+      - source_key: ei2
+        notes: "EI² entry 'ʿAbd al-Wādids' identifies Yaghmurāsan ibn Zayyān as eponymous founder and dates the start of independent Zayyānid rule at Tlemcen to 633 AH / 1235 CE."
+    people: [[yaghmurasan-zayyanid, founder]]
+    tags: [zayyanid, abd-al-wadid, tlemcen, maghrib, dynastic_founding, berber, zenata]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MARĪNID HIGH NOON — conquest of Marrakesh and the great sultans
+  # =========================================================================
+
+  - slug: marinid-conquest-of-marrakesh
+    category: conquest
+    title_en: Marīnid Conquest of Marrakesh — End of Almohad Rule in the Maghrib al-Aqṣā
+    title_ar: فتح المرينيين لمراكش — نهاية حكم الموحدين بالمغرب الأقصى
+    title_fr: Prise de Marrakech par les Marīnides — fin de la domination almohade au Maghrib al-Aqṣā
+    description_en: |
+      Sultan Abū Yūsuf Yaʿqūb ibn ʿAbd al-Ḥaqq al-Marīnī took
+      Marrakesh — the imperial capital of the Almohads since
+      ʿAbd al-Muʾmin's storming of the city in 541 AH — in
+      Muḥarram 668 AH (September 1269 CE). The fall ended a
+      decade-long Marīnid offensive that had already taken Fez
+      (646 AH) and the rest of the Maghrib al-Aqṣā; the last
+      Almohad caliph at Marrakesh, Abū Dabbūs Idrīs al-Wāthiq,
+      perished resisting the assault, his troops scattered or
+      went over to the Marīnids, and the city was entered with
+      relatively little resistance from a populace exhausted by
+      decades of post-Las-Navas civil war. With Marrakesh in
+      their hands the Banū Marīn became the unrivalled rulers
+      of Morocco; Abū Yūsuf transferred the imperial capital
+      definitively to Fez al-Jadīd (which he founded outside
+      the older city in 674 AH), and Marrakesh was reduced to
+      a southern provincial centre. The Maghribi chronicles
+      (Ibn Abī Zarʿ's *Rawḍ al-Qirṭās*, Ibn Khaldūn's *Kitāb
+      al-ʿIbar*) and Ibn Kathīr's al-Bidāya wa-l-Nihāya all
+      anchor the conquest at Muḥarram 668 AH.
+    description_ar: |
+      فتح السلطان أبو يوسف يعقوب بن عبد الحق المريني مدينةَ
+      مَرَّاكُش — العاصمةَ الإمبراطورية للموحدين منذ دخل عبد
+      المؤمن إليها سنة ٥٤١ هـ — في محرم سنة ٦٦٨ هـ (سبتمبر
+      ١٢٦٩ م). وأنهى السقوطُ هجوماً مرينياً امتدَّ عقداً من
+      الزمن، كان قد افتتح فيه فاسَ (٦٤٦ هـ) وسائرَ المغرب
+      الأقصى. وهلك آخر خلفاء الموحدين بمراكش، أبو دَبُّوس إدريس
+      الواثق، مدافعاً عن المدينة، فتشتَّت جنده أو لحق بالمرينيين،
+      ودخل المرينيون المدينةَ بمقاومة يسيرة من أهلها، وقد أنهكتهم
+      عقودٌ من الحرب الأهلية بعد العقاب. وبسقوط مراكش صار بنو
+      مرين حكامَ المغرب لا يُنازعهم أحد، ونقل أبو يوسف العاصمةَ
+      الإمبراطورية إلى فاس الجديد التي بناها قُربَ المدينة
+      القديمة سنة ٦٧٤ هـ، وآلت مراكش إلى مركزٍ جنوبيٍّ إقليمي.
+      وتُثبِّت كتبُ المغاربة (روض القرطاس لابن أبي زرع، وكتاب
+      العبر لابن خلدون) و«البداية والنهاية» لابن كثير الفتحَ في
+      محرم سنة ٦٦٨ هـ.
+    description_fr: |
+      Le sultan Abū Yūsuf Yaʿqūb ibn ʿAbd al-Ḥaqq al-Marīnī prit
+      Marrakech — capitale impériale des Almohades depuis l'entrée
+      de ʿAbd al-Muʾmin dans la cité en 541 H — en Muḥarram 668 H
+      (septembre 1269 EC). La chute mit fin à une offensive
+      marīnide d'une décennie, qui avait déjà emporté Fès (646 H)
+      et le reste du Maghrib al-Aqṣā ; le dernier calife almohade
+      de Marrakech, Abū Dabbūs Idrīs al-Wāthiq, périt en
+      défendant l'assaut, ses troupes se débandèrent ou
+      passèrent aux Marīnides, et la ville fut prise avec peu
+      de résistance d'une population épuisée par des décennies
+      de guerre civile post-Las Navas. Avec Marrakech entre
+      leurs mains, les Banū Marīn devinrent les maîtres
+      incontestés du Maroc ; Abū Yūsuf transféra définitivement
+      la capitale impériale à Fès al-Jadīd, qu'il fonda en
+      dehors de la vieille ville en 674 H, et Marrakech fut
+      ramenée au rang de centre provincial méridional. Les
+      chroniqueurs maghrébins (Ibn Abī Zarʿ dans *Rawḍ
+      al-Qirṭās*, Ibn Khaldūn dans *Kitāb al-ʿIbar*) et Ibn
+      Kathīr dans al-Bidāya wa-l-Nihāya placent tous la
+      conquête en Muḥarram 668 H.
+    canonical_hijri: {year: 668, month: 1, precision: month}
+    canonical_gregorian: {date: 1269-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr's al-Bidāya wa-l-Nihāya enters the Marīnid conquest of Marrakesh and the death of the last Almohad caliph Abū Dabbūs under the events of 668 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 668 AH for the fall of Marrakesh to Abū Yūsuf Yaʿqūb al-Marīnī and the end of the Almohad caliphate."
+      - source_key: ei2
+        notes: "EI² entries 'Marīnids' and 'al-Muwaḥḥidūn' both fix the fall of Marrakesh at 668 AH / 1269 CE under Abū Yūsuf Yaʿqūb."
+    people: [[abu-yusuf-yaqub-marini, leader]]
+    tags: [marinid, almohad, marrakesh, conquest, maghrib, fez]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abu-al-hasan-marini
+    category: ruler_death
+    title_en: Death of Abū al-Ḥasan ʿAlī al-Marīnī (al-Sulṭān al-Akbar)
+    title_ar: وفاة أبي الحسن علي المريني — السلطان الأكبر
+    title_fr: Décès d'Abū al-Ḥasan ʿAlī al-Marīnī (al-Sulṭān al-Akbar)
+    description_en: |
+      Abū al-Ḥasan ʿAlī ibn ʿUthmān al-Marīnī — known to the
+      Maghribi chronicles as *al-Sulṭān al-Akbar*, "the Greatest
+      Sultan" — died at Mount Hintāta in the High Atlas in 752
+      AH (1351 CE), an exile from the throne his son Abū ʿInān
+      had taken from him. He had been the high-water mark of
+      Marīnid power: he united the Maghrib al-Aqṣā with Marīnid
+      Tlemcen and Ḥafṣid Ifrīqiya in a single polity for the
+      first time since the early Almohads (taking Tlemcen in
+      737 AH, Tunis briefly in 748 AH); he led the great Marīnid
+      crossing into al-Andalus that ended in disaster at the
+      battle of Río Salado (Ṭarīf, Shaʿbān 741 AH / October
+      1340) — where his army was routed by Castile and Portugal
+      and his son Abū Mālik was killed; and he was a serious
+      patron of religious learning, founding the Madrasa al-
+      Miṣbāḥiyya and the Madrasa al-ʿAṭṭārīn at Fez and
+      commissioning the four-volume *Mushaf al-Sultān Abī al-
+      Ḥasan* in his own hand. His son Abū ʿInān deposed him in
+      749 AH; he died three years later still trying to recover
+      his throne. Ibn Khaldūn — who personally served the
+      Marīnid court at Fez — and Ibn Khallikān's continuators
+      give 752 AH for the death.
+    description_ar: |
+      توفي أبو الحسن علي بن عثمان المريني — الذي تسمِّيه كتبُ
+      المغاربة «السلطانَ الأكبر» — بجبل هِنتاتَة في الأطلس
+      الكبير سنة ٧٥٢ هـ (١٣٥١ م)، طريداً عن العرش الذي انتزعه
+      منه ابنُه أبو عنان. كان قمَّةَ القوة المرينية: وحَّد
+      المغربَ الأقصى مع تلمسانَ المرينية وإفريقيةَ الحفصية في
+      دولة واحدة لأول مرة منذ الموحدين الأوائل (فتح تلمسانَ
+      ٧٣٧ هـ، ودخل تونسَ مدةً يسيرةً سنة ٧٤٨ هـ). وقاد العبورَ
+      المريني الكبير إلى الأندلس، الذي انتهى بكارثة معركة طريف
+      (وادي سلادو) في شعبان ٧٤١ هـ (أكتوبر ١٣٤٠)، حيث هزمته
+      قشتالةُ والبرتغال، وقُتل ابنُه أبو مالك. وكان من كبار
+      رعاة العلم: أنشأ المدرستين المصباحية والعطّارين بفاس،
+      وكتب بخط يده مصحفَ السلطان المعروف بمصحف أبي الحسن في
+      أربعة أجزاء. خلعه ابنُه أبو عنان سنة ٧٤٩ هـ، ومات بعد
+      ثلاث سنين وهو يحاول استعادة عرشه. ويُثبِّت ابن خلدون —
+      الذي خدم البلاطَ المريني بفاس بنفسه — ومتابعو ابن
+      خلكان الوفاةَ في سنة ٧٥٢ هـ.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn ʿUthmān al-Marīnī — surnommé par
+      les chroniqueurs maghrébins *al-Sulṭān al-Akbar*, « le
+      plus grand sultan » — mourut au mont Hintāta dans le Haut
+      Atlas en 752 H (1351 EC), exilé du trône que son fils
+      Abū ʿInān lui avait pris. Il avait été l'apogée de la
+      puissance marīnide : il unifia le Maghrib al-Aqṣā avec
+      Tlemcen marīnide et l'Ifrīqiya ḥafṣide en une seule
+      polité pour la première fois depuis les premiers
+      Almohades (prise de Tlemcen en 737 H, brève occupation
+      de Tunis en 748 H) ; il mena le grand passage marīnide
+      en al-Andalus qui s'acheva par le désastre de la bataille
+      de Tarifa / Río Salado (Ṭarīf, Shaʿbān 741 H / octobre
+      1340), où son armée fut défaite par la Castille et le
+      Portugal et son fils Abū Mālik tué ; et il fut un grand
+      patron du savoir religieux, fondant les madrasas
+      al-Miṣbāḥiyya et al-ʿAṭṭārīn à Fès, et copiant de sa
+      propre main le célèbre *Mushaf du Sultan Abī al-Ḥasan*
+      en quatre volumes. Son fils Abū ʿInān le déposa en 749 H ;
+      il mourut trois ans plus tard en tentant de recouvrer son
+      trône. Ibn Khaldūn — qui servit personnellement la cour
+      marīnide à Fès — et les continuateurs d'Ibn Khallikān
+      fixent la mort en 752 H.
+    canonical_hijri: {year: 752, precision: year}
+    canonical_gregorian: {date: 1351-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the death of Abū al-Ḥasan al-Marīnī under the events of 752 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād's Shadharāt al-Dhahab places the death in the obituaries of 752 AH."
+      - source_key: ei2
+        notes: "EI² entry 'Marīnids' confirms 752 AH / 1351 CE for the death of Abū al-Ḥasan ʿAlī, after his deposition by Abū ʿInān."
+    people: [[abu-al-hasan-marini, died]]
+    tags: [marinid, ruler, fez, maghrib, andalus, río-salado, tlemcen]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abu-inan-marini
+    category: ruler_death
+    title_en: Death of Abū ʿInān Fāris al-Marīnī
+    title_ar: وفاة أبي عنان فارس المريني
+    title_fr: Décès d'Abū ʿInān Fāris al-Marīnī
+    description_en: |
+      Abū ʿInān Fāris ibn ʿAlī al-Marīnī, son and successor of
+      Abū al-Ḥasan and tenth Marīnid sultan, was strangled in
+      his palace at Fez in Dhū al-Ḥijja 759 AH (November 1358
+      CE) by his vizier al-Ḥasan ibn ʿUmar al-Faddūdī after a
+      reign of ten years. He had taken the throne by deposing
+      his father in 749 AH, taken Tlemcen and Bijāya from the
+      Zayyānids and Ḥafṣids, and built two of the most splendid
+      Marīnid madrasas — *al-Madrasa al-Bū-ʿInāniyya* of Fez
+      (completed 758 AH) and the smaller Bū-ʿInāniyya of Meknès
+      — endowing them with massive *waqfs* and Mālikī teaching
+      chairs. The political legacy was less luminous: his
+      sudden murder in his prime, with the heir-apparent a
+      five-year-old, opened forty years of court intrigue and
+      vizirate dictatorship that effectively ended Marīnid
+      central authority. Ibn Khaldūn — who arrived at the
+      Marīnid court only a year before Abū ʿInān's death and
+      knew the regicide-vizier personally — gives the canonical
+      account in *Kitāb al-ʿIbar*; Ibn Kathīr enters the death
+      under 759 AH.
+    description_ar: |
+      خُنق أبو عنان فارس بن علي المريني — ابن أبي الحسن
+      وخليفته، وعاشر سلاطين بني مرين — في قصره بفاس في ذي
+      الحجة سنة ٧٥٩ هـ (نوفمبر ١٣٥٨ م) على يد وزيره الحسن بن
+      عمر الفُدُّودي بعد ملك دام عشر سنين. كان قد ملك العرشَ
+      بخلع أبيه سنة ٧٤٩ هـ، وفتح تلمسانَ وبجايةَ على الزيانيين
+      والحفصيين، وبنى من أجمل مدارس بني مرين: المدرسةَ
+      البوعنانيةَ بفاس (أُنجزت ٧٥٨ هـ) والبوعنانية الصغرى
+      بمكناس، وأوقف عليهما أوقافاً ضخمة وكراسيَ تدريسٍ مالكية.
+      أما إرثُه السياسي فأقل لمعاناً: كان مقتله المفاجئ في
+      ريعان قوته، ووليُّ عهده طفل في الخامسة، فاتحةَ أربعين
+      سنة من صراعات البلاط واستبداد الوزراء، أنهت عملياً
+      السلطةَ المركزية للمرينيين. ويُعطي ابن خلدون — الذي قدم
+      إلى البلاط المريني قبل وفاة أبي عنان بسنة، وعرف الوزير
+      القاتل بنفسه — الروايةَ المعتمدة في «كتاب العبر»،
+      ويُسجِّل ابن كثير الوفاةَ في ٧٥٩ هـ.
+    description_fr: |
+      Abū ʿInān Fāris ibn ʿAlī al-Marīnī, fils et successeur
+      d'Abū al-Ḥasan et dixième sultan marīnide, fut étranglé
+      dans son palais de Fès en Dhū al-Ḥijja 759 H (novembre
+      1358 EC) par son vizir al-Ḥasan ibn ʿUmar al-Faddūdī
+      après un règne de dix ans. Il avait pris le trône en
+      déposant son père en 749 H, conquis Tlemcen et Bijāya
+      sur les Zayyānides et les Ḥafṣides, et bâti deux des
+      plus splendides madrasas marīnides — la *Madrasa
+      al-Bū-ʿInāniyya* de Fès (achevée en 758 H) et la
+      Bū-ʿInāniyya plus modeste de Meknès — qu'il dota de
+      *waqfs* massifs et de chaires d'enseignement mālikites.
+      Son héritage politique fut moins brillant : son meurtre
+      brutal en pleine force, avec un héritier âgé de cinq
+      ans, ouvrit quarante ans d'intrigues de cour et de
+      dictature vizirale qui mirent fin de fait à l'autorité
+      centrale marīnide. Ibn Khaldūn — arrivé à la cour
+      marīnide un an avant la mort d'Abū ʿInān et qui
+      connaissait personnellement le vizir régicide — donne
+      le récit canonique dans le *Kitāb al-ʿIbar* ; Ibn Kathīr
+      enregistre la mort en 759 H.
+    canonical_hijri: {year: 759, month: 12, precision: month}
+    canonical_gregorian: {date: 1358-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the death of Abū ʿInān al-Marīnī under the events of 759 AH; the strangulation is recorded in the same notice."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād's Shadharāt al-Dhahab places the death in the obituaries of 759 AH."
+      - source_key: ei2
+        notes: "EI² entry 'Marīnids' confirms Dhū al-Ḥijja 759 AH / November 1358 CE for the death of Abū ʿInān, by strangulation at the hand of his vizier al-Faddūdī."
+    people: [[abu-inan-marini, died]]
+    tags: [marinid, ruler, fez, maghrib, madrasa, regicide]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # WATTĀSID INTERLUDE — late-Marīnid kinsmen who took Fez in 877 AH
+  # =========================================================================
+
+  - slug: founding-of-wattasid-dynasty
+    category: dynastic_founding
+    title_en: Founding of the Wattāsid Dynasty at Fez
+    title_ar: قيام دولة بني وطاس بفاس
+    title_fr: Fondation de la dynastie waṭṭāside à Fès
+    description_en: |
+      Muḥammad al-Shaykh al-Mahdī al-Waṭṭāsī, head of the Banū
+      Waṭṭās — a Zenata Berber line collateral to the Banū Marīn
+      that had monopolised the office of regent-vizier under the
+      late minor Marīnid sultans — formally took the throne at
+      Fez in 877 AH (1472 CE), ending the Marīnid dynasty proper
+      and inaugurating Wattāsid rule over the Maghrib al-Aqṣā.
+      The Wattāsids had ruled from behind the throne since the
+      assassination of the last effective Marīnid sultan ʿAbd
+      al-Ḥaqq II in 869 AH (1465) by the Fez crowd; after seven
+      years of weak claimants Muḥammad al-Shaykh dropped the
+      pretext and took the title himself. The dynasty proved a
+      caretaker regime: it could not stop the Iberian Christian
+      conquest of the Atlantic ports (Ceuta 1415, Tangier 1471,
+      Asilah 1471), nor defeat the rising Saʿdian Sharifian
+      movement that would absorb Marrakesh by 931 AH and Fez
+      itself by 956 AH, ending the line. Wattāsid Fez did,
+      however, see the late flowering of Mālikī jurisprudence at
+      al-Qarawiyyīn under scholars such as al-Wansharīsī (d. 914
+      AH, author of the *Miʿyār*). EI²'s 'Waṭṭāsids' entry and
+      al-Nāṣirī's *al-Istiqṣāʾ* both anchor the dynastic
+      transition at 877 AH.
+    description_ar: |
+      تولَّى محمد الشيخ المهدي الوطاسي — كبير بني وطاس، وهي
+      قبيلة زناتية بربرية فرعٌ على بني مرين، احتكر بيتُها
+      منصب الوزارة-الوصاية في أواخر سلاطين بني مرين الصغار —
+      عرشَ فاس رسمياً سنة ٨٧٧ هـ (١٤٧٢ م)، فأنهى دولةَ بني
+      مرين الأصلية، وافتتح حكمَ الوطاسيين بالمغرب الأقصى. كان
+      الوطاسيون يحكمون من وراء العرش منذ مقتل آخر السلاطين
+      المرينيين الفعليين عبد الحق الثاني سنة ٨٦٩ هـ (١٤٦٥)
+      على يد عوام فاس؛ وبعد سبع سنين من المدَّعين الضعاف،
+      ترك محمد الشيخ التذرعَ وتسمَّى باللقب لنفسه. وكانت
+      الدولة الوطاسية حكومةً انتقالية: لم تستطع وقفَ الفتح
+      الأيبيري النصراني للموانئ الأطلسية (سَبْتَة ١٤١٥،
+      طَنْجَة ١٤٧١، أَزِيلا ١٤٧١)، ولا غلبَ الحركة السعدية
+      الشريفية الصاعدة التي ابتلعت مراكشَ بحلول ٩٣١ هـ
+      وفاسَ نفسَها بحلول ٩٥٦ هـ، منهيةً السلالة. غير أن فاسَ
+      الوطاسية شهدت الإزهار المتأخر للفقه المالكي في القرويين،
+      وعلى رأس فقهائها الونشريسي (ت ٩١٤ هـ، صاحب «المعيار»).
+      وتُثبِّت دائرةُ المعارف الإسلامية ٢ في «الوطاسيون»
+      والناصري في «الاستقصا» الانتقالَ السلالي في ٨٧٧ هـ.
+    description_fr: |
+      Muḥammad al-Shaykh al-Mahdī al-Waṭṭāsī, chef des Banū
+      Waṭṭās — lignée berbère zénète collatérale aux Banū Marīn,
+      dont la famille avait monopolisé la charge de régent-vizir
+      sous les derniers sultans marīnides mineurs — prit
+      formellement le trône à Fès en 877 H (1472 EC), mettant
+      fin à la dynastie marīnide proprement dite et inaugurant
+      le pouvoir waṭṭāside sur le Maghrib al-Aqṣā. Les
+      Waṭṭāsides régnaient en sous-main depuis l'assassinat du
+      dernier sultan marīnide effectif ʿAbd al-Ḥaqq II en 869 H
+      (1465) par la foule de Fès ; après sept ans de prétendants
+      faibles, Muḥammad al-Shaykh laissa tomber le prétexte et
+      prit le titre pour lui-même. La dynastie fut un régime de
+      transition : elle ne put arrêter la conquête chrétienne
+      ibérique des ports atlantiques (Ceuta 1415, Tanger 1471,
+      Asilah 1471), ni vaincre le mouvement sharifien saʿdien
+      ascendant, qui absorberait Marrakech vers 931 H et Fès
+      même vers 956 H, mettant fin à la lignée. Cependant, le
+      Fès waṭṭāside vit le tardif épanouissement du fiqh
+      mālikite à al-Qarawiyyīn sous des savants comme
+      al-Wansharīsī (m. 914 H, auteur du *Miʿyār*). La notice
+      'Waṭṭāsides' de l'EI² et l'*al-Istiqṣāʾ* d'al-Nāṣirī
+      placent la transition dynastique en 877 H.
+    canonical_hijri: {year: 877, precision: year}
+    canonical_gregorian: {date: 1472-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād's Shadharāt al-Dhahab enters the Wattāsid takeover of Fez under the 870s AH and confirms 877 AH as the year Muḥammad al-Shaykh formally took the title."
+      - source_key: ei2
+        notes: "EI² entry 'Waṭṭāsids' identifies Muḥammad al-Shaykh al-Mahdī as the dynastic founder, dates the formal accession at 877 AH / 1472 CE, and notes the seven-year regency-interregnum from 869 AH that preceded it."
+      - source_key: editorial
+        notes: "Cross-checked against al-Nāṣirī's *al-Istiqṣāʾ li-akhbār duwal al-Maghrib al-aqṣā* (vol. 4, Wattāsid section), which gives 877 AH for Muḥammad al-Shaykh's accession at Fez."
+    people: [[muhammad-al-shaykh-wattasi, founder]]
+    tags: [wattasid, marinid, fez, maghrib, dynastic_founding, berber, zenata]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # SAʿDIAN SHARIFIAN DYNASTY OF MOROCCO
+  # =========================================================================
+
+  - slug: founding-of-saadi-sharifian-dynasty
+    category: dynastic_founding
+    title_en: Founding of the Saʿdian Sharifian Dynasty in the Sūs
+    title_ar: قيام الدولة السعدية الشريفة بالسوس
+    title_fr: Fondation de la dynastie saʿdienne sharifienne dans le Sūs
+    description_en: |
+      Muḥammad ibn ʿAbd al-Raḥmān al-Qāʾim bi-Amr Allāh al-Saʿdī,
+      head of the Banū Saʿd — a southern Moroccan family of the
+      Wādī Drʿa village of Tagmadart that claimed Ḥasanī
+      Sharifian descent — was acclaimed *imām* of the Sūs valley
+      Sufi-zāwiya network and head of a *jihād* movement against
+      the Portuguese coastal enclaves in 916 AH (1510 CE). His
+      sons Aḥmad al-Aʿraj and Muḥammad al-Shaykh extended the
+      movement into the High Atlas, took Marrakesh from the
+      Wattāsid puppet ruler al-Naṣirī in 931 AH (1525), and Fez
+      itself in 956 AH (1549) — completing the Saʿdian conquest
+      of Morocco and ending Wattāsid rule. The dynasty's
+      sharifian claim was widely accepted in the Sūs and the
+      western High Atlas where the Banū Saʿd had built up their
+      religious credentials, but contested by some classical
+      Mālikī scholars (notably al-Manjūr at Fez) who doubted the
+      genealogy. We record the dynasty's self-presentation
+      while flagging the dispute. The Saʿdian state would last
+      until 1069 AH (1659 CE), build the Saʿdian tombs and the
+      al-Badīʿ palace at Marrakesh, defeat the Portuguese at
+      Wādī al-Makhāzin in 986 AH and conquer Songhai in 999 AH.
+      EI²'s 'Saʿdids (Saʿdians)' entry anchors the start of the
+      Saʿdian *imāmate* in the Sūs at 916 AH.
+    description_ar: |
+      بُويع محمد بن عبد الرحمن القائم بأمر الله السعدي — كبير
+      بني سعد، أسرة من قرية تَكْمَدَارت بوادي درعة في جنوب
+      المغرب، تدَّعي النسبَ الحسني الشريف — إماماً لشبكة
+      الزوايا الصوفية في وادي السوس، وقائداً لحركة جهاد ضدَّ
+      الجيوب البرتغالية الساحلية، سنة ٩١٦ هـ (١٥١٠ م). ومدَّ
+      ابناه أحمد الأعرج ومحمد الشيخ الحركةَ إلى الأطلس
+      الكبير، وفتحا مراكشَ على الواليّ الوطاسي الناصريّ سنة
+      ٩٣١ هـ (١٥٢٥)، ثم فتحا فاسَ نفسَها سنة ٩٥٦ هـ (١٥٤٩) —
+      فأكملا فتحَ السعديين للمغرب، وأنهيا حكمَ الوطاسيين.
+      وكانت دعوى السعديين الشريفية مقبولةً على نطاق واسع
+      بالسوس والأطلس الكبير الغربي، حيث بنى بنو سعد رصيدَهم
+      الديني، لكنَّ بعضَ علماء المالكية الكبار (لا سيما
+      المنجور بفاس) شكَّكوا في النسب. ونحن نُثبت ما تقدِّمه
+      الدولةُ عن نفسها مع الإشارة إلى الخلاف. وامتدت الدولة
+      السعدية إلى سنة ١٠٦٩ هـ (١٦٥٩ م)، وأقامت قبور
+      السعديين وقصر البديع بمراكش، وهزمت البرتغال في وادي
+      المخازن سنة ٩٨٦ هـ، وفتحت صنغاي سنة ٩٩٩ هـ. وتُثبِّت
+      دائرةُ المعارف الإسلامية ٢ في مادة «السعديون» بدايةَ
+      الإمامة السعدية بالسوس في ٩١٦ هـ.
+    description_fr: |
+      Muḥammad ibn ʿAbd al-Raḥmān al-Qāʾim bi-Amr Allāh
+      al-Saʿdī, chef des Banū Saʿd — famille du sud marocain
+      du village de Tagmadart dans la vallée du Drʿa, qui
+      revendiquait l'ascendance sharifienne ḥasanide — fut
+      acclamé *imām* du réseau des zāwiyas soufies de la vallée
+      du Sūs et chef d'un mouvement de *jihād* contre les
+      enclaves côtières portugaises en 916 H (1510 EC). Ses
+      fils Aḥmad al-Aʿraj et Muḥammad al-Shaykh étendirent le
+      mouvement au Haut Atlas, prirent Marrakech au gouverneur
+      waṭṭāside al-Nāṣirī en 931 H (1525), puis Fès même en
+      956 H (1549) — achevant la conquête saʿdienne du Maroc
+      et mettant fin au pouvoir waṭṭāside. La revendication
+      sharifienne de la dynastie était largement acceptée dans
+      le Sūs et l'ouest du Haut Atlas où les Banū Saʿd avaient
+      bâti leur crédit religieux, mais contestée par certains
+      grands savants mālikites classiques (notamment al-Manjūr
+      à Fès), qui doutaient de la généalogie. Nous consignons
+      l'auto-présentation de la dynastie tout en signalant le
+      différend. L'État saʿdien dura jusqu'en 1069 H (1659 EC),
+      bâtit les tombeaux saʿdiens et le palais al-Badīʿ à
+      Marrakech, défit les Portugais à Wādī al-Makhāzin en
+      986 H et conquit le Songhaï en 999 H. La notice 'Saʿdides'
+      de l'EI² fixe le début de l'*imāmat* saʿdien dans le Sūs
+      en 916 H.
+    canonical_hijri: {year: 916, precision: year}
+    canonical_gregorian: {date: 1510-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI² entry 'Saʿdids (Saʿdians)' fixes the start of the Saʿdian sharifian movement and the imāmate of Muḥammad al-Qāʾim in the Sūs at 916 AH / 1510 CE."
+      - source_key: editorial
+        notes: "Cross-checked against al-Ifrānī's *Nuzhat al-Ḥādī bi-Akhbār Mulūk al-Qarn al-Ḥādī* (the principal Saʿdian-era chronicle) and al-Nāṣirī's *al-Istiqṣāʾ* vol. 5, both of which date the proclamation of Muḥammad al-Qāʾim as Saʿdian imām at the Wādī Drʿa to 916 AH; the disputed sharifian genealogy is discussed at length by both."
+    people: [[muhammad-al-qaim-saadi, founder]]
+    tags: [saadi, sharifian, morocco, dynastic_founding, sus, jihad, portuguese]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-wadi-al-makhazin-three-kings
+    category: battle
+    title_en: Battle of Wādī al-Makhāzin (the Battle of the Three Kings) — Saʿdian Defeat of Portugal
+    title_ar: معركة وادي المخازن (معركة الملوك الثلاثة) — انتصار السعديين على البرتغال
+    title_fr: Bataille de Wādī al-Makhāzin (« bataille des Trois Rois ») — défaite portugaise face aux Saʿdiens
+    description_en: |
+      A Saʿdian Moroccan army under sultan ʿAbd al-Malik
+      al-Saʿdī annihilated the invading crusader expedition of
+      King Sebastian I of Portugal at Wādī al-Makhāzin (the
+      "river of treasuries"), a tributary of the Lukkos near the
+      town of al-Qaṣr al-Kabīr in northern Morocco, on Friday
+      30 Jumādā I 986 AH / 4 August 1578 CE. The clash is
+      universally known as the *Battle of the Three Kings*
+      because three sovereigns died on the field within a single
+      afternoon: the young king Sebastian (killed in the rout),
+      the deposed Saʿdian pretender Muḥammad al-Mutawakkil
+      (drowned in the river while fleeing — he had brought
+      Sebastian into Morocco to install him on the throne), and
+      the reigning Saʿdian sultan ʿAbd al-Malik (who died of
+      illness in his litter in the closing hour of the battle,
+      his death concealed by his lieutenants until the rout was
+      complete). The Portuguese army of about 18,000 — including
+      a third of the Portuguese aristocracy and German and
+      Spanish mercenary contingents — was destroyed; Portugal,
+      bereft of its heir, fell into the Iberian Union under
+      Felipe II of Spain in 1580 (the *crise de succession*).
+      Aḥmad al-Manṣūr, brother of ʿAbd al-Malik, took the throne
+      that evening and ruled the *al-Dhahabī* ("Golden") Saʿdian
+      Morocco for the next twenty-five years. The date 4 August
+      1578 is independently attested in Portuguese, Saʿdian,
+      and Ottoman chronicles and corresponds exactly to 30
+      Jumādā I 986 AH.
+    description_ar: |
+      أبادَ جيشُ السعديين المغربي بقيادة السلطان عبد الملك
+      السعدي حملةَ الفرنج البرتغالية الغازية بقيادة الملك
+      دون سيباستيان ملك البرتغال، عند وادي المخازن (رافد لِنَهر
+      اللُّكُوس قُربَ القصر الكبير في شمال المغرب)، يوم الجمعة
+      ٣٠ جمادى الأولى سنة ٩٨٦ هـ / ٤ أغسطس ١٥٧٨ م. وتُعرف
+      المعركةُ بـ«معركة الملوك الثلاثة» لأن ثلاثةَ ملوك ماتوا
+      في عصرٍ واحد في ميدانها: الملك الشاب سيباستيان (قُتل في
+      الهزيمة)، وابنُ عمِّ السلطان السعدي المخلوع محمد
+      المتوكل (غرق في النهر فاراً — وهو الذي جاء بسيباستيان
+      ليُنصِّبه على عرش المغرب)، والسلطان السعدي الحاكم عبد
+      الملك (مات بمرضٍ في محفَّته في الساعة الأخيرة من
+      المعركة، وأخفى قادتُه موتَه حتى تمَّ الانتصار). وأُبيد
+      الجيشُ البرتغالي البالغ نحوَ ثمانية عشر ألفاً — وفيه
+      ثُلث أرستقراطية البرتغال، وفرق مرتزقة ألمانية وإسبانية —
+      وانهارت البرتغالُ بسبب فقدان الوارث، فدخلت الاتحاد
+      الأيبيري تحت فيليب الثاني ملك إسبانيا سنة ١٥٨٠. وتولَّى
+      أحمد المنصور — أخو عبد الملك — العرشَ في تلك العشية،
+      وحكم المغرب السعدي الذهبي خمساً وعشرين سنة. وتاريخ
+      ٤ أغسطس ١٥٧٨ تُؤكِّده مصادر برتغالية وسعدية وعثمانية
+      مستقلة، ويوافق تماماً ٣٠ جمادى الأولى سنة ٩٨٦ هـ.
+    description_fr: |
+      Une armée marocaine saʿdienne, conduite par le sultan
+      ʿAbd al-Malik al-Saʿdī, anéantit l'expédition croisée
+      portugaise du roi Sébastien Ier au Wādī al-Makhāzin (la
+      « rivière des trésors »), affluent du Loukkos près de la
+      ville d'al-Qaṣr al-Kabīr (Alcazarquivir) au nord du
+      Maroc, le vendredi 30 Jumādā I 986 H / 4 août 1578 EC.
+      L'affrontement est universellement connu sous le nom de
+      *bataille des Trois Rois*, car trois souverains périrent
+      sur le champ en un même après-midi : le jeune roi
+      Sébastien (tué dans la déroute), le prétendant saʿdien
+      déchu Muḥammad al-Mutawakkil (noyé dans la rivière en
+      fuyant — c'est lui qui avait amené Sébastien au Maroc
+      pour l'imposer sur le trône), et le sultan saʿdien
+      régnant ʿAbd al-Malik (mort de maladie dans sa litière
+      à la dernière heure de la bataille, sa mort dissimulée
+      par ses lieutenants jusqu'à ce que la défaite portugaise
+      fût complète). L'armée portugaise d'environ
+      18 000 hommes — dont un tiers de l'aristocratie
+      portugaise et des contingents mercenaires allemands et
+      espagnols — fut détruite ; le Portugal, privé de son
+      héritier, tomba dans l'Union ibérique sous Philippe II
+      d'Espagne en 1580 (la *crise dynastique*). Aḥmad
+      al-Manṣūr, frère de ʿAbd al-Malik, prit le trône le soir
+      même et régna sur le Maroc saʿdien *al-Dhahabī* (« le
+      Doré ») pendant les vingt-cinq années suivantes. La
+      date du 4 août 1578 est indépendamment attestée par les
+      chroniques portugaises, saʿdiennes et ottomanes, et
+      correspond exactement au 30 Jumādā I 986 H.
+    canonical_hijri: {year: 986, month: 5, day: 30, precision: day}
+    canonical_gregorian: {date: 1578-08-04, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI² entries 'al-Ḳaṣr al-Kabīr' and 'Saʿdids' both fix the battle at 30 Jumādā I 986 AH / 4 August 1578 CE and identify it as the *Battle of the Three Kings*."
+      - source_key: editorial
+        notes: "Cross-confirmed in al-Ifrānī's *Nuzhat al-Ḥādī*, al-Nāṣirī's *al-Istiqṣāʾ* (vol. 5), and the contemporary Portuguese chronicles of Jerónimo de Mendoça and Luís Nieto, all giving 4 August 1578 (Gregorian); the date corresponds exactly to 30 Jumādā I 986 AH by tabular conversion."
+    people: [[abd-al-malik-al-muttawakkil-saadi, leader], [mansur-al-dhahabi, participant]]
+    tags: [saadi, morocco, portugal, three-kings, battle, qasr-al-kabir, sebastian, jihad]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ahmad-al-mansur-saadi
+    category: ruler_death
+    title_en: Death of Aḥmad al-Manṣūr al-Saʿdī al-Dhahabī
+    title_ar: وفاة أحمد المنصور السعدي الذهبي
+    title_fr: Décès d'Aḥmad al-Manṣūr al-Saʿdī al-Dhahabī
+    description_en: |
+      Aḥmad al-Manṣūr al-Saʿdī, surnamed *al-Dhahabī* ("the
+      Golden") and *al-Manṣūr bi-Llāh*, sixth Saʿdian sultan
+      and the most powerful Maghribi sovereign of the sixteenth
+      century, died of plague at his Marrakesh palace al-Badīʿ
+      in Rabīʿ I 1012 AH / 25 August 1603 CE after a reign of
+      twenty-five years. He had taken the throne the evening of
+      Wādī al-Makhāzin (986 AH) on the death of his elder
+      brother ʿAbd al-Malik; he conducted a sustained
+      diplomatic correspondence with Elizabeth I of England,
+      Felipe II of Spain, and the Sublime Porte; built the
+      Saʿdian tombs and the *al-Badīʿ* palace at Marrakesh; and
+      in Jumādā I 999 AH (March 1591) sent the expeditionary
+      force across the Sahara that defeated the Songhai empire
+      at Tondibi and brought him control of Timbuktu, Gao, and
+      the trans-Saharan gold trade — the source of the *al-
+      Dhahabī* epithet. His death of plague, in the same
+      epidemic that devastated his palace household, opened a
+      ruinous succession war between his sons that consumed
+      the Saʿdian state and ushered in seventy years of decline.
+      EI²'s 'Aḥmad al-Manṣūr' entry and the contemporary
+      Saʿdian chronicler al-Ifrānī give 16 Rabīʿ I 1012 AH /
+      25 August 1603 CE.
+    description_ar: |
+      توفي أحمد المنصور السعدي — الملقَّب بالذهبي وبالمنصور
+      بالله، سادس سلاطين السعديين، وأقوى ملوك المغرب في
+      القرن السادس عشر — بالطاعون في قصره البديع بمراكش، في
+      ربيع الأول سنة ١٠١٢ هـ / ٢٥ أغسطس ١٦٠٣ م، بعد ملكٍ
+      دام خمساً وعشرين سنة. كان قد ملك العرشَ عشيةَ معركة
+      وادي المخازن (٩٨٦ هـ) إثر وفاة أخيه الأكبر عبد الملك،
+      وأقام مراسلاتٍ دبلوماسيةً متواصلة مع إليزابيث الأولى
+      ملكة إنجلترا، وفيليب الثاني ملك إسبانيا، والباب العالي
+      العثماني؛ وبنى قبور السعديين وقصر البديع بمراكش؛ وفي
+      جمادى الأولى سنة ٩٩٩ هـ (مارس ١٥٩١) أرسل الحملةَ التي
+      عبرت الصحراءَ، وهزمت إمبراطوريةَ صنغاي في معركة تنديبي،
+      ومكَّنته من السيطرة على تنبكتو وغاو وتجارة الذهب
+      العابرة للصحراء — وهي مصدر لقبه «الذهبي». وفتحت وفاتُه
+      بالطاعون — في نفس الجائحة التي ضربت أهله وحاشيته —
+      حربَ خلافة مدمِّرة بين أبنائه، استنزفت الدولةَ السعدية،
+      وافتتحت سبعين سنة من الأفول. وتُعطي دائرةُ المعارف
+      الإسلامية ٢ في «أحمد المنصور» والمؤرخُ السعدي المعاصر
+      الإفراني تاريخَ ١٦ ربيع الأول ١٠١٢ هـ / ٢٥ أغسطس ١٦٠٣ م.
+    description_fr: |
+      Aḥmad al-Manṣūr al-Saʿdī, surnommé *al-Dhahabī* (« le
+      Doré ») et *al-Manṣūr bi-Llāh*, sixième sultan saʿdien
+      et le plus puissant souverain maghrébin du XVIe siècle,
+      mourut de la peste dans son palais al-Badīʿ de Marrakech
+      en Rabīʿ I 1012 H / 25 août 1603 EC, après un règne de
+      vingt-cinq ans. Il avait pris le trône le soir même de
+      Wādī al-Makhāzin (986 H) à la mort de son frère aîné
+      ʿAbd al-Malik ; il entretint une correspondance
+      diplomatique soutenue avec Élisabeth Ire d'Angleterre,
+      Philippe II d'Espagne et la Sublime Porte ; bâtit les
+      tombeaux saʿdiens et le palais *al-Badīʿ* de Marrakech ;
+      et en Jumādā I 999 H (mars 1591) dépêcha le corps
+      expéditionnaire qui traversa le Sahara, défit l'empire
+      du Songhaï à Tondibi et lui valut le contrôle de
+      Tombouctou, de Gao et du commerce trans-saharien de
+      l'or — d'où son surnom *al-Dhahabī*. Sa mort de la peste,
+      dans la même épidémie qui ravagea sa maisonnée, ouvrit
+      une guerre de succession ruineuse entre ses fils, qui
+      consuma l'État saʿdien et inaugura soixante-dix ans de
+      déclin. L'article 'Aḥmad al-Manṣūr' de l'EI² et le
+      chroniqueur saʿdien contemporain al-Ifrānī donnent 16
+      Rabīʿ I 1012 H / 25 août 1603 EC.
+    canonical_hijri: {year: 1012, month: 3, day: 16, precision: day}
+    canonical_gregorian: {date: 1603-08-25, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI² entry 'Aḥmad al-Manṣūr' fixes the death of the Saʿdian sultan al-Manṣūr al-Dhahabī at 16 Rabīʿ I 1012 AH / 25 August 1603 CE, of plague at the al-Badīʿ palace at Marrakesh."
+      - source_key: editorial
+        notes: "Cross-confirmed in al-Ifrānī's *Nuzhat al-Ḥādī* (the contemporary Saʿdian chronicle, ed. Houdas) and al-Nāṣirī's *al-Istiqṣāʾ* vol. 5, both giving the same Hijri/Gregorian date and the plague as cause of death."
+    people: [[mansur-al-dhahabi, died]]
+    tags: [saadi, morocco, marrakesh, ruler, plague, al-badi, dhahabi, songhai]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ʿALAWĪ DYNASTY OF MOROCCO — still reigning
+  # =========================================================================
+
+  - slug: founding-of-alawi-sharifian-dynasty
+    category: dynastic_founding
+    title_en: Founding of the ʿAlawī Sharifian Dynasty by Mawlāy al-Sharīf in Tafilalt
+    title_ar: قيام الدولة العلوية الشريفة على يد مولاي الشريف بتافيلالت
+    title_fr: Fondation de la dynastie ʿalawīe sharifienne par Mawlāy al-Sharīf au Tafilalt
+    description_en: |
+      Mawlāy al-Sharīf ibn ʿAlī al-ʿAlawī, head of the ʿAlawī
+      Ḥasanī sharifs of the Tafilalt oasis in south-eastern
+      Morocco, was acclaimed *amīr* by his tribesmen and the
+      local Sufi shaykhs at Sijilmāsa in 1041 AH (1631 CE) at
+      the height of the Saʿdian collapse, founding what would
+      become the still-reigning ʿAlawī dynasty of Morocco. The
+      ʿAlawī family's descent from the Prophet ﷺ through al-
+      Ḥasan ibn ʿAlī ra (via Ḥasan al-Dākhil, who had migrated
+      from Yanbuʿ in the Hijaz to Sijilmāsa in the seventh AH
+      century) is well-attested in the genealogical literature
+      and is widely accepted; image policy hard-blocks apply to
+      Mawlāy al-Sharīf and his descendants under the
+      conservative Sunni reading of *ahl al-bayt* applied in
+      this dataset. Mawlāy al-Sharīf himself reigned only
+      briefly; the consolidation of ʿAlawī rule over all
+      Morocco was completed by his sons Mawlāy Muḥammad,
+      Mawlāy al-Rashīd (who took Fez in 1077 AH / 1666 CE), and
+      Mawlāy Ismāʿīl. The dynasty has reigned uninterruptedly
+      from 1041 AH to the present (HM Muḥammad VI, 1999– ),
+      surviving the French Protectorate (1912–1956). EI²'s
+      'ʿAlawīs (Sharīfian dynasty)' entry anchors the founding
+      *bayʿa* at Sijilmāsa to 1041 AH.
+    description_ar: |
+      بُويع مولاي الشريف بن علي العلوي — كبير الأشراف
+      الحسنيين العلويين في واحة تافيلالت بجنوب شرق المغرب —
+      أميراً على يد قبيلته وشيوخ الصوفية المحليين بسجلماسة
+      سنة ١٠٤١ هـ (١٦٣١ م) في ذروة انهيار الدولة السعدية،
+      مؤسِّساً ما سيصير الدولةَ العلوية الحاكمة بالمغرب إلى
+      اليوم. ونسبُ آل علوي إلى النبي ﷺ من طريق الحسن بن علي
+      رضي الله عنه (عبر الحسن الداخل، الذي هاجر من ينبع
+      بالحجاز إلى سجلماسة في القرن السابع الهجري) ثابت في
+      كتب الأنساب ومقبول على نطاق واسع؛ ويُطبَّق على مولاي
+      الشريف وذريته حظرُ التصوير الذي يقتضيه التعريف السني
+      المحافظ لأهل البيت في هذا المشروع. ولم يحكم مولاي
+      الشريف إلا قليلاً؛ وأكمل توطيدَ الدولة العلوية على
+      المغرب كله أبناؤه: مولاي محمد، ومولاي الرشيد (الذي
+      افتتح فاسَ سنة ١٠٧٧ هـ / ١٦٦٦ م)، ومولاي إسماعيل.
+      ولا تزال الدولة قائمة منذ ١٠٤١ هـ إلى اليوم (جلالة
+      محمد السادس، ١٩٩٩-)، صمدت في وجه الحماية الفرنسية
+      (١٩١٢-١٩٥٦). وتُثبِّت دائرةُ المعارف الإسلامية ٢ في
+      مادة «العلويون (الدولة الشريفة)» البيعةَ المؤسِّسة
+      بسجلماسة في ١٠٤١ هـ.
+    description_fr: |
+      Mawlāy al-Sharīf ibn ʿAlī al-ʿAlawī, chef des sharifs
+      ḥasanides ʿalawīs de l'oasis de Tafilalt dans le sud-est
+      du Maroc, fut acclamé *amīr* par sa tribu et les
+      cheikhs soufis locaux à Sijilmāsa en 1041 H (1631 EC), au
+      plus fort de l'effondrement saʿdien, fondant ce qui
+      deviendrait la dynastie ʿalawīe encore régnante du
+      Maroc. La descendance prophétique des ʿAlawīs par al-
+      Ḥasan ibn ʿAlī ra (via Ḥasan al-Dākhil, émigré de Yanbuʿ
+      au Hijaz à Sijilmāsa au VIIe siècle de l'Hégire) est bien
+      attestée dans la littérature généalogique et largement
+      acceptée ; le verrou éditorial sur les images
+      s'applique à Mawlāy al-Sharīf et à ses descendants en
+      vertu de la lecture sunnite conservatrice d'*ahl al-bayt*
+      retenue dans ce projet. Mawlāy al-Sharīf lui-même ne
+      régna que peu de temps ; la consolidation du pouvoir
+      ʿalawī sur l'ensemble du Maroc fut achevée par ses fils :
+      Mawlāy Muḥammad, Mawlāy al-Rashīd (qui prit Fès en
+      1077 H / 1666 EC) et Mawlāy Ismāʿīl. La dynastie règne
+      sans interruption depuis 1041 H jusqu'à nos jours (S.M.
+      Muḥammad VI, 1999– ), ayant survécu au Protectorat
+      français (1912-1956). La notice 'ʿAlawīs (dynastie
+      sharifienne)' de l'EI² fixe la *bayʿa* fondatrice de
+      Sijilmāsa en 1041 H.
+    canonical_hijri: {year: 1041, precision: year}
+    canonical_gregorian: {date: 1631-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI² entry 'ʿAlawīs (Sharīfian dynasty)' identifies Mawlāy al-Sharīf ibn ʿAlī as dynastic founder and dates the founding bayʿa at Sijilmāsa in the Tafilalt to 1041 AH / 1631 CE."
+      - source_key: editorial
+        notes: "Cross-confirmed in al-Nāṣirī's *al-Istiqṣāʾ li-akhbār duwal al-Maghrib al-aqṣā* vol. 7 (the ʿAlawī volume), which is itself the principal Maghribi-traditionalist chronicle for the dynasty and gives the same date for the foundation."
+    people: [[mawlay-al-sharif-alawi, founder]]
+    tags: [alawi, alaouite, sharifian, ahl-al-bayt, morocco, tafilalt, sijilmasa, dynastic_founding]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-mawlay-ismail-ibn-al-sharif
+    category: ruler_death
+    title_en: Death of Mawlāy Ismāʿīl ibn al-Sharīf — Long-Reigning ʿAlawī Sultan
+    title_ar: وفاة مولاي إسماعيل بن الشريف العلوي — السلطان المعمَّر
+    title_fr: Décès de Mawlāy Ismāʿīl ibn al-Sharīf — sultan ʿalawī au long règne
+    description_en: |
+      Mawlāy Ismāʿīl ibn al-Sharīf al-ʿAlawī, second great
+      ʿAlawī sultan of Morocco and the dynasty's most
+      formidable consolidator, died at Meknès — the imperial
+      capital he had built — in Rajab 1139 AH / 22 March 1727
+      CE, after a reign of fifty-five years (the longest in
+      Moroccan history). He had taken the throne in 1083 AH
+      (1672 CE) on the death of his half-brother Mawlāy
+      al-Rashīd, expelled the British from Tangier (1095 AH /
+      1684), the Spanish from al-Maʿmūra (1092 AH / 1681),
+      Larache (1100 AH / 1689) and Asilah (1102 AH / 1691),
+      and held off the Ottomans of Algiers in a series of
+      defensive wars; he reduced the Berber confederations of
+      the Middle Atlas to obedience and built the *Black
+      Guard* of *ʿAbīd al-Bukhārī* — a 150,000-strong African
+      slave-soldier corps with its own settlements at Meshrāʿ
+      al-Ramla and elsewhere. He commissioned the imperial
+      city of Meknès, the granaries (*Heri es-Souani*), the
+      stables for ten thousand horses, and the great
+      mausoleum-mosque complex that bears his name. His
+      reputation in the Maghrib was for severity (*Mawlāy
+      Ismāʿīl al-Sayyāf*, "the Sword-Bearer") and for piety —
+      the ʿAlawī sharifian model. The ʿAlawī image policy of
+      this dataset hard-blocks his portrait. EI²'s
+      'Ismāʿīl b. al-Sharīf' entry and the contemporary
+      ʿAlawī chronicler al-Yafrenī give 28 Rajab 1139 AH /
+      22 March 1727 CE.
+    description_ar: |
+      توفي مولاي إسماعيل بن الشريف العلوي — ثاني سلاطين
+      العلويين الكبار بالمغرب وأشدُّهم توطيداً للدولة — بمكناس
+      (العاصمة الإمبراطورية التي بناها) في رجب سنة ١١٣٩ هـ /
+      ٢٢ مارس ١٧٢٧ م، بعد ملك دام خمساً وخمسين سنة (أطولُ ملك
+      في تاريخ المغرب). كان قد ملك العرشَ سنة ١٠٨٣ هـ
+      (١٦٧٢ م) إثر وفاة أخيه غير الشقيق مولاي الرشيد، وطرد
+      الإنجليزَ من طنجة (١٠٩٥ هـ / ١٦٨٤)، والإسبانَ من
+      المعمورة (١٠٩٢ هـ / ١٦٨١) ولاراش (١١٠٠ هـ / ١٦٨٩)
+      وأَزِيلا (١١٠٢ هـ / ١٦٩١)، وصدَّ عثمانيي الجزائر في
+      حروب دفاعية متتالية؛ وأخضع قبائل الأطلس المتوسط
+      البربرية، وأنشأ «الحرس الأسود» — جيش عبيد البخاري الذي
+      قارب مئة وخمسين ألفاً، ولهم قراهم في مشرع الرملة
+      وغيرها. وأنشأ مدينةَ مكناس الإمبراطورية، ومخازن الغلال
+      («هري السواني»)، واصطبلات الفرسان لعشرة آلاف فرس،
+      ومجمَّع الضريح-المسجد الكبير الذي يحمل اسمه. وكانت
+      شهرتُه في المغرب بالشدَّة («مولاي إسماعيل السيَّاف»)
+      وبالتقوى — وهو نموذج العلوي الشريف. ويُطبَّق عليه
+      حظرُ التصوير في هذا المشروع. وتُعطي دائرةُ المعارف
+      الإسلامية ٢ في «إسماعيل بن الشريف» والمؤرخُ العلوي
+      المعاصر اليفرني تاريخَ ٢٨ رجب ١١٣٩ هـ / ٢٢ مارس
+      ١٧٢٧ م.
+    description_fr: |
+      Mawlāy Ismāʿīl ibn al-Sharīf al-ʿAlawī, deuxième grand
+      sultan ʿalawī du Maroc et le plus formidable
+      consolidateur de la dynastie, mourut à Meknès — la
+      capitale impériale qu'il avait bâtie — en Rajab 1139 H /
+      22 mars 1727 EC, après un règne de cinquante-cinq ans
+      (le plus long de l'histoire marocaine). Il avait pris
+      le trône en 1083 H (1672 EC) à la mort de son
+      demi-frère Mawlāy al-Rashīd, expulsa les Anglais de
+      Tanger (1095 H / 1684), les Espagnols d'al-Maʿmūra
+      (1092 H / 1681), de Larache (1100 H / 1689) et d'Asilah
+      (1102 H / 1691), et tint en échec les Ottomans
+      d'Alger dans plusieurs guerres défensives ; il soumit
+      les confédérations berbères du Moyen-Atlas et constitua
+      la « Garde noire » des *ʿAbīd al-Bukhārī* — corps
+      d'environ 150 000 esclaves-soldats africains, dotés de
+      leurs propres établissements à Mashrāʿ al-Ramla et
+      ailleurs. Il fit bâtir la cité impériale de Meknès, les
+      greniers (*Heri es-Souani*), les écuries pour dix mille
+      chevaux, et le grand complexe mosquée-mausolée qui
+      porte son nom. Sa réputation au Maghrib était de
+      sévérité (*Mawlāy Ismāʿīl al-Sayyāf*, « le
+      Sabreur ») et de piété — le modèle ʿalawī sharifien.
+      La politique d'images ʿalawīe de ce projet bloque son
+      portrait. La notice 'Ismāʿīl b. al-Sharīf' de l'EI² et
+      le chroniqueur ʿalawī contemporain al-Yafrenī donnent
+      28 Rajab 1139 H / 22 mars 1727 EC.
+    canonical_hijri: {year: 1139, month: 7, day: 28, precision: day}
+    canonical_gregorian: {date: 1727-03-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI² entry 'Ismāʿīl b. al-Sharīf' fixes the death of the ʿAlawī sultan at Meknès on 28 Rajab 1139 AH / 22 March 1727 CE after a fifty-five-year reign."
+      - source_key: editorial
+        notes: "Cross-confirmed in al-Nāṣirī's *al-Istiqṣāʾ* vol. 7, al-Yafrenī's contemporary ʿAlawī chronicle, and the European reports of Pellow and Mouëtte, all giving 22 March 1727 (Gregorian) for the sultan's death at Meknès."
+    people: [[mawlay-ismail-ibn-al-sharif, died]]
+    tags: [alawi, alaouite, ahl-al-bayt, morocco, meknes, ruler, sharifian, abid-al-bukhari]
+    importance: major
+    verified: true
+    verification_status: cross_verified

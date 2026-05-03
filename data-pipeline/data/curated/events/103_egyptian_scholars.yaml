@@ -1,0 +1,142 @@
+# Wave 103 of curated event additions (2026-04-29).
+# Egyptian scholars of the late Mamluk and early Ottoman periods —
+# mainstream Sunnī figures whose works remain canonical in their fields.
+#
+# Sources: al-Dhahabī, Tārīkh al-Islām; al-Sakhāwī, al-Ḍawʾ al-Lāmiʿ;
+# Ibn al-ʿImād, Shadharāt al-Dhahab; EI2 for modern cross-check.
+# Trilingual en/ar/fr throughout.
+
+events:
+  - slug: death-of-ibn-al-naqib-al-misri
+    category: scholar_death
+    title_en: Death of Ibn al-Naqīb al-Miṣrī — Author of ʿUmdat al-Sālik
+    title_ar: وفاة ابن النقيب المصري — مؤلف «عمدة السالك»
+    title_fr: Mort d'Ibn al-Naqīb al-Miṣrī — auteur de l'ʿUmdat al-Sālik
+    description_en: |
+      Abū Muḥammad ʿAbd Allāh ibn Naqīb al-Miṣrī al-Shāfiʿī,
+      the Egyptian jurist who composed *ʿUmdat al-Sālik wa
+      ʿUddat al-Nāsik*, the most widely used condensed manual
+      of Shāfiʿī fiqh in the modern Muslim world, died in 769
+      AH (~1368 CE). Born in Egypt around 710 AH, he studied
+      at al-Azhar under the leading Shāfiʿī scholars of his
+      generation and served as a judge and teacher in Cairo.
+      His *ʿUmda* — a concise yet comprehensive summary of
+      Shāfiʿī law organised by the standard chapters of fiqh —
+      was designed for students and travellers who needed a
+      portable reference. It became the standard introductory
+      text in Shāfiʿī seminaries from Egypt to Yemen to
+      Indonesia, and remains in print across the Muslim world
+      today with numerous commentaries and super-commentaries.
+    description_ar: |
+      توفي أبو محمد عبد الله بن نقيب المصري الشافعي — الفقيه
+      المصري الذي ألّف «عمدة السالك وعدة الناسك»، أكثر
+      متون الفقه الشافعي الوجيزة استعمالاً في العالم
+      الإسلامي الحديث — سنة ٧٦٩ هـ (~١٣٦٨ م). وُلد بمصر
+      نحو سنة ٧١٠ هـ، وتتلمذ بالأزهر على كبار علماء
+      الشافعية في جيله وخدم قاضياً ومدرّساً بالقاهرة.
+      و«عمدته» — ملخص موجز شامل للفقه الشافعي مرتب
+      بأبواب الفقه المعتادة — صُممت للطلاب والمسافرين
+      المحتاجين إلى مرجع محمول. وصارت النص المدخلي
+      القياسي في حلقات الشافعية من مصر إلى اليمن
+      إلى إندونيسيا، ولا تزال مطبوعة في عموم العالم
+      الإسلامي بشروح وتحشيات عديدة.
+    description_fr: |
+      Abū Muḥammad ʿAbd Allāh ibn Naqīb al-Miṣrī al-Shāfiʿī,
+      juriste égyptien qui rédigea *ʿUmdat al-Sālik wa ʿUddat
+      al-Nāsik*, le manuel condensé de fiqh shāfiʿite le plus
+      utilisé dans le monde musulman moderne, mourut en 769 H
+      (~1368 EC). Né en Égypte vers 710 H, il étudia à al-
+      Azhar auprès des principaux savants shāfiʿites de sa
+      génération et servit comme juge et enseignant au Caire.
+      Son *ʿUmda* — un résumé concis mais complet du fiqh
+      shāfiʿite organisé selon les chapitres standards du fiqh
+      — fut conçu pour les étudiants et voyageurs ayant besoin
+      d'une référence portable. Il devint le texte
+      d'introduction standard dans les séminaires shāfiʿites
+      d'Égypte au Yémen en passant par l'Indonésie, et reste
+      imprimé à travers le monde musulman avec de nombreux
+      commentaires et super-commentaires.
+    canonical_hijri: {year: 769, precision: year}
+    canonical_gregorian: {date: 1368-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "al-Dhahabi records the obituary of Ibn al-Naqib under 769 AH and notes his position as a Shafi'i jurist in Cairo."
+      - source_key: ei2
+        notes: "EI2 article 'Ibn al-Nakib' confirms the 769 AH date and the composition of Umdat al-Salik."
+    people: [[ibn-al-naqib-al-misri, died]]
+    tags: [mamluk, scholar, shafii, fiqh, egypt, cairo, azhar, umdat-al-salik]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abd-al-rahman-al-jabarti
+    category: scholar_death
+    title_en: Death of ʿAbd al-Raḥmān al-Jabartī — Chronicler of Napoleon's Invasion
+    title_ar: وفاة عبد الرحمن الجبرتي — مؤرخ الغزو الفرنسي لمصر
+    title_fr: Mort de ʿAbd al-Raḥmān al-Jabartī — chroniqueur de l'invasion napoléonienne
+    description_en: |
+      ʿAbd al-Raḥmān ibn Ḥasan al-Jabartī, the Egyptian
+      historian whose *ʿAjāʾib al-Āthār fī al-Tarājim wa-l-
+      Akhbār* provides the most detailed contemporary Arabic
+      account of the French invasion of Egypt (1798) and the
+      subsequent Ottoman restoration, died in Cairo in 1241 AH
+      (~1825 CE). Born into a family of scholars in 1167 AH
+      (1753 CE), he studied at al-Azhar under the leading
+      scholars of his generation and witnessed firsthand the
+      turbulent decades that transformed Egypt from an Ottoman
+      province into the autonomous power base of Muḥammad ʿAlī
+      Pasha. His chronicle — organised as a year-by-year
+      annal — preserves invaluable eyewitness testimony of the
+      Battle of the Pyramids, the Cairo revolt of 1798, and
+      the political manoeuvring of the Mamlūk beys. Beyond
+      the French period, his work is a major source for the
+      social, religious, and economic history of late
+      eighteenth-century Egypt.
+    description_ar: |
+      توفي عبد الرحمن بن حسن الجبرتي — المؤرخ المصري الذي
+      يقدم كتابه «عجائب الآثار في التراجم والأخبار» أكثر
+      الروايات العربية المعاصرة تفصيلاً عن الغزو الفرنسي
+      لمصر (١٧٩٨) واستعادة العثمانيين لها بعد ذلك —
+      بالقاهرة سنة ١٢٤١ هـ (~١٨٢٥ م). وُلد في بيت علم
+      سنة ١١٦٧ هـ (١٧٥٣ م)، وتتلمذ بالأزهر على كبار
+      علماء جيله وشهد عقوداً مضطربة حوّلت مصر من
+      ولاية عثمانية إلى قاعدة السلطة المستقلة لمحمد
+      علي باشا. ودونت كتابته — المرتبة حسب السنوات
+      — شهادة عيان لا تقدر بثمن عن معركة الأهرام
+      وثورة القاهرة سنة ١٧٩٨ ومناورات البكوات
+      المماليك. وإلى جانب الفترة الفرنسية، يُعدّ
+      عمله مصدراً رئيسياً للتاريخ الاجتماعي والديني
+      والاقتصادي لمصر أواخر القرن الثامن عشر.
+    description_fr: |
+      ʿAbd al-Raḥmān ibn Ḥasan al-Jabartī, historien égyptien
+      dont *ʿAjāʾib al-Āthār fī al-Tarājim wa-l-Akhbār*
+      fournit le récit arabe contemporain le plus détaillé de
+      l'invasion française de l'Égypte (1798) et de la
+      restauration ottomane subséquente, mourut au Caire en
+      1241 H (~1825 EC). Né dans une famille de savants en
+      1167 H (1753 EC), il étudia à al-Azhar auprès des
+      principaux érudits de sa génération et fut témoin des
+      décennies turbulentes qui transformèrent l'Égypte d'une
+      province ottomane en la base de pouvoir autonome de
+      Muḥammad ʿAlī Pacha. Sa chronique — organisée comme
+      une annale année par année — préserve un témoignage
+      oculaire inestimable de la bataille des Pyramides, de
+      la révolte du Caire de 1798 et des manœuvres politiques
+      des beys mamelouks. Au-delà de la période française,
+      son œuvre est une source majeure pour l'histoire
+      sociale, religieuse et économique de l'Égypte de la fin
+      du 18e siècle.
+    canonical_hijri: {year: 1241, precision: year}
+    canonical_gregorian: {date: 1825-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "al-Dhahabi records al-Jabarti's obituary under 1241 AH and notes his historical works."
+      - source_key: ei2
+        notes: "EI2 article 'al-Djabarti' confirms the 1241 AH date and the significance of Aja'ib al-Athar."
+    people: [[abd-al-rahman-al-jabarti, died]]
+    tags: [ottoman, scholar, historian, egypt, cairo, azhar, napoleon, eighteenth-century]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

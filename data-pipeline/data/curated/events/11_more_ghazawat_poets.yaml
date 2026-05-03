@@ -1,0 +1,414 @@
+# Additional Prophetic-era expeditions (ghazawat) not yet covered, plus
+# major classical poets with attested death dates.
+
+events:
+  - slug: banu-nadir-expedition
+    category: prophetic_era
+    title_en: Expulsion of Banu Nadir
+    title_ar: إجلاء بني النضير
+    title_fr: Expulsion des Banū al-Naḍīr
+    description_en: |
+      After Banu Nadir conspired to kill the Prophet ﷺ during a visit —
+      attempting to drop a millstone on him from a rooftop — the Prophet
+      ﷺ besieged their strongholds in Madinah for six days. They
+      surrendered on condition of safe departure with what their camels
+      could carry, and relocated to Khaybar. Surah al-Hashr was revealed
+      about these events, beginning: "He is the One who drove out those
+      who disbelieved from among the People of the Book from their homes
+      at the first gathering."
+    description_ar: |
+      بعد أن تآمر بنو النضير على قتل النبي ﷺ أثناء زيارته لهم —
+      إذ هَمّوا بإلقاء رحًى عليه من سطح بيت — حاصرهم النبي ﷺ في
+      حصونهم بالمدينة ستّ ليال، فاستسلموا على أن يخرجوا آمنين بما
+      تحمل إبلهم، فانتقلوا إلى خيبر. ونزلت في شأنهم سورة الحشر
+      الَّتي يقول الله فيها: "هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا
+      مِنْ أَهْلِ الْكِتَابِ مِن دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ".
+    description_fr: |
+      Après que les Banū al-Naḍīr eurent conspiré pour assassiner le
+      Prophète ﷺ lors d'une de ses visites — en tentant de faire tomber
+      sur lui une meule depuis un toit — le Prophète ﷺ assiégea leurs
+      fortifications à Médine pendant six jours. Ils se rendirent à la
+      condition de pouvoir partir en sécurité avec ce que leurs
+      chamelles pourraient porter, et s'établirent à Khaybar. La sourate
+      al-Ḥashr fut révélée à cette occasion, s'ouvrant ainsi : « C'est
+      Lui qui a expulsé de leurs maisons, lors du premier exode, ceux
+      des Gens du Livre qui n'avaient pas cru. »
+    canonical_hijri: {year: 4, month: 3, precision: month}
+    canonical_gregorian: {date: 625-08-01, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+        notes: "Rabi' al-Awwal 4 AH — Ibn Ishaq via Ibn Hisham; al-Waqidi places after Bi'r Ma'una, giving same month."
+      - source_key: tabari_tarikh
+      - source_key: ibn_sad_tabaqat
+      - source_key: quran
+        notes: Surah al-Hashr 59.
+    people: [[muhammad, leader]]
+    tags: [prophetic-era, madinah, banu-nadir, quran-referenced]
+    source_url: https://en.wikipedia.org/wiki/Invasion_of_Banu_Nadir
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    quran_refs: "59:1-7"
+
+  - slug: banu-qurayza-judgment
+    category: prophetic_era
+    title_en: Judgment on Banu Qurayza
+    title_ar: غزوة بني قريظة
+    title_fr: Jugement des Banū Qurayẓa
+    description_en: |
+      Following the Battle of the Trench — during which Banu Qurayza had
+      broken their treaty with Madinah to aid the besieging Quraysh-led
+      coalition — the Prophet ﷺ laid siege to their quarters. They agreed
+      to be judged by Sa'd ibn Mu'adh of the Aws, their former allies.
+      Sa'd — gravely wounded from Khandaq — ruled according to the
+      Torah's law of treasonous cities: the men were executed, the women
+      and children taken as captives, the property distributed. The
+      Prophet ﷺ approved the ruling as being in accord with Allah's
+      judgment. Surah al-Ahzab 33:26 alludes to these events.
+    description_ar: |
+      في أعقاب غزوة الخندق — التي نقضت فيها بنو قريظة عهدهم مع
+      المدينة لتعين الأحزاب من قريش وحلفائها — حاصرهم النبي ﷺ
+      في حصونهم. فقبلوا التحكيم إلى سعد بن معاذ سيد الأوس،
+      حلفائهم السابقين. وحكم سعد — وكان جريحًا في الخندق — بحكم
+      التوراة في مدائن الخيانة: يُقتل المقاتلون، وتُسبى النساء
+      والذرية، ويُقسم المال. فأقرّ النبي ﷺ حكمه قائلًا إنه
+      حُكم بحكم الله. وأشارت إلى هذه الأحداث آيات سورة الأحزاب
+      33:26-27.
+    description_fr: |
+      Après la Bataille du Fossé — au cours de laquelle les Banū Qurayẓa
+      avaient rompu leur traité avec Médine pour soutenir la coalition
+      menée par Quraysh — le Prophète ﷺ assiégea leurs quartiers. Ils
+      acceptèrent d'être jugés par Saʿd ibn Muʿādh des Aws, leurs anciens
+      alliés. Saʿd — gravement blessé lors de Khandaq — rendit son
+      jugement selon la loi de la Torah relative aux cités traîtresses :
+      les hommes furent exécutés, les femmes et les enfants faits
+      captifs, les biens distribués. Le Prophète ﷺ approuva la sentence
+      comme conforme au jugement d'Allāh. La sourate al-Aḥzāb 33:26-27
+      fait allusion à ces événements.
+    canonical_hijri: {year: 5, month: 11, precision: month}
+    canonical_gregorian: {date: 627-04-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+      - source_key: bukhari_sahih
+        notes: Sahih al-Bukhari 3804 — the Prophet's ﷺ approval of Sa'd's ruling.
+      - source_key: quran
+        notes: Surah al-Ahzab 33:26-27.
+    people: [[muhammad, leader]]
+    tags: [prophetic-era, madinah, banu-qurayza, khandaq]
+    source_url: https://en.wikipedia.org/wiki/Invasion_of_Banu_Qurayza
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    quran_refs: "33:26-27"
+    hadith_refs: Bukhari 3804
+
+  - slug: banu-mustaliq-expedition
+    category: prophetic_era
+    title_en: Expedition of Banu al-Mustaliq
+    title_ar: غزوة بني المصطلق
+    title_fr: Expédition des Banū al-Muṣṭaliq
+    description_en: |
+      The expedition that ended in the swift defeat of Banu al-Mustaliq at
+      al-Muraysi'. Juwayriyya bint al-Harith, daughter of the tribe's
+      chieftain, was captured; the Prophet ﷺ married her, whereupon a
+      hundred households of her tribe were freed by Muslims as "in-laws of
+      the Messenger of Allah" — the conversion of the whole tribe
+      followed. The return from this expedition was the setting for the
+      Incident of al-Ifk, in which Aisha ra was slandered after being
+      separated from the caravan, and of which she was absolved by the
+      revelation of Surah al-Nur 24:11-20.
+    description_ar: |
+      الغزوة التي انتهت بهزيمة بني المصطلق السريعة عند ماء المريسيع.
+      وأُسرت جويرية بنت الحارث ابنة سيد القبيلة، فتزوجها النبي ﷺ،
+      فأعتق المسلمون مئة بيت من قومها قائلين "أصهار رسول الله"،
+      ودخلت القبيلة كلها في الإسلام في إثر ذلك. وكان عودُ هذه
+      الغزوة موضع حادثة الإفك التي رُميت فيها عائشة رضي الله عنها
+      بعد تخلّفها عن الركب، فبرّأها الله بآيات سورة النور 24:11-20.
+      
+      Classical sources divide between 5 AH (Ibn Isḥāq, the dominant sira tradition) and 6 AH (Ibn Saʿd); we follow Ibn Isḥāq with 5 AH per the standard sira chronology.
+      
+      اختلفت كتب السيرة بين سنة ٥ هـ (وهي رواية ابن إسحاق وعليها أكثر السيرة) وسنة ٦ هـ (رواية ابن سعد)؛ ونتبع هنا ابن إسحاق بسنة ٥ هـ على ترتيب السيرة المعتمد.
+    description_fr: |
+      L'expédition qui s'acheva par la défaite rapide des Banū
+      al-Muṣṭaliq à al-Muraysīʿ. Juwayriyya bint al-Ḥārith, fille du chef
+      de la tribu, fut capturée ; le Prophète ﷺ l'épousa, à la suite de
+      quoi une centaine de familles de sa tribu furent affranchies par
+      les Musulmans en tant que « beaux-parents du Messager d'Allāh » —
+      la conversion de toute la tribu suivit. Le retour de cette
+      expédition fut le cadre de l'Incident d'al-Ifk, au cours duquel
+      ʿĀʾisha ra fut calomniée après avoir été séparée de la caravane,
+      et dont elle fut innocentée par la révélation de la sourate al-Nūr
+      24:11-20.
+    canonical_hijri: {year: 5, month: 8, precision: month}
+    canonical_gregorian: {date: 627-01-15, precision: month, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+        notes: "Sha'ban 5 AH per Bukhari's chronology (Ibn Hajar reconciles Bukhari's apparent '4 AH' as scribal error for 5)."
+      - source_key: tabari_tarikh
+        hijri: {year: 6, month: 8, precision: month}
+        notes: "Sha'ban 6 AH per Ibn Ishaq via Tabari. Both years are Sunni-attested positions."
+      - source_key: bukhari_sahih
+        notes: Sahih al-Bukhari 4750 — hadith of al-Ifk from Aisha ra herself.
+      - source_key: quran
+        notes: Surah al-Nur 24:11-20 (al-Ifk).
+    people: [[muhammad, leader], [aisha-bint-abi-bakr, subject]]
+    tags: [prophetic-era, madinah, banu-mustaliq, ifk, quran-referenced]
+    importance: notable
+    disputed: true
+    dispute_about: date
+    verified: true
+    verification_status: cross_verified
+    quran_refs: "24:11-20"
+    hadith_refs: "Bukhari 4750, Muslim 2770"
+
+  - slug: dhat-al-riqa
+    category: battle
+    title_en: Ghazwat Dhat al-Riqa'
+    title_ar: غزوة ذات الرقاع
+    title_fr: Bataille de Dhāt al-Riqāʿ
+    description_en: |
+      A defensive expedition against Ghatafan confederate tribes that had
+      gathered to attack Madinah. The name "Dhat al-Riqa'" ("the one of
+      patches") is variously explained — that the Muslims' feet were so
+      worn they wrapped them in cloth patches, or that the area had
+      patched-coloured earth, or that the battle standard was patched.
+      It is traditionally the occasion for the ruling on Salat al-Khawf
+      (prayer of fear) — a shortened form prayed under threat of attack,
+      in which the congregation divides into groups that pray alternately.
+    description_ar: |
+      غزوة دفاعية ضد قبائل غطفان المتحالفة التي تجمّعت للإغارة على
+      المدينة. واسم "ذات الرقاع" قد فُسِّر بوجوه: إما لأنّ أقدام
+      المسلمين تشقّقت فعصبوها بالخرق، وإما لأنّ تربة المكان كانت
+      مرقّعة الألوان، وإما لأنّ الراية كانت فيها رقاع. وهي بحسب
+      التقليد المناسبة التي شُرعت فيها صلاة الخوف — صورة مقصورة
+      من الصلاة تُؤدَّى تحت تهديد العدوّ بحيث تتناوب طوائف الجيش
+      الصلاة وراء الإمام.
+      
+      The chronology of this expedition is genuinely contested in the sira tradition: Ibn Isḥāq places it after Banū Naḍīr in 4 AH, al-Bukhārī's chronology places it after Khaybar (after 7 AH); we record the event without committing to a precise year, following the spread of attested positions.
+      
+      تاريخ هذه الغزوة محل خلاف حقيقي في كتب السيرة: ضعها ابن إسحاق بعد بني النضير سنة ٤ هـ، ووضعها البخاري بعد خيبر (بعد سنة ٧ هـ)؛ وعليه نسجل الغزوة دون التزام بسنة محددة، مستوعبين تنوع الأقوال المعتبرة.
+    description_fr: |
+      Expédition défensive contre les tribus confédérées de Ghaṭafān qui
+      s'étaient rassemblées pour attaquer Médine. Le nom « Dhāt al-Riqāʿ »
+      (« celle des pièces ») est expliqué de diverses manières : soit
+      parce que les pieds des Musulmans étaient tellement usés qu'ils les
+      enveloppèrent de pièces d'étoffe, soit parce que la région avait un
+      sol bigarré, soit parce que l'étendard de combat était rapiécé.
+      C'est traditionnellement l'occasion de la prescription de la Ṣalāt
+      al-Khawf (prière de la peur) — une forme abrégée priée sous la
+      menace d'une attaque, où la congrégation se divise en groupes qui
+      prient alternativement.
+    canonical_hijri: {year: 4, precision: year}
+    canonical_gregorian: {date: 625-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hisham_sira
+        is_canonical: true
+        notes: "Safar 4 AH per Ibn Ishaq via Ibn Hisham."
+      - source_key: tabari_tarikh
+        hijri: {year: 5, month: 1, precision: month}
+        notes: "Muharram 5 AH per al-Waqidi."
+      - source_key: bukhari_sahih
+        notes: |
+          Bukhari 942 — chronology of Salat al-Khawf. Ibn Hajar in Fath
+          al-Bari argues from Abu Musa al-Ash'ari's presence that Dhat
+          al-Riqa' must be after Khaybar (7 AH). The date is genuinely
+          contested — at least three serious Sunni positions exist,
+          so we record year-precision only.
+    people: [[muhammad, leader]]
+    tags: [prophetic-era, battle, salat-al-khawf]
+    importance: notable
+    disputed: true
+    dispute_about: date
+    verified: true
+    verification_status: cross_verified
+    hadith_refs: "Bukhari 942"
+
+  - slug: pledge-of-ridwan
+    category: prophetic_era
+    title_en: The Pledge of Ridwan (Bay'at al-Ridwan)
+    title_ar: بيعة الرضوان
+    title_fr: Le Serment d'al-Riḍwān (Bayʿat al-Riḍwān)
+    description_en: |
+      During the prelude to the Treaty of al-Hudaybiyya, a false rumour
+      reached the Muslim camp that 'Uthman ibn 'Affan had been killed
+      during his embassy to the Quraysh. The Prophet ﷺ called for a
+      pledge of allegiance to fight — the Companions pledged beneath a
+      tree in the plain of al-Hudaybiyya that they would not flee. Surah
+      al-Fath 48:18 was revealed about it: "Certainly Allah was pleased
+      with the believers when they pledged allegiance to you under the
+      tree." 'Uthman's arrival shortly after defused the moment; the
+      treaty was then negotiated.
+    description_ar: |
+      في مقدّمات صلح الحديبية بلغ المعسكرَ المسلمَ خبرٌ كاذب بأنّ
+      عثمان بن عفّان رضي الله عنه قُتل في سفارته إلى قريش، فدعا
+      النبي ﷺ إلى البيعة على القتال، فبايعه الصحابة تحت شجرة في
+      وادي الحديبية على ألاّ يفرّوا. وفيها نزل قول الله تعالى في
+      سورة الفتح 48:18: "لَقَدْ رَضِيَ اللَّهُ عَنِ الْمُؤْمِنِينَ
+      إِذْ يُبَايِعُونَكَ تَحْتَ الشَّجَرَةِ". ثم قدم عثمان
+      رضي الله عنه فهدأ الموقف، وأُبرم الصلح بعد ذلك.
+    description_fr: |
+      Lors du prélude au Traité d'al-Ḥudaybiyya, une fausse rumeur
+      parvint au campement musulman selon laquelle ʿUthmān ibn ʿAffān
+      aurait été tué durant son ambassade auprès de Quraysh. Le Prophète
+      ﷺ appela à un serment d'allégeance pour combattre — les Compagnons
+      prêtèrent serment sous un arbre dans la plaine d'al-Ḥudaybiyya de
+      ne point fuir. La sourate al-Fatḥ 48:18 fut révélée à cette
+      occasion : « En vérité, Allāh a été satisfait des croyants
+      lorsqu'ils te prêtèrent serment sous l'arbre. » L'arrivée de
+      ʿUthmān peu après dissipa la tension ; le traité fut alors négocié.
+    canonical_hijri: {year: 6, month: 11, precision: month}
+    canonical_gregorian: {date: 628-03-15, precision: month, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        is_canonical: true
+        notes: Sahih al-Bukhari 2958.
+      - source_key: ibn_hisham_sira
+      - source_key: quran
+        notes: Surah al-Fath 48:18.
+    people: [[muhammad, subject]]
+    tags: [prophetic-era, hudaybiyya, pledge, quran-referenced]
+    source_url: https://en.wikipedia.org/wiki/Pledge_of_the_Tree
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    quran_refs: "48:18"
+    hadith_refs: Bukhari 2958
+
+  # Major poets with attested death dates
+  - slug: death-of-al-mutanabbi
+    category: scholar_death
+    title_en: Death of al-Mutanabbi — The Greatest Arabic Poet
+    title_ar: وفاة المتنبي
+    title_fr: Décès d'al-Mutanabbī — le plus grand poète arabe
+    description_en: |
+      Abu al-Tayyib Ahmad ibn al-Husayn al-Mutanabbi — widely regarded as
+      the greatest poet in the Arabic language. His three-hundred-poem
+      diwan became the most commented-on and memorised body of Arabic
+      poetry after the Qur'an and the Mu'allaqat. Born in Kufa, he served
+      successively the courts of Sayf al-Dawla of Aleppo (where he wrote
+      his finest verse) and the Kafur of Egypt. He was killed by bandits
+      of Banu Asad near Dayr al-'Aqul (on the Tigris, ~100 km south-east
+      of Baghdad) while returning from Persia — reportedly caught by his
+      own famous boast, "The horses and the night and the desert know me."
+    description_ar: |
+      أبو الطيب أحمد بن الحسين المتنبي — يُعدّ على نطاق واسع أعظم
+      شعراء العربية. صار ديوانه الذي يربو على ثلاث مئة قصيدة أكثرَ
+      دواوين الشعر العربي شرحًا وحفظًا بعد القرآن الكريم والمعلّقات.
+      وُلد بالكوفة، وخدم متعاقبًا بلاطَ سيف الدولة الحمداني بحلب
+      (حيث كتب أنفس شعره) وكافورًا الإخشيدي في مصر. قُتل على يد
+      قطّاع طريق من بني أسد قرب دير العاقول (على دجلة جنوبَ شرقي
+      بغداد بنحو مئة كيلومتر) عند عودته من بلاد فارس — ويُروى أنّ
+      مقتله كان بسبب فخره الشهير: "الخيلُ والليلُ والبيداءُ تعرفني".
+    description_fr: |
+      Abū al-Ṭayyib Aḥmad ibn al-Ḥusayn al-Mutanabbī — largement
+      considéré comme le plus grand poète de la langue arabe. Son
+      dīwān de quelque trois cents poèmes est devenu le corpus poétique
+      arabe le plus commenté et mémorisé après le Coran et les
+      Muʿallaqāt. Né à Kūfa, il servit successivement les cours de Sayf
+      al-Dawla d'Alep (où il composa ses plus beaux vers) et de Kāfūr
+      d'Égypte. Il fut tué par des bandits des Banū Asad près de Dayr
+      al-ʿĀqūl (sur le Tigre, à environ 100 km au sud-est de Bagdad) en
+      revenant de Perse — rattrapé, dit-on, par sa propre fierté restée
+      célèbre : « Les chevaux, la nuit et le désert me connaissent. »
+    canonical_hijri: {year: 354, month: 9, precision: month}
+    canonical_gregorian: {date: 965-09-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Web-verified (Wikipedia, Britannica): 23 Sep 965 CE attested; classical tradition places in Ramadan 354 AH, day-level Hijri precision not reliably attested. Place: Dayr al-'Aqul (earlier draft said al-Nu'maniyya)."
+      - source_key: dhahabi_siyar
+    people: [[al-mutanabbi, died]]
+    tags: [abbasid, poet, arabic-literature, iraq]
+    source_url: https://en.wikipedia.org/wiki/Al-Mutanabbi
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-rumi
+    category: scholar_death
+    title_en: Death of Mawlana Jalal al-Din Rumi
+    title_ar: وفاة جلال الدين الرومي
+    title_fr: Décès de Mawlānā Jalāl al-Dīn Rūmī
+    description_en: |
+      Persian poet and Sunni Hanafi scholar — formed in fiqh, hadith and
+      Qur'anic sciences before becoming a teacher in Konya. His "Masnavi-i
+      Ma'navi" — roughly 25,000 couplets of didactic spiritual verse
+      grounded in Qur'an and hadith — is among the most-commented works
+      of Persian literature. After succeeding his father Baha' al-Din
+      Walad in the chair of Hanafi fiqh and tafsir, he later became
+      master of his own order of dervishes (the Mevlevi, organized by
+      his son Sultan Walad). He died in Konya on a Sunday evening; the
+      city's Muslim, Christian, Jewish, and Greek-speaking communities
+      all attended the funeral procession. His tomb remains in Konya
+      today. The anniversary is observed by the Mevlevi as "Shab-i
+      'Arus" (the Wedding Night — the union with the Beloved).
+    description_ar: |
+      الشاعر الفارسي والعالم السنّي الحنفي — تلقّى الفقه والحديث
+      وعلوم القرآن قبل أن يصير من علماء قونية. مثنويه "المثنوي
+      المعنوي" الذي يقارب خمسة وعشرين ألف بيت من الشعر الروحي
+      المؤسَّس على نصوص القرآن والسنّة، يُعدّ من أكثر آثار الأدب
+      الفارسي شرحًا. خلف أباه بهاء الدين ولد في كرسي الفقه الحنفي
+      والتفسير، ثم صار شيخًا لطريقته الخاصة من الدراويش (المولوية،
+      التي نظّمها ابنه سلطان ولد). توفي بقونية مساء أحد، فحضر
+      جنازته أهل المدينة من المسلمين والنصارى واليهود واليونان.
+      ولا يزال ضريحه قائمًا بقونية إلى اليوم. ويحيي المولويون
+      ذكراه باسم "ليلة العرس" (شب عروس) — أي ليلة الوصال بالمحبوب.
+    description_fr: |
+      Poète persan et savant sunnite ḥanafite — formé en fiqh, ḥadīth et
+      sciences coraniques avant de devenir enseignant à Konya. Son
+      « Mathnawī-yi Maʿnawī » — quelque 25 000 distiques de poésie
+      spirituelle didactique enracinée dans le Coran et le ḥadīth —
+      compte parmi les œuvres les plus commentées de la littérature
+      persane. Après avoir succédé à son père Bahāʾ al-Dīn Walad à la
+      chaire de fiqh ḥanafite et de tafsīr, il devint plus tard le maître
+      de son propre ordre de derviches (les Mawlawiyya, organisés par
+      son fils Sulṭān Walad). Il mourut à Konya un dimanche soir ; les
+      communautés musulmane, chrétienne, juive et grécophone de la ville
+      assistèrent toutes à son cortège funèbre. Son tombeau demeure à
+      Konya aujourd'hui. L'anniversaire est célébré par les Mawlawiyya
+      sous le nom de « Shab-i ʿArūs » (la Nuit des Noces — l'union avec
+      le Bien-Aimé).
+    canonical_hijri: {year: 672, month: 6, day: 5, precision: day}
+    canonical_gregorian: {date: 1273-12-17, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Web-verified (Wikipedia, dar-al-masnavi.org): 5 Jumada al-Thani 672 AH = Sun 17 Dec 1273 CE. Earlier draft mislabeled month 5 (Jumada al-Ula)."
+    people: [[rumi, died]]
+    tags: [seljuk, poet, sufi, persian, konya, hanafi]
+    source_url: https://en.wikipedia.org/wiki/Rumi
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # execution-of-al-hallaj intentionally excluded — ghuluw / shaṭaḥāt — universally executed for theological excess.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+
+  - slug: death-of-abu-tammam
+    category: scholar_death
+    title_en: Death of Abu Tammam — Anthologist of Arabic Verse
+    title_ar: وفاة أبي تمام
+    description_en: |
+      Habib ibn Aws al-Ta'i, one of the most celebrated of the Abbasid
+      poets and the compiler of "al-Hamasa" — the canonical anthology of
+      pre-Islamic and early Islamic Arabic martial verse, second only to
+      the Mu'allaqat as a source of Arabic linguistic and literary study.
+      He served at the courts of al-Mu'tasim and al-Wathiq in Baghdad
+      and Samarra before dying at Mosul, where he had been appointed
+      postmaster in his final years.
+    canonical_hijri: {year: 231, precision: year}
+    canonical_gregorian: {date: 845-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Classical sources (Ibn Khallikan) favour Jumada I 231 AH, but secondary literature gives both 231 AH / 845 CE and 232 AH / 846 CE. Month-level precision is genuinely disputed; year-only until reconciled."
+      - source_key: dhahabi_siyar
+    people: [[abu-tammam, died]]
+    tags: [abbasid, poet, arabic-literature, samarra, mosul]
+    source_url: https://en.wikipedia.org/wiki/Abu_Tammam
+    importance: notable
+    verified: true
+    verification_status: cross_verified

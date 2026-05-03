@@ -1,0 +1,203 @@
+# Additional major Sunni scholars whose death dates are attested in the
+# classical wafayat/tabaqat literature.
+
+events:
+  - slug: death-of-al-zamakhshari
+    category: scholar_death
+    title_en: Death of Abu al-Qasim al-Zamakhshari
+    title_ar: وفاة الزمخشري
+    description_en: |
+      Mu'tazilite mufassir and philologist of Khwarazm, author of the
+      "al-Kashshaf 'an Haqa'iq Ghawamid al-Tanzil" — the most
+      philologically sophisticated of the medieval tafsirs, cited by
+      later Sunni exegetes (Fakhr al-Din al-Razi, al-Baydawi, al-Nasafi,
+      Ibn Kathir) despite his Mu'tazilite positions on kalam questions.
+      Also authored the Arabic dictionary "Asas al-Balagha." Died on the
+      eve of Arafat in Jurjaniyya.
+
+      Classical sources agree on Dhū al-Ḥijja 538 AH but split on the day: Ibn Khallikān's *Wafayāt al-Aʿyān* gives 9 Dhū al-Ḥijja (the eve-of-ʿArafat narrative we follow as dominant), while al-Dhahabī's *Siyar* records 8 Dhū al-Ḥijja. The day disagreement keeps this entry month-precise rather than day-precise.
+    canonical_hijri: {year: 538, month: 12, precision: month}
+    canonical_gregorian: {date: 1144-06-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "9 Dhū al-Ḥijja 538 AH (the eve-of-ʿArafat narrative) — Ibn Khallikān, Wafayāt al-Aʿyān."
+      - source_key: dhahabi_siyar
+        notes: "8 Dhū al-Ḥijja 538 AH per al-Dhahabī's Siyar — minority position."
+    people: [[al-zamakhshari, died]]
+    tags: [seljuk, scholar, mufassir, philology, khwarazm]
+    importance: notable
+    verified: true
+    disputed: true
+    dispute_about: date
+
+  - slug: death-of-al-qurtubi
+    category: scholar_death
+    title_en: Death of Imam al-Qurtubi
+    title_ar: وفاة الإمام القرطبي
+    description_en: |
+      Maliki mufassir of al-Andalus, author of "al-Jami' li-Ahkam al-
+      Qur'an" — one of the most comprehensive tafsirs in the Islamic
+      tradition, especially prized for its treatment of juristic rulings
+      (ahkam) derived from Qur'anic verses. After the fall of Cordoba,
+      he emigrated to Upper Egypt, where he completed the tafsir and
+      died at Munyat Bani Khasib (modern al-Minya).
+    canonical_hijri: {year: 671, precision: year}
+    canonical_gregorian: {date: 1273-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Day-precision flagged for review: month varies between Rabi' al-Akhir and Shawwal in Sunni biographical sources (Ibn Farhun's Dibaj gives 9 Shawwal 671 = 29 Apr 1273). Year-only used until classical sources are reconciled."
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-qurtubi, died]]
+    tags: [al-andalus, egypt, scholar, mufassir, maliki]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ibn-abd-al-barr
+    category: scholar_death
+    title_en: Death of Ibn 'Abd al-Barr al-Namari
+    title_ar: وفاة ابن عبد البر
+    description_en: |
+      Andalusi Maliki scholar, historian, and muhaddith of Cordoba. His
+      "al-Isti'ab fi Ma'rifat al-Ashab" is a foundational biographical
+      dictionary of the Companions (used extensively by Ibn al-Athir and
+      Ibn Hajar in their later works). His "al-Tamhid" is a canonical
+      commentary on the Muwatta' of Imam Malik. Died in Xativa
+      (Shatiba), al-Andalus.
+    canonical_hijri: {year: 463, precision: year}
+    canonical_gregorian: {date: 1071-12-02, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Web-verified (Wikipedia + Sila of Ibn Bashkuwal): died 2 December 1071 CE. Hijri month varies in sources (end of Rabi al-Akhir vs Dhu al-Hijja); Gregorian is firm."
+      - source_key: dhahabi_siyar
+    people: [[ibn-abd-al-barr, died]]
+    tags: [al-andalus, scholar, muhaddith, maliki, cordoba]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-daraqutni
+    category: scholar_death
+    title_en: Death of al-Daraqutni — Imam of the Muhaddithin of His Age
+    title_ar: وفاة الدارقطني
+    description_en: |
+      'Ali ibn 'Umar al-Daraqutni, the leading hadith specialist of late-
+      fourth-century AH Baghdad. Author of "al-Sunan" (Sunan al-
+      Daraqutni) and "al-'Ilal al-Waridah fi al-Ahadith al-Nabawiyya" —
+      the latter an exhaustive critical study of hidden defects in
+      hadith isnads. His "Kitab al-Du'afa'" supplied later muhaddithin
+      (including al-Dhahabi and Ibn Hajar) with a baseline catalogue of
+      weak narrators. Died in Baghdad at 80.
+    canonical_hijri: {year: 385, precision: year}
+    canonical_gregorian: {date: 995-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Month flagged: classical sources differ (Sha'ban vs Dhu al-Qa'da 385). Year-only used until classical reconciliation."
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-daraqutni, died]]
+    tags: [abbasid, scholar, muhaddith, baghdad]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-hakim-al-naysaburi
+    category: scholar_death
+    title_en: Death of al-Hakim al-Naysaburi
+    title_ar: وفاة الحاكم النيسابوري
+    description_en: |
+      Author of "al-Mustadrak 'ala al-Sahihayn" — a collection of hadith
+      that al-Hakim judged to meet the criteria of Bukhari or Muslim
+      without having been included by either. His "Ma'rifat 'Ulum al-
+      Hadith" is among the earliest systematic expositions of hadith
+      sciences. Teacher of al-Bayhaqi. Died in Nishapur at 84.
+    canonical_hijri: {year: 405, month: 2, day: 3, precision: day}
+    canonical_gregorian: {date: 1014-09-01, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Web-verified (Wikipedia): died 3 Safar 405 AH = 1 September 1014 CE — confirmed via the well-known bath-death story."
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-hakim-al-naysaburi, died]]
+    tags: [abbasid, scholar, muhaddith, nishapur]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-khatib-al-baghdadi
+    category: scholar_death
+    title_en: Death of al-Khatib al-Baghdadi
+    title_ar: وفاة الخطيب البغدادي
+    description_en: |
+      Abu Bakr Ahmad ibn 'Ali al-Khatib, author of "Tarikh Baghdad" — a
+      14-volume biographical dictionary of over 7,800 scholars associated
+      with Baghdad, one of the most important Islamic historical sources
+      of its type. He was also a major muhaddith; his "al-Kifaya fi
+      'Ilm al-Riwaya" is a canonical primer on hadith transmission. Died
+      in Baghdad at 71.
+    canonical_hijri: {year: 463, month: 12, day: 7, precision: day}
+    canonical_gregorian: {date: 1071-09-05, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    people: [[al-khatib-al-baghdadi, died]]
+    tags: [abbasid, scholar, historian, muhaddith, baghdad]
+    importance: notable
+    verified: true
+
+  - slug: death-of-al-sakhawi
+    category: scholar_death
+    title_en: Death of Shams al-Din al-Sakhawi
+    title_ar: وفاة السخاوي
+    description_en: |
+      Prolific Shafi'i hadith scholar and student of Ibn Hajar al-
+      'Asqalani — so closely associated with him that al-Sakhawi's
+      biographical works on his teacher ("al-Jawahir wa'l-Durar") remain
+      the principal source on Ibn Hajar's life. His own "al-Daw' al-
+      Lami'" is a biographical dictionary of scholars of the ninth Hijri
+      century (the fifteenth CE). Died in Madinah.
+    canonical_hijri: {year: 902, precision: year}
+    canonical_gregorian: {date: 1497-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Month flagged: Najm al-Ghazzi's al-Kawakib gives Sha'ban 902 (~1 May 1497); other sources cite Rajab 902. Year-only used until reconciliation."
+      - source_key: ibn_imad_shadharat
+    people: [[al-sakhawi, died]]
+    verification_status: cross_verified
+    tags: [mamluk, scholar, muhaddith, madinah, shafii]
+    importance: notable
+    verified: true
+
+  - slug: death-of-al-taftazani
+    category: scholar_death
+    title_en: Death of Sa'd al-Din al-Taftazani
+    title_ar: وفاة التفتازاني
+    description_en: |
+      Polymath of logic, kalam, fiqh, and rhetoric, whose commentaries
+      became standard in Sunni madrasas from Central Asia to the Balkans.
+      His "Sharh al-'Aqa'id al-Nasafiyya" is the most-taught introductory
+      work in Ash'ari-Maturidi theology; his commentaries on the
+      "Talkhis al-Miftah" and "al-Talwih 'ala al-Tawdih" shaped the
+      Ottoman curriculum for four centuries. Died in Samarqand at
+      approximately 70 lunar years; buried in Sarakhs.
+
+      Year follows 793 AH as the most-cited classical position (Ibn Khallikān's tradition, 22 Muḥarram 793 AH ≈ 8 Feb 1390 CE) — the dominant attestation we record here. Some biographical sources give 791 AH or 792 AH instead; we keep year-precision because the day attestation is not consistent enough across Sunni biographers to commit further.
+    canonical_hijri: {year: 793, precision: year}
+    canonical_gregorian: {date: 1390-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "22 Muḥarram 793 AH per the most-cited classical position."
+      - source_key: dhahabi_siyar
+        notes: "791 AH and 792 AH are the alternative years attested in some biographical sources."
+    people: [[al-taftazani, died]]
+    tags: [timurid, scholar, kalam, logic, samarqand, sarakhs]
+    importance: notable
+    verified: true
+    disputed: true
+    dispute_about: date

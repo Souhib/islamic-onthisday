@@ -1,0 +1,746 @@
+# Wave 51 of curated event additions (2026-04-27).
+# Major Muslim calligraphers and codifiers of the Arabic / Ottoman
+# script: Ibn Muqla, Ibn al-Bawwāb, Yāqūt al-Mustaʿṣimī, Şeyh Hamdullah
+# of Amasya, Aḥmad Karahisārī, Ḥāfiẓ ʿOsmān, Mustafa Râkım, Mehmed
+# Esad Yesari, Şefik Bey, and Sami Efendi.
+#
+# The early ʿAbbāsid trio (Ibn Muqla, Ibn al-Bawwāb, Yāqūt
+# al-Mustaʿṣimī) is well-attested in the classical Sunni biographical
+# corpus — Ibn Khallikān's *Wafayāt al-Aʿyān* anchors their dates
+# and al-Dhahabī's *Siyar* / *Tārīkh al-Islām* / Ibn Kathīr's *Bidāya*
+# corroborates. Yāqūt al-Mustaʿṣimī (the calligrapher) is carefully
+# disambiguated from Yāqūt al-Ḥamawī (the geographer, d. 626 AH).
+#
+# The Ottoman cluster (Hamdullah, Karahisārī, Ḥāfiẓ ʿOsmān, Râkım,
+# Yesari, Şefik, Sami Efendi) post-dates Ibn Khallikān (d. 681 AH)
+# and al-Dhahabī (d. 748 AH) so the classical wafayāt literature
+# does not cover them. They are attested in late Ottoman
+# biographical works (Müstakimzâde Süleyman Saʿdeddin's *Tuḥfe-i
+# Ḫaṭṭāṭīn* — the standard biographical dictionary of Ottoman
+# calligraphers, completed 1173 AH / 1759 CE — and ʿAtāʾī's
+# *Hadāʾiq al-Ḥaqāʾiq fī Takmilat al-Shaqāʾiq*) plus EI2; we mark
+# them as `single_source` to be honest about the corpus thinning
+# out for this period.
+#
+# İsmail Hakkı Altunbezer (d. 1946) is intentionally skipped — he
+# falls outside the classical biographical tradition.
+#
+# Hadith refs intentionally omitted (no narration directly anchors
+# a calligrapher's death).
+
+events:
+  # =========================================================================
+  # ʿABBĀSID-ERA CODIFIERS OF THE PROPORTIONAL SCRIPT
+  # =========================================================================
+
+  - slug: death-of-ibn-muqla
+    category: scholar_death
+    title_en: Death of Ibn Muqla — Codifier of the Proportional Script
+    title_ar: وفاة ابن مقلة — واضع الخط المنسوب
+    title_fr: Mort d'Ibn Muqla — codificateur de l'écriture proportionnée
+    description_en: |
+      Abū ʿAlī Muḥammad ibn ʿAlī ibn Muqla — ʿAbbāsid vizier
+      under three caliphs (al-Muqtadir, al-Qāhir, al-Rāḍī) and
+      the architect of the *al-khaṭṭ al-mansūb* ("proportional
+      script") system that subordinated Arabic letterforms to a
+      mathematical canon based on the rhombic dot, the *alif*,
+      and the inscribed circle — died in prison at Baghdad in
+      Shawwāl 328 AH (July 940 CE). His political career
+      ended in catastrophe: al-Rāḍī, the last caliph to wield
+      real power, ordered his right hand amputated in 326 AH
+      after a failed conspiracy, then his tongue cut out, and
+      he died of his wounds in confinement two years later.
+      Yet the lettering reform he had pushed through during
+      his vizierates — fixing the six classical hands (*muḥaqqaq*,
+      *naskh*, *thuluth*, *rayḥān*, *tawqīʿ*, *riqāʿ*) on a
+      proportional basis — became the foundation of every later
+      Arabic and Ottoman calligraphic tradition. Ibn Khallikān
+      preserves the date and circumstances in detail; al-Dhahabī
+      corroborates in *Tārīkh al-Islām* among the year-328 AH
+      wafayāt; Ibn Kathīr's *al-Bidāya* gives the parallel notice.
+    description_ar: |
+      توفي أبو علي محمد بن علي بن مقلة — وزير ثلاثة من خلفاء
+      بني العباس (المقتدر والقاهر والراضي)، وواضع نظام «الخط
+      المنسوب» الذي ربط حروف العربية بقانونٍ هندسيٍّ يقوم على
+      النقطة المعينية والألف والدائرة المحيطة بها — في سجنه
+      ببغداد في شوال سنة ٣٢٨ هـ (يوليو ٩٤٠ م). وانتهت حياته
+      السياسية إلى نكبةٍ كاملة: أمر الراضي — آخر خلفاء بني
+      العباس الفعليّين — بقطع يده اليمنى سنة ٣٢٦ هـ بعد فتنةٍ
+      دبرها، ثم بقطع لسانه، فمات في الاعتقال من جراحه بعد
+      عامين. ومع ذلك صار إصلاح الكتابة الذي سنَّه في وزاراته —
+      وهو ضبط الأقلام الستة الكلاسيكية (المحقق والنسخ والثلث
+      والريحان والتوقيع والرقاع) على قاعدة النسبة — أساسَ كل
+      ما تلاه من المدارس الخطية العربية والعثمانية. ضبط ابن
+      خلكان تاريخ وفاته وملابساتها بالتفصيل؛ وأَلمَّ به الذهبي
+      في وفيات «تاريخ الإسلام» سنة ٣٢٨ هـ؛ ورواه ابن كثير في
+      «البداية والنهاية» نحواً منه.
+    description_fr: |
+      Abū ʿAlī Muḥammad ibn ʿAlī ibn Muqla — vizir ʿabbāside
+      sous trois califes (al-Muqtadir, al-Qāhir, al-Rāḍī) et
+      architecte du système d'*al-khaṭṭ al-mansūb* (« écriture
+      proportionnée ») qui soumit les lettres arabes à un canon
+      mathématique fondé sur le point rhombique, l'*alif* et le
+      cercle inscrit — mourut en prison à Bagdad en Shawwāl 328 H
+      (juillet 940 EC). Sa carrière politique se termina en
+      catastrophe : al-Rāḍī, dernier calife à détenir un pouvoir
+      réel, fit amputer sa main droite en 326 H après une
+      conspiration manquée, puis lui fit couper la langue, et il
+      mourut de ses blessures en détention deux ans plus tard.
+      La réforme calligraphique qu'il avait imposée pendant ses
+      vizirats — fixant les six écritures classiques (*muḥaqqaq*,
+      *naskh*, *thuluth*, *rayḥān*, *tawqīʿ*, *riqāʿ*) sur une
+      base proportionnée — devint pourtant le fondement de toutes
+      les traditions calligraphiques arabes et ottomanes
+      ultérieures. Ibn Khallikān préserve la date et les
+      circonstances en détail ; al-Dhahabī corrobore dans
+      *Tārīkh al-Islām* parmi les wafayāt de l'an 328 H ; Ibn
+      Kathīr dans *al-Bidāya* en donne la notice parallèle.
+    canonical_hijri: {year: 328, month: 10, precision: month}
+    canonical_gregorian: {date: 940-07-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death in Shawwāl 328 AH at Baghdad in confinement; full account of the amputations and tongue-cutting under al-Rāḍī."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year-328 AH wafayāt entry."
+      - source_key: ibn_kathir_bidaya
+        notes: "Death notice in al-Bidāya wa-l-Nihāya, year 328 AH."
+    people: [[ibn-muqla, died]]
+    tags: [abbasid, calligrapher, vizier, baghdad, khatt-mansub, proportional-script]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Muqla"
+
+  - slug: death-of-ibn-al-bawwab
+    category: scholar_death
+    title_en: Death of Ibn al-Bawwāb — Refiner of the Rounded Scripts
+    title_ar: وفاة ابن البوّاب — مهذِّب الأقلام الرشيقة
+    title_fr: Mort d'Ibn al-Bawwāb — perfectionneur des écritures arrondies
+    description_en: |
+      Abū al-Ḥasan ʿAlī ibn Hilāl, known as Ibn al-Bawwāb
+      ("son of the doorkeeper") — Būyid-era calligrapher of
+      Baghdad, librarian to the vizier Bahāʾ al-Dawla, and the
+      figure who took Ibn Muqla's proportional system and
+      refined the rounded hands (*naskh*, *muḥaqqaq*,
+      *rayḥān*) into the form they would hold for the next
+      five centuries — died at Baghdad in 413 AH (1022 CE).
+      His celebrated didactic poem on the art of writing,
+      the *Qaṣīda Rāʾiyya* (also known as the *ʿAqd al-Khaṭṭ*),
+      was memorised by every later master, and the only
+      complete Qurʾān in his hand to have survived (1000 CE,
+      now Chester Beatty Library Is. 1431) is the earliest
+      extant Qurʾān in the post-Ibn-Muqla proportional naskh.
+      Ibn Khallikān gives the date as 413 AH at Baghdad — some
+      later sources prefer 423 AH but Ibn Khallikān's earlier
+      date is followed by al-Dhahabī in *Tārīkh al-Islām* and
+      is the consensus position.
+    description_ar: |
+      توفي أبو الحسن علي بن هلال المعروف بابن البوّاب — خطّاطُ
+      بغداد في العصر البويهي، وخازنُ كتب الوزير بهاء الدولة،
+      والذي أخذ نظام ابن مقلة المنسوب فهذَّب الأقلام الرشيقة
+      (النسخ والمحقق والريحان) فاتّخذتْ صورتَها التي صحبتها
+      خمسة قرون بعدَه — ببغداد سنة ٤١٣ هـ (١٠٢٢ م). وقصيدته
+      التعليمية «الرائية» في علم الخط (وتُعرف أيضاً بـ«عقد
+      الخط») حفظها كلُّ خطّاطٍ بعده، والمصحفُ الوحيد بخطه الذي
+      وصل إلينا كاملاً (سنة ١٠٠٠ م، محفوظٌ اليوم في مكتبة
+      تشِستر بيتي بدبلن برقم Is. 1431) هو أقدم مصحفٍ موجودٍ
+      بالنسخ المنسوب الذي أعقب ابن مقلة. وأرَّخ ابن خلكان وفاتَه
+      بـسنة ٤١٣ هـ ببغداد — وآثر بعض المتأخرين سنةَ ٤٢٣ هـ،
+      غير أنّ تاريخ ابن خلكان الأقدم تابعَه عليه الذهبي في
+      «تاريخ الإسلام» وهو الراجح.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn Hilāl, connu sous le nom d'Ibn
+      al-Bawwāb (« fils du portier ») — calligraphe bagdādien
+      de l'époque būyide, bibliothécaire du vizir Bahāʾ
+      al-Dawla, et la figure qui prit le système proportionné
+      d'Ibn Muqla pour perfectionner les écritures arrondies
+      (*naskh*, *muḥaqqaq*, *rayḥān*) dans la forme qu'elles
+      conserveraient pendant les cinq siècles suivants — mourut
+      à Bagdad en 413 H (1022 EC). Son célèbre poème didactique
+      sur l'art de l'écriture, la *Qaṣīda Rāʾiyya* (également
+      connue sous le nom d'*ʿAqd al-Khaṭṭ*), fut mémorisé par
+      tous les maîtres ultérieurs, et le seul Coran complet de
+      sa main à avoir survécu (1000 EC, aujourd'hui Chester
+      Beatty Library, Is. 1431) est le plus ancien Coran
+      existant en naskh proportionné post-Ibn-Muqla. Ibn
+      Khallikān donne la date de 413 H à Bagdad — certaines
+      sources tardives préfèrent 423 H, mais la date plus
+      ancienne d'Ibn Khallikān est suivie par al-Dhahabī dans
+      *Tārīkh al-Islām* et constitue la position consensuelle.
+    canonical_hijri: {year: 413, precision: year}
+    canonical_gregorian: {date: 1022-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated 413 AH at Baghdad; alternative 423 AH attributed to later authorities."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Follows the 413 AH date in the year-413 wafayāt section."
+      - source_key: ei2
+    people: [[ibn-al-bawwab, died]]
+    tags: [abbasid, buyid, calligrapher, baghdad, naskh, muhaqqaq, raihaniyya, mushaf]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Bawwab"
+
+  - slug: death-of-yaqut-al-mustasimi
+    category: scholar_death
+    title_en: Death of Yāqūt al-Mustaʿṣimī — Qibla of the Calligraphers
+    title_ar: وفاة ياقوت المستعصمي — قبلة الخطاطين
+    title_fr: Mort de Yāqūt al-Mustaʿṣimī — qibla des calligraphes
+    description_en: |
+      Jamāl al-Dīn Abū al-Majd Yāqūt ibn ʿAbdallāh
+      al-Mustaʿṣimī — secretary, librarian, and calligrapher
+      of the last ʿAbbāsid caliph al-Mustaʿṣim biʾllāh (whence
+      his nisba), survivor of the Mongol sack of Baghdad in
+      656 AH (1258 CE), and the master who refined the *aqlām
+      al-sitta* (the six classical scripts) to such a degree
+      that he was known to later tradition as *qiblat
+      al-kuttāb* ("the qibla of the calligraphers") — died at
+      Baghdad in 698 AH (1298 CE). He should not be confused
+      with his contemporary Yāqūt al-Ḥamawī (d. 626 AH), the
+      great Khurāsānian geographer; Yāqūt al-Mustaʿṣimī is the
+      calligrapher. He invented the oblique-cut reed pen
+      (*qalam* with *jalfa* angled in a single direction) that
+      gave the Yāqūtī ductus its signature crispness, and he
+      trained — directly or via his students — the cluster of
+      "six masters" (al-sittat al-mutaʾakhkhirūn) who would
+      carry the Yāqūtī tradition into Persianate and Ottoman
+      calligraphy. Most sources, including Ibn Kathīr's *al-Bidāya
+      wa-l-Nihāya* and Ibn Ḥajar's *al-Durar al-Kāmina* (year-698
+      wafayāt entry), give 698 AH; some Persian sources prefer
+      696 AH. Year-precision is retained as the day is not
+      preserved.
+    description_ar: |
+      توفي جمال الدين أبو المجد ياقوت بن عبد الله المستعصمي —
+      كاتبُ المستعصم بالله آخر خلفاء بني العباس (ومن نسبته
+      إليه)، ومن نجا من نكبة بغداد التي ارتكبها المغول سنة
+      ٦٥٦ هـ (١٢٥٨ م)، والإمامُ الذي بلغ بالأقلام الستة
+      الكلاسيكية مبلغاً جعله في عرف من جاء بعده «قبلة الكتّاب» —
+      ببغداد سنة ٦٩٨ هـ (١٢٩٨ م). ولا يُخلط بينه وبين معاصره
+      ياقوت الحموي الجغرافي الخراساني (المتوفى سنة ٦٢٦ هـ)؛
+      فياقوت المستعصمي هو الخطّاط. وأبدع في قطّ القلم قطّاً
+      مائلاً («جلفةً») في جهةٍ واحدة، فاكتسب الخطّ الياقوتيّ
+      وضوحه المميز، وتخرّج به مباشرةً أو على تلامذته «الستّةُ
+      المتأخرون» الذين حملوا تقليده إلى الخطّ الفارسي ثمّ
+      العثماني. ويُؤرّخ كثيرٌ من المصادر — منها ابن كثير في
+      «البداية والنهاية»، وابن حجر في «الدرر الكامنة» في وفيات
+      سنة ٦٩٨ هـ — وفاتَه بسنة ٦٩٨ هـ، وآثر بعضُ المصادر
+      الفارسية سنةَ ٦٩٦ هـ. وأُبقي على دقة السنة لأنّ يومَ
+      الوفاة لم يُحفظ.
+    description_fr: |
+      Jamāl al-Dīn Abū al-Majd Yāqūt ibn ʿAbdallāh
+      al-Mustaʿṣimī — secrétaire, bibliothécaire et calligraphe
+      du dernier calife ʿabbāside al-Mustaʿṣim biʾllāh (d'où sa
+      nisba), survivant du sac mongol de Bagdad en 656 H
+      (1258 EC), et le maître qui perfectionna les *aqlām
+      al-sitta* (les six écritures classiques) à un tel degré
+      que la tradition postérieure le connut sous le nom de
+      *qiblat al-kuttāb* (« qibla des calligraphes ») — mourut
+      à Bagdad en 698 H (1298 EC). À ne pas confondre avec son
+      contemporain Yāqūt al-Ḥamawī (m. 626 H), le grand
+      géographe khurāsānien ; Yāqūt al-Mustaʿṣimī est le
+      calligraphe. Il inventa la coupe oblique du calame (le
+      *jalfa* incliné d'un seul côté) qui donna au ductus
+      yāqūtī sa netteté caractéristique, et il forma —
+      directement ou par ses élèves — le groupe des « six
+      maîtres » (al-sittat al-mutaʾakhkhirūn) qui porteraient
+      la tradition yāqūtī jusque dans les calligraphies persane
+      et ottomane. La plupart des sources, dont *al-Bidāya
+      wa-l-Nihāya* d'Ibn Kathīr et *al-Durar al-Kāmina* d'Ibn
+      Ḥajar (notice de l'an 698 H), donnent 698 H ; certaines
+      sources persanes préfèrent 696 H. La précision annuelle
+      est retenue car le jour de la mort n'est pas conservé.
+    canonical_hijri: {year: 698, precision: year}
+    canonical_gregorian: {date: 1298-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Year-698 AH wafayāt notice in al-Bidāya wa-l-Nihāya."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Death notice in Tārīkh al-Islām under year 698 AH (some Persian sources give 696 AH)."
+      - source_key: ei2
+        notes: "EI2 entry — confirms the disambiguation from Yāqūt al-Ḥamawī (d. 626 AH)."
+    people: [[yaqut-al-mustasimi, died]]
+    tags: [abbasid, calligrapher, baghdad, mongol-survivor, aqlam-sitta, mustasim, yaquti-ductus]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Yaqut_al-Musta%27simi"
+
+  # =========================================================================
+  # OTTOMAN-ERA MASTERS
+  # =========================================================================
+
+  - slug: death-of-seyh-hamdullah
+    category: scholar_death
+    title_en: Death of Şeyh Hamdullah of Amasya — Founder of the Ottoman Calligraphic School
+    title_ar: وفاة الشيخ حمد الله الأماسيّ — مؤسس المدرسة الخطية العثمانية
+    title_fr: Mort de Şeyh Hamdullah d'Amasya — fondateur de l'école calligraphique ottomane
+    description_en: |
+      Şeyh Ḥamdullāh ibn Muṣṭafā Dede al-Amāsī — Anatolian
+      master of the Yāqūtī tradition, calligraphy tutor to
+      Sultan Bāyezīd II in Amasya before the latter's accession,
+      and the figure who reworked the six scripts of Yāqūt
+      al-Mustaʿṣimī into the distinctly Ottoman idiom that
+      governed all subsequent imperial calligraphy until the
+      twentieth century — died at Istanbul in 926 AH (1520 CE)
+      at an advanced age. He produced an estimated forty-seven
+      complete *muṣḥafs* in his hand, more than a thousand
+      *enʿām* (devotional booklets) and *kıt'a* (single sheets),
+      and the architectural inscriptions of Bāyezīd II's
+      mosque complex on the Golden Horn. His students Şükrullāh
+      Khalīfa, Pīr Muḥammad, and his son Muṣṭafā Dede founded
+      the *silsile* through which Hamdullāh's *naskh* and
+      *thuluth* were transmitted by ijāza-chain through Ḥāfiẓ
+      ʿOsmān (d. 1110 AH) into modern Ottoman calligraphy. The
+      Ottoman biographer Müstaḳīmzāde gives 926 AH in the
+      *Tuḥfe-i Ḫaṭṭāṭīn*.
+    description_ar: |
+      توفي الشيخ حمد الله بن مصطفى دده الأماسيّ — إمامُ
+      المدرسة الياقوتية في الأناضول، ومعلّم الخط للسلطان
+      بايزيد الثاني في أماسية قبل توليه السلطنة، والذي أعاد
+      صياغة الأقلام الستة الياقوتية في أسلوبٍ عثمانيٍّ متميّز
+      حكَم سائر الخط الإمبراطوري حتى القرن العشرين — في
+      إستانبول سنة ٩٢٦ هـ (١٥٢٠ م) وقد جاوز السنّ. وكتب — على
+      ما يُقدَّر — سبعةً وأربعين مصحفاً كاملاً بخطه، وأكثر من
+      ألف «إنعام» و«قطعة»، ونقوش جامع بايزيد الثاني المعمارية
+      على القرن الذهبي بالقسطنطينية. وتلامذته شكر الله خليفة،
+      وپير محمد، وابنه مصطفى دده، أسّسوا «السلسلة» التي بها
+      انتقل نسخُ حمد الله وثلثُه بالإجازة عبر حافظ عثمان
+      (المتوفى سنة ١١١٠ هـ) إلى الخط العثماني الحديث. وضبط
+      المستقيم زاده تاريخَ وفاته بـسنة ٩٢٦ هـ في «تحفة
+      الخطّاطين».
+    description_fr: |
+      Şeyh Ḥamdullāh ibn Muṣṭafā Dede al-Amāsī — maître
+      anatolien de la tradition yāqūtī, professeur de
+      calligraphie du sultan Bāyezīd II à Amasya avant
+      l'accession de ce dernier au trône, et la figure qui
+      retravailla les six écritures de Yāqūt al-Mustaʿṣimī en
+      un idiome ottoman distinct qui régit toute la
+      calligraphie impériale ultérieure jusqu'au XXe siècle —
+      mourut à Istanbul en 926 H (1520 EC) à un âge avancé.
+      Il produisit selon les estimations quarante-sept *muṣḥafs*
+      complets de sa main, plus d'un millier d'*enʿām*
+      (livrets de piété) et de *kıt'a* (feuillets), ainsi que
+      les inscriptions architecturales du complexe-mosquée de
+      Bāyezīd II sur la Corne d'Or. Ses élèves Şükrullāh
+      Khalīfa, Pīr Muḥammad et son fils Muṣṭafā Dede fondèrent
+      la *silsile* par laquelle le naskh et le thuluth de
+      Hamdullāh furent transmis par chaîne d'ijāza, via Ḥāfiẓ
+      ʿOsmān (m. 1110 H), dans la calligraphie ottomane
+      moderne. Le biographe ottoman Müstaḳīmzāde donne 926 H
+      dans le *Tuḥfe-i Ḫaṭṭāṭīn*.
+    canonical_hijri: {year: 926, precision: year}
+    canonical_gregorian: {date: 1520-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 entry; year of death 926 AH / 1520 CE at Istanbul, advanced age."
+      - source_key: editorial
+        notes: "Cross-checked against Müstaḳīmzāde's Tuḥfe-i Ḫaṭṭāṭīn (1759) and standard Ottoman calligraphic biographies."
+    people: [[seyh-hamdullah-amasi, died]]
+    tags: [ottoman, calligrapher, amasya, istanbul, naskh, thuluth, bayezid-ii]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-ahmed-karahisari
+    category: scholar_death
+    title_en: Death of Aḥmad Karahisārī — Calligrapher of the Süleymāniyye
+    title_ar: وفاة أحمد قَرَه حِصَاريّ — خطّاط جامع السليمانية
+    title_fr: Mort d'Aḥmad Karahisārī — calligraphe de la Süleymāniyye
+    description_en: |
+      Aḥmad Şemseddīn Karahisārī ("of Karahisar", in central
+      Anatolia) — Ottoman master who broke from the dominant
+      *Şeyh Hamdullāh* school to revive a more austere Yāqūtī
+      style, and the calligrapher charged by Sultan Süleymān
+      al-Qānūnī with the monumental Qurʾānic inscriptions
+      throughout the Süleymāniyye Mosque (completed 964 AH /
+      1557 CE) and the great *muṣḥaf* now preserved in the
+      Topkapı Sarayı (TIEM 458) — died at Istanbul in 963 AH
+      (1556 CE), aged about ninety. His student Ḥasan Çelebī
+      executed the surface-level inscriptions of the mosque
+      from Karahisārī's masters and his own; the *jelî thuluth*
+      cartouches in the dome and on the *miḥrāb* are arguably
+      the highest achievement of monumental Qurʾānic epigraphy
+      in the Islamic world. Year-precision retained as the
+      classical Ottoman biographers (Müstaḳīmzāde, ʿAtāʾī)
+      give the year without a day.
+    description_ar: |
+      توفي أحمد شمس الدين قَرَه حصاري — نسبةً إلى قَرَه حصار
+      وسط الأناضول — الإمامُ العثماني الذي خالف مدرسةَ الشيخ
+      حمد الله السائدة فأحيا الأسلوبَ الياقوتيَّ المتقشِّف،
+      وكلَّفه السلطان سليمان القانوني بالنقوش القرآنية الضخمة
+      في جامع السليمانية (الذي اكتمل سنة ٩٦٤ هـ / ١٥٥٧ م)
+      وبكتابة المصحف الكبير المحفوظ اليوم في طوبقابي سرايي
+      برقم TIEM 458 — في إستانبول سنة ٩٦٣ هـ (١٥٥٦ م) عن نحو
+      تسعين سنة. وأنجز تلميذه حسن چلبي النقوش الظاهرة في
+      الجامع نقلاً عن أصول قَرَه حصاري وأصوله هو؛ وخراطيش
+      «الجلي ثلث» في القبة وفي المحراب من أرفع منجزات الكتابة
+      القرآنية الضخمة في عالم الإسلام. وأُبقي على دقة السنة
+      لأنّ كتب التراجم العثمانية القديمة (المستقيم زاده،
+      عطائي) تذكر السنة دون اليوم.
+    description_fr: |
+      Aḥmad Şemseddīn Karahisārī (« de Karahisar », en
+      Anatolie centrale) — maître ottoman qui rompit avec
+      l'école dominante de *Şeyh Hamdullāh* pour faire revivre
+      un style yāqūtī plus austère, et le calligraphe à qui le
+      sultan Süleymān al-Qānūnī confia les inscriptions
+      coraniques monumentales de la mosquée de Süleymāniyye
+      (achevée en 964 H / 1557 EC) et le grand *muṣḥaf*
+      aujourd'hui conservé au Topkapı Sarayı (TIEM 458) —
+      mourut à Istanbul en 963 H (1556 EC), à environ
+      quatre-vingt-dix ans. Son élève Ḥasan Çelebī exécuta les
+      inscriptions visibles de la mosquée d'après les modèles
+      de Karahisārī et les siens propres ; les cartouches en
+      *jelî thuluth* de la coupole et du *miḥrāb* sont sans
+      doute la plus haute réalisation d'épigraphie coranique
+      monumentale du monde islamique. La précision annuelle
+      est retenue, les biographes ottomans classiques
+      (Müstaḳīmzāde, ʿAtāʾī) donnant l'année sans le jour.
+    canonical_hijri: {year: 963, precision: year}
+    canonical_gregorian: {date: 1556-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 entry; death 963 AH / 1556 CE at Istanbul; calligrapher of the Süleymāniyye epigraphy."
+      - source_key: editorial
+        notes: "Cross-checked against Müstaḳīmzāde Tuḥfe-i Ḫaṭṭāṭīn and ʿAtāʾī Hadāʾiq al-Ḥaqāʾiq."
+    people: [[ahmed-karahisari, died]]
+    tags: [ottoman, calligrapher, istanbul, suleymaniye, jeli-thuluth, suleyman-qanuni, mushaf]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-hafiz-osman
+    category: scholar_death
+    title_en: Death of Ḥāfiẓ ʿOsmān — Codifier of Ottoman Naskh
+    title_ar: وفاة حافظ عثمان — مُحكِم النسخ العثماني
+    title_fr: Mort de Ḥāfiẓ ʿOsmān — codificateur du naskh ottoman
+    description_en: |
+      Ḥāfiẓ ʿOsmān Efendi — Ottoman master, student of
+      Derviş ʿAlī (d. 1084 AH) and through him in the *silsile*
+      of Şeyh Hamdullāh, calligraphy tutor to Sultans Aḥmad II
+      and Muṣṭafā II, and the figure whose *naskh* hand
+      became the Ottoman printing-press standard for Qurʾān
+      production from the eighteenth century onward — died at
+      Istanbul in 1110 AH (1698 CE) at age about fifty-six.
+      He is reported to have written twenty-five complete
+      *muṣḥafs* in his hand, of which several survive; the
+      first lithographic Qurʾān printed in Cairo in 1864 was
+      made directly from a Ḥāfiẓ ʿOsmān model, and his
+      lettering remains the basis of the most widely-printed
+      modern Arabic naskh Qurʾāns. His students included Yedikuleli
+      Seyyid ʿAbdullāh, who transmitted the *silsile* into the
+      eighteenth-century revival. Müstaḳīmzāde dates his death
+      to Jumādā I 1110 AH; year-precision is retained because
+      day-precision is contested across the late biographers.
+    description_ar: |
+      توفي حافظ عثمان أفندي — الإمامُ العثماني، تلميذ درويش
+      علي (المتوفى سنة ١٠٨٤ هـ) وبه يتصل سندُه بسلسلة الشيخ
+      حمد الله، ومعلّمُ الخط للسلطانين أحمد الثاني ومصطفى
+      الثاني، والذي صار خطُّه النسخيّ المعتمدَ في طباعة
+      المصاحف العثمانية منذ القرن الثاني عشر الهجري — في
+      إستانبول سنة ١١١٠ هـ (١٦٩٨ م) عن نحو ست وخمسين سنة. ويُروى
+      أنّه كتب خمسةً وعشرين مصحفاً كاملاً بخطه، نجا منها
+      عدد؛ وقد طُبع المصحف الحجري الأول بالقاهرة سنة ١٢٨٠ هـ
+      مباشرةً عن نموذج حافظ عثمان، ولا يزال خطُّه أساسَ أوسع
+      المصاحف النسخية المطبوعة انتشاراً اليوم. ومن تلامذته
+      السيد عبد الله اليديكولوي الذي نقل السلسلةَ إلى صاحبية
+      القرن الثاني عشر الهجري. ويؤرّخ المستقيم زاده وفاتَه
+      بجمادى الأولى ١١١٠ هـ؛ وأُبقي هنا على دقة السنة لأنّ
+      كتب التراجم تختلف في تحديد اليوم.
+    description_fr: |
+      Ḥāfiẓ ʿOsmān Efendi — maître ottoman, élève de Derviş
+      ʿAlī (m. 1084 H) et par lui dans la *silsile* de Şeyh
+      Hamdullāh, professeur de calligraphie des sultans Aḥmad II
+      et Muṣṭafā II, et la figure dont la main de *naskh*
+      devint la norme des presses ottomanes pour la production
+      de Corans à partir du XVIIIe siècle — mourut à Istanbul
+      en 1110 H (1698 EC), âgé d'environ cinquante-six ans. Il
+      aurait écrit, selon la tradition, vingt-cinq *muṣḥafs*
+      complets de sa main, dont plusieurs survivent ; le
+      premier Coran lithographié imprimé au Caire en 1864 fut
+      réalisé directement à partir d'un modèle de Ḥāfiẓ
+      ʿOsmān, et son tracé demeure la base des Corans en naskh
+      arabe modernes les plus largement imprimés. Ses élèves
+      incluaient Yedikuleli Seyyid ʿAbdullāh, qui transmit la
+      *silsile* dans la renaissance du XVIIIe siècle.
+      Müstaḳīmzāde date sa mort à Jumādā I 1110 H ; la
+      précision annuelle est retenue car les biographes tardifs
+      divergent sur le jour exact.
+    canonical_hijri: {year: 1110, precision: year}
+    canonical_gregorian: {date: 1698-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 entry; death 1110 AH / 1698 CE at Istanbul."
+      - source_key: editorial
+        notes: "Cross-checked against Müstaḳīmzāde's Tuḥfe-i Ḫaṭṭāṭīn (1759 CE)."
+    people: [[hafiz-osman, died]]
+    tags: [ottoman, calligrapher, istanbul, naskh, mushaf, ahmed-ii, mustafa-ii, printing-model]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-mehmed-esad-yesari
+    category: scholar_death
+    title_en: Death of Mehmed Esad Yesari — Master of the Taʿlīq Hand
+    title_ar: وفاة محمد أسعد يساري — إمام التعليق
+    title_fr: Mort de Mehmed Esad Yesari — maître du taʿlīq
+    description_en: |
+      Mehmed Esʿad Yesarī — Ottoman calligrapher of the
+      eighteenth century, born in Istanbul with paralysis of
+      the right side (whence the epithet *yesarī*, "left-
+      handed", which he made his pen-name) and trained to
+      write left-handed under Demokratīzāde Aḥmed and Şuhde
+      Efendi — died at Istanbul in 1213 AH (1798 CE). He took
+      the *taʿlīq* (Persian: *naskh-taʿlīq*) hand, which had
+      until then been treated as a Persian foreign script in
+      Ottoman lands, and reworked it in a distinctly Ottoman
+      idiom that made *taʿlīq* one of the canonical six
+      Ottoman hands. His son Yesarī-zāde Mustafa ʿİzzet (d.
+      1265 AH) extended the achievement into the *jelî taʿlīq*
+      cartouches that ornament Mahmūd II's mosque inscriptions.
+      Müstaḳīmzāde and ʿAtāʾī's continuators give the year
+      without the day.
+    description_ar: |
+      توفي محمد أسعد يساري — خطّاط عثماني من القرن الثامن
+      عشر، ولد بإستانبول مصاباً بشللٍ في شقّه الأيمن (ومن ثم
+      سُمّي «يساري» — أي الكاتب باليسرى — فاتخذها لقباً)،
+      وتعلَّم الكتابة باليسرى على ديمقراطي زاده أحمد وشهدة
+      أفندي — في إستانبول سنة ١٢١٣ هـ (١٧٩٨ م). وأخذ خطَّ
+      «التعليق» (المسمَّى بالفارسية «نسخ تعليق»)، الذي كان
+      يُعدّ في الديار العثمانية خطاً فارسياً وافداً، فأعاد
+      صياغته في أسلوبٍ عثمانيٍّ متميّز جعل التعليق في عداد
+      الأقلام الستة العثمانية الكلاسيكية. وامتدّت إنجازاتُه
+      على يد ابنه يساري زاده مصطفى عزَّت (المتوفى سنة ١٢٦٥ هـ)
+      إلى خراطيش «الجلي تعليق» التي تزيِّن نقوش جوامع محمود
+      الثاني. وأرَّخ المستقيم زاده ومتمِّمو عطائي وفاتَه
+      بالسنة دون اليوم.
+    description_fr: |
+      Mehmed Esʿad Yesarī — calligraphe ottoman du XVIIIe
+      siècle, né à Istanbul avec une paralysie du côté droit
+      (d'où le nom de plume *yesarī*, « gaucher », qu'il
+      adopta) et formé à écrire de la main gauche sous
+      Demokratīzāde Aḥmed et Şuhde Efendi — mourut à Istanbul
+      en 1213 H (1798 EC). Il prit le *taʿlīq* (persan
+      *naskh-taʿlīq*), qui jusqu'alors était traité en domaine
+      ottoman comme une écriture persane importée, et le
+      retravailla en un idiome distinctement ottoman qui fit
+      du *taʿlīq* l'une des six écritures canoniques
+      ottomanes. Son fils Yesarī-zāde Mustafā ʿİzzet (m.
+      1265 H) étendit cette œuvre aux cartouches en *jelî
+      taʿlīq* qui ornent les inscriptions des mosquées de
+      Mahmūd II. Müstaḳīmzāde et les continuateurs d'ʿAtāʾī
+      donnent l'année sans le jour.
+    canonical_hijri: {year: 1213, precision: year}
+    canonical_gregorian: {date: 1798-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 entry; death 1213 AH / 1798 CE at Istanbul."
+      - source_key: editorial
+        notes: "Cross-checked against Müstaḳīmzāde Tuḥfe-i Ḫaṭṭāṭīn."
+    people: [[mehmed-esad-yesari, died]]
+    tags: [ottoman, calligrapher, istanbul, talik, jeli-talik, left-handed]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-mustafa-rakim
+    category: scholar_death
+    title_en: Death of Muṣṭafā Rāḳım — Reformer of Ottoman Jelî Thuluth
+    title_ar: وفاة مصطفى راقم — مجدِّد الجلي ثلث العثماني
+    title_fr: Mort de Muṣṭafā Rāḳım — réformateur du jelî thuluth ottoman
+    description_en: |
+      Muṣṭafā Rāḳım Efendi — Ottoman master and chief
+      calligrapher to the imperial mint and the chancellery
+      under Sultan Maḥmūd II, the figure who reformed the
+      *jelî thuluth* (the monumental thuluth used for mosque
+      inscriptions and imperial *ṭuġrās*) by integrating the
+      proportional aesthetics of Ḥāfiẓ ʿOsmān's *naskh* into
+      the rounded forms of the great script — died at
+      Istanbul in 1241 AH (1826 CE), aged about sixty-eight.
+      He executed the imperial *ṭuġrās* of Maḥmūd II, the
+      mosque inscriptions of Nusretiye and many of the period's
+      grand-inscription commissions; his reform was decisive
+      and is regarded by Ottoman historians of calligraphy as
+      the second turning point in the great-script tradition,
+      after Ḥāfiẓ ʿOsmān. His students Mehmed Şefḳatullāh
+      and Sami Efendi extended the Rāḳım style into the late
+      Ottoman period. The biographer Ḥabīb (Ḥabīb-i Iṣfahānī)
+      gives the year of death as 1241 AH.
+    description_ar: |
+      توفي مصطفى راقم أفندي — الإمامُ العثماني وكبير خطّاطي
+      دار الضرب الإمبراطوري والديوان في عهد السلطان محمود
+      الثاني، الذي جدَّد خط «الجلي ثلث» (وهو الثلث الضخم الذي
+      يكتب به نقوش الجوامع والطغراءات الإمبراطورية) بأن أدخل
+      عليه جماليات النسبة من خط حافظ عثمان النسخي إلى أشكال
+      الثلث المستديرة — في إستانبول سنة ١٢٤١ هـ (١٨٢٦ م) عن
+      نحو ثمانٍ وستين سنة. وكتب طغراءات محمود الثاني، ونقوش
+      جامع نُصرتية، وكثيراً من النقوش الكبرى لتلك المرحلة؛
+      وأَعَدّ مؤرّخو الخط العثمانيُّون إصلاحَه نقطةَ تحوّلٍ
+      ثانيةً في تقليد الخطّ الجليّ بعد حافظ عثمان. ومن
+      تلامذته محمد شفقت الله وسامي أفندي اللذان حملا أسلوب
+      راقم إلى أواخر العصر العثماني. وأرَّخ المؤرّخ حبيب
+      (حبيب الإصفهاني) سنةَ وفاته بـ١٢٤١ هـ.
+    description_fr: |
+      Muṣṭafā Rāḳım Efendi — maître ottoman et calligraphe en
+      chef de l'hôtel des monnaies impérial et de la
+      chancellerie sous le sultan Maḥmūd II, la figure qui
+      réforma le *jelî thuluth* (le thuluth monumental utilisé
+      pour les inscriptions de mosquée et les *ṭuġrās*
+      impériales) en intégrant l'esthétique proportionnée du
+      naskh de Ḥāfiẓ ʿOsmān aux formes arrondies de la grande
+      écriture — mourut à Istanbul en 1241 H (1826 EC), âgé
+      d'environ soixante-huit ans. Il exécuta les *ṭuġrās*
+      impériales de Maḥmūd II, les inscriptions de la mosquée
+      Nusretiye et bon nombre des grandes commandes
+      épigraphiques de l'époque ; sa réforme est considérée par
+      les historiens ottomans de la calligraphie comme le
+      second tournant dans la tradition du jelî, après Ḥāfiẓ
+      ʿOsmān. Ses élèves Mehmed Şefḳatullāh et Sami Efendi
+      étendirent le style Rāḳım jusqu'à la fin de la période
+      ottomane. Le biographe Ḥabīb (Ḥabīb-i Iṣfahānī) donne
+      l'année de décès à 1241 H.
+    canonical_hijri: {year: 1241, precision: year}
+    canonical_gregorian: {date: 1826-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 entry; death 1241 AH / 1826 CE at Istanbul; age c. 68."
+      - source_key: editorial
+        notes: "Cross-checked against Ḥabīb's late-Ottoman calligrapher biographies."
+    people: [[mustafa-rakim, died]]
+    tags: [ottoman, calligrapher, istanbul, jeli-thuluth, tugra, mahmud-ii, nusretiye]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-sefik-bey
+    category: scholar_death
+    title_en: Death of Şefik Bey — Ottoman Master of the Celî Thuluth
+    title_ar: وفاة شفيق بك — إمام الجلي ثلث في أواخر العثمانيين
+    title_fr: Mort de Şefik Bey — maître ottoman du celî thuluth
+    description_en: |
+      Mehmed Şefīḳ Bey — Ottoman calligrapher of the Tanẓīmāt
+      generation, student of Mehmed Khulūsī (d. 1291 AH) and
+      thus in the *silsile* of Muṣṭafā Rāḳım, and the
+      calligrapher who executed the great *jelî thuluth*
+      inscriptions inside the Aya Sofya during the 1849 CE
+      restoration commissioned by Sultan ʿAbdülmecid (the eight
+      circular medallions of names and the dome calligraphy
+      visible there today are mostly his and his teacher's)
+      — died at Istanbul in 1297 AH (1880 CE). He was a
+      teacher of Sami Efendi and his style decisively shaped
+      the late-Ottoman jelî tradition in the half-century
+      between Rāḳım and Sami. Year-precision retained as the
+      late-Ottoman biographers do not preserve a day.
+    description_ar: |
+      توفي محمد شفيق بك — خطّاطٌ عثمانيٌّ من جيل التنظيمات،
+      تلميذ محمد خلوصي (المتوفى سنة ١٢٩١ هـ) وبه يتصل سندُه
+      بسلسلة مصطفى راقم، والذي كتب نقوش «الجلي ثلث» الكبرى
+      داخل آيا صوفيا في تجديد سنة ١٢٦٥ هـ (١٨٤٩ م) الذي أمر
+      به السلطان عبد المجيد (وأكثر المداليات الثمانية الكبرى
+      التي تحمل أسماء الخلفاء وكتابات القبة هي بخطه وخطّ
+      شيخه) — في إستانبول سنة ١٢٩٧ هـ (١٨٨٠ م). وعلَّم سامي
+      أفندي، وكان أسلوبُه الفاصلَ في صياغة تقليد الجلي ثلث
+      الأواخر بين راقم وسامي. وأُبقي على دقة السنة لأنّ كتب
+      التراجم العثمانية المتأخرة لم تحفظ يوم وفاته.
+    description_fr: |
+      Mehmed Şefīḳ Bey — calligraphe ottoman de la génération
+      des Tanẓīmāt, élève de Mehmed Khulūsī (m. 1291 H) et donc
+      dans la *silsile* de Muṣṭafā Rāḳım, et le calligraphe
+      qui exécuta les grandes inscriptions en *jelî thuluth* à
+      l'intérieur d'Aya Sofya lors de la restauration de
+      1849 EC commandée par le sultan ʿAbdülmecid (les huit
+      médaillons circulaires des noms et la calligraphie de
+      la coupole visibles aujourd'hui sont pour la plupart de
+      sa main et de celle de son maître) — mourut à Istanbul
+      en 1297 H (1880 EC). Il fut professeur de Sami Efendi et
+      son style modela de manière décisive la tradition du
+      jelî thuluth de la fin de l'époque ottomane, dans le
+      demi-siècle séparant Rāḳım de Sami. La précision
+      annuelle est retenue car les biographes tardifs
+      n'enregistrent pas le jour.
+    canonical_hijri: {year: 1297, precision: year}
+    canonical_gregorian: {date: 1880-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 entry; death 1297 AH / 1880 CE at Istanbul."
+      - source_key: editorial
+        notes: "Cross-checked against late-Ottoman calligraphic-biography compendia."
+    people: [[sefik-bey, died]]
+    tags: [ottoman, calligrapher, istanbul, jeli-thuluth, aya-sofya, abdulmecid, tanzimat]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-sami-efendi
+    category: scholar_death
+    title_en: Death of Sami Efendi — Last Master of the Ottoman Calligraphic Synthesis
+    title_ar: وفاة سامي أفندي — خاتمة المدرسة الخطية العثمانية
+    title_fr: Mort de Sami Efendi — dernier maître de la synthèse calligraphique ottomane
+    description_en: |
+      İsmāʿīl Hakkī Sāmī Efendi — Ottoman calligrapher who
+      brought together every major late-Ottoman lineage
+      (Rāḳım's *jelî thuluth* via Şefik Bey, Yesarī's *taʿlīq*,
+      and Ḥāfiẓ ʿOsmān's *naskh*) into a single mature synthesis,
+      and the master who taught nearly every Ottoman calligrapher
+      of the early-twentieth-century generation — died at
+      Istanbul in 1330 AH (1912 CE), aged about seventy-five.
+      He held the chancellery post of *Niṣānjī* (calligrapher
+      of the imperial *ṭuġrā*) under Sultan ʿAbdülḥamīd II, and
+      his pupils included Naẓīf Bey, Kāmil Akdik, Ahmed Karahisarlı
+      Hulûsi, and Ḥamīd Aytaç — the chain through whom Ottoman
+      calligraphy passed into the Republican Turkish and modern
+      Arab calligraphic worlds. Year-precision retained.
+    description_ar: |
+      توفي إسماعيل حقي سامي أفندي — الخطّاط العثماني الذي
+      جمع في يديه كلَّ سلاسل أواخر العصر العثماني (جلي ثلث
+      راقم عبر شفيق بك، وتعليق يساري، ونسخ حافظ عثمان) في
+      توليفةٍ متكاملة، والمعلِّمُ الذي تخرّج به أكثرُ خطاطي
+      الجيل العثماني الأخير في مطالع القرن العشرين — في
+      إستانبول سنة ١٣٣٠ هـ (١٩١٢ م) عن نحو خمس وسبعين سنة.
+      وتولّى منصب «النشانجي» — أي خطّاط الطغراء الإمبراطورية —
+      في عهد السلطان عبد الحميد الثاني، وكان من تلامذته
+      نظيف بك، وكامل آقديك، وأحمد قَرَه حصارلي خلوصي، وحامد
+      الآمدي — السلسلة التي بها انتقل الخط العثماني إلى
+      العالم الخطي التركي الجمهوري والعربي الحديث.
+    description_fr: |
+      İsmāʿīl Hakkī Sāmī Efendi — calligraphe ottoman qui
+      rassembla en sa personne toutes les principales lignées
+      ottomanes tardives (le jelî thuluth de Rāḳım par Şefik
+      Bey, le taʿlīq de Yesarī, et le naskh de Ḥāfiẓ ʿOsmān)
+      dans une synthèse mûrie, et le maître qui forma la
+      quasi-totalité des calligraphes ottomans de la génération
+      du début du XXe siècle — mourut à Istanbul en 1330 H
+      (1912 EC), âgé d'environ soixante-quinze ans. Il occupa
+      la charge chancelière de *Niṣānjī* (calligraphe de la
+      *ṭuġrā* impériale) sous le sultan ʿAbdülḥamīd II, et ses
+      élèves comprirent Naẓīf Bey, Kāmil Akdik, Ahmed
+      Karahisarlı Hulûsi et Ḥamīd Aytaç — la chaîne par
+      laquelle la calligraphie ottomane passa dans le monde
+      calligraphique turc républicain et arabe moderne. La
+      précision annuelle est retenue.
+    canonical_hijri: {year: 1330, precision: year}
+    canonical_gregorian: {date: 1912-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 entry; death 1330 AH / 1912 CE at Istanbul; held the Niṣānjī office under ʿAbdülḥamīd II."
+      - source_key: editorial
+        notes: "Cross-checked against late-Ottoman / early-Republican calligraphic biographies."
+    people: [[sami-efendi, died]]
+    tags: [ottoman, calligrapher, istanbul, nisanji, abdulhamid-ii, jeli-thuluth, talik, naskh, late-ottoman]
+    importance: notable
+    verified: true
+    verification_status: single_source

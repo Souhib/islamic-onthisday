@@ -1,0 +1,1126 @@
+# Wave 86 of curated event additions (2026-04-27).
+# 14 events covering the long arc of the Cordoban Umayyad emirate
+# and caliphate, the Fitnat al-Andalus (399-422 AH), and the Taifa
+# kings (mulūk al-ṭawāʾif) absorbed by the Almoravids in the 480s
+# AH. Spans 180-488 AH / 796-1095 CE.
+#
+# Already in the dataset and NOT duplicated here:
+#   - abd-al-rahman-i-enters-andalus       — events/00 (138 AH)
+#   - abd-al-rahman-iii-caliphate          — events/04 (316 AH)
+#   - madinat-al-zahra-founding            — events/04 (324 AH)
+#   - founding-great-mosque-cordoba        — events/00 (170 AH)
+#   - battle-of-zallaqa-sagrajas           — events/04 (479 AH)
+#   - fall-of-toledo                       — events/55-region (478 AH)
+#
+# Sources used (all keys verified in sources.yaml):
+#   ibn_athir_kamil, ibn_kathir_bidaya, ibn_khallikan_wafayat,
+#   dhahabi_tarikh_islam, dhahabi_siyar, ei2.
+#
+# Sectarian framing: standard Sunni-historical narrative. The
+# Hammudids (Yaḥyā ibn ʿAlī al-Ḥammūdī below) are recorded by the
+# classical sources as Idrīsīd-ʿAlawid sayyids; therefore
+# is_ahl_al_bayt: true on his people.yaml record. The other Taifa
+# kings — ʿĀmirids of Denia, Hūdids of Saragossa, Ṣumādiḥids of
+# Almería, ʿAbbādids of Sevilla, Zīrids of Granada — were Berber
+# or muwallad, never claimed sayyid descent, and stay false.
+
+events:
+  # =========================================================================
+  # CORDOBAN UMAYYAD EMIRATE — early consolidation
+  # =========================================================================
+
+  - slug: death-of-hisham-i-andalus
+    category: ruler_death
+    title_en: Death of Hishām I — Second Cordoban Umayyad Emir
+    title_ar: وفاة هشام الأول — أمير الأندلس الأموي الثاني
+    title_fr: Décès de Hishām Ier — second émir omeyyade de Cordoue
+    description_en: |
+      Hishām I ibn ʿAbd al-Raḥmān al-Dākhil, second Umayyad emir
+      of al-Andalus, died at Cordoba in Ṣafar 180 AH after a
+      reign of just under eight years (172-180 AH). He was the
+      designated successor of his father ʿAbd al-Raḥmān I, the
+      Umayyad refugee who had founded the Cordoban emirate, and
+      his short reign secured the dynastic transition: he
+      suppressed the revolts of his elder brothers Sulaymān and
+      ʿAbd Allāh, prosecuted summer raids (ṣawāʾif) against the
+      Frankish marches and the Asturian kingdom, and continued
+      construction on the Great Mosque of Cordoba his father had
+      begun. The classical sources praise his personal piety and
+      Mālikī patronage — he is said to have introduced Mālik's
+      Muwaṭṭaʾ as the dominant fiqh reference in al-Andalus. He
+      was succeeded by his son al-Ḥakam I. Ibn al-Athīr, Ibn
+      ʿIdhārī (via classical chronicle tradition), and later
+      al-Dhahabī all place his death in 180 AH (April 796 CE)
+      at age forty.
+    description_ar: |
+      توفي هشام الأول بن عبد الرحمن الداخل، ثاني أمراء بني أمية
+      في الأندلس، بقرطبة في صفر سنة ١٨٠ هـ بعد حكم دام نحو ثماني
+      سنوات (١٧٢-١٨٠ هـ). كان وليَّ عهد أبيه عبد الرحمن الداخل
+      مؤسس الإمارة الأموية بالأندلس، فمكَّنت سنواته القصيرةُ
+      الانتقالَ السلالي: قمع ثورتَي أخوَيه سليمان وعبد الله،
+      ووجَّه الصوائف نحو الثغور الإفرنجية وأشتورية، وواصل
+      البناء في جامع قرطبة الذي بدأه أبوه. وتُثني المصادر على
+      ورعه الشخصي ودعمه للمذهب المالكي — يُقال إنه أدخل
+      «الموطأ» للإمام مالك مرجعاً فقهياً سائداً في الأندلس.
+      وخلفه ابنه الحكم الأول. ويؤرِّخ ابن الأثير، وابن عذاري
+      في «البيان المغرب»، والذهبي وفاتَه بسنة ١٨٠ هـ
+      (إبريل ٧٩٦ م) عن أربعين سنة.
+    description_fr: |
+      Hishām Ier ibn ʿAbd al-Raḥmān al-Dākhil, deuxième émir
+      omeyyade d'al-Andalus, mourut à Cordoue en Ṣafar 180 H,
+      après un règne de près de huit ans (172-180 H). Désigné
+      successeur de son père ʿAbd al-Raḥmān Ier — le réfugié
+      omeyyade fondateur de l'émirat cordouan — il assura par
+      son règne bref la transmission dynastique : il réprima
+      les révoltes de ses frères aînés Sulaymān et ʿAbd Allāh,
+      conduisit les expéditions estivales (ṣawāʾif) contre les
+      marches franques et le royaume des Asturies, et poursuivit
+      la construction de la Grande Mosquée de Cordoue que son
+      père avait commencée. Les sources classiques louent sa
+      piété personnelle et son soutien au mālikisme — on lui
+      attribue l'introduction du *Muwaṭṭaʾ* de Mālik comme
+      référence fiqhique dominante en al-Andalus. Son fils
+      al-Ḥakam Ier lui succéda. Ibn al-Athīr, Ibn ʿIdhārī
+      (via la tradition chronique classique) et plus tard
+      al-Dhahabī fixent sa mort en 180 H (avril 796 EC), à
+      quarante ans.
+    canonical_hijri: {year: 180, month: 2, precision: month}
+    canonical_gregorian: {date: 796-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of Hishām I, emir of al-Andalus, under the events of 180 AH and notes the succession of his son al-Ḥakam."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records Hishām ibn ʿAbd al-Raḥmān al-Dākhil's death in 180 AH at Cordoba."
+      - source_key: ei2
+        notes: "EI² entry 'Hishām I' confirms the death date 180 AH / 796 CE and the eight-year reign over al-Andalus."
+    people: [[hisham-i-andalus, died]]
+    tags: [andalus, umayyad_andalus, cordoba, ruler, emirate]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # 9th-CENTURY ANDALUS — the long Ibn Ḥafṣūn revolt
+  # =========================================================================
+
+  - slug: bobastro-revolt-ibn-hafsun
+    category: political_event
+    title_en: Outbreak of the Bobastro Revolt of ʿUmar ibn Ḥafṣūn
+    title_ar: انطلاق ثورة بُبَشتر بقيادة عمر بن حفصون
+    title_fr: Déclenchement de la révolte de Bobastro d'ʿUmar ibn Ḥafṣūn
+    description_en: |
+      Around 267 AH (880 CE) ʿUmar ibn Ḥafṣūn, a *muwallad*
+      (Hispano-Romance Muslim) chieftain of the Rondan
+      mountains, raised the standard of revolt against the
+      Cordoban Umayyad emir Muḥammad I from his stronghold at
+      Bobastro (Arabic *Bubashtar*) in the Serranía de Ronda
+      west of Málaga. His rebellion, fuelled by the resentment
+      of the Iberian-convert and Christian Iberian populations
+      against Arab-aristocratic rule and tax pressure, would
+      consume the south-western quadrant of al-Andalus for
+      nearly forty years and survive his death; his sons held
+      Bobastro until ʿAbd al-Raḥmān III stormed and razed it in
+      305 AH (917-918 CE). Late in his career Ibn Ḥafṣūn
+      apostatised back to Christianity (a fact later disinterred
+      and used by ʿAbd al-Raḥmān III as propaganda after the
+      fall of Bobastro), shrinking his political base. The
+      classical Andalusi chronicles preserved by Ibn al-Athīr
+      give the year 267 AH for the formal outbreak of the
+      revolt, though the figure of Ibn Ḥafṣūn appears in the
+      sources from the previous decade as a brigand chief; we
+      record the year-precise date and note the long duration
+      to 305 AH in the description rather than fabricating a
+      day.
+    description_ar: |
+      نحو سنة ٢٦٧ هـ (٨٨٠ م) رفع عمر بن حفصون — وهو زعيم
+      مولَّد (مسلم من أصل إسباني-روماني) من جبال رُنْدَة —
+      رايةَ الثورة على الأمير الأموي محمد الأول بقرطبة من حصنه
+      المعروف بِبَشْتَر (Bobastro) في سييرّا دي رُنْدَة غربيَّ
+      مالقة. وكانت ثورته — التي غذَّاها سخطُ السكان من المسلمين
+      الجدد والنصارى الإيبيريين على الهيمنة العربية والثقل
+      الجبائي — تستهلك الربعَ الجنوبي الغربي من الأندلس قرابة
+      أربعين سنة، وتجاوزت وفاته بأعوام، إذ ظل أبناؤه قابضين
+      على ببشتر حتى اقتحمها عبد الرحمن الناصر وهدمها سنة ٣٠٥
+      هـ (٩١٧-٩١٨ م). وفي أواخر حياته ارتدَّ ابن حفصون إلى
+      النصرانية — حقيقةٌ نُبشت لاحقاً واستخدمها الناصر
+      للدعاية بعد سقوط ببشتر — فضاق عليه نطاقُ الولاء.
+      وأثبت ابنُ الأثير في حوادث ٢٦٧ هـ بدايةَ الثورة الرسمية،
+      وإن كان اسم ابن حفصون يرد قبل ذلك بعقد قاطعَ طريق
+      وزعيمَ شغب؛ فأثبتنا التاريخ بدقة السنة، ونصصنا على طول
+      أمدها إلى ٣٠٥ هـ في الوصف، تفادياً لاختلاق دقة لا
+      تثبتها المصادر.
+    description_fr: |
+      Vers 267 H (880 EC), ʿUmar ibn Ḥafṣūn — chef *muwallad*
+      (musulman d'origine ibéro-romane) des montagnes de Ronda —
+      leva l'étendard de la révolte contre l'émir omeyyade de
+      Cordoue Muḥammad Ier depuis sa forteresse de Bobastro
+      (arabe *Bubashtar*) dans la Serranía de Ronda à l'ouest
+      de Malaga. Sa rébellion — alimentée par le ressentiment
+      des populations néo-converties et des chrétiens ibériques
+      contre la domination aristocratique arabe et la pression
+      fiscale — engloutit le quart sud-ouest d'al-Andalus durant
+      près de quarante ans et survécut à sa mort : ses fils
+      tinrent Bobastro jusqu'à ce que ʿAbd al-Raḥmān III prît
+      la place d'assaut et la rasât en 305 H (917-918 EC). À la
+      fin de sa vie, Ibn Ḥafṣūn apostasia en revenant au
+      christianisme — fait exhumé plus tard et exploité par
+      ʿAbd al-Raḥmān III à des fins de propagande après la chute
+      de Bobastro — ce qui amenuisa son assise politique. Les
+      chroniques andalouses conservées par Ibn al-Athīr donnent
+      l'année 267 H pour le déclenchement formel de la révolte,
+      bien que la figure d'Ibn Ḥafṣūn apparaisse dans les sources
+      dès la décennie précédente comme chef de bande ; nous
+      retenons donc la précision à l'année et signalons la longue
+      durée jusqu'en 305 H dans la description, plutôt que de
+      fabriquer un jour.
+    canonical_hijri: {year: 267, precision: year}
+    canonical_gregorian: {date: 880-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the rise of ʿUmar ibn Ḥafṣūn at Bobastro under the events of 267 AH and follows the revolt's career through to its destruction at 305 AH."
+      - source_key: ei2
+        notes: "EI² entry 'Ibn Ḥafṣūn' fixes the formal outbreak of the Bobastro revolt c. 267 AH / 880 CE; year-precision only — the day is not attested classically."
+    people: [[ibn-hafsun, leader]]
+    tags: [andalus, cordoba, emirate, revolt, muwallad, bobastro, ronda]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # CALIPHATE OF CORDOBA — al-Nāṣir's defeat at Simancas / Wādī Salīṭ
+  # =========================================================================
+
+  - slug: battle-of-wadi-salit-simancas
+    category: battle
+    title_en: Battle of Wādī Salīṭ (Simancas) — al-Nāṣir Defeated by Ramiro II
+    title_ar: معركة وادي سَلِيط — هزيمة الناصر أمام راميرو الثاني
+    title_fr: Bataille de Wādī Salīṭ (Simancas) — al-Nāṣir défait par Ramire II
+    description_en: |
+      In Shawwāl 327 AH (July-August 939 CE) the Cordoban
+      caliph ʿAbd al-Raḥmān III al-Nāṣir suffered the most
+      severe military defeat of his long reign at the hands of
+      Ramiro II, king of León, near the Tagus tributary the
+      Arabs called *Wādī Salīṭ* — the engagement is known in
+      the Latin sources as the Battle of Simancas–Alhandega.
+      Al-Nāṣir had marched north with a large caliphal army to
+      punish León and its allies; Ramiro intercepted him in the
+      Duero valley and routed the Andalusi force with heavy
+      losses, including most of the caliph's personal guard
+      regiment, while al-Nāṣir himself escaped only by
+      abandoning his standards and his Qurʾān-stand on the
+      field. The defeat shocked Cordoba — it ended al-Nāṣir's
+      personal command of the army for the rest of his reign
+      (he never led a campaign in the north again) and
+      contributed to the long lull on the northern frontier
+      until al-Manṣūr's resumption of the *jihād* sixty years
+      later. Ibn al-Athīr enters the disaster under 327 AH;
+      Ibn Kathīr's Bidāya confirms the year and the caliph's
+      flight.
+    description_ar: |
+      في شوال سنة ٣٢٧ هـ (يوليو-أغسطس ٩٣٩ م) لقي الخليفةُ
+      الأموي بقرطبة عبد الرحمن الناصر أنكبَ هزيمة عسكرية في
+      حكمه الطويل على يد راميرو الثاني ملك ليون قرب رافدٍ من
+      روافد التاجُه يسمِّيه العرب «وادي سَلِيط» — وتعرف المعركة
+      في المصادر اللاتينية بمعركة سَيْمَنْكَس-الخندق
+      (Simancas-Alhandega). كان الناصر قد سار شمالاً بجيش كبير
+      ليؤدِّب ليون وحلفاءها؛ فاعترضه راميرو في وادي الدويرة
+      ومزَّق الجيشَ الأندلسي بخسائر جسيمة، شملت جلَّ كتيبة
+      الحرس الخليفي، ولم ينجُ الناصر إلا بأن ترك راياته ومصحفَه
+      في ساحة المعركة. صدمت الهزيمةُ قرطبة، فكانت آخرَ معركة
+      يقودها الناصر بنفسه — لم يخرج بعدها إلى ثغر أبداً —
+      وأفضت إلى ركودٍ في الجبهة الشمالية امتدَّ ستين سنة حتى
+      أعاد المنصور بن أبي عامر استئنافَ الجهاد. ويثبت ابنُ
+      الأثير الكارثة في حوادث ٣٢٧ هـ، ويؤكِّد ابن كثير في
+      «البداية والنهاية» السنةَ وفرارَ الخليفة.
+    description_fr: |
+      En Shawwāl 327 H (juillet-août 939 EC), le calife omeyyade
+      de Cordoue ʿAbd al-Raḥmān III al-Nāṣir subit la plus rude
+      défaite militaire de son long règne face à Ramire II, roi
+      de León, près d'un affluent du Tage que les Arabes
+      appelaient *Wādī Salīṭ* — la bataille est connue dans les
+      sources latines sous le nom de Simancas-Alhandega. Al-Nāṣir
+      avait marché vers le nord à la tête d'une grande armée
+      califale pour châtier León et ses alliés ; Ramire
+      l'intercepta dans la vallée du Douro et tailla en pièces
+      la force andalouse avec de lourdes pertes — dont la
+      majeure partie de la garde personnelle du calife — tandis
+      qu'al-Nāṣir lui-même n'échappa qu'en abandonnant ses
+      étendards et son Coran sur le champ de bataille. Le choc à
+      Cordoue mit fin au commandement personnel du calife pour
+      le reste de son règne (il ne mena plus jamais de campagne
+      au nord) et contribua à la longue accalmie sur la frontière
+      septentrionale jusqu'à la reprise du *jihād* par al-Manṣūr
+      soixante ans plus tard. Ibn al-Athīr inscrit le désastre
+      sous 327 H ; Ibn Kathīr dans la *Bidāya* confirme l'année
+      et la fuite du calife.
+    canonical_hijri: {year: 327, month: 10, precision: month}
+    canonical_gregorian: {date: 939-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the defeat of ʿAbd al-Raḥmān III at Wādī Salīṭ under 327 AH and notes the loss of standards and personal items."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr's al-Bidāya wa-l-Nihāya confirms the disaster of 327 AH and the caliph's narrow escape."
+      - source_key: ei2
+        notes: "EI² entry 'Simancas' / 'al-Khandaq' identifies the engagement with the Latin Simancas-Alhandega and confirms 327 AH / 939 CE."
+    people: [[abd-al-rahman-iii-andalus, leader]]
+    tags: [andalus, cordoba, caliphate, battle, leon, reconquista, defeat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # CALIPHATE OF CORDOBA — death of al-Ḥakam II al-Mustanṣir
+  # =========================================================================
+
+  - slug: death-of-al-hakam-ii-mustansir
+    category: ruler_death
+    title_en: Death of al-Ḥakam II al-Mustanṣir — Last Effective Cordoban Caliph
+    title_ar: وفاة الحكم الثاني المستنصر — آخر خليفة قرطبي مؤثر
+    title_fr: Décès d'al-Ḥakam II al-Mustanṣir — dernier calife cordouan effectif
+    description_en: |
+      Al-Ḥakam II al-Mustanṣir bi-Allāh, second Umayyad caliph
+      of Cordoba and son of ʿAbd al-Raḥmān III al-Nāṣir, died at
+      Cordoba in Ṣafar 366 AH after a fifteen-year reign
+      (350-366 AH). His was the high noon of caliphal Cordoba:
+      he completed his father's expansion of the Great Mosque
+      with the celebrated mihrab and maqṣūra, and assembled in
+      Madīnat al-Zahrāʾ a library said by the chronicles to
+      contain four hundred thousand volumes — the most
+      comprehensive Arabic library of its century, with agents
+      buying manuscripts from Egypt, Iraq, and Khurasan. His
+      reign is also the one in which the chamberlain Muḥammad
+      ibn Abī ʿĀmir, the future al-Manṣūr, first rose to high
+      office. He was succeeded — in form — by his under-aged son
+      Hishām II al-Muʾayyad, but in substance by Ibn Abī ʿĀmir,
+      who within four years would reduce the boy-caliph to a
+      ceremonial figurehead. Ibn al-Athīr, Ibn Khallikān, and
+      al-Dhahabī all place the death in Ṣafar 366 AH (October
+      976 CE).
+    description_ar: |
+      توفي الحكم الثاني المستنصر بالله، ثاني خلفاء الأمويين
+      بقرطبة وابن عبد الرحمن الناصر، بقرطبة في صفر سنة ٣٦٦ هـ
+      بعد حكم استمر خمس عشرة سنة (٣٥٠-٣٦٦ هـ). كان عهده ذُروةَ
+      خلافة قرطبة: أتمَّ توسعةَ أبيه لجامع قرطبة بالمحراب
+      والمقصورة المشهورَين، وجمع في مدينة الزهراء مكتبةً تذكر
+      المصادرُ أنها بلغت أربعمئة ألف مجلد — أعظم مكتبة عربية
+      في قرنها — يجوب وكلاؤه مصرَ والعراقَ وخراسانَ شراءً
+      للمخطوطات. وفي عهده أيضاً ارتقى الحاجبُ محمد بن أبي
+      عامر — المنصورُ في قابل أيامه — إلى كبار المناصب. وخلفه
+      شكلاً ابنُه الصغير هشام الثاني المؤيد، أما حقيقةً فابنُ
+      أبي عامر، الذي حوَّل الخليفةَ الفتى في غضون أربع سنوات
+      إلى رمز شرفي. ويتفق ابنُ الأثير وابنُ خلكان والذهبي
+      على وفاته في صفر سنة ٣٦٦ هـ (أكتوبر ٩٧٦ م).
+    description_fr: |
+      Al-Ḥakam II al-Mustanṣir bi-Allāh, deuxième calife omeyyade
+      de Cordoue et fils de ʿAbd al-Raḥmān III al-Nāṣir, mourut
+      à Cordoue en Ṣafar 366 H, après un règne de quinze ans
+      (350-366 H). Son règne fut l'apogée de la Cordoue
+      califale : il acheva l'agrandissement paternel de la
+      Grande Mosquée par le célèbre mihrab et la maqṣūra, et
+      réunit à Madīnat al-Zahrāʾ une bibliothèque que les
+      chroniques disent forte de quatre cent mille volumes — la
+      plus vaste bibliothèque arabe de son siècle — ses agents
+      achetant des manuscrits en Égypte, en Irak et au Khurasan.
+      C'est aussi sous son règne que le chambellan Muḥammad ibn
+      Abī ʿĀmir, futur al-Manṣūr, accéda aux hautes charges. Il
+      eut pour successeur, en la forme, son fils mineur Hishām II
+      al-Muʾayyad, mais en réalité Ibn Abī ʿĀmir, qui en quatre
+      ans réduirait le calife enfant à une pure figure
+      d'apparat. Ibn al-Athīr, Ibn Khallikān et al-Dhahabī
+      situent la mort en Ṣafar 366 H (octobre 976 EC).
+    canonical_hijri: {year: 366, month: 2, precision: month}
+    canonical_gregorian: {date: 976-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of al-Ḥakam al-Mustanṣir under the events of 366 AH and the succession of Hishām II."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a long entry on al-Ḥakam II's library, his Mosque expansion, and his death in Ṣafar 366 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 366 AH for the caliph's death."
+    people: [[al-hakam-ii-mustansir, died]]
+    tags: [andalus, cordoba, caliphate, umayyad_andalus, ruler, library, madinat_al_zahra]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # AL-MANṢŪR IBN ABĪ ʿĀMIR — the de facto ruler of Cordoba
+  # =========================================================================
+
+  - slug: death-of-al-mansur-ibn-abi-amir
+    category: ruler_death
+    title_en: Death of al-Manṣūr ibn Abī ʿĀmir (Almanzor) — De Facto Ruler of Cordoba
+    title_ar: وفاة المنصور بن أبي عامر — الحاكم الفعلي لقرطبة
+    title_fr: Décès d'al-Manṣūr ibn Abī ʿĀmir (Almanzor) — maître effectif de Cordoue
+    description_en: |
+      Muḥammad ibn Abī ʿĀmir al-Maʿāfirī, surnamed al-Manṣūr
+      bi-Allāh — the *Almanzor* of the Latin chronicles — died
+      at Madīnat Sālim (Medinaceli) in Ramaḍān 392 AH on his
+      return from his fifty-second campaign against the
+      Christian north. As ḥājib of the boy-caliph Hishām II
+      al-Muʾayyad he had effectively ruled the Cordoban
+      caliphate since c. 370 AH, ordering the army around his
+      person, building the new palace-city of al-Madīna
+      al-Zāhira (the *eastern* Zahra) east of Cordoba, sacking
+      Barcelona in 374 AH and the shrine of Santiago de
+      Compostela in 387 AH. His near-annual *ṣawāʾif* against
+      León, Castile, Navarre, and the Catalan counties marked
+      the brief restoration of caliphal offensive momentum after
+      al-Nāṣir's defeat at Wādī Salīṭ. His succession by his son
+      ʿAbd al-Malik al-Muẓaffar held the regime together for
+      another six years, but the death of the second son
+      ʿAbd al-Raḥmān (Sanchuelo) in 399 AH would tip the
+      caliphate into the Fitna. Ibn al-Athīr, Ibn ʿIdhārī, and
+      al-Dhahabī fix his death in Ramaḍān 392 AH (August 1002 CE).
+    description_ar: |
+      توفي محمد بن أبي عامر المعافري — الملقَّب بالمنصور بالله،
+      وهو *المنزور* عند المؤرخين اللاتين — بمدينة سالم
+      (Medinaceli) في رمضان سنة ٣٩٢ هـ في طريق عودته من
+      غزوته الثانية والخمسين على شمال الأندلس النصراني. وبصفته
+      حاجباً للخليفة الفتى هشام الثاني المؤيد، حكم الخلافة
+      القرطبية فعلياً منذ نحو سنة ٣٧٠ هـ، فأدار الجيشَ من حوله،
+      وبنى المدينة الزاهرة الجديدة شرقَ قرطبة، وأخرب برشلونة
+      سنة ٣٧٤ هـ، وانتهك مزار شَنْتَ ياقُب (سَنْتِيَاغُو دي
+      كُمْبُسْتِيلَا) سنة ٣٨٧ هـ. وكانت صوائفه السنوية
+      تقريباً على ليون وقشتالة ونبرَّة وبلاد كَتالان توقُّفَ
+      المدِّ الخلافي العسكري بعد هزيمة الناصر بوادي سليط.
+      وحفظ خلَفُه ابنُه عبد الملك المظفر تماسكَ النظام ست
+      سنوات أخرى، إلا أن وفاة ابنه الثاني عبد الرحمن
+      (شنشول/سَنْشُويلو) سنة ٣٩٩ هـ أدخلت الخلافةَ في
+      الفتنة. ويؤرِّخ ابن الأثير وابن عذاري والذهبي وفاتَه
+      في رمضان ٣٩٢ هـ (أغسطس ١٠٠٢ م).
+    description_fr: |
+      Muḥammad ibn Abī ʿĀmir al-Maʿāfirī, surnommé al-Manṣūr
+      bi-Allāh — l'*Almanzor* des chroniqueurs latins — mourut
+      à Madīnat Sālim (Medinaceli) en Ramaḍān 392 H, sur le
+      chemin du retour de sa cinquante-deuxième campagne contre
+      le nord chrétien. Comme ḥājib du calife enfant Hishām II
+      al-Muʾayyad, il avait effectivement gouverné le califat
+      cordouan depuis 370 H environ, organisant l'armée autour
+      de sa personne, bâtissant la nouvelle ville-palais
+      d'al-Madīna al-Zāhira (la *Zahra orientale*) à l'est de
+      Cordoue, mettant Barcelone à sac en 374 H et profanant le
+      sanctuaire de Saint-Jacques-de-Compostelle en 387 H. Ses
+      *ṣawāʾif* presque annuelles contre León, Castille, Navarre
+      et les comtés catalans marquèrent la brève restauration de
+      l'élan offensif califal après la défaite d'al-Nāṣir à
+      Wādī Salīṭ. La succession de son fils ʿAbd al-Malik
+      al-Muẓaffar maintint le régime pendant six ans encore,
+      mais la mort du second fils ʿAbd al-Raḥmān (Sanchuelo) en
+      399 H précipiterait le califat dans la Fitna. Ibn al-Athīr,
+      Ibn ʿIdhārī et al-Dhahabī fixent sa mort en Ramaḍān 392 H
+      (août 1002 EC).
+    canonical_hijri: {year: 392, month: 9, precision: month}
+    canonical_gregorian: {date: 1002-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of al-Manṣūr ibn Abī ʿĀmir at Madīnat Sālim under the events of 392 AH on return from a Christian-frontier campaign."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a long biographical entry on al-Manṣūr fixing his death in Ramaḍān 392 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 392 AH for al-Manṣūr's death."
+    people: [[al-mansur-ibn-abi-amir, died]]
+    tags: [andalus, cordoba, caliphate, amirids, hajib, almanzor, medinaceli]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # FITNAT AL-ANDALUS (399-422 AH) — the Cordoban civil war
+  # =========================================================================
+
+  - slug: beginning-of-fitnat-al-andalus
+    category: political_event
+    title_en: Beginning of Fitnat al-Andalus — the Cordoban Civil War
+    title_ar: بداية فتنة الأندلس — الحرب الأهلية القرطبية
+    title_fr: Début de la Fitna d'al-Andalus — la guerre civile cordouane
+    description_en: |
+      In Jumādā II 399 AH the Cordoban populace rose against
+      ʿAbd al-Raḥmān Sanchuelo (*Shanjūl*), ʿAmirid heir of his
+      father al-Manṣūr and brother of ʿAbd al-Malik al-Muẓaffar,
+      after Sanchuelo had compelled the puppet caliph Hishām II
+      al-Muʾayyad to designate him as caliphal heir-apparent.
+      The Umayyad-loyalist faction proclaimed Muḥammad II
+      al-Mahdī, a great-grandson of ʿAbd al-Raḥmān III, in
+      Sanchuelo's place; Sanchuelo was hunted down and killed
+      on his return from a frontier campaign, and al-Madīna
+      al-Zāhira — the ʿAmirid palace-city east of Cordoba —
+      was sacked. The event opens what Andalusi historians call
+      the *Fitnat al-Andalus*, a twenty-three-year civil war
+      that destroyed the Cordoban caliphate, depopulated
+      Cordoba itself, and dismembered al-Andalus into the Taifa
+      kingdoms. From 399 AH the caliphal title would pass back
+      and forth — between successive Umayyad claimants
+      (Muḥammad II, Hishām II reinstalled, Sulaymān al-Mustaʿīn)
+      and the rival Idrīsīd-ʿAlawid Hammudids of Málaga and
+      Algeciras (ʿAlī, al-Qāsim, Yaḥyā) — until Hishām III's
+      deposition in 422 AH ended the institution. Ibn al-Athīr
+      enters the outbreak under 399 AH; Ibn ʿIdhārī and the
+      later EI² synthesis confirm.
+    description_ar: |
+      في جمادى الآخرة سنة ٣٩٩ هـ ثارت عامةُ قرطبة على عبد
+      الرحمن شنشول العامري — وريث المنصور بن أبي عامر وأخي عبد
+      الملك المظفر — بعد أن أكره شنشولُ الخليفةَ الصوري هشام
+      الثاني المؤيدَ على تنصيبه ولياً للعهد. فأقامت العصبةُ
+      الموالية للأمويين محمد الثاني المهديَّ — أحدَ أحفاد عبد
+      الرحمن الناصر — مكانَ شنشول؛ ولوحق شنشول وقُتل وهو
+      عائد من غزو الثغر، ونُهبت المدينة الزاهرة العامرية
+      شرقَ قرطبة. وتفتح هذه الحادثة ما يسمِّيه المؤرخون
+      الأندلسيون «فتنةَ الأندلس»، وهي حربٌ أهلية امتدَّت ثلاثاً
+      وعشرين سنة دمَّرت الخلافةَ القرطبية، وأخلت قرطبةَ نفسَها،
+      ومزَّقت الأندلسَ إلى ممالك الطوائف. ومن سنة ٣٩٩ هـ تتداول
+      اللقبُ الخلافي بين أمويين متعاقبين (محمد الثاني، ثم هشام
+      الثاني مرةً ثانية، ثم سليمان المستعين) وبين الأدارسة
+      الحموديين السادات في مالقة والجزيرة الخضراء (علي،
+      القاسم، يحيى)، إلى أن خُلع هشام الثالث سنة ٤٢٢ هـ
+      فانطوت المؤسسة. ويُثبت ابن الأثير اندلاع الفتنة في
+      حوادث ٣٩٩ هـ، ويؤيِّده ابنُ عذاري وملخَّصُ EI² لاحقاً.
+    description_fr: |
+      En Jumādā II 399 H, la population de Cordoue se souleva
+      contre ʿAbd al-Raḥmān Sanchuelo (*Shanjūl*), héritier
+      ʿāmiride d'al-Manṣūr et frère de ʿAbd al-Malik al-Muẓaffar,
+      après que Sanchuelo eut contraint le calife-pantin Hishām
+      II al-Muʾayyad à le désigner comme héritier califal
+      présomptif. La faction omeyyado-légitimiste proclama à sa
+      place Muḥammad II al-Mahdī, arrière-petit-fils de ʿAbd
+      al-Raḥmān III ; Sanchuelo fut traqué et tué au retour
+      d'une campagne de frontière, et al-Madīna al-Zāhira —
+      ville-palais ʿāmiride à l'est de Cordoue — fut mise à sac.
+      L'événement ouvre ce que les historiens d'al-Andalus
+      nomment la *Fitna d'al-Andalus*, guerre civile de
+      vingt-trois ans qui détruisit le califat cordouan, vida
+      Cordoue elle-même de ses habitants et démembra al-Andalus
+      en royaumes de taifas. À partir de 399 H, le titre califal
+      passa de main en main — entre prétendants omeyyades
+      successifs (Muḥammad II, Hishām II rétabli, Sulaymān
+      al-Mustaʿīn) et les Hammudides idrīsides-ʿalawides
+      sayyids de Malaga et d'Algésiras (ʿAlī, al-Qāsim, Yaḥyā)
+      — jusqu'à la déposition de Hishām III en 422 H, qui mit
+      fin à l'institution. Ibn al-Athīr place le déclenchement
+      sous 399 H ; Ibn ʿIdhārī et la synthèse postérieure
+      d'EI² le confirment.
+    canonical_hijri: {year: 399, month: 6, precision: month}
+    canonical_gregorian: {date: 1009-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the rising against Sanchuelo and the proclamation of Muḥammad II al-Mahdī under the events of 399 AH and follows the Fitna year by year."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr's al-Bidāya wa-l-Nihāya confirms the outbreak of the Fitna in 399 AH and the death of Sanchuelo."
+      - source_key: ei2
+        notes: "EI² entry 'Fitna' (al-Andalus) confirms the inception in 399 AH / 1009 CE and the twenty-three-year arc to 422 AH."
+    tags: [andalus, cordoba, caliphate, fitna, civil_war, amirids, umayyad_andalus]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: end-of-cordoba-caliphate-422
+    category: political_event
+    title_en: Deposition of Hishām III — End of the Cordoban Caliphate
+    title_ar: خلع هشام الثالث — نهاية خلافة قرطبة
+    title_fr: Déposition de Hishām III — fin du califat de Cordoue
+    description_en: |
+      In Dhū al-Ḥijja 422 AH the notables of Cordoba — under
+      the leadership of the *jamāʿa* of city sheikhs around
+      Abū al-Ḥazm Jahwar ibn Muḥammad — deposed the last
+      Umayyad caliph of al-Andalus, Hishām III al-Muʿtadd
+      bi-Allāh, expelled him from the city, and formally
+      abolished the institution of the caliphate at Cordoba,
+      replacing it with a council of notables (the *jumhūriyyat*
+      of the Banū Jahwar). The act sealed twenty-three years of
+      Fitna and ratified the de facto fragmentation of
+      al-Andalus into the Taifa kingdoms (mulūk al-ṭawāʾif). No
+      caliph in al-Andalus would ever again command universal
+      recognition; the Hammudids of Málaga continued to claim
+      the caliphal title intermittently, but their writ
+      stretched no further than the Straits. The Ṭawāʾif now
+      operated as petty Sunni monarchies (mulūk and amīrs),
+      paying tribute (parias) to the rising Christian kingdoms
+      of León-Castile, Navarre, and the Catalan counties. Ibn
+      al-Athīr enters the deposition under 422 AH; Ibn ʿIdhārī
+      records the founding of the Jahwarid council and the
+      symbolic burial of the office.
+    description_ar: |
+      في ذي الحجة سنة ٤٢٢ هـ خلع وجهاءُ قرطبة — بقيادة
+      *جماعة* مشايخ المدينة من حول أبي الحزم جهور بن محمد —
+      آخرَ خلفاء بني أمية بالأندلس هشامَ الثالث المعتدَّ
+      بالله، وأخرجوه من المدينة، وألغَوا رسمياً مؤسسةَ
+      الخلافة بقرطبة، فأقاموا مكانها مجلسَ الأعيان (جمهورية
+      بني جهور). ختم العملُ ثلاثاً وعشرين سنة من الفتنة،
+      وأقرَّ تجزُّؤَ الأندلس إلى ممالك الطوائف (ملوك الطوائف).
+      ولن يحظى خليفةٌ بالأندلس بعدها بإجماعٍ عام؛ وإن واصل
+      الحموديون بمالقة ادِّعاء اللقب الخلافي على فتراتٍ، فلم
+      تتجاوز كلمتُهم المضيق. وصارت الطوائفُ ممالكَ سنية صغرى
+      (ملوكاً وأمراءً) تؤدي الإتاوة (parias) إلى الممالك
+      النصرانية الصاعدة بليون وقشتالة ونبرَّة وبلاد كَتالان.
+      ويُثبت ابنُ الأثير الخلعَ في حوادث ٤٢٢ هـ، ويسجِّل
+      ابنُ عذاري قيامَ المجلس الجهوري والدفنَ الرمزي
+      للمؤسسة.
+    description_fr: |
+      En Dhū al-Ḥijja 422 H, les notables de Cordoue — sous la
+      direction de la *jamāʿa* des shaykhs de la ville réunie
+      autour d'Abū al-Ḥazm Jahwar ibn Muḥammad — déposèrent le
+      dernier calife omeyyade d'al-Andalus, Hishām III
+      al-Muʿtadd bi-Allāh, le chassèrent de la ville et abolirent
+      formellement l'institution du califat à Cordoue, lui
+      substituant un conseil de notables (la *jumhūriyya* des
+      Banū Jahwar). L'acte scella vingt-trois ans de Fitna et
+      ratifia la fragmentation de fait d'al-Andalus en royaumes
+      de taifas (mulūk al-ṭawāʾif). Plus jamais un calife
+      d'al-Andalus ne jouirait d'une reconnaissance universelle ;
+      les Hammudides de Malaga continueraient bien à revendiquer
+      par intermittence le titre califal, mais leur autorité ne
+      dépasserait plus le détroit. Les taifas opèrent désormais
+      comme petites monarchies sunnites (mulūk et amīrs), payant
+      tribut (parias) aux royaumes chrétiens montants de
+      León-Castille, de Navarre et des comtés catalans. Ibn
+      al-Athīr inscrit la déposition sous 422 H ; Ibn ʿIdhārī
+      enregistre la fondation du conseil jahwaride et
+      l'enterrement symbolique de la fonction.
+    canonical_hijri: {year: 422, month: 12, precision: month}
+    canonical_gregorian: {date: 1031-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the deposition of Hishām III al-Muʿtadd and the abolition of the Cordoban caliphate under the events of 422 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr's al-Bidāya wa-l-Nihāya confirms the abolition of the Cordoban caliphate in 422 AH."
+      - source_key: ei2
+        notes: "EI² entry 'Hishām III' / 'Cordoba' fixes the deposition in 422 AH / 1031 CE as the formal end of the institution."
+    people: [[hisham-iii-andalus, died]]
+    tags: [andalus, cordoba, caliphate, fitna, end_of_caliphate, taifa, jahwarids]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-yahya-ibn-ali-hammudi
+    category: ruler_death
+    title_en: Death of Yaḥyā ibn ʿAlī al-Ḥammūdī — Hammudid Caliph of Cordoba
+    title_ar: وفاة يحيى بن علي الحمودي — الخليفة الحمودي بقرطبة
+    title_fr: Décès de Yaḥyā ibn ʿAlī al-Ḥammūdī — calife hammudide de Cordoue
+    description_en: |
+      Yaḥyā ibn ʿAlī ibn Ḥammūd al-Idrīsī, of the Idrīsīd-ʿAlawid
+      Hammudid line of Málaga and Algeciras, was killed in
+      Muḥarram 427 AH while besieging the Zīrid lord Bādīs ibn
+      Ḥabbūs at Carmona. He had been recognised intermittently
+      as caliph of al-Andalus during the long Fitna — succeeding
+      his father ʿAlī (proclaimed at Cordoba in 407 AH) and his
+      uncle al-Qāsim — but his Cordoban authority had collapsed
+      and his realm was reduced to Málaga, Algeciras, and the
+      Straits. The Hammudids descended from Idrīs II of Fez and
+      thus from al-Ḥasan ibn ʿAlī ibn Abī Ṭālib through the
+      Idrīsīd line — a sayyid pedigree that legitimised their
+      caliphal claim against the Cordoban Umayyads, whom they
+      reproached for non-Hashimite descent. Yaḥyā's death ended
+      the brief revival of Hammudid claims at Cordoba; the line
+      survived only in coastal Málaga until the mid-5th AH
+      century, when it was absorbed by the Zīrids of Granada and
+      the Almoravids. Ibn al-Athīr places the death in Muḥarram
+      427 AH (November 1035 CE); Ibn ʿIdhārī confirms.
+    description_ar: |
+      قُتل يحيى بن علي بن حمود الإدريسي — من الأدارسة العَلَويين
+      الحموديين السادات بمالقة والجزيرة الخضراء — في محرم سنة
+      ٤٢٧ هـ وهو يحاصر الزِّيري باديس بن حبُّوس بقرمونة. كان قد
+      عُرف خليفةً للأندلس في فترات متقطِّعة خلال الفتنة الطويلة
+      — خلفاً لأبيه علي الذي بُويع بقرطبة سنة ٤٠٧ هـ، ولعمِّه
+      القاسم — إلا أن سلطته القرطبية كانت قد انهارت وانحصر
+      ملكُه في مالقة والجزيرة الخضراء وما يليهما من سواحل
+      المضيق. والحموديون من ذريّة إدريس الثاني بفاس، وعن
+      الأدارسة من الحسن بن علي بن أبي طالب — نسبٌ سيِّدي شريف
+      كان حجَّتَهم الخلافية في وجه أمويي قرطبة الذين عابوا
+      عليهم نسبَهم غير الهاشمي. وأنهت وفاتُه الإحياءَ الوجيز
+      للدعوى الحمودية بقرطبة، فلم يبقَ من السلالة إلا فرعها
+      المالقي إلى منتصف المئة الخامسة، حين ابتلعها الزِّيريون
+      بغرناطة ثم المرابطون. ويؤرِّخ ابن الأثير الوفاةَ في محرم
+      ٤٢٧ هـ (نوفمبر ١٠٣٥ م)، ويتابعه ابن عذاري.
+    description_fr: |
+      Yaḥyā ibn ʿAlī ibn Ḥammūd al-Idrīsī, de la lignée
+      idrīsīde-ʿalawide hammudide de Malaga et Algésiras, fut
+      tué en Muḥarram 427 H alors qu'il assiégeait le seigneur
+      zīride Bādīs ibn Ḥabbūs à Carmona. Reconnu par
+      intermittence comme calife d'al-Andalus durant la longue
+      Fitna — successeur de son père ʿAlī, proclamé à Cordoue en
+      407 H, et de son oncle al-Qāsim — son autorité cordouane
+      s'était effondrée, son royaume réduit à Malaga, Algésiras
+      et le détroit. Les Hammudides descendaient d'Idrīs II de
+      Fès, donc d'al-Ḥasan ibn ʿAlī ibn Abī Ṭālib par la lignée
+      idrīsīde — pedigree de sayyids qui légitimait leur
+      revendication califale contre les Omeyyades de Cordoue,
+      auxquels ils reprochaient une ascendance non hāshimite. La
+      mort de Yaḥyā mit fin au bref renouveau des prétentions
+      hammudides à Cordoue ; la lignée ne survécut que dans la
+      Malaga côtière jusqu'au milieu du Ve s. H, quand elle fut
+      absorbée par les Zīrides de Grenade et les Almoravides.
+      Ibn al-Athīr situe la mort en Muḥarram 427 H (novembre
+      1035 EC) ; Ibn ʿIdhārī confirme.
+    canonical_hijri: {year: 427, month: 1, precision: month}
+    canonical_gregorian: {date: 1035-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of the Hammudid caliph Yaḥyā at the siege of Carmona under the events of 427 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records 427 AH for the death of Yaḥyā al-Idrīsī al-Ḥammūdī."
+      - source_key: ei2
+        notes: "EI² entry 'Ḥammūdids' confirms 427 AH / 1035 CE for Yaḥyā ibn ʿAlī's death and the Idrīsīd-ʿAlawid pedigree of the dynasty."
+    people: [[yahya-ibn-ali-hammudi, died]]
+    tags: [andalus, fitna, hammudid, malaga, algeciras, idrisid_descent, sayyid, caliphate]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # TAIFA KINGS — fifth-century AH
+  # =========================================================================
+
+  - slug: death-of-mujahid-al-amiri-denia
+    category: ruler_death
+    title_en: Death of Mujāhid al-ʿĀmirī — Taifa King of Denia and the Balearics
+    title_ar: وفاة مجاهد العامري — ملك طائفة دانية والبليار
+    title_fr: Décès de Mujāhid al-ʿĀmirī — roi de taifa de Denia et des Baléares
+    description_en: |
+      Mujāhid ibn ʿAbd Allāh al-ʿĀmirī al-Muwaffaq, freedman and
+      protégé of the ʿĀmirid house of al-Manṣūr, founder of the
+      taifa of Denia and the Balearic Islands, died at Denia in
+      Shaʿbān 436 AH after a reign of more than three decades
+      (c. 405-436 AH). His was the only Andalusi taifa with a
+      sea-borne policy: in 405-406 AH (1014-1015 CE) his fleet
+      occupied Sardinia for several months and pressed
+      operations against the Italian maritime republics — Pisa
+      and Genoa — until a counter-strike by their joint armada
+      forced him to evacuate the island. He kept the Balearics
+      throughout his reign and made Denia a centre of
+      *qirāʾāt* and Arabic philological scholarship: it was
+      under his and his son ʿAlī Iqbāl al-Dawla's patronage that
+      the great Andalusi grammarian Abū ʿAmr al-Dānī flourished.
+      He was succeeded by his son ʿAlī Iqbāl al-Dawla, under
+      whom Denia was annexed by Saragossa in 468 AH. Ibn
+      al-Athīr fixes Mujāhid's death in 436 AH; al-Dhahabī
+      confirms.
+    description_ar: |
+      توفي مجاهد بن عبد الله العامري الموفَّق — مولى آل المنصور
+      العامرية ومؤسس طائفة دانية وجزائر البليار — بدانية في
+      شعبان سنة ٤٣٦ هـ بعد حكم تجاوز ثلاثة عقود (نحو
+      ٤٠٥-٤٣٦ هـ). كانت طائفتُه الوحيدةَ في الأندلس ذاتَ
+      السياسة البحرية: ففي ٤٠٥-٤٠٦ هـ (١٠١٤-١٠١٥ م) احتلَّ
+      أسطولُه جزيرةَ سَرْدانية أشهراً عدةً، وضايق جمهوريات
+      البحر الإيطالية — بِيزَا وجِنْوَا — حتى أرغمه أسطولُهما
+      المشترك على الانسحاب. أبقى البليار طوال عهده، وجعل
+      دانية مركزاً للقراءات والعلوم العربية: ففي رعايته ورعاية
+      ابنه علي إقبال الدولة ازدهر الإمام أبو عمرو الداني،
+      شيخُ القراء الأندلسي. وخلفه ابنه علي إقبال الدولة، وفي
+      عهده ضمَّ المقتدر بنُ هود السرقسطي دانيةَ سنة ٤٦٨ هـ.
+      ويؤرخ ابن الأثير وفاةَ مجاهد بسنة ٤٣٦ هـ، ويوافقه
+      الذهبي.
+    description_fr: |
+      Mujāhid ibn ʿAbd Allāh al-ʿĀmirī al-Muwaffaq, affranchi et
+      protégé de la maison ʿāmiride d'al-Manṣūr, fondateur de la
+      taifa de Denia et des îles Baléares, mourut à Denia en
+      Shaʿbān 436 H, après un règne de plus de trois décennies
+      (vers 405-436 H). Sa taifa fut la seule d'al-Andalus à
+      mener une politique maritime : en 405-406 H (1014-1015
+      EC), sa flotte occupa la Sardaigne pendant plusieurs mois
+      et harcela les républiques maritimes italiennes — Pise et
+      Gênes — jusqu'à ce qu'une contre-offensive de leur armada
+      conjointe l'obligeât à évacuer l'île. Il conserva les
+      Baléares tout son règne et fit de Denia un centre de
+      *qirāʾāt* et de philologie arabe : c'est sous son
+      patronage et celui de son fils ʿAlī Iqbāl al-Dawla que
+      s'épanouit le grand grammairien andalou Abū ʿAmr al-Dānī.
+      Son fils ʿAlī Iqbāl al-Dawla lui succéda ; Denia serait
+      annexée par Saragosse en 468 H sous son règne. Ibn al-Athīr
+      fixe la mort de Mujāhid en 436 H ; al-Dhahabī confirme.
+    canonical_hijri: {year: 436, month: 8, precision: month}
+    canonical_gregorian: {date: 1045-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of Mujāhid al-ʿĀmirī, ruler of Denia and the Balearics, under the events of 436 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records 436 AH for Mujāhid's death and his Sardinia expedition."
+      - source_key: ei2
+        notes: "EI² entry 'Mudjāhid al-ʿĀmirī' confirms 436 AH / 1045 CE for the death and the unique maritime character of the Denian taifa."
+    people: [[mujahid-al-amiri, died]]
+    tags: [andalus, taifa, denia, balearics, sardinia, amirid_freedman, qiraat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-yusuf-al-mutaman-ibn-hud
+    category: ruler_death
+    title_en: Death of Yūsuf al-Muʾtaman ibn Hūd — Mathematician-King of Saragossa
+    title_ar: وفاة يوسف المؤتمن بن هود — الملك الرياضي بسرقسطة
+    title_fr: Décès de Yūsuf al-Muʾtaman ibn Hūd — roi-mathématicien de Saragosse
+    description_en: |
+      Al-Muʾtaman bi-Allāh, Yūsuf ibn Aḥmad ibn Hūd al-Judhāmī,
+      third Hūdid king of the taifa of Saragossa (the *Banū
+      Hūd*), died at Saragossa in Rajab 478 AH after a reign of
+      five years (474-478 AH). He was a working mathematician
+      of considerable rank as well as a king: his *Kitāb
+      al-Istikmāl* (*Book of Perfection*), an unfinished
+      compendium of pure mathematics in the tradition of Euclid,
+      Apollonius, and Archimedes, contains the earliest known
+      statement of what is today named *Ceva's theorem* (after
+      its 17th-century European rediscoverer) and the earliest
+      proof of the *theorem of Ibn Hūd* on the trihedral angle.
+      The book circulated widely in 12th-century Egypt — Ibn
+      Sabʿīn and the Maimonides circle in Cairo cite it — but
+      his political reign was short and dominated by the rising
+      Christian threat: Alfonso VI was already pressing Toledo,
+      which would fall the very year of al-Muʾtaman's death.
+      His son al-Mustaʿīn II succeeded him. Ibn al-Athīr places
+      his death in 478 AH; al-Dhahabī and EI² confirm.
+    description_ar: |
+      توفي المؤتمن بالله يوسف بن أحمد بن هود الجذامي — ثالث
+      ملوك بني هود طائفةِ سرقسطة — بسرقسطة في رجب سنة ٤٧٨ هـ
+      بعد حكم خمس سنوات (٤٧٤-٤٧٨ هـ). كان رياضياً محقِّقاً من
+      الطبقة الأولى إلى جانب ملكه: ألَّف *كتاب الاستكمال* —
+      موسوعةً غير مكتملة في الرياضيات النظرية على طريقة
+      إقليدس وأبولونيوس وأرخميدس — وفيه أقدم نصٍّ معروف
+      لما يعرف اليوم بـ«مبرهنة شيفا» (نسبةً إلى مكتشفها
+      الأوروبي في القرن السابع عشر)، وأقدم برهان على «مبرهنة
+      ابن هود» في الزاوية الثلاثية الأوجه. وقد انتشر الكتاب
+      في مصر القرن السادس الهجري — يستشهد به ابن سبعين
+      ودائرة موسى بن ميمون بالقاهرة — أما عهده السياسي فكان
+      قصيراً يطغى عليه التهديد النصراني الصاعد: كان ألفونسو
+      السادس قد ضيَّق على طُلَيطِلَة، وستسقط في السنة نفسها
+      التي مات فيها المؤتمن. وخلفه ابنُه المستعين الثاني.
+      يؤرِّخ ابن الأثير وفاتَه بسنة ٤٧٨ هـ، ويوافقه الذهبي
+      وموسوعة EI².
+    description_fr: |
+      Al-Muʾtaman bi-Allāh, Yūsuf ibn Aḥmad ibn Hūd al-Judhāmī,
+      troisième roi hūdide de la taifa de Saragosse (les *Banū
+      Hūd*), mourut à Saragosse en Rajab 478 H, après un règne
+      de cinq ans (474-478 H). Il était un mathématicien actif
+      de premier rang autant qu'un roi : son *Kitāb al-Istikmāl*
+      (*Livre de la perfection*), abrégé inachevé de
+      mathématiques pures dans la tradition d'Euclide,
+      d'Apollonius et d'Archimède, contient la plus ancienne
+      formulation connue de ce qu'on appelle aujourd'hui
+      *théorème de Ceva* (du nom de son redécouvreur européen
+      au XVIIe siècle) et la première démonstration du
+      *théorème d'Ibn Hūd* sur l'angle trièdre. L'ouvrage
+      circula largement dans l'Égypte du XIIe siècle — Ibn
+      Sabʿīn et le cercle de Maïmonide au Caire le citent —
+      mais son règne politique fut bref et dominé par la menace
+      chrétienne montante : Alphonse VI pressait déjà Tolède,
+      qui tomberait l'année même de la mort d'al-Muʾtaman. Son
+      fils al-Mustaʿīn II lui succéda. Ibn al-Athīr place sa
+      mort en 478 H ; al-Dhahabī et EI² confirment.
+    canonical_hijri: {year: 478, month: 7, precision: month}
+    canonical_gregorian: {date: 1085-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of al-Muʾtaman ibn Hūd of Saragossa under the events of 478 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 478 AH for Yūsuf al-Muʾtaman's death and the succession of his son al-Mustaʿīn."
+      - source_key: ei2
+        notes: "EI² entry 'Hūdids' confirms 478 AH / 1085 CE for al-Muʾtaman and notes his Kitāb al-Istikmāl as a major Andalusi mathematical compendium."
+    people: [[yusuf-al-mutaman-ibn-hud, died]]
+    tags: [andalus, taifa, saragossa, hudid, mathematics, scholar_king, banu_hud]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-mutasim-ibn-sumadih-almeria
+    category: ruler_death
+    title_en: Death of al-Muʿtaṣim ibn Ṣumādiḥ — Taifa King of Almería
+    title_ar: وفاة المعتصم بن صمادح — ملك طائفة المرية
+    title_fr: Décès d'al-Muʿtaṣim ibn Ṣumādiḥ — roi de taifa d'Almería
+    description_en: |
+      Muḥammad ibn Maʿn ibn Ṣumādiḥ al-Muʿtaṣim bi-Allāh,
+      second of the Banū Ṣumādiḥ kings of the taifa of Almería,
+      died at Almería in Rabīʿ II 484 AH after a reign of more
+      than thirty years (443-484 AH). His court at the
+      *al-Ṣumādiḥiyya* citadel was one of the most refined
+      cultural centres of the Taifa age — patron of the poet
+      Ibn al-Ḥaddād, the philosopher-poet Ibn al-ʿArīf, and
+      others — and the city, the principal Andalusi port for the
+      eastern Mediterranean trade, prospered under his rule.
+      Politically, he kept Almería out of direct conflict with
+      the Almoravids by paying tribute and avoiding the formal
+      *istinjād* (call for help) that brought Yūsuf ibn Tāshufīn
+      across the Straits — but his lands were in any case
+      annexed by the Almoravids only weeks after his death,
+      under his son and successor Muḥammad al-Muʿizz. Ibn
+      al-Athīr places the death in 484 AH; Ibn ʿIdhārī confirms
+      and connects it directly to the Almoravid annexation of
+      Almería that immediately followed.
+    description_ar: |
+      توفي محمد بن معن بن صمادح المعتصم بالله — ثاني ملوك بني
+      صمادح طائفةِ المرية — بالمرية في ربيع الآخر سنة ٤٨٤ هـ
+      بعد حكم تجاوز ثلاثين سنة (٤٤٣-٤٨٤ هـ). كان بلاطُه في
+      قصبة الصمادحية من أرفع المراكز الثقافية في عصر الطوائف
+      — راعى الشاعر ابن الحدَّاد، والشاعرَ الفيلسوف ابنَ
+      العريف، وغيرَهما — وازدهرت في عهده المريةُ، الميناءُ
+      الأندلسي الرئيس على ضفة المتوسط الشرقية. وأبعد سياسياً
+      مدينتَه عن صدام مباشر مع المرابطين بدفع الإتاوة، ولم
+      ينضمَّ رسمياً إلى استنجاد ابن عبَّاد ليوسف بن تاشفين عبر
+      المضيق؛ على أن المرابطين ضمُّوا بلادَه بعد وفاته بأسابيع
+      في عهد ابنه محمد المعزِّ. ويؤرِّخ ابن الأثير الوفاةَ في
+      ٤٨٤ هـ، ويوافقه ابن عذاري ويربط الوفاةَ مباشرةً بالضمِّ
+      المرابطي للمَرية.
+    description_fr: |
+      Muḥammad ibn Maʿn ibn Ṣumādiḥ al-Muʿtaṣim bi-Allāh,
+      deuxième roi des Banū Ṣumādiḥ de la taifa d'Almería,
+      mourut à Almería en Rabīʿ II 484 H, après un règne de
+      plus de trente ans (443-484 H). Sa cour, à la citadelle
+      *al-Ṣumādiḥiyya*, fut l'un des centres culturels les plus
+      raffinés de l'âge des taifas — protectrice du poète Ibn
+      al-Ḥaddād, du poète-philosophe Ibn al-ʿArīf, et d'autres —
+      et la ville, principal port andalusi pour le commerce
+      avec la Méditerranée orientale, prospéra sous son règne.
+      Politiquement, il tint Almería hors d'un affrontement
+      direct avec les Almoravides en payant tribut et en
+      n'entrant pas formellement dans l'*istinjād* qui avait
+      fait passer Yūsuf ibn Tāshufīn par le détroit — mais ses
+      terres furent de toute façon annexées par les Almoravides
+      quelques semaines seulement après sa mort, sous son fils
+      et successeur Muḥammad al-Muʿizz. Ibn al-Athīr situe la
+      mort en 484 H ; Ibn ʿIdhārī confirme et la rattache
+      directement à l'annexion almoravide d'Almería qui suivit
+      immédiatement.
+    canonical_hijri: {year: 484, month: 4, precision: month}
+    canonical_gregorian: {date: 1091-06-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of al-Muʿtaṣim ibn Ṣumādiḥ of Almería under the events of 484 AH and the immediate Almoravid annexation."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records 484 AH for the death of al-Muʿtaṣim and the succession of his son al-Muʿizz."
+      - source_key: ei2
+        notes: "EI² entry 'Ṣumādiḥids' confirms 484 AH / 1091 CE for al-Muʿtaṣim's death."
+    people: [[al-mutasim-ibn-sumadih, died]]
+    tags: [andalus, taifa, almeria, sumadihids, port, patronage]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ALMORAVID ANNEXATIONS — end of the Taifa kingdoms
+  # =========================================================================
+
+  - slug: almoravid-annexation-of-granada
+    category: conquest
+    title_en: Almoravid Annexation of Granada — End of the Zīrid Taifa
+    title_ar: ضمُّ المرابطين لغرناطة — نهاية طائفة بني زِيري
+    title_fr: Annexion almoravide de Grenade — fin de la taifa zīride
+    description_en: |
+      In Rajab 483 AH the Almoravid amīr Yūsuf ibn Tāshufīn
+      deposed the last Zīrid king of the taifa of Granada,
+      ʿAbd Allāh ibn Buluggīn (author of the celebrated memoir
+      *al-Tibyān*), and incorporated Granada — together with
+      its dependent Málaga held by ʿAbd Allāh's brother
+      Tamīm — into the Almoravid empire. ʿAbd Allāh and Tamīm
+      were exiled to Aghmat south of Marrakesh, where ʿAbd
+      Allāh would write the *Tibyān*, the only Andalusi king's
+      autobiography to survive in full and the most candid
+      first-person Andalusi political document of the era.
+      Granada's annexation was the first of the great Almoravid
+      absorptions of the eastern Andalusi taifas; Yūsuf ibn
+      Tāshufīn had been invited across the Straits in 479 AH by
+      al-Muʿtamid of Sevilla and others to repel Alfonso VI
+      after Toledo's fall, and now turned the same army on the
+      Andalusi rulers themselves. Sevilla, Almería, Badajoz,
+      and Saragossa would follow in the next decade. Ibn
+      al-Athīr enters the annexation under 483 AH; ʿAbd Allāh's
+      own *Tibyān* gives a contemporary first-hand account.
+    description_ar: |
+      في رجب سنة ٤٨٣ هـ خلع الأميرُ المرابطي يوسف بن تاشفين
+      آخرَ ملوك بني زيري من طائفة غرناطة، عبدَ الله بن
+      بُلُكِّين (صاحبَ المذكرات الشهيرة «التِّبيان»)، وضمَّ
+      غرناطةَ — ومعها مالقة التي كان يحكمها أخوه تميم —
+      إلى دولة المرابطين. ونُفي عبدُ الله وتميم إلى أَغْمَات
+      جنوبيَّ مراكش، حيث كتب عبدُ الله «التِّبيان»، وهو السيرةُ
+      الذاتية الوحيدة لملك أندلسي وصلت إلينا كاملة وأصرحُ
+      وثيقة أندلسية ذاتية في عصرها. كان ضمُّ غرناطة فاتحةَ
+      الموجة الكبرى لاستيعاب المرابطين الطوائفَ الشرقية، فقد
+      كان يوسفُ قد عبر المضيق سنة ٤٧٩ هـ بطلب المعتمد بن
+      عبَّاد ومن معه لردِّ ألفونسو السادس بعد سقوط طُلَيطِلَة،
+      ثم وجَّه الجيشَ نفسَه إلى الأمراء الأندلسيين. وستتبعها
+      إشبيلية والمرية وبَطَلْيَوْس وسرقسطة في العقد الذي
+      يليها. يثبت ابنُ الأثير الضمَّ في ٤٨٣ هـ، ويعطي
+      *التِّبيان* لعبد الله شهادةً معاصِرةً مباشرة.
+    description_fr: |
+      En Rajab 483 H, l'amīr almoravide Yūsuf ibn Tāshufīn
+      déposa le dernier roi zīride de la taifa de Grenade,
+      ʿAbd Allāh ibn Buluggīn (auteur du célèbre mémoire
+      *al-Tibyān*), et incorpora Grenade — avec sa dépendance
+      Malaga, tenue par son frère Tamīm — dans l'empire
+      almoravide. ʿAbd Allāh et Tamīm furent exilés à Aghmat
+      au sud de Marrakech, où ʿAbd Allāh écrivit le *Tibyān*,
+      seule autobiographie d'un roi andalusi parvenue intégrale
+      et document politique andalou à la première personne le
+      plus franc de l'époque. L'annexion de Grenade ouvrit la
+      grande vague d'absorption almoravide des taifas
+      orientales : Yūsuf ibn Tāshufīn avait franchi le détroit
+      en 479 H à l'appel d'al-Muʿtamid de Séville et d'autres
+      pour repousser Alphonse VI après la chute de Tolède, et
+      retournait à présent la même armée contre les souverains
+      andalous eux-mêmes. Séville, Almería, Badajoz et Saragosse
+      suivraient dans la décennie. Ibn al-Athīr place l'annexion
+      sous 483 H ; le *Tibyān* de ʿAbd Allāh en livre un
+      témoignage contemporain de première main.
+    canonical_hijri: {year: 483, month: 7, precision: month}
+    canonical_gregorian: {date: 1090-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the Almoravid deposition of ʿAbd Allāh ibn Buluggīn and the annexation of Granada under the events of 483 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 483 AH for the end of the Zīrid taifa."
+      - source_key: ei2
+        notes: "EI² entry 'Zīrids of Granada' confirms 483 AH / 1090 CE for the deposition of ʿAbd Allāh ibn Buluggīn and the annexation by the Almoravids."
+    people: [[yusuf-ibn-tashufin, leader]]
+    tags: [andalus, taifa, granada, zirid, almoravid, conquest, aghmat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: almoravid-annexation-of-sevilla
+    category: conquest
+    title_en: Almoravid Annexation of Sevilla — End of the ʿAbbādid Taifa
+    title_ar: ضمُّ المرابطين لإشبيلية — نهاية طائفة بني عبَّاد
+    title_fr: Annexion almoravide de Séville — fin de la taifa abbadide
+    description_en: |
+      In Rajab 484 AH an Almoravid army under Sīr ibn Abī Bakr
+      al-Lamtūnī, on the orders of Yūsuf ibn Tāshufīn, took
+      Sevilla after a siege and deposed Muḥammad al-Muʿtamid
+      ibn ʿAbbād, the third and last ʿAbbādid king. Al-Muʿtamid
+      had been the chief Andalusi sponsor of the Almoravid
+      crossing five years earlier (the *istinjād* of 479 AH
+      that culminated at al-Zallāqa); the Almoravid annexation
+      of his own kingdom — together with his cousin's at
+      Cordoba and the broader takeover of Almería, Badajoz,
+      and the south — completed Yūsuf ibn Tāshufīn's reduction
+      of the Andalusi taifas. Al-Muʿtamid was led away in
+      chains to Aghmat south of Marrakesh, where he would die
+      four years later (488 AH) after writing some of the most
+      moving Arabic verse of exile in the tradition. Ibn
+      al-Athīr enters the fall of Sevilla under 484 AH; Ibn
+      Khallikān's Wafayāt records the deposition and exile in
+      his entry on al-Muʿtamid; EI² confirms.
+    description_ar: |
+      في رجب سنة ٤٨٤ هـ افتتح جيشٌ مرابطي بقيادة سير بن أبي
+      بكر اللمتوني — بأمر يوسف بن تاشفين — إشبيليةَ بعد حصار،
+      وخلع محمد المعتمد بن عبَّاد ثالثَ ملوك بني عبَّاد
+      وآخرَهم. كان المعتمد قد قاد استنجاد الأندلسيين بالمرابطين
+      قبل خمس سنين (استنجاد ٤٧٩ هـ المتوِّج بالزَّلاقة)؛ فجاء
+      ضمُّ مملكته — وإلى جانبها قرطبة وعمومُ المرية وبَطَلْيَوْس
+      والجنوب — ليكمل اختزال يوسف بن تاشفين للطوائف الأندلسية.
+      وسيق المعتمدُ مكبَّلاً إلى أَغْمَات جنوبَ مراكش، فمات
+      هناك بعد أربع سنين (٤٨٨ هـ) بعد أن نظم في غربته من
+      أعظم شعر العربية في الحنين. يثبت ابن الأثير سقوطَ إشبيلية
+      في ٤٨٤ هـ، ويسرد ابن خلكان في «وفيات الأعيان» ترجمةَ
+      المعتمد الخلعَ والمنفى، وتؤكد EI².
+    description_fr: |
+      En Rajab 484 H, une armée almoravide commandée par Sīr ibn
+      Abī Bakr al-Lamtūnī, sur ordre de Yūsuf ibn Tāshufīn,
+      prit Séville après siège et déposa Muḥammad al-Muʿtamid
+      ibn ʿAbbād, troisième et dernier roi ʿabbādide.
+      Al-Muʿtamid avait été le principal parrain andalusi de la
+      traversée almoravide cinq ans plus tôt (l'*istinjād* de
+      479 H qui culmina à al-Zallāqa) ; l'annexion de son
+      propre royaume — jointe à celle de Cordoue et à la prise
+      générale d'Almería, de Badajoz et du sud — acheva la
+      réduction par Yūsuf ibn Tāshufīn des taifas andalouses.
+      Al-Muʿtamid fut emmené enchaîné à Aghmat au sud de
+      Marrakech, où il devait mourir quatre ans plus tard
+      (488 H) après y avoir composé certains des plus
+      poignants vers d'exil de toute la tradition arabe. Ibn
+      al-Athīr inscrit la chute de Séville sous 484 H ; le
+      *Wafayāt* d'Ibn Khallikān rapporte la déposition et
+      l'exil dans sa notice d'al-Muʿtamid ; EI² confirme.
+    canonical_hijri: {year: 484, month: 7, precision: month}
+    canonical_gregorian: {date: 1091-09-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the Almoravid capture of Sevilla and deposition of al-Muʿtamid ibn ʿAbbād under the events of 484 AH."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān records the Almoravid deposition of al-Muʿtamid in 484 AH and his subsequent exile to Aghmat."
+      - source_key: ei2
+        notes: "EI² entry 'ʿAbbādids' confirms 484 AH / 1091 CE for the fall of the ʿAbbādid taifa to the Almoravids."
+    people: [[al-mutamid-ibn-abbad, died], [yusuf-ibn-tashufin, leader]]
+    tags: [andalus, taifa, sevilla, abbadid, almoravid, conquest, aghmat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-mutamid-ibn-abbad
+    category: ruler_death
+    title_en: Death of al-Muʿtamid ibn ʿAbbād — Last ʿAbbādid King of Sevilla, in Aghmat Exile
+    title_ar: وفاة المعتمد بن عبَّاد — آخر ملوك بني عبَّاد بإشبيلية، منفياً بأَغْمَات
+    title_fr: Décès d'al-Muʿtamid ibn ʿAbbād — dernier roi abbadide de Séville, exilé à Aghmat
+    description_en: |
+      Muḥammad ibn ʿAbbād al-Muʿtamid bi-Allāh, third and last
+      king of the ʿAbbādid taifa of Sevilla, died at Aghmat in
+      Shawwāl 488 AH after four years of captivity south of
+      Marrakesh. The Almoravid amīr Yūsuf ibn Tāshufīn had
+      deposed him on his entry to Sevilla in Rajab 484 AH,
+      taken him in chains across the Straits, and held him under
+      house arrest at Aghmat in the Atlas foothills with the
+      women of his household. The poetry he composed there —
+      addressed to his daughters in their poverty, mourning the
+      lost gardens of Sevilla and the Guadalquivir, and rebuking
+      himself for not dying on the field — is among the most
+      celebrated of all Arabic exile literature; the long
+      *Sirr al-Adab* couplets and the tomb verses survive in
+      Ibn Khallikān, the *Dhakhīra* of Ibn Bassām, and Ibn
+      al-Khaṭīb's *Iḥāṭa*. He was buried at Aghmat where his
+      tomb still stands. Ibn al-Athīr enters his death in 488
+      AH; Ibn Khallikān's Wafayāt confirms.
+    description_ar: |
+      توفي محمد بن عبَّاد المعتمد بالله — ثالث ملوك بني عبَّاد
+      بإشبيلية وآخرهم — بأَغْمَات في شوال سنة ٤٨٨ هـ بعد أربع
+      سنين من الأسر جنوبَ مراكش. كان الأميرُ المرابطي يوسف بن
+      تاشفين قد خلعه عند دخوله إشبيلية في رجب ٤٨٤ هـ، وأخذه
+      مكبَّلاً إلى المغرب، وحبسه في أَغْمَات بسفح الأطلس مع
+      نساء بيته. وما نظم هناك من شعرٍ — يخاطب فيه بناته في
+      فاقتهن، ويبكي رياض إشبيلية والوادي الكبير، ويعاتب نفسه
+      على ألا يكون مات في المعركة — من أعرف الشعر العربي في
+      الغربة قاطبةً؛ ومنه قصائدُه التي حفظها ابنُ خلكان وابنُ
+      بسَّام في «الذخيرة» وابنُ الخطيب في «الإحاطة»، وأبياتُ
+      قبره. ودفن بأَغْمَات حيث ما زال قبرُه إلى اليوم.
+      ويثبت ابن الأثير وفاتَه في ٤٨٨ هـ، ويوافقه ابن خلكان
+      في «وفيات الأعيان».
+    description_fr: |
+      Muḥammad ibn ʿAbbād al-Muʿtamid bi-Allāh, troisième et
+      dernier roi de la taifa ʿabbādide de Séville, mourut à
+      Aghmat en Shawwāl 488 H, après quatre ans de captivité au
+      sud de Marrakech. L'amīr almoravide Yūsuf ibn Tāshufīn
+      l'avait déposé à son entrée dans Séville en Rajab 484 H,
+      l'avait emmené enchaîné par-delà le détroit et tenu en
+      résidence forcée à Aghmat, au pied de l'Atlas, avec les
+      femmes de sa maison. La poésie qu'il y composa — adressée
+      à ses filles dans leur dénuement, pleurant les jardins
+      perdus de Séville et le Guadalquivir, et se reprochant de
+      n'être pas mort sur le champ de bataille — compte parmi la
+      plus célèbre de toute la littérature arabe d'exil ; les
+      grandes pièces de *Sirr al-Adab* et les vers du tombeau
+      survivent chez Ibn Khallikān, dans la *Dhakhīra* d'Ibn
+      Bassām, et dans l'*Iḥāṭa* d'Ibn al-Khaṭīb. Il fut enterré
+      à Aghmat, où son tombeau se dresse encore. Ibn al-Athīr
+      situe sa mort en 488 H ; le *Wafayāt* d'Ibn Khallikān
+      confirme.
+    canonical_hijri: {year: 488, month: 10, precision: month}
+    canonical_gregorian: {date: 1095-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of al-Muʿtamid ibn ʿAbbād in exile at Aghmat under the events of 488 AH."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a long entry on al-Muʿtamid covering his deposition (484 AH), his Aghmat exile, his daughters, and his death (488 AH)."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 488 AH for the death of al-Muʿtamid in Aghmat exile."
+    people: [[al-mutamid-ibn-abbad, died]]
+    tags: [andalus, taifa, sevilla, abbadid, exile, aghmat, poetry, almoravid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

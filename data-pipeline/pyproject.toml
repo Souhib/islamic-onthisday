@@ -1,0 +1,58 @@
+[project]
+name = "islamic-onthisday-pipeline"
+version = "0.1.0"
+description = "Data pipeline for the Islamic On-This-Day database"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.27",
+    "sqlmodel>=0.0.22",
+    "sqlalchemy>=2.0",
+    "pydantic>=2.9",
+    "convertdate>=2.4",
+    "sparqlwrapper>=2.0",
+    "python-slugify>=8.0",
+    "rich>=13.7",
+    "loguru>=0.7.2",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.7.0",
+    "mypy>=1.11.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pipeline"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "UP", "B", "SIM", "C90", "N", "PL", "ARG"]
+ignore = ["E501", "PLR0913", "PLR2004", "ARG002", "B008"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pipeline"]
+
+[tool.poe.tasks]
+lint = "ruff check src/pipeline"
+format-check = "ruff format --check src/pipeline"
+check = ["lint", "format-check"]
+lint-fix = "ruff check --fix src/pipeline"
+format = "ruff format src/pipeline"
+fix = ["format", "lint-fix"]
+# Run before every commit. Pipeline has no test suite yet, so check
+# alone is the gate.
+pre-commit = ["check"]
+
+[dependency-groups]
+dev = [
+    "poethepoet>=0.41.0",
+    "ruff>=0.7.0",
+]

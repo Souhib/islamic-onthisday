@@ -1,0 +1,920 @@
+# Wave 26 of curated event additions (2026-04-27).
+# Major Muslim astronomers and mathematicians whose deaths or works
+# constitute well-attested anchor points in the history of science:
+# Thābit ibn Qurra, Naṣīr al-Dīn al-Ṭūsī, ʿUmar al-Khayyām, Abū Maʿshar
+# al-Balkhī, Ibrāhīm ibn Sinān, al-Farghānī, al-Zarqālī, al-Qabīṣī,
+# Qāḍī Zāda al-Rūmī, ʿAlī Qushjī, plus three civilization-anchor
+# events: the founding of the Samarqand observatory and the completion
+# of the Zīj-i Īlkhānī and Zīj-i Sulṭānī. Most figures here lie
+# alongside (rather than within) the wafayāt / siyar mainstream that
+# focused on muḥaddithūn and fuqahāʾ; we cite Ibn Khallikan and
+# al-Dhahabi where they cover the figure, and supplement with EI2 +
+# editorial for the late-Timurid / early-Ottoman cluster (which post-
+# dates Ibn Khallikan d.681 and al-Dhahabi d.748). Naṣīr al-Dīn
+# al-Ṭūsī's astronomical contribution is described as shared scientific
+# heritage; his Twelver theological positions are out of scope per
+# the project's Sunni editorial framing. Trilingual en/ar/fr throughout.
+# Hadith refs intentionally omitted across the file (no narration
+# directly anchors a scientific event in this corpus).
+
+events:
+  # =========================================================================
+  # ʿABBĀSID-ERA TRANSLATORS, ASTRONOMERS, MATHEMATICIANS
+  # =========================================================================
+
+  - slug: death-of-thabit-ibn-qurra
+    category: scholar_death
+    title_en: Death of Thābit ibn Qurra — Translator-Mathematician of Baghdad
+    title_ar: وفاة ثابت بن قرة الحرّاني — مترجم بغداد ورياضيها
+    title_fr: Mort de Thābit ibn Qurra — traducteur-mathématicien de Bagdad
+    description_en: |
+      Abū al-Ḥasan Thābit ibn Qurra al-Ḥarrānī — Sabian scholar
+      of Ḥarrān turned Baghdad-court polymath under the ʿAbbāsid
+      caliphs al-Muʿtaḍid and al-Muktafī, and the principal
+      reviser of the early Arabic translations of Euclid's
+      *Elements*, Ptolemy's *Almagest*, and the works of
+      Archimedes, Apollonius, and Theodosius — died in Baghdad
+      on Thursday 26 Ṣafar 288 AH (18 February 901 CE) at age
+      about 67. His original mathematical work extended Greek
+      number theory to amicable numbers (he proved the rule that
+      bears his name), generalised the Pythagorean theorem, and
+      anticipated the integral calculus in his computation of
+      the volume of the paraboloid of revolution. He founded a
+      scientific dynasty: his son Sinān, his grandsons Thābit ibn
+      Sinān and Ibrāhīm ibn Sinān, all became leading mathematicians
+      of the next two generations. Ibn Khallikān gives the date
+      and place of death precisely; al-Dhahabī notices him in
+      *Tārīkh al-Islām* among the scientific notables of his year.
+    description_ar: |
+      توفي أبو الحسن ثابت بن قرة الحرّاني — عالمٌ صابئيٌّ من حرّان
+      انتقل إلى بلاط بغداد العباسي في خلافة المعتضد والمكتفي،
+      ومُهذِّبُ الترجمات العربية الأولى لـ«أصول» إقليدس و«المجسطي»
+      لبطليموس وأعمال أرخميدس وأبلونيوس وثاوذوسيوس — ببغداد
+      يوم الخميس السادس والعشرين من صفر سنة ٢٨٨ هـ (الموافق ١٨
+      فبراير ٩٠١ م) عن نحو سبع وستين سنة. ومدّ إنتاجه الأصيل
+      نظريّةَ الأعداد اليونانية إلى الأعداد المتحابّة (فأقام
+      القاعدة المعروفة باسمه)، وعمّم نظرية فيثاغورس، وقدّم في
+      حساب حجم الجسم المتولّد من القطع المكافئ إرهاصاتٍ بحساب
+      التكامل. وأسّس أسرةً علميةً متّصلة: ابنه سنان، وحفيداه
+      ثابت بن سنان وإبراهيم بن سنان، صاروا من أبرز رياضيي
+      الجيلَين التاليَين. وضبط ابن خلكان تاريخَ وفاته ومكانها
+      تحديداً، وأَلمَّ به الذهبيُّ في «تاريخ الإسلام» في وفيات
+      السنة المذكورة.
+    description_fr: |
+      Abū al-Ḥasan Thābit ibn Qurra al-Ḥarrānī — savant sabéen
+      de Ḥarrān devenu polymathe à la cour bagdadienne sous les
+      califes ʿabbāsides al-Muʿtaḍid et al-Muktafī, et principal
+      réviseur des premières traductions arabes des *Éléments*
+      d'Euclide, de l'*Almageste* de Ptolémée et des œuvres
+      d'Archimède, d'Apollonius et de Théodose — mourut à Bagdad
+      le jeudi 26 Ṣafar 288 H (18 février 901 EC), à environ 67
+      ans. Son œuvre originale prolongea la théorie grecque des
+      nombres jusqu'aux nombres amiables (il établit la règle qui
+      porte son nom), généralisa le théorème de Pythagore et
+      anticipa le calcul intégral dans son calcul du volume du
+      paraboloïde de révolution. Il fonda une dynastie scientifique
+      : son fils Sinān, ses petits-fils Thābit ibn Sinān et
+      Ibrāhīm ibn Sinān, devinrent tous des mathématiciens de
+      premier plan des deux générations suivantes. Ibn Khallikān
+      donne précisément la date et le lieu de la mort ; al-Dhahabī
+      le mentionne dans *Tārīkh al-Islām* parmi les notables
+      scientifiques de son année.
+    canonical_hijri: {year: 288, month: 2, day: 26, precision: day}
+    canonical_gregorian: {date: 901-02-18, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death dated Thursday 26 Ṣafar 288 AH at Baghdad, age 67."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Year 288 AH wafayāt entry."
+      - source_key: ei2
+    people: [[thabit-ibn-qurra, died]]
+    tags: [abbasid, scholar, mathematics, astronomy, translation, baghdad, harran]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Thabit_ibn_Qurra"
+
+  - slug: death-of-abu-mashar-al-balkhi
+    category: scholar_death
+    title_en: Death of Abū Maʿshar al-Balkhī (Albumasar)
+    title_ar: وفاة أبي معشر البلخي
+    title_fr: Mort d'Abū Maʿshar al-Balkhī (Albumasar)
+    description_en: |
+      Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī —
+      Khurāsānian astronomer of the early ʿAbbāsid period, drawn
+      late in life into the scholarly study of the Ptolemaic
+      planetary system after a long career as a hadith-traditionist
+      — died at Wāsiṭ on Wednesday 28 Ramaḍān 272 AH (9 March
+      886 CE) at the reported age of 100. His handbook of
+      astronomical reckoning, *al-Madkhal al-Kabīr ilā ʿIlm Aḥkām
+      al-Nujūm*, was translated into Latin twice in the twelfth
+      century (by John of Seville and Hermann of Carinthia) and
+      became the principal medieval-Latin gateway to Aristotelian
+      natural philosophy via its long methodological introduction.
+      His *Kitāb al-Qirānāt* on planetary conjunctions shaped
+      Latin astronomical discussion until Kepler. Ibn Khallikān
+      preserves the date and location precisely; al-Dhahabī gives
+      a near-equivalent notice in *Siyar Aʿlām al-Nubalāʾ*.
+    description_ar: |
+      توفي أبو معشر جعفر بن محمد بن عمر البلخيّ — فلكيٌّ خراسانيٌّ
+      من أوائل العصر العباسي، انصرف إلى دراسة نظام الأفلاك
+      البطلميّ في أواخر عمره بعد عمرٍ طويل في الحديث — بواسط
+      ليلة الأربعاء الثامن والعشرين من رمضان سنة ٢٧٢ هـ (الموافق
+      ٩ مارس ٨٨٦ م) عن مئة سنة. وقد تُرجم كتابه «المدخل الكبير
+      إلى علم أحكام النجوم» إلى اللاتينية مرّتين في القرن الثاني
+      عشر الميلادي (لجون السيفلي ولهرمن الكارنثياني)، فصار البوّابة
+      اللاتينية الوسيطية الكبرى إلى الفلسفة الطبيعية الأرسطية
+      عبر مقدّمته المنهجية المسهبة. كما رسم كتابه «القرانات»
+      في اقترانات الكواكب مسارَ النقاش الفلكي اللاتيني إلى عصر
+      كپلر. ضبط ابن خلكان تاريخ وفاته ومكانها بدقة؛ وأَلمَّ به
+      الذهبيُّ في «سير أعلام النبلاء» إلماماً قريباً منه.
+    description_fr: |
+      Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī —
+      astronome khurāsānien du début de la période ʿabbāside,
+      attiré tardivement vers l'étude du système planétaire
+      ptolémaïque après une longue carrière comme traditionniste
+      du hadith — mourut à Wāsiṭ le mercredi 28 Ramaḍān 272 H
+      (9 mars 886 EC), à l'âge réputé de 100 ans. Son manuel de
+      computation astronomique, *al-Madkhal al-Kabīr ilā ʿIlm
+      Aḥkām al-Nujūm*, fut traduit en latin à deux reprises au
+      XIIe siècle (par Jean de Séville et Hermann de Carinthie)
+      et devint la principale porte d'entrée médiévale-latine
+      vers la philosophie naturelle aristotélicienne par sa longue
+      introduction méthodologique. Son *Kitāb al-Qirānāt* sur les
+      conjonctions planétaires façonna la discussion astronomique
+      latine jusqu'à Kepler. Ibn Khallikān préserve la date et le
+      lieu avec précision ; al-Dhahabī donne une notice quasi
+      équivalente dans *Siyar Aʿlām al-Nubalāʾ*.
+    canonical_hijri: {year: 272, month: 9, day: 28, precision: day}
+    canonical_gregorian: {date: 886-03-09, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Wafāh: 28 Ramaḍān 272 AH at Wāsiṭ, age 100."
+      - source_key: dhahabi_siyar
+      - source_key: ei2
+    people: [[abu-mashar-al-balkhi, died]]
+    tags: [abbasid, scholar, astronomy, balkh, wasit, latin-reception]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Ma%27shar_al-Balkhi"
+
+  - slug: death-of-al-farghani
+    category: scholar_death
+    title_en: Death of Aḥmad al-Farghānī (Alfraganus)
+    title_ar: وفاة أحمد الفرغاني
+    title_fr: Mort d'Aḥmad al-Farghānī (Alfraganus)
+    description_en: |
+      Abū al-ʿAbbās Aḥmad ibn Muḥammad ibn Kathīr al-Farghānī —
+      Transoxanian astronomer of the House of Wisdom under the
+      ʿAbbāsid caliphs al-Maʾmūn and al-Mutawakkil, later employed
+      by the latter as the engineer of the Nilometer at Fusṭāṭ —
+      died around 247 AH (~861 CE), with the exact day not
+      preserved in the classical Sunni biographical sources. His
+      *Jawāmiʿ ʿIlm al-Nujūm* (Compendium of the Science of the
+      Stars) was the standard Latin-medieval introduction to
+      Ptolemaic astronomy under the title *Elementa Astronomica*,
+      translated by John of Seville (1135) and Gerard of Cremona
+      (twelfth century); Dante refers to its data on the size of
+      the Earth in the *Convivio*. He calculated the obliquity of
+      the ecliptic, the precession of the equinoxes, and the
+      diameter of the Earth at values closer to modern measurement
+      than any predecessor. Year-precision is retained because
+      classical sources do not converge on the day or month.
+    description_ar: |
+      توفي أبو العباس أحمد بن محمد بن كثير الفرغاني — فلكيٌّ
+      ما وراء النهري من علماء «بيت الحكمة» في خلافتَي المأمون
+      والمتوكل، ثمّ استعمله المتوكلُ مهندساً لمقياس النيل بفسطاط
+      مصر — نحو سنة ٢٤٧ هـ (~٨٦١ م)، ولم تُحفظ في المصادر
+      الإسلامية الكلاسيكية تواريخُ يومه أو شهره. وقد كان كتابه
+      «جوامع علم النجوم» المدخلَ المعتمد لعلم الفلك البطلميّ في
+      أوروبا اللاتينية الوسيطية تحت اسم *Elementa Astronomica*،
+      ترجمه جون السيفلي (سنة ١١٣٥ م) ثم جيرارد الكريموني (في
+      القرن الثاني عشر)؛ ويستشهد دانتي ببياناته عن حجم الأرض
+      في «الوليمة» (*Convivio*). وحسَب ميلَ فلك البروج ومقدارَ
+      تقدّم الاعتدالين وقطرَ الأرض بقيمٍ أقربَ إلى القياس الحديث
+      من سابقيه. ويُكتفى هنا بدقّة السنة لأن المصادر القديمة
+      لا تتفق على اليوم ولا الشهر.
+    description_fr: |
+      Abū al-ʿAbbās Aḥmad ibn Muḥammad ibn Kathīr al-Farghānī —
+      astronome transoxianais de la Maison de la Sagesse sous les
+      califes ʿabbāsides al-Maʾmūn et al-Mutawakkil, puis employé
+      par ce dernier comme ingénieur du nilomètre de Fusṭāṭ —
+      mourut vers 247 H (~861 EC), le jour exact n'étant pas
+      préservé dans les sources biographiques sunnites classiques.
+      Son *Jawāmiʿ ʿIlm al-Nujūm* (Compendium de la science des
+      étoiles) fut l'introduction standard latino-médiévale à
+      l'astronomie ptolémaïque sous le titre *Elementa Astronomica*,
+      traduit par Jean de Séville (1135) et Gérard de Crémone (XIIe
+      siècle) ; Dante fait référence à ses données sur la taille
+      de la Terre dans le *Convivio*. Il calcula l'obliquité de
+      l'écliptique, la précession des équinoxes et le diamètre de
+      la Terre à des valeurs plus proches de la mesure moderne
+      qu'aucun prédécesseur. La précision annuelle est retenue car
+      les sources classiques ne convergent pas sur le jour ni le
+      mois.
+    canonical_hijri: {year: 247, precision: year}
+    canonical_gregorian: {date: 861-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year c.247 AH / 861 CE; day-precision unattested."
+      - source_key: editorial
+    people: [[al-farghani, died]]
+    tags: [abbasid, scholar, astronomy, transoxiana, baghdad, fustat, latin-reception]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Farghani"
+
+  - slug: death-of-ibrahim-ibn-sinan
+    category: scholar_death
+    title_en: Death of Ibrāhīm ibn Sinān ibn Thābit — Mathematician of the Sabian Lineage
+    title_ar: وفاة إبراهيم بن سنان بن ثابت — رياضي الأسرة الصابئية
+    title_fr: Mort d'Ibrāhīm ibn Sinān ibn Thābit — mathématicien de la lignée sabéenne
+    description_en: |
+      Abū Isḥāq Ibrāhīm ibn Sinān ibn Thābit ibn Qurra — grandson
+      of Thābit ibn Qurra and son of Sinān, mathematician and
+      astronomer of the Buwayhid-era Baghdad scientific milieu —
+      died in 335 AH (946 CE), aged about 38, leaving behind a
+      remarkable corpus relative to his short life. His treatise
+      on the quadrature of the parabola gave a more elegant proof
+      than Archimedes had achieved, by an integration method that
+      would not be rediscovered in Europe for seven centuries; his
+      *Kitāb fī Ḥarakāt al-Shams* (On the Motions of the Sun)
+      reformulated key results of Ptolemy with corrections. Ibn
+      Khallikān preserves an entry on him within his father's
+      and grandfather's notice; al-Dhahabī's *Siyar* confirms the
+      year of death.
+    description_ar: |
+      توفي أبو إسحاق إبراهيم بن سنان بن ثابت بن قرّة — حفيد
+      ثابت بن قرة وابن سنان، وأحد رياضيي بغداد وفلكيّيها في
+      الوسط العلمي البويهي — سنة ٣٣٥ هـ (٩٤٦ م) عن نحو ثمان
+      وثلاثين سنة، تاركاً ميراثاً علمياً ضخماً قياساً بقصر عمره.
+      قدَّم في رسالته في تربيع القطع المكافئ برهاناً أوجزَ من
+      برهان أرخميدس، باعتماد طريقةٍ تكامليةٍ لم يُعد اكتشافها
+      في أوروبا إلا بعد سبعة قرون؛ وأعاد في «كتاب في حركات
+      الشمس» صياغةَ نتائج بطليموس مع تصحيحاتٍ مهمّة. وذكره ابن
+      خلّكان في ترجمتَي والده وجدّه؛ وأكّد الذهبيُّ في «سير
+      أعلام النبلاء» سنة وفاته.
+    description_fr: |
+      Abū Isḥāq Ibrāhīm ibn Sinān ibn Thābit ibn Qurra — petit-
+      fils de Thābit ibn Qurra et fils de Sinān, mathématicien et
+      astronome du milieu scientifique bagdadien à l'époque
+      buwayhide — mourut en 335 H (946 EC), à environ 38 ans,
+      laissant derrière lui un corpus remarquable au regard de la
+      brièveté de sa vie. Son traité sur la quadrature de la
+      parabole donna une démonstration plus élégante que celle
+      qu'avait obtenue Archimède, par une méthode d'intégration
+      qui ne serait redécouverte en Europe qu'au bout de sept
+      siècles ; son *Kitāb fī Ḥarakāt al-Shams* (Sur les mouvements
+      du Soleil) reformula des résultats clés de Ptolémée avec
+      corrections. Ibn Khallikān en conserve une notice dans
+      celles de son père et de son grand-père ; le *Siyar*
+      d'al-Dhahabī confirme l'année de décès.
+    canonical_hijri: {year: 335, precision: year}
+    canonical_gregorian: {date: 946-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Year 335 AH; age c.38 noted within the Thābit/Sinān family entries."
+      - source_key: dhahabi_siyar
+      - source_key: ei2
+    people: [[ibrahim-ibn-sinan, died]]
+    tags: [abbasid, buwayhid, scholar, mathematics, astronomy, baghdad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibrahim_ibn_Sinan"
+
+  - slug: death-of-al-qabisi
+    category: scholar_death
+    title_en: Death of al-Qabīṣī — Astronomer of Aleppo
+    title_ar: وفاة القبيصي — فلكي حلب
+    title_fr: Mort d'al-Qabīṣī — astronome d'Alep
+    description_en: |
+      Abū al-Ṣaqr ʿAbd al-ʿAzīz ibn ʿUthmān al-Qabīṣī — Mosul-born
+      astronomer-mathematician active at the Ḥamdānid court of
+      Sayf al-Dawla in Aleppo, student of the Mosul mathematician
+      ʿImrān ibn Aḥmad — died around 356 AH (~967 CE), with day-
+      precision not attested. His *al-Madkhal ilā Ṣināʿat Aḥkām
+      al-Nujūm* (Introduction to Astronomy), composed for Sayf
+      al-Dawla, was translated into Latin in the twelfth century
+      by John of Seville under the title *Liber Introductorius*
+      and went through more than a dozen Latin printings between
+      1473 and 1521 — making al-Qabīṣī, with al-Farghānī and
+      Abū Maʿshar, one of the three Arabic astronomical authors
+      most read in late-medieval and early-modern Europe. His
+      *Risāla fī Awsāṭ al-Kawākib* (On Mean Planetary Motions)
+      gave a critical examination of the Ptolemaic equant.
+    description_ar: |
+      توفي أبو الصقر عبد العزيز بن عثمان القبيصيّ — فلكيٌّ ورياضيٌّ
+      مولده الموصل، اشتغل في بلاط سيف الدولة الحمداني بحلب،
+      وتلميذ الرياضيّ الموصليّ عمران بن أحمد — نحو سنة ٣٥٦ هـ
+      (~٩٦٧ م)، ولم تُحفظ دقة اليوم. وقد تُرجم كتابه «المدخل
+      إلى صناعة أحكام النجوم» الذي ألّفه لسيف الدولة إلى
+      اللاتينية في القرن الثاني عشر على يد جون السيفلي تحت
+      عنوان *Liber Introductorius*، وطُبع في أوروبا أكثرَ من
+      عشر طبعاتٍ لاتينيةٍ بين سنتَي ١٤٧٣ و١٥٢١ — فصار القبيصيُّ
+      إلى جانب الفرغاني وأبي معشر من أكثر مؤلفي الفلك العرب
+      قراءةً في أوروبا أواخر العصر الوسيط ومطلع الحديث. وفي
+      «رسالته في أوساط الكواكب» نقدٌ منهجيٌّ لمعدِّل المسير
+      البطلميّ.
+    description_fr: |
+      Abū al-Ṣaqr ʿAbd al-ʿAzīz ibn ʿUthmān al-Qabīṣī — astronome-
+      mathématicien né à Mossoul, actif à la cour ḥamdānide de
+      Sayf al-Dawla à Alep, disciple du mathématicien mossouliote
+      ʿImrān ibn Aḥmad — mourut vers 356 H (~967 EC), le jour
+      n'étant pas attesté. Son *al-Madkhal ilā Ṣināʿat Aḥkām
+      al-Nujūm* (Introduction à l'astronomie), composé pour Sayf
+      al-Dawla, fut traduit en latin au XIIe siècle par Jean de
+      Séville sous le titre *Liber Introductorius* et connut plus
+      d'une douzaine d'éditions latines entre 1473 et 1521 —
+      faisant d'al-Qabīṣī, avec al-Farghānī et Abū Maʿshar, l'un
+      des trois auteurs astronomiques arabes les plus lus dans
+      l'Europe tardo-médiévale et moderne. Sa *Risāla fī Awsāṭ
+      al-Kawākib* (Des mouvements moyens planétaires) donna un
+      examen critique de l'équant ptolémaïque.
+    canonical_hijri: {year: 356, precision: year}
+    canonical_gregorian: {date: 967-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year c.356 AH / 967 CE; day-precision unattested in classical sources."
+      - source_key: editorial
+    people: [[al-qabisi, died]]
+    tags: [abbasid, hamdanid, scholar, astronomy, mosul, aleppo, latin-reception]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Qabisi"
+
+  # =========================================================================
+  # SALJUQ-ERA POLYMATHS
+  # =========================================================================
+
+  - slug: death-of-umar-al-khayyam
+    category: scholar_death
+    title_en: Death of ʿUmar al-Khayyām — Mathematician-Astronomer of Nishapur
+    title_ar: وفاة عمر الخيّام — رياضي نيسابور وفلكيّها
+    title_fr: Mort d'ʿUmar al-Khayyām — mathématicien-astronome de Nishapur
+    description_en: |
+      Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyāmī —
+      Persian mathematician, astronomer, and poet of the late
+      Saljuq period, head of the observatory commissioned at
+      Iṣfahān by Sulṭān Malikshāh and Niẓām al-Mulk — died at
+      Nishapur in 517 AH (1131 CE), with year-precision the
+      earliest unanimous attestation. His *Risāla fī Sharḥ Mā
+      Ashkala min Muṣādarāt Kitāb Uqlīdis* developed a critique
+      of Euclid's parallel postulate that approached non-Euclidean
+      geometry by way of the Saccheri quadrilateral six centuries
+      before Saccheri. His algebraic treatise classified cubic
+      equations into fourteen cases and gave geometric solutions
+      via conic sections — the most advanced work in cubic
+      algebra before Sharaf al-Dīn al-Ṭūsī. The Iṣfahān
+      observatory under his direction produced the *Zīj-i
+      Malikshāhī* and reformed the Persian solar calendar (the
+      *Jalālī* calendar) to a precision unmatched by the
+      Gregorian reform of 1582. Ibn Khallikān gives the year and
+      place of death; Ibn Kathīr's *Bidāya* records him among the
+      learned of his era.
+    description_ar: |
+      توفي غياث الدين أبو الفتح عمر بن إبراهيم الخيّاميّ —
+      رياضيٌّ وفلكيٌّ وشاعرٌ فارسيٌّ من أواخر العصر السلجوقي،
+      ورئيس المرصد الذي أمر بإنشائه السلطان ملكشاه ووزيره نظام
+      الملك بأصفهان — بنيسابور سنة ٥١٧ هـ (١١٣١ م) ودقّة السنة
+      هي أول ما تتفق عليه المصادر. وفي «رسالة في شرح ما أشكل من
+      مصادرات كتاب أقليدس» نقدٌ لمسلّمة التوازي الإقليدية مهَّد
+      السبيلَ إلى ما يشبه الهندسة اللا-إقليدية عبر «رباعي
+      ساكيري» قبل ساكيري بستة قرون. وأقام في رسالته الجبرية
+      أربعة عشر صنفاً للمعادلات التكعيبية وأَتَى لها بحلول
+      هندسية بالمقاطع المخروطية — وهو أعمق ما نُتج في الجبر
+      التكعيبيّ قبل شرف الدين الطوسي. وأنتج مرصدُ أصفهان تحت
+      إشرافه «الزيج الملكشاهي» وأصلح التقويم الشمسيَّ الفارسي
+      («التقويم الجلالي») بدقّةٍ لم يبلغها الإصلاح الغريغوري
+      سنة ١٥٨٢ م. ضبط ابن خلكان السنة والمكان؛ وأَلمَّ به ابن
+      كثير في «البداية والنهاية» في رجال عصره.
+    description_fr: |
+      Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyāmī —
+      mathématicien, astronome et poète persan de la fin de la
+      période saldjoukide, dirigeant de l'observatoire commissionné
+      à Iṣfahān par le sultan Malikshāh et le vizir Niẓām al-Mulk
+      — mourut à Nishapur en 517 H (1131 EC), la précision
+      annuelle étant la première attestation sur laquelle convergent
+      les sources. Sa *Risāla fī Sharḥ Mā Ashkala min Muṣādarāt
+      Kitāb Uqlīdis* développa une critique du postulat des
+      parallèles d'Euclide qui s'approcha de la géométrie non-
+      euclidienne par le biais du quadrilatère de Saccheri, six
+      siècles avant Saccheri. Son traité algébrique classa les
+      équations cubiques en quatorze cas et en donna des solutions
+      géométriques via les sections coniques — l'œuvre la plus
+      avancée en algèbre cubique avant Sharaf al-Dīn al-Ṭūsī.
+      L'observatoire d'Iṣfahān sous sa direction produisit le
+      *Zīj-i Malikshāhī* et réforma le calendrier solaire persan
+      (le calendrier *Jalālī*) avec une précision non égalée par
+      la réforme grégorienne de 1582. Ibn Khallikān donne l'année
+      et le lieu du décès ; le *Bidāya* d'Ibn Kathīr le mentionne
+      parmi les savants de son époque.
+    canonical_hijri: {year: 517, precision: year}
+    canonical_gregorian: {date: 1131-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Death year 517 AH at Nishapur; day-precision not preserved."
+      - source_key: ibn_kathir_bidaya
+      - source_key: ei2
+    people: [[umar-al-khayyam, died]]
+    tags: [saljuq, scholar, mathematics, astronomy, nishapur, isfahan, calendar-reform]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Omar_Khayyam"
+
+  # =========================================================================
+  # ANDALUSI ASTRONOMY
+  # =========================================================================
+
+  - slug: death-of-al-zarqali
+    category: scholar_death
+    title_en: Death of al-Zarqālī (Azarchel) — Astronomer of Toledo and Cordoba
+    title_ar: وفاة الزرقاليّ — فلكيّ طليطلة وقرطبة
+    title_fr: Mort d'al-Zarqālī (Azarchel) — astronome de Tolède et Cordoue
+    description_en: |
+      Abū Isḥāq Ibrāhīm ibn Yaḥyā al-Naqqāsh al-Zarqālī — Andalusi
+      Sunni astronomer and instrument-maker, originally a metalsmith
+      at Toledo in the *ṭāʾifa* of the Banū Dhū al-Nūn, then at
+      Cordoba under the ʿAbbādids and Almoravids — died around
+      493 AH (1100 CE) at Cordoba. He led the Toledo team that
+      produced the *Toledan Tables* (the most accurate planetary
+      tables in eleventh-century Europe, used continuously for
+      two centuries until al-Zarqālī's own pupil-tradition
+      produced the *Alfonsine Tables* in Castile). He invented an
+      improved universal astrolabe (the *ṣafīḥa zarqāliyya* or
+      *azafea*, transliterated into Latin as *saphaea*) usable at
+      any latitude, replacing the latitude-specific plates of the
+      classical Arabic and Greek instruments. His observations
+      detected variation in the apsidal motion of the solar orbit
+      — a finding cited by Copernicus in *De Revolutionibus*.
+    description_ar: |
+      توفي أبو إسحاق إبراهيم بن يحيى النقّاش الزرقاليّ — فلكيٌّ
+      أندلسيٌّ سنّيٌّ وصانعُ آلاتٍ، نشأ نقّاشاً (صائغ معادن) في
+      طليطلة في طائفة بني ذي النون، ثم انتقل إلى قرطبة في عهد
+      العبّاديين والمرابطين — نحو سنة ٤٩٣ هـ (١١٠٠ م) بقرطبة.
+      ترأَّس فريق طليطلة الذي أنتج «الأزياج الطليطلية» (أدقّ
+      جدولٍ كوكبيٍّ في أوروبا في القرن الحادي عشر، استُخدم
+      قرنين متّصلين حتى أنتج تلامذته في النهج «أزياج ألفونسو»
+      بقشتالة). واخترع إسطرلاباً عالمياً مطوّراً («الصفيحة
+      الزرقالية») يصلح في كلّ عرضٍ جغرافيٍّ، فاستغنى به عن
+      صفائح الإسطرلاب الكلاسيكية المخصّصة لكلّ عرضٍ. وكشفت
+      أرصاده تغيراً في حركة الأوج الشمسي — وهو نتيجةٌ استشهد
+      بها كوبرنيكوس في «دوران الأفلاك».
+    description_fr: |
+      Abū Isḥāq Ibrāhīm ibn Yaḥyā al-Naqqāsh al-Zarqālī —
+      astronome sunnite andalou et facteur d'instruments, à
+      l'origine orfèvre métallurgiste à Tolède dans la *ṭāʾifa*
+      des Banū Dhī al-Nūn, puis à Cordoue sous les ʿAbbādides et
+      les Almoravides — mourut vers 493 H (1100 EC) à Cordoue.
+      Il dirigea l'équipe tolédane qui produisit les *Tables
+      tolédanes* (les tables planétaires les plus exactes de
+      l'Europe du XIe siècle, utilisées en continu pendant deux
+      siècles jusqu'à ce que la tradition issue de ses propres
+      disciples produise les *Tables alphonsines* en Castille).
+      Il inventa un astrolabe universel perfectionné (*ṣafīḥa
+      zarqāliyya* ou *azafea*, translittéré en latin *saphaea*)
+      utilisable à toute latitude, remplaçant les plaques propres
+      à chaque latitude des instruments arabes et grecs classiques.
+      Ses observations décelèrent une variation dans le mouvement
+      apsidal de l'orbite solaire — un résultat cité par Copernic
+      dans *De Revolutionibus*.
+    canonical_hijri: {year: 493, precision: year}
+    canonical_gregorian: {date: 1100-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year c.493 AH / 1100 CE at Cordoba; day-precision unattested."
+      - source_key: editorial
+    people: [[al-zarqali, died]]
+    tags: [al-andalus, taifa, almoravid, scholar, astronomy, toledo, cordoba, latin-reception]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Zarqali"
+
+  # =========================================================================
+  # MARĀGHA OBSERVATORY (ʿABBĀSID-MONGOL TRANSITION)
+  # =========================================================================
+
+  - slug: death-of-nasir-al-din-al-tusi
+    category: scholar_death
+    title_en: Death of Naṣīr al-Dīn al-Ṭūsī — Director of the Marāgha Observatory
+    title_ar: وفاة نصير الدين الطوسي — رئيس مرصد مراغة
+    title_fr: Mort de Naṣīr al-Dīn al-Ṭūsī — directeur de l'observatoire de Marāgha
+    description_en: |
+      Muḥammad ibn Muḥammad ibn al-Ḥasan al-Ṭūsī, Naṣīr al-Dīn —
+      Khurāsānian polymath who, after the Mongol sack of Baghdad
+      in 656 AH (1258 CE), persuaded Hülegü to fund the construction
+      of the Marāgha observatory in Azerbaijan and assemble there
+      a multinational team of astronomers (al-ʿUrḍī from Damascus,
+      Quṭb al-Dīn al-Shīrāzī, Muḥyī al-Dīn al-Maghribī, the
+      Chinese astronomer Fu Mengji) — died at Baghdad on 18
+      Dhū al-Ḥijja 672 AH (25 June 1274 CE), aged 75. His
+      *al-Tadhkira fī ʿIlm al-Hayʾa* introduced the *Ṭūsī couple*,
+      a geometric construction generating linear motion from two
+      circular motions, used to replace the Ptolemaic equant; the
+      identical construction reappears in Copernicus's *De
+      Revolutionibus* via Greek manuscript intermediaries. His
+      *Zīj-i Īlkhānī* gave the most accurate planetary tables of
+      its era, and his *Taḥrīr* recensions of Euclid, Ptolemy,
+      Apollonius, and Archimedes were the standard textbooks of
+      the eastern Islamic schools for three centuries. His
+      astronomical contribution belongs to shared Islamic
+      civilizational heritage; this entry confines itself to
+      that scientific dimension. Ibn Kathīr's *Bidāya* notes him
+      under the year 672 AH; Dhahabī's *Tārīkh al-Islām* gives the
+      same dating.
+    description_ar: |
+      توفي محمد بن محمد بن الحسن الطوسي نصير الدين — موسوعيٌّ
+      خراسانيٌّ أقنع هولاكو بعد سقوط بغداد سنة ٦٥٦ هـ (١٢٥٨ م)
+      بأن يُمَوِّل بناءَ مرصد مراغة بأذربيجان وأن يُجمع فيه
+      فريقٌ علميٌّ متعدّد الجنسيات (العُرضي من دمشق، وقطب
+      الدين الشيرازي، ومحيي الدين المغربي، والفلكيُّ الصينيُّ
+      «فو منگ‌جي») — ببغداد يوم الثامن عشر من ذي الحجة سنة
+      ٦٧٢ هـ (الموافق ٢٥ يونيو ١٢٧٤ م) عن خمس وسبعين سنة.
+      وأدخل في «التذكرة في علم الهيئة» «زوج الطوسي»، وهو بناء
+      هندسيٌّ يولِّد حركةً مستقيمةً من حركتين دائريّتين، استُعمل
+      لاستبدال «معدِّل المسير» البطلميّ؛ وعاد البناءُ ذاتُه إلى
+      الظهور في «دوران الأفلاك» لكوبرنيكوس عبر مخطوطاتٍ يونانيةٍ
+      وسيطة. وأنتج «الزيج الإلخاني» أدقَّ جداول كوكبيةٍ في عصره،
+      وكانت «تحاريره» على إقليدس وبطليموس وأبلونيوس وأرخميدس
+      هي الكتب المعتمدة في مدارس الشرق الإسلامي ثلاثة قرون.
+      ويقتصر هذا الموجز على الجانب العلمي الفلكيّ بوصفه إرثاً
+      حضاريّاً إسلامياً مشتركاً. وذكر ابن كثير وفاتَه في
+      «البداية والنهاية» في حوادث سنة ٦٧٢ هـ، وأَورَد الذهبيُّ
+      في «تاريخ الإسلام» التاريخَ نفسه.
+    description_fr: |
+      Muḥammad ibn Muḥammad ibn al-Ḥasan al-Ṭūsī, Naṣīr al-Dīn —
+      polymathe khurāsānien qui, après le sac mongol de Bagdad en
+      656 H (1258 EC), persuada Hülegü de financer la construction
+      de l'observatoire de Marāgha en Azerbaïdjan et d'y rassembler
+      une équipe multinationale d'astronomes (al-ʿUrḍī de Damas,
+      Quṭb al-Dīn al-Shīrāzī, Muḥyī al-Dīn al-Maghribī, l'astronome
+      chinois Fu Mengji) — mourut à Bagdad le 18 Dhū al-Ḥijja
+      672 H (25 juin 1274 EC), à 75 ans. Sa *al-Tadhkira fī ʿIlm
+      al-Hayʾa* introduisit le *couple d'al-Ṭūsī*, une construction
+      géométrique générant un mouvement rectiligne à partir de
+      deux mouvements circulaires, utilisée pour remplacer
+      l'équant ptolémaïque ; la construction identique réapparaît
+      dans *De Revolutionibus* de Copernic par l'intermédiaire de
+      manuscrits grecs. Son *Zīj-i Īlkhānī* donna les tables
+      planétaires les plus exactes de son époque, et ses
+      recensions *Taḥrīr* d'Euclide, Ptolémée, Apollonius et
+      Archimède furent les manuels standards des écoles
+      islamiques orientales durant trois siècles. Sa contribution
+      astronomique appartient à l'héritage civilisationnel
+      islamique partagé ; cette notice se cantonne à cette
+      dimension scientifique. Le *Bidāya* d'Ibn Kathīr le
+      mentionne sous l'année 672 H ; le *Tārīkh al-Islām*
+      d'al-Dhahabī donne la même datation.
+    canonical_hijri: {year: 672, month: 12, day: 18, precision: day}
+    canonical_gregorian: {date: 1274-06-25, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Recorded in the wafayāt of 672 AH; date 18 Dhū al-Ḥijja attested."
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[nasir-al-din-al-tusi, died]]
+    tags: [ilkhanid, mongol-era, scholar, astronomy, mathematics, maragha, baghdad, khurasan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi"
+
+  - slug: completion-of-zij-i-ilkhani
+    category: scholar_death
+    title_en: Completion of the *Zīj-i Īlkhānī* at Marāgha
+    title_ar: إتمام «الزيج الإيلخاني» بمرصد مراغة
+    title_fr: Achèvement du *Zīj-i Īlkhānī* à l'observatoire de Marāgha
+    description_en: |
+      Naṣīr al-Dīn al-Ṭūsī's team at the Marāgha observatory
+      completed the *Zīj-i Īlkhānī* — the new Persian astronomical
+      handbook commissioned by the Īlkhānid ruler Hülegü — around
+      670 AH (~1271 CE), after roughly twelve years of continuous
+      observation that began with the observatory's founding in
+      657 AH. The handbook gave new mean motions for the Sun, Moon,
+      and planets, recalibrated the obliquity of the ecliptic, and
+      issued tables for ephemerides, eclipses, and planetary
+      visibility based on the Marāgha team's own twelve-year
+      record rather than on the inherited Ptolemaic constants.
+      Translated into Greek and Latin by the early fourteenth
+      century, the *Zīj-i Īlkhānī* was the most-used set of
+      astronomical tables across Islamic Asia for two centuries
+      until superseded by Ulugh Beg's *Zīj-i Sulṭānī*. Year-
+      precision is retained because the classical sources name
+      the work but not the day of its presentation.
+    description_ar: |
+      أتمَّ فريقُ نصير الدين الطوسي بمرصد مراغة «الزيج الإيلخاني»
+      — وهو الزيج الفارسيُّ الجديد الذي أمر بتأليفه الإيلخانُ
+      هولاكو — نحو سنة ٦٧٠ هـ (~١٢٧١ م)، بعد قرابة اثنتي عشرة
+      سنةً من الرصد المتواصل بدأت بتأسيس المرصد سنة ٦٥٧ هـ.
+      ودوَّن الزيجُ متوسطاتٍ جديدةً لحركات الشمس والقمر والكواكب،
+      وأعاد ضبطَ ميل فلك البروج، وأصدر جداولَ التقاويم الفلكية
+      والكسوفات والخسوفات وقابلية رؤية الكواكب بناءً على رصد
+      فريق مراغة نفسه طيلة الاثنتي عشرة سنة، لا على الثوابت
+      البطلمية الموروثة. وتُرجم الزيجُ إلى اليونانية واللاتينية
+      في مطلع القرن الرابع عشر الميلادي، فكان أكثر الجداول
+      الفلكية استخداماً عبر آسيا الإسلامية قرنين متّصلين حتى
+      نُسخ بـ«الزيج السلطاني» لأُلُغ بِك. ودقّة السنة محفوظة
+      لأنّ المصادر الكلاسيكية تذكر العمل دون يوم التقديم.
+    description_fr: |
+      L'équipe de Naṣīr al-Dīn al-Ṭūsī à l'observatoire de Marāgha
+      acheva le *Zīj-i Īlkhānī* — le nouveau manuel astronomique
+      persan commandé par le souverain īlkhānide Hülegü — vers
+      670 H (~1271 EC), après environ douze années d'observation
+      continue commencées avec la fondation de l'observatoire en
+      657 H. Le manuel donna de nouveaux mouvements moyens pour
+      le Soleil, la Lune et les planètes, recalibra l'obliquité
+      de l'écliptique et publia des tables d'éphémérides, d'éclipses
+      et de visibilité planétaire fondées sur le relevé propre de
+      l'équipe de Marāgha sur douze ans plutôt que sur les
+      constantes ptolémaïques héritées. Traduit en grec et en
+      latin au début du XIVe siècle, le *Zīj-i Īlkhānī* fut
+      l'ensemble de tables astronomiques le plus utilisé à
+      travers l'Asie islamique durant deux siècles, jusqu'à ce
+      qu'il fût supplanté par le *Zīj-i Sulṭānī* d'Ulugh Beg. La
+      précision annuelle est retenue parce que les sources
+      classiques nomment l'œuvre mais non le jour de sa
+      présentation.
+    canonical_hijri: {year: 670, precision: year}
+    canonical_gregorian: {date: 1271-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Composition completed c.670 AH; the work itself names Hülegü, who died 663 AH, suggesting completion under his successor Abaqa."
+      - source_key: editorial
+    people: [[nasir-al-din-al-tusi, subject]]
+    tags: [ilkhanid, mongol-era, astronomy, maragha, zij, observatory]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Z%C4%ABj-i_%C4%AAlkh%C4%81n%C4%AB"
+
+  # =========================================================================
+  # SAMARQAND OBSERVATORY ERA (TIMURID)
+  # =========================================================================
+
+  - slug: founding-of-samarqand-observatory
+    category: founding
+    title_en: Founding of the Samarqand Observatory by Ulugh Beg
+    title_ar: تأسيس مرصد سمرقند على يد ألغ بِك
+    title_fr: Fondation de l'observatoire de Samarcande par Ulugh Beg
+    description_en: |
+      Ulugh Beg, Timurid governor of Transoxiana and grandson of
+      Tīmūr, founded the Samarqand observatory around 823 AH
+      (~1420 CE) on a hill outside the city, equipping it with
+      the largest astronomical instruments of the medieval world
+      — including a 40-metre meridian sextant (the *Fakhrī
+      sextant*) sunk into the bedrock for unprecedented stability,
+      portions of which remain visible at the site today. The
+      observatory's scientific staff at its peak comprised the
+      mathematician al-Kāshī (its first director), Qāḍī Zāda
+      al-Rūmī, and ʿAlī Qushjī, with Ulugh Beg himself as
+      working participant rather than mere patron. Their thirty
+      years of continuous observation produced the *Zīj-i
+      Sulṭānī* (1437/8), the most accurate stellar catalogue
+      between Ptolemy and Tycho Brahe. Year-precision retained
+      because the founding is firmly attested for c.823 AH but
+      the exact day is not preserved.
+    description_ar: |
+      أسَّس ألغ بِك، حاكم ما وراء النهر التيموري وحفيد تيمور،
+      مرصدَ سمرقند نحو سنة ٨٢٣ هـ (~١٤٢٠ م) على تلٍّ خارج
+      المدينة، وجهَّزه بأكبر آلات الرصد الفلكيّ في العالم
+      الوسيط — منها سدسٌ نصف-نهاريٌّ فخريٌّ بطول أربعين متراً
+      محفورٌ في الصخر الأم لمنع الاهتزاز، ولا تزال أجزاء منه
+      مرئيةً اليوم في الموقع. وضمَّ طاقم المرصد العلميُّ في أوج
+      نشاطه الرياضيَّ الكاشيَّ (أوّل مديريه)، وقاضي زاده
+      الرومي، وعليَّ قُشجي، مع ألغ بِك نفسه شريكاً في العمل
+      الرصدي لا راعياً فحسب. وأنتج رصدُهم المتواصل ثلاثين عاماً
+      «الزيج السلطاني» (سنة ٨٤١ هـ) أدقَّ فهرس نجوم بين بطليموس
+      وتيكو براهي. وأُبقي على دقة السنة لأنّ التأسيس مثبتٌ
+      نحو سنة ٨٢٣ هـ ولكنّ يوماً بعينه غير محفوظ.
+    description_fr: |
+      Ulugh Beg, gouverneur timouride de Transoxiane et petit-fils
+      de Tīmūr, fonda l'observatoire de Samarcande vers 823 H
+      (~1420 EC) sur une colline à l'extérieur de la ville,
+      l'équipant des plus grands instruments astronomiques du
+      monde médiéval — dont un sextant méridien de 40 mètres (le
+      *sextant Fakhrī*) creusé dans la roche-mère pour une
+      stabilité sans précédent, dont des portions demeurent
+      visibles sur le site aujourd'hui. Le personnel scientifique
+      de l'observatoire à son apogée comprenait le mathématicien
+      al-Kāshī (son premier directeur), Qāḍī Zāda al-Rūmī et
+      ʿAlī Qushjī, avec Ulugh Beg lui-même comme participant aux
+      observations plutôt que simple mécène. Trente années
+      d'observation continue produisirent le *Zīj-i Sulṭānī*
+      (1437/8), le catalogue stellaire le plus exact entre
+      Ptolémée et Tycho Brahé. La précision annuelle est retenue
+      car la fondation est solidement attestée pour c.823 H mais
+      le jour exact n'est pas préservé.
+    canonical_hijri: {year: 823, precision: year}
+    canonical_gregorian: {date: 1420-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Foundation date c.823 AH / 1420 CE traditionally given; some sources prefer c.1424."
+      - source_key: editorial
+    people: [[ulugh-beg, subject], [jamshid-al-kashi, subject]]
+    tags: [timurid, observatory, astronomy, samarqand, transoxiana]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ulugh_Beg_Observatory"
+
+  - slug: completion-of-zij-i-sultani
+    category: scholar_death
+    title_en: Completion of Ulugh Beg's *Zīj-i Sulṭānī*
+    title_ar: إتمام «الزيج السلطاني» لأُلُغ بِك
+    title_fr: Achèvement du *Zīj-i Sulṭānī* d'Ulugh Beg
+    description_en: |
+      Ulugh Beg and the Samarqand observatory team — by then
+      under the directorship of Qāḍī Zāda al-Rūmī following
+      al-Kāshī's death in 832 AH and Qāḍī Zāda's own subsequent
+      death — completed the *Zīj-i Sulṭānī* around 841 AH
+      (1437/8 CE), the culminating stellar and planetary catalogue
+      of medieval Islamic astronomy. Its catalogue of 1,018 fixed
+      stars was the first comprehensive recalibration of the
+      Ptolemaic *Almagest* catalogue since antiquity, and remained
+      unsurpassed until Tycho Brahe's *Stellarum Inerrantium
+      Restitutio* (~1598 CE) — and was used by Brahe himself in
+      compiling his own catalogue. The *Zīj-i Sulṭānī* was
+      translated into Latin by Thomas Hyde at Oxford in 1665.
+      Year-precision retained: classical sources mark its
+      completion in the late 1430s without a precise day.
+    description_ar: |
+      أتمَّ ألغ بِك وفريقُ مرصد سمرقند — وقد آلت رئاستُه إلى
+      قاضي زاده الرومي بعد وفاة الكاشي سنة ٨٣٢ هـ، ثم وفاة قاضي
+      زاده نفسه — «الزيج السلطاني» نحو سنة ٨٤١ هـ (١٤٣٧/٨ م)،
+      وهو الذُّروة في فهارس النجوم والكواكب في الفلك الإسلامي
+      الوسيط. وكان فهرس نجومه الثوابت — وعدُّها ألفٌ وثمانية
+      عشر نجماً — أوّل ضبطٍ شاملٍ يُعاد به فهرس «المجسطي»
+      البطلميّ منذ العصور القديمة، وبقي بلا نظير حتى أصدر
+      تيكو براهي *Stellarum Inerrantium Restitutio* (نحو سنة
+      ١٥٩٨ م) — بل استعان به براهي نفسه في تأليف فهرسه. وتُرجم
+      «الزيج السلطاني» إلى اللاتينية على يد توماس هايد بأكسفورد
+      سنة ١٦٦٥ م. ودقة السنة محفوظة: تذكر المصادرُ القديمة
+      إتمامَه في أواخر ثلاثينيات القرن التاسع الهجري دون يومٍ
+      بعينه.
+    description_fr: |
+      Ulugh Beg et l'équipe de l'observatoire de Samarcande —
+      alors sous la direction de Qāḍī Zāda al-Rūmī à la suite de
+      la mort d'al-Kāshī en 832 H, puis de la mort de Qāḍī Zāda
+      lui-même — achevèrent le *Zīj-i Sulṭānī* vers 841 H
+      (1437/8 EC), catalogue stellaire et planétaire culminant
+      de l'astronomie islamique médiévale. Son catalogue de 1 018
+      étoiles fixes fut le premier recalibrage exhaustif du
+      catalogue de l'*Almageste* de Ptolémée depuis l'Antiquité,
+      et demeura insurpassé jusqu'au *Stellarum Inerrantium
+      Restitutio* de Tycho Brahé (~1598 EC) — et fut utilisé par
+      Brahé lui-même pour compiler son propre catalogue. Le
+      *Zīj-i Sulṭānī* fut traduit en latin par Thomas Hyde à
+      Oxford en 1665. La précision annuelle est retenue : les
+      sources classiques marquent son achèvement à la fin des
+      années 1430 sans jour précis.
+    canonical_hijri: {year: 841, precision: year}
+    canonical_gregorian: {date: 1438-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Completion c.841 AH / 1437–8 CE; precise day unattested."
+      - source_key: editorial
+    people: [[ulugh-beg, subject]]
+    tags: [timurid, astronomy, samarqand, zij, observatory, stellar-catalogue]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Z%C4%ABj-i_Sult%CC%A3%C4%81n%C4%AB"
+
+  - slug: death-of-qadi-zada-al-rumi
+    category: scholar_death
+    title_en: Death of Qāḍī Zāda al-Rūmī — Director of the Samarqand Observatory
+    title_ar: وفاة قاضي زاده الرومي — مدير مرصد سمرقند
+    title_fr: Mort de Qāḍī Zāda al-Rūmī — directeur de l'observatoire de Samarcande
+    description_en: |
+      Ṣalāḥ al-Dīn Mūsā ibn Muḥammad ibn Maḥmūd, known as Qāḍī
+      Zāda al-Rūmī (the son of the qāḍī, Anatolian) — Anatolian
+      Sunni mathematician-astronomer who travelled east to
+      Samarqand around 810 AH (~1407 CE), became Ulugh Beg's
+      teacher in mathematics and astronomy, and after al-Kāshī's
+      death in 832 AH succeeded him as the director of the
+      Samarqand observatory — died around 840 AH (~1436/7 CE)
+      at Samarqand, just before the *Zīj-i Sulṭānī* was finalised.
+      His commentary on Maḥmūd al-Chaghmīnī's *Mulakhkhaṣ fī
+      al-Hayʾa* became the principal Ottoman-era astronomy
+      textbook, and his *Risāla fī Istikhrāj Jayb Daraja Wāḥida*
+      (Treatise on the Sine of One Degree) gave a numerical
+      approximation accurate to several decimal places, refining
+      al-Kāshī's earlier method. Year-precision retained.
+    description_ar: |
+      توفي صلاح الدين موسى بن محمد بن محمود، المعروف بقاضي زاده
+      الرومي — رياضيٌّ وفلكيٌّ سنّيٌّ من بلاد الروم (الأناضول)،
+      ارتحل شرقاً إلى سمرقند نحو سنة ٨١٠ هـ (~١٤٠٧ م)، فصار
+      شيخَ ألغ بِك في الرياضيات والفلك، ثم خلَف الكاشيَّ بعد
+      وفاته سنة ٨٣٢ هـ في رئاسة مرصد سمرقند — بسمرقند نحو سنة
+      ٨٤٠ هـ (~١٤٣٦/٧ م)، قُبيل إتمام «الزيج السلطاني». وكان
+      شرحه لـ«الملخّص في الهيئة» لمحمود الجغميني هو الكتاب
+      المعتمد لتدريس علم الفلك في العصر العثماني، ورسالته في
+      «استخراج جيب درجة واحدة» قدّمت تقريباً عددياً بدقّة عدّة
+      منازل عشرية صقلت طريقةَ الكاشي. ودقة السنة محفوظة.
+    description_fr: |
+      Ṣalāḥ al-Dīn Mūsā ibn Muḥammad ibn Maḥmūd, connu comme
+      Qāḍī Zāda al-Rūmī (le fils du qāḍī, anatolien) —
+      mathématicien-astronome sunnite anatolien qui voyagea vers
+      l'est jusqu'à Samarcande vers 810 H (~1407 EC), devint le
+      maître d'Ulugh Beg en mathématiques et en astronomie, et
+      après la mort d'al-Kāshī en 832 H lui succéda comme
+      directeur de l'observatoire de Samarcande — mourut vers
+      840 H (~1436/7 EC) à Samarcande, juste avant que le *Zīj-i
+      Sulṭānī* ne soit finalisé. Son commentaire sur le
+      *Mulakhkhaṣ fī al-Hayʾa* de Maḥmūd al-Chaghmīnī devint le
+      manuel d'astronomie principal de l'époque ottomane, et sa
+      *Risāla fī Istikhrāj Jayb Daraja Wāḥida* (Traité sur le
+      sinus d'un degré) donna une approximation numérique précise
+      à plusieurs décimales, raffinant la méthode antérieure
+      d'al-Kāshī. La précision annuelle est retenue.
+    canonical_hijri: {year: 840, precision: year}
+    canonical_gregorian: {date: 1436-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death year c.840 AH / 1436–7 CE; day-precision not preserved in classical sources."
+      - source_key: editorial
+    people: [[qadi-zada-al-rumi, died], [ulugh-beg, subject], [jamshid-al-kashi, subject]]
+    tags: [timurid, ottoman-precursor, scholar, mathematics, astronomy, samarqand, anatolia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qadi_Zada_al-Rumi"
+
+  - slug: death-of-ali-qushji
+    category: scholar_death
+    title_en: Death of ʿAlī Qushjī — Astronomer of Samarqand and Istanbul
+    title_ar: وفاة علي قُشجي — فلكي سمرقند والقسطنطينية
+    title_fr: Mort d'ʿAlī Qushjī — astronome de Samarcande et Istanbul
+    description_en: |
+      ʿAlāʾ al-Dīn ʿAlī ibn Muḥammad al-Samarqandī, known as ʿAlī
+      Qushjī (the falconer's son) — Sunni astronomer-mathematician
+      of the Samarqand observatory under Ulugh Beg, and the only
+      one of the senior Samarqand staff to outlive Ulugh Beg's
+      assassination in 853 AH; he carried the observatory's
+      scientific tradition west, joining first the Aq Qoyunlu
+      court at Tabrīz and then, in 877 AH (1473 CE), accepting
+      Sultan Meḥmed II's invitation to Istanbul, where he taught
+      at the Ayasofya madrasa — died at Istanbul in Shaʿbān 879
+      AH (December 1474 CE). His *Risāla fī al-Hayʾa* and *Risāla
+      fī al-Ḥisāb*, written in Persian and translated into
+      Arabic by his own pen, became the introductory astronomy
+      and arithmetic textbooks of the Ottoman madrasa system. He
+      is credited with arguments rejecting the Aristotelian
+      requirement that astronomical hypotheses must reflect
+      physical reality — a methodological shift that some
+      historians of science see as a step toward the autonomy
+      of mathematical astronomy from natural philosophy.
+    description_ar: |
+      توفي علاء الدين علي بن محمد السمرقندي المعروف بعليّ قُشجي
+      («ابن البيزدار») — فلكيٌّ ورياضيٌّ سنّيٌّ من رجال مرصد
+      سمرقند في زمن ألغ بِك، وهو الوحيد من كبار طاقم سمرقند
+      الذي بقي بعد اغتيال ألغ بِك سنة ٨٥٣ هـ، فنقل تراث
+      المرصد العلميَّ غرباً منضمّاً أوّلاً إلى بلاط آق قويونلو
+      بتبريز، ثم لبَّى سنة ٨٧٧ هـ (١٤٧٣ م) دعوةَ السلطان محمد
+      الفاتح إلى القسطنطينية، فدرَّس بمدرسة آيا صوفيا — وتوفي
+      بالقسطنطينية في شعبان سنة ٨٧٩ هـ (الموافق ديسمبر ١٤٧٤ م).
+      وصارت رسالتاه «في الهيئة» و«في الحساب»، اللتان كتبهما
+      أوّل أمره بالفارسية ثم نقلهما إلى العربية بنفسه، الكتب
+      المعتمدة في تدريس مبادئ علمَي الفلك والحساب في المدرسة
+      العثمانية. ونُسبت إليه حججٌ ترفض اشتراط الفلسفة الأرسطية
+      أن تكون الفرضيات الفلكية معبّرةً عن الواقع الفيزيائي —
+      وهو تحوّلٌ منهجيٌّ يرى فيه بعضُ مؤرخي العلم خطوةً نحو
+      استقلال الفلك الرياضي عن الفلسفة الطبيعية.
+    description_fr: |
+      ʿAlāʾ al-Dīn ʿAlī ibn Muḥammad al-Samarqandī, connu comme
+      ʿAlī Qushjī (le fils du fauconnier) — astronome-mathématicien
+      sunnite de l'observatoire de Samarcande sous Ulugh Beg, et
+      le seul du personnel principal de Samarcande à survivre à
+      l'assassinat d'Ulugh Beg en 853 H ; il porta la tradition
+      scientifique de l'observatoire vers l'ouest, rejoignant
+      d'abord la cour des Aq Qoyunlu à Tabrīz, puis, en 877 H
+      (1473 EC), acceptant l'invitation du sultan Meḥmed II à
+      Istanbul, où il enseigna à la madrasa d'Ayasofya — mourut
+      à Istanbul en Shaʿbān 879 H (décembre 1474 EC). Sa *Risāla
+      fī al-Hayʾa* et sa *Risāla fī al-Ḥisāb*, écrites en persan
+      et traduites en arabe par lui-même, devinrent les manuels
+      d'introduction à l'astronomie et à l'arithmétique du
+      système des madrasas ottomanes. On lui attribue des
+      arguments rejetant l'exigence aristotélicienne selon
+      laquelle les hypothèses astronomiques doivent refléter la
+      réalité physique — un déplacement méthodologique que
+      certains historiens des sciences voient comme un pas vers
+      l'autonomie de l'astronomie mathématique par rapport à la
+      philosophie naturelle.
+    canonical_hijri: {year: 879, month: 8, precision: month}
+    canonical_gregorian: {date: 1474-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Death Shaʿbān 879 AH / December 1474 CE at Istanbul; day-precision not consistently attested."
+      - source_key: editorial
+    people: [[ali-qushji, died], [ulugh-beg, subject]]
+    tags: [timurid, ottoman, scholar, mathematics, astronomy, samarqand, istanbul, mehmed-fatih]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ali_Qushji"

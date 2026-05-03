@@ -1,0 +1,635 @@
+# Wave 30 of curated event additions (2026-04-27).
+# The great Sufi compilers and Sufi-influenced figures of Sunni
+# taṣawwuf — the systematic theorists, hagiographers, and authors
+# of foundational Sufi manuals from the late 4th to early 7th
+# centuries AH. Together they form the literary backbone of
+# mainstream Sunni Sufism: al-Sarrāj's *al-Lumaʿ* and al-Kalābādhī's
+# *al-Taʿarruf* (the first systematic defences of Sufism within
+# Sunnism), Abū Ṭālib al-Makkī's *Qūt al-Qulūb* (al-Ghazālī's most
+# important predecessor), Abū Nuʿaym's *Ḥilyat al-Awliyāʾ* (the
+# largest hagiographical compendium of the early ascetics),
+# al-Niffārī's *al-Mawāqif*, ʿAbd Allāh al-Anṣārī al-Harawī's
+# *Manāzil al-Sāʾirīn* (the Hanbali-Sufi staging of the path), and
+# Aḥmad al-Ghazālī's *Sawāniḥ* (the brother of al-Ghazālī).
+#
+# Two figures whose executions are part of the historical record
+# are reported factually, without endorsing or condemning their
+# theology, in line with the project's editorial policy: Yaḥyā
+# al-Suhrawardī al-Maqtūl ("the Slain"), founder of the
+# Ishrāqī (Illuminationist) school, executed at Aleppo in 587 AH
+# on the order of al-Ẓāhir Ghāzī under pressure from a circle of
+# jurists; and ʿAyn al-Quḍāt al-Hamadhānī, executed in Hamadhān in
+# 525 AH. Their inclusion is biographical, not doctrinal: the
+# events themselves are well attested in the classical Sunni
+# biographical canon (Ibn Khallikān, al-Dhahabī, Ibn Kathīr).
+#
+# Already covered elsewhere and intentionally not duplicated here:
+# Najm al-Dīn al-Kubrā (file 34, *death-of-najm-al-din-al-kubra*),
+# Abū al-Najīb al-Suhrawardī and ʿUmar Shihāb al-Dīn al-Suhrawardī
+# (file 34). Yaḥyā al-Suhrawardī al-Maqtūl is a *distinct* figure
+# from the Suhrawardiyya ṭarīqa lineage and is included here for
+# the first time.
+#
+# Date attestation in the classical canon: most figures are
+# year-precise; al-Niffārī's death is contested between 354 AH
+# and a later date (we use 354 AH following the majority);
+# al-Kalābādhī's death falls between 380 AH and 384 AH (we use
+# 380 AH); ʿAyn al-Quḍāt's execution in 525 AH and Yaḥyā
+# al-Suhrawardī's in 5 Rajab 587 AH are both well attested by
+# Ibn Khallikān and al-Dhahabī to the day.
+#
+# Coverage in the classical Sunni biographical canon: al-Dhahabī
+# (*Siyar Aʿlām al-Nubalāʾ* and *Tārīkh al-Islām*), Ibn Khallikān
+# (*Wafayāt al-Aʿyān*), Ibn Kathīr (*al-Bidāya wa al-Nihāya*),
+# Ibn ʿImād (*Shadharāt al-Dhahab*), and EI2 supplement where
+# editorial framing is needed. Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # 4th CENTURY AH — the great compilers: al-Niffārī, Ibn Khafīf,
+  # al-Sarrāj, al-Kalābādhī, Abū Ṭālib al-Makkī
+  # =========================================================================
+
+  - slug: death-of-ibn-khafif-al-shirazi
+    category: scholar_death
+    title_en: Death of Ibn Khafīf al-Shīrāzī — founder of the Khafīfiyya Sufi school of Shīrāz
+    title_ar: وفاة ابن خفيف الشيرازي — مؤسس مدرسة الخفيفية الصوفية بشيراز
+    title_fr: Mort d'Ibn Khafīf al-Shīrāzī — fondateur de l'école khafīfīe de Shīrāz
+    description_en: |
+      Abū ʿAbd Allāh Muḥammad ibn Khafīf al-Ḍabbī al-Shīrāzī —
+      Persian Sunni Shāfiʿī Sufi master of Shīrāz, hadith
+      transmitter, and the figure to whom the classical Sufi
+      *ṭabaqāt* tradition attributes the founding of the
+      Khafīfiyya school that anchored mystical practice within
+      strict Shāfiʿī observance — died in Shīrāz in 371 AH at an
+      advanced age. The date is reported by al-Dhahabī in *Siyar
+      Aʿlām al-Nubalāʾ* and *Tārīkh al-Islām*, by Ibn Khallikān in
+      *Wafayāt al-Aʿyān*, and by Ibn ʿImād in *Shadharāt al-Dhahab*.
+      He had studied with the disciples of al-Junayd al-Baghdādī
+      and with Ruwaym, and his pupil al-Daylamī's *Sīrat al-Shaykh
+      al-Kabīr Ibn Khafīf* is one of the earliest single-figure
+      Sufi biographies in Arabic. Al-Hujwīrī's *Kashf al-Maḥjūb*
+      treats him as the model of the Sufi-jurist who "did not
+      relax a single point of the *sharīʿa*", and his teaching is
+      cited extensively by al-Qushayrī in *al-Risāla* and by
+      al-Sulamī in *Ṭabaqāt al-Ṣūfiyya* as a touchstone for the
+      compatibility of *taṣawwuf* with Shāfiʿī hadith-based piety.
+    description_ar: |
+      توفي أبو عبد الله محمد بن خفيف الضبي الشيرازي — فارسي شافعي
+      سني، شيخ صوفية شيراز، ومن رجال الحديث، وإليه تنسب كتب طبقات
+      الصوفية الكلاسيكية تأسيسَ «الخفيفية» التي رسّخت العمل الصوفي
+      ضمن الالتزام الصارم بمذهب الشافعي — بشيراز سنة ٣٧١ هـ عن
+      عمر طويل. وقد أثبت هذه السنة الذهبي في «سير أعلام النبلاء»
+      و«تاريخ الإسلام»، وابن خلكان في «وفيات الأعيان»، وابن العماد
+      في «شذرات الذهب». وكان قد أخذ عن أصحاب الجنيد البغدادي وعن
+      رويم، وكتاب تلميذه الديلمي «سيرة الشيخ الكبير ابن خفيف» من
+      أقدم تراجم العَلَم الفرد في التراث الصوفي العربي. وعدّه
+      الهجويري في «كشف المحجوب» نموذج الفقيه الصوفي الذي «لم
+      يَدَع مسألة من مسائل الشريعة»، ونقل عنه القشيري في «الرسالة»
+      والسلمي في «طبقات الصوفية» نقلاً مستفيضاً، بوصفه ميزاناً
+      للوفاق بين التصوف والورع الشافعي المبني على الحديث.
+    description_fr: |
+      Abū ʿAbd Allāh Muḥammad ibn Khafīf al-Ḍabbī al-Shīrāzī —
+      Persan sunnite shāfiʿīte, maître soufi de Shīrāz,
+      transmetteur de hadiths, et figure à laquelle la tradition
+      classique des *ṭabaqāt* soufies attribue la fondation de
+      l'école khafīfīe qui ancra la pratique mystique dans la
+      stricte observance shāfiʿīte — mourut à Shīrāz en 371 H à
+      un âge avancé. La date est donnée par al-Dhahabī dans les
+      *Siyar Aʿlām al-Nubalāʾ* et le *Tārīkh al-Islām*, par Ibn
+      Khallikān dans les *Wafayāt al-Aʿyān* et par Ibn ʿImād dans
+      les *Shadharāt al-Dhahab*. Il avait étudié auprès des
+      disciples d'al-Junayd al-Baghdādī et auprès de Ruwaym, et
+      la *Sīrat al-Shaykh al-Kabīr Ibn Khafīf* de son disciple
+      al-Daylamī compte parmi les premières biographies soufies
+      individuelles en arabe. Le *Kashf al-Maḥjūb* d'al-Hujwīrī
+      le tient pour le modèle du soufi-juriste qui « n'a pas
+      relâché un seul point de la *sharīʿa* » ; son enseignement
+      est cité abondamment par al-Qushayrī dans la *Risāla* et
+      par al-Sulamī dans les *Ṭabaqāt al-Ṣūfiyya* comme pierre
+      de touche de la compatibilité du *taṣawwuf* avec la piété
+      shāfiʿīte fondée sur le hadith.
+    canonical_hijri: {year: 371, precision: year}
+    canonical_gregorian: {date: 981-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "371 AH at Shīrāz — al-Dhahabī's date in Siyar."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān gives 371 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 371 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām corroborates 371 AH."
+    people: [[ibn-khafif-al-shirazi, died]]
+    tags: [abbasid, buyid, sufi, shiraz, persia, shafii, khafifiyya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Khafif"
+
+  - slug: death-of-al-niffari
+    category: scholar_death
+    title_en: Death of al-Niffārī — author of *al-Mawāqif wa-al-Mukhāṭabāt*
+    title_ar: وفاة النِّفَّري — صاحب «المواقف والمخاطبات»
+    title_fr: Mort d'al-Niffārī — auteur d'*al-Mawāqif wa-al-Mukhāṭabāt*
+    description_en: |
+      Muḥammad ibn ʿAbd al-Jabbār ibn al-Ḥasan al-Niffārī — Iraqi
+      Sunni Sufi of Niffar (in the marshland between Kūfa and
+      Baṣra) and author of *Kitāb al-Mawāqif wa-al-Mukhāṭabāt*
+      (The Book of Stayings and Addresses), one of the most
+      distinctive works of early Sufi prose in Arabic — died,
+      according to the majority position adopted by EI2 and the
+      modern critical edition of A. J. Arberry following the
+      classical biographical material, in or around 354 AH;
+      al-Dhahabī in *Tārīkh al-Islām* notes the date as uncertain
+      and some traditions place him later in the second half of
+      the 4th century. We follow the 354 AH majority. He travelled
+      between Iraq, Syria, and Egypt and is reported to have died
+      in the Egyptian countryside; the *Mawāqif*, recovered and
+      transmitted by his grandson ʿAlī al-Niffārī and provided
+      with a classical Sunni commentary by ʿAfīf al-Dīn al-Tilimsānī,
+      records the experiential "stayings" (*mawāqif*) of his path
+      in the form of intimate divine addresses, a form that became
+      a structural reference for later Andalusi-Egyptian Sufi
+      writing (Ibn al-ʿArabī's *Kitāb al-Mawāqif* is a deliberate
+      genre echo).
+    description_ar: |
+      توفي محمد بن عبد الجبار بن الحسن النِّفَّري — صوفي عراقي
+      سني من نِفَّر (في سواد ما بين الكوفة والبصرة)، صاحب «كتاب
+      المواقف والمخاطبات»، من أبدع آثار النثر الصوفي العربي في
+      القرن الرابع — قرابة سنة ٣٥٤ هـ على القول الأرجح الذي يجمع
+      عليه «الإسلام في عهده» في «دائرة المعارف الإسلامية» الطبعة
+      الثانية ومحقق الكتاب الحديث آرثر آربري متابعةً للمصادر
+      الكلاسيكية، وأشار الذهبي في «تاريخ الإسلام» إلى الإشكال في
+      تاريخ وفاته، وذكر بعضهم تأريخاً متأخراً في النصف الثاني من
+      القرن الرابع. ونحن نأخذ بالقول الأرجح وهو ٣٥٤ هـ. وقد طاف
+      بين العراق والشام ومصر، ويُذكَر أنه توفي في ريف مصر؛
+      و«المواقف»، التي رواها عنه حفيدُه علي النِّفَّري وشرحها على
+      وفق التلقي السني عفيف الدين التلمساني، تسجل «المواقف»
+      التجريبية لمسلكه في صورة خطابات إلهية حميمة، صار شكلها
+      مرجعاً بنيوياً للكتابة الصوفية الأندلسية المصرية اللاحقة
+      (و«كتاب المواقف» لابن العربي صدى نوعي مقصود).
+    description_fr: |
+      Muḥammad ibn ʿAbd al-Jabbār ibn al-Ḥasan al-Niffārī — soufi
+      sunnite irakien de Niffar (région marécageuse entre Kūfa et
+      Baṣra) et auteur du *Kitāb al-Mawāqif wa-al-Mukhāṭabāt*
+      (Le Livre des Stations et Adresses), l'une des œuvres les
+      plus singulières de la prose soufie arabe des débuts —
+      mourut, selon la position majoritaire adoptée par l'EI2 et
+      par l'édition critique moderne d'A. J. Arberry à la suite
+      de la documentation biographique classique, autour de
+      354 H ; al-Dhahabī dans le *Tārīkh al-Islām* note l'incertitude
+      de la date et certaines traditions le placent plus tard dans
+      la seconde moitié du IVᵉ siècle. Nous retenons 354 H comme
+      position majoritaire. Il voyagea entre l'Iraq, la Syrie et
+      l'Égypte et serait mort dans la campagne égyptienne ; les
+      *Mawāqif*, recueillies et transmises par son petit-fils ʿAlī
+      al-Niffārī et munies d'un commentaire sunnite classique par
+      ʿAfīf al-Dīn al-Tilimsānī, consignent les « stations »
+      expérientielles (*mawāqif*) de sa voie sous la forme
+      d'adresses divines intimes — forme devenue référence
+      structurelle pour l'écriture soufie andalouse-égyptienne
+      ultérieure (le *Kitāb al-Mawāqif* d'Ibn al-ʿArabī est un
+      écho générique délibéré).
+    canonical_hijri: {year: 354, precision: year}
+    canonical_gregorian: {date: 965-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "Tārīkh al-Islām attests c. 354 AH while flagging chronological uncertainty."
+      - source_key: ei2
+        notes: "EI2 art. 'al-Niffārī' adopts c. 354 AH following Arberry's edition of the *Mawāqif*."
+    people: [[al-niffari, died]]
+    tags: [abbasid, sufi, iraq, niffar, egypt, mawaqif, mukhatabat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Al-Niffari"
+
+  - slug: death-of-abu-nasr-al-sarraj
+    category: scholar_death
+    title_en: Death of Abū Naṣr al-Sarrāj al-Ṭūsī — author of *Kitāb al-Lumaʿ fī al-Taṣawwuf*
+    title_ar: وفاة أبي نصر السرّاج الطوسي — صاحب «كتاب اللُّمَع في التصوف»
+    title_fr: Mort d'Abū Naṣr al-Sarrāj al-Ṭūsī — auteur du *Kitāb al-Lumaʿ fī al-Taṣawwuf*
+    description_en: |
+      Abū Naṣr ʿAbd Allāh ibn ʿAlī al-Sarrāj al-Ṭūsī — Khurāsānī
+      Sunni Sufi master of Ṭūs and author of *Kitāb al-Lumaʿ fī
+      al-Taṣawwuf* (The Book of Sparks on Sufism), the earliest
+      systematic Sunni defence and exposition of taṣawwuf as a
+      science compatible with Qurʾan, Sunna, and the consensus of
+      the *muḥaddithūn* and *fuqahāʾ* — died in Ṭūs in 378 AH, the
+      date reported by al-Dhahabī in *Siyar Aʿlām al-Nubalāʾ* and
+      *Tārīkh al-Islām*, by Ibn Kathīr in *al-Bidāya wa al-Nihāya*,
+      and by Ibn ʿImād in *Shadharāt al-Dhahab*. The *Lumaʿ* opens
+      with a defence of the term *Ṣūfī* against its critics,
+      systematises the relationship between the Sufi station and
+      the prescriptions of the *sharīʿa*, and rehearses sayings of
+      the early ascetics from Ḥasan al-Baṣrī through al-Junayd
+      al-Baghdādī within an explicit ahl al-Sunna framework. It
+      became the structural template for the great fifth- and
+      sixth-century AH compendia: al-Kalābādhī's *al-Taʿarruf*,
+      Abū Ṭālib al-Makkī's *Qūt al-Qulūb*, al-Qushayrī's
+      *al-Risāla*, and (by extension) al-Ghazālī's *Iḥyāʾ ʿUlūm
+      al-Dīn*.
+    description_ar: |
+      توفي أبو نصر عبد الله بن علي السرّاج الطوسي — خراساني سني،
+      من شيوخ صوفية طوس، صاحب «كتاب اللُّمَع في التصوف»، أقدم
+      تأصيل سني منهجي لعلم التصوف بوصفه علماً موافقاً للكتاب
+      والسنة وإجماع المحدثين والفقهاء — بطوس سنة ٣٧٨ هـ، وهي
+      السنة التي أثبتها الذهبي في «سير أعلام النبلاء» و«تاريخ
+      الإسلام»، وابن كثير في «البداية والنهاية»، وابن العماد في
+      «شذرات الذهب». و«اللُّمَع» يفتتح بالدفاع عن لفظ «الصوفي»
+      أمام منتقديه، ويؤسّس العلاقة بين المقام الصوفي وأحكام
+      الشريعة، ويسرد أقوال الزهاد الأوائل من الحسن البصري إلى
+      الجنيد البغدادي ضمن إطار سني صريح لأهل السنة. وصار النموذج
+      البنائي للمصنفات الكبرى في القرنين الخامس والسادس: «التعرف»
+      للكلاباذي، و«قوت القلوب» لأبي طالب المكي، و«الرسالة» للقشيري،
+      و(امتداداً) «إحياء علوم الدين» للغزالي.
+    description_fr: |
+      Abū Naṣr ʿAbd Allāh ibn ʿAlī al-Sarrāj al-Ṭūsī — maître
+      soufi sunnite khurāsānien de Ṭūs et auteur du *Kitāb
+      al-Lumaʿ fī al-Taṣawwuf* (Le Livre des Étincelles sur le
+      Soufisme), première défense et exposition systématique
+      sunnite du *taṣawwuf* comme science conforme au Coran, à la
+      Sunna et au consensus des *muḥaddithūn* et des *fuqahāʾ* —
+      mourut à Ṭūs en 378 H, date donnée par al-Dhahabī dans les
+      *Siyar Aʿlām al-Nubalāʾ* et le *Tārīkh al-Islām*, par Ibn
+      Kathīr dans *al-Bidāya wa al-Nihāya* et par Ibn ʿImād dans
+      les *Shadharāt al-Dhahab*. Le *Lumaʿ* s'ouvre par une
+      défense du terme *Ṣūfī* face à ses détracteurs, systématise
+      la relation entre la station soufie et les prescriptions de
+      la *sharīʿa*, et reprend les paroles des premiers ascètes
+      d'al-Ḥasan al-Baṣrī à al-Junayd al-Baghdādī dans un cadre
+      ahl al-Sunna explicite. Il devint le modèle structurel des
+      grandes compilations des Vᵉ et VIᵉ siècles : *al-Taʿarruf*
+      d'al-Kalābādhī, *Qūt al-Qulūb* d'Abū Ṭālib al-Makkī, la
+      *Risāla* d'al-Qushayrī et, par extension, l'*Iḥyāʾ ʿUlūm
+      al-Dīn* d'al-Ghazālī.
+    canonical_hijri: {year: 378, precision: year}
+    canonical_gregorian: {date: 988-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "378 AH at Ṭūs — al-Dhahabī's date in Siyar; well-attested across the canon."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 378 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 378 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām corroborates 378 AH."
+    people: [[abu-nasr-al-sarraj, died]]
+    tags: [abbasid, sufi, khurasan, tus, lumaa, sunni-tasawwuf-defence]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Nasr_as-Sarraj"
+
+  - slug: death-of-al-kalabadhi
+    category: scholar_death
+    title_en: Death of Abū Bakr al-Kalābādhī — author of *al-Taʿarruf li-Madhhab Ahl al-Taṣawwuf*
+    title_ar: وفاة أبي بكر الكلاباذي — صاحب «التعرف لمذهب أهل التصوف»
+    title_fr: Mort d'Abū Bakr al-Kalābādhī — auteur d'*al-Taʿarruf li-Madhhab Ahl al-Taṣawwuf*
+    description_en: |
+      Abū Bakr Muḥammad ibn Isḥāq al-Kalābādhī al-Bukhārī — Sunni
+      Ḥanafī Transoxanian Sufi of Bukhārā, author of *al-Taʿarruf
+      li-Madhhab Ahl al-Taṣawwuf* (Introduction to the Doctrine of
+      the Sufis) and of *Baḥr al-Fawāʾid* (a kalām-inflected
+      hadith commentary on aspects of doctrine and ethics) — died
+      in Bukhārā. The classical sources differ between 380 AH and
+      384 AH; al-Dhahabī in *Tārīkh al-Islām* records the matter
+      with the alternative dates noted, and modern scholarship
+      (EI2 art. 'al-Kalābādhī') leans to the earlier 380 AH date,
+      which we adopt as canonical with the 384 AH alternative
+      flagged. *al-Taʿarruf* is the second of the great early
+      Sufi compendia (after al-Sarrāj's *Lumaʿ*): a five-part
+      manual that opens with a Sunni statement of *ʿaqīda* in the
+      ahl al-Sunna mould, then catalogues the technical vocabulary
+      of taṣawwuf (states, stations, terminology of the path) and
+      concludes with the *karāmāt* of the saints and the etiquette
+      of the disciple. It became one of the standard textbooks of
+      Bukhāran and broader Transoxanian Sufism through to the
+      Mongol period.
+    description_ar: |
+      توفي أبو بكر محمد بن إسحاق الكلاباذي البخاري — حنفي ما وراء
+      نهري سني صوفي ببخارى، صاحب «التعرف لمذهب أهل التصوف» و«بحر
+      الفوائد» (شرح حديثي ذو نَفَسٍ كلامي في مسائل العقيدة
+      والأخلاق) — ببخارى. واختلفت المصادر الكلاسيكية بين سنة ٣٨٠
+      هـ وسنة ٣٨٤ هـ؛ ذكر الذهبي في «تاريخ الإسلام» الخلاف، ويرجح
+      البحث الحديث (مادة «الكلاباذي» في «دائرة المعارف الإسلامية»
+      الطبعة الثانية) سنة ٣٨٠ هـ، فنعتمدها قولاً قانونياً ونُشير
+      إلى ٣٨٤ هـ بديلاً. و«التعرف» الكتاب الثاني من كبار
+      المصنفات الصوفية المبكرة (بعد «اللُّمَع» للسرّاج): مرشد في
+      خمسة أقسام، يفتتح بمقالة في عقيدة أهل السنة، ثم يعرّف
+      مصطلحات التصوف الفنية (الأحوال والمقامات وألفاظ الطريق)،
+      ويختم بكرامات الأولياء وآداب المريد. وصار من المتون
+      المعتمدة في تصوف بخارى وما وراء النهر إلى العصر المغولي.
+    description_fr: |
+      Abū Bakr Muḥammad ibn Isḥāq al-Kalābādhī al-Bukhārī —
+      ḥanafīte sunnite transoxanien de Boukhara, auteur d'*al-Taʿarruf
+      li-Madhhab Ahl al-Taṣawwuf* (Introduction à la doctrine
+      des soufis) et du *Baḥr al-Fawāʾid* (commentaire de hadiths
+      à orientation kalāmique sur des questions de doctrine et
+      d'éthique) — mourut à Boukhara. Les sources classiques
+      hésitent entre 380 H et 384 H ; al-Dhahabī dans le *Tārīkh
+      al-Islām* mentionne les deux dates, et la recherche moderne
+      (article 'al-Kalābādhī' de l'EI2) penche pour la date la
+      plus ancienne de 380 H, que nous adoptons comme canonique
+      en signalant 384 H en alternative. *al-Taʿarruf* est le
+      deuxième des grands compendiums soufis anciens (après le
+      *Lumaʿ* d'al-Sarrāj) : manuel en cinq parties qui s'ouvre
+      par une profession d'*ʿaqīda* dans le moule ahl al-Sunna,
+      catalogue ensuite le vocabulaire technique du *taṣawwuf*
+      (états, stations, terminologie de la voie) et s'achève sur
+      les *karāmāt* des saints et l'étiquette du disciple. Il
+      devint l'un des manuels classiques du soufisme boukharien
+      et transoxanien plus largement, jusqu'à la période mongole.
+    canonical_hijri: {year: 380, precision: year}
+    canonical_gregorian: {date: 990-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+        notes: "380 AH at Bukhārā — al-Dhahabī's date in Tārīkh al-Islām; alt 384 AH noted."
+      - source_key: ei2
+        notes: "EI2 art. 'al-Kalābādhī' adopts 380 AH."
+    people: [[al-kalabadhi, died]]
+    tags: [abbasid, samanid, sufi, bukhara, transoxania, hanafi, taarruf]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Al-Kalabadhi"
+
+  - slug: death-of-abu-talib-al-makki
+    category: scholar_death
+    title_en: Death of Abū Ṭālib al-Makkī — author of *Qūt al-Qulūb*, predecessor of al-Ghazālī's *Iḥyāʾ*
+    title_ar: وفاة أبي طالب المكي — صاحب «قوت القلوب» وَوَزرُ الغزالي في «الإحياء»
+    title_fr: Mort d'Abū Ṭālib al-Makkī — auteur du *Qūt al-Qulūb*, prédécesseur de l'*Iḥyāʾ* d'al-Ghazālī
+    description_en: |
+      Abū Ṭālib Muḥammad ibn ʿAlī al-Makkī al-Ḥārithī — Sunni
+      Mālikī (with significant Shāfiʿī engagement) ascetic
+      theologian, hadith-saturated mystic, and author of *Qūt
+      al-Qulūb fī Muʿāmalat al-Maḥbūb wa-Waṣf Ṭarīq al-Murīd ilā
+      Maqām al-Tawḥīd* (The Nourishment of Hearts), perhaps the
+      single most important predecessor of al-Ghazālī's *Iḥyāʾ
+      ʿUlūm al-Dīn* — died in Baghdad in 386 AH, the date
+      reported by al-Dhahabī in *Siyar Aʿlām al-Nubalāʾ* and
+      *Tārīkh al-Islām*, by Ibn Khallikān in *Wafayāt al-Aʿyān*,
+      and by Ibn Kathīr in *al-Bidāya wa al-Nihāya*. *Qūt al-Qulūb*
+      is a thirty-three-section synthesis of *fiqh al-ʿibādāt*,
+      hadith-based ethics, the disciplines of the heart, the
+      grades of love and gratitude, and the doctrine of *ʿilm
+      al-yaqīn* — the source-text from which al-Ghazālī's
+      *Iḥyāʾ* draws its quartered architecture and a remarkable
+      proportion of its actual material. Al-Dhahabī notes that
+      al-Makkī's later years included a period of Baghdadi
+      controversy when remarks on the divine attributes attributed
+      to him drew criticism; the criticism is preserved in the
+      sources without further elaboration here, and his ethical
+      and ascetic legacy through *Qūt al-Qulūb* remained the
+      mainstream Sunni reception.
+    description_ar: |
+      توفي أبو طالب محمد بن علي المكي الحارثي — عالم سني مالكي
+      (مع اشتغال ملحوظ بالشافعية) زاهد متكلم، صوفي مشبع بالحديث،
+      صاحب «قوت القلوب في معاملة المحبوب ووصف طريق المريد إلى
+      مقام التوحيد»، ولعله أهم مَن سبق الإمام الغزالي في «إحياء
+      علوم الدين» — ببغداد سنة ٣٨٦ هـ، وهي السنة التي أثبتها
+      الذهبي في «سير أعلام النبلاء» و«تاريخ الإسلام»، وابن خلكان
+      في «وفيات الأعيان»، وابن كثير في «البداية والنهاية». و«قوت
+      القلوب» مصنف في ثلاثة وثلاثين فصلاً يجمع بين فقه العبادات،
+      والأخلاق المبنية على الحديث، ورياضات القلب، ودرجات المحبة
+      والشكر، وعقيدة علم اليقين — وهو الكتاب الذي استمدّ منه
+      الغزالي في «الإحياء» تقسيمه الرباعي ونسبة لافتة من مواده
+      الفعلية. وأشار الذهبي إلى وقوع كلامٍ في أواخر عمره ببغداد
+      انتقدت فيه عبارات نُسبت إليه في الصفات الإلهية؛ ومحفوظ هذا
+      الانتقاد في المصادر بلا تفصيل ههنا، وظل تَلقيه الأخلاقي
+      الزهدي عبر «قوت القلوب» هو السائد في التيار السني العام.
+    description_fr: |
+      Abū Ṭālib Muḥammad ibn ʿAlī al-Makkī al-Ḥārithī — théologien
+      ascète sunnite mālikīte (avec un engagement shāfiʿīte
+      notable), mystique imprégné de hadiths et auteur du *Qūt
+      al-Qulūb fī Muʿāmalat al-Maḥbūb wa-Waṣf Ṭarīq al-Murīd ilā
+      Maqām al-Tawḥīd* (La Nourriture des cœurs), sans doute le
+      plus important des prédécesseurs de l'*Iḥyāʾ ʿUlūm al-Dīn*
+      d'al-Ghazālī — mourut à Bagdad en 386 H, date donnée par
+      al-Dhahabī dans les *Siyar Aʿlām al-Nubalāʾ* et le *Tārīkh
+      al-Islām*, par Ibn Khallikān dans les *Wafayāt al-Aʿyān*
+      et par Ibn Kathīr dans *al-Bidāya wa al-Nihāya*. Le *Qūt
+      al-Qulūb* est une synthèse en trente-trois sections de
+      *fiqh al-ʿibādāt*, d'éthique fondée sur le hadith, des
+      disciplines du cœur, des degrés de l'amour et de la
+      gratitude, et de la doctrine de *ʿilm al-yaqīn* — le
+      texte-source dont l'*Iḥyāʾ* d'al-Ghazālī tire son
+      architecture quaternaire et une part remarquable de sa
+      matière effective. Al-Dhahabī signale que ses dernières
+      années à Bagdad connurent une controverse où des propos sur
+      les attributs divins qui lui étaient attribués furent
+      critiqués ; cette critique est conservée par les sources
+      sans plus de détail ici, tandis que son héritage éthique et
+      ascétique par le *Qūt al-Qulūb* est demeuré la réception
+      courante du sunnisme général.
+    canonical_hijri: {year: 386, precision: year}
+    canonical_gregorian: {date: 996-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "386 AH at Baghdad — al-Dhahabī's date in Siyar."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān gives 386 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 386 AH at Baghdad."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām corroborates 386 AH."
+    people: [[abu-talib-al-makki, died]]
+    tags: [abbasid, sufi, baghdad, mecca, maliki, qut-al-qulub, ihya-predecessor]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Talib_al-Makki"
+
+  # =========================================================================
+  # 5th CENTURY AH — Abū Nuʿaym al-Iṣfahānī, ʿAbd Allāh al-Anṣārī
+  # =========================================================================
+
+  - slug: death-of-abu-nuaym-al-isfahani
+    category: scholar_death
+    title_en: Death of Abū Nuʿaym al-Iṣfahānī — author of *Ḥilyat al-Awliyāʾ wa-Ṭabaqāt al-Aṣfiyāʾ*
+    title_ar: وفاة أبي نُعيم الأصبهاني — صاحب «حلية الأولياء وطبقات الأصفياء»
+    title_fr: Mort d'Abū Nuʿaym al-Iṣfahānī — auteur de la *Ḥilyat al-Awliyāʾ wa-Ṭabaqāt al-Aṣfiyāʾ*
+    description_en: |
+      Abū Nuʿaym Aḥmad ibn ʿAbd Allāh al-Iṣfahānī — Persian Sunni
+      Shāfiʿī muḥaddith, eminent ḥāfiẓ of his generation, and
+      author of *Ḥilyat al-Awliyāʾ wa-Ṭabaqāt al-Aṣfiyāʾ* (The
+      Adornment of the Saints and the Generations of the Elect),
+      the largest and most influential hagiographical compendium
+      of the early ascetics and Sufis to come down to us — died
+      in Iṣfahān in 430 AH, the date on which al-Dhahabī (*Siyar
+      Aʿlām al-Nubalāʾ*), Ibn Khallikān (*Wafayāt al-Aʿyān*), Ibn
+      Kathīr (*al-Bidāya*) and Ibn ʿImād (*Shadharāt al-Dhahab*)
+      all converge. The *Ḥilya* runs to ten volumes in modern
+      print and proceeds biographically from the four Rāshidūn
+      caliphs through the Companions of the Prophet ﷺ and the
+      tābiʿūn and on to the Sufi shaykhs of the early fourth
+      century AH, with a detailed apparatus of full chains of
+      transmission for sayings and reports — its method is that
+      of a hadith critic applied to ascetic and gnomic material.
+      It is the largest single quarry from which subsequent Sunni
+      Sufi compilers (al-Qushayrī, al-Hujwīrī, al-Sulamī's later
+      revisers, and al-Ghazālī in *Iḥyāʾ ʿUlūm al-Dīn*) drew
+      their narratives of the early generations.
+    description_ar: |
+      توفي أبو نُعيم أحمد بن عبد الله الأصبهاني — فارسي شافعي
+      سني، حافظ زمانه ومن كبار المحدثين، صاحب «حلية الأولياء
+      وطبقات الأصفياء»، أكبر ما وصل إلينا من جوامع تراجم الزهاد
+      والصوفية الأوائل وأشدها أثراً — بأصبهان سنة ٤٣٠ هـ، وعلى
+      هذه السنة اتفاق الذهبي في «سير أعلام النبلاء»، وابن خلكان
+      في «وفيات الأعيان»، وابن كثير في «البداية والنهاية»، وابن
+      العماد في «شذرات الذهب». و«الحلية» في عشرة مجلدات في
+      الطبعات الحديثة، مرتبة على التراجم: تبدأ بالخلفاء الراشدين
+      الأربعة، ثم الصحابة رضي الله عنهم، ثم التابعين، إلى مشايخ
+      الصوفية في صدر القرن الرابع الهجري، بجهاز أسانيد كامل
+      للأقوال والآثار — منهجها منهج محدث في التراث الزهدي
+      والحِكَمي. وهي أعظم منجم استمد منه مَن جاء بعد من جامعي
+      التراث الصوفي السني (القشيري والهجويري وتلامذة السلمي
+      اللاحقون والغزالي في «إحياء علوم الدين») قصصَ الأولين.
+    description_fr: |
+      Abū Nuʿaym Aḥmad ibn ʿAbd Allāh al-Iṣfahānī — Persan
+      sunnite shāfiʿīte, *muḥaddith* éminent et *ḥāfiẓ* de sa
+      génération, auteur de la *Ḥilyat al-Awliyāʾ wa-Ṭabaqāt
+      al-Aṣfiyāʾ* (La Parure des saints et les Générations des
+      élus), la plus volumineuse et la plus influente des
+      compilations hagiographiques sur les premiers ascètes et
+      soufis qui nous soit parvenue — mourut à Iṣfahān en 430 H,
+      date sur laquelle convergent al-Dhahabī (*Siyar Aʿlām
+      al-Nubalāʾ*), Ibn Khallikān (*Wafayāt al-Aʿyān*), Ibn
+      Kathīr (*al-Bidāya*) et Ibn ʿImād (*Shadharāt al-Dhahab*).
+      La *Ḥilya* compte dix volumes dans son impression moderne
+      et procède biographiquement des quatre califes Rāshidūn
+      aux Compagnons du Prophète ﷺ et aux *tābiʿūn*, jusqu'aux
+      maîtres soufis du début du IVᵉ siècle de l'Hégire, avec
+      un appareil détaillé de chaînes de transmission pour
+      paroles et récits — sa méthode est celle d'un critique du
+      hadith appliquée à un matériau ascétique et gnomique.
+      C'est la plus vaste carrière à laquelle les compilateurs
+      soufis sunnites ultérieurs (al-Qushayrī, al-Hujwīrī, les
+      réviseurs ultérieurs d'al-Sulamī et al-Ghazālī dans
+      l'*Iḥyāʾ ʿUlūm al-Dīn*) ont puisé leurs récits des
+      premières générations.
+    canonical_hijri: {year: 430, precision: year}
+    canonical_gregorian: {date: 1038-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "430 AH at Iṣfahān — universally agreed across the canon."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Wafayāt al-Aʿyān confirms 430 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 430 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 430 AH."
+    people: [[abu-nuaym-al-isfahani, died]]
+    tags: [abbasid, buyid, sufi, isfahan, persia, shafii, hilya, hagiography, hadith]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Nu%27aym_al-Isfahani"
+
+  - slug: death-of-al-ansari-al-harawi
+    category: scholar_death
+    title_en: Death of ʿAbd Allāh al-Anṣārī al-Harawī — Hanbali-Sufi shaykh, author of *Manāzil al-Sāʾirīn*
+    title_ar: وفاة عبد الله الأنصاري الهروي — شيخ الإسلام الحنبلي الصوفي وصاحب «منازل السائرين»
+    title_fr: Mort de ʿAbd Allāh al-Anṣārī al-Harawī — shaykh ḥanbalī-soufi, auteur des *Manāzil al-Sāʾirīn*
+    description_en: |
+      Abū Ismāʿīl ʿAbd Allāh ibn Muḥammad al-Anṣārī al-Harawī,
+      known as *Shaykh al-Islām al-Anṣārī* — Khurāsānī Sunni
+      Ḥanbalī jurist, hadith transmitter, ascetic, and the great
+      Hanbali-Sufi voice of fifth-century AH Herat — died at
+      Herat in 481 AH, the date reported by al-Dhahabī in *Siyar
+      Aʿlām al-Nubalāʾ* and *Tārīkh al-Islām*, by Ibn Kathīr in
+      *al-Bidāya*, and by Ibn ʿImād in *Shadharāt al-Dhahab*. He
+      compiled in Persian the celebrated *Munājāt* (Intimate
+      Discourses) and in Arabic *Manāzil al-Sāʾirīn ilā al-Ḥaqq
+      al-Mubīn* (The Stations of the Wayfarers), a one-hundred-
+      stage map of the spiritual path divided into ten decades
+      from awakening to *tawḥīd* — a text Ibn Qayyim al-Jawziyya
+      would later make the structural backbone of his *Madārij
+      al-Sālikīn* and Ibn Taymiyya would treat with respect even
+      while raising questions about specific formulations. He
+      withstood several mihna-style trials at the hands of
+      pro-Ashʿarī authorities of Herat for his uncompromising
+      Athari creed, was repeatedly imprisoned and exiled, and
+      returned each time. The dual legacy — strict Ahl al-Ḥadīth
+      ʿaqīda and rigorous Sufi practice — places him at the
+      Hanbali-Sufi confluence the Iraqi tradition would inherit
+      through ʿAbd al-Qādir al-Jīlānī.
+    description_ar: |
+      توفي أبو إسماعيل عبد الله بن محمد الأنصاري الهروي، المعروف
+      بـ«شيخ الإسلام الأنصاري» — خراساني سني حنبلي، فقيه ومحدث
+      وزاهد، ومن أكبر أصوات التيار الحنبلي الصوفي بهراة في
+      القرن الخامس الهجري — بهراة سنة ٤٨١ هـ، وهي السنة التي
+      أثبتها الذهبي في «سير أعلام النبلاء» و«تاريخ الإسلام»،
+      وابن كثير في «البداية والنهاية»، وابن العماد في «شذرات
+      الذهب». وصنّف بالفارسية «المناجاة» الشهيرة، وبالعربية
+      «منازل السائرين إلى الحق المبين»، خريطة في مئة منزلة من
+      اليقظة إلى التوحيد، مقسمة على عشرة أقسام كل منها عشرُ
+      منازل — وهو الكتاب الذي سيتخذه ابن قيم الجوزية بعدُ هيكلاً
+      بنيوياً لـ«مدارج السالكين»، ويُعامله شيخ الإسلام ابن تيمية
+      باحترام مع تنبيه على بعض عباراته. وقد امتُحن مرات في هراة
+      من ولاة على الأشعرية بسبب عقيدته الأثرية الصارمة، وحُبس
+      ونُفي مراراً وعاد إلى مَنبره في كل مرة. ويجمع تراثُه
+      المزدوج — عقيدة أهل الحديث الصارمة وعمل الصوفية الجاد —
+      في ملتقى المذهب الحنبلي والتصوف الذي ورّثه التيار العراقي
+      عبر عبد القادر الجيلاني.
+    description_fr: |
+      Abū Ismāʿīl ʿAbd Allāh ibn Muḥammad al-Anṣārī al-Harawī,
+      dit *Shaykh al-Islām al-Anṣārī* — khurāsānien sunnite
+      ḥanbalīte, juriste, transmetteur de hadiths et ascète, et
+      la grande voix ḥanbalīte-soufie de Hérat au Vᵉ siècle de
+      l'Hégire — mourut à Hérat en 481 H, date donnée par
+      al-Dhahabī dans les *Siyar Aʿlām al-Nubalāʾ* et le *Tārīkh
+      al-Islām*, par Ibn Kathīr dans *al-Bidāya* et par Ibn ʿImād
+      dans les *Shadharāt al-Dhahab*. Il composa en persan les
+      célèbres *Munājāt* (Entretiens intimes) et en arabe les
+      *Manāzil al-Sāʾirīn ilā al-Ḥaqq al-Mubīn* (Les Stations
+      des cheminants vers le Vrai manifeste), carte en cent
+      stations du chemin spirituel divisée en dix décades de
+      l'éveil au *tawḥīd* — texte qu'Ibn Qayyim al-Jawziyya
+      ferait plus tard l'épine dorsale structurelle de ses
+      *Madārij al-Sālikīn* et qu'Ibn Taymiyya traiterait avec
+      respect tout en interrogeant certaines formulations. Il
+      subit plusieurs *miḥan* aux mains des autorités pro-ashʿarīes
+      de Hérat pour son credo athari intransigeant, fut
+      emprisonné et exilé à plusieurs reprises et revint chaque
+      fois. Le double héritage — *ʿaqīda* ahl al-Ḥadīth stricte
+      et discipline soufie rigoureuse — le situe au confluent
+      ḥanbalī-soufi dont la tradition irakienne héritera par
+      ʿAbd al-Qādir al-Jīlānī.
+    canonical_hijri: {year: 481, precision: year}
+    canonical_gregorian: {date: 1088-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "481 AH at Herat — al-Dhahabī's date in Siyar."
+      - source_key: ibn_kathir_bidaya
+        notes: "Bidāya places death 481 AH at Herat."
+      - source_key: ibn_imad_shadharat
+        notes: "Shadharāt al-Dhahab confirms 481 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "Tārīkh al-Islām corroborates 481 AH."
+    people: [[al-ansari-al-harawi, died]]
+    tags: [seljuk, sufi, khurasan, herat, hanbali, manazil-al-sairin, athari]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Khwaja_Abdullah_Ansari"
+
+  # =========================================================================
+  # 6th CENTURY AH — Aḥmad al-Ghazālī, ʿAyn al-Quḍāt, Yaḥyā al-Suhrawardī
+  # =========================================================================
+
+  # death-of-ahmad-al-ghazali intentionally excluded — *Sawāniḥ ʿushshāq* love-mysticism — his disciple ʿAyn al-Quḍāt al-Hamadhānī was executed for theological positions traceable to this current.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+

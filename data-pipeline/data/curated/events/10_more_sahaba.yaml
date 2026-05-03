@@ -1,0 +1,495 @@
+# Additional Sahaba deaths, mostly year-precision from Ibn Sa'd's Tabaqat
+# and al-Dhahabi's Siyar A'lam al-Nubala'.
+
+events:
+  - slug: death-of-abu-ayyub-al-ansari
+    category: umayyad
+    title_en: Death of Abu Ayyub al-Ansari at the Walls of Constantinople
+    title_ar: وفاة أبي أيوب الأنصاري
+    title_fr: Décès d'Abū Ayyūb al-Anṣārī aux murailles de Constantinople
+    description_en: |
+      The Ansari Companion (ra) who hosted the Prophet ﷺ at the Hijra
+      when he arrived at Madinah — his house was where the Prophet ﷺ
+      stayed until the Masjid an-Nabawi and his own quarters were built.
+      In extreme old age he joined the Arab siege of Constantinople under
+      Mu'awiya's son Yazid and was buried at the walls of the city per
+      his own request — a tomb venerated there ever since and rediscovered
+      in 857/1453 by Mehmed II's teacher Aq Shams al-Din during the
+      Ottoman conquest.
+    description_ar: |
+      الصحابي الأنصاري الذي استضاف النبي ﷺ في الهجرة حين قَدم المدينة —
+      ففي بيته أقام النبي ﷺ حتى بُني المسجد النبوي وحُجَره. وفي شيخوخته
+      المتقدّمة شارك في حصار العرب للقسطنطينية تحت إمرة يزيد بن معاوية،
+      ودُفن عند أسوار المدينة بناءً على وصيته — قبرٌ ظلّ معظَّماً منذ
+      ذلك الحين، وأعاد اكتشافه آق شمس الدين شيخ السلطان محمد الفاتح في
+      فتح القسطنطينية سنة 857 هـ / 1453 م.
+    description_fr: |
+      Le Compagnon ansarite (ra) qui accueillit le Prophète ﷺ lors de
+      l'Hégire à son arrivée à Médine — c'est dans sa maison que le
+      Prophète ﷺ demeura jusqu'à la construction de la mosquée du
+      Prophète et de ses propres appartements. Très âgé, il rejoignit
+      le siège arabe de Constantinople sous Yazīd, fils de Muʿāwiya, et
+      fut inhumé aux murailles de la ville selon son propre souhait —
+      tombeau vénéré depuis et redécouvert en 857/1453 par Aq Shams
+      al-Dīn, maître de Mehmed II, lors de la conquête ottomane.
+    canonical_hijri: {year: 52, precision: year}
+    canonical_gregorian: {date: 672-08-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    source_url: https://en.wikipedia.org/wiki/Abu_Ayyub_al-Ansari
+    people: [[abu-ayyub-al-ansari, died]]
+    tags: [umayyad, sahabi, constantinople, istanbul]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-sad-ibn-abi-waqqas
+    category: umayyad
+    title_en: Death of Sa'd ibn Abi Waqqas — Last of the Ten Given Glad Tidings
+    title_ar: وفاة سعد بن أبي وقاص
+    title_fr: Décès de Saʿd ibn Abī Waqqāṣ — dernier des Dix annoncés au Paradis
+    description_en: |
+      The conqueror of Iraq — commander at al-Qadisiyya (15 AH) and
+      founder of al-Kufa — and the last to pass away of the ten Companions
+      (ra) given explicit glad tidings of Paradise during their lifetime
+      (al-'Ashara al-Mubashshirun). He died at his estate outside Madinah
+      in his eighties, and was carried to be buried in the Baqi' cemetery.
+    description_ar: |
+      فاتح العراق — قائد المسلمين في القادسية سنة 15 هـ ومُؤسّس الكوفة —
+      وآخر من توفي من العشرة المبشّرين بالجنة (ra) من الصحابة الذين بُشّروا
+      بها صراحةً في حياتهم. توفي في ضيعته خارج المدينة وقد جاوز الثمانين،
+      وحُمل ليُدفن في مقبرة البقيع.
+    description_fr: |
+      Le conquérant de l'Irak — commandant à al-Qādisiyya (15 H) et
+      fondateur de al-Kūfa — et le dernier à s'éteindre parmi les dix
+      Compagnons (ra) à qui le Paradis fut explicitement annoncé de
+      leur vivant (al-ʿAshara al-Mubashsharūn). Il mourut dans son
+      domaine en dehors de Médine, octogénaire, et fut porté pour être
+      inhumé dans le cimetière al-Baqīʿ.
+    canonical_hijri: {year: 55, precision: year}
+    canonical_gregorian: {date: 675-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    source_url: https://en.wikipedia.org/wiki/Sa%27d_ibn_Abi_Waqqas
+    people: [[sad-ibn-abi-waqqas, died]]
+    tags: [umayyad, sahabi, madinah, baqi, ten-mubashara]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abu-hurayra
+    category: umayyad
+    title_en: Death of Abu Hurayra
+    title_ar: وفاة أبي هريرة
+    title_fr: Décès d'Abū Hurayra
+    description_en: |
+      The most prolific hadith narrator in Islam — 5,374 hadiths are
+      recorded from him. He came to Madinah in the year of Khaybar (7 AH)
+      and from then until the Prophet's ﷺ death he was constantly in his
+      ﷺ company, specifically prioritising that companionship over all
+      else. The kunya "Abu Hurayra" (father of the little cat) was given
+      by the Prophet ﷺ himself for the kitten he kept. Died in Madinah
+      and was buried at al-Baqi'.
+    description_ar: |
+      أكثر الصحابة (ra) رواية للحديث في الإسلام — رُوي عنه نحو خمسة آلاف
+      وثلاثمئة وأربعة وسبعين حديثاً. قَدم المدينةَ عامَ خيبر سنة 7 هـ،
+      ولزم النبيَّ ﷺ منذ ذلك الحين حتى وفاته، مُؤثراً صحبته ﷺ على ما سواها.
+      وكنيتُه "أبو هريرة" أطلقها عليه النبي ﷺ نفسه من أجل هرّةٍ صغيرة كان
+      يحملها. توفي بالمدينة ودُفن بالبقيع.
+    description_fr: |
+      Le plus prolifique des transmetteurs de hadith en Islam — environ
+      cinq mille trois cent soixante-quatorze hadiths furent rapportés
+      de lui. Il vint à Médine l'année de Khaybar (7 H) et, dès lors et
+      jusqu'à la mort du Prophète ﷺ, il fut constamment en sa compagnie,
+      privilégiant cette compagnie sur toute autre chose. La kunya
+      "Abū Hurayra" (père du chaton) lui fut donnée par le Prophète ﷺ
+      lui-même, pour le chaton qu'il portait. Décédé à Médine et inhumé
+      à al-Baqīʿ.
+    canonical_hijri: {year: 59, precision: year}
+    canonical_gregorian: {date: 679-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    source_url: https://en.wikipedia.org/wiki/Abu_Hurairah
+    people: [[abu-hurayra, died]]
+    tags: [umayyad, sahabi, muhaddith, madinah]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ibn-abbas
+    category: umayyad
+    title_en: Death of 'Abdullah ibn 'Abbas — Habr al-Umma
+    title_ar: وفاة عبد الله بن عباس
+    title_fr: Décès de ʿAbdullāh ibn ʿAbbās — Ḥabr al-Umma
+    description_en: |
+      The Prophet's ﷺ cousin (son of his uncle al-'Abbas) and the foremost
+      exegete (mufassir) among the Companions (ra), titled "Habr al-Umma" —
+      the learned of the community. The Prophet ﷺ placed his hand on his
+      head and prayed: "O Allah, teach him the Book and give him
+      understanding of the religion." Approximately 1,660 hadiths are
+      recorded from him. He died at Ta'if and is buried there.
+    description_ar: |
+      ابنُ عمّ النبي ﷺ (ابن عمّه العباس) وأوّل المفسرين من الصحابة (ra)،
+      الملقّب بـ"حَبر الأمّة" — عالمها. وضع النبي ﷺ يده على رأسه ودعا له:
+      "اللهمّ علّمه الكتاب وفقّهه في الدين". رُوي عنه نحو ألف وستمئة وستين
+      حديثاً. توفي بالطائف ودُفن بها.
+    description_fr: |
+      Le cousin du Prophète ﷺ (fils de son oncle al-ʿAbbās) et le
+      premier exégète (mufassir) parmi les Compagnons (ra), surnommé
+      "Ḥabr al-Umma" — le savant de la communauté. Le Prophète ﷺ posa
+      sa main sur sa tête et invoqua : "Ô Allāh, enseigne-lui le Livre
+      et donne-lui la compréhension de la religion." Environ mille six
+      cent soixante hadiths furent rapportés de lui. Il mourut à al-Ṭāʾif
+      et y est inhumé.
+    canonical_hijri: {year: 68, precision: year}
+    canonical_gregorian: {date: 687-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    source_url: https://en.wikipedia.org/wiki/Abdullah_ibn_Abbas
+    people: [[abdullah-ibn-abbas, died]]
+    tags: [umayyad, sahabi, mufassir, tafsir, taif]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ibn-umar
+    category: umayyad
+    title_en: Death of 'Abdullah ibn 'Umar
+    title_ar: وفاة عبد الله بن عمر
+    title_fr: Décès de ʿAbdullāh ibn ʿUmar
+    description_en: |
+      Son of Caliph 'Umar (ra) and among the most scrupulous of the
+      Companions (ra) in following the Prophet ﷺ — it was said of him:
+      "No one followed the practice of the Prophet ﷺ more exactly than
+      Ibn 'Umar." He narrated 2,630 hadiths and was a central figure of
+      the Madinan scholarly circle into the late first century. He
+      refused to take sides in the civil wars after Ali's (ra) death and
+      died in Makkah at about 84.
+    description_ar: |
+      ابنُ الخليفة عمر (ra)، ومن أشدّ الصحابة (ra) تحرّياً لاتّباع سنّة
+      النبي ﷺ — قِيل فيه: "ما تبع أحدٌ سنّةَ النبي ﷺ كما تبعَها ابنُ عمر".
+      رَوى ألفينِ وستمئةً وثلاثين حديثاً، وكان عَلماً من أعلام الحلقة
+      العلمية بالمدينة إلى أواخر القرن الأول. أبى الانحياز إلى أيٍّ من
+      طرفَي الفتنة بعد مقتل عليّ (ra)، وتوفي بمكة وعمرُه نحو أربعٍ
+      وثمانين.
+    description_fr: |
+      Fils du calife ʿUmar (ra) et parmi les plus scrupuleux des
+      Compagnons (ra) dans le suivi du Prophète ﷺ — il fut dit de lui :
+      "Nul n'a suivi la pratique du Prophète ﷺ plus exactement qu'Ibn
+      ʿUmar." Il rapporta deux mille six cent trente hadiths et fut une
+      figure centrale du cercle savant médinois jusqu'à la fin du
+      premier siècle. Il refusa de prendre parti dans les guerres
+      civiles après la mort de ʿAlī (ra) et mourut à La Mecque âgé
+      d'environ quatre-vingt-quatre ans.
+    canonical_hijri: {year: 73, precision: year}
+    canonical_gregorian: {date: 693-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    source_url: https://en.wikipedia.org/wiki/Abdullah_ibn_Umar
+    people: [[abdullah-ibn-umar, died]]
+    tags: [umayyad, sahabi, muhaddith, makkah]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-ibn-masud
+    category: rashidun
+    title_en: Death of 'Abdullah ibn Mas'ud
+    title_ar: وفاة عبد الله بن مسعود
+    title_fr: Décès de ʿAbdullāh ibn Masʿūd
+    description_en: |
+      The first of the Companions (ra) to recite the Qur'an openly in the
+      Haram of Makkah — for which the Quraysh beat him, and to which he
+      famously returned the next day. The Prophet ﷺ designated him among
+      the four he named as best to learn Qur'an from: "Take the Qur'an
+      from four: 'Abdullah ibn Mas'ud, Salim (mawla of Abu Hudhayfa),
+      Mu'adh ibn Jabal, and Ubayy ibn Ka'b." He taught the Qur'an in
+      Kufa for years before his return to Madinah, where he died and was
+      buried at al-Baqi'.
+    description_ar: |
+      أوّل من جهر بالقرآن في حرم مكّة من الصحابة (ra) — فضربتهُ قريش، فعاد
+      من الغد يجهر به مرّةً أخرى. وقد أدرجه النبي ﷺ ضمن أربعةٍ أمر بأخذ
+      القرآن عنهم، فقال: "خُذوا القرآنَ من أربعة: عبد الله بن مسعود،
+      وسالم مولى أبي حذيفة، ومعاذ بن جبل، وأبي بن كعب". علّم القرآن في
+      الكوفة سنوات قبل عودته إلى المدينة، فتُوفي بها ودُفن بالبقيع.
+    description_fr: |
+      Le premier des Compagnons (ra) à réciter ouvertement le Coran dans
+      le Ḥaram de La Mecque — ce pour quoi les Qurayshites le battirent,
+      et où il revint le lendemain. Le Prophète ﷺ le désigna parmi les
+      quatre dont il dit : "Prenez le Coran de quatre : ʿAbdullāh ibn
+      Masʿūd, Sālim (mawlā d'Abū Ḥudhayfa), Muʿādh ibn Jabal et Ubayy
+      ibn Kaʿb." Il enseigna le Coran à al-Kūfa durant des années avant
+      son retour à Médine, où il mourut et fut inhumé à al-Baqīʿ.
+    canonical_hijri: {year: 32, precision: year}
+    canonical_gregorian: {date: 653-01-01, precision: year, method: attested}
+    claims:
+      - source_key: bukhari_sahih
+        is_canonical: true
+        notes: Sahih al-Bukhari 3758 — hadith on "Take the Qur'an from four".
+      - source_key: ibn_sad_tabaqat
+    source_url: https://en.wikipedia.org/wiki/Abdullah_ibn_Mas%27ud
+    people: [[abdullah-ibn-masud, died]]
+    tags: [rashidun, sahabi, quran-reciter, madinah, kufa]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    hadith_refs: "Bukhari 3758, Muslim 2464"
+
+  - slug: death-of-abd-al-rahman-ibn-awf
+    category: rashidun
+    title_en: Death of 'Abd al-Rahman ibn 'Awf
+    title_ar: وفاة عبد الرحمن بن عوف
+    title_fr: Décès de ʿAbd al-Raḥmān ibn ʿAwf
+    description_en: |
+      One of the eight first believers and among the ten Companions (ra)
+      given glad tidings of Paradise. He was a merchant of Madinah whose
+      trading caravans were so celebrated that, upon one arrival, Aisha
+      (ra) heard the sound and asked if it were an earthquake. He gave
+      enormous wealth in charity during his lifetime, and bequeathed
+      much more at death. Member of Caliph 'Umar's (ra) shura council.
+      Died in Madinah and is buried in the Baqi'.
+    description_ar: |
+      من السابقين الأوّلين الثمانية إلى الإسلام، ومن العشرة المبشّرين
+      بالجنة من الصحابة (ra). كان تاجراً بالمدينة اشتهرت قوافله، حتى إنّ
+      عائشة (ra) سمعت ذات يومٍ صوتها فسألت: أهي رجفةٌ؟ تصدّق في حياته
+      بأموال طائلة، وأوصى عند وفاته بأكثر منها. وكان من أصحاب الشورى
+      الذين عيّنهم عمر (ra). توفي بالمدينة ودُفن بالبقيع.
+    description_fr: |
+      L'un des huit premiers croyants et parmi les dix Compagnons (ra)
+      à qui le Paradis fut annoncé. Il fut un marchand de Médine dont
+      les caravanes commerciales étaient si célèbres que, à l'arrivée
+      de l'une d'elles, ʿĀʾisha (ra) entendit le bruit et demanda s'il
+      s'agissait d'un tremblement de terre. Il donna en aumône
+      d'énormes richesses de son vivant, et en légua bien davantage à
+      sa mort. Membre du conseil de la shūrā du calife ʿUmar (ra).
+      Décédé à Médine et inhumé à al-Baqīʿ.
+    canonical_hijri: {year: 32, precision: year}
+    canonical_gregorian: {date: 652-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    source_url: https://en.wikipedia.org/wiki/Abd_al-Rahman_ibn_Awf
+    people: [[abd-al-rahman-ibn-awf, died]]
+    tags: [rashidun, sahabi, madinah, baqi, ten-mubashara, merchant]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-muadh-ibn-jabal
+    category: rashidun
+    title_en: Death of Mu'adh ibn Jabal in the Plague of Amwas
+    title_ar: وفاة معاذ بن جبل في طاعون عمواس
+    title_fr: Décès de Muʿādh ibn Jabal dans la peste d'ʿAmwās
+    description_en: |
+      One of the four Companions (ra) to whom the Prophet ﷺ directed the
+      learning of the Qur'an. The Prophet ﷺ said of him: "The most
+      knowledgeable of my Umma in halal and haram is Mu'adh ibn Jabal."
+      Sent to Yemen as judge and teacher by the Prophet ﷺ, he returned
+      during Abu Bakr's (ra) caliphate, then served under 'Umar (ra) in
+      Syria, where he died of the plague at about 33.
+    description_ar: |
+      أحد الأربعة الذين أمر النبي ﷺ بأخذ القرآن عنهم من الصحابة (ra). قال
+      فيه النبي ﷺ: "أعلمُ أمّتي بالحلال والحرام معاذ بن جبل". بعثه النبي ﷺ
+      إلى اليمن قاضياً ومعلِّماً، فعاد في خلافة أبي بكر (ra)، ثم سار إلى
+      الشام في خلافة عمر (ra)، فمات هناك بالطاعون وهو في الثالثة والثلاثين
+      من عمره.
+    description_fr: |
+      L'un des quatre Compagnons (ra) à qui le Prophète ﷺ ordonna
+      d'apprendre le Coran. Le Prophète ﷺ dit de lui : "Le plus savant
+      de ma Umma en matière de licite et d'illicite est Muʿādh ibn
+      Jabal." Envoyé au Yémen par le Prophète ﷺ comme juge et
+      enseignant, il revint sous le califat d'Abū Bakr (ra), puis servit
+      sous ʿUmar (ra) en Syrie, où il mourut de la peste à environ
+      trente-trois ans.
+    canonical_hijri: {year: 18, precision: year}
+    canonical_gregorian: {date: 639-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    source_url: https://en.wikipedia.org/wiki/Mu%27adh_ibn_Jabal
+    people: [[muadh-ibn-jabal, died]]
+    tags: [rashidun, sahabi, amwas-plague, syria, yemen]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-abu-ubayda
+    category: rashidun
+    title_en: Death of Abu 'Ubayda ibn al-Jarrah — Amin al-Umma
+    title_ar: وفاة أبي عبيدة بن الجراح
+    title_fr: Décès d'Abū ʿUbayda ibn al-Jarrāḥ — Amīn al-Umma
+    description_en: |
+      Commander of the Muslim forces in Syria after the recall of Khalid
+      ibn al-Walid (ra), conqueror of much of the Levant. The Prophet ﷺ
+      had titled him "the Trustee of this Umma" (Amin al-Umma). He also
+      died in the plague of Amwas alongside Mu'adh ibn Jabal (ra) and
+      others. He was among the ten given glad tidings of Paradise.
+    description_ar: |
+      قائد الجيش الإسلامي بالشام بعد عزل خالد بن الوليد (ra)، وفاتح كثيرٍ
+      من أرض الشام. لقّبه النبي ﷺ بـ"أمين هذه الأمّة". توفي بطاعون عمواس
+      مع معاذ بن جبل (ra) وغيره من الصحابة (ra). وهو من العشرة المبشّرين
+      بالجنة.
+    description_fr: |
+      Commandant des forces musulmanes en Syrie après le rappel de
+      Khālid ibn al-Walīd (ra), conquérant d'une grande partie du
+      Levant. Le Prophète ﷺ l'avait surnommé "le Dépositaire de cette
+      Umma" (Amīn al-Umma). Il mourut lui aussi lors de la peste
+      d'ʿAmwās, aux côtés de Muʿādh ibn Jabal (ra) et d'autres
+      Compagnons. Il fait partie des dix à qui le Paradis fut annoncé.
+    canonical_hijri: {year: 18, precision: year}
+    canonical_gregorian: {date: 639-02-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    source_url: https://en.wikipedia.org/wiki/Abu_Ubaidah_ibn_al-Jarrah
+    people: [[abu-ubayda-ibn-al-jarrah, died]]
+    tags: [rashidun, sahabi, amwas-plague, syria, ten-mubashara]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-bilal
+    category: rashidun
+    title_en: Death of Bilal ibn Rabah — Muezzin of the Prophet ﷺ
+    title_ar: وفاة بلال بن رباح
+    title_fr: Décès de Bilāl ibn Rabāḥ — muezzin du Prophète ﷺ
+    description_en: |
+      The Abyssinian freedman and first muezzin of Islam, whose call to
+      prayer from the roof of the Ka'ba on the day of the Conquest of
+      Makkah was a watershed moment — a former slave summoning the
+      community of Quraysh to prayer. After the Prophet's ﷺ death he
+      refused to give the adhan, except once in Madinah for 'Umar's (ra)
+      visit — the entire city wept. He died in Damascus around 20 AH.
+    description_ar: |
+      المولى الحبشي وأوّل مؤذّن في الإسلام (ra)، الذي جعل أذانَه فوق سطح
+      الكعبة يومَ فتح مكة لحظةً مفصلية — عبدٌ مُعتَق ينادي قريشاً إلى
+      الصلاة. وبعد وفاة النبي ﷺ امتنع عن الأذان، إلا مرّةً واحدة بالمدينة
+      حين زارها عمر (ra)، فبكت المدينة بأسرها. توفي بدمشق نحو سنة عشرين
+      للهجرة.
+    description_fr: |
+      L'affranchi abyssinien et premier muezzin de l'Islam (ra), dont
+      l'appel à la prière depuis le toit de la Kaʿba le jour de la
+      Conquête de La Mecque fut un moment décisif — un ancien esclave
+      convoquant la communauté de Quraysh à la prière. Après la mort
+      du Prophète ﷺ, il refusa de donner l'adhān, à l'exception d'une
+      seule fois à Médine lors de la visite de ʿUmar (ra) — la ville
+      entière pleura. Il mourut à Damas vers l'an 20 de l'Hégire.
+    canonical_hijri: {year: 20, precision: year}
+    canonical_gregorian: {date: 640-08-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+        notes: "Year of death disputed in classical sources (17, 18, 20, or 21 AH per al-Suyuti); 20 AH retained as the most commonly cited."
+    source_url: https://en.wikipedia.org/wiki/Bilal_ibn_Rabah
+    people: [[bilal-ibn-rabah, died]]
+    tags: [rashidun, sahabi, muezzin, damascus, former-slave]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-hassan-ibn-thabit
+    category: umayyad
+    title_en: Death of Hassan ibn Thabit — Poet of the Prophet ﷺ
+    title_ar: وفاة حسان بن ثابت
+    title_fr: Décès de Ḥassān ibn Thābit — poète du Prophète ﷺ
+    description_en: |
+      The Ansari poet (ra) whose verses defended the Prophet ﷺ against
+      the satires of the Quraysh — the Prophet ﷺ had a minbar erected
+      in the mosque for him to compose from. He was the poet laureate
+      of early Madinah. Died in Madinah at an advanced age — one of
+      four men in Islamic history traditionally said to have lived 60
+      years of jahiliyya and 60 of Islam.
+    description_ar: |
+      الشاعر الأنصاري (ra) الذي ذاد بشعره عن النبي ﷺ في وجه هجاء قريش —
+      نصب له النبي ﷺ منبراً في المسجد لينظم منه شعره. كان شاعرَ المدينة
+      المُجَلَّى في صدر الإسلام. توفي بالمدينة في سنٍّ متقدّمة — وهو من
+      أربعةٍ في تاريخ الإسلام يُقال تقليدياً إنّ كلاًّ منهم عاش ستين سنة
+      في الجاهلية وستين في الإسلام.
+      
+      Sources record his death between 50 and 54 AH; we follow Ibn Ḥajar's *Iṣāba* and Ibn Saʿd's *Ṭabaqāt* with 54 AH as the dominant classical position.
+      
+      ذكرت المصادر وفاته بين سنتي ٥٠ و٥٤ هـ؛ ونتبع هنا «الإصابة» لابن حجر و«الطبقات» لابن سعد بسنة ٥٤ هـ بوصفها الأرجح في التراث.
+    description_fr: |
+      Le poète ansarite (ra) dont les vers défendirent le Prophète ﷺ
+      contre les satires de Quraysh — le Prophète ﷺ fit dresser pour
+      lui un minbar dans la mosquée pour qu'il y compose. Il fut le
+      poète attitré de la Médine des origines. Décédé à Médine à un âge
+      avancé — l'un des quatre hommes de l'histoire islamique dont la
+      tradition dit qu'ils vécurent soixante années dans la jāhiliyya
+      et soixante en Islam.
+    canonical_hijri: {year: 54, precision: year}
+    canonical_gregorian: {date: 674-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+        notes: "Year of death disputed: classical sources record dates ranging from 40 AH (during Caliphate of Ali ra) to 54 AH (during Caliphate of Mu'awiya ra). Ibn Sa'd's Tabaqat retains 54 AH."
+      - source_key: dhahabi_siyar
+        notes: "Alternative tradition places death between 35-40 AH during the Caliphate of Ali (ra)."
+    source_url: https://en.wikipedia.org/wiki/Hassan_ibn_Thabit
+    people: [[hassan-ibn-thabit, died]]
+    tags: [umayyad, sahabi, poet, madinah]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+
+  - slug: death-of-salman-al-farisi
+    category: rashidun
+    title_en: Death of Salman al-Farisi
+    title_ar: وفاة سلمان الفارسي
+    title_fr: Décès de Salmān al-Fārisī
+    description_en: |
+      The Persian companion (ra) whose long search for the prophesied
+      last prophet led him from Zoroastrianism through several Christian
+      communities to Madinah — his journey of faith is one of the most
+      storied conversion narratives in the Sira. He proposed the digging
+      of the Trench at the siege of Madinah (5 AH) — a Persian military
+      technique the Arabs had not used. The Prophet ﷺ said of him:
+      "Salman is from us, the People of the House." He served as
+      governor of al-Mada'in (former Sasanian capital) and died there,
+      living ascetically.
+    description_ar: |
+      الصحابي الفارسي (ra) الذي قاده بحثُه الطويل عن النبي الموعود من
+      المجوسية مروراً بعدّة جماعات مسيحية إلى المدينة — ومسيرة إيمانه من
+      أبرز قصص الإسلام في السيرة. أشار بحفر الخندق في غزوة الأحزاب سنة 5 هـ —
+      وهو أسلوبٌ عسكري فارسي لم يكن العرب يعرفونه. قال فيه النبي ﷺ: "سلمان
+      منّا أهلَ البيت". وُلّي إمارة المدائن (عاصمة الساسانيين السابقة)
+      وتوفي بها زاهداً.
+    description_fr: |
+      Le Compagnon persan (ra) dont la longue quête du dernier prophète
+      annoncé le mena du zoroastrisme à Médine en passant par plusieurs
+      communautés chrétiennes — son parcours de foi est l'un des récits
+      de conversion les plus célèbres de la Sīra. Il proposa de creuser
+      la Tranchée lors du siège de Médine (5 H) — une technique militaire
+      perse que les Arabes n'avaient pas employée. Le Prophète ﷺ dit de
+      lui : "Salmān est des nôtres, les Gens de la Maison." Il fut
+      gouverneur d'al-Madāʾin (ancienne capitale sassanide) et y mourut,
+      menant une vie ascétique.
+    canonical_hijri: {year: 35, precision: year}
+    canonical_gregorian: {date: 656-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_sad_tabaqat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+        notes: "Year of death given variously as 32-36 AH in classical sources; 35 AH (during Caliphate of Uthman ra) is the most commonly cited."
+    source_url: https://en.wikipedia.org/wiki/Salman_the_Persian
+    people: [[salman-al-farisi, died]]
+    tags: [rashidun, sahabi, persia, mada'in]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

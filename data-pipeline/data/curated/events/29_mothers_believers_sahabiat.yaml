@@ -1,0 +1,908 @@
+# Wave 16 of curated event additions (2026-04-26).
+# Mothers of the Believers (uncovered): Sawda, Umm Habiba, Maymouna,
+# Juwayriya, Safiyya. Plus 10 senior sahabiat: Asma bint ʿUmays,
+# Umm Maʿbad, Umm al-Faḍl, Umm Ḥakim, Umm Waraqa, Khawla bint Thaʿlaba,
+# al-Shifaʾ bint ʿAbdullah, Asmaʾ bint Yazid, Umm Ayman, Umm Ḥaram.
+# All female sahaba — image_blocked. Each event attested in Ibn Saʿd
+# Ṭabaqāt al-Kubrā, Ibn Ḥajar al-Iṣāba, al-Dhahabī Siyar, or Ibn
+# al-Athīr Usd al-Ghāba. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # MOTHERS OF THE BELIEVERS (REMAINING FIVE)
+  # =========================================================================
+
+  - slug: death-of-sawda-bint-zama
+    category: ahl_al_bayt
+    title_en: Death of Sawda bint Zamʿa ra — Mother of the Believers
+    title_ar: وفاة سودة بنت زمعة رضي الله عنها — أم المؤمنين
+    title_fr: Mort de Sawda bint Zamʿa ra — Mère des Croyants
+    description_en: |
+      Sawda bint Zamʿa al-Qurashiyya — the second wife of the
+      Prophet ﷺ after the death of Khadīja ra, an early convert
+      to Islam, and the first woman the Prophet ﷺ married after
+      his bereavement during the Year of Sorrow (10th year of the
+      mission) — died in Medina during the caliphate of Muʿawiya
+      ra at age about 80. She was the senior of the wives in age
+      and reportedly relinquished her night with the Prophet ﷺ to
+      ʿAʾisha ra in her later years, an act preserved as an
+      example of selflessness in classical biographical literature.
+      She narrated five hadith preserved in the Six Books and was
+      celebrated for her generosity, distributing what came to her
+      from the public treasury under ʿUmar ra to the poor of
+      Medina the same day she received it.
+    description_ar: |
+      توفيت سودة بنت زمعة القرشية رضي الله عنها — الزوجة الثانية
+      للنبي ﷺ بعد وفاة خديجة رضي الله عنها، ومن أوائل المسلمات،
+      وأول من تزوجها رسول الله ﷺ بعد وفاة خديجة في عام الحزن
+      (السنة العاشرة من البعثة) — بالمدينة المنورة في خلافة معاوية
+      رضي الله عنه عن نحو ثمانين سنة. كانت أكبر أزواج النبي ﷺ سناً،
+      ونقل عنها أنها وهبت يومها للنبي ﷺ لعائشة رضي الله عنها في
+      أواخر عمرها، وهي حادثة محفوظة في كتب التراجم نموذجاً للإيثار.
+      روت خمسة أحاديث في الكتب الستة، واشتهرت بالكرم: فكانت إذا
+      جاءها عطاء من بيت المال في عهد عمر رضي الله عنه فرّقته على
+      فقراء المدينة في يومه.
+    description_fr: |
+      Sawda bint Zamʿa al-Qurashiyya — seconde épouse du Prophète ﷺ
+      après le décès de Khadīja ra, convertie précoce à l'Islam, et
+      la première femme que le Prophète ﷺ épousa après son deuil
+      durant l'Année de Tristesse (10e année de la mission) —
+      mourut à Médine durant le califat de Muʿāwiya ra à l'âge
+      d'environ 80 ans. Elle était la plus âgée des épouses, et
+      l'on rapporte qu'elle céda son tour au Prophète ﷺ à ʿĀʾisha
+      ra dans ses dernières années — acte préservé comme exemple
+      d'abnégation dans la littérature biographique classique. Elle
+      rapporta cinq hadiths préservés dans les Six Livres et fut
+      célébrée pour sa générosité : elle distribuait aux pauvres de
+      Médine le jour même ce qui lui parvenait du trésor public
+      sous ʿUmar ra.
+    canonical_hijri: {year: 54, precision: year}
+    canonical_gregorian: {date: 674-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[sawda-bint-zama, subject], [muhammad, subject]]
+    tags: [ahl-al-bayt, mothers-of-believers, sahabia, medina, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sawda_bint_Zam%CA%BFa"
+
+  - slug: death-of-umm-habiba
+    category: ahl_al_bayt
+    title_en: Death of Umm Ḥabiba ra — Mother of the Believers
+    title_ar: وفاة أم حبيبة رضي الله عنها — أم المؤمنين
+    title_fr: Mort d'Umm Ḥabiba ra — Mère des Croyants
+    description_en: |
+      Ramla bint Abi Sufyan, known as Umm Ḥabiba — daughter of Abu
+      Sufyan ibn Ḥarb (chief of Quraysh prior to the conquest of
+      Mecca) and an early convert to Islam who emigrated to
+      Abyssinia with her first husband ʿUbayd Allah ibn Jaḥsh — died
+      in Medina at age about 70. After her first husband apostatised
+      to Christianity in Abyssinia and died there, the Negus of
+      Abyssinia conducted her marriage to the Prophet ﷺ on his
+      behalf, with a *mahr* of 400 *dinars* personally provided by
+      the Negus — a marriage of substantial diplomatic significance
+      that bound the lineage of Abu Sufyan into the Prophet's ﷺ
+      household. She narrated 65 hadith preserved in the Six Books.
+      ʿAʾisha ra and Umm Salama ra both attended her deathbed at
+      her own request to seek mutual forgiveness for any past
+      tensions between the wives.
+    description_ar: |
+      توفيت رملة بنت أبي سفيان المعروفة بأم حبيبة رضي الله عنها —
+      ابنة أبي سفيان بن حرب (سيد قريش قبل فتح مكة)، ومن أوائل
+      المسلمات، هاجرت إلى الحبشة مع زوجها الأول عبيد الله بن جحش —
+      بالمدينة المنورة عن نحو سبعين سنة. وبعد ارتداد زوجها الأول إلى
+      النصرانية بالحبشة وموته فيها، تولى النجاشي ملك الحبشة عقد
+      نكاحها على رسول الله ﷺ بالنيابة، بصداق أربع مئة دينار دفعها
+      النجاشي بنفسه — وهو زواج ذو دلالة دبلوماسية كبيرة ربط نسب أبي
+      سفيان بأهل بيت النبي ﷺ. روت خمسة وستين حديثاً في الكتب الستة.
+      وحضرت عائشة وأم سلمة رضي الله عنهما عند موتها بطلب منها
+      ليتسامحن في أي توتر سابق بين أمهات المؤمنين.
+    description_fr: |
+      Ramla bint Abī Sufyān, connue sous le nom d'Umm Ḥabiba —
+      fille d'Abū Sufyān ibn Ḥarb (chef de Quraysh avant la conquête
+      de La Mecque) et convertie précoce à l'Islam qui émigra en
+      Abyssinie avec son premier mari ʿUbayd Allāh ibn Jaḥsh —
+      mourut à Médine à l'âge d'environ 70 ans. Après que son
+      premier mari fut apostasié au christianisme en Abyssinie et y
+      fut décédé, le Négus d'Abyssinie conduisit son mariage avec
+      le Prophète ﷺ par procuration, avec un *mahr* de 400 *dinars*
+      personnellement fourni par le Négus — un mariage d'une
+      importance diplomatique substantielle qui lia la lignée
+      d'Abū Sufyān à la maisonnée du Prophète ﷺ. Elle rapporta
+      65 hadiths préservés dans les Six Livres. ʿĀʾisha ra et Umm
+      Salama ra assistèrent toutes deux à son lit de mort à sa
+      propre demande pour solliciter un pardon mutuel pour toute
+      tension passée entre les épouses.
+    canonical_hijri: {year: 44, precision: year}
+    canonical_gregorian: {date: 665-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[umm-habiba, subject], [muhammad, subject]]
+    tags: [ahl-al-bayt, mothers-of-believers, sahabia, abyssinia, medina, abu-sufyan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Umm_Habiba"
+
+  - slug: death-of-maymouna-bint-al-harith
+    category: ahl_al_bayt
+    title_en: Death of Maymouna bint al-Ḥarith ra — Last Mother of the Believers to Die
+    title_ar: وفاة ميمونة بنت الحارث رضي الله عنها — آخر أمهات المؤمنين وفاةً
+    title_fr: Mort de Maymouna bint al-Ḥārith ra — dernière des Mères des Croyants à mourir
+    description_en: |
+      Maymouna bint al-Ḥarith al-Hilāliyya — last wife of the
+      Prophet ﷺ to be married (in 7 AH at Sarif during the
+      ʿUmratu al-Qaḍāʾ pilgrimage), aunt of Khalid ibn al-Walīd ra
+      and Ibn ʿAbbās ra (both her sister's sons), and the last of
+      the Mothers of the Believers to die — passed away at Sarif
+      (where she had been married) and was buried there at her own
+      request, at age about 80. She narrated 76 hadiths preserved
+      in the Six Books, several foundational on ritual purity and
+      the Prophet's ﷺ private daily practice. ʿAʾisha ra said of
+      her: "By Allah, of all of us she had the most fear of Allah
+      and the strongest ties with the womb." Her grave at Sarif on
+      the Mecca-Medina road remained a recognised pilgrimage site
+      into the Mamluk era.
+    description_ar: |
+      توفيت ميمونة بنت الحارث الهلالية رضي الله عنها — آخر زوجات
+      النبي ﷺ نكاحاً (تزوجها في «سرف» سنة سبع للهجرة في عمرة
+      القضاء)، وخالة خالد بن الوليد وعبد الله بن عباس رضي الله
+      عنهما (كلاهما ابنا أختها)، وآخر أمهات المؤمنين وفاةً — في
+      «سرف» (موضع نكاحها)، ودفنت بها بوصية منها، وقد ناهزت الثمانين.
+      روت ستة وسبعين حديثاً في الكتب الستة، منها أحاديث أصول في
+      الطهارة وفي الهدي اليومي للنبي ﷺ في خاصة بيته. قالت عنها
+      عائشة رضي الله عنها: «والله إنها كانت من أتقانا لله وأوصلنا
+      للرحم». وظل قبرها بـ«سرف» على طريق مكة-المدينة مزاراً متعارفاً
+      عليه إلى عصر المماليك.
+    description_fr: |
+      Maymouna bint al-Ḥārith al-Hilāliyya — dernière épouse du
+      Prophète ﷺ à être épousée (en 7 H à Sarif durant le
+      pèlerinage de l'ʿUmratu al-Qaḍāʾ), tante de Khālid ibn al-
+      Walīd ra et d'Ibn ʿAbbās ra (tous deux fils de sa sœur), et
+      la dernière des Mères des Croyants à mourir — décéda à Sarif
+      (où elle avait été épousée) et y fut enterrée selon ses
+      propres volontés, à l'âge d'environ 80 ans. Elle rapporta
+      76 hadiths préservés dans les Six Livres, plusieurs fondateurs
+      sur la pureté rituelle et la pratique quotidienne privée du
+      Prophète ﷺ. ʿĀʾisha ra dit d'elle : « Par Allah, de nous
+      toutes elle avait le plus de crainte d'Allah et les liens
+      les plus forts avec la parenté ». Sa tombe à Sarif sur la
+      route La Mecque-Médine demeura un site de pèlerinage reconnu
+      jusqu'à l'ère mamelouke.
+    canonical_hijri: {year: 51, precision: year}
+    canonical_gregorian: {date: 671-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[maymouna-bint-al-harith, subject], [muhammad, subject]]
+    tags: [ahl-al-bayt, mothers-of-believers, sahabia, sarif, mecca, hijaz]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Maymunah_bint_al-Harith"
+
+  - slug: death-of-juwayriya-bint-al-harith
+    category: ahl_al_bayt
+    title_en: Death of Juwayriya bint al-Ḥārith ra — Mother of the Believers
+    title_ar: وفاة جويرية بنت الحارث رضي الله عنها — أم المؤمنين
+    title_fr: Mort de Juwayriya bint al-Ḥārith ra — Mère des Croyants
+    description_en: |
+      Juwayriya bint al-Ḥārith — daughter of the chief of the Banū
+      al-Muṣṭaliq tribe, captured along with her tribe at the Battle
+      of al-Muraysīʿ (5 AH) and freed when the Prophet ﷺ paid her
+      ransom and married her — died in Medina. She was about 65.
+      ʿĀʾisha ra famously said: "I have never seen a woman more
+      blessed for her people than Juwayriya — when the Prophet ﷺ
+      married her, the Companions freed all the captives of Banū
+      al-Muṣṭaliq, refusing to keep slaves who were now in-laws of
+      the Prophet ﷺ." Approximately 100 households of the tribe
+      were liberated this way. Her change of name from Barra (the
+      righteous) to Juwayriya (the little maiden) was personally
+      ordered by the Prophet ﷺ to avoid implying righteousness in
+      one's own name.
+    description_ar: |
+      توفيت جويرية بنت الحارث رضي الله عنها — ابنة سيد بني المصطلق،
+      وقعت سبية بقومها في غزوة المريسيع سنة خمس للهجرة، وتحررت
+      حين أدى عنها رسول الله ﷺ كتابتها وتزوجها — بالمدينة المنورة
+      عن نحو خمس وستين سنة. قالت عائشة رضي الله عنها قولاً مشهوراً:
+      «ما رأيت امرأة أعظم بركة على قومها من جويرية — لما تزوجها
+      رسول الله ﷺ أعتق الصحابة سبي بني المصطلق كلهم، أنفة من إمساك
+      رقيق صار صهر رسول الله ﷺ». وحُرّر بهذا نحو مئة أسرة من تلك
+      القبيلة. وغيّر النبي ﷺ اسمها من «برة» إلى «جويرية» بنفسه
+      اتقاءً لتزكية النفس بالاسم.
+    description_fr: |
+      Juwayriya bint al-Ḥārith — fille du chef de la tribu des Banū
+      al-Muṣṭaliq, capturée avec sa tribu à la bataille d'al-
+      Muraysīʿ (5 H) et libérée lorsque le Prophète ﷺ paya sa
+      rançon et l'épousa — mourut à Médine. Elle avait environ
+      65 ans. ʿĀʾisha ra dit célèbrement : « je n'ai jamais vu de
+      femme plus bénie pour son peuple que Juwayriya — quand le
+      Prophète ﷺ l'épousa, les Compagnons libérèrent tous les
+      captifs des Banū al-Muṣṭaliq, refusant de garder des esclaves
+      désormais belle-famille du Prophète ﷺ ». Environ 100 foyers
+      de la tribu furent ainsi libérés. Le changement de son nom
+      de Barra (la juste) à Juwayriya (la jeune fille) fut
+      personnellement ordonné par le Prophète ﷺ pour éviter la
+      vantardise dans le nom propre.
+    canonical_hijri: {year: 56, precision: year}
+    canonical_gregorian: {date: 676-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[juwayriya-bint-al-harith, subject], [muhammad, subject]]
+    tags: [ahl-al-bayt, mothers-of-believers, sahabia, banu-mustaliq, medina]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Juwayriya_bint_al-Harith"
+
+  - slug: death-of-safiyya-bint-huyayy
+    category: ahl_al_bayt
+    title_en: Death of Ṣafiyya bint Ḥuyayy ra — Mother of the Believers
+    title_ar: وفاة صفية بنت حيي رضي الله عنها — أم المؤمنين
+    title_fr: Mort de Ṣafiyya bint Ḥuyayy ra — Mère des Croyants
+    description_en: |
+      Ṣafiyya bint Ḥuyayy — of Hebrew lineage descended from the
+      Prophet Hārūn (Aaron), daughter of the chief of Banū Naḍīr,
+      taken captive at the conquest of Khaybar (7 AH) and freed
+      and married by the Prophet ﷺ on the road back to Medina —
+      died in Medina at age about 60. The Prophet ﷺ made her
+      freedom her *mahr* — the rare juristic precedent the Hanafi
+      and Shafiʿi madhāhib later cite for permitting a woman's
+      manumission to be the consideration for her marriage. When
+      asked by ʿAʾisha ra how she felt being descended from the
+      Jewish prophets, Ṣafiyya replied: "My uncle is Mūsā, my
+      cousin is Hārūn, and my husband is Muḥammad — what nobler
+      house can a woman wish for?" She narrated 10 hadith
+      preserved in the Six Books.
+    description_ar: |
+      توفيت صفية بنت حيي رضي الله عنها — من نسل سبط النبي هارون
+      عليه السلام، ابنة سيد بني النضير، سُبيت في فتح خيبر سنة سبع
+      للهجرة، فأعتقها رسول الله ﷺ وتزوجها في طريق الرجوع إلى
+      المدينة — بالمدينة المنورة عن نحو ستين سنة. وجعل النبي ﷺ
+      عتقها صداقها — وهي السابقة الفقهية النادرة التي يستشهد بها
+      الحنفية والشافعية في صحة جعل العتق صداقاً للمرأة. ولما
+      عيّرتها عائشة رضي الله عنها يوماً بنسبها اليهودي، قالت لها
+      صفية: «خالي موسى وابن عمي هارون وزوجي محمد — فأي بيت أشرف من
+      هذا؟». روت عشرة أحاديث في الكتب الستة.
+      
+      Sources record her death between 36 and 50 AH; we follow al-Ṭabarī's *Tārīkh* and Ibn Saʿd's *Ṭabaqāt* with 50 AH as the dominant attestation, while a minority position (Ibn Ḥajar's *Iṣāba* citing earlier authorities) records 36 AH.
+      
+      ذكرت المصادر وفاتها بين سنتي ٣٦ و٥٠ هـ؛ ونتبع هنا تاريخ الطبري وطبقات ابن سعد بسنة ٥٠ هـ بوصفها الأكثر تواتراً، مع إيراد ابن حجر العسقلاني في «الإصابة» نقلاً عن متقدمين سنة ٣٦ هـ بوصفها قولاً أقل.
+    description_fr: |
+      Ṣafiyya bint Ḥuyayy — de lignée hébraïque descendante du
+      prophète Hārūn (Aaron), fille du chef des Banū Naḍīr, prise
+      captive à la conquête de Khaybar (7 H) et libérée puis
+      épousée par le Prophète ﷺ sur la route du retour vers Médine
+      — mourut à Médine à l'âge d'environ 60 ans. Le Prophète ﷺ
+      fit de sa libération son *mahr* — précédent juridique rare
+      que les madhāhib hanafite et shafiʿite citeraient plus tard
+      pour permettre que l'affranchissement d'une femme soit la
+      contrepartie de son mariage. Lorsqu'ʿĀʾisha ra lui demanda
+      ce qu'elle ressentait à descendre des prophètes juifs,
+      Ṣafiyya répondit : « mon oncle est Mūsā, mon cousin est
+      Hārūn, et mon mari est Muḥammad — quelle maison plus noble
+      une femme peut-elle souhaiter ? » Elle rapporta 10 hadiths
+      préservés dans les Six Livres.
+    canonical_hijri: {year: 50, precision: year}
+    canonical_gregorian: {date: 670-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[safiyya-bint-huyayy, subject], [muhammad, subject]]
+    tags: [ahl-al-bayt, mothers-of-believers, sahabia, khaybar, banu-nadir]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Safiyya_bint_Huyayy"
+
+  # =========================================================================
+  # SENIOR SAHABIAT
+  # =========================================================================
+
+  - slug: death-of-asma-bint-umays
+    category: companion
+    title_en: Death of Asmaʾ bint ʿUmays ra
+    title_ar: وفاة أسماء بنت عميس رضي الله عنها
+    title_fr: Mort d'Asmāʾ bint ʿUmays ra
+    description_en: |
+      Asmaʾ bint ʿUmays al-Khathʿamiyya — sahabia of the first
+      Hijra to Abyssinia (with her first husband Jaʿfar ibn Abi
+      Ṭalib, the Prophet's ﷺ cousin), then wife of Abu Bakr ra
+      after Jaʿfar's martyrdom at Muʾta, then wife of ʿAli ibn
+      Abi Ṭalib ra after Abu Bakr's death — was the only woman in
+      Islamic history married successively to three Companions of
+      the highest rank. She bore Muhammad ibn Abi Bakr, Muhammad
+      ibn Jaʿfar, and ʿAwn ibn Jaʿfar, among others. She washed
+      Abu Bakr's body for burial at his own bequest. She narrated
+      60 hadith in the Six Books, several foundational on the
+      legal practice of mourning and the duty of widows. She died
+      in Medina around 40 AH.
+    description_ar: |
+      توفيت أسماء بنت عميس الخثعمية رضي الله عنها — صحابية مهاجرة
+      في الهجرة الأولى إلى الحبشة (مع زوجها الأول جعفر بن أبي طالب
+      ابن عم النبي ﷺ)، ثم زوجة أبي بكر الصديق رضي الله عنه بعد
+      استشهاد جعفر بمؤتة، ثم زوجة علي بن أبي طالب رضي الله عنه بعد
+      وفاة أبي بكر — وهي المرأة الوحيدة في تاريخ الإسلام التي
+      تزوجها على التتابع ثلاثة من كبار الصحابة. أنجبت محمد بن أبي
+      بكر ومحمد بن جعفر وعون بن جعفر وغيرهم. وغسّلت أبا بكر بوصية
+      منه. روت ستين حديثاً في الكتب الستة، منها أحاديث أصول في فقه
+      العدة وحقوق الأرامل. توفيت بالمدينة المنورة نحو سنة أربعين
+      للهجرة.
+    description_fr: |
+      Asmāʾ bint ʿUmays al-Khathʿamiyya — sahabia de la première
+      Hijra en Abyssinie (avec son premier mari Jaʿfar ibn Abī
+      Ṭālib, cousin du Prophète ﷺ), puis épouse d'Abū Bakr ra
+      après le martyre de Jaʿfar à Muʾta, puis épouse d'ʿAlī ibn
+      Abī Ṭālib ra après la mort d'Abū Bakr — fut la seule femme
+      de l'histoire islamique mariée successivement à trois
+      Compagnons du plus haut rang. Elle enfanta Muḥammad ibn Abī
+      Bakr, Muḥammad ibn Jaʿfar et ʿAwn ibn Jaʿfar, entre autres.
+      Elle lava le corps d'Abū Bakr pour son ensevelissement à
+      sa propre demande. Elle rapporta 60 hadiths dans les Six
+      Livres, plusieurs fondateurs sur la pratique juridique du
+      deuil et le devoir des veuves. Elle mourut à Médine vers
+      40 H.
+    canonical_hijri: {year: 40, precision: year}
+    canonical_gregorian: {date: 660-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+    people: [[asma-bint-umays, subject], [jafar-ibn-abi-talib, subject], [abu-bakr-as-siddiq, subject], [ali-ibn-abi-talib, subject]]
+    tags: [sahabia, abyssinia, hijra, medina, women, ahl-al-bayt-related]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Asma_bint_Umais"
+
+  - slug: death-of-umm-mabad
+    category: companion
+    title_en: Death of Umm Maʿbad al-Khuzaʿiyya ra — Witness of the Hijra
+    title_ar: وفاة أم معبد الخزاعية رضي الله عنها — شاهدة الهجرة
+    title_fr: Mort d'Umm Maʿbad al-Khuzaʿiyya ra — témoin de la Hijra
+    description_en: |
+      Umm Maʿbad ʿĀtika bint Khalid al-Khuzaʿiyya — bedouin sahabia
+      whose tent the Prophet ﷺ and Abu Bakr ra passed during their
+      Hijra from Mecca to Medina, and whose famous physical
+      description of the Prophet ﷺ (preserved in al-Ḥākim's
+      *Mustadrak* and Ibn Saʿd) is the most detailed and most
+      cited classical-source description of the Prophet's ﷺ
+      appearance: "I saw a man clear of complexion, beautiful of
+      face, fine of build, neither stout nor lean, with bright
+      eyes and long lashes..." — running for several lines. She
+      embraced Islam after the encounter and migrated to Medina
+      with her husband Abu Maʿbad. She died in Medina during the
+      caliphate of Muʿawiya ra.
+    description_ar: |
+      توفيت أم معبد عاتكة بنت خالد الخزاعية رضي الله عنها — صحابية
+      من البادية مرّ النبي ﷺ وأبو بكر الصديق رضي الله عنه بخيمتها
+      في طريق الهجرة من مكة إلى المدينة، وعنها وصف النبي ﷺ المشهور
+      المحفوظ في «مستدرك» الحاكم و«طبقات» ابن سعد، وهو أتم وصف
+      كلاسيكي وأكثره استشهاداً لخلق النبي ﷺ: «رأيت رجلاً ظاهر الوضاءة،
+      أبلج الوجه، حسن الخلق، لم تعبه ثُجلة ولم تزر به صعلة، وسيماً
+      قسيماً، في عينيه دعج، وفي أشفاره عطف، وفي صوته صَهَل، وفي
+      عنقه سَطَع، وفي لحيته كثاثة...» — في أبيات طويلة. وأسلمت
+      رحمها الله بعد اللقاء، وهاجرت إلى المدينة مع زوجها أبي معبد.
+      توفيت بالمدينة في خلافة معاوية رضي الله عنه.
+    description_fr: |
+      Umm Maʿbad ʿĀtika bint Khālid al-Khuzaʿiyya — sahabia bédouine
+      dont la tente fut traversée par le Prophète ﷺ et Abū Bakr ra
+      durant leur Hijra de La Mecque à Médine, et dont la célèbre
+      description physique du Prophète ﷺ (préservée dans le
+      *Mustadrak* d'al-Ḥākim et dans les *Ṭabaqāt* d'Ibn Saʿd) est
+      la description la plus détaillée et la plus citée des sources
+      classiques sur l'apparence du Prophète ﷺ : « j'ai vu un homme
+      au teint clair, beau de visage, à la stature fine, ni gros
+      ni maigre, aux yeux brillants et aux longs cils... » — sur
+      plusieurs lignes. Elle embrassa l'Islam après la rencontre
+      et émigra à Médine avec son mari Abū Maʿbad. Elle mourut à
+      Médine durant le califat de Muʿāwiya ra.
+    canonical_hijri: {year: 50, precision: year}
+    canonical_gregorian: {date: 670-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_kathir_bidaya
+    people: [[umm-mabad, subject], [muhammad, subject]]
+    tags: [sahabia, hijra, mecca-medina-road, prophetic-description, khuzaʿa]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Umm_Ma%27bad"
+
+  - slug: death-of-umm-al-fadl
+    category: companion
+    title_en: Death of Umm al-Faḍl Lubaba bint al-Ḥarith ra
+    title_ar: وفاة أم الفضل لبابة بنت الحارث رضي الله عنها
+    title_fr: Mort d'Umm al-Faḍl Lubāba bint al-Ḥārith ra
+    description_en: |
+      Umm al-Faḍl Lubāba al-Kubrā bint al-Ḥarith al-Hilāliyya —
+      wife of al-ʿAbbas ibn ʿAbd al-Muṭṭalib (the Prophet's ﷺ uncle)
+      and mother of ʿAbdullah ibn ʿAbbas ra (the foundational
+      mufassir), and reportedly the second woman in Islam to convert
+      after Khadīja ra — died in Medina during the caliphate of
+      ʿUthman ra. She narrated 30 hadith in the Six Books. She is
+      the Companion who reported the Prophet's ﷺ recitation of
+      Sūrat al-Mursalāt as the *witr* of the night before his death,
+      and the only woman directly attested in the classical sources
+      to have personally lifted her foot to strike Abu Lahab in
+      defence of a Muslim during the persecution at Mecca. Her
+      sister Maymouna became Mother of the Believers.
+    description_ar: |
+      توفيت أم الفضل لبابة الكبرى بنت الحارث الهلالية رضي الله عنها
+      — زوجة العباس بن عبد المطلب عم النبي ﷺ، وأم عبد الله بن عباس
+      رضي الله عنهما (الترجمان الأكبر للقرآن)، ويقال إنها ثانية من
+      أسلم من النساء بعد خديجة رضي الله عنها — بالمدينة المنورة في
+      خلافة عثمان رضي الله عنه. روت ثلاثين حديثاً في الكتب الستة.
+      وهي الصحابية التي روت قراءة النبي ﷺ سورة المرسلات في وتر
+      ليلته الأخيرة، والصحابية الوحيدة المنصوصة في المصادر القديمة
+      أنها رفعت قدمها لتضرب أبا لهب دفاعاً عن مسلم في عصر الاضطهاد
+      بمكة. وأختها ميمونة صارت من أمهات المؤمنين.
+    description_fr: |
+      Umm al-Faḍl Lubāba al-Kubrā bint al-Ḥārith al-Hilāliyya —
+      épouse d'al-ʿAbbās ibn ʿAbd al-Muṭṭalib (l'oncle du
+      Prophète ﷺ) et mère d'ʿAbdullāh ibn ʿAbbās ra (le mufassir
+      fondateur), et selon les sources la seconde femme à se
+      convertir à l'Islam après Khadīja ra — mourut à Médine durant
+      le califat d'ʿUthman ra. Elle rapporta 30 hadiths dans les
+      Six Livres. Elle est la Compagne qui rapporta la récitation
+      du Prophète ﷺ de la sourate al-Mursalāt en *witr* la nuit
+      avant sa mort, et la seule femme directement attestée dans
+      les sources classiques avoir personnellement levé le pied
+      pour frapper Abū Lahab en défense d'un musulman durant la
+      persécution à La Mecque. Sa sœur Maymouna devint Mère des
+      Croyants.
+    canonical_hijri: {year: 30, precision: year}
+    canonical_gregorian: {date: 651-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[umm-al-fadl, subject], [al-abbas-ibn-abd-al-muttalib, subject], [abdullah-ibn-abbas, subject]]
+    tags: [sahabia, banu-hashim, second-convert, medina, ibn-abbas-mother]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Lubaba_bint_al-Harith"
+
+  - slug: death-of-umm-hakim
+    category: companion
+    title_en: Death of Umm Ḥakim bint al-Ḥārith ra — Heroine of Marj al-Ṣuffar
+    title_ar: وفاة أم حكيم بنت الحارث رضي الله عنها — بطلة مرج الصفر
+    title_fr: Mort d'Umm Ḥakim bint al-Ḥārith ra — héroïne de Marj al-Ṣuffar
+    description_en: |
+      Umm Ḥakim bint al-Ḥarith al-Makhzūmiyya — niece of Khalid
+      ibn al-Walīd ra and daughter of one of Quraysh's chiefs at
+      Badr (her father al-Ḥarith ibn Hishām fell at Yarmuk later
+      as a Muslim) — embraced Islam at the Conquest of Mecca and
+      participated as a combatant at the Battle of Marj al-Ṣuffar
+      (13 AH), where her husband ʿIkrima ibn Abi Jahl was martyred
+      after his conversion. Classical sources record her killing
+      seven Byzantine soldiers single-handedly with a tent-pole at
+      Marj al-Ṣuffar after her husband's fall — the most-cited
+      classical account of a sahabia in direct combat. She
+      remarried after the battle to Khalid ibn Saʿid ibn al-ʿĀṣ,
+      who was also martyred shortly after. She died in Medina
+      around 13-14 AH.
+    description_ar: |
+      توفيت أم حكيم بنت الحارث المخزومية رضي الله عنها — ابنة أخت
+      خالد بن الوليد رضي الله عنه، وابنة أحد سادة قريش يوم بدر
+      (والدها الحارث بن هشام استشهد لاحقاً مسلماً يوم اليرموك) —
+      أسلمت يوم فتح مكة، وشاركت محاربةً في معركة مرج الصفر سنة
+      ١٣ هـ، حيث استشهد زوجها عكرمة بن أبي جهل بعد إسلامه. تذكر
+      المصادر القديمة أنها قتلت سبعة من جند الروم بنفسها بعمود
+      خيمة في مرج الصفر بعد سقوط زوجها — وهي أكثر روايات الصحابيات
+      في القتال المباشر استشهاداً. وتزوجت بعد المعركة خالد بن سعيد
+      بن العاص، فاستشهد هو الآخر بُعَيْدَ ذلك. توفيت بالمدينة نحو
+      سنة ١٣-١٤ هـ.
+    description_fr: |
+      Umm Ḥakim bint al-Ḥārith al-Makhzūmiyya — nièce de Khālid ibn
+      al-Walīd ra et fille de l'un des chefs de Quraysh à Badr
+      (son père al-Ḥārith ibn Hishām tomba plus tard à Yarmouk en
+      tant que musulman) — embrassa l'Islam à la Conquête de
+      La Mecque et participa comme combattante à la bataille de
+      Marj al-Ṣuffar (13 H), où son mari ʿIkrima ibn Abī Jahl fut
+      martyrisé après sa conversion. Les sources classiques
+      consignent qu'elle tua sept soldats byzantins à elle seule
+      avec un piquet de tente à Marj al-Ṣuffar après la chute de
+      son mari — le récit classique le plus cité d'une sahabia en
+      combat direct. Elle se remaria après la bataille avec
+      Khālid ibn Saʿīd ibn al-ʿĀṣ, qui fut également martyrisé
+      peu après. Elle mourut à Médine vers 13-14 H.
+    canonical_hijri: {year: 14, precision: year}
+    canonical_gregorian: {date: 635-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    people: [[umm-hakim, subject], [khalid-ibn-al-walid, subject]]
+    tags: [sahabia, marj-al-suffar, women-warriors, ikrima, makhzum]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Umm_Hakim"
+
+  - slug: death-of-umm-waraqa
+    category: companion
+    title_en: Martyrdom of Umm Waraqa bint ʿAbdullāh ra
+    title_ar: استشهاد أم ورقة بنت عبد الله رضي الله عنها
+    title_fr: Martyre d'Umm Waraqa bint ʿAbdallāh ra
+    description_en: |
+      Umm Waraqa bint ʿAbdullāh al-Anṣāriyya — early Madinan
+      sahabia, one of the few Companions to memorise the entire
+      Qurʾan during the Prophet's ﷺ lifetime, whom the Prophet ﷺ
+      personally appointed to lead her own household in prayer
+      (a precedent classical jurists cite for the permissibility of
+      a woman leading other women in prayer) — was killed in her
+      own home during the caliphate of ʿUmar ibn al-Khaṭṭāb ra by
+      her own male and female slaves. ʿUmar ra dispatched
+      investigators when she missed the dawn prayer at the Mosque,
+      who found her smothered in her bed; the slaves were caught
+      attempting to flee the city and were the first persons in
+      Islamic history executed under the *qiṣāṣ* law for the murder
+      of a free Muslim woman. The Prophet ﷺ used to call her "the
+      martyr" *(al-shahīda)* in his lifetime in anticipation of her
+      end.
+    description_ar: |
+      استشهدت أم ورقة بنت عبد الله الأنصارية رضي الله عنها —
+      صحابية مدنية باكرة، من القلة من الصحابة الذين حفظوا القرآن
+      كله في حياة النبي ﷺ، وممن أمرها النبي ﷺ بنفسه أن تؤم أهل
+      دارها في الصلاة (وهي السابقة التي يستشهد بها الفقهاء القدامى
+      في جواز إمامة المرأة للنساء) — قُتلت في دارها في خلافة عمر
+      بن الخطاب رضي الله عنه على يد عبدها وأمتها. أرسل عمر رضي
+      الله عنه من يتفقدها لما تأخرت عن صلاة الفجر في المسجد،
+      فوجدها مخنوقة في فراشها؛ أُسر العبدان وهما يحاولان الفرار
+      من المدينة، وكانا أول من نُفّذ فيهما حكم القصاص في الإسلام
+      على قتل حرة. وكان النبي ﷺ يدعوها في حياته «الشهيدة» تنبؤاً
+      بنهايتها.
+    description_fr: |
+      Umm Waraqa bint ʿAbdallāh al-Anṣāriyya — sahabia médinoise
+      ancienne, l'une des rares Compagnons à mémoriser le Coran
+      entier durant la vie du Prophète ﷺ, que le Prophète ﷺ
+      désigna personnellement pour diriger la prière dans sa propre
+      maisonnée (précédent que les juristes classiques citent pour
+      la permissibilité d'une femme dirigeant d'autres femmes en
+      prière) — fut tuée dans sa propre maison durant le califat
+      d'ʿUmar ibn al-Khaṭṭāb ra par ses propres esclaves homme et
+      femme. ʿUmar ra dépêcha des enquêteurs lorsqu'elle manqua la
+      prière de l'aube à la Mosquée, qui la trouvèrent étouffée
+      dans son lit; les esclaves furent capturés en tentant de
+      fuir la ville et furent les premiers à être exécutés dans
+      l'histoire islamique sous la loi du *qiṣāṣ* pour le meurtre
+      d'une femme musulmane libre. Le Prophète ﷺ avait l'habitude
+      de l'appeler « la martyre » *(al-shahīda)* de son vivant en
+      anticipation de sa fin.
+    canonical_hijri: {year: 14, precision: year}
+    canonical_gregorian: {date: 635-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[umm-waraqa, subject], [umar-ibn-al-khattab, subject]]
+    tags: [sahabia, ansar, hafiza-of-quran, martyr, medina, qisas]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Umm_Waraqa"
+
+  - slug: death-of-khawla-bint-thalaba
+    category: companion
+    title_en: Death of Khawla bint Thaʿlaba ra — Subject of Surat al-Mujadila
+    title_ar: وفاة خولة بنت ثعلبة رضي الله عنها — التي في شأنها سورة المجادلة
+    title_fr: Mort de Khawla bint Thaʿlaba ra — sujet de la sourate al-Mujādila
+    description_en: |
+      Khawla bint Thaʿlaba al-Khazrajiyya — Madinan sahabia of the
+      Khazraj, whose dispute (*mujādala*) with the Prophet ﷺ
+      regarding her husband Aws ibn al-Ṣāmit's pronouncement of
+      *ẓihār* (a pre-Islamic divorce-formula equating the wife to
+      the husband's mother) was directly addressed in the opening
+      verse of Sūrat al-Mujādila (Q 58:1): "Allah has heard the
+      words of she who pleads with you about her husband and
+      complains to Allah" — establishing the legal abrogation of
+      *ẓihār* and instituting expiation (*kaffāra*) for those who
+      had pronounced it. ʿUmar ra was once asked at the Caliph's
+      court when Khawla addressed him: "ʿUmar! I knew you when
+      you were called Umayr in the markets of ʿUkāẓ — fear Allah
+      in the affairs of the Muslims!" ʿUmar wept and gave her his
+      full attention. She died in Medina, year uncertain,
+      probably late ʿUthmān-era.
+    description_ar: |
+      توفيت خولة بنت ثعلبة الخزرجية رضي الله عنها — صحابية مدنية من
+      الخزرج، نزلت في شأن مجادلتها للنبي ﷺ بسبب ظهار زوجها أوس بن
+      الصامت (وهو طلاق جاهلي يجعل الزوجة كأم الزوج في التحريم)
+      أوّلَ آية من سورة المجادلة (الآية ١): ﴿قَدْ سَمِعَ اللَّهُ
+      قَوْلَ الَّتِي تُجَادِلُكَ فِي زَوْجِهَا وَتَشْتَكِي إِلَى
+      اللَّهِ﴾ — وفيها نسخ الظهار شرعاً ووضع كفّارته. وكلّمت عمر
+      رضي الله عنه يوماً في مجلس قضائه فقالت: «يا عمر! قد عهدتك
+      وأنت تدعى عُميراً في أسواق عكاظ — اتق الله في أمر المسلمين!»
+      فبكى عمر رضي الله عنه وأقبل عليها بكليته. توفيت رحمها الله
+      بالمدينة، والسنة غير محددة على الأرجح في أواخر خلافة عثمان
+      رضي الله عنه.
+      
+      Classical biographers (Ibn Saʿd, Ibn Ḥajar) record her death only as occurring during the latter Rashidun era without precise year; the 35 AH date used here is the modal estimate from Ibn Ḥajar's *Iṣāba* and is approximate rather than firmly attested.
+      
+      لم يحدد كبار المترجمين (ابن سعد وابن حجر) سنة وفاتها وإنما ذكروا أنها كانت في أواخر عهد الراشدين دون تحديد دقيق؛ فما اعتمدناه هنا (سنة ٣٥ هـ) تقريب بناء على «الإصابة» لابن حجر، وليس روايةً منصوصةً جازمةً.
+    description_fr: |
+      Khawla bint Thaʿlaba al-Khazrajiyya — sahabia médinoise de
+      la Khazraj, dont le différend (*mujādala*) avec le Prophète ﷺ
+      au sujet du prononcé de *ẓihār* par son mari Aws ibn al-
+      Ṣāmit (formule de divorce préislamique assimilant l'épouse à
+      la mère du mari) fut directement traité dans le verset
+      d'ouverture de la sourate al-Mujādila (Q 58:1) : « Allah a
+      entendu les paroles de celle qui plaide auprès de toi à
+      propos de son mari et se plaint à Allah » — établissant
+      l'abrogation juridique du *ẓihār* et instituant l'expiation
+      (*kaffāra*) pour ceux qui l'avaient prononcé. ʿUmar ra fut
+      un jour interpellé à la cour du calife lorsque Khawla
+      l'apostropha : « ʿUmar ! Je t'ai connu quand on t'appelait
+      Umayr dans les marchés d'ʿUkāẓ — crains Allah dans les
+      affaires des musulmans ! » ʿUmar pleura et lui accorda toute
+      son attention. Elle mourut à Médine, l'année est incertaine,
+      probablement vers la fin de l'ère d'ʿUthmān.
+    canonical_hijri: {year: 35, precision: year}
+    canonical_gregorian: {date: 656-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_kathir_bidaya
+    quran_refs: "58:1"
+    people: [[khawla-bint-thalaba, subject], [umar-ibn-al-khattab, subject]]
+    tags: [sahabia, ansar, mujadila, zihar, quranic-revelation, medina]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Khawla_bint_Tha%27labah"
+
+  - slug: death-of-al-shifa-bint-abdullah
+    category: companion
+    title_en: Death of al-Shifaʾ bint ʿAbdullāh ra — First Female Public Administrator
+    title_ar: وفاة الشفاء بنت عبد الله رضي الله عنها — أول والية في الإسلام
+    title_fr: Mort d'al-Shifāʾ bint ʿAbdallāh ra — première administratrice publique
+    description_en: |
+      al-Shifaʾ bint ʿAbdullāh al-ʿAdawiyya — early Quraysh sahabia
+      who could read and write before the rise of Islam (a rare
+      literacy at the time), personally taught Ḥafṣa bint ʿUmar ra
+      to read, and was appointed by ʿUmar ibn al-Khaṭṭāb ra as
+      *muḥtasiba* (market inspector) of Medina — the first woman
+      in Islamic history to hold a formal civic-administrative
+      post — died in Medina at age about 70. The classical
+      jurists from the Hanafi school onward cite her appointment
+      as a precedent for the permissibility of women holding the
+      *ḥisba* (market regulation) office. She narrated the famous
+      hadith on the *ruqya* (Islamic spiritual healing) in which
+      the Prophet ﷺ taught her a specific prayer for ant-bites that
+      she would later teach to Ḥafṣa.
+    description_ar: |
+      توفيت الشفاء بنت عبد الله العدوية رضي الله عنها — صحابية
+      قرشية باكرة، كانت تجيد القراءة والكتابة قبل ظهور الإسلام (وهي
+      من نوادر العلم في النساء يومئذ)، وعلّمت بنفسها حفصة بنت عمر
+      رضي الله عنها الكتابة، وولاها عمر بن الخطاب رضي الله عنه
+      حسبة سوق المدينة — وهي أول امرأة في تاريخ الإسلام تتولى
+      منصباً مدنياً رسمياً — بالمدينة المنورة عن نحو سبعين سنة.
+      ويستشهد فقهاء أهل السنة من الحنفية فما بعد بهذه الولاية في
+      جواز تولي المرأة الحسبة. روت الحديث الذائع في الرقية الذي
+      علّمها فيه النبي ﷺ دعاءً مخصوصاً للنملة (مرض جلدي) تعلّمته
+      منها حفصة لاحقاً.
+    description_fr: |
+      al-Shifāʾ bint ʿAbdallāh al-ʿAdawiyya — sahabia qurashite
+      ancienne qui savait lire et écrire avant l'avènement de
+      l'Islam (lettrement rare à l'époque), enseigna personnellement
+      à Ḥafṣa bint ʿUmar ra à lire, et fut désignée par ʿUmar ibn
+      al-Khaṭṭāb ra comme *muḥtasiba* (inspectrice de marché) de
+      Médine — la première femme de l'histoire islamique à occuper
+      un poste civique-administratif formel — mourut à Médine à
+      l'âge d'environ 70 ans. Les juristes classiques de l'école
+      hanafite et au-delà citent sa nomination comme précédent pour
+      la permissibilité aux femmes de tenir l'office de *ḥisba*
+      (régulation des marchés). Elle rapporta le célèbre hadith sur
+      la *ruqya* (guérison spirituelle islamique) où le Prophète ﷺ
+      lui enseigna une prière spécifique pour les piqûres de
+      fourmi qu'elle enseignerait plus tard à Ḥafṣa.
+    canonical_hijri: {year: 20, precision: year}
+    canonical_gregorian: {date: 641-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+    people: [[al-shifa-bint-abdullah, subject], [umar-ibn-al-khattab, subject], [hafsa-bint-umar, subject]]
+    tags: [sahabia, literate-woman, hisba, medina, women-leadership]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Shifa%27_bint_Abdullah"
+
+  - slug: death-of-asma-bint-yazid
+    category: companion
+    title_en: Death of Asmaʾ bint Yazid al-Anṣāriyya ra — Khaṭibat al-Nisāʾ
+    title_ar: وفاة أسماء بنت يزيد الأنصارية رضي الله عنها — خطيبة النساء
+    title_fr: Mort d'Asmāʾ bint Yazid al-Anṣāriyya ra — *Khaṭibat al-Nisāʾ*
+    description_en: |
+      Asmaʾ bint Yazid ibn al-Sakan al-Anṣāriyya — Madinan sahabia
+      of the Awsi clan whose famous public address to the Prophet ﷺ
+      on behalf of the women of Medina earned her the title
+      *Khaṭibat al-Nisāʾ* ("Orator of the Women"). She approached
+      the Prophet ﷺ in the company of female delegates and asked
+      whether women's worship received the same divine reward as
+      men's, given that men had additional opportunities (Friday
+      prayer in the mosque, jihād, etc.) — the Prophet ﷺ replied
+      affirmatively, in a celebrated hadith preserved in Aḥmad's
+      Musnad. She participated in the Battle of Yarmuk and is
+      reported to have killed nine Byzantine soldiers with her
+      tent-pole. She died in Damascus during the caliphate of
+      Yazīd ibn Muʿawiya, around 30 AH per Ibn Saʿd.
+    description_ar: |
+      توفيت أسماء بنت يزيد بن السكن الأنصارية الأوسية رضي الله عنها
+      — صحابية مدنية، خطبت بين يدي رسول الله ﷺ بأمر نساء المدينة
+      خطبة شهيرة استحقت بها لقب «خطيبة النساء». أتت رسول الله ﷺ في
+      وفد من النساء فقالت: «إن الرجال فضلوا علينا بشهود الجمع
+      والجماعات والجهاد ونحن النساء قاعدات في بيوتنا — هل لنا
+      نصيب من ثوابهم؟» فأقرّ النبي ﷺ مساواة الأجر، في حديث ذائع
+      محفوظ في «مسند» الإمام أحمد. وشاركت في معركة اليرموك، ويُروى
+      أنها قتلت تسعة من جند الروم بعمود خيمتها. توفيت بدمشق في
+      خلافة يزيد بن معاوية، نحو سنة ٣٠ هـ على ابن سعد.
+    description_fr: |
+      Asmāʾ bint Yazid ibn al-Sakan al-Anṣāriyya — sahabia médinoise
+      du clan Aws, dont la célèbre allocution publique au Prophète ﷺ
+      au nom des femmes de Médine lui valut le titre de *Khaṭibat
+      al-Nisāʾ* (« Oratrice des Femmes »). Elle s'approcha du
+      Prophète ﷺ en compagnie de déléguées et demanda si l'adoration
+      des femmes recevait la même récompense divine que celle des
+      hommes, étant donné que les hommes avaient des opportunités
+      supplémentaires (prière du vendredi à la mosquée, jihād,
+      etc.) — le Prophète ﷺ répondit affirmativement, dans un
+      célèbre hadith préservé dans le Musnad d'Aḥmad. Elle participa
+      à la bataille de Yarmouk et l'on rapporte qu'elle tua neuf
+      soldats byzantins avec son piquet de tente. Elle mourut à
+      Damas durant le califat de Yazīd ibn Muʿāwiya, vers 30 H
+      d'après Ibn Saʿd.
+    canonical_hijri: {year: 30, precision: year}
+    canonical_gregorian: {date: 650-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+    people: [[asma-bint-yazid, subject]]
+    tags: [sahabia, ansar, aws, oratory, yarmuk, women-warriors, damascus]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Asma_bint_Yazid"
+
+  - slug: death-of-umm-ayman
+    category: companion
+    title_en: Death of Umm Ayman ra — Nursemaid of the Prophet ﷺ
+    title_ar: وفاة أم أيمن رضي الله عنها — حاضنة رسول الله ﷺ
+    title_fr: Mort d'Umm Ayman ra — nourrice du Prophète ﷺ
+    description_en: |
+      Baraka — Umm Ayman al-Ḥabashiyya — Abyssinian-origin
+      freedwoman who was the Prophet's ﷺ nursemaid from his
+      childhood (after the death of his mother Āmina, when the
+      young Prophet ﷺ was returned to Mecca and Umm Ayman
+      accompanied him), who married Zayd ibn Ḥaritha (the
+      Prophet's ﷺ adoptive son) and bore him Usāma ibn Zayd ra —
+      died in Medina during the caliphate of ʿUmar ra. The
+      Prophet ﷺ called her *ummī* ("my mother") in his lifetime
+      and said of her: "she is from the people of Paradise"
+      (preserved in classical biographical sources). She wept
+      inconsolably at the Prophet's ﷺ death; when Abu Bakr ra
+      asked her why, she replied: "I weep because the news from
+      heaven has been cut off from us." She died around 20 AH.
+    description_ar: |
+      توفيت بركة — أم أيمن الحبشية رضي الله عنها — مولاة من أصول
+      حبشية، كانت حاضنة النبي ﷺ من صباه (بعد وفاة أمه آمنة، حين
+      أُعيد الصبي ﷺ إلى مكة فصحبته أم أيمن)، وتزوجت بزيد بن حارثة
+      (متبنّى النبي ﷺ) فأنجبت له أسامة بن زيد رضي الله عنهم —
+      بالمدينة المنورة في خلافة عمر رضي الله عنه. وكان النبي ﷺ
+      يدعوها «أمي» في حياته وقال فيها: «هي من أهل الجنة» (في
+      المصادر التراجمية القديمة). وبكت عند وفاته ﷺ بكاءً شديداً،
+      فلما سألها أبو بكر رضي الله عنه عن سبب بكائها قالت: «أبكي
+      لأن خبر السماء قد انقطع عنا». توفيت نحو سنة ٢٠ هـ.
+    description_fr: |
+      Baraka — Umm Ayman al-Ḥabashiyya — affranchie d'origine
+      abyssinienne qui fut la nourrice du Prophète ﷺ depuis son
+      enfance (après le décès de sa mère Āmina, lorsque le jeune
+      Prophète ﷺ fut ramené à La Mecque et qu'Umm Ayman
+      l'accompagna), qui épousa Zayd ibn Ḥāritha (le fils adoptif
+      du Prophète ﷺ) et lui donna Usāma ibn Zayd ra — mourut à
+      Médine durant le califat d'ʿUmar ra. Le Prophète ﷺ
+      l'appelait *ummī* (« ma mère ») de son vivant et dit d'elle :
+      « elle est des gens du Paradis » (préservé dans les sources
+      biographiques classiques). Elle pleura inconsolablement à la
+      mort du Prophète ﷺ; lorsqu'Abū Bakr ra lui demanda pourquoi,
+      elle répondit : « je pleure parce que les nouvelles du ciel
+      nous ont été coupées ». Elle mourut vers 20 H.
+    canonical_hijri: {year: 20, precision: year}
+    canonical_gregorian: {date: 641-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[umm-ayman, subject], [muhammad, subject]]
+    tags: [sahabia, abyssinian, nursemaid, mother-of-usama, medina]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Barakah"
+
+  - slug: death-of-umm-haram
+    category: companion
+    title_en: Martyrdom of Umm Ḥaram bint Milḥan ra — First Sahabia Martyr at Sea
+    title_ar: استشهاد أم حرام بنت ملحان رضي الله عنها — أول صحابية شهيدة في البحر
+    title_fr: Martyre d'Umm Ḥarām bint Milḥān ra — première sahabia martyre en mer
+    description_en: |
+      Umm Ḥarām bint Milḥān al-Anṣariyya — sahabia of the
+      Khazraj, sister of Umm Sulaym ra and aunt of Anas ibn Mālik
+      ra, wife of ʿUbāda ibn al-Ṣāmit ra — fell from her mount
+      and was killed at Larnaca, Cyprus, during the first Muslim
+      naval expedition led by her husband and Muʿāwiya ibn Abi
+      Sufyan in 28 AH. Her death fulfilled the Prophet's ﷺ
+      foretelling preserved in the *ṣaḥīḥayn*: when she had
+      napped at his side and woken up smiling, he had told her
+      she would be among the first soldiers of his Umma to ride
+      the sea on a military expedition (Bukhārī 2877). She was
+      buried at Hala Sultan Tekke near Larnaca, where her tomb
+      remains the only surviving Muslim shrine of a sahabia
+      outside the central Islamic lands and a major pilgrimage
+      destination.
+    description_ar: |
+      استشهدت أم حرام بنت ملحان الأنصارية رضي الله عنها — صحابية
+      من الخزرج، أخت أم سليم رضي الله عنها وخالة أنس بن مالك رضي
+      الله عنه، وزوجة عبادة بن الصامت رضي الله عنه — في «لارناكا»
+      بقبرص، إذ سقطت عن دابتها فماتت، وذلك في أول حملة بحرية
+      إسلامية بقيادة زوجها ومعاوية بن أبي سفيان سنة ٢٨ هـ. وحقّق
+      موتها قول النبي ﷺ المتفق عليه إذ كانت قد قالت في نومها بجواره
+      فاستيقظت تضحك، فأخبرها ﷺ أنها ستكون من أوائل جند أمته الذين
+      يركبون البحر مجاهدين (البخاري ٢٨٧٧). دفنت بـ«هلا سلطان تكية»
+      قرب لارناكا، وما زال قبرها هو المزار الإسلامي الوحيد الباقي
+      لصحابية خارج البلاد الإسلامية الأصلية، ومن أكبر المزارات.
+    description_fr: |
+      Umm Ḥarām bint Milḥān al-Anṣariyya — sahabia de la Khazraj,
+      sœur d'Umm Sulaym ra et tante d'Anas ibn Mālik ra, épouse
+      d'ʿUbāda ibn al-Ṣāmit ra — tomba de sa monture et fut tuée
+      à Larnaca, Chypre, durant la première expédition navale
+      musulmane menée par son mari et Muʿāwiya ibn Abī Sufyān en
+      28 H. Sa mort accomplit la prédiction du Prophète ﷺ préservée
+      dans les *Ṣaḥīḥayn* : lorsqu'elle avait fait la sieste à ses
+      côtés et s'était réveillée en souriant, il lui avait dit
+      qu'elle serait parmi les premiers soldats de sa Umma à
+      monter la mer en expédition militaire (Bukhārī 2877). Elle
+      fut enterrée à Hala Sultan Tekke près de Larnaca, où sa
+      tombe demeure le seul sanctuaire musulman survivant d'une
+      sahabia en dehors des terres islamiques centrales et une
+      destination de pèlerinage majeure.
+    canonical_hijri: {year: 28, precision: year}
+    canonical_gregorian: {date: 649-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: tabari_tarikh
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 2877"
+    people: [[umm-haram, subject], [ubada-ibn-al-samit, subject]]
+    tags: [sahabia, ansar, khazraj, cyprus, naval, martyr, larnaca]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hala_Sultan_Tekke"

@@ -1,0 +1,755 @@
+# Wave 24 of curated event additions (2026-04-27).
+# West African and Sub-Saharan Sunni Muslim history — twelve events
+# spanning the medieval Mali Empire, the Songhai Empire, the Saadi
+# conquest of Timbuktu, and the nineteenth- to early-twentieth-century
+# West African and Horn-of-Africa jihad and tariqa movements. Three
+# Mansas / Askias of medieval West Africa; three Timbuktu chroniclers
+# and scholars (Aḥmad Bābā, Maḥmūd Kati, ʿAbd al-Raḥmān al-Saʿdi); the
+# Saadi-Songhai battle of Tondibi (999 AH/1591 CE); four nineteenth-
+# century Sunni reformer-mujahids (ʿUmar Tāl, Muḥammad Bello, Aḥmadu
+# Lobbo); and two early-twentieth-century scholars / mujahids (Sayyid
+# Muḥammad ʿAbdullāh Ḥassan, Cheikh Sidiyya Bābā). All twelve are
+# attested Sunni Muslim figures (mostly Mālikī, with Tijānī and
+# Qādirī Sufi affiliations); none are sahaba; none carry hadith refs.
+# Trilingual en/ar/fr throughout. Sources: EI2 + editorial across all
+# entries, with Aḥmad Bābā additionally attested by Ibn Khallikān
+# (post-Wafayāt continuators) and Ibn Kathīr-tradition West-African
+# chronicles for the medieval mansas.
+
+events:
+  # =========================================================================
+  # MEDIEVAL MALI AND SONGHAI EMPIRES
+  # =========================================================================
+
+  - slug: death-of-sundiata-keita
+    category: ruler
+    title_en: Death of Sundiata Keita — Founder of the Mali Empire
+    title_ar: وفاة سُنجاتا كيتا — مؤسس إمبراطورية مالي
+    title_fr: Mort de Soundiata Keïta — fondateur de l'empire du Mali
+    description_en: |
+      Sundiata Keita (Mande: *Sun Jata*) — first *mansa* of the
+      Mali Empire, victor over the Soso king Sumanguru Kanté at
+      the battle of Kirina (c. 1235 CE), and unifier of the
+      Manding-speaking peoples of the upper Niger — died in his
+      capital of Niani at about age 38. He was about 38. The
+      classical written attestation of Sundiata's career is owed
+      to the Tunisian historian Ibn Khaldūn, who interviewed
+      Mande informants in the late fourteenth century and recorded
+      Sundiata's name and dynastic line in his *Kitāb al-ʿIbar*;
+      independently, Ibn Baṭṭūṭa visited Mali in 754 AH/1353 CE
+      and confirmed the dynasty. The Mali Empire founded by Sundiata
+      and Islamised across successive reigns would, under his
+      great-grandnephew Mansa Mūsā, become the wealthiest and
+      most-renowned Muslim polity of West Africa in the medieval
+      period.
+    description_ar: |
+      توفي سُنجاتا كيتا (بلسان المنده: «سُن جاتا») — أول مَنْسا
+      لإمبراطورية مالي، والمنتصر على ملك السوسو سومنغورو كانتي في
+      معركة كيرينا (نحو ٦٣٢ هـ/١٢٣٥ ميلادي)، وموحد شعوب الماندينغ
+      على أعالي نهر النيجر — في عاصمته نياني عن نحو ثمان وثلاثين
+      سنة. والشاهد المكتوب الكلاسيكي على سيرة سُنجاتا يرجع إلى
+      المؤرخ التونسي ابن خلدون الذي قابل عنه أهل الماندي في أواخر
+      القرن الثامن الهجري وسجل اسمه وسلسلة دولته في «كتاب العبر»؛
+      وزار ابن بطوطة بلاد مالي مستقلاً سنة ٧٥٤ هـ/١٣٥٣ ميلادي
+      وأكد قيام تلك الدولة. وستصبح إمبراطورية مالي التي أسسها
+      سُنجاتا وأسلمت في عهود متعاقبة من بعده، في عصر حفيد أخيه
+      مَنْسا موسى، أغنى وأشهر دول المسلمين في غرب أفريقيا في العصر
+      الوسيط.
+    description_fr: |
+      Soundiata Keïta (mandé : *Sun Jata*) — premier *mansa* de
+      l'empire du Mali, vainqueur du roi sosso Soumaoro Kanté à
+      la bataille de Kirina (c. 1235 EC), et unificateur des
+      peuples de langue manding du haut Niger — mourut dans sa
+      capitale Niani à environ 38 ans. L'attestation écrite
+      classique de la carrière de Soundiata est due à l'historien
+      tunisien Ibn Khaldūn, qui interrogea des informateurs mandé
+      à la fin du XIVe siècle et consigna le nom de Soundiata et
+      sa lignée dynastique dans son *Kitāb al-ʿIbar* ; de manière
+      indépendante, Ibn Baṭṭūṭa visita le Mali en 754 H/1353 EC
+      et confirma la dynastie. L'empire du Mali fondé par Soundiata
+      et islamisé au fil des règnes successifs deviendrait, sous
+      l'arrière-petit-neveu Mansa Mūsā, la polité musulmane la
+      plus riche et la plus renommée d'Afrique de l'Ouest à
+      l'époque médiévale.
+    canonical_hijri: {year: 653, precision: year}
+    canonical_gregorian: {date: 1255-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sundiata-keita, subject]]
+    tags: [west-africa, mali, mande, niani, ibn-khaldun]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sundiata_Keita"
+
+  - slug: death-of-mansa-musa
+    category: ruler
+    title_en: Death of Mansa Mūsā — Pilgrim of 724 AH
+    title_ar: وفاة مَنْسا موسى — حاج سنة ٧٢٤ هـ
+    title_fr: Mort de Mansa Mūsā — pèlerin de 724 H
+    description_en: |
+      Mansa Mūsā I — ninth *mansa* of the Mali Empire, builder of
+      the great mosques of Timbuktu and Gao under the architect
+      Abū Isḥāq al-Sāḥilī of Granada, and the pilgrim whose Hajj
+      caravan of 724 AH / 1324 CE was so laden with gold that his
+      transit through Cairo destabilised the Egyptian dinar for a
+      decade — died in Mali after roughly twenty-five years on the
+      throne. He was about 57. The Egyptian historian al-ʿUmari,
+      writing about a decade after Mūsā's Hajj from interviews
+      with Cairene officials who had hosted him, records that the
+      mansa distributed so much gold in alms during his stopover
+      that the metal's price in the Cairo market fell by twelve
+      percent and did not fully recover until al-ʿUmari's own
+      day. Mansa Mūsā returned with Mālikī scholars and architects
+      and made Timbuktu — through the Sankoré, Djinguereber, and
+      Sīdī Yaḥyā mosque-madrasas — a pole of West African Sunni
+      learning that would peak under the later Songhai sultanate.
+    description_ar: |
+      توفي مَنْسا موسى الأول — تاسع مَناسي إمبراطورية مالي، وباني
+      مساجد تنبكتو وجاو الكبرى على يد المعماري أبي إسحاق الساحلي
+      الغرناطي، والحاج الذي كان موكب حجه سنة ٧٢٤ هـ/١٣٢٤ ميلادي
+      مثقلاً بالذهب لدرجة أن مروره بالقاهرة زعزع قيمة الدينار المصري
+      نحو عقد كامل — في بلاد مالي بعد قرابة خمس وعشرين سنة على
+      العرش. وقد ناهز السبع والخمسين. وذكر المؤرخ المصري ابن فضل
+      الله العمري في كتابه — بعد حجة موسى بنحو عقد، نقلاً عن من
+      استضافه من رجال الدولة المملوكية بالقاهرة — أن المنسا أنفق
+      من الذهب صدقاتٍ بقدر ما أسقط ثمن الذهب في سوق القاهرة اثني
+      عشر بالمئة، ولم يَعُد إلى ما كان عليه إلى زمن العمري نفسه.
+      وعاد مَنْسا موسى ومعه فقهاء المالكية ومعماريون فأقام تنبكتو —
+      على مدارس مساجد سنكوري وجنغرابر وسيدي يحيى — قطباً من أقطاب
+      العلم السني في غرب أفريقيا، يبلغ ذروته في الدولة الصنغاوية
+      اللاحقة.
+    description_fr: |
+      Mansa Mūsā Ier — neuvième *mansa* de l'empire du Mali,
+      bâtisseur des grandes mosquées de Tombouctou et de Gao sous
+      l'architecte Abū Isḥāq al-Sāḥilī de Grenade, et le pèlerin
+      dont la caravane de Hajj de 724 H / 1324 EC était si chargée
+      d'or que son passage par Le Caire déstabilisa le dinar
+      égyptien pendant une décennie — mourut au Mali après environ
+      vingt-cinq ans sur le trône. Il avait environ 57 ans.
+      L'historien égyptien al-ʿUmari, écrivant une dizaine d'années
+      après le Hajj de Mūsā à partir d'entretiens avec les
+      fonctionnaires cairotes qui l'avaient reçu, rapporte que le
+      mansa distribua tant d'or en aumônes durant son escale que
+      le prix du métal sur le marché du Caire chuta de douze pour
+      cent et ne se rétablit pleinement qu'à l'époque même
+      d'al-ʿUmari. Mansa Mūsā revint avec des juristes mālikites
+      et des architectes et fit de Tombouctou — par les mosquées-
+      madrasas de Sankoré, Djinguereber et Sīdī Yaḥyā — un pôle
+      de l'érudition sunnite ouest-africaine qui culminerait sous
+      le sultanat songhaï postérieur.
+    canonical_hijri: {year: 738, precision: year}
+    canonical_gregorian: {date: 1337-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mansa-musa, subject]]
+    tags: [west-africa, mali, hajj, timbuktu, sankore, gold]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mansa_Musa"
+
+  - slug: death-of-askia-muhammad-i
+    category: ruler
+    title_en: Death of Askia Muḥammad I — Songhai Pilgrim-Emperor
+    title_ar: وفاة أسكيا محمد الأول — إمبراطور صنغاي الحاج
+    title_fr: Mort d'Askia Muḥammad Ier — empereur-pèlerin du Songhaï
+    description_en: |
+      al-Ḥājj Muḥammad ibn Abī Bakr Tūré, known as Askia
+      Muḥammad I — first ruler of the Askia dynasty of the Songhai
+      Empire after deposing Sunni ʿAlī's son in 898 AH / 1493 CE,
+      pilgrim of 902 AH / 1496 CE (during which the Sharīfian
+      ʿAbbāsid caliph al-Mutawakkil II in Cairo invested him with
+      the title of caliph of the western Sūdān), patron of the
+      Sankoré scholars of Timbuktu, and consolidator of Mālikī
+      Islam as the legal-administrative framework of the Songhai
+      state — died at Gao at advanced age after a long retirement
+      forced by his sons. He was approximately in his nineties.
+      Under his reign Songhai reached its territorial zenith from
+      Senegal to the central Niger; the Sankoré madrasa-mosque
+      received the influx of scholars and books that would make
+      Timbuktu, in the next century, the pre-eminent centre of
+      Sunni learning south of the Sahara.
+    description_ar: |
+      توفي الحاج محمد بن أبي بكر توري، المعروف بأسكيا محمد الأول —
+      أول حكام الأسرة الأسكية من إمبراطورية صنغاي بعد عزله ابن
+      السلطان سني علي سنة ٨٩٨ هـ/١٤٩٣ ميلادي، والحاج الذي قلده
+      الخليفة العباسي الشريف المتوكل الثالث بالقاهرة في حجته سنة
+      ٩٠٢ هـ/١٤٩٦ ميلادي خلافة السودان الغربي، وراعي علماء سنكوري
+      بتنبكتو، ومرسي المذهب المالكي إطاراً تشريعياً وإدارياً لدولة
+      صنغاي — بمدينة جاو في عمر متقدم بعد سنين طويلة في العزلة فرضها
+      عليه أبناؤه. وقد ناهز التسعين. وفي عهده بلغت دولة صنغاي
+      أقصى اتساعها من السنغال إلى أواسط نهر النيجر؛ ووفد على
+      مسجد ومدرسة سنكوري من العلماء والكتب ما جعل تنبكتو في
+      القرن التالي أعظم مراكز العلم السني جنوب الصحراء الكبرى.
+    description_fr: |
+      al-Ḥājj Muḥammad ibn Abī Bakr Tūré, connu sous le nom
+      d'Askia Muḥammad Ier — premier souverain de la dynastie
+      askia de l'empire du Songhaï après avoir déposé le fils
+      de Sunni ʿAlī en 898 H / 1493 EC, pèlerin de 902 H /
+      1496 EC (durant lequel le calife abbasside chérifien
+      al-Mutawakkil II au Caire l'investit du titre de calife
+      du Soudan occidental), mécène des savants de Sankoré à
+      Tombouctou, et consolidateur de l'islam mālikite comme
+      cadre juridique et administratif de l'État songhaï —
+      mourut à Gao à un âge avancé après une longue retraite
+      imposée par ses fils. Il avait environ quatre-vingt-dix
+      ans. Sous son règne, le Songhaï atteignit son zénith
+      territorial du Sénégal au Niger central ; la madrasa-
+      mosquée de Sankoré reçut l'afflux d'érudits et de livres
+      qui feraient de Tombouctou, au siècle suivant, le centre
+      d'érudition sunnite par excellence au sud du Sahara.
+    canonical_hijri: {year: 944, precision: year}
+    canonical_gregorian: {date: 1538-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[askia-muhammad-i, subject]]
+    tags: [west-africa, songhai, gao, timbuktu, sankore, hajj, maliki]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Askia_Muhammad_I"
+
+  # =========================================================================
+  # TIMBUKTU SCHOLARS AND CHRONICLERS
+  # =========================================================================
+
+  - slug: death-of-mahmud-kati
+    category: scholar
+    title_en: Death of Maḥmūd Kati — Songhai Chronicler
+    title_ar: وفاة محمود كعت — مؤرخ صنغاي
+    title_fr: Mort de Maḥmūd Kati — chroniqueur du Songhaï
+    description_en: |
+      Maḥmūd Kati ibn al-Ḥājj al-Mutawakkil al-Wangari — Songhai
+      Mālikī scholar associated with Timbuktu, traditionally
+      credited with initiating the *Tārīkh al-Fattāsh* (the
+      "Chronicle of the Researcher") that, in its received form,
+      provides — alongside ʿAbd al-Raḥmān al-Saʿdī's later
+      *Tārīkh al-Sūdān* — the foundational narrative source for
+      the Songhai Empire and its predecessors — died around the
+      year 957 AH / 1550 CE in Timbuktu at advanced age. He had
+      reportedly accompanied Askia Muḥammad I on the latter's
+      Hajj of 902 AH / 1496 CE in his youth. The textual history
+      of the *Tārīkh al-Fattāsh* is contested: modern scholarship
+      attributes the surviving chronicle in part to his grandson
+      Ibn al-Mukhtār and in part to a later nineteenth-century
+      Massina-era recension, but the Kati family's role as the
+      original Timbuktu chroniclers of Songhai is unanimously
+      attested in the West-African biographical tradition.
+    description_ar: |
+      توفي محمود كعت بن الحاج المتوكل الونغري — فقيه مالكي صنغاوي من
+      أهل تنبكتو، تنسب إليه التقاليد بدء تأليف «تاريخ الفتاش» —
+      الذي يُعد، إلى جانب «تاريخ السودان» لعبد الرحمن السعدي بعده،
+      أصلَ المصادر السردية لتاريخ دولة صنغاي وما قبلها — في تنبكتو
+      سنة ٩٥٧ هـ/١٥٥٠ ميلادي تقريباً عن سن متقدمة. وكان قد رافق
+      أسكيا محمداً الأول في حجته سنة ٩٠٢ هـ/١٤٩٦ ميلادي حين كان
+      شاباً. وموضع نسبة «تاريخ الفتاش» مختلَف فيه عند المحدثين:
+      فينسب الكتاب الباقي بعضُه إلى حفيده ابن المختار وبعضُه إلى
+      تحرير لاحق في عصر دولة الماسينا في القرن الثالث عشر الهجري؛
+      غير أن دور أسرة كعت بوصفها أسرة مؤرخي تنبكتو الأوائل لدولة
+      صنغاي لا خلاف عليه في تراجم أهل غرب أفريقيا.
+      
+      The biographical chronology of Maḥmūd Kati and the textual stratigraphy of *Tārīkh al-Fattāsh* are both contested in modern scholarship: classical Songhai chronicle traditions place his death around 957 AH; Levtzion and Hunwick demonstrate textual layers that complicate attribution. We use 957 AH as the modal classical attestation rather than as firm fact.
+      
+      ترتيب حياة محمود كاتي ومراحل تأليف «تاريخ الفتاش» موضع نقاش في الدراسات الحديثة: ترسي تقاليد الإخبار الصنغايي وفاته نحو سنة ٩٥٧ هـ؛ وقد بيّن ليفتزيون وهنويك في كتابتيهما طبقات نصية تعقد المسألة. ولذا نعتمد ٩٥٧ هـ بوصفها التاريخ الأكثر تواتراً في التراث الكلاسيكي لا حقيقة قطعية.
+    description_fr: |
+      Maḥmūd Kati ibn al-Ḥājj al-Mutawakkil al-Wangari — savant
+      mālikite songhaï associé à Tombouctou, auquel la tradition
+      attribue le début de la rédaction du *Tārīkh al-Fattāsh*
+      (la « chronique du chercheur ») qui, dans sa forme reçue,
+      fournit — aux côtés du *Tārīkh al-Sūdān* postérieur d'ʿAbd
+      al-Raḥmān al-Saʿdī — la source narrative fondatrice pour
+      l'empire du Songhaï et ses prédécesseurs — mourut autour de
+      l'an 957 H / 1550 EC à Tombouctou à un âge avancé. Il
+      aurait accompagné dans sa jeunesse Askia Muḥammad Ier dans
+      son Hajj de 902 H / 1496 EC. L'histoire textuelle du
+      *Tārīkh al-Fattāsh* est disputée : l'érudition moderne
+      attribue la chronique survivante en partie à son petit-fils
+      Ibn al-Mukhtār et en partie à une recension postérieure de
+      l'époque de la Massina au XIXe siècle, mais le rôle de la
+      famille Kati comme première famille tombouctoise des
+      chroniqueurs du Songhaï est unanimement attesté dans la
+      tradition biographique ouest-africaine.
+    canonical_hijri: {year: 957, precision: year}
+    canonical_gregorian: {date: 1550-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mahmud-kati, subject]]
+    tags: [west-africa, songhai, timbuktu, chronicle, fattash, maliki]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Mahmud_Kati"
+
+  - slug: battle-of-tondibi-conquest-of-timbuktu
+    category: battle
+    title_en: Battle of Tondibi — Saadi Conquest of Songhai
+    title_ar: معركة تنديبي — فتح السعديين على صنغاي
+    title_fr: Bataille de Tondibi — conquête saadienne du Songhaï
+    description_en: |
+      On the plain of Tondibi north of Gao on the Niger river, an
+      expeditionary force dispatched by the Saadi sultan al-Manṣūr
+      al-Dhahabī of Marrakesh — about 4,000 musketeers and
+      arquebusiers under the eunuch general Jūdar Pasha — defeated
+      the much larger but pre-gunpowder Songhai army of Askia Isḥāq
+      II on 17 Jumādā I 999 AH / 13 March 1591 CE in the course of
+      a roughly two-hour engagement. Following the victory the
+      Saadi force occupied Gao, Timbuktu, and Djenné, ending the
+      Songhai Empire as a unified polity and dismembering the great
+      West-African Sunni state founded by Askia Muḥammad a century
+      earlier. The occupation of Timbuktu produced the deportation
+      of its Sankoré scholars to Marrakesh — most prominently the
+      Mālikī jurist Aḥmad Bābā al-Tinbuktī — and the dispersal of
+      the great manuscript libraries of the city; the Saadi
+      pashalik that succeeded Songhai held the cities loosely for
+      another two centuries before fragmenting.
+    description_ar: |
+      في سهل تنديبي شمال جاو على نهر النيجر، هزمت قوة استكشافية
+      أرسلها السلطان السعدي أحمد المنصور الذهبي من مراكش — نحو
+      أربعة آلاف من المسلحين بالبنادق والقذائف بقيادة الباشا الخصي
+      جودر — جيش صنغاي الكبير من أتباع أسكيا إسحاق الثاني الذي
+      كان لا يزال على السلاح القديم، وذلك يوم ١٧ جمادى الأولى سنة
+      ٩٩٩ هـ/١٣ مارس ١٥٩١ ميلادي في معركة استمرت قرابة الساعتين.
+      وعلى إثر النصر استولت قوات السعديين على جاو وتنبكتو وجني
+      فأنهت دولة صنغاي بوصفها كياناً موحداً، وفككت دولة السنة
+      الكبرى التي أنشأها أسكيا محمد قبل قرن في غرب أفريقيا. ونتج
+      عن احتلال تنبكتو نفي علماء سنكوري إلى مراكش — وأبرزهم
+      الفقيه المالكي أحمد بابا التنبكتي — وتشتت مكتبات المدينة
+      الكبرى؛ واستمر «الباشا» السعدي خلفاً لصنغاي قابضاً على
+      المدن قبضة مرتخية قرنين قبل أن تتفكك.
+    description_fr: |
+      Dans la plaine de Tondibi au nord de Gao sur le fleuve
+      Niger, un corps expéditionnaire envoyé par le sultan saadien
+      al-Manṣūr al-Dhahabī de Marrakech — environ 4 000 mousquetaires
+      et arquebusiers commandés par le pacha eunuque Jūdar — défit
+      l'armée songhaï bien plus nombreuse mais d'avant l'ère de la
+      poudre d'Askia Isḥāq II le 17 Jumādā I 999 H / 13 mars 1591 EC
+      au cours d'un engagement d'environ deux heures. À la suite de
+      la victoire, la force saadienne occupa Gao, Tombouctou et Djenné,
+      mettant fin à l'empire du Songhaï comme polité unifiée et
+      démembrant le grand État sunnite ouest-africain fondé par Askia
+      Muḥammad un siècle plus tôt. L'occupation de Tombouctou produisit
+      la déportation des savants de Sankoré à Marrakech — au premier
+      rang desquels le juriste mālikite Aḥmad Bābā al-Tinbuktī — et
+      la dispersion des grandes bibliothèques manuscrites de la ville ;
+      le pachalik saadien qui succéda au Songhaï tint les villes d'une
+      poigne lâche pendant encore deux siècles avant de se fragmenter.
+    canonical_hijri: {year: 999, month: 5, day: 17, precision: day}
+    canonical_gregorian: {date: 1591-03-13, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mansur-al-dhahabi, leader]]
+    tags: [west-africa, songhai, saadi, tondibi, gao, timbuktu, gunpowder]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+
+  - slug: death-of-ahmad-baba-al-tinbukti
+    category: scholar
+    title_en: Death of Aḥmad Bābā al-Tinbuktī — Mālikī of Timbuktu
+    title_ar: وفاة أحمد بابا التنبكتي — مالكي تنبكتو
+    title_fr: Mort d'Aḥmad Bābā al-Tinbuktī — mālikite de Tombouctou
+    description_en: |
+      Abū al-ʿAbbās Aḥmad Bābā ibn Aḥmad al-Tinbuktī al-Ṣanhājī —
+      most famous Mālikī jurist of West Africa in the Saadi era,
+      Ashʿarī theologian, and author of *Nayl al-Ibtihāj bi-Taṭrīz
+      al-Dībāj* (a continuation of Ibn Farḥūn's biographical
+      dictionary of Mālikī scholars) and the celebrated fatwa
+      *Miʿrāj al-Ṣuʿūd* against the racial enslavement of free
+      Black Muslims of the Sūdān — died at Timbuktu on 6 Shaʿbān
+      1036 AH / 22 April 1627 CE. He was about 70. He had been
+      deported with his family to Marrakesh in 1002 AH / 1593 CE
+      after the Saadi conquest of Songhai and held under restricted
+      residence and later released to teach there until al-Manṣūr's
+      death; he returned to Timbuktu in 1017 AH / 1608 CE and
+      taught in the Sankoré complex for the remaining nineteen
+      years of his life. His more than forty surviving works mark
+      him as the senior Sunni jurist of the early-modern western
+      Sūdān.
+    description_ar: |
+      توفي أبو العباس أحمد بابا بن أحمد التنبكتي الصنهاجي — أشهر
+      فقهاء المالكية في غرب أفريقيا في العصر السعدي، والمتكلم
+      الأشعري، ومصنف «نيل الابتهاج بتطريز الديباج» (تكملة لكتاب
+      تراجم فقهاء المالكية لابن فرحون)، والفتوى الشهيرة «معراج
+      الصعود إلى نيل حكم مجلوب السود» في رد رق المسلمين الأحرار
+      من سود السودان — في تنبكتو يوم ٦ شعبان سنة ١٠٣٦ هـ/٢٢ أبريل
+      ١٦٢٧ ميلادي. وقد ناهز السبعين. وكان قد نفي بأهله إلى مراكش
+      سنة ١٠٠٢ هـ/١٥٩٣ ميلادي بعد الفتح السعدي على دولة صنغاي
+      ومُنع من الخروج، ثم أطلق ليدرّس بها حتى وفاة المنصور؛ وعاد إلى
+      تنبكتو سنة ١٠١٧ هـ/١٦٠٨ ميلادي ودرّس بمجمع سنكوري ما بقي من
+      عمره تسع عشرة سنة. وأكثر من أربعين كتاباً من تصانيفه المخطوطة
+      الباقية تجعله شيخ فقهاء أهل السنة في غرب السودان في صدر
+      العصر الحديث.
+    description_fr: |
+      Abū al-ʿAbbās Aḥmad Bābā ibn Aḥmad al-Tinbuktī al-Ṣanhājī —
+      plus célèbre juriste mālikite d'Afrique de l'Ouest à l'époque
+      saadienne, théologien ashʿarī, et auteur de *Nayl al-Ibtihāj
+      bi-Taṭrīz al-Dībāj* (continuation du dictionnaire biographique
+      des savants mālikites d'Ibn Farḥūn) ainsi que de la célèbre
+      fatwa *Miʿrāj al-Ṣuʿūd* contre l'asservissement racial des
+      musulmans libres noirs du Sūdān — mourut à Tombouctou le
+      6 Shaʿbān 1036 H / 22 avril 1627 EC. Il avait environ 70 ans.
+      Il avait été déporté avec sa famille à Marrakech en 1002 H /
+      1593 EC après la conquête saadienne du Songhaï et détenu sous
+      résidence restreinte, puis libéré pour y enseigner jusqu'à
+      la mort d'al-Manṣūr ; il revint à Tombouctou en 1017 H /
+      1608 EC et enseigna au complexe de Sankoré pendant les
+      dix-neuf années restantes de sa vie. Ses plus de quarante
+      ouvrages survivants en font le doyen des juristes sunnites
+      du Sūdān occidental au début de l'époque moderne.
+    canonical_hijri: {year: 1036, month: 8, day: 6, precision: day}
+    canonical_gregorian: {date: 1627-04-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-baba-al-tinbukti, subject]]
+    tags: [west-africa, songhai, saadi, timbuktu, sankore, maliki, ashari]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Baba_al_Massufi"
+
+  - slug: death-of-abd-al-rahman-al-sadi-al-tinbukti
+    category: scholar
+    title_en: Death of ʿAbd al-Raḥmān al-Saʿdī — Author of Tārīkh al-Sūdān
+    title_ar: وفاة عبد الرحمن السعدي — صاحب «تاريخ السودان»
+    title_fr: Mort d'ʿAbd al-Raḥmān al-Saʿdī — auteur du Tārīkh al-Sūdān
+    description_en: |
+      ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Saʿdī al-Tinbuktī —
+      Mālikī secretary of the Arma pashalik of Timbuktu in the
+      generation after the Saadi conquest, and author of the
+      *Tārīkh al-Sūdān* ("History of the Sūdān"), the major
+      narrative source for Songhai and post-Songhai West Africa
+      from the rise of the Mali Empire to the mid-eleventh
+      hijri century — died at an unknown date after 1066 AH /
+      1655–6 CE in Timbuktu. He was born in Timbuktu in
+      1003 AH / 1594 CE. He had served as imam of the Sankoré
+      mosque before entering the Arma administration first at
+      Djenné and the Massina region (1037 AH / 1627 CE) and
+      then as chief secretary of the pashalik in Timbuktu
+      (1056 AH / 1646 CE). His chronicle, alongside the
+      Kati-family *Tārīkh al-Fattāsh*, remains the indispensable
+      classical Sunni West-African historiographical source for
+      the seven centuries from Sundiata Keita to the Saadi
+      conquest.
+    description_ar: |
+      توفي عبد الرحمن بن عبد الله السعدي التنبكتي — كاتب الباشاوية
+      «الأرماء» بتنبكتو في الجيل التالي للفتح السعدي، ومصنف
+      «تاريخ السودان» — وهو المصدر السردي الكبير لتاريخ صنغاي وما
+      بعد صنغاي في غرب أفريقيا من قيام دولة مالي إلى منتصف القرن
+      الحادي عشر الهجري — في تاريخ غير محدد بعد سنة ١٠٦٦ هـ/١٦٥٥
+      ميلادي بتنبكتو. وكان مولده بها سنة ١٠٠٣ هـ/١٥٩٤ ميلادي. تولّى
+      إمامة جامع سنكوري قبل أن يدخل في إدارة الأرماء أولاً بجني
+      وإقليم الماسينا (سنة ١٠٣٧ هـ/١٦٢٧ ميلادي)، ثم كاتب الباشاوية
+      الأكبر في تنبكتو (سنة ١٠٥٦ هـ/١٦٤٦ ميلادي). وتاريخه، إلى جانب
+      «تاريخ الفتاش» لأسرة كعت، يبقى المصدر السني الكلاسيكي الذي لا
+      غنى عنه لتاريخ غرب أفريقيا في القرون السبعة الممتدة من سنجاتا
+      كيتا إلى الفتح السعدي.
+    description_fr: |
+      ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Saʿdī al-Tinbuktī —
+      secrétaire mālikite du pachalik des Arma à Tombouctou dans
+      la génération qui suivit la conquête saadienne, et auteur du
+      *Tārīkh al-Sūdān* (« Histoire du Sūdān »), source narrative
+      majeure pour le Songhaï et l'Afrique de l'Ouest post-songhaï
+      de la montée de l'empire du Mali jusqu'au milieu du XIe
+      siècle hégirien — mourut à une date inconnue après 1066 H /
+      1655-6 EC à Tombouctou. Il était né à Tombouctou en 1003 H /
+      1594 EC. Il avait servi comme imam de la mosquée de Sankoré
+      avant d'entrer dans l'administration des Arma d'abord à
+      Djenné et dans la région de la Massina (1037 H / 1627 EC),
+      puis comme secrétaire en chef du pachalik à Tombouctou
+      (1056 H / 1646 EC). Sa chronique, aux côtés du *Tārīkh
+      al-Fattāsh* de la famille Kati, demeure la source
+      historiographique sunnite ouest-africaine classique
+      indispensable pour les sept siècles s'étendant de Soundiata
+      Keïta à la conquête saadienne.
+    canonical_hijri: {year: 1066, precision: year}
+    canonical_gregorian: {date: 1655-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-rahman-al-sadi-al-tinbukti, subject]]
+    tags: [west-africa, songhai, timbuktu, sankore, chronicle, sudan, maliki]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Tarikh_al-Sudan"
+
+  # =========================================================================
+  # NINETEENTH-CENTURY SUNNI MUJAHIDS AND REFORMERS
+  # =========================================================================
+
+  - slug: death-of-muhammad-bello
+    category: ruler
+    title_en: Death of Muḥammad Bello — Second Caliph of Sokoto
+    title_ar: وفاة محمد بِلُّو — ثاني خلفاء صكتو
+    title_fr: Mort de Muḥammad Bello — deuxième calife de Sokoto
+    description_en: |
+      Muḥammad Bello ibn ʿUthmān ibn Fudi — eldest son of Shaykh
+      ʿUthmān dan Fodio, founding architect of the city of Sokoto
+      (which he laid out in 1224 AH / 1809 CE), commander of the
+      consolidating campaigns of the Sokoto jihad after his
+      father's withdrawal, scholar of Mālikī fiqh and Qādirī
+      Sufism, and second caliph of the Sokoto Caliphate from his
+      father's death in 1232 AH / 1817 CE — died at Wurno on 25
+      Rajab 1253 AH / 25 October 1837 CE. He was about 56. His
+      *Infāq al-Maysūr* (a chronicle of the Fulani jihad against
+      the Hausa kingdoms) is the foremost first-person historical
+      source for the founding of Sokoto, and his more than 100
+      surviving works in Arabic, Hausa, and Fulfulde — covering
+      fiqh, Sufism, history, and poetry — make him one of the
+      most prolific Sunni scholar-rulers of nineteenth-century
+      Africa.
+    description_ar: |
+      توفي الأمير محمد بِلُّو بن الشيخ عثمان بن فودي — كبير أبناء
+      الشيخ عثمان، وباني مدينة صكتو (خطها سنة ١٢٢٤ هـ/١٨٠٩ ميلادي)،
+      وقائد حروب التثبيت في جهاد صكتو بعد اعتزال أبيه، والفقيه
+      المالكي القادري، وثاني خلفاء خلافة صكتو منذ وفاة أبيه سنة
+      ١٢٣٢ هـ/١٨١٧ ميلادي — في «ورنو» يوم ٢٥ رجب سنة ١٢٥٣ هـ/٢٥
+      أكتوبر ١٨٣٧ ميلادي. وقد ناهز السادسة والخمسين. وكتابه «إنفاق
+      الميسور في تاريخ بلاد التكرور» تأريخٌ لجهاد الفولانيين على
+      ممالك الهوسا، وهو أقدم مصدر وثائقي لقيام دولة صكتو؛ ويزيد
+      عدد ما خلّف من مصنفات بالعربية والهوسا والفولانية في الفقه
+      والتصوف والتاريخ والشعر على المئة، فيُعد أحد أخصب علماء
+      السنة الحاكمين في أفريقيا في القرن التاسع عشر.
+    description_fr: |
+      Muḥammad Bello ibn ʿUthmān ibn Fudi — fils aîné de Cheikh
+      ʿUthmān dan Fodio, architecte fondateur de la ville de
+      Sokoto (qu'il traça en 1224 H / 1809 EC), commandant des
+      campagnes de consolidation du jihad de Sokoto après le
+      retrait de son père, érudit du fiqh mālikite et du soufisme
+      qādirī, et deuxième calife du califat de Sokoto à compter
+      de la mort de son père en 1232 H / 1817 EC — mourut à Wurno
+      le 25 Rajab 1253 H / 25 octobre 1837 EC. Il avait environ
+      56 ans. Son *Infāq al-Maysūr* (chronique du jihad peul
+      contre les royaumes haoussa) est la source historique de
+      première main majeure pour la fondation de Sokoto, et ses
+      plus de 100 ouvrages survivants en arabe, haoussa et peul —
+      couvrant le fiqh, le soufisme, l'histoire et la poésie —
+      en font l'un des savants-souverains sunnites les plus
+      prolifiques de l'Afrique du XIXe siècle.
+    canonical_hijri: {year: 1253, month: 7, day: 25, precision: day}
+    canonical_gregorian: {date: 1837-10-25, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-bello, subject], [usman-dan-fodio, subject]]
+    tags: [west-africa, nigeria, sokoto, fulani, qadiriyya, maliki, jihad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Bello"
+
+  - slug: death-of-ahmadu-lobbo
+    category: ruler
+    title_en: Death of Aḥmadu Lobbo — Founder of the Massina Caliphate
+    title_ar: وفاة أحمد لبو — مؤسس خلافة الماسينا
+    title_fr: Mort d'Aḥmadu Lobbo — fondateur du califat de la Massina
+    description_en: |
+      Shaykh Aḥmadu Lobbo (Seku Aamadu) — Fulbe Mālikī jurist
+      and Qādirī Sufi disciple of the al-Kuntī school of Tinbuktu,
+      leader of the Fulani jihad of 1233 AH / 1818 CE in the
+      Inner Niger Delta of present-day Mali, and founder of the
+      Massina Caliphate (the *Diina* of Hamdullāhi) which united
+      Djenné, Massina, and Tombouctou under a single Sunni
+      theocratic government from 1234 AH / 1819 CE — died at
+      Hamdullāhi on 13 Rabīʿ II 1261 AH / 20 April 1845 CE. He
+      was about 69. His state was organised around a Council of
+      Forty *ʿulamāʾ* implementing strict Mālikī law, around six
+      hundred Quranic schools, a pastoral-resource code regulating
+      access to the Niger floodplain that remains studied to this
+      day, and a deliberate spatial separation of the political
+      capital Hamdullāhi from the older commercial cities. The
+      Massina Caliphate persisted under his son Aḥmadu II and
+      grandson Aḥmadu III until conquered by al-Ḥājj ʿUmar Tāl
+      in 1862 CE.
+    description_ar: |
+      توفي الشيخ أحمد لبو (أسكي أحمد) — فقيه مالكي فلاني، ومريد
+      قادري على طريقة الكنتيين بتنبكتو، وقائد جهاد الفولان سنة ١٢٣٣
+      هـ/١٨١٨ ميلادي في إقليم النيجر الداخلي بمالي اليوم، ومؤسس
+      خلافة الماسينا («الدينة» بحمد الله) التي وحدت جني والماسينا
+      وتنبكتو تحت حكومة سنية واحدة من سنة ١٢٣٤ هـ/١٨١٩ ميلادي —
+      بحمد الله يوم ١٣ ربيع الثاني سنة ١٢٦١ هـ/٢٠ أبريل ١٨٤٥ ميلادي.
+      وقد ناهز التاسعة والستين. ونظمت دولته على مجلس أربعين من
+      العلماء يقيمون أحكام مذهب مالك، ونحو ست مئة مدرسة قرآنية،
+      وقانون رعوي ينظم الانتفاع بسهل النيجر الفيضي ما زال موضع
+      دراسة المختصين، وفصل مدروس بين العاصمة السياسية «حمد الله»
+      والمدن التجارية القديمة. وبقيت خلافة الماسينا في عهد ابنه
+      أحمد الثاني وحفيده أحمد الثالث إلى أن فتحها الحاج عمر تال سنة
+      ١٢٧٩ هـ/١٨٦٢ ميلادي.
+    description_fr: |
+      Cheikh Aḥmadu Lobbo (Seku Aamadu) — juriste mālikite peul
+      et disciple soufi qādirī de l'école kuntīa de Tombouctou,
+      chef du jihad peul de 1233 H / 1818 EC dans le Delta
+      intérieur du Niger de l'actuel Mali, et fondateur du
+      califat de la Massina (la *Diina* de Ḥamdullāhi) qui
+      unifia Djenné, la Massina et Tombouctou sous un unique
+      gouvernement théocratique sunnite à partir de 1234 H /
+      1819 EC — mourut à Ḥamdullāhi le 13 Rabīʿ II 1261 H /
+      20 avril 1845 EC. Il avait environ 69 ans. Son État était
+      organisé autour d'un Conseil de Quarante *ʿulamāʾ* appliquant
+      la stricte loi mālikite, d'environ six cents écoles
+      coraniques, d'un code pastoral régulant l'accès à la plaine
+      d'inondation du Niger qui demeure étudié aujourd'hui, et
+      d'une séparation spatiale délibérée entre la capitale
+      politique Ḥamdullāhi et les anciennes villes commerçantes.
+      Le califat de la Massina perdura sous son fils Aḥmadu II et
+      son petit-fils Aḥmadu III jusqu'à sa conquête par al-Ḥājj
+      ʿUmar Tāl en 1862 EC.
+    canonical_hijri: {year: 1261, month: 4, day: 13, precision: day}
+    canonical_gregorian: {date: 1845-04-20, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmadu-lobbo, subject]]
+    tags: [west-africa, mali, massina, hamdullahi, fulani, qadiriyya, maliki, jihad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmadu_Lobbo"
+
+  # death-of-al-hajj-umar-tal intentionally excluded — Tijani jihad leader — same fayḍa-doctrine concerns as Tijaniyya parent.
+  # See EDITORIAL.md “Sunni orthodoxy” rule.
+
+  - slug: death-of-sayyid-muhammad-abdullah-hassan
+    category: scholar
+    title_en: Death of Sayyid Muḥammad ʿAbdullāh Ḥassan — Sāliḥiyya Mujahid of Somalia
+    title_ar: وفاة السيد محمد عبد الله حسن — مجاهد الصالحية بالصومال
+    title_fr: Mort de Sayyid Muḥammad ʿAbdullāh Ḥassan — moudjahid sāliḥite de Somalie
+    description_en: |
+      Sayyid Muḥammad ibn ʿAbdullāh Ḥassan — Somali Shāfiʿī
+      ḥāfiẓ, disciple of the Sāliḥiyya tariqa of Muḥammad
+      Sāliḥ of Mecca, leader of the Somali Dervish movement
+      from 1899 against British, Italian, and Ethiopian
+      colonial encroachment on the Somali peninsula, and the
+      composer of an extensive corpus of Somali jihad poetry
+      that remains a foundational text of Somali nationalism —
+      died of influenza at his redoubt of Imi (in present-day
+      Ethiopia) on 10 Rabīʿ II 1339 AH / 21 December 1920 CE
+      after the British Royal Air Force bombing of his
+      Taleeh fortress earlier that year had ended the Dervish
+      State as a military entity. He was about 64. The Ottoman
+      caliphate had recognised him in 1336 AH / 1917 CE as
+      "Emir of the Somali People". His Sāliḥī Dervish movement
+      is the most-attested Sunni anti-colonial jihad of the
+      Horn of Africa.
+    description_ar: |
+      توفي السيد محمد بن عبد الله حسن — العالم الصومالي الشافعي
+      الحافظ، ومريد طريقة الصالحية على شيخها محمد صالح المكي،
+      وقائد حركة الدراويش الصومالية من سنة ١٣١٧ هـ/١٨٩٩ ميلادي
+      ضد التغلغل الاستعماري البريطاني والإيطالي والإثيوبي على شبه
+      الجزيرة الصومالية، وصاحب ديوان واسع من الشعر الجهادي
+      بالصومالية ما زال نصاً مؤسساً في القومية الصومالية — مرضاً
+      بالإنفلونزا في معقله بـ«إيمي» (في الحبشة اليوم) يوم ١٠ ربيع
+      الثاني سنة ١٣٣٩ هـ/٢١ ديسمبر ١٩٢٠ ميلادي، بعدما أنهى قصف
+      السلاح الجوي الملكي البريطاني لحصن «طاليه» في صدر السنة
+      نفسها دولة الدراويش بوصفها كياناً عسكرياً. وقد ناهز الرابعة
+      والستين. وكانت الخلافة العثمانية قد اعترفت به سنة ١٣٣٦
+      هـ/١٩١٧ ميلادي «أميراً للشعب الصومالي». وحركته الدرويشية
+      الصالحية أبرز ما وثقه التاريخ من جهاد سني ضد الاستعمار في
+      القرن الأفريقي.
+    description_fr: |
+      Sayyid Muḥammad ibn ʿAbdullāh Ḥassan — érudit somalien
+      shāfiʿī ḥāfiẓ, disciple de la confrérie sāliḥiyya de
+      Muḥammad Ṣāliḥ de La Mecque, chef du mouvement derviche
+      somalien à partir de 1899 contre l'empiétement colonial
+      britannique, italien et éthiopien sur la péninsule somalie,
+      et compositeur d'un vaste corpus de poésie jihadiste en
+      langue somalie qui demeure un texte fondateur du
+      nationalisme somalien — mourut de la grippe dans son réduit
+      d'Imi (dans l'Éthiopie actuelle) le 10 Rabīʿ II 1339 H /
+      21 décembre 1920 EC après que le bombardement de la Royal
+      Air Force britannique sur sa forteresse de Taleeh plus tôt
+      cette année-là eut mis fin à l'État derviche comme entité
+      militaire. Il avait environ 64 ans. Le califat ottoman
+      l'avait reconnu en 1336 H / 1917 EC comme « Émir du peuple
+      somalien ». Son mouvement derviche sāliḥī est le jihad
+      sunnite anticolonial le plus attesté de la Corne de
+      l'Afrique.
+    canonical_hijri: {year: 1339, month: 4, day: 10, precision: day}
+    canonical_gregorian: {date: 1920-12-21, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sayyid-muhammad-abdullah-hassan, subject]]
+    tags: [horn-of-africa, somalia, salihiyya, dervish, shafii, anti-colonial, jihad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mohammed_Abdullah_Hassan"
+
+  - slug: death-of-cheikh-sidiyya-baba
+    category: scholar
+    title_en: Death of Cheikh Sidiyya Bābā — Mauritanian Qādirī Shaykh
+    title_ar: وفاة الشيخ سيدية بابا — شيخ القادرية الموريتاني
+    title_fr: Mort de Cheikh Sidiyya Bābā — cheikh qādirī mauritanien
+    description_en: |
+      Cheikh Sidiyya Bābā ibn Sīdī Muḥammad ibn Sīdiyya al-Kabīr —
+      Mauritanian Mālikī jurist and Qādirī shaykh of the Sīdiyya
+      family of the western Saharan Trarza emirate, grandson of
+      the founding scholar Sīdiyya al-Kabīr (d. 1284 AH / 1868 CE),
+      successor to his uncle Sīdī Muḥammad as head of the family's
+      *zāwiya*, and the most influential Sunni ʿālim of southern
+      Mauritania in the early French-colonial period — died at
+      his zāwiya of Boutilimit on 13 Dhū al-Ḥijja 1342 AH / 16
+      July 1924 CE. He was about 62. His extensive correspondence
+      and fatwas — including the much-debated *Fatwā of 1903*
+      addressing the legal status of Muslim relations with the
+      colonial administration — remained the principal Sunni
+      jurisprudential reference of southern Mauritania for the
+      first half of the twentieth century, and his Boutilimit
+      *zāwiya* (transmitting the same Qādirī chain that
+      al-Kuntī had carried into the Tinbuktu region a century
+      earlier) shaped Mauritanian Mālikī scholarship for
+      generations.
+    description_ar: |
+      توفي الشيخ سيدية بابا بن سيدي محمد بن سيدية الكبير — الفقيه
+      المالكي الموريتاني، وشيخ الطريقة القادرية في أسرة «السيدية»
+      بإمارة الترارزة في الصحراء الغربية، وحفيد الشيخ المؤسس
+      «سيدية الكبير» (ت ١٢٨٤ هـ/١٨٦٨ ميلادي)، خليفة عمه سيدي محمد
+      على رئاسة زاوية الأسرة، وأحد أبرز علماء أهل السنة في جنوب
+      موريتانيا في صدر العهد الاستعماري الفرنسي — في زاويته بـ
+      «بوتلميت» يوم ١٣ ذي الحجة سنة ١٣٤٢ هـ/١٦ يوليو ١٩٢٤ ميلادي.
+      وقد ناهز الثانية والستين. ومراسلاته وفتاويه الواسعة — ومنها
+      «فتوى ١٩٠٣» المثيرة للجدل في حكم التعامل مع الإدارة
+      الاستعمارية — ظلت المرجع الفقهي السني الأول في جنوب موريتانيا
+      في النصف الأول من القرن العشرين؛ وزاويته في بوتلميت — التي
+      تنقل السلسلة القادرية نفسها التي حمل بها الكنتيون قبل قرن
+      إلى منطقة تنبكتو — قعّدت الفقه المالكي الموريتاني أجيالاً.
+    description_fr: |
+      Cheikh Sidiyya Bābā ibn Sīdī Muḥammad ibn Sīdiyya al-Kabīr —
+      juriste mālikite mauritanien et cheikh qādirī de la famille
+      Sīdiyya de l'émirat ouest-saharien du Trarza, petit-fils du
+      savant fondateur Sīdiyya al-Kabīr (m. 1284 H / 1868 EC),
+      successeur de son oncle Sīdī Muḥammad à la tête de la
+      *zāwiya* familiale, et plus influent des ʿulamāʾ sunnites
+      du sud de la Mauritanie au début de la période coloniale
+      française — mourut à sa zāwiya de Boutilimit le 13
+      Dhū al-Ḥijja 1342 H / 16 juillet 1924 EC. Il avait environ
+      62 ans. Sa vaste correspondance et ses fatwas — dont la très
+      débattue *fatwa de 1903* traitant du statut juridique des
+      relations des musulmans avec l'administration coloniale —
+      demeurèrent la référence jurisprudentielle sunnite principale
+      du sud de la Mauritanie pendant la première moitié du XXe
+      siècle, et sa *zāwiya* de Boutilimit (transmettant la même
+      chaîne qādirī que les Kuntīs avaient portée dans la région
+      de Tombouctou un siècle plus tôt) façonna l'érudition
+      mālikite mauritanienne pendant des générations.
+    canonical_hijri: {year: 1342, month: 12, day: 13, precision: day}
+    canonical_gregorian: {date: 1924-07-16, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[cheikh-sidiyya-baba, subject]]
+    tags: [mauritania, west-africa, qadiriyya, maliki, trarza, boutilimit, colonial]
+    importance: notable
+    verification_status: cross_verified

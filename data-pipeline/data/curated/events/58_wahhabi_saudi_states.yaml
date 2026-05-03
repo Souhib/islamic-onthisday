@@ -1,0 +1,883 @@
+# Wave 58 of curated event additions (2026-04-27).
+# The Najdi Wahhābī daʿwa and the three Saudi states. Twelve year-anchored
+# entries spanning the death of Muḥammad ibn ʿAbd al-Wahhāb (1206 AH) to
+# the recovery of Riyadh by ʿAbd al-ʿAzīz ibn ʿAbd al-Raḥmān Āl Saʿūd
+# (1319 AH / 1902 CE) — beginning of the Third Saudi State.
+#
+# These events post-date the classical wafayāt corpus (al-Dhahabī d. 748 AH;
+# Ibn al-ʿImād's Shadharāt extends only through 1000 AH); the standard
+# secondary cross-reference pair for this era is EI2 + the editorial
+# compilation, occasionally supplemented when both Brill EI2 articles for
+# the figure exist (e.g. "Wahhābiyya", "Saʿūd"). Where ≥2 source rows from
+# sources.yaml could not be justified independently, the entry is marked
+# single_source.
+#
+# Editorial framing — explicitly factual-historical, neither endorsing the
+# Wahhābī theological programme nor adopting modernist polemic against it.
+# Muḥammad ibn ʿAbd al-Wahhāb is presented as a Najdi Sunni Ḥanbalī
+# reformer; the Saʿūd polities are presented as the political vehicles of
+# his daʿwa. The capture of Karbala (1216 AH/1802 CE) and the destruction
+# of shrines is reported factually. The Egyptian-Ottoman destruction of
+# al-Diriyya (1233 AH/1818 CE) is reported factually. No moralizing in
+# either direction. Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # FOUNDING FIGURES — THE PACT OF AL-DIRʿIYYA AND THE FIRST SAUDI STATE
+  # =========================================================================
+
+  - slug: pact-of-al-diriyya
+    category: treaty
+    title_en: Pact of al-Dirʿiyya — Alliance of Muḥammad ibn ʿAbd al-Wahhāb and Muḥammad ibn Saʿūd
+    title_ar: ميثاق الدرعية بين الشيخ محمد بن عبد الوهاب والأمير محمد بن سعود
+    title_fr: Pacte d'al-Dirʿiyya entre Muḥammad ibn ʿAbd al-Wahhāb et Muḥammad ibn Saʿūd
+    description_en: |
+      The Najdi Sunni-Ḥanbalī reformer Muḥammad ibn ʿAbd al-Wahhāb,
+      after being expelled from al-ʿUyayna, took refuge in the
+      neighbouring oasis-town of al-Dirʿiyya in central Najd, where
+      its emir Muḥammad ibn Saʿūd ibn Muqrin received him and
+      concluded a formal pact (*bayʿa*) of mutual support: the
+      shaykh would direct the religious daʿwa — calling for a
+      return to scriptural *tawḥīd* and the rejection of practices
+      he classed as *bidʿa* (intercession at tombs, votive vows,
+      saint-veneration) — and the emir would protect and propagate
+      the daʿwa by political-military means. The compact, made
+      circa 1157 AH/1744 CE, founded what historians call the
+      First Saudi State and remained the constitutional formula of
+      every subsequent Saudi polity: religious authority for Āl
+      al-Shaykh, political authority for Āl Saʿūd. Within sixty
+      years their joint enterprise would extend from al-Dirʿiyya
+      to all of Najd, the Ḥijāz, and the Gulf coast.
+    description_ar: |
+      لجأ الشيخ محمد بن عبد الوهاب — الفقيه النجدي السني الحنبلي
+      الداعي إلى تجديد التوحيد والاعتراض على ما عدَّه بدعاً
+      كالاستغاثة بالقبور والنذور والتوسل بالأولياء — بعد إخراجه
+      من العيينة إلى بلدة الدرعية في وسط نجد، فاستقبله أميرها
+      محمد بن سعود بن مقرن وعقد معه ميثاقاً (بيعة) صريحاً
+      للتعاون: يتولى الشيخ توجيه الدعوة الدينية، ويتولى الأمير
+      حمايتها ونشرها بالقوّة. وقع الميثاق في حوالي سنة ١١٥٧ هـ
+      الموافق ١٧٤٤ ميلادي، فكان ابتداءَ ما يسميه المؤرخون
+      «الدولة السعودية الأولى»، وصار صيغته الدستورية الثابتة في
+      كل دولة سعودية لاحقة: السلطة الدينية لآل الشيخ، والسلطة
+      السياسية لآل سعود. وتوسعت الدعوة بعد ستين سنة من ذلك من
+      الدرعية فعمَّت نجداً والحجاز وساحل الخليج.
+    description_fr: |
+      Le réformateur sunnite-ḥanbalī najdī Muḥammad ibn ʿAbd
+      al-Wahhāb, après avoir été expulsé d'al-ʿUyayna, trouva
+      refuge dans l'oasis voisine d'al-Dirʿiyya au cœur du Najd,
+      où son émir Muḥammad ibn Saʿūd ibn Muqrin l'accueillit et
+      conclut avec lui un pacte formel (*bayʿa*) d'appui
+      mutuel : le cheikh dirigerait la daʿwa religieuse —
+      appelant au retour au *tawḥīd* scripturaire et au rejet
+      de ce qu'il classait comme *bidʿa* (intercession aux
+      tombeaux, vœux votifs, vénération des saints) — et l'émir
+      protégerait et propagerait cette daʿwa par les moyens
+      politico-militaires. Conclu vers 1157 H/1744 EC, ce pacte
+      fonda ce que les historiens appellent le Premier État
+      saʿūdī et resta la formule constitutionnelle de toute
+      principauté saʿūdī ultérieure : l'autorité religieuse aux
+      Āl al-Shaykh, l'autorité politique aux Āl Saʿūd. En soixante
+      ans, leur entreprise commune s'étendrait d'al-Dirʿiyya à
+      tout le Najd, le Ḥijāz et la côte du Golfe.
+    canonical_hijri: {year: 1157, precision: year}
+    canonical_gregorian: {date: 1744-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Wahhābiyya' and 'Saʿūd, Āl' place the alliance at al-Dirʿiyya c. 1157 AH / 1744 CE."
+      - source_key: editorial
+        notes: "Editorial summary; standard date in Western and Saudi historiographies."
+    people:
+      - [muhammad-ibn-abd-al-wahhab, subject]
+      - [muhammad-ibn-saud, subject]
+    tags: [najd, diriyya, first-saudi-state, hanbali, religious-movement, alliance, modern]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Diriyah"
+
+  - slug: death-of-muhammad-ibn-saud
+    category: ruler_death
+    title_en: Death of Muḥammad ibn Saʿūd — Founder of the First Saudi State
+    title_ar: وفاة الأمير محمد بن سعود — مؤسس الدولة السعودية الأولى
+    title_fr: Mort de Muḥammad ibn Saʿūd — fondateur du Premier État saʿūdī
+    description_en: |
+      Muḥammad ibn Saʿūd ibn Muqrin, emir of al-Dirʿiyya and
+      founder of the First Saudi State through his pact with
+      Muḥammad ibn ʿAbd al-Wahhāb (c. 1157 AH/1744 CE), died at
+      al-Dirʿiyya in 1179 AH/1765 CE after some twenty years of
+      jointly building the Najdi religious-political enterprise.
+      Under him the daʿwa was secured against the local opposition
+      of the rival Najdi towns of al-Riyāḍ, al-ʿUyayna, Manfūḥa,
+      and ʿUnayza, and the territorial nucleus of the state was
+      consolidated around al-Dirʿiyya. He was succeeded by his
+      son ʿAbd al-ʿAzīz ibn Muḥammad, under whose four-decade
+      reign the state would expand to all of Najd, eastern
+      Arabia, and ultimately into the Ḥijāz and Iraq.
+    description_ar: |
+      توفي محمد بن سعود بن مقرن — أمير الدرعية ومؤسس الدولة
+      السعودية الأولى بميثاقه مع الشيخ محمد بن عبد الوهاب نحو
+      ١١٥٧ هـ (١٧٤٤ ميلادي) — في الدرعية سنة ١١٧٩ هـ (١٧٦٥
+      ميلادي) بعد قرابة عشرين سنة من البناء المشترك لمشروع
+      الدعوة النجدية الديني السياسي. وفي عهده ثبتت الدعوة
+      بمواجهة المعارضة المحلية من القرى النجدية المنافسة
+      كالرياض والعيينة ومنفوحة وعنيزة، وتركَّز نواة الدولة
+      الترابية حول الدرعية. وخلفه ابنه عبد العزيز بن محمد، الذي
+      امتدت في عهده الذي قارب أربعة عقود الدولةُ إلى عامة نجد
+      وشرق الجزيرة، ثم إلى الحجاز والعراق.
+    description_fr: |
+      Muḥammad ibn Saʿūd ibn Muqrin, émir d'al-Dirʿiyya et
+      fondateur du Premier État saʿūdī par son pacte avec
+      Muḥammad ibn ʿAbd al-Wahhāb (vers 1157 H/1744 EC), mourut
+      à al-Dirʿiyya en 1179 H/1765 EC, après une vingtaine
+      d'années de construction commune de l'entreprise
+      religieuse-politique najdī. Sous son règne la daʿwa fut
+      consolidée contre l'opposition locale des bourgs najdī
+      rivaux — al-Riyāḍ, al-ʿUyayna, Manfūḥa, ʿUnayza — et le
+      noyau territorial de l'État se forma autour d'al-Dirʿiyya.
+      Son fils ʿAbd al-ʿAzīz ibn Muḥammad lui succéda; sous le
+      règne de quatre décennies de ce dernier l'État s'étendrait
+      à tout le Najd, à l'Arabie orientale, puis au Ḥijāz et à
+      l'Irak.
+    canonical_hijri: {year: 1179, precision: year}
+    canonical_gregorian: {date: 1765-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Saʿūd, Āl' gives 1179 AH / 1765 CE for the death of the dynastic founder."
+      - source_key: editorial
+        notes: "Editorial summary; standard date in Saudi historiography."
+    people: [[muhammad-ibn-saud, died]]
+    tags: [najd, diriyya, first-saudi-state, ruler, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_bin_Saud"
+
+  - slug: death-of-muhammad-ibn-abd-al-wahhab
+    category: scholar_death
+    title_en: Death of Muḥammad ibn ʿAbd al-Wahhāb — the Najdi Reformer
+    title_ar: وفاة الشيخ محمد بن عبد الوهاب — صاحب الدعوة النجدية
+    title_fr: Mort de Muḥammad ibn ʿAbd al-Wahhāb — le réformateur najdī
+    description_en: |
+      Muḥammad ibn ʿAbd al-Wahhāb al-Tamīmī, Najdi Sunni-Ḥanbalī
+      jurist and the religious leader of the Najdi daʿwa, died at
+      al-Dirʿiyya in 1206 AH/1792 CE at about ninety lunar years
+      of age. Trained in the Ḥanbalī jurisprudence of Najd,
+      Medina, Basra, and al-Aḥsāʾ — and steeped in the works of
+      Ibn Taymiyya and Ibn Qayyim al-Jawziyya — he called from
+      circa 1157 AH onward for a return to direct scriptural
+      *tawḥīd* and the abandonment of practices he classed as
+      *bidʿa*: intercession at tombs, votive vows, saint-cult
+      shrines, magical amulets. His treatise *Kitāb al-Tawḥīd*
+      and the *Thalāthat al-Uṣūl* became the catechetical core
+      of the daʿwa. His pact with Muḥammad ibn Saʿūd at
+      al-Dirʿiyya (c. 1157 AH/1744 CE) gave the movement a
+      political vehicle; by his death the First Saudi State
+      controlled most of central Arabia. He was succeeded in
+      religious authority by his sons and the lineage of Āl
+      al-Shaykh, which has retained that role across all three
+      Saudi states.
+    description_ar: |
+      توفي الشيخ محمد بن عبد الوهاب التميمي — الفقيه النجدي
+      السني الحنبلي، وإمام الدعوة النجدية — في الدرعية سنة
+      ١٢٠٦ هـ (١٧٩٢ ميلادي) عن نحو تسعين سنة هلالية. قرأ فقه
+      الحنابلة بنجد والمدينة والبصرة والأحساء، وعنيَ خاصةً
+      بأعمال شيخ الإسلام ابن تيمية وتلميذه ابن قيم الجوزية،
+      ودعا منذ نحو سنة ١١٥٧ هـ إلى تجريد التوحيد على نصوص
+      الكتاب والسنة وترك ما عدَّه من البدع: الاستغاثة بالقبور،
+      والنذور لها، وعمارة الأضرحة، والتمائم. وصار كتاباه
+      «التوحيد» و«الأصول الثلاثة» متن الدعوة. وأَفضى ميثاقه
+      مع الأمير محمد بن سعود في الدرعية نحو سنة ١١٥٧ هـ
+      (١٧٤٤ ميلادي) إلى مرتكز سياسي عسكري للدعوة، وعند وفاته
+      كانت الدولة السعودية الأولى قد بسطت سلطانها على معظم
+      وسط الجزيرة. وخلفه في الإمامة الدينية أولاده وذريّته من
+      «آل الشيخ»، وقد بقيت هذه السلطة في عقبهم في الدول
+      السعودية الثلاث.
+    description_fr: |
+      Muḥammad ibn ʿAbd al-Wahhāb al-Tamīmī, juriste sunnite-
+      ḥanbalī najdī et chef religieux de la daʿwa najdī, mourut
+      à al-Dirʿiyya en 1206 H/1792 EC, à environ quatre-vingt-
+      dix années lunaires. Formé au fiqh ḥanbalī au Najd, à
+      Médine, à Bassora et à al-Aḥsāʾ — et nourri de l'œuvre
+      d'Ibn Taymiyya et d'Ibn Qayyim al-Jawziyya — il appela à
+      partir de 1157 H environ à un retour au *tawḥīd*
+      strictement scripturaire et au rejet de ce qu'il classait
+      comme *bidʿa* : intercession aux tombeaux, vœux votifs,
+      culte des saints, amulettes. Son *Kitāb al-Tawḥīd* et les
+      *Thalāthat al-Uṣūl* devinrent le manuel catéchétique de la
+      daʿwa. Son pacte avec Muḥammad ibn Saʿūd à al-Dirʿiyya
+      (vers 1157 H/1744 EC) donna au mouvement un véhicule
+      politique ; à sa mort, le Premier État saʿūdī contrôlait
+      la majeure partie de l'Arabie centrale. Ses fils et la
+      lignée des Āl al-Shaykh lui succédèrent dans l'autorité
+      religieuse, qu'ils ont conservée à travers les trois
+      États saʿūdī.
+    canonical_hijri: {year: 1206, precision: year}
+    canonical_gregorian: {date: 1792-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Muḥammad b. ʿAbd al-Wahhāb' gives 1206 AH / 1792 CE for the death at al-Dirʿiyya."
+      - source_key: editorial
+        notes: "Editorial summary; standard date across the Wahhābī biographical literature."
+    people: [[muhammad-ibn-abd-al-wahhab, died]]
+    tags: [najd, diriyya, scholar, hanbali, religious-movement, modern]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab"
+
+  # =========================================================================
+  # FIRST SAUDI STATE — EXPANSIONS UNDER ʿABD AL-ʿAZĪZ AND SAʿŪD AL-KABĪR
+  # =========================================================================
+
+  - slug: wahhabi-capture-of-al-ahsa
+    category: conquest
+    title_en: Capture of al-Aḥsāʾ by the First Saudi State
+    title_ar: ضمّ الأحساء إلى الدولة السعودية الأولى
+    title_fr: Conquête d'al-Aḥsāʾ par le Premier État saʿūdī
+    description_en: |
+      The army of Saʿūd ibn ʿAbd al-ʿAzīz — son and heir-apparent
+      of the Saʿūdī emir ʿAbd al-ʿAzīz ibn Muḥammad — captured
+      the oasis-province of al-Aḥsāʾ on the Gulf coast in 1207
+      AH/1793 CE, ending the local Banū Khālid emirate that had
+      held the province since the seventeenth century. The
+      conquest gave the First Saudi State its first Gulf
+      coastline and the customs revenues of the trans-Arabian
+      caravan terminus at al-Hufūf and al-Mubarraz. Al-Aḥsāʾ —
+      with a substantial Twelver Shīʿī population — was placed
+      under a Wahhābī-Saʿūdī governor, and its tribute funded
+      the subsequent campaigns into the Ḥijāz and southern Iraq.
+      The province would remain under intermittent Saʿūdī
+      control through the destruction of al-Dirʿiyya in 1233 AH
+      and was reconquered for the Third Saudi State by ʿAbd
+      al-ʿAzīz ibn Saʿūd in 1331 AH/1913 CE.
+    description_ar: |
+      افتتح الأمير سعود بن عبد العزيز — ولي عهد الأمير عبد
+      العزيز بن محمد بن سعود — إقليمَ الأحساء على ساحل الخليج
+      سنة ١٢٠٧ هـ (١٧٩٣ ميلادي)، فأنهى إمارة بني خالد
+      المحلية التي كانت تحكم الإقليم منذ القرن الحادي عشر
+      الهجري. وأَتاح هذا الفتح للدولة السعودية الأولى أول
+      منفذٍ بحري لها، ومدخولات جمارك المحطة العابرة للجزيرة في
+      الهفوف والمبرّز. وكان في الأحساء عدد كبير من الشيعة
+      الإمامية، فعُيِّن عليها والٍ سعودي وهابي، وموَّلت جزيتها
+      الحملاتِ التالية على الحجاز وجنوب العراق. وبقي الإقليم
+      تحت سيطرة سعودية متقطعة إلى تدمير الدرعية سنة ١٢٣٣ هـ،
+      وأَعاد الملك عبد العزيز ابن سعود فتحه للدولة السعودية
+      الثالثة سنة ١٣٣١ هـ (١٩١٣ ميلادي).
+    description_fr: |
+      L'armée de Saʿūd ibn ʿAbd al-ʿAzīz — fils et héritier
+      présomptif de l'émir saʿūdī ʿAbd al-ʿAzīz ibn Muḥammad —
+      conquit l'oasis-province d'al-Aḥsāʾ sur la côte du Golfe
+      en 1207 H/1793 EC, mettant fin à l'émirat local des Banū
+      Khālid qui dominait la province depuis le XVIIe siècle.
+      Cette conquête donna au Premier État saʿūdī sa première
+      façade maritime et les revenus douaniers du terminus
+      caravanier transarabique à al-Hufūf et al-Mubarraz.
+      Al-Aḥsāʾ — peuplée d'une importante communauté shīʿite
+      duodécimaine — fut placée sous un gouverneur saʿūdī
+      wahhābī, et son tribut financera les campagnes
+      ultérieures dans le Ḥijāz et le sud de l'Irak. La
+      province resta sous contrôle saʿūdī intermittent jusqu'à
+      la destruction d'al-Dirʿiyya en 1233 H, et fut reconquise
+      pour le Troisième État saʿūdī par ʿAbd al-ʿAzīz Ibn Saʿūd
+      en 1331 H/1913 EC.
+    canonical_hijri: {year: 1207, precision: year}
+    canonical_gregorian: {date: 1793-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Aḥsāʾ' and 'Saʿūd, Āl' date the conquest to 1207 AH / 1793 CE."
+      - source_key: editorial
+    people:
+      - [abd-al-aziz-ibn-muhammad-ibn-saud, leader]
+      - [saud-ibn-abd-al-aziz-the-great, leader]
+    tags: [najd, al-ahsa, gulf, first-saudi-state, conquest, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Ahsa_Oasis"
+
+  - slug: wahhabi-capture-of-karbala-1802
+    category: battle
+    title_en: Saudi Raid on Karbala
+    title_ar: غارة السعوديين على كربلاء
+    title_fr: Raid saʿūdī sur Karbalāʾ
+    description_en: |
+      A force of the First Saudi State under Saʿūd ibn ʿAbd
+      al-ʿAzīz raided the Iraqi Shīʿī shrine-city of Karbala on
+      18 Dhū al-Qaʿda 1216 AH/21 April 1802 CE, sacking the
+      shrine of al-Ḥusayn ibn ʿAlī, killing a substantial number
+      of inhabitants, and seizing the shrine treasury. The raid
+      was carried out under the doctrinal programme of the
+      Najdi daʿwa, which classed the architectural cult of
+      tombs as *bidʿa* contrary to scriptural *tawḥīd*; the
+      Saʿūdī force struck during a season when most of the
+      city's male defenders were absent on pilgrimage. The
+      attack provoked a permanent breach with Qajar Iran and a
+      lasting place in the Shīʿī collective memory of the era,
+      and is one of the canonical episodes of the First Saudi
+      State's expansion northward. It is reported with broad
+      agreement across Ottoman, Iranian, and Western sources;
+      the figures for the dead vary widely between contemporary
+      reports.
+    description_ar: |
+      غزت قواتُ الدولة السعودية الأولى بقيادة الأمير سعود بن
+      عبد العزيز مدينة كربلاء العراقية الشيعية يوم ١٨ ذي
+      القعدة سنة ١٢١٦ هـ (الموافق ٢١ إبريل ١٨٠٢ ميلادي)،
+      فاقتحمت ضريح الحسين بن علي رضي الله عنهما، وقتلت عدداً
+      كبيراً من السكان، وأخذت ما في خزانة الضريح. وقد جرى
+      الغزو في إطار البرنامج الدعوي النجدي القائل ببدعية
+      تعمير القبور وتعارضِها مع توحيد الكتاب والسنة، وضربت
+      القوة السعودية في موسم كان كثيرٌ من المدافعين الذكور
+      غائبين عن المدينة في الحج. وأحدث الغزو قطيعةً ثابتة مع
+      إيران القاجارية ومكانةً ثابتة في الذاكرة الجماعية
+      الشيعية لذلك العصر، وهو من المواقف الكنسية في توسع
+      الدولة السعودية الأولى شمالاً. والمصادر العثمانية
+      والإيرانية والغربية متفقة في وقوعه، أما عدد القتلى
+      فمختلف فيه بين التقارير المعاصرة.
+    description_fr: |
+      Une force du Premier État saʿūdī conduite par Saʿūd ibn
+      ʿAbd al-ʿAzīz lança un raid sur la ville-sanctuaire
+      shīʿite irakienne de Karbalāʾ le 18 Dhū al-Qaʿda 1216
+      H/21 avril 1802 EC, prenant d'assaut le sanctuaire d'al-
+      Ḥusayn ibn ʿAlī, tuant un nombre considérable d'habitants
+      et s'emparant du trésor du sanctuaire. Le raid s'inscrivait
+      dans le programme doctrinal de la daʿwa najdī, qui classait
+      l'architecture funéraire votive comme *bidʿa* contraire au
+      *tawḥīd* scripturaire ; la force saʿūdī frappa pendant
+      une saison où la plupart des défenseurs masculins de la
+      ville étaient absents en pèlerinage. L'attaque provoqua
+      une rupture permanente avec l'Iran qajar et garda une
+      place durable dans la mémoire collective shīʿite de
+      l'époque, et constitue l'un des épisodes canoniques de
+      l'expansion du Premier État saʿūdī vers le nord. Elle est
+      rapportée d'un commun accord par les sources ottomanes,
+      iraniennes et occidentales ; les chiffres des morts
+      varient largement entre rapports contemporains.
+    canonical_hijri: {year: 1216, month: 11, day: 18, precision: day}
+    canonical_gregorian: {date: 1802-04-21, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Karbalāʾ' and 'Saʿūd, Āl' record the raid on 18 Dhū al-Qaʿda 1216 AH / 21 April 1802 CE."
+      - source_key: editorial
+        notes: "Editorial summary; agreement across Ottoman, Iranian and Western sources for date; numbers of casualties disputed."
+    people: [[saud-ibn-abd-al-aziz-the-great, leader]]
+    tags: [first-saudi-state, karbala, iraq, ottoman, qajar, modern, shrine]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Wahhabi_sack_of_Karbala"
+
+  - slug: first-wahhabi-capture-of-mecca
+    category: conquest
+    title_en: First Saudi Capture of Mecca
+    title_ar: دخول السعوديين الأول مكة المكرمة
+    title_fr: Première prise de La Mecque par le Premier État saʿūdī
+    description_en: |
+      Saʿūd ibn ʿAbd al-ʿAzīz, heir-apparent of the First Saudi
+      State, entered Mecca on 8 Muḥarram 1218 AH/30 April 1803
+      CE after the Hāshimite sharīf Ghālib ibn Musāʿid withdrew
+      to Jeddah; the city was occupied without battle. Saʿūdī
+      authority over the holy city — the first such authority
+      since the establishment of the sharīfate eight centuries
+      earlier — lasted into the Ottoman-Egyptian counter-
+      campaign of 1228-1233 AH. During the occupation, votive
+      structures over graves in the cemeteries of al-Maʿlāh
+      and al-ʿUyayn were demolished in line with the daʿwa's
+      anti-*bidʿa* programme. Saʿūd kept the Hāshimite
+      administrative apparatus in place under his authority
+      and instituted the Wahhābī liturgical calendar in the
+      Ḥaram. Sharīf Ghālib reconciled with the Saʿūdīs the
+      following year and was reinstalled as governor under
+      Saʿūdī suzerainty.
+    description_ar: |
+      دخل ولي عهد الدولة السعودية الأولى الأمير سعود بن عبد
+      العزيز مكةَ المكرمة يوم ٨ محرم سنة ١٢١٨ هـ (الموافق
+      ٣٠ إبريل ١٨٠٣ ميلادي) بعد انسحاب الشريف الهاشمي غالب
+      بن مساعد إلى جدة، فاحتل المدينةَ من غير قتال. وكانت
+      هذه أول سلطة سعودية على البلد الحرام — وأوّلَ سلطةٍ
+      عليه من غير الشريفية الهاشمية منذ نحو ثمانية قرون —
+      وامتدت إلى الحملة العثمانية المصرية المضادة سنة
+      ١٢٢٨-١٢٣٣ هـ. وأثناء الإقامة هُدمت القباب والأبنية
+      الموقوفة على القبور في مقبرتي «المعلاة» و«العيين»
+      وفقاً لبرنامج الدعوة في إنكار البدع، وأبقى الأمير سعود
+      الجهازَ الإداري الهاشمي تحت سلطانه، وأَجرى ترتيب الحرم
+      على المنهج الوهابي. وتصالح الشريف غالب مع السعوديين
+      في السنة التالية وأعيد والياً تحت سيادتهم.
+    description_fr: |
+      Saʿūd ibn ʿAbd al-ʿAzīz, héritier présomptif du Premier
+      État saʿūdī, entra à La Mecque le 8 Muḥarram 1218 H/30
+      avril 1803 EC après le retrait du sharīf hāshimite
+      Ghālib ibn Musāʿid à Djedda ; la ville fut occupée sans
+      combat. L'autorité saʿūdī sur la ville sainte — la
+      première hors du sharīfat hāshimite depuis huit siècles
+      — dura jusqu'à la contre-campagne ottomano-égyptienne
+      de 1228-1233 H. Pendant l'occupation, les structures
+      votives surmontant les sépultures des cimetières
+      d'al-Maʿlāh et d'al-ʿUyayn furent détruites conformément
+      au programme anti-*bidʿa* de la daʿwa. Saʿūd maintint
+      l'appareil administratif hāshimite sous son autorité et
+      institua la liturgie wahhābī au Ḥaram. Le sharīf Ghālib
+      se réconcilia avec les Saʿūdīs l'année suivante et fut
+      réinstallé comme gouverneur sous suzeraineté saʿūdī.
+    canonical_hijri: {year: 1218, month: 1, day: 8, precision: day}
+    canonical_gregorian: {date: 1803-04-30, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Makka' and 'Saʿūd, Āl' date the first Saʿūdī entry to 8 Muḥarram 1218 AH / 30 April 1803 CE."
+      - source_key: editorial
+        notes: "Editorial summary; standard date in the Saʿūdī and Western historiographies."
+    people: [[saud-ibn-abd-al-aziz-the-great, leader]]
+    tags: [hijaz, mecca, first-saudi-state, conquest, modern]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/First_Saudi_state"
+
+  - slug: first-wahhabi-capture-of-medina
+    category: conquest
+    title_en: First Saudi Capture of Medina
+    title_ar: دخول السعوديين الأول المدينةَ المنورة
+    title_fr: Première prise de Médine par le Premier État saʿūdī
+    description_en: |
+      A Saʿūdī army under Saʿūd ibn ʿAbd al-ʿAzīz — by then
+      effective ruler of the First Saudi State after the
+      assassination of his father ʿAbd al-ʿAzīz at al-Dirʿiyya
+      in 1218 AH — entered Medina in 1220 AH/1805 CE after a
+      siege of about a year, completing Saʿūdī control of the
+      Ḥijāz. The Ottoman garrison and the city's governor
+      were expelled; Saʿūdī authority over the Prophet's ﷺ
+      city, like that over Mecca two years earlier, was the
+      first non-Hāshimite, non-Ottoman regime since the
+      Ayyūbid era. During the occupation a number of votive
+      domes and shrine-structures within al-Baqīʿ cemetery
+      were demolished in line with the daʿwa's *bidʿa*
+      programme. Saʿūdī administration of Medina lasted until
+      Ibrāhīm Pāshā's Egyptian-Ottoman army recovered the
+      city in 1227 AH/1812 CE, opening the campaign that
+      would end at al-Dirʿiyya six years later.
+    description_ar: |
+      دخل جيش الدولة السعودية الأولى بقيادة الأمير سعود بن
+      عبد العزيز — وقد صار حينها الحاكم الفعلي للدولة بعد
+      اغتيال أبيه عبد العزيز في الدرعية سنة ١٢١٨ هـ —
+      المدينةَ المنورة سنة ١٢٢٠ هـ (الموافق ١٨٠٥ ميلادي)
+      بعد حصار قرابة السنة، فاكتمل بذلك سلطان الدولة على
+      الحجاز. وأخرج الأميرُ الحاميةَ العثمانية ووالي
+      المدينة، فكانت سلطته على مدينة النبي ﷺ — كسلطته على
+      مكة قبل ذلك بسنتين — أوّل سلطة على البلد من خارج
+      الشرفاء الهاشميين والعثمانيين منذ زمن الأيوبيين.
+      وأثناء الإقامة هُدمت قبابٌ وأبنية موقوفة على قبور
+      البقيع وفقاً لبرنامج الدعوة في إنكار البدع. وامتدت
+      الإدارة السعودية في المدينة إلى أن استعادها جيش
+      إبراهيم باشا المصري العثماني سنة ١٢٢٧ هـ (١٨١٢
+      ميلادي)، فابتدأت بذلك الحملة التي ستنتهي بسقوط
+      الدرعية بعد ست سنوات.
+    description_fr: |
+      Une armée saʿūdī conduite par Saʿūd ibn ʿAbd al-ʿAzīz —
+      dirigeant effectif du Premier État saʿūdī après
+      l'assassinat de son père ʿAbd al-ʿAzīz à al-Dirʿiyya en
+      1218 H — entra à Médine en 1220 H/1805 EC à l'issue
+      d'environ un an de siège, achevant le contrôle saʿūdī
+      du Ḥijāz. La garnison ottomane et le gouverneur de la
+      ville furent expulsés ; l'autorité saʿūdī sur la ville
+      du Prophète ﷺ, comme celle sur La Mecque deux ans plus
+      tôt, fut le premier régime non-hāshimite et non-ottoman
+      depuis l'époque ayyūbide. Pendant l'occupation, plusieurs
+      coupoles et structures votives du cimetière d'al-Baqīʿ
+      furent détruites conformément au programme anti-*bidʿa*
+      de la daʿwa. L'administration saʿūdī de Médine dura
+      jusqu'à la reprise de la ville par l'armée égypto-
+      ottomane d'Ibrāhīm Pāshā en 1227 H/1812 EC, ouvrant la
+      campagne qui s'achèverait à al-Dirʿiyya six ans plus
+      tard.
+    canonical_hijri: {year: 1220, precision: year}
+    canonical_gregorian: {date: 1805-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Madīna' and 'Saʿūd, Āl' date the first Saʿūdī occupation to 1220 AH / 1805 CE."
+      - source_key: editorial
+    people: [[saud-ibn-abd-al-aziz-the-great, leader]]
+    tags: [hijaz, medina, first-saudi-state, conquest, modern]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/First_Saudi_state"
+
+  # =========================================================================
+  # FALL OF THE FIRST SAUDI STATE
+  # =========================================================================
+
+  - slug: destruction-of-al-diriyya-1818
+    category: battle
+    title_en: Destruction of al-Dirʿiyya by Ibrāhīm Pāshā — End of the First Saudi State
+    title_ar: تدمير الدرعية على يد إبراهيم باشا — نهاية الدولة السعودية الأولى
+    title_fr: Destruction d'al-Dirʿiyya par Ibrāhīm Pāshā — fin du Premier État saʿūdī
+    description_en: |
+      The Egyptian-Ottoman army of Ibrāhīm Pāshā, son of the
+      Ottoman governor of Egypt Muḥammad ʿAlī, captured and
+      systematically demolished the Saʿūdī capital of al-Dirʿiyya
+      in central Najd on 9 Dhū al-Qaʿda 1233 AH/11 September
+      1818 CE after a siege of some six months. The reigning
+      Saʿūdī imam, ʿAbd Allāh ibn Saʿūd, surrendered and was
+      taken in chains to Cairo and then to Istanbul, where he
+      was executed by the Ottoman Sultan Maḥmūd II. The
+      destruction of al-Dirʿiyya — its palaces, mosques, and
+      water-channels razed to the foundations — marked the
+      formal end of the First Saudi State, established with
+      the Pact of al-Dirʿiyya seventy-four years earlier. The
+      campaign had been launched at the urging of the
+      Ottomans, alarmed by the Saʿūdī occupation of Mecca,
+      Medina, and the disruption of the ḥajj caravan, and
+      executed by the Egyptian forces under Muḥammad ʿAlī's
+      reorganisation. Survivors of Āl Saʿūd dispersed to
+      al-Riyāḍ and the surrounding settlements; one of them,
+      Turkī ibn ʿAbd Allāh, would re-establish the dynasty
+      six years later as the Second Saudi State.
+    description_ar: |
+      افتتح جيش إبراهيم باشا — ابن والي مصر العثماني محمد
+      علي — عاصمة الدولة السعودية الأولى الدرعيةَ في وسط
+      نجد يوم ٩ ذي القعدة سنة ١٢٣٣ هـ (الموافق ١١ سبتمبر
+      ١٨١٨ ميلادي) بعد حصار قرابة الستة أشهر، ثم دكَّها
+      دكاً منهجياً. واستسلم الإمام السعودي القائم عبد الله
+      بن سعود، فاقتيد في الأغلال إلى مصر ثم إلى الآستانة،
+      فأعدمه السلطان العثماني محمود الثاني هناك. وأَنهى
+      تدميرُ الدرعية — قصورُها ومساجدها وأفلاجها هُدمت من
+      قواعدها — رسمياً الدولةَ السعودية الأولى التي ابتدأت
+      بميثاق الدرعية قبل ذلك بأربع وسبعين سنة. وكانت الحملة
+      قد جُهِّزت بحضِّ العثمانيين الذين أَزعجهم احتلالُ
+      السعوديين لمكة والمدينة وانقطاعُ ركب الحج، وتولّى
+      تنفيذها الجيشُ المصري في إعادة تنظيم محمد علي. وتفرّق
+      من بقي من آل سعود إلى الرياض وما حولها، ثم أعاد
+      تركي بن عبد الله إنشاء الأسرة بعد ست سنوات في
+      «الدولة السعودية الثانية».
+    description_fr: |
+      L'armée égypto-ottomane d'Ibrāhīm Pāshā, fils du
+      gouverneur ottoman d'Égypte Muḥammad ʿAlī, prit et
+      détruisit méthodiquement la capitale saʿūdī
+      d'al-Dirʿiyya au cœur du Najd le 9 Dhū al-Qaʿda 1233
+      H/11 septembre 1818 EC, au terme d'un siège d'environ
+      six mois. L'imam saʿūdī régnant, ʿAbd Allāh ibn Saʿūd,
+      se rendit et fut conduit en chaînes au Caire puis à
+      Istanbul, où le sultan ottoman Maḥmūd II le fit
+      exécuter. La destruction d'al-Dirʿiyya — palais, mosquées
+      et qanāts rasés jusqu'aux fondations — marqua la fin
+      formelle du Premier État saʿūdī, fondé soixante-quatorze
+      ans plus tôt par le Pacte d'al-Dirʿiyya. La campagne
+      avait été lancée à la demande des Ottomans, inquiets de
+      l'occupation saʿūdī de La Mecque, de Médine et de la
+      perturbation de la caravane du ḥajj, et exécutée par
+      les forces égyptiennes réorganisées par Muḥammad ʿAlī.
+      Les survivants des Āl Saʿūd se dispersèrent vers
+      al-Riyāḍ et les villages environnants ; l'un d'eux,
+      Turkī ibn ʿAbd Allāh, refondera la dynastie six ans plus
+      tard sous le nom de Second État saʿūdī.
+    canonical_hijri: {year: 1233, month: 11, day: 9, precision: day}
+    canonical_gregorian: {date: 1818-09-11, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Dirʿiyya' and 'Ibrāhīm Pāshā' date the surrender of ʿAbd Allāh ibn Saʿūd and the destruction to 9 Dhū al-Qaʿda 1233 AH / 11 September 1818 CE."
+      - source_key: editorial
+        notes: "Editorial summary; standard date in Western, Egyptian, and Saʿūdī historiographies."
+    people:
+      - [ibrahim-pasha-egypt, leader]
+      - [abd-allah-ibn-saud, opposed]
+    tags: [najd, diriyya, first-saudi-state, ottoman, egypt, siege, modern]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Saudi_War"
+
+  # =========================================================================
+  # SECOND SAUDI STATE — TURKĪ, FAYṢAL, AND THE FALL AT MULAYDA
+  # =========================================================================
+
+  - slug: founding-of-second-saudi-state
+    category: founding
+    title_en: Founding of the Second Saudi State by Turkī ibn ʿAbd Allāh
+    title_ar: تأسيس الدولة السعودية الثانية على يد تركي بن عبد الله
+    title_fr: Fondation du Second État saʿūdī par Turkī ibn ʿAbd Allāh
+    description_en: |
+      Turkī ibn ʿAbd Allāh ibn Muḥammad ibn Saʿūd — a grandson
+      of the founder of the First Saudi State who had escaped
+      the Egyptian massacres of 1233 AH — re-entered Najd in
+      1240 AH/1824 CE, expelled the Egyptian garrison, and
+      proclaimed himself imam of a restored Saʿūdī polity. Unable
+      to rebuild the demolished al-Dirʿiyya, he established
+      his capital at al-Riyāḍ, fifteen kilometres south. Within
+      a decade his rule extended over central Najd, al-Aḥsāʾ,
+      and parts of the Gulf coast. The Second Saudi State —
+      smaller in territory than the First, never controlling
+      the Ḥijāz — would last sixty-seven lunar years until its
+      collapse at Mulayda in 1308 AH. Turkī himself would be
+      assassinated at al-Riyāḍ in 1249 AH; he was succeeded by
+      his son Fayṣal, the second great architect of the polity.
+    description_ar: |
+      عاد الإمام تركي بن عبد الله بن محمد بن سعود — حفيد
+      مؤسس الدولة السعودية الأولى الذي نجا من المذابح
+      المصرية سنة ١٢٣٣ هـ — إلى نجد سنة ١٢٤٠ هـ (الموافق
+      ١٨٢٤ ميلادي)، فأخرج الحامية المصرية وأعلن نفسه إماماً
+      على دولة سعودية مستردّة. ولم يستطع إعمار الدرعية
+      المهدومة، فاتخذ من الرياض على نحو خمسة عشر كيلو
+      متراً جنوبَها عاصمةً له. وامتدّ سلطانه في عقد من
+      الزمن إلى وسط نجد والأحساء وأجزاء من ساحل الخليج.
+      وكانت الدولة السعودية الثانية — أصغر مساحةً من
+      الأولى، ولم تحكم الحجاز قط — ستبقى سبعاً وستين سنة
+      قمرية إلى أن انهارت في وقعة المليداء سنة ١٣٠٨ هـ.
+      اغتيل تركي نفسه في الرياض سنة ١٢٤٩ هـ، وخلفه ابنه
+      فيصل المعمار الثاني للدولة.
+    description_fr: |
+      Turkī ibn ʿAbd Allāh ibn Muḥammad ibn Saʿūd — petit-fils
+      du fondateur du Premier État saʿūdī rescapé des
+      massacres égyptiens de 1233 H — rentra au Najd en 1240
+      H/1824 EC, chassa la garnison égyptienne et se proclama
+      imam d'un État saʿūdī restauré. Incapable de rebâtir
+      al-Dirʿiyya détruite, il établit sa capitale à al-Riyāḍ,
+      à quinze kilomètres au sud. En une décennie son autorité
+      s'étendit sur le Najd central, al-Aḥsāʾ et une partie de
+      la côte du Golfe. Le Second État saʿūdī — plus petit en
+      territoire que le Premier, ne contrôlant jamais le Ḥijāz
+      — durerait soixante-sept années lunaires, jusqu'à
+      l'effondrement de Mulayda en 1308 H. Turkī lui-même
+      serait assassiné à al-Riyāḍ en 1249 H ; son fils Fayṣal,
+      second grand architecte de l'État, lui succéda.
+    canonical_hijri: {year: 1240, precision: year}
+    canonical_gregorian: {date: 1824-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Saʿūd, Āl' and 'al-Riyāḍ' date the restoration under Turkī ibn ʿAbd Allāh to 1240 AH / 1824 CE."
+      - source_key: editorial
+    people: [[turki-ibn-abd-allah, subject]]
+    tags: [najd, riyadh, second-saudi-state, founding, modern]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Emirate_of_Nejd"
+
+  - slug: death-of-faysal-ibn-turki
+    category: ruler_death
+    title_en: Death of Fayṣal ibn Turkī — Imam of the Second Saudi State
+    title_ar: وفاة الإمام فيصل بن تركي إمام الدولة السعودية الثانية
+    title_fr: Mort de Fayṣal ibn Turkī — imam du Second État saʿūdī
+    description_en: |
+      Fayṣal ibn Turkī Āl Saʿūd, third imam of the Second Saudi
+      State and its principal architect, died at al-Riyāḍ in
+      1282 AH/1865 CE after two reigns spanning roughly thirty
+      years. Born in al-Dirʿiyya before its destruction, taken
+      to Egypt in chains in 1233 AH, escaped after his father
+      Turkī's assassination, captured again by the Egyptians in
+      1253 AH and held in Cairo for five years, he returned to
+      al-Riyāḍ in 1259 AH, restored the Saʿūdī polity, and
+      governed it from then until his death. Under his second
+      reign (1259-1282 AH), the Second State reached its maximum
+      extent — central Najd, al-Aḥsāʾ, ʿAsīr, and tributary
+      relations with Bahrain, Qatar, and the Trucial coast.
+      He was succeeded by his sons in succession; their fratricidal
+      civil war in the next twenty-five years, exploited by the
+      Rashīdī emirs of Ḥāʾil, would end the dynasty at Mulayda.
+    description_ar: |
+      توفي الإمام فيصل بن تركي آل سعود — ثالث أئمة الدولة
+      السعودية الثانية ومهندسها الأكبر — في الرياض سنة
+      ١٢٨٢ هـ (الموافق ١٨٦٥ ميلادي) بعد عهدين متعاقبين
+      امتدا قرابة ثلاثين سنة. وُلد في الدرعية قبل تدميرها،
+      وأُخذ إلى مصر في الأغلال سنة ١٢٣٣ هـ، ونجا بعد
+      اغتيال أبيه تركي، وأُسر من المصريين ثانية سنة ١٢٥٣ هـ،
+      فحُبس بالقاهرة خمس سنين، ثم رجع إلى الرياض سنة ١٢٥٩ هـ،
+      فاستردّ الدولة السعودية وحكمها إلى وفاته. وفي عهده
+      الثاني (١٢٥٩-١٢٨٢ هـ) بلغت الدولة السعودية الثانية
+      أقصى امتدادها: وسط نجد والأحساء وعسير، وعلاقات تَبَع
+      مع البحرين وقطر وساحل الإمارات. وخلفه أبناؤه تباعاً،
+      فأَجرت الفتنة المتطاولة بينهم في خمسة وعشرين سنة
+      سعودية تالية — والتي استثمرها بنو رشيد أمراء حائل —
+      نهاية الأسرة في وقعة المليداء.
+    description_fr: |
+      Fayṣal ibn Turkī Āl Saʿūd, troisième imam du Second État
+      saʿūdī et son principal architecte, mourut à al-Riyāḍ en
+      1282 H/1865 EC, après deux règnes couvrant à peu près
+      trente ans. Né à al-Dirʿiyya avant sa destruction,
+      emmené en Égypte enchaîné en 1233 H, évadé après
+      l'assassinat de son père Turkī, capturé à nouveau par
+      les Égyptiens en 1253 H puis détenu cinq ans au Caire,
+      il regagna al-Riyāḍ en 1259 H, restaura l'État saʿūdī
+      et le gouverna jusqu'à sa mort. Sous son second règne
+      (1259-1282 H), le Second État atteignit son extension
+      maximale : Najd central, al-Aḥsāʾ, ʿAsīr, et liens
+      tributaires avec Bahreïn, le Qatar et la côte des
+      Trucial States. Ses fils lui succédèrent tour à tour ;
+      la longue guerre civile fratricide qui suivit pendant
+      vingt-cinq ans, exploitée par les émirs rashīdī de
+      Ḥāʾil, mettrait fin à la dynastie à Mulayda.
+    canonical_hijri: {year: 1282, precision: year}
+    canonical_gregorian: {date: 1865-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Fayṣal b. Turkī' dates the death at al-Riyāḍ to 1282 AH / 1865 CE."
+      - source_key: editorial
+    people: [[faysal-ibn-turki, died]]
+    tags: [najd, riyadh, second-saudi-state, ruler, modern]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Faisal_bin_Turki,_Imam_of_Najd"
+
+  - slug: battle-of-mulayda
+    category: battle
+    title_en: Battle of Mulayda — Fall of the Second Saudi State
+    title_ar: وقعة المليداء — نهاية الدولة السعودية الثانية
+    title_fr: Bataille de Mulayda — fin du Second État saʿūdī
+    description_en: |
+      The combined Saʿūdī forces of ʿAbd al-Raḥmān ibn Fayṣal
+      Āl Saʿūd, fifth and last imam of the Second Saudi State,
+      were defeated by Muḥammad ibn ʿAbd Allāh Āl Rashīd, emir
+      of the Shammar polity of Ḥāʾil, at Mulayda in al-Qaṣīm
+      on 17 Jumādā al-Ūlā 1308 AH/29 January 1891 CE. The
+      battle ended the long Saʿūdī-Rashīdī struggle for
+      hegemony in central Arabia: the Rashīdī emirate of Ḥāʾil,
+      backed by the Ottomans, took control of Najd; ʿAbd
+      al-Raḥmān went into exile in Kuwait under the protection
+      of the al-Ṣabāḥ. The Second Saudi State, founded by
+      Turkī ibn ʿAbd Allāh sixty-seven lunar years earlier,
+      formally ended at Mulayda. ʿAbd al-Raḥmān's son ʿAbd
+      al-ʿAzīz — born during the wars of succession that had
+      hollowed out the state — would recover al-Riyāḍ in 1319
+      AH and found the Third Saudi State, but not before
+      eleven years of Rashīdī supremacy in central Arabia.
+    description_ar: |
+      هُزمت قوات الإمام عبد الرحمن بن فيصل آل سعود — خامس
+      أئمة الدولة السعودية الثانية وآخرهم — أمام جيش
+      محمد بن عبد الله آل رشيد أمير شمَّر بحائل في وقعة
+      «المليداء» بمنطقة القصيم يوم ١٧ جمادى الأولى سنة
+      ١٣٠٨ هـ (الموافق ٢٩ يناير ١٨٩١ ميلادي). وأَنهت
+      المعركة الصراع الطويل بين السعوديين والرشيد على وسط
+      الجزيرة العربية: استولت إمارة الرشيد المدعومة من
+      العثمانيين على نجد، ومضى الإمام عبد الرحمن إلى
+      المنفى في الكويت تحت رعاية آل الصباح. وانتهت بذلك
+      الدولة السعودية الثانية التي أسسها تركي بن عبد الله
+      قبل سبع وستين سنة قمرية. وسيستردّ ابنه عبد العزيز —
+      المولود في خضم حروب الخلافة التي أنهكت الدولة —
+      الرياضَ سنة ١٣١٩ هـ ويؤسس الدولة السعودية الثالثة،
+      ولكن بعد إحدى عشرة سنة من سيادة الرشيد على وسط
+      الجزيرة.
+    description_fr: |
+      Les forces réunies de l'imam ʿAbd al-Raḥmān ibn Fayṣal
+      Āl Saʿūd, cinquième et dernier imam du Second État
+      saʿūdī, furent défaites par Muḥammad ibn ʿAbd Allāh Āl
+      Rashīd, émir de la principauté shammar de Ḥāʾil, à
+      Mulayda dans al-Qaṣīm le 17 Jumādā al-Ūlā 1308 H/29
+      janvier 1891 EC. La bataille mit fin à la longue lutte
+      saʿūdī-rashīdī pour l'hégémonie sur l'Arabie centrale :
+      l'émirat rashīdī de Ḥāʾil, soutenu par les Ottomans,
+      prit le contrôle du Najd ; ʿAbd al-Raḥmān gagna l'exil
+      au Koweït sous la protection des al-Ṣabāḥ. Le Second
+      État saʿūdī, fondé par Turkī ibn ʿAbd Allāh soixante-
+      sept années lunaires plus tôt, prit officiellement fin
+      à Mulayda. Le fils de ʿAbd al-Raḥmān, ʿAbd al-ʿAzīz —
+      né au cours des guerres de succession qui avaient
+      affaibli l'État — reprendrait al-Riyāḍ en 1319 H et
+      fonderait le Troisième État saʿūdī, mais après onze ans
+      de suprématie rashīdī sur l'Arabie centrale.
+    canonical_hijri: {year: 1308, month: 5, day: 17, precision: day}
+    canonical_gregorian: {date: 1891-01-29, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Saʿūd, Āl' and 'Rashīd, Āl' date the battle of Mulayda to 17 Jumādā al-Ūlā 1308 AH / 29 January 1891 CE."
+      - source_key: editorial
+    people:
+      - [abd-al-rahman-ibn-faysal, opposed]
+      - [muhammad-ibn-rashid, leader]
+    tags: [najd, qasim, mulayda, second-saudi-state, rashid, ottoman, battle, modern]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Mulayda"
+
+  # =========================================================================
+  # THIRD SAUDI STATE — RECOVERY OF RIYADH (1319 AH / 1902 CE)
+  # =========================================================================
+
+  - slug: recovery-of-riyadh-by-ibn-saud
+    category: conquest
+    title_en: Recovery of al-Riyāḍ by ʿAbd al-ʿAzīz Ibn Saʿūd — Beginning of the Third Saudi State
+    title_ar: استرداد الرياض على يد عبد العزيز بن سعود — بداية الدولة السعودية الثالثة
+    title_fr: Reprise d'al-Riyāḍ par ʿAbd al-ʿAzīz Ibn Saʿūd — début du Troisième État saʿūdī
+    description_en: |
+      ʿAbd al-ʿAzīz ibn ʿAbd al-Raḥmān Āl Saʿūd — son of the
+      last imam of the Second Saudi State, raised in Kuwaiti
+      exile from age ten — recaptured al-Riyāḍ from its
+      Rashīdī governor ʿAjlān ibn Muḥammad in a night raid on
+      5 Shawwāl 1319 AH/15 January 1902 CE, ending eleven
+      years of Rashīdī rule and beginning what historians call
+      the Third Saudi State, the polity that would, three
+      decades later, become the Kingdom of Saudi Arabia. The
+      raiding party of about forty men scaled the wall of
+      al-Riyāḍ at night, reached the residence of the governor
+      at the Mismāk fortress, and killed him in the morning
+      ambush; the city's garrison surrendered. ʿAbd al-ʿAzīz's
+      father ʿAbd al-Raḥmān returned from Kuwait and ceded the
+      imamate to his son, who would over the next three decades
+      reunite Najd, take al-Aḥsāʾ from the Ottomans (1331 AH),
+      defeat the Rashīdīs at Ḥāʾil (1340 AH), incorporate the
+      Ḥijāz from the Hāshimites (1343 AH), and proclaim the
+      unified Kingdom of Saudi Arabia in 1351 AH/1932 CE.
+    description_ar: |
+      استرد الأمير عبد العزيز بن عبد الرحمن آل سعود — ابن
+      آخر أئمة الدولة السعودية الثانية، الذي تربى منفيّاً
+      في الكويت من سن العاشرة — مدينةَ الرياض من واليها
+      الرشيدي «عجلان بن محمد» في غارة ليلية يوم ٥ شوال سنة
+      ١٣١٩ هـ (الموافق ١٥ يناير ١٩٠٢ ميلادي)، فأنهى بذلك
+      إحدى عشرة سنة من حكم آل رشيد، وابتدأت بذلك
+      «الدولة السعودية الثالثة» التي ستصير بعد ثلاثة عقود
+      المملكة العربية السعودية. وقد تَسوَّر فريق الغارة
+      المؤلَّف من نحو أربعين رجلاً سور الرياض ليلاً، فبلغ
+      دار الوالي في قصر المصمك، فقتله في كمين الفجر،
+      واستسلمت حامية المدينة. وعاد والد الأمير عبد الرحمن
+      من الكويت فسلَّم الإمامة لابنه، فقام عبد العزيز في
+      ثلاثة عقود تلتها بإعادة وحدة نجد، وانتزاع الأحساء من
+      العثمانيين سنة ١٣٣١ هـ، وهزيمة الرشيد بحائل سنة
+      ١٣٤٠ هـ، وضمّ الحجاز من الهاشميين سنة ١٣٤٣ هـ، ثم
+      أعلن المملكة العربية السعودية الموحدة سنة ١٣٥١ هـ
+      (الموافق ١٩٣٢ ميلادي).
+    description_fr: |
+      ʿAbd al-ʿAzīz ibn ʿAbd al-Raḥmān Āl Saʿūd — fils du
+      dernier imam du Second État saʿūdī, élevé en exil au
+      Koweït dès l'âge de dix ans — reprit al-Riyāḍ à son
+      gouverneur rashīdī ʿAjlān ibn Muḥammad par un raid
+      nocturne le 5 Shawwāl 1319 H/15 janvier 1902 EC,
+      mettant fin à onze ans de domination rashīdī et
+      inaugurant ce que les historiens appellent le Troisième
+      État saʿūdī — l'État qui deviendrait, trois décennies
+      plus tard, le royaume d'Arabie saoudite. Le commando
+      d'une quarantaine d'hommes escalada de nuit la muraille
+      d'al-Riyāḍ, atteignit la résidence du gouverneur dans
+      la forteresse de Mismāk et le tua dans une embuscade à
+      l'aube ; la garnison se rendit. ʿAbd al-Raḥmān revint
+      du Koweït et céda l'imamat à son fils, qui en trois
+      décennies réunifierait le Najd, prendrait al-Aḥsāʾ aux
+      Ottomans (1331 H), défairait les Rashīdīs à Ḥāʾil
+      (1340 H), annexerait le Ḥijāz aux Hāshimites (1343 H)
+      et proclamerait le royaume unifié d'Arabie saoudite en
+      1351 H/1932 EC.
+    canonical_hijri: {year: 1319, month: 10, day: 5, precision: day}
+    canonical_gregorian: {date: 1902-01-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Ibn Saʿūd' and 'al-Riyāḍ' date the night raid to 5 Shawwāl 1319 AH / 15 January 1902 CE."
+      - source_key: editorial
+        notes: "Editorial summary; date attested in all standard Saʿūdī, Western, and Ottoman accounts."
+    people:
+      - [abd-al-aziz-ibn-saud, leader]
+      - [abd-al-rahman-ibn-faysal, subject]
+    tags: [najd, riyadh, third-saudi-state, mismak, conquest, modern, founding]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Riyadh_(1902)"

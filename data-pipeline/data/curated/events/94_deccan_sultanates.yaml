@@ -1,0 +1,930 @@
+# Wave 23 of curated event additions (2026-04-27).
+# The Deccan sultanates of South India — Bahmanī (Sunni, 1347-1518), Bijapur
+# ʿĀdil Shāhī (initially Sunni under Yūsuf ʿĀdil, Twelver from Ibrāhīm I in
+# the 1530s, oscillating thereafter), Golconda Quṭb Shāhī (Twelver throughout
+# from late-Bahmani succession in 1496), and the Mughal absorption of the
+# two surviving sultanates by Aurangzeb in 1097-1098 AH. Twelve dated events:
+# (i) the founding and consolidation of the Bahmanī Sultanate by ʿAlāʾ al-Dīn
+# Bahman Shāh and his son Aḥmad Shāh I Walī; (ii) the career of the great
+# Bahmani vizier-scholar Maḥmūd Gāwān, executed in 886 AH and remembered
+# through his madrasa at Bīdar still standing today; (iii) the founding of
+# the ʿĀdil Shāhī and Quṭb Shāhī succession states from the Bahmani
+# fragmentation, and the death of Yūsuf ʿĀdil Shāh; (iv) the Battle of
+# Talikota in 972 AH, the joint Deccan-sultans victory over Vijayanagara
+# that reshaped the politics of South India for a century; (v) the death of
+# Muḥammad Qulī Quṭb Shāh, founder of Hyderabad in 1591 CE; (vi) the death
+# of Ibrāhīm ʿĀdil Shāh II, builder of the Ibrāhīm Rauẓa at Bijapur and
+# patron of the great Sunni Deccan-Persian scholarly culture his court
+# preserved; (vii) Aurangzeb's annexation of Bijapur (1097 AH) and Golconda
+# (1098 AH) — the two campaigns that destroyed the last Deccan sultanates
+# and bound the Mughal empire to the Deccan permanently.
+#
+# Editorial note (per project EDITORIAL.md rule 8): the Quṭb Shāhīs were
+# Twelver Shia from their founding; the ʿĀdil Shāhīs oscillated between
+# Sunni (Yūsuf, Ismāʿīl) and Twelver (Ibrāhīm I, ʿAlī I, Ibrāhīm II's late
+# reign) tendencies depending on the ruler. Their inclusion here is strictly
+# factual and political-historical — the dataset does not endorse the Twelver
+# imāmate doctrine and does not include their fiqh/aqida/doctrinal works as
+# canonical references. They appear as rulers in shared political-historical
+# events (founding states, battles, Mughal absorption) on the same footing
+# as the Sunni-Hanafi Bahmanīs and the Sunni-Hanafi Mughals who absorbed
+# them. Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # BAHMANĪ SULTANATE — FOUNDING AND CONSOLIDATION
+  # =========================================================================
+
+  - slug: founding-of-bahmani-sultanate
+    category: dynastic_founding
+    title_en: Founding of the Bahmanī Sultanate by ʿAlāʾ al-Dīn Bahman Shāh
+    title_ar: قيام دولة البهمنية على يد علاء الدين بهمن شاه
+    title_fr: Fondation du sultanat bahmanide par ʿAlāʾ al-Dīn Bahman Shāh
+    description_en: |
+      ʿAlāʾ al-Dīn Ḥasan Bahman Shāh — Turkic-Persian Muslim
+      commander in the Deccan service of the Tughluq emperor
+      Muḥammad ibn Tughluq of Delhi — broke with the Tughluq
+      throne after the collapse of Muḥammad's relocation of the
+      Delhi capital to Daulatabad and the consequent unrest of
+      the Deccan amīrs. Acclaimed at Daulatabad by the rebel
+      *amīrān-i ṣadah* (the "amīrs of the hundred", the regional
+      Tughluq garrison commanders), he was crowned at the
+      Bahmani capital of Aḥsanābād-Gulbarga on 24 Rabīʿ al-Thānī
+      748 AH (3 August 1347 CE) and took the regnal name
+      Bahman Shāh. The new Sunni-Hanafi sultanate he founded —
+      claiming descent from the legendary Persian king Bahman —
+      governed central and eastern Deccan from Gulbarga (later
+      Bīdar) for the next 170 years, projecting Persianate
+      court culture, Sunni jurisprudence, and Indo-Persian
+      poetry across the south of the subcontinent. Its
+      eventual fragmentation in the early sixteenth century
+      gave rise to the five Deccan succession sultanates
+      (Bijapur, Golconda, Ahmadnagar, Berar, Bīdar).
+    description_ar: |
+      انشقّ علاء الدين حسن بهمن شاه — القائد التركي الفارسي
+      المسلم في خدمة السلطان التغلقي محمد بن تغلق صاحب دلهي،
+      وكان والياً في الدكن — على عرش التغلقيين بعد انهيار
+      تجربة محمد بن تغلق في نقل العاصمة من دلهي إلى دولت آباد
+      وما تبعه من اضطراب أمراء الدكن. وبايعه «أمراء الصدة»
+      (أمراء المئة، قادة حاميات التغلقيين الإقليمية المتمردون)
+      في دولت آباد، فتُوّج في عاصمة الدولة البهمنية «أحسن
+      آباد كلبركه» يوم ٢٤ ربيع الآخر سنة ٧٤٨ هـ (الموافق
+      ٣ أوت ١٣٤٧ ميلادي)، واتخذ لقبه الملكي «بهمن شاه». وحكمت
+      الدولة البهمنية الجديدة — وهي دولة سنية حنفية تنتسب إلى
+      الملك الفارسي القديم بهمن — وسط الدكن وشرقها من كلبركه
+      ثم من بيدر مدة قرابة مئة وسبعين سنة، ونشرت في جنوب شبه
+      القارة الهندية ثقافة البلاط الفارسية والفقه السني الحنفي
+      والشعر الهندي الفارسي. وعند تفككها في أوائل القرن السادس
+      عشر الميلادي قامت على أنقاضها دول الدكن الخمس الخلف
+      (بيجاپور، گولكندة، أحمدنغر، برار، بيدر).
+    description_fr: |
+      ʿAlāʾ al-Dīn Ḥasan Bahman Shāh — commandant musulman
+      turco-persan au service du sultan tughluq de Delhi
+      Muḥammad ibn Tughluq dans le Deccan — rompit avec le
+      trône tughluq après l'effondrement de la translation par
+      Muḥammad de la capitale de Delhi à Daulatabad et l'agitation
+      qui s'ensuivit chez les *amīrs* du Deccan. Acclamé à
+      Daulatabad par les *amīrān-i ṣadah* (« émirs des cent »,
+      commandants rebelles des garnisons régionales tughluqes),
+      il fut couronné dans la capitale bahmanide
+      d'Aḥsanābād-Gulbarga le 24 Rabīʿ al-Thānī 748 H (3 août
+      1347 EC) et prit le nom de règne Bahman Shāh. Le nouveau
+      sultanat sunnite-hanafite qu'il fonda — revendiquant la
+      descendance du roi perse légendaire Bahman — gouverna le
+      centre et l'est du Deccan depuis Gulbarga (plus tard
+      Bīdar) pendant les 170 années suivantes, projetant la
+      culture de cour persane, la jurisprudence sunnite et la
+      poésie indo-persane à travers le sud du sous-continent.
+      Sa fragmentation au début du XVIe siècle donna naissance
+      aux cinq sultanats successeurs du Deccan (Bijapur,
+      Golconde, Ahmadnagar, Berar, Bīdar).
+    canonical_hijri: {year: 748, month: 4, day: 24, precision: day}
+    canonical_gregorian: {date: 1347-08-03, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, bahmani, gulbarga, daulatabad, hanafi, sultanate]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Bahmani_Sultanate"
+
+  - slug: death-of-ala-al-din-bahman-shah
+    category: ruler_death
+    title_en: Death of ʿAlāʾ al-Dīn Bahman Shāh — Founder of the Bahmanī Sultanate
+    title_ar: وفاة علاء الدين بهمن شاه — مؤسس الدولة البهمنية
+    title_fr: Mort de ʿAlāʾ al-Dīn Bahman Shāh — fondateur du sultanat bahmanide
+    description_en: |
+      ʿAlāʾ al-Dīn Ḥasan Bahman Shāh — first sultan of the
+      Bahmanī line and founder of the dynasty that would govern
+      the central Deccan for nearly two centuries — died at
+      Aḥsanābād-Gulbarga in 759 AH (1358 CE) after an eleven-year
+      reign. He had organised the new sultanate into four
+      administrative provinces (*ṭarafs*: Daulatabad, Berar,
+      Bīdar, Gulbarga), each under a powerful provincial
+      governor — a structure that would later prove the seed of
+      the dynasty's fifteenth-century fragmentation as the
+      provincial *ṭarafdārs* asserted independence. The
+      classical Sunni Indo-Persian chronicles preserve the year
+      of his death (759 AH) consistently; the precise day is
+      not unambiguously fixed and we follow EI2 + the modern
+      editions of Firishta in attesting only the year. He was
+      succeeded by his son Muḥammad Shāh I, who would face
+      the first major Vijayanagara wars of the dynasty.
+    description_ar: |
+      توفي علاء الدين حسن بهمن شاه — أول سلاطين البيت البهمني
+      ومؤسس الدولة التي حكمت وسط الدكن قرابة قرنين — في عاصمته
+      «أحسن آباد كلبركه» سنة ٧٥٩ هـ (الموافق ١٣٥٨ ميلادي) بعد
+      حكم دام إحدى عشرة سنة. وقد قسّم دولته الجديدة على أربعة
+      أقاليم إدارية («طرف»: دولت آباد، برار، بيدر، كلبركه) يلي
+      كلاً منها وال قوي — وهو نظام سيظهر لاحقاً أنه بذرة تفكك
+      الدولة في القرن الخامس عشر إذ ادّعى ولاة الأطراف
+      («طرفداران») الاستقلال. والمصادر السنية الكلاسيكية
+      الهندية الفارسية تتفق على سنة وفاته (٧٥٩ هـ) ولا يثبت
+      اليوم الدقيق فيها، فاكتفينا تبعاً لدائرة المعارف الإسلامية
+      وطبعات «تاريخ فرشته» الحديثة بالسنة وحدها. وخلفه على
+      الملك ابنه محمد شاه الأول الذي خاض أول حروب البهمنيين
+      الكبرى مع دولة فيجاينگر.
+    description_fr: |
+      ʿAlāʾ al-Dīn Ḥasan Bahman Shāh — premier sultan de la
+      lignée bahmanide et fondateur de la dynastie qui
+      gouvernerait le Deccan central pendant près de deux
+      siècles — mourut à Aḥsanābād-Gulbarga en 759 H (1358 EC)
+      après un règne de onze ans. Il avait organisé le nouveau
+      sultanat en quatre provinces administratives (*ṭarafs* :
+      Daulatabad, Berar, Bīdar, Gulbarga), chacune sous un
+      puissant gouverneur provincial — une structure qui
+      s'avérerait plus tard la semence de la fragmentation
+      dynastique du XVe siècle, lorsque les *ṭarafdārs*
+      provinciaux s'affirmèrent indépendants. Les chroniques
+      indo-persanes sunnites classiques conservent l'année de
+      sa mort (759 H) de manière concordante; le jour précis
+      n'est pas fixé sans ambiguïté et nous suivons l'EI2 et
+      les éditions modernes de Firishta en n'attestant que
+      l'année. Lui succéda son fils Muḥammad Shāh I, qui
+      affronterait les premières grandes guerres bahmanides
+      contre Vijayanagara.
+    canonical_hijri: {year: 759, precision: year}
+    canonical_gregorian: {date: 1358-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, bahmani, gulbarga, ruler-death, hanafi]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Alauddin_Bahman_Shah"
+
+  - slug: death-of-ahmad-shah-i-wali-bahmani
+    category: ruler_death
+    title_en: Death of Aḥmad Shāh I Walī Bahmanī — Mover of the Capital to Bīdar
+    title_ar: وفاة أحمد شاه الأول الولي البهمني — ناقل العاصمة إلى بيدر
+    title_fr: Mort d'Aḥmad Shāh I Walī Bahmanī — qui transféra la capitale à Bīdar
+    description_en: |
+      Aḥmad Shāh I "Walī" Bahmanī — ninth sultan of the Bahmanī
+      line, remembered with the honorific *al-Walī* ("the
+      friend of God") for his patronage of Sufi shaykhs and
+      scholarship — died at Bīdar in 839 AH (1436 CE) after a
+      fourteen-year reign. He had moved the dynastic capital
+      from Aḥsanābād-Gulbarga to Muḥammadābād-Bīdar around
+      829 AH (1426 CE), commissioned the great Bīdar fort and
+      its mosques, and brought to his court the Persian Sufi
+      master Sayyid Muḥammad Gēsū Darāz of the Chishtī order
+      (whom he settled at Gulbarga). The classical Indo-Persian
+      chronicles fix the year of his death (839 AH); some
+      modern reconstructions give 28 Shaʿbān 839 AH but EI2
+      treats this as approximate. He was succeeded by his son
+      ʿAlāʾ al-Dīn Aḥmad Shāh II, under whom the Bahmanī
+      court reached the apogee of its Persianate cultural
+      patronage.
+    description_ar: |
+      توفي أحمد شاه الأول البهمني الملقب بـ«الولي» — تاسع سلاطين
+      البيت البهمني، اشتُهر بلقب «الولي» تكريماً لرعايته شيوخ
+      الصوفية والعلماء — في «بيدر» سنة ٨٣٩ هـ (الموافق ١٤٣٦
+      ميلادي) بعد حكم دام أربع عشرة سنة. وكان قد نقل عاصمة
+      الدولة من «أحسن آباد كلبركه» إلى «محمدآباد بيدر» نحو
+      سنة ٨٢٩ هـ (١٤٢٦ ميلادي)، وعمر قلعة بيدر الكبرى ومساجدها،
+      واستقدم إلى بلاطه شيخ الطريقة الجشتية الفارسي السيد
+      محمد گيسو دراز فأسكنه كلبركه. والمصادر الهندية الفارسية
+      الكلاسيكية تثبت سنة وفاته (٨٣٩ هـ)؛ وبعض التحقيقات
+      الحديثة يحدد التاريخ في ٢٨ شعبان من السنة لكن دائرة
+      المعارف الإسلامية تعدّه تقريباً. وخلفه ابنه علاء الدين
+      أحمد شاه الثاني، وفي عهده بلغت الرعاية الفارسية البهمنية
+      للثقافة قمتها.
+    description_fr: |
+      Aḥmad Shāh I « Walī » Bahmanī — neuvième sultan de la
+      lignée bahmanide, célébré avec l'honorifique *al-Walī*
+      (« l'ami de Dieu ») pour son patronage des shaykhs
+      soufis et de l'érudition — mourut à Bīdar en 839 H
+      (1436 EC) après un règne de quatorze ans. Il avait
+      transféré la capitale dynastique d'Aḥsanābād-Gulbarga
+      à Muḥammadābād-Bīdar vers 829 H (1426 EC), commandé la
+      grande forteresse de Bīdar et ses mosquées, et amené à
+      sa cour le maître soufi persan Sayyid Muḥammad Gēsū
+      Darāz, de l'ordre chishtī (qu'il établit à Gulbarga).
+      Les chroniques indo-persanes classiques fixent l'année
+      de sa mort (839 H); certaines reconstructions modernes
+      donnent le 28 Shaʿbān 839 H mais l'EI2 considère cela
+      comme approximatif. Lui succéda son fils ʿAlāʾ al-Dīn
+      Aḥmad Shāh II, sous le règne duquel la cour bahmanide
+      atteignit l'apogée de son patronage culturel persan.
+    canonical_hijri: {year: 839, precision: year}
+    canonical_gregorian: {date: 1436-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, bahmani, bidar, gulbarga, ruler-death, sufi-patronage]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Shah_I_Wali"
+
+  # =========================================================================
+  # BAHMANĪ SULTANATE — VIZIER-SCHOLAR
+  # =========================================================================
+
+  - slug: execution-of-mahmud-gawan
+    category: scholar
+    title_en: Execution of Maḥmūd Gāwān — Bahmanī Vizier-Scholar of Bīdar
+    title_ar: مقتل محمود گاوان — وزير الدولة البهمنية وعالمها ببيدر
+    title_fr: Exécution de Maḥmūd Gāwān — vizir-savant bahmanide de Bīdar
+    description_en: |
+      Khwāja ʿImād al-Dīn Maḥmūd Gāwān al-Gīlānī — Persian
+      Sunni-Shāfiʿī merchant, scholar of Arabic and Islamic
+      sciences, vizier (*malik al-tujjār* and later
+      *wakīl al-salṭanat*) of the Bahmanī sultans Humāyūn,
+      Niẓām Shāh, and Muḥammad Shāh III for nearly forty
+      years — was executed at Bīdar on 5 Ṣafar 886 AH
+      (5 April 1481 CE) at the age of 78. He had stabilised
+      the sultanate's finances, codified its provincial
+      administration into eight subdivided *ṭarafs*,
+      conducted Bahmanī campaigns against Vijayanagara and
+      the Konkan, and corresponded with Sunni scholars of
+      Cairo, Mecca, Khurasan, and Anatolia. He founded the
+      *Madrasa-i Maḥmūd Gāwān* at Bīdar (878 AH / 1473 CE) —
+      a monumental Persianate three-storey madrasa whose
+      surviving partial structure remains one of the great
+      monuments of Bahmanī architecture. Falsely accused of
+      treason via a forged letter to Vijayanagara by Deccan
+      court rivals, he was put to death by the young
+      Sultan Muḥammad Shāh III; the sultan reportedly
+      regretted the execution within weeks. His murder
+      precipitated the dynastic fragmentation that would
+      give rise to the five succession sultanates.
+    description_ar: |
+      قُتل خواجه عماد الدين محمود گاوان الجيلاني — التاجر
+      السني الشافعي الفارسي، عالم العربية والعلوم الإسلامية،
+      وزير الدولة البهمنية في عهد سلاطينها همايون ونظام شاه
+      ومحمد شاه الثالث («ملك التجار» ثم «وكيل السلطنة»)
+      قرابة أربعين سنة — في «بيدر» يوم ٥ صفر سنة ٨٨٦ هـ
+      (الموافق ٥ أفريل ١٤٨١ ميلادي) عن ثمان وسبعين سنة. وكان
+      قد أحكم إدارة الخزينة، وقعّد الإدارة الإقليمية على
+      ثمانية أطراف، وقاد حملات البهمنيين على فيجاينگر وساحل
+      الكنكن، وراسل علماء أهل السنة في القاهرة ومكة
+      وخراسان والأناضول. وأسس «مدرسة محمود گاوان» في بيدر
+      سنة ٨٧٨ هـ (الموافق ١٤٧٣ ميلادي)، وهي صرح فارسي ضخم
+      من ثلاث طبقات، وما تبقى منها إلى اليوم من أكبر آثار
+      العمارة البهمنية. واتُّهم زوراً بالخيانة عن طريق رسالة
+      مزوّرة إلى فيجاينگر دبّرها له خصومه في البلاط، فأمر
+      السلطان محمد شاه الثالث الفتى بقتله؛ ويُقال إن السلطان
+      ندم على الفعلة بعد أسابيع. ومقتله عجّل بتفكك الدولة
+      الذي ستقوم على أنقاضه دول الدكن الخمس.
+    description_fr: |
+      Khwāja ʿImād al-Dīn Maḥmūd Gāwān al-Gīlānī —
+      marchand sunnite-shāfiʿite persan, savant en arabe
+      et en sciences islamiques, vizir (*malik al-tujjār*
+      puis *wakīl al-salṭanat*) des sultans bahmanides
+      Humāyūn, Niẓām Shāh et Muḥammad Shāh III pendant
+      près de quarante ans — fut exécuté à Bīdar le 5
+      Ṣafar 886 H (5 avril 1481 EC) à l'âge de 78 ans. Il
+      avait stabilisé les finances du sultanat, codifié
+      son administration provinciale en huit *ṭarafs*
+      subdivisés, conduit les campagnes bahmanides contre
+      Vijayanagara et le Konkan, et entretenu une
+      correspondance avec les savants sunnites du Caire,
+      de La Mecque, du Khurāsān et de l'Anatolie. Il
+      fonda la *Madrasa-i Maḥmūd Gāwān* à Bīdar (878 H /
+      1473 EC), monumentale madrasa persane à trois étages
+      dont la structure partielle subsistante demeure l'un
+      des grands monuments de l'architecture bahmanide.
+      Faussement accusé de trahison par une lettre forgée
+      à Vijayanagara par des rivaux de cour, il fut mis
+      à mort par le jeune sultan Muḥammad Shāh III; le
+      sultan aurait regretté l'exécution en quelques
+      semaines. Son meurtre précipita la fragmentation
+      dynastique qui donnerait naissance aux cinq
+      sultanats successeurs.
+    canonical_hijri: {year: 886, month: 2, day: 5, precision: day}
+    canonical_gregorian: {date: 1481-04-05, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mahmud-gawan, subject]]
+    tags: [india, deccan, bahmani, bidar, vizier, shafii, madrasa, mahmud-gawan]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mahmud_Gawan"
+
+  # =========================================================================
+  # ʿĀDIL SHĀHĪ AND QUṬB SHĀHĪ — FOUNDING SUCCESSION SULTANATES
+  # =========================================================================
+
+  - slug: founding-of-bijapur-adil-shahi
+    category: dynastic_founding
+    title_en: Founding of the Bijapur ʿĀdil Shāhī Sultanate by Yūsuf ʿĀdil Shāh
+    title_ar: قيام دولة بيجاپور العادلية على يد يوسف العادل شاه
+    title_fr: Fondation du sultanat ʿādilshāhide de Bijapur par Yūsuf ʿĀdil Shāh
+    description_en: |
+      Yūsuf ʿĀdil Khān — Persian-origin Bahmanī provincial
+      governor (*ṭarafdār*) of the western Bijapur province
+      since the 1480s — declared independence from the
+      decaying Bahmanī court at Bīdar in 895 AH (1490 CE),
+      striking coin and reading the *khuṭba* in his own name
+      and taking the regnal title ʿĀdil Shāh. The new
+      sultanate, governed from Bijapur for the next two
+      centuries, took its place alongside Ahmadnagar and
+      Berar (also founded c. 895 AH from Bahmanī provinces)
+      and later Golconda (901 AH) and Bīdar as the five
+      Deccan succession states. Yūsuf himself was a Sunni
+      and a poet in Persian and Turkish; the early ʿĀdil
+      Shāhī court was Sunni-leaning, though his successors
+      Ibrāhīm I and ʿAlī I would later patronise Twelver
+      Shia practice in court ritual. The dynasty endured
+      until Aurangzeb's annexation of Bijapur in 1097 AH
+      (1686 CE).
+    description_ar: |
+      أعلن يوسف العادل خان — والي البهمنيين («طرفدار») على
+      إقليم بيجاپور الغربي منذ ثمانينيات القرن الخامس عشر
+      الميلادي وهو فارسي الأصل — استقلاله عن البلاط
+      البهمني المتهاوي ببيدر سنة ٨٩٥ هـ (الموافق ١٤٩٠
+      ميلادي)، فضرب السكة وقُرئت له الخطبة باسمه واتخذ
+      اللقب الملكي «العادل شاه». وحكمت الدولة الجديدة من
+      بيجاپور قرابة قرنين، فقامت إلى جنب أحمدنغر وبرار
+      (اللتين قامتا أيضاً نحو ٨٩٥ هـ على أنقاض ولايات
+      الدولة البهمنية) ثم گولكندة (٩٠١ هـ) وبيدر، فصارت
+      خمسة من «دول الدكن الخلف». وكان يوسف نفسه سنياً
+      وشاعراً بالفارسية والتركية؛ وكان البلاط العادلشاهي
+      الأول ميّالاً إلى أهل السنة، وإن رعى من خلفه
+      إبراهيم الأول وعلي الأول الشعائر الإمامية الإثنا
+      عشرية في طقوس البلاط. وبقيت الدولة قائمة إلى أن
+      ضمّها أورنكزيب سنة ١٠٩٧ هـ (١٦٨٦ ميلادي).
+    description_fr: |
+      Yūsuf ʿĀdil Khān — gouverneur provincial bahmanide
+      (*ṭarafdār*) de la province occidentale de Bijapur
+      depuis les années 1480, d'origine persane — déclara
+      son indépendance de la cour bahmanide déclinante de
+      Bīdar en 895 H (1490 EC), frappa monnaie et fit lire
+      la *khuṭba* en son nom, prenant le titre régalien de
+      ʿĀdil Shāh. Le nouveau sultanat, gouverné depuis
+      Bijapur pendant les deux siècles suivants, prit place
+      aux côtés d'Ahmadnagar et de Berar (également fondés
+      vers 895 H sur des provinces bahmanides) puis de
+      Golconde (901 H) et de Bīdar comme cinq États
+      successeurs du Deccan. Yūsuf lui-même était sunnite
+      et poète en persan et en turc; la cour ʿādilshāhide
+      primitive penchait sunnite, bien que ses successeurs
+      Ibrāhīm I et ʿAlī I patroneraient plus tard la
+      pratique chiite duodécimaine dans le rituel de cour.
+      La dynastie subsista jusqu'à l'annexion de Bijapur
+      par Aurangzeb en 1097 H (1686 EC).
+    canonical_hijri: {year: 895, precision: year}
+    canonical_gregorian: {date: 1490-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, bijapur, adil-shahi, sultanate, dynasty-founding]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Adil_Shahi_dynasty"
+
+  - slug: death-of-yusuf-adil-shah
+    category: ruler_death
+    title_en: Death of Yūsuf ʿĀdil Shāh — Founder of the Bijapur Sultanate
+    title_ar: وفاة يوسف العادل شاه — مؤسس دولة بيجاپور
+    title_fr: Mort de Yūsuf ʿĀdil Shāh — fondateur du sultanat de Bijapur
+    description_en: |
+      Yūsuf ʿĀdil Shāh — founder of the Bijapur ʿĀdil Shāhī
+      sultanate and patron of Persian-Indo court culture in
+      the western Deccan — died at Bijapur in 916 AH (1510 CE)
+      after a twenty-year reign. His final years were
+      dominated by the wars against Vijayanagara and the
+      first contact with the Portuguese, who had taken Goa
+      from his governor in 915 AH (1510 CE) shortly before
+      his death. He left a young son Ismāʿīl ʿĀdil Shāh
+      under the regency of Kamāl Khān, a transition that
+      precipitated the early-sixteenth-century factional
+      contests at Bijapur. The classical Indo-Persian
+      chronicles (Firishta in particular) preserve the year
+      of his death (916 AH) and the political context but
+      not a fixed day. The two Sunni-leaning ʿĀdil Shāhī
+      generations — Yūsuf and Ismāʿīl — gave way under
+      Ibrāhīm I (r. 941-965 AH) to a court that adopted
+      Twelver Shia ritual; the dynasty oscillated thereafter
+      depending on the ruler.
+    description_ar: |
+      توفي يوسف العادل شاه — مؤسس دولة بيجاپور العادلية
+      وراعي الثقافة الهندية الفارسية في الدكن الغربي — ببيجاپور
+      سنة ٩١٦ هـ (الموافق ١٥١٠ ميلادي) بعد حكم دام عشرين سنة.
+      وغلب على سنواته الأخيرة حروب فيجاينگر وأول احتكاك
+      بالبرتغاليين الذين كانوا قد انتزعوا «گوا» من واليه قبيل
+      وفاته بقليل سنة ٩١٥ هـ (الموافق ١٥١٠ ميلادي). وترك
+      ابناً صغيراً هو إسماعيل العادل شاه تحت وصاية كمال خان،
+      فأشعل ذلك التحوّل الفتنَ الحزبية في بيجاپور في أوائل
+      القرن السادس عشر. والمصادر الهندية الفارسية الكلاسيكية
+      (فرشته على الخصوص) تثبت سنة وفاته (٩١٦ هـ) والسياق
+      السياسي ولا تثبت اليوم. وانتهى عهد الجيلين الأولين
+      السنيي الميل من العادل شاهيين — يوسف وإسماعيل — إلى
+      عهد إبراهيم الأول (٩٤١-٩٦٥ هـ) الذي تبنى بلاطه طقوس
+      الإمامية الإثنا عشرية، وتذبذبت الدولة بعد ذلك بحسب
+      السلطان.
+    description_fr: |
+      Yūsuf ʿĀdil Shāh — fondateur du sultanat ʿādilshāhide
+      de Bijapur et patron de la culture de cour
+      indo-persane dans le Deccan occidental — mourut à
+      Bijapur en 916 H (1510 EC) après un règne de vingt
+      ans. Ses dernières années furent dominées par les
+      guerres contre Vijayanagara et le premier contact avec
+      les Portugais, qui avaient pris Goa à son gouverneur
+      en 915 H (1510 EC) peu avant sa mort. Il laissa un
+      jeune fils Ismāʿīl ʿĀdil Shāh sous la régence de Kamāl
+      Khān, transition qui précipita les contestations
+      factionnelles du début du XVIe siècle à Bijapur. Les
+      chroniques indo-persanes classiques (Firishta en
+      particulier) conservent l'année de sa mort (916 H) et
+      le contexte politique, mais pas un jour fixé. Les deux
+      générations ʿādilshāhides à tendance sunnite — Yūsuf
+      et Ismāʿīl — cédèrent sous Ibrāhīm I (r. 941-965 H)
+      à une cour qui adopta le rituel chiite duodécimain;
+      la dynastie oscilla ensuite selon le souverain.
+    canonical_hijri: {year: 916, precision: year}
+    canonical_gregorian: {date: 1510-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, bijapur, adil-shahi, ruler-death, portuguese-goa]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Yusuf_Adil_Shah"
+
+  - slug: founding-of-golconda-qutb-shahi
+    category: dynastic_founding
+    title_en: Founding of the Golconda Quṭb Shāhī Sultanate by Sulṭān Qulī
+    title_ar: قيام دولة گولكندة القطب الشاهية على يد سلطان قلي
+    title_fr: Fondation du sultanat quṭbshāhide de Golconde par Sulṭān Qulī
+    description_en: |
+      Sulṭān Qulī Quṭb-ul-Mulk — Bahmanī provincial governor
+      (*ṭarafdār*) of Tilingānā with seat at Golconda fortress
+      since 901 AH (1496 CE), and a Turkmen Qara Qoyunlu émigré
+      from Hamadan in Persia — declared the formal independence
+      of his Tilingānā governorate from the Bahmanī court of
+      Bīdar in 901 AH (1496 CE), founding the Quṭb Shāhī line
+      that would govern the eastern Deccan for the next 191
+      years. The new sultanate took the dramatic Golconda
+      fortress as its capital and later (after 1591 CE) the
+      newly-built city of Hyderabad. The Quṭb Shāhīs were
+      Twelver Shia from their founding and remained so —
+      the dataset notes this strictly factually, framing
+      their state as a political-historical Deccan sultanate
+      among others without endorsing the Twelver imāmate
+      doctrine. The dynasty endured until Aurangzeb's
+      annexation of Golconda in 1098 AH (1687 CE).
+    description_ar: |
+      أعلن سلطان قلي قطب الملك — والي البهمنيين («طرفدار»)
+      على إقليم تلنگانا والمعتصم بقلعة گولكندة منذ سنة
+      ٩٠١ هـ (الموافق ١٤٩٦ ميلادي)، وهو تركماني من قراقويونلو
+      مهاجر من همذان في فارس — استقلاله الرسمي عن البلاط
+      البهمني ببيدر سنة ٩٠١ هـ (الموافق ١٤٩٦ ميلادي)،
+      فأسس البيت القطب شاهي الذي حكم شرق الدكن مئة وإحدى
+      وتسعين سنة. واتخذت الدولة الجديدة قلعة گولكندة الفخمة
+      عاصمةً لها، ثم (بعد ١٥٩١ ميلادي) المدينةَ الحديثةَ
+      التأسيس حيدرآباد. وكان القطب شاهيون اثني عشريين منذ
+      التأسيس وحتى السقوط — وتُسجِّل هذه الموسوعة ذلك
+      تاريخياً صرفاً، إذ يُؤطَّر بيتهم على أنه دولة دكنية
+      سياسية تاريخية كباقي دول الدكن من غير إقرار للعقيدة
+      الإمامية في إمامة الأئمة. وبقيت الدولة قائمة إلى أن
+      ضمّها أورنكزيب سنة ١٠٩٨ هـ (١٦٨٧ ميلادي).
+    description_fr: |
+      Sulṭān Qulī Quṭb-ul-Mulk — gouverneur provincial
+      bahmanide (*ṭarafdār*) du Tilingānā depuis le fort de
+      Golconde à partir de 901 H (1496 EC), Turkmène
+      Qara Qoyunlu émigré de Hamadān en Perse — déclara
+      l'indépendance formelle de son gouvernorat du
+      Tilingānā de la cour bahmanide de Bīdar en 901 H
+      (1496 EC), fondant la lignée quṭbshāhide qui
+      gouvernerait le Deccan oriental pendant les 191 années
+      suivantes. Le nouveau sultanat prit la forteresse
+      spectaculaire de Golconde comme capitale, puis (après
+      1591 EC) la ville nouvellement édifiée d'Hyderabad.
+      Les Quṭb Shāhī étaient chiites duodécimains depuis
+      leur fondation et le restèrent — la base de données
+      le note de manière strictement factuelle, encadrant
+      leur État comme un sultanat deccanien
+      politico-historique parmi d'autres sans endosser la
+      doctrine de l'imāmat duodécimain. La dynastie subsista
+      jusqu'à l'annexion de Golconde par Aurangzeb en 1098 H
+      (1687 EC).
+    canonical_hijri: {year: 901, precision: year}
+    canonical_gregorian: {date: 1496-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, golconda, qutb-shahi, sultanate, dynasty-founding, hyderabad]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qutb_Shahi_dynasty"
+
+  # =========================================================================
+  # BATTLE OF TALIKOTA — JOINT DECCAN VICTORY OVER VIJAYANAGARA
+  # =========================================================================
+
+  - slug: battle-of-talikota
+    category: battle
+    title_en: Battle of Talikota — Deccan Sultans Defeat Vijayanagara
+    title_ar: معركة طاليكوت — سلاطين الدكن يهزمون دولة فيجاينگر
+    title_fr: Bataille de Talikota — les sultans du Deccan défont Vijayanagara
+    description_en: |
+      A confederate army of four Deccan sultanates — Bijapur
+      under ʿAlī ʿĀdil Shāh I, Ahmadnagar under Ḥusayn Niẓām
+      Shāh I, Golconda under Ibrāhīm Quṭb Shāh, and Bīdar
+      under ʿAlī Barīd Shāh — engaged the Hindu Vijayanagara
+      empire under Rāma Rāya at the field of Rakshasa-Tagdi
+      (also called Talikota) on the Krishna river on
+      20 Jumādā I 972 AH (23 January 1565 CE). The Deccan
+      coalition's combined matchlock and artillery fire
+      (provided largely by Ottoman and Portuguese-trained
+      gunners) broke the Vijayanagara cavalry charge; Rāma
+      Rāya was captured and killed on the field, and the
+      capital city of Vijayanagara (modern Hampi) was sacked
+      and abandoned. The battle ended Vijayanagara as the
+      paramount power of South India, opened the Deccan
+      plateau to a century of inter-sultanate competition,
+      and ultimately set the conditions for Mughal expansion
+      into the south under Aurangzeb a century later. Among
+      classical Indo-Persian sources, Firishta gives the
+      most detailed narrative; modern editions of the
+      *Tārīkh-i Firishta* and the EI2 article *Tālikota*
+      align on 23 January 1565 CE.
+    description_ar: |
+      التقى جيش متحد من أربع دول دكنية — بيجاپور بقيادة علي
+      العادل شاه الأول، وأحمدنغر بقيادة حسين نظام شاه
+      الأول، وگولكندة بقيادة إبراهيم قطب شاه، وبيدر بقيادة
+      علي بريد شاه — مع جيش دولة فيجاينگر الهندوسية بقيادة
+      «راما رايا» في ميدان «رَكْشَسَا تَگْدِي» (المعروف بـ
+      «طاليكوت») على نهر كَرِشْنَة يوم ٢٠ جمادى الأولى سنة
+      ٩٧٢ هـ (الموافق ٢٣ جانفي ١٥٦٥ ميلادي). فحطمت نيران
+      المتحدة من البنادق الفتيلية والمدفعية (وكان معظم
+      رماتها من تدريب العثمانيين والبرتغاليين) هجمات الفرسان
+      الفيجاينگريين، فأُسر راما رايا وقُتل في الميدان،
+      وسُلبت العاصمة فيجاينگر (وهي «هَمْبِي» الحالية) ثم
+      هُجرت. وأنهت المعركة عهد فيجاينگر دولةً مسيطرة على
+      جنوب الهند، وفتحت هضبة الدكن لقرن من التنافس بين
+      دول الدكن، ثم مهّدت بعد قرن لتوسع المغول جنوباً في
+      عهد أورنكزيب. ومن المصادر الهندية الفارسية الكلاسيكية
+      أعطى فرشته السرد الأوفى، وتطابقه طبعات «تاريخ فرشته»
+      الحديثة ومقالة «طاليكوت» في دائرة المعارف الإسلامية
+      على ٢٣ جانفي ١٥٦٥ ميلادي.
+    description_fr: |
+      Une armée confédérée de quatre sultanats du Deccan —
+      Bijapur sous ʿAlī ʿĀdil Shāh I, Ahmadnagar sous Ḥusayn
+      Niẓām Shāh I, Golconde sous Ibrāhīm Quṭb Shāh, et
+      Bīdar sous ʿAlī Barīd Shāh — affronta l'empire
+      hindou de Vijayanagara sous Rāma Rāya sur le champ
+      de Rakshasa-Tagdi (aussi appelé Talikota) sur la
+      rivière Krishna le 20 Jumādā I 972 H (23 janvier 1565
+      EC). Le feu combiné de mousquets à mèche et
+      d'artillerie de la coalition (fourni en grande partie
+      par des artilleurs formés par les Ottomans et les
+      Portugais) brisa la charge de la cavalerie
+      vijayanagaride; Rāma Rāya fut capturé et tué sur le
+      champ, et la capitale Vijayanagara (la moderne Hampi)
+      fut mise à sac et abandonnée. La bataille mit fin à
+      Vijayanagara comme puissance paramonte de l'Inde du
+      Sud, ouvrit le plateau du Deccan à un siècle de
+      compétition inter-sultanique, et fixa en dernière
+      instance les conditions de l'expansion moghole vers
+      le sud sous Aurangzeb un siècle plus tard. Parmi les
+      sources indo-persanes classiques, Firishta donne le
+      récit le plus détaillé; les éditions modernes du
+      *Tārīkh-i Firishta* et l'article *Tālikota* de l'EI2
+      s'accordent sur le 23 janvier 1565 EC.
+    canonical_hijri: {year: 972, month: 5, day: 20, precision: day}
+    canonical_gregorian: {date: 1565-01-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, talikota, bijapur, ahmadnagar, golconda, bidar, vijayanagara, battle]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Talikota"
+
+  # =========================================================================
+  # QUṬB SHĀHĪ AND ʿĀDIL SHĀHĪ — RULER DEATHS AT THE PEAK
+  # =========================================================================
+
+  - slug: death-of-muhammad-quli-qutb-shah
+    category: ruler_death
+    title_en: Death of Muḥammad Qulī Quṭb Shāh — Founder of Hyderabad
+    title_ar: وفاة محمد قلي قطب شاه — مؤسس مدينة حيدرآباد
+    title_fr: Mort de Muḥammad Qulī Quṭb Shāh — fondateur d'Hyderabad
+    description_en: |
+      Muḥammad Qulī Quṭb Shāh — fifth sultan of the Golconda
+      Quṭb Shāhī line, founder of the city of Hyderabad
+      (Ḥaydarābād) on the southern bank of the Mūsī river in
+      999 AH (1591 CE), and the first major Indo-Persian-Urdu
+      Deccani poet (his *Kulliyyāt* is the earliest surviving
+      Deccan-Urdu / *dakhnī* dīwān) — died at Hyderabad in
+      1020 AH (1611 CE) after a thirty-year reign. He had
+      commissioned the founding monument of the new
+      capital — the Charminar (*Chār Mīnār*, "four
+      minarets") — at the city's central crossroads in
+      999 AH. He extended Quṭb Shāhī control eastward to
+      Masulipatam on the Bay of Bengal, the principal port
+      through which the dynasty traded with Persia, the
+      Ottoman lands, and Southeast Asia. The classical
+      Indo-Persian chronicles preserve the year of his death
+      (1020 AH); a precise day is not unambiguously fixed
+      and we follow the EI2 article *Ḳuṭb Shāhīs* in
+      attesting only the year. His successor Sulṭān
+      Muḥammad Quṭb Shāh would rule until 1035 AH (1626 CE).
+    description_ar: |
+      توفي محمد قلي قطب شاه — خامس سلاطين البيت القطب شاهي
+      بـ«گولكندة»، ومؤسس مدينة حيدرآباد على الضفة الجنوبية
+      لنهر «موسي» سنة ٩٩٩ هـ (الموافق ١٥٩١ ميلادي)، وأول كبار
+      شعراء «دكني» بالأردية الهندية الفارسية في الدكن
+      («كليّاته» أقدم ديوان دكني-أردي حُفظ) — بحيدرآباد سنة
+      ١٠٢٠ هـ (الموافق ١٦١١ ميلادي) بعد حكم دام ثلاثين سنة.
+      وأنشأ في عاصمته الجديدة الصرحَ المعروف بـ«تشارمينار»
+      («الأربع منارات») على ملتقى طرقها المركزي سنة ٩٩٩ هـ.
+      وبسط سلطان القطب شاهيين شرقاً حتى ميناء «مَسُولِيپَتَم»
+      على خليج البنغال، وكان الميناء الرئيسي الذي تتجر منه
+      الدولة مع فارس والدولة العثمانية وجنوب شرق آسيا. والمصادر
+      الهندية الفارسية الكلاسيكية تثبت سنة وفاته (١٠٢٠ هـ)
+      ولا يثبت اليوم على وجه الدقة، فاكتفينا تبعاً لمقالة
+      «قطب شاهيون» في دائرة المعارف الإسلامية بالسنة وحدها.
+      وخلفه سلطان محمد قطب شاه الذي حكم إلى سنة ١٠٣٥ هـ
+      (١٦٢٦ ميلادي).
+    description_fr: |
+      Muḥammad Qulī Quṭb Shāh — cinquième sultan de la
+      lignée quṭbshāhide de Golconde, fondateur de la ville
+      d'Hyderabad (Ḥaydarābād) sur la rive sud de la Mūsī
+      en 999 H (1591 EC), et premier grand poète
+      indo-perso-ourdou « dakhnī » du Deccan (ses
+      *Kulliyyāt* constituent le plus ancien diwan
+      deccan-ourdou conservé) — mourut à Hyderabad en 1020 H
+      (1611 EC) après un règne de trente ans. Il avait
+      commandé le monument fondateur de la nouvelle
+      capitale — le Charminar (*Chār Mīnār*, « quatre
+      minarets ») — au carrefour central de la ville en
+      999 H. Il étendit le contrôle quṭbshāhide vers l'est
+      jusqu'à Masulipatam sur la baie du Bengale, le
+      principal port par lequel la dynastie commerçait avec
+      la Perse, les terres ottomanes et l'Asie du Sud-Est.
+      Les chroniques indo-persanes classiques conservent
+      l'année de sa mort (1020 H); un jour précis n'est pas
+      fixé sans ambiguïté et nous suivons l'article *Ḳuṭb
+      Shāhīs* de l'EI2 en n'attestant que l'année. Lui
+      succéda Sulṭān Muḥammad Quṭb Shāh, qui régnerait
+      jusqu'en 1035 H (1626 EC).
+    canonical_hijri: {year: 1020, precision: year}
+    canonical_gregorian: {date: 1611-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, golconda, qutb-shahi, hyderabad, charminar, ruler-death, dakhni-poetry]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Quli_Qutb_Shah"
+
+  - slug: death-of-ibrahim-adil-shah-ii
+    category: ruler_death
+    title_en: Death of Ibrāhīm ʿĀdil Shāh II — Builder of the Ibrāhīm Rauẓa
+    title_ar: وفاة إبراهيم العادل شاه الثاني — باني روضة إبراهيم ببيجاپور
+    title_fr: Mort d'Ibrāhīm ʿĀdil Shāh II — bâtisseur de l'Ibrāhīm Rauẓa
+    description_en: |
+      Ibrāhīm ʿĀdil Shāh II — sixth sultan of the Bijapur
+      ʿĀdil Shāhī line, patron of the great phase of Deccan
+      architecture and Indo-Persian-Marathi-Sanskrit musical
+      culture, and author of the bilingual Persian-Marathi
+      song-book *Kitāb-i Nawras* — died at Bijapur in
+      1037 AH (1627 CE) after a forty-eight-year reign,
+      one of the longest of any Deccan sultan. His Bijapur
+      court was unusually plural — Sunni, Twelver Shia,
+      Hindu, and Christian (Portuguese Jesuit) figures
+      alike served at his palace and on his diplomatic
+      missions — and his major monument, the Ibrāhīm Rauẓa
+      mausoleum complex, remains one of the great surviving
+      monuments of ʿĀdil Shāhī architecture. He was
+      succeeded by his son Muḥammad ʿĀdil Shāh, who would
+      build the colossal Gol Gumbaz mausoleum at Bijapur.
+      The Indo-Persian chronicles (Firishta especially)
+      preserve the year of his death (1037 AH); the
+      classical sources are not day-precise, and we follow
+      EI2 in giving the year only.
+    description_ar: |
+      توفي إبراهيم العادل شاه الثاني — سادس سلاطين بيت
+      العادل شاهيين ببيجاپور، راعي الطور الأكبر للعمارة
+      الدكنية وثقافة الموسيقى الهندية الفارسية المراثية
+      السنسكريتية، ومؤلف مجموعة الأغاني الفارسية المراثية
+      «كتاب نَوْرَس» — ببيجاپور سنة ١٠٣٧ هـ (الموافق ١٦٢٧
+      ميلادي) بعد حكم دام ثمان وأربعين سنة، وهو من أطول
+      سلاطين الدكن حكماً. وكان بلاط بيجاپور في عهده استثنائياً
+      في تنوّعه — يخدمه السنة والإمامية والهندوس والنصارى من
+      اليسوعيين البرتغاليين على السواء في القصر وفي بعثاته
+      الدبلوماسية — وأكبر آثاره ضريحه المعروف بـ«روضة
+      إبراهيم»، ومن أكبر ما بقي من العمارة العادل شاهية. وخلفه
+      على الملك ابنه محمد العادل شاه، باني ضريح «گول گُمْبَذ»
+      الضخم ببيجاپور. والمصادر الهندية الفارسية الكلاسيكية
+      (فرشته على الخصوص) تثبت سنة وفاته (١٠٣٧ هـ)؛ ولا
+      تحدد المصادر الكلاسيكية اليوم بدقة، فاكتفينا تبعاً
+      لدائرة المعارف الإسلامية بالسنة وحدها.
+    description_fr: |
+      Ibrāhīm ʿĀdil Shāh II — sixième sultan de la lignée
+      ʿādilshāhide de Bijapur, patron de la grande phase de
+      l'architecture deccanide et de la culture musicale
+      indo-perso-marathi-sanskrite, et auteur du recueil de
+      chants bilingue persan-marathi *Kitāb-i Nawras* —
+      mourut à Bijapur en 1037 H (1627 EC) après un règne
+      de quarante-huit ans, l'un des plus longs de tous les
+      sultans du Deccan. Sa cour de Bijapur était d'une
+      pluralité inhabituelle — Sunnites, chiites
+      duodécimains, Hindous et Chrétiens (jésuites
+      portugais) servirent dans son palais et dans ses
+      missions diplomatiques — et son monument majeur, le
+      complexe funéraire de l'Ibrāhīm Rauẓa, demeure l'un
+      des grands monuments survivants de l'architecture
+      ʿādilshāhide. Lui succéda son fils Muḥammad ʿĀdil
+      Shāh, bâtisseur du colossal mausolée Gol Gumbaz à
+      Bijapur. Les chroniques indo-persanes (Firishta en
+      particulier) conservent l'année de sa mort (1037 H);
+      les sources classiques ne sont pas précises au jour,
+      et nous suivons l'EI2 en ne donnant que l'année.
+    canonical_hijri: {year: 1037, precision: year}
+    canonical_gregorian: {date: 1627-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, bijapur, adil-shahi, ibrahim-rauza, kitab-i-nawras, ruler-death]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibrahim_Adil_Shah_II"
+
+  # =========================================================================
+  # MUGHAL ANNEXATION — END OF THE DECCAN SULTANATES
+  # =========================================================================
+
+  - slug: mughal-annexation-of-bijapur
+    category: conquest
+    title_en: Mughal Annexation of Bijapur by Aurangzeb
+    title_ar: ضمّ المغول لبيجاپور في عهد أورنكزيب
+    title_fr: Annexion de Bijapur par Aurangzeb
+    description_en: |
+      The Mughal emperor Aurangzeb ʿĀlamgīr — campaigning
+      personally in the Deccan since 1090 AH (1681 CE) — laid
+      siege to the Bijapur citadel from Muḥarram 1097 AH
+      (December 1685 CE) and forced its surrender on
+      27 Dhū al-Qaʿda 1097 AH (12 September 1686 CE) after
+      eight months of investment. The last sultan, Sikandar
+      ʿĀdil Shāh, was taken prisoner and removed to Daulatabad
+      where he would die in 1112 AH (1700 CE), and the
+      sultanate of Bijapur was annexed to the Mughal empire
+      after 197 years of independent existence (895-1097 AH /
+      1490-1686 CE). The annexation removed the western
+      Deccan as an organised political entity, brought the
+      ʿĀdil Shāhī territories formally under Mughal
+      administration, and freed Aurangzeb to turn his entire
+      Deccan force against Quṭb Shāhī Golconda the following
+      year. The conquest, alongside the Golconda campaign,
+      marks the territorial maximum of the Mughal empire
+      but also the beginning of the long Mughal-Maratha war
+      that would consume Aurangzeb's last twenty years.
+    description_ar: |
+      ضرب الإمبراطور المغولي أورنكزيب عالمگير — وكان قد نزل
+      شخصياً في الدكن منذ سنة ١٠٩٠ هـ (الموافق ١٦٨١ ميلادي) —
+      الحصار على قلعة بيجاپور من محرم سنة ١٠٩٧ هـ (الموافق
+      ديسمبر ١٦٨٥ ميلادي)، ثم اضطر السلطان آخر العادل
+      شاهيين سكندر شاه إلى الاستسلام في ٢٧ ذي القعدة سنة
+      ١٠٩٧ هـ (الموافق ١٢ سبتمبر ١٦٨٦ ميلادي) بعد ثمانية
+      أشهر من الحصار. وأُسر السلطان وسيق إلى دولت آباد، فمات
+      هناك سنة ١١١٢ هـ (الموافق ١٧٠٠ ميلادي)، وضُمّت دولة
+      بيجاپور إلى الإمبراطورية المغولية بعد ١٩٧ سنة من
+      الاستقلال (٨٩٥-١٠٩٧ هـ، الموافق ١٤٩٠-١٦٨٦ ميلادي).
+      وأسقط ضمُّها الدكنَ الغربيَّ كياناً سياسياً منظماً، ووضع
+      ولاية العادل شاهيين رسمياً تحت الإدارة المغولية، وفرّغ
+      أورنكزيب جيشه الدكني كله للزحف على گولكندة القطب شاهية
+      في السنة التالية. والفتح إلى جنب حملة گولكندة يمثّل
+      أقصى اتساع للإمبراطورية المغولية، لكنه يمثّل أيضاً
+      بداية الحرب المغولية المراثية الطويلة التي ستستهلك آخر
+      عشرين سنة من حكم أورنكزيب.
+    description_fr: |
+      L'empereur moghol Aurangzeb ʿĀlamgīr — qui menait
+      personnellement campagne dans le Deccan depuis 1090 H
+      (1681 EC) — assiégea la citadelle de Bijapur à partir
+      de Muḥarram 1097 H (décembre 1685 EC) et força sa
+      reddition le 27 Dhū al-Qaʿda 1097 H (12 septembre 1686
+      EC) après huit mois d'investissement. Le dernier
+      sultan, Sikandar ʿĀdil Shāh, fut fait prisonnier et
+      transféré à Daulatabad où il mourrait en 1112 H
+      (1700 EC), et le sultanat de Bijapur fut annexé à
+      l'empire moghol après 197 ans d'existence indépendante
+      (895-1097 H / 1490-1686 EC). L'annexion supprima le
+      Deccan occidental en tant qu'entité politique
+      organisée, plaça les territoires ʿādilshāhides
+      formellement sous l'administration moghole, et libéra
+      Aurangzeb pour tourner toute sa force deccanide contre
+      la Golconde quṭbshāhide l'année suivante. La conquête,
+      aux côtés de la campagne de Golconde, marque le
+      maximum territorial de l'empire moghol mais aussi le
+      début de la longue guerre mogholo-marathe qui
+      consumerait les vingt dernières années d'Aurangzeb.
+    canonical_hijri: {year: 1097, month: 11, day: 27, precision: day}
+    canonical_gregorian: {date: 1686-09-12, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, mughal, bijapur, adil-shahi, aurangzeb, conquest, sikandar-adil-shah]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siege_of_Bijapur"
+
+  - slug: mughal-annexation-of-golconda
+    category: conquest
+    title_en: Mughal Annexation of Golconda by Aurangzeb
+    title_ar: ضمّ المغول لگولكندة في عهد أورنكزيب
+    title_fr: Annexion de Golconde par Aurangzeb
+    description_en: |
+      A year after Bijapur, the Mughal emperor Aurangzeb
+      ʿĀlamgīr concluded his Deccan annexation programme by
+      forcing the surrender of the Golconda fortress on
+      21 Dhū al-Ḥijja 1098 AH (28 September 1687 CE) after
+      an eight-month siege that began in Rabīʿ al-Awwal
+      1098 AH (January 1687 CE). The last sultan, Abū
+      al-Ḥasan Tānā Shāh — captured when an officer betrayed
+      a sally-port in the citadel wall to the besiegers —
+      was taken prisoner and held at Daulatabad until his
+      death there in 1110 AH (1699 CE). The Quṭb Shāhī
+      sultanate of Golconda, founded in 901 AH, was thus
+      extinguished after 196 years of independent existence
+      (901-1098 AH / 1496-1687 CE). With its annexation
+      Aurangzeb formally incorporated Hyderabad and the
+      eastern Deccan into the Mughal empire and reached the
+      territorial maximum of Mughal rule. The Deccan
+      campaigns had however cost the empire two decades of
+      sustained warfare and accelerated the Maratha
+      ascendancy that would dismember the Mughal state in
+      the eighteenth century.
+    description_ar: |
+      بعد عام من فتح بيجاپور، ختم الإمبراطور المغولي أورنكزيب
+      عالمگير حملته على ضمّ الدكن باضطرار قلعة گولكندة
+      الكبرى إلى الاستسلام يوم ٢١ ذي الحجة سنة ١٠٩٨ هـ
+      (الموافق ٢٨ سبتمبر ١٦٨٧ ميلادي) بعد حصار دام ثمانية
+      أشهر بدأ في ربيع الأول سنة ١٠٩٨ هـ (الموافق جانفي
+      ١٦٨٧ ميلادي). وأُسر السلطان آخر القطب شاهيين أبو الحسن
+      «تَانَا شَاه» — لما خان أحد ضباطه فدلّ المحاصرين على
+      ثغرة في سور القلعة — فسيق إلى دولت آباد فمات هناك
+      سنة ١١١٠ هـ (الموافق ١٦٩٩ ميلادي). وانطفأت دولة
+      گولكندة القطب شاهية المؤسسة سنة ٩٠١ هـ بعد ١٩٦ سنة من
+      الاستقلال (٩٠١-١٠٩٨ هـ، الموافق ١٤٩٦-١٦٨٧ ميلادي).
+      وأَلْحَقَ بضمّها أورنكزيب رسمياً حيدرآباد وشرق الدكن
+      بالإمبراطورية المغولية، وبلغت بذلك الإمبراطورية أقصى
+      اتساعها الإقليمي. على أن حملات الدكن أفقدت الدولة
+      عقدين من الحرب المتواصلة، وعجّلت بصعود المراثة الذي
+      سيمزق الدولة المغولية في القرن الثامن عشر.
+    description_fr: |
+      Un an après Bijapur, l'empereur moghol Aurangzeb
+      ʿĀlamgīr conclut son programme d'annexion du Deccan
+      en forçant la reddition de la forteresse de Golconde
+      le 21 Dhū al-Ḥijja 1098 H (28 septembre 1687 EC)
+      après un siège de huit mois entamé en Rabīʿ al-Awwal
+      1098 H (janvier 1687 EC). Le dernier sultan, Abū
+      al-Ḥasan Tānā Shāh — capturé lorsqu'un officier
+      trahit une poterne dans la muraille de la citadelle
+      en faveur des assiégeants — fut fait prisonnier et
+      détenu à Daulatabad jusqu'à sa mort là-bas en 1110 H
+      (1699 EC). Le sultanat quṭbshāhide de Golconde, fondé
+      en 901 H, fut ainsi éteint après 196 ans d'existence
+      indépendante (901-1098 H / 1496-1687 EC). Avec son
+      annexion, Aurangzeb incorpora formellement Hyderabad
+      et le Deccan oriental à l'empire moghol et atteignit
+      le maximum territorial de la domination moghole. Les
+      campagnes du Deccan avaient cependant coûté à l'empire
+      deux décennies de guerre soutenue et accéléré
+      l'ascension marathe qui démembrerait l'État moghol au
+      XVIIIe siècle.
+    canonical_hijri: {year: 1098, month: 12, day: 21, precision: day}
+    canonical_gregorian: {date: 1687-09-28, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    tags: [india, deccan, mughal, golconda, qutb-shahi, aurangzeb, conquest, hyderabad, abu-al-hasan-qutb-shah]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siege_of_Golconda"

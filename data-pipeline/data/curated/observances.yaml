@@ -1,0 +1,219 @@
+# Annual recurring Islamic observances, keyed by Hijri month-day. Distinct
+# from the `events` table (one-time historical occurrences). Each observance
+# appears once a year at its fixed Hijri date.
+
+observances:
+  - slug: ashura
+    name_en: Day of 'Ashura
+    name_ar: يوم عاشوراء
+    hijri_month: 1
+    hijri_day: 10
+    importance: major
+    description_en: |
+      The tenth of Muharram. For Sunni Muslims this is primarily a Sunnah
+      fast: the Prophet ﷺ fasted it and recommended that Muslims fast it,
+      preferably together with either the ninth or the eleventh to
+      distinguish the practice from that of the Jews who also fasted it.
+      The Prophet ﷺ taught that its fast expiates the sins of the previous
+      year. It is also the anniversary of the martyrdom of al-Husayn ibn
+      'Ali at Karbala in 61 AH — an event mourned communally by the Shia
+      but observed in Sunni practice principally through the fast and
+      sober remembrance, without the mourning rituals of 'Ashura
+      processions.
+    hadith_refs: Bukhari 2004, Muslim 1162
+
+  - slug: mawlid
+    name_en: Mawlid an-Nabi ﷺ
+    name_ar: المولد النبوي
+    hijri_month: 3
+    hijri_day: 12
+    importance: notable
+    description_en: |
+      The traditional date associated with the birth of the Prophet
+      Muhammad ﷺ in the Year of the Elephant (~570 CE). Two layers of
+      genuine Sunni dispute apply:
+      1. The exact day is contested in classical sources — 8, 9, 10, and
+         12 Rabi' al-Awwal are all reported. Many later scholars (Ibn
+         Kathir, Ibn Hajar, others working from astronomical
+         reconstruction) have favoured Monday 9 Rabi' al-Awwal over the
+         popular 12 Rabi' al-Awwal. The 12th remains the date most widely
+         observed.
+      2. The ruling on communal celebration of the Mawlid is itself
+         disputed among Sunni scholars: some consider it a praiseworthy
+         innovation (bid'a hasana) following al-Suyuti's view; others
+         (al-Albani, Ibn Baz, the Hanbali tradition broadly) consider it
+         an unsanctioned innovation. The day is historically associated
+         with the Prophet's ﷺ birth; the manner of its commemoration is
+         a post-prophetic development.
+
+  - slug: isra-mi-raj-annual
+    name_en: Isra' wal-Mi'raj (anniversary)
+    name_ar: ليلة الإسراء والمعراج
+    hijri_month: 7
+    hijri_day: 27
+    importance: major
+    description_en: |
+      The popularly observed anniversary of the Prophet's ﷺ Night Journey
+      from the Masjid al-Haram in Makkah to the Masjid al-Aqsa in Jerusalem,
+      and his ascension (al-Mi'raj) through the seven heavens. The five
+      daily prayers were made obligatory on this night. Surah al-Isra'
+      17:1 and Surah al-Najm 53:1-18 allude to the journey. No authentic
+      hadith establishes 27 Rajab as the actual date; al-Zurqani lists
+      six competing classical proposals, and the 27-Rajab designation
+      is a later popular tradition, not prophetic. Commemoration of
+      the night with specific communal rituals is not established in
+      the sound Sunnah.
+    quran_refs: "17:1, 53:1-18"
+
+  - slug: night-of-bara-ah
+    name_en: Laylat al-Bara'a (Night of the Middle of Sha'ban)
+    name_ar: ليلة النصف من شعبان
+    hijri_month: 8
+    hijri_day: 15
+    importance: notable
+    description_en: |
+      The night of the 15th of Sha'ban, reported in some hadith as a night
+      of divine forgiveness, in which Allah forgives those who ask with the
+      exception of the mushrik and the one harbouring enmity. Scholars have
+      differed on the authenticity and scope of these reports; some Sunni
+      scholars have accepted them and recommended increased worship on this
+      night, others have regarded them as weak. Specific ritual forms —
+      notably the widely-circulated "100-rak'ah prayer of Sha'ban" — are
+      fabricated (mawdu') per classical muhaddithin and are not part of
+      the sound Sunnah.
+
+  - slug: ramadan-begin
+    name_en: First of Ramadan — Start of the Fast
+    name_ar: أول رمضان
+    hijri_month: 9
+    hijri_day: 1
+    importance: major
+    description_en: |
+      The month of Ramadan begins with the sighting of the new crescent
+      moon. Fasting from dawn (fajr) to sunset (maghrib) is obligatory on
+      every sane, mature, resident, healthy Muslim. The Qur'an was revealed
+      in Ramadan (2:185). The month concludes with Eid al-Fitr on
+      1 Shawwal. The last ten nights contain Laylat al-Qadr — a night
+      better than a thousand months.
+    quran_refs: "2:183-185"
+    hadith_refs: Bukhari 38, Muslim 760
+
+  - slug: laylat-al-qadr-window
+    name_en: Laylat al-Qadr (window — last ten nights of Ramadan)
+    name_ar: ليلة القدر
+    hijri_month: 9
+    hijri_day: 21
+    window_days: 10
+    importance: major
+    description_en: |
+      The Night of Power — "better than a thousand months" (Qur'an 97:3).
+      The Prophet ﷺ taught to seek it in the odd nights of the last ten of
+      Ramadan — the 21st, 23rd, 25th, 27th, or 29th. Classical scholars
+      gave weight to the 27th as most likely, but it is concealed so that
+      Muslims intensify worship across all ten nights. The Prophet ﷺ
+      himself performed I'tikaf in these nights, and Aisha ra reported he
+      would "tighten his waist-cloth, stay up at night, and wake up his
+      family." The du'a of the night is: "Allahumma innaka 'afuwwun tuhibbu
+      al-'afwa fa-'fu 'anni."
+    quran_refs: "97:1-5"
+    hadith_refs: Bukhari 2017, Muslim 1174
+
+  - slug: eid-al-fitr
+    name_en: Eid al-Fitr — Festival of Breaking the Fast
+    name_ar: عيد الفطر
+    hijri_month: 10
+    hijri_day: 1
+    importance: major
+    description_en: |
+      The first day of Shawwal, marking the end of Ramadan. Muslims gather
+      for the Eid prayer, celebrate, give gifts, and visit family. Zakat
+      al-Fitr (a small obligatory charity) is due before the Eid prayer.
+      Fasting is prohibited on this day. The Prophet ﷺ encouraged eating
+      an odd number of dates before leaving for prayer (Bukhari 953) and
+      entering the Eid prayer from one route and returning by another
+      (Bukhari 986), wearing one's best clothes.
+    hadith_refs: "Bukhari 953, Bukhari 986, Muslim 889"
+
+  - slug: six-of-shawwal
+    name_en: The Six Fasts of Shawwal
+    name_ar: صيام ست من شوال
+    hijri_month: 10
+    hijri_day: 2
+    window_days: 28
+    importance: notable
+    description_en: |
+      The Prophet ﷺ said: "Whoever fasts Ramadan and then follows it with
+      six days of Shawwal — it is as if he fasted the whole year." Scholars
+      have explained the equivalence: thirty days of Ramadan multiplied by
+      ten (one good deed rewarded tenfold) plus six days of Shawwal
+      multiplied by ten equals three hundred and sixty — a lunar year. The
+      six may be consecutive or spaced across Shawwal.
+    hadith_refs: Muslim 1164
+
+  - slug: first-ten-dhu-al-hijja
+    name_en: The First Ten Days of Dhu al-Hijja
+    name_ar: عشر ذي الحجة
+    hijri_month: 12
+    hijri_day: 1
+    window_days: 10
+    importance: major
+    description_en: |
+      The Prophet ﷺ said: "There are no days in which righteous deeds are
+      more beloved to Allah than these ten" — referring to the first ten
+      days of Dhu al-Hijja. Muslims are encouraged to fast, recite takbir,
+      and increase good deeds. The ninth is the Day of 'Arafah and the
+      tenth is Eid al-Adha. Pilgrims performing Hajj are at their peak of
+      ritual during these days.
+    quran_refs: "89:1-2"
+    hadith_refs: Bukhari 969
+
+  - slug: arafah
+    name_en: Day of 'Arafah
+    name_ar: يوم عرفة
+    hijri_month: 12
+    hijri_day: 9
+    importance: major
+    description_en: |
+      The ninth of Dhu al-Hijja — the central day of the Hajj, on which
+      pilgrims stand at the plain of 'Arafat from noon until sunset. The
+      Prophet ﷺ said: "The Hajj is 'Arafah" — those who miss the standing
+      have missed the Hajj. For Muslims not performing Hajj, fasting this
+      day is a highly recommended Sunnah: the Prophet ﷺ said it expiates
+      the sins of the year past and the year to come. It was on this day,
+      during the Farewell Pilgrimage, that Surah al-Ma'ida 5:3 was
+      revealed — "This day I have perfected your religion for you."
+    quran_refs: "5:3"
+    hadith_refs: Muslim 1162, Tirmidhi 889
+
+  - slug: eid-al-adha
+    name_en: Eid al-Adha — Festival of the Sacrifice
+    name_ar: عيد الأضحى
+    hijri_month: 12
+    hijri_day: 10
+    importance: major
+    description_en: |
+      The tenth of Dhu al-Hijja, the greatest of the two Muslim feasts. It
+      commemorates the willingness of Ibrahim ﷺ to sacrifice his son
+      Isma'il ﷺ in obedience to Allah, and Allah's ransom of the son with
+      a great sacrifice. Muslims offer the Eid prayer, slaughter a sacrifice
+      (qurbani/udhiya) if able, and distribute the meat in thirds —
+      household, relatives/friends, and poor. Pilgrims at Mina throw their
+      first stones at the Jamarat and cut or shave their hair on this day.
+    quran_refs: "37:100-111, 22:28"
+    hadith_refs: Bukhari 5545, Muslim 1960
+
+  - slug: tashriq
+    name_en: Days of Tashriq (11, 12, 13 Dhu al-Hijja)
+    name_ar: أيام التشريق
+    hijri_month: 12
+    hijri_day: 11
+    window_days: 3
+    importance: notable
+    description_en: |
+      The three days following Eid al-Adha — days of eating, drinking, and
+      remembrance of Allah. The Prophet ﷺ said: "The days of Tashriq are
+      days of eating, drinking, and remembrance of Allah." Pilgrims
+      complete the stoning of the Jamarat and perform the farewell tawaf.
+      Fasting on these days is prohibited for those not performing Hajj
+      tamattu' without a hady.
+    hadith_refs: Muslim 1141

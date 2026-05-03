@@ -1,0 +1,95 @@
+# Wave 102 of curated event additions (2026-04-29).
+# Southeast Asian Sunni reformers — Buya Hamka, the pre-eminent Indonesian
+# scholar-novelist-exegete of the twentieth century.
+#
+# Already in dataset (NOT duplicated here):
+#   - death-of-ahmad-dahlan (1341 AH / 1923) — file 40
+#   - death-of-hashim-asyari (1366 AH / 1947) — file 40
+#
+# Sources: EI3 supplement; modern Indonesian biographical references;
+# Muhammadiyah institutional records. Trilingual en/ar/fr throughout.
+
+events:
+  - slug: death-of-buya-hamka
+    category: scholar_death
+    title_en: Death of Buya Hamka — Indonesian Exegete, Novelist, and Reformer
+    title_ar: وفاة بيا حمكة — المفسر والروائي والمصلح الإندونيسي
+    title_fr: Mort de Buya Hamka — exégète, romancier et réformateur indonésien
+    description_en: |
+      ʿAbd al-Malik Karīm Amrullāh, known across the
+      Indonesian-speaking world as Buya Hamka, the Sunni
+      Shāfiʿī scholar who authored the most widely read Qurʾānic
+      commentary in modern Southeast Asia (*Tafsīr al-Azhar*),
+      died in Jakarta on 24 July 1981 CE (21 Shaʿbān 1401 AH)
+      at age 73. Born in the Minangkabau highlands of Sumatra
+      in 1908, he received his early education in the
+      traditional pesantren of West Sumatra before embarking on
+      a career that spanned religious scholarship, journalism,
+      politics, and literature. His thirty-volume *Tafsīr al-
+      Azhar* — written in accessible Malay-Indonesian and
+      integrating classical tafsīr, Sufi insight, and
+      contemporary social commentary — became the standard
+      household Qurʾān commentary for Indonesian Muslims. His
+      novel *Tenggelamnya Kapal van der Wijck* (1938) is a
+      canonical work of modern Indonesian literature. He served
+      as chairman of the Muhammadiyah organisation (1962–1981)
+      and as a member of the Indonesian parliament, embodying
+      the integration of religious scholarship and national
+      citizenship that characterised the Indonesian Sunni
+      reformist tradition.
+    description_ar: |
+      توفي عبد الملك كريم أمر الله، المعروف في أنحاء العالم
+      الناطق بالإندونيسية بـ«بيا حمكة» — العالم الشافعي السني
+      الذي ألّف أكثر تفاسير القرآن قراءةً في جنوب شرقي آسيا
+      الحديث («تفسير الأزهر») — بجاكرتا يوم ٢٤ يوليو ١٩٨١ م
+      (الموافق ٢١ شعبان سنة ١٤٠١ هـ) عن ثلاث وسبعين سنة.
+      وُلد في هضبة المننجكاباو بسومطرة سنة ١٩٠٨، وتتلمذ في
+      المعاهد التقليدية (البيستانرين) بغربي سومطرة قبل أن
+      يخوض مسيرة امتدت بين العلم الديني والصحافة
+      والسياسة والأدب. وصار تفسيره بثلاثين مجلداً —
+      مكتوب باللغة الملايوية-الإندونيسية السهلة، يدمج
+      التفسير الكلاسيكي والبصيرة الصوفية والتعليق
+      الاجتماعي المعاصر — التفسير المنزلي القياسي
+      للقرآن عند المسلمين الإندونيسيين. وروايته «غرق
+      سفينة فان دير ويك» (١٩٣٨) عمل كلاسيكي في الأدب
+      الإندونيسي الحديث. وشغل رئاسة منظمة المحمدية
+      (١٩٦٢–١٩٨١) وعضوية البرلمان الإندونيسي، مجسداً
+      الدمج بين العلم الديني والمواطنة الوطنية الذي
+      ميّز التقليد الإصلاحي السني الإندونيسي.
+    description_fr: |
+      ʿAbd al-Malik Karīm Amrullāh, connu dans le monde
+      indonésien sous le nom de Buya Hamka, savant shāfiʿite
+      sunnite qui rédigea le commentaire coranique le plus
+      lu de l'Asie du Sud-Est moderne (*Tafsīr al-Azhar*),
+      mourut à Jakarta le 24 juillet 1981 EC (21 Shaʿbān
+      1401 H) à l'âge de soixante-treize ans. Né dans les
+      hautes terres de Minangkabau à Sumatra en 1908, il
+      reçut son éducation initiale dans les pesantren
+      traditionnels de Sumatra occidental avant de se lancer
+      dans une carrière qui embrassa la science religieuse,
+      le journalisme, la politique et la littérature. Son
+      *Tafsīr al-Azhar* en trente volumes — rédigé en malais-
+      indonésien accessible et intégrant tafsīr classique,
+      intuition soufie et commentaire social contemporain —
+      devint le commentaire coranique domestique de référence
+      pour les musulmans indonésiens. Son roman *Tenggelamnya
+      Kapal van der Wijck* (1938) est une œuvre canonique de
+      la littérature indonésienne moderne. Il fut président de
+      l'organisation Muhammadiyah (1962–1981) et membre du
+      parlement indonésien, incarnant l'intégration de la
+      science religieuse et de la citoyenneté nationale qui
+      caractérisait la tradition réformiste sunnite
+      indonésienne.
+    canonical_hijri: {year: 1401, month: 8, day: 21, precision: day}
+    canonical_gregorian: {date: 1981-07-24, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI3 supplement records his death on 24 July 1981 and his role as chairman of Muhammadiyah."
+      - source_key: editorial
+        notes: "Death date attested in Muhammadiyah biographical records and Indonesian national archives."
+    people: [[buya-hamka, died]]
+    tags: [modern, scholar, shafii, ashari, indonesia, tafsir, novelist, reformer, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: single_source

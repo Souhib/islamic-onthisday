@@ -1,0 +1,201 @@
+# Additional famous authentic hadith narratives from Sahih al-Bukhari and
+# Sahih Muslim. display_day_of_year values avoid collisions with existing
+# lesson files.
+
+lessons:
+  - slug: hadith-iman-77-branches
+    category: hadith_narrative
+    title_en: Iman Has Seventy-Odd Branches
+    description_en: |
+      The Prophet ﷺ said: "Iman has seventy-odd (some narrations say
+      seventy-seven) branches — the highest of which is to say 'la ilaha
+      illa Allah' and the lowest of which is to remove a harmful thing
+      from the road. And modesty (haya') is a branch of iman." The hadith
+      systematised for Muslim ethical reflection the idea that faith is
+      not a single binary affirmation but a layered structure of inner
+      states, outward acts, and social duties — later catalogued branch
+      by branch by al-Bayhaqi in his "Shu'ab al-Iman" (The Branches of
+      Iman). The full "highest is la ilaha illa Allah / lowest is
+      removing harm" wording is preserved in Muslim's longer narration
+      (Muslim 35); Bukhari's shorter version (no. 9) mentions only
+      "more than sixty branches" with haya' specified.
+    reference: Sahih al-Bukhari 9, Sahih Muslim 35
+    source_notes: |
+      Ibn Ḥajar notes that the variation between "seventy-odd" and "seventy-seven" is not a contradiction but reflects the Prophet's ﷺ use of approximate numbers to indicate abundance. Al-Nawawī explains that the hierarchy — from tawḥīd to removing harm — shows that faith spans the highest theological affirmation to the smallest civic courtesy. This hadith inspired al-Bayhaqī's encyclopaedic Shuʿab al-Īmān and is central to understanding faith as a structured whole.
+    source_notes_fr: |
+      Ibn Ḥajar note que la variation entre « soixante-dix et quelques » et « soixante-dix-sept » n'est pas une contradiction mais reflète l'usage par le Prophète ﷺ de nombres approximatifs pour indiquer l'abondance. Al-Nawawī explique que la hiérarchie — du tawḥīd au retrait du préjudice — montre que la foi s'étend de la plus haute affirmation théologique à la plus petite courtoisie civique. Ce hadith inspira l'encyclopédique Shuʿab al-Īmān d'al-Bayhaqī et est central à la compréhension de la foi comme un tout structuré.
+    source_notes_ar: |
+      يُنوِّه ابن حجر بأنَّ الاختلاف بين «سبعين وشيء» و«سبع وسبعين» ليس تناقضًا بل يعكسُ استعمالَ النبي ﷺ للأعدادِ التقريبيةِ لبيان الكثرة. ويُفسِّر النووي أنَّ التدرُّج - من التوحيد إلى إزالة الأذى - يُبيِّن أنَّ الإيمان يمتدُّ من أعلى التقريرات الكلامية إلى أدنى آداب المعاشرة. وهذا الحديثُ مُلهِمٌ لكتاب شعاب الإيمان للبيهقي، وهو محوريٌّ في فهم الإيمان ككلٍّ منظم.
+    display_day_of_year: 13
+    hadith_refs: "Bukhari 9, Muslim 35"
+
+  - slug: hadith-weeping-tree-stump
+    category: hadith_narrative
+    title_en: The Weeping Tree-Stump (Hanin al-Jidh')
+    description_en: |
+      Before a minbar was built in the mosque, the Prophet ﷺ used to
+      lean against a palm-tree trunk while delivering the khutba. When
+      the minbar was installed and he moved to it, the trunk emitted a
+      sound of weeping "like a young camel crying," audible to the
+      congregation. The Prophet ﷺ came down from the minbar, embraced
+      the trunk, and calmed it. A reflection popularly attributed to
+      al-Hasan al-Basri — though without a verifiable isnad in the
+      canonical collections — captures the devotional lesson: "a piece
+      of wood longed for the Messenger of Allah ﷺ out of love; are we
+      not more deserving of longing to meet him?"
+    reference: Sahih al-Bukhari 3583-3585
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī) explains that the weeping of inanimate objects is a divine sign (karāma) granted to the Prophet ﷺ, not a natural phenomenon, and affirms that creation recognises its Messenger. Al-Nawawī adds that the Prophet's ﷺ embrace of the trunk demonstrates his compassion even for objects, establishing that love for him transcends the rational boundary between animate and inanimate. The hadith is cited as proof for the permissibility of seeking blessings through objects connected to the righteous.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī) explique que le pleur des objets inanimés est un signe divin (karāma) accordé au Prophète ﷺ, non un phénomène naturel, et affirme que la création reconnaît son Messager. Al-Nawawī ajoute que l'étreinte du Prophète ﷺ du tronc démontre sa compassion même pour les objets, établissant que l'amour pour lui transcende la frontière rationnelle entre l'animé et l'inanimé. Ce hadith est cité comme preuve de la permissibilité de chercher les bénédictions par les objets liés aux pieux.
+    source_notes_ar: |
+      يُفسِّر ابن حجر (فتح الباري) أنَّ بكاءَ الجمادات كرامةٌ أُوتيَها النبي ﷺ لا ظاهرةٌ طبيعية، ويُؤكِّد أنَّ الخلقَ يعرفُ رسولَه. ويُضيف النووي أنَّ معانقة النبي ﷺ للجذع تُثبت رحمته حتى للجمادات، مُبيِّنةً أنَّ الحبَّ له يتجاوز الحدَّ العقلي بين الحيِّ والجماد. ويُستشهد بهذا الحديث في جواز التبرُّك بآثار الصالحين.
+    display_day_of_year: 19
+    hadith_refs: "Bukhari 3583"
+
+  - slug: hadith-man-who-killed-100
+    category: hadith_narrative
+    title_en: The Man Who Killed a Hundred
+    description_en: |
+      The Prophet ﷺ told the story of a man among the past nations who
+      had killed ninety-nine people. He sought a monk and asked whether
+      repentance was still possible; the monk said it was not — so the
+      man killed him too (making it a hundred). He then sought a scholar,
+      who told him repentance was open and advised him to leave his
+      corrupt town for one whose people worshipped Allah. The man set
+      out. He died on the road — between the two towns. Two angels
+      disputed over him until Allah commanded them to measure the
+      distance to each town; the earth of the good town was miraculously
+      drawn closer, and he was counted of its people. The hadith is a
+      canonical teaching on the limitlessness of Allah's mercy and the
+      decisive role of intention (even when the deed is incomplete).
+    reference: Sahih al-Bukhari 3470, Sahih Muslim 2766
+    source_notes: |
+      Ibn Ḥajar notes that the earth itself was commanded to shrink the distance, showing that creation serves the sincere penitent. Al-Nawawī adds that the monk's fatal error — declaring repentance impossible — is a warning against speaking about Allah without knowledge, as it literally cost him his life. This hadith is the canonical proof that repentance is always open until death, regardless of the magnitude of sin.
+    source_notes_fr: |
+      Ibn Ḥajar note que la terre elle-même fut commandée de réduire la distance, montrant que la création est au service du pénitent sincère. Al-Nawawī ajoute que l'erreur fatale du moine — déclarer la repentance impossible — est un avertissement contre le fait de parler d'Allah sans connaissance, car cela lui coûta littéralement la vie. Ce hadith est la preuve canonique que la repentance est toujours ouverte jusqu'à la mort, quelle que soit l'ampleur du péché.
+    source_notes_ar: |
+      يُنوِّه ابن حجر بأنَّ الأرضَ أُمرَت باختصار المسافة، مُبيِّنًا أنَّ الخلقَ يخدُمُ التائبَ الصادق. ويُضيف النووي أنَّ خطأَ الراهب القاتلَ - إعلانَ استحالة التوبة - تحذيرٌ من الكلام في الله بلا علمٍ، فقد كبَّده حياتَه. وهذا الحديثُ هو الدليلُ القاطع على أنَّ التوبةَ مفتوحةٌ دائمًا حتى الموت، بغضِّ النظر عن عظمة الذنب.
+    display_day_of_year: 29
+    hadith_refs: "Bukhari 3470, Muslim 2766"
+
+  - slug: hadith-i-was-a-hidden-treasure
+    category: hadith_narrative
+    title_en: "'I Was a Hidden Treasure' — A Qudsi Report"
+    description_en: |
+      A widely quoted saying attributed to Allah: "I was a hidden
+      treasure, and I loved to be known, so I created creation that I
+      might be known." Classical hadith scholars (Ibn Taymiyya, al-
+      Suyuti, al-Zarkashi) evaluated this narration and concluded it has
+      no chain of transmission (isnad) — it is NOT a sound hadith. Ibn
+      Taymiyya wrote explicitly: "This is not among the words of the
+      Prophet ﷺ, and there is no known chain for it." It appears first
+      in Ibn 'Arabi and became a Sufi commonplace. Authentic hadith on
+      the purpose of creation include Qur'an 51:56 — "I did not create
+      the jinn and mankind except to worship Me." The contrast is a
+      classic illustration of why isnad criticism matters even for
+      beautiful-sounding narrations.
+    reference: Ibn Taymiyya "Majmu' al-Fatawa" 18/122; al-Suyuti "al-Durar al-Muntathira" no. 330
+    source_notes: |
+      Ibn Taymiyya (Majmūʿ al-Fatāwā) and al-Suyūṭī (al-Durar al-Muntathira) agree that this saying has no authenticated isnād and cannot be attributed to the Prophet ﷺ. Al-Albānī classified it as mawdūʿ (fabricated). The authentic purpose of creation is given in Qur'an 51:56. This case is foundational in teaching students of hadith that aesthetic beauty does not authenticate a narration.
+    source_notes_fr: |
+      Ibn Taymiyya (Majmūʿ al-Fatāwā) et al-Suyūṭī (al-Durar al-Muntathira) s'accordent pour dire que cette parole n'a pas d'isnād authentifié et ne peut être attribuée au Prophète ﷺ. Al-Albānī l'a classée mawdūʿ (fabriquée). Le but authentique de la création est donné en Coran 51:56. Ce cas est fondamental pour enseigner aux étudiants du hadith que la beauté esthétique n'authentifie pas une narration.
+    source_notes_ar: |
+      يتَّفق ابن تيمية (مجموع الفتاوى) والسيوطي (الدرر المنثورة) على أنَّ هذا القولَ ليس له إسنادٌ معتمدٌ ولا يُنسب إلى النبي ﷺ. وصنَّفه الألباني موضوعًا. والغرضُ المُثبَتُ من الخلق في الذاريات ٥١:٥٦. وهذه الحالةُ أُسسيةٌ في تعليم طلاب الحديث أنَّ الجمالَ البلاغيَّ لا يُصحِّح الرواية.
+    display_day_of_year: 39
+    quran_refs: "51:56"
+
+  - slug: hadith-garden-for-the-one-who-preserves
+    category: hadith_narrative
+    title_en: "A Guarantee of Paradise"
+    description_en: |
+      The Prophet ﷺ said: "Whoever guarantees me what is between his
+      jaws and what is between his legs, I guarantee him Paradise." The
+      brief hadith names the tongue and the private parts as the two
+      organs through which the vast majority of sin enters — and
+      reduces the core of practical religion to their disciplined use.
+      Al-Nawawi included it in his Riyad as-Salihin; classical
+      commentators (Ibn Hajar in Fath al-Bari) note that it names the
+      two zones of human life most prone to weakness and hardest to
+      guard — speech and sexuality.
+    reference: Sahih al-Bukhari 6474
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī) explains that the tongue and private parts are singled out because they are the two gates through which most people enter the Fire. Al-Nawawī adds that the Prophet's ﷺ use of the word "guarantee" (ḍamana) makes this a contractual promise: fulfil the condition, and Paradise is assured. This hadith appears in al-Nawawī's Riyāḍ al-Ṣāliḥīn and is central to works on guarding the senses.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī) explique que la langue et les parties intimes sont distinguées car elles sont les deux portes par lesquelles la plupart des gens entrent dans le Feu. Al-Nawawī ajoute que l'emploi par le Prophète ﷺ du mot « garantie » (ḍamana) en fait une promesse contractuelle : remplissez la condition, et le Paradis est assuré. Ce hadith figure dans le Riyāḍ al-Ṣāliḥīn d'al-Nawawī et est central dans les œuvres sur la garde des sens.
+    source_notes_ar: |
+      يُفسِّر ابن حجر (فتح الباري) أنَّ اللسان والفرج نُوِّها لأنَّهما البابان اللذين يدخلُ منهما أكثرُ الناس في النار. ويُضيف النووي أنَّ استعمالَ النبي ﷺ لكلمة «الضمان» يجعلُها وعدًا عقديًّا: أدِّ الشرط يضمنَ الجنة. ويظهر هذا الحديثُ في رياض الصالحين للنووي، وهو محوريٌّ في مصنَّفات حفظ الحواس.
+    display_day_of_year: 49
+    hadith_refs: Bukhari 6474
+
+  - slug: hadith-muslim-is-a-muslim-brother
+    category: hadith_narrative
+    title_en: "A Muslim Does Not Oppress Another"
+    description_en: |
+      The Prophet ﷺ said: "The Muslim is the brother of the Muslim. He
+      does not oppress him, hand him over to an enemy, or let him down.
+      Whoever relieves a Muslim of a burden from the burdens of this
+      world — Allah will relieve him of a burden from the burdens of
+      Yawm al-Qiyama. Whoever conceals the fault of a Muslim in this
+      world — Allah will conceal his faults in this world and the next"
+      (Bukhari 2442, Muslim 2580). A separate sahih narration from Abu
+      Hurayra adds the complementary principle: "Allah is in the aid
+      of the servant as long as the servant is in the aid of his
+      brother" (Muslim 2699). Together they form a cornerstone of
+      Islamic social ethics.
+    reference: Sahih al-Bukhari 2442, Sahih Muslim 2580, Sahih Muslim 2699
+    source_notes: |
+      Ibn Ḥajar explains that concealing faults is not lying but withholding disclosure that would harm a Muslim's reputation without benefit to the community. Al-Nawawī adds that "Allah is in the aid of the servant as long as the servant is in the aid of his brother" establishes mutual aid as a condition of divine aid. This pair of hadiths is foundational to classical works on brotherhood (ukhuwwa) and social solidarity.
+    source_notes_fr: |
+      Ibn Ḥajar explique que dissimuler les défauts n'est pas mentir mais retenir une divulgation qui nuirait à la réputation d'un musulman sans bénéfice pour la communauté. Al-Nawawī ajoute que « Allah est dans l'aide du serviteur aussi longtemps que le serviteur est dans l'aide de son frère » établit l'entraide mutuelle comme condition de l'aide divine. Cette paire de hadiths est fondamentale pour les œuvres classiques sur la fraternité (ukhuwwa) et la solidarité sociale.
+    source_notes_ar: |
+      يُفسِّر ابن حجر أنَّ سترَ العيوب ليس كذبًا بل كتمانُ إفشاءٍ يُضرُّ بسمعة المسلم من غير مصلحةٍ للجماعة. ويُضيف النووي أنَّ «الله في عون العبد ما كان العبد في عون أخيه» يجعلُ التعاضدَ شرطًا لنصر الله. وهذان الحديثان أساسيَّان في المصنَّفات الكلاسيكية عن الأخوة (الأخوة) والتضامن الاجتماعي.
+    display_day_of_year: 59
+    hadith_refs: "Bukhari 2442, Muslim 2580, Muslim 2699"
+
+  - slug: hadith-seven-destroyers
+    category: hadith_narrative
+    title_en: The Seven Destructive Sins
+    description_en: |
+      The Prophet ﷺ said: "Avoid the seven destroyers." They asked: "O
+      Messenger of Allah, what are they?" He said: "Shirk with Allah;
+      sorcery; killing the soul which Allah has forbidden except by
+      right; consuming riba; consuming the property of the orphan;
+      turning one's back on the day of advance; and slandering chaste,
+      believing, heedless women." Classical jurists (Ibn Hajar, al-
+      Nawawi) took the list as illustrative, not exhaustive — other
+      hadiths enumerate further major sins — but the seven here are
+      canonical.
+    reference: Sahih al-Bukhari 2766, Sahih Muslim 89
+    source_notes: |
+      Ibn Ḥajar notes that the seven destructive sins include offences against Allah (shirk, sorcery), life (murder), wealth (ribā, orphan's property), community (fleeing battle), and honour (slander) — covering every domain of human existence. Al-Nawawī adds that the list is representative, not exhaustive, as other hadiths enumerate further major sins. This hadith is the basis for classical categorisations of kabāʾir.
+    source_notes_fr: |
+      Ibn Ḥajar note que les sept péchés destructeurs comprennent des offenses contre Allah (shirk, sorcellerie), la vie (meurtre), la richesse (ribā, propriété de l'orphelin), la communauté (fuite du combat) et l'honneur (calomnie) — couvrant ainsi chaque domaine de l'existence humaine. Al-Nawawī ajoute que la liste est représentative, non exhaustive, d'autres hadiths énumérant d'autres péchés majeurs. Ce hadith est la base des catégorisations classiques des kabāʾir.
+    source_notes_ar: |
+      يُنوِّه ابن حجر بأنَّ السبع الموبقات تشتمل على جناياتٍ على الله (الشرك والسحر) والنفس (القتل) والمال (الربا ومال اليتيم) والجماعة (الفرار من الزحف) والعرض (القذف) - مما يغطِّي كلَّ مجالٍ من مجالات الوجود البشري. ويُضيف النووي أنَّ القائمةَ تمثيليةٌ لا حصرية، وأنَّ أحاديثَ أخرى تُعدِّد كبائر أخرى. وهذا الحديثُ أساسُ التصنيفات الكلاسيكية للكبائر.
+    display_day_of_year: 69
+    hadith_refs: "Bukhari 2766, Muslim 89"
+
+  - slug: hadith-the-splitting-of-the-moon
+    category: hadith_narrative
+    title_en: The Splitting of the Moon (Inshiqaq al-Qamar)
+    description_en: |
+      Before the Hijra, the Quraysh demanded a sign from the Prophet ﷺ.
+      That night, the moon split into two halves — one on either side
+      of Mount Hira' — for a period and then re-joined. The event is
+      witnessed by a group of Companions (Ibn Mas'ud, Anas, Jubayr ibn
+      Mut'im, others) and is preserved in multiple sahih isnad chains.
+      Surah al-Qamar opens with it: "The Hour has drawn near, and the
+      moon has split." Quraysh, despite witnessing, dismissed it as
+      magic, fulfilling the next verse: "And if they see a sign, they
+      turn away and say: continuing magic."
+    reference: Sahih al-Bukhari 3636, Sahih Muslim 2800
+    source_notes: |
+      Ibn Ḥajar (Fatḥ al-Bārī) explains that the splitting was witnessed by multiple Companions through independent chains, satisfying the most stringent criteria of hadith criticism. Al-Nawawī adds that the Quraysh's dismissal of the miracle — calling it "continuing magic" — demonstrates that miracles do not compel belief; they only clarify the already disposed heart. This event is the occasion for the revelation of Sūrat al-Qamar.
+    source_notes_fr: |
+      Ibn Ḥajar (Fatḥ al-Bārī) explique que la division fut témoignée par plusieurs Compagnons par des chaînes indépendantes, satisfaisant les critères les plus strictes de la critique du hadith. Al-Nawawī ajoute que le rejet par les Quraysh du miracle — l'appelant « magie continue » — démontre que les miracles ne contraignent pas la foi ; ils ne font que clarifier le cœur déjà disposé. Cet événement est l'occasion de la révélation de Sūrat al-Qamar.
+    source_notes_ar: |
+      يُفسِّر ابن حجر (فتح الباري) أنَّ الانشقاقَ شاهدَه عددٌ من الصحابة بأسانيد مستقلة، مما يُلبِّي أشدَّ معايير نقض الحديث. ويُضيف النووي أنَّ إنكارَ قريش للمعجزة - تسميتَها «سحرٌ مستمر» - يُثبت أنَّ المعجزات لا تُكرِه على الإيمان، بل تُبيِّن القلبَ المُستعدَّ. وهذا الحدثُ سببُ نزول سورة القمر.
+    display_day_of_year: 79
+    quran_refs: "54:1-2"
+    hadith_refs: "Bukhari 3636, Muslim 2800"

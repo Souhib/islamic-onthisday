@@ -1,0 +1,280 @@
+# Muslim scientists and polymaths whose death dates are well-attested in
+# classical biographical dictionaries or modern scholarship.
+
+events:
+  - slug: death-of-al-zahrawi
+    category: scholar_death
+    title_en: Death of Abu al-Qasim al-Zahrawi (Abulcasis)
+    title_ar: وفاة أبي القاسم الزهراوي
+    title_fr: Décès d'Abū al-Qāsim al-Zahrāwī (Abulcasis)
+    description_en: |
+      The father of modern surgery. His thirty-volume "Kitab al-Tasrif
+      li-man 'Ajiza 'an al-Ta'lif" — translated into Latin as "Liber
+      Servitoris" — was the standard European medical and surgical
+      reference for five centuries. He invented over 200 surgical
+      instruments, many still recognisable today, and gave the first
+      detailed description of haemophilia. Died in Cordoba.
+    description_ar: |
+      أبو الجراحة الحديثة. كان كتابه "التصريف لمن عجز عن التأليف" المؤلف
+      من ثلاثين مجلداً — والمترجم إلى اللاتينية باسم "Liber Servitoris" —
+      المرجع الطبي والجراحي الأوروبي المعتمد لمدة خمسة قرون. ابتكر أكثر
+      من مئتي أداة جراحية، لا يزال كثير منها يُستعمل إلى اليوم، وقدّم أوّل
+      وصف مفصّل لمرض الناعور (الهيموفيليا). توفي بقرطبة.
+    description_fr: |
+      Le père de la chirurgie moderne. Son ouvrage en trente volumes
+      "Kitāb al-Taṣrīf li-man ʿAjiza ʿan al-Taʾlīf" — traduit en latin
+      sous le titre "Liber Servitoris" — fut la référence médicale et
+      chirurgicale européenne pendant cinq siècles. Il inventa plus de
+      deux cents instruments chirurgicaux, dont beaucoup demeurent
+      reconnaissables aujourd'hui, et livra la première description
+      détaillée de l'hémophilie. Décédé à Cordoue.
+    canonical_hijri: {year: 404, precision: year}
+    canonical_gregorian: {date: 1013-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    source_url: https://en.wikipedia.org/wiki/Al-Zahrawi
+    people: [[al-zahrawi, died]]
+    tags: [al-andalus, scientist, medicine, surgery, cordoba]
+    importance: notable
+    verified: true
+
+  - slug: death-of-ibn-al-nafis
+    category: scholar_death
+    title_en: Death of Ibn al-Nafis — Discoverer of Pulmonary Circulation
+    title_ar: وفاة ابن النفيس
+    title_fr: Décès d'Ibn al-Nafīs
+    description_en: |
+      Damascus-born physician who served as head of the Mansuri hospital
+      in Cairo. In his "Sharh Tashrih al-Qanun" he correctly described
+      the pulmonary circulation of the blood — three centuries before
+      Michael Servetus and William Harvey reached the same conclusion in
+      Europe. His "Kitab al-Shamil fi al-Sina'a al-Tibbiyya" was planned
+      in 300 volumes; 80 were completed. Died in Cairo.
+    description_ar: |
+      طبيب وُلد بدمشق وتولّى رئاسة البيمارستان المنصوري بالقاهرة. وصف في
+      كتابه "شرح تشريح القانون" الدورة الدموية الصغرى وصفاً صحيحاً، قبل
+      أن يصل إلى الاستنتاج نفسه ميشيل سرفيتوس ووليام هارفي في أوروبا
+      بثلاثة قرون. وكان قد خطّط لكتاب "الشامل في الصناعة الطبية" في ثلاثمئة
+      مجلد، أتمّ منها ثمانين. توفي بالقاهرة.
+    description_fr: |
+      Médecin né à Damas, chef de l'hôpital al-Manṣūrī au Caire. Dans son
+      "Sharḥ Tashrīḥ al-Qānūn", il décrivit correctement la circulation
+      pulmonaire du sang — trois siècles avant que Michel Servet et
+      William Harvey ne parviennent à la même conclusion en Europe. Son
+      "Kitāb al-Shāmil fī al-Ṣināʿa al-Ṭibbiyya" était projeté en trois
+      cents volumes ; quatre-vingts furent achevés. Décédé au Caire.
+    canonical_hijri: {year: 687, precision: year}
+    canonical_gregorian: {date: 1288-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death year 687 AH (1288/89 CE) is attested. Day-precise dating not confirmed across Sunni biographical sources; year-precision retained."
+    source_url: https://en.wikipedia.org/wiki/Ibn_al-Nafis
+    people: [[ibn-al-nafis, died]]
+    tags: [mamluk, scientist, medicine, cairo, anatomy]
+    importance: notable
+    verified: true
+
+  - slug: death-of-al-idrisi
+    category: scholar_death
+    title_en: Death of Muhammad al-Idrisi — The Geographer
+    title_ar: وفاة الإدريسي
+    title_fr: Décès de Muḥammad al-Idrīsī
+    description_en: |
+      The author of "Kitab Nuzhat al-Mushtaq" (the Book of Pleasant
+      Journeys into Faraway Lands) and the silver planisphere commissioned
+      by King Roger II of Sicily — the most accurate map of the world
+      produced for its time, and the standard European cartographic
+      reference for three centuries. He combined Islamic geographical
+      knowledge with direct interviews of travellers and sailors at the
+      Norman court of Palermo. Died at Ceuta.
+    description_ar: |
+      مؤلف "نزهة المشتاق في اختراق الآفاق" وصاحب الكرة الفضية التي صُنعت
+      للملك روجر الثاني ملك صقلية — أدقّ خريطة للعالم في زمانها، وظلّت
+      المرجع الأوروبي الجغرافي ثلاثة قرون. جمع بين علوم الجغرافيا الإسلامية
+      ومقابلاته المباشرة للرحّالين والملاحين في البلاط النورماندي بباليرمو.
+      توفي بسبتة.
+    description_fr: |
+      Auteur du "Kitāb Nuzhat al-Mushtāq" (Livre des promenades de celui
+      qui désire parcourir les contrées lointaines) et du planisphère
+      d'argent commandé par le roi Roger II de Sicile — la carte du
+      monde la plus précise de son temps et la référence cartographique
+      européenne pendant trois siècles. Il combina le savoir géographique
+      islamique avec les entretiens directs des voyageurs et des marins
+      à la cour normande de Palerme. Décédé à Ceuta.
+    canonical_hijri: {year: 560, precision: year}
+    canonical_gregorian: {date: 1165-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    source_url: https://en.wikipedia.org/wiki/Muhammad_al-Idrisi
+    people: [[al-idrisi, died]]
+    tags: [al-andalus, sicily, scientist, geography]
+    importance: notable
+    verified: true
+
+  - slug: death-of-al-jazari
+    category: scholar_death
+    title_en: Death of al-Jazari — The Engineer of Automata
+    title_ar: وفاة الجزري
+    title_fr: Décès d'al-Jazarī
+    description_en: |
+      The Artuqid court engineer whose "Kitab fi Ma'rifat al-Hiyal al-
+      Handasiyya" — the "Book of Knowledge of Ingenious Mechanical
+      Devices" — described fifty mechanical inventions with detailed
+      engineering drawings. These included the earliest known crankshaft,
+      the camshaft, segmental gears, and automated water-raising devices.
+      His sophistication in mechanical control anticipated the industrial
+      engineering of the modern era by five hundred years.
+    description_ar: |
+      مهندس البلاط الأرتقي ومؤلف "كتاب في معرفة الحيل الهندسية" الذي وصف
+      فيه خمسين اختراعاً ميكانيكياً مع رسوم هندسية دقيقة، منها أقدم عمود
+      مرفقي معروف، وعمود الكامة، والمسننات القطاعية، وآلات رفع المياه
+      ذاتية الحركة. سبق براعة تحكّمه الميكانيكي الهندسةَ الصناعية الحديثة
+      بخمسمئة سنة.
+    description_fr: |
+      Ingénieur de la cour artuqide dont le "Kitāb fī Maʿrifat al-Ḥiyal
+      al-Handasiyya" — le "Livre de la connaissance des dispositifs
+      mécaniques ingénieux" — décrivit cinquante inventions mécaniques
+      avec des dessins d'ingénierie détaillés. On y trouve le plus ancien
+      vilebrequin connu, l'arbre à cames, des engrenages segmentés et des
+      dispositifs automatisés d'élévation de l'eau. Sa maîtrise du
+      contrôle mécanique anticipa l'ingénierie industrielle moderne de
+      cinq cents ans.
+    canonical_hijri: {year: 602, precision: year}
+    canonical_gregorian: {date: 1206-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    source_url: https://en.wikipedia.org/wiki/Ismail_al-Jazari
+    people: [[al-jazari, died]]
+    tags: [ayyubid, scientist, engineering, mesopotamia]
+    importance: notable
+    verified: true
+
+  - slug: death-of-al-kashi
+    category: scholar_death
+    title_en: Death of Jamshid al-Kashi — Astronomer at Samarqand
+    title_ar: وفاة جمشيد الكاشي
+    title_fr: Décès de Jamshīd al-Kāshī
+    description_en: |
+      The greatest mathematical astronomer of the late Timurid period,
+      working at Ulugh Beg's observatory in Samarqand. In his "Risala
+      al-Muhitiyya" he computed pi to 16 decimal places — a precision
+      that would not be exceeded in Europe for over a century. His
+      "Miftah al-Hisab" (Key of Arithmetic) introduced decimal fractions
+      to the Islamic mathematical tradition. He died a few weeks after
+      completing Ulugh Beg's star catalogue.
+    description_ar: |
+      أعظم فلكيي الرياضيات في أواخر العهد التيموري، وعمل في مرصد ألغ بيك
+      بسمرقند. حسب في "الرسالة المحيطية" قيمة الدائرة (π) بدقّة ست عشرة
+      منزلة عشرية، وهي دقّة لم تُتجاوز في أوروبا قرناً ونيّفاً. وأدخل
+      كتابه "مفتاح الحساب" الكسور العشرية إلى التقليد الرياضي الإسلامي.
+      توفي بعد أسابيع قليلة من إتمامه فهرس النجوم لألغ بيك.
+    description_fr: |
+      Le plus grand astronome mathématicien de la fin de la période
+      timouride, qui travailla à l'observatoire d'Ulugh Beg à Samarcande.
+      Dans sa "Risāla al-Muḥīṭiyya" il calcula pi à seize décimales — une
+      précision qui ne fut dépassée en Europe que plus d'un siècle plus
+      tard. Son "Miftāḥ al-Ḥisāb" (Clé du calcul) introduisit les
+      fractions décimales dans la tradition mathématique islamique. Il
+      mourut quelques semaines après avoir achevé le catalogue stellaire
+      d'Ulugh Beg.
+    canonical_hijri: {year: 832, month: 9, day: 19, precision: day}
+    canonical_gregorian: {date: 1429-06-22, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death attested 22 June 1429 CE at Samarqand (Wikipedia, history-of-science references)."
+    source_url: https://en.wikipedia.org/wiki/Jamshid_al-Kashi
+    people: [[jamshid-al-kashi, died]]
+    tags: [timurid, scientist, mathematics, astronomy, samarqand]
+    importance: notable
+    verified: true
+
+  - slug: death-of-ulugh-beg
+    category: scholar_death
+    title_en: Assassination of Ulugh Beg — Astronomer-King
+    title_ar: اغتيال ألغ بيك
+    title_fr: Assassinat d'Ulugh Beg
+    description_en: |
+      Timurid ruler of Central Asia and one of the most accomplished
+      observational astronomers of any era. His observatory at Samarqand —
+      whose 40-metre sextant remains partially intact today — produced
+      the "Zij-i Sultani" catalogue of 1,018 fixed stars, superseding
+      Ptolemy's for the first time since antiquity. After a brief and
+      troubled reign, he was killed on his son's orders en route to
+      pilgrimage. The observatory was demolished within decades.
+    description_ar: |
+      حاكم تيموري في آسيا الوسطى وأحد أبرز الفلكيين الرصديين في تاريخ
+      الإسلام. أنتج مرصده بسمرقند — الذي لا يزال سدسه ذو الأربعين متراً
+      قائماً جزئياً إلى اليوم — جدول "زيج سلطاني" الذي يضمّ ألفاً وثمانية
+      عشر نجماً ثابتاً، فتجاوز جدول بطليموس لأوّل مرّة منذ العصور القديمة.
+      بعد حكم قصير ومضطرب، قُتل بأمر ابنه وهو في طريقه إلى الحج، ثم هُدم
+      المرصد بعد سنوات.
+    description_fr: |
+      Souverain timouride d'Asie centrale et l'un des plus grands
+      astronomes observationnels de toutes les époques. Son observatoire
+      de Samarcande — dont le sextant de quarante mètres demeure en
+      partie intact aujourd'hui — produisit le catalogue "Zīj-i Sulṭānī"
+      de mille dix-huit étoiles fixes, surpassant celui de Ptolémée pour
+      la première fois depuis l'Antiquité. Après un règne bref et
+      tourmenté, il fut tué sur ordre de son fils alors qu'il se rendait
+      au pèlerinage. L'observatoire fut démoli quelques décennies plus
+      tard.
+    canonical_hijri: {year: 853, month: 9, day: 10, precision: day}
+    canonical_gregorian: {date: 1449-10-27, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Assassination attested 27 October 1449 CE near Samarqand."
+    source_url: https://en.wikipedia.org/wiki/Ulugh_Beg
+    people: [[ulugh-beg, died]]
+    tags: [timurid, ruler, scientist, astronomy, samarqand, assassination]
+    importance: notable
+    verified: true
+
+  - slug: death-of-ibn-battuta
+    category: scholar_death
+    title_en: Death of Ibn Battuta — The Traveller of Islam
+    title_ar: وفاة ابن بطوطة
+    title_fr: Décès d'Ibn Baṭṭūṭa
+    description_en: |
+      The Tangier-born jurist who, in 29 years of travel (1325-1354),
+      covered approximately 120,000 kilometres across Africa, Asia, and
+      Europe — more than any pre-modern traveller. Dictated to Ibn Juzayy
+      in Fez, his "Rihla" records encounters from Mali to China, with
+      detailed observations on Muslim communities, rulers, and scholarly
+      life across the Islamic world at its late-medieval peak. He served
+      as qadi in the Maldives and Delhi. Died in the Maghreb shortly
+      after completing the Rihla.
+    description_ar: |
+      الفقيه الطنجاوي الذي قطع في تسع وعشرين سنة من السفر (725-755 هـ /
+      1325-1354 م) نحو مئة وعشرين ألف كيلومتر عبر أفريقيا وآسيا وأوروبا —
+      أكثر من أي رحّالة في عصور ما قبل الحداثة. أملى كتابه "الرحلة" على
+      ابن جزي بفاس، فدوّن لقاءاته من مالي إلى الصين، مع وصف دقيق للمجتمعات
+      المسلمة والحكّام والحياة العلمية في العالم الإسلامي في أوج العصر
+      الوسيط. تولّى القضاء في المالديف ودلهي. توفي بالمغرب بُعيد إتمام
+      الرحلة.
+    description_fr: |
+      Juriste né à Tanger qui, en vingt-neuf ans de voyage (1325-1354),
+      parcourut environ cent vingt mille kilomètres à travers l'Afrique,
+      l'Asie et l'Europe — davantage qu'aucun voyageur prémoderne. Dicté
+      à Ibn Juzayy à Fès, son "Riḥla" rapporte des rencontres allant du
+      Mali à la Chine, avec des observations détaillées sur les
+      communautés musulmanes, les souverains et la vie savante à travers
+      le monde islamique à son apogée médiévale tardive. Il fut qāḍī aux
+      Maldives et à Delhi. Décédé au Maghreb peu après l'achèvement de
+      la Riḥla.
+    canonical_hijri: {year: 770, precision: year}
+    canonical_gregorian: {date: 1368-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death year traditionally given as 770 AH (1368/69 CE) at Marrakesh; precise day not attested."
+    source_url: https://en.wikipedia.org/wiki/Ibn_Battuta
+    people: [[ibn-battuta, died]]
+    tags: [marinid, scholar, traveler, morocco]
+    importance: notable
+    verified: true

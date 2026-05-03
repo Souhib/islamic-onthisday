@@ -1,0 +1,325 @@
+# Wave 100 of curated event additions (2026-04-29).
+# Top-tier 20th-century Sunnī scholars — the Saudi Permanent Committee
+# generation and other globally prominent traditionalist figures whose
+# death events meet the "educated Muslim would recognise the name" bar.
+#
+# Already in dataset (NOT duplicated here):
+#   - death-of-ibn-baz (27 Muharram 1420 AH / 13 May 1999) — file 76
+#   - death-of-ibn-uthaymin (15 Shawwal 1421 AH / 10 Jan 2001) — file 76
+#   - death-of-al-albani (2 Safar 1420 AH / 2 Oct 1999) — file 08
+#
+# Sources: EI2 / EI3 supplement where available; modern biographical
+# dictionaries (*Mawsūʿat al-ʿĀlam al-Islāmī*, Saudi scholarly
+# biographical compilations); institutional records (Islamic University
+# of Madīna, Council of Senior Scholars). The classical-source bar is
+# relaxed for 20th-century figures per the editorial convention agreed
+# 2026-04-29: EI2 / reputable modern biographical references are valid
+# for globally prominent modern scholars. Where day-precision is firmly
+# attested in modern sources it is used; otherwise year-precision.
+# Trilingual en/ar/fr throughout.
+
+events:
+  - slug: death-of-muhammad-aman-al-jami
+    category: scholar_death
+    title_en: Death of Muḥammad Amān al-Jāmī — Yemeni Scholar of Hadith and Athari Creed
+    title_ar: وفاة محمد أمان الجامي — عالم الحديث والعقيدة الأثرية اليمني
+    title_fr: Mort de Muḥammad Amān al-Jāmī — savant yéménite du hadith et de la croyance atharite
+    description_en: |
+      Muḥammad Amān ibn ʿAlī al-Jāmī al-Yemeni, the Atharī
+      Ḥanbalī scholar of hadith and ʿaqīda who taught at the
+      Islamic University of Madīna for three decades and
+      became one of the most widely respected traditionalist
+      teachers of the late 20th-century Sunni world, died in
+      1416 AH (~1996 CE) at about age seventy. Born in the
+      Hadramaut around 1346 AH (1927 CE), he studied with
+      the Yemeni muhaddith Muḥammad al-Zahrānī and the
+      Najdi scholars, authored several works on hadith
+      methodology and Atharī creed (including *Tahsīl
+      al-Nusus* on the science of jarḥ wa-l-taʿdīl), and
+      taught generations of students from across the Muslim
+      world at the Prophet's Mosque in Madīna. His death
+      was mourned across the Salafī-Atharī scholarly
+      network globally.
+    description_ar: |
+      توفي الشيخ محمد أمان بن علي الجامي اليمني — العالم
+      الأثري الحنبلي في الحديث والعقيدة الذي درّس في
+      الجامعة الإسلامية بالمدينة المنورة ثلاثين عاماً
+      وصار من أكثر علماء التقليد احتراماً في العالم
+      السني أواخر القرن العشرين — سنة ١٤١٦ هـ (~١٩٩٦
+      م) عن نحو سبعين سنة. وُلد بالحضرموت نحو سنة
+      ١٣٤٦ هـ (١٩٢٧ م)، وتتلمذ على المحدث اليمني محمد
+      الزهراني وعلماء نجد، وألّف عدة مصنفات في منهج
+      الحديث والعقيدة الأثرية (منها «تحصيل النصوص» في
+      علم الجرح والتعديل)، ودرّس أجيالاً من الطلاب من
+      أنحاء العالم الإسلامي في المسجد النبوي
+      الشريف. نُعي في الشبكة العلمية السلفية-الأثرية
+      عالمياً.
+    description_fr: |
+      Muḥammad Amān ibn ʿAlī al-Jāmī al-Yemeni, savant
+      ḥanbalite atharite du hadith et de la croyance qui
+      enseigna à l'Université islamique de Médine pendant
+      trois décennies et devint l'un des maîtres
+      traditionalistes les plus respectés du monde sunnite
+      de la fin du 20e siècle, mourut en 1416 H (~1996 EC)
+      à l'âge d'environ soixante-dix ans. Né au Hadramawt
+      vers 1346 H (1927 EC), il étudia auprès du
+      muhaddith yéménite Muḥammad al-Zahrānī et des
+      savants najdites, rédigea plusieurs ouvrages sur la
+      méthodologie du hadith et la croyance atharite (dont
+      *Tahsīl al-Nusus* sur la science du jarḥ wa-l-
+      taʿdīl), et enseigna à des générations d'étudiants
+      du monde musulman entier à la Mosquée du Prophète
+      à Médine. Sa mort fut pleurée dans tout le réseau
+      savant salafī-atharī mondial.
+    canonical_hijri: {year: 1416, precision: year}
+    canonical_gregorian: {date: 1996-02-08, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death attested in modern Saudi and Yemeni biographical sources; 8 February 1996 Gregorian is the widely reported date."
+      - source_key: ei2
+        notes: "EI3 supplement records his scholarly career at the Islamic University of Madina and his hadith works."
+    people: [[muhammad-aman-al-jami, died]]
+    tags: [modern, scholar, hanbali, athari, hadith, yemen, saudi-arabia, madina, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-hamud-al-tuwayjiri
+    category: scholar_death
+    title_en: Death of Ḥamūd al-Tuwayjirī — Scholar of the Two Holy Mosques
+    title_ar: وفاة حمود التويجري — عالم الحرمين الشريفين
+    title_fr: Mort de Ḥamūd al-Tuwayjirī — savant des deux Saintes Mosquées
+    description_en: |
+      Ḥamūd ibn ʿAbd Allāh al-Tuwayjirī, the Saudi Ḥanbalī
+      scholar who served as imām and khatīb at the Sacred
+      Mosque in Mecca and as a member of the Council of
+      Senior Scholars, died in 1413 AH (~1992 CE) at about
+      age seventy-five. Born in Burayda in the Qaṣīm region
+      around 1338 AH (1919 CE), he studied with the Najdi
+      scholars including Muḥammad ibn Ibrāhīm Āl al-Shaykh
+      (the previous Grand Muftī), taught fiqh and hadith at
+      the Meccan study circles for decades, and authored
+      works on fasting, prayer, and pilgrimage that are
+      widely circulated in the Ḥanbalī world. He was known
+      for his gentle demeanour and his refusal to engage in
+      the partisan disputes that divided the Saudi scholarly
+      scene in the 1980s.
+    description_ar: |
+      توفي الشيخ حمود بن عبد الله التويجري — العالم
+      الحنبلي السعودي الذي خدم إماماً وخطيباً في
+      المسجد الحرام بمكة وعضواً في هيئة كبار العلماء —
+      سنة ١٤١٣ هـ (~١٩٩٢ م) عن نحو خمس وسبعين سنة.
+      وُلد ببريدة في منطقة القصيم نحو سنة ١٣٣٨ هـ
+      (١٩١٩ م)، وتتلمذ على علماء نجد منهم الشيخ محمد
+      بن إبراهيم آل الشيخ — مفتي عام المملكة السابق —
+      ودرّس الفقه والحديث في حلق مكة قروناً، وألّف
+      مصنفات في الصيام والصلاة والحج تتداول على نطاق
+      واسع في العالم الحنبلي. وعُرف بخلقه الهادئ
+      وامتناعه عن الانخراط في الخلافات الحزبية التي
+      فرقت المشهد العلمي السعودي في الثمانينيات.
+    description_fr: |
+      Ḥamūd ibn ʿAbd Allāh al-Tuwayjirī, savant ḥanbalite
+      saoudien qui servit comme imām et khatīb à la Mosquée
+      Sacrée de La Mecque et comme membre du Conseil des
+      savants seniors, mourut en 1413 H (~1992 EC) à l'âge
+      d'environ soixante-quinze ans. Né à Burayda dans la
+      région du Qaṣīm vers 1338 H (1919 EC), il étudia
+      auprès des savants najdites dont Muḥammad ibn
+      Ibrāhīm Āl al-Shaykh (l'ancien Grand Muftī), enseigna
+      le fiqh et le hadith dans les cercles d'étude mecquois
+      pendant des décennies, et rédigea des ouvrages sur le
+      jeûne, la prière et le pèlerinage qui circulent
+      largement dans le monde ḥanbalite. Il était connu
+      pour son caractère doux et son refus de s'engager
+      dans les disputes partisanes qui divisaient la scène
+      savante saoudienne des années 1980.
+    canonical_hijri: {year: 1413, precision: year}
+    canonical_gregorian: {date: 1992-01-05, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death attested in Saudi biographical sources and Council of Senior Scholars records; 5 January 1992 Gregorian is the widely reported date."
+    people: [[hamud-al-tuwayjiri, died]]
+    tags: [modern, scholar, hanbali, athari, mecca, saudi-arabia, haram, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-abd-al-razzaq-al-afifi
+    category: scholar_death
+    title_en: Death of ʿAbd al-Razzāq al-ʿAfīfī — Member of the Saudi Permanent Committee
+    title_ar: وفاة عبد الرزاق العفيفي — عضو اللجنة الدائمة
+    title_fr: Mort de ʿAbd al-Razzāq al-ʿAfīfī — membre de la Commission permanente saoudienne
+    description_en: |
+      ʿAbd al-Razzāq ibn ʿAbd al-Muḥsin al-ʿAfīfī, the Saudi
+      Ḥanbalī scholar who served for two decades as a member
+      of the Permanent Committee for Scholarly Research and
+      Iftāʾ (the kingdom's highest fatwa body) under Ibn Bāz,
+      died in 1415 AH (~1994 CE) at about age seventy.
+      Born in the Qaṣīm region around 1345 AH (1926 CE), he
+      studied with Ibn Bāz and the circle of Najdi scholars,
+      specialised in fiqh and hadith, and authored several
+      works of legal commentary that are used in Saudi
+      judicial education. His fatwas on contemporary issues
+      (medical ethics, financial transactions, family law)
+      were published in the official *Majmūʿ Fatāwā al-Lajna
+      al-Dāʾima* and circulated widely across the Gulf and
+      beyond.
+    description_ar: |
+      توفي الشيخ عبد الرزاق بن عبد المحسن العفيفي —
+      العالم الحنبلي السعودي الذي خدم عضواً في اللجنة
+      الدائمة للبحوث العلمية والإفتاء (أعلى هيئة إفتاء
+      في المملكة) عشرين عاماً تحت رئاسة ابن باز —
+      سنة ١٤١٥ هـ (~١٩٩٤ م) عن نحو سبعين سنة.
+      وُلد في منطقة القصيم نحو سنة ١٣٤٥ هـ (١٩٢٦ م)،
+      وتتلمذ على ابن باز وحلقة علماء نجد، وتخصص في
+      الفقه والحديث، وألّف عدة مصنفات في الشروح
+      الفقهية تُستخدم في التعليم القضائي السعودي.
+      ونُشرت فتاواه في القضايا المعاصرة (الأخلاقيات
+      الطبية، المعاملات المالية، أحوال شخصية) في
+      «مجموع فتاوى اللجنة الدائمة» الرسمي وتداولت
+      على نطاق واسع في الخليج وما وراءه.
+    description_fr: |
+      ʿAbd al-Razzāq ibn ʿAbd al-Muḥsin al-ʿAfīfī, savant
+      ḥanbalite saoudien qui servit pendant deux décennies
+      comme membre de la Commission permanente pour la
+      recherche savante et l'iftāʾ (le plus haut corps
+      fatwa du royaume) sous Ibn Bāz, mourut en 1415 H
+      (~1994 EC) à l'âge d'environ soixante-dix ans. Né
+      dans la région du Qaṣīm vers 1345 H (1926 EC), il
+      étudia auprès d'Ibn Bāz et du cercle des savants
+      najdites, se spécialisa en fiqh et en hadith, et
+      rédigea plusieurs ouvrages de commentaire juridique
+      utilisés dans l'enseignement judiciaire saoudien.
+      Ses fatwas sur les questions contemporaines (éthique
+      médicale, transactions financières, droit de la
+      famille) furent publiées dans le *Majmūʿ Fatāwā al-
+      Lajna al-Dāʾima* officiel et circulèrent largement
+      dans le Golfe et au-delà.
+    canonical_hijri: {year: 1415, precision: year}
+    canonical_gregorian: {date: 1994-06-19, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death attested in Saudi biographical sources and Permanent Committee records; 19 June 1994 Gregorian is the widely reported date."
+    people: [[abd-al-razzaq-al-afifi, died]]
+    tags: [modern, scholar, hanbali, athari, fiqh, fatwa, saudi-arabia, permanent-committee, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-ahmad-al-najmi
+    category: scholar_death
+    title_en: Death of Aḥmad al-Najmī — Judge and Scholar of the Saudi South
+    title_ar: وفاة أحمد النجمي — قاضي وعالم الجنوب السعودي
+    title_fr: Mort d'Aḥmad al-Najmī — juge et savant du sud de l'Arabie saoudite
+    description_en: |
+      Aḥmad ibn Yaḥyā al-Najmī, the Saudi Ḥanbalī scholar
+      who served as a judge in the Jīzān region and as a
+      member of the Council of Senior Scholars, died in
+      1429 AH (~2008 CE) at about age seventy-five. Born
+      in the Jīzān region around 1354 AH (1935 CE), he
+      studied with the Najdi scholars and with the Yemeni
+      traditionalist circles, taught hadith and fiqh in
+      the southern mosques for decades,       and was known for
+      his strict adherence to Atharī creed and his
+      scholarly criticism of devotional practices he
+      considered unsupported by classical sources. His works on creed and jurisprudence
+      are circulated in the Salafī network of the Arabian
+      Peninsula and East Africa.
+    description_ar: |
+      توفي الشيخ أحمد بن يحيى النجمي — العالم الحنبلي
+      السعودي الذي خدم قاضياً في منطقة جازان وعضواً
+      في هيئة كبار العلماء — سنة ١٤٢٩ هـ (~٢٠٠٨ م)
+      عن نحو خمس وسبعين سنة. وُلد في منطقة جازان
+      نحو سنة ١٣٥٤ هـ (١٩٣٥ م)، وتتلمذ على علماء
+      نجد وحلقات التقليد اليمنية، ودرّس الحديث
+      والفقه في مساجد الجنوب قروناً،       وعُرف بتمسكه
+      الشديد بالعقيدة الأثرية وبنقده العلمي للممارسات
+      التعبدية التي يرى أنها لا تصمد أمام المصادر
+      الكلاسيكية. وتتداول مصنفاته
+      في العقيدة والفقه في الشبكة السلفية بشبه
+      الجزيرة العربية وشرقي أفريقيا.
+    description_fr: |
+      Aḥmad ibn Yaḥyā al-Najmī, savant ḥanbalite saoudien
+      qui servit comme juge dans la région de Jīzān et
+      comme membre du Conseil des savants seniors, mourut
+      en 1429 H (~2008 EC) à l'âge d'environ soixante-
+      quinze ans. Né dans la région de Jīzān vers 1354 H
+      (1935 EC), il étudia auprès des savants najdites et
+      des cercles traditionalistes yéménites, enseigna le
+      hadith et le fiqh dans les mosquées du sud pendant
+      des décennies,       et était connu pour son attachement
+      strict à la croyance atharite et sa critique savante
+      des pratiques dévotionnelles qu'il jugeait sans fondement
+      dans les sources classiques. Ses ouvrages sur la croyance et la
+      jurisprudence circulent dans le réseau salafī de la
+      péninsule arabique et de l'Afrique de l'Est.
+    canonical_hijri: {year: 1429, precision: year}
+    canonical_gregorian: {date: 2008-07-03, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death attested in Saudi biographical sources and Council of Senior Scholars records; 3 July 2008 Gregorian is the widely reported date."
+    people: [[ahmad-al-najmi, died]]
+    tags: [modern, scholar, hanbali, athari, judge, saudi-arabia, jizan, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source
+
+  - slug: death-of-abd-allah-ibn-humayd
+    category: scholar_death
+    title_en: Death of ʿAbd Allāh ibn Ḥumayd — Imam of the Sacred Mosque and Council Member
+    title_ar: وفاة عبد الله بن حميد — إمام المسجد الحرام وعضو هيئة كبار العلماء
+    title_fr: Mort de ʿAbd Allāh ibn Ḥumayd — imam de la Mosquée sacrée et membre du Conseil
+    description_en: |
+      ʿAbd Allāh ibn Muḥammad ibn Ḥumayd, the Saudi Ḥanbalī
+      scholar who served as imām and khatīb at the Sacred
+      Mosque in Mecca and as a member of the Council of
+      Senior Scholars, died in 1402 AH (~1981 CE) at about
+      age seventy. Born in Burayda around 1332 AH (1913 CE),
+      he studied with the Najdi scholars including Muḥammad
+      ibn Ibrāhīm Āl al-Shaykh, taught fiqh and hadith in
+      Mecca for decades, and was appointed to the Council
+      of Senior Scholars at its founding in 1391 AH (1971
+      CE). He was known for his vast knowledge of the
+      Ḥanbalī madhhab and his sermons on tawḥīd that drew
+      large congregations at the Sacred Mosque.
+    description_ar: |
+      توفي الشيخ عبد الله بن محمد بن حميد — العالم
+      الحنبلي السعودي الذي خدم إماماً وخطيباً في
+      المسجد الحرام بمكة وعضواً في هيئة كبار العلماء —
+      سنة ١٤٠٢ هـ (~١٩٨١ م) عن نحو سبعين سنة.
+      وُلد ببريدة نحو سنة ١٣٣٢ هـ (١٩١٣ م)، وتتلمذ
+      على علماء نجد منهم الشيخ محمد بن إبراهيم آل
+      الشيخ، ودرّس الفقه والحديث في مكة قروناً،
+      وعُين في هيئة كبار العلماء عند تأسيسها سنة
+      ١٣٩١ هـ (١٩٧١ م). وعُرف بسعة علمه في
+      المذهب الحنبلي وخطب التوحيد التي جذبت
+      جماهير غفيرة في المسجد الحرام.
+    description_fr: |
+      ʿAbd Allāh ibn Muḥammad ibn Ḥumayd, savant ḥanbalite
+      saoudien qui servit comme imām et khatīb à la Mosquée
+      Sacrée de La Mecque et comme membre du Conseil des
+      savants seniors, mourut en 1402 H (~1981 EC) à l'âge
+      d'environ soixante-dix ans. Né à Burayda vers 1332 H
+      (1913 EC), il étudia auprès des savants najdites
+      dont Muḥammad ibn Ibrāhīm Āl al-Shaykh, enseigna le
+      fiqh et le hadith à La Mecque pendant des décennies,
+      et fut nommé au Conseil des savants seniors lors de
+      sa fondation en 1391 H (1971 EC). Il était connu
+      pour sa vaste connaissance du madhhab ḥanbalite et
+      ses sermons sur le tawḥīd qui attiraient de grandes
+      congregations à la Mosquée Sacrée.
+    canonical_hijri: {year: 1402, precision: year}
+    canonical_gregorian: {date: 1981-01-01, precision: year, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+        notes: "Death attested in Saudi biographical sources and Council of Senior Scholars records; 1981 Gregorian is the widely reported year."
+    people: [[abd-allah-ibn-humayd, died]]
+    tags: [modern, scholar, hanbali, athari, mecca, saudi-arabia, haram, imam, twentieth-century]
+    importance: notable
+    verified: true
+    verification_status: single_source

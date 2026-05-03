@@ -1,0 +1,147 @@
+# Deaths of additional major scholars across Islamic history.
+# Dates are cited from the classical tabaqat/wafayat literature (al-Dhahabi,
+# Ibn Khallikan, Ibn Hajar, etc.) and supplemented with Hijri years from
+# OpenITI. Where a day is not cited in the classical sources, month or year
+# precision is used.
+
+events:
+  - slug: death-of-al-mawardi
+    category: scholar_death
+    title_en: Death of al-Mawardi
+    title_ar: وفاة الماوردي
+    description_en: |
+      Abu al-Hasan Ali ibn Muhammad al-Mawardi, the Shafi'i jurist and
+      political theorist of Abbasid Baghdad. Author of "al-Ahkam al-
+      Sultaniyya" (The Ordinances of Government) — a foundational work
+      of Islamic political jurisprudence that set out the legal duties,
+      qualifications, and powers of the caliphate, viziers, judges, and
+      military commanders. He died in Baghdad at 86.
+    canonical_hijri: {year: 450, month: 3, day: 30, precision: day}
+    canonical_gregorian: {date: 1058-05-27, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    tags: [abbasid, scholar, shafii, baghdad, political-jurisprudence]
+    verified: true
+
+  - slug: death-of-al-bayhaqi
+    category: scholar_death
+    title_en: Death of al-Bayhaqi
+    title_ar: وفاة البيهقي
+    description_en: |
+      Abu Bakr Ahmad ibn al-Husayn al-Bayhaqi, one of the most prolific
+      hadith scholars of the post-canonical generation. His "al-Sunan
+      al-Kubra," "Shu'ab al-Iman," and "Dala'il al-Nubuwwa" are
+      foundational works of Shafi'i hadith scholarship. He was a student
+      of al-Hakim al-Naysaburi and the principal transmitter of Shafi'i
+      fiqh to the eastern Islamic world. Died at Nishapur at 74.
+    canonical_hijri: {year: 458, precision: year}
+    canonical_gregorian: {date: 1066-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "10 Jumada al-Ula 458 AH per multiple sources (= 9 Apr 1066 CE). Day-precision pending independent classical verification."
+      - source_key: dhahabi_siyar
+    tags: [seljuk, scholar, shafii, muhaddith, nishapur]
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-juwayni
+    category: scholar_death
+    title_en: Death of Imam al-Haramayn al-Juwayni
+    title_ar: وفاة إمام الحرمين الجويني
+    description_en: |
+      Abu al-Ma'ali Abd al-Malik al-Juwayni — titled Imam al-Haramayn
+      (Imam of the Two Sanctuaries) for his years of teaching in Makkah
+      and Madinah — was the teacher of al-Ghazali and the most
+      significant Ash'arite Shafi'i theologian of his generation. Author
+      of "al-Burhan" (usul al-fiqh), "al-Waraqat" (a widely-taught
+      introductory text), and "al-Shamil" (kalam). Died at Nishapur.
+    canonical_hijri: {year: 478, month: 4, day: 25, precision: day}
+    canonical_gregorian: {date: 1085-08-20, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    tags: [seljuk, scholar, shafii, asharism, nishapur, al-juwayni]
+    verified: true
+
+  - slug: death-of-abd-al-qadir-al-jilani
+    category: scholar_death
+    title_en: Death of Shaykh Abd al-Qadir al-Jilani
+    title_ar: وفاة الشيخ عبد القادر الجيلاني
+    description_en: |
+      Hanbali jurist, theologian, and preacher of Baghdad, founder of the
+      Qadiriyya tariqa — one of the most widely diffused Sufi orders in
+      Islamic history. His "al-Ghunya li-Talibi Tariq al-Haqq" and
+      "Futuh al-Ghayb" remained influential across the Muslim world for
+      centuries. Died in Baghdad at approximately 90; his shrine remains
+      one of the most visited in Iraq.
+    canonical_hijri: {year: 561, month: 3, day: 11, precision: day}
+    canonical_gregorian: {date: 1166-02-15, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    tags: [abbasid, scholar, sufi, hanbali, baghdad, qadiriyya]
+    verified: true
+
+  - slug: death-of-fakhr-al-din-al-razi
+    category: scholar_death
+    title_en: Death of Fakhr al-Din al-Razi
+    title_ar: وفاة فخر الدين الرازي
+    description_en: |
+      Shafi'i theologian, mufassir, and philosopher whose "al-Tafsir al-
+      Kabir" (Mafatih al-Ghayb) is one of the largest and most
+      philosophically engaged tafsirs in the Islamic tradition. He
+      authored over 100 works on logic, kalam, medicine, and
+      jurisprudence, and was a central figure in the development of
+      later Ash'arite kalam. Died in Herat on Eid al-Fitr at 63.
+    canonical_hijri: {year: 606, month: 10, day: 1, precision: day}
+    canonical_gregorian: {date: 1210-03-29, precision: day, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    tags: [ayyubid, scholar, shafii, asharism, mufassir, herat]
+    verified: true
+
+  - slug: death-of-al-shatibi
+    category: scholar_death
+    title_en: Death of al-Shatibi — Author of al-Muwafaqat
+    title_ar: وفاة الشاطبي
+    description_en: |
+      Abu Ishaq Ibrahim ibn Musa al-Shatibi, the Andalusi Maliki jurist
+      whose "al-Muwafaqat fi Usul al-Shari'a" is the seminal work on the
+      objectives of the Sharia (maqasid al-shari'a). His systematic
+      articulation of the five essentials (necessities) — religion, life,
+      intellect, progeny, and property — provides the theoretical
+      framework used by modern scholars of Islamic legal philosophy.
+      Died in Granada.
+    canonical_hijri: {year: 790, month: 8, day: 8, precision: day}
+    canonical_gregorian: {date: 1388-08-12, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [al-andalus, scholar, maliki, maqasid, granada]
+    verified: true
+
+  - slug: death-of-ibn-rajab
+    category: scholar_death
+    title_en: Death of Ibn Rajab al-Hanbali
+    title_ar: وفاة ابن رجب الحنبلي
+    description_en: |
+      Abd al-Rahman ibn Ahmad Ibn Rajab, a prominent Hanbali scholar and
+      hadith commentator, author of "Jami' al-'Ulum wa'l-Hikam" (a
+      celebrated commentary on the Forty Hadith of al-Nawawi, extended
+      to fifty hadith), "Lata'if al-Ma'arif" on the seasons of the
+      Islamic year, and "Fath al-Bari" on parts of Sahih al-Bukhari.
+      Died in Damascus.
+    canonical_hijri: {year: 795, month: 8, day: 4, precision: day}
+    canonical_gregorian: {date: 1393-06-16, precision: day, method: attested}
+    claims:
+      - source_key: editorial
+        is_canonical: true
+    tags: [mamluk, scholar, hanbali, damascus, hadith]
+    verified: true

@@ -1,0 +1,85 @@
+# Wave 104 of curated event additions (2026-04-29).
+# Qurʾānic transmission milestones — the official printed editions that
+# became the standard reference text for the Muslim world.
+#
+# Already in dataset (NOT duplicated here):
+#   - compilation-of-quran-under-abu-bakr (already covered)
+#   - uthmanic-codification (already covered)
+#
+# Sources: EI2 article 'Kur'an'; modern institutional records of the
+# Egyptian Awqāf and King Fahd Complex. Trilingual en/ar/fr throughout.
+
+events:
+  - slug: publication-of-king-fuad-cairo-mushaf
+    category: institutional_founding
+    title_en: Publication of the King Fuʾād Cairo Qurʾān — The First Official Printed Standard Text
+    title_ar: طباعة مصحف الملك فؤاد بالقاهرة — أول نص رسمي مطبوع معياري
+    title_fr: Publication du Coran du roi Fuʾād du Caire — le premier texte standard imprimé officiel
+    description_en: |
+      The first official printed edition of the Qurʾān from
+      the Amīriyya Press in Cairo, supervised by the Egyptian
+      Ministry of Awqāf under King Fuʾād I and prepared by a
+      committee of leading Qurʾānic scholars headed by
+      Muḥammad ʿAlī al-Ḥusaynī, was published on 10 July 1924
+      CE (8 Dhū al-Ḥijja 1342 AH). This edition — known as
+      the *muṣḥaf al-amlākī* or the Cairo edition — became
+      the first mass-produced standard text of the Qurʾān,
+      using the Ḥafs ʿan ʿĀṣim riwāya and incorporating
+      precise vowelling, verse-numbering, and section
+      markings. It was distributed across the Muslim world and
+      became the reference text for subsequent printings from
+      Istanbul to Karachi to Jakarta. The edition represented
+      a watershed in Qurʾānic textual history: for the first
+      time, a single standardised text was available to
+      Muslims worldwide, replacing the multiplicity of
+      handwritten codices and regional variants that had
+      characterised the manuscript era.
+    description_ar: |
+      صُدرت أول طبعة رسمية للقرآن الكريم من مطبعة الأميرية
+      بالقاهرة، بإشراف وزارة الأوقاف المصرية في عهد الملك
+      فؤاد الأول وأعدها لجنة من كبار علماء القرآن برئاسة
+      محمد علي الحسيني، يوم ١٠ يوليو ١٩٢٤ م (الموافق ٨
+      ذي الحجة سنة ١٣٤٢ هـ). وصارت هذه الطبعة — المعروفة
+      بـ«المصحف الملوكي» أو طبعة القاهرة — أول نص معياري
+      للقرآن ينتج بالجملة، مستخدمة رواية حفص عن عاصم
+      مع تشكيل دقيق وأرقام الآيات وعلامات الأقسام.
+      ووزعت في أنحاء العالم الإسلامي وصارت النص المرجعي
+      للطبعات اللاحقة من إسطنبول إلى كراتشي إلى جاكرتا.
+      ومثلت الطبعة نقطة تحول في تاريخ النص القرآني:
+      فلأول مرة أصبح نص موحّد معياري متاحاً للمسلمين في
+      عموم العالم، محلاً تعددية الأمصار المخطوطة
+      والمتغيرات الإقليمية التي ميّزت عصر المخطوطات.
+    description_fr: |
+      La première édition officielle imprimée du Coran de
+      l'Imprimerie Amīriyya au Caire, supervisée par le
+      ministère égyptien des Awqāf sous le roi Fuʾād Ier et
+      préparée par un comité d'éminents savants coraniques
+      dirigé par Muḥammad ʿAlī al-Ḥusaynī, fut publiée le
+      10 juillet 1924 EC (8 Dhū al-Ḥijja 1342 H). Cette
+      édition — connue sous le nom de *muṣḥaf al-amlākī*
+      ou édition du Caire — devint le premier texte
+      standard du Coran produit en masse, utilisant la
+      riwāya de Ḥafs ʿan ʿĀṣim et incorporant un vocalisme
+      précis, la numérotation des versets et les marques de
+      section. Elle fut distribuée à travers le monde
+      musulman et devint le texte de référence pour les
+      impressions ultérieures d'Istanbul à Karachi en
+      passant par Jakarta. L'édition représenta un tournant
+      dans l'histoire textuelle du Coran : pour la première
+      fois, un texte standardisé unique était disponible pour
+      les musulmans du monde entier, remplaçant la
+      multiplicité de codex manuscrits et de variantes
+      régionales qui avaient caractérisé l'ère manuscrite.
+    canonical_hijri: {year: 1342, month: 12, day: 8, precision: day}
+    canonical_gregorian: {date: 1924-07-10, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 article 'Kur'an' records the 10 July 1924 publication of the Cairo edition."
+      - source_key: editorial
+        notes: "Date attested in Egyptian Awqaf records and the imprint of the Amiriyya Press first edition."
+    people: []
+    tags: [modern, quran, printing, egypt, cairo, standard-text, twentieth-century]
+    importance: major
+    verified: true
+    verification_status: single_source

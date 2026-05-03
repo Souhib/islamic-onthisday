@@ -1,0 +1,865 @@
+# Wave 89 of curated event additions (2026-04-27).
+# West African and Sahelian Islamic state events not yet captured in
+# the existing wave-18 (death-of-usman-dan-fodio, death-of-ahmadou-
+# bamba) or wave-37 (mansas, askia, Tondibi, Timbuktu chroniclers,
+# nineteenth-century mujahids, Cheikh Sidiyya Bābā) coverage.
+# Twelve entries spanning six centuries of West African and
+# Sahelian Sunni history: the medieval Mali pilgrimage of Mansa
+# Mūsā (724 AH/1324 CE), the death of Mansa Sulaymān whose court
+# Ibn Baṭṭūṭa visited (761 AH/1360 CE), the Songhai pilgrimage of
+# Askia Muḥammad (902-903 AH/1496-7 CE), the death of Sīdī Mukhtār
+# al-Kuntī (1226 AH/1811 CE), the founding of the Sokoto Caliphate
+# (1219 AH/1804 CE), the founding of the Massina Caliphate's
+# capital Hamdullāhi (1234 AH/1819 CE), the death of Modibo Adama
+# (1263 AH/1847 CE), al-Ḥājj ʿUmar Tāl's conquest of Massina
+# (1278 AH/1862 CE), the death of Aḥmad al-Bakkāy al-Kuntī
+# (1281 AH/1865 CE), the death of Sīdiyya al-Kabīr (1284 AH/1868
+# CE), the founding of Touba by Aḥmadu Bamba (1305 AH/1887 CE),
+# and the British conquest of Sokoto (1320 AH/1903 CE). All Sunni
+# mainstream Mālikī, Tijānī, Qādirī, or Mouride figures and events;
+# trilingual en/ar/fr; no hadith refs needed. Sources: ei2 +
+# editorial across all entries.
+
+events:
+  # =========================================================================
+  # MEDIEVAL MALI AND SONGHAI — PILGRIMAGES
+  # =========================================================================
+
+  - slug: mansa-musa-pilgrimage-to-mecca
+    category: rihlah
+    title_en: Mansa Mūsā's Pilgrimage to Mecca
+    title_ar: حجة مَنْسا موسى إلى مكة
+    title_fr: Pèlerinage de Mansa Mūsā à La Mecque
+    description_en: |
+      Mansa Mūsā I — ninth *mansa* of the Mali Empire — set out
+      from his capital Niani at the head of a caravan reportedly
+      numbering tens of thousands of attendants, soldiers, and
+      slaves, and laden with so much gold that his transit through
+      Cairo on the way to and from Mecca disrupted the Egyptian
+      monetary economy. The Egyptian historian Ibn Faḍl Allāh
+      al-ʿUmari, writing about a decade after the Hajj from
+      interviews with Cairene officials who had hosted the mansa,
+      records that Mūsā's prodigious distribution of gold in alms
+      depressed the metal's price in the Cairo market by roughly
+      twelve percent and that the dinar did not fully recover its
+      pre-Hajj value until al-ʿUmari's own day. al-Maqrīzī confirms
+      the disruption a century later. The pilgrimage placed Mali
+      on the medieval Old World's mental map: the Catalan Atlas of
+      1375 CE depicts Mūsā enthroned in the Sahel holding a
+      golden orb. On his return Mūsā brought back Mālikī jurists
+      and the Granadan architect Abū Isḥāq al-Sāḥilī, who designed
+      the great mosques of Timbuktu and Gao that anchored the
+      city's later role as a pole of West African Sunni learning.
+    description_ar: |
+      خرج مَنْسا موسى الأول — تاسع مَناسي إمبراطورية مالي — من عاصمته
+      نياني على رأس قافلة يُحكى عددها بعشرات الألوف من الحاشية
+      والجند والعبيد، ومحملة من الذهب بقدر زعزع نظام النقد المصري
+      حين مرور المنسا بالقاهرة ذهاباً وإياباً. وذكر المؤرخ المصري
+      ابن فضل الله العمري — بعد حجة موسى بنحو عقد، نقلاً عن من
+      استضافه من رجال الدولة بالقاهرة — أن إنفاق المنسا الجزيل من
+      الذهب صدقاتٍ أسقط ثمن الذهب في سوق القاهرة نحو اثني عشر بالمئة،
+      ولم يَعُد الدينار إلى ما كان عليه قبل حجته إلى زمن العمري نفسه.
+      وأكد المقريزي بعده بقرن هذا الاضطراب. ورسّخت الحجة مالي على
+      خريطة العالم القديم في ذهن أوروبا: فقد صور أطلس قطلونيا سنة
+      ١٣٧٥ ميلادي المنسا جالساً على عرشه في الساحل ممسكاً كرة من
+      ذهب. وعاد موسى ومعه فقهاء المالكية والمعماري الغرناطي أبو
+      إسحاق الساحلي، فبنى مساجد تنبكتو وجاو الكبرى التي رسّخت دور
+      المدينة لاحقاً قطباً من أقطاب العلم السني في غرب أفريقيا.
+    description_fr: |
+      Mansa Mūsā Ier — neuvième *mansa* de l'empire du Mali — partit
+      de sa capitale Niani à la tête d'une caravane comptant, selon
+      les récits, des dizaines de milliers de serviteurs, soldats
+      et esclaves, et si chargée d'or que son passage par Le Caire
+      à l'aller et au retour de La Mecque perturba l'économie
+      monétaire égyptienne. L'historien égyptien Ibn Faḍl Allāh
+      al-ʿUmarī, écrivant une dizaine d'années après le Hajj à
+      partir d'entretiens avec les fonctionnaires cairotes qui
+      avaient reçu le mansa, rapporte que la prodigieuse
+      distribution d'or en aumônes par Mūsā fit chuter le prix du
+      métal sur le marché du Caire d'environ douze pour cent, et
+      que le dinar ne retrouva pleinement sa valeur d'avant le
+      Hajj qu'à l'époque même d'al-ʿUmarī. al-Maqrīzī confirma
+      cette perturbation un siècle plus tard. Le pèlerinage inscrivit
+      le Mali sur la carte mentale de l'Ancien Monde médiéval :
+      l'Atlas catalan de 1375 EC représente Mūsā trônant au Sahel,
+      tenant un globe d'or. À son retour, Mūsā ramena des juristes
+      mālikites et l'architecte grenadin Abū Isḥāq al-Sāḥilī, qui
+      conçut les grandes mosquées de Tombouctou et de Gao ancrant
+      le rôle ultérieur de la ville comme pôle de l'érudition
+      sunnite ouest-africaine.
+    canonical_hijri: {year: 724, precision: year}
+    canonical_gregorian: {date: 1324-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mansa-musa, subject]]
+    tags: [west-africa, mali, hajj, pilgrimage, cairo, gold, timbuktu, sankore]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mansa_Musa"
+
+  - slug: death-of-mansa-sulayman
+    category: ruler_death
+    title_en: Death of Mansa Sulaymān — Mali Empire Visited by Ibn Baṭṭūṭa
+    title_ar: وفاة مَنْسا سليمان — صاحب الإمبراطورية في زمن ابن بطوطة
+    title_fr: Mort de Mansa Sulaymān — empire du Mali visité par Ibn Baṭṭūṭa
+    description_en: |
+      Mansa Sulaymān ibn Abī Bakr — half-brother of Mansa Mūsā I
+      and tenth *mansa* of the Mali Empire after the brief reign
+      of Mūsā's son Maghan I — died in his capital Niani after
+      roughly twenty-four years on the throne. His reign is the
+      best-attested of all medieval Mali because the Maghrebi
+      traveller Ibn Baṭṭūṭa visited Mali in 753-754 AH / 1352-
+      1353 CE and was hosted at the mansa's court for eight
+      months, recording in his *Riḥla* a detailed first-person
+      description of the Friday assembly, the *ʿīd* festival
+      observances, the strict adherence of the population to the
+      Mālikī rite, the Mande poetic praises of the *jeli*, and
+      the public pious veneration of the Qurʾān to the point of
+      Qurʾanic memorisation being a precondition of release for
+      enslaved children. Ibn Khaldūn confirms Sulaymān's place in
+      the dynastic line in his *Kitāb al-ʿIbar*. The wealth and
+      Mālikī piety of Mali under Sulaymān continued the patterns
+      established under Mansa Mūsā, but a succession crisis at
+      his death precipitated the gradual decline of imperial Mali
+      across the next century.
+    description_ar: |
+      توفي مَنْسا سليمان بن أبي بكر — أخو مَنْسا موسى الأول لأبيه
+      وعاشر مَناسي إمبراطورية مالي بعد ملك ابن موسى «ماغان الأول»
+      اليسير — في عاصمته نياني بعد قرابة أربع وعشرين سنة على العرش.
+      وعهده أوفر عهود مالي الوسيطة توثيقاً، إذ زار الرحالة المغاربي
+      ابن بطوطة بلاد مالي سنة ٧٥٣–٧٥٤ هـ/١٣٥٢–١٣٥٣ ميلادي، وأقام
+      في حضرة المنسا ثمانية أشهر مكرماً، فسجل في «رحلته» وصفاً
+      مفصلاً من شاهد عين لجمعة المسلمين، ولشعائر العيد، والتزام
+      أهل البلد التزاماً صارماً بمذهب مالك، ولأناشيد المدح المندية
+      لـ«الجلي»، ولتعظيم القرآن في عموم الشعب حتى صار حفظه شرطاً
+      في عتق صبيان الرقيق. وأكد ابن خلدون موضع سليمان في السلسلة
+      في «كتاب العبر». واستمر الثراء والتديّن المالكي في عهد سليمان
+      على نهج مَنْسا موسى، إلا أن أزمة الخلافة بعد وفاته بدأت
+      انحدار دولة مالي الإمبراطورية تدريجياً في القرن التالي.
+    description_fr: |
+      Mansa Sulaymān ibn Abī Bakr — demi-frère de Mansa Mūsā Ier
+      et dixième *mansa* de l'empire du Mali après le bref règne
+      du fils de Mūsā, Maghan Ier — mourut dans sa capitale Niani
+      après environ vingt-quatre ans sur le trône. Son règne est
+      le mieux attesté de tout le Mali médiéval car le voyageur
+      maghrébin Ibn Baṭṭūṭa visita le Mali en 753-754 H / 1352-
+      1353 EC et fut reçu à la cour du mansa pendant huit mois,
+      consignant dans sa *Riḥla* une description détaillée de
+      première main de l'assemblée du vendredi, des observances
+      du *ʿīd*, de la stricte adhésion de la population au rite
+      mālikite, des louanges poétiques mandé des *jeli*, et de
+      la vénération publique pieuse du Coran au point que la
+      mémorisation coranique était une condition de libération
+      des enfants asservis. Ibn Khaldūn confirme la place de
+      Sulaymān dans la lignée dynastique dans son *Kitāb al-ʿIbar*.
+      La richesse et la piété mālikite du Mali sous Sulaymān
+      poursuivirent les schémas établis sous Mansa Mūsā, mais
+      une crise de succession à sa mort précipita le déclin
+      graduel du Mali impérial au cours du siècle suivant.
+    canonical_hijri: {year: 761, precision: year}
+    canonical_gregorian: {date: 1360-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[mansa-sulayman, subject]]
+    tags: [west-africa, mali, niani, ibn-battuta, ibn-khaldun, maliki, jeli]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mansa_Sulayman"
+
+  - slug: askia-muhammad-pilgrimage-to-mecca
+    category: rihlah
+    title_en: Askia Muḥammad's Pilgrimage to Mecca
+    title_ar: حجة أسكيا محمد إلى مكة
+    title_fr: Pèlerinage d'Askia Muḥammad à La Mecque
+    description_en: |
+      al-Ḥājj Muḥammad ibn Abī Bakr Tūré (Askia Muḥammad I) — first
+      ruler of the Askia dynasty of the Songhai Empire after deposing
+      Sunni ʿAlī's son Sunni Bāru in 898 AH / 1493 CE — set out from
+      Gao on a Hajj that would last roughly two years, traversing
+      the trans-Saharan caravan routes via the Egyptian Mamluk
+      capital. The Songhai chroniclers (the *Tārīkh al-Sūdān* of
+      ʿAbd al-Raḥmān al-Saʿdī and the *Tārīkh al-Fattāsh* of the
+      Kati family) record that during his stay in Cairo the
+      Sharīfian ʿAbbāsid caliph al-Mutawakkil II (the residual
+      Cairo-based ʿAbbāsid line under Mamluk patronage) invested
+      Askia Muḥammad with the title of *khalīfa* of the western
+      Sūdān. In Mecca he met the Egyptian Mālikī jurist Jalāl al-Dīn
+      al-Suyūṭī (then resident in the Holy Cities), who issued legal
+      opinions for him on points of governance. Askia Muḥammad
+      returned to Gao with a corps of Mālikī scholars and books
+      that, joining the existing Timbuktu Sankoré tradition,
+      consolidated the Mālikī rite as the legal-administrative
+      framework of the Songhai state for the next century until
+      the Saadi conquest of 999 AH / 1591 CE.
+    description_ar: |
+      خرج الحاج محمد بن أبي بكر توري (أسكيا محمد الأول) — أول حكام
+      الأسرة الأسكية من إمبراطورية صنغاي بعد عزله ابن السلطان سني
+      علي «سني بارو» سنة ٨٩٨ هـ/١٤٩٣ ميلادي — من جاو على حجة
+      امتدت قرابة سنتين قطع فيها طرق القوافل عبر الصحراء على عاصمة
+      المماليك بمصر. وذكر مؤرخو صنغاي (في «تاريخ السودان» لعبد
+      الرحمن السعدي و«تاريخ الفتاش» لأسرة كعت) أن الخليفة العباسي
+      الشريف المتوكل الثالث في القاهرة (الفرع العباسي المتأخر برعاية
+      المماليك) قلده في إقامته بالقاهرة خلافة السودان الغربي. وفي
+      مكة لقي الفقيه المالكي المصري جلال الدين السيوطي (وكان يومئذ
+      مقيماً بالحرمين)، فاستفتاه في مسائل من الحكم فأفتاه. وعاد
+      أسكيا محمد إلى جاو ومعه فرقة من فقهاء المالكية والكتب،
+      انضمت إلى تقليد سنكوري التنبكتي القائم، فرسّخت المذهب المالكي
+      إطاراً تشريعياً وإدارياً لدولة صنغاي قرناً كاملاً قبل الفتح
+      السعدي سنة ٩٩٩ هـ/١٥٩١ ميلادي.
+    description_fr: |
+      al-Ḥājj Muḥammad ibn Abī Bakr Tūré (Askia Muḥammad Ier) —
+      premier souverain de la dynastie askia de l'empire du
+      Songhaï après avoir déposé le fils de Sunni ʿAlī, Sunni Bāru,
+      en 898 H / 1493 EC — partit de Gao pour un Hajj qui durerait
+      environ deux ans, traversant les routes caravanières
+      transsahariennes via la capitale mamelouke égyptienne. Les
+      chroniqueurs songhaï (le *Tārīkh al-Sūdān* d'ʿAbd al-Raḥmān
+      al-Saʿdī et le *Tārīkh al-Fattāsh* de la famille Kati)
+      rapportent que durant son séjour au Caire, le calife abbasside
+      chérifien al-Mutawakkil II (la lignée abbasside résiduelle
+      du Caire sous patronage mamelouk) investit Askia Muḥammad
+      du titre de *khalīfa* du Sūdān occidental. À La Mecque, il
+      rencontra le juriste mālikite égyptien Jalāl al-Dīn al-Suyūṭī
+      (alors résident dans les Villes Saintes), qui lui rendit des
+      avis juridiques sur des questions de gouvernement. Askia
+      Muḥammad rentra à Gao avec un corps d'érudits mālikites et
+      des livres qui, rejoignant la tradition existante de Sankoré
+      à Tombouctou, consolidèrent le rite mālikite comme cadre
+      juridico-administratif de l'État songhaï pendant le siècle
+      suivant, jusqu'à la conquête saadienne de 999 H / 1591 EC.
+    canonical_hijri: {year: 902, precision: year}
+    canonical_gregorian: {date: 1496-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[askia-muhammad-i, subject]]
+    tags: [west-africa, songhai, hajj, pilgrimage, cairo, mecca, suyuti, maliki]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Askia_Muhammad_I"
+
+  # =========================================================================
+  # SAHARAN AND SAHELIAN QĀDIRĪ MASTERS
+  # =========================================================================
+
+  - slug: death-of-sidi-mukhtar-al-kunti
+    category: scholar_death
+    title_en: Death of Sīdī Mukhtār al-Kuntī — Saharan Qādirī Renewer
+    title_ar: وفاة سيدي المختار الكنتي — مجدد القادرية الصحراوية
+    title_fr: Mort de Sīdī Mukhtār al-Kuntī — rénovateur qādirī saharien
+    description_en: |
+      Sīdī al-Mukhtār al-Kabīr ibn Aḥmad al-Kuntī — Mālikī scholar
+      and Qādirī shaykh of the al-Kunta tribal-scholarly federation
+      of the Saharan-Sahelian Azawād region around Timbuktu, the
+      figure to whom the modern Sahelian renewal of the Qādiriyya
+      Sufi order is attributed, and the most-cited Sunni West-
+      African ʿālim of the late twelfth and early thirteenth hijri
+      centuries — died at his zāwiya in the Azawād near Timbuktu
+      on 19 Shaʿbān 1226 AH / 8 September 1811 CE. He was about
+      82. His extensive works of Sufi *taṣawwuf* (most prominently
+      the *Kashf wa-l-Bayān*), tafsīr, and Mālikī fiqh, together
+      with his correspondence networks across the Sahara from
+      Mauritania to Hausaland, shaped the religious vocabulary
+      of nineteenth-century West African reform: ʿUthmān dan Fodio
+      took initiation in the al-Kunta-renewed Qādiriyya, Aḥmadu
+      Lobbo of Massina drew on his teachings, and the al-Kunta
+      family remained the principal religious authority in
+      Timbuktu through the Massina period.
+    description_ar: |
+      توفي سيدي المختار الكبير بن أحمد الكنتي — الفقيه المالكي
+      وشيخ الطريقة القادرية في تكتل أسرة الكنتيين العلمية القبلية
+      في أزواد الصحراوي الساحلي حول تنبكتو، صاحب التجديد الحديث
+      للطريقة القادرية في الساحل، وأكثر علماء أهل السنة في غرب
+      أفريقيا في أواخر القرن الثاني عشر وأوائل الثالث عشر الهجريين
+      تأثيراً — في زاويته بأزواد قرب تنبكتو يوم ١٩ شعبان سنة ١٢٢٦
+      هـ/٨ سبتمبر ١٨١١ ميلادي. وقد ناهز الثانية والثمانين. ومصنفاته
+      الواسعة في التصوف (وأبرزها «الكشف والبيان») وفي التفسير
+      وفقه المالكية، مع شبكات مراسلاته الممتدة عبر الصحراء من
+      موريتانيا إلى أرض الهوسا، صاغت معجم الإصلاح في غرب أفريقيا
+      في القرن التاسع عشر: فأخذ عثمان بن فودي الورد القادري المجدد
+      على يد الكنتيين، واستفاد منه أحمد لبو في الماسينا، وبقيت
+      أسرة الكنتيين المرجع الديني الأول في تنبكتو إلى عصر دولة
+      الماسينا.
+    description_fr: |
+      Sīdī al-Mukhtār al-Kabīr ibn Aḥmad al-Kuntī — érudit mālikite
+      et cheikh qādirī de la fédération tribale-savante des Kunta
+      de la région saharo-sahélienne de l'Azawād autour de
+      Tombouctou, figure à qui l'on attribue le renouveau sahélien
+      moderne de la Qādiriyya, et plus cité des ʿulamāʾ sunnites
+      ouest-africains de la fin du XIIe et du début du XIIIe
+      siècles hégiriens — mourut à sa zāwiya de l'Azawād près de
+      Tombouctou le 19 Shaʿbān 1226 H / 8 septembre 1811 EC. Il
+      avait environ 82 ans. Ses vastes ouvrages de *taṣawwuf*
+      (au premier rang desquels le *Kashf wa-l-Bayān*), de tafsīr
+      et de fiqh mālikite, joints à ses réseaux de correspondance
+      à travers le Sahara de la Mauritanie au pays haoussa,
+      façonnèrent le vocabulaire religieux du réformisme
+      ouest-africain au XIXe siècle : ʿUthmān dan Fodio reçut
+      l'initiation dans la Qādiriyya rénovée par les Kunta, Aḥmadu
+      Lobbo de la Massina puisa dans ses enseignements, et la
+      famille Kunta demeura la principale autorité religieuse de
+      Tombouctou jusqu'à l'époque de la Massina.
+    canonical_hijri: {year: 1226, month: 8, day: 19, precision: day}
+    canonical_gregorian: {date: 1811-09-08, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sidi-mukhtar-al-kunti, subject]]
+    tags: [west-africa, sahara, mali, timbuktu, azawad, qadiriyya, maliki, kunta]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sidi_Al-Mukhtar_al-Kunti"
+
+  - slug: death-of-sidiyya-al-kabir
+    category: scholar_death
+    title_en: Death of Sīdiyya al-Kabīr — Mauritanian Qādirī Founder
+    title_ar: وفاة سيدية الكبير — مؤسس قادرية موريتانيا
+    title_fr: Mort de Sīdiyya al-Kabīr — fondateur qādirī mauritanien
+    description_en: |
+      Sīdiyya al-Kabīr ibn al-Mukhtār al-Hayballī — Mālikī Mauritanian
+      scholar of the Trārza emirate, founder of the *Sīdiyya* family
+      *zāwiya* of Boutilimit in southern Mauritania, transmitter of
+      the Saharan Qādiriyya from his teacher Sīdī Mukhtār al-Kuntī
+      of Azawād (d. 1226 AH / 1811 CE), and great-grandfather of
+      the later Cheikh Sidiyya Bābā (d. 1342 AH / 1924 CE) — died
+      in southern Mauritania at advanced age. He was approximately
+      in his eighties. His scholarly correspondence, preserved in
+      the Boutilimit family archives, ranges across Mālikī fiqh,
+      Qādirī devotional doctrine, and the practical jurisprudence
+      of the desert tribes; together with the Kunta zāwiya at
+      Azawād it formed the Saharan Qādirī axis that consolidated
+      Sunni religious authority across Mauritania, the western
+      Sahara, and northern Senegal in the nineteenth century, and
+      that supplied much of the religious vocabulary of the
+      Mauritanian *zāwiya* system the French colonial administration
+      would later confront in the early twentieth century.
+    description_ar: |
+      توفي سيدية الكبير بن المختار الهيبلي — الفقيه المالكي الموريتاني
+      من إمارة الترارزة، مؤسس زاوية أسرة «السيدية» في «بوتلميت»
+      في جنوب موريتانيا، وناقل القادرية الصحراوية عن شيخه سيدي
+      المختار الكنتي بأزواد (ت ١٢٢٦ هـ/١٨١١ ميلادي)، وجد جد الشيخ
+      «سيدية بابا» المتأخر (ت ١٣٤٢ هـ/١٩٢٤ ميلادي) — في جنوب
+      موريتانيا عن سن متقدمة. وقد ناهز الثمانين. ومراسلاته العلمية
+      المحفوظة في أرشيف الأسرة ببوتلميت تتناول فقه المالكية وعقيدة
+      القادرية والفقه العملي لقبائل البادية. وكانت زاويته إلى جانب
+      زاوية الكنتيين بأزواد قطباً للقادرية الصحراوية رسّخ السلطة
+      الدينية السنية في موريتانيا والصحراء الغربية وشمال السنغال
+      في القرن التاسع عشر، وأمد نظام الزوايا الموريتاني بمعظم معجمه
+      الفقهي الذي ستواجهه الإدارة الاستعمارية الفرنسية في صدر
+      القرن العشرين.
+    description_fr: |
+      Sīdiyya al-Kabīr ibn al-Mukhtār al-Hayballī — érudit
+      mauritanien mālikite de l'émirat du Trārza, fondateur de la
+      *zāwiya* familiale des *Sīdiyya* à Boutilimit dans le sud de
+      la Mauritanie, transmetteur de la Qādiriyya saharienne par
+      son maître Sīdī Mukhtār al-Kuntī de l'Azawād (m. 1226 H /
+      1811 EC), et arrière-grand-père du futur Cheikh Sidiyya Bābā
+      (m. 1342 H / 1924 EC) — mourut dans le sud de la Mauritanie
+      à un âge avancé. Il avait environ quatre-vingts ans. Sa
+      correspondance savante, conservée dans les archives familiales
+      de Boutilimit, embrasse le fiqh mālikite, la doctrine
+      dévotionnelle qādirī et la jurisprudence pratique des tribus
+      du désert ; elle formait, aux côtés de la zāwiya kuntī
+      d'Azawād, l'axe qādirī saharien qui consolida l'autorité
+      religieuse sunnite en Mauritanie, dans le Sahara occidental
+      et dans le nord du Sénégal au XIXe siècle, et fournit une
+      grande part du vocabulaire religieux du système des *zāwiya*
+      mauritaniennes que l'administration coloniale française
+      affronterait au début du XXe siècle.
+    canonical_hijri: {year: 1284, precision: year}
+    canonical_gregorian: {date: 1868-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sidiyya-al-kabir, subject]]
+    tags: [mauritania, west-africa, sahara, qadiriyya, maliki, trarza, boutilimit]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sheikh_Sidiya_Al_Kabir"
+
+  # =========================================================================
+  # NINETEENTH-CENTURY JIHAD STATES — FOUNDINGS AND CONQUESTS
+  # =========================================================================
+
+  - slug: founding-of-sokoto-caliphate
+    category: dynastic_founding
+    title_en: Founding of the Sokoto Caliphate — Hijra of ʿUthmān dan Fodio
+    title_ar: قيام خلافة صكتو — هجرة عثمان بن فودي
+    title_fr: Fondation du califat de Sokoto — hégire de ʿUthmān dan Fodio
+    description_en: |
+      Shaykh ʿUthmān ibn Muḥammad ibn Fudi (Hausa: dan Fodio) —
+      Mālikī jurist of the al-Kunta-line Qādirī Sufi order in
+      what is today northwestern Nigeria — declared *hijra* with
+      his followers from Degel to Gudu on 12 Dhū al-Qaʿda 1218 AH /
+      21 February 1804 CE in defiance of the Hausa sultanate of
+      Gobir, then proclaimed jihad against the established Hausa
+      rulers in 1219 AH / 1804 CE. The decisive battle of Tabkin
+      Kwatto on 6 Rabīʿ I 1219 AH / 16 June 1804 CE secured the
+      jihad's first major victory; the cumulative campaigns of
+      the next four years overthrew the Hausa kingdoms of Gobir,
+      Katsina, Kano, Zaria, and others, replacing them with
+      *emirates* governed by Fulani *amīr al-muʾminīn*-appointed
+      lieutenants. Shaykh ʿUthmān received the title *amīr
+      al-muʾminīn* and assumed religious authority over what would
+      become the Sokoto Caliphate — the largest African polity of
+      the nineteenth century, ruling at its height most of present-
+      day northern Nigeria, southern Niger, and parts of Cameroon
+      and Burkina Faso, and persisting until the British conquest
+      of 1320 AH / 1903 CE. The Caliphate's founding works
+      (*Iḥyāʾ al-Sunna wa-Ikhmād al-Bidʿa*, *Bayān Wujūb al-Hijra*)
+      laid out its legal-theological foundations in the classical
+      Mālikī-Qādirī register.
+    description_ar: |
+      أعلن الشيخ عثمان بن محمد بن فودي — فقيه على مذهب الإمام مالك
+      ومريد للطريقة القادرية في فرع الكنتيين بشمال غربي نيجيريا
+      اليوم — الهجرة من «دغل» إلى «غدو» مع أصحابه يوم ١٢ ذي القعدة
+      سنة ١٢١٨ هـ/٢١ فبراير ١٨٠٤ ميلادي مقاومةً لسلطنة الهوسا في
+      «غوبر»، ثم أعلن الجهاد على ملوك الهوسا في سنة ١٢١٩ هـ/١٨٠٤
+      ميلادي. وأحرزت معركة «طبكين كواتو» يوم ٦ ربيع الأول سنة ١٢١٩
+      هـ/١٦ يونيو ١٨٠٤ ميلادي للجهاد أول انتصاراته الكبرى؛ وأسقطت
+      حملات السنوات الأربع التالية ممالك الهوسا في «غوبر» و«قتسينا»
+      و«كانو» و«زاريا» وغيرها، فأقيمت محلها إمارات يحكمها لواء أمير
+      المؤمنين من الفلانيين. وتولى الشيخ عثمان لقب أمير المؤمنين
+      وسلطة الدين على ما سيصير خلافة صكتو — أكبر دولة في أفريقيا في
+      القرن التاسع عشر، حكمت في أوج اتساعها معظم شمال نيجيريا اليوم
+      وجنوب النيجر وأطرافاً من الكاميرون وبوركينا فاسو، واستمرت إلى
+      الفتح الإنجليزي سنة ١٣٢٠ هـ/١٩٠٣ ميلادي. وقد أرست مصنفات الشيخ
+      المؤسسة (وأبرزها «إحياء السنة وإخماد البدعة» و«بيان وجوب
+      الهجرة») الأسس الفقهية والعقدية للخلافة على المنهاج المالكي
+      القادري الكلاسيكي.
+    description_fr: |
+      Cheikh ʿUthmān ibn Muḥammad ibn Fudi (haoussa : dan Fodio) —
+      juriste mālikite et soufi de l'ordre qādirī dans la branche
+      kuntī de l'actuel nord-ouest du Nigeria — déclara la *hijra*
+      avec ses partisans de Degel à Gudu le 12 Dhū al-Qaʿda 1218 H /
+      21 février 1804 EC en défiance du sultanat haoussa de Gobir,
+      puis proclama le jihad contre les souverains haoussa établis
+      en 1219 H / 1804 EC. La bataille décisive de Tabkin Kwatto
+      le 6 Rabīʿ I 1219 H / 16 juin 1804 EC remporta la première
+      victoire majeure du jihad ; les campagnes cumulées des quatre
+      années suivantes renversèrent les royaumes haoussa de Gobir,
+      Katsina, Kano, Zaria et autres, les remplaçant par des
+      *émirats* gouvernés par des lieutenants peuls nommés par
+      l'*amīr al-muʾminīn*. Cheikh ʿUthmān reçut le titre d'*amīr
+      al-muʾminīn* et prit l'autorité religieuse sur ce qui
+      deviendrait le califat de Sokoto — la plus grande polité
+      africaine du XIXe siècle, gouvernant à son apogée la plus
+      grande partie du nord du Nigeria actuel, du sud du Niger et
+      de portions du Cameroun et du Burkina Faso, et persistant
+      jusqu'à la conquête britannique de 1320 H / 1903 EC. Les
+      ouvrages fondateurs du califat (*Iḥyāʾ al-Sunna wa-Ikhmād
+      al-Bidʿa*, *Bayān Wujūb al-Hijra*) en posèrent les bases
+      juridico-théologiques dans le registre classique mālikite-
+      qādirī.
+    canonical_hijri: {year: 1219, precision: year}
+    canonical_gregorian: {date: 1804-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[usman-dan-fodio, subject]]
+    tags: [west-africa, nigeria, sokoto, fulani, hausa, qadiriyya, maliki, jihad, hijra, founding]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sokoto_Caliphate"
+
+  - slug: founding-of-hamdullahi-massina
+    category: founding
+    title_en: Founding of Ḥamdullāhi — Capital of the Massina Caliphate
+    title_ar: تأسيس حمد الله — عاصمة خلافة الماسينا
+    title_fr: Fondation de Ḥamdullāhi — capitale du califat de la Massina
+    description_en: |
+      Shaykh Aḥmadu Lobbo (Seku Aamadu) — Fulbe Mālikī jurist and
+      Qādirī Sufi disciple of the al-Kunta school of Timbuktu,
+      victor over the Bambara-aligned Fulbe lords of the Inner
+      Niger Delta in the jihad of 1233-1234 AH / 1818 CE — laid
+      out the new capital city of *Ḥamdullāhi* ("Praise to God")
+      on the open Sahel north of Mopti as the seat of his
+      theocratic *Diina* state in 1234 AH / 1819 CE. The city
+      was deliberately separated from the older trading and
+      scholarly centres of Djenné and Timbuktu, planned around a
+      central congregational mosque and a council-house for the
+      *majlis* of forty *ʿulamāʾ* who governed the Massina
+      Caliphate's strict Mālikī-law administration, and ringed
+      with palaces for Aḥmadu Lobbo and his successors. Around
+      Ḥamdullāhi developed approximately six hundred Quranic
+      schools and a pastoral-resource code regulating access to
+      the Niger floodplain that remains studied to this day.
+      Ḥamdullāhi served as the Massina capital from 1234 AH /
+      1819 CE until its sack and partial destruction by the
+      Tukulor armies of al-Ḥājj ʿUmar Tāl on 14 Dhū al-Qaʿda
+      1278 AH / 13 May 1862 CE.
+    description_ar: |
+      اختط الشيخ أحمد لبو (أسكي أحمد) — فقيه مالكي فلاني، ومريد
+      قادري على طريقة الكنتيين بتنبكتو، والمنتصر على لوارد فلانيي
+      البمبارا من إقليم النيجر الداخلي في جهاد سنة ١٢٣٣–١٢٣٤
+      هـ/١٨١٨ ميلادي — مدينته الجديدة عاصمةً «حمد الله» (أي ثناءً
+      على الله) في سهل الساحل المفتوح شمال «موبتي» مقراً لدولته
+      الدينية «الدينة» سنة ١٢٣٤ هـ/١٨١٩ ميلادي. وفصلت المدينة
+      عمداً عن مراكز التجارة والعلم القديمة من جني وتنبكتو،
+      ورسمت حول مسجد جامع مركزي ودار شورى لمجلس أربعين من العلماء
+      تتولى إدارة دولة الماسينا على مذهب مالك الصارم، وأحاطت بها
+      قصور أحمد لبو وخلفائه. ونشأت حول حمد الله نحو ست مئة مدرسة
+      قرآنية وقانون رعوي ينظم الانتفاع بسهل النيجر الفيضي ما زال
+      موضع دراسة المختصين. وكانت حمد الله عاصمة الماسينا منذ سنة
+      ١٢٣٤ هـ/١٨١٩ ميلادي إلى أن نهبتها وأصابتها بتخريب جزئي جيوش
+      التكرور بقيادة الحاج عمر تال يوم ١٤ ذي القعدة سنة ١٢٧٨
+      هـ/١٣ مايو ١٨٦٢ ميلادي.
+    description_fr: |
+      Cheikh Aḥmadu Lobbo (Seku Aamadu) — juriste mālikite peul et
+      disciple soufi qādirī de l'école kuntī de Tombouctou,
+      vainqueur des seigneurs peuls alliés des Bambara du Delta
+      intérieur du Niger lors du jihad de 1233-1234 H / 1818 EC —
+      traça la nouvelle capitale *Ḥamdullāhi* (« Louange à Dieu »)
+      sur le Sahel ouvert au nord de Mopti, siège de son État
+      théocratique *Diina*, en 1234 H / 1819 EC. La ville fut
+      délibérément séparée des anciens centres commerciaux et
+      savants de Djenné et de Tombouctou, planifiée autour d'une
+      grande mosquée congrégationnelle et d'une maison du conseil
+      pour le *majlis* des quarante *ʿulamāʾ* qui gouvernaient
+      l'administration de la loi mālikite stricte du califat de
+      la Massina, et entourée des palais d'Aḥmadu Lobbo et de ses
+      successeurs. Autour de Ḥamdullāhi se développèrent environ
+      six cents écoles coraniques et un code pastoral régulant
+      l'accès à la plaine d'inondation du Niger, encore étudié
+      aujourd'hui. Ḥamdullāhi resta la capitale de la Massina de
+      1234 H / 1819 EC jusqu'à son sac et sa destruction partielle
+      par les armées toucouleurs d'al-Ḥājj ʿUmar Tāl le 14
+      Dhū al-Qaʿda 1278 H / 13 mai 1862 EC.
+    canonical_hijri: {year: 1234, precision: year}
+    canonical_gregorian: {date: 1819-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmadu-lobbo, subject]]
+    tags: [west-africa, mali, massina, hamdullahi, fulani, qadiriyya, maliki, founding, capital]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Massina_Empire"
+
+  - slug: death-of-modibo-adama
+    category: ruler_death
+    title_en: Death of Modibo Adama — Founder of the Adamawa Emirate
+    title_ar: وفاة موديبو أدما — مؤسس إمارة أدماوة
+    title_fr: Mort de Modibo Adama — fondateur de l'émirat d'Adamawa
+    description_en: |
+      Modibo Adama ibn Ardo Hasana — Fulbe Mālikī scholar of the
+      Yola region of present-day northern Cameroon and northeastern
+      Nigeria, granted the green flag of jihad by Shaykh ʿUthmān
+      dan Fodio at Sokoto in 1224 AH / 1809 CE as commander of
+      the southeastern frontier of the Sokoto Caliphate, and the
+      founder of the Adamawa Emirate (named after him) which from
+      his capital Yola — laid out in 1257 AH / 1841 CE — extended
+      Sokoto's authority over a vast region of northern Cameroon,
+      eastern Nigeria, southern Chad, and the northern Central
+      African Republic — died at Yola on 23 Ramaḍān 1263 AH /
+      4 September 1847 CE. He was about 61. The Adamawa Emirate
+      he founded was the largest of the Sokoto Caliphate's eastern
+      emirates, and persisted as a tributary of Sokoto under his
+      sons and grandsons until the German colonial conquest of
+      Yola in 1901 CE divided the emirate between German Kamerun
+      and British Northern Nigeria. His name remains in the
+      contemporary toponymy of *Adamawa State* in Nigeria and
+      the *Adamaoua Region* of Cameroon.
+    description_ar: |
+      توفي «موديبو أدما» بن أردو حسنة — الفقيه المالكي الفلاني من
+      منطقة «يولا» في شمال الكاميرون وشمال شرق نيجيريا اليوم،
+      الذي قلده الشيخ عثمان بن فودي بصكتو الراية الخضراء للجهاد
+      أميراً للحدود الجنوبية الشرقية لخلافة صكتو سنة ١٢٢٤ هـ/١٨٠٩
+      ميلادي، ومؤسس إمارة أدماوة (المنسوبة إليه) التي بسطت من
+      عاصمته يولا — التي خطها سنة ١٢٥٧ هـ/١٨٤١ ميلادي — سلطة صكتو
+      على رقعة واسعة من شمال الكاميرون وشرق نيجيريا وجنوب تشاد
+      وشمال أفريقيا الوسطى — بيولا يوم ٢٣ رمضان سنة ١٢٦٣ هـ/٤
+      سبتمبر ١٨٤٧ ميلادي. وقد ناهز الحادية والستين. وكانت إمارة
+      أدماوة التي أسسها أكبر إمارات خلافة صكتو الشرقية، وبقيت
+      تابعة لصكتو في عهد أبنائه وأحفاده إلى أن قسمها الفتح
+      الاستعماري الألماني ليولا سنة ١٩٠١ ميلادي بين «الكاميرون
+      الألمانية» و«نيجيريا الشمالية البريطانية». وما زال اسمه قائماً
+      في تسمية «ولاية أدماوة» في نيجيريا و«إقليم أداماوا» في
+      الكاميرون.
+    description_fr: |
+      Modibo Adama ibn Ardo Hasana — érudit mālikite peul de la
+      région de Yola dans l'actuel nord du Cameroun et nord-est
+      du Nigeria, à qui le Cheikh ʿUthmān dan Fodio remit à Sokoto
+      en 1224 H / 1809 EC l'étendard vert du jihad comme commandant
+      de la frontière sud-est du califat de Sokoto, et fondateur
+      de l'émirat d'Adamawa (nommé d'après lui) qui, depuis sa
+      capitale Yola — tracée en 1257 H / 1841 EC — étendit
+      l'autorité de Sokoto sur une vaste région du nord du
+      Cameroun, de l'est du Nigeria, du sud du Tchad et du nord
+      de la République centrafricaine — mourut à Yola le 23
+      Ramaḍān 1263 H / 4 septembre 1847 EC. Il avait environ 61
+      ans. L'émirat d'Adamawa qu'il fonda fut le plus grand des
+      émirats orientaux du califat de Sokoto, et persista comme
+      tributaire de Sokoto sous ses fils et petits-fils jusqu'à
+      ce que la conquête coloniale allemande de Yola en 1901 EC
+      partage l'émirat entre le *Kamerun* allemand et la *Northern
+      Nigeria* britannique. Son nom demeure dans la toponymie
+      contemporaine de l'*État d'Adamawa* au Nigeria et de la
+      *région de l'Adamaoua* au Cameroun.
+    canonical_hijri: {year: 1263, month: 9, day: 23, precision: day}
+    canonical_gregorian: {date: 1847-09-04, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[modibo-adama, subject], [usman-dan-fodio, subject]]
+    tags: [west-africa, nigeria, cameroon, adamawa, yola, sokoto, fulani, qadiriyya, maliki]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Modibo_Adama"
+
+  - slug: tukulor-conquest-of-massina
+    category: conquest
+    title_en: Tukulor Conquest of Massina — al-Ḥājj ʿUmar Tāl Takes Ḥamdullāhi
+    title_ar: فتح التكرور للماسينا — استيلاء الحاج عمر تال على حمد الله
+    title_fr: Conquête toucouleur de la Massina — al-Ḥājj ʿUmar Tāl prend Ḥamdullāhi
+    description_en: |
+      al-Ḥājj ʿUmar ibn Saʿīd Tāl al-Fūtī al-Tijānī — Tukulor
+      Mālikī scholar of the Senegal valley, principal transmitter
+      of the Tijāniyya Sufi order into West Africa, and founder
+      of the Tukulor Empire after his jihad of 1268 AH / 1852 CE
+      against the polytheist Bambara of Kaarta and Segou —
+      defeated the Massina forces of Aḥmadu III ibn Aḥmadu II
+      ibn Aḥmadu Lobbo at the battle of Cayawal on 14 Dhū al-Qaʿda
+      1278 AH / 13 May 1862 CE and entered the Massina capital
+      Ḥamdullāhi shortly after, ending the Qādirī-Mālikī Massina
+      Caliphate as an independent polity and incorporating it
+      into the Tijānī Tukulor state. The conquest was contested
+      across the Sunni West-African scholarly community: the
+      al-Kunta-line Qādirī shaykh Aḥmad al-Bakkāy of Timbuktu
+      issued a public refutation against ʿUmar Tāl's casting of
+      Massina as polytheist or apostate, on the grounds that
+      Massina had been a Sunni Mālikī state for two generations.
+      A subsequent Fulbe revolt against the Tukulor occupation
+      in 1280 AH / 1864 CE led to the death of al-Ḥājj ʿUmar Tāl
+      himself in the cliffs of Deguembéré near Bandiagara. The
+      Tukulor Empire's western Sūdān successor states (under
+      Aḥmadu Sékou and Tijānī ibn Saʿīd Tāl) persisted until the
+      French colonial conquest of the late nineteenth century.
+    description_ar: |
+      هزم الحاج عمر بن سعيد تال الفوتي التيجاني — فقيه مالكي
+      تكروري من أهل وادي السنغال، وأبرز ناقلي الطريقة التيجانية
+      إلى غرب أفريقيا، ومؤسس دولة التكرور بعد جهاده على بمبارا
+      كارتا وسيغو الوثنيين سنة ١٢٦٨ هـ/١٨٥٢ ميلادي — جيوش الماسينا
+      تحت قيادة أحمد الثالث بن أحمد الثاني بن أحمد لبو في معركة
+      «كياوال» يوم ١٤ ذي القعدة سنة ١٢٧٨ هـ/١٣ مايو ١٨٦٢ ميلادي،
+      ودخل عاصمة الماسينا «حمد الله» بعدها بقليل، فأنهى خلافة
+      الماسينا القادرية المالكية بوصفها دولة مستقلة وضمها إلى
+      دولة التكرور التيجانية. وكان الفتح موضع خلاف في حلقات
+      علماء أهل السنة في غرب أفريقيا: فأصدر شيخ الطريقة القادرية
+      الكنتي «أحمد البكاي» بتنبكتو رداً علنياً على ادعاء عمر تال
+      أن الماسينا كانت دولة شرك أو ردة، محتجاً بأن الماسينا كانت
+      دولة سنية مالكية جيلين متعاقبين. وأدت ثورة الفلانيين على
+      الاحتلال التكروري للماسينا سنة ١٢٨٠ هـ/١٨٦٤ ميلادي إلى مقتل
+      الحاج عمر تال نفسه في شعاب «دغمبيري» قرب «بانديغرا». وظلت
+      دول التكرور الخلف في السودان الغربي (في عهد أحمد سيكو
+      وتيجاني بن سعيد تال) قائمة إلى الفتح الاستعماري الفرنسي في
+      أواخر القرن التاسع عشر.
+    description_fr: |
+      al-Ḥājj ʿUmar ibn Saʿīd Tāl al-Fūtī al-Tijānī — érudit
+      mālikite toucouleur de la vallée du Sénégal, principal
+      transmetteur de l'ordre soufi tijānī en Afrique de l'Ouest,
+      et fondateur de l'empire toucouleur après son jihad de
+      1268 H / 1852 EC contre les Bambara polythéistes du Kaarta
+      et du Ségou — défit les forces de la Massina d'Aḥmadu III
+      ibn Aḥmadu II ibn Aḥmadu Lobbo à la bataille de Cayawal le
+      14 Dhū al-Qaʿda 1278 H / 13 mai 1862 EC et entra peu après
+      dans la capitale de la Massina, Ḥamdullāhi, mettant fin au
+      califat qādirī-mālikite de la Massina comme polité
+      indépendante et l'incorporant à l'État toucouleur tijānī.
+      La conquête fut contestée dans la communauté savante sunnite
+      ouest-africaine : le cheikh qādirī de la branche kuntī
+      Aḥmad al-Bakkāy de Tombouctou émit une réfutation publique
+      contre la qualification par ʿUmar Tāl de la Massina comme
+      polythéiste ou apostate, au motif que la Massina avait été
+      un État sunnite mālikite pendant deux générations. Une
+      révolte peule subséquente contre l'occupation toucouleur
+      en 1280 H / 1864 EC entraîna la mort d'al-Ḥājj ʿUmar Tāl
+      lui-même dans les falaises de Déguembéré près de Bandiagara.
+      Les États successeurs de l'empire toucouleur dans le Sūdān
+      occidental (sous Aḥmadu Sékou et Tijānī ibn Saʿīd Tāl)
+      persistèrent jusqu'à la conquête coloniale française de la
+      fin du XIXe siècle.
+    canonical_hijri: {year: 1278, month: 11, day: 14, precision: day}
+    canonical_gregorian: {date: 1862-05-13, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-hajj-umar-tal, subject], [ahmadu-lobbo, subject]]
+    tags: [west-africa, mali, tukulor, massina, hamdullahi, tijaniyya, qadiriyya, maliki, conquest, jihad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Toucouleur_Empire"
+
+  - slug: death-of-ahmad-al-bakkay-al-kunti
+    category: scholar_death
+    title_en: Death of Aḥmad al-Bakkāy al-Kuntī — Timbuktu Qādirī Refuter
+    title_ar: وفاة أحمد البكاي الكنتي — شيخ القادرية بتنبكتو
+    title_fr: Mort d'Aḥmad al-Bakkāy al-Kuntī — réfutateur qādirī de Tombouctou
+    description_en: |
+      Shaykh Aḥmad al-Bakkāy ibn Muḥammad al-Kuntī — Mālikī
+      scholar and Qādirī shaykh of the al-Kunta family of
+      Timbuktu, grand-nephew and continuator of the Saharan
+      Qādirī renewer Sīdī Mukhtār al-Kuntī (d. 1226 AH / 1811 CE),
+      and senior al-Kunta authority of Timbuktu through the
+      Massina Caliphate and into the early Tukulor occupation —
+      died at Timbuktu after the Tukulor conquest. He was
+      approximately in his sixties. He is best known for the
+      protection he extended to the German explorer Heinrich
+      Barth during Barth's 1853-1854 CE stay in Timbuktu (a
+      letter exchange preserved in Barth's *Reisen und
+      Entdeckungen* attests al-Bakkāy's safe-conduct guarantee
+      and his Mālikī jurisprudential reasoning over the
+      treatment of a non-Muslim traveller), and for his public
+      epistolary refutation of al-Ḥājj ʿUmar Tāl's casting of
+      the Sunni Mālikī Massina Caliphate as legitimate target of
+      jihad in the campaigns of 1278-9 AH / 1862-3 CE. The
+      al-Bakkāy correspondence with ʿUmar Tāl remains one of the
+      principal nineteenth-century West African Sunni
+      jurisprudential debates over the legitimacy of jihad
+      against fellow Muslims.
+    description_ar: |
+      توفي الشيخ أحمد البكاي بن محمد الكنتي — الفقيه المالكي وشيخ
+      الطريقة القادرية في أسرة الكنتيين بتنبكتو، وحفيد أخي مجدد
+      القادرية الصحراوية سيدي المختار الكنتي (ت ١٢٢٦ هـ/١٨١١
+      ميلادي) واستمرار شيخ الكنتيين الأبرز في تنبكتو منذ عصر
+      دولة الماسينا إلى صدر الاحتلال التكروري — في تنبكتو بعد
+      الفتح التكروري. وقد ناهز الستين. وأشهر ما خلّف من خبرٍ
+      الحماية التي بسطها على الرحالة الألماني هاينريش بارت في
+      مقامه بتنبكتو سنة ١٨٥٣–١٨٥٤ ميلادي (وفي رحلة بارت «أسفار
+      واستكشافات» مراسلات شاهدة على ضمان البكاي للأمان وتحليل
+      فقهي مالكي لمعاملة الرحالة من غير المسلمين)، ورده العلني
+      في مراسلاته على الحاج عمر تال في حملاته سنة ١٢٧٨–١٢٧٩
+      هـ/١٨٦٢–١٨٦٣ ميلادي مدّعياً أن خلافة الماسينا السنية
+      المالكية تستحق الجهاد. وما زالت مراسلات البكاي مع عمر تال
+      من أهم المناقشات الفقهية السنية في القرن التاسع عشر بغرب
+      أفريقيا حول مشروعية جهاد المسلمين بعضهم بعضاً.
+    description_fr: |
+      Cheikh Aḥmad al-Bakkāy ibn Muḥammad al-Kuntī — érudit
+      mālikite et cheikh qādirī de la famille Kunta de Tombouctou,
+      petit-neveu et continuateur du rénovateur qādirī saharien
+      Sīdī Mukhtār al-Kuntī (m. 1226 H / 1811 EC), et figure
+      principale de l'autorité kuntīa de Tombouctou de l'époque
+      du califat de la Massina jusqu'au début de l'occupation
+      toucouleur — mourut à Tombouctou après la conquête
+      toucouleur. Il avait environ soixante ans. Il est surtout
+      connu pour la protection qu'il accorda à l'explorateur
+      allemand Heinrich Barth lors du séjour de Barth à Tombouctou
+      en 1853-1854 EC (une correspondance conservée dans le
+      *Reisen und Entdeckungen* de Barth atteste le sauf-conduit
+      d'al-Bakkāy et son raisonnement jurisprudentiel mālikite
+      sur le traitement d'un voyageur non musulman), et pour sa
+      réfutation épistolaire publique du jugement d'al-Ḥājj ʿUmar
+      Tāl qualifiant le califat sunnite mālikite de la Massina de
+      cible légitime de jihad dans les campagnes de 1278-9 H /
+      1862-3 EC. La correspondance al-Bakkāy avec ʿUmar Tāl
+      demeure l'un des principaux débats jurisprudentiels sunnites
+      ouest-africains du XIXe siècle sur la légitimité du jihad
+      contre des musulmans coreligionnaires.
+    canonical_hijri: {year: 1281, precision: year}
+    canonical_gregorian: {date: 1865-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-al-bakkay-al-kunti, subject], [al-hajj-umar-tal, subject]]
+    tags: [west-africa, mali, timbuktu, kunta, qadiriyya, maliki, jihad-debate, barth]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_al-Bakkay_al-Kunti"
+
+  # Founding of Touba (Mouride spiritual capital) intentionally excluded —
+  # see header note. Mouride doctrine fails the conservative
+  # Sunni-4-madhhab editorial bar (see EDITORIAL.md "Sunni orthodoxy").
+
+  - slug: british-conquest-of-sokoto-caliphate
+    category: political_event
+    title_en: British Conquest of the Sokoto Caliphate
+    title_ar: الفتح الإنجليزي على خلافة صكتو
+    title_fr: Conquête britannique du califat de Sokoto
+    description_en: |
+      Sultan Muḥammad Aṭṭāhirū I — twelfth caliph of the Sokoto
+      Caliphate founded by Shaykh ʿUthmān dan Fodio a century
+      earlier — was defeated by a British colonial force under
+      Frederick Lugard, High Commissioner of the Northern Nigeria
+      Protectorate, on 16 Dhū al-Qaʿda 1320 AH / 15 March 1903 CE
+      at the Battle of Sokoto. The city of Sokoto was occupied
+      the same day, and the Caliphate was formally absorbed into
+      the British Northern Nigeria Protectorate. Aṭṭāhirū I refused
+      submission and led a *hijra* of his supporters eastward
+      toward Mecca; he was overtaken by a British column at the
+      Battle of Burmi on 27 July 1903 and killed in the field.
+      The thirty-odd Sokoto emirates (Kano, Katsina, Zaria,
+      Bauchi, Adamawa, and others) were each absorbed under
+      indirect rule, retaining their emirs as British-appointed
+      administrators of Mālikī Islamic law in personal status
+      matters but stripped of military and external sovereignty.
+      The Caliphate's century of independent existence (1219 AH /
+      1804 CE — 1320 AH / 1903 CE) thus ended; the title of
+      *amīr al-muʾminīn* became, in British colonial usage, the
+      Sultan of Sokoto, an office that persists to this day as
+      the senior religious authority for Sunni Muslims in
+      Northern Nigeria.
+    description_ar: |
+      هُزم السلطان محمد الطاهر الأول — ثاني عشر خلفاء صكتو من
+      الخلافة التي أسسها الشيخ عثمان بن فودي قبل قرن — أمام قوة
+      استعمارية بريطانية بقيادة المفوض السامي لمحمية شمال
+      نيجيريا «فردريك لوغارد»، يوم ١٦ ذي القعدة سنة ١٣٢٠ هـ/١٥
+      مارس ١٩٠٣ ميلادي في «معركة صكتو». واحتلت مدينة صكتو في
+      اليوم نفسه، وضمت الخلافة رسمياً إلى محمية شمال نيجيريا
+      البريطانية. ورفض الطاهر الأول التسليم وقاد هجرة بأنصاره
+      شرقاً نحو مكة، فأدركته فرقة بريطانية في معركة «برمي» يوم
+      ٢٧ يوليو ١٩٠٣ ميلادي فقتل فيها. واستوعبت إمارات صكتو الثلاثون
+      ونيف (كانو، قتسينا، زاريا، باوتشي، أدماوة، وغيرها) كل
+      منها على حدة تحت «الحكم غير المباشر»، فأبقت على أمرائها
+      منصبين من قبل الإنجليز قائمين على فقه المالكية في الأحوال
+      الشخصية ولكن مسلوبي السلطان العسكري والخارجي. فانتهى بذلك
+      قرن من استقلال الخلافة (١٢١٩ هـ/١٨٠٤ ميلادي — ١٣٢٠ هـ/١٩٠٣
+      ميلادي)؛ وانقلب لقب «أمير المؤمنين» في الاستعمال الاستعماري
+      الإنجليزي لقب «سلطان صكتو»، وهو منصب باقٍ إلى اليوم سلطةً
+      دينية كبرى لمسلمي شمال نيجيريا من أهل السنة.
+    description_fr: |
+      Le sultan Muḥammad Aṭṭāhirū Ier — douzième calife du califat
+      de Sokoto fondé par Cheikh ʿUthmān dan Fodio un siècle plus
+      tôt — fut défait par une force coloniale britannique sous
+      Frederick Lugard, haut-commissaire du Protectorat du Nord
+      Nigeria, le 16 Dhū al-Qaʿda 1320 H / 15 mars 1903 EC à la
+      bataille de Sokoto. La ville de Sokoto fut occupée le même
+      jour, et le califat fut formellement absorbé au sein du
+      Protectorat britannique du Nord Nigeria. Aṭṭāhirū Ier refusa
+      la soumission et conduisit une *hijra* de ses partisans
+      vers l'est en direction de La Mecque ; il fut rattrapé par
+      une colonne britannique à la bataille de Burmi le 27 juillet
+      1903 et tué sur le champ de bataille. Les quelque trente
+      émirats de Sokoto (Kano, Katsina, Zaria, Bauchi, Adamawa et
+      autres) furent absorbés sous *Indirect Rule*, conservant
+      leurs émirs comme administrateurs de la loi islamique
+      mālikite en matière de statut personnel nommés par les
+      Britanniques, mais dépouillés de souveraineté militaire et
+      extérieure. Le siècle d'existence indépendante du califat
+      (1219 H / 1804 EC — 1320 H / 1903 EC) prit ainsi fin ; le
+      titre d'*amīr al-muʾminīn* devint, dans l'usage colonial
+      britannique, celui de sultan de Sokoto — fonction qui
+      persiste à ce jour comme principale autorité religieuse
+      des musulmans sunnites du nord du Nigeria.
+    canonical_hijri: {year: 1320, month: 11, day: 16, precision: day}
+    canonical_gregorian: {date: 1903-03-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[usman-dan-fodio, subject]]
+    tags: [west-africa, nigeria, sokoto, british, colonial, fulani, maliki, lugard, conquest]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Sokoto"

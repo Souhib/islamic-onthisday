@@ -1,0 +1,881 @@
+# Wave 4 of curated event additions (2026-04-26).
+# 4 abbasid caliphs + 3 conquerors/leaders + 2 sunni-canonical sufis
+# + 3 scientists + 2 major historians + 1 abbasid military expedition.
+# Each event attested in classical Sunni sources. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # ABBASID CALIPHS
+  # =========================================================================
+
+  - slug: death-of-al-mahdi-abbasid
+    category: caliph
+    title_en: Death of Caliph al-Mahdi
+    title_ar: وفاة الخليفة المهدي
+    title_fr: Mort du calife al-Mahdi
+    description_en: |
+      Muhammad ibn al-Mansur al-Mahdi, third Abbasid caliph (reigned
+      158-169 AH), died at Masabadhan in the Zagros mountains while
+      hunting, at age about 43. His ten-year reign restored the
+      treasury depleted under his austere father's reforms, freed
+      political prisoners en masse, and lavished patronage on the
+      Hijaz: extensions to the Sacred Mosque in Mecca and the Prophet's
+      ﷺ Mosque in Medina, and the establishment of the postal-station
+      and water-cistern network on the Hajj route from Iraq. He led
+      personal campaigns against Byzantine Anatolia. The proper-name
+      pretensions of the Khurramiyya and other revolts saw fierce
+      suppression in his late reign. His son and successor Hadi was
+      summoned from Jurjan upon his death.
+    description_ar: |
+      توفي الخليفة محمد بن المنصور المهدي — ثالث خلفاء بني العباس
+      (حكم من ١٥٨ إلى ١٦٩ هـ) — بـ«ماسبذان» في جبال زاغروس وهو في
+      الصيد عن نحو ثلاث وأربعين سنة. أعاد عهده عشر سنين الميسرة لبيت
+      المال بعد تقشف أبيه، وأطلق سراح المساجين السياسيين، وأنفق
+      بسخاء على الحرمين: فوسّع المسجد الحرام بمكة والمسجد النبوي
+      بالمدينة، وأقام شبكة من البريد ومنازل الماء على طريق الحج
+      العراقي. وقاد بنفسه غزوات على ثغور الروم. وفي أواخر عهده شهدت
+      الدولة قمع ثورات الخرمية وغيرها من الحركات. وقد استدعي ابنه
+      وخليفته الهادي من جرجان عند وفاته.
+    description_fr: |
+      Muḥammad ibn al-Manṣūr al-Mahdi, troisième calife abbasside
+      (règne 158-169 H), mourut à Masabadhan dans les monts Zagros
+      lors d'une partie de chasse, à l'âge d'environ 43 ans. Son
+      règne de dix ans rétablit le trésor public épuisé par les
+      réformes austères de son père, libéra en masse les prisonniers
+      politiques, et prodigua patronage au Hedjaz : extensions de la
+      Mosquée Sacrée de La Mecque et de la Mosquée du Prophète ﷺ à
+      Médine, et établissement du réseau de relais postaux et de
+      citernes d'eau sur la route du Ḥajj depuis l'Irak. Il mena en
+      personne des campagnes contre l'Anatolie byzantine. Les
+      prétentions onomastiques des Khurramiyya et d'autres révoltes
+      virent la répression sévère dans la fin de son règne. Son fils
+      et successeur Hadi fut convoqué de Jurjan à sa mort.
+    canonical_hijri: {year: 169, month: 8, precision: month}
+    canonical_gregorian: {date: 785-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+      - source_key: suyuti_tarikh_khulafa
+    people: [[al-mahdi-abbasid, subject]]
+    tags: [abbasid, caliph, baghdad, byzantium, hajj]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mahdi"
+
+  - slug: death-of-al-mutasim
+    category: caliph
+    title_en: Death of Caliph al-Muʿtaṣim
+    title_ar: وفاة الخليفة المعتصم
+    title_fr: Mort du calife al-Muʿtaṣim
+    description_en: |
+      Abu Isḥaq al-Muʿtaṣim bi-Allah — eighth Abbasid caliph (reigned
+      218-227 AH), warrior-caliph who founded the Turkish guard
+      corps that would later dominate Abbasid politics, builder of
+      the new capital at Samarra, and the conqueror of Amorium —
+      died there at age 47. Most famous for the Sack of Amorium in
+      223 AH, which he undertook in response to a Muslim woman's
+      cry "wa-Muʿtaṣimah!" reaching him from Byzantine captivity:
+      classical sources record his preparation of an army of eighty
+      thousand and his personal command. He died of complications
+      following a long illness; some accounts say he refused to
+      leave his bed even to receive the seal-ring from his sons.
+      His son al-Wathiq succeeded him.
+    description_ar: |
+      توفي أبو إسحاق المعتصم بالله — ثامن خلفاء بني العباس (حكم من
+      ٢١٨ إلى ٢٢٧ هـ)، الخليفة المحارب الذي أنشأ فرق الجند الترك
+      التي ستهيمن لاحقاً على السياسة العباسية، وباني عاصمته الجديدة
+      سامراء، وفاتح عمورية — بسامراء عن سبع وأربعين سنة. اشتهر بفتح
+      عمورية سنة ٢٢٣ هـ التي شنها استجابة لاستغاثة امرأة مسلمة
+      «وامعتصماه!» بلغته من سبي الروم؛ فأعد كما تذكر المصادر القديمة
+      جيشاً قوامه ثمانون ألفاً قاده بنفسه. وتوفي عن مضاعفات طول مرض،
+      وذكر بعض الإخباريين أنه أبى أن يفارق فراشه حتى لتسليم الخاتم
+      لأبنائه. وخلفه ابنه الواثق.
+    description_fr: |
+      Abu Isḥāq al-Muʿtaṣim bi-Allah — huitième calife abbasside
+      (règne 218-227 H), calife-guerrier qui fonda les corps de
+      gardes turcs qui domineront plus tard la politique abbasside,
+      bâtisseur de la nouvelle capitale de Samarra, et conquérant
+      d'Amorium — y mourut à l'âge de 47 ans. Il est surtout célèbre
+      pour le sac d'Amorium en 223 H, qu'il entreprit en réponse au
+      cri d'une femme musulmane « *wa-Muʿtaṣimah!* » qui lui parvint
+      de captivité byzantine : les sources classiques mentionnent sa
+      préparation d'une armée de quatre-vingt mille hommes et son
+      commandement personnel. Il mourut de complications suivant une
+      longue maladie; certains récits disent qu'il refusa de quitter
+      son lit même pour recevoir le sceau de ses fils. Son fils
+      al-Wāthiq lui succéda.
+    canonical_hijri: {year: 227, month: 1, precision: month}
+    canonical_gregorian: {date: 842-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+      - source_key: suyuti_tarikh_khulafa
+    people: [[al-mutasim, subject]]
+    tags: [abbasid, caliph, samarra, amorium, byzantium]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mu%27tasim"
+
+  - slug: sack-of-amorium
+    category: battle
+    title_en: Sack of Amorium — al-Muʿtaṣim's Anatolian campaign
+    title_ar: فتح عمورية في غزوة المعتصم
+    title_fr: Sac d'Amorium — campagne anatolienne d'al-Muʿtaṣim
+    description_en: |
+      Caliph al-Muʿtaṣim led an expedition of some eighty thousand
+      Muslim troops deep into central Anatolia, besieging and
+      capturing the strategic Byzantine fortress city of Amorium
+      after a fifty-five day siege. The campaign was framed as a
+      response to the cry of a Muslim woman taken captive by
+      Byzantine raiders ("wa-Muʿtaṣimah!"); the caliph reportedly
+      vowed to strike the city most beloved to Emperor Theophilos,
+      and Amorium was the dynastic homeland of the reigning house.
+      The fall produced the most celebrated single martial achievement
+      of the Abbasid era — commemorated by al-Buḥturi and Abu
+      Tammām (whose famous *Sayfu Aṣdaqu Anbāʾan mina-l-kutubi*
+      qaṣīda was composed for it). The campaign demonstrated the
+      Abbasid army's continued capacity to project power deep into
+      Byzantine territory more than a century after Yarmuk.
+    description_ar: |
+      قاد الخليفة المعتصم جيشاً قوامه نحو ثمانين ألف مقاتل في عمق
+      الأناضول، فحاصر مدينة عمورية الحصينة قاعدة الروم في وسط البلاد
+      خمسة وخمسين يوماً ثم فتحها عنوة. وكانت الحملة استجابة لاستغاثة
+      امرأة مسلمة سبتها غارات الروم: «وامعتصماه!»؛ فآلى الخليفة على
+      نفسه أن يقصد أحبّ مدائن الإمبراطور توفيلوس إليه، وعمورية مهد
+      أسرته الحاكمة. وأخرج فتحها أكبر إنجاز عسكري عباسي مدوّن، خلّده
+      البحتري وأبو تمام في قصيدته الذائعة «السيف أصدق أنباء من
+      الكتب». وأظهرت الحملة بقاء قدرة الجيش العباسي على بسط نفوذه
+      عميقاً في أراضي الروم بعد أكثر من قرن من اليرموك.
+    description_fr: |
+      Le calife al-Muʿtaṣim mena une expédition de quelque
+      quatre-vingt mille soldats musulmans au cœur de l'Anatolie
+      centrale, assiégeant et prenant la cité-forteresse byzantine
+      stratégique d'Amorium après cinquante-cinq jours de siège.
+      La campagne fut présentée comme une réponse au cri d'une
+      musulmane prise en captivité par des pillards byzantins
+      (« *wa-Muʿtaṣimah!* »); le calife aurait juré de frapper la
+      cité la plus chère à l'empereur Théophile, et Amorium était
+      le berceau dynastique de la maison régnante. La chute produisit
+      le plus célèbre exploit militaire isolé de l'ère abbasside —
+      commémoré par al-Buḥturī et Abu Tammām (dont la fameuse
+      *qaṣīda* « *al-Sayfu aṣdaqu anbāʾan mina-l-kutubi* » fut
+      composée à cette occasion). La campagne démontra la capacité
+      durable de l'armée abbasside à projeter sa puissance loin en
+      territoire byzantin plus d'un siècle après Yarmouk.
+    canonical_hijri: {year: 223, month: 8, precision: month}
+    canonical_gregorian: {date: 838-08-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[al-mutasim, leader], [abu-tammam, subject]]
+    tags: [abbasid, byzantium, anatolia, samarra, abu-tammam]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sack_of_Amorium"
+
+  - slug: death-of-al-mutawakkil
+    category: caliph
+    title_en: Assassination of Caliph al-Mutawakkil
+    title_ar: مقتل الخليفة المتوكل
+    title_fr: Assassinat du calife al-Mutawakkil
+    description_en: |
+      Jaʿfar ibn al-Muʿtaṣim al-Mutawakkil ʿala Allah, tenth Abbasid
+      caliph (reigned 232-247 AH), was killed in his palace at
+      Samarra by a faction of Turkish guards in collusion with his
+      own son al-Muntaṣir, at age about 41. His reign decisively ended
+      the Mihna (the inquisition over the createdness of the Qurʾan)
+      by reaffirming the Sunni position; he restored the religious
+      scholars (Ahmad ibn Ḥanbal foremost among them) to public
+      honour. He also issued sharply discriminatory edicts against
+      Christians and Jews. His murder is the marker historians use
+      to date the start of the *Anarchy at Samarra* — a decade in
+      which four caliphs were enthroned and killed by their own
+      Turkish military, accelerating the political collapse of the
+      central caliphate.
+    description_ar: |
+      قُتل الخليفة جعفر بن المعتصم المتوكل على الله — عاشر خلفاء بني
+      العباس (حكم من ٢٣٢ إلى ٢٤٧ هـ) — في قصره بسامراء على يد طائفة
+      من جند الترك بمؤامرة من ابنه المنتصر، وقد ناهز الحادية والأربعين.
+      أنهى عهده محنة خلق القرآن إنهاءً صريحاً برد قول أهل السنة، وأعاد
+      تكريم الفقهاء وعلى رأسهم الإمام أحمد بن حنبل. غير أنه أصدر
+      مراسيم تفرقة شديدة على أهل الذمة من النصارى واليهود. ومقتله
+      هو التاريخ الذي يؤرخ به المؤرخون بداية «فوضى سامراء»: عقد من
+      الزمن خلع فيه الجند الترك أربعة من الخلفاء وقتلوهم، تسارع به
+      الانهيار السياسي للخلافة المركزية.
+    description_fr: |
+      Jaʿfar ibn al-Muʿtaṣim al-Mutawakkil ʿala Allah, dixième
+      calife abbasside (règne 232-247 H), fut tué dans son palais à
+      Samarra par une faction de gardes turcs en collusion avec son
+      propre fils al-Muntaṣir, à l'âge d'environ 41 ans. Son règne
+      mit fin de manière décisive à la *Miḥna* (l'inquisition sur
+      le caractère créé du Coran) en réaffirmant la position sunnite;
+      il restaura les savants religieux (Aḥmad ibn Ḥanbal en tête)
+      à l'honneur public. Il émit aussi des édits durement
+      discriminatoires contre chrétiens et juifs. Son meurtre est le
+      marqueur que les historiens utilisent pour dater le début de
+      l'*Anarchie à Samarra* — une décennie durant laquelle quatre
+      califes furent intronisés et tués par leur propre armée turque,
+      accélérant l'effondrement politique du califat central.
+    canonical_hijri: {year: 247, month: 12, precision: month}
+    canonical_gregorian: {date: 861-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+      - source_key: suyuti_tarikh_khulafa
+    people: [[al-mutawakkil, subject], [ahmad-ibn-hanbal, subject]]
+    tags: [abbasid, caliph, samarra, mihna, anarchy, turkish-guards]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mutawakkil"
+
+  - slug: death-of-al-mutadid
+    category: caliph
+    title_en: Death of Caliph al-Muʿtaḍid
+    title_ar: وفاة الخليفة المعتضد
+    title_fr: Mort du calife al-Muʿtaḍid
+    description_en: |
+      Aḥmad ibn al-Muwaffaq al-Muʿtaḍid bi-Allah, sixteenth Abbasid
+      caliph (reigned 279-289 AH), died at Baghdad at age about 47.
+      He is widely regarded by classical historians as the last
+      effective Abbasid caliph: he restored the seat of the caliphate
+      to Baghdad after thirty years at Samarra, brought the Tulunid
+      autonomy in Egypt back under direct Abbasid control, suppressed
+      Khārijite uprisings in al-Jazīra, and curbed the Saffarid
+      ambitions in the east. After his death the dynasty entered
+      irreversible political decline; within a generation, real power
+      had passed to the Bāghdādī military commanders and ultimately
+      to the Buyids. al-Ṭabari, Ibn al-Athir, and Ibn Kathir all
+      memorialise his reign as a brief restoration before the
+      breakup.
+    description_ar: |
+      توفي الخليفة أحمد بن الموفق المعتضد بالله — السادس عشر من
+      خلفاء بني العباس (حكم من ٢٧٩ إلى ٢٨٩ هـ) — ببغداد عن نحو سبع
+      وأربعين سنة. وعدّه عامة المؤرخين القدامى آخر خلفاء بني العباس
+      المتمكنين تمكناً فعلياً: فقد أعاد الخلافة إلى بغداد بعد ثلاثين
+      سنة في سامراء، وأخضع الدولة الطولونية في مصر لسلطة الخلافة
+      المباشرة، وقمع ثورات الخوارج في الجزيرة، وكفّ مطامع الصفاريين
+      في المشرق. وبعد وفاته دخلت الدولة في انحدار سياسي لا رجعة فيه؛
+      وفي جيل واحد آلت السلطة الحقيقية إلى قواد الجند البغداديين
+      ثم إلى البويهيين. وأرّخ الطبري وابن الأثير وابن كثير لخلافته
+      عودة قصيرة قبل تفسخ الدولة.
+    description_fr: |
+      Aḥmad ibn al-Muwaffaq al-Muʿtaḍid bi-Allah, seizième calife
+      abbasside (règne 279-289 H), mourut à Bagdad à l'âge d'environ
+      47 ans. Il est largement considéré par les historiens classiques
+      comme le dernier calife abbasside effectif : il rétablit le
+      siège du califat à Bagdad après trente ans à Samarra, ramena
+      l'autonomie tulunide d'Égypte sous le contrôle direct des
+      Abbassides, réprima les soulèvements khārijites en al-Jazīra,
+      et contint les ambitions saffarides à l'est. Après sa mort,
+      la dynastie entra dans un déclin politique irréversible; en
+      l'espace d'une génération, le pouvoir réel passa aux commandants
+      militaires bagdadiens puis finalement aux Bouyides. al-Ṭabari,
+      Ibn al-Athīr et Ibn Kathīr commémorent tous son règne comme
+      une brève restauration avant la rupture.
+    canonical_hijri: {year: 289, month: 4, precision: month}
+    canonical_gregorian: {date: 902-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+      - source_key: suyuti_tarikh_khulafa
+    people: [[al-mutadid, subject]]
+    tags: [abbasid, caliph, baghdad, tulunid, restoration]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mu%27tadid"
+
+  # =========================================================================
+  # CONQUERORS / MILITARY LEADERS
+  # =========================================================================
+
+  - slug: death-of-uqba-ibn-nafi
+    category: companion
+    title_en: Martyrdom of ʿUqba ibn Nafiʿ — Founder of Qayrawan
+    title_ar: استشهاد عقبة بن نافع — مؤسس القيروان
+    title_fr: Martyre de ʿUqba ibn Nāfiʿ — fondateur de Qayrawan
+    description_en: |
+      ʿUqba ibn Nafiʿ al-Fihri, conqueror of Ifriqiya and founder
+      (in 50 AH) of the city of Qayrawan from which Muslim authority
+      would expand across the Maghreb, was killed at Tahuda in
+      modern Algeria during a Berber-led uprising under Kusayla
+      after he had ridden west "until the Atlantic Ocean lay between
+      his horse and any further conquest" — the famous classical
+      utterance attributed to him as he turned his mount into the
+      surf. He was about 60. The mosque he founded at Qayrawan
+      remains the oldest in North Africa and the spiritual anchor of
+      the Maghrebi Maliki tradition. His foundational role is
+      recorded in Ibn ʿAbd al-Hakam's *Futuh Misr wa-l-Maghrib*, the
+      earliest extant Maghrebi conquest narrative.
+    description_ar: |
+      استشهد عقبة بن نافع الفهري — فاتح إفريقية ومؤسس مدينة القيروان
+      سنة خمسين للهجرة، التي انطلقت منها سلطان المسلمين عبر المغرب
+      كله — في «تهودة» بشمال شرق الجزائر اليوم في ثورة قبائل البربر
+      بقيادة كسيلة، وكان قبل ذلك قد اقتحم الأرض حتى وصل إلى المحيط
+      الأطلسي، فأدخل فرسه في موجه ونطق بقولته الذائعة في كتب التاريخ:
+      «اللهم لو علمت أن وراء هذا البحر أرضاً لجاهدت في سبيلك حتى لا
+      يُعبد سواك». وقد ناهز الستين. ولا يزال جامعه بالقيروان أقدم
+      جامع في شمال أفريقيا والمعقل الروحي للمذهب المالكي بالمغرب.
+      وذكر دوره التأسيسي ابن عبد الحكم في «فتوح مصر والمغرب»، أقدم
+      ما وصلنا من كتب المغازي المغربية.
+    description_fr: |
+      ʿUqba ibn Nāfiʿ al-Fihri, conquérant de l'Ifrīqiya et fondateur
+      (en 50 H) de la ville de Qayrawan d'où l'autorité musulmane
+      s'étendrait à travers le Maghreb, fut tué à Tahuda dans
+      l'actuelle Algérie lors d'un soulèvement berbère mené par
+      Kusayla après avoir chevauché jusqu'à l'ouest « tant que
+      l'Atlantique ne se trouvât entre son cheval et toute autre
+      conquête » — la célèbre parole classique qui lui est attribuée
+      alors qu'il dirigeait sa monture dans le ressac. Il avait
+      environ 60 ans. La mosquée qu'il fonda à Qayrawan demeure la
+      plus ancienne d'Afrique du Nord et l'ancrage spirituel de la
+      tradition malikite maghrébine. Son rôle fondateur est consigné
+      dans *Futūḥ Miṣr wa-l-Maghrib* d'Ibn ʿAbd al-Ḥakam, le plus
+      ancien récit de conquête maghrébin existant.
+    canonical_hijri: {year: 63, precision: year}
+    canonical_gregorian: {date: 683-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[uqba-ibn-nafi, subject]]
+    tags: [umayyad, conquest, maghreb, qayrawan, ifriqiya, atlantic]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Uqba_ibn_Nafi"
+
+  - slug: death-of-qutayba-ibn-muslim
+    category: companion
+    title_en: Death of Qutayba ibn Muslim — Conqueror of Transoxiana
+    title_ar: مقتل قتيبة بن مسلم — فاتح ما وراء النهر
+    title_fr: Mort de Qutayba ibn Muslim — conquérant de la Transoxiane
+    description_en: |
+      Qutayba ibn Muslim al-Bahili, governor of Khurasan under
+      al-Ḥajjaj ibn Yusuf and conqueror of Transoxiana — Bukhara,
+      Samarqand, Khwarazm, Farghana, and at the apex of his career
+      Kashghar on the Chinese frontier — was killed at Farghana by
+      his own troops who refused to follow him in revolt against the
+      new caliph Sulayman ibn ʿAbd al-Malik. He was about 49. Within
+      a single decade his campaigns brought Transoxiana decisively
+      into the Islamic world and laid the foundation for the eastern
+      hadith school of Bukhara — without which the *Ṣaḥīḥ al-Bukhari*
+      would never have been compiled. al-Tabari preserves the long
+      khutba in which he failed to rouse the troops to follow him,
+      ending with their slaying him on the spot.
+    description_ar: |
+      قتل قتيبة بن مسلم الباهلي — والي خراسان للحجاج بن يوسف وفاتح
+      ما وراء النهر: بخارى وسمرقند وخوارزم وفرغانة، ثم في ذروته
+      كاشغر على حدود الصين — في فرغانة على يد جنده الذين أبوا الخروج
+      معه على الخليفة الجديد سليمان بن عبد الملك. وكان عمره نحو تسع
+      وأربعين سنة. أدخلت غزواته في عقد واحد ما وراء النهر في دار
+      الإسلام إدخالاً نهائياً، وهيّأت الأرض لمدرسة الحديث الشرقية
+      ببخارى التي لولاها ما خرج «صحيح البخاري». ويحفظ الطبري الخطبة
+      الطويلة التي ألقاها قتيبة في جنده يستثيرهم على المواصلة، فلم
+      يستجيبوا له، فقتلوه في موضعه.
+    description_fr: |
+      Qutayba ibn Muslim al-Bāhili, gouverneur du Khurasan sous
+      al-Ḥajjāj ibn Yusuf et conquérant de la Transoxiane — Boukhara,
+      Samarcande, Khwarezm, Ferghana, et à l'apogée de sa carrière
+      Kashgar à la frontière chinoise — fut tué à Ferghana par ses
+      propres troupes qui refusèrent de le suivre dans une révolte
+      contre le nouveau calife Sulaymān ibn ʿAbd al-Malik. Il avait
+      environ 49 ans. En une seule décennie, ses campagnes firent
+      définitivement entrer la Transoxiane dans le monde islamique
+      et posèrent les fondations de l'école de hadith orientale de
+      Boukhara — sans laquelle le *Ṣaḥīḥ al-Bukhari* n'aurait jamais
+      été compilé. al-Ṭabari conserve la longue *khuṭba* dans laquelle
+      il échoua à rallier les troupes, terminant par leur action de
+      le tuer sur place.
+    canonical_hijri: {year: 96, precision: year}
+    canonical_gregorian: {date: 715-08-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[qutayba-ibn-muslim, subject], [al-walid-i, subject]]
+    tags: [umayyad, conquest, transoxiana, bukhara, samarqand, khurasan]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qutayba_ibn_Muslim"
+
+  - slug: death-of-nur-al-din-zanki
+    category: ruler
+    title_en: Death of Nur al-Din Zanki — Unifier of Syria
+    title_ar: وفاة نور الدين زنكي — موحّد الشام
+    title_fr: Mort de Nūr al-Din Zanki — unificateur de la Syrie
+    description_en: |
+      Nur al-Din Mahmud ibn Zanki, second of the Zangid atabegs of
+      Aleppo and Mosul, the ruler who united Muslim Syria and Egypt
+      against the Crusader states and through his lieutenant Ṣalāh
+      al-Dīn (Saladin) made the recapture of Jerusalem possible —
+      died of throat illness at the citadel of Damascus at age about
+      57. His reign saw the construction of the Nūriyya madrasa in
+      Damascus (the first dedicated dār al-ḥadīth in the Islamic
+      world), the suppression of Shia and Christian governance from
+      Aleppo to Egypt, and a famed personal asceticism: he wore
+      patched clothes and reportedly never let his treasury keep
+      more than what was due. The minbar he commissioned for
+      al-Aqṣā Mosque (later installed by Saladin after the
+      reconquest) bore his name in marquetry.
+    description_ar: |
+      توفي الملك العادل نور الدين محمود بن زنكي — ثاني الأتابكة
+      الزنكيين على حلب والموصل، وموحد المسلمين بالشام ومصر في وجه
+      دول الصليبيين، الذي مهد عبر قائده صلاح الدين الأيوبي لاستعادة
+      القدس — بقلعة دمشق متأثراً بداء «الذبحة» عن نحو سبع وخمسين
+      سنة. شهد عهده بناء المدرسة النورية بدمشق (أول دار للحديث في
+      الإسلام)، والقضاء على الحكم الشيعي والصليبي من حلب إلى مصر،
+      وزهد شخصي مأثور: لبس المرقّع، وقيل إنه لم يدع لبيت ماله
+      فضلاً عن المستحق له. وأَمر بصنع المنبر الذي ركّبه صلاح الدين
+      في المسجد الأقصى بعد تحرير القدس، وقد كتب عليه اسمه نقشاً.
+    description_fr: |
+      Nūr al-Dīn Maḥmūd ibn Zanki, deuxième des atabegs zangides
+      d'Alep et de Mossoul, le souverain qui unifia la Syrie et
+      l'Égypte musulmanes contre les États croisés et qui, par son
+      lieutenant Ṣalāḥ al-Dīn (Saladin), rendit possible la
+      reconquête de Jérusalem — mourut d'une affection de la gorge
+      à la citadelle de Damas à l'âge d'environ 57 ans. Son règne
+      vit la construction de la madrasa Nūriyya à Damas (la première
+      *dār al-ḥadīth* du monde islamique), l'élimination de la
+      gouvernance chiite et chrétienne d'Alep à l'Égypte, et un
+      ascétisme personnel célèbre : il portait des vêtements
+      rapiécés et, dit-on, ne laissa jamais à son trésor public
+      au-delà de ce qui revenait. Le *minbar* qu'il fit fabriquer
+      pour la mosquée al-Aqṣā (installé plus tard par Saladin après
+      la reconquête) portait son nom en marqueterie.
+    canonical_hijri: {year: 569, month: 5, precision: month}
+    canonical_gregorian: {date: 1174-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+      - source_key: dhahabi_siyar
+      - source_key: ibn_khallikan_wafayat
+    people: [[nur-al-din-zanki, subject], [salahuddin-al-ayyubi, subject]]
+    tags: [zangid, syria, crusades, damascus, aleppo, jihad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nur_ad-Din_(died_1174)"
+
+  # =========================================================================
+  # SUNNI-CANONICAL SUFIS
+  # =========================================================================
+
+  - slug: death-of-al-junayd-al-baghdadi
+    category: scholar
+    title_en: Death of al-Junayd al-Baghdadi — Sayyid al-Ṭāʾifa
+    title_ar: وفاة الجنيد البغدادي — سيد الطائفة
+    title_fr: Mort d'al-Junayd al-Baghdadi — Sayyid al-Ṭāʾifa
+    description_en: |
+      Abu al-Qasim al-Junayd al-Baghdadi — *sayyid al-ṭāʾifa* "master
+      of the [Sufi] community" by consensus of the classical Sunni
+      tradition, jurist of the Thawri (and later the Shafiʿi)
+      madhhab, and author of letters and short treatises that became
+      the foundational corpus of "sober" Sunni Sufism — died in
+      Baghdad at age about 80. His insistence that the mystical
+      path must remain bound by the Qurʾan and Sunna, and his sharp
+      distinction from the ecstatic excesses of his contemporary
+      al-Ḥallaj, made him the canonical figure to whom every later
+      Sunni Sufi master traces his silsila. al-Sulami, al-Qushayri,
+      al-Ghazali, and Ibn Taymiyya all defer to him as the standard.
+      He famously said: "All paths are closed except for him who
+      treads in the footsteps of the Messenger ﷺ."
+    description_ar: |
+      توفي الإمام أبو القاسم الجنيد البغدادي — «سيد الطائفة» بإجماع
+      أهل السنة من الصوفية، الفقيه على مذهب سفيان الثوري ثم الشافعي،
+      ومصنف الرسائل والكتب الصغار التي صارت أصول التصوف السني
+      «الصاحي» — ببغداد عن نحو ثمانين سنة. تمسكه بأن السلوك إلى الله
+      مقيد بالكتاب والسنة، ومفاصلته الحازمة لشطحات معاصره الحلاج،
+      جعلته العلم الذي ترفع إليه كل أسانيد المتصوفة السنة من بعده.
+      فالسلمي والقشيري والغزالي وحتى ابن تيمية يصدرون عنه على أنه
+      المعيار. ومن قوله المشهور: «الطرق كلها مسدودة إلا على من
+      اقتفى أثر الرسول ﷺ».
+    description_fr: |
+      Abu al-Qāsim al-Junayd al-Baghdādi — *sayyid al-ṭāʾifa*, « maître
+      de la communauté [soufie] » par consensus de la tradition
+      sunnite classique, juriste du madhhab thawrī (puis chāfiʿite),
+      et auteur de lettres et courts traités qui devinrent le corpus
+      fondateur du soufisme sunnite « sobre » — mourut à Bagdad à
+      l'âge d'environ 80 ans. Son insistance sur le fait que la voie
+      mystique doit rester liée au Coran et à la Sunna, et sa nette
+      distinction d'avec les excès extatiques de son contemporain
+      al-Ḥallāj, en firent la figure canonique vers laquelle tout
+      maître soufi sunnite ultérieur fait remonter sa *silsila*.
+      al-Sulami, al-Qushayri, al-Ghazāli et Ibn Taymiyya s'en remettent
+      tous à lui comme à la référence. Il disait : « toutes les voies
+      sont fermées sauf pour celui qui marche dans les pas du
+      Messager ﷺ ».
+    canonical_hijri: {year: 298, precision: year}
+    canonical_gregorian: {date: 910-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-junayd-al-baghdadi, subject], [al-sirri-al-saqati, subject]]
+    tags: [sufi, sunni, baghdad, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Junayd_of_Baghdad"
+
+  - slug: death-of-al-sirri-al-saqati
+    category: scholar
+    title_en: Death of al-Sirri al-Saqaṭi
+    title_ar: وفاة السري السقطي
+    title_fr: Mort d'al-Sirri al-Saqaṭi
+    description_en: |
+      Abu al-Hasan al-Sirri ibn al-Mughallis al-Saqaṭi, maternal
+      uncle and master of al-Junayd al-Baghdadi, and the first
+      teacher in Baghdad to articulate "tawḥīd of the elite"
+      (*tawḥīd al-khaṣṣa*) within strict Sunni framework — died in
+      Baghdad at age about 98. The *Saqaṭi* nisba comes from his
+      profession as a seller of *saqaṭ* (small wares); he combined
+      manual labour with rigorous spiritual discipline, the model
+      that al-Junayd would inherit and refine. His sayings on
+      remembrance of God, brotherhood, and reliance preserved by
+      al-Sulami in *Ṭabaqāt al-Ṣūfiyya* remain canonical citations
+      in early Sufi adab literature. al-Junayd considered him the
+      foundation of his own path.
+    description_ar: |
+      توفي أبو الحسن السري بن المغلس السقطي — خال الجنيد البغدادي
+      وشيخه، وأول من نطق ببغداد بـ«توحيد الخاصة» في إطار التصوف السني
+      الصارم — ببغداد عن نحو ثمانٍ وتسعين سنة. ونسبته «السقطي» من
+      مهنته في بيع «السقط» (السلع الصغيرة)، فجمع بين الكسب الحلال
+      وتدريب النفس الصوفي، وهو النموذج الذي ورثه عنه الجنيد ونقحه.
+      ومحفوظات أقواله في الذكر والمحبة في الله والتوكل، التي رواها
+      السلمي في «طبقات الصوفية»، من المراجع الأصلية في أدب التصوف
+      السني الباكر. واعتبره الجنيد رحمه الله أصل طريقه ومصدره.
+    description_fr: |
+      Abu al-Ḥasan al-Sirri ibn al-Mughallis al-Saqaṭi, oncle maternel
+      et maître d'al-Junayd al-Baghdādi, et le premier enseignant à
+      Bagdad à articuler le « *tawḥīd* de l'élite » (*tawḥīd
+      al-khāṣṣa*) dans un cadre sunnite strict — mourut à Bagdad à
+      l'âge d'environ 98 ans. La *nisba* « al-Saqaṭi » provient de
+      sa profession de marchand de *saqaṭ* (petites marchandises); il
+      alliait travail manuel et discipline spirituelle rigoureuse, le
+      modèle dont al-Junayd hériterait et qu'il raffinerait. Ses
+      paroles sur le rappel de Dieu, la fraternité et la confiance
+      préservées par al-Sulami dans *Ṭabaqāt al-Ṣūfiyya* demeurent
+      des citations canoniques de la littérature *adab* soufie
+      ancienne. al-Junayd le considérait comme le fondement de sa
+      propre voie.
+    canonical_hijri: {year: 253, precision: year}
+    canonical_gregorian: {date: 867-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[al-sirri-al-saqati, subject]]
+    tags: [sufi, sunni, baghdad, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sari_al-Saqati"
+
+  # =========================================================================
+  # SCIENTISTS
+  # =========================================================================
+
+  - slug: death-of-al-battani
+    category: scientist
+    title_en: Death of al-Battani — astronomer of Raqqa
+    title_ar: وفاة البتاني — فلكي الرقة
+    title_fr: Mort d'al-Battani — astronome de Raqqa
+    description_en: |
+      Muhammad ibn Jabir al-Battani — known to medieval Latin Europe
+      as *Albategnius* and ranked by historians of astronomy as the
+      single most influential observational astronomer between
+      Ptolemy and Tycho Brahe — died in Qaṣr al-Jiṣṣ near Samarra
+      while returning from Baghdad to dispute taxes. His *Kitāb
+      al-Zīj al-Ṣābiʾ* corrected Ptolemy's tropical year length to
+      365 days 5 h 46 min 24 s (the modern value is 5 h 48 min 45 s),
+      determined the obliquity of the ecliptic to within minutes of
+      arc, and produced the most accurate ninth-century star catalogue.
+      Copernicus cited him by name twenty-three times in *De
+      Revolutionibus*. His sine and tangent tables superseded the
+      chord tables of antiquity and grounded all subsequent Islamic
+      and European trigonometry.
+    description_ar: |
+      توفي محمد بن جابر البتاني — المعروف عند أوروبا اللاتينية
+      الوسيطة بـ«ألبتغنيوس»، ويعدّه مؤرخو علم الفلك أعظم فلكي رصدي
+      بين بطليموس وتيخو براهي — في «قصر الجص» قرب سامراء وهو في
+      طريق عودته من بغداد. وكتابه «الزيج الصابئ» صحّح طول السنة
+      الاستوائية لبطليموس فجعلها ٣٦٥ يوماً و٥ ساعات و٤٦ دقيقة و٢٤
+      ثانية (والقيمة الحديثة ٥ ساعات و٤٨ دقيقة و٤٥ ثانية)، وضبط
+      ميل دائرة البروج بدقة دقائق قوسية، وأخرج أدق فهرس للنجوم في
+      القرن الثالث الهجري. وذكره كوبرنيكوس باسمه ثلاثاً وعشرين مرة
+      في «حركات الأجرام السماوية». وأبدلت جداول الجيب والظل عنده
+      جداول الأوتار اليونانية وأسست لكل علم المثلثات الإسلامي
+      والأوروبي بعدها.
+    description_fr: |
+      Muḥammad ibn Jābir al-Battāni — connu de l'Europe latine
+      médiévale sous le nom d'*Albategnius* et classé par les
+      historiens de l'astronomie comme le seul astronome observationnel
+      le plus influent entre Ptolémée et Tycho Brahe — mourut à
+      Qaṣr al-Jiṣṣ près de Samarra alors qu'il revenait de Bagdad
+      pour contester des impôts. Son *Kitāb al-Zīj al-Ṣābiʾ* corrigea
+      la durée de l'année tropique de Ptolémée à 365 j 5 h 46 min
+      24 s (la valeur moderne est 5 h 48 min 45 s), détermina
+      l'obliquité de l'écliptique à quelques minutes d'arc près, et
+      produisit le catalogue stellaire le plus précis du IXe siècle.
+      Copernic le cita nommément vingt-trois fois dans *De
+      Revolutionibus*. Ses tables de sinus et tangentes supplantèrent
+      les tables de cordes antiques et fondèrent toute la trigonométrie
+      islamique et européenne ultérieure.
+    canonical_hijri: {year: 317, precision: year}
+    canonical_gregorian: {date: 929-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: dhahabi_siyar
+    people: [[al-battani, subject]]
+    tags: [scientist, astronomy, raqqa, abbasid, trigonometry]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Battani"
+
+  - slug: death-of-ibn-yunus
+    category: scientist
+    title_en: Death of Ibn Yunus — Cairo astronomer
+    title_ar: وفاة ابن يونس — فلكي القاهرة
+    title_fr: Mort d'Ibn Yūnus — astronome du Caire
+    description_en: |
+      Abu al-Hasan ʿAli ibn Yunus al-Ṣadafi — head of the Fatimid
+      observatory at Cairo and author of *al-Zīj al-Ḥākimi al-Kabīr*,
+      the most accurate astronomical handbook of the medieval world
+      — died in Cairo at age about 60. His Zīj records over a
+      hundred personally observed planetary conjunctions, lunar
+      eclipses, and equinox passages, the longest continuous run of
+      pre-modern observational data; modern astronomers used his
+      lunar timings of the Cairo eclipses of 977 and 978 CE to
+      determine the secular acceleration of the Moon. He produced
+      the first complete tables for spherical astronomical problems
+      in trigonometric form, and his precise determination of the
+      qibla of Cairo and the prayer times informed all later Egyptian
+      timekeeping (*ʿilm al-mīqāt*).
+    description_ar: |
+      توفي أبو الحسن علي بن يونس الصدفي — رئيس المرصد الفاطمي بالقاهرة
+      ومصنف «الزيج الحاكمي الكبير»، أدق زيج فلكي في العصور الوسطى —
+      بالقاهرة عن نحو ستين سنة. سجل في زيجه أكثر من مئة رصد شخصي
+      للاقترانات الكوكبية والكسوفات القمرية والاعتدالات، وهو أطول
+      تتابع رصدي في تاريخ ما قبل الحديث؛ واستفاد فلكيو العصر الحديث
+      من أرصاده القمرية لكسوفي القاهرة سنتي ٩٧٧ و٩٧٨ ميلادي في تحديد
+      التسارع العلماني للقمر. وأخرج أول جداول كاملة لمسائل الفلك
+      الكروي في صورة مثلثاتية، وأصبح ضبطه لقبلة القاهرة وأوقات
+      الصلاة فيها أساس علم الميقات في مصر إلى الأبد.
+    description_fr: |
+      Abu al-Ḥasan ʿAli ibn Yūnus al-Ṣadafi — directeur de
+      l'observatoire fatimide du Caire et auteur d'*al-Zīj al-Ḥākimī
+      al-Kabīr*, le manuel astronomique le plus précis du monde
+      médiéval — mourut au Caire à l'âge d'environ 60 ans. Son *Zīj*
+      consigne plus d'une centaine de conjonctions planétaires,
+      d'éclipses lunaires et de passages d'équinoxes personnellement
+      observés, la plus longue série continue de données
+      observationnelles pré-modernes; les astronomes modernes
+      utilisèrent ses chronométrages lunaires des éclipses du Caire
+      de 977 et 978 EC pour déterminer l'accélération séculaire de
+      la Lune. Il produisit les premières tables complètes pour les
+      problèmes d'astronomie sphérique sous forme trigonométrique,
+      et sa détermination précise de la *qibla* du Caire et des
+      heures de prière informa tout le calcul du temps égyptien
+      ultérieur (*ʿilm al-mīqāt*).
+    canonical_hijri: {year: 399, month: 6, precision: month}
+    canonical_gregorian: {date: 1009-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: dhahabi_siyar
+    people: [[ibn-yunus, subject]]
+    tags: [scientist, astronomy, cairo, fatimid, miqat]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Yunus"
+
+  - slug: death-of-ibn-al-baytar
+    category: scientist
+    title_en: Death of Ibn al-Bayṭar — botanist of al-Andalus
+    title_ar: وفاة ابن البيطار — عشّاب الأندلس
+    title_fr: Mort d'Ibn al-Bayṭār — botaniste d'al-Andalus
+    description_en: |
+      Abu Muhammad ʿAbdallah ibn Aḥmad ibn al-Bayṭar al-Malaqi —
+      botanist, pharmacologist, and chief herbalist (*raʾīs al-
+      ʿashshābīn*) of the Ayyubid sultan al-Kāmil and his successor
+      al-Ṣāliḥ — died in Damascus at age about 51. His monumental
+      *al-Jāmiʿ li-Mufradat al-Adwiya wa-l-Aghdhiya* catalogues 1,400
+      simple drugs (plant, animal, mineral) cross-referenced from
+      direct observation and from 150 prior authorities; it remained
+      the standard pharmacopoeia of the Muslim and Christian
+      Mediterranean for four centuries. He travelled the entire arc
+      of the Mediterranean — from Malaga, his birthplace, through
+      North Africa, Anatolia, and the Levant — to verify each
+      species in situ. His work was the first to identify the
+      Mediterranean medicinal flora as a coherent system.
+    description_ar: |
+      توفي أبو محمد عبد الله بن أحمد ابن البيطار المالقي — عالم النبات
+      والصيدلة، ورئيس العشّابين للسلطان الأيوبي الكامل ثم خلفه الصالح
+      نجم الدين أيوب — بدمشق عن نحو إحدى وخمسين سنة. وكتابه الموسوعي
+      «الجامع لمفردات الأدوية والأغذية» سجلٌّ لـ١٤٠٠ مفردة دوائية
+      نباتية وحيوانية ومعدنية، حُصّلت من مشاهدته المباشرة ومن مئة
+      وخمسين مرجعاً سبقوه، وظل مرجع الصيدلة المعتمد في حوض المتوسط
+      الإسلامي والمسيحي أربعة قرون. سافر طول قوس البحر المتوسط — من
+      مالقة مسقط رأسه عبر شمال أفريقيا والأناضول والشام — للتثبت من
+      كل نوع نباتي في موضعه. وكتابه أول من رصد نباتات المتوسط الطبية
+      منظومةً متماسكة.
+    description_fr: |
+      Abu Muḥammad ʿAbdallāh ibn Aḥmad ibn al-Bayṭār al-Mālaqi —
+      botaniste, pharmacologue et herboriste en chef (*raʾīs al-
+      ʿashshābīn*) du sultan ayyoubide al-Kāmil et de son successeur
+      al-Ṣāliḥ — mourut à Damas à l'âge d'environ 51 ans. Son
+      monumental *al-Jāmiʿ li-Mufradāt al-Adwiya wa-l-Aghdhiya*
+      catalogue 1 400 substances médicinales simples (végétales,
+      animales, minérales) recoupées par observation directe et par
+      150 autorités antérieures; il demeura la pharmacopée standard
+      du monde méditerranéen musulman et chrétien pendant quatre
+      siècles. Il parcourut tout l'arc méditerranéen — de Malaga,
+      sa ville natale, à travers l'Afrique du Nord, l'Anatolie et le
+      Levant — pour vérifier chaque espèce *in situ*. Son ouvrage
+      fut le premier à identifier la flore médicinale méditerranéenne
+      comme un système cohérent.
+    canonical_hijri: {year: 646, precision: year}
+    canonical_gregorian: {date: 1248-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: ei2
+      - source_key: dhahabi_tarikh_islam
+    people: [[ibn-al-baytar, subject]]
+    tags: [scientist, botany, pharmacology, andalus, damascus, ayyubid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Baitar"
+
+  # =========================================================================
+  # MAJOR HISTORIANS
+  # =========================================================================
+
+  - slug: death-of-ibn-asakir
+    category: scholar
+    title_en: Death of Ibn ʿAsakir — historian of Damascus
+    title_ar: وفاة ابن عساكر — مؤرخ دمشق
+    title_fr: Mort d'Ibn ʿAsākir — historien de Damas
+    description_en: |
+      Abu al-Qasim ʿAli ibn al-Hasan ibn ʿAsakir al-Dimashqi —
+      foremost muḥaddith of Damascus in his generation, head of the
+      Dār al-Ḥadīth al-Nūriyya founded for him by Sultan Nūr al-Dīn
+      Zankī, and author of the eighty-volume *Tarīkh Madīnat
+      Dimashq* — died in Damascus at age about 71. *Tarīkh Madīnat
+      Dimashq* is a city-as-isnad encyclopedia: it gathers, with
+      full chains of transmission, every Companion, tabiʿi, scholar,
+      ruler, traveller, or notable who set foot in Damascus from the
+      conquest onward, totalling more than ten thousand biographical
+      entries. The work is irreplaceable for early Islamic history
+      of Greater Syria and is one of the principal sources for
+      al-Dhahabi, Ibn Kathir, and Ibn Ḥajar.
+    description_ar: |
+      توفي أبو القاسم علي بن الحسن ابن عساكر الدمشقي — كبير محدثي
+      دمشق في عصره، شيخ دار الحديث النورية التي أنشأها له السلطان
+      نور الدين زنكي، ومصنف «تاريخ مدينة دمشق» في ثمانين مجلداً —
+      بدمشق عن نحو إحدى وسبعين سنة. و«تاريخ مدينة دمشق» موسوعة
+      المدينة بإسناد: يجمع بأسانيده الكاملة كل صحابي وتابعي وعالم
+      وأمير ورحّالة ومشتهر دخل دمشق منذ الفتح فما بعد، ويبلغ عدد
+      تراجمه أزيد من عشرة آلاف. والكتاب لا غنى عنه في تاريخ بلاد
+      الشام الإسلامي الباكر، وهو من أصول مادة الذهبي وابن كثير وابن
+      حجر العسقلاني.
+    description_fr: |
+      Abu al-Qāsim ʿAli ibn al-Ḥasan ibn ʿAsākir al-Dimashqi — le
+      plus grand muḥaddith de Damas de sa génération, directeur de
+      la *Dār al-Ḥadīth al-Nūriyya* fondée pour lui par le sultan
+      Nūr al-Dīn Zanki, et auteur du *Tārīkh Madīnat Dimashq* en
+      quatre-vingts volumes — mourut à Damas à l'âge d'environ
+      71 ans. Le *Tārīkh Madīnat Dimashq* est une encyclopédie de
+      la cité-comme-*isnād* : elle rassemble, avec chaînes de
+      transmission complètes, tout Compagnon, tabiʿi, savant,
+      souverain, voyageur ou notable qui foula le sol de Damas
+      depuis la conquête, totalisant plus de dix mille notices
+      biographiques. L'ouvrage est irremplaçable pour l'histoire
+      islamique ancienne du Bilād al-Shām et l'une des sources
+      principales d'al-Dhahabi, Ibn Kathīr et Ibn Ḥajar.
+    canonical_hijri: {year: 571, month: 11, precision: month}
+    canonical_gregorian: {date: 1176-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-asakir, subject], [nur-al-din-zanki, subject]]
+    tags: [hadith, history, damascus, zangid, tarikh-dimashq]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Asakir"
+
+  - slug: death-of-ibn-al-athir
+    category: scholar
+    title_en: Death of Ibn al-Athir — author of al-Kāmil fi al-Tārīkh
+    title_ar: وفاة ابن الأثير — صاحب «الكامل في التاريخ»
+    title_fr: Mort d'Ibn al-Athīr — auteur d'al-Kāmil fī al-Tārīkh
+    description_en: |
+      ʿIzz al-Din Abu al-Hasan ʿAli ibn Muhammad ibn al-Athir
+      al-Jazari — the senior of three brothers each renowned in
+      separate disciplines (his brother Majd al-Dīn in hadith, his
+      brother Ḍiyāʾ al-Dīn in Arabic literary theory) — died in
+      Mosul at age about 75. His *al-Kāmil fī al-Tārīkh* (the
+      "Complete History") is the most-consulted single annalistic
+      world history of medieval Islam: the principal narrative source
+      for the Crusades from the Muslim side, the first eyewitness
+      record of the Mongol invasion he watched unfold from Mosul,
+      and a refined continuation of al-Ṭabari's earlier work. His
+      *Usd al-Ghāba fi Maʿrifat al-Ṣaḥāba* — a 7,500-entry biographical
+      dictionary of the Companions — remains a standard reference.
+      His *al-Lubāb* condenses al-Samʿānī's *al-Ansāb* on tribal and
+      geographical *nisbas*.
+    description_ar: |
+      توفي عز الدين أبو الحسن علي بن محمد ابن الأثير الجزري — كبير
+      الإخوة الثلاثة كل في فن: أخوه مجد الدين في الحديث وأخوه ضياء
+      الدين في البلاغة العربية — بالموصل عن نحو خمس وسبعين سنة.
+      كتابه «الكامل في التاريخ» أوسع كتب التاريخ السنوية في الإسلام
+      مرجعاً: المصدر الأول للحروب الصليبية من الجانب الإسلامي، وأول
+      شهادة من شاهد عيان للغزو المغولي الذي رآه ابن الأثير من الموصل،
+      وذيل منقّح لتاريخ الطبري. وكتابه «أسد الغابة في معرفة الصحابة»
+      موسوعة في تراجم الصحابة تبلغ سبعة آلاف وخمس مئة ترجمة، ولا يزال
+      مرجعاً معتمداً. واختصر في «اللباب» كتاب «الأنساب» للسمعاني في
+      الأنساب القبلية والجغرافية.
+    description_fr: |
+      ʿIzz al-Dīn Abu al-Ḥasan ʿAli ibn Muḥammad ibn al-Athīr
+      al-Jazari — l'aîné de trois frères chacun renommé dans une
+      discipline distincte (son frère Majd al-Dīn en hadith, son
+      frère Ḍiyāʾ al-Dīn en théorie littéraire arabe) — mourut à
+      Mossoul à l'âge d'environ 75 ans. Son *al-Kāmil fī al-Tārīkh*
+      (« l'Histoire complète ») est la chronique annalistique la
+      plus consultée de l'islam médiéval : la source narrative
+      principale des croisades du côté musulman, le premier
+      témoignage oculaire de l'invasion mongole qu'il vit se dérouler
+      depuis Mossoul, et une continuation raffinée de l'œuvre antérieure
+      d'al-Ṭabari. Son *Usd al-Ghāba fī Maʿrifat al-Ṣaḥāba* — un
+      dictionnaire biographique de 7 500 entrées sur les Compagnons
+      — reste une référence standard. Son *al-Lubāb* condense
+      *al-Ansāb* d'al-Samʿānī sur les *nisbas* tribales et
+      géographiques.
+    canonical_hijri: {year: 630, month: 9, precision: month}
+    canonical_gregorian: {date: 1233-06-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    people: [[ibn-al-athir-historian, subject]]
+    tags: [history, mosul, crusades, mongols, biography]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ali_ibn_al-Athir"

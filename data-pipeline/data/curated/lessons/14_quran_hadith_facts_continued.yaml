@@ -1,0 +1,1321 @@
+# Continuation of foundational Qur'an and hadith facts — scholarly explanations
+# of key Islamic doctrines, practices, and spiritual virtues.
+
+lessons:
+  - slug: quran-fact-why-five-prayers
+    category: quran_hadith_fact
+    title_en: Why Five Daily Prayers? — The Night Journey and the Command
+    title_ar: لماذا الصلوات الخمس؟ - الإسراء والمعراج والأمر الإلهي
+    title_fr: Pourquoi cinq prières quotidiennes ? — Le Voyage nocturne et le commandement
+    description_en: |
+      The obligation of five daily prayers is one of the most fundamental
+      pillars of Islam. While the Qur'an commands believers to establish prayer
+      in multiple verses, the specific number of five was established during the
+      Night Journey (Isrāʾ and Miʿrāj). According to the authentic hadith in
+      Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim, the Prophet Muhammad ﷺ was taken up
+      through the heavens where he met the previous prophets and ultimately stood
+      before Allāh. Initially, fifty prayers were commanded. On his descent, he
+      met Mūsā who advised him that fifty was too many for his followers. The
+      Prophet ﷺ went back and forth between Allāh and Mūsā until it was reduced
+      to five, with Allāh promising that the reward of five would equal fifty.
+      Ibn Kathīr in al-Bidāya wa-l-Nihāya details this narrative and emphasizes
+      that the five prayers serve as a purification for the believer, a direct
+      connection to the Creator, and a means of forgiveness for sins committed
+      between them. The scholarly consensus (ijmāʿ) holds that whoever denies the
+      obligation of the five prayers has left the fold of Islam, while neglecting
+      them without valid excuse is a major sin.
+    description_ar: |
+      فرضُ الصلوات الخمس من أركان الإسلام الأُسَسِيَّة. وإن كان القرآنُ يأمر
+      المؤمنين بإقامة الصلاة في مواضعَ متعددة، فإنَّ تعيين العدد بخمسٍ تمَّ
+      ليلة الإسراء والمعراج. وفي الحديث الصحيح الوارد في صحيحي البخاري ومسلم،
+      أُسْرِيَ بالنبي ﷺ في السماوات حتى وقف بين يدي الله، ففُرِضَت عليه خمسون
+      صلاة. وعند نزوله لقي موسى عليه السلام فنصحه بأن خمسين كثيرةٌ على أمته،
+      فرجع النبي ﷺ مرارًا حتى خُفِّفت إلى خمسٍ مع الإبقاء على أجر الخمسين.
+      ويُفصِّل ابنُ كثيرٍ في «البدایة والنهایة» هذه الروايةَ، مُؤكِّدًا أن
+      الصلوات الخَّمس طهارةٌ للمؤمن وصلةٌ مباشرةٌ بالخالق وكفَّارةٌ لما بينهن
+      من الذنوب. وأجمعَ أهلُ العلم على أن مَن جحَد فرضَ الخمس خرج من الإسلام،
+      وأن تَركَها بلا عذرٍ من الكبائر.
+    description_fr: |
+      L'obligation des cinq prières quotidiennes est l'un des piliers les plus
+      fondamentaux de l'Islam. Si le Coran commande aux croyants d'accomplir la
+      prière en de multiples passages, le nombre de cinq fut fixé durant le
+      Voyage nocturne (Isrāʾ et Miʿrāj). Selon le hadith authentique rapporté
+      dans les Ṣaḥīḥ d'al-Bukhārī et de Muslim, le Prophète Muhammad ﷺ fut élevé
+      à travers les cieux où il rencontra les prophètes précédents et se tint
+      finalement devant Allāh. Cinquante prières furent d'abord prescrites. Lors
+      de sa descente, il rencontra Mūsā qui lui conseilla que cinquante était
+      trop nombreux pour sa communauté. Le Prophète Muhammad ﷺ fit des allers et
+      retours entre Allāh et Mūsā jusqu'à ce que le nombre soit réduit à cinq,
+      Allāh promettant que la récompense de cinq égalerait celle de cinquante.
+      Ibn Kathīr, dans al-Bidāya wa-l-Nihāya, détaille ce récit et souligne que
+      les cinq prières constituent une purification pour le croyant, un lien
+      direct avec le Créateur, et un moyen d'effacement des péchés commis entre
+      elles. Le consensus savant établit que quiconque nie l'obligation des cinq
+      prières sort de l'Islam, tandis que leur abandon sans excuse valable
+      constitue un péché majeur.
+    reference: Ṣaḥīḥ al-Bukhārī 3207, Ṣaḥīḥ Muslim 263; Ibn Kathīr, al-Bidāya wa-l-Nihāya
+    source_notes: |
+      Bukhārī (3207) and Muslim (263) narrate the Miʿrāj prescription; Ibn Kathīr (al-Bidāya) emphasizes that the five prayers are purification, connection, and expiation, and that denial of their obligation places one outside Islam.
+    source_notes_fr: |
+      Bukhārī (3207) et Muslim (263) rapportent la prescription du Miʿrāj ; Ibn Kathīr (al-Bidāya) souligne que les cinq prières sont purification, lien et expiation, et que nier leur obligation place hors de l'islam.
+    source_notes_ar: |
+      يُروي البخاري (٣٢٠٧) ومسلم (٢٦٣) فرضَ المعراج؛ ويُؤكِّدُ ابنُ كثيرٌ (البداية) أنَّ الصلواتِ الخمسَ طهارةٌ وصلةٌ وكفارةٌ، وأنَّ جَحْدَ فرضِها يُخْرِجُ صاحبَه من الإسلام.
+    display_day_of_year: 269
+    hadith_refs: "Bukhari 3207, Muslim 263"
+    source_url: https://sunnah.com/bukhari:3207
+
+  - slug: quran-fact-ruku-sujud-wisdom
+    category: quran_hadith_fact
+    title_en: The Wisdom of Rukūʿ and Sujūd — Bowing and Prostrating Before Allāh
+    title_ar: حكمة الركوع والسجود - الخضوع بين يدي الله
+    title_fr: La sagesse du rukūʿ et du sujūd — S'incliner et se prosterner devant Allāh
+    description_en: |
+      The physical postures of Islamic prayer are not mere ritual movements but
+      carry profound spiritual and psychological wisdom. Rukūʿ (bowing) symbolizes
+      humility and submission, while sujūd (prostration) represents the ultimate
+      act of surrendering one's highest faculty — the intellect — to the Creator.
+      In Ṣaḥīḥ Muslim and Ṣaḥīḥ al-Bukhārī, the Prophet Muhammad ﷺ is reported to
+      have said that the closest a servant is to his Lord is during prostration,
+      and one should therefore increase supplications in that state. Ibn
+      al-Qayyim in Zād al-Maʿād explains that these postures train the believer
+      in physical and spiritual humility, countering the arrogance that Iblīs
+      instills in human nature. The alternation between standing, bowing, and
+      prostrating mirrors the rhythm of life itself — rising in dignity, bowing
+      in humility, and falling in submission. Modern studies have noted the
+      physical benefits of these movements, but their primary purpose remains
+      spiritual : to remind the believer of their place before the Majesty of
+      Allāh and to cultivate a state of constant awareness (murāqaba) throughout
+      daily life.
+    description_ar: |
+      إن هيئاتِ الصلاة الجسدية ليست حركاتٍ طقسية فارغة، بل تحملُ حكمةً روحيةً
+      ونفسيةً عميقة. والركوعُ رمزُ التواضع والخضوع، والسجودُ تمثيلٌ أعظم
+      لاستسلامِ أرفعِ قوةٍ في الإنسان - وهي عقلُه - لخالقِه. وفي صحيحي مسلم
+      والبخاري، يُخبَر أن النبي ﷺ قال: «أقربُ ما يكون العبدُ من ربِّه وهو
+      ساجدٌ، فأكثروا الدعاءَ». ويشرحُ ابنُ القيم في «زاد المعاد» أن هذه
+      الهيئاتِ تُدَرِّبُ المؤمنَ على التواضعِ الجسدي والروحي، مُقاوِمَةً
+      للكبرياء الذي يغرسُه إبليسُ في طبيعةِ الإنسان. وتعاقبُ الوقوف والركوع
+      والسجود يُجسِّدُ إيقاعَ الحياة ذاتَه: الارتفاعُ بالكرامة، والانحناءُ
+      بالتواضع، والسقوطُ بالاستسلام. قد لاحظتْ دراساتٌ حديثةٌ الفوائدَ الجسديةَ
+      لهذه الحركات، لكن غايتَها الأصليةَ باقيةٌ روحيةً: تذكيرُ المؤمنِ بمكانِه
+      بين يدي جلال الله، وتربيةُ حالٍ من المراقبةِ الدائمة.
+    description_fr: |
+      Les postures physiques de la prière islamique ne sont pas de simples
+      mouvements rituels : elles portent une sagesse spirituelle et psychologique
+      profonde. Le rukūʿ (inclinaison) symbolise l'humilité et la soumission,
+      tandis que le sujūd (prosternation) représente l'acte ultime d'abandon de
+      la faculté la plus élevée de l'homme — l'intellect — au Créateur. Dans les
+      Ṣaḥīḥ de Muslim et d'al-Bukhārī, on rapporte que le Prophète Muhammad ﷺ a
+      dit que le serviteur est le plus proche de son Seigneur lorsqu'il est en
+      prosternation, et qu'il faut donc multiplier les supplications dans cet
+      état. Ibn al-Qayyim, dans Zād al-Maʿād, explique que ces postures entraînent
+      le croyant à l'humilité physique et spirituelle, contrant l'arrogance
+      qu'Iblīs insuffle dans la nature humaine. L'alternance entre la station
+      debout, l'inclinaison et la prosternation reflète le rythme même de la vie
+      : s'élever dans la dignité, s'incliner dans l'humilité, et se prosterner
+      dans la soumission. Des études modernes ont souligné les bienfaits physiques
+      de ces mouvements, mais leur but premier reste spirituel : rappeler au
+      croyant sa place devant la Majesté d'Allāh et cultiver un état de conscience
+      constante tout au long de la vie quotidienne.
+    reference: Ṣaḥīḥ Muslim 541, Ṣaḥīḥ al-Bukhārī 433; Ibn al-Qayyim, Zād al-Maʿād
+    source_notes: |
+      Muslim (541) and Bukhārī (433) report the Prophet's ﷺ teaching on proximity in sujūd; Ibn al-Qayyim (Zād al-Maʿād) explains that these postures train the believer in humility and counter the arrogance Iblīs instills.
+    source_notes_fr: |
+      Muslim (541) et Bukhārī (433) rapportent l'enseignement du Prophète ﷺ sur la proximité dans le sujūd ; Ibn al-Qayyim (Zād al-Maʿād) explique que ces postures entraînent le croyant à l'humilité et contrarient l'arrogance qu'Iblīs insuffle.
+    source_notes_ar: |
+      يُخبِرُ مسلم (٥٤١) والبخاري (٤٣٣) عن تعليمِ النبيِّ ﷺ في الدنوِّ عند السجود؛ ويُفسِّرُ ابنُ القيم (زاد المعاد) أنَّ هذه الهيئاتِ تُدَرِّبُ المؤمنَ على التواضعِ وتُقاوِمُ الكبرياءَ الذي يُغرسُه إبليس.
+    display_day_of_year: 270
+    hadith_refs: "Muslim 541, Bukhari 433"
+    source_url: https://sunnah.com/muslim:541
+
+  - slug: quran-fact-why-hijab
+    category: quran_hadith_fact
+    title_en: What Does the Qur'an Say About Ḥijāb ?
+    title_ar: ماذا يقول القرآن عن الحجاب؟
+    title_fr: Que dit le Coran sur le ḥijāb ?
+    description_en: |
+      The Islamic command for modest dress is rooted in clear Qur'anic
+      injunctions and prophetic practice. Sūrat al-Nūr commands believing women
+      to draw their outer garments over their bodies, while Sūrat al-Aḥzāb
+      instructs the Prophet Muhammad ﷺ to tell his wives, daughters, and the
+      believing women to bring down over themselves their outer garments so they
+      may be recognized and not harassed. These verses were revealed in specific
+      historical contexts — amidst the social conditions of Medina — to establish
+      a divine standard of dignity and protection. Ibn Kathīr in his Tafsīr
+      explains that these commands are not merely cultural adaptations but
+      universal principles of Islamic ethics. The hadith in Ṣaḥīḥ al-Bukhārī and
+      Ṣaḥīḥ Muslim further elaborates on the conditions of proper covering.
+      Classical scholars agree that the ḥijāb encompasses modesty of conduct,
+      gaze, and dress. It represents a believer's commitment to prioritizing
+      divine pleasure over social conformity, serving as both a shield and a
+      statement of identity in any era.
+    description_ar: |
+      أمرُ الحجابِ الإسلامي مُرسَّخٌ في نصوصٍ قرآنيةٍ واضحةٍ وفي السُّنة
+      النبوية. فسورةُ النورِ تأمرُ المؤمناتِ بإضطمارِ جلبابِهنَّ على
+      أجسادِهنَّ، وسورةُ الأحزابِ تأمرُ النبيَّ ﷺ أن يقولَ لأزواجِه وبناتِه
+      وللمؤمناتِ: «يُدنينَ عليهنَّ من جلابيبهنَّ»؛ لكي يُعرَفنَ فلا يُؤذَينَ.
+      ونزلتْ هذه الآياتُ في سياقاتٍ تاريخيةٍ محددةٍ - في ظروفِ المدينة
+      الاجتماعية - لتأسيسِ معيارٍ إلهيٍّ للكرامة والحماية. ويفسِّرُ ابنُ
+      كثيرٍ في تفسيرِه أن هذه الأوامرَ ليست تكييفاتٍ ثقافيةً، بل هي مبادئُ
+      أخلاقيةٌ إسلاميةٌ عامة. ويُفصِّل حديثُ البخاري ومسلم شروطَ السترِ
+      الشرعي. وأجمعَ العلماءُ على أن الحجابَ يشملُ حياءَ السلوك والبصر واللباس.
+      وهو التزامُ المؤمنةِ بتقديمِ رضا الله على الانقياد الاجتماعي، درعٌ
+      وإعلانُ هويةٍ في كلِّ زمان.
+    description_fr: |
+      Le commandement islamique de la pudeur vestimentaire est ancré dans des
+      injonctions coraniques claires et dans la pratique prophétique. La sourate
+      al-Nūr commande aux croyantes de rabattre sur elles leurs voiles, tandis
+      que la sourate al-Aḥzāb instruit le Prophète Muhammad ﷺ de dire à ses
+      épouses, ses filles et aux croyantes d'abaisser sur elles leurs manteaux
+      afin qu'elles soient reconnues et non importunées. Ces versets furent
+      révélés dans des contextes historiques précis — au sein des conditions
+      sociales de Médine — pour établir une norme divine de dignité et de
+      protection. Ibn Kathīr, dans son Tafsīr, explique que ces commandements ne
+      sont pas de simples adaptations culturelles mais des principes universels
+      de l'éthique islamique. Les hadiths des Ṣaḥīḥ d'al-Bukhārī et de Muslim
+      précisent les conditions du couvrement légitime. Les savants classiques
+      s'accordent pour dire que le ḥijāb englobe la pudeur de conduite, du regard
+      et de l'habillement. Il représente l'engagement du croyant à privilégier le
+      plaisir divin à la conformité sociale, servant à la fois de bouclier et
+      d'affirmation identitaire en toute époque.
+    reference: Qur'an (al-Nūr 24:31, al-Aḥzāb 33:59); Ṣaḥīḥ al-Bukhārī 4481, Ṣaḥīḥ Muslim 2126; Ibn Kathīr, Tafsīr
+    source_notes: |
+      Qur'an 24:31 and 33:59 establish the command; Bukhārī (4481) and Muslim (2126) detail its conditions. Ibn Kathīr treats it as a universal ethical principle of dignity, not mere cultural adaptation.
+    source_notes_fr: |
+      Le Coran 24:31 et 33:59 établissent le commandement ; Bukhārī (4481) et Muslim (2126) détaillent ses conditions. Ibn Kathīr le traite comme un principe éthique universel de dignité, non comme une simple adaptation culturelle.
+    source_notes_ar: |
+      تُؤسِّسُ آياتُ القرآن (٢٤:٣١ و٣٣:٥٩) الأمرَ؛ ويُفصِّلُ البخاري (٤٤٨١) ومسلم (٢١٢٦) شروطَه. ويَعْتَبِرُ ابنُ كثيرٍ الحجابَ مبدأً أخلاقيًّا كونيًّا للكرامةِ لا تكييفًا ثقافيًّا مجردًا.
+    display_day_of_year: 271
+    quran_refs: "al-Nūr 24:31, al-Aḥzāb 33:59"
+    hadith_refs: "Bukhari 4481, Muslim 2126"
+    source_url: https://quran.com/24/31
+
+  - slug: quran-fact-marriage-in-islam
+    category: quran_hadith_fact
+    title_en: Marriage in Islam — The Qur'anic Vision of Spousal Relations
+    title_ar: الزواج في الإسلام - الرؤية القرآنية للعلاقة الزوجية
+    title_fr: Le mariage en Islam — La vision coranique des relations conjugales
+    description_en: |
+      The Qur'an presents marriage not merely as a social contract but as a
+      sacred covenant founded on mercy and tranquility. Sūrat al-Rūm states that
+      among His signs is that He created spouses from yourselves that you may
+      find tranquility in them, and He placed between you affection and mercy.
+      This verse elevates marriage beyond utility to a spiritual institution.
+      Sūrat al-Nisāʾ reminds believers of their shared origin and warns against
+      violating womb relationships, while Sūrat al-Baqarah describes spouses as
+      garments for one another — indicating protection, intimacy, and concealment
+      of faults. Ibn Kathīr explains that the garment metaphor signifies the
+      closest of relationships. The hadith in Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim
+      emphasize that marriage completes half of one's religion. Classical
+      scholars note that the Qur'an addresses both men and women regarding
+      marital rights and responsibilities, establishing a balance that pre-modern
+      civilizations lacked. In contemporary discourse, returning to these Qur'anic
+      foundations offers a remedy against both patriarchal distortions and radical
+      individualism.
+    description_ar: |
+      يقدِّمُ القرآنُ الزواجَ ليس عقدًا اجتماعيًّا فحسب، بل ميثاقًا مقدَّسًا
+      مؤسَّسًا على المودة والسكينة. فسورةُ الرومِ تُخبِرُ أن من آياتِه أن خلق
+      لكم من أنفسكم أزواجًا لتسكنوا إليها، وجعل بينكم مودةً ورحمة. وتُرتقي هذه
+      الآية بالزواجِ من الاستغلالية إلى مؤسسةٍ روحية. وسورةُ النساءِ تذكِّرُ
+      المؤمنين بأصلهم المشترك وتُحذِّرُ من هضم حقوق الأرحام، وسورةُ البقرةِ
+      تصفُ الأزواجَ بأنهم لباسٌ لبعض - في دلالةِ الحماية والأنس وستر العيوب.
+      ويفسِّرُ ابنُ كثيرٍ أن تشبيهَ اللباس يعني أقربَ العلاقات. ويُؤكِّدُ
+      حديثُ البخاري ومسلم أن الزواجَ يُكمِّلُ نصفَ الدين. ويلاحظُ العلماءُ أن
+      القرآنَ يخاطبُ الرجالَ والنساءَ في الحقوق والواجبات الزوجية، مُؤسِّسًا
+      توازنًا ناقصتْه حضاراتٌ ما قبل الحداثة. وفي الخطاب المعاصر، يُوفِّر العودةُ
+      إلى هذه الأسس القرآنية علاجًا للتحريفات الأبوية والفردانية المتطرفة على
+      السواء.
+    description_fr: |
+      Le Coran présente le mariage non pas comme un simple contrat social, mais
+      comme un pacte sacré fondé sur la miséricorde et la tranquillité. La
+      sourate al-Rūm déclare que parmi Ses signes, Il a créé pour vous des épouses
+      d'entre vous afin que vous trouviez en elles la tranquillité, et Il a mis
+      entre vous de l'affection et de la miséricorde. Ce verset élève le mariage
+      au-delà de l'utilité pour en faire une institution spirituelle. La sourate
+      al-Nisāʾ rappelle aux croyants leur origine commune et met en garde contre
+      la violation des liens du sang, tandis que la sourate al-Baqara décrit les
+      époux comme des vêtements les uns pour les autres — indiquant protection,
+      intimité et dissimulation des défauts. Ibn Kathīr explique que la métaphore
+      du vêtement signifie la relation la plus proche. Les hadiths des Ṣaḥīḥ
+      d'al-Bukhārī et de Muslim soulignent que le mariage achève la moitié de la
+      religion. Les savants classiques notent que le Coran s'adresse aux hommes
+      comme aux femmes concernant les droits et responsabilités conjugaux,
+      établissant un équilibre que les civilisations prémodernes n'avaient pas.
+      Dans le discours contemporain, le retour à ces fondements coraniques offre
+      un remède tant aux distorsions patriarcales qu'à l'individualisme radical.
+    reference: Qur'an (al-Rūm 30:21, al-Nisāʾ 4:1, al-Baqarah 2:187); Ṣaḥīḥ al-Bukhārī 4903, Ṣaḥīḥ Muslim 1468; Ibn Kathīr, Tafsīr
+    source_notes: |
+      Qur'an 30:21 and 2:187 present marriage as a sacred covenant; Bukhārī (4903) and Muslim (1468) record its completion of half the religion, and Ibn Kathīr notes the Qur'anic balance of rights absent in pre-modern civilizations.
+    source_notes_fr: |
+      Le Coran 30:21 et 2:187 présentent le mariage comme un pacte sacré ; Bukhārī (4903) et Muslim (1468) consignent qu'il achève la moitié de la religion, et Ibn Kathīr note l'équilibre des droits coranique absent des civilisations prémodernes.
+    source_notes_ar: |
+      يُقدِّمُ القرآن (٣٠:٢١ و٢:١٨٧) الزواجَ ميثاقًا مقدَّسًا؛ ويُسَجِّلُ البخاري (٤٩٠٣) ومسلم (١٤٦٨) أنَّه يُكمِّلُ نصفَ الدين، ويلاحظُ ابنُ كثيرٌ التوازنَ القرآنيَّ للحقوقِ الناقصَ في حضاراتِ ما قبل الحداثة.
+    display_day_of_year: 272
+    quran_refs: "al-Rūm 30:21, al-Nisāʾ 4:1, al-Baqarah 2:187"
+    hadith_refs: "Bukhari 4903, Muslim 1468"
+    source_url: https://quran.com/30/21
+
+  - slug: quran-fact-orphans-and-justice
+    category: quran_hadith_fact
+    title_en: The Rights of Orphans — A Repeated Command in the Qur'an
+    title_ar: حقوق اليتامى - أمر متكرر في القرآن
+    title_fr: Les droits des orphelins — Un commandement répété dans le Coran
+    description_en: |
+      The Qur'an's concern for orphans is unparalleled in ancient literature,
+      mentioning them in over two dozen verses. Sūrat al-Baqarah asks whether
+      believers should treat orphans with goodness, answering that it is best.
+      Sūrat al-Nisāʾ warns against consuming their property unlawfully, while
+      verse ten threatens a blazing fire for those who devour orphan wealth.
+      Sūrat al-Ḍuḥā commands not to oppress the orphan. These repeated commands
+      reflect the vulnerability of orphans in pre-Islamic Arabian society and the
+      transformative ethical shift Islam introduced. Ibn Kathīr notes that the
+      protection of orphan wealth was among the first social reforms the Prophet
+      Muhammad ﷺ implemented in Medina. The hadith in Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ
+      Muslim emphasize that caring for an orphan brings the believer close to the
+      Prophet ﷺ in Paradise. Classical scholars established detailed laws for
+      orphan guardianship, ensuring their property is preserved and invested until
+      maturity. For modern Muslims, these texts serve as a critique of systems
+      that fail to protect vulnerable children.
+    description_ar: |
+      اهتمامُ القرآنِ باليتامى لا نظيرَ له في الأدب القديم؛ إذ يذكرُهم في
+      أكثرَ من عشرين موضعًا. وسورةُ البقرةِ تسألُ: ﴿وَيَسْأَلُونَكَ عَنِ
+      الْيَتَامَىٰ قُلْ إِصْلَاحٌ لَّهُمْ خَيْرٌ﴾، وتُجيبُ أن الإصلاحَ لهم
+      خيرٌ. وسورةُ النساءِ تُحذِّرُ من أكل أموالهم بغير حق، والآيةُ العاشرةُ
+      تتوعَّدُ النارَ المُوقَدةَ لآكلي مال اليتيم. وسورةُ الضحى تأمرُ: ﴿فَأَمَّا
+      الْيَتِيمَ فَلَا تَقْهَرْ﴾. وتعكسُ هذه الأوامرُ المتكررةُ ضعفَ اليتيم في
+      مجتمع الجاهلية والتحولَ الأخلاقيَّ الذي أحدثَه الإسلام. ويشيرُ ابنُ كثيرٍ
+      إلى أن حمايةَ مال اليتيم كانت من أوائل الإصلاحات الاجتماعية التي نفَّذها
+      النبي ﷺ في المدينة. ويُؤكِّدُ حديثُ البخاري ومسلم أن مُراعاةَ اليتيم
+      تُقرِّبُ المؤمنَ من النبي ﷺ في الجنة. ووضعَ الفقهاءُ قواعدَ تفصيليةً
+      للولاية على اليتيم، تضمنُ حفظَ مالِه وتنميتَه إلى حين بلوغه. ويُشكِّلُ
+      هذا النصُّ للمسلمين المعاصرين نقدًا للأنظمةِ التي تفشلُ في حماية الأطفال
+      الضعفاء.
+    description_fr: |
+      Le souci du Coran pour les orphelins est sans équivalent dans la
+      littérature ancienne : il les mentionne dans plus de vingt passages. La
+      sourate al-Baqara demande si les croyants doivent bien traiter les
+      orphelins, répondant que c'est le mieux. La sourate al-Nisāʾ met en garde
+      contre la consommation illicite de leurs biens, tandis que le dixième
+      verset menace du feu ardent ceux qui dévorent la richesse des orphelins.
+      La sourate al-Ḍuḥā commande de ne pas opprimer l'orphelin. Ces
+      commandements répétés reflètent la vulnérabilité des orphelins dans la
+      société préislamique d'Arabie et le changement éthique transformateur
+      qu'a introduit l'Islam. Ibn Kathīr note que la protection du patrimoine
+      des orphelins fut parmi les premières réformes sociales que le Prophète
+      Muhammad ﷺ mit en œuvre à Médine. Les hadiths des Ṣaḥīḥ d'al-Bukhārī et de
+      Muslim soulignent que prendre soin d'un orphelin rapproche le croyant du
+      Prophète Muhammad ﷺ au Paradis. Les savants classiques établirent des lois
+      détaillées pour la tutelle des orphelins, garantissant que leur patrimoine
+      soit préservé et fructifié jusqu'à leur majorité. Pour les musulmans
+      modernes, ces textes constituent une critique des systèmes qui échouent à
+      protéger les enfants vulnérables.
+    reference: Qur'an (al-Baqarah 2:220, al-Nisāʾ 4:2, al-Nisāʾ 4:10, al-Ḍuḥā 93:9); Ṣaḥīḥ al-Bukhārī 4898, Ṣaḥīḥ Muslim 2983
+    source_notes: |
+      Qur'an 2:220 and 4:10 repeatedly command justice for orphans; Bukhārī (4898) and Muslim (2983) promise Paradise for caregivers, and Ibn Kathīr notes that orphan protection was among the first Medinan reforms.
+    source_notes_fr: |
+      Le Coran 2:220 et 4:10 commandent à plusieurs reprises la justice envers les orphelins ; Bukhārī (4898) et Muslim (2983) promettent le Paradis aux personnes qui en prennent soin, et Ibn Kathīr note que la protection des orphelins fut parmi les premières réformes médinoises.
+    source_notes_ar: |
+      يأمرُ القرآن (٢:٢٢٠ و٤:١٠) مرارًا بالعدالةِ لليتامى؛ ويُبشِّرُ البخاري (٤٨٩٨) ومسلم (٢٩٨٣) مُراعي اليتيمِ بالجنة، ويشيرُ ابنُ كثيرٌ إلى أنَّ حمايةَ اليتيمِ كانت من أوائلِ الإصلاحاتِ المدنية.
+    display_day_of_year: 273
+    quran_refs: "al-Baqarah 2:220, al-Nisāʾ 4:2, al-Nisāʾ 4:10, al-Ḍuḥā 93:9"
+    hadith_refs: "Bukhari 4898, Muslim 2983"
+    source_url: https://quran.com/2/220
+
+  - slug: quran-fact-interest-riba
+    category: quran_hadith_fact
+    title_en: Why Is Riba (Interest) Forbidden? — The Qur'anic Prohibition
+    title_ar: لماذا حُرِّم الربا؟ - التحريم القرآني
+    title_fr: Pourquoi le riba (l'intérêt) est-il interdit ? — L'interdiction coranique
+    description_en: |
+      The prohibition of riba is one of the most emphatic in Islamic law,
+      declared war by Allāh and His Messenger according to the Qur'an. Sūrat
+      al-Baqarah distinguishes trade from riba, declares those who consume it as
+      being driven mad by Satan's touch, and warns of a painful punishment unless
+      they desist. Sūrat Āl ʿImrān commands believers not to consume riba
+      multiplied manifold, while Sūrat al-Nisāʾ cites it among the reasons for
+      the punishment of previous nations. Sūrat al-Rūm contrasts riba with
+      charitable loans that are multiplied in divine reward. Ibn Kathīr explains
+      that riba violates the principles of justice and mutual concern that
+      underpin Islamic economics. The hadith in Ṣaḥīḥ Muslim and Ṣaḥīḥ
+      al-Bukhārī categorically condemn all forms of interest. Classical scholars
+      defined riba as any excess compensation in exchanges of specific commodities
+      or in loan transactions. In an era of global debt crises and widening
+      inequality, the Islamic prohibition challenges Muslims to develop ethical
+      financial alternatives and to practice patience in wealth accumulation.
+    description_ar: |
+      تحريمُ الربا من أقوى التحريمات في الشريعة الإسلامية، وقد أُعلِنَت عليه
+      حربُ الله ورسولِه في القرآن. وسورةُ البقرةِ تميِّزُ بين البيع والربا،
+      وتَصِفُ آكليه بأنهم يُخبَتون من مسِّ الشيطان، وتتوعَّدُ بالعذاب الأليم
+      إن لم ينتهوا. وسورةُ آل عمران تأمرُ بعدم أكل الربا مضاعفًا، وسورةُ النساءِ
+      تعدُّه من أسباب عذاب الأمم السابقة. وسورةُ الروم تُضادُّ الربا بالقرض
+      الحسن الذي يتضاعفُ ثوابُه عند الله. ويفسِّرُ ابنُ كثيرٍ أن الربا يُخالفُ
+      مبادئ العدالة والتكافل التي تقومُ عليها الاقتصادية الإسلامية. ويُدينُ
+      حديثُ مسلم والبخاري جميعَ صور الفائدة ربْويًا. وعرفَ الفقهاءُ الربا بأنه
+      فضلٌ في معاوضات أصنافٍ محددة أو في معاملات القروض. وفي عصرِ أزماتِ الدَّين
+      العالمية وتفاقمِ التفاوت الطبقي، يتحدى التحريمُ الإسلاميُّ المسلمينَ إلى
+      ابتكارِ بدائل مالية أخلاقية وممارسةِ الصبرِ في تكوين الثروات.
+    description_fr: |
+      L'interdiction du riba est l'une des plus emphatiques du droit islamique :
+      Allāh et Son Messager ont déclaré la guerre contre elle selon le Coran. La
+      sourate al-Baqara distingue le commerce du riba, déclare que ceux qui le
+      consomment sont frappés de folie par le toucher de Satan, et avertit d'un
+      châtiment douloureux à moins qu'ils ne se repentent. La sourate Āl ʿImrān
+      commande aux croyants de ne pas consommer le riba multiplié, tandis que la
+      sourate al-Nisāʾ le cite parmi les raisons du châtiment des nations
+      précédentes. La sourate al-Rūm oppose le riba aux prêts charitables dont la
+      récompense se multiplie auprès d'Allāh. Ibn Kathīr explique que le riba
+      viole les principes de justice et de solidarité mutuelle qui fondent
+      l'économie islamique. Les hadiths des Ṣaḥīḥ de Muslim et d'al-Bukhārī
+      condamnent catégoriquement toutes les formes d'intérêt. Les savants
+      classiques définirent le riba comme toute compensation excessive dans les
+      échanges de certaines denrées ou dans les transactions de prêt. À une époque
+      de crises de la dette mondiale et d'inégalités croissantes, l'interdiction
+      islamique interpelle les musulmans pour qu'ils développent des alternatives
+      financières éthiques et pratiquent la patience dans l'accumulation des
+      richesses.
+    reference: Qur'an (al-Baqarah 2:275-279, Āl ʿImrān 3:130, al-Nisāʾ 4:161, al-Rūm 30:39); Ṣaḥīḥ Muslim 1584, Ṣaḥīḥ al-Bukhārī 2286
+    source_notes: |
+      Qur'an 2:275-279 declares war on ribā; Muslim (1584) and Bukhārī (2286) condemn all interest. Ibn Kathīr explains that ribā violates justice and mutual concern, and classical fiqh defines it as any excess in specified commodities or loans.
+    source_notes_fr: |
+      Le Coran 2:275-279 déclare la guerre contre le ribā ; Muslim (1584) et Bukhārī (2286) condamnent tout intérêt. Ibn Kathīr explique que le ribā viole la justice et la solidarité mutuelle, et le fiqh classique le définit comme tout excès dans des denrées spécifiées ou des prêts.
+    source_notes_ar: |
+      يُعلِنُ القرآن (٢:٢٧٥-٢٧٩) الحربَ على الربا؛ ويُدينُ مسلم (١٥٨٤) والبخاري (٢٢٨٦) كلَّ فائدةٍ. ويُفسِّرُ ابنُ كثيرٌ أنَّ الربا يُخالفُ العدالةَ والتكافلَ، ويُعرِّفُ الفقهُ الكلاسيكيُّ الربا بأنَّه فضلٌ في أصنافَ مُعيَّنةٍ أو قروض.
+    display_day_of_year: 274
+    quran_refs: "al-Baqarah 2:275-279, Āl ʿImrān 3:130, al-Nisāʾ 4:161, al-Rūm 30:39"
+    hadith_refs: "Muslim 1584, Bukhari 2286"
+    source_url: https://quran.com/2/275
+
+  - slug: quran-fact-intoxicants
+    category: quran_hadith_fact
+    title_en: The Gradual Prohibition of Intoxicants — A Lesson in Legislation
+    title_ar: التحريم التدريجي للخمر - درس في التشريع
+    title_fr: L'interdiction graduelle des intoxicants — Une leçon de législation
+    description_en: |
+      The Qur'an's legislative method regarding intoxicants offers a masterclass
+      in divine pedagogy. Rather than imposing an immediate ban, the Qur'an first
+      questioned their benefit in Sūrat al-Baqarah, then forbade prayer while
+      drunk in Sūrat al-Nisāʾ, and finally delivered the absolute prohibition in
+      Sūrat al-Māʾidah, declaring them from the works of Satan. This graduated
+      approach acknowledged the deep social embeddedness of alcohol in Arabian
+      society while steadily building moral consensus. Ibn Kathīr explains that
+      the final prohibition came after an incident during prayers, demonstrating
+      that intoxication corrupts even the most sacred acts. The hadith in Ṣaḥīḥ
+      al-Bukhārī and Ṣaḥīḥ Muslim confirm that the Prophet Muhammad ﷺ cursed ten
+      categories of people related to intoxicants. Classical scholars derived
+      from this the principle that legislation may proceed gradually when
+      addressing entrenched social evils. For contemporary Muslims, this example
+      teaches that personal reform and social change require patience,
+      incremental steps, and unwavering final objectives — whether addressing
+      substance abuse, digital addiction, or other modern challenges.
+    description_ar: |
+      تُقدِّمُ طريقةُ القرآنِ التشريعيةُ في الخمر درسًا بليغًا في التربية
+      الإلهية. فبدلَ الحظر الفوري، سألَ القرآنُ عن منفعتِها في البقرة، ثم
+      حظَرَ الصلاةَ تحت تأثيرها في النساء، ثم نزلَ التحريمُ المطلقُ في المائدة
+      باعتبارها من عمل الشيطان. وهذا التدرجُ أقرَّ بالتأصُّل الاجتماعي العميق
+      للخمر في الجاهلية، مع بناءِ إجماعٍ أخلاقيٍّ تدريجي. ويُفسِّرُ ابنُ كثيرٍ
+      أن التحريمَ النهائيَّ جاء بعد حادثةٍ في الصلاة، مُثبتًا أن السُّكرَ يُفسِدُ
+      حتى أقدسَ الأعمال. ويُؤكِّدُ حديثُ البخاري ومسلم أن النبي ﷺ لعنَ عشرةَ
+      أصنافٍ تتعلق بالمسكرات. واستنبطَ العلماءُ من هذا المبدأ أن التشريعَ قد
+      يتدرَّجُ عند مواجهةِ المنكرات المستقرة. ويعلِّمُ المسلمين المعاصرين هذا
+      المثالُ أن الإصلاحَ الشخصي والاجتماعي يحتاجُ إلى صبرٍ وخطواتٍ متتاليةٍ
+      وأهدافٍ نهائيةٍ راسخة - سواءٌ في مواجهةِ إدمانِ المُسكِّرات أو الإدمان
+      الرقمي أو غيره من التحديات.
+    description_fr: |
+      La méthode législative du Coran concernant les intoxicants offre un modèle
+      de pédagogie divine. Plutôt qu'une interdiction immédiate, le Coran
+      interrogea d'abord leur utilité dans la sourate al-Baqara, interdit ensuite
+      la prière en état d'ivresse dans la sourate al-Nisāʾ, et prononça
+      finalement l'interdiction absolue dans la sourate al-Māʾida, les déclarant
+      œuvres de Satan. Cette approche graduée reconnaissait l'ancrage social
+      profond de l'alcool dans la société arabe tout en construisant
+      progressivement un consensus moral. Ibn Kathīr explique que l'interdiction
+      définitive survint après un incident durant la prière, démontrant que
+      l'intoxication corrompt même les actes les plus sacrés. Les hadiths des
+      Ṣaḥīḥ d'al-Bukhārī et de Muslim confirment que le Prophète Muhammad ﷺ a
+      maudit dix catégories de personnes liées aux intoxicants. Les savants
+      classiques en déduisirent le principe que la législation peut procéder par
+      étapes lorsqu'elle aborde des maux socialement ancrés. Pour les musulmans
+      contemporains, cet exemple enseigne que la réforme personnelle et le
+      changement social exigent de la patience, des étapes progressives et des
+      objectifs finals inébranlables — que ce soit face à l'abus de substances, à
+      l'addiction numérique ou à d'autres défis modernes.
+    reference: Qur'an (al-Baqarah 2:219, al-Nisāʾ 4:43, al-Māʾidah 5:90-91); Ṣaḥīḥ al-Bukhārī 4619, Ṣaḥīḥ Muslim 1980; Ibn Kathīr, Tafsīr
+    source_notes: |
+      Qur'an 5:90-91 delivers the final prohibition; Bukhārī (4619) and Muslim (1980) curse ten categories related to intoxicants. Ibn Kathīr notes the gradual legislation as divine pedagogy, and scholars derived the principle of incremental reform.
+    source_notes_fr: |
+      Le Coran 5:90-91 prononce l'interdiction définitive ; Bukhārī (4619) et Muslim (1980) maudissent dix catégories liées aux intoxicants. Ibn Kathīr note la législation graduée comme pédagogie divine, et les savants en ont déduit le principe de la réforme par étapes.
+    source_notes_ar: |
+      يُنزِّلُ القرآن (٥:٩٠-٩١) التحريمَ النهائيَّ؛ ويَلْعَنُ البخاري (٤٦١٩) ومسلم (١٩٨٠) عشرَ فئاتٍ تتعلقُ بالمسكرات. ويُلاحظُ ابنُ كثيرٌ التدرجَ التشريعيَّ باعتباره تربيةً إلهيةً، ويَسْتَنبِطُ العلماءُ مبدأ الإصلاحِ التدريجي.
+    display_day_of_year: 275
+    quran_refs: "al-Baqarah 2:219, al-Nisāʾ 4:43, al-Māʾidah 5:90-91"
+    hadith_refs: "Bukhari 4619, Muslim 1980"
+    source_url: https://quran.com/5/90
+
+  - slug: quran-fact-why-pork-forbidden
+    category: quran_hadith_fact
+    title_en: Why Is Pork Forbidden in Islam?
+    title_ar: لماذا حُرِّم لحم الخنزير في الإسلام؟
+    title_fr: Pourquoi la viande de porc est-elle interdite en Islam ?
+    description_en: |
+      The prohibition of pork and its products is explicitly stated in four
+      Qur'anic passages : Sūrat al-Baqarah, Sūrat al-Māʾidah, Sūrat al-Anʿām, and
+      Sūrat al-Naḥl. These verses classify pork as impure and forbid its
+      consumption except in cases of dire necessity. Ibn Kathīr explains that the
+      pig is inherently impure in its nature, habits, and diet, and that the
+      prohibition is both a test of obedience and a protection for believers. The
+      hadith in Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim reinforce this prohibition
+      without exception for Muslims. Classical scholars note that while some
+      modern discussions focus on trichinosis and health risks, the primary basis
+      for prohibition is divine command — we refrain because Allāh commanded it,
+      regardless of apparent reasons. However, Ibn al-Qayyim observed that divine
+      prohibitions always contain hidden wisdom, including physical and spiritual
+      protection. For Muslims living as minorities, this prohibition serves as a
+      daily affirmation of allegiance to divine law over dietary convenience,
+      strengthening identity and trust in Allāh's wisdom.
+    description_ar: |
+      صريحٌ في أربعِ مواضعَ قرآنية: البقرة والمائدة والأنعام والنحل. وتصنِّفُ هذه
+      الآياتُ لحمَ الخنزير من الرجس، وتحرِّمُ أكْلَه إلا في حالِ الاضطرار
+      القاهر. ويفسِّرُ ابنُ كثيرٍ أن الخنزيرَ نجسٌ في طبيعتِه وعاداتِه وغذائِه،
+      وأن التحريمَ اختبارٌ للطاعة ووقايةٌ للمؤمنين. ويُؤكِّدُ حديثُ البخاري
+      ومسلم هذا التحريمَ بلا استثناءٍ للمسلمين. ويلاحظُ العلماءُ أن
+      المناقشاتِ الحديثةَ التي تركِّزُ على داء التريكينات والمخاطر الصحية لا
+      تُشكِّلُ الأساسَ الشرعي؛ فالتحريمُ أولًا وأخيرًا أمرٌ إلهيٌّ نمتثلُه
+      لأن الله أمرَ به، بمعزلٍ عن الأسباب الظاهرة. غير أن ابنَ القيم لاحظَ أن
+      التحريمات الإلهيةَ لا تخلو من حكمةٍ خفيةٍ تشملُ الحمايةَ الجسدية
+      والروحية. وللمسلمين الأقليات، يُشكِّل هذا التحريمُ إقرارًا يوميًّا
+      بولايةِ الشريعة على راحةِ الطعام، مُعزِّزًا الهويةَ والثقةَ بحكمة الله.
+    description_fr: |
+      L'interdiction du porc et de ses dérivés est explicitement énoncée dans
+      quatre passages coraniques : les sourates al-Baqara, al-Māʾida, al-Anʿām et
+      al-Naḥl. Ces versets classent la viande de porc comme impure et interdisent
+      sa consommation sauf en cas de nécessité absolue. Ibn Kathīr explique que
+      le porc est intrinsèquement impur dans sa nature, ses habitudes et son
+      régime alimentaire, et que l'interdiction est à la fois un test d'obéissance
+      et une protection pour les croyants. Les hadiths des Ṣaḥīḥ d'al-Bukhārī et
+      de Muslim renforcent cette interdiction sans exception pour les musulmans.
+      Les savants classiques notent que si les discussions modernes se concentrent
+      parfois sur la trichinellose et les risques sanitaires, la base première de
+      l'interdiction est le commandement divin — nous nous abstenons parce
+      qu'Allāh l'a ordonné, indépendamment des raisons apparentes. Cependant, Ibn
+      al-Qayyim observa que les interdictions divines renferment toujours une
+      sagesse cachée, incluant la protection physique et spirituelle. Pour les
+      musulmans vivant en minorité, cette interdiction sert d'affirmation
+      quotidienne d'allégeance à la loi divine plutôt qu'à la commodité
+      alimentaire, renforçant l'identité et la confiance dans la sagesse
+      d'Allāh.
+    reference: Qur'an (al-Baqarah 2:173, al-Māʾidah 5:3, al-Anʿām 6:145, al-Naḥl 16:115); Ṣaḥīḥ al-Bukhārī 2575, Ṣaḥīḥ Muslim 1934
+    source_notes: |
+      Qur'an 2:173, 5:3, 6:145, and 16:115 explicitly forbid pork; Bukhārī (2575) and Muslim (1934) reinforce it. Ibn Kathīr states the primary basis is divine command, while Ibn al-Qayyim observes that prohibitions always contain hidden wisdom.
+    source_notes_fr: |
+      Le Coran 2:173, 5:3, 6:145 et 16:115 interdisent explicitement le porc ; Bukhārī (2575) et Muslim (1934) le renforcent. Ibn Kathīr affirme que la base première est le commandement divin, tandis qu'Ibn al-Qayyim observe que les interdictions renferment toujours une sagesse cachée.
+    source_notes_ar: |
+      يُحَرِّمُ القرآن (٢:١٧٣ و٥:٣ و٦:١٤٥ و١٦:١١٥) لحمَ الخنزيرِ صراحةً؛ ويُؤَكِّدُ البخاري (٢٥٧٥) ومسلم (١٩٣٤) التحريمَ. ويُبيِّنُ ابنُ كثيرٌ أنَّ الأساسَ الأوَّلَ هو الأمرُ الإلهيُّ، بينما يلاحظُ ابنُ القيم أنَّ التحريماتِ لا تخلو من حكمةٍ خفية.
+    display_day_of_year: 277
+    quran_refs: "al-Baqarah 2:173, al-Māʾidah 5:3, al-Anʿām 6:145, al-Naḥl 16:115"
+    hadith_refs: "Bukhari 2575, Muslim 1934"
+    source_url: https://quran.com/2/173
+
+  - slug: quran-fact-mercy-in-punishment
+    category: quran_hadith_fact
+    title_en: Mercy in Islamic Punishments — The Conditions of Ḥudūd
+    title_ar: الرحمة في العقوبات الإسلامية - شروط الحدود
+    title_fr: La miséricorde dans les châtiments islamiques — Les conditions des ḥudūd
+    description_en: |
+      The ḥudūd punishments in Islamic law are often presented as harsh without
+      context, yet the classical tradition surrounds them with so many
+      evidentiary and procedural safeguards that implementation becomes extremely
+      rare. Sūrat al-Nūr prescribes flogging for zinā, Sūrat al-Māʾidah
+      prescribes hand-cutting for theft, and Sūrat al-Isrāʾ warns against
+      approaching zinā. However, al-Qurṭubī in his comprehensive Tafsīr enumerates
+      numerous conditions : theft requires a minimum value, secure storage, no
+      doubt, and confession without coercion. The hadith in Ṣaḥīḥ al-Bukhārī and
+      Ṣaḥīḥ Muslim show the Prophet Muhammad ﷺ repeatedly searching for excuses
+      to avoid ḥudūd — asking whether the stolen item was protected, or
+      encouraging concealment of sins. Ibn Kathīr notes that the ḥudūd are
+      described as expiations that wipe away sins in the Hereafter, offering
+      mercy even in severity. The scholarly principle is to avert ḥudūd through
+      ambiguities (darʾ al-ḥudūd bi-l-shubuhāt). This tradition challenges modern
+      Muslims to understand that Islamic criminal law prioritizes mercy,
+      prevention, and social harmony over retribution.
+    description_ar: |
+      تُعرَضُ حدودُ الشريعة أحيانًا بلا سياقٍ على أنها قاسية، لكن التراثَ
+      الكلاسيكيَّ أحاطَها بضماناتٍ إثباتيةٍ وإجرائيةٍ كثيرةٍ تجعلُ تطبيقَها
+      نادرًا جدًّا. فسورةُ النورِ تُقرِّرُ الجلدَ للزنا، وسورةُ المائدةِ تقطعَ
+      اليدَ للسرقة، وسورةُ الإسراء تُحذِّرُ من مقاربةِ الزنا. غير أن القرطبيَّ
+      في تفسيره الشامل يُحصي شروطًا عديدة: السرقةُ تحتاجُ إلى نصابٍ وحفظٍ وخلوِّ
+      الشكِّ واعترافٍ بلا إكراه. ويُظهرُ حديثُ البخاري ومسلم أن النبي ﷺ كان
+      يتلمَّسُ الأعذارَ لدرء الحدود - يسألُ عما إذا كان المسروقُ محفوظًا، أو
+      يحثُّ على سترِ الذنوب. ويلاحظُ ابنُ كثيرٍ أن الحدودَ كفَّاراتٌ تُمحى بها
+      الذنوب في الآخرة، مُقدِّمةً الرحمةَ حتى في الشدة. ومبدأُ العلماء:
+      «درءُ الحدود بالشبهات». ويتحدى هذا التراثُ المسلمين المعاصرين لفهمِ أن
+      الفقهَ الجزائيَّ الإسلاميَّ يُقدِّمُ الرحمة والوقاية والصلاح الاجتماعي
+      على الانتقام.
+    description_fr: |
+      Les châtiments ḥudūd du droit islamique sont souvent présentés comme
+      sévères hors de tout contexte, alors que la tradition classique les
+      entoure de tant de garanties probatoires et procédurales que leur mise en
+      œuvre devient extrêmement rare. La sourate al-Nūr prescrit la flagellation
+      pour le zinā, la sourate al-Māʾida l'amputation de la main pour le vol, et
+      la sourate al-Isrāʾ met en garde contre l'approche du zinā. Cependant,
+      al-Qurṭubī, dans son Tafsīr complet, énumère de nombreuses conditions : le
+      vol exige une valeur minimale, un lieu sûr, l'absence de doute, et un aveu
+      sans contrainte. Les hadiths des Ṣaḥīḥ d'al-Bukhārī et de Muslim montrent
+      que le Prophète Muhammad ﷺ cherchait constamment des excuses pour éviter
+      les ḥudūd — demandant si l'objet volé était protégé, ou encourageant à
+      dissimuler les péchés. Ibn Kathīr note que les ḥudūd sont décrits comme des
+      expiations qui effacent les péchés dans l'au-delà, offrant la miséricorde
+      même dans la sévérité. Le principe savant est d'écarter les ḥudūd par les
+      ambiguïtés. Cette tradition interpelle les musulmans modernes pour qu'ils
+      comprennent que le droit pénal islamique privilégie la miséricorde, la
+      prévention et l'harmonie sociale plutôt que la rétribution.
+    reference: Qur'an (al-Nūr 24:2, al-Māʾidah 5:38, al-Isrāʾ 17:32); Ṣaḥīḥ al-Bukhārī 6789, Ṣaḥīḥ Muslim 1690; al-Qurṭubī, al-Jāmiʿ
+    source_notes: |
+      Qur'an 24:2 and 5:38 prescribe the ḥudūd; Bukhārī (6789) and Muslim (1690) show the Prophet ﷺ seeking excuses to avert them. Al-Qurṭubī enumerates strict conditions, and Ibn Kathīr notes that ḥudūd serve as expiation in the Hereafter.
+    source_notes_fr: |
+      Le Coran 24:2 et 5:38 prescrivent les ḥudūd ; Bukhārī (6789) et Muslim (1690) montrent le Prophète ﷺ cherchant des excuses pour les écarter. Al-Qurṭubī énumère des conditions strictes, et Ibn Kathīr note que les ḥudūd servent d'expiation dans l'au-delà.
+    source_notes_ar: |
+      تُقَرِّرُ آياتُ القرآن (٢٤:٢ و٥:٣٨) الحدودَ؛ ويُظهرُ البخاري (٦٧٨٩) ومسلم (١٦٩٠) النبيَّ ﷺ يتلمَّسُ الأعذارَ لدرئها. ويُحصي القرطبيُّ شروطًا صارمةً، ويلاحظُ ابنُ كثيرٌ أنَّ الحدودَ كفَّاراتٌ في الآخرة.
+    display_day_of_year: 278
+    quran_refs: "al-Nūr 24:2, al-Māʾidah 5:38, al-Isrāʾ 17:32"
+    hadith_refs: "Bukhari 6789, Muslim 1690"
+    source_url: https://quran.com/24/2
+
+  - slug: quran-fact-tawakkul
+    category: quran_hadith_fact
+    title_en: Tawakkul — Trusting Allāh While Tying Your Camel
+    title_ar: التوكل - الثقة بالله مع أخذ الأسباب
+    title_fr: Le tawakkul — Faire confiance à Allāh tout en attachant sa monture
+    description_en: |
+      Tawakkul — reliance on Allāh — is among the most misunderstood Islamic
+      concepts, often confused with fatalism or passivity. The Qur'an commands
+      believers to rely on Allāh in Sūrat Āl ʿImrān, Sūrat Hūd, and Sūrat
+      al-Furqān. These verses were revealed to the Prophet Muhammad ﷺ during
+      moments of extreme difficulty, teaching that trust in Allāh does not negate
+      human effort but sanctifies it. The famous hadith in Sunan al-Tirmidhī
+      states that if you relied on Allāh as He deserves, you would be provided
+      for like the birds — they leave in the morning with empty stomachs and
+      return full. Ibn Kathīr explains that this means one takes the means
+      (asbāb) while the heart depends solely on Allāh. The Prophet's instruction
+      to tie your camel and trust in Allāh encapsulates this balance. Ibn
+      al-Qayyim emphasizes that tawakkul is the middle path between reckless
+      abandon and anxious self-reliance. In an age of economic uncertainty and
+      mental health crises, tawakkul offers Muslims a framework for action
+      without despair and hope without complacency.
+    description_ar: |
+      التوكلُ - الاعتمادُ على الله - من أكثر المفاهيم الإسلامية إثارةً للبُطلان؛
+      إذ يُخلَطُ غالبًا بالجمود والاستسلام. والقرآنُ يأمرُ المؤمنين بالتوكلِ في
+      آل عمران وهود والفرقان، وقد نزلتْ هذه الآياتُ على النبي ﷺ في لحظاتِ ضيقٍ
+      شديد، مُعلِّمةً أن الثقةَ بالله لا تُلغي السعيَ البشريَّ بل تُقدِّسُه. وفي
+      حديثِ الترمذي المشهور: «لو توكلتم على الله حق توكله لرزقكم كما يرزق
+      الطير، تغدو خماصًا وتروض بطانًا». ويفسِّرُ ابنُ كثيرٍ أن المعنى أخذُ
+      الأسباب مع تعلُّقِ القلبِ بالله وحده. ويُجسِّدُ قولُه ﷺ: «اعقلها وتوكل»
+      هذا التوازنَ. ويُؤكِّدُ ابنُ القيم أن التوكلَ طريقٌ وسطٌ بين التفريطِ في
+      الأسباب والقلقِ المفرطِ في الاعتماد على الذات. وفي زمنِ عدم اليقين
+      الاقتصادي وأزمات الصحة النفسية، يُقدِّمُ التوكلُ للمسلمين إطارًا للعملِ
+      بلا يأسٍ وللأملِ بلا تهاون.
+    description_fr: |
+      Le tawakkul — la confiance en Allāh — est l'un des concepts islamiques les
+      plus incompris, souvent confondu avec le fatalisme ou la passivité. Le
+      Coran commande aux croyants de se reposer sur Allāh dans les sourates Āl
+      ʿImrān, Houd et al-Furqān. Ces versets furent révélés au Prophète Muhammad
+      ﷺ durant des moments de difficulté extrême, enseignant que la confiance en
+      Allāh n'annule pas l'effort humain mais le sanctifie. Le célèbre hadith de
+      Sunan al-Tirmidhī déclare que si vous comptiez sur Allāh comme Il mérite
+      d'être compté, Il vous nourrirait comme Il nourrit les oiseaux — ils
+      partent le matin l'estomac vide et rentrent rassasiés. Ibn Kathīr explique
+      que cela signifie prendre les moyens tandis que le cœur dépend uniquement
+      d'Allāh. L'instruction du Prophète Muhammad ﷺ d'attacher sa monture et de
+      faire confiance à Allāh résume cet équilibre. Ibn al-Qayyim souligne que le
+      tawakkul est la voie médiane entre l'abandon irresponsable et
+      l'autosuffisance anxieuse. À une époque d'incertitude économique et de
+      crises de santé mentale, le tawakkul offre aux musulmans un cadre pour
+      agir sans désespoir et espérer sans complaisance.
+    reference: Qur'an (Āl ʿImrān 3:159, Hūd 11:123, al-Furqān 25:58); Sunan al-Tirmidhī 2517 (ḥasan); Ibn Kathīr, Tafsīr
+    source_notes: |
+      Qur'an 3:159 and 25:58 command reliance; Tirmidhī (2517) records the bird metaphor. Ibn Kathīr explains that tawakkul means taking means while the heart depends on Allah, and Ibn al-Qayyim calls it the middle path between recklessness and anxious self-reliance.
+    source_notes_fr: |
+      Le Coran 3:159 et 25:58 commandent la confiance ; Tirmidhī (2517) consigne la métaphore de l'oiseau. Ibn Kathīr explique que le tawakkul signifie prendre les moyens tandis que le cœur dépend d'Allah, et Ibn al-Qayyim l'appelle la voie médiane entre la témérité et l'autosuffisance anxieuse.
+    source_notes_ar: |
+      يأمرُ القرآن (٣:١٥٩ و٢٥:٥٨) بالتوكلِ؛ ويُسَجِّلُ الترمذي (٢٥١٧) تشبيهَ الطير. ويُفسِّرُ ابنُ كثيرٌ أنَّ التوكلَ أخذُ الأسبابِ مع تعلُّقِ القلبِ بالله، ويُسمِّيه ابنُ القيم الطريقَ الوسطَ بين التفريطِ والقلقِ المفرط.
+    display_day_of_year: 279
+    quran_refs: "Āl ʿImrān 3:159, Hūd 11:123, al-Furqān 25:58"
+    hadith_refs: "Tirmidhi 2517"
+    source_url: https://sunnah.com/tirmidhi:2517
+
+  - slug: quran-fact-sabr-shukr
+    category: quran_hadith_fact
+    title_en: Patience and Gratitude — The Two Wings of the Believer
+    title_ar: الصبر والشكر - جناحا المؤمن
+    title_fr: La patience et la gratitude — Les deux ailes du croyant
+    description_en: |
+      The Qur'an pairs patience (ṣabr) and gratitude (shukr) as complementary
+      spiritual responses to life's fluctuations. Sūrat al-Baqarah promises that
+      believers will be tested with loss, hardship, and hunger, but that those
+      who patiently persevere will receive blessings and mercy from their Lord.
+      Sūrat Ibrāhīm commands gratitude with the warning that increased blessing
+      follows thankfulness. The Prophet Muhammad ﷺ stated in Ṣaḥīḥ Muslim that
+      amazing is the affair of the believer : all of it is good, for in ease he
+      thanks and in hardship he patiently perseveres. Ibn al-Qayyim in Madārij
+      al-Sālikīn devotes extensive chapters to these two states, explaining that
+      ṣabr is not passive endurance but active spiritual striving, while shukr is
+      recognizing the Benefactor through the blessing. Classical scholars
+      identified three types of patience : in obedience, against sin, and in
+      divine decree. Gratitude similarly manifests through the heart, tongue, and
+      limbs. Modern psychology confirms the resilience benefits of these
+      practices, but their Islamic form connects them to divine proximity —
+      transforming adversity into worship and prosperity into accountability.
+    description_ar: |
+      يُقرِنُ القرآنُ الصبرَ والشكرَ كردَّين روحيين مُتمِّمين لموجات الحياة.
+      فسورةُ البقرةِ تُوعِدُ بأن المؤمنين يُبتَلَون بالخوف والجُوع ونقص
+      الأموال والأنفس، وأن الصابرين لهم البشرى والرحمة. وسورةُ إبراهيمِ تأمرُ
+      بالشكرِ مع التحذيرِ من أن نقمةَ الكفران تقلبُ النعمة. وفي صحيحِ مسلم،
+      يُخبَر أن أعجبَ أمرِ المؤمن كله خيرٌ: إن أصابته سراءُ شكر، وإن أصابته
+      ضراءُ صبر. ويُخصِّصُ ابنُ القيم في «مدارج السالكين» فصولاً مطولةً لهذين
+      الحالين، مُوضِّحًا أن الصبرَ ليس كبوةً سلبيةً بل جهادًا روحيًّا فاعلًا،
+      وأن الشكرَ معرفةُ المنعمِ بالنعمة. وقسَّم العلماءُ الصبرَ إلى ثلاثةٍ: في
+      الطاعة، وعن المعصية، وعلى القداء. والشكرُ كذلك ثلاثيُّ الظهور: بالقلب
+      واللسان والجوارح. وتُؤكِّدُ علم النفس الحديثُ فوائدَ الصمود لهاتين
+      الممارستين، لكن صورتَهما الإسلاميةَ تربطُهما بالقربِ من الله - فتُحوِّلُ
+      الشدائدَ إلى عبادةٍ والنعمَ إلى مسؤولية.
+    description_fr: |
+      Le Coran associe la patience (ṣabr) et la gratitude (shukr) comme
+      réponses spirituelles complémentaires aux fluctuations de la vie. La
+      sourate al-Baqara promet que les croyants seront éprouvés par la perte,
+      l'adversité et la faim, mais que ceux qui persevereront patiemment
+      recevront les bénédictions et la miséricorde de leur Seigneur. La sourate
+      Ibrāhīm commande la gratitude avec l'avertissement que l'augmentation des
+      bienfaits suit la reconnaissance. Le Prophète Muhammad ﷺ déclara dans le
+      Ṣaḥīḥ de Muslim : « Quel étonnant destin que celui du croyant : tout ce qui
+      lui arrive est bon ; s'il rencontre l'aise, il remercie, et s'il rencontre
+      l'adversité, il fait preuve de patience. » Ibn al-Qayyim, dans Madārij
+      al-Sālikīn, consacre d'amples chapitres à ces deux états, expliquant que le
+      ṣabr n'est pas une endurance passive mais un effort spirituel actif, tandis
+      que le shukr consiste à reconnaître le Bienfaiteur à travers le bienfait.
+      Les savants classiques identifièrent trois types de patience : dans
+      l'obéissance, contre le péché, et face au décret divin. La gratitude se
+      manifeste de même par le cœur, la langue et les membres. La psychologie
+      moderne confirme les bénéfices de résilience de ces pratiques, mais leur
+      forme islamique les connecte à la proximité divine — transformant
+      l'adversité en adoration et la prospérité en responsabilité.
+    reference: Qur'an (al-Baqarah 2:155-157, Ibrāhīm 14:7); Ṣaḥīḥ Muslim 2999, Sunan al-Tirmidhī 2308; Ibn al-Qayyim, Madārij al-Sālikīn
+    source_notes: |
+      Muslim (2999) and Tirmidhī (2308) record the amazing affair of the believer; Ibn al-Qayyim (Madārij al-Sālikīn) explains that ṣabr is active spiritual striving and shukr is recognizing the Benefactor through the blessing.
+    source_notes_fr: |
+      Muslim (2999) et Tirmidhī (2308) consignent l'étonnant destin du croyant ; Ibn al-Qayyim (Madārij al-Sālikīn) explique que le ṣabr est un effort spirituel actif et que le shukr consiste à reconnaître le Bienfaiteur à travers le bienfait.
+    source_notes_ar: |
+      يُسَجِّلُ مسلم (٢٩٩٩) والترمذي (٢٣٠٨) أعجبَ أمرِ المؤمن؛ ويُوضِّحُ ابنُ القيم (مدارج السالكين) أنَّ الصبرَ جهادٌ روحيٌّ فاعلٌ وأنَّ الشكرَ معرفةُ المنعمِ بالنعمة.
+    display_day_of_year: 281
+    quran_refs: "al-Baqarah 2:155-157, Ibrāhīm 14:7"
+    hadith_refs: "Muslim 2999, Tirmidhi 2308"
+    source_url: https://sunnah.com/muslim:2999
+
+  - slug: quran-fact-tawba
+    category: quran_hadith_fact
+    title_en: Tawba (Repentance) — The Door That Never Closes
+    title_ar: التوبة - الباب الذي لا يُغلق
+    title_fr: Le tawba (repentir) — La porte qui ne se ferme jamais
+    description_en: |
+      Islamic theology presents repentance not as a rare sacrament but as a
+      permanent, always-open door. Sūrat al-Zumar declares that Allāh's mercy
+      encompasses all things and commands the despairing sinner to never lose
+      hope in Allāh's mercy. Sūrat al-Taḥrīm commands believers to repent
+      sincerely, and Sūrat al-Baqarah compares repentant believers to pure earth
+      that sprouts vegetation after rain. Ibn Kathīr emphasizes that these verses
+      were revealed precisely to prevent Muslims from despairing after major
+      sins. The hadith in Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim confirm that Allāh
+      extends His hand by night to accept the repentance of those who sinned by
+      day, and by day for those who sinned by night. Classical scholars defined
+      tawba as abandoning the sin, regretting it, and resolving never to return
+      to it. Ibn al-Qayyim described the stations of repentance with the metaphor
+      of a traveler returning home. Unlike theological systems that require
+      intermediaries, Islam teaches direct access to divine forgiveness. For
+      Muslims today, this doctrine is both a check against spiritual despair and
+      a warning against using mercy as an excuse for continued disobedience.
+    description_ar: |
+      يقدِّمُ العلمُ الإسلاميُّ التوبةَ ليس سرًّا نادرًا، بل بابًا مفتوحًا
+      دائمًا. فسورةُ الزمرِ تُعلِنُ أن رحمةَ الله وسعت كل شيءٍ، وتأمرُ
+      المذنبَ اليائسَ ألا يَقنَطَ من رحمة الله. وسورةُ التحريمِ تأمرُ بالتوبةِ
+      النصوح، وسورةُ البقرةِ تشبِّهُ التائبين بالأرض الطيبة التي تنبتُ النباتَ
+      بعد المطر. ويُؤكِّدُ ابنُ كثيرٍ أن هذه الآياتِ نزلتْ تحديدًا لكيلا يَيْأسَ
+      المسلمون من كبائر الذنوب. ويُثبِتُ حديثُ البخاري ومسلم أن اللهَ يبسطُ يده
+      بالليل ليتوبَ على مَن أساءَ بالنهار، وبالنهار ليتوبَ على مَن أساءَ
+      بالليل. وعرفَ الفقهاءُ التوبةَ بأنها: تركُ الذنب، والندمُ عليه، والعزمُ
+      على عدم العودة. ووصفَ ابنُ القيم منازلَ التوبةِ باستعارةِ المسافرِ العائدِ
+      إلى داره. وخلافًا لأنظمةٍ تتطلبُ وسائط، يُعلِّمُ الإسلامُ أن المغفرةَ
+      الإلهيةَ متاحةٌ مباشرةً. وهذا المبدأُ للمسلمين اليومَ رادعٌ من اليأسِ
+      الروحي وتحذيرٌ من استغلالِ الرحمةِ ذريعةً لاستمرار المعصية.
+    description_fr: |
+      La théologie islamique présente le repentir non pas comme un sacrement
+      rare, mais comme une porte toujours ouverte. La sourate az-Zumar déclare
+      que la miséricorde d'Allāh englobe toute chose et commande au pécheur
+      désespéré de ne jamais perdre espoir en la miséricorde d'Allāh. La sourate
+      at-Taḥrīm commande aux croyants de se repentir sincèrement, et la sourate
+      al-Baqara compare les croyants repentants à une terre pure qui fait pousser
+      la végétation après la pluie. Ibn Kathīr souligne que ces versets furent
+      révélés précisément pour empêcher les musulmans de désespérer après les
+      péchés majeurs. Les hadiths des Ṣaḥīḥ d'al-Bukhārī et de Muslim confirment
+      qu'Allāh étend Sa main la nuit pour accepter le repentir de ceux qui ont
+      péché le jour, et le jour pour ceux qui ont péché la nuit. Les savants
+      classiques définirent le tawba comme l'abandon du péché, le regret, et la
+      résolution de ne pas y retourner. Ibn al-Qayyim décrivit les stations du
+      repentir avec la métaphore du voyageur rentrant chez lui. Contrairement aux
+      systèmes théologiques qui exigent des intermédiaires, l'Islam enseigne un
+      accès direct au pardon divin. Pour les musulmans d'aujourd'hui, cette
+      doctrine est à la fois un rempart contre le désespoir spirituel et un
+      avertissement contre l'utilisation de la miséricorde comme excuse pour la
+      désobéissance continuée.
+    reference: Qur'an (al-Zumar 39:53-54, al-Taḥrīm 66:8, al-Baqarah 2:222); Ṣaḥīḥ al-Bukhārī 6306, Ṣaḥīḥ Muslim 2759; Ibn Kathīr, Tafsīr
+    source_notes: |
+      Qur'an 39:53 and 66:8 keep the door open; Bukhārī (6306) and Muslim (2759) describe Allah extending His hand day and night. Ibn al-Qayyim compares the repentant to a traveler returning home, and classical scholars define tawba as abandoning the sin, regretting it, and resolving never to return.
+    source_notes_fr: |
+      Le Coran 39:53 et 66:8 maintiennent la porte ouverte ; Bukhārī (6306) et Muslim (2759) décrivent Allah étendant Sa main jour et nuit. Ibn al-Qayyim compare le repentant à un voyageur rentrant chez lui, et les savants classiques définissent le tawba comme l'abandon du péché, le regret et la résolution de ne pas y retourner.
+    source_notes_ar: |
+      يُبقي القرآن (٣٩:٥٣ و٦٦:٨) البابَ مفتوحًا؛ ويُصِفُ البخاري (٦٣٠٦) ومسلم (٢٧٥٩) اللهَ يَبسطُ يده بالنهارِ والليل. ويُشبِّهُ ابنُ القيم التائبَ بالمسافرِ العائدِ إلى داره، ويُعرِّفُ العلماءُ الكلاسيكيون التوبةَ بتركِ الذنبِ والندمِ والعزمِ على عدمِ العودة.
+    display_day_of_year: 282
+    quran_refs: "al-Zumar 39:53-54, al-Taḥrīm 66:8, al-Baqarah 2:222"
+    hadith_refs: "Bukhari 6306, Muslim 2759"
+    source_url: https://quran.com/39/53
+
+  - slug: quran-fact-khushu-in-prayer
+    category: quran_hadith_fact
+    title_en: Khushūʿ in Prayer — The Meaning of Humility Before Allāh
+    title_ar: الخشوع في الصلاة - معنى التواضع بين يدي الله
+    title_fr: Le khushūʿ dans la prière — Le sens de l'humilité devant Allāh
+    description_en: |
+      Khushūʿ — humility and attentiveness in prayer — is the defining quality
+      that separates ritual motion from true communion with the Divine. The
+      Qur'an opens Sūrat al-Muʾminūn by praising « those who are humble in their
+      prayers », and commands in Sūrat al-Baqarah to guard strictly the prayers,
+      especially the middle prayer. Ibn Kathīr explains that khushūʿ encompasses
+      both external stillness and internal focus, requiring the heart to be
+      present with Allāh while the body performs the prescribed movements. The
+      hadith in Ṣaḥīḥ Muslim and Ṣaḥīḥ al-Bukhārī warn against praying hastily
+      like a pecking bird, and describe the prayer of the hypocrite who
+      remembers Allāh only a little. Ibn al-Qayyim in al-Fawāʾid identifies
+      khushūʿ as the fruit of understanding who one stands before, what one says,
+      and what one hopes for. Classical scholars recommended preparatory
+      practices : wuḍūʾ with mindfulness, facing the qibla with reverence, and
+      removing distractions. In an age of digital fragmentation and shortened
+      attention spans, cultivating khushūʿ requires deliberate spiritual training,
+      making prayer a sanctuary of focus rather than another item on a to-do
+      list.
+    description_ar: |
+      الخشوعُ - التواضعُ والانصرافُ إلى الله في الصلاة - هو الصفةُ المميزةُ
+      التي تفرِّقُ بين الحركةِ الطقسيةِ والاتصالِ الحقيقي بالإلهي. يفتتحُ
+      القرآنُ سورةَ المؤمنين بمدحِ «الذين هم في صلاتهم خاشعون»، ويأمرُ في
+      البقرة بحفظِ الصلواتِ وخاصةً الصلاة الوسطى. ويفسِّرُ ابنُ كثيرٍ أن
+      الخشوعَ يشملُ السكونَ الظاهريَّ وحضورَ القلب، فيحتاجُ إلى أن يكونَ القلبُ
+      مع الله والجسدُ يؤدي الحركات المقررة. ويُحذِّرُ حديثُ مسلم والبخاري من
+      الصلاةِ كخصْفِ الديك - أي العجلة - ويصفُ صلاةَ المنافقِ الذي يذكرُ الله
+      قليلًا. ويُعرِّفُ ابنُ القيم في «الفوائد» الخشوعَ بأنه ثمرةُ فهمِ من
+      تقف بين يديه، وماذا تقول، وماذا ترجو. ونصحَ العلماءُ بتمارينَ
+      تحضيرية: الوضوءُ بانتباه، والاستقبالُ بالقبلة بخشوع، وإزالةُ المشتتات.
+      وفي زمنِ التشتيتِ الرقمي وقِصَرِ مدةِ التركيز، يحتاجُ تربيةُ الخشوعِ إلى
+      تدريبٍ روحيٍّ مقصود، تجعلُ الصلاةَ ملجأً للتركيز لا بندًا في قائمةِ
+      المهام.
+    description_fr: |
+      Le khushūʿ — l'humilité et l'attention dans la prière — est la qualité
+      déterminante qui distingue le mouvement rituel de la véritable communion
+      avec le Divin. Le Coran ouvre la sourate al-Muʾminūn en louant « ceux qui
+      sont humbles dans leurs prières », et commande dans la sourate al-Baqara
+      de garder strictement les prières, surtout la prière du milieu. Ibn Kathīr
+      explique que le khushūʿ englobe à la fois le calme extérieur et la
+      concentration intérieure, exigeant que le cœur soit présent auprès d'Allāh
+      tandis que le corps accomplit les mouvements prescrits. Les hadiths des
+      Ṣaḥīḥ de Muslim et d'al-Bukhārī mettent en garde contre la prière hâtive
+      comme le picotage d'un oiseau, et décrivent la prière de l'hypocrite qui
+      se souvient d'Allāh très peu. Ibn al-Qayyim, dans al-Fawāʾid, identifie le
+      khushūʿ comme le fruit de la compréhension de celui devant qui l'on se
+      tient, de ce que l'on dit et de ce que l'on espère. Les savants classiques
+      recommandaient des pratiques préparatoires : l'ablution avec attention, le
+      fait de faire face à la qibla avec révérence, et l'élimination des
+      distractions. À une époque de fragmentation numérique et de durée
+      d'attention raccourcie, cultiver le khushūʿ exige un entraînement spirituel
+      délibéré, faisant de la prière un sanctuaire de concentration plutôt qu'un
+      élément de plus sur une liste de tâches.
+    reference: Qur'an (al-Muʾminūn 23:2, al-Baqarah 2:238); Ṣaḥīḥ Muslim 775, Ṣaḥīḥ al-Bukhārī 324; Ibn al-Qayyim, al-Fawāʾid
+    source_notes: |
+      Qur'an 23:2 praises the humble; Muslim (775) and Bukhārī (324) warn against pecking prayer. Ibn al-Qayyim (al-Fawāʾid) identifies khashūʿ as the fruit of understanding whom one stands before, and scholars recommend preparatory mindfulness.
+    source_notes_fr: |
+      Le Coran 23:2 loue les humbles ; Muslim (775) et Bukhārī (324) mettent en garde contre la prière hâtive. Ibn al-Qayyim (al-Fawāʾid) identifie le khushūʿ comme le fruit de la compréhension de celui devant qui l'on se tient, et les savants recommandent une attention préparatoire.
+    source_notes_ar: |
+      يُمدحُ القرآن (٢٣:٢) الخاشعين؛ ويُحذِّرُ مسلم (٧٧٥) والبخاري (٣٢٤) من صلاةِ الخصْف. ويُعرِّفُ ابنُ القيم (الفوائد) الخشوعَ ثمرةَ فهمِ من تقفُ بين يديه، وينصحُ العلماءُ بالاستعدادِ الذهنيِّ الواعي.
+    display_day_of_year: 283
+    quran_refs: "al-Muʾminūn 23:2, al-Baqarah 2:238"
+    hadith_refs: "Muslim 775, Bukhari 324"
+    source_url: https://sunnah.com/muslim:775
+
+  - slug: quran-fact-why-dhikr-matters
+    category: quran_hadith_fact
+    title_en: Why Does Dhikr Matter So Much? — The Qur'anic Command to Remember Allāh
+    title_ar: لماذا يهم الذكر؟ - الأمر القرآني بذكر الله
+    title_fr: Pourquoi le dhikr est-il si important ? — Le commandement coranique de se souvenir d'Allāh
+    description_en: |
+      The remembrance of Allāh (dhikr) is not a peripheral devotional practice
+      but a central Qur'anic command with transformative psychological and
+      spiritual effects. Sūrat al-Raʿd states that only in the remembrance of
+      Allāh do hearts find rest. Sūrat al-Aḥzāb lists dhikr among the qualities
+      of believing men and women and commands believers to remember Allāh much.
+      Ibn Kathīr explains that dhikr polishes the heart from the rust of
+      heedlessness (ghafla) and maintains the believer's connection to the
+      Creator throughout daily life. The hadith in Ṣaḥīḥ Muslim and Ṣaḥīḥ
+      al-Bukhārī describe dhikr as a means of spiritual protection, with
+      specific phrases erasing sins and elevating ranks. Al-Nawawī in
+      al-Adhkār compiled the Prophetic supplications with chains of
+      transmission, establishing dhikr as a scholarly discipline. Classical
+      scholars distinguished between dhikr of the tongue and dhikr of the heart,
+      noting that the former without the latter is incomplete. Neuroscience now
+      confirms what the Qur'an stated fourteen centuries ago : repetitive mindful
+      remembrance reduces anxiety and increases well-being. For Muslims, dhikr is
+      the antidote to the spiritual numbness induced by modern consumer culture.
+    description_ar: |
+      ذكرُ الله ليس ممارسةً تقليديةً هامشيةً، بل أمرًا قرآنيًّا محوريًّا له
+      آثارٌ نفسيةٌ وروحيةٌ تحويلية. فسورةُ الرعدِ تُخبِرُ أنه بذكرِ الله
+      تطمئنُّ القلوب، وسورةُ الأحزابِ تُدرِجُ الذكرَ في صفاتِ المؤمنين
+      والمؤمنات، وتأمرُ بأن «اذكروا الله كثيرًا». ويفسِّرُ ابنُ كثيرٍ أن الذكرَ
+      يُجَلِّي القلبَ من صدأ الغفلة، ويحفظُ صلةَ المؤمنِ بخالقِه طوالَ الحياة
+      اليومية. ويُصفُ حديثُ مسلم والبخاري الذكرَ بأنه درعٌ روحيٌّ، وأن ألفاظًا
+      مخصوصةً تُمحى بها الذنوب وتُرفَعُ الدرجات. وصنَّفَ الإمامُ النوويُّ في
+      «الأذكار» الأدعيةَ النبويةَ بأسانيدِها، مُؤسِّسًا للذكرِ علمًا أدبيًّا.
+      وفرَّقَ العلماءُ بين ذكرِ اللسانِ وذكرِ القلب، مُبيِّنين أن الأولَ بلا
+      الثاني ناقصٌ. وتُؤكِّدُ علومُ الأعصابِ الحديثةُ ما قاله القرآنُ قبل
+      أربعة عشر قرنًا: أن التكرارَ الذهنيَّ المنتبهَ يُخفِّفُ القلقَ ويُحسِّنُ
+      الرفاهية. وذكرُ الله ترياقُ المسلمين من الخدرِ الروحي الذي تُسبِّبُه
+      ثقافةُ الاستهلاك الحديثة.
+    description_fr: |
+      Le remembrance d'Allāh (dhikr) n'est pas une pratique dévotionnelle
+      périphérique, mais un commandement coranique central aux effets
+      psychologiques et spirituels transformateurs. La sourate ar-Raʿd déclare
+      que ce n'est qu'en se souvenant d'Allāh que les cœurs trouvent la
+      tranquillité. La sourate al-Aḥzāb compte le dhikr parmi les qualités des
+      croyants et croyantes, et commande aux croyants de se souvenir beaucoup
+      d'Allāh. Ibn Kathīr explique que le dhikr polit le cœur de la rouille de
+      l'inattention et maintient la connexion du croyant avec le Créateur tout
+      au long de la vie quotidienne. Les hadiths des Ṣaḥīḥ de Muslim et
+      d'al-Bukhārī décrivent le dhikr comme un moyen de protection spirituelle,
+      avec des formules spécifiques qui effacent les péchés et élèvent les rangs.
+      Al-Nawawī, dans al-Adhkār, compila les supplications prophétiques avec
+      leurs chaînes de transmission, établissant le dhikr comme une discipline
+      savante. Les savants classiques distinguèrent le dhikr de la langue et le
+      dhikr du cœur, notant que le premier sans le second est incomplet. Les
+      neurosciences confirment aujourd'hui ce que le Coran affirmait il y a
+      quatorze siècles : le remembrance mental répété et attentif réduit
+      l'anxiété et augmente le bien-être. Pour les musulmans, le dhikr est
+      l'antidote à l'engourdissement spirituel induit par la culture de
+      consommation moderne.
+    reference: Qur'an (al-Raʿd 13:28, al-Aḥzāb 33:35, al-Aḥzāb 33:41-42); Ṣaḥīḥ Muslim 2704, Ṣaḥīḥ al-Bukhārī 6406; al-Nawawī, al-Adhkār
+    source_notes: |
+      Qur'an 13:28 and 33:41 command remembrance; Muslim (2704) and Bukhārī (6406) describe its protective power. Al-Nawawī (al-Adhkār) compiled prophetic supplications with chains, establishing dhikr as a scholarly discipline.
+    source_notes_fr: |
+      Le Coran 13:28 et 33:41 commandent le remembrance ; Muslim (2704) et Bukhārī (6406) décrivent son pouvoir protecteur. Al-Nawawī (al-Adhkār) compila les supplications prophétiques avec leurs chaînes, établissant le dhikr comme une discipline savante.
+    source_notes_ar: |
+      يأمرُ القرآن (١٣:٢٨ و٣٣:٤١) بالذكرِ؛ ويُصِفُ مسلم (٢٧٠٤) والبخاري (٦٤٠٦) قدرتَه الوقائية. وصنَّفَ النوويُّ (الأذكار) الأدعيةَ النبويةَ بأسانيدِها، مُؤسِّسًا للذكرِ علمًا أدبيًّا.
+    display_day_of_year: 284
+    quran_refs: "al-Raʿd 13:28, al-Aḥzāb 33:35, al-Aḥzāb 33:41-42"
+    hadith_refs: "Muslim 2704, Bukhari 6406"
+    source_url: https://sunnah.com/muslim:2704
+
+  - slug: quran-fact-love-of-allah
+    category: quran_hadith_fact
+    title_en: The Love of Allāh — What the Qur'an and Hadith Say About Divine Love
+    title_ar: محبة الله - ما يقوله القرآن والحديث عن المحبة الإلهية
+    title_fr: L'amour d'Allāh — Ce que le Coran et le hadith disent de l'amour divin
+    description_en: |
+      Divine love (maḥabba) occupies the summit of Islamic spirituality, yet it
+      is neither arbitrary nor unconditional in the way modern sentiment assumes.
+      Sūrat al-Baqarah describes believers as loving Allāh more than anything
+      else. Sūrat Āl ʿImrān establishes the reciprocal nature of this love : « Say,
+      if you love Allāh, then follow me, Allāh will love you. » Sūrat al-Māʾidah
+      and Sūrat al-Tawbah set the standard that nothing — family, wealth, or
+      homeland — should rival Allāh in the believer's heart. Ibn al-Qayyim in
+      Madārij al-Sālikīn explains that love of Allāh is both a gift and a
+      cultivation ; it grows through obedience, contemplation of divine
+      attributes, and remembrance. The hadith in Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ
+      Muslim describe Allāh's love for those who persist in optional worship and
+      for those who love one another for His sake. Classical scholars identified
+      signs of divine love : adherence to the Qur'an, following the Sunnah, and
+      preferring the Hereafter over this world. This theology offers Muslims an
+      alternative to the transactional self-esteem culture of modernity, rooting
+      human worth in a relationship with the Eternal.
+    description_ar: |
+      محبةُ الله قمَّةُ التصوف الإسلامي، لكنها ليست عاطفةً اعتباطيةً ولا غيرَ
+      مشروطةٍ كما تفترضه العاطفةُ الحديثة. فسورةُ البقرةِ تصفُ المؤمنين بأنهم
+      يُحبُّون الله أكثرَ من كل شيء. وسورةُ آل عمران تُرسِّخُ طبيعةَ هذه
+      المحبةِ التبادلية: ﴿قُلْ إِن كُنتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي
+      يُحْبِبْكُمُ اللَّهُ﴾. وسورتا المائدة والتوبة تُحدِّدان المعيارَ بأن لا
+      شيءَ - لا عائلةٌ ولا مالٌ ولا وطنٌ - يُنافسُ اللهَ في قلبِ المؤمن.
+      ويشرحُ ابنُ القيم في «مدارج السالكين» أن محبةَ الله هبةٌ وزراعةٌ معًا؛
+      تَنمو بالطاعة وتدبُّرِ صفاتِه والذكر. ويُخبَرُ في صحيحي البخاري ومسلم أن
+      اللهَ يُحبُّ مَن داوم على النوافل، ويُحبُّ مَن تحابَّوا فيه. وحدَّدَ
+      العلماءُ علاماتِ محبةِ الله: التمسُّكُ بالقرآن، والسيرُ على السنة،
+      وتفضيلُ الآخرة على الدنيا. وهذه العقيدةُ تُقدِّمُ للمسلمين بديلًا عن
+      ثقافةِ تقدير الذات التبادلية الحديثة، مُجذِّرةً قيمةَ الإنسان في علاقته
+      مع الأزلي.
+    description_fr: |
+      L'amour divin (maḥabba) occupe le sommet de la spiritualité islamique,
+      mais il n'est ni arbitraire ni inconditionnel comme le suppose le sentiment
+      moderne. La sourate al-Baqara décrit les croyants comme aimant Allāh plus
+      que toute chose. La sourate Āl ʿImran établit la nature réciproque de cet
+      amour : « Dis : Si vous aimez Allāh, suivez-moi, Allāh vous aimera. » Les
+      sourates al-Māʾida et at-Tawba fixent la norme selon laquelle rien —
+      famille, richesse ou patrie — ne doit rivaliser avec Allāh dans le cœur du
+      croyant. Ibn al-Qayyim, dans Madārij al-Sālikīn, explique que l'amour
+      d'Allāh est à la fois un don et une culture ; il croît par l'obéissance, la
+      contemplation des attributs divins et le remembrance. Les hadiths des
+      Ṣaḥīḥ d'al-Bukhārī et de Muslim décrivent l'amour d'Allāh pour ceux qui
+      persistent dans l'adoration surérogatoire et pour ceux qui s'aiment les uns
+      les autres pour Lui. Les savants classiques identifièrent les signes de
+      l'amour divin : l'adhérence au Coran, le suivisme de la Sunna, et la
+      préférence de l'au-delà à ce monde. Cette théologie offre aux musulmans une
+      alternative à la culture transactionnelle de l'estime de soi de la
+      modernité, enracinant la dignité humaine dans une relation avec l'Éternel.
+    reference: Qur'an (al-Baqarah 2:165, Āl ʿImrān 3:31, al-Māʾidah 5:54, at-Tawbah 9:24); Ṣaḥīḥ al-Bukhārī 6041, Ṣaḥīḥ Muslim 145; Ibn al-Qayyim, Madārij al-Sālikīn
+    source_notes: |
+      Qur'an 3:31 makes love conditional on following the Prophet ﷺ; Bukhārī (6041) and Muslim (145) describe Allah's love for those who persist in extra worship. Ibn al-Qayyim (Madārij) explains that divine love grows through obedience and contemplation of the divine attributes.
+    source_notes_fr: |
+      Le Coran 3:31 rend l'amour conditionnel au suivisme du Prophète ﷺ ; Bukhārī (6041) et Muslim (145) décrivent l'amour d'Allah pour ceux qui persistent dans l'adoration surérogatoire. Ibn al-Qayyim (Madārij) explique que l'amour divin croît par l'obéissance et la contemplation des attributs divins.
+    source_notes_ar: |
+      يَجْعلُ القرآن (٣:٣١) المحبةَ مشروطةً باتباعِ النبيِّ ﷺ؛ ويُخبِرُ البخاري (٦٠٤١) ومسلم (١٤٥) عن محبةِ اللهِ لمن داومَ على النوافل. ويُفسِّرُ ابنُ القيم (مدارج) أنَّ المحبةَ الإلهيةَ تَنْمو بالطاعةِ وتدبُّرِ الصفاتِ الإلهية.
+    display_day_of_year: 285
+    quran_refs: "al-Baqarah 2:165, Āl ʿImrān 3:31, al-Māʾidah 5:54, at-Tawbah 9:24"
+    hadith_refs: "Bukhari 6041, Muslim 145"
+    source_url: https://quran.com/2/165
+
+  - slug: quran-fact-fear-of-allah
+    category: quran_hadith_fact
+    title_en: The Fear of Allāh (Khushya) — A Balanced Reverence
+    title_ar: خشية الله - التقوى المتوازنة
+    title_fr: La crainte d'Allāh (khushya) — Une révérence équilibrée
+    description_en: |
+      The Qur'an commands believers to fear Allāh with a reverence that is
+      vigilant, not paralyzing. Sūrat Āl ʿImrān commands : « O you who believe,
+      fear Allāh as He should be feared, and do not die except as Muslims. »
+      Sūrat Fāṭir states that those truly fearful of Allāh are the scholars,
+      while Sūrat al-Ḥashr commands each soul to consider what it has sent forth
+      for tomorrow. Ibn Kathīr explains that khashya is a fear rooted in
+      knowledge — unlike the ignorant terror of the pagan, it is a dignified
+      awareness of divine majesty that produces righteous action. The hadith in
+      Ṣaḥīḥ al-Bukhārī and Ṣaḥīḥ Muslim describe fear of Allāh as the beginning
+      of wisdom and the hallmark of true faith. Ibn Rajab in Jāmiʿ al-ʿUlūm
+      wa-l-Ḥikam notes that fear must be balanced with hope ; either alone leads
+      to spiritual pathology. Classical scholars distinguished between fear of
+      punishment, fear of losing divine pleasure, and fear of falling short in
+      gratitude. In contemporary contexts, where shame and guilt are often
+      pathologized, the Islamic concept of khashya offers a healthy, structured
+      reverence that motivates ethical behavior without destroying self-worth.
+    description_ar: |
+      يأمرُ القرآنُ المؤمنين بخشيةِ الله: رهبةٌ يقظةٌ لا شللية. فسورةُ آل عمران
+      تأمر: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ
+      وَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ﴾. وسورةُ فاطر تُخبِرُ أن
+      الذين يخشون الله حقًا هم العلماء، وسورةُ الحشر تأمرُ كل نفسٍ أن تنظرَ ما
+      قدَّمتْ لغدٍ. ويفسِّرُ ابنُ كثيرٍ أن الخشيةَ رهبةٌ جذرُها العلم - بخلافِ
+      رُعْبِ الجاهل - فهي وعيٌّ كريمٌ بجلال الله يُنتجُ العملَ الصالح. ويُصِفُ
+      حديثُ البخاري ومسلم خشيةَ الله بأنها أصلُ الحكمة وعلامةُ الإيمان
+      الحقيقي. ويلاحظُ ابنُ رجبٍ في «جامع العلوم والحكم» أن الخوفَ لا بدَّ أن
+      يُوازنَه الأمل؛ فكلٌّ وحده يُؤدِّي إلى مرضٍ روحي. وفرَّقَ العلماءُ بين
+      خوفِ العقاب، وخوفِ فقدان الرضا الإلهي، وخوفِ التقصير في الشكر. وفي
+      السياقاتِ المعاصرةِ حيث يُمرَضُ الخزيُ والذنبُ غالبًا، تُقدِّمُ الخشيةُ
+      الإسلاميةُ تقديرًا صحيًّا مُنظَّمًا يُحفِّزُ السلوكَ الأخلاقيَّ بلا
+      تدميرٍ لقيمة الذات.
+    description_fr: |
+      Le Coran commande aux croyants de craindre Allāh avec une révérence
+      vigilante, non paralysante. La sourate Āl ʿImran ordonne : « Ô vous qui
+      croyez, craignez Allāh comme Il doit être craint, et ne mourez pas sans
+      être musulmans. » La sourate Fāṭir déclare que ceux qui craignent
+      véritablement Allāh sont les savants, tandis que la sourate al-Ḥashr
+      commande à chaque âme de considérer ce qu'elle a préparé pour demain. Ibn
+      Kathīr explique que la khushya est une crainte enracinée dans la
+      connaissance — contrairement à la terreur ignorante du païen, c'est une
+      conscience digne de la majesté divine qui produit l'action vertueuse. Les
+      hadiths des Ṣaḥīḥ d'al-Bukhārī et de Muslim décrivent la crainte d'Allāh
+      comme le commencement de la sagesse et la marque de la vraie foi. Ibn
+      Rajab, dans Jāmiʿ al-ʿUlūm wa-l-Ḥikam, note que la crainte doit être
+      équilibrée par l'espérance ; l'une sans l'autre conduit à une pathologie
+      spirituelle. Les savants classiques distinguèrent la crainte du châtiment,
+      la crainte de perdre le plaisir divin, et la crainte de manquer dans la
+      gratitude. Dans les contextes contemporains, où la honte et la culpabilité
+      sont souvent pathologisées, le concept islamique de khushya offre une
+      révérence saine et structurée qui motive le comportement éthique sans
+      détruire l'estime de soi.
+    reference: Qur'an (Āl ʿImrān 3:102, Fāṭir 35:28, al-Ḥashr 59:18); Ṣaḥīḥ al-Bukhārī 6429, Ṣaḥīḥ Muslim 2728; Ibn Rajab, Jāmiʿ al-ʿUlūm wa-l-Ḥikam
+    source_notes: |
+      Qur'an 3:102 commands proper fear; Bukhārī (6429) and Muslim (2728) describe it as the beginning of wisdom. Ibn Rajab (Jāmiʿ al-ʿUlūm) balances fear with hope, noting that either alone leads to spiritual pathology.
+    source_notes_fr: |
+      Le Coran 3:102 commande une crainte convenable ; Bukhārī (6429) et Muslim (2728) la décrivent comme le commencement de la sagesse. Ibn Rajab (Jāmiʿ al-ʿUlūm) équilibre la crainte avec l'espérance, notant que l'une sans l'autre conduit à une pathologie spirituelle.
+    source_notes_ar: |
+      يأمرُ القرآن (٣:١٠٢) بالخشيةِ الحقة؛ ويُصِفُ البخاري (٦٤٢٩) ومسلم (٢٧٢٨) أنَّها أصلُ الحكمة. ويُوازِنُ ابنُ رجبٍ (جامع العلوم) بين الخوفِ والأملِ، مُبيِّنًا أنَّ كلَّ واحدٍ بلا الآخرِ يُؤدِّي إلى مرضٍ روحي.
+    display_day_of_year: 287
+    quran_refs: "Āl ʿImrān 3:102, Fāṭir 35:28, al-Ḥashr 59:18"
+    hadith_refs: "Bukhari 6429, Muslim 2728"
+    source_url: https://quran.com/3/102
+
+  - slug: quran-fact-hope-in-allah
+    category: quran_hadith_fact
+    title_en: Hope in Allāh (Rajāʾ) — Between Despair and Presumption
+    title_ar: الرجاء في الله - بين اليأس والتمني
+    title_fr: L'espérance en Allāh (rajāʾ) — Entre le désespoir et la présomption
+    description_en: |
+      Between the extremes of despair and presumption lies rajāʾ — hope in
+      Allāh that is both confident and conditional. Sūrat Yūsuf records Yaʿqūb's
+      instruction to his sons : « Indeed, no one despairs of relief from Allāh
+      except the disbelieving people. » Sūrat al-Zumar promises that Allāh
+      forgives all sins, while Sūrat al-Sharḥ assures that with hardship comes
+      ease. Ibn al-Qayyim explains that hope is the wings of the believer,
+      lifting him from the earth of sin toward the heaven of mercy. However, he
+      warns that hope without action is delusion, just as action without hope is
+      anxiety. The hadith in Ṣaḥīḥ Muslim and Jāmiʿ at-Tirmidhī describe Allāh's
+      mercy as encompassing everything, including the believer's mistakes,
+      provided they are followed by repentance. Classical scholars formulated the
+      principle that hope and fear should coexist in the believer like two wings
+      of a bird — neither alone suffices for flight. In an era marked by
+      depression on one side and spiritual complacency on the other, the Islamic
+      balance of rajāʾ offers a robust framework : we hope not because we deserve
+      mercy, but because Allāh has promised it to the repentant.
+    description_ar: |
+      بين مطبَّتي اليأس والأماني يقعُ الرجاءُ - الأملُ بالله واثقٌ مشروط.
+      فسورةُ يوسف تسجِّلُ وصيةَ يعقوبَ لبنيه: ﴿إِنَّهُ لَا يَيْأَسُ مِن رَّوْحِ
+      اللَّهِ إِلَّا الْقَوْمُ الْكَافِرُونَ﴾. وسورةُ الزمر تُوعِدُ بأن الله
+      يغفرُ الذنوبَ جميعًا، وسورةُ الشرح تُؤكِّدُ أن مع العسرِ يُسرًا. ويشرحُ
+      ابنُ القيم أن الرجاءَ جناحا المؤمن، يرفعه من ترابِ الذنبِ إلى سماءِ
+      الرحمة. غير أنه يُحذِّرُ من أن الأملَ بلا عملٍ غرورٌ، كما أن العملَ بلا
+      أملٍ قلقٌ. ويُصفُ حديثُ مسلم والترمذي رحمةَ الله بأنها وسعت كل شيءٍ، بما
+      في ذلك زلاتُ المؤمن، شريطةَ أن تُتبعَ بالتوبة. وصاغَ العلماءُ المبدأَ بأن
+      الخوفَ والرجاءَ في المؤمن كجناحي طائرٍ - لا يكفي أحدهما للطيران. وفي عصرٍ
+      يتَّسمُ بالاكتئابِ من جهةٍ والتهاونِ الروحي من أخرى، يُقدِّمُ التوازنُ
+      الإسلاميُّ للرجاءِ إطارًا قويًّا: نرجو لا لأننا نستحق الرحمة، بل لأن الله
+      وَعَدَ بها التائبين.
+    description_fr: |
+      Entre les extrêmes du désespoir et de la présomption se trouve le rajāʾ —
+      l'espérance en Allāh à la fois confiante et conditionnelle. La sourate
+      Yūsuf rapporte l'instruction de Yaʿqūb à ses fils : « En vérité, nul ne
+      désespère de la miséricorde d'Allāh excepté les gens qui mécroient. » La
+      sourate az-Zumar promet qu'Allāh pardonne tous les péchés, tandis que la
+      sourate ash-Sharḥ assure qu'avec la difficulté vient la facilité. Ibn
+      al-Qayyim explique que l'espérance est les ailes du croyant, le soulevant
+      de la terre du péché vers le ciel de la miséricorde. Cependant, il met en
+      garde : l'espérance sans action est illusion, tout comme l'action sans
+      espérance est anxiété. Les hadiths du Ṣaḥīḥ de Muslim et de Jāmiʿ
+      at-Tirmidhī décrivent la miséricorde d'Allāh comme englobant toute chose,
+      y compris les erreurs du croyant, pourvu qu'elles soient suivies de
+      repentir. Les savants classiques formulièrent le principe que l'espérance
+      et la crainte doivent coexister dans le croyant comme les deux ailes d'un
+      oiseau — aucune seule ne suffit pour voler. Dans une ère marquée par la
+      dépression d'un côté et la complaisance spirituelle de l'autre,
+      l'équilibre islamique du rajāʾ offre un cadre robuste : nous espérons non
+      pas parce que nous méritons la miséricorde, mais parce qu'Allāh l'a
+      promise aux repentants.
+    reference: Qur'an (Yūsuf 12:87, al-Zumar 39:53, al-Sharḥ 94:5-6); Ṣaḥīḥ Muslim 2577, Jāmiʿ at-Tirmidhī 3518; Ibn al-Qayyim, Madārij al-Sālikīn
+    source_notes: |
+      Qur'an 12:87 and 39:53 reject despair; Muslim (2577) and Tirmidhī (3518) describe mercy encompassing all things. Ibn al-Qayyim (Madārij) formulates hope and fear as two wings, and scholars warn that hope without action is delusion.
+    source_notes_fr: |
+      Le Coran 12:87 et 39:53 rejettent le désespoir ; Muslim (2577) et Tirmidhī (3518) décrivent la miséricorde englobant toute chose. Ibn al-Qayyim (Madārij) formule l'espérance et la crainte comme deux ailes, et les savants avertissent que l'espérance sans action est illusion.
+    source_notes_ar: |
+      يَرْفُضُ القرآن (١٢:٨٧ و٣٩:٥٣) اليأسَ؛ ويُصِفُ مسلم (٢٥٧٧) والترمذي (٣٥١٨) رحمةً وسعتْ كلَّ شيء. ويَصِفُ ابنُ القيم (مدارج) الخوفَ والرجاءَ بجناحَي طائرٍ، ويُحذِّرُ العلماءُ من أنَّ الأملَ بلا عملٍ غرور.
+    display_day_of_year: 288
+    quran_refs: "Yūsuf 12:87, al-Zumar 39:53, al-Sharḥ 94:5-6"
+    hadith_refs: "Muslim 2577, Tirmidhi 3518"
+    source_url: https://sunnah.com/muslim:2577
+
+  - slug: quran-fact-sincerity-ikhlas
+    category: quran_hadith_fact
+    title_en: Ikhlāṣ (Sincerity) — The Hidden Foundation of Every Deed
+    title_ar: الإخلاص - الأساس الخفي لكل عمل
+    title_fr: L'ikhlāṣ (sincérité) — Le fondement caché de chaque œuvre
+    description_en: |
+      Ikhlāṣ is the hidden foundation without which no outward deed is accepted
+      by Allāh. Sūrat al-Bayyina states that the religion was only commanded to
+      worship Allāh, making it sincerely for Him. Sūrat al-Zumar commands
+      sincerity in religion, and Sūrat Ṣād praises the sincere ones. Ibn Kathīr
+      explains that ikhlāṣ means purifying one's intention from any share of
+      showing off (riyāʾ) or seeking worldly reward. The hadith in Ṣaḥīḥ Muslim
+      and Ṣaḥīḥ al-Bukhārī establish that actions are judged by intentions, and
+      that showing off is minor shirk. Ibn Rajab in Jāmiʿ al-ʿUlūm wa-l-Ḥikam
+      devotes chapters to the subtle ways sincerity is corrupted — through
+      desire for praise, fear of blame, or even self-satisfaction with one's
+      piety. Classical scholars taught that ikhlāṣ is more difficult than the
+      action itself, requiring constant self-examination (muḥāsaba). In a social
+      media age where every act is potentially performative, the Islamic emphasis
+      on ikhlāṣ challenges Muslims to cultivate private devotion that seeks only
+      the Face of Allāh, transforming ordinary actions into eternal investments.
+    description_ar: |
+      الإخلاصُ الأساسُ الخفيُّ الذي بلاه لا يقبلُ اللهُ عملًا ظاهرًا. فسورةُ
+      البينةِ تُخبِرُ أن الدينَ لم يُؤمَرْ إلا ليعبدوا الله مخلصين له الدين.
+      وسورةُ الزمرِ تأمرُ بإخلاصِ الدين، وسورةُ ص تُمدحُ المخلصين. ويفسِّرُ ابنُ
+      كثيرٍ أن الإخلاصَ تطهيرُ النيةِ من أيِّ شركٍ في الرياء أو طلبِ ثناء
+      الدنيا. ويُرسِّخُ حديثُ مسلم والبخاري أن الأعمالَ بالنيات، وأن الرياءَ شركٌ
+      أصغر. ويُخصِّصُ ابنُ رجبٍ في «جامع العلوم والحكم» فصولاً للطرقِ الخفيةِ
+      التي يُفسَدُ بها الإخلاص - كالرغبةِ في المدح، أو الخوفِ من الذم، أو حتى
+      الاطمئنانِ إلى تقوى النفس. وعلَّمَ العلماءُ أن الإخلاصَ أشقُّ من العملِ
+      ذاته، ويحتاجُ إلى محاسبةٍ دائمة. وفي عصرِ وسائل التواصل حيث يصبحُ كل فعلٍ
+      مؤدًّى محتملًا، يتحدى التأكيدُ الإسلاميُّ على الإخلاص المسلمينَ إلى
+      تربيةِ عبادةٍ خاصةٍ تطلبُ وجهَ الله وحده، مُحوِّلةً الأعمالَ العاديةَ إلى
+      استثماراتٍ أبدية.
+    description_fr: |
+      L'ikhlāṣ est le fondement caché sans lequel aucun acte extérieur n'est
+      accepté par Allāh. La sourate al-Bayyina déclare que la religion n'a été
+      commandée que pour adorer Allāh en Lui vouant le culte exclusivement. La
+      sourate az-Zumar commande la sincérité dans la religion, et la sourate Ṣād
+      loue les sincères. Ibn Kathīr explique que l'ikhlāṣ signifie purifier son
+      intention de toute part de vaine gloire ou de recherche de récompense
+      mondaine. Les hadiths des Ṣaḥīḥ de Muslim et d'al-Bukhārī établissent que
+      les actes sont jugés par les intentions, et que la vaine gloire est le
+      petit shirk. Ibn Rajab, dans Jāmiʿ al-ʿUlūm wa-l-Ḥikam, consacre des
+      chapitres aux manières subtiles dont la sincérité est corrompue — par le
+      désir de louange, la crainte du blâme, ou même la satisfaction de sa
+      propre piété. Les savants classiques enseignèrent que l'ikhlāṣ est plus
+      difficile que l'acte lui-même, exigeant un examen de conscience constant.
+      À l'ère des réseaux sociaux où chaque acte est potentiellement performatif,
+      l'accent islamique sur l'ikhlāṣ interpelle les musulmans pour qu'ils
+      cultivent une dévotion privée ne cherchant que la Face d'Allāh,
+      transformant les actions ordinaires en investissements éternels.
+    reference: Qur'an (al-Bayyina 98:5, al-Zumar 39:2, Ṣād 38:46); Ṣaḥīḥ Muslim 2985, Ṣaḥīḥ al-Bukhārī 1; Ibn Rajab, Jāmiʿ al-ʿUlūm wa-l-Ḥikam
+    source_notes: |
+      Qur'an 98:5 commands pure worship; Muslim (2985) and Bukhārī (1) establish intention as the criterion. Ibn Rajab (Jāmiʿ al-ʿUlūm) traces subtle corruptions of sincerity, and scholars teach that ikhlāṣ is harder than the deed itself.
+    source_notes_fr: |
+      Le Coran 98:5 commande l'adoration pure ; Muslim (2985) et Bukhārī (1) établissent l'intention comme critère. Ibn Rajab (Jāmiʿ al-ʿUlūm) trace les corruptions subtiles de la sincérité, et les savants enseignent que l'ikhlāṣ est plus difficile que l'acte lui-même.
+    source_notes_ar: |
+      يأمرُ القرآن (٩٨:٥) بالعبادةِ الخالصة؛ ويُرسِّخُ مسلم (٢٩٨٥) والبخاري (١) النيةَ معيارًا. ويتتبعُ ابنُ رجبٍ (جامع العلوم) طرقَ إفسادِ الإخلاصِ الخفيةَ، ويُعلِّمُ العلماءُ أنَّ الإخلاصَ أشقُّ من العملِ ذاته.
+    display_day_of_year: 289
+    quran_refs: "al-Bayyina 98:5, al-Zumar 39:2, Ṣād 38:46"
+    hadith_refs: "Muslim 2985, Bukhari 1"
+    source_url: https://sunnah.com/bukhari:1
+
+  - slug: quran-fact-intention-niyya
+    category: quran_hadith_fact
+    title_en: The Intention (Niyya) — Why Actions Are Judged by Intentions
+    title_ar: النية - لماذا تُقاس الأعمال بالنوايا
+    title_fr: L'intention (niyya) — Pourquoi les actes sont jugés par les intentions
+    description_en: |
+      The primacy of intention in Islam is established by what al-Nawawī called
+      the foundation of half the religion : the hadith « Actions are judged by
+      intentions » recorded as the very first narration in Ṣaḥīḥ al-Bukhārī and
+      also in Ṣaḥīḥ Muslim. This principle means that the identical external act
+      can be worship, custom, or sin depending on the inner motive. Al-Nawawī in
+      his Sharḥ Ṣaḥīḥ Muslim explains that this hadith encompasses all
+      categories of Islamic law — ritual, transactional, and penal. Ibn Rajab in
+      Jāmiʿ al-ʿUlūm wa-l-Ḥikam traces how the early generations scrutinized
+      their motives before every action, from prayer to trade to marriage. The
+      Qur'an supports this in multiple verses commanding purity of purpose,
+      though the hadith provides the explicit jurisprudential framework.
+      Classical scholars derived that intention must precede the act, accompany
+      it, and determine its category. For example, washing before prayer is
+      purification ; without the intention, it remains mere bathing. In modern
+      life, where efficiency and outcomes are often valued over purpose, the
+      Islamic doctrine of niyya redirects attention inward, asking not just
+      « what did I do ? » but « why did I do it ? » — transforming routine into
+      mindfulness and professionalism into worship.
+    description_ar: |
+      أُسِّسَتْ مقدَّمةُ النيةِ في الإسلام بما سمَّاه النوويُّ أصلَ نصفِ
+      الدين: حديث «إنما الأعمال بالنيات» الذي وضعه البخاري أولَ حديثٍ في
+      صحيحه، ورواه مسلمٌ أيضًا. وهذا المبدأُ يعني أن الفعلَ الخارجيَّ
+      المتماثلَ قد يكون عبادةً أو عادةً أو ذنبًا بحسب الباعثِ الداخلي.
+      ويُفسِّرُ النوويُّ في «شرح صحيح مسلم» أن هذا الحديثَ يشملُ جميعَ فروعِ
+      الشريعة: العبادات والمعاملات والجزاءات. ويتتبعُ ابنُ رجبٍ في «جامع العلوم
+      والحكم» كيف كان السلفُ يُدقِّقون في نواياهم قبل كل فعلٍ، من الصلاة إلى
+      التجارة إلى الزواج. ويؤيِّدُ القرآنُ هذا بآياتٍ متعددةٍ تأمرُ بإخلاصِ
+      القصد، وإن كان الحديثُ يُقدِّمُ الإطارَ الفقهيَّ الصريح. واستنبطَ
+      الفقهاءُ أن النيةَ لا بدَّ أن تسبقَ الفعلَ وتُحاذيَهُ وتُحدِّدَ صنفَه.
+      فالوضوءُ قبل الصلاة طهارةٌ؛ وبلا نيةٍ يبقى غسلًا عاديًّا. وفي الحياة
+      الحديثة حيث تُقدَّمُ الكفاءةُ والنتائجُ على الهدف، تُعيدُ عقيدةُ النيةِ
+      التوجيهَ إلى الداخل، لتسألَ ليس ماذا فعلتُ بل لماذا فعلتُ - مُحوِّلةً
+      الروتينَ إلى يقظةٍ والمهنيةَ إلى عبادة.
+    description_fr: |
+      La primauté de l'intention en Islam est établie par ce qu'al-Nawawī
+      appela le fondement de la moitié de la religion : le hadith « Les actes ne
+      valent que par les intentions », consigné comme la toute première
+      narration du Ṣaḥīḥ d'al-Bukhārī et également présent dans le Ṣaḥīḥ de
+      Muslim. Ce principe signifie que l'acte extérieur identique peut être
+      adoration, coutume ou péché selon le motif intérieur. Al-Nawawī, dans son
+      Sharḥ Ṣaḥīḥ Muslim, explique que ce hadith englobe toutes les catégories
+      du droit islamique — rituel, transactionnel et pénal. Ibn Rajab, dans
+      Jāmiʿ al-ʿUlūm wa-l-Ḥikam, retrace comment les premières générations
+      examinaient leurs motifs avant chaque action, de la prière au commerce au
+      mariage. Le Coran soutient cela en de multiples versets commandant la
+      pureté de but, bien que le hadith fournisse le cadre jurisprudentiel
+      explicite. Les savants classiques en déduisirent que l'intention doit
+      précéder l'acte, l'accompagner et déterminer sa catégorie. Par exemple, se
+      laver avant la prière est une purification ; sans l'intention, cela reste
+      un simple bain. Dans la vie moderne, où l'efficacité et les résultats sont
+      souvent valorisés au-dessus du but, la doctrine islamique de la niyya
+      réoriente l'attention vers l'intérieur, posant non seulement la question
+      « qu'ai-je fait ? » mais « pourquoi l'ai-je fait ? » — transformant la
+      routine en pleine conscience et le professionnalisme en adoration.
+    reference: Ṣaḥīḥ al-Bukhārī 1, Ṣaḥīḥ Muslim 1907; Ibn Rajab, Jāmiʿ al-ʿUlūm wa-l-Ḥikam; al-Nawawī, Sharḥ Ṣaḥīḥ Muslim
+    source_notes: |
+      Bukhārī (1) and Muslim (1907) record the primacy of intention; al-Nawawī explains it governs all categories of law, and Ibn Rajab shows the Salaf scrutinized motives before every act.
+    source_notes_fr: |
+      Bukhārī (1) et Muslim (1907) consignent la primauté de l'intention ; al-Nawawī explique qu'elle régit toutes les catégories du droit, et Ibn Rajab montre que les Salaf examinaient leurs motifs avant chaque acte.
+    source_notes_ar: |
+      يُسَجِّلُ البخاري (١) ومسلم (١٩٠٧) مقدَّمةَ النية؛ ويُفسِّرُ النوويُّ أنَّها تُحكِمُ جميعَ فروعِ الشريعة، ويُبيِّنُ ابنُ رجبٌ أنَّ السلفَ كانوا يُدقِّقون في نواياهم قبلَ كلِّ فعل.
+    display_day_of_year: 290
+    hadith_refs: "Bukhari 1, Muslim 1907"
+    source_url: https://sunnah.com/bukhari:1
+
+  - slug: quran-fact-knowledge-in-islam
+    category: quran_hadith_fact
+    title_en: Knowledge in Islam — The First Word Revealed Was 'Read'
+    title_ar: العلم في الإسلام - أول كلمة نزلت "اقرأ"
+    title_fr: Le savoir en Islam — Le premier mot révélé fut « Lis »
+    description_en: |
+      The Qur'anic revelation began with the command « Read » (iqraʾ) in Sūrat
+      al-ʿAlaq, establishing knowledge as the first word of the new dispensation.
+      Sūrat Ṭā Hā commands the Prophet Muhammad ﷺ to say, « My Lord, increase me
+      in knowledge, » while Sūrat al-Mujādilah promises that Allāh raises those
+      who believe and those who have been given knowledge by degrees. Ibn Kathīr
+      explains that these verses elevate knowledge (ʿilm) above mere information
+      to a form of worship and proximity to Allāh. The hadith in Ṣaḥīḥ
+      al-Bukhārī and Ṣaḥīḥ Muslim establish seeking knowledge as an obligation
+      upon every Muslim and describe the superiority of the scholar over the
+      worshipper. Classical scholars distinguished between farḍ ʿayn —
+      personally obligatory knowledge, such as basic beliefs and practices — and
+      farḍ kifāya — communally obligatory knowledge, such as medicine and
+      engineering. Ibn al-Qayyim noted that the first revelation connected
+      knowledge with the name of Allāh — « Read in the name of your Lord » —
+      teaching that all true knowledge begins with divine acknowledgment. In an
+      era of information overload and epistemic confusion, the Islamic framework
+      distinguishes beneficial knowledge from harmful curiosity, urging Muslims
+      to seek what purifies the heart and benefits society.
+    description_ar: |
+      بدأ الوحيُ القرآنيُّ بالأمرِ «اقرأ» في سورة العلق، مُؤسِّسًا للعلمِ
+      كلمةَ الانطلاقةِ الأولى في الشريعة الجديدة. وسورةُ طه تأمرُ النبيَّ ﷺ أن
+      يقولَ: «رَبِّ زِدْنِي عِلْمًا»، وسورةُ المجادلة تُوعِدُ بأن اللهَ يرفعُ
+      الذين آمنوا والذين أوتوا العلمَ درجات. ويفسِّرُ ابنُ كثيرٍ أن هذه الآياتِ
+      تُرتقي بالعلمِ من مجردِ المعلومات إلى صورةِ عبادةٍ وقربةٍ من الله.
+      ويُرسِّخُ حديثُ البخاري ومسلم أن طلبَ العلمِ فريضةٌ على كل مسلمٍ، ويُصفُّ
+      تفوقَ العالمِ على العابد. وفرَّقَ الفقهاءُ بين العلمِ الفرضِ العين - كمعرفةِ
+      العقائد والعبادات الأساسية - والعلمِ الفرضِ الكفاية - كالطبِّ والهندسة.
+      ويلاحظُ ابنُ القيم أن الفتحةَ الأولى للوحي ربطتِ العلمَ باسمِ الله -
+      «اقرأ باسم ربك» - مُعلِّمةً أن كلَّ علمٍ حقيقيٍّ يبدأ بالإقرار بالإلهية.
+      وفي عصرِ زخمِ المعلومات والارتباكِ المعرفي، يميِّزُ الإطارُ الإسلاميُّ بين
+      العلمِ النافعِ والتجوُّلِ الضارِّ في الفضول، حاثًّا المسلمين على طلبِ ما
+      يُطهِّرُ القلبَ ويَنتفعُ به المجتمع.
+    description_fr: |
+      La révélation coranique commença par le commandement « Lis » (iqraʾ) dans
+      la sourate al-ʿAlaq, établissant le savoir comme le premier mot de la
+      nouvelle dispensation. La sourate Ṭā Hā commande au Prophète Muhammad ﷺ de
+      dire : « Mon Seigneur, accrois-moi en savoir », tandis que la sourate
+      al-Mujādila promet qu'Allāh élève degrés ceux qui croient et ceux à qui le
+      savoir a été donné. Ibn Kathīr explique que ces versets élèvent le savoir
+      au-delà de la simple information pour en faire une forme d'adoration et de
+      proximité avec Allāh. Les hadiths des Ṣaḥīḥ d'al-Bukhārī et de Muslim
+      établissent la quête du savoir comme une obligation pour chaque musulman et
+      décrivent la supériorité du savant sur l'adorateur. Les savants classiques
+      distinguèrent le farḍ ʿayn — savoir personnellement obligatoire, telles les
+      croyances et pratiques de base — et le farḍ kifāya — savoir
+      communautairement obligatoire, tels la médecine et l'ingénierie. Ibn
+      al-Qayyim nota que la première révélation connecta le savoir au nom
+      d'Allāh — « Lis au nom de ton Seigneur » — enseignant que tout savoir
+      véritable commence par la reconnaissance divine. À une époque de surcharge
+      informationnelle et de confusion épistémique, le cadre islamique distingue
+      le savoir bénéfique de la curiosité nuisible, exhortant les musulmans à
+      chercher ce qui purifie le cœur et profite à la société.
+    reference: Qur'an (al-ʿAlaq 96:1, Ṭā Hā 20:114, al-Mujādilah 58:11); Ṣaḥīḥ al-Bukhārī 71, Ṣaḥīḥ Muslim 2393; Ibn Kathīr, Tafsīr
+    source_notes: |
+      Qur'an 96:1 and 20:114 establish knowledge as worship; Bukhārī (71) and Muslim (2393) make its seeking obligatory. Ibn al-Qayyim notes that "read in the name of your Lord" ties all knowledge to divine acknowledgment, and scholars distinguish farḍ ʿayn from farḍ kifāya.
+    source_notes_fr: |
+      Le Coran 96:1 et 20:114 établissent le savoir comme adoration ; Bukhārī (71) et Muslim (2393) rendent sa quête obligatoire. Ibn al-Qayyim note que « Lis au nom de ton Seigneur » lie tout savoir à la reconnaissance divine, et les savants distinguent le farḍ ʿayn du farḍ kifāya.
+    source_notes_ar: |
+      يُؤسِّسُ القرآن (٩٦:١ و٢٠:١١٤) العلمَ عبادةً؛ ويجعلُ البخاري (٧١) ومسلم (٢٣٩٣) طلبَه فريضةً. ويلاحظُ ابنُ القيم أنَّ «اقرأ باسم ربك» تَرْبِطُ كلَّ علمٍ بالإقرارِ بالإلهية، ويُميِّزُ العلماءُ بين الفرضِ العينِ والفرضِ الكفاية.
+    display_day_of_year: 291
+    quran_refs: "al-ʿAlaq 96:1, Ṭā Hā 20:114, al-Mujādilah 58:11"
+    hadith_refs: "Bukhari 71, Muslim 2393"
+    source_url: https://quran.com/96/1

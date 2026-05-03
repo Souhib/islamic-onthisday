@@ -1,0 +1,684 @@
+# Additional hadith narratives with multilingual titles and descriptions.
+# All entries include English, Arabic, and French fields.
+
+lessons:
+- slug: hadith-ashab-al-ukhdud
+  category: hadith_narrative
+  title_en: The Boy, the Monk, and the Tyrant — When Fire Bows to Faith
+  title_ar: الغلام والراهب والملك — حين تنحني النار للإيمان
+  title_fr: Le garçon, le moine et le tyran — quand le feu s'incline devant la foi
+  description_en: 'The Prophet ﷺ narrated the story of a boy born to a believing mother under a tyrannical king who demanded
+    to be worshipped as a god. The king''s sorcerer, growing old, sought a successor and found a young monk who taught the
+    boy true monotheism. The boy''s healing powers — granted by Allah — attracted the king''s attention. Each time the king
+    tried to kill him, Allah turned the execution into a miracle: arrows missed, a mountain collapsed around him harmlessly,
+    and finally, when thrown into a blazing fire pit, the fire cooled into a garden for him while the onlookers perished.
+    Before his martyrdom, the boy instructed the king that only the people''s collective testimony could kill him. They gathered
+    on a high plain, he prayed, and an arrow struck him through the heart — but not before the entire nation embraced his
+    faith. Ibn Kathir, in al-Bidaya wa al-Nihaya, explains that this hadith is a proof that sincere faith can transform instruments
+    of destruction into means of salvation. Ibn Rajab adds that the boy''s strategy of collective witnessing ensured the da''wah
+    outlived his body. For the Muslim today, the lesson is that tyrants build fires to silence truth, but the fire only reveals
+    the faithful to the watching world.'
+  description_ar: 'قال النبي ﷺ: «كَانَ فِيمَنْ كَانَ قَبْلَكُمْ مَلِكٌ وَكَانَ لَهُ سَاحِرٌ...» فَوَلَدَتْ أُمٌّ مُؤْمِنَةٌ
+    غُلَامًا تَعَلَّمَ التَّوْحِيدَ مِنْ رَاهِبٍ، وَأَعْطَاهُ اللَّهُ شِفَاءَ الْأَمْرَاضِ. فَكُلَّمَا أَرَادَ الْمَلِكُ قَتْلَهُ
+    نَجَاهُ اللَّهُ: سَهْمٌ يَخْطَئُ، وَجَبَلٌ يَعُودُ، وَنَارٌ تَصِيرُ جَنَّةً. ثُمَّ أَمَرَ الْغُلَامُ أَنْ يُقْتَلَ بِشَهَادَةِ
+    النَّاسِ جَمِيعًا، فَصَلَّى وَقَتَلَهُ سَهْمٌ. يُفَسِّرُ ابْنُ كَثِيرٍ فِي «الْبِدَايَةِ وَالنِّهَايَةِ» أَنَّ الْحَدِيثَ
+    دَلِيلٌ عَلَى أَنَّ الْإِيمَانَ الْخَالِصَ يُحَوِّلُ آلَاتِ الْهَلَاكِ إِلَى وِسَاطِ نَجَاةٍ. وَيُضِيفُ ابْنُ رَجَبٍ أَنَّ
+    تَدْبِيرَ الشَّهَادَةِ الْجَمَاعِيَّةَ ضَمِنَ أَنْ تَبْقَى الدَّعْوَةُ بَعْدَ رَحِيلِ الْجِسْمِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ
+    أَنَّ الطَّغَاةَ يَبْنُونَ نِيرَانًا لِكَظْمِ الْحَقِّ، وَلَكِنَّ النَّارَ لَا تَكْظِمُ الْحَقَّ بَلْ تُظْهِرُهُ.'
+  description_fr: 'Le Prophète Muhammad ﷺ raconta l''histoire d''un garçon né d''une mère croyante sous un roi tyrannique
+    qui exigeait d''être adoré comme un dieu. Le sorcier du roi, devenu vieux, chercha un successeur et trouva un jeune moine
+    qui enseigna au garçon le vrai monothéisme. Les pouvoirs de guérison du garçon — accordés par Allah — attirèrent l''attention
+    du roi. Chaque fois que le roi tenta de le tuer, Allah transforma l''exécution en miracle : les flèches manquèrent leur
+    cible, une montagne s''effondra autour de lui sans lui nuire, et finalement, lorsqu''on le jeta dans un brasier ardent,
+    le feu se refroidit en un jardin pour lui tandis que les spectateurs périssaient. Avant son martyre, le garçon instruisit
+    le roi que seul le témoignage collectif du peuple pourrait le tuer. Ils se rassemblèrent sur une plaine élevée, il pria,
+    et une flèche lui transperça le cœur — mais pas avant que toute la nation n''embrasse sa foi. Ibn Kathir, dans al-Bidaya
+    wa al-Nihaya, explique que ce hadith prouve que la foi sincère peut transformer les instruments de destruction en moyens
+    de salut. Ibn Rajab ajoute que la stratégie du garçon de recourir au témoignage collectif assura que la da''wah survivrait
+    à son corps. Pour le musulman d''aujourd''hui, la leçon est que les tyrans construisent des feux pour réduire le silence
+    à la vérité, mais le feu ne fait que révéler les fidèles au monde qui observe.'
+  reference: Sahih Muslim 3005, Sahih al-Bukhari 7033
+  hadith_refs: Muslim 3005, Bukhari 7033
+  source_notes: |
+    Ibn Kathīr (al-Bidāya wa-l-Nihāya) treats this hadith as a proof that sincere faith transforms instruments of destruction into means of salvation. Ibn Rajab (Jāmiʿ al-ʿUlūm) adds that the boy's strategy of collective witnessing ensured the daʿwa outlived his body. The hadith is the primary narrative basis for Sūrat al-Burūj and is graded ṣaḥīḥ by al-Albānī.
+  source_notes_fr: |
+    Ibn Kathīr (al-Bidāya wa-l-Nihāya) traite ce hadith comme une preuve que la foi sincère transforme les instruments de destruction en moyens de salut. Ibn Rajab (Jāmiʿ al-ʿUlūm) ajoute que la stratégie du garçon de recourir au témoignage collectif assura que la daʿwa survivrait à son corps. Ce hadith est le fondement narratif principal de la Sūrat al-Burūj et est gradé ṣaḥīḥ par al-Albānī.
+  source_notes_ar: |
+    يَعْتَبِرُ ابْنُ كَثِيرٍ فِي «الْبِدَايَةِ وَالنِّهَايَةِ» هَذَا الْحَدِيثَ دَلِيلًا عَلَى أَنَّ الْإِيمَانَ الْخَالِصَ يُحَوِّلُ آلَاتِ الْهَلَاكِ إِلَى وَسَائِطَ نَجَاةٍ. وَيُضِيفُ ابْنُ رَجَبٍ فِي «جَامِعِ الْعُلُومِ» أَنَّ تَدْبِيرَ الشَّهَادَةِ الْجَمَاعِيَّةَ ضَمِنَ أَنْ تَبْقَى الدَّعْوَةُ بَعْدَ رَحِيلِ الْجِسْمِ. وَهَذَا الْحَدِيثُ هُوَ الْأَصْلُ النَّظَرِيُّ الْأَوَّلُ لِسُورَةِ الْبُرُوجِ، وَقَدْ حَكَمَ عَلَيْهِ الْأَلْبَانِيُّ بِالصَّحَاحِ.
+  display_day_of_year: 123
+  source_url: https://sunnah.com/muslim:3005
+- slug: hadith-jurayj-the-worshipper
+  category: hadith_narrative
+  title_en: Jurayj the Worshipper — When a Mother's Call Overrides the Prayer
+  title_ar: جريج العابد — حين تسبق نداء الأم الصلاة
+  title_fr: Jurayj l'adorateur — quand l'appel d'une mère prime sur la prière
+  description_en: 'The Prophet ﷺ narrated the story of Jurayj, a devoted worshipper who built a hermitage and devoted himself
+    to prayer and fasting. His mother once came to him while he was praying and called out, but he thought to himself: ''O
+    Allah, my mother or my prayer?'' and continued praying. She left in anger. The next day she returned and he did the same.
+    On the third day, she cursed him — not in malice but in maternal grief — saying: ''May you not die until you see the faces
+    of prostitutes.'' Years later, a group of Israelites plotted against him: they sent a beautiful woman to seduce him, and
+    when he refused, she accused him of fathering her child. The people dragged him out, destroyed his hermitage, and brought
+    him to the king. At that moment, the infant in the woman''s arms spoke: ''O people, leave my father alone, for the one
+    who did this to him is such-and-such a shepherd.'' Ibn Kathir notes that the speaking infant was a divine vindication
+    of Jurayj''s innocence, but the deeper lesson is the mother''s right: Al-Nawawi explains that the hadith corrects the
+    imbalance between ritual devotion and filial duty. For the Muslim today, the narrative is a warning that no spiritual
+    height excuses neglect of parents, and that sincerity is tested not only in the prayer niche but in the living room.'
+  description_ar: 'قال النبي ﷺ: «كَانَ جُرَيْجٌ عَابِدًا...» فَبَنَى صَوْمَعَةً وَتَفَرَّغَ لِلْعِبَادَةِ. فَجَاءَتْ أُمُّهُ
+    وَهُوَ يُصَلِّي فَنَادَتْهُ، فَقَالَ فِي نَفْسِهِ: يَا رَبِّ أُمِّي أَوْ صَلَاتِي؟ وَاسْتَمَرَّ فِي صَلَاتِهِ. فَغَضِبَتْ
+    وَدَعَتْ عَلَيْهِ. وَبَعْدَ سِنِينَ أَرْسَلَتْ إِلَيْهِ امْرَأَةٌ فَتَنَتْهُ فَلَمْ يَنْجَرِفْ، فَاتَّهَمَتْهُ بِالزِّنَا.
+    فَهَدَمُوا صَوْمَعَتَهُ وَجَرُّوهُ، فَتَكَلَّمَ الطِّفْلُ فَبَرَّأَهُ. يُشِيرُ ابْنُ كَثِيرٍ إِلَى أَنَّ نُطْقَ الرَّضِيعِ
+    كَانَ تَبْرِئَةً إِلَهِيَّةً، وَيُوَضِّحُ النَّوَوِيُّ أَنَّ الْحَدِيثَ يُصَحِّحُ الْمِيزَانَ بَيْنَ التَّفَرُّغِ الرُّوحِيِّ
+    وَحَقِّ الْوَالِدَيْنِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ لَا قِمَّةً رُوحِيَّةَ تُبْرِّرُ إِهْمَالَ الْوَالِدَيْنِ،
+    وَأَنَّ الْإِخْلَاصَ يُخْتَبَرُ لَا فِي الْمِحْرَابِ فَحَسْبُ بَلْ فِي بَيْتِ الْعَائِلَةِ.'
+  description_fr: 'Le Prophète Muhammad ﷺ raconta l''histoire de Jurayj, un adorateur dévoué qui construisit une cellule et
+    se consacra à la prière et au jeûne. Sa mère vint un jour le trouver tandis qu''il priait et l''appela, mais il pensa
+    en lui-même : ''Ô Allah, ma mère ou ma prière ?'' et continua de prier. Elle partit en colère. Le lendemain, elle revint
+    et il fit de même. Le troisième jour, elle le maudit — non par méchanceté mais par chagrin maternel — en disant : ''Puisses-tu
+    ne pas mourir avant d''avoir vu les visages de prostituées.'' Des années plus tard, un groupe d''Israélites complota contre
+    lui : ils envoyèrent une belle femme pour le séduire, et lorsqu''il refusa, elle l''accusa d''être le père de son enfant.
+    Le peuple le traîna dehors, détruisit sa cellule et l''amena devant le roi. À ce moment, le nourrisson dans les bras de
+    la femme parla : ''Ô gens, laissez mon père tranquille, car celui qui a fait cela à mon père est tel-et-tel berger.''
+    Ibn Kathir note que le nourrisson parlant fut une justification divine de l''innocence de Jurayj, mais la leçon plus profonde
+    est le droit de la mère : Al-Nawawi explique que ce hadith corrige le déséquilibre entre la dévotion rituelle et le devoir
+    filial. Pour le musulman d''aujourd''hui, ce récit est un avertissement qu''aucune hauteur spirituelle n''excuse la négligence
+    des parents, et que la sincérité est mise à l''épreuve non seulement dans la niche de prière mais aussi dans le salon.'
+  reference: Sahih al-Bukhari 3436, Sahih Muslim 2550
+  hadith_refs: Bukhari 3436, Muslim 2550
+  source_notes: |
+    Al-Nawawī (Sharḥ Muslim) explains that the hadith corrects the imbalance between ritual devotion and filial duty: the mother's call should have been answered. Ibn Kathīr notes that the speaking infant was a divine vindication of Jurayj's innocence, but the deeper lesson is that no spiritual height excuses neglect of parents. This hadith is cited in works on the rights of parents and the limits of individual asceticism.
+  source_notes_fr: |
+    Al-Nawawī (Sharḥ Muslim) explique que ce hadith corrige le déséquilibre entre la dévotion rituelle et le devoir filial : l'appel de la mère aurait dû être entendu. Ibn Kathīr note que le nourrisson parlant fut une justification divine de l'innocence de Jurayj, mais la leçon plus profonde est qu'aucune hauteur spirituelle n'excuse la négligence des parents. Ce hadith est cité dans les ouvrages sur les droits des parents et les limites de l'ascétisme individuel.
+  source_notes_ar: |
+    يُوَضِّحُ النَّوَوِيُّ فِي «شَرْحِ صَحِيحِ مُسْلِمٍ» أَنَّ هَذَا الْحَدِيثَ يُصَحِّحُ الْمِيزَانَ بَيْنَ التَّفَرُّغِ الرُّوحِيِّ وَحَقِّ الْوَالِدَيْنِ: كَانَ يَجِبُ أَنْ يُجَابَ نِدَاءُ الْأُمِّ. وَيُشِيرُ ابْنُ كَثِيرٍ إِلَى أَنَّ نُطْقَ الرَّضِيعِ كَانَ تَبْرِئَةً إِلَهِيَّةً، وَلَكِنَّ الدَّرْسَ الْأَعْمَقَ أَنَّ لَا قِمَّةً رُوحِيَّةَ تُبَرِّرُ إِهْمَالَ الْوَالِدَيْنِ. يُسْتَشْهَدُ بِهَذَا الْحَدِيثِ فِي كُتُبِ حُقُوقِ الْوَالِدَيْنِ وَحُدُودِ الزُّهْدِ الْفَرْدِيِّ.
+  display_day_of_year: 124
+  source_url: https://sunnah.com/bukhari:3436
+- slug: hadith-wealthy-man-and-two-gardens
+  category: hadith_narrative
+  title_en: The Man with Two Gardens — When Wealth Becomes a Trial
+  title_ar: صاحب الجنتين — حين يصير الغنى اختبارًا
+  title_fr: L'homme aux deux jardins — quand la richesse devient une épreuve
+  description_en: |
+    The Prophet ﷺ recited the parable of a man whom Allah had blessed with two magnificent gardens, their date-palms in rows and their rivers flowing beneath them. The man, intoxicated by his possessions, entered one garden and declared: "I do not think this will ever perish, and I do not think the Hour will be established. Even if I am returned to my Lord, I will surely find something better than this in exchange." His believing companion reminded him to glorify Allah and warned him against the ingratitude of denying the One who had created him from dust and granted him all he possessed. But the man's gardens were struck by a divine calamity that reduced them to barren ruin, and he regretted his arrogance too late. Al-Saʿdī, in Taysīr al-Karīm al-Raḥmān, explains that this Qur'anic parable — narrated by the Prophet ﷺ — reveals how wealth transforms from blessing to trial when it breeds arrogance and forgetfulness of the Hereafter. Ibn al-Qayyim, in Madārij al-Sālikīn, warns that attachment to possessions hardens the heart more than poverty does. For the Muslim today, the lesson is to view wealth as a trust rather than a trophy, to say "if Allah wills" before every plan, and to remember that gardens are given as a test of gratitude, not proof of superiority.
+  description_ar: |
+    قال النبي ﷺ بِتَلَاوَةِ مَثَلِ رَجُلٍ آتَاهُ اللَّهُ جَنَّتَيْنِ مِنْ نَخِيلٍ وَأَنْهَارٍ، فَدَخَلَ إِحْدَاهُمَا وَقَالَ: «مَا أَظُنُّ أَنْ تَبِيدَ هَذِهِ أَبَدًا، وَمَا أَظُنُّ السَّاعَةَ قَائِمَةً...» فَذَكَّرَهُ صَاحِبُهُ الْمُؤْمِنُ أَنْ يُسَبِّحَ اللَّهَ وَلَا يَكْفُرَ بِخَالِقِهِ، فَأُصِيبَتْ جَنَّتَاهُ بِعَذَابٍ إِلَهِيٍّ فَصَارَتَا حَبِيسَتَيْنِ. يُبَيِّنُ الصَّعْدِيُّ فِي «تَيْسِيرِ الْكَرِيمِ الرَّحْمَانِ» أَنَّ هَذَا الْمَثَلَ الْقُرْآنِيَّ يَكْشِفُ كَيْفَ يَتَحَوَّلُ الْمَالُ مِنْ نِعْمَةٍ إِلَى امْتِحَانٍ إِذَا وَلَدَ الْكِبْرَ وَالْغَفْلَةَ. وَيُحَذِّرُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» أَنَّ الْتِصَاقَ الْقَلْبِ بِالدُّنْيَا يُقَسِّيهِ أَشَدَّ مِمَّا تُقَسِّيهِ الْفَاقَةُ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنْ يَنْظُرَ إِلَى الْمَالِ كِتَانَةً لَا كَأَسْهُمَةً، وَأَنْ يَقُولَ «إِنْ شَاءَ اللَّهُ» قَبْلَ كُلِّ خُطَّةٍ، وَأَنْ يَتَذَكَّرَ أَنَّ الْجِنَانَ تُؤْتَى امْتِحَانًا لِلشُّكْرِ لَا دَلِيلًا عَلَى التَّفَوُّقِ.
+  description_fr: |
+    Le Prophète Muhammad ﷺ a récité la parabole d'un homme qu'Allah avait comblé de deux magnifiques jardins, leurs palmiers en rangs et leurs rivières coulant en dessous. Ivre de ses possessions, l'homme entra dans l'un des jardins et déclara : « Je ne pense pas que cela périra jamais, et je ne pense pas que l'Heure aura lieu. Même si je suis ramené vers mon Seigneur, je trouverai assurément mieux en échange. » Son compagnon croyant lui rappela de glorifier Allah et le mit en garde contre l'ingratitude de nier Celui qui l'avait créé de la poussière et lui avait tout accordé. Mais les jardins de l'homme furent frappés par un châtiment divin qui les réduisit en une ruine stérile, et il regretta son arrogance trop tard. Al-Saʿdī, dans Taysīr al-Karīm al-Raḥmān, explique que cette parabole coranique — racontée par le Prophète ﷺ — révèle comment la richesse se transforme de bénédiction en épreuve lorsqu'elle engendre l'arrogance et l'oubli de l'Au-delà. Ibn al-Qayyim, dans Madārij al-Sālikīn, avertit que l'attachement aux possessions endurcit le cœur plus que la pauvreté. Pour le musulman d'aujourd'hui, la leçon est de considérer la richesse comme un dépôt et non un trophée, de dire « si Allah le veut » avant chaque projet, et de se souvenir que les jardins sont donnés pour tester la gratitude, non pour prouver la supériorité.
+  reference: Sahih Muslim 2963; Qur'an 18:32-44
+  hadith_refs: Muslim 2963
+  quran_refs: 18:32-44
+  source_notes: |
+    Al-Saʿdī (Taysīr al-Karīm) explains that this Qur'anic parable reveals how wealth transforms from blessing to trial when it breeds arrogance. Ibn al-Qayyim (Madārij al-Sālikīn) warns that attachment to possessions hardens the heart more than poverty does. The parable is narrated in Ṣaḥīḥ Muslim and is the subject of extensive commentary in tafsīr works.
+  source_notes_fr: |
+    Al-Saʿdī (Taysīr al-Karīm) explique que cette parabole coranique révèle comment la richesse se transforme de bénédiction en épreuve lorsqu'elle engendre l'arrogance. Ibn al-Qayyim (Madārij al-Sālikīn) avertit que l'attachement aux possessions endurcit le cœur plus que la pauvreté. La parabole est narratée dans Ṣaḥīḥ Muslim et fait l'objet d'un commentaire approfondi dans les ouvrages de tafsīr.
+  source_notes_ar: |
+    يُبَيِّنُ الصَّعْدِيُّ فِي «تَيْسِيرِ الْكَرِيمِ» أَنَّ هَذَا الْمَثَلَ الْقُرْآنِيَّ يَكْشِفُ كَيْفَ يَتَحَوَّلُ الْمَالُ مِنْ نِعْمَةٍ إِلَى امْتِحَانٍ إِذَا وَلَدَ الْكِبْرَ. وَيُحَذِّرُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» أَنَّ الْتِصَاقَ الْقَلْبِ بِالدُّنْيَا يُقَسِّيهِ أَشَدَّ مِمَّا تُقَسِّيهِ الْفَاقَةُ. رُوِيَ الْمَثَلُ فِي صَحِيحِ مُسْلِمٍ وَشَرَحَهُ الْمُفَسِّرُونَ بِإِسْهَابٍ.
+  display_day_of_year: 125
+  source_url: https://sunnah.com/muslim:2963
+- slug: hadith-abu-dharr-and-charity
+  category: hadith_narrative
+  title_en: Abu Dharr and Charity — The Upper Hand is Better Than the Lower
+  title_ar: أبو ذر والصدقة — اليد العليا خير من اليد السفلى
+  title_fr: Abu Dharr et la charité — la main supérieure vaut mieux que la main inférieure
+  description_en: |
+    Abu Dharr al-Ghifari was renowned for his uncompromising asceticism and radical generosity. On one occasion, he gave away everything he owned in charity, leaving nothing for himself or his dependents. When the Prophet ﷺ learned of this, he gently reproached him and taught a foundational principle of Islamic social ethics: "The upper hand is better than the lower hand." He explained that the one who gives should begin with his own household, and that it is better to leave one's heirs in sufficiency than to leave them begging from others. The Prophet ﷺ further instructed that a person should set aside enough for himself and his family, then give from the surplus. Al-Nawawi, in Sharh Sahih Muslim, elaborates that this hadith establishes a middle path between miserliness and reckless divestment — both of which harm the community. Ibn Ḥajar, in Fath al-Bari, notes that the "upper hand" symbolizes self-sufficiency and dignity, while the "lower hand" represents dependency. For the Muslim today, this narrative corrects the notion that piety requires destitution; rather, sustainable generosity — preserving one's capacity to give repeatedly — is the higher virtue, and caring for one's family is itself an act of worship.
+  description_ar: |
+    كَانَ أَبُو ذَرٍّ الْغِفَارِيُّ يُعْرَفُ بِزُهْدِهِ الْمُطْلَقِ وَسَخَائِهِ الْجَذْلِ. فَتَصَدَّقَ ذَاتَ مَرَّةٍ بِكُلِّ مَا يَمْلِكُ، فَلَمَّا بَلَغَ النَّبِيَّ ﷺ أَنْبَأَهُ بِرِفْقٍ بِأَصْلٍ مِنْ أُصُولِ الْأَخْلَاقِ الِاجْتِمَاعِيَّةِ: «الْيَدُ الْعُلْيَا خَيْرٌ مِنَ الْيَدِ السُّفْلَى، وَابْدَأْ بِمَنْ تَعُولُ». وَأَوْضَحَ أَنَّ تَرْكَ الْوَرَثَةِ فِي غِنًى خَيْرٌ مِنْ تَرْكِهِمْ يَسْأَلُونَ النَّاسَ. يُفَصِّلُ النَّوَوِيُّ فِي «شَرْحِ صَحِيحِ مُسْلِمٍ» أَنَّ هَذَا الْحَدِيثَ يُقِيمُ طَرِيقًا وَسَطًا بَيْنَ الْبُخْلِ وَالتَّبْذِيرِ الْمُفْرِطِ. وَيَلْحَظُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» أَنَّ «الْيَدَ الْعُلْيَا» تَرْمِزُ إِلَى الِاكْتِفَاءِ وَالْعِزَّةِ، وَ«السُّفْلَى» إِلَى الِاحْتِيَاجِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ التَّقْوَى لَا تَتَطَلَّبُ الإفْلَاسَ، بَلْ السَّخَاءُ الْمُسْتَدَامُ الَّذِي يَحْفَظُ قُدْرَتَكَ عَلَى الْعَطَاءِ هُوَ الْفَضِيلَةُ الْعُلْيَا، وَرِعَايَةُ الْأَهْلِ عِبَادَةٌ بِذَاتِهَا.
+  description_fr: |
+    Abu Dharr al-Ghifari était renommé pour son ascétisme intransigeant et sa générosité radicale. Une fois, il donna tout ce qu'il possédait en aumône, ne laissant rien pour lui-même ni pour ses personnes à charge. Lorsque le Prophète Muhammad ﷺ l'apprit, il le réprimanda doucement et enseigna un principe fondamental de l'éthique sociale islamique : « La main supérieure vaut mieux que la main inférieure. » Il expliqua que celui qui donne devait commencer par sa propre maisonnée, et qu'il valait mieux laisser ses héritiers dans l'aisance que de les laisser mendier auprès d'autrui. Le Prophète ﷺ enseigna en outre qu'une personne devait se réserver de quoi vivre pour elle et sa famille, puis donner de l'excédent. Al-Nawawi, dans Sharh Sahih Muslim, développe que ce hadith établit une voie médiane entre l'avarice et le dépouillement inconsidéré — deux extrêmes qui nuisent à la communauté. Ibn Hajar, dans Fath al-Bari, note que la « main supérieure » symbolise l'autosuffisance et la dignité, tandis que la « main inférieure » représente la dépendance. Pour le musulman d'aujourd'hui, ce récit corrige l'idée que la piété exige la détresse ; au contraire, la générosité durable — qui préserve sa capacité à donner de manière répétée — est la vertu supérieure, et prendre soin de sa famille est en soi un acte d'adoration.
+  reference: Sahih al-Bukhari 1427, Sahih Muslim 1035
+  hadith_refs: Bukhari 1427, Muslim 1035
+  source_notes: |
+    Al-Nawawī (Sharḥ Muslim) explains that this hadith establishes a middle path between miserliness and reckless divestment — both of which harm the community. Ibn Ḥajar (Fatḥ al-Bārī) notes that the "upper hand" symbolises self-sufficiency and dignity, while the "lower hand" represents dependency. This is a foundational text for the fiqh of zakāt and sustainable charity.
+  source_notes_fr: |
+    Al-Nawawī (Sharḥ Muslim) explique que ce hadith établit une voie médiane entre l'avarice et le dépouillement inconsidéré — deux extrêmes qui nuisent à la communauté. Ibn Ḥajar (Fatḥ al-Bārī) note que la « main supérieure » symbolise l'autosuffisance et la dignité, tandis que la « main inférieure » représente la dépendance. C'est un texte fondateur pour le fiqh de la zakāt et de la charité durable.
+  source_notes_ar: |
+    يُفَصِّلُ النَّوَوِيُّ فِي «شَرْحِ صَحِيحِ مُسْلِمٍ» أَنَّ هَذَا الْحَدِيثَ يُقِيمُ طَرِيقًا وَسَطًا بَيْنَ الْبُخْلِ وَالتَّبْذِيرِ الْمُفْرِطِ. وَيَلْحَظُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» أَنَّ «الْيَدَ الْعُلْيَا» تَرْمِزُ إِلَى الِاكْتِفَاءِ وَالْعِزَّةِ، وَ«السُّفْلَى» إِلَى الِاحْتِيَاجِ. وَهُوَ نَصٌّ أَصْلِيٌّ فِي فِقْهِ الزَّكَاةِ وَالصَّدَقَةِ الْمُسْتَدَامَةِ.
+  display_day_of_year: 128
+  source_url: https://sunnah.com/bukhari:1427
+- slug: hadith-splitting-moon
+  category: hadith_narrative
+  title_en: The Splitting of the Moon — A Sign Denied
+  title_ar: انشقاق القمر — آية مُنكَرة
+  title_fr: La division de la lune — un signe nié
+  description_en: |
+    Before the Hijra, the Quraysh of Makkah, exasperated by the Prophet's ﷺ persistence, demanded a miracle to prove his prophethood. That very night, the moon split into two distinct halves, one on either side of Mount Hira', so clearly that the Companions who witnessed it could see the gap between them. The event is narrated by multiple eyewitnesses — including Ibn Mas'ud, Anas ibn Malik, and Jubayr ibn Mut'im — through independent chains of transmission that meet the most stringent criteria of hadith criticism. Yet the Quraysh dismissed what they had seen with their own eyes, branding it sorcery and optical illusion. The Qur'an records the event in Surah al-Qamar: "The Hour has drawn near, and the moon has split. And if they see a sign, they turn away and say: continuing magic." Ibn Ḥajar, in Fath al-Bari, explains that this hadith is not merely a miraculous report but a lesson in the psychology of denial: those determined to reject truth will reject even perceptible evidence. Al-Saʿdī adds that the splitting was a mercy before the punishment — a final warning to a nation on the brink of destruction. For the Muslim today, the narrative teaches that signs are only beneficial for hearts willing to receive them, and that the greatest blindness is not of the eyes but of the soul.
+  description_ar: |
+    قَبْلَ الْهِجْرَةِ، طَلَبَتْ قُرَيْشٌ مِنَ النَّبِيِّ ﷺ آيَةً تُثْبِتُ نُبُوَّتَهُ. فَانْشَقَّ الْقَمَرُ تِلْكَ اللَّيْلَةَ نِصْفَيْنِ عَنْ يَمِينِ جَبَلِ حِرَاءَ وَعَنْ يَسَارِهِ، حَتَّى رَأَى الصَّحَابَةُ الْفُرْجَةَ بَيْنَهُمَا. وَرَوَاهُ شُهُودُ عِيَانٍ عَدَّةٌ - مِنْهُمْ ابْنُ مَسْعُودٍ وَأَنَسُ بْنُ مَالِكٍ وَجُبَيْرُ بْنُ مُطْعِمٍ - بِأَسَانِيدَ مُسْتَقِلَّةٍ تَبْلُغُ أَشَدَّ شَرَائِطِ النَّقْدِ. وَلَكِنَّ قُرَيْشًا أَنْكَرَتْ مَا شَاهَدَتْهُ بِأَعْيُنِهَا وَنَعَتْهُ بِالسِّحْرِ. يُفَسِّرُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» أَنَّ الْحَدِيثَ لَيْسَ مُجَرَّدَ رِوَايَةٍ مُعْجِزَةٍ، بَلْ دَرْسٌ فِي سِيكُولُوجِيَةِ الْإِنْكَارِ. وَيُضِيفُ الصَّعْدِيُّ أَنَّ الِانْشِقَاقَ كَانَ رَحْمَةً قَبْلَ الْعِقَابِ - تَحْذِيرًا أَخِيرًا لِقَوْمٍ عَلَى شَفَا الْهَلَاكِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ الْآيَاتِ لَا تَنْفَعُ إِلَّا الْقُلُوبَ الْمُسْتَعِدَّةَ لِلْقَبُولِ، وَأَنَّ أَعْظَمَ عَمًى لَيْسَ عَمَى الْبَصَرِ بَلْ عَمَى الْقَلْبِ.
+  description_fr: |
+    Avant l'Hégire, les Qurayshites de La Mecque, exaspérés par la persistance du Prophète Muhammad ﷺ, exigèrent un miracle pour prouver sa prophétie. Cette nuit même, la lune se divisa en deux moitiés distinctes, de part et d'autre du mont Hira', si clairement que les Compagnons qui l'observèrent purent voir l'espace entre elles. L'événement est rapporté par plusieurs témoins oculaires — dont Ibn Mas'ud, Anas ibn Malik et Jubayr ibn Mut'im — par des chaînes de transmission indépendantes qui satisfont aux critères les plus rigoureux de la critique du hadith. Pourtant, les Qurayshites renièrent ce qu'ils avaient vu de leurs propres yeux, le qualifiant de sorcellerie et d'illusion d'optique. Le Coran rapporte l'événement dans la sourate al-Qamar : « L'Heure s'est approchée et la lune s'est fendue. Et s'ils voient un signe, ils s'en détournent et disent : une magie continue. » Ibn Hajar, dans Fath al-Bari, explique que ce hadith n'est pas seulement un rapport miraculeux mais une leçon sur la psychologie du déni : ceux qui sont déterminés à rejeter la vérité rejetteront même la preuve perceptible. Al-Saʿdī ajoute que la division fut une miséricorde avant le châtiment — un dernier avertissement à une nation au bord de la destruction. Pour le musulman d'aujourd'hui, le récit enseigne que les signes ne profitent qu'aux cœurs disposés à les recevoir, et que la plus grande cécité n'est pas celle des yeux mais celle de l'âme.
+  reference: Sahih al-Bukhari 3636, Sahih Muslim 2800; Qur'an 54:1
+  hadith_refs: Bukhari 3636, Muslim 2800
+  quran_refs: '54:1'
+  source_notes: |
+    Ibn Ḥajar (Fatḥ al-Bārī) explains that this hadith is not merely a miraculous report but a lesson in the psychology of denial: those determined to reject truth will reject even perceptible evidence. Al-Saʿdī adds that the splitting was a mercy before punishment — a final warning to a nation on the brink of destruction. The event is narrated with multiple independent chains by eyewitnesses.
+  source_notes_fr: |
+    Ibn Ḥajar (Fatḥ al-Bārī) explique que ce hadith n'est pas seulement un rapport miraculeux mais une leçon sur la psychologie du déni : ceux qui sont déterminés à rejeter la vérité rejetteront même la preuve perceptible. Al-Saʿdī ajoute que la division fut une miséricorde avant le châtiment — un dernier avertissement à une nation au bord de la destruction. L'événement est rapporté par plusieurs témoins oculaires par des chaînes indépendantes.
+  source_notes_ar: |
+    يُفَسِّرُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» أَنَّ الْحَدِيثَ لَيْسَ مُجَرَّدَ رِوَايَةٍ مُعْجِزَةٍ، بَلْ دَرْسٌ فِي سِيكُولُوجِيَةِ الْإِنْكَارِ. وَيُضِيفُ الصَّعْدِيُّ أَنَّ الِانْشِقَاقَ كَانَ رَحْمَةً قَبْلَ الْعِقَابِ — تَحْذِيرًا أَخِيرًا لِقَوْمٍ عَلَى شَفَا الْهَلَاكِ. وَقَدْ رَوَاهُ شُهُودُ عِيَانٍ بِأَسَانِيدَ مُسْتَقِلَّةٍ.
+  display_day_of_year: 129
+  source_url: https://sunnah.com/bukhari:3636
+- slug: hadith-man-with-99-scrolls
+  category: hadith_narrative
+  title_en: Ninety-Nine Scrolls and One Card — The Weight of Tawhid
+  title_ar: تسع وتسعون سجلاً وكرت — ثقل التوحيد
+  title_fr: Quatre-vingt-dix-neuf rouleaux et une carte — le poids du tawhid
+  description_en: 'The Prophet ﷺ described a man who will be brought on the Day of Resurrection with ninety-nine scrolls of
+    sins, each scroll stretching as far as the eye can see. Overwhelmed by the magnitude of his record, he will despair of
+    any mercy. Then a small card will be brought forth, and on it will be written nothing but the testimony of faith: ''Ashhadu
+    an la ilaha illa Allah wa anna Muhammadan rasulu Allah.'' The man will protest that this tiny card is nothing against
+    the mountains of his misdeeds, but it will be placed in the scale and outweigh all ninety-nine scrolls — not because the
+    words are magical, but because they represent a sincere covenant with Allah that endured beneath the surface of a sinful
+    life. Ibn Rajab, in Jami'' al-''Ulum wa al-Hikam, explains that the hadith is not a license for sin but a lifeline for
+    the despairing: the door of tawhid is never fully closed, and its weight in the divine scale transcends every other calculation.
+    Al-Nawawi adds that the card''s superiority lies in its sincerity, not its size. For the Muslim today, this narrative
+    is both hope and warning: hope that sincere faith can outweigh a lifetime of failure, and warning that without the anchoring
+    weight of tawhid, even small scrolls of sin will sink the soul.'
+  description_ar: 'وَصَفَ النَّبِيُّ ﷺ رَجُلًا يُؤْتَى يَوْمَ الْقِيَامَةِ بِتِسْعٍ وَتِسْعِينَ سِجِلًّا مِنَ الذُّنُوبِ،
+    كُلُّ سِجِلٍّ مُدَّ بَصَرُهُ. فَيَيْأَسُ مِنَ الرَّحْمَةِ، ثُمَّ تُؤْتَى بِكَرَّةٍ صَغِيرَةٍ فِيهَا: أَشْهَدُ أَنْ لَا
+    إِلَهَ إِلَّا اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ. فَتُوضَعُ فِي الْمِيزَانِ فَتَطْغَى عَلَى السِّجِلَّاتِ. يُفَسِّرُ
+    ابْنُ رَجَبٍ فِي «جَامِعِ الْعُلُومِ وَالْحِكَمِ» أَنَّ الْحَدِيثَ لَيْسَ رُخْصَةً فِي الذُّنُوبِ، بَلْ حَبْلُ نَجَاةٍ
+    لِلْيَائِسِينَ: بَابُ التَّوْحِيدِ لَا يُغْلَقُ أَبَدًا. وَيُضِيفُ النَّوَوِيُّ أَنَّ تَفَوُّقَ الْكَرَّةِ لَا يَعُودُ
+    إِلَى حَجْمِهَا بَلْ إِلَى إِخْلَاصِهَا. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ التَّوْحِيدَ الصَّادِقَ قَادِرٌ عَلَى مُوَازَنَةِ
+    عُمْرٍ مِنَ الْفَشَلِ، وَأَنَّهُ بِدُونِ وَزْنِ التَّوْحِيدِ تَغْرِقُ النَّفْسُ فِي أَصْغَرِ سِجِلٍّ.'
+  description_fr: 'Le Prophète Muhammad ﷺ décrivit un homme qui sera amené au Jour de la Résurrection avec quatre-vingt-dix-neuf
+    rouleaux de péchés, chaque rouleau s''étendant aussi loin que le regard peut porter. Accablé par l''ampleur de son dossier,
+    il désespérera de toute miséricorde. Alors on lui apportera une petite carte sur laquelle sera écrite rien d''autre que
+    le témoignage de foi : ''J''atteste qu''il n''y a de divinité digne d''adoration qu''Allah et que Muhammad est le Messager
+    d''Allah.'' L''homme protestera que cette minuscule carte n''est rien face aux montagnes de ses méfaits, mais elle sera
+    placée dans la balance et l''emportera sur les quatre-vingt-dix-neuf rouleaux — non pas parce que les mots sont magiques,
+    mais parce qu''ils représentent un pacte sincère avec Allah qui a perduré sous la surface d''une vie pécheresse. Ibn Rajab,
+    dans Jami'' al-''Ulum wa al-Hikam, explique que ce hadith n''est pas une permission de pécher mais une bouée de sauvetage
+    pour les désespérés : la porte du tawhid n''est jamais complètement fermée, et son poids dans la balance divine transcende
+    tout autre calcul. Al-Nawawi ajoute que la supériorité de la carte réside dans sa sincérité, non dans sa taille. Pour
+    le musulman d''aujourd''hui, ce récit est à la fois espoir et avertissement : espoir que la foi sincère peut l''emporter
+    sur une vie d''échecs, et avertissement que sans le poids ancrant du tawhid, même de petits rouleaux de péché feront sombrer
+    l''âme.'
+  reference: Jami' at-Tirmidhi 2638 (Hasan Sahih), Musnad Ahmad 11993
+  hadith_refs: Tirmidhi 2638, Musnad Ahmad 11993
+  source_notes: |
+    Ibn Rajab (Jāmiʿ al-ʿUlūm) explains that this hadith is not a licence for sin but a lifeline for the despairing: the door of tawḥīd is never fully closed. Al-Nawawī adds that the card's superiority lies in its sincerity, not its size. The hadith is graded ḥasan ṣaḥīḥ by al-Albānī and is frequently cited in works on repentance and divine mercy.
+  source_notes_fr: |
+    Ibn Rajab (Jāmiʿ al-ʿUlūm) explique que ce hadith n'est pas une permission de pécher mais une bouée de sauvetage pour les désespérés : la porte du tawḥīd n'est jamais complètement fermée. Al-Nawawī ajoute que la supériorité de la carte réside dans sa sincérité, non dans sa taille. Le hadith est gradé ḥasan ṣaḥīḥ par al-Albānī et est fréquemment cité dans les ouvrages sur le repentir et la miséricorde divine.
+  source_notes_ar: |
+    يُفَسِّرُ ابْنُ رَجَبٍ فِي «جَامِعِ الْعُلُومِ» أَنَّ الْحَدِيثَ لَيْسَ رُخْصَةً فِي الذُّنُوبِ، بَلْ حَبْلُ نَجَاةٍ لِلْيَائِسِينَ: بَابُ التَّوْحِيدِ لَا يُغْلَقُ أَبَدًا. وَيُضِيفُ النَّوَوِيُّ أَنَّ تَفَوُّقَ الْكَرَّةِ لَا يَعُودُ إِلَى حَجْمِهَا بَلْ إِلَى إِخْلَاصِهَا. حَكَمَ عَلَيْهِ الْأَلْبَانِيُّ بِالْحَسَنِ الصَّحِيحِ، وَهُوَ مِنْ أَشْهَرِ الْأَحَادِيثِ فِي التَّوْبَةِ وَالرَّحْمَةِ.
+  display_day_of_year: 131
+  source_url: https://sunnah.com/tirmidhi:2638
+- slug: hadith-garden-for-preserver
+  category: hadith_narrative
+  title_en: A Guarantee of Paradise — Guarding the Tongue and the Private Parts
+  title_ar: ضمان الجنة — حفظ اللسان والفرج
+  title_fr: Une garantie du Paradis — préserver la langue et les parties intimes
+  description_en: |
+    The Prophet ﷺ once made a breathtaking promise with a breathtaking condition: "Whoever guarantees me what is between his jaws and what is between his legs, I guarantee him Paradise." The hadith identifies the tongue and the private parts as the two gates through which the vast majority of human sin enters — gossip, backbiting, false testimony, and sexual transgression. It reduces the complexity of spiritual discipline to a single, uncompromising focus: guard these two, and you have guarded your hereafter. Al-Nawawi included this hadith in his Riyad al-Salihin and commented that it names the two organs most prone to weakness and hardest to discipline. Ibn al-Qayyim, in Madārij al-Sālikīn, writes that the tongue is the key to both good and evil — it can utter words that draw one near to Allah or words that cast one into the Fire. Ibn Ḥajar adds that the hadith uses the language of commerce — "guarantee" — to emphasize that this is a transaction of absolute certainty: control these two domains, and Paradise is contractually assured. For the Muslim today, this means vigilance over speech and chastity is not peripheral piety but the very core of salvation.
+  description_ar: |
+    قال النبي ﷺ: «مَنْ يَضْمَنْ لِي مَا بَيْنَ لَحْيَيْهِ وَمَا بَيْنَ رِجْلَيْهِ أَضْمَنْ لَهُ الْجَنَّةَ». يُحَدِّدُ الْحَدِيثُ اللِّسَانَ وَالْفَرْجَ بِمَثَابَةِ بَابَيْنِ تَدْخُلُ مِنْهُمَا جُلُّ الذُّنُوبِ: الْغِيبَةُ وَالنَّمِيمَةُ وَالشَّهَادَةُ الْكَاذِبَةُ وَالْفَوَاحِشُ. وَيُخَصِّصُ الْحَدِيثُ تَعَقِيدَ التَّرْبِيَةِ الرُّوحِيَّةِ فِي نُقْطَةٍ وَاحِدَةٍ: احْفَظْ هَذَيْنِ وَقَدْ حَفِظْتَ آخِرَتَكَ. أَدْخَلَ النَّوَوِيُّ هَذَا الْحَدِيثَ فِي «رِيَاضِ الصَّالِحِينَ» وَقَالَ: إِنَّهُ يُسَمِّي الْعُضْوَيْنِ الْأَكْثَرِ ضَعْفًا وَأَصْعَبِ ضَبْطًا. وَيَكْتُبُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» أَنَّ اللِّسَانَ مِفْتَاحُ الْخَيْرِ وَالشَّرِّ، فَهُوَ يَقُولُ كَلِمَةً تُقَرِّبُهُ مِنَ اللَّهِ وَكَلِمَةً تُطْرِفُهُ فِي النَّارِ. وَيُضِيفُ ابْنُ حَجَرٍ أَنَّ الْحَدِيثَ يَسْتَعِيرُ لُغَةَ التِّجَارَةِ - «الضَّمَانَ» - لِيُؤَكِّدَ أَنَّ هَذِهِ صَفْقَةُ يَقِينٍ مُطْلَقٍ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ الْمُرَابَطَةَ عَلَى اللِّسَانِ وَالْعِفَّةِ لَيْسَتْ تَقْوًى هَامِشِيَّةً، بَلْ هِيَ لُبُّ النَّجَاةِ ذَاتُهُ.
+  description_fr: |
+    Le Prophète Muhammad ﷺ fit un jour une promesse époustouflante assortie d'une condition époustouflante : « Quiconque me garantit ce qui se trouve entre ses mâchoires et ce qui se trouve entre ses jambes, je lui garantis le Paradis. » Ce hadith identifie la langue et les parties intimes comme les deux portes par lesquelles passe l'immense majorité des péchés humains — médisance, calomnie, faux témoignage et transgression sexuelle. Il réduit la complexité de la discipline spirituelle à un seul objectif implacable : préserver ces deux-là, et vous aurez préservé votre Au-delà. Al-Nawawi a inclus ce hadith dans ses Riyad al-Salihin et a commenté qu'il nomme les deux organes les plus enclins à la faiblesse et les plus difficiles à discipliner. Ibn al-Qayyim, dans Madārij al-Sālikīn, écrit que la langue est la clé du bien et du mal — elle peut prononcer des mots qui rapprochent d'Allah ou des mots qui précipitent au Feu. Ibn Hajar ajoute que le hadith emprunte le langage du commerce — « garantie » — pour souligner qu'il s'agit d'une transaction de certitude absolue : maîtriser ces deux domaines, et le Paradis est contractuellement assuré. Pour le musulman d'aujourd'hui, cela signifie que la vigilance sur la parole et la chasteté ne sont pas une piété marginale mais le cœur même du salut.
+  reference: Sahih al-Bukhari 6474
+  hadith_refs: Bukhari 6474
+  source_notes: |
+    Al-Nawawī included this hadith in his Riyāḍ al-Ṣāliḥīn and commented that it names the two organs most prone to weakness and hardest to discipline. Ibn al-Qayyim (Madārij al-Sālikīn) writes that the tongue is the key to both good and evil. The hadith is narrated in Ṣaḥīḥ al-Bukhārī and is a standard text in works on guarding the senses.
+  source_notes_fr: |
+    Al-Nawawī a inclus ce hadith dans ses Riyāḍ al-Ṣāliḥīn et a commenté qu'il nomme les deux organes les plus enclins à la faiblesse et les plus difficiles à discipliner. Ibn al-Qayyim (Madārij al-Sālikīn) écrit que la langue est la clé du bien et du mal. Le hadith est narraté dans Ṣaḥīḥ al-Bukhārī et est un texte de référence dans les ouvrages sur la garde des sens.
+  source_notes_ar: |
+    أَدْخَلَ النَّوَوِيُّ هَذَا الْحَدِيثَ فِي «رِيَاضِ الصَّالِحِينَ» وَقَالَ: إِنَّهُ يُسَمِّي الْعُضْوَيْنِ الْأَكْثَرِ ضَعْفًا وَأَصْعَبِ ضَبْطًا. وَيَكْتُبُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» أَنَّ اللِّسَانَ مِفْتَاحُ الْخَيْرِ وَالشَّرِّ. رُوِيَ فِي صَحِيحِ الْبُخَارِيِّ وَهُوَ مِنْ الْنُّصُوصِ الْمِعْيَارِيَّةِ فِي حِفْظِ الْحَوَاسِّ.
+  display_day_of_year: 133
+  source_url: https://sunnah.com/bukhari:6474
+- slug: hadith-slander-against-aisha
+  category: hadith_narrative
+  title_en: The Slander Against Aisha — When Lies Nearly Shook the State
+  title_ar: الإفك — حين كادت الكذبة تهز الدولة
+  title_fr: La calomnie contre Aicha — quand un mensonge faillit ébranler l'État
+  description_en: 'The Prophet ﷺ led an expedition against the Banu al-Mustaliq, and on the return journey, Aisha — temporarily
+    separated from the caravan after searching for a lost necklace — was escorted back to Madinah by Safwan ibn al-Mu''attal.
+    A hypocrite named Abdullah ibn Ubayy seized upon the incident to spread a vicious slander that nearly ruptured the Muslim
+    community. For a month, the Prophet ﷺ remained in anguish, consulting Companions and seeking guidance, while Aisha fell
+    ill with fever and weeping. Finally, Allah revealed Surah al-Nur, verses 11-20, declaring the accusers liars and establishing
+    the legal standard of four witnesses for charges of adultery — a standard so stringent that it functions more as protection
+    than prosecution. Ibn Hajar, in Fath al-Bari, explains that the incident was a divine test of the community''s maturity:
+    would they believe gossip or await evidence? Al-Nawawi adds that Aisha''s steadfastness became the model for every believer
+    falsely accused. For the Muslim today, the narrative is a warning against the speed of rumor and the duty of dignified
+    silence in the face of unproven accusation.'
+  description_ar: 'خَرَجَ النَّبِيُّ ﷺ فِي غَزْوَةِ بَنِي الْمُصْطَلِقِ، وَتَأَخَّرَتْ عَائِشَةُ عَنِ الرَّكْبِ فِي طَلَبِ
+    قِلَادَةٍ، فَرَافَقَهَا صَفْوَانُ بْنُ الْمُعَطَّلِ. فَانْتَشَرَ الْمُنَافِقُ عَبْدُ اللَّهِ بْنُ أُبَيٍّ شَائِعَةً كَادَتْ
+    تُفَرِّقُ الْمُجْتَمَعَ. وَلَمْ يَنْزِلِ الْوَحْيُ إِلَّا بَعْدَ شَهْرٍ، فَأَنْزَلَ اللَّهُ سُورَةَ النُّورِ آيَاتِ الْإِفْكِ،
+    وَأَقَامَ شَرْطَ الْأَرْبَعَةِ الشُّهُودِ. يُفَسِّرُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» أَنَّ الْحَادِثَةَ كَانَتْ اخْتِبَارًا
+    لِنُضْجِ الْمُجْتَمَعِ: هَلْ يُصَدِّقُ الْإِشَاعَةَ أَمْ يَنْتَظِرُ الدَّلِيلَ؟ وَيُضِيفُ النَّوَوِيُّ أَنَّ صَبْرَ عَائِشَةَ
+    صَارَ أُسْوَةً لِكُلِّ مُتَّهَمٍ بِبَاطِلٍ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ سُرْعَةَ الشَّائِعَةِ وَاجِبُ الْحَذَرِ
+    مِنْهَا، وَأَنَّ الصَّمْتَ الْوَقُورَ فِي وَجْهِ التُّهَمَةِ الْمُجَرَّدَةِ فَضِيلَةٌ.'
+  description_fr: 'Le Prophète Muhammad ﷺ conduisit une expédition contre les Banu al-Mustaliq, et sur le chemin du retour,
+    Aicha — temporairement séparée de la caravane après avoir cherché un collier perdu — fut raccompagnée à Médine par Safwan
+    ibn al-Mu''attal. Un hypocrite nommé Abdullah ibn Ubayy saisit l''incident pour répandre une méchante calomnie qui faillit
+    rompre la communauté musulmane. Pendant un mois, le Prophète Muhammad ﷺ resta dans l''angoisse, consultant les Compagnons
+    et cherchant la guidance, tandis qu''Aicha tombait malade de fièvre et de larmes. Finalement, Allah révéla la sourate
+    al-Nur, versets 11-20, déclarant les accusateurs menteurs et établissant la norme juridique de quatre témoins pour les
+    accusations d''adultère — une norme si stricte qu''elle fonctionne plus comme protection que comme poursuite. Ibn Hajar,
+    dans Fath al-Bari, explique que l''incident fut un test divin de la maturité de la communauté : croira-t-elle les ragots
+    ou attendra-t-elle des preuves ? Al-Nawawi ajoute que la fermeté d''Aicha devint le modèle pour tout croyant faussement
+    accusé. Pour le musulman d''aujourd''hui, ce récit est un avertissement contre la vitesse de propagation des rumeurs et
+    le devoir de silence digne face à une accusation non prouvée.'
+  reference: Sahih al-Bukhari 4141, Sahih Muslim 2770; Qur'an 24:11-20
+  hadith_refs: Bukhari 4141, Muslim 2770
+  quran_refs: 24:11-20
+  source_notes: |
+    Ibn Ḥajar (Fatḥ al-Bārī) explains that the incident was a divine test of the community's maturity: would they believe gossip or await evidence? Al-Nawawī adds that ʿĀʾisha's steadfastness became the model for every believer falsely accused. The revelation of the liʿān procedure and the four-witness requirement in Sūrat al-Nūr is the legislative outcome of this event.
+  source_notes_fr: |
+    Ibn Ḥajar (Fatḥ al-Bārī) explique que cet incident fut un test divin de la maturité de la communauté : croira-t-elle les ragots ou attendra-t-elle des preuves ? Al-Nawawī ajoute que la fermeté dʿĀʾisha devint le modèle pour tout croyant faussement accusé. La révélation de la procédure du liʿān et de l'exigence de quatre témoins dans la Sūrat al-Nūr est l'aboutissement législatif de cet événement.
+  source_notes_ar: |
+    يُفَسِّرُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» أَنَّ الْحَادِثَةَ كَانَتْ اخْتِبَارًا لِنُضْجِ الْمُجْتَمَعِ: هَلْ يُصَدِّقُ الْإِشَاعَةَ أَمْ يَنْتَظِرُ الدَّلِيلَ؟ وَيُضِيفُ النَّوَوِيُّ أَنَّ صَبْرَ عَائِشَةَ صَارَ أُسْوَةً لِكُلِّ مُتَّهَمٍ بِبَاطِلٍ. وَإِنْزَالُ سُورَةِ النُّورِ بِشَرْطِ الْأَرْبَعَةِ الشُّهُودِ هُوَ الثَّمَرَةُ التَّشْرِيعِيَّةُ لِهَذَا الْحَادِثِ.
+  display_day_of_year: 134
+  source_url: https://sunnah.com/bukhari:4141
+- slug: hadith-moderation-in-worship
+  category: hadith_narrative
+  title_en: Your Body Has a Right Over You — The Ethics of Moderation
+  title_ar: إن لجسدك عليك حقاً — أخلاق الاعتدال
+  title_fr: Ton corps a des droits sur toi — l'éthique de la modération
+  description_en: 'Abdullah ibn Amr ibn al-As was so zealous in his devotion that he fasted continuously and prayed the entire
+    night without sleep. When the Prophet ﷺ learned of this, he summoned him and taught a principle that governs all spiritual
+    practice: ''Your body has a right over you, your eyes have a right over you, and your wife has a right over you.'' He
+    instructed Abdullah to fast three days a month, or if he must do more, the fast of Dawud — half the days — and to pray
+    at night but also to sleep. Ibn al-Qayyim, in Madārij al-Sālikīn, explains that this hadith corrects the disease of spiritual
+    extremism, which often masquerades as piety while destroying the very vessels through which worship is sustained — the
+    body, the family, and the mind. Al-Nawawi adds that the Prophet''s specific mention of the wife''s right establishes that
+    relational duties are not obstacles to devotion but integral components of it. For the Muslim today, the narrative dismantles
+    the cult of burnout masquerading as religious excellence: sustainable worship that honors every trust — physical, familial,
+    and communal — is the true sunnah.'
+  description_ar: 'كَانَ عَبْدُ اللَّهِ بْنُ عَمْرِو بْنِ الْعَاصِي يَصُومُ الدَّهْرَ وَيَقُومُ اللَّيْلَ كُلَّهُ. فَلَمَّا
+    بَلَغَ النَّبِيَّ ﷺ دَعَاهُ وَعَلَّمَهُ: «إِنَّ لِجَسَدِكَ عَلَيْكَ حَقًّا، وَإِنَّ لِعَيْنِكَ عَلَيْكَ حَقًّا، وَإِنَّ
+    لِزَوْجَتِكَ عَلَيْكَ حَقًّا». وَأَمَرَهُ بِصِيَامِ ثَلَاثَةِ أَيَّامٍ مِنْ كُلِّ شَهْرٍ، أَوْ صِيَامِ دَاوُدَ — نِصْفَ
+    الدَّهْرِ — وَأَنْ يُصَلِّيَ وَيَنَامَ. يُحَلِّلُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» أَنَّ الْحَدِيثَ يُعَالِجُ
+    مَرَضَ التَّشَدُّدِ الرُّوحِيِّ الَّذِي يَتَنَكَّرُ بِثِيَابِ التَّقْوَى وَيُدَمِّرُ آلاتِ الْعِبَادَةِ. وَيُضِيفُ النَّوَوِيُّ
+    أَنَّ ذِكْرَ حَقِّ الزَّوْجَةِ يُقِيمُ أَنَّ الْوَاجِبَاتِ الْعِلَاقِيَّةَ لَيْسَتْ عَوَائِقَ بَلْ جُزْءًا مِنَ التَّقْوَى.
+    دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ الِاسْتِهْلاكَ الْمَقْنَعَ بِالتَّمَيُّزِ الدِّينِيِّ لَيْسَ سُنَّةً، بَلْ الْعِبَادَةُ
+    الْمُسْتَدَامَةُ الَّتِي تُكْرِمُ كُلَّ أَمَانَةٍ هِيَ السُّنَّةُ الْحَقِيقِيَّةُ.'
+  description_fr: 'Abdullah ibn Amr ibn al-As était si zélé dans sa dévotion qu''il jeûnait continuellement et priait toute
+    la nuit sans dormir. Lorsque le Prophète Muhammad ﷺ l''apprit, il le convoqua et lui enseigna un principe qui régit toute
+    pratique spirituelle : ''Ton corps a des droits sur toi, tes yeux ont des droits sur toi, et ta femme a des droits sur
+    toi.'' Il lui ordonna de jeûner trois jours par mois, ou s''il devait en faire davantage, le jeûne de Dawud — la moitié
+    des jours — et de prier la nuit mais aussi de dormir. Ibn al-Qayyim, dans Madārij al-Sālikīn, explique que ce hadith corrige
+    la maladie de l''extrémisme spirituel, qui se déguise souvent en piété tout en détruisant les vases mêmes par lesquels
+    le culte se perpétue — le corps, la famille et l''esprit. Al-Nawawi ajoute que la mention spécifique du droit de la femme
+    par le Prophète établit que les devoirs relationnels ne sont pas des obstacles à la dévotion mais des composantes intégrales
+    de celle-ci. Pour le musulman d''aujourd''hui, ce récit démantèle le culte de l''épuisement professé comme excellence
+    religieuse : le culte durable qui honore chaque confiance — physique, familiale et communautaire — est la véritable sunnah.'
+  reference: Sahih al-Bukhari 1150, Sahih Muslim 1159
+  hadith_refs: Bukhari 1150, Muslim 1159
+  source_notes: |
+    Ibn al-Qayyim (Madārij al-Sālikīn) explains that this hadith corrects the disease of spiritual extremism, which often masquerades as piety while destroying the vessels of worship. Al-Nawawī adds that the Prophet's ﷺ specific mention of the wife's right establishes that relational duties are integral components of devotion, not obstacles to it. The hadith is the primary proof for the obligation of moderation in worship.
+  source_notes_fr: |
+    Ibn al-Qayyim (Madārij al-Sālikīn) explique que ce hadith corrige la maladie de l'extrémisme spirituel, qui se déguise souvent en piété tout en détruisant les vases mêmes par lesquels le culte se perpétue. Al-Nawawī ajoute que la mention spécifique du droit de la femme par le Prophète ﷺ établit que les devoirs relationnels sont des composantes intégrales de la dévotion, et non des obstacles. Ce hadith est la preuve principale de l'obligation de modération dans le culte.
+  source_notes_ar: |
+    يُحَلِّلُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» أَنَّ الْحَدِيثَ يُعَالِجُ مَرَضَ التَّشَدُّدِ الرُّوحِيِّ الَّذِي يَتَنَكَّرُ بِثِيَابِ التَّقْوَى. وَيُضِيفُ النَّوَوِيُّ أَنَّ ذِكْرَ حَقِّ الزَّوْجَةِ يُقِيمُ أَنَّ الْوَاجِبَاتِ الْعِلَاقِيَّةَ لَيْسَتْ عَوَائِقَ بَلْ جُزْءًا مِنَ التَّقْوَى. وَهُوَ الدَّلِيلُ الْأَوَّلُ عَلَى وُجُوبِ الِاعْتِدَالِ فِي الْعِبَادَةِ.
+  display_day_of_year: 138
+  source_url: https://sunnah.com/bukhari:1150
+- slug: hadith-preparation-for-the-hour
+  category: hadith_narrative
+  title_en: You Are With Whom You Love — Preparing for the Hour
+  title_ar: مع من أحببت — الاستعداد للساعة
+  title_fr: Tu seras avec celui que tu aimes — se préparer pour l'Heure
+  description_en: 'A man came to the Prophet ﷺ and asked: ''When is the Hour?'' The Prophet ﷺ replied with a counter-question
+    that redirected the entire conversation from curiosity to character: ''What have you prepared for it?'' The man answered:
+    ''Not much — neither much prayer nor much fasting nor much charity, but I love Allah and His Messenger.'' The Prophet
+    ﷺ looked at him and said: ''You will be with the one you love.'' This brief exchange became one of the most quoted reassurances
+    in Islamic spirituality. Ibn Rajab, in Jami'' al-''Ulum wa al-Hikam, explains that love is not merely sentiment but an
+    operative force that shapes behavior, companionship, and final destination. Al-Nawawi adds that the hadith elevates love
+    to the status of a deed — not replacing action, but summarizing the disposition that makes action fruitful. For the Muslim
+    today, the narrative redirects anxious speculation about timelines toward the only preparation that matters: cultivate
+    love for the Prophet ﷺ and his way, for on the Day when all other preparations may prove insufficient, love will be the
+    compass that carries you to your company.'
+  description_ar: 'سَأَلَ رَجُلٌ النَّبِيَّ ﷺ: مَتَى السَّاعَةُ؟ فَرَدَّ بِسُؤَالٍ يُحَوِّلُ الْحِوَارَ مِنَ الْفُضُولِ إِلَى
+    الشَّخْصِيَّةِ: «مَا أَعْدَدْتَ لَهَا؟» قَالَ: لَا كَثِيرَ صَلَاةٍ وَلَا صِيَامٍ وَلَا صَدَقَةٍ، وَلَكِنِّي أُحِبُّ اللَّهَ
+    وَرَسُولَهُ. فَقَالَ: «أَنْتَ مَعَ مَنْ أَحْبَبْتَ». يُفَسِّرُ ابْنُ رَجَبٍ فِي «جَامِعِ الْعُلُومِ وَالْحِكَمِ» أَنَّ
+    الْمَحَبَّةَ لَيْسَتْ مُجَرَّدَ شُعُورٍ، بَلْ قُوَّةً فَاعِلَةً تُشَكِّلُ السُّلُوكَ وَالصُّحْبَةَ وَالْمَصِيرَ. وَيُضِيفُ
+    النَّوَوِيُّ أَنَّ الْحَدِيثَ يَرْفَعُ الْمَحَبَّةَ إِلَى مَرْتَبَةِ الْعَمَلِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ التَّخَمُّنَ
+    فِي الْمَوْاعِيدِ يُحَوَّلُهُ الْحَدِيثُ إِلَى التَّحَضِّرِ الْوَحِيدِ الْمُهِمِّ: اغْتَرِسْ الْمَحَبَّةَ لِلنَّبِيِّ
+    ﷺ وَسُنَّتِهِ، فَإِنَّهَا فِي يَوْمِ يَعْجِزُ فِيهِ الْإِعْدَادُ الْآخَرُ تَكُونُ الْبُوصِلَةَ.'
+  description_fr: 'Un homme vint au Prophète Muhammad ﷺ et demanda : ''Quand sera l''Heure ?'' Le Prophète répondit par une
+    contre-question qui redirigea toute la conversation de la curiosité vers le caractère : ''Qu''as-tu préparé pour elle
+    ?'' L''homme répondit : ''Pas grand-chose — ni beaucoup de prières, ni beaucoup de jeûnes, ni beaucoup de charité, mais
+    j''aime Allah et Son Messager.'' Le Prophète Muhammad ﷺ le regarda et dit : ''Tu seras avec celui que tu aimes.'' Ce bref
+    échange devint l''une des réassurances les plus citées dans la spiritualité islamique. Ibn Rajab, dans Jami'' al-''Ulum
+    wa al-Hikam, explique que l''amour n''est pas seulement un sentiment mais une force opératoire qui façonne le comportement,
+    la compagnie et la destination finale. Al-Nawawi ajoute que ce hadith élève l''amour au rang d''acte — ne remplaçant pas
+    l''action, mais résumant la disposition qui rend l''action fructueuse. Pour le musulman d''aujourd''hui, ce récit redirige
+    la spéculation anxieuse sur les échéances vers la seule préparation qui compte : cultiver l''amour pour le Prophète Muhammad
+    ﷺ et sa voie, car au Jour où toutes les autres préparations pourront s''avérer insuffisantes, l''amour sera la boussole
+    qui te mènera à ta compagnie.'
+  reference: Sahih al-Bukhari 6447, Sahih Muslim 1181
+  hadith_refs: Bukhari 6447, Muslim 1181
+  source_notes: |
+    Ibn Rajab (Jāmiʿ al-ʿUlūm) explains that love is not merely sentiment but an operative force that shapes behaviour, companionship, and final destination. Al-Nawawī adds that the hadith elevates love to the status of a deed — not replacing action, but summarising the disposition that makes action fruitful. This hadith is graded ṣaḥīḥ and is central to works on love for Allah and His Messenger.
+  source_notes_fr: |
+    Ibn Rajab (Jāmiʿ al-ʿUlūm) explique que l'amour n'est pas seulement un sentiment mais une force opératoire qui façonne le comportement, la compagnie et la destination finale. Al-Nawawī ajoute que ce hadith élève l'amour au rang d'acte — ne remplaçant pas l'action, mais résumant la disposition qui rend l'action fructueuse. Ce hadith est gradé ṣaḥīḥ et est central dans les ouvrages sur l'amour d'Allah et de Son Messager.
+  source_notes_ar: |
+    يُفَسِّرُ ابْنُ رَجَبٍ فِي «جَامِعِ الْعُلُومِ» أَنَّ الْمَحَبَّةَ لَيْسَتْ مُجَرَّدَ شُعُورٍ، بَلْ قُوَّةً فَاعِلَةً تُشَكِّلُ السُّلُوكَ وَالصُّحْبَةَ وَالْمَصِيرَ. وَيُضِيفُ النَّوَوِيُّ أَنَّ الْحَدِيثَ يَرْفَعُ الْمَحَبَّةَ إِلَى مَرْتَبَةِ الْعَمَلِ. حَكَمَ عَلَيْهِ بِالصَّحَاحِ، وَهُوَ مِنْ أَهَمِّ النُّصُوصِ فِي مَحَبَّةِ اللهِ وَرَسُولِهِ.
+  display_day_of_year: 139
+  source_url: https://sunnah.com/bukhari:6447
+- slug: hadith-masjid-al-dirar
+  category: hadith_narrative
+  title_en: The Mosque of Harm — When a Building Becomes a Trap
+  title_ar: مسجد الضرار — حين يصير البناء فخاً
+  title_fr: La mosquée du tort — quand un édifice devient un piège
+  description_en: 'Before the Expedition of Tabuk, a group of hypocrites built a mosque at Quba'' and invited the Prophet
+    ﷺ to pray in it, ostensibly to serve travelers and the sick. But their true purpose, as Allah revealed in Surah al-Tawbah,
+    was to create a center of division, harm, and conspiracy against the believers. The Prophet ﷺ was still en route to Tabuk
+    when the revelation came commanding him not to set foot in it and ordering the mosque to be burned to the ground. Ibn
+    Kathir explains that this incident is the canonical boundary between genuine religious architecture — built for Allah
+    alone — and institutionalized hypocrisy that weaponizes piety for political sabotage. Al-Nawawi adds that the command
+    to destroy the mosque established the principle that places used to sow discord lose all sanctity. For the Muslim today,
+    the narrative is a diagnostic tool: any space — physical or digital — that claims religious purpose while breeding division,
+    backbiting, or conspiracy against the community is a masjid al-dirar, and the believer''s duty is to withdraw and warn.'
+  description_ar: قَبْلَ غَزْوَةِ تَبُوكَ، بَنَى مُنَافِقُونَ مَسْجِدًا فِي قُبَاءَ وَدَعَوُا النَّبِيَّ ﷺ أَنْ يُصَلِّيَ
+    فِيهِ. وَلَكِنَّ الْغَرَضَ الْحَقِيقِيَّ — كَمَا أَنْزَلَ اللَّهُ فِي سُورَةِ التَّوْبَةِ — كَانَ تَأْسِيسَ وَكَالَةِ
+    تَفْرِيقٍ وَمَكْرٍ. فَأَمَرَ اللَّهُ النَّبِيَّ ﷺ أَلَّا يَقُومَ فِيهِ وَأَنْ يُحْرَقَ. يُوَضِّحُ ابْنُ كَثِيرٍ أَنَّ
+    الْحَادِثَةَ تُقِيمُ الْحَدَّ بَيْنَ الْعِمَارَةِ الدِّينِيَّةِ الْخَالِصَةِ وَالنِّفَاقِ الْمُؤَسَّسِ الَّذِي يَسْتَثْمِرُ
+    التَّقْوَى لِلتَّخَرِيبِ السِّيَاسِيِّ. وَيُضِيفُ النَّوَوِيُّ أَنَّ أَمْرَ الْهَدْمِ أَثْبَتَ أَنَّ الْأَمَاكِنَ الْمُسْتَعْمَلَةَ
+    لِلشِّقَاقِ تَسْقُطُ حُرْمَتُهَا. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ كُلَّ فَضَاءٍ — مَادِيٍّ أَوْ رَقْمِيٍّ — يَدَّعِي
+    الْغَرَضَ الدِّينِيَّ وَيُبَذِّرُ الْفُرْقَةَ فَهُوَ مَسْجِدُ ضَرَارٍ، وَعَلَى الْمُؤْمِنِ الِانْسِحَابُ وَالتَّحْذِيرُ.
+  description_fr: 'Avant l''expédition de Tabuk, un groupe d''hypocrites construisit une mosquée à Quba'' et invita le Prophète
+    Muhammad ﷺ à y prier, prétendument pour servir les voyageurs et les malades. Mais leur véritable objectif, comme Allah
+    le révéla dans la sourate al-Tawbah, était de créer un centre de division, de tort et de complot contre les croyants.
+    Le Prophète Muhammad ﷺ était encore en route pour Tabuk lorsque la révélation ordonna de ne pas y mettre les pieds et
+    de brûler la mosquée. Ibn Kathir explique que cet incident marque la limite canonique entre l''architecture religieuse
+    authentique — construite pour Allah seul — et l''hypocrisie institutionnalisée qui fait de la piété une arme de sabotage
+    politique. Al-Nawawi ajoute que l''ordre de détruire la mosquée établit le principe que les lieux utilisés pour semer
+    la discorde perdent toute sanctité. Pour le musulman d''aujourd''hui, ce récit est un outil diagnostique : tout espace
+    — physique ou numérique — qui revendique un but religieux tout en nourrissant la division, la médisance ou le complot
+    contre la communauté est un masjid al-dirar, et le devoir du croyant est de se retirer et d''avertir.'
+  reference: Sahih al-Bukhari 470, Sahih Muslim 1071; Qur'an 9:107-110
+  hadith_refs: Bukhari 470, Muslim 1071
+  quran_refs: 9:107-110
+  source_notes: |
+    Ibn Kathīr explains that this incident marks the canonical boundary between genuine religious architecture and institutionalised hypocrisy. Al-Nawawī adds that the command to destroy the mosque established the principle that places used to sow discord lose all sanctity. The event is narrated in Ṣaḥīḥ al-Bukhārī and Muslim, and is the occasion for Qur'an 9:107-110.
+  source_notes_fr: |
+    Ibn Kathīr explique que cet incident marque la limite canonique entre l'architecture religieuse authentique et l'hypocrisie institutionnalisée. Al-Nawawī ajoute que l'ordre de détruire la mosquée a établi le principe que les lieux utilisés pour semer la discorde perdent toute sanctité. L'événement est narraté dans Ṣaḥīḥ al-Bukhārī et Muslim, et est l'occasion du Qur'an 9:107-110.
+  source_notes_ar: |
+    يُوَضِّحُ ابْنُ كَثِيرٍ أَنَّ الْحَادِثَةَ تُقِيمُ الْحَدَّ بَيْنَ الْعِمَارَةِ الدِّينِيَّةِ الْخَالِصَةِ وَالنِّفَاقِ الْمُؤَسَّسِ. وَيُضِيفُ النَّوَوِيُّ أَنَّ أَمْرَ الْهَدْمِ أَثْبَتَ أَنَّ الْأَمَاكِنَ الْمُسْتَعْمَلَةَ لِلشِّقَاقِ تَسْقُطُ حُرْمَتُهَا. رُوِيَ فِي صَحِيحِ الْبُخَارِيِّ وَمُسْلِمٍ، وَهِيَ سَبَبُ نُزُولِ سُورَةِ التَّوْبَةِ ١٠٧-١١٠.
+  display_day_of_year: 140
+  source_url: https://sunnah.com/bukhari:470
+- slug: hadith-blind-man-supplication
+  category: hadith_narrative
+  title_en: The Blind Man's Supplication — How Tawassul Taught a Lesson in Humility
+  title_ar: دعاء الأعمى — كيف علَّم التوسل درساً في التواضع
+  title_fr: La supplication de l'aveugle — comment le tawassul enseigna une leçon d'humilité
+  description_en: 'A blind man came to the Prophet ﷺ complaining of his condition and asking the Prophet to pray for his healing.
+    The Prophet ﷺ instructed him to perform ablution, pray two rak''ahs, and then supplicate: ''O Allah, I ask You and turn
+    to You through Your Prophet Muhammad, the Prophet of mercy. O Muhammad, I turn to my Lord through you, so that my need
+    may be fulfilled.'' The man did so and Allah restored his sight. This incident — narrated by Uthman ibn Hunayf — became
+    the classical proof for the legitimacy of tawassul through the Prophet ﷺ in supplication. Ibn Taymiyya, in his Qa''ida
+    fi al-Tawassul, acknowledges the authenticity of the narration and explains that the tawassul here is through the Prophet''s
+    honored status with Allah, not through any independent power. Al-Nawawi adds that the blind man''s willingness to follow
+    the Prophet''s specific instruction — rather than demanding an immediate miracle — demonstrated the very humility that
+    made his supplication acceptable. For the Muslim today, the narrative teaches that the path to divine response is not
+    entitlement but structured humility: prepare yourself, approach with proper protocol, and ask through the most beloved
+    of intermediaries.'
+  description_ar: 'أَتَى أَعْمَى إِلَى النَّبِيِّ ﷺ يَشْكُو بَصَرَهُ وَيَطْلُبُ الدُّعَاءَ. فَأَمَرَهُ النَّبِيُّ ﷺ بِالْوُضُوءِ
+    وَصَلَاةِ رَكْعَتَيْنِ، ثُمَّ أَنْ يَدْعُوَ: «اللَّهُمَّ إِنِّي أَسْأَلُكَ وَأَتَوَجَّهُ إِلَيْكَ بِنَبِيِّكَ مُحَمَّدٍ
+    نَبِيِّ الرَّحْمَةِ، يَا مُحَمَّدُ إِنِّي أَتَوَجَّهُ بِكَ إِلَى رَبِّي فِي حَاجَتِي هَذِهِ لِتُقْضَى لِي». فَفَعَلَ فَأَبْصَرَ.
+    وَرَوَاهُ عُثْمَانُ بْنُ حُنَيْفٍ. يُفَسِّرُ ابْنُ تَيْمِيَّةَ فِي «قَاعِدَةِ التَّوَسُّلِ» أَنَّ التَّوَسُّلَ هُنَا بِحَقِّ
+    النَّبِيِّ ﷺ عِنْدَ اللَّهِ لَا بِقُدْرَةٍ مُسْتَقِلَّةٍ. وَيُضِيفُ النَّوَوِيُّ أَنَّ اسْتِعْدَادَ الْأَعْمَى لِاتِّبَاعِ
+    التَّعْلِيمَاتِ الدَّقِيقَةِ — دُونَ الِاكْتِفَاءِ بِمُعْجِزَةٍ فَوْرِيَّةٍ — كَانَ هُوَ التَّوَاضُعَ الَّذِي قَبِلَ الدُّعَاءَ.
+    دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ طَرِيقَ الْإِجَابَةِ لَيْسَ الِادِّعَاءَ بَلْ التَّوَاضُعَ الْمُنَظَّمَ: حَضِّرْ نَفْسَكَ،
+    وَتَوَجَّهْ بِالْأَدَبِ، وَاسْأَلْ بِأَحَبِّ الْوَسَائِطِ.'
+  description_fr: 'Un aveugle vint au Prophète Muhammad ﷺ se plaindre de son état et demander au Prophète de prier pour sa
+    guérison. Le Prophète Muhammad ﷺ lui ordonna de faire ses ablutions, de prier deux rak''ahs, puis de suppliquer : ''Ô
+    Allah, je Te demande et me tourne vers Toi par Ton Prophète Muhammad, le Prophète de la miséricorde. Ô Muhammad, je me
+    tourne vers mon Seigneur par toi, afin que mon besoin soit comblé.'' L''homme fit ainsi et Allah lui rendit la vue. Cet
+    incident — rapporté par Uthman ibn Hunayf — devint la preuve classique de la légitimité du tawassul par le Prophète Muhammad
+    ﷺ dans la supplication. Ibn Taymiyya, dans sa Qa''ida fi al-Tawassul, reconnaît l''authenticité de la narration et explique
+    que le tawassul ici se fait par le statut honoré du Prophète auprès d''Allah, et non par un pouvoir indépendant. Al-Nawawi
+    ajoute que la volonté de l''aveugle de suivre l''instruction précise du Prophète — plutôt que d''exiger un miracle immédiat
+    — démontrait l''humilité même qui rendit sa supplication acceptable. Pour le musulman d''aujourd''hui, ce récit enseigne
+    que le chemin vers la réponse divine n''est pas l''exigence mais l''humilité structurée : prépare-toi, approche avec le
+    protocole approprié, et demande par le plus aimé des intermédiaires.'
+  reference: Jami' at-Tirmidhi 3605 (Hasan Sahih), Sunan Ibn Majah 1385
+  hadith_refs: Tirmidhi 3605, Ibn Majah 1385
+  source_notes: |
+    Ibn Taymiyya (Qāʿida fī al-Tawassul) acknowledges the authenticity of the narration and explains that the tawassul here is through the Prophet's ﷺ honoured status with Allah, not through any independent power. Al-Nawawī adds that the blind man's willingness to follow the Prophet's ﷺ specific instruction demonstrated the humility that made his supplication acceptable. The hadith is graded ḥasan ṣaḥīḥ by al-Albānī.
+  source_notes_fr: |
+    Ibn Taymiyya (Qāʿida fī al-Tawassul) reconnaît l'authenticité de la narration et explique que le tawassul ici se fait par le statut honoré du Prophète ﷺ auprès d'Allah, et non par un pouvoir indépendant. Al-Nawawī ajoute que la volonté de l'aveugle de suivre l'instruction précise du Prophète ﷺ a démontré l'humilité même qui rendit sa supplication acceptable. Le hadith est gradé ḥasan ṣaḥīḥ par al-Albānī.
+  source_notes_ar: |
+    يُقِرُّ ابْنُ تَيْمِيَّةَ فِي «قَاعِدَةِ التَّوَسُّلِ» بِصِحَّةِ الرِّوَايَةِ، وَيُوَضِّحُ أَنَّ التَّوَسُّلَ هُنَا بِحَقِّ النَّبِيِّ ﷺ عِنْدَ اللهِ لَا بِقُدْرَةٍ مُسْتَقِلَّةٍ. وَيُضِيفُ النَّوَوِيُّ أَنَّ اسْتِعْدَادَ الْأَعْمَى لِاتِّبَاعِ التَّعْلِيمَاتِ كَانَ هُوَ التَّوَاضُعَ الَّذِي قَبِلَ الدُّعَاءَ. حَكَمَ عَلَيْهِ الْأَلْبَانِيُّ بِالْحَسَنِ الصَّحِيحِ.
+  display_day_of_year: 141
+  source_url: https://sunnah.com/tirmidhi:3605
+- slug: hadith-last-man-to-enter-paradise
+  category: hadith_narrative
+  title_en: The Last Man to Enter Paradise — Mercy Beyond the Last Ember
+  title_ar: آخر من يدخل الجنة — رحمة ما بعد الجمر الأخير
+  title_fr: Le dernier homme à entrer au Paradis — la miséricorde au-delà de la dernière braise
+  description_en: 'The Prophet ﷺ described the fate of the last man to be taken out of the Fire: after all others have entered
+    Paradise, he remains in the lowest pit of Hell until Allah commands the angels to bring him forth. They find him charred
+    and shrunken, and Allah commands that he be washed in the rivers of Paradise, clothed in garments of faith, and led to
+    the gate of Paradise. There he will be given a paradise ten times the size of this world, and he will think it is all
+    for him — yet he is the last and least of the inhabitants. Ibn Rajab, in Jami'' al-''Ulum wa al-Hikam, explains that this
+    hadith is the outer limit of divine mercy: if even the last man from the Fire receives more than any earthly kingdom,
+    then the generosity of Allah exceeds every human metric of justice. Al-Nawawi adds that the man''s initial despair and
+    subsequent astonishment mirror the journey of every sinner who underestimates the scope of forgiveness. For the Muslim
+    today, the narrative is an antidote to despair: no matter how far you feel from righteousness, the mercy of Allah extends
+    beyond the last ember of the Fire to meet the sincere heart.'
+  description_ar: 'وَصَفَ النَّبِيُّ ﷺ آخِرَ إِنْسَانٍ يُخْرَجُ مِنَ النَّارِ: بَعْدَ دُخُولِ الْجَمِيعِ، يَبْقَى فِي قَعْرِهَا
+    حَتَّى يَأْمُرَ اللَّهُ الْمَلَائِكَةَ بِإِخْرَاجِهِ. فَيَجِدُونَهُ مُحْتَرِقًا مُنْكَمِشًا، فَيَأْمُرُ بِغُسْلِهِ فِي
+    أَنْهَارِ الْجَنَّةِ وَكِسَائِهِ إِيمَانًا، ثُمَّ يُقَادُ إِلَى بَابِ الْجَنَّةِ فَيُعْطَى جَنَّةً عَشْرَةَ أَضْعَافِ
+    الدُّنْيَا. يُفَسِّرُ ابْنُ رَجَبٌ أَنَّ هَذَا الْحَدِيثَ هُوَ الْحَدُّ الْأَقْصَى لِلرَّحْمَةِ: إِنْ كَانَ آخِرُ النَّاسِ
+    يَنَالُ أَكْثَرَ مِنْ كُلِّ مَمْلَكَةٍ أَرْضِيَّةٍ، فَإِنَّ كَرَمَ اللَّهِ يَتَجَاوَزُ كُلَّ مِعْيَارٍ بَشَرِيٍّ. وَيُضِيفُ
+    النَّوَوِيُّ أَنَّ يَأْسَهُ الْأَوَّلَ وَدَهْشَتَهُ اللَّاحِقَةَ يُجَسِّدَانِ رِحْلَةَ كُلِّ خَاطِئٍ يُقَلِّلُ مِنْ نِطَاقِ
+    الْمَغْفِرَةِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ هَذَا الْحَدِيثَ تِرْيَاقُ الْيَأْسِ: لَا يَهْمَتَّ مِنْ بُعْدِكَ عَنِ
+    الصَّلَاحِ، فَإِنَّ رَحْمَةَ اللَّهِ تَمْتَدُّ مَا بَعْدَ آخِرِ جَمْرَةٍ فِي النَّارِ.'
+  description_fr: 'Le Prophète Muhammad ﷺ décrivit le sort du dernier homme à être retiré du Feu : après que tous les autres
+    soient entrés au Paradis, il reste dans le gouffre le plus profond de l''Enfer jusqu''à ce qu''Allah ordonne aux anges
+    de le faire sortir. Ils le trouvent calciné et ratatiné, et Allah ordonne qu''il soit lavé dans les rivières du Paradis,
+    vêtu d''habits de foi, et conduit à la porte du Paradis. Là, on lui donnera un paradis dix fois plus grand que ce monde,
+    et il pensera que tout cela est pour lui — pourtant il est le dernier et le plus petit des habitants. Ibn Rajab, dans
+    Jami'' al-''Ulum wa al-Hikam, explique que ce hadith représente la limite extrême de la miséricorde divine : si même le
+    dernier homme du Feu reçoit plus que n''importe quel royaume terrestre, alors la générosité d''Allah dépasse toute mesure
+    humaine de justice. Al-Nawawi ajoute que le désespoir initial de l''homme et son étonnement subséquent reflètent le parcours
+    de tout pécheur qui sous-estime l''étendue du pardon. Pour le musulman d''aujourd''hui, ce récit est un antidote au désespoir
+    : peu importe à quel point tu te sens éloigné de la droiture, la miséricorde d''Allah s''étend au-delà de la dernière
+    braise du Feu pour rejoindre le cœur sincère.'
+  reference: Sahih al-Bukhari 6562, Sahih Muslim 183
+  hadith_refs: Bukhari 6562, Muslim 183
+  source_notes: |
+    Ibn Rajab (Jāmiʿ al-ʿUlūm) explains that this hadith represents the outer limit of divine mercy: if even the last man from the Fire receives more than any earthly kingdom, Allah's generosity exceeds every human metric. Al-Nawawī adds that the man's initial despair and subsequent astonishment mirror the journey of every sinner who underestimates forgiveness. The hadith is narrated in Ṣaḥīḥ al-Bukhārī and Muslim.
+  source_notes_fr: |
+    Ibn Rajab (Jāmiʿ al-ʿUlūm) explique que ce hadith représente la limite extrême de la miséricorde divine : si même le dernier homme du Feu reçoit plus que n'importe quel royaume terrestre, la générosité d'Allah dépasse toute mesure humaine. Al-Nawawī ajoute que le désespoir initial de l'homme et son étonnement subséquent reflètent le parcours de tout pécheur qui sous-estime l'étendue du pardon. Le hadith est narraté dans Ṣaḥīḥ al-Bukhārī et Muslim.
+  source_notes_ar: |
+    يُفَسِّرُ ابْنُ رَجَبٍ فِي «جَامِعِ الْعُلُومِ» أَنَّ هَذَا الْحَدِيثَ هُوَ الْحَدُّ الْأَقْصَى لِلرَّحْمَةِ: إِنْ كَانَ آخِرُ النَّاسِ يَنَالُ أَكْثَرَ مِنْ كُلِّ مَمْلَكَةٍ أَرْضِيَّةٍ، فَكَرَمُ اللهِ يَتَجَاوَزُ كُلَّ مِعْيَارٍ بَشَرِيٍّ. وَيُضِيفُ النَّوَوِيُّ أَنَّ يَأْسَهُ الْأَوَّلَ وَدَهْشَتَهُ يُجَسِّدَانِ رِحْلَةَ كُلِّ خَاطِئٍ. رُوِيَ فِي صَحِيحِ الْبُخَارِيِّ وَمُسْلِمٍ.
+  display_day_of_year: 143
+  source_url: https://sunnah.com/bukhari:6562
+- slug: hadith-two-men-in-hell
+  category: hadith_narrative
+  title_en: Two Tortured in the Fire — Guarding the Tongue and the Body
+  title_ar: معذبان في النار — حفظ اللسان والبدن
+  title_fr: Deux torturés dans le Feu — préserver la langue et le corps
+  description_en: 'The Prophet ﷺ once passed by two graves and said: ''They are being punished, but not for anything major.
+    One of them used not to guard himself from urine, and the other used to spread tales (namima).'' He then asked for a fresh
+    palm branch, split it in two, and planted one on each grave, explaining: ''Perhaps their punishment will be lightened
+    as long as these do not dry out.'' This hadith established two foundational principles simultaneously: ritual purity is
+    not merely etiquette but a condition whose neglect carries otherworldly consequences, and the tongue''s power to destroy
+    reputations is a grave sin that earns physical torture in the grave. Ibn Hajar, in Fath al-Bari, notes that the Prophet''s
+    act of planting the fresh branches indicates that the living can intercede for the dead through sincere supplication and
+    good deeds. Al-Nawawi adds that the two sins were singled out because they are universally underestimated — most people
+    do not consider urine splashes or gossip to be ''major'' sins, yet the Prophet labeled their consequences as torture.
+    For the Muslim today, the narrative is a double-edged warning: guard your physical purity with the same vigilance as your
+    prayer, and guard your tongue with the same vigilance as your chastity.'
+  description_ar: 'مَرَّ النَّبِيُّ ﷺ بِقَبْرَيْنِ فَقَالَ: «إِنَّهُمَا لَيُعَذَّبَانِ، وَمَا يُعَذَّبَانِ فِي كَبِيرٍ: أَمَّا
+    أَحَدُهُمَا فَكَانَ لَا يَسْتَتِرُ مِنْ بَوْلِهِ، وَأَمَّا الْآخَرُ فَكَانَ يَمْشِي بِالنَّمِيمَةِ». ثُمَّ أَخَذَ جَرِيدَةً
+    رَطْبَةً فَشَقَّهَا وَغَرَسَ مِنْهَا عَلَى كُلِّ قَبْرٍ وَاحِدَةً: «لَعَلَّهُ يُخَفَّفُ عَنْهُمَا مَا لَمْ يَيْبَسَا».
+    يُشِيرُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» إِلَى أَنَّ غَرْسَ الْجَرِيدَةِ يُفِيدُ أَنَّ الْأَحْيَاءَ يَسْتَطِيعُونَ
+    الشَّفَاعَةَ فِي الْأَمْوَاتِ. وَيُضِيفُ النَّوَوِيُّ أَنَّ هَذَيْنِ الذَّنْبَيْنِ أُشِيرَ إِلَيْهِمَا لِأَنَّ النَّاسَ
+    يَسْتَخِفُّونَ بِهِمَا. دَرْسُ الْمُسْلِمِ الْيَوْمَ تَحْذِيرٌ مُزْدَوَجٌ: احْفَظْ طُهْرَكَ الْبَدَنِيَّ بِمِثْلِ حِرَاسَةِ
+    صَلَاتِكَ، وَاحْفَظْ لِسَانَكَ بِمِثْلِ حِرَاسَةِ عِفَّتِكَ.'
+  description_fr: 'Le Prophète Muhammad ﷺ passa un jour près de deux tombes et dit : ''Ils sont châtiés, mais pas pour quelque
+    chose de majeur. L''un d''eux ne se préservait pas de son urine, et l''autre répandait des ragots (namima).'' Il demanda
+    ensuite une branche de palmier fraîche, la fendit en deux et en planta une sur chaque tombe, expliquant : ''Peut-être
+    que leur châtiment sera allégé tant que celles-ci ne se dessèchent pas.'' Ce hadith établit deux principes fondamentaux
+    simultanément : la pureté rituelle n''est pas seulement une question d''étiquette mais une condition dont la négligence
+    a des conséquences ultraterrestres, et le pouvoir de la langue à détruire les réputations est un péché grave qui mérite
+    une torture physique dans la tombe. Ibn Hajar, dans Fath al-Bari, note que l''acte du Prophète de planter les branches
+    fraîches indique que les vivants peuvent intercéder pour les morts par la supplication sincère et les bonnes œuvres. Al-Nawawi
+    ajoute que les deux péchés furent singuliers parce qu''ils sont universellement sous-estimés — la plupart des gens ne
+    considèrent pas les éclaboussures d''urine ou les commérages comme des péchés ''majeurs'', pourtant le Prophète qualifia
+    leurs conséquences de torture. Pour le musulman d''aujourd''hui, ce récit est un avertissement à double tranchant : préserve
+    ta pureté physique avec la même vigilance que ta prière, et préserve ta langue avec la même vigilance que ta chasteté.'
+  reference: Sahih al-Bukhari 216, Sahih Muslim 292
+  hadith_refs: Bukhari 216, Muslim 292
+  source_notes: |
+    Ibn Ḥajar (Fatḥ al-Bārī) notes that the Prophet's ﷺ act of planting fresh branches indicates that the living can intercede for the dead through sincere supplication and good deeds. Al-Nawawī adds that the two sins were singled out because they are universally underestimated — most people do not consider urine splashes or gossip to be "major" sins. The hadith is narrated in Ṣaḥīḥ al-Bukhārī and Muslim.
+  source_notes_fr: |
+    Ibn Ḥajar (Fatḥ al-Bārī) note que l'acte du Prophète ﷺ de planter des branches fraîches indique que les vivants peuvent intercéder pour les morts par la supplication sincère et les bonnes œuvres. Al-Nawawī ajoute que les deux péchés furent singulés parce qu'ils sont universellement sous-estimés. Le hadith est narraté dans Ṣaḥīḥ al-Bukhārī et Muslim.
+  source_notes_ar: |
+    يُشِيرُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» إِلَى أَنَّ غَرْسَ الْجَرِيدَةِ يُفِيدُ أَنَّ الْأَحْيَاءَ يَسْتَطِيعُونَ الشَّفَاعَةَ فِي الْأَمْوَاتِ. وَيُضِيفُ النَّوَوِيُّ أَنَّ هَذَيْنِ الذَّنْبَيْنِ أُشِيرَ إِلَيْهِمَا لِأَنَّ النَّاسَ يَسْتَخِفُّونَ بِهِمَا. رُوِيَ فِي صَحِيحِ الْبُخَارِيِّ وَمُسْلِمٍ.
+  display_day_of_year: 144
+  source_url: https://sunnah.com/bukhari:216
+- slug: hadith-hidden-treasure
+  category: hadith_narrative
+  title_en: '''I Was a Hidden Treasure'' — Why Isnad Criticism Matters'
+  title_ar: «كنت كنزًا مخفيًا» — لماذا يهم نقد الإسناد
+  title_fr: « J'étais un trésor caché » — pourquoi la critique de l'isnad importe
+  description_en: |
+    A saying widely circulated in Islamic literature attributes to Allah the words: "I was a hidden treasure, and I loved to be known, so I created creation that I might be known." Though poetic and theologically suggestive, classical hadith scholars have unanimously determined that this narration lacks any authenticated chain of transmission (isnad) back to the Prophet ﷺ. Ibn Taymiyya, in Majmu' al-Fatawa (18/122), wrote explicitly: "This is not among the words of the Prophet ﷺ, and there is no known chain for it." Al-Suyuti, in al-Durar al-Muntathira (no. 330), reached the same verdict, noting that the saying first appears in the works of Ibn Arabi and later Sufi authors without prophetic authority. The authentic purpose of creation is given in the Qur'an: "I did not create the jinn and mankind except to worship Me" (51:56). This case is a foundational lesson in the discipline of hadith criticism (al-jarh wa al-ta'dil): beauty of meaning does not authenticate a narration, and the absence of isnad renders even the most spiritually attractive saying inadmissible as prophetic speech. For the Muslim today, it teaches discernment: verify before you circulate, and let the rigor of transmission guard the purity of your faith.
+  description_ar: |
+    يَشِيعُ فِي الْأَدَبِ الْإِسْلَامِيِّ قَوْلٌ مَنْسُوبٌ إِلَى اللَّهِ: «كُنْتُ كَنْزًا مَخْفِيًّا فَأَحْبَبْتُ أَنْ أُعْرَفَ، فَخَلَقْتُ الْخَلْقَ لِأَعْرَفَ». وَرَغْمَ جَمَالِهِ الشِّعْرِيِّ، فَقَدْ أَجْمَعَ عُلَمَاءُ الْحَدِيثِ عَلَى أَنَّ هَذَا الْخَبَرَ لَا يَصِلُ إِسْنَادُهُ إِلَى النَّبِيِّ ﷺ. كَتَبَ ابْنُ تَيْمِيَّةَ فِي «مَجْمُوعِ الْفَتَاوَى» (١٨/١٢٢): «هَذَا لَيْسَ مِنْ كَلَامِ النَّبِيِّ ﷺ، وَلَيْسَ لَهُ إِسْنَادٌ مَعْلُومٌ». وَخَرِجَ السُّيُوطِيُّ فِي «الدُّرَرِ الْمُنْتَثِرَةِ» (٣٣٠) إِلَى نَتِيجَةٍ مُطَابِقَةٍ، مُلَاحِظًا أَنَّ الْقَوْلَ ظَهَرَ أَوَّلًا فِي كُتُبِ ابْنِ عَرَبِيَّ وَلَيْسَ لَهُ سُنَّةٌ نَبَوِيَّةٌ. وَالْغَرَضُ الْمُصَدَّقُ مِنَ الْخَلْقِ فِي الْقُرْآنِ: «وَمَا خَلَقْتُ الْجِنَّ وَالْإِنْسَ إِلَّا لِيَعْبُدُونِ» (٥١:٥٦). وَهَذَا مَوْضِعٌ تَأْسِيسِيٌّ فِي عِلْمِ النَّقْدِ: جَمَالُ الْمَعْنَى لَا يُصَحِّحُ الْخَبَرَ، وَعَدَمُ الْإِسْنَادِ يُبَطِّلُ أَجْمَلَ أَلْفَاظٍ. دَرْسُ الْمُسْلِمِ الْيَوْمَ التَّمَيُّزُ: تَحَقَّقْ قَبْلَ أَنْ تُنَشِّرَ، وَدَعْ صَرَامَةَ النَّقْلِ تَحْمِي طَهَارَةَ عَقِيدَتِكَ.
+  description_fr: |
+    Un dicton largement répandu dans la littérature islamique attribue à Allah ces mots : « J'étais un trésor caché, et J'ai aimé être connu, alors J'ai créé la création afin que Je sois connu. » Bien que poétique et théologiquement suggestif, les savants classiques du hadith ont unanimement déterminé que cette narration manque de toute chaîne de transmission authentifiée (isnad) remontant au Prophète Muhammad ﷺ. Ibn Taymiyya, dans Majmu' al-Fatawa (18/122), écrivit explicitement : « Ceci ne fait pas partie des paroles du Prophète Muhammad ﷺ, et il n'existe aucune chaîne connue pour cela. » Al-Suyuti, dans al-Durar al-Muntathira (n° 330), parvint au même verdict, notant que le dicton apparaît d'abord dans les œuvres d'Ibn Arabi et d'auteurs soufis ultérieurs sans autorité prophétique. Le but authentique de la création est donné dans le Coran : « Je n'ai créé les djinns et les humains que pour qu'ils M'adorent » (51:56). Ce cas est une leçon fondamentale dans la discipline de la critique du hadith (al-jarh wa al-ta'dil) : la beauté du sens n'authentifie pas une narration, et l'absence d'isnad rend inadmissible comme parole prophétique même le dicton le plus spirituellement attrayant. Pour le musulman d'aujourd'hui, cela enseigne le discernement : vérifiez avant de diffuser, et laissez la rigueur de la transmission garder la pureté de votre foi.
+  source_url: https://islamqa.info/en/answers/20613
+  reference: Ibn Taymiyya, Majmu' al-Fatawa 18/122; al-Suyuti, al-Durar al-Muntathira 330
+  quran_refs: '51:56'
+  source_notes: |
+    Ibn Taymiyya (Majmūʿ al-Fatāwā 18/122) wrote explicitly: "This is not among the words of the Prophet ﷺ, and there is no known chain for it." Al-Suyūṭī (al-Durar al-Muntathira 330) reached the same verdict. The hadith is unanimously considered to have no authenticated isnād. This case is foundational in teaching that beauty of meaning does not authenticate a narration.
+  source_notes_fr: |
+    Ibn Taymiyya (Majmūʿ al-Fatāwā 18/122) écrivit explicitement : « Ceci ne fait pas partie des paroles du Prophète ﷺ, et il n'existe aucune chaîne connue pour cela. » Al-Suyūṭī (al-Durar al-Muntathira 330) parvint au même verdict. Le hadith est unanimement considéré comme dépourvu d'isnād authentifié. Ce cas est fondamental pour enseigner que la beauté du sens n'authentifie pas une narration.
+  source_notes_ar: |
+    كَتَبَ ابْنُ تَيْمِيَّةَ فِي «مَجْمُوعِ الْفَتَاوَى» (١٨/١٢٢): «هَذَا لَيْسَ مِنْ كَلَامِ النَّبِيِّ ﷺ، وَلَيْسَ لَهُ إِسْنَادٌ مَعْلُومٌ». وَخَرِجَ السُّيُوطِيُّ فِي «الدُّرَرِ الْمُنْتَثِرَةِ» (٣٣٠) إِلَى نَتِيجَةٍ مُطَابِقَةٍ. أَجْمَعَ الْعُلَمَاءُ عَلَى أَنَّ لَهُ إِسْنَادًا مُصَدَّقًا. وَهَذَا مَوْضِعٌ تَأْسِيسِيٌّ فِي أَنَّ جَمَالَ الْمَعْنَى لَا يُصَحِّحُ الْخَبَرَ.
+  display_day_of_year: 146
+- slug: hadith-khadijah-comforts-the-prophet
+  category: hadith_narrative
+  title_en: Khadijah's Embrace — The First Believer's Comfort
+  title_ar: عناق خديجة — ستر الْمُؤْمِنَةِ الْأُولَى
+  title_fr: L'étreinte de Khadija — le réconfort de la première croyante
+  description_en: 'After the first revelation descended upon him in the cave of Hira'', the Prophet ﷺ descended in terror,
+    his heart pounding, his body trembling. He entered his house and said to his wife Khadijah: ''Cover me, cover me!'' She
+    wrapped him in a cloak and held him until the trembling subsided. He told her what had happened, and she — the first human
+    being to hear the news — did not hesitate for a moment. She said: ''Never! By Allah, Allah will never disgrace you. You
+    keep good relations with your relatives, you speak the truth, you bear the burden of the weak, you help the destitute,
+    you honor the guest, and you assist those afflicted by calamity.'' Then she took him to her cousin Waraqa ibn Nawfal,
+    a Christian scholar who confirmed that this was the same angel who had come to Moses. Ibn Hajar, in Fath al-Bari, emphasizes
+    that Khadijah''s immediate response was not merely wifely consolation but theological discernment: she judged the event
+    by the Prophet''s lifelong character, establishing the Sunni principle that revelation aligns with virtue, not vice versa.
+    For the Muslim today, Khadijah''s embrace is the archetype of the believing community: when the world seems to crack open,
+    the first response should not be skepticism but shelter, not analysis but presence.'
+  description_ar: 'بَعْدَ نُزُولِ الْوَحْيِ الْأَوَّلِ فِي غَارِ حِرَاءَ، نَزَلَ النَّبِيُّ ﷺ مُرْتَعِدًا قَلْبُهُ، فَدَخَلَ
+    بَيْتَهُ وَقَالَ لِخَدِيجَةَ: «زَمِّلُونِي زَمِّلُونِي». فَدَثَّرَتْهُ وَضَمَّتْهُ حَتَّى سَكَنَ. فَأَخْبَرَهَا، فَقَالَتْ:
+    «كَلَّا وَاللَّهِ مَا يُخْزِيكَ اللَّهُ أَبَدًا، إِنَّكَ لَتَصِلُ الرَّحِمَ، وَتَحْمِلُ الْكَلَّ، وَتَكْسِبُ الْمَعْدُومَ،
+    وَتَكْرِمُ الضَّيْفَ، وَتُعِينُ عَلَى نَوَائِبِ الْحَقِّ». ثُمَّ ذَهَبَتْ بِهِ إِلَى وَرَقَةَ بْنِ نَوْفَلٍ. يُؤَكِّدُ
+    ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» أَنَّ رَدَّ خَدِيجَةَ لَمْ يَكُنْ مُجَرَّدَ تَعْزِيَةٍ، بَلْ تَمَيُّزًا عَقَائِدِيًّا:
+    حَكَمَتْ عَلَى الْحَادِثَةِ بِخُلُقِ النَّبِيِّ ﷺ طِوَالَ حَيَاتِهِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ عِنَاقَ خَدِيجَةَ
+    هُوَ أُصُولُ الْمُجْتَمَعِ الْمُؤْمِنِ: حِينَ يَتَشَقَّقُ الْعَالَمُ، فَلْيَكُنِ الرَّدُّ الْأَوَّلُ لَيْسَ الشَّكَّ بَلْ
+    الْحِمَايَةَ، لَا التَّحْلِيلَ بَلْ الْحُضُورَ.'
+  description_fr: 'Après que la première révélation lui fut descendue dans la grotte de Hira'', le Prophète Muhammad ﷺ descendit
+    terrorisé, son cœur battant, son corps tremblant. Il entra chez lui et dit à sa femme Khadija : ''Couvre-moi, couvre-moi
+    !'' Elle l''enveloppa dans un manteau et le serra contre elle jusqu''à ce que le tremblement s''apaise. Il lui raconta
+    ce qui s''était passé, et elle — le premier être humain à entendre la nouvelle — n''hésita pas un instant. Elle dit :
+    ''Jamais ! Par Allah, Allah ne te déshonorera jamais. Tu entretiens de bonnes relations avec tes proches, tu dis la vérité,
+    tu portes le fardeau des faibles, tu aides les indigents, tu honores l''hôte et tu assistes ceux que frappe le malheur.''
+    Puis elle l''emmena chez son cousin Waraqa ibn Nawfal, un érudit chrétien qui confirma que c''était le même ange qui était
+    venu à Moïse. Ibn Hajar, dans Fath al-Bari, souligne que la réponse immédiate de Khadija n''était pas seulement une consolation
+    conjugale mais un discernement théologique : elle jugea l''événement d''après le caractère du Prophète tout au long de
+    sa vie, établissant le principe sunnite selon lequel la révélation s''aligne sur la vertu, et non l''inverse. Pour le
+    musulman d''aujourd''hui, l''étreinte de Khadija est l''archétype de la communauté croyante : lorsque le monde semble
+    se fendre, la première réponse ne doit pas être le scepticisme mais l''abri, non l''analyse mais la présence.'
+  reference: Sahih al-Bukhari 4953, Sahih Muslim 243
+  hadith_refs: Bukhari 4953, Muslim 243
+  source_notes: |
+    Ibn Ḥajar (Fatḥ al-Bārī) emphasises that Khadīja's immediate response was not merely wifely consolation but theological discernment: she judged the event by the Prophet's ﷺ lifelong character. Al-Nawawī adds that her taking him to Waraqah established the principle of consulting knowledgeable people when confronted with extraordinary experiences. The hadith is narrated in Ṣaḥīḥ al-Bukhārī and Muslim.
+  source_notes_fr: |
+    Ibn Ḥajar (Fatḥ al-Bārī) souligne que la réponse immédiate de Khadīja n'était pas seulement une consolation conjugale mais un discernement théologique : elle jugea l'événement d'après le caractère du Prophète ﷺ tout au long de sa vie. Al-Nawawī ajoute qu'en l'emmenant vers Waraqah, elle établit le principe de consulter les savants face aux expériences extraordinaires. Le hadith est narraté dans Ṣaḥīḥ al-Bukhārī et Muslim.
+  source_notes_ar: |
+    يُؤَكِّدُ ابْنُ حَجَرٍ فِي «فَتْحِ الْبَارِي» أَنَّ رَدَّ خَدِيجَةَ لَمْ يَكُنْ مُجَرَّدَ تَعْزِيَةٍ، بَلْ تَمَيُّزًا عَقَائِدِيًّا: حَكَمَتْ عَلَى الْحَادِثَةِ بِخُلُقِ النَّبِيِّ ﷺ. وَيُضِيفُ النَّوَوِيُّ أَنَّ ذِهَابَهَا بِهِ إِلَى وَرَقَةَ أَثْبَتَ أَصْلَ الِاسْتِشَارَةِ. رُوِيَ فِي صَحِيحِ الْبُخَارِيِّ وَمُسْلِمٍ.
+  display_day_of_year: 148
+  source_url: https://sunnah.com/bukhari:4953
+- slug: hadith-sahabi-who-gave-everything
+  category: hadith_narrative
+  title_en: The Sahabi Who Gave Everything — The Balance of Generosity
+  title_ar: الصحابي الذي تصدق بكل شيء — توازن السخاء
+  title_fr: Le Compagnon qui donna tout — l'équilibre de la générosité
+  description_en: |
+    Abu Dharr al-Ghifari, in a moment of spiritual fervor, distributed his entire wealth in charity, retaining nothing for his own sustenance or that of his family. When news reached the Prophet ﷺ, he did not praise the act but corrected the principle behind it. He taught Abu Dharr and the assembled Companions: "The upper hand is better than the lower hand. Begin with those you are responsible for. The best of charity is that which leaves something remaining." He emphasized that leaving one's dependents in need and forcing them to stretch their hands to others is not virtue but negligence. Ibn al-Qayyim, in Madārij al-Sālikīn, analyzes this hadith as a correction of the false dichotomy between world-renunciation and social responsibility: the true ascetic is not the one who divests himself of all means, but the one who uses his means wisely for Allah's sake while preserving his ability to continue serving. Al-Saʿdī adds that sustainable generosity is itself a form of long-term worship, whereas reckless giving that ends in dependency terminates the stream of goodness. For the Muslim today, this narrative provides the ethic of the balanced hand: give generously, but give in a way that keeps on giving.
+  description_ar: |
+    تَصَدَّقَ أَبُو ذَرٍّ الْغِفَارِيُّ بِكُلِّ مَالِهِ فِي لَحْظَةِ انْجِذَابٍ رُوحِيٍّ، فَلَمْ يُبْقِ شَيْئًا لِنَفْسِهِ أَوْ أَهْلِهِ. فَلَمَّا بَلَغَ النَّبِيَّ ﷺ لَمْ يُثَنِّ عَلَى الْفِعْلِ بَلْ صَحَّحَ الْمَبْدَأَ: «الْيَدُ الْعُلْيَا خَيْرٌ مِنَ الْيَدِ السُّفْلَى، وَابْدَأْ بِمَنْ تَعُولُ، وَخَيْرُ الصَّدَقَةِ مَا كَانَ عَنْ ظَهْرِ غِنًى». وَأَكَّدَ أَنَّ تَرْكَ الْمَعُولِينَ فِي حَاجَةٍ وَإِجْبَارَهُمْ عَلَى التَّسَوُّلِ لَيْسَ فَضْلًا بَلْ تَفْرِيطًا. يُحَلِّلُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» هَذَا الْحَدِيثَ تَصْحِيحًا لِلِاخْتِلَافِ الْكَاذِبِ بَيْنَ الزُّهْدِ وَالْمَسْؤُولِيَّةِ: الصِّدِّيقُ لَيْسَ مَنْ يَتَخَلَّى عَنِ الْوَسَائِلِ، بَلْ مَنْ يَسْتَعْمِلُهَا حِكْمَةً فِي سَبِيلِ اللَّهِ. وَيُضِيفُ الصَّعْدِيُّ أَنَّ السَّخَاءَ الْمُسْتَدَامَ عِبَادَةٌ طَوِيلَةُ الْمَدَى، بِخِلَافِ التَّبْذِيرِ الَّذِي يُفْضِي إِلَى الِاحْتِيَاجِ فَيَقْطَعُ جَدْوَلَ الْخَيْرِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنْ يُعْطِيَ بِيَدٍ مُتَوَازِنَةٍ: سَخِيًّا، لَكِنْ بِطَرِيقَةٍ تَضْمَنُ اسْتِمْرَارَ الْعَطَاءِ.
+  description_fr: |
+    Abu Dharr al-Ghifari, dans un moment de ferveur spirituelle, distribua toute sa fortune en aumône, ne conservant rien pour sa propre subsistance ou celle de sa famille. Lorsque la nouvelle parvint au Prophète Muhammad ﷺ, il ne loua pas l'acte mais corrigea le principe qui le sous-tendait. Il enseigna à Abu Dharr et aux Compagnons rassemblés : « La main supérieure vaut mieux que la main inférieure. Commencez par ceux dont vous êtes responsables. Le meilleur d'aumône est celui qui laisse quelque chose de restant. » Il souligna que laisser ses personnes à charge dans le besoin et les forcer à tendre la main vers autrui n'est pas une vertu mais une négligence. Ibn al-Qayyim, dans Madārij al-Sālikīn, analyse ce hadith comme une correction du faux dilemme entre le renoncement au monde et la responsabilité sociale : le véritable ascète n'est pas celui qui se dépouille de tous les moyens, mais celui qui les utilise sagement pour Allah tout en préservant sa capacité à continuer de servir. Al-Saʿdī ajoute que la générosité durable est elle-même une forme d'adoration à long terme, tandis que le don inconsidéré qui aboutit à la dépendance met fin au flot du bien. Pour le musulman d'aujourd'hui, ce récit fournit l'éthique de la main équilibrée : donnez généreusement, mais donnez de manière à ce que le don continue.
+  reference: Sahih al-Bukhari 1427, Sahih Muslim 1035
+  hadith_refs: Bukhari 1427, Muslim 1035
+  source_notes: |
+    Ibn al-Qayyim (Madārij al-Sālikīn) analyses this hadith as a correction of the false dichotomy between world-renunciation and social responsibility. Al-Saʿdī adds that sustainable generosity is itself a form of long-term worship, whereas reckless giving that ends in dependency terminates the stream of goodness. The hadith is narrated in Ṣaḥīḥ al-Bukhārī and Muslim.
+  source_notes_fr: |
+    Ibn al-Qayyim (Madārij al-Sālikīn) analyse ce hadith comme une correction du faux dilemme entre le renoncement au monde et la responsabilité sociale. Al-Saʿdī ajoute que la générosité durable est elle-même une forme d'adoration à long terme, tandis que le don inconsidéré qui aboutit à la dépendance met fin au flot du bien. Le hadith est narraté dans Ṣaḥīḥ al-Bukhārī et Muslim.
+  source_notes_ar: |
+    يُحَلِّلُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» هَذَا الْحَدِيثَ تَصْحِيحًا لِلِاخْتِلَافِ الْكَاذِبِ بَيْنَ الزُّهْدِ وَالْمَسْؤُولِيَّةِ. وَيُضِيفُ الصَّعْدِيُّ أَنَّ السَّخَاءَ الْمُسْتَدَامَ عِبَادَةٌ طَوِيلَةُ الْمَدَى. رُوِيَ فِي صَحِيحِ الْبُخَارِيِّ وَمُسْلِمٍ.
+  display_day_of_year: 149
+  source_url: https://sunnah.com/bukhari:1427
+- slug: hadith-man-who-asked-for-too-much
+  category: hadith_narrative
+  title_en: The Man Who Asked for Too Much — The Two Gardens Parable
+  title_ar: الرجل الذي طلب كثيرًا — مثل الجنتين
+  title_fr: L'homme qui demanda trop — la parabole des deux jardins
+  description_en: |
+    The Prophet ﷺ recited the parable of two gardens belonging to a man who, upon entering one, boasted of its permanence and questioned the Hereafter. His believing companion urged him to remember Allah and warned that Satan could lead him astray. The man replied with defiant pride: "If you think I am less than you in wealth and children, perhaps my Lord will give me something better than your garden, and perhaps He will send upon it a thunderbolt from the sky so that it becomes a barren plain." The Qur'an records that Allah did indeed send a calamity upon the gardens, reducing them to ruin, and the man clutched at his head in remorse, lamenting that he had associated none with his Lord — yet his repentance came too late to restore what arrogance had destroyed. Ibn al-Qayyim, in al-Fawa'id, explains that the parable illustrates how greed and ingratitude compound each other: the man not only refused to thank Allah but actively challenged His power. Al-Saʿdī adds that the phrase "if Allah wills" (insha'Allah) is the antidote to this spiritual disease. For the Muslim today, the lesson is that every blessing carries the seeds of its own destruction if met with pride rather than gratitude, and that the only safe posture before divine favor is humble dependence.
+  description_ar: |
+    قال النبي ﷺ بِتَلَاوَةِ مَثَلِ رَجُلٍ دَخَلَ جَنَّتَهُ فَافْتَخَرَ بِدَوَامِهَا وَأَنْكَرَ الْآخِرَةَ. فَذَكَّرَهُ صَاحِبُهُ بِاللَّهِ وَحَذَّرَهُ مِنْ وَسَاوِسِ الشَّيْطَانِ. فَأَجَابَ بِكِبْرٍ: «لَئِنْ كُنْتَ تَرَانِي أَقَلَّ مِنْكَ مَالًا وَوَلَدًا، فَعَسَى رَبِّي أَنْ يُؤْتِيَنِ خَيْرًا مِنْ جَنَّتِكَ، وَأَنْ يُرْسِلَ عَلَيْهَا حُصْبَانًا مِنَ السَّمَاءِ فَتُصْبِحَ صَعِيدًا زَلَقًا». فَأَرْسَلَ اللَّهُ عَلَى جَنَّتَيْهِ عَذَابًا فَصَارَتَا حَبِيسَتَيْنِ، وَأَخَذَ الرَّجُلُ يَقْرِضُ بِيَدِهِ عَلَى رَأْسِهِ نَدَامَةً. يُوَضِّحُ ابْنُ الْقَيِّمِ فِي «الْفَوَائِدِ» أَنَّ الْمَثَلَ يُبَيِّنُ كَيْفَ يَتَرَاكَبُ الطَّمَعُ وَالْكُفْرَانُ: لَمْ يَكْتَفِ الرَّجُلُ بِعَدَمِ الشُّكْرِ، بَلْ تَحَدَّى قُدْرَةَ اللَّهِ. وَيُضِيفُ الصَّعْدِيُّ أَنَّ عِلَّاجَ هَذَا الدَّاءِ هُوَ قَوْلُ «إِنْ شَاءَ اللَّهُ». دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ كُلَّ نِعْمَةٍ تَحْمِلُ بُذُورَ هَلَاكِهَا إِذَا قُوبِلَتْ بِالْكِبْرِ لَا بِالشُّكْرِ، وَأَنَّ الْوَضْعَةَ الْآمِنَةَ أَمَامَ الْفَضْلِ الْإِلَهِيِّ هِيَ التَّوَاضُعُ وَالِاعْتِمَادُ عَلَى اللَّهِ.
+  description_fr: |
+    Le Prophète Muhammad ﷺ récita la parabole de deux jardins appartenant à un homme qui, en entrant dans l'un d'eux, se vanta de sa permanence et mit en doute l'Au-delà. Son compagnon croyant l'exhorta à se souvenir d'Allah et l'avertit que Satan pourrait l'égarrer. L'homme répondit avec une fierté défiunte : « Si tu me trouves inférieur à toi en richesse et en enfants, peut-être que mon Seigneur me donnera mieux que ton jardin, et peut-être qu'Il enverra sur lui un éclair du ciel pour qu'il devienne une plaine aride. » Le Coran rapporte qu'Allah envoya en effet un châtiment sur les jardins, les réduisant en ruine, et l'homme se prit la tête entre les mains de remords, se lamentant qu'il n'avait associé personne à son Seigneur — pourtant son repentir vint trop tard pour restaurer ce que l'arrogance avait détruit. Ibn al-Qayyim, dans al-Fawa'id, explique que la parabole illustre comment la cupidité et l'ingratitude se renforcent mutuellement : l'homme non seulement refusa de remercier Allah mais défia activement Sa puissance. Al-Saʿdī ajoute que la phrase « si Allah le veut » (insha'Allah) est l'antidote à cette maladie spirituelle. Pour le musulman d'aujourd'hui, la leçon est que chaque bénédiction porte en elle les germes de sa propre destruction si elle est accueillie avec orgueil plutôt qu'avec gratitude, et que la seule posture sûre devant la faveur divine est la dépendance humble.
+  reference: Sahih Muslim 2963; Qur'an 18:32-44
+  hadith_refs: Muslim 2963
+  quran_refs: 18:32-44
+  source_notes: |
+    Ibn al-Qayyim (al-Fawāʾid) explains that the parable illustrates how greed and ingratitude compound each other. Al-Saʿdī adds that the phrase "if Allah wills" (inshāʾAllāh) is the antidote to this spiritual disease. The parable is narrated in Ṣaḥīḥ Muslim and corresponds to Qur'an 18:32-44.
+  source_notes_fr: |
+    Ibn al-Qayyim (al-Fawāʾid) explique que la parabole illustre comment la cupidité et l'ingratitude se renforcent mutuellement. Al-Saʿdī ajoute que la phrase « si Allah le veut » (inshāʾAllāh) est l'antidote à cette maladie spirituelle. La parabole est narratée dans Ṣaḥīḥ Muslim et correspond au Qur'an 18:32-44.
+  source_notes_ar: |
+    يُوَضِّحُ ابْنُ الْقَيِّمِ فِي «الْفَوَائِدِ» أَنَّ الْمَثَلَ يُبَيِّنُ كَيْفَ يَتَرَاكَبُ الطَّمَعُ وَالْكُفْرَانُ. وَيُضِيفُ الصَّعْدِيُّ أَنَّ عِلَّاجَ هَذَا الدَّاءِ هُوَ قَوْلُ «إِنْ شَاءَ اللَّهُ». رُوِيَ فِي صَحِيحِ مُسْلِمٍ وَيُطَابِقُ سُورَةَ الْكَهْفِ ٣٢-٤٤.
+  display_day_of_year: 150
+  source_url: https://sunnah.com/muslim:2963
+- slug: hadith-jibril-and-iman-islam-ihsan
+  category: hadith_narrative
+  title_en: The Hadith of Jibril — Islam, Iman, and Ihsan Defined
+  title_ar: حديث جبريل — تعريف الإسلام والإيمان والإحسان
+  title_fr: Le hadith de Jibril — l'Islam, l'iman et l'ihsan définis
+  description_en: |
+    One day, a man appeared before the Prophet ﷺ and the Companions in pristine white garments with intensely black hair, showing no signs of travel yet unknown to any of them. He sat before the Prophet ﷺ, placed his knees against the Prophet's knees, and asked with remarkable directness: "What is Islam?" The Prophet ﷺ answered: the five pillars. "What is iman?" Belief in Allah, His angels, His books, His messengers, the Last Day, and divine decree. "What is ihsan?" To worship Allah as though you see Him, for though you do not see Him, He sees you. Then he asked about the Hour and its signs. When the stranger departed, the Prophet ﷺ told the Companions: "That was Jibril, who came to teach you your religion." Al-Nawawi, in Sharh Sahih Muslim, calls this "the mother of hadiths" (umm al-ahadith) because it encompasses the entire structure of the religion in a single conversation. Ibn Rajab adds that the three levels — islam (outward submission), iman (inward conviction), and ihsan (spiritual excellence) — represent the progressive unveiling of the soul before its Lord. For the Muslim today, this hadith is the master curriculum: examine which level dominates your life, and strive to ascend from mere practice to presence.
+  description_ar: |
+    جَاءَ رَجُلٌ إِلَى النَّبِيِّ ﷺ فِي ثِيَابٍ بِيضٍ وَشَعْرٍ أَسْوَدَ، لَيْسَ فِيهِ أَثَرُ السَّفَرِ وَلَمْ يَعْرِفْهُ أَحَدٌ مِنَ الْحَاضِرِينَ. فَجَلَسَ إِلَيْهِ وَوَضَعَ رُكْبَتَيْهِ عَلَى رُكْبَتَيْهِ، وَسَأَلَ: «مَا الْإِسْلَامُ؟» فَأَجَابَ بِالْأَرْكَانِ الْخَمْسَةِ. «فَمَا الْإِيمَانُ؟» فَبِالْأَرْكَانِ السِّتَّةِ. «فَمَا الْإِحْسَانُ؟» أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ. ثُمَّ سَأَلَ عَنِ السَّاعَةِ وَأَشْرَاطِهَا. فَلَمَّا انْصَرَفَ قَالَ النَّبِيُّ ﷺ: «هَذَا جِبْرِيلُ أَتَاكُمْ يُعَلِّمُكُمْ دِينَكُمْ». يُسَمِّي النَّوَوِيُّ فِي «شَرْحِ صَحِيحِ مُسْلِمٍ» هَذَا «أُمَّ الْأَحَادِيثِ» لِأَنَّهُ يَشْمَلُ كُلَّ بُنْيَةِ الدِّينِ فِي حِوَارٍ وَاحِدٍ. وَيُضِيفُ ابْنُ رَجَبٍ أَنَّ الْمَرَاتِبَ الثَّلَاثَ - الْإِسْلَامُ وَالْإِيمَانُ وَالْإِحْسَانُ - تُمَثِّلُ تَجَلِّيَ النَّفْسِ تَدْرِيجِيًّا أَمَامَ رَبِّهَا. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّ هَذَا الْحَدِيثَ هُوَ الْمِنْهَاجُ الْأُسَّاسِيُّ: رَاجِعْ أَيَّ مَرْتَبَةٍ تَسُودُ حَيَاتَكَ، وَاسْعَ لِلصُّعُودِ مِنَ الْمُمَارَسَةِ إِلَى الْمُشَاهَدَةِ.
+  description_fr: |
+    Un jour, un homme apparut devant le Prophète Muhammad ﷺ et les Compagnons vêtu de vêtements blancs immaculés avec des cheveux d'un noir intense, ne portant aucune trace de voyage mais inconnu de tous. Il s'assit devant le Prophète Muhammad ﷺ, posa ses genoux contre les genoux du Prophète, et demanda avec une directitude remarquable : « Qu'est-ce que l'Islam ? » Le Prophète répondit : les cinq piliers. « Qu'est-ce que l'iman ? » La foi en Allah, Ses anges, Ses livres, Ses messagers, le Jour dernier et le décret divin. « Qu'est-ce que l'ihsan ? » Adorer Allah comme si tu Le voyais, car si tu ne Le vois pas, Il te voit. Puis il demanda l'Heure et ses signes. Lorsque l'étranger partit, le Prophète Muhammad ﷺ dit aux Compagnons : « C'était Jibril, qui est venu vous enseigner votre religion. » Al-Nawawi, dans Sharh Sahih Muslim, appelle cela « la mère des hadiths » (umm al-ahadith) car elle englobe toute la structure de la religion en une seule conversation. Ibn Rajab ajoute que les trois niveaux — islam (soumission extérieure), iman (conviction intérieure) et ihsan (excellence spirituelle) — représentent le dévoilement progressif de l'âme devant son Seigneur. Pour le musulman d'aujourd'hui, ce hadith est le programme d'études principal : examinez quel niveau domine votre vie, et efforcez-vous de gravir les échelons de la simple pratique à la présence.
+  reference: Sahih Muslim 8, Sahih al-Bukhari 50
+  hadith_refs: Muslim 8, Bukhari 50
+  source_notes: |
+    Al-Nawawī (Sharḥ Muslim) calls this "the mother of hadiths" (umm al-aḥādīth) because it encompasses the entire structure of the religion in a single conversation. Ibn Rajab adds that the three levels — islām, īmān, and iḥsān — represent the progressive unveiling of the soul before its Lord. The hadith is narrated in Ṣaḥīḥ al-Bukhārī and Muslim.
+  source_notes_fr: |
+    Al-Nawawī (Sharḥ Muslim) appelle cela « la mère des hadiths » (umm al-aḥādīth) car elle englobe toute la structure de la religion en une seule conversation. Ibn Rajab ajoute que les trois niveaux — islām, īmān et iḥsān — représentent le dévoilement progressif de l'âme devant son Seigneur. Le hadith est narraté dans Ṣaḥīḥ al-Bukhārī et Muslim.
+  source_notes_ar: |
+    يُسَمِّي النَّوَوِيُّ فِي «شَرْحِ صَحِيحِ مُسْلِمٍ» هَذَا «أُمَّ الْأَحَادِيثِ» لِأَنَّهُ يَشْمَلُ كُلَّ بُنْيَةِ الدِّينِ. وَيُضِيفُ ابْنُ رَجَبٍ أَنَّ الْمَرَاتِبَ الثَّلَاثَ تُمَثِّلُ تَجَلِّيَ النَّفْسِ تَدْرِيجِيًّا أَمَامَ رَبِّهَا. رُوِيَ فِي صَحِيحِ الْبُخَارِيِّ وَمُسْلِمٍ.
+  display_day_of_year: 151
+  source_url: https://sunnah.com/muslim:8
+- slug: hadith-true-struggle
+  category: hadith_narrative
+  title_en: The True Struggle (Jihad al-Nafs) — Fighting the Inner Enemy
+  title_ar: الجهاد الأكبر — قتال العدو الداخلي
+  title_fr: La véritable lutte (jihad al-nafs) — combattre l'ennemi intérieur
+  description_en: |
+    The Prophet ﷺ said: "The strong one is not the one who wrestles others down; the strong one is the one who controls himself when angry." In another authentic narration, he described the greatest struggle as that against one's own soul — the jihad al-nafs that continues long after the battlefield is silent. Muslim 2581 and Tirmidhi 1621 preserve the prophetic teaching that the true warrior is not measured by victories over external enemies but by mastery over internal impulses: lust, greed, arrogance, and rage. Ibn al-Qayyim, in Madārij al-Sālikīn, devotes entire chapters to this inner warfare, explaining that the nafs is like an untamed horse that either carries its rider to Paradise or tramples him into the Fire. Al-Nawawi adds that controlling anger is singled out because it is the gateway to nearly every other sin — once anger breaches the walls of restraint, theft, slander, violence, and apostasy rush through. For the Muslim today, this narrative redefines strength: real courage is not the absence of fear or the dominance of others, but the daily, invisible struggle to govern the self in obedience to Allah.
+  description_ar: |
+    قال النبي ﷺ: «لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ». وَفِي رِوَايَاتٍ صَحِيحَةٍ أُخْرَى وَصَفَ أَعْظَمَ الْجِهَادِ بِأَنَّهُ جِهَادُ النَّفْسِ الَّذِي يَسْتَمِرُّ بَعْدَ أَنْ يَخْتَنِقَ صَوْتُ الْمَعْرَكَةِ. يَحْفِظُ صَحِيحُ مُسْلِمٍ (٢٥٨١) وَالتِّرْمِذِيُّ (١٦٢١) التَّعْلِيمَ النَّبَوِيَّ بِأَنَّ الْمُجَاهِدَ الْحَقِيقِيَّ لَا يُقَاسُ بِانْتِصَارَاتِهِ عَلَى الْأَعْدَاءِ الْخَارِجِيِّينَ، بَلْ بِسَيْطَرَتِهِ عَلَى النَّزَعَاتِ الدَّاخِلِيَّةِ: الشَّهْوَةِ وَالطَّمَعِ وَالْكِبْرِ وَالْغَضَبِ. يُفَرِّغُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» فُصُولًا كَامِلَةً لِهَذَا الْحَرْبِ الدَّاخِلِيِّ، مُفَسِّرًا أَنَّ النَّفْسَ كَالْفَرَسِ الْأَعْرَفِ: إِمَّا أَنْ يَحْمِلَ رَاكِبَهُ إِلَى الْجَنَّةِ أَوْ يَدُسَّهُ فِي النَّارِ. وَيُضِيفُ النَّوَوِيُّ أَنَّ ضَبْطَ الْغَضَبِ تَمَيَّزَ بِهِ لِأَنَّهُ بَابُ جُلِّ الذُّنُوبِ. دَرْسُ الْمُسْلِمِ الْيَوْمَ أَنَّهُ يُعَرِّفُ الشَّجَاعَةَ مِنْ جَدِيدٍ: لَيْسَتِ الْجُرْأَةُ غِيَابَ الْخَوْفِ أَوْ تَسَيُّدَ الْآخَرِينَ، بَلْ هِيَ الْكِفَاحُ الْيَوْمِيُّ الْخَفِيُّ لِتَدْبِيرِ النَّفْسِ فِي طَاعَةِ اللَّهِ.
+  description_fr: |
+    Le Prophète Muhammad ﷺ dit : « Le fort n'est pas celui qui terrasse les autres ; le fort est celui qui se contrôle lui-même lorsqu'il est en colère. » Dans une autre narration authentique, il décrivit la plus grande lutte comme celle contre sa propre âme — le jihad al-nafs qui se poursuit longtemps après que le champ de bataille se soit tu. Muslim 2581 et Tirmidhi 1621 préservent l'enseignement prophétique selon lequel le véritable guerrier ne se mesure pas à ses victoires sur les ennemis extérieurs mais à sa maîtrise des impulsions intérieures : la luxure, la cupidité, l'arrogance et la rage. Ibn al-Qayyim, dans Madārij al-Sālikīn, consacre des chapitres entiers à cette guerre intérieure, expliquant que le nafs est comme un cheval indompté qui porte soit son cavalier au Paradis, soit le piétine au Feu. Al-Nawawi ajoute que le contrôle de la colère est particulièrement souligné car il est la porte d'entrée de presque tous les autres péchés — une fois la colère entrée par brèche, le vol, la calomnie, la violence et l'apostasie s'engouffrent. Pour le musulman d'aujourd'hui, ce récit redéfinit la force : le vrai courage n'est pas l'absence de peur ou la domination d'autrui, mais la lutte quotidienne et invisible pour gouverner le soi en obéissance à Allah.
+  reference: Sahih Muslim 2581, Jami' at-Tirmidhi 1621
+  hadith_refs: Muslim 2581, Tirmidhi 1621
+  source_notes: |
+    Ibn al-Qayyim (Madārij al-Sālikīn) devotes entire chapters to inner warfare, explaining that the nafs is like an untamed horse that either carries its rider to Paradise or tramples him into the Fire. Al-Nawawī adds that controlling anger is singled out because it is the gateway to nearly every other sin. The hadith is narrated in Ṣaḥīḥ Muslim and graded ṣaḥīḥ by al-Albānī.
+  source_notes_fr: |
+    Ibn al-Qayyim (Madārij al-Sālikīn) consacre des chapitres entiers à cette guerre intérieure, expliquant que le nafs est comme un cheval indompté qui porte soit son cavalier au Paradis, soit le piétine au Feu. Al-Nawawī ajoute que le contrôle de la colère est particulièrement souligné car il est la porte d'entrée de presque tous les autres péchés. Le hadith est narraté dans Ṣaḥīḥ Muslim et gradé ṣaḥīḥ par al-Albānī.
+  source_notes_ar: |
+    يُفَرِّغُ ابْنُ الْقَيِّمِ فِي «مَدَارِجِ السَّالِكِينَ» فُصُولًا كَامِلَةً لِهَذَا الْحَرْبِ الدَّاخِلِيِّ، مُفَسِّرًا أَنَّ النَّفْسَ كَالْفَرَسِ الْأَعْرَفِ. وَيُضِيفُ النَّوَوِيُّ أَنَّ ضَبْطَ الْغَضَبِ تَمَيَّزَ بِهِ لِأَنَّهُ بَابُ جُلِّ الذُّنُوبِ. رُوِيَ فِي صَحِيحِ مُسْلِمٍ وَحَكَمَ عَلَيْهِ الْأَلْبَانِيُّ بِالصَّحَاحِ.
+  display_day_of_year: 153
+  source_url: https://sunnah.com/muslim:2581

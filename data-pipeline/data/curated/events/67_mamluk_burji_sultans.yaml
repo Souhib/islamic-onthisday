@@ -1,0 +1,1252 @@
+# Wave 67 of curated event additions (2026-04-27).
+# Burji (Circassian) Mamluk sultanate of Egypt and Syria, 784-922 AH /
+# 1382-1517. Includes the late-Bahri transition (death of Lāǧīn 698,
+# Mamluk-Mongol clashes at Wādī al-Khaznadār 699 and Shaqḥāb 702),
+# the Burji foundational events (Barqūq, Faraj, Tīmūr's sacks of
+# Aleppo and Damascus 803), and the dynasty's last figures (al-Muʾayyad
+# Shaykh, Barsbāy, Jaqmaq, Qāyt Bāy, Ṭūmān Bāy II).
+# All events attested in classical Sunni sources (Ibn Kathīr al-Bidāya,
+# Ibn Ḥajar al-Durar al-Kāmina, Ibn al-ʿImād Shadharāt al-Dhahab,
+# al-Dhahabī Tārīkh al-Islām, EI2). Trilingual (en/ar/fr).
+# Editorial framing: Tīmūr's massacres of civilian Muslim populations
+# at Aleppo and Damascus reported factually. Burji Mamluks framed as
+# Sunni Ḥanafī/Shāfiʿī patrons whose architectural and scholarly
+# patronage left a lasting imprint on Cairo and Damascus.
+
+events:
+  # =========================================================================
+  # LATE BAHRI TRANSITION — MAMLUK-MONGOL FRONTIER (698-702 AH)
+  # =========================================================================
+
+  - slug: battle-of-wadi-al-khaznadar
+    category: battle
+    title_en: Battle of Wādī al-Khaznadār — Mamlūk Defeat by the Ilkhānid Ghazān
+    title_ar: معركة وادي الخازندار — هزيمة المماليك أمام غازان الإيلخاني
+    title_fr: Bataille de Wādī al-Khaznadār — défaite mamelouke face à l'ilkhanide Ghāzān
+    description_en: |
+      The Bahri Mamlūk army under Sultan al-Nāṣir Muḥammad ibn
+      Qalāwūn (in his first reign, then aged about fifteen) and
+      his viceroys was defeated by the Ilkhānid army of Ghāzān
+      Khān at Wādī al-Khaznadār north-east of Ḥimṣ in northern
+      Syria. It was the only Mongol field victory over the
+      Mamlūks: Ghāzān — who had embraced Islam in 694 AH but
+      whose dynastic claim still rested on the legacy of Hülegü
+      — overran the Mamlūk centre and the Egyptian army withdrew
+      south leaving Damascus exposed. The Ilkhānid army occupied
+      Damascus for several months in early 700 AH; Ghāzān
+      received the city's notables and Ibn Taymiyya in person at
+      the citadel before withdrawing east, the Mongol force
+      depleted by the Syrian summer and dynastic emergencies.
+      The Mamlūks recovered the city without battle, and Ghāzān's
+      successor Öljeitü's invasion three years later would be
+      decisively repulsed at Shaqḥāb in 702 AH. Ibn Kathīr —
+      himself a Damascene witness as a young man — gives a
+      detailed account.
+    description_ar: |
+      هُزم جيش المماليك البحرية بقيادة السلطان الناصر محمد بن
+      قلاوون (في سلطنته الأولى وعمره نحو خمس عشرة سنة) ونوابه
+      أمام جيش الإيلخان غازان خان عند وادي الخازندار شمال شرقي
+      حمص في شمال الشام. وكانت المعركة الانتصار الميداني الوحيد
+      للمغول على المماليك: اخترق غازان — الذي كان قد أسلم سنة
+      ٦٩٤ هـ وإن بقيت دعواه السياسية وارثة لإرث هولاكو — قلب
+      الجيش المملوكي، فانسحب الجيش المصري جنوباً تاركاً دمشق
+      مكشوفة. وأقام جيش الإيلخان بدمشق أشهراً في أوائل سنة
+      ٧٠٠ هـ؛ واستقبل غازان أعيان المدينة والشيخ ابن تيمية
+      شخصياً في القلعة قبل أن ينسحب شرقاً وقد أعيا جيشَه حرّ
+      صيف الشام وأحداث آل بيته. واستعاد المماليك المدينة بلا
+      قتال، وستُهزم بعد ثلاث سنوات حملةُ خليفته أولجايتو في
+      شقحب سنة ٧٠٢ هـ هزيمةً قاطعة. ويفصِّل ابن كثير الوقائع
+      وقد كان شاهداً دمشقياً عليها صبيّاً.
+    description_fr: |
+      L'armée mamelouke baḥrī sous le sultan al-Nāṣir Muḥammad
+      ibn Qalāwūn (alors dans son premier règne, âgé d'environ
+      quinze ans) et ses vice-rois fut défaite par l'armée
+      ilkhanide de Ghāzān Khān à Wādī al-Khaznadār au nord-est
+      de Ḥimṣ dans le nord de la Syrie. Ce fut la seule victoire
+      mongole en bataille rangée sur les Mamelouks : Ghāzān —
+      qui avait embrassé l'islam en 694 H, bien que sa
+      revendication dynastique reposât toujours sur l'héritage
+      de Hülegü — enfonça le centre mamelouk et l'armée
+      égyptienne se replia vers le sud, laissant Damas
+      exposée. L'armée ilkhanide occupa Damas pendant plusieurs
+      mois au début de 700 H; Ghāzān reçut en personne les
+      notables de la ville et Ibn Taymiyya à la citadelle avant
+      de se retirer vers l'est, la force mongole étant épuisée
+      par l'été syrien et les crises dynastiques. Les Mamelouks
+      récupérèrent la ville sans combat, et l'invasion de son
+      successeur Öljeitü trois ans plus tard serait
+      décisivement repoussée à Shaqḥāb en 702 H. Ibn Kathīr —
+      lui-même témoin damascène jeune homme — en donne un
+      récit détaillé.
+    canonical_hijri: {year: 699, month: 12, day: 27, precision: day}
+    canonical_gregorian: {date: 1299-12-22, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya gives the date 27 Rabīʿ II — corrected to 27 Dhū al-Ḥijja 699 AH on collation — and details the Mamlūk withdrawal."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the engagement under the events of 699 AH and the Ilkhānid occupation of Damascus under 700 AH."
+      - source_key: ibn_hajar_durar
+        notes: "Ibn Ḥajar's al-Durar al-Kāmina notes the battle in his entries on the Mamlūk amīrs of the year."
+    people: [[al-nasir-muhammad-ibn-qalawun, leader]]
+    tags: [mamluk, ilkhan, mongol, syria, hims, ghazan, defeat]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: battle-of-shaqhab
+    category: battle
+    title_en: Battle of Shaqḥāb — Mamlūk Decisive Victory over the Mongols
+    title_ar: معركة شقحب (مرج الصفر) — انتصار المماليك الحاسم على المغول
+    title_fr: Bataille de Shaqḥāb — victoire mamelouke décisive sur les Mongols
+    description_en: |
+      The decisive Mamlūk victory over the Ilkhānid army of
+      Qutlughshāh — sent by the Ilkhān Öljeitü — fought on the
+      plain of Shaqḥāb (also called Marj al-Ṣuffar) south of
+      Damascus on the road to the Ḥawrān. The Mamlūk army of
+      Sultan al-Nāṣir Muḥammad ibn Qalāwūn met the Mongol force
+      that had again invaded Syria three years after Wādī
+      al-Khaznadār; Ibn Taymiyya famously rode with the Mamlūks
+      to encourage them to fight despite the public opinion
+      that war against the now-Muslim Ilkhāns was problematic,
+      issuing the *fatwā* that the Ilkhāns' formal Islam did not
+      protect their war on the *dār al-islām* under the Mamlūks.
+      The Mamlūks won on the third day of fighting, the Mongol
+      army was destroyed, and the Ilkhānid threat to Syria was
+      ended for two generations. Tradition records that the
+      sultan and his amīrs prayed Friday in the Umayyad Mosque
+      the week after the victory. Ibn Kathīr and al-Dhahabī give
+      detailed accounts; both were Damascenes alive at the time.
+    description_ar: |
+      الانتصار الحاسم للمماليك على الجيش الإيلخاني بقيادة
+      قتلغ شاه — الذي بعثه الإيلخان أولجايتو — في معركة سهل
+      شقحب (المعروف بمرج الصفر) جنوب دمشق على طريق الحوران.
+      التقى جيش السلطان الناصر محمد بن قلاوون بالجيش المغولي
+      الذي عاد ليجتاح الشام بعد ثلاث سنوات من واقعة وادي
+      الخازندار؛ وقد ركب الشيخ ابن تيمية مع المماليك يحضّهم
+      على القتال رغم تردد العامة في حرب الإيلخان وقد أسلموا،
+      وأفتى أن إسلامهم الشكلي لا يعصمهم إذا حاربوا دار
+      الإسلام وحاكميها المماليك. وانتصر المماليك في اليوم
+      الثالث من القتال، فانهار الجيش المغولي، وانقطع الخطر
+      الإيلخاني عن الشام جيلين. ويذكر التراث أن السلطان وأمراءه
+      صلّوا الجمعة بالجامع الأموي بعد النصر بأسبوع. ويفصّل
+      الواقعة ابن كثير والذهبي وكلاهما كان دمشقياً معاصراً
+      للحادثة.
+    description_fr: |
+      La victoire mamelouke décisive sur l'armée ilkhanide de
+      Qutlughshāh — envoyée par l'ilkhān Öljeitü — livrée sur
+      la plaine de Shaqḥāb (également appelée Marj al-Ṣuffar)
+      au sud de Damas sur la route du Ḥawrān. L'armée mamelouke
+      du sultan al-Nāṣir Muḥammad ibn Qalāwūn rencontra la
+      force mongole qui avait à nouveau envahi la Syrie trois
+      ans après Wādī al-Khaznadār; Ibn Taymiyya, on le sait,
+      chevaucha avec les Mamelouks pour les exhorter à combattre
+      malgré l'opinion publique selon laquelle la guerre contre
+      les ilkhans désormais musulmans posait problème, émettant
+      la *fatwa* selon laquelle l'islam formel des ilkhans ne
+      les protégeait pas lorsqu'ils faisaient la guerre au
+      *dār al-islām* sous les Mamelouks. Les Mamelouks
+      l'emportèrent au troisième jour de combat, l'armée
+      mongole fut détruite, et la menace ilkhanide sur la Syrie
+      fut écartée pour deux générations. La tradition rapporte
+      que le sultan et ses émirs firent la prière du vendredi
+      à la mosquée omeyyade la semaine suivant la victoire.
+      Ibn Kathīr et al-Dhahabī, tous deux Damascènes
+      contemporains, en donnent des récits détaillés.
+    canonical_hijri: {year: 702, month: 4, day: 2, precision: day}
+    canonical_gregorian: {date: 1303-04-21, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the battle on Saturday 2 Ramaḍān 702 AH and details the three days of fighting."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the battle under the events of 702 AH."
+      - source_key: ibn_hajar_durar
+        notes: "Ibn Ḥajar's al-Durar al-Kāmina notes the battle in connection with the amīrs of the year."
+    people: [[al-nasir-muhammad-ibn-qalawun, leader], [ibn-taymiyya, subject]]
+    tags: [mamluk, ilkhan, mongol, syria, damascus, marj-al-suffar, ibn-taymiyya, victory]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-mansur-lajin
+    category: ruler_death
+    title_en: Assassination of al-Manṣūr Lāǧīn — Late Bahri Sultan of Egypt
+    title_ar: مقتل السلطان المنصور لاجين — من سلاطين بني المنصور البحرية
+    title_fr: Assassinat du sultan al-Manṣūr Lāǧīn — sultan baḥrī tardif d'Égypte
+    description_en: |
+      al-Malik al-Manṣūr Ḥusām al-Dīn Lāǧīn al-Manṣūrī — Bahri
+      Mamlūk sultan of Egypt for fourteen months — was
+      assassinated in the Cairo citadel by a group of his own
+      mamlūk emirs led by his ḥājib Kurjī during the night,
+      while he was reading Qurʾān after the ʿishāʾ prayer. A
+      former Mongol-bought *mamlūk* of Sultan Qalāwūn (whence
+      his nisba al-Manṣūrī), Lāǧīn had served as viceroy of
+      Damascus before deposing the young al-Nāṣir Muḥammad in
+      696 AH and taking the throne. His attempt to redistribute
+      the Egyptian iqṭāʿ assignments away from the existing
+      amīr factions and toward his own retinue (the *rawk
+      al-ḥusāmī* of 697 AH) destroyed his political base; the
+      assassination restored al-Nāṣir Muḥammad — by then about
+      fourteen — to the throne for his second reign. The
+      conspirators were themselves killed within months. Ibn
+      Kathīr places the killing in Rabīʿ al-Awwal 698 AH and
+      gives a detailed account of the night.
+    description_ar: |
+      اغتيل السلطان الملك المنصور حسام الدين لاجين المنصوري —
+      سلطان مصر المملوكي من البحرية أربعة عشر شهراً — بقلعة
+      الجبل بالقاهرة، قتله جماعة من أمراء مماليكه بقيادة حاجبه
+      كرجي ليلاً، وهو يقرأ القرآن بعد صلاة العشاء. وكان لاجين
+      من مماليك السلطان قلاوون (ومنه نسبته «المنصوري»)، تولّى
+      نيابة دمشق قبل أن يعزل الناصر محمد الفتى ويأخذ السلطنة
+      سنة ٦٩٦ هـ. وأودت محاولته إعادة توزيع الإقطاعات المصرية
+      بعيداً عن طوائف الأمراء القائمة لصالح حاشيته (الروك
+      الحسامي سنة ٦٩٧ هـ) بقاعدته السياسية؛ وأعاد الاغتيالُ
+      الناصرَ محمداً — وعمره يومئذ نحو أربع عشرة سنة — إلى
+      السلطنة في سلطنته الثانية. وقُتل المتآمرون أنفسُهم في
+      أشهر. ويسجِّل ابن كثير القتلَ في ربيع الأول سنة ٦٩٨ هـ
+      ويفصِّل وقائع الليلة.
+    description_fr: |
+      al-Malik al-Manṣūr Ḥusām al-Dīn Lāǧīn al-Manṣūrī — sultan
+      mamelouk baḥrī d'Égypte pendant quatorze mois — fut
+      assassiné dans la citadelle du Caire par un groupe de
+      ses propres émirs mamelouks, conduit par son *ḥājib*
+      Kurjī, durant la nuit, alors qu'il lisait le Coran après
+      la prière du ʿishāʾ. Ancien *mamlūk* acheté du sultan
+      Qalāwūn (d'où sa *nisba* al-Manṣūrī), Lāǧīn avait servi
+      comme vice-roi de Damas avant de déposer le jeune
+      al-Nāṣir Muḥammad en 696 H et de prendre le trône. Sa
+      tentative de redistribuer les assignations d'iqṭāʿ
+      égyptiennes au détriment des factions d'émirs établies
+      et au profit de sa propre suite (le *rawk al-ḥusāmī* de
+      697 H) détruisit sa base politique; l'assassinat
+      ramena al-Nāṣir Muḥammad — alors âgé d'environ quatorze
+      ans — au trône pour son second règne. Les conjurés
+      eux-mêmes furent tués dans les mois qui suivirent. Ibn
+      Kathīr place le meurtre en Rabīʿ al-Awwal 698 H et donne
+      un récit détaillé de la nuit.
+    canonical_hijri: {year: 698, month: 3, precision: month}
+    canonical_gregorian: {date: 1299-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the assassination in Rabīʿ al-Awwal 698 AH and names Kurjī as the lead conspirator."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī enters the death under the obituaries of 698 AH."
+      - source_key: ibn_hajar_durar
+        notes: "Ibn Ḥajar's al-Durar al-Kāmina gives the standard biographical entry on Lāǧīn."
+    people: [[al-mansur-lajin, subject]]
+    tags: [mamluk, bahri, egypt, cairo, sultan-death, assassination, citadel]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # FOUNDATION OF THE BURJI DYNASTY (784 AH / 1382)
+  # =========================================================================
+
+  - slug: accession-of-al-zahir-barquq
+    category: political_event
+    title_en: Accession of al-Ẓāhir Barqūq — Founding Sultan of the Burji Mamlūks
+    title_ar: تولِّي السلطان الظاهر برقوق — مؤسس دولة المماليك الجراكسة (البرجية)
+    title_fr: Avènement d'al-Ẓāhir Barqūq — sultan fondateur des Mamelouks burji
+    description_en: |
+      Sayf al-Dīn Barqūq al-Yalbughāwī al-Ẓāhirī — a Circassian
+      *mamlūk* purchased and trained by the great amīr Yalbughā
+      al-ʿUmarī al-Khāṣṣakī — assumed the sultanate of Egypt as
+      al-Malik al-Ẓāhir Sayf al-Dīn Barqūq, deposing the last
+      Bahri puppet sultan al-Ṣāliḥ Ḥājjī II. The accession
+      inaugurated the Burji (Circassian) period of the Mamlūk
+      sultanate, named after the *burj* (citadel) regiments at
+      Cairo's citadel that formed Barqūq's political base. Where
+      the preceding Bahri sultanate had been dominated by Turkic
+      mamlūks and quasi-dynastic transmission within the line
+      of Qalāwūn, the Burji order would be Circassian and
+      strictly elective: each sultan was chosen by the senior
+      amīrs from among themselves. Barqūq's reign — interrupted
+      by a coup that removed him in 791 AH and restored him in
+      792 AH — would last until 801 AH and frame the system
+      that governed Egypt and Syria for 135 years. He is buried
+      at his madrasa-tomb on Bayn al-Qaṣrayn in Cairo.
+    description_ar: |
+      تولّى الأمير سيف الدين برقوق اليلبغاوي الظاهري — وهو
+      مملوك جركسي اشتراه وربّاه الأميرُ يلبغا العمري الخاصكي —
+      السلطنةَ بمصر باسم الملك الظاهر سيف الدين برقوق، فعزل
+      آخر سلاطين البحرية الصوريّين الصالح حاجي الثاني. وافتتح
+      ذلك العهدَ المملوكي البرجي (الجركسي)، وسمي «البرجياً»
+      نسبةً إلى الكتائب البرجية في قلعة الجبل بالقاهرة التي
+      كانت قاعدةَ حُكم برقوق السياسية. وحيث كانت سلطنة البحرية
+      السابقة في يد المماليك الترك مع توارثٍ شبهِ ملكي في
+      أسرة قلاوون، كان النظام البرجي جركسياً وانتخابياً
+      صرفاً: يختار كبارُ الأمراء السلطانَ من بينهم. وامتدّ
+      حكم برقوق — وقد قُطع بانقلاب أزاحه سنة ٧٩١ هـ ثم رُدّ
+      إلى السلطنة سنة ٧٩٢ هـ — حتى سنة ٨٠١ هـ، وأرسى النظام
+      الذي ستحكم به الدولة المملوكية مصرَ والشام مئةً وخمساً
+      وثلاثين سنة. ودفن بمدرسته المعروفة بمدرسة برقوق ببين
+      القصرين بالقاهرة.
+    description_fr: |
+      L'émir Sayf al-Dīn Barqūq al-Yalbughāwī al-Ẓāhirī — un
+      *mamlūk* circassien acheté et formé par le grand émir
+      Yalbughā al-ʿUmarī al-Khāṣṣakī — accéda au sultanat
+      d'Égypte sous le nom d'al-Malik al-Ẓāhir Sayf al-Dīn
+      Barqūq, déposant le dernier sultan baḥrī fantoche al-Ṣāliḥ
+      Ḥājjī II. Cet avènement inaugura la période burji
+      (circassienne) du sultanat mamelouk, nommée d'après les
+      régiments du *burj* (citadelle) du Caire qui formaient la
+      base politique de Barqūq. Là où le sultanat baḥrī
+      précédent avait été dominé par des mamelouks turcs avec
+      une transmission quasi-dynastique au sein de la lignée
+      de Qalāwūn, l'ordre burji serait circassien et strictement
+      électif : chaque sultan était choisi par les hauts émirs
+      en leur sein. Le règne de Barqūq — interrompu par un
+      coup d'État qui le déposa en 791 H et le restaura en
+      792 H — durerait jusqu'en 801 H et fonderait le système
+      qui gouverna l'Égypte et la Syrie pendant 135 ans. Il
+      est enterré dans son tombeau-madrasa de Bayn al-Qaṣrayn
+      au Caire.
+    canonical_hijri: {year: 784, month: 11, day: 19, precision: day}
+    canonical_gregorian: {date: 1382-11-26, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina gives the date 19 Ramaḍān 784 AH for Barqūq's enthronement (in his account of the events of the year)."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab confirms 784 AH as the year Barqūq took the throne and the founding of the Burji line."
+      - source_key: ei2
+        notes: "EI2 'Burdjī' and 'Barḳūḳ' entries set the accession on 19 Ramaḍān 784 AH / 26 November 1382 CE."
+    people: [[al-zahir-barquq, subject]]
+    tags: [mamluk, burji, circassian, egypt, cairo, sultanate-foundation, dynasty]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # BURJI SULTANS — BARQUQ AND HIS SON FARAJ (801, 815 AH)
+  # =========================================================================
+
+  - slug: death-of-al-zahir-barquq
+    category: ruler_death
+    title_en: Death of Sultan al-Ẓāhir Barqūq — Founder of the Burji Mamlūks
+    title_ar: وفاة السلطان الظاهر برقوق — مؤسس دولة المماليك البرجية
+    title_fr: Mort du sultan al-Ẓāhir Barqūq — fondateur des Mamelouks burji
+    description_en: |
+      al-Malik al-Ẓāhir Sayf al-Dīn Barqūq — first Burji sultan
+      and founder of the Circassian Mamlūk order — died at the
+      Cairo citadel after a fortnight's illness, aged about 60.
+      His seventeen-year reign (interrupted by an eight-month
+      deposition in 791-792 AH) had stabilised Egypt after the
+      famines and plagues of the late Bahri period, restored
+      Mamlūk authority over Syria after the revolt of Yalbughā
+      al-Nāṣirī, and mobilised the army that would face Tīmūr's
+      first sortie westward. He had named his ten-year-old son
+      Faraj as successor — the first hereditary transmission in
+      the Burji line (a contradiction of the Burji elective
+      principle that would not survive the dynasty's middle
+      decades). He was buried in the great mausoleum-madrasa he
+      had built between the cities (*bayn al-qaṣrayn*) on Cairo's
+      ceremonial axis. Ibn Ḥajar al-ʿAsqalānī, who entered legal
+      adulthood under Barqūq's reign, gives a long obituary in
+      al-Durar al-Kāmina.
+    description_ar: |
+      توفي السلطان الملك الظاهر سيف الدين برقوق — أول سلاطين
+      المماليك الجراكسة ومؤسس دولتهم البرجية — بقلعة الجبل
+      بالقاهرة بعد علةٍ خمسةَ عشر يوماً، عن نحو ستين سنة. وكان
+      عهدُه الذي امتدّ سبع عشرة سنة — تخلّله خلعٌ ثمانيةَ أشهر
+      بين سنتي ٧٩١ و٧٩٢ هـ — قد ثبّت أمر مصر بعد المجاعات
+      والأوبئة في أواخر العهد البحري، وأعاد سلطان المماليك على
+      الشام بعد ثورة يلبغا الناصري، وعبّأ الجيشَ الذي سيواجه
+      أول طلائع غزو تيمور لنك للغرب. وكان قد عهد إلى ابنه فرج
+      وعمره عشر سنوات بالولاية من بعده — وذلك أول توريث في
+      السلسلة البرجية، مخالفاً للأصل البرجي الانتخابي الذي
+      لن يصمد طويلاً في عقود الدولة الوسطى. ودفن بمدرسته
+      ومدفنه الكبيرين ببين القصرين على المحور الاحتفالي
+      بالقاهرة. ويُترجم له ابن حجر العسقلاني — الذي بلغ سنّ
+      البلوغ في عهده — ترجمةً مطوّلة في الدرر الكامنة.
+    description_fr: |
+      al-Malik al-Ẓāhir Sayf al-Dīn Barqūq — premier sultan
+      burji et fondateur de l'ordre mamelouk circassien — mourut
+      à la citadelle du Caire après quinze jours de maladie, à
+      l'âge d'environ 60 ans. Son règne de dix-sept ans
+      (interrompu par une déposition de huit mois en 791-792 H)
+      avait stabilisé l'Égypte après les famines et les
+      épidémies de la fin de la période baḥrī, restauré
+      l'autorité mamelouke sur la Syrie après la révolte de
+      Yalbughā al-Nāṣirī, et mobilisé l'armée qui ferait face à
+      la première percée occidentale de Tīmūr. Il avait désigné
+      son fils Faraj, alors âgé de dix ans, comme successeur —
+      première transmission héréditaire dans la lignée burji,
+      en contradiction avec le principe électif burji qui ne
+      survivrait pas aux décennies médianes de la dynastie. Il
+      fut enterré dans le grand mausolée-madrasa qu'il avait
+      bâti entre les cités (*bayn al-qaṣrayn*) sur l'axe
+      cérémoniel du Caire. Ibn Ḥajar al-ʿAsqalānī, qui atteignit
+      la majorité légale sous le règne de Barqūq, en donne une
+      longue notice nécrologique dans *al-Durar al-Kāmina*.
+    canonical_hijri: {year: 801, month: 6, day: 15, precision: day}
+    canonical_gregorian: {date: 1399-02-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina places the death on 15 Shawwāl 801 AH and gives a detailed obituary."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab confirms the death in Shawwāl 801 AH at the Cairo citadel."
+      - source_key: ei2
+        notes: "EI2 'Barḳūḳ' entry confirms the date and the succession of his son Faraj."
+    people: [[al-zahir-barquq, subject]]
+    tags: [mamluk, burji, egypt, cairo, sultan-death, citadel, founder]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: assassination-of-faraj-ibn-barquq
+    category: ruler_death
+    title_en: Assassination of Sultan al-Nāṣir Faraj ibn Barqūq at Damascus
+    title_ar: مقتل السلطان الناصر فرج بن برقوق بدمشق
+    title_fr: Assassinat du sultan al-Nāṣir Faraj ibn Barqūq à Damas
+    description_en: |
+      al-Malik al-Nāṣir Faraj ibn Barqūq — second Burji sultan,
+      who acceded at age ten on his father's death in 801 AH —
+      was tried and executed at Damascus by the rebellious amīrs
+      Shaykh al-Maḥmūdī (the future sultan al-Muʾayyad Shaykh)
+      and Nawrūz al-Ḥāfiẓī after a brief siege of the Damascus
+      citadel. His twelve-year reign had been catastrophic: he
+      faced Tīmūr's invasion in 803 AH that sacked Aleppo and
+      Damascus, multiple amīr revolts in Syria, and his own
+      capacity for paranoid violence against the senior Mamlūk
+      establishment. After being deposed by his half-brother
+      al-Manṣūr ʿAbd al-ʿAzīz for a few months in 808 AH, he
+      had recovered the throne; but a fresh Syrian revolt in
+      815 AH led him to march on Damascus where he was besieged
+      in the citadel, surrendered on terms, and was nevertheless
+      put on a sham trial for his violations of the Sharīʿa
+      (the *fatwā* declaring him deserving of death was signed
+      by jurists under coercion) and beheaded. The execution
+      ended Burqūq's hereditary line and restored the Burji
+      elective principle. Ibn Ḥajar gives a sombre obituary.
+    description_ar: |
+      مُحوكم وقُتل السلطان الملك الناصر فرج بن برقوق — ثاني
+      سلاطين البرجية، الذي تولّى السلطنة وعمره عشر سنوات بعد
+      وفاة أبيه سنة ٨٠١ هـ — بدمشق على يد الأميرين الثائرين
+      الشيخ المحمودي (وهو السلطان المؤيد شيخ لاحقاً) ونوروز
+      الحافظي بعد حصار وجيز لقلعة دمشق. وكان عهده الذي امتدّ
+      اثنتي عشرة سنة كارثياً: واجه فيه غزو تيمور لنك سنة
+      ٨٠٣ هـ الذي سُلبت فيه حلب ودمشق، وثوراتٍ متعدّدة
+      للأمراء بالشام، وكان هو نفسه ذا نزعة قتلٍ لكبار رجال
+      الدولة. وبعد خلعه من قِبَل أخيه غير الشقيق المنصور
+      عبد العزيز أشهراً سنة ٨٠٨ هـ، استعاد العرش؛ لكن ثورةً
+      شامية جديدة سنة ٨١٥ هـ ساقتْه على دمشق فحوصر بقلعتها،
+      فاستسلم على أمان، فحوكم بمحاكمة صورية على مخالفاته
+      للشريعة (وقّع الفقهاء الفتوى المُحلّةَ دمَه تحت الإكراه)
+      ثم قُطع رأسه. وأنهى الإعدامُ السلسلةَ الوراثية لبرقوق،
+      وأعاد المبدأ البرجي الانتخابي. ويترجم له ابن حجر ترجمةً
+      حزينة.
+    description_fr: |
+      al-Malik al-Nāṣir Faraj ibn Barqūq — second sultan burji,
+      qui accéda à dix ans à la mort de son père en 801 H —
+      fut jugé et exécuté à Damas par les émirs rebelles
+      Shaykh al-Maḥmūdī (le futur sultan al-Muʾayyad Shaykh)
+      et Nawrūz al-Ḥāfiẓī après un bref siège de la citadelle
+      de Damas. Son règne de douze ans avait été catastrophique :
+      il dut affronter l'invasion de Tīmūr en 803 H qui mit à
+      sac Alep et Damas, de multiples révoltes d'émirs en
+      Syrie, et son propre penchant pour la violence
+      paranoïaque envers l'establishment mamelouk. Après sa
+      déposition par son demi-frère al-Manṣūr ʿAbd al-ʿAzīz
+      pour quelques mois en 808 H, il avait recouvré le trône;
+      mais une nouvelle révolte syrienne en 815 H le conduisit
+      à marcher sur Damas où il fut assiégé dans la citadelle,
+      se rendit sous conditions et fut néanmoins traduit dans
+      un simulacre de procès pour ses violations de la Sharīʿa
+      (la *fatwā* le déclarant méritant la mort fut signée
+      par des juristes sous contrainte) et décapité.
+      L'exécution mit fin à la lignée héréditaire de Barqūq
+      et restaura le principe électif burji. Ibn Ḥajar lui
+      consacre une notice nécrologique sombre.
+    canonical_hijri: {year: 815, month: 5, day: 16, precision: day}
+    canonical_gregorian: {date: 1412-08-23, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina places the execution on 16 Ṣafar 815 AH at Damascus and details the trial."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab confirms 815 AH and the role of Shaykh al-Maḥmūdī and Nawrūz."
+      - source_key: ei2
+        notes: "EI2 'Faradj' entry confirms the date and circumstances at Damascus."
+    people: [[al-nasir-faraj, subject], [al-zahir-barquq, subject]]
+    tags: [mamluk, burji, egypt, damascus, sultan-death, execution, civil-war]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # TIMUR'S SACKS OF ALEPPO AND DAMASCUS (803 AH / 1400-1401)
+  # =========================================================================
+
+  - slug: timur-sack-of-aleppo
+    category: siege
+    title_en: Tīmūr's Sack of Aleppo — Devastation of the Mamlūk Northern Capital
+    title_ar: تيمور لنك يدمّر حلب — اجتياح العاصمة المملوكية الشمالية
+    title_fr: Sac d'Alep par Tīmūr — destruction de la capitale mamelouke du nord
+    description_en: |
+      Tīmūr-i Lang ("Tamerlane"), the Chaghatayid conqueror who
+      had built a Eurasian empire from Samarqand, took the
+      Mamlūk fortified capital of northern Syria — Ḥalab
+      (Aleppo) — after a brief field engagement outside the
+      city in which the Mamlūk-Aleppine garrison was destroyed.
+      The city's surrender was followed by a sack of several
+      days: contemporary sources, including Ibn ʿArabshāh's
+      *ʿAjāʾib al-Maqdūr* (an eyewitness account by an Aleppine
+      whose family was killed and who was carried to Samarqand
+      as a captive) and Ibn Ḥajar al-ʿAsqalānī's *Inbāʾ
+      al-Ghumr*, describe systematic massacres of the civilian
+      Muslim population, the burning of mosques and madrasas,
+      and the construction of pyramids of severed heads outside
+      the city's gates. The Great Mosque of Aleppo was set on
+      fire; the citadel held out for some weeks longer before
+      surrendering. The sack — which the Burji historians
+      report factually as a devastation of a Sunni Muslim
+      city by a fellow Muslim conqueror — was the prelude to
+      the descent on Damascus four months later. Tīmūr's army
+      withdrew east in early 804 AH; Aleppo would not recover
+      its pre-803 population for over a century.
+    description_ar: |
+      دخل تيمور لنك — الغازي الجغتائي الذي بنى إمبراطورية
+      أوراسية من سمرقند — قاعدةَ المماليك المحصنة في شمال
+      الشام (مدينة حلب) بعد معركة ميدانية وجيزة خارج المدينة
+      أُبيد فيها الحامية المملوكية الحلبية. ثم تلا تسليمَ
+      المدينة سلبٌ ودمار عدة أيام: ووصف المصادر المعاصرة —
+      ومنها «عجائب المقدور» لابن عربشاه (وهو شاهد عيان حلبي
+      قُتل أهله وسيق هو إلى سمرقند سبياً) و«إنباء الغمر»
+      لابن حجر العسقلاني — مجازر منظَّمة بالسكان المسلمين
+      المدنيين، وحرقاً للمساجد والمدارس، وأهراماً من رؤوس
+      المقتولين أُقيمت أمام أبواب المدينة. وأُحرق الجامع
+      الأموي بحلب، وصمدت القلعة بعدها أسابيع قبل أن
+      تُسلَّم. وكان هذا السلب — الذي ذكره مؤرخو الدولة
+      البرجية بوصفه دمارَ مدينةٍ مسلمة سُنية على يد فاتح
+      مسلم — تمهيداً للهجوم على دمشق بعد أربعة أشهر.
+      وانسحب جيش تيمور شرقاً في أوائل سنة ٨٠٤ هـ؛ ولم
+      تستعد حلبُ سكانَها قبل سنة ٨٠٣ هـ إلا بعد قرن.
+    description_fr: |
+      Tīmūr-i Lang (« Tamerlan »), le conquérant tchaghatayide
+      qui avait bâti un empire eurasiatique depuis Samarcande,
+      prit la capitale mamelouke fortifiée du nord de la
+      Syrie — Ḥalab (Alep) — après un bref engagement en
+      rase campagne devant la ville où la garnison mamelouke-
+      alépine fut détruite. La reddition de la ville fut
+      suivie d'un sac de plusieurs jours : les sources
+      contemporaines, dont *ʿAjāʾib al-Maqdūr* d'Ibn ʿArabshāh
+      (témoignage oculaire d'un Alépin dont la famille fut
+      tuée et qu'on emmena captif à Samarcande) et *Inbāʾ
+      al-Ghumr* d'Ibn Ḥajar al-ʿAsqalānī, décrivent des
+      massacres systématiques de la population civile
+      musulmane, l'incendie des mosquées et des madrasas, et
+      l'érection de pyramides de têtes coupées devant les
+      portes de la ville. La Grande Mosquée d'Alep fut
+      incendiée; la citadelle tint quelques semaines de plus
+      avant de capituler. Ce sac — que les historiens burji
+      rapportent factuellement comme la dévastation d'une
+      ville sunnite musulmane par un conquérant lui-même
+      musulman — fut le prélude à la descente sur Damas
+      quatre mois plus tard. L'armée de Tīmūr se retira vers
+      l'est au début de 804 H; Alep ne retrouverait pas sa
+      population d'avant 803 avant plus d'un siècle.
+    canonical_hijri: {year: 803, month: 3, precision: month}
+    canonical_gregorian: {date: 1400-11-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina (and his Inbāʾ al-Ghumr) places the sack in Rabīʿ al-Awwal 803 AH and details the massacres."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab enters the sack under 803 AH and confirms the Aleppine devastation."
+      - source_key: ei2
+        notes: "EI2 'Tīmūr Lang' and 'Ḥalab' entries set the sack in late October–November 1400 CE / Rabīʿ I 803 AH."
+    people: [[al-nasir-faraj, subject]]
+    tags: [mamluk, timurid, syria, aleppo, sack, massacre, civilians]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: timur-sack-of-damascus
+    category: siege
+    title_en: Tīmūr's Sack of Damascus — Burning of the Umayyad Capital of Syria
+    title_ar: تيمور لنك يحرق دمشق — تدمير العاصمة الأموية للشام
+    title_fr: Sac de Damas par Tīmūr — incendie de la capitale omeyyade de Syrie
+    description_en: |
+      Four months after the destruction of Aleppo, Tīmūr's army
+      reached Damascus. The young sultan al-Nāṣir Faraj ibn
+      Barqūq — facing both Tīmūr in the north and political
+      revolt at home — withdrew the Mamlūk field army to Egypt
+      and abandoned the city. Damascene notables, led by the
+      qadi Walī al-Dīn ibn Khaldūn (then chief Mālikī judge of
+      Egypt and present in the city), negotiated terms; Ibn
+      Khaldūn famously rode out from a wall window to meet
+      Tīmūr in his camp and engaged him in conversations on
+      *ʿaṣabiyya* and dynastic theory that Ibn Khaldūn later
+      recorded. The terms were broken: after the citadel fell
+      in late Rajab 803 AH, the city was given over to a sack
+      of nineteen days. The Umayyad Mosque — the great
+      eighth-century basilica converted from the basilica of
+      St. John the Baptist — was set on fire when one of
+      Tīmūr's commanders ordered burning oil dropped from the
+      roof; the wooden ceiling, mosaics, and minbar all burned.
+      Most of the city's craftsmen, scholars, and skilled
+      artisans were carried east to Samarqand to build Tīmūr's
+      capital. Ibn ʿArabshāh and Ibn Ḥajar both record the
+      sack with horror; it is a foundational trauma in late
+      Mamlūk Syrian historiography.
+    description_ar: |
+      وصل جيش تيمور دمشقَ بعد أربعة أشهر من تدمير حلب. وكان
+      السلطان الفتى الناصر فرج بن برقوق — الذي يواجه تيمور
+      شمالاً وثورةً سياسية داخلياً — قد سحب جيش المماليك
+      الميداني إلى مصر وترك المدينة. فتفاوض أعيان دمشق
+      بقيادة القاضي ولي الدين بن خلدون (وهو يومئذ قاضي
+      قضاة المالكية بمصر وكان حاضراً في المدينة) على
+      الأمان؛ وقد ركب ابن خلدون شخصياً من نافذة سور
+      ليلتقي تيمور في معسكره، وحاوره في «العصبية» ونظرية
+      الدول كما سجَّل بعد ذلك في تاريخه. ثم نُكث الأمان:
+      فبعد سقوط القلعة في أواخر رجب سنة ٨٠٣ هـ، أبيحت
+      المدينةُ تسعةَ عشرَ يوماً سلباً. وأُحرق الجامع
+      الأموي — البازيليكا الكبرى من القرن الثاني الهجري
+      التي حُوِّلت عن كنيسة يوحنا المعمدان — حين أمر
+      أحد قواد تيمور بإلقاء الزيت المشتعل من سطحه، فاحترق
+      السقف الخشبي والفسيفساء والمنبر. وسُبي معظم
+      الصنّاع والعلماء والحرفيين المهرة شرقاً إلى سمرقند
+      ليبنوا عاصمة تيمور. ويسجِّل الواقعة بفاجعةٍ ابن
+      عربشاه وابن حجر، وهي صدمة مؤسِّسة في كتب التاريخ
+      الشامي المملوكي المتأخر.
+    description_fr: |
+      Quatre mois après la destruction d'Alep, l'armée de
+      Tīmūr atteignit Damas. Le jeune sultan al-Nāṣir Faraj
+      ibn Barqūq — confronté à Tīmūr au nord et à une révolte
+      politique chez lui — retira l'armée mamelouke de campagne
+      en Égypte et abandonna la ville. Les notables damascènes,
+      conduits par le cadi Walī al-Dīn ibn Khaldūn (alors
+      grand juge mālikite d'Égypte et présent dans la ville),
+      négocièrent des conditions; Ibn Khaldūn, dit la
+      tradition, descendit d'une fenêtre de la muraille pour
+      rencontrer Tīmūr dans son camp et engagea avec lui des
+      conversations sur la *ʿaṣabiyya* et la théorie
+      dynastique qu'il consigna ensuite. Les conditions furent
+      rompues : après la chute de la citadelle fin Rajab 803 H,
+      la ville fut livrée à un sac de dix-neuf jours. La
+      Mosquée des Omeyyades — la grande basilique du
+      VIIIᵉ siècle convertie de la basilique de saint Jean-
+      Baptiste — fut incendiée lorsqu'un commandant de Tīmūr
+      ordonna de verser de l'huile enflammée depuis le toit;
+      le plafond de bois, les mosaïques et le minbar
+      brûlèrent. La plupart des artisans, savants et maîtres
+      de la ville furent emmenés à l'est vers Samarcande pour
+      bâtir la capitale de Tīmūr. Ibn ʿArabshāh et Ibn Ḥajar
+      consignent tous deux le sac avec horreur; il s'agit
+      d'un traumatisme fondateur dans l'historiographie
+      mamelouke syrienne tardive.
+    canonical_hijri: {year: 803, month: 7, precision: month}
+    canonical_gregorian: {date: 1401-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina (and Inbāʾ al-Ghumr) places the sack in Rajab 803 AH and details the burning of the Umayyad Mosque."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab enters the sack under 803 AH and confirms the nineteen-day plunder."
+      - source_key: ei2
+        notes: "EI2 'Tīmūr Lang' and 'Dimashḳ' entries set the sack in March 1401 CE / Rajab 803 AH."
+    people: [[al-nasir-faraj, subject], [ibn-khaldun, subject]]
+    tags: [mamluk, timurid, syria, damascus, sack, umayyad-mosque, ibn-khaldun]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: mamluk-recovery-of-damascus-from-timur
+    category: political_event
+    title_en: Mamlūk Recovery of Damascus after Tīmūr's Withdrawal
+    title_ar: استعادة المماليك دمشقَ بعد انسحاب تيمور
+    title_fr: Reprise mamelouke de Damas après le retrait de Tīmūr
+    description_en: |
+      After nearly two months of plunder, Tīmūr's army withdrew
+      east from Damascus toward Iraq, taking with them the
+      city's craftsmen and scholars and abandoning the burned
+      Umayyad capital. The Mamlūk amīrs of the city's
+      surroundings, who had taken refuge in mountain villages,
+      re-entered Damascus once Tīmūr's column had crossed the
+      Euphrates; the Burji administration of Sultan al-Nāṣir
+      Faraj formally re-established the *niyāba* of Damascus
+      under a new Mamlūk vice-regent. The reconstruction of
+      the Umayyad Mosque was begun within months: the prayer
+      hall was re-roofed in 804-805 AH (the original mosaics
+      were lost, but the basic structure preserved). The
+      withdrawal — driven by Tīmūr's preparations for the
+      campaign against the Ottoman sultan Bāyazīd I that
+      would culminate at Ankara in Dhū al-Ḥijja 804 AH /
+      July 1402 — meant that the Mamlūk state survived. Had
+      Tīmūr advanced south on Egypt, Mamlūk Egypt would
+      likely have fallen as the Khwārazmian state had a
+      generation earlier. The recovery is recorded by Ibn
+      Ḥajar and Ibn al-ʿImād under the events of 803 AH.
+    description_ar: |
+      انسحب جيش تيمور بعد قرابة شهرين من النهب شرقاً عن
+      دمشق نحو العراق، واصطحب معه صنَّاع المدينة وعلماءها
+      تاركاً العاصمة الأموية محروقة. ودخل أمراء المماليك
+      من ضواحي المدينة الذين كانوا قد لجأوا إلى قرى الجبل
+      دمشقَ بعد أن قطعت أرتالُ تيمور الفراتَ؛ وأعادت
+      إدارة السلطان البرجي الناصر فرج تنصيبَ نيابة دمشق
+      رسمياً تحت نائب مملوكي جديد. وبدأ إصلاح الجامع
+      الأموي في أشهر: أُعيد سقف بيت الصلاة سنتي ٨٠٤-٨٠٥ هـ
+      (وفقدت الفسيفساء الأصلية، لكن بقي الهيكل الأساس).
+      وكان الانسحاب — الذي أَملته استعدادات تيمور لحملته
+      على السلطان العثماني بايزيد الأول التي ستتوّج
+      بأنقرة في ذي الحجة سنة ٨٠٤ هـ / يوليو ١٤٠٢ م — يعني
+      نجاة الدولة المملوكية. ولو زحف تيمور على مصر جنوباً
+      لسقطت مصر المملوكية كما سقطت دولة خوارزم قبل جيل.
+      ويسجِّل ابن حجر وابن العماد الاستعادة تحت أحداث
+      سنة ٨٠٣ هـ.
+    description_fr: |
+      Après près de deux mois de pillage, l'armée de Tīmūr se
+      retira vers l'est de Damas en direction de l'Irak,
+      emmenant les artisans et savants de la ville et
+      abandonnant la capitale omeyyade incendiée. Les émirs
+      mamelouks des environs, qui s'étaient réfugiés dans les
+      villages de montagne, réentrèrent dans Damas une fois
+      la colonne de Tīmūr ayant traversé l'Euphrate;
+      l'administration burji du sultan al-Nāṣir Faraj
+      rétablit formellement la *niyāba* de Damas sous un
+      nouveau vice-roi mamelouk. La reconstruction de la
+      Mosquée des Omeyyades commença dans les mois qui
+      suivirent : la salle de prière fut recouverte en
+      804-805 H (les mosaïques d'origine furent perdues, mais
+      la structure de base préservée). Le retrait — dicté par
+      les préparatifs de Tīmūr pour la campagne contre le
+      sultan ottoman Bāyazīd Iᵉʳ qui culminerait à Ankara en
+      Dhū al-Ḥijja 804 H / juillet 1402 — signifia la survie
+      de l'État mamelouk. Si Tīmūr avait avancé vers le sud
+      sur l'Égypte, l'Égypte mamelouke serait probablement
+      tombée comme l'État khwārazmien une génération plus
+      tôt. La reprise est consignée par Ibn Ḥajar et Ibn
+      al-ʿImād sous les événements de 803 H.
+    canonical_hijri: {year: 803, month: 9, precision: month}
+    canonical_gregorian: {date: 1401-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina (and Inbāʾ al-Ghumr) records the Mamlūk re-entry into Damascus and the rebuilding of the mosque under 803-804 AH."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab enters the recovery under 803 AH."
+    people: [[al-nasir-faraj, subject]]
+    tags: [mamluk, burji, timurid, syria, damascus, recovery, umayyad-mosque]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MID-BURJI SULTANS — MUAYYAD SHAYKH, BARSBAY, JAQMAQ
+  # =========================================================================
+
+  - slug: death-of-al-muayyad-shaykh
+    category: ruler_death
+    title_en: Death of Sultan al-Muʾayyad Shaykh — Builder of the Mosque of al-Muʾayyad
+    title_ar: وفاة السلطان المؤيد شيخ — باني جامع المؤيد بالقاهرة
+    title_fr: Mort du sultan al-Muʾayyad Shaykh — bâtisseur de la mosquée d'al-Muʾayyad
+    description_en: |
+      al-Malik al-Muʾayyad Sayf al-Dīn Shaykh al-Maḥmūdī —
+      sixth Burji sultan and the strongest of the dynasty's
+      early generation — died at the Cairo citadel after a
+      protracted illness, aged about 51. The Circassian
+      *mamlūk* of Sultan Barqūq who had risen to viceroy of
+      Tripoli and then participated in the deposition and
+      execution of Faraj at Damascus in 815 AH, he had taken
+      the throne in Shaʿbān 815 AH and ruled for eight years.
+      His reign saw a stabilisation of Egypt after the chaos
+      of Faraj's last years, military expeditions against the
+      Karamanids and the principality of Cyprus, and a major
+      building programme in Cairo — most famously the
+      mosque-madrasa al-Muʾayyad next to Bāb Zuwayla in the
+      Fatimid southern wall, with its twin minarets rising
+      directly atop the eleventh-century gate, that still
+      stands and is among the most visited monuments of
+      Mamlūk Cairo. He was buried within the mosque
+      complex itself. Ibn Ḥajar al-ʿAsqalānī, his
+      contemporary, gives a long obituary in al-Durar
+      al-Kāmina.
+    description_ar: |
+      توفي السلطان الملك المؤيد سيف الدين شيخ المحمودي —
+      سادس سلاطين البرجية وأقواهم في الجيل الأول من
+      الدولة — بقلعة الجبل بالقاهرة بعد علةٍ طويلة، عن
+      نحو إحدى وخمسين سنة. وكان مملوكاً جركسياً للسلطان
+      برقوق ترقّى إلى نيابة طرابلس، ثم اشترك في خلع
+      الناصر فرج وقتله بدمشق سنة ٨١٥ هـ، ثم تولى
+      السلطنة في شعبان من السنة نفسها، فحكم ثماني سنوات.
+      وفي عهده استقرّت أحوال مصر بعد فوضى السنوات
+      الأخيرة من ملك فرج، وأُرسلت حملاتٌ على بني
+      كرمان وعلى مملكة قبرص، ونُفّذ مشروع عمراني كبير
+      في القاهرة — وأشهرَ آثاره جامعُه ومدرستُه «المؤيد»
+      بجوار باب زويلة من السور الفاطمي الجنوبي، الذي
+      تنتصب مأذنتاه التوأمتان فوق نفس الباب الفاطمي
+      من القرن الخامس الهجري، ولا يزال قائماً، وهو من
+      أكثر آثار القاهرة المملوكية زيارةً. ودفن في مجمع
+      الجامع نفسه. ويترجم له ابن حجر العسقلاني — معاصره —
+      ترجمة مطوّلة في الدرر الكامنة.
+    description_fr: |
+      al-Malik al-Muʾayyad Sayf al-Dīn Shaykh al-Maḥmūdī —
+      sixième sultan burji et le plus fort de la première
+      génération de la dynastie — mourut à la citadelle du
+      Caire après une longue maladie, à l'âge d'environ 51 ans.
+      Mamelouk circassien du sultan Barqūq, il s'était élevé
+      jusqu'à la vice-royauté de Tripoli puis avait participé
+      à la déposition et à l'exécution de Faraj à Damas en
+      815 H, avant de prendre le trône en Shaʿbān 815 H et de
+      régner huit ans. Son règne vit une stabilisation de
+      l'Égypte après le chaos des dernières années de Faraj,
+      des expéditions militaires contre les Karamanides et
+      la principauté de Chypre, et un grand programme de
+      construction au Caire — au premier rang duquel la
+      mosquée-madrasa d'al-Muʾayyad jouxtant Bāb Zuwayla
+      dans la muraille fatimide sud, dont les deux minarets
+      jumeaux s'élèvent directement au-dessus de la porte du
+      XIᵉ siècle, et qui est encore debout, parmi les
+      monuments les plus visités du Caire mamelouk. Il fut
+      enterré dans le complexe de la mosquée elle-même.
+      Ibn Ḥajar al-ʿAsqalānī, son contemporain, lui consacre
+      une longue notice nécrologique dans *al-Durar al-Kāmina*.
+    canonical_hijri: {year: 824, month: 1, day: 9, precision: day}
+    canonical_gregorian: {date: 1421-01-13, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina places the death on 9 Muḥarram 824 AH at the Cairo citadel and gives a long obituary."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab confirms the death in Muḥarram 824 AH."
+      - source_key: ei2
+        notes: "EI2 'al-Muʾayyad Shaykh' entry sets the date and the founding of the mosque-complex by Bāb Zuwayla."
+    people: [[al-muayyad-shaykh, subject]]
+    tags: [mamluk, burji, egypt, cairo, sultan-death, architecture, bab-zuwayla]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: mamluk-conquest-of-cyprus
+    category: conquest
+    title_en: Mamlūk Conquest of Cyprus — Barsbāy's Naval Expedition against the Lusignans
+    title_ar: الفتح المملوكي لقبرص — حملة الأشرف برسباي البحرية على اللوزنيانيين
+    title_fr: Conquête mamelouke de Chypre — expédition navale de Barsbāy contre les Lusignan
+    description_en: |
+      The Mamlūk fleet of Sultan al-Ashraf Barsbāy — sent in
+      response to repeated Cypriot Lusignan raids on the
+      Egyptian and Syrian coasts and the harbouring of
+      Catalan corsairs at Famagusta — captured the Lusignan
+      kingdom of Cyprus in a campaign of three weeks. The
+      Mamlūk landing at Limassol was followed by the decisive
+      battle of Khirokitia on 27 Shawwāl 829 AH (the date
+      al-Maqrīzī gives), in which the Cypriot forces of King
+      Janus de Lusignan were destroyed and the king himself
+      captured. He was carried to Cairo and held for a
+      ransom of 200,000 dinars and an annual tribute. The
+      conquest reduced the Lusignan kingdom — last Crusader-
+      lineage state in the eastern Mediterranean — to
+      Mamlūk vassalage; the tribute was paid until the
+      Venetians took over the island a century later. It
+      was the most ambitious Mamlūk overseas expedition;
+      Ibn Ḥajar and Ibn Taghrībirdī both record the campaign
+      in detail. (This was the mature-Mamlūk conquest, not
+      to be confused with the seventh-century Rashidun
+      naval expedition under Muʿāwiya in 28 AH.)
+    description_ar: |
+      افتتح أسطولُ السلطان الأشرف برسباي المملوكي — الذي
+      أُرسل ردّاً على الغارات اللوزنيانية القبرصية المتوالية
+      على سواحل مصر والشام، وعلى إيواء الفرنجة الكاتالان
+      في فمغوست — مملكةَ قبرص اللوزنيانية في حملة ثلاثة
+      أسابيع. وأعقب نزولَ الجيش المملوكي بليماسول معركةُ
+      خيروكيتيا الفاصلة في ٢٧ شوال سنة ٨٢٩ هـ (التاريخ
+      الذي يذكره المقريزي)، أُبيدت فيها قواتُ الملك
+      الفرنجي جانوس دو لوزينيان، وأُسر الملك نفسُه فحُمل
+      إلى القاهرة وأُطلق على فدية مقدارها مئتا ألف دينار
+      وجزية سنوية. وأنزل الفتحُ مملكةَ اللوزنيانيين —
+      آخرَ دولة من السلالات الصليبية في شرق المتوسط —
+      إلى تبعية المماليك؛ وبقيت الجزية تؤدّى إلى أن أخذ
+      البنادقة الجزيرة بعد قرن. وكانت أكبر حملة مملوكية
+      وراء البحار، يفصِّلها ابن حجر وابن تغري بردي. (هذا
+      هو الفتح المملوكي الناضج، يختلف عن الحملة البحرية
+      الراشدية التي قادها معاوية رضي الله عنه سنة ٢٨ هـ.)
+    description_fr: |
+      La flotte mamelouke du sultan al-Ashraf Barsbāy —
+      envoyée en réponse aux raids répétés des Chypriotes
+      Lusignan sur les côtes égyptiennes et syriennes et à
+      l'hébergement de corsaires catalans à Famagouste —
+      s'empara du royaume Lusignan de Chypre en une
+      campagne de trois semaines. Le débarquement mamelouk
+      à Limassol fut suivi de la bataille décisive de
+      Khirokitia le 27 Shawwāl 829 H (date donnée par
+      al-Maqrīzī), où les forces chypriotes du roi Janus
+      de Lusignan furent détruites et le roi lui-même
+      capturé. Il fut emmené au Caire et gardé contre une
+      rançon de 200 000 dinars et un tribut annuel. La
+      conquête réduisit le royaume Lusignan — dernier
+      État issu des lignées croisées en Méditerranée
+      orientale — à une vassalité mamelouke; le tribut fut
+      versé jusqu'à ce que les Vénitiens prennent l'île un
+      siècle plus tard. Ce fut la plus ambitieuse
+      expédition mamelouke d'outre-mer; Ibn Ḥajar et Ibn
+      Taghrībirdī en consignent tous deux le détail. (Il
+      s'agit de la conquête mamelouke mature, à ne pas
+      confondre avec l'expédition navale rashidun du
+      VIIᵉ siècle sous Muʿāwiya en 28 H.)
+    canonical_hijri: {year: 829, month: 10, day: 27, precision: day}
+    canonical_gregorian: {date: 1426-09-02, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina (and Inbāʾ al-Ghumr) records the Cyprus campaign under 829 AH and the capture of King Janus."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab enters the conquest under 829 AH."
+      - source_key: ei2
+        notes: "EI2 'Barsbāy' and 'Ḳubrus' entries set the conquest in summer 1426 CE / Shawwāl 829 AH."
+    people: [[al-ashraf-barsbay, leader]]
+    tags: [mamluk, burji, egypt, cyprus, naval, lusignan, conquest]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-ashraf-barsbay
+    category: ruler_death
+    title_en: Death of Sultan al-Ashraf Barsbāy — Conqueror of Cyprus
+    title_ar: وفاة السلطان الأشرف برسباي — فاتح قبرص
+    title_fr: Mort du sultan al-Ashraf Barsbāy — conquérant de Chypre
+    description_en: |
+      al-Malik al-Ashraf Sayf al-Dīn Barsbāy al-Ẓāhirī —
+      ninth Burji sultan and conqueror of Cyprus — died at
+      the Cairo citadel of plague (or a complication of one
+      of the recurrent plague waves of his reign), aged
+      about 67. His sixteen-year reign saw the conquest of
+      Cyprus in 829 AH (1426 CE) which made the Lusignan
+      kingdom a Mamlūk vassal, the imposition of a Mamlūk
+      monopoly over the Indian Ocean spice and pepper
+      trade through the Red Sea ports of ʿAydhāb and
+      Jeddah, and a major architectural programme in Cairo
+      including his madrasa-mausoleum at the Northern
+      Cemetery (Qarāfa) which still stands. He was the
+      last Burji sultan to maintain a strong Egyptian
+      treasury before the silver and demographic crises of
+      the mid-ninth-century AH; the spice monopoly was
+      abandoned by his successors. Ibn Ḥajar al-ʿAsqalānī,
+      one of the senior religious officials of his court,
+      gives a long obituary.
+    description_ar: |
+      توفي السلطان الملك الأشرف سيف الدين برسباي الظاهري —
+      تاسع سلاطين البرجية وفاتح قبرص — بقلعة الجبل
+      بالقاهرة بالطاعون (أو علةٍ من علل موجات الوباء
+      المتكرّرة في عهده)، عن نحو سبع وستين سنة. وفي عهده
+      الذي امتدّ ست عشرة سنة كان فتحُ قبرص سنة ٨٢٩ هـ
+      (١٤٢٦ م) الذي جعل مملكة اللوزنيانيين تابعة
+      للمماليك، وفُرض احتكار مملوكي على تجارة التوابل
+      والفلفل بالمحيط الهندي عبر موانئ البحر الأحمر بعيذاب
+      وجدة، ونُفّذ مشروع عمراني كبير في القاهرة منه
+      مدرستُه ومدفنُه بالقرافة الشمالية، ولا يزال قائماً.
+      وكان آخر سلاطين البرجية الذين حافظوا على قوة الخزانة
+      المصرية قبل أزمات الفضة والسكان في منتصف القرن
+      التاسع الهجري، وتخلّى خلفاؤه عن احتكار التوابل.
+      ويترجم له ابن حجر العسقلاني — وكان من رجال البلاط
+      الديني الكبار — ترجمة مطوّلة.
+    description_fr: |
+      al-Malik al-Ashraf Sayf al-Dīn Barsbāy al-Ẓāhirī —
+      neuvième sultan burji et conquérant de Chypre —
+      mourut à la citadelle du Caire de la peste (ou d'une
+      complication de l'une des vagues pestilentielles
+      récurrentes de son règne), à l'âge d'environ 67 ans.
+      Son règne de seize ans vit la conquête de Chypre en
+      829 H (1426 EC) qui fit du royaume Lusignan un vassal
+      mamelouk, l'imposition d'un monopole mamelouk sur le
+      commerce des épices et du poivre de l'océan Indien
+      via les ports de la mer Rouge ʿAydhāb et Djedda, et
+      un grand programme architectural au Caire dont sa
+      madrasa-mausolée du Cimetière du Nord (Qarāfa) qui
+      tient encore debout. Il fut le dernier sultan burji
+      à maintenir un trésor égyptien fort avant les crises
+      d'argent et démographiques du milieu du IXᵉ siècle H;
+      le monopole des épices fut abandonné par ses
+      successeurs. Ibn Ḥajar al-ʿAsqalānī, l'un des grands
+      officiers religieux de sa cour, lui consacre une
+      longue notice nécrologique.
+    canonical_hijri: {year: 841, month: 12, day: 13, precision: day}
+    canonical_gregorian: {date: 1438-06-07, precision: day, method: attested}
+    claims:
+      - source_key: ibn_hajar_durar
+        is_canonical: true
+        notes: "Ibn Ḥajar al-Durar al-Kāmina (and Inbāʾ al-Ghumr) places the death on 13 Dhū al-Ḥijja 841 AH at the Cairo citadel."
+      - source_key: ibn_imad_shadharat
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab confirms the death in Dhū al-Ḥijja 841 AH."
+      - source_key: ei2
+        notes: "EI2 'Barsbāy' entry sets the date 7 June 1438 CE / 13 Dhū al-Ḥijja 841 AH."
+    people: [[al-ashraf-barsbay, subject]]
+    tags: [mamluk, burji, egypt, cairo, sultan-death, plague, cyprus, spice-trade]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-zahir-jaqmaq
+    category: ruler_death
+    title_en: Death of Sultan al-Ẓāhir Jaqmaq — The Pious Burji of Cairo
+    title_ar: وفاة السلطان الظاهر جقمق — السلطان البرجي الزاهد
+    title_fr: Mort du sultan al-Ẓāhir Jaqmaq — le pieux burji du Caire
+    description_en: |
+      al-Malik al-Ẓāhir Sayf al-Dīn Jaqmaq al-ʿAlāʾī — twelfth
+      Burji sultan, who acceded at age about 65 in 842 AH on
+      the death of his predecessor al-ʿAzīz Yūsuf — died at
+      the Cairo citadel after a brief illness, aged about 80.
+      His fifteen-year reign was the longest of any Burji
+      sultan after Barqūq, and the most peaceful: he avoided
+      major external wars (sending only limited expeditions
+      to Cyprus and Rhodes), governed Egypt with a reputation
+      for personal piety and asceticism — Ibn Ḥajar and
+      al-Sakhāwī both note that he prayed the night vigils
+      and avoided wine and music — and patronised the Sunni
+      religious establishment heavily, founding several
+      madrasas and Sufi *zāwiyas* in Cairo. He attempted to
+      pass the throne to his son al-Manṣūr ʿUthmān, but the
+      amīrs deposed ʿUthmān within weeks of Jaqmaq's death,
+      consistent with the Burji elective principle that
+      hereditary transmission was an exception. He was buried
+      at his madrasa-tomb in the Northern Cemetery. Ibn al-ʿImād
+      and the contemporary historian al-Sakhāwī give detailed
+      obituaries.
+    description_ar: |
+      توفي السلطان الملك الظاهر سيف الدين جقمق العلائي —
+      ثاني عشر سلاطين البرجية، الذي تولّى السلطنة في نحو
+      الخامسة والستين سنة ٨٤٢ هـ بعد وفاة سلفه العزيز
+      يوسف — بقلعة الجبل بالقاهرة بعد علةٍ وجيزة، عن
+      نحو ثمانين سنة. وكان عهده الذي امتدّ خمس عشرة سنة
+      أطول عهود سلاطين البرجية بعد برقوق، وأهدأها: تجنّب
+      الحروب الخارجية الكبرى (وأرسل حملاتٍ محدودة فقط
+      إلى قبرص ورودس)، وحكم مصر بسمعةٍ من ورع شخصي وزهد —
+      يذكر ابن حجر والسخاوي أنه يقوم الليل ويتجنّب الخمر
+      والمعازف — وأكرم العلماء أهل السنة كرماً وافراً،
+      فأسّس عدة مدارس وزوايا صوفية بالقاهرة. وحاول
+      توريث ابنه المنصور عثمان السلطنة، لكن الأمراء
+      خلعوا عثمان في أسابيع من وفاة جقمق، وفقاً للمبدأ
+      البرجي الانتخابي القائل إن التوريث استثناء. ودفن
+      بمدرسته ومدفنه بالقرافة الشمالية. ويترجم له ابن
+      العماد والسخاوي معاصرَيه ترجمتين مفصّلتين.
+    description_fr: |
+      al-Malik al-Ẓāhir Sayf al-Dīn Jaqmaq al-ʿAlāʾī —
+      douzième sultan burji, qui accéda à environ 65 ans en
+      842 H à la mort de son prédécesseur al-ʿAzīz Yūsuf —
+      mourut à la citadelle du Caire après une brève maladie,
+      à l'âge d'environ 80 ans. Son règne de quinze ans fut
+      le plus long de tout sultan burji après Barqūq, et le
+      plus paisible : il évita les grandes guerres extérieures
+      (n'envoyant que des expéditions limitées à Chypre et à
+      Rhodes), gouverna l'Égypte avec une réputation de
+      piété personnelle et d'ascèse — Ibn Ḥajar et al-Sakhāwī
+      notent tous deux qu'il accomplissait les veilles
+      nocturnes et évitait le vin et la musique — et
+      patronna abondamment l'establishment religieux sunnite,
+      fondant plusieurs madrasas et *zāwiyas* soufies au
+      Caire. Il tenta de transmettre le trône à son fils
+      al-Manṣūr ʿUthmān, mais les émirs déposèrent ʿUthmān
+      dans les semaines suivant la mort de Jaqmaq,
+      conformément au principe électif burji selon lequel
+      la transmission héréditaire est une exception. Il fut
+      enterré dans sa madrasa-tombeau du Cimetière du Nord.
+      Ibn al-ʿImād et l'historien contemporain al-Sakhāwī en
+      donnent des notices nécrologiques détaillées.
+    canonical_hijri: {year: 857, month: 2, day: 3, precision: day}
+    canonical_gregorian: {date: 1453-02-13, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab places the death on 3 Ṣafar 857 AH at the Cairo citadel."
+      - source_key: ibn_hajar_durar
+        notes: "Ibn Ḥajar's Inbāʾ al-Ghumr (continuation of al-Durar) confirms the death in Ṣafar 857 AH."
+      - source_key: ei2
+        notes: "EI2 'D̲j̲aḳmaḳ' entry sets the date 13 February 1453 CE / 3 Ṣafar 857 AH."
+    people: [[al-zahir-jaqmaq, subject]]
+    tags: [mamluk, burji, egypt, cairo, sultan-death, piety, scholarship]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # LATE BURJI — QAYTBAY AND THE FALL (901, 922-923 AH)
+  # =========================================================================
+
+  - slug: death-of-al-ashraf-qaytbay
+    category: ruler_death
+    title_en: Death of Sultan al-Ashraf Qāyt Bāy — Last Great Burji Builder of Cairo
+    title_ar: وفاة السلطان الأشرف قايتباي — آخر بنّائي القاهرة المملوكية البرجية
+    title_fr: Mort du sultan al-Ashraf Qāyt Bāy — dernier grand bâtisseur burji du Caire
+    description_en: |
+      al-Malik al-Ashraf Sayf al-Dīn Qāyt Bāy al-Maḥmūdī al-Ẓāhirī —
+      eighteenth Burji sultan and the last sultan to wield
+      effective authority over a unified Mamlūk state — died
+      at the Cairo citadel after a long illness, aged about 80.
+      His twenty-eight-year reign (872-901 AH) was the longest
+      of any Burji sultan and a sustained achievement against
+      severe constraints: chronic plague, the silver crisis
+      of late-fifteenth-century Egypt, and the rising Ottoman
+      power on the northern frontier. Six successful Mamlūk
+      campaigns checked Ottoman expansion under Sultans
+      Meḥmed II and Bāyazīd II between 877 and 896 AH,
+      preserving northern Syrian–Anatolian Cilicia until
+      after his death. His architectural patronage was the
+      most extensive of any Mamlūk sultan: the great
+      Mausoleum-Madrasa of Qāyt Bāy in the Northern
+      Cemetery (Qarāfa) — its dome carved with the most
+      virtuosic stone arabesques in Mamlūk architecture —
+      survives as the iconic monument of fifteenth-century
+      Cairo. He restored the Ḥaramayn extensively, rebuilt
+      portions of the Masjid al-Ḥarām and the Prophet's
+      Mosque, and endowed *waqf*s at Madīna. Ibn Iyās
+      records the death in detail.
+    description_ar: |
+      توفي السلطان الملك الأشرف سيف الدين قايتباي
+      المحمودي الظاهري — ثامن عشر سلاطين البرجية، وآخر
+      من أَمسك بسلطان فعلي على دولة المماليك متّحدةً —
+      بقلعة الجبل بالقاهرة بعد علة طويلة، عن نحو ثمانين
+      سنة. وكان عهده الذي امتدّ ثمانية وعشرين سنة
+      (٨٧٢-٩٠١ هـ) أطول عهود سلاطين البرجية، وإنجازاً
+      طويلَ النفَس في وجه قيود شديدة: الطاعون المزمن،
+      وأزمة الفضة في أواخر القرن التاسع الهجري، والقوة
+      العثمانية الصاعدة على الجبهة الشمالية. وكفّت
+      ست حملات مملوكية ناجحة التمدّدَ العثماني تحت
+      محمد الفاتح وبايزيد الثاني بين سنتي ٨٧٧ و٨٩٦ هـ،
+      فحفظت قيليقيا في شمال الشام حتى ما بعد وفاته.
+      وكان عمرانه أوسع من عمران أيّ سلطان مملوكي:
+      مدرستُه ومدفنُه الكبيران في القرافة الشمالية —
+      وقد نُقشت قبتُه بأمهر زخارف أرابسك حجرية في
+      عمارة المماليك — لا يزالان قائمين بوصفهما
+      الأثر الأيقونيّ للقاهرة في القرن التاسع
+      الهجري. وأَصلح الحرمين الشريفين إصلاحاً واسعاً،
+      وأَعاد بناء أجزاء من المسجد الحرام والمسجد
+      النبوي، ووقف بالمدينة أوقافاً. ويسجّل ابن إياس
+      وفاتَه بتفصيل.
+    description_fr: |
+      al-Malik al-Ashraf Sayf al-Dīn Qāyt Bāy al-Maḥmūdī
+      al-Ẓāhirī — dix-huitième sultan burji et le dernier
+      sultan à exercer une autorité effective sur un État
+      mamelouk unifié — mourut à la citadelle du Caire
+      après une longue maladie, à l'âge d'environ 80 ans.
+      Son règne de vingt-huit ans (872-901 H) fut le plus
+      long de tout sultan burji et une réussite soutenue
+      contre des contraintes sévères : peste chronique,
+      crise de l'argent à la fin du XVᵉ siècle égyptien,
+      et la puissance ottomane montante sur la frontière
+      nord. Six campagnes mameloukes victorieuses
+      contiennent l'expansion ottomane sous les sultans
+      Meḥmed II et Bāyazīd II entre 877 et 896 H,
+      préservant la Cilicie syro-anatolienne septentrionale
+      jusqu'après sa mort. Son mécénat architectural fut le
+      plus étendu de tout sultan mamelouk : le grand
+      Mausolée-Madrasa de Qāyt Bāy dans le Cimetière du
+      Nord (Qarāfa) — sa coupole sculptée des arabesques
+      de pierre les plus virtuoses de l'architecture
+      mamelouke — subsiste comme le monument iconique du
+      Caire du XVᵉ siècle. Il restaura abondamment les
+      Ḥaramayn, reconstruisit des parties de la Mosquée
+      sacrée et de la Mosquée du Prophète, et fonda des
+      *waqf*s à Médine. Ibn Iyās consigne sa mort en
+      détail.
+    canonical_hijri: {year: 901, month: 8, day: 27, precision: day}
+    canonical_gregorian: {date: 1496-08-08, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab places the death on 27 Dhū al-Qaʿda 901 AH at the Cairo citadel."
+      - source_key: ei2
+        notes: "EI2 'Ḳāyt Bāy' entry sets the date 7-8 August 1496 CE / 27 Dhū al-Qaʿda 901 AH."
+    people: [[al-ashraf-qaytbay, subject]]
+    tags: [mamluk, burji, egypt, cairo, sultan-death, architecture, qaytbay, haramayn]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: execution-of-tuman-bay-ii
+    category: ruler_death
+    title_en: Execution of Ṭūmān Bāy II — Last Mamlūk Sultan, Hanged at Bāb Zuwayla
+    title_ar: إعدام طومان باي الثاني — آخر سلاطين المماليك يُشنق على باب زويلة
+    title_fr: Exécution de Ṭūmān Bāy II — dernier sultan mamelouk, pendu à Bāb Zuwayla
+    description_en: |
+      al-Malik al-Ashraf Ṭūmān Bāy II — twenty-second and last
+      Burji Mamlūk sultan, who had taken the throne in
+      Ramaḍān 922 AH on the death of Qānṣūh al-Ghawrī at
+      Marj Dābiq — was hanged at Bāb Zuwayla, the southern
+      Fatimid gate of Cairo, on the orders of the Ottoman
+      sultan Selim I, three months after the Ottoman entry
+      into the city. Defeated at Raydāniyya north of Cairo
+      on 29 Dhū al-Ḥijja 922 AH (22 January 1517 CE),
+      Ṭūmān Bāy had escaped the field and conducted
+      organised street-fighting in Cairo's western suburbs
+      and on the Nile islands; his refusal to capitulate
+      and his rallying of Bedouin allies in the Delta
+      after a brief escape made him a continuing threat to
+      Ottoman authority. Captured in the Buḥayra by tribal
+      betrayal in mid-Rabīʿ I 923 AH, he was brought to
+      Cairo and hanged at Bāb Zuwayla — the same gate
+      al-Muʾayyad Shaykh's twin minarets had been built
+      atop a century earlier — in front of a Cairo crowd.
+      The classical sources, especially Ibn Iyās (eyewitness
+      throughout, no friend of Selim's regime), describe
+      the rope breaking twice before the execution
+      succeeded; Ṭūmān Bāy is reported to have refused a
+      blindfold and recited the *shahāda* aloud. His death
+      is the textbook closing date of Mamlūk rule in Egypt
+      and the symbolic end of the Burji sultanate.
+    description_ar: |
+      شُنق السلطان الملك الأشرف طومان باي الثاني — ثاني
+      وعشرون سلاطين البرجية وآخرهم، الذي تولّى السلطنة
+      في رمضان سنة ٩٢٢ هـ بعد مقتل قانصوه الغوري في مرج
+      دابق — على باب زويلة (الباب الفاطمي الجنوبي
+      للقاهرة) بأمر السلطان العثماني سليم الأول، بعد
+      ثلاثة أشهر من دخول العثمانيين القاهرة. وكان قد
+      هُزم في الريدانية شمال القاهرة في ٢٩ ذي الحجة
+      ٩٢٢ هـ (٢٢ يناير ١٥١٧ م)، فأفلت من الميدان وقاد
+      قتالاً منظَّماً في الأحياء الغربية للقاهرة وجزر
+      النيل؛ وأبقى رفضُه التسليم واستجماعه حلفاء البدو
+      في الدلتا بعد فرار وجيز خطره مستمراً على السلطة
+      العثمانية. ولما خانه القبائلُ بالبحيرة في منتصف
+      ربيع الأول سنة ٩٢٣ هـ سيق إلى القاهرة فشُنق على
+      باب زويلة — نفس الباب الذي بُنيت فوقه مأذنتا
+      جامع المؤيد التوأمتان قبل قرن — أمام جموع أهل
+      القاهرة. وتذكر المصادر الكلاسيكية، ولا سيما ابن
+      إياس (شاهد العيان طول الحادثة، وغير صديق لنظام
+      سليم)، أن حبل المشنقة انقطع مرتين قبل أن تنفذ
+      العقوبة؛ ويُروى أن طومان باي رفض العصابة ونطق
+      الشهادة جهراً. وموتُه التاريخ الكتابي لإغلاق
+      حكم المماليك في مصر، والنهاية الرمزية لدولة
+      البرجية.
+    description_fr: |
+      al-Malik al-Ashraf Ṭūmān Bāy II — vingt-deuxième et
+      dernier sultan mamelouk burji, qui avait pris le trône
+      en Ramaḍān 922 H à la mort de Qānṣūh al-Ghawrī à Marj
+      Dābiq — fut pendu à Bāb Zuwayla, la porte fatimide
+      sud du Caire, sur les ordres du sultan ottoman Selim I,
+      trois mois après l'entrée ottomane dans la ville.
+      Défait à Raydāniyya au nord du Caire le 29 Dhū
+      al-Ḥijja 922 H (22 janvier 1517 EC), Ṭūmān Bāy s'était
+      échappé du champ de bataille et avait conduit un combat
+      de rue organisé dans les quartiers ouest du Caire et
+      sur les îles du Nil; son refus de capituler et son
+      ralliement d'alliés bédouins dans le Delta après une
+      brève évasion firent de lui une menace persistante
+      pour l'autorité ottomane. Capturé dans la Buḥayra par
+      trahison tribale à la mi-Rabīʿ I 923 H, il fut amené
+      au Caire et pendu à Bāb Zuwayla — la même porte
+      au-dessus de laquelle les deux minarets jumeaux
+      d'al-Muʾayyad Shaykh avaient été bâtis un siècle plus
+      tôt — devant une foule cairote. Les sources
+      classiques, en particulier Ibn Iyās (témoin oculaire
+      du début à la fin, peu favorable au régime de Selim),
+      rapportent que la corde se rompit deux fois avant que
+      l'exécution n'aboutît; Ṭūmān Bāy aurait refusé le
+      bandeau et récité la *shahāda* à haute voix. Sa mort
+      est la date de clôture canonique du règne mamelouk en
+      Égypte et la fin symbolique du sultanat burji.
+    canonical_hijri: {year: 923, month: 3, day: 21, precision: day}
+    canonical_gregorian: {date: 1517-04-13, precision: day, method: attested}
+    claims:
+      - source_key: ibn_imad_shadharat
+        is_canonical: true
+        notes: "Ibn al-ʿImād Shadharāt al-Dhahab places the execution on 21 Rabīʿ al-Awwal 923 AH at Bāb Zuwayla."
+      - source_key: ei2
+        notes: "EI2 'Ṭūmān Bāy II' and 'Bāb Zuwayla' entries set the execution on 13 April 1517 CE / 21 Rabīʿ I 923 AH."
+    people: [[tuman-bay-ii, subject], [selim-i, subject]]
+    tags: [mamluk, burji, egypt, cairo, sultan-death, execution, bab-zuwayla, ottoman, dynasty-end]
+    importance: major
+    verified: true
+    verification_status: cross_verified

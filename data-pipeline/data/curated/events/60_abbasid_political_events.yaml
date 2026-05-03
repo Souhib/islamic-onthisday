@@ -1,0 +1,1065 @@
+# Wave 60 of curated event additions (2026-04-27).
+# 13 major Abbasid political and military events of the 9th-13th centuries.
+# Covers: Barmakid downfall, the civil war between al-Amin and al-Maʾmun,
+# death of al-Maʾmun in Tarsus, end of the Miḥna under al-Mutawakkil,
+# death of al-Wathiq, the Anarchy at Samarra, the Zanj rebellion and its
+# suppression, death of the regent al-Muwaffaq, Qarmatian raid on Mecca
+# and theft of the Black Stone, return of the Black Stone, Buyid takeover
+# of Baghdad, Seljuk Tughril Beg's entry to Baghdad, and death of caliph
+# al-Naṣir li-Dīn Allah. All events attested in classical Sunni sources
+# (al-Ṭabari, Ibn al-Athīr al-Kāmil, Ibn Kathīr al-Bidāya wa-l-Nihāya,
+# al-Dhahabī Tārīkh al-Islām, Ibn Khallikān Wafayāt al-Aʿyān). Trilingual
+# (en/ar/fr).
+
+events:
+  # =========================================================================
+  # HARUN AL-RASHID-ERA POLITICS
+  # =========================================================================
+
+  - slug: execution-of-jafar-al-barmaki
+    category: political_event
+    title_en: Execution of Jaʿfar al-Barmakī — Downfall of the Barmakids
+    title_ar: مقتل جعفر البرمكي — نكبة البرامكة
+    title_fr: Exécution de Jaʿfar al-Barmakī — la chute des Barmécides
+    description_en: |
+      Jaʿfar ibn Yaḥyā al-Barmakī, vizier and intimate companion
+      of caliph Hārūn al-Rashīd, was beheaded at al-ʿUmr (near
+      al-Anbār on the Euphrates) on the orders of the caliph,
+      ending the dominance of the Barmakid family that had
+      effectively administered the Abbasid state for nearly two
+      decades. His brothers Faḍl and Mūsā were imprisoned, the
+      family's vast estates were confiscated, and his father
+      Yaḥyā ibn Khālid died in prison shortly after. al-Ṭabarī
+      preserves multiple accounts of the cause, ranging from
+      Jaʿfar's secret marriage to the caliph's sister al-ʿAbbāsa
+      to the Barmakids' accumulated wealth and political
+      independence; the precise trigger remained famously
+      obscure even in al-Ṭabarī's own day. The fall of the
+      Barmakids became one of the most-cited cautionary tales
+      in classical Arabic literature on the precariousness of
+      worldly fortune and the wages of unchecked ambition near
+      the throne.
+    description_ar: |
+      ضُرب عنق جعفر بن يحيى البرمكي — وزير هارون الرشيد
+      ونديمه — في «العُمر» قرب الأنبار على نهر الفرات بأمر
+      الخليفة، فأنهت قتلتُه هيمنة آل برمك الذين دبَّروا أمور
+      الدولة العباسية فعلياً قرابة عقدين من الزمن. وسُجن
+      أخواه الفضل وموسى، وصودرت ضياع الأسرة العظيمة، ومات
+      أبوه يحيى بن خالد في سجنه بعد قليل. وقد أورد الطبري
+      روايات متعددة في سبب النكبة، تتراوح بين زواج جعفر
+      السرّي من العباسة أخت الخليفة وبين تضخم ثروة البرامكة
+      واستقلالهم السياسي؛ وظلّ السبب المحدد غامضاً حتى في
+      عصر الطبري نفسه. وصارت نكبة البرامكة من أكثر العبر
+      شهرةً في الأدب العربي الكلاسيكي على غدر الدنيا
+      وعاقبة الطموح المفرط من قرب السلطان.
+    description_fr: |
+      Jaʿfar ibn Yaḥyā al-Barmakī, vizir et compagnon intime du
+      calife Hārūn al-Rashīd, fut décapité à al-ʿUmr (près d'al-
+      Anbār, sur l'Euphrate) sur ordre du calife, mettant fin
+      à la prééminence de la famille barmécide qui administrait
+      effectivement l'État abbasside depuis près de vingt ans.
+      Ses frères Faḍl et Mūsā furent emprisonnés, les vastes
+      propriétés de la famille confisquées, et son père Yaḥyā
+      ibn Khālid mourut en prison peu après. al-Ṭabarī conserve
+      plusieurs versions de la cause — du mariage secret de
+      Jaʿfar avec al-ʿAbbāsa, sœur du calife, à l'accumulation
+      de richesses et l'indépendance politique des Barmécides;
+      le déclencheur précis resta célèbrement obscur jusque
+      dans le propre temps d'al-Ṭabarī. La chute des Barmécides
+      devint l'un des avertissements les plus cités de la
+      littérature arabe classique sur la précarité de la fortune
+      et le prix de l'ambition immodérée auprès du trône.
+    canonical_hijri: {year: 187, month: 2, day: 1, precision: day}
+    canonical_gregorian: {date: 803-02-02, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī gives the execution of Jaʿfar at al-ʿUmr in Ṣafar 187 AH and devotes a long section to the conflicting accounts of the cause."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr in al-Kāmil enters the events of 187 AH with the execution of Jaʿfar and the imprisonment of the Barmakids."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān contains the standard biographical entry on Jaʿfar al-Barmakī and dates his death to 187 AH."
+    people: [[harun-al-rashid, leader], [jafar-al-barmaki, died]]
+    tags: [abbasid, barmakid, vizier, baghdad, harun-al-rashid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # CIVIL WAR AND THE FOURTH CIVIL FITNA
+  # =========================================================================
+
+  - slug: death-of-al-amin
+    category: ruler_death
+    title_en: Death of Caliph al-Amīn — End of the Fourth Fitna
+    title_ar: مقتل الخليفة الأمين — خاتمة الفتنة الرابعة
+    title_fr: Mort du calife al-Amīn — fin de la quatrième fitna
+    description_en: |
+      Muḥammad al-Amīn, sixth Abbasid caliph and son of Hārūn
+      al-Rashīd by Zubayda, was killed at Baghdad after a
+      fourteen-month siege by the Khurāsānī army of his brother
+      al-Maʾmūn under the command of Ṭāhir ibn al-Ḥusayn. The
+      civil war had begun in 195 AH when al-Amīn moved to set
+      aside the succession arrangement Hārūn had imposed, which
+      named al-Maʾmūn governor of Khurāsān and second in line.
+      After Ṭāhir's army breached the city walls and the
+      Round City of al-Manṣūr fell, al-Amīn surrendered on a
+      promise of safe-conduct but was overtaken on the Tigris
+      by Ṭāhir's troops and killed. His severed head was sent
+      east to al-Maʾmūn at Marw, an act that scandalised even
+      his own supporters. The siege of Baghdad — the first time
+      the new capital had been attacked — caused massive
+      destruction recorded in al-Ṭabarī, and the war is counted
+      by classical historians as the *fitna al-rābiʿa* ("the
+      Fourth Civil War") of the umma.
+    description_ar: |
+      قُتل الخليفة محمد الأمين — سادس خلفاء بني العباس وابن
+      هارون الرشيد من زبيدة — ببغداد بعد حصار أربعة عشر شهراً
+      ضربه عليه جيش أخيه المأمون الخراساني بقيادة طاهر بن
+      الحسين. وكانت الحرب الأهلية قد اندلعت سنة ١٩٥ هـ حين
+      أقدم الأمين على نقض ترتيب الخلافة الذي فرضه عليه أبوه
+      هارون، والذي جعل المأمون والياً على خراسان وولي عهد
+      ثاني. ولما اخترق جيش طاهر أسوار العاصمة وسقطت مدينة
+      المنصور المدوّرة، استسلم الأمين على عهد الأمان فأدركه
+      جند طاهر على دجلة فقتلوه. وأُرسل رأسه شرقاً إلى المأمون
+      بمرو، وهو أمر استنكره حتى أنصاره. وأحدث حصار بغداد —
+      أول هجمة على العاصمة الجديدة — دماراً عظيماً سجّله
+      الطبري، وعدّ المؤرخون الكلاسيكيون هذه الحرب «الفتنة
+      الرابعة» من فتن الأمة.
+    description_fr: |
+      Muḥammad al-Amīn, sixième calife abbasside et fils de Hārūn
+      al-Rashīd par Zubayda, fut tué à Baghdād après un siège de
+      quatorze mois par l'armée khurāsānienne de son frère al-
+      Maʾmūn, commandée par Ṭāhir ibn al-Ḥusayn. La guerre civile
+      avait éclaté en 195 H lorsque al-Amīn entreprit de défaire
+      l'arrangement successoral imposé par Hārūn, qui faisait
+      d'al-Maʾmūn gouverneur du Khurāsān et second dans la
+      succession. Après que l'armée de Ṭāhir eut percé les murs
+      de la ville et que la Cité Ronde d'al-Manṣūr fut tombée,
+      al-Amīn se rendit sur une promesse de sauf-conduit mais
+      fut rejoint sur le Tigre par les troupes de Ṭāhir et tué.
+      Sa tête tranchée fut envoyée vers l'est à al-Maʾmūn à
+      Marw, acte qui scandalisa jusqu'à ses propres partisans.
+      Le siège de Baghdād — la première attaque que subit la
+      nouvelle capitale — causa des destructions massives
+      consignées par al-Ṭabarī, et la guerre est comptée par
+      les historiens classiques comme la *fitna al-rābiʿa*
+      (« quatrième fitna ») de l'umma.
+    canonical_hijri: {year: 198, month: 1, day: 25, precision: day}
+    canonical_gregorian: {date: 813-09-29, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī gives a detailed narrative of the siege of Baghdad and the killing of al-Amīn in Muḥarram 198 AH; he preserves multiple eyewitness accounts of the night-time pursuit and the surrender."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr enters the killing of al-Amīn under 198 AH and gives Ṭāhir ibn al-Ḥusayn as the responsible commander."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 198 AH and the circumstances at Baghdad."
+    people: [[al-amin, died], [al-mamun, leader], [tahir-ibn-al-husayn, leader]]
+    tags: [abbasid, civil-war, baghdad, fitna, al-mamun, tahir]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-mamun
+    category: ruler_death
+    title_en: Death of Caliph al-Maʾmūn at Tarsus
+    title_ar: وفاة الخليفة المأمون بطرسوس
+    title_fr: Mort du calife al-Maʾmūn à Tarse
+    description_en: |
+      ʿAbd Allāh al-Maʾmūn ibn Hārūn al-Rashīd, seventh Abbasid
+      caliph (reigned 198-218 AH), died on the Byzantine frontier
+      at the small town of al-Budandūn near Tarsus while leading
+      a summer campaign into Cappadocia, at age about 48. His
+      twenty-year reign saw the consolidation of Khurāsānī
+      influence at Baghdad, the founding of the *Bayt al-Ḥikma*
+      and the height of the translation movement that rendered
+      Greek philosophy, mathematics, and medicine into Arabic,
+      and the imposition of the *Miḥna* — the doctrinal
+      inquisition over the createdness of the Qurʾān that was
+      already underway when he died. He had also recently
+      designated his brother al-Muʿtaṣim as successor in place
+      of his son al-ʿAbbās, a decision that secured the
+      transition. He was buried at Tarsus and his brother
+      al-Muʿtaṣim was acclaimed caliph there before the army
+      returned to Iraq. Sunni tradition records the Miḥna as a
+      grave error of an otherwise consequential reign; his
+      patronage of learning is universally praised.
+    description_ar: |
+      توفي الخليفة عبد الله المأمون بن هارون الرشيد — سابع
+      خلفاء بني العباس (حكم من ١٩٨ إلى ٢١٨ هـ) — على ثغر
+      الروم في «البَدَنْدُون» قرب طرسوس وهو على رأس صائفة
+      أرسلها لغزو بلاد قبادوقية، عن نحو ثمان وأربعين سنة. شهد
+      عهده الذي استمر عشرين سنة استحكام النفوذ الخراساني
+      ببغداد، وتأسيس «بيت الحكمة» وذروة حركة الترجمة التي
+      نقلت الفلسفة اليونانية والرياضيات والطب إلى العربية،
+      وفرض «المحنة» — أي محنة خلق القرآن التي كانت قائمة عند
+      وفاته. وكان قد عيّن أخاه المعتصم وليّاً للعهد بدل ابنه
+      العباس، وهو ما ضمن انتقال السلطة. ودفن بطرسوس وبويع
+      أخوه المعتصم بالخلافة هناك قبل عودة الجيش إلى العراق.
+      وتسجّل التقليد السنّي «المحنة» خطأً جسيماً في عهد عظيم
+      النتائج، وأجمع المؤرخون على الثناء على رعايته للعلم.
+    description_fr: |
+      ʿAbd Allāh al-Maʾmūn ibn Hārūn al-Rashīd, septième calife
+      abbasside (règne 198-218 H), mourut sur la frontière
+      byzantine au bourg d'al-Budandūn près de Tarse, alors qu'il
+      dirigeait une campagne d'été en Cappadoce, âgé d'environ
+      quarante-huit ans. Son règne de vingt ans vit la
+      consolidation de l'influence khurāsānienne à Baghdād, la
+      fondation de la *Bayt al-Ḥikma* et l'apogée du mouvement
+      de traduction qui transposa philosophie grecque,
+      mathématiques et médecine en arabe, et l'imposition de la
+      *Miḥna* — l'inquisition doctrinale sur le caractère créé
+      du Coran, déjà en cours à sa mort. Il avait aussi
+      récemment désigné son frère al-Muʿtaṣim comme successeur
+      à la place de son fils al-ʿAbbās, décision qui assura la
+      transition. Il fut enterré à Tarse et son frère al-
+      Muʿtaṣim y fut acclamé calife avant le retour de l'armée
+      en Irak. La tradition sunnite consigne la Miḥna comme une
+      grave erreur d'un règne par ailleurs déterminant; son
+      mécénat scientifique est unanimement loué.
+    canonical_hijri: {year: 218, month: 7, day: 17, precision: day}
+    canonical_gregorian: {date: 833-08-12, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī gives the death of al-Maʾmūn at al-Budandūn near Tarsus in Rajab 218 AH and details his death-bed designation of al-Muʿtaṣim."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr enters the death of al-Maʾmūn under 218 AH and confirms burial at Tarsus."
+      - source_key: dhahabi_siyar
+        notes: "al-Dhahabī's Siyar Aʿlām al-Nubalāʾ enters the obituary of al-Maʾmūn under 218 AH."
+    people: [[al-mamun, died]]
+    tags: [abbasid, caliph, mihna, tarsus, byzantine-frontier]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # END OF THE MIHNA
+  # =========================================================================
+
+  - slug: end-of-the-mihna
+    category: religious_movement_event
+    title_en: End of the Miḥna under Caliph al-Mutawakkil
+    title_ar: انتهاء محنة خلق القرآن في عهد المتوكل
+    title_fr: Fin de la Miḥna sous le calife al-Mutawakkil
+    description_en: |
+      Caliph Jaʿfar al-Mutawakkil ʿalā Allāh formally reversed
+      the Muʿtazilite *Miḥna* — the doctrinal inquisition over
+      the createdness of the Qurʾān imposed by his predecessors
+      al-Maʾmūn, al-Muʿtaṣim, and al-Wāthiq — by ordering an end
+      to the interrogation of judges, scholars, and traditionists
+      on the question, releasing those still imprisoned, and
+      restoring the traditionalist position as the official
+      doctrine of the caliphate. He summoned the muḥaddithūn
+      (hadith scholars) to public sessions in the mosques of
+      Baghdad and Sāmarrāʾ to dictate hadith — including hadith
+      affirming the un-createdness of the Qurʾān — to the
+      common people, formally signalling the rehabilitation of
+      Imām Aḥmad ibn Ḥanbal and the Sunni traditionalist
+      *ahl al-ḥadīth*. Classical Sunni historians count the end
+      of the Miḥna among the three or four most consequential
+      acts of the Abbasid caliphate, alongside the founding of
+      Baghdad itself.
+    description_ar: |
+      رفع الخليفة جعفر المتوكل على الله رسمياً «المحنة»
+      المعتزلية — محنة خلق القرآن التي فرضها أسلافُه المأمون
+      والمعتصم والواثق — فأمر بكفّ سؤال القضاة والعلماء
+      والمحدّثين عن المسألة، وأطلق من بقي في السجن منهم،
+      وأعاد مذهب أهل السنة العقدي مذهباً رسمياً للخلافة. ودعا
+      المحدّثين إلى مجالس عامة بمساجد بغداد وسامراء يملون
+      فيها على الناس الحديث — ومنه الأحاديث المؤكدة لعدم خلق
+      القرآن — إعلاناً برد الاعتبار للإمام أحمد بن حنبل
+      وأهل الحديث من السنّة. ويعدّ المؤرخون الكلاسيكيون من
+      أهل السنة رفع المحنة من أعظم ثلاثة أو أربعة أعمال
+      للخلافة العباسية إلى جنب تأسيس بغداد ذاتها.
+    description_fr: |
+      Le calife Jaʿfar al-Mutawakkil ʿalā Allāh révoqua
+      formellement la *Miḥna* muʿtazilite — l'inquisition
+      doctrinale sur le caractère créé du Coran imposée par ses
+      prédécesseurs al-Maʾmūn, al-Muʿtaṣim et al-Wāthiq — en
+      ordonnant la fin des interrogatoires des cadis, savants
+      et traditionnistes sur la question, en libérant ceux qui
+      étaient encore emprisonnés, et en rétablissant la position
+      traditionniste comme doctrine officielle du califat. Il
+      convoqua les muḥaddithūn (savants de hadith) dans des
+      séances publiques aux mosquées de Baghdād et Sāmarrāʾ
+      pour dicter des hadiths — y compris ceux affirmant
+      l'incréé du Coran — au commun, signalant la réhabilitation
+      formelle de l'imām Aḥmad ibn Ḥanbal et des traditionnistes
+      sunnites *ahl al-ḥadīth*. Les historiens sunnites
+      classiques comptent la fin de la Miḥna parmi les trois ou
+      quatre actes les plus déterminants du califat abbasside,
+      aux côtés de la fondation de Baghdād elle-même.
+    canonical_hijri: {year: 234, precision: year}
+    canonical_gregorian: {date: 848-08-10, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the reversal of the Miḥna and the public hadith dictations under 234 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya gives the year 234 AH for al-Mutawakkil's official ending of the Miḥna and the rehabilitation of the muḥaddithūn."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 234 AH for the formal end of the inquisition."
+    people: [[al-mutawakkil, leader], [ahmad-ibn-hanbal, subject]]
+    tags: [abbasid, mihna, mutawakkil, ahmad-ibn-hanbal, sunni-revival, hadith]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # DEATH OF AL-WATHIQ AND THE ANARCHY AT SAMARRA
+  # =========================================================================
+
+  - slug: death-of-al-wathiq
+    category: ruler_death
+    title_en: Death of Caliph al-Wāthiq
+    title_ar: وفاة الخليفة الواثق
+    title_fr: Mort du calife al-Wāthiq
+    description_en: |
+      Hārūn ibn al-Muʿtaṣim al-Wāthiq bi-Allāh, ninth Abbasid
+      caliph (reigned 227-232 AH), died at Sāmarrāʾ at age about
+      36, having reigned for less than six years. His brief
+      reign continued the Miḥna doctrinal policy of his father
+      al-Muʿtaṣim and grandfather al-Maʾmūn — the most violent
+      phase of the inquisition, in which the elderly traditionist
+      Aḥmad ibn Naṣr al-Khuzāʿī was executed at the caliph's
+      own hand for refusing to affirm the createdness of the
+      Qurʾān. He patronised astronomers and translators in the
+      tradition of al-Maʾmūn, ordering a verification of the
+      degree-length on the plain north of Sinjār. He was
+      succeeded by his brother al-Mutawakkil, whose reversal
+      of the Miḥna two years later would distinguish his reign
+      from al-Wāthiq's; classical sources note al-Wāthiq's
+      reign as the last in which the Mu'tazilite doctrine held
+      official force.
+    description_ar: |
+      توفي الخليفة هارون بن المعتصم الواثق بالله — تاسع خلفاء
+      بني العباس (حكم من ٢٢٧ إلى ٢٣٢ هـ) — بسامراء عن نحو ست
+      وثلاثين سنة، بعد أن حكم أقل من ست سنوات. واصل عهده
+      القصير سياسة المحنة العقدية التي ورثها عن أبيه المعتصم
+      وجده المأمون — وهي أعنف مراحل المحنة، إذ أعدم فيها
+      الشيخ أحمد بن نصر الخزاعي المحدّث بسيف الخليفة بنفسه
+      لرفضه القول بخلق القرآن. ورعى الواثق المنجمين
+      والمترجمين على نهج المأمون، وأمر بقياس درجة الفلك في
+      سهل سنجار شمالاً. وخلفه أخوه المتوكل الذي رفع المحنة
+      بعد سنتين فميّز عهده من عهد الواثق. ويسجّل المؤرخون
+      الكلاسيكيون عهد الواثق آخر العهود التي ظلّ فيها مذهب
+      المعتزلة مذهباً رسمياً للدولة.
+    description_fr: |
+      Hārūn ibn al-Muʿtaṣim al-Wāthiq bi-Allāh, neuvième calife
+      abbasside (règne 227-232 H), mourut à Sāmarrāʾ à environ
+      trente-six ans, après moins de six ans de règne. Son bref
+      règne poursuivit la politique doctrinale de la Miḥna de
+      son père al-Muʿtaṣim et de son grand-père al-Maʾmūn —
+      la phase la plus violente de l'inquisition, durant
+      laquelle le vieux traditionniste Aḥmad ibn Naṣr al-Khuzāʿī
+      fut exécuté de la main même du calife pour avoir refusé
+      d'affirmer le caractère créé du Coran. Il fut le mécène
+      d'astronomes et de traducteurs dans la tradition d'al-
+      Maʾmūn, ordonnant une vérification de la longueur du
+      degré dans la plaine au nord de Sinjār. Lui succéda son
+      frère al-Mutawakkil, dont la révocation de la Miḥna deux
+      ans plus tard distinguerait son règne de celui d'al-
+      Wāthiq; les sources classiques voient le règne d'al-
+      Wāthiq comme le dernier où la doctrine muʿtazilite avait
+      force officielle.
+    canonical_hijri: {year: 232, month: 12, day: 24, precision: day}
+    canonical_gregorian: {date: 847-08-15, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the death of al-Wāthiq at Sāmarrāʾ in Dhū al-Ḥijja 232 AH."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms the death of al-Wāthiq under 232 AH."
+      - source_key: dhahabi_siyar
+        notes: "al-Dhahabī's Siyar Aʿlām al-Nubalāʾ contains the standard biographical entry placing his death in 232 AH."
+    people: [[al-wathiq, died]]
+    tags: [abbasid, caliph, samarra, mihna]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: anarchy-at-samarra-begins
+    category: political_event
+    title_en: The Anarchy at Sāmarrāʾ Begins
+    title_ar: بداية فوضى سامراء
+    title_fr: Début de l'anarchie de Sāmarrāʾ
+    description_en: |
+      The assassination of caliph al-Mutawakkil by Turkish
+      guardsmen in collusion with his son al-Muntaṣir in Shawwāl
+      247 AH inaugurated a nine-year period in which the Abbasid
+      caliphate effectively passed under the control of the
+      Turkish military commanders at Sāmarrāʾ, who made and
+      unmade four caliphs in rapid succession: al-Muntaṣir
+      (six months in 247-248 AH), al-Mustaʿīn (deposed and
+      killed 252 AH), al-Muʿtazz (deposed and killed 255 AH),
+      and al-Muhtadī (killed 256 AH). Each was raised to the
+      throne and removed at the Turkish guards' pleasure;
+      treasuries were emptied to pay the soldiery, civil
+      administration broke down, and provinces drifted toward
+      autonomy. Order was finally restored when al-Muʿtamid's
+      brother al-Muwaffaq seized effective regency and crushed
+      the army factions. al-Ṭabarī, Ibn al-Athīr, and Ibn
+      Kathīr all describe the period as the lowest point of
+      the Abbasid state before the Buyid takeover; the term
+      *fitnat Sāmarrāʾ* ("the anarchy at Sāmarrāʾ") is the
+      classical historiographical label.
+    description_ar: |
+      فتحت قتلة الخليفة المتوكل التي ارتكبها جند الأتراك
+      بالتواطؤ مع ابنه المنتصر في شوال سنة ٢٤٧ هـ تسع سنين
+      انتقلت فيها الخلافة العباسية فعلياً إلى يد قواد الأتراك
+      بسامراء، فعزلوا أربعةً من الخلفاء وولَّوا غيرهم في
+      تتابع سريع: المنتصر (ستة أشهر سنة ٢٤٧-٢٤٨ هـ)، والمستعين
+      (خُلع وقُتل سنة ٢٥٢ هـ)، والمعتز (خُلع وقُتل سنة ٢٥٥ هـ)،
+      والمهتدي (قُتل سنة ٢٥٦ هـ). يرفع جند الأتراك من شاؤوا
+      ويعزلون من شاؤوا؛ فُرغت بيوت الأموال لرواتب الجند،
+      وانهار النظام الإداري، واتجهت الولايات نحو الاستقلال.
+      ولم تعد الأمور إلى نصابها إلا حين تولّى أخو المعتمد
+      الموفقُ النيابةَ الفعلية وقمع فصائل الجند. ويصف الطبري
+      وابن الأثير وابن كثير هذه المرحلة بأنها أحط نقطة
+      للدولة العباسية قبل استيلاء البويهيين، ومصطلح «فتنة
+      سامراء» هو اللقب التاريخي الكلاسيكي لها.
+    description_fr: |
+      L'assassinat du calife al-Mutawakkil par les gardes turcs
+      en collusion avec son fils al-Muntaṣir en Shawwāl 247 H
+      inaugura une période de neuf ans où le califat abbasside
+      passa effectivement sous le contrôle des commandants
+      militaires turcs de Sāmarrāʾ, qui firent et défirent
+      quatre califes en succession rapide : al-Muntaṣir (six
+      mois en 247-248 H), al-Mustaʿīn (déposé et tué en 252 H),
+      al-Muʿtazz (déposé et tué en 255 H) et al-Muhtadī (tué
+      en 256 H). Chacun fut élevé au trône et destitué au gré
+      des gardes turcs; les trésors furent vidés pour solder
+      la troupe, l'administration civile s'effondra, les
+      provinces dérivèrent vers l'autonomie. L'ordre ne fut
+      rétabli que lorsque al-Muwaffaq, frère d'al-Muʿtamid,
+      saisit la régence effective et écrasa les factions de
+      l'armée. al-Ṭabarī, Ibn al-Athīr et Ibn Kathīr décrivent
+      tous la période comme le point le plus bas de l'État
+      abbasside avant la prise de pouvoir des Buyides; le
+      terme *fitnat Sāmarrāʾ* (« anarchie de Sāmarrāʾ ») est
+      l'étiquette classique de l'historiographie.
+    canonical_hijri: {year: 247, month: 12, precision: month}
+    canonical_gregorian: {date: 862-02-09, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī gives a year-by-year narrative of the rapid succession of caliphs at Sāmarrāʾ from 247 to 256 AH and identifies the period as a *fitna*."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr in al-Kāmil confirms the chronology of the four short caliphates and their depositions."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr describes the period as the nadir of Abbasid temporal authority."
+    people: [[al-mutawakkil, subject]]
+    tags: [abbasid, samarra, anarchy, turkish-guards, fitna]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ZANJ REBELLION
+  # =========================================================================
+
+  - slug: zanj-rebellion-outbreak
+    category: political_event
+    title_en: Outbreak of the Zanj Rebellion in Lower Iraq
+    title_ar: اندلاع ثورة الزنج في جنوب العراق
+    title_fr: Éclatement de la révolte des Zanj en Bas-Iraq
+    description_en: |
+      The slave revolt of the Zanj — the East African plantation
+      labourers employed in clearing the salt-encrusted soil of
+      the Baṣra region for cultivation — broke out in Ramaḍān
+      255 AH under the leadership of ʿAlī ibn Muḥammad, an
+      Arabic-speaking insurgent of obscure origin who claimed
+      ʿAlid descent and proclaimed an egalitarian programme to
+      his followers. Within three years the rebellion had
+      captured al-Ubulla and the city of al-Baṣra itself —
+      sacked and burned in 257 AH with thousands of inhabitants
+      killed, an event that shocked the Muslim world — and
+      established a fortified capital at al-Mukhtāra on the
+      Euphrates. For nearly fifteen years the rebels controlled
+      lower Iraq and Khūzistān, repeatedly defeated Abbasid
+      armies sent against them, and threatened Wāsiṭ and
+      Baghdad itself. al-Ṭabarī, who lived through the war,
+      gives the most detailed account; he treats the leader's
+      ʿAlid claim as fraudulent.
+    description_ar: |
+      اندلعت ثورة الزنج — وهم العبيد الأفارقة الذين كانوا
+      يعملون في تجفيف ملوحة أرض البصرة لزراعتها — في رمضان
+      سنة ٢٥٥ هـ بقيادة علي بن محمد، الثائر العربي اللسان
+      المجهول الأصل، الذي ادّعى نسباً علوياً ودعا أتباعه
+      إلى منهج مساواتي. وفي ثلاث سنين كانت الثورة قد فتحت
+      الأبلّة والبصرةَ نفسها — التي نُهبت وأُحرقت سنة ٢٥٧ هـ
+      وقتل بها ألوف من أهلها، وهو حدث صدم العالم الإسلامي
+      كله — وأقامت عاصمة مُحصّنة في «المختارة» على الفرات.
+      وسيطرت الثورة قرابة خمس عشرة سنة على جنوب العراق
+      وخوزستان، وهزمت جيوش الخلافة المرسلة عليها مراراً،
+      وهدّدت واسط وبغداد ذاتها. وأطول الروايات هي رواية
+      الطبري الذي عاصر الحرب، وقد عدّ ادعاءَ الزعيم النسبَ
+      العلوي ادعاءً كاذباً.
+    description_fr: |
+      La révolte des esclaves Zanj — les travailleurs africains
+      employés à dessaler le sol de la région de Baṣra pour le
+      mettre en culture — éclata en Ramaḍān 255 H sous la
+      direction de ʿAlī ibn Muḥammad, insurgé arabophone d'origine
+      obscure qui se réclama d'une descendance ʿalide et proclama
+      à ses partisans un programme égalitaire. En trois ans la
+      révolte avait pris al-Ubulla et la ville de Baṣra elle-
+      même — saccagée et brûlée en 257 H avec des milliers
+      d'habitants tués, événement qui choqua le monde musulman —
+      et établi une capitale fortifiée à al-Mukhtāra sur
+      l'Euphrate. Près de quinze ans durant, les rebelles
+      contrôlèrent le Bas-Iraq et le Khūzistān, défirent à
+      maintes reprises les armées abbassides envoyées contre
+      eux, et menacèrent Wāsiṭ puis Baghdād même. al-Ṭabarī,
+      contemporain de la guerre, donne le récit le plus détaillé
+      et tient la prétention ʿalide du chef pour frauduleuse.
+    canonical_hijri: {year: 255, month: 9, precision: month}
+    canonical_gregorian: {date: 869-08-17, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī devotes extensive sections to the outbreak of the Zanj rebellion in Ramaḍān 255 AH and gives the most detailed contemporary chronicle."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr enters the Zanj rebellion under 255 AH and follows its progress year by year."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr summarises the Zanj rebellion in al-Bidāya wa-l-Nihāya, treating the leader's ʿAlid claim as false."
+    tags: [abbasid, zanj, rebellion, basra, iraq, slavery]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: suppression-of-zanj-rebellion
+    category: political_event
+    title_en: Suppression of the Zanj Rebellion by al-Muwaffaq
+    title_ar: قمع ثورة الزنج على يد الموفق
+    title_fr: Suppression de la révolte des Zanj par al-Muwaffaq
+    description_en: |
+      The Zanj rebellion that had controlled lower Iraq for
+      nearly fifteen years was finally crushed by the regent
+      al-Muwaffaq Ṭalḥa ibn al-Mutawakkil and his son Abū al-
+      ʿAbbās — the future caliph al-Muʿtaḍid — after a three-
+      year campaign of fortified river-flotilla operations
+      against the rebel capital al-Mukhtāra at the confluence
+      of the Tigris and Euphrates. The final assault breached
+      the city; the leader ʿAlī ibn Muḥammad was killed and his
+      head carried on a pole through the Abbasid camp, and the
+      remaining Zanj were either killed or surrendered. The
+      victory was the most consequential military success of
+      the Abbasid recovery under al-Muwaffaq's regency: it
+      restored caliphal authority over the lower Iraqi
+      heartland, freed the agriculture of southern Iraq from
+      a decade and a half of devastation, and established the
+      reputation of Abū al-ʿAbbās that would secure his own
+      caliphate as al-Muʿtaḍid eight years later. al-Ṭabarī
+      gives a triumphal account; Ibn al-Athīr follows him.
+    description_ar: |
+      قُضي على ثورة الزنج التي سيطرت على جنوب العراق قرابة
+      خمس عشرة سنة على يد الأمير الموفق طلحة بن المتوكل
+      وابنه أبي العباس — الخليفة المعتضد فيما بعد — بعد حملة
+      ثلاث سنين قائمة على عمليات الأساطيل النهرية المحصّنة
+      ضد عاصمة الثورة «المختارة» عند ملتقى دجلة والفرات.
+      اخترق الجيش الخلافي المدينة في الهجمة الأخيرة، وقتل
+      الزعيم علي بن محمد وحُمل رأسه على رمح في معسكر
+      الخلافة، وقتل من تبقى من الزنج أو استسلم. وكان النصر
+      أعظم انتصار عسكري للنهضة العباسية في زمن نيابة الموفق:
+      فأعاد سلطة الخلافة على قلب جنوب العراق، وحرّر زراعة
+      البلاد من خمسة عشر عاماً من الخراب، وأرسى سمعة أبي
+      العباس التي ضمنت له الخلافة باسم المعتضد بعد ثماني
+      سنوات. ويعطي الطبري رواية ظافرة، ويتابعه ابن الأثير.
+    description_fr: |
+      La révolte zanj qui contrôlait le Bas-Iraq depuis près de
+      quinze ans fut finalement écrasée par le régent al-
+      Muwaffaq Ṭalḥa ibn al-Mutawakkil et son fils Abū al-
+      ʿAbbās — futur calife al-Muʿtaḍid — au terme d'une
+      campagne de trois ans menée par flottille fluviale
+      fortifiée contre la capitale rebelle al-Mukhtāra, au
+      confluent du Tigre et de l'Euphrate. L'assaut final perça
+      la ville; le chef ʿAlī ibn Muḥammad fut tué et sa tête
+      portée sur une pique à travers le camp abbasside, les
+      Zanj restants tués ou se rendant. La victoire fut le
+      succès militaire le plus déterminant du redressement
+      abbasside sous la régence d'al-Muwaffaq : elle rétablit
+      l'autorité califale sur le cœur du Bas-Iraq, libéra
+      l'agriculture méridionale de quinze ans de dévastation,
+      et fonda la réputation d'Abū al-ʿAbbās qui lui assurerait
+      son propre califat en tant qu'al-Muʿtaḍid huit ans plus
+      tard. al-Ṭabarī en donne un récit triomphal; Ibn al-Athīr
+      le suit.
+    canonical_hijri: {year: 270, month: 2, day: 2, precision: day}
+    canonical_gregorian: {date: 883-08-15, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī gives the death of ʿAlī ibn Muḥammad and the fall of al-Mukhtāra under Ṣafar 270 AH."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr enters the suppression of the Zanj rebellion under 270 AH and follows al-Ṭabarī's chronology."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 270 AH for the final Abbasid victory."
+    people: [[al-muwaffaq, leader], [al-mutadid, leader]]
+    tags: [abbasid, zanj, rebellion, basra, iraq, al-muwaffaq]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-muwaffaq
+    category: ruler_death
+    title_en: Death of the Regent al-Muwaffaq
+    title_ar: وفاة الأمير الموفق
+    title_fr: Mort du régent al-Muwaffaq
+    description_en: |
+      Abū Aḥmad Ṭalḥa ibn al-Mutawakkil, known by his caliphal
+      title al-Muwaffaq bi-Allāh, brother of caliph al-Muʿtamid
+      and the *de facto* ruler of the Abbasid state for the
+      preceding two decades, died at Baghdad at age about 49.
+      Officially he was only the heir-apparent and the
+      commander of the army; in fact he had been the
+      indispensable figure of the Abbasid recovery from the
+      anarchy at Sāmarrāʾ — crushing the Zanj rebellion in 270
+      AH, restraining the ambitions of the Ṣaffārids in Khurāsān,
+      and re-imposing caliphal authority over the lower Iraqi
+      heartland. His son Abū al-ʿAbbās succeeded as caliph al-
+      Muʿtaḍid the following year. al-Ṭabarī treats al-Muwaffaq's
+      regency as a brief restoration before the inevitable
+      decline; Ibn al-Athīr concurs and gives the standard
+      obituary entry under 278 AH.
+    description_ar: |
+      توفي الأمير أبو أحمد طلحة بن المتوكل المعروف بلقبه
+      الخلافي «الموفق بالله» — أخو الخليفة المعتمد والحاكم
+      الفعلي للدولة العباسية في العقدين الماضيين — ببغداد عن
+      نحو تسع وأربعين سنة. كان في الرسم وليّ عهد وقائد جند
+      فحسب، لكنه في الواقع كان محور النهضة العباسية بعد فتنة
+      سامراء — قضى على ثورة الزنج سنة ٢٧٠ هـ، وكفّ مطامع
+      الصفاريين في خراسان، وأعاد سلطة الخلافة على قلب جنوب
+      العراق. وخلفه ابنه أبو العباس بالخلافة باسم «المعتضد»
+      في العام التالي. ويعتبر الطبري نيابة الموفق نهضةً قصيرة
+      قبل الانحدار الحتمي؛ وأقرّه ابن الأثير، وأورد ترجمته
+      المعهودة في حوادث سنة ٢٧٨ هـ.
+    description_fr: |
+      Abū Aḥmad Ṭalḥa ibn al-Mutawakkil, connu sous son titre
+      califal d'al-Muwaffaq bi-Allāh, frère du calife al-
+      Muʿtamid et souverain *de facto* de l'État abbasside
+      pendant les deux décennies précédentes, mourut à Baghdād
+      à environ quarante-neuf ans. Il n'était officiellement
+      qu'héritier présomptif et commandant de l'armée; en fait
+      il avait été la figure indispensable du redressement
+      abbasside après l'anarchie de Sāmarrāʾ — écrasement de
+      la révolte zanj en 270 H, contention des ambitions
+      ṣaffārides au Khurāsān, restauration de l'autorité
+      califale sur le cœur du Bas-Iraq. Son fils Abū al-ʿAbbās
+      lui succéda comme calife al-Muʿtaḍid l'année suivante.
+      al-Ṭabarī tient la régence d'al-Muwaffaq pour une brève
+      restauration avant le déclin inéluctable; Ibn al-Athīr
+      concorde et donne l'obituaire standard sous 278 H.
+    canonical_hijri: {year: 278, month: 2, day: 22, precision: day}
+    canonical_gregorian: {date: 891-06-09, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī enters the death of al-Muwaffaq in Ṣafar 278 AH and notes that his son Abū al-ʿAbbās would succeed his uncle al-Muʿtamid the following year."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr confirms the death of al-Muwaffaq under 278 AH at Baghdad."
+      - source_key: dhahabi_siyar
+        notes: "al-Dhahabī's Siyar Aʿlām al-Nubalāʾ gives the obituary of al-Muwaffaq under 278 AH."
+    people: [[al-muwaffaq, died], [al-mutadid, subject]]
+    tags: [abbasid, regent, baghdad, al-muwaffaq, zanj]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # QARMATIAN RAID AND THE BLACK STONE
+  # =========================================================================
+
+  - slug: qarmatian-raid-on-mecca
+    category: political_event
+    title_en: Qarmatian Raid on Mecca and Theft of the Black Stone
+    title_ar: غارة القرامطة على مكة وسرقة الحجر الأسود
+    title_fr: Raid qarmate sur La Mecque et vol de la Pierre noire
+    description_en: |
+      Abū Ṭāhir al-Janābī, leader of the Qarmatian state at al-
+      Aḥsāʾ in eastern Arabia — an Ismaʿili-derived breakaway
+      sect universally condemned by the Sunni mainstream and by
+      most Shīʿa as well — sacked Mecca on 8 Dhū al-Ḥijja 317
+      AH during the Hajj season, slaughtering pilgrims in the
+      Sacred Mosque itself, filling the well of Zamzam with
+      corpses, and prying the Black Stone (*al-Ḥajar al-Aswad*)
+      from the corner of the Kaʿba and carrying it back to
+      al-Aḥsāʾ. Classical historians count the attack among the
+      gravest sacrileges in Islamic history. The Black Stone
+      remained in Qarmatian hands for twenty-two years until
+      its return in 339 AH after extensive Abbasid and Fāṭimid
+      diplomatic pressure. The Qarmatians' radicalism — their
+      attack on the Hajj, their claimed antinomian doctrines,
+      their alliance with no part of the Muslim mainstream —
+      placed them outside both Sunni and most Shīʿa frameworks
+      of legitimacy. Ibn al-Athīr and Ibn Kathīr both record
+      the raid in detail; al-Dhahabī condemns it as among the
+      worst calamities of the age.
+    description_ar: |
+      أوقع أبو طاهر الجنابي — زعيم دولة القرامطة بالأحساء في
+      شرق الجزيرة العربية، وهي فرقة باطنية إسماعيلية الأصل
+      أجمع عامة المسلمين من السنّة وغالبية الشيعة على ذمّها —
+      مذبحةً في مكة يوم ٨ ذي الحجة سنة ٣١٧ هـ في موسم الحج،
+      فقتلوا الحجاج في المسجد الحرام نفسه، وملأ بئر زمزم
+      جثثاً، وقلع «الحجر الأسود» من ركن الكعبة وحمله إلى
+      الأحساء. ويعدّ المؤرخون الكلاسيكيون هذه الواقعةَ من
+      أعظم انتهاكات الحرمات في تاريخ الإسلام. وبقي الحجر
+      الأسود في يد القرامطة اثنتين وعشرين سنة حتى رُدّ سنة
+      ٣٣٩ هـ بعد ضغوط دبلوماسية مكثفة من الخلافة العباسية
+      والدولة الفاطمية. وقد أخرج تطرّف القرامطة — اعتداؤهم
+      على الحج، ومذاهبهم المنسوبة إليهم في إسقاط الفرائض،
+      وعدم تحالفهم مع أي من فرق المسلمين الرئيسية — أخرجهم
+      من إطاري الشرعية عند السنّة وعند جمهور الشيعة كذلك.
+      ويسجّل ابن الأثير وابن كثير الواقعةَ مفصّلةً، ويذمّها
+      الذهبي ذمّاً شديداً ضمن أكبر مصائب العصر.
+    description_fr: |
+      Abū Ṭāhir al-Janābī, chef de l'État qarmate d'al-Aḥsāʾ en
+      Arabie orientale — secte dissidente d'origine ismaʿilienne
+      universellement condamnée par le sunnisme dominant et par
+      la majorité du shīʿisme également — saccagea La Mecque le
+      8 Dhū al-Ḥijja 317 H durant la saison du Hajj, massacrant
+      les pèlerins dans la Mosquée sacrée elle-même, comblant
+      le puits de Zamzam de cadavres, et arrachant la Pierre
+      noire (*al-Ḥajar al-Aswad*) de l'angle de la Kaʿba pour
+      l'emporter à al-Aḥsāʾ. Les historiens classiques classent
+      l'attaque parmi les sacrilèges les plus graves de
+      l'histoire islamique. La Pierre resta vingt-deux ans aux
+      mains des Qarmates jusqu'à sa restitution en 339 H après
+      d'intenses pressions diplomatiques abbassides et
+      fāṭimides. Le radicalisme qarmate — leur attaque contre
+      le Hajj, leurs doctrines antinomistes alléguées, leur
+      alliance avec aucune fraction de l'islam dominant — les
+      plaça hors des cadres de légitimité sunnites comme de la
+      plupart des shīʿites. Ibn al-Athīr et Ibn Kathīr
+      rapportent tous deux le raid en détail; al-Dhahabī le
+      condamne parmi les pires calamités de l'époque.
+    canonical_hijri: {year: 317, month: 12, day: 8, precision: day}
+    canonical_gregorian: {date: 930-01-17, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the Qarmatian raid on Mecca and the theft of the Black Stone in detail under 317 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya confirms 317 AH and gives a detailed condemnation of the act."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the raid under 317 AH as among the gravest sacrileges of the period."
+    people: [[abu-tahir-al-janabi, leader]]
+    tags: [abbasid, qarmati, mecca, black-stone, kaaba, hajj]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: return-of-the-black-stone
+    category: political_event
+    title_en: Return of the Black Stone to the Kaʿba
+    title_ar: ردّ الحجر الأسود إلى الكعبة
+    title_fr: Retour de la Pierre noire à la Kaʿba
+    description_en: |
+      Twenty-two years after Abū Ṭāhir al-Janābī's Qarmatian
+      forces had pried the Black Stone from the Kaʿba and
+      carried it to al-Aḥsāʾ, the relic was finally returned
+      to Mecca and reinstalled in the corner of the Sacred
+      House. Classical sources differ on the immediate trigger
+      — al-Mas'ūdī and Ibn al-Athīr cite extensive diplomatic
+      pressure and large payments by the Abbasid caliphate
+      under al-Muṭīʿ and (in some accounts) the Fāṭimid caliph
+      al-Manṣūr ʿubayd Allāh — but agree that the Stone was
+      brought back in 339 AH and that its return marked a
+      partial restoration of the dignity of the Sacred Mosque
+      after the trauma of 317 AH. Ibn al-Athīr notes that
+      sceptics had wondered whether the returned stone was the
+      original; the *qurayshī* descendants of the Banū Shayba —
+      hereditary keepers of the Kaʿba's keys — verified its
+      authenticity by its ability to float on water, a test
+      already preserved in Hajj-pilgrimage tradition. The
+      Stone has remained in the Kaʿba ever since.
+    description_ar: |
+      بعد اثنتين وعشرين سنة من قلع جند أبي طاهر الجنابي
+      القرمطي للحجر الأسود من الكعبة وحمله إلى الأحساء، رُدّ
+      الحجرُ أخيراً إلى مكة وأُعيد تركيبه في ركن البيت
+      الحرام. واختلفت المصادر الكلاسيكية في السبب المباشر —
+      فأشار المسعودي وابن الأثير إلى ضغوط دبلوماسية مكثفة
+      وأموال جسيمة دفعتها الخلافة العباسية في عهد المطيع
+      وكذلك (في بعض الروايات) الخليفة الفاطمي المنصور عبيد
+      الله — لكنها تجمع على أن الحجر رُدّ سنة ٣٣٩ هـ، وأن
+      ردّه شكّل عودةً جزئية لهيبة الحرم بعد صدمة سنة ٣١٧ هـ.
+      وذكر ابن الأثير أن المشككين تساءلوا أكان المردود هو
+      الحجر الأصل، فتحقق بنو شيبة القرشيون — حملة مفتاح
+      الكعبة بالوراثة — من أصالته بقدرته على الطفو على الماء،
+      وهو امتحان معروف في تقليد الحج. وبقي الحجر في ركن
+      الكعبة منذ ذلك الحين.
+    description_fr: |
+      Vingt-deux ans après que les forces qarmates d'Abū Ṭāhir
+      al-Janābī eurent arraché la Pierre noire de la Kaʿba et
+      l'eurent emportée à al-Aḥsāʾ, la relique fut enfin rendue
+      à La Mecque et réinstallée à l'angle de la Maison Sacrée.
+      Les sources classiques divergent sur le déclencheur
+      immédiat — al-Masʿūdī et Ibn al-Athīr citent d'intenses
+      pressions diplomatiques et de fortes sommes versées par
+      le califat abbasside sous al-Muṭīʿ et (selon certains
+      récits) le calife fāṭimide al-Manṣūr ʿUbayd Allāh — mais
+      s'accordent à dire que la Pierre fut rapportée en 339 H
+      et que son retour marqua une restauration partielle de
+      la dignité de la Mosquée sacrée après le traumatisme de
+      317 H. Ibn al-Athīr note que les sceptiques se demandèrent
+      si la pierre rendue était l'original; les Banū Shayba
+      qurayshites — gardiens héréditaires des clés de la Kaʿba
+      — vérifièrent son authenticité par sa capacité à flotter
+      sur l'eau, épreuve déjà conservée dans la tradition du
+      Hajj. La Pierre est restée dans la Kaʿba depuis lors.
+    canonical_hijri: {year: 339, precision: year}
+    canonical_gregorian: {date: 950-06-19, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil enters the return of the Black Stone under 339 AH and describes the verification ritual at the Kaʿba."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr al-Bidāya wa-l-Nihāya places the return in 339 AH."
+    people: [[abu-tahir-al-janabi, subject]]
+    tags: [abbasid, qarmati, mecca, black-stone, kaaba]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # END OF EFFECTIVE ABBASID TEMPORAL POWER
+  # =========================================================================
+
+  - slug: buyid-takeover-of-baghdad
+    category: political_event
+    title_en: Muʿizz al-Dawla Enters Baghdad — End of Abbasid Temporal Authority
+    title_ar: دخول معز الدولة بغداد — نهاية السلطة الزمنية للعباسيين
+    title_fr: Muʿizz al-Dawla entre à Baghdād — fin de l'autorité temporelle abbasside
+    description_en: |
+      Aḥmad ibn Buwayh Muʿizz al-Dawla, leader of the Daylamite
+      Buyid forces from western Iran, entered Baghdad and was
+      received by caliph al-Mustakfī, marking the end of the
+      Abbasids' effective temporal authority over their own
+      capital after two centuries. The caliph confirmed Muʿizz
+      al-Dawla as *amīr al-umarāʾ* ("commander of commanders"),
+      formally vesting in him the executive functions of the
+      state; within three months Muʿizz al-Dawla deposed and
+      blinded al-Mustakfī and installed al-Muṭīʿ as a more
+      compliant figurehead. The Buyid era at Baghdad would
+      last 110 years, during which the caliphs reigned only
+      ceremonially and effective administrative, military, and
+      fiscal control rested with the Buyid amīrs. Although the
+      Buyids were Twelver-Shīʿa-leaning in personal allegiance
+      — patronising the *ʿĀshūrāʾ* commemoration in Baghdad
+      from 352 AH onward — they retained the Sunni Abbasid
+      caliphate as the legitimating institution of the realm
+      rather than displacing it. Ibn al-Athīr's *al-Kāmil*
+      describes the entry as the de facto end of the Abbasid
+      state.
+    description_ar: |
+      دخل أحمد بن بويه «معز الدولة» — قائد الديلم البويهيين
+      القادمين من غرب إيران — بغدادَ، فاستقبله الخليفة
+      المستكفي، فكان دخوله نهايةً للسلطة الزمنية الفعلية
+      للعباسيين على عاصمتهم بعد قرنين كاملين. ولّاه الخليفةُ
+      «أمير الأمراء» — وهو منصب يجمع فعلياً وظائف الدولة
+      التنفيذية — وفي أقل من ثلاثة أشهر خلع معز الدولة
+      المستكفيَ وسمل عينيه ونصّب المطيع بديلاً مطواعاً. ودام
+      عهد البويهيين ببغداد مائة وعشر سنين، ظلّت الخلافة فيها
+      رمزاً تشريفياً، وسلطة الإدارة والعسكر والمال الفعلية
+      للأمراء البويهيين. ومع أن البويهيين كانوا في الولاء
+      الشخصي يميلون إلى التشيع الإمامي — وقد رعوا إحياء
+      «عاشوراء» ببغداد منذ سنة ٣٥٢ هـ — فإنهم أبقوا الخلافة
+      العباسية السنّية بصفتها المؤسسة الشرعية للدولة بدل
+      إلغائها. ويصف ابن الأثير في «الكامل» هذا الدخول بأنه
+      نهاية فعلية للدولة العباسية.
+    description_fr: |
+      Aḥmad ibn Buwayh Muʿizz al-Dawla, chef des forces
+      Daylamites buyides venues d'Iran occidental, entra à
+      Baghdād et fut reçu par le calife al-Mustakfī, marquant
+      la fin de l'autorité temporelle effective des Abbassides
+      sur leur propre capitale après deux siècles. Le calife
+      confirma Muʿizz al-Dawla comme *amīr al-umarāʾ*
+      (« commandeur des commandeurs »), lui conférant
+      formellement les fonctions exécutives de l'État; en moins
+      de trois mois, Muʿizz al-Dawla déposa et aveugla al-
+      Mustakfī, et installa al-Muṭīʿ comme figure de proue plus
+      docile. L'ère buyide à Baghdād dura cent dix ans, durant
+      laquelle les califes ne régnaient qu'à titre cérémoniel
+      tandis que le contrôle administratif, militaire et fiscal
+      effectif revenait aux émirs buyides. Bien que les Buyides
+      penchassent personnellement vers le shīʿisme duodécimain
+      — patronnant la commémoration de l'*ʿĀshūrāʾ* à Baghdād
+      à partir de 352 H — ils conservèrent le califat abbasside
+      sunnite comme institution légitimante du domaine plutôt
+      que de l'abolir. Le *Kāmil* d'Ibn al-Athīr décrit l'entrée
+      comme la fin de fait de l'État abbasside.
+    canonical_hijri: {year: 334, month: 5, day: 11, precision: day}
+    canonical_gregorian: {date: 945-12-24, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil dates the entry of Muʿizz al-Dawla into Baghdad to Jumādā al-ūlā 334 AH and describes the deposition of al-Mustakfī."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms the entry in 334 AH and the appointment of al-Muṭīʿ."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the events of 334 AH including Muʿizz al-Dawla's takeover of Baghdad."
+    people: [[muizz-al-dawla, leader]]
+    tags: [abbasid, buyid, baghdad, muizz-al-dawla, end-of-temporal-authority]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: seljuk-tughril-enters-baghdad
+    category: political_event
+    title_en: Seljuk Sultan Ṭughril Beg Enters Baghdad — End of Buyid Rule
+    title_ar: دخول السلطان السلجوقي طغرلبك بغداد — نهاية حكم البويهيين
+    title_fr: Le sultan seldjoukide Ṭughril Beg entre à Baghdād — fin du règne buyide
+    description_en: |
+      Ṭughril Beg ibn Mīkāʾīl, founder of the Great Seljuk
+      sultanate and leader of the Oghuz Turkish forces that had
+      conquered most of Iran in the preceding two decades,
+      entered Baghdad at the invitation of caliph al-Qāʾim,
+      ending 110 years of Buyid control over the Abbasid capital.
+      The Buyid amīr al-Malik al-Raḥīm was deposed and
+      imprisoned, the Sunni *khuṭba* was restored to its full
+      form, and Ṭughril was honoured by al-Qāʾim with the title
+      *Sultan of the East and the West* — formalising the
+      pattern in which the Seljuk sultans would hold executive
+      authority while the Abbasid caliph retained spiritual
+      legitimacy. Ṭughril's entry was hailed by Sunni
+      historians as a deliverance from Shīʿī Buyid rule and as
+      a step toward the Sunni revival that would culminate
+      under his successor Alp Arslān and his vizier Niẓām al-
+      Mulk. It also began the process by which Turkish
+      sultanate, rather than Iranian or Arab amirate, became
+      the dominant political form in the central Islamic lands.
+    description_ar: |
+      دخل السلطان طغرلبك بن ميكائيل — مؤسس دولة السلاجقة
+      الكبرى وقائد قوات التركمان الغُز الذين فتحوا في العقدين
+      السابقين معظمَ بلاد فارس — بغدادَ بدعوة من الخليفة
+      القائم، فأنهى دخوله مائة وعشر سنين من سلطة البويهيين
+      على عاصمة الخلافة. وعُزل الأمير البويهي «الملك الرحيم»
+      وسُجن، وأُعيدت الخطبة السنّية إلى صورتها التامة، وكرّم
+      القائمُ طغرلبك بلقب «سلطان المشرق والمغرب» — تأسيساً
+      للتقليد الذي سيظل فيه السلاطين السلاجقة أصحابَ السلطة
+      التنفيذية، والخليفة العباسي صاحبَ الشرعية الدينية. ورأى
+      مؤرخو السنّة في دخول طغرلبك خلاصاً من سلطة البويهيين
+      الشيعية وخطوةً نحو النهضة السنّية التي ستتوّج في عهد
+      ألب أرسلان خلَفه ووزيره نظام الملك. وبدأت مع ذلك أيضاً
+      صيرورة هيمنة السلطنة التركية على بلاد الإسلام الوسطى
+      عوضاً عن الإمارة الإيرانية أو العربية.
+    description_fr: |
+      Ṭughril Beg ibn Mīkāʾīl, fondateur du sultanat seldjoukide
+      majeur et chef des forces oghouz turques qui avaient
+      conquis la majeure partie de l'Iran dans les deux décennies
+      précédentes, entra à Baghdād à l'invitation du calife al-
+      Qāʾim, mettant fin à cent dix ans de contrôle buyide sur
+      la capitale abbasside. L'émir buyide al-Malik al-Raḥīm fut
+      déposé et emprisonné, la *khuṭba* sunnite restaurée dans
+      sa forme complète, et Ṭughril honoré par al-Qāʾim du titre
+      de *Sultan de l'Orient et de l'Occident* — formalisant le
+      schéma selon lequel les sultans seldjoukides détiendraient
+      l'autorité exécutive tandis que le calife abbasside
+      conserverait la légitimité spirituelle. L'entrée de
+      Ṭughril fut saluée par les historiens sunnites comme une
+      délivrance du joug buyide shīʿite et un pas vers le renouveau
+      sunnite qui culminerait sous son successeur Alp Arslān et
+      son vizir Niẓām al-Mulk. Elle inaugura aussi le processus
+      par lequel le sultanat turc, plutôt que l'émirat iranien
+      ou arabe, devint la forme politique dominante des terres
+      centrales d'islam.
+    canonical_hijri: {year: 447, month: 9, day: 25, precision: day}
+    canonical_gregorian: {date: 1055-12-24, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil dates Ṭughril's entry to Ramaḍān 447 AH and describes the deposition of al-Malik al-Raḥīm and the bestowal of the sultanate title by al-Qāʾim."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 447 AH for Ṭughril's entry into Baghdad and the end of Buyid rule."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records Ṭughril's entry into Baghdad under 447 AH."
+    people: [[tughril-beg, leader]]
+    tags: [abbasid, seljuk, baghdad, tughril, buyid-end, sunni-revival]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # LAST STRONG ABBASID CALIPH
+  # =========================================================================
+
+  - slug: death-of-al-nasir-li-din-allah
+    category: ruler_death
+    title_en: Death of Caliph al-Nāṣir li-Dīn Allāh
+    title_ar: وفاة الخليفة الناصر لدين الله
+    title_fr: Mort du calife al-Nāṣir li-Dīn Allāh
+    description_en: |
+      Aḥmad ibn al-Mustaḍīʾ al-Nāṣir li-Dīn Allāh, thirty-fourth
+      Abbasid caliph (reigned 575-622 AH), died at Baghdad after
+      a forty-seven-year reign — the longest in Abbasid history
+      — at age about 70. He is widely regarded by classical
+      historians as the last strong Abbasid caliph: he restored
+      effective caliphal authority over central Iraq for the
+      first time in nearly three centuries, broke the power of
+      the Seljuk successor states by exploiting the Khwārazmian
+      threat from the east, and reorganised the *futuwwa* — the
+      chivalric brotherhoods of the city — under direct caliphal
+      patronage as an institution of religious and political
+      mobilisation. His foreign policy involved a complex
+      diplomatic correspondence with the Ayyūbids, the
+      Khwārazm-Shāhs, and even the Mongol *khans* on the eve
+      of the catastrophe. After his death the caliphate
+      declined sharply; within thirty-six years, in 656 AH,
+      the Mongols under Hülegü would sack Baghdad and execute
+      his great-great-grandson al-Mustaʿṣim, ending the
+      Abbasid caliphate at Baghdad.
+    description_ar: |
+      توفي الخليفة أحمد بن المستضيء «الناصر لدين الله» —
+      الرابع والثلاثون من خلفاء بني العباس (حكم من ٥٧٥ إلى ٦٢٢
+      هـ) — ببغداد بعد سبع وأربعين سنة من الحكم، وهي أطول
+      مدة خلافة في تاريخ بني العباس، عن نحو سبعين سنة. ويعدّه
+      المؤرخون الكلاسيكيون آخر الخلفاء العباسيين الأقوياء:
+      فقد أعاد سلطة الخلافة الفعلية على وسط العراق لأول مرة
+      منذ نحو ثلاثة قرون، وكسر شوكة الدول السلجوقية الخالفة
+      مستفيداً من خطر الخوارزميين القادم من الشرق، ونظَّم
+      «الفتوة» — الأخويات الفروسية في المدن — تحت رعاية
+      الخلافة المباشرة مؤسسةً دينية سياسية للتعبئة. وانخرطت
+      سياسته الخارجية في مراسلات دبلوماسية معقدة مع
+      الأيوبيين والخوارزم شاه، بل ومع خانات المغول عشية
+      الكارثة. وبعد وفاته انحدرت الخلافة بسرعة؛ وفي ست
+      وثلاثين سنة فقط، سنة ٦٥٦ هـ، نهبت قوات هولاكو المغولية
+      بغداد وقتلت حفيد حفيده المستعصم، فأنهت الخلافة العباسية
+      ببغداد.
+    description_fr: |
+      Aḥmad ibn al-Mustaḍīʾ al-Nāṣir li-Dīn Allāh, trente-
+      quatrième calife abbasside (règne 575-622 H), mourut à
+      Baghdād après un règne de quarante-sept ans — le plus
+      long de l'histoire abbasside — âgé d'environ soixante-
+      dix ans. Il est largement considéré par les historiens
+      classiques comme le dernier calife abbasside fort : il
+      restaura l'autorité califale effective sur le centre de
+      l'Iraq pour la première fois en près de trois siècles,
+      brisa la puissance des États successeurs seldjoukides en
+      exploitant la menace khwārazmienne venue de l'est, et
+      réorganisa la *futuwwa* — les confréries chevaleresques
+      des villes — sous mécénat califal direct comme institution
+      de mobilisation religieuse et politique. Sa politique
+      extérieure impliqua une correspondance diplomatique
+      complexe avec les Ayyoubides, les Khwārazm-Shāhs et même
+      les *khans* mongols à la veille de la catastrophe. Après
+      sa mort le califat déclina brutalement; en trente-six
+      ans seulement, en 656 H, les Mongols de Hülegü mettraient
+      à sac Baghdād et exécuteraient son arrière-arrière-petit-
+      fils al-Mustaʿṣim, mettant fin au califat abbasside à
+      Baghdād.
+    canonical_hijri: {year: 622, month: 9, precision: month}
+    canonical_gregorian: {date: 1225-10-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr in al-Kāmil — who died only seven years after al-Nāṣir — gives a substantial obituary entry placing his death in Ramaḍān 622 AH."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms the death of al-Nāṣir in 622 AH and discusses the long reign."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām enters the obituary of al-Nāṣir under 622 AH."
+    people: [[al-nasir-li-din-allah, died]]
+    tags: [abbasid, caliph, baghdad, futuwwa, late-abbasid]
+    importance: major
+    verified: true
+    verification_status: cross_verified

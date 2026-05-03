@@ -1,0 +1,707 @@
+# Foundings of major Islamic cities and capitals not already covered by file
+# 13 (Basra, Kūfa, Fusṭāṭ, Qayrawān, Marrakesh) or earlier files (Baghdad,
+# Cairo, Madīnat al-Zahrāʾ, al-Azhar, Qarawiyyīn, the Cordoba mosque).
+# Each entry is attested in ≥2 classical Sunni sources (al-Ṭabarī,
+# Ibn al-Athīr, Ibn Kathīr, al-Dhahabī, Ibn Khallikān). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # UMAYYAD GARRISON / ADMINISTRATIVE CITIES
+  # =========================================================================
+
+  - slug: founding-of-wasit
+    category: founding
+    title_en: Founding of Wāsiṭ by al-Ḥajjāj
+    title_ar: تأسيس واسط على يد الحجاج
+    title_fr: Fondation de Wāsiṭ par al-Ḥajjāj
+    description_en: |
+      al-Ḥajjāj ibn Yūsuf al-Thaqafī, the Umayyad governor of Iraq under
+      Caliph ʿAbd al-Malik ibn Marwān, founded Wāsiṭ ("the middle [city]")
+      on the western bank of the Tigris between Kūfa and Baṣra to garrison
+      his loyal Syrian troops away from the rebellious populations of the
+      two older Iraqi miṣrs. The site was chosen for its equidistance from
+      the rival Iraqi cities, hence its name. al-Ḥajjāj built his
+      governor's palace and the congregational mosque (Masjid al-Jāmiʿ
+      bi-Wāsiṭ), and he was buried there in 95 AH. Wāsiṭ remained a major
+      Iraqi administrative and intellectual centre — the home of the
+      Wāsiṭī school of Qurʾanic recitation — until the medieval shifting
+      of the Tigris depopulated it by the 9th/15th century.
+    description_ar: |
+      أسس الحجاج بن يوسف الثقفي — والي العراق للخليفة الأموي عبد الملك بن
+      مروان — مدينة واسط ("الوسطى") على الضفة الغربية من دجلة بين الكوفة
+      والبصرة، ليُسكن فيها جنده الشاميين الموالين بعيداً عن سكان المصرَين
+      العراقيَّين الأقدمَين الذين كثرت فيهم الفتن. اختير الموقع لتوسطه بين
+      المدينتين، ومن ثم اسمها. وبنى الحجاج فيها قصر الإمارة والجامع الكبير
+      (المسجد الجامع بواسط)، ودُفن بها سنة ٩٥ هـ. وظلت واسط مركزاً عراقياً
+      كبيراً في الإدارة والعلم — منها مدرسة الإقراء الواسطية — حتى أخلتها
+      تحولات مجرى دجلة في أواخر القرن التاسع الهجري.
+    description_fr: |
+      al-Ḥajjāj ibn Yūsuf al-Thaqafī, gouverneur omeyyade d'Iraq sous le
+      calife ʿAbd al-Malik ibn Marwān, fonda Wāsiṭ (« [la ville] médiane »)
+      sur la rive occidentale du Tigre, entre Koufa et Bassora, afin d'y
+      cantonner ses troupes syriennes fidèles à l'écart des populations
+      agitées des deux miṣrs irakiens plus anciens. Le site fut choisi pour
+      son équidistance entre les deux cités rivales, d'où son nom. al-Ḥajjāj
+      y bâtit le palais du gouverneur et la mosquée congrégationnelle
+      (Masjid al-Jāmiʿ bi-Wāsiṭ), et y fut enterré en 95 AH. Wāsiṭ demeura
+      un grand centre administratif et intellectuel irakien — siège de
+      l'école wāsiṭī de récitation coranique — jusqu'à ce que les
+      déplacements médiévaux du Tigre la dépeuplent au IXe/XVe siècle.
+    canonical_hijri: {year: 83, precision: year}
+    canonical_gregorian: {date: 702-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī, Tārīkh: foundation in 83 AH on al-Ḥajjāj's order during the reign of ʿAbd al-Malik."
+      - source_key: ibn_athir_kamil
+        notes: "Ibn al-Athīr, al-Kāmil: confirms al-Ḥajjāj's foundation between Kūfa and Baṣra."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Biography of al-Ḥajjāj — foundation, palace, and burial there."
+    people: [[abd-al-malik-ibn-marwan, leader]]
+    tags: [umayyad, founding, iraq, wasit, hajjaj, garrison]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: founding-of-ramla
+    category: founding
+    title_en: Founding of al-Ramla by Sulaymān ibn ʿAbd al-Malik
+    title_ar: تأسيس الرملة على يد سليمان بن عبد الملك
+    title_fr: Fondation de Ramla par Sulaymān ibn ʿAbd al-Malik
+    description_en: |
+      Sulaymān ibn ʿAbd al-Malik, while still serving as governor of
+      Jund Filasṭīn for his brother Caliph al-Walīd I, founded al-Ramla
+      ("the sandy place") in the coastal plain of Palestine to replace
+      nearby Lydda (Ludd) as the provincial capital. He laid out the city
+      plan, built a governor's residence, the White Mosque (al-Masjid
+      al-Abyaḍ), and underground cisterns for water supply. al-Ramla
+      remained the only major Muslim-founded city in Palestine and the
+      administrative capital of the province until the Crusader period;
+      it housed the offices that supplied Jerusalem and was a node on
+      the Damascus–Cairo postal road.
+    description_ar: |
+      أسس سليمان بن عبد الملك — وهو على إمرة جند فلسطين لأخيه الخليفة
+      الوليد الأول — مدينة الرملة (موضعها رمل) في سهل فلسطين الساحلي
+      لتحل محل اللد المجاورة عاصمةً للجند. خطّ المدينة، وبنى دار الإمارة،
+      والمسجد الجامع المعروف بالمسجد الأبيض، وصهاريج الماء الجوفية. وبقيت
+      الرملة المدينة الإسلامية الوحيدة الكبرى التي بُنيت في فلسطين وعاصمة
+      الجند إلى زمن الصليبيين، وفيها دواوين تموين بيت المقدس، وعليها كان
+      طريق البريد بين دمشق ومصر.
+    description_fr: |
+      Sulaymān ibn ʿAbd al-Malik, alors gouverneur du Jund Filasṭīn pour
+      son frère le calife al-Walīd Ier, fonda al-Ramla (« le lieu sablonneux »)
+      dans la plaine côtière de Palestine pour remplacer la voisine Lydda
+      (Ludd) comme capitale provinciale. Il en traça le plan, bâtit la
+      résidence du gouverneur, la Mosquée Blanche (al-Masjid al-Abyaḍ) et
+      des citernes souterraines pour l'eau. al-Ramla demeura la seule
+      grande ville musulmane fondée en Palestine et la capitale
+      administrative de la province jusqu'à l'époque croisée ; elle
+      abritait les bureaux d'approvisionnement de Jérusalem et constituait
+      un relais de la route postale Damas–Le Caire.
+    canonical_hijri: {year: 96, precision: year}
+    canonical_gregorian: {date: 715-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī, Tārīkh: Sulaymān's foundation while still governor of Palestine."
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[al-walid-i, leader]]
+    tags: [umayyad, founding, palestine, ramla, sulayman, white-mosque]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: founding-of-tunis
+    category: founding
+    title_en: Re-founding of Tūnis by Ḥassān ibn al-Nuʿmān
+    title_ar: تأسيس تونس على يد حسان بن النعمان
+    title_fr: Refondation de Tunis par Ḥassān ibn al-Nuʿmān
+    description_en: |
+      Ḥassān ibn al-Nuʿmān al-Ghassānī, the Umayyad commander who broke
+      the Berber-Byzantine resistance in Ifrīqiya by defeating al-Kāhina,
+      established Tūnis as a Muslim city on the site of the older Punic-
+      Byzantine settlement at the head of its lagoon. He ordered the
+      construction of a naval arsenal (dār al-ṣināʿa) — among the earliest
+      in the Muslim Mediterranean — together with the Zaytūna mosque,
+      which would grow to become the foundational university of the
+      Maghreb. Tūnis would gradually eclipse al-Qayrawān as the political
+      capital of Ifrīqiya by the Hafsid period (7th/13th century).
+    description_ar: |
+      أنشأ حسان بن النعمان الغساني — قائد الفتح الأموي الذي قضى على
+      المقاومة البربرية البيزنطية في إفريقية بعد هزيمة الكاهنة — مدينة
+      تونس مدينةً إسلامية على موضع المستوطنة البونيقية البيزنطية القديمة
+      عند رأس بحيرتها. وأمر ببناء دار الصناعة البحرية — من أقدم دور
+      الصناعة في المتوسط الإسلامي — وجامع الزيتونة الذي صار جامعة المغرب
+      المؤسِّسة. وأخذت تونس تطغى تدريجياً على القيروان عاصمةً لإفريقية
+      حتى صارت كذلك في العصر الحفصي (القرن السابع الهجري).
+    description_fr: |
+      Ḥassān ibn al-Nuʿmān al-Ghassānī, le chef omeyyade qui brisa la
+      résistance berbéro-byzantine en Ifrīqiya en défaisant al-Kāhina,
+      établit Tunis comme cité musulmane sur le site de l'ancienne
+      implantation punico-byzantine à la tête de sa lagune. Il ordonna la
+      construction d'un arsenal naval (dār al-ṣināʿa) — parmi les plus
+      anciens de la Méditerranée musulmane — ainsi que de la mosquée
+      Zaytūna, qui allait devenir l'université fondatrice du Maghreb.
+      Tunis allait peu à peu éclipser Kairouan comme capitale politique
+      de l'Ifrīqiya à partir de l'époque ḥafside (VIIe/XIIIe siècle).
+    canonical_hijri: {year: 79, precision: year}
+    canonical_gregorian: {date: 698-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil: Ḥassān's foundation after defeating al-Kāhina."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr, al-Bidāya wa-l-Nihāya: events of 79 AH, foundation of arsenal."
+    tags: [umayyad, founding, ifriqiya, tunis, zaytuna, maghreb]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # ABBASID CAPITAL CITIES
+  # =========================================================================
+
+  - slug: founding-of-samarra
+    category: founding
+    title_en: Founding of Sāmarrāʾ by al-Muʿtaṣim
+    title_ar: تأسيس سامراء على يد المعتصم
+    title_fr: Fondation de Sāmarrāʾ par al-Muʿtaṣim
+    description_en: |
+      Caliph al-Muʿtaṣim bi-Allāh, finding that the friction between his
+      Turkish guard and the Baghdadi populace had become unmanageable,
+      moved the Abbasid capital northward up the Tigris and founded
+      Sāmarrāʾ ("Surra man raʾā" — "he who saw it rejoiced"). Over the
+      next half-century, eight Abbasid caliphs ruled from Sāmarrāʾ rather
+      than Baghdad, building the great Spiral Minaret (al-Malwiyya) and
+      Mosque of al-Mutawakkil — for a time the largest mosque in the
+      world. The city was abandoned as the seat of the Caliphate by 279
+      AH when al-Muʿtamid returned to Baghdad, but its mosques and the
+      adjoining ʿAskarī shrine remained major Sunni religious sites.
+    description_ar: |
+      نقل الخليفة المعتصم بالله عاصمة الخلافة العباسية شمالاً على نهر
+      دجلة لما اشتد الاحتكاك بين حرسه التركي وأهل بغداد، فأنشأ سامراء
+      ("سُرَّ من رأى"). وقد حكم منها — لا من بغداد — ثمانية خلفاء عباسيين
+      على مدى نصف قرن، وبُنيت فيها المئذنة الملوية الكبرى وجامع المتوكل
+      الذي كان وقت بنائه أعظم مساجد الدنيا مساحةً. وزال عنها كرسي الخلافة
+      سنة ٢٧٩ هـ حين رجع المعتمد إلى بغداد، لكن جوامعها ومرقد الإمامين
+      الحسن العسكري وأبيه ظلت من المعالم السنية الكبرى.
+    description_fr: |
+      Le calife al-Muʿtaṣim bi-Allāh, constatant que les frictions entre
+      sa garde turque et la population de Bagdad étaient devenues
+      ingérables, déplaça la capitale abbāsside vers le nord, en remontant
+      le Tigre, et fonda Sāmarrāʾ (« Surra man raʾā » : « celui qui la vit
+      se réjouit »). Pendant le demi-siècle suivant, huit califes
+      abbāssides régnèrent depuis Sāmarrāʾ et non depuis Bagdad, y bâtissant
+      le Grand Minaret en spirale (al-Malwiyya) et la Mosquée d'al-Mutawakkil
+      — un temps la plus grande mosquée du monde. La ville fut abandonnée
+      comme siège du califat en 279 AH lorsque al-Muʿtamid revint à
+      Bagdad, mais ses mosquées et le mausolée ʿAskarī adjacent demeurèrent
+      des sanctuaires sunnites majeurs.
+    canonical_hijri: {year: 221, precision: year}
+    canonical_gregorian: {date: 836-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī, Tārīkh, sub anno 221: al-Muʿtaṣim moves the capital and founds Sāmarrāʾ."
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[al-mutasim, leader]]
+    tags: [abbasid, founding, iraq, samarra, mutasim, malwiyya]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: founding-of-al-qatai
+    category: founding
+    title_en: Founding of al-Qaṭāʾiʿ by Ibn Ṭūlūn
+    title_ar: تأسيس القطائع على يد ابن طولون
+    title_fr: Fondation d'al-Qaṭāʾiʿ par Ibn Ṭūlūn
+    description_en: |
+      Aḥmad ibn Ṭūlūn, the Turkic-origin governor who founded the Tulunid
+      dynasty by establishing Egypt's de facto independence from Abbasid
+      Baghdad, laid out al-Qaṭāʾiʿ ("the wards") immediately north of
+      al-Fusṭāṭ as the new administrative capital of his autonomous
+      state. The city was organised into wards (qaṭāʾiʿ) for his
+      different troop contingents — Turks, Sudanese, Greeks, Berbers —
+      with a parade ground, a royal palace (Dār al-Imāra), a hippodrome,
+      and the great congregational mosque that bears his name (Masjid Ibn
+      Ṭūlūn, completed 265 AH), one of the oldest surviving mosques in
+      Africa and the only major monument from the city to survive its
+      destruction by the Abbasid restoration in 292 AH.
+    description_ar: |
+      أنشأ أحمد بن طولون — مؤسس الدولة الطولونية، الذي حقق لمصر استقلالاً
+      عملياً عن خلافة بغداد — مدينة القطائع شمال الفسطاط مباشرةً عاصمةً
+      إدارية لدولته. قُسِّمت المدينة قطائع لأجناده المختلفين من الأتراك
+      والسودان والروم والبربر، وفيها ميدان عرض الجند، ودار الإمارة،
+      والميدان، والجامع العظيم الذي يحمل اسمه (جامع ابن طولون، أُكمل
+      سنة ٢٦٥ هـ) — من أقدم المساجد الباقية في أفريقيا، والمعلم الكبير
+      الوحيد الذي نجا من إتلاف القطائع حين أعاد العباسيون مصر إلى سلطانهم
+      سنة ٢٩٢ هـ.
+    description_fr: |
+      Aḥmad ibn Ṭūlūn, gouverneur d'origine turque qui fonda la dynastie
+      des Ṭūlūnides en obtenant pour l'Égypte une indépendance de fait
+      vis-à-vis de Bagdad ʿabbāsside, traça al-Qaṭāʾiʿ (« les quartiers »)
+      immédiatement au nord d'al-Fusṭāṭ comme nouvelle capitale
+      administrative de son État autonome. La ville était organisée en
+      quartiers (qaṭāʾiʿ) pour ses différents contingents — Turcs,
+      Soudanais, Grecs, Berbères — avec un champ de parade, un palais
+      royal (Dār al-Imāra), un hippodrome et la grande mosquée
+      congrégationnelle qui porte son nom (Masjid Ibn Ṭūlūn, achevée en
+      265 AH), l'une des plus anciennes mosquées subsistantes d'Afrique
+      et le seul grand monument de la cité à avoir survécu à sa
+      destruction lors de la restauration abbasside en 292 AH.
+    canonical_hijri: {year: 256, precision: year}
+    canonical_gregorian: {date: 870-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil: Ibn Ṭūlūn lays out al-Qaṭāʾiʿ as his capital."
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān, biography of Aḥmad ibn Ṭūlūn — foundation and the great mosque."
+    people: [[ibn-tulun, leader]]
+    tags: [abbasid, founding, egypt, qatai, ibn-tulun, tulunid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # NORTH AFRICAN / WESTERN MUSLIM CAPITALS
+  # =========================================================================
+
+  - slug: founding-of-fes
+    category: founding
+    title_en: Founding of Fās (Fes) by Idrīs II
+    title_ar: تأسيس فاس على يد إدريس الثاني
+    title_fr: Fondation de Fès par Idrīs II
+    description_en: |
+      Idrīs II ibn Idrīs ibn ʿAbd Allāh, the second Idrīsid amīr of
+      Morocco, established Fās as the capital of his nascent Muslim state
+      on the Wādī Fās, expanding the small settlement his father had
+      begun on the river's eastern bank into the bipartite city of ʿUdwat
+      al-Andalus and ʿUdwat al-Qarawiyyīn. The two banks were settled
+      respectively by Andalusian refugees from the Rabaḍ uprising of
+      Cordoba (818 CE) and by Arab refugees from al-Qayrawān, giving the
+      city its name. From this nucleus would emerge — within two
+      generations — the Qarawiyyīn mosque-university (founded 245 AH,
+      already covered as a separate entry) and Fās's enduring role as the
+      primary Sunni Mālikī intellectual centre of the western Maghreb.
+      Classical sources differ slightly on the precise year of Idrīs II's
+      foundation: we follow Ibn Khaldūn and the Idrīsid chronicles giving
+      192 AH; some Andalusi sources give 193 AH.
+    description_ar: |
+      أسس إدريس الثاني بن إدريس بن عبد الله — أمير الأدارسة الثاني
+      بالمغرب — مدينة فاس عاصمةً لدولته الإسلامية الناشئة على وادي فاس،
+      ووسع المستوطنة الصغيرة التي بدأها أبوه على الضفة الشرقية من النهر،
+      حتى أضحت المدينة شِقَّيْن: عُدوة الأندلس وعُدوة القرويين. سكن الضفتين
+      على التوالي مهاجرو ربض قرطبة الفارّين من سحقها بأمر الحكم بن هشام
+      سنة ٢٠٢ هـ، ومهاجرون عرب من القيروان، فأخذت المدينة منهم اسمها.
+      ومن هذه النواة نهض جامع القرويين الجامعي بعد جيلين (سنة ٢٤٥ هـ،
+      وله مدخل مستقل)، وثبتت لفاس مكانتها مركزاً رئيساً للسنّة المالكية
+      في غرب المغرب. واختلفت المصادر القديمة في سنة التأسيس بسنة واحدة:
+      اخترنا قول ابن خلدون والمصادر الإدريسية ١٩٢ هـ؛ وفي بعض المصادر
+      الأندلسية ١٩٣ هـ.
+    description_fr: |
+      Idrīs II ibn Idrīs ibn ʿAbd Allāh, deuxième amīr idrīside du Maroc,
+      établit Fès comme capitale de son État musulman naissant sur le Wādī
+      Fās, élargissant la petite implantation que son père avait commencée
+      sur la rive orientale du fleuve pour en faire une ville bipartite :
+      ʿUdwat al-Andalus et ʿUdwat al-Qarawiyyīn. Les deux rives furent
+      respectivement peuplées par des réfugiés andalous fuyant le
+      soulèvement du Rabaḍ de Cordoue (818 EC) et par des réfugiés arabes
+      de Kairouan, donnant à la ville son nom. De ce noyau allaient
+      émerger en deux générations la mosquée-université de la Qarawiyyīn
+      (fondée en 245 AH, traitée comme entrée distincte) et le rôle
+      durable de Fès comme principal centre intellectuel sunnite mālikī
+      du Maghreb occidental. Les sources classiques diffèrent d'une année
+      sur la date exacte : nous suivons Ibn Khaldūn et les chroniques
+      idrīsides qui donnent 192 AH ; certaines sources andalouses donnent
+      193 AH.
+    canonical_hijri: {year: 192, precision: year}
+    canonical_gregorian: {date: 808-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil: Idrīs II's foundation of the second bank of Fās."
+      - source_key: ibn_kathir_bidaya
+      - source_key: ibn_khallikan_wafayat
+        notes: "Biography of Idrīs II — foundation and reign at Fās."
+    people: [[idris-ii, leader]]
+    tags: [idrisid, founding, maghreb, fes, qarawiyyin, maliki]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+
+  - slug: founding-of-mahdiya
+    category: founding
+    title_en: Founding of al-Mahdiyya by ʿUbayd Allāh
+    title_ar: تأسيس المهدية على يد عبيد الله
+    title_fr: Fondation d'al-Mahdiyya par ʿUbayd Allāh
+    description_en: |
+      ʿUbayd Allāh, founder of the Fāṭimid caliphate in Ifrīqiya, laid the
+      foundations of al-Mahdiyya on a coastal peninsula south of al-Qayrawān
+      as the new capital of his state. The site was chosen for its
+      defensibility — sea on three sides, isthmus walled across — at a
+      time when his rule was contested by the Sunni Mālikī populations of
+      the interior. al-Mahdiyya was inaugurated as the seat of the
+      Caliphate in 308 AH, replacing al-Raqqāda outside al-Qayrawān; it
+      remained a capital until the Fāṭimid move to Cairo in 362 AH, then
+      a Zīrid capital, and finally a major Mediterranean port through the
+      Norman and Hafsid centuries. The walls and the Great Mosque of
+      al-Mahdiyya survive as among the earliest surviving Fāṭimid-era
+      monuments.
+    description_ar: |
+      وضع عبيد الله — مؤسس الخلافة الفاطمية بإفريقية — أسس مدينة المهدية
+      في شبه جزيرة ساحلية جنوبي القيروان عاصمةً لدولته. اختار الموقع
+      لمناعته — البحر يحيط به من ثلاث جهات، ويُعرض البر بسور — في زمن
+      كانت سلطته فيه منازَعةً من سكان الداخلية السنّة المالكية. ودشّن
+      المهدية مقراً للخلافة سنة ٣٠٨ هـ، فحلت محل الرقّادة الفاطمية خارج
+      القيروان، وبقيت عاصمةً حتى ارتحل الفاطميون إلى القاهرة سنة ٣٦٢ هـ،
+      ثم صارت عاصمةً للزيريين، ومرفأً متوسطياً كبيراً عبر القرون النورمانية
+      والحفصية. ولا تزال أسوارها وجامعها الكبير من أقدم الآثار الفاطمية
+      الباقية.
+    description_fr: |
+      ʿUbayd Allāh, fondateur du califat fāṭimide en Ifrīqiya, posa les
+      fondations d'al-Mahdiyya sur une péninsule côtière au sud de
+      Kairouan, comme nouvelle capitale de son État. Le site fut choisi
+      pour sa défensibilité — la mer sur trois côtés, l'isthme barré par
+      une muraille — à une époque où son autorité était contestée par les
+      populations sunnites mālikī de l'intérieur. al-Mahdiyya fut
+      inaugurée comme siège du califat en 308 AH, remplaçant al-Raqqāda
+      aux abords de Kairouan ; elle resta capitale jusqu'au transfert
+      fāṭimide au Caire en 362 AH, puis devint capitale zīride, puis grand
+      port méditerranéen à travers les siècles normand et ḥafside. Les
+      remparts et la Grande Mosquée d'al-Mahdiyya comptent parmi les plus
+      anciens monuments fāṭimides subsistants.
+    canonical_hijri: {year: 308, precision: year}
+    canonical_gregorian: {date: 921-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil, sub anno 308: ʿUbayd Allāh inaugurates al-Mahdiyya as capital."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr, al-Bidāya: foundation and inauguration of al-Mahdiyya."
+    people: [[ubayd-allah-al-mahdi, leader]]
+    tags: [fatimid, founding, ifriqiya, mahdiya, caliphal-city]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: founding-of-tlemcen-agadir
+    category: founding
+    title_en: Idrīsid Foundation of Agadir-Tlemcen
+    title_ar: تأسيس تلمسان (أكادير) على يد الأدارسة
+    title_fr: Fondation idrīside de Tlemcen (Agadir)
+    description_en: |
+      Idrīs I ibn ʿAbd Allāh, founder of the Idrīsid dynasty in
+      Morocco, established the citadel-town of Agadir on the site of
+      the older Roman Pomaria — the kernel of what would become the
+      Muslim city of Tlemcen — during his consolidation of Idrīsid
+      authority in the central Maghreb. He rebuilt the walls and is
+      reported to have founded the original Friday mosque on the site
+      that the Almoravid Yūsuf ibn Tāshfīn would later expand. Agadir
+      became the seed-city of Tlemcen, which under the Almoravid,
+      Almohad, and Zayyānid dynasties grew into the principal capital
+      of the central Maghreb and a major Sunni Mālikī intellectual
+      centre — home to scholars such as al-Sanūsī (d. 895 AH).
+    description_ar: |
+      أنشأ إدريس الأول بن عبد الله — مؤسس الدولة الإدريسية بالمغرب —
+      مدينة أكادير الحصينة على موقع بُمارية الرومانية القديمة — وهي
+      نواة ما صار يُعرف بمدينة تلمسان الإسلامية — في توطيده لسلطان
+      الأدارسة بالمغرب الأوسط. أعاد بناء أسوارها، ويُذكر أنه أنشأ بها
+      أول جامع للجمعة في الموقع الذي وسّعه يوسف بن تاشفين المرابطي بعدُ.
+      صارت أكادير نواة تلمسان التي نمت في عهد المرابطين والموحدين والزيانيين
+      عاصمةً كبرى للمغرب الأوسط ومركزاً علمياً سنياً مالكياً — منها
+      السنوسي (ت ٨٩٥ هـ).
+    description_fr: |
+      Idrīs Ier ibn ʿAbd Allāh, fondateur de la dynastie idrīside au
+      Maroc, fonda la cité-citadelle d'Agadir sur le site de l'ancienne
+      Pomaria romaine — le noyau de ce qui allait devenir la ville
+      musulmane de Tlemcen — lors de sa consolidation de l'autorité
+      idrīside dans le Maghreb central. Il en releva les murailles et
+      l'on rapporte qu'il y fonda la mosquée du vendredi originelle, sur
+      le site que l'Almoravide Yūsuf ibn Tāshfīn devait par la suite
+      agrandir. Agadir devint la cité-mère de Tlemcen qui, sous les
+      Almoravides, les Almohades et les Zayyānides, allait devenir la
+      principale capitale du Maghreb central et un grand centre
+      intellectuel sunnite mālikī — patrie d'érudits tels qu'al-Sanūsī
+      (m. 895 AH).
+    canonical_hijri: {year: 174, precision: year}
+    canonical_gregorian: {date: 790-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil: Idrīs I's consolidation, foundation of Agadir."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Biography of Idrīs I — foundation and works in central Maghreb."
+    people: [[idris-i, leader]]
+    tags: [idrisid, founding, maghreb, tlemcen, agadir, maliki]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: founding-of-algiers-ziri
+    category: founding
+    title_en: Re-founding of Algiers (al-Jazāʾir) by Buluqqīn ibn Zīrī
+    title_ar: تأسيس الجزائر على يد بُلُقّين بن زيري
+    title_fr: Refondation d'Alger par Buluqqīn ibn Zīrī
+    description_en: |
+      Buluqqīn ibn Zīrī, founder of the Zīrid dynasty in the central
+      Maghreb under Fāṭimid suzerainty, re-established the coastal city
+      of al-Jazāʾir Banī Mazghannā ("the islands of the Banū Mazghannā")
+      as a Muslim port on the site of the older Roman Icosium. The city,
+      from which the modern country derives its name, was settled around
+      a small islet-archipelago opposite the bay (whence "al-Jazāʾir")
+      and grew into a regional commercial hub under the Zīrid, Almoravid,
+      and Almohad dynasties before becoming a major Mediterranean
+      corsair-state base under the early Ottomans. Buluqqīn also founded
+      Miliana and re-founded Médéa in the same campaign of urban
+      consolidation across the central Maghreb.
+    description_ar: |
+      أعاد بُلُقّين بن زيري — مؤسس الدولة الزيرية بالمغرب الأوسط تحت
+      الولاية الفاطمية — إنشاء مدينة الجزائر بني مزغنة مدينةً ساحلية
+      إسلامية على موضع إيكوزيوم الرومانية القديمة. ومنها أخذت الدولة
+      الحديثة اسمها، وقد نشأت حول جُزَيرات قبالة الخليج (ومن ثم اسم
+      "الجزائر")، ونمت مرفأً تجارياً إقليمياً في عهود الزيريين والمرابطين
+      والموحدين قبل أن تصير قاعدةً متوسطية كبرى لدولة الجهاد البحري في
+      أوائل العصر العثماني. وأسس بُلُقّين كذلك مدينة مليانة وأعاد إنشاء
+      المدية في حملة العمران نفسها بالمغرب الأوسط.
+    description_fr: |
+      Buluqqīn ibn Zīrī, fondateur de la dynastie zīride dans le Maghreb
+      central sous suzeraineté fāṭimide, restaura la cité côtière
+      d'al-Jazāʾir Banī Mazghannā (« les îles des Banū Mazghannā ») comme
+      port musulman sur le site de l'ancienne Icosium romaine. La ville,
+      dont le pays moderne tire son nom, fut établie autour d'un petit
+      archipel d'îlots faisant face à la baie (d'où « al-Jazāʾir ») et
+      devint un pôle commercial régional sous les Zīrides, les Almoravides
+      et les Almohades, avant de devenir une grande base d'État corsaire
+      méditerranéen sous les Ottomans. Buluqqīn fonda également Miliana
+      et refonda Médéa lors de la même campagne de consolidation urbaine
+      à travers le Maghreb central.
+    canonical_hijri: {year: 362, precision: year}
+    canonical_gregorian: {date: 972-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil: Buluqqīn's foundation of al-Jazāʾir, Miliana, Médéa."
+      - source_key: ibn_kathir_bidaya
+    people: [[buluqqin-ibn-ziri, leader]]
+    tags: [zirid, founding, maghreb, algiers, jazair, fatimid]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: founding-of-rabat-almohad
+    category: founding
+    title_en: Almohad Foundation of Ribāṭ al-Fatḥ (Rabat)
+    title_ar: تأسيس رباط الفتح على يد الموحدين
+    title_fr: Fondation almohade de Ribāṭ al-Fatḥ (Rabat)
+    description_en: |
+      The Almohad caliph Yaʿqūb al-Manṣūr, in the wake of his great
+      victory over Castile at the Battle of Alarcos (al-Arak, 591 AH),
+      ordered the foundation of a fortified launching-base on the
+      Atlantic mouth of the Wādī Bū Raqrāq, expanding the small ribāṭ
+      his grandfather ʿAbd al-Muʾmin had built earlier. He named the new
+      city Ribāṭ al-Fatḥ ("the camp of victory") and projected an
+      enormous congregational mosque whose unfinished minaret — Ṣawmaʿat
+      Ḥassān — survives as one of the most celebrated monuments of
+      western Islamic architecture. Though the project was abandoned
+      after Yaʿqūb's death and the city did not flourish until the
+      Marinid period, Rabat remains the modern capital of Morocco.
+    description_ar: |
+      أمر الخليفة الموحدي يعقوب المنصور — في أعقاب نصره الكبير على
+      قشتالة في معركة الأرك (٥٩١ هـ) — بإنشاء قاعدة محصّنة على مصبّ
+      وادي أبي رقراق على المحيط الأطلسي، وسّع بها الرباط الصغير الذي
+      كان جده عبد المؤمن قد بناه قبله، وسماها رباط الفتح. وخطط لها
+      جامعاً ضخماً ما تزال صومعته غير المكتملة — صومعة حسّان — من
+      أشهر معالم العمارة الإسلامية الغربية. وقد أُقفر المشروع بعد وفاة
+      يعقوب، ولم تزدهر المدينة إلا في العهد المريني، لكنها صارت اليوم
+      عاصمة المملكة المغربية.
+    description_fr: |
+      Le calife almohade Yaʿqūb al-Manṣūr, dans le sillage de sa grande
+      victoire sur la Castille à la bataille d'Alarcos (al-Arak, 591 AH),
+      ordonna la fondation d'une base fortifiée à l'embouchure
+      atlantique du Wādī Bū Raqrāq, agrandissant le petit ribāṭ que son
+      grand-père ʿAbd al-Muʾmin y avait précédemment construit. Il
+      nomma la nouvelle ville Ribāṭ al-Fatḥ (« le camp de la victoire »)
+      et projeta une immense mosquée congrégationnelle dont le minaret
+      inachevé — Ṣawmaʿat Ḥassān — subsiste comme l'un des monuments
+      les plus célèbres de l'architecture islamique occidentale. Bien
+      que le projet ait été abandonné après la mort de Yaʿqūb et que la
+      ville n'ait connu d'essor qu'à l'époque mérīnide, Rabat est
+      aujourd'hui la capitale moderne du Maroc.
+    canonical_hijri: {year: 591, precision: year}
+    canonical_gregorian: {date: 1195-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil: Yaʿqūb's victory at Alarcos and foundation of Ribāṭ al-Fatḥ."
+      - source_key: ibn_kathir_bidaya
+    people: [[yaqub-al-mansur-almohad, leader]]
+    tags: [almohad, founding, maghreb, rabat, ribat-al-fath, hassan-tower]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # CENTRAL ISLAMIC LANDS / EAST
+  # =========================================================================
+
+  - slug: founding-of-shiraz
+    category: founding
+    title_en: Founding of Shīrāz by Muḥammad ibn al-Qāsim
+    title_ar: تأسيس شيراز على يد محمد بن القاسم
+    title_fr: Fondation de Shīrāz par Muḥammad ibn al-Qāsim
+    description_en: |
+      Muḥammad ibn al-Qāsim al-Thaqafī (cousin of al-Ḥajjāj) and his
+      Umayyad lieutenants founded the city of Shīrāz in the Persian
+      province of Fārs as a garrison administrative centre after the
+      Muslim conquest of the Sasanian heartland under Caliph ʿAbd
+      al-Malik. The settlement, on a fertile inland plain, replaced the
+      older Sasanian centre of Iṣṭakhr as the regional capital. Under
+      the later Buyids and Saljuqs, Shīrāz grew into one of the great
+      cultural cities of medieval Iran — the home of the Sunni Shāfiʿī
+      polymath Ibn Khafīf, the Shāfiʿī faqīh al-Shīrāzī (the great Sunni
+      jurist of the Niẓāmiyya, d. 476 AH), and later of Saʿdī and Ḥāfiẓ.
+    description_ar: |
+      أنشأ محمد بن القاسم الثقفي (ابن عم الحجاج) وولاة الأمويين معه
+      مدينة شيراز في إقليم فارس قاعدةً إدارية وعسكرية بعد فتح الإسلام
+      لقلب الإمبراطورية الساسانية في عهد الخليفة عبد الملك. فحلّت المدينة،
+      وهي على سهل داخلي خصيب، محل اصطخر الساسانية القديمة عاصمةً للإقليم.
+      ثم نمت شيراز في عهد البويهيين والسلاجقة لتصبح من كبريات حواضر إيران
+      الإسلامية الكلاسيكية — منها العالم السني الشافعي ابن خفيف، ومنها
+      الشيرازي الشافعي فقيه النظامية الكبير (ت ٤٧٦ هـ)، وفيها بعدُ
+      السعدي والحافظ.
+    description_fr: |
+      Muḥammad ibn al-Qāsim al-Thaqafī (cousin d'al-Ḥajjāj) et ses
+      lieutenants omeyyades fondèrent la cité de Shīrāz dans la province
+      persane du Fārs comme centre administratif et militaire après la
+      conquête musulmane du cœur sassanide sous le calife ʿAbd al-Malik.
+      L'établissement, sur une plaine intérieure fertile, remplaça
+      l'ancien centre sassanide d'Iṣṭakhr comme capitale régionale. Sous
+      les Bouyides et les Seldjoukides ultérieurs, Shīrāz devint l'une
+      des grandes villes culturelles de l'Iran médiéval — patrie du
+      polymathe sunnite shāfiʿī Ibn Khafīf, du fuqāhā shāfiʿī al-Shīrāzī
+      (le grand juriste sunnite de la Niẓāmiyya, m. 476 AH), et plus tard
+      de Saʿdī et de Ḥāfiẓ.
+    canonical_hijri: {year: 74, precision: year}
+    canonical_gregorian: {date: 693-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī, Tārīkh: Umayyad foundation of Shīrāz under Muḥammad ibn al-Qāsim, sub annis 74-75."
+      - source_key: ibn_athir_kamil
+    tags: [umayyad, founding, persia, shiraz, fars, garrison]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: founding-of-anjar-walid
+    category: founding
+    title_en: Founding of ʿAnjar by al-Walīd I
+    title_ar: تأسيس عنجر على يد الوليد بن عبد الملك
+    title_fr: Fondation de ʿAnjar par al-Walīd Ier
+    description_en: |
+      Caliph al-Walīd I ibn ʿAbd al-Malik, alongside his great
+      construction projects in Damascus (the Umayyad Mosque) and Madīna
+      (rebuilding of the Prophet's Mosque), founded the residential-
+      commercial city of ʿAnjar in the Beqāʿ valley of present-day
+      Lebanon, on the road between Damascus and the Mediterranean coast.
+      Built to a strict Roman-grid plan inherited from late-antique urban
+      practice, ʿAnjar was the first wholly new Umayyad city in
+      al-Shām — a planned summer capital with a palace complex, a
+      tetrapylon, public baths, and rows of shops bordering a
+      cardo-decumanus axis. It was abandoned within a generation after
+      the fall of the Umayyads, and its remarkably intact ruins are now
+      among the best-preserved early-Islamic urban sites.
+    description_ar: |
+      أنشأ الخليفة الوليد بن عبد الملك — إلى جانب مشاريعه العمرانية
+      الكبرى في دمشق (الجامع الأموي) والمدينة (تجديد المسجد النبوي) —
+      مدينة عنجر السكنية التجارية في سهل البقاع بلبنان الحالي على طريق
+      دمشق إلى ساحل المتوسط. خُطّت المدينة بنظام شطرنجي روماني صارم
+      موروث من حواضر الأواخر الرومانية، فكانت أول مدينة أموية كاملة في
+      الشام تُبنى من جديد — عاصمة صيف مخططة، فيها قصر، ورباعي أبواب،
+      وحمامات عامة، وصفوف من الحوانيت على محور كاردو-ديكومانوس. وأُقفرت
+      عنجر بعد جيل من سقوط الأمويين، وأنقاضها السليمة على نحو لافت من
+      أكثر المواقع الإسلامية المبكرة احتفاظاً بمعالمها.
+    description_fr: |
+      Le calife al-Walīd Ier ibn ʿAbd al-Malik, parallèlement à ses
+      grands chantiers de Damas (la Mosquée des Omeyyades) et de Médine
+      (reconstruction de la Mosquée du Prophète), fonda la cité
+      résidentielle et commerciale de ʿAnjar dans la vallée de la Beqāʿ
+      du Liban actuel, sur la route reliant Damas au littoral
+      méditerranéen. Bâtie selon un plan en damier romain strict hérité
+      de la pratique urbaine tardo-antique, ʿAnjar fut la première ville
+      omeyyade entièrement nouvelle d'al-Shām — capitale d'été planifiée,
+      dotée d'un palais, d'un tétrapyle, de bains publics et de rangées
+      de boutiques bordant un axe cardo-decumanus. Elle fut abandonnée
+      en l'espace d'une génération après la chute des Omeyyades, et ses
+      ruines remarquablement intactes comptent aujourd'hui parmi les
+      sites urbains des débuts de l'islam les mieux conservés.
+    canonical_hijri: {year: 96, precision: year}
+    canonical_gregorian: {date: 715-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr, al-Kāmil: foundation works of al-Walīd's reign in al-Shām."
+      - source_key: tabari_tarikh
+        notes: "al-Ṭabarī, Tārīkh: events of al-Walīd I's reign — building programmes."
+    people: [[al-walid-i, leader]]
+    tags: [umayyad, founding, syria-lebanon, anjar, beqaa, walid-i]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: founding-of-mansura-sind
+    category: founding
+    title_en: Founding of al-Manṣūra in Sind
+    title_ar: تأسيس المنصورة في السند
+    title_fr: Fondation d'al-Manṣūra au Sind
+    description_en: |
+      ʿAmr ibn Muḥammad ibn al-Qāsim al-Thaqafī (a descendant of the
+      conqueror of Sind) founded the garrison-capital of al-Manṣūra
+      in lower Sind — present-day Pakistan — under the Abbasid Caliph
+      al-Manṣūr, after whom the city was named. The city replaced
+      al-Sharr (Brahmanabad) as the seat of Muslim governance in Sind
+      and was built on the eastern bank of the Indus River. al-Manṣūra
+      remained the capital of Sind through the Habbarid period and was
+      one of the four chief cities described by the Arab geographers
+      al-Iṣṭakhrī and Ibn Ḥawqal in the 4th/10th century, alongside
+      Multān, Daybul, and Qusdar. It was destroyed during the Ghaznavid
+      conquests and never rebuilt.
+    description_ar: |
+      أسس عمرو بن محمد بن القاسم الثقفي — من ذرية فاتح السند — مدينة
+      المنصورة في السند الأسفل (باكستان الحالية) عاصمةً وقاعدةً عسكرية،
+      وذلك في عهد الخليفة العباسي المنصور الذي سُمّيت باسمه. حلت المنصورة
+      محل المدينة القديمة (الشرّ، براهم آباد) مقراً للحكم الإسلامي في
+      السند، وبُنيت على الضفة الشرقية من نهر السند. وبقيت المنصورة
+      عاصمة السند طوال عهد الهبّاريين، وكانت من المدن الأربع الكبرى
+      التي وصفها الجغرافيون العرب الإصطخري وابن حوقل في القرن الرابع
+      الهجري، إلى جانب الملتان والديبل والقصدار. ثم خُرّبت في الفتوحات
+      الغزنوية ولم يُعد بناؤها.
+    description_fr: |
+      ʿAmr ibn Muḥammad ibn al-Qāsim al-Thaqafī (descendant du conquérant
+      du Sind) fonda la cité-garnison d'al-Manṣūra dans le Sind
+      inférieur — actuel Pakistan — sous le calife abbāsside al-Manṣūr,
+      dont la ville prit le nom. La cité remplaça al-Sharr (Brahmanabad)
+      comme siège du pouvoir musulman au Sind et fut bâtie sur la rive
+      orientale de l'Indus. al-Manṣūra demeura capitale du Sind durant
+      la période ḥabbāride, et figurait parmi les quatre principales
+      cités décrites par les géographes arabes al-Iṣṭakhrī et Ibn Ḥawqal
+      au IVe/Xe siècle, aux côtés de Multān, Daybul et Qusdar. Elle fut
+      détruite lors des conquêtes ghaznāvides et ne fut jamais reconstruite.
+    canonical_hijri: {year: 144, precision: year}
+    canonical_gregorian: {date: 762-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+        notes: "al-Ṭabarī, Tārīkh: foundation under al-Manṣūr; named for the caliph."
+      - source_key: ibn_athir_kamil
+    people: [[al-mansur-abbasid, leader]]
+    tags: [abbasid, founding, sind, mansura, indus, india]
+    importance: notable
+    verified: true
+    verification_status: cross_verified

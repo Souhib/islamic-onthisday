@@ -1,0 +1,764 @@
+# Wave 25 of curated event additions (2026-04-27).
+# Mongol-era (post-Baghdad-sack) and Timurid Sunni scholars: a generation
+# of polymaths, mufassirūn, muḥaddithūn and uṣūliyyūn whose work bridges
+# the Khwārazm/Marāgha period (Sharaf al-Dīn al-Ṭūsī, al-ʿUrḍī, Quṭb
+# al-Dīn al-Shīrāzī) and the late-Mamlūk / early-Timurid synthesis
+# (al-Mizzī, al-Bayḍāwī, al-Ṭūfī, al-Maḥallī, al-ʿAynī, al-Bulqīnī,
+# al-Kirmānī). Two earlier figures are included as anchors of the
+# tradition the Mongol-era scholars inherited: Najm al-Dīn ʿUmar
+# al-Nasafī (the Maturidi creed) and ʿAbd al-Ghanī al-Maqdisī (the
+# Damascene Hanbali muḥaddith whose *al-Kamāl* was the precursor to
+# al-Mizzī's *Tahdhīb al-Kamāl*). All twelve carry classical Sunni
+# attestation in the wafayāt / siyar literature; the dataset's
+# strict-ṣaḥīḥ policy is honoured by omitting hadith refs entirely.
+# Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # MARĀGHA / KHWĀRAZM SCIENCES
+  # =========================================================================
+
+  - slug: death-of-sharaf-al-din-al-tusi
+    category: scholar_death
+    title_en: Death of Sharaf al-Dīn al-Ṭūsī — Algebraist of Khurāsān
+    title_ar: وفاة شرف الدين الطوسي — جبري خراسان
+    title_fr: Mort de Sharaf al-Dīn al-Ṭūsī — algébriste du Khurāsān
+    description_en: |
+      Sharaf al-Dīn al-Muẓaffar ibn Muḥammad al-Ṭūsī — Persian
+      mathematician of the late twelfth century, working in
+      Khurāsān, Mosul, Aleppo and Damascus — died around 610 AH
+      (~1213 CE). Before the Mongol catastrophe scattered the
+      eastern schools, he produced a systematic treatise on cubic
+      equations that classified the thirteen positive-root cases
+      and developed numerical methods for finding their roots,
+      decisively advancing the algebraic tradition of al-Khwārazmī
+      and ʿUmar al-Khayyām. He also designed an improved
+      astrolabe (the *al-asṭurlāb al-khaṭṭī*). His student
+      Kamāl al-Dīn ibn Yūnus would teach Naṣīr al-Dīn al-Ṭūsī, so
+      the chain from Sharaf al-Dīn to the Marāgha observatory of
+      a generation later is direct.
+    description_ar: |
+      توفي شرف الدين المظفر بن محمد الطوسي — رياضي فارسي من
+      أهل خراسان، اشتغل في خراسان والموصل وحلب ودمشق — نحو
+      سنة ٦١٠ هـ (~١٢١٣ م)، قبيل الكارثة المغولية التي شتّتت
+      المدارس الشرقية. أبدع رسالة منهجية في المعادلات
+      التكعيبية صنّف فيها الحالات الثلاث عشرة ذات الجذر
+      الموجب وطوّر طرائق عدديّة لاستخراج جذورها، فدفع
+      التراث الجبري للخوارزمي وعمر الخيّام دفعة كبرى. واخترع
+      أيضاً إسطرلاباً مطوّراً سمّاه «الإسطرلاب الخطّي». ومن
+      تلاميذه كمال الدين بن يونس، الذي تتلمذ عليه نصير الدين
+      الطوسي صاحب مرصد مراغة من بعد، فالسلسلة من شرف الدين
+      إلى مرصد مراغة سلسلة متّصلة.
+    description_fr: |
+      Sharaf al-Dīn al-Muẓaffar ibn Muḥammad al-Ṭūsī —
+      mathématicien persan de la fin du XIIe siècle, actif au
+      Khurāsān, à Mossoul, Alep et Damas — mourut vers 610 H
+      (~1213 EC). Avant que le cataclysme mongol ne disperse les
+      écoles orientales, il produisit un traité systématique sur
+      les équations cubiques classant les treize cas à racine
+      positive et développa des méthodes numériques pour en
+      extraire les racines, faisant ainsi décisivement progresser
+      la tradition algébrique d'al-Khwārazmī et d'ʿUmar
+      al-Khayyām. Il conçut également un astrolabe perfectionné
+      (*al-asṭurlāb al-khaṭṭī*). Son disciple Kamāl al-Dīn ibn
+      Yūnus formerait Naṣīr al-Dīn al-Ṭūsī : la chaîne menant de
+      Sharaf al-Dīn à l'observatoire de Marāgha de la génération
+      suivante est directe.
+    canonical_hijri: {year: 610, precision: year}
+    canonical_gregorian: {date: 1213-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "Approximate dates (c. 1135 – c. 1213); classical biographical sources give year-only attestation."
+      - source_key: ei2
+    people: [[sharaf-al-din-al-tusi, died]]
+    tags: [pre-mongol, khurasan, scholar, mathematics, astronomy]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sharaf_al-Din_al-Tusi"
+
+  - slug: death-of-al-urdi
+    category: scholar_death
+    title_en: Death of Muʾayyad al-Dīn al-ʿUrḍī — Engineer of the Marāgha Observatory
+    title_ar: وفاة مؤيد الدين العُرضي — مهندس مرصد مراغة
+    title_fr: Mort de Muʾayyad al-Dīn al-ʿUrḍī — ingénieur de l'observatoire de Marāgha
+    description_en: |
+      Muʾayyad al-Dīn al-ʿUrḍī al-ʿĀmirī al-Dimashqī — Syrian
+      Arab astronomer and geometer originally from the village of
+      ʿUrḍ, who spent his early career as an engineer in
+      Damascus before being summoned in 657 AH (1259 CE) to
+      Marāgha by Hulagu Khan to build the observatory under
+      Naṣīr al-Dīn al-Ṭūsī's direction — died at Marāgha in 664
+      AH (1266 CE). His *Risāla fī Kayfiyyat al-Arṣād* describes
+      the instruments he constructed (a mural quadrant, an
+      armillary sphere, parallactic rulers, a sextant), and his
+      *Kitāb al-Hayʾa* introduced the *ʿUrḍī lemma* — the
+      geometric construction that, together with al-Ṭūsī's
+      couple, formed the technical core of the Marāgha
+      programme of non-Ptolemaic planetary models. Both devices
+      reappear in the Greek manuscripts attributed to later
+      Byzantine astronomers, and through them in the work of
+      Copernicus.
+    description_ar: |
+      توفي مؤيد الدين العُرضي العامري الدمشقي — فلكي ومهندس
+      عربي شامي أصله من قرية عُرض، اشتغل أوّل أمره مهندساً في
+      دمشق، ثم استدعي سنة ٦٥٧ هـ (١٢٥٩ م) إلى مراغة بأمر
+      هولاكو لإنشاء المرصد تحت إشراف نصير الدين الطوسي —
+      بمراغة سنة ٦٦٤ هـ (١٢٦٦ م). وصف في «رسالته في كيفية
+      الأرصاد» الآلات التي صنعها (الربع الجداري والكرة ذات
+      الحلق والمسطرتين والسدس)، وقدّم في «كتاب الهيئة» ما عُرف
+      بـ«مبرهنة العُرضي» — وهي البناء الهندسي الذي شكّل مع
+      «زوج الطوسي» النواة الفنية لمشروع مراغة لتقديم نماذج
+      كوكبية غير بطلميّة. وقد عادت هاتان الأداتان في
+      المخطوطات اليونانية المنسوبة لعلماء فلك بيزنطيين
+      متأخرين، ومنها إلى عمل كوبرنيكوس.
+    description_fr: |
+      Muʾayyad al-Dīn al-ʿUrḍī al-ʿĀmirī al-Dimashqī —
+      astronome et géomètre arabe syrien originaire du village
+      d'ʿUrḍ, qui débuta sa carrière comme ingénieur à Damas
+      avant d'être convoqué en 657 H (1259 EC) à Marāgha par
+      Hulagu Khan pour bâtir l'observatoire sous la direction de
+      Naṣīr al-Dīn al-Ṭūsī — mourut à Marāgha en 664 H (1266
+      EC). Sa *Risāla fī Kayfiyyat al-Arṣād* décrit les
+      instruments qu'il construisit (quadrant mural, sphère
+      armillaire, règles parallactiques, sextant), et son
+      *Kitāb al-Hayʾa* introduisit le *lemme d'al-ʿUrḍī* — la
+      construction géométrique qui, avec le couple d'al-Ṭūsī,
+      forma le noyau technique du programme de Marāgha pour des
+      modèles planétaires non-ptolémaïques. Les deux dispositifs
+      réapparaissent dans les manuscrits grecs attribués à des
+      astronomes byzantins plus tardifs, et par leur entremise
+      dans l'œuvre de Copernic.
+    canonical_hijri: {year: 664, precision: year}
+    canonical_gregorian: {date: 1266-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "Year-only attested; some manuscript notices give 1260, but 664/1266 is the standard date."
+      - source_key: editorial
+    people: [[al-urdi, died]]
+    tags: [mongol-era, ilkhanid, scholar, astronomy, maragha, damascus]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mu%27ayyad_al-Din_al-%27Urdi"
+
+  - slug: death-of-qutb-al-din-al-shirazi
+    category: scholar_death
+    title_en: Death of Quṭb al-Dīn al-Shīrāzī — Persian Polymath of Tabrīz
+    title_ar: وفاة قطب الدين الشيرازي — موسوعي تبريز الفارسي
+    title_fr: Mort de Quṭb al-Dīn al-Shīrāzī — polymathe persan de Tabrīz
+    description_en: |
+      Maḥmūd ibn Masʿūd al-Shīrāzī, Quṭb al-Dīn — Persian
+      polymath, student of Naṣīr al-Dīn al-Ṭūsī at the Marāgha
+      observatory and one of the most prolific scholars of his
+      generation — died at Tabrīz on 24 Ramaḍān 710 AH (15
+      February 1311 CE), aged about 75. His *Nihāyat al-Idrāk fī
+      Dirāyat al-Aflāk* and *al-Tuḥfa al-Shāhiyya* developed the
+      non-Ptolemaic planetary models of the Marāgha school, and
+      his *Sharḥ Ḥikmat al-Ishrāq* (commentary on al-Suhrawardī)
+      remains the central exposition of Illuminationist
+      philosophy. He also wrote a major commentary on Ibn Sīnā's
+      *al-Qānūn fī al-Ṭibb* and an extensive Persian
+      encyclopedia, the *Durrat al-Tāj*. Buried in the Charandāb
+      cemetery at Tabrīz.
+    description_ar: |
+      توفي محمود بن مسعود الشيرازي قطب الدين — موسوعي فارسي،
+      وتلميذ نصير الدين الطوسي بمرصد مراغة، ومن أكثر علماء
+      جيله إنتاجاً — بتبريز يوم ٢٤ رمضان سنة ٧١٠ هـ (الموافق
+      ١٥ فبراير ١٣١١ م) عن نحو خمس وسبعين سنة. وفي «نهاية
+      الإدراك في دراية الأفلاك» و«التحفة الشاهية» طوّر نماذج
+      مدرسة مراغة الكوكبية غير البطلمية، وفي «شرح حكمة
+      الإشراق» قدّم الشرح المعتمد لفلسفة السهروردي
+      الإشراقية. وله شرح كبير على «القانون في الطب» لابن سينا
+      وموسوعة فارسية ضخمة هي «درّة التاج». ودُفن بمقبرة
+      جراندآب بتبريز.
+    description_fr: |
+      Maḥmūd ibn Masʿūd al-Shīrāzī, Quṭb al-Dīn — polymathe
+      persan, disciple de Naṣīr al-Dīn al-Ṭūsī à l'observatoire
+      de Marāgha et l'un des savants les plus prolifiques de sa
+      génération — mourut à Tabrīz le 24 Ramaḍān 710 H (15
+      février 1311 EC), à environ 75 ans. Sa *Nihāyat al-Idrāk
+      fī Dirāyat al-Aflāk* et sa *Tuḥfa al-Shāhiyya*
+      développèrent les modèles planétaires non-ptolémaïques de
+      l'école de Marāgha, et son *Sharḥ Ḥikmat al-Ishrāq*
+      (commentaire d'al-Suhrawardī) demeure l'exposé central de
+      la philosophie illuminationniste. Il rédigea également un
+      commentaire majeur du *Qānūn fī al-Ṭibb* d'Ibn Sīnā et une
+      vaste encyclopédie persane, la *Durrat al-Tāj*. Enterré au
+      cimetière de Charandāb à Tabrīz.
+    canonical_hijri: {year: 710, month: 9, day: 24, precision: day}
+    canonical_gregorian: {date: 1311-02-15, precision: day, method: attested}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+    people: [[qutb-al-din-al-shirazi, died]]
+    tags: [ilkhanid, scholar, astronomy, philosophy, persia, tabriz]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Qutb_al-Din_al-Shirazi"
+
+  # =========================================================================
+  # POST-MONGOL TAFSĪR & KALĀM
+  # =========================================================================
+
+  - slug: death-of-umar-al-nasafi
+    category: scholar_death
+    title_en: Death of Najm al-Dīn ʿUmar al-Nasafī — Author of *al-ʿAqāʾid al-Nasafiyya*
+    title_ar: وفاة نجم الدين عمر النسفي — صاحب «العقائد النسفية»
+    title_fr: Mort de Najm al-Dīn ʿUmar al-Nasafī — auteur des *ʿAqāʾid al-Nasafiyya*
+    description_en: |
+      Abū Ḥafṣ Najm al-Dīn ʿUmar ibn Muḥammad al-Nasafī —
+      Hanafī-Māturīdī polymath of Samarqand, author of more than
+      a hundred works in fiqh, kalām, tafsīr, and history —
+      died in 537 AH (1142 CE), aged about 75. His brief
+      *al-ʿAqāʾid al-Nasafiyya*, summarising the Maturidi creed
+      in a single page, became one of the three seminal Sunni
+      doctrinal texts and the standard introductory creed of the
+      Hanafi school from Central Asia to the Ottoman lands.
+      Sa'd al-Dīn al-Taftāzānī's *Sharḥ al-ʿAqāʾid al-Nasafiyya*
+      — the most-taught commentary on it — would carry that
+      creed into every Sunni madrasa for the next four
+      centuries. Al-Nasafī also authored a Qur'ānic tafsīr
+      (*al-Taysīr*) and the historical work *al-Qand fī Dhikr
+      ʿUlamāʾ Samarqand*.
+    description_ar: |
+      توفي أبو حفص نجم الدين عمر بن محمد النسفي — فقيه ومتكلم
+      موسوعي حنفي ماتريدي من أهل سمرقند صاحب أكثر من مئة
+      مصنف في الفقه والكلام والتفسير والتاريخ — سنة ٥٣٧ هـ
+      (١١٤٢ م) عن نحو خمس وسبعين سنة. ومتنه الموجز «العقائد
+      النسفية» الذي لخّص فيه عقيدة الماتريدية في صفحة واحدة
+      صار من أصول الكتب الثلاثة في العقيدة السنية، ومتن
+      المبتدئ المعتمد على المذهب الحنفي من بلاد ما وراء
+      النهر إلى الديار العثمانية. وحمل «شرح العقائد
+      النسفية» لسعد الدين التفتازاني — أكثر شروحه تداولاً —
+      هذا المتن إلى كل مدرسة سنية في القرون الأربعة التي
+      تلت. وللنسفي تفسير قرآني سمّاه «التيسير»، وكتاب
+      التراجم المشهور «القند في ذكر علماء سمرقند».
+    description_fr: |
+      Abū Ḥafṣ Najm al-Dīn ʿUmar ibn Muḥammad al-Nasafī —
+      polymathe ḥanafī-māturīdī de Samarcande, auteur de plus
+      d'une centaine d'ouvrages en fiqh, kalām, tafsīr et
+      histoire — mourut en 537 H (1142 EC), à environ 75 ans.
+      Son bref *ʿAqāʾid al-Nasafiyya*, résumant le credo
+      māturīdī en une seule page, devint l'un des trois textes
+      doctrinaux sunnites majeurs et le credo introductif
+      standard de l'école ḥanafite, de l'Asie centrale aux
+      terres ottomanes. Le *Sharḥ al-ʿAqāʾid al-Nasafiyya* de
+      Saʿd al-Dīn al-Taftāzānī — son commentaire le plus
+      enseigné — porterait ce credo dans toutes les madrasas
+      sunnites pendant les quatre siècles suivants. Al-Nasafī
+      composa également un tafsīr coranique (*al-Taysīr*) et
+      l'ouvrage historique *al-Qand fī Dhikr ʿUlamāʾ Samarqand*.
+    canonical_hijri: {year: 537, precision: year}
+    canonical_gregorian: {date: 1142-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    people: [[umar-al-nasafi, died]]
+    tags: [seljuk, scholar, hanafi, maturidi, kalam, samarqand]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abu_Hafs_Umar_al-Nasafi"
+
+  - slug: death-of-al-baydawi
+    category: scholar_death
+    title_en: Death of al-Bayḍāwī — Author of *Anwār al-Tanzīl*
+    title_ar: وفاة البيضاوي — صاحب «أنوار التنزيل»
+    title_fr: Mort d'al-Bayḍāwī — auteur d'*Anwār al-Tanzīl*
+    description_en: |
+      ʿAbd Allāh ibn ʿUmar al-Bayḍāwī, Nāṣir al-Dīn — Persian
+      Shāfiʿī jurist, Ashʿarī theologian and chief judge of
+      Shīrāz under the Īlkhāns — died at Tabrīz around the end
+      of the seventh Hijrī century. His *Anwār al-Tanzīl wa-
+      Asrār al-Taʾwīl* condensed and reworked al-Zamakhsharī's
+      Muʿtazilite *Kashshāf* into an Ashʿarī-Sunnī tafsīr that
+      became the most-taught Qur'ānic commentary in the post-
+      classical period — its short, philological style
+      generated more super-commentaries than any other tafsīr
+      and remained the standard madrasa text from Egypt to
+      India for six centuries. He also wrote *Ṭawāliʿ al-Anwār*
+      in kalām and *Minhāj al-Wuṣūl* in uṣūl al-fiqh — both
+      attracted the same dense layered super-commentary
+      tradition. Classical sources differ on his death year
+      (685, 691, or 716 AH); the disputed flag is set
+      accordingly.
+    description_ar: |
+      توفي عبد الله بن عمر البيضاوي، ناصر الدين — فقيه شافعي
+      فارسي، ومتكلم أشعري، وقاضي القضاة بشيراز في عهد
+      الإيلخانات — بتبريز في أواخر القرن السابع الهجري.
+      اختصر في «أنوار التنزيل وأسرار التأويل» «الكشاف»
+      المعتزلي للزمخشري وأعاد صياغته على المذهب الأشعري
+      السنّي، فصار أكثر التفاسير الكلاسيكية تداولاً في
+      المرحلة ما بعد الكلاسيكية — إذ ولّد أسلوبه الموجز
+      اللغوي حواشي وشروحاً أكثر مما ولّد أيّ تفسير سواه،
+      وظلّ متناً مدرسياً معتمداً من مصر إلى الهند ستة
+      قرون. وله «طوالع الأنوار» في الكلام و«منهاج الوصول»
+      في أصول الفقه، وكلاهما اجتذب التقليد الكثيف من
+      الحواشي الطباقية. واختلفت المصادر الكلاسيكية في سنة
+      وفاته (٦٨٥ أو ٦٩١ أو ٧١٦ هـ)، ومن ثم رُفع علم
+      الخلاف.
+    description_fr: |
+      ʿAbd Allāh ibn ʿUmar al-Bayḍāwī, Nāṣir al-Dīn — juriste
+      shāfiʿite persan, théologien ashʿarite et grand juge de
+      Shīrāz sous les Īlkhānides — mourut à Tabrīz vers la fin
+      du VIIe siècle hégirien. Son *Anwār al-Tanzīl wa-Asrār
+      al-Taʾwīl* condensa et reformula le *Kashshāf*
+      muʿtazilite d'al-Zamakhsharī en un tafsīr ashʿarite-
+      sunnite qui devint le commentaire coranique le plus
+      enseigné de la période post-classique — son style bref
+      et philologique suscita plus de super-commentaires
+      qu'aucun autre tafsīr et demeura le texte de madrasa
+      standard de l'Égypte à l'Inde pendant six siècles. Il
+      composa également *Ṭawāliʿ al-Anwār* en kalām et
+      *Minhāj al-Wuṣūl* en uṣūl al-fiqh — tous deux attirèrent
+      la même tradition dense de super-commentaires en
+      strates. Les sources classiques divergent sur l'année de
+      sa mort (685, 691 ou 716 H) ; le drapeau de litige est
+      donc levé.
+    canonical_hijri: {year: 691, precision: year}
+    canonical_gregorian: {date: 1292-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_khallikan_wafayat
+        is_canonical: true
+        notes: "691 AH is the most common position in classical biographical literature; 685 and 716 AH are alternative attestations."
+      - source_key: dhahabi_siyar
+        notes: "685 AH is the alternative position cited in some Shāfiʿī tabaqāt notices."
+      - source_key: ei2
+        notes: "Modern scholarship: EI2 / Brill notes the dispute and prefers c. 1286–1316 CE range, with 685/1286 as one position."
+    people: [[al-baydawi, died]]
+    tags: [ilkhanid, scholar, shafii, ashari, mufassir, persia]
+    importance: notable
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: date
+    source_url: "https://en.wikipedia.org/wiki/Al-Baydawi"
+
+  # =========================================================================
+  # MAMLŪK-DAMASCENE & EGYPTIAN HADITH SCHOOL
+  # =========================================================================
+
+  - slug: death-of-abd-al-ghani-al-maqdisi
+    category: scholar_death
+    title_en: Death of ʿAbd al-Ghanī al-Maqdisī — Hanbalī Muḥaddith of Damascus
+    title_ar: وفاة عبد الغني المقدسي — محدّث الحنابلة بدمشق
+    title_fr: Mort de ʿAbd al-Ghanī al-Maqdisī — muḥaddith ḥanbalite de Damas
+    description_en: |
+      ʿAbd al-Ghanī ibn ʿAbd al-Wāḥid al-Jammāʿīlī al-Maqdisī,
+      Taqī al-Dīn — Palestinian-born Hanbalī muḥaddith and
+      cousin of Ibn Qudāma al-Maqdisī, founder (with his
+      kinsmen) of the first madrasa on Mount Qāsiyūn outside
+      Damascus and one of the central figures of the
+      Damascene Hanbalī school in the post-Crusade
+      generation — died in 600 AH (1203 CE), aged about 57.
+      His *al-Kamāl fī Asmāʾ al-Rijāl* gathered the narrators
+      of the Six Books into a single biographical dictionary,
+      the work that would become the foundation of al-Mizzī's
+      *Tahdhīb al-Kamāl* a century later — and through it of
+      Ibn Ḥajar's *Tahdhīb al-Tahdhīb*. He also composed
+      *ʿUmdat al-Aḥkām* — a short selection of agreed-upon
+      hadith that remains a standard introductory ḥadīth text
+      in Sunni madrasas to this day.
+    description_ar: |
+      توفي عبد الغني بن عبد الواحد الجمّاعيلي المقدسي تقي
+      الدين — محدّث حنبلي مولده بفلسطين، وابن عم موفّق
+      الدين ابن قدامة المقدسي، ومؤسس — بصحبة أبناء عمومته —
+      أوّل مدرسة على جبل قاسيون خارج دمشق، ومن كبار رجال
+      المدرسة الحنبلية الدمشقية في الجيل الذي تلا الحروب
+      الصليبية — سنة ٦٠٠ هـ (١٢٠٣ م) عن نحو سبع وخمسين
+      سنة. جمع في «الكمال في أسماء الرجال» رواة الكتب الستة
+      في معجم تراجمي واحد، صار بعد قرن أساس «تهذيب الكمال»
+      للمزّي — ومن خلاله أساس «تهذيب التهذيب» لابن حجر.
+      وله «عمدة الأحكام» — مختصر مختار من الأحاديث المتفق
+      عليها، ولا يزال متناً معتمداً للمبتدئين في الحديث في
+      المدارس السنّية إلى اليوم.
+    description_fr: |
+      ʿAbd al-Ghanī ibn ʿAbd al-Wāḥid al-Jammāʿīlī al-Maqdisī,
+      Taqī al-Dīn — muḥaddith ḥanbalite né en Palestine, cousin
+      d'Ibn Qudāma al-Maqdisī, fondateur (avec les siens) de la
+      première madrasa du mont Qāsiyūn aux portes de Damas, et
+      figure centrale de l'école ḥanbalite damascène de la
+      génération suivant les Croisades — mourut en 600 H (1203
+      EC), à environ 57 ans. Son *al-Kamāl fī Asmāʾ al-Rijāl*
+      réunit les transmetteurs des Six Livres dans un seul
+      dictionnaire biographique, l'ouvrage qui deviendrait un
+      siècle plus tard le fondement du *Tahdhīb al-Kamāl* d'al-
+      Mizzī — et par là du *Tahdhīb al-Tahdhīb* d'Ibn Ḥajar. Il
+      composa également *ʿUmdat al-Aḥkām* — court recueil de
+      ḥadīths consensuels qui demeure jusqu'à aujourd'hui un
+      texte d'initiation standard dans les madrasas sunnites.
+    canonical_hijri: {year: 600, precision: year}
+    canonical_gregorian: {date: 1203-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[abd-al-ghani-al-maqdisi, died]]
+    tags: [ayyubid, scholar, hanbali, muhaddith, damascus, jerusalem]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Ghani_al-Maqdisi"
+
+  - slug: death-of-najm-al-din-al-tufi
+    category: scholar_death
+    title_en: Death of Najm al-Dīn al-Ṭūfī — Hanbalī Theorist of *Maṣlaḥa*
+    title_ar: وفاة نجم الدين الطوفي — منظّر «المصلحة» الحنبلي
+    title_fr: Mort de Najm al-Dīn al-Ṭūfī — théoricien ḥanbalite de la *maṣlaḥa*
+    description_en: |
+      Sulaymān ibn ʿAbd al-Qawī al-Ṭūfī, Najm al-Dīn —
+      Hanbalī uṣūlī, polemicist, and grammarian, born in
+      Ṭūfā near Baghdad and educated in Baghdad, Damascus and
+      Cairo — died at Hebron (al-Khalīl) in 716 AH (1316 CE)
+      after a final pilgrimage to Mecca. He is best known for
+      his commentary on al-Nawawī's *al-Arbaʿīn al-Nawawiyya*
+      — and within it for the long excursus on the thirty-
+      second hadith ("lā ḍarara wa-lā ḍirār"), where he argued
+      that *maṣlaḥa* (the safeguarding of public welfare) is
+      the strongest evidence in muʿāmalāt and may even
+      particularise a contradicting Qur'ānic or hadith text.
+      The thesis was rejected by his contemporaries but
+      revived in the modern reform-jurisprudence of Rashīd
+      Riḍā and the twentieth-century Egyptian school. He also
+      composed *Sharḥ Mukhtaṣar al-Rawḍa* in uṣūl al-fiqh.
+    description_ar: |
+      توفي سليمان بن عبد القوي الطوفي نجم الدين — أصولي
+      حنبلي ومجادل ولغوي، مولده ببلدة طوفا قرب بغداد، وقد
+      أخذ العلم ببغداد ودمشق والقاهرة — بمدينة الخليل سنة
+      ٧١٦ هـ (١٣١٦ م) عقب آخر حجة له. واشتهر بشرحه على
+      «الأربعين النووية» للنووي — ولا سيما بمبحثه المطوّل
+      على الحديث الثاني والثلاثين «لا ضرر ولا ضرار»، حيث
+      قرّر أن «المصلحة» (مراعاة جلب النفع ودرء الفساد) أقوى
+      الأدلة في باب المعاملات، وأنها قد تخصّص حتى نصاً
+      قرآنياً أو حديثياً يعارضها. ورُدّت الفكرة في زمنه
+      ولكن أحياها فقه الإصلاح الحديث على يد محمد رشيد
+      رضا والمدرسة المصرية في القرن العشرين. وله «شرح مختصر
+      الروضة» في أصول الفقه.
+    description_fr: |
+      Sulaymān ibn ʿAbd al-Qawī al-Ṭūfī, Najm al-Dīn —
+      uṣūlī ḥanbalite, polémiste et grammairien, né à Ṭūfā
+      près de Bagdad et formé à Bagdad, Damas et Le Caire —
+      mourut à Hébron (al-Khalīl) en 716 H (1316 EC) au retour
+      de son ultime pèlerinage à La Mecque. Il est surtout
+      connu pour son commentaire des *Arbaʿīn* d'al-Nawawī —
+      et particulièrement pour son long excursus sur le
+      trente-deuxième ḥadīth ("lā ḍarara wa-lā ḍirār"), où il
+      soutint que la *maṣlaḥa* (la préservation du bien
+      commun) est la plus forte des preuves en muʿāmalāt et
+      peut même particulariser un texte coranique ou
+      ḥadīthique qui la contredirait. La thèse fut rejetée
+      par ses contemporains mais ressuscitée par la
+      jurisprudence réformiste moderne de Rashīd Riḍā et
+      l'école égyptienne du XXe siècle. Il composa aussi le
+      *Sharḥ Mukhtaṣar al-Rawḍa* en uṣūl al-fiqh.
+    canonical_hijri: {year: 716, precision: year}
+    canonical_gregorian: {date: 1316-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_tarikh_islam
+        is_canonical: true
+      - source_key: ei2
+    people: [[najm-al-din-al-tufi, died]]
+    tags: [mamluk, scholar, hanbali, usul, hebron]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Najm_al-Din_al-Tufi"
+
+  - slug: death-of-al-mizzi
+    category: scholar_death
+    title_en: Death of al-Mizzī — Damascene Hadith Critic
+    title_ar: وفاة المزّي — ناقد المحدّثين بدمشق
+    title_fr: Mort d'al-Mizzī — critique de ḥadīth de Damas
+    description_en: |
+      Yūsuf ibn ʿAbd al-Raḥmān al-Mizzī, Jamāl al-Dīn —
+      Damascene Shāfiʿī muḥaddith and rijāl-critic, head of
+      the Dār al-Ḥadīth al-Ashrafiyya in Damascus, friend and
+      contemporary of Ibn Taymiyya and teacher of al-Dhahabī
+      and Ibn Kathīr — died in Damascus in 742 AH (1341 CE),
+      aged about 86. His *Tahdhīb al-Kamāl fī Asmāʾ al-Rijāl*
+      reorganised and vastly expanded the *al-Kamāl* of ʿAbd
+      al-Ghanī al-Maqdisī into a thirty-five-volume
+      biographical dictionary of every narrator in the Six
+      Books — the foundational reference work of post-
+      classical Sunni rijāl criticism, on which al-Dhahabī's
+      *Siyar* and *Tadhhīb*, and later Ibn Ḥajar's *Tahdhīb
+      al-Tahdhīb*, all rest. He also produced *Tuḥfat al-
+      Ashrāf bi-Maʿrifat al-Aṭrāf*, indexing the hadith of
+      the Six Books by their Companion-narrators.
+    description_ar: |
+      توفي يوسف بن عبد الرحمن المزّي جمال الدين — محدث
+      شافعي شامي وناقد رجال، شيخ دار الحديث الأشرفية
+      بدمشق، وصاحب ابن تيمية ومعاصره، وشيخ الذهبي وابن
+      كثير — بدمشق سنة ٧٤٢ هـ (١٣٤١ م) عن نحو ست وثمانين
+      سنة. أعاد في «تهذيب الكمال في أسماء الرجال» ترتيب
+      «الكمال» لعبد الغني المقدسي وزاد عليه زيادة كبرى،
+      فأخرج معجماً تراجمياً في خمسة وثلاثين مجلداً يضم
+      كل راو في الكتب الستة — وهو المرجع التأسيسي للنقد
+      الرجالي السني ما بعد الكلاسيكي، الذي قام عليه
+      «سير» الذهبي و«تذهيب التهذيب» له، ثم «تهذيب
+      التهذيب» لابن حجر. وله أيضاً «تحفة الأشراف بمعرفة
+      الأطراف» في فهرسة أحاديث الكتب الستة بأسماء صحابتها.
+    description_fr: |
+      Yūsuf ibn ʿAbd al-Raḥmān al-Mizzī, Jamāl al-Dīn —
+      muḥaddith shāfiʿite damascène et critique de rijāl,
+      directeur de la Dār al-Ḥadīth al-Ashrafiyya de Damas,
+      ami et contemporain d'Ibn Taymiyya, maître d'al-Dhahabī
+      et d'Ibn Kathīr — mourut à Damas en 742 H (1341 EC), à
+      environ 86 ans. Son *Tahdhīb al-Kamāl fī Asmāʾ al-Rijāl*
+      réorganisa et augmenta considérablement le *Kamāl* de
+      ʿAbd al-Ghanī al-Maqdisī en un dictionnaire biographique
+      de trente-cinq volumes recensant tout transmetteur des
+      Six Livres — l'ouvrage de référence fondateur de la
+      critique rijālienne sunnite post-classique, sur lequel
+      reposent les *Siyar* et *Tadhhīb* d'al-Dhahabī, puis le
+      *Tahdhīb al-Tahdhīb* d'Ibn Ḥajar. Il produisit aussi la
+      *Tuḥfat al-Ashrāf bi-Maʿrifat al-Aṭrāf*, indexant les
+      ḥadīths des Six Livres par leurs Compagnons
+      transmetteurs.
+    canonical_hijri: {year: 742, precision: year}
+    canonical_gregorian: {date: 1341-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+        notes: "Al-Dhahabī (the canonical reporter for his own teacher) gives 12 Ṣafar 742 AH; year-precision used here pending day-attestation reconciliation."
+      - source_key: ibn_kathir_bidaya
+    people: [[al-mizzi, died]]
+    tags: [mamluk, scholar, shafii, muhaddith, damascus, rijal]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Mizzi"
+
+  # =========================================================================
+  # POST-MONGOL ŚAḤĪḤ AL-BUKHĀRĪ COMMENTATORS
+  # =========================================================================
+
+  - slug: death-of-al-kirmani
+    category: scholar_death
+    title_en: Death of Shams al-Dīn al-Kirmānī — Commentator of Ṣaḥīḥ al-Bukhārī
+    title_ar: وفاة شمس الدين الكرماني — شارح صحيح البخاري
+    title_fr: Mort de Shams al-Dīn al-Kirmānī — commentateur du Ṣaḥīḥ al-Bukhārī
+    description_en: |
+      Muḥammad ibn Yūsuf al-Kirmānī, Shams al-Dīn — Persian
+      Shāfiʿī scholar of Baghdad, student of ʿAḍud al-Dīn
+      al-Ījī and one of the leading hadith commentators of his
+      generation — died in 786 AH (1384 CE) returning from the
+      pilgrimage. His *al-Kawākib al-Darārī fī Sharḥ Ṣaḥīḥ
+      al-Bukhārī* was, before Ibn Ḥajar's *Fatḥ al-Bārī*, the
+      most-circulated full commentary on al-Bukhārī's
+      collection — and Ibn Ḥajar would draw on it heavily,
+      sometimes critiquing it, in his own canonical work. He
+      was buried in Baghdad near the tomb of the Shāfiʿī
+      jurist Abū Isḥāq al-Shīrāzī, the *imām of the school* in
+      Iraq three centuries earlier.
+    description_ar: |
+      توفي محمد بن يوسف الكرماني شمس الدين — عالم شافعي
+      فارسي ببغداد، وتلميذ عضد الدين الإيجي، ومن أكابر شراح
+      الحديث في جيله — راجعاً من الحج سنة ٧٨٦ هـ (١٣٨٤ م).
+      وكان «الكواكب الدراري في شرح صحيح البخاري» — قبل
+      «فتح الباري» لابن حجر — أوسع شروح صحيح البخاري
+      تداولاً، وقد اعتمد عليه ابن حجر اعتماداً كبيراً
+      وانتقده أحياناً في كتابه المعتمد. ودفن ببغداد قرب
+      قبر الفقيه الشافعي أبي إسحاق الشيرازي إمام المذهب
+      بالعراق قبل ثلاثة قرون.
+    description_fr: |
+      Muḥammad ibn Yūsuf al-Kirmānī, Shams al-Dīn — savant
+      shāfiʿite persan de Bagdad, disciple d'ʿAḍud al-Dīn
+      al-Ījī et l'un des principaux commentateurs de ḥadīth
+      de sa génération — mourut en 786 H (1384 EC) au retour
+      du pèlerinage. Son *al-Kawākib al-Darārī fī Sharḥ
+      Ṣaḥīḥ al-Bukhārī* fut, avant le *Fatḥ al-Bārī* d'Ibn
+      Ḥajar, le commentaire intégral du Ṣaḥīḥ d'al-Bukhārī le
+      plus diffusé — et Ibn Ḥajar s'en inspira largement,
+      tout en le critiquant à l'occasion, dans son ouvrage
+      canonique. Il fut enterré à Bagdad près du tombeau du
+      juriste shāfiʿite Abū Isḥāq al-Shīrāzī, *imam de
+      l'école* en Iraq trois siècles plus tôt.
+    canonical_hijri: {year: 786, precision: year}
+    canonical_gregorian: {date: 1384-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: ei2
+    people: [[al-kirmani, died]]
+    tags: [post-mongol, scholar, shafii, muhaddith, baghdad, bukhari-commentary]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shams_al-Din_al-Kirmani"
+
+  - slug: death-of-al-bulqini
+    category: scholar_death
+    title_en: Death of Sirāj al-Dīn al-Bulqīnī — Shāfiʿī Chief Justice of Cairo
+    title_ar: وفاة سراج الدين البلقيني — قاضي قضاة الشافعية بالقاهرة
+    title_fr: Mort de Sirāj al-Dīn al-Bulqīnī — grand juge shāfiʿite du Caire
+    description_en: |
+      ʿUmar ibn Raslān al-Bulqīnī, Sirāj al-Dīn — Egyptian
+      Shāfiʿī jurist, hadith scholar, and chief justice
+      (*qāḍī al-quḍāt*) of Cairo under the Burjī Mamlūks,
+      contemporary and rival of Ibn Ḥajar al-ʿAsqalānī's
+      teachers — died in Cairo on 11 Dhū al-Qaʿda 805 AH (1
+      June 1403 CE), aged about 80. His writings on Shāfiʿī
+      fiqh and uṣūl, including the *Tadrīb* and a substantial
+      commentary on the *Muhadhdhab* of Abū Isḥāq al-
+      Shīrāzī, anchored Egyptian Shāfiʿīsm of the late
+      fourteenth century. Ibn Ḥajar would acknowledge him as
+      one of the great Shāfiʿī muḥaddithūn of the era and
+      narrate from him in *al-Mu'jam al-Mufahras*.
+    description_ar: |
+      توفي عمر بن رسلان البلقيني سراج الدين — فقيه مصري
+      شافعي ومحدث وقاضي قضاة بالقاهرة في عهد المماليك
+      البرجية، معاصر شيوخ ابن حجر العسقلاني ومنازعهم —
+      بالقاهرة يوم ١١ ذي القعدة سنة ٨٠٥ هـ (الموافق
+      ١ يونيو ١٤٠٣ م) عن نحو ثمانين سنة. ورسّخت كتبه في
+      الفقه والأصول الشافعيين — ومنها «التدريب» وشرحه
+      الكبير على «المهذب» لأبي إسحاق الشيرازي — المذهب
+      الشافعي المصري في أواخر القرن الرابع عشر الميلادي.
+      وأقرّ ابن حجر بأنه من كبار محدّثي الشافعية في
+      عصره، وروى عنه في «المعجم المفهرس».
+    description_fr: |
+      ʿUmar ibn Raslān al-Bulqīnī, Sirāj al-Dīn — juriste
+      shāfiʿite égyptien, savant de ḥadīth et grand juge
+      (*qāḍī al-quḍāt*) du Caire sous les Mamlouks burjites,
+      contemporain et rival des maîtres d'Ibn Ḥajar al-
+      ʿAsqalānī — mourut au Caire le 11 Dhū al-Qaʿda 805 H
+      (1er juin 1403 EC), à environ 80 ans. Ses écrits en
+      fiqh et uṣūl shāfiʿites, notamment le *Tadrīb* et un
+      commentaire substantiel du *Muhadhdhab* d'Abū Isḥāq
+      al-Shīrāzī, ancrèrent le shāfiʿisme égyptien de la fin
+      du XIVe siècle. Ibn Ḥajar le reconnut comme l'un des
+      grands muḥaddithūn shāfiʿites de l'époque et transmit
+      de lui dans *al-Muʿjam al-Mufahras*.
+    canonical_hijri: {year: 805, month: 11, day: 11, precision: day}
+    canonical_gregorian: {date: 1403-06-01, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: ei2
+    people: [[al-bulqini, died]]
+    tags: [mamluk, scholar, shafii, qadi, cairo]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Siraj_al-Din_al-Bulqini"
+
+  - slug: death-of-al-ayni
+    category: scholar_death
+    title_en: Death of Badr al-Dīn al-ʿAynī — Hanafī Historian and Bukhārī Commentator
+    title_ar: وفاة بدر الدين العيني — مؤرّخ الحنفية وشارح البخاري
+    title_fr: Mort de Badr al-Dīn al-ʿAynī — historien ḥanafite et commentateur d'al-Bukhārī
+    description_en: |
+      Maḥmūd ibn Aḥmad al-ʿAynī, Badr al-Dīn — Hanafī
+      polymath of Mamlūk Cairo, historian, and chief Hanafī
+      judge in Egypt, originally from ʿAyntāb in northern
+      Syria — died in Cairo in 855 AH (1451 CE) aged 93.
+      His *ʿUmdat al-Qārī fī Sharḥ Ṣaḥīḥ al-Bukhārī* is the
+      principal Hanafī commentary on the Ṣaḥīḥ — written in
+      explicit dialogue with Ibn Ḥajar's contemporaneous
+      *Fatḥ al-Bārī* — and, alongside it, the work that
+      defined the late-Mamlūk Bukhārī-commentary tradition.
+      He also wrote the universal history *ʿIqd al-Jumān fī
+      Tārīkh Ahl al-Zamān* in over twenty volumes, and a
+      commentary on the Hanafī manual *al-Hidāya* of al-
+      Marghīnānī. Lifelong rival of Ibn Ḥajar; their
+      polemics shaped late-Mamlūk Egyptian scholarship.
+    description_ar: |
+      توفي محمود بن أحمد العيني بدر الدين — فقيه حنفي
+      موسوعي ومؤرّخ من علماء القاهرة المملوكية، وقاضي
+      قضاة الحنفية بمصر، أصله من عينتاب بشمال الشام —
+      بالقاهرة سنة ٨٥٥ هـ (١٤٥١ م) عن ثلاث وتسعين سنة.
+      وكتابه «عمدة القاري في شرح صحيح البخاري» الشرح
+      الحنفي الأول للصحيح — كتبه في حوار صريح مع «فتح
+      الباري» لابن حجر معاصره — وهو إلى جانب «فتح
+      الباري» الكتاب الذي رسم تقليد شرح البخاري في
+      أواخر العصر المملوكي. وله «عقد الجمان في تاريخ
+      أهل الزمان» في أكثر من عشرين مجلداً، وشرح على
+      «الهداية» للمرغيناني في الفقه الحنفي. وكان منازعاً
+      لابن حجر طوال عمره، ومناظراتهما صنعت العلم
+      المصري في أواخر دولة المماليك.
+    description_fr: |
+      Maḥmūd ibn Aḥmad al-ʿAynī, Badr al-Dīn — polymathe
+      ḥanafite du Caire mamlouk, historien et grand juge
+      ḥanafite d'Égypte, originaire d'ʿAyntāb en Syrie du
+      Nord — mourut au Caire en 855 H (1451 EC), à 93
+      ans. Son *ʿUmdat al-Qārī fī Sharḥ Ṣaḥīḥ al-Bukhārī*
+      est le principal commentaire ḥanafite du Ṣaḥīḥ —
+      rédigé en dialogue explicite avec le *Fatḥ al-Bārī*
+      contemporain d'Ibn Ḥajar — et, à côté de celui-ci,
+      l'ouvrage qui définit la tradition de commentaire
+      d'al-Bukhārī à la fin de l'époque mamlouk. Il
+      composa également l'histoire universelle *ʿIqd
+      al-Jumān fī Tārīkh Ahl al-Zamān* en plus de vingt
+      volumes, et un commentaire du manuel ḥanafite
+      *al-Hidāya* d'al-Marghīnānī. Rival d'une vie
+      d'Ibn Ḥajar ; leurs polémiques façonnèrent l'érudition
+      égyptienne de la fin de l'époque mamlouk.
+    canonical_hijri: {year: 855, precision: year}
+    canonical_gregorian: {date: 1451-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: ei2
+    people: [[al-ayni, died]]
+    tags: [mamluk, scholar, hanafi, historian, cairo, bukhari-commentary]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Badr_al-Din_al-Ayni"
+
+  # =========================================================================
+  # CAIRENE TAFSĪR & FIQH
+  # =========================================================================
+
+  - slug: death-of-al-mahalli
+    category: scholar_death
+    title_en: Death of Jalāl al-Dīn al-Maḥallī — Co-Author of *Tafsīr al-Jalālayn*
+    title_ar: وفاة جلال الدين المحلي — أحد مؤلفي تفسير الجلالين
+    title_fr: Mort de Jalāl al-Dīn al-Maḥallī — co-auteur du *Tafsīr al-Jalālayn*
+    description_en: |
+      Muḥammad ibn Aḥmad al-Maḥallī, Jalāl al-Dīn — Egyptian
+      Shāfiʿī jurist of Cairo, teacher of al-Suyūṭī and one
+      of the principal Shāfiʿī scholars of the late Mamlūk
+      period — died in Cairo on 1 Muḥarram 864 AH (28
+      October 1459 CE), aged about 70. He authored the
+      first half of the *Tafsīr al-Jalālayn* (from Sūrat
+      al-Kahf to the end of the Qur'ān, plus al-Fātiḥa) —
+      the briefest and most-circulated full Qur'ānic
+      commentary in the Sunni world, completed posthumously
+      by his pupil al-Suyūṭī. His *Sharḥ al-Maḥallī ʿalā
+      Jamʿ al-Jawāmiʿ* (commentary on the *Jamʿ al-Jawāmiʿ*
+      of al-Subkī) became the standard Shāfiʿī uṣūl al-fiqh
+      textbook for the next four centuries.
+    description_ar: |
+      توفي محمد بن أحمد المحلي جلال الدين — فقيه شافعي
+      مصري بالقاهرة، شيخ السيوطي ومن أكابر علماء
+      الشافعية في أواخر العصر المملوكي — بالقاهرة يوم
+      أول محرم سنة ٨٦٤ هـ (الموافق ٢٨ أكتوبر ١٤٥٩ م)
+      عن نحو سبعين سنة. ألّف النصف الأول من «تفسير
+      الجلالين» (من سورة الكهف إلى آخر القرآن، مع
+      الفاتحة) — أوجز التفاسير القرآنية الكاملة وأوسعها
+      تداولاً في العالم السنّي، أتمّه بعد وفاته تلميذه
+      السيوطي. وصار «شرح المحلي على جمع الجوامع» (شرح
+      «جمع الجوامع» لتاج الدين السبكي) متن أصول الفقه
+      الشافعي المعتمد طوال أربعة قرون.
+    description_fr: |
+      Muḥammad ibn Aḥmad al-Maḥallī, Jalāl al-Dīn —
+      juriste shāfiʿite égyptien du Caire, maître d'al-
+      Suyūṭī et l'un des principaux savants shāfiʿites de
+      la fin de l'époque mamlouk — mourut au Caire le
+      1er Muḥarram 864 H (28 octobre 1459 EC), à environ
+      70 ans. Il rédigea la première moitié du *Tafsīr
+      al-Jalālayn* (de Sūrat al-Kahf à la fin du Coran,
+      plus al-Fātiḥa) — le plus bref et le plus diffusé
+      des commentaires coraniques intégraux du monde
+      sunnite, achevé après sa mort par son disciple al-
+      Suyūṭī. Son *Sharḥ al-Maḥallī ʿalā Jamʿ al-Jawāmiʿ*
+      (commentaire du *Jamʿ al-Jawāmiʿ* d'al-Subkī) devint
+      le manuel standard d'uṣūl al-fiqh shāfiʿite pour les
+      quatre siècles suivants.
+    canonical_hijri: {year: 864, month: 1, day: 1, precision: day}
+    canonical_gregorian: {date: 1459-10-28, precision: day, method: attested}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: ei2
+    people: [[al-mahalli, died]]
+    tags: [mamluk, scholar, shafii, mufassir, cairo, jalalayn]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Jalal_al-Din_al-Mahalli"

@@ -1,0 +1,1105 @@
+# Wave 75 of curated event additions (2026-04-27).
+# 12 events covering the Almohad caliphs after ʿAbd al-Muʾmin, the
+# Ghurid–Delhi-Mamlūk transmission of Islamic rule into the Indian
+# subcontinent, and the catastrophic destruction of the Khwārazm-Shāh
+# state by Genghis Khan's Mongols (the so-called "Mongol Catastrophe").
+#
+# Already in the dataset and NOT duplicated here:
+#  - second-battle-of-tarain (588 AH)        — events/25
+#  - death-of-jalal-al-din-khwarazmshah      — events/47
+#  - mongol-siege-of-bukhara (617 AH)        — events/24
+#  - sack-of-baghdad (656 AH)                — events/00
+#  - battle-of-ain-jalut (658 AH)            — events/00
+#
+# Sources used (all in sources.yaml):
+#   ibn_athir_kamil, ibn_kathir_bidaya, ibn_khallikan_wafayat,
+#   dhahabi_tarikh_islam, dhahabi_siyar, ei2.
+#
+# Editorial framing notes:
+# - The Almohads are recorded as a Berber Sunni-Mahdist movement;
+#   Ibn Tūmart's Mahdist self-claim was rejected by mainstream Sunni
+#   scholarship but is part of the historical record.
+# - The Mongol sacks of Samarqand, Merv and Nishapur are reported
+#   factually with civilian massacre figures as transmitted by Ibn
+#   al-Athīr, al-Dhahabī and Ibn Kathīr — without glorification or
+#   sensationalism. Ibn al-Athīr's al-Kāmil is the principal eyewitness
+#   chronicle of the catastrophe.
+# - Genghis Khan and Hülegü are non-Muslim figures, but their deaths
+#   are landmarks in Islamic-world history; we include them as
+#   historical events without endorsement.
+
+events:
+  # =========================================================================
+  # ALMOHAD CALIPHS — successors of ʿAbd al-Muʾmin
+  # =========================================================================
+
+  - slug: death-of-abu-yaqub-yusuf-almohad
+    category: ruler_death
+    title_en: Death of Abū Yaʿqūb Yūsuf I — Almohad Caliph at the Siege of Santarém
+    title_ar: وفاة أبي يعقوب يوسف الأول — الخليفة الموحدي في حصار شَنْتَرِين
+    title_fr: Mort d'Abū Yaʿqūb Yūsuf Ier — calife almohade au siège de Santarém
+    description_en: |
+      Abū Yaʿqūb Yūsuf I, second Almohad caliph and son of ʿAbd
+      al-Muʾmin, died of wounds received at the siege of Shantarīn
+      (Santarém) in Portugal in Rabīʿ I 580 AH (July 1184 CE). He
+      had crossed into al-Andalus that summer at the head of a
+      large Almohad army to suppress the Portuguese Reconquista
+      pressure on the Tagus valley; his troops surrounded
+      Santarém — held by Afonso I Henriques of Portugal — but
+      were repulsed in a Christian sortie in which the caliph
+      himself was wounded. He died near Évora as the army
+      withdrew. His twenty-one-year reign had stabilised the
+      Almohad caliphate after his father's wars of unification:
+      he completed the conquest of the Maghrib, secured Ifrīqiya
+      against the Banū Ghāniya remnant of the Almoravids, and
+      founded Ribāṭ al-Fatḥ (Rabat) on the Atlantic coast as a
+      base for jihād campaigns into al-Andalus. He was a patron
+      of philosophy who befriended Ibn Ṭufayl and summoned the
+      young Ibn Rushd (Averroes) to write the great Aristotle
+      commentaries. He was succeeded by his son Yaʿqūb al-Manṣūr.
+      Ibn al-Athīr, Ibn Khallikān and al-Dhahabī all enter the
+      death under 580 AH at Santarém.
+    description_ar: |
+      توفي أبو يعقوب يوسف الأول — ثاني خلفاء الموحدين وابن عبد
+      المؤمن — متأثراً بجراحه في حصار شَنْتَرِين (Santarém)
+      بالبرتغال، في ربيع الأول سنة ٥٨٠ هـ (يوليو ١١٨٤ م). وكان
+      قد عبر إلى الأندلس ذلك الصيف على رأس جيش موحدي كبير لردع
+      ضغط الاسترداد البرتغالي على وادي تاجُه؛ فضرب جنودُه
+      الحصار على شَنْتَرِين التي يحتميها أَلْفُونْسُ الأول
+      هنريكيس ملك البرتغال، فردَّتهم خرجة نصرانية أُصيب فيها
+      الخليفةُ بنفسه، وتوفي قرب يابُرَة (Évora) أثناء انسحاب
+      الجيش. أرسى حكمُه — الذي دام إحدى وعشرين سنة — أركانَ
+      الخلافة الموحدية بعد حروب التوحيد التي خاضها أبوه: فأكمل
+      افتتاح المغرب، وأمَّن إفريقية من بقايا بني غانية
+      المرابطيين، وأسس رِباطَ الفتح على ساحل المحيط قاعدةً لجهاد
+      الأندلس. وكان راعياً للفلسفة، صادق ابنَ طُفَيل، واستدعى
+      الفتى ابن رشد ليؤلِّف شروحه الكبرى على أرسطو. وخلفه ابنه
+      يعقوب المنصور. ويثبت ابنُ الأثير وابن خلكان والذهبي
+      الوفاةَ في ٥٨٠ هـ بشَنْتَرِين.
+    description_fr: |
+      Abū Yaʿqūb Yūsuf Ier, deuxième calife almohade et fils
+      de ʿAbd al-Muʾmin, mourut des suites de blessures reçues
+      au siège de Shantarīn (Santarém) au Portugal en Rabīʿ I
+      580 H (juillet 1184 EC). Il avait passé le détroit cet
+      été-là à la tête d'une grande armée almohade pour
+      étouffer la pression reconquérante portugaise dans la
+      vallée du Tage ; ses troupes encerclèrent Santarém —
+      tenue par Alphonse Ier Henriques de Portugal — mais
+      furent repoussées par une sortie chrétienne au cours de
+      laquelle le calife lui-même fut blessé. Il mourut près
+      d'Évora pendant que l'armée se repliait. Son règne de
+      vingt-et-un ans avait stabilisé le califat almohade après
+      les guerres d'unification de son père : il acheva la
+      conquête du Maghrib, sécurisa l'Ifrīqiya face au reliquat
+      almoravide des Banū Ghāniya, et fonda Ribāṭ al-Fatḥ
+      (Rabat) sur la côte atlantique comme base de jihād en
+      al-Andalus. Mécène de la philosophie, il fut l'ami d'Ibn
+      Ṭufayl et fit venir le jeune Ibn Rushd (Averroès) pour
+      composer ses grands commentaires d'Aristote. Son fils
+      Yaʿqūb al-Manṣūr lui succéda. Ibn al-Athīr, Ibn
+      Khallikān et al-Dhahabī enregistrent tous la mort en
+      580 H à Santarém.
+    canonical_hijri: {year: 580, month: 3, precision: month}
+    canonical_gregorian: {date: 1184-07-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Abū Yaʿqūb Yūsuf at the siege of Shantarīn under 580 AH and the succession of his son Yaʿqūb al-Manṣūr."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a biographical entry placing the death in 580 AH at Santarém."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 580 AH for the Almohad caliph's death from wounds at Shantarīn."
+    people: [[abu-yaqub-yusuf-almohad, died]]
+    tags: [almohad, caliph, andalus, maghrib, santarem, siege, ruler_death]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-yaqub-al-mansur-almohad
+    category: ruler_death
+    title_en: Death of Yaʿqūb al-Manṣūr — Almohad Caliph and Victor of al-Arak
+    title_ar: وفاة يعقوب المنصور — الخليفة الموحدي وفاتح الأَرَك
+    title_fr: Mort de Yaʿqūb al-Manṣūr — calife almohade et vainqueur d'Alarcos
+    description_en: |
+      Abū Yūsuf Yaʿqūb al-Manṣūr, third Almohad caliph and son
+      of Abū Yaʿqūb Yūsuf I, died at his capital Marrakesh in
+      Rabīʿ I 595 AH (January 1199 CE) after a fifteen-year
+      reign that took the Almohad caliphate to its territorial
+      and political apogee. He won the great victory of al-Arak
+      (Alarcos) over Alfonso VIII of Castile in 591 AH (1195
+      CE) — the most decisive Muslim battlefield success in
+      al-Andalus since al-Zallāqa, in honour of which he took
+      the laqab "al-Manṣūr bi-Llāh" (Victor by God). He
+      campaigned three times into the Andalusi marches, raising
+      sieges of Toledo and pushing the Castilian frontier back
+      to the Tagus. At home he completed the great works that
+      define Almohad architectural patrimony: the Kutubiyya
+      Mosque of Marrakesh, the Giralda and Great Mosque of
+      Seville, and Ribāṭ al-Fatḥ (Rabat) including the unfinished
+      Ḥassan Tower. He gave Ibn Rushd (Averroes) protection but
+      later, under pressure from the Mālikī fuqahāʾ, exiled him
+      to Lucena and burned his philosophical works — a famous
+      reversal in Andalusi intellectual history. Ibn al-Athīr,
+      Ibn Khallikān and al-Dhahabī all enter the death in 595 AH.
+    description_ar: |
+      توفي أبو يوسف يعقوب المنصور — ثالث خلفاء الموحدين وابن
+      أبي يعقوب يوسف — بعاصمته مَرَّاكُش في ربيع الأول سنة
+      ٥٩٥ هـ (يناير ١١٩٩ م) بعد حكم دام خمس عشرة سنة بلغت فيها
+      الخلافةُ الموحدية أوجَها. أحرز نصرَه الكبير في الأَرَك
+      (Alarcos) على ألفونسو الثامن ملك قشتالة سنة ٥٩١ هـ
+      (١١٩٥ م) — أكبرَ نصر إسلامي في الأندلس منذ الزَّلاقة —
+      فتلقَّب لذلك «المنصور بالله». وسار ثلاث مرات في الأندلس
+      فرفع حصار طُلَيطِلَة وردَّ تخوم قشتالة إلى وادي تاجُه.
+      وأكمل في المغرب الآثار الكبرى التي تَمَيَّزَ بها العمران
+      الموحدي: جامع الكُتُبِيَّة بمراكش، والجِيرالدا وجامع إشبيلية
+      الأكبر، ورِباط الفتح بما فيه صومعة حسَّان غير المكتملة.
+      وآوى ابنَ رُشد ثم نفاه — تحت ضغط فقهاء المالكية — إلى
+      لُوسِيَّنا وأحرق كتبه الفلسفية، وهو من أبرز الانعطافات
+      في تاريخ الأندلس الفكري. ويثبت ابن الأثير وابن خلكان
+      والذهبي الوفاةَ في ٥٩٥ هـ.
+    description_fr: |
+      Abū Yūsuf Yaʿqūb al-Manṣūr, troisième calife almohade et
+      fils d'Abū Yaʿqūb Yūsuf Ier, mourut dans sa capitale
+      Marrakech en Rabīʿ I 595 H (janvier 1199 EC), après un
+      règne de quinze ans qui porta le califat almohade à son
+      apogée territoriale et politique. Il remporta la grande
+      victoire d'al-Arak (Alarcos) sur Alphonse VIII de
+      Castille en 591 H (1195 EC) — la plus décisive victoire
+      musulmane en al-Andalus depuis al-Zallāqa — en l'honneur
+      de laquelle il prit le laqab d'« al-Manṣūr bi-Llāh » (le
+      Victorieux par Dieu). Il fit trois campagnes dans les
+      marches andalouses, leva les sièges de Tolède et repoussa
+      la frontière castillane jusqu'au Tage. Au Maghrib, il
+      acheva les grandes œuvres qui définissent le patrimoine
+      architectural almohade : la mosquée de la Kutubiyya à
+      Marrakech, la Giralda et la grande mosquée de Séville,
+      et Ribāṭ al-Fatḥ (Rabat) avec sa tour Ḥassan inachevée.
+      Il protégea d'abord Ibn Rushd (Averroès) puis, sous la
+      pression des fuqahāʾ mālikites, l'exila à Lucena et fit
+      brûler ses œuvres philosophiques — un revirement célèbre
+      de l'histoire intellectuelle andalouse. Ibn al-Athīr, Ibn
+      Khallikān et al-Dhahabī enregistrent tous la mort en
+      595 H.
+    canonical_hijri: {year: 595, month: 3, precision: month}
+    canonical_gregorian: {date: 1199-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Yaʿqūb al-Manṣūr at Marrakesh under 595 AH and the succession of his son Muḥammad al-Nāṣir."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a biographical entry placing the death in 595 AH at Marrakesh."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 595 AH for the Almohad caliph's death after his Andalusi victories."
+    people: [[yaqub-al-mansur-almohad, died]]
+    tags: [almohad, caliph, maghrib, andalus, marrakesh, alarcos, ruler_death]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-al-nasir-almohad
+    category: ruler_death
+    title_en: Death of Muḥammad al-Nāṣir — Almohad Caliph after Las Navas
+    title_ar: وفاة محمد الناصر — الخليفة الموحدي بعد العقاب
+    title_fr: Mort de Muḥammad al-Nāṣir — calife almohade après Las Navas
+    description_en: |
+      Muḥammad al-Nāṣir li-Dīn Allāh, fourth Almohad caliph and
+      son of Yaʿqūb al-Manṣūr, died at Marrakesh in Shaʿbān 610
+      AH (December 1213 CE), about sixteen months after his
+      catastrophic defeat at Las Navas de Tolosa (Ḥiṣn al-ʿIqāb)
+      in Ṣafar 609 AH. The battle had broken Almohad military
+      power in al-Andalus: the caliph escaped narrowly and
+      retreated to Marrakesh, where he died — the chronicles
+      report — of grief and ill-health, leaving the caliphate
+      to his ten-year-old son Yūsuf II al-Mustanṣir. The
+      classical sources (Ibn al-Athīr, Ibn Khallikān, al-Dhahabī)
+      enter his death under 610 AH; some Andalusi sources
+      transmit darker reports of poisoning by court officials
+      who feared an heir of fighting age, but the mainstream
+      eastern chronicles do not endorse this. With al-Nāṣir's
+      death the unified Almohad polity entered terminal decline:
+      within a generation it would lose Cordoba (633 AH),
+      Valencia, and Seville (646 AH), and the Marīnid revolt in
+      the Maghrib would begin its slow displacement of the
+      dynasty.
+    description_ar: |
+      توفي محمد الناصر لدين الله — رابع خلفاء الموحدين وابن
+      يعقوب المنصور — بمراكش في شعبان سنة ٦١٠ هـ (ديسمبر
+      ١٢١٣ م) بعد نحو ستة عشر شهراً من هزيمته الكارثية في
+      حصن العقاب (Las Navas de Tolosa) في صفر سنة ٦٠٩ هـ.
+      كانت تلك المعركة قد كسرت قوة الموحدين العسكرية في
+      الأندلس: فنجا الخليفة بنفسه بشقّ الأنفس، فعاد إلى
+      مراكش، فمات بها — على ما تذكر المصادر — حزناً وعلَّةً،
+      مخلِّفاً الخلافةَ لابنه يوسف الثاني المستنصر وعمره
+      عشر سنوات. ويثبت ابن الأثير وابن خلكان والذهبي وفاتَه
+      في ٦١٠ هـ. ونقلت بعض المصادر الأندلسية روايات أحلك:
+      أنه قُتل بالسمّ بأمر بطانته الذين خشوا أن يخلفه
+      وارثٌ بالغ، لكن المؤرخين المشارقة لم يقفوا عليها.
+      وبموته دخلت الدولةُ الموحدية الموحَّدة طورَ الانهيار
+      المحتوم: فقدَتْ في جيل واحد قُرطُبة (٦٣٣ هـ) ثم بَلَنْسِيَة
+      ثم إشبيلية (٦٤٦ هـ)، وبدأت ثورة بني مرين في المغرب
+      تزحزح الموحدين عن أرضهم زحزحةً بطيئة.
+    description_fr: |
+      Muḥammad al-Nāṣir li-Dīn Allāh, quatrième calife almohade
+      et fils de Yaʿqūb al-Manṣūr, mourut à Marrakech en
+      Shaʿbān 610 H (décembre 1213 EC), environ seize mois après
+      sa défaite catastrophique à Las Navas de Tolosa (Ḥiṣn
+      al-ʿIqāb) en Ṣafar 609 H. La bataille avait brisé la
+      puissance militaire almohade en al-Andalus : le calife
+      échappa de peu et se replia sur Marrakech, où il mourut
+      — disent les chroniques — de chagrin et de maladie,
+      laissant le califat à son fils Yūsuf II al-Mustanṣir,
+      âgé de dix ans. Les sources classiques (Ibn al-Athīr,
+      Ibn Khallikān, al-Dhahabī) datent sa mort de 610 H ;
+      certaines sources andalouses transmettent des récits plus
+      sombres d'empoisonnement par des dignitaires de cour qui
+      redoutaient un héritier en âge de combattre, mais les
+      grandes chroniques orientales ne s'y rallient pas. Avec
+      la mort d'al-Nāṣir, la polité almohade unifiée entra dans
+      son déclin terminal : en une génération elle perdrait
+      Cordoue (633 H), Valence, puis Séville (646 H), et la
+      révolte marīnide entamerait au Maghrib un lent
+      déplacement de la dynastie.
+    canonical_hijri: {year: 610, month: 8, precision: month}
+    canonical_gregorian: {date: 1213-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Muḥammad al-Nāṣir at Marrakesh under 610 AH, sixteen months after Las Navas."
+      - source_key: ibn_khallikan_wafayat
+        notes: "Ibn Khallikān's Wafayāt al-Aʿyān has a biographical entry placing the death in 610 AH."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām confirms 610 AH for the Almohad caliph's death following the Las Navas catastrophe."
+    people: [[al-nasir-almohad, died]]
+    tags: [almohad, caliph, maghrib, andalus, marrakesh, las-navas, ruler_death]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # GHURIDS AND THE FOUNDING OF THE DELHI SULTANATE
+  # =========================================================================
+
+  - slug: death-of-muizz-al-din-ghuri
+    category: ruler_death
+    title_en: Assassination of Muʿizz al-Dīn Muḥammad of Ghor — Ghurid Conqueror of North India
+    title_ar: مقتل معز الدين محمد الغوري — فاتح شمال الهند
+    title_fr: Assassinat de Muʿizz al-Dīn Muḥammad de Ghor — conquérant ghuride du nord de l'Inde
+    description_en: |
+      Muʿizz al-Dīn Muḥammad ibn Sām of Ghor — known to the
+      Indian sources as Muḥammad Ghorī and to the Persian
+      chronicles as Shihāb al-Dīn — was assassinated on the
+      banks of the Indus near Damīk in the Punjab in Shaʿbān
+      602 AH (15 March 1206 CE) as he returned westward from
+      crushing a Khokar uprising. The classical sources transmit
+      that he was struck down at evening prayer by men who
+      gained access to his tent; the assassins are variously
+      identified as Ismāʿīlī fidāʾīs sent against him for his
+      anti-Ismāʿīlī Sunni revival, or as Khokar tribesmen
+      avenging the recent campaign. He had been the dominant
+      Ghurid sultan after the death of his elder brother Ghiyāth
+      al-Dīn (599 AH); his career broke the Ghaznavid remnant
+      at Lahore (582 AH), defeated the Rajput confederation
+      under Pṛthvīrāj Chauhān at the Second Battle of Tarāʾin
+      (588 AH/1192 CE), captured Delhi (588–589 AH), and brought
+      almost all of north India north of the Vindhyas under
+      Muslim rule for the first time. He left no surviving sons:
+      his Turkish-Mamlūk lieutenants — most notably Quṭb al-Dīn
+      Aybak in Delhi and Tāj al-Dīn Yildiz at Ghazna —
+      partitioned the conquests, founding the Delhi Sultanate.
+      Ibn al-Athīr enters his assassination under 602 AH;
+      Minhāj al-Sirāj's Ṭabaqāt-i Nāṣirī gives the day as 3
+      Shaʿbān.
+    description_ar: |
+      اغتيل معز الدين محمد بن سام الغوري — المعروف في المصادر
+      الهندية بـ«محمد غوري» وفي السير الفارسية بـ«شهاب الدين» —
+      على ضفة نهر السند قرب دَمِيك بالبَنْجاب في شعبان سنة ٦٠٢
+      هـ (١٥ مارس ١٢٠٦ م) وهو راجعٌ غرباً بعد إخماد ثورة قبائل
+      الكُهكر. وتذكر المصادر الكلاسيكية أنه ضُرب وهو يصلِّي
+      المغرب من قِبَل قوم تسلَّلوا إلى خيمته؛ ونُسب الاغتيال إلى
+      فدائيي الإسماعيلية انتقاماً من إحيائه السنّيَّ المضادِّ
+      لهم، أو إلى الكُهكر ثأراً لحملته الأخيرة. وكان السلطان
+      الغوريَّ الأكبر بعد وفاة أخيه غياث الدين سنة ٥٩٩ هـ؛
+      كسر بقايا الغزنويين بِلاهور سنة ٥٨٢ هـ، وهزم تحالفَ
+      الراجبوت بقيادة بريتفيراج چوهان في معركة طَرائن الثانية
+      سنة ٥٨٨ هـ (١١٩٢ م)، وافتتح دلهي سنة ٥٨٨–٥٨٩ هـ، فأخضع
+      شماليَّ الهند كله شمال جبال الفِنْدَيا للحكم الإسلامي
+      لأول مرة. ولم يخلِّف ابناً، فاقتسم قواده المماليك الترك
+      — وعلى رأسهم قطب الدين أيبك بدلهي وتاج الدين يلدُز
+      بغزنة — فتوحاتِه، فقامت من ذلك سلطنةُ دلهي. ويثبت ابن
+      الأثير الاغتيالَ في ٦٠٢ هـ؛ ويعيِّن منهاج السراج
+      الجوزجاني في «طبقات ناصري» اليومَ بثالث شعبان.
+    description_fr: |
+      Muʿizz al-Dīn Muḥammad ibn Sām de Ghor — connu des
+      sources indiennes sous le nom de Muḥammad Ghorī et des
+      chroniques persanes comme Shihāb al-Dīn — fut assassiné
+      sur les rives de l'Indus, près de Damīk au Pendjab, en
+      Shaʿbān 602 H (15 mars 1206 EC), alors qu'il revenait
+      vers l'ouest après avoir écrasé un soulèvement khokar.
+      Les sources classiques rapportent qu'il fut frappé à la
+      prière du soir par des hommes qui s'étaient introduits
+      dans sa tente ; les assassins sont identifiés tantôt
+      comme des fidāʾīs ismaéliens envoyés en représailles de
+      son revival sunnite anti-ismaélien, tantôt comme des
+      Khokars vengeant la campagne récente. Il avait été le
+      sultan ghuride dominant depuis la mort de son frère aîné
+      Ghiyāth al-Dīn en 599 H ; sa carrière brisa les vestiges
+      ghaznévides à Lahore (582 H), défit la confédération
+      rajpūte sous Pṛthvīrāj Chauhān à la seconde bataille de
+      Tarāʾin (588 H/1192 EC), prit Delhi (588–589 H) et fit
+      passer pour la première fois au pouvoir musulman presque
+      tout le nord de l'Inde au-delà des Vindhyas. Il ne laissa
+      pas de fils survivants : ses lieutenants turcs-mamlūks
+      — en particulier Quṭb al-Dīn Aybak à Delhi et Tāj al-Dīn
+      Yildiz à Ghaznā — se partagèrent les conquêtes, fondant
+      le sultanat de Delhi. Ibn al-Athīr enregistre
+      l'assassinat sous 602 H ; le Ṭabaqāt-i Nāṣirī de Minhāj
+      al-Sirāj précise le 3 Shaʿbān.
+    canonical_hijri: {year: 602, month: 8, day: 3, precision: day}
+    canonical_gregorian: {date: 1206-03-15, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the assassination of Muʿizz al-Dīn Muḥammad of Ghor on the Indus under 602 AH and notes the partition of his conquests among his Turkish lieutenants."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 602 AH for the assassination of Muḥammad al-Ghūrī and the founding of the Delhi sultanate by his Mamluks."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the death of the Ghurid sultan in 602 AH at Damīk on the Indus."
+    people: [[muizz-al-din-ghuri, died]]
+    tags: [ghurid, india, delhi, punjab, assassination, ruler_death]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-qutb-al-din-aybak
+    category: ruler_death
+    title_en: Death of Quṭb al-Dīn Aybak — First Sultan of Delhi
+    title_ar: وفاة قطب الدين أيبك — أول سلاطين دلهي
+    title_fr: Mort de Quṭb al-Dīn Aybak — premier sultan de Delhi
+    description_en: |
+      Quṭb al-Dīn Aybak, Turkish Mamluk slave-officer of the
+      Ghurid sultan Muʿizz al-Dīn Muḥammad and founder of the
+      Delhi Sultanate, died at Lahore in 607 AH (1210 CE)
+      after a fall from his horse during a game of chawgān
+      (polo). Originally a Turkish slave from Turkestan
+      purchased in Nishapur, he had risen through Muʿizz
+      al-Dīn's military household to be governor of his Indian
+      conquests; on the assassination of his master in 602
+      AH he was acclaimed sultan in Lahore and Delhi by his
+      fellow Mamluks. He is the patron-builder of the Quṭb
+      Minar at Delhi (begun 589 AH), the first major monument
+      of Islamic architecture on the subcontinent, and of the
+      Quwwat al-Islām Mosque attached to it. His four-year
+      reign as independent sultan was too brief to consolidate
+      a stable polity; on his death the regional Mamluk
+      lieutenants disputed the succession, and only the
+      accession of his son-in-law Iltutmish at Delhi in 607
+      AH preserved the new sultanate. The classical sources
+      (Ibn al-Athīr, Minhāj al-Sirāj) place the death in
+      607 AH at Lahore.
+    description_ar: |
+      توفي قطب الدين أيبك — مملوك السلطان الغوري معز الدين
+      محمد ومؤسس سلطنة دلهي — بِلاهور سنة ٦٠٧ هـ (١٢١٠ م)
+      من سقطة على فرسه في لعبة الجَوْكَان (بولو). كان أصلُه
+      مملوكاً تركياً من تركستان اشتُري بنيسابور، فترقى في
+      بطانة معز الدين العسكرية حتى صار والياً على فتوحه
+      الهندية؛ فلمَّا اغتيل سيده سنة ٦٠٢ هـ بايعه إخوانه
+      المماليك بِلاهور ودلهي سلطاناً. وهو الباني الراعي لِمَنار
+      قُطب بدلهي (بُدئ ٥٨٩ هـ) — أولِ معلَم كبير للعمارة
+      الإسلامية في شبه القارة — ولجامع «قُوَّة الإسلام»
+      الملحق به. ولم يبلغ حكمُه السلطاني المستقلُّ — وقد دام
+      أربع سنوات — أن يثبِّت دولةً مستقرَّة؛ فلمَّا توفي
+      تنازع وكلاء المماليك الإقليميون الخلافةَ، ولم تستقر
+      السلطنةُ الوليدة إلا بمبايعة صهره إيلتُتْمِش بدلهي سنة
+      ٦٠٧ هـ. ويثبت ابنُ الأثير ومنهاج السراج الجوزجاني الوفاةَ
+      في ٦٠٧ هـ بِلاهور.
+    description_fr: |
+      Quṭb al-Dīn Aybak, officier-esclave (Mamlūk) turc du
+      sultan ghuride Muʿizz al-Dīn Muḥammad et fondateur du
+      sultanat de Delhi, mourut à Lahore en 607 H (1210 EC),
+      d'une chute de cheval pendant une partie de chawgān
+      (polo). Esclave turc du Turkestan acheté à Nishapur, il
+      s'était élevé dans la maison militaire de Muʿizz al-Dīn
+      jusqu'à devenir gouverneur de ses conquêtes indiennes ;
+      à l'assassinat de son maître en 602 H, il fut acclamé
+      sultan par ses compagnons mamlūks à Lahore et à Delhi.
+      Il est le mécène-bâtisseur du Quṭb Minār de Delhi
+      (commencé en 589 H), premier grand monument de
+      l'architecture islamique du sous-continent, et de la
+      mosquée Quwwat al-Islām qui lui est attenante. Son règne
+      de sultan indépendant — quatre ans — fut trop bref pour
+      consolider une polité stable ; à sa mort, les lieutenants
+      mamlūks régionaux se disputèrent la succession, et seule
+      l'accession de son gendre Iltutmish à Delhi en 607 H
+      sauva le jeune sultanat. Les sources classiques (Ibn
+      al-Athīr, Minhāj al-Sirāj) datent la mort de 607 H à
+      Lahore.
+    canonical_hijri: {year: 607, precision: year}
+    canonical_gregorian: {date: 1210-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr enters the death of Quṭb al-Dīn Aybak at Lahore from a riding accident under 607 AH and the eventual succession of Iltutmish."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 607 AH for Aybak's death and the consolidation of the Delhi sultanate."
+    people: [[qutb-al-din-aybak, died]]
+    tags: [delhi-sultanate, india, mamluk, lahore, ruler_death]
+    importance: notable
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-iltutmish
+    category: ruler_death
+    title_en: Death of Shams al-Dīn Iltutmish — Consolidator of the Delhi Sultanate
+    title_ar: وفاة شمس الدين إيلتُتْمِش — موطّد سلطنة دلهي
+    title_fr: Mort de Shams al-Dīn Iltutmish — consolidateur du sultanat de Delhi
+    description_en: |
+      Shams al-Dīn Iltutmish, third sultan of Delhi and the
+      effective consolidator of the new Indian Muslim polity,
+      died at his capital in Shaʿbān 633 AH (April 1236 CE)
+      after a twenty-six-year reign that turned the loose
+      Ghurid-Mamluk conquests into a stable, recognised
+      sultanate. Originally a Turkish slave (an Ilbarī Turk)
+      sold in Bukhara and resold in Delhi, he was the son-in-
+      law of Quṭb al-Dīn Aybak, whom he succeeded after the
+      brief reign of Aybak's son Ārām Shāh. Iltutmish suppressed
+      the rival Mamluk amīrs of Sind and Bengal, repulsed
+      Genghis Khan's pursuit of Jalāl al-Dīn Khwārazmshāh which
+      came to the Indus in 618 AH (he prudently refused
+      shelter to the Khwārazmshāh and did not attract Mongol
+      retribution), conquered Multan, Lahore and Bengal, and
+      received an investiture diploma from the Abbasid caliph
+      al-Mustanṣir in 626 AH — the first Indian Muslim ruler
+      to be formally legitimised from Baghdad. He completed
+      the Quṭb Minār begun by Aybak, founded the great Sulṭān
+      Ghārī tomb (the first true Islamic mausoleum in India),
+      and is buried at Delhi in a tomb of red sandstone. He
+      designated his daughter Raḍiyya Sulṭāna heir, the most
+      remarkable bequest in Delhi-Sultanate dynastic history.
+      The classical sources enter his death in 633 AH.
+    description_ar: |
+      توفي شمس الدين إيلتُتْمِش — ثالث سلاطين دلهي والموطِّدُ
+      الفعلي للدولة الإسلامية الهندية الناشئة — في عاصمته في
+      شعبان سنة ٦٣٣ هـ (أبريل ١٢٣٦ م) بعد حكم دام ستاً
+      وعشرين سنة، حوَّلت الفتوحَ الغورية المملوكية المتفرِّقة
+      إلى سلطنة مستقرَّة معترَف بها. كان أصلُه مملوكاً تركياً
+      (من تُرك إلبَري) بيع ببُخارى ثم بدلهي، وصار صهرَ قطب
+      الدين أيبك فخَلَفَه بعد عهد قصير لابنه آرام شاه. قمع
+      الأمراءَ المماليك المنازعين في السند والبَنْغال،
+      وتجنَّب أن تلحقه ضربة المغول حين بلغ جنكيز خانُ نهرَ
+      السند سنة ٦١٨ هـ مطارداً جلال الدين خوارزم شاه (إذ
+      رفض إيواءه برفق فلم يستجلب رد الفعل المغولي)، وافتتح
+      مولتان ولاهور والبنغال، وتلقى تقليداً رسمياً من الخليفة
+      العباسي المستنصر سنة ٦٢٦ هـ — فكان أولَ سلطان مسلم
+      بالهند تتأذَّن له خلافةُ بغداد رسمياً. وأكمل منار قطب
+      الذي بدأه أيبك، وأنشأ ضريحَ سلطان غاري — أول ضريح
+      إسلامي حقيقي بالهند — ودُفن بدلهي في تربة من الحجر
+      الرملي الأحمر. وأوصى بالخلافة لابنته رضية السلطانة،
+      وهي من أبرز وصايا تاريخ سلطنة دلهي السلالي. ويثبت
+      المؤرخون الكلاسيكيون الوفاةَ في ٦٣٣ هـ.
+    description_fr: |
+      Shams al-Dīn Iltutmish, troisième sultan de Delhi et
+      véritable consolidateur de la nouvelle polité musulmane
+      indienne, mourut dans sa capitale en Shaʿbān 633 H
+      (avril 1236 EC), après un règne de vingt-six ans qui
+      transforma les conquêtes ghuride-mamlūkes éparses en un
+      sultanat stable et reconnu. Esclave turc d'origine
+      ilbarī vendu à Boukhara puis à Delhi, il était le gendre
+      de Quṭb al-Dīn Aybak auquel il succéda après le bref
+      règne du fils de celui-ci, Ārām Shāh. Iltutmish réprima
+      les amīrs mamlūks rivaux du Sind et du Bengale, évita
+      les représailles mongoles lorsque Gengis Khan poursuivit
+      Jalāl al-Dīn Khwārazmshāh jusqu'à l'Indus en 618 H (en
+      lui refusant prudemment l'asile), conquit Multan,
+      Lahore et le Bengale, et reçut un diplôme d'investiture
+      du calife abbāside al-Mustanṣir en 626 H — premier
+      souverain musulman indien à être formellement légitimé
+      par Bagdad. Il acheva le Quṭb Minār commencé par Aybak,
+      fonda le grand mausolée Sulṭān Ghārī (premier vrai
+      mausolée islamique de l'Inde), et fut enterré à Delhi
+      dans un tombeau de grès rouge. Il désigna sa fille
+      Raḍiyya Sulṭāna comme héritière, le legs le plus
+      remarquable de l'histoire dynastique du sultanat de
+      Delhi. Les sources classiques datent sa mort de 633 H.
+    canonical_hijri: {year: 633, month: 8, precision: month}
+    canonical_gregorian: {date: 1236-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's continuator and Minhāj al-Sirāj enter the death of Iltutmish at Delhi under 633 AH and the succession crisis around Raḍiyya."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 633 AH for the Delhi sultan's death and his patronage of Quṭb Minār."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the death of Shams al-Dīn Iltutmish in 633 AH and notes his diploma from the Abbasid caliph."
+    people: [[iltutmish, died]]
+    tags: [delhi-sultanate, india, mamluk, ruler_death]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  # =========================================================================
+  # KHWĀRAZM-SHĀHS AND THE MONGOL CATASTROPHE
+  # =========================================================================
+
+  - slug: death-of-ala-al-din-muhammad-khwarazmshah
+    category: ruler_death
+    title_en: Death of ʿAlāʾ al-Dīn Muḥammad II Khwārazmshāh — Fugitive on a Caspian Island
+    title_ar: وفاة علاء الدين محمد الثاني خوارزم شاه — هارباً في جزيرة بحر قزوين
+    title_fr: Mort de ʿAlāʾ al-Dīn Muḥammad II Khwārazmshāh — fugitif sur une île de la Caspienne
+    description_en: |
+      ʿAlāʾ al-Dīn Muḥammad II, Khwārazmshāh — sovereign of an
+      empire stretching from Khwārazm and Transoxiana through
+      Khurasan to western Iran, the largest Sunni state of the
+      eastern Islamic world on the eve of the Mongol invasions —
+      died as a fugitive on the island of Ābaskūn in the
+      south-eastern Caspian Sea in Shawwāl 617 AH (December
+      1220 CE), broken in mind and body, almost a year after
+      Genghis Khan's invasion had begun. After his governor at
+      Otrar massacred a Mongol trade caravan in 615 AH, Genghis
+      Khan crossed the Sayḥūn (Syr Darya) in autumn 616 AH and
+      stormed his cities one after another: Bukhara fell in
+      Muḥarram 617 AH, Samarqand the same spring, Khujand,
+      Banākath, Tirmidh, then Khurasan. Muḥammad II abandoned
+      his army, fled westward across Iran with a small retinue,
+      pursued by the Mongol generals Jebe and Sübötei across
+      Khurasan, the Jibāl and Māzandarān; he reached Ābaskūn
+      ill, and died there of pleurisy. He left his crown to
+      his son Jalāl al-Dīn, who would conduct a decade of
+      mobile resistance until his own death in 628 AH. With
+      Muḥammad's death the unified Khwārazmian state ended;
+      the Mongols would now reach the Caucasus and Bulgar lands.
+      Ibn al-Athīr's al-Kāmil — the principal eyewitness chronicle
+      — enters the death in 617 AH; al-Nasawī's *Sīrat
+      Jalāl al-Dīn* gives the location as Ābaskūn.
+    description_ar: |
+      توفي علاء الدين محمد الثاني خوارزم شاه — صاحب دولة
+      امتدت من خوارزم وما وراء النهر عبر خراسان إلى إيران
+      الغربية، وأكبرِ دولة سنية في المشرق الإسلامي عشية
+      الغزو المغولي — هارباً في جزيرة آبَسْكُون بجنوب شرق
+      بحر قزوين في شوال سنة ٦١٧ هـ (ديسمبر ١٢٢٠ م)، منهارَ
+      الجسم والنفس، بعد نحو سنة من غزو جنكيز خان. بعد أن
+      قتل عاملُه على أُترار قافلةً تجارية مغولية سنة ٦١٥ هـ،
+      عبر جنكيز خان نهرَ سَيْحُون (سَير دريا) في خريف ٦١٦ هـ،
+      فاجتاح مدنه واحدة إثر أخرى: سقطت بخارى في محرم ٦١٧ هـ،
+      ثم سمرقند في الربيع نفسه، ثم خُجَنْدُ وبَنَاكَث وتِرْمِذُ
+      ثم خراسان. تخلَّى محمد الثاني عن جيشه، وفرَّ غرباً
+      عبر إيران بحاشية صغيرة، يلاحقه القائدان المغوليان
+      جَبَه وسُبُتاي عبر خراسان والجبال ومازندران؛ فبلغ
+      آبَسْكُون عليلاً، فمات هناك بذات الجَنب. وأوصى
+      بالملك لابنه جلال الدين الذي خاض عقداً من المقاومة
+      المتنقِّلة حتى مقتله سنة ٦٢٨ هـ. وبموت محمد انتهت
+      الدولةُ الخوارزمية الموحَّدة، ووصل المغول إلى القوقاز
+      وبلاد البلغار. ويُؤرِّخ ابن الأثير في «الكامل» —
+      وهو شاهد العصر الأكبر — الوفاةَ في ٦١٧ هـ، ويعيِّن
+      النَّسَوي في «سيرة جلال الدين» المكانَ بآبَسْكُون.
+    description_fr: |
+      ʿAlāʾ al-Dīn Muḥammad II, Khwārazmshāh — souverain d'un
+      empire allant du Khwārazm et de la Transoxiane à travers
+      le Khurasan jusqu'à l'Iran occidental, le plus grand
+      État sunnite de l'Orient musulman à la veille des
+      invasions mongoles — mourut en fugitif sur l'île
+      d'Ābaskūn au sud-est de la Caspienne en Shawwāl 617 H
+      (décembre 1220 EC), brisé de corps et d'esprit, près
+      d'un an après le déclenchement de l'invasion de Gengis
+      Khan. Après que son gouverneur d'Otrar eut massacré une
+      caravane commerciale mongole en 615 H, Gengis Khan
+      franchit le Sayḥūn (Syr-Daria) à l'automne 616 H et
+      enleva ses villes une à une : Boukhara tomba en Muḥarram
+      617 H, Samarcande au printemps suivant, puis Khujand,
+      Banākath, Tirmidh, puis le Khurasan. Muḥammad II
+      abandonna son armée et fuit vers l'ouest à travers
+      l'Iran avec une petite escorte, poursuivi par les
+      généraux mongols Jebe et Sübötei à travers le Khurasan,
+      le Jibāl et le Māzandarān ; il atteignit Ābaskūn malade
+      et y mourut d'une pleurésie. Il légua sa couronne à
+      son fils Jalāl al-Dīn, qui mènerait une décennie de
+      résistance mobile jusqu'à sa propre mort en 628 H. Avec
+      la mort de Muḥammad, l'État khwārazmien unifié prit fin
+      et les Mongols allaient pousser jusqu'au Caucase et au
+      pays des Bulgares. Ibn al-Athīr, dans al-Kāmil — la
+      principale chronique témoin de l'époque — date la mort
+      de 617 H ; al-Nasawī, dans la *Sīrat Jalāl al-Dīn*,
+      précise le lieu : Ābaskūn.
+    canonical_hijri: {year: 617, month: 10, precision: month}
+    canonical_gregorian: {date: 1220-12-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of Muḥammad II Khwārazmshāh on a Caspian island under 617 AH after his collapse before Genghis Khan."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 617 AH for the Khwārazmshāh's death and the dissolution of the empire."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the flight and death of the Khwārazmshāh in 617 AH on the Caspian."
+    people: [[ala-al-din-muhammad-khwarazmshah, died]]
+    tags: [khwarazm-shah, mongols, caspian, khurasan, transoxiana, ruler_death, catastrophe]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: mongol-sack-of-samarqand
+    category: siege
+    title_en: Mongol Sack of Samarqand
+    title_ar: استباحة المغول سمرقندَ
+    title_fr: Sac mongol de Samarcande
+    description_en: |
+      Genghis Khan's Mongol army stormed Samarqand — the
+      Khwārazmian capital and the great Sogdian city of
+      Transoxiana, second only to Bukhara in scholarly weight
+      and richer commercially — in Muḥarram–Ṣafar 617 AH (March
+      1220 CE), only weeks after the fall of Bukhara. The city's
+      Turkish-Khwārazmian garrison sortied and was destroyed;
+      the inhabitants then negotiated a surrender on terms.
+      The terms were broken: Genghis Khan ordered the population
+      driven out beyond the walls, the city systematically
+      pillaged, and the surrendered garrison massacred to a
+      man. Ibn al-Athīr — whose *al-Kāmil* gives the principal
+      Arabic eyewitness chronicle of the catastrophe — records
+      that around 30,000 craftsmen were deported into Mongol
+      service, that 30,000 of the troops were executed, and
+      that the survivors among the civilian population were
+      forced to ransom themselves and many were killed in the
+      following weeks. The great congregational mosque, the
+      Khānaqāhs and the bazaars were burned. Samarqand — the
+      city that had been the conduit of Greek-Sogdian-Arabic
+      cultural exchange and the cradle of paper-making in the
+      Islamic world — survived as a half-empty shell; it would
+      be rebuilt only under Tīmūr a century and a half later.
+      The classical Muslim historians treat the fall of
+      Samarqand as the symbolic end of independent Sunni
+      sovereignty in Transoxiana.
+    description_ar: |
+      اقتحم جيشُ جنكيز خان المغوليُّ مدينةَ سمرقند — حاضرةَ
+      الدولة الخوارزمية، ومدينةَ الصُّغْد العظمى في ما وراء
+      النهر، تليها بخارى في الثقل العلمي وتفوقها في الثروة
+      التجارية — في محرم–صفر سنة ٦١٧ هـ (مارس ١٢٢٠ م)، بعد
+      أسابيع من سقوط بخارى. خرجت حاميتُها التركية الخوارزمية
+      فأبيدت، فطلب الأهلُ الأمانَ على شروط؛ فنُقضت الشروط:
+      أمر جنكيز خان بإخراج الأهل خارج السور، واستباحَ المدينةَ
+      نهباً منهجياً، وقتلَ الحاميةَ المستسلمةَ عن آخرها. يثبت
+      ابن الأثير — وروايتُه في «الكامل» شاهدةُ العصر العربية
+      الكبرى للنكبة — أن نحو ثلاثين ألفاً من الصُّنَّاع
+      المهرة سيقوا عبيداً للمغول، وأن نحو ثلاثين ألفاً من
+      الجند أُعدموا، وأن من نجا من السكان أرغموا على
+      افتداء أنفسهم، وقُتل كثيرٌ منهم في الأسابيع التالية.
+      وأُحرق الجامع الكبير والخوانق والأسواق. وسمرقند — التي
+      كانت قناةَ التبادل الإغريقي–الصُّغْدي–العربي ومهدَ
+      صناعة الورق في العالم الإسلامي — بقيت قشرةً نصف خاوية،
+      ولم تُعمَر إلا في عهد تيمور بعد قرن ونصف. ويعدُّ
+      المؤرخون المسلمون الكلاسيكيون سقوطَها نهايةً رمزيَّةً
+      للسيادة السنّيّة المستقلة في ما وراء النهر.
+    description_fr: |
+      L'armée mongole de Gengis Khan s'empara de Samarcande —
+      capitale de l'État khwārazmien et grande cité sogdienne
+      de Transoxiane, seconde seulement après Boukhara par le
+      poids savant mais plus riche commercialement — en
+      Muḥarram–Ṣafar 617 H (mars 1220 EC), à quelques semaines
+      seulement de la chute de Boukhara. La garnison turque-
+      khwārazmienne fit une sortie et fut détruite ; les
+      habitants négocièrent alors une reddition assortie de
+      conditions. Les conditions furent rompues : Gengis Khan
+      ordonna que la population fût conduite hors des murs,
+      que la ville fût pillée systématiquement, et que la
+      garnison qui s'était rendue fût massacrée jusqu'au
+      dernier homme. Ibn al-Athīr — dont al-Kāmil donne la
+      principale chronique-témoin arabe de la catastrophe —
+      rapporte qu'environ trente mille artisans furent déportés
+      au service des Mongols, que trente mille soldats furent
+      exécutés, et que les civils survivants furent contraints
+      de racheter leur vie, beaucoup étant tués dans les
+      semaines suivantes. La grande mosquée congrégationnelle,
+      les khanaqāhs et les bazars furent incendiés. Samarcande
+      — qui avait été la voie d'échange gréco-sogdo-arabe et
+      le berceau de la fabrication du papier dans le monde
+      musulman — survécut comme une coquille à demi vide ;
+      elle ne serait reconstruite que sous Tīmūr, un siècle et
+      demi plus tard. Les historiens musulmans classiques
+      traitent sa chute comme la fin symbolique de la
+      souveraineté sunnite indépendante en Transoxiane.
+    canonical_hijri: {year: 617, month: 2, precision: month}
+    canonical_gregorian: {date: 1220-03-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil gives the eyewitness chronicle of the fall of Samarqand in 617 AH and the systematic massacre of the surrendered garrison."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 617 AH for the Mongol storm of Samarqand and the breaking of the surrender terms."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām enters the destruction of Samarqand under 617 AH as part of the Mongol catastrophe."
+    tags: [mongols, samarqand, khwarazm, transoxiana, genghis-khan, siege, catastrophe]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: mongol-sack-of-merv
+    category: siege
+    title_en: Mongol Sack of Merv
+    title_ar: استباحة المغول مَرْوَ
+    title_fr: Sac mongol de Merv
+    description_en: |
+      The Mongol army under Tolui (Tūlī), youngest son of
+      Genghis Khan, took Merv (Marw al-Shāhijān) in Khurasan
+      after a six-day siege in Muḥarram 618 AH (February 1221
+      CE). Merv — capital of greater Khurasan, royal Seljuk
+      seat, and the most populous Islamic city of the eastern
+      Iranian world, with a famous library of some twelve major
+      collections and the tombs of the Seljuk sultans Sanjar
+      and Malikshāh — surrendered on terms after exhausting
+      its defences. The terms were broken. Tolui ordered the
+      city's population assembled outside the walls and
+      systematically slaughtered over several days; classical
+      Arabic and Persian sources give round figures up to
+      700,000 dead, which modern scholars regard as exaggerated
+      but which reflect the chronicled scale of a true mass
+      annihilation. The libraries were burned, the irrigation
+      qanats severed, and the surviving population enslaved
+      or driven into the wastes. Yāqūt al-Ḥamawī, who had
+      worked in Merv's libraries shortly before, wept publicly
+      when news reached him in Mosul; his lament for Merv in
+      *Muʿjam al-Buldān* preserves an incomparable picture of
+      the city before its destruction. Merv — a city for which
+      Khurasan was named — never recovered its medieval
+      stature. It is remembered alongside Samarqand and
+      Nishapur as the inner core of the Mongol catastrophe.
+    description_ar: |
+      افتتح جيشُ المغول بقيادة تُولِي — أصغر أبناء جنكيز
+      خان — مدينةَ مَرْوَ (مَرْو الشاهجان) بخراسان بعد حصار
+      دام ستة أيام، في محرم سنة ٦١٨ هـ (فبراير ١٢٢١ م).
+      كانت مَرْوُ — حاضرةَ خراسان الكبرى، وعاصمةَ السلاجقة
+      الملكية، وأكثرَ مدن المشرق الإيراني سكاناً، وفيها
+      مكتبتُها الشهيرة من اثنتي عشرة دارَ كتب كبرى، وقبور
+      السلاجقة سنجر وملكشاه — قد استسلمت على شروط أمان بعد
+      أن استُنفدت دفاعاتها. ونُقضت الشروط. أمر تُولِي بأن
+      تُجمَع سكانُ المدينة خارج الأسوار، فقُتلوا منهجياً
+      على مدى أيام؛ وتعطي المصادر العربية والفارسية
+      الكلاسيكية أرقاماً مدوَّرة قد تبلغ سبعمئة ألف قتيل،
+      يَعُدُّها العلماء المحدثون مبالغاً فيها لكنها تعكس
+      ضخامة المذبحة المسجَّلة. وأُحرقت دور الكتب، وقُطعت
+      قنوات الريِّ تحت الأرض، واستُعبد من نجا من السكان أو
+      سيق إلى البراري. وكان ياقوت الحموي قد عمل في مكتبات
+      مَرْو قبل ذلك بقليل، فلمَّا بلغه الخبرُ بالموصل بكى
+      علناً؛ وقد حفظت رثائيتُه لمَرْوَ في «معجم البلدان»
+      صورةً لا نظير لها للمدينة قبل النكبة. ولم تستعد
+      مَرْوُ — التي سُمِّيت خراسان باسم بلادها — مكانتَها
+      في القرون الوسطى. وتُذكر إلى جانب سمرقند ونيسابور
+      نواةً للنكبة المغولية.
+    description_fr: |
+      L'armée mongole sous le commandement de Tolui (Tūlī),
+      plus jeune fils de Gengis Khan, prit Merv (Marw
+      al-Shāhijān) au Khurasan après un siège de six jours,
+      en Muḥarram 618 H (février 1221 EC). Merv — capitale du
+      Grand Khurasan, siège royal seljoukide, ville la plus
+      peuplée du monde iranien oriental, dotée d'une fameuse
+      bibliothèque répartie en une douzaine de collections
+      majeures, et abritant les tombeaux des sultans
+      seljoukides Sanjar et Malikshāh — capitula sous
+      conditions après avoir épuisé ses défenses. Les
+      conditions furent rompues. Tolui ordonna que la
+      population fût rassemblée hors des murs et massacrée
+      systématiquement plusieurs jours durant ; les sources
+      arabes et persanes classiques donnent des chiffres
+      arrondis pouvant atteindre 700 000 morts, que les
+      historiens modernes jugent exagérés mais qui reflètent
+      l'ampleur chroniquée d'une véritable annihilation
+      massive. Les bibliothèques furent brûlées, les qanats
+      d'irrigation coupés, les survivants réduits en esclavage
+      ou jetés dans le désert. Yāqūt al-Ḥamawī, qui avait
+      travaillé dans les bibliothèques de Merv peu avant, se
+      mit à pleurer publiquement à Mossoul quand la nouvelle
+      lui parvint ; son éloge funèbre de Merv dans Muʿjam
+      al-Buldān préserve un tableau incomparable de la ville
+      avant sa destruction. Merv — la ville qui donna son nom
+      au Khurasan — ne retrouva jamais sa stature médiévale.
+      On la mentionne aux côtés de Samarcande et de Nishapur
+      comme le noyau interne de la catastrophe mongole.
+    canonical_hijri: {year: 618, month: 1, precision: month}
+    canonical_gregorian: {date: 1221-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the fall of Marw under Tolui in 618 AH and the systematic massacre after the broken surrender."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 618 AH for the destruction of Merv at Mongol hands."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām enters the catastrophe at Marw in 618 AH and notes Yāqūt al-Ḥamawī's lament."
+    tags: [mongols, merv, khurasan, tolui, genghis-khan, siege, catastrophe]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: mongol-sack-of-nishapur
+    category: siege
+    title_en: Mongol Sack of Nishapur
+    title_ar: استباحة المغول نيسابورَ
+    title_fr: Sac mongol de Nishapour
+    description_en: |
+      The Mongol army under Tolui took Nishapur (Naysābūr) —
+      ancient capital of Khurasan, the city of the Sufi
+      shaykhs ʿAṭṭār and Abū Saʿīd ibn Abī al-Khayr, of the
+      Naysābūrī muḥaddithūn (al-Ḥākim, al-Bayhaqī before him),
+      and home of an unsurpassed concentration of madrasas —
+      after a four-day siege in Ṣafar 618 AH (April 1221 CE).
+      The siege had a personal dimension: Genghis Khan's
+      son-in-law Toghachar had been killed by an arrow from
+      the Nishapur walls during the previous campaigning
+      season, and Genghis's daughter, Toghachar's widow,
+      was given charge of the city's fate. Tolui ordered the
+      population brought out and slaughtered without exception;
+      the chroniclers report that even cats and dogs were
+      killed and the city's walls levelled to the foundations
+      so that ploughs could be drawn over the site. Heads of
+      men, women and children were stacked in three separate
+      pyramids. Ibn al-Athīr — who served as the chronicler
+      of this catastrophe in *al-Kāmil* with his famous
+      lament — and Ibn Kathīr both record the destruction of
+      Nishapur under 618 AH. The poet Farīd al-Dīn ʿAṭṭār
+      himself perished in the massacre. Nishapur, like Merv,
+      never recovered its pre-Mongol stature.
+    description_ar: |
+      افتتح جيشُ المغول بقيادة تُولِي مدينةَ نيسابور (نَيْسابور)
+      — حاضرةَ خراسان القديمة، ومدينةَ شيخَيْ التصوف العطار
+      وأبي سعيد بن أبي الخير، ومحدِّثي نيسابور (الحاكم،
+      والبيهقي قبله)، وموطن أكبر تجمُّع للمدارس في العالم
+      الإسلامي — بعد حصار دام أربعة أيام، في صفر سنة ٦١٨ هـ
+      (أبريل ١٢٢١ م). وكان للحصار طابع ثأري شخصي: إذ كان
+      صهرُ جنكيز خان طُغاجار قد قُتل بسهم من أسوار نيسابور
+      في الموسم السابق، فأُسندت ابنةُ جنكيز خان الأرملة إلى
+      أمرِ المدينة. أمر تُولِي بإخراج الأهل وقتلهم بلا
+      استثناء؛ وذكرت المصادر أنه قُتلت حتى السنانير
+      والكلاب، وسُويت الأسوار حتى أُمكن أن تُجَر عليها
+      المحاريث، ورُكمت رؤوسُ الرجال والنساء والأطفال في
+      ثلاثة أهرام منفصلة. ويثبت ابنُ الأثير — وهو مؤرِّخ
+      هذه النكبة في «الكامل» بمرثيتِه المشهورة — وابن
+      كثير، تدميرَ نيسابور في ٦١٨ هـ. وفيها هلك الشاعر
+      فريد الدين العطار. ولم تستعد نيسابور — كمَرْوَ —
+      مكانتَها قبل المغول.
+    description_fr: |
+      L'armée mongole sous Tolui prit Nishapour (Naysābūr) —
+      ancienne capitale du Khurasan, ville des shaykhs soufis
+      ʿAṭṭār et Abū Saʿīd ibn Abī al-Khayr, des muḥaddithūn
+      naysābūrīs (al-Ḥākim, al-Bayhaqī avant lui), berceau
+      d'une concentration de madrasas inégalée — après un
+      siège de quatre jours, en Ṣafar 618 H (avril 1221 EC).
+      Le siège avait une dimension personnelle : le gendre
+      de Gengis Khan, Toghachar, avait été tué par une flèche
+      tirée des murs de Nishapour la saison précédente, et
+      la fille de Gengis, veuve de Toghachar, fut chargée du
+      sort de la ville. Tolui ordonna que la population fût
+      sortie et massacrée sans exception ; les chroniqueurs
+      rapportent que même les chats et les chiens furent
+      tués, les murailles arasées jusqu'aux fondations, afin
+      qu'on pût y passer la charrue. Les têtes des hommes, des
+      femmes et des enfants furent empilées en trois pyramides
+      distinctes. Ibn al-Athīr — chroniqueur de cette
+      catastrophe dans al-Kāmil avec sa fameuse complainte —
+      et Ibn Kathīr datent tous deux la destruction de
+      Nishapour en 618 H. Le poète Farīd al-Dīn ʿAṭṭār lui-
+      même périt dans le massacre. Nishapour, comme Merv, ne
+      retrouva jamais sa stature pré-mongole.
+    canonical_hijri: {year: 618, month: 2, precision: month}
+    canonical_gregorian: {date: 1221-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil gives the eyewitness chronicle of the fall of Naysābūr in 618 AH and the total massacre of the population."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 618 AH for the destruction of Nishapur and the death of ʿAṭṭār."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām enters Nishapur's annihilation in 618 AH at Mongol hands."
+    tags: [mongols, nishapur, khurasan, tolui, attar, siege, catastrophe]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+
+  - slug: death-of-genghis-khan
+    category: ruler_death
+    title_en: Death of Genghis Khan — Founder of the Mongol Empire
+    title_ar: وفاة جنكيز خان — مؤسس الإمبراطورية المغولية
+    title_fr: Mort de Gengis Khan — fondateur de l'empire mongol
+    description_en: |
+      Chinggis (Genghis) Khan, founder of the Mongol Empire
+      and the conqueror who annihilated the Khwārazm-Shāh
+      state and broke the eastern Sunni Iranian world, died
+      in his summer camp in north-western Inner Mongolia
+      while campaigning against the Tangut Western Xia, on
+      24 Ramaḍān 624 AH (18 August 1227 CE). The cause is
+      variously transmitted as injuries from a riding fall,
+      illness aggravated by the Inner-Asian summer, or
+      complications of an arrow wound; the Mongol secret
+      history obscures the matter, and his death was
+      concealed until the Tangut capital had fallen. Though
+      he was not Muslim and his armies inflicted on the
+      Islamic east the worst single catastrophe in its
+      history, the classical Sunni chroniclers — Ibn al-
+      Athīr (whose *al-Kāmil* is the first major Arabic
+      account), Ibn Kathīr, al-Dhahabī, Rashīd al-Dīn — all
+      record his death as a landmark date in Islamic-world
+      history. His empire was divided among his four sons
+      Ögödei, Chaghatai, Jochi (already deceased) and Tolui.
+      Within thirty years, his grandson Hülegü would resume
+      the conquest at Baghdad. We record his death as a
+      historical fact without endorsement: the chroniclers
+      who wrote it down lived under its consequences.
+    description_ar: |
+      توفي جنكيز خان — مؤسس الإمبراطورية المغولية وفاتحها
+      الذي محا دولةَ خوارزم شاه وكسر العالمَ الإيراني السنّي
+      الشرقي — في مخيمه الصيفي بشمال غرب منغوليا الداخلية
+      في حملته على دولة شيا الغربية التَّنغُتية، في الرابع
+      والعشرين من رمضان سنة ٦٢٤ هـ (الثامن عشر من أغسطس
+      ١٢٢٧ م). وتختلف السببُ بين سَقطة عن فرس، ومرض اشتدَّ
+      عليه من حرِّ صيف داخل آسيا، ومضاعفات جرح من سهم؛
+      ويُعَمِّي «التاريخُ السرّي للمغول» على المسألة، وقد
+      كُتمت وفاتُه إلى أن سقطت عاصمةُ التَّنغُت. وعلى أنه
+      لم يكن مسلماً، وقد ألحقت جيوشُه بالمشرق الإسلامي أفظعَ
+      نكبة في تاريخه، فقد سجَّل المؤرخون السنّة الكبار —
+      ابن الأثير (وكتابه «الكامل» أولُ السير العربية
+      الكبرى للمغول) وابن كثير والذهبي ورشيد الدين — وفاتَه
+      تاريخاً معلَماً في التاريخ الإسلامي. وقُسِّمت
+      إمبراطوريَّتُه بين أبنائه الأربعة أوغديي وجَغَتاي
+      وجوجي (وقد توفي قبله) وتُولِي. وبعد ثلاثين سنة سيستأنف
+      حفيدُه هولاكو الفتحَ ببغداد. ونثبت وفاته واقعةً
+      تاريخية لا تبنّياً: فإنَّ من سجَّلها عاش تحت آثارها.
+    description_fr: |
+      Chinggis (Gengis) Khan, fondateur de l'empire mongol et
+      conquérant qui anéantit l'État khwārazmshāh et brisa le
+      monde sunnite iranien oriental, mourut dans son camp
+      d'été du nord-ouest de la Mongolie-Intérieure, en
+      campagne contre les Tangut Xia occidentaux, le 24
+      Ramaḍān 624 H (18 août 1227 EC). La cause est diversement
+      rapportée : blessures d'une chute de cheval, maladie
+      aggravée par l'été d'Asie intérieure, ou complications
+      d'une blessure de flèche ; l'Histoire secrète des
+      Mongols brouille la question, et sa mort fut dissimulée
+      jusqu'à la chute de la capitale tangut. Bien qu'il ne
+      fût pas musulman et que ses armées eussent infligé à
+      l'Orient musulman la pire catastrophe ponctuelle de son
+      histoire, les grands chroniqueurs sunnites — Ibn al-
+      Athīr (dont al-Kāmil est le premier grand récit arabe),
+      Ibn Kathīr, al-Dhahabī, Rashīd al-Dīn — enregistrent
+      tous sa mort comme une date-jalon de l'histoire du
+      monde musulman. Son empire fut partagé entre ses quatre
+      fils Ögödei, Chaghatai, Jochi (déjà mort) et Tolui.
+      Trente ans plus tard, son petit-fils Hülegü reprendrait
+      la conquête à Bagdad. Nous enregistrons sa mort comme
+      un fait historique, sans endossement : ceux qui l'ont
+      consigné vivaient sous ses conséquences.
+    canonical_hijri: {year: 624, month: 9, day: 24, precision: day}
+    canonical_gregorian: {date: 1227-08-18, precision: day, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+        notes: "Ibn al-Athīr's al-Kāmil enters the death of Chinggis Khan in 624 AH at the height of the Mongol catastrophe; the al-Kāmil's account is the first major Arabic source."
+      - source_key: ibn_kathir_bidaya
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya confirms 624 AH for Genghis Khan's death and the partition of the Mongol empire among his sons."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the death of Genghis Khan in Ramaḍān 624 AH."
+    people: [[genghis-khan, died]]
+    tags: [mongols, genghis-khan, ruler_death, mongolia, world-history]
+    importance: major
+    verified: true
+    verification_status: cross_verified
+    disputed: true
+    dispute_about: detail
+    notes: |
+      Classical Muslim sources agree on Ramaḍān 624 AH for
+      the death; Ibn al-Athīr explicitly. Some Mongol-language
+      and Yuan-Chinese sources transmit a date a few days
+      earlier or later, and the cause of death (riding fall vs.
+      illness vs. arrow wound) is variously reported. We follow
+      the dominant Arabic chronicler tradition (Ibn al-Athīr
+      and al-Dhahabī) for the date 24 Ramaḍān 624 AH = 18
+      August 1227 CE; the cause is noted as multi-tradition.
+
+  - slug: death-of-hulegu
+    category: ruler_death
+    title_en: Death of Hülegü — Ilkhanid Founder and Sacker of Baghdad
+    title_ar: وفاة هولاكو — مؤسس الإيلخانية وهازم بغداد
+    title_fr: Mort de Hülegü — fondateur de l'Ilkhanat et destructeur de Bagdad
+    description_en: |
+      Hülegü Khan, grandson of Genghis Khan and founder of
+      the Mongol Ilkhanate of Iran, died at his Caspian
+      capital near Marāgha in Rabīʿ II 663 AH (February 1265
+      CE). His career had decisively reshaped the Islamic
+      east: he had crossed the Oxus in 654 AH at the head of
+      the Mongol expedition west, eradicated the Nizārī
+      Ismāʿīlī state at Alamūt and the Quhistān fortresses
+      (654 AH), and in Muḥarram–Ṣafar 656 AH (January–
+      February 1258 CE) stormed Baghdad — sacking it and
+      executing the last Abbasid caliph al-Mustaʿṣim, who was
+      reportedly rolled in a carpet and trampled by horses.
+      The fall of Baghdad ended five centuries of Abbasid
+      caliphal continuity. Hülegü's western advance was
+      checked by the Mamluk Egyptian army at ʿAyn Jālūt in
+      Ramaḍān 658 AH (1260 CE), the first major battlefield
+      defeat the Mongols had suffered, and his death five
+      years later left the Ilkhanate as a Persian-Iraq state
+      rather than a fully transcontinental empire. He
+      patronised the Maragha Observatory under Naṣīr al-Dīn
+      al-Ṭūsī — the great Sunni-rooted scientific institution
+      of the Ilkhanid period — and was the first Mongol ruler
+      whose immediate successors began the process of
+      Islamisation that culminated under Ghazan Khan (694 AH).
+      Ibn al-ʿIbrī (Bar Hebraeus), Rashīd al-Dīn, and Ibn
+      Kathīr all enter Hülegü's death in 663 AH.
+    description_ar: |
+      توفي هولاكو خان — حفيد جنكيز خان ومؤسس دولة الإيلخانية
+      المغولية بإيران — في عاصمته القزوينية قرب مَراغة في
+      ربيع الآخر سنة ٦٦٣ هـ (فبراير ١٢٦٥ م). كان عهدُه قد
+      أعاد تشكيل المشرق الإسلامي على نحوٍ حاسم: عبر النهر
+      جَيْحُونَ سنة ٦٥٤ هـ على رأس الحملة المغولية الغربية،
+      فأبادَ دولةَ الإسماعيلية النزارية بألموت وقلاع قُهستان
+      (٦٥٤ هـ)، ثم اقتحم بغداد في محرم–صفر ٦٥٦ هـ (يناير–
+      فبراير ١٢٥٨ م) — فاستباحها، وقتل آخر خلفاء بني العباس
+      المستعصمَ، وقد لُفَّ — على ما يُروى — في بساط ثم
+      وُطئ بالخيل. وأنهى سقوطُ بغداد خمسةَ قرون من تواصل
+      الخلافة العباسية. وردَّ تقدُّمَه الغربيَّ جيشُ المماليك
+      المصري في عين جالوت في رمضان سنة ٦٥٨ هـ (١٢٦٠ م)،
+      وكانت أولَ هزيمةٍ ميدانية كبرى يلقاها المغول، وموتُه
+      بعدها بخمس سنوات حال دون أن تكون الإيلخانية إمبراطورية
+      قارَّية كاملة. ورعى مرصد مَراغة على يد نصير الدين
+      الطوسي — أعظم مؤسسة علمية سنّية الجذور في العصر
+      الإيلخاني — وكان أول حاكم مغولي أوقع خلفاؤه المباشرون
+      بدايات الأسلمة التي بلغت ذروتها على يد غازان خان سنة
+      ٦٩٤ هـ. ويثبت ابنُ العبري ورشيد الدين وابن كثير وفاةَ
+      هولاكو في ٦٦٣ هـ.
+    description_fr: |
+      Hülegü Khan, petit-fils de Gengis Khan et fondateur de
+      l'Ilkhanat mongol d'Iran, mourut dans sa capitale
+      caspienne près de Marāgha en Rabīʿ II 663 H (février
+      1265 EC). Sa carrière avait remodelé de manière décisive
+      l'Orient islamique : il avait franchi l'Oxus en 654 H
+      à la tête de l'expédition mongole vers l'ouest, anéanti
+      l'État nizārī ismaélien d'Alamūt et les forteresses du
+      Quhistān (654 H), et en Muḥarram–Ṣafar 656 H (janvier–
+      février 1258 EC) s'était emparé de Bagdad — la
+      saccageant et faisant exécuter le dernier calife
+      abbāside al-Mustaʿṣim, que l'on roula — selon la
+      tradition — dans un tapis avant de le piétiner sous
+      les chevaux. La chute de Bagdad mit fin à cinq siècles
+      de continuité califale abbāside. L'avance occidentale
+      de Hülegü fut arrêtée par l'armée mamlūke égyptienne à
+      ʿAyn Jālūt en Ramaḍān 658 H (1260 EC), première grande
+      défaite mongole sur le champ de bataille, et sa mort
+      cinq ans plus tard fit de l'Ilkhanat un État perse-
+      iraqien plutôt qu'un empire pleinement transcontinental.
+      Il fut le mécène de l'observatoire de Marāgha sous
+      Naṣīr al-Dīn al-Ṭūsī — la grande institution scientifique
+      d'enracinement sunnite de l'époque ilkhanide — et fut
+      le premier souverain mongol dont les successeurs
+      immédiats engagèrent l'islamisation qui culmina sous
+      Ghazan Khan (694 H). Ibn al-ʿIbrī (Bar-Hebraeus), Rashīd
+      al-Dīn et Ibn Kathīr datent tous la mort de Hülegü en
+      663 H.
+    canonical_hijri: {year: 663, month: 4, precision: month}
+    canonical_gregorian: {date: 1265-02-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+        notes: "Ibn Kathīr in al-Bidāya wa-l-Nihāya enters the death of Hülegü under 663 AH near Marāgha and notes the succession of his son Abāqā as Ilkhan."
+      - source_key: dhahabi_tarikh_islam
+        notes: "al-Dhahabī's Tārīkh al-Islām records the death of Hülegü Khan in 663 AH and his role as the destroyer of Baghdad."
+      - source_key: ei2
+        notes: "EI² entry 'Hülegü' confirms his death in 663 AH near Marāgha and the consolidation of the Ilkhanate as a separate khanate."
+    people: [[hulegu, died]]
+    tags: [mongols, ilkhanate, hulegu, baghdad, maragha, ruler_death, persia]
+    importance: major
+    verified: true
+    verification_status: cross_verified

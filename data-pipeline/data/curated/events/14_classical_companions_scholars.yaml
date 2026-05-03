@@ -1,0 +1,712 @@
+# 5 battles/conquests + 5 sahaba deaths + 5 classical-scholar deaths.
+# Each event attested in classical Sunni sources (al-Tabari, Ibn Kathir,
+# al-Dhahabi, Ibn al-Athir, Ibn Hajar al-'Asqalani). Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # BATTLES + CONQUESTS
+  # =========================================================================
+
+  - slug: conquest-of-egypt-amr
+    category: conquest
+    title_en: Conquest of Egypt — ʿAmr ibn al-ʿĀṣ
+    title_ar: فتح مصر على يد عمرو بن العاص
+    title_fr: Conquête de l'Égypte par ʿAmr ibn al-ʿĀṣ
+    description_en: |
+      ʿAmr ibn al-ʿĀṣ, commanding a force of around four thousand under
+      Caliph ʿUmar's authorisation, completed the conquest of Egypt with
+      the surrender of the Roman fortress of Babylon (Old Cairo) and,
+      shortly after, of Alexandria. The terms granted the Coptic Christian
+      population freedom of worship and protection of property in return
+      for the jizya. ʿAmr immediately founded the garrison-city of
+      al-Fusṭāṭ on the east bank of the Nile, ending six centuries of
+      Roman rule and folding Egypt permanently into the Islamic world.
+    description_ar: |
+      أتمّ عمرو بن العاص رضي الله عنه — على رأس جيش يقارب الأربعة آلاف بإذن
+      الخليفة عمر بن الخطاب رضي الله عنه — فتح مصر باستسلام حصن بابليون الروماني
+      (مصر القديمة)، ثم بعده الإسكندرية. كانت شروط الصلح تكفل لأهل مصر القبط
+      حرية العبادة وحماية أموالهم في مقابل الجزية. وأسس عمرو فور الفتح مدينة
+      الفسطاط على الضفة الشرقية من النيل، فأنهى ستة قرون من الحكم الروماني
+      وأدخل مصر نهائياً في دار الإسلام.
+    description_fr: |
+      ʿAmr ibn al-ʿĀṣ, à la tête d'une force d'environ quatre mille hommes
+      avec l'autorisation du calife ʿUmar, acheva la conquête de l'Égypte
+      par la reddition de la forteresse romaine de Babylone (le Vieux Caire)
+      puis, peu après, d'Alexandrie. Les conditions accordèrent à la
+      population copte chrétienne la liberté de culte et la protection des
+      biens en échange de la jizya. ʿAmr fonda aussitôt la ville-garnison
+      d'al-Fusṭāṭ sur la rive orientale du Nil, mettant fin à six siècles de
+      domination romaine et intégrant définitivement l'Égypte au monde
+      islamique.
+    canonical_hijri: {year: 20, precision: year}
+    canonical_gregorian: {date: 641-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[amr-ibn-al-as, leader], [umar-ibn-al-khattab, subject]]
+    tags: [rashidun, conquest, egypt, amr-ibn-al-as, fustat]
+    importance: major
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Muslim_conquest_of_Egypt
+
+  - slug: battle-of-siffin
+    category: battle
+    title_en: Battle of Ṣiffīn
+    title_ar: معركة صفّين
+    title_fr: Bataille de Ṣiffīn
+    description_en: |
+      The decisive engagement of the First Fitna between Caliph ʿAlī ibn
+      Abī Ṭālib's Iraqi army and Muʿāwiya ibn Abī Sufyān's Syrian forces
+      on the upper Euphrates. After three days of severe fighting in
+      which the Iraqis came close to victory, Muʿāwiya's troops raised
+      muṣḥafs on their spears and called for arbitration by the Book of
+      Allah. The arbitration that followed (Tahkim) divided ʿAlī's camp,
+      gave rise to the Khawārij faction, and entrenched the political
+      schism whose echoes would shape Islamic history for centuries. Both
+      armies retired without a clear military verdict.
+    description_ar: |
+      المعركة الحاسمة في الفتنة الأولى بين الخليفة علي بن أبي طالب رضي الله
+      عنه ومعاوية بن أبي سفيان رضي الله عنه على ضفاف الفرات الأعلى. وبعد
+      ثلاثة أيام من القتال الشديد كاد فيه أهل العراق أن ينتصروا، رفع جيش
+      الشام المصاحف على الرماح ودعوا إلى التحكيم بكتاب الله. أفضى التحكيم
+      الذي تبعها إلى انقسام معسكر علي رضي الله عنه، ونشأت منه طائفة الخوارج،
+      وترسخ الانقسام السياسي الذي ظلت أصداؤه تشكّل التاريخ الإسلامي قروناً.
+      وانفض الجيشان دون فصل عسكري حاسم.
+    description_fr: |
+      L'affrontement décisif de la Première Fitna entre l'armée irakienne
+      du calife ʿAlī ibn Abī Ṭālib et les forces syriennes de Muʿāwiya ibn
+      Abī Sufyān, sur le haut Euphrate. Après trois jours de combats
+      acharnés au cours desquels les Irakiens furent près de l'emporter,
+      les troupes de Muʿāwiya hissèrent des muṣḥafs sur leurs lances et
+      demandèrent l'arbitrage par le Livre d'Allāh. L'arbitrage (Tahkim)
+      qui suivit divisa le camp de ʿAlī, donna naissance à la faction des
+      Khawārij et grava le schisme politique dont les échos modèleront
+      l'histoire islamique durant des siècles. Les deux armées se retirèrent
+      sans verdict militaire clair.
+    canonical_hijri: {year: 37, month: 7, precision: month}
+    canonical_gregorian: {date: 657-07-26, precision: month, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[ali-ibn-abi-talib, leader], [muawiya-ibn-abi-sufyan, leader]]
+    tags: [rashidun, battle, fitna, siffin, tahkim, khawarij]
+    importance: major
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Siffin
+
+  - slug: battle-of-nahrawan
+    category: battle
+    title_en: Battle of al-Nahrawān
+    title_ar: معركة النهروان
+    title_fr: Bataille d'al-Nahrawān
+    description_en: |
+      Caliph ʿAlī ibn Abī Ṭālib confronted the Khawārij — the faction that
+      had broken from his army after the Tahkim arbitration following
+      Ṣiffīn — at the canal of al-Nahrawān east of the Tigris. The
+      Khawārij had condemned ʿAlī as a kāfir for accepting human
+      arbitration, declaring "lā ḥukma illā li-Llāh" ("there is no
+      judgment except Allah's"). After they refused his calls to return
+      and began murdering Muslims they considered apostates, ʿAlī fought
+      them; almost the entire Khawārij force was killed. The remnant
+      who escaped became the seed of every later Khawārij movement, and
+      from one of them — Ibn Muljam — would come the dagger that
+      martyred ʿAlī three years later.
+    description_ar: |
+      واجه الخليفة علي بن أبي طالب رضي الله عنه طائفة الخوارج — الذين
+      انفصلوا عن جيشه بعد تحكيم صفين — عند نهر النهروان شرقي دجلة. وكان
+      الخوارج كفّروا علياً رضي الله عنه لقبوله التحكيم، رافعين شعار «لا
+      حكم إلا لله». وبعد أن رفضوا دعوته إلى الرجوع وبدأوا يقتلون من خالفهم
+      من المسلمين متهمينهم بالردة، ناجزهم القتال، فقتل عامتهم. والقلّة
+      التي نجت منهم صارت بذرة كل حركة خارجية لاحقة، ومن أحدهم — ابن ملجم —
+      جاء الخنجر الذي استشهد به علي بعد ثلاث سنين.
+    description_fr: |
+      Le calife ʿAlī ibn Abī Ṭālib affronta les Khawārij — la faction qui
+      s'était séparée de son armée après l'arbitrage du Tahkim consécutif à
+      Ṣiffīn — sur le canal d'al-Nahrawān à l'est du Tigre. Les Khawārij
+      avaient déclaré ʿAlī kāfir pour avoir accepté un arbitrage humain,
+      proclamant « lā ḥukma illā li-Llāh » (« nul jugement n'appartient
+      qu'à Allāh »). Après qu'ils eurent refusé ses appels au retour et
+      commencé à tuer les musulmans qu'ils tenaient pour apostats, ʿAlī
+      les combattit ; la quasi-totalité de la force khārijite fut tuée. Le
+      reliquat qui s'échappa devint la semence de tout mouvement khārijite
+      ultérieur, et de l'un d'entre eux — Ibn Muljam — viendrait la dague
+      qui martyrisa ʿAlī trois ans plus tard.
+    canonical_hijri: {year: 38, month: 9, precision: month}
+    canonical_gregorian: {date: 658-07-17, precision: month, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[ali-ibn-abi-talib, leader]]
+    tags: [rashidun, battle, fitna, khawarij, nahrawan]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Nahrawan
+
+  - slug: battle-of-manzikert
+    category: battle
+    title_en: Battle of Manzikert
+    title_ar: معركة ملاذكرد
+    title_fr: Bataille de Manzikert
+    description_en: |
+      Sultan Alp Arslān of the Seljuks defeated the Byzantine army of
+      Emperor Romanos IV Diogenes at Manzikert in eastern Anatolia,
+      capturing the emperor himself. The defeat shattered Byzantine
+      defences in Asia Minor, opened Anatolia permanently to Turkic
+      settlement, and set the stage for the rise of the Seljuk Sultanate
+      of Rūm — and, four centuries later, the Ottoman state. Alp Arslān
+      released Romanos under the terms of a treaty that the next Byzantine
+      emperor would refuse to honour, but the strategic verdict was
+      irreversible: the Byzantine empire never recovered the Anatolian
+      heartland.
+    description_ar: |
+      هزم السلطان ألب أرسلان السلجوقي الجيشَ البيزنطي بقيادة الإمبراطور رومانوس
+      الرابع ديوجين في ملاذكرد بشرق الأناضول، وأسر الإمبراطورَ نفسَه. كسرت
+      الهزيمة دفاعات بيزنطة في آسيا الصغرى، وفتحت الأناضول دائماً للاستيطان
+      التركي، ومهّدت لقيام سلطنة سلاجقة الروم — ومن بعدها بأربعة قرون الدولة
+      العثمانية. وأطلق ألب أرسلان رومانوسَ في إطار معاهدة لم يُبقها خلَفه على
+      عرش بيزنطة، لكنّ الحكم الاستراتيجي كان لا رجعة فيه: لم تستعد بيزنطة قلبَ
+      الأناضول قط.
+    description_fr: |
+      Le sultan Alp Arslān des Seljoukides battit l'armée byzantine de
+      l'empereur Romanos IV Diogène à Manzikert, dans l'est de l'Anatolie,
+      capturant l'empereur lui-même. La défaite brisa les défenses byzantines
+      en Asie Mineure, ouvrit définitivement l'Anatolie à la colonisation
+      turque et prépara l'essor du sultanat seljoukide de Roum — et, quatre
+      siècles plus tard, de l'État ottoman. Alp Arslān libéra Romanos en
+      vertu d'un traité que l'empereur byzantin suivant refusa d'honorer,
+      mais le verdict stratégique était irréversible : Byzance ne retrouva
+      jamais le cœur anatolien.
+    canonical_hijri: {year: 463, month: 11, precision: month}
+    canonical_gregorian: {date: 1071-08-01, precision: month, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+    tags: [seljuk, battle, byzantine, anatolia, manzikert, alp-arslan]
+    importance: major
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Battle_of_Manzikert
+
+  - slug: muslim-conquest-of-sicily-begins
+    category: conquest
+    title_en: Muslim Conquest of Sicily Begins
+    title_ar: بدء فتح صقلية
+    title_fr: Début de la conquête musulmane de la Sicile
+    description_en: |
+      Asad ibn al-Furāt, jurist and qāḍī of the Aghlabid emirate of
+      Ifrīqiya, led a fleet of approximately seventy ships from Sūsa
+      across the strait to Mazara on the western Sicilian coast. The
+      landing began a campaign of conquest that would unfold over more
+      than seventy years and culminate in the fall of Syracuse (264 AH)
+      and Taormina (291 AH). Sicily under Muslim rule became a centre of
+      multilingual scholarship, agricultural innovation, and architectural
+      synthesis whose influence on Norman and Renaissance Europe is
+      well-attested.
+    description_ar: |
+      قاد أسد بن الفرات — فقيه وقاضي الإمارة الأغلبية بإفريقية — أسطولاً قوامه
+      نحو سبعين سفينة من سوسة عبر المضيق إلى مدينة مازارة بالساحل الغربي
+      لصقلية. كان النزول إيذاناً بحملة فتح امتدت أكثر من سبعين عاماً، وانتهت
+      بسقوط سَرَقُوسة (264 هـ) ثم طُرمين (291 هـ). صارت صقلية في ظل الحكم
+      الإسلامي مركزاً علمياً متعدّد اللغات، ومرتعاً للإبداع الزراعي والمعماري،
+      وأثره على نُورمان وأوروبا في عصر النهضة موثّق ومعروف.
+    description_fr: |
+      Asad ibn al-Furāt, juriste et qāḍī de l'émirat aghlabide d'Ifrīqiya,
+      conduisit une flotte d'environ soixante-dix navires depuis Sousse à
+      travers le détroit jusqu'à Mazara, sur la côte occidentale sicilienne.
+      Le débarquement amorça une campagne de conquête qui se déroulera sur
+      plus de soixante-dix ans et culminera dans la chute de Syracuse
+      (264 AH) puis de Taormine (291 AH). Sous la domination musulmane, la
+      Sicile devint un centre d'érudition multilingue, d'innovation agricole
+      et de synthèse architecturale dont l'influence sur l'Europe normande
+      et de la Renaissance est bien attestée.
+    canonical_hijri: {year: 212, month: 6, precision: month}
+    canonical_gregorian: {date: 827-06-01, precision: month, method: attested}
+    claims:
+      - source_key: ibn_athir_kamil
+        is_canonical: true
+      - source_key: ibn_kathir_bidaya
+    tags: [aghlabid, conquest, sicily, mediterranean, asad-ibn-al-furat]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Muslim_conquest_of_Sicily
+
+  # =========================================================================
+  # SAHABA DEATHS
+  # =========================================================================
+
+  - slug: death-of-anas-ibn-malik
+    category: rashidun
+    title_en: Death of Anas ibn Mālik — Servant of the Prophet ﷺ
+    title_ar: وفاة أنس بن مالك خادم رسول الله ﷺ
+    title_fr: Décès d'Anas ibn Mālik — serviteur du Prophète ﷺ
+    description_en: |
+      Anas ibn Mālik ra, who served the Prophet ﷺ for ten years from the
+      time of the Hijra until the Prophet's ﷺ death, lived to about 103
+      lunar years and died at Basra. The Prophet ﷺ had supplicated for
+      him: "O Allah, increase his wealth and his children, and bless what
+      You have given him." He narrated 2,286 ḥadīths — among the most
+      prolific of the Companions — and was the last surviving Sahabi to
+      have served the Prophet ﷺ in his household. His death closed a
+      direct living chain to the Madīnan years.
+    description_ar: |
+      أنس بن مالك رضي الله عنه — خادم رسول الله ﷺ عشر سنين من الهجرة إلى
+      وفاته الكريمة ﷺ — عمّر نحو ثلاث ومائة سنة ومات بالبصرة. ودعا له النبي
+      ﷺ: «اللّهم أكثر ماله وولده، وبارك له فيما أعطيته». روى ألفين ومئتين
+      وستّة وثمانين حديثاً — من أكثر الصحابة رواية — وكان آخر مَن بقي ممّن
+      خدم النبيَّ ﷺ في بيته. أُغلقت بوفاته أحد الأخطاط المباشرة للسنوات
+      المدنية.
+    description_fr: |
+      Anas ibn Mālik ra, qui servit le Prophète ﷺ durant dix années depuis
+      la Hijra jusqu'à la mort bénie du Prophète ﷺ, vécut environ
+      103 années lunaires et mourut à Bassora. Le Prophète ﷺ avait imploré
+      pour lui : « Ô Allāh, accrois sa fortune et ses enfants, et bénis ce
+      que Tu lui as accordé ». Il rapporta 2 286 ḥadīths — parmi les plus
+      prolifiques des Compagnons — et fut le dernier Sahabi survivant à
+      avoir servi le Prophète ﷺ dans sa maison. Sa mort referma une chaîne
+      vivante directe vers les années médinoises.
+    canonical_hijri: {year: 93, precision: year}
+    canonical_gregorian: {date: 712-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_sad_tabaqat
+    people: [[anas-ibn-malik, died]]
+    hadith_refs: "Bukhari 6378"
+    tags: [rashidun, sahabi, anas, basra]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Anas_ibn_Malik
+
+  - slug: death-of-jabir-ibn-abdullah
+    category: umayyad
+    title_en: Death of Jābir ibn ʿAbdullāh al-Anṣārī
+    title_ar: وفاة جابر بن عبد الله الأنصاري
+    title_fr: Décès de Jābir ibn ʿAbdullāh al-Anṣārī
+    description_en: |
+      Jābir ibn ʿAbdullāh ra, who pledged the second Bayʿat al-ʿAqaba with
+      his father before the Hijra and witnessed nineteen ghazawāt with the
+      Prophet ﷺ, died at Madīnah at about 94 lunar years, the last of the
+      Anṣār to die in the Prophet's ﷺ city. He narrated 1,540 ḥadīths and
+      was a major teacher of the next generation, including Mujāhid, ʿAṭāʾ
+      ibn Abī Rabāḥ, and the Madīnan jurists. His ḥadīth describing the
+      Prophet's ﷺ farewell pilgrimage in detail is the cornerstone of the
+      jurisprudence of Hajj.
+    description_ar: |
+      جابر بن عبد الله الأنصاري رضي الله عنه — الذي بايع مع أبيه في بيعة
+      العقبة الثانية قبل الهجرة، وشهد مع النبي ﷺ تسع عشرة غزوة — توفي
+      بالمدينة وهو في نحو الرابعة والتسعين، آخر الأنصار وفاةً بمدينة النبي
+      ﷺ. روى ألفاً وخمسمائة وأربعين حديثاً، وكان من أكبر شيوخ التابعين منهم
+      مجاهد وعطاء بن أبي رباح وفقهاء المدينة. وحديثه في صفة حجة الوداع
+      تفصيلاً هو الأصل في فقه الحج.
+    description_fr: |
+      Jābir ibn ʿAbdullāh ra, qui prêta le second Bayʿat al-ʿAqaba avec son
+      père avant la Hijra et participa à dix-neuf ghazawāt aux côtés du
+      Prophète ﷺ, mourut à Médine vers l'âge de 94 années lunaires, dernier
+      des Anṣār à mourir dans la cité du Prophète ﷺ. Il rapporta 1 540
+      ḥadīths et fut un maître majeur de la génération suivante, dont
+      Mujāhid, ʿAṭāʾ ibn Abī Rabāḥ et les juristes médinois. Son ḥadīth
+      décrivant en détail le pèlerinage d'adieu du Prophète ﷺ est la pierre
+      angulaire de la jurisprudence du Hajj.
+    canonical_hijri: {year: 78, precision: year}
+    canonical_gregorian: {date: 697-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_sad_tabaqat
+    people: [[jabir-ibn-abdullah, died]]
+    hadith_refs: "Muslim 1218"
+    tags: [umayyad, sahabi, ansar, jabir, madinah]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Jabir_ibn_Abd_Allah
+
+  - slug: death-of-abu-saeed-al-khudri
+    category: umayyad
+    title_en: Death of Abū Saʿīd al-Khudrī
+    title_ar: وفاة أبي سعيد الخدري
+    title_fr: Décès d'Abū Saʿīd al-Khudrī
+    description_en: |
+      Saʿd ibn Mālik ibn Sinān al-Anṣārī al-Khudrī ra, the Sahabi commonly
+      known by his kunya Abū Saʿīd, died at Madīnah at about 86 lunar
+      years. He fought at the Trench (the Prophet ﷺ judged him too young
+      for Uhud) and witnessed twelve subsequent expeditions. He narrated
+      1,170 ḥadīths and was renowned among the Companions for his
+      exposition of fiqh. His ḥadīth on commanding the right and
+      forbidding the wrong — "Whoever among you sees a wrong, let him
+      change it with his hand…" — is one of the most-cited foundations of
+      Sunni public ethics.
+    description_ar: |
+      سعد بن مالك بن سنان الأنصاري الخدري رضي الله عنه — الصحابي الذي اشتهر
+      بكنيته أبي سعيد — توفّي بالمدينة وهو في نحو السادسة والثمانين. شهد
+      الخندق (وكان النبي ﷺ ردّه يوم أحد لصغره)، ثم اثنتي عشرة غزوة بعدها.
+      روى ألفاً ومئة وسبعين حديثاً، واشتهر بين الصحابة بفقهه. وحديثه في
+      الأمر بالمعروف والنهي عن المنكر «من رأى منكم منكراً فليغيّره بيده…»
+      من أعظم أصول الأخلاق العامة عند أهل السنّة.
+    description_fr: |
+      Saʿd ibn Mālik ibn Sinān al-Anṣārī al-Khudrī ra, le Sahabi communément
+      connu par sa kunya Abū Saʿīd, mourut à Médine vers l'âge de 86 années
+      lunaires. Il combattit à la Tranchée (le Prophète ﷺ l'avait jugé trop
+      jeune pour Uhud) et participa à douze expéditions ultérieures. Il
+      rapporta 1 170 ḥadīths et fut renommé parmi les Compagnons pour son
+      exposition du fiqh. Son ḥadīth sur l'ordonnance du convenable et
+      l'interdiction du blâmable — « Quiconque parmi vous voit un mal, qu'il
+      le change de sa main… » — est l'un des fondements les plus cités de
+      l'éthique publique sunnite.
+    canonical_hijri: {year: 74, precision: year}
+    canonical_gregorian: {date: 693-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: dhahabi_siyar
+    people: [[abu-saeed-al-khudri, died]]
+    hadith_refs: "Muslim 49"
+    tags: [umayyad, sahabi, ansar, abu-saeed, madinah]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Abu_Sa%27id_al-Khudri
+
+  - slug: death-of-abu-dharr
+    category: rashidun
+    title_en: Death of Abū Dharr al-Ghifārī
+    title_ar: وفاة أبي ذر الغفاري
+    title_fr: Décès d'Abū Dharr al-Ghifārī
+    description_en: |
+      Jundub ibn Junāda ra — known throughout history by his kunya Abū
+      Dharr — died at al-Rabadha east of Madīnah, in the desert to which
+      Caliph ʿUthmān had asked him to retire after his vocal critiques of
+      the wealth-accumulation of governors and notables. The Prophet ﷺ
+      had foretold his death in such poverty that "those who buried him
+      would be the best of you" — a prophecy fulfilled when ʿAbdullāh ibn
+      Masʿūd ra, returning from Iraq, performed his burial. Among the
+      first to embrace Islam (the fourth or fifth, by his own report), he
+      narrated 281 ḥadīths and remained the conscience of the early
+      community on matters of wealth and asceticism.
+    description_ar: |
+      جندب بن جنادة رضي الله عنه — المعروف على مرّ التاريخ بكنيته أبي ذر —
+      توفّي بالربذة شرقي المدينة، في الصحراء التي اعتزل إليها بطلب من الخليفة
+      عثمان رضي الله عنه بعد مواقفه الصارخة من تكاثر الأموال عند الولاة
+      والوجهاء. وكان النبي ﷺ أخبره أنه يموت وحيداً وأنّ «خير الناس مَن يدفنه»،
+      فتحققت النبوءة حين مرّ به عبد الله بن مسعود رضي الله عنه قافلاً من
+      العراق فدفنه. وهو من السابقين الأوّلين إلى الإسلام (الرابع أو الخامس
+      بإقراره)، روى مائتين وواحداً وثمانين حديثاً، وظلّ ضمير الصدر الأول في
+      الزهد ومسائل المال.
+    description_fr: |
+      Jundub ibn Junāda ra — connu à travers l'histoire par sa kunya Abū
+      Dharr — mourut à al-Rabadha à l'est de Médine, dans le désert où le
+      calife ʿUthmān lui avait demandé de se retirer après ses critiques
+      véhémentes de l'accumulation de richesses chez les gouverneurs et
+      les notables. Le Prophète ﷺ avait annoncé qu'il mourrait dans une
+      telle pauvreté que « celui qui l'enterrera sera le meilleur d'entre
+      vous » — prophétie accomplie quand ʿAbdullāh ibn Masʿūd ra, revenant
+      d'Iraq, accomplit son inhumation. Parmi les tout premiers à embrasser
+      l'islam (le quatrième ou le cinquième, selon son propre récit), il
+      rapporta 281 ḥadīths et demeura la conscience de la première
+      communauté en matière de richesse et d'ascèse.
+    canonical_hijri: {year: 32, precision: year}
+    canonical_gregorian: {date: 652-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_sad_tabaqat
+    people: [[abu-dharr-al-ghifari, died]]
+    tags: [rashidun, sahabi, abu-dharr, zuhd, rabadha]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Abu_Dharr_al-Ghifari
+
+  - slug: death-of-abu-musa-al-ashari
+    category: umayyad
+    title_en: Death of Abū Mūsā al-Ashʿarī
+    title_ar: وفاة أبي موسى الأشعري
+    title_fr: Décès d'Abū Mūsā al-Ashʿarī
+    description_en: |
+      ʿAbdullāh ibn Qays ra — Abū Mūsā al-Ashʿarī — Sahabi, governor of
+      Basra and then Kufa under ʿUmar and ʿUthmān, and one of the two
+      arbiters at Ṣiffīn, died at Kufa (or by some reports at Mecca) in
+      his late seventies. The Prophet ﷺ said of him, "Indeed Abū Mūsā has
+      been given a mizmār (a melodious voice) from the mizmārs of the
+      family of Dāwūd ﷺ" — a reference to the beauty of his Qurʾān
+      recitation. He narrated about 360 ḥadīths and is one of the
+      principal jurists and Qurʾān-reciters of the first generation. The
+      Ashʿarī theological school is traditionally traced through his
+      lineage by way of his descendant Abū al-Ḥasan al-Ashʿarī.
+    description_ar: |
+      عبد الله بن قيس رضي الله عنه — أبو موسى الأشعري — الصحابي والوالي على
+      البصرة ثم الكوفة في عهد عمر وعثمان رضي الله عنهما، وأحد الحكَمَين في
+      صفّين، توفّي بالكوفة (وفي رواية بمكة) في أواخر السبعينات من عمره. وقال
+      فيه النبي ﷺ: «لقد أُوتي أبو موسى مزماراً من مزامير آل داود» إشارةً إلى
+      جمال قراءته للقرآن. روى نحو ثلاثمائة وستّين حديثاً، وهو من كبار فقهاء
+      وقرّاء الصدر الأول. ويُنسب المذهب الكلامي الأشعري تقليدياً إلى نسبه عن
+      طريق حفيده أبي الحسن الأشعري.
+    description_fr: |
+      ʿAbdullāh ibn Qays ra — Abū Mūsā al-Ashʿarī — Sahabi, gouverneur de
+      Bassora puis de Koufa sous ʿUmar et ʿUthmān, et l'un des deux arbitres
+      à Ṣiffīn, mourut à Koufa (ou selon certains à La Mecque) à la fin de
+      la soixante-dizaine d'années. Le Prophète ﷺ dit de lui : « En vérité,
+      Abū Mūsā s'est vu donner un mizmār (une voix mélodieuse) parmi les
+      mizmārs de la famille de Dāwūd ﷺ », en référence à la beauté de sa
+      récitation coranique. Il rapporta environ 360 ḥadīths et compte parmi
+      les principaux juristes et récitateurs du Qurʾān de la première
+      génération. L'école théologique ashʿarī se rattache traditionnellement
+      à sa lignée par l'intermédiaire de son descendant Abū al-Ḥasan
+      al-Ashʿarī.
+    canonical_hijri: {year: 50, precision: year}
+    canonical_gregorian: {date: 670-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: dhahabi_siyar
+      - source_key: ibn_sad_tabaqat
+    people: [[abu-musa-al-ashari, died]]
+    tags: [umayyad, sahabi, abu-musa, kufa, ashari]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Abu_Musa_al-Ash%27ari
+
+  # =========================================================================
+  # CLASSICAL SCHOLAR DEATHS
+  # =========================================================================
+
+  - slug: death-of-ibn-ishaq
+    category: scholar_death
+    title_en: Death of Muḥammad ibn Isḥāq — Biographer of the Prophet ﷺ
+    title_ar: وفاة محمد بن إسحاق صاحب السيرة
+    title_fr: Décès de Muḥammad ibn Isḥāq — biographe du Prophète ﷺ
+    description_en: |
+      Abū ʿAbdullāh Muḥammad ibn Isḥāq ibn Yasār al-Madanī, author of the
+      Sīrat Rasūl Allāh — the foundational biography of the Prophet ﷺ —
+      died at Baghdad. His original work survives only through later
+      recensions, principally Ibn Hishām's redaction (which removed
+      material Ibn Hishām considered unreliable) and the citations
+      preserved in al-Ṭabarī's Tārīkh. Despite some classical scholars
+      faulting his hadith standards (he reported from controversial
+      sources), his Sīra remains the indispensable source for the events
+      of the Prophet's ﷺ life and the standard against which all later
+      sīra works measure themselves.
+    description_ar: |
+      أبو عبد الله محمد بن إسحاق بن يسار المدني — صاحب سيرة رسول الله ﷺ —
+      توفّي ببغداد. ولم يبق من كتابه الأصلي إلّا ما حُفظ بطريق روايات لاحقة،
+      أبرزها تهذيب ابن هشام (الذي أسقط ما رآه ضعيفاً) واقتباسات تاريخ الطبري.
+      ومع أن بعض المحدّثين انتقدوه في معايير الرواية لروايته عن مصادر متنازع
+      فيها، تظلّ سيرته المصدرَ الذي لا غنى عنه لأحداث حياة النبي ﷺ، والمعيارَ
+      الذي تُقاس به سائر كتب السيرة بعده.
+    description_fr: |
+      Abū ʿAbdullāh Muḥammad ibn Isḥāq ibn Yasār al-Madanī, auteur de la
+      Sīrat Rasūl Allāh — la biographie fondatrice du Prophète ﷺ — mourut à
+      Bagdad. Son ouvrage original ne survit qu'à travers des recensions
+      ultérieures, principalement la rédaction d'Ibn Hishām (qui retira ce
+      qu'il jugeait peu fiable) et les citations conservées dans le Tārīkh
+      d'al-Ṭabarī. Bien que certains savants classiques aient critiqué ses
+      standards de hadith (il rapportait depuis des sources controversées),
+      sa Sīra demeure la source indispensable pour les événements de la vie
+      du Prophète ﷺ et la norme à laquelle se mesurent toutes les sīra
+      ultérieures.
+    canonical_hijri: {year: 151, precision: year}
+    canonical_gregorian: {date: 768-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[ibn-ishaq, died]]
+    tags: [abbasid, scholar, sira, biography, baghdad]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Ibn_Ishaq
+
+  - slug: death-of-al-awzai
+    category: scholar_death
+    title_en: Death of Imām al-Awzāʿī
+    title_ar: وفاة الإمام الأوزاعي
+    title_fr: Décès de l'imām al-Awzāʿī
+    description_en: |
+      Abū ʿAmr ʿAbd al-Raḥmān ibn ʿAmr al-Awzāʿī, the leading jurist of
+      Greater Syria and chief muftī of his age, died at Beirut. His
+      eponymous Awzāʿī school of law dominated Syrian jurisprudence for
+      two centuries before being absorbed by the Shāfiʿī school. He was
+      celebrated for his courage before the Abbasid governors — who
+      executed many ʿulamāʾ they considered politically unreliable — and
+      for his refusal to bend in matters of religious principle. His
+      legal opinions, preserved in al-Ṭabarī and later compendia, mark
+      one of the lost paths of early Sunni legal pluralism.
+    description_ar: |
+      أبو عمرو عبد الرحمن بن عمرو الأوزاعي — إمام أهل الشام ومفتيهم في زمانه —
+      توفّي ببيروت. سيطر مذهبه الأوزاعي على الفقه في الشام قرنين قبل أن يندمج
+      في المذهب الشافعي. اشتُهر بشجاعته أمام ولاة بني العباس — الذين أعدموا
+      كثيراً من العلماء يرونهم غير موثوقين سياسياً — وبامتناعه عن المداهنة في
+      مسائل الدين. وفتاواه التي حفظها الطبري والمصنّفون من بعده تشير إلى أحد
+      المسارات المفقودة من تعدّدية الفقه السنّي المبكر.
+    description_fr: |
+      Abū ʿAmr ʿAbd al-Raḥmān ibn ʿAmr al-Awzāʿī, juriste prééminent de la
+      Grande Syrie et muftī en chef de son époque, mourut à Beyrouth. Son
+      école éponyme, l'awzāʿī, domina la jurisprudence syrienne durant
+      deux siècles avant d'être absorbée par l'école shāfiʿī. Il fut
+      célébré pour son courage face aux gouverneurs abbassides — qui
+      exécutèrent nombre de ʿulamāʾ jugés politiquement peu fiables — et
+      pour son refus de se plier sur les questions de principe religieux.
+      Ses avis juridiques, préservés chez al-Ṭabarī et les compendiums
+      ultérieurs, jalonnent l'une des voies perdues du premier pluralisme
+      juridique sunnite.
+    canonical_hijri: {year: 157, precision: year}
+    canonical_gregorian: {date: 774-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-awzai, died]]
+    tags: [abbasid, scholar, fiqh, awzai, sham, beirut]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Al-Awza%27i
+
+  - slug: death-of-sufyan-al-thawri
+    category: scholar_death
+    title_en: Death of Sufyān al-Thawrī — Amīr al-Muʾminīn fī al-Ḥadīth
+    title_ar: وفاة سفيان الثوري — أمير المؤمنين في الحديث
+    title_fr: Décès de Sufyān al-Thawrī — Amīr al-Muʾminīn fī al-Ḥadīth
+    description_en: |
+      Abū ʿAbdullāh Sufyān ibn Saʿīd al-Thawrī, Kufan ḥadīth master and
+      jurist of the eponymous (now-extinct) Thawrī legal school, died at
+      Basra in hiding from the Abbasid Caliph al-Mahdī, who had sought
+      his appointment as chief judge. He had been called Amīr al-Muʾminīn
+      fī al-Ḥadīth ("Commander of the Believers in Ḥadīth"), the highest
+      epithet awarded a muḥaddith. He left behind the Jāmiʿ — a
+      foundational work in early ḥadīth/fiqh integration, partly
+      preserved in later compendia — and a corpus of zuhd (asceticism)
+      transmitted by his students. His refusal of state office became
+      the model for the next generation of independent scholars.
+    description_ar: |
+      أبو عبد الله سفيان بن سعيد الثوري — إمام أهل الحديث في الكوفة وفقيه
+      المذهب الثوري الذي اندثر — توفّي بالبصرة مختفياً من الخليفة العباسي
+      المهدي الذي طلب توليته القضاء. لُقّب بأمير المؤمنين في الحديث وهي أعلى
+      رتبة تُمنح لمحدّث. وترك "الجامع" — أصلٌ في الجمع بين الحديث والفقه،
+      حُفظ بعضه في المصنّفات اللاحقة — وميراثاً في الزهد رواه عنه تلاميذه.
+      صار رفضه ولاية القضاء قدوةً للجيل التالي من العلماء المستقلّين.
+    description_fr: |
+      Abū ʿAbdullāh Sufyān ibn Saʿīd al-Thawrī, maître koufien du ḥadīth et
+      juriste de l'école éponyme thawrī (aujourd'hui éteinte), mourut à
+      Bassora caché du calife abbasside al-Mahdī, qui avait recherché sa
+      nomination comme cadi suprême. On l'avait surnommé Amīr al-Muʾminīn
+      fī al-Ḥadīth (« Commandeur des croyants en ḥadīth »), épithète
+      suprême décernée à un muḥaddith. Il laissa le Jāmiʿ — œuvre
+      fondatrice de l'intégration ḥadīth/fiqh primitif, partiellement
+      préservée dans des compendiums ultérieurs — et un corpus de zuhd
+      (ascèse) transmis par ses étudiants. Son refus de la charge publique
+      devint le modèle de la génération suivante de savants indépendants.
+    canonical_hijri: {year: 161, precision: year}
+    canonical_gregorian: {date: 778-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[sufyan-al-thawri, died]]
+    tags: [abbasid, scholar, hadith, fiqh, kufa, basra, zuhd]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Sufyan_al-Thawri
+
+  - slug: death-of-al-layth-ibn-saad
+    category: scholar_death
+    title_en: Death of al-Layth ibn Saʿd — Imām of the Egyptians
+    title_ar: وفاة الليث بن سعد إمام أهل مصر
+    title_fr: Décès d'al-Layth ibn Saʿd — imām des Égyptiens
+    description_en: |
+      Abū al-Ḥārith al-Layth ibn Saʿd, the leading jurist and muḥaddith
+      of Egypt in his era, died at al-Fusṭāṭ. al-Shāfiʿī famously
+      remarked: "al-Layth was a greater jurist than Mālik, but his
+      students did not establish his school" — a reference to al-Layth's
+      independent standing as the head of an Egyptian legal school that
+      faded in the next generation while Mālik's prevailed. Generous to
+      a famed degree (his annual income, by classical reports, exceeded
+      that of any contemporary scholar, all of which he distributed in
+      charity), he combined deep ḥadīth knowledge with juristic rigour
+      and refused, like Sufyān al-Thawrī, every offer of state office.
+    description_ar: |
+      أبو الحارث الليث بن سعد — إمام أهل مصر في عصره وفقيهها ومحدِّثها — توفّي
+      بالفسطاط. وقال فيه الشافعي قولته المشهورة: «الليث أفقه من مالك، إلا أنّ
+      أصحابه لم يقوموا به» — إشارةً إلى مكانته المستقلّة على رأس مذهب فقهي
+      مصري ضمر في الجيل التالي بينما ظهر مذهب مالك. كان كريماً مشهوراً
+      بالكرم (تروي المصادر الكلاسيكية أن دخله السنوي كان يفوق ما لأي عالم في
+      زمانه، وكان يفرّقه كلَّه في الصدقات)، وجمع بين سَعة الحديث وصرامة
+      الفقه، ورفض — كسفيان الثوري — كل تولية للسلطان.
+    description_fr: |
+      Abū al-Ḥārith al-Layth ibn Saʿd, juriste et muḥaddith prééminent de
+      l'Égypte de son temps, mourut à al-Fusṭāṭ. al-Shāfiʿī déclara la
+      célèbre phrase : « al-Layth était un plus grand juriste que Mālik,
+      mais ses étudiants n'établirent pas son école » — référence à la
+      stature indépendante d'al-Layth comme chef d'une école juridique
+      égyptienne qui s'estompa à la génération suivante tandis que celle
+      de Mālik s'imposa. D'une générosité fameuse (son revenu annuel,
+      selon les rapports classiques, dépassait celui de tout savant
+      contemporain, et qu'il distribuait en aumônes), il joignait à une
+      profonde maîtrise du ḥadīth la rigueur juridique et refusa, comme
+      Sufyān al-Thawrī, toute offre de charge publique.
+    canonical_hijri: {year: 175, precision: year}
+    canonical_gregorian: {date: 791-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-layth-ibn-saad, died]]
+    tags: [abbasid, scholar, fiqh, hadith, egypt, fustat]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Al-Layth_ibn_Sa%27d
+
+  - slug: death-of-ibn-al-mubarak
+    category: scholar_death
+    title_en: Death of ʿAbdullāh ibn al-Mubārak
+    title_ar: وفاة عبد الله بن المبارك
+    title_fr: Décès de ʿAbdullāh ibn al-Mubārak
+    description_en: |
+      Abū ʿAbd al-Raḥmān ʿAbdullāh ibn al-Mubārak al-Marwazī, the
+      paradigmatic combiner of ḥadīth scholarship, jihād on the
+      Byzantine frontier, and trade, died at Hīt on the Euphrates while
+      returning from a campaign. His Kitāb al-Jihād and Kitāb al-Zuhd —
+      both extant — set the genre standard for their respective subjects.
+      Sufyān al-Thawrī said of him, "I love to be like Ibn al-Mubārak in
+      this world and the next." His annual practice was unique: a year
+      teaching ḥadīth, a year fighting on the Byzantine frontier, a year
+      trading. The synthesis became the ideal type of the early Sunni
+      ʿālim who refused both isolation in the mosque and accommodation
+      with the state.
+    description_ar: |
+      أبو عبد الرحمن عبد الله بن المبارك المروزي — النموذج الجامع بين علم
+      الحديث والجهاد على ثغور الروم والتجارة — توفّي بهيت على الفرات راجعاً
+      من غزوة. كتابه "الجهاد" و"الزهد" — وكلاهما باقٍ — يضعان معيار النوع
+      في موضوعَيهما. وقال فيه سفيان الثوري: «وددتُ أني مثل ابن المبارك في
+      الدنيا والآخرة». وكان له برنامج فريد سنوي: عام في الحديث، وعام في
+      جهاد الروم، وعام في التجارة. صار هذا الجمع نمطاً مثالياً للعالم السنّي
+      المبكر الذي يأبى الانعزال في المسجد والمصانعة مع السلطان جميعاً.
+    description_fr: |
+      Abū ʿAbd al-Raḥmān ʿAbdullāh ibn al-Mubārak al-Marwazī, l'archétype
+      de l'union entre érudition du ḥadīth, jihād sur la frontière
+      byzantine et commerce, mourut à Hīt sur l'Euphrate au retour d'une
+      campagne. Son Kitāb al-Jihād et son Kitāb al-Zuhd — tous deux
+      conservés — établirent la norme générique sur leurs sujets
+      respectifs. Sufyān al-Thawrī dit de lui : « J'aimerais être comme
+      Ibn al-Mubārak dans ce monde et dans l'autre ». Sa pratique
+      annuelle était unique : une année à enseigner le ḥadīth, une année
+      à combattre sur la frontière byzantine, une année à commercer.
+      Cette synthèse devint le type idéal du premier ʿālim sunnite
+      refusant à la fois l'isolement dans la mosquée et l'accommodement
+      avec l'État.
+    canonical_hijri: {year: 181, precision: year}
+    canonical_gregorian: {date: 797-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+    people: [[abdullah-ibn-al-mubarak, died]]
+    tags: [abbasid, scholar, hadith, jihad, zuhd, marw]
+    importance: notable
+    verified: true
+    source_url: https://en.wikipedia.org/wiki/Abdullah_ibn_al-Mubarak

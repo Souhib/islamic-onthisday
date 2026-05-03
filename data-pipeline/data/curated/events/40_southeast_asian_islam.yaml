@@ -1,0 +1,833 @@
+# Wave 27 of curated event additions (2026-04-27).
+# Southeast Asian Sunni Muslim history — Indonesia, Malaysia, Brunei. The
+# Malay-Indonesian Islamic world has its own scholarly genealogy linking the
+# Acehnese coast through Mecca, Medina, and the Hadrami diaspora to Java,
+# Sulawesi, and Borneo. Three categories: (i) Aceh-Sumatran scholars
+# (Hamzah Fansūrī, al-Rānīrī, al-Sinkilī), (ii) the Malay-archipelago
+# eighteenth- and nineteenth-century chain of Mecca-trained Shafi'i
+# masters (Yūsuf al-Maqassārī, al-Banjārī, al-Khaṭīb al-Minangkabawī),
+# (iii) the Javanese Walisongo and the early-modern Malay sultanates
+# (Aceh, Malacca), and (iv) the founders of twentieth-century Indonesian
+# Sunni mass movements (Hāshim Asyʿarī of NU, Aḥmad Dahlān of
+# Muhammadiyah). All Sunni mainstream Shafi'i figures attested in EI2 +
+# modern Indonesian/Malay biographical references and the standard
+# academic historiography of Southeast Asian Islam (M.C. Ricklefs,
+# A.H. Johns, Azyumardi Azra). None are sahaba; none carry hadith refs.
+# Trilingual en/ar/fr throughout.
+
+events:
+  # =========================================================================
+  # ACEH-SUMATRAN SCHOLARS — THE FANSŪRĪ–RĀNĪRĪ–SINKILĪ SUCCESSION
+  # =========================================================================
+
+  - slug: death-of-hamzah-fansuri
+    category: scholar
+    title_en: Death of Hamzah Fansūrī — Pioneer of Malay Sufi Poetry
+    title_ar: وفاة حمزة الفنصوري — رائد الشعر الصوفي بالملايوية
+    title_fr: Mort de Hamzah Fansūrī — pionnier de la poésie soufie malaise
+    description_en: |
+      Hamzah Fansūrī — Acehnese Sufi poet writing in Malay, founder of
+      the syair verse form in Malay literature, and the earliest known
+      author to use Malay as a vehicle for systematic Sufi metaphysics
+      — died around 999 AH / 1590 CE. The exact place and date of his
+      death are uncertain across the surviving sources; an inscription
+      in Mecca proposed by some twentieth-century scholars has been
+      contested. His Malay treatises (*Asrār al-ʿĀrifīn*, *Sharāb
+      al-ʿĀshiqīn*) and his quatrains drew on Ibn al-ʿArabī's
+      vocabulary of *waḥdat al-wujūd* and circulated widely in the
+      Sumatran courts. A generation later his readings were sharply
+      critiqued as heterodox by the Hadrami-trained reformer
+      Nūr al-Dīn al-Rānīrī under Sultan Iskandar Thānī of Aceh. He
+      remains foundational for the formation of Malay-language
+      Islamic literature.
+    description_ar: |
+      توفي حمزة الفنصوري — الشاعر الصوفي الآشي الذي كتب بالملايوية،
+      ومؤسس قالب «الشعر» (sjair) في الأدب الملايوي، وأقدم مصنف
+      معروف اتخذ الملايوية لساناً للعرفان الصوفي في تنظير منهجي —
+      نحو سنة ٩٩٩ هـ (الموافق ١٥٩٠ ميلادي تقريباً). ومكان وفاته
+      وتاريخها بدقة غير ثابتين عند المصادر المحفوظة؛ ونقش في مكة
+      أُقترح تأريخاً لقبره عند بعض الباحثين في القرن العشرين قد
+      وقع فيه خلاف. ورسائله بالملايوية «أسرار العارفين» و«شراب
+      العاشقين» وشعره من الرباعيات استمدت من معجم الشيخ ابن العربي
+      في «وحدة الوجود»، وانتشرت في بلاطات سومطرة. وفي الجيل التالي
+      نُقد قراؤه نقداً شديداً عند المصلح الحضرمي نور الدين
+      الرانيري في عهد سلطان آشي إسكندر الثاني. وهو ركن أساسي في
+      تشكل الأدب الإسلامي بلغة الملايو.
+      
+      His death year is genuinely contested in Indonesian scholarship: classical Acehnese chronicles give 999 AH (1590 CE) as the dominant date, while a minority position based on textual evidence and his polemical exchanges with al-Rānīrī (who died 1068 AH) suggests he survived into the early 17th century. We follow the classical 999 AH attestation while acknowledging the dispute.
+      
+      سنة وفاته محل نزاع حقيقي في الدراسات الإندونيسية: تذكر السجلات الأتشيهية الكلاسيكية ٩٩٩ هـ (١٥٩٠ ميلادي) بوصفها التاريخ الأرجح، في حين يقترح قول أقل بناءً على دلائل نصية ومساجلاته مع الرانيري (المتوفى ١٠٦٨ هـ) أنه عاش إلى مطلع القرن السابع عشر. ونتبع هنا الرواية الكلاسيكية بسنة ٩٩٩ هـ مع الإقرار بالخلاف.
+    description_fr: |
+      Hamzah Fansūrī — poète soufi acehnais écrivant en malais,
+      fondateur de la forme versifiée *syair* dans la littérature
+      malaise, et le plus ancien auteur connu à avoir utilisé le
+      malais comme véhicule d'une métaphysique soufie systématique —
+      mourut vers 999 H / 1590 EC. Le lieu et la date exacts de sa
+      mort restent incertains à travers les sources survivantes ;
+      une inscription mecquoise proposée par certains chercheurs du
+      XXe siècle a été contestée. Ses traités en malais (*Asrār
+      al-ʿĀrifīn*, *Sharāb al-ʿĀshiqīn*) et ses quatrains
+      puisaient dans le vocabulaire d'Ibn al-ʿArabī sur la *waḥdat
+      al-wujūd* et circulèrent largement dans les cours
+      sumatranaises. Une génération plus tard, ses lectures furent
+      vivement critiquées comme hétérodoxes par le réformateur
+      d'origine hadramie Nūr al-Dīn al-Rānīrī sous le sultan
+      Iskandar Thānī d'Aceh. Il demeure fondamental pour la
+      formation de la littérature islamique en langue malaise.
+    canonical_hijri: {year: 999, precision: year}
+    canonical_gregorian: {date: 1590-01-01, precision: year, method: attested}
+    disputed: true
+    dispute_about: date
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[hamzah-fansuri, subject]]
+    tags: [aceh, sumatra, malay, sufism, syair, waḥdat-al-wujūd, indonesia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hamzah_Fansuri"
+
+  - slug: death-of-nur-al-din-al-raniri
+    category: scholar
+    title_en: Death of Nūr al-Dīn al-Rānīrī — Aceh Sunni Reformer
+    title_ar: وفاة نور الدين الرانيري — المصلح السني في سلطنة آشي
+    title_fr: Mort de Nūr al-Dīn al-Rānīrī — réformateur sunnite d'Aceh
+    description_en: |
+      Nūr al-Dīn ibn ʿAlī al-Rānīrī — Hadrami-Gujarati Sunni Shafi'i
+      scholar, *shaykh al-Islām* of the Sultanate of Aceh under
+      Sultan Iskandar Thānī (r. 1636-1641 CE) and Sultana Ṣafiyyat
+      al-Dīn, and the leading critic of Hamzah Fansūrī's
+      *waḥdat al-wujūd* line in the Malay-speaking world — died at
+      his birthplace Rander in Gujarat in 1068 AH / 1658 CE. Coming
+      from the Hadrami scholarly diaspora trained in the Sunni
+      tradition of southern Arabia and the Indian Ocean, he served
+      Aceh from about 1637 to 1644 before returning to India. His
+      Malay-language *Bustān al-Salāṭīn* ("Garden of Kings") is one
+      of the major Malay historical-political works of the
+      seventeenth century, and his polemics — most famously
+      *Tibyān fī Maʿrifat al-Adyān* — defined the boundaries of
+      orthodox Sunni Sufism in Acehnese court Islam.
+    description_ar: |
+      توفي الشيخ نور الدين بن علي الرانيري — العالم السني الحضرمي
+      الجوجراتي على المذهب الشافعي، شيخ الإسلام في سلطنة آشي في
+      عهد السلطان إسكندر الثاني (حكم بين ١٦٣٦ و١٦٤١ ميلادي) ثم
+      السلطانة صفية الدين، وكبير ناقدي مشرب «وحدة الوجود» الذي
+      شاع عند حمزة الفنصوري في الأوساط الملايوية — في موطن
+      ولادته «رَنْدير» بجوجرات سنة ١٠٦٨ هـ (الموافق ١٦٥٨
+      ميلادي). وكان من شتات علماء حضرموت الذين تخرجوا على تراث
+      أهل السنة بجنوب جزيرة العرب وحوض المحيط الهندي، خدم آشي بين
+      نحو سنة ١٦٣٧ ومنتصف العقد الموالي قبل أن يعود إلى الهند.
+      وكتابه بالملايوية «بستان السلاطين» من أكبر مصنفات التاريخ
+      السياسي الملايوي في القرن السابع عشر، ومؤلفه «التبيان في
+      معرفة الأديان» قعّد حدود التصوف السني في فقه أهل آشي.
+    description_fr: |
+      Nūr al-Dīn ibn ʿAlī al-Rānīrī — savant sunnite shafi'ite
+      d'origine hadramie-gujaratie, *shaykh al-islām* du Sultanat
+      d'Aceh sous le sultan Iskandar Thānī (r. 1636-1641 EC) et la
+      sultane Ṣafiyyat al-Dīn, et principal critique de la ligne
+      de la *waḥdat al-wujūd* de Hamzah Fansūrī dans le monde
+      malayophone — mourut sur son lieu de naissance, Rander dans
+      le Gujarat, en 1068 H / 1658 EC. Issu de la diaspora savante
+      hadramie formée dans la tradition sunnite du sud de l'Arabie
+      et de l'océan Indien, il servit Aceh d'environ 1637 à 1644
+      avant de retourner en Inde. Son *Bustān al-Salāṭīn* (« Le
+      jardin des rois ») en malais est l'un des grands ouvrages
+      historico-politiques malais du XVIIe siècle, et ses
+      polémiques — au premier rang desquelles *Tibyān fī Maʿrifat
+      al-Adyān* — fixèrent les limites du soufisme sunnite
+      orthodoxe dans l'islam de cour acehnais.
+    canonical_hijri: {year: 1068, precision: year}
+    canonical_gregorian: {date: 1658-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[nur-al-din-al-raniri, subject], [hamzah-fansuri, subject]]
+    tags: [aceh, hadrami, gujarat, shafi'i, malay, indonesia, bustan-al-salatin]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Nuruddin_ar-Raniri"
+
+  - slug: death-of-abd-al-rauf-al-sinkili
+    category: scholar
+    title_en: Death of ʿAbd al-Raʾūf al-Sinkilī — Mufti of Aceh
+    title_ar: وفاة عبد الرؤوف السنكلي — مفتي آشي
+    title_fr: Mort de ʿAbd al-Raʾūf al-Sinkilī — mufti d'Aceh
+    description_en: |
+      ʿAbd al-Raʾūf ibn ʿAlī al-Sinkilī al-Fanṣūrī — Acehnese Sunni
+      Shafi'i scholar, mufti of the Sultanate of Aceh under the
+      four successive sultanas of the late seventeenth century, and
+      the principal Malay-archipelago Sufi master of the
+      Shaṭṭāriyya order in his generation — died at Kuala Aceh in
+      1105 AH / 1693 CE at age about 73. After more than nineteen
+      years of study in the Hijaz under Aḥmad al-Qushāshī and
+      Ibrāhīm al-Kūrānī of Medina, he returned to Aceh and produced
+      the first complete Malay translation-and-tafsīr of the Qurʾān,
+      *Tarjumān al-Mustafīd* (a Malay rendering substantially based
+      on Tafsīr al-Bayḍāwī with material from al-Khāzin and al-
+      Jalālayn). His Malay manuals on fiqh and Sufism remained
+      reference texts in Acehnese, Banjarese, and Patani teaching
+      circles for two centuries. His tomb at Deah Raya outside
+      Banda Aceh is locally venerated as the *Tomb of Syiah Kuala*.
+    description_ar: |
+      توفي الشيخ عبد الرؤوف بن علي السنكلي الفنصوري — العالم
+      السني الآشي على المذهب الشافعي، مفتي سلطنة آشي في عهد
+      السلطانات الأربع المتعاقبات في أواخر القرن السابع عشر،
+      وكبير شيوخ الطريقة الشطارية في جزر الملايو في جيله —
+      ب«قُوَالا آشي» سنة ١١٠٥ هـ (الموافق ١٦٩٣ ميلادي) عن نحو
+      ثلاث وسبعين سنة. درس بالحجاز ما يزيد على تسع عشرة سنة على
+      الإمامين أحمد القشاشي وإبراهيم الكوراني المدني، ثم عاد إلى
+      آشي فأخرج أول ترجمة وتفسير كامل للقرآن الكريم بالملايوية،
+      «ترجمان المستفيد» (نقل ملايوي اعتمد جوهرياً على «تفسير
+      البيضاوي» مع زيادات من «لباب التأويل» للخازن و«الجلالين»).
+      ومتونه بالملايوية في الفقه والتصوف ظلت مراجع التدريس عند
+      أهل آشي وبنجار وفطاني قرنين كاملين. وضريحه ب«ضياء راية»
+      في ضواحي «بَنْدَرْ آشي» مزار يُعرف ب«ضريح شيَخ كوالا».
+    description_fr: |
+      ʿAbd al-Raʾūf ibn ʿAlī al-Sinkilī al-Fanṣūrī — savant
+      sunnite shafi'ite acehnais, mufti du Sultanat d'Aceh sous
+      les quatre sultanes successives de la fin du XVIIe siècle,
+      et principal maître soufi shaṭṭārī de l'archipel malais de
+      sa génération — mourut à Kuala Aceh en 1105 H / 1693 EC à
+      l'âge d'environ 73 ans. Après plus de dix-neuf ans d'études
+      au Hijaz auprès d'Aḥmad al-Qushāshī et d'Ibrāhīm al-Kūrānī
+      de Médine, il revint à Aceh et produisit la première
+      traduction-tafsīr complète du Coran en malais, *Tarjumān
+      al-Mustafīd* (un rendu malais substantiellement fondé sur
+      le *Tafsīr al-Bayḍāwī*, complété par des éléments d'al-
+      Khāzin et des *Jalālayn*). Ses manuels malais de fiqh et de
+      soufisme restèrent des textes de référence dans les cercles
+      d'enseignement acehnais, banjarais et patani pendant deux
+      siècles. Son tombeau de Deah Raya, en périphérie de Banda
+      Aceh, est localement vénéré comme le *Tomb of Syiah Kuala*.
+    canonical_hijri: {year: 1105, precision: year}
+    canonical_gregorian: {date: 1693-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[abd-al-rauf-al-sinkili, subject]]
+    tags: [aceh, sumatra, shafi'i, shattariyya, malay-tafsir, indonesia, hijaz]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Rauf_al-Fansuri"
+
+  # =========================================================================
+  # MALAY-ARCHIPELAGO MECCA-TRAINED CHAIN
+  # =========================================================================
+
+  - slug: death-of-yusuf-al-maqassari
+    category: scholar
+    title_en: Death of Yūsuf al-Maqassārī — Sulawesi Sufi Exiled to the Cape
+    title_ar: وفاة الشيخ يوسف المقصري — صوفي سُلَوَيسي مَنفي إلى الكاب
+    title_fr: Mort de Yūsuf al-Maqassārī — soufi de Sulawesi exilé au Cap
+    description_en: |
+      Yūsuf ibn ʿAbd Allāh Abū al-Maḥāsin al-Tāj al-Khalwatī
+      al-Maqassārī — Sunni Shafi'i scholar of noble Makassar
+      descent, master of the Khalwatī Sufi order trained in the
+      Hijaz, and prisoner-exile of the Dutch East India Company
+      — died at Zandvliet farm in the Cape of Good Hope on 23
+      May 1699 CE (23 Dhū al-Qaʿda 1110 AH) at age 72. He had spent more than
+      twenty years in the Hijaz studying with the same circle of
+      Medinese Sunni Sufi masters that trained al-Sinkilī, then
+      returned to lead resistance against Dutch expansion at
+      Banten in west Java alongside Sultan Ageng Tirtayasa.
+      Captured in 1683 CE, he was deported first to Ceylon and
+      then in 1694 CE to the Cape. He is honoured as a
+      foundational figure of South African Islam: the Cape Malay
+      community treats him as their patron saint, and his tomb
+      at Macassar (Faure) outside Cape Town remains one of the
+      *kramats* (saint shrines) ringing the city.
+    description_ar: |
+      توفي الشيخ يوسف بن عبد الله أبو المحاسن التاج الخلواتي
+      المقصري — العالم السني السُلَوَيسي على المذهب الشافعي من
+      أكابر بيوتات مكاسر، شيخ الطريقة الخلوتية في جيله من تلامذة
+      الحرمين، والمنفي عند شركة الهند الشرقية الهولندية — في
+      مزرعة «زانتْفليت» بـ«رأس الرجاء الصالح» يوم ٢٣ ماي ١٦٩٩
+      ميلادي (الموافق ٢٣ ذي القعدة سنة ١١١٠ هـ) عن اثنتين
+      وسبعين سنة. درس
+      بالحجاز ما يزيد على عشرين سنة على نفس حلقة شيوخ التصوف
+      السني المدنيين الذين تخرّج عليهم السنكلي، ثم عاد إلى جاوة
+      فقاد المقاومة في «بانتن» على غربها مع السلطان أكَنغ
+      تيرتاياسا في وجه التوسع الهولندي. وقُبض عليه سنة ١٦٨٣
+      ميلادي، ونُفي أولاً إلى سيلان ثم سنة ١٦٩٤ ميلادي إلى رأس
+      الرجاء الصالح. وهو يُعدّ مؤسس الإسلام في جنوب أفريقيا:
+      جالية «كاب ملايو» تتخذه شفيعها، وضريحه في «مكاسر» (فور)
+      من ضواحي كيب تاون من «الكرامات» الكبرى المحيطة بالمدينة.
+    description_fr: |
+      Yūsuf ibn ʿAbd Allāh Abū al-Maḥāsin al-Tāj al-Khalwatī
+      al-Maqassārī — savant sunnite shafi'ite de noble descendance
+      makassaraise, maître de l'ordre soufi khalwatī formé au
+      Hijaz, et prisonnier-exilé de la Compagnie néerlandaise
+      des Indes orientales — mourut à la ferme Zandvliet, au
+      cap de Bonne-Espérance, le 23 mai 1699 EC (23 Dhū al-
+      Qaʿda 1110 H) à l'âge de 72 ans. Il avait passé plus de vingt ans au Hijaz
+      à étudier auprès du même cercle de maîtres soufis sunnites
+      médinois qui forma al-Sinkilī, puis était rentré à Banten,
+      dans l'ouest de Java, pour mener la résistance contre
+      l'expansion néerlandaise aux côtés du sultan Ageng
+      Tirtayasa. Capturé en 1683, il fut déporté d'abord à Ceylan
+      puis en 1694 au Cap. Il est honoré comme une figure
+      fondatrice de l'islam sud-africain : la communauté
+      Cape Malay le considère comme son saint patron, et son
+      tombeau à Macassar (Faure), en périphérie du Cap, demeure
+      l'un des *kramats* (sanctuaires de saints) qui ceinturent
+      la ville.
+    canonical_hijri: {year: 1110, month: 11, day: 23, precision: day}
+    canonical_gregorian: {date: 1699-05-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[yusuf-al-maqassari, subject]]
+    tags: [sulawesi, makassar, banten, cape-town, south-africa, khalwatiyya, shafi'i, dutch-colonial]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sheikh_Yusuf"
+
+  - slug: death-of-muhammad-arshad-al-banjari
+    category: scholar
+    title_en: Death of Muḥammad Arshad al-Banjārī — Author of Sabīl al-Muhtadīn
+    title_ar: وفاة محمد أرشد البنجاري — مؤلف «سبيل المهتدين»
+    title_fr: Mort de Muḥammad Arshad al-Banjārī — auteur de Sabīl al-Muhtadīn
+    description_en: |
+      Muḥammad Arshad ibn ʿAbd Allāh al-Banjārī — Sunni Shafi'i
+      scholar of the Banjar Sultanate in southern Borneo
+      (Kalimantan), author of *Sabīl al-Muhtadīn lil-Tafaqquh fī
+      Amr al-Dīn*, the most influential Malay-language Shafi'i
+      *fiqh* manual of the eighteenth and nineteenth centuries —
+      died at Martapura in 1227 AH / 1812 CE at age about 102.
+      Sent by the Banjar court for advanced study, he spent some
+      thirty years in Mecca and Medina before returning to
+      Borneo around 1772. His Malay translation-and-adaptation
+      of al-Ramlī's *Nihāyat al-Muḥtāj* (i.e. *Sabīl al-Muhtadīn*)
+      systematised Shafi'i fiqh for the Malay-Indonesian reading
+      public and remained a core seminary text from the
+      Sumatran coast through Patani and Kelantan well into the
+      twentieth century. His students seeded the chains of
+      Shafi'i learning across Banjar, Brunei, and the Malay
+      Peninsula.
+    description_ar: |
+      توفي الإمام محمد أرشد بن عبد الله البنجاري — العالم
+      السني على المذهب الشافعي في سلطنة بنجار بجنوب بورنيو
+      («كاليمنتان»)، مؤلف «سبيل المهتدين للتفقه في أمر الدين»،
+      أعظم متون الفقه الشافعي بالملايوية في القرنين الثامن
+      عشر والتاسع عشر — بـ«مرتفور» سنة ١٢٢٧ هـ (الموافق ١٨١٢
+      ميلادي) عن نحو مئة وسنتين. وأرسلته بلاط بنجار للتحصيل،
+      فأقام بمكة والمدينة قرابة ثلاثين سنة، ثم عاد إلى بورنيو
+      نحو سنة ١١٨٦ هـ (الموافق ١٧٧٢ ميلادي). و«سبيل
+      المهتدين» الذي ترجم فيه «نهاية المحتاج» للرملي وأعاد
+      صياغته بالملايوية قعّد فقه أهل الشافعية لقراء الملايو
+      والإندونيسيين وظل من المتون المعتمدة في المعاهد من
+      ساحل سومطرة إلى فطاني وكلنتن إلى منتصف القرن العشرين.
+      وعلى يديه تكونت سلاسل التحصيل الشافعي عبر بنجار وبروناي
+      وشبه جزيرة الملايو.
+    description_fr: |
+      Muḥammad Arshad ibn ʿAbd Allāh al-Banjārī — savant
+      sunnite shafi'ite du Sultanat de Banjar dans le sud de
+      Bornéo (Kalimantan), auteur de *Sabīl al-Muhtadīn lil-
+      Tafaqquh fī Amr al-Dīn*, le manuel de *fiqh* shafi'ite en
+      malais le plus influent des XVIIIe et XIXe siècles —
+      mourut à Martapura en 1227 H / 1812 EC à l'âge d'environ
+      102 ans. Envoyé par la cour de Banjar pour ses études
+      avancées, il passa quelque trente ans à La Mecque et à
+      Médine avant de revenir à Bornéo vers 1772. Sa
+      traduction-adaptation malaise de la *Nihāyat al-Muḥtāj*
+      d'al-Ramlī (*Sabīl al-Muhtadīn*) systématisa le fiqh
+      shafi'ite pour le public lettré malais-indonésien et
+      demeura un texte central de séminaire depuis la côte de
+      Sumatra jusqu'à Patani et Kelantan bien avant le milieu
+      du XXe siècle. Ses élèves ensemencèrent les chaînes de
+      l'apprentissage shafi'ite à travers Banjar, le Brunei et
+      la péninsule malaise.
+    canonical_hijri: {year: 1227, precision: year}
+    canonical_gregorian: {date: 1812-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-arshad-al-banjari, subject]]
+    tags: [borneo, kalimantan, banjar, shafi'i, malay-fiqh, sabil-al-muhtadin, indonesia]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Grand_Mosque_of_Sabilal_Muhtadin"
+
+  - slug: death-of-ahmad-al-khatib-al-minangkabawi
+    category: scholar
+    title_en: Death of Aḥmad al-Khaṭīb al-Minangkabawī — Imām of Mecca's Shafi'is
+    title_ar: وفاة أحمد الخطيب المنانكباوي — إمام الشافعية في مكة
+    title_fr: Mort d'Aḥmad al-Khaṭīb al-Minangkabawī — imām des shafi'ites de La Mecque
+    description_en: |
+      Aḥmad ibn ʿAbd al-Laṭīf al-Khaṭīb al-Minangkabawī — Sunni
+      Shafi'i scholar of Minangkabau (West Sumatra) origin, head
+      (*imām*) of the Shafi'i school at the Holy Mosque of Mecca
+      under the late Ottoman Hijaz, and a central teaching node
+      between Mecca and the Indonesian archipelago — died at
+      Mecca on 9 October 1915 CE (late 1333 AH) at age about 55.
+      Born in West Sumatra, sent to Mecca for study as a young
+      man, he never returned to the archipelago, but his Mecca
+      circle taught the next generation of Indonesian Sunni
+      reformers and traditionalists alike: among his students
+      were Aḥmad Dahlān (founder of Muhammadiyah), Hāshim Asyʿarī
+      (founder of Nahdlatul Ulama), ʿAbd al-Karīm Amrullāh, and
+      a long line of Minangkabau, Acehnese, and Javanese
+      ʿulamāʾ. Some Indonesian sources record his death-year as
+      1334 AH; the conversion is at the boundary of the two
+      Hijri years.
+    description_ar: |
+      توفي الإمام أحمد بن عبد اللطيف الخطيب المنانكباوي —
+      العالم السني الشافعي السومطري المنانكبائي، إمام
+      الشافعية بالمسجد الحرام في مكة المكرمة في أواخر العصر
+      العثماني بالحجاز، وقطب التواصل التعليمي بين الحرمين
+      والأرخبيل الإندونيسي — بمكة المكرمة يوم ٩ أكتوبر ١٩١٥
+      ميلادي (في أواخر سنة ١٣٣٣ هـ) عن نحو خمس وخمسين سنة.
+      وُلد بسومطرة الغربية، وأُرسل لمكة شاباً، فلم يعد إلى
+      الأرخبيل قط، لكن مجلسه بمكة درّس الجيل التالي من علماء
+      أهل السنة الإندونيسيين على اختلاف اتجاهاتهم بين الإصلاح
+      والتقليد: من تلامذته أحمد دحلان (مؤسس «المحمدية»)، وهاشم
+      أشعري (مؤسس «نهضة العلماء»)، وعبد الكريم أمر الله، وعدد
+      كبير من علماء المنانكباو وآشي وجاوة. وبعض المصادر
+      الإندونيسية تذكر سنة وفاته ١٣٣٤ هـ، وهو على حد التحويل
+      بين السنتين الهجريتين.
+    description_fr: |
+      Aḥmad ibn ʿAbd al-Laṭīf al-Khaṭīb al-Minangkabawī —
+      savant sunnite shafi'ite d'origine minangkabau (Sumatra
+      occidental), chef (*imām*) de l'école shafi'ite à la
+      Mosquée sacrée de La Mecque sous la fin du Hijaz ottoman,
+      et nœud d'enseignement central entre La Mecque et
+      l'archipel indonésien — mourut à La Mecque le 9 octobre
+      1915 EC (fin 1333 H) à l'âge d'environ 55 ans. Né à
+      Sumatra occidental, envoyé à La Mecque jeune homme, il
+      ne retourna jamais à l'archipel, mais son cercle
+      mecquois forma la génération suivante de réformateurs
+      comme de traditionalistes sunnites indonésiens : parmi
+      ses élèves figurent Aḥmad Dahlān (fondateur de la
+      Muhammadiyah), Hāshim Asyʿarī (fondateur de la Nahdlatul
+      Ulama), ʿAbd al-Karīm Amrullāh, ainsi qu'une longue
+      lignée de *ʿulamāʾ* minangkabaus, acehnais et javanais.
+      Certaines sources indonésiennes situent sa mort en 1334 H;
+      la conversion se trouve à la frontière des deux années
+      hégiriennes.
+    canonical_hijri: {year: 1333, month: 11, day: 30, precision: day}
+    canonical_gregorian: {date: 1915-10-09, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-al-khatib-al-minangkabawi, subject]]
+    tags: [minangkabau, sumatra, mecca, shafi'i, indonesia, ottoman-hijaz, teacher]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Khatib_al-Minangkabawi"
+
+  # =========================================================================
+  # JAVANESE WALISONGO AND EARLY-MODERN MALAY SULTANATES
+  # =========================================================================
+
+  - slug: death-of-sunan-ampel
+    category: scholar
+    title_en: Death of Sunan Ampel — Walisongo of Surabaya
+    title_ar: وفاة السنن أمبيل — أحد ولي سَنغا (الأولياء التسعة)
+    title_fr: Mort de Sunan Ampel — Walisongo de Surabaya
+    description_en: |
+      Raden Rahmat, known to Javanese tradition as Sunan Ampel —
+      one of the *Walisongo* (Wali Sanga, the "Nine Saints" of
+      Java), founder of the Ampel pesantren in Surabaya, and the
+      central figure of the second generation of Javanese Islamic
+      mission — died at Surabaya in about 885 AH / 1481 CE. He
+      was of Champa origin (present-day central Vietnam) and is
+      counted in Javanese tradition as the elder of the Walisongo
+      circle, the teacher of Sunan Bonang, Sunan Drajat, Sunan
+      Giri, and several others. His tomb in the Ampel mosque
+      complex remains one of the most-visited Sunni pilgrimage
+      sites in Indonesia. The Walisongo are the foundational
+      figures of Javanese Islam in standard Javanese chronicles
+      (*Babad Tanah Jawi*) and modern academic historiography
+      (M.C. Ricklefs, A.H. Johns, Azyumardi Azra).
+    description_ar: |
+      توفي الراذن رحمة، المعروف في التراث الجاوي ب«سنن أمبيل»
+      — أحد التسعة (Walisongo) الذين يُنسب إليهم إسلام أرض جاوة،
+      مؤسس معهد «أمبيل» (pesantren) ب«سورابايا»، وقطب الجيل
+      الثاني من علماء الدعوة الجاوية — ب«سورابايا» نحو سنة
+      ٨٨٥ هـ (الموافق ١٤٨١ ميلادي). أصله من «تشامبا» (وسط
+      الفيتنام اليوم)، ويُعدّ في التراث الجاوي شيخ حلقة «والي
+      سَنغا»، وأستاذ سنن بونانغ وسنن دراجات وسنن غيري وعدد من
+      أقرانه. وضريحه في رحاب جامع أمبيل من أكثر مزارات السنة
+      شهرةً في إندونيسيا. والتسعة (Walisongo) هم آباء الإسلام
+      الجاوي عند الإجماع في الأَخبار الجاوية الكلاسيكية «بَبَدْ
+      تَنَه جاوي» وعند المؤرخين المعاصرين (ريكليفس، جونز،
+      أزرى).
+    description_fr: |
+      Raden Rahmat, connu dans la tradition javanaise sous le
+      nom de Sunan Ampel — l'un des *Walisongo* (Wali Sanga,
+      les « Neuf Saints » de Java), fondateur du *pesantren*
+      d'Ampel à Surabaya, et figure centrale de la seconde
+      génération de la mission islamique javanaise — mourut à
+      Surabaya vers 885 H / 1481 EC. Il était d'origine
+      champa (centre du Vietnam actuel) et est considéré dans
+      la tradition javanaise comme l'aîné du cercle des
+      Walisongo, maître de Sunan Bonang, Sunan Drajat, Sunan
+      Giri et de plusieurs autres. Son tombeau dans le complexe
+      de la mosquée d'Ampel demeure l'un des lieux de pèlerinage
+      sunnite les plus visités d'Indonésie. Les Walisongo sont
+      les figures fondatrices de l'islam javanais dans les
+      chroniques javanaises classiques (*Babad Tanah Jawi*) et
+      dans l'historiographie académique moderne (M.C. Ricklefs,
+      A.H. Johns, Azyumardi Azra).
+    canonical_hijri: {year: 885, precision: year}
+    canonical_gregorian: {date: 1481-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sunan-ampel, subject]]
+    tags: [java, surabaya, walisongo, champa, pesantren, indonesia]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sunan_Ampel"
+
+  - slug: death-of-sunan-kalijaga
+    category: scholar
+    title_en: Death of Sunan Kalijaga — Walisongo of Java
+    title_ar: وفاة السنن كاليجاغا — من والي سَنغا الجاويين
+    title_fr: Mort de Sunan Kalijaga — Walisongo de Java
+    description_en: |
+      Raden Mas Said, known in Javanese tradition as Sunan
+      Kalijaga — one of the *Walisongo* (Wali Sanga) credited
+      with the Islamisation of Java in the early sixteenth
+      century, distinctive among the Nine Saints for his use of
+      indigenous Javanese cultural forms (the *gamelan*
+      orchestra and *wayang* shadow-puppet theatre) as vehicles
+      for *daʿwa* — died at Kadilangu near Demak around the
+      early sixteenth century. Javanese tradition gives a death
+      around 927 AH / 1521 CE; some modern reconstructions
+      from regional chronicles propose a slightly earlier
+      year. He was traditionally a younger contemporary of
+      Sunan Ampel and is associated in Javanese chronicles
+      with the founding of the Demak Sultanate and with the
+      adaptation of the popular *Mahābhārata*-derived wayang
+      cycles to a Sunni Muslim moral framework.
+    description_ar: |
+      توفي الراذن ماس سعيد، المعروف عند الجاويين ب«سنن
+      كاليجاغا» — أحد «والي سنغا» (Walisongo) الذين يُنسب
+      إليهم إسلام جاوة في أوائل القرن السادس عشر الميلادي،
+      ومميَّز عنهم باستعماله الفنون الجاوية المتوارثة
+      («جاملان» و«وايانغ» مسرح الظل) أداةً للدعوة — ب«كاديلانغو»
+      من ضواحي «دَماك» نحو أوائل القرن السادس عشر الميلادي.
+      ويذكر التراث الجاوي وفاته نحو سنة ٩٢٧ هـ (الموافق
+      ١٥٢١ ميلادي)، وبعض الباحثين المعاصرين يقترح من
+      المصادر الإقليمية سنةً أقدم بقليل. وكان في تقدير
+      التراث الجاوي من معاصري سنن أمبيل من جيله، ويُنسب إليه
+      إسهام في تأسيس سلطنة دَماك، وفي إعادة صياغة دورات
+      «وايانغ» المستلهمة من «المهابهارتا» في إطار أخلاقي
+      سني.
+      
+      Javanese chronicles (*Babad Tanah Jawi*) give traditional dates ranging widely from late 9th-century Hijri (early-mid 16th century CE); we follow the Babad's modal attestation of ~927 AH (1521 CE) while noting that the dating of all the Walisongo is approximate Javanese-tradition rather than strict classical-Sunni source attestation.
+      
+      تذكر المخطوطات الجاوية («بابد تانه جاوي») تواريخ تقليدية تتراوح بين أواخر القرن التاسع الهجري ومنتصف القرن السادس عشر الميلادي؛ ونتبع هنا الرواية الأكثر تواتراً في «بابد تانه جاوي» بنحو ٩٢٧ هـ (١٥٢١ ميلادي)، مع التنبيه أن تأريخ «الأولياء التسعة» جميعاً تقريبي يتبع التراث الجاوي لا روايات كلاسيكية سنية محققة.
+    description_fr: |
+      Raden Mas Said, connu dans la tradition javanaise sous
+      le nom de Sunan Kalijaga — l'un des *Walisongo* (Wali
+      Sanga) crédités de l'islamisation de Java au début du
+      XVIe siècle, distinct au sein des Neuf Saints par son
+      usage des formes culturelles javanaises autochtones
+      (l'orchestre *gamelan* et le théâtre d'ombres *wayang*)
+      comme véhicules de la *daʿwa* — mourut à Kadilangu, près
+      de Demak, vers le début du XVIe siècle. La tradition
+      javanaise situe sa mort vers 927 H / 1521 EC; certaines
+      reconstructions modernes à partir de chroniques
+      régionales proposent une année légèrement antérieure.
+      Il fut traditionnellement un cadet de Sunan Ampel et
+      est associé dans les chroniques javanaises à la
+      fondation du Sultanat de Demak ainsi qu'à l'adaptation
+      des cycles populaires *wayang* d'inspiration
+      *Mahābhārata* à un cadre moral sunnite.
+    canonical_hijri: {year: 927, precision: year}
+    canonical_gregorian: {date: 1521-01-01, precision: year, method: attested}
+    disputed: true
+    dispute_about: date
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[sunan-kalijaga, subject]]
+    tags: [java, demak, walisongo, gamelan, wayang, dawah, indonesia]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sunan_Kalijaga"
+
+  - slug: founding-of-malacca-sultanate
+    category: founding
+    title_en: Founding of the Malacca Sultanate as a Muslim State
+    title_ar: تأسيس سلطنة ملقا دولةً إسلامية
+    title_fr: Fondation du Sultanat de Malacca comme État musulman
+    description_en: |
+      Around 824 AH / 1414 CE the ruler of the new entrepôt at
+      the mouth of the Bertam River — known in Malay tradition
+      as Parameswara, the former king of Singapura who had fled
+      after the sack of his city in 1398 — converted to Islam
+      and took the throne-name Iskandar Shāh, marking the
+      decisive transition of Malacca to a Muslim sultanate.
+      Founded as a settlement *c.* 1400 CE, Malacca within a
+      generation became the principal trading state of the
+      Strait, the regional sponsor of Islamic learning across
+      the Malay world, and the political-cultural model later
+      copied by Aceh, Patani, Brunei, and the East-Indonesian
+      sultanates. The Portuguese conquered Malacca in 1511, but
+      its religious and literary legacy — including the codified
+      Malay courtly Islam preserved in the *Sejarah Melayu* —
+      shaped the region for centuries.
+    description_ar: |
+      نحو سنة ٨٢٤ هـ (الموافق ١٤١٤ ميلادي) أعلن صاحب الميناء
+      الحديث عند مصبّ نهر «برتام» — الذي تذكره الأَخبار
+      الملايوية باسم «براميسوارا»، الملك السابق ل«سَنغافورا»
+      الفارَّ بعد سقوط مدينته سنة ١٣٩٨ ميلادي — إسلامه واتخذ
+      لقب «إسكندر شاه»، فتحوّلت ملقا تحوّلاً قاطعاً إلى
+      سلطنة إسلامية. تأسست المدينة قرابة سنة ١٤٠٠ ميلادي،
+      وفي جيل واحد صارت ملقا قبلة التجارة في «بُغَاز ملقا»،
+      وراعية العلم الإسلامي في عموم أرض الملايو، والنموذج
+      السياسي والمدني الذي حاكاه لاحقاً سلاطين آشي وفطاني
+      وبروناي وسلاطين شرق إندونيسيا. وفتحها البرتغاليون سنة
+      ١٥١١ ميلادي، لكن ميراثها الديني والأدبي — ومنه إسلام
+      البلاط الملايوي المُكوَّد في «شجرة الملايو» (Sejarah
+      Melayu) — صاغ المنطقة قروناً بعدها.
+      
+      The founding date is contested: Tomé Pires's Portuguese-era account places it ~1396 CE; *Sejarah Melayu* gives ~1400-1414; modern historiography (Wolters, Andaya) settles on circa 1400-1414. We use 824 AH (≈1414 CE) as the classical-tradition modal year while flagging the dispute.
+      
+      تاريخ التأسيس محل خلاف: روايات عصر البرتغاليين عند توميه بيريش ترجعه إلى نحو ١٣٩٦ ميلادي؛ ويذكر «سجاره ميلايو» نحو ١٤٠٠-١٤١٤ ميلادي؛ والتاريخ الحديث (وولتر وأنداي) يستقر على ١٤٠٠-١٤١٤. ونستعمل هنا سنة ٨٢٤ هـ (أي نحو ١٤١٤ ميلادي) بوصفها السنة الأكثر تواتراً في التراث الكلاسيكي مع تنبيه الخلاف.
+    description_fr: |
+      Vers 824 H / 1414 EC, le souverain du nouvel entrepôt
+      situé à l'embouchure de la rivière Bertam — connu dans
+      la tradition malaise sous le nom de Parameswara, ancien
+      roi de Singapura qui avait fui après le sac de sa cité
+      en 1398 — se convertit à l'islam et prit le nom royal
+      d'Iskandar Shāh, marquant la transition décisive de
+      Malacca en sultanat musulman. Fondée comme implantation
+      *vers* 1400 EC, Malacca devint en une génération l'État
+      commercial principal du détroit, le mécène régional du
+      savoir islamique dans tout le monde malais, et le modèle
+      politico-culturel imité plus tard par Aceh, Patani, le
+      Brunei et les sultanats d'Indonésie orientale. Les
+      Portugais conquirent Malacca en 1511, mais son héritage
+      religieux et littéraire — y compris l'islam de cour
+      malais codifié dans la *Sejarah Melayu* — façonna la
+      région pendant des siècles.
+    canonical_hijri: {year: 824, precision: year}
+    canonical_gregorian: {date: 1414-01-01, precision: year, method: attested}
+    disputed: true
+    dispute_about: date
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[parameswara-iskandar-shah, subject]]
+    tags: [malacca, malaysia, malay, sultanate, parameswara, sejarah-melayu, founding]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+
+  - slug: founding-of-aceh-sultanate
+    category: founding
+    title_en: Founding of the Aceh Sultanate
+    title_ar: تأسيس سلطنة آشي
+    title_fr: Fondation du Sultanat d'Aceh
+    description_en: |
+      The Sultanate of Aceh on the northern tip of Sumatra was
+      founded in the late ninth-Hijri / late fifteenth-CE
+      century — Indonesian historiography commonly dates the
+      foundation to about 885 AH / 1480 CE, while ʿAlī Mughāyat
+      Shāh (r. 1514-1530 CE) is credited with consolidating it
+      into a major regional power in the early sixteenth century
+      by absorbing the older sultanates of Pedir and Pasai. The
+      first major Indonesian sultanate of the sixteenth century,
+      Aceh became the principal Sunni Shafi'i polity of the
+      Malay-Indonesian archipelago — a key node on the spice and
+      pilgrim routes between the Indian Ocean and the Strait, a
+      patron of the great Acehnese Sufi-scholarly succession of
+      Hamzah Fansūrī, al-Rānīrī, al-Sinkilī, and an early
+      diplomatic correspondent of the Ottoman Sublime Porte.
+      Aceh was honoured in regional usage as *Serambi Mekkah*,
+      "the Verandah of Mecca."
+    description_ar: |
+      تأسست سلطنة آشي على رأس سومطرة الشمالي في أواخر القرن
+      التاسع الهجري / أواخر الخامس عشر الميلادي — يؤرخ تاريخ
+      إندونيسيا الحديث تأسيسها نحو سنة ٨٨٥ هـ (الموافق ١٤٨٠
+      ميلادي)، فيما يُنسب إلى السلطان علي مغايث شاه (حكم بين
+      ١٥١٤ و١٥٣٠ ميلادي) توحيدها بضمّ سلطنتي «بِدير» و«بَسَي»
+      الأقدم وإقامتها قوّةً إقليميةً في أوائل القرن السادس
+      عشر. وكانت أول سلطنة إندونيسية كبرى في القرن السادس
+      عشر، فصارت آشي الدولة الشافعية السنية الكبرى في
+      الأرخبيل الملايوي الإندونيسي، وعقدةً رئيسة على طرق
+      البخور والحج بين المحيط الهندي و«بُغَاز ملقا»،
+      وراعية حلقة آشي العلمية الكبرى من حمزة الفنصوري ونور
+      الدين الرانيري وعبد الرؤوف السنكلي، ومن أوائل من
+      راسل الباب العالي العثماني دبلوماسياً. واشتُهرت آشي
+      عند أهل المنطقة باسم «شُرفة مكة» (Serambi Mekkah).
+    description_fr: |
+      Le Sultanat d'Aceh, à la pointe nord de Sumatra, fut
+      fondé à la fin du IXe siècle hégirien / fin du XVe
+      siècle EC — l'historiographie indonésienne situe
+      communément sa fondation vers 885 H / 1480 EC, tandis
+      que ʿAlī Mughāyat Shāh (r. 1514-1530 EC) est crédité
+      de l'avoir consolidé en une puissance régionale majeure
+      au début du XVIe siècle en absorbant les anciens
+      sultanats de Pedir et de Pasai. Premier grand sultanat
+      indonésien du XVIe siècle, Aceh devint la principale
+      polity sunnite shafi'ite de l'archipel malais-
+      indonésien — un nœud clé sur les routes des épices et
+      du pèlerinage entre l'océan Indien et le détroit, un
+      mécène de la grande succession savante-soufie acehnaise
+      de Hamzah Fansūrī, al-Rānīrī, al-Sinkilī, et un
+      correspondant diplomatique précoce de la Sublime Porte
+      ottomane. Aceh fut honorée dans l'usage régional comme
+      *Serambi Mekkah*, « la Véranda de La Mecque ».
+    canonical_hijri: {year: 885, precision: year}
+    canonical_gregorian: {date: 1480-01-01, precision: year, method: attested}
+    disputed: true
+    dispute_about: date
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ali-mughayat-shah-aceh, subject]]
+    tags: [aceh, sumatra, sultanate, shafi'i, indonesia, founding, ottoman-relations]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Aceh_Sultanate"
+
+  # =========================================================================
+  # FOUNDERS OF TWENTIETH-CENTURY INDONESIAN SUNNI MASS MOVEMENTS
+  # =========================================================================
+
+  - slug: death-of-ahmad-dahlan
+    category: scholar
+    title_en: Death of Aḥmad Dahlān — Founder of Muhammadiyah
+    title_ar: وفاة أحمد دحلان — مؤسس «المحمدية»
+    title_fr: Mort d'Aḥmad Dahlān — fondateur de la Muhammadiyah
+    description_en: |
+      Muḥammad Darwīsh, known after his return from Mecca as
+      Kyai Hajji Aḥmad Dahlān — Indonesian Sunni Shafi'i
+      scholar of Yogyakarta, student in Mecca of Aḥmad al-
+      Khaṭīb al-Minangkabawī and the Sunni reformist circle
+      shaped by ʿAbduh and Riḍā, and founder on 18 November
+      1912 CE of *Muhammadiyah*, the largest modernist Sunni
+      mass-movement of Indonesia — died at Yogyakarta on 23
+      February 1923 CE (7 Rajab 1341 AH) at age 54. He led
+      Muhammadiyah from its founding until his death; the
+      organisation he created built networks of schools,
+      orphanages, hospitals, and women's wings (*ʿĀʾisyiyyah*)
+      across the archipelago and remains one of the two
+      pillars of organised Sunni Islam in twenty-first-
+      century Indonesia, with tens of millions of members.
+    description_ar: |
+      توفي محمد درويش، المعروف بعد عودته من مكة المكرمة
+      ب«الكياي الحاج أحمد دحلان» — العالم السني الإندونيسي
+      على المذهب الشافعي من «يوغياكرتا»، تلميذ الإمام أحمد
+      الخطيب المنانكباوي بمكة وحلقة الإصلاح السني المتأثرة
+      بمدرسة الشيخ محمد عبده والشيخ محمد رشيد رضا، ومؤسس
+      «المحمدية» يوم ١٨ نوفمبر ١٩١٢ ميلادي، أكبر حركة
+      تجديدية سنية شعبية في إندونيسيا — ب«يوغياكرتا» يوم
+      ٢٣ فيفري ١٩٢٣ ميلادي (الموافق ٧ رجب سنة ١٣٤١ هـ) عن أربع
+      وخمسين سنة. وقاد «المحمدية» من تأسيسها إلى وفاته،
+      فبنت الجمعية شبكات من المدارس ودور الأيتام والمستشفيات
+      وأقسام النساء («العائشية») في عموم الأرخبيل، وهي إلى
+      اليوم أحد ركني الإسلام السني المنظَّم في إندونيسيا في
+      القرن الحادي والعشرين بعشرات الملايين من المنخرطين.
+    description_fr: |
+      Muḥammad Darwīsh, connu après son retour de La Mecque
+      sous le nom de Kyai Hajji Aḥmad Dahlān — savant
+      sunnite shafi'ite indonésien de Yogyakarta, élève à
+      La Mecque d'Aḥmad al-Khaṭīb al-Minangkabawī et du
+      cercle réformiste sunnite façonné par ʿAbduh et Riḍā,
+      et fondateur le 18 novembre 1912 EC de la
+      *Muhammadiyah*, le plus grand mouvement de masse
+      sunnite moderniste d'Indonésie — mourut à Yogyakarta
+      le 23 février 1923 EC (7 Rajab 1341 H) à l'âge de 54 ans.
+      Il dirigea la Muhammadiyah depuis sa fondation
+      jusqu'à sa mort; l'organisation qu'il créa bâtit des
+      réseaux d'écoles, d'orphelinats, d'hôpitaux et de
+      sections féminines (*ʿĀʾisyiyyah*) à travers tout
+      l'archipel, et demeure l'un des deux piliers de
+      l'islam sunnite organisé dans l'Indonésie du XXIe
+      siècle, avec des dizaines de millions de membres.
+    canonical_hijri: {year: 1341, month: 7, day: 7, precision: day}
+    canonical_gregorian: {date: 1923-02-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[ahmad-dahlan, subject], [ahmad-al-khatib-al-minangkabawi, subject]]
+    tags: [yogyakarta, java, muhammadiyah, modernist, shafi'i, indonesia, twentieth-century]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ahmad_Dahlan"
+
+  - slug: death-of-hashim-asyari
+    category: scholar
+    title_en: Death of Hāshim Asyʿarī — Founder of Nahdlatul Ulama
+    title_ar: وفاة هاشم أشعري — مؤسس «نهضة العلماء»
+    title_fr: Mort de Hāshim Asyʿarī — fondateur de la Nahdlatul Ulama
+    description_en: |
+      Muḥammad Hāshim Asyʿarī — Javanese Sunni Shafi'i scholar
+      of Jombang, leading muḥaddith of his generation in the
+      Indonesian archipelago, student in Mecca of Aḥmad al-
+      Khaṭīb al-Minangkabawī, founder of the Tebuireng
+      pesantren in 1899, and founder on 31 January 1926 CE
+      of *Nahdlatul Ulama* (NU) — the largest traditionalist
+      Sunni mass-organisation of the modern Muslim world —
+      died at Tebuireng on 25 July 1947 CE (7 Ramaḍān 1366 AH) at age
+      71. He led NU from its founding until his death; he
+      had earlier issued the celebrated *Resolusi Jihad* of
+      October 1945 calling on Muslims to defend the new
+      Indonesian Republic against the returning Dutch. The
+      movement he founded today claims tens of millions of
+      affiliated members across the archipelago and a
+      national network of pesantren preserving the classical
+      Shafi'i and Ashʿarī curriculum.
+    description_ar: |
+      توفي الإمام محمد هاشم أشعري — العالم السني الجاوي
+      الإندونيسي على المذهب الشافعي من «جومبانغ»، كبير
+      محدثي الأرخبيل في جيله، تلميذ الإمام أحمد الخطيب
+      المنانكباوي بمكة، مؤسس معهد «تيبو إيرنغ» (pesantren)
+      سنة ١٨٩٩ ميلادي، ومؤسس «نهضة العلماء» يوم ٣١ جانفي
+      ١٩٢٦ ميلادي — أكبر حركة سنية تقليدية شعبية في العالم
+      الإسلامي الحديث — ب«تيبو إيرنغ» يوم ٢٥ جويلية
+      ١٩٤٧ ميلادي (الموافق ٧ رمضان سنة ١٣٦٦ هـ) عن إحدى وسبعين
+      سنة. وقاد «نهضة العلماء» من تأسيسها إلى وفاته، وكان
+      قد أصدر قبل ذلك «قرار الجهاد» (Resolusi Jihad)
+      الشهير في أكتوبر ١٩٤٥ ميلادي يدعو فيه المسلمين إلى
+      الدفاع عن جمهورية إندونيسيا الفتية في وجه عودة
+      الهولنديين. والحركة التي أسسها يدين بها اليوم
+      عشرات الملايين في عموم الأرخبيل، وتحفظ شبكتها
+      الوطنية من المعاهد منهج الشافعية والأشعرية الكلاسيكي.
+    description_fr: |
+      Muḥammad Hāshim Asyʿarī — savant sunnite shafi'ite
+      javanais de Jombang, principal muḥaddith de sa
+      génération dans l'archipel indonésien, élève à La
+      Mecque d'Aḥmad al-Khaṭīb al-Minangkabawī, fondateur
+      du *pesantren* de Tebuireng en 1899, et fondateur le
+      31 janvier 1926 EC de la *Nahdlatul Ulama* (NU) — la
+      plus grande organisation de masse sunnite
+      traditionaliste du monde musulman moderne — mourut à
+      Tebuireng le 25 juillet 1947 EC (7 Ramaḍān 1366 H) à l'âge de
+      71 ans. Il dirigea la NU depuis sa fondation jusqu'à
+      sa mort; il avait auparavant émis la célèbre
+      *Resolusi Jihad* d'octobre 1945 appelant les
+      musulmans à défendre la jeune République d'Indonésie
+      contre le retour des Néerlandais. Le mouvement qu'il
+      fonda compte aujourd'hui des dizaines de millions
+      de membres affiliés à travers l'archipel et un
+      réseau national de *pesantren* préservant le
+      curriculum shafi'ite et ashʿarī classique.
+    canonical_hijri: {year: 1366, month: 9, day: 7, precision: day}
+    canonical_gregorian: {date: 1947-07-25, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[hashim-asyari, subject], [ahmad-al-khatib-al-minangkabawi, subject]]
+    tags: [java, jombang, nahdlatul-ulama, traditionalist, shafi'i, ashari, pesantren, indonesia, twentieth-century]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hasyim_Asy%27ari"

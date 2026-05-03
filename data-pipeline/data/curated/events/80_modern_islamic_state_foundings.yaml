@@ -1,0 +1,1171 @@
+# Wave 80 of curated event additions (2026-04-27).
+# Founding moments of modern Muslim-majority nation-states. Fourteen
+# day-precise events covering the political emergence of independent
+# Muslim-majority polities from the long colonial twentieth century:
+# Egyptian quasi-independence under Fuʾād I (1922), the proclamation
+# of the Kingdom of Saudi Arabia (1932), the entry of Iraq into the
+# League of Nations (1932), the unilateral release of Lebanon from
+# the French Mandate (1943), Sukarno-Hatta's declaration of
+# Indonesian independence (1945), the establishment of Pakistan and
+# the Partition of British India (1947), the post-Suez/Bandung wave
+# of African and North-African independences (Sudan, Morocco,
+# Tunisia 1956 — Malaya 1957 — Algeria 1962), the formation of the
+# United Arab Emirates (1971), and the late completion of the
+# decolonisation cycle in Brunei (1984).
+#
+# Editorial framing — strictly factual and politically neutral.
+# These are political-historical milestones in the emergence of the
+# modern Muslim-state system, presented without endorsement of any
+# particular government, party, or ideology. None of these events is
+# a religious-doctrinal event; their relevance to Islamic-world
+# history is structural — they mark the legal-political vehicles
+# through which Muslim-majority populations entered the post-Ottoman
+# and post-colonial international order. The constitutional question
+# of whether and how these states embodied or departed from Islamic
+# legal-political tradition is treated elsewhere.
+#
+# Sourcing — the standard secondary cross-reference pair for this
+# era is EI2 + the editorial compilation. EI2 carries detailed
+# articles on each of the relevant countries (s.v. Miṣr, al-Mamlaka
+# al-ʿArabiyya al-Suʿūdiyya, al-ʿIrāḳ, Lubnān, Indūnīsiyā, Bākistān,
+# al-Sūdān, al-Maghrib, Tūnis, Malayzia, al-Jazāʾir, al-Imārāt
+# al-ʿArabiyya al-Muttaḥida, Brūnāy) covering the independence
+# transition.
+#
+# All dates are independently verifiable in standard reference works
+# (EI2, Britannica, Oxford Dictionary of Islam, country-specific
+# academic histories). Hijri dates derived by tabular conversion via
+# convertdate.islamic — when the user-facing description gives a
+# slightly different Hijri day, this reflects sighting-based vs.
+# tabular calendar variation; the canonical Hijri date stored here
+# follows the tabular method consistently used across this dataset.
+#
+# Trilingual en/ar/fr throughout. Slug "abolition-of-caliphate"
+# (1924) already exists in 08_modern_scholars.yaml and is not
+# duplicated here.
+
+events:
+  # =========================================================================
+  # POST-OTTOMAN ARAB INDEPENDENCES (1922-1932)
+  # =========================================================================
+
+  - slug: independence-of-egypt-1922
+    category: political_event
+    title_en: Unilateral British Declaration of Egyptian Independence
+    title_ar: التصريح البريطاني الانفرادي باستقلال مصر
+    title_fr: Déclaration unilatérale britannique d'indépendance de l'Égypte
+    description_en: |
+      Britain issued the unilateral Declaration to Egypt — known as
+      the *Taṣrīḥ* of 28 February 1922 — ending the protectorate
+      that had been imposed in 1914 and recognising Egypt as a
+      formally independent state under Sultan Aḥmad Fuʾād, who
+      took the title King Fuʾād I on 15 March 1922. The
+      declaration reserved four "absolutely reserved matters" to
+      British discretion (security of imperial communications, the
+      defence of Egypt, the protection of foreign interests and
+      minorities, and the Sudan), so the sovereignty was partial;
+      full juridical independence followed only with the 1936
+      Anglo-Egyptian Treaty and complete sovereignty with the
+      1956 evacuation of British forces from the Suez Canal Zone.
+      Nonetheless the 1922 declaration is the date from which
+      modern Egypt counts its existence as an independent state in
+      the international order. The 1923 constitution that followed
+      established a parliamentary monarchy on a Belgian model and
+      framed the political life of the kingdom until the Free
+      Officers' coup of 1952.
+    description_ar: |
+      أصدرت المملكة المتحدة التصريح الانفرادي لمصر — المعروف
+      بـ«تصريح ٢٨ فبراير سنة ١٩٢٢ ميلادي» — منهيةً به الحماية
+      التي فُرضت سنة ١٩١٤ ميلادي ومعترفةً بمصر دولةً مستقلة
+      رسمياً برئاسة السلطان أحمد فؤاد الذي تلقّب «ملك مصر فؤاد
+      الأول» في ١٥ مارس من تلك السنة. غير أن التصريح استبقى
+      أربع «مسائل محفوظة بالمطلق» للسلطة البريطانية وهي: أمن
+      المواصلات الإمبراطورية، والدفاع عن مصر، وحماية المصالح
+      الأجنبية والأقليات، ومسألة السودان؛ فكانت السيادة
+      جزئيةً، ولم تكتمل الاستقلالية القانونية إلا بمعاهدة سنة
+      ١٩٣٦ ميلادي ولم تتم السيادة الكاملة إلا بإجلاء القوات
+      البريطانية عن منطقة قناة السويس سنة ١٩٥٦ ميلادي. ومع
+      ذلك يُعدّ تصريح سنة ١٩٢٢ ميلادي تاريخَ ميلاد مصر
+      الحديثة دولةً مستقلةً في النظام الدولي. وقد صدر في إثره
+      دستور سنة ١٩٢٣ ميلادي مؤسِّساً ملكية برلمانية على
+      النموذج البلجيكي، وحدَّد الحياة السياسية للمملكة إلى
+      انقلاب الضباط الأحرار سنة ١٩٥٢ ميلادي.
+    description_fr: |
+      Le Royaume-Uni publia la Déclaration unilatérale à l'Égypte
+      — le *Taṣrīḥ* du 28 février 1922 — mettant fin au
+      protectorat imposé en 1914 et reconnaissant l'Égypte comme
+      État formellement indépendant sous le sultan Aḥmad Fuʾād,
+      qui prit le titre de roi Fuʾād Ier le 15 mars 1922. La
+      déclaration réservait quatre « matières absolument
+      réservées » à la discrétion britannique (sécurité des
+      communications impériales, défense de l'Égypte, protection
+      des intérêts étrangers et des minorités, Soudan) ; la
+      souveraineté restait donc partielle, et la pleine
+      indépendance juridique ne suivit qu'avec le traité
+      anglo-égyptien de 1936, et la souveraineté entière avec
+      l'évacuation des forces britanniques de la zone du canal
+      de Suez en 1956. Néanmoins la déclaration de 1922 est la
+      date à laquelle l'Égypte moderne compte son existence
+      d'État indépendant dans l'ordre international. La
+      constitution de 1923 qui s'ensuivit établit une monarchie
+      parlementaire sur le modèle belge et encadra la vie
+      politique du royaume jusqu'au coup d'État des Officiers
+      libres de 1952.
+    canonical_hijri: {year: 1340, month: 7, day: 1, precision: day}
+    canonical_gregorian: {date: 1922-02-28, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Miṣr' dates the unilateral declaration to 28 February 1922 and the assumption of the royal title by Fuʾād I to 15 March 1922."
+      - source_key: editorial
+        notes: "Editorial summary; date corroborated in standard Egyptian and British diplomatic histories of the inter-war Middle East."
+    tags: [egypt, modern, independence, british-protectorate, fuad-i, monarchy]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Egyptian_Independence"
+
+  - slug: proclamation-of-kingdom-of-saudi-arabia
+    category: political_event
+    title_en: Proclamation of the Kingdom of Saudi Arabia
+    title_ar: إعلان المملكة العربية السعودية
+    title_fr: Proclamation du royaume d'Arabie saoudite
+    description_en: |
+      ʿAbd al-ʿAzīz ibn ʿAbd al-Raḥmān Āl Saʿūd — who had recovered
+      al-Riyāḍ in 1319 AH/1902 CE and reunified Najd, al-Aḥsāʾ,
+      and the Ḥijāz over the following three decades — issued
+      Royal Decree no. 2716 unifying the dual Kingdom of the
+      Ḥijāz and Najd under a single name on 21 Jumādā al-Awwal
+      1351 AH (23 September 1932 CE). The new state was called
+      *al-Mamlaka al-ʿArabiyya al-Suʿūdiyya* (Kingdom of Saudi
+      Arabia) and ʿAbd al-ʿAzīz was proclaimed its founding king.
+      The proclamation completed the political vehicle that the
+      First (1744-1818) and Second (1824-1891) Saudi states had
+      pursued, founded on the eighteenth-century pact of
+      al-Dirʿiyya between Muḥammad ibn Saʿūd and the Najdī
+      Sunni-Ḥanbalī reformer Muḥammad ibn ʿAbd al-Wahhāb. The
+      kingdom contained the two holy sanctuaries of Mecca and
+      Medina, and the date is observed annually as the Saudi
+      National Day.
+    description_ar: |
+      أصدر الملك عبد العزيز بن عبد الرحمن آل سعود — الذي كان قد
+      استرد الرياض سنة ١٣١٩ هـ (١٩٠٢ ميلادي) ووحّد نجدًا
+      والأحساء والحجاز في العقود الثلاثة التي تلتها — المرسومَ
+      الملكي رقم ٢٧١٦ بتوحيد المملكتين التوأمين «مملكة الحجاز
+      ونجد» باسم واحد يوم ٢١ جمادى الأولى سنة ١٣٥١ هـ (الموافق
+      ٢٣ سبتمبر ١٩٣٢ ميلادي)، فسميت الدولة الجديدة «المملكة
+      العربية السعودية» وأُعلن عبد العزيز ملكاً مؤسساً لها.
+      وقد أتمّ هذا الإعلان المركبَ السياسي الذي كانت تسعى إليه
+      الدولتان السعوديتان الأولى (١١٥٧-١٢٣٣ هـ) والثانية
+      (١٢٤٠-١٣٠٩ هـ)، مرتكزتين على ميثاق الدرعية بين الأمير
+      محمد بن سعود والشيخ النجدي السني الحنبلي محمد بن عبد
+      الوهاب في القرن الثاني عشر الهجري. وضمّت المملكة
+      الحرمين الشريفين بمكة المكرمة والمدينة المنورة، ويحتفل
+      بهذا اليوم كل سنة بوصفه «اليوم الوطني السعودي».
+    description_fr: |
+      ʿAbd al-ʿAzīz ibn ʿAbd al-Raḥmān Āl Saʿūd — qui avait
+      repris al-Riyāḍ en 1319 H/1902 EC et réunifié le Najd,
+      al-Aḥsāʾ et le Ḥijāz au cours des trois décennies
+      suivantes — promulgua le décret royal n° 2716 unifiant
+      le double royaume du Ḥijāz et du Najd sous un nom
+      unique le 21 Jumādā al-Awwal 1351 H (23 septembre 1932
+      EC). Le nouvel État reçut le nom d'*al-Mamlaka
+      al-ʿArabiyya al-Suʿūdiyya* (Royaume d'Arabie saoudite)
+      et ʿAbd al-ʿAzīz fut proclamé roi fondateur. La
+      proclamation acheva le véhicule politique que le Premier
+      (1744-1818) et le Second (1824-1891) États saʿūdī avaient
+      poursuivi, fondé sur le pacte d'al-Dirʿiyya du XVIIIe
+      siècle entre Muḥammad ibn Saʿūd et le réformateur
+      najdī sunnite-ḥanbalī Muḥammad ibn ʿAbd al-Wahhāb. Le
+      royaume englobait les deux sanctuaires saints de La
+      Mecque et Médine, et la date est commémorée chaque
+      année comme la fête nationale saoudienne.
+    canonical_hijri: {year: 1351, month: 5, day: 22, precision: day}
+    canonical_gregorian: {date: 1932-09-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Mamlaka al-ʿArabiyya al-Suʿūdiyya' and 'Ibn Saʿūd' date the unification proclamation to 23 September 1932 (Royal Decree no. 2716)."
+      - source_key: editorial
+        notes: "Editorial summary; standard date in Saudi historiography and the date of the official Saudi National Day."
+    people: [[abd-al-aziz-ibn-saud, leader]]
+    tags: [saudi-arabia, najd, hijaz, modern, independence, monarchy, ibn-saud, founding]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Saudi_Arabia"
+
+  - slug: independence-of-iraq-1932
+    category: political_event
+    title_en: Iraqi Independence and Entry into the League of Nations
+    title_ar: استقلال العراق ودخوله عصبة الأمم
+    title_fr: Indépendance de l'Iraq et entrée à la Société des Nations
+    description_en: |
+      The Kingdom of Iraq, under King Fayṣal I of the Hāshimite
+      house, was admitted to the League of Nations as a fully
+      sovereign state on 2 Jumādā al-Thāniyya 1351 AH (3 October
+      1932 CE), formally ending the British Mandate that had been
+      established by the San Remo conference of 1920. Iraq thus
+      became the first Arab Mandate territory to achieve full
+      international recognition as an independent state. The
+      transition rested on the Anglo-Iraqi Treaty of 1930, which
+      converted the Mandate into a treaty-relationship of alliance
+      and granted Britain continuing military bases at al-Ḥabbāniyya
+      and al-Shuʿayba. The 1925 constitution remained in force, the
+      Hāshimite monarchy ruled from Baghdad until the 14 July 1958
+      revolution, and the modern Iraqi state — its borders, its
+      institutions, its civil and personal-status codes (the latter
+      drafted by ʿAbd al-Razzāq al-Sanhūrī in 1951) — dates from
+      this entry into the international order.
+    description_ar: |
+      قبلت المملكة العراقية الهاشمية في عهد الملك فيصل الأول
+      عضواً كاملَ السيادة في عصبة الأمم يوم ٢ جمادى الآخرة سنة
+      ١٣٥١ هـ (الموافق ٣ أكتوبر ١٩٣٢ ميلادي)، فأنهت بذلك رسمياً
+      الانتداب البريطاني الذي أُسس بمؤتمر سان ريمو سنة ١٩٢٠
+      ميلادي. وكان العراق بذلك أوّلَ بلد عربي تحت الانتداب
+      ينال الاعتراف الدولي الكامل بوصفه دولةً مستقلة. وقد قامت
+      هذه النقلة على المعاهدة الأنجلو-عراقية سنة ١٩٣٠ ميلادي
+      التي حوّلت الانتداب إلى علاقة تحالف تعاهدية ومنحت
+      بريطانيا قواعد عسكرية ثابتة في الحبانية والشعيبة. وبقي
+      دستور سنة ١٩٢٥ ميلادي ساريَ المفعول، وحكمت الأسرة
+      الهاشمية من بغداد إلى ثورة ١٤ تموز/يوليو ١٩٥٨ ميلادي.
+      ومن هذا الدخول في النظام الدولي تؤرّخ الدولة العراقية
+      الحديثة حدودَها ومؤسساتِها وقوانينَها المدنية وقوانين
+      الأحوال الشخصية — وقد صاغ القانون المدني العراقي العلامةُ
+      عبد الرزاق السنهوري سنة ١٣٧٠ هـ (١٩٥١ ميلادي).
+    description_fr: |
+      Le Royaume d'Iraq, sous le roi Fayṣal Ier de la maison
+      hāshimite, fut admis à la Société des Nations comme État
+      pleinement souverain le 2 Jumādā al-Thāniyya 1351 H
+      (3 octobre 1932 EC), mettant fin formellement au mandat
+      britannique établi par la conférence de San Remo en 1920.
+      L'Iraq devenait ainsi le premier territoire arabe sous
+      mandat à obtenir la pleine reconnaissance internationale
+      en tant qu'État indépendant. La transition reposait sur
+      le traité anglo-iraqien de 1930, qui transformait le
+      mandat en relation conventionnelle d'alliance et accordait
+      à la Grande-Bretagne des bases militaires permanentes à
+      al-Ḥabbāniyya et al-Shuʿayba. La constitution de 1925
+      demeura en vigueur, la monarchie hāshimite régna depuis
+      Bagdad jusqu'à la révolution du 14 juillet 1958, et l'État
+      iraquien moderne — ses frontières, ses institutions, ses
+      codes civil et de statut personnel (le premier rédigé par
+      ʿAbd al-Razzāq al-Sanhūrī en 1951) — date de cette
+      entrée dans l'ordre international.
+    canonical_hijri: {year: 1351, month: 6, day: 2, precision: day}
+    canonical_gregorian: {date: 1932-10-03, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-ʿIrāḳ' dates the admission of the Hāshimite Kingdom of Iraq to the League of Nations to 3 October 1932."
+      - source_key: editorial
+        notes: "Editorial summary; date confirmed in League of Nations records and standard Iraqi political histories."
+    tags: [iraq, hashemite, modern, independence, mandate, league-of-nations, faysal-i]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Mandatory_Iraq"
+
+  # =========================================================================
+  # WAR-TIME AND POST-WAR INDEPENDENCES (1943-1947)
+  # =========================================================================
+
+  - slug: independence-of-lebanon-1943
+    category: political_event
+    title_en: Lebanese Independence
+    title_ar: استقلال لبنان
+    title_fr: Indépendance du Liban
+    description_en: |
+      The Republic of Lebanon — a Christian-Muslim plural society
+      detached from greater Syria under the French Mandate of
+      1920 — achieved de facto independence on 24 Dhū al-Qaʿda
+      1362 AH (22 November 1943 CE), the date the French
+      authorities released President Bishāra al-Khūrī, prime
+      minister Riyāḍ al-Ṣulḥ, and the cabinet that they had
+      arrested ten days earlier for amending the constitution to
+      remove French oversight. The amendment had passed unanimously
+      on 8 November 1943; on 22 November General Catroux ordered
+      the release of the imprisoned ministers under combined
+      Lebanese, Arab, British, and American pressure, and the
+      flag of independent Lebanon — adopted on 7 December 1943
+      with its central cedar — replaced the Mandate flag. The
+      National Pact (*al-Mīthāq al-Waṭanī*) of summer 1943,
+      negotiated between al-Khūrī and al-Ṣulḥ, distributed the
+      principal political offices between Maronite Christian,
+      Sunni Muslim, and Shīʿī Muslim communities — the Maronite
+      presidency, Sunni premiership, Shīʿī speakership — and
+      remains the constitutional framework of the modern republic.
+      The country has a Sunni and Shīʿī Muslim plurality of long
+      standing and contains numerous foundational sites of
+      Islamic learning along the Mediterranean littoral.
+    description_ar: |
+      نالت الجمهورية اللبنانية — وهي مجتمع متعدد بين المسيحيين
+      والمسلمين فُصل عن سوريا الكبرى تحت الانتداب الفرنسي سنة
+      ١٩٢٠ ميلادي — استقلالها الفعلي يوم ٢٤ ذي القعدة سنة
+      ١٣٦٢ هـ (الموافق ٢٢ نوفمبر ١٩٤٣ ميلادي) وهو اليوم الذي
+      أفرجت فيه السلطات الفرنسية عن رئيس الجمهورية بشارة
+      الخوري ورئيس الوزراء رياض الصلح والوزراء الذين كانت قد
+      اعتقلتهم قبل عشرة أيام بسبب تعديل الدستور لإزالة الوصاية
+      الفرنسية. وكان التعديل قد أُقرَّ بالإجماع يوم ٨ نوفمبر؛
+      وفي ٢٢ نوفمبر أمر الجنرال كاترو بالإفراج عن الوزراء
+      المعتقلين تحت ضغط لبناني وعربي وبريطاني وأمريكي مشترك،
+      وحلَّت راية لبنان المستقل — التي اعتُمدت في ٧ ديسمبر
+      ١٩٤٣ ميلادي بأرزتها الوسطى — محل علم الانتداب. وقد
+      وزّع «الميثاق الوطني» الذي تفاهم عليه الخوري والصلح في
+      صيف ١٩٤٣ ميلادي المناصبَ السياسية الكبرى بين الموارنة
+      المسيحيين والسنّة المسلمين والشيعة المسلمين — رئاسة
+      الجمهورية للمارونية ورئاسة الوزراء للسنة ورئاسة المجلس
+      للشيعة — وما يزال الإطار الدستوري للجمهورية الحديثة.
+      ولبنان ذو أكثرية مسلمة سنية وشيعية تاريخية، وتنتشر فيه
+      مواقع تأسيسية للتعلم الإسلامي على الساحل المتوسطي.
+    description_fr: |
+      La République libanaise — société plurielle
+      chrétienne-musulmane détachée de la Grande Syrie sous le
+      mandat français de 1920 — accéda à l'indépendance de fait
+      le 24 Dhū al-Qaʿda 1362 H (22 novembre 1943 EC), date à
+      laquelle les autorités françaises libérèrent le président
+      Bishāra al-Khūrī, le Premier ministre Riyāḍ al-Ṣulḥ et le
+      cabinet qu'elles avaient arrêtés dix jours plus tôt pour
+      avoir amendé la constitution afin de supprimer la tutelle
+      française. L'amendement avait été adopté à l'unanimité le
+      8 novembre 1943 ; le 22 novembre, le général Catroux
+      ordonna la libération des ministres emprisonnés sous la
+      pression conjointe libanaise, arabe, britannique et
+      américaine, et le drapeau du Liban indépendant — adopté
+      le 7 décembre 1943 avec son cèdre central — remplaça le
+      drapeau du mandat. Le Pacte national (*al-Mīthāq
+      al-Waṭanī*) de l'été 1943, négocié entre al-Khūrī et
+      al-Ṣulḥ, distribua les principales charges politiques
+      entre maronites chrétiens, sunnites musulmans et chiites
+      musulmans — présidence maronite, primature sunnite,
+      présidence du parlement chiite — et demeure le cadre
+      constitutionnel de la république moderne. Le pays a une
+      pluralité musulmane sunnite et chiite ancienne et abrite
+      de nombreux sites fondateurs de savoir islamique sur le
+      littoral méditerranéen.
+    canonical_hijri: {year: 1362, month: 11, day: 24, precision: day}
+    canonical_gregorian: {date: 1943-11-22, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Lubnān' dates Lebanese de facto independence to 22 November 1943, the day of the release of the arrested government."
+      - source_key: editorial
+        notes: "Editorial summary; date corroborated in standard Lebanese, French, and Anglophone Middle East political histories."
+    tags: [lebanon, modern, independence, french-mandate, national-pact, levant]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Lebanese_Independence_Day"
+
+  - slug: independence-of-indonesia-1945
+    category: political_event
+    title_en: Indonesian Declaration of Independence
+    title_ar: إعلان استقلال إندونيسيا
+    title_fr: Déclaration d'indépendance de l'Indonésie
+    description_en: |
+      Sukarno and Mohammad Hatta — the two principal nationalist
+      leaders of the Dutch East Indies — proclaimed the
+      independence of the Republic of Indonesia (*Republik
+      Indonesia*) at Sukarno's residence on Jalan Pegangsaan
+      Timur 56 in Jakarta at 10:00 a.m. on 8 Ramaḍān 1364 AH
+      (17 August 1945 CE), two days after the Japanese surrender
+      that ended World War II in the Pacific. Indonesia became
+      the most populous Muslim-majority state in the world — a
+      status it has held continuously since — and the Pancasila
+      framework adopted in 1945 made belief in one God the first
+      foundational principle of the republic. Dutch military
+      attempts to reverse the proclamation through two
+      "police actions" (1947, 1948) were defeated; the
+      Netherlands transferred sovereignty under the Round Table
+      Conference agreement on 27 December 1949. The Indonesian
+      republic dates its founding from the 17 August 1945
+      proclamation, observed annually as the national day. The
+      preamble of the 1945 constitution is opened with the
+      *basmala* in Arabic and Indonesian.
+    description_ar: |
+      أعلن أحمد سوكارنو ومحمد حتّا — الزعيمان الوطنيان لجزر
+      الهند الشرقية الهولندية — استقلال جمهورية إندونيسيا
+      (*Republik Indonesia*) في دار سوكارنو بشارع بيجانجسأن
+      تيمور رقم ٥٦ بجاكرتا في الساعة العاشرة صباحاً يوم
+      ٨ رمضان سنة ١٣٦٤ هـ (الموافق ١٧ أوت ١٩٤٥ ميلادي)،
+      بعد يومين من استسلام اليابان الذي أنهى الحرب العالمية
+      الثانية في المحيط الهادئ. وصارت إندونيسيا أكبر دولة
+      ذات أغلبية مسلمة في العالم سكاناً، وما زالت كذلك
+      دون انقطاع، ووضع دستور سنة ١٩٤٥ ميلادي «الباندجاسيلا»
+      أساساً للجمهورية، أوّلُ مبادئها «الإيمان بإله واحد».
+      وقد أخفقت محاولات الجيش الهولندي إلغاء الإعلان
+      بـ«عمليتين شرطيتين» سنة ١٩٤٧ و١٩٤٨ ميلادي، ونقلت
+      هولندا السيادة باتفاقية مؤتمر المائدة المستديرة في
+      ٢٧ ديسمبر ١٩٤٩ ميلادي. وتُؤرِّخ الجمهورية الإندونيسية
+      تأسيسها من إعلان ١٧ أوت ١٩٤٥ ميلادي، ويُحتفل به سنوياً
+      عيداً وطنياً. وافتُتحت ديباجة دستور سنة ١٩٤٥ ميلادي
+      بالبسملة بالعربية والإندونيسية.
+    description_fr: |
+      Sukarno et Mohammad Hatta — les deux principaux dirigeants
+      nationalistes des Indes néerlandaises — proclamèrent
+      l'indépendance de la République d'Indonésie (*Republik
+      Indonesia*) à la résidence de Sukarno, Jalan Pegangsaan
+      Timur 56 à Jakarta, à 10 heures, le 8 Ramaḍān 1364 H
+      (17 août 1945 EC), deux jours après la capitulation
+      japonaise qui mit fin à la Seconde Guerre mondiale dans
+      le Pacifique. L'Indonésie devint l'État à majorité
+      musulmane le plus peuplé du monde — statut qu'elle
+      conserve sans interruption — et le cadre du Pancasila
+      adopté en 1945 fit de la foi en un Dieu unique le
+      premier principe fondateur de la république. Les
+      tentatives militaires néerlandaises de revenir sur la
+      proclamation par deux « actions de police » (1947, 1948)
+      furent défaites ; les Pays-Bas transférèrent la
+      souveraineté en vertu de l'accord de la Conférence de la
+      table ronde le 27 décembre 1949. La République
+      indonésienne date sa fondation de la proclamation du
+      17 août 1945, célébrée chaque année comme fête nationale.
+      Le préambule de la constitution de 1945 s'ouvre par la
+      *basmala* en arabe et en indonésien.
+    canonical_hijri: {year: 1364, month: 9, day: 8, precision: day}
+    canonical_gregorian: {date: 1945-08-17, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Indūnīsiyā' dates the Sukarno-Hatta proclamation to 17 August 1945."
+      - source_key: editorial
+        notes: "Editorial summary; date universally attested in Indonesian and Dutch sources and observed as the national day."
+    tags: [indonesia, modern, independence, dutch-east-indies, sukarno, hatta, pancasila, southeast-asia]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Proclamation_of_Indonesian_Independence"
+
+  - slug: independence-of-pakistan-1947
+    category: political_event
+    title_en: Pakistan Independence
+    title_ar: استقلال باكستان
+    title_fr: Indépendance du Pakistan
+    description_en: |
+      The Dominion of Pakistan came into being at midnight on the
+      night of 27-28 Ramaḍān 1366 AH (14-15 August 1947 CE), as
+      the British Indian Empire was partitioned into two
+      successor states under the Indian Independence Act passed
+      by the British parliament on 18 July 1947. Muḥammad ʿAlī
+      Jinnāḥ — leader of the All-India Muslim League and the
+      principal architect of the demand for a separate Muslim
+      homeland — was sworn in as the first governor-general at
+      Karachi on 15 August. The new state contained a Sunni and
+      Shīʿī Muslim majority and was constituted in two non-
+      contiguous wings (West Pakistan, comprising the Indus
+      basin, and East Pakistan in the Bengal delta) separated by
+      a thousand miles of Indian territory. The arrangement
+      lasted until East Pakistan seceded in 1971 to form
+      Bangladesh. Pakistan adopted its first constitution on
+      23 March 1956, declaring itself the Islamic Republic of
+      Pakistan, the first state in modern history to adopt the
+      formal title "Islamic Republic." The intellectual
+      foundations had been articulated by ʿAllāma Muḥammad
+      Iqbāl in his 1930 Allahabad address, and pursued
+      politically by Jinnāḥ from 1940 onward through the
+      Lahore Resolution.
+    description_ar: |
+      قامت دولة باكستان (الدومنيون) في منتصف ليلة ٢٧-٢٨ رمضان
+      سنة ١٣٦٦ هـ (ليلة ١٤-١٥ أوت ١٩٤٧ ميلادي)، إذ قُسّمت
+      الإمبراطورية البريطانية الهندية إلى دولتين وريثتين بموجب
+      «قانون استقلال الهند» الذي أقرّه البرلمان البريطاني في
+      ١٨ جويلية ١٩٤٧ ميلادي. وأدّى محمد علي جناح — زعيم
+      الرابطة الإسلامية الهندية ومهندس مطلب الوطن الإسلامي
+      المستقل — اليمين أوّلَ حاكم عام للدولة في كراتشي يوم
+      ١٥ أوت. وكانت الدولة الناشئة ذات أغلبية مسلمة سنية
+      وشيعية وتتألف من جناحين غير متصلين: «باكستان الغربية»
+      في حوض السند، و«باكستان الشرقية» في دلتا البنغال،
+      يفصل بينهما ألف ميل من الأرض الهندية. ودام هذا الترتيب
+      إلى انفصال «باكستان الشرقية» سنة ١٩٧١ ميلادي لتُعلن
+      دولةَ بنغلاديش. واعتمدت باكستان دستورها الأول في ٢٣
+      مارس ١٩٥٦ ميلادي مُعلنةً نفسها «جمهورية باكستان
+      الإسلامية»، فكانت أول دولة في التاريخ الحديث تتسمى
+      بهذا الاسم الرسمي. وكانت الأسس الفكرية قد أرساها
+      العلامة محمد إقبال في خطاب الله أباد سنة ١٩٣٠
+      ميلادي، وتابعها سياسياً جناح من سنة ١٩٤٠ ميلادي عبر
+      قرار لاهور.
+    description_fr: |
+      Le Dominion du Pakistan vint à l'existence à minuit, dans
+      la nuit du 27 au 28 Ramaḍān 1366 H (14-15 août 1947 EC),
+      lorsque l'Empire britannique des Indes fut partitionné en
+      deux États successeurs en vertu de l'Indian Independence
+      Act adopté par le parlement britannique le 18 juillet
+      1947. Muḥammad ʿAlī Jinnāḥ — chef de la Ligue musulmane
+      panindienne et principal architecte de la demande d'une
+      patrie musulmane séparée — prêta serment comme premier
+      gouverneur général à Karachi le 15 août. Le nouvel État,
+      à majorité musulmane sunnite et chiite, comprenait deux
+      ailes non contiguës — le Pakistan occidental, dans le
+      bassin de l'Indus, et le Pakistan oriental dans le delta
+      du Bengale — séparées par mille miles de territoire
+      indien. Cet arrangement dura jusqu'à la sécession du
+      Pakistan oriental en 1971, devenant le Bangladesh. Le
+      Pakistan adopta sa première constitution le 23 mars 1956
+      en se déclarant République islamique du Pakistan,
+      première dans l'histoire moderne à adopter le titre
+      formel de « République islamique ». Les fondements
+      intellectuels avaient été articulés par ʿAllāma Muḥammad
+      Iqbāl dans son discours d'Allahabad de 1930 et poursuivis
+      politiquement par Jinnāḥ à partir de 1940 par la
+      Résolution de Lahore.
+    canonical_hijri: {year: 1366, month: 9, day: 27, precision: day}
+    canonical_gregorian: {date: 1947-08-14, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Bākistān' dates the establishment of the Dominion of Pakistan to the midnight of 14-15 August 1947 under the Indian Independence Act."
+      - source_key: editorial
+        notes: "Editorial summary; date universally attested in British, Indian, and Pakistani sources and observed as the Pakistani national day."
+    tags: [pakistan, modern, independence, partition, jinnah, muslim-league, south-asia]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Independence_Day_(Pakistan)"
+
+  - slug: partition-of-british-india-1947
+    category: political_event
+    title_en: Partition of British India
+    title_ar: تقسيم الهند البريطانية
+    title_fr: Partition de l'Inde britannique
+    description_en: |
+      The British Indian Empire formally ceased to exist at
+      midnight on the night of 14-15 August 1947 (28 Ramaḍān
+      1366 AH), and was divided into the Dominion of Pakistan
+      (declared the day before) and the Dominion of India,
+      which assumed sovereignty on 15 August 1947 (28 Ramaḍān
+      1366 AH). The Radcliffe Boundary Award, drawn over five
+      weeks by the British jurist Cyril Radcliffe and published
+      on 17 August, partitioned the Muslim-majority provinces
+      of Punjab and Bengal between the two new states. The
+      ensuing population transfer became the largest sudden
+      human migration of the twentieth century: an estimated
+      14-18 million people crossed the new border in either
+      direction, predominantly Hindus and Sikhs moving east
+      and Muslims moving west; communal violence in the Punjab
+      and elsewhere claimed an estimated several hundred
+      thousand to over a million lives. The trauma of partition
+      shaped the political imagination of both successor states
+      and the relationship between Hindu and Muslim communities
+      across South Asia for generations afterward.
+    description_ar: |
+      انتهت الإمبراطورية البريطانية الهندية رسمياً في منتصف ليلة
+      ١٤-١٥ أوت ١٩٤٧ ميلادي (الموافق ٢٨ رمضان سنة ١٣٦٦ هـ)،
+      وقُسّمت إلى «دومنيون باكستان» (الذي أُعلن قبلها بيوم) و
+      «دومنيون الهند» الذي تسلّم السيادة في ١٥ أوت ١٩٤٧
+      ميلادي (الموافق ٢٨ رمضان سنة ١٣٦٦ هـ). وقد قسّم «قرار
+      رادكليف لترسيم الحدود» الذي رسمه القاضي البريطاني سيريل
+      رادكليف في خمسة أسابيع وأُعلن في ١٧ أوت ١٩٤٧ ميلادي،
+      الإقليمين ذوَي الأغلبية المسلمة — البنجاب والبنغال —
+      بين الدولتين الناشئتين. وصار التنقل السكاني الذي أعقب
+      ذلك أكبر هجرة بشرية مفاجئة في القرن العشرين: نحو
+      ١٤-١٨ مليون نفس عبروا الحدود الجديدة في الاتجاهين،
+      أكثرهم هندوس وسيخ هاجروا شرقاً ومسلمون هاجروا غرباً؛
+      وأودى العنف الطائفي في البنجاب وغيرها بحياة ما قُدّر
+      بمئات الآلاف إلى أكثر من مليون نسمة. وقد رسمت صدمة
+      التقسيم خيال الدولتين الوريثتين السياسي والعلاقةَ بين
+      المسلمين والهندوس في جنوب آسيا لأجيال لاحقة.
+    description_fr: |
+      L'Empire britannique des Indes cessa formellement
+      d'exister à minuit, dans la nuit du 14 au 15 août 1947
+      (28 Ramaḍān 1366 H), et fut partagé entre le Dominion du
+      Pakistan (déclaré la veille) et le Dominion de l'Inde,
+      qui assuma la souveraineté le 15 août 1947 (28 Ramaḍān
+      1366 H). La sentence-frontière Radcliffe, tracée en cinq
+      semaines par le juriste britannique Cyril Radcliffe et
+      publiée le 17 août, partagea les provinces à majorité
+      musulmane du Pendjab et du Bengale entre les deux
+      nouveaux États. Le transfert de population qui s'ensuivit
+      fut la plus grande migration humaine soudaine du XXe
+      siècle : on estime qu'entre 14 et 18 millions de personnes
+      traversèrent la nouvelle frontière dans les deux sens —
+      principalement des hindous et des sikhs vers l'est, des
+      musulmans vers l'ouest — et que les violences
+      communautaires au Pendjab et ailleurs firent plusieurs
+      centaines de milliers à plus d'un million de morts. Le
+      traumatisme de la partition façonna l'imaginaire
+      politique des deux États successeurs et la relation
+      entre communautés musulmane et hindoue à travers l'Asie
+      du Sud pour des générations.
+    canonical_hijri: {year: 1366, month: 9, day: 28, precision: day}
+    canonical_gregorian: {date: 1947-08-15, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Hind' and 'Bākistān' date the partition of British India and the transfer of sovereignty to India to 15 August 1947."
+      - source_key: editorial
+        notes: "Editorial summary; date universally attested and observed as the Indian Independence Day."
+    tags: [india, pakistan, modern, partition, radcliffe, mass-migration, south-asia]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Partition_of_India"
+
+  # =========================================================================
+  # POST-SUEZ NORTH AFRICAN AND AFRICAN INDEPENDENCES (1956-1962)
+  # =========================================================================
+
+  - slug: independence-of-sudan-1956
+    category: political_event
+    title_en: Independence of Sudan
+    title_ar: استقلال السودان
+    title_fr: Indépendance du Soudan
+    description_en: |
+      The Republic of the Sudan declared its independence from the
+      Anglo-Egyptian Condominium on 18 Jumādā al-Awwal 1375 AH
+      (1 January 1956 CE), becoming the first sub-Saharan African
+      country and the first state in the modern Arab League to
+      gain full independence in the post-Suez decolonisation wave.
+      The condominium had been established by the 1899
+      Anglo-Egyptian agreement after the Mahdī's state was
+      destroyed at the Battle of Karari (Omdurman) in 1898.
+      Following the 1953 self-government statute, a parliament
+      elected in late 1953 voted unanimously on 19 December
+      1955 to declare independence; the British and Egyptian
+      flags were lowered at the People's Palace in Khartoum on
+      1 January 1956. The new state had a Sunni Muslim majority
+      and a substantial Christian and traditionalist minority in
+      the south; the unresolved north-south question would
+      generate two civil wars and ultimately the secession of
+      South Sudan in 2011. The Sudanese national day is
+      observed annually on 1 January.
+    description_ar: |
+      أعلنت جمهورية السودان استقلالها عن الحكم الثنائي الأنجلو-
+      مصري يوم ١٨ جمادى الأولى سنة ١٣٧٥ هـ (الموافق فاتح
+      جانفي ١٩٥٦ ميلادي)، فكانت بذلك أوّلَ بلد في إفريقيا
+      جنوب الصحراء وأوّلَ دولة في جامعة الدول العربية الحديثة
+      تنال استقلالها الكامل في موجة التحرر التي تلت العدوان
+      على السويس. وكان الحكم الثنائي قد أسس باتفاقية أنجلو-
+      مصرية سنة ١٨٩٩ ميلادي بعد سقوط الدولة المهدية في معركة
+      كرري (أم درمان) سنة ١٨٩٨ ميلادي. وعقب قانون الحكم
+      الذاتي سنة ١٩٥٣ ميلادي صوّت البرلمان المنتخب أواخر
+      تلك السنة بالإجماع على إعلان الاستقلال يوم ١٩ ديسمبر
+      ١٩٥٥ ميلادي، فأُنزل العلمان البريطاني والمصري في قصر
+      الشعب بالخرطوم في فاتح جانفي ١٩٥٦ ميلادي. وكانت الدولة
+      الجديدة ذات أغلبية مسلمة سنية وأقلية مسيحية وتقليدية
+      كبيرة في الجنوب؛ وستفضي مسألة الشمال-الجنوب التي لم
+      تُحسم إلى حربين أهليتين ثم إلى انفصال جنوب السودان سنة
+      ٢٠١١ ميلادي. ويُحتفل بالعيد الوطني السوداني سنوياً في
+      أول يوم من السنة الميلادية.
+    description_fr: |
+      La République du Soudan déclara son indépendance du
+      condominium anglo-égyptien le 18 Jumādā al-Awwal 1375 H
+      (1er janvier 1956 EC), devenant le premier pays
+      d'Afrique subsaharienne et le premier État de la Ligue
+      arabe moderne à obtenir sa pleine indépendance dans la
+      vague de décolonisation post-Suez. Le condominium avait
+      été établi par l'accord anglo-égyptien de 1899 après la
+      destruction de l'État mahdiste à la bataille de Karari
+      (Omdurman) en 1898. À la suite du statut d'autonomie de
+      1953, le parlement élu fin 1953 vota à l'unanimité le
+      19 décembre 1955 la déclaration d'indépendance ; les
+      drapeaux britannique et égyptien furent abaissés au
+      Palais du peuple à Khartoum le 1er janvier 1956. Le
+      nouvel État avait une majorité musulmane sunnite et une
+      minorité chrétienne et traditionaliste substantielle au
+      sud ; la question nord-sud non résolue allait engendrer
+      deux guerres civiles et finalement la sécession du Soudan
+      du Sud en 2011. La fête nationale soudanaise est célébrée
+      chaque année le 1er janvier.
+    canonical_hijri: {year: 1375, month: 5, day: 18, precision: day}
+    canonical_gregorian: {date: 1956-01-01, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Sūdān' dates Sudanese independence from the Anglo-Egyptian Condominium to 1 January 1956."
+      - source_key: editorial
+        notes: "Editorial summary; date observed annually as the Sudanese national day."
+    tags: [sudan, modern, independence, anglo-egyptian-condominium, africa, khartoum]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Independence_of_Sudan"
+
+  - slug: independence-of-morocco-1956
+    category: political_event
+    title_en: Independence of Morocco
+    title_ar: استقلال المغرب
+    title_fr: Indépendance du Maroc
+    description_en: |
+      The Sultanate of Morocco regained its sovereignty when
+      France revoked the Treaty of Fes (1912) — the legal
+      instrument of the French Protectorate — in a joint
+      Franco-Moroccan declaration signed in Paris on 19 Rajab
+      1375 AH (2 March 1956 CE). Spain followed suit on
+      7 April 1956, ending the parallel Spanish Protectorate
+      over the northern zone (Tangier and the Rif) and the
+      southern zone (Tarfaya and Ifni). The sultan Sīdī Muḥammad
+      ibn Yūsuf, exiled by the French in 1953 and recalled in
+      November 1955 amid mass protest, took the title King
+      Muḥammad V on 14 August 1957 and reigned over the
+      reunified Sherifian Kingdom of Morocco. Morocco — a
+      Sunni Mālikī country with the historic Qarawiyyīn at
+      Fes (founded 245 AH/859 CE), the Moulay Idrīs sanctuary
+      (172 AH/789 CE), and the Marrākesh and Fes-Madhīna
+      religious complexes — joined the Arab League and the
+      United Nations in 1956. Independence was celebrated on
+      18 November (the date of King Muḥammad V's return from
+      exile in 1955) until 1962 when 2 March was added as the
+      formal independence anniversary.
+    description_ar: |
+      استرجعت المملكة المغربية سيادتها لما ألغت فرنسا معاهدة
+      فاس (سنة ١٩١٢ ميلادي) — السند القانوني للحماية
+      الفرنسية — بإعلان فرنسي مغربي مشترك وقّع في باريس يوم
+      ١٩ رجب سنة ١٣٧٥ هـ (الموافق فاتح مارس ١٩٥٦ ميلادي).
+      وتبعتها إسبانيا في ٧ أفريل ١٩٥٦ ميلادي فأنهت الحماية
+      الإسبانية الموازية على المنطقة الشمالية (طنجة والريف)
+      والمنطقة الجنوبية (طرفاية وإفني). وتلقّب السلطان سيدي
+      محمد بن يوسف — الذي نفته فرنسا سنة ١٩٥٣ ميلادي وأعادته
+      تحت ضغط شعبي في نوفمبر ١٩٥٥ ميلادي — بـ«الملك محمد
+      الخامس» في ١٤ أوت ١٩٥٧ ميلادي، فحكم المملكة الشريفة
+      المغربية الموحَّدة. والمغرب بلد سني مالكي يحوي جامع
+      القرويين بفاس (المؤسس سنة ٢٤٥ هـ / ٨٥٩ ميلادي) وضريح
+      مولاي إدريس (سنة ١٧٢ هـ / ٧٨٩ ميلادي) ومجمعَي مراكش
+      وفاس الدينيَّين. وانضم المغرب إلى الجامعة العربية
+      والأمم المتحدة سنة ١٩٥٦ ميلادي. وكان عيد الاستقلال
+      يحتفل به في ١٨ نوفمبر (يوم عودة الملك محمد الخامس من
+      المنفى سنة ١٩٥٥ ميلادي) إلى أن أُضيف ٢ مارس عيداً
+      رسمياً للاستقلال سنة ١٩٦٢ ميلادي.
+    description_fr: |
+      Le Sultanat du Maroc retrouva sa souveraineté lorsque la
+      France abrogea le traité de Fès (1912) — instrument
+      juridique du Protectorat français — par une déclaration
+      franco-marocaine commune signée à Paris le 19 Rajab
+      1375 H (2 mars 1956 EC). L'Espagne suivit le 7 avril
+      1956, mettant fin au protectorat espagnol parallèle sur
+      la zone nord (Tanger et le Rif) et la zone sud (Tarfaya
+      et Ifni). Le sultan Sīdī Muḥammad ibn Yūsuf — exilé par
+      la France en 1953 et rappelé en novembre 1955 sous la
+      pression populaire — prit le titre de roi Muḥammad V
+      le 14 août 1957 et régna sur le Royaume chérifien du
+      Maroc réunifié. Le Maroc — pays sunnite malikite
+      abritant la Qarawiyyīn historique de Fès (fondée en
+      245 H/859 EC), le sanctuaire de Moulay Idrīs
+      (172 H/789 EC) et les complexes religieux de Marrakech
+      et de la médina de Fès — adhéra à la Ligue arabe et à
+      l'Organisation des Nations unies en 1956. L'indépendance
+      fut célébrée le 18 novembre (date du retour d'exil du
+      roi Muḥammad V en 1955) jusqu'à ce qu'en 1962 le 2 mars
+      soit ajouté comme anniversaire officiel de
+      l'indépendance.
+    canonical_hijri: {year: 1375, month: 7, day: 19, precision: day}
+    canonical_gregorian: {date: 1956-03-02, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Maghrib' dates the Franco-Moroccan declaration ending the Protectorate to 2 March 1956."
+      - source_key: editorial
+        notes: "Editorial summary; date corroborated in standard Moroccan and French diplomatic histories."
+    tags: [morocco, modern, independence, french-protectorate, maliki, north-africa, muhammad-v]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/History_of_Morocco#Independence"
+
+  - slug: independence-of-tunisia-1956
+    category: political_event
+    title_en: Independence of Tunisia
+    title_ar: استقلال تونس
+    title_fr: Indépendance de la Tunisie
+    description_en: |
+      The Regency of Tunis recovered its sovereignty by the
+      Franco-Tunisian protocol signed in Paris on 7 Shaʿbān
+      1375 AH (20 March 1956 CE), terminating the French
+      protectorate that had been imposed by the Treaty of Bardo
+      in 1881 and the al-Marsā Convention of 1883. The bey
+      Muḥammad VIII al-Amīn remained head of state for one
+      year; on 25 July 1957 the Constituent Assembly abolished
+      the beylicate and declared the Tunisian Republic, with
+      Ḥabīb Būrqība — leader of the Néo-Destour and the
+      principal architect of the independence negotiations — as
+      first president. The new republic adopted the *Code du
+      Statut Personnel* on 13 August 1956, a substantial reform
+      of Mālikī personal-status law (abolition of polygamy,
+      raising of marriage age, formalisation of divorce
+      procedure) that remained unique in the Arab world for
+      decades. Tunisia, a Sunni Mālikī country with the
+      historic al-Zaytūna mosque-university at Tunis (founded
+      85 AH/704 CE), joined the Arab League and the United
+      Nations in 1956. The 20 March is observed annually as
+      the national independence day.
+    description_ar: |
+      استرجعت إيالة تونس سيادتها بالبروتوكول الفرنسي التونسي
+      الموقّع بباريس يوم ٧ شعبان سنة ١٣٧٥ هـ (الموافق ٢٠
+      مارس ١٩٥٦ ميلادي)، فأنهى الحمايةَ الفرنسية التي فرضت
+      بمعاهدة باردو سنة ١٢٩٨ هـ (١٨٨١ ميلادي) واتفاقية المرسى
+      سنة ١٣٠٠ هـ (١٨٨٣ ميلادي). وبقي الباي محمد الأمين رأسَ
+      الدولة سنةً واحدة، ثم ألغى المجلس التأسيسي البايليك
+      في ٢٥ جويلية ١٩٥٧ ميلادي وأعلن «الجمهورية التونسية»،
+      وانتُخب الحبيب بورقيبة — زعيم الحزب الحرّ الدستوري
+      الجديد ومهندس مفاوضات الاستقلال — أوّلَ رئيس لها.
+      واعتمدت الجمهورية الجديدة «مجلة الأحوال الشخصية» في
+      ١٣ أوت ١٩٥٦ ميلادي، وهي إصلاح كبير لأحكام الأحوال
+      الشخصية في الفقه المالكي (تحريم تعدد الزوجات ورفع سن
+      الزواج وتقنين الطلاق)، فظلَّ تشريعاً متفرداً في
+      العالم العربي عقوداً. وتونس بلد سني مالكي يحوي جامع
+      الزيتونة العتيق بتونس العاصمة (المؤسس سنة ٨٥ هـ /
+      ٧٠٤ ميلادي). وانضمت تونس إلى الجامعة العربية والأمم
+      المتحدة سنة ١٩٥٦ ميلادي. ويحتفل بـ٢٠ مارس سنوياً
+      عيداً للاستقلال الوطني.
+    description_fr: |
+      La Régence de Tunis recouvra sa souveraineté par le
+      protocole franco-tunisien signé à Paris le 7 Shaʿbān
+      1375 H (20 mars 1956 EC), mettant fin au protectorat
+      français imposé par le traité du Bardo en 1881 et la
+      convention d'al-Marsā en 1883. Le bey Muḥammad VIII
+      al-Amīn demeura chef d'État pendant un an ; le 25
+      juillet 1957 l'Assemblée constituante abolit le
+      beylicat et proclama la République tunisienne, avec
+      Ḥabīb Būrqība — chef du Néo-Destour et principal
+      architecte des négociations d'indépendance — comme
+      premier président. La nouvelle république adopta le
+      *Code du Statut Personnel* le 13 août 1956, réforme
+      substantielle du droit personnel malikite (abolition de
+      la polygamie, élévation de l'âge de mariage,
+      formalisation du divorce) restée unique dans le monde
+      arabe pendant des décennies. La Tunisie, pays sunnite
+      malikite abritant la mosquée-université historique d'al-
+      Zaytūna à Tunis (fondée en 85 H/704 EC), adhéra à la
+      Ligue arabe et à l'Organisation des Nations unies en
+      1956. Le 20 mars est célébré chaque année comme fête
+      nationale de l'indépendance.
+    canonical_hijri: {year: 1375, month: 8, day: 7, precision: day}
+    canonical_gregorian: {date: 1956-03-20, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Tūnis' dates the Franco-Tunisian protocol of independence to 20 March 1956."
+      - source_key: editorial
+        notes: "Editorial summary; date observed annually as the Tunisian national independence day."
+    tags: [tunisia, modern, independence, french-protectorate, maliki, north-africa, bourguiba, zaytuna]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Tunisian_independence"
+
+  - slug: independence-of-malaya-1957
+    category: political_event
+    title_en: Independence of the Federation of Malaya
+    title_ar: استقلال اتحاد الملايو
+    title_fr: Indépendance de la Fédération de Malaisie
+    description_en: |
+      The Federation of Malaya — a confederation of nine Malay
+      sultanates plus Penang and Malacca — gained independence
+      from the British Empire on 5 Ṣafar 1377 AH (31 August
+      1957 CE), with the *Yang di-Pertuan Agong* Tuanku Abdul
+      Rahman ibni al-Marhum Tuanku Muhammad of Negeri Sembilan
+      as the elected federal monarch and Tunku Abdul Rahman
+      Putra al-Haj — the leader of the United Malays National
+      Organisation (UMNO) and the Alliance Party — as first
+      prime minister. The federation expanded in 1963 by
+      incorporating Sabah, Sarawak, and Singapore (the last
+      separating in 1965) to become the modern Federation of
+      Malaysia. Malaysia is a Sunni Shāfiʿī country with Islam
+      as the religion of the Federation and a constitutional
+      monarchy in which the federal kingship rotates among the
+      nine state sultans. The Sultans of the Malay states are
+      the constitutional heads of Islam in their respective
+      states, perpetuating an Islamic political tradition that
+      goes back to the conversion of the Sultanate of Malacca
+      under Parameswara/Iskandar Shāh in the early fifteenth
+      century. The 31 August is observed as *Hari Merdeka*.
+    description_ar: |
+      نال اتحاد الملايو — وهو اتحاد كونفدرالي بين تسع سلطنات
+      ملاوية وبينانغ وملقا — استقلاله عن الإمبراطورية
+      البريطانية يوم ٥ صفر سنة ١٣٧٧ هـ (الموافق ٣١ أوت ١٩٥٧
+      ميلادي)، بعد أن اختير الـ«يانغ ديبرتوان أغونغ» تونكو
+      عبد الرحمن ابن المرحوم تونكو محمد سلطان ولاية نغري
+      سيمبيلان ملِكاً اتحادياً منتخباً، وتولّى تونكو عبد
+      الرحمن بوترا الحاج — زعيم المنظمة الوطنية الملايوية
+      المتحدة (أمنو) وحزب التحالف — رئاسةَ الوزراء أوّلَ
+      مرة. وتوسّع الاتحاد سنة ١٩٦٣ ميلادي بضم صباح وساراواك
+      وسنغافورة (التي انفصلت سنة ١٩٦٥ ميلادي) فصار اتحاد
+      ماليزيا الحديث. وماليزيا بلد سني شافعي، الإسلام دين
+      الاتحاد فيها، ونظامها ملكية دستورية تتداور فيها العرش
+      الاتحادي بين سلاطين الولايات التسعة. وسلاطين ولايات
+      الملايو هم الرؤساء الدستوريون للشؤون الإسلامية في
+      ولاياتهم، استمراراً لتقليد سياسي إسلامي يرجع إلى إسلام
+      سلطنة ملقا في عهد بارامسوارا/إسكندر شاه في مطلع القرن
+      التاسع الهجري. ويحتفل بـ٣١ أوت بـ«هاري ميرديكا».
+    description_fr: |
+      La Fédération de Malaisie — confédération de neuf
+      sultanats malais plus Penang et Malacca — accéda à
+      l'indépendance de l'Empire britannique le 5 Ṣafar 1377 H
+      (31 août 1957 EC), avec le *Yang di-Pertuan Agong*
+      Tuanku Abdul Rahman ibni al-Marhum Tuanku Muhammad du
+      Negeri Sembilan comme monarque fédéral élu, et Tunku
+      Abdul Rahman Putra al-Haj — chef de l'Organisation
+      nationale des Malais unis (UMNO) et du parti de
+      l'Alliance — comme premier Premier ministre. La
+      fédération s'élargit en 1963 par l'incorporation du
+      Sabah, du Sarawak et de Singapour (cette dernière s'en
+      séparant en 1965) pour devenir la Fédération moderne de
+      Malaisie. La Malaisie est un pays sunnite shāfiʿite,
+      l'Islam y est la religion de la Fédération, et son
+      régime est une monarchie constitutionnelle où la
+      royauté fédérale tourne entre les neuf sultans des
+      États. Les sultans des États malais sont les chefs
+      constitutionnels des affaires islamiques dans leur État
+      respectif, perpétuant une tradition politique islamique
+      remontant à l'islamisation du Sultanat de Malacca sous
+      Parameswara/Iskandar Shāh au début du XVe siècle.
+      Le 31 août est célébré comme *Hari Merdeka*.
+    canonical_hijri: {year: 1377, month: 2, day: 4, precision: day}
+    canonical_gregorian: {date: 1957-08-31, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Malayzia' dates the independence of the Federation of Malaya from the United Kingdom to 31 August 1957."
+      - source_key: editorial
+        notes: "Editorial summary; date observed annually as Hari Merdeka, the Malaysian national day."
+    tags: [malaysia, malaya, modern, independence, british-empire, shafii, southeast-asia, hari-merdeka]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hari_Merdeka"
+
+  - slug: independence-of-algeria-1962
+    category: political_event
+    title_en: Independence of Algeria
+    title_ar: استقلال الجزائر
+    title_fr: Indépendance de l'Algérie
+    description_en: |
+      The People's Democratic Republic of Algeria proclaimed its
+      independence from France on 3 Ṣafar 1382 AH (5 July 1962
+      CE), exactly 132 years to the day after the French capture
+      of Algiers on 5 July 1830. The proclamation came after the
+      Évian Accords of 19 March 1962 — which ended the
+      seven-and-a-half-year war of national liberation
+      (1954-1962) launched by the Front de Libération Nationale
+      (FLN) under leaders including Aḥmad Ben Bella, Hocine
+      Aït Ahmed, Mohamed Boudiaf, Houari Boumédiène, and Krim
+      Belkacem — and the self-determination referendum of
+      1 July 1962 in which over 99 % of Algerian voters chose
+      independence. The conflict cost an estimated several
+      hundred thousand to over a million Algerian lives and
+      forced the departure of approximately 800,000 European
+      *pieds-noirs* settlers. Independent Algeria was a Sunni
+      Mālikī country whose pre-1830 religious and intellectual
+      heritage — Tlemcen, Constantine, Algiers, and the Saharan
+      *zawāyā* — had been the subject of the twentieth-century
+      reformist programme of ʿAbd al-Ḥamīd Ibn Bādīs and the
+      Association of Algerian Muslim ʿUlamāʾ. The 5 July is
+      observed annually as the national independence day.
+    description_ar: |
+      أعلنت الجمهورية الجزائرية الديمقراطية الشعبية استقلالها
+      من فرنسا يوم ٣ صفر سنة ١٣٨٢ هـ (الموافق ٥ جويلية ١٩٦٢
+      ميلادي)، أي بعد ١٣٢ سنة بالتمام والكمال من سقوط مدينة
+      الجزائر في يد القوات الفرنسية يوم ٥ جويلية ١٨٣٠
+      ميلادي. وجاء الإعلان بعد «اتفاقيات إيفيان» يوم ١٩ مارس
+      ١٩٦٢ ميلادي — التي أنهت حرب التحرير الوطني التي دامت
+      سبع سنوات ونصفاً (١٩٥٤-١٩٦٢ ميلادي) وقادتها «جبهة
+      التحرير الوطني» بزعامة جماعة من بينهم أحمد بن بلّة
+      وحسين آيت أحمد ومحمد بوضياف وهواري بومدين وكريم بلقاسم
+      — وبعد استفتاء تقرير المصير في فاتح جويلية ١٩٦٢
+      ميلادي الذي اختار فيه ما يربو على ٩٩٪ من الناخبين
+      الجزائريين الاستقلال. وقد خلَّف الصراع مئات الآلاف من
+      الشهداء الجزائريين قُدِّروا بأكثر من المليون، وأرغم
+      على الرحيل نحو ثمانمائة ألف من المستوطنين الأوروبيين
+      («الأقدام السوداء»). وكانت الجزائر المستقلة بلداً
+      سنياً مالكياً لتراثٍ ديني وعلمي قبل سنة ١٨٣٠ ميلادي —
+      تلمسان وقسنطينة والجزائر والزوايا الصحراوية — كان
+      موضوع المشروع الإصلاحي للشيخ عبد الحميد بن باديس
+      و«جمعية العلماء المسلمين الجزائريين» في القرن العشرين.
+      ويحتفل بـ٥ جويلية سنوياً عيداً للاستقلال الوطني.
+    description_fr: |
+      La République algérienne démocratique et populaire
+      proclama son indépendance de la France le 3 Ṣafar 1382 H
+      (5 juillet 1962 EC), exactement 132 ans jour pour jour
+      après la prise d'Alger par les forces françaises le 5
+      juillet 1830. La proclamation suivit les accords d'Évian
+      du 19 mars 1962 — qui mirent fin à la guerre de libération
+      nationale longue de sept ans et demi (1954-1962),
+      conduite par le Front de Libération Nationale (FLN) sous
+      des dirigeants tels qu'Aḥmad Ben Bella, Hocine Aït
+      Ahmed, Mohamed Boudiaf, Houari Boumédiène et Krim
+      Belkacem — et le référendum d'autodétermination du
+      1er juillet 1962, dans lequel plus de 99 % des électeurs
+      algériens choisirent l'indépendance. Le conflit coûta
+      la vie à plusieurs centaines de milliers d'Algériens —
+      jusqu'à plus d'un million selon certaines estimations —
+      et força le départ d'environ 800 000 colons européens
+      (*pieds-noirs*). L'Algérie indépendante était un pays
+      sunnite malikite dont l'héritage religieux et
+      intellectuel d'avant 1830 — Tlemcen, Constantine, Alger
+      et les *zawāyā* sahariennes — avait été l'objet du
+      programme réformiste du XXe siècle de ʿAbd al-Ḥamīd Ibn
+      Bādīs et de l'Association des Oulémas Musulmans
+      Algériens. Le 5 juillet est célébré chaque année comme
+      fête nationale de l'indépendance.
+    canonical_hijri: {year: 1382, month: 2, day: 3, precision: day}
+    canonical_gregorian: {date: 1962-07-05, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Jazāʾir' dates Algerian independence from France to 5 July 1962, the date of the formal proclamation following the 1 July self-determination referendum."
+      - source_key: editorial
+        notes: "Editorial summary; date observed annually as the Algerian national independence day."
+    people: [[abd-al-hamid-ibn-badis, subject]]
+    tags: [algeria, modern, independence, french-colonial, fln, maliki, north-africa, evian]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Independence_Day_(Algeria)"
+
+  # =========================================================================
+  # GULF AND SOUTHEAST-ASIAN INDEPENDENCES (1971-1984)
+  # =========================================================================
+
+  - slug: founding-of-united-arab-emirates
+    category: political_event
+    title_en: Founding of the United Arab Emirates
+    title_ar: قيام دولة الإمارات العربية المتحدة
+    title_fr: Fondation des Émirats arabes unis
+    description_en: |
+      Six of the seven former Trucial States of the lower Gulf
+      coast — Abū Ẓaby, Dubayy, al-Shāriqa, ʿAjmān, Umm
+      al-Quwayn, and al-Fujayra — federated to form the United
+      Arab Emirates (*al-Imārāt al-ʿArabiyya al-Muttaḥida*) on
+      14 Shawwāl 1391 AH (2 December 1971 CE), one day after
+      the British protective treaties of 1820, 1853, 1892, and
+      subsequent agreements lapsed. Ras al-Khaymah joined as
+      the seventh emirate on 10 February 1972. Shaykh Zāyid
+      ibn Sulṭān Āl Nahyān of Abū Ẓaby — long-serving emir of
+      the largest member-state — was elected the first
+      president of the federation, and Shaykh Rāshid ibn Saʿīd
+      Āl Maktūm of Dubayy was named first vice-president and
+      prime minister. The federation contains a Sunni Mālikī
+      and Hanbalī majority, the historic Bani Yas, Qawasim, and
+      other Arab tribal confederations of the lower Gulf, and
+      since the 1958 oil discoveries has become one of the
+      principal financial and commercial centres of the wider
+      Arab and Muslim world. The 2 December is observed
+      annually as the National Day.
+    description_ar: |
+      اتحدت ست من الإمارات السبع الساحلية في الخليج العربي
+      السفلي — أبو ظبي ودبي والشارقة وعجمان وأم القيوين
+      والفجيرة — في «دولة الإمارات العربية المتحدة» يوم
+      ١٤ شوال سنة ١٣٩١ هـ (الموافق ٢ ديسمبر ١٩٧١ ميلادي)،
+      بعد يوم واحد من انقضاء معاهدات الحماية البريطانية
+      السابقة لسنة ١٨٢٠ و١٨٥٣ و١٨٩٢ ميلادي وما تلاها. ثم
+      انضمت رأس الخيمة إمارةً سابعةً في ١٠ فيفري ١٩٧٢
+      ميلادي. وانتُخب الشيخ زايد بن سلطان آل نهيان أمير
+      أبو ظبي — وهي كبرى الإمارات الأعضاء — أوّلَ رئيس
+      للاتحاد، وعُيّن الشيخ راشد بن سعيد آل مكتوم أمير
+      دبي نائباً للرئيس ورئيساً للوزراء. والاتحاد ذو
+      أغلبية سنية مالكية وحنبلية، يحوي القبائل العربية
+      التاريخية في الخليج السفلي من بني ياس والقواسم
+      وغيرهم، وقد صار منذ اكتشافات النفط سنة ١٩٥٨ ميلادي
+      أحد أكبر المراكز المالية والتجارية في العالمين
+      العربي والإسلامي عامة. ويُحتفل بـ٢ ديسمبر سنوياً
+      عيداً وطنياً.
+    description_fr: |
+      Six des sept anciens États de la Trêve de la côte
+      inférieure du Golfe — Abū Ẓaby, Dubayy, al-Shāriqa,
+      ʿAjmān, Umm al-Quwayn et al-Fujayra — fédèrent leurs
+      souverainetés pour former les Émirats arabes unis (*al-
+      Imārāt al-ʿArabiyya al-Muttaḥida*) le 14 Shawwāl
+      1391 H (2 décembre 1971 EC), un jour après l'expiration
+      des traités de protection britanniques de 1820, 1853,
+      1892 et accords subséquents. Ras al-Khaymah rejoignit
+      la fédération comme septième émirat le 10 février 1972.
+      Le cheikh Zāyid ibn Sulṭān Āl Nahyān d'Abū Ẓaby —
+      émir de longue date du plus grand des États membres —
+      fut élu premier président de la fédération, et le
+      cheikh Rāshid ibn Saʿīd Āl Maktūm de Dubayy nommé
+      premier vice-président et Premier ministre. La
+      fédération abrite une majorité sunnite malikite et
+      ḥanbalite, les confédérations tribales arabes
+      historiques du Golfe inférieur — les Bani Yas, les
+      Qawasim et autres — et est devenue depuis les
+      découvertes pétrolières de 1958 l'un des principaux
+      centres financiers et commerciaux du monde arabe et
+      musulman au sens large. Le 2 décembre est célébré
+      chaque année comme fête nationale.
+    canonical_hijri: {year: 1391, month: 10, day: 13, precision: day}
+    canonical_gregorian: {date: 1971-12-02, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'al-Imārāt al-ʿArabiyya al-Muttaḥida' dates the founding of the federation to 2 December 1971 with six emirates, joined by Ras al-Khaymah on 10 February 1972."
+      - source_key: editorial
+        notes: "Editorial summary; date observed annually as the UAE National Day."
+    tags: [uae, modern, independence, gulf, abu-dhabi, dubai, federation, founding, twentieth-century]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/United_Arab_Emirates"
+
+  - slug: independence-of-brunei-1984
+    category: political_event
+    title_en: Independence of Brunei
+    title_ar: استقلال بروناي
+    title_fr: Indépendance de Brunei
+    description_en: |
+      The Sultanate of Brunei Darussalam — the historic
+      Malay-Muslim sultanate of north-western Borneo, founded
+      according to local tradition in the late thirteenth or
+      early fourteenth century and consolidated under Sultan
+      Bolkiah (r. 1485-1524 CE) at the height of its
+      regional power — regained full independence from the
+      United Kingdom on 27 Rabīʿ al-Ākhir 1404 AH (1 January
+      1984 CE), ending a British protectorate that had been in
+      force since 1888. Sultan Ḥasan al-Bolkiah Muʿizz al-Dīn
+      Wa al-Dawla — the 29th sultan, who had ascended the
+      throne in 1967 — assumed the offices of head of state,
+      prime minister, minister of defence, and minister of
+      finance, and the *Melayu Islam Beraja* ("Malay Islamic
+      Monarchy") doctrine became the official national
+      philosophy. Brunei is a Sunni Shāfiʿī country and the
+      sultan is the religious head as well as the political
+      sovereign; the *Mahkamah Syariah* operates as the
+      state's Islamic-law jurisdiction alongside the civil
+      courts. Brunei joined the United Nations and ASEAN in
+      1984 and the Organisation of Islamic Cooperation in
+      1984. The 23 February is observed as the National Day,
+      following the 1984 ratification of the formal
+      independence ceremony.
+    description_ar: |
+      استرجعت سلطنة بروناي دار السلام — السلطنة الملاوية
+      المسلمة التاريخية في شمال غرب جزيرة بورنيو، التي تروي
+      التقاليد المحلية تأسيسها في أواخر القرن السابع الهجري
+      أو مطلع الثامن، وبلغت أوجها في عهد السلطان بلكيه
+      (المتوفى نحو سنة ٩٣٠ هـ / ١٥٢٤ ميلادي) — استقلالها
+      الكامل عن المملكة المتحدة يوم ٢٧ ربيع الآخر سنة
+      ١٤٠٤ هـ (الموافق فاتح جانفي ١٩٨٤ ميلادي)، فأنهت بذلك
+      الحماية البريطانية القائمة منذ سنة ١٨٨٨ ميلادي.
+      وتولّى السلطان حسن البلقيه معز الدين والدولة — السلطان
+      التاسع والعشرون، الذي اعتلى العرش سنة ١٩٦٧ ميلادي —
+      مناصبَ رئيس الدولة ورئيس الوزراء ووزير الدفاع ووزير
+      المالية، وصارت عقيدة «ملايو إسلام براجا» («الملكية
+      الإسلامية الملاوية») الفلسفة الرسمية الوطنية. وبروناي
+      بلد سني شافعي، السلطان فيها رأس الدين ورأس السلطة
+      السياسية، وتعمل «المحكمة الشرعية» قضاءً شرعياً إلى
+      جانب القضاء المدني. وانضمت بروناي إلى الأمم المتحدة
+      ورابطة دول جنوب شرق آسيا (آسيان) سنة ١٩٨٤ ميلادي،
+      وإلى منظمة التعاون الإسلامي في تلك السنة. ويحتفل
+      بـ٢٣ فيفري عيداً وطنياً، تخليداً لمراسم الاستقلال
+      الرسمية سنة ١٩٨٤ ميلادي.
+    description_fr: |
+      Le Sultanat du Brunei Darussalam — sultanat malais-
+      musulman historique du nord-ouest de Bornéo, fondé selon
+      la tradition locale à la fin du XIIIe ou au début du
+      XIVe siècle EC et consolidé sous le sultan Bolkiah
+      (r. 1485-1524 EC) à l'apogée de sa puissance régionale —
+      retrouva sa pleine indépendance du Royaume-Uni le
+      27 Rabīʿ al-Ākhir 1404 H (1er janvier 1984 EC), mettant
+      fin à un protectorat britannique en vigueur depuis
+      1888. Le sultan Ḥasan al-Bolkiah Muʿizz al-Dīn Wa
+      al-Dawla — 29e sultan, monté sur le trône en 1967 —
+      assuma les fonctions de chef d'État, Premier ministre,
+      ministre de la Défense et ministre des Finances, et la
+      doctrine du *Melayu Islam Beraja* (« Monarchie
+      islamique malaise ») devint la philosophie nationale
+      officielle. Brunei est un pays sunnite shāfiʿite, le
+      sultan en est le chef religieux autant que le souverain
+      politique, et la *Mahkamah Syariah* fonctionne comme
+      juridiction islamique de l'État aux côtés des tribunaux
+      civils. Brunei adhéra à l'Organisation des Nations
+      unies et à l'ASEAN en 1984, ainsi qu'à l'Organisation
+      de la Coopération islamique cette même année. Le 23
+      février est célébré comme fête nationale,
+      commémorant la cérémonie officielle d'indépendance
+      de 1984.
+    canonical_hijri: {year: 1404, month: 4, day: 27, precision: day}
+    canonical_gregorian: {date: 1984-01-01, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+        notes: "EI2 'Brūnāy' dates the full independence of Brunei Darussalam from the British protectorate to 1 January 1984."
+      - source_key: editorial
+        notes: "Editorial summary; date corroborated in Brunei state and British colonial-office records."
+    tags: [brunei, modern, independence, british-protectorate, shafii, southeast-asia, sultanate, mib]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Brunei"

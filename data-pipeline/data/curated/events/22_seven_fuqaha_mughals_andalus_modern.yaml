@@ -1,0 +1,939 @@
+# Wave 9 of curated event additions (2026-04-26).
+# 4 remaining Madinan fuqaha al-sab'a (completing the seven jurists)
+# + 2 mughal emperors + 2 andalusi-maghrebi late scholars
+# + 2 senior sahaba + 2 modern revivers + 1 astronomer
+# + 2 Umayyad civil-war battles. Trilingual (en/ar/fr).
+
+events:
+  # =========================================================================
+  # SEVEN JURISTS OF MEDINA — REMAINING FOUR
+  # =========================================================================
+
+  - slug: death-of-salim-ibn-abdullah-ibn-umar
+    category: scholar
+    title_en: Death of Salim ibn ʿAbdullah ibn ʿUmar
+    title_ar: وفاة سالم بن عبد الله بن عمر
+    title_fr: Mort de Sālim ibn ʿAbdullāh ibn ʿUmar
+    description_en: |
+      Abu ʿUmar Salim ibn ʿAbdullah ibn ʿUmar ibn al-Khaṭṭab —
+      grandson of the Caliph ʿUmar ra through his father ʿAbdullah,
+      one of the seven jurists of Medina (*al-fuqahaʾ al-sabʿa*),
+      and the foremost Hanbali-line preserver of the Madinan
+      hadith tradition through his transmission of his father's
+      hadiths from his grandfather — died in Medina at age about
+      80. Imam Malik narrated extensively from him; his hadith
+      *Salim ʿan abi-hi ʿan jaddi-hi* (Salim from his father from
+      his grandfather) is one of the *aṣaḥḥ al-asanid* (most
+      reliable chains) in classical hadith methodology, classified
+      by al-Bukhari as the strongest single chain reaching ʿUmar
+      ibn al-Khaṭṭab ra. Hisham ibn ʿAbd al-Malik consulted him on
+      every major matter when in Medina.
+    description_ar: |
+      توفي الإمام أبو عمر سالم بن عبد الله بن عمر بن الخطاب — حفيد
+      أمير المؤمنين عمر بن الخطاب رضي الله عنه من ابنه عبد الله،
+      وأحد فقهاء المدينة السبعة، وكبير أهل السنة في حفظ تراث حديث
+      المدينة عبر روايته أحاديث أبيه عن جده — بالمدينة المنورة عن
+      نحو ثمانين سنة. روى عنه الإمام مالك كثيراً، وحديثه «سالم عن
+      أبيه عن جده» من أصح الأسانيد عند المحدثين، وعدّه الإمام
+      البخاري أوثق الأسانيد إلى عمر رضي الله عنه. وكان الخليفة
+      هشام بن عبد الملك يستشيره في كل أمر مهم إذا قدم المدينة.
+    description_fr: |
+      Abu ʿUmar Sālim ibn ʿAbdullāh ibn ʿUmar ibn al-Khaṭṭāb —
+      petit-fils du calife ʿUmar ra par son père ʿAbdullāh, l'un
+      des sept jurisconsultes de Médine (*al-fuqahāʾ al-sabʿa*),
+      et le principal préservateur dans la lignée hanbalite de la
+      tradition médinoise du hadith par sa transmission des
+      hadiths de son père de la part de son grand-père — mourut à
+      Médine à l'âge d'environ 80 ans. L'imam Mālik rapporta
+      abondamment de lui; son hadith *Sālim ʿan abī-hi ʿan
+      jaddi-hi* (Sālim de son père de son grand-père) est l'un
+      des *aṣaḥḥ al-asānīd* (chaînes les plus fiables) dans la
+      méthodologie classique du hadith, classifié par al-Bukhārī
+      comme la chaîne la plus solide remontant à ʿUmar ibn
+      al-Khaṭṭāb ra. Hishām ibn ʿAbd al-Malik le consultait sur
+      chaque affaire majeure quand il était à Médine.
+    canonical_hijri: {year: 106, precision: year}
+    canonical_gregorian: {date: 725-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[salim-ibn-abdullah-ibn-umar, subject], [abdullah-ibn-umar, subject], [umar-ibn-al-khattab, subject]]
+    tags: [tabi'un, fuqaha-al-sabʿa, medina, umayyad, hadith]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-sulayman-ibn-yasar
+    category: scholar
+    title_en: Death of Sulayman ibn Yasar
+    title_ar: وفاة سليمان بن يسار
+    title_fr: Mort de Sulaymān ibn Yasār
+    description_en: |
+      Abu Ayyub Sulayman ibn Yasar al-Hilali — Persian-origin
+      mawla of Maymuna bint al-Ḥarith ra (the Mother of the
+      Believers), one of the seven jurists of Medina, and brother
+      of ʿAṭaʾ ibn Yasar — died in Medina at age about 73. al-
+      Zuhri said of him: "He was one of the scholars of this
+      community"; Imam Malik called him "one of the foremost
+      scholars after Saʿid ibn al-Musayyib." His rulings on
+      transactions and family law preserved in al-Muwaṭṭaʾ trace
+      the early Madinan ijmaʿ on those questions. He was famed
+      for an incident of withholding from sin: a beautiful woman
+      offered herself to him while he was a young man on a hajj
+      caravan and he wept all night until she fled in shame —
+      a story al-Dhahabi cites as illustrating the deepest
+      Madinan ascetic standard.
+    description_ar: |
+      توفي الإمام أبو أيوب سليمان بن يسار الهلالي — مولى ميمونة
+      بنت الحارث رضي الله عنها أم المؤمنين، وأحد فقهاء المدينة
+      السبعة، وأخو عطاء بن يسار. كان من أصول فارسية. توفي رحمه
+      الله بالمدينة عن نحو ثلاث وسبعين سنة. قال عنه الزهري: «كان
+      أحد علماء هذه الأمة»، وقال الإمام مالك: «كان أحد العلماء
+      في الناس بعد سعيد بن المسيب». وأقواله في المعاملات والأحكام
+      والأسرة المحفوظة في «الموطأ» أصل من إجماع المدينة الأول في
+      تلك المسائل. واشتهر بحادثة عفته: فقد عرضت عليه نفسها امرأة
+      جميلة وهو شاب في قافلة الحج، فبكى ليلته حتى فرت منه خجلاً —
+      وهي قصة يوردها الذهبي شاهداً على أدق نموذج للزهد المدني
+      الباكر.
+    description_fr: |
+      Abu Ayyūb Sulaymān ibn Yasār al-Hilālī — *mawlā* d'origine
+      persane de Maymūna bint al-Ḥārith ra (la Mère des Croyants),
+      l'un des sept jurisconsultes de Médine, et frère d'ʿAṭāʾ
+      ibn Yasār — mourut à Médine à l'âge d'environ 73 ans.
+      al-Zuhrī dit de lui : « il fut l'un des savants de cette
+      communauté »; l'imam Mālik l'appela « l'un des savants les
+      plus éminents après Saʿīd ibn al-Musayyib ». Ses décisions
+      sur les transactions et le droit familial préservées dans
+      al-Muwaṭṭaʾ tracent l'*ijmāʿ* médinois ancien sur ces
+      questions. Il était célèbre pour un incident d'abstention
+      du péché : une belle femme s'offrit à lui alors qu'il était
+      jeune homme dans une caravane de Ḥajj et il pleura toute la
+      nuit jusqu'à ce qu'elle s'enfuie de honte — une histoire
+      qu'al-Dhahabī cite comme illustrant la norme ascétique
+      médinoise la plus profonde.
+    canonical_hijri: {year: 107, precision: year}
+    canonical_gregorian: {date: 725-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[sulayman-ibn-yasar, subject]]
+    tags: [tabi'un, fuqaha-al-sabʿa, medina, umayyad, mawla]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-kharija-ibn-zayd
+    category: scholar
+    title_en: Death of Kharija ibn Zayd ibn Thabit
+    title_ar: وفاة خارجة بن زيد بن ثابت
+    title_fr: Mort de Khārija ibn Zayd ibn Thābit
+    description_en: |
+      Abu Zayd Kharija ibn Zayd ibn Thabit al-Anṣari — son of the
+      Companion Zayd ibn Thabit ra (the Prophet's ﷺ scribe of
+      revelation and compiler of the Muṣḥaf), and one of the
+      seven jurists of Medina — died in Medina at age about 70.
+      He inherited his father's expertise in inheritance law
+      (*faraʾiḍ*) and was the senior Madinan authority on the
+      subject for thirty years. The fatwas of Medina passed
+      through him and his contemporaries among the seven jurists
+      to the next generation, where they crystallised under Imam
+      Malik into the corpus of *Muwaṭṭaʾ*. His brother Sulayman
+      was also a respected jurist of Medina but not of the seven.
+    description_ar: |
+      توفي الإمام أبو زيد خارجة بن زيد بن ثابت الأنصاري — ابن
+      الصحابي زيد بن ثابت رضي الله عنه (كاتب وحي رسول الله ﷺ
+      وجامع المصحف الشريف)، وأحد فقهاء المدينة السبعة — بالمدينة
+      المنورة عن نحو سبعين سنة. ورث عن أبيه علم الفرائض، فكان
+      كبير المدنيين فيه ثلاثين سنة. ومرت فتاوى المدينة عبره وعبر
+      قرنائه من فقهاء السبعة إلى الجيل التالي، حيث تبلورت في عصر
+      الإمام مالك في كتاب «الموطأ». وكان أخوه سليمان فقيهاً
+      مدنياً معتبراً وإن لم يكن من السبعة.
+    description_fr: |
+      Abu Zayd Khārija ibn Zayd ibn Thābit al-Anṣārī — fils du
+      Compagnon Zayd ibn Thābit ra (le scribe de la révélation
+      du Prophète ﷺ et compilateur du Muṣḥaf), et l'un des sept
+      jurisconsultes de Médine — mourut à Médine à l'âge d'environ
+      70 ans. Il hérita de l'expertise de son père dans le droit
+      successoral (*farāʾiḍ*) et fut l'autorité médinoise de
+      référence sur le sujet pendant trente ans. Les fatwas de
+      Médine passèrent à travers lui et ses contemporains parmi
+      les sept jurisconsultes à la génération suivante, où elles
+      cristallisèrent sous l'imam Mālik dans le corpus du
+      *Muwaṭṭaʾ*. Son frère Sulaymān fut aussi un juriste
+      médinois respecté mais pas des sept.
+    canonical_hijri: {year: 100, precision: year}
+    canonical_gregorian: {date: 718-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[kharija-ibn-zayd, subject], [zayd-ibn-thabit, subject]]
+    tags: [tabi'un, fuqaha-al-sabʿa, medina, faraʾiḍ, umayyad]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-abu-bakr-ibn-abd-al-rahman
+    category: scholar
+    title_en: Death of Abu Bakr ibn ʿAbd al-Rahman ibn al-Harith
+    title_ar: وفاة أبي بكر بن عبد الرحمن بن الحارث
+    title_fr: Mort d'Abu Bakr ibn ʿAbd al-Raḥmān ibn al-Ḥārith
+    description_en: |
+      Abu Bakr ibn ʿAbd al-Rahman ibn al-Harith ibn Hisham al-
+      Makhzumi — last to die of the seven jurists of Medina, son
+      of one of ʿUmar's ra senior consultative council members,
+      and called *al-rahib* ("the monk") for his asceticism and
+      tearful prayer — died in Medina, blind, at age about 73.
+      He was a maternal uncle of the Caliph ʿUmar II. His
+      narration of the *fatḥ Makka* sermon of the Prophet ﷺ
+      (preserved in al-Bukhari) is one of the foundational
+      reports on the legal status of Mecca. al-Zuhri said: "I do
+      not know that I have ever found anyone with a better grasp
+      of judicial precedent than Abu Bakr ibn ʿAbd al-Rahman."
+    description_ar: |
+      توفي الإمام أبو بكر بن عبد الرحمن بن الحارث بن هشام المخزومي
+      — آخر فقهاء المدينة السبعة وفاةً، ابن أحد كبار مستشاري عمر
+      رضي الله عنه، الملقب بـ«الراهب» لزهده ودموعه في الصلاة —
+      ضريراً بالمدينة المنورة عن نحو ثلاث وسبعين سنة. وهو خال
+      الخليفة عمر بن عبد العزيز رحمه الله. وروايته لخطبة فتح مكة
+      عند رسول الله ﷺ (المحفوظة في «صحيح البخاري») من الأصول
+      الفقهية في حكم مكة. قال الزهري: «ما أعلم أني وجدت أحداً
+      أعلم بقضاء سابق من أبي بكر بن عبد الرحمن».
+    description_fr: |
+      Abu Bakr ibn ʿAbd al-Raḥmān ibn al-Ḥārith ibn Hishām al-
+      Makhzūmī — dernier à mourir des sept jurisconsultes de
+      Médine, fils de l'un des membres du conseil consultatif
+      principal d'ʿUmar ra, et appelé *al-rāhib* (« le moine »)
+      pour son ascétisme et ses prières en larmes — mourut à
+      Médine, aveugle, à l'âge d'environ 73 ans. Il était oncle
+      maternel du calife ʿUmar II. Sa narration du sermon du
+      *fatḥ Makka* du Prophète ﷺ (préservée dans al-Bukhārī) est
+      l'un des rapports fondateurs sur le statut juridique de
+      La Mecque. al-Zuhrī dit : « je ne sache pas avoir jamais
+      trouvé quelqu'un avec une meilleure compréhension du
+      précédent judiciaire qu'Abū Bakr ibn ʿAbd al-Raḥmān ».
+    canonical_hijri: {year: 94, precision: year}
+    canonical_gregorian: {date: 712-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[abu-bakr-ibn-abd-al-rahman, subject]]
+    tags: [tabi'un, fuqaha-al-sabʿa, medina, makhzum, umayyad]
+    importance: notable
+    verification_status: cross_verified
+
+  # =========================================================================
+  # MUGHAL EMPERORS
+  # =========================================================================
+
+  - slug: death-of-humayun
+    category: ruler
+    title_en: Death of Emperor Humayun
+    title_ar: وفاة الإمبراطور همايون
+    title_fr: Mort de l'empereur Humāyūn
+    description_en: |
+      Naṣir al-Din Muhammad Humayun, second Mughal emperor, died
+      at Delhi after falling from the steps of his library at the
+      Purana Qila when the muezzin's call to prayer caught him
+      mid-step and he stooped to honour it. He was 47. His reign
+      had been famously interrupted: forced into exile by Sher
+      Shah Sūri in 947 AH (1540 CE), he spent fifteen years in
+      Persia and Afghanistan before returning to reclaim Delhi
+      in 962 AH (1555 CE) — only to die six months later from
+      the library accident. His son Akbar, who succeeded him at
+      age 13, would consolidate the Mughal restoration into the
+      empire that ruled the Indian subcontinent for two and a
+      half centuries. Humayun's tomb in Delhi (commissioned by
+      his Persian widow Ḥamida Banu Begum) was the architectural
+      precursor of the Taj Mahal a century later.
+    description_ar: |
+      توفي الإمبراطور ناصر الدين محمد همايون — ثاني أباطرة الدولة
+      المغولية الإسلامية في الهند — بدلهي بعد سقوطه من سلم مكتبته
+      في «بورانا قلعة» إذ ناداه المؤذن للصلاة فاحترم الأذان فانكب
+      ساقطاً. وقد ناهز السابعة والأربعين. كان عهده انقطع شهرة:
+      أكرهه شير شاه السوري على الفرار إلى المنفى سنة ٩٤٧ هـ (١٥٤٠
+      ميلادي)، فأقام خمس عشرة سنة بين بلاد فارس وأفغانستان قبل أن
+      يعود لاسترداد دلهي سنة ٩٦٢ هـ (١٥٥٥ ميلادي) — ثم توفي بعد
+      ستة أشهر بحادثة المكتبة. وخلفه ابنه أكبر وعمره ثلاث عشرة
+      سنة، فثبت استعادة الدولة المغولية إمبراطورية حكمت شبه القارة
+      الهندية قرنين ونصف قرن. ومقبرة همايون بدلهي (التي كلفت ببنائها
+      أرملته الفارسية حميدة بانو بيغوم) هي السلف المعماري لتاج
+      محل بعدها بقرن.
+    description_fr: |
+      Naṣir al-Dīn Muḥammad Humāyūn, deuxième empereur moghol,
+      mourut à Delhi après être tombé des marches de sa bibliothèque
+      au Purana Qila lorsque l'appel du muezzin à la prière le
+      saisit au milieu d'un pas et qu'il se courba pour l'honorer.
+      Il avait 47 ans. Son règne avait été célèbrement interrompu :
+      forcé à l'exil par Sher Shah Sūri en 947 H (1540 EC), il
+      passa quinze ans en Perse et en Afghanistan avant de revenir
+      reconquérir Delhi en 962 H (1555 EC) — pour mourir six
+      mois plus tard de l'accident de la bibliothèque. Son fils
+      Akbar, qui lui succéda à l'âge de 13 ans, consoliderait la
+      restauration moghole dans l'empire qui gouverna le sous-
+      continent indien pendant deux siècles et demi. Le tombeau
+      de Humāyūn à Delhi (commandé par sa veuve persane Ḥamīda
+      Bānū Begum) fut le précurseur architectural du Taj Mahal
+      un siècle plus tard.
+    canonical_hijri: {year: 963, month: 2, day: 13, precision: day}
+    canonical_gregorian: {date: 1556-01-27, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[humayun, subject]]
+    tags: [mughal, india, delhi, akbar, persia, sher-shah]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Humayun"
+
+  - slug: death-of-shah-jahan
+    category: ruler
+    title_en: Death of Emperor Shah Jahan
+    title_ar: وفاة الإمبراطور شاه جهان
+    title_fr: Mort de l'empereur Shāh Jahān
+    description_en: |
+      Shihab al-Din Muhammad Shah Jahan, fifth Mughal emperor and
+      the patron of the most extensive architectural programme in
+      the Islamic world — the Taj Mahal at Agra (for his wife
+      Mumtaz Mahal), the Red Fort at Delhi (Lal Qilʿa), the
+      Jamiʿ Masjid of Delhi, and the new capital of Shahjahanabad
+      — died at the age of 74 in confinement at Agra Fort, where
+      his son Aurangzeb had imprisoned him eight years earlier
+      after deposing him. He was buried beside Mumtaz Mahal in
+      the Taj Mahal. His thirty-year reign (1037-1068 AH /
+      1628-1658 CE) is regarded as the cultural apogee of the
+      Mughal empire: court Persian poetry, manuscript painting,
+      monumental architecture, and the consolidation of Mughal
+      sovereignty across the entire Indian subcontinent. His
+      removal by Aurangzeb in 1658 CE marked the start of the
+      religious-political reorientation toward Sharia-orthodox
+      governance under the next reign.
+    description_ar: |
+      توفي الإمبراطور شهاب الدين محمد شاه جهان — خامس أباطرة
+      الدولة المغولية الإسلامية وراعي أوسع برنامج معماري في تاريخ
+      العالم الإسلامي: تاج محل بأكره (لزوجه ممتاز محل)، والقلعة
+      الحمراء بدلهي، والجامع الكبير بدلهي، والعاصمة الجديدة
+      «شاه جهان آباد» — في سجنه بقلعة أكره عن أربع وسبعين سنة،
+      حيث كان قد سجنه ابنه أورنجزيب قبل ثماني سنين بعد إقصائه عن
+      الحكم. ودفن إلى جوار ممتاز محل في تاج محل. وكان عهده الذي
+      امتد ثلاثين سنة (١٠٣٧-١٠٦٨ هـ / ١٦٢٨-١٦٥٨ ميلادي) ذروة
+      الحضارة المغولية: شعر البلاط الفارسي، ورسم المخطوطات،
+      والعمارة الضخمة، واستقرار السلطة المغولية على عامة شبه
+      القارة الهندية. وإقصاؤه على يد أورنجزيب سنة ١٦٥٨ ميلادي
+      أعلن بدء التحول الديني-السياسي نحو الحكم على وفق الشريعة
+      السنية في العهد التالي.
+    description_fr: |
+      Shihāb al-Dīn Muḥammad Shāh Jahān, cinquième empereur moghol
+      et mécène du plus vaste programme architectural du monde
+      islamique — le Taj Mahal à Agra (pour son épouse Mumtaz
+      Mahal), le Fort Rouge à Delhi (Lal Qilʿa), la Jāmiʿ Masjid
+      de Delhi, et la nouvelle capitale de Shahjahanabad — mourut
+      à 74 ans en captivité au Fort d'Agra, où son fils Aurangzeb
+      l'avait emprisonné huit ans plus tôt après l'avoir déposé.
+      Il fut enterré aux côtés de Mumtaz Mahal dans le Taj Mahal.
+      Son règne de trente ans (1037-1068 H / 1628-1658 EC) est
+      considéré comme l'apogée culturelle de l'empire moghol :
+      poésie persane de cour, peinture de manuscrits, architecture
+      monumentale, et consolidation de la souveraineté moghole
+      sur l'ensemble du sous-continent indien. Sa déposition par
+      Aurangzeb en 1658 EC marqua le début de la réorientation
+      religio-politique vers une gouvernance orthodoxe-sharʿique
+      sous le règne suivant.
+    canonical_hijri: {year: 1076, month: 2, precision: month}
+    canonical_gregorian: {date: 1666-01-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[shah-jahan, subject]]
+    tags: [mughal, india, taj-mahal, agra, aurangzeb, architecture]
+    importance: major
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Shah_Jahan"
+
+  # =========================================================================
+  # ANDALUSI / MAGHREBI LATE SCHOLARS
+  # =========================================================================
+
+  - slug: death-of-ibn-al-haj-al-abdari
+    category: scholar
+    title_en: Death of Ibn al-Hajj al-ʿAbdari — author of al-Madkhal
+    title_ar: وفاة ابن الحاج العبدري — صاحب «المدخل»
+    title_fr: Mort d'Ibn al-Ḥājj al-ʿAbdarī — auteur d'al-Madkhal
+    description_en: |
+      Abu ʿAbdullah Muhammad ibn Muhammad al-ʿAbdari al-Fāsi al-
+      Maliki, known as Ibn al-Ḥajj — Maliki jurist of Fes who
+      taught at Cairo, and author of *al-Madkhal* (the
+      Introduction), the most extensive Maliki manual on the
+      ethics of daily life and the suppression of innovated
+      practices (*bidaʿ*) in popular Sunni religiosity — died
+      in Cairo at age about 81. *al-Madkhal* in five volumes
+      catalogues the local Sunni practices of his Maghrebi-
+      Egyptian milieu, distinguishing those rooted in the Sunna
+      from those introduced by custom or by foreign syncretism;
+      it became the canonical reference for Sunni reformist
+      critique of popular religious practice across the Maliki
+      world. The work's framework was inherited by later
+      Maghrebi reformers from al-Wansharisi to the Salafi
+      movement of the nineteenth century.
+    description_ar: |
+      توفي الإمام أبو عبد الله محمد بن محمد العبدري الفاسي المالكي
+      المعروف بـ«ابن الحاج» — فقيه مالكي فاسي درّس بالقاهرة، ومصنف
+      «المدخل»، أوسع متن مالكي في آداب الحياة اليومية والقضاء
+      على البدع في المسلك الديني الشعبي للسنة — بالقاهرة عن نحو
+      إحدى وثمانين سنة. و«المدخل» في خمسة مجلدات يحصي ممارسات أهل
+      السنة في زمنه ومحيطه المغاربي-المصري، مميزاً بين ما كان
+      منها متأصلاً في السنة وما كان مدخلاً بالعرف أو بالاختلاط
+      بغير الإسلام؛ فصار المرجع المعتمد في النقد السني الإصلاحي
+      للممارسات الدينية الشعبية في عامة العالم المالكي. وورث
+      المصلحون المغاربة بعده هيكل الكتاب من الونشريسي إلى الحركة
+      السلفية في القرن التاسع عشر.
+    description_fr: |
+      Abu ʿAbdullāh Muḥammad ibn Muḥammad al-ʿAbdarī al-Fāsī al-
+      Mālikī, connu sous le nom d'Ibn al-Ḥājj — juriste malikite
+      de Fès qui enseigna au Caire, et auteur d'*al-Madkhal*
+      (l'Introduction), le manuel malikite le plus exhaustif sur
+      l'éthique de la vie quotidienne et la suppression des
+      pratiques innovées (*bidaʿ*) dans la religiosité sunnite
+      populaire — mourut au Caire à l'âge d'environ 81 ans.
+      *al-Madkhal* en cinq volumes catalogue les pratiques
+      sunnites locales de son milieu maghrébin-égyptien,
+      distinguant celles enracinées dans la Sunna de celles
+      introduites par la coutume ou le syncrétisme étranger; il
+      devint la référence canonique pour la critique réformiste
+      sunnite des pratiques religieuses populaires à travers le
+      monde malikite. Le cadre de l'ouvrage fut hérité par les
+      réformateurs maghrébins ultérieurs, d'al-Wansharīsī au
+      mouvement salafi du XIXe siècle.
+    canonical_hijri: {year: 737, precision: year}
+    canonical_gregorian: {date: 1336-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ibn_kathir_bidaya
+        is_canonical: true
+      - source_key: dhahabi_tarikh_islam
+      - source_key: ei2
+    people: [[ibn-al-haj-al-abdari, subject]]
+    tags: [maliki, fiqh, fes, cairo, mamluk, bidʿa, madkhal]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_al-Hajj_al-Abdari"
+
+  - slug: death-of-al-maqqari
+    category: scholar
+    title_en: Death of al-Maqqari — author of Nafḥ al-Ṭib
+    title_ar: وفاة المقري — صاحب «نفح الطيب»
+    title_fr: Mort d'al-Maqqarī — auteur de Nafḥ al-Ṭīb
+    description_en: |
+      Aḥmad ibn Muhammad al-Maqqari al-Tilimsani — Maliki scholar
+      from Tlemcen, qadi of Fes, and author of *Nafḥ al-Ṭib min
+      Ghuṣn al-Andalus al-Raṭib* (the Wafted Fragrance from the
+      Tender Branch of al-Andalus), the most comprehensive
+      single source on the cultural and intellectual history of
+      al-Andalus from the conquest to the fall of Granada — died
+      in Cairo. He was about 47. *Nafḥ al-Ṭib* runs to ten
+      volumes and synthesises hundreds of earlier Andalusian
+      sources including dozens that survive only in the
+      quotations he preserves; it is the indispensable archive of
+      Andalusian poetry, biography, geography, and political
+      history. The second half is a biographical celebration of
+      his teacher Lisan al-Din ibn al-Khaṭib (the Naṣrid vizier
+      of Granada). al-Maqqari's *Azhar al-Riyaḍ* on al-Qaḍi
+      ʿIyaḍ is similarly the standard biographical work on that
+      subject.
+    description_ar: |
+      توفي الإمام أحمد بن محمد المقري التلمساني — فقيه مالكي من
+      تلمسان، تولى قضاء فاس، ومصنف «نفح الطيب من غصن الأندلس
+      الرطيب»، أشمل مصدر منفرد في تاريخ الأندلس الثقافي والفكري
+      من الفتح إلى سقوط غرناطة — بالقاهرة عن نحو سبع وأربعين سنة.
+      ويبلغ «نفح الطيب» عشرة مجلدات تستوعب مئات المصادر الأندلسية
+      السابقة، منها عشرات لم تصل إلينا إلا بنقوله عنها؛ فهو
+      الأرشيف الذي لا غنى عنه في الشعر الأندلسي والتراجم والجغرافيا
+      والتاريخ السياسي. ونصف الكتاب الثاني تخليد لشيخه لسان الدين
+      ابن الخطيب (وزير غرناطة الناصري). وكتاب المقري «أزهار
+      الرياض» في القاضي عياض هو أيضاً المرجع البيوغرافي المعتمد
+      في القاضي عياض.
+    description_fr: |
+      Aḥmad ibn Muḥammad al-Maqqarī al-Tilimsānī — savant
+      malikite de Tlemcen, qāḍī de Fès, et auteur de *Nafḥ al-Ṭīb
+      min Ghuṣn al-Andalus al-Raṭīb* (le Parfum Diffusé de la
+      Tendre Branche d'al-Andalus), la source unique la plus
+      complète sur l'histoire culturelle et intellectuelle d'al-
+      Andalus depuis la conquête jusqu'à la chute de Grenade —
+      mourut au Caire. Il avait environ 47 ans. *Nafḥ al-Ṭīb*
+      s'étend sur dix volumes et synthétise des centaines de
+      sources andalouses antérieures, dont des dizaines qui ne
+      survivent que dans les citations qu'il préserve; c'est
+      l'archive indispensable de la poésie, de la biographie,
+      de la géographie et de l'histoire politique andalouses.
+      La seconde moitié est une célébration biographique de son
+      maître Lisān al-Dīn ibn al-Khaṭīb (le vizir naṣride de
+      Grenade). *Azhār al-Riyāḍ* d'al-Maqqarī sur al-Qāḍī ʿIyāḍ
+      est de manière similaire l'ouvrage biographique standard
+      sur ce sujet.
+    canonical_hijri: {year: 1041, month: 9, precision: month}
+    canonical_gregorian: {date: 1632-04-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-maqqari, subject], [ibn-al-khatib, subject], [al-qadi-iyad, subject]]
+    tags: [andalus, maliki, tlemcen, fes, cairo, ottoman, history]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Maqqari"
+
+  # =========================================================================
+  # ADDITIONAL SAHABA
+  # =========================================================================
+
+  - slug: death-of-al-bara-ibn-azib
+    category: companion
+    title_en: Death of al-Baraʾ ibn ʿAzib ra
+    title_ar: وفاة البراء بن عازب رضي الله عنه
+    title_fr: Mort d'al-Barāʾ ibn ʿĀzib ra
+    description_en: |
+      Abu ʿUmara al-Baraʾ ibn ʿAzib al-Anṣari al-Awsi — Companion
+      who took the Prophet ﷺ's pledge at age 15, was rejected as
+      too young to fight at Badr but participated from Uḥud
+      onward, and was the conqueror who took the Persian city of
+      Rayy under ʿUmar ra in 24 AH — died in Kufa at age about
+      71, in the same year as Sa'd ibn Abi Waqqāṣ ra. He
+      narrated 305 hadiths in the Six Books, several of them
+      foundational: his report of the change of qibla from
+      Jerusalem to Mecca (Q 2:144) is the principal hadith on
+      that topic, as is his report of the Prophet's ﷺ instruction
+      that punishment in the grave is real. He had supported
+      ʿAli ra at Ṣiffin and Nahrawan, and disengaged from
+      politics afterwards; he died on his estate near Kufa.
+    description_ar: |
+      توفي أبو عمارة البراء بن عازب الأنصاري الأوسي رضي الله عنه —
+      الصحابي الذي بايع رسول الله ﷺ وعمره خمس عشرة سنة، فردّه
+      النبي ﷺ يوم بدر لصغر سنه ثم شهد ما بعد أحد من الغزوات،
+      والفاتح الذي افتتح مدينة الري الفارسية في خلافة عمر بن
+      الخطاب رضي الله عنه سنة ٢٤ هـ — بالكوفة عن نحو إحدى وسبعين
+      سنة، في السنة نفسها التي مات فيها سعد بن أبي وقاص رضي الله
+      عنه. روى ٣٠٥ أحاديث في الكتب الستة، منها أحاديث أصول: حديثه
+      في تحويل القبلة من بيت المقدس إلى الكعبة (سورة البقرة:
+      ١٤٤) هو الحديث الأصل في هذا الباب، وكذلك حديثه عن النبي ﷺ
+      في إثبات عذاب القبر. وكان قد ناصر علياً رضي الله عنه يوم
+      صفين والنهروان ثم اعتزل السياسة بعد، وتوفي في ضيعته قرب
+      الكوفة.
+    description_fr: |
+      Abu ʿUmāra al-Barāʾ ibn ʿĀzib al-Anṣārī al-Awsī — Compagnon
+      qui prit serment au Prophète ﷺ à l'âge de 15 ans, fut
+      refusé comme trop jeune pour combattre à Badr mais participa
+      à partir d'Uḥud, et fut le conquérant qui prit la ville
+      perse de Rayy sous ʿUmar ra en 24 H — mourut à Koufa à
+      l'âge d'environ 71 ans, la même année que Saʿd ibn Abī
+      Waqqāṣ ra. Il narra 305 hadiths dans les Six Livres, dont
+      plusieurs fondateurs : son rapport sur le changement de
+      *qibla* de Jérusalem à La Mecque (Q 2:144) est le hadith
+      principal sur ce sujet, comme l'est son rapport de
+      l'instruction du Prophète ﷺ que le châtiment dans la tombe
+      est réel. Il avait soutenu ʿAli ra à Ṣiffīn et à Nahrawān,
+      et se désengagea de la politique par la suite; il mourut
+      dans son domaine près de Koufa.
+    canonical_hijri: {year: 71, precision: year}
+    canonical_gregorian: {date: 690-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Bukhari 40"
+    quran_refs: "2:144"
+    people: [[al-bara-ibn-azib, subject]]
+    tags: [sahaba, ansar, kufa, qibla, conquest-of-rayy, persian]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Al-Bara%27_ibn_Azib"
+
+  - slug: death-of-imran-ibn-husayn
+    category: companion
+    title_en: Death of ʿImran ibn al-Ḥuṣayn ra
+    title_ar: وفاة عمران بن الحصين رضي الله عنه
+    title_fr: Mort de ʿImrān ibn al-Ḥuṣayn ra
+    description_en: |
+      Abu Nujayd ʿImran ibn al-Ḥuṣayn al-Khuzaʿi — Companion who
+      embraced Islam in the year of Khaybar (7 AH), governor of
+      Basra under ʿUmar ra, and the foremost Companion-jurist of
+      Basra after the killing of ʿUthman ra — died at Basra at
+      age about 75. He narrated 180 hadiths in the Six Books and
+      was praised by ʿUmar ra: "I do not know any one of you
+      except him whose tongue does not differ from his heart."
+      He suffered chronic illness for thirty years (an unhealing
+      side wound from cauterising a wound he had received in
+      battle), which he embraced as expiation; the Prophet ﷺ
+      had warned him against burning his body, and ʿImran
+      narrated this hadith with personal regret. He was a
+      neutral during the first fitna and refused to take sides
+      between ʿAli and Muʿawiya ra.
+    description_ar: |
+      توفي أبو نجيد عمران بن الحصين الخزاعي رضي الله عنه — الصحابي
+      الذي أسلم عام خيبر سنة سبع للهجرة، ووالي البصرة في خلافة
+      عمر بن الخطاب رضي الله عنه، وكبير فقهاء الصحابة بالبصرة بعد
+      مقتل عثمان رضي الله عنه — بالبصرة عن نحو خمس وسبعين سنة.
+      روى ١٨٠ حديثاً في الكتب الستة، وقال فيه عمر رضي الله عنه:
+      «ما أعلم منكم واحداً إلا وفي قلبه شيء غير ما في لسانه إلا
+      عمران». وأصابه مرض مزمن ثلاثين سنة (جرح في خاصرته كواه فلم
+      يبرأ)، فاحتسبه عند الله؛ وكان النبي ﷺ قد نهاه عن الكي،
+      فروى عمران هذا الحديث وفي قلبه أسف على المخالفة. وكان
+      رحمه الله محايداً في الفتنة الأولى ولم ينحز إلى علي ولا
+      إلى معاوية رضي الله عنهما.
+    description_fr: |
+      Abu Nujayd ʿImrān ibn al-Ḥuṣayn al-Khuzaʿi — Compagnon qui
+      embrassa l'Islam à l'année de Khaybar (7 H), gouverneur de
+      Bassora sous ʿUmar ra, et le principal Compagnon-juriste de
+      Bassora après le meurtre d'ʿUthmān ra — mourut à Bassora à
+      l'âge d'environ 75 ans. Il narra 180 hadiths dans les Six
+      Livres et fut loué par ʿUmar ra : « je ne connais aucun
+      d'entre vous sinon lui dont la langue ne diffère du cœur ».
+      Il souffrit d'une maladie chronique pendant trente ans (une
+      blessure de flanc qui ne guérit jamais après cautérisation
+      d'une blessure reçue au combat), qu'il embrassa comme
+      expiation; le Prophète ﷺ l'avait mis en garde contre la
+      cautérisation, et ʿImrān rapporta ce hadith avec un regret
+      personnel. Il fut neutre durant la première *fitna* et
+      refusa de prendre parti entre ʿAlī et Muʿāwiya ra.
+    canonical_hijri: {year: 52, precision: year}
+    canonical_gregorian: {date: 672-01-01, precision: year, method: attested}
+    claims:
+      - source_key: ibn_hajar_isaba
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_siyar
+      - source_key: ibn_kathir_bidaya
+    hadith_refs: "Abu Dawud 3865"
+    people: [[imran-ibn-husayn, subject]]
+    tags: [sahaba, basra, khaybar, fitna, jurist]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Imran_ibn_Husain"
+
+  # =========================================================================
+  # MODERN REVIVERS + ASTRONOMER
+  # =========================================================================
+
+  - slug: death-of-muhammad-ibn-ibrahim-al-al-shaykh
+    category: scholar
+    title_en: Death of Shaykh Muḥammad ibn Ibrahim Al al-Shaykh
+    title_ar: وفاة الشيخ محمد بن إبراهيم آل الشيخ
+    title_fr: Mort de Cheikh Muḥammad ibn Ibrāhīm Āl al-Shaykh
+    description_en: |
+      Muhammad ibn Ibrahim Al al-Shaykh — direct descendant of
+      Muhammad ibn ʿAbd al-Wahhab, first Grand Mufti of the
+      modern Saudi state (1373-1389 AH / 1953-1969 CE), and
+      shaykh of nearly every prominent Saudi scholar of the
+      twentieth century including ʿAbd al-ʿAziz ibn Baz, Ibn
+      ʿUthaymin, Ibn Jibrin, and ʿAbd al-Razzaq ʿAfifi — died
+      in Riyadh at age about 76. As Grand Mufti he established
+      the institutional framework of contemporary Saudi religious
+      jurisprudence: the Council of Senior Scholars, the
+      directorate of religious endowments, the system of state
+      mufti offices, and the formal curriculum of the religious
+      schools that became the Imam Muhammad ibn Saʿud Islamic
+      University. His thirteen-volume *Fatawa wa-Rasaʾil* remains
+      the standard reference for modern Saudi Hanbali fiqh.
+    description_ar: |
+      توفي الشيخ محمد بن إبراهيم آل الشيخ — من ذرية الشيخ محمد بن
+      عبد الوهاب رحمه الله، وأول مفتٍ عام للدولة السعودية الحديثة
+      (١٣٧٣-١٣٨٩ هـ / ١٩٥٣-١٩٦٩ ميلادي)، وشيخ عامة كبار العلماء
+      السعوديين في القرن العشرين منهم عبد العزيز بن باز وابن
+      عثيمين وابن جبرين وعبد الرزاق عفيفي — بالرياض عن نحو ست
+      وسبعين سنة. وأرسى بصفته مفتياً عاماً البنية المؤسسية للفقه
+      الديني السعودي المعاصر: هيئة كبار العلماء، ووزارة الأوقاف،
+      ونظام مكاتب المفتي للدولة، والمنهج الرسمي للمعاهد العلمية
+      التي صارت جامعة الإمام محمد بن سعود الإسلامية. وما زالت
+      «الفتاوى والرسائل» في ثلاثة عشر مجلداً المرجع المعتمد في
+      الفقه الحنبلي السعودي الحديث.
+    description_fr: |
+      Muḥammad ibn Ibrāhīm Āl al-Shaykh — descendant direct de
+      Muḥammad ibn ʿAbd al-Wahhāb, premier Grand Mufti de l'État
+      saoudien moderne (1373-1389 H / 1953-1969 EC), et maître
+      de presque tous les éminents savants saoudiens du XXe
+      siècle dont ʿAbd al-ʿAzīz ibn Bāz, Ibn ʿUthaymīn, Ibn
+      Jibrīn, et ʿAbd al-Razzāq ʿAfīfī — mourut à Riyad à l'âge
+      d'environ 76 ans. En tant que Grand Mufti, il établit le
+      cadre institutionnel de la jurisprudence religieuse
+      saoudienne contemporaine : le Conseil des Grands Savants,
+      la direction des fondations religieuses, le système des
+      bureaux des muftis d'État, et le cursus formel des écoles
+      religieuses qui devint l'Université islamique Imam
+      Muḥammad ibn Saʿūd. Ses *Fatāwā wa-Rasāʾil* en treize
+      volumes demeurent la référence standard du fiqh hanbalite
+      saoudien moderne.
+    canonical_hijri: {year: 1389, month: 12, day: 24, precision: day}
+    canonical_gregorian: {date: 1969-12-23, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-ibn-ibrahim-al-al-shaykh, subject], [bin-baz, subject], [al-uthaymeen, subject]]
+    tags: [hanbali, saudi, riyadh, modern, grand-mufti]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ibn_Ibrahim_Al_ash-Sheikh"
+
+  - slug: death-of-muhammad-hamidullah
+    category: scholar
+    title_en: Death of Muhammad Hamidullah
+    title_ar: وفاة محمد حميد الله
+    title_fr: Mort de Muḥammad Hamidullah
+    description_en: |
+      Muhammad Hamidullah — Hyderabad-born Sunni scholar trained
+      in fiqh, sira, and international law at Osmania, the
+      Sorbonne, and the University of Bonn (where he earned a
+      doctorate on early Islamic diplomatic relations) — died in
+      Jacksonville, Florida, at age 94. He spent most of his life
+      in Paris as professor of Islamic studies and translator,
+      producing the first complete French translation of the
+      Qurʾan with extensive scholarly footnotes (1959), and the
+      monumental *Le Prophète de l'Islam* (1959, 1976) which
+      remains the standard French-language sira. His
+      reconstruction-edition *Saḥifat Hammam ibn Munabbih* (1953)
+      proved that the earliest written hadith collection
+      antedates al-Bukhari by 250 years, decisively refuting the
+      Schacht-Goldziher hypothesis on Western academic terms. He
+      lived in voluntary exile from Hyderabad after the 1948
+      Indian annexation, refusing both Indian and Pakistani
+      passports for life.
+    description_ar: |
+      توفي الأستاذ محمد حميد الله — عالم سني حيدر آبادي المنشأ،
+      تخرج في الفقه والسيرة والقانون الدولي في عثمانية والسوربون
+      وجامعة بون (وحاز فيها الدكتوراه على رسالة في العلاقات
+      الدبلوماسية في الإسلام الباكر) — في «جاكسونفيل» بفلوريدا عن
+      أربع وتسعين سنة. وأقام عمره أكثر بباريس أستاذاً للدراسات
+      الإسلامية ومترجماً، فأخرج أول ترجمة فرنسية كاملة للقرآن مع
+      حواش علمية مستوعبة (١٩٥٩ ميلادي)، وكتابه «النبي الإسلامي»
+      (الفرنسية ١٩٥٩-١٩٧٦) ما زال السيرة النبوية المعتمدة بالفرنسية.
+      وتحقيقه «صحيفة همام بن منبه» (١٩٥٣ ميلادي) أثبت أن أول
+      مجموعة حديث مكتوبة تسبق البخاري بـ٢٥٠ سنة، فأبطل بذلك
+      أطروحة شاخت وغولدزيهر بأكاديمية النقد الغربي بشروطه. وعاش
+      منفياً بإرادته من حيدر آباد بعد إلحاقها بالهند سنة ١٩٤٨،
+      رافضاً الجواز الهندي والباكستاني عمره كله.
+    description_fr: |
+      Muḥammad Hamidullah — savant sunnite né à Hyderabad, formé
+      en fiqh, sīra et droit international à Osmania, à la
+      Sorbonne et à l'Université de Bonn (où il obtint un
+      doctorat sur les relations diplomatiques de l'Islam ancien)
+      — mourut à Jacksonville, en Floride, à l'âge de 94 ans. Il
+      passa la majeure partie de sa vie à Paris comme professeur
+      d'études islamiques et traducteur, produisant la première
+      traduction française complète du Coran avec des notes
+      savantes étendues (1959), et le monumental *Le Prophète
+      de l'Islam* (1959, 1976) qui reste la *sīra* standard en
+      langue française. Son édition-reconstruction *Ṣaḥīfat
+      Hammām ibn Munabbih* (1953) prouva que la plus ancienne
+      collection de hadiths écrite précède al-Bukhārī de 250 ans,
+      réfutant de manière décisive l'hypothèse Schacht-Goldziher
+      en termes académiques occidentaux. Il vécut en exil
+      volontaire de Hyderabad après l'annexion indienne de 1948,
+      refusant les passeports indien et pakistanais à vie.
+    canonical_hijri: {year: 1423, month: 9, day: 7, precision: day}
+    canonical_gregorian: {date: 2002-12-17, precision: day, method: attested}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[muhammad-hamidullah, subject]]
+    tags: [modern, hyderabad, paris, sira, hadith, schacht]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_Hamidullah"
+
+  - slug: death-of-al-birjandi
+    category: scientist
+    title_en: Death of al-Birjandi — Persian astronomer-mathematician
+    title_ar: وفاة البرجندي — فلكي ورياضي فارسي
+    title_fr: Mort d'al-Birjandī — astronome-mathématicien persan
+    description_en: |
+      ʿAbd al-ʿAli ibn Muhammad ibn Husayn al-Birjandi — Persian
+      Sunni astronomer and mathematician of Khurasan, last great
+      heir of the Maragha-Samarqand observational tradition that
+      stretched back through Ulugh Beg and al-Tusi — died at
+      Mashhad. His commentaries on al-Tusi's *Tadhkira* and on
+      al-Kashi's planetary models pushed the *hayʾa* (planetary
+      theory) tradition to its furthest mathematical refinement
+      before the Ptolemaic framework would be displaced entirely
+      in Europe by Copernicus and Kepler. His arguments against
+      the rotation of the Earth — defending a stationary-Earth
+      cosmology with sophisticated geometric reasoning — were
+      taken up by Tycho Brahe in correspondence; al-Birjandi's
+      objections to terrestrial motion are the most rigorous
+      pre-Copernican Islamic engagement with the question.
+    description_ar: |
+      توفي الإمام عبد العلي بن محمد بن حسين البرجندي — فلكي ورياضي
+      سني فارسي من خراسان، آخر ورثة المدرسة الرصدية المراغية-
+      السمرقندية الكبيرة الممتدة عبر أُلُغ بِك ونصير الدين الطوسي —
+      بمشهد. وشروحه على «التذكرة» للطوسي وعلى نماذج الكاشي
+      الكوكبية دفعت تراث «الهيئة» إلى أقصى مدى من التنقيح الرياضي
+      قبل أن يُزاح الإطار البطلمي كلياً في أوروبا على يد كوبرنيكوس
+      وكبلر. وحججه ضد دوران الأرض — مدافعاً عن كون الأرض ساكنة
+      بحجج هندسية معقدة — تلقفها تيخو براهي في مراسلاته؛ واعتراضات
+      البرجندي على حركة الأرض من أدق ما خاضه الإسلاميون قبل
+      كوبرنيكوس في هذه المسألة.
+    description_fr: |
+      ʿAbd al-ʿAlī ibn Muḥammad ibn Ḥusayn al-Birjandī — astronome
+      et mathématicien sunnite persan du Khurasan, dernier grand
+      héritier de la tradition observationnelle Marāgha-Samarcande
+      qui remontait à travers Ulugh Beg et al-Ṭūsī — mourut à
+      Mashhad. Ses commentaires sur la *Tadhkira* d'al-Ṭūsī et
+      sur les modèles planétaires d'al-Kāshī poussèrent la
+      tradition *hayʾa* (théorie planétaire) à son raffinement
+      mathématique le plus poussé avant que le cadre ptoléméen
+      ne soit entièrement déplacé en Europe par Copernic et
+      Kepler. Ses arguments contre la rotation de la Terre —
+      défendant une cosmologie de la Terre stationnaire par un
+      raisonnement géométrique sophistiqué — furent repris par
+      Tycho Brahe en correspondance; les objections d'al-Birjandī
+      au mouvement terrestre sont l'engagement islamique pré-
+      copernicien le plus rigoureux avec la question.
+    canonical_hijri: {year: 934, precision: year}
+    canonical_gregorian: {date: 1528-01-01, precision: year, method: tabular_conversion}
+    claims:
+      - source_key: ei2
+        is_canonical: true
+      - source_key: editorial
+    people: [[al-birjandi, subject], [nasir-al-din-al-tusi, subject], [ulugh-beg, subject]]
+    tags: [scientist, astronomy, khurasan, mashhad, safavid, tusi, copernicus]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_al-Ali_al-Birjandi"
+
+  # =========================================================================
+  # UMAYYAD CIVIL-WAR BATTLES
+  # =========================================================================
+
+  - slug: battle-of-marj-rahit
+    category: battle
+    title_en: Battle of Marj Rahit — Marwanid Restoration
+    title_ar: معركة مرج راهط — قيام الدولة المروانية
+    title_fr: Bataille de Marj Rāhiṭ — restauration marwanide
+    description_en: |
+      On the plain of Marj Rahit east of Damascus, the Umayyad
+      forces under the elderly Marwan ibn al-Ḥakam — pretender
+      to the caliphate after the deaths of Yazid I and his son
+      Muʿawiya II — defeated the Qaysite tribal coalition under
+      al-Ḍaḥḥak ibn Qays al-Fihri (who had supported ʿAbdullah
+      ibn al-Zubayr from Damascus). The battle marked the end of
+      the Sufyanid Umayyad line and the beginning of the
+      Marwanid line that would rule Damascus until the Abbasid
+      revolution in 132 AH. It also crystallised the Qays-Yaman
+      tribal split that would shape every subsequent Umayyad
+      conflict and ultimately contribute to the dynasty's
+      collapse. ʿAbd al-Malik ibn Marwan, the future caliph,
+      consolidated his father's victory and would reunify the
+      caliphate with the death of ʿAbdullah ibn al-Zubayr nine
+      years later.
+    description_ar: |
+      في سهل مرج راهط شرق دمشق هزم الجيش الأموي بقيادة الشيخ
+      مروان بن الحكم — المطالب بالخلافة بعد وفاتي يزيد الأول وابنه
+      معاوية الثاني — تحالف القبائل القيسية بقيادة الضحاك بن قيس
+      الفهري (وقد كان موالياً لعبد الله بن الزبير من دمشق). أطلقت
+      المعركة نهاية الفرع السفياني الأموي وبداية الفرع المرواني
+      الذي حكم دمشق حتى الثورة العباسية سنة ١٣٢ هـ. كما رسخت
+      الانقسام القبلي بين القيسية واليمنية الذي صاغ كل صراعات
+      بني أمية اللاحقة وأسهم في نهاية المطاف في انهيار الدولة. وقد
+      رسخ عبد الملك بن مروان — الخليفة المقبل — انتصار أبيه ثم
+      أعاد توحيد الخلافة بمقتل عبد الله بن الزبير بعد ذلك بتسع
+      سنين.
+    description_fr: |
+      Sur la plaine de Marj Rāhiṭ à l'est de Damas, les forces
+      omeyyades sous le vieillard Marwān ibn al-Ḥakam —
+      prétendant au califat après les morts de Yazīd Ier et de
+      son fils Muʿāwiya II — défirent la coalition tribale
+      qaysite sous al-Ḍaḥḥāk ibn Qays al-Fihrī (qui avait
+      soutenu ʿAbdallāh ibn al-Zubayr depuis Damas). La bataille
+      marqua la fin de la lignée omeyyade sufyanide et le début
+      de la lignée marwanide qui gouvernerait Damas jusqu'à la
+      révolution abbasside en 132 H. Elle cristallisa également
+      la division tribale Qays-Yaman qui façonnerait tous les
+      conflits omeyyades ultérieurs et contribuerait finalement
+      à l'effondrement de la dynastie. ʿAbd al-Malik ibn Marwān,
+      le futur calife, consolida la victoire de son père et
+      réunifierait le califat avec la mort d'ʿAbdullāh ibn
+      al-Zubayr neuf ans plus tard.
+    canonical_hijri: {year: 64, month: 11, day: 18, precision: day}
+    canonical_gregorian: {date: 684-08-18, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[abd-al-malik-ibn-marwan, subject]]
+    tags: [umayyad, fitna, damascus, marwanid, qays-yaman, civil-war]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Marj_Rahit_(684)"
+
+  - slug: battle-of-dayr-al-jamajim
+    category: battle
+    title_en: Battle of Dayr al-Jamajim — Suppression of Ibn al-Ashʿath's Revolt
+    title_ar: معركة دير الجماجم — قمع ثورة ابن الأشعث
+    title_fr: Bataille de Dayr al-Jamājim — répression de la révolte d'Ibn al-Ashʿath
+    description_en: |
+      The army of al-Hajjaj ibn Yusuf, governor of the eastern
+      provinces under Caliph ʿAbd al-Malik ibn Marwan, defeated
+      the rebel forces of ʿAbd al-Rahman ibn al-Ashʿath — at the
+      head of a coalition of Iraqi qurraʾ, fuqaha, and disgruntled
+      soldiers from the Kufan and Basran armies who had risen
+      against al-Hajjaj's harsh rule — at Dayr al-Jamajim near
+      Kufa. The battle decided the fate of the *fitnat al-qurraʾ*,
+      a revolt that had threatened Umayyad sovereignty over
+      Iraq, the Iranian plateau, and Khurasan for two years and
+      had drawn senior tabiʿi fuqaha into open opposition
+      including ʿAmir al-Shaʿbi and Saʿid ibn Jubayr. After the
+      defeat, al-Hajjaj exacted a fearsome reprisal; Saʿid ibn
+      Jubayr was eventually captured and executed by al-Hajjaj
+      himself. The revolt's suppression cemented al-Hajjaj's
+      grip on the East but also deepened the chasm between the
+      Umayyad state and the Iraqi religious scholar class.
+    description_ar: |
+      هزم جيش الحجاج بن يوسف الثقفي والي المشرق للخليفة عبد الملك
+      بن مروان جيش ثوار عبد الرحمن بن الأشعث — على رأس تحالف من
+      قراء العراق وفقهاء أهلها وجنود من جند الكوفة والبصرة الساخطين
+      على حكم الحجاج الجائر — في «دير الجماجم» قرب الكوفة. وحسمت
+      المعركة مصير «فتنة القراء»، تلك الثورة التي هددت سلطان
+      بني أمية على العراق والإيران الإسلامية وخراسان سنتين، وضمت
+      كباراً من فقهاء التابعين منهم عامر الشعبي وسعيد بن جبير.
+      وبعد الهزيمة بطش الحجاج ببقية الثوار، وأسر سعيد بن جبير في
+      الأخير وقتله الحجاج بنفسه. ورسخ قمع الثورة قبضة الحجاج على
+      المشرق وعمّق في الوقت نفسه الفجوة بين دولة بني أمية وطبقة
+      العلماء العراقيين.
+    description_fr: |
+      L'armée d'al-Ḥajjāj ibn Yūsuf, gouverneur des provinces
+      orientales sous le calife ʿAbd al-Malik ibn Marwān, défit
+      les forces rebelles d'ʿAbd al-Raḥmān ibn al-Ashʿath — à
+      la tête d'une coalition de *qurrāʾ* irakiens, de *fuqahāʾ*
+      et de soldats mécontents des armées koufiennes et baṣriennes
+      qui s'étaient soulevés contre la domination dure d'al-
+      Ḥajjāj — à Dayr al-Jamājim près de Koufa. La bataille
+      scella le sort de la *fitnat al-qurrāʾ*, une révolte qui
+      avait menacé la souveraineté omeyyade sur l'Irak, le
+      plateau iranien et le Khurasan pendant deux ans et avait
+      attiré dans l'opposition ouverte de hauts *fuqahāʾ tābiʿīn*
+      dont ʿĀmir al-Shaʿbī et Saʿīd ibn Jubayr. Après la défaite,
+      al-Ḥajjāj exigea de terribles représailles; Saʿīd ibn
+      Jubayr fut finalement capturé et exécuté par al-Ḥajjāj
+      lui-même. La répression de la révolte cimenta l'emprise
+      d'al-Ḥajjāj sur l'Orient mais creusa également le gouffre
+      entre l'État omeyyade et la classe des savants religieux
+      irakiens.
+    canonical_hijri: {year: 82, precision: year}
+    canonical_gregorian: {date: 701-01-01, precision: year, method: attested}
+    claims:
+      - source_key: tabari_tarikh
+        is_canonical: true
+      - source_key: ibn_athir_kamil
+      - source_key: ibn_kathir_bidaya
+    people: [[abd-al-malik-ibn-marwan, subject], [amir-al-shabi, subject]]
+    tags: [umayyad, fitna, iraq, hajjaj, qurraʾ, kufa]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Battle_of_Dayr_al-Jamajim"

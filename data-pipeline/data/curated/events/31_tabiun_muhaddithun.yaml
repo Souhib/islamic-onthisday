@@ -1,0 +1,656 @@
+# Wave 18 of curated event additions (2026-04-27).
+# 12 foundational tabi'un muḥaddithūn and jurists across the major centres
+# of early Islamic learning — Kufa, Basra, Mecca, Medina, Yemen — all
+# attested in al-Dhahabī's *Siyar Aʿlām al-Nubalāʾ*, Ibn Saʿd's *Ṭabaqāt
+# al-Kabīr*, and the wafayāt literature. Each is the principal teacher,
+# isnād-anchor, or proto-codifier of one of the regional schools that fed
+# into the four Sunni madhāhib and the Six Books. Tabi'un are *not*
+# sahaba, so no `is_sahabi: true` and no `image_blocked_reason` here.
+# Trilingual (en/ar/fr); year-precision dominates as classical sources
+# generally fix only the wafat year for this generation.
+
+events:
+  # =========================================================================
+  # FOUNDATIONAL TABI'UN MUḤADDITHŪN AND JURISTS
+  # =========================================================================
+
+  - slug: death-of-ibrahim-al-nakhai
+    category: scholar
+    title_en: Death of Ibrāhīm al-Nakhaʿī
+    title_ar: وفاة إبراهيم النخعي
+    title_fr: Mort d'Ibrāhīm al-Nakhaʿī
+    description_en: |
+      Ibrāhīm ibn Yazīd al-Nakhaʿī, the foremost Kufan jurist of his
+      generation and the lynchpin of the Iraqi school of independent
+      legal reasoning (*raʾy*), died at age about 49. He was the nephew
+      and student of al-Aswad ibn Yazīd al-Nakhaʿī and ʿAlqama ibn
+      Qays, both major students of Ibn Masʿūd ra, through whom he
+      inherited the Kufan fiqh tradition. His own student Ḥammād ibn
+      Abī Sulaymān taught Imām Abū Ḥanīfa, making the chain
+      Ibn Masʿūd → ʿAlqama → Ibrāhīm al-Nakhaʿī → Ḥammād → Abū Ḥanīfa
+      the foundational lineage of the Ḥanafī madhhab. Al-Shaʿbī said:
+      "What he leaves behind is greater than what he takes from us."
+    description_ar: |
+      توفي الإمام إبراهيم بن يزيد النخعي — كبير فقهاء الكوفة في عصره
+      وعمود مدرسة العراق في الفقه بالرأي — عن نحو تسع وأربعين سنة. وكان
+      ابن أخت الأسود بن يزيد النخعي وتلميذ علقمة بن قيس، وكلاهما من كبار
+      أصحاب ابن مسعود رضي الله عنه، فورث منهما فقه الكوفة. وعنه أخذ
+      حماد بن أبي سليمان شيخ الإمام أبي حنيفة، فكان الإسناد:
+      «ابن مسعود → علقمة → إبراهيم النخعي → حماد → أبو حنيفة»
+      هو السلسلة الأصلية للمذهب الحنفي. قال الشعبي: «ما خلَّفه أعظمُ
+      مما أخذ منا».
+    description_fr: |
+      Ibrāhīm ibn Yazīd al-Nakhaʿī, le plus grand juriste de Kufa de
+      sa génération et la clef de voûte de l'école irakienne du
+      raisonnement juridique indépendant (*raʾy*), mourut à l'âge
+      d'environ 49 ans. Neveu et disciple d'al-Aswad ibn Yazīd
+      al-Nakhaʿī et d'ʿAlqama ibn Qays, eux-mêmes principaux élèves
+      d'Ibn Masʿūd ra, il hérita par eux de la tradition fiqh kufienne.
+      Son propre élève Ḥammād ibn Abī Sulaymān fut le maître de
+      l'imam Abū Ḥanīfa, faisant de la chaîne
+      Ibn Masʿūd → ʿAlqama → Ibrāhīm al-Nakhaʿī → Ḥammād → Abū Ḥanīfa
+      la lignée fondatrice de l'école hanafite. Al-Shaʿbī dit de lui :
+      « ce qu'il laisse derrière est plus grand que ce qu'il prend
+      de nous ».
+    canonical_hijri: {year: 96, precision: year}
+    canonical_gregorian: {date: 714-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_tarikh_islam
+    people: [[ibrahim-al-nakhai, subject], [hammad-ibn-abi-sulayman, subject]]
+    tags: [tabi'un, kufa, hanafi, fiqh, raʾy, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibrahim_al-Nakhai"
+
+  - slug: death-of-al-amash
+    category: scholar
+    title_en: Death of al-Aʿmash (Sulaymān ibn Mihrān)
+    title_ar: وفاة الأعمش (سليمان بن مهران)
+    title_fr: Mort d'al-Aʿmash (Sulaymān ibn Mihrān)
+    description_en: |
+      Abū Muḥammad Sulaymān ibn Mihrān al-Asadī al-Kāhilī, known as
+      al-Aʿmash ("the bleary-eyed"), the leading muḥaddith of Kufa in
+      his generation and a quintessential master of the *isnād*, died
+      in Rabīʿ al-Awwal at age about 88. His narrations populate every
+      one of the Six Books, and he was the principal teacher of
+      Sufyān al-Thawrī and Shuʿba ibn al-Ḥajjāj — the two pillars of
+      Iraqi hadith criticism. Yaḥyā ibn Maʿīn called him "the most
+      precise narrator in Kufa," and al-Dhahabī describes him as
+      "the master of Qurʾān recitation, hadith, and Sunna in his time."
+      His memory was so renowned that Sufyān al-Thawrī said of him:
+      "I have not seen anyone retain hadith like al-Aʿmash."
+    description_ar: |
+      توفي الإمام أبو محمد سليمان بن مهران الأسدي الكاهلي المعروف بالأعمش
+      — شيخ المحدثين بالكوفة في عصره وأحد كبار حفاظ الإسناد — في شهر
+      ربيع الأول عن نحو ثمانٍ وثمانين سنة. وحديثه في الكتب الستة جميعاً،
+      وعنه أخذ سفيان الثوري وشعبة بن الحجاج، وهما عمود نقد الحديث في
+      العراق. قال يحيى بن معين: «هو أتقن أهل الكوفة»، وقال عنه الذهبي:
+      «شيخ القرآن والحديث والسنة في زمانه». واشتهر بقوة الحفظ، حتى قال
+      عنه سفيان الثوري: «ما رأيت أحفظ للحديث من الأعمش».
+    description_fr: |
+      Abū Muḥammad Sulaymān ibn Mihrān al-Asadī al-Kāhilī, dit
+      al-Aʿmash (« le chassieux »), le plus grand muḥaddith de Kufa
+      de sa génération et maître emblématique de la science de
+      l'*isnād*, mourut au mois de Rabīʿ al-Awwal à l'âge d'environ
+      88 ans. Ses transmissions peuplent chacun des Six Livres ; il
+      fut le maître principal de Sufyān al-Thawrī et de Shuʿba ibn
+      al-Ḥajjāj, les deux piliers de la critique du hadith en Irak.
+      Yaḥyā ibn Maʿīn le nomma « le plus précis des transmetteurs de
+      Kufa », et al-Dhahabī le décrit comme « le maître du Coran, du
+      hadith et de la Sunna en son temps ». Sa mémoire était si
+      réputée que Sufyān al-Thawrī dit de lui : « je n'ai vu personne
+      retenir le hadith comme al-Aʿmash ».
+    canonical_hijri: {year: 148, month: 3, precision: month}
+    canonical_gregorian: {date: 765-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[al-amash, subject], [sufyan-al-thawri, subject]]
+    tags: [tabi'un, kufa, hadith, isnad, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Sulayman_al-A%CA%BDmash"
+
+  - slug: death-of-ibn-jurayj
+    category: scholar
+    title_en: Death of Ibn Jurayj (ʿAbd al-Malik ibn ʿAbd al-ʿAzīz)
+    title_ar: وفاة ابن جريج (عبد الملك بن عبد العزيز)
+    title_fr: Mort d'Ibn Jurayj (ʿAbd al-Malik ibn ʿAbd al-ʿAzīz)
+    description_en: |
+      Abū al-Walīd ʿAbd al-Malik ibn ʿAbd al-ʿAzīz ibn Jurayj, the
+      first scholar of Mecca to systematically compile hadith into
+      written collections (*muṣannafāt*) and the foundational link
+      between the Meccan and Medinan transmission chains, died on
+      11 Dhū al-Ḥijja at age about 70. He was the principal student
+      of ʿAṭāʾ ibn Abī Rabāḥ — through whom he inherited the school
+      of Ibn ʿAbbās ra — and the chief teacher of Sufyān ibn ʿUyayna
+      and ʿAbd al-Razzāq al-Ṣanʿānī. Al-Dhahabī calls him "the imam
+      of the people of the Sacred Sanctuary" (*imām ahl al-ḥaram*).
+      Aḥmad ibn Ḥanbal said: "Ibn Jurayj was the first to author
+      books in Islam." His mawlā lineage was Roman-Greek, attesting
+      the cosmopolitan composition of early Meccan scholarship.
+    description_ar: |
+      توفي الإمام أبو الوليد عبد الملك بن عبد العزيز بن جريج — أول من
+      صنّف الحديث في مكة تصنيفاً منهجياً، وحلقة الوصل الأساسية بين
+      أسانيد مكة والمدينة — في الحادي عشر من ذي الحجة عن نحو سبعين
+      سنة. وكان كبير أصحاب عطاء بن أبي رباح، الذي ورث عنه فقه ابن عباس
+      رضي الله عنه، وشيخ سفيان بن عيينة وعبد الرزاق الصنعاني. وصفه
+      الذهبي بأنه «إمام أهل الحرم»، وقال عنه الإمام أحمد: «أول من
+      صنّف الكتب في الإسلام ابن جريج». وكان رومي الأصل بالولاء، مما
+      يشهد بسعة المنبت العلمي بمكة في صدر الإسلام.
+    description_fr: |
+      Abū al-Walīd ʿAbd al-Malik ibn ʿAbd al-ʿAzīz ibn Jurayj,
+      premier savant de La Mecque à compiler systématiquement le
+      hadith en recueils écrits (*muṣannafāt*) et chaînon fondateur
+      entre les chaînes de transmission mecquoise et médinoise,
+      mourut le 11 Dhū al-Ḥijja à l'âge d'environ 70 ans. Il fut
+      le disciple principal de ʿAṭāʾ ibn Abī Rabāḥ — par qui il
+      hérita de l'école d'Ibn ʿAbbās ra — et le maître en chef de
+      Sufyān ibn ʿUyayna et de ʿAbd al-Razzāq al-Ṣanʿānī. Al-Dhahabī
+      l'appelle « l'imam des gens du Sanctuaire sacré ». Aḥmad ibn
+      Ḥanbal dit : « Ibn Jurayj fut le premier à composer des livres
+      en Islam ». Son ascendance d'affranchi gréco-romain atteste du
+      cosmopolitisme de l'érudition mecquoise primitive.
+    canonical_hijri: {year: 150, month: 12, day: 11, precision: day}
+    canonical_gregorian: {date: 768-01-11, precision: day, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_khallikan_wafayat
+      - source_key: ibn_sad_tabaqat
+    people: [[ibn-jurayj, subject]]
+    tags: [tabi'un, mecca, hadith, codification, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ibn_Jurayj"
+
+  - slug: death-of-tawus-ibn-kaysan
+    category: scholar
+    title_en: Death of Ṭāwūs ibn Kaysān al-Yamānī
+    title_ar: وفاة طاووس بن كيسان اليماني
+    title_fr: Mort de Ṭāwūs ibn Kaysān al-Yamānī
+    description_en: |
+      Abū ʿAbd al-Raḥmān Ṭāwūs ibn Kaysān al-Yamānī, the foremost
+      Yemeni tabiʿi and the most distinguished student of Ibn ʿAbbās
+      ra in tafsir for the southern peninsula, died on the days of
+      tashrīq during ḥajj at age about 90 and was buried at
+      Muzdalifa. Through Ṭāwūs the Yemeni school inherited the
+      Qurʾānic exegesis of "the interpreter of the Qurʾān"
+      (*tarjumān al-Qurʾān*) — Ibn ʿAbbās ra — alongside which he
+      transmitted from ʿĀʾisha, Abū Hurayra, Zayd ibn Thābit, and
+      others among the senior Companions. Ibn ʿAbbās said of him:
+      "I think Ṭāwūs is among the people of Paradise." His son
+      ʿAbdullāh inherited the family's scholarly mantle in Yemen.
+    description_ar: |
+      توفي الإمام أبو عبد الرحمن طاووس بن كيسان اليماني — كبير تابعي
+      اليمن وأبرز أصحاب ابن عباس رضي الله عنه في التفسير في جنوب
+      الجزيرة — في أيام التشريق وهو حاج، عن نحو تسعين سنة، ودُفن
+      بالمزدلفة. ورث اليمن من خلال طاووس تفسير «ترجمان القرآن» ابن
+      عباس رضي الله عنه، ولقي عائشة وأبا هريرة وزيد بن ثابت وغيرهم
+      من كبار الصحابة. قال عنه ابن عباس: «إني لأظنه من أهل الجنة».
+      وورث ابنه عبد الله رئاسة العلم في أهل اليمن من بعده.
+    description_fr: |
+      Abū ʿAbd al-Raḥmān Ṭāwūs ibn Kaysān al-Yamānī, le plus
+      éminent tabiʿi yéménite et le disciple le plus distingué
+      d'Ibn ʿAbbās ra en tafsir pour la péninsule méridionale,
+      mourut durant les jours de tashrīq pendant le ḥajj à l'âge
+      d'environ 90 ans, et fut enterré à Muzdalifa. Par Ṭāwūs,
+      l'école yéménite hérita de l'exégèse coranique de
+      « l'interprète du Coran » (*tarjumān al-Qurʾān*) — Ibn ʿAbbās
+      ra — outre les transmissions qu'il reçut d'ʿĀʾisha, Abū
+      Hurayra, Zayd ibn Thābit et d'autres Compagnons majeurs.
+      Ibn ʿAbbās dit de lui : « je le crois parmi les gens du
+      Paradis ». Son fils ʿAbdullāh hérita du flambeau scientifique
+      familial au Yémen.
+    canonical_hijri: {year: 106, month: 12, precision: month}
+    canonical_gregorian: {date: 725-05-01, precision: month, method: tabular_conversion}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[tawus-ibn-kaysan, subject]]
+    tags: [tabi'un, yemen, tafsir, ibn-abbas-school, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Tawus_ibn_Kaysan"
+
+  - slug: death-of-yahya-ibn-said-al-ansari
+    category: scholar
+    title_en: Death of Yaḥyā ibn Saʿīd al-Anṣārī
+    title_ar: وفاة يحيى بن سعيد الأنصاري
+    title_fr: Mort de Yaḥyā ibn Saʿīd al-Anṣārī
+    description_en: |
+      Abū Saʿīd Yaḥyā ibn Saʿīd ibn Qays al-Anṣārī, the senior
+      tabiʿi muḥaddith of Medina and qāḍī of the city in his time,
+      died at age about 70. He met a number of senior Companions —
+      Anas ibn Mālik, al-Sāʾib ibn Yazīd, Abū Umāma — and his
+      narrations are accepted across all six canonical collections.
+      He was the principal hadith teacher of Imām Mālik, who
+      transmitted some 110 hadith from him in the *Muwaṭṭaʾ*; among
+      his other pupils stand al-Layth ibn Saʿd, Sufyān al-Thawrī,
+      Sufyān ibn ʿUyayna, and ʿAbdullāh ibn al-Mubārak. Aḥmad ibn
+      Ḥanbal placed him "above al-Zuhrī in precision," and Yaḥyā
+      ibn Maʿīn said simply: "trustworthy, no defect can attach to
+      his narrations."
+    description_ar: |
+      توفي الإمام أبو سعيد يحيى بن سعيد بن قيس الأنصاري — كبير
+      محدثي المدينة من التابعين وقاضيها في عصره — عن نحو سبعين
+      سنة. لقي جماعة من الصحابة، منهم أنس بن مالك والسائب بن يزيد
+      وأبو أمامة، وأحاديثه في الكتب الستة جميعاً. وهو شيخ الإمام
+      مالك في الحديث، روى عنه في «الموطأ» نحو مئة وعشرة أحاديث،
+      ومن تلاميذه الليث بن سعد وسفيان الثوري وسفيان بن عيينة
+      وعبد الله بن المبارك. قدّمه الإمام أحمد على الزهري في
+      الإتقان، وقال يحيى بن معين: «ثقة، لا يُتعلَّق عليه برواية».
+    description_fr: |
+      Abū Saʿīd Yaḥyā ibn Saʿīd ibn Qays al-Anṣārī, le muḥaddith
+      tabiʿi le plus important de Médine et qāḍī de la ville en
+      son temps, mourut à l'âge d'environ 70 ans. Il rencontra
+      plusieurs Compagnons éminents — Anas ibn Mālik, al-Sāʾib
+      ibn Yazīd, Abū Umāma — et ses transmissions sont reçues
+      dans les six recueils canoniques. Il fut le maître de
+      hadith principal de l'imam Mālik, qui transmit de lui
+      environ 110 hadiths dans le *Muwaṭṭaʾ* ; comptent aussi
+      parmi ses élèves al-Layth ibn Saʿd, Sufyān al-Thawrī,
+      Sufyān ibn ʿUyayna et ʿAbdullāh ibn al-Mubārak. Aḥmad ibn
+      Ḥanbal le plaça « au-dessus d'al-Zuhrī en précision », et
+      Yaḥyā ibn Maʿīn dit simplement : « digne de confiance, on
+      ne peut rien reprocher à ses narrations ».
+    canonical_hijri: {year: 143, precision: year}
+    canonical_gregorian: {date: 760-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[yahya-ibn-said-al-ansari, subject], [malik-ibn-anas, subject]]
+    tags: [tabi'un, medina, hadith, qadi, abbasid]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-hammad-ibn-abi-sulayman
+    category: scholar
+    title_en: Death of Ḥammād ibn Abī Sulaymān
+    title_ar: وفاة حماد بن أبي سليمان
+    title_fr: Mort de Ḥammād ibn Abī Sulaymān
+    description_en: |
+      Abū Ismāʿīl Ḥammād ibn Abī Sulaymān al-Ashʿarī, the foremost
+      Kufan jurist of the second tabiʿi generation and the direct
+      teacher of Imām Abū Ḥanīfa, died in Kufa. He was the principal
+      student of Ibrāhīm al-Nakhaʿī and inherited from him the Kufan
+      legal tradition that runs back through ʿAlqama and al-Aswad to
+      Ibn Masʿūd ra. Abū Ḥanīfa studied under him for eighteen years
+      until Ḥammād's death, after which he succeeded him in the
+      teaching circle and built the Ḥanafī madhhab on its
+      foundations. Sufyān al-Thawrī and Shuʿba ibn al-Ḥajjāj also
+      transmitted hadith from him, and his narrations appear in the
+      Six Books. Al-Dhahabī describes him as "the imam, the jurist
+      of Iraq."
+    description_ar: |
+      توفي الإمام أبو إسماعيل حماد بن أبي سليمان الأشعري — كبير
+      فقهاء الكوفة في طبقته الثانية من التابعين وشيخ الإمام أبي
+      حنيفة المباشر — بالكوفة. وكان الكبير من أصحاب إبراهيم
+      النخعي، فورث عنه فقه أهل العراق المتسلسل من علقمة والأسود
+      عن ابن مسعود رضي الله عنه. لازمه الإمام أبو حنيفة ثماني عشرة
+      سنة إلى وفاته، فجلس مكانه في حلقة الكوفة وبنى المذهب الحنفي
+      على أصوله. وأخذ عنه أيضاً سفيان الثوري وشعبة بن الحجاج،
+      وحديثه في الكتب الستة. قال عنه الذهبي: «الإمام، فقيه
+      العراق».
+    description_fr: |
+      Abū Ismāʿīl Ḥammād ibn Abī Sulaymān al-Ashʿarī, le plus grand
+      juriste kufien de la seconde génération tabiʿi et maître
+      direct de l'imam Abū Ḥanīfa, mourut à Kufa. Il fut l'élève
+      principal d'Ibrāhīm al-Nakhaʿī et hérita par lui de la
+      tradition juridique kufienne remontant par ʿAlqama et al-Aswad
+      jusqu'à Ibn Masʿūd ra. Abū Ḥanīfa étudia auprès de lui dix-huit
+      années jusqu'à sa mort, lui succéda dans le cercle
+      d'enseignement et bâtit l'école hanafite sur ses fondations.
+      Sufyān al-Thawrī et Shuʿba ibn al-Ḥajjāj transmirent également
+      le hadith de lui, et ses narrations figurent dans les Six
+      Livres. Al-Dhahabī le décrit comme « l'imam, le juriste de
+      l'Irak ».
+    canonical_hijri: {year: 120, precision: year}
+    canonical_gregorian: {date: 738-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_tarikh_islam
+    people: [[hammad-ibn-abi-sulayman, subject], [ibrahim-al-nakhai, subject], [abu-hanifa, subject]]
+    tags: [tabi'un, kufa, hanafi, fiqh, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Hammad_ibn_Abi_Sulayman"
+
+  - slug: death-of-al-araj
+    category: scholar
+    title_en: Death of al-Aʿraj (ʿAbd al-Raḥmān ibn Hurmuz)
+    title_ar: وفاة الأعرج (عبد الرحمن بن هرمز)
+    title_fr: Mort d'al-Aʿraj (ʿAbd al-Raḥmān ibn Hurmuz)
+    description_en: |
+      Abū Dāwūd ʿAbd al-Raḥmān ibn Hurmuz al-Aʿraj, the senior
+      Madinan Qurʾān reciter and muḥaddith of his generation, died
+      in Alexandria after settling there. Of mawlā lineage to the
+      Banū Hāshim, he was a direct narrator from Abū Hurayra and
+      Abū Saʿīd al-Khudrī ra, and one of the most prolific
+      transmitters of Abū Hurayra's hadiths preserved in the Six
+      Books. Imām Mālik considered him a foundational teacher and
+      transmitted from him in the *Muwaṭṭaʾ*; classical biographers
+      number him among the early codifiers of Arabic philological
+      method, including the elaboration of vocalisation rules
+      (*shakl*) for the Qurʾānic text. Al-Dhahabī describes him as
+      "the imam, the master reciter, the muḥaddith."
+    description_ar: |
+      توفي الإمام أبو داود عبد الرحمن بن هرمز الأعرج — كبير قراء
+      المدينة ومحدثيها في عصره — بالإسكندرية بعد أن سكنها. كان
+      من موالي بني هاشم، وروى مباشرة عن أبي هريرة وأبي سعيد
+      الخدري رضي الله عنهما، وهو من أكثر الناس رواية لحديث أبي
+      هريرة في الكتب الستة. وعدّه الإمام مالك من شيوخه الأوائل
+      وروى عنه في «الموطأ»، ويذكر أهل التراجم أنه ممن وضع أصول
+      علم العربية، ومنها قواعد شكل المصحف. قال عنه الذهبي:
+      «الإمام، المقرئ، المحدّث».
+    description_fr: |
+      Abū Dāwūd ʿAbd al-Raḥmān ibn Hurmuz al-Aʿraj, le récitant
+      coranique et muḥaddith médinois le plus important de sa
+      génération, mourut à Alexandrie après s'y être installé.
+      D'ascendance d'affranchi des Banū Hāshim, il fut un
+      transmetteur direct d'Abū Hurayra et d'Abū Saʿīd al-Khudrī
+      ra, et l'un des plus prolifiques relayeurs des hadiths
+      d'Abū Hurayra conservés dans les Six Livres. L'imam Mālik
+      le compta parmi ses maîtres fondateurs et transmit de lui
+      dans le *Muwaṭṭaʾ* ; les biographes classiques le rangent
+      parmi les premiers codificateurs de la méthode philologique
+      arabe, dont les règles de vocalisation (*shakl*) du texte
+      coranique. Al-Dhahabī le décrit comme « l'imam, le maître
+      récitant, le muḥaddith ».
+    canonical_hijri: {year: 117, precision: year}
+    canonical_gregorian: {date: 735-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: dhahabi_tarikh_islam
+    people: [[al-araj, subject], [malik-ibn-anas, subject]]
+    tags: [tabi'un, medina, qiraʾat, hadith, umayyad]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-ibn-al-munkadir
+    category: scholar
+    title_en: Death of Muḥammad ibn al-Munkadir
+    title_ar: وفاة محمد بن المنكدر
+    title_fr: Mort de Muḥammad ibn al-Munkadir
+    description_en: |
+      Abū ʿAbdillāh Muḥammad ibn al-Munkadir al-Taymī al-Qurashī,
+      a senior Madinan tabiʿi muḥaddith and ascetic, died at age
+      about 76. He narrated directly from Jābir ibn ʿAbdillāh,
+      Anas ibn Mālik, ʿUrwa ibn al-Zubayr, ʿĀʾisha, and other
+      senior Companions and tabiʿūn, and his narrations populate
+      a great many of the hadiths cited in *Ṣaḥīḥ al-Bukhārī* and
+      *Ṣaḥīḥ Muslim*. Among his pupils stand Imām Mālik, Shuʿba
+      ibn al-Ḥajjāj, Sufyān al-Thawrī, Sufyān ibn ʿUyayna, and
+      Ibn Jurayj — virtually every major hadith authority of the
+      next generation. Sufyān ibn ʿUyayna said of him: "We have
+      not seen anyone better at performance of intimate worship
+      with God than Muḥammad ibn al-Munkadir."
+    description_ar: |
+      توفي الإمام أبو عبد الله محمد بن المنكدر التيمي القرشي —
+      من كبار محدثي المدينة وزهادها من التابعين — عن نحو ست
+      وسبعين سنة. روى مباشرة عن جابر بن عبد الله وأنس بن مالك
+      وعروة بن الزبير وعائشة وغيرهم من كبار الصحابة والتابعين،
+      وأحاديثه كثيرة في «صحيح البخاري» و«صحيح مسلم». وأخذ عنه
+      الإمام مالك وشعبة بن الحجاج وسفيان الثوري وسفيان بن عيينة
+      وابن جريج، أي عامة كبار محدثي الطبقة التالية. قال سفيان
+      بن عيينة: «ما رأينا أحداً أحسن قياماً بحال العبد بين يدي
+      الله من محمد بن المنكدر».
+    description_fr: |
+      Abū ʿAbdillāh Muḥammad ibn al-Munkadir al-Taymī al-Qurashī,
+      muḥaddith et ascète médinois éminent de la génération
+      tabiʿi, mourut à l'âge d'environ 76 ans. Il transmit
+      directement de Jābir ibn ʿAbdillāh, Anas ibn Mālik, ʿUrwa
+      ibn al-Zubayr, ʿĀʾisha et d'autres Compagnons et tabiʿūn
+      éminents, et ses narrations alimentent un grand nombre des
+      hadiths cités dans le *Ṣaḥīḥ al-Bukhārī* et le *Ṣaḥīḥ
+      Muslim*. Comptent parmi ses élèves l'imam Mālik, Shuʿba
+      ibn al-Ḥajjāj, Sufyān al-Thawrī, Sufyān ibn ʿUyayna et
+      Ibn Jurayj — presque toutes les autorités majeures de la
+      génération suivante. Sufyān ibn ʿUyayna dit de lui : « nous
+      n'avons vu personne s'acquitter mieux que Muḥammad ibn
+      al-Munkadir de la station d'intimité avec Dieu ».
+    canonical_hijri: {year: 130, precision: year}
+    canonical_gregorian: {date: 747-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[ibn-al-munkadir, subject]]
+    tags: [tabi'un, medina, hadith, zuhd, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Muhammad_ibn_Munkadir"
+
+  - slug: death-of-amr-ibn-dinar
+    category: scholar
+    title_en: Death of ʿAmr ibn Dīnār al-Makkī
+    title_ar: وفاة عمرو بن دينار المكي
+    title_fr: Mort de ʿAmr ibn Dīnār al-Makkī
+    description_en: |
+      Abū Muḥammad ʿAmr ibn Dīnār al-Jumaḥī al-Makkī, the leading
+      Meccan tabiʿi muḥaddith of his generation and mufti of Mecca,
+      died at age about 80. Of mawlā lineage to the Banū Jumaḥ,
+      he transmitted directly from Ibn ʿAbbās, Ibn ʿUmar, Jābir
+      ibn ʿAbdillāh, Abū Hurayra, and other senior Companions ra,
+      and was a key relay-point for Meccan ʿilm. Among his pupils
+      stand Sufyān ibn ʿUyayna — who took most of his teaching
+      programme from him — Shuʿba, Mālik, and Ibn Jurayj. Shuʿba
+      said: "I have not seen anyone like ʿAmr ibn Dīnār"; al-Dhahabī
+      ranks him "the imam, the ḥāfiẓ, the master of the people of
+      Mecca." His succession in the office of Meccan mufti passed
+      to Ibn Abī Najīḥ.
+    description_ar: |
+      توفي الإمام أبو محمد عمرو بن دينار الجمحي المكي — كبير محدثي
+      مكة من التابعين ومفتيها — عن نحو ثمانين سنة. كان من موالي
+      بني جمح، وروى مباشرة عن ابن عباس وابن عمر وجابر بن عبد الله
+      وأبي هريرة وغيرهم من كبار الصحابة رضي الله عنهم، فكان من
+      أعمدة العلم بمكة. وأخذ عنه سفيان بن عيينة فحمل عنه عامة
+      علمه، وأخذ عنه شعبة ومالك وابن جريج. قال شعبة: «ما رأيت
+      مثل عمرو بن دينار»، وعدّه الذهبي «الإمام الحافظ، شيخ أهل
+      مكة». وانتقلت إفتاء مكة من بعده إلى ابن أبي نجيح.
+    description_fr: |
+      Abū Muḥammad ʿAmr ibn Dīnār al-Jumaḥī al-Makkī, le
+      muḥaddith mecquois tabiʿi le plus éminent de sa génération
+      et mufti de La Mecque, mourut à l'âge d'environ 80 ans.
+      D'ascendance d'affranchi des Banū Jumaḥ, il transmit
+      directement d'Ibn ʿAbbās, d'Ibn ʿUmar, de Jābir ibn
+      ʿAbdillāh, d'Abū Hurayra et d'autres Compagnons éminents
+      ra, et fut un relais central de la science mecquoise.
+      Comptent parmi ses élèves Sufyān ibn ʿUyayna — qui prit
+      de lui l'essentiel de son programme d'enseignement —
+      Shuʿba, Mālik et Ibn Jurayj. Shuʿba dit : « je n'ai vu
+      personne comme ʿAmr ibn Dīnār » ; al-Dhahabī le tient pour
+      « l'imam, le ḥāfiẓ, le maître des gens de La Mecque ». La
+      charge d'iftāʾ mecquois passa après lui à Ibn Abī Najīḥ.
+    canonical_hijri: {year: 126, precision: year}
+    canonical_gregorian: {date: 744-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[amr-ibn-dinar, subject]]
+    tags: [tabi'un, mecca, hadith, ifta, umayyad]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Amr_ibn_Dinar"
+
+  - slug: death-of-ayyub-al-sakhtiyani
+    category: scholar
+    title_en: Death of Ayyūb al-Sakhtiyānī
+    title_ar: وفاة أيوب السختياني
+    title_fr: Mort d'Ayyūb al-Sakhtiyānī
+    description_en: |
+      Abū Bakr Ayyūb ibn Abī Tamīma Kaysān al-Sakhtiyānī, the
+      foremost Basran tabiʿi muḥaddith of his generation, died
+      during the plague of Basra at age about 65. He was a
+      principal student of al-Ḥasan al-Baṣrī, Ibn Sīrīn, and
+      ʿAṭāʾ ibn Abī Rabāḥ, and the chief teacher of Ḥammād ibn
+      Zayd, Sufyān al-Thawrī, Shuʿba, and Imām Mālik — every one
+      of them transmits from him in the canonical collections.
+      Imām al-Shāfiʿī called him "the foremost imam of Basra in
+      his time," and Mālik named him simply "the master of the
+      youth of the East." Al-Dhahabī ranks him among the very
+      first Basran scholars to make Sunna the unambiguous norm
+      against the rising kalām currents.
+    description_ar: |
+      توفي الإمام أبو بكر أيوب بن أبي تميمة كيسان السختياني —
+      كبير محدثي البصرة من التابعين في عصره — في طاعون البصرة
+      عن نحو خمس وستين سنة. وكان كبير أصحاب الحسن البصري وابن
+      سيرين وعطاء بن أبي رباح، وشيخ حماد بن زيد وسفيان الثوري
+      وشعبة والإمام مالك، يروون عنه جميعاً في الكتب الستة. قال
+      عنه الإمام الشافعي: «أيوب إمام أهل البصرة في زمانه»،
+      وقال مالك: «هو سيد فتيان أهل المشرق». ويعدّه الذهبي من
+      أوائل علماء البصرة الذين كرّسوا السنة عَلَماً ظاهراً في
+      مواجهة تيارات الكلام الصاعدة.
+    description_fr: |
+      Abū Bakr Ayyūb ibn Abī Tamīma Kaysān al-Sakhtiyānī, le
+      muḥaddith tabiʿi de Bassora le plus éminent de sa
+      génération, mourut durant la peste de Bassora à l'âge
+      d'environ 65 ans. Il fut un disciple principal d'al-Ḥasan
+      al-Baṣrī, d'Ibn Sīrīn et d'ʿAṭāʾ ibn Abī Rabāḥ, et le
+      maître en chef de Ḥammād ibn Zayd, de Sufyān al-Thawrī,
+      de Shuʿba et de l'imam Mālik — tous transmettent de lui
+      dans les recueils canoniques. L'imam al-Shāfiʿī l'appela
+      « l'imam principal de Bassora en son temps », et Mālik
+      simplement « le maître des jeunes gens de l'Orient ».
+      Al-Dhahabī le range parmi les tout premiers savants
+      bassorites à avoir établi la Sunna comme norme indubitable
+      contre les courants kalām naissants.
+    canonical_hijri: {year: 131, precision: year}
+    canonical_gregorian: {date: 749-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[ayyub-al-sakhtiyani, subject]]
+    tags: [tabi'un, basra, hadith, sunna, umayyad]
+    importance: notable
+    verification_status: cross_verified
+
+  - slug: death-of-abdullah-ibn-awn
+    category: scholar
+    title_en: Death of ʿAbdullāh ibn ʿAwn
+    title_ar: وفاة عبد الله بن عون
+    title_fr: Mort de ʿAbdullāh ibn ʿAwn
+    description_en: |
+      Abū ʿAwn ʿAbdullāh ibn ʿAwn ibn Arṭabān al-Muzanī al-Baṣrī,
+      a leading Basran tabiʿi-tabiʿi muḥaddith and proverbial
+      exemplar of *zuhd* in the Basran scholarly milieu, died at
+      age about 86. He transmitted from al-Ḥasan al-Baṣrī, Ibn
+      Sīrīn, al-Shaʿbī, and Mujāhid, and his pupils included
+      Sufyān al-Thawrī, Shuʿba, Ḥammād ibn Zayd, and ʿAbdullāh ibn
+      al-Mubārak. Aḥmad ibn Ḥanbal said: "I have not seen the like
+      of ʿAbdullāh ibn ʿAwn"; Yaḥyā ibn Maʿīn declared him
+      "trustworthy, the imam." His pious withdrawal from the
+      governing courts and refusal to take state stipends became
+      the touchstone of Basran scholarly independence cited across
+      classical biography.
+    description_ar: |
+      توفي الإمام أبو عون عبد الله بن عون بن أرطبان المزني البصري
+      — كبير محدثي البصرة في طبقة تابعي التابعين والمضرب به المثل
+      في الزهد في وسط البصرة العلمي — عن نحو ست وثمانين سنة. روى
+      عن الحسن البصري وابن سيرين والشعبي ومجاهد، وأخذ عنه سفيان
+      الثوري وشعبة وحماد بن زيد وعبد الله بن المبارك. قال الإمام
+      أحمد: «ما رأيت مثل عبد الله بن عون»، وقال يحيى بن معين:
+      «ثقة إمام». واشتهر بانعزاله عن الأمراء وامتناعه من عطاء
+      السلطان، فصار رمزاً لاستقلال علماء البصرة في كتب التراجم
+      الكلاسيكية.
+    description_fr: |
+      Abū ʿAwn ʿAbdullāh ibn ʿAwn ibn Arṭabān al-Muzanī al-Baṣrī,
+      muḥaddith bassorite éminent de la génération des tabiʿi
+      al-tabiʿīn et exemple proverbial de *zuhd* dans le milieu
+      savant de Bassora, mourut à l'âge d'environ 86 ans. Il
+      transmit d'al-Ḥasan al-Baṣrī, d'Ibn Sīrīn, d'al-Shaʿbī et
+      de Mujāhid, et ses élèves comprenaient Sufyān al-Thawrī,
+      Shuʿba, Ḥammād ibn Zayd et ʿAbdullāh ibn al-Mubārak. Aḥmad
+      ibn Ḥanbal dit : « je n'ai pas vu pareil à ʿAbdullāh ibn
+      ʿAwn » ; Yaḥyā ibn Maʿīn déclara : « digne de confiance,
+      l'imam ». Son retrait pieux des cours gouvernantes et son
+      refus des stipendes étatiques devinrent la pierre de touche
+      de l'indépendance des savants bassorites, citée à travers
+      la biographie classique.
+    canonical_hijri: {year: 151, precision: year}
+    canonical_gregorian: {date: 768-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[abdullah-ibn-awn, subject]]
+    tags: [tabi'un, basra, hadith, zuhd, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Abd_Allah_ibn_Awn"
+
+  - slug: death-of-mamar-ibn-rashid
+    category: scholar
+    title_en: Death of Maʿmar ibn Rāshid
+    title_ar: وفاة معمر بن راشد
+    title_fr: Mort de Maʿmar ibn Rāshid
+    description_en: |
+      Abū ʿUrwa Maʿmar ibn Rāshid al-Azdī, originally of Basra and
+      long settled in Yemen, the leading muḥaddith of Sanaa in his
+      time and one of the earliest systematic compilers of hadith
+      collections (*muṣannafāt*), died in Sanaa at age about 58.
+      He transmitted from al-Zuhrī, Qatāda, ʿAmr ibn Dīnār, Ayyūb
+      al-Sakhtiyānī, and other senior tabiʿūn, and was the
+      principal teacher of ʿAbd al-Razzāq al-Ṣanʿānī, whose
+      monumental *al-Muṣannaf* preserves Maʿmar's hadith corpus
+      almost in its entirety. His own *Jāmiʿ Maʿmar ibn Rāshid*
+      survives as an appendix of ʿAbd al-Razzāq's compilation,
+      one of the earliest extant hadith books in Islam. Al-Dhahabī
+      ranks him among the very foundation-stones of Yemeni hadith
+      scholarship.
+    description_ar: |
+      توفي الإمام أبو عروة معمر بن راشد الأزدي — بصري الأصل،
+      صنعاني الدار، كبير محدثي صنعاء في عصره ومن أوائل من صنّف
+      الحديث تصنيفاً منهجياً — بصنعاء عن نحو ثمانٍ وخمسين سنة.
+      روى عن الزهري وقتادة وعمرو بن دينار وأيوب السختياني وغيرهم
+      من كبار التابعين، وكان شيخ عبد الرزاق الصنعاني الذي حفظ
+      «مصنفه» الكبير عامة حديث معمر. وأما «جامع معمر بن راشد»
+      نفسه فقد بقي ملحقاً بمصنف عبد الرزاق، وهو من أقدم كتب
+      الحديث الباقية في الإسلام. وعدّه الذهبي من أصول علم الحديث
+      بأهل اليمن.
+    description_fr: |
+      Abū ʿUrwa Maʿmar ibn Rāshid al-Azdī, bassorite d'origine
+      et établi de longue date au Yémen, muḥaddith principal de
+      Sanaa en son temps et l'un des premiers compilateurs
+      systématiques de recueils de hadiths (*muṣannafāt*),
+      mourut à Sanaa à l'âge d'environ 58 ans. Il transmit
+      d'al-Zuhrī, de Qatāda, de ʿAmr ibn Dīnār, d'Ayyūb
+      al-Sakhtiyānī et d'autres tabiʿūn éminents, et fut le
+      maître principal de ʿAbd al-Razzāq al-Ṣanʿānī, dont le
+      monumental *al-Muṣannaf* préserve presque intégralement
+      le corpus de hadiths de Maʿmar. Son propre *Jāmiʿ Maʿmar
+      ibn Rāshid* survit en appendice de la compilation d'ʿAbd
+      al-Razzāq, l'un des plus anciens livres de hadith islamiques
+      conservés. Al-Dhahabī le tient pour une pierre de
+      fondation de l'érudition hadithienne yéménite.
+    canonical_hijri: {year: 153, precision: year}
+    canonical_gregorian: {date: 770-01-01, precision: year, method: attested}
+    claims:
+      - source_key: dhahabi_siyar
+        is_canonical: true
+      - source_key: ibn_sad_tabaqat
+      - source_key: ibn_khallikan_wafayat
+    people: [[mamar-ibn-rashid, subject], [abd-al-razzaq-al-sanani, subject]]
+    tags: [tabi'un, yemen, basra, hadith, codification, abbasid]
+    importance: notable
+    verification_status: cross_verified
+    source_url: "https://en.wikipedia.org/wiki/Ma%27mar_ibn_Rashid"
