@@ -3,6 +3,14 @@
 Guidance for Claude Code (and any AI agent) working in this repository. Keep
 this file short; defer to the authoritative docs rather than duplicating them.
 
+Repo: <https://github.com/Souhib/islamic-onthisday>. CI runs on every
+push (non-`main`) and PR to `main` — three parallel jobs (pipeline,
+backend, web) defined in `.github/workflows/ci.yml`. The gate is
+`uv run poe check && uv run poe test` for backend, `uv run poe check`
+for the pipeline, and `bun run typecheck && bun run lint && bun run format:check && bun run test`
+for the web. Make your local pre-flight `make check` so you don't push
+red.
+
 ## What this project is
 
 "Islamic On This Day" — a mobile app (Flutter, not started), website
@@ -70,6 +78,7 @@ backend/iotd/
 ├── database.py                    # async SQLAlchemy engine + session
 ├── dependencies.py                # FastAPI Depends providers (controllers)
 ├── logger_config.py               # loguru sink config
+├── observability.py               # Sentry init, gated on $SENTRY_DSN
 └── api/
     ├── cache.py                   # Cache-Control dependencies (CACHE_DAY, CACHE_HOUR, ...)
     ├── constants.py               # Hijri/Gregorian month names, limits
@@ -78,18 +87,23 @@ backend/iotd/
     ├── controllers/               # one class per resource — DB queries + raise typed errors
     ├── routes/                    # FastAPI routers, zero business logic, attach Cache-Control
     ├── schemas/                   # Pydantic response models (camelCase JSON via to_camel)
-    └── services/
-        └── projections.py         # ORM row → response model — single home, pure functions
+    ├── services/
+    │   ├── calendar.py            # Gregorian / Hijri pairing helpers (calendar_for, hijri_month_index)
+    │   └── projections.py         # ORM row → response model — pure functions
+    └── utils/
+        └── cache.py               # in-process TTLCache for hot endpoints (optional)
 ```
 
 ### web/
 
 ```
 web/src/
-├── main.tsx                       # boot: router + i18n + client-setup
+├── main.tsx                       # router boot + Sentry init + i18n boot
 ├── index.css                      # Tailwind v4 @import + token CSS vars + .dark variant
+├── vite-env.d.ts                  # ImportMetaEnv types for VITE_* vars
 ├── i18n/
 │   ├── index.ts                   # i18next bootstrap (lazy locale loader)
+│   ├── months.ts                  # Hijri month name constants (single source of truth)
 │   └── locales/{en,fr,ar}.json    # UI strings — content i18n is on the API
 ├── api/
 │   ├── client-setup.ts            # configures generated hey-api client at boot
@@ -99,7 +113,7 @@ web/src/
 ├── components/
 │   ├── design/                    # editorial primitives (FriezeRule, EightPointStar, …)
 │   ├── disputed/                  # DisputeBadge + DisputedDrawer (Radix dialog)
-│   ├── reader/                    # Masthead, Footer, LeftRail, RightRail, EventCard, ...
+│   ├── reader/                    # Masthead, DetailHeader, Footer, rails, EventCard, …
 │   └── ui/                        # Loading, Empty, NotFound, ErrorBoundary
 ├── providers/                     # ThemeProvider (toggles html.dark), LanguageProvider, QueryProvider
 └── routes/                        # TanStack file-based routing
@@ -107,19 +121,29 @@ web/src/
 
 ## Common commands
 
-Backend (`backend/`):
+Easiest path: the root `Makefile`.
 
 ```sh
+make install            # uv sync (data-pipeline + backend) + bun install (web)
+make build              # rebuilds the pipeline DB + syndication files
+make dev                # boots backend (:5111) + web (:3000) in parallel
+make check              # lint + typecheck + tests across all three packages
+make fix                # ruff format + ruff fix; oxfmt + oxlint --fix
+make syndicate          # refresh sitemap.xml + robots.txt + feed.xml only
+```
+
+Per-package detail (when you want finer control):
+
+```sh
+# backend/
 uv sync
 uv run python main.py                   # dev server on :5111
 uv run poe check                        # ruff lint + format check
 uv run poe test                         # pytest (real pipeline DB)
+uv run poe pre-commit                   # check + test (CI gate)
 uv run poe fix                          # format + lint --fix
-```
 
-Web (`web/`):
-
-```sh
+# web/
 bun install
 bun run dev                             # vite on :3000, proxies /api → :5111
 bun run generate-api                    # regenerate hey-api client from openapi.json
@@ -349,8 +373,11 @@ shape was built around.
    `errors.api.eventNotFound`) and self-logs at smart per-status defaults
    (5xx → ERROR, 401/403/409 → WARNING, 4xx → DEBUG). Controllers raise
    the typed error; the handler in `app.py` shapes the JSON envelope.
-3. **Projections live in `services/projections.py`.** ORM → Pydantic
-   mapping is a pure function, callable from any controller. Don't put
+   Pass `log=False` if you're raising inside a try/except that's about to
+   handle the error locally — keeps the log stream clean.
+3. **Projections live in `services/projections.py`** and calendar /
+   observance helpers in `services/calendar.py`. ORM → Pydantic mapping
+   is a pure function, callable from any controller. Don't put
    projection helpers on a controller class — that's how the original
    `EventsController` ended up importing private helpers from
    `TodayController`.
@@ -364,6 +391,31 @@ shape was built around.
    specific events live on `/api/v1/events/{slug}` instead.
 6. **Pure ASGI middleware.** `SecurityMiddleware`, `RequestIDMiddleware`,
    `LoggingMiddleware` — no `BaseHTTPMiddleware` (perf cost under load).
+7. **Sentry init is gated on `$SENTRY_DSN`** in `iotd/observability.py`.
+   Empty DSN = no init, no network — zero overhead in dev. The loguru
+   sink forwards WARNING+ records as Sentry messages and exception logs
+   as Sentry exceptions automatically, so you don't need to call the
+   SDK directly from controllers.
+
+## Single-database constraint (content tables vs. user tables)
+
+The dataset and any future user data live in **one** database (single
+SQLite file in dev; future PostgreSQL in prod). The pipeline is allowed
+to drop *only* the dataset tables — see
+`pipeline/constants.py:CONTENT_TABLE_NAMES`. Anything not in that
+allowlist (a future ``users``, ``bookmarks``, ``preferences`` table)
+is left alone, even when ``pipeline.build`` runs a full rebuild.
+
+When you add a new content table, add its name to ``CONTENT_TABLE_NAMES``
+**and** to the schema in ``pipeline/models/db.py``. Forgetting to add it
+to the allowlist means the pipeline won't drop it on rebuild — annoying
+but recoverable. Forgetting to add it to the schema means the table
+won't be created at all — caught immediately on the next run.
+
+When user tables land they live in the **backend** (not the pipeline)
+package, registered on the same ``SQLModel.metadata`` but with their own
+Alembic migration history. The pipeline's `_content_tables()` filter
+will silently skip them.
 
 ## Frontend conventions baked into the refactor
 
@@ -389,6 +441,9 @@ shape was built around.
    `@hey-api/client-fetch` and that's all. When auth lands, configure
    it on the generated client via `client.setConfig(...)` or interceptors
    — don't drag a second fetch lib in.
+6. **Sentry init is gated on `VITE_SENTRY_DSN`** in `main.tsx`. Empty
+   DSN = no init, no network. The release tag is read from
+   `VITE_APP_VERSION` (auto-injected from `package.json`).
 
 ## Python conventions (shared with Majlisna + LaTabdhir)
 
@@ -545,14 +600,19 @@ the fallback, not the default.
 
 ## Frontend dev tips
 
-- **`useTokens(dark)` is a deprecated stub** kept only so old callsites
-  compile during a partial migration. Don't add new uses — reach for
+- **Tokens live as CSS variables in `web/src/index.css`.** Reach for
   Tailwind utilities (`text-ink`, `bg-paper`, `font-mono`, …) which read
-  from the same CSS variables.
+  the same vars — never branch on `theme === "dark"` in React.
 - **Typed query keys live in `web/src/api/queryKeys.ts`** — use them for
   invalidation / prefetch instead of re-deriving the hey-api options
   object at the callsite.
-- **Loading / Empty / NotFound / ErrorBoundary** are shared in
+- **Shared chrome:** `DetailHeader` for `*-detail` pages (events,
+  lessons, observances, people), `PageShell` for landings with subtitle
+  + footer. Both already wire the language switcher and theme toggle.
+- **Hijri month names** come from `@/i18n/months.ts` (single source of
+  truth — backend exposes the same constants). Don't redeclare them in
+  a route file.
+- **`Loading` / `Empty` / `NotFound` / `ErrorBoundary`** are shared in
   `web/src/components/ui/`. Don't reinvent per-route variants — that was
   the duplication the refactor cleaned up.
 

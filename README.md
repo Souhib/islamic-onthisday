@@ -1,8 +1,13 @@
 # Islamic On-This-Day
 
+[![CI](https://github.com/Souhib/islamic-onthisday/actions/workflows/ci.yml/badge.svg)](https://github.com/Souhib/islamic-onthisday/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A website and backend (Flutter mobile app planned) that surface a verified
 historical event from Islamic history for each day of the year (Gregorian
 and Hijri).
+
+Live repo: <https://github.com/Souhib/islamic-onthisday>.
 
 The repository ships three components:
 
@@ -29,7 +34,29 @@ The repository ships three components:
   client, Radix dialog under the disputed-views drawer.
 - **Mobile (Flutter): not started.**
 
-## Database snapshot (v1 — dataset frozen for backend start)
+## Quickstart
+
+After a fresh clone, the easiest path is the root `Makefile`:
+
+```sh
+make install            # uv sync (data-pipeline + backend) + bun install (web)
+make build              # rebuilds the pipeline DB + syndication files (one-shot)
+make dev                # boots backend (:5111) + web (:3000) in parallel
+make check              # lint + typecheck + tests across all three packages
+```
+
+Per-package commands are detailed further down (Running the pipeline /
+backend / web client). `make build` is required after a first clone
+because the backend reads the SQLite the pipeline produces; without it
+`/api/v1/today` will fail to start.
+
+## Database snapshot
+
+The live counts come from `GET /health` once the backend is running —
+the snapshot below is the **v1 historical** breakdown for reference. The
+default build is curated-only (~1.2k events); `--include-bulk` re-enables
+Wikidata + OpenITI for catalogue depth (~5k events) but the headline
+picker only ever surfaces curated entries.
 
 Produced by `data-pipeline/src/pipeline/build.py`:
 
@@ -301,6 +328,31 @@ Re-run `uv run python -m pipeline.build` to regenerate the database. The
 pipeline drops and recreates the schema each run; the database is ephemeral
 and always derivable from the YAML + the two live sources.
 
+## Architecture notes
+
+**Single-database constraint.** The dataset and any future user data
+(accounts, bookmarks, preferences) share **one** database. The pipeline
+is allowed to drop *only* the dataset tables — the allowlist lives in
+`data-pipeline/src/pipeline/constants.py:CONTENT_TABLE_NAMES`. Anything
+not in that set is left alone, even when `pipeline.build` runs a full
+rebuild. This means a content rebuild is non-destructive for user data,
+and the architectural ambiguity ("two DBs vs. one?") is resolved up
+front.
+
+**Pipeline → backend handoff.** When the pipeline rebuilds, the SQLite
+on disk is replaced. A running backend keeps its connection pool open
+and may serve a mix of old/new rows for a few seconds. In production
+this is mitigated by the daily-cron pattern (rebuild at low-traffic
+hours) plus a backend restart in the same window. For dev, `make build`
+followed by `make dev` is the usual order.
+
+**SEO surface.** The pipeline emits `web/public/{sitemap.xml,
+robots.txt, feed.xml}` at build time, so the FE host serves them as
+static assets without any backend dependency. The Atom feed is the same
+"last 14 days of headlines" data `/api/v1/recent` returns, in a format
+RSS readers understand. Run `make syndicate` to refresh just the XMLs
+without a full DB rebuild.
+
 ## Roadmap
 
 1. **Translation pass.** Curated events and lessons are mostly English with
@@ -317,6 +369,28 @@ and always derivable from the YAML + the two live sources.
 5. **SEO / launch readiness.** Static prerendering of detail pages so
    Twitter / Facebook / iMessage previews work; `<link rel="canonical">`
    + Open Graph + Schema.org JSON-LD; Sentry on backend + frontend.
-6. **User accounts & social features** (later phase). When this lands the
-   user database lives separately from the pipeline-emitted SQLite — the
-   pipeline wipes its DB on every rebuild and must never touch user data.
+6. **User accounts & social features** (later phase). User data lives in
+   the **same** database as the dataset — the pipeline's
+   `CONTENT_TABLE_NAMES` allowlist guarantees content rebuilds never
+   touch user tables. When auth lands, add the user models to the
+   backend (not the pipeline) package and wire Alembic migrations for
+   their evolution.
+
+## License
+
+[MIT](LICENSE) — see the LICENSE file for details. The code is open
+source; the editorial dataset (curated YAML under
+`data-pipeline/data/curated/`) is also MIT-licensed but please respect
+the editorial bar in [`EDITORIAL.md`](EDITORIAL.md) when contributing
+content.
+
+## Contributing
+
+Content edits flow through `data-pipeline/data/curated/`. The bar is
+non-negotiable — read [`EDITORIAL.md`](EDITORIAL.md) end to end before
+opening a PR. The summary lives in [`CLAUDE.md`](CLAUDE.md), and the
+audit state at the time of the v1.1 dataset freeze is in
+[`AUDIT.md`](AUDIT.md).
+
+Code contributions are welcome. The CI gate is `make check`; run it
+locally before pushing.
