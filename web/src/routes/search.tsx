@@ -5,6 +5,7 @@ import { useSearchQuery } from "@/api/list";
 import { FriezeRule } from "@/components/design";
 import { EventCard } from "@/components/reader/EventCard";
 import { PageShell } from "@/components/reader/PageShell";
+import { trackSearch } from "@/lib/analytics";
 
 function SearchPage() {
   const { t } = useTranslation();
@@ -16,6 +17,15 @@ function SearchPage() {
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
+
+  // One analytics event per *successful* search resolution. We watch the
+  // deferred term so users typing fast don't generate one event per
+  // keystroke — only the value React actually rendered with counts.
+  useEffect(() => {
+    if (!query.isSuccess || !query.data) return;
+    if (deferredQ.trim().length < 2) return;
+    trackSearch(deferredQ, query.data.total);
+  }, [query.isSuccess, query.data, deferredQ]);
 
   return (
     <PageShell title={t("search")} subtitle={t("search_subtitle")}>

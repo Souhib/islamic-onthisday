@@ -14,6 +14,7 @@ import { DetailHeader } from "@/components/reader/DetailHeader";
 import { Footer } from "@/components/reader/Footer";
 import { Loading } from "@/components/ui/Loading";
 import { NotFound } from "@/components/ui/NotFound";
+import { trackDisputeOpened, trackEventView } from "@/lib/analytics";
 import { pickLocalised, pickLocalisedList, useLanguage } from "@/providers/LanguageProvider";
 import { cn } from "@/lib/utils";
 
@@ -25,6 +26,11 @@ function EventDetailPage() {
 
   const query = useEventQuery(slug);
 
+  // Analytics — fire once per slug, not on every language switch.
+  useEffect(() => {
+    trackEventView(slug);
+  }, [slug]);
+
   useEffect(() => {
     if (query.data) {
       const title = pickLocalised(
@@ -34,6 +40,11 @@ function EventDetailPage() {
       document.title = `${title} · Islamic On This Day`;
     }
   }, [query.data, lang]);
+
+  const openDispute = () => {
+    trackDisputeOpened(slug);
+    setDrawerOpen(true);
+  };
 
   return (
     <div className="min-h-full w-full bg-paper font-serif text-ink">
@@ -88,7 +99,7 @@ function EventDetailPage() {
                 <DisputeBadge
                   disputeAbout={query.data.disputeAbout as DisputeAbout}
                   size="sm"
-                  onClick={() => setDrawerOpen(true)}
+                  onClick={openDispute}
                 />
               )}
             </div>

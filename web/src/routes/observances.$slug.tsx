@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useObservanceQuery } from "@/api/observances";
 import { FriezeRule } from "@/components/design";
@@ -6,11 +7,16 @@ import { PageShell } from "@/components/reader/PageShell";
 import { Empty } from "@/components/ui/Empty";
 import { Loading } from "@/components/ui/Loading";
 import { HIJRI_MONTHS_LONG } from "@/i18n/months";
+import { trackObservanceView } from "@/lib/analytics";
 
 function ObservancePage() {
   const { slug } = Route.useParams();
   const { t } = useTranslation();
   const query = useObservanceQuery(slug);
+
+  useEffect(() => {
+    trackObservanceView(slug);
+  }, [slug]);
 
   return (
     <PageShell title={`${t("observance_label")} · ${slug}`}>

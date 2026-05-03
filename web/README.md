@@ -23,6 +23,7 @@ client.
 | i18n | **i18next** + lazy-loaded JSON locales, `react-i18next` hooks |
 | A11y primitives | **`@radix-ui/react-dialog`** for the disputed-views drawer |
 | Errors | **`@sentry/react`** (gated on `VITE_SENTRY_DSN`) |
+| Analytics | **Umami** (self-hosted, gated on `VITE_UMAMI_URL` + `VITE_UMAMI_WEBSITE_ID`) |
 | Linting | **oxlint** |
 | Formatting | **oxfmt** |
 | Testing | **Vitest** + Testing Library + happy-dom |
@@ -155,12 +156,39 @@ reach for it instead of re-deriving the option object at the callsite.
 7. **Hijri month names** come from `@/i18n/months.ts` — never redeclare
    the array in a route file.
 
+## Analytics
+
+Umami is wired through `src/lib/analytics.ts`. Init is gated on
+`VITE_UMAMI_URL` + `VITE_UMAMI_WEBSITE_ID` — without those env vars the
+`<script>` is never injected and every helper is a silent no-op.
+
+The tracked events are deliberately curated (no theme toggles, no
+filter clicks, no pagination — just signals that answer real product
+questions):
+
+- **page view** — auto on every route change (in `__root.tsx`).
+- **`event_view` / `lesson_view` / `observance_view` / `person_view`** —
+  fired in the detail-page `useEffect`, keyed on the slug. Tracks what
+  people read.
+- **`search`** — `term` (trimmed + capped at 80 chars) + `results`;
+  fired only on a successful query resolution against the deferred
+  value, so fast typing doesn't generate one event per keystroke.
+- **`language_change`** — `language` (en/fr/ar); fired from
+  `LanguageSwitcher` when the user actively changes the language.
+- **`dispute_opened`** — `slug` of the event whose disputed-views
+  drawer was opened. Strong signal of editorial engagement.
+
+Add new helpers in `src/lib/analytics.ts` (not at the call site) so the
+event taxonomy stays auditable in one place.
+
 ## Environment variables
 
-| Var                 | Purpose                                                |
-| ------------------- | ------------------------------------------------------ |
-| `VITE_API_URL`      | Backend origin for the generated client. Default: `window.location.origin`. |
-| `VITE_SENTRY_DSN`   | Sentry DSN; empty disables the SDK (default in dev).   |
-| `VITE_APP_VERSION`  | Auto-injected from `package.json` at build time. Don't set manually. |
+| Var                       | Purpose                                                |
+| ------------------------- | ------------------------------------------------------ |
+| `VITE_API_URL`            | Backend origin for the generated client. Default: `window.location.origin`. |
+| `VITE_SENTRY_DSN`         | Sentry DSN; empty disables the SDK (default in dev).   |
+| `VITE_UMAMI_URL`          | Umami host (e.g. `https://analytics.iotd.app`); empty disables. |
+| `VITE_UMAMI_WEBSITE_ID`   | Umami site UUID. Empty disables.                       |
+| `VITE_APP_VERSION`        | Auto-injected from `package.json` at build time. Don't set manually. |
 
 See `.env.example` for the full list.

@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { SUPPORTED_LANGUAGES, type Language } from "@/i18n";
+import { trackLanguageChange } from "@/lib/analytics";
 import { cn } from "@/lib/utils";
 
 const LABEL: Record<Language, string> = { en: "EN", fr: "FR", ar: "ع" };
@@ -7,6 +8,13 @@ const LABEL: Record<Language, string> = { en: "EN", fr: "FR", ar: "ع" };
 export function LanguageSwitcher() {
   const { i18n, t } = useTranslation();
   const current = (i18n.language?.split("-")[0] ?? "en") as Language;
+
+  const switchTo = (next: Language) => {
+    if (next === current) return;
+    trackLanguageChange(next);
+    void i18n.changeLanguage(next);
+  };
+
   return (
     <div
       role="group"
@@ -19,7 +27,7 @@ export function LanguageSwitcher() {
           <button
             key={l}
             type="button"
-            onClick={() => void i18n.changeLanguage(l)}
+            onClick={() => switchTo(l)}
             aria-pressed={active}
             className={cn(
               "cursor-pointer border-0 px-2.5 py-1.5 font-mono text-[12px] uppercase tracking-[1.4px]",

@@ -1,15 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { usePersonQuery } from "@/api/people";
 import { FriezeRule } from "@/components/design";
 import { PageShell } from "@/components/reader/PageShell";
 import { Empty } from "@/components/ui/Empty";
 import { Loading } from "@/components/ui/Loading";
+import { trackPersonView } from "@/lib/analytics";
 
 function PersonPage() {
   const { slug } = Route.useParams();
   const { t } = useTranslation();
   const query = usePersonQuery(slug);
+
+  useEffect(() => {
+    trackPersonView(slug);
+  }, [slug]);
 
   return (
     <PageShell title={`${t("person")} · ${slug}`}>

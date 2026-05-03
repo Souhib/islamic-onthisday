@@ -6,6 +6,7 @@ import { routeTree } from "./routeTree.gen";
 import "./index.css";
 import "@/api/client-setup";
 import "@/i18n";
+import { initAnalytics } from "@/lib/analytics";
 
 // Sentry — gated on a DSN env var so dev runs cost nothing. Production
 // builds bake a non-empty `VITE_SENTRY_DSN` and the SDK starts capturing.
@@ -17,6 +18,10 @@ if (import.meta.env.VITE_SENTRY_DSN) {
     tracesSampleRate: 0.1,
   });
 }
+
+// Umami — gated on VITE_UMAMI_URL + VITE_UMAMI_WEBSITE_ID. Same shape:
+// no env = no script, no network, zero footprint in dev.
+initAnalytics();
 
 const router = createRouter({
   routeTree,

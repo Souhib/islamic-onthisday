@@ -6,6 +6,7 @@ import { DetailHeader } from "@/components/reader/DetailHeader";
 import { LessonReader } from "@/components/reader/LessonReader";
 import { Loading } from "@/components/ui/Loading";
 import { NotFound } from "@/components/ui/NotFound";
+import { trackLessonView } from "@/lib/analytics";
 import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 
 function LessonDetailPage() {
@@ -13,6 +14,10 @@ function LessonDetailPage() {
   const { t } = useTranslation();
   const { lang } = useLanguage();
   const query = useLessonQuery(slug);
+
+  useEffect(() => {
+    trackLessonView(slug);
+  }, [slug]);
 
   useEffect(() => {
     if (query.data) {

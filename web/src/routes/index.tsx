@@ -14,6 +14,7 @@ import { RightRail } from "@/components/reader/RightRail";
 import { TodayBottomSection } from "@/components/reader/TodayBottomSection";
 import { Empty } from "@/components/ui/Empty";
 import { Loading } from "@/components/ui/Loading";
+import { trackDisputeOpened } from "@/lib/analytics";
 import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 import { cn } from "@/lib/utils";
 import type {
@@ -151,7 +152,13 @@ function TodayPage() {
           {todayQuery.isError && <Empty message={t("search_error")} />}
           {todayQuery.isSuccess && !mainItem && <Empty message={t("not_found")} />}
           {mainIsEvent && mainItem && (
-            <Main ev={mainItem as EventDetail} onOpenDispute={() => setDrawerOpen(true)} />
+            <Main
+              ev={mainItem as EventDetail}
+              onOpenDispute={() => {
+                trackDisputeOpened((mainItem as EventDetail).id);
+                setDrawerOpen(true);
+              }}
+            />
           )}
           {mainIsLesson && mainItem && <LessonReader lesson={mainItem as LessonDetail} />}
         </div>
