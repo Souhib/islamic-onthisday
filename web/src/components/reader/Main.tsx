@@ -61,7 +61,7 @@ export function Main({ ev, onOpenDispute }: Props) {
         </div>
       )}
 
-      <div className="mt-[18px] flex flex-wrap items-baseline gap-[18px]">
+      <div className="mt-[28px] mb-3 flex flex-wrap items-baseline gap-[18px]">
         {ev.hijri && <span className="font-serif text-[18px] italic text-ink">{ev.hijri}</span>}
         {ev.gregorian && (
           <span className="font-mono text-[13px] tracking-[0.8px] text-ink-mute">

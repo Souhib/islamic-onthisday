@@ -86,7 +86,7 @@ function EventDetailPage() {
               </div>
             )}
 
-            <div className="mt-[18px] flex flex-wrap items-baseline gap-[18px]">
+            <div className="mt-[28px] mb-3 flex flex-wrap items-baseline gap-[18px]">
               {query.data.hijri && (
                 <span className="font-serif text-[18px] italic text-ink">{query.data.hijri}</span>
               )}
