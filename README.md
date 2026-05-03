@@ -21,7 +21,7 @@ The repository ships three components:
 
 ## Current status
 
-- **Data pipeline: curated v2.** 1,256 hand-curated events (448 day-precise, 1,117 cross-verified across ≥2 classical Sunni sources, 84 with disputed dates surfaced explicitly), 353 dateless lessons, 12 annual observances, 860 historical figures, 26 citable sources. Strict editorial bar: trilingual (en/ar/fr), classical Sunni source citations, ṣaḥīḥ-only hadith policy (audited 2026-04-27), Wikidata QIDs purged for systemic mismatch. Every event in the dataset is at least `single_source` — `unverified` and `auto_verified` rows have been retired. Bulk Wikidata + OpenITI imports remain available via `pipeline.build --include-bulk` for catalogue depth, but the headline picker only surfaces curated entries.
+- **Data pipeline: curated.** 1,256 hand-curated events (448 day-precise, 1,117 cross-verified across ≥2 classical Sunni sources, 84 with disputed dates surfaced explicitly), 353 dateless lessons, 12 annual observances, 860 historical figures, 26 citable sources. Strict editorial bar: trilingual (en/ar/fr), classical Sunni source citations, ṣaḥīḥ-only hadith policy, Wikidata QIDs verified per-entry. Every event in the dataset is at least `single_source`. Bulk Wikidata + OpenITI imports remain available via `pipeline.build --include-bulk` for catalogue depth, but the headline picker only surfaces curated entries.
 - **Backend (FastAPI): functional.** Today / Recent / Events / Lessons /
   Observances / People endpoints, typed errors with auto-derived i18n keys,
   Cache-Control via dependencies, pure-ASGI middleware (security headers +
@@ -393,8 +393,7 @@ content.
 Content edits flow through `data-pipeline/data/curated/`. The bar is
 non-negotiable — read [`EDITORIAL.md`](EDITORIAL.md) end to end before
 opening a PR. The summary lives in [`CLAUDE.md`](CLAUDE.md), and the
-audit state at the time of the v1.1 dataset freeze is in
-[`AUDIT.md`](AUDIT.md).
+dataset audit state and human-review backlog are in [`AUDIT.md`](AUDIT.md).
 
 Code contributions are welcome. The CI gate is `make check`; run it
 locally before pushing.

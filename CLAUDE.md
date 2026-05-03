@@ -29,7 +29,7 @@ foundation everything else rests on.
 islamic-onthisday/
 ├── README.md          # public project overview + running instructions
 ├── EDITORIAL.md       # the bar for any content edit — READ BEFORE EDITING YAML
-├── AUDIT.md           # v1.1 dataset audit snapshot + human-review backlog
+├── AUDIT.md           # dataset audit snapshot + human-review backlog
 ├── CLAUDE.md          # this file
 ├── data-pipeline/     # YAML → SQLite ETL + sitemap.xml / robots.txt / feed.xml emitter
 ├── backend/           # FastAPI read-only API (private — only the FE talks to it)
@@ -354,14 +354,14 @@ the DB **and** the syndication files in one shot, or `pipeline.syndicate`
 alone for a daily refresh that only re-rolls the feed (use this in a cron
 when the dataset hasn't changed but the calendar day has).
 
-The public origin baked into the absolute URLs is read from
-`$FRONTEND_URL` (defaults to `http://localhost:3000`). In prod set it to
-your real domain before running the pipeline.
+The public origin used in the absolute URLs comes from `$FRONTEND_URL`
+(defaults to `http://localhost:3000`). In prod set it to your real
+domain before running the pipeline.
 
-## Backend conventions baked into the refactor
+## Backend conventions
 
-Read these before changing backend code — they're the rules the current
-shape was built around.
+Read these before changing backend code — they're the rules the
+codebase is shaped by.
 
 1. **Snake-case discriminants over English labels.** `verification_status`,
    `dispute_about`, `weight` are `Literal[...]` discriminants. The API
@@ -377,10 +377,10 @@ shape was built around.
    handle the error locally — keeps the log stream clean.
 3. **Projections live in `services/projections.py`** and calendar /
    observance helpers in `services/calendar.py`. ORM → Pydantic mapping
-   is a pure function, callable from any controller. Don't put
-   projection helpers on a controller class — that's how the original
-   `EventsController` ended up importing private helpers from
-   `TodayController`.
+   is a pure function, callable from any controller. **Never** put
+   projection helpers on a controller class — that path forces
+   controller-to-controller imports and turns the feature surface into
+   a tangle.
 4. **Routes are zero-business-logic.** They `Depends(...)` a controller,
    call one method, return its result. `Cache-Control` is set via
    `dependencies=[CACHE_DAY]` etc. (see `iotd/api/cache.py`), not by
@@ -417,13 +417,13 @@ package, registered on the same ``SQLModel.metadata`` but with their own
 Alembic migration history. The pipeline's `_content_tables()` filter
 will silently skip them.
 
-## Frontend conventions baked into the refactor
+## Frontend conventions
 
 1. **Custom Tailwind components, not shadcn.** Editorial design (frieze
    rosettes, eight-point stars, dot-chips) is too bespoke for shadcn's
-   defaults; the migration would have re-themed every primitive. We ship
-   our own; Radix is used selectively for a11y-critical primitives only
-   (currently `@radix-ui/react-dialog` under `DisputedDrawer`).
+   defaults; adopting shadcn would force re-theming every primitive. We
+   ship our own; Radix is used selectively for a11y-critical primitives
+   only (currently `@radix-ui/react-dialog` under `DisputedDrawer`).
 2. **CSS variables, not JS branching.** All color / typography tokens
    live in `web/src/index.css` as CSS custom properties on `:root` and
    `.dark`. `ThemeProvider` toggles `html.classList.dark`; nothing else
@@ -613,13 +613,12 @@ the fallback, not the default.
   truth — backend exposes the same constants). Don't redeclare them in
   a route file.
 - **`Loading` / `Empty` / `NotFound` / `ErrorBoundary`** are shared in
-  `web/src/components/ui/`. Don't reinvent per-route variants — that was
-  the duplication the refactor cleaned up.
+  `web/src/components/ui/`. Don't reinvent per-route variants.
 
 ## Further reading
 
 - `README.md` — public overview, database stats, running instructions for
   pipeline / backend / web.
 - `EDITORIAL.md` — the full editorial bar; non-negotiable rules in detail.
-- `AUDIT.md` — v1.1 audit state + the human-review backlog (what still needs
-  a qualified Muslim reviewer).
+- `AUDIT.md` — dataset audit state + the human-review backlog (what still
+  needs a qualified Muslim reviewer).
