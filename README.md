@@ -21,7 +21,7 @@ The repository ships three components:
 
 ## Current status
 
-- **Data pipeline: v2 in progress.** 494 manually-curated events (134 day-precise, 413 cross-verified across ≥2 classical Sunni sources), 143 dateless lessons, 10 annual observances. Strict editorial bar: trilingual (en/ar/fr), classical Sunni source citations, ṣaḥīḥ-only hadith policy (audited 2026-04-27), Wikidata QIDs purged for systemic mismatch. Bulk Wikidata + OpenITI imports remain available via `pipeline.build --include-bulk` for catalogue depth (~3,500 additional `auto_verified` entries) but the headline picks only from curated.
+- **Data pipeline: curated v2.** 1,256 hand-curated events (448 day-precise, 1,117 cross-verified across ≥2 classical Sunni sources, 84 with disputed dates surfaced explicitly), 353 dateless lessons, 12 annual observances, 860 historical figures, 26 citable sources. Strict editorial bar: trilingual (en/ar/fr), classical Sunni source citations, ṣaḥīḥ-only hadith policy (audited 2026-04-27), Wikidata QIDs purged for systemic mismatch. Every event in the dataset is at least `single_source` — `unverified` and `auto_verified` rows have been retired. Bulk Wikidata + OpenITI imports remain available via `pipeline.build --include-bulk` for catalogue depth, but the headline picker only surfaces curated entries.
 - **Backend (FastAPI): functional.** Today / Recent / Events / Lessons /
   Observances / People endpoints, typed errors with auto-derived i18n keys,
   Cache-Control via dependencies, pure-ASGI middleware (security headers +
@@ -52,57 +52,61 @@ because the backend reads the SQLite the pipeline produces; without it
 
 ## Database snapshot
 
-The live counts come from `GET /health` once the backend is running —
-the snapshot below is the **v1 historical** breakdown for reference. The
-default build is curated-only (~1.2k events); `--include-bulk` re-enables
-Wikidata + OpenITI for catalogue depth (~5k events) but the headline
+Numbers below reflect the curated YAML at `data-pipeline/data/curated/`
+— the default `pipeline.build` produces exactly this. Live counts on a
+running backend are at `GET /health`. `pipeline.build --include-bulk`
+re-enables Wikidata + OpenITI for catalogue depth, but the headline
 picker only ever surfaces curated entries.
 
-Produced by `data-pipeline/src/pipeline/build.py`:
-
-| Metric                        | Count |
-| ----------------------------- | ----: |
-| Events (total)                | 4,973 |
-| — **Importance = major** (headline candidates) | 50 |
-| — Importance = notable        | 446 |
-| — Importance = minor (auto-imports) | 4,477 |
-| Events by precision — Tier 1 (day) | 1,211 |
-| — Tier 1 day-precise, VERIFIED manually | 100 |
-| — Tier 2 (month-precise)      | 203 |
-| — Tier 3 (year-precise)       | 3,559 |
-| **Curated verified events total** | **172** |
-| Persons                       | ~7,050 |
-| Date claims (with provenance) | 5,090 |
-| Dateless Quran/Sunnah lessons | 146 |
+| Metric                                       | Count |
+| -------------------------------------------- | ----: |
+| Events (total)                               | 1,256 |
+| — Importance = major (headline candidates)   | 254 |
+| — Importance = notable                       | 1,002 |
+| — Verification = cross_verified (≥2 sources) | 1,117 |
+| — Verification = single_source               | 139 |
+| — Disputed (multiple attested positions)     | 84 |
+| Events by precision — day-precise            | 448 |
+| — month-precise                              | 198 |
+| — year-precise                               | 610 |
+| Persons                                      | 860 |
+| Date claims (with provenance)                | 3,237 |
+| Event ↔ person links                         | 1,325 |
+| Citable sources                              | 26 |
+| Tags                                         | 1,915 |
+| Dateless Qur'an / Sunnah lessons             | 353 |
 | **Annual Islamic observances** (recurring Hijri dates) | **12** |
-| Citable sources               | 18 |
-| Gregorian days with ≥1 Tier-1 event | 352 / 366 |
-| Distinct Hijri month-day slots covered | 343 / 354 |
-| Headline-worthy (major ∩ day-precise) | 33 |
+| Gregorian days with ≥1 day-precise event     | 251 / 366 |
+| Distinct Hijri month-day slots covered       | 238 / 354 |
+| Headline-worthy (major ∩ verified)           | 193 |
 
-Curated-only breakdown (the hand-verified tier):
+Top event categories:
 
-| Category             | Events |
-| -------------------- | ----: |
-| Prophetic era        | 20 |
-| Rashidun             | 14 |
-| Umayyad / Abbasid    | 25 |
-| Al-Andalus           | 13 |
-| Crusades / Ayyubid   | 4 |
-| Mongol / Mamluk      | 5 |
-| Ottoman / Safavid    | 10 |
-| Mughal               | 5 |
-| Scholars (other)     | 17 |
-| **Total verified**   | **113** |
+| Category               | Events |
+| ---------------------- | ----: |
+| Scholar deaths         | 419 |
+| Scholars (other)       | 228 |
+| Ruler deaths           | 123 |
+| Battles                | 91 |
+| Companions             | 61 |
+| Conquests              | 60 |
+| Political events       | 47 |
+| Foundings              | 35 |
+| Rulers                 | 28 |
+| Rashidun               | 18 |
+| Prophetic era          | 17 |
+| Sieges                 | 15 |
+| Umayyad                | 15 |
+| Dynastic foundings     | 11 |
 
-Dateless lessons break down as:
+Dateless lessons:
 
-| Category             | Count |
-| -------------------- | ----: |
-| Hadith narratives    | 36 |
-| Qur'an stories       | 32 |
-| Qur'an / Hadith facts | 32 |
-| Sunnah practices     | 32 |
+| Category               | Count |
+| ---------------------- | ----: |
+| Qur'an stories         | 97 |
+| Sunnah practices       | 88 |
+| Qur'an / Hadith facts  | 86 |
+| Hadith narratives      | 82 |
 
 ## Data sources and reliability tiers
 
