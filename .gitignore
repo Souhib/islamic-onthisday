@@ -83,12 +83,13 @@ Thumbs.db
 .playwright-mcp/
 test-results/
 
-# Dev screenshots / scratch images at the repo root. Kept out of git so
-# the repo doesn't bloat with one-off snapshots; the canonical design
-# references live in `EDITORIAL.md` / `AUDIT.md` / Figma instead.
-/walk-*.png
-/final-*.png
-/layout-*.png
+# Dev screenshots / scratch images at the repo root. Any PNG at the
+# repo root is a one-off snapshot (Playwright walkthroughs, design
+# references, before/after compares, etc.). Canonical visual assets
+# live in `web/public/` or under a documentation folder, never at root.
+/*.png
+/*.jpg
+/*.jpeg
 
 # =============================================================================
 # Docker
