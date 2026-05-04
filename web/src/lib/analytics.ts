@@ -11,7 +11,6 @@
 //
 // - page views (auto, on route change) — daily-return rhythm
 // - {event,lesson,observance,person}_view — what people read
-// - search — what people look for, with result count
 // - language_change — trilingual reach signal
 // - dispute_opened — engagement with the editorial dispute model
 //
@@ -139,15 +138,6 @@ export function trackObservanceView(slug: string): void {
 /** User opened a person profile page. */
 export function trackPersonView(slug: string): void {
   track("person_view", { slug });
-}
-
-/** Search query with the number of results returned (0 = no match). */
-export function trackSearch(term: string, resultCount: number): void {
-  // Trim and clip the term so we don't blow up Umami with novelty payloads
-  // (a 4kb search box would otherwise dominate the events table).
-  const trimmed = term.trim().slice(0, 80);
-  if (!trimmed) return;
-  track("search", { term: trimmed, results: resultCount });
 }
 
 /** User switched UI language. Signals real trilingual reach. */

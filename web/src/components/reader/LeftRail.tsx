@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { FriezeRule } from "@/components/design";
+import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 import type { ObservanceRef, TodayResponse } from "@/api/generated/types.gen";
+import { cn } from "@/lib/utils";
 
 interface Props {
   today: TodayResponse["today"];
@@ -9,6 +11,23 @@ interface Props {
 
 export function LeftRail({ today, observance }: Props) {
   const { t } = useTranslation();
+  const { lang, isRTL } = useLanguage();
+  const observanceName = observance
+    ? pickLocalised(
+        { en: observance.name, fr: observance.nameFr ?? null, ar: observance.nameAr ?? null },
+        lang,
+      )
+    : null;
+  const observanceSummary = observance
+    ? pickLocalised(
+        {
+          en: observance.summary ?? null,
+          fr: observance.summaryFr ?? null,
+          ar: observance.summaryAr ?? null,
+        },
+        lang,
+      )
+    : null;
   return (
     <aside className="iotd-rail-left min-h-[600px] border-r border-rule pt-10 pb-10 pr-7 pl-[clamp(20px,4vw,56px)]">
       <FriezeRule marginTop={0} marginBottom={20} rosetteOnly />
@@ -52,12 +71,24 @@ export function LeftRail({ today, observance }: Props) {
         <>
           <FriezeRule label={t("observance_label")} marginTop={32} marginBottom={14} />
           <div>
-            <div className="font-serif text-[16px] font-medium leading-[1.2] tracking-[-0.2px] text-ink">
-              {observance.name}
+            <div
+              dir={isRTL ? "rtl" : "ltr"}
+              className={cn(
+                "text-[16px] font-medium leading-[1.2] tracking-[-0.2px] text-ink",
+                lang === "ar" ? "font-arabic" : "font-serif",
+              )}
+            >
+              {observanceName}
             </div>
-            {observance.summary && (
-              <p className="mt-2 font-serif text-[13.5px] italic leading-[1.5] text-ink-soft text-pretty">
-                {observance.summary}
+            {observanceSummary && (
+              <p
+                dir={isRTL ? "rtl" : "ltr"}
+                className={cn(
+                  "mt-2 text-[13.5px] leading-[1.5] text-ink-soft text-pretty",
+                  lang === "ar" ? "font-arabic" : "font-serif italic",
+                )}
+              >
+                {observanceSummary}
               </p>
             )}
           </div>

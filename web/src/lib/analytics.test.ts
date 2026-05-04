@@ -12,7 +12,6 @@ import {
   trackLessonView,
   trackObservanceView,
   trackPersonView,
-  trackSearch,
 } from "./analytics";
 
 // `track` matches Umami's overloads loosely enough to satisfy the test.
@@ -36,25 +35,6 @@ describe("analytics — safe no-ops without umami", () => {
     expect(() => trackPersonView("x")).not.toThrow();
     expect(() => trackLanguageChange("ar")).not.toThrow();
     expect(() => trackDisputeOpened("x")).not.toThrow();
-  });
-
-  it("trackSearch ignores blank queries even when umami is loaded", () => {
-    const track = vi.fn();
-    win.umami = { track };
-    trackSearch("   ", 5);
-    expect(track).not.toHaveBeenCalled();
-  });
-
-  it("trackSearch trims and clips long queries to 80 chars", () => {
-    const track = vi.fn();
-    win.umami = { track };
-    const longQuery = "  " + "a".repeat(200) + "  ";
-    trackSearch(longQuery, 0);
-    expect(track).toHaveBeenCalledTimes(1);
-    const [event, data] = track.mock.calls[0];
-    expect(event).toBe("search");
-    expect((data as { term: string }).term.length).toBe(80);
-    expect((data as { results: number }).results).toBe(0);
   });
 });
 

@@ -149,7 +149,7 @@ function TodayPage() {
         {calendar && <LeftRail today={calendar} observance={observance} />}
         <div className="iotd-main">
           {todayQuery.isPending && <Loading labelKey="loading" />}
-          {todayQuery.isError && <Empty message={t("search_error")} />}
+          {todayQuery.isError && <Empty message={t("load_failed")} />}
           {todayQuery.isSuccess && !mainItem && <Empty message={t("not_found")} />}
           {mainIsEvent && mainItem && (
             <Main

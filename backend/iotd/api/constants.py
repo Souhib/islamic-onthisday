@@ -3,6 +3,11 @@
 # Maximum number of secondary "on this day" entries returned in a Today payload.
 TODAY_SECONDARY_LIMIT: int = 6
 
+# Width of the catch-up window for ``/api/v1/recent``. Hardcoded — see
+# CLAUDE.md rule 15. The window exists for users who missed a few daily
+# readings, not as a configurable archive scrub knob.
+RECENT_WINDOW_DAYS: int = 7
+
 # Maximum number of related people / sources returned per event detail.
 EVENT_PEOPLE_LIMIT: int = 12
 EVENT_SOURCES_LIMIT: int = 12

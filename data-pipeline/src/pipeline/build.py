@@ -14,6 +14,7 @@ from sqlalchemy import func, update
 from sqlmodel import Session, select
 
 from pipeline.database import init_db, session_scope
+from pipeline.dataset_meta import write_dataset_meta
 from pipeline.images import fetch_safe_images
 from pipeline.ingestion import curated, openiti, wikidata
 from pipeline.models.db import DateClaim, DatelessLesson, Event, Person, Source, Tag
@@ -351,6 +352,10 @@ def build(
 
     console.log("[bold]Step 8: regenerating syndication (sitemap.xml + robots.txt + feed.xml)…")
     syndicate()
+
+    console.log("[bold]Step 9: writing dataset-meta.json (footer profundity signal)…")
+    meta_path = write_dataset_meta()
+    console.log(f"  dataset-meta: wrote {meta_path}")
 
     console.rule("[bold green]Done")
 

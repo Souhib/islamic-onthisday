@@ -43,6 +43,8 @@ class ObservanceRef(ResponseModel):
     name_fr: str | None = None
     hijri_date: str
     summary: str | None = None
+    summary_ar: str | None = None
+    summary_fr: str | None = None
 
 
 class TodayResponse(ResponseModel):

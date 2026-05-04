@@ -55,8 +55,14 @@ export function TodayBottomSection({ items, onPick }: Props) {
                 borderBottom: "0.5px solid var(--rule-soft)",
               }}
             >
-              <div className="h-5 overflow-hidden font-mono text-[13px] uppercase leading-[20px] tracking-[1.6px] text-accent">
-                {isHeadline ? `· ${t("todays_featured_event")} ·` : " "}
+              <div className="flex h-5 items-center">
+                {isHeadline ? (
+                  <span className="inline-flex items-center border border-accent/45 bg-accent/[0.08] px-2 py-[1px] font-mono text-[10.5px] uppercase tracking-[1.6px] text-accent">
+                    {t("todays_featured_event")}
+                  </span>
+                ) : (
+                  <span aria-hidden="true">&nbsp;</span>
+                )}
               </div>
 
               <div className="mt-1.5 h-[18px] overflow-hidden whitespace-nowrap font-mono text-[13px] uppercase leading-[18px] tracking-[1.4px] text-accent text-ellipsis">

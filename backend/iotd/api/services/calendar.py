@@ -47,6 +47,8 @@ def project_observance_ref(obs: Observance) -> ObservanceRef:
         name_fr=obs.name_fr,
         hijri_date=f"{obs.hijri_day} {HIJRI_MONTH_NAMES_LONG[obs.hijri_month - 1]}",
         summary=obs.description_en[:240] if obs.description_en else None,
+        summary_ar=obs.description_ar[:240] if obs.description_ar else None,
+        summary_fr=obs.description_fr[:240] if obs.description_fr else None,
     )
 
 

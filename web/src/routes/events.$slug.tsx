@@ -10,6 +10,7 @@ import {
 } from "@/components/design";
 import { DisputeBadge, type DisputeAbout } from "@/components/disputed/DisputeBadge";
 import { DisputedDrawer } from "@/components/disputed/DisputedDrawer";
+import { BackToTodayCTA } from "@/components/reader/BackToTodayCTA";
 import { DetailHeader } from "@/components/reader/DetailHeader";
 import { Footer } from "@/components/reader/Footer";
 import { Loading } from "@/components/ui/Loading";
@@ -200,7 +201,7 @@ function EventDetailPage() {
                         {s.label}
                       </div>
                       <div className="mt-1 font-mono text-[12px] uppercase tracking-[0.6px] text-ink-mute">
-                        {s.kind} {s.verify ? "· verify ↗" : ""}
+                        {t(s.kind, s.kind)} {s.verify ? `· ${t("verify")}` : ""}
                       </div>
                     </>
                   );
@@ -223,6 +224,7 @@ function EventDetailPage() {
             <div className="text-center font-mono text-[11.5px] uppercase tracking-[2px] text-ink-mute">
               {t("end_of_entry")}
             </div>
+            <BackToTodayCTA />
           </article>
         )}
       </main>

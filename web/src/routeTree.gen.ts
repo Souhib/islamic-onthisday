@@ -9,9 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as SearchRouteImport } from './routes/search'
 import { Route as RecentRouteImport } from './routes/recent'
-import { Route as BrowseRouteImport } from './routes/browse'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ObservancesIndexRouteImport } from './routes/observances.index'
 import { Route as PeopleSlugRouteImport } from './routes/people.$slug'
@@ -19,19 +17,9 @@ import { Route as ObservancesSlugRouteImport } from './routes/observances.$slug'
 import { Route as LessonsSlugRouteImport } from './routes/lessons.$slug'
 import { Route as EventsSlugRouteImport } from './routes/events.$slug'
 
-const SearchRoute = SearchRouteImport.update({
-  id: '/search',
-  path: '/search',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const RecentRoute = RecentRouteImport.update({
   id: '/recent',
   path: '/recent',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const BrowseRoute = BrowseRouteImport.update({
-  id: '/browse',
-  path: '/browse',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -67,9 +55,7 @@ const EventsSlugRoute = EventsSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/browse': typeof BrowseRoute
   '/recent': typeof RecentRoute
-  '/search': typeof SearchRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -78,9 +64,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/browse': typeof BrowseRoute
   '/recent': typeof RecentRoute
-  '/search': typeof SearchRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -90,9 +74,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/browse': typeof BrowseRoute
   '/recent': typeof RecentRoute
-  '/search': typeof SearchRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -103,9 +85,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/browse'
     | '/recent'
-    | '/search'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -114,9 +94,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/browse'
     | '/recent'
-    | '/search'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -125,9 +103,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/browse'
     | '/recent'
-    | '/search'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -137,9 +113,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  BrowseRoute: typeof BrowseRoute
   RecentRoute: typeof RecentRoute
-  SearchRoute: typeof SearchRoute
   EventsSlugRoute: typeof EventsSlugRoute
   LessonsSlugRoute: typeof LessonsSlugRoute
   ObservancesSlugRoute: typeof ObservancesSlugRoute
@@ -149,25 +123,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/search': {
-      id: '/search'
-      path: '/search'
-      fullPath: '/search'
-      preLoaderRoute: typeof SearchRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/recent': {
       id: '/recent'
       path: '/recent'
       fullPath: '/recent'
       preLoaderRoute: typeof RecentRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/browse': {
-      id: '/browse'
-      path: '/browse'
-      fullPath: '/browse'
-      preLoaderRoute: typeof BrowseRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -217,9 +177,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  BrowseRoute: BrowseRoute,
   RecentRoute: RecentRoute,
-  SearchRoute: SearchRoute,
   EventsSlugRoute: EventsSlugRoute,
   LessonsSlugRoute: LessonsSlugRoute,
   ObservancesSlugRoute: ObservancesSlugRoute,

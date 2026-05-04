@@ -26,11 +26,8 @@ export function Masthead({ today }: Props) {
       </span>
       <nav className="flex flex-wrap items-center justify-end gap-[18px] font-mono text-[12px] uppercase tracking-[1.6px] text-ink-soft">
         <span className="text-ink">{t("today")}</span>
-        <Link to="/browse" className="iotd-link">
-          {t("browse")}
-        </Link>
-        <Link to="/search" className="iotd-link">
-          {t("search")}
+        <Link to="/recent" className="iotd-link">
+          {t("recent")}
         </Link>
         <Link to="/observances" className="iotd-link">
           {t("observances")}

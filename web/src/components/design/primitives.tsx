@@ -5,6 +5,7 @@
 // variables in `src/index.css`. Dark mode flips via the `dark` class on
 // `<html>` (toggled by `ThemeProvider`); no component branches on it.
 
+import { useTranslation } from "react-i18next";
 import { cn } from "@/lib/utils";
 
 interface CommonProps {
@@ -130,10 +131,14 @@ export function VerificationChip({
   const tier = VERIFICATION_TIERS[kind];
   const tone = tier.tone === "warn" ? "text-warn" : "text-accent";
   const sizeClass = size === "xs" ? "text-[11.5px]" : "text-[12.5px]";
+  const { t } = useTranslation();
+  const tooltipKey = `verification_tooltip_${kind}` as const;
+  const tooltip = t(tooltipKey, "");
   return (
     <span
+      title={tooltip || undefined}
       className={cn(
-        "inline-flex items-center gap-1.5 font-mono uppercase tracking-[0.5px]",
+        "inline-flex cursor-help items-center gap-1.5 font-mono uppercase tracking-[0.5px]",
         tone,
         sizeClass,
         className,

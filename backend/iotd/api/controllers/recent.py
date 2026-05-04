@@ -25,6 +25,7 @@ from iotd.api.constants import (
     HEADLINE_IMPORTANCE,
     HEADLINE_VERIFICATION_STATUSES,
     HIJRI_MD_FACTOR,
+    RECENT_WINDOW_DAYS,
 )
 from iotd.api.schemas.today import RecentDay, RecentResponse, TodayCalendar
 from iotd.api.services.calendar import calendar_for, hijri_month_index, project_observance_ref
@@ -37,19 +38,15 @@ class RecentController:
     def __init__(self, session: AsyncSession):
         self.session = session
 
-    async def recent(self, days: int = 7) -> RecentResponse:
-        """Build the Recent payload for the last ``days`` calendar days.
-
-        Args:
-            days: Number of days to look back. Clamped to [1, 14].
+    async def recent(self) -> RecentResponse:
+        """Build the Recent payload for the last :data:`RECENT_WINDOW_DAYS` days.
 
         Returns:
             A ``RecentResponse`` where ``days[0]`` is today and
-            ``days[-1]`` is ``days - 1`` days ago.
+            ``days[-1]`` is ``RECENT_WINDOW_DAYS - 1`` days ago.
         """
-        days = max(1, min(14, days))
         today = datetime.now(UTC).date()
-        dates = [today - timedelta(days=i) for i in range(days)]
+        dates = [today - timedelta(days=i) for i in range(RECENT_WINDOW_DAYS)]
         calendars = [calendar_for(d) for d in dates]
 
         headlines = await self._pick_headlines(dates, calendars)

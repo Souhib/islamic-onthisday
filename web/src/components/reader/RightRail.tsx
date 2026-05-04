@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FriezeRule } from "@/components/design";
 import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 import type { EventDetail, LessonDetail, ObservanceRef } from "@/api/generated/types.gen";
+import { cn } from "@/lib/utils";
 
 interface Props {
   item: EventDetail | LessonDetail | null;
@@ -32,7 +33,7 @@ const ROW_CLASS = "border-b border-rule-soft py-2.5";
 
 export function RightRail({ item, observance }: Props) {
   const { t } = useTranslation();
-  const { lang } = useLanguage();
+  const { lang, isRTL } = useLanguage();
 
   if (item && !isLessonDetail(item)) {
     const ev = item;
@@ -80,7 +81,7 @@ export function RightRail({ item, observance }: Props) {
                       {s.label}
                     </div>
                     <div className="mt-1 font-mono text-[12.5px] uppercase tracking-[0.6px] text-ink-mute">
-                      {s.kind} {s.verify ? "· verify ↗" : ""}
+                      {t(s.kind, s.kind)} {s.verify ? `· ${t("verify")}` : ""}
                     </div>
                   </>
                 );
@@ -208,17 +209,45 @@ export function RightRail({ item, observance }: Props) {
   return (
     <aside className={RAIL_CLASS}>
       {observance ? (
-        <>
-          <FriezeRule label={t("observance_label")} marginTop={0} marginBottom={14} />
-          <div className="font-serif text-[18px] font-medium leading-[1.2] tracking-[-0.2px] text-ink">
-            {observance.name}
-          </div>
-          {observance.summary && (
-            <p className="mt-2 font-serif text-[13.5px] italic leading-[1.5] text-ink-soft text-pretty">
-              {observance.summary}
-            </p>
-          )}
-        </>
+        (() => {
+          const obsName = pickLocalised(
+            { en: observance.name, fr: observance.nameFr ?? null, ar: observance.nameAr ?? null },
+            lang,
+          );
+          const obsSummary = pickLocalised(
+            {
+              en: observance.summary ?? null,
+              fr: observance.summaryFr ?? null,
+              ar: observance.summaryAr ?? null,
+            },
+            lang,
+          );
+          return (
+            <>
+              <FriezeRule label={t("observance_label")} marginTop={0} marginBottom={14} />
+              <div
+                dir={isRTL ? "rtl" : "ltr"}
+                className={cn(
+                  "text-[18px] font-medium leading-[1.2] tracking-[-0.2px] text-ink",
+                  lang === "ar" ? "font-arabic" : "font-serif",
+                )}
+              >
+                {obsName}
+              </div>
+              {obsSummary && (
+                <p
+                  dir={isRTL ? "rtl" : "ltr"}
+                  className={cn(
+                    "mt-2 text-[13.5px] leading-[1.5] text-ink-soft text-pretty",
+                    lang === "ar" ? "font-arabic" : "font-serif italic",
+                  )}
+                >
+                  {obsSummary}
+                </p>
+              )}
+            </>
+          );
+        })()
       ) : (
         <div className="mt-10 font-mono text-[12px] uppercase tracking-[1.4px] text-ink-mute">
           · {t("on_this_day")} ·

@@ -12,24 +12,15 @@ import {
   getPersonApiV1PeopleSlugGetQueryKey,
   getRecentApiV1RecentGetQueryKey,
   getTodayApiV1TodayGetQueryKey,
-  listEventsApiV1EventsGetQueryKey,
   listLessonsApiV1LessonsGetQueryKey,
   listObservancesApiV1ObservancesGetQueryKey,
 } from "@/api/generated/@tanstack/react-query.gen";
 
 export const queryKeys = {
   today: () => getTodayApiV1TodayGetQueryKey(),
-  recent: (days?: number) =>
-    getRecentApiV1RecentGetQueryKey(days ? { query: { days } } : undefined),
+  recent: () => getRecentApiV1RecentGetQueryKey(),
 
   events: {
-    list: (
-      query?: Parameters<typeof listEventsApiV1EventsGetQueryKey>[0] extends infer T
-        ? T extends { query?: infer Q }
-          ? Q
-          : never
-        : never,
-    ) => listEventsApiV1EventsGetQueryKey(query ? { query } : undefined),
     bySlug: (slug: string) => getEventApiV1EventsSlugGetQueryKey({ path: { slug } }),
   },
   lessons: {

@@ -6,9 +6,12 @@ import { PageShell } from "@/components/reader/PageShell";
 import { Empty } from "@/components/ui/Empty";
 import { Loading } from "@/components/ui/Loading";
 import { HIJRI_MONTHS_LONG } from "@/i18n/months";
+import { cn } from "@/lib/utils";
+import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 
 function ObservancesPage() {
   const { t } = useTranslation();
+  const { lang, isRTL } = useLanguage();
   const query = useObservancesQuery();
 
   return (
@@ -17,8 +20,7 @@ function ObservancesPage() {
       subtitle="Recurring annual rites — fixed by Hijri date, ordered through the Muslim year."
     >
       {query.isPending && <Loading />}
-      {query.isError && <Empty message={t("search_error")} />}
-      {query.data && query.data.length === 0 && <Empty message={t("no_results")} />}
+      {query.isError && <Empty message={t("load_failed")} />}
       {query.data && query.data.length > 0 && (
         <>
           {query.data.map((obs) => (
@@ -42,10 +44,19 @@ function ObservancesPage() {
                 )}
               </div>
               <div>
-                <div className="font-serif text-[22px] font-medium leading-[1.15] tracking-[-0.3px] text-ink">
-                  {obs.nameEn}
+                <div
+                  dir={isRTL ? "rtl" : "ltr"}
+                  className={cn(
+                    "text-[22px] font-medium leading-[1.15] text-ink",
+                    lang === "ar" ? "font-arabic" : "font-serif tracking-[-0.3px]",
+                  )}
+                >
+                  {pickLocalised(
+                    { en: obs.nameEn, fr: obs.nameFr ?? null, ar: obs.nameAr ?? null },
+                    lang,
+                  )}
                 </div>
-                {obs.nameAr && (
+                {lang !== "ar" && obs.nameAr && (
                   <div className="mt-1.5 font-arabic text-[20px] text-ink-soft" dir="rtl">
                     {obs.nameAr}
                   </div>

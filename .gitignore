@@ -26,6 +26,7 @@ coverage.xml
 # =============================================================================
 node_modules/
 .vite/
+.tanstack/
 *.log
 .eslintcache
 
@@ -49,6 +50,9 @@ data-pipeline/data/output/*.db-wal
 web/public/sitemap.xml
 web/public/robots.txt
 web/public/feed.xml
+
+# Pipeline-generated dataset depth stat (footer signal).
+web/public/dataset-meta.json
 
 # Image cache (downloaded from Wikimedia at build time).
 data-pipeline/data/images/*

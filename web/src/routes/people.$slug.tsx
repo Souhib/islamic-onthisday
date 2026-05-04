@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { usePersonQuery } from "@/api/people";
 import { FriezeRule } from "@/components/design";
+import { BackToTodayCTA } from "@/components/reader/BackToTodayCTA";
 import { PageShell } from "@/components/reader/PageShell";
 import { Empty } from "@/components/ui/Empty";
 import { Loading } from "@/components/ui/Loading";
@@ -78,6 +79,7 @@ function PersonPage() {
               </a>
             </>
           )}
+          <BackToTodayCTA />
         </article>
       )}
     </PageShell>
