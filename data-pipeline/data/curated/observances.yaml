@@ -6,6 +6,7 @@ observances:
   - slug: ashura
     name_en: Day of 'Ashura
     name_ar: يوم عاشوراء
+    name_fr: Jour de ʿĀshūrāʾ
     hijri_month: 1
     hijri_day: 10
     importance: major
@@ -20,35 +21,32 @@ observances:
       but observed in Sunni practice principally through the fast and
       sober remembrance, without the mourning rituals of 'Ashura
       processions.
+    description_fr: |
+      Le dixième jour de Muḥarram. Pour les musulmans sunnites, il s'agit
+      avant tout d'un jeûne sunna : le Prophète ﷺ jeûnait ce jour et a
+      recommandé aux musulmans de le jeûner, de préférence accompagné du
+      neuvième ou du onzième pour se distinguer de la pratique des juifs
+      qui jeûnaient également ce jour. Le Prophète ﷺ a enseigné que ce
+      jeûne expie les péchés de l'année écoulée. Ce jour est aussi
+      l'anniversaire du martyre d'al-Ḥusayn ibn ʿAlī à Karbalāʾ en 61 H
+      — un événement pleuré collectivement par les chiites, mais observé
+      dans la pratique sunnite principalement par le jeûne et un souvenir
+      sobre, sans les rituels de deuil des processions de ʿĀshūrāʾ.
+    description_ar: |
+      اليوم العاشر من المحرم. وهو عند أهل السنة في المقام الأول صيامُ
+      سنّةٍ: صامه النبي ﷺ وحثّ المسلمين على صيامه، ويُستحبّ أن يُصام
+      معه التاسع أو الحادي عشر تمييزًا عن صيام اليهود الذين كانوا
+      يصومونه أيضًا. وقد أخبر النبي ﷺ أن صيامه يُكفّر ذنوب السنة
+      الماضية. وهو كذلك ذكرى استشهاد الحسين بن علي رضي الله عنهما
+      بكربلاء سنة 61 هـ — حدث يُقام له العزاء جماعةً عند الشيعة، أما
+      عند أهل السنة فيُحيا بالصيام والذكر الهادئ، دون مواكب العزاء
+      المعروفة في رسوم عاشوراء.
     hadith_refs: Bukhari 2004, Muslim 1162
-
-  - slug: mawlid
-    name_en: Mawlid an-Nabi ﷺ
-    name_ar: المولد النبوي
-    hijri_month: 3
-    hijri_day: 12
-    importance: notable
-    description_en: |
-      The traditional date associated with the birth of the Prophet
-      Muhammad ﷺ in the Year of the Elephant (~570 CE). Two layers of
-      genuine Sunni dispute apply:
-      1. The exact day is contested in classical sources — 8, 9, 10, and
-         12 Rabi' al-Awwal are all reported. Many later scholars (Ibn
-         Kathir, Ibn Hajar, others working from astronomical
-         reconstruction) have favoured Monday 9 Rabi' al-Awwal over the
-         popular 12 Rabi' al-Awwal. The 12th remains the date most widely
-         observed.
-      2. The ruling on communal celebration of the Mawlid is itself
-         disputed among Sunni scholars: some consider it a praiseworthy
-         innovation (bid'a hasana) following al-Suyuti's view; others
-         (al-Albani, Ibn Baz, the Hanbali tradition broadly) consider it
-         an unsanctioned innovation. The day is historically associated
-         with the Prophet's ﷺ birth; the manner of its commemoration is
-         a post-prophetic development.
 
   - slug: isra-mi-raj-annual
     name_en: Isra' wal-Mi'raj (anniversary)
     name_ar: ليلة الإسراء والمعراج
+    name_fr: Isrāʾ et Miʿrāj (anniversaire)
     hijri_month: 7
     hijri_day: 27
     importance: major
@@ -63,11 +61,34 @@ observances:
       is a later popular tradition, not prophetic. Commemoration of
       the night with specific communal rituals is not established in
       the sound Sunnah.
+    description_fr: |
+      L'anniversaire populairement observé du Voyage nocturne du Prophète
+      ﷺ depuis la Masjid al-Ḥarām à La Mecque jusqu'à la Masjid al-Aqṣā
+      à Jérusalem, suivi de son ascension (al-Miʿrāj) à travers les sept
+      cieux. Les cinq prières quotidiennes ont été rendues obligatoires
+      cette nuit-là. La sourate al-Isrāʾ 17:1 et la sourate al-Najm
+      53:1-18 évoquent ce voyage. Aucun hadith authentique n'établit le
+      27 Rajab comme date réelle ; al-Zurqānī recense six propositions
+      classiques concurrentes, et la désignation du 27 Rajab est une
+      tradition populaire tardive, non prophétique. La commémoration de
+      cette nuit par des rituels collectifs spécifiques n'est pas établie
+      dans la sunna authentique.
+    description_ar: |
+      ذكرى رحلة النبي ﷺ الليلية من المسجد الحرام بمكة إلى المسجد الأقصى
+      ببيت المقدس، وعروجه (المعراج) في السماوات السبع، وهي الذكرى التي
+      يُحييها كثير من الناس في هذا اليوم. وفي هذه الليلة فُرضت الصلوات
+      الخمس. وإلى الإسراء أشارت سورة الإسراء 17:1، وإلى المعراج سورة
+      النجم 53:1-18. ولم يثبت في حديث صحيح أن السابع والعشرين من رجب
+      هو التاريخ الفعلي للحادثة؛ فقد ذكر الزرقاني ستة أقوال كلاسيكية
+      متنافسة، وتعيين السابع والعشرين من رجب تقليد شعبي متأخّر لا أصل
+      نبويّ له. ولم يثبت في السنّة الصحيحة إحياء هذه الليلة بشعائر
+      جماعية مخصوصة.
     quran_refs: "17:1, 53:1-18"
 
   - slug: night-of-bara-ah
     name_en: Laylat al-Bara'a (Night of the Middle of Sha'ban)
     name_ar: ليلة النصف من شعبان
+    name_fr: Laylat al-Barāʾa (Nuit du milieu de Shaʿbān)
     hijri_month: 8
     hijri_day: 15
     importance: notable
@@ -81,10 +102,30 @@ observances:
       notably the widely-circulated "100-rak'ah prayer of Sha'ban" — are
       fabricated (mawdu') per classical muhaddithin and are not part of
       the sound Sunnah.
+    description_fr: |
+      La nuit du quinzième jour de Shaʿbān, rapportée dans certains
+      hadiths comme une nuit de pardon divin où Allah pardonne à ceux
+      qui Le sollicitent, à l'exception du polythéiste (mushrik) et de
+      celui qui nourrit de la rancune. Les savants ont divergé sur
+      l'authenticité et la portée de ces récits ; certains savants
+      sunnites les ont acceptés et ont recommandé d'augmenter l'adoration
+      cette nuit-là, d'autres les ont considérés comme faibles. Des
+      formes rituelles particulières — notamment la « prière de cent
+      rakʿa de Shaʿbān » largement diffusée — sont forgées (mawḍūʿ)
+      selon les muḥaddithīn classiques et ne font pas partie de la
+      sunna authentique.
+    description_ar: |
+      ليلة الخامس عشر من شعبان، وردت في بعض الأحاديث على أنها ليلة
+      مغفرة يغفر فيها الله لمن سأله، إلا لمشركٍ أو مشاحن. واختلف
+      العلماء في صحّة هذه الأخبار ودلالتها؛ فمنهم من قَبِلها واستحبّ
+      كثرة العبادة فيها، ومنهم من ضعّفها. أما الصور التعبدية المخصوصة
+      — كصلاة المائة ركعة المنسوبة إلى ليلة شعبان — فموضوعة عند
+      المحدّثين الكبار، وليست من السنة الصحيحة.
 
   - slug: ramadan-begin
     name_en: First of Ramadan — Start of the Fast
     name_ar: أول رمضان
+    name_fr: 1er Ramadan — début du jeûne
     hijri_month: 9
     hijri_day: 1
     importance: major
@@ -95,12 +136,25 @@ observances:
       in Ramadan (2:185). The month concludes with Eid al-Fitr on
       1 Shawwal. The last ten nights contain Laylat al-Qadr — a night
       better than a thousand months.
+    description_fr: |
+      Le mois de Ramadan commence avec l'observation du nouveau croissant
+      lunaire. Le jeûne, de l'aube (fajr) au coucher du soleil (maghrib),
+      est obligatoire pour tout musulman sain d'esprit, pubère, résident
+      et en bonne santé. Le Coran a été révélé en Ramadan (2:185). Le
+      mois se clôt par ʿĪd al-Fiṭr, le 1er Shawwāl. Les dix dernières
+      nuits abritent Laylat al-Qadr — une nuit meilleure que mille mois.
+    description_ar: |
+      يبتدئ شهر رمضان برؤية هلاله. والصيام من الفجر إلى المغرب فرضٌ
+      على كل مسلم عاقلٍ بالغٍ مقيمٍ صحيح. وفي رمضان أُنزل القرآن
+      (2:185)، ويُختم الشهر بعيد الفطر في الأول من شوال. وفي العشر
+      الأواخر منه ليلة القدر — ليلة خير من ألف شهر.
     quran_refs: "2:183-185"
     hadith_refs: Bukhari 38, Muslim 760
 
   - slug: laylat-al-qadr-window
     name_en: Laylat al-Qadr (window — last ten nights of Ramadan)
     name_ar: ليلة القدر
+    name_fr: Laylat al-Qadr (fenêtre — dix dernières nuits de Ramadan)
     hijri_month: 9
     hijri_day: 21
     window_days: 10
@@ -115,12 +169,32 @@ observances:
       would "tighten his waist-cloth, stay up at night, and wake up his
       family." The du'a of the night is: "Allahumma innaka 'afuwwun tuhibbu
       al-'afwa fa-'fu 'anni."
+    description_fr: |
+      La Nuit du Destin — « meilleure que mille mois » (Coran 97:3). Le
+      Prophète ﷺ a enseigné de la rechercher dans les nuits impaires des
+      dix dernières de Ramadan — la 21ᵉ, 23ᵉ, 25ᵉ, 27ᵉ ou 29ᵉ. Les savants
+      classiques ont privilégié la 27ᵉ comme la plus probable, mais elle
+      demeure cachée afin que les musulmans intensifient l'adoration sur
+      l'ensemble des dix nuits. Le Prophète ﷺ y faisait lui-même iʿtikāf,
+      et ʿĀʾisha رضي الله عنها rapporta qu'il « serrait sa ceinture,
+      veillait la nuit et réveillait sa famille ». La duʿāʾ de la nuit
+      est : « Allāhumma innaka ʿafuwwun tuḥibbu al-ʿafwa fa-ʿfu ʿannī ».
+    description_ar: |
+      ليلة القدر — « خير من ألف شهر » (القرآن 97:3). أرشد النبي ﷺ إلى
+      التماسها في الأوتار من العشر الأواخر من رمضان: ليلة الحادية
+      والعشرين، أو الثالثة والعشرين، أو الخامسة والعشرين، أو السابعة
+      والعشرين، أو التاسعة والعشرين. ورجّح كثير من العلماء كونها ليلة
+      السابع والعشرين، لكنها مخفيّة كي يجتهد المسلمون في العشر كلّها.
+      وكان النبي ﷺ يعتكف فيها، ورُوي عن عائشة رضي الله عنها أنه ﷺ كان
+      « إذا دخل العشرُ شدّ مئزرَه، وأحيا ليلَه، وأيقظ أهلَه ». ودعاء
+      هذه الليلة: « اللهم إنك عفوّ تحبّ العفو فاعفُ عني ».
     quran_refs: "97:1-5"
     hadith_refs: Bukhari 2017, Muslim 1174
 
   - slug: eid-al-fitr
     name_en: Eid al-Fitr — Festival of Breaking the Fast
     name_ar: عيد الفطر
+    name_fr: ʿĪd al-Fiṭr — fête de la rupture du jeûne
     hijri_month: 10
     hijri_day: 1
     importance: major
@@ -132,11 +206,29 @@ observances:
       an odd number of dates before leaving for prayer (Bukhari 953) and
       entering the Eid prayer from one route and returning by another
       (Bukhari 986), wearing one's best clothes.
+    description_fr: |
+      Le premier jour de Shawwāl, qui marque la fin du Ramadan. Les
+      musulmans se rassemblent pour la prière de l'Aïd, célèbrent,
+      offrent des cadeaux et rendent visite à leurs proches. La zakāt
+      al-Fiṭr — une petite aumône obligatoire — doit être versée avant
+      la prière. Le jeûne est interdit ce jour-là. Le Prophète ﷺ
+      encourageait à manger un nombre impair de dattes avant de se
+      rendre à la prière (Bukhārī 953) et à emprunter un chemin pour
+      aller à la prière et un autre pour en revenir (Bukhārī 986),
+      revêtu de ses plus beaux habits.
+    description_ar: |
+      أول أيام شوال، وعلامة انتهاء رمضان. يجتمع المسلمون لصلاة العيد،
+      ويفرحون، ويتبادلون الهدايا، ويصلون أرحامهم. وتجب زكاة الفطر —
+      وهي صدقة مالية يسيرة — قبل الصلاة. ويُحرَّم الصوم في هذا اليوم.
+      وكان النبي ﷺ يأكل تمرات وترًا قبل خروجه للصلاة (البخاري 953)،
+      ويذهب إلى المصلّى من طريقٍ ويرجع من آخر (البخاري 986)، لابسًا
+      أحسن ثيابه.
     hadith_refs: "Bukhari 953, Bukhari 986, Muslim 889"
 
   - slug: six-of-shawwal
     name_en: The Six Fasts of Shawwal
     name_ar: صيام ست من شوال
+    name_fr: Les six jours de Shawwāl
     hijri_month: 10
     hijri_day: 2
     window_days: 28
@@ -148,11 +240,27 @@ observances:
       ten (one good deed rewarded tenfold) plus six days of Shawwal
       multiplied by ten equals three hundred and sixty — a lunar year. The
       six may be consecutive or spaced across Shawwal.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Quiconque jeûne le Ramadan puis le fait
+      suivre de six jours de Shawwāl, c'est comme s'il avait jeûné
+      l'année entière. » Les savants ont expliqué cette équivalence :
+      trente jours de Ramadan multipliés par dix (chaque bonne action
+      étant récompensée au décuple) auxquels s'ajoutent six jours de
+      Shawwāl multipliés par dix donnent trois cent soixante — soit une
+      année lunaire. Les six jours peuvent être consécutifs ou répartis
+      dans tout le mois de Shawwāl.
+    description_ar: |
+      قال النبي ﷺ: « من صام رمضان ثم أتبعه ستًّا من شوال كان كصيام
+      الدهر ». وبيّن العلماء وجه التضعيف: ثلاثون يومًا من رمضان مضاعفةً
+      بعشرٍ (الحسنة بعشر أمثالها)، وستة أيام من شوال مضاعفةً بعشرٍ،
+      فالمجموع ثلاثمائة وستون — وهي السنة القمرية. ويجوز صومها متتابعةً
+      أو متفرّقة في شوال.
     hadith_refs: Muslim 1164
 
   - slug: first-ten-dhu-al-hijja
     name_en: The First Ten Days of Dhu al-Hijja
     name_ar: عشر ذي الحجة
+    name_fr: Les dix premiers jours de Dhū al-Ḥijja
     hijri_month: 12
     hijri_day: 1
     window_days: 10
@@ -164,12 +272,27 @@ observances:
       and increase good deeds. The ninth is the Day of 'Arafah and the
       tenth is Eid al-Adha. Pilgrims performing Hajj are at their peak of
       ritual during these days.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Il n'est aucun jour où les bonnes actions
+      soient plus aimées d'Allah que ces dix », en référence aux dix
+      premiers jours de Dhū al-Ḥijja. Il est recommandé aux musulmans
+      de jeûner, de réciter le takbīr et d'augmenter les bonnes œuvres.
+      Le neuvième est le Jour de ʿArafah, et le dixième est ʿĪd al-Aḍḥā.
+      Les pèlerins qui accomplissent le Hajj sont à l'apogée de leurs
+      rites pendant ces journées.
+    description_ar: |
+      قال النبي ﷺ: « ما من أيام العمل الصالح فيهنّ أحبّ إلى الله من
+      هذه الأيام العشر » — يعني العشر الأوَل من ذي الحجة. ويُستحبّ
+      للمسلم أن يصوم ويُكثر من التكبير ومن أعمال الخير. واليوم التاسع
+      منها هو يوم عرفة، والعاشر هو عيد الأضحى. ويبلغ الحجاج في هذه
+      الأيام ذروة مناسكهم.
     quran_refs: "89:1-2"
     hadith_refs: Bukhari 969
 
   - slug: arafah
     name_en: Day of 'Arafah
     name_ar: يوم عرفة
+    name_fr: Jour de ʿArafah
     hijri_month: 12
     hijri_day: 9
     importance: major
@@ -182,12 +305,31 @@ observances:
       the sins of the year past and the year to come. It was on this day,
       during the Farewell Pilgrimage, that Surah al-Ma'ida 5:3 was
       revealed — "This day I have perfected your religion for you."
+    description_fr: |
+      Le neuvième jour de Dhū al-Ḥijja — le jour central du Hajj, durant
+      lequel les pèlerins se tiennent dans la plaine de ʿArafāt depuis
+      midi jusqu'au coucher du soleil. Le Prophète ﷺ a dit : « Le Hajj,
+      c'est ʿArafah » — quiconque manque la station a manqué le Hajj.
+      Pour les musulmans qui n'accomplissent pas le pèlerinage, jeûner
+      ce jour est une sunna fortement recommandée : le Prophète ﷺ a dit
+      que ce jeûne expie les péchés de l'année écoulée et de l'année à
+      venir. C'est en ce jour, lors du Pèlerinage d'Adieu, que la sourate
+      al-Māʾida 5:3 a été révélée — « Aujourd'hui, J'ai parachevé pour
+      vous votre religion ».
+    description_ar: |
+      اليوم التاسع من ذي الحجة — وهو الركن الأعظم من أركان الحج، يقف
+      فيه الحجاج بصعيد عرفات من الزوال إلى غروب الشمس. وقال النبي ﷺ:
+      « الحجّ عرفة » — من فاته الوقوف فقد فاته الحج. أما لغير الحاج
+      فصيام هذا اليوم سنّةٌ مؤكَّدة، قال فيها النبي ﷺ إنها تكفّر ذنوب
+      السنة الماضية والآتية. وفيه — في حجّة الوداع — نزلت آية المائدة
+      5:3: « اليوم أكملت لكم دينكم ».
     quran_refs: "5:3"
     hadith_refs: Muslim 1162, Tirmidhi 889
 
   - slug: eid-al-adha
     name_en: Eid al-Adha — Festival of the Sacrifice
     name_ar: عيد الأضحى
+    name_fr: ʿĪd al-Aḍḥā — fête du sacrifice
     hijri_month: 12
     hijri_day: 10
     importance: major
@@ -199,12 +341,30 @@ observances:
       (qurbani/udhiya) if able, and distribute the meat in thirds —
       household, relatives/friends, and poor. Pilgrims at Mina throw their
       first stones at the Jamarat and cut or shave their hair on this day.
+    description_fr: |
+      Le dixième jour de Dhū al-Ḥijja, la plus grande des deux fêtes
+      musulmanes. Elle commémore la disposition d'Ibrāhīm ﷺ à sacrifier
+      son fils Ismāʿīl ﷺ par obéissance à Allah, et le rachat du fils
+      par Allah au moyen d'un grand sacrifice. Les musulmans accomplissent
+      la prière de l'Aïd, immolent une bête (qurbān/uḍḥiya) s'ils en ont
+      les moyens, et distribuent la viande en trois parts — pour la
+      maisonnée, pour la parenté et les amis, et pour les pauvres. À
+      Minā, les pèlerins lancent ce jour-là leurs premières pierres aux
+      jamarāt et se coupent ou se rasent les cheveux.
+    description_ar: |
+      اليوم العاشر من ذي الحجة، وهو أعظم العيدين عند المسلمين. يُحيي
+      المسلمون فيه ذكرى إقدام إبراهيم ﷺ على ذبح ابنه إسماعيل ﷺ طاعةً
+      لله، وفداء الله إياه بذبح عظيم. ويصلّي المسلمون صلاة العيد، ومن
+      استطاع منهم نحر الأضحية وزّع لحمها أثلاثًا: ثلثٌ للأهل، وثلثٌ
+      للأقارب والأصدقاء، وثلثٌ للفقراء. ويرمي الحجاج بمنى في هذا اليوم
+      جمرةَ العقبة، ثم يحلقون أو يقصّرون.
     quran_refs: "37:100-111, 22:28"
     hadith_refs: Bukhari 5545, Muslim 1960
 
   - slug: tashriq
     name_en: Days of Tashriq (11, 12, 13 Dhu al-Hijja)
     name_ar: أيام التشريق
+    name_fr: Jours de Tashrīq (11, 12, 13 Dhū al-Ḥijja)
     hijri_month: 12
     hijri_day: 11
     window_days: 3
@@ -216,4 +376,16 @@ observances:
       complete the stoning of the Jamarat and perform the farewell tawaf.
       Fasting on these days is prohibited for those not performing Hajj
       tamattu' without a hady.
+    description_fr: |
+      Les trois jours qui suivent ʿĪd al-Aḍḥā — des jours de nourriture,
+      de boisson et de rappel d'Allah. Le Prophète ﷺ a dit : « Les jours
+      de Tashrīq sont des jours de nourriture, de boisson et de rappel
+      d'Allah. » Les pèlerins achèvent la lapidation des jamarāt et
+      accomplissent le ṭawāf d'adieu. Le jeûne durant ces jours est
+      interdit pour qui n'accomplit pas le Hajj tamattuʿ sans hady.
+    description_ar: |
+      الأيام الثلاثة التي تلي عيد الأضحى — أيام أكل وشرب وذكر لله. قال
+      النبي ﷺ: « أيام التشريق أيام أكل وشرب وذكر لله ». ويُتم الحجاج
+      فيها رمي الجمرات ويأتون بطواف الوداع. ويُحرَّم صيامها على غير
+      الحاج المتمتّع الذي لم يجد الهدي.
     hadith_refs: Muslim 1141
