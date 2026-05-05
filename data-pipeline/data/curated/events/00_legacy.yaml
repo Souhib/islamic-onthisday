@@ -16,6 +16,7 @@ events:
     category: prophetic_era
     title_en: The Hijra — Entry of the Prophet ﷺ into Madinah
     title_ar: الهجرة النبوية - دخول المدينة
+    title_fr: La Hijra — entrée du Prophète ﷺ à Médine
     description_en: |
       After leaving Mecca with Abu Bakr as-Siddiq and three days hidden in the
       Cave of Thawr, the Prophet Muhammad ﷺ arrived at Quba on the outskirts of
@@ -27,6 +28,28 @@ events:
       retroactively by Caliph 'Umar ibn al-Khattab in 17 AH on the preceding
       1 Muharram (the conventional epoch — not the actual day of departure or
       arrival).
+    description_fr: |
+      Après avoir quitté La Mecque avec Abū Bakr al-Ṣiddīq et trois jours
+      cachés dans la grotte de Thawr, le Prophète Muḥammad ﷺ arriva à
+      Qubā à la périphérie de Médine le lundi 8 Rabīʿ al-Awwal (~17
+      septembre 622 EC). Il y séjourna quatre jours et fonda la mosquée
+      de Qubā — la première mosquée de l'Islam — puis entra à Médine
+      même le vendredi 12 Rabīʿ al-Awwal (~24 septembre 622 EC), priant
+      la première Jumuʿa en chemin dans la vallée des Banū Sālim. La
+      Hijra marque le point de départ du calendrier islamique, fixé
+      rétroactivement par le calife ʿUmar ibn al-Khaṭṭāb en 17 H au
+      1ᵉʳ Muḥarram précédent (l'époque conventionnelle — non le jour
+      réel du départ ou de l'arrivée).
+    description_ar: |
+      بعد خروجه من مكَّة مع أبي بكر الصدِّيق ومُكثه ثلاثة أيَّامٍ في غار
+      ثَور، وصل النبي ﷺ إلى قُباءَ على مشارف المدينة يوم الاثنين 8 من
+      ربيع الأوَّل (نحو 17 سبتمبر 622م). أقام بها أربعة أيَّامٍ وأَسَّس
+      مسجد قباءَ — أوَّلَ مسجدٍ في الإسلام — ثم دخل المدينةَ نفسَها
+      يوم الجمعة 12 من ربيع الأوَّل (نحو 24 سبتمبر 622م)، فصلَّى أوَّلَ
+      جمعةٍ في الطريق بوادي بني سالم. والهجرةُ هي مبدأُ التاريخ الهجري،
+      ضبطه عمرُ بنُ الخطَّاب رضي الله عنه سنة 17هـ من غُرَّة المحرَّم
+      السابق (وهو الموعدُ الاصطلاحيُّ، لا اليومُ الفعليُّ للخروج أو
+      الوصول).
     canonical_hijri: {year: 1, month: 3, day: 12, precision: day}
     canonical_gregorian: {date: 622-09-24, precision: day, method: attested}
     claims:
@@ -49,12 +72,25 @@ events:
     category: battle
     title_en: Battle of Badr
     title_ar: غزوة بدر الكبرى
+    title_fr: Bataille de Badr
     description_en: |
       The first major military engagement between the Muslims of Madinah and the
       Quraysh of Makkah. Around 313 Muslims defeated approximately 1,000 Quraysh
       warriors at the wells of Badr. The Qur'an calls it "the day of criterion"
       (Yawm al-Furqan) — Surah al-Anfal was revealed about this battle.
       Traditional Hijri date is 17 Ramadan 2 AH.
+    description_fr: |
+      Le premier engagement militaire majeur entre les musulmans de
+      Médine et les Quraysh de La Mecque. Environ 313 musulmans
+      vainquirent près de 1 000 guerriers qurayshites aux puits de
+      Badr. Le Coran l'appelle « le jour du Critère » (Yawm al-Furqān) —
+      la sourate al-Anfāl fut révélée à propos de cette bataille. La
+      date hégirienne traditionnelle est le 17 Ramadan 2 H.
+    description_ar: |
+      أوَّل مواجهةٍ عسكريَّةٍ كبرى بين مسلمي المدينة وقريشِ مكَّة. هزم
+      نحو 313 مسلمًا قرابةَ ألف مقاتلٍ من قريشٍ عند آبار بدر. سَمَّاها
+      القرآن «يومَ الفُرقان»، ونزلت فيها سورةُ الأنفال. والتاريخ الهجري
+      المتعارف عليه هو 17 رمضان 2هـ.
     canonical_hijri: {year: 2, month: 9, day: 17, precision: day}
     canonical_gregorian: {date: 624-03-13, precision: day, method: attested}
     claims:
@@ -74,12 +110,25 @@ events:
     category: battle
     title_en: Battle of Uhud
     title_ar: غزوة أحد
+    title_fr: Bataille de Uḥud
     description_en: |
       The second major battle between the Muslims and Quraysh, fought at Mount Uhud
       north of Madinah. Hamza ibn Abd al-Muttalib was martyred in this battle along
       with 70 other companions. The battle became a severe trial after archers
       abandoned their posts against the Prophet's ﷺ instruction. Surah Aal Imran
       3:121-179 addresses this event.
+    description_fr: |
+      La deuxième grande bataille entre les musulmans et les Quraysh,
+      livrée au mont Uḥud au nord de Médine. Ḥamza ibn ʿAbd al-Muṭṭalib
+      y fut martyrisé avec 70 autres compagnons. La bataille devint une
+      épreuve sévère après que les archers eurent abandonné leurs
+      postes contre l'ordre du Prophète ﷺ. La sourate Āl ʿImrān 3:121-179
+      traite de cet événement.
+    description_ar: |
+      ثاني المعارك الكبرى بين المسلمين وقريشٍ، وقعت عند جبل أُحدٍ شمال
+      المدينة. استُشهد فيها حمزةُ بنُ عبد المطَّلب رضي الله عنه ومعه
+      نحو سبعين من الصحابة. وصارت ابتلاءً شديدًا بعد أن ترك الرُّماة
+      مواقعَهم خلافًا لأمر النبي ﷺ. وفي آل عمران 121-179 الحديثُ عنها.
     canonical_hijri: {year: 3, month: 10, day: 7, precision: day}
     canonical_gregorian: {date: 625-03-23, precision: day, method: attested}
     claims:
@@ -98,6 +147,7 @@ events:
     category: battle
     title_en: Battle of the Trench (al-Khandaq / al-Ahzab)
     title_ar: غزوة الخندق
+    title_fr: Bataille du Fossé (al-Khandaq / al-Aḥzāb)
     description_en: |
       A coalition of Quraysh, Jewish tribes and allied clans besieged Madinah.
       Salman al-Farisi proposed digging a trench (khandaq) around the exposed
@@ -105,6 +155,19 @@ events:
       coalition's cavalry advantage. After a month-long siege, a storm and
       internal divisions broke the coalition. Surah al-Ahzab was revealed about
       this battle.
+    description_fr: |
+      Une coalition de Quraysh, de tribus juives et de clans alliés
+      assiégea Médine. Salmān al-Fārisī proposa de creuser un fossé
+      (khandaq) sur le côté nord exposé de la ville — technique
+      perse inédite qui neutralisa la cavalerie qurayshite. Le siège
+      dura environ vingt-sept jours puis se dispersa après une
+      tempête. La sourate al-Aḥzāb 33 traite de cet événement.
+    description_ar: |
+      تحالفت قريشٌ وقبائلُ يهوديَّةٌ وأحلافٌ على حصار المدينة. فأشار
+      سلمانُ الفارسيُّ بحفر خندقٍ على الجانب الشَّمالي المكشوف من
+      المدينة — أسلوبٌ فارسيٌّ جديدٌ شَلَّ خيلَ قريشٍ. ودام الحصارُ
+      نحو سبعةٍ وعشرين يومًا، ثم تَفَرَّق الأحزابُ بعد عاصفةٍ. ونزلت
+      فيها سورة الأحزاب.
     canonical_hijri: {year: 5, month: 10, precision: month}
     canonical_gregorian: {date: 627-03-15, precision: month, method: attested}
     claims:
@@ -122,12 +185,26 @@ events:
     category: treaty
     title_en: Treaty of al-Hudaybiyyah
     title_ar: صلح الحديبية
+    title_fr: Traité d'al-Ḥudaybiyya
     description_en: |
       A 10-year armistice between the Prophet ﷺ and the Quraysh of Makkah, signed
       at al-Hudaybiyyah near the outskirts of the Haram. Though appearing
       disadvantageous at first, it marked what the Qur'an called "a clear victory"
       (Fath Mubin) — Surah al-Fath was revealed about it. Within two years the
       conquest of Makkah would follow.
+    description_fr: |
+      Une trêve de dix ans entre le Prophète ﷺ et les Quraysh de La
+      Mecque, signée à al-Ḥudaybiyya près des limites du Ḥaram. Bien
+      qu'apparaissant désavantageuse au début, elle marqua ce que le
+      Coran appelle « la victoire manifeste » (al-Fatḥ al-Mubīn) :
+      elle ouvrit la voie à la propagation pacifique de l'Islam et
+      à la conquête de La Mecque deux ans plus tard. Sourate al-Fatḥ
+      fut révélée à son sujet.
+    description_ar: |
+      هُدنةٌ لعشر سنواتٍ بين النبي ﷺ وقريشٍ مكَّة، أُبرمت بالحديبيَّة
+      على مشارف الحرم. وإن بدت لكثيرٍ من المسلمين مُجحفةً، فقد دعاها
+      القرآنُ «الفتح المبين»: مهَّدت لانتشار الإسلام السِّلميِّ، ولفتح
+      مكَّة بعد سنتين. ونزلت فيها سورة الفتح.
     canonical_hijri: {year: 6, month: 11, precision: month}
     canonical_gregorian: {date: 628-03-15, precision: month, method: attested}
     claims:
@@ -144,6 +221,7 @@ events:
     category: conquest
     title_en: Conquest of Makkah (Fath Makkah)
     title_ar: فتح مكة
+    title_fr: Conquête de La Mecque (Fatḥ Makka)
     description_en: |
       After Quraysh violated the treaty of Hudaybiyyah, the Prophet ﷺ
       marched to Makkah with approximately 10,000 companions and entered
@@ -156,6 +234,20 @@ events:
       ~16 Ramadan) points to 18-19 Ramadan; the popular celebration date
       is 20 Ramadan. We retain Ramadan 8 AH at month-precision since the
       day is genuinely contested.
+    description_fr: |
+      Après que les Quraysh eurent violé le traité d'al-Ḥudaybiyya, le
+      Prophète ﷺ marcha sur La Mecque avec environ 10 000 compagnons
+      et entra dans la cité avec un minimum d'effusion de sang. Il
+      proclama une amnistie générale, en pardonnant même à ses
+      anciens ennemis les plus farouches. Les 360 idoles du Ḥaram
+      furent détruites et la Kaʿba purifiée. Surat al-Naṣr aurait été
+      révélée à cet événement.
+    description_ar: |
+      بعد نقض قريشٍ لصلح الحديبية، سار النبي ﷺ إلى مكَّة في نحو عشرة
+      آلاف صحابيٍّ، فدخلها بأقلِّ قدرٍ ممكنٍ من القتال. أعلن العفوَ
+      العامَّ شاملًا أَلَدَّ خصومه، وحُطِّمت الأصنامُ الستُّون وثلاثُ
+      مئةٍ التي حول الكعبة، فطُهِّر الحرمُ. ويُروى نزولُ سورة النصر
+      في هذا الفتح.
     canonical_hijri: {year: 8, month: 9, precision: month}
     canonical_gregorian: {date: 630-01-15, precision: month, method: attested}
     claims:
@@ -176,6 +268,7 @@ events:
     category: prophetic_era
     title_en: The Farewell Pilgrimage (Hajjat al-Wada')
     title_ar: حجة الوداع
+    title_fr: Le Pèlerinage d'adieu (Ḥajjat al-Wadāʿ)
     description_en: |
       The Prophet's ﷺ only and final Hajj, during which he delivered the Farewell
       Sermon at Arafat on 9 Dhu al-Hijjah. The sermon proclaimed the sanctity of
@@ -183,6 +276,20 @@ events:
       usury; the rights of women; and the equality of Arab and non-Arab. Surah
       al-Ma'ida 5:3 was revealed on that day: "This day I have perfected your
       religion for you."
+    description_fr: |
+      Le seul et dernier Ḥajj du Prophète ﷺ, durant lequel il prononça
+      le Sermon d'adieu à ʿArafāt le 9 Dhū al-Ḥijja. Le sermon
+      proclama la sainteté de la vie, des biens et de l'honneur ;
+      l'abolition des distinctions tribales préislamiques ; l'égalité
+      entre Arabes et non-Arabes ; et les droits des femmes. Sourate
+      al-Māʾida 5:3 — « Aujourd'hui J'ai parachevé pour vous votre
+      religion » — fut révélée durant la halte à ʿArafāt.
+    description_ar: |
+      حجَّةُ النبي ﷺ الوحيدةُ والأخيرة، وفيها ألقى خطبةَ الوداع بعرفةَ
+      في التاسع من ذي الحجَّة. أعلن في خطبته حرمةَ الدماء والأموال
+      والأعراض، وألغى تفاخراتِ الجاهليَّة، وقرَّر المساواة بين العرب
+      والعجم، وأكَّد حقوقَ النساء. ونزلت في الموقف بعرفةَ آيةُ
+      المائدة 3:5: «اليوم أكملتُ لكم دينَكم».
     canonical_hijri: {year: 10, month: 12, day: 9, precision: day}
     canonical_gregorian: {date: 632-03-06, precision: day, method: attested}
     claims:
@@ -200,6 +307,7 @@ events:
     category: prophetic_era
     title_en: Passing of the Prophet Muhammad ﷺ
     title_ar: وفاة النبي ﷺ
+    title_fr: Le décès du Prophète Muḥammad ﷺ
     description_en: |
       The Prophet ﷺ passed away in Madinah in the house of Aisha ra, approximately
       three months after the Farewell Pilgrimage. Classical sources record three
@@ -207,6 +315,22 @@ events:
       Ibn Ishaq, Ibn Sa'd, al-Dhahabi), the 2nd (supported by al-Suhayli and Ibn
       Hajar on astronomical grounds), and the 1st (Ibn Kalbi). The Monday of his
       passing is universally attested.
+    description_fr: |
+      Le Prophète ﷺ mourut à Médine dans la maison de ʿĀʾisha (qu'Allah
+      l'agrée), environ trois mois après le Pèlerinage d'adieu. Les
+      sources classiques rapportent trois jours différents de Rabīʿ
+      al-Awwal 11 H — le 12, le 1ᵉʳ ou le 2 — comme date de sa mort.
+      Il fut enterré sous le sol de la chambre où il rendit l'âme,
+      lieu qui fait aujourd'hui partie de la Mosquée du Prophète. Abū
+      Bakr al-Ṣiddīq fut élu calife le même jour à Saqīfat Banī
+      Sāʿida.
+    description_ar: |
+      تُوفِّي النبي ﷺ بالمدينة في بيت عائشةَ رضي الله عنها بعد نحو
+      ثلاثة أشهرٍ من حجَّة الوداع. وذكرت المصادر الكبرى ثلاثة أيَّامٍ
+      في ربيع الأوَّل من سنة 11هـ — الثاني عشر، أو الأوَّل، أو
+      الثاني — تاريخًا للوفاة. ودُفن تحت أرض الحجرة التي مات فيها،
+      وهي اليوم ضمن المسجد النبويِّ. وانتُخب أبو بكرٍ الصدِّيقُ خليفةً
+      في اليوم نفسه بسقيفة بني ساعدةَ.
     canonical_hijri: {year: 11, month: 3, day: 12, precision: day}
     canonical_gregorian: {date: 632-06-08, precision: day, method: attested}
     claims:
@@ -233,6 +357,7 @@ events:
     category: rashidun
     title_en: Death of Abu Bakr as-Siddiq
     title_ar: وفاة أبي بكر الصديق
+    title_fr: Décès d'Abū Bakr al-Ṣiddīq
     description_en: |
       The first caliph and closest companion of the Prophet ﷺ passed away in
       Madinah at age 63 after a brief illness. His two-year caliphate saw the
@@ -240,6 +365,18 @@ events:
       conquest of the Sasanian and Byzantine territories, and the first
       compilation of the Qur'an into a single mushaf under his direction.
       He was buried beside the Prophet ﷺ in the Rawda.
+    description_fr: |
+      Le premier calife et compagnon le plus proche du Prophète ﷺ
+      mourut à Médine à l'âge de 63 ans après une brève maladie. Son
+      califat de deux ans vit la conclusion victorieuse des guerres
+      de Ridda, le début de l'expansion en Syrie et en Iraq, et la
+      première compilation du Coran. Il fut enterré près du Prophète
+      ﷺ.
+    description_ar: |
+      تُوفِّي أبو بكرٍ الصدِّيقُ — أوَّل الخلفاء وأقرب أصحاب النبي ﷺ —
+      بالمدينة عن ثلاثٍ وستين سنةً بعد مرضٍ يسير. وقد شَهِد عهدُه
+      القصيرُ (سنتان) خاتمةَ حروب الردَّة، وبدايةَ الفتوح في الشام
+      والعراق، وجمعَ القرآن في المصحف الأوَّل. ودُفن إلى جوار النبي ﷺ.
     canonical_hijri: {year: 13, month: 6, day: 22, precision: day}
     canonical_gregorian: {date: 634-08-23, precision: day, method: attested}
     claims:
@@ -255,6 +392,7 @@ events:
     category: conquest
     title_en: Conquest of Jerusalem by Caliph Umar
     title_ar: فتح القدس
+    title_fr: Conquête de Jérusalem par le calife ʿUmar
     description_en: |
       Caliph Umar ibn al-Khattab entered Jerusalem (Iliya/Aelia) personally
       after a peaceful surrender negotiated with Patriarch Sophronius. Umar's
@@ -262,6 +400,21 @@ events:
       lives, churches, and property. He prayed at the Aqsa precinct, and notably
       refused to pray inside the Church of the Holy Sepulchre so that later
       Muslims would not convert it into a mosque.
+    description_fr: |
+      Le calife ʿUmar ibn al-Khaṭṭāb entra personnellement à Jérusalem
+      (Iliyāʾ / Aelia) après une reddition pacifique négociée avec le
+      patriarche Sophrone. Le pacte de ʿUmar (al-ʿUhda al-ʿUmariyya)
+      garantissait aux chrétiens la sécurité de leurs personnes,
+      biens et lieux de culte. Le calife refusa de prier dans
+      l'église du Saint-Sépulcre par crainte qu'elle ne soit ensuite
+      convertie en mosquée — geste préservant le lieu de culte
+      chrétien.
+    description_ar: |
+      دخل الخليفة عمر بن الخطَّاب القدسَ (إيلياء) بنفسه بعد تسليمٍ
+      سلميٍّ تفاوض عليه البطريرك صَفرونيوس. وضمنت العهدة العمريَّة
+      للنصارى أنفسَهم وأموالَهم وكنائسَهم. وقد أبى عمرُ أن يصلِّيَ في
+      كنيسة القيامة خشيةَ أن تُحوَّل بعده مسجدًا، حفاظًا على المعبد
+      النصرانيِّ.
     canonical_hijri: {year: 16, month: 4, precision: month}
     canonical_gregorian: {date: 637-04-15, precision: month, method: attested}
     claims:
@@ -276,12 +429,26 @@ events:
     category: battle
     title_en: Battle of Yarmouk
     title_ar: معركة اليرموك
+    title_fr: Bataille du Yarmūk
     description_en: |
       The decisive six-day battle between the Muslim army under Khalid ibn
       al-Walid and the Byzantine forces of Emperor Heraclius, fought along the
       Yarmouk river (modern Syria-Jordan border). The Muslim victory effectively
       ended Byzantine rule over the Levant, opening the region to Islam within
       a few years.
+    description_fr: |
+      Bataille décisive de six jours entre l'armée musulmane sous
+      Khālid ibn al-Walīd et les forces byzantines de l'empereur
+      Héraclius, livrée le long de la rivière Yarmūk (frontière
+      syro-jordanienne actuelle). La victoire musulmane brisa
+      irréversiblement la puissance byzantine au Levant et ouvrit la
+      voie à la conquête de la Syrie, de la Palestine et de l'Égypte.
+    description_ar: |
+      معركةٌ فاصلةٌ دامت ستَّة أيَّامٍ بين الجيش الإسلامي بقيادة خالد
+      بن الوليد والجيش البيزنطيِّ تحت الإمبراطور هرقل، على ضفاف نهر
+      اليرموك (الحدود السوريَّة-الأردنيَّة اليوم). كَسَر النصرُ
+      الإسلاميُّ القوَّةَ البيزنطيَّة في بلاد الشام كسرًا لا رَجعةَ
+      فيه، وفُتحت الطريقُ أمام فتح الشام وفلسطين ومصر.
     canonical_hijri: {year: 15, month: 5, precision: month}
     canonical_gregorian: {date: 636-08-20, precision: day, method: attested}
     claims:
@@ -297,11 +464,25 @@ events:
     category: battle
     title_en: Battle of al-Qadisiyyah
     title_ar: معركة القادسية
+    title_fr: Bataille d'al-Qādisiyya
     description_en: |
       The decisive battle between the Muslim army under Sa'd ibn Abi Waqqas and
       the Sasanian Persian forces led by Rustam Farrukhzad. The four-day battle
       broke the military backbone of the Sasanian Empire, opening Iraq and
       subsequently Iran to Islam. Traditionally dated to late 15 AH or early 16 AH.
+    description_fr: |
+      Bataille décisive entre l'armée musulmane sous Saʿd ibn Abī
+      Waqqāṣ et les forces sassanides perses commandées par Rustam
+      Farrukhzād. La bataille de quatre jours brisa l'épine
+      dorsale militaire de l'empire sassanide ; les Perses se
+      retirèrent vers Ctésiphon, qui tomba peu après. La victoire
+      ouvrit l'Iraq et l'Iran à l'Islam.
+    description_ar: |
+      معركةٌ فاصلةٌ بين الجيش الإسلامي بقيادة سعد بن أبي وقَّاص والجيش
+      السَّاسانيِّ الفارسيِّ تحت رستم فرُّخْزاد. كسرت معركةُ الأيَّام
+      الأربعة العمودَ الفقريَّ العسكريَّ للإمبراطوريَّة الساسانيَّة،
+      فانكفأ الفُرسُ إلى المدائن (طيسفون) التي سقطت قريبًا بعدها.
+      وفتح هذا النصرُ العراقَ وفارسَ أمام الإسلام.
     canonical_hijri: {year: 15, precision: year}
     canonical_gregorian: {date: 636-11-16, precision: year, method: attested}
     claims:
@@ -314,6 +495,7 @@ events:
     category: rashidun
     title_en: Martyrdom of Caliph Umar ibn al-Khattab
     title_ar: استشهاد عمر بن الخطاب
+    title_fr: Martyre du calife ʿUmar ibn al-Khaṭṭāb
     description_en: |
       The second caliph was stabbed during the Fajr prayer in the Prophet's ﷺ
       mosque in Madinah by Abu Lu'lu'a al-Majusi, a Persian slave bearing a
@@ -321,6 +503,22 @@ events:
       committee (shura) of six senior Companions to choose his successor. Under
       his ten-year caliphate, the Islamic state expanded to include all of
       Arabia, the Levant, Egypt, Iraq, and much of Persia.
+    description_fr: |
+      Le deuxième calife fut poignardé pendant la prière du Fajr
+      dans la mosquée du Prophète ﷺ à Médine par Abū Luʾluʾa
+      al-Majūsī, esclave perse porteur d'un grief personnel. Il
+      mourut trois jours plus tard après avoir nommé un conseil de
+      six (la shūrā) pour choisir son successeur. Son califat de
+      dix ans avait vu la conquête de la Syrie, de la Palestine, de
+      l'Iraq, de l'Iran et de l'Égypte, et la mise en place de
+      l'administration islamique.
+    description_ar: |
+      طُعن الخليفةُ الثاني في صلاة الفجر بمسجد النبي ﷺ بالمدينة على
+      يد أبي لؤلؤة المجوسيِّ، وكان عبدًا فارسيًّا حاملًا ضغينةً.
+      تُوفِّي بعد ثلاثة أيَّامٍ بعد أن جعل الأمر شُورى بين ستَّةٍ من
+      الصحابة. وقد رأت خلافتُه التي امتدَّت عشرَ سنواتٍ فتحَ الشام
+      وفلسطين والعراق وفارس ومصر، وتأسيس النِّظام الإداريِّ
+      الإسلاميِّ.
     canonical_hijri: {year: 23, month: 12, day: 26, precision: day}
     canonical_gregorian: {date: 644-11-03, precision: day, method: attested}
     claims:
@@ -337,6 +535,7 @@ events:
     category: rashidun
     title_en: Martyrdom of Caliph Uthman ibn Affan
     title_ar: استشهاد عثمان بن عفان
+    title_fr: Martyre du calife ʿUthmān ibn ʿAffān
     description_en: |
       The third caliph was killed in his own home in Madinah by rebels who had
       besieged him for weeks. He was reading the Qur'an at the moment of his
@@ -344,6 +543,22 @@ events:
       (2:137) "Allah will suffice you against them." His caliphate produced the
       standardized Uthmanic codex of the Qur'an (mushaf), which remains the
       textual basis of all printed Qur'ans.
+    description_fr: |
+      Le troisième calife fut tué dans sa propre maison à Médine par
+      des rebelles qui l'avaient assiégé pendant des semaines. Il
+      lisait le Coran au moment de sa mort, et des gouttes de son
+      sang tomberaient sur le verset (2:137) : « Allah te suffira
+      contre eux. » Son meurtre déclencha la Première Fitna et la
+      période d'instabilité qui s'ensuivit. Sous son califat, le
+      muṣḥaf ʿuthmānien fut standardisé et envoyé aux principales
+      villes.
+    description_ar: |
+      قُتل الخليفةُ الثالثُ في بيته بالمدينة على أيدي الثُّوَّار الذين
+      حاصروه أسابيعَ. كان يقرأ القرآنَ حين قُتل، ويُروى أنَّ قطراتٍ
+      من دمه سقطت على الآية: «فسيكفيكهم الله» (البقرة 137:2). وأفضى
+      اغتياله إلى الفتنة الكبرى الأولى وما تلاها من اضطرابٍ. وفي
+      خلافته جُمع الناسُ على المصحف العثماني، فأُرسلت نُسَخُه إلى
+      الأمصار.
     canonical_hijri: {year: 35, month: 12, day: 18, precision: day}
     canonical_gregorian: {date: 656-06-17, precision: day, method: attested}
     claims:
@@ -358,12 +573,28 @@ events:
     category: rashidun
     title_en: Martyrdom of Caliph Ali ibn Abi Talib
     title_ar: استشهاد علي بن أبي طالب
+    title_fr: Martyre du calife ʿAlī ibn Abī Ṭālib
     description_en: |
       The fourth caliph was struck with a poisoned sword by the Khariji
       assassin Ibn Muljam while entering the Grand Mosque of Kufa for the
       Fajr prayer. He died two days later. His caliphate saw the first civil
       war (fitna) including the Battle of the Camel and the Battle of Siffin
       against Mu'awiya. He is buried in Najaf.
+    description_fr: |
+      Le quatrième calife fut frappé d'un sabre empoisonné par
+      l'assassin khārijite Ibn Muljam alors qu'il entrait dans la
+      Grande Mosquée de Kūfa pour la prière du Fajr. Il mourut deux
+      jours plus tard. Son califat avait connu la première guerre
+      civile de l'Islam — la bataille du Chameau et celle de Ṣiffīn —
+      et l'apparition des Khārijites. Avec sa mort prit fin la
+      période des Khulafāʾ al-Rāshidūn ; le califat passa à Muʿāwiya
+      et le centre de gravité politique se déplaça à Damas.
+    description_ar: |
+      ضُرب الخليفةُ الرابعُ بسيفٍ مسمومٍ على يد الخارجيِّ ابن مُلجَمٍ
+      وهو داخلٌ المسجدَ الجامعَ بالكوفة لصلاة الفجر. تُوفِّي بعد
+      يومين. وقد عَرَفَت خلافتُه أُولى الفتن — معركةَ الجمل وصفِّين —
+      وظهورَ الخوارج. وبموته انتهى عهدُ الخلفاء الراشدين؛ وانتقلت
+      الخلافةُ إلى معاوية، وانتقل ثقلُ السياسة إلى دمشقَ.
     canonical_hijri: {year: 40, month: 9, day: 21, precision: day}
     canonical_gregorian: {date: 661-01-28, precision: day, method: attested}
     claims:
@@ -378,12 +609,29 @@ events:
     category: battle
     title_en: Battle of the Camel (Jamal)
     title_ar: معركة الجمل
+    title_fr: Bataille du Chameau (al-Jamal)
     description_en: |
       The first battle of the First Fitna, fought outside Basra between the
       forces of Caliph Ali and a coalition led by Aisha, Talha, and al-Zubayr
       who demanded retribution for the assassination of Uthman. The battle was
       named for the camel upon which Aisha observed the fighting. Ali's
       victory consolidated his caliphate but the civil wars would continue.
+    description_fr: |
+      Première bataille de la Première Fitna, livrée à l'extérieur de
+      Baṣra entre les forces du calife ʿAlī et une coalition dirigée
+      par ʿĀʾisha, Ṭalḥa et al-Zubayr qui réclamaient justice pour
+      l'assassinat de ʿUthmān. La bataille tira son nom du chameau
+      monté par ʿĀʾisha au centre du champ. Ṭalḥa et al-Zubayr
+      tombèrent ; ʿĀʾisha fut traitée avec respect et raccompagnée
+      à Médine. Les sources sunnites considèrent l'épisode comme
+      une tragédie sans qualifier les protagonistes.
+    description_ar: |
+      أوَّل معارك الفتنة الكبرى الأولى، وقعت قرب البصرة بين جند
+      الخليفة عليٍّ وتحالفٍ بقيادة عائشةَ وطلحةَ والزبير، مطالبين
+      بالقصاص من قَتَلَة عثمانَ. سُمِّيت بذلك لجَمَل عائشةَ في وسط
+      المعركة. قُتل طلحةُ والزبيرُ، وأُكرمت أمُّ المؤمنين عائشةُ
+      ورُدَّت إلى المدينة. وتعدُّ المصادر السنيَّة هذه الحادثة
+      مأساةً، دون تجريح الأعلام فيها.
     canonical_hijri: {year: 36, month: 6, day: 10, precision: day}
     canonical_gregorian: {date: 656-12-08, precision: day, method: attested}
     claims:
@@ -401,6 +649,7 @@ events:
     category: umayyad
     title_en: Battle of Karbala — Martyrdom of al-Husayn ibn Ali
     title_ar: كربلاء - استشهاد الإمام الحسين
+    title_fr: Bataille de Karbalāʾ — Martyre d'al-Ḥusayn ibn ʿAlī
     description_en: |
       al-Husayn ibn Ali, grandson of the Prophet ﷺ, was killed along with 72
       companions and family members on the plain of Karbala by forces loyal to
@@ -408,6 +657,22 @@ events:
       Damascus. The day, 10 Muharram (Ashura), remains one of the most
       commemorated dates in Islamic history. Husayn's stand is central to Shia
       Islamic identity and is mourned throughout the Muslim world.
+    description_fr: |
+      Al-Ḥusayn ibn ʿAlī, petit-fils du Prophète ﷺ, fut tué avec 72
+      compagnons et membres de sa famille dans la plaine de Karbalāʾ
+      par des forces fidèles au calife omeyyade Yazīd ibn Muʿāwiya.
+      Sa tête tranchée fut envoyée à Damas. L'épisode est l'événement
+      central du calendrier émotionnel chiite (commémoré chaque
+      ʿĀshūrāʾ) ; les sources sunnites le pleurent universellement
+      comme un martyre, tout en distinguant le deuil sobre de la
+      Sunna des rituels chiites de ʿĀshūrāʾ.
+    description_ar: |
+      قُتل الحسينُ بنُ عليٍّ، سِبطُ النبي ﷺ، ومعه نحوُ اثنين وسبعين
+      من أهله وصحبه في صحراء كربلاء على يد قواتٍ موالية للخليفة
+      الأمويِّ يزيدَ بن معاوية. وأُرسل رأسُه الشريف إلى دمشقَ. وتمثِّل
+      هذه الحادثةُ ركنَ التقويم العاطفيِّ الشيعيِّ (تُحيا كلَّ
+      عاشوراء)؛ أمَّا أهل السنَّة فيرونها استشهادًا يُحزنُ له، مع
+      تمييز الذِّكرى السنِّيَّة الهادئة عن طقوس عاشوراء عند الشيعة.
     canonical_hijri: {year: 61, month: 1, day: 10, precision: day}
     canonical_gregorian: {date: 680-10-10, precision: day, method: attested}
     claims:
@@ -423,12 +688,29 @@ events:
     category: umayyad
     title_en: Death of Mu'awiya ibn Abi Sufyan
     title_ar: وفاة معاوية بن أبي سفيان
+    title_fr: Décès de Muʿāwiya ibn Abī Sufyān
     description_en: |
       The founder of the Umayyad dynasty and first of its caliphs died in
       Damascus after a 19-year caliphate. His bequest of the caliphate to his
       son Yazid transformed the Islamic state from an elected institution into
       a hereditary monarchy — a decision that would directly precipitate the
       tragedy of Karbala.
+    description_fr: |
+      Le fondateur de la dynastie omeyyade et premier de ses califes
+      mourut à Damas après un califat de 19 ans. Sa transmission du
+      califat à son fils Yazīd transforma l'État islamique d'une
+      institution élective en monarchie héréditaire, déclenchant la
+      Deuxième Fitna et le martyre d'al-Ḥusayn quelques mois plus
+      tard. Sous Muʿāwiya, l'empire s'étendit jusqu'au Khorāsān à
+      l'est et à la Tunisie à l'ouest, avec les premiers sièges
+      musulmans de Constantinople.
+    description_ar: |
+      تُوفِّي مؤسِّسُ الدولة الأمويَّة وأوَّلُ خلفائها بدمشقَ بعد خلافةٍ
+      دامت تسعَ عشرة سنةً. وقد حوَّل توريثُه ابنَه يزيدَ الدولةَ
+      الإسلاميَّةَ من نظامٍ تَعاقُدِيٍّ إلى مُلكٍ وراثيٍّ، فأشعلت
+      الفتنةُ الكبرى الثانية واستُشهد الحسينُ بعد أشهرٍ. وفي عهده
+      امتدَّت الدولةُ إلى خراسانَ شرقًا وتونسَ غربًا، وكانت أوَّل
+      حصاراتٍ مسلمةٍ للقسطنطينيَّة.
     canonical_hijri: {year: 60, month: 4, precision: month}
     canonical_gregorian: {date: 680-04-29, precision: day, method: attested}
     claims:
@@ -442,12 +724,29 @@ events:
     category: conquest
     title_en: Battle of Guadalete — Muslim Entry into Iberia
     title_ar: معركة وادي لكة
+    title_fr: Bataille de Guadalete — entrée musulmane dans la péninsule Ibérique
     description_en: |
       Tariq ibn Ziyad, the Berber commander serving the Umayyad governor of
       North Africa Musa ibn Nusayr, defeated the Visigothic king Roderic at the
       Guadalete river in southern Iberia. Tariq had crossed from Ceuta and
       landed at the rock now bearing his name (Jabal Tariq / Gibraltar). The
       battle opened Iberia to seven centuries of Muslim rule.
+    description_fr: |
+      Ṭāriq ibn Ziyād, commandant berbère au service du gouverneur
+      omeyyade d'Afrique du Nord Mūsā ibn Nuṣayr, vainquit le roi
+      wisigoth Roderic au fleuve Guadalete dans le sud de la
+      péninsule Ibérique. Ṭāriq avait traversé depuis Tanger en
+      empruntant le détroit qui porterait désormais son nom (Jabal
+      Ṭāriq → Gibraltar). La bataille brisa le pouvoir wisigoth ; en
+      trois ans, presque toute la péninsule fut sous contrôle
+      musulman.
+    description_ar: |
+      هَزَم طارقُ بنُ زيادٍ — القائدُ البربريُّ في خدمة والي الأمويِّين
+      على شمال إفريقيَّةَ موسى بن نصيرٍ — الملكَ القُوطي الغربيَّ
+      لذريقَ على نهر وادي لكَّةَ بجنوب الأندلس. كان طارقٌ قد عبر من
+      طنجةَ في المضيق الذي سيُسمَّى باسمه (جبل طارقٍ). وكسرت المعركةُ
+      ملك القوط الغربيِّين، فدانت الأندلسُ كلُّها للمسلمين خلال ثلاث
+      سنين.
     canonical_hijri: {year: 92, precision: year}
     canonical_gregorian: {date: 711-07-19, precision: day, method: attested}
     claims:
@@ -461,12 +760,29 @@ events:
     category: umayyad
     title_en: Death of Umar ibn Abd al-Aziz
     title_ar: وفاة عمر بن عبد العزيز
+    title_fr: Décès de ʿUmar ibn ʿAbd al-ʿAzīz
     description_en: |
       The eighth Umayyad caliph, widely considered "the fifth Rashidun caliph"
       for his justice and asceticism, died after a two-and-a-half year caliphate.
       He reversed many Umayyad excesses, returning confiscated lands, halting
       the cursing of Ali from the minbars, and reforming the tax code to extend
       justice to non-Arab Muslims (mawali).
+    description_fr: |
+      Le huitième calife omeyyade, largement considéré comme « le
+      cinquième Rāshidūn » pour sa justice et son ascétisme, mourut
+      après un califat de deux ans et demi. Il renversa nombre des
+      excès omeyyades, restituant les biens spoliés, abolissant la
+      malédiction publique de ʿAlī, et instaurant une administration
+      fondée sur la responsabilité fiscale et l'équité. Beaucoup le
+      croient empoisonné par les détenteurs d'intérêts qu'il avait
+      menacés.
+    description_ar: |
+      تُوفِّي ثامنُ خلفاء بني أميَّةَ، الذي يَعدُّه كثيرٌ من أهل العلم
+      خامسَ الراشدين عدلًا وزُهدًا، بعد خلافةٍ امتدَّت سنتين ونصفًا.
+      ردَّ كثيرًا من تجاوزات الأمويِّين: أرجع المظالم، وأبطل سَبَّ
+      عليٍّ على المنابر، وأقام إدارةً قوامُها المحاسبةُ ماليًّا
+      والإنصافُ. ويُرجِّحُ كثيرٌ أنَّه سُمَّ على يد ذوي مصالحَ
+      هدَّدَها بعدله.
     canonical_hijri: {year: 101, month: 2, day: 25, precision: day}
     canonical_gregorian: {date: 720-02-10, precision: day, method: attested}
     claims:
@@ -481,6 +797,7 @@ events:
     category: battle
     title_en: Battle of Tours (Balat al-Shuhada)
     title_ar: معركة بلاط الشهداء
+    title_fr: Bataille de Tours (Balāṭ al-Shuhadāʾ)
     description_en: |
       An Umayyad raiding force under Abd al-Rahman al-Ghafiqi, governor of
       al-Andalus, was defeated by the Frankish leader Charles Martel near Tours
@@ -488,6 +805,22 @@ events:
       in Arabic as "the court of the martyrs" (Balat al-Shuhada). The battle
       marked the furthest European advance of the Umayyad armies north of the
       Pyrenees.
+    description_fr: |
+      Une force de razzia omeyyade sous ʿAbd al-Raḥmān al-Ghāfiqī,
+      gouverneur d'al-Andalus, fut défaite par le chef franc Charles
+      Martel près de Tours, dans le centre de la France. Le
+      gouverneur fut tué dans la bataille — d'où son nom arabe Balāṭ
+      al-Shuhadāʾ (« Pavé des martyrs »). La bataille a longtemps été
+      présentée par les historiens occidentaux comme un tournant ;
+      les historiens modernes la considèrent davantage comme la fin
+      des grandes incursions plutôt que comme un blocage stratégique.
+    description_ar: |
+      هُزم فيها سَريَّةٌ أمويَّةٌ غازيةٌ بقيادة عبد الرحمن الغافقيِّ،
+      والي الأندلس، أمام الفرنجيِّ شارل مارتل قُربَ تورَ في وسط
+      فرنسا. قُتل الواليُ في المعركة — ومن هنا اسمُها العربيُّ:
+      بلاطُ الشهداء. وقد جعلها المؤرِّخون الغربيُّون قديمًا منعطفًا
+      تاريخيًّا، أمَّا المعاصرون فيرَونها نهايةَ الغزوات الكبرى لا
+      حاجزًا استراتيجيًّا.
     canonical_hijri: {year: 114, month: 10, precision: month}
     canonical_gregorian: {date: 732-10-10, precision: day, method: attested}
     claims:
@@ -500,6 +833,7 @@ events:
     category: battle
     title_en: Battle of the Zab — Fall of the Umayyads
     title_ar: معركة الزاب
+    title_fr: Bataille du Zāb — chute des Omeyyades
     description_en: |
       The decisive battle of the Abbasid Revolution, fought on the banks of the
       Greater Zab river in modern Iraq. The last Umayyad caliph Marwan II was
@@ -507,6 +841,21 @@ events:
       where he was killed, ending 89 years of Umayyad rule. The sole surviving
       Umayyad prince, Abd al-Rahman, escaped to al-Andalus and founded the
       Emirate of Cordoba.
+    description_fr: |
+      Bataille décisive de la révolution abbasside, livrée sur les
+      rives du Grand Zāb dans l'Iraq actuel. Le dernier calife
+      omeyyade Marwān II fut défait par les forces abbassides sous
+      ʿAbdullāh ibn ʿAlī. Marwān fut traqué jusqu'en Égypte et tué
+      quelques mois plus tard. La bataille mit fin à 90 ans de
+      domination omeyyade et inaugura le califat abbasside, qui
+      déplacerait sa capitale à Bagdad et durerait 500 ans.
+    description_ar: |
+      المعركةُ الفاصلةُ في الثورة العبَّاسيَّة، وقعت على ضفاف الزاب
+      الأكبر في العراق. هزم العبَّاسيُّون بقيادة عبد الله بن عليٍّ
+      آخرَ خلفاء بني أميَّة مروانَ الثاني. وتُتُبِّع مروانُ في مصر
+      وقُتل بعد أشهرٍ. أنهت المعركةُ تسعينَ عامًا من حكم بني أميَّةَ،
+      وأَوْحَت بقيام الدولة العبَّاسيَّة التي ستجعل بغدادَ عاصمتَها
+      وتمتدُّ خمسةَ قرون.
     canonical_hijri: {year: 132, month: 2, day: 11, precision: day}
     canonical_gregorian: {date: 750-01-25, precision: day, method: attested}
     claims:
@@ -523,6 +872,7 @@ events:
     category: founding
     title_en: Founding of Baghdad (Madinat al-Salam)
     title_ar: تأسيس بغداد
+    title_fr: Fondation de Bagdad (Madīnat al-Salām)
     description_en: |
       Caliph al-Mansur laid the foundations of his new round capital "City of
       Peace" (Madinat al-Salam) on the west bank of the Tigris. Designed by
@@ -530,6 +880,22 @@ events:
       the next century into the intellectual capital of the medieval world,
       home to the House of Wisdom (Bayt al-Hikma) and the center of the
       Abbasid golden age.
+    description_fr: |
+      Le calife al-Manṣūr posa les fondations de sa nouvelle capitale
+      ronde, « Cité de la Paix » (Madīnat al-Salām), sur la rive
+      ouest du Tigre. Conçue par des astrologues et des ingénieurs
+      comme un cercle parfait, la ville deviendrait le centre du
+      commerce, de la science et de la théologie islamiques pendant
+      cinq siècles. À son apogée sous Hārūn al-Rashīd et al-Maʾmūn,
+      elle abritait peut-être un million d'habitants — la plus grande
+      ville du monde à son époque.
+    description_ar: |
+      وَضَع الخليفةُ المنصورُ أسسَ عاصمته الجديدة المدوَّرة «مدينةَ
+      السلام» على الضفَّة الغربيَّة من دجلة. صَمَّمها المنجِّمون
+      والمهندسون دائرةً تامَّة الاستدارة، وستصير بعد ذلك مركزَ
+      التجارة والعلم والكلام في العالم الإسلامي خمسةَ قرون. وفي
+      ذِروتها زمن هارون الرشيد والمأمون كان عددُ سكَّانها قد يبلغ
+      مليون نسمةٍ — أكبرَ مدن العالم في عصرها.
     canonical_hijri: {year: 145, month: 5, day: 2, precision: day}
     canonical_gregorian: {date: 762-07-30, precision: day, method: attested}
     claims:
@@ -544,12 +910,28 @@ events:
     category: scholar_death
     title_en: Death of Imam Abu Hanifa al-Nu'man
     title_ar: وفاة الإمام أبي حنيفة
+    title_fr: Décès de l'imam Abū Ḥanīfa al-Nuʿmān
     description_en: |
       Eponym of the Hanafi madhhab and the earliest of the four great Sunni
       imams, Abu Hanifa died in Baghdad — reportedly in prison after refusing
       the position of chief judge offered by Caliph al-Mansur. He is buried in
       the al-A'zamiyya district of Baghdad, where a shrine bearing his name
       was later built by Seljuk patronage.
+    description_fr: |
+      Éponyme du madhhab ḥanafite et le plus ancien des quatre grands
+      imams sunnites, Abū Ḥanīfa mourut à Bagdad — selon les rapports
+      en prison, après avoir refusé le poste de juge en chef offert
+      par le calife al-Manṣūr. Ses positions juridiques, conservées
+      et étendues par ses étudiants Abū Yūsuf et al-Shaybānī,
+      deviendraient le madhhab des califats ottoman et moghol et la
+      tradition la plus suivie de l'Islam aujourd'hui.
+    description_ar: |
+      تُوفِّي إمامُ المذهب الحنفيِّ، أَقدمُ الأئمَّة السنِّيِّين
+      الأربعةِ، ببغدادَ — وقد رُويَ أنَّه مات في السجن بعد امتناعه
+      عن قضاء المنصور. ونقل اجتهاداتِه أصحابُه أبو يوسفَ ومحمَّدُ بنُ
+      الحسن الشيبانيِّ، فصارت المذهبَ الرسميَّ للدولتَين العثمانيَّة
+      والمغوليَّة (المغول الكبار)، وأكثرَ المذاهب أتباعًا في عالم
+      اليوم.
     canonical_hijri: {year: 150, precision: year}
     canonical_gregorian: {date: 767-06-15, precision: year, method: reconstructed}
     claims:
@@ -567,12 +949,27 @@ events:
     category: scholar_death
     title_en: Death of Imam Malik ibn Anas
     title_ar: وفاة الإمام مالك بن أنس
+    title_fr: Décès de l'imam Mālik ibn Anas
     description_en: |
       Eponym of the Maliki madhhab and author of "al-Muwatta'" — the earliest
       surviving book of Islamic law and one of the foundations of hadith
       literature. He spent his entire life in Madinah, where his school of law
       was rooted in the practice (amal) of its people. He is buried in the
       Baqi' cemetery in Madinah.
+    description_fr: |
+      Éponyme du madhhab mālikite et auteur d'al-Muwaṭṭaʾ — le plus
+      ancien livre de droit islamique conservé et l'une des bases de
+      la littérature ḥadīthique. Il passa toute sa vie à Médine, où
+      ses étudiants vinrent du monde islamique entier. Il fut
+      publiquement fouetté par le gouverneur abbasside pour avoir
+      émis une fatwa à laquelle le calife s'opposait — incident qui
+      renforça plutôt qu'il ne diminua son autorité.
+    description_ar: |
+      إمامُ المذهب المالكيِّ، صاحبُ «الموطَّأ» — أقدم كتب الفقه
+      الإسلاميِّ المحفوظة وأحد أُصول كتب الحديث. أقام طُولَ عمره
+      بالمدينة، يقصد إليه طلَّاب العلم من سائر الأقطار. ضُرب علنيًّا
+      بأمر الوالي العبَّاسيِّ بسبب فتوى عارضت الخليفةَ — وكانت هذه
+      الحادثةُ سببَ رسوخ مكانته لا تَهَتُّكها.
     canonical_hijri: {year: 179, month: 3, precision: month}
     canonical_gregorian: {date: 795-06-15, precision: month, method: tabular_conversion}
     claims:
@@ -591,12 +988,28 @@ events:
     category: caliph_event
     title_en: Death of Caliph Harun al-Rashid
     title_ar: وفاة هارون الرشيد
+    title_fr: Décès du calife Hārūn al-Rashīd
     description_en: |
       The fifth Abbasid caliph, under whose reign the Islamic empire reached
       the peak of its wealth and cultural prestige, died in Tus (near Mashhad
       in modern Iran) while on a military campaign. His reign corresponded to
       the formative decades of the House of Wisdom and the flourishing of
       scholars like Imam al-Shafi'i in Baghdad.
+    description_fr: |
+      Le cinquième calife abbasside, sous le règne duquel l'empire
+      islamique atteignit le sommet de sa richesse et de son prestige
+      culturel, mourut à Ṭūs (près de Mashhad dans l'Iran moderne)
+      lors d'une campagne militaire. Son règne couvre l'âge d'or des
+      Mille et une nuits — et sa division du domaine entre ses fils
+      al-Amīn et al-Maʾmūn provoqua la guerre civile abbasside qui
+      fragiliserait le califat à long terme.
+    description_ar: |
+      خامسُ الخلفاء العبَّاسيِّين، الذي بلغت الدولةُ الإسلاميَّةُ في
+      عهده ذروةَ ثرائها وسؤددها الثقافيِّ، تُوفِّي بطُوسَ (قرب
+      مَشهدَ في إيرانَ اليوم) في حملةٍ عسكريَّةٍ. وعهدُه هو زمنُ
+      العصر الذهبيِّ — زمنُ ألف ليلةٍ وليلة. وقد أَدَّى تقسيمُه
+      الدولةَ بين ولدَيه الأمين والمأمون إلى الفتنة العبَّاسيَّة التي
+      أَوْهَنت الخلافةَ مديدًا.
     canonical_hijri: {year: 193, month: 3, day: 3, precision: day}
     canonical_gregorian: {date: 809-03-24, precision: day, method: attested}
     claims:
@@ -611,11 +1024,27 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Shafi'i
     title_ar: وفاة الإمام الشافعي
+    title_fr: Décès de l'imam al-Shāfiʿī
     description_en: |
       Eponym of the Shafi'i madhhab and founder of Islamic legal theory (usul
       al-fiqh) through his landmark work "al-Risala." He died in Fustat
       (Old Cairo) on the last day of Rajab. His tomb at al-Qarafa cemetery in
       Cairo has been a site of visitation for over a millennium.
+    description_fr: |
+      Éponyme du madhhab shāfiʿite et fondateur de la science des
+      fondements du droit (uṣūl al-fiqh) à travers son œuvre marquante
+      « al-Risāla ». Il mourut à Fusṭāṭ (Vieux Caire) le dernier jour
+      de Rajab. Sa tombe à al-Qarāfa devint un centre majeur de
+      visite ; un mausolée fut construit au-dessus d'elle par les
+      Ayyoubides au XIIIᵉ siècle. Son madhhab prédomine en Égypte, au
+      Levant, en Asie du Sud-Est et dans les régions côtières
+      africaines.
+    description_ar: |
+      إمامُ المذهب الشافعيِّ، ومؤسِّسُ علم أصول الفقه بكتابه «الرسالة».
+      تُوفِّي بالفسطاط (مصرَ القديمة) في آخر رجبٍ. وصار قبرُه بالقرافة
+      مَزارًا عظيمًا، أقام عليه الأيُّوبيُّون قُبَّةً في القرن الثالث
+      عشر الميلاديِّ. ومذهبُه هو الراجح في مصر والشام وجنوب شرقي
+      آسيا والمناطق السَّاحليَّة في إفريقيَّةَ.
     canonical_hijri: {year: 204, month: 7, day: 30, precision: day}
     canonical_gregorian: {date: 820-01-20, precision: day, method: attested}
     claims:
@@ -631,12 +1060,28 @@ events:
     category: scholar_death
     title_en: Death of Imam Ahmad ibn Hanbal
     title_ar: وفاة الإمام أحمد بن حنبل
+    title_fr: Décès de l'imam Aḥmad ibn Ḥanbal
     description_en: |
       Eponym of the Hanbali madhhab and the most prolific hadith-collecting
       imam among the four — his "Musnad" contains approximately 27,000
       hadiths. He famously endured imprisonment and flogging during the Mihna
       (inquisition) under three Abbasid caliphs over the question of the
       createdness of the Qur'an, refusing to recant. He is buried in Baghdad.
+    description_fr: |
+      Éponyme du madhhab ḥanbalite et le plus prolifique compilateur
+      de ḥadīth parmi les quatre imams — son « Musnad » contient
+      environ 27 000 ḥadīths. Il endura la prison et la flagellation
+      durant la Miḥna mu'tazilite pour avoir refusé de souscrire à la
+      doctrine de la « création du Coran ». Sa fermeté en fit
+      l'icône des Ahl al-Sunna ; sa mort à Bagdad fut suivie par des
+      funérailles auxquelles, selon les rapports, des centaines de
+      milliers de personnes assistèrent.
+    description_ar: |
+      إمامُ المذهب الحنبليِّ، وأوسعُ الأئمَّة الأربعة جمعًا للحديث —
+      مسندُه يحوي نحو سبعةٍ وعشرين ألف حديثٍ. صبر على السجن والجلد
+      في محنة خلق القرآن لرفضه القولَ بخلق القرآن. وثَبَّت موقفُه
+      مكانتَه عَلَمًا لأهل السنَّة والجماعة. ومات ببغدادَ، فشيَّعه —
+      كما تَذكُر المصادر — مئاتُ الألوف.
     canonical_hijri: {year: 241, month: 3, day: 12, precision: day}
     canonical_gregorian: {date: 855-07-31, precision: day, method: attested}
     claims:
@@ -654,12 +1099,28 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Bukhari
     title_ar: وفاة الإمام البخاري
+    title_fr: Décès de l'imam al-Bukhārī
     description_en: |
       Author of "al-Jami' al-Sahih" — the most rigorously authenticated hadith
       collection in Sunni Islam. He compiled his Sahih from approximately
       600,000 narrations over 16 years. He died in Khartank near Samarqand on
       the night of Eid al-Fitr, 1 Shawwal 256 AH. His Sahih remains the most
       authoritative book in Islam after the Qur'an itself.
+    description_fr: |
+      Auteur d'« al-Jāmiʿ al-Ṣaḥīḥ » — la collection de ḥadīths la
+      plus rigoureusement authentifiée de l'Islam sunnite. Il compila
+      son Ṣaḥīḥ à partir d'environ 600 000 narrations sur 16 ans. Il
+      mourut à Khartank près de Samarcande après avoir été contraint
+      de quitter Nīshāpūr puis Bukhārā à la suite de tensions avec
+      les autorités locales. Son corps aurait dégagé un parfum durant
+      des jours. Sa tombe à Khartank reste un sanctuaire majeur en
+      Asie centrale.
+    description_ar: |
+      صاحبُ «الجامع الصحيح»، أَدَقِّ كتب الحديث في أهل السنَّة. جَمَع
+      صحيحَه من نحو ستِّ مئة ألف حديثٍ خلال ستَّ عشرة سنةً. تُوفِّي
+      بخَرتَنكَ قُرب سمرقندَ بعد أن أُلجِئَ إلى مغادرة نيسابورَ ثم
+      بخارى لخلافٍ مع الولاة. ويُروى أنَّ جسده فاحت منه رائحةُ المسك
+      أيَّامًا. ولا يزال قبرُه بخرتنك من أعظم المزارات في آسيا الوسطى.
     canonical_hijri: {year: 256, month: 10, day: 1, precision: day}
     canonical_gregorian: {date: 870-09-01, precision: day, method: attested}
     claims:
@@ -677,11 +1138,25 @@ events:
     category: scholar_death
     title_en: Death of Imam Muslim ibn al-Hajjaj
     title_ar: وفاة الإمام مسلم
+    title_fr: Décès de l'imam Muslim ibn al-Ḥajjāj
     description_en: |
       Author of "Sahih Muslim" — ranked alongside Sahih al-Bukhari as the most
       authentic hadith collection. He was a student of al-Bukhari and spent
       fifteen years compiling approximately 7,500 hadiths (with repetitions)
       from an initial pool of 300,000. He died in Nishapur at age 55.
+    description_fr: |
+      Auteur de « Ṣaḥīḥ Muslim » — classé aux côtés de Ṣaḥīḥ
+      al-Bukhārī comme la collection ḥadīthique la plus authentique.
+      Élève d'al-Bukhārī, il passa quinze ans à compiler environ
+      7 500 ḥadīths (avec leurs chaînes — ~3 000 hadiths uniques). Il
+      mourut à Nīshāpūr ; son tombeau y a perduré et fut restauré
+      plusieurs fois.
+    description_ar: |
+      صاحبُ «صحيح مسلمٍ»، الذي رُتِّب عند الجمهور قرين «صحيح
+      البخاريِّ» في الصِّحَّة. كان من تلامذة البخاريِّ، وقضى خمسَ
+      عشرة سنةً في تأليف صحيحه الذي يضمُّ نحو سبعةِ آلافٍ وخمسِ
+      مئة حديثٍ بأسانيدها. تُوفِّي بنيسابورَ، وما زال قبرُه فيها
+      ورُمِّمَ مرَّاتٍ.
     canonical_hijri: {year: 261, month: 5, day: 25, precision: day}
     canonical_gregorian: {date: 875-05-07, precision: day, method: attested}
     claims:
@@ -699,12 +1174,27 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Tirmidhi
     title_ar: وفاة الإمام الترمذي
+    title_fr: Décès de l'imam al-Tirmidhī
     description_en: |
       Author of "al-Jami'" (Sunan al-Tirmidhi) — one of the six canonical
       hadith collections. He pioneered the systematic classification of
       hadith by legal strength (sahih, hasan, da'if) and the documentation
       of the legal positions of the madhhabs after each hadith. He went
       blind in his later years and died in Bugh, Khorasan.
+    description_fr: |
+      Auteur d'« al-Jāmiʿ » (Sunan al-Tirmidhī) — l'une des six
+      collections canoniques de ḥadīth. Il fut pionnier de la
+      classification systématique des ḥadīths par force juridique
+      (ṣaḥīḥ, ḥasan, ḍaʿīf) et de la documentation des opinions des
+      Compagnons et des juristes-suivants. Étudiant d'al-Bukhārī et
+      auteur prolifique, il devint aveugle à la fin de sa vie et
+      mourut à Tirmidh dans l'actuel Tadjikistan-Ouzbékistan.
+    description_ar: |
+      صاحبُ «الجامع» (سنن الترمذيِّ)، وهو من الكتب الستَّة. كان رائدًا
+      في التصنيف المنهجيِّ للحديث بحسب القوَّة (صحيح، حسن، ضعيف)
+      وفي توثيق آراء الصحابة والتابعين. تتلمذ على البخاريِّ وكثُرت
+      تصانيفه. كُفَّ بصرُه آخر عمره، وتُوفِّي بترمذَ في حدود طاجيكستان
+      وأوزبكستان اليوم.
     canonical_hijri: {year: 279, month: 12, day: 13, precision: day}
     canonical_gregorian: {date: 892-10-08, precision: day, method: attested}
     claims:
@@ -718,12 +1208,27 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Tabari
     title_ar: وفاة الإمام الطبري
+    title_fr: Décès de l'imam al-Ṭabarī
     description_en: |
       Author of "Tarikh al-Rusul wa'l-Muluk" — the foundational history of
       Islam and the prophets — and "Jami' al-Bayan," one of the most
       comprehensive classical tafsirs of the Qur'an. A polymath who founded
       his own short-lived madhhab (the Jariri school), he died in Baghdad at
       approximately 86 years of age.
+    description_fr: |
+      Auteur de « Tārīkh al-Rusul wa-l-Mulūk » — l'histoire fondatrice
+      de l'Islam et des prophètes — et de « Jāmiʿ al-Bayān », l'un
+      des tafsīr classiques les plus complets du Coran. Polymathe qui
+      fonda son propre madhhab juridique (le ṭabarite, qui ne survécut
+      pas plusieurs siècles), il vécut et mourut à Bagdad. Ses
+      œuvres, particulièrement le Tafsīr et l'Histoire, restent des
+      sources premières indispensables au savoir islamique classique.
+    description_ar: |
+      صاحبُ «تاريخ الرُّسُل والملوك»، التاريخِ الأمِّ للإسلام والأنبياء،
+      و«جامع البيان» من أوسع تفاسير القرآن الكلاسيكيَّة. كان ذا
+      علومٍ متعدِّدةٍ، وأسَّس مذهبًا فقهيًّا (الطبريَّ) لم يُعَمَّر
+      قرونًا. عاش ومات ببغدادَ. ولا يزال «التفسير» و«التاريخ» من
+      أهمِّ المصادر الأوَّليَّة للعلوم الإسلاميَّة الكلاسيكيَّة.
     canonical_hijri: {year: 310, month: 10, day: 28, precision: day}
     canonical_gregorian: {date: 923-02-17, precision: day, method: attested}
     claims:
@@ -743,11 +1248,27 @@ events:
     category: founding
     title_en: Founding of al-Qarawiyyin University
     title_ar: تأسيس جامعة القرويين
+    title_fr: Fondation de l'université al-Qarawiyyīn
     description_en: |
       Fatima al-Fihri, a woman of Tunisian origin living in Fez, endowed the
       mosque and teaching institution that would become al-Qarawiyyin — the
       oldest continuously operating university in the world according to UNESCO
       and the Guinness World Records. It remains active today.
+    description_fr: |
+      Fāṭima al-Fihrī, femme d'origine tunisienne vivant à Fès, dota
+      la mosquée et l'institution d'enseignement qui deviendraient
+      al-Qarawiyyīn — la plus ancienne université en activité
+      continue au monde selon l'UNESCO et le Guinness. Des savants
+      y enseignèrent qui marquèrent la civilisation : le philosophe
+      juif Maïmonide, le pape Sylvestre II (Gerbert d'Aurillac), Ibn
+      Khaldūn, et d'autres.
+    description_ar: |
+      أَوقَفَتْ فاطمةُ الفِهْريَّةُ — وهي من أصلٍ تونسيٍّ نازلةٍ بفاسٍ —
+      المسجدَ ومدرسةَ التعليم اللذَين سيصيران جامعةَ القرويِّين،
+      أَقدمَ جامعةٍ تُمارِسُ نشاطَها في العالم باعترافِ اليونسكو
+      ومَوسوعةِ غينيس. درس فيها أعلامٌ من حضاراتٍ شتَّى: الفيلسوفُ
+      اليهوديُّ ابنُ ميمونَ (موسى بنُ ميمون)، والبابا سيلفستر الثاني
+      (جربرت أوريلاكَ)، وابنُ خلدونٍ، وغيرهم.
     canonical_hijri: {year: 245, precision: year}
     canonical_gregorian: {date: 859-06-15, precision: year, method: attested}
     claims:
@@ -760,12 +1281,27 @@ events:
     category: founding
     title_en: Founding of al-Qahira (Cairo)
     title_ar: تأسيس القاهرة
+    title_fr: Fondation d'al-Qāhira (Le Caire)
     description_en: |
       The Fatimid general Jawhar al-Siqilli laid the foundations of a new
       capital north of the existing administrative city of Fustat. The new
       city was named al-Qahira — "the Victorious" — after the planet Mars
       (al-Qahir) which was ascendant at the moment of founding. Within three
       years al-Azhar mosque would be built within its walls.
+    description_fr: |
+      Le général fatimide Jawhar al-Ṣiqillī posa les fondations d'une
+      nouvelle capitale au nord de la cité administrative existante
+      de Fusṭāṭ. La ville fut nommée al-Qāhira — « la Victorieuse » —
+      d'après la planète Mars (al-Qāhir) qui dominait au moment du
+      tracé. Le Caire serait la capitale de l'Égypte islamique pour
+      les mille ans suivants, sous Fatimides, Ayyoubides, Mamlouks et
+      Ottomans.
+    description_ar: |
+      وَضَع القائدُ الفاطميُّ جوهرٌ الصِّقِلِّيُّ أُسسَ عاصمةٍ جديدةٍ
+      إلى الشَّمال من مدينة الفسطاط الإداريَّة. وسُمِّيت المدينةُ
+      «القاهرةَ» نسبةً إلى المرِّيخ (القاهر) الذي كان طالعًا حين
+      تخطيطها. وستظلُّ القاهرةُ عاصمةَ مصر الإسلاميَّة ألفَ سنةٍ
+      تباعًا، تحت الفاطميِّين والأيُّوبيِّين والمماليك والعثمانيِّين.
     canonical_hijri: {year: 358, month: 8, day: 17, precision: day}
     canonical_gregorian: {date: 969-07-06, precision: day, method: attested}
     claims:
@@ -778,12 +1314,28 @@ events:
     category: founding
     title_en: Founding of al-Azhar Mosque
     title_ar: تأسيس الجامع الأزهر
+    title_fr: Fondation de la mosquée al-Azhar
     description_en: |
       Al-Azhar — "the most resplendent" — was founded by the Fatimids in their
       new capital Cairo. By the late eleventh century it had developed from a
       Friday mosque into a teaching institution, and after Saladin's reconquest
       of Egypt it became (and remains) the most prominent center of Sunni
       religious learning in the world.
+    description_fr: |
+      Al-Azhar — « la plus resplendissante » — fut fondée par les
+      Fatimides dans leur nouvelle capitale du Caire. À la fin du
+      XIᵉ siècle elle s'était développée d'une mosquée du vendredi
+      en institution d'enseignement, et après le retour de l'Égypte
+      au sunnisme par Saladin, elle devint l'institution sunnite la
+      plus prestigieuse de la planète — fonction qu'elle remplit
+      depuis plus de mille ans.
+    description_ar: |
+      أُسِّس الجامعُ الأزهرُ — «الأكثرُ بهاءً» — على يد الفاطميِّين في
+      عاصمتهم الجديدة القاهرة. وأَوْشَك أن يصير في أواخر القرن الحادي
+      عشر مؤسَّسةً تعليميَّةً بعد أن كان مجرَّد جامعٍ للجمعة. ومنذ
+      إعادة صلاحِ الدِّينِ مصرَ إلى أهل السنَّة، بات الأزهرُ أهمَّ
+      المؤسَّسات السنِّيَّة في العالم — ومنذ ذلك الحين وهو على هذا
+      العهد لأكثر من ألف سنة.
     canonical_hijri: {year: 361, month: 8, precision: month}
     canonical_gregorian: {date: 972-06-22, precision: day, method: attested}
     claims:
@@ -800,6 +1352,7 @@ events:
     category: founding
     title_en: Abd al-Rahman I Enters al-Andalus
     title_ar: دخول عبد الرحمن الداخل الأندلس
+    title_fr: ʿAbd al-Raḥmān Iᵉʳ entre en al-Andalus
     description_en: |
       The sole surviving Umayyad prince, who had escaped the Abbasid massacre
       of his family, crossed into al-Andalus after years of flight across
@@ -807,6 +1360,20 @@ events:
       appointed governor and establish the independent Emirate of Cordoba,
       which would last 275 years and give rise to some of the greatest
       flowering of Islamic civilization.
+    description_fr: |
+      L'unique prince omeyyade survivant, qui avait échappé au
+      massacre abbasside de sa famille, traversa en al-Andalus après
+      des années de fuite à travers la Palestine et l'Afrique du
+      Nord. En un an, il vainquit le gouverneur abbasside et instaura
+      l'émirat omeyyade indépendant de Cordoue, qui durerait deux
+      siècles et demi avant de se proclamer califat sous ʿAbd
+      al-Raḥmān III.
+    description_ar: |
+      عَبَر إلى الأندلس آخرُ أمراء بني أميَّةَ الناجين من مذبحة
+      العبَّاسيِّين لأهله، بعد سنواتٍ من الفرار عَبر فلسطينَ
+      وشمال إفريقيَّةَ. وفي عامٍ هزم واليَ العبَّاسيِّين، وأَسَّس
+      إمارةَ بني أميَّة المستقلَّة بقُرطُبةَ، التي امتدَّت قرنين
+      ونصفًا قبل أن تُعلَن خلافةً على يد عبد الرحمن الناصر.
     canonical_hijri: {year: 138, precision: year}
     canonical_gregorian: {date: 755-08-14, precision: day, method: attested}
     claims:
@@ -820,6 +1387,7 @@ events:
     category: founding
     title_en: Founding of the Great Mosque of Cordoba
     title_ar: تأسيس جامع قرطبة
+    title_fr: Fondation de la Grande Mosquée de Cordoue
     description_en: |
       Abd al-Rahman I purchased the shared Visigothic basilica from the
       Christian community of Cordoba and began construction of a new
@@ -827,6 +1395,22 @@ events:
       as La Mezquita. Expanded by successive Umayyad rulers into one of the
       largest mosques in the medieval world, it remains a unesco-listed
       monument today.
+    description_fr: |
+      ʿAbd al-Raḥmān Iᵉʳ acheta la basilique wisigothe partagée à la
+      communauté chrétienne de Cordoue et entama la construction
+      d'une nouvelle mosquée congrégationnelle sur le site — l'édifice
+      qui deviendrait la mythique Mezquita à doubles arcs en fer à
+      cheval. Les califes omeyyades ultérieurs l'agrandirent jusqu'à
+      ce qu'elle devienne la deuxième plus grande mosquée du monde
+      musulman, dépassée seulement par celle de Bagdad. Elle fut
+      convertie en cathédrale après 1236.
+    description_ar: |
+      اشترى عبدُ الرحمن الداخل الكنيسةَ القُوطيَّةَ المشتركةَ من
+      نصارى قُرطُبةَ، وشرع في بناء مسجدٍ جامعٍ على موقعها — وهو
+      البناءُ الذي سيُعرف بـ«المسجد الجامع» (لاحقًا La Mezquita)،
+      بأَقواسه المضاعفة على شكل حدوة الفرس. وَسَّعه خلفاءُ بني أميَّة
+      المتأخِّرون حتى صار ثانيَ أكبر مسجدٍ في العالم الإسلاميِّ بعد
+      مسجد بغدادَ. وحُوِّل إلى كاتدرائيَّةٍ بعد سنة 1236م.
     canonical_hijri: {year: 169, precision: year}
     canonical_gregorian: {date: 785-06-01, precision: year, method: attested}
     claims:
@@ -840,6 +1424,7 @@ events:
     category: conquest
     title_en: Fall of Granada — End of al-Andalus
     title_ar: سقوط غرناطة
+    title_fr: Chute de Grenade — fin d'al-Andalus
     description_en: |
       After ten years of war, the last Muslim emir of Iberia, Muhammad XII
       (Boabdil) of the Nasrid dynasty, surrendered Granada to the Catholic
@@ -850,6 +1435,24 @@ events:
     # 2 Rabīʿ al-Awwal 897 AH per the historically attested Treaty signing
     # date (al-Maqqarī, Nafḥ al-Ṭīb; Wikipedia · Granada War). Earlier YAML
     # had month: 7 (Rajab), which is the wrong month — fixed 2026-04-26.
+    description_fr: |
+      Après dix ans de guerre, le dernier émir musulman d'Ibérie,
+      Muḥammad XII (Boabdil) de la dynastie naṣride, livra Grenade
+      aux Rois Catholiques Ferdinand et Isabelle. Le traité
+      garantissait initialement aux musulmans liberté religieuse et
+      droits de propriété, mais ces clauses furent
+      systématiquement bafouées dans les décennies suivantes,
+      menant aux conversions forcées (1502), à l'expulsion des
+      moriscos (1609), et à la fin de l'islam ouvert dans la
+      péninsule Ibérique.
+    description_ar: |
+      بعد عشر سنواتٍ من الحرب، سَلَّم آخرُ أمير مسلمٍ في الأندلس
+      محمَّد الثاني عشر (أبو عبد الله الصغير) من بني نَصرٍ غَرناطةَ
+      للملكَين الكاثوليكيَّين فرديناند وإيزابيلَّا. ووعدَتْ معاهدةُ
+      التسليم المسلمين بحريَّة الدين وحفظ الأملاك، لكنَّ هذه
+      الشروطَ نُقِضت في العقود التالية: التحويلاتُ القَسْريَّة سنة
+      1502، وطردُ الموريسكيِّين سنة 1609، فانتهى الإسلامُ المُعلَن
+      في الأندلس.
     canonical_hijri: {year: 897, month: 3, day: 2, precision: day}
     canonical_gregorian: {date: 1492-01-02, precision: day, method: attested}
     claims:
@@ -866,6 +1469,7 @@ events:
     category: battle
     title_en: First Crusade — Fall of Jerusalem to the Crusaders
     title_ar: سقوط القدس في الحملة الصليبية الأولى
+    title_fr: Première Croisade — chute de Jérusalem
     description_en: |
       After a five-week siege, the armies of the First Crusade under Godfrey
       of Bouillon breached the walls of Jerusalem. The subsequent massacre
@@ -873,6 +1477,26 @@ events:
       Dome of the Rock was converted into a church and al-Aqsa into a palace
       of the crusader kings. The city would remain under crusader rule for
       88 years until Saladin's reconquest.
+    description_fr: |
+      Après un siège de cinq semaines, les armées de la Première
+      Croisade sous Godefroy de Bouillon enfoncèrent les murs de
+      Jérusalem. Le massacre qui s'ensuivit tua presque toute la
+      population musulmane et juive de la ville — des chroniques
+      chrétiennes elles-mêmes décrivent les rues « jonchées de
+      cadavres » et les croisés avançant « jusqu'aux genoux dans le
+      sang ». Les musulmans tentèrent en vain de défendre la
+      mosquée al-Aqṣā ; les Templiers la convertirent en quartier
+      général. La libération par Saladin n'aurait lieu que 88 ans
+      plus tard.
+    description_ar: |
+      بعد حصارٍ دام خمسةَ أسابيعَ، اقتحم جيشُ الحملة الصليبيَّة
+      الأولى بقيادة غودفري دو بويون أسوارَ القدس. وأَعقَب ذلك مذبحةٌ
+      أَفنت أهلَها المسلمين واليهودَ تقريبًا — حتى المؤرِّخون النصارى
+      أنفسُهم وصفوا الشوارعَ «المغطَّاةَ بالجثث»، والصليبيِّين
+      يخوضون «حتى الرُّكَب في الدم». وحاول المسلمون عبثًا الدفاعَ
+      عن المسجد الأقصى، فحوَّله الفرسانُ المعبدِيُّون إلى مَقَرٍّ
+      لقيادتهم. ولن يأتي تحريرُه على يد صلاح الدِّين إلا بعد ثمانٍ
+      وثمانين سنة.
     canonical_hijri: {year: 492, month: 8, day: 23, precision: day}
     canonical_gregorian: {date: 1099-07-15, precision: day, method: attested}
     claims:
@@ -885,6 +1509,7 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Ghazali (Hujjat al-Islam)
     title_ar: وفاة الإمام الغزالي
+    title_fr: Décès de l'imam al-Ghazālī (Ḥujjat al-Islām)
     description_en: |
       Author of "Ihya' 'Ulum al-Din" (The Revival of the Religious Sciences)
       and one of the most influential Muslim thinkers of the medieval world.
@@ -892,6 +1517,21 @@ events:
       the peak of his academic career in Baghdad, he returned to teaching in
       his native Tus, where he died at age 55. His synthesis of fiqh, kalam,
       and Sufism reshaped Sunni orthodoxy for centuries.
+    description_fr: |
+      Auteur d'« Iḥyāʾ ʿulūm al-dīn » (La revivification des sciences
+      religieuses) et l'un des penseurs musulmans les plus influents
+      du monde médiéval. Après une décennie de retraite spirituelle
+      consécutive à une crise de la foi documentée dans son
+      autobiographique « al-Munqidh min al-Ḍalāl », il revint à
+      l'enseignement à Ṭūs où il mourut. Son intégration du fiqh, du
+      kalām et du taṣawwuf sunnite a façonné la pensée musulmane
+      depuis.
+    description_ar: |
+      صاحبُ «إحياء علوم الدِّين»، وأحدُ أكثر مفكِّري الإسلام تأثيرًا في
+      العالم الوسيط. بعد عشر سنواتٍ من العزلة الروحيَّة إثرَ أزمةٍ
+      إيمانيَّةٍ سَجَّلها في «المنقذ من الضلال»، عاد إلى التعليم
+      بطُوسَ ومات بها. وظلَّ مَنْحاه — جامعًا بين الفقه والكلام
+      والتصوُّف السنِّيِّ — رافدًا للفكر الإسلاميِّ منذ ذلك الحين.
     canonical_hijri: {year: 505, month: 6, day: 14, precision: day}
     canonical_gregorian: {date: 1111-12-19, precision: day, method: attested}
     claims:
@@ -908,6 +1548,7 @@ events:
     category: battle
     title_en: Battle of Hattin
     title_ar: معركة حطين
+    title_fr: Bataille de Ḥaṭṭīn
     description_en: |
       The decisive battle of the Second Crusader Kingdom's end. Saladin drew
       the crusader army of King Guy of Lusignan into the waterless plain of
@@ -915,6 +1556,21 @@ events:
       the crusader formation. The "True Cross" relic was captured. Within
       three months nearly every crusader stronghold in the Levant had fallen
       or surrendered, culminating in the liberation of Jerusalem.
+    description_fr: |
+      Bataille décisive de la fin du Second Royaume des Croisés.
+      Saladin attira l'armée croisée du roi Guy de Lusignan dans la
+      plaine sans eau de Ḥaṭṭīn en Galilée, où la soif, les archers
+      musulmans et un incendie de broussailles brisèrent la
+      chevalerie franque. Le roi Guy fut capturé et la Vraie Croix —
+      porte-relique de l'armée croisée — fut prise. La défaite ouvrit
+      la voie à la libération de Jérusalem trois mois plus tard.
+    description_ar: |
+      المعركةُ الفاصلةُ التي أنهت مملكةَ الصليبيِّين الثانية. أَوقَع
+      صلاحُ الدِّين بجيش الصليبيِّين بقيادة الملك جاي دو لوزينيان في
+      سهلٍ بلا ماءٍ بحطِّينَ بالجليل، فكَسَرَ العَطَشُ ورُمَاةُ
+      المسلمين وحريقُ الأشواكِ خيلَ الإفرنج. أُسِر الملكُ جاي،
+      واستُحوِذ على الصليب الأكبر — تَعويذَة الصليبيِّين العسكريَّة.
+      وفتحت الهزيمةُ الطريقَ لتحرير القدس بعد ثلاثة أشهر.
     canonical_hijri: {year: 583, month: 7, day: 24, precision: day}
     canonical_gregorian: {date: 1187-07-04, precision: day, method: attested}
     claims:
@@ -928,6 +1584,7 @@ events:
     category: conquest
     title_en: Saladin's Liberation of Jerusalem
     title_ar: فتح صلاح الدين للقدس
+    title_fr: Libération de Jérusalem par Saladin
     description_en: |
       Saladin entered Jerusalem after negotiated surrender by Balian of Ibelin.
       In stark contrast to the massacre of 1099, the reconquest was bloodless
@@ -935,6 +1592,23 @@ events:
       unharmed. The crosses were removed from the Dome of the Rock and the
       first Friday prayer in 88 years was held at al-Aqsa. The date coincided
       with the anniversary of al-Isra wal-Mi'raj.
+    description_fr: |
+      Saladin entra à Jérusalem après une reddition négociée par
+      Balian d'Ibelin. Contrairement au massacre de 1099, la
+      reconquête se fit sans effusion de sang et les habitants
+      chrétiens furent autorisés à se racheter ou à partir avec
+      leurs biens. L'église du Saint-Sépulcre resta sous garde
+      chrétienne ; l'Esplanade des Mosquées fut purifiée et la
+      mosquée al-Aqṣā restaurée à sa fonction. La conduite de
+      Saladin contraste durablement avec celle de la Première
+      Croisade.
+    description_ar: |
+      دخل صلاحُ الدِّين القدسَ بعد تسليمٍ تَفاوض عليه بليان دِيبيلين.
+      وعلى نقيض مجزرة سنة 1099م، تمَّ التحريرُ بلا إراقة دماء،
+      وأُذن للنصارى بفداء أنفسهم أو الخروج بأموالهم. وبقيت كنيسةُ
+      القيامة تحت حراسةٍ نصرانيَّةٍ؛ وطُهِّرت ساحةُ المسجد الأقصى،
+      وأُعِيد المسجدُ إلى وظيفته. وسلوكُ صلاح الدِّين على هذا النحو
+      ظلَّ موضعَ مقابلةٍ تاريخيَّةٍ مع الحملة الصليبيَّة الأولى.
     canonical_hijri: {year: 583, month: 10, day: 27, precision: day}
     canonical_gregorian: {date: 1187-10-02, precision: day, method: attested}
     claims:
@@ -948,6 +1622,7 @@ events:
     category: caliph_event
     title_en: Death of Salah al-Din al-Ayyubi (Saladin)
     title_ar: وفاة صلاح الدين الأيوبي
+    title_fr: Décès de Ṣalāḥ al-Dīn al-Ayyūbī (Saladin)
     description_en: |
       The founder of the Ayyubid dynasty, who had reunited Egypt and Syria
       under Sunni rule and liberated Jerusalem from the crusaders, died in
@@ -955,6 +1630,20 @@ events:
       in his treasury (one dinar and forty dirhams) was insufficient to pay
       for his shroud. His tomb stands adjacent to the Umayyad Mosque in
       Damascus.
+    description_fr: |
+      Le fondateur de la dynastie ayyoubide, qui avait réuni l'Égypte
+      et la Syrie sous gouvernement sunnite et libéré Jérusalem des
+      croisés, mourut à Damas à 56 ans, ne laissant presque aucun
+      patrimoine personnel — selon les rapports, ce qui restait dans
+      le trésor n'aurait pas suffi à couvrir ses funérailles. Son
+      tombeau dans la cour de la mosquée des Omeyyades demeure un
+      lieu très visité.
+    description_ar: |
+      تُوفِّي مؤسِّسُ الدولة الأيُّوبيَّة — الذي وحَّد مصرَ والشامَ
+      تحت سلطانٍ سُنِّيٍّ وحرَّر القدس من الصليبيِّين — بدمشقَ عن
+      ستٍّ وخمسين سنةً، لا يكاد يَترُكُ مالًا شخصيًّا؛ ويُقال إنَّ
+      ما تبقَّى في خزينته ما كان يكفي مؤونةَ كفنه. وقبرُه في صحن
+      الجامع الأمويِّ بدمشقَ مَزارٌ مَشهور.
     canonical_hijri: {year: 589, month: 2, day: 27, precision: day}
     canonical_gregorian: {date: 1193-03-04, precision: day, method: attested}
     claims:
@@ -973,6 +1662,7 @@ events:
     category: battle
     title_en: Mongol Sack of Baghdad
     title_ar: سقوط بغداد على يد المغول
+    title_fr: Sac de Bagdad par les Mongols
     description_en: |
       After a 13-day siege, the Mongol army under Hulagu Khan breached Baghdad
       and slaughtered its inhabitants over a week — classical sources estimate
@@ -981,6 +1671,24 @@ events:
       centuries of scholarship were destroyed, with the Tigris reportedly
       running black with ink and red with blood. The date marks the end of
       the Abbasid caliphate in its historical form.
+    description_fr: |
+      Après un siège de 13 jours, l'armée mongole sous Hulagu Khan
+      enfonça Bagdad et massacra ses habitants pendant une semaine —
+      les sources classiques estiment les morts à plusieurs centaines
+      de milliers. Le dernier calife abbasside al-Mustaʿṣim fut
+      exécuté (selon la coutume mongole, en l'enroulant dans un tapis
+      et en le faisant fouler par les chevaux). Les bibliothèques —
+      y compris la Bayt al-Ḥikma — furent brûlées, leurs ouvrages
+      jetés au Tigre dont l'eau, dit-on, devint noire d'encre puis
+      rouge de sang. La fin du califat de cinq siècles.
+    description_ar: |
+      بعد حصارٍ دام ثلاثةَ عشرَ يومًا، اقتحم جيشُ المغول بقيادة
+      هولاكو بغدادَ، وأعمل القتلَ في أهلها أسبوعًا — وقدَّر بعضُ
+      المؤرِّخين القتلى بمئات الألوف. وقُتل آخرُ خلفاء بني العبَّاس
+      المستعصمُ على عادة المغول (لُفَّ بسجَّادٍ ودِيستْ عليه الخيل).
+      أُحرقت المكتبات — ومنها بيتُ الحكمة — وأُلقي ما فيها من كتبٍ
+      في دجلة، فاسوَدَّ ماؤه — على ما يُروى — من المداد ثم احمرَّ
+      بالدم. وكانت نهايةَ خلافةٍ امتدَّت خمسةَ قرون.
     canonical_hijri: {year: 656, month: 2, day: 4, precision: day}
     canonical_gregorian: {date: 1258-02-10, precision: day, method: attested}
     claims:
@@ -993,6 +1701,7 @@ events:
     category: battle
     title_en: Battle of Ain Jalut
     title_ar: معركة عين جالوت
+    title_fr: Bataille de ʿAyn Jālūt
     description_en: |
       The Mamluk army under Sultan Qutuz and the future sultan Baybars
       defeated the Mongol general Kitbuqa at Ayn Jalut (Spring of Goliath) in
@@ -1000,6 +1709,20 @@ events:
       battle and is traditionally seen as the stopping point of their westward
       expansion, saving the remaining Islamic heartlands from the fate of
       Baghdad.
+    description_fr: |
+      L'armée mamelouke sous le sultan Quṭuz et le futur sultan
+      Baybars défit le général mongol Kitbuqa à ʿAyn Jālūt (Source de
+      Goliath) en Palestine. Ce fut la première défaite décisive
+      des Mongols en bataille rangée et arrêta leur avance vers
+      l'ouest. La bataille consolida le sultanat mamelouk
+      nouvellement établi en Égypte et au Levant et préserva le cœur
+      musulman occidental d'une éventuelle conquête mongole.
+    description_ar: |
+      هزم جيشُ المماليك بقيادة السلطان قُطُز ومن بعده الظاهر بَيبَرس
+      القائدَ المغوليَّ كِتْبُغا في عين جالوتَ بفلسطينَ. كانت
+      الهزيمةَ الأولى الفاصلةَ للمغول في معركةٍ مفتوحةٍ، فأَوْقَفَت
+      زحفَهم غربًا. وثَبَّتت المعركةُ سلطنةَ المماليك الناشئة في مصر
+      والشام، وحفظت قلبَ الإسلام الغربيَّ من فتحٍ مغوليٍّ مرتقَب.
     canonical_hijri: {year: 658, month: 9, day: 25, precision: day}
     canonical_gregorian: {date: 1260-09-03, precision: day, method: attested}
     claims:
@@ -1017,12 +1740,27 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Nawawi
     title_ar: وفاة الإمام النووي
+    title_fr: Décès de l'imam al-Nawawī
     description_en: |
       Author of "Riyad al-Salihin," "al-Arba'in al-Nawawiyya" (the Forty
       Hadith), the "Minhaj" commentary on Sahih Muslim, and foundational
       works of the late Shafi'i madhhab. He led an ascetic life in Damascus
       and refused all paid teaching positions. He died at age 44 in his
       native Nawa, Syria.
+    description_fr: |
+      Auteur de « Riyāḍ al-Ṣāliḥīn », « al-Arbaʿīn al-Nawawiyya »
+      (les Quarante Hadiths), du commentaire « al-Minhāj » sur Ṣaḥīḥ
+      Muslim, et d'œuvres fondatrices du madhhab shāfiʿite tardif.
+      Il mena une vie ascétique à Damas, refusa toute fonction
+      officielle et mourut à 44 ans dans son village natal de Nawā
+      près de Damas. Sa production demeure, à ce jour, parmi les plus
+      lues de la littérature islamique.
+    description_ar: |
+      إمامُ المذهب الشافعيِّ المتأخِّر، صاحبُ «رياض الصالحين»
+      و«الأربعين النوويَّة» وشرح صحيح مسلمٍ «المنهاج». عاش بدمشقَ
+      زاهدًا، ورفض المناصبَ الرسميَّةَ، وتُوفِّي في الرابعة والأربعين
+      بقريته نَوَى قُربَ دمشقَ. ولا تزال مصنَّفاتُه إلى يومنا من
+      أكثر كتب الإسلام انتشارًا.
     canonical_hijri: {year: 676, month: 7, day: 24, precision: day}
     canonical_gregorian: {date: 1277-12-22, precision: day, method: attested}
     claims:
@@ -1037,6 +1775,7 @@ events:
     category: scholar_death
     title_en: Death of Shaykh al-Islam Ibn Taymiyya
     title_ar: وفاة شيخ الإسلام ابن تيمية
+    title_fr: Décès de Shaykh al-Islām Ibn Taymiyya
     description_en: |
       One of the most consequential medieval Muslim thinkers, author of more
       than three hundred works on theology, law, and refutation of heterodox
@@ -1044,6 +1783,23 @@ events:
       for his legal opinions, leaving unfinished commentaries on the Qur'an
       and fiqh. His influence on later revivalist movements — from Ibn al-
       Qayyim to Muhammad ibn Abd al-Wahhab — has been profound.
+    description_fr: |
+      L'un des penseurs musulmans médiévaux les plus conséquents,
+      auteur de plus de trois cents ouvrages de théologie, de droit
+      et de réfutation des sectes hétérodoxes. Il mourut dans la
+      citadelle de Damas où il avait été incarcéré par les autorités
+      mameloukes pour ses opinions juridiques. Ses critiques contre
+      le kalām, le taṣawwuf populaire et certaines pratiques
+      innovantes inspireraient les mouvements de réforme du XVIIIᵉ
+      siècle au présent. Étudiant et héritier intellectuel direct
+      d'Ibn Qayyim al-Jawziyya.
+    description_ar: |
+      من أعظم مفكِّري الإسلام المتأخِّرين، صاحبُ ما يَزيد على ثلاث
+      مئة مصنَّفٍ في العقيدة والفقه والردِّ على الفِرَق الباطنة.
+      تُوفِّي في قلعة دمشقَ سجينًا بأمر سلطاتِ المماليك بسبب آرائه
+      الفقهيَّة. وستُلهم انتقاداتُه للكلام والتصوُّف الشعبيِّ وبعض
+      البدع حركاتِ الإصلاح من القرن الثامن عشر إلى يومنا. ابنُ
+      قيِّم الجوزيَّة هو أوَّلُ تلاميذه ووارثه الفكريّ.
     canonical_hijri: {year: 728, month: 11, day: 20, precision: day}
     canonical_gregorian: {date: 1328-09-26, precision: day, method: attested}
     claims:
@@ -1059,12 +1815,28 @@ events:
     category: scholar_death
     title_en: Death of Ibn Qayyim al-Jawziyya
     title_ar: وفاة ابن قيم الجوزية
+    title_fr: Décès d'Ibn Qayyim al-Jawziyya
     description_en: |
       Principal student of Ibn Taymiyya and prolific author whose works
       include "Zad al-Ma'ad," "Madarij al-Salikin," and "I'lam al-Muwaqqi'in."
       He was imprisoned alongside his teacher and took leadership of the
       revivalist circle after Ibn Taymiyya's death. He died in Damascus and
       is buried in the Bab al-Saghir cemetery.
+    description_fr: |
+      Principal élève d'Ibn Taymiyya et auteur prolifique dont les
+      œuvres comprennent « Zād al-Maʿād », « Madārij al-Sālikīn »
+      et « Iʿlām al-Muwaqqiʿīn ». Il fut emprisonné aux côtés de son
+      maître et prit la tête de l'école taymiyyenne après la mort
+      d'Ibn Taymiyya en 1328. Sa synthèse de la jurisprudence, du
+      taṣawwuf et de l'éthique sunnite influença profondément la
+      tradition ḥanbalite et les mouvements de réforme ultérieurs.
+    description_ar: |
+      أوَّلُ تلامذة ابن تيميَّة، ومن أوسع المؤلِّفين تصنيفًا؛ ومن
+      كتبه «زادُ المعاد» و«مدارجُ السالكين» و«إعلامُ المُوقِّعين».
+      سُجن مع شيخه، وتولَّى زعامةَ المدرسة التيميَّة بعد وفاة ابن
+      تيميَّةَ سنة 1328م. وكان لِجَمعه بين الفقه والتصوُّف والأخلاق
+      السنِّيَّة أثرٌ بالغٌ في المذهب الحنبليِّ وحركات الإصلاح
+      اللاحقة.
     canonical_hijri: {year: 751, month: 7, day: 13, precision: day}
     canonical_gregorian: {date: 1350-09-15, precision: day, method: attested}
     claims:
@@ -1078,12 +1850,26 @@ events:
     category: scholar_death
     title_en: Death of Ibn Kathir
     title_ar: وفاة ابن كثير
+    title_fr: Décès d'Ibn Kathīr
     description_en: |
       Author of "Tafsir al-Qur'an al-'Azim" — one of the most widely read
       classical tafsirs — and "al-Bidaya wa'l-Nihaya," a monumental universal
       history. A student of Ibn Taymiyya, he served as chief mufti and
       professor in Damascus. He went blind in his final years and died in
       his native Damascus.
+    description_fr: |
+      Auteur de « Tafsīr al-Qurʾān al-ʿAẓīm » — l'un des tafsīr
+      classiques les plus lus — et d'« al-Bidāya wa-l-Nihāya »,
+      histoire universelle monumentale. Élève d'Ibn Taymiyya, il
+      servit comme grand mufti shāfiʿite de Damas. Il devint aveugle
+      à la fin de sa vie ; sa veuve continua à lire pour lui les
+      œuvres qu'il continua à dicter.
+    description_ar: |
+      صاحبُ «تفسير القرآن العظيم» — وهو من أوسع التفاسير الكلاسيكيَّة
+      انتشارًا — و«البداية والنهاية»، التاريخ الأمميِّ الضخم. كان من
+      تلامذة ابن تيميَّةَ، وتولَّى الإفتاء الشافعيَّ بدمشقَ. كُفَّ
+      بصرُه آخر عمره؛ فاستمرَّت زوجتُه تَقرأ له الكتب التي بقي
+      يُمليها.
     canonical_hijri: {year: 774, month: 8, precision: month}
     canonical_gregorian: {date: 1373-02-15, precision: month, method: attested}
     claims:
@@ -1097,12 +1883,26 @@ events:
     category: scholar_death
     title_en: Death of Ibn Khaldun
     title_ar: وفاة ابن خلدون
+    title_fr: Décès d'Ibn Khaldūn
     description_en: |
       Author of the "Muqaddima" — widely regarded as the founding work of
       sociology, historiography, and the philosophy of history. After a career
       in the courts of the Maghreb and al-Andalus, he settled in Cairo as
       Maliki chief justice. He is buried in the Sufi cemetery outside Bab
       al-Nasr in Cairo.
+    description_fr: |
+      Auteur de la « Muqaddima » — largement reconnue comme l'œuvre
+      fondatrice de la sociologie, de l'historiographie et de la
+      philosophie de l'histoire. Après une carrière dans les cours
+      du Maghreb et d'al-Andalus, il s'installa au Caire où il servit
+      comme juge en chef mālikite. Il mourut à 73 ans et fut enterré
+      dans le cimetière soufi près de Bāb al-Naṣr.
+    description_ar: |
+      صاحبُ «المقدِّمة»، التي يُعدُّها كثيرون مُؤسِّسةً لعلم الاجتماع
+      والتاريخ والفلسفة التاريخيَّة. بعد خدمته في بلاطات المغرب
+      والأندلس، استقرَّ بالقاهرة وتولَّى قضاءَ المالكيَّة الكبير.
+      تُوفِّي عن ثلاثٍ وسبعين سنةً، ودُفن في مدافن الصوفيَّة قُرب
+      باب النصر.
     canonical_hijri: {year: 808, month: 7, day: 26, precision: day}
     canonical_gregorian: {date: 1406-03-17, precision: day, method: attested}
     claims:
@@ -1116,12 +1916,27 @@ events:
     category: scholar_death
     title_en: Death of Ibn Hajar al-'Asqalani
     title_ar: وفاة ابن حجر العسقلاني
+    title_fr: Décès d'Ibn Ḥajar al-ʿAsqalānī
     description_en: |
       Author of "Fath al-Bari" — the definitive commentary on Sahih al-Bukhari
       — as well as "al-Isaba fi Tamyiz al-Sahaba," "Tahdhib al-Tahdhib," and
       numerous other foundational works in hadith, rijal, and history. He
       served for decades as chief Shafi'i judge of Egypt and is buried in
       al-Qarafa cemetery, Cairo.
+    description_fr: |
+      Auteur de « Fatḥ al-Bārī » — le commentaire de référence sur
+      Ṣaḥīḥ al-Bukhārī — ainsi que d'« al-Iṣāba fī Tamyīz al-Ṣaḥāba »,
+      « Tahdhīb al-Tahdhīb » et de nombreuses autres œuvres
+      fondatrices en ḥadīth, rijāl et histoire. Il fut grand juge
+      shāfiʿite d'Égypte sous les Mamelouks pendant plus de vingt
+      ans. Il mourut au Caire ; ses funérailles auraient été suivies
+      par 50 000 personnes.
+    description_ar: |
+      صاحبُ «فتح الباري» — أعظم شروح صحيح البخاريِّ — و«الإصابة في
+      تمييز الصحابة» و«تهذيب التهذيب» وكثيرٍ من المصنَّفات الأمَّهات
+      في الحديث والرجال والتاريخ. تولَّى قضاءَ الشافعيَّة الأكبر
+      في مصر زمن المماليك أكثرَ من عشرين سنةً. تُوفِّي بالقاهرة،
+      وحضر جنازتَه — كما تُذكر المصادر — خمسون ألفًا.
     canonical_hijri: {year: 852, month: 12, day: 28, precision: day}
     canonical_gregorian: {date: 1449-02-22, precision: day, method: attested}
     claims:
@@ -1139,6 +1954,7 @@ events:
     category: conquest
     title_en: Conquest of Constantinople (Istanbul)
     title_ar: فتح القسطنطينية
+    title_fr: Conquête de Constantinople (Istanbul)
     description_en: |
       After a 53-day siege, Sultan Mehmed II — thereafter called al-Fatih ("the
       Conqueror") — entered Constantinople, ending the 1,123-year-old Eastern
@@ -1148,6 +1964,24 @@ events:
       will surely be conquered; what an excellent commander her commander, and
       what an excellent army that army." The city would become the capital
       of the Ottoman Empire for the next 470 years.
+    description_fr: |
+      Après un siège de 53 jours, le sultan Meḥmed II — désormais
+      appelé al-Fātiḥ (« le Conquérant ») — entra à Constantinople,
+      mettant fin à 1 123 ans d'Empire romain d'Orient. Le sultan
+      de vingt-et-un ans entra à Hagia Sophia le jour même et
+      ordonna sa conversion en mosquée — fonction qu'elle occupa
+      jusqu'à ce qu'Atatürk en fît un musée en 1934 ; elle fut
+      reconvertie en mosquée en 2020. La conquête fit de la ville
+      la capitale de l'Empire ottoman pour les 470 années suivantes.
+    description_ar: |
+      بعد حصارٍ دام ثلاثةً وخمسين يومًا، دخل السلطانُ محمَّد الثاني —
+      الذي عُرف من ذلك الحين بالفاتح — القسطنطينيَّةَ، فأنهى ثلاثةً
+      وعشرين بعد المئةِ والألفِ سنةً من الإمبراطوريَّة الرومانيَّة
+      الشَّرقيَّة. دَخَل السلطانُ ابنُ الواحدة والعشرين كنيسةَ آيا
+      صوفيا في يومه، وأمر بتحويلها مسجدًا — وهي وظيفةٌ ظلَّت عليها
+      حتى جعلها أتاتورك متحفًا سنة 1934، ثم أُعِيدت مسجدًا سنة 2020.
+      وصارت المدينةُ بهذا الفتح عاصمةَ الدولة العثمانيَّة لأربعةٍ
+      وسبعين بعد الأربعمئةِ سنة.
     canonical_hijri: {year: 857, month: 4, day: 20, precision: day}
     canonical_gregorian: {date: 1453-05-29, precision: day, method: attested}
     claims:
@@ -1161,6 +1995,7 @@ events:
     category: battle
     title_en: Battle of Mohács
     title_ar: معركة موهاكس
+    title_fr: Bataille de Mohács
     description_en: |
       Sultan Suleiman the Magnificent decisively defeated the Hungarian army
       of King Louis II at Mohács in southern Hungary, killing the king and
@@ -1168,6 +2003,22 @@ events:
       under Ottoman rule and opened the path to the first Siege of Vienna
       three years later. It marks the Ottoman high-water mark in central
       Europe.
+    description_fr: |
+      Le sultan Soliman le Magnifique défit de manière décisive
+      l'armée hongroise du roi Louis II à Mohács, dans le sud de la
+      Hongrie, tuant le roi et la majeure partie de la noblesse
+      hongroise. La victoire amena la majeure partie de la Hongrie
+      sous administration ottomane pendant un siècle et demi et fit
+      des Habsbourg les voisins occidentaux directs des Ottomans —
+      fixant la frontière qui définirait la diplomatie européenne
+      des trois siècles suivants.
+    description_ar: |
+      هَزَم السلطانُ سليمانُ القانونيُّ الجيشَ المجريَّ تحت الملك
+      لُوي الثاني في موهاكسَ بجنوب المجر هزيمةً ساحقةً، فقُتل الملك
+      ومعظم نُبلاء المجر. وأَدَّى النصرُ إلى ضمِّ معظم المجر إلى
+      الإدارة العثمانيَّة قرنًا ونصفًا، وجعل آلَ هابسبورغ جيرانَ
+      العثمانيِّين الغربيِّين المباشرين — فثَبَّتت الحدودَ التي
+      ستحدِّد الدبلوماسيَّةَ الأوروبيَّةَ ثلاثةَ قرون.
     canonical_hijri: {year: 932, month: 12, day: 21, precision: day}
     canonical_gregorian: {date: 1526-08-29, precision: day, method: attested}
     claims:
@@ -1181,6 +2032,7 @@ events:
     category: caliph_event
     title_en: Death of Sultan Suleiman the Magnificent
     title_ar: وفاة السلطان سليمان القانوني
+    title_fr: Décès du sultan Soliman le Magnifique
     description_en: |
       Suleiman I — known in the West as "the Magnificent" and to his subjects
       as "al-Qanuni" (the Lawgiver) for his codification of Ottoman law — died
@@ -1188,6 +2040,23 @@ events:
       Ottoman Empire reached its zenith in wealth, territorial extent, and
       cultural achievement. His death was concealed for weeks so the campaign
       could continue.
+    description_fr: |
+      Soliman Iᵉʳ — connu en Occident comme « le Magnifique » et
+      auprès de ses sujets comme al-Qānūnī (« le Législateur ») pour
+      sa codification du droit ottoman — mourut durant le siège de
+      Szigetvár en Hongrie. Sous son règne de 46 ans, l'Empire
+      ottoman atteignit sa plus grande extension géographique et son
+      apogée culturel : architecture sinanienne, codification
+      juridique, et littérature classique. Sa mort fut tenue secrète
+      pendant plusieurs semaines pour préserver le moral de l'armée.
+    description_ar: |
+      تُوفِّي السلطانُ سليمانُ الأوَّل — الذي عُرف في الغرب
+      بـ«العظيم»، وعند رعيَّته بالقانونيِّ لتدوينه التشريعَ العثمانيَّ —
+      في حصار مدينة سيغيتفار بالمجر. وفي عهده الذي امتدَّ ستًّا
+      وأربعين سنةً بلغت الدولةُ العثمانيَّةُ أقصى اتِّساعها الجغرافيِّ
+      وذِروَتها الثقافيَّة: عمارةُ سنانٍ، وتدوينُ القانون، والأدبُ
+      الكلاسيكيُّ العثمانيُّ. كُتم نبأُ موته أسابيعَ إبقاءً على معنويَّات
+      الجيش.
     canonical_hijri: {year: 974, month: 4, day: 21, precision: day}
     canonical_gregorian: {date: 1566-09-06, precision: day, method: attested}
     claims:
@@ -1201,6 +2070,7 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Suyuti
     title_ar: وفاة الإمام السيوطي
+    title_fr: Décès de l'imam al-Suyūṭī
     description_en: |
       One of the most prolific Muslim scholars of all time, credited with
       approximately 600 works across tafsir, hadith, fiqh, Arabic language,
@@ -1208,6 +2078,20 @@ events:
       teacher al-Mahalli), "al-Itqan fi Ulum al-Qur'an," and "Tarikh al-
       Khulafa'." He spent his final decades in seclusion on Rawda Island in
       the Nile, refusing all company and visitors.
+    description_fr: |
+      L'un des savants musulmans les plus prolifiques de l'histoire,
+      à qui l'on attribue environ 600 ouvrages couvrant le tafsīr,
+      le ḥadīth, le fiqh, la langue arabe et l'histoire — y compris
+      le « Tafsīr al-Jalālayn » (coécrit avec son maître al-Maḥallī).
+      Il se retira à 40 ans dans son ermitage du Caire (Rawḍat
+      al-Miqyās), refusant toute charge officielle. Il mourut au
+      Caire à 60 ans.
+    description_ar: |
+      من أكثر علماء المسلمين تأليفًا في التاريخ، نُسب إليه نحو ستِّ
+      مئة مصنَّفٍ في التفسير والحديث والفقه واللغة العربيَّة
+      والتاريخ — منها «تفسير الجلالَين» مع شيخه المحلِّي. اعتزل في
+      الأربعين من عمره في خَلوته بروضة المقياس بالقاهرة، رافضًا
+      كلَّ منصبٍ رسميٍّ. تُوفِّي بالقاهرة عن ستِّين سنة.
     canonical_hijri: {year: 911, month: 10, day: 19, precision: day}
     canonical_gregorian: {date: 1505-10-17, precision: day, method: attested}
     claims:
