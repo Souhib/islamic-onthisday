@@ -109,9 +109,21 @@ body {
   color: var(--accent);
 }
 
-/* Reset for `<button>` used as a click target with no visible button chrome. */
+/* Surgical reset for `<button>` (and `<a>`) used as a click target with no
+   visible button chrome. ``all: unset`` was tempting but it also wipes
+   ``gap``, ``flex``, and other Tailwind utilities co-applied to the same
+   element — so we reset only the properties we actually need to neutralise
+   (default button/link chrome) and leave layout utilities to do their job. */
 .iotd-pick {
-  all: unset;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: none;
   cursor: pointer;
   display: block;
   width: 100%;
