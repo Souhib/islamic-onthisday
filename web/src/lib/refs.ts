@@ -228,3 +228,39 @@ export function splitRefs(refs: string | null | undefined): string[] {
     .map((r) => r.trim())
     .filter(Boolean);
 }
+
+// Heuristic — does ``piece`` look like a Qurʾān citation?
+// Hits any of:
+//   - bare ``\d+:\d+`` (surah:ayah) anywhere in the piece
+//   - prefix words: Qur'an / Quran / Coran / Surah / Sourate / al-Qurʾān
+const _QURAN_HINT = /(\bqur['ʾ]?[āa]n\b|\bcoran\b|\bsurah?\b|\bsourate\b|\d+:\d+)/i;
+
+function _looksLikeQuran(piece: string): boolean {
+  return _QURAN_HINT.test(piece);
+}
+
+/**
+ * Reorder a freeform reference string so any Qurʾān citation appears
+ * first, while preserving the original order for non-Qurʾān parts.
+ *
+ * Editorial rule: the Qurʾān precedes every other source — when a row
+ * cites both a verse and a hadith, the verse comes first regardless of
+ * how the curator typed it in the YAML.
+ *
+ * Splits on ``;`` (the dataset's primary separator for distinct refs).
+ * Commas are left alone because they're used inside multi-ayah groups
+ * like "2:255, 3:97". Whitespace is normalised; an input that doesn't
+ * need reordering is returned unchanged.
+ */
+export function reorderRefsQuranFirst(refs: string | null | undefined): string {
+  if (!refs) return "";
+  const parts = refs
+    .split(";")
+    .map((p) => p.trim())
+    .filter(Boolean);
+  if (parts.length <= 1) return refs.trim();
+  const quran = parts.filter(_looksLikeQuran);
+  const rest = parts.filter((p) => !_looksLikeQuran(p));
+  if (quran.length === 0) return refs.trim();
+  return [...quran, ...rest].join("; ");
+}

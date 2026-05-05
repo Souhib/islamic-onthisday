@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { FriezeRule } from "@/components/design";
 import { pickLocalised, pickLocalisedList, useLanguage } from "@/providers/LanguageProvider";
 import type { LessonDetail } from "@/api/generated/types.gen";
+import { reorderRefsQuranFirst } from "@/lib/refs";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -55,7 +56,9 @@ export function LessonReader({ lesson }: Props) {
 
       {lesson.reference && (
         <div className="mt-9 flex flex-wrap items-baseline gap-[18px]">
-          <span className="font-serif text-[18px] italic text-ink">{lesson.reference}</span>
+          <span className="font-serif text-[18px] italic text-ink">
+            {reorderRefsQuranFirst(lesson.reference)}
+          </span>
         </div>
       )}
 

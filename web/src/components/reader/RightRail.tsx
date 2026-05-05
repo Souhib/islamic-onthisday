@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FriezeRule } from "@/components/design";
 import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 import type { EventDetail, LessonDetail, ObservanceRef } from "@/api/generated/types.gen";
-import { parseHadithRef, parseQuranRef, splitRefs } from "@/lib/refs";
+import { parseHadithRef, parseQuranRef, reorderRefsQuranFirst, splitRefs } from "@/lib/refs";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -117,7 +117,7 @@ export function RightRail({ item, observance }: Props) {
             {reference && (
               <div className={ROW_CLASS}>
                 <div className="font-serif text-[16.5px] font-medium leading-[1.2] text-ink">
-                  {reference}
+                  {reorderRefsQuranFirst(reference)}
                 </div>
                 <div className="mt-1 font-mono text-[11px] uppercase tracking-[0.6px] text-ink-mute">
                   {t("primary")}

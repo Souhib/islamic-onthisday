@@ -4,7 +4,7 @@
 // pin the patterns we promise to handle.
 
 import { describe, expect, it } from "vitest";
-import { parseHadithRef, parseQuranRef, splitRefs } from "./refs";
+import { parseHadithRef, parseQuranRef, reorderRefsQuranFirst, splitRefs } from "./refs";
 
 describe("parseQuranRef", () => {
   it("parses a single-ayah reference", () => {
@@ -92,5 +92,54 @@ describe("splitRefs", () => {
     expect(splitRefs(undefined)).toEqual([]);
     expect(splitRefs("")).toEqual([]);
     expect(splitRefs("   ")).toEqual([]);
+  });
+});
+
+describe("reorderRefsQuranFirst", () => {
+  it("moves a Qur'an piece in front of a hadith piece", () => {
+    expect(reorderRefsQuranFirst("Sahih Muslim 2963; Qur'an 18:32-44")).toBe(
+      "Qur'an 18:32-44; Sahih Muslim 2963",
+    );
+  });
+
+  it("recognises bare surah:ayah as a Qur'an ref", () => {
+    expect(reorderRefsQuranFirst("Bukhari 660; 2:255")).toBe("2:255; Bukhari 660");
+  });
+
+  it("preserves the original order when Qur'an is already first", () => {
+    expect(reorderRefsQuranFirst("Qur'an 2:255; Bukhari 660")).toBe(
+      "Qur'an 2:255; Bukhari 660",
+    );
+  });
+
+  it("preserves order between non-Qur'an pieces", () => {
+    expect(reorderRefsQuranFirst("al-Tabari, Tarikh; Ibn Kathir; Qur'an 2:255")).toBe(
+      "Qur'an 2:255; al-Tabari, Tarikh; Ibn Kathir",
+    );
+  });
+
+  it("matches French 'Coran' and 'Sourate' prefixes", () => {
+    expect(reorderRefsQuranFirst("Bukhari 1; Coran 1:1")).toBe("Coran 1:1; Bukhari 1");
+    expect(reorderRefsQuranFirst("Muslim 2; Sourate al-Baqara 2:255")).toBe(
+      "Sourate al-Baqara 2:255; Muslim 2",
+    );
+  });
+
+  it("leaves single-piece strings untouched", () => {
+    expect(reorderRefsQuranFirst("Bukhari 1")).toBe("Bukhari 1");
+    expect(reorderRefsQuranFirst("Qur'an 2:255")).toBe("Qur'an 2:255");
+  });
+
+  it("does not split on commas (multi-ayah refs stay intact)", () => {
+    expect(reorderRefsQuranFirst("Qur'an 2:255, 3:97")).toBe("Qur'an 2:255, 3:97");
+    expect(reorderRefsQuranFirst("Bukhari 660; Qur'an 2:255, 3:97")).toBe(
+      "Qur'an 2:255, 3:97; Bukhari 660",
+    );
+  });
+
+  it("returns empty for null / undefined / empty", () => {
+    expect(reorderRefsQuranFirst(null)).toBe("");
+    expect(reorderRefsQuranFirst(undefined)).toBe("");
+    expect(reorderRefsQuranFirst("")).toBe("");
   });
 });
