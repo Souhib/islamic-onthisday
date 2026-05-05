@@ -6,6 +6,8 @@ lessons:
   - slug: hadith-seven-shaded
     category: hadith_narrative
     title_en: The Seven Whom Allah Will Shade on the Day of Judgment
+    title_fr: Les sept que Dieu ombragera au Jour du Jugement
+    title_ar: السبعة الذين يظلّهم الله يوم القيامة
     description_en: |
       The Prophet ﷺ said: "There are seven whom Allah will shade in His
       shade on the day when there will be no shade but His: a just
@@ -16,6 +18,24 @@ lessons:
       he said 'I fear Allah'; one who gave in charity so secretly that
       his left hand did not know what his right hand gave; and one who
       remembered Allah in seclusion, and his eyes overflowed."
+    description_fr: |
+      Le Prophète ﷺ a dit : « Sept que Dieu ombragera de Son ombre le
+      jour où il n'y aura d'ombre que la Sienne : un dirigeant juste ;
+      un jeune qui a grandi dans l'adoration d'Allah ; un homme dont le
+      cœur est attaché aux mosquées ; deux qui s'aiment pour la cause
+      d'Allah, se rencontrant pour cela et se séparant sur cela ; un
+      homme qu'une femme de beauté et de rang a invité [au mal] et qui
+      a dit : « Je crains Allah » ; celui qui a donné en aumône si
+      secrètement que sa main gauche n'a pas su ce que sa main droite
+      avait donné ; et celui qui s'est souvenu d'Allah dans l'isolement,
+      et ses yeux ont débordé de larmes. »
+    description_ar: |
+      قال النبي ﷺ: «سبعةٌ يُظِلُّهم الله في ظلِّه يوم لا ظلَّ إلا ظلُّه:
+      إمامٌ عادلٌ، وشابٌّ نشأ في عبادة الله، ورجلٌ قلبُه معلَّقٌ بالمساجد،
+      ورجلان تحابَّا في الله اجتمعا عليه وتفرَّقا عليه، ورجلٌ دعتْه امرأةٌ
+      ذاتُ منصبٍ وجمالٍ فقال: إني أخاف الله، ورجلٌ تصدَّق بصدقةٍ فأخفاها
+      حتى لا تعلم شمالُه ما تُنفق يمينُه، ورجلٌ ذكر الله خاليًا ففاضت
+      عيناه».
     reference: Sahih al-Bukhari 660, Sahih Muslim 1031
     hadith_refs: "Bukhari 660, Muslim 1031"
     source_notes: |
@@ -29,6 +49,8 @@ lessons:
   - slug: hadith-thirsty-dog
     category: hadith_narrative
     title_en: The Man Who Gave Water to a Thirsty Dog
+    title_fr: L'homme qui donna à boire à un chien assoiffé
+    title_ar: الرجل الذي سقى الكلب العطشان
     description_en: |
       The Prophet ﷺ said: "While a man was walking, he felt thirsty and
       went down a well and drank water from it. On climbing out, he saw
@@ -39,6 +61,23 @@ lessons:
       deed and forgave him." The Companions asked: "O Messenger of
       Allah, is there a reward for us in serving animals?" He said:
       "There is a reward for serving any living creature."
+    description_fr: |
+      Le Prophète ﷺ a raconté : « Pendant qu'un homme marchait, il eut
+      soif et descendit dans un puits pour y boire. En remontant, il vit
+      un chien haletant qui mangeait la boue tant il avait soif. L'homme
+      dit : « Ce chien souffre du même mal que moi. » Il remplit alors
+      sa chaussure d'eau, la tint entre ses dents, remonta et donna à
+      boire au chien. Allah lui en fut reconnaissant et lui pardonna. »
+      Les Compagnons demandèrent : « Ô Messager d'Allah, sommes-nous
+      récompensés pour le service rendu aux animaux ? » Il répondit :
+      « Servir tout être vivant est récompensé. »
+    description_ar: |
+      روى النبي ﷺ: «بينما رجلٌ يمشي اشتدَّ عليه العطشُ فنزل بئرًا فشرب
+      منها، فلما خرج إذا كلبٌ يلهَث يأكل الثرى من العطش، فقال الرجل: لقد
+      بلغ هذا الكلبَ من العطشِ مثلُ الذي كان قد بلغ منِّي، فملأ خُفَّه
+      ماءً ثم أمسكه بفِيه ورقي حتى سقاه، فشكر الله له فغفر له». فقال
+      الصحابة: «يا رسول الله، وإنَّ لنا في البهائم أجرًا؟» قال: «في كلِّ
+      كَبِدٍ رَطْبَةٍ أجرٌ».
     reference: Sahih al-Bukhari 2363, Sahih Muslim 2244
     hadith_refs: "Bukhari 2363, Muslim 2244"
     source_notes: |
@@ -52,6 +91,8 @@ lessons:
   - slug: hadith-cat-imprisoned
     category: hadith_narrative
     title_en: The Woman Punished Because of a Cat
+    title_fr: La femme châtiée à cause d'un chat
+    title_ar: المرأة التي عُذِّبت في هرَّة
     description_en: |
       The Prophet ﷺ said: "A woman was punished on account of a cat
       which she had imprisoned until it died. She entered the Fire
@@ -60,6 +101,21 @@ lessons:
       the earth." The hadith juxtaposes directly against the story of
       the thirsty dog — showing that mercy and cruelty to animals both
       have real consequences in the hereafter.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Une femme fut châtiée à cause d'un chat
+      qu'elle avait emprisonné jusqu'à ce qu'il meure. Elle entra en
+      Enfer à cause de lui : elle ne lui donnait ni nourriture ni eau
+      tant qu'elle le retenait, et elle ne le libérait pas non plus pour
+      qu'il se nourrisse des insectes de la terre. » Le ḥadīth fait
+      directement écho au récit du chien assoiffé — montrant que la
+      miséricorde et la cruauté envers les animaux ont chacune des
+      conséquences réelles dans l'au-delà.
+    description_ar: |
+      قال النبي ﷺ: «عُذِّبت امرأةٌ في هرَّةٍ سَجَنَتْها حتى ماتت، فدخلت فيها
+      النار؛ لا هي أطعمتْها وسقتْها إذ حبستْها، ولا هي تركتْها تأكل من
+      خشاش الأرض». ويأتي هذا الحديث في مقابلة مباشرة لحديث الكلب العطشان
+      — مبيِّنًا أنَّ الرحمة والقسوة على الحيوان كلتيهما تترتَّب عليهما
+      عواقبُ حقيقيَّةٌ في الآخرة.
     reference: Sahih al-Bukhari 3482, Sahih Muslim 2242
     hadith_refs: "Bukhari 3482, Muslim 2242"
     source_notes: |
@@ -73,6 +129,8 @@ lessons:
   - slug: hadith-uways-al-qarni
     category: hadith_narrative
     title_en: Uways al-Qarni — Known in the Heavens, Unknown on Earth
+    title_fr: Uways al-Qaranī — connu dans les cieux, ignoré sur terre
+    title_ar: أويس القَرَني — معروفٌ في السماء، مجهولٌ في الأرض
     description_en: |
       The Prophet ﷺ foretold to 'Umar ibn al-Khattab the coming of a man
       named Uways from Yemen — described as suffering from leucoderma,
@@ -85,6 +143,26 @@ lessons:
       its reception. The narrative makes Uways the pattern of the
       unknown saint — unrecognised in the earthly register but prominent
       among the angels, by virtue of devotion and care for his mother.
+    description_fr: |
+      Le Prophète ﷺ annonça à ʿUmar ibn al-Khaṭṭāb la venue d'un homme
+      nommé Uways du Yémen — décrit comme atteint de leucodermie et
+      dévoué à sa mère — et lui ordonna de solliciter sa supplication
+      pour le pardon s'il le rencontrait. ʿUmar interrogea chaque année
+      les pèlerins yéménites jusqu'à ce qu'il trouve Uways, qui confirma
+      les signes, et ʿUmar lui dit : « Demande pardon pour moi. » Les
+      commentateurs classiques (al-Nawawī dans Sharḥ Ṣaḥīḥ Muslim) ont
+      résumé Uways comme « le meilleur des Tābiʿīn » sur la foi de ce
+      ḥadīth. Le récit fait d'Uways le modèle du saint inconnu —
+      ignoré du registre terrestre mais éminent parmi les anges, par la
+      vertu de sa dévotion et de son soin envers sa mère.
+    description_ar: |
+      أخبر النبي ﷺ عمرَ بنَ الخطَّاب بقدوم رجلٍ من اليمن اسمه أويس —
+      وَصَفَه بالبَرَص وبالبرِّ بأمِّه — وأمره أن يلتمس منه الاستغفار إن
+      لقيه. فكان عمرُ يسأل أهلَ اليمن في كلِّ موسمٍ حتى وجده، فأكَّد
+      الأوصاف، فقال له عمر: «استغفر لي». ولخَّص الشرَّاح الكبار (النوويُّ
+      في شرح صحيح مسلم) أويسًا بأنه «خير التابعين» اعتمادًا على هذا
+      الحديث. ويصير أويسٌ في هذه الرواية مثالَ الوليِّ المجهول — لا يعرفه
+      أهلُ الأرض، ولكنَّه شهيرٌ في الملأ الأعلى ببرِّه بأمِّه وعبادته.
     reference: Sahih Muslim 2542
     source_notes: |
       Al-Nawawī (Sharḥ Muslim) calls Uways "the best of the Tābiʿīn" on the strength of this hadith, noting that the Prophet's ﷺ instruction to ʿUmar ra to seek his supplication establishes the legitimacy of requesting duʿāʾ from the righteous. Ibn Ḥajar adds that Uways's leucoderma and devotion to his mother elevated him above those more visible in society. The hadith affirms that spiritual rank is not measured by worldly recognition.
@@ -98,6 +176,8 @@ lessons:
   - slug: hadith-prostitute-and-dog
     category: hadith_narrative
     title_en: A Prostitute Forgiven for Giving Water to a Dog
+    title_fr: Une prostituée pardonnée pour avoir abreuvé un chien
+    title_ar: البَغِيُّ التي غُفِر لها بسقي كلبٍ
     description_en: |
       The Prophet ﷺ narrated: "A prostitute from the Children of Israel
       saw a dog on a hot day going around a well, its tongue hanging out
@@ -107,6 +187,21 @@ lessons:
       that mercy can atone for lives otherwise defined by sin, and that
       Allah's forgiveness is not constrained by the standing of a deed's
       author.
+    description_fr: |
+      Le Prophète ﷺ a rapporté : « Une prostituée des Banū Isrāʾīl vit
+      un chien tourner autour d'un puits par un jour de chaleur, la
+      langue pendante de soif. Elle ôta sa chaussure, l'attacha à son
+      voile et puisa de l'eau pour lui. Allah lui pardonna pour cela. »
+      Le ḥadīth — rapporté en parallèle de celui du chat — souligne
+      que la miséricorde peut racheter des vies autrement marquées par
+      le péché, et que le pardon divin n'est pas conditionné par le
+      rang social de l'auteur d'une bonne action.
+    description_ar: |
+      روى النبي ﷺ: «بينما كلبٌ يطوف ببئرٍ قد كاد يقتله العطشُ، إذ رأته
+      بَغِيٌّ من بَغَايا بني إسرائيل، فنزعت موقَها فاستقت له فسقتْه إيَّاه،
+      فغُفِر لها به». ويرد هذا الحديث مَقْرونًا بحديث الهرَّة — مؤكِّدًا
+      أنَّ الرحمة تُكَفِّر حتى الحياةَ الموسومة بالذنوب، وأنَّ الغفران
+      الإلهيَّ لا يحدُّه مقامُ صاحب العمل في المجتمع.
     reference: Sahih al-Bukhari 3321, Sahih Muslim 2245
     hadith_refs: "Bukhari 3321, Muslim 2245"
     source_notes: |
@@ -121,6 +216,8 @@ lessons:
   - slug: hadith-umar-conversion
     category: hadith_narrative
     title_en: The Conversion of Umar ibn al-Khattab
+    title_fr: La conversion de ʿUmar ibn al-Khaṭṭāb
+    title_ar: إسلام عمر بن الخطَّاب
     description_en: |
       Umar ibn al-Khattab set out with a drawn sword to kill the Prophet
       ﷺ. On the way he learnt that his sister Fatima and her husband had
@@ -132,6 +229,24 @@ lessons:
       once; he went to the Prophet ﷺ and declared his Islam. The
       Muslims, until then worshipping in hiding, prayed openly at the
       Ka'ba for the first time.
+    description_fr: |
+      ʿUmar ibn al-Khaṭṭāb sortit, l'épée tirée, pour tuer le Prophète
+      ﷺ. En chemin, il apprit que sa sœur Fāṭima et son mari avaient
+      embrassé l'Islam. Furieux, il fit irruption chez eux et frappa sa
+      sœur ; voyant le sang et sa fermeté, il se repentit et demanda à
+      lire ce qu'ils avaient. Ils refusèrent tant qu'il ne fit pas le
+      ghusl (il était en état d'impureté mineure). Il se lava et lut le
+      début de la sourate Ṭā Hā. Son cœur s'ouvrit aussitôt ; il alla
+      auprès du Prophète ﷺ et déclara son Islam. Les musulmans, qui
+      jusque-là priaient en cachette, prièrent pour la première fois
+      ouvertement à la Kaʿba.
+    description_ar: |
+      خرج عمر بن الخطَّاب وسيفُه مسلولٌ يريد قتل النبي ﷺ، فأُخبِر في
+      الطريق أنَّ أختَه فاطمة وزوجها قد أسلما. فاحتدَّ ودخل عليهما فضرب
+      أختَه، فلمَّا رأى الدم وثباتَها ندم وطلب أن يقرأ ما عندهما. فأبَيا
+      حتى يغتسل (كان جنبًا)، فاغتسل وقرأ مطلع سورة طه، فانشرح قلبُه
+      للحال، فجاء النبيَّ ﷺ وأعلن إسلامَه. وصلَّى المسلمون — وكانوا حتى
+      ذلك الحين يصلُّون سرًّا — لأوَّل مرَّةٍ ظاهرين عند الكعبة.
     reference: al-Sira al-Nabawiyya (Ibn Hisham); cf. classical muhaddithin
     source_notes: |
       Ibn Ḥajar (Fatḥ al-Bārī) treats ʿUmar's conversion as a turning point in Islamic history, noting that the Prophet ﷺ had prayed for Allah to strengthen Islam through one of two men — ʿUmar or Abū Jahl. Al-Nawawī adds that ʿUmar's public declaration of Islam at the Kaʿba, immediately after his conversion, demonstrated that true faith generates courage rather than caution. While narrated in sīra works, the incident is corroborated by multiple Companion reports.
@@ -144,6 +259,8 @@ lessons:
   - slug: hadith-salman-conversion
     category: hadith_narrative
     title_en: The Conversion of Salman al-Farisi
+    title_fr: La conversion de Salmān al-Fārisī
+    title_ar: إسلام سلمان الفارسي
     description_en: |
       Salman, the son of a Persian Zoroastrian village chief, was drawn
       from his father's religion to Christianity, then followed a
@@ -156,6 +273,26 @@ lessons:
       companion who proposed the digging of the Trench at the siege of
       Madinah. The Prophet ﷺ called him: "Salman is one of us, Ahl
       al-Bayt."
+    description_fr: |
+      Salmān, fils du chef d'un village zoroastrien perse, fut détourné
+      de la religion de son père vers le christianisme, puis suivit une
+      succession d'évêques pieux à travers la Syrie qui chacun le
+      renvoyaient au suivant. Le dernier l'orienta vers la recherche du
+      prophète final, en lui décrivant ses signes : le sceau de la
+      prophétie entre les épaules, son acceptation des présents mais
+      son refus de l'aumône. En route, une tribu le réduisit en
+      esclavage et l'amena à Yathrib. Il y rencontra le Prophète ﷺ,
+      vérifia les signes et embrassa l'Islam. Ce fut lui qui proposa de
+      creuser le Fossé lors du siège de Madīna. Le Prophète ﷺ dit de
+      lui : « Salmān est des nôtres, Ahl al-Bayt. »
+    description_ar: |
+      كان سلمان ابنَ زعيم قريةٍ مجوسيَّةٍ فارسيَّة، فانصرف عن دين أبيه إلى
+      النصرانيَّة، ثم تتبَّع جماعةً من الرهبان الصالحين في الشام، يُحيله كلُّ
+      واحدٍ إلى من بعده. فأرشده آخرُهم إلى طلبِ النبيِّ الخاتم وذكر له
+      علاماته: خاتمَ النبوَّة بين كتفيه، وقَبولَه الهديَّة دون الصدقة.
+      فاسترقَّتْه قبيلةٌ في الطريق وجاءت به إلى يثرب، فلقي النبيَّ ﷺ،
+      واختبر العلامات وأسلم. وهو الذي أشار بحفر الخندق في غزوة الأحزاب،
+      فقال فيه النبي ﷺ: «سلمانُ منَّا أهلَ البيت».
     reference: Ibn Hisham, al-Sira al-Nabawiyya; al-Shama'il al-Muhammadiyya 21 (Hasan); Musnad Ahmad (long-form Salman narration)
     source_notes: |
       Ibn Ḥajar traces Salmān's journey through three religions as a divine preparation that made him uniquely able to recognize the final Prophet ﷺ. Al-Nawawī notes that the Prophet's ﷺ statement "Salman is one of us, Ahl al-Bayt" is a unique honor for a non-Arab Companion, establishing that lineage in Islam is measured by faith and service, not blood. The hadith is frequently cited in discussions of racial equality in the ummah.
@@ -168,6 +305,8 @@ lessons:
   - slug: hadith-bedouin-mosque
     category: hadith_narrative
     title_en: The Bedouin Who Urinated in the Mosque
+    title_fr: Le bédouin qui urina dans la mosquée
+    title_ar: الأعرابي الذي بال في المسجد
     description_en: |
       A bedouin entered the Prophet's ﷺ mosque in Madinah and began to
       urinate in a corner. The Companions rushed to stop him, but the
@@ -178,6 +317,24 @@ lessons:
       Qur'an." He then ordered a bucket of water to be poured over the
       spot. The bedouin later said: "May Allah have mercy on me and
       Muhammad, and no one else."
+    description_fr: |
+      Un bédouin entra dans la mosquée du Prophète ﷺ à Madīna et se
+      mit à uriner dans un coin. Les Compagnons se précipitèrent pour
+      l'arrêter, mais le Prophète ﷺ les retint : « Laissez-le, ne
+      l'interrompez pas. » Lorsqu'il eut terminé, le Prophète ﷺ
+      l'appela et lui dit avec douceur : « Ces mosquées ne sont
+      destinées ni à l'urine ni à la souillure ; elles sont pour
+      l'évocation d'Allah, la prière et la récitation du Coran. » Il
+      ordonna ensuite qu'un seau d'eau soit versé sur l'endroit. Le
+      bédouin dit plus tard : « Ô Allah, fais-moi miséricorde et fais
+      miséricorde à Muḥammad, et à personne d'autre. »
+    description_ar: |
+      دخل أعرابيٌّ مسجدَ النبيِّ ﷺ بالمدينة، فقام يبول في ناحيةٍ منه.
+      فأسرع الصحابة إليه ليكفُّوه، فقال النبي ﷺ: «دَعُوه ولا تُزْرِمُوه».
+      فلما فرغ، دعاه النبي ﷺ ولاطفَه: «إنَّ هذه المساجد لا تصلح لشيءٍ
+      من هذا البول ولا القَذَر، إنما هي لذكر الله، والصلاة، وقراءة
+      القرآن». ثم أمر بذَنوبٍ من ماءٍ فأُهريق على الموضع. وقال الأعرابيُّ
+      بعد ذلك: «اللهم ارحمني ومحمَّدًا، ولا ترحم معنا أحدًا».
     reference: Sahih al-Bukhari 220, Sahih Muslim 285
     hadith_refs: "Bukhari 220, Muslim 285"
     source_notes: |
@@ -191,6 +348,8 @@ lessons:
   - slug: hadith-mu-adh-i-love-you
     category: hadith_narrative
     title_en: "O Mu'adh, I Love You"
+    title_fr: « Ô Muʿādh, je t'aime »
+    title_ar: «يا معاذُ، إنِّي أحبُّك»
     description_en: |
       The Prophet ﷺ took Mu'adh ibn Jabal's hand and said: "O Mu'adh, by
       Allah, I love you." Then he said: "I advise you, O Mu'adh — do not
@@ -200,6 +359,22 @@ lessons:
       preserves both an expression of personal love from the Prophet ﷺ
       toward one of his close companions and a specific supplication
       that has become standard in the post-prayer litany.
+    description_fr: |
+      Le Prophète ﷺ prit la main de Muʿādh ibn Jabal et lui dit :
+      « Ô Muʿādh, par Allah, je t'aime. » Puis il ajouta : « Je te
+      recommande, ô Muʿādh — ne manque pas de dire après chaque prière :
+      « Allāhumma aʿinnī ʿalā dhikrika wa shukrika wa ḥusni ʿibādatik »
+      (Ô Allah, aide-moi à T'évoquer, à Te remercier et à T'adorer comme
+      il convient). » Le ḥadīth conserve à la fois une expression
+      d'amour personnel du Prophète ﷺ envers l'un de ses proches
+      Compagnons et une supplication précise devenue partie intégrante
+      de l'Adhkār d'après-prière.
+    description_ar: |
+      أخذ النبيُّ ﷺ بيد معاذ بن جبلٍ وقال: «يا معاذُ، والله إنِّي
+      أحبُّك». ثم قال: «أُوصيك يا معاذُ، لا تَدَعَنَّ في دُبُر كلِّ صلاةٍ
+      أن تقول: اللهم أَعِنِّي على ذكرك وشكرك وحسن عبادتك». فجمع هذا
+      الحديث بين إعلانٍ شخصيٍّ من النبي ﷺ بحبِّ أحد أَخَصِّ صحبه، ودعاءٍ
+      بعينه صار رُكنًا في أذكار ما بعد الصلاة.
     reference: Sunan Abi Dawud 1522, Sunan an-Nasa'i 1303; graded sahih
     hadith_refs: "Abu Dawud 1522, Nasa'i 1303"
     source_notes: |
@@ -213,6 +388,8 @@ lessons:
   - slug: hadith-three-questions-of-grave
     category: hadith_narrative
     title_en: The Three Questions of the Grave
+    title_fr: Les trois questions de la tombe
+    title_ar: أسئلة القبر الثلاثة
     description_en: |
       The Prophet ﷺ described the interrogation every person undergoes
       after death: two angels come and ask, "Who is your Lord?" (the
@@ -223,6 +400,23 @@ lessons:
       illuminated until the resurrection. The Prophet ﷺ used to seek
       refuge with Allah from the punishment of the grave at the end of
       every salah.
+    description_fr: |
+      Le Prophète ﷺ a décrit l'interrogatoire que subit toute personne
+      après la mort : deux anges viennent et demandent : « Qui est ton
+      Seigneur ? » (la réponse du croyant : « Mon Seigneur est Allah »),
+      « Quelle est ta religion ? » (« Ma religion est l'Islam »), et
+      « Que dis-tu de cet homme qui fut envoyé parmi vous ? » (« Il est
+      Muḥammad, le Messager d'Allah »). La tombe du croyant est alors
+      élargie et illuminée jusqu'à la résurrection. Le Prophète ﷺ
+      cherchait refuge auprès d'Allah contre le châtiment de la tombe à
+      la fin de chaque ṣalāh.
+    description_ar: |
+      وصف النبيُّ ﷺ سؤال القبر الذي يخضع له كلُّ إنسانٍ بعد الموت:
+      يأتيه ملكان فيقولان: «من ربُّك؟» (فيقول المؤمن: «ربيَ الله»)،
+      «ما دينُك؟» («ديني الإسلام»)، «ما تقول في هذا الرجل الذي بُعث
+      فيكم؟» («هو محمدٌ رسول الله»)، فيُفسَح للمؤمن في قبره ويُنوَّر له
+      إلى يوم البعث. وكان النبي ﷺ يستعيذ بالله من عذاب القبر في خاتمة
+      كلِّ صلاة.
     reference: Sunan Abi Dawud 4753 (Sahih per al-Albani); supplementary narrations of al-Bara' ibn 'Azib in Musnad Ahmad
     source_notes: |
       Ibn Ḥajar explains that the three questions correspond to the three foundations of religion: Lord (tawḥīd), religion (dīn), and messenger (risāla). Al-Nawawī adds that the believer's ability to answer firmly is not a test of memorisation but of lived conviction — a heart habituated to these truths responds naturally. The hadith is the primary textual basis for the orthodox belief in the trial of the grave, affirmed by Ahl al-Sunna.
@@ -236,6 +430,8 @@ lessons:
   - slug: hadith-do-not-get-angry
     category: hadith_narrative
     title_en: "Do Not Become Angry"
+    title_fr: « Ne te mets pas en colère »
+    title_ar: «لا تَغْضَب»
     description_en: |
       A man came to the Prophet ﷺ and said: "Advise me." He said: "Do
       not become angry." The man repeated his request several times;
@@ -245,6 +441,23 @@ lessons:
       practical religion, because almost every destructive act —
       whether of speech, property, violence, or family rupture —
       originates in a moment of unrestrained anger.
+    description_fr: |
+      Un homme vint voir le Prophète ﷺ et dit : « Conseille-moi. » Il
+      répondit : « Ne te mets pas en colère. » L'homme répéta sa demande
+      plusieurs fois ; chaque fois, le Prophète ﷺ donna la même
+      réponse : « Ne te mets pas en colère. » Ce ḥadīth est devenu un
+      principe de l'éthique islamique : la maîtrise de la colère n'est
+      pas une vertu accessoire mais le cœur même de la religion vécue,
+      car presque tout acte destructeur — qu'il soit de parole, de
+      patrimoine, de violence ou de rupture familiale — naît d'un
+      instant de colère non maîtrisée.
+    description_ar: |
+      جاء رجلٌ إلى النبي ﷺ فقال: «أوصِني». فقال: «لا تَغْضَب». فردَّد
+      الرجل سؤاله مرارًا، يقول له النبي ﷺ في كلِّ مرَّةٍ: «لا تَغْضَب».
+      وصار هذا الحديث أصلًا من أصول الأخلاق الإسلاميَّة: ضبطُ الغضب ليس
+      فضيلةً ثانويَّةً بل لُبَّ الدين العمليِّ، لأنَّ كلَّ عملٍ هَدَّامٍ
+      في الكلام أو المال أو العنف أو القطيعة يولد في لحظة غضبٍ غير
+      مكبوحٍ.
     reference: Sahih al-Bukhari 6116
     hadith_refs: "Bukhari 6116"
     source_notes: |
@@ -258,6 +471,8 @@ lessons:
   - slug: hadith-muslim-is-brother
     category: hadith_narrative
     title_en: "A Muslim Is the Brother of a Muslim"
+    title_fr: « Le musulman est le frère du musulman »
+    title_ar: «المسلم أخو المسلم»
     description_en: |
       The Prophet ﷺ said: "A Muslim is the brother of a Muslim — he does
       not wrong him, does not forsake him, and does not belittle him.
@@ -266,6 +481,20 @@ lessons:
       Muslim is sacred to every other Muslim: his blood, his property,
       and his honour." The hadith articulates the basic structure of
       Muslim communal ethics.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Le musulman est le frère du musulman —
+      il ne lui fait pas tort, ne l'abandonne pas et ne le méprise pas.
+      La piété est ici » — et il pointa sa poitrine trois fois. « Il
+      suffit comme mal à un homme de mépriser son frère musulman. Tout
+      musulman est sacré pour tout autre musulman : son sang, ses biens
+      et son honneur. » Le ḥadīth énonce la structure fondamentale de
+      l'éthique communautaire musulmane.
+    description_ar: |
+      قال النبي ﷺ: «المسلمُ أخو المسلم، لا يَظلمُه ولا يَخْذلُه ولا
+      يَحْقِرُه. التَّقوى هاهنا» — وأشار إلى صدره ثلاثًا. «بحسب امرئٍ من
+      الشَّرِّ أن يَحْقِر أخاه المسلم. كلُّ المسلمِ على المسلم حرامٌ:
+      دمُه ومالُه وعِرْضُه». فهذا الحديث يُحْكِم البنيةَ الأساسيَّةَ
+      للأخلاق الجماعيَّة المسلمة.
     reference: Sahih Muslim 2564
     hadith_refs: "Muslim 2564"
     source_notes: |
@@ -279,6 +508,8 @@ lessons:
   - slug: hadith-value-of-time
     category: hadith_narrative
     title_en: "Two Blessings Many Overlook"
+    title_fr: Deux bénédictions que beaucoup négligent
+    title_ar: نعمتان مغبونٌ فيهما كثيرٌ من الناس
     description_en: |
       The Prophet ﷺ said: "Two blessings that most people are deceived
       regarding: health and free time." The brief hadith is one of the
@@ -286,6 +517,20 @@ lessons:
       literature. Al-Ghazali opens the section on time-management in
       Ihya' 'Ulum al-Din with it; Ibn al-Qayyim expands it into a
       treatise on the uses and abuses of a life span.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Deux bénédictions à propos desquelles la
+      plupart des gens sont trompés : la santé et le temps libre. »
+      Ce bref ḥadīth est l'une des sentences prophétiques les plus
+      citées dans la littérature classique de la tazkiya. Al-Ghazālī
+      ouvre la section sur la gestion du temps de l'Iḥyāʾ ʿulūm al-dīn
+      par ce ḥadīth ; Ibn al-Qayyim en a tiré tout un traité sur les
+      usages et les abus de la durée d'une vie.
+    description_ar: |
+      قال النبي ﷺ: «نعمتان مغبونٌ فيهما كثيرٌ من الناس: الصِّحَّة
+      والفراغ». فهذا الحديث القصير من أكثر كلمات النبي حضورًا في كتب
+      التزكية الكلاسيكيَّة. افتتح به الغزاليُّ بابَ تنظيم الوقت في
+      إحياء علوم الدين، وأقام عليه ابنُ القيِّم رسالةً كاملةً في حقِّ
+      العمر وما يُهدر منه.
     reference: Sahih al-Bukhari 6412
     hadith_refs: "Bukhari 6412"
     source_notes: |
@@ -299,6 +544,8 @@ lessons:
   - slug: hadith-sincere-advice
     category: hadith_narrative
     title_en: "The Religion Is Advice"
+    title_fr: « La religion, c'est le conseil sincère »
+    title_ar: «الدِّينُ النَّصيحة»
     description_en: |
       The Prophet ﷺ said: "The religion is nasiha (sincere counsel)."
       The Companions asked: "To whom, O Messenger of Allah?" He replied:
@@ -308,6 +555,24 @@ lessons:
       upon which Islam turns." It locates the centre of religion in the
       disposition of the heart toward Allah's Book, the sunnah, and the
       Muslim community — an orientation, not merely a practice.
+    description_fr: |
+      Le Prophète ﷺ a dit : « La religion, c'est la naṣīḥa (le
+      conseil sincère). » Les Compagnons demandèrent : « Envers qui, ô
+      Messager d'Allah ? » Il répondit : « Envers Allah, envers Son
+      Livre, envers Son Messager, envers les dirigeants des musulmans
+      et envers la masse des musulmans. » L'imām al-Nawawī a placé ce
+      ḥadīth en septième position de ses Quarante et a dit qu'il est
+      « l'un des ḥadīths sur lesquels l'Islam tourne ». Il situe le
+      centre de la religion dans la disposition du cœur envers le Livre
+      d'Allah, la sunna et la communauté musulmane — une orientation,
+      non un simple ensemble de pratiques.
+    description_ar: |
+      قال النبي ﷺ: «الدِّينُ النَّصيحة». قالوا: «لمن يا رسولَ الله؟»
+      قال: «للهِ، ولكتابه، ولرسوله، ولأئمَّة المسلمين، وعامَّتهم». وقد
+      جعله الإمام النوويُّ سابع أحاديث أربعينيَّته، وقال إنه «من
+      الأحاديث التي يدور عليها الإسلام». فهو يجعل قطبَ الدين توجُّهَ
+      القلب لكتاب الله وسنَّة رسوله وجماعة المسلمين — توجُّهًا، لا
+      مجرَّد أداءٍ.
     reference: Sahih Muslim 55, Sunan Abi Dawud 4944
     hadith_refs: "Muslim 55, Abu Dawud 4944"
     source_notes: |
@@ -321,6 +586,8 @@ lessons:
   - slug: hadith-ansar-muhajirun
     category: hadith_narrative
     title_en: "The Ansar — Love of Them Is Iman"
+    title_fr: Les Anṣār — leur amour est foi
+    title_ar: الأنصار — حبُّهم إيمانٌ
     description_en: |
       The Prophet ﷺ said of the Ansar — the Muslims of Madinah who
       received the emigrants of Makkah — "None loves them except a
@@ -331,6 +598,23 @@ lessons:
       sheltered the first Muslim state, and whose name has come to
       stand for every community that receives refuge-seekers for the
       sake of Allah.
+    description_fr: |
+      Le Prophète ﷺ a dit des Anṣār — les musulmans de Madīna qui
+      accueillirent les émigrants de La Mecque — : « Nul ne les aime
+      sinon un croyant, et nul ne les déteste sinon un hypocrite.
+      Quiconque les aime, Allah l'aime ; et quiconque les déteste,
+      Allah le déteste. » Le ḥadīth fixe le statut unique des Anṣār
+      dans l'histoire islamique : la tribu qui accueillit le Prophète
+      ﷺ lors de la Hijra, abrita le premier État musulman, et dont le
+      nom est venu désigner toute communauté qui reçoit des
+      demandeurs de refuge pour la cause d'Allah.
+    description_ar: |
+      قال النبي ﷺ في الأنصار — أهل المدينة الذين أَوَوا مهاجري مكَّة —:
+      «آيةُ الإيمان حبُّ الأنصار، وآيةُ النِّفاق بُغضُ الأنصار. من
+      أحبَّهم أحبَّه الله، ومن أبغضَهم أبغضَه الله». فقد أَثْبَت هذا
+      الحديث للأنصار مكانتَهم الفريدةَ في التاريخ الإسلاميِّ: قبيلةً
+      أوَتْ النبيَّ ﷺ في الهجرة، وحَمَتْ أوَّل دولةٍ مسلمةٍ، وصار اسمُهم
+      اسمًا لكلِّ جماعةٍ تأوي طالبَ مأوًى في سبيل الله.
     reference: Sahih al-Bukhari 3783, Sahih Muslim 75
     hadith_refs: "Bukhari 3783, Muslim 75"
     source_notes: |
@@ -344,6 +628,8 @@ lessons:
   - slug: hadith-ten-promised-paradise
     category: hadith_narrative
     title_en: The Ten Companions Promised Paradise
+    title_fr: Les dix Compagnons à qui le Paradis fut promis
+    title_ar: العشرة المبشَّرون بالجنَّة
     description_en: |
       The Prophet ﷺ named ten of his Companions as guaranteed Paradise
       in this life: Abu Bakr, Umar, Uthman, Ali, Talha ibn Ubaydullah,
@@ -354,6 +640,25 @@ lessons:
       establishment of the early Muslim community; seven fought at
       Badr; most held leading military or administrative positions in
       the Rashidun caliphate.
+    description_fr: |
+      Le Prophète ﷺ nomma dix de ses Compagnons à qui le Paradis fut
+      garanti dès cette vie : Abū Bakr, ʿUmar, ʿUthmān, ʿAlī, Ṭalḥa
+      ibn ʿUbaydullāh, al-Zubayr ibn al-ʿAwwām, Saʿd ibn Abī Waqqāṣ,
+      Saʿīd ibn Zayd, ʿAbd al-Raḥmān ibn ʿAwf et Abū ʿUbayda ibn
+      al-Jarrāḥ. On les appelle collectivement « al-ʿAshara
+      al-Mubashsharūna bi-l-Janna » — les dix promis au Paradis. Tous
+      furent des figures majeures de la fondation de la première
+      communauté musulmane ; sept combattirent à Badr ; la plupart
+      occupèrent des fonctions militaires ou administratives de
+      premier plan dans le califat des Rāshidūn.
+    description_ar: |
+      سَمَّى النبي ﷺ عشرةً من صحابته بالجنَّة في حياتهم: أبا بكرٍ،
+      وعمرَ، وعثمانَ، وعليًّا، وطلحةَ بنَ عبيد الله، والزبيرَ بنَ
+      العوَّام، وسعدَ بنَ أبي وقَّاص، وسعيدَ بنَ زيد، وعبدَ الرحمن بنَ
+      عوف، وأبا عُبيدةَ بنَ الجرَّاح. ويُعرفون مجتمعين بالعَشَرة
+      المبشَّرين بالجنَّة. كانوا جميعهم من كبار من أقاموا المجتمعَ
+      المسلم الأوَّل؛ سبعةٌ منهم شهدوا بدرًا، ومعظمهم تولَّى مناصبَ
+      قياديَّةً عسكريَّةً أو إداريَّةً في خلافة الراشدين.
     reference: Jami' at-Tirmidhi 3747, Sunan Abi Dawud 4649; sahih
     hadith_refs: "Tirmidhi 3747, Abu Dawud 4649"
     source_notes: |
@@ -367,6 +672,8 @@ lessons:
   - slug: hadith-make-easy
     category: hadith_narrative
     title_en: "Make Things Easy, Do Not Make Them Difficult"
+    title_fr: « Facilitez et ne rendez pas difficile »
+    title_ar: «يَسِّروا ولا تُعسِّروا»
     description_en: |
       The Prophet ﷺ instructed Mu'adh ibn Jabal and Abu Musa al-Ash'ari
       as he sent them to Yemen: "Make things easy and do not make them
@@ -375,6 +682,20 @@ lessons:
       Prophet ﷺ required of those who taught the religion to people:
       lowering the threshold of engagement, preferring encouragement
       over rebuke, maintaining unity in ministry.
+    description_fr: |
+      Le Prophète ﷺ dit à Muʿādh ibn Jabal et Abū Mūsā al-Ashʿarī au
+      moment de les envoyer au Yémen : « Facilitez et ne rendez pas
+      difficile. Annoncez la bonne nouvelle et ne repoussez pas les
+      gens. Coopérez et ne divergez pas. » Le ḥadīth condense l'approche
+      pastorale que le Prophète ﷺ exigeait de ceux qui enseignaient la
+      religion aux gens : abaisser le seuil d'engagement, préférer
+      l'encouragement au reproche, maintenir l'unité dans le ministère.
+    description_ar: |
+      قال النبي ﷺ لمعاذ بن جبل وأبي موسى الأشعري حين بعثهما إلى اليمن:
+      «يَسِّروا ولا تُعسِّروا، وبَشِّروا ولا تُنَفِّروا، وتطاوعا ولا
+      تختلفا». فاختصر هذا الحديث الأسلوبَ الذي ألزم به النبيُّ ﷺ من
+      يبلِّغ الدين للناس: تخفيفُ بابِ الدخول، وتقديمُ التبشير على
+      الإنذار، والتزامُ الوحدة في الدعوة.
     reference: Sahih al-Bukhari 69, Sahih Muslim 1733
     hadith_refs: "Bukhari 69, Muslim 1733"
     source_notes: |
@@ -388,6 +709,8 @@ lessons:
   - slug: hadith-best-of-you
     category: hadith_narrative
     title_en: "The Best of You Is the One Who Learns the Qur'an and Teaches It"
+    title_fr: « Le meilleur d'entre vous est celui qui apprend le Coran et l'enseigne »
+    title_ar: «خيرُكم من تَعَلَّم القرآن وعلَّمه»
     description_en: |
       The Prophet ﷺ said: "The best of you is the one who learns the
       Qur'an and teaches it." Uthman ibn Affan narrated the hadith. The
@@ -395,6 +718,19 @@ lessons:
       lineage, or even general piety, but specifically the labour of
       receiving and transmitting the Book is named as the standard of
       "the best" in this community.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Le meilleur d'entre vous est celui qui
+      apprend le Coran et l'enseigne. » ʿUthmān ibn ʿAffān rapporta ce
+      ḥadīth. Cette brève parole réoriente toute une éthique de la
+      valeur : ni la richesse, ni le rang, ni la lignée, ni même la
+      piété générale, mais précisément le travail d'accueil et de
+      transmission du Livre est désigné comme le critère du « meilleur »
+      dans cette communauté.
+    description_ar: |
+      قال النبي ﷺ: «خيرُكم من تَعَلَّم القرآن وعلَّمه»، رواه عثمان بن
+      عفَّان رضي الله عنه. فهذا القول الموجز يعيد ضبط معيار الفضل في
+      الأمَّة: لا المال ولا الجاه ولا النسب ولا حتى مطلق التقوى، بل
+      خصوصُ تَلَقِّي الكتاب وتبليغه.
     reference: Sahih al-Bukhari 5027
     hadith_refs: "Bukhari 5027"
     source_notes: |
@@ -408,6 +744,8 @@ lessons:
   - slug: hadith-smile-is-charity
     category: hadith_narrative
     title_en: Every Joint Owes a Charity Every Day
+    title_fr: Sur chaque articulation une aumône chaque jour
+    title_ar: على كلِّ سُلَامى صدقةٌ في كلِّ يومٍ
     description_en: |
       The Prophet ﷺ said: "Every joint of a person owes a charity every
       day the sun rises. To judge justly between two people is charity.
@@ -417,6 +755,25 @@ lessons:
       charity." The hadith universalises sadaqa beyond wealth: it
       becomes a continuous embodied practice — of speech, effort, and
       attention — that every Muslim can offer in any circumstance.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Chaque articulation d'un homme doit une
+      aumône chaque jour où le soleil se lève. Juger avec justice entre
+      deux personnes est une aumône. Aider un homme avec sa monture —
+      le hisser dessus ou y hisser ses bagages — est une aumône. Une
+      bonne parole est une aumône. Chaque pas que tu fais vers la
+      prière est une aumône. Écarter du mal de la route est une
+      aumône. » Le ḥadīth universalise la ṣadaqa au-delà du patrimoine :
+      elle devient une pratique incarnée et continue — de parole,
+      d'effort et d'attention — que tout musulman peut offrir en toute
+      circonstance.
+    description_ar: |
+      قال النبي ﷺ: «على كلِّ سُلَامى من الناس صدقةٌ، كلَّ يومٍ تطلع فيه
+      الشمسُ: تَعْدِل بين اثنين صدقةٌ، وتُعين الرجل على دابَّته فتحمله
+      عليها أو ترفع له عليها متاعه صدقةٌ، والكلمةُ الطيِّبةُ صدقةٌ، وكلُّ
+      خطوةٍ تخطوها إلى الصلاة صدقةٌ، وتُميط الأذى عن الطريق صدقةٌ». فقد
+      وَسَّع هذا الحديثُ مفهومَ الصدقة من الباب الماليِّ إلى عبادةٍ
+      متَّصلةٍ في القول والفعل والانتباه، يستطيع كلُّ مسلمٍ أن يقدِّمها
+      في أيِّ حالٍ.
     reference: Sahih al-Bukhari 2989, Sahih Muslim 1009
     hadith_refs: "Bukhari 2989, Muslim 1009"
     source_notes: |
@@ -430,6 +787,8 @@ lessons:
   - slug: hadith-the-religion-is-ease
     category: hadith_narrative
     title_en: "The Religion Is Ease"
+    title_fr: « La religion est facilité »
+    title_ar: «إنَّ الدِّينَ يُسرٌ»
     description_en: |
       The Prophet ﷺ said: "The religion is ease. No one makes the
       religion difficult except that it overwhelms him. So aim for what
@@ -438,6 +797,20 @@ lessons:
       Scholars have treated this hadith as a governing principle of
       Islamic law (fiqh), cited whenever facility vs. stringency comes
       into question.
+    description_fr: |
+      Le Prophète ﷺ a dit : « La religion est facilité. Nul ne durcit
+      la religion sans qu'elle ne le submerge. Visez donc le juste,
+      approchez-vous-en, recevez la bonne nouvelle, et cherchez le
+      secours le matin, le soir et une partie de la nuit. » Les savants
+      ont traité ce ḥadīth comme un principe directeur du droit
+      islamique (fiqh), invoqué chaque fois que se pose la question de
+      la facilité contre la rigueur.
+    description_ar: |
+      قال النبي ﷺ: «إنَّ الدِّينَ يُسرٌ، ولن يُشادَّ الدينَ أحدٌ إلا
+      غَلَبَه، فسَدِّدوا وقاربوا، وأبشروا، واستعينوا بالغُدوة والرَّوْحة
+      وشيءٍ من الدُّلْجة». وقد تعامل العلماء مع هذا الحديث قاعدةً
+      حاكمةً في الفقه، يَستحضرونها كلَّما عُرضت مسألةٌ بين التَّيسير
+      والتَّشديد.
     reference: Sahih al-Bukhari 39
     hadith_refs: "Bukhari 39"
     source_notes: |
@@ -451,6 +824,8 @@ lessons:
   - slug: hadith-nightly-descent
     category: hadith_narrative
     title_en: The Nightly Descent
+    title_fr: La descente nocturne
+    title_ar: النزول الإلهيُّ كلَّ ليلةٍ
     description_en: |
       The Prophet ﷺ said: "Our Lord, the Blessed, the Exalted, descends
       every night to the nearest heaven when one-third of the last part
@@ -462,6 +837,24 @@ lessons:
       position that Allah's attributes — here, His descent — are
       affirmed according to what suits His majesty, without
       anthropomorphism and without denial of the wording.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Notre Seigneur, le Béni, le Très-Haut,
+      descend chaque nuit vers le ciel le plus bas lorsqu'il reste un
+      tiers de la dernière partie de la nuit, en disant : « Qui
+      M'invoque, que Je lui réponde ? Qui Me demande, que Je lui
+      donne ? Qui sollicite Mon pardon, que Je lui pardonne ? » » Les
+      savants classiques tiennent ce ḥadīth pour fondateur quant à la
+      vertu du dernier tiers de la nuit pour la supplication, et
+      quant à la position canonique selon laquelle les attributs
+      d'Allah — ici Sa descente — sont affirmés selon ce qui sied à Sa
+      majesté, sans anthropomorphisme et sans déni du texte.
+    description_ar: |
+      قال النبي ﷺ: «يَنزل ربُّنا تباركَ وتعالى كلَّ ليلةٍ إلى السماء
+      الدنيا حين يبقى ثلثُ الليل الآخِر، فيقول: من يدعوني فأستجيبَ له؟
+      من يسألُني فأعطِيَه؟ من يستغفرُني فأغفرَ له؟». ويعدُّ هذا الحديث
+      عند العلماء أصلًا لفضل ثلث الليل الآخر للدعاء، وأصلًا لمذهب أهل
+      السنَّة في الصفات: إثبات ما أثبته رسولُ الله ﷺ — كالنزول — على ما
+      يليق بجلال الله، بلا تشبيهٍ ولا تعطيلٍ.
     reference: Sahih al-Bukhari 1145, Sahih Muslim 758
     hadith_refs: "Bukhari 1145, Muslim 758"
     source_notes: |
@@ -475,6 +868,8 @@ lessons:
   - slug: hadith-first-thing-reckoned
     category: hadith_narrative
     title_en: "The First of a Servant's Deeds to Be Reckoned"
+    title_fr: Le premier acte du serviteur dont il rendra compte
+    title_ar: أوَّل ما يُحاسَب به العبدُ
     description_en: |
       The Prophet ﷺ said: "The first of a servant's deeds to be judged
       on the Day of Resurrection will be the prayer. If it is sound,
@@ -483,6 +878,20 @@ lessons:
       not merely one duty among many but the hinge on which the whole
       scale of one's deeds turns — the foundational unit whose
       soundness determines the structural integrity of everything else.
+    description_fr: |
+      Le Prophète ﷺ a dit : « La première chose dont un serviteur
+      rendra compte le Jour de la Résurrection sera la prière. Si elle
+      est saine, le reste de ses œuvres le sera ; et si elle est
+      corrompue, le reste de ses œuvres le sera. » Le ḥadīth fait de
+      la ṣalāh non pas un devoir parmi d'autres, mais la charnière sur
+      laquelle pivote toute la balance de ses actes — l'unité
+      fondamentale dont l'intégrité conditionne celle de tout le reste.
+    description_ar: |
+      قال النبي ﷺ: «أوَّل ما يُحاسَب به العبدُ يومَ القيامة الصلاةُ، فإن
+      صَلَحَتْ صَلَحَ سائرُ عمله، وإن فَسَدَتْ فَسَدَ سائرُ عمله». فجَعَل
+      الحديث الصلاةَ لا فريضةً بين فرائض، بل المحورَ الذي يدور عليه
+      ميزانُ العمل كلِّه: إنِ استقامَتْ استقامَ البنيانُ، وإنِ اختَلَّت
+      اختَلَّ.
     reference: Jami' at-Tirmidhi 413, Sunan an-Nasa'i 466; sahih
     hadith_refs: "Tirmidhi 413, Nasa'i 466"
     source_notes: |
@@ -496,6 +905,8 @@ lessons:
   - slug: hadith-jumah-virtue
     category: hadith_narrative
     title_en: "The Best Day the Sun Rises On"
+    title_fr: Le meilleur jour où le soleil se lève
+    title_ar: خيرُ يومٍ طلعتْ فيه الشمسُ
     description_en: |
       The Prophet ﷺ said: "The best day upon which the sun has risen is
       Friday. On it Adam was created, on it he was admitted to Paradise,
@@ -505,6 +916,24 @@ lessons:
       without Allah giving it to him." The hadiths together establish
       Friday as the weekly Muslim feast-day, a moment of concentrated
       spiritual opportunity throughout the day.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Le meilleur jour où le soleil se lève
+      est le vendredi. C'est en ce jour qu'Ādam fut créé, en ce jour
+      qu'il fut admis au Paradis, et en ce jour qu'il en fut exclu.
+      L'Heure ne surviendra qu'un vendredi. » Il dit également : « Il
+      y a une heure le vendredi durant laquelle aucun serviteur
+      musulman ne se tient en prière en demandant à Allah quelque
+      chose sans qu'Allah ne le lui donne. » Ces deux ḥadīths
+      ensemble établissent le vendredi comme la fête hebdomadaire des
+      musulmans, un moment d'occasion spirituelle concentrée sur
+      toute la durée du jour.
+    description_ar: |
+      قال النبي ﷺ: «خيرُ يومٍ طلعتْ فيه الشمسُ يومُ الجمعة: فيه خُلق
+      آدمُ، وفيه أُدخل الجنَّة، وفيه أُخرج منها، ولا تقومُ الساعة إلا
+      في يوم الجمعة». وقال أيضًا: «إنَّ في الجمعة لساعةً لا يوافقها
+      عبدٌ مسلمٌ وهو قائمٌ يصلِّي يسأل الله شيئًا إلا أعطاه إيَّاه». فقد
+      أثبتَ الحديثان معًا أنَّ الجمعة عيدُ المسلمين الأسبوعيُّ، وأنَّ
+      اليومَ كلَّه مَعْدِنُ فضلٍ متَّصلٍ.
     reference: Sahih Muslim 854, Sahih al-Bukhari 935
     hadith_refs: "Muslim 854, Bukhari 935"
     source_notes: |
