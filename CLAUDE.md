@@ -342,6 +342,58 @@ The public origin used in the absolute URLs comes from `$FRONTEND_URL`
 (defaults to `http://localhost:3000`). In prod set it to your real
 domain before running the pipeline.
 
+## Deployment & daily rebuild (Dokploy)
+
+Production runs on Dokploy (`docker-compose.dokploy.yml` at the repo
+root). Two services: `iotd-backend` (FastAPI on the internal network)
+and `iotd-frontend` (nginx serving the Vite bundle, behind Traefik +
+Let's Encrypt). Account / bookmark tables are auto-created by the
+backend on lifespan startup (`iotd.database._create_backend_tables`)
+and are excluded from `pipeline.constants.CONTENT_TABLE_NAMES` so the
+pipeline's drop-and-recreate cycle never touches them.
+
+**The pipeline runs at image-build time, not at runtime.** Look at
+`backend/Dockerfile`: stage `pipeline` runs `python -m pipeline.build`
+once during the build, and stage `production` copies the produced SQLite
+into the image. The running container reads from disk; nothing schedules
+a rebuild from inside FastAPI. Two reasons:
+- The dataset is curator-driven, so most "rebuilds" naturally happen
+  alongside YAML edits — git push → CI → Dokploy autodeploy already
+  re-runs the pipeline as part of the image build. No additional
+  scheduling needed for content changes.
+- The `feed.xml` headline rotates per calendar day even when the
+  dataset hasn't changed, so we want a daily build *anyway* to keep
+  the syndication files current.
+
+**Daily rebuild = scheduled redeploy, not in-container exec.** Configure
+this in the Dokploy UI:
+
+1. Dokploy → application `iotd` → **Schedules** → Create.
+2. Service: pick the application (Compose stack), action: **Redeploy**.
+3. Cron expression: `0 4 * * *` (04:00 UTC — quiet hour, before
+   European morning traffic).
+
+That's the whole config. Each redeploy:
+- Re-builds the backend image, which re-runs `pipeline.build` →
+  fresh SQLite + fresh `web/public/{sitemap,robots,feed}.xml`.
+- Re-builds the frontend image (the new syndication files are baked in
+  as static assets).
+- Switches Traefik over once both new containers pass their healthchecks.
+
+Why **not** `docker exec iotd-backend python -m pipeline.build` from a
+schedule? Two failure modes: (a) the SQLite would be re-created in-
+container but the FE's `sitemap.xml` would stale (different image, no
+shared volume); (b) the rebuilt SQLite would be lost on the next
+redeploy. The "redeploy daily" model keeps everything in the same
+image and treats the dataset as a build artifact, which matches the
+project's actual model — content lives in YAML, not in a long-running
+DB.
+
+If you ever need a manual refresh between scheduled rebuilds, click
+**Redeploy** in the Dokploy UI for the same effect. The `make build`
+target only rebuilds the local dev SQLite; production image rebuilds
+happen via Dokploy.
+
 ## Backend conventions
 
 Read these before changing backend code — they're the rules the

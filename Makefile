@@ -6,7 +6,7 @@
 help:
 	@echo "Targets:"
 	@echo "  install       Install everything (uv sync + bun install)"
-	@echo "  build         Rebuild the pipeline DB (curated + Wikidata + OpenITI)"
+	@echo "  build         Rebuild the pipeline DB from curated YAML"
 	@echo "  syndicate     Refresh sitemap.xml + robots.txt + feed.xml"
 	@echo "  dev           Boot backend + web together (parallel, kill with ^C)"
 	@echo "  dev-backend   uvicorn on :5111"
