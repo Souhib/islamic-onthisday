@@ -6,6 +6,8 @@ lessons:
   - slug: hud-and-ad
     category: quran_story
     title_en: Hud ﷺ and the People of 'Ad
+    title_fr: Hūd ﷺ et le peuple de ʿĀd
+    title_ar: هود ﷺ وقوم عاد
     description_en: |
       The Prophet Hud ﷺ was sent to the tribe of 'Ad, a people of great
       physical strength who built fortresses "on every high place" and
@@ -15,6 +17,22 @@ lessons:
       devastating wind of seven nights and eight days that destroyed them
       utterly, leaving "only their dwellings" (Qur'an 46:25). Hud and those
       who believed with him were saved.
+    description_fr: |
+      Le Prophète Hūd ﷺ fut envoyé à la tribu de ʿĀd, peuple d'une
+      grande puissance physique qui bâtissait des forteresses « sur
+      chaque hauteur » et se vantait : « Qui est plus fort que nous ? »
+      (Coran 41:15). Hūd les appela à n'adorer qu'Allah et les mit en
+      garde contre l'arrogance et l'oppression, mais ils le rejetèrent.
+      Allah envoya sur eux un vent dévastateur qui souffla sept nuits
+      et huit jours et les anéantit, ne laissant que « leurs demeures »
+      (Coran 46:25). Hūd et ceux qui crurent avec lui furent sauvés.
+    description_ar: |
+      أُرسل النبي هود ﷺ إلى قبيلة عاد، قومٍ بَلَغوا قوَّةً جسديَّةً
+      عظيمةً، بَنوا الحصونَ «بكلِّ ريعٍ آيةً» وقالوا متفاخرين: «من
+      أشدُّ منَّا قوَّةً؟» (القرآن 41:15). دعاهم هودٌ إلى عبادة الله
+      وحده وحذَّرهم من الكِبْر والظلم، فَرَدُّوه. فأرسل الله عليهم ريحًا
+      صرصرًا في سبع ليالٍ وثمانية أيَّامٍ مَحَتْهم محوًا، ولم يُبقِ منهم
+      إلا «مساكنهم» (القرآن 46:25). ونجَّى اللهُ هودًا والذين آمنوا معه.
     reference: Surah al-A'raf 7:65-72, Surah Hud 11:50-60, Surah al-Ahqaf 46:21-26
     source_notes: |
       Ibn Kathīr (Tafsīr, 7:65) notes that 'Ad were the first people to be destroyed by wind after rejecting a prophet. Al-Ṭabarī records that their dwellings at al-Aḥqāf remained visible to Arab travellers until the time of the Prophet ﷺ.
@@ -27,6 +45,8 @@ lessons:
   - slug: salih-and-thamud
     category: quran_story
     title_en: Salih ﷺ and the People of Thamud
+    title_fr: Ṣāliḥ ﷺ et le peuple de Thamūd
+    title_ar: صالح ﷺ وقوم ثمود
     description_en: |
       The Prophet Salih ﷺ was sent to Thamud, the tribe that succeeded 'Ad.
       They had mastered stone-carving, hewing dwellings directly out of
@@ -38,6 +58,25 @@ lessons:
       Mada'in Salih in northern Arabia; the Prophet ﷺ passed by them on
       the Tabuk expedition and forbade the Muslims from drinking their
       well water.
+    description_fr: |
+      Le Prophète Ṣāliḥ ﷺ fut envoyé à Thamūd, la tribu qui succéda à
+      ʿĀd. Ils maîtrisaient la taille de la pierre, creusant leurs
+      demeures à même les montagnes (Coran 26:149). Ṣāliḥ les appela
+      au tawḥīd, et comme signe Allah fit sortir du rocher une
+      chamelle ayant des droits précis pour boire. Lorsqu'un groupe de
+      la tribu lui coupa les jarrets et la tua, un terrible cri (ṣayḥa)
+      les saisit — « comme s'ils n'y avaient jamais prospéré » (Coran
+      11:68). Leurs habitations de pierre subsistent à Madāʾin Ṣāliḥ
+      dans le nord de l'Arabie ; le Prophète ﷺ y passa lors de
+      l'expédition de Tabūk et interdit aux musulmans d'en boire l'eau.
+    description_ar: |
+      أُرسل النبيُّ صالحٌ ﷺ إلى ثمود، القبيلةِ التي خَلَفت عادًا. أتقنوا
+      نحت الحجر وحفروا بيوتَهم في الجبال (القرآن 26:149). دعاهم صالحٌ
+      إلى التوحيد، وآيتُه الناقةُ التي أخرجها الله من الصخر بحقِّ شِربٍ
+      معلومٍ. فلمَّا عَقَرَتْها طائفةٌ منهم وقتلتْها، أخذتْهم الصيحةُ
+      «كأن لم يَغْنَوْا فيها» (القرآن 11:68). ولا تزال مساكنهم الحجريَّة
+      قائمةً في مدائن صالحٍ في شمال الجزيرة العربيَّة؛ مرَّ بها النبي
+      ﷺ في غزوة تبوك ونهى المسلمين عن الشرب من بئرها.
     reference: Surah al-A'raf 7:73-79, Surah Hud 11:61-68, Surah al-Shams 91:11-15
     source_notes: |
       Al-Qurṭubī (Tafsīr, 7:73) explains that the she-camel was a *mīthāq* (solemn covenant), so harming her constituted a direct breach of their treaty with Allah. Ibn Kathīr cites the consensus that Thamūd's stone dwellings at Madāʾin Ṣāliḥ were known to the Prophet ﷺ, who forbade Muslims from lingering there.
@@ -50,6 +89,8 @@ lessons:
   - slug: lut-and-his-people
     category: quran_story
     title_en: Lut ﷺ and the Destruction of His People
+    title_fr: Lūṭ ﷺ et la destruction de son peuple
+    title_ar: لوط ﷺ وهلاك قومه
     description_en: |
       The Prophet Lut ﷺ lived in the towns of the plain (Sodom and nearby
       settlements), which had descended into open immorality unprecedented
@@ -61,6 +102,27 @@ lessons:
       all except his wife, who had sided with the transgressors. At dawn
       Allah overturned the towns and rained upon them stones of baked
       clay, bearing each stone the mark of its recipient.
+    description_fr: |
+      Le Prophète Lūṭ ﷺ vivait dans les villes de la plaine (Sodome
+      et les agglomérations voisines), qui avaient sombré dans une
+      immoralité ouverte sans précédent parmi les nations. Il les
+      appela à abandonner leurs comportements et à revenir à ce qui
+      est licite, mais ils menacèrent de l'expulser. Les anges d'Allah
+      vinrent à lui sous l'apparence de jeunes hommes ; son peuple
+      tenta de s'emparer d'eux, et les anges révélèrent à Lūṭ que la
+      destruction approchait. Lūṭ fut évacué de nuit avec sa famille
+      croyante — toutes sauf sa femme, qui s'était rangée du côté des
+      transgresseurs. À l'aube, Allah retourna les villes et fit
+      pleuvoir sur elles des pierres d'argile cuite, chacune marquée
+      du nom de son destinataire.
+    description_ar: |
+      عاش النبي لوطٌ ﷺ في قرى السهل (سَدوم والمدنِ المجاورة) التي
+      انغمست في فاحشةٍ لم تسبقها إليها أُمَّةٌ. دعاهم إلى ترك ما هم فيه
+      والرجوع إلى الحلال، فهدَّدوه بالإخراج. ثمَّ جاءته ملائكةُ الله
+      في صورة شُبَّانٍ، فأراد قومُه الاعتداء عليهم، فأعلمتْه الملائكة
+      أنَّ الهلاك قادمٌ. فخرج لوطٌ بأهله المؤمنين ليلًا — إلا امرأتَه
+      التي وقفت مع المعتدين. وحين طلع الفجر قَلَب الله القرى وأمطر
+      عليها حجارةً من سِجِّيلٍ، كلُّ حجرٍ يحمل اسمَ صاحبه.
     reference: Surah Hud 11:77-83, Surah al-Hijr 15:57-77, Surah al-A'raf 7:80-84
     source_notes: |
       Ibn Kathīr and al-Ṭabarī agree that the destruction of Lut's people was a direct consequence of institutionalising a sin unprecedented among nations. Al-Qurṭubī emphasises that each stone was marked with the name of its recipient, demonstrating that divine justice is never indiscriminate.
@@ -73,6 +135,8 @@ lessons:
   - slug: shuayb-and-madyan
     category: quran_story
     title_en: Shu'ayb ﷺ and the People of Madyan
+    title_fr: Shuʿayb ﷺ et le peuple de Madyan
+    title_ar: شعيب ﷺ وقوم مدين
     description_en: |
       The Prophet Shu'ayb ﷺ was sent to the traders of Madyan, who had
       corrupted the marketplace by cheating in weights and measures.
@@ -85,6 +149,25 @@ lessons:
       Shu'ayb is sometimes called "the orator of the Prophets" (khatib
       al-anbiya') for the eloquence of his preaching preserved in the
       Qur'an.
+    description_fr: |
+      Le Prophète Shuʿayb ﷺ fut envoyé aux marchands de Madyan, qui
+      avaient corrompu le marché en trichant sur les poids et les
+      mesures. « Donnez la mesure et le poids dans la justice et ne
+      frustrez pas les gens de leur dû » (Coran 11:85) fut son message —
+      l'un des tout premiers enseignements coraniques sur l'honnêteté
+      commerciale. Ils le rejetèrent, menaçant de l'expulser s'il ne
+      revenait pas au polythéisme ancestral. Allah les anéantit par la
+      ṣayḥa (le grand cri) et par le ʿadhāb yawm al-ẓulla (le châtiment
+      du jour de l'ombre). Shuʿayb est parfois appelé « le rhéteur des
+      prophètes » (khaṭīb al-anbiyāʾ) pour l'éloquence de ses prêches
+      conservés dans le Coran.
+    description_ar: |
+      أُرسل النبي شعيبٌ ﷺ إلى تجَّار مدين، وقد أفسدوا السوق بنقص
+      الميزان والكيل. وكان دعاؤه: «وأَوْفُوا المكيال والميزان بالقِسْطِ
+      ولا تَبْخَسوا الناس أشياءهم» (القرآن 11:85)، وهو من أوائل تعاليم
+      القرآن في أمانة المعاملة. فردُّوه وتوعَّدوه بالإخراج إن لم يَعُد
+      إلى شرك آبائهم. فأهلكهم الله بالصيحة وبعذاب يوم الظُّلَّة. ويُسمَّى
+      شعيبٌ أحيانًا «خطيبَ الأنبياء» لما حفظه القرآن من بليغ خطبه.
     reference: Surah Hud 11:84-95, Surah al-Shu'ara 26:176-191
     source_notes: |
       Al-Qurṭubī devotes extensive commentary to Shuʿayb's story, treating commercial dishonesty as a pillar of social corruption in Islam. Ibn Kathīr notes that Shuʿayb is called *khaṭīb al-anbiyāʾ* because the Qur'an preserves his orations more fully than those of many other prophets.
@@ -97,6 +180,8 @@ lessons:
   - slug: ayyub-and-patience
     category: quran_story
     title_en: Ayyub ﷺ — The Patience of Job
+    title_fr: Ayyūb ﷺ — la patience de Job
+    title_ar: أيُّوب ﷺ وصبره
     description_en: |
       The Prophet Ayyub ﷺ was tested with the loss of his wealth, his
       children, and his health — yet he remained patient and grateful for
@@ -107,6 +192,24 @@ lessons:
       health and family were restored. The Qur'an praises him as a patient
       servant: "Indeed We found him patient — an excellent servant; truly
       he was one who turned often" (Qur'an 38:44).
+    description_fr: |
+      Le Prophète Ayyūb ﷺ fut éprouvé par la perte de ses biens, de
+      ses enfants et de sa santé — pourtant il demeura patient et
+      reconnaissant pendant des années. Lorsqu'il invoqua enfin son
+      Seigneur — « Le mal m'a touché, et Tu es le plus Miséricordieux
+      des miséricordieux » (Coran 21:83) — Allah lui ordonna de
+      frapper le sol du pied, et une source d'eau fraîche jaillit, dont
+      il but et avec laquelle il se lava ; sa santé et sa famille lui
+      furent rendues. Le Coran le loue comme un serviteur patient :
+      « Nous l'avons trouvé patient — quel excellent serviteur ! C'était
+      un grand revenant à Nous » (Coran 38:44).
+    description_ar: |
+      ابتُلي النبي أيُّوب ﷺ بفقد ماله وولده وصحَّته — فصبر وشَكَر سنواتٍ
+      طويلةً. ثم نادى ربَّه: «أنِّي مَسَّنِيَ الضُّرُّ وأنت أرحم الراحمين»
+      (القرآن 21:83)، فأمره الله أن يضرب الأرض برِجله، فنَبَع له ماءٌ
+      بارد، شرب منه واغتسل به، فعادت إليه صحَّته وأهلُه. ويُثني عليه
+      القرآن بأنه عبدٌ صابر: «إنَّا وجدناه صابرًا، نِعْم العبدُ، إنه
+      أَوَّابٌ» (القرآن 38:44).
     reference: Surah al-Anbiya 21:83-84, Surah Sad 38:41-44
     source_notes: |
       Ibn al-Qayyim explains in *Madārij al-Sālikīn* that Ayyūb's patience was active trust, not passive resignation, and his supplication teaches the believer to complain only to Allah. Ibn Kathīr records that Ayyūb's affliction lasted eighteen years, making his perseverance a benchmark for prophetic endurance.
@@ -119,6 +222,8 @@ lessons:
   - slug: dawud-and-jalut
     category: quran_story
     title_en: Dawud ﷺ Defeats Jalut (Goliath)
+    title_fr: Dāwūd ﷺ vainqueur de Jālūt (Goliath)
+    title_ar: داود ﷺ يقتل جالوت
     description_en: |
       When the Israelites asked their prophet to appoint a king to fight
       for them, Allah gave them Talut (Saul). Most of Talut's army
@@ -129,6 +234,25 @@ lessons:
       "sovereignty and wisdom and taught him of what He willed" (2:251).
       He would go on to receive the Zabur (Psalms) and to rule as Prophet-
       King over the Israelites.
+    description_fr: |
+      Lorsque les Banū Isrāʾīl demandèrent à leur prophète de leur
+      désigner un roi pour combattre, Allah leur donna Ṭālūt (Saül).
+      La plupart de l'armée de Ṭālūt déserta après avoir bu à l'épreuve
+      de la rivière ; un petit reste sous Dāwūd ﷺ affronta le
+      redoutable Jālūt (Goliath). Le Coran rappelle : « Combien de
+      fois une troupe peu nombreuse a-t-elle vaincu une troupe nombreuse,
+      par la permission d'Allah » (2:249). Le jeune Dāwūd tua Jālūt, et
+      Allah lui donna « la royauté et la sagesse, et lui enseigna de ce
+      qu'Il voulait » (2:251). Il devait recevoir par la suite le Zabūr
+      (les Psaumes) et régner comme prophète-roi sur les Banū Isrāʾīl.
+    description_ar: |
+      حين سأل بنو إسرائيل نبيَّهم أن يبعث لهم ملكًا يقاتلون معه، آتاهم
+      اللهُ طالوتَ. وَتَخَلَّى أكثر جنوده بعد محنة النهر، وبقي معه قليلٌ
+      بقيادة داود ﷺ يقابلون جالوت. ويذكر القرآن: «كم من فئةٍ قليلةٍ
+      غَلَبَت فئةً كثيرةً بإذن الله» (القرآن 2:249). فقتَل داودُ الفتيُّ
+      جالوتَ، وآتاه اللهُ «المُلْكَ والحكمةَ وعلَّمه ممَّا يشاء» (القرآن
+      2:251). ثم أُنزل عليه الزَّبور وحَكَم نبيًّا ملِكًا على بني
+      إسرائيل.
     reference: Surah al-Baqara 2:246-251
     source_notes: |
       Al-Ṭabarī preserves the early view that the water test at the river was a measure of spiritual discipline, not military judgment. Ibn Kathīr notes that Dāwūd's refusal to wear heavy armour proved that victory belongs to Allah alone, not to equipment or numbers.
@@ -141,6 +265,8 @@ lessons:
   - slug: sulayman-and-bilqis
     category: quran_story
     title_en: Sulayman ﷺ and the Queen of Saba'
+    title_fr: Sulaymān ﷺ et la reine de Sabaʾ
+    title_ar: سليمان ﷺ وملكة سبأ
     description_en: |
       Prophet Sulayman ﷺ was given dominion over jinn, men, and the speech
       of birds. A hoopoe brought him news of a sun-worshipping queen in
@@ -153,6 +279,28 @@ lessons:
       seeing his display, she recognised his prophethood and declared:
       "My Lord, indeed I have wronged myself, and I submit with Sulayman
       to Allah, Lord of the worlds" (Qur'an 27:44).
+    description_fr: |
+      Le Prophète Sulaymān ﷺ reçut la souveraineté sur les djinns,
+      les hommes et la langue des oiseaux. Une huppe lui apporta des
+      nouvelles d'une reine adoratrice du soleil à Sabaʾ, dont le
+      trône était magnifique. Sulaymān lui envoya une lettre l'appelant
+      à se soumettre à Allah seul. Bilqīs — la reine de Sabaʾ —
+      consulta son conseil et vint auprès de Sulaymān, qui se fit
+      apporter son trône à sa cour « en un clin d'œil » par celui qui
+      « avait une science du Livre ». Quand elle entra dans son palais
+      au sol de cristal et le crut empli d'eau, elle releva sa robe ;
+      voyant le déploiement, elle reconnut sa prophétie et déclara :
+      « Mon Seigneur, je me suis fait tort à moi-même. Avec Sulaymān,
+      je me soumets à Allah, Seigneur des mondes » (Coran 27:44).
+    description_ar: |
+      أُوتي النبي سليمان ﷺ مُلْكَ الجنِّ والإنس ومنطق الطير. أتاه الهدهد
+      بنبأ ملكةٍ تعبد الشمس في سبأ، عرشها عظيمٌ. فأرسل إليها سليمانُ
+      كتابًا يدعوها إلى الإسلام لله وحده. فاستشارت بلقيسُ ملأها وجاءت
+      إلى سليمانَ، فأحضر عرشَها إلى مجلسه «قبل أن يرتدَّ إليه طرفُه»،
+      بمن «عنده علمٌ من الكتاب». فلمَّا دخلت صرحَه — وكانت أرضيَّتُه
+      من قواريرَ — حسبتْه لُجَّةً وكشفت عن ساقيها؛ فلمَّا رأت بَيِّنتَه
+      أَدركتْ نبوَّته وقالت: «ربِّ إني ظلمتُ نفسي وأَسلمتُ مع سليمانَ
+      للهِ ربِّ العالمين» (القرآن 27:44).
     reference: Surah al-Naml 27:20-44
     source_notes: |
       Al-Qurṭubī remarks that the hoopoe's role proves Allah can place crucial knowledge in the mouth of the smallest creature, and that the wise ruler listens before judging. Ibn Kathīr records that Bilqīs's submission was voluntary and intellectual — she recognised the truth and chose it without coercion.
@@ -165,6 +313,8 @@ lessons:
   - slug: zakariya-and-yahya
     category: quran_story
     title_en: Zakariya ﷺ and the Gift of Yahya
+    title_fr: Zakariyyā ﷺ et le don de Yaḥyā
+    title_ar: زكريَّا ﷺ وبشارة يحيى
     description_en: |
       Prophet Zakariya ﷺ, old in years and with a wife who had been
       barren, saw Allah's sustenance reaching Maryam ra in her
@@ -175,6 +325,24 @@ lessons:
       prophet from among the righteous" (Qur'an 3:39). Yahya (John the
       Baptist) was given judgment and tenderness as a youth, and honored
       the rights of his parents.
+    description_fr: |
+      Le Prophète Zakariyyā ﷺ, avancé en âge et marié à une femme
+      stérile, vit la subsistance d'Allah parvenir à Maryam (qu'Allah
+      l'agrée) dans son sanctuaire sans source apparente, et il dit :
+      « Mon Seigneur, accorde-moi de Toi-même une descendance bonne. Tu
+      es Celui qui exauce les supplications. » Les anges l'appelèrent
+      alors qu'il priait dans le sanctuaire : « Allah te donne la
+      bonne nouvelle de Yaḥyā. » Il serait « noble, chaste, et prophète
+      parmi les justes » (Coran 3:39). Yaḥyā (Jean-Baptiste) reçut le
+      discernement et la tendresse dès l'enfance, et honora les droits
+      de ses parents.
+    description_ar: |
+      كان النبي زكريَّا ﷺ شيخًا كبيرًا وامرأتُه عاقرًا، فرأى رزق الله
+      يأتي مريمَ رضي الله عنها في محرابها من غير محتسبٍ، فقال: «ربِّ
+      هَب لي من لدنك ذرِّيَّةً طيِّبةً، إنك سميع الدعاء». فناداه الملائكة
+      وهو قائمٌ يصلِّي في المحراب: «أنَّ الله يبشِّرك بيحيى». ويكون
+      «سيِّدًا وحَصُورًا ونبيًّا من الصالحين» (القرآن 3:39). أُوتي يحيى
+      (يوحنا المعمدان) الحُكم والحنانَ صبيًّا، وحفظَ حقَّ والديه.
     reference: Surah Aal Imran 3:38-41, Surah Maryam 19:2-15
     source_notes: |
       Ibn Kathīr notes that Zakariyyā's duʿā was answered not because of his age but because of his sincerity and the occasion that prompted it — witnessing divine generosity toward Maryam. Al-Qurṭubī adds that the prohibition on speaking was a sign of absorption in Allah's remembrance, and that Yaḥyā's exceptional character was established before his birth by divine decree.
@@ -187,6 +355,8 @@ lessons:
   - slug: yunus-in-the-fish
     category: quran_story
     title_en: Yunus ﷺ and the Fish
+    title_fr: Yūnus ﷺ et la baleine
+    title_ar: يونس ﷺ في بطن الحوت
     description_en: |
       The Prophet Yunus ﷺ left his people before receiving permission from
       his Lord. He boarded a ship that nearly foundered; lots were cast
@@ -198,6 +368,26 @@ lessons:
       since believed — the only story in the Qur'an of an entire
       community whose punishment was lifted by repentance after the
       prophet had departed.
+    description_fr: |
+      Le Prophète Yūnus ﷺ quitta son peuple avant d'en avoir reçu la
+      permission de son Seigneur. Il monta sur un navire qui faillit
+      sombrer ; on tira au sort et il fut jeté à la mer, et un grand
+      poisson l'engloutit. Dans « les ténèbres successives », il appela :
+      « Il n'y a de divinité que Toi, gloire à Toi. J'ai été certes du
+      nombre des injustes » (Coran 21:87). Le poisson le rejeta sur le
+      rivage et Allah fit pousser sur lui une plante grimpante pendant
+      qu'il se rétablissait. Il retourna ensuite vers son peuple, qui
+      avait entre-temps cru — seul récit du Coran d'une communauté
+      entière dont le châtiment fut levé par le repentir après le
+      départ du prophète.
+    description_ar: |
+      خرج النبي يونس ﷺ من قومه قبل أن يأذن له ربُّه. ركب الفُلك
+      فكاد يَغرق، فاقترعوا فأُلقي به في البحر، فالتقمه حوتٌ عظيمٌ.
+      فنادى في «الظُّلمات»: «لا إله إلا أنتَ سبحانكَ، إني كنتُ من
+      الظالمين» (القرآن 21:87). فلَفَظَه الحوتُ على الساحل، وأنبت الله
+      عليه شجرةً من يقطينٍ حتى أَفاق. ثم عاد إلى قومه وقد آمنوا — وهي
+      وحدها في القرآن قصةُ أُمَّةٍ كاملةٍ رُفع عنها العذاب بالتوبة بعد
+      ذَهاب نبيِّها.
     reference: Surah al-Anbiya 21:87-88, Surah al-Saffat 37:139-148, Surah Yunus 10:98
     source_notes: |
       Ibn Kathīr records that Yūnus's duʿā contains the essence of repentance: acknowledgement of divine oneness, glorification, and confession of fault. Al-Ṭabarī notes that his people's subsequent belief — after the prophet had departed — makes this the only story in the Qur'an where an entire community's punishment was lifted by repentance.
@@ -210,6 +400,8 @@ lessons:
   - slug: idris-raised-up
     category: quran_story
     title_en: Idris ﷺ — Raised to a Lofty Station
+    title_fr: Idrīs ﷺ — élevé à un rang sublime
+    title_ar: إدريس ﷺ ورفعُه إلى مكانٍ عليٍّ
     description_en: |
       The Qur'an mentions Idris ﷺ in two passages as a truthful prophet
       raised by Allah "to a lofty station" (makanan 'aliyya, Qur'an
@@ -218,6 +410,20 @@ lessons:
       classical scholarship has generally associated him with the
       pre-Flood patriarch Akhnukh (Enoch), though the details remain
       elusive and are not the basis for doctrine.
+    description_fr: |
+      Le Coran mentionne Idrīs ﷺ dans deux passages comme un prophète
+      véridique élevé par Allah « à un rang sublime » (makānan ʿaliyya,
+      Coran 19:57). Le Prophète ﷺ rapporta l'avoir rencontré au
+      quatrième ciel lors d'al-Miʿrāj. Le Coran ne narre que peu de
+      son histoire ; la science classique l'a généralement associé au
+      patriarche pré-déluge Akhnūkh (Hénoch), bien que les détails
+      demeurent incertains et ne fondent aucun dogme.
+    description_ar: |
+      ذكر القرآنُ إدريسَ ﷺ في موضعين بأنه نبيٌّ صدِّيقٌ رفعه الله
+      «مكانًا عليًّا» (القرآن 19:57). وأخبر النبيُّ ﷺ أنه لقيه في
+      السماء الرابعة في الإسراء والمعراج. ولم يُفصِّل القرآنُ من سيرته
+      كثيرًا؛ وقد ذهب جمهور العلماء إلى ربطه بأَخْنوخَ — وهو من آباء ما
+      قبل الطوفان — مع التحفُّظ على عدم اليقين في النَّسَب.
     reference: Surah Maryam 19:56-57, Surah al-Anbiya 21:85-86
     source_notes: |
       Ibn Kathīr, following the reports of Ibn ʿAbbās, associates Idrīs with Akhnūkh (Enoch) while cautioning that the identification is not certain enough to form doctrine. Al-Ṭabarī records that the Prophet ﷺ met Idrīs in the fourth heaven during al-Miʿrāj, confirming his elevated station among the prophets.
@@ -230,6 +436,8 @@ lessons:
   - slug: khidr-and-musa
     category: quran_story
     title_en: Musa ﷺ and al-Khidr
+    title_fr: Mūsā ﷺ et al-Khiḍr
+    title_ar: موسى ﷺ والخضر
     description_en: |
       Musa ﷺ was directed to meet a servant of Allah "whom We had taught
       knowledge from Ourselves" (Qur'an 18:65) — identified in the sound
@@ -240,6 +448,27 @@ lessons:
       damaged to save it from a tyrannical king; the boy would have
       misled his righteous parents; the wall covered a treasure for
       orphans. The story is a lesson in the limits of outward knowledge.
+    description_fr: |
+      Mūsā ﷺ fut conduit à rencontrer un serviteur d'Allah « auquel
+      Nous avions enseigné une science venue de Nous » (Coran 18:65) —
+      identifié dans le ḥadīth authentique à al-Khiḍr. Mūsā demanda à
+      l'accompagner ; al-Khiḍr l'avertit qu'il ne saurait être
+      patient. Trois fois Mūsā objecta — au sabordage de la barque, au
+      meurtre d'un garçon et à la reconstruction d'un mur — et trois
+      fois al-Khiḍr lui dévoila la sagesse cachée : la barque fut
+      endommagée pour la sauver d'un roi tyran ; le garçon aurait
+      égaré ses parents pieux ; le mur recouvrait un trésor pour des
+      orphelins. Le récit est une leçon sur les limites de la
+      connaissance apparente.
+    description_ar: |
+      أُمِر موسى ﷺ بلقاء عبدٍ من عباد الله «آتيناه رحمةً من عندنا
+      وعلَّمناه من لدنَّا علمًا» (القرآن 18:65) — وهو الخضرُ في الحديث
+      الصحيح. فطلب موسى أن يصحبه، فحذَّره الخضرُ من عدم الصبر. فاعترض
+      موسى ثلاث مرَّات — حين خُرقت السفينة، وحين قُتل الغلام، وحين
+      أُقيم الجدار — وفي كلِّ مرَّةٍ كَشَف الخضرُ عن الحكمة الخفيَّة:
+      خُرقت السفينةُ لتُنقذ من ملِكٍ غاشمٍ؛ والغلامُ سيُضِلُّ والديه
+      الصالحَين؛ والجدارُ يخفي كنزًا ليتيمَين. والقصَّة درسٌ في حدود
+      العلم الظاهر.
     reference: Surah al-Kahf 18:60-82, Sahih al-Bukhari 74, Sahih Muslim 2380
     source_notes: |
       Ibn Kathīr notes that this narrative establishes the hierarchy of knowledge: prophetic law (*sharīʿa*) and esoteric wisdom (*ʿilm al-ladunnī*) both originate with Allah but serve different purposes. Al-Qurṭubī emphasises that Mūsā's inability to endure patience teaches the believer that certainty (*yaqīn*) sometimes requires withholding judgment.
@@ -252,6 +481,8 @@ lessons:
   - slug: ibrahim-destroys-idols
     category: quran_story
     title_en: Ibrahim ﷺ Breaks the Idols
+    title_fr: Ibrāhīm ﷺ brise les idoles
+    title_ar: إبراهيم ﷺ يكسر الأصنام
     description_en: |
       Prophet Ibrahim ﷺ, alone among his people, reasoned from the
       changing stars, moon, and sun to the Creator who set them. When
@@ -262,6 +493,25 @@ lessons:
       (Qur'an 21:64). Unable to accept the implication, they cast him
       into a fire — which Allah commanded: "Be cool and peace upon
       Ibrahim" (21:69).
+    description_fr: |
+      Le Prophète Ibrāhīm ﷺ, seul parmi son peuple, raisonna en
+      passant des étoiles, de la lune et du soleil changeants au
+      Créateur qui les a établis. Quand son peuple partit pour une
+      fête, il brisa toutes les idoles de leur temple sauf la plus
+      grande, sur l'épaule de laquelle il déposa la hache. Interrogé,
+      il les défia d'interroger l'idole qui restait. « Ils se
+      tournèrent vers eux-mêmes et dirent : C'est vous-mêmes les
+      injustes » (Coran 21:64). Incapables d'accepter la conclusion,
+      ils le jetèrent dans un feu — auquel Allah ordonna : « Sois
+      fraîcheur et paix sur Ibrāhīm » (Coran 21:69).
+    description_ar: |
+      وقف النبي إبراهيمُ ﷺ وحيدًا بين قومه، فاستدلَّ بمتغيِّرات النجوم
+      والقمر والشمس على الخالق الذي قدَّرها. فلمَّا خرج قومُه إلى
+      عيدهم، حطَّم كلَّ أصنام معبدهم إلا كبيرهم وعَلَّق الفأس على عُنقه.
+      فلمَّا سُئل تحدَّاهم أن يسألوا الصنمَ الباقي. «فرجعوا إلى أنفسهم
+      فقالوا إنكم أنتم الظالمون» (القرآن 21:64). ولمَّا عجزوا عن قبول
+      الحقِّ ألقَوْه في النار، فأمرها الله: «يا نارُ كوني بردًا وسلامًا
+      على إبراهيم» (القرآن 21:69).
     reference: Surah al-Anbiya 21:51-70, Surah al-Saffat 37:83-98
     source_notes: |
       Al-Qurṭubī explains that Ibrāhīm's argument was not mere philosophy but a deliberate dismantling of polytheist logic that attributed divinity to created things. Ibn Kathīr adds that the fire's coolness was a miracle proving that protection belongs to Allah alone, and that it remained a sign for his people.
@@ -274,6 +524,8 @@ lessons:
   - slug: luqman-advises-son
     category: quran_story
     title_en: The Advice of Luqman to his Son
+    title_fr: Les conseils de Luqmān à son fils
+    title_ar: وصايا لقمان لابنه
     description_en: |
       The Qur'an preserves the counsel of Luqman the Wise to his son —
       one of the most concentrated passages of prophetic-style ethical
@@ -284,6 +536,25 @@ lessons:
       enjoining good and forbidding evil, patience in adversity, not
       turning one's cheek in scorn, walking moderately, and lowering
       one's voice. A whole course in character in eight verses.
+    description_fr: |
+      Le Coran conserve les conseils de Luqmān le Sage à son fils —
+      l'un des passages les plus concentrés d'enseignement éthique
+      d'allure prophétique du Livre. Il couvre le tawḥīd (« n'associe
+      rien à Allah ; en vérité, l'association Lui est une grande
+      injustice »), la piété filiale envers les parents (même s'ils
+      cherchent à faire associer à Allah, leur tenir compagnie en ce
+      monde avec convenance), l'établissement de la prière, le commandement
+      du bien et l'interdiction du mal, la patience dans l'épreuve, ne
+      pas détourner son visage par dédain, marcher avec mesure, et
+      abaisser la voix. Tout un cours de caractère en huit versets.
+    description_ar: |
+      يحفظ القرآن وصايا لقمان الحكيم لابنه — وهي من أكثفِ نصوص الأخلاق
+      النبويَّة الطابع في الكتاب. تشمل التوحيدَ («لا تُشْرك بالله، إنَّ
+      الشركَ لظلمٌ عظيم»)، وبرَّ الوالدين (حتى إن جاهداك على الشرك،
+      فصاحبهما في الدنيا معروفًا)، وإقامةَ الصلاة، والأمرَ بالمعروف
+      والنهيَ عن المنكر، والصبرَ على البلاء، وعدمَ تَصْعيرِ الخدِّ
+      كبرًا، والقصدَ في المشي، وغضَّ الصوت. منهجٌ كاملٌ في الأخلاق في
+      ثماني آيات.
     reference: Surah Luqman 31:12-19
     source_notes: |
       Al-Ṭabarī records that Luqmān was not a prophet but a wise believer (*ḥakīm muʾmin*), and that his counsel is preserved in the Qur'an as a model of paternal instruction. Ibn ʿAṭiyyah notes that the passage condenses an entire curriculum of character into eight verses, making it one of the most concentrated ethical teachings in the Book.
@@ -296,6 +567,8 @@ lessons:
   - slug: habil-qabil
     category: quran_story
     title_en: Habil and Qabil — The Two Sons of Adam
+    title_fr: Hābīl et Qābīl — les deux fils d'Ādam
+    title_ar: هابيل وقابيل — ابنا آدم
     description_en: |
       Both sons of Adam offered a sacrifice; Habil's was accepted and
       Qabil's was not. Qabil said to his brother: "I will surely kill
@@ -307,6 +580,26 @@ lessons:
       story: "Whoever kills a soul not in retaliation for a soul or for
       corruption in the land, it is as though he had killed all mankind"
       (5:32).
+    description_fr: |
+      Les deux fils d'Ādam offrirent un sacrifice ; celui de Hābīl fut
+      accepté et celui de Qābīl ne le fut pas. Qābīl dit à son frère :
+      « Je te tuerai sûrement. » Hābīl répondit : « Allah n'accepte
+      que des pieux. Si tu étends la main vers moi pour me tuer, je
+      n'étendrai pas la main vers toi pour te tuer ; je crains Allah,
+      le Seigneur des mondes » (Coran 5:28). Qābīl le tua, et un
+      corbeau lui apprit à ensevelir le corps. Le Coran tire de ce
+      récit le principe : « Quiconque tue une personne, sans qu'il y
+      ait eu meurtre ou corruption sur la terre, c'est comme s'il
+      avait tué tous les hommes » (Coran 5:32).
+    description_ar: |
+      قَرَّب ابنا آدمَ قُربانَين، فَتُقُبِّل من هابيلَ ولم يُتقبَّل من
+      قابيلَ. فقال قابيلُ لأخيه: «لأقتلنَّك». فأجابه هابيل: «إنَّما
+      يتقبَّل الله من المتَّقين. لئن بسطتَ إليَّ يدك لتقتلني ما أنا
+      بباسطٍ يدي إليك لأقتلك، إني أخاف اللهَ ربَّ العالمين» (القرآن
+      5:28). فقتله قابيلُ، فبعث الله غرابًا يَبحَث في الأرض ليُريَه
+      كيف يواري سَوءةَ أخيه. وأرسى القرآنُ على هذه القصة قاعدةً:
+      «من قتل نفسًا بغير نفسٍ أو فسادٍ في الأرض فكأنَّما قتل الناس
+      جميعًا» (القرآن 5:32).
     reference: Surah al-Ma'ida 5:27-32
     source_notes: |
       Ibn Kathīr, following Ibn ʿAbbās, explains that Allah accepted Hābīl's offering because it was given sincerely from the best of his property, whereas Qābīl's was inferior and given grudgingly. Al-Qurṭubī observes that the rejected sacrifice was a symptom of a diseased heart; outward rituals cannot compensate for inward corruption.
@@ -319,6 +612,8 @@ lessons:
   - slug: people-of-the-trench-ukhdud
     category: quran_story
     title_en: The People of the Trench (Ashab al-Ukhdud)
+    title_fr: Les Gens du Fossé (Aṣḥāb al-Ukhdūd)
+    title_ar: أصحاب الأخدود
     description_en: |
       Surah al-Buruj describes the digging of trenches of fire into which
       a tyrant king threw believers who refused to abandon their faith —
@@ -330,6 +625,26 @@ lessons:
       the king could only kill him by saying "In the name of Allah, Lord
       of the boy," and the mass conversion of the people that
       followed — provoking the king to dig the trenches.
+    description_fr: |
+      La sourate al-Burūj décrit le creusement de fossés de feu où un
+      roi tyran jeta des croyants qui refusaient d'abjurer leur foi —
+      « et ils n'avaient rien contre eux sinon qu'ils croyaient en
+      Allah, le Tout-Puissant, le Digne de louanges » (Coran 85:8). La
+      narration complète figure dans le célèbre ḥadīth du jeune
+      garçon, du roi et du moine rapporté par Ṣaḥīḥ Muslim : la
+      survie miraculeuse d'un jeune croyant à des tentatives
+      successives sur sa vie, son indication au roi qu'il ne pourrait
+      le tuer qu'en disant « Au nom d'Allah, Seigneur du garçon », et
+      la conversion en masse du peuple qui s'ensuivit — provoquant le
+      creusement des fossés.
+    description_ar: |
+      تَصِف سورةُ البروج حَفْرَ أَخاديدَ من نارٍ ألقى فيها مَلِكٌ طاغٍ
+      المؤمنين الذين أَبَوْا التخلِّي عن إيمانهم — «وما نَقَموا منهم
+      إلا أن يؤمنوا بالله العزيز الحميد» (القرآن 85:8). والروايةُ
+      التفصيليَّة في حديث الغلام والملك والراهب في صحيح مسلم: نجاةُ
+      صبيٍّ مؤمنٍ من محاولات قتلٍ متعاقبةٍ، وتعليمُه الملكَ أنه لا
+      يقتله إلا بقوله: «باسم الله ربِّ الغلام»، وما تبع ذلك من إيمانٍ
+      جماعيٍّ دفع الملك إلى حفر الأخاديد.
     reference: Surah al-Buruj 85:1-10, Sahih Muslim 3005
     source_notes: |
       Ibn Kathīr narrates that the boy, the king, and the monk hadith in Sahih Muslim provides the narrative background the Qur'an alludes to elliptically. Al-Qurṭubī notes that the verse "they had nothing against them except that they believed" (85:8) became a classical proof that faith alone can be sufficient cause for martyrdom.
@@ -342,6 +657,8 @@ lessons:
   - slug: mother-of-musa
     category: quran_story
     title_en: The Mother of Musa ﷺ
+    title_fr: La mère de Mūsā ﷺ
+    title_ar: أمُّ موسى ﷺ
     description_en: |
       Allah inspired the mother of Musa ﷺ during Pharaoh's massacre of
       the sons of the Israelites: "Suckle him, then when you fear for
@@ -355,6 +672,30 @@ lessons:
       payroll. The Qur'an comments: "So We returned him to his mother
       that she might be content and not grieve, and to know that Allah's
       promise is true" (28:13).
+    description_fr: |
+      Allah inspira la mère de Mūsā ﷺ pendant le massacre par Pharaon
+      des fils des Banū Isrāʾīl : « Allaite-le ; puis quand tu
+      craindras pour lui, jette-le dans le fleuve, sans crainte ni
+      tristesse : Nous te le rendrons et ferons de lui l'un des
+      messagers » (Coran 28:7). Elle plaça son nourrisson dans un
+      coffret et le confia au Nil ; il fut trouvé par la maison de
+      Pharaon et adopté par sa femme Āsiya (qu'Allah l'agrée). La
+      sœur de Mūsā le suivit en secret et suggéra une nourrice pour
+      l'enfant — sa propre mère, méconnue —, de sorte que son fils
+      lui fut rendu à la solde de Pharaon. Le Coran commente : « Nous
+      le rendîmes à sa mère pour qu'elle se réconforte et ne pleure
+      plus, et qu'elle sache que la promesse d'Allah est vraie »
+      (Coran 28:13).
+    description_ar: |
+      أوحى الله إلى أمِّ موسى ﷺ في مدَّة قتلِ فرعونَ أبناءَ بني
+      إسرائيل: «أَن أَرضِعِيه، فإذا خِفْتِ عليه فأَلْقِيه في اليمِّ،
+      ولا تَخافي ولا تَحْزَني، إنَّا رادُّوه إليك وجاعلوه من
+      المرسلين» (القرآن 28:7). فألقتْه في تابوتٍ على النيل، فالتقطه
+      آلُ فرعونَ وتَبَنَّتْه آسية رضي الله عنها. وتبعتْه أختُه خفيةً،
+      ودَلَّتْهم على مُرضعةٍ — هي أمُّه ولا يَعرفون — فعاد إلى
+      حِجرها على رزق فرعون. ويختم القرآن: «فرَدَدناه إلى أمِّه كي
+      تَقَرَّ عينُها ولا تَحْزَن ولِتَعلمَ أنَّ وَعدَ الله حقٌّ»
+      (القرآن 28:13).
     reference: Surah al-Qasas 28:1-13
     source_notes: |
       Al-Qurṭubī highlights that the mother of Mūsā is unnamed in the Qur'an, directing attention to her action rather than her lineage. Ibn Kathīr records from the reports of Ibn ʿAbbās that her placement of the infant in the chest was itself an act of faith, and that her return to him on Pharaoh's payroll demonstrated how Allah fulfils His promises through unexpected means.
@@ -367,6 +708,8 @@ lessons:
   - slug: quran-qarun
     category: quran_story
     title_en: The Fall of Qarun (Korah)
+    title_fr: La chute de Qārūn (Coré)
+    title_ar: هلاك قارون
     description_en: |
       Qarun was of the people of Musa ﷺ, but Allah had given him so much
       wealth that "the keys to his treasures would have burdened a band
@@ -377,6 +720,25 @@ lessons:
       swallow him and his dwellings. The next morning those who had
       envied his position said: "Were it not for the grace of Allah,
       He could have caused the earth to swallow us" (28:82).
+    description_fr: |
+      Qārūn était du peuple de Mūsā ﷺ, mais Allah lui avait donné
+      tant de richesses que « les clefs de ses trésors auraient ployé
+      une bande d'hommes forts » (Coran 28:76). Quand on lui rappela
+      qu'il devait dépenser dans la voie d'Allah et ne pas se réjouir
+      de ses biens, il répliqua : « On m'a donné cela en raison de la
+      science que je possède. » Il sortit dans son apparat pour
+      subjuguer les gens — et Allah fit que la terre l'engloutît, lui
+      et sa demeure. Le lendemain, ceux qui avaient envié sa position
+      dirent : « N'eût été la grâce d'Allah envers nous, Il aurait
+      fait que la terre nous engloutît » (Coran 28:82).
+    description_ar: |
+      كان قارونُ من قوم موسى ﷺ، آتاه اللهُ من الكنوز ما «إنَّ
+      مفاتحَه لتنوءُ بالعُصبة أُولي القوَّة» (القرآن 28:76). فلمَّا
+      وُعِظ ألَّا يَفرَح بمالِه وأن يُنفقه في سبيل الله، قال:
+      «إنما أُوتيتُه على علمٍ عندي». فخرج على قومه في زينته
+      ليبهرَهم، فخسف الله به وبداره الأرض. فأصبح الذين تمنَّوا
+      مكانه قبلًا يقولون: «لولا أن مَنَّ الله علينا لخسف بنا»
+      (القرآن 28:82).
     reference: Surah al-Qasas 28:76-82
     source_notes: |
       Ibn Kathīr, drawing from the *tafsīr* of Ibn ʿAbbās, notes that the earth swallowing Qārūn was not merely physical but a removal of *baraka* itself. Al-Ṭabarī preserves the early view that Qārūn's claim — "I was given this because of knowledge I possess" — is the archetype of conflating worldly success with divine favour.
@@ -389,6 +751,8 @@ lessons:
   - slug: quran-year-of-elephant
     category: quran_story
     title_en: The Year of the Elephant (Surah al-Fil)
+    title_fr: L'année de l'Éléphant (sourate al-Fīl)
+    title_ar: عام الفيل (سورة الفيل)
     description_en: |
       Abraha, the Christian Axumite ruler of Yemen, marched with a
       formidable army — including elephants — to destroy the Ka'ba in
@@ -398,6 +762,25 @@ lessons:
       "striking them like ravaged leaves" (Qur'an 105:4). The army was
       destroyed. The year — 570 CE — is called the Year of the Elephant
       and is the traditional date of the birth of the Prophet ﷺ.
+    description_fr: |
+      Abraha, le souverain chrétien axoumite du Yémen, marcha avec
+      une formidable armée — comprenant des éléphants — pour détruire
+      la Kaʿba à La Mecque, dans l'intention de détourner le
+      pèlerinage vers sa cathédrale de Ṣanʿāʾ. Aux abords de La
+      Mecque, les éléphants refusèrent d'avancer. Allah envoya des
+      vols de petits oiseaux (abābīl) portant des pierres d'argile
+      cuite, « les rendant comme des feuilles dévorées » (Coran 105:4).
+      L'armée fut anéantie. Cette année — 570 EC — est appelée l'année
+      de l'Éléphant et c'est la date traditionnelle de la naissance
+      du Prophète ﷺ.
+    description_ar: |
+      زحف أَبْرَهَةُ — حاكم اليمن النصرانيُّ الأكسوميُّ — بجيشٍ
+      ضخمٍ فيه فِيلَةٌ نحو مكَّة لِيَهدم الكعبة ويصرف الحجَّ إلى
+      كاتدرائيَّتِه في صنعاء. فلمَّا قاربوا مكَّة أَبَتِ الفيلةُ أن
+      تتقدَّم. فأرسل الله طيرًا أبابيلَ تَرميهم بحجارةٍ من سِجِّيلٍ،
+      «فجعلهم كعصفٍ مأكولٍ» (القرآن 105:4). فأُهلك الجيشُ. وسُمِّي تلك
+      السَّنةُ — 570 ميلاديَّة — عامَ الفيل، وهي تاريخُ ولادة النبي
+      ﷺ في المشهور.
     reference: Surah al-Fil 105:1-5
     source_notes: |
       Ibn Kathīr, in *al-Bidāya wa-l-Nihāya*, narrates the detailed reports of Ibn Isḥāq, noting that the birds were instruments of direct divine intervention. Al-Qurṭubī emphasises that Allah did not require angels or armies; the smallest of His creatures sufficed to demonstrate that protection of His House belongs to Him alone.
@@ -410,6 +793,8 @@ lessons:
   - slug: quran-ashab-al-kahf-detail
     category: quran_story
     title_en: The People of the Cave — Their Sign
+    title_fr: Les Gens de la Caverne — leur signe
+    title_ar: أصحاب الكهف — آيتهم
     description_en: |
       Beyond the bare summary of the story, Surah al-Kahf reflects on
       what Allah teaches through it. The Qur'an refuses the speculative
@@ -419,6 +804,23 @@ lessons:
       about them from anyone" (18:22). The surah then directs readers
       to say "Insha'Allah" when resolving on future action (18:23-24) —
       establishing a Qur'anic principle of humility before the unseen.
+    description_fr: |
+      Au-delà du sommaire de l'histoire, la sourate al-Kahf médite sur
+      ce qu'Allah enseigne par elle. Le Coran refuse l'arithmétique
+      spéculative sur le nombre des jeunes : « Dis : Mon Seigneur est
+      le mieux savant de leur nombre — peu de gens le savent. Ne
+      dispute donc à leur sujet que d'une dispute apparente, et ne
+      consulte personne à leur propos » (Coran 18:22). La sourate
+      oriente ensuite le lecteur à dire « in shāʾa Allāh » lorsqu'on
+      se résout à une action future (Coran 18:23-24) — fixant un
+      principe coranique d'humilité devant l'invisible.
+    description_ar: |
+      تَتَجاوَزُ سورةُ الكهف موجزَ القصَّة لتَأَمَّل ما يُعَلِّمه الله
+      بها. يرفض القرآن التَّخمينَ في عدد الفتية: «قُل ربِّي أَعلمُ
+      بِعِدَّتهم، ما يَعلَمُهم إلا قليل، فلا تُمارِ فيهم إلا مِراءً
+      ظاهرًا، ولا تَستفتِ فيهم منهم أحدًا» (القرآن 18:22). ثم يوجِّه
+      السَّامعَ أن يقول «إن شاء الله» إذا عَزَم على فِعلٍ في المستقبل
+      (القرآن 18:23-24)، مؤسِّسًا أصلًا قرآنيًّا في التواضع أمام الغيب.
     reference: Surah al-Kahf 18:22-26
     source_notes: |
       Ibn Kathīr explains that the Qur'an deliberately refuses speculative arithmetic about the sleepers to teach humility before the unseen. Al-Ṭabarī records the early scholarly consensus that the story is a proof of resurrection and a reassurance that Allah protects those who sacrifice for His sake.
@@ -431,6 +833,8 @@ lessons:
   - slug: owners-of-the-garden
     category: quran_story
     title_en: The Owners of the Garden (Ashab al-Jannah)
+    title_fr: Les propriétaires du jardin (Aṣḥāb al-Janna)
+    title_ar: أصحاب الجنَّة في سورة القلم
     description_en: |
       Surah al-Qalam tells of a father who charitably gave the poor
       their share of his harvest. After his death his sons resolved to
@@ -442,6 +846,28 @@ lessons:
       blame and recognised the cause, hoping Allah would replace it
       with better. The Qur'an ends: "Such was the punishment — and the
       punishment of the Hereafter is greater, if they only knew" (68:33).
+    description_fr: |
+      La sourate al-Qalam raconte l'histoire d'un père qui donnait
+      généreusement aux pauvres leur part de sa récolte. Après sa
+      mort, ses fils résolurent de récolter avant l'aube et d'exclure
+      les pauvres, jurant qu'ils le feraient « sans dire « in shāʾa
+      Allāh » ». Dans la nuit, Allah envoya une calamité qui consuma
+      le jardin ; ils se levèrent pour le trouver noir et ruiné.
+      L'un d'eux — « le plus modéré » — dit : « Ne vous avais-je pas
+      dit : Que ne glorifiez-vous Allah ? » Ils se reprochèrent les
+      uns aux autres et reconnurent la cause, espérant qu'Allah le
+      leur remplacerait par mieux. Le Coran conclut : « Tel fut le
+      châtiment — et le châtiment de l'au-delà est plus grand, s'ils
+      savaient » (Coran 68:33).
+    description_ar: |
+      تَرْوي سورة القلم قِصَّةَ رجلٍ كان يُعطي الفقراء حقَّهم من
+      ثَمَره. فلمَّا مات، عَزَم بنوه على جني المحصول قبل الفجر وحَرَم
+      الفقراء، وأقسموا «ولا يَستثنون». فأَرسل اللهُ في الليل آفةً
+      أكلت الجنَّة، فأَصبحوا فإذا هي كالصَّريم. فقال أَوْسَطُهم: «أَلَم
+      أَقُل لَكُم لَولا تُسَبِّحون؟» فتلاوموا واعترفوا بالسبب،
+      راجين أن يُبدِلهم الله خيرًا منها. ويختم القرآن: «كَذلِكَ
+      العَذابُ، ولَعَذابُ الآخِرَةِ أَكبَر، لَو كانوا يَعلَمونَ»
+      (القرآن 68:33).
     reference: Surah al-Qalam 68:17-33
     source_notes: |
       Ibn Kathīr notes that the fire was not merely physical but a removal of *baraka* itself; the land remained, but its fruitfulness departed. Al-Qurṭubī emphasises that their oath to sin before dawn was itself a measure of their hearts' corruption — they did not merely neglect charity, they actively conspired against it.
