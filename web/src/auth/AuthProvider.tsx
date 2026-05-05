@@ -17,6 +17,7 @@ import { unwrap } from "@/api/errors";
 import { client } from "@/api/generated/client.gen";
 import {
   loginApiV1AuthLoginPost,
+  meApiV1AuthMeGet,
   refreshApiV1AuthRefreshPost,
   signupApiV1AuthSignupPost,
 } from "@/api/generated/sdk.gen";
@@ -30,6 +31,10 @@ interface AuthContextValue {
   signup: (email: string, password: string, displayName: string) => Promise<void>;
   login: (email: string, password: string) => Promise<void>;
   logout: () => void;
+  /** Re-fetch the current user from /auth/me and update the stored profile.
+   *  Called after server-side state changes (email verify, profile edits)
+   *  so the UI reflects the new value without a hard reload. */
+  refreshUser: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null);
@@ -162,6 +167,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     clearSession();
   }, [clearSession]);
 
+  const refreshUser = useCallback(async () => {
+    if (!accessTokenRef.current) return;
+    try {
+      const fresh = unwrap(await meApiV1AuthMeGet());
+      setUser(fresh);
+    } catch {
+      // Stay silent — the next /me-gated route will surface the failure.
+    }
+  }, []);
+
   const value = useMemo<AuthContextValue>(
     () => ({
       user,
@@ -170,8 +185,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       signup,
       login,
       logout,
+      refreshUser,
     }),
-    [user, isInitialised, signup, login, logout],
+    [user, isInitialised, signup, login, logout, refreshUser],
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

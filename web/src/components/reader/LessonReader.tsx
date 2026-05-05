@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { SaveButton } from "@/components/bookmark/SaveButton";
 import { FriezeRule } from "@/components/design";
 import { pickLocalised, pickLocalisedList, useLanguage } from "@/providers/LanguageProvider";
 import type { LessonDetail } from "@/api/generated/types.gen";
@@ -37,6 +38,7 @@ export function LessonReader({ lesson }: Props) {
         <span className="font-mono text-[12px] uppercase tracking-[2px] text-ink-mute">
           {t("lesson")}
         </span>
+        <SaveButton targetKind="lesson" targetSlug={lesson.id} />
       </div>
 
       <h1

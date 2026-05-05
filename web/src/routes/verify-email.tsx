@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ApiError, unwrap } from "@/api/errors";
 import { verifyEmailApiV1AuthEmailVerifyPost } from "@/api/generated/sdk.gen";
+import { useAuth } from "@/auth/AuthProvider";
 import { EightPointStar, Eyebrow, FriezeRule } from "@/components/design";
 import { PageShell } from "@/components/reader/PageShell";
 import { Loading } from "@/components/ui/Loading";
@@ -18,6 +19,7 @@ type VerifyState = "idle" | "running" | "done" | "failed";
 function VerifyEmailPage() {
   const { t } = useTranslation();
   const { isRTL } = useLanguage();
+  const { refreshUser } = useAuth();
   const search = useSearch({ from: "/verify-email" });
   const token = (search as VerifySearch).token ?? "";
 
@@ -30,7 +32,13 @@ function VerifyEmailPage() {
       try {
         const result = await verifyEmailApiV1AuthEmailVerifyPost({ body: { token } });
         if (result.error !== undefined) unwrap(result);
-        if (!cancelled) setState("done");
+        if (!cancelled) {
+          // Server flipped ``email_verified`` to true; pull the fresh user
+          // so the in-memory profile and the verify-banner on /saves drop
+          // immediately without forcing a reload.
+          await refreshUser();
+          setState("done");
+        }
       } catch (err) {
         if (cancelled) return;
         if (err instanceof ApiError && err.errorCode === "InvalidEmailVerificationTokenError") {
@@ -43,7 +51,7 @@ function VerifyEmailPage() {
     return () => {
       cancelled = true;
     };
-  }, [token]);
+  }, [token, refreshUser]);
 
   return (
     <PageShell title={t("auth.verify_email_title")}>

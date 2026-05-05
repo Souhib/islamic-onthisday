@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useLessonQuery } from "@/api/lessons";
-import { SaveButton } from "@/components/bookmark/SaveButton";
 import { BackToTodayCTA } from "@/components/reader/BackToTodayCTA";
 import { DetailHeader } from "@/components/reader/DetailHeader";
 import { LessonReader } from "@/components/reader/LessonReader";
@@ -40,9 +39,6 @@ function LessonDetailPage() {
         {query.isError && <NotFound message={`${t("no_lesson_with_slug")} "${slug}"`} />}
         {query.data && (
           <>
-            <div className="mb-4 flex justify-end">
-              <SaveButton targetKind="lesson" targetSlug={slug} />
-            </div>
             <LessonReader lesson={query.data} />
             <BackToTodayCTA />
           </>

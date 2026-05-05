@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { SaveButton } from "@/components/bookmark/SaveButton";
 import {
   FriezeRule,
   VerificationChip,
@@ -44,6 +45,7 @@ export function Main({ ev, onOpenDispute }: Props) {
         </span>
         <div className="h-[0.5px] min-w-3 flex-1 bg-rule" />
         <VerificationChip kind={verificationKind} label={verificationLabel} />
+        <SaveButton targetKind="event" targetSlug={ev.id} />
       </div>
 
       <h1
