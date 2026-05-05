@@ -19,6 +19,9 @@ dependencies = [
     "islamic-onthisday-pipeline",
     "sentry-sdk[fastapi]>=2.58.0",
     "slowapi>=0.1.9",
+    "argon2-cffi>=23.1.0",
+    "pyjwt>=2.10.0",
+    "email-validator>=2.2.0",
 ]
 
 [project.optional-dependencies]

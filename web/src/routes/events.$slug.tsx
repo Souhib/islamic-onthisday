@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useEventQuery } from "@/api/events";
+import { SaveButton } from "@/components/bookmark/SaveButton";
 import {
   FriezeRule,
   VerificationChip,
@@ -103,6 +104,9 @@ function EventDetailPage() {
                   onClick={openDispute}
                 />
               )}
+              <span className="ms-auto">
+                <SaveButton targetKind="event" targetSlug={slug} />
+              </span>
             </div>
 
             <FriezeRule label={t("introduction")} marginTop={0} marginBottom={14} />

@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 import { useTranslation } from "react-i18next";
+import { useAuth } from "@/auth/AuthProvider";
 import { EightPointStar } from "@/components/design";
 import { Footer } from "@/components/reader/Footer";
 import { LanguageSwitcher } from "@/components/reader/LanguageSwitcher";
@@ -15,7 +16,13 @@ interface Props {
 export function PageShell({ title, subtitle, children }: Props) {
   const { t } = useTranslation();
   const { theme, toggle } = useTheme();
+  const { isAuthenticated, isInitialised } = useAuth();
   const dark = theme === "dark";
+  const accountLink = isInitialised
+    ? isAuthenticated
+      ? { to: "/saves" as const, label: t("auth.saves") }
+      : { to: "/sign-in" as const, label: t("auth.sign_in") }
+    : null;
 
   useEffect(() => {
     document.title = `${title} · Islamic On This Day`;
@@ -57,6 +64,11 @@ export function PageShell({ title, subtitle, children }: Props) {
             <Link to="/observances" className="iotd-link">
               {t("observances")}
             </Link>
+            {accountLink && (
+              <Link to={accountLink.to} className="iotd-link">
+                {accountLink.label}
+              </Link>
+            )}
           </nav>
         </div>
 
@@ -78,6 +90,11 @@ export function PageShell({ title, subtitle, children }: Props) {
             <Link to="/observances" className="iotd-link">
               {t("observances")}
             </Link>
+            {accountLink && (
+              <Link to={accountLink.to} className="iotd-link">
+                {accountLink.label}
+              </Link>
+            )}
             <LanguageSwitcher />
             <button
               type="button"

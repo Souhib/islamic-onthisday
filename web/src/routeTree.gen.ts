@@ -9,6 +9,9 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SignUpRouteImport } from './routes/sign-up'
+import { Route as SignInRouteImport } from './routes/sign-in'
+import { Route as SavesRouteImport } from './routes/saves'
 import { Route as RecentRouteImport } from './routes/recent'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ObservancesIndexRouteImport } from './routes/observances.index'
@@ -17,6 +20,21 @@ import { Route as ObservancesSlugRouteImport } from './routes/observances.$slug'
 import { Route as LessonsSlugRouteImport } from './routes/lessons.$slug'
 import { Route as EventsSlugRouteImport } from './routes/events.$slug'
 
+const SignUpRoute = SignUpRouteImport.update({
+  id: '/sign-up',
+  path: '/sign-up',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SignInRoute = SignInRouteImport.update({
+  id: '/sign-in',
+  path: '/sign-in',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SavesRoute = SavesRouteImport.update({
+  id: '/saves',
+  path: '/saves',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RecentRoute = RecentRouteImport.update({
   id: '/recent',
   path: '/recent',
@@ -56,6 +74,9 @@ const EventsSlugRoute = EventsSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/recent': typeof RecentRoute
+  '/saves': typeof SavesRoute
+  '/sign-in': typeof SignInRoute
+  '/sign-up': typeof SignUpRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -65,6 +86,9 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/recent': typeof RecentRoute
+  '/saves': typeof SavesRoute
+  '/sign-in': typeof SignInRoute
+  '/sign-up': typeof SignUpRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -75,6 +99,9 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/recent': typeof RecentRoute
+  '/saves': typeof SavesRoute
+  '/sign-in': typeof SignInRoute
+  '/sign-up': typeof SignUpRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -86,6 +113,9 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/recent'
+    | '/saves'
+    | '/sign-in'
+    | '/sign-up'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -95,6 +125,9 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/recent'
+    | '/saves'
+    | '/sign-in'
+    | '/sign-up'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -104,6 +137,9 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/recent'
+    | '/saves'
+    | '/sign-in'
+    | '/sign-up'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -114,6 +150,9 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   RecentRoute: typeof RecentRoute
+  SavesRoute: typeof SavesRoute
+  SignInRoute: typeof SignInRoute
+  SignUpRoute: typeof SignUpRoute
   EventsSlugRoute: typeof EventsSlugRoute
   LessonsSlugRoute: typeof LessonsSlugRoute
   ObservancesSlugRoute: typeof ObservancesSlugRoute
@@ -123,6 +162,27 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/sign-up': {
+      id: '/sign-up'
+      path: '/sign-up'
+      fullPath: '/sign-up'
+      preLoaderRoute: typeof SignUpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sign-in': {
+      id: '/sign-in'
+      path: '/sign-in'
+      fullPath: '/sign-in'
+      preLoaderRoute: typeof SignInRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/saves': {
+      id: '/saves'
+      path: '/saves'
+      fullPath: '/saves'
+      preLoaderRoute: typeof SavesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/recent': {
       id: '/recent'
       path: '/recent'
@@ -178,6 +238,9 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   RecentRoute: RecentRoute,
+  SavesRoute: SavesRoute,
+  SignInRoute: SignInRoute,
+  SignUpRoute: SignUpRoute,
   EventsSlugRoute: EventsSlugRoute,
   LessonsSlugRoute: LessonsSlugRoute,
   ObservancesSlugRoute: ObservancesSlugRoute,

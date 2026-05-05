@@ -9,8 +9,10 @@ from collections.abc import AsyncGenerator
 
 from sqlalchemy.ext.asyncio import AsyncEngine, async_sessionmaker, create_async_engine
 from sqlalchemy.pool import AsyncAdaptedQueuePool
+from sqlmodel import SQLModel
 from sqlmodel.ext.asyncio.session import AsyncSession
 
+import iotd.models  # noqa: F401 — registers User + Bookmark on SQLModel.metadata
 from iotd.settings import Settings
 
 _engine: AsyncEngine | None = None
@@ -45,8 +47,30 @@ def _build_engine(settings: Settings) -> AsyncEngine:
     )
 
 
+_BACKEND_TABLES: tuple[str, ...] = ("users", "bookmarks")
+
+
+async def _create_backend_tables(engine: AsyncEngine) -> None:
+    """Create the backend-owned tables (``users``, ``bookmarks``) if missing.
+
+    The pipeline owns content-table DDL and rebuilds it from YAML on every
+    run; backend tables are never touched by the pipeline (they're
+    excluded from ``CONTENT_TABLE_NAMES``). Until Alembic lands in prod,
+    we create them idempotently on each app boot — ``create_all`` is a
+    no-op when the table already exists.
+    """
+    backend_tables = [SQLModel.metadata.tables[name] for name in _BACKEND_TABLES if name in SQLModel.metadata.tables]
+    if not backend_tables:
+        return
+    async with engine.begin() as conn:
+        await conn.run_sync(SQLModel.metadata.create_all, tables=backend_tables)
+
+
 async def init_engine(settings: Settings) -> AsyncEngine:
     """Build (once) and return the async engine.
+
+    Also creates the backend-owned tables (``users``, ``bookmarks``) if
+    they don't already exist — pipeline rebuilds never touch them.
 
     Args:
         settings: The active configuration.
@@ -58,6 +82,7 @@ async def init_engine(settings: Settings) -> AsyncEngine:
     if _engine is None:
         _engine = _build_engine(settings)
         _session_factory = async_sessionmaker(_engine, class_=AsyncSession, expire_on_commit=False)
+        await _create_backend_tables(_engine)
     return _engine
 
 

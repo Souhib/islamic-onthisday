@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { usePersonQuery } from "@/api/people";
+import { SaveButton } from "@/components/bookmark/SaveButton";
 import { FriezeRule } from "@/components/design";
 import { BackToTodayCTA } from "@/components/reader/BackToTodayCTA";
 import { PageShell } from "@/components/reader/PageShell";
@@ -24,9 +25,12 @@ function PersonPage() {
       {query.isError && <Empty message={`${t("no_person_with_slug")} "${slug}".`} />}
       {query.data && (
         <article>
-          <div className="mb-3 font-mono text-[11.5px] uppercase tracking-[2px] text-accent">
-            {t("person")}
-            {query.data.role ? ` · ${query.data.role}` : ""}
+          <div className="mb-3 flex items-center justify-between gap-3 font-mono text-[11.5px] uppercase tracking-[2px] text-accent">
+            <span>
+              {t("person")}
+              {query.data.role ? ` · ${query.data.role}` : ""}
+            </span>
+            <SaveButton targetKind="person" targetSlug={slug} />
           </div>
           <h1 className="m-0 text-[clamp(32px,4vw,48px)] font-serif font-medium leading-none tracking-[-1.4px] text-ink text-balance">
             {query.data.fullNameEn}

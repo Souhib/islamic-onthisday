@@ -75,6 +75,14 @@ class Settings(BaseSettings):
     # hit the public limit; the production env file flips this to true.
     rate_limit_enabled: bool = False
 
+    # Auth — JWT signing. The ``dev-only-change-me`` default exists so a
+    # fresh checkout boots without env wiring; production envs MUST set
+    # ``JWT_SECRET_KEY`` to a long, random value (32+ bytes).
+    jwt_secret_key: str = "dev-only-change-me"
+    jwt_algorithm: str = "HS256"
+    access_token_minutes: int = 30
+    refresh_token_days: int = 30
+
     @field_validator("cors_origins", mode="after")
     @classmethod
     def _parse_cors_origins(cls, value: str | list[str]) -> list[str]:

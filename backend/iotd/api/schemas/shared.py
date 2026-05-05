@@ -13,7 +13,7 @@ from pipeline.schemas.shared import BaseTable
 from pydantic import ConfigDict
 from pydantic.alias_generators import to_camel
 
-__all__ = ["BaseModel", "BaseTable", "ResponseModel"]
+__all__ = ["BaseModel", "BaseTable", "RequestModel", "ResponseModel"]
 
 BaseModel = _PipelineBaseModel
 
@@ -38,4 +38,23 @@ class ResponseModel(BaseModel):
         # routes still need response_model_by_alias=True for its own
         # serialise pass.
         serialize_by_alias=True,
+    )
+
+
+class RequestModel(BaseModel):
+    """Use as the base for HTTP request bodies.
+
+    Same camelCase / snake_case acceptance as ``ResponseModel``, but
+    without ``serialize_by_alias`` since requests are only validated, never
+    re-serialised back to the wire. Keeps the wire contract consistent —
+    the FE sends ``{ "displayName": ... }`` for the same field that the
+    response emits as ``displayName``.
+    """
+
+    model_config = ConfigDict(  # type: ignore[typeddict-unknown-key]
+        from_attributes=True,
+        populate_by_name=True,
+        arbitrary_types_allowed=True,
+        extra="forbid",
+        alias_generator=to_camel,
     )

@@ -193,3 +193,61 @@ class PersonNotFoundError(NotFoundError):
             frontend_message="That person doesn't exist.",
             details={"slug": slug},
         )
+
+
+# --- Auth + bookmarks -------------------------------------------------------
+
+
+class EmailAlreadyRegisteredError(BaseError):
+    """Raised when signup hits a duplicate email."""
+
+    def __init__(self, email: str):
+        super().__init__(
+            message=f"email '{email}' is already registered",
+            frontend_message="That email is already registered.",
+            status_code=status.HTTP_409_CONFLICT,
+            details={"email": email},
+        )
+
+
+class InvalidCredentialsError(BaseError):
+    """Raised on login when email or password don't match."""
+
+    def __init__(self):
+        super().__init__(
+            message="invalid email or password",
+            frontend_message="That email and password don't match.",
+            status_code=status.HTTP_401_UNAUTHORIZED,
+        )
+
+
+class InvalidTokenError(BaseError):
+    """Raised when an access or refresh token is missing, malformed, or expired."""
+
+    def __init__(self, reason: str = "invalid or expired token"):
+        super().__init__(
+            message=reason,
+            frontend_message="Your session expired. Please sign in again.",
+            status_code=status.HTTP_401_UNAUTHORIZED,
+        )
+
+
+class BookmarkTargetNotFoundError(NotFoundError):
+    """Raised when the bookmarked slug points at no real resource."""
+
+    def __init__(self, kind: str, slug: str):
+        super().__init__(
+            message=f"{kind} '{slug}' not found",
+            frontend_message="That entry doesn't exist any more.",
+            details={"kind": kind, "slug": slug},
+        )
+
+
+class BookmarkNotFoundError(NotFoundError):
+    """Raised when deleting a bookmark that isn't there."""
+
+    def __init__(self):
+        super().__init__(
+            message="bookmark not found",
+            frontend_message="That bookmark doesn't exist.",
+        )

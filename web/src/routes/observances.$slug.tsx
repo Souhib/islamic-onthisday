@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useObservanceQuery } from "@/api/observances";
+import { SaveButton } from "@/components/bookmark/SaveButton";
 import { FriezeRule } from "@/components/design";
 import { BackToTodayCTA } from "@/components/reader/BackToTodayCTA";
 import { PageShell } from "@/components/reader/PageShell";
@@ -47,9 +48,12 @@ function ObservancePage() {
       {query.isError && <Empty message={`${t("no_observance_with_slug")} "${slug}".`} />}
       {query.data && (
         <article>
-          <div className="mb-3 font-mono text-[11.5px] uppercase tracking-[2px] text-accent">
-            {query.data.hijriDay ?? ""} {HIJRI_MONTHS_LONG[query.data.hijriMonth - 1]} ·{" "}
-            {t(query.data.importance, query.data.importance)}
+          <div className="mb-3 flex items-center justify-between gap-3 font-mono text-[11.5px] uppercase tracking-[2px] text-accent">
+            <span>
+              {query.data.hijriDay ?? ""} {HIJRI_MONTHS_LONG[query.data.hijriMonth - 1]} ·{" "}
+              {t(query.data.importance, query.data.importance)}
+            </span>
+            <SaveButton targetKind="observance" targetSlug={slug} />
           </div>
           <h1
             dir={isRTL ? "rtl" : "ltr"}

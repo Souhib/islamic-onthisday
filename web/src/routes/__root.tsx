@@ -1,5 +1,6 @@
 import { Outlet, createRootRoute, useLocation } from "@tanstack/react-router";
 import { useEffect } from "react";
+import { AuthProvider } from "@/auth/AuthProvider";
 import { ErrorBoundary } from "@/components/ui/ErrorBoundary";
 import { NotFound } from "@/components/ui/NotFound";
 import { trackPageView } from "@/lib/analytics";
@@ -22,7 +23,9 @@ function RootLayout() {
       <QueryProvider>
         <ThemeProvider>
           <LanguageProvider>
-            <Outlet />
+            <AuthProvider>
+              <Outlet />
+            </AuthProvider>
           </LanguageProvider>
         </ThemeProvider>
       </QueryProvider>
