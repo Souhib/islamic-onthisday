@@ -103,17 +103,19 @@ export function TodayBottomSection({ items, onPick }: Props) {
                 {localisedTitle}
               </div>
 
-              <div className="mt-2.5 flex flex-wrap items-baseline gap-3.5">
-                {hijri && <span className="font-serif text-[16px] italic text-ink">{hijri}</span>}
-                {eventDate && (
-                  <span className="font-mono text-[14px] tracking-[0.6px] text-ink-mute">
-                    {eventDate}
-                  </span>
-                )}
-              </div>
+              {(hijri || eventDate) && (
+                <div className="mt-2.5 flex flex-wrap items-baseline gap-3.5">
+                  {hijri && <span className="font-serif text-[16px] italic text-ink">{hijri}</span>}
+                  {eventDate && (
+                    <span className="font-mono text-[14px] tracking-[0.6px] text-ink-mute">
+                      {eventDate}
+                    </span>
+                  )}
+                </div>
+              )}
 
               {lessonRefLines.length > 0 && (
-                <ul className="mt-2.5 flex flex-col gap-1">
+                <ul className="mt-1.5 flex flex-col gap-1">
                   {lessonRefLines.map((line, i) => (
                     <li
                       key={i}
