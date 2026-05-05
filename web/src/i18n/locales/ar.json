@@ -55,6 +55,7 @@
   "weight_notable": "ملحوظ",
   "weight_minority": "أقلية",
   "app_name": "الإسلام في مثل هذا اليوم",
+  "app_name_short": "في مثل هذا اليوم",
   "classical_record_tagline": "السجلّ الكلاسيكي. يوماً يوماً.",
   "build_label": "إصدار",
   "dataset_depth_events": "{{formatted}} حدثاً",

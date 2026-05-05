@@ -55,6 +55,7 @@
   "weight_notable": "Notable",
   "weight_minority": "Minoritaire",
   "app_name": "Islam Aujourd'hui dans l'Histoire",
+  "app_name_short": "Dans l'Histoire",
   "classical_record_tagline": "Le corpus classique. Jour après jour.",
   "build_label": "build",
   "dataset_depth_events": "{{formatted}} événements",

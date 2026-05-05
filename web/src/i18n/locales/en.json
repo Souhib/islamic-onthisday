@@ -55,6 +55,7 @@
   "weight_notable": "Notable",
   "weight_minority": "Minority",
   "app_name": "Islamic On This Day",
+  "app_name_short": "On This Day",
   "classical_record_tagline": "The classical record. One day at a time.",
   "build_label": "build",
   "dataset_depth_events": "{{formatted}} events",
