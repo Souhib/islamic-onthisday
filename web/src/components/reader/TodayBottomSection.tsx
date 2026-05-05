@@ -115,7 +115,7 @@ export function TodayBottomSection({ items, onPick }: Props) {
               )}
 
               {lessonRefLines.length > 0 && (
-                <ul className="mt-2 flex flex-col gap-1">
+                <ul className="mt-2.5 flex flex-col gap-1">
                   {lessonRefLines.map((line, i) => (
                     <li
                       key={i}
