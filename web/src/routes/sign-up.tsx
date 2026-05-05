@@ -44,9 +44,14 @@ function SignUpPage() {
       setError(t("auth.errors.weak_password"));
       return;
     }
+    const trimmedName = displayName.trim();
+    if (!trimmedName) {
+      setError(t("auth.errors.display_name_required"));
+      return;
+    }
     setSubmitting(true);
     try {
-      await signup(email.trim(), password, displayName.trim() || undefined);
+      await signup(email.trim(), password, trimmedName);
       void navigate({ to: "/saves" });
     } catch (err) {
       setError(pickSignupErrorMessage(err, t));
@@ -133,7 +138,9 @@ function SignUpPage() {
             <span className={labelTextClass}>{t("auth.display_name")}</span>
             <input
               type="text"
+              required
               autoComplete="nickname"
+              minLength={1}
               maxLength={64}
               value={displayName}
               onChange={(e) => setDisplayName(e.target.value)}
@@ -165,7 +172,10 @@ function SignUpPage() {
 
         <p className="mt-7 text-center font-mono text-[11.5px] uppercase tracking-[1.4px] text-ink-soft">
           {t("auth.have_account")}{" "}
-          <Link to="/sign-in" className="iotd-link text-ink underline-offset-4 hover:underline">
+          <Link
+            to="/sign-in"
+            className="font-medium text-accent underline decoration-accent/40 underline-offset-[5px] transition-colors hover:decoration-accent"
+          >
             {t("auth.sign_in")}
           </Link>
         </p>

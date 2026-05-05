@@ -141,7 +141,10 @@ function SignInPage() {
 
         <p className="mt-7 text-center font-mono text-[11.5px] uppercase tracking-[1.4px] text-ink-soft">
           {t("auth.no_account")}{" "}
-          <Link to="/sign-up" className="iotd-link text-ink underline-offset-4 hover:underline">
+          <Link
+            to="/sign-up"
+            className="font-medium text-accent underline decoration-accent/40 underline-offset-[5px] transition-colors hover:decoration-accent"
+          >
             {t("auth.sign_up")}
           </Link>
         </p>

@@ -1,19 +1,33 @@
 """Auth request and response schemas."""
 
 from datetime import datetime
+from typing import Annotated
 from uuid import UUID
 
-from pydantic import EmailStr, Field
+from pydantic import EmailStr, Field, StringConstraints
 
 from iotd.api.schemas.shared import RequestModel, ResponseModel
 
+# Strip surrounding whitespace before applying length checks so a payload
+# of "   " is rejected as missing rather than smuggled through as length-3.
+_TrimmedDisplayName = Annotated[
+    str,
+    StringConstraints(strip_whitespace=True, min_length=1, max_length=64),
+]
+
 
 class SignupRequest(RequestModel):
-    """Inputs for ``POST /api/v1/auth/signup``."""
+    """Inputs for ``POST /api/v1/auth/signup``.
+
+    ``display_name`` is required at the API boundary so every new account
+    has a human label for the saves header (the ``User`` row keeps the
+    column nullable so legacy / admin-created rows aren't forced to
+    backfill).
+    """
 
     email: EmailStr
     password: str = Field(min_length=8, max_length=128)
-    display_name: str | None = Field(default=None, max_length=64)
+    display_name: _TrimmedDisplayName
 
 
 class LoginRequest(RequestModel):

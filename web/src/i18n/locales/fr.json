@@ -133,7 +133,7 @@
     "sign_out": "Se déconnecter",
     "email": "Email",
     "password": "Mot de passe",
-    "display_name": "Nom affiché (optionnel)",
+    "display_name": "Nom affiché",
     "have_account": "Vous avez déjà un compte ?",
     "no_account": "Pas encore de compte ?",
     "sign_in_subtitle": "Connectez-vous pour conserver vos lectures et les retrouver d'un appareil à l'autre.",
@@ -162,6 +162,7 @@
       "invalid_credentials": "Email ou mot de passe incorrect.",
       "email_taken": "Cet email est déjà enregistré.",
       "weak_password": "Le mot de passe doit contenir au moins 8 caractères.",
+      "display_name_required": "Choisissez un nom affiché.",
       "generic": "La requête n'a pas pu aboutir. Veuillez réessayer."
     }
   },

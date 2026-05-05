@@ -32,7 +32,9 @@ async def _wipe_user(email: str) -> None:
 async def auth_user(client: AsyncClient) -> AsyncIterator[tuple[str, dict[str, str]]]:
     """Sign up a unique account and yield ``(email, auth-headers)``."""
     email = _unique_email("bm")
-    r = await client.post("/api/v1/auth/signup", json={"email": email, "password": "correct-horse-battery"})
+    r = await client.post(
+        "/api/v1/auth/signup", json={"email": email, "password": "correct-horse-battery", "displayName": "Test User"}
+    )
     assert r.status_code == 201
     headers = {"Authorization": f"Bearer {r.json()['accessToken']}"}
     yield email, headers
@@ -128,8 +130,14 @@ async def test_users_cannot_see_each_others_bookmarks(client: AsyncClient):
     email_a = _unique_email("bma")
     email_b = _unique_email("bmb")
     try:
-        ra = await client.post("/api/v1/auth/signup", json={"email": email_a, "password": "correct-horse-battery"})
-        rb = await client.post("/api/v1/auth/signup", json={"email": email_b, "password": "correct-horse-battery"})
+        ra = await client.post(
+            "/api/v1/auth/signup",
+            json={"email": email_a, "password": "correct-horse-battery", "displayName": "Test User"},
+        )
+        rb = await client.post(
+            "/api/v1/auth/signup",
+            json={"email": email_b, "password": "correct-horse-battery", "displayName": "Test User"},
+        )
         ha = {"Authorization": f"Bearer {ra.json()['accessToken']}"}
         hb = {"Authorization": f"Bearer {rb.json()['accessToken']}"}
 

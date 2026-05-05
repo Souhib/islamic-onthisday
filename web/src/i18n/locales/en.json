@@ -133,7 +133,7 @@
     "sign_out": "Sign out",
     "email": "Email",
     "password": "Password",
-    "display_name": "Display name (optional)",
+    "display_name": "Display name",
     "have_account": "Already have an account?",
     "no_account": "No account yet?",
     "sign_in_subtitle": "Sign in to save readings and pick them up across devices.",
@@ -162,6 +162,7 @@
       "invalid_credentials": "That email and password don't match.",
       "email_taken": "That email is already registered.",
       "weak_password": "Password must be at least 8 characters.",
+      "display_name_required": "Please choose a display name.",
       "generic": "Couldn't complete the request. Please try again."
     }
   },

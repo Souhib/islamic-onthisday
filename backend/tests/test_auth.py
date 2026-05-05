@@ -41,7 +41,10 @@ async def fresh_email() -> AsyncIterator[str]:
 
 @pytest.mark.asyncio
 async def test_signup_returns_token_pair_and_user(client: AsyncClient, fresh_email: str):
-    r = await client.post("/api/v1/auth/signup", json={"email": fresh_email, "password": "correct-horse-battery"})
+    r = await client.post(
+        "/api/v1/auth/signup",
+        json={"email": fresh_email, "password": "correct-horse-battery", "displayName": "Test User"},
+    )
     assert r.status_code == 201
     body = r.json()
     assert body["accessToken"]
@@ -52,7 +55,7 @@ async def test_signup_returns_token_pair_and_user(client: AsyncClient, fresh_ema
 
 @pytest.mark.asyncio
 async def test_signup_duplicate_email_returns_409(client: AsyncClient, fresh_email: str):
-    payload = {"email": fresh_email, "password": "correct-horse-battery"}
+    payload = {"email": fresh_email, "password": "correct-horse-battery", "displayName": "Test User"}
     first = await client.post("/api/v1/auth/signup", json=payload)
     assert first.status_code == 201
     second = await client.post("/api/v1/auth/signup", json=payload)
@@ -69,7 +72,10 @@ async def test_signup_short_password_rejected(client: AsyncClient):
 @pytest.mark.asyncio
 async def test_login_round_trip(client: AsyncClient, fresh_email: str):
     password = "correct-horse-battery"
-    await client.post("/api/v1/auth/signup", json={"email": fresh_email, "password": password})
+    await client.post(
+        "/api/v1/auth/signup",
+        json={"email": fresh_email, "password": password, "displayName": "Test User"},
+    )
 
     ok = await client.post("/api/v1/auth/login", json={"email": fresh_email, "password": password})
     assert ok.status_code == 200
@@ -81,6 +87,24 @@ async def test_login_round_trip(client: AsyncClient, fresh_email: str):
 
 
 @pytest.mark.asyncio
+async def test_signup_missing_display_name_rejected(client: AsyncClient):
+    r = await client.post(
+        "/api/v1/auth/signup",
+        json={"email": "no-name@example.com", "password": "correct-horse-battery"},
+    )
+    assert r.status_code == 422
+
+
+@pytest.mark.asyncio
+async def test_signup_whitespace_display_name_rejected(client: AsyncClient):
+    r = await client.post(
+        "/api/v1/auth/signup",
+        json={"email": "blank-name@example.com", "password": "correct-horse-battery", "displayName": "   "},
+    )
+    assert r.status_code == 422
+
+
+@pytest.mark.asyncio
 async def test_me_requires_bearer_token(client: AsyncClient):
     r = await client.get("/api/v1/auth/me")
     assert r.status_code == 401
@@ -88,7 +112,10 @@ async def test_me_requires_bearer_token(client: AsyncClient):
 
 @pytest.mark.asyncio
 async def test_me_returns_profile_for_valid_token(client: AsyncClient, fresh_email: str):
-    signup = await client.post("/api/v1/auth/signup", json={"email": fresh_email, "password": "correct-horse-battery"})
+    signup = await client.post(
+        "/api/v1/auth/signup",
+        json={"email": fresh_email, "password": "correct-horse-battery", "displayName": "Test User"},
+    )
     access = signup.json()["accessToken"]
     me = await client.get("/api/v1/auth/me", headers={"Authorization": f"Bearer {access}"})
     assert me.status_code == 200
@@ -97,7 +124,10 @@ async def test_me_returns_profile_for_valid_token(client: AsyncClient, fresh_ema
 
 @pytest.mark.asyncio
 async def test_refresh_returns_new_pair(client: AsyncClient, fresh_email: str):
-    signup = await client.post("/api/v1/auth/signup", json={"email": fresh_email, "password": "correct-horse-battery"})
+    signup = await client.post(
+        "/api/v1/auth/signup",
+        json={"email": fresh_email, "password": "correct-horse-battery", "displayName": "Test User"},
+    )
     refresh_token = signup.json()["refreshToken"]
     rotated = await client.post("/api/v1/auth/refresh", json={"refreshToken": refresh_token})
     assert rotated.status_code == 200
@@ -106,7 +136,10 @@ async def test_refresh_returns_new_pair(client: AsyncClient, fresh_email: str):
 
 @pytest.mark.asyncio
 async def test_refresh_rejects_access_token(client: AsyncClient, fresh_email: str):
-    signup = await client.post("/api/v1/auth/signup", json={"email": fresh_email, "password": "correct-horse-battery"})
+    signup = await client.post(
+        "/api/v1/auth/signup",
+        json={"email": fresh_email, "password": "correct-horse-battery", "displayName": "Test User"},
+    )
     access = signup.json()["accessToken"]
     rotated = await client.post("/api/v1/auth/refresh", json={"refreshToken": access})
     assert rotated.status_code == 401

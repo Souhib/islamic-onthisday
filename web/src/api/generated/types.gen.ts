@@ -800,6 +800,11 @@ export type RefreshRequest = {
  * SignupRequest
  *
  * Inputs for ``POST /api/v1/auth/signup``.
+ *
+ * ``display_name`` is required at the API boundary so every new account
+ * has a human label for the saves header (the ``User`` row keeps the
+ * column nullable so legacy / admin-created rows aren't forced to
+ * backfill).
  */
 export type SignupRequest = {
     /**
@@ -813,7 +818,7 @@ export type SignupRequest = {
     /**
      * Displayname
      */
-    displayName?: string | null;
+    displayName: string;
 };
 
 /**

@@ -27,7 +27,7 @@ interface AuthContextValue {
   user: UserPublic | null;
   isAuthenticated: boolean;
   isInitialised: boolean;
-  signup: (email: string, password: string, displayName?: string) => Promise<void>;
+  signup: (email: string, password: string, displayName: string) => Promise<void>;
   login: (email: string, password: string) => Promise<void>;
   logout: () => void;
 }
@@ -139,10 +139,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => clearRefreshTimer, [clearRefreshTimer]);
 
   const signup = useCallback(
-    async (email: string, password: string, displayName?: string) => {
+    async (email: string, password: string, displayName: string) => {
       const pair = unwrap(
         await signupApiV1AuthSignupPost({
-          body: { email, password, displayName: displayName ?? null },
+          body: { email, password, displayName },
         }),
       );
       applyPair(pair);
