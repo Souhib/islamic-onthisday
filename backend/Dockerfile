@@ -8,30 +8,32 @@
 #
 # Build from the repo root: `docker build -f backend/Dockerfile .` so the
 # data-pipeline package is in scope alongside backend/.
+#
+# The on-disk layout inside the image mirrors the repo:
+#   /opt/backend/        — this service (WORKDIR)
+#   /opt/data-pipeline/  — the path dep, sibling so `../data-pipeline` in
+#                          pyproject.toml + uv.lock resolves correctly with
+#                          no rewriting (and `uv sync --frozen` is happy).
 
 FROM python:3.12-slim AS base
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1
-WORKDIR /app
 RUN pip install --no-cache-dir uv
 
-# ─── Builder: backend deps + pipeline path-dep installed into /app/.venv ──
-# The path dep declared in backend/pyproject.toml points at "../data-pipeline"
-# in the repo; we rewrite it to `/opt/data-pipeline` so uv finds the package
-# inside the build context.
+# ─── Builder: install deps into /opt/backend/.venv ───────────────────────
 FROM base AS builder
 COPY data-pipeline /opt/data-pipeline
+WORKDIR /opt/backend
 COPY backend/pyproject.toml backend/uv.lock ./
 COPY backend/iotd ./iotd
-RUN sed -i 's|path = "../data-pipeline"|path = "/opt/data-pipeline"|' pyproject.toml
 RUN uv sync --frozen --no-dev
 
 # ─── Pipeline runner: produces SQLite + /opt/web/public/ static files ────
-# Split into its own stage so the layer cache invalidates only when YAML
+# Splits into its own stage so the layer cache invalidates only when YAML
 # (or pipeline source) changes, not when backend code changes.
 FROM builder AS pipeline
-ENV PATH="/app/.venv/bin:$PATH"
+ENV PATH="/opt/backend/.venv/bin:$PATH"
 ARG FRONTEND_URL=http://localhost
 ENV FRONTEND_URL=$FRONTEND_URL
 WORKDIR /opt/data-pipeline
@@ -39,11 +41,12 @@ RUN python -m pipeline.build
 
 # ─── Dev: deps + code, no SQLite. Host bind-mounts the pipeline output. ──
 FROM base AS dev
-COPY --from=builder /app/.venv /app/.venv
 COPY --from=builder /opt/data-pipeline /opt/data-pipeline
-COPY --from=builder /app/iotd /app/iotd
-COPY backend/main.py /app/main.py
-ENV PATH="/app/.venv/bin:$PATH"
+WORKDIR /opt/backend
+COPY --from=builder /opt/backend/.venv ./.venv
+COPY --from=builder /opt/backend/iotd ./iotd
+COPY backend/main.py ./main.py
+ENV PATH="/opt/backend/.venv/bin:$PATH"
 EXPOSE 5111
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
   CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/health').read()" || exit 1
