@@ -9,6 +9,7 @@ events:
     category: scholar_death
     title_en: Death of al-Mawardi
     title_ar: وفاة الماوردي
+    title_fr: Décès d'al-Māwardī
     description_en: |
       Abu al-Hasan Ali ibn Muhammad al-Mawardi, the Shafi'i jurist and
       political theorist of Abbasid Baghdad. Author of "al-Ahkam al-
@@ -16,6 +17,22 @@ events:
       of Islamic political jurisprudence that set out the legal duties,
       qualifications, and powers of the caliphate, viziers, judges, and
       military commanders. He died in Baghdad at 86.
+    description_fr: |
+      Abū al-Ḥasan ʿAlī ibn Muḥammad al-Māwardī, juriste shāfiʿite
+      et théoricien politique de la Bagdad abbasside. Auteur d'« al-
+      Aḥkām al-Sulṭāniyya » (Les Ordonnances du gouvernement) — œuvre
+      fondatrice de la jurisprudence politique islamique qui exposa
+      les conditions du califat, les rapports entre calife et
+      sultans-vizirs, l'administration de la justice, le ḥisba et la
+      fiscalité. Son cadre demeura la référence classique sunnite
+      des théories du gouvernement islamique.
+    description_ar: |
+      أبو الحسن عليُّ بنُ محمَّدٍ الماورديُّ، فقيهٌ شافعيٌّ ومنظِّر
+      سياسةٍ في بغدادَ العبَّاسيَّة. صاحبُ «الأحكام السلطانيَّة» —
+      أصلِ الفقه السياسيِّ الإسلاميِّ، عرض فيه شروطَ الخلافة، وعلائقَ
+      الخليفة بالسلاطين والوزراء، وإدارةَ القضاء، والحسبةَ والماليَّةَ.
+      وبقي إطارُه مرجعَ نظريَّات الحكم الإسلاميِّ السنِّيِّ
+      الكلاسيكيَّة.
     canonical_hijri: {year: 450, month: 3, day: 30, precision: day}
     canonical_gregorian: {date: 1058-05-27, precision: day, method: attested}
     claims:
@@ -29,6 +46,7 @@ events:
     category: scholar_death
     title_en: Death of al-Bayhaqi
     title_ar: وفاة البيهقي
+    title_fr: Décès d'al-Bayhaqī
     description_en: |
       Abu Bakr Ahmad ibn al-Husayn al-Bayhaqi, one of the most prolific
       hadith scholars of the post-canonical generation. His "al-Sunan
@@ -36,6 +54,19 @@ events:
       foundational works of Shafi'i hadith scholarship. He was a student
       of al-Hakim al-Naysaburi and the principal transmitter of Shafi'i
       fiqh to the eastern Islamic world. Died at Nishapur at 74.
+    description_fr: |
+      Abū Bakr Aḥmad ibn al-Ḥusayn al-Bayhaqī, l'un des muḥaddithīn
+      les plus prolifiques de la génération post-canonique. Ses « al-
+      Sunan al-Kubrā », « Shuʿab al-Īmān » et « Dalāʾil al-Nubuwwa »
+      sont des œuvres fondatrices de l'école shāfiʿite en ḥadīth. Il
+      vécut et mourut à Nīshāpūr ; sa contribution permit de
+      consolider l'apparat ḥadīthique du madhhab shāfiʿite.
+    description_ar: |
+      أبو بكرٍ أحمدُ بنُ الحسين البيهقيُّ، من أكثر محدِّثي الجيل ما
+      بعد الكتب الستَّة تأليفًا. كتبه «السنن الكبرى» و«شعب الإيمان»
+      و«دلائل النبوَّة» من أمَّهات المصنَّفات الحديثيَّة في المذهب
+      الشَّافعيِّ. عاش ومات بنيسابورَ، وشَدَّ بإسهامه أَزرَ المذهب
+      الشَّافعيِّ في الحديث.
     canonical_hijri: {year: 458, precision: year}
     canonical_gregorian: {date: 1066-01-01, precision: year, method: attested}
     claims:
@@ -51,6 +82,7 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Haramayn al-Juwayni
     title_ar: وفاة إمام الحرمين الجويني
+    title_fr: Décès de l'imām al-Ḥaramayn al-Juwaynī
     description_en: |
       Abu al-Ma'ali Abd al-Malik al-Juwayni — titled Imam al-Haramayn
       (Imam of the Two Sanctuaries) for his years of teaching in Makkah
@@ -58,6 +90,19 @@ events:
       significant Ash'arite Shafi'i theologian of his generation. Author
       of "al-Burhan" (usul al-fiqh), "al-Waraqat" (a widely-taught
       introductory text), and "al-Shamil" (kalam). Died at Nishapur.
+    description_fr: |
+      Abū al-Maʿālī ʿAbd al-Malik al-Juwaynī — surnommé Imām
+      al-Ḥaramayn (« Imam des deux Sanctuaires ») pour ses années
+      d'enseignement à La Mecque et Médine — fut le maître d'al-
+      Ghazālī et le théologien ashʿarite-shāfiʿite le plus important
+      de sa génération. Auteur de « al-Burhān fī Uṣūl al-Fiqh »,
+      « al-Irshād » sur le kalām et « al-Ghiyāthī » sur la politique
+      islamique.
+    description_ar: |
+      أبو المعالي عبدُ الملك الجوينيُّ، الملقَّب بإمام الحرمين لمكثه
+      في التدريس بمكَّةَ والمدينة. كان شيخَ الغزاليِّ وأبرزَ متكلِّمي
+      الأشاعرة الشافعيَّة في جيله. صاحبُ «البرهان في أصول الفقه»
+      و«الإرشاد» في الكلام و«الغياثيِّ» في السياسة الشَّرعيَّة.
     canonical_hijri: {year: 478, month: 4, day: 25, precision: day}
     canonical_gregorian: {date: 1085-08-20, precision: day, method: attested}
     claims:
@@ -71,6 +116,7 @@ events:
     category: scholar_death
     title_en: Death of Shaykh Abd al-Qadir al-Jilani
     title_ar: وفاة الشيخ عبد القادر الجيلاني
+    title_fr: Décès du shaykh ʿAbd al-Qādir al-Jīlānī
     description_en: |
       Hanbali jurist, theologian, and preacher of Baghdad, founder of the
       Qadiriyya tariqa — one of the most widely diffused Sufi orders in
@@ -78,6 +124,20 @@ events:
       "Futuh al-Ghayb" remained influential across the Muslim world for
       centuries. Died in Baghdad at approximately 90; his shrine remains
       one of the most visited in Iraq.
+    description_fr: |
+      Juriste, théologien et prédicateur ḥanbalite de Bagdad,
+      fondateur de la ṭarīqa qādiriyya — l'une des confréries soufies
+      les plus diffusées dans l'histoire islamique. Ses œuvres
+      « al-Ghunya li-Ṭālibī Ṭarīq al-Ḥaqq » et « Futūḥ al-Ghayb »
+      demeurent influentes à travers les communautés sunnites. La
+      ṭarīqa qādiriyya s'étendrait de l'Afrique de l'Ouest à l'Asie
+      du Sud-Est.
+    description_ar: |
+      فقيهٌ وعلَمُ كلامٍ وواعظٌ حنبليٌّ ببغدادَ، مؤسِّسُ الطريقة
+      القادريَّة — وهي من أوسع الطُّرُق الصوفيَّة انتشارًا في تاريخ
+      الإسلام. ولا يزال كتاباه «الغُنية لطالبي طريق الحقِّ» و«فتوح
+      الغيب» مرجعَين عند جماعات أهل السنَّة. وقد امتدَّت القادريَّةُ
+      من غرب إفريقيَّةَ إلى جنوب شرقي آسيا.
     canonical_hijri: {year: 561, month: 3, day: 11, precision: day}
     canonical_gregorian: {date: 1166-02-15, precision: day, method: attested}
     claims:
@@ -91,6 +151,7 @@ events:
     category: scholar_death
     title_en: Death of Fakhr al-Din al-Razi
     title_ar: وفاة فخر الدين الرازي
+    title_fr: Décès de Fakhr al-Dīn al-Rāzī
     description_en: |
       Shafi'i theologian, mufassir, and philosopher whose "al-Tafsir al-
       Kabir" (Mafatih al-Ghayb) is one of the largest and most
@@ -98,6 +159,21 @@ events:
       authored over 100 works on logic, kalam, medicine, and
       jurisprudence, and was a central figure in the development of
       later Ash'arite kalam. Died in Herat on Eid al-Fitr at 63.
+    description_fr: |
+      Théologien shāfiʿite, mufassir et philosophe dont le « Tafsīr
+      al-Kabīr » (Mafātīḥ al-Ghayb) est l'un des plus vastes et des
+      plus engagés philosophiquement de la tradition islamique. Il
+      écrivit plus de cent ouvrages en logique, kalām, médecine et
+      sciences naturelles. Son rationalisme provoqua des critiques
+      de la part d'Ibn Taymiyya, mais son cadre théologique demeure
+      central dans l'enseignement ashʿarite tardif.
+    description_ar: |
+      متكلِّمٌ شافعيٌّ ومفسِّرٌ وفيلسوفٌ، كتابُه «التفسير الكبير»
+      (مفاتيح الغيب) من أوسع التفاسير وأكثرها اشتباكًا فلسفيًّا في
+      التراث الإسلاميِّ. صنَّف ما يَزيد على مئة كتابٍ في المنطق
+      والكلام والطب والعلوم الطبيعيَّة. أَوْرَث منهجُه العقلانيُّ
+      نقدًا من ابن تيميَّة، لكنَّ إطارَه الكلاميَّ بقي محوريًّا في
+      التَّعليم الأشعريِّ المتأخِّر.
     canonical_hijri: {year: 606, month: 10, day: 1, precision: day}
     canonical_gregorian: {date: 1210-03-29, precision: day, method: attested}
     claims:
@@ -111,6 +187,7 @@ events:
     category: scholar_death
     title_en: Death of al-Shatibi — Author of al-Muwafaqat
     title_ar: وفاة الشاطبي
+    title_fr: Décès d'al-Shāṭibī — auteur d'al-Muwāfaqāt
     description_en: |
       Abu Ishaq Ibrahim ibn Musa al-Shatibi, the Andalusi Maliki jurist
       whose "al-Muwafaqat fi Usul al-Shari'a" is the seminal work on the
@@ -119,6 +196,20 @@ events:
       intellect, progeny, and property — provides the theoretical
       framework used by modern scholars of Islamic legal philosophy.
       Died in Granada.
+    description_fr: |
+      Abū Isḥāq Ibrāhīm ibn Mūsā al-Shāṭibī, juriste mālikite
+      andalou dont l'« al-Muwāfaqāt fī Uṣūl al-Sharīʿa » est l'œuvre
+      séminale sur les finalités de la sharīʿa (maqāṣid al-sharīʿa).
+      Sa formulation systématique des cinq nécessités (religion,
+      vie, intellect, lignage, biens) et de la hiérarchie
+      ḍarūrāt-ḥājāt-taḥsīnāt demeure le cadre standard de la
+      jurisprudence finaliste.
+    description_ar: |
+      أبو إسحاق إبراهيم بن موسى الشاطبيُّ، فقيه مالكيٌّ من الأندلس،
+      صاحبُ «الموافقات في أصول الشَّريعة» — وهو كتاب المقاصد الأمُّ
+      (مقاصد الشَّريعة). وضبطُه المنهجيُّ للضروريَّات الخمس (الدين
+      والنفس والعقل والنَّسل والمال) ومراتبها (ضروريَّاتٍ وحاجيَّاتٍ
+      وتحسينيَّاتٍ) لا يزال الإطارَ المعياريَّ للفقه المقاصديِّ.
     canonical_hijri: {year: 790, month: 8, day: 8, precision: day}
     canonical_gregorian: {date: 1388-08-12, precision: day, method: attested}
     claims:
@@ -131,6 +222,7 @@ events:
     category: scholar_death
     title_en: Death of Ibn Rajab al-Hanbali
     title_ar: وفاة ابن رجب الحنبلي
+    title_fr: Décès d'Ibn Rajab al-Ḥanbalī
     description_en: |
       Abd al-Rahman ibn Ahmad Ibn Rajab, a prominent Hanbali scholar and
       hadith commentator, author of "Jami' al-'Ulum wa'l-Hikam" (a
@@ -138,6 +230,20 @@ events:
       to fifty hadith), "Lata'if al-Ma'arif" on the seasons of the
       Islamic year, and "Fath al-Bari" on parts of Sahih al-Bukhari.
       Died in Damascus.
+    description_fr: |
+      ʿAbd al-Raḥmān ibn Aḥmad Ibn Rajab, savant ḥanbalite éminent et
+      commentateur de ḥadīth. Auteur de « Jāmiʿ al-ʿUlūm wa-l-Ḥikam »
+      — commentaire célèbre des Quarante Hadiths d'al-Nawawī, étendu
+      à cinquante hadiths —, de « Laṭāʾif al-Maʿārif » sur le calendrier
+      spirituel, et de l'imposant « Fatḥ al-Bārī » (l'autre, distinct
+      de celui d'Ibn Ḥajar) sur Ṣaḥīḥ al-Bukhārī jusqu'au livre des
+      funérailles.
+    description_ar: |
+      عبد الرحمن بن أحمد ابنُ رجبٍ، من كبار الحنابلة وشُرَّاح الحديث.
+      صاحبُ «جامع العلوم والحِكَم» — شرحٌ مشهور للأربعين النوويَّة،
+      وَسَّعه إلى خمسين حديثًا — و«لطائف المعارف» في الزمن الرُّوحيِّ،
+      و«فتح الباري» الكبير على البخاريِّ (غير شرح ابن حجرٍ) إلى
+      كتاب الجنائز.
     canonical_hijri: {year: 795, month: 8, day: 4, precision: day}
     canonical_gregorian: {date: 1393-06-16, precision: day, method: attested}
     claims:

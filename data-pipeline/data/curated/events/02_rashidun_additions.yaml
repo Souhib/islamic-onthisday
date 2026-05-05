@@ -8,6 +8,7 @@ events:
     category: battle
     title_en: Battle of Yamama — Defeat of Musaylima the Liar
     title_ar: معركة اليمامة
+    title_fr: Bataille de Yamāma — défaite de Musaylima le Menteur
     description_en: |
       The decisive battle of the Ridda (apostasy) wars under Caliph Abu Bakr.
       Khalid ibn al-Walid led the Muslim army against Musaylima al-Kadhdhab
@@ -16,8 +17,22 @@ events:
       Zayd ibn al-Khattab (Umar's brother). The loss of so many huffaz
       prompted Umar to urge Abu Bakr to compile the Qur'an into a single
       mushaf — the beginning of the codified textual history of the Qur'an.
-      
+
       Classical sources differ on whether Musaylima's death falls in late Rajab/Shawwāl 11 AH or early 12 AH; we follow al-Ṭabarī's *Tarīkh* and Ibn al-Athīr's *Kāmil* with 12 AH (Rabīʿ al-Thānī) as the dominant attestation. December 632 CE is universally agreed regardless of the Hijrī-month assignment.
+    description_fr: |
+      Bataille décisive des guerres de la Ridda (apostasie) sous le
+      calife Abū Bakr. Khālid ibn al-Walīd commanda l'armée
+      musulmane contre Musaylima al-Kadhdhāb (« le Menteur ») à
+      Yamāma en Arabie centrale. La bataille fut particulièrement
+      coûteuse — beaucoup de ḥuffāẓ (mémorisateurs du Coran) tombèrent
+      en martyrs, ce qui motiva la première compilation du Coran
+      sous Abū Bakr.
+    description_ar: |
+      المعركةُ الفاصلةُ في حروب الرِّدَّة في عهد أبي بكرٍ. قاد خالدُ
+      بنُ الوليد الجيشَ الإسلاميَّ ضدَّ مُسَيلِمَة الكذَّاب باليمامة
+      في وسط الجزيرة العربيَّة. وقع فيها قتلٌ عظيمٌ — استُشهد فيها
+      كثيرٌ من حُفَّاظ القرآن، فكان ذلك دافعًا إلى أوَّل جمعٍ للقرآن
+      في عهد أبي بكرٍ الصدِّيق.
     canonical_hijri: {year: 12, precision: year}
     canonical_gregorian: {date: 632-12-15, precision: year, method: attested}
     claims:
@@ -35,6 +50,7 @@ events:
     category: rashidun
     title_en: First Compilation of the Qur'an under Abu Bakr
     title_ar: جمع القرآن في عهد أبي بكر
+    title_fr: Première compilation du Coran sous Abū Bakr
     description_en: |
       After the death of many huffaz at the Battle of Yamama, Umar ibn
       al-Khattab urged Abu Bakr to preserve the Qur'an in a single written
@@ -44,6 +60,22 @@ events:
       compilation was kept with Abu Bakr, then with Umar, then with his
       daughter Hafsa ra — becoming the master text from which Uthman's later
       standardisation was produced.
+    description_fr: |
+      Après la mort de nombreux ḥuffāẓ à la bataille de Yamāma, ʿUmar
+      ibn al-Khaṭṭāb pressa Abū Bakr de préserver le Coran dans un
+      texte écrit unique. Abū Bakr en confia la tâche à Zayd ibn
+      Thābit, scribe du Prophète ﷺ, qui rassembla les fragments
+      rédigés sur des os, des feuilles et des morceaux de cuir, en
+      les vérifiant par deux témoins pour chaque verset. Le muṣḥaf
+      compilé fut conservé par Abū Bakr, puis ʿUmar, puis sa fille
+      Ḥafṣa — devenant la base du muṣḥaf ʿuthmānien standardisé.
+    description_ar: |
+      بعد استشهاد عددٍ من القرَّاء في معركة اليمامة، أَلَحَّ عمرُ بن
+      الخطَّاب على أبي بكرٍ في حفظ القرآن في مصحفٍ واحدٍ. فأوكل أبو
+      بكرٍ الأمرَ إلى زيد بن ثابتٍ كاتب النبي ﷺ، فتتبَّع المكتوبَ
+      في العظام والأوراق والأديم، ولا يقبل آيةً إلا بشاهدَين. ثمَّ
+      احتُفظ بالمصحف عند أبي بكرٍ، ثمَّ عمرَ، ثمَّ ابنته حفصةَ — وكان
+      هو الأصلَ لمصحف عثمانَ الجامع.
     canonical_hijri: {year: 12, precision: year}
     canonical_gregorian: {date: 633-06-01, precision: year, method: attested}
     claims:
@@ -59,6 +91,7 @@ events:
     category: rashidun
     title_en: Plague of Amwas
     title_ar: طاعون عمواس
+    title_fr: Peste d'Amwās
     description_en: |
       A severe plague swept through Syria during Caliph Umar's tenure,
       claiming the lives of many senior Companions including Abu Ubayda ibn
@@ -69,8 +102,24 @@ events:
       zone — departing from it, Umar said, was "fleeing from Allah's decree
       to Allah's decree," establishing an early jurisprudential principle
       later cited in the rulings on epidemic quarantine.
-      
+
       Sources differ on the plague's onset year: al-Ṭabarī (citing Sayf ibn ʿUmar) places it in Muḥarram-Ṣafar 17 AH; some sources record onset in 18 AH. We follow the 18 AH dating as the dominant classical position; senior Companions died across both 17 and 18 AH.
+    description_fr: |
+      Une grave épidémie balaya la Syrie sous le califat de ʿUmar,
+      emportant nombre de Compagnons éminents — Abū ʿUbayda ibn
+      al-Jarrāḥ (commandant des forces syriennes et l'un des dix
+      promis au Paradis), Muʿādh ibn Jabal, Yazīd ibn Abī Sufyān, et
+      des milliers d'autres. La peste tient son nom du village
+      d'Amwās près de Jérusalem. La discussion entre ʿUmar et ses
+      conseillers à Sargh sur l'opportunité d'entrer en zone infectée
+      devint un texte classique sur le qadar et la prudence licite.
+    description_ar: |
+      اجتاح وباءٌ شديدٌ بلادَ الشام في عهد عمر، فأخذ كثيرًا من
+      الصحابة الكبار: أبا عبيدةَ بنَ الجرَّاح (أمين الأمَّة وأحد العشرة
+      المبشَّرين بالجنَّة)، ومعاذَ بنَ جبلٍ، ويزيدَ بنَ أبي سفيان،
+      وآلافًا غيرَهم. وسُمِّي الطاعونُ بقرية عَمَواس قُرب القدس.
+      وكان حوارُ عمرَ مع أصحابه بسَرغَ في دخول الأرض الموبوءة من
+      نصوص القدر والأخذ بالأسباب الكلاسيكيَّة.
     canonical_hijri: {year: 18, precision: year}
     canonical_gregorian: {date: 639-06-01, precision: year, method: attested}
     claims:
@@ -90,6 +139,7 @@ events:
     category: conquest
     title_en: Conquest of Damascus
     title_ar: فتح دمشق
+    title_fr: Conquête de Damas
     description_en: |
       Damascus fell to the Muslim army with Khalid ibn al-Walid in overall
       command and Abu Ubayda ibn al-Jarrah leading the negotiated surrender
@@ -100,6 +150,22 @@ events:
       caliphate.
 
       Date follows al-Ṭabarī's *Tārīkh* and Ibn al-Athīr's *Kāmil*, which place the surrender in Rajab 13 AH ≈ September 634 CE — the dominant attestation. Al-Wāqidī's later reckoning placing the fall in 14 AH is the disputed alternative; we follow the al-Ṭabarī majority.
+    description_fr: |
+      Damas tomba aux mains de l'armée musulmane, Khālid ibn al-Walīd
+      en commandement général et Abū ʿUbayda ibn al-Jarrāḥ menant la
+      reddition négociée à la porte occidentale (Jābiya). La porte
+      orientale fut ouverte par la garnison sous traité tandis que
+      Khālid pénétrait simultanément par escalade au nord. Le conflit
+      tactique entre les deux entrées — l'une par capitulation,
+      l'autre par force — fut résolu en faveur d'un traité unique
+      préservant les biens et lieux de culte des chrétiens.
+    description_ar: |
+      سَقَطَت دمشقُ بيد الجيش الإسلاميِّ، والقيادةُ العامَّةُ لخالد
+      بن الوليد، وتفاوض على التسليم أبو عبيدةَ بنُ الجرَّاح عند الباب
+      الغربي (الجابية). وفُتح البابُ الشَّرقيُّ بمعاهدةٍ من حاميته،
+      بينما اقتحمها خالدٌ متسوِّرًا من الشَّمال في الوقت نفسه. وحُسم
+      التناقضُ التَّكتيكيُّ بين البابَين — صلحٍ واقتحامٍ — على معاهدةٍ
+      واحدةٍ تَحفَظ أموالَ النصارى وكنائسَهم.
     canonical_hijri: {year: 13, month: 7, precision: month}
     canonical_gregorian: {date: 634-09-19, precision: day, method: attested}
     claims:
@@ -117,6 +183,7 @@ events:
     category: battle
     title_en: Battle of Nahavand — "Victory of Victories"
     title_ar: معركة نهاوند
+    title_fr: Bataille de Nahāvand — « Victoire des victoires »
     description_en: |
       The decisive battle that ended Sasanian Persian resistance in Iran.
       Fought in the Zagros mountains near modern Hamadan, a Muslim army of
@@ -126,8 +193,24 @@ events:
       it "Fath al-Futuh" — the Victory of Victories — because it broke the
       Sasanian army as an organised force and opened the interior of Iran to
       Islam.
-      
+
       Sources record this battle in 21 AH per al-Ṭabarī's *Tārīkh* and Ibn al-Athīr's *Kāmil* — the dominant attestation we follow here — while Ibn Hishām's tradition reports 19 or 20 AH as alternative years.
+    description_fr: |
+      Bataille décisive qui mit fin à la résistance perse sassanide
+      en Iran. Livrée dans les monts Zagros près de Hamadān moderne,
+      une armée musulmane de 30 000 hommes sous al-Nuʿmān ibn
+      Muqarrin défit une force sassanide de 100 000 à 150 000
+      soldats. Al-Nuʿmān tomba dans la bataille mais l'empire
+      sassanide ne s'en releva pas — ses provinces tombèrent l'une
+      après l'autre dans la décennie suivante. ʿUmar appela cette
+      victoire « Fatḥ al-Futūḥ ».
+    description_ar: |
+      المعركةُ الفاصلةُ التي أنهت مقاومة الفرس الساسانيِّين في إيرانَ.
+      وقعت في جبال زاغروس قُرب همذانَ اليوم، بين جيشٍ إسلاميٍّ
+      قوامُه ثلاثون ألفًا بقيادة النُّعمان بن مقرِّن، وجيشٍ ساسانيٍّ
+      بين مئةٍ ومئةٍ وخمسين ألفًا. استُشهد النُّعمانُ في المعركة، لكنَّ
+      الإمبراطوريَّة السَّاسانيَّة لم تَقُم بعدها — وسقطت أقاليمها
+      تباعًا في العقد التَّالي. وسمَّاها عمرُ «فتحَ الفُتوح».
     canonical_hijri: {year: 21, precision: year}
     canonical_gregorian: {date: 642-06-01, precision: year, method: attested}
     claims:
@@ -145,6 +228,7 @@ events:
     category: rashidun
     title_en: Death of Khalid ibn al-Walid (Sayf Allah al-Maslul)
     title_ar: وفاة خالد بن الوليد
+    title_fr: Décès de Khālid ibn al-Walīd (Sayf Allāh al-Maslūl)
     description_en: |
       Khalid ibn al-Walid, titled by the Prophet ﷺ "the Drawn Sword of
       Allah" (Sayf Allah al-Maslul), died in Homs after a military career in
@@ -153,6 +237,23 @@ events:
       final words: "I have fought a hundred battles, yet I die on my bed
       like a camel dies — may the eyes of the cowards never find rest." He
       is buried in the Khalid ibn al-Walid Mosque in Homs.
+    description_fr: |
+      Khālid ibn al-Walīd, surnommé par le Prophète ﷺ « l'Épée
+      dégainée d'Allah » (Sayf Allāh al-Maslūl), mourut à Ḥimṣ après
+      une carrière militaire au cours de laquelle il ne perdit jamais
+      une bataille — de Muʾta en 8 H jusqu'à la conquête de Damas et
+      Yarmūk. Démis du commandement par ʿUmar pour préserver la foi
+      des soldats à Allah seul, il mourut en pleurant : « Pas un
+      pouce de mon corps qui n'ait reçu coup d'épée ou de lance, et
+      pourtant me voici mourant sur mon lit comme un chameau. »
+    description_ar: |
+      خالدُ بنُ الوليدِ، الذي سَمَّاه النبي ﷺ «سيفَ الله المسلول»،
+      تُوفِّي بحمصَ بعد مَسيرةٍ عسكريَّةٍ لم يُهزَم فيها معركةً واحدةً —
+      من مؤتةَ سنة 8هـ إلى فتح دمشقَ واليرموك. وكان عمرُ قد عَزَله
+      حفاظًا على إيمان الجند ألَّا يَتَعَلَّقوا بأحدٍ سوى الله. مات
+      وهو يبكي ويقول: «ما من شِبرٍ من جسدي إلا وفيه ضربةُ سيفٍ أو
+      طعنةُ رمحٍ أو رميةُ سهمٍ، وها أنا ذا أموتُ على فراشي حتفَ أنفي
+      كما يموتُ البعير».
     canonical_hijri: {year: 21, precision: year}
     canonical_gregorian: {date: 642-08-01, precision: year, method: attested}
     claims:
@@ -169,6 +270,7 @@ events:
     category: rashidun
     title_en: The Uthmanic Standardisation of the Qur'an
     title_ar: جمع القرآن في عهد عثمان
+    title_fr: Standardisation ʿuthmānienne du Coran
     description_en: |
       Reports of variant recitations in the expanding Muslim lands reached
       Caliph Uthman through Hudhayfa ibn al-Yaman. Uthman requested the
@@ -178,6 +280,24 @@ events:
       codices were ordered burnt. This is the textual history of every
       printed mushaf in circulation today — the continuity from Zayd's
       gathering, through Hafsa's custody, to the Uthmanic dispatches.
+    description_fr: |
+      Des rapports de variantes de récitation dans les terres
+      musulmanes en expansion parvinrent au calife ʿUthmān par
+      Ḥudhayfa ibn al-Yamān. ʿUthmān demanda le muṣḥaf-mère conservé
+      auprès de Ḥafṣa (qu'Allah l'agrée) et chargea un comité dirigé
+      par Zayd ibn Thābit de produire des copies standardisées dans
+      le rasm qurayshite. Plusieurs exemplaires furent envoyés aux
+      principales villes (Kūfa, Baṣra, Damas, La Mecque) avec un
+      récitateur de référence. Tout codex divergent fut
+      respectueusement détruit. Tous les muṣḥafs du monde aujourd'hui
+      remontent à cette codification.
+    description_ar: |
+      بَلَغ الخليفةَ عثمانَ من حذيفةَ بنِ اليمان أنَّ الناس يَختلفون
+      في القراءة في الأمصار. فطلب عثمانُ المصحفَ المُمتَنع عند حفصةَ
+      رضي الله عنها، وكلَّف لجنةً برئاسة زيد بن ثابتٍ بنسخه على لغة
+      قريشٍ. ثم وُزِّعت النُّسَخُ على الأمصار (الكوفةِ والبصرةِ ودمشقَ
+      ومكَّة) ومع كلِّ نسخةٍ مُقرئٌ. وأُحرق ما خالفها من المصاحف
+      بإجلال. ومرجعُ كلِّ مصاحف العالم اليوم إلى هذا التدوين.
     canonical_hijri: {year: 25, precision: year}
     canonical_gregorian: {date: 650-01-01, precision: year, method: attested}
     claims:
@@ -193,6 +313,7 @@ events:
     category: umayyad
     title_en: The Year of Unity — Mu'awiya becomes Caliph
     title_ar: عام الجماعة
+    title_fr: L'Année de l'Unité — Muʿāwiya devient calife
     description_en: |
       Following the martyrdom of Ali and the six-month caliphate of al-Hasan
       ibn Ali, al-Hasan abdicated the caliphate to Mu'awiya ibn Abi Sufyan
@@ -201,6 +322,21 @@ events:
       of Unity — because it reunited the Muslim community after five years
       of civil war. Mu'awiya became the first Umayyad caliph and founded the
       dynasty, moving the capital to Damascus.
+    description_fr: |
+      Après le martyre de ʿAlī et le califat de six mois d'al-Ḥasan
+      ibn ʿAlī, al-Ḥasan abdiqua le califat à Muʿāwiya ibn Abī Sufyān
+      à condition que la direction reviendrait à un processus
+      consultatif après lui. Cette année est appelée ʿĀm al-Jamāʿa
+      (« l'année de l'Unité ») dans les sources sunnites, marquant
+      la fin de la Première Fitna et la réunification de la umma
+      sous un seul calife — bien que l'engagement consultatif fût
+      rompu par Muʿāwiya désignant son fils Yazīd.
+    description_ar: |
+      بعد استشهاد عليٍّ وخلافة الحسن بن عليٍّ ستَّةَ أشهرٍ، تَنازل
+      الحسنُ عن الخلافة لمعاوية بن أبي سفيان بشرط أن يعود الأمرُ
+      شُورى بعده. وسُمِّيت هذه السنةُ في المصادر السنيَّة «عامَ
+      الجماعة»، إذ أنهت الفتنةَ الكبرى الأولى وجمعت الأمَّةَ على
+      خليفةٍ واحدٍ — وإن نَقَض معاويةُ شرطَ الشورى بتوريث ابنه يزيدَ.
     canonical_hijri: {year: 41, precision: year}
     canonical_gregorian: {date: 661-07-01, precision: year, method: attested}
     claims:

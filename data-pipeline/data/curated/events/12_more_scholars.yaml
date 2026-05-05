@@ -6,6 +6,7 @@ events:
     category: scholar_death
     title_en: Death of Abu al-Qasim al-Zamakhshari
     title_ar: وفاة الزمخشري
+    title_fr: Décès d'Abū al-Qāsim al-Zamakhsharī
     description_en: |
       Mu'tazilite mufassir and philologist of Khwarazm, author of the
       "al-Kashshaf 'an Haqa'iq Ghawamid al-Tanzil" — the most
@@ -16,6 +17,20 @@ events:
       eve of Arafat in Jurjaniyya.
 
       Classical sources agree on Dhū al-Ḥijja 538 AH but split on the day: Ibn Khallikān's *Wafayāt al-Aʿyān* gives 9 Dhū al-Ḥijja (the eve-of-ʿArafat narrative we follow as dominant), while al-Dhahabī's *Siyar* records 8 Dhū al-Ḥijja. The day disagreement keeps this entry month-precise rather than day-precise.
+    description_fr: |
+      Mufassir muʿtazilite et philologue de Khwārazm, auteur d'« al-
+      Kashshāf ʿan Ḥaqāʾiq Ghawāmiḍ al-Tanzīl » — le tafsīr
+      philologiquement le plus sophistiqué de la période médiévale,
+      cité par les exégètes sunnites postérieurs (Fakhr al-Dīn
+      al-Rāzī, al-Bayḍāwī, et d'autres) malgré ses présupposés
+      muʿtazilites. Sa langue arabe et sa rhétorique demeurent
+      les standards classiques.
+    description_ar: |
+      مفسِّرٌ معتزليٌّ وعالم لغةٍ من خوارزمَ، صاحبُ «الكشَّاف عن حقائق
+      غوامض التنزيل» — أَدَقِّ التفاسير الكلاسيكيَّة بلاغةً ولغةً،
+      ينقل عنه كثيرٌ من المفسِّرين السنِّيِّين بعده (الفخر الرازيُّ
+      والبيضاويُّ وغيرهما) مع التَّنبيه على أصوله المعتزليَّة. ولا
+      يزال إلمامُه بالعربيَّة والبلاغة ميزانَ الكلاسيكيَّة.
     canonical_hijri: {year: 538, month: 12, precision: month}
     canonical_gregorian: {date: 1144-06-01, precision: month, method: tabular_conversion}
     claims:
@@ -35,6 +50,7 @@ events:
     category: scholar_death
     title_en: Death of Imam al-Qurtubi
     title_ar: وفاة الإمام القرطبي
+    title_fr: Décès de l'imam al-Qurṭubī
     description_en: |
       Maliki mufassir of al-Andalus, author of "al-Jami' li-Ahkam al-
       Qur'an" — one of the most comprehensive tafsirs in the Islamic
@@ -42,6 +58,18 @@ events:
       (ahkam) derived from Qur'anic verses. After the fall of Cordoba,
       he emigrated to Upper Egypt, where he completed the tafsir and
       died at Munyat Bani Khasib (modern al-Minya).
+    description_fr: |
+      Mufassir mālikite d'al-Andalus, auteur d'« al-Jāmiʿ li-Aḥkām
+      al-Qurʾān » — l'un des tafsīr les plus complets de la tradition
+      islamique, particulièrement réputé pour son traitement des
+      rulings juridiques (aḥkām) tirés des versets coraniques. Après
+      la chute de Cordoue aux Castillans (1236), il émigra en Égypte
+      où il enseigna et mourut.
+    description_ar: |
+      مفسِّرٌ مالكيٌّ من الأندلس، صاحبُ «الجامع لأحكام القرآن» — من
+      أوسع التفاسير في التراث الإسلاميِّ، يَختصُّ بالأحكام الفقهيَّة
+      المستنبَطة من الآيات. وبعد سقوط قُرطُبةَ بيد القشتاليِّين سنة
+      1236م، هاجر إلى مصرَ فدرَّس بها ومات.
     canonical_hijri: {year: 671, precision: year}
     canonical_gregorian: {date: 1273-01-01, precision: year, method: attested}
     claims:
@@ -59,6 +87,7 @@ events:
     category: scholar_death
     title_en: Death of Ibn 'Abd al-Barr al-Namari
     title_ar: وفاة ابن عبد البر
+    title_fr: Décès d'Ibn ʿAbd al-Barr al-Namarī
     description_en: |
       Andalusi Maliki scholar, historian, and muhaddith of Cordoba. His
       "al-Isti'ab fi Ma'rifat al-Ashab" is a foundational biographical
@@ -66,6 +95,20 @@ events:
       Ibn Hajar in their later works). His "al-Tamhid" is a canonical
       commentary on the Muwatta' of Imam Malik. Died in Xativa
       (Shatiba), al-Andalus.
+    description_fr: |
+      Savant andalou mālikite, historien et muḥaddith de Cordoue.
+      Son « al-Istīʿāb fī Maʿrifat al-Aṣḥāb » est un dictionnaire
+      biographique fondateur des Compagnons (largement utilisé par
+      Ibn al-Athīr et Ibn Ḥajar dans leurs œuvres ultérieures). Son
+      « al-Tamhīd » — commentaire massif d'al-Muwaṭṭaʾ — reste l'une
+      des œuvres ḥadīthiques les plus importantes du madhhab
+      mālikite.
+    description_ar: |
+      محدِّث ومؤرِّخ ومفقِّه على المذهب المالكيِّ من قُرطُبةَ. كتابُه
+      «الاستيعاب في معرفة الأصحاب» معجمٌ تأسيسيٌّ في تراجم الصحابة،
+      اعتمده ابنُ الأثير وابنُ حجرٍ بعده. وكتابُه «التمهيد» شرحٌ
+      ضخمٌ على «الموطَّأ»، ولا يزال من أمَّهات كتب الحديث في المذهب
+      المالكيِّ.
     canonical_hijri: {year: 463, precision: year}
     canonical_gregorian: {date: 1071-12-02, precision: day, method: attested}
     claims:
@@ -83,6 +126,7 @@ events:
     category: scholar_death
     title_en: Death of al-Daraqutni — Imam of the Muhaddithin of His Age
     title_ar: وفاة الدارقطني
+    title_fr: Décès d'al-Dāraquṭnī — imam des muḥaddithīn de son époque
     description_en: |
       'Ali ibn 'Umar al-Daraqutni, the leading hadith specialist of late-
       fourth-century AH Baghdad. Author of "al-Sunan" (Sunan al-
@@ -91,6 +135,20 @@ events:
       hadith isnads. His "Kitab al-Du'afa'" supplied later muhaddithin
       (including al-Dhahabi and Ibn Hajar) with a baseline catalogue of
       weak narrators. Died in Baghdad at 80.
+    description_fr: |
+      ʿAlī ibn ʿUmar al-Dāraquṭnī, le principal spécialiste du
+      ḥadīth de la Bagdad de la fin du IVᵉ siècle hégirien. Auteur
+      des « Sunan al-Dāraquṭnī » et d'« al-ʿIlal al-Wārida fī
+      al-Aḥādīth al-Nabawiyya » — ce dernier étant une étude critique
+      exhaustive des défauts cachés (ʿilal) dans les chaînes
+      ḥadīthiques. Sa critique des Ṣaḥīḥān n'invalide pas leur
+      autorité globale mais signale les rares chaînes problématiques.
+    description_ar: |
+      عليُّ بنُ عمرَ الدارقطنيُّ، إمامُ المحدِّثين ببغدادَ في أواخر
+      القرن الرابع الهجريِّ. صاحبُ «سنن الدارقطني» و«العلل الواردة
+      في الأحاديث النبويَّة» — وهو دراسةٌ نقديَّةٌ شاملةٌ في عللِ
+      الأسانيد الخفيَّة. ولا يَنقُض نقدُه للصحيحَين سلطتَهما العامَّةَ،
+      بل يُنبِّه على بعض الأسانيد المُعَلَّلة فيهما.
     canonical_hijri: {year: 385, precision: year}
     canonical_gregorian: {date: 995-01-01, precision: year, method: attested}
     claims:
@@ -108,12 +166,25 @@ events:
     category: scholar_death
     title_en: Death of al-Hakim al-Naysaburi
     title_ar: وفاة الحاكم النيسابوري
+    title_fr: Décès d'al-Ḥākim al-Naysābūrī
     description_en: |
       Author of "al-Mustadrak 'ala al-Sahihayn" — a collection of hadith
       that al-Hakim judged to meet the criteria of Bukhari or Muslim
       without having been included by either. His "Ma'rifat 'Ulum al-
       Hadith" is among the earliest systematic expositions of hadith
       sciences. Teacher of al-Bayhaqi. Died in Nishapur at 84.
+    description_fr: |
+      Auteur d'« al-Mustadrak ʿalā al-Ṣaḥīḥayn » — recueil de ḥadīth
+      qu'al-Ḥākim jugea conformes aux critères de Bukhārī ou de
+      Muslim sans avoir été inclus par eux. Son « Maʿrifat ʿulūm
+      al-Ḥadīth » figure parmi les premières expositions
+      systématiques de la science du ḥadīth. Sa générosité critique
+      fut tempérée par les vérifications ultérieures d'al-Dhahabī.
+    description_ar: |
+      صاحبُ «المستدرك على الصحيحين» — مجموع أحاديثَ رأى الحاكمُ أنها
+      على شرط البخاريِّ أو مسلمٍ لكنَّها لم تَدخُل في كتابَيهما.
+      وكتابُه «معرفة علوم الحديث» من أوائل المصنَّفات المنهجيَّة في
+      علم الحديث. وقد نبَّه الذهبيُّ بعده على بعض تيَسُّره في التصحيح.
     canonical_hijri: {year: 405, month: 2, day: 3, precision: day}
     canonical_gregorian: {date: 1014-09-01, precision: day, method: attested}
     claims:
@@ -131,6 +202,7 @@ events:
     category: scholar_death
     title_en: Death of al-Khatib al-Baghdadi
     title_ar: وفاة الخطيب البغدادي
+    title_fr: Décès d'al-Khaṭīb al-Baghdādī
     description_en: |
       Abu Bakr Ahmad ibn 'Ali al-Khatib, author of "Tarikh Baghdad" — a
       14-volume biographical dictionary of over 7,800 scholars associated
@@ -138,6 +210,22 @@ events:
       of its type. He was also a major muhaddith; his "al-Kifaya fi
       'Ilm al-Riwaya" is a canonical primer on hadith transmission. Died
       in Baghdad at 71.
+    description_fr: |
+      Abū Bakr Aḥmad ibn ʿAlī al-Khaṭīb, auteur de « Tārīkh
+      Baghdād » — un dictionnaire biographique en 14 volumes de
+      plus de 7 800 savants associés à Bagdad, l'une des sources
+      historiques islamiques les plus importantes en son genre. Il
+      fut aussi un grand muḥaddith et théoricien méthodologique :
+      « al-Kifāya fī ʿIlm al-Riwāya » et « al-Jāmiʿ li-Akhlāq al-Rāwī
+      wa-Ādāb al-Sāmiʿ » sont des classiques de la science du
+      ḥadīth.
+    description_ar: |
+      أبو بكرٍ أحمدُ بنُ عليٍّ الخطيبُ البغداديُّ، صاحبُ «تاريخ
+      بغدادَ» — معجمٌ تَراجِمَ في أربعةَ عشرَ مجلَّدًا لأكثر من
+      سبعةٍ آلافٍ وثمانمئة عالمٍ من بغدادَ، وهو من أمَّهات المصادر
+      التاريخيَّة الإسلاميَّة. كان أيضًا محدِّثًا كبيرًا ومنظِّرًا
+      منهجيًّا: «الكفاية في علم الرواية» و«الجامع لأخلاق الراوي
+      وآداب السامع» من أمَّهات كتب علم الحديث.
     canonical_hijri: {year: 463, month: 12, day: 7, precision: day}
     canonical_gregorian: {date: 1071-09-05, precision: day, method: attested}
     claims:
@@ -153,6 +241,7 @@ events:
     category: scholar_death
     title_en: Death of Shams al-Din al-Sakhawi
     title_ar: وفاة السخاوي
+    title_fr: Décès de Shams al-Dīn al-Sakhāwī
     description_en: |
       Prolific Shafi'i hadith scholar and student of Ibn Hajar al-
       'Asqalani — so closely associated with him that al-Sakhawi's
@@ -160,6 +249,18 @@ events:
       the principal source on Ibn Hajar's life. His own "al-Daw' al-
       Lami'" is a biographical dictionary of scholars of the ninth Hijri
       century (the fifteenth CE). Died in Madinah.
+    description_fr: |
+      Prolifique savant ḥadīthique shāfiʿite et élève d'Ibn Ḥajar
+      al-ʿAsqalānī — il fut si proche de son maître que ses œuvres
+      biographiques sur lui (« al-Jawāhir wa-l-Durar ») restent la
+      source principale sur la vie d'Ibn Ḥajar. Son propre « al-Ḍawʾ
+      al-Lāmiʿ li-Ahl al-Qarn al-Tāsiʿ » est une biographie
+      exhaustive du IXᵉ siècle hégirien.
+    description_ar: |
+      محدِّث شافعيٌّ كثيرُ التصنيف، تلميذُ ابن حجرٍ العسقلانيِّ —
+      وقد لازم شيخَه حتى صارت ترجماتُه له («الجواهر والدرر») المصدرَ
+      الأوَّلَ لسيرته. وكتابه «الضوء اللامع لأهل القرن التاسع» معجمٌ
+      تَراجِمَ شاملٌ للقرن التاسع الهجري.
     canonical_hijri: {year: 902, precision: year}
     canonical_gregorian: {date: 1497-01-01, precision: year, method: attested}
     claims:
@@ -177,6 +278,7 @@ events:
     category: scholar_death
     title_en: Death of Sa'd al-Din al-Taftazani
     title_ar: وفاة التفتازاني
+    title_fr: Décès de Saʿd al-Dīn al-Taftāzānī
     description_en: |
       Polymath of logic, kalam, fiqh, and rhetoric, whose commentaries
       became standard in Sunni madrasas from Central Asia to the Balkans.
@@ -187,6 +289,21 @@ events:
       approximately 70 lunar years; buried in Sarakhs.
 
       Year follows 793 AH as the most-cited classical position (Ibn Khallikān's tradition, 22 Muḥarram 793 AH ≈ 8 Feb 1390 CE) — the dominant attestation we record here. Some biographical sources give 791 AH or 792 AH instead; we keep year-precision because the day attestation is not consistent enough across Sunni biographers to commit further.
+    description_fr: |
+      Polymathe en logique, kalām, fiqh et rhétorique, dont les
+      commentaires sont devenus standard dans les madrasas sunnites
+      d'Asie centrale aux Balkans. Son « Sharḥ al-ʿAqāʾid al-Nasafiyya »
+      est l'œuvre introductive la plus enseignée en théologie
+      ashʿarite-māturīdite ; ses commentaires sur la rhétorique
+      (« al-Muṭawwal », « al-Mukhtaṣar ») demeurent piliers de
+      l'enseignement classique.
+    description_ar: |
+      عالمٌ موسوعيٌّ في المنطق والكلام والفقه والبلاغة، صارت
+      تأليفاتُه مَعتمَدةً في مدارس أهل السنَّة من آسيا الوسطى إلى
+      البلقان. كتابُه «شرح العقائد النَّسَفيَّة» أكثرُ كتب الكلام
+      الأشعريِّ-الماتُريديِّ تَدريسًا في المرحلة المُقَدِّمة، وشرحاه
+      على البلاغة («المطوَّل» و«المختصر») من أركان التَّعليم
+      الكلاسيكيِّ.
     canonical_hijri: {year: 793, precision: year}
     canonical_gregorian: {date: 1390-01-01, precision: year, method: tabular_conversion}
     claims:

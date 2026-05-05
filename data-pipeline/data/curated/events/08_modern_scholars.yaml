@@ -7,6 +7,7 @@ events:
     category: scholar_death
     title_en: Death of Shah Waliullah al-Dihlawi
     title_ar: وفاة شاه ولي الله الدهلوي
+    title_fr: Décès de Shāh Walī Allāh al-Dihlawī
     description_en: |
       The most influential Muslim scholar of the Indian subcontinent in
       the post-Mughal period. Author of "Hujjat Allah al-Baligha" — a
@@ -14,6 +15,20 @@ events:
       the first Persian translation of the Qur'an in India. His writings
       shaped every major Muslim reform movement in South Asia that
       followed, from the Deobandi to the Barelvi tradition.
+    description_fr: |
+      Le savant musulman le plus influent du sous-continent indien à
+      l'époque post-moghole. Auteur de « Ḥujjat Allāh al-Bāligha » —
+      synthèse systématique de philosophie juridique et de théologie
+      islamiques — et de la première traduction persane du Coran. Il
+      fut le pivot intellectuel des courants de réforme et de
+      résistance qui marqueraient l'islam sud-asiatique pendant les
+      deux siècles suivants.
+    description_ar: |
+      أعظم علماء المسلمين في شبه القارَّة الهنديَّة في الحقبة
+      ما بعد المُغوليَّة. صاحبُ «حُجَّة الله البالغة» — تأليفٌ
+      منهجيٌّ لفلسفة الشَّريعة والكلام الإسلاميِّ — وأوَّلُ من
+      ترجم القرآن إلى الفارسيَّة. ومن قطب فكره انبثقت تيَّاراتُ
+      الإصلاح والمقاومة التي صبغت إسلامَ جنوب آسيا قرنين بعده.
     canonical_hijri: {year: 1176, month: 3, day: 29, precision: day}
     canonical_gregorian: {date: 1762-08-20, precision: day, method: attested}
     claims:
@@ -28,6 +43,7 @@ events:
     category: scholar_death
     title_en: Death of Emir 'Abd al-Qadir al-Jaza'iri
     title_ar: وفاة الأمير عبد القادر الجزائري
+    title_fr: Décès de l'émir ʿAbd al-Qādir al-Jazāʾirī
     description_en: |
       The Algerian resistance leader who led a seventeen-year defence of
       Algeria against French colonisation (1832-1847), then in exile
@@ -36,6 +52,20 @@ events:
       Christians in Damascus during sectarian riots — an act for which he
       received honours from across Europe and America. He died in
       Damascus and is buried near Ibn 'Arabi.
+    description_fr: |
+      Le chef de la résistance algérienne qui mena dix-sept ans de
+      défense contre la colonisation française (1832-1847), puis
+      devint en exil un savant religieux respecté et un maître soufi
+      de la ṭarīqa qādiriyya. En 1860, il risqua sa vie pour abriter
+      des chrétiens menacés par les violences communautaires de
+      Damas, geste qui lui valut la reconnaissance internationale —
+      y compris une médaille du président Lincoln.
+    description_ar: |
+      قائدُ المقاومة الجزائريَّة الذي قاد سبعَ عشرةَ سنةً من الدفاع
+      عن الجزائر أمام الاستعمار الفرنسيِّ (1832-1847)، ثم صار في
+      منفاه عالمًا متفقِّهًا وشيخَ طريقةٍ قادريَّةٍ. وفي سنة 1860م
+      خاطر بنفسه لحماية النصارى من العنف الطائفيِّ في دمشقَ، فنال
+      تقديرًا دوليًّا — منه ميداليَّةٌ من الرئيس الأمريكيِّ لنكولن.
     canonical_hijri: {year: 1300, month: 7, day: 19, precision: day}
     canonical_gregorian: {date: 1883-05-26, precision: day, method: attested}
     claims:
@@ -50,6 +80,7 @@ events:
     category: scholar_death
     title_en: Death of Muhammad 'Abduh
     title_ar: وفاة محمد عبده
+    title_fr: Décès de Muḥammad ʿAbduh
     description_en: |
       Grand Mufti of Egypt (1899-1905) and one of the most influential
       modern Muslim reformers. His "Risalat al-Tawhid" and unfinished
@@ -57,6 +88,21 @@ events:
       reconcile Islamic scholarship with the demands of modernity. He
       reformed al-Azhar's curriculum and revived the practice of ijtihad.
       Died in Alexandria.
+    description_fr: |
+      Grand mufti d'Égypte (1899-1905) et l'un des réformateurs
+      musulmans modernes les plus influents. Sa « Risālat al-Tawḥīd »
+      et son tafsīr inachevé (complété par Rashīd Riḍā sous le titre
+      « Tafsīr al-Manār ») visaient à réconcilier la science
+      islamique avec les exigences de la modernité. Il fonda — avec
+      Jamāl al-Dīn al-Afghānī — l'école qui inspirerait les courants
+      réformistes du XXᵉ siècle dans le monde arabe et musulman.
+    description_ar: |
+      مفتي الديار المصريَّة (1899-1905) وأحد أبرز المصلحين المحدَثين.
+      أَلَّف «رسالة التوحيد»، وبقي تفسيرُه ناقصًا فأكمله رشيدُ رضا
+      باسم «تفسير المنار». كان همُّه التوفيقَ بين الفقه الإسلاميِّ
+      ومتطلَّبات الحداثة. ومع جمال الدين الأفغانيِّ أَسَّس مدرسةً
+      ألهمت تيَّاراتِ الإصلاح في القرن العشرين في العالمَين العربيِّ
+      والإسلاميِّ.
     canonical_hijri: {year: 1323, month: 5, day: 8, precision: day}
     canonical_gregorian: {date: 1905-07-11, precision: day, method: attested}
     claims:
@@ -71,6 +117,7 @@ events:
     category: caliph_event
     title_en: Abolition of the Caliphate
     title_ar: إلغاء الخلافة الإسلامية
+    title_fr: Abolition du califat
     description_en: |
       The Grand National Assembly of the newly established Turkish
       Republic, under Mustafa Kemal, abolished the Ottoman caliphate and
@@ -79,6 +126,21 @@ events:
       power — since 11 AH / 632 CE, 1,293 lunar years earlier, was
       formally ended. The caliphate has never been reconstituted in any
       universally recognised form since.
+    description_fr: |
+      La Grande Assemblée nationale de la jeune République turque,
+      sous Mustafa Kemal, abolit le califat ottoman et exila son
+      dernier détenteur ʿAbd al-Majīd II. Par cet acte, une
+      institution qui avait existé sans interruption — sous diverses
+      formes — depuis Abū Bakr al-Ṣiddīq en 632 EC, soit
+      près de 1 300 ans, prenait fin formellement. Aucun consensus
+      musulman ultérieur n'a abouti à sa restauration.
+    description_ar: |
+      ألغت الجمعيَّةُ الوطنيَّةُ الكبرى للجمهوريَّة التركيَّة الناشئة،
+      بقيادة مصطفى كمال، الخلافةَ العثمانيَّةَ ونَفَت آخرَ خلفائها
+      عبدَ المجيد الثاني. وبهذا انتهت رسميًّا مؤسَّسةٌ ظلَّت قائمةً —
+      في أشكالٍ متغيِّرة — منذ خلافة أبي بكرٍ الصدِّيق سنة 632 ميلاديَّة،
+      أي قُرابة ثلاث عشرة قرنًا. ولم يَنعقد إجماعٌ مسلمٌ على إعادة
+      تأسيسها بعد ذلك.
     canonical_hijri: {year: 1342, month: 7, day: 27, precision: day}
     canonical_gregorian: {date: 1924-03-03, precision: day, method: attested}
     claims:
@@ -92,6 +154,7 @@ events:
     category: scholar_death
     title_en: Death of 'Allama Muhammad Iqbal
     title_ar: وفاة العلامة محمد إقبال
+    title_fr: Décès d'ʿAllāma Muḥammad Iqbāl
     description_en: |
       Poet-philosopher, barrister, and the ideological inspiration of the
       Pakistan movement. His Persian and Urdu poetry — "Asrar-i Khudi,"
@@ -99,6 +162,21 @@ events:
       Religious Thought in Islam" (the Madras/Aligarh/Hyderabad lectures)
       shaped a generation of Muslim intellectuals in South Asia and
       beyond. Died in Lahore at 60.
+    description_fr: |
+      Poète-philosophe, avocat et inspiration idéologique du mouvement
+      pakistanais. Sa poésie persane et ourdoue — « Asrār-i Khudī »,
+      « Bāl-i Jibrīl », « Ḍarb-i Kalīm » — et sa prose « The
+      Reconstruction of Religious Thought in Islam » (les conférences
+      de Madras / Aligarh) inaugurèrent un islam moderne articulé en
+      termes philosophiques. Il mourut à Lahore neuf ans avant la
+      création du Pakistan qu'il avait imaginé.
+    description_ar: |
+      شاعرٌ فيلسوفٌ ومحامٍ وملهمُ الحركة الباكستانيَّة فكريًّا. تركت
+      أشعارُه الفارسيَّةُ والأرديَّةُ — «أسرار خودي»، «بال جبريل»،
+      «ضرب كليم» — ونثرُه «تجديد الفكر الديني في الإسلام» (محاضرات
+      مدراس / عَلِيكَره) إسلامًا حداثيًّا متأمَّلًا في مفرداتٍ
+      فلسفيَّة. تُوفِّي بلاهور قبل تسع سنواتٍ من نشأة باكستان التي
+      تَخَيَّلها.
     canonical_hijri: {year: 1357, month: 2, day: 21, precision: day}
     canonical_gregorian: {date: 1938-04-21, precision: day, method: attested}
     claims:
@@ -113,6 +191,7 @@ events:
     category: scholar_death
     title_en: Assassination of Hassan al-Banna
     title_ar: اغتيال حسن البنا
+    title_fr: Assassinat de Ḥasan al-Bannā
     description_en: |
       The founder of the Muslim Brotherhood (al-Ikhwan al-Muslimun,
       founded 1928 in Isma'iliyya), assassinated in Cairo at age 42. His
@@ -121,6 +200,21 @@ events:
       and political engagement. His movement has been among the most
       consequential Muslim organisations of the twentieth century, though
       its direction and evaluations vary widely across the Sunni world.
+    description_fr: |
+      Le fondateur des Frères musulmans (al-Ikhwān al-Muslimūn,
+      fondés en 1928 à Ismāʿīliyya), assassiné au Caire à 42 ans.
+      Ses écrits — la « Majmūʿat al-Rasāʾil » réunie — proposaient
+      un programme global de revivification islamique : éducation,
+      réforme sociale et engagement politique. La structure et la
+      philosophie qu'il établit demeurent l'archétype des mouvements
+      islamistes du XXᵉ siècle.
+    description_ar: |
+      اغتِيل مؤسِّسُ جماعة الإخوان المسلمين (تأَسَّست سنة 1928م في
+      الإسماعيليَّة) بالقاهرة عن اثنتين وأربعين سنة. وضع في كتاباته —
+      ومجموعها «مجموعة الرسائل» — برنامجًا كاملًا للنهضة الإسلاميَّة:
+      تربيةً وإصلاحًا اجتماعيًّا وعملًا سياسيًّا. وظلَّ الهيكلُ
+      والمنهجُ اللذان أرساهما نموذجًا تأسيسيًّا للحركات الإسلاميَّة في
+      القرن العشرين.
     canonical_hijri: {year: 1368, month: 4, day: 14, precision: day}
     canonical_gregorian: {date: 1949-02-12, precision: day, method: attested}
     claims:
@@ -135,12 +229,30 @@ events:
     category: scholar_death
     title_en: Death of Shaykh 'Abd al-'Aziz Ibn Baz
     title_ar: وفاة الشيخ ابن باز
+    title_fr: Décès du shaykh ʿAbd al-ʿAzīz Ibn Bāz
     description_en: |
       Grand Mufti of Saudi Arabia (1993-1999) and one of the most widely
       followed Salafi scholars of the late twentieth century. Blind from
       youth but gifted with a prodigious memory, he issued tens of
       thousands of written and recorded fatwas collected in more than
       thirty volumes. Died in Ta'if at age 89.
+    description_fr: |
+      Grand mufti d'Arabie saoudite (1993-1999) et l'un des savants
+      salafi les plus suivis de la fin du XXᵉ siècle. Aveugle dès la
+      jeunesse mais doté d'une mémoire prodigieuse, il rendit des
+      dizaines de milliers de fatwas écrites et enregistrées,
+      compilées dans la « Majmūʿ Fatāwā wa Maqālāt Mutanawwiʿa ». Il
+      présida le Comité permanent saoudien pour la recherche
+      religieuse et l'iftāʾ pendant des décennies, façonnant la
+      pratique salafi institutionnelle dans le monde sunnite.
+    description_ar: |
+      مفتي عامُّ المملكة العربيَّة السعوديَّة (1993-1999) وأحدُ أكثر
+      علماء السلفيَّة اتِّباعًا في أواخر القرن العشرين. كان كفيفًا
+      منذ شبابه لكنَّه كان آيةً في الحفظ، فأصدر عشراتِ الألوف من
+      الفتاوى المكتوبة والمسجَّلة، جُمع كثيرٌ منها في «مجموع فتاوى
+      ومقالات متنوِّعة». وترأَّس اللجنةَ الدائمة للبحوث العلميَّة
+      والإفتاء عقودًا، فأَثَّر تأثيرًا بالغًا في الممارسة السلفيَّة
+      المؤسَّسيَّة في العالم السنِّيِّ.
     canonical_hijri: {year: 1420, month: 1, day: 27, precision: day}
     canonical_gregorian: {date: 1999-05-13, precision: day, method: attested}
     claims:
@@ -155,6 +267,7 @@ events:
     category: scholar_death
     title_en: Death of Muhammad Nasir al-Din al-Albani
     title_ar: وفاة الشيخ الألباني
+    title_fr: Décès de Muḥammad Nāṣir al-Dīn al-Albānī
     description_en: |
       Albanian-born hadith scholar of the late twentieth century, whose
       voluminous works on hadith authentication — including the "Silsilat
@@ -163,6 +276,22 @@ events:
       hadith criticism. A watchmaker by trade who never held formal
       academic position yet was granted honorary membership at the
       Islamic University of Madinah. Died in Amman at 85.
+    description_fr: |
+      Spécialiste albanais du ḥadīth de la fin du XXᵉ siècle, dont
+      les œuvres volumineuses d'authentification — dont « Silsilat
+      al-Aḥādīth al-Ṣaḥīḥa », « al-Ḍaʿīfa », et ses éditions critiques
+      des Sunan — ont remodelé l'engagement moderne avec les
+      collections post-canoniques. Sa méthode — révision
+      isnād-par-isnād selon les standards classiques d'al-jarḥ
+      wa-l-taʿdīl — a influencé la pratique salafi du ḥadīth dans le
+      monde entier.
+    description_ar: |
+      محدِّثٌ ألبانيُّ المولد، اشتُهر في أواخر القرن العشرين بسعة
+      تصنيفه في تحقيق الحديث — منها «سلسلة الأحاديث الصحيحة»،
+      و«الضعيفة»، وتحقيقات السنن — مما أعاد تشكيل التعامل المعاصر
+      مع المصنَّفات بعد الكتب الستَّة. ومنهجُه في المراجعة سندًا
+      سندًا وفقَ معايير الجرح والتعديل القديمة أَثَّر تأثيرًا واسعًا
+      في ممارسة الحديث عند السلفيَّة في العالم.
     canonical_hijri: {year: 1420, month: 6, day: 22, precision: day}
     canonical_gregorian: {date: 1999-10-02, precision: day, method: attested}
     claims:
@@ -177,6 +306,7 @@ events:
     category: scholar_death
     title_en: Death of Shaykh Muhammad ibn Salih al-'Uthaymeen
     title_ar: وفاة الشيخ محمد بن صالح العثيمين
+    title_fr: Décès du shaykh Muḥammad ibn Ṣāliḥ al-ʿUthaymīn
     description_en: |
       One of the most influential Saudi scholars of the late twentieth
       century, known for his teaching at the Grand Mosque of 'Unayza for
@@ -184,6 +314,21 @@ events:
       commentary on the Hanbali manual "Zad al-Mustaqni'." His radio and
       television fatwa sessions reached millions across the Arabic-
       speaking world. Died in Jeddah at 76.
+    description_fr: |
+      L'un des savants saoudiens les plus influents de la fin du
+      XXᵉ siècle, connu pour son enseignement à la Grande Mosquée
+      d'ʿUnayza pendant quatre décennies et pour son « Sharḥ al-Mumtiʿ »
+      — commentaire en plusieurs volumes du manuel ḥanbalite « Zād
+      al-Mustaqniʿ ». Sa pédagogie systématique et claire fit de ses
+      écrits et enregistrements la voie d'entrée standard à la
+      jurisprudence ḥanbalite pour des millions d'étudiants à travers
+      le monde musulman.
+    description_ar: |
+      أحد أبرز علماء السعوديَّة في أواخر القرن العشرين، اشتُهر بتدريسه
+      في الجامع الكبير بعنيزةَ أربعةَ عقود، وبشرحه «الشرح الممتع» على
+      متن «زاد المستقنع» الحنبلي — في عدَّة مجلَّداتٍ. جعل أسلوبُه
+      البَيِّنُ المنهجيُّ كتبَه وتسجيلاته بابَ دخولٍ معياريًّا للفقه
+      الحنبليِّ لملايين الطلَّاب في العالم الإسلاميِّ.
     canonical_hijri: {year: 1421, month: 10, day: 15, precision: day}
     canonical_gregorian: {date: 2001-01-10, precision: day, method: attested}
     claims:
@@ -198,6 +343,7 @@ events:
     category: scholar_death
     title_en: Death of Shaykh Yusuf al-Qaradawi
     title_ar: وفاة الشيخ يوسف القرضاوي
+    title_fr: Décès du shaykh Yūsuf al-Qaraḍāwī
     description_en: |
       Egyptian-Qatari scholar of fiqh whose books — including "al-Halal
       wa'l-Haram fi al-Islam" and "Fiqh al-Zakat" — became standard
@@ -206,6 +352,22 @@ events:
       was among the most widely consulted modern fatwa voices. His
       positions attracted both broad following and sharp disagreement;
       his legacy remains contested. Died in Doha at 96.
+    description_fr: |
+      Savant égypto-qatari du fiqh dont les ouvrages — notamment
+      « al-Ḥalāl wa-l-Ḥarām fī al-Islām » et « Fiqh al-Zakāt » — sont
+      devenus des références standards dans le monde arabe et
+      musulman. Diplômé d'al-Azhar, il présida l'Union mondiale des
+      savants musulmans et porta une approche du « fiqh des minorités »
+      (fiqh al-aqalliyyāt) destinée aux musulmans vivant hors des
+      terres à majorité musulmane. Sa réception parmi les courants
+      sunnites est variée mais son influence reste large.
+    description_ar: |
+      عالم فقهٍ مصريٌّ-قطريٌّ صارت كتبه — كـ«الحلال والحرام في الإسلام»
+      و«فقه الزكاة» — مراجعَ معياريَّةً في العالم العربيِّ والإسلاميِّ.
+      تخرَّج في الأزهر، وتولَّى رئاسة الاتحاد العالميِّ لعلماء
+      المسلمين، وتبنَّى منهج «فقه الأقليَّات» للمسلمين خارج بلاد
+      الأكثريَّة. ومع تباين تَلَقِّيه عند المذاهب السنيَّة، يبقى
+      تأثيرُه واسعًا.
     canonical_hijri: {year: 1444, month: 2, day: 30, precision: day}
     canonical_gregorian: {date: 2022-09-26, precision: day, method: attested}
     claims:

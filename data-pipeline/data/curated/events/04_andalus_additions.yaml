@@ -5,6 +5,7 @@ events:
     category: umayyad
     title_en: Abd al-Rahman III Proclaims the Caliphate of Cordoba
     title_ar: إعلان خلافة قرطبة
+    title_fr: ʿAbd al-Raḥmān III proclame le califat de Cordoue
     description_en: |
       After 172 years as an Emirate independent of Baghdad, Abd al-Rahman
       III (an-Nasir) proclaimed himself Caliph and Commander of the
@@ -14,6 +15,21 @@ events:
       Madinat al-Zahra, the Great Mosque of Cordoba's final expansions,
       and the flourishing of scholars including Ibn Hazm, Maslama al-
       Majriti, and al-Zahrawi (Abulcasis).
+    description_fr: |
+      Après 172 ans en tant qu'Émirat indépendant de Bagdad, ʿAbd
+      al-Raḥmān III (al-Nāṣir) se proclama Calife et Commandeur des
+      croyants à Cordoue — défiant directement les califats abbasside
+      et fatimide. Le califat omeyyade de Cordoue durerait 102 ans
+      et porterait al-Andalus à son apogée scientifique, économique
+      et culturel. Cordoue serait alors la plus grande ville
+      d'Europe et l'une des plus avancées du monde.
+    description_ar: |
+      بعد مئةٍ واثنتين وسبعين سنةً من الإمارة المستقلَّة عن بغدادَ،
+      أَعلَن عبدُ الرحمن الناصرُ نفسَه خليفةً وأميرَ المؤمنين بقُرطُبةَ —
+      متحدِّيًا الخلافتَين العبَّاسيَّةَ والفاطميَّةَ مباشرةً. واستمرَّت
+      خلافةُ بني أميَّةَ بقُرطُبةَ مئةً واثنتين سنة، ورفعت الأندلسَ
+      إلى ذروتها العلميَّة والاقتصاديَّة والثقافيَّة. وكانت قُرطُبةُ
+      حينئذٍ أكبرَ مدن أوروبَّا وإحدى أكثر مدن العالم تطوُّرًا.
     canonical_hijri: {year: 316, precision: year}
     canonical_gregorian: {date: 929-01-16, precision: year, method: attested}
     claims:
@@ -26,6 +42,7 @@ events:
     category: founding
     title_en: Founding of Madinat al-Zahra
     title_ar: تأسيس مدينة الزهراء
+    title_fr: Fondation de Madīnat al-Zahrāʾ
     description_en: |
       Caliph Abd al-Rahman III began construction of Madinat al-Zahra, a
       palace-city on the slopes of the Sierra Morena outside Cordoba.
@@ -35,6 +52,23 @@ events:
       destroyed in 1010 during the fitna that ended the caliphate, but
       its ruins — excavated since 1911 — remain one of the most
       significant archaeological sites of medieval Muslim civilisation.
+    description_fr: |
+      Le calife ʿAbd al-Raḥmān III commença la construction de
+      Madīnat al-Zahrāʾ, cité-palais sur les pentes de la Sierra
+      Morena près de Cordoue. Nommée selon la tradition d'après la
+      concubine bien-aimée du calife al-Zahrāʾ, la ville abrita
+      l'administration, des thermes, des jardins et des centres de
+      réception diplomatique. Saccagée durant la guerre civile
+      (fitna) qui mit fin au califat (1009-1031) et longtemps
+      ensevelie sous le sol, elle fait l'objet de fouilles
+      archéologiques continues depuis 1911.
+    description_ar: |
+      بَدَأ الخليفةُ عبدُ الرحمن الناصرُ بناءَ مدينة الزهراء —
+      مدينة-قصرٍ على سفوح سييرا مُورينا قُرب قُرطُبةَ. سُمِّيت في
+      الرواية باسم جاريةٍ مُحَبَّبةٍ للخليفة. ضمَّت دواوينَ الإدارة
+      وحمَّاماتٍ وحدائقَ ومراسمَ استقبال. ونُهِبت في الفتنة التي أنهت
+      الخلافةَ (1009-1031م)، ودُفنت قرونًا تحت التراب، ثم لا تزال
+      تُنقَّب أثريًّا منذ سنة 1911م.
     canonical_hijri: {year: 324, precision: year}
     canonical_gregorian: {date: 936-01-01, precision: year, method: attested}
     claims:
@@ -48,6 +82,7 @@ events:
     category: scholar_death
     title_en: Death of Ibn Hazm al-Andalusi
     title_ar: وفاة ابن حزم الأندلسي
+    title_fr: Décès d'Ibn Ḥazm al-Andalusī
     description_en: |
       The foremost polymath of al-Andalus in the eleventh century. Author
       of "al-Muhalla" — a vast work of comparative fiqh rooted in the
@@ -55,6 +90,20 @@ events:
       comparative religion, and of "Tawq al-Hamama" (The Ring of the Dove),
       a delicate treatise on love written in his youth. He is said to have
       produced some 400 works. Died in Manta Lisham near Seville.
+    description_fr: |
+      Le polymathe le plus éminent d'al-Andalus au XIᵉ siècle. Auteur
+      d'« al-Muḥallā » — vaste œuvre de fiqh comparé enracinée dans
+      l'école ẓāhirite —, d'« al-Fiṣal fī al-Milal wa-l-Ahwāʾ
+      wa-l-Niḥal » sur la religion comparée, et de « Ṭawq al-Ḥamāma »
+      (Le collier de la colombe) sur l'amour. Son ẓāhirisme rigoureux
+      fit de lui une voix isolée mais influente, particulièrement
+      présente dans l'histoire intellectuelle andalouse.
+    description_ar: |
+      أعظمُ علماء الأندلس في القرن الخامس الهجريِّ من حيث الموسوعيَّة.
+      صاحب «المُحلَّى» — موسوعة فقهٍ مقارنٍ على المذهب الظاهريِّ —
+      و«الفِصَل في الملل والأهواء والنِّحَل» في الأديان المقارنة،
+      و«طوقُ الحمامة» في الحبِّ. وقد جعله ظاهريَّتُه الصارمةُ صوتًا
+      مفردًا لكنَّه مؤثِّرٌ، حاضرٌ بقوَّةٍ في التاريخ الفكريِّ الأندلسيِّ.
     canonical_hijri: {year: 456, month: 8, day: 28, precision: day}
     canonical_gregorian: {date: 1064-08-15, precision: day, method: attested}
     claims:
@@ -68,6 +117,7 @@ events:
     category: battle
     title_en: Battle of Zallaqa (Sagrajas)
     title_ar: معركة الزلاقة
+    title_fr: Bataille de Zallāqa (Sagrajas)
     description_en: |
       The Almoravid army under Yusuf ibn Tashfin, crossing from Marrakech
       at the request of the besieged Andalusi taifa kings, decisively
@@ -76,6 +126,20 @@ events:
       and began the period of Almoravid rule over al-Andalus. It took
       place on a Friday; the Muslims prayed Jumu'ah on the battlefield
       before engaging.
+    description_fr: |
+      L'armée almoravide sous Yūsuf ibn Tāshfīn, traversant depuis
+      Marrakech à la demande des rois ṭāʾifa andalous assiégés,
+      défit de manière décisive les forces du roi Alphonse VI de
+      Castille à Zallāqa près de Badajoz. La bataille arrêta
+      temporairement la Reconquista et permit aux Almoravides de
+      prendre la direction d'al-Andalus, que Yūsuf annexerait à son
+      empire dans la décennie suivante.
+    description_ar: |
+      عَبَر يوسفُ بنُ تاشفين بجيش المرابطين من مرَّاكشَ بطلب ملوك
+      الطوائف الأندلسيِّين، فهزم هزيمةً ساحقةً جيوشَ ألفونسو السادس
+      ملك قشتالةَ في الزَّلَّاقةِ قُرب بَطَلْيَوس. أَوقفت المعركةُ
+      حركةَ الاستردادِ مؤقَّتًا، وأَتَاحت للمرابطين قيادةَ الأندلس،
+      وضمَّها يوسفُ بعد ذلك إلى دولته في غضون عَشرٍ.
     canonical_hijri: {year: 479, month: 7, day: 12, precision: day}
     canonical_gregorian: {date: 1086-10-23, precision: day, method: attested}
     claims:
@@ -89,6 +153,7 @@ events:
     category: battle
     title_en: Battle of Las Navas de Tolosa
     title_ar: معركة العقاب
+    title_fr: Bataille de Las Navas de Tolosa
     description_en: |
       Known in Arabic as Ma'rakat al-'Iqab ("Battle of the Eagle"), this
       was the decisive reverse for the Muslim presence in al-Andalus. A
@@ -98,6 +163,21 @@ events:
       Muslim cities — Cordoba (1236), Valencia (1238), Seville (1248) —
       would fall. Only the Nasrid Emirate of Granada survived, as a
       tributary, until 1492.
+    description_fr: |
+      Connue en arabe comme Maʿrakat al-ʿIqāb (« Bataille de
+      l'Aigle »), elle constitua le revers décisif de la présence
+      musulmane en al-Andalus. Une armée croisée combinée
+      castillane-aragonaise-navarraise-portugaise sous Alphonse VIII
+      de Castille défit les forces almohades du calife al-Nāṣir.
+      Cette défaite ouvrit la voie à la chute rapide des grandes
+      villes andalouses : Cordoue (1236), Séville (1248) et
+      Murcie (1243).
+    description_ar: |
+      تُعرف بالعربيَّة بـ«معركة العِقاب». كانت الانتكاسةَ الفاصلةَ
+      للوجود الإسلاميِّ في الأندلس. تحالف فيها جيشٌ صليبيٌّ من قشتالةَ
+      وأراغونَ ونَفارَّ والبرتغالِ بقيادة ألفونسو الثامن، فهزم جيوش
+      الموحِّدين تحت الناصر. وفُتح بعدها سُقوطُ كبرى مدن الأندلس
+      تباعًا: قُرطُبةَ (1236)، وإشبيليةَ (1248)، ومُرسيةَ (1243).
     canonical_hijri: {year: 609, month: 6, day: 15, precision: day}
     canonical_gregorian: {date: 1212-07-16, precision: day, method: attested}
     claims:
@@ -110,6 +190,7 @@ events:
     category: scholar_death
     title_en: Death of Ibn Rushd (Averroes)
     title_ar: وفاة ابن رشد
+    title_fr: Décès d'Ibn Rushd (Averroès)
     description_en: |
       Abu al-Walid Muhammad ibn Rushd, known in the Latin West as
       Averroes, was a Maliki judge of Cordoba, grand commentator on
@@ -118,6 +199,22 @@ events:
       philosophy and revelation. His Aristotelian commentaries, translated
       into Latin and Hebrew, shaped the medieval European universities.
       Died at Marrakesh at age 72.
+    description_fr: |
+      Abū al-Walīd Muḥammad ibn Rushd, connu en Occident latin sous
+      le nom d'Averroès, fut juge mālikite de Cordoue, grand
+      commentateur d'Aristote, auteur de « Bidāyat al-Mujtahid » —
+      œuvre fondatrice de fiqh comparé — et de « Faṣl al-Maqāl »
+      sur le rapport entre la philosophie et la révélation. Ses
+      commentaires aristotéliciens, traduits en latin et hébreu,
+      façonnèrent la scolastique européenne et la pensée juive
+      médiévale.
+    description_ar: |
+      أبو الوليد محمَّدُ بنُ رُشدٍ، المعروفُ في اللاتينيَّة بـ Averroes،
+      كان قاضيَ قُرطُبةَ على المذهب المالكيِّ، شارح أرسطو الأكبرَ،
+      وصاحبَ «بداية المجتهد» — أصلِ الفقه المقارنِ — و«فصل المقال»
+      في علاقة الفلسفة والشَّريعة. ترجماتُ شروحه على أرسطو إلى
+      اللاتينيَّة والعبريَّة شكَّلت السكولاستيَّةَ الأوروبيَّةَ والفكرَ
+      اليهوديَّ في العصور الوسطى.
     canonical_hijri: {year: 595, month: 9, day: 9, precision: day}
     canonical_gregorian: {date: 1198-12-10, precision: day, method: attested}
     claims:
@@ -131,6 +228,7 @@ events:
     category: conquest
     title_en: Fall of Seville to the Castilians
     title_ar: سقوط إشبيلية
+    title_fr: Chute de Séville aux mains des Castillans
     description_en: |
       After a seventeen-month siege, Seville — the largest city of
       al-Andalus and capital of the Almohads in Iberia — surrendered to
@@ -139,6 +237,23 @@ events:
       Mosque was converted to a cathedral; the Giralda minaret remains
       today as the cathedral's bell tower. With Seville's fall only the
       Nasrid Emirate of Granada remained of Muslim al-Andalus.
+    description_fr: |
+      Après un siège de dix-sept mois, Séville — la plus grande
+      ville d'al-Andalus et capitale almohade en Ibérie — se rendit
+      à Ferdinand III de Castille. La population musulmane d'environ
+      100 000 personnes fut expulsée, la plupart partant en Afrique
+      du Nord ou vers Grenade. La Grande Mosquée fut convertie en
+      cathédrale ; son minaret — la Giralda — survit comme clocher.
+      La chute marque l'effondrement effectif d'al-Andalus, ne
+      laissant que l'émirat naṣride de Grenade.
+    description_ar: |
+      بعد حصارٍ دام سبعةَ عشرَ شهرًا، سَلَّمت إشبيليةُ — كبرى مدن
+      الأندلس وعاصمةُ الموحِّدين بها — لفرديناند الثالث ملك قشتالةَ.
+      وطُرد سكَّانُها المسلمون البالغون نحو مئة ألفٍ، فهاجر معظمُهم
+      إلى شمال إفريقيَّةَ أو غرناطةَ. وحُوِّل الجامع الكبير إلى
+      كاتدرائيَّةٍ، وبقيت مئذنتُه — الخيرالدا — برجَ أجراسٍ. وكانت
+      هذه السقطةُ سقوطَ الأندلس فعليًّا، ولم يَبقَ منه إلا إمارةُ
+      بني نَصرٍ بغرناطةَ.
     canonical_hijri: {year: 646, month: 8, day: 5, precision: day}
     canonical_gregorian: {date: 1248-11-23, precision: day, method: attested}
     claims:

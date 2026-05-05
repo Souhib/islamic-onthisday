@@ -191,6 +191,7 @@ events:
     category: abbasid
     title_en: The Mihna (Inquisition) Begins under al-Ma'mun
     title_ar: بداية محنة خلق القرآن
+    title_fr: Début de la Miḥna (Inquisition) sous al-Maʾmūn
     description_en: |
       Caliph al-Ma'mun, adopting the Mu'tazilite doctrine that the Qur'an
       was created rather than uncreated, instituted a formal inquisition
@@ -201,6 +202,23 @@ events:
       reversed the policy in 234 AH (848 CE) and restored the traditionalist
       position. Imam Ahmad's endurance made him the emblem of principled
       resistance for later Sunni tradition.
+    description_fr: |
+      Le calife al-Maʾmūn, adoptant la doctrine muʿtazilite selon
+      laquelle le Coran serait créé et non incréé, instaura une
+      inquisition formelle (miḥna) exigeant des juges, savants et
+      fonctionnaires qu'ils souscrivent à cette opinion. La plupart
+      des juristes acceptèrent pour préserver leurs fonctions ;
+      Aḥmad ibn Ḥanbal, refusant, fut emprisonné et fouetté. La
+      miḥna se prolongea sous al-Muʿtaṣim et al-Wāthiq avant d'être
+      annulée par al-Mutawakkil. Elle devint la matrice du discours
+      sunnite sur la liberté du savant face au pouvoir.
+    description_ar: |
+      تَبَنَّى الخليفةُ المأمون عقيدةَ المعتزلة في خلق القرآن، فأقام
+      محنةً رسميَّةً يُلزَم فيها القضاةُ والعلماءُ والولاة بإقرار هذا
+      المذهب. فطاوع أكثرُ الفقهاء حفظًا لمناصبهم، أمَّا أحمدُ بنُ
+      حنبلٍ فأبى، فسُجن وجُلد. واستمرَّت المحنةُ في عهد المعتصم
+      والواثق، حتى أُلغيت في عهد المتوكِّل. وصارت أُصلَ الخطاب السنِّيِّ
+      في حريَّة العالم أمام السلطان.
     canonical_hijri: {year: 218, precision: year}
     canonical_gregorian: {date: 833-05-01, precision: year, method: attested}
     claims:
@@ -215,6 +233,7 @@ events:
     category: scholar_death
     title_en: Death of al-Hasan al-Basri
     title_ar: وفاة الحسن البصري
+    title_fr: Décès d'al-Ḥasan al-Baṣrī
     description_en: |
       One of the great Tabi'un and the foremost ascetic, exegete, and
       preacher of the early Muslim community. A slave-born son who met 70
@@ -224,6 +243,20 @@ events:
       the question of free will — laid foundations for later Sunni kalam,
       tasawwuf, and usul al-fiqh. Almost every early Sunni transmission
       chain in Basra passes through him.
+    description_fr: |
+      L'un des grands Tābiʿūn et la figure de proue ascétique,
+      exégète et prédicateur de la première communauté musulmane.
+      Né esclave, fils d'une famille qui rencontra 70 Compagnons du
+      Prophète ﷺ — dont Anas ibn Mālik et ʿUthmān —, il devint le
+      maître d'une génération de savants à Baṣra. Sa mosquée et son
+      cercle d'enseignement furent le creuset de la première
+      spiritualité sunnite, du fiqh ḥanafite naissant et du kalām.
+    description_ar: |
+      من كبار التابعين، إمامُ الزُّهد والتفسير والوعظ في الجيل
+      الإسلاميِّ الأوَّل. وُلد عبدًا في بيتٍ لقي فيه نحو سبعين من
+      الصحابة — منهم أنسُ بنُ مالكٍ وعثمانُ — وصار شيخَ الجيل في
+      البصرة. ومسجدُه وحلقتُه كانا مهدَ التصوُّف السنِّيِّ المبكِّر
+      والفقه الحنفيِّ الناشئ وعلم الكلام.
     canonical_hijri: {year: 110, precision: year}
     canonical_gregorian: {date: 728-01-01, precision: year, method: attested}
     claims:
@@ -239,6 +272,7 @@ events:
     category: scholar_death
     title_en: Death of Abu Yusuf — First Chief Judge of the Abbasid State
     title_ar: وفاة أبي يوسف
+    title_fr: Décès d'Abū Yūsuf — premier grand juge de l'État abbasside
     description_en: |
       Ya'qub ibn Ibrahim al-Ansari — known as Abu Yusuf — was the most
       prominent student of Abu Hanifa and the first to systematise the
@@ -248,6 +282,20 @@ events:
       and public finance. Through his writings and his judicial
       appointments, the Hanafi madhhab became the official school of the
       Abbasid state.
+    description_fr: |
+      Yaʿqūb ibn Ibrāhīm al-Anṣārī — Abū Yūsuf — fut le plus éminent
+      élève d'Abū Ḥanīfa et le premier à systématiser le madhhab
+      ḥanafite dans des livres. Nommé Qāḍī al-Quḍāt (Grand Juge) par
+      Hārūn al-Rashīd, il occupa cette charge sous trois califes,
+      transformant la magistrature de fonction informelle en
+      institution structurée. Son « Kitāb al-Kharāj » est l'un des
+      premiers traités de droit fiscal islamique.
+    description_ar: |
+      يعقوبُ بنُ إبراهيمَ الأنصاريُّ — أبو يوسفَ — كان من أبرز تلامذة
+      أبي حنيفةَ، وأوَّل من دَوَّن المذهب الحنفيَّ. ولَّاه هارون
+      الرشيد قاضيَ القضاة، فبقي على القضاء في عهد ثلاثة خلفاء، حوَّل
+      في عهده القضاءَ من وظيفةٍ غير منظَّمةٍ إلى مؤسَّسةٍ مرتَّبة.
+      وكتابه «الخراج» من أوائل التصانيف في المالية الإسلاميَّة.
     canonical_hijri: {year: 182, precision: year}
     canonical_gregorian: {date: 798-06-15, precision: year, method: attested}
     claims:
@@ -261,6 +309,7 @@ events:
     category: scholar_death
     title_en: Death of Ibn Sina (Avicenna)
     title_ar: وفاة ابن سينا
+    title_fr: Décès d'Ibn Sīnā (Avicenne)
     description_en: |
       Abu Ali al-Husayn ibn Abdullah ibn Sina — Avicenna to the Latin West —
       was a physician, philosopher, astronomer, and polymath whose "al-Qanun
@@ -268,6 +317,22 @@ events:
       textbook in Europe until the seventeenth century. His "al-Shifa'" is
       one of the great philosophical encyclopedias of the medieval world.
       He died at Hamadan in Iran at approximately 57 years of age.
+    description_fr: |
+      Abū ʿAlī al-Ḥusayn ibn ʿAbdullāh ibn Sīnā — Avicenne pour
+      l'Occident latin — était médecin, philosophe, astronome et
+      polymathe. Son « al-Qānūn fī al-Ṭibb » (Le Canon de la
+      médecine) demeura le manuel médical de référence en Europe
+      jusqu'au XVIIᵉ siècle. Sa pensée philosophique — synthèse
+      d'aristotélisme et de néoplatonisme dans un cadre monothéiste —
+      façonna profondément les théologies islamique et chrétienne
+      scolastique.
+    description_ar: |
+      أبو علي الحسين بن عبد الله بن سينا — وهو في الغرب اللاتيني
+      Avicenna — كان طبيبًا وفيلسوفًا وفلكيًّا وعالمًا موسوعيًّا.
+      ظلَّ كتابُه «القانون في الطب» المرجعَ الطبيَّ في أوروبَّا حتى
+      القرن السابع عشر. وقد جمع فكرُه الفلسفيُّ بين الأرسطيَّة
+      والأفلاطونيَّة المحدَثة في إطارٍ توحيديٍّ، فأَثَّر تأثيرًا
+      عميقًا في الكلام الإسلاميِّ والفلسفة المسيحيَّة المدرسيَّة.
     canonical_hijri: {year: 428, precision: year}
     canonical_gregorian: {date: 1037-06-21, precision: year, method: attested}
     claims:
@@ -280,6 +345,7 @@ events:
     category: scholar_death
     title_en: Death of al-Biruni
     title_ar: وفاة البيروني
+    title_fr: Décès d'al-Bīrūnī
     description_en: |
       Abu al-Rayhan Muhammad ibn Ahmad al-Biruni — historian, astronomer,
       geographer, and anthropologist — produced foundational works on
@@ -288,6 +354,22 @@ events:
       He calculated the Earth's radius to within 1% of the modern value
       using spherical trigonometry. He wrote in Arabic, Persian, Sanskrit,
       Syriac, and Greek. Died in Ghazni at approximately 75 years.
+    description_fr: |
+      Abū al-Rayḥān Muḥammad ibn Aḥmad al-Bīrūnī — historien,
+      astronome, géographe et anthropologue — produisit des œuvres
+      fondatrices : « Taḥqīq mā li-l-Hind » sur la civilisation
+      indienne en religion comparée, des traités de pharmacologie,
+      d'astronomie (« al-Qānūn al-Masʿūdī »), de minéralogie et de
+      géodésie. Il calcula le rayon de la Terre avec une précision
+      remarquable et fut l'un des premiers à étudier l'Inde sans
+      préjugé religieux.
+    description_ar: |
+      أبو الريحان محمَّدُ بنُ أحمدَ البِيرونيُّ — مؤرِّخ وفلكيٌّ
+      وجغرافيٌّ وعالم إثنوغرافيا — صنَّف من الكتب الأمَّهات: «تحقيق
+      ما للهند» في الأديان المقارنة، ورسائل في الصيدلة، و«القانون
+      المسعوديَّ» في الفلك، وكتابًا في المعادن، وآخرَ في الجغرافيا
+      الرياضيَّة. حَسَب نصفَ قطر الأرض بدقَّةٍ مذهلة، وكان من أوائل
+      من درسوا الهندَ من غير حكمٍ مسبقٍ.
     canonical_hijri: {year: 440, precision: year}
     canonical_gregorian: {date: 1048-12-09, precision: year, method: attested}
     claims:
@@ -301,6 +383,7 @@ events:
     category: scholar_death
     title_en: Death of Ibn al-Haytham (Alhazen)
     title_ar: وفاة ابن الهيثم
+    title_fr: Décès d'Ibn al-Haytham (Alhazen)
     description_en: |
       Abu Ali al-Hasan ibn al-Haytham, the founder of the modern scientific
       method and the author of "Kitab al-Manazir" (Book of Optics) which
@@ -308,6 +391,19 @@ events:
       insistence on controlled experiment and verification as the basis of
       knowledge about the natural world anticipated Galilean and Newtonian
       method by six centuries. Died in Cairo at approximately 75 years.
+    description_fr: |
+      Abū ʿAlī al-Ḥasan ibn al-Haytham, fondateur de la méthode
+      scientifique moderne et auteur du « Kitāb al-Manāẓir » (Livre
+      d'optique) qui révolutionna la compréhension de la vision, de
+      la lumière et de la perception. Son insistance sur
+      l'expérimentation contrôlée — vérification empirique d'hypothèses
+      par observation reproductible — anticipa de six siècles la
+      « méthode scientifique » européenne.
+    description_ar: |
+      أبو علي الحسن بن الهيثم، مؤسِّسُ المنهج التجريبيِّ الحديث،
+      صاحبُ «كتاب المناظر» الذي قَلَب علومَ الإبصار والضوء والإدراك.
+      إصرارُه على التجربة المضبوطة — فحصُ الفروض بالملاحظة المتكرِّرة —
+      سَبَق المنهجَ العلميَّ الأوروبيَّ بستَّة قرون.
     canonical_hijri: {year: 430, precision: year}
     canonical_gregorian: {date: 1040-01-01, precision: year, method: attested}
     claims:
@@ -320,6 +416,7 @@ events:
     category: scholar_death
     title_en: Death of al-Kindi — The Philosopher of the Arabs
     title_ar: وفاة الكندي
+    title_fr: Décès d'al-Kindī — le Philosophe des Arabes
     description_en: |
       Abu Yusuf Ya'qub ibn Ishaq al-Kindi, the first systematic Arab
       philosopher and polymath of Baghdad's House of Wisdom under al-Ma'mun
@@ -328,6 +425,21 @@ events:
       known work on frequency analysis for codebreaking), and optics. His
       work was a major channel by which Greek philosophy was transmitted
       to the medieval Islamic and European worlds.
+    description_fr: |
+      Abū Yūsuf Yaʿqūb ibn Isḥāq al-Kindī, premier philosophe arabe
+      systématique et polymathe de la Maison de la Sagesse de Bagdad
+      sous al-Maʾmūn et al-Muʿtaṣim. Auteur de plus de 260 traités
+      sur la philosophie, les mathématiques, l'astronomie, la
+      musique, la cryptographie et la médecine, il fut le premier à
+      engager sérieusement Aristote en arabe et l'un des fondateurs
+      de l'analyse cryptographique fréquentielle.
+    description_ar: |
+      أبو يوسفَ يعقوبُ بنُ إسحاقَ الكنديُّ، أوَّلُ فلاسفة العرب
+      المنهجيِّين، وعالمٌ موسوعيٌّ في «بيت الحكمة» ببغدادَ في عهد
+      المأمون والمعتصم. صنَّف ما يَزيد على مئتين وستِّين رسالةً في
+      الفلسفة والرياضيات والفلك والموسيقى والتعمية والطبِّ. كان
+      أوَّل من خاض في أرسطو بالعربيَّة، ومن مؤسِّسي علم تحليل الشِّفرة
+      بالتكرار.
     canonical_hijri: {year: 256, precision: year}
     canonical_gregorian: {date: 873-01-01, precision: year, method: attested}
     claims:
@@ -340,6 +452,7 @@ events:
     category: scholar_death
     title_en: Death of al-Khwarizmi — Father of Algebra
     title_ar: وفاة الخوارزمي
+    title_fr: Décès d'al-Khwārizmī — père de l'algèbre
     description_en: |
       Abu Abdullah Muhammad ibn Musa al-Khwarizmi, astronomer, geographer,
       and mathematician at the House of Wisdom in Baghdad. His "Kitab
@@ -348,6 +461,20 @@ events:
       Islamic world, from where they passed through al-Andalus to Europe.
       Without his transmission of the positional decimal system and the
       algebraic method, modern mathematics as practised is inconceivable.
+    description_fr: |
+      Abū ʿAbdullāh Muḥammad ibn Mūsā al-Khwārizmī, astronome,
+      géographe et mathématicien à la Maison de la Sagesse de
+      Bagdad. Son « Kitāb al-Jabr wa-l-Muqābala » donna son nom à
+      l'algèbre, et son nom latinisé donna le mot « algorithme ». Il
+      introduisit les chiffres indo-arabes et le système décimal en
+      Europe à travers ses traités traduits aux XIᵉ-XIIᵉ siècles.
+    description_ar: |
+      أبو عبد الله محمَّدُ بنُ موسى الخوارزميُّ، فلكيٌّ وجغرافيٌّ
+      ورياضيٌّ في بيت الحكمة ببغدادَ. سُمِّيت الجبرُ من «كتابه الجبر
+      والمقابلة»، واشتُقَّ مصطلحُ «الخوارزميَّة» (algorithm) من اسمه
+      اللاتينيِّ. أدخل الأرقامَ الهنديَّة-العربيَّة والنظامَ العشريَّ
+      إلى أوروبَّا عبر ترجمات كتبه في القرنَين الحادي عشر والثاني
+      عشر الميلاديَّين.
     canonical_hijri: {year: 236, precision: year}
     canonical_gregorian: {date: 850-06-01, precision: year, method: attested}
     claims:
@@ -360,6 +487,7 @@ events:
     category: scholar_death
     title_en: Death of al-Farabi — The Second Teacher
     title_ar: وفاة الفارابي
+    title_fr: Décès d'al-Fārābī — le Second Maître
     description_en: |
       Abu Nasr Muhammad al-Farabi, philosopher, musical theorist, and
       political thinker, called "the Second Teacher" (after Aristotle) by
@@ -367,6 +495,20 @@ events:
       (The Virtuous City) is the foundational work of Islamic political
       philosophy, synthesising Platonic and Aristotelian ideas within an
       Islamic framework. He died in Damascus.
+    description_fr: |
+      Abū Naṣr Muḥammad al-Fārābī, philosophe, théoricien de la
+      musique et penseur politique, surnommé « le Second Maître »
+      (après Aristote) par les savants médiévaux ultérieurs. Son
+      « Kitāb Ārāʾ Ahl al-Madīna al-Fāḍila » (La Cité vertueuse) est
+      l'œuvre fondatrice de la philosophie politique islamique. Il
+      synthétisa Platon, Aristote et le néoplatonisme dans un cadre
+      monothéiste qui inspira Ibn Sīnā et Ibn Rushd.
+    description_ar: |
+      أبو نصرٍ محمَّدٌ الفارابيُّ، فيلسوفٌ ومنظِّر موسيقى ومفكِّر
+      سياسيٌّ، لُقِّب لاحقًا بالمعلِّم الثاني — بعد أرسطو. كتابه «آراء
+      أهل المدينة الفاضلة» هو أمُّ الفلسفة السياسيَّة الإسلاميَّة. جَمَع
+      بين أفلاطون وأرسطو والأفلاطونيَّة المحدَثة في إطارٍ توحيديٍّ، ألهم
+      ابنَ سينا وابنَ رُشدٍ.
     canonical_hijri: {year: 339, precision: year}
     canonical_gregorian: {date: 950-12-01, precision: year, method: attested}
     claims:

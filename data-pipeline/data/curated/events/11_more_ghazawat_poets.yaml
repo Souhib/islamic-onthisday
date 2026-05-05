@@ -126,9 +126,9 @@ events:
       ودخلت القبيلة كلها في الإسلام في إثر ذلك. وكان عودُ هذه
       الغزوة موضع حادثة الإفك التي رُميت فيها عائشة رضي الله عنها
       بعد تخلّفها عن الركب، فبرّأها الله بآيات سورة النور 24:11-20.
-      
+
       Classical sources divide between 5 AH (Ibn Isḥāq, the dominant sira tradition) and 6 AH (Ibn Saʿd); we follow Ibn Isḥāq with 5 AH per the standard sira chronology.
-      
+
       اختلفت كتب السيرة بين سنة ٥ هـ (وهي رواية ابن إسحاق وعليها أكثر السيرة) وسنة ٦ هـ (رواية ابن سعد)؛ ونتبع هنا ابن إسحاق بسنة ٥ هـ على ترتيب السيرة المعتمد.
     description_fr: |
       L'expédition qui s'acheva par la défaite rapide des Banū
@@ -186,9 +186,9 @@ events:
       التقليد المناسبة التي شُرعت فيها صلاة الخوف — صورة مقصورة
       من الصلاة تُؤدَّى تحت تهديد العدوّ بحيث تتناوب طوائف الجيش
       الصلاة وراء الإمام.
-      
+
       The chronology of this expedition is genuinely contested in the sira tradition: Ibn Isḥāq places it after Banū Naḍīr in 4 AH, al-Bukhārī's chronology places it after Khaybar (after 7 AH); we record the event without committing to a precise year, following the spread of attested positions.
-      
+
       تاريخ هذه الغزوة محل خلاف حقيقي في كتب السيرة: ضعها ابن إسحاق بعد بني النضير سنة ٤ هـ، ووضعها البخاري بعد خيبر (بعد سنة ٧ هـ)؛ وعليه نسجل الغزوة دون التزام بسنة محددة، مستوعبين تنوع الأقوال المعتبرة.
     description_fr: |
       Expédition défensive contre les tribus confédérées de Ghaṭafān qui
@@ -391,6 +391,7 @@ events:
     category: scholar_death
     title_en: Death of Abu Tammam — Anthologist of Arabic Verse
     title_ar: وفاة أبي تمام
+    title_fr: Décès d'Abū Tammām — anthologiste du vers arabe
     description_en: |
       Habib ibn Aws al-Ta'i, one of the most celebrated of the Abbasid
       poets and the compiler of "al-Hamasa" — the canonical anthology of
@@ -399,6 +400,20 @@ events:
       He served at the courts of al-Mu'tasim and al-Wathiq in Baghdad
       and Samarra before dying at Mosul, where he had been appointed
       postmaster in his final years.
+    description_fr: |
+      Ḥabīb ibn Aws al-Ṭāʾī, l'un des poètes abbassides les plus
+      célèbres et compilateur d'« al-Ḥamāsa » — l'anthologie
+      canonique de la poésie martiale arabe préislamique et
+      islamique précoce, juste après les Muʿallaqāt comme source de
+      phrasé et de lexique arabes classiques. Son propre dīwān, à la
+      rhétorique novatrice, fut salué par les uns et critiqué par les
+      autres pour ses figures osées. Il mourut à Mossoul.
+    description_ar: |
+      حبيب بن أَوسٍ الطائيُّ، من فحول شعراء العصر العبَّاسيِّ، وجامعُ
+      «الحماسة» — وهي ديوان الشِّعر العربيِّ الحماسيِّ الجاهليِّ
+      والإسلاميِّ المبكِّر، وثاني المعلَّقات في عيار اللغة الكلاسيكيَّة.
+      وقد نَالَ ديوانُه الخاصُّ — ببديع صَنعَتِه — مديحَ بعضٍ ونقدَ
+      بعضٍ على جُرأة بَديعه. مات بالموصل.
     canonical_hijri: {year: 231, precision: year}
     canonical_gregorian: {date: 845-01-01, precision: year, method: attested}
     claims:

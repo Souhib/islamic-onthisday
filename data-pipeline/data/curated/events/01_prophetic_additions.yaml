@@ -139,9 +139,9 @@ events:
       تمتدُّ الأقوال الكلاسيكية بين ربيع الأوَّل ورمضان وشوَّال ورجب،
       في سنواتٍ تتراوح بين ٥ و١ قبل الهجرة. لذلك نُثبتها بدقَّة سنة
       (نحو ٦٢١م) التزاماً بالضبط السنِّي.
-      
+
       Classical sira tradition records multiple competing dates: 27 Rajab is the most widely-received popular tradition (preserved across Maghrebi, Levantine and Indian observance); other sira reports give 17 Rabīʿ al-Awwal or 17 Ramaḍān before the Hijra. We follow 27 Rajab as the dominant classical practice without claiming definitive certainty.
-      
+
       تورد كتب السيرة عدة روايات متنافسة في التاريخ: السابع والعشرون من رجب هو الأشهر في التقليد الشعبي المعتمد في المغرب والشام والهند؛ وقالت روايات أخرى من السيرة بسابع عشر ربيع الأول أو سابع عشر رمضان قبل الهجرة. ونتبع هنا السابع والعشرين من رجب باعتباره العمل الشائع عند أهل السنة دون ادعاء قطع.
     description_fr: |
       Une nuit, le Prophète ﷺ fut emmené par Jibrīl de la Mosquée
@@ -340,6 +340,7 @@ events:
     category: battle
     title_en: Battle of Hunayn
     title_ar: غزوة حنين
+    title_fr: Bataille de Ḥunayn
     description_en: |
       Two weeks after the conquest of Makkah, the Prophet ﷺ led twelve
       thousand Muslims — the largest force yet assembled — against the
@@ -349,6 +350,22 @@ events:
       O servants of Allah! I am the Messenger of Allah, I am Muhammad ibn
       Abdullah," and turned the battle into a decisive victory. Surah
       al-Tawba 9:25-26 describes this reversal.
+    description_fr: |
+      Deux semaines après la conquête de La Mecque, le Prophète ﷺ
+      mena douze mille musulmans — la plus grande force jamais
+      rassemblée — contre les tribus des Hawāzin et de Thaqīf dans
+      la vallée de Ḥunayn. L'armée musulmane fut initialement
+      déroutée par une embuscade surprise. Le Prophète ﷺ rallia ses
+      troupes et la bataille bascula. La sourate al-Tawba 9:25-26 fait
+      référence à l'événement, soulignant que la confiance en sa
+      force seule mena à l'échec initial.
+    description_ar: |
+      بعد فتح مكَّة بأسبوعَين، خرج النبي ﷺ بنحو اثني عشرَ ألف مقاتلٍ —
+      وهو أكبرُ جيشٍ مسلمٍ يومئذٍ — لِقِتال هَوازنَ وثقيفٍ بوادي
+      حُنينٍ. فُوجئ الجيشُ بكمينٍ في أوَّل النهار فانهزم. فثبَّتَ
+      النبي ﷺ من بقي معه، فدارت المعركةُ. وأشارت الآيتان من سورة
+      التوبة (25-26) إلى الحادثة، مُبيِّنةً أنَّ التَّعويلَ على القوَّة
+      وحدها كان سببَ الانكسار الأوَّل.
     canonical_hijri: {year: 8, month: 10, day: 10, precision: day}
     canonical_gregorian: {date: 630-01-31, precision: day, method: attested}
     claims:
@@ -366,6 +383,7 @@ events:
     category: prophetic_era
     title_en: Expedition of Tabuk
     title_ar: غزوة تبوك
+    title_fr: Expédition de Tabūk
     description_en: |
       The last expedition led personally by the Prophet ﷺ. Responding to
       reports of Byzantine preparations for an attack on northern Arabia, he
@@ -377,6 +395,23 @@ events:
       and were boycotted until Allah accepted their repentance is recorded in
       Surah al-Tawba 9:118 and narrated at length by Ka'b himself in Sahih
       al-Bukhari.
+    description_fr: |
+      La dernière expédition menée personnellement par le Prophète ﷺ.
+      En réaction à des rapports sur des préparatifs byzantins
+      d'attaque contre l'Arabie septentrionale, il mena une armée
+      musulmane de trente mille hommes à travers le désert dans la
+      chaleur extrême de l'été jusqu'à Tabūk. Aucune bataille n'eut
+      lieu — l'armée byzantine ne se présenta pas. La sourate
+      al-Tawba traite extensivement de cette expédition, distinguant
+      ceux qui partirent de ceux qui demeurèrent (les hypocrites de
+      Médine).
+    description_ar: |
+      آخرُ غزوةٍ خرج فيها النبي ﷺ بنفسه. فتحرَّك إلى تبوكَ ردًّا على
+      ما بَلَغه من تَجَهُّز البيزنطيِّين لمهاجمة شمال الجزيرة العربيَّة،
+      بنحو ثلاثين ألف مقاتلٍ في حرٍّ شديدٍ في الصيف. ولم تَقَع
+      معركةٌ — فلم يخرج البيزنطيُّون. وتحدَّثت سورة التوبة طويلًا عن
+      هذه الغزوة، مُمَيِّزةً بين من خرج وبين من تخلَّف من المنافقين
+      بالمدينة.
     canonical_hijri: {year: 9, month: 7, precision: month}
     canonical_gregorian: {date: 630-10-15, precision: month, method: attested}
     claims:
