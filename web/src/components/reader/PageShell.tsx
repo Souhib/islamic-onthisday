@@ -1,8 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 import { useTranslation } from "react-i18next";
-import { useAuth } from "@/auth/AuthProvider";
 import { EightPointStar } from "@/components/design";
+import { AccountLink } from "@/components/reader/AccountLink";
 import { Footer } from "@/components/reader/Footer";
 import { LanguageSwitcher } from "@/components/reader/LanguageSwitcher";
 import { useTheme } from "@/providers/ThemeProvider";
@@ -16,13 +16,7 @@ interface Props {
 export function PageShell({ title, subtitle, children }: Props) {
   const { t } = useTranslation();
   const { theme, toggle } = useTheme();
-  const { isAuthenticated, isInitialised } = useAuth();
   const dark = theme === "dark";
-  const accountLink = isInitialised
-    ? isAuthenticated
-      ? { to: "/saves" as const, label: t("auth.saves") }
-      : { to: "/sign-in" as const, label: t("auth.sign_in") }
-    : null;
 
   useEffect(() => {
     document.title = `${title} · Islamic On This Day`;
@@ -57,18 +51,14 @@ export function PageShell({ title, subtitle, children }: Props) {
             · {title} ·
           </span>
 
-          <nav className="flex justify-center gap-5 font-mono text-[11.5px] uppercase tracking-[1.6px] text-ink-soft">
+          <nav className="flex flex-wrap justify-center gap-x-5 gap-y-1.5 font-mono text-[11.5px] uppercase tracking-[1.6px] text-ink-soft">
             <Link to="/recent" className="iotd-link">
               {t("recent")}
             </Link>
             <Link to="/observances" className="iotd-link">
               {t("observances")}
             </Link>
-            {accountLink && (
-              <Link to={accountLink.to} className="iotd-link">
-                {accountLink.label}
-              </Link>
-            )}
+            <AccountLink />
           </nav>
         </div>
 
@@ -90,11 +80,7 @@ export function PageShell({ title, subtitle, children }: Props) {
             <Link to="/observances" className="iotd-link">
               {t("observances")}
             </Link>
-            {accountLink && (
-              <Link to={accountLink.to} className="iotd-link">
-                {accountLink.label}
-              </Link>
-            )}
+            <AccountLink />
             <LanguageSwitcher />
             <button
               type="button"

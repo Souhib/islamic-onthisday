@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { EightPointStar } from "@/components/design";
+import { AccountLink } from "@/components/reader/AccountLink";
 import { LanguageSwitcher } from "@/components/reader/LanguageSwitcher";
 import { useTheme } from "@/providers/ThemeProvider";
 import type { TodayResponse } from "@/api/generated/types.gen";
@@ -43,7 +44,7 @@ export function Masthead({ today }: Props) {
           {dateLine}
         </span>
 
-        <nav className="flex justify-center gap-5 font-mono text-[11.5px] uppercase tracking-[1.6px] text-ink-soft">
+        <nav className="flex flex-wrap justify-center gap-x-5 gap-y-1.5 font-mono text-[11.5px] uppercase tracking-[1.6px] text-ink-soft">
           <span className="text-ink">{t("today")}</span>
           <Link to="/recent" className="iotd-link">
             {t("recent")}
@@ -51,6 +52,7 @@ export function Masthead({ today }: Props) {
           <Link to="/observances" className="iotd-link">
             {t("observances")}
           </Link>
+          <AccountLink />
         </nav>
       </div>
 
@@ -73,6 +75,7 @@ export function Masthead({ today }: Props) {
           <Link to="/observances" className="iotd-link">
             {t("observances")}
           </Link>
+          <AccountLink />
           <LanguageSwitcher />
           <button
             type="button"

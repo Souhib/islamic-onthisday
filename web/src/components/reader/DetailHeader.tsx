@@ -6,6 +6,7 @@
 import { Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { EightPointStar } from "@/components/design";
+import { AccountLink } from "@/components/reader/AccountLink";
 import { useTheme } from "@/providers/ThemeProvider";
 
 interface Props {
@@ -29,7 +30,8 @@ export function DetailHeader({ eyebrow }: Props) {
       <span className="text-center font-mono text-[12px] uppercase tracking-[2.6px] text-accent">
         {eyebrow}
       </span>
-      <div className="justify-self-end">
+      <div className="flex items-center gap-4 justify-self-end font-mono text-[11.5px] uppercase tracking-[1.6px] text-ink-soft">
+        <AccountLink />
         <button
           type="button"
           onClick={toggle}
