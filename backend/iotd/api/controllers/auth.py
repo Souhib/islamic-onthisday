@@ -7,6 +7,7 @@ from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError
 from sqlmodel.ext.asyncio.session import AsyncSession
 
+from iotd.api.controllers.email_verification import EmailVerificationController
 from iotd.api.errors import EmailAlreadyRegisteredError, InvalidCredentialsError, InvalidTokenError
 from iotd.api.schemas.auth import LoginRequest, SignupRequest, TokenPair, UserPublic
 from iotd.api.services.auth import (
@@ -29,12 +30,13 @@ class AuthController:
         self.settings = settings
 
     async def signup(self, body: SignupRequest) -> TokenPair:
-        """Create a new account and immediately issue tokens."""
+        """Create a new account, kick off the verification email, and issue tokens."""
         normalised = body.email.strip().lower()
         user = User(
             email=normalised,
             password_hash=hash_password(body.password),
             display_name=body.display_name,
+            email_verified=False,
         )
         self.session.add(user)
         try:
@@ -43,6 +45,13 @@ class AuthController:
             await self.session.rollback()
             raise EmailAlreadyRegisteredError(normalised) from e
         await self.session.refresh(user)
+        # Soft verification: the user is logged in immediately, the email
+        # is best-effort. A failure here (Resend down, network blip)
+        # surfaces as a 5xx — preferable to a silently-broken signup, and
+        # the controller already commits the user before this call so the
+        # account isn't lost.
+        verifier = EmailVerificationController(self.session, self.settings)
+        await verifier.send_for_user(user)
         return self._issue_pair(user)
 
     async def login(self, body: LoginRequest) -> TokenPair:

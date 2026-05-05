@@ -56,12 +56,25 @@ class PasswordResetConfirm(RequestModel):
     new_password: str = Field(min_length=8, max_length=128)
 
 
+class EmailVerifyConfirm(RequestModel):
+    """Inputs for ``POST /api/v1/auth/email/verify``."""
+
+    token: str = Field(min_length=8, max_length=128)
+
+
+class EmailVerifyResend(RequestModel):
+    """Inputs for ``POST /api/v1/auth/email/resend``."""
+
+    email: EmailStr
+
+
 class UserPublic(ResponseModel):
     """Public account view — never includes the password hash."""
 
     id: UUID
     email: EmailStr
     display_name: str | None
+    email_verified: bool
     created_at: datetime
 
 

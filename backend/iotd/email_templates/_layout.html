@@ -1,0 +1,47 @@
+{# Standard chrome for every transactional email — a centred paper-coloured
+   panel with a thin top frame, an accent eyebrow, a serif headline, the
+   ``content`` block, and a small footer signature. No images: emails carry
+   no visual brand asset, only typography. Inline styles only — Gmail /
+   Outlook / Apple Mail strip ``<style>`` blocks unpredictably. #}
+<!DOCTYPE html>
+<html lang="{{ lang | default('fr') }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ headline }}</title>
+</head>
+<body style="margin:0;padding:0;background:#f4ede0;color:#1b1a17;font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f4ede0;padding:40px 16px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:520px;background:#f4ede0;">
+          <tr>
+            <td style="padding:0 0 18px 0;border-top:1px solid #1b1a17;border-bottom:0.5px solid #cdc6b6;text-align:center;">
+              <div style="font-family:'SF Mono','Menlo','Consolas',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#7a5b3a;padding:14px 0;">
+                · {{ accent_label | default('Islamic On This Day') | upper }} ·
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:28px 4px 8px 4px;">
+              <h1 style="margin:0;font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;font-size:30px;line-height:1.1;font-weight:500;letter-spacing:-0.6px;color:#1b1a17;text-align:center;">
+                {{ headline }}
+              </h1>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 4px 28px 4px;color:#3b3933;font-size:16px;line-height:1.55;">
+              {% block content %}{% endblock %}
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px 0 0 0;border-top:0.5px solid #cdc6b6;font-family:'SF Mono','Menlo','Consolas',monospace;font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:#8a857a;text-align:center;">
+              Islam Aujourd'hui dans l'Histoire · news.majlisna.app
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

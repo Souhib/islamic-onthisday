@@ -1,0 +1,20 @@
+{% extends "_layout.html" %}
+{% block content %}
+<p style="margin:0 0 14px 0;">{{ greeting }}</p>
+<p style="margin:0 0 14px 0;">
+  Bienvenue sur <em>Islamic On This Day</em> — un événement vérifié de
+  l'histoire islamique, chaque jour, en calendrier hégirien et grégorien.
+</p>
+<p style="margin:0 0 14px 0;">
+  Pour confirmer que cette adresse vous appartient, cliquez sur le bouton
+  ci-dessous :
+</p>
+<p style="margin:0;text-align:center;">
+  {% include "_button.html" with context %}
+</p>
+<p style="margin:18px 0 0 0;font-size:14px;color:#6e6a5e;font-style:italic;">
+  Le lien est valable 48 heures. Vous pouvez utiliser le site dès
+  maintenant — confirmer votre adresse débloquera de futures fonctionnalités
+  (rappels, lettre quotidienne).
+</p>
+{% endblock %}

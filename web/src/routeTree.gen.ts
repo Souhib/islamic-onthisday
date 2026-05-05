@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as VerifyEmailRouteImport } from './routes/verify-email'
 import { Route as SignUpRouteImport } from './routes/sign-up'
 import { Route as SignInRouteImport } from './routes/sign-in'
 import { Route as SavesRouteImport } from './routes/saves'
@@ -22,6 +23,11 @@ import { Route as ObservancesSlugRouteImport } from './routes/observances.$slug'
 import { Route as LessonsSlugRouteImport } from './routes/lessons.$slug'
 import { Route as EventsSlugRouteImport } from './routes/events.$slug'
 
+const VerifyEmailRoute = VerifyEmailRouteImport.update({
+  id: '/verify-email',
+  path: '/verify-email',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SignUpRoute = SignUpRouteImport.update({
   id: '/sign-up',
   path: '/sign-up',
@@ -91,6 +97,7 @@ export interface FileRoutesByFullPath {
   '/saves': typeof SavesRoute
   '/sign-in': typeof SignInRoute
   '/sign-up': typeof SignUpRoute
+  '/verify-email': typeof VerifyEmailRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -105,6 +112,7 @@ export interface FileRoutesByTo {
   '/saves': typeof SavesRoute
   '/sign-in': typeof SignInRoute
   '/sign-up': typeof SignUpRoute
+  '/verify-email': typeof VerifyEmailRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -120,6 +128,7 @@ export interface FileRoutesById {
   '/saves': typeof SavesRoute
   '/sign-in': typeof SignInRoute
   '/sign-up': typeof SignUpRoute
+  '/verify-email': typeof VerifyEmailRoute
   '/events/$slug': typeof EventsSlugRoute
   '/lessons/$slug': typeof LessonsSlugRoute
   '/observances/$slug': typeof ObservancesSlugRoute
@@ -136,6 +145,7 @@ export interface FileRouteTypes {
     | '/saves'
     | '/sign-in'
     | '/sign-up'
+    | '/verify-email'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -150,6 +160,7 @@ export interface FileRouteTypes {
     | '/saves'
     | '/sign-in'
     | '/sign-up'
+    | '/verify-email'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -164,6 +175,7 @@ export interface FileRouteTypes {
     | '/saves'
     | '/sign-in'
     | '/sign-up'
+    | '/verify-email'
     | '/events/$slug'
     | '/lessons/$slug'
     | '/observances/$slug'
@@ -179,6 +191,7 @@ export interface RootRouteChildren {
   SavesRoute: typeof SavesRoute
   SignInRoute: typeof SignInRoute
   SignUpRoute: typeof SignUpRoute
+  VerifyEmailRoute: typeof VerifyEmailRoute
   EventsSlugRoute: typeof EventsSlugRoute
   LessonsSlugRoute: typeof LessonsSlugRoute
   ObservancesSlugRoute: typeof ObservancesSlugRoute
@@ -188,6 +201,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/verify-email': {
+      id: '/verify-email'
+      path: '/verify-email'
+      fullPath: '/verify-email'
+      preLoaderRoute: typeof VerifyEmailRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sign-up': {
       id: '/sign-up'
       path: '/sign-up'
@@ -283,6 +303,7 @@ const rootRouteChildren: RootRouteChildren = {
   SavesRoute: SavesRoute,
   SignInRoute: SignInRoute,
   SignUpRoute: SignUpRoute,
+  VerifyEmailRoute: VerifyEmailRoute,
   EventsSlugRoute: EventsSlugRoute,
   LessonsSlugRoute: LessonsSlugRoute,
   ObservancesSlugRoute: ObservancesSlugRoute,

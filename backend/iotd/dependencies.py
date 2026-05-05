@@ -11,6 +11,7 @@ from sqlmodel.ext.asyncio.session import AsyncSession
 
 from iotd.api.controllers.auth import AuthController
 from iotd.api.controllers.bookmarks import BookmarksController
+from iotd.api.controllers.email_verification import EmailVerificationController
 from iotd.api.controllers.events import EventsController
 from iotd.api.controllers.health import HealthController
 from iotd.api.controllers.lessons import LessonsController
@@ -104,6 +105,14 @@ async def get_password_reset_controller(
 ) -> PasswordResetController:
     """Return a ``PasswordResetController`` wired to the request session + settings."""
     return PasswordResetController(session, settings)
+
+
+async def get_email_verification_controller(
+    session: Annotated[AsyncSession, Depends(get_session)],
+    settings: Annotated[Settings, Depends(get_active_settings)],
+) -> EmailVerificationController:
+    """Return an ``EmailVerificationController`` wired to the request session + settings."""
+    return EmailVerificationController(session, settings)
 
 
 async def get_current_user(

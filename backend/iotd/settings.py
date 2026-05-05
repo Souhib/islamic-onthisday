@@ -99,6 +99,10 @@ class Settings(BaseSettings):
     # one rather than chain old links. 30 minutes mirrors the access token
     # window we already use elsewhere.
     password_reset_token_minutes: int = 30
+    # Email verification is less time-sensitive (the user often clicks
+    # later, from a different device) — 48 hours gives them room without
+    # making the link forever-valid.
+    email_verification_token_hours: int = 48
 
     @field_validator("cors_origins", mode="after")
     @classmethod

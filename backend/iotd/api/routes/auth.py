@@ -1,4 +1,4 @@
-"""Auth routes — signup, login, refresh, /me, password reset."""
+"""Auth routes — signup, login, refresh, /me, password reset, email verification."""
 
 from typing import Annotated
 
@@ -7,8 +7,11 @@ from fastapi.responses import Response
 
 from iotd.api.cache import NO_STORE
 from iotd.api.controllers.auth import AuthController
+from iotd.api.controllers.email_verification import EmailVerificationController
 from iotd.api.controllers.password_reset import PasswordResetController
 from iotd.api.schemas.auth import (
+    EmailVerifyConfirm,
+    EmailVerifyResend,
     LoginRequest,
     PasswordResetConfirm,
     PasswordResetRequest,
@@ -17,7 +20,12 @@ from iotd.api.schemas.auth import (
     TokenPair,
     UserPublic,
 )
-from iotd.dependencies import get_auth_controller, get_current_user, get_password_reset_controller
+from iotd.dependencies import (
+    get_auth_controller,
+    get_current_user,
+    get_email_verification_controller,
+    get_password_reset_controller,
+)
 from iotd.models.user import User
 
 router = APIRouter(prefix="/auth", tags=["auth"])
@@ -104,4 +112,33 @@ async def confirm_password_reset(
     controller: Annotated[PasswordResetController, Depends(get_password_reset_controller)],
 ) -> Response:
     await controller.confirm_reset(body)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+@router.post(
+    "/email/verify",
+    status_code=status.HTTP_204_NO_CONTENT,
+    summary="Consume an email-verification token and mark the user verified",
+    dependencies=[NO_STORE],
+)
+async def verify_email(
+    body: EmailVerifyConfirm,
+    controller: Annotated[EmailVerificationController, Depends(get_email_verification_controller)],
+) -> Response:
+    await controller.confirm(body.token)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+@router.post(
+    "/email/resend",
+    status_code=status.HTTP_204_NO_CONTENT,
+    summary="Re-send the verification email if the address is registered",
+    dependencies=[NO_STORE],
+)
+async def resend_verification_email(
+    body: EmailVerifyResend,
+    controller: Annotated[EmailVerificationController, Depends(get_email_verification_controller)],
+) -> Response:
+    await controller.resend(body)
+    # Always 204 — never reveal whether the email is registered.
     return Response(status_code=status.HTTP_204_NO_CONTENT)

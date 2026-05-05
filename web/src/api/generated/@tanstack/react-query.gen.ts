@@ -3,8 +3,8 @@
 import { type DefaultError, type InfiniteData, infiniteQueryOptions, queryOptions, type UseMutationOptions } from '@tanstack/react-query';
 
 import { client } from '../client.gen';
-import { confirmPasswordResetApiV1AuthPasswordResetConfirmPost, createBookmarkApiV1BookmarksPost, deleteBookmarkApiV1BookmarksBookmarkIdDelete, getEventApiV1EventsSlugGet, getLessonApiV1LessonsSlugGet, getObservanceApiV1ObservancesSlugGet, getPersonApiV1PeopleSlugGet, getRecentApiV1RecentGet, getTodayApiV1TodayGet, healthHealthGet, listBookmarksApiV1BookmarksGet, listLessonsApiV1LessonsGet, listObservancesApiV1ObservancesGet, loginApiV1AuthLoginPost, meApiV1AuthMeGet, type Options, refreshApiV1AuthRefreshPost, requestPasswordResetApiV1AuthPasswordResetRequestPost, signupApiV1AuthSignupPost } from '../sdk.gen';
-import type { ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostData, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostError, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponse, CreateBookmarkApiV1BookmarksPostData, CreateBookmarkApiV1BookmarksPostError, CreateBookmarkApiV1BookmarksPostResponse, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteData, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteError, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteResponse, GetEventApiV1EventsSlugGetData, GetEventApiV1EventsSlugGetError, GetEventApiV1EventsSlugGetResponse, GetLessonApiV1LessonsSlugGetData, GetLessonApiV1LessonsSlugGetError, GetLessonApiV1LessonsSlugGetResponse, GetObservanceApiV1ObservancesSlugGetData, GetObservanceApiV1ObservancesSlugGetError, GetObservanceApiV1ObservancesSlugGetResponse, GetPersonApiV1PeopleSlugGetData, GetPersonApiV1PeopleSlugGetError, GetPersonApiV1PeopleSlugGetResponse, GetRecentApiV1RecentGetData, GetRecentApiV1RecentGetResponse, GetTodayApiV1TodayGetData, GetTodayApiV1TodayGetResponse, HealthHealthGetData, HealthHealthGetResponse, ListBookmarksApiV1BookmarksGetData, ListBookmarksApiV1BookmarksGetError, ListBookmarksApiV1BookmarksGetResponse, ListLessonsApiV1LessonsGetData, ListLessonsApiV1LessonsGetError, ListLessonsApiV1LessonsGetResponse, ListObservancesApiV1ObservancesGetData, ListObservancesApiV1ObservancesGetResponse, LoginApiV1AuthLoginPostData, LoginApiV1AuthLoginPostError, LoginApiV1AuthLoginPostResponse, MeApiV1AuthMeGetData, MeApiV1AuthMeGetError, MeApiV1AuthMeGetResponse, RefreshApiV1AuthRefreshPostData, RefreshApiV1AuthRefreshPostError, RefreshApiV1AuthRefreshPostResponse, RequestPasswordResetApiV1AuthPasswordResetRequestPostData, RequestPasswordResetApiV1AuthPasswordResetRequestPostError, RequestPasswordResetApiV1AuthPasswordResetRequestPostResponse, SignupApiV1AuthSignupPostData, SignupApiV1AuthSignupPostError, SignupApiV1AuthSignupPostResponse } from '../types.gen';
+import { confirmPasswordResetApiV1AuthPasswordResetConfirmPost, createBookmarkApiV1BookmarksPost, deleteBookmarkApiV1BookmarksBookmarkIdDelete, getEventApiV1EventsSlugGet, getLessonApiV1LessonsSlugGet, getObservanceApiV1ObservancesSlugGet, getPersonApiV1PeopleSlugGet, getRecentApiV1RecentGet, getTodayApiV1TodayGet, healthHealthGet, listBookmarksApiV1BookmarksGet, listLessonsApiV1LessonsGet, listObservancesApiV1ObservancesGet, loginApiV1AuthLoginPost, meApiV1AuthMeGet, type Options, refreshApiV1AuthRefreshPost, requestPasswordResetApiV1AuthPasswordResetRequestPost, resendVerificationEmailApiV1AuthEmailResendPost, signupApiV1AuthSignupPost, verifyEmailApiV1AuthEmailVerifyPost } from '../sdk.gen';
+import type { ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostData, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostError, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponse, CreateBookmarkApiV1BookmarksPostData, CreateBookmarkApiV1BookmarksPostError, CreateBookmarkApiV1BookmarksPostResponse, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteData, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteError, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteResponse, GetEventApiV1EventsSlugGetData, GetEventApiV1EventsSlugGetError, GetEventApiV1EventsSlugGetResponse, GetLessonApiV1LessonsSlugGetData, GetLessonApiV1LessonsSlugGetError, GetLessonApiV1LessonsSlugGetResponse, GetObservanceApiV1ObservancesSlugGetData, GetObservanceApiV1ObservancesSlugGetError, GetObservanceApiV1ObservancesSlugGetResponse, GetPersonApiV1PeopleSlugGetData, GetPersonApiV1PeopleSlugGetError, GetPersonApiV1PeopleSlugGetResponse, GetRecentApiV1RecentGetData, GetRecentApiV1RecentGetResponse, GetTodayApiV1TodayGetData, GetTodayApiV1TodayGetResponse, HealthHealthGetData, HealthHealthGetResponse, ListBookmarksApiV1BookmarksGetData, ListBookmarksApiV1BookmarksGetError, ListBookmarksApiV1BookmarksGetResponse, ListLessonsApiV1LessonsGetData, ListLessonsApiV1LessonsGetError, ListLessonsApiV1LessonsGetResponse, ListObservancesApiV1ObservancesGetData, ListObservancesApiV1ObservancesGetResponse, LoginApiV1AuthLoginPostData, LoginApiV1AuthLoginPostError, LoginApiV1AuthLoginPostResponse, MeApiV1AuthMeGetData, MeApiV1AuthMeGetError, MeApiV1AuthMeGetResponse, RefreshApiV1AuthRefreshPostData, RefreshApiV1AuthRefreshPostError, RefreshApiV1AuthRefreshPostResponse, RequestPasswordResetApiV1AuthPasswordResetRequestPostData, RequestPasswordResetApiV1AuthPasswordResetRequestPostError, RequestPasswordResetApiV1AuthPasswordResetRequestPostResponse, ResendVerificationEmailApiV1AuthEmailResendPostData, ResendVerificationEmailApiV1AuthEmailResendPostError, ResendVerificationEmailApiV1AuthEmailResendPostResponse, SignupApiV1AuthSignupPostData, SignupApiV1AuthSignupPostError, SignupApiV1AuthSignupPostResponse, VerifyEmailApiV1AuthEmailVerifyPostData, VerifyEmailApiV1AuthEmailVerifyPostError, VerifyEmailApiV1AuthEmailVerifyPostResponse } from '../types.gen';
 
 export type QueryKey<TOptions extends Options> = [
     Pick<TOptions, 'baseUrl' | 'body' | 'headers' | 'path' | 'query'> & {
@@ -374,6 +374,40 @@ export const confirmPasswordResetApiV1AuthPasswordResetConfirmPostMutation = (op
     const mutationOptions: UseMutationOptions<ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponse, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostError, Options<ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostData>> = {
         mutationFn: async (fnOptions) => {
             const { data } = await confirmPasswordResetApiV1AuthPasswordResetConfirmPost({
+                ...options,
+                ...fnOptions,
+                throwOnError: true
+            });
+            return data;
+        }
+    };
+    return mutationOptions;
+};
+
+/**
+ * Consume an email-verification token and mark the user verified
+ */
+export const verifyEmailApiV1AuthEmailVerifyPostMutation = (options?: Partial<Options<VerifyEmailApiV1AuthEmailVerifyPostData>>): UseMutationOptions<VerifyEmailApiV1AuthEmailVerifyPostResponse, VerifyEmailApiV1AuthEmailVerifyPostError, Options<VerifyEmailApiV1AuthEmailVerifyPostData>> => {
+    const mutationOptions: UseMutationOptions<VerifyEmailApiV1AuthEmailVerifyPostResponse, VerifyEmailApiV1AuthEmailVerifyPostError, Options<VerifyEmailApiV1AuthEmailVerifyPostData>> = {
+        mutationFn: async (fnOptions) => {
+            const { data } = await verifyEmailApiV1AuthEmailVerifyPost({
+                ...options,
+                ...fnOptions,
+                throwOnError: true
+            });
+            return data;
+        }
+    };
+    return mutationOptions;
+};
+
+/**
+ * Re-send the verification email if the address is registered
+ */
+export const resendVerificationEmailApiV1AuthEmailResendPostMutation = (options?: Partial<Options<ResendVerificationEmailApiV1AuthEmailResendPostData>>): UseMutationOptions<ResendVerificationEmailApiV1AuthEmailResendPostResponse, ResendVerificationEmailApiV1AuthEmailResendPostError, Options<ResendVerificationEmailApiV1AuthEmailResendPostData>> => {
+    const mutationOptions: UseMutationOptions<ResendVerificationEmailApiV1AuthEmailResendPostResponse, ResendVerificationEmailApiV1AuthEmailResendPostError, Options<ResendVerificationEmailApiV1AuthEmailResendPostData>> = {
+        mutationFn: async (fnOptions) => {
+            const { data } = await resendVerificationEmailApiV1AuthEmailResendPost({
                 ...options,
                 ...fnOptions,
                 throwOnError: true

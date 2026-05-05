@@ -7,6 +7,7 @@ changes — the rest of this module is unchanged.
 
 from collections.abc import AsyncGenerator
 
+from sqlalchemy import inspect, text
 from sqlalchemy.ext.asyncio import AsyncEngine, async_sessionmaker, create_async_engine
 from sqlalchemy.pool import AsyncAdaptedQueuePool
 from sqlmodel import SQLModel
@@ -47,23 +48,53 @@ def _build_engine(settings: Settings) -> AsyncEngine:
     )
 
 
-_BACKEND_TABLES: tuple[str, ...] = ("users", "bookmarks", "password_reset_tokens")
+_BACKEND_TABLES: tuple[str, ...] = (
+    "users",
+    "bookmarks",
+    "password_reset_tokens",
+    "email_verification_tokens",
+)
+
+
+# Light-weight column adds run at boot when ``create_all`` can't extend an
+# existing table. Each entry is ``(table, column, ddl)``; ddl is the
+# portable ``ADD COLUMN`` clause. We grandfather existing rows where it
+# makes sense — see comments per row. Once Alembic lands in prod this
+# should move into a proper migration history.
+_BACKEND_COLUMN_ADDS: tuple[tuple[str, str, str], ...] = (
+    # Existing accounts (created before email-verify shipped) are treated
+    # as already-verified — they signed up under the old contract, no
+    # reason to flag them now. Newly-inserted rows override at insert time.
+    ("users", "email_verified", "BOOLEAN NOT NULL DEFAULT 1"),
+    ("users", "email_verified_at", "TIMESTAMP NULL"),
+)
 
 
 async def _create_backend_tables(engine: AsyncEngine) -> None:
-    """Create the backend-owned tables (``users``, ``bookmarks``) if missing.
+    """Create + lightly migrate the backend-owned tables.
 
     The pipeline owns content-table DDL and rebuilds it from YAML on every
     run; backend tables are never touched by the pipeline (they're
     excluded from ``CONTENT_TABLE_NAMES``). Until Alembic lands in prod,
     we create them idempotently on each app boot — ``create_all`` is a
-    no-op when the table already exists.
+    no-op when the table already exists — and run a tiny set of
+    ``ADD COLUMN`` clauses for columns that were added after the table
+    first shipped.
     """
     backend_tables = [SQLModel.metadata.tables[name] for name in _BACKEND_TABLES if name in SQLModel.metadata.tables]
     if not backend_tables:
         return
     async with engine.begin() as conn:
         await conn.run_sync(SQLModel.metadata.create_all, tables=backend_tables)
+
+        def _existing_columns(sync_conn) -> dict[str, set[str]]:
+            insp = inspect(sync_conn)
+            return {tbl: {col["name"] for col in insp.get_columns(tbl)} for tbl in _BACKEND_TABLES}
+
+        existing = await conn.run_sync(_existing_columns)
+        for table, column, ddl in _BACKEND_COLUMN_ADDS:
+            if column not in existing.get(table, set()):
+                await conn.execute(text(f"ALTER TABLE {table} ADD COLUMN {column} {ddl}"))
 
 
 async def init_engine(settings: Settings) -> AsyncEngine:

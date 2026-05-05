@@ -1,0 +1,9 @@
+{{ greeting }}
+
+Bienvenue sur Islamic On This Day.
+
+Pour confirmer que cette adresse vous appartient, ouvrez ce lien dans votre navigateur :
+
+{{ href }}
+
+Le lien est valable 48 heures. Vous pouvez utiliser le site dès maintenant — confirmer votre adresse débloquera de futures fonctionnalités (rappels, lettre quotidienne).

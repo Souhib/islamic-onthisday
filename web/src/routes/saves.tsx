@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useBookmarksQuery, useDeleteBookmarkMutation } from "@/api/bookmarks";
 import type { BookmarkOut } from "@/api/generated/types.gen";
 import { useAuth } from "@/auth/AuthProvider";
+import { VerifyBanner } from "@/components/auth/VerifyBanner";
 import { EightPointStar, Eyebrow, FriezeRule } from "@/components/design";
 import { PageShell } from "@/components/reader/PageShell";
 import { Loading } from "@/components/ui/Loading";
@@ -85,6 +86,8 @@ function SavesPage() {
         </div>
 
         <FriezeRule rosetteOnly marginTop={28} marginBottom={24} />
+
+        {user && !user.emailVerified && <VerifyBanner email={user.email} />}
 
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3 border-b border-rule-soft pb-3">
           {user && (

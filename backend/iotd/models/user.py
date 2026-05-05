@@ -42,6 +42,14 @@ class User(SQLModel, table=True):
     password_hash: str = Field(max_length=255)
     display_name: str | None = Field(default=None, max_length=64)
     is_active: bool = Field(default=True)
+    # Email verification is soft: a fresh signup is still allowed to use
+    # the app, the flag drives a "please verify" banner and unlocks any
+    # future feature that wants to gate on confirmed ownership.
+    email_verified: bool = Field(default=False)
+    email_verified_at: datetime | None = Field(
+        default=None,
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
     created_at: datetime = Field(
         default_factory=lambda: datetime.now(UTC),
         sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
@@ -78,6 +86,31 @@ class Bookmark(SQLModel, table=True):
     )
 
     user: User = Relationship(back_populates="bookmarks")
+
+
+class EmailVerificationToken(SQLModel, table=True):
+    """One-time token issued to confirm an email address belongs to its claimed user.
+
+    Same shape as ``PasswordResetToken``: the token is the primary key, an
+    ``expires_at`` lets us age them out by date later, and a ``used_at``
+    timestamp prevents reuse before expiry.
+    """
+
+    __tablename__ = "email_verification_tokens"
+
+    token: str = Field(max_length=64, primary_key=True)
+    user_id: UUID = Field(foreign_key="users.id", index=True)
+    expires_at: datetime = Field(
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
+    used_at: datetime | None = Field(
+        default=None,
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
+    created_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
 
 
 class PasswordResetToken(SQLModel, table=True):

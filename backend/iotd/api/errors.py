@@ -262,3 +262,14 @@ class InvalidPasswordResetTokenError(BaseError):
             frontend_message="That reset link is no longer valid. Please request a new one.",
             status_code=status.HTTP_400_BAD_REQUEST,
         )
+
+
+class InvalidEmailVerificationTokenError(BaseError):
+    """Raised when the email verification token is unknown, expired, or already used."""
+
+    def __init__(self, reason: str = "invalid or expired verification token"):
+        super().__init__(
+            message=reason,
+            frontend_message="That verification link is no longer valid. Please request a new one.",
+            status_code=status.HTTP_400_BAD_REQUEST,
+        )

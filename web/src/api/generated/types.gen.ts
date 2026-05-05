@@ -144,6 +144,30 @@ export type DisputedPosition = {
 };
 
 /**
+ * EmailVerifyConfirm
+ *
+ * Inputs for ``POST /api/v1/auth/email/verify``.
+ */
+export type EmailVerifyConfirm = {
+    /**
+     * Token
+     */
+    token: string;
+};
+
+/**
+ * EmailVerifyResend
+ *
+ * Inputs for ``POST /api/v1/auth/email/resend``.
+ */
+export type EmailVerifyResend = {
+    /**
+     * Email
+     */
+    email: string;
+};
+
+/**
  * EventDetail
  *
  * Full event projection used by the headline + event-detail surfaces.
@@ -941,6 +965,10 @@ export type UserPublic = {
      */
     displayName: string | null;
     /**
+     * Emailverified
+     */
+    emailVerified: boolean;
+    /**
      * Createdat
      */
     createdAt: string;
@@ -1355,6 +1383,56 @@ export type ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponses = {
 };
 
 export type ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponse = ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponses[keyof ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponses];
+
+export type VerifyEmailApiV1AuthEmailVerifyPostData = {
+    body: EmailVerifyConfirm;
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/email/verify';
+};
+
+export type VerifyEmailApiV1AuthEmailVerifyPostErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type VerifyEmailApiV1AuthEmailVerifyPostError = VerifyEmailApiV1AuthEmailVerifyPostErrors[keyof VerifyEmailApiV1AuthEmailVerifyPostErrors];
+
+export type VerifyEmailApiV1AuthEmailVerifyPostResponses = {
+    /**
+     * Successful Response
+     */
+    204: void;
+};
+
+export type VerifyEmailApiV1AuthEmailVerifyPostResponse = VerifyEmailApiV1AuthEmailVerifyPostResponses[keyof VerifyEmailApiV1AuthEmailVerifyPostResponses];
+
+export type ResendVerificationEmailApiV1AuthEmailResendPostData = {
+    body: EmailVerifyResend;
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/email/resend';
+};
+
+export type ResendVerificationEmailApiV1AuthEmailResendPostErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type ResendVerificationEmailApiV1AuthEmailResendPostError = ResendVerificationEmailApiV1AuthEmailResendPostErrors[keyof ResendVerificationEmailApiV1AuthEmailResendPostErrors];
+
+export type ResendVerificationEmailApiV1AuthEmailResendPostResponses = {
+    /**
+     * Successful Response
+     */
+    204: void;
+};
+
+export type ResendVerificationEmailApiV1AuthEmailResendPostResponse = ResendVerificationEmailApiV1AuthEmailResendPostResponses[keyof ResendVerificationEmailApiV1AuthEmailResendPostResponses];
 
 export type ListBookmarksApiV1BookmarksGetData = {
     body?: never;
