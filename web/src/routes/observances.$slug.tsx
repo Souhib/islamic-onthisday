@@ -9,6 +9,7 @@ import { Empty } from "@/components/ui/Empty";
 import { Loading } from "@/components/ui/Loading";
 import { HIJRI_MONTHS_LONG } from "@/i18n/months";
 import { trackObservanceView } from "@/lib/analytics";
+import { parseHadithRef, parseQuranRef, splitRefs } from "@/lib/refs";
 import { cn } from "@/lib/utils";
 import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 
@@ -83,26 +84,54 @@ function ObservancePage() {
           {(query.data.quranRefs || query.data.hadithRefs) && (
             <>
               <FriezeRule label={t("references")} marginTop={32} marginBottom={16} />
-              {query.data.quranRefs && (
-                <div className="border-b border-rule-soft py-2.5">
-                  <div className="font-mono text-[11px] uppercase tracking-[1.2px] text-ink-mute">
-                    Qur'ān
+              {splitRefs(query.data.quranRefs).map((raw, i) => {
+                const parsed = parseQuranRef(raw);
+                const display = parsed?.display ?? raw;
+                const url = parsed?.url ?? null;
+                const inner = (
+                  <>
+                    <div className="font-mono text-[11px] uppercase tracking-[1.2px] text-ink-mute">
+                      {t("quran_label")}
+                    </div>
+                    <div className="mt-1.5 font-serif text-[17px] text-ink">{display}</div>
+                  </>
+                );
+                return (
+                  <div key={`q-${i}`} className="border-b border-rule-soft py-2.5">
+                    {url ? (
+                      <a className="iotd-link" href={url} target="_blank" rel="noreferrer">
+                        {inner}
+                      </a>
+                    ) : (
+                      inner
+                    )}
                   </div>
-                  <div className="mt-1.5 font-serif text-[17px] text-ink">
-                    {query.data.quranRefs}
+                );
+              })}
+              {splitRefs(query.data.hadithRefs).map((raw, i) => {
+                const parsed = parseHadithRef(raw);
+                const display = parsed?.display ?? raw;
+                const url = parsed?.url ?? null;
+                const inner = (
+                  <>
+                    <div className="font-mono text-[11px] uppercase tracking-[1.2px] text-ink-mute">
+                      {t("hadith_label")}
+                    </div>
+                    <div className="mt-1.5 font-serif text-[17px] text-ink">{display}</div>
+                  </>
+                );
+                return (
+                  <div key={`h-${i}`} className="border-b border-rule-soft py-2.5">
+                    {url ? (
+                      <a className="iotd-link" href={url} target="_blank" rel="noreferrer">
+                        {inner}
+                      </a>
+                    ) : (
+                      inner
+                    )}
                   </div>
-                </div>
-              )}
-              {query.data.hadithRefs && (
-                <div className="border-b border-rule-soft py-2.5">
-                  <div className="font-mono text-[11px] uppercase tracking-[1.2px] text-ink-mute">
-                    Ḥadīth
-                  </div>
-                  <div className="mt-1.5 font-serif text-[17px] text-ink">
-                    {query.data.hadithRefs}
-                  </div>
-                </div>
-              )}
+                );
+              })}
             </>
           )}
           <BackToTodayCTA />

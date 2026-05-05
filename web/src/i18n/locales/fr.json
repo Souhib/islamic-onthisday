@@ -24,6 +24,8 @@
   "not_found": "Introuvable",
   "load_failed": "Impossible de charger cette page.",
   "verify": "vérifier ↗",
+  "quran_label": "Coran",
+  "hadith_label": "Ḥadīth",
   "classical": "classique",
   "primary": "primaire",
   "modern": "moderne",

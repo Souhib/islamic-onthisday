@@ -20,6 +20,7 @@ from loguru import logger
 from iotd import __version__
 from iotd.api.errors import BaseError
 from iotd.api.middleware import LoggingMiddleware, RequestIDMiddleware, SecurityMiddleware
+from iotd.api.rate_limit import configure_rate_limit
 from iotd.api.routes import events as events_route
 from iotd.api.routes import health as health_route
 from iotd.api.routes import lessons as lessons_route
@@ -86,6 +87,10 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         allow_methods=["GET"],
         allow_headers=["*"],
     )
+
+    # slowapi installs its own ASGI middleware; gate on the env flag so
+    # the per-IP counters don't fire on every test.
+    configure_rate_limit(app, settings)
 
     @app.exception_handler(BaseError)
     async def _base_error_handler(_request: Request, exc: BaseError) -> JSONResponse:

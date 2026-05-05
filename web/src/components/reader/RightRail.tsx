@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FriezeRule } from "@/components/design";
 import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 import type { EventDetail, LessonDetail, ObservanceRef } from "@/api/generated/types.gen";
+import { parseHadithRef, parseQuranRef, splitRefs } from "@/lib/refs";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -12,19 +13,6 @@ interface Props {
 
 function isLessonDetail(item: EventDetail | LessonDetail | null): item is LessonDetail {
   return item !== null && typeof item === "object" && "kind" in item && item.kind === "lesson";
-}
-
-function splitRefs(refs: string | null | undefined): string[] {
-  if (!refs) return [];
-  return refs
-    .split(",")
-    .map((r) => r.trim())
-    .filter(Boolean);
-}
-
-function quranLink(ref: string): string | null {
-  const clean = ref.replace(/\s/g, "");
-  return clean ? `https://quran.com/${clean}` : null;
 }
 
 const RAIL_CLASS =
@@ -137,22 +125,24 @@ export function RightRail({ item, observance }: Props) {
               </div>
             )}
 
-            {splitRefs(quran).map((ref, i) => {
-              const qLink = quranLink(ref);
+            {splitRefs(quran).map((raw, i) => {
+              const parsed = parseQuranRef(raw);
+              const display = parsed?.display ?? raw;
+              const url = parsed?.url ?? null;
               const refRow = (
                 <>
                   <div className="font-serif text-[14px] font-medium leading-[1.25] text-ink">
-                    {ref}
+                    {display}
                   </div>
                   <div className="mt-1 font-mono text-[11px] uppercase tracking-[0.6px] text-ink-mute">
-                    {qLink ? t("verify") : t("primary")}
+                    {url ? `${t("quran_label")} · ${t("verify")}` : t("primary")}
                   </div>
                 </>
               );
               return (
                 <div key={`q-${i}`} className={ROW_CLASS}>
-                  {qLink ? (
-                    <a className="iotd-link" href={qLink} target="_blank" rel="noreferrer">
+                  {url ? (
+                    <a className="iotd-link" href={url} target="_blank" rel="noreferrer">
                       {refRow}
                     </a>
                   ) : (
@@ -162,16 +152,32 @@ export function RightRail({ item, observance }: Props) {
               );
             })}
 
-            {splitRefs(hadith).map((ref, i) => (
-              <div key={`h-${i}`} className={ROW_CLASS}>
-                <div className="font-serif text-[14px] font-medium leading-[1.25] text-ink">
-                  {ref}
+            {splitRefs(hadith).map((raw, i) => {
+              const parsed = parseHadithRef(raw);
+              const display = parsed?.display ?? raw;
+              const url = parsed?.url ?? null;
+              const refRow = (
+                <>
+                  <div className="font-serif text-[14px] font-medium leading-[1.25] text-ink">
+                    {display}
+                  </div>
+                  <div className="mt-1 font-mono text-[11px] uppercase tracking-[0.6px] text-ink-mute">
+                    {url ? `${t("hadith_label")} · ${t("verify")}` : t("hadith_label")}
+                  </div>
+                </>
+              );
+              return (
+                <div key={`h-${i}`} className={ROW_CLASS}>
+                  {url ? (
+                    <a className="iotd-link" href={url} target="_blank" rel="noreferrer">
+                      {refRow}
+                    </a>
+                  ) : (
+                    refRow
+                  )}
                 </div>
-                <div className="mt-1 font-mono text-[11px] uppercase tracking-[0.6px] text-ink-mute">
-                  Ḥadīth
-                </div>
-              </div>
-            ))}
+              );
+            })}
 
             {sourceUrl && (
               <div className={ROW_CLASS}>

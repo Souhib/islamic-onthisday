@@ -20,6 +20,7 @@
     "check": "bun run typecheck && bun run lint && bun run test"
   },
   "dependencies": {
+    "@fontsource/amiri": "^5.2.8",
     "@hey-api/client-fetch": "^0.13.1",
     "@radix-ui/react-dialog": "^1.1.15",
     "@sentry/react": "^10.51.0",

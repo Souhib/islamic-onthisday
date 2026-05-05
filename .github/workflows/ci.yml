@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   pipeline:
-    name: pipeline (ruff)
+    name: pipeline (ruff + validate)
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -30,6 +30,16 @@ jobs:
         run: uv sync --frozen
       - name: poe check
         run: uv run poe check
+
+      # Build the SQLite from curated YAML only (curated is the default
+      # behaviour — pass --include-bulk in dev for the live Wikidata +
+      # OpenITI imports), then run the structural validator. Catches
+      # broken hadith refs, disputed-without-dispute_about, unknown
+      # source_keys in claims, etc.
+      - name: build the curated SQLite
+        run: uv run python -m pipeline.build
+      - name: validate refs + disputed flags
+        run: uv run python -m pipeline.validate
 
   backend:
     name: backend (ruff + pytest)
@@ -49,7 +59,7 @@ jobs:
         run: |
           cd ../data-pipeline
           uv sync --frozen
-          uv run python -m pipeline.build --skip-wikidata --skip-openiti
+          uv run python -m pipeline.build
 
       - name: uv sync
         run: uv sync --frozen

@@ -54,5 +54,6 @@ pre-commit = ["check"]
 [dependency-groups]
 dev = [
     "poethepoet>=0.41.0",
+    "ruamel-yaml>=0.19.1",
     "ruff>=0.7.0",
 ]

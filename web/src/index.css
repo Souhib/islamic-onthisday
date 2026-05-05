@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+/* Self-host Amiri (Arabic body) so the AR locale switch doesn't flash a
+   fallback while Google Fonts fetches the woff2. The other three
+   typefaces (Cormorant, Inter Tight, JetBrains Mono) are still fetched
+   from Google Fonts in index.html — they're Latin-only, fingerprinted,
+   and `display=swap` makes the FOUT acceptable for them. */
+@import "@fontsource/amiri/400.css";
+@import "@fontsource/amiri/700.css";
+
 /* Tailwind v4 — class-based dark mode (ThemeProvider toggles `<html>.dark`). */
 @custom-variant dark (&:where(.dark, .dark *));
 

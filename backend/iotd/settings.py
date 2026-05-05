@@ -71,6 +71,10 @@ class Settings(BaseSettings):
     sentry_dsn: str = ""
     sentry_traces_sample_rate: float = 0.1
 
+    # Rate limiting. Off by default in dev so tests + manual probing don't
+    # hit the public limit; the production env file flips this to true.
+    rate_limit_enabled: bool = False
+
     @field_validator("cors_origins", mode="after")
     @classmethod
     def _parse_cors_origins(cls, value: str | list[str]) -> list[str]:

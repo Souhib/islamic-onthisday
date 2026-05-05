@@ -27,6 +27,7 @@ services:
       LOG_SERIALIZE: "true"
       CORS_ORIGINS: ${CORS_ORIGINS:-https://news.majlisna.app}
       SENTRY_DSN: ${SENTRY_DSN:-}
+      RATE_LIMIT_ENABLED: ${RATE_LIMIT_ENABLED:-true}
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/health').read()"]
       interval: 30s
