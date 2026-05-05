@@ -1,20 +1,46 @@
-// A small "Save / Saved" toggle that shows on detail pages.
+// "Save / Saved" toggle on detail pages.
 //
 // When the user is signed out we route to /sign-in instead of saving —
 // the project's stance is that anonymous reading stays the default and
-// signing up is purely additive. When signed in, clicking the button
-// either saves (if not already saved) or removes the existing bookmark.
+// signing up is purely additive. When signed in, clicking either saves
+// (if not already saved) or removes the existing bookmark.
+//
+// The icon is the project's editorial mark (eight-point star): outline
+// when not saved, filled when saved. Same vocabulary as the masthead
+// rather than a generic ♡/♥ that renders inconsistently across fonts.
 
 import { Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import type { BookmarkOut } from "@/api/generated/types.gen";
 import { useBookmarksQuery, useCreateBookmarkMutation, useDeleteBookmarkMutation } from "@/api/bookmarks";
+import type { BookmarkOut } from "@/api/generated/types.gen";
 import { useAuth } from "@/auth/AuthProvider";
+import { cn } from "@/lib/utils";
 
 interface Props {
   targetKind: "event" | "lesson" | "observance" | "person";
   targetSlug: string;
 }
+
+function SaveStar({ filled }: { filled: boolean }) {
+  return (
+    <svg width={14} height={14} viewBox="0 0 24 24" aria-hidden="true" className="shrink-0">
+      <g stroke="currentColor" strokeWidth={filled ? 0 : 1.1} strokeLinejoin="round">
+        <rect x="4" y="4" width="16" height="16" fill={filled ? "currentColor" : "none"} />
+        <rect
+          x="4"
+          y="4"
+          width="16"
+          height="16"
+          transform="rotate(45 12 12)"
+          fill={filled ? "currentColor" : "none"}
+        />
+      </g>
+    </svg>
+  );
+}
+
+const buttonShell =
+  "inline-flex cursor-pointer items-center gap-2 border bg-transparent px-3 py-1.5 font-mono text-[10.5px] uppercase tracking-[1.6px] transition-colors disabled:opacity-50";
 
 export function SaveButton({ targetKind, targetSlug }: Props) {
   const { t } = useTranslation();
@@ -23,15 +49,19 @@ export function SaveButton({ targetKind, targetSlug }: Props) {
   const createMut = useCreateBookmarkMutation();
   const deleteMut = useDeleteBookmarkMutation();
 
-  if (!isInitialised) return null;
+  if (!isInitialised) {
+    return null;
+  }
 
   if (!isAuthenticated) {
     return (
       <Link
         to="/sign-in"
-        className="inline-flex items-center gap-1.5 border border-rule bg-transparent px-3 py-1.5 font-mono text-[10.5px] uppercase tracking-[1.6px] text-ink-soft hover:border-ink hover:text-ink"
+        aria-label={t("auth.save")}
+        className={cn(buttonShell, "border-rule text-ink-soft hover:border-ink hover:text-ink")}
       >
-        ♡ {t("auth.save")}
+        <SaveStar filled={false} />
+        <span>{t("auth.save")}</span>
       </Link>
     );
   }
@@ -49,16 +79,24 @@ export function SaveButton({ targetKind, targetSlug }: Props) {
   };
 
   const busy = createMut.isPending || deleteMut.isPending;
+  const saved = Boolean(existing);
 
   return (
     <button
       type="button"
       onClick={handleClick}
       disabled={busy || bookmarks.isLoading}
-      aria-pressed={Boolean(existing)}
-      className="inline-flex cursor-pointer items-center gap-1.5 border border-rule bg-transparent px-3 py-1.5 font-mono text-[10.5px] uppercase tracking-[1.6px] text-ink-soft hover:border-ink hover:text-ink disabled:opacity-50"
+      aria-pressed={saved}
+      aria-label={saved ? t("auth.saved") : t("auth.save")}
+      className={cn(
+        buttonShell,
+        saved
+          ? "border-accent text-accent"
+          : "border-rule text-ink-soft hover:border-ink hover:text-ink",
+      )}
     >
-      {existing ? `♥ ${t("auth.saved")}` : `♡ ${t("auth.save")}`}
+      <SaveStar filled={saved} />
+      <span>{saved ? t("auth.saved") : t("auth.save")}</span>
     </button>
   );
 }

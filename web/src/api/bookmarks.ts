@@ -6,6 +6,7 @@
 // `enabled` is false (callers pass `enabled: isAuthenticated`).
 
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { unwrap } from "@/api/errors";
 import {
   createBookmarkApiV1BookmarksPost,
   deleteBookmarkApiV1BookmarksBookmarkIdDelete,
@@ -18,11 +19,7 @@ const BOOKMARKS_QUERY_KEY = ["bookmarks"] as const;
 export function useBookmarksQuery(options: { enabled?: boolean } = {}) {
   return useQuery<BookmarkList>({
     queryKey: BOOKMARKS_QUERY_KEY,
-    queryFn: async () => {
-      const res = await listBookmarksApiV1BookmarksGet();
-      if (!res.data) throw new Error("bookmarks fetch returned empty data");
-      return res.data;
-    },
+    queryFn: async () => unwrap(await listBookmarksApiV1BookmarksGet()),
     enabled: options.enabled ?? true,
   });
 }
@@ -30,11 +27,7 @@ export function useBookmarksQuery(options: { enabled?: boolean } = {}) {
 export function useCreateBookmarkMutation() {
   const queryClient = useQueryClient();
   return useMutation({
-    mutationFn: async (body: BookmarkCreate) => {
-      const res = await createBookmarkApiV1BookmarksPost({ body });
-      if (!res.data) throw new Error("bookmark create returned empty data");
-      return res.data;
-    },
+    mutationFn: async (body: BookmarkCreate) => unwrap(await createBookmarkApiV1BookmarksPost({ body })),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: BOOKMARKS_QUERY_KEY }),
   });
 }
@@ -43,7 +36,11 @@ export function useDeleteBookmarkMutation() {
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: async (bookmarkId: string) => {
-      await deleteBookmarkApiV1BookmarksBookmarkIdDelete({ path: { bookmark_id: bookmarkId } });
+      const result = await deleteBookmarkApiV1BookmarksBookmarkIdDelete({ path: { bookmark_id: bookmarkId } });
+      if (result.error !== undefined) {
+        // 204 returns empty body; we only throw when there's an explicit error.
+        unwrap(result);
+      }
     },
     onSuccess: () => queryClient.invalidateQueries({ queryKey: BOOKMARKS_QUERY_KEY }),
   });

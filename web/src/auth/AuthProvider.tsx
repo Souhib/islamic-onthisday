@@ -13,6 +13,7 @@
 // user can re-login. We don't try to auto-retry consumed request bodies.)
 
 import { type ReactNode, createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
+import { unwrap } from "@/api/errors";
 import { client } from "@/api/generated/client.gen";
 import {
   loginApiV1AuthLoginPost,
@@ -87,12 +88,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return null;
     }
     try {
-      const res = await refreshApiV1AuthRefreshPost({ body: { refreshToken: refresh } });
-      const pair = res.data;
-      if (!pair) {
-        clearSession();
-        return null;
-      }
+      const pair = unwrap(await refreshApiV1AuthRefreshPost({ body: { refreshToken: refresh } }));
       applyPair(pair);
       return pair.accessToken;
     } catch {
@@ -144,20 +140,20 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signup = useCallback(
     async (email: string, password: string, displayName?: string) => {
-      const res = await signupApiV1AuthSignupPost({
-        body: { email, password, displayName: displayName ?? null },
-      });
-      if (!res.data) throw new Error("signup failed");
-      applyPair(res.data);
+      const pair = unwrap(
+        await signupApiV1AuthSignupPost({
+          body: { email, password, displayName: displayName ?? null },
+        }),
+      );
+      applyPair(pair);
     },
     [applyPair],
   );
 
   const login = useCallback(
     async (email: string, password: string) => {
-      const res = await loginApiV1AuthLoginPost({ body: { email, password } });
-      if (!res.data) throw new Error("login failed");
-      applyPair(res.data);
+      const pair = unwrap(await loginApiV1AuthLoginPost({ body: { email, password } }));
+      applyPair(pair);
     },
     [applyPair],
   );

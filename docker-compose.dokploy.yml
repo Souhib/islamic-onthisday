@@ -28,6 +28,13 @@ services:
       CORS_ORIGINS: ${CORS_ORIGINS:-https://news.majlisna.app}
       SENTRY_DSN: ${SENTRY_DSN:-}
       RATE_LIMIT_ENABLED: ${RATE_LIMIT_ENABLED:-true}
+      # 32+ random bytes — generate with `python -c 'import secrets; print(secrets.token_urlsafe(48))'`.
+      # Compose refuses to start without an explicit value here, by design:
+      # the dev fallback `dev-only-change-me` would silently sign tokens
+      # that any local checkout could forge.
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?JWT_SECRET_KEY is required in the Dokploy env (generate one with secrets.token_urlsafe).}
+      ACCESS_TOKEN_MINUTES: ${ACCESS_TOKEN_MINUTES:-30}
+      REFRESH_TOKEN_DAYS: ${REFRESH_TOKEN_DAYS:-30}
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/health').read()"]
       interval: 30s
