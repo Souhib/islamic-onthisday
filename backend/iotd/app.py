@@ -17,7 +17,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from loguru import logger
 
-from iotd import __version__
 from iotd.api.errors import BaseError
 from iotd.api.middleware import LoggingMiddleware, RequestIDMiddleware, SecurityMiddleware
 from iotd.api.rate_limit import configure_rate_limit
@@ -34,6 +33,7 @@ from iotd.database import dispose_engine, init_engine
 from iotd.logger_config import configure_logger
 from iotd.observability import configure_sentry
 from iotd.settings import Settings, get_settings
+from iotd.version import __version__
 
 # 4xx codes where field-level details (the offending slug, query param, …)
 # are useful for the front-end's error UX. 5xx never includes details.

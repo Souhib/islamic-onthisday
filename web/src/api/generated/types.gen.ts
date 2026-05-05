@@ -658,6 +658,34 @@ export type ObservanceRef = {
 };
 
 /**
+ * PasswordResetConfirm
+ *
+ * Inputs for ``POST /api/v1/auth/password-reset/confirm``.
+ */
+export type PasswordResetConfirm = {
+    /**
+     * Token
+     */
+    token: string;
+    /**
+     * Newpassword
+     */
+    newPassword: string;
+};
+
+/**
+ * PasswordResetRequest
+ *
+ * Inputs for ``POST /api/v1/auth/password-reset/request``.
+ */
+export type PasswordResetRequest = {
+    /**
+     * Email
+     */
+    email: string;
+};
+
+/**
  * PersonDetail
  *
  * Full person profile.
@@ -1277,6 +1305,56 @@ export type MeApiV1AuthMeGetResponses = {
 };
 
 export type MeApiV1AuthMeGetResponse = MeApiV1AuthMeGetResponses[keyof MeApiV1AuthMeGetResponses];
+
+export type RequestPasswordResetApiV1AuthPasswordResetRequestPostData = {
+    body: PasswordResetRequest;
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/password-reset/request';
+};
+
+export type RequestPasswordResetApiV1AuthPasswordResetRequestPostErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type RequestPasswordResetApiV1AuthPasswordResetRequestPostError = RequestPasswordResetApiV1AuthPasswordResetRequestPostErrors[keyof RequestPasswordResetApiV1AuthPasswordResetRequestPostErrors];
+
+export type RequestPasswordResetApiV1AuthPasswordResetRequestPostResponses = {
+    /**
+     * Successful Response
+     */
+    204: void;
+};
+
+export type RequestPasswordResetApiV1AuthPasswordResetRequestPostResponse = RequestPasswordResetApiV1AuthPasswordResetRequestPostResponses[keyof RequestPasswordResetApiV1AuthPasswordResetRequestPostResponses];
+
+export type ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostData = {
+    body: PasswordResetConfirm;
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/password-reset/confirm';
+};
+
+export type ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostError = ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostErrors[keyof ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostErrors];
+
+export type ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponses = {
+    /**
+     * Successful Response
+     */
+    204: void;
+};
+
+export type ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponse = ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponses[keyof ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponses];
 
 export type ListBookmarksApiV1BookmarksGetData = {
     body?: never;

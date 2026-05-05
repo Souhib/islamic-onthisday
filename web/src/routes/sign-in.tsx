@@ -139,6 +139,13 @@ function SignInPage() {
           </button>
         </form>
 
+        <Link
+          to="/forgot-password"
+          className="mt-5 font-mono text-[11px] uppercase tracking-[1.4px] text-ink-mute underline decoration-rule underline-offset-[5px] transition-colors hover:text-accent hover:decoration-accent"
+        >
+          {t("auth.forgot_password")}
+        </Link>
+
         <p className="mt-7 text-center font-mono text-[11.5px] uppercase tracking-[1.4px] text-ink-soft">
           {t("auth.no_account")}{" "}
           <Link

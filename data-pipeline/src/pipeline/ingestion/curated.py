@@ -25,7 +25,7 @@ from pipeline.constants import (
     CURATED_EVENTS_DIR,
     CURATED_LESSONS_DIR,
 )
-from pipeline.conversion import greg_doy, hijri_md_key, hijri_to_gregorian
+from pipeline.conversion.calendar import greg_doy, hijri_md_key, hijri_to_gregorian
 from pipeline.models.db import (
     DateClaim,
     DatelessLesson,
@@ -37,7 +37,7 @@ from pipeline.models.db import (
     Source,
     Tag,
 )
-from pipeline.schemas import GregorianDate, HijriDate, Precision
+from pipeline.schemas.inputs import GregorianDate, HijriDate, Precision
 from pipeline.source_urls import derive_source_url
 
 console = Console()

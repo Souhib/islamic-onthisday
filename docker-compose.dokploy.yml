@@ -35,6 +35,14 @@ services:
       JWT_SECRET_KEY: ${JWT_SECRET_KEY:?JWT_SECRET_KEY is required in the Dokploy env (generate one with secrets.token_urlsafe).}
       ACCESS_TOKEN_MINUTES: ${ACCESS_TOKEN_MINUTES:-30}
       REFRESH_TOKEN_DAYS: ${REFRESH_TOKEN_DAYS:-30}
+      # Resend transactional email. Empty key = no-op (logs the would-be
+      # send and returns); set in Dokploy env to actually send password
+      # reset emails. Piggybacks on the verified ``majlisna.app`` Resend
+      # domain — see CLAUDE.md "Email" section.
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      EMAIL_FROM_ADDRESS: ${EMAIL_FROM_ADDRESS:-noreply@majlisna.app}
+      EMAIL_FROM_NAME: ${EMAIL_FROM_NAME:-Islamic On This Day}
+      FRONTEND_URL: ${FRONTEND_URL:-https://news.majlisna.app}
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/health').read()"]
       interval: 30s

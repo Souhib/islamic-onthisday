@@ -17,8 +17,8 @@ import sentry_sdk
 from loguru import logger
 from sentry_sdk.integrations.starlette import StarletteIntegration
 
-from iotd import __version__
 from iotd.settings import Settings
+from iotd.version import __version__
 
 
 def configure_sentry(settings: Settings) -> None:

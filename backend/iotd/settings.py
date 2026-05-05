@@ -83,6 +83,23 @@ class Settings(BaseSettings):
     access_token_minutes: int = 30
     refresh_token_days: int = 30
 
+    # Email — Resend transactional API. Empty key = no-op (logs the would-be
+    # send and returns success), so dev runs / tests never hit the network.
+    # Same gating pattern as ``sentry_dsn`` above. ``email_from_address``
+    # piggybacks on the verified ``majlisna.app`` Resend domain (the free
+    # plan only allows one domain); the From-name distinguishes products at
+    # the recipient end ("Islamic On This Day <noreply@majlisna.app>").
+    resend_api_key: str = ""
+    email_from_address: str = "noreply@majlisna.app"
+    email_from_name: str = "Islamic On This Day"
+    # Public origin used in email links (password reset, etc.). Production
+    # sets this to ``https://news.majlisna.app``.
+    frontend_url: str = "http://localhost:3000"
+    # Password reset tokens are short-lived; the user has to request a new
+    # one rather than chain old links. 30 minutes mirrors the access token
+    # window we already use elsewhere.
+    password_reset_token_minutes: int = 30
+
     @field_validator("cors_origins", mode="after")
     @classmethod
     def _parse_cors_origins(cls, value: str | list[str]) -> list[str]:

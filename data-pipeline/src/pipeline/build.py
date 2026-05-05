@@ -20,7 +20,7 @@ from sqlmodel import Session, select
 
 from pipeline.database import init_db, session_scope
 from pipeline.dataset_meta import write_dataset_meta
-from pipeline.images import fetch_safe_images
+from pipeline.images.fetcher import fetch_safe_images
 from pipeline.ingestion import curated
 from pipeline.models.db import DateClaim, DatelessLesson, Event, Person, Source, Tag
 from pipeline.syndication import syndicate

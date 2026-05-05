@@ -26,7 +26,7 @@ from pipeline.constants import (
     OPENITI_MIN_HIJRI_YEAR,
 )
 from pipeline.models.db import DateClaim, Event, Person, Source
-from pipeline.schemas import EventCategory
+from pipeline.schemas.inputs import EventCategory
 
 console = Console()
 

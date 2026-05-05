@@ -78,3 +78,29 @@ class Bookmark(SQLModel, table=True):
     )
 
     user: User = Relationship(back_populates="bookmarks")
+
+
+class PasswordResetToken(SQLModel, table=True):
+    """One-time token issued to allow a password reset via emailed link.
+
+    The token itself is the primary key (a uuid4 hex slug) — there is no
+    separate id column. We store an expiry instead of a ``valid`` flag so
+    the table can be cleaned up by date later, and a ``used_at`` timestamp
+    so reuse is rejected even before expiry kicks in.
+    """
+
+    __tablename__ = "password_reset_tokens"
+
+    token: str = Field(max_length=64, primary_key=True)
+    user_id: UUID = Field(foreign_key="users.id", index=True)
+    expires_at: datetime = Field(
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
+    used_at: datetime | None = Field(
+        default=None,
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
+    created_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )

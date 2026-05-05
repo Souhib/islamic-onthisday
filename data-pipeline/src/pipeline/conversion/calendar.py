@@ -17,7 +17,7 @@ from pipeline.constants import (
     HIJRI_YEAR_MID_MONTH,
     MD_KEY_MULTIPLIER,
 )
-from pipeline.schemas import GregorianDate, HijriDate, Precision
+from pipeline.schemas.inputs import GregorianDate, HijriDate, Precision
 
 
 def hijri_to_gregorian(hijri: HijriDate) -> GregorianDate | None:

@@ -15,6 +15,7 @@ from iotd.api.controllers.events import EventsController
 from iotd.api.controllers.health import HealthController
 from iotd.api.controllers.lessons import LessonsController
 from iotd.api.controllers.observances import ObservancesController
+from iotd.api.controllers.password_reset import PasswordResetController
 from iotd.api.controllers.people import PeopleController
 from iotd.api.controllers.recent import RecentController
 from iotd.api.controllers.today import TodayController
@@ -95,6 +96,14 @@ async def get_bookmarks_controller(
 ) -> BookmarksController:
     """Return a ``BookmarksController`` wired to the request session."""
     return BookmarksController(session)
+
+
+async def get_password_reset_controller(
+    session: Annotated[AsyncSession, Depends(get_session)],
+    settings: Annotated[Settings, Depends(get_active_settings)],
+) -> PasswordResetController:
+    """Return a ``PasswordResetController`` wired to the request session + settings."""
+    return PasswordResetController(session, settings)
 
 
 async def get_current_user(

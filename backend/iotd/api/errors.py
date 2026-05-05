@@ -251,3 +251,14 @@ class BookmarkNotFoundError(NotFoundError):
             message="bookmark not found",
             frontend_message="That bookmark doesn't exist.",
         )
+
+
+class InvalidPasswordResetTokenError(BaseError):
+    """Raised when the password reset token is unknown, expired, or already used."""
+
+    def __init__(self, reason: str = "invalid or expired reset token"):
+        super().__init__(
+            message=reason,
+            frontend_message="That reset link is no longer valid. Please request a new one.",
+            status_code=status.HTTP_400_BAD_REQUEST,
+        )

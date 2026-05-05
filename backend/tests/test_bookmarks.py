@@ -7,7 +7,7 @@ import pytest
 from httpx import AsyncClient
 from sqlalchemy import delete, select
 
-from iotd.database import _session_factory  # noqa: PLC2701 — test-only access
+from iotd import database as _database  # noqa: PLC2701 — test-only access to _session_factory
 from iotd.models.user import Bookmark, User
 
 
@@ -16,13 +16,14 @@ def _unique_email(tag: str) -> str:
 
 
 async def _wipe_user(email: str) -> None:
-    if _session_factory is None:
+    if _database._session_factory is None:
         return
-    async with _session_factory() as session:
-        row = (await session.exec(select(User.id).where(User.email == email))).first()
-        if row is None:
+    async with _database._session_factory() as session:
+        result = (await session.exec(select(User).where(User.email == email))).first()
+        if result is None:
             return
-        user_id = row[0] if isinstance(row, tuple) else row
+        user = result[0] if hasattr(result, "_fields") or isinstance(result, tuple) else result
+        user_id = user.id
         await session.exec(delete(Bookmark).where(Bookmark.user_id == user_id))  # type: ignore[call-overload]
         await session.exec(delete(User).where(User.id == user_id))  # type: ignore[call-overload]
         await session.commit()

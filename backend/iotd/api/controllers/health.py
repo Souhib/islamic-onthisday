@@ -7,8 +7,8 @@ from sqlalchemy import func, text
 from sqlmodel import select
 from sqlmodel.ext.asyncio.session import AsyncSession
 
-from iotd import __version__
 from iotd.api.schemas.health import DatasetSnapshot, HealthResponse
+from iotd.version import __version__
 
 
 class HealthController:

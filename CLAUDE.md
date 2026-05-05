@@ -534,6 +534,14 @@ conventions below are the short list.
     Controllers run the queries and raise typed errors. ORM-row → response
     schema mapping lives in `iotd/api/services/projections.py` so any
     controller can call it.
+13. **No code in `__init__.py`.** Package init files carry the package
+    docstring and nothing else — no re-exports, no `from x import y`,
+    no `__all__`, no `__version__`. Re-exports add a second import path
+    every reader has to keep in sync, and they hide where a name actually
+    lives. Callers import from the actual submodule (`from
+    pipeline.schemas.inputs import EventIn`, not `from pipeline.schemas
+    import EventIn`). Package version constants live in a dedicated
+    `version.py`.
 
 ### Async + logging (FastAPI backend)
 

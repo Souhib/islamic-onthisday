@@ -43,6 +43,19 @@ class RefreshRequest(RequestModel):
     refresh_token: str
 
 
+class PasswordResetRequest(RequestModel):
+    """Inputs for ``POST /api/v1/auth/password-reset/request``."""
+
+    email: EmailStr
+
+
+class PasswordResetConfirm(RequestModel):
+    """Inputs for ``POST /api/v1/auth/password-reset/confirm``."""
+
+    token: str = Field(min_length=8, max_length=128)
+    new_password: str = Field(min_length=8, max_length=128)
+
+
 class UserPublic(ResponseModel):
     """Public account view — never includes the password hash."""
 

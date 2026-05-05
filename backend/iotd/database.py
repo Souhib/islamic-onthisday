@@ -12,7 +12,7 @@ from sqlalchemy.pool import AsyncAdaptedQueuePool
 from sqlmodel import SQLModel
 from sqlmodel.ext.asyncio.session import AsyncSession
 
-import iotd.models  # noqa: F401 — registers User + Bookmark on SQLModel.metadata
+import iotd.models.user  # noqa: F401 — registers backend tables on SQLModel.metadata
 from iotd.settings import Settings
 
 _engine: AsyncEngine | None = None
@@ -47,7 +47,7 @@ def _build_engine(settings: Settings) -> AsyncEngine:
     )
 
 
-_BACKEND_TABLES: tuple[str, ...] = ("users", "bookmarks")
+_BACKEND_TABLES: tuple[str, ...] = ("users", "bookmarks", "password_reset_tokens")
 
 
 async def _create_backend_tables(engine: AsyncEngine) -> None:

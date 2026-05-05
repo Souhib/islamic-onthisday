@@ -26,9 +26,9 @@ from pipeline.constants import (
     WIKIDATA_SPARQL_ENDPOINT,
     WIKIDATA_USER_AGENT,
 )
-from pipeline.conversion import greg_doy, gregorian_to_hijri, hijri_md_key
+from pipeline.conversion.calendar import greg_doy, gregorian_to_hijri, hijri_md_key
 from pipeline.models.db import DateClaim, Event, Person, Source
-from pipeline.schemas import EventCategory
+from pipeline.schemas.inputs import EventCategory
 from pipeline.source_urls import wikidata_url
 
 console = Console()

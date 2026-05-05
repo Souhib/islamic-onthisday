@@ -9,7 +9,3 @@ Both packages register on the same global ``SQLModel.metadata``; the
 pipeline's ``CONTENT_TABLE_NAMES`` allowlist filters drops to content
 tables only, so user data is structurally protected from rebuilds.
 """
-
-from iotd.models.user import Bookmark, User
-
-__all__ = ["Bookmark", "User"]
