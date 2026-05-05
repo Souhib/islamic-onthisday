@@ -159,17 +159,13 @@ SURAH_AYAH_COUNTS: tuple[int, ...] = (
 )
 
 # Recognised verification statuses, in order of strength.
-#   unverified      — bulk import (Wikidata or OpenITI), no cross-reference
-#   auto_verified   — cross-checked against Wikidata + Wikipedia by
-#                     ``pipeline.verify``: the entity exists, dates match
-#                     within ±3 Hijri years. *Structural* verification only —
-#                     the editorial bar (Sunni framing, classical sources,
-#                     hadith refs) hasn't been applied yet.
+#   unverified      — provisional, awaiting editorial review
 #   single_source   — 1 classical Sunni source cited in YAML
 #   cross_verified  — ≥2 classical Sunni sources cited
 #   scholar_reviewed— a qualified Muslim scholar has signed off
+#   needs_review    — flagged by a curator for re-evaluation
 KNOWN_VERIFICATION_STATUSES: frozenset[str] = frozenset(
-    {"unverified", "auto_verified", "single_source", "cross_verified", "scholar_reviewed", "needs_review"}
+    {"unverified", "single_source", "cross_verified", "scholar_reviewed", "needs_review"}
 )
 
 # An event marked ``disputed: true`` must already have its existence

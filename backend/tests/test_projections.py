@@ -54,8 +54,14 @@ def test_split_description_handles_empty_and_paragraphs() -> None:
 
 
 def test_coerce_verification_status_passes_through_known_values() -> None:
-    for v in ("scholar_reviewed", "cross_verified", "single_source", "auto_verified", "unverified"):
+    for v in ("scholar_reviewed", "cross_verified", "single_source", "unverified"):
         assert _coerce_verification_status(v) == v
+
+
+def test_coerce_verification_status_drops_legacy_auto_verified() -> None:
+    """The deprecated ``auto_verified`` tier is no longer a valid API status —
+    legacy ORM rows (if any ever existed) degrade to ``unverified``."""
+    assert _coerce_verification_status("auto_verified") == "unverified"
 
 
 def test_coerce_verification_status_falls_back_to_unverified() -> None:

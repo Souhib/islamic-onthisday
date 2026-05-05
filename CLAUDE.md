@@ -230,50 +230,32 @@ any content; the summary below is the short version:
     The frontend uses this to calibrate how prominently the dispute is
     surfaced (date = subtle badge, interpretation = stronger). Enforced by
     `pipeline.validate`.
-11. **Bulk imports run through `pipeline.verify` before being kept.** The
-    raw Wikidata + OpenITI imports contain too many obscure stub entries
-    that can't be cross-checked. The honest workflow:
-
-    1. `pipeline.build --include-bulk` ingests everything as
-       `verification_status: unverified`.
-    2. `pipeline.verify` iterates every unverified event:
-       - **No `wikidata_qid`** (OpenITI-only) → drop.
-       - **Has `wikidata_qid` but no Wikipedia article (en/ar/fr)** → drop.
-       - **Wikipedia article exists + dates within ±10 Hijri years** →
-         promote to `auto_verified`, fill title/description from Wikidata
-         labels + Wikipedia summary, set `source_url` to the Wikipedia
-         article.
-       - **Date mismatch beyond ±10y** → drop.
-    3. The result is a clean dataset where every entry is either curated
-       (single_source/cross_verified) or auto-verified against Wikipedia.
-
-    `auto_verified` means: structurally verified (the entity exists, the
-    dates approximately match) but the editorial bar in EDITORIAL.md
-    rules 1-6 (Sunni framing, classical sources, hadith refs) hasn't been
-    hand-applied yet. It's a transitional state — agents promote
-    individual entries to `single_source+` over time as classical
-    citations are found.
-12. **Headline picker stays strict.** `TodayController._pick_headline`
-    requires `importance ∈ {major, notable}` AND
-    `verification_status ∈ HEADLINE_VERIFICATION_STATUSES` — currently
-    `{single_source, cross_verified, scholar_reviewed}`. **`auto_verified`
-    is intentionally excluded** from headline-eligibility. The headline
-    slot is always a curated event with at least one classical Sunni
-    citation. When no curated event matches the day, the headline returns
-    `None` and the front-end falls back to a dateless lesson — never an
-    auto-promoted Wikipedia stub.
-
-13. **Wikidata QIDs are not trusted by default.** A 2026-04-26 audit found
-    ~95 % of declared `wikidata_qid` values in `people.yaml` pointed to
-    unrelated entities (training-memory hallucinations). All QIDs were
-    purged. Before adding a new QID, verify via the `wbgetentities` API
-    that the QID resolves to the correct entity and matches the declared
-    name. The field is optional — omit it when uncertain rather than
-    introducing contamination.
+11. **The build is curated-only — no auto-ingestion.** `pipeline.build`
+    only ever ingests `data/curated/*.yaml`. There is no
+    `--include-bulk` flag and no `pipeline.verify` script. Every entry
+    that lands in the API has been hand-vetted against the editorial
+    bar (Sunni framing, classical sources, hadith refs, trilingual
+    coverage). The brand promise is unconditional: *every entry has
+    been editorially reviewed*.
+12. **Bulk discovery happens out-of-band via `scripts/discovery/`.** The
+    Wikidata SPARQL helper and the OpenITI metadata helper now live
+    under `data-pipeline/scripts/discovery/` and produce JSON reports
+    of *candidate* entries the curator may consider promoting into
+    YAML. They never write to the SQLite directly. Use them when you
+    want to surface events you might have missed; the human-in-the-
+    loop applies the editorial bar before anything reaches the API.
+13. **Wikidata QIDs are not trusted by default.** A 2026-04-26 audit
+    found ~95 % of declared `wikidata_qid` values in `people.yaml`
+    pointed to unrelated entities (training-memory hallucinations).
+    All QIDs were purged. Before adding a new QID, verify via the
+    `wbgetentities` API that the QID resolves to the correct entity
+    and matches the declared name. The field is optional — omit it
+    when uncertain rather than introducing contamination.
 
     The frontend shows verification chips on every card so readers see
-    the trust level (`AUTO-VERIFIED` is distinct from `SINGLE SOURCE` /
-    `CROSS-VERIFIED` / `SCHOLAR-REVIEWED`).
+    the trust level (`SINGLE SOURCE` / `CROSS-VERIFIED` /
+    `SCHOLAR-REVIEWED`). The deprecated `auto_verified` tier is gone
+    from every layer.
 14. **Trilingual policy.** Every curated `Event`, `DatelessLesson`, and
     `Observance` should carry `title_{en,ar,fr}` (or `name_{en,ar,fr}` for
     observances) and `description_{en,ar,fr}`. English is required;
@@ -288,7 +270,9 @@ any content; the summary below is the short version:
     breaking the cadence.
 
 `verification_status` ladder: `unverified` → `single_source` → `cross_verified`
-→ `scholar_reviewed`. Promotions only; never demote without a corrected source.
+→ `scholar_reviewed`. Promotions only; never demote without a corrected
+source. The `auto_verified` tier was retired (see rule 11) — every
+entry in the API is editorially reviewed by definition.
 
 ## Source URLs
 
@@ -311,13 +295,13 @@ Run from `data-pipeline/`:
 ```sh
 uv sync
 uv run python -m pipeline.build                      # full rebuild (incl. syndication)
-uv run python -m pipeline.build --skip-wikidata      # curated + OpenITI only
-uv run python -m pipeline.build --skip-openiti       # curated + Wikidata only
-uv run python -m pipeline.build --openiti-limit 100  # OpenITI dry-run
 uv run python -m pipeline.syndicate                  # regenerate sitemap/robots/feed only
 uv run python -m pipeline.validate                   # check refs are well-formed
 uv run poe check                                     # ruff lint + format check
 uv run poe fix                                       # ruff format + lint --fix
+# Discovery (out-of-band, never writes to the SQLite):
+# uv run python scripts/discovery/wikidata_leads.py   # candidate report → JSON
+# uv run python scripts/discovery/openiti_leads.py    # candidate report → JSON
 ```
 
 The DB at `data-pipeline/data/output/islamic_onthisday.db` is **ephemeral** —
@@ -567,7 +551,7 @@ When adding / editing an event or lesson:
    an additional `claims` entry per alternative position.
 7. Rebuild + validate:
    ```sh
-   uv run python -m pipeline.build --skip-wikidata --skip-openiti
+   uv run python -m pipeline.build
    uv run python -m pipeline.validate
    ```
 
@@ -593,10 +577,10 @@ the fallback, not the default.
   (lists), `NO_STORE` (Health). Always pick from this list, never inline
   a string.
 - **Verification ladder in the API is `Literal`-typed:**
-  `scholar_reviewed | cross_verified | single_source | auto_verified |
-  unverified`. The projection coerces stray ORM values to `unverified`
-  rather than leak invalid payloads — see
-  `services/projections._coerce_verification_status`.
+  `scholar_reviewed | cross_verified | single_source | unverified`.
+  The projection coerces stray ORM values (including the deprecated
+  `auto_verified`) to `unverified` rather than leak invalid payloads —
+  see `services/projections._coerce_verification_status`.
 
 ## Frontend dev tips
 

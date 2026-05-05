@@ -11,9 +11,12 @@ Live repo: <https://github.com/Souhib/islamic-onthisday>.
 
 The repository ships three components:
 
-- **`data-pipeline/`** — Python ETL that turns curated YAML + live Wikidata
-  + OpenITI metadata into the authoritative SQLite database, and emits the
-  public sitemap / robots / Atom feed alongside it.
+- **`data-pipeline/`** — Python ETL that turns curated YAML into the
+  authoritative SQLite database, and emits the public sitemap / robots /
+  Atom feed / dataset-meta alongside it. Bulk discovery from Wikidata /
+  OpenITI lives under `data-pipeline/scripts/discovery/` and produces
+  JSON candidate reports for human review — never writes to the
+  production SQLite.
 - **`backend/`** — FastAPI read-only API serving the dataset to the web
   client. Private origin: only the FE talks to it.
 - **`web/`** — Vite + React reading surface (Tailwind v4, i18next, TanStack
@@ -53,10 +56,10 @@ because the backend reads the SQLite the pipeline produces; without it
 ## Database snapshot
 
 Numbers below reflect the curated YAML at `data-pipeline/data/curated/`
-— the default `pipeline.build` produces exactly this. Live counts on a
-running backend are at `GET /health`. `pipeline.build --include-bulk`
-re-enables Wikidata + OpenITI for catalogue depth, but the headline
-picker only ever surfaces curated entries.
+— `pipeline.build` produces exactly this. Live counts on a running
+backend are at `GET /health`. The build is curated-only: no auto-
+ingestion path, no `--include-bulk` flag, no `auto_verified` tier.
+Every entry has been editorially reviewed.
 
 | Metric                                       | Count |
 | -------------------------------------------- | ----: |
@@ -108,48 +111,35 @@ Dateless lessons:
 | Qur'an / Hadith facts  | 86 |
 | Hadith narratives      | 82 |
 
-## Data sources and reliability tiers
+## Data source: curated YAML only
 
-The pipeline merges three sources. Each has a different trust level, recorded
-on every date-claim via the `source_id` column.
-
-### 1. Curated YAML (highest trust)
-
-`data-pipeline/data/curated/` — hand-written events verified against
-classical sources (al-Tabari, Ibn Kathir, al-Dhahabi, Ibn Hajar, Sahih
-al-Bukhari, Sahih Muslim, etc.). Each curated event cites at least one
-classical source plus, where relevant, modern academic corroboration. Events
-with disputed dates (e.g. the death of the Prophet ﷺ) carry multiple
-`claims` so the dispute is modelled in data, not hidden.
+`data-pipeline/data/curated/` is the authoritative — and sole — input
+to `pipeline.build`. Every entry is hand-written and verified against
+classical sources (al-Ṭabarī, Ibn Kathīr, al-Dhahabī, Ibn Ḥajar, Ṣaḥīḥ
+al-Bukhārī, Ṣaḥīḥ Muslim, etc.). Each event cites at least one classical
+source plus, where relevant, modern academic corroboration. Events with
+disputed dates (e.g. the death of the Prophet ﷺ) carry multiple `claims`
+so the dispute is modelled in data, not hidden.
 
 Structure:
 - `sources.yaml` — citable reference works.
 - `people.yaml` — historical figures (with religious-prohibition flags).
 - `events/*.yaml` — dated events split by era: 00_legacy, 01_prophetic,
-  02_rashidun, 03_umayyad_abbasid, 04_andalus, 05_ottoman_mughal,
-  06_scholars. Every `.yaml` file in the directory is loaded.
+  02_rashidun, 03_umayyad_abbasid, 04_andalus, 06_scholars, etc. Every
+  `.yaml` file in the directory is loaded.
 - `lessons/*.yaml` — dateless Qur'an / Sunnah lessons, split by category:
-  00_legacy, 01_prophets, 02_hadith_narratives, 03_sunnah_practices,
-  04_quran_hadith_facts.
+  01_prophets, 02_hadith_narratives, 03_sunnah_practices, etc.
+- `observances.yaml` — annual recurring sacred days (ʿĪd, ʿArafah,
+  Laylat al-Qadr window, etc.).
 
-### 2. Wikidata SPARQL (medium trust)
+### Discovery (out-of-band)
 
-Automatically fetched from `query.wikidata.org/sparql`. Two queries run:
-
-- Muslim persons (`P140 = Q432`) with `P570` death dates (any precision).
-- Battles and sieges that are part of Islamic-world conflicts, with `P585`.
-
-Wikidata's `timePrecision` (9 = year, 10 = month, 11 = day) is preserved as
-our `precision` field — only day- and month-precision entries become Tier-1
-or Tier-2 events. Year-precision entries are stored as Tier-3.
-
-### 3. OpenITI metadata (authoritative for scholars, year-only)
-
-The Open Islamicate Texts Initiative maintains structured metadata for ~3,378
-classical Muslim scholars. Its `AuthorID` encodes a Hijri death year
-(e.g. `0256Bukhari`). Month/day precision is not carried in the public
-metadata, so every OpenITI-derived event is year-precision (Tier 3) and
-appears on the "this Hijri year in Islamic history" list.
+Two helper scripts under `data-pipeline/scripts/discovery/` query
+Wikidata SPARQL and OpenITI metadata to surface *candidate* entries the
+curator might want to add to YAML. They write JSON reports — never the
+SQLite — so the editorial bar always applies before anything reaches
+the API. Run them when you want to take a discovery pass; ignore them
+otherwise.
 
 ## Calendar handling
 
@@ -161,7 +151,7 @@ curated YAML) as authoritative and uses tabular conversion only as fallback.
 
 Date claims carry a `gregorian_method` tag so the UI can label a date:
 
-- `attested` — historically recorded (from a primary source or Wikidata P585).
+- `attested` — historically recorded in a classical primary source.
 - `tabular_conversion` — computed from the Hijri date via the algorithm.
 - `reconstructed` — inferred by scholars without an explicit source.
 
@@ -176,12 +166,14 @@ The user requirement is 100% accuracy. In practice, this means:
    date (12 vs. 2 vs. 1 Rabi al-Awwal 11 AH) carry all attested positions in
    the `date_claims` table. The canonical view is the majority classical
    position, but the UI can and should surface the alternatives.
-3. **Wikidata and OpenITI imports are not automatically "verified."** The
-   `verified` boolean on `events` is only set to `true` for hand-curated
-   entries with confirmed classical attestation.
-4. **The Tier system drives UI defaults.** "On this day" tiles draw from
-   Tier 1 first, Tier 2 next, then Tier 3 "this year in Islamic history" as
-   fallback. No calendar day is ever empty because dateless lessons fill any
+3. **Every entry is editorially reviewed.** There is no auto-ingestion;
+   the `verified` boolean is set only for hand-curated entries with
+   confirmed classical attestation. The deprecated `auto_verified` tier
+   was retired — the API now exposes only `single_source`,
+   `cross_verified`, `scholar_reviewed`, and `unverified`.
+4. **Day-precision drives UI defaults.** "On this day" tiles draw from
+   day-precise events first, then month/year-precise fallbacks. No
+   calendar day is ever empty because dateless lessons fill any
    remaining gap.
 
 ## Image policy — religious prohibition
@@ -238,11 +230,12 @@ development target, no Postgres-specific features are used.
 ```sh
 cd data-pipeline
 uv sync
-uv run python -m pipeline.build                      # full rebuild
-uv run python -m pipeline.build --skip-wikidata      # curated + OpenITI only
-uv run python -m pipeline.build --skip-openiti       # curated + Wikidata only
-uv run python -m pipeline.build --openiti-limit 100  # OpenITI dry-run
+uv run python -m pipeline.build                      # full rebuild from curated YAML
 uv run python -m pipeline.syndicate                  # refresh sitemap/robots/feed only
+uv run python -m pipeline.validate                   # check refs + disputed flags
+# Discovery (manual, never feeds the production SQLite):
+# uv run python scripts/discovery/wikidata_leads.py  # candidate report → JSON
+# uv run python scripts/discovery/openiti_leads.py   # candidate report → JSON
 ```
 
 The pipeline writes to two destinations:
@@ -359,26 +352,20 @@ without a full DB rebuild.
 
 ## Roadmap
 
-1. **Translation pass.** Curated events and lessons are mostly English with
-   key Arabic titles; fill `title_fr`, `description_ar`, `description_fr`
-   to honour the trilingual policy across the whole dataset.
-2. **Image download + self-hosting.** Fetch Wikimedia Commons images,
-   store locally, record license/attribution. Don't link external URLs at
-   runtime.
-3. **Cross-verification harness.** For each Tier-1 event, require ≥2
-   classical citations before the `verified` flag goes to true. Partial
-   today (curated tier ≥ `cross_verified` is enforced for the headline
-   picker; the wider population is mixed).
-4. **Mobile app (Flutter).**
-5. **SEO / launch readiness.** Static prerendering of detail pages so
-   Twitter / Facebook / iMessage previews work; `<link rel="canonical">`
-   + Open Graph + Schema.org JSON-LD; Sentry on backend + frontend.
-6. **User accounts & social features** (later phase). User data lives in
-   the **same** database as the dataset — the pipeline's
-   `CONTENT_TABLE_NAMES` allowlist guarantees content rebuilds never
-   touch user tables. When auth lands, add the user models to the
-   backend (not the pipeline) package and wire Alembic migrations for
-   their evolution.
+1. **User accounts & bookmarks** (next phase). JWT auth, opt-in
+   signup. Anonymous browsing stays the default — accounts unlock
+   personal saves only. User tables share the SQLite with content
+   tables; the pipeline's `CONTENT_TABLE_NAMES` allowlist guarantees
+   content rebuilds never touch user tables.
+2. **Image download + self-hosting.** Fetch Wikimedia Commons images
+   (subject to the religious-image policy), store locally, record
+   license/attribution.
+3. **Mobile app (Flutter).**
+4. **Static prerendering** of detail pages so Twitter / iMessage
+   previews work; `<link rel="canonical">` + Open Graph + Schema.org
+   JSON-LD.
+5. **Daily content rebuild via Dokploy schedule** so the Atom feed
+   rolls forward without a manual deploy.
 
 ## License
 

@@ -172,13 +172,25 @@ const HADITH_COLLECTIONS: Array<{ pattern: RegExp; key: string; display: string 
   { pattern: /^(?:sahih\s+)?muslim$/i, key: "muslim", display: "Muslim" },
   { pattern: /^(?:sunan\s+)?ab[īi]?\s+d[āa][wu][uo]d$/i, key: "abudawud", display: "Abū Dāwūd" },
   { pattern: /^(?:sunan\s+)?abu\s+d[aā][wu][uo]d$/i, key: "abudawud", display: "Abū Dāwūd" },
-  { pattern: /^(?:j[āa]mi['ʿ`]?\s+(?:at[-\s]?)?)?(?:al[-\s]?)?tirmidh[īi]?$/i, key: "tirmidhi", display: "al-Tirmidhī" },
-  { pattern: /^(?:sunan\s+)?(?:an[-\s]?|al[-\s]?)?nas[āa]['ʾ`]?[īi]?$/i, key: "nasai", display: "al-Nasāʾī" },
+  {
+    pattern: /^(?:j[āa]mi['ʿ`]?\s+(?:at[-\s]?)?)?(?:al[-\s]?)?tirmidh[īi]?$/i,
+    key: "tirmidhi",
+    display: "al-Tirmidhī",
+  },
+  {
+    pattern: /^(?:sunan\s+)?(?:an[-\s]?|al[-\s]?)?nas[āa]['ʾ`]?[īi]?$/i,
+    key: "nasai",
+    display: "al-Nasāʾī",
+  },
   { pattern: /^(?:sunan\s+)?ibn\s+m[āa]jah$/i, key: "ibnmajah", display: "Ibn Mājah" },
   { pattern: /^(?:musnad\s+)?(?:ahmad|aḥmad)$/i, key: "ahmad", display: "Aḥmad" },
   { pattern: /^(?:al[-\s]?)?muwa[ṭt]+a['ʾ`]?$/i, key: "malik", display: "Mālik" },
   { pattern: /^d[āa]rim[īi]?$/i, key: "darimi", display: "al-Dārimī" },
-  { pattern: /^riy[āa]d(?:\s+(?:as|us)[-\s]?)?[sṣ][āa][lḷ]i[ḥh][īi]n$/i, key: "riyadussalihin", display: "Riyāḍ al-Ṣāliḥīn" },
+  {
+    pattern: /^riy[āa]d(?:\s+(?:as|us)[-\s]?)?[sṣ][āa][lḷ]i[ḥh][īi]n$/i,
+    key: "riyadussalihin",
+    display: "Riyāḍ al-Ṣāliḥīn",
+  },
 ];
 
 /**

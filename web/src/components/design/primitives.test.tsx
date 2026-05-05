@@ -21,8 +21,11 @@ describe("isVerificationKind", () => {
     expect(isVerificationKind("scholar_reviewed")).toBe(true);
     expect(isVerificationKind("cross_verified")).toBe(true);
     expect(isVerificationKind("single_source")).toBe(true);
-    expect(isVerificationKind("auto_verified")).toBe(true);
     expect(isVerificationKind("unverified")).toBe(true);
+  });
+
+  it("rejects the deprecated auto_verified tier", () => {
+    expect(isVerificationKind("auto_verified")).toBe(false);
   });
 
   it("rejects the legacy kebab-case form, the empty string, and undefined", () => {

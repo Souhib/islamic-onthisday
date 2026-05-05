@@ -17,7 +17,6 @@ async def test_event_by_slug_returns_detail(client):
         "cross_verified",
         "single_source",
         "unverified",
-        "auto_verified",
     }
     assert "noImage" in data
     assert "disputedPositions" in data

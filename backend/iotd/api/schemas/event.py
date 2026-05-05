@@ -23,7 +23,6 @@ VerificationStatus = Literal[
     "scholar_reviewed",
     "cross_verified",
     "single_source",
-    "auto_verified",
     "unverified",
 ]
 DisputeAbout = Literal["date", "detail", "interpretation"]

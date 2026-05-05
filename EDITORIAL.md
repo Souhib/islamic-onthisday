@@ -25,11 +25,7 @@ The bar for adding or modifying any content in this dataset. Every contributor �
    - `description_en` + `description_ar` + `description_fr`
    English is the source of truth; Arabic and French translations follow it. Arabic uses Modern Standard Arabic, formal register, dignified scholarly tone, vocalised where it aids reading. French uses formal academic register: "le Prophète Muhammad ﷺ", "Coran", "compagnon (sahabi)", "califat", "hadith authentique", proper diacritics on names ("ʿAlī ibn Abī Ṭālib", "Sa'd al-Dīn al-Taftāzānī"), ﷺ after the Prophet's name, "ra" after Sahaba names. The frontend picks per user preference with a fallback chain (requested → en → first non-null) — but new entries should always ship trilingual.
 
-7. **Bulk imports populate the catalogue, never the headline.** Wikidata SPARQL and OpenITI metadata ingestion is enabled in production builds with `pipeline.build --include-bulk`, which restores ~3,800 events to the dataset for browse / search depth. Two backend invariants protect headline quality:
-   - **The headline (`/api/v1/today`)** only ever picks events with `importance ∈ {major, notable}` and `verification_status ∈ {single_source, cross_verified, scholar_reviewed}`. Bulk-imported events land at `importance: minor` and `verification_status: unverified`, so they are *structurally excluded* from the headline slot. When no curated event matches the day, the headline returns `None` and the front-end falls back to a dateless lesson — **never** an anonymous Wikidata "Death of …" entry.
-   - **The frontend** prominently shows the `UNVERIFIED` badge on every bulk-import card in browse / search (warm-umber border + dot). Readers always see the trust level before clicking through.
-
-   This means: a Wikidata-imported scholar can be promoted to headline-eligibility by writing a curated YAML entry for them and setting `verification_status: cross_verified` — the bulk import is the catalogue placeholder; the curated YAML is the editorial promotion. If you can't bring an entry up to the editorial bar in `EDITORIAL.md` rules 1–6, leave it as bulk — the user will still see it in browse with the honest badge.
+7. **YAML is the only source of truth.** The dataset shipped to readers comes exclusively from `data/curated/*.yaml`. There is no auto-ingestion path: Wikidata SPARQL and OpenITI metadata are *not* compiled into the dataset, because their entity-level accuracy could not be guaranteed at the editorial bar of rules 1–6. The `scripts/discovery/` helpers (formerly `pipeline/ingestion/wikidata.py` and `openiti.py`) remain available as **research tools** that emit JSON candidate reports for human review — they never write to the database. If a Wikidata or OpenITI lead is worth keeping, a curator promotes it by writing a hand-edited YAML entry that meets rules 1–6; otherwise it stays in the discovery report and never reaches the reader. The headline (`/api/v1/today`) picks only `importance ∈ {major, notable}` events at `verification_status ∈ {single_source, cross_verified, scholar_reviewed}` — there is no longer an `auto_verified` tier or an "unverified bulk" tier in the live dataset.
 
 8. **Sunni orthodoxy — the four-madhhab bar.** Every figure included as a scholar, Sufi shaykh, ruler, or muḥaddith must be defensible within Ahl al-Sunna wa-l-Jamāʿa as represented by the four mainstream fiqh schools (Ḥanafī, Mālikī, Shāfiʿī, Ḥanbalī), their accepted ʿaqīda (Ashʿarī, Māturīdī, Atharī), and the figures who anchored these principles before the formal codification of the schools (early Sahaba, Tābiʿūn, the early ascetic-zāhid tradition). The dataset is **conservative-Sunni** by design.
 
@@ -128,13 +124,12 @@ Every `Event.verification_status` field is one of:
 
 | Status | Meaning | Use for |
 |---|---|---|
-| `unverified` | Auto-import (Wikidata, OpenITI), no cross-reference | Transient — events sit here only until `pipeline.verify` runs |
-| `auto_verified` | `pipeline.verify` cross-checked against Wikidata + Wikipedia | Bulk-imported events that survived structural verification (Wikipedia article exists, dates within ±10 Hijri years). Description is from Wikipedia summary; not yet hand-edited to the Sunni-framing bar. **Not headline-eligible.** |
+| `unverified` | YAML row that has not yet been confirmed against a classical Sunni source | Reserved fallback — should not appear in shipped data; exists only to keep the API schema honest if a stray ORM row ever lacks a status |
 | `single_source` | One classical Sunni citation, no cross-check | New curated event with one source |
 | `cross_verified` | ≥2 independent classical Sunni sources confirm | New curated event backed by multiple sources |
 | `scholar_reviewed` | A qualified Muslim scholar has signed off | Reserve for events that have undergone formal review |
 
-Promotions go up the tier ladder; never demote without a corrected source.
+Promotions go up the tier ladder; never demote without a corrected source. The legacy `auto_verified` tier was retired in 2026-05 along with the Wikidata / OpenITI auto-ingestion pipeline — every entry now reaches the dataset through a curator's YAML edit.
 
 ## Adding a new event — checklist
 
@@ -149,7 +144,7 @@ Before opening a YAML edit:
 - [ ] If the event involves a person who is a Prophet, Sahabi, or member of Ahl al-Bayt, ensure that person's record in `people.yaml` has `is_prophet/is_sahabi/is_ahl_al_bayt: true` so the image policy hard-block applies.
 - [ ] Add `hadith_refs` and/or `quran_refs` for any specific hadith or verse cited in the description. The `pipeline.validate` script will catch malformed citations.
 - [ ] Mark `disputed: true` if classical Sunni sources disagree on date or essential facts. Add the alternative date as an additional `claims` row.
-- [ ] Run `uv run python -m pipeline.build --skip-wikidata --skip-openiti` to verify the YAML loads cleanly.
+- [ ] Run `uv run python -m pipeline.build` to verify the YAML loads cleanly.
 - [ ] Run `uv run python -m pipeline.validate` to confirm references are well-formed.
 
 ## Adding a new lesson — checklist

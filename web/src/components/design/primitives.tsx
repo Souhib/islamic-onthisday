@@ -109,7 +109,6 @@ export function FriezeRule({
 const VERIFICATION_TIERS = {
   scholar_reviewed: { dots: 4, tone: "accent" as const },
   cross_verified: { dots: 3, tone: "accent" as const },
-  auto_verified: { dots: 2, tone: "accent" as const },
   single_source: { dots: 2, tone: "warn" as const },
   unverified: { dots: 1, tone: "warn" as const },
 } as const;
@@ -232,4 +231,3 @@ export function NoImagePlate({
     </div>
   );
 }
-

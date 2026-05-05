@@ -1,7 +1,12 @@
 """Orchestrator. Rebuilds the SQLite database from scratch.
 
-Usage:  uv run python -m pipeline.build [--skip-wikidata] [--skip-openiti]
-                                        [--openiti-limit N]
+Usage:  uv run python -m pipeline.build
+
+The build is curated-only by design — every entry that ships in the API
+has been hand-vetted against the editorial bar (CLAUDE.md). The
+discovery scripts in ``data-pipeline/scripts/discovery/`` produce JSON
+reports of candidate entries from Wikidata / OpenITI for human review;
+they never write to the production SQLite directly.
 """
 
 import argparse
@@ -16,7 +21,7 @@ from sqlmodel import Session, select
 from pipeline.database import init_db, session_scope
 from pipeline.dataset_meta import write_dataset_meta
 from pipeline.images import fetch_safe_images
-from pipeline.ingestion import curated, openiti, wikidata
+from pipeline.ingestion import curated
 from pipeline.models.db import DateClaim, DatelessLesson, Event, Person, Source, Tag
 from pipeline.syndication import syndicate
 
@@ -294,24 +299,17 @@ def _render_coverage_report(session: Session) -> None:
     _render_days_and_busiest(session)
 
 
-def build(
-    include_bulk: bool = False,
-    openiti_limit: int | None = None,
-) -> None:
-    """Rebuild the pipeline database end-to-end.
+def build() -> None:
+    """Rebuild the pipeline database end-to-end from curated YAML.
 
-    By default only curated YAML is ingested — the Wikidata and OpenITI
-    bulk imports are *off* because their entries are unverified per the
-    project's editorial bar (cf. CLAUDE.md rule #7: "Prefer 100 perfect
-    events over 5,000 that include errors"). Pass ``include_bulk=True`` to
-    re-enable them for development / experimentation.
-
-    Args:
-        include_bulk: When ``True``, also ingest Wikidata + OpenITI bulk
-            imports. Off by default — these entries are unverified and
-            never surfaced in production.
-        openiti_limit: Optional cap on OpenITI authors when bulk is on
-            (development dry-run only).
+    Every entry that lands in the SQLite must come from the
+    ``data/curated/*.yaml`` files — i.e. it has been hand-vetted against
+    the editorial bar (Sunni framing, classical sources, hadith refs,
+    cf. ``CLAUDE.md`` and ``EDITORIAL.md``). Bulk imports from external
+    knowledge bases are off the table for the production build; the
+    standalone discovery scripts in ``data-pipeline/scripts/discovery/``
+    can be run by hand to surface candidate entries as JSON reports the
+    curator can then promote into YAML one by one.
     """
     console.rule("[bold cyan]Islamic On-This-Day pipeline")
 
@@ -323,37 +321,24 @@ def build(
         stats = curated.ingest(session)
         console.log(f"  curated: {stats}")
 
-    if include_bulk:
-        console.log("[bold]Step 3: ingesting Wikidata (bulk, dev-only)…")
-        with session_scope() as session:
-            stats = wikidata.ingest(session)
-            console.log(f"  wikidata: {stats}")
-        console.log("[bold]Step 4: ingesting OpenITI (bulk, dev-only)…")
-        with session_scope() as session:
-            stats = openiti.ingest(session, limit=openiti_limit)
-            console.log(f"  openiti: {stats}")
-    else:
-        console.log("[dim]Steps 3-4: skipped bulk imports (curated-only build, default).[/]")
-        console.log("[dim]              Pass --include-bulk to re-enable.[/]")
-
-    console.log("[bold]Step 5: enforcing image-safety policy…")
+    console.log("[bold]Step 3: enforcing image-safety policy…")
     with session_scope() as session:
         stats = fetch_safe_images(session)
         console.log(f"  image policy: {stats}")
 
-    console.log("[bold]Step 6: promoting canonical majors…")
+    console.log("[bold]Step 4: promoting canonical majors…")
     with session_scope() as session:
         promoted = _promote_canonical_majors(session)
         console.log(f"  promoted {promoted} events to importance=major")
 
-    console.log("[bold]Step 7: coverage report[/]")
+    console.log("[bold]Step 5: coverage report[/]")
     with session_scope() as session:
         _render_coverage_report(session)
 
-    console.log("[bold]Step 8: regenerating syndication (sitemap.xml + robots.txt + feed.xml)…")
+    console.log("[bold]Step 6: regenerating syndication (sitemap.xml + robots.txt + feed.xml)…")
     syndicate()
 
-    console.log("[bold]Step 9: writing dataset-meta.json (footer profundity signal)…")
+    console.log("[bold]Step 7: writing dataset-meta.json (footer profundity signal)…")
     meta_path = write_dataset_meta()
     console.log(f"  dataset-meta: wrote {meta_path}")
 
@@ -375,20 +360,14 @@ def _promote_canonical_majors(session: Session) -> int:
 
 def main() -> None:
     """CLI entry point for `python -m pipeline.build`."""
-    parser = argparse.ArgumentParser(
+    argparse.ArgumentParser(
         description=(
-            "Build the Islamic On-This-Day DB. Curated-only by default — pass "
-            "--include-bulk for dev to also pull Wikidata + OpenITI imports."
+            "Build the Islamic On-This-Day DB from curated YAML. Bulk discovery "
+            "from Wikidata / OpenITI lives under data-pipeline/scripts/discovery/ "
+            "and is run by hand — never by this command."
         )
-    )
-    parser.add_argument(
-        "--include-bulk",
-        action="store_true",
-        help="Also ingest Wikidata + OpenITI bulk imports (unverified, dev only).",
-    )
-    parser.add_argument("--openiti-limit", type=int, default=None)
-    args = parser.parse_args()
-    build(include_bulk=args.include_bulk, openiti_limit=args.openiti_limit)
+    ).parse_args()
+    build()
 
 
 if __name__ == "__main__":
