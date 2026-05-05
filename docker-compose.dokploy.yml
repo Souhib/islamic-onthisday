@@ -1,0 +1,84 @@
+# Dokploy deployment for islamic-onthisday.
+# App-only compose — Dokploy provides Traefik + Let's Encrypt at the edge.
+
+name: iotd
+
+x-logging: &default-logging
+  driver: json-file
+  options:
+    max-size: "100m"
+    max-file: "5"
+
+services:
+  # ─── Backend API ─────────────────────────────────────────────
+  backend:
+    container_name: iotd-backend
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      target: production
+      args:
+        FRONTEND_URL: ${FRONTEND_URL:-https://news.majlisna.app}
+    environment:
+      IOTD_ENV: production
+      HOST: 0.0.0.0
+      PORT: 5111
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      LOG_SERIALIZE: "true"
+      CORS_ORIGINS: ${CORS_ORIGINS:-https://news.majlisna.app}
+      SENTRY_DSN: ${SENTRY_DSN:-}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/health').read()"]
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+    ports:
+      - "38591:5111"
+    networks:
+      - internal
+      - dokploy-network
+    logging: *default-logging
+    restart: always
+
+  # ─── Frontend SPA ────────────────────────────────────────────
+  frontend:
+    container_name: iotd-frontend
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+      target: production
+      args:
+        FRONTEND_URL: ${FRONTEND_URL:-https://news.majlisna.app}
+        VITE_API_URL: ${VITE_API_URL:-}
+        VITE_SENTRY_DSN: ${VITE_SENTRY_DSN:-}
+        VITE_UMAMI_URL: ${VITE_UMAMI_URL:-}
+        VITE_UMAMI_WEBSITE_ID: ${VITE_UMAMI_WEBSITE_ID:-}
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://127.0.0.1/health"]
+      interval: 30s
+      timeout: 3s
+      start_period: 5s
+      retries: 3
+    ports:
+      - "31773:80"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.iotd-frontend.rule=Host(`${DOMAIN:-news.majlisna.app}`)"
+      - "traefik.http.routers.iotd-frontend.entrypoints=web,websecure"
+      - "traefik.http.routers.iotd-frontend.tls.certresolver=letsencrypt"
+      - "traefik.http.services.iotd-frontend.loadbalancer.server.port=80"
+    networks:
+      - internal
+      - dokploy-network
+    logging: *default-logging
+    restart: always
+
+networks:
+  internal:
+    driver: bridge
+  dokploy-network:
+    external: true
