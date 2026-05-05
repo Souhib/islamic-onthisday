@@ -5,6 +5,8 @@ lessons:
   - slug: sunnah-wudu-detailed
     category: sunnah_practice
     title_en: The Sunnah of Wudu'
+    title_fr: La sunna du wuḍūʾ
+    title_ar: سنَّة الوضوء
     description_en: |
       The Prophet ﷺ described the ablution (wudu') in detail: starting
       with "Bismillah," washing the hands three times, rinsing the mouth
@@ -17,6 +19,27 @@ lessons:
       sins are forgiven, and his prayer and walking to the mosque are a
       bonus" (Sahih Muslim). He also said: "The adornment of the
       believer will reach as far as his wudu' reaches" in the Hereafter.
+    description_fr: |
+      Le Prophète ﷺ a décrit l'ablution (wuḍūʾ) en détail : commencer
+      par « Bismillāh », laver les mains trois fois, rincer la bouche
+      et le nez trois fois (humer l'eau et l'expulser), laver le visage
+      trois fois, laver les bras jusqu'aux coudes trois fois (en
+      commençant par le droit), passer les mains mouillées sur la tête
+      une fois (de l'avant vers l'arrière puis retour), essuyer les
+      oreilles, et laver les pieds jusqu'aux chevilles trois fois
+      (droit avant gauche). Il a dit : « Quiconque accomplit le wuḍūʾ
+      ainsi, ses péchés mineurs antérieurs sont pardonnés, et sa
+      prière et sa marche vers la mosquée sont un surcroît » (Ṣaḥīḥ
+      Muslim). Il a aussi dit : « La parure du croyant atteindra dans
+      l'au-delà jusqu'où atteint son wuḍūʾ. »
+    description_ar: |
+      وصف النبي ﷺ الوضوءَ تفصيلًا: يبدأ بالبسملة، ويغسل يديه ثلاثًا،
+      ويتمضمض ويستنشق ثلاثًا، ويغسل وجهه ثلاثًا، ويغسل ذراعَيه إلى
+      المرفقَين ثلاثًا (مبتدئًا باليمنى)، ويمسح برأسه مرَّةً (مقبلًا
+      ومدبرًا)، ويمسح أذنيه، ويغسل رجلَيه إلى الكعبَين ثلاثًا (اليمنى
+      قبل اليسرى). وقال: «من توضَّأ هكذا غُفر له ما تقدَّم من ذنبه،
+      وكانت صلاتُه ومشيُه إلى المسجد نافلةً» (صحيح مسلم). وقال أيضًا:
+      «تبلغ الحليةُ من المؤمن حيث يبلغ الوضوء».
     reference: Sahih al-Bukhari 159, Sahih Muslim 235, Sahih Muslim 250
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 245) records the detailed sunnah of wudu' as beginning with the basmala and washing each limb three times. Ibn al-Qayyim (Zad al-Ma'ad, 1:120) explains that the Prophet's ﷺ instruction to wash thoroughly is both purification of the body and expiation for sins. The four madhhabs agree on the essential elements (fara'id) while differing slightly on the sunnah acts, with the majority holding that the basmala is sunnah.
@@ -29,6 +52,8 @@ lessons:
   - slug: sunnah-ghusl
     category: sunnah_practice
     title_en: The Sunnah of Ghusl (Ritual Bath)
+    title_fr: La sunna du ghusl (bain rituel)
+    title_ar: سنَّة الغسل
     description_en: |
       Aisha ra described the Prophet's ﷺ ghusl: he would wash his hands,
       then perform wudu' as for prayer, then pour water over his head
@@ -39,6 +64,26 @@ lessons:
       major ritual impurity (janaba), after menstruation and
       post-natal bleeding, and recommended it strongly for Jumu'ah
       and the two Eids.
+    description_fr: |
+      ʿĀʾisha (qu'Allah l'agrée) décrivait le ghusl du Prophète ﷺ :
+      il se lavait d'abord les mains, puis accomplissait le wuḍūʾ
+      comme pour la prière, puis versait de l'eau sur sa tête trois
+      fois en la frottant à travers ses cheveux pour atteindre le
+      cuir chevelu, puis versait de l'eau sur le reste de son corps —
+      côté droit puis côté gauche — en s'assurant que chaque partie
+      était mouillée. Maymūna (qu'Allah l'agrée) ajoutait qu'il se
+      lavait les pieds à la fin. Le Prophète ﷺ rendit le ghusl
+      obligatoire après l'impureté majeure (janāba), après les règles
+      et les lochies, et le recommanda fortement pour la Jumuʿa et
+      les deux ʿĪd.
+    description_ar: |
+      وَصَفَتْ عائشةُ رضي الله عنها غسلَ النبي ﷺ: كان يغسل يديه، ثمَّ
+      يتوضَّأ كوضوء الصلاة، ثمَّ يصبُّ الماء على رأسه ثلاثًا يخلِّل به
+      أصول شعره ليبلغ بشرة الرأس، ثمَّ يفيض الماء على سائر جسده —
+      الأيمن ثمَّ الأيسر — حتى يَعُمَّ كلَّ موضعٍ منه. وزادت ميمونةُ
+      رضي الله عنها أنه كان يغسل قدميه في آخر الغسل. وأَوجَب النبي ﷺ
+      الغسل بعد الجنابة وبعد الحيض والنفاس، وأكَّد استحبابَه لِلجمعة
+      والعيدَين.
     reference: Sahih al-Bukhari 248, Sahih Muslim 317
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 253) notes that the sunnah of ghusl follows the same sequence as wudu' before pouring water over the body. Ibn al-Qayyim (Zad al-Ma'ad, 1:130) emphasizes that wetting the entire body, including the hair and scalp, is obligatory. The majority of scholars hold that ghusl for janaba is obligatory, while the Hanafis require it for Jumu'ah as well.
@@ -51,6 +96,8 @@ lessons:
   - slug: sunnah-entering-mosque
     category: sunnah_practice
     title_en: The Sunnah of Entering and Leaving the Mosque
+    title_fr: La sunna d'entrer et de sortir de la mosquée
+    title_ar: آداب دخول المسجد والخروج منه
     description_en: |
       The Prophet ﷺ taught to enter the mosque with the right foot,
       saying: "Allahumma iftah li abwaba rahmatik" (O Allah, open for me
@@ -60,6 +107,22 @@ lessons:
       (Tahiyyat al-Masjid — greeting of the mosque) before sitting down:
       "When one of you enters the mosque, let him not sit until he
       prays two rak'ahs."
+    description_fr: |
+      Le Prophète ﷺ enseigna à entrer dans la mosquée du pied droit
+      en disant : « Allāhumma iftaḥ lī abwāba raḥmatik » (Ô Allah,
+      ouvre-moi les portes de Ta miséricorde). En sortant, il avançait
+      le pied gauche et disait : « Allāhumma innī asʾaluka min faḍlik »
+      (Ô Allah, je Te demande de Ta grâce). Il enjoignit aussi de
+      prier deux rakʿahs (Taḥiyyat al-Masjid — la salutation de la
+      mosquée) avant de s'asseoir : « Quand l'un d'entre vous entre
+      dans la mosquée, qu'il ne s'assoie pas avant d'avoir prié deux
+      rakʿahs. »
+    description_ar: |
+      علَّم النبي ﷺ أن يدخل المسلمُ المسجدَ بِرِجْلِه اليمنى قائلًا:
+      «اللَّهمَّ افتح لي أبواب رحمتك». وعند الخروج يُقدِّم رِجْلَه
+      اليسرى ويقول: «اللَّهمَّ إنِّي أسألك من فضلك». وأمر بصلاة ركعتين
+      تحيَّةً للمسجد قبل الجلوس: «إذا دخل أحدكم المسجد فلا يجلس حتى
+      يصلِّيَ ركعتَين».
     reference: Sahih Muslim 713, Sahih al-Bukhari 444
     source_notes: |
       Al-Nawawi (al-Adhkar, pp. 236-237) records both the du'a for entering and leaving the mosque as established sunnah. Ibn al-Qayyim (Zad al-Ma'ad, 2:373) explains that the two rak'ahs of Tahiyyat al-Masjid are strongly encouraged before sitting. The four madhhabs agree on the du'a and the two rak'ahs, though they differ on whether sitting briefly before praying invalidates the greeting.
@@ -72,6 +135,8 @@ lessons:
   - slug: sunnah-toilet
     category: sunnah_practice
     title_en: The Sunnah of the Privy
+    title_fr: La sunna du lieu d'aisance
+    title_ar: آداب الخلاء
     description_en: |
       On entering the lavatory the Prophet ﷺ would put his left foot
       forward and say: "Allahumma inni a'udhu bika min al-khubuthi
@@ -81,6 +146,21 @@ lessons:
       act, or to take anything bearing the name of Allah into the privy.
       On leaving, with the right foot forward, he would say: "Ghufranak"
       (Your forgiveness).
+    description_fr: |
+      En entrant aux toilettes, le Prophète ﷺ avançait le pied gauche
+      et disait : « Allāhumma innī aʿūdhu bika min al-khubuthi
+      wa-l-khabāʾith » (Ô Allah, je cherche refuge auprès de Toi
+      contre les démons mâles et femelles). Il interdisait de faire
+      face ou de tourner le dos à la qibla pour faire ses besoins, de
+      parler durant l'acte, et d'emporter dans le lieu d'aisance toute
+      chose portant le nom d'Allah. En sortant, le pied droit en
+      premier, il disait : « Ghufrānak » (Ton pardon).
+    description_ar: |
+      كان النبي ﷺ إذا دخل الخلاء قدَّم رجله اليسرى وقال: «اللَّهم إني
+      أعوذ بك من الخُبُث والخبائث». ونهى عن استقبال القبلة
+      واستدبارها عند قضاء الحاجة، وعن الكلام في تلك الحال، وعن إدخال
+      ما فيه ذكرُ الله إلى الخلاء. وعند الخروج كان يُقدِّم رِجلَه
+      اليمنى ويقول: «غُفرانك».
     reference: Sahih al-Bukhari 142, Sunan Abi Dawud 30; sahih
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 239) records the du'a for entering the privy and the prohibition of facing the qibla. Ibn al-Qayyim (Zad al-Ma'ad, 2:375) adds that the left foot is used for entering places of impurity and the right for places of purity. The majority of scholars agree on these etiquettes, with the prohibition of facing the qibla being a point of consensus.
@@ -93,6 +173,8 @@ lessons:
   - slug: sunnah-breaking-fast-dates
     category: sunnah_practice
     title_en: The Sunnah of Breaking the Fast
+    title_fr: La sunna de la rupture du jeûne
+    title_ar: سنَّة الإفطار
     description_en: |
       Anas ibn Malik narrated: "The Prophet ﷺ would break his fast with
       fresh dates (rutab) before praying; if there were no fresh dates,
@@ -102,6 +184,22 @@ lessons:
       the supplication: "Dhahaba al-zama'u wa'btallat al-'uruqu wa
       thabata al-ajru insha'Allah" (The thirst is gone, the veins are
       moistened, and the reward is confirmed, Allah willing).
+    description_fr: |
+      Anas ibn Mālik a rapporté : « Le Prophète ﷺ rompait son jeûne
+      avec des dattes fraîches (ruṭab) avant de prier ; s'il n'y en
+      avait pas, alors avec des dattes sèches (tamr) ; s'il n'y avait
+      ni l'une ni l'autre, il buvait quelques gorgées d'eau. » Il a
+      aussi dit : « Les gens demeureront dans le bien tant qu'ils
+      hâteront la rupture du jeûne », et il enseigna la duʿāʾ :
+      « Dhahaba al-ẓamaʾu wa-btallat al-ʿurūqu wa thabata al-ajru
+      in shāʾa Allāh » (La soif est partie, les veines sont humectées,
+      et la récompense est confirmée, si Allah veut).
+    description_ar: |
+      روى أنسُ بنُ مالكٍ: «كان رسول الله ﷺ يُفطر على رُطَباتٍ قبل أن
+      يصلِّي، فإن لم تكن رُطَباتٌ فعلى تَمَراتٍ، فإن لم تكن تَمَراتٌ
+      حسا حَسَواتٍ من ماء». وقال أيضًا: «لا يزال الناسُ بخيرٍ ما
+      عَجَّلوا الفطر»، وعَلَّم الدعاءَ: «ذهب الظمأُ، وابتلَّت العروق،
+      وثبت الأجر إن شاء الله».
     reference: Sunan Abi Dawud 2356, Sunan Abi Dawud 2357; sahih
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 249) records the du'a for breaking the fast and the recommendation to hasten iftar. Ibn al-Qayyim (Zad al-Ma'ad, 2:44) explains that breaking with dates is sunnah based on the Prophet's ﷺ consistent practice. The majority of scholars hold that any food or drink suffices, but dates are the most virtuous.
@@ -114,6 +212,8 @@ lessons:
   - slug: sunnah-arafah-fast
     category: sunnah_practice
     title_en: Fasting the Day of 'Arafah
+    title_fr: Le jeûne du jour de ʿArafah
+    title_ar: صيام يوم عرفة
     description_en: |
       The Prophet ﷺ said: "Fasting the day of 'Arafah (9 Dhul Hijjah) —
       I anticipate from Allah that it expiates the year before it and
@@ -123,6 +223,21 @@ lessons:
       fasting in the Muslim year. (Pilgrims themselves do not fast on
       'Arafah, following the Prophet's ﷺ own practice on his Farewell
       Pilgrimage.)
+    description_fr: |
+      Le Prophète ﷺ a dit : « Jeûner le jour de ʿArafah (le 9 Dhū
+      al-Ḥijja) — j'espère d'Allah qu'il expie l'année qui le précède
+      et l'année qui le suit. » Le jour de ʿArafah est le jour central
+      du Ḥajj ; pour ceux qui n'accomplissent pas le pèlerinage, ce
+      jeûne est une sunna fortement recommandée — l'un des jours de
+      jeûne les plus rétribués de l'année musulmane. (Les pèlerins
+      eux-mêmes ne jeûnent pas le jour de ʿArafah, suivant la
+      pratique du Prophète ﷺ lors de son Pèlerinage d'adieu.)
+    description_ar: |
+      قال النبي ﷺ: «صيامُ يوم عرفة — أَحتسب على الله أن يُكفِّر السنةَ
+      التي قبله والسنةَ التي بعده». ويوم عرفة (التاسع من ذي الحجة) هو
+      ركنُ الحج الأعظم؛ ولغير الحاج صيامُه سنةٌ مؤكَّدةٌ، من أفضل
+      أيَّام الصيام في السنة. أما الحُجَّاج فلا يصومونه تأسِّيًا
+      بهديه ﷺ في حجَّة الوداع.
     reference: Sahih Muslim 1162
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 250) notes that fasting 'Arafah is a highly recommended sunnah for non-pilgrims. Ibn al-Qayyim (Zad al-Ma'ad, 2:34) explains that pilgrims do not fast on 'Arafah, following the Prophet's ﷺ own practice during his Farewell Pilgrimage. The four madhhabs agree on the strong recommendation of this fast for those not performing Hajj.
@@ -135,6 +250,8 @@ lessons:
   - slug: sunnah-six-days-shawwal
     category: sunnah_practice
     title_en: Fasting Six Days of Shawwal
+    title_fr: Les six jours de jeûne de Shawwāl
+    title_ar: صيام ستٍّ من شوَّال
     description_en: |
       The Prophet ﷺ said: "Whoever fasts Ramadan and then follows it
       with six days from Shawwal, it is as if he fasted the entire
@@ -143,6 +260,21 @@ lessons:
       Ramadan plus six of Shawwal equal thirty-six, multiplied by ten
       equals 360 — approximately a lunar year. The six days may be
       consecutive or spread across the month.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Quiconque jeûne le Ramadan puis le fait
+      suivre de six jours de Shawwāl, c'est comme s'il avait jeûné
+      l'année entière. » Les savants l'ont expliqué par le principe
+      coranique selon lequel une bonne action est multipliée par dix
+      (Coran 6:160) : trente jours de Ramadan plus six de Shawwāl
+      égalent trente-six, multipliés par dix font 360 — soit
+      approximativement une année lunaire. Ces six jours peuvent être
+      consécutifs ou répartis dans le mois.
+    description_ar: |
+      قال النبي ﷺ: «من صام رمضان ثم أتبعه ستًّا من شوَّال كان كصيام
+      الدهر». وفسَّر العلماء ذلك بقاعدة القرآن أنَّ الحسنة بعشر
+      أمثالها (الأنعام 6:160): ثلاثون من رمضان وستٌّ من شوَّال
+      ستٌّ وثلاثون، فإذا ضُربت في عَشرٍ صارت ثلاثَمئةٍ وستِّين —
+      وهي السنةُ القمريَّة. ويجوز صومها متتابعةً أو متفرِّقةً.
     reference: Sahih Muslim 1164
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 251) records the narration that six days of Shawwal complete the reward of a full year. Ibn al-Qayyim (Zad al-Ma'ad, 2:45) explains the calculation based on the tenfold reward mentioned in Surat al-An'am (6:160). The majority of scholars hold that these days may be consecutive or scattered, though some early scholars preferred continuity.
@@ -155,6 +287,8 @@ lessons:
   - slug: sunnah-white-days
     category: sunnah_practice
     title_en: Fasting the White Days (Ayyam al-Bid)
+    title_fr: Le jeûne des jours blancs (Ayyām al-Bīḍ)
+    title_ar: صيام الأيَّام البيض
     description_en: |
       The Prophet ﷺ said: "If you fast any part of the month, fast the
       thirteenth, fourteenth, and fifteenth" — the nights of the full
@@ -163,6 +297,20 @@ lessons:
       consistent rhythm of three fasts per lunar month, and combined
       with Mondays/Thursdays provides the majority of voluntary fasting
       recommended outside Ramadan.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Si tu jeûnes une partie du mois, jeûne
+      le treizième, le quatorzième et le quinzième » — les nuits de
+      pleine lune, appelées « ayyām al-bīḍ » (les jours blancs)
+      parce que la clarté de la lune rend les nuits lumineuses. La
+      pratique produit un rythme constant de trois jeûnes par mois
+      lunaire et, combinée aux lundis et jeudis, fournit la majorité
+      des jeûnes volontaires recommandés en dehors du Ramadan.
+    description_ar: |
+      قال النبي ﷺ: «إذا صُمتَ من الشهر شيئًا فصم الثالثَ عشر والرابعَ
+      عشر والخامسَ عشر» — وهي ليالي اكتمال البدر، وتسمَّى الأيَّام
+      البيض لإضاءة القمر فيها. وتُحدث هذه العادةُ إيقاعًا متَّصلًا من
+      ثلاثة أيَّامٍ في كلِّ شهرٍ هجري، وتشكِّل مع الإثنين والخميس
+      معظم الصيام التطوُّعيِّ المستحبِّ خارج رمضان.
     reference: Jami' at-Tirmidhi 761, Sunan an-Nasa'i 2434; sahih
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 252) records the recommendation to fast the white days (13th-15th of each lunar month). Ibn al-Qayyim (Zad al-Ma'ad, 2:45) notes that combining these with Mondays and Thursdays covers the most emphasized voluntary fasts. The four madhhabs agree on the merit of this practice.
@@ -175,6 +323,8 @@ lessons:
   - slug: sunnah-duha-prayer
     category: sunnah_practice
     title_en: Salat al-Duha (Forenoon Prayer)
+    title_fr: Ṣalāt al-Ḍuḥā — la prière du milieu de la matinée
+    title_ar: صلاة الضحى
     description_en: |
       The Prophet ﷺ recommended the Duha prayer — a voluntary prayer
       performed after sunrise fully rises (about 15-20 minutes after
@@ -185,6 +335,23 @@ lessons:
       also said: "In each morning charity is due upon every joint of a
       person — and the two rak'ahs of Duha are equivalent to all that
       charity."
+    description_fr: |
+      Le Prophète ﷺ recommandait la prière de Ḍuḥā — une prière
+      surérogatoire accomplie après que le soleil s'est entièrement
+      levé (environ 15 à 20 minutes après le lever) et avant qu'il
+      n'atteigne le zénith. Il priait de deux à huit rakʿahs. Abū
+      Hurayra rapporta : « Mon ami ﷺ m'a recommandé trois choses :
+      jeûner trois jours par mois, prier deux rakʿahs de Ḍuḥā, et
+      prier le Witr avant de dormir. » Il a aussi dit : « Chaque
+      matin, une aumône est due sur chaque articulation de l'homme —
+      et les deux rakʿahs de Ḍuḥā équivalent à toute cette aumône. »
+    description_ar: |
+      أَوصى النبي ﷺ بصلاة الضحى — وهي نافلةٌ تُصلَّى بعد ارتفاع الشمس
+      (نحو ربعِ ساعةٍ بعد الشروق) وقبل الزوال. وكان يصلِّي ما بين
+      ركعتين وثماني ركعاتٍ. روى أبو هريرة: «أَوصاني خليلي ﷺ بثلاثٍ:
+      صيام ثلاثة أيَّامٍ من كلِّ شهرٍ، وركعتَي الضحى، وأن أُوتر قبل
+      أن أنام». وقال أيضًا: «كلَّ صباحٍ على كلِّ سُلامى من ابن آدم
+      صدقةٌ — ويُجزئ من ذلك ركعتان يركعهما الإنسان من الضحى».
     reference: Sahih al-Bukhari 1981, Sahih Muslim 721, Sahih Muslim 720
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 258) records the narration that two rak'ahs of Duha suffice as charity for every joint. Ibn al-Qayyim (Zad al-Ma'ad, 1:310) explains that the time begins when the sun has risen fully and ends at zawal. The majority of scholars consider Salat al-Duha a confirmed sunnah, while some early scholars held it to be obligatory for those who missed Tahajjud.
@@ -197,6 +364,8 @@ lessons:
   - slug: sunnah-witr-prayer
     category: sunnah_practice
     title_en: Salat al-Witr — The Odd-Numbered Night Prayer
+    title_fr: Ṣalāt al-Witr — la prière impaire de la nuit
+    title_ar: صلاة الوتر
     description_en: |
       The Prophet ﷺ said: "Allah is One and loves the odd; so pray Witr,
       O people of the Qur'an." He prayed Witr in one, three, five,
@@ -206,6 +375,23 @@ lessons:
       recommended praying Witr before sleeping. It is not fard for the
       majority of scholars (though the Hanafis hold it wajib), but it
       is one of the most emphasised sunan.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Allah est Un et Il aime l'impair ;
+      priez donc le Witr, ô gens du Coran. » Il priait le Witr en
+      une, trois, cinq, sept, neuf ou onze rakʿahs. Il recommandait
+      de faire du Witr la dernière prière de la nuit : « Faites de
+      votre dernière prière nocturne le Witr. » Pour ceux qui ne
+      peuvent se réveiller pour le tahajjud, il recommandait de
+      prier le Witr avant de dormir. Il n'est pas farḍ pour la
+      majorité des savants (les Ḥanafites le tenant pour wājib),
+      mais c'est l'une des sunan les plus appuyées.
+    description_ar: |
+      قال النبي ﷺ: «إنَّ الله وترٌ يحبُّ الوتر، فأَوتروا يا أهلَ
+      القرآن». وكان يصلِّي الوتر بركعةٍ أو ثلاثٍ أو خمسٍ أو سبعٍ أو
+      تسعٍ أو إحدى عشرة. وأوصى بأن يُجعَل الوترُ آخرَ صلاة الليل:
+      «اجعلوا آخرَ صلاتكم بالليل وترًا». ولمن خاف ألَّا يقوم آخرَ
+      الليل أن يُوتر قبل أن ينام. وهو عند الجمهور سنةٌ مؤكَّدةٌ
+      (والحنفية يَعدُّونه واجبًا)، وهو من أَوكَد السُّنن.
     reference: Sahih al-Bukhari 998, Sahih Muslim 751
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 259) records the narration that Allah loves the odd and commands Witr. Ibn al-Qayyim (Zad al-Ma'ad, 1:315) explains that making Witr the final prayer is the consistent sunnah. The majority of scholars (Malikis, Shafi'is, Hanbalis) hold Witr as sunnah mu'akkada, while the Hanafis classify it as wajib.
@@ -218,6 +404,8 @@ lessons:
   - slug: sunnah-istikharah
     category: sunnah_practice
     title_en: Salat al-Istikharah — Seeking Guidance
+    title_fr: Ṣalāt al-Istikhāra — la demande de guidance
+    title_ar: صلاة الاستخارة
     description_en: |
       Jabir ibn Abdullah narrated that the Prophet ﷺ used to teach them
       the Istikharah prayer "as he would teach us a surah of the Qur'an,"
@@ -229,6 +417,26 @@ lessons:
       unseen. O Allah, if You know that this matter is good for me in
       my religion, my livelihood, and the end of my affair — then ordain
       it for me, make it easy for me, and bless me in it…'"
+    description_fr: |
+      Jābir ibn ʿAbdullāh rapporta que le Prophète ﷺ leur enseignait
+      la prière de l'Istikhāra « comme il nous enseignait une sourate
+      du Coran », disant : « Quand l'un d'entre vous décide d'une
+      affaire, qu'il prie deux rakʿahs surérogatoires, puis qu'il
+      dise : « Ô Allah, je sollicite Ton guidage par Ta science et
+      j'implore Ta force par Ta puissance, et je Te demande de Ta
+      grâce immense. Tu es capable et je ne le suis pas, Tu sais et
+      je ne sais pas, et Tu es le Connaisseur des choses cachées. Ô
+      Allah, si Tu sais que cette affaire est bonne pour moi dans ma
+      religion, ma subsistance et l'aboutissement de mon affaire —
+      décrète-la-moi, facilite-la-moi et bénis-la pour moi… » »
+    description_ar: |
+      روى جابرُ بنُ عبد الله أنَّ النبي ﷺ كان يُعلِّمهم صلاةَ
+      الاستخارة «كما يُعلِّمنا السورةَ من القرآن»، فيقول: «إذا هَمَّ
+      أحدُكم بالأمر فليركع ركعتين من غير الفريضة، ثمَّ ليقل: اللَّهم
+      إنِّي أستخيرك بعِلمك، وأستقدِرك بقُدرتك، وأسألك من فضلك العظيم،
+      فإنَّك تَقدِر ولا أَقدِر، وتَعلَم ولا أَعلَم، وأنت علَّامُ
+      الغيوب. اللَّهم إن كنتَ تَعلَم أنَّ هذا الأمرَ خيرٌ لي في ديني
+      ومعاشي وعاقبة أمري — فاقدِره لي ويسِّره لي ثم بارك لي فيه…».
     reference: Sahih al-Bukhari 6382, 7390 (Jabir ibn Abdullah; full istikharah text)
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 268) records the complete du'a of istikhara and notes that the Prophet ﷺ taught it as he taught a surah. Ibn al-Qayyim (Zad al-Ma'ad, 2:380) explains that istikhara is seeking the choice of the All-Knowing in every matter. The four madhhabs agree on the prayer and du'a, differing only on whether it is specifically for marriage or general decisions.
@@ -242,6 +450,8 @@ lessons:
   - slug: sunnah-visiting-graves
     category: sunnah_practice
     title_en: The Sunnah of Visiting Graves
+    title_fr: La sunna de la visite des tombes
+    title_ar: سنَّة زيارة القبور
     description_en: |
       The Prophet ﷺ said: "I used to forbid you from visiting graves —
       so now visit them, for they remind you of the Hereafter." He
@@ -252,6 +462,23 @@ lessons:
       Allah for well-being for us and for you." He forbade supplicating
       to the dead, prostrating at graves, or turning them into objects
       of worship.
+    description_fr: |
+      Le Prophète ﷺ a dit : « Je vous interdisais auparavant la
+      visite des tombes — visitez-les maintenant, car elles vous
+      rappellent l'au-delà. » Il enseigna le salut aux gens des
+      tombes : « Que la paix soit sur vous, ô croyants et musulmans
+      parmi les habitants de ces demeures ; qu'Allah fasse miséricorde
+      à ceux qui nous ont précédés et à ceux qui suivent ; nous vous
+      rejoindrons, si Allah veut. Nous demandons à Allah le bien-être
+      pour nous et pour vous. » Il interdit d'invoquer les morts, de
+      se prosterner sur les tombes ou d'en faire des objets d'adoration.
+    description_ar: |
+      قال النبي ﷺ: «كنتُ نهيتُكم عن زيارة القبور فزوروها، فإنها
+      تذكِّركم الآخرة». وعَلَّم سلامَ أهل القبور: «السَّلامُ عليكم،
+      أهلَ الديار، من المؤمنين والمسلمين، ويرحم الله المُستقدمين منَّا
+      والمستأخرين، وإنَّا إن شاء الله بكم لاحقون، نسأل الله لنا
+      ولكم العافية». ونهى عن دعاء الأموات والسجود على القبور واتِّخاذها
+      أوثانًا.
     reference: Sahih Muslim 976, Sahih Muslim 974
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 274) records the du'a for visiting graves and the prohibition of supplicating to the dead. Ibn al-Qayyim (Zad al-Ma'ad, 2:381) explains that visiting graves was initially forbidden due to the proximity of jahiliyya practices, then permitted for remembrance of the Hereafter. The majority hold that women may visit graves though it is less encouraged, while some early scholars discouraged it.
@@ -264,6 +491,8 @@ lessons:
   - slug: sunnah-janazah
     category: sunnah_practice
     title_en: The Sunnah of the Funeral Prayer (Salat al-Janazah)
+    title_fr: La sunna de la prière funéraire (Ṣalāt al-Janāza)
+    title_ar: سنَّة صلاة الجنازة
     description_en: |
       The Prophet ﷺ taught a specific prayer for the deceased — performed
       standing, without ruku' or sujud, with four takbirs. After the
@@ -274,6 +503,27 @@ lessons:
       supplication, then taslim. The Prophet ﷺ said: "When a Muslim is
       prayed over by a group of 100 who intercede for him, he is
       forgiven" — and in another narration, by 40 sincere worshippers.
+    description_fr: |
+      Le Prophète ﷺ enseigna une prière particulière pour le défunt —
+      accomplie debout, sans rukūʿ ni sujūd, avec quatre takbīrs.
+      Après le premier takbīr, l'imām récite al-Fātiḥa ; après le
+      deuxième, la ṣalāt sur le Prophète ﷺ ; après le troisième, une
+      duʿāʾ pour le défunt, classiquement : « Ô Allah, pardonne à
+      nos vivants et nos morts, à ceux qui sont présents et à ceux
+      qui sont absents… » ; après le quatrième, une brève
+      supplication, puis le taslīm. Le Prophète ﷺ a dit : « Quand un
+      musulman est prié sur par un groupe de cent qui intercèdent en
+      sa faveur, il est pardonné » — et dans une autre narration, par
+      quarante adorateurs sincères.
+    description_ar: |
+      علَّم النبيُّ ﷺ صلاةً مخصوصةً للميِّت — تُصلَّى قيامًا، بلا
+      ركوعٍ ولا سجودٍ، بأربع تكبيراتٍ. بعد الأولى يقرأ الإمامُ
+      الفاتحةَ، وبعد الثانية يصلِّي على النبي ﷺ، وبعد الثالثة يدعو
+      للميِّت، ومن أشهر الأدعية: «اللَّهم اغفر لحيِّنا وميِّتنا،
+      وشاهدنا وغائبنا...»، وبعد الرابعة يَدْعُو دعاءً يسيرًا ثمَّ
+      يُسلِّم. وقال النبي ﷺ: «ما من مسلمٍ يموت فيقوم على جنازته أربعون
+      رجلًا لا يُشركون بالله شيئًا إلا شفَّعهم الله فيه» — وفي روايةٍ
+      أخرى مئةٌ.
     reference: Sahih Muslim 947, Sunan Abi Dawud 3199
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 275) records the du'a for the deceased after the four takbirs. Ibn al-Qayyim (Zad al-Ma'ad, 2:385) explains that the Janaza prayer is a communal obligation and the last gift to a Muslim. The four madhhabs agree on the four takbirs, though they differ slightly on the recommended supplications after each one.
@@ -286,6 +536,8 @@ lessons:
   - slug: sunnah-itikaf
     category: sunnah_practice
     title_en: I'tikaf — Spiritual Retreat in the Last Ten of Ramadan
+    title_fr: L'iʿtikāf — la retraite spirituelle des dix dernières nuits du Ramadan
+    title_ar: الاعتكاف في العشر الأواخر من رمضان
     description_en: |
       Aisha ra narrated: "The Prophet ﷺ used to perform I'tikaf in the
       last ten days of Ramadan until Allah took him; then his wives
@@ -295,6 +547,23 @@ lessons:
       the remembrance of Allah. The Prophet ﷺ instituted it to coincide
       with the search for Laylat al-Qadr, and the practice has remained
       a hallmark of the last ten nights of Ramadan for fifteen centuries.
+    description_fr: |
+      ʿĀʾisha (qu'Allah l'agrée) rapporta : « Le Prophète ﷺ accomplissait
+      l'iʿtikāf dans les dix derniers jours du Ramadan jusqu'à ce
+      qu'Allah le rappelle ; ses femmes accomplirent l'iʿtikāf après
+      lui. » L'iʿtikāf est la réclusion à la mosquée pour l'adoration —
+      couper les distractions de la vie quotidienne pour se concentrer
+      sur la prière, la récitation, la supplication et l'évocation
+      d'Allah. Le Prophète ﷺ l'institua pour coïncider avec la
+      recherche de Laylat al-Qadr, et la pratique est demeurée la
+      marque des dix dernières nuits du Ramadan depuis quinze siècles.
+    description_ar: |
+      روت عائشةُ رضي الله عنها: «كان النبي ﷺ يعتكف العشر الأواخر من
+      رمضان حتى توفَّاه الله، ثم اعتكفت أزواجُه من بعده». والاعتكاف
+      هو لزوم المسجد للعبادة — قَطْع شواغل الدنيا للتفرُّغ للصلاة
+      والتلاوة والدعاء وذكر الله. وقد جعله النبي ﷺ مقترنًا بطلب ليلة
+      القدر، وبقيت هذه السنَّة سمةَ العشر الأواخر من رمضان منذ خمسةَ
+      عشرَ قرنًا.
     reference: Sahih al-Bukhari 2026, Sahih Muslim 1172
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 276) records that I'tikaf in the last ten days was the consistent practice of the Prophet ﷺ until his death. Ibn al-Qayyim (Zad al-Ma'ad, 2:90) explains that seclusion in the mosque for worship is a sunnah mu'akkada, especially in Ramadan. The majority of scholars hold that I'tikaf requires fasting and intention, with the Shafi'i school requiring it to be in a mosque where congregational prayer is established.
@@ -307,6 +576,8 @@ lessons:
   - slug: sunnah-morning-evening-adhkar
     category: sunnah_practice
     title_en: The Morning and Evening Remembrances (Adhkar)
+    title_fr: Les adhkār du matin et du soir
+    title_ar: أذكار الصباح والمساء
     description_en: |
       The Prophet ﷺ taught specific supplications to be said in the
       morning and evening: Ayat al-Kursi, the last three surahs
@@ -318,6 +589,24 @@ lessons:
       adhkar are a protective fortress against the trials of the day
       and night, and a consistent daily act of tawhid and reliance on
       Allah.
+    description_fr: |
+      Le Prophète ﷺ enseigna des supplications spécifiques à dire
+      matin et soir : Āyat al-Kursī, les trois dernières sourates
+      (al-Ikhlāṣ, al-Falaq, al-Nās, chacune trois fois), Sayyid
+      al-Istighfār (« Ô Allah, Tu es mon Seigneur ; il n'est de
+      divinité que Toi ; Tu m'as créé et je suis Ton serviteur… »),
+      « Ḥasbiya Allāhu lā ilāha illā Huwa » sept fois, « Allāhumma
+      innī asʾaluka al-ʿafwa wa-l-ʿāfiya fi-l-dunyā wa-l-ākhira », et
+      d'autres. Ensemble ces adhkār forment une forteresse protectrice
+      contre les épreuves du jour et de la nuit, et un acte
+      quotidien constant de tawḥīd et de tawakkul.
+    description_ar: |
+      علَّم النبي ﷺ أذكارًا مخصوصةً تُقال صباحًا ومساءً: آية الكرسي،
+      والمعوِّذتان والإخلاص ثلاث مرَّاتٍ، وسيِّد الاستغفار («اللَّهم
+      أنت ربي لا إله إلا أنت، خلقتني وأنا عبدك...»)، و«حسبيَ الله
+      لا إله إلا هو» سبعًا، و«اللَّهم إني أسألك العفو والعافية في
+      الدنيا والآخرة»، وغيرها. وهذه الأذكار حصنُ المسلم من بلاء النهار
+      والليل، وعملٌ يوميٌّ متَّصلٌ من التوحيد والتوكُّل.
     reference: Sahih al-Bukhari 6306, Sunan Abi Dawud 5090; sahih
     source_notes: |
       Al-Nawawi (al-Adhkar, pp. 227-235) provides the most comprehensive classical compilation of morning and evening adhkar, explaining their protective function. Ibn al-Qayyim (al-Manar al-Munif, 1:45) adds that these remembrances are the believer's fortress against the trials of day and night. The four madhhabs encourage these adhkar, with the Shafi'i school emphasizing their specific timings.
@@ -330,6 +619,8 @@ lessons:
   - slug: sunnah-tahajjud
     category: sunnah_practice
     title_en: Tahajjud — Rising in the Depth of the Night
+    title_fr: Le tahajjud — se lever au cœur de la nuit
+    title_ar: التهجُّد في جوف الليل
     description_en: |
       Allah addresses the Prophet ﷺ directly in Surah al-Isra: "Rise at
       night for prayer — an extra for you; perhaps your Lord will raise
@@ -341,6 +632,28 @@ lessons:
       Allah is that of Dawud ﷺ, and the most beloved prayer to Allah
       is that of Dawud ﷺ: he slept half the night, prayed a third, and
       slept a sixth" (Sahih al-Bukhari 1131).
+    description_fr: |
+      Allah s'adresse au Prophète ﷺ directement dans la sourate
+      al-Isrāʾ : « Lève-toi la nuit pour prier — surplus pour toi ;
+      peut-être que ton Seigneur t'élèvera à un rang loué » (Coran
+      17:79). Le Prophète ﷺ se levait dans le dernier tiers de la
+      nuit, faisait le wuḍūʾ et priait de deux à douze rakʿahs avec
+      lenteur et longue récitation. Le tahajjud lui était
+      personnellement obligatoire ; pour la communauté, c'est la
+      prière surérogatoire la plus vertueuse. « Le jeûne le plus aimé
+      d'Allah est celui de Dāwūd ﷺ, et la prière la plus aimée
+      d'Allah est celle de Dāwūd ﷺ : il dormait la moitié de la
+      nuit, priait un tiers et dormait un sixième » (Ṣaḥīḥ al-Bukhārī
+      1131).
+    description_ar: |
+      خاطب الله النبيَّ ﷺ مباشرةً في سورة الإسراء: «وَمِنَ اللَّيْلِ
+      فَتَهَجَّدْ بِهِ نَافِلَةً لَكَ عَسَى أَنْ يَبْعَثَكَ رَبُّكَ
+      مَقَامًا مَحْمُودًا» (الإسراء 17:79). كان النبي ﷺ يقوم في الثلث
+      الأخير من الليل، فيتوضَّأ ويصلِّي من ركعتين إلى اثنتي عشرة
+      ركعةً بترتيلٍ ومُكْثٍ. وقد كان التهجُّد فرضًا عليه ﷺ شخصيًّا،
+      وهو لِلأمة أفضل النوافل. وقال ﷺ: «أحبُّ الصيام إلى الله صيامُ
+      داودَ ﷺ، وأحبُّ الصلاة إلى الله صلاةُ داودَ ﷺ: كان ينام نصف
+      الليل ويقوم ثلثه وينام سدسه» (البخاري 1131).
     reference: Sahih al-Bukhari 1131, Sahih Muslim 758
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 255) records the virtues of Tahajjud and the narration that the Lord descends to the lowest heaven in the last third of the night. Ibn al-Qayyim (Zad al-Ma'ad, 1:305) explains that Tahajjud was obligatory upon the Prophet ﷺ personally and is the most virtuous voluntary prayer for the Umma. The four madhhabs agree on its excellence, though they differ on the optimal number of rak'ahs.
@@ -353,6 +666,8 @@ lessons:
   - slug: sunnah-umrah-ramadan
     category: sunnah_practice
     title_en: The Virtue of Umrah in Ramadan
+    title_fr: La vertu de la ʿUmra en Ramadan
+    title_ar: فضل العمرة في رمضان
     description_en: |
       The Prophet ﷺ said to Umm Sinan al-Ansariyya after she missed
       Hajj: "Perform Umrah in Ramadan, for Umrah in Ramadan is equal to
@@ -361,6 +676,22 @@ lessons:
       is only fulfilled by Hajj itself), but the hadith makes the
       fulfilment of one's vow of pilgrimage during Ramadan an extremely
       virtuous act, amplified further by combination with fasting.
+    description_fr: |
+      Le Prophète ﷺ dit à Umm Sinān al-Anṣāriyya après qu'elle eut
+      manqué le Ḥajj : « Accomplis la ʿUmra en Ramadan, car la ʿUmra
+      en Ramadan équivaut à un Ḥajj avec moi. » Les savants classiques
+      ont expliqué cette équivalence comme étant en récompense plutôt
+      qu'en obligation légale (le pilier du Ḥajj n'est accompli que
+      par le Ḥajj lui-même), mais le ḥadīth fait de l'accomplissement
+      d'un vœu de pèlerinage durant le Ramadan un acte extrêmement
+      vertueux, encore amplifié par la combinaison avec le jeûne.
+    description_ar: |
+      قال النبي ﷺ لأمِّ سنانٍ الأنصاريَّة لمَّا فاتَها الحجُّ:
+      «اعتمري في رمضان، فإنَّ عمرةً في رمضان حجَّةٌ معي». وقد فسَّر
+      العلماء هذه المُعادَلة بكونها في الأجر لا في الفرض الشرعي
+      (فإنَّ ركن الحج لا يَسقُط إلا بأداء الحج)، ولكنَّ الحديثَ يَجعل
+      أداءَ نُسُك العمرة في رمضان عملًا عظيم الفضل، يُضاعفه اقترانه
+      بالصيام.
     reference: Sahih al-Bukhari 1863, Sahih Muslim 1256
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 280) notes the narration that 'Umrah in Ramadan equals Hajj in reward. Ibn al-Qayyim (Zad al-Ma'ad, 2:130) explains that this equivalence is in reward, not in legal obligation. The four madhhabs agree on the immense virtue, with the majority holding that multiple 'Umrahs in Ramadan multiply the reward.
@@ -373,6 +704,8 @@ lessons:
   - slug: sunnah-salams-children
     category: sunnah_practice
     title_en: Greeting Children with Salam
+    title_fr: Saluer les enfants par le salām
+    title_ar: السلام على الصِّبيان
     description_en: |
       Anas ibn Malik narrated that the Prophet ﷺ used to pass by
       children and greet them with salam. In a separate hadith, Anas
@@ -383,6 +716,25 @@ lessons:
       dignity of children — their honour before Allah is the same as
       that of adults, and is to be reflected in greeting, speech, and
       treatment.
+    description_fr: |
+      Anas ibn Mālik rapporta que le Prophète ﷺ avait coutume de
+      passer auprès d'enfants et de les saluer par le salām. Dans un
+      autre ḥadīth, Anas dit : « J'ai servi le Prophète ﷺ pendant dix
+      ans. Il ne m'a jamais dit « uff », ni à propos de ce que j'ai
+      fait : « Pourquoi as-tu fait cela ? », ni à propos de ce que je
+      n'ai pas fait : « Pourquoi ne l'as-tu pas fait ? » » Ensemble,
+      ces récits montrent l'égalité de traitement par le Prophète ﷺ
+      de la dignité des enfants — leur honneur devant Allah est le
+      même que celui des adultes, et il doit se refléter dans le
+      salut, la parole et le traitement.
+    description_ar: |
+      روى أنسُ بنُ مالكٍ أنَّ النبي ﷺ كان يَمُرُّ بالصِّبيان فيُسلِّم
+      عليهم. وفي حديثٍ آخر قال أنسٌ: «خدمتُ النبيَّ ﷺ عشرَ سنين، ما
+      قال لي: أُفٍّ قطُّ، ولا قال لِشيءٍ صنعتُه: لِمَ صنعتَه؟ ولا
+      لِشيءٍ تركتُه: لِمَ تركتَه؟». وتَدُلُّ هذه النصوصُ مجتمعةً على
+      أنَّ النبيَّ ﷺ سَوَّى بين كرامة الصغار وكرامة الكبار في القَدْر
+      عند الله، وأنَّه ينبغي أن يَنعكس ذلك في السلام والكلام
+      والمعاملة.
     reference: "Sahih Muslim 2168; Sahih al-Bukhari 6247 (Anas — Prophet greeting groups of boys)"
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 282) records the narration that the Prophet ﷺ greeted children with salam. Ibn al-Qayyim (Zad al-Ma'ad, 2:150) explains that this practice establishes the dignity of children and trains them in Islamic etiquette from an early age. The four madhhabs agree on the recommendation to greet children, as it follows the prophetic model of mercy.
@@ -396,6 +748,8 @@ lessons:
   - slug: sunnah-respecting-parents
     category: sunnah_practice
     title_en: The Sunnah of Filial Piety
+    title_fr: La sunna de la piété filiale
+    title_ar: سنَّة بِرِّ الوالدين
     description_en: |
       A man came to the Prophet ﷺ and asked: "Who is most deserving of
       my companionship?" He said: "Your mother." "Then whom?" "Your
@@ -405,6 +759,24 @@ lessons:
       humility out of mercy, and say: My Lord, have mercy upon them as
       they raised me up when I was small" (17:23-24). The Prophet ﷺ
       also said: "Paradise is at the feet of the mothers."
+    description_fr: |
+      Un homme vint au Prophète ﷺ et demanda : « Qui mérite le plus
+      ma compagnie ? » Il répondit : « Ta mère. » — « Puis qui ? » —
+      « Ta mère. » — « Puis qui ? » — « Ta mère. » — « Puis qui ? » —
+      « Ton père. » Le Coran ordonne : « Ne leur dis pas « uff » et
+      ne les repousse pas, mais adresse-leur des paroles nobles.
+      Abaisse pour eux l'aile de l'humilité par miséricorde, et dis :
+      Mon Seigneur, fais-leur miséricorde comme ils m'ont élevé tout
+      petit » (Coran 17:23-24). Le Prophète ﷺ a aussi dit : « Le
+      Paradis est aux pieds des mères. »
+    description_ar: |
+      جاء رجلٌ إلى النبي ﷺ فقال: «من أحقُّ الناس بحُسن صُحبتي؟»، قال:
+      «أمُّك». قال: «ثم من؟» قال: «أمُّك». قال: «ثم من؟» قال: «أمُّك».
+      قال: «ثم من؟» قال: «أبوك». ويأمر القرآن: «فَلَا تَقُلْ لَهُمَا
+      أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا،
+      وَاخْفِضْ لَهُمَا جَنَاحَ الذُّلِّ مِنَ الرَّحْمَةِ وَقُلْ
+      رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا» (الإسراء
+      17:23-24). وقال النبي ﷺ أيضًا: «الجنَّةُ تحت أقدام الأمَّهات».
     reference: Sahih al-Bukhari 5971, Sahih Muslim 2548, Qur'an 17:23-24
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 283) records the narration that Paradise is at the feet of mothers. Ibn al-Qayyim (Zad al-Ma'ad, 2:160) explains that filial piety (birr al-walidayn) is second only to tawhid in the rights of creation. The four madhhabs agree on the obligation of kindness to parents, with the majority holding that even non-Muslim parents must be treated with excellence.
@@ -417,6 +789,8 @@ lessons:
   - slug: sunnah-gratitude-after-eating
     category: sunnah_practice
     title_en: The Sunnah of Gratitude After Eating
+    title_fr: La sunna de la gratitude après le repas
+    title_ar: سنَّة الحمد بعد الطعام
     description_en: |
       The Prophet ﷺ taught: "Allah is pleased with the servant who
       eats a meal and praises Him for it, and drinks a drink and praises
@@ -428,6 +802,24 @@ lessons:
       multiple times daily, is one of the simplest practical
       techniques in Islamic spirituality for cultivating constant
       shukr.
+    description_fr: |
+      Le Prophète ﷺ a enseigné : « Allah agrée le serviteur qui mange
+      un repas et Le loue pour cela, et qui boit une boisson et Le
+      loue pour cela. » Il recommandait la supplication après le
+      repas : « al-Ḥamdu lillāh alladhī aṭʿamanī hādhā wa razaqanīhi
+      min ghayri ḥawlin minnī wa lā quwwa » (Louange à Allah qui m'a
+      donné cette nourriture et me l'a fournie sans pouvoir ni force
+      de ma part). La brève discipline de remarquer et de remercier,
+      répétée plusieurs fois par jour, est l'une des techniques les
+      plus simples et pratiques de la spiritualité islamique pour
+      cultiver un shukr constant.
+    description_ar: |
+      علَّم النبي ﷺ: «إنَّ الله ليرضى عن العبد أن يأكل الأكلة فيحمده
+      عليها، ويشرب الشَّربة فيحمده عليها». وأَوصى بدعاء ما بعد الطعام:
+      «الحمد لله الذي أطعمني هذا ورزقنيه من غير حولٍ منِّي ولا قوَّةٍ».
+      وهذه الرياضة اليسيرة — الانتباه ثم الشكر — التي تتكرَّر مرَّاتٍ
+      في اليوم، من أبسط طرائق التزكية في الإسلام لترسيخ الشكر
+      المتَّصل.
     reference: Sahih Muslim 2734 (Allah pleased when servant praises Him for food). Note — the popular post-meal supplication wording is reported with multiple chains; the principle of praise after eating is firmly established by Muslim 2734.
     source_notes: |
       Al-Nawawi (al-Adhkar, p. 248) records that praising Allah after eating is a means of divine pleasure. Ibn al-Qayyim (Zad al-Ma'ad, 2:20) explains that the specific wording of gratitude after meals combines acknowledgment of the gift with recognition of human incapacity. The four madhhabs encourage this practice, with the majority holding that the basmala before eating and the hamd after are both sunnah.
