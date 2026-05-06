@@ -9,6 +9,9 @@ import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
 import 'package:iotd_mobile/features/bookmarks/save_button.dart';
 import 'package:iotd_mobile/features/event/event_provider.dart';
+import 'package:iotd_mobile/features/event/widgets/disputed_drawer.dart';
+import 'package:iotd_mobile/features/event/widgets/people_section.dart';
+import 'package:iotd_mobile/features/event/widgets/sources_section.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
 import 'package:iotd_mobile/shared/verse_epigraph.dart';
@@ -132,9 +135,16 @@ class _Body extends StatelessWidget {
           ),
         if (event.disputed) ...[
           const SizedBox(height: 12),
-          DisputeBadge(
-            about: _disputeOf(event.disputeAbout),
-            label: _disputeLabel(i18n, event.disputeAbout),
+          Builder(
+            builder: (ctx) => DisputeBadge(
+              about: _disputeOf(event.disputeAbout),
+              label: _disputeLabel(i18n, event.disputeAbout),
+              onTap: () => showDisputedDrawer(
+                ctx,
+                positions: event.disputedPositions,
+                aboutLabel: _disputeLabel(i18n, event.disputeAbout) ?? '',
+              ),
+            ),
           ),
         ],
         if ((event.imageUrl ?? '').isNotEmpty) ...[
@@ -186,6 +196,8 @@ class _Body extends StatelessWidget {
             style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.6),
           ),
         ],
+        PeopleSection(people: event.people),
+        SourcesSection(sources: event.sources),
         if ((event.sourceUrl ?? '').isNotEmpty) ...[
           const SizedBox(height: 22),
           Center(

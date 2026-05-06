@@ -45,6 +45,9 @@ class TranslationsFr with BaseTranslations<AppLocale, Translations> implements T
 	@override late final _TranslationsNavFr nav = _TranslationsNavFr._(_root);
 	@override late final _TranslationsSettingsFr settings = _TranslationsSettingsFr._(_root);
 	@override late final _TranslationsErrorsFr errors = _TranslationsErrorsFr._(_root);
+	@override late final _TranslationsEventFr event = _TranslationsEventFr._(_root);
+	@override late final _TranslationsPersonFr person = _TranslationsPersonFr._(_root);
+	@override late final _TranslationsAboutFr about = _TranslationsAboutFr._(_root);
 	@override late final _TranslationsAuthFr auth = _TranslationsAuthFr._(_root);
 }
 
@@ -159,6 +162,69 @@ class _TranslationsErrorsFr implements TranslationsErrorsEn {
 	@override String get not_found => 'Introuvable.';
 }
 
+// Path: event
+class _TranslationsEventFr implements TranslationsEventEn {
+	_TranslationsEventFr._(this._root);
+
+	final TranslationsFr _root; // ignore: unused_field
+
+	// Translations
+	@override String get sources => 'Sources';
+	@override String get people => 'Personnes';
+	@override String get source_classical => 'classique';
+	@override String get source_primary => 'primaire';
+	@override String get source_modern => 'moderne';
+	@override String get weight_primary => 'principale';
+	@override String get weight_notable => 'notable';
+	@override String get weight_minority => 'minoritaire';
+	@override String get disputed_drawer_title => 'Positions attestées';
+	@override String get disputed_drawer_intro => 'Les sources classiques sunnites divergent sur ce point. Les positions sont listées par ordre d\'attestation.';
+}
+
+// Path: person
+class _TranslationsPersonFr implements TranslationsPersonEn {
+	_TranslationsPersonFr._(this._root);
+
+	final TranslationsFr _root; // ignore: unused_field
+
+	// Translations
+	@override String get eyebrow => 'Personne';
+	@override String get biography => 'Biographie';
+	@override String get restricted_prophet => 'Par révérence, aucune image des Prophètes ﷺ n\'est affichée.';
+	@override String get restricted_sahabi => 'Par principe, aucune image générée par IA d\'un Compagnon n\'est affichée.';
+	@override String get restricted_ahl_al_bayt => 'Par principe, aucune image générée par IA des Ahl al-Bayt n\'est affichée.';
+}
+
+// Path: about
+class _TranslationsAboutFr implements TranslationsAboutEn {
+	_TranslationsAboutFr._(this._root);
+
+	final TranslationsFr _root; // ignore: unused_field
+
+	// Translations
+	@override String get headline => 'Le corpus classique, jour après jour.';
+	@override String get intro => 'Des événements vérifiés sur les 1 400 ans de l\'histoire de l\'islam. Chaque entrée enracinée dans les sources classiques, chaque date contestée préservée.';
+	@override String get image_policy_title => 'Politique d\'image';
+	@override String get policy_architecture => 'Architecture';
+	@override String get policy_architecture_detail => 'Mosquées, manuscrits, calligraphie, ornements géométriques, sites archéologiques.';
+	@override String get policy_cartography => 'Cartographie';
+	@override String get policy_cartography_detail => 'Cartes d\'époque, plans de bataille, routes commerciales, territoires dynastiques.';
+	@override String get policy_manuscripts => 'Manuscrits & objets';
+	@override String get policy_manuscripts_detail => 'Folios, monnaies, sceaux, textiles, instruments.';
+	@override String get policy_prophets => 'Les Prophètes ﷺ';
+	@override String get policy_prophets_detail => 'Aucune représentation de Muḥammad, ʿĪsā, Mūsā ou de tout autre prophète — visuelle ou autre.';
+	@override String get policy_family => 'La Famille du Prophète ﷺ';
+	@override String get policy_family_detail => 'Aucune représentation des Ahl al-Bayt ou des Rāshidūn.';
+	@override String get policy_generated => 'Portraits générés';
+	@override String get policy_generated_detail => 'Aucun portrait IA de figures historiques dont l\'apparence n\'est pas attestée.';
+	@override String get other_projects => 'Autres projets';
+	@override String get majlisna_subtitle => 'Salons & rassemblements — apprentissage joyeux.';
+	@override String get latabdhir_subtitle => 'Surplus alimentaire, redistribué.';
+	@override String get contact => 'Contact';
+	@override String get colophon => 'Colophon';
+	@override String get colophon_body => 'Texte coranique d\'après le Mushaf ʿUthmānī de Tanzil. Traduction anglaise de Saheeh International. Traduction française de Muḥammad Hamidullah.';
+}
+
 // Path: auth
 class _TranslationsAuthFr implements TranslationsAuthEn {
 	_TranslationsAuthFr._(this._root);
@@ -226,6 +292,42 @@ extension on TranslationsFr {
 			'errors.generic' => 'Une erreur est survenue.',
 			'errors.offline' => 'Vous semblez hors ligne.',
 			'errors.not_found' => 'Introuvable.',
+			'event.sources' => 'Sources',
+			'event.people' => 'Personnes',
+			'event.source_classical' => 'classique',
+			'event.source_primary' => 'primaire',
+			'event.source_modern' => 'moderne',
+			'event.weight_primary' => 'principale',
+			'event.weight_notable' => 'notable',
+			'event.weight_minority' => 'minoritaire',
+			'event.disputed_drawer_title' => 'Positions attestées',
+			'event.disputed_drawer_intro' => 'Les sources classiques sunnites divergent sur ce point. Les positions sont listées par ordre d\'attestation.',
+			'person.eyebrow' => 'Personne',
+			'person.biography' => 'Biographie',
+			'person.restricted_prophet' => 'Par révérence, aucune image des Prophètes ﷺ n\'est affichée.',
+			'person.restricted_sahabi' => 'Par principe, aucune image générée par IA d\'un Compagnon n\'est affichée.',
+			'person.restricted_ahl_al_bayt' => 'Par principe, aucune image générée par IA des Ahl al-Bayt n\'est affichée.',
+			'about.headline' => 'Le corpus classique, jour après jour.',
+			'about.intro' => 'Des événements vérifiés sur les 1 400 ans de l\'histoire de l\'islam. Chaque entrée enracinée dans les sources classiques, chaque date contestée préservée.',
+			'about.image_policy_title' => 'Politique d\'image',
+			'about.policy_architecture' => 'Architecture',
+			'about.policy_architecture_detail' => 'Mosquées, manuscrits, calligraphie, ornements géométriques, sites archéologiques.',
+			'about.policy_cartography' => 'Cartographie',
+			'about.policy_cartography_detail' => 'Cartes d\'époque, plans de bataille, routes commerciales, territoires dynastiques.',
+			'about.policy_manuscripts' => 'Manuscrits & objets',
+			'about.policy_manuscripts_detail' => 'Folios, monnaies, sceaux, textiles, instruments.',
+			'about.policy_prophets' => 'Les Prophètes ﷺ',
+			'about.policy_prophets_detail' => 'Aucune représentation de Muḥammad, ʿĪsā, Mūsā ou de tout autre prophète — visuelle ou autre.',
+			'about.policy_family' => 'La Famille du Prophète ﷺ',
+			'about.policy_family_detail' => 'Aucune représentation des Ahl al-Bayt ou des Rāshidūn.',
+			'about.policy_generated' => 'Portraits générés',
+			'about.policy_generated_detail' => 'Aucun portrait IA de figures historiques dont l\'apparence n\'est pas attestée.',
+			'about.other_projects' => 'Autres projets',
+			'about.majlisna_subtitle' => 'Salons & rassemblements — apprentissage joyeux.',
+			'about.latabdhir_subtitle' => 'Surplus alimentaire, redistribué.',
+			'about.contact' => 'Contact',
+			'about.colophon' => 'Colophon',
+			'about.colophon_body' => 'Texte coranique d\'après le Mushaf ʿUthmānī de Tanzil. Traduction anglaise de Saheeh International. Traduction française de Muḥammad Hamidullah.',
 			'auth.account' => 'Compte',
 			'auth.sign_in' => 'Se connecter',
 			'auth.sign_up' => 'Créer un compte',

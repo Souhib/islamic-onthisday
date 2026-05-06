@@ -44,6 +44,11 @@ class AppShell extends StatelessWidget {
                 onTap: () => GoRouter.of(context).go(AppRoutes.recent),
               ),
               _NavItem(
+                label: i18n.nav.observances,
+                active: location == AppRoutes.observances,
+                onTap: () => GoRouter.of(context).go(AppRoutes.observances),
+              ),
+              _NavItem(
                 label: i18n.nav.settings,
                 active: location == AppRoutes.settings,
                 onTap: () => GoRouter.of(context).go(AppRoutes.settings),

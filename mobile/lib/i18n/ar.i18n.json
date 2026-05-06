@@ -54,6 +54,48 @@
     "offline": "يبدو أنّك غير متّصل.",
     "not_found": "غير موجود."
   },
+  "event": {
+    "sources": "المصادر",
+    "people": "الشخصيات",
+    "source_classical": "كلاسيكي",
+    "source_primary": "أولي",
+    "source_modern": "حديث",
+    "weight_primary": "أساسي",
+    "weight_notable": "ملحوظ",
+    "weight_minority": "أقلية",
+    "disputed_drawer_title": "الأقوال المنقولة",
+    "disputed_drawer_intro": "اختلفت المصادر السنية الكلاسيكية في هذا الشأن. الأقوال مرتبة حسب الإثبات."
+  },
+  "person": {
+    "eyebrow": "شخصية",
+    "biography": "السيرة",
+    "restricted_prophet": "احترامًا، لا تُعرض أيّ صورة للأنبياء ﷺ.",
+    "restricted_sahabi": "بحسب السياسة، لا تُعرض أيّ صورة مولّدة بالذكاء الاصطناعي للصحابة.",
+    "restricted_ahl_al_bayt": "بحسب السياسة، لا تُعرض أيّ صورة مولّدة بالذكاء الاصطناعي لأهل البيت."
+  },
+  "about": {
+    "headline": "السجل الكلاسيكي، يومًا بعد يوم.",
+    "intro": "أحداث موثّقة من قوس التاريخ الإسلامي الممتد لأربعة عشر قرنًا. كلّ مدخل متجذّر في المصادر الكلاسيكية، وكلّ تاريخ متنازع عليه محفوظ.",
+    "image_policy_title": "سياسة الصور",
+    "policy_architecture": "العمارة",
+    "policy_architecture_detail": "المساجد، المخطوطات، الخطّ، الزخرفة الهندسية، المواقع الأثرية.",
+    "policy_cartography": "الخرائط",
+    "policy_cartography_detail": "خرائط زمنية، مخططات معارك، طرق تجارية، أراضٍ دُولية.",
+    "policy_manuscripts": "المخطوطات والأدوات",
+    "policy_manuscripts_detail": "أوراق، نقود، أختام، منسوجات، آلات.",
+    "policy_prophets": "الأنبياء ﷺ",
+    "policy_prophets_detail": "لا تصوير لمحمّد ولا لعيسى ولا لموسى ولا لأيّ نبي — لا مرئيًّا ولا غيره.",
+    "policy_family": "آل بيت النبيّ ﷺ",
+    "policy_family_detail": "لا تصوير لأهل البيت ولا للراشدين.",
+    "policy_generated": "الصور المولّدة",
+    "policy_generated_detail": "لا تُعرض صور مولّدة بالذكاء الاصطناعي لشخصيات تاريخية لا تُعرف ملامحها.",
+    "other_projects": "أعمال أخرى",
+    "majlisna_subtitle": "صالونات ومجالس — تعلّم بهيج.",
+    "latabdhir_subtitle": "فائض الطعام، مُعاد توزيعه.",
+    "contact": "تواصل",
+    "colophon": "كولوفون",
+    "colophon_body": "النصّ القرآني من المصحف العثماني لـ Tanzil. الترجمة الإنجليزية لـ Saheeh International. الترجمة الفرنسية لمحمد حميد الله."
+  },
   "auth": {
     "account": "الحساب",
     "sign_in": "تسجيل الدخول",

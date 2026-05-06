@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+import 'package:iotd_mobile/core/router/app_router.dart';
 import 'package:iotd_mobile/core/services/app_settings.dart';
 import 'package:iotd_mobile/core/services/notifications_provider.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
@@ -94,6 +96,32 @@ class SettingsScreen extends ConsumerWidget {
                     ),
               ),
             ],
+            const SizedBox(height: 30),
+            InkWell(
+              onTap: () => context.push(AppRoutes.about),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+                decoration: BoxDecoration(border: Border.all(color: t.rule, width: 0.5)),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        i18n.settings.about.toUpperCase(),
+                        style: IotdTypography.mono(
+                          size: 11,
+                          color: t.inkSoft,
+                          letterSpacing: 1.4,
+                        ),
+                      ),
+                    ),
+                    Text(
+                      '↗',
+                      style: IotdTypography.mono(size: 14, color: t.accent),
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),

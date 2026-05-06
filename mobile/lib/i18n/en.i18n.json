@@ -54,6 +54,48 @@
     "offline": "You appear to be offline.",
     "not_found": "Not found."
   },
+  "event": {
+    "sources": "Sources",
+    "people": "People",
+    "source_classical": "classical",
+    "source_primary": "primary",
+    "source_modern": "modern",
+    "weight_primary": "primary",
+    "weight_notable": "notable",
+    "weight_minority": "minority",
+    "disputed_drawer_title": "Attested positions",
+    "disputed_drawer_intro": "Classical Sunni sources disagree on this point. The positions are listed in order of attestation."
+  },
+  "person": {
+    "eyebrow": "Person",
+    "biography": "Biography",
+    "restricted_prophet": "Out of reverence, no image of the Prophets ﷺ is shown.",
+    "restricted_sahabi": "By policy, no AI-generated image of a Sahabi is shown.",
+    "restricted_ahl_al_bayt": "By policy, no AI-generated image of the Ahl al-Bayt is shown."
+  },
+  "about": {
+    "headline": "The classical record, one day at a time.",
+    "intro": "Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.",
+    "image_policy_title": "Image policy",
+    "policy_architecture": "Architecture",
+    "policy_architecture_detail": "Mosques, manuscripts, calligraphy, geometric ornament, archaeological sites.",
+    "policy_cartography": "Cartography",
+    "policy_cartography_detail": "Period maps, battle diagrams, trade routes, dynastic territories.",
+    "policy_manuscripts": "Manuscripts & objects",
+    "policy_manuscripts_detail": "Folios, coins, seals, textiles, instruments.",
+    "policy_prophets": "The Prophets ﷺ",
+    "policy_prophets_detail": "No depiction of Muḥammad, ʿĪsā, Mūsā or any prophet — visual or otherwise.",
+    "policy_family": "The Family of the Prophet ﷺ",
+    "policy_family_detail": "No depiction of the Ahl al-Bayt or the Rāshidūn.",
+    "policy_generated": "Generated portraits",
+    "policy_generated_detail": "No AI portraits of historical figures whose likeness is unknown.",
+    "other_projects": "Other work",
+    "majlisna_subtitle": "Salons & gatherings — playful learning.",
+    "latabdhir_subtitle": "Surplus food, redistributed.",
+    "contact": "Contact",
+    "colophon": "Colophon",
+    "colophon_body": "Qur'anic text from Tanzil's ʿUthmānī Mushaf. English translation by Saheeh International. French translation by Muḥammad Hamidullah."
+  },
   "auth": {
     "account": "Account",
     "sign_in": "Sign in",

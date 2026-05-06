@@ -2,11 +2,15 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:iotd_mobile/core/di/providers.dart';
+import 'package:iotd_mobile/features/about/about_screen.dart';
 import 'package:iotd_mobile/features/auth/sign_in_screen.dart';
 import 'package:iotd_mobile/features/auth/sign_up_screen.dart';
 import 'package:iotd_mobile/features/event/event_detail_screen.dart';
 import 'package:iotd_mobile/features/lesson/lesson_detail_screen.dart';
+import 'package:iotd_mobile/features/observance/observance_detail_screen.dart';
+import 'package:iotd_mobile/features/observance/observances_list_screen.dart';
 import 'package:iotd_mobile/features/onboarding/onboarding_screen.dart';
+import 'package:iotd_mobile/features/person/person_detail_screen.dart';
 import 'package:iotd_mobile/features/recent/recent_screen.dart';
 import 'package:iotd_mobile/features/settings/settings_screen.dart';
 import 'package:iotd_mobile/features/shared/app_shell.dart';
@@ -26,6 +30,10 @@ class AppRoutes {
   static const settings = '/settings';
   static const event = '/event';
   static const lesson = '/lesson';
+  static const person = '/person';
+  static const observance = '/observance';
+  static const observances = '/observances';
+  static const about = '/about';
   static const signIn = '/sign-in';
   static const signUp = '/sign-up';
 }
@@ -58,6 +66,10 @@ final appRouterProvider = Provider<GoRouter>((ref) {
             builder: (context, state) => const RecentScreen(),
           ),
           GoRoute(
+            path: AppRoutes.observances,
+            builder: (context, state) => const ObservancesListScreen(),
+          ),
+          GoRoute(
             path: AppRoutes.settings,
             builder: (context, state) => const SettingsScreen(),
           ),
@@ -72,6 +84,20 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         path: '${AppRoutes.lesson}/:slug',
         builder: (context, state) =>
             LessonDetailScreen(slug: state.pathParameters['slug']!),
+      ),
+      GoRoute(
+        path: '${AppRoutes.person}/:slug',
+        builder: (context, state) =>
+            PersonDetailScreen(slug: state.pathParameters['slug']!),
+      ),
+      GoRoute(
+        path: '${AppRoutes.observance}/:slug',
+        builder: (context, state) =>
+            ObservanceDetailScreen(slug: state.pathParameters['slug']!),
+      ),
+      GoRoute(
+        path: AppRoutes.about,
+        builder: (context, state) => const AboutScreen(),
       ),
       GoRoute(
         path: AppRoutes.signIn,
