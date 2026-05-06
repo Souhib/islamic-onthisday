@@ -314,47 +314,155 @@ class TranslationsAboutEn {
 
 	// Translations
 
-	/// en: 'Created by'
-	String get created_by => 'Created by';
+	/// en: 'About'
+	String get nav_label => 'About';
 
-	/// en: 'The classical record, one day at a time.'
-	String get headline => 'The classical record, one day at a time.';
+	/// en: 'About the project · About me'
+	String get title => 'About the project · About me';
 
-	/// en: 'Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.'
-	String get intro => 'Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.';
+	/// en: 'A few words on what this is, who built it, and how to reach out.'
+	String get subtitle => 'A few words on what this is, who built it, and how to reach out.';
 
-	/// en: 'Other work'
-	String get other_projects => 'Other work';
+	/// en: 'Souhib Trabelsi'
+	String get name => 'Souhib Trabelsi';
 
-	/// en: 'Salons & gatherings — playful learning.'
-	String get majlisna_subtitle => 'Salons & gatherings — playful learning.';
+	/// en: 'Software engineer'
+	String get role => 'Software engineer';
 
-	/// en: 'Surplus food, redistributed.'
-	String get latabdhir_subtitle => 'Surplus food, redistributed.';
+	/// en: 'I'm a software engineer with seven years of experience, mostly in Python and React. I started Islamic On This Day because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.'
+	String get bio => 'I\'m a software engineer with seven years of experience, mostly in Python and React. I started Islamic On This Day because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.';
 
-	/// en: 'Contact'
-	String get contact => 'Contact';
+	/// en: 'What is Islamic On This Day?'
+	String get project_purpose_title => 'What is Islamic On This Day?';
+
+	/// en: 'A verified event from Islamic history every day, in both Hijri and Gregorian calendars. Every entry — event, lesson, sacred day — is hand-verified against classical sources (al-Ṭabarī, Ibn Kathīr, the Six Books) before it's published. We drop a borderline entry rather than keep a wrong one. The promise is unconditional: every entry has been editorially reviewed.'
+	String get project_purpose_body => 'A verified event from Islamic history every day, in both Hijri and Gregorian calendars. Every entry — event, lesson, sacred day — is hand-verified against classical sources (al-Ṭabarī, Ibn Kathīr, the Six Books) before it\'s published. We drop a borderline entry rather than keep a wrong one. The promise is unconditional: every entry has been editorially reviewed.';
+
+	/// en: 'Education'
+	String get education_title => 'Education';
+
+	/// en: 'Epitech Paris — Master's in Software Engineering'
+	String get education_epitech => 'Epitech Paris — Master\'s in Software Engineering';
+
+	/// en: 'San Francisco State University — Certificate'
+	String get education_sfsu => 'San Francisco State University — Certificate';
+
+	/// en: 'Experience'
+	String get experience_title => 'Experience';
+
+	/// en: 'Madura Capital Management — Python Developer / DevOps'
+	String get experience_madura_title => 'Madura Capital Management — Python Developer / DevOps';
+
+	/// en: 'September 2024 — present'
+	String get experience_madura_period => 'September 2024 — present';
+
+	/// en: 'Internal tooling for a hedge fund — data feeders, Prefect ETL pipelines, React/TypeScript trading UI.'
+	String get experience_madura_desc => 'Internal tooling for a hedge fund — data feeders, Prefect ETL pipelines, React/TypeScript trading UI.';
+
+	/// en: 'Snapchat (SnapLab) — Python Developer / DevOps / AWS'
+	String get experience_snap_title => 'Snapchat (SnapLab) — Python Developer / DevOps / AWS';
+
+	/// en: 'May 2022 — September 2024'
+	String get experience_snap_period => 'May 2022 — September 2024';
+
+	/// en: 'Session-recording dashboard for Snap's Connected Spectacles team. FastAPI backend on AWS ECS via Terraform; React frontend.'
+	String get experience_snap_desc => 'Session-recording dashboard for Snap\'s Connected Spectacles team. FastAPI backend on AWS ECS via Terraform; React frontend.';
+
+	/// en: 'Enedis (EDF) — Python Developer / DevOps / Cloud'
+	String get experience_enedis_title => 'Enedis (EDF) — Python Developer / DevOps / Cloud';
+
+	/// en: 'April 2021 — April 2022'
+	String get experience_enedis_period => 'April 2021 — April 2022';
+
+	/// en: 'Customer-request platform with chat. FastAPI on AWS Lambda (Serverless framework); React/TypeScript frontend.'
+	String get experience_enedis_desc => 'Customer-request platform with chat. FastAPI on AWS Lambda (Serverless framework); React/TypeScript frontend.';
+
+	/// en: 'BNP Paribas Personal Finance — Python Developer / DevOps'
+	String get experience_bnp_title => 'BNP Paribas Personal Finance — Python Developer / DevOps';
+
+	/// en: 'September 2019 — March 2021'
+	String get experience_bnp_period => 'September 2019 — March 2021';
+
+	/// en: 'Migrated monolith to microservices. Python APIs giving data scientists secure access to large datasets via NAS-backed IDE sessions.'
+	String get experience_bnp_desc => 'Migrated monolith to microservices. Python APIs giving data scientists secure access to large datasets via NAS-backed IDE sessions.';
+
+	/// en: 'Cloudeasier (Accenture) — Python / Cloud Developer'
+	String get experience_cloudeasier_title => 'Cloudeasier (Accenture) — Python / Cloud Developer';
+
+	/// en: 'February 2019 — August 2019'
+	String get experience_cloudeasier_period => 'February 2019 — August 2019';
+
+	/// en: 'Python on AWS Lambda + GCP Cloud Functions for compute pricing and scheduling. Terraform-deployed.'
+	String get experience_cloudeasier_desc => 'Python on AWS Lambda + GCP Cloud Functions for compute pricing and scheduling. Terraform-deployed.';
+
+	/// en: 'Skills'
+	String get skills_title => 'Skills';
+
+	/// en: 'Other projects'
+	String get other_projects_title => 'Other projects';
+
+	/// en: 'Majlisna'
+	String get other_projects_majlisna_title => 'Majlisna';
+
+	/// en: 'A real-time multiplayer party-game platform with Islamized variants of Undercover and Codenames.'
+	String get other_projects_majlisna_desc => 'A real-time multiplayer party-game platform with Islamized variants of Undercover and Codenames.';
+
+	/// en: 'majlisna.app'
+	String get other_projects_majlisna_link => 'majlisna.app';
+
+	/// en: 'LaTabdhir'
+	String get other_projects_latabdhir_title => 'LaTabdhir';
+
+	/// en: 'A dhikr counter built around daily reminders and streaks.'
+	String get other_projects_latabdhir_desc => 'A dhikr counter built around daily reminders and streaks.';
+
+	/// en: 'latabdhir.ae'
+	String get other_projects_latabdhir_link => 'latabdhir.ae';
+
+	/// en: 'Free mentoring'
+	String get mentoring_title => 'Free mentoring';
+
+	/// en: 'With my experience I can help CS engineers, developers, or anyone who wants to learn more about computer science — freely. I can also help with your resume, understanding the job market, preparing for interviews, or giving general advice when looking for jobs. Contact me via email or phone. If I don't answer, leave a message and I'll call you back.'
+	String get mentoring_body => 'With my experience I can help CS engineers, developers, or anyone who wants to learn more about computer science — freely. I can also help with your resume, understanding the job market, preparing for interviews, or giving general advice when looking for jobs. Contact me via email or phone. If I don\'t answer, leave a message and I\'ll call you back.';
+
+	/// en: 'Support the Ummah'
+	String get charity_title => 'Support the Ummah';
+
+	/// en: 'If this project is useful to you, please consider a donation to one of these.'
+	String get charity_subtitle => 'If this project is useful to you, please consider a donation to one of these.';
+
+	/// en: 'International humanitarian charity working in conflict zones, food security, and orphan support.'
+	String get charity_human_appeal_desc => 'International humanitarian charity working in conflict zones, food security, and orphan support.';
+
+	/// en: 'Long-running French charity active in education, water access, and emergency relief.'
+	String get charity_ummah_charity_desc => 'Long-running French charity active in education, water access, and emergency relief.';
+
+	/// en: 'Donate'
+	String get charity_donate => 'Donate';
+
+	/// en: 'Get in touch'
+	String get contact_title => 'Get in touch';
+
+	/// en: 'Email'
+	String get contact_email => 'Email';
+
+	/// en: 'Phone'
+	String get contact_phone => 'Phone';
+
+	/// en: 'LinkedIn'
+	String get contact_linkedin => 'LinkedIn';
+
+	/// en: 'GitHub'
+	String get contact_github => 'GitHub';
 
 	/// en: 'Qur'an editions'
-	String get editions_title => 'Qur\'an editions';
+	String get quran_attribution_title => 'Qur\'an editions';
 
-	/// en: 'Arabic text'
-	String get edition_arabic_label => 'Arabic text';
+	/// en: 'Arabic text from Tanzil's ʿUthmānī Mushaf. English translation by Saheeh International. French translation by Muḥammad Hamidullah. The verse rendered above the footer is selected from the day's event citations when available, with Sūrat Yūsuf 12:111 — "there is a lesson for those of understanding" — as the standing fallback.'
+	String get quran_attribution_body => 'Arabic text from Tanzil\'s ʿUthmānī Mushaf. English translation by Saheeh International. French translation by Muḥammad Hamidullah. The verse rendered above the footer is selected from the day\'s event citations when available, with Sūrat Yūsuf 12:111 — "there is a lesson for those of understanding" — as the standing fallback.';
 
-	/// en: 'ʿUthmānī Mushaf — Tanzil'
-	String get edition_arabic_value => 'ʿUthmānī Mushaf — Tanzil';
-
-	/// en: 'English translation'
-	String get edition_english_label => 'English translation';
-
-	/// en: 'Saheeh International'
-	String get edition_english_value => 'Saheeh International';
-
-	/// en: 'French translation'
-	String get edition_french_label => 'French translation';
-
-	/// en: 'Muḥammad Hamidullah'
-	String get edition_french_value => 'Muḥammad Hamidullah';
+	/// en: 'Created by'
+	String get created_by => 'Created by';
 }
 
 // Path: auth
@@ -461,20 +569,56 @@ extension on Translations {
 			'person.restricted_prophet' => 'Out of reverence, no image of the Prophets ﷺ is shown.',
 			'person.restricted_sahabi' => 'By policy, no AI-generated image of a Sahabi is shown.',
 			'person.restricted_ahl_al_bayt' => 'By policy, no AI-generated image of the Ahl al-Bayt is shown.',
+			'about.nav_label' => 'About',
+			'about.title' => 'About the project · About me',
+			'about.subtitle' => 'A few words on what this is, who built it, and how to reach out.',
+			'about.name' => 'Souhib Trabelsi',
+			'about.role' => 'Software engineer',
+			'about.bio' => 'I\'m a software engineer with seven years of experience, mostly in Python and React. I started Islamic On This Day because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.',
+			'about.project_purpose_title' => 'What is Islamic On This Day?',
+			'about.project_purpose_body' => 'A verified event from Islamic history every day, in both Hijri and Gregorian calendars. Every entry — event, lesson, sacred day — is hand-verified against classical sources (al-Ṭabarī, Ibn Kathīr, the Six Books) before it\'s published. We drop a borderline entry rather than keep a wrong one. The promise is unconditional: every entry has been editorially reviewed.',
+			'about.education_title' => 'Education',
+			'about.education_epitech' => 'Epitech Paris — Master\'s in Software Engineering',
+			'about.education_sfsu' => 'San Francisco State University — Certificate',
+			'about.experience_title' => 'Experience',
+			'about.experience_madura_title' => 'Madura Capital Management — Python Developer / DevOps',
+			'about.experience_madura_period' => 'September 2024 — present',
+			'about.experience_madura_desc' => 'Internal tooling for a hedge fund — data feeders, Prefect ETL pipelines, React/TypeScript trading UI.',
+			'about.experience_snap_title' => 'Snapchat (SnapLab) — Python Developer / DevOps / AWS',
+			'about.experience_snap_period' => 'May 2022 — September 2024',
+			'about.experience_snap_desc' => 'Session-recording dashboard for Snap\'s Connected Spectacles team. FastAPI backend on AWS ECS via Terraform; React frontend.',
+			'about.experience_enedis_title' => 'Enedis (EDF) — Python Developer / DevOps / Cloud',
+			'about.experience_enedis_period' => 'April 2021 — April 2022',
+			'about.experience_enedis_desc' => 'Customer-request platform with chat. FastAPI on AWS Lambda (Serverless framework); React/TypeScript frontend.',
+			'about.experience_bnp_title' => 'BNP Paribas Personal Finance — Python Developer / DevOps',
+			'about.experience_bnp_period' => 'September 2019 — March 2021',
+			'about.experience_bnp_desc' => 'Migrated monolith to microservices. Python APIs giving data scientists secure access to large datasets via NAS-backed IDE sessions.',
+			'about.experience_cloudeasier_title' => 'Cloudeasier (Accenture) — Python / Cloud Developer',
+			'about.experience_cloudeasier_period' => 'February 2019 — August 2019',
+			'about.experience_cloudeasier_desc' => 'Python on AWS Lambda + GCP Cloud Functions for compute pricing and scheduling. Terraform-deployed.',
+			'about.skills_title' => 'Skills',
+			'about.other_projects_title' => 'Other projects',
+			'about.other_projects_majlisna_title' => 'Majlisna',
+			'about.other_projects_majlisna_desc' => 'A real-time multiplayer party-game platform with Islamized variants of Undercover and Codenames.',
+			'about.other_projects_majlisna_link' => 'majlisna.app',
+			'about.other_projects_latabdhir_title' => 'LaTabdhir',
+			'about.other_projects_latabdhir_desc' => 'A dhikr counter built around daily reminders and streaks.',
+			'about.other_projects_latabdhir_link' => 'latabdhir.ae',
+			'about.mentoring_title' => 'Free mentoring',
+			'about.mentoring_body' => 'With my experience I can help CS engineers, developers, or anyone who wants to learn more about computer science — freely. I can also help with your resume, understanding the job market, preparing for interviews, or giving general advice when looking for jobs. Contact me via email or phone. If I don\'t answer, leave a message and I\'ll call you back.',
+			'about.charity_title' => 'Support the Ummah',
+			'about.charity_subtitle' => 'If this project is useful to you, please consider a donation to one of these.',
+			'about.charity_human_appeal_desc' => 'International humanitarian charity working in conflict zones, food security, and orphan support.',
+			'about.charity_ummah_charity_desc' => 'Long-running French charity active in education, water access, and emergency relief.',
+			'about.charity_donate' => 'Donate',
+			'about.contact_title' => 'Get in touch',
+			'about.contact_email' => 'Email',
+			'about.contact_phone' => 'Phone',
+			'about.contact_linkedin' => 'LinkedIn',
+			'about.contact_github' => 'GitHub',
+			'about.quran_attribution_title' => 'Qur\'an editions',
+			'about.quran_attribution_body' => 'Arabic text from Tanzil\'s ʿUthmānī Mushaf. English translation by Saheeh International. French translation by Muḥammad Hamidullah. The verse rendered above the footer is selected from the day\'s event citations when available, with Sūrat Yūsuf 12:111 — "there is a lesson for those of understanding" — as the standing fallback.',
 			'about.created_by' => 'Created by',
-			'about.headline' => 'The classical record, one day at a time.',
-			'about.intro' => 'Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.',
-			'about.other_projects' => 'Other work',
-			'about.majlisna_subtitle' => 'Salons & gatherings — playful learning.',
-			'about.latabdhir_subtitle' => 'Surplus food, redistributed.',
-			'about.contact' => 'Contact',
-			'about.editions_title' => 'Qur\'an editions',
-			'about.edition_arabic_label' => 'Arabic text',
-			'about.edition_arabic_value' => 'ʿUthmānī Mushaf — Tanzil',
-			'about.edition_english_label' => 'English translation',
-			'about.edition_english_value' => 'Saheeh International',
-			'about.edition_french_label' => 'French translation',
-			'about.edition_french_value' => 'Muḥammad Hamidullah',
 			'auth.account' => 'Account',
 			'auth.sign_in' => 'Sign in',
 			'auth.sign_up' => 'Create account',
