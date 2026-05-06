@@ -9,6 +9,7 @@ import {
 import { DisputeBadge, type DisputeAbout } from "@/components/disputed/DisputeBadge";
 import { pickLocalised, pickLocalisedList, useLanguage } from "@/providers/LanguageProvider";
 import type { EventDetail } from "@/api/generated/types.gen";
+import { formatGregorianDDMMYYYY, formatGregorianLong } from "@/lib/dates";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -66,9 +67,14 @@ export function Main({ ev, onOpenDispute }: Props) {
       <div className="mt-[28px] mb-3 flex flex-wrap items-baseline gap-[18px]">
         {ev.hijri && <span className="font-serif text-[18px] italic text-ink">{ev.hijri}</span>}
         {ev.gregorian && (
-          <span className="font-mono text-[13px] tracking-[0.8px] text-ink-mute">
-            · {ev.gregorian} ·
-          </span>
+          <>
+            <span className="font-serif text-[16px] italic text-ink-soft">
+              · {formatGregorianLong(ev.gregorian, lang)}
+            </span>
+            <span className="font-mono text-[13px] tracking-[0.8px] text-ink-mute">
+              · {formatGregorianDDMMYYYY(ev.gregorian)} ·
+            </span>
+          </>
         )}
         {ev.location && (
           <span className="font-mono text-[12.5px] tracking-[0.8px] text-ink-mute">

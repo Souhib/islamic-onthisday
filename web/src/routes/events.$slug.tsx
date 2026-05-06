@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useEventQuery } from "@/api/events";
 import { SaveButton } from "@/components/bookmark/SaveButton";
+import { formatGregorianDDMMYYYY, formatGregorianLong } from "@/lib/dates";
 import {
   FriezeRule,
   VerificationChip,
@@ -93,9 +94,14 @@ function EventDetailPage() {
                 <span className="font-serif text-[18px] italic text-ink">{query.data.hijri}</span>
               )}
               {query.data.gregorian && (
-                <span className="font-mono text-[13px] tracking-[0.8px] text-ink-mute">
-                  · {query.data.gregorian} ·
-                </span>
+                <>
+                  <span className="font-serif text-[16px] italic text-ink-soft">
+                    · {formatGregorianLong(query.data.gregorian, lang)}
+                  </span>
+                  <span className="font-mono text-[13px] tracking-[0.8px] text-ink-mute">
+                    · {formatGregorianDDMMYYYY(query.data.gregorian)} ·
+                  </span>
+                </>
               )}
               {query.data.disputed && (
                 <DisputeBadge
