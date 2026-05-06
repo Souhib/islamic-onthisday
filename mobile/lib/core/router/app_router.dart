@@ -2,6 +2,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:iotd_mobile/core/di/providers.dart';
+import 'package:iotd_mobile/features/auth/sign_in_screen.dart';
+import 'package:iotd_mobile/features/auth/sign_up_screen.dart';
 import 'package:iotd_mobile/features/event/event_detail_screen.dart';
 import 'package:iotd_mobile/features/lesson/lesson_detail_screen.dart';
 import 'package:iotd_mobile/features/onboarding/onboarding_screen.dart';
@@ -24,6 +26,8 @@ class AppRoutes {
   static const settings = '/settings';
   static const event = '/event';
   static const lesson = '/lesson';
+  static const signIn = '/sign-in';
+  static const signUp = '/sign-up';
 }
 
 final appRouterProvider = Provider<GoRouter>((ref) {
@@ -68,6 +72,14 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         path: '${AppRoutes.lesson}/:slug',
         builder: (context, state) =>
             LessonDetailScreen(slug: state.pathParameters['slug']!),
+      ),
+      GoRoute(
+        path: AppRoutes.signIn,
+        builder: (context, state) => const SignInScreen(),
+      ),
+      GoRoute(
+        path: AppRoutes.signUp,
+        builder: (context, state) => const SignUpScreen(),
       ),
     ],
   );

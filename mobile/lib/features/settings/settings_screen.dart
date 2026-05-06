@@ -4,6 +4,7 @@ import 'package:iotd_mobile/core/services/app_settings.dart';
 import 'package:iotd_mobile/core/services/notifications_provider.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
+import 'package:iotd_mobile/features/auth/account_section.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
 
@@ -30,6 +31,8 @@ class SettingsScreen extends ConsumerWidget {
           children: [
             Eyebrow(i18n.settings.title, color: EyebrowColor.accent),
             const SizedBox(height: 24),
+            const AccountSection(),
+            const SizedBox(height: 18),
             FriezeRule(label: i18n.settings.appearance, marginTop: 4, marginBottom: 14),
             _SegmentRow<ThemeMode>(
               options: [

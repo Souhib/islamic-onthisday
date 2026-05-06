@@ -48,6 +48,7 @@ class Translations with BaseTranslations<AppLocale, Translations> {
 	late final TranslationsNavEn nav = TranslationsNavEn._(_root);
 	late final TranslationsSettingsEn settings = TranslationsSettingsEn._(_root);
 	late final TranslationsErrorsEn errors = TranslationsErrorsEn._(_root);
+	late final TranslationsAuthEn auth = TranslationsAuthEn._(_root);
 }
 
 // Path: app
@@ -236,6 +237,48 @@ class TranslationsErrorsEn {
 	String get not_found => 'Not found.';
 }
 
+// Path: auth
+class TranslationsAuthEn {
+	TranslationsAuthEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+
+	/// en: 'Account'
+	String get account => 'Account';
+
+	/// en: 'Sign in'
+	String get sign_in => 'Sign in';
+
+	/// en: 'Create account'
+	String get sign_up => 'Create account';
+
+	/// en: 'Sign out'
+	String get sign_out => 'Sign out';
+
+	/// en: 'Welcome back.'
+	String get sign_in_title => 'Welcome back.';
+
+	/// en: 'Create an account.'
+	String get sign_up_title => 'Create an account.';
+
+	/// en: 'Email'
+	String get email => 'Email';
+
+	/// en: 'Password'
+	String get password => 'Password';
+
+	/// en: 'Display name'
+	String get display_name => 'Display name';
+
+	/// en: 'No account? Create one'
+	String get no_account_cta => 'No account? Create one';
+
+	/// en: 'Already have an account? Sign in'
+	String get have_account_cta => 'Already have an account? Sign in';
+}
+
 /// The flat map containing all translations for locale <en>.
 /// Only for edge cases! For simple maps, use the map function of this library.
 ///
@@ -282,6 +325,17 @@ extension on Translations {
 			'errors.generic' => 'Something went wrong.',
 			'errors.offline' => 'You appear to be offline.',
 			'errors.not_found' => 'Not found.',
+			'auth.account' => 'Account',
+			'auth.sign_in' => 'Sign in',
+			'auth.sign_up' => 'Create account',
+			'auth.sign_out' => 'Sign out',
+			'auth.sign_in_title' => 'Welcome back.',
+			'auth.sign_up_title' => 'Create an account.',
+			'auth.email' => 'Email',
+			'auth.password' => 'Password',
+			'auth.display_name' => 'Display name',
+			'auth.no_account_cta' => 'No account? Create one',
+			'auth.have_account_cta' => 'Already have an account? Sign in',
 			_ => null,
 		};
 	}

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:iotd_mobile/api/generated/models/bookmark_create_target_kind.dart';
 import 'package:iotd_mobile/api/generated/models/lesson_detail.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
+import 'package:iotd_mobile/features/bookmarks/save_button.dart';
 import 'package:iotd_mobile/features/lesson/lesson_provider.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
@@ -68,7 +70,13 @@ class _Body extends StatelessWidget {
     return ListView(
       padding: const EdgeInsets.fromLTRB(28, 0, 28, 60),
       children: [
-        Eyebrow(lesson.category, color: EyebrowColor.accent),
+        Row(
+          children: [
+            Eyebrow(lesson.category, color: EyebrowColor.accent),
+            const Spacer(),
+            SaveButton(slug: lesson.id, kind: BookmarkCreateTargetKind.lesson),
+          ],
+        ),
         const SizedBox(height: 18),
         Text(
           title,

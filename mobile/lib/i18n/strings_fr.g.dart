@@ -45,6 +45,7 @@ class TranslationsFr with BaseTranslations<AppLocale, Translations> implements T
 	@override late final _TranslationsNavFr nav = _TranslationsNavFr._(_root);
 	@override late final _TranslationsSettingsFr settings = _TranslationsSettingsFr._(_root);
 	@override late final _TranslationsErrorsFr errors = _TranslationsErrorsFr._(_root);
+	@override late final _TranslationsAuthFr auth = _TranslationsAuthFr._(_root);
 }
 
 // Path: app
@@ -157,6 +158,26 @@ class _TranslationsErrorsFr implements TranslationsErrorsEn {
 	@override String get not_found => 'Introuvable.';
 }
 
+// Path: auth
+class _TranslationsAuthFr implements TranslationsAuthEn {
+	_TranslationsAuthFr._(this._root);
+
+	final TranslationsFr _root; // ignore: unused_field
+
+	// Translations
+	@override String get account => 'Compte';
+	@override String get sign_in => 'Se connecter';
+	@override String get sign_up => 'Créer un compte';
+	@override String get sign_out => 'Se déconnecter';
+	@override String get sign_in_title => 'Bon retour.';
+	@override String get sign_up_title => 'Créer un compte.';
+	@override String get email => 'E-mail';
+	@override String get password => 'Mot de passe';
+	@override String get display_name => 'Nom affiché';
+	@override String get no_account_cta => 'Pas de compte ? En créer un';
+	@override String get have_account_cta => 'Déjà un compte ? Se connecter';
+}
+
 /// The flat map containing all translations for locale <fr>.
 /// Only for edge cases! For simple maps, use the map function of this library.
 ///
@@ -203,6 +224,17 @@ extension on TranslationsFr {
 			'errors.generic' => 'Une erreur est survenue.',
 			'errors.offline' => 'Vous semblez hors ligne.',
 			'errors.not_found' => 'Introuvable.',
+			'auth.account' => 'Compte',
+			'auth.sign_in' => 'Se connecter',
+			'auth.sign_up' => 'Créer un compte',
+			'auth.sign_out' => 'Se déconnecter',
+			'auth.sign_in_title' => 'Bon retour.',
+			'auth.sign_up_title' => 'Créer un compte.',
+			'auth.email' => 'E-mail',
+			'auth.password' => 'Mot de passe',
+			'auth.display_name' => 'Nom affiché',
+			'auth.no_account_cta' => 'Pas de compte ? En créer un',
+			'auth.have_account_cta' => 'Déjà un compte ? Se connecter',
 			_ => null,
 		};
 	}

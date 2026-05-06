@@ -45,6 +45,7 @@ class TranslationsAr with BaseTranslations<AppLocale, Translations> implements T
 	@override late final _TranslationsNavAr nav = _TranslationsNavAr._(_root);
 	@override late final _TranslationsSettingsAr settings = _TranslationsSettingsAr._(_root);
 	@override late final _TranslationsErrorsAr errors = _TranslationsErrorsAr._(_root);
+	@override late final _TranslationsAuthAr auth = _TranslationsAuthAr._(_root);
 }
 
 // Path: app
@@ -157,6 +158,26 @@ class _TranslationsErrorsAr implements TranslationsErrorsEn {
 	@override String get not_found => 'غير موجود.';
 }
 
+// Path: auth
+class _TranslationsAuthAr implements TranslationsAuthEn {
+	_TranslationsAuthAr._(this._root);
+
+	final TranslationsAr _root; // ignore: unused_field
+
+	// Translations
+	@override String get account => 'الحساب';
+	@override String get sign_in => 'تسجيل الدخول';
+	@override String get sign_up => 'إنشاء حساب';
+	@override String get sign_out => 'تسجيل الخروج';
+	@override String get sign_in_title => 'مرحبًا بعودتك.';
+	@override String get sign_up_title => 'إنشاء حساب.';
+	@override String get email => 'البريد الإلكتروني';
+	@override String get password => 'كلمة المرور';
+	@override String get display_name => 'الاسم المعروض';
+	@override String get no_account_cta => 'ليس لديك حساب؟ أنشئ حسابًا';
+	@override String get have_account_cta => 'لديك حساب بالفعل؟ سجّل الدخول';
+}
+
 /// The flat map containing all translations for locale <ar>.
 /// Only for edge cases! For simple maps, use the map function of this library.
 ///
@@ -203,6 +224,17 @@ extension on TranslationsAr {
 			'errors.generic' => 'حدث خطأ ما.',
 			'errors.offline' => 'يبدو أنّك غير متّصل.',
 			'errors.not_found' => 'غير موجود.',
+			'auth.account' => 'الحساب',
+			'auth.sign_in' => 'تسجيل الدخول',
+			'auth.sign_up' => 'إنشاء حساب',
+			'auth.sign_out' => 'تسجيل الخروج',
+			'auth.sign_in_title' => 'مرحبًا بعودتك.',
+			'auth.sign_up_title' => 'إنشاء حساب.',
+			'auth.email' => 'البريد الإلكتروني',
+			'auth.password' => 'كلمة المرور',
+			'auth.display_name' => 'الاسم المعروض',
+			'auth.no_account_cta' => 'ليس لديك حساب؟ أنشئ حسابًا',
+			'auth.have_account_cta' => 'لديك حساب بالفعل؟ سجّل الدخول',
 			_ => null,
 		};
 	}

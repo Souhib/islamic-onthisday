@@ -52,5 +52,18 @@
     "generic": "Une erreur est survenue.",
     "offline": "Vous semblez hors ligne.",
     "not_found": "Introuvable."
+  },
+  "auth": {
+    "account": "Compte",
+    "sign_in": "Se connecter",
+    "sign_up": "Créer un compte",
+    "sign_out": "Se déconnecter",
+    "sign_in_title": "Bon retour.",
+    "sign_up_title": "Créer un compte.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "display_name": "Nom affiché",
+    "no_account_cta": "Pas de compte ? En créer un",
+    "have_account_cta": "Déjà un compte ? Se connecter"
   }
 }

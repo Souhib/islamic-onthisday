@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:iotd_mobile/api/generated/models/bookmark_create_target_kind.dart';
 import 'package:iotd_mobile/api/generated/models/event_detail.dart';
 import 'package:iotd_mobile/api/generated/models/event_detail_dispute_about.dart';
 import 'package:iotd_mobile/api/generated/models/event_detail_verification_status.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
+import 'package:iotd_mobile/features/bookmarks/save_button.dart';
 import 'package:iotd_mobile/features/event/event_provider.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
@@ -81,6 +83,8 @@ class _Body extends StatelessWidget {
               kind: _verificationOf(event.verificationStatus),
               label: _verificationLabel(i18n, event.verificationStatus),
             ),
+            const SizedBox(width: 10),
+            SaveButton(slug: event.id, kind: BookmarkCreateTargetKind.event),
           ],
         ),
         const SizedBox(height: 18),
