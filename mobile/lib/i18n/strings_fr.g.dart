@@ -202,27 +202,20 @@ class _TranslationsAboutFr implements TranslationsAboutEn {
 	final TranslationsFr _root; // ignore: unused_field
 
 	// Translations
+	@override String get created_by => 'Créé par';
 	@override String get headline => 'Le corpus classique, jour après jour.';
 	@override String get intro => 'Des événements vérifiés sur les 1 400 ans de l\'histoire de l\'islam. Chaque entrée enracinée dans les sources classiques, chaque date contestée préservée.';
-	@override String get image_policy_title => 'Politique d\'image';
-	@override String get policy_architecture => 'Architecture';
-	@override String get policy_architecture_detail => 'Mosquées, manuscrits, calligraphie, ornements géométriques, sites archéologiques.';
-	@override String get policy_cartography => 'Cartographie';
-	@override String get policy_cartography_detail => 'Cartes d\'époque, plans de bataille, routes commerciales, territoires dynastiques.';
-	@override String get policy_manuscripts => 'Manuscrits & objets';
-	@override String get policy_manuscripts_detail => 'Folios, monnaies, sceaux, textiles, instruments.';
-	@override String get policy_prophets => 'Les Prophètes ﷺ';
-	@override String get policy_prophets_detail => 'Aucune représentation de Muḥammad, ʿĪsā, Mūsā ou de tout autre prophète — visuelle ou autre.';
-	@override String get policy_family => 'La Famille du Prophète ﷺ';
-	@override String get policy_family_detail => 'Aucune représentation des Ahl al-Bayt ou des Rāshidūn.';
-	@override String get policy_generated => 'Portraits générés';
-	@override String get policy_generated_detail => 'Aucun portrait IA de figures historiques dont l\'apparence n\'est pas attestée.';
 	@override String get other_projects => 'Autres projets';
 	@override String get majlisna_subtitle => 'Salons & rassemblements — apprentissage joyeux.';
 	@override String get latabdhir_subtitle => 'Surplus alimentaire, redistribué.';
 	@override String get contact => 'Contact';
-	@override String get colophon => 'Colophon';
-	@override String get colophon_body => 'Texte coranique d\'après le Mushaf ʿUthmānī de Tanzil. Traduction anglaise de Saheeh International. Traduction française de Muḥammad Hamidullah.';
+	@override String get editions_title => 'Éditions du Coran';
+	@override String get edition_arabic_label => 'Texte arabe';
+	@override String get edition_arabic_value => 'Mushaf ʿUthmānī — Tanzil';
+	@override String get edition_english_label => 'Traduction anglaise';
+	@override String get edition_english_value => 'Saheeh International';
+	@override String get edition_french_label => 'Traduction française';
+	@override String get edition_french_value => 'Muḥammad Hamidullah';
 }
 
 // Path: auth
@@ -307,27 +300,20 @@ extension on TranslationsFr {
 			'person.restricted_prophet' => 'Par révérence, aucune image des Prophètes ﷺ n\'est affichée.',
 			'person.restricted_sahabi' => 'Par principe, aucune image générée par IA d\'un Compagnon n\'est affichée.',
 			'person.restricted_ahl_al_bayt' => 'Par principe, aucune image générée par IA des Ahl al-Bayt n\'est affichée.',
+			'about.created_by' => 'Créé par',
 			'about.headline' => 'Le corpus classique, jour après jour.',
 			'about.intro' => 'Des événements vérifiés sur les 1 400 ans de l\'histoire de l\'islam. Chaque entrée enracinée dans les sources classiques, chaque date contestée préservée.',
-			'about.image_policy_title' => 'Politique d\'image',
-			'about.policy_architecture' => 'Architecture',
-			'about.policy_architecture_detail' => 'Mosquées, manuscrits, calligraphie, ornements géométriques, sites archéologiques.',
-			'about.policy_cartography' => 'Cartographie',
-			'about.policy_cartography_detail' => 'Cartes d\'époque, plans de bataille, routes commerciales, territoires dynastiques.',
-			'about.policy_manuscripts' => 'Manuscrits & objets',
-			'about.policy_manuscripts_detail' => 'Folios, monnaies, sceaux, textiles, instruments.',
-			'about.policy_prophets' => 'Les Prophètes ﷺ',
-			'about.policy_prophets_detail' => 'Aucune représentation de Muḥammad, ʿĪsā, Mūsā ou de tout autre prophète — visuelle ou autre.',
-			'about.policy_family' => 'La Famille du Prophète ﷺ',
-			'about.policy_family_detail' => 'Aucune représentation des Ahl al-Bayt ou des Rāshidūn.',
-			'about.policy_generated' => 'Portraits générés',
-			'about.policy_generated_detail' => 'Aucun portrait IA de figures historiques dont l\'apparence n\'est pas attestée.',
 			'about.other_projects' => 'Autres projets',
 			'about.majlisna_subtitle' => 'Salons & rassemblements — apprentissage joyeux.',
 			'about.latabdhir_subtitle' => 'Surplus alimentaire, redistribué.',
 			'about.contact' => 'Contact',
-			'about.colophon' => 'Colophon',
-			'about.colophon_body' => 'Texte coranique d\'après le Mushaf ʿUthmānī de Tanzil. Traduction anglaise de Saheeh International. Traduction française de Muḥammad Hamidullah.',
+			'about.editions_title' => 'Éditions du Coran',
+			'about.edition_arabic_label' => 'Texte arabe',
+			'about.edition_arabic_value' => 'Mushaf ʿUthmānī — Tanzil',
+			'about.edition_english_label' => 'Traduction anglaise',
+			'about.edition_english_value' => 'Saheeh International',
+			'about.edition_french_label' => 'Traduction française',
+			'about.edition_french_value' => 'Muḥammad Hamidullah',
 			'auth.account' => 'Compte',
 			'auth.sign_in' => 'Se connecter',
 			'auth.sign_up' => 'Créer un compte',

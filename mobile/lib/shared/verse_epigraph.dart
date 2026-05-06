@@ -41,7 +41,7 @@ class VerseEpigraph extends ConsumerWidget {
       padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 36),
       child: Column(
         children: [
-          const FriezeRule(rosetteOnly: true, marginTop: 0, marginBottom: 24),
+          const FriezeRule(marginTop: 0, marginBottom: 24),
           Directionality(
             textDirection: TextDirection.rtl,
             child: Text(
@@ -72,7 +72,7 @@ class VerseEpigraph extends ConsumerWidget {
               letterSpacing: 2,
             ),
           ),
-          const FriezeRule(rosetteOnly: true, marginTop: 24, marginBottom: 0),
+          const FriezeRule(marginTop: 24, marginBottom: 0),
         ],
       ),
     );

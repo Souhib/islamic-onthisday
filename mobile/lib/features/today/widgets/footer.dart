@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:iotd_mobile/api/dataset_meta.dart';
+import 'package:iotd_mobile/core/router/app_router.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
+import 'package:iotd_mobile/i18n/strings.g.dart';
 
 /// Minimal footer at the end of the Today scroll: dataset depth +
 /// version. Mirrors the web's footer composition without the
@@ -13,6 +16,7 @@ class IotdFooter extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final t = context.tokens;
+    final i18n = Translations.of(context);
     final meta = ref.watch(datasetMetaProvider).value;
     if (meta == null) return const SizedBox.shrink();
 
@@ -31,6 +35,21 @@ class IotdFooter extends ConsumerWidget {
               size: 9.5,
               color: t.inkMute,
               letterSpacing: 1.2,
+            ),
+          ),
+          const SizedBox(height: 8),
+          InkWell(
+            onTap: () => context.push(AppRoutes.about),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 4),
+              child: Text(
+                '${i18n.about.created_by.toUpperCase()} SOUHIB TRABELSI',
+                style: IotdTypography.mono(
+                  size: 9.5,
+                  color: t.ink,
+                  letterSpacing: 1.4,
+                ),
+              ),
             ),
           ),
           const SizedBox(height: 6),

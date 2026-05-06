@@ -4,10 +4,17 @@ import 'package:iotd_mobile/core/router/app_router.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
+import 'package:iotd_mobile/shared/primitives.dart';
 
-/// Shell wrapping the three top-level routes (Today / Recent /
-/// Settings) with a custom mono-uppercase bottom navigation bar — the
-/// stock Material `NavigationBar` reads too app-y for this product.
+/// Shell wrapping the three top-level routes (Recent / Sacred days /
+/// Settings) with a custom mono-uppercase bottom navigation bar.
+///
+/// Today is intentionally NOT a bottom-nav destination — it's the
+/// app's home and lands by default. From Recent / Sacred days /
+/// Settings, the eight-point star at the top-left is a "go home"
+/// affordance back to Today. This keeps the bottom nav at 3 cells
+/// (no wrap) and leans into the editorial DNA: Today *is* the app,
+/// not just a tab.
 class AppShell extends StatelessWidget {
   const AppShell({required this.child, super.key});
 
@@ -18,10 +25,16 @@ class AppShell extends StatelessWidget {
     final t = context.tokens;
     final i18n = Translations.of(context);
     final location = GoRouterState.of(context).matchedLocation;
+    final showHomeBar = location != AppRoutes.today;
 
     return Scaffold(
       backgroundColor: t.paper,
-      body: child,
+      body: Column(
+        children: [
+          if (showHomeBar) const _HomeBar(),
+          Expanded(child: child),
+        ],
+      ),
       bottomNavigationBar: SafeArea(
         top: false,
         child: Container(
@@ -33,11 +46,6 @@ class AppShell extends StatelessWidget {
           height: 52,
           child: Row(
             children: [
-              _NavItem(
-                label: i18n.nav.today,
-                active: location == AppRoutes.today,
-                onTap: () => GoRouter.of(context).go(AppRoutes.today),
-              ),
               _NavItem(
                 label: i18n.nav.recent,
                 active: location == AppRoutes.recent,
@@ -61,6 +69,46 @@ class AppShell extends StatelessWidget {
   }
 }
 
+class _HomeBar extends StatelessWidget {
+  const _HomeBar();
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tokens;
+    final i18n = Translations.of(context);
+    return SafeArea(
+      bottom: false,
+      child: InkWell(
+        onTap: () => GoRouter.of(context).go(AppRoutes.today),
+        child: Container(
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 12),
+          decoration: BoxDecoration(
+            border: Border(bottom: BorderSide(color: t.rule, width: 0.5)),
+          ),
+          child: Row(
+            children: [
+              const EightPointStar(size: 22),
+              const SizedBox(width: 12),
+              Text(
+                '· ${i18n.nav.today.toUpperCase()}',
+                style: IotdTypography.mono(
+                  size: 11,
+                  color: t.accent,
+                  letterSpacing: 1.6,
+                ),
+              ),
+              const Spacer(),
+              Text(
+                '↗',
+                style: IotdTypography.mono(size: 14, color: t.accent),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
 
 class _NavItem extends StatelessWidget {
   const _NavItem({

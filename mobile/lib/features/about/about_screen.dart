@@ -54,14 +54,6 @@ class AboutScreen extends StatelessWidget {
               ),
             ),
 
-            FriezeRule(label: i18n.about.image_policy_title, marginTop: 36, marginBottom: 14),
-            _PolicyRow(ok: true, label: i18n.about.policy_architecture, detail: i18n.about.policy_architecture_detail),
-            _PolicyRow(ok: true, label: i18n.about.policy_cartography, detail: i18n.about.policy_cartography_detail),
-            _PolicyRow(ok: true, label: i18n.about.policy_manuscripts, detail: i18n.about.policy_manuscripts_detail),
-            _PolicyRow(ok: false, label: i18n.about.policy_prophets, detail: i18n.about.policy_prophets_detail),
-            _PolicyRow(ok: false, label: i18n.about.policy_family, detail: i18n.about.policy_family_detail),
-            _PolicyRow(ok: false, label: i18n.about.policy_generated, detail: i18n.about.policy_generated_detail, last: true),
-
             FriezeRule(label: i18n.about.other_projects, marginTop: 36, marginBottom: 14),
             _ProjectLink(label: 'Majlisna', subtitle: i18n.about.majlisna_subtitle, url: 'https://majlisna.app'),
             _ProjectLink(label: 'LaTabdhir', subtitle: i18n.about.latabdhir_subtitle, url: 'https://latabdhir.ae'),
@@ -71,10 +63,19 @@ class AboutScreen extends StatelessWidget {
             const _ContactRow(label: 'GitHub', value: '@Souhib', url: 'https://github.com/Souhib'),
             const _ContactRow(label: 'LinkedIn', value: 'souhib-trabelsi', url: 'https://www.linkedin.com/in/souhib-trabelsi/'),
 
-            FriezeRule(label: i18n.about.colophon, marginTop: 36, marginBottom: 14),
-            Text(
-              i18n.about.colophon_body,
-              style: IotdTypography.serif(size: 14, color: t.inkMute, height: 1.55, style: FontStyle.italic),
+            FriezeRule(label: i18n.about.editions_title, marginTop: 36, marginBottom: 14),
+            _EditionRow(
+              label: i18n.about.edition_arabic_label,
+              value: i18n.about.edition_arabic_value,
+            ),
+            _EditionRow(
+              label: i18n.about.edition_english_label,
+              value: i18n.about.edition_english_value,
+            ),
+            _EditionRow(
+              label: i18n.about.edition_french_label,
+              value: i18n.about.edition_french_value,
+              last: true,
             ),
           ],
         ),
@@ -83,12 +84,15 @@ class AboutScreen extends StatelessWidget {
   }
 }
 
-class _PolicyRow extends StatelessWidget {
-  const _PolicyRow({required this.ok, required this.label, required this.detail, this.last = false});
+class _EditionRow extends StatelessWidget {
+  const _EditionRow({
+    required this.label,
+    required this.value,
+    this.last = false,
+  });
 
-  final bool ok;
   final String label;
-  final String detail;
+  final String value;
   final bool last;
 
   @override
@@ -102,46 +106,23 @@ class _PolicyRow extends StatelessWidget {
           bottom: last ? BorderSide(color: t.rule, width: 0.5) : BorderSide.none,
         ),
       ),
-      child: Row(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Container(
-            width: 16,
-            height: 16,
-            margin: const EdgeInsets.only(top: 3, right: 12),
-            decoration: BoxDecoration(
-              color: ok ? t.accent : t.warn,
-              shape: BoxShape.circle,
-            ),
-            child: Icon(
-              ok ? Icons.check : Icons.close,
-              size: 12,
-              color: t.paper,
+          Text(
+            label.toUpperCase(),
+            style: IotdTypography.mono(
+              size: 10,
+              color: t.inkMute,
+              letterSpacing: 1.4,
             ),
           ),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  label,
-                  style: IotdTypography.serif(
-                    size: 16,
-                    color: t.ink,
-                    weight: FontWeight.w500,
-                  ),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  detail,
-                  style: IotdTypography.serif(
-                    size: 14,
-                    color: t.inkMute,
-                    style: FontStyle.italic,
-                    height: 1.45,
-                  ),
-                ),
-              ],
+          const SizedBox(height: 4),
+          Text(
+            value,
+            style: IotdTypography.serif(
+              size: 16,
+              color: t.ink,
             ),
           ),
         ],

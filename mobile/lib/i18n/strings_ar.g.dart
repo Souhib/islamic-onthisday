@@ -202,27 +202,20 @@ class _TranslationsAboutAr implements TranslationsAboutEn {
 	final TranslationsAr _root; // ignore: unused_field
 
 	// Translations
+	@override String get created_by => 'من تأليف';
 	@override String get headline => 'السجل الكلاسيكي، يومًا بعد يوم.';
 	@override String get intro => 'أحداث موثّقة من قوس التاريخ الإسلامي الممتد لأربعة عشر قرنًا. كلّ مدخل متجذّر في المصادر الكلاسيكية، وكلّ تاريخ متنازع عليه محفوظ.';
-	@override String get image_policy_title => 'سياسة الصور';
-	@override String get policy_architecture => 'العمارة';
-	@override String get policy_architecture_detail => 'المساجد، المخطوطات، الخطّ، الزخرفة الهندسية، المواقع الأثرية.';
-	@override String get policy_cartography => 'الخرائط';
-	@override String get policy_cartography_detail => 'خرائط زمنية، مخططات معارك، طرق تجارية، أراضٍ دُولية.';
-	@override String get policy_manuscripts => 'المخطوطات والأدوات';
-	@override String get policy_manuscripts_detail => 'أوراق، نقود، أختام، منسوجات، آلات.';
-	@override String get policy_prophets => 'الأنبياء ﷺ';
-	@override String get policy_prophets_detail => 'لا تصوير لمحمّد ولا لعيسى ولا لموسى ولا لأيّ نبي — لا مرئيًّا ولا غيره.';
-	@override String get policy_family => 'آل بيت النبيّ ﷺ';
-	@override String get policy_family_detail => 'لا تصوير لأهل البيت ولا للراشدين.';
-	@override String get policy_generated => 'الصور المولّدة';
-	@override String get policy_generated_detail => 'لا تُعرض صور مولّدة بالذكاء الاصطناعي لشخصيات تاريخية لا تُعرف ملامحها.';
 	@override String get other_projects => 'أعمال أخرى';
 	@override String get majlisna_subtitle => 'صالونات ومجالس — تعلّم بهيج.';
 	@override String get latabdhir_subtitle => 'فائض الطعام، مُعاد توزيعه.';
 	@override String get contact => 'تواصل';
-	@override String get colophon => 'كولوفون';
-	@override String get colophon_body => 'النصّ القرآني من المصحف العثماني لـ Tanzil. الترجمة الإنجليزية لـ Saheeh International. الترجمة الفرنسية لمحمد حميد الله.';
+	@override String get editions_title => 'إصدارات القرآن';
+	@override String get edition_arabic_label => 'النصّ العربي';
+	@override String get edition_arabic_value => 'المصحف العثماني — Tanzil';
+	@override String get edition_english_label => 'الترجمة الإنجليزية';
+	@override String get edition_english_value => 'Saheeh International';
+	@override String get edition_french_label => 'الترجمة الفرنسية';
+	@override String get edition_french_value => 'محمد حميد الله';
 }
 
 // Path: auth
@@ -307,27 +300,20 @@ extension on TranslationsAr {
 			'person.restricted_prophet' => 'احترامًا، لا تُعرض أيّ صورة للأنبياء ﷺ.',
 			'person.restricted_sahabi' => 'بحسب السياسة، لا تُعرض أيّ صورة مولّدة بالذكاء الاصطناعي للصحابة.',
 			'person.restricted_ahl_al_bayt' => 'بحسب السياسة، لا تُعرض أيّ صورة مولّدة بالذكاء الاصطناعي لأهل البيت.',
+			'about.created_by' => 'من تأليف',
 			'about.headline' => 'السجل الكلاسيكي، يومًا بعد يوم.',
 			'about.intro' => 'أحداث موثّقة من قوس التاريخ الإسلامي الممتد لأربعة عشر قرنًا. كلّ مدخل متجذّر في المصادر الكلاسيكية، وكلّ تاريخ متنازع عليه محفوظ.',
-			'about.image_policy_title' => 'سياسة الصور',
-			'about.policy_architecture' => 'العمارة',
-			'about.policy_architecture_detail' => 'المساجد، المخطوطات، الخطّ، الزخرفة الهندسية، المواقع الأثرية.',
-			'about.policy_cartography' => 'الخرائط',
-			'about.policy_cartography_detail' => 'خرائط زمنية، مخططات معارك، طرق تجارية، أراضٍ دُولية.',
-			'about.policy_manuscripts' => 'المخطوطات والأدوات',
-			'about.policy_manuscripts_detail' => 'أوراق، نقود، أختام، منسوجات، آلات.',
-			'about.policy_prophets' => 'الأنبياء ﷺ',
-			'about.policy_prophets_detail' => 'لا تصوير لمحمّد ولا لعيسى ولا لموسى ولا لأيّ نبي — لا مرئيًّا ولا غيره.',
-			'about.policy_family' => 'آل بيت النبيّ ﷺ',
-			'about.policy_family_detail' => 'لا تصوير لأهل البيت ولا للراشدين.',
-			'about.policy_generated' => 'الصور المولّدة',
-			'about.policy_generated_detail' => 'لا تُعرض صور مولّدة بالذكاء الاصطناعي لشخصيات تاريخية لا تُعرف ملامحها.',
 			'about.other_projects' => 'أعمال أخرى',
 			'about.majlisna_subtitle' => 'صالونات ومجالس — تعلّم بهيج.',
 			'about.latabdhir_subtitle' => 'فائض الطعام، مُعاد توزيعه.',
 			'about.contact' => 'تواصل',
-			'about.colophon' => 'كولوفون',
-			'about.colophon_body' => 'النصّ القرآني من المصحف العثماني لـ Tanzil. الترجمة الإنجليزية لـ Saheeh International. الترجمة الفرنسية لمحمد حميد الله.',
+			'about.editions_title' => 'إصدارات القرآن',
+			'about.edition_arabic_label' => 'النصّ العربي',
+			'about.edition_arabic_value' => 'المصحف العثماني — Tanzil',
+			'about.edition_english_label' => 'الترجمة الإنجليزية',
+			'about.edition_english_value' => 'Saheeh International',
+			'about.edition_french_label' => 'الترجمة الفرنسية',
+			'about.edition_french_value' => 'محمد حميد الله',
 			'auth.account' => 'الحساب',
 			'auth.sign_in' => 'تسجيل الدخول',
 			'auth.sign_up' => 'إنشاء حساب',

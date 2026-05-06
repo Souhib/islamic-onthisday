@@ -314,50 +314,14 @@ class TranslationsAboutEn {
 
 	// Translations
 
+	/// en: 'Created by'
+	String get created_by => 'Created by';
+
 	/// en: 'The classical record, one day at a time.'
 	String get headline => 'The classical record, one day at a time.';
 
 	/// en: 'Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.'
 	String get intro => 'Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.';
-
-	/// en: 'Image policy'
-	String get image_policy_title => 'Image policy';
-
-	/// en: 'Architecture'
-	String get policy_architecture => 'Architecture';
-
-	/// en: 'Mosques, manuscripts, calligraphy, geometric ornament, archaeological sites.'
-	String get policy_architecture_detail => 'Mosques, manuscripts, calligraphy, geometric ornament, archaeological sites.';
-
-	/// en: 'Cartography'
-	String get policy_cartography => 'Cartography';
-
-	/// en: 'Period maps, battle diagrams, trade routes, dynastic territories.'
-	String get policy_cartography_detail => 'Period maps, battle diagrams, trade routes, dynastic territories.';
-
-	/// en: 'Manuscripts & objects'
-	String get policy_manuscripts => 'Manuscripts & objects';
-
-	/// en: 'Folios, coins, seals, textiles, instruments.'
-	String get policy_manuscripts_detail => 'Folios, coins, seals, textiles, instruments.';
-
-	/// en: 'The Prophets ﷺ'
-	String get policy_prophets => 'The Prophets ﷺ';
-
-	/// en: 'No depiction of Muḥammad, ʿĪsā, Mūsā or any prophet — visual or otherwise.'
-	String get policy_prophets_detail => 'No depiction of Muḥammad, ʿĪsā, Mūsā or any prophet — visual or otherwise.';
-
-	/// en: 'The Family of the Prophet ﷺ'
-	String get policy_family => 'The Family of the Prophet ﷺ';
-
-	/// en: 'No depiction of the Ahl al-Bayt or the Rāshidūn.'
-	String get policy_family_detail => 'No depiction of the Ahl al-Bayt or the Rāshidūn.';
-
-	/// en: 'Generated portraits'
-	String get policy_generated => 'Generated portraits';
-
-	/// en: 'No AI portraits of historical figures whose likeness is unknown.'
-	String get policy_generated_detail => 'No AI portraits of historical figures whose likeness is unknown.';
 
 	/// en: 'Other work'
 	String get other_projects => 'Other work';
@@ -371,11 +335,26 @@ class TranslationsAboutEn {
 	/// en: 'Contact'
 	String get contact => 'Contact';
 
-	/// en: 'Colophon'
-	String get colophon => 'Colophon';
+	/// en: 'Qur'an editions'
+	String get editions_title => 'Qur\'an editions';
 
-	/// en: 'Qur'anic text from Tanzil's ʿUthmānī Mushaf. English translation by Saheeh International. French translation by Muḥammad Hamidullah.'
-	String get colophon_body => 'Qur\'anic text from Tanzil\'s ʿUthmānī Mushaf. English translation by Saheeh International. French translation by Muḥammad Hamidullah.';
+	/// en: 'Arabic text'
+	String get edition_arabic_label => 'Arabic text';
+
+	/// en: 'ʿUthmānī Mushaf — Tanzil'
+	String get edition_arabic_value => 'ʿUthmānī Mushaf — Tanzil';
+
+	/// en: 'English translation'
+	String get edition_english_label => 'English translation';
+
+	/// en: 'Saheeh International'
+	String get edition_english_value => 'Saheeh International';
+
+	/// en: 'French translation'
+	String get edition_french_label => 'French translation';
+
+	/// en: 'Muḥammad Hamidullah'
+	String get edition_french_value => 'Muḥammad Hamidullah';
 }
 
 // Path: auth
@@ -482,27 +461,20 @@ extension on Translations {
 			'person.restricted_prophet' => 'Out of reverence, no image of the Prophets ﷺ is shown.',
 			'person.restricted_sahabi' => 'By policy, no AI-generated image of a Sahabi is shown.',
 			'person.restricted_ahl_al_bayt' => 'By policy, no AI-generated image of the Ahl al-Bayt is shown.',
+			'about.created_by' => 'Created by',
 			'about.headline' => 'The classical record, one day at a time.',
 			'about.intro' => 'Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.',
-			'about.image_policy_title' => 'Image policy',
-			'about.policy_architecture' => 'Architecture',
-			'about.policy_architecture_detail' => 'Mosques, manuscripts, calligraphy, geometric ornament, archaeological sites.',
-			'about.policy_cartography' => 'Cartography',
-			'about.policy_cartography_detail' => 'Period maps, battle diagrams, trade routes, dynastic territories.',
-			'about.policy_manuscripts' => 'Manuscripts & objects',
-			'about.policy_manuscripts_detail' => 'Folios, coins, seals, textiles, instruments.',
-			'about.policy_prophets' => 'The Prophets ﷺ',
-			'about.policy_prophets_detail' => 'No depiction of Muḥammad, ʿĪsā, Mūsā or any prophet — visual or otherwise.',
-			'about.policy_family' => 'The Family of the Prophet ﷺ',
-			'about.policy_family_detail' => 'No depiction of the Ahl al-Bayt or the Rāshidūn.',
-			'about.policy_generated' => 'Generated portraits',
-			'about.policy_generated_detail' => 'No AI portraits of historical figures whose likeness is unknown.',
 			'about.other_projects' => 'Other work',
 			'about.majlisna_subtitle' => 'Salons & gatherings — playful learning.',
 			'about.latabdhir_subtitle' => 'Surplus food, redistributed.',
 			'about.contact' => 'Contact',
-			'about.colophon' => 'Colophon',
-			'about.colophon_body' => 'Qur\'anic text from Tanzil\'s ʿUthmānī Mushaf. English translation by Saheeh International. French translation by Muḥammad Hamidullah.',
+			'about.editions_title' => 'Qur\'an editions',
+			'about.edition_arabic_label' => 'Arabic text',
+			'about.edition_arabic_value' => 'ʿUthmānī Mushaf — Tanzil',
+			'about.edition_english_label' => 'English translation',
+			'about.edition_english_value' => 'Saheeh International',
+			'about.edition_french_label' => 'French translation',
+			'about.edition_french_value' => 'Muḥammad Hamidullah',
 			'auth.account' => 'Account',
 			'auth.sign_in' => 'Sign in',
 			'auth.sign_up' => 'Create account',
