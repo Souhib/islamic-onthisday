@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  RemoteViews layout for the medium home-screen widget.
+  Place at android/app/src/main/res/layout/iotd_widget_medium.xml.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#F5F0E6"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="14dp"
+        android:background="#FBF7EE">
+
+        <TextView
+            android:id="@+id/iotd_eyebrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TODAY"
+            android:textSize="9sp"
+            android:letterSpacing="0.18"
+            android:textColor="#3A8A6B"
+            android:fontFamily="monospace" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/iotd_hijri_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textColor="#1B1A17" />
+
+        <TextView
+            android:id="@+id/iotd_hijri_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="#1B1A17" />
+
+        <TextView
+            android:id="@+id/iotd_hijri_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:textColor="#6E6A5C"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/iotd_era"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:letterSpacing="0.18"
+            android:textColor="#3A8A6B"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/iotd_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textSize="15sp"
+            android:textColor="#1B1A17"
+            android:maxLines="3"
+            android:ellipsize="end" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/iotd_greg_iso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:textColor="#6E6A5C"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+</LinearLayout>

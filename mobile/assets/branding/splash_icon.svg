@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Splash mark — same star, transparent background so flutter_native_splash
+  composites it on the cream paper backdrop it sets via colour.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <g fill="none" stroke="#2E7D32" stroke-width="14" stroke-linejoin="round">
+    <rect x="332" y="332" width="360" height="360"/>
+    <rect x="332" y="332" width="360" height="360" transform="rotate(45 512 512)"/>
+  </g>
+</svg>

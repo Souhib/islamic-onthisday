@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  App icon — the project's eight-point editorial mark on warm
+  cream paper. 1024x1024 source. iOS + Android launcher icons are
+  derived from this via flutter_launcher_icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#F5F0E6"/>
+  <g fill="none" stroke="#2E7D32" stroke-width="20" stroke-linejoin="round">
+    <rect x="232" y="232" width="560" height="560"/>
+    <rect x="232" y="232" width="560" height="560" transform="rotate(45 512 512)"/>
+  </g>
+</svg>

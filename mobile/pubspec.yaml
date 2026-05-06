@@ -81,6 +81,10 @@ dev_dependencies:
   # Testing.
   mocktail: ^1.0.0
 
+  # Icon + splash generation.
+  flutter_launcher_icons: ^0.14.0
+  flutter_native_splash: ^2.4.0
+
 # Slang i18n configuration.
 slang:
   input_directory: lib/i18n
