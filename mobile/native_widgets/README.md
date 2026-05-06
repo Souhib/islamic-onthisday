@@ -18,15 +18,53 @@ automatically from app data.
 2. **File → New → Target → Widget Extension**. Product name:
    `IotdWidget`. Bundle Identifier: `app.iotd.mobile.IotdWidget`.
    Deselect "Include Configuration Intent".
-3. Replace the generated `IotdWidget.swift` with the contents of
-   `native_widgets/ios/IotdWidget.swift` from this folder.
+3. Replace the generated `IotdWidget.swift` and
+   `IotdWidgetBundle.swift` with the contents of
+   `native_widgets/ios/IotdWidget.swift` from this folder
+   (the bundle / provider / views all live there in this version).
+   Leave the auto-generated `AppIntent.swift`,
+   `IotdWidgetControl.swift`, `IotdWidgetLiveActivity.swift` files
+   in place — they're independent and harmless; if you want to
+   clean up, delete them in Xcode (right-click → Delete → Move to
+   Trash).
 4. Select **both** the `Runner` target and the new `IotdWidget`
    target → **Signing & Capabilities** → **+ Capability** →
    **App Groups**. Add `group.app.iotd.mobile` to both. The
    entitlements files update automatically.
 5. Set the deployment target on the `IotdWidget` scheme to
    **iOS 14.0** (matches the project's Podfile platform).
-6. Build & run. The widget appears in the iOS widget gallery.
+
+### Two known foot-guns when building (fix once, never see again)
+
+**(a) `pod install` fails with `objectVersion 70`.** Xcode 26+
+writes the project file in pbxproj v70 which CocoaPods 1.16.x
+doesn't understand. Edit
+`ios/Runner.xcodeproj/project.pbxproj` and change
+`objectVersion = 70;` to `objectVersion = 56;`. Then
+`cd ios && pod install` runs cleanly. Re-add the change every
+time Xcode regenerates the file (rare).
+
+**(b) "Cycle inside Runner" build error.** Xcode wires the new
+"Embed Foundation Extensions" build phase at the end of Runner's
+phase list, where it ends up in a dependency cycle with `Thin
+Binary` and `[CP] Embed Pods Frameworks`. Fix in Xcode:
+**Runner target → Build Phases**, drag *Embed Foundation
+Extensions* to sit just above *Embed Frameworks*. The expected
+order is:
+
+```
+[CP] Check Pods Manifest.lock
+Run Script
+Sources
+Frameworks
+Resources
+Embed Foundation Extensions   ← move here
+Embed Frameworks
+[CP] Embed Pods Frameworks
+Thin Binary
+```
+
+Build & run. The widget appears in the iOS widget gallery.
 
 ## Android — AppWidgetProvider
 
