@@ -58,6 +58,7 @@ dependencies:
   # Fonts — Cormorant Garamond / Inter Tight / JetBrains Mono / Amiri are
   # fetched on first launch and cached locally. Avoids committing TTF binaries.
   google_fonts: ^6.2.1
+  marionette_flutter: ^0.5.0
 
 dev_dependencies:
   flutter_test:
