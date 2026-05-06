@@ -153,12 +153,12 @@ class _DatesRow extends StatelessWidget {
     // shifts subtly to keep a primary/secondary ladder without a
     // clashing mono-vs-serif break on a single phone-width line.
     final primary = IotdTypography.serif(
-      size: 16,
+      size: 19,
       color: t.ink,
       style: FontStyle.italic,
     );
     final secondary = IotdTypography.serif(
-      size: 16,
+      size: 19,
       color: t.inkSoft,
       style: FontStyle.italic,
     );
