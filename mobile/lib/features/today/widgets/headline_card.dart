@@ -148,37 +148,30 @@ class _DatesRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tokens;
+    // All three dates share font (serif italic) + size; only colour
+    // shifts subtly to keep a primary/secondary ladder without a
+    // clashing mono-vs-serif break on a single phone-width line.
+    final primary = IotdTypography.serif(
+      size: 16,
+      color: t.ink,
+      style: FontStyle.italic,
+    );
+    final secondary = IotdTypography.serif(
+      size: 16,
+      color: t.inkSoft,
+      style: FontStyle.italic,
+    );
     return Wrap(
       crossAxisAlignment: WrapCrossAlignment.center,
-      spacing: 14,
+      spacing: 12,
       children: [
-        if (hijri != null)
-          Text(
-            hijri!,
-            style: IotdTypography.serif(
-              size: 17,
-              color: t.ink,
-              style: FontStyle.italic,
-            ),
-          ),
+        if (hijri != null) Text(hijri!, style: primary),
         if (gregorian != null) ...[
           Text(
             '· ${_longGregorian(gregorian!, Localizations.localeOf(context).languageCode)}',
-            style: IotdTypography.serif(
-              size: 15,
-              color: t.inkSoft,
-              style: FontStyle.italic,
-            ),
+            style: secondary,
           ),
-          Text(
-            '· ${_ddmmyyyy(gregorian!)} ·',
-            style: IotdTypography.mono(
-              size: 12,
-              color: t.inkMute,
-              letterSpacing: 0.8,
-              uppercase: false,
-            ),
-          ),
+          Text('· ${_ddmmyyyy(gregorian!)}', style: secondary),
         ],
       ],
     );
