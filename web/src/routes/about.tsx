@@ -219,7 +219,7 @@ function AboutPage() {
             {t("about.mentoring_body")}
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
-            <ExternalLink href="mailto:souhib.t@icloud.com" label="souhib.t@icloud.com" />
+            <ExternalLink href="mailto:souhib.t@hotmail.fr" label="souhib.t@hotmail.fr" />
             <ExternalLink href="tel:+33643142020" label="+33 6 43 14 20 20" />
           </div>
         </section>
@@ -278,7 +278,7 @@ function AboutPage() {
         <section>
           <Eyebrow color="accent">· {t("about.contact_title")} ·</Eyebrow>
           <div className="mt-3 flex flex-wrap gap-2.5">
-            <ExternalLink href="mailto:souhib.t@icloud.com" label={t("about.contact_email")} />
+            <ExternalLink href="mailto:souhib.t@hotmail.fr" label={t("about.contact_email")} />
             <ExternalLink href="tel:+33643142020" label={t("about.contact_phone")} />
             <ExternalLink
               href="https://www.linkedin.com/in/souhib-trabelsi/"
