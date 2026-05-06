@@ -1,54 +1,41 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:iotd_mobile/api/quran_extracts.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
 
-/// A centered Qur'anic citation rendered as a section divider — vocalised
-/// Arabic on top, locale translation in serif italic, sūra + ayah in
-/// mono caps below, framed by two rosette frieze rules.
-///
-/// In V1 we ship the editorial fallback **Yūsuf 12:111**
-/// (*"there is a lesson for those of understanding"*) inlined as a const.
-/// Phase 1 will wire the same component to ``quran-extracts.json`` so
-/// the verse can change per event.
-class VerseEpigraph extends StatelessWidget {
-  const VerseEpigraph({
-    required this.ar,
-    required this.translation,
-    required this.surahName,
-    required this.reference,
-    super.key,
-  });
+/// A centered Qur'anic citation rendered as a section divider.
+/// When given ``quranRefs`` from an event/lesson, picks the first
+/// surah:ayah from the freeform ref string and looks it up in the
+/// pipeline-emitted ``quran-extracts.json``. Falls back to
+/// **Yūsuf 12:111** ("there is a lesson for those of understanding")
+/// when no refs are supplied or the lookup misses.
+class VerseEpigraph extends ConsumerWidget {
+  const VerseEpigraph({this.quranRefs, super.key});
 
-  /// The standing fallback (Yūsuf 12:111). The fixed editorial epigraph
-  /// for the project — same role as the web's footer-area frame.
-  factory VerseEpigraph.fallback(BuildContext context) {
-    final i18n = Translations.of(context);
-    final lang = i18n.$meta.locale.languageCode;
-    return VerseEpigraph(
-      ar: _kFallbackAr,
-      translation: switch (lang) {
-        'ar' => '',
-        'fr' => _kFallbackFr,
-        _ => _kFallbackEn,
-      },
-      surahName: lang == 'ar' ? 'يوسف' : 'Yūsuf',
-      reference: '12:111',
-    );
-  }
-
-  final String ar;
-  final String translation;
-  final String surahName;
-  final String reference;
+  final String? quranRefs;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final t = context.tokens;
     final i18n = Translations.of(context);
     final lang = i18n.$meta.locale.languageCode;
-    final prefix = lang == 'ar' ? 'سورة' : 'Sūrat';
+    final extracts = ref.watch(quranExtractsProvider).value;
+    if (extracts == null) return const SizedBox.shrink();
+
+    final verse = extracts.pick(firstQuranKey(quranRefs));
+    if (verse == null) return const SizedBox.shrink();
+
+    final translation = switch (lang) {
+      'ar' => '',
+      'fr' => verse.fr,
+      _ => verse.en,
+    };
+    final surahPrefix = lang == 'ar' ? 'سورة' : 'Sūrat';
+    final surahName = lang == 'ar' ? verse.surahNameAr : verse.surahNameEn;
+    final ref_ = '${verse.surahNumber}:${verse.ayahNumber}';
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 36),
@@ -58,13 +45,9 @@ class VerseEpigraph extends StatelessWidget {
           Directionality(
             textDirection: TextDirection.rtl,
             child: Text(
-              ar,
+              verse.ar,
               textAlign: TextAlign.center,
-              style: IotdTypography.arabic(
-                size: 22,
-                color: t.ink,
-                height: 1.9,
-              ),
+              style: IotdTypography.arabic(size: 22, color: t.ink, height: 1.9),
             ),
           ),
           if (translation.isNotEmpty) ...[
@@ -82,7 +65,7 @@ class VerseEpigraph extends StatelessWidget {
           ],
           const SizedBox(height: 20),
           Text(
-            '${prefix.toUpperCase()} ${surahName.toUpperCase()} · $reference',
+            '${surahPrefix.toUpperCase()} ${surahName.toUpperCase()} · $ref_',
             style: IotdTypography.mono(
               size: 11,
               color: t.inkMute,
@@ -95,21 +78,3 @@ class VerseEpigraph extends StatelessWidget {
     );
   }
 }
-
-const String _kFallbackAr =
-    'لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌۭ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ '
-    'حَدِيثًۭا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ '
-    'وَتَفْصِيلَ كُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ';
-
-const String _kFallbackEn =
-    'There was certainly in their stories a lesson for those of '
-    'understanding. Never was the Qur’an a narration invented, but a '
-    'confirmation of what was before it and a detailed explanation of all '
-    'things and guidance and mercy for a people who believe.';
-
-const String _kFallbackFr =
-    'Dans leurs récits il y a certes une leçon pour les gens doués '
-    'd’intelligence. Ce n’est point là un récit fabriqué. '
-    'C’est au contraire la confirmation de ce qui existait déjà avant '
-    'lui, un exposé détaillé de toute chose, un guide et une miséricorde '
-    'pour des gens qui croient.';

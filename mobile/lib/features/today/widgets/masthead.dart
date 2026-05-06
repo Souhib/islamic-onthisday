@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:iotd_mobile/api/generated/models/today_calendar.dart';
+import 'package:iotd_mobile/core/i18n/weekday.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
+import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
 
 /// Compact masthead for the Today screen — eight-point star left,
@@ -15,8 +17,10 @@ class Masthead extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tokens;
+    final lang = TranslationProvider.of(context).flutterLocale.languageCode;
     final hijri = calendar.hijri;
     final greg = calendar.gregorian;
+    final weekday = localiseWeekday(greg.weekday, lang);
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 14, 20, 0),
       child: Column(
@@ -27,7 +31,7 @@ class Masthead extends StatelessWidget {
               const SizedBox(width: 10),
               Expanded(
                 child: Text(
-                  '· ${greg.weekday} · ${hijri.day} ${hijri.month} ${hijri.year} ah ·',
+                  '· $weekday · ${hijri.day} ${hijri.month} ${hijri.year} ah ·',
                   style: IotdTypography.mono(
                     size: 10.5,
                     color: t.inkSoft,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:iotd_mobile/api/generated/models/bookmark_create_target_kind.dart';
 import 'package:iotd_mobile/api/generated/models/event_detail.dart';
 import 'package:iotd_mobile/api/generated/models/event_detail_dispute_about.dart';
@@ -11,6 +12,7 @@ import 'package:iotd_mobile/features/event/event_provider.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
 import 'package:iotd_mobile/shared/verse_epigraph.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// Single-event detail page. Reuses the editorial vocabulary from the
 /// web's `Main` component: era eyebrow, verification chip, full title
@@ -135,6 +137,27 @@ class _Body extends StatelessWidget {
             label: _disputeLabel(i18n, event.disputeAbout),
           ),
         ],
+        if ((event.imageUrl ?? '').isNotEmpty) ...[
+          const SizedBox(height: 22),
+          Container(
+            decoration: BoxDecoration(
+              border: Border(
+                top: BorderSide(color: t.rule, width: 0.5),
+                bottom: BorderSide(color: t.rule, width: 0.5),
+              ),
+            ),
+            padding: const EdgeInsets.symmetric(vertical: 12),
+            child: AspectRatio(
+              aspectRatio: 16 / 9,
+              child: CachedNetworkImage(
+                imageUrl: event.imageUrl!,
+                fit: BoxFit.cover,
+                placeholder: (_, _) => Container(color: t.paperLo),
+                errorWidget: (_, _, _) => Container(color: t.paperLo),
+              ),
+            ),
+          ),
+        ],
         const SizedBox(height: 16),
         FriezeRule(label: i18n.today.introduction, marginTop: 4, marginBottom: 14),
         Text(
@@ -163,7 +186,26 @@ class _Body extends StatelessWidget {
             style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.6),
           ),
         ],
-        VerseEpigraph.fallback(context),
+        if ((event.sourceUrl ?? '').isNotEmpty) ...[
+          const SizedBox(height: 22),
+          Center(
+            child: TextButton(
+              onPressed: () => launchUrl(
+                Uri.parse(event.sourceUrl!),
+                mode: LaunchMode.externalApplication,
+              ),
+              child: Text(
+                '${i18n.today.verify.toUpperCase()} ↗',
+                style: IotdTypography.mono(
+                  size: 11,
+                  color: t.accent,
+                  letterSpacing: 1.6,
+                ),
+              ),
+            ),
+          ),
+        ],
+        VerseEpigraph(quranRefs: event.quranRefs),
       ],
     );
   }

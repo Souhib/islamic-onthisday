@@ -8,6 +8,7 @@ import 'package:iotd_mobile/core/router/app_router.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
 import 'package:iotd_mobile/features/today/today_provider.dart';
+import 'package:iotd_mobile/features/today/widgets/footer.dart';
 import 'package:iotd_mobile/features/today/widgets/headline_card.dart';
 import 'package:iotd_mobile/features/today/widgets/masthead.dart';
 import 'package:iotd_mobile/features/today/widgets/secondary_card.dart';
@@ -40,10 +41,7 @@ class TodayScreen extends ConsumerWidget {
               children: [
                 Masthead(calendar: data.today),
                 const SizedBox(height: 18),
-                HeadlineCard(
-                  today: data,
-                  onOpen: () => _openHeadline(context, data),
-                ),
+                HeadlineCard(today: data),
                 if (data.secondary.isNotEmpty) ...[
                   FriezeRule(
                     label: Translations.of(context).today.more_reading,
@@ -55,7 +53,8 @@ class TodayScreen extends ConsumerWidget {
                       onTap: () => _openSecondary(context, item),
                     ),
                 ],
-                VerseEpigraph.fallback(context),
+                VerseEpigraph(quranRefs: _headlineQuranRefs(data)),
+                const IotdFooter(),
               ],
             ),
           ),
@@ -64,13 +63,11 @@ class TodayScreen extends ConsumerWidget {
     );
   }
 
-  void _openHeadline(BuildContext context, TodayResponse data) {
+  String? _headlineQuranRefs(TodayResponse data) {
     final h = data.headline;
-    if (h is TodayResponseHeadlineSealedEventDetail) {
-      context.push('${AppRoutes.event}/${h.id}');
-    } else if (h is TodayResponseHeadlineSealedLessonDetail) {
-      context.push('${AppRoutes.lesson}/${h.id}');
-    }
+    if (h is TodayResponseHeadlineSealedEventDetail) return h.quranRefs;
+    if (h is TodayResponseHeadlineSealedLessonDetail) return h.quranRefs;
+    return null;
   }
 
   void _openSecondary(BuildContext context, TodayResponseSecondarySealed item) {

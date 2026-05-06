@@ -9,6 +9,7 @@ import 'package:iotd_mobile/features/lesson/lesson_provider.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
 import 'package:iotd_mobile/shared/verse_epigraph.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// Single-lesson detail page. Lessons are dateless, so the date strip
 /// is replaced by the source reference (e.g. ``Sūrat al-Qasaṣ 28:76``).
@@ -138,7 +139,26 @@ class _Body extends StatelessWidget {
             style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.6),
           ),
         ],
-        VerseEpigraph.fallback(context),
+        if ((lesson.sourceUrl ?? '').isNotEmpty) ...[
+          const SizedBox(height: 22),
+          Center(
+            child: TextButton(
+              onPressed: () => launchUrl(
+                Uri.parse(lesson.sourceUrl!),
+                mode: LaunchMode.externalApplication,
+              ),
+              child: Text(
+                '${i18n.today.verify.toUpperCase()} ↗',
+                style: IotdTypography.mono(
+                  size: 11,
+                  color: t.accent,
+                  letterSpacing: 1.6,
+                ),
+              ),
+            ),
+          ),
+        ],
+        VerseEpigraph(quranRefs: lesson.quranRefs),
       ],
     );
   }

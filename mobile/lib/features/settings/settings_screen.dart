@@ -19,7 +19,16 @@ class SettingsScreen extends ConsumerWidget {
     final t = context.tokens;
     final i18n = Translations.of(context);
     final mode = ref.watch(themeModeProvider);
-    final locale = ref.watch(localeProvider);
+    // Highlight the *resolved* locale even when the user hasn't
+    // picked one explicitly (the prefs are still null but the app
+    // is rendering in some language). Falls back to the device locale.
+    final saved = ref.watch(localeProvider);
+    final activeLocale = saved ??
+        switch (TranslationProvider.of(context).flutterLocale.languageCode) {
+          'fr' => AppLocale.fr,
+          'ar' => AppLocale.ar,
+          _ => AppLocale.en,
+        };
     final notifsEnabled = ref.watch(notificationsEnabledProvider);
     final notifHour = ref.watch(notificationHourProvider);
 
@@ -51,7 +60,7 @@ class SettingsScreen extends ConsumerWidget {
                 (AppLocale.fr, 'Français'),
                 (AppLocale.ar, 'العربية'),
               ],
-              value: locale,
+              value: activeLocale,
               onChanged: (l) => ref.read(localeProvider.notifier).set(l),
             ),
             const SizedBox(height: 18),

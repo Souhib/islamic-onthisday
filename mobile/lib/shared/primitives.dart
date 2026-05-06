@@ -85,9 +85,27 @@ class _RosettePainter extends CustomPainter {
       ..style = PaintingStyle.stroke
       ..strokeWidth = 0.6;
     final center = Offset(size.width / 2, size.height / 2);
-    canvas.drawCircle(center, size.width * 0.45, paint);
-    canvas.drawCircle(center, size.width * 0.32, paint);
-    canvas.drawCircle(center, size.width * 0.18, paint);
+    // Web's rosette geometry — two concentric circles with two
+    // overlaid squares (one upright, one rotated 45°) that together
+    // suggest an eight-point star inside the circle ring.
+    canvas.drawCircle(center, size.width * 0.39, paint);
+    canvas.drawCircle(center, size.width * 0.21, paint);
+
+    final rectInset = size.width * 0.205;
+    final rect = Rect.fromLTRB(
+      rectInset,
+      rectInset,
+      size.width - rectInset,
+      size.height - rectInset,
+    );
+    canvas.drawRect(rect, paint);
+
+    canvas.save();
+    canvas.translate(center.dx, center.dy);
+    canvas.rotate(0.7853981633974483); // 45°
+    canvas.translate(-center.dx, -center.dy);
+    canvas.drawRect(rect, paint);
+    canvas.restore();
   }
 
   @override

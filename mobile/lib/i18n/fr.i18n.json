@@ -16,7 +16,8 @@
     "more_reading": "Plus de lectures pour aujourd'hui",
     "introduction": "Introduction",
     "the_reading": "La lecture",
-    "end_of_reading": "Fin de la lecture du jour"
+    "end_of_reading": "Fin de la lecture du jour",
+    "verify": "Vérifier"
   },
   "verification": {
     "scholar_reviewed": "validé par un savant",

@@ -86,6 +86,7 @@ class _TranslationsTodayFr implements TranslationsTodayEn {
 	@override String get introduction => 'Introduction';
 	@override String get the_reading => 'La lecture';
 	@override String get end_of_reading => 'Fin de la lecture du jour';
+	@override String get verify => 'Vérifier';
 }
 
 // Path: verification
@@ -199,6 +200,7 @@ extension on TranslationsFr {
 			'today.introduction' => 'Introduction',
 			'today.the_reading' => 'La lecture',
 			'today.end_of_reading' => 'Fin de la lecture du jour',
+			'today.verify' => 'Vérifier',
 			'verification.scholar_reviewed' => 'validé par un savant',
 			'verification.cross_verified' => 'vérifié par recoupement',
 			'verification.single_source' => 'une seule source',

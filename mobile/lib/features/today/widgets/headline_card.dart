@@ -12,10 +12,9 @@ import 'package:iotd_mobile/shared/primitives.dart';
 /// non-Arabic, the dates row (Hijri + Gregorian long + DD-MM-YYYY),
 /// and the introduction summary in serif italic.
 class HeadlineCard extends StatelessWidget {
-  const HeadlineCard({required this.today, required this.onOpen, super.key});
+  const HeadlineCard({required this.today, super.key});
 
   final TodayResponse today;
-  final VoidCallback onOpen;
 
   @override
   Widget build(BuildContext context) {
@@ -33,11 +32,9 @@ class HeadlineCard extends StatelessWidget {
           _pick(lang, headline.summary, headline.summaryAr, headline.summaryFr);
       final showArabicCompanion = lang != 'ar' && headline.titleAr != null;
 
-      return InkWell(
-        onTap: onOpen,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 8),
-          child: Column(
+      return Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 8),
+        child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Row(
@@ -95,7 +92,6 @@ class HeadlineCard extends StatelessWidget {
               ),
             ],
           ),
-        ),
       );
     }
 
@@ -103,14 +99,12 @@ class HeadlineCard extends StatelessWidget {
       final localisedTitle = _pick(lang, headline.title, headline.titleAr, headline.titleFr);
       final localisedSummary =
           _pick(lang, headline.summary, headline.summaryAr, headline.summaryFr);
-      return InkWell(
-        onTap: onOpen,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 8),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Eyebrow(_humanise(headline.category), color: EyebrowColor.accent),
+      return Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 8),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Eyebrow(_humanise(headline.category), color: EyebrowColor.accent),
               const SizedBox(height: 16),
               Text(
                 localisedTitle,
@@ -137,8 +131,7 @@ class HeadlineCard extends StatelessWidget {
                   height: 1.6,
                 ),
               ),
-            ],
-          ),
+          ],
         ),
       );
     }

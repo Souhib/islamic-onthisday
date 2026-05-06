@@ -115,6 +115,9 @@ class TranslationsTodayEn {
 
 	/// en: 'End of the day's reading'
 	String get end_of_reading => 'End of the day\'s reading';
+
+	/// en: 'Verify'
+	String get verify => 'Verify';
 }
 
 // Path: verification
@@ -300,6 +303,7 @@ extension on Translations {
 			'today.introduction' => 'Introduction',
 			'today.the_reading' => 'The reading',
 			'today.end_of_reading' => 'End of the day\'s reading',
+			'today.verify' => 'Verify',
 			'verification.scholar_reviewed' => 'scholar reviewed',
 			'verification.cross_verified' => 'cross-verified',
 			'verification.single_source' => 'single source',

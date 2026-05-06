@@ -86,6 +86,7 @@ class _TranslationsTodayAr implements TranslationsTodayEn {
 	@override String get introduction => 'مقدّمة';
 	@override String get the_reading => 'القراءة';
 	@override String get end_of_reading => 'نهاية قراءة اليوم';
+	@override String get verify => 'تحقّق';
 }
 
 // Path: verification
@@ -199,6 +200,7 @@ extension on TranslationsAr {
 			'today.introduction' => 'مقدّمة',
 			'today.the_reading' => 'القراءة',
 			'today.end_of_reading' => 'نهاية قراءة اليوم',
+			'today.verify' => 'تحقّق',
 			'verification.scholar_reviewed' => 'مراجَعة علمية',
 			'verification.cross_verified' => 'متحقَّق منها بمصادر متعددة',
 			'verification.single_source' => 'مصدر واحد',
