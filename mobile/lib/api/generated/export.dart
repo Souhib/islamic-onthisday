@@ -10,6 +10,7 @@ export 'clients/lessons_client.dart';
 export 'clients/observances_client.dart';
 export 'clients/people_client.dart';
 export 'clients/recent_client.dart';
+export 'clients/upcoming_client.dart';
 export 'clients/auth_client.dart';
 export 'clients/bookmarks_client.dart';
 // Data classes

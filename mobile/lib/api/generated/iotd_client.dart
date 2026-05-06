@@ -11,6 +11,7 @@ import 'clients/lessons_client.dart';
 import 'clients/observances_client.dart';
 import 'clients/people_client.dart';
 import 'clients/recent_client.dart';
+import 'clients/upcoming_client.dart';
 import 'clients/auth_client.dart';
 import 'clients/bookmarks_client.dart';
 
@@ -36,6 +37,7 @@ class IotdClient {
   ObservancesClient? _observances;
   PeopleClient? _people;
   RecentClient? _recent;
+  UpcomingClient? _upcoming;
   AuthClient? _auth;
   BookmarksClient? _bookmarks;
 
@@ -52,6 +54,8 @@ class IotdClient {
   PeopleClient get people => _people ??= PeopleClient(_dio, baseUrl: _baseUrl);
 
   RecentClient get recent => _recent ??= RecentClient(_dio, baseUrl: _baseUrl);
+
+  UpcomingClient get upcoming => _upcoming ??= UpcomingClient(_dio, baseUrl: _baseUrl);
 
   AuthClient get auth => _auth ??= AuthClient(_dio, baseUrl: _baseUrl);
 

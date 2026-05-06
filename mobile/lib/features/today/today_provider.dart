@@ -1,6 +1,9 @@
+import 'dart:async';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iotd_mobile/api/generated/models/today_response.dart';
 import 'package:iotd_mobile/core/di/api_providers.dart';
+import 'package:iotd_mobile/core/notifications/notification_scheduler.dart';
 import 'package:iotd_mobile/core/widgets_bridge/home_widget_writer.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 
@@ -8,16 +11,45 @@ import 'package:iotd_mobile/i18n/strings.g.dart';
 /// the consumer calls `ref.invalidate(todayProvider)`. Caches inside
 /// Riverpod for the lifetime of the screen.
 ///
-/// On every successful fetch we also push the payload to the
-/// home-screen widget shared store via `HomeWidgetWriter`. The call
-/// is a no-op on platforms / builds where the native widget target
-/// is absent, so it's safe to wire unconditionally.
+/// Side-effects on every successful fetch:
+///   1. Push the payload to the home-screen widget shared store
+///      via ``HomeWidgetWriter`` (no-op when the native widget
+///      target isn't installed).
+///   2. Re-fetch the next 7 days from ``/api/v1/upcoming`` and
+///      reschedule local notifications so the alerts carry the
+///      actual headline titles. Non-blocking — failure here
+///      degrades silently to whatever was previously scheduled.
 final todayProvider = FutureProvider<TodayResponse>((ref) async {
   final client = ref.watch(iotdClientProvider).today;
   final data = await client.getTodayApiV1TodayGet();
-  await HomeWidgetWriter.publishToday(
-    data,
-    LocaleSettings.currentLocale.languageCode,
+  final lang = LocaleSettings.currentLocale.languageCode;
+  await HomeWidgetWriter.publishToday(data, lang);
+
+  // Fire-and-forget: refresh the personalised notification window.
+  // Errors land on the unhandled-future stream and are swallowed by
+  // the scheduler's internal try/except — the user's current schedule
+  // stays in place if anything goes wrong.
+  unawaited(
+    ref.rescheduleDailyNotificationsFromPrefs(
+      genericTitle: _genericTitle(lang),
+      genericBody: _genericBody(lang),
+    ),
   );
+
   return data;
 });
+
+/// Mirror of ``i18n.settings.notification_title`` keyed off the
+/// resolved locale, since this provider runs outside a widget tree
+/// and can't take a ``BuildContext``.
+String _genericTitle(String lang) => switch (lang) {
+      'fr' => "Aujourd'hui dans le calendrier",
+      'ar' => 'اليوم في التقويم',
+      _ => 'Today on the calendar',
+    };
+
+String _genericBody(String lang) => switch (lang) {
+      'fr' => 'Une nouvelle entrée vous attend. Ouvrez pour lire.',
+      'ar' => 'مدخل جديد في انتظارك. افتح لتقرأ.',
+      _ => 'A new entry awaits. Open to read.',
+    };

@@ -29,6 +29,7 @@ from iotd.api.routes import observances as observances_route
 from iotd.api.routes import people as people_route
 from iotd.api.routes import recent as recent_route
 from iotd.api.routes import today as today_route
+from iotd.api.routes import upcoming as upcoming_route
 from iotd.database import dispose_engine, init_engine
 from iotd.logger_config import configure_logger
 from iotd.observability import configure_sentry
@@ -152,6 +153,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     app.include_router(observances_route.router, prefix="/api/v1")
     app.include_router(people_route.router, prefix="/api/v1")
     app.include_router(recent_route.router, prefix="/api/v1")
+    app.include_router(upcoming_route.router, prefix="/api/v1")
     app.include_router(auth_route.router, prefix="/api/v1")
     app.include_router(bookmarks_route.router, prefix="/api/v1")
 

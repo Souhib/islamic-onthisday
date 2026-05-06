@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iotd_mobile/core/di/providers.dart';
+import 'package:iotd_mobile/core/notifications/notification_scheduler.dart';
 import 'package:iotd_mobile/core/notifications/notification_service.dart';
 
 /// Reactive flag for "daily notification enabled". Pushes
 /// (re-)schedules through `NotificationService` whenever it flips.
+/// Each schedule fetches the next 7 days from ``/api/v1/upcoming`` so
+/// the alerts carry the actual headline titles instead of a generic
+/// body — see ``rescheduleDailyNotifications``.
 class NotificationsEnabledNotifier extends Notifier<bool> {
   @override
   bool build() => ref.read(prefsServiceProvider).notificationsEnabled;
@@ -16,12 +20,9 @@ class NotificationsEnabledNotifier extends Notifier<bool> {
     if (value) {
       await NotificationService.instance.requestPermissions();
     }
-    await NotificationService.instance.scheduleDaily(
-      enabled: value,
-      hour: prefs.notificationHour,
-      minute: prefs.notificationMinute,
-      title: title,
-      body: body,
+    await ref.rescheduleDailyNotificationsFromPrefs(
+      genericTitle: title,
+      genericBody: body,
     );
   }
 }
@@ -50,12 +51,9 @@ class NotificationTimeNotifier extends Notifier<TimeOfDay> {
     await prefs.setNotificationMinute(time.minute);
     state = time;
     if (prefs.notificationsEnabled) {
-      await NotificationService.instance.scheduleDaily(
-        enabled: true,
-        hour: time.hour,
-        minute: time.minute,
-        title: title,
-        body: body,
+      await ref.rescheduleDailyNotificationsFromPrefs(
+        genericTitle: title,
+        genericBody: body,
       );
     }
   }

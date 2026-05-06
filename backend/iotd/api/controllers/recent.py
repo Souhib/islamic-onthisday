@@ -47,8 +47,24 @@ class RecentController:
         """
         today = datetime.now(UTC).date()
         dates = [today - timedelta(days=i) for i in range(RECENT_WINDOW_DAYS)]
-        calendars = [calendar_for(d) for d in dates]
+        return await self._build_days(dates)
 
+    async def upcoming(self, days: int) -> RecentResponse:
+        """Build the next ``days`` calendar days, starting today.
+
+        Used by the mobile app to pre-fetch upcoming headlines so it
+        can schedule rich-content local notifications without a push
+        server. Same shape as ``recent()`` but the dates run forward
+        from today instead of backward, and ``days`` is caller-controlled
+        (mobile schedules ~7-30 days at a time).
+        """
+        today = datetime.now(UTC).date()
+        dates = [today + timedelta(days=i) for i in range(days)]
+        return await self._build_days(dates)
+
+    async def _build_days(self, dates: list[date]) -> RecentResponse:
+        """Shared composer for ``recent`` and ``upcoming``."""
+        calendars = [calendar_for(d) for d in dates]
         headlines = await self._pick_headlines(dates, calendars)
         missing = [d for d in dates if d not in headlines]
         lesson_fallbacks = await self._pick_lesson_fallbacks(missing) if missing else {}
