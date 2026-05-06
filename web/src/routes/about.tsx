@@ -42,7 +42,7 @@ function ExternalLink({ href, label }: ExternalLinkProps) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-1.5 border border-rule bg-transparent px-3 py-1.5 font-mono text-[11px] uppercase tracking-[1.6px] text-ink-soft transition-colors hover:border-ink hover:text-ink"
+      className="inline-flex items-center gap-1.5 border border-rule bg-transparent px-3.5 py-2 font-mono text-[12.5px] uppercase tracking-[1.6px] text-ink-soft transition-colors hover:border-ink hover:text-ink"
     >
       {label}
       <span aria-hidden="true">↗</span>
@@ -66,7 +66,7 @@ function AboutPage() {
           <p
             dir={isRTL ? "rtl" : "ltr"}
             className={cn(
-              "mt-3 max-w-[520px] text-center text-[15.5px] leading-[1.5] text-ink-soft text-pretty",
+              "mt-3 max-w-[560px] text-center text-[17px] leading-[1.55] text-ink-soft text-pretty",
               isRTL ? "font-arabic" : "font-serif italic",
             )}
           >
@@ -82,8 +82,8 @@ function AboutPage() {
           <p
             dir={isRTL ? "rtl" : "ltr"}
             className={cn(
-              "mt-3 text-[16px] leading-[1.65] text-ink-soft text-pretty",
-              isRTL ? "font-arabic leading-[1.9]" : "font-serif",
+              "mt-3 text-[18px] leading-[1.7] text-ink-soft text-pretty",
+              isRTL ? "font-arabic leading-[1.95]" : "font-serif",
             )}
           >
             {t("about.project_purpose_body")}
@@ -103,7 +103,7 @@ function AboutPage() {
             <h2
               dir={isRTL ? "rtl" : "ltr"}
               className={cn(
-                "text-[clamp(26px,3vw,34px)] font-medium leading-[1.05] text-ink",
+                "text-[clamp(28px,3.2vw,38px)] font-medium leading-[1.05] text-ink",
                 isRTL ? "font-arabic" : "font-serif tracking-[-0.8px]",
               )}
             >
@@ -115,8 +115,8 @@ function AboutPage() {
             <p
               dir={isRTL ? "rtl" : "ltr"}
               className={cn(
-                "mt-3 max-w-[480px] text-[15.5px] leading-[1.55] text-ink-soft text-pretty",
-                isRTL ? "font-arabic leading-[1.85]" : "font-serif",
+                "mt-3 max-w-[520px] text-[17.5px] leading-[1.6] text-ink-soft text-pretty",
+                isRTL ? "font-arabic leading-[1.9]" : "font-serif",
               )}
             >
               {t("about.bio")}
@@ -127,11 +127,11 @@ function AboutPage() {
         {/* Education */}
         <section className="mb-10">
           <Eyebrow color="accent">· {t("about.education_title")} ·</Eyebrow>
-          <ul className="mt-3 flex flex-col gap-2.5">
+          <ul className="mt-3 flex flex-col gap-3">
             {(["education_epitech", "education_sfsu"] as const).map((key) => (
               <li
                 key={key}
-                className="border-b border-rule-soft pb-2.5 font-serif text-[16px] leading-[1.4] text-ink"
+                className="border-b border-rule-soft pb-3 font-serif text-[18px] leading-[1.4] text-ink"
               >
                 {t(`about.${key}`)}
               </li>
@@ -142,18 +142,15 @@ function AboutPage() {
         {/* Experience */}
         <section className="mb-10">
           <Eyebrow color="accent">· {t("about.experience_title")} ·</Eyebrow>
-          <ul className="mt-3 flex flex-col gap-4">
+          <ul className="mt-3 flex flex-col gap-3">
             {EXPERIENCE_KEYS.map((slug) => (
-              <li key={slug} className="border-b border-rule-soft pb-4">
-                <div className="font-serif text-[16.5px] font-medium leading-[1.25] text-ink">
+              <li key={slug} className="border-b border-rule-soft pb-3">
+                <div className="font-serif text-[18px] font-medium leading-[1.3] text-ink">
                   {t(`about.experience_${slug}_title`)}
                 </div>
-                <div className="mt-1 font-mono text-[11px] uppercase tracking-[1.4px] text-ink-mute">
+                <div className="mt-1.5 font-mono text-[12px] uppercase tracking-[1.4px] text-ink-mute">
                   {t(`about.experience_${slug}_period`)}
                 </div>
-                <p className="mt-2 text-[14.5px] leading-[1.55] text-ink-soft">
-                  {t(`about.experience_${slug}_desc`)}
-                </p>
               </li>
             ))}
           </ul>
@@ -162,11 +159,11 @@ function AboutPage() {
         {/* Skills */}
         <section className="mb-10">
           <Eyebrow color="accent">· {t("about.skills_title")} ·</Eyebrow>
-          <div className="mt-3 flex flex-wrap gap-1.5">
+          <div className="mt-3 flex flex-wrap gap-2">
             {SKILLS.map((skill) => (
               <span
                 key={skill}
-                className="border border-rule px-2.5 py-1 font-mono text-[11.5px] tracking-[0.4px] text-ink-soft"
+                className="border border-rule px-3 py-1.5 font-mono text-[13px] tracking-[0.4px] text-ink-soft"
               >
                 {skill}
               </span>
@@ -178,42 +175,50 @@ function AboutPage() {
         <section className="mb-10">
           <Eyebrow color="accent">· {t("about.other_projects_title")} ·</Eyebrow>
           <ul className="mt-3 flex flex-col gap-4">
-            {(["majlisna", "latabdhir"] as const).map((slug) => (
-              <li key={slug} className="border-b border-rule-soft pb-4">
-                <div className="flex items-baseline justify-between gap-3 flex-wrap">
-                  <a
-                    href={`https://${t(`about.other_projects_${slug}_link`)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-serif text-[17px] font-medium leading-[1.2] text-ink hover:underline"
-                  >
-                    {t(`about.other_projects_${slug}_title`)}
-                  </a>
-                  <span className="font-mono text-[11px] uppercase tracking-[1.4px] text-accent">
-                    {t(`about.other_projects_${slug}_link`)} ↗
-                  </span>
-                </div>
-                <p className="mt-2 text-[14.5px] leading-[1.55] text-ink-soft">
-                  {t(`about.other_projects_${slug}_desc`)}
-                </p>
-              </li>
-            ))}
+            {(["majlisna", "latabdhir"] as const).map((slug) => {
+              const url = `https://${t(`about.other_projects_${slug}_link`)}`;
+              return (
+                <li key={slug} className="border-b border-rule-soft pb-4">
+                  <div className="flex items-baseline justify-between gap-3 flex-wrap">
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-serif text-[19px] font-medium leading-[1.2] text-ink hover:underline"
+                    >
+                      {t(`about.other_projects_${slug}_title`)}
+                    </a>
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-mono text-[11.5px] uppercase tracking-[1.4px] text-accent underline decoration-accent/40 underline-offset-[5px] transition-colors hover:decoration-accent"
+                    >
+                      {t(`about.other_projects_${slug}_link`)} ↗
+                    </a>
+                  </div>
+                  <p className="mt-2 text-[16px] leading-[1.55] text-ink-soft">
+                    {t(`about.other_projects_${slug}_desc`)}
+                  </p>
+                </li>
+              );
+            })}
           </ul>
         </section>
 
         {/* Mentoring */}
-        <section className="mb-10 border border-accent/40 bg-paper-hi/40 p-5">
+        <section className="mb-10 border border-accent/40 bg-paper-hi/40 p-6">
           <Eyebrow color="accent">· {t("about.mentoring_title")} ·</Eyebrow>
           <p
             dir={isRTL ? "rtl" : "ltr"}
             className={cn(
-              "mt-3 text-[15.5px] leading-[1.6] text-ink-soft",
-              isRTL ? "font-arabic leading-[1.85]" : "font-serif",
+              "mt-3 text-[17px] leading-[1.65] text-ink-soft",
+              isRTL ? "font-arabic leading-[1.9]" : "font-serif",
             )}
           >
             {t("about.mentoring_body")}
           </p>
-          <div className="mt-4 flex flex-wrap gap-2.5">
+          <div className="mt-5 flex flex-wrap gap-3">
             <ExternalLink href="mailto:souhib.t@icloud.com" label="souhib.t@icloud.com" />
             <ExternalLink href="tel:+33643142020" label="+33 6 43 14 20 20" />
           </div>
@@ -225,7 +230,7 @@ function AboutPage() {
           <p
             dir={isRTL ? "rtl" : "ltr"}
             className={cn(
-              "mt-3 text-[15px] leading-[1.55] text-ink-soft",
+              "mt-3 text-[16.5px] leading-[1.6] text-ink-soft",
               isRTL ? "font-arabic" : "font-serif italic",
             )}
           >
@@ -250,7 +255,7 @@ function AboutPage() {
                     href={c.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-serif text-[17px] font-medium leading-[1.2] text-ink hover:underline"
+                    className="font-serif text-[19px] font-medium leading-[1.2] text-ink hover:underline"
                   >
                     {c.name}
                   </a>
@@ -258,12 +263,12 @@ function AboutPage() {
                     href={c.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-mono text-[11px] uppercase tracking-[1.4px] text-accent underline decoration-accent/40 underline-offset-[5px]"
+                    className="font-mono text-[11.5px] uppercase tracking-[1.4px] text-accent underline decoration-accent/40 underline-offset-[5px] transition-colors hover:decoration-accent"
                   >
                     {t("about.charity_donate")} ↗
                   </a>
                 </div>
-                <p className="mt-2 text-[14.5px] leading-[1.55] text-ink-soft">{c.desc}</p>
+                <p className="mt-2 text-[16px] leading-[1.55] text-ink-soft">{c.desc}</p>
               </li>
             ))}
           </ul>
