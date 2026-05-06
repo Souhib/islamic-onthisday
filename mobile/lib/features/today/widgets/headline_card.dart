@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iotd_mobile/api/generated/models/event_detail_verification_status.dart';
 import 'package:iotd_mobile/api/generated/models/today_response.dart';
 import 'package:iotd_mobile/api/generated/models/today_response_headline_sealed.dart';
+import 'package:iotd_mobile/core/i18n/collapse_breaks.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
@@ -82,7 +83,7 @@ class HeadlineCard extends StatelessWidget {
                 marginBottom: 14,
               ),
               Text(
-                localisedSummary,
+                collapseHardBreaks(localisedSummary),
                 style: IotdTypography.serif(
                   size: 18,
                   color: t.inkSoft,
@@ -123,7 +124,7 @@ class HeadlineCard extends StatelessWidget {
                 marginBottom: 14,
               ),
               Text(
-                localisedSummary,
+                collapseHardBreaks(localisedSummary),
                 style: IotdTypography.serif(
                   size: 18,
                   color: t.inkSoft,

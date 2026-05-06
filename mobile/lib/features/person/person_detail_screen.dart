@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iotd_mobile/api/generated/models/person_detail.dart';
+import 'package:iotd_mobile/core/i18n/collapse_breaks.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
 import 'package:iotd_mobile/features/person/person_provider.dart';
@@ -129,7 +130,7 @@ class _Body extends StatelessWidget {
         if ((person.biography ?? '').isNotEmpty) ...[
           FriezeRule(label: i18n.person.biography, marginTop: 28, marginBottom: 18),
           Text(
-            person.biography!,
+            collapseHardBreaks(person.biography!),
             style: IotdTypography.serif(size: 17, color: t.inkSoft, height: 1.65),
           ),
         ],

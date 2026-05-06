@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iotd_mobile/api/generated/models/observance_detail.dart';
+import 'package:iotd_mobile/core/i18n/collapse_breaks.dart';
 import 'package:iotd_mobile/core/i18n/hijri_months.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
@@ -91,7 +92,7 @@ class _Body extends StatelessWidget {
         ),
         FriezeRule(label: i18n.today.introduction, marginTop: 22, marginBottom: 14),
         Text(
-          description,
+          collapseHardBreaks(description),
           style: IotdTypography.serif(
             size: 17,
             color: t.inkSoft,

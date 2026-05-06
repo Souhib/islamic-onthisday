@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iotd_mobile/api/generated/models/bookmark_create_target_kind.dart';
 import 'package:iotd_mobile/api/generated/models/lesson_detail.dart';
+import 'package:iotd_mobile/core/i18n/collapse_breaks.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
 import 'package:iotd_mobile/features/bookmarks/save_button.dart';
@@ -114,7 +115,7 @@ class _Body extends StatelessWidget {
         const SizedBox(height: 16),
         FriezeRule(label: i18n.today.introduction, marginTop: 4, marginBottom: 14),
         Text(
-          summary,
+          collapseHardBreaks(summary),
           style: IotdTypography.serif(
             size: 18,
             color: t.inkSoft,
@@ -128,7 +129,7 @@ class _Body extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(top: i == 0 ? 0 : 18),
               child: Text(
-                body[i],
+                collapseHardBreaks(body[i]),
                 style: IotdTypography.serif(size: 17, color: t.inkSoft, height: 1.65),
               ),
             ),
