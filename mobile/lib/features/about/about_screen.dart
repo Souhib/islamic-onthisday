@@ -269,21 +269,27 @@ class AboutScreen extends StatelessWidget {
             // --- Contact ---
             _Section(
               title: about.contact_title,
-              child: Wrap(
-                spacing: 8,
-                runSpacing: 8,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  _ExternalChip(
+                  _ContactRow(
                     label: about.contact_email,
+                    value: 'souhib.t@hotmail.fr',
                     url: 'mailto:souhib.t@hotmail.fr',
                   ),
-                  _ExternalChip(label: about.contact_phone, url: 'tel:+33643142020'),
-                  _ExternalChip(
+                  _ContactRow(
+                    label: about.contact_phone,
+                    value: '+33 6 43 14 20 20',
+                    url: 'tel:+33643142020',
+                  ),
+                  _ContactRow(
                     label: about.contact_linkedin,
+                    value: 'souhib-trabelsi',
                     url: 'https://www.linkedin.com/in/souhib-trabelsi/',
                   ),
-                  _ExternalChip(
+                  _ContactRow(
                     label: about.contact_github,
+                    value: '@Souhib',
                     url: 'https://github.com/Souhib',
                   ),
                 ],
@@ -454,6 +460,57 @@ class _ProjectRow extends StatelessWidget {
             Text(
               desc,
               style: IotdTypography.serif(size: 16, color: t.inkSoft, height: 1.55),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ContactRow extends StatelessWidget {
+  const _ContactRow({
+    required this.label,
+    required this.value,
+    required this.url,
+  });
+
+  final String label;
+  final String value;
+  final String url;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tokens;
+    return InkWell(
+      onTap: () => launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication),
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 12),
+        decoration: BoxDecoration(
+          border: Border(top: BorderSide(color: t.ruleSoft, width: 0.5)),
+        ),
+        child: Row(
+          children: [
+            SizedBox(
+              width: 96,
+              child: Text(
+                label.toUpperCase(),
+                style: IotdTypography.mono(
+                  size: 11,
+                  color: t.inkMute,
+                  letterSpacing: 1.2,
+                ),
+              ),
+            ),
+            Expanded(
+              child: Text(
+                value,
+                style: IotdTypography.serif(size: 16, color: t.ink),
+              ),
+            ),
+            Text(
+              '↗',
+              style: IotdTypography.mono(size: 14, color: t.accent),
             ),
           ],
         ),
