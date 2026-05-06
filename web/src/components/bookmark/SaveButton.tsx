@@ -1,15 +1,14 @@
 // "Save / Saved" toggle on detail pages.
 //
-// When the user is signed out we route to /sign-in instead of saving —
-// the project's stance is that anonymous reading stays the default and
-// signing up is purely additive. When signed in, clicking either saves
-// (if not already saved) or removes the existing bookmark.
+// Hidden entirely when the visitor is anonymous — anonymous reading is
+// the default, and a Sign-in CTA next to a reading would dilute the
+// editorial focus. Signed-in users see the toggle and either save or
+// remove the bookmark.
 //
 // The icon is the project's editorial mark (eight-point star): outline
 // when not saved, filled when saved. Same vocabulary as the masthead
 // rather than a generic ♡/♥ that renders inconsistently across fonts.
 
-import { Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { useBookmarksQuery, useCreateBookmarkMutation, useDeleteBookmarkMutation } from "@/api/bookmarks";
 import type { BookmarkOut } from "@/api/generated/types.gen";
@@ -49,21 +48,8 @@ export function SaveButton({ targetKind, targetSlug }: Props) {
   const createMut = useCreateBookmarkMutation();
   const deleteMut = useDeleteBookmarkMutation();
 
-  if (!isInitialised) {
+  if (!isInitialised || !isAuthenticated) {
     return null;
-  }
-
-  if (!isAuthenticated) {
-    return (
-      <Link
-        to="/sign-in"
-        aria-label={t("auth.save")}
-        className={cn(buttonShell, "border-rule text-ink-soft hover:border-ink hover:text-ink")}
-      >
-        <SaveStar filled={false} />
-        <span>{t("auth.save")}</span>
-      </Link>
-    );
   }
 
   const existing: BookmarkOut | undefined = bookmarks.data?.items.find(
