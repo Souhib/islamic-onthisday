@@ -1,49 +1,149 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+import 'package:iotd_mobile/api/generated/models/today_response.dart';
+import 'package:iotd_mobile/api/generated/models/today_response_headline_sealed.dart';
+import 'package:iotd_mobile/api/generated/models/today_response_secondary_sealed.dart';
+import 'package:iotd_mobile/core/router/app_router.dart';
 import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
 import 'package:iotd_mobile/core/theme/iotd_typography.dart';
+import 'package:iotd_mobile/features/today/today_provider.dart';
+import 'package:iotd_mobile/features/today/widgets/headline_card.dart';
+import 'package:iotd_mobile/features/today/widgets/masthead.dart';
+import 'package:iotd_mobile/features/today/widgets/secondary_card.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
 import 'package:iotd_mobile/shared/verse_epigraph.dart';
 
-/// Placeholder Today screen — the real implementation arrives in
-/// phase 1 (TanStack-equivalent fetch + headline + rails + epigraph).
-/// For now it just proves the theme + i18n + navigation pipeline.
+/// The Today route — fetches `/api/v1/today`, renders the masthead +
+/// headline + secondary stack + Qur'anic epigraph. RefreshIndicator
+/// re-pulls when the user pulls down. Loading/Empty/Error states have
+/// their own minimal compositions so the editorial vocabulary stays
+/// consistent.
 class TodayScreen extends ConsumerWidget {
   const TodayScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final t = context.tokens;
-    final i18n = Translations.of(context);
-
+    final today = ref.watch(todayProvider);
     return Scaffold(
       backgroundColor: t.paper,
       body: SafeArea(
-        child: Center(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 28),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+        child: today.when(
+          loading: () => const _LoadingState(),
+          error: (e, _) => _ErrorState(onRetry: () => ref.invalidate(todayProvider)),
+          data: (TodayResponse data) => RefreshIndicator(
+            onRefresh: () async => ref.invalidate(todayProvider),
+            child: ListView(
+              padding: const EdgeInsets.only(bottom: 60),
               children: [
-                const EightPointStar(size: 36),
-                const SizedBox(height: 24),
-                const Eyebrow('today', color: EyebrowColor.accent),
-                const SizedBox(height: 12),
-                Text(
-                  i18n.app.tagline,
-                  textAlign: TextAlign.center,
-                  style: IotdTypography.serif(
-                    size: 26,
-                    color: t.ink,
-                    height: 1.2,
-                  ),
+                Masthead(calendar: data.today),
+                const SizedBox(height: 18),
+                HeadlineCard(
+                  today: data,
+                  onOpen: () => _openHeadline(context, data),
                 ),
-                const SizedBox(height: 24),
+                if (data.secondary.isNotEmpty) ...[
+                  FriezeRule(
+                    label: Translations.of(context).today.more_reading,
+                    marginTop: 36,
+                  ),
+                  for (final item in data.secondary)
+                    SecondaryCard(
+                      item: item,
+                      onTap: () => _openSecondary(context, item),
+                    ),
+                ],
                 VerseEpigraph.fallback(context),
               ],
             ),
           ),
+        ),
+      ),
+    );
+  }
+
+  void _openHeadline(BuildContext context, TodayResponse data) {
+    final h = data.headline;
+    if (h is TodayResponseHeadlineSealedEventDetail) {
+      context.push('${AppRoutes.event}/${h.id}');
+    } else if (h is TodayResponseHeadlineSealedLessonDetail) {
+      context.push('${AppRoutes.lesson}/${h.id}');
+    }
+  }
+
+  void _openSecondary(BuildContext context, TodayResponseSecondarySealed item) {
+    if (item is TodayResponseSecondarySealedEventSummary) {
+      context.push('${AppRoutes.event}/${item.id}');
+    } else if (item is TodayResponseSecondarySealedLessonSummary) {
+      context.push('${AppRoutes.lesson}/${item.id}');
+    }
+  }
+}
+
+class _LoadingState extends StatelessWidget {
+  const _LoadingState();
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tokens;
+    final i18n = Translations.of(context);
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const EightPointStar(size: 36),
+          const SizedBox(height: 24),
+          Text(
+            i18n.today.loading.toUpperCase(),
+            style: IotdTypography.mono(
+              size: 11,
+              color: t.inkMute,
+              letterSpacing: 1.6,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ErrorState extends StatelessWidget {
+  const _ErrorState({required this.onRetry});
+
+  final VoidCallback onRetry;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tokens;
+    final i18n = Translations.of(context);
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(28),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const EightPointStar(size: 36),
+            const SizedBox(height: 16),
+            Text(
+              i18n.today.load_failed,
+              textAlign: TextAlign.center,
+              style: IotdTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
+            ),
+            const SizedBox(height: 16),
+            TextButton(
+              onPressed: onRetry,
+              child: Text(
+                'retry'.toUpperCase(),
+                style: IotdTypography.mono(
+                  size: 11,
+                  color: t.accent,
+                  letterSpacing: 1.6,
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
