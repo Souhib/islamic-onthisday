@@ -25,19 +25,39 @@ export function Footer() {
       ].join(" · ")
     : null;
 
+  // Three balanced cells on desktop (stats / byline / about+tagline+version);
+  // stacks centered on mobile.
   return (
-    <footer className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-rule px-[clamp(20px,4vw,56px)] py-5 font-mono text-[12px] uppercase tracking-[1.2px] text-ink-mute">
-      {stat && <span className="text-ink-soft">{stat}</span>}
-      <span className="ms-auto flex flex-wrap items-center gap-x-3 gap-y-1">
-        <Link to="/about" className="iotd-link">
-          {t("about.nav_label")}
-        </Link>
-        <span aria-hidden="true">·</span>
-        <span className="hidden sm:inline">{t("classical_record_tagline")}</span>
-        <span>
-          {VERSION} · 1447 ah {t("build_label")}
+    <footer className="border-t border-rule px-[clamp(20px,4vw,56px)] py-5 font-mono text-[12px] uppercase tracking-[1.2px] text-ink-mute">
+      <div className="flex flex-col items-center gap-2 text-center sm:grid sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:gap-6 sm:text-start">
+        {/* Left — dataset stats */}
+        <span className="text-ink-soft sm:justify-self-start">
+          {stat ?? " "}
         </span>
-      </span>
+
+        {/* Centre — created-by byline */}
+        <span className="text-ink-mute sm:justify-self-center">
+          {t("curated_by")}{" "}
+          <Link
+            to="/about"
+            className="text-ink underline decoration-rule underline-offset-[3px] hover:text-accent hover:decoration-accent"
+          >
+            Souhib Trabelsi
+          </Link>
+        </span>
+
+        {/* Right — about · tagline · version */}
+        <span className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 sm:justify-self-end">
+          <Link to="/about" className="iotd-link">
+            {t("about.nav_label")}
+          </Link>
+          <span aria-hidden="true">·</span>
+          <span className="hidden md:inline">{t("classical_record_tagline")}</span>
+          <span>
+            {VERSION} · 1447 ah {t("build_label")}
+          </span>
+        </span>
+      </div>
     </footer>
   );
 }
