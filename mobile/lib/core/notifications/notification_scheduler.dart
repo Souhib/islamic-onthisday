@@ -63,6 +63,22 @@ Future<void> rescheduleDailyNotifications(
     // Best-effort: fall through to generic-only schedule.
   }
 
+  // Re-check the kill-switch *after* the upcoming fetch resolves.
+  // Without this, a user who toggled notifications off while the
+  // network roundtrip was in flight would have their schedule re-armed
+  // here — the toggle's own ``cancelAll`` already ran, but this path
+  // would race in behind it and re-create the notifications.
+  if (!ref.read(prefsServiceProvider).notificationsEnabled) {
+    await NotificationService.instance.scheduleDaily(
+      enabled: false,
+      hour: hour,
+      minute: minute,
+      title: genericTitle,
+      body: genericBody,
+    );
+    return;
+  }
+
   await NotificationService.instance.scheduleDaily(
     enabled: true,
     hour: hour,
