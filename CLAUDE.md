@@ -641,6 +641,28 @@ the fallback, not the default.
   The projection coerces stray ORM values (including the deprecated
   `auto_verified`) to `unverified` rather than leak invalid payloads —
   see `services/projections._coerce_verification_status`.
+- **User-admin CLI lives at `backend/scripts/users.py`.** Same shape
+  as Majlisna's `generate_fake_data.py` and LaTabdhir's
+  `expire_pending_orders.py` — async-engine boot, one operation,
+  teardown. Run from `backend/` with `uv run python scripts/users.py
+  <subcommand>`:
+
+  ```sh
+  uv run python scripts/users.py list                                            # every user + bookmark count
+  uv run python scripts/users.py create --email me@example.com --display-name X  # prompts for password
+  uv run python scripts/users.py create --email me@example.com --display-name X --unverified
+  uv run python scripts/users.py delete --email me@example.com [--yes]           # cascades bookmarks + tokens
+  uv run python scripts/users.py delete-all                                      # previews counts and refuses
+  uv run python scripts/users.py delete-all --yes                                # actually wipes
+  ```
+
+  `delete` and `delete-all` cascade in the right FK order
+  (`bookmarks` → `password_reset_tokens` → `email_verification_tokens` →
+  `users`) in a single transaction. Email validation reuses the API's
+  `EmailStr` so the same shapes are accepted. Passwords prompt via
+  `getpass()` when `--password` is omitted — keeps the secret out of
+  shell history. On prod the script runs in the backend container
+  (Dokploy → Open Terminal → `cd /opt/backend`).
 
 ## Frontend dev tips
 
