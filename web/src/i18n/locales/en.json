@@ -218,9 +218,9 @@
     "subtitle": "A few words on what this is, who built it, and how to reach out.",
     "name": "Souhib Trabelsi",
     "role": "Software engineer",
-    "bio": "I'm a software engineer with seven years of experience, mostly in Python and React. I started Islamic On This Day because I wanted a daily reading habit anchored in classical Sunni history — and I couldn't find a source that was both editorially careful and genuinely free. Every entry is hand-vetted against the four-madhhab bar before it ships.",
+    "bio": "I'm a software engineer with seven years of experience, mostly in Python and React. I started Islamic On This Day because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.",
     "project_purpose_title": "What is Islamic On This Day?",
-    "project_purpose_body": "A reading surface that surfaces one verified historical event per day, in both Hijri and Gregorian calendars. The dataset is curated YAML, sources are classical (al-Ṭabarī, Ibn Kathīr, the Six Books), and the editorial bar is conservative-Sunni — every event must be defensible within the four mainstream fiqh schools. We drop a borderline entry rather than keep a wrong one. The promise is unconditional: every entry has been editorially reviewed.",
+    "project_purpose_body": "A verified event from Islamic history every day, in both Hijri and Gregorian calendars. Every entry — event, lesson, sacred day — is hand-verified against classical sources (al-Ṭabarī, Ibn Kathīr, the Six Books) before it's published. We drop a borderline entry rather than keep a wrong one. The promise is unconditional: every entry has been editorially reviewed.",
     "education_title": "Education",
     "education_epitech": "Epitech Paris — Master's in Software Engineering",
     "education_sfsu": "San Francisco State University — Certificate",
@@ -247,9 +247,9 @@
     "other_projects_majlisna_link": "majlisna.app",
     "other_projects_latabdhir_title": "LaTabdhir",
     "other_projects_latabdhir_desc": "A dhikr counter built around daily reminders and streaks.",
-    "other_projects_latabdhir_link": "latabdhir.app",
+    "other_projects_latabdhir_link": "latabdhir.com",
     "mentoring_title": "Free mentoring",
-    "mentoring_body": "I'm happy to help CS engineers, junior developers, or anyone curious about software — at no cost. Resume reviews, the EU job market, interview prep, or just chatting about Python / DevOps / cloud. Reach out by email or phone.",
+    "mentoring_body": "With my experience I can help CS engineers, developers, or anyone who wants to learn more about computer science — freely. I can also help with your resume, understanding the job market, preparing for interviews, or giving general advice when looking for jobs. Contact me via email or phone. If I don't answer, leave a message and I'll call you back.",
     "charity_title": "Support the Ummah",
     "charity_subtitle": "If this project is useful to you, please consider a donation to one of these.",
     "charity_human_appeal_desc": "International humanitarian charity working in conflict zones, food security, and orphan support.",
@@ -261,7 +261,7 @@
     "contact_linkedin": "LinkedIn",
     "contact_github": "GitHub"
   },
-    "errors": {
+  "errors": {
     "api": {
       "eventNotFound": "That event doesn't exist.",
       "lessonNotFound": "That lesson doesn't exist.",
