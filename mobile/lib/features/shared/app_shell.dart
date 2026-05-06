@@ -87,20 +87,20 @@ class _HomeBar extends StatelessWidget {
           ),
           child: Row(
             children: [
+              Text(
+                '←',
+                style: IotdTypography.mono(size: 16, color: t.accent),
+              ),
+              const SizedBox(width: 12),
               const EightPointStar(size: 22),
               const SizedBox(width: 12),
               Text(
-                '· ${i18n.nav.today.toUpperCase()}',
+                i18n.nav.today.toUpperCase(),
                 style: IotdTypography.mono(
                   size: 11,
                   color: t.accent,
                   letterSpacing: 1.6,
                 ),
-              ),
-              const Spacer(),
-              Text(
-                '↗',
-                style: IotdTypography.mono(size: 14, color: t.accent),
               ),
             ],
           ),
