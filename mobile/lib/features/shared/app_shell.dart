@@ -87,9 +87,14 @@ class _HomeBar extends StatelessWidget {
           ),
           child: Row(
             children: [
-              Text(
-                '←',
-                style: IotdTypography.mono(size: 16, color: t.accent),
+              // Use Material's directional back icon — Flutter auto-flips
+              // it in RTL contexts (← becomes → for Arabic), so the
+              // affordance always points "back along the reading flow".
+              Icon(
+                Icons.arrow_back,
+                size: 18,
+                color: t.accent,
+                textDirection: Directionality.of(context),
               ),
               const SizedBox(width: 12),
               const EightPointStar(size: 22),
