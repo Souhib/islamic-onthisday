@@ -50,6 +50,7 @@ class TranslationsFr with BaseTranslations<AppLocale, Translations> implements T
 	@override late final _TranslationsPersonFr person = _TranslationsPersonFr._(_root);
 	@override late final _TranslationsAboutFr about = _TranslationsAboutFr._(_root);
 	@override late final _TranslationsAuthFr auth = _TranslationsAuthFr._(_root);
+	@override late final _TranslationsLegalFr legal = _TranslationsLegalFr._(_root);
 }
 
 // Path: app
@@ -291,6 +292,18 @@ class _TranslationsAuthFr implements TranslationsAuthEn {
 	@override String get delete_account_confirm => 'Supprimer définitivement';
 }
 
+// Path: legal
+class _TranslationsLegalFr implements TranslationsLegalEn {
+	_TranslationsLegalFr._(this._root);
+
+	final TranslationsFr _root; // ignore: unused_field
+
+	// Translations
+	@override String get title => 'Mentions légales';
+	@override String get privacy => 'Politique de confidentialité';
+	@override String get terms => 'Conditions d\'utilisation';
+}
+
 /// The flat map containing all translations for locale <fr>.
 /// Only for edge cases! For simple maps, use the map function of this library.
 ///
@@ -421,6 +434,9 @@ extension on TranslationsFr {
 			'auth.delete_account_warning' => 'Cette action supprime définitivement votre compte et tous les bookmarks enregistrés. Elle est irréversible.',
 			'auth.delete_account_cancel' => 'Annuler',
 			'auth.delete_account_confirm' => 'Supprimer définitivement',
+			'legal.title' => 'Mentions légales',
+			'legal.privacy' => 'Politique de confidentialité',
+			'legal.terms' => 'Conditions d\'utilisation',
 			_ => null,
 		};
 	}

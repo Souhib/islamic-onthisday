@@ -284,5 +284,9 @@
       "internalServer": "Une erreur est survenue de notre côté. Veuillez réessayer plus tard."
     }
   },
-  "curated_by": "Créé par"
+  "curated_by": "Créé par",
+  "legal": {
+    "privacy": "Confidentialité",
+    "terms": "CGU"
+  }
 }

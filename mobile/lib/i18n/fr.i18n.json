@@ -146,5 +146,10 @@
     "delete_account_warning": "Cette action supprime définitivement votre compte et tous les bookmarks enregistrés. Elle est irréversible.",
     "delete_account_cancel": "Annuler",
     "delete_account_confirm": "Supprimer définitivement"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
   }
 }

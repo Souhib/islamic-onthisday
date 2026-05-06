@@ -50,6 +50,7 @@ class TranslationsAr with BaseTranslations<AppLocale, Translations> implements T
 	@override late final _TranslationsPersonAr person = _TranslationsPersonAr._(_root);
 	@override late final _TranslationsAboutAr about = _TranslationsAboutAr._(_root);
 	@override late final _TranslationsAuthAr auth = _TranslationsAuthAr._(_root);
+	@override late final _TranslationsLegalAr legal = _TranslationsLegalAr._(_root);
 }
 
 // Path: app
@@ -291,6 +292,18 @@ class _TranslationsAuthAr implements TranslationsAuthEn {
 	@override String get delete_account_confirm => 'احذف نهائيًا';
 }
 
+// Path: legal
+class _TranslationsLegalAr implements TranslationsLegalEn {
+	_TranslationsLegalAr._(this._root);
+
+	final TranslationsAr _root; // ignore: unused_field
+
+	// Translations
+	@override String get title => 'قانوني';
+	@override String get privacy => 'سياسة الخصوصية';
+	@override String get terms => 'شروط الخدمة';
+}
+
 /// The flat map containing all translations for locale <ar>.
 /// Only for edge cases! For simple maps, use the map function of this library.
 ///
@@ -421,6 +434,9 @@ extension on TranslationsAr {
 			'auth.delete_account_warning' => 'هذا الإجراء يحذف حسابك وجميع المحفوظات بشكل دائم ولا يمكن التراجع عنه.',
 			'auth.delete_account_cancel' => 'إلغاء',
 			'auth.delete_account_confirm' => 'احذف نهائيًا',
+			'legal.title' => 'قانوني',
+			'legal.privacy' => 'سياسة الخصوصية',
+			'legal.terms' => 'شروط الخدمة',
 			_ => null,
 		};
 	}

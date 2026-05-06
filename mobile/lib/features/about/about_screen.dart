@@ -306,6 +306,53 @@ class AboutScreen extends StatelessWidget {
                   ? IotdTypography.arabic(size: 14.5, color: t.inkMute, height: 1.85)
                   : IotdTypography.serif(size: 15, color: t.inkMute, height: 1.65),
             ),
+
+            // --- Legal ---
+            const SizedBox(height: 36),
+            Eyebrow('· ${i18n.legal.title} ·', color: EyebrowColor.inkMute),
+            const SizedBox(height: 10),
+            _LegalRow(label: i18n.legal.privacy, url: '${ApiConfig.baseUrl}/privacy.html'),
+            _LegalRow(label: i18n.legal.terms, url: '${ApiConfig.baseUrl}/terms.html', last: true),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _LegalRow extends StatelessWidget {
+  const _LegalRow({required this.label, required this.url, this.last = false});
+
+  final String label;
+  final String url;
+  final bool last;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tokens;
+    return InkWell(
+      onTap: () => launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication),
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 12),
+        decoration: BoxDecoration(
+          border: Border(
+            top: BorderSide(color: t.ruleSoft, width: 0.5),
+            bottom: last ? BorderSide(color: t.ruleSoft, width: 0.5) : BorderSide.none,
+          ),
+        ),
+        child: Row(
+          children: [
+            Expanded(
+              child: Text(
+                label.toUpperCase(),
+                style: IotdTypography.mono(
+                  size: 11,
+                  color: t.inkSoft,
+                  letterSpacing: 1.4,
+                ),
+              ),
+            ),
+            Text('↗', style: IotdTypography.mono(size: 14, color: t.accent)),
           ],
         ),
       ),

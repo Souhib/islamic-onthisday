@@ -146,5 +146,10 @@
     "delete_account_warning": "This permanently removes your account and every saved bookmark. The action cannot be undone.",
     "delete_account_cancel": "Cancel",
     "delete_account_confirm": "Delete forever"
+  },
+  "legal": {
+    "title": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   }
 }

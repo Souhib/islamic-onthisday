@@ -146,5 +146,10 @@
     "delete_account_warning": "هذا الإجراء يحذف حسابك وجميع المحفوظات بشكل دائم ولا يمكن التراجع عنه.",
     "delete_account_cancel": "إلغاء",
     "delete_account_confirm": "احذف نهائيًا"
+  },
+  "legal": {
+    "title": "قانوني",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة"
   }
 }

@@ -46,13 +46,20 @@ export function Footer() {
           </Link>
         </span>
 
-        {/* Right — about · tagline · version */}
+        {/* Right — about · privacy · terms · version */}
         <span className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 sm:justify-self-end">
           <Link to="/about" className="iotd-link">
             {t("about.nav_label")}
           </Link>
           <span aria-hidden="true">·</span>
-          <span className="hidden md:inline">{t("classical_record_tagline")}</span>
+          <a href="/privacy.html" className="iotd-link">
+            {t("legal.privacy")}
+          </a>
+          <span aria-hidden="true">·</span>
+          <a href="/terms.html" className="iotd-link">
+            {t("legal.terms")}
+          </a>
+          <span aria-hidden="true">·</span>
           <span>
             {VERSION} · 1447 ah {t("build_label")}
           </span>

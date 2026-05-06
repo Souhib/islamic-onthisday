@@ -53,6 +53,7 @@ class Translations with BaseTranslations<AppLocale, Translations> {
 	late final TranslationsPersonEn person = TranslationsPersonEn._(_root);
 	late final TranslationsAboutEn about = TranslationsAboutEn._(_root);
 	late final TranslationsAuthEn auth = TranslationsAuthEn._(_root);
+	late final TranslationsLegalEn legal = TranslationsLegalEn._(_root);
 }
 
 // Path: app
@@ -538,6 +539,24 @@ class TranslationsAuthEn {
 	String get delete_account_confirm => 'Delete forever';
 }
 
+// Path: legal
+class TranslationsLegalEn {
+	TranslationsLegalEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+
+	/// en: 'Legal'
+	String get title => 'Legal';
+
+	/// en: 'Privacy Policy'
+	String get privacy => 'Privacy Policy';
+
+	/// en: 'Terms of Service'
+	String get terms => 'Terms of Service';
+}
+
 /// The flat map containing all translations for locale <en>.
 /// Only for edge cases! For simple maps, use the map function of this library.
 ///
@@ -668,6 +687,9 @@ extension on Translations {
 			'auth.delete_account_warning' => 'This permanently removes your account and every saved bookmark. The action cannot be undone.',
 			'auth.delete_account_cancel' => 'Cancel',
 			'auth.delete_account_confirm' => 'Delete forever',
+			'legal.title' => 'Legal',
+			'legal.privacy' => 'Privacy Policy',
+			'legal.terms' => 'Terms of Service',
 			_ => null,
 		};
 	}

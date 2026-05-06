@@ -284,5 +284,9 @@
       "internalServer": "Something went wrong on our end. Please try again later."
     }
   },
-  "curated_by": "Created by"
+  "curated_by": "Created by",
+  "legal": {
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
 }

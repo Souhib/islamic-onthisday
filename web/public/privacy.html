@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Privacy Policy — Islamic On This Day</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F5F0E6;
+    --ink: #1B1A17;
+    --ink-soft: #3A372F;
+    --ink-mute: #6E6A5C;
+    --rule: #D5CDB8;
+    --accent: #3A8A6B;
+  }
+  body {
+    margin: 0; padding: 0;
+    background: var(--paper);
+    color: var(--ink-soft);
+    font: 17px/1.6 "Cormorant Garamond", Georgia, serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 60px 28px 80px; }
+  .eyebrow {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase;
+    color: var(--accent); display: block;
+  }
+  h1 {
+    font-weight: 500; font-size: 38px; line-height: 1.05;
+    letter-spacing: -0.6px; color: var(--ink); margin: 14px 0 20px;
+  }
+  h2 {
+    font-weight: 500; font-size: 24px; line-height: 1.2;
+    color: var(--ink); margin: 36px 0 12px;
+  }
+  p, ul { margin: 12px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  .updated {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px; letter-spacing: 1.4px; text-transform: uppercase;
+    color: var(--ink-mute); margin-top: 28px;
+  }
+  hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
+</style>
+</head>
+<body>
+<main>
+  <span class="eyebrow">· Privacy Policy ·</span>
+  <h1>Privacy Policy</h1>
+
+  <p><em>Islamic On This Day</em> ("the app", "we") is a daily-reading
+  app surfacing one verified historical event from Islamic history per
+  day. This page describes what we collect, why, and what you can do
+  about it.</p>
+
+  <h2>What we collect</h2>
+  <p>The app is free to read without any account. If you create one
+  (optional), we store:</p>
+  <ul>
+    <li>Your <strong>email address</strong> — used to sign you in and
+        send password-reset / email-verification links.</li>
+    <li>Your <strong>display name</strong> — cosmetic, shown in your
+        account screen.</li>
+    <li>A hashed <strong>password</strong> (Argon2id, salted) — never
+        stored in plaintext.</li>
+    <li>Your <strong>saved bookmarks</strong> — slugs of events or
+        lessons you tapped "save" on.</li>
+  </ul>
+
+  <p>Without an account: we collect <strong>nothing</strong> beyond the
+  standard server log (IP, user-agent, request path, timestamp), kept
+  for 14 days for security and abuse-mitigation only.</p>
+
+  <h2>What we do not collect</h2>
+  <ul>
+    <li>No analytics SDKs (no Google Analytics, no Mixpanel, no Plausible).</li>
+    <li>No advertising trackers.</li>
+    <li>No third-party social-login pixels.</li>
+    <li>No location data.</li>
+    <li>No reading history beyond what you explicitly bookmark.</li>
+  </ul>
+
+  <p>We use Sentry for crash reporting on the mobile and web apps.
+  Sentry receives a stack trace + a few non-personal request
+  fingerprints (route, error message). It does not see your email,
+  bookmarks, or any content you author.</p>
+
+  <h2>Where it lives</h2>
+  <p>The application database (your account, your bookmarks) is hosted
+  on a single SQLite/PostgreSQL instance in the European Union (France)
+  behind Cloudflare. No data crosses the EU boundary except outbound
+  email (Resend, EU pop) and Sentry crash payloads (Frankfurt, EU).</p>
+
+  <h2>How long we keep it</h2>
+  <ul>
+    <li>Account data: until you delete the account.</li>
+    <li>Server logs: 14 days, then permanent deletion.</li>
+    <li>One-time tokens (password reset, email verify): 30 minutes
+        from issue, then permanent deletion.</li>
+  </ul>
+
+  <h2>Your rights (RGPD / GDPR)</h2>
+  <ul>
+    <li><strong>Access</strong>: email
+        <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a> for
+        a copy of everything we store about you.</li>
+    <li><strong>Deletion</strong>: tap <em>Delete account</em> in
+        Settings (mobile) or the Account page (web). The action wipes
+        every per-user row in a single transaction. Or email us — we
+        respond within 7 days.</li>
+    <li><strong>Rectification</strong>: change your display name or
+        email from the in-app account screen.</li>
+    <li><strong>Portability</strong>: bookmarks export on request.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The app is not directed to children under 13; we do not knowingly
+  collect data from anyone under 13. If you believe a child has
+  registered, email us and we will delete the account.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If material changes happen, we will update this page and notify
+  signed-in users by email at least 30 days before the change takes
+  effect.</p>
+
+  <h2>Contact</h2>
+  <p>For any privacy-related question, email
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>.</p>
+
+  <hr />
+  <p class="updated">Last updated · 2026-05-06</p>
+</main>
+</body>
+</html>
