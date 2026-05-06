@@ -44,6 +44,13 @@ export function Masthead({ today }: Props) {
           {dateLine}
         </span>
 
+        <span className="text-center font-mono text-[9.5px] uppercase tracking-[1.4px] text-ink-mute">
+          {t("curated_by")}{" "}
+          <Link to="/about" className="text-ink underline decoration-rule underline-offset-[3px] hover:text-accent hover:decoration-accent">
+            Souhib Trabelsi
+          </Link>
+        </span>
+
         <nav className="flex flex-wrap justify-center gap-x-5 gap-y-1.5 font-mono text-[11.5px] uppercase tracking-[1.6px] text-ink-soft">
           <span className="text-ink">{t("today")}</span>
           <Link to="/recent" className="iotd-link">
@@ -64,9 +71,17 @@ export function Masthead({ today }: Props) {
             {t("app_name")}
           </span>
         </div>
-        <span className="text-center font-mono text-[12px] uppercase tracking-[2.6px] text-accent">
-          {dateLine}
-        </span>
+        <div className="flex flex-col items-center gap-1">
+          <span className="font-mono text-[12px] uppercase tracking-[2.6px] text-accent">
+            {dateLine}
+          </span>
+          <span className="font-mono text-[10px] uppercase tracking-[1.6px] text-ink-mute">
+            {t("curated_by")}{" "}
+            <Link to="/about" className="text-ink underline decoration-rule underline-offset-[3px] hover:text-accent hover:decoration-accent">
+              Souhib Trabelsi
+            </Link>
+          </span>
+        </div>
         <nav className="flex flex-wrap items-center justify-end gap-[18px] font-mono text-[12px] uppercase tracking-[1.6px] text-ink-soft">
           <span className="text-ink">{t("today")}</span>
           <Link to="/recent" className="iotd-link">

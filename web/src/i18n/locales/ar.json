@@ -243,7 +243,7 @@
     "skills_title": "المهارات",
     "other_projects_title": "مشاريع أخرى",
     "other_projects_majlisna_title": "Majlisna",
-    "other_projects_majlisna_desc": "منصّة ألعاب جماعية بالوقت الحقيقي، بنسخ مُؤسلَمة من Undercover وCodenames. FastAPI + Socket.IO + React + Redis.",
+    "other_projects_majlisna_desc": "منصّة ألعاب جماعية بالوقت الحقيقي، بنسخ مُؤسلَمة من Undercover وCodenames.",
     "other_projects_majlisna_link": "majlisna.app",
     "other_projects_latabdhir_title": "LaTabdhir",
     "other_projects_latabdhir_desc": "عدّاد ذكر مبنيّ حول التذكيرات اليومية والاستمرارية.",
@@ -275,5 +275,6 @@
       "validation": "البيانات المُرسَلة غير صحيحة. يرجى التحقق من الإدخال.",
       "internalServer": "حدث خطأ من جهتنا. حاول مرة أخرى لاحقاً."
     }
-  }
+  },
+  "curated_by": "بإشراف"
 }

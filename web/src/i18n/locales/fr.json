@@ -243,7 +243,7 @@
     "skills_title": "Compétences",
     "other_projects_title": "Autres projets",
     "other_projects_majlisna_title": "Majlisna",
-    "other_projects_majlisna_desc": "Plateforme de jeux multijoueurs en temps réel avec des variantes islamisées d'Undercover et Codenames. FastAPI + Socket.IO + React + Redis.",
+    "other_projects_majlisna_desc": "Plateforme de jeux multijoueurs en temps réel avec des variantes islamisées d'Undercover et Codenames.",
     "other_projects_majlisna_link": "majlisna.app",
     "other_projects_latabdhir_title": "LaTabdhir",
     "other_projects_latabdhir_desc": "Compteur de dhikr conçu autour de rappels quotidiens et de séries.",
@@ -275,5 +275,6 @@
       "validation": "Données de requête invalides. Vérifiez votre saisie.",
       "internalServer": "Une erreur est survenue de notre côté. Veuillez réessayer plus tard."
     }
-  }
+  },
+  "curated_by": "Curé par"
 }

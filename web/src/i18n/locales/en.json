@@ -243,7 +243,7 @@
     "skills_title": "Skills",
     "other_projects_title": "Other projects",
     "other_projects_majlisna_title": "Majlisna",
-    "other_projects_majlisna_desc": "A real-time multiplayer party-game platform with Islamized variants of Undercover and Codenames. FastAPI + Socket.IO + React + Redis.",
+    "other_projects_majlisna_desc": "A real-time multiplayer party-game platform with Islamized variants of Undercover and Codenames.",
     "other_projects_majlisna_link": "majlisna.app",
     "other_projects_latabdhir_title": "LaTabdhir",
     "other_projects_latabdhir_desc": "A dhikr counter built around daily reminders and streaks.",
@@ -275,5 +275,6 @@
       "validation": "Invalid request data. Please check your input.",
       "internalServer": "Something went wrong on our end. Please try again later."
     }
-  }
+  },
+  "curated_by": "Curated by"
 }
