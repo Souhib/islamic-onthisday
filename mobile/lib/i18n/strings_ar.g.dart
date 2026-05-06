@@ -140,6 +140,8 @@ class _TranslationsSettingsAr implements TranslationsSettingsEn {
 	@override String get language => 'اللغة';
 	@override String get notifications => 'إشعار يومي';
 	@override String get notification_time => 'وقت الإشعار';
+	@override String get notification_title => 'اليوم في التقويم';
+	@override String get notification_body => 'مدخل جديد في انتظارك. افتح لتقرأ.';
 	@override String get about => 'حول';
 }
 
@@ -195,6 +197,8 @@ extension on TranslationsAr {
 			'settings.language' => 'اللغة',
 			'settings.notifications' => 'إشعار يومي',
 			'settings.notification_time' => 'وقت الإشعار',
+			'settings.notification_title' => 'اليوم في التقويم',
+			'settings.notification_body' => 'مدخل جديد في انتظارك. افتح لتقرأ.',
 			'settings.about' => 'حول',
 			'errors.generic' => 'حدث خطأ ما.',
 			'errors.offline' => 'يبدو أنّك غير متّصل.',

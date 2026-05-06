@@ -44,6 +44,8 @@
     "language": "اللغة",
     "notifications": "إشعار يومي",
     "notification_time": "وقت الإشعار",
+    "notification_title": "اليوم في التقويم",
+    "notification_body": "مدخل جديد في انتظارك. افتح لتقرأ.",
     "about": "حول"
   },
   "errors": {

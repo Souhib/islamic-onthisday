@@ -140,6 +140,8 @@ class _TranslationsSettingsFr implements TranslationsSettingsEn {
 	@override String get language => 'Langue';
 	@override String get notifications => 'Notification quotidienne';
 	@override String get notification_time => 'Heure de notification';
+	@override String get notification_title => 'Aujourd\'hui dans le calendrier';
+	@override String get notification_body => 'Une nouvelle entrée vous attend. Ouvrez pour lire.';
 	@override String get about => 'À propos';
 }
 
@@ -195,6 +197,8 @@ extension on TranslationsFr {
 			'settings.language' => 'Langue',
 			'settings.notifications' => 'Notification quotidienne',
 			'settings.notification_time' => 'Heure de notification',
+			'settings.notification_title' => 'Aujourd\'hui dans le calendrier',
+			'settings.notification_body' => 'Une nouvelle entrée vous attend. Ouvrez pour lire.',
 			'settings.about' => 'À propos',
 			'errors.generic' => 'Une erreur est survenue.',
 			'errors.offline' => 'Vous semblez hors ligne.',

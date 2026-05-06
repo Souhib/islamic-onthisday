@@ -3,6 +3,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iotd_mobile/app.dart';
 import 'package:iotd_mobile/core/di/providers.dart';
+import 'package:iotd_mobile/core/notifications/notification_service.dart';
 import 'package:iotd_mobile/core/storage/preferences_service.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:marionette_flutter/marionette_flutter.dart';
@@ -24,6 +25,7 @@ Future<void> bootstrap() async {
   }
   LocaleSettings.useDeviceLocale();
   final prefs = await PreferencesService.create();
+  await NotificationService.instance.ensureInitialised();
 
   runApp(
     ProviderScope(

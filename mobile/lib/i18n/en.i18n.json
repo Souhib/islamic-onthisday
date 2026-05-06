@@ -44,6 +44,8 @@
     "language": "Language",
     "notifications": "Daily notification",
     "notification_time": "Notification time",
+    "notification_title": "Today on the calendar",
+    "notification_body": "A new entry awaits. Open to read.",
     "about": "About"
   },
   "errors": {

@@ -44,6 +44,8 @@
     "language": "Langue",
     "notifications": "Notification quotidienne",
     "notification_time": "Heure de notification",
+    "notification_title": "Aujourd'hui dans le calendrier",
+    "notification_body": "Une nouvelle entrée vous attend. Ouvrez pour lire.",
     "about": "À propos"
   },
   "errors": {

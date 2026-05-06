@@ -208,6 +208,12 @@ class TranslationsSettingsEn {
 	/// en: 'Notification time'
 	String get notification_time => 'Notification time';
 
+	/// en: 'Today on the calendar'
+	String get notification_title => 'Today on the calendar';
+
+	/// en: 'A new entry awaits. Open to read.'
+	String get notification_body => 'A new entry awaits. Open to read.';
+
 	/// en: 'About'
 	String get about => 'About';
 }
@@ -270,6 +276,8 @@ extension on Translations {
 			'settings.language' => 'Language',
 			'settings.notifications' => 'Daily notification',
 			'settings.notification_time' => 'Notification time',
+			'settings.notification_title' => 'Today on the calendar',
+			'settings.notification_body' => 'A new entry awaits. Open to read.',
 			'settings.about' => 'About',
 			'errors.generic' => 'Something went wrong.',
 			'errors.offline' => 'You appear to be offline.',
