@@ -62,7 +62,7 @@ class AboutScreen extends StatelessWidget {
                     ),
             ),
 
-            const FriezeRule(rosetteOnly: true, marginTop: 28, marginBottom: 28),
+            const FriezeRule(marginTop: 28, marginBottom: 28),
 
             // --- Project purpose ---
             _Section(
