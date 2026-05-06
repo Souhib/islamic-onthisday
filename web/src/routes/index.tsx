@@ -10,6 +10,7 @@ import { LeftRail } from "@/components/reader/LeftRail";
 import { LessonReader } from "@/components/reader/LessonReader";
 import { Main } from "@/components/reader/Main";
 import { Masthead } from "@/components/reader/Masthead";
+import { QuranicEpigraph } from "@/components/reader/QuranicEpigraph";
 import { RightRail } from "@/components/reader/RightRail";
 import { TodayBottomSection } from "@/components/reader/TodayBottomSection";
 import { Empty } from "@/components/ui/Empty";
@@ -166,6 +167,16 @@ function TodayPage() {
       </div>
 
       {bottomItems.length > 0 && <TodayBottomSection items={bottomItems} onPick={handlePickItem} />}
+
+      <QuranicEpigraph
+        quranRefs={
+          mainIsEvent
+            ? (mainItem as EventDetail).quranRefs
+            : mainIsLesson
+              ? (mainItem as LessonDetail).quranRefs
+              : null
+        }
+      />
 
       <Footer />
 

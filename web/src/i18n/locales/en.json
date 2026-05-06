@@ -25,6 +25,7 @@
   "load_failed": "Couldn't load this page.",
   "verify": "verify ↗",
   "quran_label": "Qurʾān",
+  "surah_prefix": "Sūrat",
   "hadith_label": "Ḥadīth",
   "classical": "classical",
   "primary": "primary",
@@ -259,7 +260,9 @@
     "contact_email": "Email",
     "contact_phone": "Phone",
     "contact_linkedin": "LinkedIn",
-    "contact_github": "GitHub"
+    "contact_github": "GitHub",
+    "quran_attribution_title": "Qur'an editions",
+    "quran_attribution_body": "Arabic text from Tanzil's ʿUthmānī Mushaf. English translation by Saheeh International. French translation by Muḥammad Hamidullah. The verse rendered above the footer is selected from the day's event citations when available, with Sūrat Yūsuf 12:111 — \"there is a lesson for those of understanding\" — as the standing fallback."
   },
   "errors": {
     "api": {

@@ -149,6 +149,7 @@ def project_event_detail(event: Event) -> EventDetail:
         dispute_about=event.dispute_about,  # type: ignore[arg-type]
         disputed_positions=disputed_positions,
         source_url=event.source_url,
+        quran_refs=event.quran_refs,
     )
 
 

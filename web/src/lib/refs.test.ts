@@ -4,7 +4,13 @@
 // pin the patterns we promise to handle.
 
 import { describe, expect, it } from "vitest";
-import { parseHadithRef, parseQuranRef, reorderRefsQuranFirst, splitRefs } from "./refs";
+import {
+  firstQuranKey,
+  parseHadithRef,
+  parseQuranRef,
+  reorderRefsQuranFirst,
+  splitRefs,
+} from "./refs";
 
 describe("parseQuranRef", () => {
   it("parses a single-ayah reference", () => {
@@ -141,5 +147,33 @@ describe("reorderRefsQuranFirst", () => {
     expect(reorderRefsQuranFirst(null)).toBe("");
     expect(reorderRefsQuranFirst(undefined)).toBe("");
     expect(reorderRefsQuranFirst("")).toBe("");
+  });
+});
+
+describe("firstQuranKey", () => {
+  it("extracts the surah:ayah from a labelled ref", () => {
+    expect(firstQuranKey("Qur'an 31:13")).toBe("31:13");
+  });
+
+  it("returns the first key when multiple are listed", () => {
+    expect(firstQuranKey("2:255, 3:97")).toBe("2:255");
+  });
+
+  it("collapses a range to its first ayah", () => {
+    expect(firstQuranKey("Qur'an 18:32-44")).toBe("18:32");
+  });
+
+  it("rejects out-of-range surah numbers", () => {
+    expect(firstQuranKey("200:1")).toBeNull();
+  });
+
+  it("returns null on null / empty input", () => {
+    expect(firstQuranKey(null)).toBeNull();
+    expect(firstQuranKey(undefined)).toBeNull();
+    expect(firstQuranKey("")).toBeNull();
+  });
+
+  it("returns null when no surah:ayah pattern is present", () => {
+    expect(firstQuranKey("Bukhari 660")).toBeNull();
   });
 });

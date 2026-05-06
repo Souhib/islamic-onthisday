@@ -287,6 +287,14 @@ function AboutPage() {
             <ExternalLink href="https://github.com/Souhib" label={t("about.contact_github")} />
           </div>
         </section>
+
+        {/* Qur'an attribution — required by the editions we use */}
+        <section>
+          <Eyebrow color="ink-mute">· {t("about.quran_attribution_title")} ·</Eyebrow>
+          <p className="mt-3 font-serif text-[15px] leading-[1.65] text-ink-mute">
+            {t("about.quran_attribution_body")}
+          </p>
+        </section>
       </div>
     </PageShell>
   );

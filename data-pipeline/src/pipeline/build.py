@@ -23,6 +23,7 @@ from pipeline.dataset_meta import write_dataset_meta
 from pipeline.images.fetcher import fetch_safe_images
 from pipeline.ingestion import curated
 from pipeline.models.db import DateClaim, DatelessLesson, Event, Person, Source, Tag
+from pipeline.quran_extracts import write_quran_extracts
 from pipeline.syndication import syndicate
 
 # Canonical majors — the iconic events every Muslim knows, promoted to
@@ -341,6 +342,10 @@ def build() -> None:
     console.log("[bold]Step 7: writing dataset-meta.json (footer profundity signal)…")
     meta_path = write_dataset_meta()
     console.log(f"  dataset-meta: wrote {meta_path}")
+
+    console.log("[bold]Step 8: fetching trilingual Qur'an extracts (epigraph + per-event)…")
+    extracts_path = write_quran_extracts()
+    console.log(f"  quran-extracts: wrote {extracts_path}")
 
     console.rule("[bold green]Done")
 

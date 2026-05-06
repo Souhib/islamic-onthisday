@@ -25,6 +25,7 @@
   "load_failed": "Impossible de charger cette page.",
   "verify": "vérifier ↗",
   "quran_label": "Coran",
+  "surah_prefix": "Sourate",
   "hadith_label": "Ḥadīth",
   "classical": "classique",
   "primary": "primaire",
@@ -259,7 +260,9 @@
     "contact_email": "Email",
     "contact_phone": "Téléphone",
     "contact_linkedin": "LinkedIn",
-    "contact_github": "GitHub"
+    "contact_github": "GitHub",
+    "quran_attribution_title": "Éditions du Coran",
+    "quran_attribution_body": "Texte arabe d'après le Mushaf ʿUthmānī de Tanzil. Traduction anglaise de Saheeh International. Traduction française de Muḥammad Hamidullah. Le verset affiché au-dessus du footer est choisi parmi les citations de l'événement du jour lorsqu'elles existent ; sinon Sourate Yūsuf 12:111 — « il y a certes une leçon pour les gens doués d'intelligence » — sert d'épigraphe permanente."
   },
   "errors": {
     "api": {

@@ -25,6 +25,7 @@
   "load_failed": "تعذّر تحميل هذه الصفحة.",
   "verify": "التحقق ↗",
   "quran_label": "القرآن",
+  "surah_prefix": "سورة",
   "hadith_label": "الحديث",
   "classical": "كلاسيكي",
   "primary": "أصلي",
@@ -259,7 +260,9 @@
     "contact_email": "البريد",
     "contact_phone": "الهاتف",
     "contact_linkedin": "LinkedIn",
-    "contact_github": "GitHub"
+    "contact_github": "GitHub",
+    "quran_attribution_title": "إصدارات القرآن المعتمدة",
+    "quran_attribution_body": "النص العربي من المصحف العثماني لمشروع Tanzil. الترجمة الإنجليزية لـ Saheeh International. الترجمة الفرنسية لمحمد حميد الله. تُختار الآية المعروضة قبل التذييل من استشهادات حدث اليوم إن وُجدت؛ وإلا تُعرض سورة يوسف ١٢:١١١ — «لقد كان في قصصهم عبرة لأولي الألباب» — كنصّ افتتاحي ثابت."
   },
   "errors": {
     "api": {

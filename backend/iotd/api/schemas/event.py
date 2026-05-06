@@ -114,3 +114,4 @@ class EventDetail(ResponseModel):
     dispute_about: DisputeAbout | None = None
     disputed_positions: list[DisputedPosition] = []
     source_url: str | None = None
+    quran_refs: str | None = None

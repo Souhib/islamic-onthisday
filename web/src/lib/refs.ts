@@ -154,6 +154,24 @@ export function parseQuranRef(ref: string): QuranRef | null {
   };
 }
 
+/**
+ * Extract the first ``surah:ayah`` lookup key from a freeform refs
+ * string like ``"Qur'an 31:13"`` or ``"2:255, 3:97"`` or
+ * ``"Qur'an 18:32-44"``. Used to pick a single ayah for the trilingual
+ * epigraph; ranges collapse to their first verse so the rendered text
+ * stays one-line. Returns null when nothing parseable is found.
+ */
+export function firstQuranKey(refs: string | null | undefined): string | null {
+  if (!refs) return null;
+  const match = refs.match(/(\d{1,3}):(\d{1,3})/);
+  if (!match) return null;
+  const surah = Number.parseInt(match[1], 10);
+  const ayah = Number.parseInt(match[2], 10);
+  if (!Number.isFinite(surah) || surah < 1 || surah > 114) return null;
+  if (!Number.isFinite(ayah) || ayah < 1) return null;
+  return `${surah}:${ayah}`;
+}
+
 export interface HadithRef {
   raw: string;
   collection: string;

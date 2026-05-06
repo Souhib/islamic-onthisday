@@ -338,6 +338,10 @@ export type EventDetail = {
      * Sourceurl
      */
     sourceUrl?: string | null;
+    /**
+     * Quranrefs
+     */
+    quranRefs?: string | null;
 };
 
 /**
