@@ -24,10 +24,10 @@ Dio buildDio() {
     dio.interceptors.add(
       LogInterceptor(
         request: false,
-        requestHeader: false,
+        requestHeader: true,
         requestBody: false,
-        responseHeader: false,
-        responseBody: false,
+        responseHeader: true,
+        responseBody: true,
         error: true,
         logPrint: (Object o) => debugPrint('[dio] $o'),
       ),

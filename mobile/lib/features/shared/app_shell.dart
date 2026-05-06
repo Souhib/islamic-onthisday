@@ -22,14 +22,15 @@ class AppShell extends StatelessWidget {
     return Scaffold(
       backgroundColor: t.paper,
       body: child,
-      bottomNavigationBar: Container(
-        decoration: BoxDecoration(
-          color: t.paper,
-          border: Border(top: BorderSide(color: t.rule, width: 0.5)),
-        ),
-        padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 8),
-        child: SafeArea(
-          top: false,
+      bottomNavigationBar: SafeArea(
+        top: false,
+        child: Container(
+          decoration: BoxDecoration(
+            color: t.paper,
+            border: Border(top: BorderSide(color: t.rule, width: 0.5)),
+          ),
+          padding: const EdgeInsets.symmetric(horizontal: 8),
+          height: 52,
           child: Row(
             children: [
               _NavItem(
@@ -54,6 +55,7 @@ class AppShell extends StatelessWidget {
     );
   }
 }
+
 
 class _NavItem extends StatelessWidget {
   const _NavItem({
