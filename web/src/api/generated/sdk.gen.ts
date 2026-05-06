@@ -2,7 +2,7 @@
 
 import type { Client, Options as Options2, TDataShape } from './client';
 import { client } from './client.gen';
-import type { ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostData, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostErrors, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponses, CreateBookmarkApiV1BookmarksPostData, CreateBookmarkApiV1BookmarksPostErrors, CreateBookmarkApiV1BookmarksPostResponses, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteData, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteErrors, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteResponses, GetEventApiV1EventsSlugGetData, GetEventApiV1EventsSlugGetErrors, GetEventApiV1EventsSlugGetResponses, GetLessonApiV1LessonsSlugGetData, GetLessonApiV1LessonsSlugGetErrors, GetLessonApiV1LessonsSlugGetResponses, GetObservanceApiV1ObservancesSlugGetData, GetObservanceApiV1ObservancesSlugGetErrors, GetObservanceApiV1ObservancesSlugGetResponses, GetPersonApiV1PeopleSlugGetData, GetPersonApiV1PeopleSlugGetErrors, GetPersonApiV1PeopleSlugGetResponses, GetRecentApiV1RecentGetData, GetRecentApiV1RecentGetResponses, GetTodayApiV1TodayGetData, GetTodayApiV1TodayGetResponses, HealthHealthGetData, HealthHealthGetResponses, ListBookmarksApiV1BookmarksGetData, ListBookmarksApiV1BookmarksGetErrors, ListBookmarksApiV1BookmarksGetResponses, ListLessonsApiV1LessonsGetData, ListLessonsApiV1LessonsGetErrors, ListLessonsApiV1LessonsGetResponses, ListObservancesApiV1ObservancesGetData, ListObservancesApiV1ObservancesGetResponses, LoginApiV1AuthLoginPostData, LoginApiV1AuthLoginPostErrors, LoginApiV1AuthLoginPostResponses, MeApiV1AuthMeGetData, MeApiV1AuthMeGetErrors, MeApiV1AuthMeGetResponses, RefreshApiV1AuthRefreshPostData, RefreshApiV1AuthRefreshPostErrors, RefreshApiV1AuthRefreshPostResponses, RequestPasswordResetApiV1AuthPasswordResetRequestPostData, RequestPasswordResetApiV1AuthPasswordResetRequestPostErrors, RequestPasswordResetApiV1AuthPasswordResetRequestPostResponses, ResendVerificationEmailApiV1AuthEmailResendPostData, ResendVerificationEmailApiV1AuthEmailResendPostErrors, ResendVerificationEmailApiV1AuthEmailResendPostResponses, SignupApiV1AuthSignupPostData, SignupApiV1AuthSignupPostErrors, SignupApiV1AuthSignupPostResponses, VerifyEmailApiV1AuthEmailVerifyPostData, VerifyEmailApiV1AuthEmailVerifyPostErrors, VerifyEmailApiV1AuthEmailVerifyPostResponses } from './types.gen';
+import type { ChangeDisplayNameApiV1AuthMePatchData, ChangeDisplayNameApiV1AuthMePatchErrors, ChangeDisplayNameApiV1AuthMePatchResponses, ChangePasswordApiV1AuthMePasswordPostData, ChangePasswordApiV1AuthMePasswordPostErrors, ChangePasswordApiV1AuthMePasswordPostResponses, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostData, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostErrors, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponses, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostData, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostErrors, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponses, CreateBookmarkApiV1BookmarksPostData, CreateBookmarkApiV1BookmarksPostErrors, CreateBookmarkApiV1BookmarksPostResponses, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteData, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteErrors, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteResponses, GetEventApiV1EventsSlugGetData, GetEventApiV1EventsSlugGetErrors, GetEventApiV1EventsSlugGetResponses, GetLessonApiV1LessonsSlugGetData, GetLessonApiV1LessonsSlugGetErrors, GetLessonApiV1LessonsSlugGetResponses, GetObservanceApiV1ObservancesSlugGetData, GetObservanceApiV1ObservancesSlugGetErrors, GetObservanceApiV1ObservancesSlugGetResponses, GetPersonApiV1PeopleSlugGetData, GetPersonApiV1PeopleSlugGetErrors, GetPersonApiV1PeopleSlugGetResponses, GetRecentApiV1RecentGetData, GetRecentApiV1RecentGetResponses, GetTodayApiV1TodayGetData, GetTodayApiV1TodayGetResponses, HealthHealthGetData, HealthHealthGetResponses, ListBookmarksApiV1BookmarksGetData, ListBookmarksApiV1BookmarksGetErrors, ListBookmarksApiV1BookmarksGetResponses, ListLessonsApiV1LessonsGetData, ListLessonsApiV1LessonsGetErrors, ListLessonsApiV1LessonsGetResponses, ListObservancesApiV1ObservancesGetData, ListObservancesApiV1ObservancesGetResponses, LoginApiV1AuthLoginPostData, LoginApiV1AuthLoginPostErrors, LoginApiV1AuthLoginPostResponses, MeApiV1AuthMeGetData, MeApiV1AuthMeGetErrors, MeApiV1AuthMeGetResponses, RefreshApiV1AuthRefreshPostData, RefreshApiV1AuthRefreshPostErrors, RefreshApiV1AuthRefreshPostResponses, RequestEmailChangeApiV1AuthMeEmailPostData, RequestEmailChangeApiV1AuthMeEmailPostErrors, RequestEmailChangeApiV1AuthMeEmailPostResponses, RequestPasswordResetApiV1AuthPasswordResetRequestPostData, RequestPasswordResetApiV1AuthPasswordResetRequestPostErrors, RequestPasswordResetApiV1AuthPasswordResetRequestPostResponses, ResendVerificationEmailApiV1AuthEmailResendPostData, ResendVerificationEmailApiV1AuthEmailResendPostErrors, ResendVerificationEmailApiV1AuthEmailResendPostResponses, SignupApiV1AuthSignupPostData, SignupApiV1AuthSignupPostErrors, SignupApiV1AuthSignupPostResponses, VerifyEmailApiV1AuthEmailVerifyPostData, VerifyEmailApiV1AuthEmailVerifyPostErrors, VerifyEmailApiV1AuthEmailVerifyPostResponses } from './types.gen';
 
 export type Options<TData extends TDataShape = TDataShape, ThrowOnError extends boolean = boolean, TResponse = unknown> = Options2<TData, ThrowOnError, TResponse> & {
     /**
@@ -127,6 +127,18 @@ export const refreshApiV1AuthRefreshPost = <ThrowOnError extends boolean = false
 export const meApiV1AuthMeGet = <ThrowOnError extends boolean = false>(options?: Options<MeApiV1AuthMeGetData, ThrowOnError>) => (options?.client ?? client).get<MeApiV1AuthMeGetResponses, MeApiV1AuthMeGetErrors, ThrowOnError>({ url: '/api/v1/auth/me', ...options });
 
 /**
+ * Update the authenticated user's display name
+ */
+export const changeDisplayNameApiV1AuthMePatch = <ThrowOnError extends boolean = false>(options: Options<ChangeDisplayNameApiV1AuthMePatchData, ThrowOnError>) => (options.client ?? client).patch<ChangeDisplayNameApiV1AuthMePatchResponses, ChangeDisplayNameApiV1AuthMePatchErrors, ThrowOnError>({
+    url: '/api/v1/auth/me',
+    ...options,
+    headers: {
+        'Content-Type': 'application/json',
+        ...options.headers
+    }
+});
+
+/**
  * Send a password-reset email if the address is registered
  */
 export const requestPasswordResetApiV1AuthPasswordResetRequestPost = <ThrowOnError extends boolean = false>(options: Options<RequestPasswordResetApiV1AuthPasswordResetRequestPostData, ThrowOnError>) => (options.client ?? client).post<RequestPasswordResetApiV1AuthPasswordResetRequestPostResponses, RequestPasswordResetApiV1AuthPasswordResetRequestPostErrors, ThrowOnError>({
@@ -167,6 +179,42 @@ export const verifyEmailApiV1AuthEmailVerifyPost = <ThrowOnError extends boolean
  */
 export const resendVerificationEmailApiV1AuthEmailResendPost = <ThrowOnError extends boolean = false>(options: Options<ResendVerificationEmailApiV1AuthEmailResendPostData, ThrowOnError>) => (options.client ?? client).post<ResendVerificationEmailApiV1AuthEmailResendPostResponses, ResendVerificationEmailApiV1AuthEmailResendPostErrors, ThrowOnError>({
     url: '/api/v1/auth/email/resend',
+    ...options,
+    headers: {
+        'Content-Type': 'application/json',
+        ...options.headers
+    }
+});
+
+/**
+ * Rotate the authenticated user's password
+ */
+export const changePasswordApiV1AuthMePasswordPost = <ThrowOnError extends boolean = false>(options: Options<ChangePasswordApiV1AuthMePasswordPostData, ThrowOnError>) => (options.client ?? client).post<ChangePasswordApiV1AuthMePasswordPostResponses, ChangePasswordApiV1AuthMePasswordPostErrors, ThrowOnError>({
+    url: '/api/v1/auth/me/password',
+    ...options,
+    headers: {
+        'Content-Type': 'application/json',
+        ...options.headers
+    }
+});
+
+/**
+ * Start the email-change flow (verify link sent to the new address)
+ */
+export const requestEmailChangeApiV1AuthMeEmailPost = <ThrowOnError extends boolean = false>(options: Options<RequestEmailChangeApiV1AuthMeEmailPostData, ThrowOnError>) => (options.client ?? client).post<RequestEmailChangeApiV1AuthMeEmailPostResponses, RequestEmailChangeApiV1AuthMeEmailPostErrors, ThrowOnError>({
+    url: '/api/v1/auth/me/email',
+    ...options,
+    headers: {
+        'Content-Type': 'application/json',
+        ...options.headers
+    }
+});
+
+/**
+ * Consume an email-change token and apply the new address
+ */
+export const confirmEmailChangeApiV1AuthMeEmailConfirmPost = <ThrowOnError extends boolean = false>(options: Options<ConfirmEmailChangeApiV1AuthMeEmailConfirmPostData, ThrowOnError>) => (options.client ?? client).post<ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponses, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostErrors, ThrowOnError>({
+    url: '/api/v1/auth/me/email/confirm',
     ...options,
     headers: {
         'Content-Type': 'application/json',

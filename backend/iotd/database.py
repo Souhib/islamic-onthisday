@@ -53,6 +53,7 @@ _BACKEND_TABLES: tuple[str, ...] = (
     "bookmarks",
     "password_reset_tokens",
     "email_verification_tokens",
+    "email_change_tokens",
 )
 
 

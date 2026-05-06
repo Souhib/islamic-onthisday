@@ -273,3 +273,25 @@ class InvalidEmailVerificationTokenError(BaseError):
             frontend_message="That verification link is no longer valid. Please request a new one.",
             status_code=status.HTTP_400_BAD_REQUEST,
         )
+
+
+class WrongCurrentPasswordError(BaseError):
+    """Raised when the user typed a wrong current password during a change operation."""
+
+    def __init__(self):
+        super().__init__(
+            message="current password is incorrect",
+            frontend_message="That current password isn't right.",
+            status_code=status.HTTP_400_BAD_REQUEST,
+        )
+
+
+class InvalidEmailChangeTokenError(BaseError):
+    """Raised when the email-change token is unknown, expired, or already used."""
+
+    def __init__(self, reason: str = "invalid or expired email-change token"):
+        super().__init__(
+            message=reason,
+            frontend_message="That email-change link is no longer valid. Please request a new one.",
+            status_code=status.HTTP_400_BAD_REQUEST,
+        )

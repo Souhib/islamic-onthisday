@@ -68,6 +68,38 @@ class EmailVerifyResend(RequestModel):
     email: EmailStr
 
 
+class ChangeDisplayNameRequest(RequestModel):
+    """Inputs for ``PATCH /api/v1/auth/me``."""
+
+    display_name: _TrimmedDisplayName
+
+
+class ChangePasswordRequest(RequestModel):
+    """Inputs for ``POST /api/v1/auth/me/password``."""
+
+    current_password: str = Field(min_length=1, max_length=128)
+    new_password: str = Field(min_length=8, max_length=128)
+
+
+class ChangeEmailRequest(RequestModel):
+    """Inputs for ``POST /api/v1/auth/me/email`` — starts the change flow.
+
+    The password is required as a re-authentication step (the user is
+    already logged in but we want a fresh proof-of-ownership before
+    moving the email anywhere). The new email is the destination Resend
+    sends the verification link to.
+    """
+
+    current_password: str = Field(min_length=1, max_length=128)
+    new_email: EmailStr
+
+
+class ChangeEmailConfirm(RequestModel):
+    """Inputs for ``POST /api/v1/auth/me/email/confirm`` — completes the flow."""
+
+    token: str = Field(min_length=8, max_length=128)
+
+
 class UserPublic(ResponseModel):
     """Public account view — never includes the password hash."""
 

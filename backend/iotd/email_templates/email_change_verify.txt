@@ -1,0 +1,7 @@
+{{ greeting }}
+
+Une demande de changement d'adresse email a été initiée pour votre compte Islamic On This Day. Pour confirmer cette nouvelle adresse, ouvrez ce lien :
+
+{{ href }}
+
+Tant que vous n'avez pas cliqué, votre adresse actuelle reste valable. Le lien est valable 30 minutes. Si vous n'êtes pas à l'origine de cette demande, ignorez ce message.

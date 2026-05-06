@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { useDatasetMeta } from "@/api/datasetMeta";
 
@@ -28,6 +29,10 @@ export function Footer() {
     <footer className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-rule px-[clamp(20px,4vw,56px)] py-5 font-mono text-[12px] uppercase tracking-[1.2px] text-ink-mute">
       {stat && <span className="text-ink-soft">{stat}</span>}
       <span className="ms-auto flex flex-wrap items-center gap-x-3 gap-y-1">
+        <Link to="/about" className="iotd-link">
+          {t("about.nav_label")}
+        </Link>
+        <span aria-hidden="true">·</span>
         <span className="hidden sm:inline">{t("classical_record_tagline")}</span>
         <span>
           {VERSION} · 1447 ah {t("build_label")}

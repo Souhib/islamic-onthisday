@@ -1,0 +1,9 @@
+{{ greeting }}
+
+Une demande de changement d'adresse email a été initiée vers {{ new_email }}.
+
+La nouvelle adresse doit être confirmée via un lien envoyé sur {{ new_email }}. Tant que ce n'est pas fait, votre compte reste accessible avec votre adresse actuelle.
+
+Si vous n'êtes pas à l'origine de cette demande, changez votre mot de passe immédiatement :
+
+{{ href }}

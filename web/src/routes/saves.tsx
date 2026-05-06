@@ -95,13 +95,21 @@ function SavesPage() {
               {user.displayName ?? user.email}
             </span>
           )}
-          <button
-            type="button"
-            onClick={logout}
-            className="cursor-pointer border border-rule bg-transparent px-3 py-1.5 font-mono text-[10.5px] uppercase tracking-[1.6px] text-ink-soft transition-colors hover:border-ink hover:text-ink"
-          >
-            {t("auth.sign_out")}
-          </button>
+          <div className="flex items-center gap-2">
+            <Link
+              to="/account"
+              className="cursor-pointer border border-rule bg-transparent px-3 py-1.5 font-mono text-[10.5px] uppercase tracking-[1.6px] text-ink-soft transition-colors hover:border-ink hover:text-ink"
+            >
+              {t("auth.account_title")}
+            </Link>
+            <button
+              type="button"
+              onClick={logout}
+              className="cursor-pointer border border-rule bg-transparent px-3 py-1.5 font-mono text-[10.5px] uppercase tracking-[1.6px] text-ink-soft transition-colors hover:border-ink hover:text-ink"
+            >
+              {t("auth.sign_out")}
+            </button>
+          </div>
         </div>
 
         <input

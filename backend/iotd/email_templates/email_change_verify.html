@@ -1,0 +1,17 @@
+{% extends "_layout.html" %}
+{% block content %}
+<p style="margin:0 0 14px 0;">{{ greeting }}</p>
+<p style="margin:0 0 14px 0;">
+  Une demande de changement d'adresse email a été initiée pour votre
+  compte <em>Islamic On This Day</em>. Pour confirmer cette nouvelle
+  adresse, cliquez sur le bouton ci-dessous :
+</p>
+<p style="margin:0;text-align:center;">
+  {% include "_button.html" with context %}
+</p>
+<p style="margin:18px 0 0 0;font-size:14px;color:#6e6a5e;font-style:italic;">
+  Tant que vous n'avez pas cliqué, votre adresse actuelle reste valable.
+  Le lien est valable 30 minutes. Si vous n'êtes pas à l'origine de
+  cette demande, ignorez ce message.
+</p>
+{% endblock %}

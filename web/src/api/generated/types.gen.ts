@@ -81,6 +81,67 @@ export type BookmarkOut = {
 };
 
 /**
+ * ChangeDisplayNameRequest
+ *
+ * Inputs for ``PATCH /api/v1/auth/me``.
+ */
+export type ChangeDisplayNameRequest = {
+    /**
+     * Displayname
+     */
+    displayName: string;
+};
+
+/**
+ * ChangeEmailConfirm
+ *
+ * Inputs for ``POST /api/v1/auth/me/email/confirm`` — completes the flow.
+ */
+export type ChangeEmailConfirm = {
+    /**
+     * Token
+     */
+    token: string;
+};
+
+/**
+ * ChangeEmailRequest
+ *
+ * Inputs for ``POST /api/v1/auth/me/email`` — starts the change flow.
+ *
+ * The password is required as a re-authentication step (the user is
+ * already logged in but we want a fresh proof-of-ownership before
+ * moving the email anywhere). The new email is the destination Resend
+ * sends the verification link to.
+ */
+export type ChangeEmailRequest = {
+    /**
+     * Currentpassword
+     */
+    currentPassword: string;
+    /**
+     * Newemail
+     */
+    newEmail: string;
+};
+
+/**
+ * ChangePasswordRequest
+ *
+ * Inputs for ``POST /api/v1/auth/me/password``.
+ */
+export type ChangePasswordRequest = {
+    /**
+     * Currentpassword
+     */
+    currentPassword: string;
+    /**
+     * Newpassword
+     */
+    newPassword: string;
+};
+
+/**
  * DatasetSnapshot
  *
  * Per-resource row counts + dataset freshness signal.
@@ -1334,6 +1395,37 @@ export type MeApiV1AuthMeGetResponses = {
 
 export type MeApiV1AuthMeGetResponse = MeApiV1AuthMeGetResponses[keyof MeApiV1AuthMeGetResponses];
 
+export type ChangeDisplayNameApiV1AuthMePatchData = {
+    body: ChangeDisplayNameRequest;
+    headers?: {
+        /**
+         * Authorization
+         */
+        Authorization?: string | null;
+    };
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/me';
+};
+
+export type ChangeDisplayNameApiV1AuthMePatchErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type ChangeDisplayNameApiV1AuthMePatchError = ChangeDisplayNameApiV1AuthMePatchErrors[keyof ChangeDisplayNameApiV1AuthMePatchErrors];
+
+export type ChangeDisplayNameApiV1AuthMePatchResponses = {
+    /**
+     * Successful Response
+     */
+    200: UserPublic;
+};
+
+export type ChangeDisplayNameApiV1AuthMePatchResponse = ChangeDisplayNameApiV1AuthMePatchResponses[keyof ChangeDisplayNameApiV1AuthMePatchResponses];
+
 export type RequestPasswordResetApiV1AuthPasswordResetRequestPostData = {
     body: PasswordResetRequest;
     path?: never;
@@ -1433,6 +1525,93 @@ export type ResendVerificationEmailApiV1AuthEmailResendPostResponses = {
 };
 
 export type ResendVerificationEmailApiV1AuthEmailResendPostResponse = ResendVerificationEmailApiV1AuthEmailResendPostResponses[keyof ResendVerificationEmailApiV1AuthEmailResendPostResponses];
+
+export type ChangePasswordApiV1AuthMePasswordPostData = {
+    body: ChangePasswordRequest;
+    headers?: {
+        /**
+         * Authorization
+         */
+        Authorization?: string | null;
+    };
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/me/password';
+};
+
+export type ChangePasswordApiV1AuthMePasswordPostErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type ChangePasswordApiV1AuthMePasswordPostError = ChangePasswordApiV1AuthMePasswordPostErrors[keyof ChangePasswordApiV1AuthMePasswordPostErrors];
+
+export type ChangePasswordApiV1AuthMePasswordPostResponses = {
+    /**
+     * Successful Response
+     */
+    204: void;
+};
+
+export type ChangePasswordApiV1AuthMePasswordPostResponse = ChangePasswordApiV1AuthMePasswordPostResponses[keyof ChangePasswordApiV1AuthMePasswordPostResponses];
+
+export type RequestEmailChangeApiV1AuthMeEmailPostData = {
+    body: ChangeEmailRequest;
+    headers?: {
+        /**
+         * Authorization
+         */
+        Authorization?: string | null;
+    };
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/me/email';
+};
+
+export type RequestEmailChangeApiV1AuthMeEmailPostErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type RequestEmailChangeApiV1AuthMeEmailPostError = RequestEmailChangeApiV1AuthMeEmailPostErrors[keyof RequestEmailChangeApiV1AuthMeEmailPostErrors];
+
+export type RequestEmailChangeApiV1AuthMeEmailPostResponses = {
+    /**
+     * Successful Response
+     */
+    204: void;
+};
+
+export type RequestEmailChangeApiV1AuthMeEmailPostResponse = RequestEmailChangeApiV1AuthMeEmailPostResponses[keyof RequestEmailChangeApiV1AuthMeEmailPostResponses];
+
+export type ConfirmEmailChangeApiV1AuthMeEmailConfirmPostData = {
+    body: ChangeEmailConfirm;
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/me/email/confirm';
+};
+
+export type ConfirmEmailChangeApiV1AuthMeEmailConfirmPostErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type ConfirmEmailChangeApiV1AuthMeEmailConfirmPostError = ConfirmEmailChangeApiV1AuthMeEmailConfirmPostErrors[keyof ConfirmEmailChangeApiV1AuthMeEmailConfirmPostErrors];
+
+export type ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponses = {
+    /**
+     * Successful Response
+     */
+    200: UserPublic;
+};
+
+export type ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponse = ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponses[keyof ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponses];
 
 export type ListBookmarksApiV1BookmarksGetData = {
     body?: never;

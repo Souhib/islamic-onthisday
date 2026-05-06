@@ -3,8 +3,8 @@
 import { type DefaultError, type InfiniteData, infiniteQueryOptions, queryOptions, type UseMutationOptions } from '@tanstack/react-query';
 
 import { client } from '../client.gen';
-import { confirmPasswordResetApiV1AuthPasswordResetConfirmPost, createBookmarkApiV1BookmarksPost, deleteBookmarkApiV1BookmarksBookmarkIdDelete, getEventApiV1EventsSlugGet, getLessonApiV1LessonsSlugGet, getObservanceApiV1ObservancesSlugGet, getPersonApiV1PeopleSlugGet, getRecentApiV1RecentGet, getTodayApiV1TodayGet, healthHealthGet, listBookmarksApiV1BookmarksGet, listLessonsApiV1LessonsGet, listObservancesApiV1ObservancesGet, loginApiV1AuthLoginPost, meApiV1AuthMeGet, type Options, refreshApiV1AuthRefreshPost, requestPasswordResetApiV1AuthPasswordResetRequestPost, resendVerificationEmailApiV1AuthEmailResendPost, signupApiV1AuthSignupPost, verifyEmailApiV1AuthEmailVerifyPost } from '../sdk.gen';
-import type { ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostData, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostError, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponse, CreateBookmarkApiV1BookmarksPostData, CreateBookmarkApiV1BookmarksPostError, CreateBookmarkApiV1BookmarksPostResponse, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteData, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteError, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteResponse, GetEventApiV1EventsSlugGetData, GetEventApiV1EventsSlugGetError, GetEventApiV1EventsSlugGetResponse, GetLessonApiV1LessonsSlugGetData, GetLessonApiV1LessonsSlugGetError, GetLessonApiV1LessonsSlugGetResponse, GetObservanceApiV1ObservancesSlugGetData, GetObservanceApiV1ObservancesSlugGetError, GetObservanceApiV1ObservancesSlugGetResponse, GetPersonApiV1PeopleSlugGetData, GetPersonApiV1PeopleSlugGetError, GetPersonApiV1PeopleSlugGetResponse, GetRecentApiV1RecentGetData, GetRecentApiV1RecentGetResponse, GetTodayApiV1TodayGetData, GetTodayApiV1TodayGetResponse, HealthHealthGetData, HealthHealthGetResponse, ListBookmarksApiV1BookmarksGetData, ListBookmarksApiV1BookmarksGetError, ListBookmarksApiV1BookmarksGetResponse, ListLessonsApiV1LessonsGetData, ListLessonsApiV1LessonsGetError, ListLessonsApiV1LessonsGetResponse, ListObservancesApiV1ObservancesGetData, ListObservancesApiV1ObservancesGetResponse, LoginApiV1AuthLoginPostData, LoginApiV1AuthLoginPostError, LoginApiV1AuthLoginPostResponse, MeApiV1AuthMeGetData, MeApiV1AuthMeGetError, MeApiV1AuthMeGetResponse, RefreshApiV1AuthRefreshPostData, RefreshApiV1AuthRefreshPostError, RefreshApiV1AuthRefreshPostResponse, RequestPasswordResetApiV1AuthPasswordResetRequestPostData, RequestPasswordResetApiV1AuthPasswordResetRequestPostError, RequestPasswordResetApiV1AuthPasswordResetRequestPostResponse, ResendVerificationEmailApiV1AuthEmailResendPostData, ResendVerificationEmailApiV1AuthEmailResendPostError, ResendVerificationEmailApiV1AuthEmailResendPostResponse, SignupApiV1AuthSignupPostData, SignupApiV1AuthSignupPostError, SignupApiV1AuthSignupPostResponse, VerifyEmailApiV1AuthEmailVerifyPostData, VerifyEmailApiV1AuthEmailVerifyPostError, VerifyEmailApiV1AuthEmailVerifyPostResponse } from '../types.gen';
+import { changeDisplayNameApiV1AuthMePatch, changePasswordApiV1AuthMePasswordPost, confirmEmailChangeApiV1AuthMeEmailConfirmPost, confirmPasswordResetApiV1AuthPasswordResetConfirmPost, createBookmarkApiV1BookmarksPost, deleteBookmarkApiV1BookmarksBookmarkIdDelete, getEventApiV1EventsSlugGet, getLessonApiV1LessonsSlugGet, getObservanceApiV1ObservancesSlugGet, getPersonApiV1PeopleSlugGet, getRecentApiV1RecentGet, getTodayApiV1TodayGet, healthHealthGet, listBookmarksApiV1BookmarksGet, listLessonsApiV1LessonsGet, listObservancesApiV1ObservancesGet, loginApiV1AuthLoginPost, meApiV1AuthMeGet, type Options, refreshApiV1AuthRefreshPost, requestEmailChangeApiV1AuthMeEmailPost, requestPasswordResetApiV1AuthPasswordResetRequestPost, resendVerificationEmailApiV1AuthEmailResendPost, signupApiV1AuthSignupPost, verifyEmailApiV1AuthEmailVerifyPost } from '../sdk.gen';
+import type { ChangeDisplayNameApiV1AuthMePatchData, ChangeDisplayNameApiV1AuthMePatchError, ChangeDisplayNameApiV1AuthMePatchResponse, ChangePasswordApiV1AuthMePasswordPostData, ChangePasswordApiV1AuthMePasswordPostError, ChangePasswordApiV1AuthMePasswordPostResponse, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostData, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostError, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponse, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostData, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostError, ConfirmPasswordResetApiV1AuthPasswordResetConfirmPostResponse, CreateBookmarkApiV1BookmarksPostData, CreateBookmarkApiV1BookmarksPostError, CreateBookmarkApiV1BookmarksPostResponse, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteData, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteError, DeleteBookmarkApiV1BookmarksBookmarkIdDeleteResponse, GetEventApiV1EventsSlugGetData, GetEventApiV1EventsSlugGetError, GetEventApiV1EventsSlugGetResponse, GetLessonApiV1LessonsSlugGetData, GetLessonApiV1LessonsSlugGetError, GetLessonApiV1LessonsSlugGetResponse, GetObservanceApiV1ObservancesSlugGetData, GetObservanceApiV1ObservancesSlugGetError, GetObservanceApiV1ObservancesSlugGetResponse, GetPersonApiV1PeopleSlugGetData, GetPersonApiV1PeopleSlugGetError, GetPersonApiV1PeopleSlugGetResponse, GetRecentApiV1RecentGetData, GetRecentApiV1RecentGetResponse, GetTodayApiV1TodayGetData, GetTodayApiV1TodayGetResponse, HealthHealthGetData, HealthHealthGetResponse, ListBookmarksApiV1BookmarksGetData, ListBookmarksApiV1BookmarksGetError, ListBookmarksApiV1BookmarksGetResponse, ListLessonsApiV1LessonsGetData, ListLessonsApiV1LessonsGetError, ListLessonsApiV1LessonsGetResponse, ListObservancesApiV1ObservancesGetData, ListObservancesApiV1ObservancesGetResponse, LoginApiV1AuthLoginPostData, LoginApiV1AuthLoginPostError, LoginApiV1AuthLoginPostResponse, MeApiV1AuthMeGetData, MeApiV1AuthMeGetError, MeApiV1AuthMeGetResponse, RefreshApiV1AuthRefreshPostData, RefreshApiV1AuthRefreshPostError, RefreshApiV1AuthRefreshPostResponse, RequestEmailChangeApiV1AuthMeEmailPostData, RequestEmailChangeApiV1AuthMeEmailPostError, RequestEmailChangeApiV1AuthMeEmailPostResponse, RequestPasswordResetApiV1AuthPasswordResetRequestPostData, RequestPasswordResetApiV1AuthPasswordResetRequestPostError, RequestPasswordResetApiV1AuthPasswordResetRequestPostResponse, ResendVerificationEmailApiV1AuthEmailResendPostData, ResendVerificationEmailApiV1AuthEmailResendPostError, ResendVerificationEmailApiV1AuthEmailResendPostResponse, SignupApiV1AuthSignupPostData, SignupApiV1AuthSignupPostError, SignupApiV1AuthSignupPostResponse, VerifyEmailApiV1AuthEmailVerifyPostData, VerifyEmailApiV1AuthEmailVerifyPostError, VerifyEmailApiV1AuthEmailVerifyPostResponse } from '../types.gen';
 
 export type QueryKey<TOptions extends Options> = [
     Pick<TOptions, 'baseUrl' | 'body' | 'headers' | 'path' | 'query'> & {
@@ -351,6 +351,23 @@ export const meApiV1AuthMeGetOptions = (options?: Options<MeApiV1AuthMeGetData>)
 });
 
 /**
+ * Update the authenticated user's display name
+ */
+export const changeDisplayNameApiV1AuthMePatchMutation = (options?: Partial<Options<ChangeDisplayNameApiV1AuthMePatchData>>): UseMutationOptions<ChangeDisplayNameApiV1AuthMePatchResponse, ChangeDisplayNameApiV1AuthMePatchError, Options<ChangeDisplayNameApiV1AuthMePatchData>> => {
+    const mutationOptions: UseMutationOptions<ChangeDisplayNameApiV1AuthMePatchResponse, ChangeDisplayNameApiV1AuthMePatchError, Options<ChangeDisplayNameApiV1AuthMePatchData>> = {
+        mutationFn: async (fnOptions) => {
+            const { data } = await changeDisplayNameApiV1AuthMePatch({
+                ...options,
+                ...fnOptions,
+                throwOnError: true
+            });
+            return data;
+        }
+    };
+    return mutationOptions;
+};
+
+/**
  * Send a password-reset email if the address is registered
  */
 export const requestPasswordResetApiV1AuthPasswordResetRequestPostMutation = (options?: Partial<Options<RequestPasswordResetApiV1AuthPasswordResetRequestPostData>>): UseMutationOptions<RequestPasswordResetApiV1AuthPasswordResetRequestPostResponse, RequestPasswordResetApiV1AuthPasswordResetRequestPostError, Options<RequestPasswordResetApiV1AuthPasswordResetRequestPostData>> => {
@@ -408,6 +425,57 @@ export const resendVerificationEmailApiV1AuthEmailResendPostMutation = (options?
     const mutationOptions: UseMutationOptions<ResendVerificationEmailApiV1AuthEmailResendPostResponse, ResendVerificationEmailApiV1AuthEmailResendPostError, Options<ResendVerificationEmailApiV1AuthEmailResendPostData>> = {
         mutationFn: async (fnOptions) => {
             const { data } = await resendVerificationEmailApiV1AuthEmailResendPost({
+                ...options,
+                ...fnOptions,
+                throwOnError: true
+            });
+            return data;
+        }
+    };
+    return mutationOptions;
+};
+
+/**
+ * Rotate the authenticated user's password
+ */
+export const changePasswordApiV1AuthMePasswordPostMutation = (options?: Partial<Options<ChangePasswordApiV1AuthMePasswordPostData>>): UseMutationOptions<ChangePasswordApiV1AuthMePasswordPostResponse, ChangePasswordApiV1AuthMePasswordPostError, Options<ChangePasswordApiV1AuthMePasswordPostData>> => {
+    const mutationOptions: UseMutationOptions<ChangePasswordApiV1AuthMePasswordPostResponse, ChangePasswordApiV1AuthMePasswordPostError, Options<ChangePasswordApiV1AuthMePasswordPostData>> = {
+        mutationFn: async (fnOptions) => {
+            const { data } = await changePasswordApiV1AuthMePasswordPost({
+                ...options,
+                ...fnOptions,
+                throwOnError: true
+            });
+            return data;
+        }
+    };
+    return mutationOptions;
+};
+
+/**
+ * Start the email-change flow (verify link sent to the new address)
+ */
+export const requestEmailChangeApiV1AuthMeEmailPostMutation = (options?: Partial<Options<RequestEmailChangeApiV1AuthMeEmailPostData>>): UseMutationOptions<RequestEmailChangeApiV1AuthMeEmailPostResponse, RequestEmailChangeApiV1AuthMeEmailPostError, Options<RequestEmailChangeApiV1AuthMeEmailPostData>> => {
+    const mutationOptions: UseMutationOptions<RequestEmailChangeApiV1AuthMeEmailPostResponse, RequestEmailChangeApiV1AuthMeEmailPostError, Options<RequestEmailChangeApiV1AuthMeEmailPostData>> = {
+        mutationFn: async (fnOptions) => {
+            const { data } = await requestEmailChangeApiV1AuthMeEmailPost({
+                ...options,
+                ...fnOptions,
+                throwOnError: true
+            });
+            return data;
+        }
+    };
+    return mutationOptions;
+};
+
+/**
+ * Consume an email-change token and apply the new address
+ */
+export const confirmEmailChangeApiV1AuthMeEmailConfirmPostMutation = (options?: Partial<Options<ConfirmEmailChangeApiV1AuthMeEmailConfirmPostData>>): UseMutationOptions<ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponse, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostError, Options<ConfirmEmailChangeApiV1AuthMeEmailConfirmPostData>> => {
+    const mutationOptions: UseMutationOptions<ConfirmEmailChangeApiV1AuthMeEmailConfirmPostResponse, ConfirmEmailChangeApiV1AuthMeEmailConfirmPostError, Options<ConfirmEmailChangeApiV1AuthMeEmailConfirmPostData>> = {
+        mutationFn: async (fnOptions) => {
+            const { data } = await confirmEmailChangeApiV1AuthMeEmailConfirmPost({
                 ...options,
                 ...fnOptions,
                 throwOnError: true

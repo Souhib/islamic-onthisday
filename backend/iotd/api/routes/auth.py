@@ -6,10 +6,15 @@ from fastapi import APIRouter, Depends, status
 from fastapi.responses import Response
 
 from iotd.api.cache import NO_STORE
+from iotd.api.controllers.account import AccountController
 from iotd.api.controllers.auth import AuthController
 from iotd.api.controllers.email_verification import EmailVerificationController
 from iotd.api.controllers.password_reset import PasswordResetController
 from iotd.api.schemas.auth import (
+    ChangeDisplayNameRequest,
+    ChangeEmailConfirm,
+    ChangeEmailRequest,
+    ChangePasswordRequest,
     EmailVerifyConfirm,
     EmailVerifyResend,
     LoginRequest,
@@ -21,6 +26,7 @@ from iotd.api.schemas.auth import (
     UserPublic,
 )
 from iotd.dependencies import (
+    get_account_controller,
     get_auth_controller,
     get_current_user,
     get_email_verification_controller,
@@ -142,3 +148,67 @@ async def resend_verification_email(
     await controller.resend(body)
     # Always 204 — never reveal whether the email is registered.
     return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+# --- Account self-management ----------------------------------------------
+
+
+@router.patch(
+    "/me",
+    response_model=UserPublic,
+    response_model_by_alias=True,
+    summary="Update the authenticated user's display name",
+    dependencies=[NO_STORE],
+)
+async def change_display_name(
+    body: ChangeDisplayNameRequest,
+    user: Annotated[User, Depends(get_current_user)],
+    controller: Annotated[AccountController, Depends(get_account_controller)],
+) -> UserPublic:
+    updated = await controller.change_display_name(user, body)
+    return UserPublic.model_validate(updated)
+
+
+@router.post(
+    "/me/password",
+    status_code=status.HTTP_204_NO_CONTENT,
+    summary="Rotate the authenticated user's password",
+    dependencies=[NO_STORE],
+)
+async def change_password(
+    body: ChangePasswordRequest,
+    user: Annotated[User, Depends(get_current_user)],
+    controller: Annotated[AccountController, Depends(get_account_controller)],
+) -> Response:
+    await controller.change_password(user, body)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+@router.post(
+    "/me/email",
+    status_code=status.HTTP_204_NO_CONTENT,
+    summary="Start the email-change flow (verify link sent to the new address)",
+    dependencies=[NO_STORE],
+)
+async def request_email_change(
+    body: ChangeEmailRequest,
+    user: Annotated[User, Depends(get_current_user)],
+    controller: Annotated[AccountController, Depends(get_account_controller)],
+) -> Response:
+    await controller.request_email_change(user, body)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+
+@router.post(
+    "/me/email/confirm",
+    response_model=UserPublic,
+    response_model_by_alias=True,
+    summary="Consume an email-change token and apply the new address",
+    dependencies=[NO_STORE],
+)
+async def confirm_email_change(
+    body: ChangeEmailConfirm,
+    controller: Annotated[AccountController, Depends(get_account_controller)],
+) -> UserPublic:
+    updated = await controller.confirm_email_change(body)
+    return UserPublic.model_validate(updated)

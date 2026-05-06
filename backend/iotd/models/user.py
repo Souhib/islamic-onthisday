@@ -113,6 +113,32 @@ class EmailVerificationToken(SQLModel, table=True):
     )
 
 
+class EmailChangeToken(SQLModel, table=True):
+    """One-time token issued to confirm a user's email change.
+
+    The new email lives on the row (rather than on the user) so the
+    actual swap only happens when the user clicks the link sent to that
+    new address — proves ownership before applying the change.
+    """
+
+    __tablename__ = "email_change_tokens"
+
+    token: str = Field(max_length=64, primary_key=True)
+    user_id: UUID = Field(foreign_key="users.id", index=True)
+    new_email: str = Field(max_length=255)
+    expires_at: datetime = Field(
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
+    used_at: datetime | None = Field(
+        default=None,
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
+    created_at: datetime = Field(
+        default_factory=lambda: datetime.now(UTC),
+        sa_type=TIMESTAMP(timezone=True),  # type: ignore[invalid-argument-type]
+    )
+
+
 class PasswordResetToken(SQLModel, table=True):
     """One-time token issued to allow a password reset via emailed link.
 

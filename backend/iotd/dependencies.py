@@ -9,6 +9,7 @@ from typing import Annotated
 from fastapi import Depends, Header
 from sqlmodel.ext.asyncio.session import AsyncSession
 
+from iotd.api.controllers.account import AccountController
 from iotd.api.controllers.auth import AuthController
 from iotd.api.controllers.bookmarks import BookmarksController
 from iotd.api.controllers.email_verification import EmailVerificationController
@@ -113,6 +114,14 @@ async def get_email_verification_controller(
 ) -> EmailVerificationController:
     """Return an ``EmailVerificationController`` wired to the request session + settings."""
     return EmailVerificationController(session, settings)
+
+
+async def get_account_controller(
+    session: Annotated[AsyncSession, Depends(get_session)],
+    settings: Annotated[Settings, Depends(get_active_settings)],
+) -> AccountController:
+    """Return an ``AccountController`` for the /auth/me/* mutation routes."""
+    return AccountController(session, settings)
 
 
 async def get_current_user(
