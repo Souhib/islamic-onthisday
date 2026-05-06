@@ -99,10 +99,10 @@ class _TranslationsVerificationAr implements TranslationsVerificationEn {
 	final TranslationsAr _root; // ignore: unused_field
 
 	// Translations
-	@override String get scholar_reviewed => 'مراجَعة علمية';
-	@override String get cross_verified => 'متحقَّق منها بمصادر متعددة';
+	@override String get scholar_reviewed => 'مراجَع علمياً';
+	@override String get cross_verified => 'مصادر متعدّدة';
 	@override String get single_source => 'مصدر واحد';
-	@override String get unverified => 'غير محقَّق';
+	@override String get unverified => 'غير محقّق';
 }
 
 // Path: dispute
@@ -260,10 +260,10 @@ extension on TranslationsAr {
 			'today.the_reading' => 'القراءة',
 			'today.end_of_reading' => 'نهاية قراءة اليوم',
 			'today.verify' => 'تحقّق',
-			'verification.scholar_reviewed' => 'مراجَعة علمية',
-			'verification.cross_verified' => 'متحقَّق منها بمصادر متعددة',
+			'verification.scholar_reviewed' => 'مراجَع علمياً',
+			'verification.cross_verified' => 'مصادر متعدّدة',
 			'verification.single_source' => 'مصدر واحد',
-			'verification.unverified' => 'غير محقَّق',
+			'verification.unverified' => 'غير محقّق',
 			'dispute.date' => 'تاريخ متنازع عليه',
 			'dispute.detail' => 'تفصيل متنازع عليه',
 			'dispute.interpretation' => 'تفسير متنازع عليه',

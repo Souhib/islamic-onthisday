@@ -20,10 +20,10 @@
     "verify": "Vérifier"
   },
   "verification": {
-    "scholar_reviewed": "validé par un savant",
-    "cross_verified": "vérifié par recoupement",
-    "single_source": "une seule source",
-    "unverified": "non vérifié"
+    "scholar_reviewed": "Validé par un savant",
+    "cross_verified": "Plusieurs sources",
+    "single_source": "Une source",
+    "unverified": "Non vérifié"
   },
   "dispute": {
     "date": "date contestée",

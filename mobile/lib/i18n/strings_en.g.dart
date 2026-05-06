@@ -131,17 +131,17 @@ class TranslationsVerificationEn {
 
 	// Translations
 
-	/// en: 'scholar reviewed'
-	String get scholar_reviewed => 'scholar reviewed';
+	/// en: 'Scholar-reviewed'
+	String get scholar_reviewed => 'Scholar-reviewed';
 
-	/// en: 'cross-verified'
-	String get cross_verified => 'cross-verified';
+	/// en: 'Multiple sources'
+	String get cross_verified => 'Multiple sources';
 
-	/// en: 'single source'
-	String get single_source => 'single source';
+	/// en: 'One source'
+	String get single_source => 'One source';
 
-	/// en: 'unverified'
-	String get unverified => 'unverified';
+	/// en: 'Unverified'
+	String get unverified => 'Unverified';
 }
 
 // Path: dispute
@@ -421,10 +421,10 @@ extension on Translations {
 			'today.the_reading' => 'The reading',
 			'today.end_of_reading' => 'End of the day\'s reading',
 			'today.verify' => 'Verify',
-			'verification.scholar_reviewed' => 'scholar reviewed',
-			'verification.cross_verified' => 'cross-verified',
-			'verification.single_source' => 'single source',
-			'verification.unverified' => 'unverified',
+			'verification.scholar_reviewed' => 'Scholar-reviewed',
+			'verification.cross_verified' => 'Multiple sources',
+			'verification.single_source' => 'One source',
+			'verification.unverified' => 'Unverified',
 			'dispute.date' => 'disputed date',
 			'dispute.detail' => 'disputed detail',
 			'dispute.interpretation' => 'disputed interpretation',

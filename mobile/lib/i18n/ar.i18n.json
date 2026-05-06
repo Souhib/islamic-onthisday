@@ -20,10 +20,10 @@
     "verify": "تحقّق"
   },
   "verification": {
-    "scholar_reviewed": "مراجَعة علمية",
-    "cross_verified": "متحقَّق منها بمصادر متعددة",
+    "scholar_reviewed": "مراجَع علمياً",
+    "cross_verified": "مصادر متعدّدة",
     "single_source": "مصدر واحد",
-    "unverified": "غير محقَّق"
+    "unverified": "غير محقّق"
   },
   "dispute": {
     "date": "تاريخ متنازع عليه",

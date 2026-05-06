@@ -99,10 +99,10 @@ class _TranslationsVerificationFr implements TranslationsVerificationEn {
 	final TranslationsFr _root; // ignore: unused_field
 
 	// Translations
-	@override String get scholar_reviewed => 'validé par un savant';
-	@override String get cross_verified => 'vérifié par recoupement';
-	@override String get single_source => 'une seule source';
-	@override String get unverified => 'non vérifié';
+	@override String get scholar_reviewed => 'Validé par un savant';
+	@override String get cross_verified => 'Plusieurs sources';
+	@override String get single_source => 'Une source';
+	@override String get unverified => 'Non vérifié';
 }
 
 // Path: dispute
@@ -260,10 +260,10 @@ extension on TranslationsFr {
 			'today.the_reading' => 'La lecture',
 			'today.end_of_reading' => 'Fin de la lecture du jour',
 			'today.verify' => 'Vérifier',
-			'verification.scholar_reviewed' => 'validé par un savant',
-			'verification.cross_verified' => 'vérifié par recoupement',
-			'verification.single_source' => 'une seule source',
-			'verification.unverified' => 'non vérifié',
+			'verification.scholar_reviewed' => 'Validé par un savant',
+			'verification.cross_verified' => 'Plusieurs sources',
+			'verification.single_source' => 'Une source',
+			'verification.unverified' => 'Non vérifié',
 			'dispute.date' => 'date contestée',
 			'dispute.detail' => 'détail contesté',
 			'dispute.interpretation' => 'interprétation contestée',
