@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -32,7 +33,7 @@ class SettingsScreen extends ConsumerWidget {
           _ => AppLocale.en,
         };
     final notifsEnabled = ref.watch(notificationsEnabledProvider);
-    final notifHour = ref.watch(notificationHourProvider);
+    final notifTime = ref.watch(notificationTimeProvider);
 
     return Scaffold(
       backgroundColor: t.paper,
@@ -84,13 +85,13 @@ class SettingsScreen extends ConsumerWidget {
             ),
             if (notifsEnabled) ...[
               const SizedBox(height: 12),
-              _HourPicker(
-                value: notifHour,
+              _TimePickerRow(
+                value: notifTime,
                 label: i18n.settings.notification_time,
-                onChanged: (h) => ref
-                    .read(notificationHourProvider.notifier)
+                onChanged: (newTime) => ref
+                    .read(notificationTimeProvider.notifier)
                     .set(
-                      h,
+                      newTime,
                       title: i18n.settings.notification_title,
                       body: i18n.settings.notification_body,
                     ),
@@ -185,65 +186,127 @@ class _ToggleRow extends StatelessWidget {
   }
 }
 
-class _HourPicker extends StatelessWidget {
-  const _HourPicker({
+class _TimePickerRow extends StatelessWidget {
+  const _TimePickerRow({
     required this.value,
     required this.label,
     required this.onChanged,
   });
 
-  final int value;
+  final TimeOfDay value;
   final String label;
-  final ValueChanged<int> onChanged;
+  final ValueChanged<TimeOfDay> onChanged;
+
+  String _format(TimeOfDay time) =>
+      '${time.hour.toString().padLeft(2, '0')}:${time.minute.toString().padLeft(2, '0')}';
+
+  Future<void> _open(BuildContext context) async {
+    final t = context.tokens;
+    var current = value;
+    await showModalBottomSheet<void>(
+      context: context,
+      backgroundColor: t.paper,
+      shape: const RoundedRectangleBorder(),
+      builder: (ctx) => SafeArea(
+        top: false,
+        child: SizedBox(
+          height: 280,
+          child: Column(
+            children: [
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                decoration: BoxDecoration(
+                  border: Border(bottom: BorderSide(color: t.rule, width: 0.5)),
+                ),
+                child: Row(
+                  children: [
+                    Text(
+                      label.toUpperCase(),
+                      style: IotdTypography.mono(
+                        size: 11,
+                        color: t.inkMute,
+                        letterSpacing: 1.4,
+                      ),
+                    ),
+                    const Spacer(),
+                    TextButton(
+                      onPressed: () => Navigator.of(ctx).pop(),
+                      child: Text(
+                        'OK',
+                        style: IotdTypography.mono(
+                          size: 12,
+                          color: t.accent,
+                          letterSpacing: 1.4,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Expanded(
+                child: CupertinoTheme(
+                  data: CupertinoThemeData(
+                    textTheme: CupertinoTextThemeData(
+                      dateTimePickerTextStyle: IotdTypography.serif(
+                        size: 22,
+                        color: t.ink,
+                        weight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                  child: CupertinoDatePicker(
+                    mode: CupertinoDatePickerMode.time,
+                    use24hFormat: true,
+                    minuteInterval: 1,
+                    initialDateTime: DateTime(2026, 1, 1, value.hour, value.minute),
+                    onDateTimeChanged: (dt) {
+                      current = TimeOfDay(hour: dt.hour, minute: dt.minute);
+                    },
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+    if (current != value) onChanged(current);
+  }
 
   @override
   Widget build(BuildContext context) {
     final t = context.tokens;
-    return Container(
-      decoration: BoxDecoration(border: Border.all(color: t.rule, width: 0.5)),
-      child: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(14, 12, 14, 6),
-            child: Row(
-              children: [
-                Text(
-                  label.toUpperCase(),
-                  style: IotdTypography.mono(
-                    size: 10.5,
-                    color: t.inkMute,
-                    letterSpacing: 1.4,
-                  ),
-                ),
-                const Spacer(),
-                Text(
-                  '${value.toString().padLeft(2, '0')}:00',
-                  style: IotdTypography.serif(
-                    size: 22,
-                    color: t.ink,
-                    weight: FontWeight.w500,
-                  ),
-                ),
-              ],
+    return InkWell(
+      onTap: () => _open(context),
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 16),
+        decoration: BoxDecoration(border: Border.all(color: t.rule, width: 0.5)),
+        child: Row(
+          children: [
+            Text(
+              label.toUpperCase(),
+              style: IotdTypography.mono(
+                size: 11,
+                color: t.inkMute,
+                letterSpacing: 1.4,
+              ),
             ),
-          ),
-          SliderTheme(
-            data: SliderTheme.of(context).copyWith(
-              activeTrackColor: t.ink,
-              inactiveTrackColor: t.rule,
-              thumbColor: t.ink,
-              overlayColor: t.ink.withValues(alpha: 0.06),
-              trackHeight: 1.5,
+            const Spacer(),
+            Text(
+              _format(value),
+              style: IotdTypography.serif(
+                size: 22,
+                color: t.ink,
+                weight: FontWeight.w500,
+              ),
             ),
-            child: Slider(
-              min: 0,
-              max: 23,
-              divisions: 23,
-              value: value.toDouble(),
-              onChanged: (v) => onChanged(v.round()),
+            const SizedBox(width: 10),
+            Text(
+              '↗',
+              style: IotdTypography.mono(size: 14, color: t.accent),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

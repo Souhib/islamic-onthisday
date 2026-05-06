@@ -65,10 +65,12 @@ class NotificationService {
   }
 
   /// Schedule (or reschedule) the daily notification at the given local
-  /// hour. Calling with `enabled: false` cancels any pending schedule.
+  /// hour and minute. Calling with `enabled: false` cancels any pending
+  /// schedule.
   Future<void> scheduleDaily({
     required bool enabled,
     required int hour,
+    required int minute,
     required String title,
     required String body,
   }) async {
@@ -77,7 +79,7 @@ class NotificationService {
     if (!enabled) return;
 
     final now = tz.TZDateTime.now(tz.local);
-    var first = tz.TZDateTime(tz.local, now.year, now.month, now.day, hour);
+    var first = tz.TZDateTime(tz.local, now.year, now.month, now.day, hour, minute);
     if (!first.isAfter(now)) {
       first = first.add(const Duration(days: 1));
     }

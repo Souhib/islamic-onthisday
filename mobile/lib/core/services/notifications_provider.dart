@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iotd_mobile/core/di/providers.dart';
 import 'package:iotd_mobile/core/notifications/notification_service.dart';
@@ -18,6 +19,7 @@ class NotificationsEnabledNotifier extends Notifier<bool> {
     await NotificationService.instance.scheduleDaily(
       enabled: value,
       hour: prefs.notificationHour,
+      minute: prefs.notificationMinute,
       title: title,
       body: body,
     );
@@ -29,19 +31,29 @@ final notificationsEnabledProvider =
   NotificationsEnabledNotifier.new,
 );
 
-/// Reactive notification hour (0–23). Reschedules when changed.
-class NotificationHourNotifier extends Notifier<int> {
+/// Reactive notification time-of-day (0-23h, 0-59min). Reschedules
+/// when changed.
+class NotificationTimeNotifier extends Notifier<TimeOfDay> {
   @override
-  int build() => ref.read(prefsServiceProvider).notificationHour;
-
-  Future<void> set(int hour, {required String title, required String body}) async {
+  TimeOfDay build() {
     final prefs = ref.read(prefsServiceProvider);
-    await prefs.setNotificationHour(hour);
-    state = hour;
+    return TimeOfDay(hour: prefs.notificationHour, minute: prefs.notificationMinute);
+  }
+
+  Future<void> set(
+    TimeOfDay time, {
+    required String title,
+    required String body,
+  }) async {
+    final prefs = ref.read(prefsServiceProvider);
+    await prefs.setNotificationHour(time.hour);
+    await prefs.setNotificationMinute(time.minute);
+    state = time;
     if (prefs.notificationsEnabled) {
       await NotificationService.instance.scheduleDaily(
         enabled: true,
-        hour: hour,
+        hour: time.hour,
+        minute: time.minute,
         title: title,
         body: body,
       );
@@ -49,5 +61,7 @@ class NotificationHourNotifier extends Notifier<int> {
   }
 }
 
-final notificationHourProvider =
-    NotifierProvider<NotificationHourNotifier, int>(NotificationHourNotifier.new);
+final notificationTimeProvider =
+    NotifierProvider<NotificationTimeNotifier, TimeOfDay>(
+  NotificationTimeNotifier.new,
+);

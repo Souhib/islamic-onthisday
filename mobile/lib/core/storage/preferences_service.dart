@@ -11,6 +11,7 @@ class PreferencesService {
   static const _kLocale = 'locale'; // 'en' | 'fr' | 'ar'
   static const _kNotificationsEnabled = 'notifications_enabled';
   static const _kNotificationHour = 'notification_hour'; // 0-23
+  static const _kNotificationMinute = 'notification_minute'; // 0-59
 
   final SharedPreferences _prefs;
 
@@ -39,4 +40,8 @@ class PreferencesService {
   int get notificationHour => _prefs.getInt(_kNotificationHour) ?? 8;
   Future<void> setNotificationHour(int hour) =>
       _prefs.setInt(_kNotificationHour, hour);
+
+  int get notificationMinute => _prefs.getInt(_kNotificationMinute) ?? 0;
+  Future<void> setNotificationMinute(int minute) =>
+      _prefs.setInt(_kNotificationMinute, minute);
 }
