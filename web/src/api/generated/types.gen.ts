@@ -1368,6 +1368,37 @@ export type RefreshApiV1AuthRefreshPostResponses = {
 
 export type RefreshApiV1AuthRefreshPostResponse = RefreshApiV1AuthRefreshPostResponses[keyof RefreshApiV1AuthRefreshPostResponses];
 
+export type DeleteAccountApiV1AuthMeDeleteData = {
+    body?: never;
+    headers?: {
+        /**
+         * Authorization
+         */
+        Authorization?: string | null;
+    };
+    path?: never;
+    query?: never;
+    url: '/api/v1/auth/me';
+};
+
+export type DeleteAccountApiV1AuthMeDeleteErrors = {
+    /**
+     * Validation Error
+     */
+    422: HttpValidationError;
+};
+
+export type DeleteAccountApiV1AuthMeDeleteError = DeleteAccountApiV1AuthMeDeleteErrors[keyof DeleteAccountApiV1AuthMeDeleteErrors];
+
+export type DeleteAccountApiV1AuthMeDeleteResponses = {
+    /**
+     * Successful Response
+     */
+    204: void;
+};
+
+export type DeleteAccountApiV1AuthMeDeleteResponse = DeleteAccountApiV1AuthMeDeleteResponses[keyof DeleteAccountApiV1AuthMeDeleteResponses];
+
 export type MeApiV1AuthMeGetData = {
     body?: never;
     headers?: {

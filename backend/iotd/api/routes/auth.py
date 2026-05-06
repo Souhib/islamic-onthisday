@@ -2,7 +2,7 @@
 
 from typing import Annotated
 
-from fastapi import APIRouter, Depends, status
+from fastapi import APIRouter, Depends, Request, status
 from fastapi.responses import Response
 
 from iotd.api.cache import NO_STORE
@@ -10,6 +10,7 @@ from iotd.api.controllers.account import AccountController
 from iotd.api.controllers.auth import AuthController
 from iotd.api.controllers.email_verification import EmailVerificationController
 from iotd.api.controllers.password_reset import PasswordResetController
+from iotd.api.rate_limit import AUTH_MAILER_LIMIT, AUTH_TIGHT_LIMIT, limiter
 from iotd.api.schemas.auth import (
     ChangeDisplayNameRequest,
     ChangeEmailConfirm,
@@ -45,7 +46,9 @@ router = APIRouter(prefix="/auth", tags=["auth"])
     summary="Create a new account and receive a token pair",
     dependencies=[NO_STORE],
 )
+@limiter.limit(AUTH_TIGHT_LIMIT)
 async def signup(
+    request: Request,  # noqa: ARG001  (consumed by slowapi.limiter decorator)
     body: SignupRequest,
     controller: Annotated[AuthController, Depends(get_auth_controller)],
 ) -> TokenPair:
@@ -59,7 +62,9 @@ async def signup(
     summary="Exchange email + password for a token pair",
     dependencies=[NO_STORE],
 )
+@limiter.limit(AUTH_TIGHT_LIMIT)
 async def login(
+    request: Request,  # noqa: ARG001
     body: LoginRequest,
     controller: Annotated[AuthController, Depends(get_auth_controller)],
 ) -> TokenPair:
@@ -97,7 +102,9 @@ async def me(user: Annotated[User, Depends(get_current_user)]) -> UserPublic:
     summary="Send a password-reset email if the address is registered",
     dependencies=[NO_STORE],
 )
+@limiter.limit(AUTH_MAILER_LIMIT)
 async def request_password_reset(
+    request: Request,  # noqa: ARG001
     body: PasswordResetRequest,
     controller: Annotated[PasswordResetController, Depends(get_password_reset_controller)],
 ) -> Response:
@@ -141,7 +148,9 @@ async def verify_email(
     summary="Re-send the verification email if the address is registered",
     dependencies=[NO_STORE],
 )
+@limiter.limit(AUTH_MAILER_LIMIT)
 async def resend_verification_email(
+    request: Request,  # noqa: ARG001
     body: EmailVerifyResend,
     controller: Annotated[EmailVerificationController, Depends(get_email_verification_controller)],
 ) -> Response:
@@ -212,3 +221,24 @@ async def confirm_email_change(
 ) -> UserPublic:
     updated = await controller.confirm_email_change(body)
     return UserPublic.model_validate(updated)
+
+
+@router.delete(
+    "/me",
+    status_code=status.HTTP_204_NO_CONTENT,
+    summary="Permanently delete the authenticated user's account",
+    dependencies=[NO_STORE],
+)
+async def delete_account(
+    user: Annotated[User, Depends(get_current_user)],
+    controller: Annotated[AccountController, Depends(get_account_controller)],
+) -> Response:
+    """Permanently delete the authenticated user.
+
+    Cascades the user's bookmarks + every one-time-token row in a single
+    transaction. Idempotent — a re-tried delete on a token whose user is
+    already gone resolves to a no-op via the existing 401-on-missing-user
+    flow.
+    """
+    await controller.delete_account(user)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)

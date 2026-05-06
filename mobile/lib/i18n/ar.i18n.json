@@ -54,6 +54,10 @@
     "offline": "يبدو أنّك غير متّصل.",
     "not_found": "غير موجود."
   },
+  "bookmarks": {
+    "title": "المحفوظات",
+    "empty": "لم يُحفَظ شيء بعد. اضغط «حفظ» على مدخل لإبقائه."
+  },
   "event": {
     "sources": "المصادر",
     "people": "الشخصيات",
@@ -136,6 +140,11 @@
     "password": "كلمة المرور",
     "display_name": "الاسم المعروض",
     "no_account_cta": "ليس لديك حساب؟ أنشئ حسابًا",
-    "have_account_cta": "لديك حساب بالفعل؟ سجّل الدخول"
+    "have_account_cta": "لديك حساب بالفعل؟ سجّل الدخول",
+    "delete_account_cta": "حذف الحساب",
+    "delete_account_title": "حذف الحساب؟",
+    "delete_account_warning": "هذا الإجراء يحذف حسابك وجميع المحفوظات بشكل دائم ولا يمكن التراجع عنه.",
+    "delete_account_cancel": "إلغاء",
+    "delete_account_confirm": "احذف نهائيًا"
   }
 }

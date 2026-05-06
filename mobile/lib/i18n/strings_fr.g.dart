@@ -45,6 +45,7 @@ class TranslationsFr with BaseTranslations<AppLocale, Translations> implements T
 	@override late final _TranslationsNavFr nav = _TranslationsNavFr._(_root);
 	@override late final _TranslationsSettingsFr settings = _TranslationsSettingsFr._(_root);
 	@override late final _TranslationsErrorsFr errors = _TranslationsErrorsFr._(_root);
+	@override late final _TranslationsBookmarksFr bookmarks = _TranslationsBookmarksFr._(_root);
 	@override late final _TranslationsEventFr event = _TranslationsEventFr._(_root);
 	@override late final _TranslationsPersonFr person = _TranslationsPersonFr._(_root);
 	@override late final _TranslationsAboutFr about = _TranslationsAboutFr._(_root);
@@ -162,6 +163,17 @@ class _TranslationsErrorsFr implements TranslationsErrorsEn {
 	@override String get not_found => 'Introuvable.';
 }
 
+// Path: bookmarks
+class _TranslationsBookmarksFr implements TranslationsBookmarksEn {
+	_TranslationsBookmarksFr._(this._root);
+
+	final TranslationsFr _root; // ignore: unused_field
+
+	// Translations
+	@override String get title => 'Enregistrés';
+	@override String get empty => 'Rien d\'enregistré pour l\'instant. Tapez « enregistrer » sur une entrée pour la garder.';
+}
+
 // Path: event
 class _TranslationsEventFr implements TranslationsEventEn {
 	_TranslationsEventFr._(this._root);
@@ -272,6 +284,11 @@ class _TranslationsAuthFr implements TranslationsAuthEn {
 	@override String get display_name => 'Nom affiché';
 	@override String get no_account_cta => 'Pas de compte ? En créer un';
 	@override String get have_account_cta => 'Déjà un compte ? Se connecter';
+	@override String get delete_account_cta => 'Supprimer le compte';
+	@override String get delete_account_title => 'Supprimer le compte ?';
+	@override String get delete_account_warning => 'Cette action supprime définitivement votre compte et tous les bookmarks enregistrés. Elle est irréversible.';
+	@override String get delete_account_cancel => 'Annuler';
+	@override String get delete_account_confirm => 'Supprimer définitivement';
 }
 
 /// The flat map containing all translations for locale <fr>.
@@ -321,6 +338,8 @@ extension on TranslationsFr {
 			'errors.generic' => 'Une erreur est survenue.',
 			'errors.offline' => 'Vous semblez hors ligne.',
 			'errors.not_found' => 'Introuvable.',
+			'bookmarks.title' => 'Enregistrés',
+			'bookmarks.empty' => 'Rien d\'enregistré pour l\'instant. Tapez « enregistrer » sur une entrée pour la garder.',
 			'event.sources' => 'Sources',
 			'event.people' => 'Personnes',
 			'event.source_classical' => 'classique',
@@ -397,6 +416,11 @@ extension on TranslationsFr {
 			'auth.display_name' => 'Nom affiché',
 			'auth.no_account_cta' => 'Pas de compte ? En créer un',
 			'auth.have_account_cta' => 'Déjà un compte ? Se connecter',
+			'auth.delete_account_cta' => 'Supprimer le compte',
+			'auth.delete_account_title' => 'Supprimer le compte ?',
+			'auth.delete_account_warning' => 'Cette action supprime définitivement votre compte et tous les bookmarks enregistrés. Elle est irréversible.',
+			'auth.delete_account_cancel' => 'Annuler',
+			'auth.delete_account_confirm' => 'Supprimer définitivement',
 			_ => null,
 		};
 	}

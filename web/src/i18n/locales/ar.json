@@ -211,7 +211,12 @@
       "invalid_reset_token": "رابط إعادة التعيين لم يَعُد صالحاً. اطلب رابطاً جديداً.",
       "invalid_verification_token": "رابط التأكيد لم يَعُد صالحاً. اطلب رابطاً جديداً.",
       "generic": "تعذَّر إكمال الطلب. حاول مرة أخرى."
-    }
+    },
+    "delete_account_title": "حذف الحساب",
+    "delete_account_warning": "هذا الإجراء يحذف حسابك وجميع المحفوظات بشكل دائم ولا يمكن التراجع عنه.",
+    "delete_account_cta": "حذف الحساب",
+    "delete_account_confirm": "نعم، احذف نهائيًا",
+    "delete_account_cancel": "إلغاء"
   },
   "about": {
     "nav_label": "حولنا",

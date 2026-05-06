@@ -45,6 +45,7 @@ class TranslationsAr with BaseTranslations<AppLocale, Translations> implements T
 	@override late final _TranslationsNavAr nav = _TranslationsNavAr._(_root);
 	@override late final _TranslationsSettingsAr settings = _TranslationsSettingsAr._(_root);
 	@override late final _TranslationsErrorsAr errors = _TranslationsErrorsAr._(_root);
+	@override late final _TranslationsBookmarksAr bookmarks = _TranslationsBookmarksAr._(_root);
 	@override late final _TranslationsEventAr event = _TranslationsEventAr._(_root);
 	@override late final _TranslationsPersonAr person = _TranslationsPersonAr._(_root);
 	@override late final _TranslationsAboutAr about = _TranslationsAboutAr._(_root);
@@ -162,6 +163,17 @@ class _TranslationsErrorsAr implements TranslationsErrorsEn {
 	@override String get not_found => 'غير موجود.';
 }
 
+// Path: bookmarks
+class _TranslationsBookmarksAr implements TranslationsBookmarksEn {
+	_TranslationsBookmarksAr._(this._root);
+
+	final TranslationsAr _root; // ignore: unused_field
+
+	// Translations
+	@override String get title => 'المحفوظات';
+	@override String get empty => 'لم يُحفَظ شيء بعد. اضغط «حفظ» على مدخل لإبقائه.';
+}
+
 // Path: event
 class _TranslationsEventAr implements TranslationsEventEn {
 	_TranslationsEventAr._(this._root);
@@ -272,6 +284,11 @@ class _TranslationsAuthAr implements TranslationsAuthEn {
 	@override String get display_name => 'الاسم المعروض';
 	@override String get no_account_cta => 'ليس لديك حساب؟ أنشئ حسابًا';
 	@override String get have_account_cta => 'لديك حساب بالفعل؟ سجّل الدخول';
+	@override String get delete_account_cta => 'حذف الحساب';
+	@override String get delete_account_title => 'حذف الحساب؟';
+	@override String get delete_account_warning => 'هذا الإجراء يحذف حسابك وجميع المحفوظات بشكل دائم ولا يمكن التراجع عنه.';
+	@override String get delete_account_cancel => 'إلغاء';
+	@override String get delete_account_confirm => 'احذف نهائيًا';
 }
 
 /// The flat map containing all translations for locale <ar>.
@@ -321,6 +338,8 @@ extension on TranslationsAr {
 			'errors.generic' => 'حدث خطأ ما.',
 			'errors.offline' => 'يبدو أنّك غير متّصل.',
 			'errors.not_found' => 'غير موجود.',
+			'bookmarks.title' => 'المحفوظات',
+			'bookmarks.empty' => 'لم يُحفَظ شيء بعد. اضغط «حفظ» على مدخل لإبقائه.',
 			'event.sources' => 'المصادر',
 			'event.people' => 'الشخصيات',
 			'event.source_classical' => 'كلاسيكي',
@@ -397,6 +416,11 @@ extension on TranslationsAr {
 			'auth.display_name' => 'الاسم المعروض',
 			'auth.no_account_cta' => 'ليس لديك حساب؟ أنشئ حسابًا',
 			'auth.have_account_cta' => 'لديك حساب بالفعل؟ سجّل الدخول',
+			'auth.delete_account_cta' => 'حذف الحساب',
+			'auth.delete_account_title' => 'حذف الحساب؟',
+			'auth.delete_account_warning' => 'هذا الإجراء يحذف حسابك وجميع المحفوظات بشكل دائم ولا يمكن التراجع عنه.',
+			'auth.delete_account_cancel' => 'إلغاء',
+			'auth.delete_account_confirm' => 'احذف نهائيًا',
 			_ => null,
 		};
 	}

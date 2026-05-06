@@ -56,6 +56,19 @@ abstract class AuthClient {
     @Header('Authorization') String? authorization,
   });
 
+  /// Permanently delete the authenticated user's account.
+  ///
+  /// Permanently delete the authenticated user.
+  ///
+  /// Cascades the user's bookmarks + every one-time-token row in a single.
+  /// transaction. Idempotent — a re-tried delete on a token whose user is.
+  /// already gone resolves to a no-op via the existing 401-on-missing-user.
+  /// flow.
+  @DELETE('/api/v1/auth/me')
+  Future<void> deleteAccountApiV1AuthMeDelete({
+    @Header('Authorization') String? authorization,
+  });
+
   /// Send a password-reset email if the address is registered
   @POST('/api/v1/auth/password-reset/request')
   Future<void> requestPasswordResetApiV1AuthPasswordResetRequestPost({

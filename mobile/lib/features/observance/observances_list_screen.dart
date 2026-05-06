@@ -37,16 +37,19 @@ class ObservancesListScreen extends ConsumerWidget {
               style: IotdTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
             ),
           ),
-          data: (items) => ListView(
-            padding: const EdgeInsets.fromLTRB(0, 16, 0, 60),
-            children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 28),
-                child: Eyebrow(i18n.nav.observances, color: EyebrowColor.accent),
-              ),
-              const SizedBox(height: 12),
-              for (final o in (items.toList()..sort(_byDate))) _Row(observance: o),
-            ],
+          data: (items) => RefreshIndicator(
+            onRefresh: () async => ref.invalidate(observancesListProvider),
+            child: ListView(
+              padding: const EdgeInsets.fromLTRB(0, 16, 0, 60),
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 28),
+                  child: Eyebrow(i18n.nav.observances, color: EyebrowColor.accent),
+                ),
+                const SizedBox(height: 12),
+                for (final o in (items.toList()..sort(_byDate))) _Row(observance: o),
+              ],
+            ),
           ),
         ),
       ),

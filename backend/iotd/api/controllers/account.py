@@ -1,9 +1,9 @@
-"""Account self-management — display name, password, email."""
+"""Account self-management — display name, password, email, deletion."""
 
 import secrets
 from datetime import UTC, datetime, timedelta
 
-from sqlalchemy import select
+from sqlalchemy import delete, select
 from sqlalchemy.exc import IntegrityError
 from sqlmodel.ext.asyncio.session import AsyncSession
 
@@ -25,7 +25,13 @@ from iotd.api.services.email_templates import (
     email_change_verify_email,
     password_changed_email,
 )
-from iotd.models.user import EmailChangeToken, User
+from iotd.models.user import (
+    Bookmark,
+    EmailChangeToken,
+    EmailVerificationToken,
+    PasswordResetToken,
+    User,
+)
 from iotd.settings import Settings
 
 
@@ -150,3 +156,27 @@ class AccountController:
             raise EmailAlreadyRegisteredError(record.new_email) from e
         await self.session.refresh(user)
         return user
+
+    async def delete_account(self, user: User) -> None:
+        """Permanent account deletion with FK cascade.
+
+        Cascades through every per-user table in the right FK order so
+        we never leave orphaned bookmarks or one-time tokens behind:
+
+          bookmarks → email_change_tokens → email_verification_tokens
+          → password_reset_tokens → users
+
+        Idempotent — calling on an already-deleted user is a no-op.
+        """
+        await self.session.exec(delete(Bookmark).where(Bookmark.user_id == user.id))
+        await self.session.exec(
+            delete(EmailChangeToken).where(EmailChangeToken.user_id == user.id),
+        )
+        await self.session.exec(
+            delete(EmailVerificationToken).where(EmailVerificationToken.user_id == user.id),
+        )
+        await self.session.exec(
+            delete(PasswordResetToken).where(PasswordResetToken.user_id == user.id),
+        )
+        await self.session.delete(user)
+        await self.session.commit()

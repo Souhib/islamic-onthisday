@@ -54,6 +54,10 @@
     "offline": "Vous semblez hors ligne.",
     "not_found": "Introuvable."
   },
+  "bookmarks": {
+    "title": "Enregistrés",
+    "empty": "Rien d'enregistré pour l'instant. Tapez « enregistrer » sur une entrée pour la garder."
+  },
   "event": {
     "sources": "Sources",
     "people": "Personnes",
@@ -136,6 +140,11 @@
     "password": "Mot de passe",
     "display_name": "Nom affiché",
     "no_account_cta": "Pas de compte ? En créer un",
-    "have_account_cta": "Déjà un compte ? Se connecter"
+    "have_account_cta": "Déjà un compte ? Se connecter",
+    "delete_account_cta": "Supprimer le compte",
+    "delete_account_title": "Supprimer le compte ?",
+    "delete_account_warning": "Cette action supprime définitivement votre compte et tous les bookmarks enregistrés. Elle est irréversible.",
+    "delete_account_cancel": "Annuler",
+    "delete_account_confirm": "Supprimer définitivement"
   }
 }

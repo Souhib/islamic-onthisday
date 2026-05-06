@@ -48,6 +48,7 @@ class Translations with BaseTranslations<AppLocale, Translations> {
 	late final TranslationsNavEn nav = TranslationsNavEn._(_root);
 	late final TranslationsSettingsEn settings = TranslationsSettingsEn._(_root);
 	late final TranslationsErrorsEn errors = TranslationsErrorsEn._(_root);
+	late final TranslationsBookmarksEn bookmarks = TranslationsBookmarksEn._(_root);
 	late final TranslationsEventEn event = TranslationsEventEn._(_root);
 	late final TranslationsPersonEn person = TranslationsPersonEn._(_root);
 	late final TranslationsAboutEn about = TranslationsAboutEn._(_root);
@@ -241,6 +242,21 @@ class TranslationsErrorsEn {
 
 	/// en: 'Not found.'
 	String get not_found => 'Not found.';
+}
+
+// Path: bookmarks
+class TranslationsBookmarksEn {
+	TranslationsBookmarksEn._(this._root);
+
+	final Translations _root; // ignore: unused_field
+
+	// Translations
+
+	/// en: 'Saved'
+	String get title => 'Saved';
+
+	/// en: 'Nothing saved yet. Tap save on an entry to keep it for later.'
+	String get empty => 'Nothing saved yet. Tap save on an entry to keep it for later.';
 }
 
 // Path: event
@@ -505,6 +521,21 @@ class TranslationsAuthEn {
 
 	/// en: 'Already have an account? Sign in'
 	String get have_account_cta => 'Already have an account? Sign in';
+
+	/// en: 'Delete account'
+	String get delete_account_cta => 'Delete account';
+
+	/// en: 'Delete account?'
+	String get delete_account_title => 'Delete account?';
+
+	/// en: 'This permanently removes your account and every saved bookmark. The action cannot be undone.'
+	String get delete_account_warning => 'This permanently removes your account and every saved bookmark. The action cannot be undone.';
+
+	/// en: 'Cancel'
+	String get delete_account_cancel => 'Cancel';
+
+	/// en: 'Delete forever'
+	String get delete_account_confirm => 'Delete forever';
 }
 
 /// The flat map containing all translations for locale <en>.
@@ -554,6 +585,8 @@ extension on Translations {
 			'errors.generic' => 'Something went wrong.',
 			'errors.offline' => 'You appear to be offline.',
 			'errors.not_found' => 'Not found.',
+			'bookmarks.title' => 'Saved',
+			'bookmarks.empty' => 'Nothing saved yet. Tap save on an entry to keep it for later.',
 			'event.sources' => 'Sources',
 			'event.people' => 'People',
 			'event.source_classical' => 'classical',
@@ -630,6 +663,11 @@ extension on Translations {
 			'auth.display_name' => 'Display name',
 			'auth.no_account_cta' => 'No account? Create one',
 			'auth.have_account_cta' => 'Already have an account? Sign in',
+			'auth.delete_account_cta' => 'Delete account',
+			'auth.delete_account_title' => 'Delete account?',
+			'auth.delete_account_warning' => 'This permanently removes your account and every saved bookmark. The action cannot be undone.',
+			'auth.delete_account_cancel' => 'Cancel',
+			'auth.delete_account_confirm' => 'Delete forever',
 			_ => null,
 		};
 	}

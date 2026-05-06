@@ -5,6 +5,7 @@ import { ApiError, unwrap } from "@/api/errors";
 import {
   changeDisplayNameApiV1AuthMePatch,
   changePasswordApiV1AuthMePasswordPost,
+  deleteAccountApiV1AuthMeDelete,
   requestEmailChangeApiV1AuthMeEmailPost,
 } from "@/api/generated/sdk.gen";
 import { useAuth } from "@/auth/AuthProvider";
@@ -229,6 +230,71 @@ function EmailSection() {
   );
 }
 
+function DeleteSection() {
+  const { t } = useTranslation();
+  const { logout } = useAuth();
+  const navigate = useNavigate();
+  const [confirming, setConfirming] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  async function handleDelete() {
+    setSubmitting(true);
+    setError(null);
+    try {
+      const result = await deleteAccountApiV1AuthMeDelete();
+      if (result.error !== undefined) {
+        throw new ApiError(result.error as never, result.response?.status ?? 0);
+      }
+      logout();
+      void navigate({ to: "/", replace: true });
+    } catch (err) {
+      setError(pickError(err, t));
+      setSubmitting(false);
+    }
+  }
+
+  return (
+    <section className={sectionClass}>
+      <Eyebrow color="warn">· {t("auth.delete_account_title")} ·</Eyebrow>
+      <p className="mt-3 font-serif text-[15px] leading-[1.55] text-ink-soft italic">
+        {t("auth.delete_account_warning")}
+      </p>
+      {!confirming ? (
+        <button
+          type="button"
+          onClick={() => setConfirming(true)}
+          className="mt-4 cursor-pointer border border-warn px-4 py-2.5 font-mono text-[11.5px] uppercase tracking-[2px] text-warn transition-colors hover:bg-warn-bg"
+        >
+          {t("auth.delete_account_cta")}
+        </button>
+      ) : (
+        <div className="mt-4 flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={handleDelete}
+            disabled={submitting}
+            className="cursor-pointer border border-warn bg-warn px-4 py-2.5 font-mono text-[11.5px] uppercase tracking-[2px] text-paper transition-opacity hover:opacity-90 disabled:cursor-wait disabled:opacity-50"
+          >
+            {t("auth.delete_account_confirm")}
+          </button>
+          <button
+            type="button"
+            onClick={() => setConfirming(false)}
+            disabled={submitting}
+            className="cursor-pointer border border-rule px-4 py-2.5 font-mono text-[11.5px] uppercase tracking-[2px] text-ink-soft hover:border-ink"
+          >
+            {t("auth.delete_account_cancel")}
+          </button>
+        </div>
+      )}
+      {error && (
+        <p className="mt-3 font-serif text-[14px] italic text-warn">{error}</p>
+      )}
+    </section>
+  );
+}
+
 function AccountPage() {
   const { t } = useTranslation();
   const { isRTL } = useLanguage();
@@ -265,6 +331,7 @@ function AccountPage() {
           <DisplayNameSection />
           <EmailSection />
           <PasswordSection />
+          <DeleteSection />
         </div>
 
         <p className="mt-7 text-center font-mono text-[11.5px] uppercase tracking-[1.4px] text-ink-soft">

@@ -5,6 +5,7 @@ import 'package:iotd_mobile/core/di/providers.dart';
 import 'package:iotd_mobile/features/about/about_screen.dart';
 import 'package:iotd_mobile/features/auth/sign_in_screen.dart';
 import 'package:iotd_mobile/features/auth/sign_up_screen.dart';
+import 'package:iotd_mobile/features/bookmarks/bookmarks_list_screen.dart';
 import 'package:iotd_mobile/features/event/event_detail_screen.dart';
 import 'package:iotd_mobile/features/lesson/lesson_detail_screen.dart';
 import 'package:iotd_mobile/features/observance/observance_detail_screen.dart';
@@ -34,6 +35,7 @@ class AppRoutes {
   static const observance = '/observance';
   static const observances = '/observances';
   static const about = '/about';
+  static const bookmarks = '/bookmarks';
   static const signIn = '/sign-in';
   static const signUp = '/sign-up';
 }
@@ -98,6 +100,10 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: AppRoutes.about,
         builder: (context, state) => const AboutScreen(),
+      ),
+      GoRoute(
+        path: AppRoutes.bookmarks,
+        builder: (context, state) => const BookmarksListScreen(),
       ),
       GoRoute(
         path: AppRoutes.signIn,

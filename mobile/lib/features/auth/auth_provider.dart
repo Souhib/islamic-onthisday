@@ -76,6 +76,12 @@ class AuthNotifier extends AsyncNotifier<AuthState> {
     state = const AsyncValue.data(AuthSignedOut());
   }
 
+  Future<void> deleteAccount() async {
+    await ref.read(iotdClientProvider).auth.deleteAccountApiV1AuthMeDelete();
+    await ref.read(secureStorageProvider).clear();
+    state = const AsyncValue.data(AuthSignedOut());
+  }
+
   Future<void> _persist(TokenPair pair) async {
     await ref.read(secureStorageProvider).writeTokens(
           access: pair.accessToken,

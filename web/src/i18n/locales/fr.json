@@ -211,7 +211,12 @@
       "invalid_reset_token": "Ce lien de réinitialisation n'est plus valide. Demandez-en un nouveau.",
       "invalid_verification_token": "Ce lien de vérification n'est plus valide. Demandez-en un nouveau.",
       "generic": "La requête n'a pas pu aboutir. Veuillez réessayer."
-    }
+    },
+    "delete_account_title": "Supprimer le compte",
+    "delete_account_warning": "Cette action supprime définitivement votre compte et tous les bookmarks enregistrés. Elle est irréversible.",
+    "delete_account_cta": "Supprimer le compte",
+    "delete_account_confirm": "Oui, supprimer définitivement",
+    "delete_account_cancel": "Annuler"
   },
   "about": {
     "nav_label": "À propos",

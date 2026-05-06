@@ -211,7 +211,12 @@
       "invalid_reset_token": "That reset link is no longer valid. Please request a new one.",
       "invalid_verification_token": "That verification link is no longer valid. Please request a new one.",
       "generic": "Couldn't complete the request. Please try again."
-    }
+    },
+    "delete_account_title": "Delete account",
+    "delete_account_warning": "This permanently removes your account and every saved bookmark. The action cannot be undone.",
+    "delete_account_cta": "Delete account",
+    "delete_account_confirm": "Yes, delete forever",
+    "delete_account_cancel": "Cancel"
   },
   "about": {
     "nav_label": "About",
