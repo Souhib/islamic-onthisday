@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { FriezeRule } from "@/components/design";
 import { pickLocalised, useLanguage } from "@/providers/LanguageProvider";
 import type { EventSummary, LessonSummary } from "@/api/generated/types.gen";
+import { formatGregorianDDMMYYYY } from "@/lib/dates";
 import { reorderRefsQuranFirst } from "@/lib/refs";
 
 // Break a freeform reference string into one piece per line, Qur'an-first.
@@ -108,7 +109,7 @@ export function TodayBottomSection({ items, onPick }: Props) {
                   {hijri && <span className="font-serif text-[16px] italic text-ink">{hijri}</span>}
                   {eventDate && (
                     <span className="font-mono text-[14px] tracking-[0.6px] text-ink-mute">
-                      {eventDate}
+                      {formatGregorianDDMMYYYY(eventDate)}
                     </span>
                   )}
                 </div>
