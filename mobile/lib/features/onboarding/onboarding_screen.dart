@@ -82,6 +82,7 @@ class OnboardingScreen extends ConsumerWidget {
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
+                  key: const ValueKey('onboarding_begin_button'),
                   onPressed: () async {
                     await ref
                         .read<OnboardingNotifier>(onboardingProvider.notifier)
