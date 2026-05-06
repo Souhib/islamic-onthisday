@@ -1,0 +1,54 @@
+{
+  "app": {
+    "name": "الإسلام في هذا اليوم",
+    "tagline": "السجل الكلاسيكي. يومًا بعد يوم."
+  },
+  "onboarding": {
+    "eyebrow": "في زماننا",
+    "headline": "السجل الكلاسيكي،\nيومًا بعد يوم.",
+    "subhead": "أحداث موثّقة من قوس التاريخ الإسلامي الممتد لأربعة عشر قرنًا. كلّ مدخل متجذّر في المصادر الكلاسيكية، وكلّ تاريخ متنازع عليه محفوظ.",
+    "begin": "ابدأ"
+  },
+  "today": {
+    "title": "اليوم",
+    "loading": "جارٍ التحميل",
+    "load_failed": "تعذّر تحميل اليوم.",
+    "more_reading": "قراءات إضافية لهذا اليوم",
+    "introduction": "مقدّمة",
+    "the_reading": "القراءة",
+    "end_of_reading": "نهاية قراءة اليوم"
+  },
+  "verification": {
+    "scholar_reviewed": "مراجَعة علمية",
+    "cross_verified": "متحقَّق منها بمصادر متعددة",
+    "single_source": "مصدر واحد",
+    "unverified": "غير محقَّق"
+  },
+  "dispute": {
+    "date": "تاريخ متنازع عليه",
+    "detail": "تفصيل متنازع عليه",
+    "interpretation": "تفسير متنازع عليه"
+  },
+  "nav": {
+    "today": "اليوم",
+    "recent": "الأحدث",
+    "observances": "الأيام المباركة",
+    "settings": "الإعدادات"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "appearance": "المظهر",
+    "theme_light": "فاتح",
+    "theme_dark": "داكن",
+    "theme_system": "النظام",
+    "language": "اللغة",
+    "notifications": "إشعار يومي",
+    "notification_time": "وقت الإشعار",
+    "about": "حول"
+  },
+  "errors": {
+    "generic": "حدث خطأ ما.",
+    "offline": "يبدو أنّك غير متّصل.",
+    "not_found": "غير موجود."
+  }
+}

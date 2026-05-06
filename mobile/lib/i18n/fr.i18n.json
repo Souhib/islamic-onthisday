@@ -1,0 +1,54 @@
+{
+  "app": {
+    "name": "Islam Aujourd'hui dans l'Histoire",
+    "tagline": "Le corpus classique. Jour après jour."
+  },
+  "onboarding": {
+    "eyebrow": "À notre époque",
+    "headline": "Le corpus classique,\njour après jour.",
+    "subhead": "Des événements vérifiés sur les 1 400 ans de l'histoire de l'islam. Chaque entrée enracinée dans les sources classiques, chaque date contestée préservée.",
+    "begin": "Commencer"
+  },
+  "today": {
+    "title": "Aujourd'hui",
+    "loading": "chargement",
+    "load_failed": "Impossible de charger aujourd'hui.",
+    "more_reading": "Plus de lectures pour aujourd'hui",
+    "introduction": "Introduction",
+    "the_reading": "La lecture",
+    "end_of_reading": "Fin de la lecture du jour"
+  },
+  "verification": {
+    "scholar_reviewed": "validé par un savant",
+    "cross_verified": "vérifié par recoupement",
+    "single_source": "une seule source",
+    "unverified": "non vérifié"
+  },
+  "dispute": {
+    "date": "date contestée",
+    "detail": "détail contesté",
+    "interpretation": "interprétation contestée"
+  },
+  "nav": {
+    "today": "Aujourd'hui",
+    "recent": "Récents",
+    "observances": "Jours sacrés",
+    "settings": "Paramètres"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "appearance": "Apparence",
+    "theme_light": "Clair",
+    "theme_dark": "Sombre",
+    "theme_system": "Système",
+    "language": "Langue",
+    "notifications": "Notification quotidienne",
+    "notification_time": "Heure de notification",
+    "about": "À propos"
+  },
+  "errors": {
+    "generic": "Une erreur est survenue.",
+    "offline": "Vous semblez hors ligne.",
+    "not_found": "Introuvable."
+  }
+}
