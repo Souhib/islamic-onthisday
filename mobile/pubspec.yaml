@@ -1,7 +1,7 @@
 name: iotd_mobile
 description: "Islamic On This Day — one verified historical event from Islamic history per day."
 publish_to: 'none'
-version: 0.1.0+1
+version: 1.0.0+1
 
 environment:
   sdk: '>=3.8.0 <4.0.0'
