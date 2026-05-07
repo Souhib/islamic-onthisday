@@ -14,7 +14,15 @@ export function Masthead({ today }: Props) {
   const { t } = useTranslation();
   const { theme, toggle } = useTheme();
   const dark = theme === "dark";
-  const dateLine = `· ${today.gregorian.weekday} · ${today.hijri.day} ${today.hijri.month} ${today.hijri.year} ah ·`;
+  // The backend ships ``weekday`` as a capitalised English string
+  // ("Thursday"). Lowercase + translate so the masthead reads ``jeudi``
+  // in FR, ``الخميس`` in AR, while keeping the API contract stable.
+  // ``defaultValue`` covers the rare case the API returns a value we
+  // don't have a key for (e.g. a future locale shift).
+  const weekday = t(today.gregorian.weekday.toLowerCase(), {
+    defaultValue: today.gregorian.weekday,
+  });
+  const dateLine = `· ${weekday} · ${today.hijri.day} ${today.hijri.month} ${today.hijri.year} ah ·`;
 
   return (
     <header className="border-b border-rule px-[clamp(20px,4vw,56px)] pt-4 pb-3 sm:pt-[26px] sm:pb-[18px]">
