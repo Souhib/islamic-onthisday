@@ -16,7 +16,6 @@ import { Route as SavesRouteImport } from './routes/saves'
 import { Route as ResetPasswordRouteImport } from './routes/reset-password'
 import { Route as RecentRouteImport } from './routes/recent'
 import { Route as ForgotPasswordRouteImport } from './routes/forgot-password'
-import { Route as DevCrashRouteImport } from './routes/dev-crash'
 import { Route as ConfirmEmailChangeRouteImport } from './routes/confirm-email-change'
 import { Route as AccountRouteImport } from './routes/account'
 import { Route as AboutRouteImport } from './routes/about'
@@ -60,11 +59,6 @@ const RecentRoute = RecentRouteImport.update({
 const ForgotPasswordRoute = ForgotPasswordRouteImport.update({
   id: '/forgot-password',
   path: '/forgot-password',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DevCrashRoute = DevCrashRouteImport.update({
-  id: '/dev-crash',
-  path: '/dev-crash',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ConfirmEmailChangeRoute = ConfirmEmailChangeRouteImport.update({
@@ -118,7 +112,6 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
   '/confirm-email-change': typeof ConfirmEmailChangeRoute
-  '/dev-crash': typeof DevCrashRoute
   '/forgot-password': typeof ForgotPasswordRoute
   '/recent': typeof RecentRoute
   '/reset-password': typeof ResetPasswordRoute
@@ -137,7 +130,6 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
   '/confirm-email-change': typeof ConfirmEmailChangeRoute
-  '/dev-crash': typeof DevCrashRoute
   '/forgot-password': typeof ForgotPasswordRoute
   '/recent': typeof RecentRoute
   '/reset-password': typeof ResetPasswordRoute
@@ -157,7 +149,6 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/account': typeof AccountRoute
   '/confirm-email-change': typeof ConfirmEmailChangeRoute
-  '/dev-crash': typeof DevCrashRoute
   '/forgot-password': typeof ForgotPasswordRoute
   '/recent': typeof RecentRoute
   '/reset-password': typeof ResetPasswordRoute
@@ -178,7 +169,6 @@ export interface FileRouteTypes {
     | '/about'
     | '/account'
     | '/confirm-email-change'
-    | '/dev-crash'
     | '/forgot-password'
     | '/recent'
     | '/reset-password'
@@ -197,7 +187,6 @@ export interface FileRouteTypes {
     | '/about'
     | '/account'
     | '/confirm-email-change'
-    | '/dev-crash'
     | '/forgot-password'
     | '/recent'
     | '/reset-password'
@@ -216,7 +205,6 @@ export interface FileRouteTypes {
     | '/about'
     | '/account'
     | '/confirm-email-change'
-    | '/dev-crash'
     | '/forgot-password'
     | '/recent'
     | '/reset-password'
@@ -236,7 +224,6 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   AccountRoute: typeof AccountRoute
   ConfirmEmailChangeRoute: typeof ConfirmEmailChangeRoute
-  DevCrashRoute: typeof DevCrashRoute
   ForgotPasswordRoute: typeof ForgotPasswordRoute
   RecentRoute: typeof RecentRoute
   ResetPasswordRoute: typeof ResetPasswordRoute
@@ -300,13 +287,6 @@ declare module '@tanstack/react-router' {
       path: '/forgot-password'
       fullPath: '/forgot-password'
       preLoaderRoute: typeof ForgotPasswordRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/dev-crash': {
-      id: '/dev-crash'
-      path: '/dev-crash'
-      fullPath: '/dev-crash'
-      preLoaderRoute: typeof DevCrashRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/confirm-email-change': {
@@ -380,7 +360,6 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   AccountRoute: AccountRoute,
   ConfirmEmailChangeRoute: ConfirmEmailChangeRoute,
-  DevCrashRoute: DevCrashRoute,
   ForgotPasswordRoute: ForgotPasswordRoute,
   RecentRoute: RecentRoute,
   ResetPasswordRoute: ResetPasswordRoute,
