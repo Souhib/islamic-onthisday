@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.app.iotd.mobile</string>
+		<string>group.app.thaqafa.app</string>
 	</array>
 </dict>
 </plist>

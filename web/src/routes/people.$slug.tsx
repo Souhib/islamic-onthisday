@@ -74,7 +74,7 @@ function PersonPage() {
             <>
               <FriezeRule label={t("external")} marginTop={32} marginBottom={16} />
               <a
-                className="iotd-link font-mono text-[11px] uppercase tracking-[0.6px] text-ink-mute"
+                className="thaqafa-link font-mono text-[11px] uppercase tracking-[0.6px] text-ink-mute"
                 href={`https://www.wikidata.org/wiki/${query.data.wikidataQid}`}
                 target="_blank"
                 rel="noreferrer"

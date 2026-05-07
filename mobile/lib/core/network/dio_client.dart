@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 import 'package:flutter/foundation.dart';
-import 'package:iotd_mobile/core/config/api_config.dart';
-import 'package:iotd_mobile/core/network/interceptors/auth_interceptor.dart';
-import 'package:iotd_mobile/core/storage/secure_storage_service.dart';
+import 'package:thaqafa/core/config/api_config.dart';
+import 'package:thaqafa/core/network/interceptors/auth_interceptor.dart';
+import 'package:thaqafa/core/storage/secure_storage_service.dart';
 
 /// Builds a Dio instance configured for the app.
 ///
@@ -65,7 +65,7 @@ BaseOptions _baseOptions() => BaseOptions(
       receiveTimeout: ApiConfig.receiveTimeout,
       headers: const {
         'Accept': 'application/json',
-        'User-Agent': 'iotd-mobile/0.1.0',
+        'User-Agent': 'thaqafa-mobile/0.1.0',
       },
       responseType: ResponseType.json,
     );

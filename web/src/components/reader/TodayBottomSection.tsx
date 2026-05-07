@@ -74,7 +74,7 @@ export function TodayBottomSection({ items, onPick }: Props) {
               key={item.id}
               type="button"
               onClick={() => onPick(item.id, isLesson)}
-              className="iotd-pick"
+              className="thaqafa-pick"
               style={{
                 display: "flex",
                 flexDirection: "column",

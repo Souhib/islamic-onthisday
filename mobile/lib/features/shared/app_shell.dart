@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// Shell wrapping the three top-level routes (Recent / Sacred days /
 /// Settings) with a custom mono-uppercase bottom navigation bar.
@@ -101,7 +101,7 @@ class _HomeBar extends StatelessWidget {
               const SizedBox(width: 12),
               Text(
                 i18n.nav.today.toUpperCase(),
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 11,
                   color: t.accent,
                   letterSpacing: 1.6,
@@ -137,7 +137,7 @@ class _NavItem extends StatelessWidget {
           child: Center(
             child: Text(
               label.toUpperCase(),
-              style: IotdTypography.mono(
+              style: ThaqafaTypography.mono(
                 size: 11,
                 color: active ? t.ink : t.inkMute,
                 weight: active ? FontWeight.w500 : FontWeight.w400,

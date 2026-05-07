@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/auth/auth_provider.dart';
-import 'package:iotd_mobile/features/auth/auth_state.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/auth/auth_provider.dart';
+import 'package:thaqafa/features/auth/auth_state.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// Account section embedded in Settings. Shows the signed-in user's
 /// email + display name with a `Sign out` action, or a `Sign in /
@@ -32,7 +32,7 @@ class AccountSection extends ConsumerWidget {
           ),
           error: (_, _) => Text(
             i18n.errors.generic,
-            style: IotdTypography.serif(size: 14, color: t.warn, style: FontStyle.italic),
+            style: ThaqafaTypography.serif(size: 14, color: t.warn, style: FontStyle.italic),
           ),
           data: (state) => switch (state) {
             AuthSignedIn(:final user) => _SignedInRow(
@@ -77,12 +77,12 @@ class _SignedInRow extends ConsumerWidget {
             children: [
               Text(
                 displayName,
-                style: IotdTypography.serif(size: 18, color: t.ink, weight: FontWeight.w500),
+                style: ThaqafaTypography.serif(size: 18, color: t.ink, weight: FontWeight.w500),
               ),
               const SizedBox(height: 2),
               Text(
                 email,
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 12,
                   color: t.inkMute,
                   letterSpacing: 0.4,
@@ -96,7 +96,7 @@ class _SignedInRow extends ConsumerWidget {
                   onPressed: onLogout,
                   child: Text(
                     i18n.auth.sign_out.toUpperCase(),
-                    style: IotdTypography.mono(
+                    style: ThaqafaTypography.mono(
                       size: 11,
                       color: t.warn,
                       letterSpacing: 1.4,
@@ -118,14 +118,14 @@ class _SignedInRow extends ConsumerWidget {
                 Expanded(
                   child: Text(
                     i18n.bookmarks.title.toUpperCase(),
-                    style: IotdTypography.mono(
+                    style: ThaqafaTypography.mono(
                       size: 11,
                       color: t.inkSoft,
                       letterSpacing: 1.4,
                     ),
                   ),
                 ),
-                Text('↗', style: IotdTypography.mono(size: 14, color: t.accent)),
+                Text('↗', style: ThaqafaTypography.mono(size: 14, color: t.accent)),
               ],
             ),
           ),
@@ -141,7 +141,7 @@ class _SignedInRow extends ConsumerWidget {
           ),
           child: Text(
             i18n.auth.delete_account_cta.toUpperCase(),
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 11,
               color: t.warn,
               letterSpacing: 1.4,
@@ -162,7 +162,7 @@ class _SignedInRow extends ConsumerWidget {
         shape: const RoundedRectangleBorder(),
         title: Text(
           i18n.auth.delete_account_title,
-          style: IotdTypography.serif(
+          style: ThaqafaTypography.serif(
             size: 22,
             color: t.ink,
             weight: FontWeight.w500,
@@ -170,7 +170,7 @@ class _SignedInRow extends ConsumerWidget {
         ),
         content: Text(
           i18n.auth.delete_account_warning,
-          style: IotdTypography.serif(
+          style: ThaqafaTypography.serif(
             size: 15,
             color: t.inkSoft,
             style: FontStyle.italic,
@@ -182,7 +182,7 @@ class _SignedInRow extends ConsumerWidget {
             onPressed: () => Navigator.of(ctx).pop(false),
             child: Text(
               i18n.auth.delete_account_cancel.toUpperCase(),
-              style: IotdTypography.mono(
+              style: ThaqafaTypography.mono(
                 size: 11,
                 color: t.inkMute,
                 letterSpacing: 1.4,
@@ -193,7 +193,7 @@ class _SignedInRow extends ConsumerWidget {
             onPressed: () => Navigator.of(ctx).pop(true),
             child: Text(
               i18n.auth.delete_account_confirm.toUpperCase(),
-              style: IotdTypography.mono(
+              style: ThaqafaTypography.mono(
                 size: 11,
                 color: t.warn,
                 letterSpacing: 1.4,
@@ -236,7 +236,7 @@ class _AnonymousRow extends StatelessWidget {
             ),
             child: Text(
               i18n.auth.sign_in.toUpperCase(),
-              style: IotdTypography.mono(size: 11, color: t.ink, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 11, color: t.ink, letterSpacing: 1.4),
             ),
           ),
         ),
@@ -253,7 +253,7 @@ class _AnonymousRow extends StatelessWidget {
             ),
             child: Text(
               i18n.auth.sign_up.toUpperCase(),
-              style: IotdTypography.mono(size: 11, color: t.paper, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 11, color: t.paper, letterSpacing: 1.4),
             ),
           ),
         ),

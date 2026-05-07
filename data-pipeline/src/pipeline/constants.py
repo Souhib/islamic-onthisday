@@ -8,7 +8,7 @@ CURATED_DIR: Path = PROJECT_ROOT / "data" / "curated"
 CURATED_EVENTS_DIR: Path = CURATED_DIR / "events"
 CURATED_LESSONS_DIR: Path = CURATED_DIR / "lessons"
 OUTPUT_DIR: Path = PROJECT_ROOT / "data" / "output"
-DEFAULT_DB_PATH: Path = OUTPUT_DIR / "islamic_onthisday.db"
+DEFAULT_DB_PATH: Path = OUTPUT_DIR / "thaqafa.db"
 
 # Hijri calendar
 HIJRI_MONTHS_COUNT: int = 12
@@ -25,7 +25,7 @@ MD_KEY_MULTIPLIER: int = 31  # month*MD + day encodes Hijri mm-dd slot
 
 # Wikidata SPARQL endpoint
 WIKIDATA_SPARQL_ENDPOINT: str = "https://query.wikidata.org/sparql"
-WIKIDATA_USER_AGENT: str = "islamic-onthisday-pipeline/0.1 (research build; contact: trabelsisouhib@gmail.com)"
+WIKIDATA_USER_AGENT: str = "thaqafa-pipeline/0.1 (research build; contact: trabelsisouhib@gmail.com)"
 WIKIDATA_PERSONS_LIMIT: int = 5000
 WIKIDATA_BATTLES_LIMIT: int = 2000
 WIKIDATA_PRECISION_DAY: int = 11

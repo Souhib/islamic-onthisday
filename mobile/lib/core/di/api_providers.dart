@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/api/generated/iotd_client.dart';
-import 'package:iotd_mobile/core/network/dio_client.dart';
-import 'package:iotd_mobile/features/auth/auth_provider.dart';
+import 'package:thaqafa/api/generated/thaqafa_client.dart';
+import 'package:thaqafa/core/network/dio_client.dart';
+import 'package:thaqafa/features/auth/auth_provider.dart';
 
 /// Single Dio instance for the lifetime of the app. The generated
-/// Retrofit clients all share it via the `IotdClient` aggregator.
+/// Retrofit clients all share it via the `ThaqafaClient` aggregator.
 /// We pass the secure storage so the auth interceptor can attach a
 /// Bearer token on every request and refresh transparently on 401.
 final dioProvider = Provider<Dio>((ref) {
@@ -16,6 +16,6 @@ final dioProvider = Provider<Dio>((ref) {
 /// lessons, observances, recent, …). Per-resource providers below give
 /// callers a one-liner to grab the client they need without going
 /// through this aggregate every time.
-final iotdClientProvider = Provider<IotdClient>((ref) {
-  return IotdClient(ref.watch(dioProvider));
+final thaqafaClientProvider = Provider<ThaqafaClient>((ref) {
+  return ThaqafaClient(ref.watch(dioProvider));
 });

@@ -54,10 +54,10 @@ export function Masthead({ today }: Props) {
 
         <nav className="flex flex-wrap justify-center gap-x-5 gap-y-1.5 font-mono text-[11.5px] uppercase tracking-[1.6px] text-ink-soft">
           <span className="text-ink">{t("today")}</span>
-          <Link to="/recent" className="iotd-link">
+          <Link to="/recent" className="thaqafa-link">
             {t("recent")}
           </Link>
-          <Link to="/observances" className="iotd-link">
+          <Link to="/observances" className="thaqafa-link">
             {t("observances")}
           </Link>
           <AccountLink />
@@ -77,10 +77,10 @@ export function Masthead({ today }: Props) {
         </span>
         <nav className="flex flex-wrap items-center justify-end gap-[18px] font-mono text-[12px] uppercase tracking-[1.6px] text-ink-soft">
           <span className="text-ink">{t("today")}</span>
-          <Link to="/recent" className="iotd-link">
+          <Link to="/recent" className="thaqafa-link">
             {t("recent")}
           </Link>
-          <Link to="/observances" className="iotd-link">
+          <Link to="/observances" className="thaqafa-link">
             {t("observances")}
           </Link>
           <AccountLink />

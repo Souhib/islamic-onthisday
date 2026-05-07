@@ -1,7 +1,7 @@
 // Wraps a non-2xx response from the backend so callers can switch on the
 // machine-readable `errorCode` instead of pattern-matching English text.
 //
-// The backend's global exception handler (iotd/app.py) shapes every
+// The backend's global exception handler (thaqafa/app.py) shapes every
 // non-validation error into the same envelope:
 //   { error, error_key, message, error_params, details, timestamp }
 // so this class is a plain mirror of that shape on the FE.

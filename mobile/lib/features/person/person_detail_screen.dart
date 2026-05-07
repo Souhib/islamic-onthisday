@@ -1,14 +1,14 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/api/generated/models/person_detail.dart';
-import 'package:iotd_mobile/core/i18n/collapse_breaks.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/person/person_provider.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
-import 'package:iotd_mobile/shared/verse_epigraph.dart';
+import 'package:thaqafa/api/generated/models/person_detail.dart';
+import 'package:thaqafa/core/i18n/collapse_breaks.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/person/person_provider.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/verse_epigraph.dart';
 
 /// Person detail page. Shows the localised name, kunya/laqab/nisba
 /// when present, the role chip + restricted-figure badges (Prophet
@@ -39,13 +39,13 @@ class PersonDetailScreen extends ConsumerWidget {
           loading: () => Center(
             child: Text(
               i18n.today.loading.toUpperCase(),
-              style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
             ),
           ),
           error: (_, _) => Center(
             child: Text(
               i18n.errors.not_found,
-              style: IotdTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
+              style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
             ),
           ),
           data: (person) => _Body(person: person),
@@ -80,7 +80,7 @@ class _Body extends StatelessWidget {
         const SizedBox(height: 18),
         Text(
           name,
-          style: IotdTypography.serif(
+          style: ThaqafaTypography.serif(
             size: 32,
             color: t.ink,
             weight: FontWeight.w500,
@@ -94,7 +94,7 @@ class _Body extends StatelessWidget {
             textDirection: TextDirection.rtl,
             child: Text(
               person.fullNameAr!,
-              style: IotdTypography.arabic(size: 22, color: t.inkSoft, height: 1.5),
+              style: ThaqafaTypography.arabic(size: 22, color: t.inkSoft, height: 1.5),
             ),
           ),
         ],
@@ -131,7 +131,7 @@ class _Body extends StatelessWidget {
           FriezeRule(label: i18n.person.biography, marginTop: 28, marginBottom: 18),
           Text(
             collapseHardBreaks(person.biography!),
-            style: IotdTypography.serif(size: 17, color: t.inkSoft, height: 1.65),
+            style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, height: 1.65),
           ),
         ],
         const VerseEpigraph(),
@@ -162,7 +162,7 @@ class _RestrictedNotice extends StatelessWidget {
       ),
       child: Text(
         reason,
-        style: IotdTypography.serif(
+        style: ThaqafaTypography.serif(
           size: 14,
           color: t.warn,
           style: FontStyle.italic,

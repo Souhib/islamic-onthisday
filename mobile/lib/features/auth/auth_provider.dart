@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/api/generated/models/login_request.dart';
-import 'package:iotd_mobile/api/generated/models/signup_request.dart';
-import 'package:iotd_mobile/api/generated/models/token_pair.dart';
-import 'package:iotd_mobile/core/di/api_providers.dart';
-import 'package:iotd_mobile/core/storage/secure_storage_service.dart';
-import 'package:iotd_mobile/features/auth/auth_state.dart';
+import 'package:thaqafa/api/generated/models/login_request.dart';
+import 'package:thaqafa/api/generated/models/signup_request.dart';
+import 'package:thaqafa/api/generated/models/token_pair.dart';
+import 'package:thaqafa/core/di/api_providers.dart';
+import 'package:thaqafa/core/storage/secure_storage_service.dart';
+import 'package:thaqafa/features/auth/auth_state.dart';
 
 /// The secure storage instance lives at app scope; constructed once
 /// in bootstrap and provided here without a real init step.
@@ -29,7 +29,7 @@ class AuthNotifier extends AsyncNotifier<AuthState> {
     }
 
     try {
-      final me = await ref.read(iotdClientProvider).auth.meApiV1AuthMeGet();
+      final me = await ref.read(thaqafaClientProvider).auth.meApiV1AuthMeGet();
       return AuthSignedIn(user: me);
     } on DioException {
       await storage.clear();
@@ -40,7 +40,7 @@ class AuthNotifier extends AsyncNotifier<AuthState> {
   Future<void> login({required String email, required String password}) async {
     state = const AsyncValue.loading();
     try {
-      final pair = await ref.read(iotdClientProvider).auth.loginApiV1AuthLoginPost(
+      final pair = await ref.read(thaqafaClientProvider).auth.loginApiV1AuthLoginPost(
             body: LoginRequest(email: email, password: password),
           );
       await _persist(pair);
@@ -57,7 +57,7 @@ class AuthNotifier extends AsyncNotifier<AuthState> {
   }) async {
     state = const AsyncValue.loading();
     try {
-      final pair = await ref.read(iotdClientProvider).auth.signupApiV1AuthSignupPost(
+      final pair = await ref.read(thaqafaClientProvider).auth.signupApiV1AuthSignupPost(
             body: SignupRequest(
               email: email,
               password: password,
@@ -77,7 +77,7 @@ class AuthNotifier extends AsyncNotifier<AuthState> {
   }
 
   Future<void> deleteAccount() async {
-    await ref.read(iotdClientProvider).auth.deleteAccountApiV1AuthMeDelete();
+    await ref.read(thaqafaClientProvider).auth.deleteAccountApiV1AuthMeDelete();
     await ref.read(secureStorageProvider).clear();
     state = const AsyncValue.data(AuthSignedOut());
   }

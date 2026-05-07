@@ -15,11 +15,11 @@ import 'clients/upcoming_client.dart';
 import 'clients/auth_client.dart';
 import 'clients/bookmarks_client.dart';
 
-/// Islamic On This Day `v0.1.0`.
+/// Thaqafa `v0.1.0`.
 ///
 /// Read-only API serving one verified Islamic-history event per day, in both Hijri and Gregorian calendars. Backed by the data-pipeline's curated SQLite database.
-class IotdClient {
-  IotdClient(
+class ThaqafaClient {
+  ThaqafaClient(
     Dio dio, {
     String? baseUrl,
   })  : _dio = dio,

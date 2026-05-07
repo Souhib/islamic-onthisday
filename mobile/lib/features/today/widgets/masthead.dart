@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:iotd_mobile/api/generated/models/today_calendar.dart';
-import 'package:iotd_mobile/core/i18n/weekday.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/generated/models/today_calendar.dart';
+import 'package:thaqafa/core/i18n/weekday.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// Compact masthead for the Today screen — eight-point star left,
 /// Hijri date right, mono-cap eyebrow centred underneath. Same role
@@ -32,7 +32,7 @@ class Masthead extends StatelessWidget {
               Expanded(
                 child: Text(
                   '· $weekday · ${hijri.day} ${hijri.month} ${hijri.year} ah ·',
-                  style: IotdTypography.mono(
+                  style: ThaqafaTypography.mono(
                     size: 10.5,
                     color: t.inkSoft,
                     letterSpacing: 1.4,

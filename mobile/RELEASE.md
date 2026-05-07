@@ -1,6 +1,6 @@
 # Mobile release guide — App Store + Play Store
 
-End-to-end checklist to ship `Islamic On This Day` to both stores.
+End-to-end checklist to ship `Thaqafa` to both stores.
 The repo already carries everything we can prepare without your dev
 accounts: app icon, privacy manifest, account-deletion flow, GlitchTip
 wiring, signed-build scaffolding, store-listing copy in
@@ -58,7 +58,7 @@ doesn't.
 In <https://developer.apple.com/account>:
 
 1. **Identifiers → +** → App IDs → App. Description: `Islamic On This
-   Day`. Bundle ID: `app.iotd.iotdMobile` (must match
+   Day`. Bundle ID: `app.thaqafa.app` (must match
    `ios/Runner/Info.plist`'s `PRODUCT_BUNDLE_IDENTIFIER`). Capabilities:
    `Push Notifications` (off — we use local only), `App Groups` (off
    for now).
@@ -84,10 +84,10 @@ In <https://appstoreconnect.apple.com>:
 
 1. **My Apps → +** → New App.
    - Platform: iOS
-   - Name: `Islamic On This Day`
+   - Name: `Thaqafa`
    - Primary language: English (UK)
    - Bundle ID: pick the one created in step 2
-   - SKU: `iotd-1` (any unique string)
+   - SKU: `thaqafa-1` (any unique string)
 2. **App Information** tab — fill from `STORE_LISTING.md`:
    subtitle, primary category (Reference), secondary (Education),
    age rating (4+), content rights checkbox.
@@ -106,7 +106,7 @@ In <https://appstoreconnect.apple.com>:
 
 In <https://play.google.com/console>:
 
-1. **Create app** → name `Islamic On This Day`, default language
+1. **Create app** → name `Thaqafa`, default language
    English (UK), free, declarations checked.
 2. **Set up your app** dashboard — six required tasks:
    - **App access**: All features available without restrictions.
@@ -121,7 +121,7 @@ In <https://play.google.com/console>:
 3. **Main store listing**:
    - Short description (80 chars): from `STORE_LISTING.md`
    - Full description (4000 chars): from `STORE_LISTING.md`
-   - App icon: `mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png` upscaled to 512×512 (or regenerate with `rsvg-convert -w 512 -h 512 /tmp/iotd-icon/icon.svg`)
+   - App icon: `mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png` upscaled to 512×512 (or regenerate with `rsvg-convert -w 512 -h 512 /tmp/thaqafa-icon/icon.svg`)
    - Feature graphic: 1024×500, generate from the existing brand mark
      (cream paper + khātam centered + small wordmark at bottom).
    - Screenshots: see step 5.
@@ -171,14 +171,14 @@ a beta to a different GlitchTip env.
 
 ```sh
 make mobile-release-ios
-# Produces mobile/build/ios/ipa/iotd_mobile.ipa
+# Produces mobile/build/ios/ipa/Thaqafa.ipa
 ```
 
 Upload via **Transporter.app** (free, App Store) or `xcrun altool`:
 
 ```sh
 xcrun altool --upload-app --type ios \
-  --file mobile/build/ios/ipa/iotd_mobile.ipa \
+  --file mobile/build/ios/ipa/Thaqafa.ipa \
   --apiKey <your_api_key> --apiIssuer <your_issuer_id>
 ```
 
@@ -243,7 +243,7 @@ Google Play:
 ## 10 — Post-launch
 
 - Verify GlitchTip starts receiving real-user crashes (filter
-  `iotd-mobile` project on prod environment)
+  `thaqafa-mobile` project on prod environment)
 - Set up an Uptime Kuma monitor for the App Store / Play Store
   listing URLs to be alerted if either gets pulled
 - The next build is just `make mobile-release-{ios,android}` →
@@ -255,8 +255,8 @@ Google Play:
 
 ## Common pitfalls
 
-- **Apple bundle ID can't have underscores** — `app.iotd.iotd_mobile`
-  is the Android applicationId, but iOS is `app.iotd.iotdMobile` (no
+- **Apple bundle ID can't have underscores** — `app.thaqafa.app`
+  is the Android applicationId, but iOS is `app.thaqafa.app` (no
   underscore). The mismatch is intentional and unavoidable.
 - **First TestFlight build sometimes appears as "Processing" for 30+
   minutes** — wait it out before assuming the upload failed.

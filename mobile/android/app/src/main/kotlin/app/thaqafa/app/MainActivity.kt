@@ -1,4 +1,4 @@
-package app.iotd.iotd_mobile
+package app.thaqafa.app
 
 import io.flutter.embedding.android.FlutterActivity
 

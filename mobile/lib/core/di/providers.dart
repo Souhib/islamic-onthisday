@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/core/storage/preferences_service.dart';
+import 'package:thaqafa/core/storage/preferences_service.dart';
 
 /// Single-source-of-truth provider for `PreferencesService`. The
 /// instance is constructed in `bootstrap.dart` and the

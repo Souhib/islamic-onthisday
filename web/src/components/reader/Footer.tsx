@@ -48,15 +48,15 @@ export function Footer() {
 
         {/* Right — about · privacy · terms · version */}
         <span className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 sm:justify-self-end">
-          <Link to="/about" className="iotd-link">
+          <Link to="/about" className="thaqafa-link">
             {t("about.nav_label")}
           </Link>
           <span aria-hidden="true">·</span>
-          <a href="/privacy.html" className="iotd-link">
+          <a href="/privacy.html" className="thaqafa-link">
             {t("legal.privacy")}
           </a>
           <span aria-hidden="true">·</span>
-          <a href="/terms.html" className="iotd-link">
+          <a href="/terms.html" className="thaqafa-link">
             {t("legal.terms")}
           </a>
           <span aria-hidden="true">·</span>

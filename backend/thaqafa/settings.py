@@ -54,7 +54,7 @@ class Settings(BaseSettings):
 
     # Database. Defaults to the SQLite file the data-pipeline produces.
     database_url: str = (
-        f"sqlite+aiosqlite:///{_BACKEND_DIR.parent / 'data-pipeline' / 'data' / 'output' / 'islamic_onthisday.db'}"
+        f"sqlite+aiosqlite:///{_BACKEND_DIR.parent / 'data-pipeline' / 'data' / 'output' / 'thaqafa.db'}"
     )
 
     # Connection pool — applied only to non-sqlite URLs (asyncpg etc.).
@@ -88,10 +88,10 @@ class Settings(BaseSettings):
     # Same gating pattern as ``sentry_dsn`` above. ``email_from_address``
     # piggybacks on the verified ``majlisna.app`` Resend domain (the free
     # plan only allows one domain); the From-name distinguishes products at
-    # the recipient end ("Islamic On This Day <noreply@majlisna.app>").
+    # the recipient end ("Thaqafa <noreply@majlisna.app>").
     resend_api_key: str = ""
     email_from_address: str = "noreply@majlisna.app"
-    email_from_name: str = "Islamic On This Day"
+    email_from_name: str = "Thaqafa"
     # Public origin used in email links (password reset, etc.). Production
     # sets this to ``https://news.majlisna.app``.
     frontend_url: str = "http://localhost:3000"

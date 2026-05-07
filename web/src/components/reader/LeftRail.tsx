@@ -29,7 +29,7 @@ export function LeftRail({ today, observance }: Props) {
       )
     : null;
   return (
-    <aside className="iotd-rail-left min-h-[600px] border-r border-rule pt-10 pb-10 pr-7 pl-[clamp(20px,4vw,56px)]">
+    <aside className="thaqafa-rail-left min-h-[600px] border-r border-rule pt-10 pb-10 pr-7 pl-[clamp(20px,4vw,56px)]">
       <FriezeRule marginTop={0} marginBottom={20} rosetteOnly />
       <div className="text-center">
         <div className="font-mono text-[11px] uppercase tracking-[1.8px] text-accent">

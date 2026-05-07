@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/api/generated/models/bookmark_create_target_kind.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/auth/auth_provider.dart';
-import 'package:iotd_mobile/features/auth/auth_state.dart';
-import 'package:iotd_mobile/features/bookmarks/bookmarks_provider.dart';
+import 'package:thaqafa/api/generated/models/bookmark_create_target_kind.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/auth/auth_provider.dart';
+import 'package:thaqafa/features/auth/auth_state.dart';
+import 'package:thaqafa/features/bookmarks/bookmarks_provider.dart';
 
 /// Bookmark toggle. Hidden entirely when the user is anonymous —
 /// matches the web's behaviour after the recent change. When signed
@@ -45,7 +45,7 @@ class SaveButton extends ConsumerWidget {
         ),
         child: Text(
           (saved ? 'saved' : 'save').toUpperCase(),
-          style: IotdTypography.mono(
+          style: ThaqafaTypography.mono(
             size: 10.5,
             color: saved ? t.paper : t.inkSoft,
             letterSpacing: 1.2,

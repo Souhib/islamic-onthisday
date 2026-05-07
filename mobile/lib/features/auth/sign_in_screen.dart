@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/auth/auth_provider.dart';
-import 'package:iotd_mobile/features/auth/auth_state.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/auth/auth_provider.dart';
+import 'package:thaqafa/features/auth/auth_state.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 class SignInScreen extends ConsumerStatefulWidget {
   const SignInScreen({super.key});
@@ -69,7 +69,7 @@ class _SignInScreenState extends ConsumerState<SignInScreen> {
             Text(
               i18n.auth.sign_in_title,
               textAlign: TextAlign.center,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 30,
                 color: t.ink,
                 weight: FontWeight.w500,
@@ -85,7 +85,7 @@ class _SignInScreenState extends ConsumerState<SignInScreen> {
               const SizedBox(height: 12),
               Text(
                 _error!,
-                style: IotdTypography.serif(size: 14, color: t.warn, style: FontStyle.italic),
+                style: ThaqafaTypography.serif(size: 14, color: t.warn, style: FontStyle.italic),
               ),
             ],
             const SizedBox(height: 22),
@@ -100,7 +100,7 @@ class _SignInScreenState extends ConsumerState<SignInScreen> {
                 onPressed: () => context.go(AppRoutes.signUp),
                 child: Text(
                   i18n.auth.no_account_cta.toUpperCase(),
-                  style: IotdTypography.mono(
+                  style: ThaqafaTypography.mono(
                     size: 11,
                     color: t.accent,
                     letterSpacing: 1.4,
@@ -136,7 +136,7 @@ class _Field extends StatelessWidget {
       children: [
         Text(
           label.toUpperCase(),
-          style: IotdTypography.mono(
+          style: ThaqafaTypography.mono(
             size: 10.5,
             color: t.inkMute,
             letterSpacing: 1.4,
@@ -153,7 +153,7 @@ class _Field extends StatelessWidget {
             keyboardType: keyboard,
             autocorrect: false,
             enableSuggestions: false,
-            style: IotdTypography.serif(size: 18, color: t.ink),
+            style: ThaqafaTypography.serif(size: 18, color: t.ink),
             decoration: const InputDecoration(
               border: InputBorder.none,
               contentPadding: EdgeInsets.symmetric(horizontal: 14, vertical: 12),
@@ -193,7 +193,7 @@ class _SubmitButton extends StatelessWidget {
         ),
         child: Text(
           label.toUpperCase(),
-          style: IotdTypography.mono(
+          style: ThaqafaTypography.mono(
             size: 12,
             color: t.paper,
             letterSpacing: 1.6,

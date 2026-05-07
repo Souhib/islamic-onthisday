@@ -1,7 +1,7 @@
-# Dokploy deployment for islamic-onthisday.
+# Dokploy deployment for thaqafa.
 # App-only compose — Dokploy provides Traefik + Let's Encrypt at the edge.
 
-name: iotd
+name: thaqafa
 
 x-logging: &default-logging
   driver: json-file
@@ -12,7 +12,7 @@ x-logging: &default-logging
 services:
   # ─── Backend API ─────────────────────────────────────────────
   backend:
-    container_name: iotd-backend
+    container_name: thaqafa-backend
     build:
       context: .
       dockerfile: backend/Dockerfile
@@ -20,7 +20,7 @@ services:
       args:
         FRONTEND_URL: ${FRONTEND_URL:-https://news.majlisna.app}
     environment:
-      IOTD_ENV: production
+      THAQAFA_ENV: production
       HOST: 0.0.0.0
       PORT: 5111
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
@@ -41,7 +41,7 @@ services:
       # domain — see CLAUDE.md "Email" section.
       RESEND_API_KEY: ${RESEND_API_KEY:-}
       EMAIL_FROM_ADDRESS: ${EMAIL_FROM_ADDRESS:-noreply@majlisna.app}
-      EMAIL_FROM_NAME: ${EMAIL_FROM_NAME:-Islamic On This Day}
+      EMAIL_FROM_NAME: ${EMAIL_FROM_NAME:-Thaqafa}
       FRONTEND_URL: ${FRONTEND_URL:-https://news.majlisna.app}
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/api/v1/health').read()"]
@@ -59,7 +59,7 @@ services:
 
   # ─── Frontend SPA ────────────────────────────────────────────
   frontend:
-    container_name: iotd-frontend
+    container_name: thaqafa-frontend
     build:
       context: .
       dockerfile: web/Dockerfile
@@ -83,10 +83,10 @@ services:
       - "31773:80"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.iotd-frontend.rule=Host(`${DOMAIN:-news.majlisna.app}`)"
-      - "traefik.http.routers.iotd-frontend.entrypoints=web,websecure"
-      - "traefik.http.routers.iotd-frontend.tls.certresolver=letsencrypt"
-      - "traefik.http.services.iotd-frontend.loadbalancer.server.port=80"
+      - "traefik.http.routers.thaqafa-frontend.rule=Host(`${DOMAIN:-news.majlisna.app}`)"
+      - "traefik.http.routers.thaqafa-frontend.entrypoints=web,websecure"
+      - "traefik.http.routers.thaqafa-frontend.tls.certresolver=letsencrypt"
+      - "traefik.http.services.thaqafa-frontend.loadbalancer.server.port=80"
     networks:
       - internal
       - dokploy-network

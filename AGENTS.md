@@ -31,7 +31,7 @@ uv run poe check                                                  # ruff lint + 
 uv run poe fix                                                    # ruff format + lint --fix
 ```
 
-The DB at `data/output/islamic_onthisday.db` is **ephemeral** — never hand-edit it.
+The DB at `data/output/thaqafa.db` is **ephemeral** — never hand-edit it.
 
 ### backend
 Run from `backend/`:

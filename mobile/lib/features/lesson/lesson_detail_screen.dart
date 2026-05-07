@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/api/generated/models/bookmark_create_target_kind.dart';
-import 'package:iotd_mobile/api/generated/models/lesson_detail.dart';
-import 'package:iotd_mobile/core/i18n/collapse_breaks.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/bookmarks/save_button.dart';
-import 'package:iotd_mobile/features/lesson/lesson_provider.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
-import 'package:iotd_mobile/shared/verse_epigraph.dart';
+import 'package:thaqafa/api/generated/models/bookmark_create_target_kind.dart';
+import 'package:thaqafa/api/generated/models/lesson_detail.dart';
+import 'package:thaqafa/core/i18n/collapse_breaks.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/bookmarks/save_button.dart';
+import 'package:thaqafa/features/lesson/lesson_provider.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/verse_epigraph.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// Single-lesson detail page. Lessons are dateless, so the date strip
@@ -39,13 +39,13 @@ class LessonDetailScreen extends ConsumerWidget {
           loading: () => Center(
             child: Text(
               i18n.today.loading.toUpperCase(),
-              style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
             ),
           ),
           error: (_, _) => Center(
             child: Text(
               i18n.errors.not_found,
-              style: IotdTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
+              style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
             ),
           ),
           data: (lesson) => _Body(lesson: lesson),
@@ -82,7 +82,7 @@ class _Body extends StatelessWidget {
         const SizedBox(height: 18),
         Text(
           title,
-          style: IotdTypography.serif(
+          style: ThaqafaTypography.serif(
             size: 34,
             color: t.ink,
             weight: FontWeight.w500,
@@ -96,7 +96,7 @@ class _Body extends StatelessWidget {
             textDirection: TextDirection.rtl,
             child: Text(
               lesson.titleAr!,
-              style: IotdTypography.arabic(size: 22, color: t.inkSoft, height: 1.5),
+              style: ThaqafaTypography.arabic(size: 22, color: t.inkSoft, height: 1.5),
             ),
           ),
         ],
@@ -104,7 +104,7 @@ class _Body extends StatelessWidget {
           const SizedBox(height: 18),
           Text(
             lesson.reference!,
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 12,
               color: t.inkMute,
               letterSpacing: 0.8,
@@ -116,7 +116,7 @@ class _Body extends StatelessWidget {
         FriezeRule(label: i18n.today.introduction, marginTop: 4, marginBottom: 14),
         Text(
           collapseHardBreaks(summary),
-          style: IotdTypography.serif(
+          style: ThaqafaTypography.serif(
             size: 18,
             color: t.inkSoft,
             style: FontStyle.italic,
@@ -130,14 +130,14 @@ class _Body extends StatelessWidget {
               padding: EdgeInsets.only(top: i == 0 ? 0 : 18),
               child: Text(
                 collapseHardBreaks(body[i]),
-                style: IotdTypography.serif(size: 17, color: t.inkSoft, height: 1.65),
+                style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, height: 1.65),
               ),
             ),
           const FriezeRule(rosetteOnly: true, marginTop: 28),
           Text(
             i18n.today.end_of_reading.toUpperCase(),
             textAlign: TextAlign.center,
-            style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.6),
+            style: ThaqafaTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.6),
           ),
         ],
         if ((lesson.sourceUrl ?? '').isNotEmpty) ...[
@@ -150,7 +150,7 @@ class _Body extends StatelessWidget {
               ),
               child: Text(
                 '${i18n.today.verify.toUpperCase()} ↗',
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 11,
                   color: t.accent,
                   letterSpacing: 1.6,

@@ -43,7 +43,7 @@ export function DisputeBadge({ disputeAbout, size = "xs", onClick, label, classN
         type="button"
         onClick={onClick}
         aria-label={`Open dispute drawer (${resolvedLabel})`}
-        className={cn(sharedClass, "iotd-pick !block !w-auto cursor-pointer")}
+        className={cn(sharedClass, "thaqafa-pick !block !w-auto cursor-pointer")}
       >
         <span className="block h-1.5 w-1.5 shrink-0 rounded-full bg-warn" />
         {resolvedLabel}

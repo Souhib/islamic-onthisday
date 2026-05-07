@@ -16,22 +16,22 @@ automatically from app data.
 
 1. Open `mobile/ios/Runner.xcworkspace` in Xcode.
 2. **File → New → Target → Widget Extension**. Product name:
-   `IotdWidget`. Bundle Identifier: `app.iotd.mobile.IotdWidget`.
+   `ThaqafaWidget`. Bundle Identifier: `app.thaqafa.app.ThaqafaWidget`.
    Deselect "Include Configuration Intent".
-3. Replace the generated `IotdWidget.swift` and
-   `IotdWidgetBundle.swift` with the contents of
-   `native_widgets/ios/IotdWidget.swift` from this folder
+3. Replace the generated `ThaqafaWidget.swift` and
+   `ThaqafaWidgetBundle.swift` with the contents of
+   `native_widgets/ios/ThaqafaWidget.swift` from this folder
    (the bundle / provider / views all live there in this version).
    Leave the auto-generated `AppIntent.swift`,
-   `IotdWidgetControl.swift`, `IotdWidgetLiveActivity.swift` files
+   `ThaqafaWidgetControl.swift`, `ThaqafaWidgetLiveActivity.swift` files
    in place — they're independent and harmless; if you want to
    clean up, delete them in Xcode (right-click → Delete → Move to
    Trash).
-4. Select **both** the `Runner` target and the new `IotdWidget`
+4. Select **both** the `Runner` target and the new `ThaqafaWidget`
    target → **Signing & Capabilities** → **+ Capability** →
-   **App Groups**. Add `group.app.iotd.mobile` to both. The
+   **App Groups**. Add `group.app.thaqafa.app` to both. The
    entitlements files update automatically.
-5. Set the deployment target on the `IotdWidget` scheme to
+5. Set the deployment target on the `ThaqafaWidget` scheme to
    **iOS 14.0** (matches the project's Podfile platform).
 
 ### Two known foot-guns when building (fix once, never see again)
@@ -68,24 +68,24 @@ Build & run. The widget appears in the iOS widget gallery.
 
 ## Android — AppWidgetProvider
 
-1. Copy `native_widgets/android/IotdWidgetProvider.kt` to
-   `mobile/android/app/src/main/kotlin/app/iotd/mobile/widget/IotdWidgetProvider.kt`
+1. Copy `native_widgets/android/ThaqafaWidgetProvider.kt` to
+   `mobile/android/app/src/main/kotlin/app/thaqafa/app/widget/ThaqafaWidgetProvider.kt`
    (create the `widget/` subfolder).
-2. Copy `native_widgets/android/iotd_widget_medium.xml` to
-   `mobile/android/app/src/main/res/layout/iotd_widget_medium.xml`.
-3. Copy `native_widgets/android/iotd_widget_info.xml` to
-   `mobile/android/app/src/main/res/xml/iotd_widget_info.xml`.
+2. Copy `native_widgets/android/thaqafa_widget_medium.xml` to
+   `mobile/android/app/src/main/res/layout/thaqafa_widget_medium.xml`.
+3. Copy `native_widgets/android/thaqafa_widget_info.xml` to
+   `mobile/android/app/src/main/res/xml/thaqafa_widget_info.xml`.
 4. Open `mobile/android/app/src/main/AndroidManifest.xml` and add
    the receiver inside `<application>`:
 
    ```xml
-   <receiver android:name=".widget.IotdWidgetProvider"
+   <receiver android:name=".widget.ThaqafaWidgetProvider"
              android:exported="false">
        <intent-filter>
            <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
        </intent-filter>
        <meta-data android:name="android.appwidget.provider"
-                  android:resource="@xml/iotd_widget_info" />
+                  android:resource="@xml/thaqafa_widget_info" />
    </receiver>
    ```
 
@@ -101,7 +101,7 @@ timeline reload in one shot. Suggested integration:
 
 ```dart
 final todayProvider = FutureProvider<TodayResponse>((ref) async {
-  final client = ref.watch(iotdClientProvider).today;
+  final client = ref.watch(thaqafaClientProvider).today;
   final data = await client.getTodayApiV1TodayGet();
   await HomeWidgetWriter.publishToday(
     data,

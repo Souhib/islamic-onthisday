@@ -7,10 +7,10 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 class SecureStorageService {
   SecureStorageService(this._storage);
 
-  static const _kAccessToken = 'iotd.access_token';
-  static const _kRefreshToken = 'iotd.refresh_token';
-  static const _kAccessExpiresAt = 'iotd.access_expires_at';
-  static const _kRefreshExpiresAt = 'iotd.refresh_expires_at';
+  static const _kAccessToken = 'thaqafa.access_token';
+  static const _kRefreshToken = 'thaqafa.refresh_token';
+  static const _kAccessExpiresAt = 'thaqafa.access_expires_at';
+  static const _kRefreshExpiresAt = 'thaqafa.refresh_expires_at';
 
   final FlutterSecureStorage _storage;
 

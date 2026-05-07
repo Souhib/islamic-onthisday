@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:iotd_mobile/api/generated/models/user_public.dart';
+import 'package:thaqafa/api/generated/models/user_public.dart';
 
 /// Sealed-style auth state. The router and feature surfaces watch this
 /// to decide what to show. Three concrete shapes:

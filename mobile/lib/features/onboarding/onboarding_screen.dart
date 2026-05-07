@@ -2,16 +2,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/core/di/providers.dart';
-import 'package:iotd_mobile/core/notifications/notification_scheduler.dart';
-import 'package:iotd_mobile/core/notifications/notification_service.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/services/app_settings.dart';
-import 'package:iotd_mobile/core/services/notifications_provider.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/core/di/providers.dart';
+import 'package:thaqafa/core/notifications/notification_scheduler.dart';
+import 'package:thaqafa/core/notifications/notification_service.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/services/app_settings.dart';
+import 'package:thaqafa/core/services/notifications_provider.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// First-launch onboarding — three pages:
 ///   1. Concept: the project's promise + brand mark
@@ -102,7 +102,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                     ),
                     child: Text(
                       i18n.onboarding.skip.toUpperCase(),
-                      style: IotdTypography.mono(
+                      style: ThaqafaTypography.mono(
                         size: 11,
                         color: t.inkMute,
                         letterSpacing: 1.6,
@@ -147,7 +147,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                                 ? i18n.onboarding.begin
                                 : i18n.onboarding.kContinue)
                             .toUpperCase(),
-                        style: IotdTypography.mono(
+                        style: ThaqafaTypography.mono(
                           size: 12,
                           color: t.paper,
                           letterSpacing: 1.6,
@@ -186,7 +186,7 @@ class _ConceptPage extends StatelessWidget {
               const SizedBox(height: 18),
               Text(
                 i18n.onboarding.eyebrow.toUpperCase(),
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 11,
                   color: t.accent,
                   letterSpacing: 2.6,
@@ -203,7 +203,7 @@ class _ConceptPage extends StatelessWidget {
                   Text(
                     i18n.onboarding.headline,
                     textAlign: TextAlign.center,
-                    style: IotdTypography.serif(
+                    style: ThaqafaTypography.serif(
                       size: 38,
                       color: t.ink,
                       weight: FontWeight.w500,
@@ -215,7 +215,7 @@ class _ConceptPage extends StatelessWidget {
                   Text(
                     i18n.onboarding.subhead,
                     textAlign: TextAlign.center,
-                    style: IotdTypography.serif(
+                    style: ThaqafaTypography.serif(
                       size: 17,
                       color: t.inkSoft,
                       style: FontStyle.italic,
@@ -252,7 +252,7 @@ class _LanguagePage extends ConsumerWidget {
         children: [
           Text(
             i18n.onboarding.lang_eyebrow.toUpperCase(),
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 11,
               color: t.accent,
               letterSpacing: 2.6,
@@ -262,7 +262,7 @@ class _LanguagePage extends ConsumerWidget {
           Text(
             i18n.onboarding.lang_headline,
             textAlign: TextAlign.center,
-            style: IotdTypography.serif(
+            style: ThaqafaTypography.serif(
               size: 30,
               color: t.ink,
               weight: FontWeight.w500,
@@ -274,7 +274,7 @@ class _LanguagePage extends ConsumerWidget {
           Text(
             i18n.onboarding.lang_subhead,
             textAlign: TextAlign.center,
-            style: IotdTypography.serif(
+            style: ThaqafaTypography.serif(
               size: 15,
               color: t.inkSoft,
               style: FontStyle.italic,
@@ -335,7 +335,7 @@ class _LangTile extends StatelessWidget {
             Expanded(
               child: Text(
                 label,
-                style: IotdTypography.serif(
+                style: ThaqafaTypography.serif(
                   size: 18,
                   color: t.ink,
                   weight: selected ? FontWeight.w600 : FontWeight.w400,
@@ -371,7 +371,7 @@ class _NotificationsPage extends ConsumerWidget {
         children: [
           Text(
             i18n.onboarding.notif_eyebrow.toUpperCase(),
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 11,
               color: t.accent,
               letterSpacing: 2.6,
@@ -381,7 +381,7 @@ class _NotificationsPage extends ConsumerWidget {
           Text(
             i18n.onboarding.notif_headline,
             textAlign: TextAlign.center,
-            style: IotdTypography.serif(
+            style: ThaqafaTypography.serif(
               size: 30,
               color: t.ink,
               weight: FontWeight.w500,
@@ -393,7 +393,7 @@ class _NotificationsPage extends ConsumerWidget {
           Text(
             i18n.onboarding.notif_subhead,
             textAlign: TextAlign.center,
-            style: IotdTypography.serif(
+            style: ThaqafaTypography.serif(
               size: 15,
               color: t.inkSoft,
               style: FontStyle.italic,
@@ -462,7 +462,7 @@ class _ToggleRow extends StatelessWidget {
           Expanded(
             child: Text(
               label,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 16,
                 color: t.ink,
                 weight: FontWeight.w500,
@@ -516,7 +516,7 @@ class _TimeRow extends StatelessWidget {
                   children: [
                     Text(
                       label.toUpperCase(),
-                      style: IotdTypography.mono(
+                      style: ThaqafaTypography.mono(
                         size: 11,
                         color: t.inkMute,
                         letterSpacing: 1.4,
@@ -527,7 +527,7 @@ class _TimeRow extends StatelessWidget {
                       onPressed: () => Navigator.of(ctx).pop(),
                       child: Text(
                         'OK',
-                        style: IotdTypography.mono(
+                        style: ThaqafaTypography.mono(
                           size: 12,
                           color: t.accent,
                           letterSpacing: 1.4,
@@ -541,7 +541,7 @@ class _TimeRow extends StatelessWidget {
                 child: CupertinoTheme(
                   data: CupertinoThemeData(
                     textTheme: CupertinoTextThemeData(
-                      dateTimePickerTextStyle: IotdTypography.serif(
+                      dateTimePickerTextStyle: ThaqafaTypography.serif(
                         size: 22,
                         color: t.ink,
                         weight: FontWeight.w500,
@@ -584,7 +584,7 @@ class _TimeRow extends StatelessWidget {
             Expanded(
               child: Text(
                 label,
-                style: IotdTypography.serif(
+                style: ThaqafaTypography.serif(
                   size: 16,
                   color: t.ink,
                   weight: FontWeight.w500,
@@ -593,7 +593,7 @@ class _TimeRow extends StatelessWidget {
             ),
             Text(
               _format(value),
-              style: IotdTypography.mono(
+              style: ThaqafaTypography.mono(
                 size: 18,
                 color: t.ink,
                 weight: FontWeight.w500,

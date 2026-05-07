@@ -1,6 +1,6 @@
 {{ greeting }}
 
-Une demande de changement d'adresse email a été initiée pour votre compte Islamic On This Day. Pour confirmer cette nouvelle adresse, ouvrez ce lien :
+Une demande de changement d'adresse email a été initiée pour votre compte Thaqafa. Pour confirmer cette nouvelle adresse, ouvrez ce lien :
 
 {{ href }}
 

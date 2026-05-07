@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/api/generated/models/person_ref.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/generated/models/person_ref.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// Tap-through list of people linked to an event. Each row shows
 /// the localised name + the role chip ("subject" / "narrator" /
@@ -42,7 +42,7 @@ class PeopleSection extends StatelessWidget {
                       children: [
                         Text(
                           _pickName(p, lang),
-                          style: IotdTypography.serif(
+                          style: ThaqafaTypography.serif(
                             size: 17,
                             color: t.ink,
                             weight: FontWeight.w500,
@@ -53,7 +53,7 @@ class PeopleSection extends StatelessWidget {
                           const SizedBox(height: 4),
                           Text(
                             p.role!.toUpperCase(),
-                            style: IotdTypography.mono(
+                            style: ThaqafaTypography.mono(
                               size: 10,
                               color: t.inkMute,
                               letterSpacing: 1.2,
@@ -65,7 +65,7 @@ class PeopleSection extends StatelessWidget {
                   ),
                   Text(
                     '↗',
-                    style: IotdTypography.mono(
+                    style: ThaqafaTypography.mono(
                       size: 14,
                       color: t.accent,
                     ),

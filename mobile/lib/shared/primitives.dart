@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
 
 /// The project's editorial mark — two squares, one rotated 45°, both
 /// hairline-stroked. Used on splash, onboarding, and as a faint
@@ -161,7 +161,7 @@ class FriezeRule extends StatelessWidget {
                   const SizedBox(width: 10),
                   Text(
                     label!.toUpperCase(),
-                    style: IotdTypography.mono(
+                    style: ThaqafaTypography.mono(
                       size: 11.5,
                       color: t.accent,
                       letterSpacing: 2,
@@ -198,7 +198,7 @@ class Eyebrow extends StatelessWidget {
     };
     return Text(
       text.toUpperCase(),
-      style: IotdTypography.mono(size: fontSize, color: c, letterSpacing: 1.4),
+      style: ThaqafaTypography.mono(size: fontSize, color: c, letterSpacing: 1.4),
     );
   }
 }
@@ -245,7 +245,7 @@ class VerificationChip extends StatelessWidget {
         const SizedBox(width: 8),
         Text(
           label.toUpperCase(),
-          style: IotdTypography.mono(size: 10.5, color: tone, letterSpacing: 1.2),
+          style: ThaqafaTypography.mono(size: 10.5, color: tone, letterSpacing: 1.2),
         ),
       ],
     );
@@ -276,7 +276,7 @@ class DisputeBadge extends StatelessWidget {
         ),
         child: Text(
           (label ?? about.name).toUpperCase(),
-          style: IotdTypography.mono(size: 10.5, color: t.warn, letterSpacing: 1.2),
+          style: ThaqafaTypography.mono(size: 10.5, color: t.warn, letterSpacing: 1.2),
         ),
       ),
     );

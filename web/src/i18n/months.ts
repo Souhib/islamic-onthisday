@@ -1,5 +1,5 @@
 // Hijri month names — single source of truth for the front-end.
-// Backend exposes the same constants in `iotd/api/constants.py`; the order
+// Backend exposes the same constants in `thaqafa/api/constants.py`; the order
 // is identical so a backend index lookup matches a frontend array index.
 
 export const HIJRI_MONTHS_LONG = [

@@ -16,7 +16,7 @@ function isLessonDetail(item: EventDetail | LessonDetail | null): item is Lesson
 }
 
 const RAIL_CLASS =
-  "iotd-rail-right border-l border-rule pt-11 pb-10 pl-7 pr-[clamp(20px,4vw,56px)]";
+  "thaqafa-rail-right border-l border-rule pt-11 pb-10 pl-7 pr-[clamp(20px,4vw,56px)]";
 const ROW_CLASS = "border-b border-rule-soft py-2.5";
 
 export function RightRail({ item, observance }: Props) {
@@ -38,7 +38,7 @@ export function RightRail({ item, observance }: Props) {
                   key={p.id}
                   to="/people/$slug"
                   params={{ slug: p.id }}
-                  className={`iotd-link iotd-pick ${ROW_CLASS}`}
+                  className={`thaqafa-link thaqafa-pick ${ROW_CLASS}`}
                 >
                   <div className="font-serif text-[17px] font-medium leading-[1.15] text-ink">
                     {p.name}
@@ -76,7 +76,7 @@ export function RightRail({ item, observance }: Props) {
                 return (
                   <div key={i} className={ROW_CLASS}>
                     {s.verify ? (
-                      <a className="iotd-link" href={s.verify} target="_blank" rel="noreferrer">
+                      <a className="thaqafa-link" href={s.verify} target="_blank" rel="noreferrer">
                         {inner}
                       </a>
                     ) : (
@@ -142,7 +142,7 @@ export function RightRail({ item, observance }: Props) {
               return (
                 <div key={`q-${i}`} className={ROW_CLASS}>
                   {url ? (
-                    <a className="iotd-link" href={url} target="_blank" rel="noreferrer">
+                    <a className="thaqafa-link" href={url} target="_blank" rel="noreferrer">
                       {refRow}
                     </a>
                   ) : (
@@ -169,7 +169,7 @@ export function RightRail({ item, observance }: Props) {
               return (
                 <div key={`h-${i}`} className={ROW_CLASS}>
                   {url ? (
-                    <a className="iotd-link" href={url} target="_blank" rel="noreferrer">
+                    <a className="thaqafa-link" href={url} target="_blank" rel="noreferrer">
                       {refRow}
                     </a>
                   ) : (
@@ -190,7 +190,7 @@ export function RightRail({ item, observance }: Props) {
                     }
                   })()}
                 </div>
-                <a className="iotd-link" href={sourceUrl} target="_blank" rel="noreferrer">
+                <a className="thaqafa-link" href={sourceUrl} target="_blank" rel="noreferrer">
                   <div className="mt-1 font-mono text-[11px] uppercase tracking-[0.6px] text-ink-mute">
                     {t("verify")}
                   </div>

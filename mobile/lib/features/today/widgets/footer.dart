@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/api/dataset_meta.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
+import 'package:thaqafa/api/dataset_meta.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
 
 /// Minimal footer at the end of the Today scroll: dataset depth +
 /// version. Mirrors the web's footer composition without the
 /// /about link (that lives in Settings on mobile).
-class IotdFooter extends ConsumerWidget {
-  const IotdFooter({super.key});
+class ThaqafaFooter extends ConsumerWidget {
+  const ThaqafaFooter({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -31,7 +31,7 @@ class IotdFooter extends ConsumerWidget {
           Text(
             '${_format(meta.eventCount)} EVENTS · ${meta.observanceCount} SACRED DAYS · ${meta.daysWithHeadline}/366 DAYS COVERED',
             textAlign: TextAlign.center,
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 9.5,
               color: t.inkMute,
               letterSpacing: 1.2,
@@ -44,7 +44,7 @@ class IotdFooter extends ConsumerWidget {
               padding: const EdgeInsets.symmetric(vertical: 4),
               child: Text(
                 '${i18n.about.created_by.toUpperCase()} SOUHIB TRABELSI',
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 9.5,
                   color: t.ink,
                   letterSpacing: 1.4,
@@ -55,7 +55,7 @@ class IotdFooter extends ConsumerWidget {
           const SizedBox(height: 6),
           Text(
             '0.1.0 · 1447 AH BUILD',
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 9,
               color: t.inkFaint,
               letterSpacing: 1.2,

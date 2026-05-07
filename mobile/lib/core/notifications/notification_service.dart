@@ -27,7 +27,7 @@ class NotificationService {
   // is high enough that we can grow the personalised window without
   // colliding with the repeating fallback at ID 1.
   static const int _kPersonalisedBaseId = 100;
-  static const String _kChannelId = 'iotd-daily';
+  static const String _kChannelId = 'thaqafa-daily';
 
   bool _initialised = false;
 

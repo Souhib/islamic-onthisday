@@ -1,6 +1,6 @@
 //
-//  IotdWidgetControl.swift
-//  IotdWidget
+//  ThaqafaWidgetControl.swift
+//  ThaqafaWidget
 //
 //  Created by Souhib Trabelsi on 06/05/2026.
 //
@@ -9,8 +9,8 @@ import AppIntents
 import SwiftUI
 import WidgetKit
 
-struct IotdWidgetControl: ControlWidget {
-    static let kind: String = "app.iotd.iotdMobile.IotdWidget"
+struct ThaqafaWidgetControl: ControlWidget {
+    static let kind: String = "app.thaqafa.app.ThaqafaWidget"
 
     var body: some ControlWidgetConfiguration {
         AppIntentControlConfiguration(
@@ -30,7 +30,7 @@ struct IotdWidgetControl: ControlWidget {
     }
 }
 
-extension IotdWidgetControl {
+extension ThaqafaWidgetControl {
     struct Value {
         var isRunning: Bool
         var name: String
@@ -38,12 +38,12 @@ extension IotdWidgetControl {
 
     struct Provider: AppIntentControlValueProvider {
         func previewValue(configuration: TimerConfiguration) -> Value {
-            IotdWidgetControl.Value(isRunning: false, name: configuration.timerName)
+            ThaqafaWidgetControl.Value(isRunning: false, name: configuration.timerName)
         }
 
         func currentValue(configuration: TimerConfiguration) async throws -> Value {
             let isRunning = true // Check if the timer is running
-            return IotdWidgetControl.Value(isRunning: isRunning, name: configuration.timerName)
+            return ThaqafaWidgetControl.Value(isRunning: isRunning, name: configuration.timerName)
         }
     }
 }

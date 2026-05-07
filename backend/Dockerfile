@@ -1,4 +1,4 @@
-# Multi-stage build for the islamic-onthisday backend.
+# Multi-stage build for the thaqafa backend.
 #
 # Stage `dev`     — deps + code only. The SQLite is bind-mounted from the
 #                    host in `docker-compose.yml` so the pipeline can be

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/core/di/providers.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
+import 'package:thaqafa/core/di/providers.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
 
 /// Reactive theme-mode preference. Persisted via `PreferencesService`.
 class ThemeModeNotifier extends Notifier<ThemeMode> {

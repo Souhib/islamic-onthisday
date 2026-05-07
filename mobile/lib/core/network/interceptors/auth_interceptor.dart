@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:iotd_mobile/api/generated/models/refresh_request.dart';
-import 'package:iotd_mobile/core/storage/secure_storage_service.dart';
+import 'package:thaqafa/api/generated/models/refresh_request.dart';
+import 'package:thaqafa/core/storage/secure_storage_service.dart';
 
 /// Attaches the bearer token to outbound requests when present, and
 /// transparently retries with a refresh on 401. If refresh itself

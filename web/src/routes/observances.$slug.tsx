@@ -103,7 +103,7 @@ function ObservancePage() {
                 return (
                   <div key={`q-${i}`} className="border-b border-rule-soft py-2.5">
                     {url ? (
-                      <a className="iotd-link" href={url} target="_blank" rel="noreferrer">
+                      <a className="thaqafa-link" href={url} target="_blank" rel="noreferrer">
                         {inner}
                       </a>
                     ) : (
@@ -127,7 +127,7 @@ function ObservancePage() {
                 return (
                   <div key={`h-${i}`} className="border-b border-rule-soft py-2.5">
                     {url ? (
-                      <a className="iotd-link" href={url} target="_blank" rel="noreferrer">
+                      <a className="thaqafa-link" href={url} target="_blank" rel="noreferrer">
                         {inner}
                       </a>
                     ) : (

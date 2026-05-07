@@ -1,12 +1,12 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/api/generated/iotd_client.dart';
-import 'package:iotd_mobile/api/generated/models/recent_day.dart';
-import 'package:iotd_mobile/api/generated/models/recent_day_headline_sealed.dart';
-import 'package:iotd_mobile/core/di/api_providers.dart';
-import 'package:iotd_mobile/core/di/providers.dart';
-import 'package:iotd_mobile/core/notifications/notification_service.dart';
-import 'package:iotd_mobile/core/storage/preferences_service.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
+import 'package:thaqafa/api/generated/thaqafa_client.dart';
+import 'package:thaqafa/api/generated/models/recent_day.dart';
+import 'package:thaqafa/api/generated/models/recent_day_headline_sealed.dart';
+import 'package:thaqafa/core/di/api_providers.dart';
+import 'package:thaqafa/core/di/providers.dart';
+import 'package:thaqafa/core/notifications/notification_service.dart';
+import 'package:thaqafa/core/storage/preferences_service.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
 
 /// Default pre-fetch window. Seven covers the user that opens the app
 /// once a week without breaking iOS' 64-pending-notification ceiling
@@ -31,7 +31,7 @@ const int kPersonalisedNotifWindow = 7;
 /// scheduling — the user still gets a daily reminder, just without
 /// the per-day headline.
 Future<void> rescheduleDailyNotifications({
-  required IotdClient client,
+  required ThaqafaClient client,
   required PreferencesService prefs,
   required AppLocale locale,
   required String genericTitle,
@@ -108,7 +108,7 @@ String _pick(String lang, String en, String? ar, String? fr) => switch (lang) {
     };
 
 Future<void> _rescheduleVia({
-  required IotdClient Function() readClient,
+  required ThaqafaClient Function() readClient,
   required PreferencesService Function() readPrefs,
   required String genericTitle,
   required String genericBody,
@@ -131,7 +131,7 @@ extension RescheduleFromPrefs on Ref {
     required String genericBody,
   }) =>
       _rescheduleVia(
-        readClient: () => read(iotdClientProvider),
+        readClient: () => read(thaqafaClientProvider),
         readPrefs: () => read(prefsServiceProvider),
         genericTitle: genericTitle,
         genericBody: genericBody,
@@ -147,7 +147,7 @@ extension RescheduleFromPrefsWidget on WidgetRef {
     required String genericBody,
   }) =>
       _rescheduleVia(
-        readClient: () => read(iotdClientProvider),
+        readClient: () => read(thaqafaClientProvider),
         readPrefs: () => read(prefsServiceProvider),
         genericTitle: genericTitle,
         genericBody: genericBody,

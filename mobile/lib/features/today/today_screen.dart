@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/api/generated/models/today_response.dart';
-import 'package:iotd_mobile/api/generated/models/today_response_headline_sealed.dart';
-import 'package:iotd_mobile/api/generated/models/today_response_secondary_sealed.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/today/today_provider.dart';
-import 'package:iotd_mobile/features/today/widgets/footer.dart';
-import 'package:iotd_mobile/features/today/widgets/headline_card.dart';
-import 'package:iotd_mobile/features/today/widgets/masthead.dart';
-import 'package:iotd_mobile/features/today/widgets/secondary_card.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
-import 'package:iotd_mobile/shared/verse_epigraph.dart';
+import 'package:thaqafa/api/generated/models/today_response.dart';
+import 'package:thaqafa/api/generated/models/today_response_headline_sealed.dart';
+import 'package:thaqafa/api/generated/models/today_response_secondary_sealed.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/today/today_provider.dart';
+import 'package:thaqafa/features/today/widgets/footer.dart';
+import 'package:thaqafa/features/today/widgets/headline_card.dart';
+import 'package:thaqafa/features/today/widgets/masthead.dart';
+import 'package:thaqafa/features/today/widgets/secondary_card.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/verse_epigraph.dart';
 
 /// The Today route — fetches `/api/v1/today`, renders the masthead +
 /// headline + secondary stack + Qur'anic epigraph. RefreshIndicator
@@ -54,7 +54,7 @@ class TodayScreen extends ConsumerWidget {
                     ),
                 ],
                 VerseEpigraph(quranRefs: _headlineQuranRefs(data)),
-                const IotdFooter(),
+                const ThaqafaFooter(),
               ],
             ),
           ),
@@ -94,7 +94,7 @@ class _LoadingState extends StatelessWidget {
           const SizedBox(height: 24),
           Text(
             i18n.today.loading.toUpperCase(),
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 11,
               color: t.inkMute,
               letterSpacing: 1.6,
@@ -126,14 +126,14 @@ class _ErrorState extends StatelessWidget {
             Text(
               i18n.today.load_failed,
               textAlign: TextAlign.center,
-              style: IotdTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
+              style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
             ),
             const SizedBox(height: 16),
             TextButton(
               onPressed: onRetry,
               child: Text(
                 'retry'.toUpperCase(),
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 11,
                   color: t.accent,
                   letterSpacing: 1.6,

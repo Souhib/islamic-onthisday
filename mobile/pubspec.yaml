@@ -1,5 +1,5 @@
-name: iotd_mobile
-description: "Islamic On This Day — one verified historical event from Islamic history per day."
+name: thaqafa
+description: "Thaqafa — one verified historical event from Islamic history per day."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -105,11 +105,11 @@ slang:
 swagger_parser:
   schema_path: ../web/openapi.json
   output_directory: lib/api/generated
-  name: iotd_api
+  name: thaqafa_api
   language: dart
   json_serializer: json_serializable
   root_client: true
-  root_client_name: IotdClient
+  root_client_name: ThaqafaClient
   client_postfix: Client
   export_file: true
   put_clients_in_folder: true

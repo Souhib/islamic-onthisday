@@ -1,13 +1,13 @@
 # Islamic On-This-Day
 
-[![CI](https://github.com/Souhib/islamic-onthisday/actions/workflows/ci.yml/badge.svg)](https://github.com/Souhib/islamic-onthisday/actions/workflows/ci.yml)
+[![CI](https://github.com/Souhib/thaqafa/actions/workflows/ci.yml/badge.svg)](https://github.com/Souhib/thaqafa/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A website and backend (Flutter mobile app planned) that surface a verified
 historical event from Islamic history for each day of the year (Gregorian
 and Hijri).
 
-Live repo: <https://github.com/Souhib/islamic-onthisday>.
+Live repo: <https://github.com/Souhib/thaqafa>.
 
 The repository ships three components:
 
@@ -240,7 +240,7 @@ uv run python -m pipeline.validate                   # check refs + disputed fla
 
 The pipeline writes to two destinations:
 
-- `data-pipeline/data/output/islamic_onthisday.db` — the SQLite consumed by
+- `data-pipeline/data/output/thaqafa.db` — the SQLite consumed by
   the FastAPI backend.
 - `web/public/{sitemap.xml, robots.txt, feed.xml}` — public syndication files
   that the FE bundle ships as static assets. `sitemap.xml` lists every event /
@@ -307,7 +307,7 @@ Whenever the backend schema changes, regenerate the OpenAPI client:
 
 ```sh
 # from backend/
-uv run python -c "import json; from iotd.app import create_app; print(json.dumps(create_app().openapi()))" \
+uv run python -c "import json; from thaqafa.app import create_app; print(json.dumps(create_app().openapi()))" \
   > openapi.json && cp openapi.json ../web/openapi.json
 # from web/
 bun run generate-api

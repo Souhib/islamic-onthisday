@@ -1,6 +1,6 @@
 //
-//  IotdWidgetLiveActivity.swift
-//  IotdWidget
+//  ThaqafaWidgetLiveActivity.swift
+//  ThaqafaWidget
 //
 //  Created by Souhib Trabelsi on 06/05/2026.
 //
@@ -9,7 +9,7 @@ import ActivityKit
 import WidgetKit
 import SwiftUI
 
-struct IotdWidgetAttributes: ActivityAttributes {
+struct ThaqafaWidgetAttributes: ActivityAttributes {
     public struct ContentState: Codable, Hashable {
         // Dynamic stateful properties about your activity go here!
         var emoji: String
@@ -19,9 +19,9 @@ struct IotdWidgetAttributes: ActivityAttributes {
     var name: String
 }
 
-struct IotdWidgetLiveActivity: Widget {
+struct ThaqafaWidgetLiveActivity: Widget {
     var body: some WidgetConfiguration {
-        ActivityConfiguration(for: IotdWidgetAttributes.self) { context in
+        ActivityConfiguration(for: ThaqafaWidgetAttributes.self) { context in
             // Lock screen/banner UI goes here
             VStack {
                 Text("Hello \(context.state.emoji)")
@@ -56,25 +56,25 @@ struct IotdWidgetLiveActivity: Widget {
     }
 }
 
-extension IotdWidgetAttributes {
-    fileprivate static var preview: IotdWidgetAttributes {
-        IotdWidgetAttributes(name: "World")
+extension ThaqafaWidgetAttributes {
+    fileprivate static var preview: ThaqafaWidgetAttributes {
+        ThaqafaWidgetAttributes(name: "World")
     }
 }
 
-extension IotdWidgetAttributes.ContentState {
-    fileprivate static var smiley: IotdWidgetAttributes.ContentState {
-        IotdWidgetAttributes.ContentState(emoji: "😀")
+extension ThaqafaWidgetAttributes.ContentState {
+    fileprivate static var smiley: ThaqafaWidgetAttributes.ContentState {
+        ThaqafaWidgetAttributes.ContentState(emoji: "😀")
      }
      
-     fileprivate static var starEyes: IotdWidgetAttributes.ContentState {
-         IotdWidgetAttributes.ContentState(emoji: "🤩")
+     fileprivate static var starEyes: ThaqafaWidgetAttributes.ContentState {
+         ThaqafaWidgetAttributes.ContentState(emoji: "🤩")
      }
 }
 
-#Preview("Notification", as: .content, using: IotdWidgetAttributes.preview) {
-   IotdWidgetLiveActivity()
+#Preview("Notification", as: .content, using: ThaqafaWidgetAttributes.preview) {
+   ThaqafaWidgetLiveActivity()
 } contentStates: {
-    IotdWidgetAttributes.ContentState.smiley
-    IotdWidgetAttributes.ContentState.starEyes
+    ThaqafaWidgetAttributes.ContentState.smiley
+    ThaqafaWidgetAttributes.ContentState.starEyes
 }

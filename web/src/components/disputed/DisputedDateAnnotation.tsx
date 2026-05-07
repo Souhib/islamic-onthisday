@@ -37,7 +37,7 @@ export function DisputedDateAnnotation({ value, onClick, tone = "primary" }: Pro
       title={label}
       aria-label={label}
       className={cn(
-        "iotd-pick group inline-flex !w-auto items-baseline gap-[3px] !block cursor-help font-serif italic transition-colors",
+        "thaqafa-pick group inline-flex !w-auto items-baseline gap-[3px] !block cursor-help font-serif italic transition-colors",
         // Dotted underline tinted with the brand accent — the universal
         // "this term has a footnote / click for more" affordance.
         "border-b border-dotted border-accent/70 pb-[1px] hover:border-accent",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   RemoteViews layout for the medium home-screen widget.
-  Place at android/app/src/main/res/layout/iotd_widget_medium.xml.
+  Place at android/app/src/main/res/layout/thaqafa_widget_medium.xml.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         android:background="#FBF7EE">
 
         <TextView
-            android:id="@+id/iotd_eyebrow"
+            android:id="@+id/thaqafa_eyebrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TODAY"
@@ -33,14 +33,14 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/iotd_hijri_day"
+            android:id="@+id/thaqafa_hijri_day"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="50sp"
             android:textColor="#1B1A17" />
 
         <TextView
-            android:id="@+id/iotd_hijri_month"
+            android:id="@+id/thaqafa_hijri_month"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -48,7 +48,7 @@
             android:textColor="#1B1A17" />
 
         <TextView
-            android:id="@+id/iotd_hijri_year"
+            android:id="@+id/thaqafa_hijri_year"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="9sp"
@@ -64,7 +64,7 @@
         android:padding="14dp">
 
         <TextView
-            android:id="@+id/iotd_era"
+            android:id="@+id/thaqafa_era"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="9sp"
@@ -73,7 +73,7 @@
             android:fontFamily="monospace" />
 
         <TextView
-            android:id="@+id/iotd_title"
+            android:id="@+id/thaqafa_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
@@ -88,7 +88,7 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/iotd_greg_iso"
+            android:id="@+id/thaqafa_greg_iso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="9sp"

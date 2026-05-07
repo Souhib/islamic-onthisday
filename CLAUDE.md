@@ -3,7 +3,7 @@
 Guidance for Claude Code (and any AI agent) working in this repository. Keep
 this file short; defer to the authoritative docs rather than duplicating them.
 
-Repo: <https://github.com/Souhib/islamic-onthisday>. CI runs on every
+Repo: <https://github.com/Souhib/thaqafa>. CI runs on every
 push (non-`main`) and PR to `main` — three parallel jobs (pipeline,
 backend, web) defined in `.github/workflows/ci.yml`. The gate is
 `uv run poe check && uv run poe test` for backend, `uv run poe check`
@@ -13,7 +13,7 @@ red.
 
 ## What this project is
 
-"Islamic On This Day" — a mobile app (Flutter, not started), website
+"Thaqafa" — a mobile app (Flutter, not started), website
 (Vite + React + TanStack Router), and backend (FastAPI) that surface one
 verified historical event from Islamic history per day of the year
 (Gregorian + Hijri).
@@ -26,7 +26,7 @@ foundation everything else rests on.
 ## Repository layout
 
 ```
-islamic-onthisday/
+thaqafa/
 ├── README.md          # public project overview + running instructions
 ├── EDITORIAL.md       # the bar for any content edit — READ BEFORE EDITING YAML
 ├── AUDIT.md           # dataset audit snapshot + human-review backlog
@@ -63,7 +63,7 @@ data-pipeline/
 
 The pipeline writes to **two destinations**:
 
-- `data-pipeline/data/output/islamic_onthisday.db` — the SQLite consumed by the
+- `data-pipeline/data/output/thaqafa.db` — the SQLite consumed by the
   backend (private).
 - `web/public/{sitemap.xml, robots.txt, feed.xml}` — public syndication
   files, served as static assets by the FE host. See "Syndication" below.
@@ -71,7 +71,7 @@ The pipeline writes to **two destinations**:
 ### backend/
 
 ```
-backend/iotd/
+backend/thaqafa/
 ├── app.py                         # FastAPI factory + exception handlers + routers
 ├── main.py                        # uvicorn entry
 ├── settings.py                    # pydantic-settings, env-file resolver
@@ -155,7 +155,7 @@ Regenerate the OpenAPI client whenever the backend schema changes:
 
 ```sh
 # from backend/
-uv run python -c "import json; from iotd.app import create_app; print(json.dumps(create_app().openapi()))" \
+uv run python -c "import json; from thaqafa.app import create_app; print(json.dumps(create_app().openapi()))" \
   > openapi.json && cp openapi.json ../web/openapi.json
 # from web/
 bun run generate-api
@@ -304,7 +304,7 @@ uv run poe fix                                       # ruff format + lint --fix
 # uv run python scripts/discovery/openiti_leads.py    # candidate report → JSON
 ```
 
-The DB at `data-pipeline/data/output/islamic_onthisday.db` is **ephemeral** —
+The DB at `data-pipeline/data/output/thaqafa.db` is **ephemeral** —
 regenerated from YAML + live Wikidata + live OpenITI on every run. Never
 hand-edit it.
 
@@ -328,8 +328,8 @@ these three files is derived from the dataset (the slugs, the headline
 rotation, the `updated_at` per event). The pipeline is the single authority
 on the dataset and runs in batch, so adding syndication as the final step of
 the build is the natural fit. The alternative — a FastAPI route — would
-require exposing the API publicly (Google must reach `iotd.app/sitemap.xml`,
-not `api.iotd.app/sitemap.xml`) and adding a reverse-proxy rule in prod;
+require exposing the API publicly (Google must reach `thaqafa.app/sitemap.xml`,
+not `api.thaqafa.app/sitemap.xml`) and adding a reverse-proxy rule in prod;
 generating static files instead keeps the backend 100 % private.
 
 Output goes to `web/public/{sitemap.xml, robots.txt, feed.xml}`, where the
@@ -345,10 +345,10 @@ domain before running the pipeline.
 ## Deployment & daily rebuild (Dokploy)
 
 Production runs on Dokploy (`docker-compose.dokploy.yml` at the repo
-root). Two services: `iotd-backend` (FastAPI on the internal network)
-and `iotd-frontend` (nginx serving the Vite bundle, behind Traefik +
+root). Two services: `thaqafa-backend` (FastAPI on the internal network)
+and `thaqafa-frontend` (nginx serving the Vite bundle, behind Traefik +
 Let's Encrypt). Account / bookmark tables are auto-created by the
-backend on lifespan startup (`iotd.database._create_backend_tables`)
+backend on lifespan startup (`thaqafa.database._create_backend_tables`)
 and are excluded from `pipeline.constants.CONTENT_TABLE_NAMES` so the
 pipeline's drop-and-recreate cycle never touches them.
 
@@ -368,7 +368,7 @@ a rebuild from inside FastAPI. Two reasons:
 **Daily rebuild = scheduled redeploy, not in-container exec.** Configure
 this in the Dokploy UI:
 
-1. Dokploy → application `iotd` → **Schedules** → Create.
+1. Dokploy → application `thaqafa` → **Schedules** → Create.
 2. Service: pick the application (Compose stack), action: **Redeploy**.
 3. Cron expression: `0 4 * * *` (04:00 UTC — quiet hour, before
    European morning traffic).
@@ -380,7 +380,7 @@ That's the whole config. Each redeploy:
   as static assets).
 - Switches Traefik over once both new containers pass their healthchecks.
 
-Why **not** `docker exec iotd-backend python -m pipeline.build` from a
+Why **not** `docker exec thaqafa-backend python -m pipeline.build` from a
 schedule? Two failure modes: (a) the SQLite would be re-created in-
 container but the FE's `sitemap.xml` would stale (different image, no
 shared volume); (b) the rebuilt SQLite would be lost on the next
@@ -402,7 +402,7 @@ codebase is shaped by.
 1. **Snake-case discriminants over English labels.** `verification_status`,
    `dispute_about`, `weight` are `Literal[...]` discriminants. The API
    never emits a human-readable label — the FE owns rendering via i18n.
-   See `backend/iotd/api/schemas/event.py`.
+   See `backend/thaqafa/api/schemas/event.py`.
 2. **One typed error per resource.** `EventNotFoundError`,
    `LessonNotFoundError`, etc. — derived from `BaseError` which auto-
    generates `error_key` from the class name (`EventNotFoundError` →
@@ -419,7 +419,7 @@ codebase is shaped by.
    a tangle.
 4. **Routes are zero-business-logic.** They `Depends(...)` a controller,
    call one method, return its result. `Cache-Control` is set via
-   `dependencies=[CACHE_DAY]` etc. (see `iotd/api/cache.py`), not by
+   `dependencies=[CACHE_DAY]` etc. (see `thaqafa/api/cache.py`), not by
    mutating the response inside the handler.
 5. **No `?on=YYYY-MM-DD` on the public Today route.** Daily-ritual
    constraint — letting users binge through arbitrary calendar dates
@@ -427,7 +427,7 @@ codebase is shaped by.
    specific events live on `/api/v1/events/{slug}` instead.
 6. **Pure ASGI middleware.** `SecurityMiddleware`, `RequestIDMiddleware`,
    `LoggingMiddleware` — no `BaseHTTPMiddleware` (perf cost under load).
-7. **Sentry init is gated on `$SENTRY_DSN`** in `iotd/observability.py`.
+7. **Sentry init is gated on `$SENTRY_DSN`** in `thaqafa/observability.py`.
    Empty DSN = no init, no network — zero overhead in dev. The loguru
    sink forwards WARNING+ records as Sentry messages and exception logs
    as Sentry exceptions automatically, so you don't need to call the
@@ -530,9 +530,9 @@ conventions below are the short list.
 12. **Route → Controller → Projection.** Routes have zero business logic:
     they `Depends(...)` a controller, call one method, return its result.
     Cache-Control is a `dependencies=[CACHE_*]` entry on the route
-    decorator (see `iotd/api/cache.py`), never set inside the handler.
+    decorator (see `thaqafa/api/cache.py`), never set inside the handler.
     Controllers run the queries and raise typed errors. ORM-row → response
-    schema mapping lives in `iotd/api/services/projections.py` so any
+    schema mapping lives in `thaqafa/api/services/projections.py` so any
     controller can call it.
 13. **No code in `__init__.py`.** Package init files carry the package
     docstring and nothing else — no re-exports, no `from x import y`,
@@ -629,9 +629,9 @@ the fallback, not the default.
   into `web/openapi.json` by the regen command (see "Common commands").
   Don't hand-edit it.
 - **Tests hit the real pipeline DB** (`tests/conftest.py`). They expect
-  `data-pipeline/data/output/islamic_onthisday.db` to exist — run
+  `data-pipeline/data/output/thaqafa.db` to exist — run
   `pipeline.build` once before the first test run.
-- **Cache-Control vocabulary lives in `iotd/api/cache.py`:**
+- **Cache-Control vocabulary lives in `thaqafa/api/cache.py`:**
   `CACHE_UNTIL_MIDNIGHT` (Today / Recent — pivots at UTC midnight),
   `CACHE_DAY` (Observances), `CACHE_HOUR` (detail routes), `CACHE_FIVE_MIN`
   (lists), `NO_STORE` (Health). Always pick from this list, never inline

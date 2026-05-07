@@ -64,8 +64,8 @@ class TranslationsAppEn {
 
 	// Translations
 
-	/// en: 'Islamic On This Day'
-	String get name => 'Islamic On This Day';
+	/// en: 'Thaqafa'
+	String get name => 'Thaqafa';
 
 	/// en: 'The classical record. One day at a time.'
 	String get tagline => 'The classical record. One day at a time.';
@@ -385,11 +385,11 @@ class TranslationsAboutEn {
 	/// en: 'Software engineer'
 	String get role => 'Software engineer';
 
-	/// en: 'I'm a software engineer with seven years of experience, mostly in Python and React. I started Islamic On This Day because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.'
-	String get bio => 'I\'m a software engineer with seven years of experience, mostly in Python and React. I started Islamic On This Day because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.';
+	/// en: 'I'm a software engineer with seven years of experience, mostly in Python and React. I started Thaqafa because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.'
+	String get bio => 'I\'m a software engineer with seven years of experience, mostly in Python and React. I started Thaqafa because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.';
 
-	/// en: 'What is Islamic On This Day?'
-	String get project_purpose_title => 'What is Islamic On This Day?';
+	/// en: 'What is Thaqafa?'
+	String get project_purpose_title => 'What is Thaqafa?';
 
 	/// en: 'A verified event from Islamic history every day, in both Hijri and Gregorian calendars. Every entry — event, lesson, sacred day — is hand-verified against classical sources (al-Ṭabarī, Ibn Kathīr, the Six Books) before it's published. We drop a borderline entry rather than keep a wrong one. The promise is unconditional: every entry has been editorially reviewed.'
 	String get project_purpose_body => 'A verified event from Islamic history every day, in both Hijri and Gregorian calendars. Every entry — event, lesson, sacred day — is hand-verified against classical sources (al-Ṭabarī, Ibn Kathīr, the Six Books) before it\'s published. We drop a borderline entry rather than keep a wrong one. The promise is unconditional: every entry has been editorially reviewed.';
@@ -604,7 +604,7 @@ class TranslationsLegalEn {
 extension on Translations {
 	dynamic _flatMapFunction(String path) {
 		return switch (path) {
-			'app.name' => 'Islamic On This Day',
+			'app.name' => 'Thaqafa',
 			'app.tagline' => 'The classical record. One day at a time.',
 			'onboarding.eyebrow' => 'In our time of days',
 			'onboarding.headline' => 'The classical record,\none day at a time.',
@@ -678,8 +678,8 @@ extension on Translations {
 			'about.subtitle' => 'A few words on what this is, who built it, and how to reach out.',
 			'about.name' => 'Souhib Trabelsi',
 			'about.role' => 'Software engineer',
-			'about.bio' => 'I\'m a software engineer with seven years of experience, mostly in Python and React. I started Islamic On This Day because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.',
-			'about.project_purpose_title' => 'What is Islamic On This Day?',
+			'about.bio' => 'I\'m a software engineer with seven years of experience, mostly in Python and React. I started Thaqafa because I wanted a daily reading habit anchored in classical Islamic history. Every entry is hand-verified against official sources before it ships.',
+			'about.project_purpose_title' => 'What is Thaqafa?',
 			'about.project_purpose_body' => 'A verified event from Islamic history every day, in both Hijri and Gregorian calendars. Every entry — event, lesson, sacred day — is hand-verified against classical sources (al-Ṭabarī, Ibn Kathīr, the Six Books) before it\'s published. We drop a borderline entry rather than keep a wrong one. The promise is unconditional: every entry has been editorially reviewed.',
 			'about.education_title' => 'Education',
 			'about.education_epitech' => 'Epitech Paris — Master\'s in Software Engineering',

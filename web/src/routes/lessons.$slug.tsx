@@ -26,7 +26,7 @@ function LessonDetailPage() {
         { en: query.data.title, fr: query.data.titleFr, ar: query.data.titleAr },
         lang,
       );
-      document.title = `${title} · Islamic On This Day`;
+      document.title = `${title} · Thaqafa`;
     }
   }, [query.data, lang]);
 

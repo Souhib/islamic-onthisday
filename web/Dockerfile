@@ -1,4 +1,4 @@
-# Multi-stage build for the islamic-onthisday frontend.
+# Multi-stage build for the thaqafa frontend.
 #
 # Vite picks up everything under `web/public/` and bundles it into the
 # build output. The pipeline writes sitemap.xml, robots.txt, feed.xml and

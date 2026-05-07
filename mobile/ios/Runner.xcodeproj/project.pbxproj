@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,11 +14,11 @@
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		824E281D2FABC4C300AA3D4E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824E281C2FABC4C200AA3D4E /* WidgetKit.framework */; };
 		824E281F2FABC4C300AA3D4E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824E281E2FABC4C300AA3D4E /* SwiftUI.framework */; };
-		824E28302FABC4C500AA3D4E /* IotdWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 824E281B2FABC4C200AA3D4E /* IotdWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		824E28302FABC4C500AA3D4E /* ThaqafaWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 824E281B2FABC4C200AA3D4E /* ThaqafaWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
-		B10AB1B10AB1B10AB1B10A01 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B10AB1B10AB1B10AB1B10A02 /* PrivacyInfo.xcprivacy */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		B10AB1B10AB1B10AB1B10A01 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B10AB1B10AB1B10AB1B10A02 /* PrivacyInfo.xcprivacy */; };
 		C42AE4A192B5B4E42832F0E7 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7C2E684F101F285B8508A2 /* Pods_RunnerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 824E281A2FABC4C200AA3D4E;
-			remoteInfo = IotdWidgetExtension;
+			remoteInfo = ThaqafaWidgetExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				824E28302FABC4C500AA3D4E /* IotdWidgetExtension.appex in Embed Foundation Extensions */,
+				824E28302FABC4C500AA3D4E /* ThaqafaWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,11 +76,11 @@
 		7928738D9D932F798AB20198 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		80B63EA68F3C51EC4DD63B2A /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
-		824E281B2FABC4C200AA3D4E /* IotdWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IotdWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		824E281B2FABC4C200AA3D4E /* ThaqafaWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ThaqafaWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		824E281C2FABC4C200AA3D4E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		824E281E2FABC4C300AA3D4E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		824E28992FABC81700AA3D4E /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
-		824E289A2FABC84700AA3D4E /* IotdWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IotdWidgetExtension.entitlements; sourceTree = "<group>"; };
+		824E289A2FABC84700AA3D4E /* ThaqafaWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThaqafaWidgetExtension.entitlements; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,36 +88,25 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B10AB1B10AB1B10AB1B10A02 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A4E29A9E62FC6E16275C0B27 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B10AB1B10AB1B10AB1B10A02 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DD7C2E684F101F285B8508A2 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6949056212C975D32AD9E0A /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		F6D27F5CCA8A8D755CFB7BB2 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		824E28352FABC4C500AA3D4E /* Exceptions for "IotdWidget" folder in "IotdWidgetExtension" target */ = {
+		824E28352FABC4C500AA3D4E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 824E281A2FABC4C200AA3D4E /* IotdWidgetExtension */;
+			target = 824E281A2FABC4C200AA3D4E /* ThaqafaWidgetExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		824E28202FABC4C300AA3D4E /* IotdWidget */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				824E28352FABC4C500AA3D4E /* Exceptions for "IotdWidget" folder in "IotdWidgetExtension" target */,
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = IotdWidget;
-			sourceTree = "<group>";
-		};
+		824E28202FABC4C300AA3D4E /* ThaqafaWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (824E28352FABC4C500AA3D4E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ThaqafaWidget; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,10 +171,10 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
-				824E289A2FABC84700AA3D4E /* IotdWidgetExtension.entitlements */,
+				824E289A2FABC84700AA3D4E /* ThaqafaWidgetExtension.entitlements */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
-				824E28202FABC4C300AA3D4E /* IotdWidget */,
+				824E28202FABC4C300AA3D4E /* ThaqafaWidget */,
 				97C146EF1CF9000F007C117D /* Products */,
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				A9F5907741DCC856F188B8E8 /* Pods */,
@@ -198,7 +187,7 @@
 			children = (
 				97C146EE1CF9000F007C117D /* Runner.app */,
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
-				824E281B2FABC4C200AA3D4E /* IotdWidgetExtension.appex */,
+				824E281B2FABC4C200AA3D4E /* ThaqafaWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,9 +244,9 @@
 			productReference = 331C8081294A63A400263BE5 /* RunnerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		824E281A2FABC4C200AA3D4E /* IotdWidgetExtension */ = {
+		824E281A2FABC4C200AA3D4E /* ThaqafaWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 824E28362FABC4C500AA3D4E /* Build configuration list for PBXNativeTarget "IotdWidgetExtension" */;
+			buildConfigurationList = 824E28362FABC4C500AA3D4E /* Build configuration list for PBXNativeTarget "ThaqafaWidgetExtension" */;
 			buildPhases = (
 				824E28172FABC4C200AA3D4E /* Sources */,
 				824E28182FABC4C200AA3D4E /* Frameworks */,
@@ -268,11 +257,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				824E28202FABC4C300AA3D4E /* IotdWidget */,
+				824E28202FABC4C300AA3D4E /* ThaqafaWidget */,
 			);
-			name = IotdWidgetExtension;
-			productName = IotdWidgetExtension;
-			productReference = 824E281B2FABC4C200AA3D4E /* IotdWidgetExtension.appex */;
+			name = ThaqafaWidgetExtension;
+			productName = ThaqafaWidgetExtension;
+			productReference = 824E281B2FABC4C200AA3D4E /* ThaqafaWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		97C146ED1CF9000F007C117D /* Runner */ = {
@@ -338,7 +327,7 @@
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
 				331C8080294A63A400263BE5 /* RunnerTests */,
-				824E281A2FABC4C200AA3D4E /* IotdWidgetExtension */,
+				824E281A2FABC4C200AA3D4E /* ThaqafaWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -456,9 +445,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -502,7 +495,7 @@
 		};
 		824E282F2FABC4C500AA3D4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 824E281A2FABC4C200AA3D4E /* IotdWidgetExtension */;
+			target = 824E281A2FABC4C200AA3D4E /* ThaqafaWidgetExtension */;
 			targetProxy = 824E282E2FABC4C500AA3D4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -594,7 +587,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -611,7 +604,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -629,7 +622,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
@@ -645,7 +638,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
@@ -664,15 +657,15 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = IotdWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ThaqafaWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3J6927QDF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IotdWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = IotdWidget;
+				INFOPLIST_FILE = ThaqafaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ThaqafaWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -684,7 +677,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile.IotdWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app.ThaqafaWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -710,15 +703,15 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = IotdWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ThaqafaWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3J6927QDF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IotdWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = IotdWidget;
+				INFOPLIST_FILE = ThaqafaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ThaqafaWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -729,7 +722,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile.IotdWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app.ThaqafaWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -753,15 +746,15 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = IotdWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ThaqafaWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3J6927QDF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IotdWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = IotdWidget;
+				INFOPLIST_FILE = ThaqafaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ThaqafaWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -772,7 +765,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile.IotdWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app.ThaqafaWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -910,7 +903,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -934,7 +927,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.iotd.iotdMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = app.thaqafa.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -955,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		824E28362FABC4C500AA3D4E /* Build configuration list for PBXNativeTarget "IotdWidgetExtension" */ = {
+		824E28362FABC4C500AA3D4E /* Build configuration list for PBXNativeTarget "ThaqafaWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				824E28322FABC4C500AA3D4E /* Debug */,

@@ -40,7 +40,7 @@ function EventDetailPage() {
         { en: query.data.title, fr: query.data.titleFr, ar: query.data.titleAr },
         lang,
       );
-      document.title = `${title} · Islamic On This Day`;
+      document.title = `${title} · Thaqafa`;
     }
   }, [query.data, lang]);
 
@@ -224,7 +224,7 @@ function EventDetailPage() {
                   return (
                     <div key={i} className="border-b border-rule-soft py-2.5">
                       {s.verify ? (
-                        <a className="iotd-link" href={s.verify} target="_blank" rel="noreferrer">
+                        <a className="thaqafa-link" href={s.verify} target="_blank" rel="noreferrer">
                           {inner}
                         </a>
                       ) : (

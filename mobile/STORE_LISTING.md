@@ -7,9 +7,9 @@ copy) — those three sources have to agree.
 
 ## Identity
 
-- App name: **Islamic On This Day**
+- App name: **Thaqafa**
 - Short tagline: *One verified day in Islamic history, every day.*
-- Bundle ID / applicationId: `app.iotd.iotd_mobile`
+- Bundle ID / applicationId: `app.thaqafa.app`
 - Version: `1.0.0` (build `1`)
 - Category: *Reference* (primary), *Education* (secondary)
 - Rating: 4+ / Everyone
@@ -20,7 +20,7 @@ copy) — those three sources have to agree.
 
 ## Description (≤4000 chars — paste into both stores)
 
-> Islamic On This Day delivers one verified historical event from Islamic
+> Thaqafa delivers one verified historical event from Islamic
 > history every day, in both Hijri and Gregorian calendars. Every entry
 > is hand-vetted against classical Sunni sources (al-Ṭabarī, Ibn Kathīr,
 > the Six Books) and carries its citations openly so you can verify what

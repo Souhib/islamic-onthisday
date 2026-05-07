@@ -34,7 +34,7 @@ describe("ThemeProvider", () => {
   });
 
   it("reads a stored 'dark' preference from localStorage", () => {
-    window.localStorage.setItem("iotd-theme", "dark");
+    window.localStorage.setItem("thaqafa-theme", "dark");
     render(
       <ThemeProvider>
         <TestProbe />
@@ -56,7 +56,7 @@ describe("ThemeProvider", () => {
     act(() => probe.click());
     expect(probe.textContent).toBe("dark");
     expect(document.documentElement.classList.contains("dark")).toBe(true);
-    expect(window.localStorage.getItem("iotd-theme")).toBe("dark");
+    expect(window.localStorage.getItem("thaqafa-theme")).toBe("dark");
 
     act(() => probe.click());
     expect(probe.textContent).toBe("light");

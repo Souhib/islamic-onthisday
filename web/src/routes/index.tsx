@@ -55,9 +55,9 @@ function TodayPage() {
         { en: headline.title, fr: headline.titleFr, ar: headline.titleAr },
         lang,
       );
-      document.title = `${title} · Islamic On This Day`;
+      document.title = `${title} · Thaqafa`;
     } else {
-      document.title = "Islamic On This Day";
+      document.title = "Thaqafa";
     }
   }, [headline, lang]);
 
@@ -146,9 +146,9 @@ function TodayPage() {
         pending={todayQuery.isPending}
       />
 
-      <div className="iotd-grid mx-auto">
+      <div className="thaqafa-grid mx-auto">
         {calendar && <LeftRail today={calendar} observance={observance} />}
-        <div className="iotd-main">
+        <div className="thaqafa-main">
           {todayQuery.isPending && <Loading labelKey="loading" />}
           {todayQuery.isError && <Empty message={t("load_failed")} />}
           {todayQuery.isSuccess && !mainItem && <Empty message={t("not_found")} />}

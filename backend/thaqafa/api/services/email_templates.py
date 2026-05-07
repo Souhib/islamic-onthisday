@@ -35,14 +35,14 @@ def password_reset_email(*, reset_url: str, user_display_name: str | None) -> tu
     env = _get_env()
     ctx = {
         "headline": "Réinitialiser votre mot de passe",
-        "accent_label": "Islamic On This Day",
+        "accent_label": "Thaqafa",
         "greeting": _greeting(user_display_name),
         "href": reset_url,
         "label": "Réinitialiser mon mot de passe",
     }
     html = env.get_template("password_reset.html").render(**ctx)
     text = env.get_template("password_reset.txt").render(**ctx)
-    subject = "Réinitialisez votre mot de passe — Islamic On This Day"
+    subject = "Réinitialisez votre mot de passe — Thaqafa"
     return subject, html, text
 
 
@@ -51,14 +51,14 @@ def email_verification_email(*, verify_url: str, user_display_name: str | None) 
     env = _get_env()
     ctx = {
         "headline": "Bienvenue parmi nous",
-        "accent_label": "Islamic On This Day",
+        "accent_label": "Thaqafa",
         "greeting": _greeting(user_display_name),
         "href": verify_url,
         "label": "Confirmer mon adresse",
     }
     html = env.get_template("email_verification.html").render(**ctx)
     text = env.get_template("email_verification.txt").render(**ctx)
-    subject = "Bienvenue — confirmez votre adresse · Islamic On This Day"
+    subject = "Bienvenue — confirmez votre adresse · Thaqafa"
     return subject, html, text
 
 
@@ -71,14 +71,14 @@ def password_changed_email(*, reset_url: str, user_display_name: str | None) -> 
     env = _get_env()
     ctx = {
         "headline": "Mot de passe modifié",
-        "accent_label": "Islamic On This Day",
+        "accent_label": "Thaqafa",
         "greeting": _greeting(user_display_name),
         "href": reset_url,
         "label": "Réinitialiser mon mot de passe",
     }
     html = env.get_template("password_changed.html").render(**ctx)
     text = env.get_template("password_changed.txt").render(**ctx)
-    subject = "Votre mot de passe a été modifié · Islamic On This Day"
+    subject = "Votre mot de passe a été modifié · Thaqafa"
     return subject, html, text
 
 
@@ -87,14 +87,14 @@ def email_change_verify_email(*, verify_url: str, user_display_name: str | None)
     env = _get_env()
     ctx = {
         "headline": "Confirmer la nouvelle adresse",
-        "accent_label": "Islamic On This Day",
+        "accent_label": "Thaqafa",
         "greeting": _greeting(user_display_name),
         "href": verify_url,
         "label": "Confirmer cette adresse",
     }
     html = env.get_template("email_change_verify.html").render(**ctx)
     text = env.get_template("email_change_verify.txt").render(**ctx)
-    subject = "Confirmez votre nouvelle adresse · Islamic On This Day"
+    subject = "Confirmez votre nouvelle adresse · Thaqafa"
     return subject, html, text
 
 
@@ -108,7 +108,7 @@ def email_change_notice_email(
     env = _get_env()
     ctx = {
         "headline": "Demande de changement d'email",
-        "accent_label": "Islamic On This Day",
+        "accent_label": "Thaqafa",
         "greeting": _greeting(user_display_name),
         "href": reset_url,
         "label": "Réinitialiser mon mot de passe",
@@ -116,5 +116,5 @@ def email_change_notice_email(
     }
     html = env.get_template("email_change_notice.html").render(**ctx)
     text = env.get_template("email_change_notice.txt").render(**ctx)
-    subject = "Demande de changement d'email · Islamic On This Day"
+    subject = "Demande de changement d'email · Thaqafa"
     return subject, html, text

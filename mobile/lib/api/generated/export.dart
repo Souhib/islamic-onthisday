@@ -63,5 +63,5 @@ export 'models/event_summary_verification_status.dart';
 export 'models/event_summary_dispute_about.dart';
 export 'models/source_ref_kind.dart';
 // Root client
-export 'iotd_client.dart';
+export 'thaqafa_client.dart';
 

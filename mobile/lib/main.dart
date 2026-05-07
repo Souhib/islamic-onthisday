@@ -1,3 +1,3 @@
-import 'package:iotd_mobile/bootstrap.dart';
+import 'package:thaqafa/bootstrap.dart';
 
 Future<void> main() => bootstrap();

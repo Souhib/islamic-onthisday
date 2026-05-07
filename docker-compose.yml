@@ -13,11 +13,11 @@ services:
       context: .
       dockerfile: backend/Dockerfile
       target: dev
-    container_name: iotd-backend
+    container_name: thaqafa-backend
     ports:
       - "5111:5111"
     environment:
-      IOTD_ENV: development
+      THAQAFA_ENV: development
       HOST: 0.0.0.0
       PORT: 5111
       LOG_LEVEL: DEBUG
@@ -36,7 +36,7 @@ services:
 
   web:
     image: oven/bun:1
-    container_name: iotd-web
+    container_name: thaqafa-web
     working_dir: /app
     command: sh -c "bun install && bun run dev --host 0.0.0.0"
     ports:

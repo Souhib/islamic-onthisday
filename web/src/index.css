@@ -101,11 +101,11 @@ body {
 }
 
 /* Inline anchor reset used widely on cards / nav links. */
-.iotd-link {
+.thaqafa-link {
   color: inherit;
   text-decoration: none;
 }
-.iotd-link:hover {
+.thaqafa-link:hover {
   color: var(--accent);
 }
 
@@ -114,7 +114,7 @@ body {
    ``gap``, ``flex``, and other Tailwind utilities co-applied to the same
    element — so we reset only the properties we actually need to neutralise
    (default button/link chrome) and leave layout utilities to do their job. */
-.iotd-pick {
+.thaqafa-pick {
   appearance: none;
   background: transparent;
   border: 0;
@@ -128,7 +128,7 @@ body {
   display: block;
   width: 100%;
 }
-.iotd-pick:focus-visible {
+.thaqafa-pick:focus-visible {
   outline: 1px dashed currentColor;
   outline-offset: 4px;
 }
@@ -138,35 +138,35 @@ body {
    Lifted out of an inline <style> block in routes/index.tsx so
    the rules ship once, get cached, and don't duplicate per render.
    ============================================================ */
-.iotd-grid {
+.thaqafa-grid {
   display: grid;
   grid-template-columns: minmax(220px, 280px) minmax(0, 1fr) minmax(240px, 320px);
   padding: 0 clamp(20px, 4vw, 56px);
 }
 @media (min-width: 1600px) {
-  .iotd-grid {
+  .thaqafa-grid {
     grid-template-columns: minmax(220px, 320px) minmax(0, 3fr) minmax(240px, 360px);
   }
 }
 @media (max-width: 1100px) {
-  .iotd-grid {
+  .thaqafa-grid {
     grid-template-columns: minmax(200px, 240px) minmax(0, 1fr);
     padding: 0 clamp(16px, 3vw, 40px);
   }
-  .iotd-rail-right {
+  .thaqafa-rail-right {
     display: none !important;
   }
 }
 @media (max-width: 760px) {
-  .iotd-grid {
+  .thaqafa-grid {
     grid-template-columns: 1fr;
     padding: 0 16px;
   }
-  .iotd-rail-left {
+  .thaqafa-rail-left {
     border-right: none !important;
     padding: 28px 24px !important;
   }
-  .iotd-main {
+  .thaqafa-main {
     padding: 32px 24px 48px !important;
   }
 }

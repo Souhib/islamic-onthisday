@@ -24,7 +24,7 @@ void i18n
     detection: {
       order: ["localStorage", "navigator", "htmlTag"],
       caches: ["localStorage"],
-      lookupLocalStorage: "iotd-lang",
+      lookupLocalStorage: "thaqafa-lang",
     },
   });
 

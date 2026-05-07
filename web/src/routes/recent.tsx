@@ -72,7 +72,7 @@ function RecentPage() {
                       params={{ slug: headline.id }}
                       dir={isRTL ? "rtl" : "ltr"}
                       className={cn(
-                        "iotd-link text-[20px] font-medium leading-[1.15] text-ink",
+                        "thaqafa-link text-[20px] font-medium leading-[1.15] text-ink",
                         lang === "ar" ? "font-arabic" : "font-serif tracking-[-0.3px]",
                       )}
                     >

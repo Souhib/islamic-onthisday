@@ -233,8 +233,8 @@ class _TranslationsAboutFr implements TranslationsAboutEn {
 	@override String get subtitle => 'Quelques mots sur ce qu\'est ce site, qui l\'a construit, et comment me joindre.';
 	@override String get name => 'Souhib Trabelsi';
 	@override String get role => 'Ingénieur logiciel';
-	@override String get bio => 'Ingénieur logiciel avec sept ans d\'expérience, principalement en Python et React. J\'ai lancé Islamic On This Day parce que je voulais une habitude de lecture quotidienne ancrée dans l\'histoire islamique classique. Chaque entrée est vérifiée à la main contre des sources officielles avant publication.';
-	@override String get project_purpose_title => 'Qu\'est-ce qu\'Islamic On This Day ?';
+	@override String get bio => 'Ingénieur logiciel avec sept ans d\'expérience, principalement en Python et React. J\'ai lancé Thaqafa parce que je voulais une habitude de lecture quotidienne ancrée dans l\'histoire islamique classique. Chaque entrée est vérifiée à la main contre des sources officielles avant publication.';
+	@override String get project_purpose_title => 'Qu\'est-ce qu\'Thaqafa ?';
 	@override String get project_purpose_body => 'Un événement vérifié de l\'histoire islamique chaque jour, en calendrier hégirien et grégorien. Chaque entrée — événement, leçon, jour sacré — est vérifiée à la main contre des sources classiques officielles (al-Ṭabarī, Ibn Kathīr, les Six Livres) avant d\'être publiée. On retire une entrée douteuse plutôt que d\'en garder une fausse. La promesse est inconditionnelle : chaque entrée a été éditorialement révisée.';
 	@override String get education_title => 'Formation';
 	@override String get education_epitech => 'Epitech Paris — Master en ingénierie logicielle';
@@ -399,8 +399,8 @@ extension on TranslationsFr {
 			'about.subtitle' => 'Quelques mots sur ce qu\'est ce site, qui l\'a construit, et comment me joindre.',
 			'about.name' => 'Souhib Trabelsi',
 			'about.role' => 'Ingénieur logiciel',
-			'about.bio' => 'Ingénieur logiciel avec sept ans d\'expérience, principalement en Python et React. J\'ai lancé Islamic On This Day parce que je voulais une habitude de lecture quotidienne ancrée dans l\'histoire islamique classique. Chaque entrée est vérifiée à la main contre des sources officielles avant publication.',
-			'about.project_purpose_title' => 'Qu\'est-ce qu\'Islamic On This Day ?',
+			'about.bio' => 'Ingénieur logiciel avec sept ans d\'expérience, principalement en Python et React. J\'ai lancé Thaqafa parce que je voulais une habitude de lecture quotidienne ancrée dans l\'histoire islamique classique. Chaque entrée est vérifiée à la main contre des sources officielles avant publication.',
+			'about.project_purpose_title' => 'Qu\'est-ce qu\'Thaqafa ?',
 			'about.project_purpose_body' => 'Un événement vérifié de l\'histoire islamique chaque jour, en calendrier hégirien et grégorien. Chaque entrée — événement, leçon, jour sacré — est vérifiée à la main contre des sources classiques officielles (al-Ṭabarī, Ibn Kathīr, les Six Livres) avant d\'être publiée. On retire une entrée douteuse plutôt que d\'en garder une fausse. La promesse est inconditionnelle : chaque entrée a été éditorialement révisée.',
 			'about.education_title' => 'Formation',
 			'about.education_epitech' => 'Epitech Paris — Master en ingénierie logicielle',

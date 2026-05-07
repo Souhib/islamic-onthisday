@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/api/generated/models/observance_detail.dart';
-import 'package:iotd_mobile/core/i18n/hijri_months.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/observance/observance_provider.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/generated/models/observance_detail.dart';
+import 'package:thaqafa/core/i18n/hijri_months.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/observance/observance_provider.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// Sacred-day list. Sorted by hijri month + day. Each row pushes the
 /// observance detail.
@@ -28,13 +28,13 @@ class ObservancesListScreen extends ConsumerWidget {
           loading: () => Center(
             child: Text(
               i18n.today.loading.toUpperCase(),
-              style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
             ),
           ),
           error: (_, _) => Center(
             child: Text(
               i18n.today.load_failed,
-              style: IotdTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
+              style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
             ),
           ),
           data: (items) => RefreshIndicator(
@@ -91,7 +91,7 @@ class _Row extends StatelessWidget {
           children: [
             Text(
               dateLabel,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 14,
                 color: t.ink,
                 style: FontStyle.italic,
@@ -100,7 +100,7 @@ class _Row extends StatelessWidget {
             const SizedBox(height: 6),
             Text(
               name,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 18,
                 color: t.ink,
                 weight: FontWeight.w500,
@@ -113,7 +113,7 @@ class _Row extends StatelessWidget {
               description,
               maxLines: 2,
               overflow: TextOverflow.ellipsis,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 14,
                 color: t.inkSoft,
                 style: FontStyle.italic,

@@ -9,7 +9,7 @@ interface ThemeContextValue {
 
 const ThemeContext = createContext<ThemeContextValue | null>(null);
 
-const STORAGE_KEY = "iotd-theme";
+const STORAGE_KEY = "thaqafa-theme";
 
 function getInitialTheme(): Theme {
   if (typeof window === "undefined") return "light";

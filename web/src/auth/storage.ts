@@ -6,7 +6,7 @@
 // replayed indefinitely. The trade-off: a hard refresh transparently
 // trades the refresh token for a fresh pair via /api/v1/auth/refresh.
 
-const REFRESH_TOKEN_KEY = "iotd.refresh_token";
+const REFRESH_TOKEN_KEY = "thaqafa.refresh_token";
 
 export function readStoredRefreshToken(): string | null {
   try {

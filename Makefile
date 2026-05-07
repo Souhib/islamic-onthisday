@@ -79,7 +79,7 @@ mobile-release-ios:
 		--export-options-plist=ios/ExportOptions.plist \
 		--dart-define=SENTRY_DSN=$(MOBILE_SENTRY_DSN) \
 		--dart-define=SENTRY_ENV=$(MOBILE_SENTRY_ENV)
-	@echo "→ ipa: mobile/build/ios/ipa/iotd_mobile.ipa"
+	@echo "→ ipa: mobile/build/ios/ipa/Thaqafa.ipa"
 
 # Capture App Store / Play Store screenshots from a booted simulator.
 # The script drives a deterministic flow (Today → Detail → Recent →

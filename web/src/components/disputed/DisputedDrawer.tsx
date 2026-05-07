@@ -31,9 +31,9 @@ export function DisputedDrawer({ event, onClose }: Props) {
   return (
     <Dialog.Root open onOpenChange={(open) => !open && onClose()}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-40 bg-[rgba(20,18,12,0.45)] dark:bg-[rgba(8,10,14,0.7)] data-[state=open]:animate-[iotd-fade_180ms_ease-out]" />
+        <Dialog.Overlay className="fixed inset-0 z-40 bg-[rgba(20,18,12,0.45)] dark:bg-[rgba(8,10,14,0.7)] data-[state=open]:animate-[thaqafa-fade_180ms_ease-out]" />
         <Dialog.Content
-          className="fixed bottom-0 left-1/2 z-50 max-h-[86vh] w-[min(680px,96vw)] -translate-x-1/2 overflow-auto border-t border-rule bg-paper px-9 pt-8 pb-10 text-ink shadow-[0_-16px_40px_rgba(0,0,0,0.18)] data-[state=open]:animate-[iotd-rise_240ms_cubic-bezier(.2,.7,.2,1)]"
+          className="fixed bottom-0 left-1/2 z-50 max-h-[86vh] w-[min(680px,96vw)] -translate-x-1/2 overflow-auto border-t border-rule bg-paper px-9 pt-8 pb-10 text-ink shadow-[0_-16px_40px_rgba(0,0,0,0.18)] data-[state=open]:animate-[thaqafa-rise_240ms_cubic-bezier(.2,.7,.2,1)]"
           aria-label={t("scholarly_views_label")}
         >
           <FriezeRule label={t("scholarly_views_label")} marginTop={0} marginBottom={22} />
@@ -90,8 +90,8 @@ export function DisputedDrawer({ event, onClose }: Props) {
       </Dialog.Portal>
 
       <style>{`
-        @keyframes iotd-fade { from { opacity: 0 } to { opacity: 1 } }
-        @keyframes iotd-rise { from { transform: translate(-50%, 24px); opacity: 0 } to { transform: translate(-50%, 0); opacity: 1 } }
+        @keyframes thaqafa-fade { from { opacity: 0 } to { opacity: 1 } }
+        @keyframes thaqafa-rise { from { transform: translate(-50%, 24px); opacity: 0 } to { transform: translate(-50%, 0); opacity: 1 } }
       `}</style>
     </Dialog.Root>
   );

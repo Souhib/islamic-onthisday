@@ -127,7 +127,7 @@ function SavesPage() {
             <p className="text-center font-serif italic text-ink-soft">{t("auth.saves_empty")}</p>
             <Link
               to="/"
-              className="iotd-link border border-rule px-3 py-1.5 font-mono text-[10.5px] uppercase tracking-[1.6px] text-ink-soft hover:border-ink hover:text-ink"
+              className="thaqafa-link border border-rule px-3 py-1.5 font-mono text-[10.5px] uppercase tracking-[1.6px] text-ink-soft hover:border-ink hover:text-ink"
             >
               {t("today")}
             </Link>
@@ -141,7 +141,7 @@ function SavesPage() {
         <ul className="flex flex-col">
           {filtered.map((b) => (
             <li key={b.id} className="flex items-start justify-between gap-4 border-b border-rule-soft py-4">
-              <Link to={detailHref(b)} className="iotd-link flex flex-1 flex-col gap-2">
+              <Link to={detailHref(b)} className="thaqafa-link flex flex-1 flex-col gap-2">
                 <span className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                   <Eyebrow color="accent" className="text-[10.5px]">
                     {t(`auth.saves_kind_${b.targetKind}`)}

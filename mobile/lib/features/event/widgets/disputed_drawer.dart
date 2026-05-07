@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:iotd_mobile/api/generated/models/disputed_position.dart';
-import 'package:iotd_mobile/api/generated/models/disputed_position_weight.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/generated/models/disputed_position.dart';
+import 'package:thaqafa/api/generated/models/disputed_position_weight.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// Modal bottom sheet showing every attested position when an event
 /// is `disputed: true`. Tier ladder per row: majority / minority /
@@ -17,7 +17,7 @@ Future<void> showDisputedDrawer(
   return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
-    backgroundColor: Theme.of(context).extension<IotdTokens>()!.paper,
+    backgroundColor: Theme.of(context).extension<ThaqafaTokens>()!.paper,
     shape: const RoundedRectangleBorder(),
     builder: (ctx) => _DisputedDrawerBody(
       positions: positions,
@@ -65,7 +65,7 @@ class _DisputedDrawerBody extends StatelessWidget {
             const SizedBox(height: 10),
             Text(
               i18n.event.disputed_drawer_title,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 26,
                 color: t.ink,
                 weight: FontWeight.w500,
@@ -76,7 +76,7 @@ class _DisputedDrawerBody extends StatelessWidget {
             const SizedBox(height: 6),
             Text(
               i18n.event.disputed_drawer_intro,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 16,
                 color: t.inkSoft,
                 style: FontStyle.italic,
@@ -113,7 +113,7 @@ class _PositionRow extends StatelessWidget {
             children: [
               Text(
                 position.value,
-                style: IotdTypography.serif(
+                style: ThaqafaTypography.serif(
                   size: 18,
                   color: t.ink,
                   weight: FontWeight.w500,
@@ -122,7 +122,7 @@ class _PositionRow extends StatelessWidget {
               const Spacer(),
               Text(
                 _weightLabel(i18n, position.weight).toUpperCase(),
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 10,
                   color: position.weight == DisputedPositionWeight.primary
                       ? t.accent
@@ -135,7 +135,7 @@ class _PositionRow extends StatelessWidget {
           const SizedBox(height: 6),
           Text(
             position.scholars,
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 12,
               color: t.inkMute,
               letterSpacing: 0.4,

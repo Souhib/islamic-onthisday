@@ -21,7 +21,7 @@ export function DetailHeader({ eyebrow }: Props) {
 
   return (
     <header className="grid grid-cols-[1fr_auto_1fr] items-center gap-6 border-b border-rule px-[clamp(20px,4vw,56px)] pt-[26px] pb-[18px]">
-      <Link to="/" className="iotd-pick !flex items-center gap-5">
+      <Link to="/" className="thaqafa-pick !flex items-center gap-5">
         <EightPointStar size={22} className="text-accent" strokeWidth={0.6} />
         <span className="font-mono text-[12.5px] uppercase tracking-[2px] text-ink">
           {t("back_to_today")}

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/core/config/api_config.dart';
+import 'package:thaqafa/core/config/api_config.dart';
 
 /// One ayah from the pipeline-emitted ``quran-extracts.json`` —
 /// vocalised Arabic + Saheeh International EN + Hamidullah FR +

@@ -15,7 +15,7 @@ export function BackToTodayCTA() {
       <div className="text-center">
         <Link
           to="/"
-          className="iotd-link font-mono text-[12px] uppercase tracking-[2px] text-accent"
+          className="thaqafa-link font-mono text-[12px] uppercase tracking-[2px] text-accent"
         >
           {t("back_to_todays_reading")}
         </Link>

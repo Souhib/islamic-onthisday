@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:iotd_mobile/core/config/api_config.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/core/config/api_config.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 const _skills = [
@@ -53,8 +53,8 @@ class AboutScreen extends StatelessWidget {
               about.subtitle,
               textAlign: TextAlign.center,
               style: lang == 'ar'
-                  ? IotdTypography.arabic(size: 17, color: t.inkSoft, height: 1.7)
-                  : IotdTypography.serif(
+                  ? ThaqafaTypography.arabic(size: 17, color: t.inkSoft, height: 1.7)
+                  : ThaqafaTypography.serif(
                       size: 17,
                       color: t.inkSoft,
                       style: FontStyle.italic,
@@ -70,8 +70,8 @@ class AboutScreen extends StatelessWidget {
               child: Text(
                 about.project_purpose_body,
                 style: lang == 'ar'
-                    ? IotdTypography.arabic(size: 17, color: t.inkSoft, height: 1.95)
-                    : IotdTypography.serif(size: 18, color: t.inkSoft, height: 1.7),
+                    ? ThaqafaTypography.arabic(size: 17, color: t.inkSoft, height: 1.95)
+                    : ThaqafaTypography.serif(size: 18, color: t.inkSoft, height: 1.7),
               ),
             ),
 
@@ -100,8 +100,8 @@ class AboutScreen extends StatelessWidget {
                   about.name,
                   textAlign: TextAlign.center,
                   style: lang == 'ar'
-                      ? IotdTypography.arabic(size: 30, color: t.ink, weight: FontWeight.w500)
-                      : IotdTypography.serif(
+                      ? ThaqafaTypography.arabic(size: 30, color: t.ink, weight: FontWeight.w500)
+                      : ThaqafaTypography.serif(
                           size: 30,
                           color: t.ink,
                           weight: FontWeight.w500,
@@ -115,8 +115,8 @@ class AboutScreen extends StatelessWidget {
                 Text(
                   about.bio,
                   style: lang == 'ar'
-                      ? IotdTypography.arabic(size: 16.5, color: t.inkSoft, height: 1.9)
-                      : IotdTypography.serif(size: 17, color: t.inkSoft, height: 1.6),
+                      ? ThaqafaTypography.arabic(size: 16.5, color: t.inkSoft, height: 1.9)
+                      : ThaqafaTypography.serif(size: 17, color: t.inkSoft, height: 1.6),
                 ),
               ],
             ),
@@ -158,7 +158,7 @@ class AboutScreen extends StatelessWidget {
                       decoration: BoxDecoration(border: Border.all(color: t.rule, width: 0.5)),
                       child: Text(
                         s,
-                        style: IotdTypography.mono(
+                        style: ThaqafaTypography.mono(
                           size: 12,
                           color: t.inkSoft,
                           letterSpacing: 0.3,
@@ -206,8 +206,8 @@ class AboutScreen extends StatelessWidget {
                   Text(
                     about.mentoring_body,
                     style: lang == 'ar'
-                        ? IotdTypography.arabic(size: 16, color: t.inkSoft, height: 1.9)
-                        : IotdTypography.serif(size: 16.5, color: t.inkSoft, height: 1.65),
+                        ? ThaqafaTypography.arabic(size: 16, color: t.inkSoft, height: 1.9)
+                        : ThaqafaTypography.serif(size: 16.5, color: t.inkSoft, height: 1.65),
                   ),
                   const SizedBox(height: 18),
                   const Wrap(
@@ -239,8 +239,8 @@ class AboutScreen extends StatelessWidget {
                     child: Text(
                       about.charity_subtitle,
                       style: lang == 'ar'
-                          ? IotdTypography.arabic(size: 16, color: t.inkSoft, height: 1.9)
-                          : IotdTypography.serif(
+                          ? ThaqafaTypography.arabic(size: 16, color: t.inkSoft, height: 1.9)
+                          : ThaqafaTypography.serif(
                               size: 16,
                               color: t.inkSoft,
                               style: FontStyle.italic,
@@ -303,8 +303,8 @@ class AboutScreen extends StatelessWidget {
             Text(
               about.quran_attribution_body,
               style: lang == 'ar'
-                  ? IotdTypography.arabic(size: 14.5, color: t.inkMute, height: 1.85)
-                  : IotdTypography.serif(size: 15, color: t.inkMute, height: 1.65),
+                  ? ThaqafaTypography.arabic(size: 14.5, color: t.inkMute, height: 1.85)
+                  : ThaqafaTypography.serif(size: 15, color: t.inkMute, height: 1.65),
             ),
 
             // --- Legal ---
@@ -345,14 +345,14 @@ class _LegalRow extends StatelessWidget {
             Expanded(
               child: Text(
                 label.toUpperCase(),
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 11,
                   color: t.inkSoft,
                   letterSpacing: 1.4,
                 ),
               ),
             ),
-            Text('↗', style: IotdTypography.mono(size: 14, color: t.accent)),
+            Text('↗', style: ThaqafaTypography.mono(size: 14, color: t.accent)),
           ],
         ),
       ),
@@ -397,7 +397,7 @@ class _BorderedRow extends StatelessWidget {
       ),
       child: Text(
         text,
-        style: IotdTypography.serif(size: 17, color: t.ink, height: 1.4),
+        style: ThaqafaTypography.serif(size: 17, color: t.ink, height: 1.4),
       ),
     );
   }
@@ -430,7 +430,7 @@ class _ExperienceRow extends StatelessWidget {
         children: [
           Text(
             title,
-            style: IotdTypography.serif(
+            style: ThaqafaTypography.serif(
               size: 17,
               color: t.ink,
               weight: FontWeight.w500,
@@ -440,12 +440,12 @@ class _ExperienceRow extends StatelessWidget {
           const SizedBox(height: 6),
           Text(
             period.toUpperCase(),
-            style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.2),
+            style: ThaqafaTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.2),
           ),
           const SizedBox(height: 6),
           Text(
             desc,
-            style: IotdTypography.serif(size: 15, color: t.inkSoft, height: 1.55),
+            style: ThaqafaTypography.serif(size: 15, color: t.inkSoft, height: 1.55),
           ),
         ],
       ),
@@ -489,7 +489,7 @@ class _ProjectRow extends StatelessWidget {
                 Expanded(
                   child: Text(
                     title,
-                    style: IotdTypography.serif(
+                    style: ThaqafaTypography.serif(
                       size: 19,
                       color: t.ink,
                       weight: FontWeight.w500,
@@ -499,14 +499,14 @@ class _ProjectRow extends StatelessWidget {
                 ),
                 Text(
                   '${(cta ?? link).toUpperCase()} ↗',
-                  style: IotdTypography.mono(size: 11, color: t.accent, letterSpacing: 1.4),
+                  style: ThaqafaTypography.mono(size: 11, color: t.accent, letterSpacing: 1.4),
                 ),
               ],
             ),
             const SizedBox(height: 6),
             Text(
               desc,
-              style: IotdTypography.serif(size: 16, color: t.inkSoft, height: 1.55),
+              style: ThaqafaTypography.serif(size: 16, color: t.inkSoft, height: 1.55),
             ),
           ],
         ),
@@ -542,7 +542,7 @@ class _ContactRow extends StatelessWidget {
               width: 96,
               child: Text(
                 label.toUpperCase(),
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 11,
                   color: t.inkMute,
                   letterSpacing: 1.2,
@@ -552,12 +552,12 @@ class _ContactRow extends StatelessWidget {
             Expanded(
               child: Text(
                 value,
-                style: IotdTypography.serif(size: 16, color: t.ink),
+                style: ThaqafaTypography.serif(size: 16, color: t.ink),
               ),
             ),
             Text(
               '↗',
-              style: IotdTypography.mono(size: 14, color: t.accent),
+              style: ThaqafaTypography.mono(size: 14, color: t.accent),
             ),
           ],
         ),
@@ -585,7 +585,7 @@ class _ExternalChip extends StatelessWidget {
           children: [
             Text(
               label.toUpperCase(),
-              style: IotdTypography.mono(
+              style: ThaqafaTypography.mono(
                 size: 12,
                 color: t.inkSoft,
                 letterSpacing: 1.4,
@@ -594,7 +594,7 @@ class _ExternalChip extends StatelessWidget {
             const SizedBox(width: 6),
             Text(
               '↗',
-              style: IotdTypography.mono(size: 12, color: t.accent),
+              style: ThaqafaTypography.mono(size: 12, color: t.accent),
             ),
           ],
         ),

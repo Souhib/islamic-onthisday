@@ -9,8 +9,8 @@ import 'package:google_fonts/google_fonts.dart';
 ///
 /// Loaded via `google_fonts` so the binaries don't have to live in the
 /// repo. Cached locally after first launch.
-class IotdTypography {
-  IotdTypography._();
+class ThaqafaTypography {
+  ThaqafaTypography._();
 
   static TextStyle serif({
     required double size,

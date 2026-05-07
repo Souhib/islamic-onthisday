@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/api/generated/models/observance_detail.dart';
-import 'package:iotd_mobile/core/i18n/collapse_breaks.dart';
-import 'package:iotd_mobile/core/i18n/hijri_months.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/observance/observance_provider.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
-import 'package:iotd_mobile/shared/verse_epigraph.dart';
+import 'package:thaqafa/api/generated/models/observance_detail.dart';
+import 'package:thaqafa/core/i18n/collapse_breaks.dart';
+import 'package:thaqafa/core/i18n/hijri_months.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/observance/observance_provider.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/verse_epigraph.dart';
 
 class ObservanceDetailScreen extends ConsumerWidget {
   const ObservanceDetailScreen({required this.slug, super.key});
@@ -34,13 +34,13 @@ class ObservanceDetailScreen extends ConsumerWidget {
           loading: () => Center(
             child: Text(
               i18n.today.loading.toUpperCase(),
-              style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
             ),
           ),
           error: (_, _) => Center(
             child: Text(
               i18n.errors.not_found,
-              style: IotdTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
+              style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
             ),
           ),
           data: (o) => _Body(observance: o),
@@ -73,7 +73,7 @@ class _Body extends StatelessWidget {
         const SizedBox(height: 16),
         Text(
           name,
-          style: IotdTypography.serif(
+          style: ThaqafaTypography.serif(
             size: 32,
             color: t.ink,
             weight: FontWeight.w500,
@@ -84,7 +84,7 @@ class _Body extends StatelessWidget {
         const SizedBox(height: 10),
         Text(
           dateLabel,
-          style: IotdTypography.serif(
+          style: ThaqafaTypography.serif(
             size: 17,
             color: t.ink,
             style: FontStyle.italic,
@@ -93,7 +93,7 @@ class _Body extends StatelessWidget {
         FriezeRule(label: i18n.today.introduction, marginTop: 22, marginBottom: 14),
         Text(
           collapseHardBreaks(description),
-          style: IotdTypography.serif(
+          style: ThaqafaTypography.serif(
             size: 17,
             color: t.inkSoft,
             style: FontStyle.italic,

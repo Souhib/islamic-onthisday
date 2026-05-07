@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 /// Editorial design tokens — port of the web's CSS variables and the
-/// design mockup's `IOTD_TOKENS`.
+/// design mockup's `THAQAFA_TOKENS`.
 ///
 /// Light mode = warm cream paper. Dark mode = deep ink-blue. Accent is
 /// verdigris/oxidized-copper green; warn is warm umber for unverified
 /// items. Anything color-related in the app should reach for these
-/// tokens via `Theme.of(context).extension<IotdTokens>()` rather than
+/// tokens via `Theme.of(context).extension<ThaqafaTokens>()` rather than
 /// hard-coding hex values — same posture as `Colors.css` in the web bundle.
 @immutable
-class IotdTokens extends ThemeExtension<IotdTokens> {
-  const IotdTokens({
+class ThaqafaTokens extends ThemeExtension<ThaqafaTokens> {
+  const ThaqafaTokens({
     required this.paper,
     required this.paperHi,
     required this.paperLo,
@@ -27,7 +27,7 @@ class IotdTokens extends ThemeExtension<IotdTokens> {
   });
 
   /// Light tokens — cream paper.
-  factory IotdTokens.light() => const IotdTokens(
+  factory ThaqafaTokens.light() => const ThaqafaTokens(
     paper: Color(0xFFF5F0E6),
     paperHi: Color(0xFFFBF7EE),
     paperLo: Color(0xFFEDE6D8),
@@ -47,7 +47,7 @@ class IotdTokens extends ThemeExtension<IotdTokens> {
   );
 
   /// Dark tokens — deep ink-blue.
-  factory IotdTokens.dark() => const IotdTokens(
+  factory ThaqafaTokens.dark() => const ThaqafaTokens(
     paper: Color(0xFF0F1217),
     paperHi: Color(0xFF161A21),
     paperLo: Color(0xFF0A0D12),
@@ -78,7 +78,7 @@ class IotdTokens extends ThemeExtension<IotdTokens> {
   final Color warnBg;
 
   @override
-  ThemeExtension<IotdTokens> copyWith({
+  ThemeExtension<ThaqafaTokens> copyWith({
     Color? paper,
     Color? paperHi,
     Color? paperLo,
@@ -92,7 +92,7 @@ class IotdTokens extends ThemeExtension<IotdTokens> {
     Color? accentBg,
     Color? warn,
     Color? warnBg,
-  }) => IotdTokens(
+  }) => ThaqafaTokens(
     paper: paper ?? this.paper,
     paperHi: paperHi ?? this.paperHi,
     paperLo: paperLo ?? this.paperLo,
@@ -109,9 +109,9 @@ class IotdTokens extends ThemeExtension<IotdTokens> {
   );
 
   @override
-  ThemeExtension<IotdTokens> lerp(ThemeExtension<IotdTokens>? other, double t) {
-    if (other is! IotdTokens) return this;
-    return IotdTokens(
+  ThemeExtension<ThaqafaTokens> lerp(ThemeExtension<ThaqafaTokens>? other, double t) {
+    if (other is! ThaqafaTokens) return this;
+    return ThaqafaTokens(
       paper: Color.lerp(paper, other.paper, t)!,
       paperHi: Color.lerp(paperHi, other.paperHi, t)!,
       paperLo: Color.lerp(paperLo, other.paperLo, t)!,
@@ -130,7 +130,7 @@ class IotdTokens extends ThemeExtension<IotdTokens> {
 }
 
 /// Convenience accessor — `context.tokens.accent` reads cleaner than
-/// `Theme.of(context).extension<IotdTokens>()!.accent`.
-extension IotdTokensAccess on BuildContext {
-  IotdTokens get tokens => Theme.of(this).extension<IotdTokens>()!;
+/// `Theme.of(context).extension<ThaqafaTokens>()!.accent`.
+extension ThaqafaTokensAccess on BuildContext {
+  ThaqafaTokens get tokens => Theme.of(this).extension<ThaqafaTokens>()!;
 }

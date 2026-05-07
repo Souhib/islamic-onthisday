@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:iotd_mobile/api/generated/models/source_ref.dart';
-import 'package:iotd_mobile/api/generated/models/source_ref_kind.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/generated/models/source_ref.dart';
+import 'package:thaqafa/api/generated/models/source_ref_kind.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// List of source references attached to an event. Each row is the
 /// source label (e.g. "al-Bidaya wa'l-Nihaya") with a small mono-cap
@@ -36,7 +36,7 @@ class SourcesSection extends StatelessWidget {
               children: [
                 Text(
                   s.label,
-                  style: IotdTypography.serif(
+                  style: ThaqafaTypography.serif(
                     size: 17,
                     color: t.ink,
                     weight: FontWeight.w500,
@@ -46,7 +46,7 @@ class SourcesSection extends StatelessWidget {
                 const SizedBox(height: 4),
                 Text(
                   _kindLabel(i18n, s.kind).toUpperCase(),
-                  style: IotdTypography.mono(
+                  style: ThaqafaTypography.mono(
                     size: 10,
                     color: t.inkMute,
                     letterSpacing: 1.2,

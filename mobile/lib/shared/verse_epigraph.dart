@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/api/quran_extracts.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/quran_extracts.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// A centered Qur'anic citation rendered as a section divider.
 /// When given ``quranRefs`` from an event/lesson, picks the first
@@ -47,7 +47,7 @@ class VerseEpigraph extends ConsumerWidget {
             child: Text(
               verse.ar,
               textAlign: TextAlign.center,
-              style: IotdTypography.arabic(size: 22, color: t.ink, height: 1.9),
+              style: ThaqafaTypography.arabic(size: 22, color: t.ink, height: 1.9),
             ),
           ),
           if (translation.isNotEmpty) ...[
@@ -55,7 +55,7 @@ class VerseEpigraph extends ConsumerWidget {
             Text(
               '“$translation”',
               textAlign: TextAlign.center,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 16,
                 color: t.inkSoft,
                 style: FontStyle.italic,
@@ -66,7 +66,7 @@ class VerseEpigraph extends ConsumerWidget {
           const SizedBox(height: 20),
           Text(
             '${surahPrefix.toUpperCase()} ${surahName.toUpperCase()} · $ref_',
-            style: IotdTypography.mono(
+            style: ThaqafaTypography.mono(
               size: 11,
               color: t.inkMute,
               letterSpacing: 2,

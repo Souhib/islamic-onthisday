@@ -38,7 +38,7 @@ export function Main({ ev, onOpenDispute }: Props) {
   const verificationLabel = t(verificationKind);
 
   return (
-    <main className="iotd-main mx-auto max-w-[960px] px-[clamp(24px,4vw,56px)] pt-11 pb-[60px]">
+    <main className="thaqafa-main mx-auto max-w-[960px] px-[clamp(24px,4vw,56px)] pt-11 pb-[60px]">
       <div className="mb-4 flex flex-wrap items-center gap-3.5">
         <span className="font-mono text-[12px] uppercase tracking-[2px] text-accent">
           {eraLabel}

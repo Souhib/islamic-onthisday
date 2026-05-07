@@ -233,8 +233,8 @@ class _TranslationsAboutAr implements TranslationsAboutEn {
 	@override String get subtitle => 'كلمات قليلة عن هذا الموقع، ومَن بناه، وكيف يمكن التواصل.';
 	@override String get name => 'صهيب الطرابلسي';
 	@override String get role => 'مهندس برمجيات';
-	@override String get bio => 'مهندس برمجيات بسبع سنوات من الخبرة، أغلبها في Python وReact. أطلقتُ "Islamic On This Day" لأنّي أردتُ عادة قراءة يومية مرتكزة على التاريخ الإسلامي الكلاسيكي. كلّ مدخل مدقَّق يدوياً وفق مصادر رسمية قبل النشر.';
-	@override String get project_purpose_title => 'ما هو Islamic On This Day؟';
+	@override String get bio => 'مهندس برمجيات بسبع سنوات من الخبرة، أغلبها في Python وReact. أطلقتُ "Thaqafa" لأنّي أردتُ عادة قراءة يومية مرتكزة على التاريخ الإسلامي الكلاسيكي. كلّ مدخل مدقَّق يدوياً وفق مصادر رسمية قبل النشر.';
+	@override String get project_purpose_title => 'ما هو Thaqafa؟';
 	@override String get project_purpose_body => 'حدث تاريخي موثَّق من التاريخ الإسلامي في كل يوم، بالتقويمَين الهجري والميلادي. كلّ مدخل — حدث، درس، يوم مبارك — يُحقَّق يدوياً من مصادر كلاسيكية رسمية (الطبري، ابن كثير، الكتب الستة) قبل النشر. نحذف مدخلاً مشكوكاً فيه بدلاً من إبقاء خاطئ. الوعد غير مشروط: كل مدخل مرَّ بمراجعة تحريرية.';
 	@override String get education_title => 'التعليم';
 	@override String get education_epitech => 'Epitech Paris — ماجستير في هندسة البرمجيات';
@@ -399,8 +399,8 @@ extension on TranslationsAr {
 			'about.subtitle' => 'كلمات قليلة عن هذا الموقع، ومَن بناه، وكيف يمكن التواصل.',
 			'about.name' => 'صهيب الطرابلسي',
 			'about.role' => 'مهندس برمجيات',
-			'about.bio' => 'مهندس برمجيات بسبع سنوات من الخبرة، أغلبها في Python وReact. أطلقتُ "Islamic On This Day" لأنّي أردتُ عادة قراءة يومية مرتكزة على التاريخ الإسلامي الكلاسيكي. كلّ مدخل مدقَّق يدوياً وفق مصادر رسمية قبل النشر.',
-			'about.project_purpose_title' => 'ما هو Islamic On This Day؟',
+			'about.bio' => 'مهندس برمجيات بسبع سنوات من الخبرة، أغلبها في Python وReact. أطلقتُ "Thaqafa" لأنّي أردتُ عادة قراءة يومية مرتكزة على التاريخ الإسلامي الكلاسيكي. كلّ مدخل مدقَّق يدوياً وفق مصادر رسمية قبل النشر.',
+			'about.project_purpose_title' => 'ما هو Thaqafa؟',
 			'about.project_purpose_body' => 'حدث تاريخي موثَّق من التاريخ الإسلامي في كل يوم، بالتقويمَين الهجري والميلادي. كلّ مدخل — حدث، درس، يوم مبارك — يُحقَّق يدوياً من مصادر كلاسيكية رسمية (الطبري، ابن كثير، الكتب الستة) قبل النشر. نحذف مدخلاً مشكوكاً فيه بدلاً من إبقاء خاطئ. الوعد غير مشروط: كل مدخل مرَّ بمراجعة تحريرية.',
 			'about.education_title' => 'التعليم',
 			'about.education_epitech' => 'Epitech Paris — ماجستير في هندسة البرمجيات',

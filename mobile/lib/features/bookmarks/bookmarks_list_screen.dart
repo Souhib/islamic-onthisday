@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/api/generated/models/bookmark_out.dart';
-import 'package:iotd_mobile/api/generated/models/bookmark_out_target_kind.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/bookmarks/bookmarks_provider.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/generated/models/bookmark_out.dart';
+import 'package:thaqafa/api/generated/models/bookmark_out_target_kind.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/bookmarks/bookmarks_provider.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// User's saved-for-later list. Reads ``BookmarksNotifier``; tapping
 /// a row pushes the matching event/lesson detail.
@@ -35,13 +35,13 @@ class BookmarksListScreen extends ConsumerWidget {
           loading: () => Center(
             child: Text(
               i18n.today.loading.toUpperCase(),
-              style: IotdTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 11, color: t.inkMute, letterSpacing: 1.4),
             ),
           ),
           error: (_, _) => Center(
             child: Text(
               i18n.today.load_failed,
-              style: IotdTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
+              style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, style: FontStyle.italic),
             ),
           ),
           data: (items) => RefreshIndicator(
@@ -64,7 +64,7 @@ class BookmarksListScreen extends ConsumerWidget {
                         Text(
                           i18n.bookmarks.empty,
                           textAlign: TextAlign.center,
-                          style: IotdTypography.serif(
+                          style: ThaqafaTypography.serif(
                             size: 17,
                             color: t.inkSoft,
                             style: FontStyle.italic,
@@ -116,7 +116,7 @@ class _BookmarkRow extends StatelessWidget {
             const SizedBox(height: 6),
             Text(
               title,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 18,
                 color: t.ink,
                 weight: FontWeight.w500,

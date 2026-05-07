@@ -26,7 +26,7 @@ export function EventCard({ item, showVerification = true }: Props) {
     <Link
       to="/events/$slug"
       params={{ slug: item.id }}
-      className="iotd-link block border-b border-rule-soft py-4"
+      className="thaqafa-link block border-b border-rule-soft py-4"
     >
       <div className="flex flex-wrap items-baseline gap-3">
         <span className="font-mono text-[11px] uppercase tracking-[1.4px] text-accent">

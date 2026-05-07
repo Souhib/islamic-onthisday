@@ -18,7 +18,7 @@ class SentryConfig {
   static const String dsn = String.fromEnvironment('SENTRY_DSN');
   static const String release = String.fromEnvironment(
     'SENTRY_RELEASE',
-    defaultValue: 'iotd_mobile@1.0.0+1',
+    defaultValue: 'thaqafa@1.0.0+1',
   );
   static const String environment = String.fromEnvironment(
     'SENTRY_ENV',

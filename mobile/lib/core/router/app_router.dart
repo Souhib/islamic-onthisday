@@ -1,21 +1,21 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/core/di/providers.dart';
-import 'package:iotd_mobile/features/about/about_screen.dart';
-import 'package:iotd_mobile/features/auth/sign_in_screen.dart';
-import 'package:iotd_mobile/features/auth/sign_up_screen.dart';
-import 'package:iotd_mobile/features/bookmarks/bookmarks_list_screen.dart';
-import 'package:iotd_mobile/features/event/event_detail_screen.dart';
-import 'package:iotd_mobile/features/lesson/lesson_detail_screen.dart';
-import 'package:iotd_mobile/features/observance/observance_detail_screen.dart';
-import 'package:iotd_mobile/features/observance/observances_list_screen.dart';
-import 'package:iotd_mobile/features/onboarding/onboarding_screen.dart';
-import 'package:iotd_mobile/features/person/person_detail_screen.dart';
-import 'package:iotd_mobile/features/recent/recent_screen.dart';
-import 'package:iotd_mobile/features/settings/settings_screen.dart';
-import 'package:iotd_mobile/features/shared/app_shell.dart';
-import 'package:iotd_mobile/features/today/today_screen.dart';
+import 'package:thaqafa/core/di/providers.dart';
+import 'package:thaqafa/features/about/about_screen.dart';
+import 'package:thaqafa/features/auth/sign_in_screen.dart';
+import 'package:thaqafa/features/auth/sign_up_screen.dart';
+import 'package:thaqafa/features/bookmarks/bookmarks_list_screen.dart';
+import 'package:thaqafa/features/event/event_detail_screen.dart';
+import 'package:thaqafa/features/lesson/lesson_detail_screen.dart';
+import 'package:thaqafa/features/observance/observance_detail_screen.dart';
+import 'package:thaqafa/features/observance/observances_list_screen.dart';
+import 'package:thaqafa/features/onboarding/onboarding_screen.dart';
+import 'package:thaqafa/features/person/person_detail_screen.dart';
+import 'package:thaqafa/features/recent/recent_screen.dart';
+import 'package:thaqafa/features/settings/settings_screen.dart';
+import 'package:thaqafa/features/shared/app_shell.dart';
+import 'package:thaqafa/features/today/today_screen.dart';
 
 /// Top-level router. Reads `onboardingProvider` for the redirect gate:
 ///   - hasCompletedOnboarding == false  → /onboarding

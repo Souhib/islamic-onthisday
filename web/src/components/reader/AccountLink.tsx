@@ -4,7 +4,7 @@
 // app gets the same auth-aware control without having three near-
 // identical conditionals to keep in sync.
 //
-// Visually treated as a bordered chip rather than a plain ``iotd-link``
+// Visually treated as a bordered chip rather than a plain ``thaqafa-link``
 // so it doesn't blend with the editorial nav items (Recent / Sacred
 // Days) — sign-in is an action, not a navigation entry, and the editor-
 // chrome ought to read that distinction at a glance. Same border-chip

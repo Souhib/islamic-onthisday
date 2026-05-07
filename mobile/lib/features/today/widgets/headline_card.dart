@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:iotd_mobile/api/generated/models/event_detail_verification_status.dart';
-import 'package:iotd_mobile/api/generated/models/today_response.dart';
-import 'package:iotd_mobile/api/generated/models/today_response_headline_sealed.dart';
-import 'package:iotd_mobile/core/i18n/collapse_breaks.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/generated/models/event_detail_verification_status.dart';
+import 'package:thaqafa/api/generated/models/today_response.dart';
+import 'package:thaqafa/api/generated/models/today_response_headline_sealed.dart';
+import 'package:thaqafa/core/i18n/collapse_breaks.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// The hero composition: era eyebrow, verification chip, full-width
 /// title (Cormorant Garamond), Arabic companion when the locale is
@@ -52,7 +52,7 @@ class HeadlineCard extends StatelessWidget {
               const SizedBox(height: 16),
               Text(
                 localisedTitle,
-                style: IotdTypography.serif(
+                style: ThaqafaTypography.serif(
                   size: 34,
                   color: t.ink,
                   weight: FontWeight.w500,
@@ -66,7 +66,7 @@ class HeadlineCard extends StatelessWidget {
                   textDirection: TextDirection.rtl,
                   child: Text(
                     headline.titleAr!,
-                    style: IotdTypography.arabic(
+                    style: ThaqafaTypography.arabic(
                       size: 22,
                       color: t.inkSoft,
                       height: 1.5,
@@ -84,7 +84,7 @@ class HeadlineCard extends StatelessWidget {
               ),
               Text(
                 collapseHardBreaks(localisedSummary),
-                style: IotdTypography.serif(
+                style: ThaqafaTypography.serif(
                   size: 18,
                   color: t.inkSoft,
                   style: FontStyle.italic,
@@ -109,7 +109,7 @@ class HeadlineCard extends StatelessWidget {
               const SizedBox(height: 16),
               Text(
                 localisedTitle,
-                style: IotdTypography.serif(
+                style: ThaqafaTypography.serif(
                   size: 34,
                   color: t.ink,
                   weight: FontWeight.w500,
@@ -125,7 +125,7 @@ class HeadlineCard extends StatelessWidget {
               ),
               Text(
                 collapseHardBreaks(localisedSummary),
-                style: IotdTypography.serif(
+                style: ThaqafaTypography.serif(
                   size: 18,
                   color: t.inkSoft,
                   style: FontStyle.italic,
@@ -152,12 +152,12 @@ class _DatesRow extends StatelessWidget {
     // All three dates share font (serif italic) + size; only colour
     // shifts subtly to keep a primary/secondary ladder without a
     // clashing mono-vs-serif break on a single phone-width line.
-    final primary = IotdTypography.serif(
+    final primary = ThaqafaTypography.serif(
       size: 19,
       color: t.ink,
       style: FontStyle.italic,
     );
-    final secondary = IotdTypography.serif(
+    final secondary = ThaqafaTypography.serif(
       size: 19,
       color: t.inkSoft,
       style: FontStyle.italic,

@@ -1,6 +1,6 @@
 # backend/
 
-FastAPI service for Islamic On This Day. Read-only over the SQLite database
+FastAPI service for Thaqafa. Read-only over the SQLite database
 the `data-pipeline/` produces.
 
 Layout mirrors the canonical Souhib FastAPI shape used in

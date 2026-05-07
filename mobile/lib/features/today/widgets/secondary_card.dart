@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:iotd_mobile/api/generated/models/today_response_secondary_sealed.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/api/generated/models/today_response_secondary_sealed.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 
 /// One row in the "More reading for today" stack — a small card with
 /// era / category eyebrow, title in serif, and a thin metadata strip
@@ -32,7 +32,7 @@ class SecondaryCard extends StatelessWidget {
             const SizedBox(height: 8),
             Text(
               title,
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 18,
                 color: t.ink,
                 weight: FontWeight.w500,
@@ -44,7 +44,7 @@ class SecondaryCard extends StatelessWidget {
               const SizedBox(height: 6),
               Text(
                 meta,
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 11.5,
                   color: t.inkMute,
                   letterSpacing: 0.6,

@@ -3,14 +3,14 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:iotd_mobile/core/router/app_router.dart';
-import 'package:iotd_mobile/core/services/app_settings.dart';
-import 'package:iotd_mobile/core/services/notifications_provider.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
-import 'package:iotd_mobile/core/theme/iotd_typography.dart';
-import 'package:iotd_mobile/features/auth/account_section.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
-import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:thaqafa/core/router/app_router.dart';
+import 'package:thaqafa/core/services/app_settings.dart';
+import 'package:thaqafa/core/services/notifications_provider.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_typography.dart';
+import 'package:thaqafa/features/auth/account_section.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
+import 'package:thaqafa/shared/primitives.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
 /// Settings — theme + language + (later) notifications. Each row is a
@@ -110,7 +110,7 @@ class SettingsScreen extends ConsumerWidget {
                     Expanded(
                       child: Text(
                         i18n.settings.about.toUpperCase(),
-                        style: IotdTypography.mono(
+                        style: ThaqafaTypography.mono(
                           size: 11,
                           color: t.inkSoft,
                           letterSpacing: 1.4,
@@ -119,7 +119,7 @@ class SettingsScreen extends ConsumerWidget {
                     ),
                     Text(
                       '↗',
-                      style: IotdTypography.mono(size: 14, color: t.accent),
+                      style: ThaqafaTypography.mono(size: 14, color: t.accent),
                     ),
                   ],
                 ),
@@ -162,7 +162,7 @@ class _DebugCrashRow extends StatelessWidget {
           Expanded(
             child: Text(
               'DEBUG · GLITCHTIP TEST',
-              style: IotdTypography.mono(
+              style: ThaqafaTypography.mono(
                 size: 11,
                 color: t.warn,
                 letterSpacing: 1.4,
@@ -171,30 +171,30 @@ class _DebugCrashRow extends StatelessWidget {
           ),
           TextButton(
             onPressed: () {
-              throw StateError('[iotd] sync crash test');
+              throw StateError('[thaqafa] sync crash test');
             },
             child: Text(
               'throw',
-              style: IotdTypography.mono(size: 12, color: t.warn, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 12, color: t.warn, letterSpacing: 1.4),
             ),
           ),
           TextButton(
             onPressed: () async {
               await Future<void>.delayed(const Duration(milliseconds: 1));
-              throw StateError('[iotd] async crash test');
+              throw StateError('[thaqafa] async crash test');
             },
             child: Text(
               'async',
-              style: IotdTypography.mono(size: 12, color: t.warn, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 12, color: t.warn, letterSpacing: 1.4),
             ),
           ),
           TextButton(
             onPressed: () async {
-              await Sentry.captureMessage('[iotd] manual ping from settings');
+              await Sentry.captureMessage('[thaqafa] manual ping from settings');
             },
             child: Text(
               'ping',
-              style: IotdTypography.mono(size: 12, color: t.accent, letterSpacing: 1.4),
+              style: ThaqafaTypography.mono(size: 12, color: t.accent, letterSpacing: 1.4),
             ),
           ),
         ],
@@ -227,7 +227,7 @@ class _ToggleRow extends StatelessWidget {
             Expanded(
               child: Text(
                 label.toUpperCase(),
-                style: IotdTypography.mono(
+                style: ThaqafaTypography.mono(
                   size: 11,
                   color: t.inkSoft,
                   letterSpacing: 1.4,
@@ -295,7 +295,7 @@ class _TimePickerRow extends StatelessWidget {
                   children: [
                     Text(
                       label.toUpperCase(),
-                      style: IotdTypography.mono(
+                      style: ThaqafaTypography.mono(
                         size: 11,
                         color: t.inkMute,
                         letterSpacing: 1.4,
@@ -306,7 +306,7 @@ class _TimePickerRow extends StatelessWidget {
                       onPressed: () => Navigator.of(ctx).pop(),
                       child: Text(
                         'OK',
-                        style: IotdTypography.mono(
+                        style: ThaqafaTypography.mono(
                           size: 12,
                           color: t.accent,
                           letterSpacing: 1.4,
@@ -320,7 +320,7 @@ class _TimePickerRow extends StatelessWidget {
                 child: CupertinoTheme(
                   data: CupertinoThemeData(
                     textTheme: CupertinoTextThemeData(
-                      dateTimePickerTextStyle: IotdTypography.serif(
+                      dateTimePickerTextStyle: ThaqafaTypography.serif(
                         size: 22,
                         color: t.ink,
                         weight: FontWeight.w500,
@@ -358,7 +358,7 @@ class _TimePickerRow extends StatelessWidget {
           children: [
             Text(
               label.toUpperCase(),
-              style: IotdTypography.mono(
+              style: ThaqafaTypography.mono(
                 size: 11,
                 color: t.inkMute,
                 letterSpacing: 1.4,
@@ -367,7 +367,7 @@ class _TimePickerRow extends StatelessWidget {
             const Spacer(),
             Text(
               _format(value),
-              style: IotdTypography.serif(
+              style: ThaqafaTypography.serif(
                 size: 22,
                 color: t.ink,
                 weight: FontWeight.w500,
@@ -376,7 +376,7 @@ class _TimePickerRow extends StatelessWidget {
             const SizedBox(width: 10),
             Text(
               '↗',
-              style: IotdTypography.mono(size: 14, color: t.accent),
+              style: ThaqafaTypography.mono(size: 14, color: t.accent),
             ),
           ],
         ),
@@ -415,7 +415,7 @@ class _SegmentRow<T> extends StatelessWidget {
                   child: Center(
                     child: Text(
                       options[i].$2.toUpperCase(),
-                      style: IotdTypography.mono(
+                      style: ThaqafaTypography.mono(
                         size: 11,
                         color: options[i].$1 == value ? t.paper : t.inkSoft,
                         letterSpacing: 1.4,

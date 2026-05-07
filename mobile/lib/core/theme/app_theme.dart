@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:iotd_mobile/core/theme/iotd_tokens.dart';
+import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
 
 /// Material theme builder. The bulk of color decisions go through
-/// `IotdTokens` (a `ThemeExtension`); this just wires Material's slots
+/// `ThaqafaTokens` (a `ThemeExtension`); this just wires Material's slots
 /// (scaffold, app bar, etc.) to the same palette so a stock Material
 /// widget reads correctly without us reaching into tokens manually.
 class AppTheme {
   AppTheme._();
 
   static ThemeData light() {
-    final tokens = IotdTokens.light();
+    final tokens = ThaqafaTokens.light();
     return _build(tokens, Brightness.light);
   }
 
   static ThemeData dark() {
-    final tokens = IotdTokens.dark();
+    final tokens = ThaqafaTokens.dark();
     return _build(tokens, Brightness.dark);
   }
 
-  static ThemeData _build(IotdTokens t, Brightness brightness) {
+  static ThemeData _build(ThaqafaTokens t, Brightness brightness) {
     final base = ThemeData(
       brightness: brightness,
       useMaterial3: true,

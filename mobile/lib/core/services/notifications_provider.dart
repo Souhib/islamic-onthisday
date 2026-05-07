@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/core/di/providers.dart';
-import 'package:iotd_mobile/core/notifications/notification_scheduler.dart';
-import 'package:iotd_mobile/core/notifications/notification_service.dart';
+import 'package:thaqafa/core/di/providers.dart';
+import 'package:thaqafa/core/notifications/notification_scheduler.dart';
+import 'package:thaqafa/core/notifications/notification_service.dart';
 
 /// Reactive flag for "daily notification enabled". Pushes
 /// (re-)schedules through `NotificationService` whenever it flips.

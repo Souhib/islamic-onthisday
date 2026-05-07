@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/app.dart';
-import 'package:iotd_mobile/core/di/providers.dart';
-import 'package:iotd_mobile/core/notifications/notification_service.dart';
-import 'package:iotd_mobile/core/observability/sentry_config.dart';
-import 'package:iotd_mobile/core/storage/preferences_service.dart';
-import 'package:iotd_mobile/i18n/strings.g.dart';
+import 'package:thaqafa/app.dart';
+import 'package:thaqafa/core/di/providers.dart';
+import 'package:thaqafa/core/notifications/notification_service.dart';
+import 'package:thaqafa/core/observability/sentry_config.dart';
+import 'package:thaqafa/core/storage/preferences_service.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
 import 'package:marionette_flutter/marionette_flutter.dart';
 
 /// Boot the app:
@@ -36,7 +36,7 @@ Future<void> bootstrap() async {
     runApp(
       ProviderScope(
         overrides: [prefsServiceProvider.overrideWithValue(prefs)],
-        child: TranslationProvider(child: const IotdApp()),
+        child: TranslationProvider(child: const ThaqafaApp()),
       ),
     );
   });

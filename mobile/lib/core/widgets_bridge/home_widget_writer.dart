@@ -1,13 +1,13 @@
 import 'package:home_widget/home_widget.dart';
-import 'package:iotd_mobile/api/generated/models/today_calendar.dart';
-import 'package:iotd_mobile/api/generated/models/today_response_headline_sealed.dart';
-import 'package:iotd_mobile/api/generated/models/today_response.dart';
+import 'package:thaqafa/api/generated/models/today_calendar.dart';
+import 'package:thaqafa/api/generated/models/today_response_headline_sealed.dart';
+import 'package:thaqafa/api/generated/models/today_response.dart';
 
 /// Pushes Today payload into the platform shared container so the
 /// native widgets (iOS WidgetKit / Android Glance) can read it.
 ///
 /// Keys used by the widget extensions (must stay in sync with
-/// ``ios/IotdWidget/IotdWidgetEntry.swift`` and the Android side):
+/// ``ios/ThaqafaWidget/ThaqafaWidgetEntry.swift`` and the Android side):
 ///
 ///   - ``hijri_day``   ``int``    e.g. 19
 ///   - ``hijri_month`` ``String`` e.g. "Dhū al-Qaʿda"
@@ -23,14 +23,14 @@ import 'package:iotd_mobile/api/generated/models/today_response.dart';
 class HomeWidgetWriter {
   HomeWidgetWriter._();
 
-  static const String _kAndroidName = 'IotdWidgetProvider';
-  static const String _kIosName = 'IotdWidget';
+  static const String _kAndroidName = 'ThaqafaWidgetProvider';
+  static const String _kIosName = 'ThaqafaWidget';
 
   /// Configure the App Group used by both Flutter and the WidgetKit
   /// extension on iOS. The same string must be set in both
   /// entitlements files. Replace with your prod App Group ID before
   /// signing for the App Store.
-  static const String _kAppGroupId = 'group.app.iotd.mobile';
+  static const String _kAppGroupId = 'group.app.thaqafa.app';
 
   static Future<void> ensureConfigured() async {
     await HomeWidget.setAppGroupId(_kAppGroupId);

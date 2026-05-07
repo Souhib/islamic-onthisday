@@ -1,6 +1,6 @@
 //
 //  AppIntent.swift
-//  IotdWidget
+//  ThaqafaWidget
 //
 //  Created by Souhib Trabelsi on 06/05/2026.
 //

@@ -28,7 +28,7 @@ function ObservancesPage() {
               key={obs.id}
               to="/observances/$slug"
               params={{ slug: obs.id }}
-              className="iotd-link grid grid-cols-[120px_1fr] items-baseline gap-6 border-b border-rule-soft py-5"
+              className="thaqafa-link grid grid-cols-[120px_1fr] items-baseline gap-6 border-b border-rule-soft py-5"
             >
               <div>
                 <div className="font-serif text-[38px] font-medium leading-none tracking-[-1.2px] text-ink">

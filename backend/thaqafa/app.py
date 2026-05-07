@@ -68,7 +68,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             logger.info("api_stopped")
 
     app = FastAPI(
-        title="Islamic On This Day",
+        title="Thaqafa",
         version=__version__,
         description=(
             "Read-only API serving one verified Islamic-history event per day, in "

@@ -161,7 +161,7 @@ def _render_sitemap(urls: list[tuple[str, datetime, str]]) -> str:
 def _build_robots(*, frontend_url: str) -> str:
     """Return robots.txt that points to the sitemap and blocks AI scrapers."""
     lines: list[str] = [
-        "# Islamic On This Day",
+        "# Thaqafa",
         "# Robots policy for search engines",
         "",
         "User-agent: *",
@@ -329,7 +329,7 @@ def _render_atom(items: list[_FeedItem], *, frontend_url: str) -> str:
     parts = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<feed xmlns="http://www.w3.org/2005/Atom">',
-        "  <title>Islamic On This Day</title>",
+        "  <title>Thaqafa</title>",
         f'  <link href={_quote_attr(self_link)} rel="self" />',
         f"  <link href={_quote_attr(home_link)} />",
         f"  <id>{_xml_escape(home_link)}</id>",

@@ -125,7 +125,7 @@ The OpenAPI client is generated from `web/openapi.json`. **Never edit
 
 ```sh
 # from backend/
-uv run python -c "import json; from iotd.app import create_app; print(json.dumps(create_app().openapi()))" \
+uv run python -c "import json; from thaqafa.app import create_app; print(json.dumps(create_app().openapi()))" \
   > openapi.json && cp openapi.json ../web/openapi.json
 # from web/
 bun run generate-api
@@ -187,7 +187,7 @@ event taxonomy stays auditable in one place.
 | ------------------------- | ------------------------------------------------------ |
 | `VITE_API_URL`            | Backend origin for the generated client. Default: `window.location.origin`. |
 | `VITE_SENTRY_DSN`         | Sentry DSN; empty disables the SDK (default in dev).   |
-| `VITE_UMAMI_URL`          | Umami host (e.g. `https://analytics.iotd.app`); empty disables. |
+| `VITE_UMAMI_URL`          | Umami host (e.g. `https://analytics.thaqafa.app`); empty disables. |
 | `VITE_UMAMI_WEBSITE_ID`   | Umami site UUID. Empty disables.                       |
 | `VITE_APP_VERSION`        | Auto-injected from `package.json` at build time. Don't set manually. |
 

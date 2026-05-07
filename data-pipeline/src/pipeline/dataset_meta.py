@@ -21,7 +21,7 @@ from pipeline.models.db import Event, Observance, Person
 DEFAULT_OUTPUT_DIR: Path = PROJECT_ROOT.parent / "web" / "public"
 
 # Mirror of the headline-eligibility ladder in
-# ``backend/iotd/api/constants.py`` and ``syndication.py``. Tier-1 events
+# ``backend/thaqafa/api/constants.py`` and ``syndication.py``. Tier-1 events
 # are what the FE Today route surfaces, so this is the right metric for
 # the public footer signal.
 _HEADLINE_IMPORTANCE: tuple[str, ...] = ("major", "notable")

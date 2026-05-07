@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:iotd_mobile/core/config/api_config.dart';
+import 'package:thaqafa/core/config/api_config.dart';
 
 /// Pipeline-emitted dataset depth signal — same JSON the web's
 /// footer reads. Cached for the session (it's a static asset

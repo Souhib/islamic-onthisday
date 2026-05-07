@@ -1,9 +1,9 @@
 {
-  "name": "iotd-web",
+  "name": "thaqafa-web",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Islamic On This Day — web reading surface (Vite + React + TanStack)",
+  "description": "Thaqafa — web reading surface (Vite + React + TanStack)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
