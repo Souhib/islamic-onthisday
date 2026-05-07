@@ -130,7 +130,14 @@ class SettingsScreen extends ConsumerWidget {
             // tile to end users. Tap "throw" to fire a sync exception
             // (caught by ``FlutterError.onError``); tap "async" for a
             // future error (caught by ``PlatformDispatcher.onError``).
-            if (kDebugMode) ...[
+            //
+            // ``HIDE_DEBUG_TILE`` lets us capture clean App Store
+            // screenshots from a debug build (iOS sim doesn't support
+            // release/profile, so it's the only way) without permanently
+            // gating the row on a release flag. Pass via:
+            //   flutter run --dart-define=HIDE_DEBUG_TILE=true
+            if (kDebugMode &&
+                !const bool.fromEnvironment('HIDE_DEBUG_TILE')) ...[
               const SizedBox(height: 24),
               const _DebugCrashRow(),
             ],
