@@ -1,9 +1,11 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:iotd_mobile/api/generated/iotd_client.dart';
 import 'package:iotd_mobile/api/generated/models/recent_day.dart';
 import 'package:iotd_mobile/api/generated/models/recent_day_headline_sealed.dart';
 import 'package:iotd_mobile/core/di/api_providers.dart';
 import 'package:iotd_mobile/core/di/providers.dart';
 import 'package:iotd_mobile/core/notifications/notification_service.dart';
+import 'package:iotd_mobile/core/storage/preferences_service.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 
 /// Default pre-fetch window. Seven covers the user that opens the app
@@ -28,16 +30,17 @@ const int kPersonalisedNotifWindow = 7;
 /// Network failure or upcoming-fetch error degrades to generic-only
 /// scheduling — the user still gets a daily reminder, just without
 /// the per-day headline.
-Future<void> rescheduleDailyNotifications(
-  Ref ref, {
+Future<void> rescheduleDailyNotifications({
+  required IotdClient client,
+  required PreferencesService prefs,
   required AppLocale locale,
-  required int hour,
-  required int minute,
-  required bool enabled,
   required String genericTitle,
   required String genericBody,
 }) async {
-  if (!enabled) {
+  final hour = prefs.notificationHour;
+  final minute = prefs.notificationMinute;
+
+  if (!prefs.notificationsEnabled) {
     await NotificationService.instance.scheduleDaily(
       enabled: false,
       hour: hour,
@@ -50,9 +53,7 @@ Future<void> rescheduleDailyNotifications(
 
   List<({String title, String body})> upcoming = const [];
   try {
-    final response = await ref
-        .read(iotdClientProvider)
-        .upcoming
+    final response = await client.upcoming
         .getUpcomingApiV1UpcomingGet(days: kPersonalisedNotifWindow);
     upcoming = [
       for (final day in response.days)
@@ -68,7 +69,7 @@ Future<void> rescheduleDailyNotifications(
   // network roundtrip was in flight would have their schedule re-armed
   // here — the toggle's own ``cancelAll`` already ran, but this path
   // would race in behind it and re-create the notifications.
-  if (!ref.read(prefsServiceProvider).notificationsEnabled) {
+  if (!prefs.notificationsEnabled) {
     await NotificationService.instance.scheduleDaily(
       enabled: false,
       hour: hour,
@@ -106,22 +107,49 @@ String _pick(String lang, String en, String? ar, String? fr) => switch (lang) {
       _ => en,
     };
 
-/// Convenience for callers that already have a Riverpod ``Ref`` and
-/// just want to bounce the schedule off the current preferences.
+Future<void> _rescheduleVia({
+  required IotdClient Function() readClient,
+  required PreferencesService Function() readPrefs,
+  required String genericTitle,
+  required String genericBody,
+}) async {
+  await rescheduleDailyNotifications(
+    client: readClient(),
+    prefs: readPrefs(),
+    locale: LocaleSettings.currentLocale,
+    genericTitle: genericTitle,
+    genericBody: genericBody,
+  );
+}
+
+/// Convenience for callers that already have a Riverpod ``Ref`` (i.e.
+/// inside a Notifier or a provider) and just want to bounce the
+/// schedule off the current preferences.
 extension RescheduleFromPrefs on Ref {
   Future<void> rescheduleDailyNotificationsFromPrefs({
     required String genericTitle,
     required String genericBody,
-  }) async {
-    final prefs = read(prefsServiceProvider);
-    await rescheduleDailyNotifications(
-      this,
-      locale: LocaleSettings.currentLocale,
-      hour: prefs.notificationHour,
-      minute: prefs.notificationMinute,
-      enabled: prefs.notificationsEnabled,
-      genericTitle: genericTitle,
-      genericBody: genericBody,
-    );
-  }
+  }) =>
+      _rescheduleVia(
+        readClient: () => read(iotdClientProvider),
+        readPrefs: () => read(prefsServiceProvider),
+        genericTitle: genericTitle,
+        genericBody: genericBody,
+      );
+}
+
+/// Same convenience but for the widget-level ``WidgetRef``. Onboarding
+/// and any other ``ConsumerStatefulWidget`` reaches the scheduler
+/// through this surface.
+extension RescheduleFromPrefsWidget on WidgetRef {
+  Future<void> rescheduleDailyNotificationsFromPrefs({
+    required String genericTitle,
+    required String genericBody,
+  }) =>
+      _rescheduleVia(
+        readClient: () => read(iotdClientProvider),
+        readPrefs: () => read(prefsServiceProvider),
+        genericTitle: genericTitle,
+        genericBody: genericBody,
+      );
 }

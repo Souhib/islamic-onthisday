@@ -75,6 +75,19 @@ class _TranslationsOnboardingAr implements TranslationsOnboardingEn {
 	@override String get headline => 'السجل الكلاسيكي،\nيومًا بعد يوم.';
 	@override String get subhead => 'أحداث موثّقة من قوس التاريخ الإسلامي الممتد لأربعة عشر قرنًا. كلّ مدخل متجذّر في المصادر الكلاسيكية، وكلّ تاريخ متنازع عليه محفوظ.';
 	@override String get begin => 'ابدأ';
+	@override String get skip => 'تخطّى';
+	@override String get kContinue => 'تابِع';
+	@override String get lang_eyebrow => 'اختر لغتك';
+	@override String get lang_headline => 'اقرأ بلغتك.';
+	@override String get lang_subhead => 'القراءة ومصادرها مترجمة إلى العربية والإنجليزية والفرنسية. يمكنك التغيير لاحقًا من الإعدادات.';
+	@override String get lang_en => 'English';
+	@override String get lang_fr => 'Français';
+	@override String get lang_ar => 'العربية';
+	@override String get notif_eyebrow => 'موعد يومي';
+	@override String get notif_headline => 'تذكير هادئ،\nمرّة في اليوم.';
+	@override String get notif_subhead => 'اختر الساعة التي تناسبك. لا إشعارات أخرى، ويمكنك إيقاف هذا في أيّ وقت.';
+	@override String get notif_enable => 'إشعار يومي';
+	@override String get notif_time => 'وقت التذكير';
 }
 
 // Path: today
@@ -318,6 +331,19 @@ extension on TranslationsAr {
 			'onboarding.headline' => 'السجل الكلاسيكي،\nيومًا بعد يوم.',
 			'onboarding.subhead' => 'أحداث موثّقة من قوس التاريخ الإسلامي الممتد لأربعة عشر قرنًا. كلّ مدخل متجذّر في المصادر الكلاسيكية، وكلّ تاريخ متنازع عليه محفوظ.',
 			'onboarding.begin' => 'ابدأ',
+			'onboarding.skip' => 'تخطّى',
+			'onboarding.kContinue' => 'تابِع',
+			'onboarding.lang_eyebrow' => 'اختر لغتك',
+			'onboarding.lang_headline' => 'اقرأ بلغتك.',
+			'onboarding.lang_subhead' => 'القراءة ومصادرها مترجمة إلى العربية والإنجليزية والفرنسية. يمكنك التغيير لاحقًا من الإعدادات.',
+			'onboarding.lang_en' => 'English',
+			'onboarding.lang_fr' => 'Français',
+			'onboarding.lang_ar' => 'العربية',
+			'onboarding.notif_eyebrow' => 'موعد يومي',
+			'onboarding.notif_headline' => 'تذكير هادئ،\nمرّة في اليوم.',
+			'onboarding.notif_subhead' => 'اختر الساعة التي تناسبك. لا إشعارات أخرى، ويمكنك إيقاف هذا في أيّ وقت.',
+			'onboarding.notif_enable' => 'إشعار يومي',
+			'onboarding.notif_time' => 'وقت التذكير',
 			'today.title' => 'اليوم',
 			'today.loading' => 'جارٍ التحميل',
 			'today.load_failed' => 'تعذّر تحميل اليوم.',

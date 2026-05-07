@@ -7,7 +7,20 @@
     "eyebrow": "À notre époque",
     "headline": "Le corpus classique,\njour après jour.",
     "subhead": "Des événements vérifiés sur les 1 400 ans de l'histoire de l'islam. Chaque entrée enracinée dans les sources classiques, chaque date contestée préservée.",
-    "begin": "Commencer"
+    "begin": "Commencer",
+    "skip": "Passer",
+    "continue": "Continuer",
+    "lang_eyebrow": "Choisis ta langue",
+    "lang_headline": "Lis dans ta langue.",
+    "lang_subhead": "La lecture et ses sources sont traduites en français, anglais et arabe. Tu pourras changer plus tard depuis les paramètres.",
+    "lang_en": "English",
+    "lang_fr": "Français",
+    "lang_ar": "العربية",
+    "notif_eyebrow": "Un moment quotidien",
+    "notif_headline": "Un rappel discret,\nune fois par jour.",
+    "notif_subhead": "Choisis l'heure qui t'arrange. Aucune autre notification, et tu peux désactiver à tout moment.",
+    "notif_enable": "Notification quotidienne",
+    "notif_time": "Heure du rappel"
   },
   "today": {
     "title": "Aujourd'hui",

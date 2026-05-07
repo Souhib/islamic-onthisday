@@ -90,6 +90,45 @@ class TranslationsOnboardingEn {
 
 	/// en: 'Begin'
 	String get begin => 'Begin';
+
+	/// en: 'Skip'
+	String get skip => 'Skip';
+
+	/// en: 'Continue'
+	String get kContinue => 'Continue';
+
+	/// en: 'Choose your tongue'
+	String get lang_eyebrow => 'Choose your tongue';
+
+	/// en: 'Read in your language.'
+	String get lang_headline => 'Read in your language.';
+
+	/// en: 'The reading and its sources are translated into English, French, and Arabic. You can switch later from Settings.'
+	String get lang_subhead => 'The reading and its sources are translated into English, French, and Arabic. You can switch later from Settings.';
+
+	/// en: 'English'
+	String get lang_en => 'English';
+
+	/// en: 'Français'
+	String get lang_fr => 'Français';
+
+	/// en: 'العربية'
+	String get lang_ar => 'العربية';
+
+	/// en: 'A daily moment'
+	String get notif_eyebrow => 'A daily moment';
+
+	/// en: 'One quiet reminder, once a day.'
+	String get notif_headline => 'One quiet reminder, once a day.';
+
+	/// en: 'Pick the hour that fits your routine. We don't push notifications for anything else — and you can turn this off any time.'
+	String get notif_subhead => 'Pick the hour that fits your routine. We don\'t push notifications for anything else — and you can turn this off any time.';
+
+	/// en: 'Daily notification'
+	String get notif_enable => 'Daily notification';
+
+	/// en: 'Reminder time'
+	String get notif_time => 'Reminder time';
 }
 
 // Path: today
@@ -571,6 +610,19 @@ extension on Translations {
 			'onboarding.headline' => 'The classical record,\none day at a time.',
 			'onboarding.subhead' => 'Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.',
 			'onboarding.begin' => 'Begin',
+			'onboarding.skip' => 'Skip',
+			'onboarding.kContinue' => 'Continue',
+			'onboarding.lang_eyebrow' => 'Choose your tongue',
+			'onboarding.lang_headline' => 'Read in your language.',
+			'onboarding.lang_subhead' => 'The reading and its sources are translated into English, French, and Arabic. You can switch later from Settings.',
+			'onboarding.lang_en' => 'English',
+			'onboarding.lang_fr' => 'Français',
+			'onboarding.lang_ar' => 'العربية',
+			'onboarding.notif_eyebrow' => 'A daily moment',
+			'onboarding.notif_headline' => 'One quiet reminder, once a day.',
+			'onboarding.notif_subhead' => 'Pick the hour that fits your routine. We don\'t push notifications for anything else — and you can turn this off any time.',
+			'onboarding.notif_enable' => 'Daily notification',
+			'onboarding.notif_time' => 'Reminder time',
 			'today.title' => 'Today',
 			'today.loading' => 'loading',
 			'today.load_failed' => 'Couldn\'t load today.',

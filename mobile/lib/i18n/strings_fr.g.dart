@@ -75,6 +75,19 @@ class _TranslationsOnboardingFr implements TranslationsOnboardingEn {
 	@override String get headline => 'Le corpus classique,\njour après jour.';
 	@override String get subhead => 'Des événements vérifiés sur les 1 400 ans de l\'histoire de l\'islam. Chaque entrée enracinée dans les sources classiques, chaque date contestée préservée.';
 	@override String get begin => 'Commencer';
+	@override String get skip => 'Passer';
+	@override String get kContinue => 'Continuer';
+	@override String get lang_eyebrow => 'Choisis ta langue';
+	@override String get lang_headline => 'Lis dans ta langue.';
+	@override String get lang_subhead => 'La lecture et ses sources sont traduites en français, anglais et arabe. Tu pourras changer plus tard depuis les paramètres.';
+	@override String get lang_en => 'English';
+	@override String get lang_fr => 'Français';
+	@override String get lang_ar => 'العربية';
+	@override String get notif_eyebrow => 'Un moment quotidien';
+	@override String get notif_headline => 'Un rappel discret,\nune fois par jour.';
+	@override String get notif_subhead => 'Choisis l\'heure qui t\'arrange. Aucune autre notification, et tu peux désactiver à tout moment.';
+	@override String get notif_enable => 'Notification quotidienne';
+	@override String get notif_time => 'Heure du rappel';
 }
 
 // Path: today
@@ -318,6 +331,19 @@ extension on TranslationsFr {
 			'onboarding.headline' => 'Le corpus classique,\njour après jour.',
 			'onboarding.subhead' => 'Des événements vérifiés sur les 1 400 ans de l\'histoire de l\'islam. Chaque entrée enracinée dans les sources classiques, chaque date contestée préservée.',
 			'onboarding.begin' => 'Commencer',
+			'onboarding.skip' => 'Passer',
+			'onboarding.kContinue' => 'Continuer',
+			'onboarding.lang_eyebrow' => 'Choisis ta langue',
+			'onboarding.lang_headline' => 'Lis dans ta langue.',
+			'onboarding.lang_subhead' => 'La lecture et ses sources sont traduites en français, anglais et arabe. Tu pourras changer plus tard depuis les paramètres.',
+			'onboarding.lang_en' => 'English',
+			'onboarding.lang_fr' => 'Français',
+			'onboarding.lang_ar' => 'العربية',
+			'onboarding.notif_eyebrow' => 'Un moment quotidien',
+			'onboarding.notif_headline' => 'Un rappel discret,\nune fois par jour.',
+			'onboarding.notif_subhead' => 'Choisis l\'heure qui t\'arrange. Aucune autre notification, et tu peux désactiver à tout moment.',
+			'onboarding.notif_enable' => 'Notification quotidienne',
+			'onboarding.notif_time' => 'Heure du rappel',
 			'today.title' => 'Aujourd\'hui',
 			'today.loading' => 'chargement',
 			'today.load_failed' => 'Impossible de charger aujourd\'hui.',

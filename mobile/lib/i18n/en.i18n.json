@@ -7,7 +7,20 @@
     "eyebrow": "In our time of days",
     "headline": "The classical record,\none day at a time.",
     "subhead": "Verified events from the 1,400-year arc of Islamic history. Every entry rooted in classical sources, every disputed date preserved.",
-    "begin": "Begin"
+    "begin": "Begin",
+    "skip": "Skip",
+    "continue": "Continue",
+    "lang_eyebrow": "Choose your tongue",
+    "lang_headline": "Read in your language.",
+    "lang_subhead": "The reading and its sources are translated into English, French, and Arabic. You can switch later from Settings.",
+    "lang_en": "English",
+    "lang_fr": "Français",
+    "lang_ar": "العربية",
+    "notif_eyebrow": "A daily moment",
+    "notif_headline": "One quiet reminder, once a day.",
+    "notif_subhead": "Pick the hour that fits your routine. We don't push notifications for anything else — and you can turn this off any time.",
+    "notif_enable": "Daily notification",
+    "notif_time": "Reminder time"
   },
   "today": {
     "title": "Today",
