@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""User-admin CLI for the iotd backend.
+"""User-admin CLI for the thaqafa backend.
 
 Same shape as Majlisna's ``generate_fake_data.py`` and LaTabdhir's
 ``expire_pending_orders.py``: a single script under ``backend/scripts/``
@@ -28,11 +28,11 @@ from getpass import getpass
 from pydantic import EmailStr, TypeAdapter, ValidationError
 from sqlalchemy import delete, func, select
 
-from iotd import database as _database
-from iotd.api.services.auth import hash_password
-from iotd.database import dispose_engine, init_engine
-from iotd.models.user import Bookmark, EmailVerificationToken, PasswordResetToken, User
-from iotd.settings import get_settings
+from thaqafa import database as _database
+from thaqafa.api.services.auth import hash_password
+from thaqafa.database import dispose_engine, init_engine
+from thaqafa.models.user import Bookmark, EmailVerificationToken, PasswordResetToken, User
+from thaqafa.settings import get_settings
 
 # Reuse FastAPI's email validator so the script accepts the same shapes
 # the API does. Plain ``re`` would diverge over time.
@@ -184,7 +184,7 @@ def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="users.py",
         description=(
-            "Manage iotd user accounts. ``create`` makes a verified user "
+            "Manage thaqafa user accounts. ``create`` makes a verified user "
             "(use --unverified to skip the verified flag); ``delete`` "
             "cascades to bookmarks + tokens; ``delete-all`` requires --yes."
         ),

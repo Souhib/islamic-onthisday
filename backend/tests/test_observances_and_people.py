@@ -2,7 +2,7 @@
 
 The events resource is exposed only by slug (``/api/v1/events/{slug}``);
 its tests live in ``test_events.py``. There is no list / search endpoint
-by design — see ``iotd/api/routes/events.py`` for the rationale.
+by design — see ``thaqafa/api/routes/events.py`` for the rationale.
 """
 
 import pytest

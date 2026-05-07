@@ -1,4 +1,4 @@
-"""Unit tests for ``iotd.api.services.projections``.
+"""Unit tests for ``thaqafa.api.services.projections``.
 
 Pure-function coverage — no DB, no async. Builds tiny in-memory ORM
 instances and asserts the projection helpers shape them correctly.
@@ -8,7 +8,7 @@ from datetime import UTC, date, datetime
 
 from pipeline.models.db import DateClaim, DatelessLesson, Event, EventPerson, Observance, Person, Source
 
-from iotd.api.services.projections import (
+from thaqafa.api.services.projections import (
     _coerce_verification_status,
     _project_disputed_positions,
     project_event_detail,

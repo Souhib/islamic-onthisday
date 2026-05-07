@@ -12,9 +12,9 @@ import pytest
 from httpx import AsyncClient
 from sqlalchemy import delete, select
 
-from iotd import database as _database  # noqa: PLC2701 — test-only access to _session_factory
-from iotd.api.services import email as email_service
-from iotd.models.user import Bookmark, PasswordResetToken, User
+from thaqafa import database as _database  # noqa: PLC2701 — test-only access to _session_factory
+from thaqafa.api.services import email as email_service
+from thaqafa.models.user import Bookmark, PasswordResetToken, User
 
 
 def _unique_email(tag: str) -> str:
@@ -71,7 +71,7 @@ async def test_request_reset_creates_token_for_known_user(
 ):
     # Make Resend appear configured so the email path executes (the stub
     # captures payloads instead of making a real call).
-    from iotd.settings import get_settings  # noqa: PLC0415 — test wiring
+    from thaqafa.settings import get_settings  # noqa: PLC0415 — test wiring
 
     original = get_settings()
 
@@ -79,7 +79,7 @@ async def test_request_reset_creates_token_for_known_user(
         original.resend_api_key = "re_test_stub"
         return original
 
-    monkeypatch.setattr("iotd.dependencies.get_active_settings", _settings_with_key)
+    monkeypatch.setattr("thaqafa.dependencies.get_active_settings", _settings_with_key)
 
     await client.post(
         "/api/v1/auth/signup",

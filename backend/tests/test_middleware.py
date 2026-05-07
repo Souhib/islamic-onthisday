@@ -2,7 +2,7 @@
 
 import pytest
 
-from iotd.api.middleware import _sanitize_query_string, _sanitize_value
+from thaqafa.api.middleware import _sanitize_query_string, _sanitize_value
 
 
 def test_sanitize_strips_script_tags() -> None:

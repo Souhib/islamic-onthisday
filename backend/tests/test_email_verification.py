@@ -12,9 +12,9 @@ import pytest
 from httpx import AsyncClient
 from sqlalchemy import delete, select
 
-from iotd import database as _database  # noqa: PLC2701 — test-only access to _session_factory
-from iotd.api.services import email as email_service
-from iotd.models.user import Bookmark, EmailVerificationToken, PasswordResetToken, User
+from thaqafa import database as _database  # noqa: PLC2701 — test-only access to _session_factory
+from thaqafa.api.services import email as email_service
+from thaqafa.models.user import Bookmark, EmailVerificationToken, PasswordResetToken, User
 
 
 def _unique_email(tag: str) -> str:

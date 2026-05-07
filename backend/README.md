@@ -12,9 +12,9 @@ backend/
 ├── pyproject.toml
 ├── Dockerfile
 ├── .env / .env.development / .env.example
-├── iotd/
+├── thaqafa/
 │   ├── app.py               # create_app(settings) factory + lifespan
-│   ├── settings.py          # pydantic-settings, IOTD_ENV selector
+│   ├── settings.py          # pydantic-settings, THAQAFA_ENV selector
 │   ├── database.py          # async engine, get_session
 │   ├── dependencies.py      # FastAPI Depends(...) providers
 │   ├── logger_config.py     # loguru setup
@@ -74,7 +74,7 @@ before changing the controller / route layer.
 1. **Route → Controller → Projection.** Routes have zero business
    logic: they `Depends(...)` a controller, call one method, return its
    result. Cache-Control is attached via `dependencies=[CACHE_*]` on the
-   route decorator (see `iotd/api/cache.py`), never set inside the
+   route decorator (see `thaqafa/api/cache.py`), never set inside the
    handler. Controllers run the queries and raise typed errors.
    ORM-row → response-schema mapping lives in `services/projections.py`.
 2. **Snake-case discriminants over English labels.** `verification_status`,
@@ -94,7 +94,7 @@ before changing the controller / route layer.
    would dissolve the project's cadence. Permalinks live on
    `/api/v1/events/{slug}`.
 6. **All DB ops async** (`AsyncSession`, `await session.exec(...)`).
-7. **Schemas inherit `BaseModel`** from `iotd.api.schemas.shared`
+7. **Schemas inherit `BaseModel`** from `thaqafa.api.schemas.shared`
    (which re-exports the pipeline base — single source of truth).
 8. **No `dict[str, Any]` at API boundaries.** Build a Pydantic schema.
 9. **Loguru with `.bind(...)`** for structured fields. Never f-string
@@ -114,7 +114,7 @@ uv run poe dev            # uvicorn --reload
 
 ## Cache-Control vocabulary
 
-Always pick from `iotd/api/cache.py` rather than inlining a string:
+Always pick from `thaqafa/api/cache.py` rather than inlining a string:
 
 | Dependency | Policy | Used by |
 |---|---|---|
@@ -145,19 +145,19 @@ pipeline is permitted to drop). Three operational consequences:
 
 ## Environments
 
-`.env` carries only the `IOTD_ENV` selector. The matching `.env.<env>` file
+`.env` carries only the `THAQAFA_ENV` selector. The matching `.env.<env>` file
 holds real config. `.env.local` (gitignored) overrides everything for
 single-machine tweaks.
 
 ```
-IOTD_ENV=development      # → loads .env.development next, then .env.local
+THAQAFA_ENV=development      # → loads .env.development next, then .env.local
 ```
 
 ## Environment variables
 
 | Var                          | Purpose                                                |
 | ---------------------------- | ------------------------------------------------------ |
-| `IOTD_ENV`                   | Selects which `.env.{env}` file to load.               |
+| `THAQAFA_ENV`                   | Selects which `.env.{env}` file to load.               |
 | `HOST` / `PORT`              | uvicorn bind.                                          |
 | `DATABASE_URL`               | Defaults to the pipeline's SQLite path.                |
 | `DB_POOL_SIZE` / `DB_MAX_OVERFLOW` / `DB_POOL_TIMEOUT` / `DB_POOL_RECYCLE` | PostgreSQL pool tuning (ignored for SQLite). |

@@ -4,7 +4,7 @@ import time
 
 import pytest
 
-from iotd.api.utils.cache import TTLCache
+from thaqafa.api.utils.cache import TTLCache
 
 
 def test_cache_returns_value_until_ttl_elapses() -> None:

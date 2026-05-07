@@ -3,13 +3,13 @@
 Used in development (``uv run python main.py``) and inside the container
 image. Production deployments typically run uvicorn with ``--workers`` and a
 process manager rather than this module, but the lifespan hook in
-``iotd.app`` is the same in both cases.
+``thaqafa.app`` is the same in both cases.
 """
 
 import uvicorn
 
-from iotd.app import app
-from iotd.settings import get_settings
+from thaqafa.app import app
+from thaqafa.settings import get_settings
 
 
 def main() -> None:

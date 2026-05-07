@@ -1,4 +1,4 @@
-"""Unit tests for ``iotd.api.errors``.
+"""Unit tests for ``thaqafa.api.errors``.
 
 Covers:
 - ``BaseError._generate_error_key`` derivations
@@ -11,7 +11,7 @@ from typing import Any
 
 from fastapi import status
 
-from iotd.api.errors import (
+from thaqafa.api.errors import (
     BaseError,
     EventNotFoundError,
     LessonNotFoundError,
@@ -71,7 +71,7 @@ def test_baseerror_logs_at_default_level_unless_overridden(monkeypatch) -> None:
         LogLevel.ERROR: lambda *a, **kw: calls["ERROR"].append((a, kw)),
         LogLevel.CRITICAL: lambda *a, **kw: calls.setdefault("CRITICAL", []).append((a, kw)),
     }
-    monkeypatch.setattr("iotd.api.errors._LOG_FUNCTIONS", fake_map)
+    monkeypatch.setattr("thaqafa.api.errors._LOG_FUNCTIONS", fake_map)
 
     BaseError("boom-500")
     BaseError("boom-401", status_code=401)
@@ -85,7 +85,7 @@ def test_baseerror_log_false_suppresses_the_phantom_line(monkeypatch) -> None:
     """``log=False`` is the escape hatch for try/except sites."""
     calls: list[tuple] = []
     monkeypatch.setattr(
-        "iotd.api.errors._LOG_FUNCTIONS",
+        "thaqafa.api.errors._LOG_FUNCTIONS",
         {level: lambda *a, **kw: calls.append((a, kw)) for level in LogLevel},
     )
     BaseError("silent", log=False)

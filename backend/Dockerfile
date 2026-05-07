@@ -26,7 +26,7 @@ FROM base AS builder
 COPY data-pipeline /opt/data-pipeline
 WORKDIR /opt/backend
 COPY backend/pyproject.toml backend/uv.lock ./
-COPY backend/iotd ./iotd
+COPY backend/thaqafa ./thaqafa
 RUN uv sync --frozen --no-dev
 
 # ─── Pipeline runner: produces SQLite + /opt/web/public/ static files ────
@@ -44,7 +44,7 @@ FROM base AS dev
 COPY --from=builder /opt/data-pipeline /opt/data-pipeline
 WORKDIR /opt/backend
 COPY --from=builder /opt/backend/.venv ./.venv
-COPY --from=builder /opt/backend/iotd ./iotd
+COPY --from=builder /opt/backend/thaqafa ./thaqafa
 COPY backend/main.py ./main.py
 ENV PATH="/opt/backend/.venv/bin:$PATH"
 EXPOSE 5111

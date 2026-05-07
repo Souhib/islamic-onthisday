@@ -12,9 +12,9 @@ from collections.abc import AsyncIterator
 import pytest
 from httpx import ASGITransport, AsyncClient
 
-from iotd.app import create_app
-from iotd.database import dispose_engine, init_engine
-from iotd.settings import get_settings
+from thaqafa.app import create_app
+from thaqafa.database import dispose_engine, init_engine
+from thaqafa.settings import get_settings
 
 
 @pytest.fixture(scope="session")

@@ -1,5 +1,5 @@
 [project]
-name = "iotd-api"
+name = "thaqafa-api"
 version = "0.1.0"
 description = "FastAPI backend for Islamic On This Day"
 requires-python = ">=3.12"
@@ -16,7 +16,7 @@ dependencies = [
     "python-dotenv>=1.0.1",
     # Source-of-truth schema lives in the pipeline package; we install it as
     # an editable path dependency so models stay in sync.
-    "islamic-onthisday-pipeline",
+    "thaqafa-pipeline",
     "sentry-sdk[fastapi]>=2.58.0",
     "slowapi>=0.1.9",
     "argon2-cffi>=23.1.0",
@@ -36,14 +36,14 @@ dev = [
 ]
 
 [tool.uv.sources]
-islamic-onthisday-pipeline = { path = "../data-pipeline", editable = true }
+thaqafa-pipeline = { path = "../data-pipeline", editable = true }
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["iotd"]
+packages = ["thaqafa"]
 
 [tool.ruff]
 line-length = 120
@@ -54,7 +54,7 @@ select = ["E", "W", "F", "I", "UP", "B", "SIM", "C90", "N", "PL", "ARG"]
 ignore = ["E501", "PLR0913", "PLR2004", "ARG002", "B008"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["iotd"]
+known-first-party = ["thaqafa"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
@@ -75,14 +75,14 @@ dev = [
 ]
 
 [tool.poe.tasks]
-lint = "ruff check iotd tests"
-format = "ruff format iotd tests"
-format-check = "ruff format --check iotd tests"
+lint = "ruff check thaqafa tests"
+format = "ruff format thaqafa tests"
+format-check = "ruff format --check thaqafa tests"
 check = ["lint", "format-check"]
-lint-fix = "ruff check --fix iotd tests"
+lint-fix = "ruff check --fix thaqafa tests"
 fix = ["format", "lint-fix"]
 test = "pytest"
 test-fast = "pytest -x"
 # Run before every commit. Same gate as CI: lint + format-check + test.
 pre-commit = ["check", "test"]
-dev = "uvicorn iotd.app:app --reload --host 127.0.0.1 --port 5111"
+dev = "uvicorn thaqafa.app:app --reload --host 127.0.0.1 --port 5111"
