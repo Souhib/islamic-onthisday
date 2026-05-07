@@ -10,9 +10,13 @@
     />
     <meta name="theme-color" content="#f4ede0" />
 
-    <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <!-- Favicons. Filename is versioned (``-v2``) on purpose: Cloudflare
+         was serving the v1 mark under the same URL for a year even after
+         the file was replaced at the origin. Bumping the path forces
+         every cache layer (browser, CDN) to fetch fresh. Bump the suffix
+         again whenever the brand mark changes. -->
+    <link rel="icon" type="image/svg+xml" href="/favicon-v2.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-v2.png" />
 
     <!-- Canonical home + locale alternates. The site is fully trilingual at
          the content layer; chrome i18n is browser-driven. -->
