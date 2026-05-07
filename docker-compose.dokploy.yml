@@ -44,7 +44,7 @@ services:
       EMAIL_FROM_NAME: ${EMAIL_FROM_NAME:-Islamic On This Day}
       FRONTEND_URL: ${FRONTEND_URL:-https://news.majlisna.app}
     healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/health').read()"]
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/api/v1/health').read()"]
       interval: 30s
       timeout: 5s
       start_period: 30s

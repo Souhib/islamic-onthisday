@@ -6,7 +6,7 @@ import pytest
 @pytest.mark.asyncio
 async def test_health_returns_ok_with_dataset_snapshot(client):
     """``/health`` returns 200 with the dataset snapshot when DB is up."""
-    r = await client.get("/health")
+    r = await client.get("/api/v1/health")
     assert r.status_code == 200
     data = r.json()
     assert data["status"] == "ok"
@@ -29,5 +29,5 @@ async def test_health_returns_ok_with_dataset_snapshot(client):
 @pytest.mark.asyncio
 async def test_health_is_no_store(client):
     """Health must never be cached — masking an outage is worse than the cost."""
-    r = await client.get("/health")
+    r = await client.get("/api/v1/health")
     assert r.headers.get("Cache-Control") == "no-store"

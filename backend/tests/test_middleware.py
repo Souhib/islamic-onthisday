@@ -43,7 +43,7 @@ async def test_security_headers_are_present_on_every_response(client) -> None:
     """``X-Content-Type-Options``, ``X-Frame-Options``, ``X-XSS-Protection``
     appear on every response.
     """
-    r = await client.get("/health")
+    r = await client.get("/api/v1/health")
     assert r.headers.get("x-content-type-options") == "nosniff"
     assert r.headers.get("x-frame-options") == "DENY"
     assert r.headers.get("x-xss-protection") == "1; mode=block"
@@ -52,14 +52,14 @@ async def test_security_headers_are_present_on_every_response(client) -> None:
 @pytest.mark.asyncio
 async def test_request_id_round_trips_when_provided(client) -> None:
     """A caller-supplied ``X-Request-ID`` is echoed back on the response."""
-    r = await client.get("/health", headers={"X-Request-ID": "trace-abc-123"})
+    r = await client.get("/api/v1/health", headers={"X-Request-ID": "trace-abc-123"})
     assert r.headers.get("x-request-id") == "trace-abc-123"
 
 
 @pytest.mark.asyncio
 async def test_request_id_is_generated_when_missing(client) -> None:
     """The middleware mints a fresh hex UUID when no inbound id is present."""
-    r = await client.get("/health")
+    r = await client.get("/api/v1/health")
     rid = r.headers.get("x-request-id")
     assert rid is not None
     assert len(rid) == 32  # UUID4 hex without dashes

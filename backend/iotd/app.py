@@ -147,7 +147,11 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             },
         )
 
-    app.include_router(health_route.router)
+    # Health lives under ``/api/v1/health`` like every other route — the
+    # nginx proxy at ``location /api/`` is what makes it reachable from
+    # outside (``/health`` at the public origin is shadowed by nginx's
+    # own static liveness probe for the FE container).
+    app.include_router(health_route.router, prefix="/api/v1")
     app.include_router(today_route.router, prefix="/api/v1")
     app.include_router(events_route.router, prefix="/api/v1")
     app.include_router(lessons_route.router, prefix="/api/v1")

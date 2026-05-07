@@ -49,7 +49,7 @@ COPY backend/main.py ./main.py
 ENV PATH="/opt/backend/.venv/bin:$PATH"
 EXPOSE 5111
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-  CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/health').read()" || exit 1
+  CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/api/v1/health').read()" || exit 1
 CMD ["python", "main.py"]
 
 # ─── Production: SQLite baked in from the pipeline stage. ────────────────
