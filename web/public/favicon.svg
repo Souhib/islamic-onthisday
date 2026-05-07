@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Eight-point star — the project's editorial mark, mirroring the
-  ``EightPointStar`` React component in ``components/design/primitives.tsx``.
-  Transparent background (browsers pick up the tab-bar colour); stroke in
-  a deep editorial green that reads at 16x16 against either a light or
-  a dark tab.
+  Eight-point khātam Sulaymānī — the project's editorial mark.
+  Mirrors the mobile app icon (``mobile/ios/Runner/Assets.xcassets``)
+  so the same brand reads across browser tab, iOS / Android home
+  screens, and the in-app ``EightPointStar`` primitive. The cream
+  ``#f5f0e6`` tile gives the icon a printable, paper-like context that
+  carries on both light and dark browser chrome.
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <g fill="none" stroke="#2e7d32" stroke-width="1.6" stroke-linejoin="round">
-    <rect x="6" y="6" width="20" height="20"/>
-    <rect x="6" y="6" width="20" height="20" transform="rotate(45 16 16)"/>
-  </g>
+  <rect width="32" height="32" fill="#f5f0e6"/>
+  <polygon points="28.50,16.00 24.84,19.66 24.84,24.84 19.66,24.84 16.00,28.50 12.34,24.84 7.16,24.84 7.16,19.66 3.50,16.00 7.16,12.34 7.16,7.16 12.34,7.16 16.00,3.50 19.66,7.16 24.84,7.16 24.84,12.34" fill="#1b1a17"/>
+  <circle cx="16.0" cy="16.0" r="1.4" fill="#f5f0e6"/>
+  <circle cx="16.0" cy="16.0" r="0.45" fill="#1b1a17"/>
 </svg>
