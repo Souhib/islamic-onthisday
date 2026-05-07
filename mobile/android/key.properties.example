@@ -1,0 +1,15 @@
+# Android upload-keystore credentials. Copy to ``key.properties`` (which
+# is gitignored) and fill the four values below. The ``storeFile`` is
+# resolved relative to the ``android/`` directory.
+#
+# Generate the keystore once with:
+#   keytool -genkey -v -keystore android/upload-keystore.jks \
+#     -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+# Back up ``upload-keystore.jks`` somewhere safe (1Password, encrypted
+# backup) — losing it locks you out of further updates to the same Play
+# Store listing.
+storePassword=
+keyPassword=
+keyAlias=upload
+storeFile=upload-keystore.jks

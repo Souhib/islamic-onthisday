@@ -1,4 +1,22 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+    <!-- Required for the API client. Flutter inserts this automatically in
+         debug, but release builds need it declared explicitly. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Daily reminder notifications (Android 13+ runtime permission). -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <!-- Re-arm scheduled notifications across reboots. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <!-- ``flutter_local_notifications`` declares ``SCHEDULE_EXACT_ALARM``
+         /``USE_EXACT_ALARM`` for callers that ask for exact scheduling.
+         We use ``AndroidScheduleMode.inexactAllowWhileIdle`` (day-
+         granularity reminder is fine inexact), so strip both to avoid
+         the Play-store policy review reserved for true alarm apps. -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"
+                     tools:node="remove"/>
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"
+                     tools:node="remove"/>
+
     <application
         android:label="Islamic On This Day"
         android:name="${applicationName}"

@@ -1,7 +1,7 @@
 # Single-command dev convenience. Run `make dev` to boot backend + web
 # together (without docker). `make check` is the local CI gate.
 
-.PHONY: help install build dev dev-backend dev-web dev-pipeline syndicate check fix test clean
+.PHONY: help install build dev dev-backend dev-web dev-pipeline syndicate check fix test clean mobile-release-android mobile-release-ios mobile-screenshots
 
 help:
 	@echo "Targets:"
@@ -59,3 +59,34 @@ clean:
 	rm -rf data-pipeline/.venv
 	rm -rf backend/.venv
 	rm -rf web/node_modules
+
+# Mobile release builds. ``MOBILE_SENTRY_DSN`` and ``MOBILE_SENTRY_ENV``
+# default to the production GlitchTip project / "production"; override on
+# the CLI for staging / dev (e.g. ``make mobile-release-android
+# MOBILE_SENTRY_ENV=staging``). Both targets bake the DSN at compile
+# time — without the DSN the SDK is dormant in the shipped build.
+MOBILE_SENTRY_DSN ?= https://99c06bfdda6341c68e47548c8c75030d@glitchtip.majlisna.app/5
+MOBILE_SENTRY_ENV ?= production
+
+mobile-release-android:
+	cd mobile && flutter build appbundle --release \
+		--dart-define=SENTRY_DSN=$(MOBILE_SENTRY_DSN) \
+		--dart-define=SENTRY_ENV=$(MOBILE_SENTRY_ENV)
+	@echo "→ aab: mobile/build/app/outputs/bundle/release/app-release.aab"
+
+mobile-release-ios:
+	cd mobile && flutter build ipa --release \
+		--export-options-plist=ios/ExportOptions.plist \
+		--dart-define=SENTRY_DSN=$(MOBILE_SENTRY_DSN) \
+		--dart-define=SENTRY_ENV=$(MOBILE_SENTRY_ENV)
+	@echo "→ ipa: mobile/build/ios/ipa/iotd_mobile.ipa"
+
+# Capture App Store / Play Store screenshots from a booted simulator.
+# The script drives a deterministic flow (Today → Detail → Recent →
+# Observances → Bookmarks → Settings) and dumps the PNGs under
+# ``mobile/screenshots/``. Booting the right simulator size first is on
+# the operator (iPhone 6.7" + iPad 12.9" for Apple, Pixel 8 for Play).
+mobile-screenshots:
+	cd mobile && flutter run -d booted \
+		--dart-define=SCREENSHOT_MODE=true \
+		--target=lib/main.dart
