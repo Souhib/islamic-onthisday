@@ -10,7 +10,7 @@ import {
   isVerificationKind,
   type VerificationKind,
 } from "@/components/design";
-import { DisputeBadge, type DisputeAbout } from "@/components/disputed/DisputeBadge";
+import { DisputedDateAnnotation } from "@/components/disputed/DisputedDateAnnotation";
 import { DisputedDrawer } from "@/components/disputed/DisputedDrawer";
 import { BackToTodayCTA } from "@/components/reader/BackToTodayCTA";
 import { DetailHeader } from "@/components/reader/DetailHeader";
@@ -90,25 +90,31 @@ function EventDetailPage() {
             )}
 
             <div className="mt-[28px] mb-3 flex flex-wrap items-baseline gap-[18px]">
-              {query.data.hijri && (
-                <span className="font-serif text-[18px] italic text-ink">{query.data.hijri}</span>
-              )}
+              {query.data.hijri &&
+                (query.data.disputed ? (
+                  <DisputedDateAnnotation value={query.data.hijri} onClick={openDispute} />
+                ) : (
+                  <span className="font-serif text-[18px] italic text-ink">
+                    {query.data.hijri}
+                  </span>
+                ))}
               {query.data.gregorian && (
                 <>
-                  <span className="font-serif text-[16px] italic text-ink-soft">
-                    · {formatGregorianLong(query.data.gregorian, lang)}
-                  </span>
+                  {query.data.disputed && !query.data.hijri ? (
+                    <DisputedDateAnnotation
+                      value={`· ${formatGregorianLong(query.data.gregorian, lang)}`}
+                      onClick={openDispute}
+                      tone="soft"
+                    />
+                  ) : (
+                    <span className="font-serif text-[16px] italic text-ink-soft">
+                      · {formatGregorianLong(query.data.gregorian, lang)}
+                    </span>
+                  )}
                   <span className="font-mono text-[13px] tracking-[0.8px] text-ink-mute">
                     · {formatGregorianDDMMYYYY(query.data.gregorian)} ·
                   </span>
                 </>
-              )}
-              {query.data.disputed && (
-                <DisputeBadge
-                  disputeAbout={query.data.disputeAbout as DisputeAbout}
-                  size="sm"
-                  onClick={openDispute}
-                />
               )}
               <span className="ms-auto">
                 <SaveButton targetKind="event" targetSlug={slug} />

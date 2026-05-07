@@ -145,8 +145,17 @@ def project_event_detail(event: Event) -> EventDetail:
         body_fr=body_fr,
         people=people,
         sources=sources,
+        # When the projection auto-derives ``disputed`` from the positions
+        # count, it must also fill ``dispute_about`` — the editorial rule
+        # is that the two flags travel together. Multi-position by
+        # construction means a date dispute, so default to ``"date"``;
+        # an explicit YAML override (rare for derived cases) still wins.
         disputed=event.disputed or len(disputed_positions) > 1,
-        dispute_about=event.dispute_about,  # type: ignore[arg-type]
+        dispute_about=(  # type: ignore[arg-type]
+            event.dispute_about
+            if event.dispute_about is not None
+            else ("date" if len(disputed_positions) > 1 else None)
+        ),
         disputed_positions=disputed_positions,
         source_url=event.source_url,
         quran_refs=event.quran_refs,
@@ -243,15 +252,21 @@ def project_person_detail(person: Person) -> PersonDetail:
 def _project_disputed_positions(event: Event) -> list[DisputedPosition]:
     """Build the ranked list of attested date positions on a disputed event.
 
-    Only emitted when ≥2 distinct ``(year, month, day)`` triples exist in the
-    event's claims. The canonical claim is always rank 1; remaining positions
-    follow in the order they appear on the event row. ``weight`` is a
-    machine-readable discriminant — the front-end maps it to a localised
-    label (``"primary" → "Most widely held"`` etc.).
+    Only emitted when ≥2 distinct **day-precise** ``(year, month, day)``
+    triples exist in the event's claims. A claim that omits the day (or
+    month) is precision-asymmetric, not a date dispute — silencing those
+    keeps the dispute marker honest: it fires only when classical sources
+    actually pin different days for the same event. The canonical claim is
+    always rank 1; remaining positions follow in the order they appear on
+    the event row. ``weight`` is a machine-readable discriminant — the
+    front-end maps it to a localised label (``"primary" → "Most widely
+    held"`` etc.).
     """
     claims = list(event.claims or [])
-    seen: dict[tuple[int | None, int | None, int | None], DateClaim] = {}
+    seen: dict[tuple[int, int, int], DateClaim] = {}
     for claim in claims:
+        if claim.hijri_year is None or claim.hijri_month is None or claim.hijri_day is None:
+            continue
         key = (claim.hijri_year, claim.hijri_month, claim.hijri_day)
         if key not in seen:
             seen[key] = claim

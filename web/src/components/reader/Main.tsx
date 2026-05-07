@@ -6,7 +6,7 @@ import {
   isVerificationKind,
   type VerificationKind,
 } from "@/components/design";
-import { DisputeBadge, type DisputeAbout } from "@/components/disputed/DisputeBadge";
+import { DisputedDateAnnotation } from "@/components/disputed/DisputedDateAnnotation";
 import { pickLocalised, pickLocalisedList, useLanguage } from "@/providers/LanguageProvider";
 import type { EventDetail } from "@/api/generated/types.gen";
 import { formatGregorianDDMMYYYY, formatGregorianLong } from "@/lib/dates";
@@ -36,7 +36,6 @@ export function Main({ ev, onOpenDispute }: Props) {
     ? ev.verificationStatus
     : "unverified";
   const verificationLabel = t(verificationKind);
-  const disputeLabel = ev.disputeAbout ? t(`dispute_${ev.disputeAbout}`) : null;
 
   return (
     <main className="iotd-main mx-auto max-w-[960px] px-[clamp(24px,4vw,56px)] pt-11 pb-[60px]">
@@ -46,14 +45,6 @@ export function Main({ ev, onOpenDispute }: Props) {
         </span>
         <div className="h-[0.5px] min-w-3 flex-1 bg-rule" />
         <VerificationChip kind={verificationKind} label={verificationLabel} />
-        {ev.disputed && (
-          <DisputeBadge
-            disputeAbout={ev.disputeAbout as DisputeAbout}
-            size="sm"
-            onClick={onOpenDispute}
-            label={disputeLabel ?? undefined}
-          />
-        )}
         <SaveButton targetKind="event" targetSlug={ev.id} />
       </div>
 
@@ -73,12 +64,25 @@ export function Main({ ev, onOpenDispute }: Props) {
       )}
 
       <div className="mt-[28px] mb-3 flex flex-wrap items-baseline gap-[18px]">
-        {ev.hijri && <span className="font-serif text-[18px] italic text-ink">{ev.hijri}</span>}
+        {ev.hijri &&
+          (ev.disputed ? (
+            <DisputedDateAnnotation value={ev.hijri} onClick={onOpenDispute} />
+          ) : (
+            <span className="font-serif text-[18px] italic text-ink">{ev.hijri}</span>
+          ))}
         {ev.gregorian && (
           <>
-            <span className="font-serif text-[16px] italic text-ink-soft">
-              · {formatGregorianLong(ev.gregorian, lang)}
-            </span>
+            {ev.disputed && !ev.hijri ? (
+              <DisputedDateAnnotation
+                value={`· ${formatGregorianLong(ev.gregorian, lang)}`}
+                onClick={onOpenDispute}
+                tone="soft"
+              />
+            ) : (
+              <span className="font-serif text-[16px] italic text-ink-soft">
+                · {formatGregorianLong(ev.gregorian, lang)}
+              </span>
+            )}
             <span className="font-mono text-[13px] tracking-[0.8px] text-ink-mute">
               · {formatGregorianDDMMYYYY(ev.gregorian)} ·
             </span>
