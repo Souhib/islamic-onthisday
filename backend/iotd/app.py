@@ -22,6 +22,7 @@ from iotd.api.middleware import LoggingMiddleware, RequestIDMiddleware, Security
 from iotd.api.rate_limit import configure_rate_limit
 from iotd.api.routes import auth as auth_route
 from iotd.api.routes import bookmarks as bookmarks_route
+from iotd.api.routes import debug as debug_route
 from iotd.api.routes import events as events_route
 from iotd.api.routes import health as health_route
 from iotd.api.routes import lessons as lessons_route
@@ -156,6 +157,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     app.include_router(upcoming_route.router, prefix="/api/v1")
     app.include_router(auth_route.router, prefix="/api/v1")
     app.include_router(bookmarks_route.router, prefix="/api/v1")
+    app.include_router(debug_route.router, prefix="/api/v1")
 
     return app
 

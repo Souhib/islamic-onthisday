@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -10,6 +11,7 @@ import 'package:iotd_mobile/core/theme/iotd_typography.dart';
 import 'package:iotd_mobile/features/auth/account_section.dart';
 import 'package:iotd_mobile/i18n/strings.g.dart';
 import 'package:iotd_mobile/shared/primitives.dart';
+import 'package:sentry_flutter/sentry_flutter.dart';
 
 /// Settings — theme + language + (later) notifications. Each row is a
 /// horizontal pair of segmented chips so the editorial vocabulary stays
@@ -123,8 +125,72 @@ class SettingsScreen extends ConsumerWidget {
                 ),
               ),
             ),
+            // Debug-only crash trigger. Verifies the GlitchTip pipeline is
+            // wired end-to-end before each release without exposing the
+            // tile to end users. Tap "throw" to fire a sync exception
+            // (caught by ``FlutterError.onError``); tap "async" for a
+            // future error (caught by ``PlatformDispatcher.onError``).
+            if (kDebugMode) ...[
+              const SizedBox(height: 24),
+              const _DebugCrashRow(),
+            ],
           ],
         ),
+      ),
+    );
+  }
+}
+
+class _DebugCrashRow extends StatelessWidget {
+  const _DebugCrashRow();
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tokens;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+      decoration: BoxDecoration(border: Border.all(color: t.rule, width: 0.5)),
+      child: Row(
+        children: [
+          Expanded(
+            child: Text(
+              'DEBUG · GLITCHTIP TEST',
+              style: IotdTypography.mono(
+                size: 11,
+                color: t.warn,
+                letterSpacing: 1.4,
+              ),
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              throw StateError('[iotd] sync crash test');
+            },
+            child: Text(
+              'throw',
+              style: IotdTypography.mono(size: 12, color: t.warn, letterSpacing: 1.4),
+            ),
+          ),
+          TextButton(
+            onPressed: () async {
+              await Future<void>.delayed(const Duration(milliseconds: 1));
+              throw StateError('[iotd] async crash test');
+            },
+            child: Text(
+              'async',
+              style: IotdTypography.mono(size: 12, color: t.warn, letterSpacing: 1.4),
+            ),
+          ),
+          TextButton(
+            onPressed: () async {
+              await Sentry.captureMessage('[iotd] manual ping from settings');
+            },
+            child: Text(
+              'ping',
+              style: IotdTypography.mono(size: 12, color: t.accent, letterSpacing: 1.4),
+            ),
+          ),
+        ],
       ),
     );
   }

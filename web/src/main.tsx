@@ -1,4 +1,3 @@
-import * as Sentry from "@sentry/react";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
@@ -7,17 +6,13 @@ import "./index.css";
 import "@/api/client-setup";
 import "@/i18n";
 import { initAnalytics } from "@/lib/analytics";
+import { bootSentry } from "@/lib/sentry";
 
-// Sentry — gated on a DSN env var so dev runs cost nothing. Production
-// builds bake a non-empty `VITE_SENTRY_DSN` and the SDK starts capturing.
-if (import.meta.env.VITE_SENTRY_DSN) {
-  Sentry.init({
-    dsn: import.meta.env.VITE_SENTRY_DSN,
-    environment: import.meta.env.MODE,
-    release: import.meta.env.VITE_APP_VERSION,
-    tracesSampleRate: 0.1,
-  });
-}
+// Boot GlitchTip / Sentry first — gated on ``VITE_SENTRY_DSN`` so dev
+// runs cost nothing. The SDK installs ``window.error`` /
+// ``unhandledrejection`` listeners as part of init, so anything
+// thrown after this line lands in GlitchTip.
+bootSentry();
 
 // Umami — gated on VITE_UMAMI_URL + VITE_UMAMI_WEBSITE_ID. Same shape:
 // no env = no script, no network, zero footprint in dev.

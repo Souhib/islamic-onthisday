@@ -1,8 +1,9 @@
 // Last-line-of-defence error boundary mounted at the router root. A render
 // failure inside one route shouldn't blank the whole app — we degrade to a
-// readable message and a reload button. (Prod telemetry will land via Sentry
-// in a later pass; for now the failure is logged to the console.)
+// readable message and a reload button, and ship the failure to GlitchTip
+// so the team sees the error before the user has to report it.
 
+import * as Sentry from "@sentry/react";
 import { Component, type ErrorInfo, type ReactNode } from "react";
 
 interface Props {
@@ -21,7 +22,12 @@ export class ErrorBoundary extends Component<Props, State> {
   }
 
   componentDidCatch(error: Error, info: ErrorInfo): void {
-    // eslint-disable-next-line no-console -- intentional fallback
+    // Forward to GlitchTip with the React component-stack as extra
+    // context, so the issue page shows where in the tree the error
+    // originated. The SDK is a no-op when ``VITE_SENTRY_DSN`` is
+    // unset — safe to call unconditionally.
+    Sentry.captureException(error, { contexts: { react: { componentStack: info.componentStack } } });
+    // eslint-disable-next-line no-console -- intentional dev fallback
     console.error("ErrorBoundary caught:", error, info);
   }
 
