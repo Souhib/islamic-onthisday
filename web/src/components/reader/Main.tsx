@@ -46,6 +46,14 @@ export function Main({ ev, onOpenDispute }: Props) {
         </span>
         <div className="h-[0.5px] min-w-3 flex-1 bg-rule" />
         <VerificationChip kind={verificationKind} label={verificationLabel} />
+        {ev.disputed && (
+          <DisputeBadge
+            disputeAbout={ev.disputeAbout as DisputeAbout}
+            size="sm"
+            onClick={onOpenDispute}
+            label={disputeLabel ?? undefined}
+          />
+        )}
         <SaveButton targetKind="event" targetSlug={ev.id} />
       </div>
 
@@ -80,14 +88,6 @@ export function Main({ ev, onOpenDispute }: Props) {
           <span className="font-mono text-[12.5px] tracking-[0.8px] text-ink-mute">
             {ev.location}
           </span>
-        )}
-        {ev.disputed && (
-          <DisputeBadge
-            disputeAbout={ev.disputeAbout as DisputeAbout}
-            size="sm"
-            onClick={onOpenDispute}
-            label={disputeLabel ?? undefined}
-          />
         )}
       </div>
 
