@@ -1,12 +1,7 @@
 # Dokploy deployment for thaqafa.
 # App-only compose — Dokploy provides Traefik + Let's Encrypt at the edge.
 
-# Compose project name kept at ``iotd`` so the Dokploy stack updates
-# in-place on rename rather than spinning up a parallel ``thaqafa-*``
-# stack alongside the existing one. The visible Dokploy project +
-# GlitchTip projects + GitHub repo are renamed; the internal
-# docker-compose label stays.
-name: iotd
+name: thaqafa
 
 x-logging: &default-logging
   driver: json-file
@@ -17,7 +12,7 @@ x-logging: &default-logging
 services:
   # ─── Backend API ─────────────────────────────────────────────
   backend:
-    container_name: iotd-backend
+    container_name: thaqafa-backend
     build:
       context: .
       dockerfile: backend/Dockerfile
@@ -64,7 +59,7 @@ services:
 
   # ─── Frontend SPA ────────────────────────────────────────────
   frontend:
-    container_name: iotd-frontend
+    container_name: thaqafa-frontend
     build:
       context: .
       dockerfile: web/Dockerfile
@@ -88,10 +83,10 @@ services:
       - "31773:80"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.iotd-frontend.rule=Host(`${DOMAIN:-news.majlisna.app}`)"
-      - "traefik.http.routers.iotd-frontend.entrypoints=web,websecure"
-      - "traefik.http.routers.iotd-frontend.tls.certresolver=letsencrypt"
-      - "traefik.http.services.iotd-frontend.loadbalancer.server.port=80"
+      - "traefik.http.routers.thaqafa-frontend.rule=Host(`${DOMAIN:-news.majlisna.app}`)"
+      - "traefik.http.routers.thaqafa-frontend.entrypoints=web,websecure"
+      - "traefik.http.routers.thaqafa-frontend.tls.certresolver=letsencrypt"
+      - "traefik.http.services.thaqafa-frontend.loadbalancer.server.port=80"
     networks:
       - internal
       - dokploy-network
