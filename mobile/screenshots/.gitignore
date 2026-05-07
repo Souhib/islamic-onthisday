@@ -1,0 +1,3 @@
+# Generated screenshots — committed to git so the App Store / Play Store
+# submission has a versioned source of truth, but anyone can regenerate
+# them with ``make mobile-screenshots`` from a booted simulator.
