@@ -1,6 +1,6 @@
-# Islamic On-This-Day — Web client
+# Thaqafa — Web client
 
-Vite + React + TanStack Router reading surface for the Islamic On-This-Day
+Vite + React + TanStack Router reading surface for the Thaqafa
 project. Trilingual (en / fr / ar with RTL), light/dark theme via CSS
 variables, custom editorial design system, TanStack Query backed by an
 auto-generated [`@hey-api/openapi-ts`](https://github.com/hey-api/openapi-ts)

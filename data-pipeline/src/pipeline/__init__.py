@@ -1,1 +1,1 @@
-"""Islamic On-This-Day data pipeline."""
+"""Thaqafa data pipeline."""

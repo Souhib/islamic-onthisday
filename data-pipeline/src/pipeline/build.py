@@ -312,7 +312,7 @@ def build() -> None:
     can be run by hand to surface candidate entries as JSON reports the
     curator can then promote into YAML one by one.
     """
-    console.rule("[bold cyan]Islamic On-This-Day pipeline")
+    console.rule("[bold cyan]Thaqafa pipeline")
 
     console.log("[bold]Step 1: initialising database…")
     init_db()
@@ -367,7 +367,7 @@ def main() -> None:
     """CLI entry point for `python -m pipeline.build`."""
     argparse.ArgumentParser(
         description=(
-            "Build the Islamic On-This-Day DB from curated YAML. Bulk discovery "
+            "Build the Thaqafa DB from curated YAML. Bulk discovery "
             "from Wikidata / OpenITI lives under data-pipeline/scripts/discovery/ "
             "and is run by hand — never by this command."
         )

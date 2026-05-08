@@ -1,4 +1,4 @@
-"""SQLModel ORM tables for the Islamic On-This-Day pipeline.
+"""SQLModel ORM tables for the Thaqafa pipeline.
 
 Tables inherit from :class:`pipeline.schemas.shared.BaseTable` (which carries
 ``created_at`` / ``updated_at`` timestamps) or :class:`BaseModel` for tables
