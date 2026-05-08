@@ -4,7 +4,7 @@ import 'package:thaqafa/core/router/app_router.dart';
 import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
 import 'package:thaqafa/core/theme/thaqafa_typography.dart';
 import 'package:thaqafa/i18n/strings.g.dart';
-import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/thaqafa_mark.dart';
 
 /// Shell wrapping the three top-level routes (Recent / Sacred days /
 /// Settings) with a custom mono-uppercase bottom navigation bar.
@@ -97,7 +97,7 @@ class _HomeBar extends StatelessWidget {
                 textDirection: Directionality.of(context),
               ),
               const SizedBox(width: 12),
-              const EightPointStar(size: 22),
+              const ThaqafaMark(size: 22),
               const SizedBox(width: 12),
               Text(
                 i18n.nav.today.toUpperCase(),

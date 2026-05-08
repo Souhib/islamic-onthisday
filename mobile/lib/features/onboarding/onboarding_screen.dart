@@ -12,6 +12,7 @@ import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
 import 'package:thaqafa/core/theme/thaqafa_typography.dart';
 import 'package:thaqafa/i18n/strings.g.dart';
 import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/thaqafa_mark.dart';
 
 /// First-launch onboarding — three pages:
 ///   1. Concept: the project's promise + brand mark
@@ -182,7 +183,7 @@ class _ConceptPage extends StatelessWidget {
         children: [
           Column(
             children: [
-              const EightPointStar(size: 44),
+              const ThaqafaMark(size: 64),
               const SizedBox(height: 18),
               Text(
                 i18n.onboarding.eyebrow.toUpperCase(),

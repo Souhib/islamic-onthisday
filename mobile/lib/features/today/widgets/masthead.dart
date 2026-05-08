@@ -4,7 +4,7 @@ import 'package:thaqafa/core/i18n/weekday.dart';
 import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
 import 'package:thaqafa/core/theme/thaqafa_typography.dart';
 import 'package:thaqafa/i18n/strings.g.dart';
-import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/thaqafa_mark.dart';
 
 /// Compact masthead for the Today screen — eight-point star left,
 /// Hijri date right, mono-cap eyebrow centred underneath. Same role
@@ -27,7 +27,7 @@ class Masthead extends StatelessWidget {
         children: [
           Row(
             children: [
-              const EightPointStar(size: 22),
+              const ThaqafaMark(size: 22),
               const SizedBox(width: 10),
               Expanded(
                 child: Text(

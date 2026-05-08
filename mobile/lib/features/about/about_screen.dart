@@ -5,6 +5,7 @@ import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
 import 'package:thaqafa/core/theme/thaqafa_typography.dart';
 import 'package:thaqafa/i18n/strings.g.dart';
 import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/thaqafa_mark.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 const _skills = [
@@ -45,7 +46,7 @@ class AboutScreen extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(28, 0, 28, 40),
           children: [
             // --- Hero ---
-            const Center(child: EightPointStar(size: 32)),
+            const Center(child: ThaqafaMark(size: 48)),
             const SizedBox(height: 12),
             Center(child: Eyebrow('· ${about.title} ·', color: EyebrowColor.accent)),
             const SizedBox(height: 14),

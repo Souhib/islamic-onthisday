@@ -7,7 +7,7 @@ import 'package:thaqafa/core/theme/thaqafa_typography.dart';
 import 'package:thaqafa/features/auth/auth_provider.dart';
 import 'package:thaqafa/features/auth/auth_state.dart';
 import 'package:thaqafa/i18n/strings.g.dart';
-import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/thaqafa_mark.dart';
 
 class SignInScreen extends ConsumerStatefulWidget {
   const SignInScreen({super.key});
@@ -64,7 +64,7 @@ class _SignInScreenState extends ConsumerState<SignInScreen> {
         child: ListView(
           padding: const EdgeInsets.fromLTRB(28, 0, 28, 32),
           children: [
-            const Center(child: EightPointStar(size: 36)),
+            const Center(child: ThaqafaMark(size: 56)),
             const SizedBox(height: 18),
             Text(
               i18n.auth.sign_in_title,

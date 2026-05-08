@@ -14,6 +14,7 @@ import 'package:thaqafa/features/today/widgets/masthead.dart';
 import 'package:thaqafa/features/today/widgets/secondary_card.dart';
 import 'package:thaqafa/i18n/strings.g.dart';
 import 'package:thaqafa/shared/primitives.dart';
+import 'package:thaqafa/shared/thaqafa_mark.dart';
 import 'package:thaqafa/shared/verse_epigraph.dart';
 
 /// The Today route — fetches `/api/v1/today`, renders the masthead +
@@ -90,7 +91,7 @@ class _LoadingState extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const EightPointStar(size: 36),
+          const ThaqafaMark(size: 48),
           const SizedBox(height: 24),
           Text(
             i18n.today.loading.toUpperCase(),
@@ -121,7 +122,7 @@ class _ErrorState extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const EightPointStar(size: 36),
+            const ThaqafaMark(size: 48),
             const SizedBox(height: 16),
             Text(
               i18n.today.load_failed,
