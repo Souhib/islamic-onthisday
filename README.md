@@ -1,7 +1,11 @@
-# Thaqafa
+<p align="center">
+  <img src="docs/brand/lockup@2x.png" alt="Thaqafa — ثقافة" width="460" />
+</p>
 
-[![CI](https://github.com/Souhib/thaqafa/actions/workflows/ci.yml/badge.svg)](https://github.com/Souhib/thaqafa/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<p align="center">
+  <a href="https://github.com/Souhib/thaqafa/actions/workflows/ci.yml"><img src="https://github.com/Souhib/thaqafa/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+</p>
 
 A website and backend (Flutter mobile app planned) that surface a verified
 historical event from Islamic history for each day of the year (Gregorian

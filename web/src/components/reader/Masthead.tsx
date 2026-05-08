@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
-import { EightPointStar } from "@/components/design";
+import { ThaqafaLockup } from "@/components/design";
 import { AccountLink } from "@/components/reader/AccountLink";
 import { LanguageSwitcher } from "@/components/reader/LanguageSwitcher";
 import { useTheme } from "@/providers/ThemeProvider";
@@ -29,11 +29,8 @@ export function Masthead({ today }: Props) {
       {/* ─── Mobile (< sm): three stacked rows ─────────────────────── */}
       <div className="flex flex-col gap-3 sm:hidden">
         <div className="flex items-center justify-between gap-3">
-          <Link to="/" className="flex items-center gap-2.5">
-            <EightPointStar size={20} className="text-accent" strokeWidth={0.6} />
-            <span className="font-mono text-[10.5px] uppercase tracking-[1.8px] text-ink">
-              {t("app_name_short")}
-            </span>
+          <Link to="/" aria-label={t("app_name")}>
+            <ThaqafaLockup size={28} hideArabic />
           </Link>
           <div className="flex items-center gap-2">
             <LanguageSwitcher />
@@ -66,12 +63,9 @@ export function Masthead({ today }: Props) {
 
       {/* ─── Desktop (≥ sm): original 3-column grid ─────────────────── */}
       <div className="hidden grid-cols-[1fr_auto_1fr] items-center gap-6 sm:grid">
-        <div className="flex items-center gap-3.5">
-          <EightPointStar size={22} className="text-accent" strokeWidth={0.6} />
-          <span className="font-mono text-[12.5px] uppercase tracking-[2px] text-ink">
-            {t("app_name")}
-          </span>
-        </div>
+        <Link to="/" aria-label={t("app_name")} className="flex items-center">
+          <ThaqafaLockup size={36} />
+        </Link>
         <span className="text-center font-mono text-[12px] uppercase tracking-[2.6px] text-accent">
           {dateLine}
         </span>

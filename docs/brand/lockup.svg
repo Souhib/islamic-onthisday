@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Thaqafa horizontal lockup — tile + italic Cormorant wordmark + Arabic
+  (ثقافة) accent, baseline-aligned. The Arabic uses ``<tspan dx="40">``
+  so the renderer layouts it after the natural width of the Latin
+  text — no hard-coded x position to drift on font swaps.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="920" height="220">
+  <g transform="translate(40, 30)">
+    <rect width="160" height="160" rx="36" ry="36" fill="#fbf7ee" stroke="#d5cdb8" stroke-width="1.6"/>
+    <g fill="none" stroke="#1b1a17" stroke-width="2.4" stroke-linejoin="miter">
+      <polygon points="153.60,80.00 80.00,153.60 6.40,80.00 80.00,6.40"/>
+      <polygon points="132.04,132.04 27.96,132.04 27.96,27.96 132.04,27.96"/>
+    </g>
+    <text x="80.0" y="84.0" font-family="Amiri, 'Damascus', 'Geeza Pro', serif"
+          font-size="74" font-weight="500" fill="#588671" text-anchor="middle" dominant-baseline="central">ث</text>
+  </g>
+  <text x="240" y="132.0" font-family="'Cormorant Garamond', 'EB Garamond', Georgia, serif"
+        font-size="104" font-style="italic" font-weight="500" fill="#1b1a17" letter-spacing="-0.01em">Thaqafa<tspan
+        dx="40" font-family="Amiri, 'Damascus', 'Geeza Pro', serif" font-size="72" font-weight="500" font-style="normal" fill="#588671" letter-spacing="0">ثقافة</tspan></text>
+</svg>
