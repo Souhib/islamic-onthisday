@@ -312,13 +312,22 @@ class AboutScreen extends StatelessWidget {
             const SizedBox(height: 36),
             Eyebrow('· ${i18n.legal.title} ·', color: EyebrowColor.inkMute),
             const SizedBox(height: 10),
-            _LegalRow(label: i18n.legal.privacy, url: '${ApiConfig.baseUrl}/privacy.html'),
-            _LegalRow(label: i18n.legal.terms, url: '${ApiConfig.baseUrl}/terms.html', last: true),
+            _LegalRow(label: i18n.legal.privacy, url: '${ApiConfig.baseUrl}${_legalPath('privacy', lang)}'),
+            _LegalRow(label: i18n.legal.terms, url: '${ApiConfig.baseUrl}${_legalPath('terms', lang)}', last: true),
           ],
         ),
       ),
     );
   }
+}
+
+/// Resolve the localised legal-page path. The static files at the
+/// public origin live at ``/privacy.html`` (EN), ``/privacy.fr.html``,
+/// ``/privacy.ar.html`` (and the matching ``terms.*``).
+String _legalPath(String kind, String lang) {
+  if (lang == 'fr') return '/$kind.fr.html';
+  if (lang == 'ar') return '/$kind.ar.html';
+  return '/$kind.html';
 }
 
 class _LegalRow extends StatelessWidget {

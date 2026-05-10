@@ -1,64 +1,75 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Terms of Service — Thaqafa</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/favicon-v4.svg" />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --paper: #F5F0E6;
-    --ink: #1B1A17;
-    --ink-soft: #3A372F;
-    --ink-mute: #6E6A5C;
-    --rule: #D5CDB8;
-    --accent: #3A8A6B;
-  }
-  body {
-    margin: 0; padding: 0;
-    background: var(--paper);
-    color: var(--ink-soft);
-    font: 17px/1.6 "Cormorant Garamond", Georgia, serif;
-  }
-  main { max-width: 720px; margin: 0 auto; padding: 60px 28px 80px; }
-  .eyebrow {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase;
-    color: var(--accent); display: block;
-  }
-  h1 {
-    font-weight: 500; font-size: 38px; line-height: 1.05;
-    letter-spacing: -0.6px; color: var(--ink); margin: 14px 0 20px;
-  }
-  h2 {
-    font-weight: 500; font-size: 24px; line-height: 1.2;
-    color: var(--ink); margin: 36px 0 12px;
-  }
-  p, ul { margin: 12px 0; }
-  ul { padding-left: 22px; }
-  li { margin: 6px 0; }
-  a { color: var(--accent); }
-  .updated {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 11px; letter-spacing: 1.4px; text-transform: uppercase;
-    color: var(--ink-mute); margin-top: 28px;
-  }
-  hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
+:root {
+  --paper: #F5F0E6; --ink: #1B1A17; --ink-soft: #3A372F;
+  --ink-mute: #6E6A5C; --rule: #D5CDB8; --accent: #3A8A6B;
+}
+body { margin: 0; padding: 0; background: var(--paper); color: var(--ink-soft);
+       font: 17px/1.6 "Cormorant Garamond", Georgia, serif; }
+body[lang="ar"] { font-family: "Amiri", "Damascus", "Geeza Pro", serif; font-size: 19px; }
+.bar { position: sticky; top: 0; background: var(--paper);
+       border-bottom: 0.5px solid var(--rule); z-index: 5; }
+.bar-inner { max-width: 720px; margin: 0 auto; padding: 14px 28px;
+             display: flex; align-items: center; justify-content: space-between;
+             gap: 16px; }
+.back { color: var(--ink-soft); text-decoration: none;
+        font: 500 14px/1 "Cormorant Garamond", Georgia, serif; font-style: italic;
+        display: inline-flex; align-items: center; gap: 6px; }
+.back:hover { color: var(--accent); }
+body[lang="ar"] .back { font-family: "Amiri", serif; font-style: normal; font-size: 16px; }
+.langs { display: inline-flex; gap: 14px; font-family: "JetBrains Mono", monospace;
+         font-size: 11px; letter-spacing: 1.4px; }
+.langs a { color: var(--ink-mute); text-decoration: none; }
+.langs a.current { color: var(--ink); }
+main { max-width: 720px; margin: 0 auto; padding: 40px 28px 80px; }
+.eyebrow { font-family: "JetBrains Mono", monospace; font-size: 11px;
+           letter-spacing: 1.6px; text-transform: uppercase;
+           color: var(--accent); display: block; }
+body[lang="ar"] .eyebrow { letter-spacing: 0; font-family: inherit; font-size: 13px; }
+h1 { font-weight: 500; font-size: 38px; line-height: 1.05;
+     letter-spacing: -0.6px; color: var(--ink); margin: 14px 0 20px; }
+body[lang="ar"] h1 { letter-spacing: 0; font-size: 36px; line-height: 1.2; }
+h2 { font-weight: 500; font-size: 24px; line-height: 1.2;
+     color: var(--ink); margin: 36px 0 12px; }
+body[lang="ar"] h2 { font-size: 26px; }
+p, ul { margin: 12px 0; }
+ul { padding-left: 22px; }
+body[lang="ar"] ul { padding-left: 0; padding-right: 22px; }
+li { margin: 6px 0; }
+a { color: var(--accent); }
+.updated { font-family: "JetBrains Mono", monospace; font-size: 11px;
+           letter-spacing: 1.4px; text-transform: uppercase;
+           color: var(--ink-mute); margin-top: 28px; }
+body[lang="ar"] .updated { font-family: inherit; letter-spacing: 0; font-size: 13px; }
+hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
 </style>
 </head>
-<body>
+<body lang="en">
+<header class="bar">
+  <div class="bar-inner">
+    <a href="/" class="back">← Back to Thaqafa</a>
+    <nav class="langs" aria-label="Language"><a href="/terms.html" class="current">EN</a><a href="/terms.fr.html">FR</a><a href="/terms.ar.html">AR</a></nav>
+  </div>
+</header>
 <main>
   <span class="eyebrow">· Terms of Service ·</span>
   <h1>Terms of Service</h1>
 
-  <p>By using <em>Thaqafa</em> (the app, the website, or
-  any companion surface) you accept the terms below. They are written
-  short on purpose.</p>
+  <p>By using <em>Thaqafa</em> (the app, the website, or any companion
+  surface) you accept the terms below. They are written short on
+  purpose.</p>
 
   <h2>What the service is</h2>
   <p>One verified historical event from Islamic history surfaced per
-  day, in both Hijri and Gregorian calendars. The dataset is curated
-  by hand against classical Sunni sources. We make no claim of
+  day, in both Hijri and Gregorian calendars. The dataset is curated by
+  hand against classical Sunni sources. We make no claim of
   completeness — only of <em>accuracy</em>.</p>
 
   <h2>Account</h2>
@@ -78,33 +89,33 @@
     <li>Use the service to harass, defame, or distribute illegal content.</li>
   </ul>
 
-  <h2>Content & licensing</h2>
+  <h2>Content &amp; licensing</h2>
   <p>Editorial content (event descriptions, lesson summaries, image
   selections) is © Souhib Trabelsi, available for personal reading and
   educational use. Quotation with attribution is permitted; bulk
-  republication requires permission. The Qur'anic text is from
-  Tanzil's ʿUthmānī Mushaf (free for non-commercial use); English
-  translation is Saheeh International, French is Hamidullah —
-  redistributed within their respective terms.</p>
+  republication requires permission. The Qur'anic text is from Tanzil's
+  ʿUthmānī Mushaf (free for non-commercial use); English translation is
+  Saheeh International, French is Hamidullah — redistributed within
+  their respective terms.</p>
 
   <h2>No warranty</h2>
   <p>The dataset is curated to the best of our ability. Errors happen.
-  When you find one, email <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>
-  and we will correct or remove the entry. We do not warrant fitness
-  for any specific purpose, including academic citation — verify
-  primary sources for serious work.</p>
+  When you find one, email
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a> and we
+  will correct or remove the entry. We do not warrant fitness for any
+  specific purpose, including academic citation — verify primary sources
+  for serious work.</p>
 
   <h2>Termination</h2>
-  <p>You can delete your account at any time from Settings →
-  Account → Delete account. Account deletion is permanent and
-  irreversible.</p>
+  <p>You can delete your account at any time from Settings → Account →
+  Delete account. Account deletion is permanent and irreversible.</p>
   <p>We reserve the right to terminate accounts that violate the
   acceptable-use clauses above, with or without notice.</p>
 
   <h2>Liability</h2>
-  <p>Use of the service is at your own risk. We are not liable for
-  any indirect, incidental, or consequential damages arising from
-  use or inability to use the service.</p>
+  <p>Use of the service is at your own risk. We are not liable for any
+  indirect, incidental, or consequential damages arising from use or
+  inability to use the service.</p>
 
   <h2>Governing law</h2>
   <p>These terms are governed by French law. Any dispute will be
@@ -116,10 +127,11 @@
   effect.</p>
 
   <h2>Contact</h2>
-  <p>Questions? <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a></p>
+  <p>Questions?
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a></p>
 
   <hr />
-  <p class="updated">Last updated · 2026-05-06</p>
+  <p class="updated">Last updated · 2026-05-10</p>
 </main>
 </body>
 </html>

@@ -1,60 +1,70 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Privacy Policy — Thaqafa</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/favicon-v4.svg" />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --paper: #F5F0E6;
-    --ink: #1B1A17;
-    --ink-soft: #3A372F;
-    --ink-mute: #6E6A5C;
-    --rule: #D5CDB8;
-    --accent: #3A8A6B;
-  }
-  body {
-    margin: 0; padding: 0;
-    background: var(--paper);
-    color: var(--ink-soft);
-    font: 17px/1.6 "Cormorant Garamond", Georgia, serif;
-  }
-  main { max-width: 720px; margin: 0 auto; padding: 60px 28px 80px; }
-  .eyebrow {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase;
-    color: var(--accent); display: block;
-  }
-  h1 {
-    font-weight: 500; font-size: 38px; line-height: 1.05;
-    letter-spacing: -0.6px; color: var(--ink); margin: 14px 0 20px;
-  }
-  h2 {
-    font-weight: 500; font-size: 24px; line-height: 1.2;
-    color: var(--ink); margin: 36px 0 12px;
-  }
-  p, ul { margin: 12px 0; }
-  ul { padding-left: 22px; }
-  li { margin: 6px 0; }
-  a { color: var(--accent); }
-  .updated {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 11px; letter-spacing: 1.4px; text-transform: uppercase;
-    color: var(--ink-mute); margin-top: 28px;
-  }
-  hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
+:root {
+  --paper: #F5F0E6; --ink: #1B1A17; --ink-soft: #3A372F;
+  --ink-mute: #6E6A5C; --rule: #D5CDB8; --accent: #3A8A6B;
+}
+body { margin: 0; padding: 0; background: var(--paper); color: var(--ink-soft);
+       font: 17px/1.6 "Cormorant Garamond", Georgia, serif; }
+body[lang="ar"] { font-family: "Amiri", "Damascus", "Geeza Pro", serif; font-size: 19px; }
+.bar { position: sticky; top: 0; background: var(--paper);
+       border-bottom: 0.5px solid var(--rule); z-index: 5; }
+.bar-inner { max-width: 720px; margin: 0 auto; padding: 14px 28px;
+             display: flex; align-items: center; justify-content: space-between;
+             gap: 16px; }
+.back { color: var(--ink-soft); text-decoration: none;
+        font: 500 14px/1 "Cormorant Garamond", Georgia, serif; font-style: italic;
+        display: inline-flex; align-items: center; gap: 6px; }
+.back:hover { color: var(--accent); }
+body[lang="ar"] .back { font-family: "Amiri", serif; font-style: normal; font-size: 16px; }
+.langs { display: inline-flex; gap: 14px; font-family: "JetBrains Mono", monospace;
+         font-size: 11px; letter-spacing: 1.4px; }
+.langs a { color: var(--ink-mute); text-decoration: none; }
+.langs a.current { color: var(--ink); }
+main { max-width: 720px; margin: 0 auto; padding: 40px 28px 80px; }
+.eyebrow { font-family: "JetBrains Mono", monospace; font-size: 11px;
+           letter-spacing: 1.6px; text-transform: uppercase;
+           color: var(--accent); display: block; }
+body[lang="ar"] .eyebrow { letter-spacing: 0; font-family: inherit; font-size: 13px; }
+h1 { font-weight: 500; font-size: 38px; line-height: 1.05;
+     letter-spacing: -0.6px; color: var(--ink); margin: 14px 0 20px; }
+body[lang="ar"] h1 { letter-spacing: 0; font-size: 36px; line-height: 1.2; }
+h2 { font-weight: 500; font-size: 24px; line-height: 1.2;
+     color: var(--ink); margin: 36px 0 12px; }
+body[lang="ar"] h2 { font-size: 26px; }
+p, ul { margin: 12px 0; }
+ul { padding-left: 22px; }
+body[lang="ar"] ul { padding-left: 0; padding-right: 22px; }
+li { margin: 6px 0; }
+a { color: var(--accent); }
+.updated { font-family: "JetBrains Mono", monospace; font-size: 11px;
+           letter-spacing: 1.4px; text-transform: uppercase;
+           color: var(--ink-mute); margin-top: 28px; }
+body[lang="ar"] .updated { font-family: inherit; letter-spacing: 0; font-size: 13px; }
+hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
 </style>
 </head>
-<body>
+<body lang="en">
+<header class="bar">
+  <div class="bar-inner">
+    <a href="/" class="back">← Back to Thaqafa</a>
+    <nav class="langs" aria-label="Language"><a href="/privacy.html" class="current">EN</a><a href="/privacy.fr.html">FR</a><a href="/privacy.ar.html">AR</a></nav>
+  </div>
+</header>
 <main>
   <span class="eyebrow">· Privacy Policy ·</span>
   <h1>Privacy Policy</h1>
 
-  <p><em>Thaqafa</em> ("the app", "we") is a daily-reading
-  app surfacing one verified historical event from Islamic history per
-  day. This page describes what we collect, why, and what you can do
-  about it.</p>
+  <p><em>Thaqafa</em> ("the app", "we") is a daily-reading app surfacing
+  one verified historical event from Islamic history per day. This page
+  describes what we collect, why, and what you can do about it.</p>
 
   <h2>What we collect</h2>
   <p>The app is free to read without any account. If you create one
@@ -67,20 +77,19 @@
     <li>A hashed <strong>password</strong> (Argon2id, salted) — never
         stored in plaintext.</li>
     <li>Your <strong>saved bookmarks</strong> — slugs of events or
-        lessons you tapped "save" on.</li>
+        lessons you tapped &ldquo;save&rdquo; on.</li>
   </ul>
-
   <p>Without an account: we collect <strong>nothing</strong> beyond the
   standard server log (IP, user-agent, request path, timestamp), kept
   for 14 days for security and abuse-mitigation only.</p>
 
   <h2>Anonymous usage analytics</h2>
   <p>We use <a href="https://umami.is">Umami</a>, a privacy-friendly
-  analytics tool we self-host on our own server in France. Umami
-  records page-view-level signals so we can see which events readers
-  find most interesting and which navigation paths break. It does
-  not use cookies, does not assign you a persistent identifier, and
-  never sees your account.</p>
+  analytics tool we self-host on our own server in France. Umami records
+  page-view-level signals so we can see which events readers find most
+  interesting and which navigation paths break. It does not use cookies,
+  does not assign you a persistent identifier, and never sees your
+  account.</p>
   <p>What it records, per page view:</p>
   <ul>
     <li>The page path you visited (no query parameters).</li>
@@ -110,23 +119,23 @@
     <li>No reading history beyond what you explicitly bookmark.</li>
   </ul>
 
-  <p>We use Sentry for crash reporting on the mobile and web apps.
-  Sentry receives a stack trace + a few non-personal request
-  fingerprints (route, error message). It does not see your email,
-  bookmarks, or any content you author.</p>
+  <p>We use Sentry / GlitchTip for crash reporting on the mobile and web
+  apps. The instance is self-hosted; it receives a stack trace and a few
+  non-personal request fingerprints (route, error message). It does not
+  see your email, bookmarks, or any content you author.</p>
 
   <h2>Where it lives</h2>
   <p>The application database (your account, your bookmarks) is hosted
   on a single SQLite/PostgreSQL instance in the European Union (France)
   behind Cloudflare. No data crosses the EU boundary except outbound
-  email (Resend, EU pop) and Sentry crash payloads (Frankfurt, EU).</p>
+  email (Resend, EU pop).</p>
 
   <h2>How long we keep it</h2>
   <ul>
     <li>Account data: until you delete the account.</li>
     <li>Server logs: 14 days, then permanent deletion.</li>
-    <li>One-time tokens (password reset, email verify): 30 minutes
-        from issue, then permanent deletion.</li>
+    <li>One-time tokens (password reset, email verify): 30 minutes from
+        issue, then permanent deletion.</li>
   </ul>
 
   <h2>Your rights (RGPD / GDPR)</h2>
@@ -158,7 +167,7 @@
   <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>.</p>
 
   <hr />
-  <p class="updated">Last updated · 2026-05-06</p>
+  <p class="updated">Last updated · 2026-05-10</p>
 </main>
 </body>
 </html>

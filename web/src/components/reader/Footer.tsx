@@ -6,6 +6,17 @@ import { useDatasetMeta } from "@/api/datasetMeta";
 const VERSION = import.meta.env.VITE_APP_VERSION ?? "dev";
 const TOTAL_GREGORIAN_DAYS = 366;
 
+/**
+ * Resolve the localised legal-page URL. The static files live at
+ * ``/privacy.html``, ``/privacy.fr.html``, ``/privacy.ar.html`` (and
+ * the matching ``terms.*``); the EN file is the bare path.
+ */
+function legalPath(kind: "privacy" | "terms", lang: string): string {
+  if (lang === "fr") return `/${kind}.fr.html`;
+  if (lang === "ar") return `/${kind}.ar.html`;
+  return `/${kind}.html`;
+}
+
 export function Footer() {
   const { t, i18n } = useTranslation();
   const { data: meta } = useDatasetMeta();
@@ -52,11 +63,11 @@ export function Footer() {
             {t("about.nav_label")}
           </Link>
           <span aria-hidden="true">·</span>
-          <a href="/privacy.html" className="thaqafa-link">
+          <a href={legalPath("privacy", i18n.language)} className="thaqafa-link">
             {t("legal.privacy")}
           </a>
           <span aria-hidden="true">·</span>
-          <a href="/terms.html" className="thaqafa-link">
+          <a href={legalPath("terms", i18n.language)} className="thaqafa-link">
             {t("legal.terms")}
           </a>
           <span aria-hidden="true">·</span>
