@@ -74,6 +74,7 @@ account).
 | Personal info | Email address | Account management, password reset | Required to create an account; the app is fully usable signed-out |
 | Personal info | Name | Account management (display name) | Required to create an account |
 | App activity | App interactions (bookmark events) | App functionality (sync bookmarks across devices) | Optional; only when signed in |
+| App activity | Page views | Analytics (anonymous; self-hosted Umami — see note below) | Always |
 | App info & performance | Crash logs | App functionality (debugging crashes) | — |
 | App info & performance | Diagnostics | App functionality (performance monitoring) | — |
 
@@ -94,13 +95,13 @@ content, Device or other IDs, **all advertising data**.
 ### Third parties (sharing)
 
 The app does **not** share any user data with third parties. Crash and
-performance telemetry goes to our own Sentry instance which we operate
-ourselves; it is not "sharing" in the Play Data Safety sense (same
-data-controller).
+performance telemetry goes to our own GlitchTip instance, and page-view
+analytics to our own Umami instance — both self-hosted on the same
+server as the API. Same data-controller, so neither counts as
+"sharing" in the Play Data Safety sense.
 
-If you keep the default Sentry SaaS endpoint (sentry.io) instead of
-self-hosting, declare a single sharing entry:
-- *Crash logs* → shared with Sentry → for app functionality.
+If you ever migrate to a SaaS endpoint (sentry.io, umami.is hosted),
+add the matching sharing entries here.
 
 ## Apple App Store — privacy nutrition label
 
@@ -121,6 +122,9 @@ We do not track users across apps or websites owned by other companies.
 
 - **Diagnostics → Crash Data** (purpose: App Functionality)
 - **Diagnostics → Performance Data** (purpose: App Functionality)
+- **Usage Data → Product Interaction** (purpose: Analytics) — page-view
+  signals captured by our self-hosted Umami; not linked to any
+  account, no persistent identifier, no cross-app tracking
 
 ### Required-reason API declarations
 

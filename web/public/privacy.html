@@ -74,12 +74,39 @@
   standard server log (IP, user-agent, request path, timestamp), kept
   for 14 days for security and abuse-mitigation only.</p>
 
+  <h2>Anonymous usage analytics</h2>
+  <p>We use <a href="https://umami.is">Umami</a>, a privacy-friendly
+  analytics tool we self-host on our own server in France. Umami
+  records page-view-level signals so we can see which events readers
+  find most interesting and which navigation paths break. It does
+  not use cookies, does not assign you a persistent identifier, and
+  never sees your account.</p>
+  <p>What it records, per page view:</p>
+  <ul>
+    <li>The page path you visited (no query parameters).</li>
+    <li>The referring page, if any.</li>
+    <li>Country, derived from your IP for the duration of the
+        request — the IP itself is never stored.</li>
+    <li>Browser, operating system, device type, screen size, language.</li>
+  </ul>
+  <p>What it does <strong>not</strong> do:</p>
+  <ul>
+    <li>Set cookies or assign a persistent identifier.</li>
+    <li>Follow you across other websites or apps.</li>
+    <li>Share data with anyone — the Umami instance runs on our own
+        server, no third party reads your traffic.</li>
+    <li>See your account, your bookmarks, or anything you author.</li>
+  </ul>
+
   <h2>What we do not collect</h2>
   <ul>
-    <li>No analytics SDKs (no Google Analytics, no Mixpanel, no Plausible).</li>
+    <li>No third-party analytics SDKs (no Google Analytics, no Mixpanel,
+        no Plausible). Our analytics is the self-hosted Umami described
+        above.</li>
     <li>No advertising trackers.</li>
     <li>No third-party social-login pixels.</li>
-    <li>No location data.</li>
+    <li>No location data beyond country-level inference from a single
+        page request.</li>
     <li>No reading history beyond what you explicitly bookmark.</li>
   </ul>
 
