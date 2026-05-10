@@ -9,7 +9,15 @@
 
 set -e
 
-echo "[entrypoint] running pipeline.build against DATABASE_URL=${DATABASE_URL%@*}@…"
+# Log a password-masked URL so docker logs / Dokploy logs don't leak the
+# DB credential. SQLAlchemy's URL renderer does the masking.
+SAFE_URL=$(python -c '
+import os
+from sqlalchemy.engine.url import make_url
+print(make_url(os.environ["DATABASE_URL"]).render_as_string(hide_password=True))
+')
+echo "[entrypoint] running pipeline.build against $SAFE_URL"
+
 cd /opt/data-pipeline
 python -m pipeline.build
 

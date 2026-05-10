@@ -11,13 +11,13 @@ the backend: dataset tables (events, lessons, …) AND user tables
 :data:`pipeline.constants.CONTENT_TABLE_NAMES`. User data is never
 touched, even when the pipeline runs a full rebuild.
 
-**URL resolution.** The connection URL is read from
-``THAQAFA_DATABASE_URL`` (env). It can be any SQLAlchemy URL —
-``postgresql://``, ``postgresql+psycopg://``, ``postgresql+asyncpg://``,
-``sqlite:///`` — we normalise it to a sync driver. When the env var is
-absent we fall back to the bundled SQLite file at
-:data:`pipeline.constants.DEFAULT_DB_PATH` so ``python -m pipeline.build``
-keeps working out of the box for local dev.
+**URL resolution.** The connection URL is read from ``DATABASE_URL``
+(env) — the same env var the backend's pydantic-settings reads. It can
+be any SQLAlchemy URL — ``postgresql://``, ``postgresql+psycopg://``,
+``postgresql+asyncpg://``, ``sqlite:///`` — we normalise it to a sync
+driver. When the env var is absent we fall back to the bundled SQLite
+file at :data:`pipeline.constants.DEFAULT_DB_PATH` so
+``python -m pipeline.build`` keeps working out of the box for local dev.
 """
 
 import os
@@ -56,13 +56,13 @@ def _resolve_url(db_path: Path | None) -> str:
 
     Precedence:
         1. ``db_path`` argument (callers that want to point at a specific file).
-        2. ``THAQAFA_DATABASE_URL`` env var (prod / docker-compose / explicit).
+        2. ``DATABASE_URL`` env var (prod / docker-compose / explicit).
         3. The bundled SQLite at :data:`DEFAULT_DB_PATH` (local dev fallback).
     """
     if db_path is not None:
         db_path.parent.mkdir(parents=True, exist_ok=True)
         return f"sqlite:///{db_path}"
-    env_url = os.environ.get("THAQAFA_DATABASE_URL")
+    env_url = os.environ.get("DATABASE_URL")
     if env_url:
         return _to_sync_url(env_url)
     DEFAULT_DB_PATH.parent.mkdir(parents=True, exist_ok=True)
