@@ -44,7 +44,7 @@ class Person(BaseModel, table=True):
     laqab: str | None = Field(default=None, max_length=128)
     nisba: str | None = Field(default=None, max_length=128)
     biography_en: str | None = Field(default=None, sa_column=Column(Text))
-    role: str | None = Field(default=None, max_length=64)
+    role: str | None = Field(default=None, max_length=128)
     wikidata_qid: str | None = Field(default=None, max_length=32, index=True)
     openiti_id: str | None = Field(default=None, max_length=128, index=True)
     is_sahabi: bool = Field(default=False)

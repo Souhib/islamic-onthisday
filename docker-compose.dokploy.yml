@@ -10,6 +10,32 @@ x-logging: &default-logging
     max-file: "5"
 
 services:
+  # ─── PostgreSQL ──────────────────────────────────────────────
+  # Single source of truth for both content (events / lessons / observances
+  # — rebuilt from YAML on every backend container start) and user data
+  # (accounts, bookmarks, tokens — never touched by the pipeline thanks to
+  # ``CONTENT_TABLE_NAMES`` allowlist). The named volume keeps user rows
+  # alive across redeploys.
+  db:
+    container_name: thaqafa-db
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: thaqafa
+      POSTGRES_USER: thaqafa
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required in the Dokploy env (generate one with secrets.token_urlsafe).}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U thaqafa -d thaqafa"]
+      interval: 10s
+      timeout: 5s
+      start_period: 30s
+      retries: 10
+    networks:
+      - internal
+    logging: *default-logging
+    restart: always
+
   # ─── Backend API ─────────────────────────────────────────────
   backend:
     container_name: thaqafa-backend
@@ -19,6 +45,9 @@ services:
       target: production
       args:
         FRONTEND_URL: ${FRONTEND_URL:-https://news.majlisna.app}
+    depends_on:
+      db:
+        condition: service_healthy
     environment:
       THAQAFA_ENV: production
       HOST: 0.0.0.0
@@ -28,6 +57,9 @@ services:
       CORS_ORIGINS: ${CORS_ORIGINS:-https://news.majlisna.app}
       SENTRY_DSN: ${SENTRY_DSN:-}
       RATE_LIMIT_ENABLED: ${RATE_LIMIT_ENABLED:-true}
+      # Bare URL — backend normalises to ``+asyncpg``, pipeline normalises
+      # to ``+psycopg``. Same connection, different drivers.
+      DATABASE_URL: postgresql://thaqafa:${POSTGRES_PASSWORD}@db:5432/thaqafa
       # 32+ random bytes — generate with `python -c 'import secrets; print(secrets.token_urlsafe(48))'`.
       # Compose refuses to start without an explicit value here, by design:
       # the dev fallback `dev-only-change-me` would silently sign tokens
@@ -47,7 +79,11 @@ services:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5111/api/v1/health').read()"]
       interval: 30s
       timeout: 5s
-      start_period: 30s
+      # First boot runs ``pipeline.build`` against postgres before the API
+      # starts (~70-90s for the YAML ingest + Qur'an extracts fetch).
+      # ``start_period`` covers that window so Dokploy doesn't kill the
+      # container during legitimate startup.
+      start_period: 180s
       retries: 3
     ports:
       - "38591:5111"
@@ -98,3 +134,10 @@ networks:
     driver: bridge
   dokploy-network:
     external: true
+
+volumes:
+  # User data persistence. Content tables are dropped + recreated by the
+  # pipeline on every backend container start; everything else (accounts,
+  # bookmarks, password-reset / email-verify tokens) survives redeploys.
+  postgres_data:
+    name: thaqafa-postgres-data

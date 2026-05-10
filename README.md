@@ -16,11 +16,11 @@ Live repo: <https://github.com/Souhib/thaqafa>.
 The repository ships three components:
 
 - **`data-pipeline/`** — Python ETL that turns curated YAML into the
-  authoritative SQLite database, and emits the public sitemap / robots /
-  Atom feed / dataset-meta alongside it. Bulk discovery from Wikidata /
-  OpenITI lives under `data-pipeline/scripts/discovery/` and produces
-  JSON candidate reports for human review — never writes to the
-  production SQLite.
+  authoritative database (SQLite in dev, PostgreSQL in prod), and emits
+  the public sitemap / robots / Atom feed / dataset-meta alongside it.
+  Bulk discovery from Wikidata / OpenITI lives under
+  `data-pipeline/scripts/discovery/` and produces JSON candidate reports
+  for human review — never writes to the live database.
 - **`backend/`** — FastAPI read-only API serving the dataset to the web
   client. Private origin: only the FE talks to it.
 - **`web/`** — Vite + React reading surface (Tailwind v4, i18next, TanStack

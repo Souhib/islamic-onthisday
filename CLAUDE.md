@@ -345,54 +345,73 @@ domain before running the pipeline.
 ## Deployment & daily rebuild (Dokploy)
 
 Production runs on Dokploy (`docker-compose.dokploy.yml` at the repo
-root). Two services: `thaqafa-backend` (FastAPI on the internal network)
-and `thaqafa-frontend` (nginx serving the Vite bundle, behind Traefik +
-Let's Encrypt). Account / bookmark tables are auto-created by the
-backend on lifespan startup (`thaqafa.database._create_backend_tables`)
-and are excluded from `pipeline.constants.CONTENT_TABLE_NAMES` so the
-pipeline's drop-and-recreate cycle never touches them.
+root). Three services:
+- `thaqafa-db` — PostgreSQL 16, named volume `thaqafa-postgres-data`,
+  internal network only.
+- `thaqafa-backend` — FastAPI, runs the pipeline on every container
+  start (entrypoint), then serves the API.
+- `thaqafa-frontend` — nginx serving the Vite bundle, behind Traefik +
+  Let's Encrypt.
 
-**The pipeline runs at image-build time, not at runtime.** Look at
-`backend/Dockerfile`: stage `pipeline` runs `python -m pipeline.build`
-once during the build, and stage `production` copies the produced SQLite
-into the image. The running container reads from disk; nothing schedules
-a rebuild from inside FastAPI. Two reasons:
-- The dataset is curator-driven, so most "rebuilds" naturally happen
-  alongside YAML edits — git push → CI → Dokploy autodeploy already
-  re-runs the pipeline as part of the image build. No additional
-  scheduling needed for content changes.
-- The `feed.xml` headline rotates per calendar day even when the
-  dataset hasn't changed, so we want a daily build *anyway* to keep
-  the syndication files current.
+Account / bookmark / token tables are created by the backend on lifespan
+startup (`thaqafa.database._create_backend_tables`) and are excluded
+from `pipeline.constants.CONTENT_TABLE_NAMES` — the pipeline's
+drop-and-recreate cycle leaves them alone.
 
-**Daily rebuild = scheduled redeploy, not in-container exec.** Configure
-this in the Dokploy UI:
+**The pipeline runs at container start, not at image build.** See
+`backend/Dockerfile` (production stage) + `backend/entrypoint.sh`:
+the entrypoint execs `python -m pipeline.build` against
+`$DATABASE_URL` (the postgres in compose), which drops + recreates the
+content tables from YAML and writes `web/public/{sitemap,robots,feed,
+quran-extracts}.xml|json`. Then it execs `python main.py`.
+
+Why container start instead of image build:
+- The image is **content-free**; the dataset lives in postgres, which
+  persists across redeploys via the named volume. Content is the build
+  artifact of YAML + the pipeline run, but it doesn't get baked into a
+  Docker layer — it's installed into the live DB at boot.
+- User data (accounts, bookmarks, tokens) survives every redeploy
+  because the pipeline's allowlist only drops content tables.
+
+**Daily rebuild = scheduled redeploy.** Configure in the Dokploy UI:
 
 1. Dokploy → application `thaqafa` → **Schedules** → Create.
 2. Service: pick the application (Compose stack), action: **Redeploy**.
 3. Cron expression: `0 4 * * *` (04:00 UTC — quiet hour, before
    European morning traffic).
 
-That's the whole config. Each redeploy:
-- Re-builds the backend image, which re-runs `pipeline.build` →
-  fresh SQLite + fresh `web/public/{sitemap,robots,feed}.xml`.
-- Re-builds the frontend image (the new syndication files are baked in
-  as static assets).
+Each redeploy:
+- Re-builds the backend image (fast: no pipeline run during build).
+- New backend container's entrypoint runs `pipeline.build` against
+  the live postgres → fresh content tables, fresh syndication files.
+- Re-builds the frontend image (syndication files baked in as static
+  assets — they were re-generated during the backend image build's
+  copy of `web/public/`… wait, that's not quite right anymore — see
+  next paragraph).
 - Switches Traefik over once both new containers pass their healthchecks.
 
-Why **not** `docker exec thaqafa-backend python -m pipeline.build` from a
-schedule? Two failure modes: (a) the SQLite would be re-created in-
-container but the FE's `sitemap.xml` would stale (different image, no
-shared volume); (b) the rebuilt SQLite would be lost on the next
-redeploy. The "redeploy daily" model keeps everything in the same
-image and treats the dataset as a build artifact, which matches the
-project's actual model — content lives in YAML, not in a long-running
-DB.
+Note on frontend syndication files: `pipeline.build` writes
+`web/public/{sitemap.xml, robots.txt, feed.xml, quran-extracts.json}`
+during its run. In the new model the pipeline runs in the **backend**
+container (postgres-backed), but the frontend image bakes
+`web/public/` from the repo at build time. If the daily redeploy
+must update those files in the FE bundle, the FE image needs to
+include them. Two paths forward (TBD): (a) run the pipeline twice
+during deploy — once at FE build, once at backend startup; (b) move
+the syndication files to a path served by the backend so the FE
+bundle is content-free. Until either ships, the syndication files in
+the FE bundle reflect the **YAML in the deploy commit**, not the
+postgres state — fine for sitemap/robots, slightly stale for the
+feed's daily-rotated headline.
+
+**Required env in Dokploy:**
+- `POSTGRES_PASSWORD` — long random secret (generate with
+  `python -c 'import secrets; print(secrets.token_urlsafe(32))'`).
+  Compose refuses to start without it.
+- `JWT_SECRET_KEY` — same generator, signs auth tokens.
 
 If you ever need a manual refresh between scheduled rebuilds, click
-**Redeploy** in the Dokploy UI for the same effect. The `make build`
-target only rebuilds the local dev SQLite; production image rebuilds
-happen via Dokploy.
+**Redeploy** in the Dokploy UI for the same effect.
 
 ## Backend conventions
 
@@ -435,12 +454,15 @@ codebase is shaped by.
 
 ## Single-database constraint (content tables vs. user tables)
 
-The dataset and any future user data live in **one** database (single
-SQLite file in dev; future PostgreSQL in prod). The pipeline is allowed
-to drop *only* the dataset tables — see
-`pipeline/constants.py:CONTENT_TABLE_NAMES`. Anything not in that
-allowlist (a future ``users``, ``bookmarks``, ``preferences`` table)
-is left alone, even when ``pipeline.build`` runs a full rebuild.
+Dataset and user data live in **one** database — SQLite in dev / tests,
+PostgreSQL in production. The pipeline is allowed to drop *only* the
+dataset tables — see `pipeline/constants.py:CONTENT_TABLE_NAMES`.
+Anything not in that allowlist (``users``, ``bookmarks``,
+``password_reset_tokens``, ``email_verification_tokens``,
+``email_change_tokens``) is left alone, even when ``pipeline.build``
+runs a full rebuild. That is **the** mechanism that lets us drop +
+recreate content from YAML on every redeploy without nuking user
+accounts.
 
 When you add a new content table, add its name to ``CONTENT_TABLE_NAMES``
 **and** to the schema in ``pipeline/models/db.py``. Forgetting to add it
@@ -448,10 +470,20 @@ to the allowlist means the pipeline won't drop it on rebuild — annoying
 but recoverable. Forgetting to add it to the schema means the table
 won't be created at all — caught immediately on the next run.
 
-When user tables land they live in the **backend** (not the pipeline)
-package, registered on the same ``SQLModel.metadata`` but with their own
-Alembic migration history. The pipeline's `_content_tables()` filter
-will silently skip them.
+User tables live in the **backend** package (`thaqafa/models/user.py`),
+registered on the same ``SQLModel.metadata``. The backend's lifespan
+``_create_backend_tables`` runs ``create_all`` for them on every boot;
+``create_all`` is a no-op when the tables already exist. The pipeline's
+``_content_tables()`` filter never includes them.
+
+**Database URL.** Single env var ``DATABASE_URL``. Dev/tests default to
+the bundled SQLite at ``data-pipeline/data/output/thaqafa.db`` (no env
+needed); prod compose sets ``postgresql://thaqafa:${POSTGRES_PASSWORD}@db:5432/thaqafa``.
+Both backend (``_to_async_url``) and pipeline (``_to_sync_url``)
+normalise the URL to their respective drivers (asyncpg / psycopg).
+Bookmarks reference content via plain string slugs (no FK across the
+content/user boundary), so ``DROP TABLE events`` in the pipeline rebuild
+never violates a foreign key from the user tables.
 
 ## Frontend conventions
 
