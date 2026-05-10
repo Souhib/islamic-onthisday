@@ -5,16 +5,17 @@ import { useDatasetMeta } from "@/api/datasetMeta";
 // Vite injects this from package.json at build time — see vite.config.ts.
 const VERSION = import.meta.env.VITE_APP_VERSION ?? "dev";
 const TOTAL_GREGORIAN_DAYS = 366;
+const LEGAL_LANGS = new Set(["en", "fr", "ar"]);
 
 /**
- * Resolve the localised legal-page URL. The static files live at
- * ``/privacy.html``, ``/privacy.fr.html``, ``/privacy.ar.html`` (and
- * the matching ``terms.*``); the EN file is the bare path.
+ * Resolve the legal-page URL with the current locale as a ``?lang=`` query
+ * param. The page itself is one static HTML file with all three languages
+ * embedded — its boot script picks the section to show.
  */
-function legalPath(kind: "privacy" | "terms", lang: string): string {
-  if (lang === "fr") return `/${kind}.fr.html`;
-  if (lang === "ar") return `/${kind}.ar.html`;
-  return `/${kind}.html`;
+function legalHref(kind: "privacy" | "terms", lang: string): string {
+  const code = lang.slice(0, 2).toLowerCase();
+  if (code === "en" || !LEGAL_LANGS.has(code)) return `/${kind}.html`;
+  return `/${kind}.html?lang=${code}`;
 }
 
 export function Footer() {
@@ -63,11 +64,11 @@ export function Footer() {
             {t("about.nav_label")}
           </Link>
           <span aria-hidden="true">·</span>
-          <a href={legalPath("privacy", i18n.language)} className="thaqafa-link">
+          <a href={legalHref("privacy", i18n.language)} className="thaqafa-link">
             {t("legal.privacy")}
           </a>
           <span aria-hidden="true">·</span>
-          <a href={legalPath("terms", i18n.language)} className="thaqafa-link">
+          <a href={legalHref("terms", i18n.language)} className="thaqafa-link">
             {t("legal.terms")}
           </a>
           <span aria-hidden="true">·</span>

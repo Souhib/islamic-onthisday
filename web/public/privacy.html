@@ -14,6 +14,10 @@
 body { margin: 0; padding: 0; background: var(--paper); color: var(--ink-soft);
        font: 17px/1.6 "Cormorant Garamond", Georgia, serif; }
 body[lang="ar"] { font-family: "Amiri", "Damascus", "Geeza Pro", serif; font-size: 19px; }
+[data-lang] { display: none; }
+body[lang="en"] [data-lang="en"],
+body[lang="fr"] [data-lang="fr"],
+body[lang="ar"] [data-lang="ar"] { display: block; }
 .bar { position: sticky; top: 0; background: var(--paper);
        border-bottom: 0.5px solid var(--rule); z-index: 5; }
 .bar-inner { max-width: 720px; margin: 0 auto; padding: 14px 28px;
@@ -24,10 +28,16 @@ body[lang="ar"] { font-family: "Amiri", "Damascus", "Geeza Pro", serif; font-siz
         display: inline-flex; align-items: center; gap: 6px; }
 .back:hover { color: var(--accent); }
 body[lang="ar"] .back { font-family: "Amiri", serif; font-style: normal; font-size: 16px; }
+.back span[data-lang] { display: none; }
+body[lang="en"] .back span[data-lang="en"],
+body[lang="fr"] .back span[data-lang="fr"],
+body[lang="ar"] .back span[data-lang="ar"] { display: inline; }
 .langs { display: inline-flex; gap: 14px; font-family: "JetBrains Mono", monospace;
          font-size: 11px; letter-spacing: 1.4px; }
-.langs a { color: var(--ink-mute); text-decoration: none; }
-.langs a.current { color: var(--ink); }
+.langs button { background: none; border: none; padding: 0; cursor: pointer;
+                color: var(--ink-mute); font: inherit; letter-spacing: inherit; }
+.langs button.current { color: var(--ink); }
+.langs button:hover { color: var(--accent); }
 main { max-width: 720px; margin: 0 auto; padding: 40px 28px 80px; }
 .eyebrow { font-family: "JetBrains Mono", monospace; font-size: 11px;
            letter-spacing: 1.6px; text-transform: uppercase;
@@ -40,8 +50,7 @@ h2 { font-weight: 500; font-size: 24px; line-height: 1.2;
      color: var(--ink); margin: 36px 0 12px; }
 body[lang="ar"] h2 { font-size: 26px; }
 p, ul { margin: 12px 0; }
-ul { padding-left: 22px; }
-body[lang="ar"] ul { padding-left: 0; padding-right: 22px; }
+ul { padding-inline-start: 22px; }
 li { margin: 6px 0; }
 a { color: var(--accent); }
 .updated { font-family: "JetBrains Mono", monospace; font-size: 11px;
@@ -52,13 +61,35 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
 </style>
 </head>
 <body lang="en">
+<script>
+(function() {
+  var supported = ['en', 'fr', 'ar'];
+  var params = new URLSearchParams(location.search);
+  var requested = params.get('lang');
+  var lang = supported.indexOf(requested) >= 0 ? requested : 'en';
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  document.body.setAttribute('lang', lang);
+  var titles = {"en": "Privacy Policy — Thaqafa", "fr": "Politique de Confidentialité — Thaqafa", "ar": "سياسة الخصوصية — Thaqafa"};
+  document.title = titles[lang];
+})();
+</script>
 <header class="bar">
   <div class="bar-inner">
-    <a href="/" class="back">← Back to Thaqafa</a>
-    <nav class="langs" aria-label="Language"><a href="/privacy.html" class="current">EN</a><a href="/privacy.fr.html">FR</a><a href="/privacy.ar.html">AR</a></nav>
+    <a href="/" class="back">
+      <span data-lang="en">← Back to Thaqafa</span>
+      <span data-lang="fr">← Retour à Thaqafa</span>
+      <span data-lang="ar">→ العودة إلى ثقافة</span>
+    </a>
+    <nav class="langs" aria-label="Language">
+      <button type="button" data-set-lang="en">EN</button>
+      <button type="button" data-set-lang="fr">FR</button>
+      <button type="button" data-set-lang="ar">AR</button>
+    </nav>
   </div>
 </header>
 <main>
+<section data-lang="en">
   <span class="eyebrow">· Privacy Policy ·</span>
   <h1>Privacy Policy</h1>
 
@@ -70,13 +101,13 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
   <p>The app is free to read without any account. If you create one
   (optional), we store:</p>
   <ul>
-    <li>Your <strong>email address</strong> — used to sign you in and
+    <li>Your <strong>email address</strong> &mdash; used to sign you in and
         send password-reset / email-verification links.</li>
-    <li>Your <strong>display name</strong> — cosmetic, shown in your
+    <li>Your <strong>display name</strong> &mdash; cosmetic, shown in your
         account screen.</li>
-    <li>A hashed <strong>password</strong> (Argon2id, salted) — never
+    <li>A hashed <strong>password</strong> (Argon2id, salted) &mdash; never
         stored in plaintext.</li>
-    <li>Your <strong>saved bookmarks</strong> — slugs of events or
+    <li>Your <strong>saved bookmarks</strong> &mdash; slugs of events or
         lessons you tapped &ldquo;save&rdquo; on.</li>
   </ul>
   <p>Without an account: we collect <strong>nothing</strong> beyond the
@@ -95,14 +126,14 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
     <li>The page path you visited (no query parameters).</li>
     <li>The referring page, if any.</li>
     <li>Country, derived from your IP for the duration of the
-        request — the IP itself is never stored.</li>
+        request &mdash; the IP itself is never stored.</li>
     <li>Browser, operating system, device type, screen size, language.</li>
   </ul>
   <p>What it does <strong>not</strong> do:</p>
   <ul>
     <li>Set cookies or assign a persistent identifier.</li>
     <li>Follow you across other websites or apps.</li>
-    <li>Share data with anyone — the Umami instance runs on our own
+    <li>Share data with anyone &mdash; the Umami instance runs on our own
         server, no third party reads your traffic.</li>
     <li>See your account, your bookmarks, or anything you author.</li>
   </ul>
@@ -145,7 +176,7 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
         a copy of everything we store about you.</li>
     <li><strong>Deletion</strong>: tap <em>Delete account</em> in
         Settings (mobile) or the Account page (web). The action wipes
-        every per-user row in a single transaction. Or email us — we
+        every per-user row in a single transaction. Or email us &mdash; we
         respond within 7 days.</li>
     <li><strong>Rectification</strong>: change your display name or
         email from the in-app account screen.</li>
@@ -167,7 +198,263 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
   <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>.</p>
 
   <hr />
-  <p class="updated">Last updated · 2026-05-10</p>
+  <p class="updated">Last updated &middot; 2026-05-10</p>
+</section>
+<section data-lang="fr">
+  <span class="eyebrow">&middot; Politique de Confidentialit&eacute; &middot;</span>
+  <h1>Politique de Confidentialit&eacute;</h1>
+
+  <p><em>Thaqafa</em> (&laquo;&nbsp;l'application&nbsp;&raquo;,
+  &laquo;&nbsp;nous&nbsp;&raquo;) est une application de lecture quotidienne qui
+  propose un &eacute;v&eacute;nement historique v&eacute;rifi&eacute; de l'histoire islamique
+  chaque jour. Cette page d&eacute;crit ce que nous collectons, pourquoi, et
+  ce que vous pouvez faire &agrave; ce sujet.</p>
+
+  <h2>Ce que nous collectons</h2>
+  <p>L'application est gratuite et lisible sans compte. Si vous en cr&eacute;ez
+  un (facultatif), nous stockons&nbsp;:</p>
+  <ul>
+    <li>Votre <strong>adresse e-mail</strong> &mdash; utilis&eacute;e pour vous
+        connecter et envoyer les liens de r&eacute;initialisation de mot de
+        passe et de v&eacute;rification d'e-mail.</li>
+    <li>Votre <strong>nom d'affichage</strong> &mdash; cosm&eacute;tique, visible
+        sur votre &eacute;cran de compte.</li>
+    <li>Un <strong>mot de passe</strong> hach&eacute; (Argon2id, sal&eacute;) &mdash; jamais
+        stock&eacute; en clair.</li>
+    <li>Vos <strong>signets enregistr&eacute;s</strong> &mdash; les slugs des
+        &eacute;v&eacute;nements ou le&ccedil;ons sur lesquels vous avez tap&eacute;
+        &laquo;&nbsp;enregistrer&nbsp;&raquo;.</li>
+  </ul>
+  <p>Sans compte&nbsp;: nous ne collectons <strong>rien</strong> au-del&agrave;
+  du journal serveur standard (IP, user-agent, chemin de la requ&ecirc;te,
+  horodatage), conserv&eacute; 14 jours uniquement pour la s&eacute;curit&eacute; et la
+  lutte contre les abus.</p>
+
+  <h2>Statistiques d'utilisation anonymes</h2>
+  <p>Nous utilisons <a href="https://umami.is">Umami</a>, un outil
+  d'analyse respectueux de la vie priv&eacute;e que nous h&eacute;bergeons sur notre
+  propre serveur en France. Umami enregistre des signaux au niveau
+  page-vue afin de voir quels &eacute;v&eacute;nements int&eacute;ressent le plus les
+  lecteurs et quels parcours de navigation cassent. Il n'utilise pas
+  de cookies, ne vous attribue aucun identifiant persistant, et ne voit
+  jamais votre compte.</p>
+  <p>Ce qu'il enregistre, par page-vue&nbsp;:</p>
+  <ul>
+    <li>Le chemin de la page visit&eacute;e (sans param&egrave;tres de requ&ecirc;te).</li>
+    <li>La page r&eacute;f&eacute;rente, le cas &eacute;ch&eacute;ant.</li>
+    <li>Le pays, d&eacute;riv&eacute; de votre IP le temps de la requ&ecirc;te &mdash; l'IP
+        elle-m&ecirc;me n'est jamais stock&eacute;e.</li>
+    <li>Navigateur, syst&egrave;me d'exploitation, type d'appareil, taille
+        d'&eacute;cran, langue.</li>
+  </ul>
+  <p>Ce qu'il <strong>ne fait pas</strong>&nbsp;:</p>
+  <ul>
+    <li>Poser des cookies ou attribuer un identifiant persistant.</li>
+    <li>Vous suivre sur d'autres sites ou applications.</li>
+    <li>Partager des donn&eacute;es avec quiconque &mdash; l'instance Umami
+        tourne sur notre propre serveur, aucun tiers ne lit votre
+        trafic.</li>
+    <li>Voir votre compte, vos signets, ou tout contenu que vous
+        produisez.</li>
+  </ul>
+
+  <h2>Ce que nous ne collectons pas</h2>
+  <ul>
+    <li>Aucun SDK d'analyse tiers (pas de Google Analytics, pas de
+        Mixpanel, pas de Plausible). Notre analytique, c'est l'Umami
+        auto-h&eacute;berg&eacute; d&eacute;crit ci-dessus.</li>
+    <li>Aucun tracker publicitaire.</li>
+    <li>Aucun pixel de connexion sociale tiers.</li>
+    <li>Aucune donn&eacute;e de localisation au-del&agrave; de l'inf&eacute;rence
+        pays-niveau &agrave; partir d'une seule requ&ecirc;te.</li>
+    <li>Aucun historique de lecture au-del&agrave; de ce que vous mettez
+        explicitement en signet.</li>
+  </ul>
+
+  <p>Nous utilisons Sentry / GlitchTip pour la remont&eacute;e des erreurs sur
+  les applications mobile et web. L'instance est auto-h&eacute;berg&eacute;e&nbsp;;
+  elle re&ccedil;oit une trace de pile et quelques empreintes non personnelles
+  de la requ&ecirc;te (route, message d'erreur). Elle ne voit pas votre
+  e-mail, vos signets, ni aucun contenu que vous produisez.</p>
+
+  <h2>O&ugrave; vivent les donn&eacute;es</h2>
+  <p>La base de donn&eacute;es applicative (votre compte, vos signets) est
+  h&eacute;berg&eacute;e sur une seule instance SQLite/PostgreSQL dans l'Union
+  europ&eacute;enne (France) derri&egrave;re Cloudflare. Aucune donn&eacute;e ne franchit
+  la fronti&egrave;re de l'UE, &agrave; l'exception des e-mails sortants (Resend,
+  point de pr&eacute;sence UE).</p>
+
+  <h2>Combien de temps nous les gardons</h2>
+  <ul>
+    <li>Donn&eacute;es de compte&nbsp;: jusqu'&agrave; la suppression du compte.</li>
+    <li>Journaux serveur&nbsp;: 14 jours, puis suppression d&eacute;finitive.</li>
+    <li>Jetons &agrave; usage unique (r&eacute;initialisation de mot de passe,
+        v&eacute;rification d'e-mail)&nbsp;: 30 minutes apr&egrave;s &eacute;mission, puis
+        suppression d&eacute;finitive.</li>
+  </ul>
+
+  <h2>Vos droits (RGPD)</h2>
+  <ul>
+    <li><strong>Acc&egrave;s</strong>&nbsp;: envoyez un e-mail &agrave;
+        <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>
+        pour obtenir une copie de tout ce que nous stockons &agrave; votre
+        sujet.</li>
+    <li><strong>Suppression</strong>&nbsp;: tapez <em>Supprimer le compte</em>
+        dans les Param&egrave;tres (mobile) ou la page Compte (web).
+        L'action efface toutes les lignes li&eacute;es &agrave; l'utilisateur en
+        une seule transaction. Ou &eacute;crivez-nous &mdash; nous r&eacute;pondons
+        sous 7 jours.</li>
+    <li><strong>Rectification</strong>&nbsp;: modifiez votre nom
+        d'affichage ou votre e-mail depuis l'&eacute;cran de compte de
+        l'application.</li>
+    <li><strong>Portabilit&eacute;</strong>&nbsp;: export des signets sur
+        demande.</li>
+  </ul>
+
+  <h2>Enfants</h2>
+  <p>L'application n'est pas destin&eacute;e aux enfants de moins de 13 ans&nbsp;;
+  nous ne collectons pas sciemment de donn&eacute;es aupr&egrave;s de quiconque a
+  moins de 13 ans. Si vous pensez qu'un enfant s'est inscrit,
+  &eacute;crivez-nous et nous supprimerons le compte.</p>
+
+  <h2>Modifications de cette politique</h2>
+  <p>Si des changements substantiels surviennent, nous mettrons &agrave; jour
+  cette page et pr&eacute;viendrons les utilisateurs connect&eacute;s par e-mail au
+  moins 30 jours avant l'entr&eacute;e en vigueur du changement.</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question li&eacute;e &agrave; la confidentialit&eacute;, &eacute;crivez &agrave;
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>.</p>
+
+  <hr />
+  <p class="updated">Derni&egrave;re mise &agrave; jour &middot; 2026-05-10</p>
+</section>
+<section data-lang="ar">
+  <span class="eyebrow">&middot; سياسة الخصوصية &middot;</span>
+  <h1>سياسة الخصوصية</h1>
+
+  <p>&laquo;&nbsp;ثقافة&nbsp;&raquo; (التطبيق، نحن) تطبيق قراءة يومية يُقدّم حدثًا
+  تاريخيًا موثَّقًا من التاريخ الإسلامي كل يوم. تصف هذه الصفحة ما نجمعه
+  ولماذا وما يمكنك فعله حياله.</p>
+
+  <h2>ما نجمعه</h2>
+  <p>التطبيق مجاني للقراءة بدون حساب. إن أنشأتَ حسابًا (اختياريًا)، فإننا
+  نُخزِّن:</p>
+  <ul>
+    <li><strong>عنوان بريدك الإلكتروني</strong> &mdash; يُستعمل لتسجيل
+        دخولك وإرسال روابط إعادة تعيين كلمة المرور والتحقق من البريد.</li>
+    <li><strong>الاسم المعروض</strong> &mdash; تجميلي فقط، يظهر في شاشة
+        حسابك.</li>
+    <li><strong>كلمة مرور</strong> مُجزَّأة (Argon2id، مع ملح) &mdash; لا
+        تُخزَّن أبدًا بصيغتها الواضحة.</li>
+    <li><strong>إشاراتك المرجعية</strong> المحفوظة &mdash; معرّفات الأحداث أو
+        الدروس التي ضغطتَ على &laquo;&nbsp;حفظ&nbsp;&raquo; عليها.</li>
+  </ul>
+  <p>بدون حساب: لا نجمع <strong>أيّ شيء</strong> سوى سجلّ الخادم
+  المعتاد (عنوان IP، وكيل المستخدم، مسار الطلب، الطابع الزمني)،
+  محفوظ لمدة 14 يومًا فقط لأغراض الأمن ومكافحة الإساءة.</p>
+
+  <h2>إحصائيات استخدام مجهولة</h2>
+  <p>نستخدم <a href="https://umami.is">Umami</a>، أداة تحليلات
+  محترِمة للخصوصية، نستضيفها بأنفسنا على خادمنا في فرنسا. تُسجّل
+  Umami إشارات على مستوى مشاهدة الصفحة لنرى أيّ الأحداث تَلقى
+  اهتمامًا وأيّ مسارات التنقل تتعطّل. لا تستخدم ملفات الكوكيز،
+  ولا تُسند إليك أيّ معرّف دائم، ولا ترى حسابك أبدًا.</p>
+  <p>ما الذي تُسجِّله، لكل مشاهدة صفحة:</p>
+  <ul>
+    <li>مسار الصفحة التي زرتها (بدون معاملات الاستعلام).</li>
+    <li>الصفحة المُحيلة، إن وُجدت.</li>
+    <li>البلد، مُستنبَط من عنوان IP لمدة الطلب فقط &mdash; لا يُخزَّن
+        عنوان IP نفسه أبدًا.</li>
+    <li>المتصفح، نظام التشغيل، نوع الجهاز، حجم الشاشة، اللغة.</li>
+  </ul>
+  <p>ما الذي <strong>لا تفعله</strong>:</p>
+  <ul>
+    <li>وضع كوكيز أو إسناد معرّف دائم.</li>
+    <li>تتبّعك عبر مواقع أو تطبيقات أخرى.</li>
+    <li>مشاركة البيانات مع أي طرف &mdash; تعمل Umami على خادمنا، ولا
+        يقرأ أيّ طرف ثالث حركة مرورك.</li>
+    <li>رؤية حسابك، أو إشاراتك المرجعية، أو أيّ محتوى تُنشئه.</li>
+  </ul>
+
+  <h2>ما لا نجمعه</h2>
+  <ul>
+    <li>لا توجد أيّ SDK تحليلية لطرف ثالث (لا Google Analytics ولا
+        Mixpanel ولا Plausible). تحليلاتنا هي Umami المُستضافة ذاتيًا
+        المذكورة أعلاه.</li>
+    <li>لا متعقِّبات إعلانية.</li>
+    <li>لا بكسل تسجيل دخول اجتماعي لأطراف ثالثة.</li>
+    <li>لا بيانات موقع جغرافي خارج استنباط البلد من طلب واحد.</li>
+    <li>لا سجلّ قراءة سوى ما تختار حفظه صراحةً.</li>
+  </ul>
+
+  <p>نستخدم Sentry / GlitchTip لتقارير الأعطال على تطبيقَي الجوّال
+  والويب. الخدمة مُستضافة ذاتيًا؛ تتلقّى تتبّع المكدس وبعض البصمات
+  غير الشخصية للطلب (المسار، رسالة الخطأ). لا ترى بريدك أو إشاراتك
+  المرجعية أو أيّ محتوى تُنشئه.</p>
+
+  <h2>أين تُحفظ البيانات</h2>
+  <p>قاعدة بيانات التطبيق (حسابك، إشاراتك المرجعية) مُستضافة على نسخة
+  SQLite/PostgreSQL واحدة في الاتحاد الأوروبي (فرنسا) خلف Cloudflare.
+  لا تَعبر أيّ بيانات حدود الاتحاد الأوروبي، باستثناء البريد الصادر
+  (Resend، نقطة تواجد أوروبية).</p>
+
+  <h2>مدة الاحتفاظ</h2>
+  <ul>
+    <li>بيانات الحساب: حتى تحذف الحساب.</li>
+    <li>سجلات الخادم: 14 يومًا ثم حذف نهائي.</li>
+    <li>الرموز ذات الاستخدام الواحد (إعادة تعيين كلمة المرور، التحقق
+        من البريد): 30 دقيقة من الإصدار، ثم حذف نهائي.</li>
+  </ul>
+
+  <h2>حقوقك (RGPD / GDPR)</h2>
+  <ul>
+    <li><strong>الوصول</strong>: راسلنا على
+        <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>
+        للحصول على نسخة من كل ما نُخزِّنه عنك.</li>
+    <li><strong>الحذف</strong>: اضغط <em>حذف الحساب</em> في الإعدادات
+        (الجوّال) أو في صفحة الحساب (الويب). يمسح الإجراء كل صفّ خاص
+        بالمستخدم في معاملة واحدة. أو راسلنا &mdash; نردّ خلال 7 أيام.</li>
+    <li><strong>التصحيح</strong>: غيّر اسم العرض أو البريد من شاشة
+        الحساب داخل التطبيق.</li>
+    <li><strong>القابلية للنقل</strong>: تصدير الإشارات المرجعية عند
+        الطلب.</li>
+  </ul>
+
+  <h2>الأطفال</h2>
+  <p>التطبيق غير موجَّه إلى الأطفال دون 13 سنة؛ ولا نجمع عن قصد بيانات
+  من أيّ شخص دون 13 سنة. إن كنتَ تظنّ أن طفلًا قد سجّل، فراسلنا
+  وسنحذف الحساب.</p>
+
+  <h2>تعديلات هذه السياسة</h2>
+  <p>إن طرأت تعديلات جوهرية، فسنُحدِّث هذه الصفحة ونُخطر المستخدمين
+  المسجَّلين عبر البريد قبل دخول التعديل حيِّز التنفيذ بـ 30 يومًا
+  على الأقل.</p>
+
+  <h2>اتصل بنا</h2>
+  <p>لأيّ سؤال يخصّ الخصوصية، راسلنا على
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>.</p>
+
+  <hr />
+  <p class="updated">آخر تحديث &middot; 2026-05-10</p>
+</section>
 </main>
+<script>
+(function() {
+  var current = document.body.getAttribute('lang');
+  var btns = document.querySelectorAll('.langs button');
+  for (var i = 0; i < btns.length; i++) {
+    (function(btn) {
+      var l = btn.getAttribute('data-set-lang');
+      if (l === current) btn.classList.add('current');
+      btn.addEventListener('click', function() {
+        var url = new URL(location.href);
+        url.searchParams.set('lang', l);
+        location.href = url.toString();
+      });
+    })(btns[i]);
+  }
+})();
+</script>
 </body>
 </html>

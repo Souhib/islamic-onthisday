@@ -14,6 +14,10 @@
 body { margin: 0; padding: 0; background: var(--paper); color: var(--ink-soft);
        font: 17px/1.6 "Cormorant Garamond", Georgia, serif; }
 body[lang="ar"] { font-family: "Amiri", "Damascus", "Geeza Pro", serif; font-size: 19px; }
+[data-lang] { display: none; }
+body[lang="en"] [data-lang="en"],
+body[lang="fr"] [data-lang="fr"],
+body[lang="ar"] [data-lang="ar"] { display: block; }
 .bar { position: sticky; top: 0; background: var(--paper);
        border-bottom: 0.5px solid var(--rule); z-index: 5; }
 .bar-inner { max-width: 720px; margin: 0 auto; padding: 14px 28px;
@@ -24,10 +28,16 @@ body[lang="ar"] { font-family: "Amiri", "Damascus", "Geeza Pro", serif; font-siz
         display: inline-flex; align-items: center; gap: 6px; }
 .back:hover { color: var(--accent); }
 body[lang="ar"] .back { font-family: "Amiri", serif; font-style: normal; font-size: 16px; }
+.back span[data-lang] { display: none; }
+body[lang="en"] .back span[data-lang="en"],
+body[lang="fr"] .back span[data-lang="fr"],
+body[lang="ar"] .back span[data-lang="ar"] { display: inline; }
 .langs { display: inline-flex; gap: 14px; font-family: "JetBrains Mono", monospace;
          font-size: 11px; letter-spacing: 1.4px; }
-.langs a { color: var(--ink-mute); text-decoration: none; }
-.langs a.current { color: var(--ink); }
+.langs button { background: none; border: none; padding: 0; cursor: pointer;
+                color: var(--ink-mute); font: inherit; letter-spacing: inherit; }
+.langs button.current { color: var(--ink); }
+.langs button:hover { color: var(--accent); }
 main { max-width: 720px; margin: 0 auto; padding: 40px 28px 80px; }
 .eyebrow { font-family: "JetBrains Mono", monospace; font-size: 11px;
            letter-spacing: 1.6px; text-transform: uppercase;
@@ -40,8 +50,7 @@ h2 { font-weight: 500; font-size: 24px; line-height: 1.2;
      color: var(--ink); margin: 36px 0 12px; }
 body[lang="ar"] h2 { font-size: 26px; }
 p, ul { margin: 12px 0; }
-ul { padding-left: 22px; }
-body[lang="ar"] ul { padding-left: 0; padding-right: 22px; }
+ul { padding-inline-start: 22px; }
 li { margin: 6px 0; }
 a { color: var(--accent); }
 .updated { font-family: "JetBrains Mono", monospace; font-size: 11px;
@@ -52,14 +61,36 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
 </style>
 </head>
 <body lang="en">
+<script>
+(function() {
+  var supported = ['en', 'fr', 'ar'];
+  var params = new URLSearchParams(location.search);
+  var requested = params.get('lang');
+  var lang = supported.indexOf(requested) >= 0 ? requested : 'en';
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  document.body.setAttribute('lang', lang);
+  var titles = {"en": "Terms of Service — Thaqafa", "fr": "Conditions d'Utilisation — Thaqafa", "ar": "شروط الاستخدام — Thaqafa"};
+  document.title = titles[lang];
+})();
+</script>
 <header class="bar">
   <div class="bar-inner">
-    <a href="/" class="back">← Back to Thaqafa</a>
-    <nav class="langs" aria-label="Language"><a href="/terms.html" class="current">EN</a><a href="/terms.fr.html">FR</a><a href="/terms.ar.html">AR</a></nav>
+    <a href="/" class="back">
+      <span data-lang="en">← Back to Thaqafa</span>
+      <span data-lang="fr">← Retour à Thaqafa</span>
+      <span data-lang="ar">→ العودة إلى ثقافة</span>
+    </a>
+    <nav class="langs" aria-label="Language">
+      <button type="button" data-set-lang="en">EN</button>
+      <button type="button" data-set-lang="fr">FR</button>
+      <button type="button" data-set-lang="ar">AR</button>
+    </nav>
   </div>
 </header>
 <main>
-  <span class="eyebrow">· Terms of Service ·</span>
+<section data-lang="en">
+  <span class="eyebrow">&middot; Terms of Service &middot;</span>
   <h1>Terms of Service</h1>
 
   <p>By using <em>Thaqafa</em> (the app, the website, or any companion
@@ -70,14 +101,14 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
   <p>One verified historical event from Islamic history surfaced per
   day, in both Hijri and Gregorian calendars. The dataset is curated by
   hand against classical Sunni sources. We make no claim of
-  completeness — only of <em>accuracy</em>.</p>
+  completeness &mdash; only of <em>accuracy</em>.</p>
 
   <h2>Account</h2>
   <p>An account is optional. The app is free to read without one.
   Bookmarks (the only feature requiring sign-in) are tied to your
   account and visible to you only.</p>
   <p>You're responsible for keeping your password safe. We do not
-  recover lost passwords — we send a reset link to your registered
+  recover lost passwords &mdash; we send a reset link to your registered
   email.</p>
 
   <h2>Acceptable use</h2>
@@ -91,24 +122,25 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
 
   <h2>Content &amp; licensing</h2>
   <p>Editorial content (event descriptions, lesson summaries, image
-  selections) is © Souhib Trabelsi, available for personal reading and
-  educational use. Quotation with attribution is permitted; bulk
+  selections) is &copy; Souhib Trabelsi, available for personal reading
+  and educational use. Quotation with attribution is permitted; bulk
   republication requires permission. The Qur'anic text is from Tanzil's
-  ʿUthmānī Mushaf (free for non-commercial use); English translation is
-  Saheeh International, French is Hamidullah — redistributed within
-  their respective terms.</p>
+  &#699;Uthm&#257;n&#299; Mushaf (free for non-commercial use); English
+  translation is Saheeh International, French is Hamidullah &mdash;
+  redistributed within their respective terms.</p>
 
   <h2>No warranty</h2>
   <p>The dataset is curated to the best of our ability. Errors happen.
   When you find one, email
   <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a> and we
   will correct or remove the entry. We do not warrant fitness for any
-  specific purpose, including academic citation — verify primary sources
-  for serious work.</p>
+  specific purpose, including academic citation &mdash; verify primary
+  sources for serious work.</p>
 
   <h2>Termination</h2>
-  <p>You can delete your account at any time from Settings → Account →
-  Delete account. Account deletion is permanent and irreversible.</p>
+  <p>You can delete your account at any time from Settings &rarr;
+  Account &rarr; Delete account. Account deletion is permanent and
+  irreversible.</p>
   <p>We reserve the right to terminate accounts that violate the
   acceptable-use clauses above, with or without notice.</p>
 
@@ -131,7 +163,181 @@ hr { border: none; border-top: 0.5px solid var(--rule); margin: 32px 0; }
   <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a></p>
 
   <hr />
-  <p class="updated">Last updated · 2026-05-10</p>
+  <p class="updated">Last updated &middot; 2026-05-10</p>
+</section>
+<section data-lang="fr">
+  <span class="eyebrow">&middot; Conditions d'Utilisation &middot;</span>
+  <h1>Conditions d'Utilisation</h1>
+
+  <p>En utilisant <em>Thaqafa</em> (l'application, le site, ou toute
+  surface compagnon), vous acceptez les conditions ci-dessous. Elles
+  sont volontairement courtes.</p>
+
+  <h2>Ce qu'est le service</h2>
+  <p>Un &eacute;v&eacute;nement historique v&eacute;rifi&eacute; de l'histoire islamique
+  pr&eacute;sent&eacute; chaque jour, dans les calendriers Hijri et gr&eacute;gorien. Le
+  jeu de donn&eacute;es est organis&eacute; &agrave; la main contre les sources sunnites
+  classiques. Nous ne pr&eacute;tendons pas &agrave; l'exhaustivit&eacute; &mdash;
+  seulement &agrave; l'<em>exactitude</em>.</p>
+
+  <h2>Compte</h2>
+  <p>Le compte est facultatif. L'application est gratuite et lisible
+  sans compte. Les signets (la seule fonctionnalit&eacute; n&eacute;cessitant une
+  connexion) sont li&eacute;s &agrave; votre compte et visibles uniquement par
+  vous.</p>
+  <p>Vous &ecirc;tes responsable de la s&eacute;curit&eacute; de votre mot de passe. Nous
+  ne r&eacute;cup&eacute;rons pas les mots de passe perdus &mdash; nous envoyons un
+  lien de r&eacute;initialisation &agrave; votre e-mail enregistr&eacute;.</p>
+
+  <h2>Utilisation acceptable</h2>
+  <p>Ne pas&nbsp;:</p>
+  <ul>
+    <li>Scraper le jeu de donn&eacute;es de mani&egrave;re automatis&eacute;e (nous
+        limitons le d&eacute;bit&nbsp;; respectez-le).</li>
+    <li>Republier les entr&eacute;es comme votre propre travail sans
+        attribution.</li>
+    <li>Tenter une attaque par force brute sur l'authentification
+        (n'essayez pas, nous surveillons).</li>
+    <li>Utiliser le service pour harceler, diffamer ou distribuer du
+        contenu ill&eacute;gal.</li>
+  </ul>
+
+  <h2>Contenu et licence</h2>
+  <p>Le contenu &eacute;ditorial (descriptions d'&eacute;v&eacute;nements, r&eacute;sum&eacute;s de
+  le&ccedil;ons, s&eacute;lections d'images) est &copy; Souhib Trabelsi,
+  disponible pour la lecture personnelle et l'usage &eacute;ducatif. Les
+  citations avec attribution sont autoris&eacute;es&nbsp;; la republication
+  en masse n&eacute;cessite une autorisation. Le texte coranique provient du
+  Mushaf &#699;Uthm&#257;n&#299; de Tanzil (libre pour usage non
+  commercial)&nbsp;; la traduction anglaise est de Saheeh International,
+  la fran&ccedil;aise d'Hamidullah &mdash; redistribu&eacute;es dans le cadre de
+  leurs termes respectifs.</p>
+
+  <h2>Aucune garantie</h2>
+  <p>Le jeu de donn&eacute;es est organis&eacute; du mieux que nous le pouvons. Des
+  erreurs se produisent. Quand vous en trouvez une, &eacute;crivez &agrave;
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a> et nous
+  corrigerons ou supprimerons l'entr&eacute;e. Nous ne garantissons aucune
+  ad&eacute;quation &agrave; un usage sp&eacute;cifique, y compris la citation acad&eacute;mique
+  &mdash; v&eacute;rifiez les sources primaires pour un travail s&eacute;rieux.</p>
+
+  <h2>R&eacute;siliation</h2>
+  <p>Vous pouvez supprimer votre compte &agrave; tout moment depuis
+  Param&egrave;tres &rarr; Compte &rarr; Supprimer le compte. La
+  suppression est d&eacute;finitive et irr&eacute;versible.</p>
+  <p>Nous nous r&eacute;servons le droit de r&eacute;silier les comptes qui violent
+  les clauses d'utilisation acceptable ci-dessus, avec ou sans
+  pr&eacute;avis.</p>
+
+  <h2>Responsabilit&eacute;</h2>
+  <p>L'utilisation du service se fait &agrave; vos propres risques. Nous ne
+  sommes pas responsables des dommages indirects, accessoires ou
+  cons&eacute;cutifs r&eacute;sultant de l'utilisation ou de l'incapacit&eacute; d'utiliser
+  le service.</p>
+
+  <h2>Droit applicable</h2>
+  <p>Ces conditions sont r&eacute;gies par le droit fran&ccedil;ais. Tout litige
+  sera port&eacute; devant les tribunaux de Paris, France.</p>
+
+  <h2>Modifications</h2>
+  <p>Si des changements substantiels surviennent, nous mettrons &agrave; jour
+  cette page et pr&eacute;viendrons les utilisateurs connect&eacute;s par e-mail au
+  moins 30 jours avant l'entr&eacute;e en vigueur du changement.</p>
+
+  <h2>Contact</h2>
+  <p>Des questions&nbsp;?
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a></p>
+
+  <hr />
+  <p class="updated">Derni&egrave;re mise &agrave; jour &middot; 2026-05-10</p>
+</section>
+<section data-lang="ar">
+  <span class="eyebrow">&middot; شروط الاستخدام &middot;</span>
+  <h1>شروط الاستخدام</h1>
+
+  <p>باستخدامك <em>ثقافة</em> (التطبيق أو الموقع أو أيّ سطح مرافق)،
+  فإنك تقبل الشروط أدناه. كُتبت قصيرةً عن قصد.</p>
+
+  <h2>ما هي الخدمة</h2>
+  <p>حدث تاريخي موثَّق واحد من التاريخ الإسلامي يُعرَض كل يوم، في
+  التقويمين الهجري والميلادي. مجموعة البيانات منسَّقة يدويًا مقابل
+  المصادر السنّية الكلاسيكية. لا ندّعي الاكتمال &mdash; فقط <em>الدقّة</em>.</p>
+
+  <h2>الحساب</h2>
+  <p>الحساب اختياري. التطبيق مجاني للقراءة بدونه. الإشارات المرجعية
+  (الميزة الوحيدة التي تتطلّب تسجيل دخول) مرتبطة بحسابك ومرئية لك
+  وحدك.</p>
+  <p>أنت مسؤول عن حفظ كلمة مرورك. لا نسترجع كلمات المرور المفقودة
+  &mdash; بل نُرسل رابط إعادة تعيين إلى بريدك المسجَّل.</p>
+
+  <h2>الاستخدام المقبول</h2>
+  <p>لا:</p>
+  <ul>
+    <li>تجريد مجموعة البيانات برمجيًا (نُحدِّد المعدّل؛ احترمه).</li>
+    <li>نشر المدخلات على أنها عملك دون نسبة.</li>
+    <li>محاولة كسر المصادقة بالقوّة العمياء (لا تحاول، نحن نراقب).</li>
+    <li>استخدام الخدمة للتحرّش أو التشهير أو نشر محتوى غير قانوني.</li>
+  </ul>
+
+  <h2>المحتوى والترخيص</h2>
+  <p>المحتوى التحريري (أوصاف الأحداث، ملخّصات الدروس، اختيارات الصور)
+  حقوق نشره &copy; صهيب الطرابلسي، متاح للقراءة الشخصية والاستخدام
+  التعليمي. الاقتباس مع النسبة مسموح؛ أمّا إعادة النشر بالجملة فتتطلّب
+  إذنًا. النصّ القرآني مأخوذ من المصحف العثماني لـ Tanzil (مجاني
+  للاستخدام غير التجاري)؛ الترجمة الإنجليزية لـ Saheeh International،
+  والفرنسية لـ Hamidullah &mdash; مُعاد توزيعهما ضمن شروطهما الخاصة.</p>
+
+  <h2>لا ضمان</h2>
+  <p>تُنسَّق مجموعة البيانات بأقصى قدرتنا. تحدث الأخطاء. حين تجد
+  واحدًا، راسلنا على
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a>
+  وسنُصحِّح أو نحذف المدخل. لا نضمن الملاءمة لأيّ غرض محدَّد، بما في
+  ذلك الاستشهاد الأكاديمي &mdash; تحقَّق من المصادر الأوّلية للعمل الجادّ.</p>
+
+  <h2>الإنهاء</h2>
+  <p>يمكنك حذف حسابك في أيّ وقت من الإعدادات &larr; الحساب &larr; حذف
+  الحساب. الحذف نهائي ولا رجعة فيه.</p>
+  <p>نحتفظ بحقّ إنهاء الحسابات التي تُخالف بنود الاستخدام المقبول
+  أعلاه، بإشعار أو بدونه.</p>
+
+  <h2>المسؤولية</h2>
+  <p>استخدامك للخدمة على مسؤوليتك الخاصة. لسنا مسؤولين عن أيّ أضرار
+  غير مباشرة أو عرضية أو تبعية ناتجة عن الاستخدام أو عدم القدرة على
+  استخدام الخدمة.</p>
+
+  <h2>القانون الحاكم</h2>
+  <p>تخضع هذه الشروط للقانون الفرنسي. تُحلّ أيّ نزاعات أمام محاكم
+  باريس، فرنسا.</p>
+
+  <h2>التعديلات</h2>
+  <p>إن طرأت تعديلات جوهرية، فسنُحدِّث هذه الصفحة ونُخطر المستخدمين
+  المسجَّلين عبر البريد قبل دخول التعديل حيِّز التنفيذ بـ 30 يومًا
+  على الأقل.</p>
+
+  <h2>اتصل بنا</h2>
+  <p>أسئلة؟
+  <a href="mailto:souhib.t@hotmail.fr">souhib.t@hotmail.fr</a></p>
+
+  <hr />
+  <p class="updated">آخر تحديث &middot; 2026-05-10</p>
+</section>
 </main>
+<script>
+(function() {
+  var current = document.body.getAttribute('lang');
+  var btns = document.querySelectorAll('.langs button');
+  for (var i = 0; i < btns.length; i++) {
+    (function(btn) {
+      var l = btn.getAttribute('data-set-lang');
+      if (l === current) btn.classList.add('current');
+      btn.addEventListener('click', function() {
+        var url = new URL(location.href);
+        url.searchParams.set('lang', l);
+        location.href = url.toString();
+      });
+    })(btns[i]);
+  }
+})();
+</script>
 </body>
 </html>

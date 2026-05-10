@@ -312,8 +312,8 @@ class AboutScreen extends StatelessWidget {
             const SizedBox(height: 36),
             Eyebrow('· ${i18n.legal.title} ·', color: EyebrowColor.inkMute),
             const SizedBox(height: 10),
-            _LegalRow(label: i18n.legal.privacy, url: '${ApiConfig.baseUrl}${_legalPath('privacy', lang)}'),
-            _LegalRow(label: i18n.legal.terms, url: '${ApiConfig.baseUrl}${_legalPath('terms', lang)}', last: true),
+            _LegalRow(label: i18n.legal.privacy, url: _legalUrl('privacy', lang)),
+            _LegalRow(label: i18n.legal.terms, url: _legalUrl('terms', lang), last: true),
           ],
         ),
       ),
@@ -321,13 +321,14 @@ class AboutScreen extends StatelessWidget {
   }
 }
 
-/// Resolve the localised legal-page path. The static files at the
-/// public origin live at ``/privacy.html`` (EN), ``/privacy.fr.html``,
-/// ``/privacy.ar.html`` (and the matching ``terms.*``).
-String _legalPath(String kind, String lang) {
-  if (lang == 'fr') return '/$kind.fr.html';
-  if (lang == 'ar') return '/$kind.ar.html';
-  return '/$kind.html';
+/// Resolve the legal-page URL. One static page per kind exists at the
+/// public origin (``/privacy.html``, ``/terms.html``); the locale is
+/// passed via ``?lang=`` so the embedded boot script renders the matching
+/// section. ``en`` is the default and needs no query param.
+String _legalUrl(String kind, String lang) {
+  final base = '${ApiConfig.baseUrl}/$kind.html';
+  if (lang == 'fr' || lang == 'ar') return '$base?lang=$lang';
+  return base;
 }
 
 class _LegalRow extends StatelessWidget {
