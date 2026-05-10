@@ -19,7 +19,11 @@ print(make_url(os.environ["DATABASE_URL"]).render_as_string(hide_password=True))
 echo "[entrypoint] running pipeline.build against $SAFE_URL"
 
 cd /opt/data-pipeline
-python -m pipeline.build
+# ``--db-only``: skip the FE static-asset steps (sitemap / robots / feed /
+# dataset-meta / quran-extracts). Those live in the nginx image, baked at
+# FE build time. Running them here would write to ``/opt/web/public/``
+# inside this backend container — files nobody reads.
+python -m pipeline.build --db-only
 
 echo "[entrypoint] starting API"
 cd /opt/backend

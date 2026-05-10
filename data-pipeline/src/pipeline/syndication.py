@@ -20,11 +20,12 @@ Files emitted (always to ``<repo>/web/public/``):
   calendar days. Mirrors what ``/api/v1/recent`` returns: events first,
   lessons as fallback when no event matches the day.
 
-Run via ``python -m pipeline.syndicate`` for a daily-only refresh that
-doesn't rebuild the database, or as the final step of ``pipeline.build``.
+Called as the final step of ``pipeline.build`` (step 6); the FE
+Dockerfile's ``pipeline`` stage runs the full build so these files are
+baked into the nginx image alongside the SPA. The daily Dokploy redeploy
+rebuilds the FE image to roll the feed forward.
 """
 
-import argparse
 import os
 import random
 from datetime import UTC, date, datetime, timedelta
@@ -352,36 +353,3 @@ def _render_atom(items: list[_FeedItem], *, frontend_url: str) -> str:
 def _quote_attr(value: str) -> str:
     """Quote a value for use as an XML attribute (escapes ``&<>"``)."""
     return f'"{_xml_escape(value, {chr(34): "&quot;"})}"'
-
-
-# ---------------------------------------------------------------------------
-# CLI.
-# ---------------------------------------------------------------------------
-
-
-def main() -> None:
-    """``python -m pipeline.syndicate`` — daily refresh of syndication files.
-
-    Run this as a separate cron from ``pipeline.build`` if you want the
-    feed to roll daily without paying for a full DB rebuild.
-    """
-    parser = argparse.ArgumentParser(
-        description="Regenerate sitemap.xml + robots.txt + feed.xml from the existing DB.",
-    )
-    parser.add_argument(
-        "--frontend-url",
-        default=None,
-        help="Public origin of the FE (default: $FRONTEND_URL or http://localhost:3000).",
-    )
-    parser.add_argument(
-        "--output-dir",
-        type=Path,
-        default=None,
-        help="Override the destination directory (default: <repo>/web/public/).",
-    )
-    args = parser.parse_args()
-    syndicate(frontend_url=args.frontend_url, output_dir=args.output_dir)
-
-
-if __name__ == "__main__":
-    main()

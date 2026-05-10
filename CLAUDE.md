@@ -57,8 +57,7 @@ data-pipeline/
     ├── models/db.py       # SQLModel ORM (single-file schema)
     ├── images/            # image fetcher + restricted-figure policy
     ├── conversion/        # Hijri ↔ Gregorian tabular conversion
-    ├── syndication.py     # generates sitemap.xml + robots.txt + feed.xml
-    └── syndicate.py       # CLI alias — `python -m pipeline.syndicate`
+    └── syndication.py     # generates sitemap.xml + robots.txt + feed.xml (called from build)
 ```
 
 The pipeline writes to **two destinations**:
@@ -129,7 +128,6 @@ make build              # rebuilds the pipeline DB + syndication files
 make dev                # boots backend (:5111) + web (:3000) in parallel
 make check              # lint + typecheck + tests across all three packages
 make fix                # ruff format + ruff fix; oxfmt + oxlint --fix
-make syndicate          # refresh sitemap.xml + robots.txt + feed.xml only
 ```
 
 Per-package detail (when you want finer control):
@@ -295,7 +293,7 @@ Run from `data-pipeline/`:
 ```sh
 uv sync
 uv run python -m pipeline.build                      # full rebuild (incl. syndication)
-uv run python -m pipeline.syndicate                  # regenerate sitemap/robots/feed only
+uv run python -m pipeline.build --db-only            # DB-only (skip sitemap/feed/quran-extracts; used by backend entrypoint)
 uv run python -m pipeline.validate                   # check refs are well-formed
 uv run poe check                                     # ruff lint + format check
 uv run poe fix                                       # ruff format + lint --fix
@@ -332,15 +330,24 @@ require exposing the API publicly (Google must reach `thaqafa.app/sitemap.xml`,
 not `api.thaqafa.app/sitemap.xml`) and adding a reverse-proxy rule in prod;
 generating static files instead keeps the backend 100 % private.
 
-Output goes to `web/public/{sitemap.xml, robots.txt, feed.xml}`, where the
-FE bundle ships them as static assets. Run `pipeline.build` to regenerate
-the DB **and** the syndication files in one shot, or `pipeline.syndicate`
-alone for a daily refresh that only re-rolls the feed (use this in a cron
-when the dataset hasn't changed but the calendar day has).
+Output goes to `web/public/{sitemap.xml, robots.txt, feed.xml,
+quran-extracts.json, dataset-meta.json}`, where the FE bundle ships
+them as static assets. `pipeline.build` regenerates the DB and these
+files in one shot; the `--db-only` flag skips the FE-asset steps and
+is what the backend container's entrypoint runs (the backend never
+serves these files — nginx does, from its baked-in copy).
 
 The public origin used in the absolute URLs comes from `$FRONTEND_URL`
 (defaults to `http://localhost:3000`). In prod set it to your real
 domain before running the pipeline.
+
+**Daily refresh path.** The feed.xml headline rotates per calendar day.
+The daily Dokploy redeploy (`0 4 * * *`) rebuilds the FE image, whose
+`pipeline` stage runs the full `pipeline.build` and bakes a fresh
+feed/sitemap/quran-extracts into the nginx bundle. The backend
+container's entrypoint runs `pipeline.build --db-only` — refreshes
+postgres content from YAML, but doesn't waste ~70s re-fetching the
+quran-extracts JSON that nobody in the backend ever serves.
 
 ## Deployment & daily rebuild (Dokploy)
 
@@ -382,27 +389,16 @@ Why container start instead of image build:
 
 Each redeploy:
 - Re-builds the backend image (fast: no pipeline run during build).
-- New backend container's entrypoint runs `pipeline.build` against
-  the live postgres → fresh content tables, fresh syndication files.
-- Re-builds the frontend image (syndication files baked in as static
-  assets — they were re-generated during the backend image build's
-  copy of `web/public/`… wait, that's not quite right anymore — see
-  next paragraph).
+- Re-builds the frontend image — its `pipeline` Dockerfile stage runs
+  the **full** `pipeline.build` (with the FE-asset steps) so
+  `web/public/{sitemap.xml, robots.txt, feed.xml, quran-extracts.json,
+  dataset-meta.json}` are baked into the nginx image afresh. The feed's
+  daily-rotated headline rides on this.
+- New backend container's entrypoint runs `pipeline.build --db-only`
+  against the live postgres — drops + recreates content tables from
+  YAML, skips the FE-asset steps (those live in the nginx image, not
+  the backend).
 - Switches Traefik over once both new containers pass their healthchecks.
-
-Note on frontend syndication files: `pipeline.build` writes
-`web/public/{sitemap.xml, robots.txt, feed.xml, quran-extracts.json}`
-during its run. In the new model the pipeline runs in the **backend**
-container (postgres-backed), but the frontend image bakes
-`web/public/` from the repo at build time. If the daily redeploy
-must update those files in the FE bundle, the FE image needs to
-include them. Two paths forward (TBD): (a) run the pipeline twice
-during deploy — once at FE build, once at backend startup; (b) move
-the syndication files to a path served by the backend so the FE
-bundle is content-free. Until either ships, the syndication files in
-the FE bundle reflect the **YAML in the deploy commit**, not the
-postgres state — fine for sitemap/robots, slightly stale for the
-feed's daily-rotated headline.
 
 **Required env in Dokploy:**
 - `POSTGRES_PASSWORD` — long random secret (generate with

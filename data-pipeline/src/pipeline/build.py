@@ -300,10 +300,10 @@ def _render_coverage_report(session: Session) -> None:
     _render_days_and_busiest(session)
 
 
-def build() -> None:
+def build(*, db_only: bool = False) -> None:
     """Rebuild the pipeline database end-to-end from curated YAML.
 
-    Every entry that lands in the SQLite must come from the
+    Every entry that lands in the database must come from the
     ``data/curated/*.yaml`` files — i.e. it has been hand-vetted against
     the editorial bar (Sunni framing, classical sources, hadith refs,
     cf. ``CLAUDE.md`` and ``EDITORIAL.md``). Bulk imports from external
@@ -311,6 +311,15 @@ def build() -> None:
     standalone discovery scripts in ``data-pipeline/scripts/discovery/``
     can be run by hand to surface candidate entries as JSON reports the
     curator can then promote into YAML one by one.
+
+    Args:
+        db_only: When ``True``, skip the FE static-asset steps
+            (syndication, dataset-meta, quran-extracts). Used by the
+            backend container's entrypoint: those files live in the FE
+            bundle, the backend never serves them. The FE Dockerfile's
+            pipeline stage runs the full build (``db_only=False``) so
+            ``web/public/{sitemap,robots,feed,quran-extracts,dataset-meta}``
+            are baked into the nginx image.
     """
     console.rule("[bold cyan]Thaqafa pipeline")
 
@@ -335,6 +344,10 @@ def build() -> None:
     console.log("[bold]Step 5: coverage report[/]")
     with session_scope() as session:
         _render_coverage_report(session)
+
+    if db_only:
+        console.rule("[bold green]Done (db-only)")
+        return
 
     console.log("[bold]Step 6: regenerating syndication (sitemap.xml + robots.txt + feed.xml)…")
     syndicate()
@@ -365,14 +378,24 @@ def _promote_canonical_majors(session: Session) -> int:
 
 def main() -> None:
     """CLI entry point for `python -m pipeline.build`."""
-    argparse.ArgumentParser(
+    parser = argparse.ArgumentParser(
         description=(
             "Build the Thaqafa DB from curated YAML. Bulk discovery "
             "from Wikidata / OpenITI lives under data-pipeline/scripts/discovery/ "
             "and is run by hand — never by this command."
         )
-    ).parse_args()
-    build()
+    )
+    parser.add_argument(
+        "--db-only",
+        action="store_true",
+        help=(
+            "Skip the FE static-asset steps (sitemap / robots / feed / "
+            "dataset-meta / quran-extracts). Backend container's "
+            "entrypoint uses this — those files live in the FE bundle."
+        ),
+    )
+    args = parser.parse_args()
+    build(db_only=args.db_only)
 
 
 if __name__ == "__main__":

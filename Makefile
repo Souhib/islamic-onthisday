@@ -1,13 +1,12 @@
 # Single-command dev convenience. Run `make dev` to boot backend + web
 # together (without docker). `make check` is the local CI gate.
 
-.PHONY: help install build dev dev-backend dev-web dev-pipeline syndicate check fix test clean mobile-release-android mobile-release-ios mobile-screenshots
+.PHONY: help install build dev dev-backend dev-web dev-pipeline check fix test clean mobile-release-android mobile-release-ios mobile-screenshots
 
 help:
 	@echo "Targets:"
 	@echo "  install       Install everything (uv sync + bun install)"
 	@echo "  build         Rebuild the pipeline DB from curated YAML"
-	@echo "  syndicate     Refresh sitemap.xml + robots.txt + feed.xml"
 	@echo "  dev           Boot backend + web together (parallel, kill with ^C)"
 	@echo "  dev-backend   uvicorn on :5111"
 	@echo "  dev-web       vite on :3000"
@@ -23,9 +22,6 @@ install:
 
 build:
 	cd data-pipeline && uv run python -m pipeline.build
-
-syndicate:
-	cd data-pipeline && uv run python -m pipeline.syndicate
 
 dev-backend:
 	cd backend && uv run python main.py
