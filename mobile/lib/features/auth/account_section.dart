@@ -130,21 +130,41 @@ class _SignedInRow extends ConsumerWidget {
             ),
           ),
         ),
-        const SizedBox(height: 16),
-        TextButton(
-          onPressed: () => _confirmDelete(context, ref),
-          style: TextButton.styleFrom(
-            padding: const EdgeInsets.symmetric(vertical: 12),
-            shape: RoundedRectangleBorder(
-              side: BorderSide(color: t.warn.withValues(alpha: 0.5), width: 0.5),
+        // Delete-account section — explicit "danger zone" with its own
+        // frieze + warning text so the entry point is obvious to anyone
+        // scrolling through Settings (including App Review reviewers
+        // checking for the deletion option Apple requires).
+        FriezeRule(
+          label: i18n.auth.delete_account_title,
+          marginTop: 24,
+          marginBottom: 12,
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: Text(
+            i18n.auth.delete_account_warning,
+            style: ThaqafaTypography.serif(
+              size: 15,
+              color: t.inkSoft,
+              style: FontStyle.italic,
+              height: 1.5,
             ),
+          ),
+        ),
+        OutlinedButton(
+          onPressed: () => _confirmDelete(context, ref),
+          style: OutlinedButton.styleFrom(
+            foregroundColor: t.warn,
+            side: BorderSide(color: t.warn, width: 1),
+            shape: const RoundedRectangleBorder(),
+            padding: const EdgeInsets.symmetric(vertical: 14),
           ),
           child: Text(
             i18n.auth.delete_account_cta.toUpperCase(),
             style: ThaqafaTypography.mono(
-              size: 11,
+              size: 12,
               color: t.warn,
-              letterSpacing: 1.4,
+              letterSpacing: 1.6,
             ),
           ),
         ),
