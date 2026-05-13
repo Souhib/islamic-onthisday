@@ -64,11 +64,16 @@ clean:
 MOBILE_SENTRY_DSN ?= https://99c06bfdda6341c68e47548c8c75030d@glitchtip.majlisna.app/5
 MOBILE_SENTRY_ENV ?= production
 
-# Umami analytics — same self-hosted instance the web hits. Empty values
-# = SDK dormant (no network). Override on the CLI when needed:
-#   make mobile-release-ios MOBILE_UMAMI_URL=https://… MOBILE_UMAMI_WEBSITE_ID=…
-MOBILE_UMAMI_URL ?=
-MOBILE_UMAMI_WEBSITE_ID ?=
+# Umami analytics — same self-hosted instance the web hits. Page views
+# and custom events POST to ``{URL}/api/send``; ``data.platform`` tags
+# every payload with ``ios`` / ``android`` so the shared Thaqafa
+# dashboard splits surfaces. Defaults are baked because the values
+# aren't secret (the website ID ships in every web page-view request,
+# and the URL is named in the public privacy policy). Override on the
+# CLI for staging / a separate mobile site:
+#   make mobile-release-ios MOBILE_UMAMI_URL=https://other MOBILE_UMAMI_WEBSITE_ID=…
+MOBILE_UMAMI_URL ?= https://analytics.majlisna.app
+MOBILE_UMAMI_WEBSITE_ID ?= 32c1add7-0f09-47a7-846e-3c5f9c188454
 
 mobile-release-android:
 	cd mobile && flutter build appbundle --release \
