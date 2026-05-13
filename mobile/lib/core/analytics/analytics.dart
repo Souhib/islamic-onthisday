@@ -76,8 +76,8 @@ class Analytics {
       'language': language ?? '',
       'screen': '',
       'referrer': '',
-      ?title: title,
-      ?eventName: eventName,
+      'title': ?title,
+      'name': ?eventName,
       'data': {
         ...?eventData,
         'platform': _platform,
