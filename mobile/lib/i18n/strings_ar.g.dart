@@ -162,6 +162,13 @@ class _TranslationsSettingsAr implements TranslationsSettingsEn {
 	@override String get notification_time => 'وقت الإشعار';
 	@override String get notification_title => 'اليوم في التقويم';
 	@override String get notification_body => 'مدخل جديد في انتظارك. افتح لتقرأ.';
+	@override String get notification_test => 'إرسال إشعار تجريبي';
+	@override String get notification_test_title => 'ثقافة — اختبار';
+	@override String get notification_test_body => 'إذا قرأتَ هذا فالإشعارات تعمل.';
+	@override String get notification_test_pending => 'سيصل إشعار تجريبي بعد خمس ثوانٍ تقريبًا.';
+	@override String get notification_permission_warning => 'الإشعارات مُفعَّلة داخل التطبيق لكن نظام iOS يحجبها. افتح إعدادات النظام للسماح بها.';
+	@override String get notification_open_system_settings => 'فتح إعدادات النظام';
+	@override String get observances_link => 'تصفّح الأيام المُباركة';
 	@override String get about => 'حول';
 }
 
@@ -373,6 +380,13 @@ extension on TranslationsAr {
 			'settings.notification_time' => 'وقت الإشعار',
 			'settings.notification_title' => 'اليوم في التقويم',
 			'settings.notification_body' => 'مدخل جديد في انتظارك. افتح لتقرأ.',
+			'settings.notification_test' => 'إرسال إشعار تجريبي',
+			'settings.notification_test_title' => 'ثقافة — اختبار',
+			'settings.notification_test_body' => 'إذا قرأتَ هذا فالإشعارات تعمل.',
+			'settings.notification_test_pending' => 'سيصل إشعار تجريبي بعد خمس ثوانٍ تقريبًا.',
+			'settings.notification_permission_warning' => 'الإشعارات مُفعَّلة داخل التطبيق لكن نظام iOS يحجبها. افتح إعدادات النظام للسماح بها.',
+			'settings.notification_open_system_settings' => 'فتح إعدادات النظام',
+			'settings.observances_link' => 'تصفّح الأيام المُباركة',
 			'settings.about' => 'حول',
 			'errors.generic' => 'حدث خطأ ما.',
 			'errors.offline' => 'يبدو أنّك غير متّصل.',

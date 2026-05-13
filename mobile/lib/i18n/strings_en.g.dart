@@ -262,6 +262,27 @@ class TranslationsSettingsEn {
 	/// en: 'A new entry awaits. Open to read.'
 	String get notification_body => 'A new entry awaits. Open to read.';
 
+	/// en: 'Send a test notification'
+	String get notification_test => 'Send a test notification';
+
+	/// en: 'Thaqafa — test'
+	String get notification_test_title => 'Thaqafa — test';
+
+	/// en: 'If you can read this, notifications are working.'
+	String get notification_test_body => 'If you can read this, notifications are working.';
+
+	/// en: 'A test notification will arrive in about five seconds.'
+	String get notification_test_pending => 'A test notification will arrive in about five seconds.';
+
+	/// en: 'Notifications are enabled in the app but blocked by iOS. Open the system Settings to allow them.'
+	String get notification_permission_warning => 'Notifications are enabled in the app but blocked by iOS. Open the system Settings to allow them.';
+
+	/// en: 'Open system settings'
+	String get notification_open_system_settings => 'Open system settings';
+
+	/// en: 'Browse sacred days'
+	String get observances_link => 'Browse sacred days';
+
 	/// en: 'About'
 	String get about => 'About';
 }
@@ -652,6 +673,13 @@ extension on Translations {
 			'settings.notification_time' => 'Notification time',
 			'settings.notification_title' => 'Today on the calendar',
 			'settings.notification_body' => 'A new entry awaits. Open to read.',
+			'settings.notification_test' => 'Send a test notification',
+			'settings.notification_test_title' => 'Thaqafa — test',
+			'settings.notification_test_body' => 'If you can read this, notifications are working.',
+			'settings.notification_test_pending' => 'A test notification will arrive in about five seconds.',
+			'settings.notification_permission_warning' => 'Notifications are enabled in the app but blocked by iOS. Open the system Settings to allow them.',
+			'settings.notification_open_system_settings' => 'Open system settings',
+			'settings.observances_link' => 'Browse sacred days',
 			'settings.about' => 'About',
 			'errors.generic' => 'Something went wrong.',
 			'errors.offline' => 'You appear to be offline.',

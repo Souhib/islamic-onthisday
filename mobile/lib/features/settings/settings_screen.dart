@@ -3,9 +3,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:thaqafa/core/notifications/notification_service.dart';
 import 'package:thaqafa/core/router/app_router.dart';
 import 'package:thaqafa/core/services/app_settings.dart';
 import 'package:thaqafa/core/services/notifications_provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:thaqafa/core/theme/thaqafa_tokens.dart';
 import 'package:thaqafa/core/theme/thaqafa_typography.dart';
 import 'package:thaqafa/features/auth/account_section.dart';
@@ -41,7 +43,7 @@ class SettingsScreen extends ConsumerWidget {
       backgroundColor: t.paper,
       body: SafeArea(
         child: ListView(
-          padding: const EdgeInsets.fromLTRB(28, 16, 28, 60),
+          padding: const EdgeInsets.fromLTRB(28, 4, 28, 60),
           children: [
             Eyebrow(i18n.settings.title, color: EyebrowColor.accent),
             const SizedBox(height: 24),
@@ -98,8 +100,37 @@ class SettingsScreen extends ConsumerWidget {
                       body: i18n.settings.notification_body,
                     ),
               ),
+              const SizedBox(height: 12),
+              const _NotifTestRow(),
+              const _NotifPermissionBanner(),
             ],
             const SizedBox(height: 30),
+            InkWell(
+              onTap: () => context.push(AppRoutes.observances),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+                decoration: BoxDecoration(border: Border.all(color: t.rule, width: 0.5)),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        i18n.settings.observances_link.toUpperCase(),
+                        style: ThaqafaTypography.mono(
+                          size: 11,
+                          color: t.inkSoft,
+                          letterSpacing: 1.4,
+                        ),
+                      ),
+                    ),
+                    Text(
+                      '↗',
+                      style: ThaqafaTypography.mono(size: 14, color: t.accent),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 8),
             InkWell(
               onTap: () => context.push(AppRoutes.about),
               child: Container(
@@ -141,6 +172,127 @@ class SettingsScreen extends ConsumerWidget {
               const SizedBox(height: 24),
               const _DebugCrashRow(),
             ],
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// "Send a test notification" entry — fires a one-shot 5 seconds out.
+/// The main reason it exists is verification: when the user toggles
+/// notifications on but never sees one (Focus mode, OS permission
+/// denied silently, scheduling bug…) this button collapses the
+/// debugging loop into "tap, count to five".
+class _NotifTestRow extends ConsumerWidget {
+  const _NotifTestRow();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final t = context.tokens;
+    final i18n = Translations.of(context);
+    return InkWell(
+      onTap: () async {
+        await NotificationService.instance.sendTestNotification(
+          title: i18n.settings.notification_test_title,
+          body: i18n.settings.notification_test_body,
+        );
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              backgroundColor: t.ink,
+              content: Text(
+                i18n.settings.notification_test_pending,
+                style: ThaqafaTypography.serif(size: 14, color: t.paper),
+              ),
+              duration: const Duration(seconds: 4),
+            ),
+          );
+        }
+      },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+        decoration: BoxDecoration(border: Border.all(color: t.rule, width: 0.5)),
+        child: Row(
+          children: [
+            Expanded(
+              child: Text(
+                i18n.settings.notification_test.toUpperCase(),
+                style: ThaqafaTypography.mono(
+                  size: 11,
+                  color: t.inkSoft,
+                  letterSpacing: 1.4,
+                ),
+              ),
+            ),
+            Text('↻', style: ThaqafaTypography.mono(size: 14, color: t.accent)),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Banner shown when the in-app notifications toggle is ON but the OS
+/// itself has notifications blocked. Polls ``hasPermission`` once on
+/// build — that's enough for a Settings screen where the user is
+/// already attentive.
+class _NotifPermissionBanner extends ConsumerStatefulWidget {
+  const _NotifPermissionBanner();
+
+  @override
+  ConsumerState<_NotifPermissionBanner> createState() =>
+      _NotifPermissionBannerState();
+}
+
+class _NotifPermissionBannerState
+    extends ConsumerState<_NotifPermissionBanner> {
+  bool? _granted;
+
+  @override
+  void initState() {
+    super.initState();
+    _check();
+  }
+
+  Future<void> _check() async {
+    final granted = await NotificationService.instance.hasPermission();
+    if (mounted) setState(() => _granted = granted);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final t = context.tokens;
+    final i18n = Translations.of(context);
+    if (_granted != false) return const SizedBox.shrink();
+    return Padding(
+      padding: const EdgeInsets.only(top: 10),
+      child: Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: t.warnBg,
+          border: Border.all(color: t.warn.withValues(alpha: 0.5), width: 0.6),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              i18n.settings.notification_permission_warning,
+              style: ThaqafaTypography.serif(size: 14, color: t.inkSoft, height: 1.45),
+            ),
+            const SizedBox(height: 10),
+            TextButton(
+              onPressed: () => launchUrl(Uri.parse('app-settings:')),
+              style: TextButton.styleFrom(padding: EdgeInsets.zero),
+              child: Text(
+                i18n.settings.notification_open_system_settings.toUpperCase(),
+                style: ThaqafaTypography.mono(
+                  size: 11,
+                  color: t.warn,
+                  letterSpacing: 1.4,
+                ),
+              ),
+            ),
           ],
         ),
       ),

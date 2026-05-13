@@ -64,17 +64,27 @@ clean:
 MOBILE_SENTRY_DSN ?= https://99c06bfdda6341c68e47548c8c75030d@glitchtip.majlisna.app/5
 MOBILE_SENTRY_ENV ?= production
 
+# Umami analytics — same self-hosted instance the web hits. Empty values
+# = SDK dormant (no network). Override on the CLI when needed:
+#   make mobile-release-ios MOBILE_UMAMI_URL=https://… MOBILE_UMAMI_WEBSITE_ID=…
+MOBILE_UMAMI_URL ?=
+MOBILE_UMAMI_WEBSITE_ID ?=
+
 mobile-release-android:
 	cd mobile && flutter build appbundle --release \
 		--dart-define=SENTRY_DSN=$(MOBILE_SENTRY_DSN) \
-		--dart-define=SENTRY_ENV=$(MOBILE_SENTRY_ENV)
+		--dart-define=SENTRY_ENV=$(MOBILE_SENTRY_ENV) \
+		--dart-define=UMAMI_URL=$(MOBILE_UMAMI_URL) \
+		--dart-define=UMAMI_WEBSITE_ID=$(MOBILE_UMAMI_WEBSITE_ID)
 	@echo "→ aab: mobile/build/app/outputs/bundle/release/app-release.aab"
 
 mobile-release-ios:
 	cd mobile && flutter build ipa --release \
 		--export-options-plist=ios/ExportOptions.plist \
 		--dart-define=SENTRY_DSN=$(MOBILE_SENTRY_DSN) \
-		--dart-define=SENTRY_ENV=$(MOBILE_SENTRY_ENV)
+		--dart-define=SENTRY_ENV=$(MOBILE_SENTRY_ENV) \
+		--dart-define=UMAMI_URL=$(MOBILE_UMAMI_URL) \
+		--dart-define=UMAMI_WEBSITE_ID=$(MOBILE_UMAMI_WEBSITE_ID)
 	@echo "→ ipa: mobile/build/ios/ipa/Thaqafa.ipa"
 
 # Capture App Store / Play Store screenshots from a booted simulator.

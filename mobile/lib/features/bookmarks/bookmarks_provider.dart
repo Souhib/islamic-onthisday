@@ -3,6 +3,7 @@ import 'package:thaqafa/api/generated/models/bookmark_create.dart';
 import 'package:thaqafa/api/generated/models/bookmark_create_target_kind.dart';
 import 'package:thaqafa/api/generated/models/bookmark_list.dart';
 import 'package:thaqafa/api/generated/models/bookmark_out.dart';
+import 'package:thaqafa/core/analytics/analytics.dart';
 import 'package:thaqafa/core/di/api_providers.dart';
 
 /// AsyncNotifier holding the user's bookmark list. Tap-to-bookmark
@@ -31,6 +32,7 @@ class BookmarksNotifier extends AsyncNotifier<List<BookmarkOut>> {
       body: BookmarkCreate(targetKind: kind, targetSlug: slug, note: null),
     );
     state = AsyncValue.data([...?state.value, created]);
+    Analytics.instance.trackBookmarkAdded(kind.name, slug);
   }
 
   Future<void> remove(String slug) async {

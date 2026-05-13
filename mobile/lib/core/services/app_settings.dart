@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:thaqafa/core/analytics/analytics.dart';
 import 'package:thaqafa/core/di/providers.dart';
 import 'package:thaqafa/i18n/strings.g.dart';
 
@@ -51,6 +52,7 @@ class LocaleNotifier extends Notifier<AppLocale?> {
       LocaleSettings.setLocale(loc);
     }
     state = loc;
+    Analytics.instance.trackLanguageChange(LocaleSettings.currentLocale.languageCode);
   }
 
   static AppLocale? _decode(String? raw) => switch (raw) {

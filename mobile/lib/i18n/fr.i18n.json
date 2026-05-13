@@ -60,6 +60,13 @@
     "notification_time": "Heure de notification",
     "notification_title": "Aujourd'hui dans le calendrier",
     "notification_body": "Une nouvelle entrée vous attend. Ouvrez pour lire.",
+    "notification_test": "Envoyer une notification de test",
+    "notification_test_title": "Thaqafa — test",
+    "notification_test_body": "Si vous lisez ceci, les notifications fonctionnent.",
+    "notification_test_pending": "Une notification de test arrivera dans environ cinq secondes.",
+    "notification_permission_warning": "Les notifications sont activées dans l'app mais bloquées par iOS. Ouvrez les Réglages système pour les autoriser.",
+    "notification_open_system_settings": "Ouvrir les réglages système",
+    "observances_link": "Parcourir les jours sacrés",
     "about": "À propos"
   },
   "errors": {

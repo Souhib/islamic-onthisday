@@ -60,6 +60,13 @@
     "notification_time": "Notification time",
     "notification_title": "Today on the calendar",
     "notification_body": "A new entry awaits. Open to read.",
+    "notification_test": "Send a test notification",
+    "notification_test_title": "Thaqafa — test",
+    "notification_test_body": "If you can read this, notifications are working.",
+    "notification_test_pending": "A test notification will arrive in about five seconds.",
+    "notification_permission_warning": "Notifications are enabled in the app but blocked by iOS. Open the system Settings to allow them.",
+    "notification_open_system_settings": "Open system settings",
+    "observances_link": "Browse sacred days",
     "about": "About"
   },
   "errors": {

@@ -40,7 +40,7 @@ class RecentScreen extends ConsumerWidget {
           data: (data) => RefreshIndicator(
             onRefresh: () async => ref.invalidate(recentProvider),
             child: ListView(
-              padding: const EdgeInsets.fromLTRB(0, 16, 0, 60),
+              padding: const EdgeInsets.fromLTRB(0, 4, 0, 60),
               children: [
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 28),

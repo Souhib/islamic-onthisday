@@ -1,7 +1,9 @@
-import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:thaqafa/core/analytics/analytics.dart';
 import 'package:thaqafa/core/di/providers.dart';
+import 'package:thaqafa/i18n/strings.g.dart';
 import 'package:thaqafa/features/about/about_screen.dart';
 import 'package:thaqafa/features/auth/sign_in_screen.dart';
 import 'package:thaqafa/features/auth/sign_up_screen.dart';
@@ -41,7 +43,7 @@ class AppRoutes {
 }
 
 final appRouterProvider = Provider<GoRouter>((ref) {
-  return GoRouter(
+  final router = GoRouter(
     initialLocation: AppRoutes.today,
     redirect: (context, state) {
       final completed = ref.read<bool>(onboardingProvider);
@@ -61,19 +63,21 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         routes: [
           GoRoute(
             path: AppRoutes.today,
-            builder: (context, state) => const TodayScreen(),
+            pageBuilder: (context, state) => _instantPage(state, const TodayScreen()),
           ),
           GoRoute(
             path: AppRoutes.recent,
-            builder: (context, state) => const RecentScreen(),
+            pageBuilder: (context, state) => _instantPage(state, const RecentScreen()),
           ),
           GoRoute(
             path: AppRoutes.observances,
-            builder: (context, state) => const ObservancesListScreen(),
+            pageBuilder: (context, state) =>
+                _instantPage(state, const ObservancesListScreen()),
           ),
           GoRoute(
             path: AppRoutes.settings,
-            builder: (context, state) => const SettingsScreen(),
+            pageBuilder: (context, state) =>
+                _instantPage(state, const SettingsScreen()),
           ),
         ],
       ),
@@ -115,7 +119,39 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       ),
     ],
   );
+
+  // Fire a page-view on every navigation — push, pop, replace, shell
+  // tab swap, deep link, all of them. ``routerDelegate.notifyListeners``
+  // runs after the configuration update, so ``currentConfiguration``
+  // is the *new* location by the time we read it.
+  router.routerDelegate.addListener(() {
+    final uri = router.routerDelegate.currentConfiguration.uri;
+    Analytics.instance.trackPageView(
+      uri.path,
+      language: LocaleSettings.currentLocale.languageCode,
+    );
+  });
+
+  return router;
 });
+
+/// Bottom-nav routes use an instant page — no slide, no fade. Tabs are
+/// peers (no hierarchical order) so any directional animation would
+/// misrepresent the relationship between them; this also matches iOS
+/// HIG (Tab Bar) and Material's NavigationBar behaviour.
+///
+/// Detail routes (``/event/:slug`` etc.) are pushed and inherit the
+/// default Material/Cupertino transition, which is what users expect
+/// for a navigation push.
+CustomTransitionPage<void> _instantPage(GoRouterState state, Widget child) {
+  return CustomTransitionPage(
+    key: state.pageKey,
+    transitionDuration: Duration.zero,
+    reverseTransitionDuration: Duration.zero,
+    transitionsBuilder: (_, _, _, child) => child,
+    child: child,
+  );
+}
 
 class _RouterRefreshNotifier extends ChangeNotifier {
   _RouterRefreshNotifier(this._ref) {

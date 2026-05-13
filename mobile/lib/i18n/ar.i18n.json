@@ -60,6 +60,13 @@
     "notification_time": "وقت الإشعار",
     "notification_title": "اليوم في التقويم",
     "notification_body": "مدخل جديد في انتظارك. افتح لتقرأ.",
+    "notification_test": "إرسال إشعار تجريبي",
+    "notification_test_title": "ثقافة — اختبار",
+    "notification_test_body": "إذا قرأتَ هذا فالإشعارات تعمل.",
+    "notification_test_pending": "سيصل إشعار تجريبي بعد خمس ثوانٍ تقريبًا.",
+    "notification_permission_warning": "الإشعارات مُفعَّلة داخل التطبيق لكن نظام iOS يحجبها. افتح إعدادات النظام للسماح بها.",
+    "notification_open_system_settings": "فتح إعدادات النظام",
+    "observances_link": "تصفّح الأيام المُباركة",
     "about": "حول"
   },
   "errors": {

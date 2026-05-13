@@ -1,7 +1,7 @@
 name: thaqafa
 description: "Thaqafa — one verified historical event from Islamic history per day."
 publish_to: 'none'
-version: 1.0.0+3
+version: 1.0.0+4
 
 environment:
   sdk: '>=3.8.0 <4.0.0'
@@ -39,6 +39,10 @@ dependencies:
   # Notifications — local scheduling only in V1, no FCM.
   flutter_local_notifications: ^19.5.0
   timezone: ^0.10.0
+  # Resolves the device's IANA timezone (e.g. "Europe/Paris"). Without
+  # this, the `timezone` package's ``tz.local`` defaults to UTC and
+  # every scheduled notification fires N hours late.
+  flutter_timezone: ^4.1.0
 
   # Home-screen widgets — phase 4.
   home_widget: ^0.7.0

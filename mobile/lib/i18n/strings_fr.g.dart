@@ -162,6 +162,13 @@ class _TranslationsSettingsFr implements TranslationsSettingsEn {
 	@override String get notification_time => 'Heure de notification';
 	@override String get notification_title => 'Aujourd\'hui dans le calendrier';
 	@override String get notification_body => 'Une nouvelle entrée vous attend. Ouvrez pour lire.';
+	@override String get notification_test => 'Envoyer une notification de test';
+	@override String get notification_test_title => 'Thaqafa — test';
+	@override String get notification_test_body => 'Si vous lisez ceci, les notifications fonctionnent.';
+	@override String get notification_test_pending => 'Une notification de test arrivera dans environ cinq secondes.';
+	@override String get notification_permission_warning => 'Les notifications sont activées dans l\'app mais bloquées par iOS. Ouvrez les Réglages système pour les autoriser.';
+	@override String get notification_open_system_settings => 'Ouvrir les réglages système';
+	@override String get observances_link => 'Parcourir les jours sacrés';
 	@override String get about => 'À propos';
 }
 
@@ -373,6 +380,13 @@ extension on TranslationsFr {
 			'settings.notification_time' => 'Heure de notification',
 			'settings.notification_title' => 'Aujourd\'hui dans le calendrier',
 			'settings.notification_body' => 'Une nouvelle entrée vous attend. Ouvrez pour lire.',
+			'settings.notification_test' => 'Envoyer une notification de test',
+			'settings.notification_test_title' => 'Thaqafa — test',
+			'settings.notification_test_body' => 'Si vous lisez ceci, les notifications fonctionnent.',
+			'settings.notification_test_pending' => 'Une notification de test arrivera dans environ cinq secondes.',
+			'settings.notification_permission_warning' => 'Les notifications sont activées dans l\'app mais bloquées par iOS. Ouvrez les Réglages système pour les autoriser.',
+			'settings.notification_open_system_settings' => 'Ouvrir les réglages système',
+			'settings.observances_link' => 'Parcourir les jours sacrés',
 			'settings.about' => 'À propos',
 			'errors.generic' => 'Une erreur est survenue.',
 			'errors.offline' => 'Vous semblez hors ligne.',

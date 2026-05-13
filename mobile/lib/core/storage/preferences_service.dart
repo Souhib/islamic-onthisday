@@ -32,8 +32,12 @@ class PreferencesService {
   String? get locale => _prefs.getString(_kLocale);
   Future<void> setLocale(String code) => _prefs.setString(_kLocale, code);
 
+  // Default OFF: the App Store / Play guidelines and basic UX courtesy
+  // both call for explicit opt-in to a privacy-sensitive feature.
+  // Existing installs that already saved a preference keep it; only
+  // fresh installs land on this default.
   bool get notificationsEnabled =>
-      _prefs.getBool(_kNotificationsEnabled) ?? true;
+      _prefs.getBool(_kNotificationsEnabled) ?? false;
   Future<void> setNotificationsEnabled(bool value) =>
       _prefs.setBool(_kNotificationsEnabled, value);
 

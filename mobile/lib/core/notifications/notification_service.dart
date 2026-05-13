@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:timezone/data/latest_all.dart' as tzdata;
 import 'package:timezone/timezone.dart' as tz;
 
@@ -23,6 +24,9 @@ class NotificationService {
       FlutterLocalNotificationsPlugin();
 
   static const int _kDailyId = 1;
+  // Reserved for the "Send a test notification" surface — fires in 5s,
+  // never repeats, never collides with the daily schedule.
+  static const int _kTestId = 2;
   // Per-day personalised notifs use IDs 100 + offset (0-29). The base
   // is high enough that we can grow the personalised window without
   // colliding with the repeating fallback at ID 1.
@@ -32,10 +36,28 @@ class NotificationService {
   bool _initialised = false;
 
   /// One-shot init — safe to call multiple times. Loads the timezone
-  /// database, configures iOS + Android channels.
+  /// database, **sets ``tz.local`` to the device's IANA zone**, and
+  /// configures iOS + Android channels.
+  ///
+  /// Without ``setLocalLocation``, ``tz.local`` defaults to UTC and
+  /// every ``zonedSchedule(tz.TZDateTime(tz.local, …))`` fires
+  /// ``utcOffset`` hours late (~2h for ``Europe/Paris`` in summer). This
+  /// is *the* gotcha behind the most common "my notification arrived
+  /// hours after I expected" report against ``flutter_local_notifications``.
   Future<void> ensureInitialised() async {
     if (_initialised) return;
     tzdata.initializeTimeZones();
+
+    // Resolve the device's IANA timezone (e.g. "Europe/Paris"). On
+    // simulators / emulators / desktop this can be ``null`` or
+    // ``"UTC"`` — we tolerate failure and fall back to UTC, which is
+    // wrong but at least doesn't crash.
+    try {
+      final name = await FlutterTimezone.getLocalTimezone();
+      tz.setLocalLocation(tz.getLocation(name));
+    } catch (_) {
+      // Keep tz.local at its default (UTC). Better visible bug than crash.
+    }
 
     const initIos = DarwinInitializationSettings(
       requestAlertPermission: false,
@@ -47,6 +69,57 @@ class NotificationService {
       const InitializationSettings(iOS: initIos, android: initAndroid),
     );
     _initialised = true;
+  }
+
+  /// Check the OS-level notification permission without prompting the
+  /// user. Returns ``true`` when notifications are allowed to display.
+  /// Used by Settings to warn when the in-app toggle is on but iOS
+  /// itself is silencing alerts.
+  Future<bool> hasPermission() async {
+    await ensureInitialised();
+    if (defaultTargetPlatform == TargetPlatform.iOS) {
+      final ios = _plugin.resolvePlatformSpecificImplementation<
+          IOSFlutterLocalNotificationsPlugin>();
+      final settings = await ios?.checkPermissions();
+      return settings?.isAlertEnabled == true || settings?.isSoundEnabled == true;
+    }
+    if (defaultTargetPlatform == TargetPlatform.android) {
+      final android = _plugin.resolvePlatformSpecificImplementation<
+          AndroidFlutterLocalNotificationsPlugin>();
+      return await android?.areNotificationsEnabled() ?? true;
+    }
+    return false;
+  }
+
+  /// Fire a one-shot notification five seconds from now. Used by the
+  /// "Send a test notification" button in Settings so users can verify
+  /// end-to-end that iOS is willing to surface the alert (permission
+  /// granted, Focus mode off, lock-screen settings allow, …) without
+  /// waiting for the scheduled daily hour.
+  Future<void> sendTestNotification({
+    required String title,
+    required String body,
+  }) async {
+    await ensureInitialised();
+    const details = NotificationDetails(
+      iOS: DarwinNotificationDetails(presentAlert: true, presentSound: true),
+      android: AndroidNotificationDetails(
+        _kChannelId,
+        'Daily reading',
+        channelDescription: 'One verified Islamic-history event per day.',
+        importance: Importance.defaultImportance,
+        priority: Priority.defaultPriority,
+      ),
+    );
+    final fireAt = tz.TZDateTime.now(tz.local).add(const Duration(seconds: 5));
+    await _plugin.zonedSchedule(
+      _kTestId,
+      title,
+      body,
+      fireAt,
+      details,
+      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+    );
   }
 
   /// Ask the OS for notification permission. Returns true if granted.
