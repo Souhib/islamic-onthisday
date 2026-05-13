@@ -59,8 +59,33 @@ class Analytics {
     },
   ));
 
-  /// Send a payload to Umami's /api/send endpoint. Fire-and-forget:
-  /// errors are swallowed so analytics never crashes the UX.
+  /// Send a payload to Umami's /api/send endpoint.
+  ///
+  /// **Failure-mode contract — analytics is *never* allowed to crash,
+  /// block, or slow the host app.**
+  ///
+  /// Layers of defence, in order:
+  ///   1. ``unawaited(...)`` — the caller does not await. The UI thread
+  ///      doesn't wait for the network round-trip; the call returns the
+  ///      moment the request is queued on Dio's HTTP client.
+  ///   2. ``connectTimeout: 3s`` + ``receiveTimeout: 3s`` — bounded
+  ///      wait. A hung connection is abandoned in 3 seconds; the user
+  ///      never sees a stalled background task.
+  ///   3. ``.catchError`` — silent. Every ``DioException`` (no internet,
+  ///      DNS fail, TLS error, 5xx from Umami, timeout, …) is caught
+  ///      and resolved into a no-op synthetic response. Nothing
+  ///      propagates.
+  ///   4. Outer ``try``/``catch`` — protects against synchronous
+  ///      throws during payload construction or Dio's call set-up.
+  ///      Belt and suspenders.
+  ///   5. ``_enabled`` short-circuit — when ``UMAMI_URL`` /
+  ///      ``UMAMI_WEBSITE_ID`` are unset, we don't even build the
+  ///      payload, so zero overhead and zero network attempts.
+  ///
+  /// Net effect: the user can open the app on airplane mode, in the
+  /// subway, behind a corporate proxy that blocks ``analytics.majlisna.app``,
+  /// or in a country where the Umami host is unreachable — none of it
+  /// is visible. The app keeps running; the event is silently lost.
   void _send({
     required String path,
     String? title,
@@ -69,31 +94,37 @@ class Analytics {
     String? language,
   }) {
     if (!_enabled) return;
-    final payload = <String, dynamic>{
-      'website': _websiteId,
-      'hostname': 'thaqafa.app',
-      'url': path,
-      'language': language ?? '',
-      'screen': '',
-      'referrer': '',
-      'title': ?title,
-      'name': ?eventName,
-      'data': {
-        ...?eventData,
-        'platform': _platform,
-      },
-    };
-    unawaited(
-      _dio
-          .post<void>('$_url/api/send', data: {
-        'type': 'event',
-        'payload': payload,
-      })
-          .catchError((_) {
-        // Silent: analytics never propagates failure.
-        return Response<void>(requestOptions: RequestOptions());
-      }),
-    );
+    try {
+      final payload = <String, dynamic>{
+        'website': _websiteId,
+        'hostname': 'thaqafa.app',
+        'url': path,
+        'language': language ?? '',
+        'screen': '',
+        'referrer': '',
+        'title': ?title,
+        'name': ?eventName,
+        'data': {
+          ...?eventData,
+          'platform': _platform,
+        },
+      };
+      unawaited(
+        _dio
+            .post<void>('$_url/api/send', data: {
+          'type': 'event',
+          'payload': payload,
+        })
+            .catchError((_) {
+          // Silent: analytics never propagates failure to the host app.
+          return Response<void>(requestOptions: RequestOptions());
+        }),
+      );
+    } catch (_) {
+      // Belt-and-suspenders: a synchronous throw during payload set-up
+      // (shouldn't happen, but Dart's null-aware syntax + map literals
+      // are evolving fast). Same contract — analytics never crashes.
+    }
   }
 
   // ---------------------------------------------------------------------
