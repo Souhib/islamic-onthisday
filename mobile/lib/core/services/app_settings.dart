@@ -65,3 +65,23 @@ class LocaleNotifier extends Notifier<AppLocale?> {
 
 final localeProvider =
     NotifierProvider<LocaleNotifier, AppLocale?>(LocaleNotifier.new);
+
+/// User-controlled reading-size multiplier. Plugged into a top-level
+/// ``MediaQuery`` so every ``Text`` in the tree scales without any
+/// per-widget plumbing. Pinch-to-zoom on a long scrollable list breaks
+/// vertical scroll (gesture-arena conflict) — the segmented preset row
+/// in Settings is the standard pattern Apple Books / NYT / Medium use
+/// for the same reason.
+class ReadingScaleNotifier extends Notifier<double> {
+  @override
+  double build() => ref.read(prefsServiceProvider).readingScale;
+
+  Future<void> set(double value) async {
+    final prefs = ref.read(prefsServiceProvider);
+    await prefs.setReadingScale(value);
+    state = value;
+  }
+}
+
+final readingScaleProvider =
+    NotifierProvider<ReadingScaleNotifier, double>(ReadingScaleNotifier.new);

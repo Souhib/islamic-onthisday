@@ -158,6 +158,11 @@ class _TranslationsSettingsAr implements TranslationsSettingsEn {
 	@override String get theme_dark => 'داكن';
 	@override String get theme_system => 'النظام';
 	@override String get language => 'اللغة';
+	@override String get reading_size => 'حجم النص';
+	@override String get reading_size_s => 'ص';
+	@override String get reading_size_m => 'م';
+	@override String get reading_size_l => 'ك';
+	@override String get reading_size_xl => 'كك';
 	@override String get notifications => 'إشعار يومي';
 	@override String get notification_time => 'وقت الإشعار';
 	@override String get notification_title => 'اليوم في التقويم';
@@ -376,6 +381,11 @@ extension on TranslationsAr {
 			'settings.theme_dark' => 'داكن',
 			'settings.theme_system' => 'النظام',
 			'settings.language' => 'اللغة',
+			'settings.reading_size' => 'حجم النص',
+			'settings.reading_size_s' => 'ص',
+			'settings.reading_size_m' => 'م',
+			'settings.reading_size_l' => 'ك',
+			'settings.reading_size_xl' => 'كك',
 			'settings.notifications' => 'إشعار يومي',
 			'settings.notification_time' => 'وقت الإشعار',
 			'settings.notification_title' => 'اليوم في التقويم',

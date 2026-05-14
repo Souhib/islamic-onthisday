@@ -250,6 +250,21 @@ class TranslationsSettingsEn {
 	/// en: 'Language'
 	String get language => 'Language';
 
+	/// en: 'Reading size'
+	String get reading_size => 'Reading size';
+
+	/// en: 'S'
+	String get reading_size_s => 'S';
+
+	/// en: 'M'
+	String get reading_size_m => 'M';
+
+	/// en: 'L'
+	String get reading_size_l => 'L';
+
+	/// en: 'XL'
+	String get reading_size_xl => 'XL';
+
 	/// en: 'Daily notification'
 	String get notifications => 'Daily notification';
 
@@ -669,6 +684,11 @@ extension on Translations {
 			'settings.theme_dark' => 'Dark',
 			'settings.theme_system' => 'System',
 			'settings.language' => 'Language',
+			'settings.reading_size' => 'Reading size',
+			'settings.reading_size_s' => 'S',
+			'settings.reading_size_m' => 'M',
+			'settings.reading_size_l' => 'L',
+			'settings.reading_size_xl' => 'XL',
 			'settings.notifications' => 'Daily notification',
 			'settings.notification_time' => 'Notification time',
 			'settings.notification_title' => 'Today on the calendar',

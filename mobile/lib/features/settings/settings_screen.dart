@@ -71,6 +71,18 @@ class SettingsScreen extends ConsumerWidget {
               onChanged: (l) => ref.read(localeProvider.notifier).set(l),
             ),
             const SizedBox(height: 18),
+            FriezeRule(label: i18n.settings.reading_size, marginTop: 4, marginBottom: 14),
+            _SegmentRow<double>(
+              options: [
+                (0.85, i18n.settings.reading_size_s),
+                (1.0, i18n.settings.reading_size_m),
+                (1.15, i18n.settings.reading_size_l),
+                (1.3, i18n.settings.reading_size_xl),
+              ],
+              value: ref.watch(readingScaleProvider),
+              onChanged: (v) => ref.read(readingScaleProvider.notifier).set(v),
+            ),
+            const SizedBox(height: 18),
             FriezeRule(
               label: i18n.settings.notifications,
               marginTop: 4,
@@ -551,36 +563,42 @@ class _SegmentRow<T> extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = context.tokens;
-    return Container(
-      decoration: BoxDecoration(
-        border: Border.all(color: t.rule, width: 0.5),
-      ),
-      child: Row(
-        children: [
-          for (int i = 0; i < options.length; i++) ...[
-            Expanded(
-              child: InkWell(
-                onTap: () => onChanged(options[i].$1),
-                child: Container(
-                  padding: const EdgeInsets.symmetric(vertical: 12),
-                  color: options[i].$1 == value ? t.ink : t.paper,
-                  child: Center(
-                    child: Text(
-                      options[i].$2.toUpperCase(),
-                      style: ThaqafaTypography.mono(
-                        size: 11,
-                        color: options[i].$1 == value ? t.paper : t.inkSoft,
-                        letterSpacing: 1.4,
+    // Segment rows are *controls*, not reading content — pin them at
+    // 1.0 even when the global reading-size preset is XL, so the labels
+    // don't overflow their cells. The reading body still scales.
+    return MediaQuery(
+      data: MediaQuery.of(context).copyWith(textScaler: TextScaler.noScaling),
+      child: Container(
+        decoration: BoxDecoration(
+          border: Border.all(color: t.rule, width: 0.5),
+        ),
+        child: Row(
+          children: [
+            for (int i = 0; i < options.length; i++) ...[
+              Expanded(
+                child: InkWell(
+                  onTap: () => onChanged(options[i].$1),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                    color: options[i].$1 == value ? t.ink : t.paper,
+                    child: Center(
+                      child: Text(
+                        options[i].$2.toUpperCase(),
+                        style: ThaqafaTypography.mono(
+                          size: 11,
+                          color: options[i].$1 == value ? t.paper : t.inkSoft,
+                          letterSpacing: 1.4,
+                        ),
                       ),
                     ),
                   ),
                 ),
               ),
-            ),
-            if (i < options.length - 1)
-              Container(width: 0.5, height: 44, color: t.rule),
+              if (i < options.length - 1)
+                Container(width: 0.5, height: 44, color: t.rule),
+            ],
           ],
-        ],
+        ),
       ),
     );
   }

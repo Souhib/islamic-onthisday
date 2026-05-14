@@ -12,6 +12,7 @@ class PreferencesService {
   static const _kNotificationsEnabled = 'notifications_enabled';
   static const _kNotificationHour = 'notification_hour'; // 0-23
   static const _kNotificationMinute = 'notification_minute'; // 0-59
+  static const _kReadingScale = 'reading_scale'; // 0.85 | 1.0 | 1.15 | 1.3
 
   final SharedPreferences _prefs;
 
@@ -48,4 +49,12 @@ class PreferencesService {
   int get notificationMinute => _prefs.getInt(_kNotificationMinute) ?? 0;
   Future<void> setNotificationMinute(int minute) =>
       _prefs.setInt(_kNotificationMinute, minute);
+
+  // Multiplier applied to the in-app text scaler. Default 1.0 (= "Medium"
+  // preset, no scaling beyond what iOS Dynamic Type already does). The
+  // segmented Settings row in Settings → Reading size flips between
+  // four presets: 0.85 / 1.0 / 1.15 / 1.3.
+  double get readingScale => _prefs.getDouble(_kReadingScale) ?? 1.0;
+  Future<void> setReadingScale(double value) =>
+      _prefs.setDouble(_kReadingScale, value);
 }

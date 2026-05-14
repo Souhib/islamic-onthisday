@@ -158,6 +158,11 @@ class _TranslationsSettingsFr implements TranslationsSettingsEn {
 	@override String get theme_dark => 'Sombre';
 	@override String get theme_system => 'Système';
 	@override String get language => 'Langue';
+	@override String get reading_size => 'Taille du texte';
+	@override String get reading_size_s => 'P';
+	@override String get reading_size_m => 'M';
+	@override String get reading_size_l => 'G';
+	@override String get reading_size_xl => 'TG';
 	@override String get notifications => 'Notification quotidienne';
 	@override String get notification_time => 'Heure de notification';
 	@override String get notification_title => 'Aujourd\'hui dans le calendrier';
@@ -376,6 +381,11 @@ extension on TranslationsFr {
 			'settings.theme_dark' => 'Sombre',
 			'settings.theme_system' => 'Système',
 			'settings.language' => 'Langue',
+			'settings.reading_size' => 'Taille du texte',
+			'settings.reading_size_s' => 'P',
+			'settings.reading_size_m' => 'M',
+			'settings.reading_size_l' => 'G',
+			'settings.reading_size_xl' => 'TG',
 			'settings.notifications' => 'Notification quotidienne',
 			'settings.notification_time' => 'Heure de notification',
 			'settings.notification_title' => 'Aujourd\'hui dans le calendrier',
