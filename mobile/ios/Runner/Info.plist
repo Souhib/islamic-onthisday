@@ -47,5 +47,18 @@
 		<true/>
 		<key>UIStatusBarHidden</key>
 		<false/>
+		<!--
+			Export Compliance — declared once here so App Store Connect
+			stops prompting on every upload. ``false`` is correct: the
+			app only uses Apple's standard system-provided crypto
+			(HTTPS/TLS for the API, the system keychain via
+			``flutter_secure_storage``, NSURLSession). No proprietary
+			encryption, no algorithms beyond what's exempt under the
+			US Bureau of Industry and Security regulations. Password
+			hashing (Argon2id) lives on the backend, not in this app.
+			See https://help.apple.com/app-store-connect/#/dev88f5c7bf9
+		-->
+		<key>ITSAppUsesNonExemptEncryption</key>
+		<false/>
 	</dict>
 </plist>
