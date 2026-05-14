@@ -83,6 +83,10 @@ class _TranslationsOnboardingFr implements TranslationsOnboardingEn {
 	@override String get lang_en => 'English';
 	@override String get lang_fr => 'Français';
 	@override String get lang_ar => 'العربية';
+	@override String get size_eyebrow => 'Une lecture confortable';
+	@override String get size_headline => 'Choisissez la taille qui vous convient.';
+	@override String get size_subhead => 'Modifiable plus tard dans les Paramètres — ou pincez avec deux doigts pour zoomer n\'importe où dans l\'app.';
+	@override String get size_preview => 'Le corpus classique, jour après jour. Chaque entrée est enracinée dans les sources sunnites classiques — al-Ṭabarī, Ibn Kathīr, les Six Livres. Lisez-la une fois par jour, posez un rappel discret, et laissez le calendrier vous ramener demain.';
 	@override String get notif_eyebrow => 'Un moment quotidien';
 	@override String get notif_headline => 'Un rappel discret,\nune fois par jour.';
 	@override String get notif_subhead => 'Choisis l\'heure qui t\'arrange. Aucune autre notification, et tu peux désactiver à tout moment.';
@@ -351,6 +355,10 @@ extension on TranslationsFr {
 			'onboarding.lang_en' => 'English',
 			'onboarding.lang_fr' => 'Français',
 			'onboarding.lang_ar' => 'العربية',
+			'onboarding.size_eyebrow' => 'Une lecture confortable',
+			'onboarding.size_headline' => 'Choisissez la taille qui vous convient.',
+			'onboarding.size_subhead' => 'Modifiable plus tard dans les Paramètres — ou pincez avec deux doigts pour zoomer n\'importe où dans l\'app.',
+			'onboarding.size_preview' => 'Le corpus classique, jour après jour. Chaque entrée est enracinée dans les sources sunnites classiques — al-Ṭabarī, Ibn Kathīr, les Six Livres. Lisez-la une fois par jour, posez un rappel discret, et laissez le calendrier vous ramener demain.',
 			'onboarding.notif_eyebrow' => 'Un moment quotidien',
 			'onboarding.notif_headline' => 'Un rappel discret,\nune fois par jour.',
 			'onboarding.notif_subhead' => 'Choisis l\'heure qui t\'arrange. Aucune autre notification, et tu peux désactiver à tout moment.',

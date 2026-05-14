@@ -83,6 +83,10 @@ class _TranslationsOnboardingAr implements TranslationsOnboardingEn {
 	@override String get lang_en => 'English';
 	@override String get lang_fr => 'Français';
 	@override String get lang_ar => 'العربية';
+	@override String get size_eyebrow => 'قراءة مريحة';
+	@override String get size_headline => 'اختر الحجم المُلائم لعينيك.';
+	@override String get size_subhead => 'يمكنك تغييره لاحقًا من الإعدادات — أو اقرص بإصبعين للتكبير في أيّ مكان من التطبيق.';
+	@override String get size_preview => 'الأثر الكلاسيكي يومًا بيوم. كلّ مدخل يستند إلى المصادر السنّية الكلاسيكية — الطبري وابن كثير والكتب الستّة. اقرأه مرّة في اليوم، اضبط تذكيرًا هادئًا، ودَع التقويم يعيدك غدًا.';
 	@override String get notif_eyebrow => 'موعد يومي';
 	@override String get notif_headline => 'تذكير هادئ،\nمرّة في اليوم.';
 	@override String get notif_subhead => 'اختر الساعة التي تناسبك. لا إشعارات أخرى، ويمكنك إيقاف هذا في أيّ وقت.';
@@ -351,6 +355,10 @@ extension on TranslationsAr {
 			'onboarding.lang_en' => 'English',
 			'onboarding.lang_fr' => 'Français',
 			'onboarding.lang_ar' => 'العربية',
+			'onboarding.size_eyebrow' => 'قراءة مريحة',
+			'onboarding.size_headline' => 'اختر الحجم المُلائم لعينيك.',
+			'onboarding.size_subhead' => 'يمكنك تغييره لاحقًا من الإعدادات — أو اقرص بإصبعين للتكبير في أيّ مكان من التطبيق.',
+			'onboarding.size_preview' => 'الأثر الكلاسيكي يومًا بيوم. كلّ مدخل يستند إلى المصادر السنّية الكلاسيكية — الطبري وابن كثير والكتب الستّة. اقرأه مرّة في اليوم، اضبط تذكيرًا هادئًا، ودَع التقويم يعيدك غدًا.',
 			'onboarding.notif_eyebrow' => 'موعد يومي',
 			'onboarding.notif_headline' => 'تذكير هادئ،\nمرّة في اليوم.',
 			'onboarding.notif_subhead' => 'اختر الساعة التي تناسبك. لا إشعارات أخرى، ويمكنك إيقاف هذا في أيّ وقت.',

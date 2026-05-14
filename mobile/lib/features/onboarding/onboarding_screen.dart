@@ -36,7 +36,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
   final PageController _controller = PageController();
   int _page = 0;
 
-  static const int _pageCount = 3;
+  static const int _pageCount = 4;
 
   @override
   void dispose() {
@@ -120,6 +120,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                 children: const [
                   _ConceptPage(),
                   _LanguagePage(),
+                  _ReadingSizePage(),
                   _NotificationsPage(),
                 ],
               ),
@@ -352,7 +353,149 @@ class _LangTile extends StatelessWidget {
   }
 }
 
-/// Page 3 — notification toggle + time picker. Permission is requested
+/// Page 3 — reading size picker with live preview. The user picks
+/// one of four presets (S/M/L/XL) and sees an editorial paragraph in
+/// the chosen language re-render at that size in real time. Pinching
+/// works here too (the global ``_ReadingScaleHost`` in ``app.dart``
+/// intercepts two-finger gestures everywhere). Chrome (eyebrow,
+/// headline, subhead, picker labels) is pinned at 1.0× so only the
+/// preview body scales — that's the contrast we want the user to see.
+class _ReadingSizePage extends ConsumerWidget {
+  const _ReadingSizePage();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final t = context.tokens;
+    final i18n = Translations.of(context);
+    final scale = ref.watch(readingScaleProvider);
+    final presets = <(double, String)>[
+      (0.85, i18n.settings.reading_size_s),
+      (1.0, i18n.settings.reading_size_m),
+      (1.15, i18n.settings.reading_size_l),
+      (1.3, i18n.settings.reading_size_xl),
+    ];
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(28, 24, 28, 0),
+      child: Column(
+        children: [
+          // Eyebrow + headline + subhead — pinned so they stay at
+          // their design size and act as a stable visual reference
+          // while only the preview body changes.
+          MediaQuery(
+            data: MediaQuery.of(context).copyWith(textScaler: TextScaler.noScaling),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text(
+                  i18n.onboarding.size_eyebrow.toUpperCase(),
+                  style: ThaqafaTypography.mono(
+                    size: 11,
+                    color: t.accent,
+                    letterSpacing: 2.6,
+                  ),
+                ),
+                const FriezeRule(
+                  rosetteOnly: true,
+                  marginTop: 18,
+                  marginBottom: 22,
+                ),
+                Text(
+                  i18n.onboarding.size_headline,
+                  textAlign: TextAlign.center,
+                  style: ThaqafaTypography.serif(
+                    size: 28,
+                    color: t.ink,
+                    weight: FontWeight.w500,
+                    height: 1.1,
+                    letterSpacing: -0.4,
+                  ),
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  i18n.onboarding.size_subhead,
+                  textAlign: TextAlign.center,
+                  style: ThaqafaTypography.serif(
+                    size: 14,
+                    color: t.inkSoft,
+                    style: FontStyle.italic,
+                    height: 1.5,
+                  ),
+                ),
+                const SizedBox(height: 20),
+              ],
+            ),
+          ),
+          // Live preview — scales with the picked size + pinch.
+          Expanded(
+            child: SingleChildScrollView(
+              child: Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(18),
+                decoration: BoxDecoration(
+                  border: Border.all(color: t.rule, width: 0.5),
+                ),
+                child: Text(
+                  i18n.onboarding.size_preview,
+                  style: i18n.$meta.locale.languageCode == 'ar'
+                      ? ThaqafaTypography.arabic(
+                          size: 18,
+                          color: t.inkSoft,
+                          height: 1.85,
+                        )
+                      : ThaqafaTypography.serif(
+                          size: 17,
+                          color: t.inkSoft,
+                          style: FontStyle.italic,
+                          height: 1.65,
+                        ),
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(height: 16),
+          // 4-segment picker — pinned (else the XL label overflows
+          // when the user lands on XL).
+          MediaQuery(
+            data: MediaQuery.of(context).copyWith(textScaler: TextScaler.noScaling),
+            child: Container(
+              decoration: BoxDecoration(border: Border.all(color: t.rule, width: 0.5)),
+              child: Row(
+                children: [
+                  for (int i = 0; i < presets.length; i++) ...[
+                    Expanded(
+                      child: InkWell(
+                        onTap: () => ref.read(readingScaleProvider.notifier).set(presets[i].$1),
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          color: presets[i].$1 == scale ? t.ink : t.paper,
+                          child: Center(
+                            child: Text(
+                              presets[i].$2.toUpperCase(),
+                              style: ThaqafaTypography.mono(
+                                size: 12,
+                                color: presets[i].$1 == scale ? t.paper : t.inkSoft,
+                                letterSpacing: 1.4,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    if (i < presets.length - 1)
+                      Container(width: 0.5, height: 48, color: t.rule),
+                  ],
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Page 4 — notification toggle + time picker. Permission is requested
 /// on **finish**, not on toggle, so the user can flip the switch
 /// without immediately seeing an OS sheet.
 class _NotificationsPage extends ConsumerWidget {

@@ -115,6 +115,18 @@ class TranslationsOnboardingEn {
 	/// en: 'العربية'
 	String get lang_ar => 'العربية';
 
+	/// en: 'A comfortable read'
+	String get size_eyebrow => 'A comfortable read';
+
+	/// en: 'Pick a size that feels right.'
+	String get size_headline => 'Pick a size that feels right.';
+
+	/// en: 'You can change this later in Settings — or pinch with two fingers to zoom anywhere in the app.'
+	String get size_subhead => 'You can change this later in Settings — or pinch with two fingers to zoom anywhere in the app.';
+
+	/// en: 'The classical record, one day at a time. Every entry is rooted in classical Sunni sources — al-Ṭabarī, Ibn Kathīr, the Six Books. Read it once a day, set a quiet reminder, and let the calendar bring you back tomorrow.'
+	String get size_preview => 'The classical record, one day at a time. Every entry is rooted in classical Sunni sources — al-Ṭabarī, Ibn Kathīr, the Six Books. Read it once a day, set a quiet reminder, and let the calendar bring you back tomorrow.';
+
 	/// en: 'A daily moment'
 	String get notif_eyebrow => 'A daily moment';
 
@@ -654,6 +666,10 @@ extension on Translations {
 			'onboarding.lang_en' => 'English',
 			'onboarding.lang_fr' => 'Français',
 			'onboarding.lang_ar' => 'العربية',
+			'onboarding.size_eyebrow' => 'A comfortable read',
+			'onboarding.size_headline' => 'Pick a size that feels right.',
+			'onboarding.size_subhead' => 'You can change this later in Settings — or pinch with two fingers to zoom anywhere in the app.',
+			'onboarding.size_preview' => 'The classical record, one day at a time. Every entry is rooted in classical Sunni sources — al-Ṭabarī, Ibn Kathīr, the Six Books. Read it once a day, set a quiet reminder, and let the calendar bring you back tomorrow.',
 			'onboarding.notif_eyebrow' => 'A daily moment',
 			'onboarding.notif_headline' => 'One quiet reminder, once a day.',
 			'onboarding.notif_subhead' => 'Pick the hour that fits your routine. We don\'t push notifications for anything else — and you can turn this off any time.',
