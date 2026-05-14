@@ -110,7 +110,7 @@ class _Body extends StatelessWidget {
             textDirection: TextDirection.rtl,
             child: Text(
               event.titleAr!,
-              style: ThaqafaTypography.arabic(size: 22, color: t.inkSoft, height: 1.5),
+              style: ThaqafaTypography.arabic(size: 24, color: t.inkSoft, height: 1.5),
             ),
           ),
         ],
@@ -174,7 +174,7 @@ class _Body extends StatelessWidget {
         Text(
           collapseHardBreaks(summary),
           style: ThaqafaTypography.serif(
-            size: 18,
+            size: 20,
             color: t.inkSoft,
             style: FontStyle.italic,
             height: 1.6,
@@ -187,7 +187,7 @@ class _Body extends StatelessWidget {
               padding: EdgeInsets.only(top: i == 0 ? 0 : 18),
               child: Text(
                 collapseHardBreaks(body[i]),
-                style: ThaqafaTypography.serif(size: 17, color: t.inkSoft, height: 1.65),
+                style: ThaqafaTypography.serif(size: 19, color: t.inkSoft, height: 1.65),
               ),
             ),
           const FriezeRule(rosetteOnly: true, marginTop: 28),

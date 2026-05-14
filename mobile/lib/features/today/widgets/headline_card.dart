@@ -85,7 +85,7 @@ class HeadlineCard extends StatelessWidget {
               Text(
                 collapseHardBreaks(localisedSummary),
                 style: ThaqafaTypography.serif(
-                  size: 18,
+                  size: 20,
                   color: t.inkSoft,
                   style: FontStyle.italic,
                   height: 1.6,
@@ -126,7 +126,7 @@ class HeadlineCard extends StatelessWidget {
               Text(
                 collapseHardBreaks(localisedSummary),
                 style: ThaqafaTypography.serif(
-                  size: 18,
+                  size: 20,
                   color: t.inkSoft,
                   style: FontStyle.italic,
                   height: 1.6,

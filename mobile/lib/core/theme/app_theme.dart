@@ -24,6 +24,19 @@ class AppTheme {
       brightness: brightness,
       useMaterial3: true,
       scaffoldBackgroundColor: t.paper,
+      // Material 3 defaults to ``ZoomPageTransitionsBuilder`` on every
+      // platform, which throws away iOS' native swipe-from-edge to pop.
+      // Re-instate Cupertino on iOS/macOS so the pop gesture works. The
+      // builder reads ``Directionality.of(context)``, so RTL (Arabic)
+      // automatically flips the slide direction and the edge swipe
+      // origin without any conditional code.
+      pageTransitionsTheme: const PageTransitionsTheme(
+        builders: {
+          TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
+          TargetPlatform.macOS: CupertinoPageTransitionsBuilder(),
+          // Android keeps its default (Material zoom + predictive back).
+        },
+      ),
       colorScheme: ColorScheme.fromSeed(
         seedColor: t.accent,
         brightness: brightness,

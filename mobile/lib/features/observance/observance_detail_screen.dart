@@ -94,7 +94,7 @@ class _Body extends StatelessWidget {
         Text(
           collapseHardBreaks(description),
           style: ThaqafaTypography.serif(
-            size: 17,
+            size: 19,
             color: t.inkSoft,
             style: FontStyle.italic,
             height: 1.6,
