@@ -23,13 +23,12 @@ class NotificationService {
   final FlutterLocalNotificationsPlugin _plugin =
       FlutterLocalNotificationsPlugin();
 
-  static const int _kDailyId = 1;
   // Reserved for the "Send a test notification" surface — fires in 5s,
   // never repeats, never collides with the daily schedule.
   static const int _kTestId = 2;
   // Per-day personalised notifs use IDs 100 + offset (0-29). The base
   // is high enough that we can grow the personalised window without
-  // colliding with the repeating fallback at ID 1.
+  // colliding with other reserved IDs.
   static const int _kPersonalisedBaseId = 100;
   static const String _kChannelId = 'thaqafa-daily';
 
@@ -141,27 +140,42 @@ class NotificationService {
     return false;
   }
 
-  /// Schedule (or reschedule) the daily notification at the given local
+  /// Schedule (or reschedule) the daily notifications at the given local
   /// hour and minute. Calling with `enabled: false` cancels any pending
-  /// schedule.
+  /// schedule and returns.
   ///
-  /// **Personalised mode (preferred).** Pass ``upcoming`` — a list of
-  /// ``(title, body)`` pairs, one per day starting today — to schedule
-  /// rich-content one-shots for the next N days. Each entry fires once
-  /// on its specific date, so the user sees the actual event title in
-  /// the alert ("Today: Death of Maḥmūd of Ghazna"). After the window
-  /// runs out, a *repeating* generic notif takes over (``title`` /
-  /// ``body``) so the reminder never goes silent for an absent user.
+  /// ``upcoming`` is a list of ``(title, body)`` pairs, one per day
+  /// starting today. Each entry fires once on its specific date as a
+  /// one-shot — the user sees a notification like:
   ///
-  /// **Generic-only mode.** Pass ``upcoming = const []`` (or omit) to
-  /// fall back to the original behaviour: a single repeating notif
-  /// with the static ``title`` / ``body``, fired daily.
+  ///     Today on the calendar
+  ///     Death of ʿAbd al-ʿAzīz ibn Bāz — Grand Muftī of Saudi Arabia
+  ///
+  /// The list typically holds ~7 days; the caller (``rescheduleDaily-
+  /// Notifications``) is responsible for filling it (with real headlines
+  /// from ``/upcoming`` when the API succeeds, with generic fallback
+  /// content when it fails). Once those N one-shots fire, no further
+  /// notifications go out until the user reopens the app and a new
+  /// window is scheduled.
+  ///
+  /// **Why no repeating fallback.** An earlier version tacked on a
+  /// ``matchDateTimeComponents: DateTimeComponents.time`` notif so
+  /// "absent users keep getting reminded". That had two problems:
+  ///   1. ``DateTimeComponents.time`` ignores the date portion entirely
+  ///      — the OS fires every day at H:M starting from *trigger
+  ///      creation*, not from the personalised window's end. So users
+  ///      were getting **two notifications per day** for the first
+  ///      seven days: the personalised one + the repeater.
+  ///   2. A generic "open the app" nag to a disengaged user is the
+  ///      single fastest way to make them turn notifications off at
+  ///      the OS level — recovering from that is impossible. Apple
+  ///      HIG is explicit: "Avoid using notifications for unimportant
+  ///      information." A respectful silence after a week of inactivity
+  ///      is the right product call.
   Future<void> scheduleDaily({
     required bool enabled,
     required int hour,
     required int minute,
-    required String title,
-    required String body,
     List<({String title, String body})> upcoming = const [],
   }) async {
     await ensureInitialised();
@@ -197,32 +211,5 @@ class NotificationService {
         androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
       );
     }
-
-    // Schedule the repeating generic notif starting *after* the
-    // personalised window. ``matchDateTimeComponents: DateTimeComponents.time``
-    // tells the OS to repeat every day at the same hour, so when the
-    // app stops being opened the user keeps receiving a (generic)
-    // reminder instead of going silent forever.
-    final fallbackOffset = upcoming.isEmpty ? 0 : upcoming.length;
-    var fallback = tz.TZDateTime(
-      tz.local,
-      now.year,
-      now.month,
-      now.day + fallbackOffset,
-      hour,
-      minute,
-    );
-    if (!fallback.isAfter(now)) {
-      fallback = fallback.add(const Duration(days: 1));
-    }
-    await _plugin.zonedSchedule(
-      _kDailyId,
-      title,
-      body,
-      fallback,
-      details,
-      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
-      matchDateTimeComponents: DateTimeComponents.time,
-    );
   }
 }

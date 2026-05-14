@@ -15,9 +15,9 @@ const int kPersonalisedNotifWindow = 7;
 
 /// Fetch the next ``window`` upcoming days and reschedule local
 /// notifications: ``window`` rich one-shots with the actual day's
-/// headline title baked in, plus a repeating generic notif starting
-/// after the window so the reminder never goes silent for an absent
-/// user.
+/// headline title baked in. Once those fire, no further notifications
+/// go out until the user reopens the app — the window is renewed on
+/// each open.
 ///
 /// Called from two places:
 ///   - bootstrap, after the user-visible state is ready (so a fresh
@@ -27,9 +27,12 @@ const int kPersonalisedNotifWindow = 7;
 ///     hour/minute (handled in ``NotificationsEnabledNotifier`` /
 ///     ``NotificationTimeNotifier``).
 ///
-/// Network failure or upcoming-fetch error degrades to generic-only
-/// scheduling — the user still gets a daily reminder, just without
-/// the per-day headline.
+/// **Failure mode.** If the ``/upcoming`` fetch fails (offline, server
+/// down, …), we still schedule ``window`` days of *generic* one-shots
+/// using ``genericTitle`` / ``genericBody``. The user still gets a
+/// daily reminder, just without the per-day headline preview. No
+/// repeating "open the app" notification — see
+/// ``NotificationService.scheduleDaily`` for the rationale.
 Future<void> rescheduleDailyNotifications({
   required ThaqafaClient client,
   required PreferencesService prefs,
@@ -45,8 +48,6 @@ Future<void> rescheduleDailyNotifications({
       enabled: false,
       hour: hour,
       minute: minute,
-      title: genericTitle,
-      body: genericBody,
     );
     return;
   }
@@ -64,6 +65,18 @@ Future<void> rescheduleDailyNotifications({
     // Best-effort: fall through to generic-only schedule.
   }
 
+  // If the API didn't give us any headlines (network failure, no entries
+  // for the next N days, all entries failed the language filter…),
+  // schedule a generic notification per day so the daily reminder
+  // still goes out. Same shape as the personalised list, just with
+  // ``genericBody`` instead of the headline title.
+  if (upcoming.isEmpty) {
+    upcoming = [
+      for (var i = 0; i < kPersonalisedNotifWindow; i++)
+        (title: genericTitle, body: genericBody),
+    ];
+  }
+
   // Re-check the kill-switch *after* the upcoming fetch resolves.
   // Without this, a user who toggled notifications off while the
   // network roundtrip was in flight would have their schedule re-armed
@@ -74,8 +87,6 @@ Future<void> rescheduleDailyNotifications({
       enabled: false,
       hour: hour,
       minute: minute,
-      title: genericTitle,
-      body: genericBody,
     );
     return;
   }
@@ -84,8 +95,6 @@ Future<void> rescheduleDailyNotifications({
     enabled: true,
     hour: hour,
     minute: minute,
-    title: genericTitle,
-    body: genericBody,
     upcoming: upcoming,
   );
 }
