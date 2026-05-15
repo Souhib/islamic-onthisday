@@ -1,8 +1,14 @@
 // Pipeline-emitted depth stat for the footer signal. Same static-asset
 // posture as `sitemap.xml` / `feed.xml` — written by the pipeline,
-// served by the FE host, fetched once on mount, treated as a constant
-// after that. If the file is absent (fresh clone before first build),
-// the hook resolves to `null` and the footer skips the stat.
+// served by the FE host, fetched once on mount.
+//
+// **Cache strategy.** We default to the browser's normal HTTP cache
+// (``cache: "default"``) so the server's ``Cache-Control: max-age=3600``
+// is respected. An earlier ``"force-cache"`` directive made the browser
+// return *any* cached copy — fresh or stale — forever, which left
+// returning visitors stuck on the previous build's counter for days
+// after a redeploy. Default-cache + revalidation gives us at-most-1h
+// staleness, which is fine for a counter that moves weekly at most.
 
 import { useQuery } from "@tanstack/react-query";
 
@@ -24,7 +30,7 @@ interface RawDatasetMeta {
 
 async function fetchDatasetMeta(): Promise<DatasetMeta | null> {
   try {
-    const res = await fetch("/dataset-meta.json", { cache: "force-cache" });
+    const res = await fetch("/dataset-meta.json", { cache: "default" });
     if (!res.ok) return null;
     const raw = (await res.json()) as RawDatasetMeta;
     return {
