@@ -25,7 +25,7 @@ from pipeline.constants import (
     CURATED_EVENTS_DIR,
     CURATED_LESSONS_DIR,
 )
-from pipeline.conversion.calendar import greg_doy, hijri_md_key, hijri_to_gregorian
+from pipeline.conversion.calendar import greg_md_key, hijri_md_key, hijri_to_gregorian
 from pipeline.models.db import (
     DateClaim,
     DatelessLesson,
@@ -211,7 +211,7 @@ def _apply_display_keys(
 
     # --- Day-anniversary indices (only when day is genuinely attested) ---
     if gregorian is not None and gregorian.date_ and gregorian.precision == Precision.DAY:
-        event.display_gregorian_doy = greg_doy(gregorian.date_)
+        event.display_gregorian_md_key = greg_md_key(gregorian.date_)
     if hijri is not None and hijri.precision == Precision.DAY and hijri.month and hijri.day:
         event.display_hijri_md_key = hijri_md_key(hijri.month, hijri.day)
 

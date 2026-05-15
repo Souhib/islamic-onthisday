@@ -88,8 +88,13 @@ class Event(BaseTable, table=True):
 
     # DAY-anniversary indices — populated only when the day is genuinely
     # attested (not auto-converted from month-precision). The app uses these
-    # to surface "today is the exact anniversary" callouts.
-    display_gregorian_doy: int | None = Field(default=None, index=True)
+    # to surface "today is the exact anniversary" callouts. Both indices use
+    # the ``month * 100 + day`` shape so May 14 → 514 / 10 Muḥarram → 110.
+    # We deliberately do **not** use the Gregorian day-of-year (1-366) here:
+    # DOY drifts by one day across leap-year boundaries (an event on
+    # May 14 1560 has DOY 135 just like May 15 2026), which used to make
+    # events surface on the wrong calendar day every other year.
+    display_gregorian_md_key: int | None = Field(default=None, index=True)
     display_hijri_md_key: int | None = Field(default=None, index=True)
 
     # Julian-calendar equivalent for events before 15 Oct 1582. Stored

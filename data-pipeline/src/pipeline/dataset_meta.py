@@ -63,7 +63,7 @@ def _compute(session: Session) -> dict[str, int | str]:
     observance_count = session.exec(select(func.count(Observance.id))).one()
     person_count = session.exec(select(func.count(Person.id))).one()
     days_with_headline = session.exec(
-        select(func.count(func.distinct(Event.display_gregorian_doy)))
+        select(func.count(func.distinct(Event.display_gregorian_md_key)))
         .where(Event.importance.in_(_HEADLINE_IMPORTANCE))
         .where(Event.verification_status.in_(_HEADLINE_VERIFICATION_STATUSES))
     ).one()

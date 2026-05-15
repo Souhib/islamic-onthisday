@@ -11,7 +11,7 @@ they never write to the production SQLite directly.
 
 import argparse
 import calendar
-from datetime import date, timedelta
+from datetime import date
 
 from rich.console import Console
 from rich.table import Table
@@ -176,14 +176,14 @@ def _render_per_month_table(session: Session) -> None:
     months.add_column("Month")
     months.add_column("Tier-1 events", justify="right")
     for month in range(1, 13):
-        start_doy = date(2024, month, 1).timetuple().tm_yday
+        start_md = month * 100 + 1
         end_day = calendar.monthrange(2024, month)[1]
-        end_doy = date(2024, month, end_day).timetuple().tm_yday
+        end_md = month * 100 + end_day
         count = _count(
             session,
             select(func.count(Event.id))
             .where(Event.canonical_gregorian_precision == "day")
-            .where(Event.display_gregorian_doy.between(start_doy, end_doy)),
+            .where(Event.display_gregorian_md_key.between(start_md, end_md)),
         )
         months.add_row(_MONTH_NAMES[month - 1], str(count))
     console.print(months)
@@ -197,28 +197,28 @@ def _render_days_and_busiest(session: Session) -> None:
     """
     days_with_events = _count(
         session,
-        select(func.count(func.distinct(Event.display_gregorian_doy)))
+        select(func.count(func.distinct(Event.display_gregorian_md_key)))
         .where(Event.canonical_gregorian_precision == "day")
-        .where(Event.display_gregorian_doy.isnot(None)),
+        .where(Event.display_gregorian_md_key.isnot(None)),
     )
     console.print(f"[bold]Gregorian days with at least one Tier-1 event:[/] {days_with_events}/366")
 
     busiest = session.exec(
-        select(Event.display_gregorian_doy, func.count(Event.id).label("n"))
+        select(Event.display_gregorian_md_key, func.count(Event.id).label("n"))
         .where(Event.canonical_gregorian_precision == "day")
-        .where(Event.display_gregorian_doy.isnot(None))
-        .group_by(Event.display_gregorian_doy)
+        .where(Event.display_gregorian_md_key.isnot(None))
+        .group_by(Event.display_gregorian_md_key)
         .order_by(func.count(Event.id).desc())
         .limit(10)
     ).all()
     hot = Table(title="Busiest 10 Gregorian days", show_header=True)
-    hot.add_column("Day of year")
-    hot.add_column("Date (leap-year)")
+    hot.add_column("MD key")
+    hot.add_column("Date")
     hot.add_column("Tier-1 count", justify="right")
-    ref = date(2024, 1, 1)
-    for doy, count in busiest:
-        rendered = ref + timedelta(days=doy - 1)
-        hot.add_row(str(doy), rendered.strftime("%b %d"), str(count))
+    for md_key, count in busiest:
+        month, day = divmod(md_key, 100)
+        rendered = date(2024, month, day)
+        hot.add_row(f"{md_key:04d}", rendered.strftime("%b %d"), str(count))
     console.print(hot)
 
 

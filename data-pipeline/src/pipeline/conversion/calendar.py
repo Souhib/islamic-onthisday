@@ -75,16 +75,22 @@ def gregorian_to_hijri(gregorian: date) -> tuple[int, int, int]:
     return islamic.from_gregorian(gregorian.year, gregorian.month, gregorian.day)
 
 
-def greg_doy(gregorian: date) -> int:
-    """Day-of-year in the Gregorian calendar (1-366).
+def greg_md_key(gregorian: date) -> int:
+    """Stable lookup key for a Gregorian month+day combination, year-independent.
+
+    Mirrors :func:`hijri_md_key` so the today/recent pickers can use the
+    same equality-comparison shape on both calendars. Switching from a
+    day-of-year representation to month*100+day eliminates the
+    leap-year drift bug — an event on May 14 only matches May 14
+    regardless of whether either year is leap.
 
     Args:
         gregorian: Any Gregorian date.
 
     Returns:
-        An integer between 1 and 366 inclusive.
+        Integer in the range 101..1231 (e.g. May 14 → 514).
     """
-    return gregorian.timetuple().tm_yday
+    return gregorian.month * 100 + gregorian.day
 
 
 def hijri_md_key(month: int, day: int) -> int:

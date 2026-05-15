@@ -80,7 +80,7 @@ class TodayController:
 
     async def _pick_headline(self, today: date, calendar: TodayCalendar) -> Event | None:
         """Walk the importance ladder to find a curated headline for the day."""
-        doy = today.timetuple().tm_yday
+        greg_md_key = today.month * 100 + today.day
         hijri_month = hijri_month_index(calendar.hijri.month)
         md_key = hijri_month * HIJRI_MD_FACTOR + calendar.hijri.day
 
@@ -88,7 +88,7 @@ class TodayController:
             stmt = (
                 select(Event)
                 .where(
-                    (Event.display_gregorian_doy == doy) | (Event.display_hijri_md_key == md_key),
+                    (Event.display_gregorian_md_key == greg_md_key) | (Event.display_hijri_md_key == md_key),
                     Event.importance == importance,
                     Event.verification_status.in_(HEADLINE_VERIFICATION_STATUSES),
                 )
@@ -113,13 +113,13 @@ class TodayController:
         exclude_slug: str | None,
     ) -> list[Event]:
         """Pick the rotation rail of secondary events for the day."""
-        doy = today.timetuple().tm_yday
+        greg_md_key = today.month * 100 + today.day
         hijri_month = hijri_month_index(calendar.hijri.month)
         md_key = hijri_month * HIJRI_MD_FACTOR + calendar.hijri.day
         stmt = (
             select(Event)
             .where(
-                (Event.display_gregorian_doy == doy) | (Event.display_hijri_md_key == md_key),
+                (Event.display_gregorian_md_key == greg_md_key) | (Event.display_hijri_md_key == md_key),
             )
             .order_by(Event.importance.asc(), Event.canonical_gregorian_date.desc())
             .limit(TODAY_SECONDARY_LIMIT + 1)

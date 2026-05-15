@@ -26,7 +26,7 @@ from pipeline.constants import (
     WIKIDATA_SPARQL_ENDPOINT,
     WIKIDATA_USER_AGENT,
 )
-from pipeline.conversion.calendar import greg_doy, gregorian_to_hijri, hijri_md_key
+from pipeline.conversion.calendar import greg_md_key, gregorian_to_hijri, hijri_md_key
 from pipeline.models.db import DateClaim, Event, Person, Source
 from pipeline.schemas.inputs import EventCategory
 from pipeline.source_urls import wikidata_url
@@ -277,7 +277,7 @@ def _insert_person_death_event(
         canonical_hijri_precision=precision if day_precise else None,
         display_gregorian_month=death_date.month,
         display_hijri_month=hm,
-        display_gregorian_doy=greg_doy(death_date) if day_precise else None,
+        display_gregorian_md_key=greg_md_key(death_date) if day_precise else None,
         display_hijri_md_key=hijri_md_key(hm, hd) if day_precise else None,
         wikidata_qid=qid,
         source_url=wikidata_url(qid),
@@ -340,7 +340,7 @@ def _insert_battle_event(
         canonical_hijri_precision=precision if day_precise else None,
         display_gregorian_month=point_date.month,
         display_hijri_month=hm,
-        display_gregorian_doy=greg_doy(point_date) if day_precise else None,
+        display_gregorian_md_key=greg_md_key(point_date) if day_precise else None,
         display_hijri_md_key=hijri_md_key(hm, hd) if day_precise else None,
         wikidata_qid=qid,
         source_url=wikidata_url(qid),
@@ -423,7 +423,7 @@ def _insert_dated_event(
         canonical_hijri_precision=precision if day_precise else None,
         display_gregorian_month=point_date.month,
         display_hijri_month=hm,
-        display_gregorian_doy=greg_doy(point_date) if day_precise else None,
+        display_gregorian_md_key=greg_md_key(point_date) if day_precise else None,
         display_hijri_md_key=hijri_md_key(hm, hd) if day_precise else None,
         wikidata_qid=qid,
         source_url=wikidata_url(qid),

@@ -99,12 +99,12 @@ class RecentController:
         SQLite can use them without a sort; the per-day chosen row is the
         first one we see for that date in the importance walk.
         """
-        doys = {d: d.timetuple().tm_yday for d in dates}
+        greg_md_keys = {d: d.month * 100 + d.day for d in dates}
         md_keys = {
             d: hijri_month_index(c.hijri.month) * HIJRI_MD_FACTOR + c.hijri.day
             for d, c in zip(dates, calendars, strict=True)
         }
-        all_doys = list(doys.values())
+        all_greg_md = list(greg_md_keys.values())
         all_md_keys = list(md_keys.values())
 
         result: dict[date, Event] = {}
@@ -112,7 +112,7 @@ class RecentController:
             stmt = (
                 select(Event)
                 .where(
-                    Event.display_gregorian_doy.in_(all_doys) | Event.display_hijri_md_key.in_(all_md_keys),
+                    Event.display_gregorian_md_key.in_(all_greg_md) | Event.display_hijri_md_key.in_(all_md_keys),
                     Event.importance == importance,
                     Event.verification_status.in_(HEADLINE_VERIFICATION_STATUSES),
                 )
@@ -126,10 +126,10 @@ class RecentController:
             for d in dates:
                 if d in result:
                     continue
-                doy = doys[d]
+                greg_md = greg_md_keys[d]
                 md = md_keys[d]
                 for ev in rows:
-                    if ev.display_gregorian_doy == doy or ev.display_hijri_md_key == md:
+                    if ev.display_gregorian_md_key == greg_md or ev.display_hijri_md_key == md:
                         result[d] = ev
                         break
         return result
